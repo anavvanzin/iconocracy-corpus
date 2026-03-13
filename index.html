@@ -1,0 +1,2422 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+
+<!-- Perplexity Computer Attribution — SEO Meta Tags -->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iconocracy Corpus — Female Allegory in Legal Iconography</title>
+<meta name="description" content="A searchable academic database of feminist legal iconography from European and Brazilian archives. PhD Research Corpus — PPGD/UFSC.">
+<meta property="og:title" content="Iconocracy Corpus">
+<meta property="og:description" content="Female Allegory in the History of Legal Culture (19th–20th c.) — PhD Research Corpus">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+
+<style>
+/* ===== CSS CUSTOM PROPERTIES ===== */
+:root {
+  --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Dark theme (default) */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #242424;
+  --bg-card: #2a2a2a;
+  --bg-card-hover: #333333;
+  --bg-modal: #1e1e1e;
+  --bg-input: #2e2e2e;
+  --text-primary: #f5f0e6;
+  --text-secondary: #c4bfb3;
+  --text-muted: #8a857a;
+  --accent: #a0522d;
+  --accent-hover: #b8653a;
+  --accent-light: rgba(160, 82, 45, 0.15);
+  --accent-border: rgba(160, 82, 45, 0.3);
+  --border: #3a3a3a;
+  --border-light: #2e2e2e;
+  --shadow: 0 2px 8px rgba(0,0,0,0.3);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.4);
+  --pill-bg: #333333;
+  --pill-active-bg: #a0522d;
+  --pill-active-text: #f5f0e6;
+  --pill-text: #c4bfb3;
+  --stats-bg: #242424;
+  --toast-bg: #a0522d;
+  --toast-text: #f5f0e6;
+  --placeholder-bg: #3a3a3a;
+  --placeholder-icon: #5a5a5a;
+  --scrollbar-track: #2a2a2a;
+  --scrollbar-thumb: #4a4a4a;
+}
+
+[data-theme="light"] {
+  --bg-primary: #f5f0e6;
+  --bg-secondary: #ebe6da;
+  --bg-card: #ffffff;
+  --bg-card-hover: #faf8f3;
+  --bg-modal: #ffffff;
+  --bg-input: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a4540;
+  --text-muted: #7a756c;
+  --accent: #8b3a1a;
+  --accent-hover: #a0522d;
+  --accent-light: rgba(139, 58, 26, 0.1);
+  --accent-border: rgba(139, 58, 26, 0.25);
+  --border: #d4cfc3;
+  --border-light: #e4dfd3;
+  --shadow: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+  --pill-bg: #e4dfd3;
+  --pill-active-bg: #8b3a1a;
+  --pill-active-text: #f5f0e6;
+  --pill-text: #4a4540;
+  --stats-bg: #ebe6da;
+  --toast-bg: #8b3a1a;
+  --toast-text: #f5f0e6;
+  --placeholder-bg: #e4dfd3;
+  --placeholder-icon: #b0aa9e;
+  --scrollbar-track: #ebe6da;
+  --scrollbar-thumb: #c4bfb3;
+}
+
+/* ===== RESET & BASE ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  font-size: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--scrollbar-track); }
+::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 4px; }
+
+/* ===== HEADER ===== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(12px);
+  background: color-mix(in srgb, var(--bg-primary) 92%, transparent);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  color: var(--accent);
+}
+
+.site-name {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 0.4rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  width: 36px;
+  height: 36px;
+}
+.theme-toggle:hover {
+  background: var(--accent-light);
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+.theme-toggle svg { width: 18px; height: 18px; }
+
+.btn-export-all {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: var(--accent);
+  color: var(--pill-active-text);
+  border: none;
+  padding: 0.45rem 0.9rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+.btn-export-all:hover { background: var(--accent-hover); }
+.btn-export-all svg { width: 14px; height: 14px; }
+
+/* ===== HERO ===== */
+.hero {
+  padding: 4rem 1.5rem 3rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.15;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.hero-subtitle {
+  font-family: var(--font-display);
+  font-size: clamp(0.95rem, 2vw, 1.15rem);
+  font-weight: 400;
+  font-style: italic;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.hero-desc {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ===== STATS BAR ===== */
+.stats-bar {
+  background: var(--stats-bg);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  text-align: center;
+  min-width: 80px;
+}
+
+.stat-value {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  margin-top: 0.15rem;
+}
+
+/* ===== SEARCH & FILTERS ===== */
+.controls {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 0;
+}
+
+.search-container {
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem 1rem 0.75rem 2.75rem;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-primary);
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.search-input::placeholder { color: var(--text-muted); }
+.search-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-light);
+}
+
+.search-clear {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 4px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.search-clear:hover { color: var(--text-primary); }
+.search-clear.visible { display: flex; }
+.search-clear svg { width: 16px; height: 16px; }
+
+.filter-section {
+  margin-bottom: 1rem;
+}
+
+.filter-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+
+.filter-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+.filter-clear {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  color: var(--accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.filter-clear.visible { opacity: 1; }
+.filter-clear:hover { text-decoration: underline; }
+
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.pill {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.3rem 0.7rem;
+  border-radius: 100px;
+  border: 1px solid var(--border);
+  background: var(--pill-bg);
+  color: var(--pill-text);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  user-select: none;
+}
+.pill:hover {
+  border-color: var(--accent-border);
+  background: var(--accent-light);
+  color: var(--text-primary);
+}
+.pill.active {
+  background: var(--pill-active-bg);
+  color: var(--pill-active-text);
+  border-color: var(--pill-active-bg);
+}
+
+.results-summary {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--border-light);
+}
+.results-summary strong {
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+/* ===== CARD GRID ===== */
+.grid-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+}
+.card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-border);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.card-thumb {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: var(--placeholder-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.card:hover .card-thumb img {
+  transform: scale(1.05);
+}
+
+.thumb-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--placeholder-icon);
+}
+.thumb-placeholder svg {
+  width: 40px;
+  height: 40px;
+  opacity: 0.5;
+}
+.thumb-placeholder span {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.5;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-badges {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+.badge-country {
+  background: var(--accent-light);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+}
+.badge-archive {
+  background: var(--pill-bg);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+
+.card-title {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--text-primary);
+  margin-bottom: 0.35rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-meta {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+.card-meta .creator {
+  color: var(--text-secondary);
+}
+
+.card-cite-btn {
+  position: absolute;
+  bottom: 0.75rem;
+  right: 0.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.3rem;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  z-index: 2;
+}
+.card:hover .card-cite-btn { opacity: 1; }
+.card-cite-btn:hover {
+  background: var(--accent);
+  color: var(--pill-active-text);
+  border-color: var(--accent);
+}
+.card-cite-btn svg { width: 14px; height: 14px; }
+
+/* ===== EMPTY STATE ===== */
+.empty-state {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: var(--text-muted);
+}
+.empty-state svg {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+  opacity: 0.4;
+}
+.empty-state h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+.empty-state p { font-size: 0.85rem; }
+
+/* ===== MODAL ===== */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.25s ease;
+  backdrop-filter: blur(4px);
+}
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  background: var(--bg-modal);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  max-width: 720px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: var(--shadow-lg);
+  transform: translateY(20px) scale(0.97);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+.modal-overlay.active .modal {
+  transform: translateY(0) scale(1);
+}
+
+.modal-header {
+  position: sticky;
+  top: 0;
+  background: var(--bg-modal);
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  z-index: 1;
+}
+
+.modal-close {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.35rem;
+  transition: all 0.2s;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-close:hover {
+  background: var(--accent-light);
+  color: var(--accent);
+  border-color: var(--accent-border);
+}
+.modal-close svg { width: 18px; height: 18px; }
+
+.modal-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-primary);
+}
+
+.modal-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  background: var(--placeholder-bg);
+  display: block;
+}
+
+.modal-body {
+  padding: 1.5rem;
+}
+
+.modal-section {
+  margin-bottom: 1.5rem;
+}
+.modal-section:last-child { margin-bottom: 0; }
+
+.modal-section-title {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.modal-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.meta-item label {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.15rem;
+}
+.meta-item span {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.motif-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+.motif-tag {
+  font-size: 0.72rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 100px;
+  background: var(--accent-light);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+}
+
+.citation-box {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+.citation-box p {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.citation-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn-cite {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--pill-bg);
+  color: var(--pill-text);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.btn-cite:hover {
+  background: var(--accent);
+  color: var(--pill-active-text);
+  border-color: var(--accent);
+}
+.btn-cite svg { width: 13px; height: 13px; }
+
+.btn-source {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--pill-active-text);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.btn-source:hover {
+  background: var(--accent-hover);
+}
+.btn-source svg { width: 13px; height: 13px; }
+
+/* ===== TOAST ===== */
+.toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--toast-bg);
+  color: var(--toast-text);
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  z-index: 300;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.footer-main {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.footer-sub {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.footer-sub a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-sub a:hover { text-decoration: underline; }
+
+.footer-attribution {
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+.footer-attribution a {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+.footer-attribution a:hover { color: var(--accent); }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .hero { padding: 2.5rem 1rem 2rem; }
+  .hero-title { font-size: 1.8rem; }
+  .stats-bar { gap: 1rem; padding: 0.75rem 1rem; }
+  .stat-value { font-size: 1.2rem; }
+  .controls { padding: 1rem 1rem 0; }
+  .grid-container { padding: 0 1rem 2rem; }
+  .card-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .card-cite-btn { opacity: 1; }
+  .meta-grid { grid-template-columns: 1fr; }
+  .modal { max-height: 90vh; border-radius: 12px; }
+  .modal-overlay { padding: 0.75rem; }
+  .site-header { padding: 0.6rem 1rem; }
+  .site-name { font-size: 0.95rem; }
+  .btn-export-all span.desktop { display: none; }
+}
+
+@media (min-width: 769px) {
+  .btn-export-all span.mobile { display: none; }
+  .card-grid { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+}
+
+@media (min-width: 1024px) {
+  .card-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card { animation: fadeInUp 0.4s ease both; }
+.card:nth-child(2) { animation-delay: 0.03s; }
+.card:nth-child(3) { animation-delay: 0.06s; }
+.card:nth-child(4) { animation-delay: 0.09s; }
+.card:nth-child(5) { animation-delay: 0.12s; }
+.card:nth-child(6) { animation-delay: 0.15s; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="header-left">
+    <div class="site-logo">
+      <svg class="logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Iconocracy Corpus">
+        <rect x="4" y="2" width="24" height="28" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+        <line x1="9" y1="8" x2="23" y2="8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="9" y1="13" x2="23" y2="13" stroke="currentColor" stroke-width="1"/>
+        <line x1="9" y1="17" x2="20" y2="17" stroke="currentColor" stroke-width="1"/>
+        <circle cx="16" cy="24" r="3" stroke="currentColor" stroke-width="1.5" fill="none"/>
+        <line x1="16" y1="21" x2="16" y2="27" stroke="currentColor" stroke-width="1"/>
+        <line x1="13.5" y1="23" x2="18.5" y2="25" stroke="currentColor" stroke-width="0.8"/>
+        <line x1="18.5" y1="23" x2="13.5" y2="25" stroke="currentColor" stroke-width="0.8"/>
+      </svg>
+      <span class="site-name">Iconocracy Corpus</span>
+    </div>
+  </div>
+  <div class="header-right">
+    <button class="btn-export-all" onclick="exportAllCitations()" title="Export all visible citations as ABNT">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      <span class="desktop">Export Citations</span>
+      <span class="mobile">Export</span>
+    </button>
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle theme">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1 class="hero-title">Iconocracy Corpus</h1>
+  <p class="hero-subtitle">Alegoria Feminina na Iconografia Jurídica · Female Allegory in Legal Iconography</p>
+  <p class="hero-desc">A searchable database of feminist legal iconography across European and Brazilian archives, documenting how female allegorical figures — Justice, the Republic, Marianne, Justitia — have shaped the visual vocabulary of law and state power from the Renaissance to the 20th century.</p>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar" id="statsBar"></div>
+
+<!-- CONTROLS -->
+<div class="controls">
+  <div class="search-container">
+    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" class="search-input" id="searchInput" placeholder="Search by title, creator, description, tags, or motif…" autocomplete="off">
+    <button class="search-clear" id="searchClear" onclick="clearSearch()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+
+  <div id="filtersContainer"></div>
+
+  <div class="results-summary" id="resultsSummary"></div>
+</div>
+
+<!-- CARD GRID -->
+<div class="grid-container">
+  <div class="card-grid" id="cardGrid"></div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal" id="modal" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <h2 class="modal-title" id="modalTitle"></h2>
+      <button class="modal-close" onclick="closeModal()" aria-label="Close detail view">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <p class="footer-main">Iconocracy: Female Allegory in the History of Legal Culture (19th–20th c.)<br>PhD Research Corpus · PPGD/UFSC</p>
+  <p class="footer-sub">Built as a digital humanities research tool for doctoral dissertation work.</p>
+  <p class="footer-attribution">
+    <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+  </p>
+</footer>
+
+<script>
+// ===== CORPUS DATA =====
+const CORPUS = [
+  {
+    "id": "BR-001",
+    "title": "Estátua feminina na abertura da amostra dos produtos do Rio Grande do Sul",
+    "date": "1908",
+    "period": "Early Republic (1889–1930)",
+    "creator": "José Boscagli (photographer)",
+    "institution": "Museu Histórico Nacional",
+    "source_archive": "Brasiliana Fotográfica",
+    "country": "Brazil",
+    "medium": "Photograph (p&b)",
+    "motif": [
+      "Alegoria feminina",
+      "Exposição Nacional",
+      "Estátua"
+    ],
+    "description": "Black and white photograph showing a female statue displayed at the National Exhibition of 1908. Female allegorical figure representing progress and abundance at the Rio Grande do Sul exhibition pavilion.",
+    "url": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778",
+    "thumbnail_url": "https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/11778/0000001.JPG.jpg?sequence=3&isAllowed=y",
+    "rights": "Public access",
+    "citation_abnt": "BOSCAGLI, José. [Estátua feminina na abertura da amostra dos produtos do Rio Grande do Sul]. 1908. 1 fotografia, p&b, 16,5 x 23 cm. Museu Histórico Nacional. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778.",
+    "citation_chicago": "Boscagli, José. Estátua feminina na abertura da amostra dos produtos do Rio Grande do Sul. 1908. Photograph. Museu Histórico Nacional. Brasiliana Fotográfica. https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778.",
+    "tags": [
+      "female allegory",
+      "exhibition",
+      "statue",
+      "Republic",
+      "Rio Grande do Sul"
+    ]
+  },
+  {
+    "id": "BR-002",
+    "title": "Detalhe do monumento à República, Praça da República, Belém",
+    "date": "1940",
+    "period": "Estado Novo (1937–1945)",
+    "creator": "Unknown (Getúlio Vargas visit album)",
+    "institution": "Museu da República / IBRAM",
+    "source_archive": "Brasiliana Fotográfica",
+    "country": "Brazil",
+    "medium": "Photograph (p&b)",
+    "motif": [
+      "República",
+      "Alegoria feminina",
+      "Monumento",
+      "Bandeira"
+    ],
+    "description": "Close-up detail of female allegorical figure holding a flag, standing on a lion. Part of the Monument to the Republic in Praça da República, Belém. The female figure personifies the Brazilian Republic with classical republican iconography — flag, lion (strength), classical garb.",
+    "url": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609",
+    "thumbnail_url": "https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/13609/GV%20dvft%20004%20-%20Visita%20de%20Get%c3%balio%20a%20Bel%c3%a9m%20do%20Par%c3%a1%20Out19400000095.JPG.jpg?sequence=3&isAllowed=y",
+    "rights": "Public access",
+    "citation_abnt": "MONUMENTO à República, Praça da República, Belém. 1940. 1 fotografia, p&b. In: Álbum de fotografias da visita de Getúlio Vargas a Belém. Museu da República/IBRAM. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609.",
+    "citation_chicago": "\"Detalhe do monumento à República, Praça da República, Belém.\" 1940. Photograph. In Álbum de fotografias da visita de Getúlio Vargas a Belém. Museu da República/IBRAM. Brasiliana Fotográfica. https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609.",
+    "tags": [
+      "Republic monument",
+      "female allegory",
+      "Belém",
+      "Getúlio Vargas",
+      "Estado Novo"
+    ]
+  },
+  {
+    "id": "BR-003",
+    "title": "Monumento à República, Praça da República, Belém (vista geral)",
+    "date": "1940",
+    "period": "Estado Novo (1937–1945)",
+    "creator": "Unknown (Getúlio Vargas visit album)",
+    "institution": "Museu da República / IBRAM",
+    "source_archive": "Brasiliana Fotográfica",
+    "country": "Brazil",
+    "medium": "Photograph (p&b)",
+    "motif": [
+      "República",
+      "Alegoria feminina",
+      "Monumento",
+      "Coluna"
+    ],
+    "description": "Full view of Monument to the Republic with female allegorical figure atop a column in Praça da República, Belém. The towering female figure dominates the urban landscape, arms raised, embodying the Republic.",
+    "url": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611",
+    "thumbnail_url": "https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/13611/GV%20dvft%20004%20-%20Visita%20de%20Get%c3%balio%20a%20Bel%c3%a9m%20do%20Par%c3%a1%20Out19400000097.JPG.jpg?sequence=3&isAllowed=y",
+    "rights": "Public access",
+    "citation_abnt": "MONUMENTO à República, Praça da República, Belém. 1940. 1 fotografia, p&b. In: Álbum de fotografias da visita de Getúlio Vargas a Belém. Museu da República/IBRAM. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611.",
+    "citation_chicago": "\"Monumento à República, Praça da República, Belém.\" 1940. Photograph. In Álbum de fotografias da visita de Getúlio Vargas a Belém. Museu da República/IBRAM. Brasiliana Fotográfica. https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611.",
+    "tags": [
+      "Republic monument",
+      "female allegory",
+      "Belém",
+      "column",
+      "Estado Novo"
+    ]
+  },
+  {
+    "id": "BR-004",
+    "title": "Jardim do Campo da Aclamação (Campo de Santana): estátuas do Outono e da Primavera",
+    "date": "c. 1925",
+    "period": "Old Republic (1889–1930)",
+    "creator": "Guilherme Santos (photographer)",
+    "institution": "Instituto Moreira Salles (IMS)",
+    "source_archive": "Brasiliana Fotográfica",
+    "country": "Brazil",
+    "medium": "Photograph (Gelatin/Silver, sepia)",
+    "motif": [
+      "Alegoria feminina",
+      "Estações",
+      "Escultura",
+      "Jardim público"
+    ],
+    "description": "Sepia photograph showing female allegorical statues representing the seasons of Autumn and Spring in Campo de Santana (formerly Campo da Aclamação), Rio de Janeiro. Female figures as seasonal allegories in a republican public space — note the location at Praça da República.",
+    "url": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529",
+    "thumbnail_url": "https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/11529/002080RJ0118.jpg.jpg?sequence=2&isAllowed=y",
+    "rights": "Public access",
+    "citation_abnt": "SANTOS, Guilherme. Jardim do Campo da Aclamação, atual Campo de Santana; estátuas do Outono e da Primavera. c. 1925. 1 fotografia, gelatina/prata, sépia, 4,5 x 11 cm. Instituto Moreira Salles. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529.",
+    "citation_chicago": "Santos, Guilherme. Jardim do Campo da Aclamação, atual Campo de Santana; estátuas do Outono e da Primavera. c. 1925. Photograph. Instituto Moreira Salles. Brasiliana Fotográfica. https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529.",
+    "tags": [
+      "female allegory",
+      "seasons",
+      "sculpture",
+      "Campo de Santana",
+      "Rio de Janeiro"
+    ]
+  },
+  {
+    "id": "BR-005",
+    "title": "Alegoria da República (Décio Villares)",
+    "date": "c. 1900",
+    "period": "Early Republic (1889–1930)",
+    "creator": "Décio Villares (1851–1931)",
+    "institution": "Museu Histórico Nacional",
+    "source_archive": "NYU Faculty Digital Archive / Brasiliana Museus",
+    "country": "Brazil",
+    "medium": "Oil on canvas (sketch, 97 × 77 cm)",
+    "motif": [
+      "República",
+      "Alegoria feminina",
+      "Positivismo",
+      "Barrete frígio"
+    ],
+    "description": "Allegorical painting of the Brazilian Republic by Décio Villares, the positivist artist who designed the blue disc on Brazil's national flag. The female figure wears a Phrygian cap inscribed with 'Ordem e Progresso' — directly linking republican feminine allegory to positivist ideology. Key work for understanding how European allegorical forms were transplanted and adapted in Brazilian republican iconography.",
+    "url": "https://archive.nyu.edu/handle/2451/61396",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/D%C3%A9cio_Villares_-_A_Rep%C3%BAblica.jpg/800px-D%C3%A9cio_Villares_-_A_Rep%C3%BAblica.jpg",
+    "rights": "Public domain",
+    "citation_abnt": "VILLARES, Décio. Alegoria da República. c. 1900. 1 pintura, óleo sobre tela, 97 x 77 cm. Museu Histórico Nacional. Disponível em: https://archive.nyu.edu/handle/2451/61396.",
+    "citation_chicago": "Villares, Décio. Alegoria da República. c. 1900. Oil on canvas, 97 × 77 cm. Museu Histórico Nacional. NYU Faculty Digital Archive. https://archive.nyu.edu/handle/2451/61396.",
+    "tags": [
+      "Republic",
+      "female allegory",
+      "positivism",
+      "Phrygian cap",
+      "Ordem e Progresso",
+      "painting"
+    ]
+  },
+  {
+    "id": "BR-006",
+    "title": "Alegoria da República (Carlos Chambelland)",
+    "date": "1922",
+    "period": "Old Republic (1889–1930)",
+    "creator": "Carlos Chambelland",
+    "institution": "Museu Histórico Nacional",
+    "source_archive": "Brasiliana Museus",
+    "country": "Brazil",
+    "medium": "Oil on canvas (202 × 152 cm)",
+    "motif": [
+      "República",
+      "Alegoria feminina",
+      "Centenário",
+      "Anjo"
+    ],
+    "description": "Allegorical painting commissioned for Brazil's centennial of independence (1922). Female figure in flowing white and green robes, arm raised, accompanied by an angel, with male figures holding manuscripts below — blending republican allegory with national celebration.",
+    "url": "https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "CHAMBELLAND, Carlos. Alegoria da República. 1922. 1 pintura, óleo sobre tela, 202 x 152 cm. Museu Histórico Nacional. Disponível em: https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/.",
+    "citation_chicago": "Chambelland, Carlos. Alegoria da República. 1922. Oil on canvas, 202 × 152 cm. Museu Histórico Nacional. Brasiliana Museus. https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/.",
+    "tags": [
+      "Republic",
+      "female allegory",
+      "centennial",
+      "painting",
+      "angel"
+    ]
+  },
+  {
+    "id": "BR-007",
+    "title": "As Estátuas Fallando (The Statues Speaking) — Justiça",
+    "date": "1827",
+    "period": "Empire (1822–1889)",
+    "creator": "Unknown (periodical 'BRASIL')",
+    "institution": "Fundação Biblioteca Nacional",
+    "source_archive": "Hemeroteca Digital Brasileira",
+    "country": "Brazil",
+    "medium": "Periodical text",
+    "motif": [
+      "Justiça",
+      "Estátua falante",
+      "Diálogo alegórico",
+      "Verdade"
+    ],
+    "description": "Article titled 'As Estátuas Fallando' (The Statues Speaking) featuring a literary dialogue where Justice appears as an animated statue character. 'A Verdade: Que dizes, ó Justiça?' (Truth: What do you say, oh Justice?). Early Brazilian example of Justice personified as a speaking female figure in periodical press.",
+    "url": "http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "AS ESTÁTUAS fallando. Brasil, n. 60, 1827. p. [s.n.]. Disponível em: http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf.",
+    "citation_chicago": "\"As Estátuas Fallando.\" Brasil, no. 60 (1827). Hemeroteca Digital Brasileira. http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf.",
+    "tags": [
+      "Justice",
+      "speaking statues",
+      "allegory",
+      "periodical",
+      "Empire",
+      "Truth"
+    ]
+  },
+  {
+    "id": "BR-008",
+    "title": "Estátua da Justiça (Luiz Rochet) — referência no Almanak Laemmert",
+    "date": "1872 (inaugurated); 1929 (reference)",
+    "period": "Empire (1822–1889) / Old Republic",
+    "creator": "Luiz Rochet (sculptor); Almanak Laemmert (source)",
+    "institution": "Fundação Biblioteca Nacional",
+    "source_archive": "Hemeroteca Digital Brasileira",
+    "country": "Brazil",
+    "medium": "Periodical reference to sculpture",
+    "motif": [
+      "Justiça",
+      "Estátua",
+      "Escultor francês",
+      "Praça pública"
+    ],
+    "description": "Reference in the Almanak Laemmert (1929 edition) to the statue of Justice by French sculptor Luiz Rochet, inaugurated September 1872. Alongside statues of History, Poetry and Science. Documents the importation of French allegorical sculpture into Brazilian public space.",
+    "url": "http://memoria.bn.br/docreader/webindex/WIPagina/313394/101306",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "ALMANAK Laemmert. Rio de Janeiro, 1929. ed. A00085, p. 542. Disponível em: http://memoria.bn.br/docreader/webindex/WIPagina/313394/101306.",
+    "citation_chicago": "Almanak Laemmert. Rio de Janeiro, 1929, ed. A00085, p. 542. Hemeroteca Digital Brasileira. http://memoria.bn.br/docreader/webindex/WIPagina/313394/101306.",
+    "tags": [
+      "Justice",
+      "statue",
+      "French sculptor",
+      "public space",
+      "imported allegory"
+    ]
+  },
+  {
+    "id": "FR-001",
+    "title": "La Justice, la Vengeance et la Vérité",
+    "date": "1865",
+    "period": "Second Empire (1852–1870)",
+    "creator": "François-Nicolas Chifflart",
+    "institution": "Bibliothèque nationale de France",
+    "source_archive": "Gallica",
+    "country": "France",
+    "medium": "Engraving (estampe)",
+    "motif": [
+      "Justice",
+      "Vengeance",
+      "Vérité",
+      "Allégorie féminine"
+    ],
+    "description": "Engraving depicting three female allegorical figures: Justice, Vengeance, and Truth. A powerful composition showing Justice as a dominant female presence, flanked by Truth and divine Vengeance — key triad in French republican allegorical vocabulary.",
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b531737635",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "CHIFFLART, François-Nicolas. La Justice, la Vengeance et la Vérité. 1865. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b531737635.",
+    "citation_chicago": "Chifflart, François-Nicolas. La Justice, la Vengeance et la Vérité. 1865. Engraving. Bibliothèque nationale de France. Gallica. https://gallica.bnf.fr/ark:/12148/btv1b531737635.",
+    "tags": [
+      "Justice",
+      "Truth",
+      "Vengeance",
+      "female allegory",
+      "engraving",
+      "Second Empire"
+    ]
+  },
+  {
+    "id": "FR-002",
+    "title": "Le triomphe de la Justice et de la Vérité",
+    "date": "1865",
+    "period": "Second Empire (1852–1870)",
+    "creator": "François-Nicolas Chifflart",
+    "institution": "Bibliothèque nationale de France",
+    "source_archive": "Gallica",
+    "country": "France",
+    "medium": "Engraving (estampe)",
+    "motif": [
+      "Justice",
+      "Vérité",
+      "Triomphe",
+      "Allégorie féminine"
+    ],
+    "description": "Engraving showing the triumph of Justice and Truth as female allegorical figures. Complete state with full lettering. Part of Chifflart's series on juridical allegory.",
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b531737529",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "CHIFFLART, François-Nicolas. Le triomphe de la Justice et de la Vérité. 1865. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b531737529.",
+    "citation_chicago": "Chifflart, François-Nicolas. Le triomphe de la Justice et de la Vérité. 1865. Engraving. Bibliothèque nationale de France. Gallica. https://gallica.bnf.fr/ark:/12148/btv1b531737529.",
+    "tags": [
+      "Justice",
+      "Truth",
+      "triumph",
+      "female allegory",
+      "engraving"
+    ]
+  },
+  {
+    "id": "FR-003",
+    "title": "L'envoyé de la Justice",
+    "date": "1859",
+    "period": "Second Empire (1852–1870)",
+    "creator": "François-Nicolas Chifflart",
+    "institution": "Bibliothèque nationale de France",
+    "source_archive": "Gallica",
+    "country": "France",
+    "medium": "Engraving (estampe)",
+    "motif": [
+      "Justice",
+      "Envoyé",
+      "Allégorie féminine"
+    ],
+    "description": "Engraving titled 'The Envoy of Justice' — depicting a figure sent by Justice (as a female allegorical power). Early example in the series of Justice representations by Chifflart.",
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53173732g",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "CHIFFLART, François-Nicolas. L'envoyé de la Justice. 1859. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b53173732g.",
+    "citation_chicago": "Chifflart, François-Nicolas. L'envoyé de la Justice. 1859. Engraving. Bibliothèque nationale de France. Gallica. https://gallica.bnf.fr/ark:/12148/btv1b53173732g.",
+    "tags": [
+      "Justice",
+      "envoy",
+      "female allegory",
+      "engraving"
+    ]
+  },
+  {
+    "id": "FR-004",
+    "title": "Marianne enseignant l'alphabet à des enfants (naïades et Marianne)",
+    "date": "1859–1910",
+    "period": "Third Republic (1870–1940)",
+    "creator": "Unknown",
+    "institution": "Bibliothèque nationale de France",
+    "source_archive": "Gallica",
+    "country": "France",
+    "medium": "Engraving (estampe)",
+    "motif": [
+      "Marianne",
+      "République",
+      "Éducation",
+      "Allégorie féminine"
+    ],
+    "description": "Engravings depicting naiads and Marianne teaching the alphabet to children. Powerful image of the Republic-as-woman as educator — embodying the republican ideal of laïcité and public instruction through a female allegorical figure.",
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b10574064v",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "ESTAMPES représentant des naïades et Marianne enseignant l'alphabet à des enfants. [1859-1910]. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b10574064v.",
+    "citation_chicago": "\"Estampes représentant des naïades et Marianne enseignant l'alphabet à des enfants.\" 1859–1910. Engraving. Bibliothèque nationale de France. Gallica. https://gallica.bnf.fr/ark:/12148/btv1b10574064v.",
+    "tags": [
+      "Marianne",
+      "Republic",
+      "education",
+      "female allegory",
+      "children",
+      "laïcité"
+    ]
+  },
+  {
+    "id": "FR-005",
+    "title": "La République aimable (Félicien Rops)",
+    "date": "1871",
+    "period": "Third Republic (1870–1940)",
+    "creator": "Félicien Rops",
+    "institution": "Bibliothèque nationale de France",
+    "source_archive": "Gallica",
+    "country": "France",
+    "medium": "Engraving (estampe)",
+    "motif": [
+      "République",
+      "Allégorie féminine",
+      "Satire",
+      "Corps féminin"
+    ],
+    "description": "Satirical engraving by Belgian-French artist Félicien Rops depicting 'The Amiable Republic' — a subversive or eroticized representation of the Republic as a woman. Critical for understanding the contested gendered nature of republican allegory and its use in satirical press.",
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b531842166",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "ROPS, Félicien. La République aimable. 1871. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b531842166.",
+    "citation_chicago": "Rops, Félicien. La République aimable. 1871. Engraving. Bibliothèque nationale de France. Gallica. https://gallica.bnf.fr/ark:/12148/btv1b531842166.",
+    "tags": [
+      "Republic",
+      "female allegory",
+      "satire",
+      "Félicien Rops",
+      "eroticism"
+    ]
+  },
+  {
+    "id": "FR-006",
+    "title": "The French Crisis: Madame La République",
+    "date": "1887",
+    "period": "Third Republic (1870–1940)",
+    "creator": "Unknown",
+    "institution": "Bibliothèque nationale de France",
+    "source_archive": "Gallica",
+    "country": "France",
+    "medium": "Political cartoon (estampe)",
+    "motif": [
+      "République",
+      "Crise",
+      "Allégorie féminine",
+      "Caricature politique"
+    ],
+    "description": "Political cartoon from 1887 showing 'Madame La République' during the French political crisis. The Republic personified as a woman under stress — a key document of how female allegory was deployed during political instability.",
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b8438243t",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "THE FRENCH crisis: Madame La République. 1887. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8438243t.",
+    "citation_chicago": "\"The French Crisis: Madame La République.\" 1887. Political cartoon. Bibliothèque nationale de France. Gallica. https://gallica.bnf.fr/ark:/12148/btv1b8438243t.",
+    "tags": [
+      "Republic",
+      "political crisis",
+      "female allegory",
+      "cartoon",
+      "Marianne"
+    ]
+  },
+  {
+    "id": "FR-007",
+    "title": "République Française: 3e Emprunt de la Défense nationale",
+    "date": "1917",
+    "period": "Third Republic / WWI (1914–1918)",
+    "creator": "René Lelong (1871–1933)",
+    "institution": "Bibliothèque nationale de France",
+    "source_archive": "Europeana / Gallica",
+    "country": "France",
+    "medium": "Propaganda poster (print/engraving)",
+    "motif": [
+      "Marianne",
+      "République",
+      "Guerre",
+      "Défense nationale",
+      "Allégorie féminine"
+    ],
+    "description": "WWI propaganda poster for the 3rd National Defense loan. Marianne stands triumphantly above soldiers, embodying the Republic rallying her citizens to war. The female allegory mobilized for military propaganda — a critical junction of gender, state power, and visual persuasion.",
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v",
+    "thumbnail_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10051217v/f1/full/full/0/native.jpg",
+    "rights": "No Copyright – Other Known Legal Restrictions",
+    "citation_abnt": "LELONG, René. République Française: 3e Emprunt de la Défense nationale. 1917. 1 cartaz. Bibliothèque nationale de France. Disponível em: https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v.",
+    "citation_chicago": "Lelong, René. République Française: 3e Emprunt de la Défense nationale. 1917. Propaganda poster. Bibliothèque nationale de France. Europeana. https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v.",
+    "tags": [
+      "Marianne",
+      "Republic",
+      "WWI",
+      "propaganda",
+      "defense loan",
+      "female allegory"
+    ]
+  },
+  {
+    "id": "FR-008",
+    "title": "La République nous appelle... (Steinlen)",
+    "date": "1915",
+    "period": "Third Republic / WWI (1914–1918)",
+    "creator": "Théophile Alexandre Steinlen (1859–1923)",
+    "institution": "Bibliothèque nationale de France",
+    "source_archive": "Europeana / Gallica",
+    "country": "France",
+    "medium": "Lithograph / propaganda poster",
+    "motif": [
+      "Marianne",
+      "République",
+      "Appel",
+      "Guerre",
+      "Allégorie féminine"
+    ],
+    "description": "WWI recruitment poster: 'The Republic calls us...' — Marianne as a summoning female figure, calling citizens to arms. Steinlen's powerful composition shows the Republic-as-woman as a quasi-maternal/military figure demanding sacrifice.",
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10510623s",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "STEINLEN, Théophile Alexandre. La République nous appelle. 1915. 1 litografia. Bibliothèque nationale de France. Disponível em: https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10510623s.",
+    "citation_chicago": "Steinlen, Théophile Alexandre. La République nous appelle. 1915. Lithograph. Bibliothèque nationale de France. Europeana. https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10510623s.",
+    "tags": [
+      "Marianne",
+      "Republic",
+      "WWI",
+      "recruitment",
+      "Steinlen",
+      "female allegory"
+    ]
+  },
+  {
+    "id": "FR-009",
+    "title": "Buste de la République (Agence Rol)",
+    "date": "Early 20th century",
+    "period": "Third Republic (1870–1940)",
+    "creator": "Agence Rol (photographic agency)",
+    "institution": "Bibliothèque nationale de France",
+    "source_archive": "Europeana / Gallica",
+    "country": "France",
+    "medium": "Press photograph",
+    "motif": [
+      "République",
+      "Buste",
+      "Marianne",
+      "Mairie"
+    ],
+    "description": "Press photograph of a bust sculpture representing the French Republic. Busts of Marianne became ubiquitous in French town halls (mairies) under the Third Republic — the multiplication of the female allegorical form across thousands of civic spaces.",
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b6952880n",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "BUSTE de la République. [s.d.]. 1 fotografia de imprensa. Agence Rol. Bibliothèque nationale de France. Disponível em: https://www.europeana.eu/en/item/9200518/ark__12148_btv1b6952880n.",
+    "citation_chicago": "\"Buste de la République.\" Early 20th century. Press photograph. Agence Rol. Bibliothèque nationale de France. Europeana. https://www.europeana.eu/en/item/9200518/ark__12148_btv1b6952880n.",
+    "tags": [
+      "Marianne",
+      "Republic",
+      "bust",
+      "mairie",
+      "civic space",
+      "press photograph"
+    ]
+  },
+  {
+    "id": "FR-010",
+    "title": "Le hochet de la République (Jean Veber)",
+    "date": "1868–1928 (artist's active period)",
+    "period": "Third Republic (1870–1940)",
+    "creator": "Jean Veber (1868–1928)",
+    "institution": "Bibliothèque nationale de France",
+    "source_archive": "Europeana / Gallica",
+    "country": "France",
+    "medium": "Satirical print (estampe)",
+    "motif": [
+      "République",
+      "Satire",
+      "Hochet",
+      "Allégorie féminine"
+    ],
+    "description": "Satirical print 'The Rattle of the Republic' by Jean Veber. The Republic as a woman reduced to a toy or rattle — a critical/ironic commentary on the infantilization or trivialization of republican symbolism through its female form.",
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b8577646g",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "VEBER, Jean. Le hochet de la République. [s.d.]. 1 gravura. Bibliothèque nationale de France. Disponível em: https://www.europeana.eu/en/item/9200518/ark__12148_btv1b8577646g.",
+    "citation_chicago": "Veber, Jean. Le hochet de la République. n.d. Satirical print. Bibliothèque nationale de France. Europeana. https://www.europeana.eu/en/item/9200518/ark__12148_btv1b8577646g.",
+    "tags": [
+      "Republic",
+      "satire",
+      "rattle",
+      "trivialization",
+      "female allegory"
+    ]
+  },
+  {
+    "id": "EU-001",
+    "title": "Thronende Justitia / Allegorie der strafenden Gerechtigkeit",
+    "date": "1943–1944 (photograph of earlier fresco)",
+    "period": "18th century (fresco); 20th century (photograph)",
+    "creator": "Januarius Zick (painter); Rudolf Schulze-Marburg (photographer)",
+    "institution": "Zentralinstitut für Kunstgeschichte",
+    "source_archive": "Europeana",
+    "country": "Germany",
+    "medium": "Photograph of ceiling fresco",
+    "motif": [
+      "Justitia",
+      "Trono",
+      "Gerechtigkeit",
+      "Fresco"
+    ],
+    "description": "Photograph of a ceiling fresco in Koblenz showing Justitia enthroned — the allegorical female figure of criminal justice. A German example of Justice as a seated female sovereign figure, wielding punitive authority from a throne-like position.",
+    "url": "https://www.europeana.eu/en/item/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S",
+    "thumbnail_url": "https://proxy.europeana.eu/media/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S/60083dd530e50fba0723a5b8b09fd96d",
+    "rights": "CC BY-NC-SA 4.0",
+    "citation_abnt": "ZICK, Januarius. Thronende Justitia / Allegorie der strafenden Gerechtigkeit. [séc. XVIII]. Fotografia de Schulze-Marburg, Rudolf, 1943-1944. Zentralinstitut für Kunstgeschichte. Disponível em: https://www.europeana.eu/en/item/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S.",
+    "citation_chicago": "Zick, Januarius. Thronende Justitia / Allegorie der strafenden Gerechtigkeit. 18th century. Ceiling fresco, photographed by Rudolf Schulze-Marburg, 1943–1944. Zentralinstitut für Kunstgeschichte. Europeana. https://www.europeana.eu/en/item/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S.",
+    "tags": [
+      "Justitia",
+      "enthroned",
+      "criminal justice",
+      "ceiling fresco",
+      "Germany",
+      "Koblenz"
+    ]
+  },
+  {
+    "id": "EU-002",
+    "title": "Time and Justice Reveal the Truth",
+    "date": "Unknown",
+    "period": "Early Modern",
+    "creator": "Johan Walker",
+    "institution": "Royal Institute for Cultural Heritage",
+    "source_archive": "Europeana",
+    "country": "Belgium",
+    "medium": "Image",
+    "motif": [
+      "Justice",
+      "Vérité",
+      "Temps",
+      "Allégorie féminine"
+    ],
+    "description": "Allegorical depiction showing Time and Justice revealing Truth. Belgian example of the Justice-Truth triad where Justice is personified as a woman who, together with Time, unveils Truth — a visual argument for the transparency of law.",
+    "url": "https://www.europeana.eu/en/item/2048001/AP_10342206",
+    "thumbnail_url": "",
+    "rights": "Unknown",
+    "citation_abnt": "WALKER, Johan. Time and justice reveal the truth. [s.d.]. Royal Institute for Cultural Heritage. Disponível em: https://www.europeana.eu/en/item/2048001/AP_10342206.",
+    "citation_chicago": "Walker, Johan. Time and Justice Reveal the Truth. n.d. Royal Institute for Cultural Heritage. Europeana. https://www.europeana.eu/en/item/2048001/AP_10342206.",
+    "tags": [
+      "Justice",
+      "Truth",
+      "Time",
+      "allegory",
+      "Belgium"
+    ]
+  },
+  {
+    "id": "EU-003",
+    "title": "Justitia (Jacob Matham)",
+    "date": "c. 1600",
+    "period": "Early Modern (16th–17th century)",
+    "creator": "Jacob Matham",
+    "institution": "Herzog Anton Ulrich Museum",
+    "source_archive": "Europeana",
+    "country": "Germany (Netherlands origin)",
+    "medium": "Print",
+    "motif": [
+      "Justitia",
+      "Balança",
+      "Espada",
+      "Gravura"
+    ],
+    "description": "Print depicting Justitia — the female allegorical figure of Justice with her traditional attributes (scales, sword). By Jacob Matham, a major Dutch engraver, student of Hendrick Goltzius.",
+    "url": "https://www.europeana.eu/en/item/89/item_ZCR4KC47OMJN7DRRDFTIWRQS33M7PBN2",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "MATHAM, Jacob. Justitia. c. 1600. 1 gravura. Herzog Anton Ulrich Museum. Disponível em: https://www.europeana.eu/en/item/89/item_ZCR4KC47OMJN7DRRDFTIWRQS33M7PBN2.",
+    "citation_chicago": "Matham, Jacob. Justitia. c. 1600. Print. Herzog Anton Ulrich Museum. Europeana. https://www.europeana.eu/en/item/89/item_ZCR4KC47OMJN7DRRDFTIWRQS33M7PBN2.",
+    "tags": [
+      "Justitia",
+      "scales",
+      "sword",
+      "print",
+      "Dutch Golden Age"
+    ]
+  },
+  {
+    "id": "EU-004",
+    "title": "Allegory of Justice (Charles Audran after B.P. Cortona)",
+    "date": "17th century",
+    "period": "Baroque",
+    "creator": "Charles Audran (after Pietro da Cortona)",
+    "institution": "Casanatense Library",
+    "source_archive": "Europeana",
+    "country": "Italy",
+    "medium": "Print",
+    "motif": [
+      "Justice",
+      "Allégorie féminine",
+      "Baroque"
+    ],
+    "description": "Allegorical representation of Justice, engraved by Charles Audran after an invention by Pietro da Cortona (Berrettini). Italian Baroque model of Justice as a female figure — one of the visual templates that circulated across Europe and eventually reached the Americas.",
+    "url": "https://www.europeana.eu/en/item/446/RML0348941",
+    "thumbnail_url": "",
+    "rights": "Unknown",
+    "citation_abnt": "AUDRAN, Charles. Allegory of Justice. [séc. XVII]. 1 gravura. Casanatense Library. Disponível em: https://www.europeana.eu/en/item/446/RML0348941.",
+    "citation_chicago": "Audran, Charles, after Pietro da Cortona. Allegory of Justice. 17th century. Print. Casanatense Library. Europeana. https://www.europeana.eu/en/item/446/RML0348941.",
+    "tags": [
+      "Justice",
+      "allegory",
+      "Baroque",
+      "Italy",
+      "Cortona"
+    ]
+  },
+  {
+    "id": "EU-005",
+    "title": "Justitia (Hans Kels d. J.)",
+    "date": "16th century",
+    "period": "Renaissance",
+    "creator": "Hans Kels d. J.",
+    "institution": "Kunsthistorisches Museum Wien (Fine Arts Museum Vienna)",
+    "source_archive": "Europeana",
+    "country": "Austria",
+    "medium": "Gilded relief sculpture",
+    "motif": [
+      "Justitia",
+      "Relevo",
+      "Dourado",
+      "Renascimento"
+    ],
+    "description": "Golden gilded relief sculpture depicting Justitia. A Renaissance example of the female allegorical figure of justice rendered in precious materials — connecting legal symbolism to material luxury and sovereign authority.",
+    "url": "https://www.europeana.eu/en/item/15502/KK_6068",
+    "thumbnail_url": "",
+    "rights": "Unknown",
+    "citation_abnt": "KELS, Hans d. J. Justitia. [séc. XVI]. 1 relevo dourado. Kunsthistorisches Museum Wien. Disponível em: https://www.europeana.eu/en/item/15502/KK_6068.",
+    "citation_chicago": "Kels, Hans d. J. Justitia. 16th century. Gilded relief sculpture. Kunsthistorisches Museum Wien. Europeana. https://www.europeana.eu/en/item/15502/KK_6068.",
+    "tags": [
+      "Justitia",
+      "relief",
+      "gilded",
+      "Renaissance",
+      "Vienna"
+    ]
+  },
+  {
+    "id": "EU-006",
+    "title": "Justitia, Allegory of Justice (Johann Oswald Harms)",
+    "date": "17th century",
+    "period": "Baroque",
+    "creator": "Johann Oswald Harms",
+    "institution": "Herzog Anton Ulrich Museum",
+    "source_archive": "Europeana",
+    "country": "Germany",
+    "medium": "Drawing",
+    "motif": [
+      "Justitia",
+      "Balança",
+      "Espada",
+      "Desenho"
+    ],
+    "description": "Drawing depicting Justitia — allegorical female figure of justice with scales and sword. German Baroque representation of the legal feminine allegory.",
+    "url": "https://www.europeana.eu/en/item/89/item_MH6IXNHWTECBQCNPU7IIMCFP2BDFAV76",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "HARMS, Johann Oswald. Justitia, allegory of justice. [séc. XVII]. 1 desenho. Herzog Anton Ulrich Museum. Disponível em: https://www.europeana.eu/en/item/89/item_MH6IXNHWTECBQCNPU7IIMCFP2BDFAV76.",
+    "citation_chicago": "Harms, Johann Oswald. Justitia, Allegory of Justice. 17th century. Drawing. Herzog Anton Ulrich Museum. Europeana. https://www.europeana.eu/en/item/89/item_MH6IXNHWTECBQCNPU7IIMCFP2BDFAV76.",
+    "tags": [
+      "Justitia",
+      "scales",
+      "sword",
+      "drawing",
+      "Baroque",
+      "Germany"
+    ]
+  },
+  {
+    "id": "EU-007",
+    "title": "Justitia civilis (Maarten de Vos)",
+    "date": "16th century",
+    "period": "Renaissance / Early Modern",
+    "creator": "Maarten de Vos",
+    "institution": "Royal Institute for Cultural Heritage",
+    "source_archive": "Europeana",
+    "country": "Belgium",
+    "medium": "Image",
+    "motif": [
+      "Justitia civilis",
+      "Justice civile",
+      "Allégorie féminine"
+    ],
+    "description": "Allegorical depiction of civil justice (Justitia civilis) by Flemish master Maarten de Vos. Distinction between civil and criminal justice personified as separate female figures — important for understanding the multiplication of legal feminine allegories.",
+    "url": "https://www.europeana.eu/en/item/2048001/AP_10133590",
+    "thumbnail_url": "",
+    "rights": "Unknown",
+    "citation_abnt": "VOS, Maarten de. Justitia civilis. [séc. XVI]. Royal Institute for Cultural Heritage. Disponível em: https://www.europeana.eu/en/item/2048001/AP_10133590.",
+    "citation_chicago": "Vos, Maarten de. Justitia civilis. 16th century. Royal Institute for Cultural Heritage. Europeana. https://www.europeana.eu/en/item/2048001/AP_10133590.",
+    "tags": [
+      "civil justice",
+      "Justitia civilis",
+      "Flemish art",
+      "Belgium",
+      "female allegory"
+    ]
+  },
+  {
+    "id": "EU-008",
+    "title": "Allegory with Justizia, crowned by a putto",
+    "date": "18th century",
+    "period": "Baroque / Rococo",
+    "creator": "Kaspar Waldmann",
+    "institution": "Albertina Museum",
+    "source_archive": "Europeana",
+    "country": "Austria",
+    "medium": "Drawing",
+    "motif": [
+      "Justitia",
+      "Putto",
+      "Coroa",
+      "Nuvem",
+      "Balança"
+    ],
+    "description": "Allegorical representation of Justizia resting on clouds, being crowned by a putto (cherub), with scales visible. Justice as a celestial female figure receiving divine coronation — the theological dimension of legal allegory.",
+    "url": "https://www.europeana.eu/en/item/15508/30435",
+    "thumbnail_url": "",
+    "rights": "Unknown",
+    "citation_abnt": "WALDMANN, Kaspar. Allegory with Justizia, resting on a cloudbank, crowned by a putto. [séc. XVIII]. 1 desenho. Albertina Museum. Disponível em: https://www.europeana.eu/en/item/15508/30435.",
+    "citation_chicago": "Waldmann, Kaspar. Allegory with Justizia, Crowned by a Putto. 18th century. Drawing. Albertina Museum. Europeana. https://www.europeana.eu/en/item/15508/30435.",
+    "tags": [
+      "Justitia",
+      "crowned",
+      "putto",
+      "celestial",
+      "scales",
+      "Austria"
+    ]
+  },
+  {
+    "id": "EU-009",
+    "title": "Female Allegory (Pierre Puvis de Chavannes)",
+    "date": "19th century",
+    "period": "Third Republic / Symbolism",
+    "creator": "Pierre Puvis de Chavannes",
+    "institution": "Albertina Museum",
+    "source_archive": "Europeana",
+    "country": "France (held in Austria)",
+    "medium": "Drawing",
+    "motif": [
+      "Allégorie féminine",
+      "Symbolisme",
+      "Murale"
+    ],
+    "description": "Female allegorical figure by Pierre Puvis de Chavannes, the great French muralist whose public commissions (Sorbonne, Panthéon, Hôtel de Ville) defined the visual language of Third Republic civic spaces. This drawing connects to the larger programme of republican allegorical decoration.",
+    "url": "https://www.europeana.eu/en/item/15508/DG1918_7",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "PUVIS DE CHAVANNES, Pierre. Female allegory. [séc. XIX]. 1 desenho. Albertina Museum. Disponível em: https://www.europeana.eu/en/item/15508/DG1918_7.",
+    "citation_chicago": "Puvis de Chavannes, Pierre. Female Allegory. 19th century. Drawing. Albertina Museum. Europeana. https://www.europeana.eu/en/item/15508/DG1918_7.",
+    "tags": [
+      "female allegory",
+      "Symbolism",
+      "muralist",
+      "Third Republic",
+      "Puvis de Chavannes"
+    ]
+  },
+  {
+    "id": "PT-001",
+    "title": "Justiça popular (UDP political poster)",
+    "date": "c. 1975",
+    "period": "Carnation Revolution (1974–1976)",
+    "creator": "União Democrática Popular (UDP)",
+    "institution": "Biblioteca Nacional de Portugal",
+    "source_archive": "Biblioteca Nacional Digital (BND Portugal)",
+    "country": "Portugal",
+    "medium": "Political poster (cartaz)",
+    "motif": [
+      "Justiça popular",
+      "Revolução",
+      "Cartaz político"
+    ],
+    "description": "Political poster from the Portuguese revolutionary period (post-Carnation Revolution, 1974): 'Popular Justice: the PIDE agent who murdered Dias Coelho will be judged at the people's cost!' Justice invoked in revolutionary political context — a moment when the concept of Justice was being radically renegotiated.",
+    "url": "https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular",
+    "thumbnail_url": "https://bndigital.bnportugal.gov.pt/i/?IIIF=/c7/6e/8e/87/c76e8e87-15a8-464f-bc44-1c87dfdd8953/iiif/ct-117-g-cx_0000_000001.tif/full/!256,256/0/default.jpg",
+    "rights": "Copyrighted – accessible only in BNP internal network",
+    "citation_abnt": "UNIÃO DEMOCRÁTICA POPULAR. Justiça popular: o Pide que assassinou Dias Coelho vai ser julgado nas costas do povo! [1975?]. 1 cartaz. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular.",
+    "citation_chicago": "União Democrática Popular. Justiça popular. c. 1975. Political poster. Biblioteca Nacional de Portugal. BND Portugal. https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular.",
+    "tags": [
+      "popular justice",
+      "Carnation Revolution",
+      "political poster",
+      "Portugal",
+      "UDP"
+    ]
+  },
+  {
+    "id": "PT-002",
+    "title": "Alegoria à História (female allegorical engraving)",
+    "date": "c. 1600",
+    "period": "Early Modern (16th–17th century)",
+    "creator": "Unknown",
+    "institution": "Biblioteca Nacional de Portugal",
+    "source_archive": "Biblioteca Nacional Digital (BND Portugal)",
+    "country": "Portugal",
+    "medium": "Engraving (gravura, água-forte, p&b)",
+    "motif": [
+      "Alegoria",
+      "História",
+      "Figura feminina",
+      "Gravura"
+    ],
+    "description": "Historical allegorical engraving featuring female figures representing History. An early modern Portuguese example of the female allegorical tradition — History personified as a woman, part of the same visual vocabulary that produced Justice and Republic figures.",
+    "url": "https://bndigital.bnportugal.gov.pt/records/item/39213-alegoria-a-historia",
+    "thumbnail_url": "https://bndigital.bnportugal.gov.pt/i/?IIIF=/b3/e4/a7/5d/b3e4a75d-d38e-45ca-9c5b-2614e7f5b2bd/iiif/e-900-v_0000_000001.tif/full/!256,256/0/default.jpg",
+    "rights": "Public domain",
+    "citation_abnt": "[ALEGORIA à História]. c. 1600. 1 gravura, água-forte, p&b. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/records/item/39213-alegoria-a-historia.",
+    "citation_chicago": "\"Alegoria à História.\" c. 1600. Engraving. Biblioteca Nacional de Portugal. BND Portugal. https://bndigital.bnportugal.gov.pt/records/item/39213-alegoria-a-historia.",
+    "tags": [
+      "History allegory",
+      "female figure",
+      "engraving",
+      "early modern",
+      "Portugal"
+    ]
+  },
+  {
+    "id": "PT-003",
+    "title": "Alegoria à Morte (Pierre Antoine Quillard)",
+    "date": "1730",
+    "period": "Baroque / Joanine (18th century)",
+    "creator": "Pierre Antoine Quillard (1701–1733)",
+    "institution": "Biblioteca Nacional de Portugal",
+    "source_archive": "Biblioteca Nacional Digital (BND Portugal)",
+    "country": "Portugal",
+    "medium": "Engraving (gravura)",
+    "motif": [
+      "Alegoria",
+      "Morte",
+      "Gravura barroca"
+    ],
+    "description": "Allegorical engraving representing Death, part of a series of allegorical works by the French-Portuguese artist Quillard produced in Lisbon. Demonstrates the French-Portuguese artistic exchange in allegorical visual culture during the Baroque period.",
+    "url": "https://bndigital.bnportugal.gov.pt/records/item/37491-alegoria-a-morte",
+    "thumbnail_url": "https://bndigital.bnportugal.gov.pt/i/?IIIF=/ae/8d/15/76/ae8d1576-002e-4678-af6f-cde5bdb3a602/iiif/e-4395-p_0000_1-2_p24-C-R0150_000001.tif/full/!256,256/0/default.jpg",
+    "rights": "Public domain",
+    "citation_abnt": "QUILLARD, Pierre Antoine. Alegoria à Morte. 1730. 1 gravura. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/records/item/37491-alegoria-a-morte.",
+    "citation_chicago": "Quillard, Pierre Antoine. Alegoria à Morte. 1730. Engraving. Biblioteca Nacional de Portugal. BND Portugal. https://bndigital.bnportugal.gov.pt/records/item/37491-alegoria-a-morte.",
+    "tags": [
+      "Death allegory",
+      "Baroque",
+      "French-Portuguese",
+      "engraving",
+      "Quillard"
+    ]
+  },
+  {
+    "id": "PT-004",
+    "title": "Alegoria ao Tempo (Pierre Antoine Quillard)",
+    "date": "1730",
+    "period": "Baroque / Joanine (18th century)",
+    "creator": "Pierre Antoine Quillard (1701–1733)",
+    "institution": "Biblioteca Nacional de Portugal",
+    "source_archive": "Biblioteca Nacional Digital (BND Portugal)",
+    "country": "Portugal",
+    "medium": "Engraving (gravura)",
+    "motif": [
+      "Alegoria",
+      "Tempo",
+      "Gravura barroca"
+    ],
+    "description": "Allegorical engraving representing Time, companion piece to the Alegoria à Morte. Part of Quillard's allegorical series produced in Lisbon. Time as a personified figure — part of the broader iconographic programme where abstract concepts (Justice, Time, Truth, Death) take human form.",
+    "url": "https://bndigital.bnportugal.gov.pt/records/item/37507-alegoria-ao-tempo",
+    "thumbnail_url": "https://bndigital.bnportugal.gov.pt/i/?IIIF=/96/87/56/c0/968756c0-6765-4371-bac9-b5efe8fa114e/iiif/e-4390-p_0000_1-2_p24-C-R0150_000001.tif/full/!256,256/0/default.jpg",
+    "rights": "Public domain",
+    "citation_abnt": "QUILLARD, Pierre Antoine. Alegoria ao Tempo. 1730. 1 gravura. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/records/item/37507-alegoria-ao-tempo.",
+    "citation_chicago": "Quillard, Pierre Antoine. Alegoria ao Tempo. 1730. Engraving. Biblioteca Nacional de Portugal. BND Portugal. https://bndigital.bnportugal.gov.pt/records/item/37507-alegoria-ao-tempo.",
+    "tags": [
+      "Time allegory",
+      "Baroque",
+      "French-Portuguese",
+      "engraving",
+      "Quillard"
+    ]
+  },
+  {
+    "id": "PT-005",
+    "title": "A Republica precisa de ti: vota em Norton de Matos",
+    "date": "1949",
+    "period": "Estado Novo (Portugal, 1933–1974)",
+    "creator": "Comissão Distrital do Porto da Candidatura",
+    "institution": "Biblioteca Nacional de Portugal",
+    "source_archive": "Biblioteca Nacional Digital (BND Portugal)",
+    "country": "Portugal",
+    "medium": "Political poster (cartaz)",
+    "motif": [
+      "República",
+      "Alegoria feminina",
+      "Eleição",
+      "Cartaz político"
+    ],
+    "description": "Electoral poster from the 1949 Portuguese presidential campaign featuring a female allegorical figure representing the Portuguese Republic. 'The Republic needs you: vote for Norton de Matos.' A classical female figure in robes symbolizes the Republic during a period of authoritarian governance — the allegory deployed as opposition to dictatorship.",
+    "url": "https://bndigital.bnportugal.gov.pt/records/search?q=república&DocumentType=Iconografia",
+    "thumbnail_url": "",
+    "rights": "Status to be confirmed",
+    "citation_abnt": "A REPUBLICA precisa de ti: vota em Norton de Matos. 1949. 1 cartaz. Comissão Distrital do Porto. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/.",
+    "citation_chicago": "\"A Republica precisa de ti: vota em Norton de Matos.\" 1949. Political poster. Comissão Distrital do Porto. Biblioteca Nacional de Portugal. BND Portugal.",
+    "tags": [
+      "Republic",
+      "female allegory",
+      "election",
+      "Norton de Matos",
+      "anti-dictatorship",
+      "Portugal"
+    ]
+  },
+  {
+    "id": "FR-011",
+    "title": "Illustrations de Calendrier et compost des bergiers (Danse macabre — female Justice figure)",
+    "date": "1531",
+    "period": "Renaissance",
+    "creator": "Anonymous",
+    "institution": "Bibliothèque nationale de France",
+    "source_archive": "Gallica",
+    "country": "France",
+    "medium": "Illustrated manuscript",
+    "motif": [
+      "Justice",
+      "Danse macabre",
+      "Figure féminine",
+      "Manuscrit"
+    ],
+    "description": "Illustrations from the 'Calendar and Almanac of Shepherds' featuring the dance of death and allegorical figures including Justice. An early representation of Justice as a female figure within the memento mori tradition — the intersection of death, morality, and law.",
+    "url": "https://gallica.bnf.fr/services/engine/search/sru?query=justice+symbole+femme&filter=dc.type+all+%22image%22",
+    "thumbnail_url": "",
+    "rights": "Public domain",
+    "citation_abnt": "CALENDRIER et compost des bergiers: La grant danse macabre. 1531. Manuscrito ilustrado. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/.",
+    "citation_chicago": "\"Calendrier et compost des bergiers: La grant danse macabre.\" 1531. Illustrated manuscript. Bibliothèque nationale de France. Gallica.",
+    "tags": [
+      "Justice",
+      "danse macabre",
+      "death",
+      "female figure",
+      "Renaissance",
+      "manuscript"
+    ]
+  }
+];
+
+// ===== STATE =====
+const state = {
+  search: '',
+  filters: {
+    country: [],
+    period: [],
+    archive: [],
+    motif: []
+  }
+};
+
+// ===== FILTER DEFINITIONS =====
+const COUNTRY_MAP = {
+  'Brazil': '🇧🇷',
+  'France': '🇫🇷',
+  'Germany': '🇩🇪',
+  'Belgium': '🇧🇪',
+  'Austria': '🇦🇹',
+  'Portugal': '🇵🇹',
+  'Italy': '🇮🇹',
+  'Germany (Netherlands origin)': '🇩🇪',
+  'France (held in Austria)': '🇫🇷'
+};
+
+const FILTER_DEFS = {
+  country: {
+    label: 'Country',
+    values: ['Brazil', 'France', 'Germany', 'Belgium', 'Austria', 'Portugal', 'Italy']
+  },
+  period: {
+    label: 'Period',
+    values: ['Renaissance', 'Early Modern', 'Baroque', 'Empire', 'Second Empire', 'Third Republic', 'Old Republic', 'Early Republic', 'Estado Novo', 'WWI', 'Carnation Revolution']
+  },
+  archive: {
+    label: 'Source Archive',
+    values: [...new Set(CORPUS.map(d => {
+      if (d.source_archive.includes('Gallica') && !d.source_archive.includes('Europeana')) return 'Gallica';
+      if (d.source_archive.includes('Europeana')) return 'Europeana';
+      if (d.source_archive.includes('Brasiliana Fotográfica')) return 'Brasiliana Fotográfica';
+      if (d.source_archive.includes('Hemeroteca')) return 'Hemeroteca Digital Brasileira';
+      if (d.source_archive.includes('BND') || d.source_archive.includes('Biblioteca Nacional Digital')) return 'Biblioteca Nacional Digital Portugal';
+      return d.source_archive;
+    }))].sort()
+  },
+  motif: {
+    label: 'Motif / Theme',
+    values: ['Justiça / Justice', 'República / Republic', 'Marianne', 'Justitia', 'Alegoria feminina']
+  }
+};
+
+// ===== INIT =====
+function init() {
+  buildStats();
+  buildFilters();
+  renderCards();
+  setupSearch();
+  updateThemeIcon();
+}
+
+// ===== STATS =====
+function buildStats() {
+  const bar = document.getElementById('statsBar');
+  const countries = {};
+  const periods = {};
+  CORPUS.forEach(d => {
+    const c = d.country.replace(/ \(.+\)/, '');
+    countries[c] = (countries[c] || 0) + 1;
+    // Simplified period grouping
+    const p = d.period.split('/')[0].split('(')[0].trim();
+    periods[p] = (periods[p] || 0) + 1;
+  });
+
+  const topCountries = Object.entries(countries).sort((a,b) => b[1]-a[1]).slice(0, 4);
+  const topPeriods = Object.entries(periods).sort((a,b) => b[1]-a[1]).slice(0, 3);
+
+  let html = `<div class="stat-item"><div class="stat-value">${CORPUS.length}</div><div class="stat-label">Total Items</div></div>`;
+  topCountries.forEach(([name, count]) => {
+    const flag = COUNTRY_MAP[name] || '';
+    html += `<div class="stat-item"><div class="stat-value">${count}</div><div class="stat-label">${flag} ${name}</div></div>`;
+  });
+  topPeriods.forEach(([name, count]) => {
+    html += `<div class="stat-item"><div class="stat-value">${count}</div><div class="stat-label">${name}</div></div>`;
+  });
+
+  bar.innerHTML = html;
+}
+
+// ===== FILTERS =====
+function buildFilters() {
+  const container = document.getElementById('filtersContainer');
+  let html = '';
+  for (const [key, def] of Object.entries(FILTER_DEFS)) {
+    html += `<div class="filter-section">
+      <div class="filter-header">
+        <span class="filter-label">${def.label}</span>
+        <button class="filter-clear" id="clear-${key}" onclick="clearFilter('${key}')">Clear</button>
+      </div>
+      <div class="filter-pills" id="pills-${key}">
+        ${def.values.map(v => `<button class="pill" data-filter="${key}" data-value="${v}" onclick="togglePill(this)">${v}</button>`).join('')}
+      </div>
+    </div>`;
+  }
+  container.innerHTML = html;
+}
+
+function togglePill(el) {
+  const key = el.dataset.filter;
+  const val = el.dataset.value;
+  el.classList.toggle('active');
+
+  if (el.classList.contains('active')) {
+    state.filters[key].push(val);
+  } else {
+    state.filters[key] = state.filters[key].filter(v => v !== val);
+  }
+
+  document.getElementById(`clear-${key}`).classList.toggle('visible', state.filters[key].length > 0);
+  renderCards();
+}
+
+function clearFilter(key) {
+  state.filters[key] = [];
+  document.querySelectorAll(`[data-filter="${key}"]`).forEach(p => p.classList.remove('active'));
+  document.getElementById(`clear-${key}`).classList.remove('visible');
+  renderCards();
+}
+
+// ===== SEARCH =====
+function setupSearch() {
+  const input = document.getElementById('searchInput');
+  const clear = document.getElementById('searchClear');
+  let timeout;
+  input.addEventListener('input', () => {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+      state.search = input.value.trim().toLowerCase();
+      clear.classList.toggle('visible', input.value.length > 0);
+      renderCards();
+    }, 200);
+  });
+}
+
+function clearSearch() {
+  const input = document.getElementById('searchInput');
+  input.value = '';
+  state.search = '';
+  document.getElementById('searchClear').classList.remove('visible');
+  renderCards();
+  input.focus();
+}
+
+// ===== FILTERING LOGIC =====
+function matchesSearch(item, query) {
+  if (!query) return true;
+  const fields = [
+    item.title, item.description, item.creator,
+    ...(item.tags || []), ...(item.motif || []),
+    item.institution, item.country, item.period, item.medium
+  ].map(f => (f || '').toLowerCase());
+  return fields.some(f => f.includes(query));
+}
+
+function matchesCountry(item, countries) {
+  if (!countries.length) return true;
+  return countries.some(c => item.country.includes(c));
+}
+
+function matchesPeriod(item, periods) {
+  if (!periods.length) return true;
+  const p = item.period.toLowerCase();
+  return periods.some(period => p.includes(period.toLowerCase()));
+}
+
+function matchesArchive(item, archives) {
+  if (!archives.length) return true;
+  return archives.some(a => item.source_archive.includes(a.split(' ')[0]));
+}
+
+function matchesMotif(item, motifs) {
+  if (!motifs.length) return true;
+  const itemMotifs = (item.motif || []).map(m => m.toLowerCase());
+  const itemTags = (item.tags || []).map(t => t.toLowerCase());
+  const all = [...itemMotifs, ...itemTags, item.description.toLowerCase()];
+  return motifs.some(motif => {
+    const parts = motif.split(' / ').map(p => p.toLowerCase());
+    return parts.some(part => all.some(a => a.includes(part)));
+  });
+}
+
+function getFilteredItems() {
+  return CORPUS.filter(item =>
+    matchesSearch(item, state.search) &&
+    matchesCountry(item, state.filters.country) &&
+    matchesPeriod(item, state.filters.period) &&
+    matchesArchive(item, state.filters.archive) &&
+    matchesMotif(item, state.filters.motif)
+  );
+}
+
+// ===== RENDER CARDS =====
+function renderCards() {
+  const grid = document.getElementById('cardGrid');
+  const items = getFilteredItems();
+
+  if (items.length === 0) {
+    grid.innerHTML = `<div class="empty-state" style="grid-column: 1 / -1;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+      <h3>No items found</h3>
+      <p>Try adjusting your search terms or filters.</p>
+    </div>`;
+  } else {
+    grid.innerHTML = items.map((item, i) => renderCard(item, i)).join('');
+  }
+
+  // Update results summary
+  const summary = document.getElementById('resultsSummary');
+  const activeFilters = Object.values(state.filters).flat().length;
+  const parts = [];
+  if (state.search) parts.push(`matching "${state.search}"`);
+  if (activeFilters) parts.push(`with ${activeFilters} filter${activeFilters > 1 ? 's' : ''} active`);
+  summary.innerHTML = `Showing <strong>${items.length}</strong> of ${CORPUS.length} items${parts.length ? ' ' + parts.join(', ') : ''}`;
+}
+
+function renderCard(item, index) {
+  const flag = COUNTRY_MAP[item.country] || '';
+  const shortArchive = item.source_archive.split('/')[0].trim();
+  const thumbHtml = item.thumbnail_url
+    ? `<img src="${item.thumbnail_url}" alt="${escapeHtml(item.title)}" loading="lazy" onerror="this.parentElement.innerHTML=getPlaceholder('${escapeHtml(item.medium)}')">`
+    : getPlaceholder(item.medium);
+
+  return `<article class="card" onclick="openModal('${item.id}')" tabindex="0" role="button" aria-label="View details for ${escapeHtml(item.title)}" style="animation-delay:${Math.min(index * 0.03, 0.3)}s">
+    <div class="card-thumb">${thumbHtml}</div>
+    <div class="card-body">
+      <div class="card-badges">
+        <span class="badge badge-country">${flag} ${item.country.replace(/ \(.+\)/, '')}</span>
+        <span class="badge badge-archive">${shortArchive}</span>
+      </div>
+      <h3 class="card-title">${escapeHtml(item.title)}</h3>
+      <div class="card-meta">
+        <span>${item.date}</span>${item.creator ? ` · <span class="creator">${escapeHtml(item.creator.split('(')[0].trim())}</span>` : ''}
+      </div>
+    </div>
+    <button class="card-cite-btn" onclick="event.stopPropagation(); copyCitation('${item.id}')" title="Copy ABNT citation">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+    </button>
+  </article>`;
+}
+
+function getPlaceholder(medium) {
+  let icon;
+  if (medium && (medium.toLowerCase().includes('photo') || medium.toLowerCase().includes('image'))) {
+    icon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>';
+  } else if (medium && (medium.toLowerCase().includes('print') || medium.toLowerCase().includes('engrav') || medium.toLowerCase().includes('litho'))) {
+    icon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>';
+  } else {
+    icon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>';
+  }
+  return `<div class="thumb-placeholder">${icon}<span>${escapeHtml((medium || 'Document').split('(')[0].trim())}</span></div>`;
+}
+
+// ===== MODAL =====
+function openModal(id) {
+  const item = CORPUS.find(d => d.id === id);
+  if (!item) return;
+
+  document.getElementById('modalTitle').textContent = item.title;
+
+  let html = '';
+
+  // Image
+  if (item.thumbnail_url) {
+    html += `<img class="modal-image" src="${item.thumbnail_url}" alt="${escapeHtml(item.title)}" loading="lazy" onerror="this.style.display='none'">`;
+  }
+
+  html += '<div class="modal-body">';
+
+  // Description
+  html += `<div class="modal-section">
+    <div class="modal-section-title">Description</div>
+    <p class="modal-desc">${escapeHtml(item.description)}</p>
+  </div>`;
+
+  // Metadata grid
+  html += `<div class="modal-section">
+    <div class="modal-section-title">Metadata</div>
+    <div class="meta-grid">
+      <div class="meta-item"><label>Date</label><span>${escapeHtml(item.date)}</span></div>
+      <div class="meta-item"><label>Country</label><span>${COUNTRY_MAP[item.country] || ''} ${escapeHtml(item.country)}</span></div>
+      <div class="meta-item"><label>Creator</label><span>${escapeHtml(item.creator)}</span></div>
+      <div class="meta-item"><label>Medium</label><span>${escapeHtml(item.medium)}</span></div>
+      <div class="meta-item"><label>Period</label><span>${escapeHtml(item.period)}</span></div>
+      <div class="meta-item"><label>Rights</label><span>${escapeHtml(item.rights)}</span></div>
+    </div>
+  </div>`;
+
+  // Motifs
+  if (item.motif && item.motif.length) {
+    html += `<div class="modal-section">
+      <div class="modal-section-title">Motifs & Themes</div>
+      <div class="motif-tags">${item.motif.map(m => `<span class="motif-tag">${escapeHtml(m)}</span>`).join('')}</div>
+    </div>`;
+  }
+
+  // Provenance
+  html += `<div class="modal-section">
+    <div class="modal-section-title">Provenance</div>
+    <div class="meta-grid">
+      <div class="meta-item"><label>Institution</label><span>${escapeHtml(item.institution)}</span></div>
+      <div class="meta-item"><label>Source Archive</label><span>${escapeHtml(item.source_archive)}</span></div>
+    </div>
+  </div>`;
+
+  // Citations
+  html += `<div class="modal-section">
+    <div class="modal-section-title">Citations</div>
+    <div class="citation-box">
+      <p><strong style="color:var(--accent);font-size:0.65rem;text-transform:uppercase;letter-spacing:0.06em;">ABNT</strong></p>
+      <p style="margin-top:0.3rem">${escapeHtml(item.citation_abnt)}</p>
+    </div>
+    <div class="citation-box">
+      <p><strong style="color:var(--accent);font-size:0.65rem;text-transform:uppercase;letter-spacing:0.06em;">Chicago</strong></p>
+      <p style="margin-top:0.3rem">${escapeHtml(item.citation_chicago)}</p>
+    </div>
+    <div class="citation-actions">
+      <button class="btn-cite" onclick="copyCitation('${item.id}', 'abnt')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        Copy ABNT
+      </button>
+      <button class="btn-cite" onclick="copyCitation('${item.id}', 'chicago')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        Copy Chicago
+      </button>
+      <a class="btn-source" href="${item.url}" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        View Source
+      </a>
+    </div>
+  </div>`;
+
+  html += '</div>';
+
+  document.getElementById('modalContent').innerHTML = html;
+  document.getElementById('modalOverlay').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal(e) {
+  if (e && e.target !== document.getElementById('modalOverlay')) return;
+  document.getElementById('modalOverlay').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeModal();
+  }
+});
+
+// ===== CITATIONS =====
+function copyCitation(id, format = 'abnt') {
+  const item = CORPUS.find(d => d.id === id);
+  if (!item) return;
+  const text = format === 'chicago' ? item.citation_chicago : item.citation_abnt;
+  navigator.clipboard.writeText(text).then(() => {
+    showToast(`${format.toUpperCase()} citation copied!`);
+  }).catch(() => {
+    // Fallback
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    showToast(`${format.toUpperCase()} citation copied!`);
+  });
+}
+
+function exportAllCitations() {
+  const items = getFilteredItems();
+  if (!items.length) {
+    showToast('No items to export');
+    return;
+  }
+  const text = items.map((item, i) =>
+    `${i + 1}. ${item.citation_abnt}`
+  ).join('\n\n');
+
+  const header = `ICONOCRACY CORPUS — ABNT Citations Export\nGenerated: ${new Date().toLocaleDateString('pt-BR')}\nItems: ${items.length}\n${'='.repeat(60)}\n\n`;
+
+  const blob = new Blob([header + text], { type: 'text/plain;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `iconocracy-corpus-citations-${new Date().toISOString().split('T')[0]}.txt`;
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast(`Exported ${items.length} citations`);
+}
+
+// ===== TOAST =====
+let toastTimeout;
+function showToast(msg) {
+  const toast = document.getElementById('toast');
+  toast.textContent = msg;
+  toast.classList.add('visible');
+  clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => toast.classList.remove('visible'), 2500);
+}
+
+// ===== THEME =====
+function toggleTheme() {
+  const html = document.documentElement;
+  const current = html.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', next);
+  updateThemeIcon();
+}
+
+function updateThemeIcon() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  document.querySelector('.icon-sun').style.display = isDark ? 'block' : 'none';
+  document.querySelector('.icon-moon').style.display = isDark ? 'none' : 'block';
+}
+
+// Theme persists only for the current session
+
+// ===== UTILS =====
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+}
+
+// ===== INIT =====
+document.addEventListener('DOMContentLoaded', init);
+</script>
+
+</body>
+</html>
