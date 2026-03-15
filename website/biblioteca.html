@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+
+<!-- Perplexity Computer Attribution — SEO Meta Tags -->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biblioteca Digital — Ius Gentium | UFSC</title>
+<meta name="description" content="Biblioteca Digital Acadêmica do Ius Gentium — Levantamento estruturado de recursos para pesquisa em Direito Internacional. UFSC/CNPq.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Styles -->
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Skip Link -->
+<a href="#main" class="skip-link">Ir para conteúdo principal</a>
+
+<!-- Header -->
+<header class="header" role="banner">
+  <div class="header__inner">
+    <a href="index.html" class="header__logo" aria-label="Ius Gentium - Página Inicial" style="display:flex;align-items:center;gap:8px;text-decoration:none;">
+      <img src="img/logo-48.jpg" alt="Ius Gentium" style="height:40px;width:40px;border-radius:4px;">
+      <span class="header__logo-text" style="font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;font-weight:600;color:#003B70;line-height:1.2;">Ius Gentium<br><span style="font-family:'Inter',sans-serif;font-size:7.5px;color:#666;letter-spacing:0.08em;font-weight:400;">UFSC · DIREITO INTERNACIONAL</span></span>
+    </a>
+
+    <nav class="nav" role="navigation" aria-label="Navegação principal">
+      <a href="index.html" class="nav__link">Início</a>
+      <a href="sobre.html" class="nav__link">O Grupo</a>
+      <a href="pessoas.html" class="nav__link">Pessoas</a>
+      <a href="pesquisa.html" class="nav__link">Pesquisa</a>
+      <a href="projetos.html" class="nav__link">Projetos</a>
+      <a href="producao.html" class="nav__link">Produção</a>
+      <a href="eventos.html" class="nav__link">Eventos</a>
+      <a href="cooperacao.html" class="nav__link">Cooperação</a>
+      <a href="links.html" class="nav__link">Links</a>
+      <a href="biblioteca.html" class="nav__link nav__link--active">Biblioteca</a>
+      <a href="contato.html" class="nav__link">Contato</a>
+    </nav>
+
+    <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile Navigation -->
+<div class="mobile-nav" role="navigation" aria-label="Navegação mobile">
+  <a href="index.html" class="mobile-nav__link">Início</a>
+  <a href="sobre.html" class="mobile-nav__link">O Grupo</a>
+  <a href="pessoas.html" class="mobile-nav__link">Pessoas</a>
+  <a href="pesquisa.html" class="mobile-nav__link">Pesquisa</a>
+  <a href="projetos.html" class="mobile-nav__link">Projetos</a>
+  <a href="producao.html" class="mobile-nav__link">Produção</a>
+  <a href="eventos.html" class="mobile-nav__link">Eventos</a>
+  <a href="cooperacao.html" class="mobile-nav__link">Cooperação</a>
+  <a href="links.html" class="mobile-nav__link">Links</a>
+  <a href="biblioteca.html" class="mobile-nav__link">Biblioteca</a>
+  <a href="contato.html" class="mobile-nav__link">Contato</a>
+</div>
+
+<!-- Main Content -->
+<main id="main">
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <span class="page-header__label">Ius Gentium UFSC/CNPq</span>
+    <h1 class="page-header__title">Biblioteca Digital Acadêmica</h1>
+    <hr class="page-header__line">
+    <p class="page-header__desc">Levantamento estruturado de plataformas, coleções, periódicos, bases de dados e instituições para pesquisa em Direito Internacional.</p>
+  </section>
+
+  <!-- Biblioteca Layout -->
+  <div class="biblioteca-layout">
+
+    <!-- Sidebar -->
+    <aside class="biblioteca-sidebar" id="bibliotecaSidebar">
+      <div class="biblioteca-sidebar__search">
+        <div class="biblioteca-search-wrap">
+          <svg class="biblioteca-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input type="text" class="biblioteca-search-input" id="bibliotecaSearch" placeholder="Buscar recursos..." autocomplete="off">
+        </div>
+        <div class="biblioteca-search-count" id="bibliotecaSearchCount"></div>
+      </div>
+
+      <div class="biblioteca-sidebar__nav">
+        <span class="biblioteca-sidebar__label">Seções</span>
+        <ul class="biblioteca-sidebar__links" role="list">
+          <li><a href="#sumario" class="sidebar-section-link active" data-section="sumario">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            Sumário Executivo</a></li>
+          <li><a href="#tratados" class="sidebar-section-link" data-section="tratados">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+            Tratados Internacionais</a></li>
+          <li><a href="#jurisprudencia" class="sidebar-section-link" data-section="jurisprudencia">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Jurisprudência Internacional</a></li>
+          <li><a href="#doutrina" class="sidebar-section-link" data-section="doutrina">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            Doutrina e Obras de Referência</a></li>
+          <li><a href="#periodicos" class="sidebar-section-link" data-section="periodicos">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            Periódicos Acadêmicos</a></li>
+          <li><a href="#organizacoes" class="sidebar-section-link" data-section="organizacoes">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            Organizações Internacionais</a></li>
+          <li><a href="#bases" class="sidebar-section-link" data-section="bases">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            Bases de Dados Acadêmicas</a></li>
+          <li><a href="#legislacao" class="sidebar-section-link" data-section="legislacao">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+            Legislação Nacional</a></li>
+          <li><a href="#repositorios" class="sidebar-section-link" data-section="repositorios">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+            Repositórios Institucionais</a></li>
+          <li><a href="#ferramentas" class="sidebar-section-link" data-section="ferramentas">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            Ferramentas de Pesquisa</a></li>
+          <li><a href="#multimidia" class="sidebar-section-link" data-section="multimidia">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+            Recursos Multimídia</a></li>
+          <li><a href="#metodologia" class="sidebar-section-link" data-section="metodologia">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            Metodologia</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Sidebar Toggle (Mobile) -->
+    <button class="biblioteca-sidebar-toggle" id="bibliotecaSidebarToggle" aria-label="Abrir menu da biblioteca">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    </button>
+    <div class="biblioteca-sidebar-overlay" id="bibliotecaSidebarOverlay"></div>
+
+    <!-- Main Content Area -->
+    <div class="biblioteca-main">
+
+      <!-- Sumário Executivo -->
+      <section class="biblioteca-section" id="sumario">
+        <div class="biblioteca-section__header">
+          <span class="section-label">Visão Geral</span>
+          <h2 class="section-title">Sumário Executivo</h2>
+          <hr class="gold-line">
+        </div>
+        <div class="biblioteca-summary">
+          <p>Este levantamento apresenta um mapeamento analiticamente organizado de plataformas, coleções, periódicos, bases de dados, arquivos e instituições de pesquisa centrais para a construção de uma biblioteca digital acadêmica dedicada ao Direito Internacional (DI), à sua história intelectual e institucional e às suas transformações contemporâneas.</p>
+          <p>O produto foi concebido para servir como instrumento de curadoria para o Grupo de Pesquisa em Direito Internacional UFSC/CNPq — <strong>Ius Gentium</strong> —, visando a organização de um repositório digital institucional robusto, a criação de um portal de recursos acadêmicos navegável e a sustentação de pesquisas avançadas em múltiplas linhas temáticas.</p>
+        </div>
+        <div class="biblioteca-stats">
+          <div class="biblioteca-stat">
+            <div class="biblioteca-stat__number">50+</div>
+            <div class="biblioteca-stat__label">Recursos Catalogados</div>
+          </div>
+          <div class="biblioteca-stat">
+            <div class="biblioteca-stat__number">12</div>
+            <div class="biblioteca-stat__label">Seções Temáticas</div>
+          </div>
+          <div class="biblioteca-stat">
+            <div class="biblioteca-stat__number">20+</div>
+            <div class="biblioteca-stat__label">Periódicos</div>
+          </div>
+          <div class="biblioteca-stat">
+            <div class="biblioteca-stat__number">15+</div>
+            <div class="biblioteca-stat__label">Instituições</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tratados Internacionais -->
+      <section class="biblioteca-section" id="tratados">
+        <div class="biblioteca-section__header">
+          <span class="section-label">Seção 01</span>
+          <h2 class="section-title">Tratados Internacionais</h2>
+          <hr class="gold-line">
+          <p class="section-desc">Bases de tratados, coleções documentais e instrumentos jurídicos internacionais em acesso aberto e institucional.</p>
+        </div>
+        <div class="resource-cards-grid">
+
+          <article class="resource-card" data-searchable="United Nations Treaty Collection tratados ONU UNTS LNTS">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">United Nations Treaty Collection</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Repositório oficial de todos os tratados e acordos internacionais depositados junto ao Secretário-Geral da ONU. Inclui UNTS (3.200+ volumes), LNTS, status de ratificação, reservas e declarações.</p>
+            <a href="https://treaties.un.org/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Council of Europe Treaty Database Conselho Europa CEDH tratados">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Council of Europe Treaty Database</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Base de tratados do Conselho da Europa, incluindo a Convenção Europeia de Direitos Humanos, Carta Social Europeia e dezenas de convenções temáticas. Busca por tema, país e status.</p>
+            <a href="https://www.coe.int/en/web/conventions/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="EUR-Lex União Europeia legislação tratados regulamentos diretivas">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">EUR-Lex</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Portal oficial de acesso ao direito da União Europeia: tratados constitutivos (de Roma a Lisboa), legislação derivada, jurisprudência do TJUE e documentos preparatórios.</p>
+            <a href="https://eur-lex.europa.eu/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="HeinOnline World Treaty Library tratados biblioteca mundial">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">HeinOnline — World Treaty Library</h3>
+              <span class="resource-card__badge resource-card__badge--institutional">Institucional</span>
+            </div>
+            <p class="resource-card__desc">Módulo do HeinOnline dedicado a tratados internacionais, com acesso a imagens fac-similares de tratados históricos e contemporâneos. Acesso via Portal CAPES.</p>
+            <a href="https://home.heinonline.org/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Jurisprudência Internacional -->
+      <section class="biblioteca-section" id="jurisprudencia">
+        <div class="biblioteca-section__header">
+          <span class="section-label">Seção 02</span>
+          <h2 class="section-title">Jurisprudência Internacional</h2>
+          <hr class="gold-line">
+          <p class="section-desc">Fontes de jurisprudência internacional organizadas por tribunal e fórum, com acesso direto às bases de dados oficiais.</p>
+        </div>
+        <div class="resource-cards-grid">
+
+          <article class="resource-card" data-searchable="Corte Internacional Justiça CIJ ICJ PCIJ julgamentos pareceres">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Corte Internacional de Justiça (CIJ)</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Acesso integral a todos os julgamentos, pareceres consultivos, ordens e documentos processuais desde 1946, incluindo a jurisprudência da PCIJ (1922–1946).</p>
+            <a href="https://www.icj-cij.org/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="HUDOC Corte Europeia Direitos Humanos CEDH jurisprudência">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">HUDOC — Corte Europeia de Direitos Humanos</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Base oficial de jurisprudência da CEDH, com íntegra de julgamentos, decisões, pareceres consultivos e fichas temáticas. Busca avançada por artigo, país e tema.</p>
+            <a href="https://hudoc.echr.coe.int/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Corte Interamericana Direitos Humanos Corte IDH jurisprudência">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Corte Interamericana de Direitos Humanos</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Biblioteca especializada com 37.000+ volumes, jurisprudência completa (casos contenciosos, opiniões consultivas, medidas provisórias) e ferramentas de busca com inteligência artificial.</p>
+            <a href="https://www.corteidh.or.cr/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Tribunal Penal Internacional TPI ICC Estatuto Roma">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Tribunal Penal Internacional (TPI/ICC)</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Acesso à íntegra dos textos jurídicos (Estatuto de Roma, Regras de Procedimento e Evidência, Elementos dos Crimes) e documentação processual completa.</p>
+            <a href="https://www.icc-cpi.int/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="ICSID arbitragem investimento Banco Mundial">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">ICSID — Base de Dados de Casos</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Repositório de casos de arbitragem de investimento do Centro Internacional para Resolução de Disputas de Investimento (ICSID/Banco Mundial). Busca por país e setor.</p>
+            <a href="https://icsid.worldbank.org/cases/case-database" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Doutrina e Obras de Referência -->
+      <section class="biblioteca-section" id="doutrina">
+        <div class="biblioteca-section__header">
+          <span class="section-label">Seção 03</span>
+          <h2 class="section-title">Doutrina e Obras de Referência</h2>
+          <hr class="gold-line">
+          <p class="section-desc">Enciclopédias, coleções clássicas e obras fundamentais do Direito Internacional, incluindo textos fundadores do <em>ius gentium</em>.</p>
+        </div>
+        <div class="resource-cards-grid">
+
+          <article class="resource-card" data-searchable="Max Planck Encyclopedia MPEPIL enciclopédia direito internacional público">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Max Planck Encyclopedia of PIL (MPEPIL)</h3>
+              <span class="resource-card__badge resource-card__badge--institutional">Institucional</span>
+            </div>
+            <p class="resource-card__desc">A obra enciclopédica mais abrangente em DI público, com 1.700+ verbetes sobre conceitos, instituições, tratados e personalidades. Disponível via Oxford Public International Law.</p>
+            <a href="https://opil.ouplaw.com/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Recueil des Cours Hague Academy Academia Haia cursos">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Recueil des Cours — Hague Academy</h3>
+              <span class="resource-card__badge resource-card__badge--institutional">Institucional</span>
+            </div>
+            <p class="resource-card__desc">A mais extensa coleção contínua de cursos monográficos em DI, com 400+ volumes desde 1923. Inclui contribuições de Lauterpacht, Kelsen, Scelle, Ago e Cançado Trindade.</p>
+            <a href="https://www.hagueacademy.nl/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Gallica Bibliothèque nationale France BnF Grotius Vattel Pufendorf">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Gallica — Textos Fundadores do <em>Droit des Gens</em></h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Biblioteca digital da BnF com edições originais de Grotius, Vattel, Pufendorf, Wolff e Burlamaqui, preservando frontispícios, gravuras e aparatos iconográficos.</p>
+            <a href="https://gallica.bnf.fr/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Peace Palace Library Palácio Paz Haia Grotius coleção grociana">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Peace Palace Library</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">A biblioteca de referência mais especializada do mundo em DI público, com 1 milhão+ de itens, coleções grocianas e guias de pesquisa temáticos. Sediada no Palácio da Paz, Haia.</p>
+            <a href="https://peacepalacelibrary.nl/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Harvard Research International Law codificação">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Harvard Research in International Law</h3>
+              <span class="resource-card__badge resource-card__badge--institutional">Institucional</span>
+            </div>
+            <p class="resource-card__desc">Série de projetos de codificação preparatória (1929–1939) que influenciaram profundamente o desenvolvimento do DI. Disponível integralmente via HeinOnline.</p>
+            <a href="https://home.heinonline.org/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Periódicos Acadêmicos -->
+      <section class="biblioteca-section" id="periodicos">
+        <div class="biblioteca-section__header">
+          <span class="section-label">Seção 04</span>
+          <h2 class="section-title">Periódicos Acadêmicos</h2>
+          <hr class="gold-line">
+          <p class="section-desc">Lista curada de periódicos centrais em Direito Internacional, com indicação de tipo de acesso e orientação temática.</p>
+        </div>
+        <div class="resource-cards-grid">
+
+          <article class="resource-card" data-searchable="AJIL American Journal International Law Cambridge ASIL">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">American Journal of International Law (AJIL)</h3>
+              <span class="resource-card__badge resource-card__badge--institutional">Institucional</span>
+            </div>
+            <p class="resource-card__desc">O periódico de DI mais longevo (desde 1907) e mais citado globalmente. Publica artigos, ensaios e análises de decisões judiciais. O <em>AJIL Unbound</em> é de acesso aberto.</p>
+            <a href="https://www.cambridge.org/core/journals/american-journal-of-international-law" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="EJIL European Journal International Law Oxford Talk podcast">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">European Journal of International Law (EJIL)</h3>
+              <span class="resource-card__badge resource-card__badge--institutional">Institucional</span>
+            </div>
+            <p class="resource-card__desc">Um dos principais periódicos do mundo em DI, com forte presença nos debates teóricos e críticos. Mantém o blog EJIL:Talk! e o podcast EJIL: The Podcast!</p>
+            <a href="https://academic.oup.com/ejil" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="LJIL Leiden Journal International Law Cambridge open access aberto">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Leiden Journal of International Law (LJIL)</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Periódico integralmente de acesso aberto, em colaboração com o Grotius Centre de Leiden. Foco em teoria do DI, direito penal internacional e tribunais internacionais.</p>
+            <a href="https://www.cambridge.org/core/journals/leiden-journal-of-international-law" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="LRIL London Review International Law Oxford crítico teoria">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">London Review of International Law (LRIL)</h3>
+              <span class="resource-card__badge resource-card__badge--institutional">Institucional</span>
+            </div>
+            <p class="resource-card__desc">Periódico dedicado a scholarship crítico e inovador em DI. Abordagens marxistas, feministas, pós-coloniais e historiográficas. Editores de referência em teoria crítica.</p>
+            <a href="https://academic.oup.com/lril" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Journal History International Law Brill MPIL Heidelberg história">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Journal of the History of International Law</h3>
+              <span class="resource-card__badge resource-card__badge--institutional">Institucional</span>
+            </div>
+            <p class="resource-card__desc">O único periódico dedicado exclusivamente à história do DI. Cobre todos os períodos — do <em>ius gentium</em> antigo ao DI contemporâneo. Publicado pela Brill/MPIL.</p>
+            <a href="https://brill.com/view/journals/jhil/jhil-overview.xml" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Organizações Internacionais -->
+      <section class="biblioteca-section" id="organizacoes">
+        <div class="biblioteca-section__header">
+          <span class="section-label">Seção 05</span>
+          <h2 class="section-title">Organizações Internacionais</h2>
+          <hr class="gold-line">
+          <p class="section-desc">Produção documental e recursos de organizações internacionais relevantes para a pesquisa em Direito Internacional.</p>
+        </div>
+        <div class="resource-cards-grid">
+
+          <article class="resource-card" data-searchable="United Nations Digital Library Biblioteca ONU Nações Unidas documentos">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">UN Digital Library</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Repositório centralizado de toda a produção documental da ONU: 1,1 milhão+ de registros incluindo documentos, publicações, mapas, dados de votação e discursos.</p>
+            <a href="https://digitallibrary.un.org/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="MPIL Max Planck Institute Heidelberg Direito Internacional Público">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Max Planck Institute (MPIL) — Heidelberg</h3>
+              <span class="resource-card__badge resource-card__badge--mixed">Misto</span>
+            </div>
+            <p class="resource-card__desc">A maior biblioteca de DI público na Europa, com 720.000+ volumes e acesso a 32.400+ periódicos. Produção inclui o ZaöRV, JHIL e MPEPIL.</p>
+            <a href="https://www.mpil.de/en/pub/library.cfm" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Lauterpacht Centre Cambridge International Law ILR">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Lauterpacht Centre — Cambridge</h3>
+              <span class="resource-card__badge resource-card__badge--mixed">Misto</span>
+            </div>
+            <p class="resource-card__desc">Centro de pesquisa vinculado à Universidade de Cambridge. Produção principal: International Law Reports (ILR), a mais abrangente série de compilação de jurisprudência internacional.</p>
+            <a href="https://www.lcil.cam.ac.uk/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Institut Droit International IDI Nobel Paz 1873">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Institut de Droit International (IDI)</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">A mais antiga sociedade científica dedicada ao DI (1873), laureada com o Prêmio Nobel da Paz. Resoluções constituem fonte doutrinária de autoridade.</p>
+            <a href="https://www.idi-iil.org/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Bases de Dados Acadêmicas -->
+      <section class="biblioteca-section" id="bases">
+        <div class="biblioteca-section__header">
+          <span class="section-label">Seção 06</span>
+          <h2 class="section-title">Bases de Dados Acadêmicas</h2>
+          <hr class="gold-line">
+          <p class="section-desc">Plataformas multidisciplinares e especializadas para pesquisa jurídica e acadêmica em Direito Internacional.</p>
+        </div>
+        <div class="resource-cards-grid">
+
+          <article class="resource-card" data-searchable="HeinOnline base dados jurídica periódicos tratados fac-símile">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">HeinOnline</h3>
+              <span class="resource-card__badge resource-card__badge--institutional">Institucional</span>
+            </div>
+            <p class="resource-card__desc">Base jurídica de maior cobertura histórica, com 100+ módulos temáticos. Módulos-chave para DI: Law Journal Library, History of International Law, World Treaty Library, UN Law Collection.</p>
+            <a href="https://home.heinonline.org/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="JSTOR periódicos acadêmicos acervos históricos multidisciplinar">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">JSTOR</h3>
+              <span class="resource-card__badge resource-card__badge--institutional">Institucional</span>
+            </div>
+            <p class="resource-card__desc">Plataforma multidisciplinar com ênfase em acervos históricos (back issues). Coleções relevantes em DI, ciências políticas, história e filosofia.</p>
+            <a href="https://www.jstor.org/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="SSRN Social Science Research Network preprints pesquisa">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">SSRN</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Maior plataforma de preprints em ciências sociais: 1,6 milhão+ de artigos, 2,3 milhões+ de pesquisadores, 65+ disciplinas. Rede temática dedicada a DI.</p>
+            <a href="https://www.ssrn.com/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Cambridge Core editora periódicos livros acadêmicos">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Cambridge Core</h3>
+              <span class="resource-card__badge resource-card__badge--institutional">Institucional</span>
+            </div>
+            <p class="resource-card__desc">Plataforma da Cambridge University Press com periódicos (AJIL, LJIL, AsianJIL, GLJ, ICSID Review) e livros acadêmicos em DI. DOIs persistentes e integração bibliográfica.</p>
+            <a href="https://www.cambridge.org/core/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="WorldCat catálogo bibliográfico mundial bibliotecas">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">WorldCat</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Maior catálogo bibliográfico unificado do mundo: 405 milhões+ de livros e 440 milhões+ de artigos. Localização de exemplares por biblioteca e metadados completos.</p>
+            <a href="https://www.worldcat.org/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Legislação Nacional -->
+      <section class="biblioteca-section" id="legislacao">
+        <div class="biblioteca-section__header">
+          <span class="section-label">Seção 07</span>
+          <h2 class="section-title">Legislação Nacional</h2>
+          <hr class="gold-line">
+          <p class="section-desc">Portais de acesso à legislação nacional e ferramentas de pesquisa jurídica comparada.</p>
+        </div>
+        <div class="resource-cards-grid">
+
+          <article class="resource-card" data-searchable="WorldLII Legal Information Institutes legislação jurisprudência comparada">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">WorldLII — Legal Information Institutes</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Rede de institutos de informação jurídica com acesso gratuito a legislação, jurisprudência e materiais jurídicos de dezenas de jurisdições (AustLII, BAILII, CanLII, SAFLII).</p>
+            <a href="https://www.worldlii.org/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="SciELO periódicos científicos América Latina aberto">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">SciELO</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Plataforma de periódicos científicos da América Latina. Cobertura multidisciplinar em acesso aberto, incluindo periódicos jurídicos brasileiros e latino-americanos.</p>
+            <a href="https://scielo.org/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Portal CAPES metabuscador bases dados institucional HeinOnline JSTOR">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Portal CAPES</h3>
+              <span class="resource-card__badge resource-card__badge--institutional">Institucional</span>
+            </div>
+            <p class="resource-card__desc">Metabuscador de bases de dados acadêmicas com acesso institucional a HeinOnline, JSTOR, Cambridge Core, Oxford Academic e dezenas de outras plataformas para universidades brasileiras.</p>
+            <a href="https://www.periodicos.capes.gov.br/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Repositórios Institucionais -->
+      <section class="biblioteca-section" id="repositorios">
+        <div class="biblioteca-section__header">
+          <span class="section-label">Seção 08</span>
+          <h2 class="section-title">Repositórios Institucionais</h2>
+          <hr class="gold-line">
+          <p class="section-desc">Repositórios digitais e coleções históricas com acervos relevantes para a pesquisa em Direito Internacional.</p>
+        </div>
+        <div class="resource-cards-grid">
+
+          <article class="resource-card" data-searchable="LHLT Max Planck Legal History Theory Frankfurt história jurídica">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Max Planck Institute (LHLT) — Frankfurt</h3>
+              <span class="resource-card__badge resource-card__badge--mixed">Misto</span>
+            </div>
+            <p class="resource-card__desc">Biblioteca com 510.000+ itens em história jurídica, coleção de livros raros e projetos de digitalização. Repositório PuRe para acesso aberto. Centro de referência para história do DI.</p>
+            <a href="https://www.lhlt.mpg.de/library" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Avalon Project Yale Law School documentos históricos Nuremberg">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Avalon Project — Yale Law School</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Coleções digitais de documentos históricos em lei, diplomacia e governo, da Antiguidade ao século XXI. Inclui documentos do Tribunal de Nuremberg e o Project DIANA.</p>
+            <a href="https://avalon.law.yale.edu/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="LONTAD Liga Nações arquivos digitalização UNOG Genebra">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Arquivos da Liga das Nações (LONTAD)</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Arquivos da Liga das Nações em digitalização integral. Documentos oficiais, correspondência diplomática, mandatos e registros administrativos do período entre-guerras (1919–1946).</p>
+            <a href="https://lontad-project.unog.ch/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Europeana coleções digitais europeias imagens textos iconografia">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Europeana</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Agrega coleções digitais de milhares de instituições culturais europeias. Gravuras, mapas, selos, brasões e material visual relacionado à diplomacia e ao DI histórico.</p>
+            <a href="https://www.europeana.eu/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Ferramentas de Pesquisa -->
+      <section class="biblioteca-section" id="ferramentas">
+        <div class="biblioteca-section__header">
+          <span class="section-label">Seção 09</span>
+          <h2 class="section-title">Ferramentas de Pesquisa</h2>
+          <hr class="gold-line">
+          <p class="section-desc">Ferramentas de busca, descoberta e gestão bibliográfica para apoiar pesquisa acadêmica em Direito Internacional.</p>
+        </div>
+        <div class="resource-cards-grid">
+
+          <article class="resource-card" data-searchable="Google Scholar busca acadêmica citações perfis alertas">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Google Scholar</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Mecanismo de busca multidisciplinar com cobertura ampla de artigos, teses, livros e documentos judiciais. Rastreamento de citações, perfis acadêmicos e alertas temáticos.</p>
+            <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="DOAJ Directory Open Access Journals acesso aberto periódicos">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">DOAJ — Directory of Open Access Journals</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Principal diretório mundial de periódicos de acesso aberto. Permite identificação de periódicos de DI em acesso aberto com compromisso com a qualidade do conteúdo.</p>
+            <a href="https://doaj.org/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Oxford Academic periódicos EJIL LRIL CJIL BYIL">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Oxford Academic</h3>
+              <span class="resource-card__badge resource-card__badge--institutional">Institucional</span>
+            </div>
+            <p class="resource-card__desc">Plataforma da Oxford University Press para periódicos acadêmicos: EJIL, LRIL, CJIL, BYIL, JIEL, JICJ, Human Rights Law Review e Arbitration International.</p>
+            <a href="https://academic.oup.com/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Recursos Multimídia -->
+      <section class="biblioteca-section" id="multimidia">
+        <div class="biblioteca-section__header">
+          <span class="section-label">Seção 10</span>
+          <h2 class="section-title">Recursos Multimídia</h2>
+          <hr class="gold-line">
+          <p class="section-desc">Recursos audiovisuais, plataformas de debate e materiais didáticos para ensino e pesquisa em Direito Internacional.</p>
+        </div>
+        <div class="resource-cards-grid">
+
+          <article class="resource-card" data-searchable="UN Audiovisual Library International Law palestras vídeo ONU">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">UN Audiovisual Library of International Law</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Coleção permanente de palestras em vídeo por juristas eminentes de todas as regiões, com materiais complementares. Cobertura de virtualmente todos os temas do DI.</p>
+            <a href="https://legal.un.org/avl/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="TWAILR Third World Approaches International Law Sul Global crítico">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">TWAIL Review (TWAILR)</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Plataforma de publicação da rede Third World Approaches to International Law. Artigos, reflexões, vídeos e gravações de conferências com perspectivas críticas do Sul Global.</p>
+            <a href="https://twailr.com/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card" data-searchable="Afronomicslaw African Journal International Economic Law África">
+            <div class="resource-card__header">
+              <h3 class="resource-card__title">Afronomicslaw.org</h3>
+              <span class="resource-card__badge resource-card__badge--open">Aberto</span>
+            </div>
+            <p class="resource-card__desc">Plataforma acadêmica dedicada ao DI econômico na perspectiva africana e do Sul Global. Publica o AfJIEL em acesso aberto, análises, simpósios e entrevistas.</p>
+            <a href="https://www.afronomicslaw.org/" target="_blank" rel="noopener noreferrer" class="resource-card__link">
+              Acessar recurso
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Metodologia -->
+      <section class="biblioteca-section" id="metodologia">
+        <div class="biblioteca-section__header">
+          <span class="section-label">Seção 11</span>
+          <h2 class="section-title">Metodologia</h2>
+          <hr class="gold-line">
+        </div>
+        <div class="biblioteca-summary">
+          <p>A estrutura desta Biblioteca Digital segue uma lógica que combina três eixos organizadores:</p>
+          <ul class="biblioteca-methodology-list">
+            <li><strong>Organização temática:</strong> Reflete as grandes áreas de pesquisa em Direito Internacional, permitindo navegação por campo de estudo.</li>
+            <li><strong>Organização por tipo documental:</strong> Distingue fontes primárias (tratados, jurisprudência, documentos oficiais) de fontes secundárias (doutrina, periódicos, monografias) e de materiais de apoio (bases de dados, ferramentas, materiais didáticos).</li>
+            <li><strong>Organização temporal:</strong> Destaca coleções históricas e materiais clássicos em seções dedicadas, permitindo pesquisa diacrônica.</li>
+          </ul>
+          <p style="margin-top: var(--space-4);">A arquitetura é concebida para ser traduzida em um índice navegável em site, uma estrutura de diretórios em repositório digital e um dataset estruturado de links e metadados. A gestão bibliográfica complementar é operada via Zotero (grupo compartilhado do Ius Gentium).</p>
+        </div>
+      </section>
+
+    </div><!-- /.biblioteca-main -->
+  </div><!-- /.biblioteca-layout -->
+
+</main>
+
+<!-- Footer -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+      <!-- Brand -->
+      <div>
+        <a href="index.html" class="header__logo" style="color:#fff;text-decoration:none;display:flex;align-items:center;gap:8px;">
+          <img src="img/logo-48.jpg" alt="Ius Gentium" style="height:36px;width:36px;border-radius:4px;">
+          <span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;font-weight:600;color:#fff;">Ius Gentium</span>
+        </a>
+        <p class="footer__brand-desc">
+          Grupo de Pesquisa em Direito Internacional Público vinculado à Universidade Federal de Santa Catarina (UFSC) 
+          e ao Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq).
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h3 class="footer__title">Links Rápidos</h3>
+        <ul class="footer__links" role="list">
+          <li><a href="sobre.html">O Grupo</a></li>
+          <li><a href="pessoas.html">Pessoas</a></li>
+          <li><a href="pesquisa.html">Pesquisa</a></li>
+          <li><a href="producao.html">Produção</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <!-- Social -->
+      <div>
+        <h3 class="footer__title">Redes Sociais</h3>
+        <div class="footer__social">
+          <a href="https://instagram.com/iusgentiumufsc" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://facebook.com/iusgentiumufsc" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://linkedin.com/company/iusgentiumufsc" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://youtube.com/@iusgentiumufsc" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="YouTube">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"/></svg>
+          </a>
+        </div>
+        <p class="footer__support">Apoio Institucional: UFSC</p>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__copyright">© 2026 Ius Gentium - UFSC. Todos os direitos reservados.</p>
+      <div class="footer__attribution">
+        <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" aria-label="Voltar ao topo">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="18 15 12 9 6 15"/>
+  </svg>
+</button>
+
+<script src="app.js"></script>
+</body>
+</html>
