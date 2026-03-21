@@ -26,7 +26,13 @@
       "statue",
       "Republic",
       "Rio Grande do Sul"
-    ]
+    ],
+    "year": 1908,
+    "medium_norm": "Fotografia",
+    "country_pt": "Brasil",
+    "period_norm": "República/Império (BR)",
+    "motif_str": "Alegoria feminina, Exposição Nacional, Estátua",
+    "tags_str": "female allegory, exhibition, statue, Republic, Rio Grande do Sul"
   },
   {
     "id": "BR-002",
@@ -56,7 +62,13 @@
       "Belém",
       "Getúlio Vargas",
       "Estado Novo"
-    ]
+    ],
+    "year": 1940,
+    "medium_norm": "Fotografia",
+    "country_pt": "Brasil",
+    "period_norm": "Estado Novo",
+    "motif_str": "República, Alegoria feminina, Monumento, Bandeira",
+    "tags_str": "Republic monument, female allegory, Belém, Getúlio Vargas, Estado Novo"
   },
   {
     "id": "BR-003",
@@ -86,7 +98,13 @@
       "Belém",
       "column",
       "Estado Novo"
-    ]
+    ],
+    "year": 1940,
+    "medium_norm": "Fotografia",
+    "country_pt": "Brasil",
+    "period_norm": "Estado Novo",
+    "motif_str": "República, Alegoria feminina, Monumento, Coluna",
+    "tags_str": "Republic monument, female allegory, Belém, column, Estado Novo"
   },
   {
     "id": "BR-004",
@@ -116,7 +134,13 @@
       "sculpture",
       "Campo de Santana",
       "Rio de Janeiro"
-    ]
+    ],
+    "year": 1925,
+    "medium_norm": "Fotografia",
+    "country_pt": "Brasil",
+    "period_norm": "República/Império (BR)",
+    "motif_str": "Alegoria feminina, Estações, Escultura, Jardim público",
+    "tags_str": "female allegory, seasons, sculpture, Campo de Santana, Rio de Janeiro"
   },
   {
     "id": "BR-005",
@@ -147,7 +171,13 @@
       "Phrygian cap",
       "Ordem e Progresso",
       "painting"
-    ]
+    ],
+    "year": 1900,
+    "medium_norm": "Pintura/Desenho",
+    "country_pt": "Brasil",
+    "period_norm": "República/Império (BR)",
+    "motif_str": "República, Alegoria feminina, Positivismo, Barrete frígio",
+    "tags_str": "Republic, female allegory, positivism, Phrygian cap, Ordem e Progresso, painting"
   },
   {
     "id": "BR-006",
@@ -177,7 +207,13 @@
       "centennial",
       "painting",
       "angel"
-    ]
+    ],
+    "year": 1922,
+    "medium_norm": "Pintura/Desenho",
+    "country_pt": "Brasil",
+    "period_norm": "República/Império (BR)",
+    "motif_str": "República, Alegoria feminina, Centenário, Anjo",
+    "tags_str": "Republic, female allegory, centennial, painting, angel"
   },
   {
     "id": "BR-007",
@@ -208,7 +244,13 @@
       "periodical",
       "Empire",
       "Truth"
-    ]
+    ],
+    "year": 1827,
+    "medium_norm": "Outro",
+    "country_pt": "Brasil",
+    "period_norm": "República/Império (BR)",
+    "motif_str": "Justiça, Estátua falante, Diálogo alegórico, Verdade",
+    "tags_str": "Justice, speaking statues, allegory, periodical, Empire, Truth"
   },
   {
     "id": "BR-008",
@@ -238,7 +280,13 @@
       "French sculptor",
       "public space",
       "imported allegory"
-    ]
+    ],
+    "year": 1872,
+    "medium_norm": "Outro",
+    "country_pt": "Brasil",
+    "period_norm": "República/Império (BR)",
+    "motif_str": "Justiça, Estátua, Escultor francês, Praça pública",
+    "tags_str": "Justice, statue, French sculptor, public space, imported allegory"
   },
   {
     "id": "FR-001",
@@ -269,7 +317,13 @@
       "female allegory",
       "engraving",
       "Second Empire"
-    ]
+    ],
+    "year": 1865,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "França",
+    "period_norm": "III República / II Império (FR)",
+    "motif_str": "Justice, Vengeance, Vérité, Allégorie féminine",
+    "tags_str": "Justice, Truth, Vengeance, female allegory, engraving, Second Empire"
   },
   {
     "id": "FR-002",
@@ -299,7 +353,13 @@
       "triumph",
       "female allegory",
       "engraving"
-    ]
+    ],
+    "year": 1865,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "França",
+    "period_norm": "III República / II Império (FR)",
+    "motif_str": "Justice, Vérité, Triomphe, Allégorie féminine",
+    "tags_str": "Justice, Truth, triumph, female allegory, engraving"
   },
   {
     "id": "FR-003",
@@ -327,7 +387,13 @@
       "envoy",
       "female allegory",
       "engraving"
-    ]
+    ],
+    "year": 1859,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "França",
+    "period_norm": "III República / II Império (FR)",
+    "motif_str": "Justice, Envoyé, Allégorie féminine",
+    "tags_str": "Justice, envoy, female allegory, engraving"
   },
   {
     "id": "FR-004",
@@ -358,7 +424,13 @@
       "female allegory",
       "children",
       "laïcité"
-    ]
+    ],
+    "year": 1859,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "França",
+    "period_norm": "III República / II Império (FR)",
+    "motif_str": "Marianne, République, Éducation, Allégorie féminine",
+    "tags_str": "Marianne, Republic, education, female allegory, children, laïcité"
   },
   {
     "id": "FR-005",
@@ -388,7 +460,13 @@
       "satire",
       "Félicien Rops",
       "eroticism"
-    ]
+    ],
+    "year": 1871,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "França",
+    "period_norm": "III República / II Império (FR)",
+    "motif_str": "République, Allégorie féminine, Satire, Corps féminin",
+    "tags_str": "Republic, female allegory, satire, Félicien Rops, eroticism"
   },
   {
     "id": "FR-006",
@@ -418,7 +496,13 @@
       "female allegory",
       "cartoon",
       "Marianne"
-    ]
+    ],
+    "year": 1887,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "França",
+    "period_norm": "III República / II Império (FR)",
+    "motif_str": "République, Crise, Allégorie féminine, Caricature politique",
+    "tags_str": "Republic, political crisis, female allegory, cartoon, Marianne"
   },
   {
     "id": "FR-007",
@@ -450,7 +534,13 @@
       "propaganda",
       "defense loan",
       "female allegory"
-    ]
+    ],
+    "year": 1917,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "França",
+    "period_norm": "III República / II Império (FR)",
+    "motif_str": "Marianne, République, Guerre, Défense nationale, Allégorie féminine",
+    "tags_str": "Marianne, Republic, WWI, propaganda, defense loan, female allegory"
   },
   {
     "id": "FR-008",
@@ -482,7 +572,13 @@
       "recruitment",
       "Steinlen",
       "female allegory"
-    ]
+    ],
+    "year": 1915,
+    "medium_norm": "Cartaz",
+    "country_pt": "França",
+    "period_norm": "III República / II Império (FR)",
+    "motif_str": "Marianne, République, Appel, Guerre, Allégorie féminine",
+    "tags_str": "Marianne, Republic, WWI, recruitment, Steinlen, female allegory"
   },
   {
     "id": "FR-009",
@@ -513,7 +609,13 @@
       "mairie",
       "civic space",
       "press photograph"
-    ]
+    ],
+    "year": 1950,
+    "medium_norm": "Fotografia",
+    "country_pt": "França",
+    "period_norm": "III República / II Império (FR)",
+    "motif_str": "République, Buste, Marianne, Mairie",
+    "tags_str": "Marianne, Republic, bust, mairie, civic space, press photograph"
   },
   {
     "id": "FR-010",
@@ -543,7 +645,13 @@
       "rattle",
       "trivialization",
       "female allegory"
-    ]
+    ],
+    "year": 1868,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "França",
+    "period_norm": "III República / II Império (FR)",
+    "motif_str": "République, Satire, Hochet, Allégorie féminine",
+    "tags_str": "Republic, satire, rattle, trivialization, female allegory"
   },
   {
     "id": "EU-001",
@@ -574,7 +682,13 @@
       "ceiling fresco",
       "Germany",
       "Koblenz"
-    ]
+    ],
+    "year": 1943,
+    "medium_norm": "Fotografia",
+    "country_pt": "Alemanha",
+    "period_norm": "Iluminismo (Séc. XVIII)",
+    "motif_str": "Justitia, Trono, Gerechtigkeit, Fresco",
+    "tags_str": "Justitia, enthroned, criminal justice, ceiling fresco, Germany, Koblenz"
   },
   {
     "id": "EU-002",
@@ -604,7 +718,13 @@
       "Time",
       "allegory",
       "Belgium"
-    ]
+    ],
+    "year": null,
+    "medium_norm": "Outro",
+    "country_pt": "Bélgica",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justice, Vérité, Temps, Allégorie féminine",
+    "tags_str": "Justice, Truth, Time, allegory, Belgium"
   },
   {
     "id": "EU-003",
@@ -634,7 +754,13 @@
       "sword",
       "print",
       "Dutch Golden Age"
-    ]
+    ],
+    "year": 1600,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "Alemanha",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Balança, Espada, Gravura",
+    "tags_str": "Justitia, scales, sword, print, Dutch Golden Age"
   },
   {
     "id": "EU-004",
@@ -663,7 +789,13 @@
       "Baroque",
       "Italy",
       "Cortona"
-    ]
+    ],
+    "year": 1650,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "Itália",
+    "period_norm": "Barroco/Rococó",
+    "motif_str": "Justice, Allégorie féminine, Baroque",
+    "tags_str": "Justice, allegory, Baroque, Italy, Cortona"
   },
   {
     "id": "EU-005",
@@ -693,7 +825,13 @@
       "gilded",
       "Renaissance",
       "Vienna"
-    ]
+    ],
+    "year": 1550,
+    "medium_norm": "Outro",
+    "country_pt": "Áustria",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Relevo, Dourado, Renascimento",
+    "tags_str": "Justitia, relief, gilded, Renaissance, Vienna"
   },
   {
     "id": "EU-006",
@@ -724,7 +862,13 @@
       "drawing",
       "Baroque",
       "Germany"
-    ]
+    ],
+    "year": 1650,
+    "medium_norm": "Pintura/Desenho",
+    "country_pt": "Alemanha",
+    "period_norm": "Barroco/Rococó",
+    "motif_str": "Justitia, Balança, Espada, Desenho",
+    "tags_str": "Justitia, scales, sword, drawing, Baroque, Germany"
   },
   {
     "id": "EU-007",
@@ -753,7 +897,13 @@
       "Flemish art",
       "Belgium",
       "female allegory"
-    ]
+    ],
+    "year": 1550,
+    "medium_norm": "Outro",
+    "country_pt": "Bélgica",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia civilis, Justice civile, Allégorie féminine",
+    "tags_str": "civil justice, Justitia civilis, Flemish art, Belgium, female allegory"
   },
   {
     "id": "EU-008",
@@ -785,7 +935,13 @@
       "celestial",
       "scales",
       "Austria"
-    ]
+    ],
+    "year": 1750,
+    "medium_norm": "Pintura/Desenho",
+    "country_pt": "Áustria",
+    "period_norm": "Barroco/Rococó",
+    "motif_str": "Justitia, Putto, Coroa, Nuvem, Balança",
+    "tags_str": "Justitia, crowned, putto, celestial, scales, Austria"
   },
   {
     "id": "EU-009",
@@ -814,7 +970,13 @@
       "muralist",
       "Third Republic",
       "Puvis de Chavannes"
-    ]
+    ],
+    "year": 1850,
+    "medium_norm": "Pintura/Desenho",
+    "country_pt": "França",
+    "period_norm": "III República / II Império (FR)",
+    "motif_str": "Allégorie féminine, Symbolisme, Murale",
+    "tags_str": "female allegory, Symbolism, muralist, Third Republic, Puvis de Chavannes"
   },
   {
     "id": "PT-001",
@@ -843,7 +1005,13 @@
       "political poster",
       "Portugal",
       "UDP"
-    ]
+    ],
+    "year": 1975,
+    "medium_norm": "Cartaz",
+    "country_pt": "Portugal",
+    "period_norm": "Séc. XX",
+    "motif_str": "Justiça popular, Revolução, Cartaz político",
+    "tags_str": "popular justice, Carnation Revolution, political poster, Portugal, UDP"
   },
   {
     "id": "PT-002",
@@ -873,7 +1041,13 @@
       "engraving",
       "early modern",
       "Portugal"
-    ]
+    ],
+    "year": 1600,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "Portugal",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Alegoria, História, Figura feminina, Gravura",
+    "tags_str": "History allegory, female figure, engraving, early modern, Portugal"
   },
   {
     "id": "PT-003",
@@ -902,7 +1076,13 @@
       "French-Portuguese",
       "engraving",
       "Quillard"
-    ]
+    ],
+    "year": 1730,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "Portugal",
+    "period_norm": "Barroco/Rococó",
+    "motif_str": "Alegoria, Morte, Gravura barroca",
+    "tags_str": "Death allegory, Baroque, French-Portuguese, engraving, Quillard"
   },
   {
     "id": "PT-004",
@@ -931,7 +1111,13 @@
       "French-Portuguese",
       "engraving",
       "Quillard"
-    ]
+    ],
+    "year": 1730,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "Portugal",
+    "period_norm": "Barroco/Rococó",
+    "motif_str": "Alegoria, Tempo, Gravura barroca",
+    "tags_str": "Time allegory, Baroque, French-Portuguese, engraving, Quillard"
   },
   {
     "id": "PT-005",
@@ -962,7 +1148,13 @@
       "Norton de Matos",
       "anti-dictatorship",
       "Portugal"
-    ]
+    ],
+    "year": 1949,
+    "medium_norm": "Cartaz",
+    "country_pt": "Portugal",
+    "period_norm": "Estado Novo",
+    "motif_str": "República, Alegoria feminina, Eleição, Cartaz político",
+    "tags_str": "Republic, female allegory, election, Norton de Matos, anti-dictatorship, Portugal"
   },
   {
     "id": "FR-011",
@@ -993,7 +1185,13 @@
       "female figure",
       "Renaissance",
       "manuscript"
-    ]
+    ],
+    "year": 1531,
+    "medium_norm": "Outro",
+    "country_pt": "França",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justice, Danse macabre, Figure féminine, Manuscrit",
+    "tags_str": "Justice, danse macabre, death, female figure, Renaissance, manuscript"
   },
   {
     "id": "DE-001",
@@ -1026,7 +1224,13 @@
       "Bern",
       "Switzerland",
       "legal iconography"
-    ]
+    ],
+    "year": 1543,
+    "medium_norm": "Outro",
+    "country_pt": "Suíça",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Justice, blindfold, sword, scales",
+    "tags_str": "Justitia, fountain, blindfold, Renaissance, Bern, Switzerland, legal iconography"
   },
   {
     "id": "DE-002",
@@ -1057,7 +1261,13 @@
       "Capua",
       "marble",
       "legal iconography"
-    ]
+    ],
+    "year": 1239,
+    "medium_norm": "Outro",
+    "country_pt": "Itália",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Justice, Frederick II",
+    "tags_str": "Justitia, medieval, Frederick II, Hohenstaufen, Capua, marble, legal iconography"
   },
   {
     "id": "DE-003",
@@ -1087,7 +1297,13 @@
       "engraving",
       "Dresden",
       "political commentary"
-    ]
+    ],
+    "year": 1750,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "Alemanha",
+    "period_norm": "Iluminismo (Séc. XVIII)",
+    "motif_str": "Justitia, Justice, satire",
+    "tags_str": "Justitia, satire, Enlightenment, engraving, Dresden, political commentary"
   },
   {
     "id": "DE-004",
@@ -1117,7 +1333,13 @@
       "civic architecture",
       "Renaissance",
       "Esslingen"
-    ]
+    ],
+    "year": 1589,
+    "medium_norm": "Outro",
+    "country_pt": "Alemanha",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Justice, civic architecture",
+    "tags_str": "Justitia, town hall, clock, civic architecture, Renaissance, Esslingen"
   },
   {
     "id": "DE-005",
@@ -1147,7 +1369,13 @@
       "domestic space",
       "Lüneburg",
       "wooden ceiling"
-    ]
+    ],
+    "year": 1660,
+    "medium_norm": "Outro",
+    "country_pt": "Alemanha",
+    "period_norm": "Barroco/Rococó",
+    "motif_str": "Justitia, Justice, domestic allegory",
+    "tags_str": "Justitia, Baroque, ceiling, domestic space, Lüneburg, wooden ceiling"
   },
   {
     "id": "DE-006",
@@ -1176,7 +1404,13 @@
       "Raphael circle",
       "Italian",
       "print"
-    ]
+    ],
+    "year": 1550,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "Itália",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Justice",
+    "tags_str": "Justitia, Renaissance, engraving, Raphael circle, Italian, print"
   },
   {
     "id": "DE-007",
@@ -1207,7 +1441,13 @@
       "Italian",
       "drawing",
       "Prudence"
-    ]
+    ],
+    "year": 1501,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "Itália",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Justice, cardinal virtues, Prudence",
+    "tags_str": "Justitia, cardinal virtues, Renaissance, Italian, drawing, Prudence"
   },
   {
     "id": "DE-008",
@@ -1236,7 +1476,13 @@
       "architectural sculpture",
       "Hameln",
       "civic building"
-    ]
+    ],
+    "year": 1558,
+    "medium_norm": "Outro",
+    "country_pt": "Alemanha",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Justice, Weser Renaissance",
+    "tags_str": "Justitia, Weser Renaissance, architectural sculpture, Hameln, civic building"
   },
   {
     "id": "DE-009",
@@ -1268,7 +1514,13 @@
       "Bremen",
       "town hall",
       "Renaissance"
-    ]
+    ],
+    "year": 1596,
+    "medium_norm": "Outro",
+    "country_pt": "Alemanha",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Justice, Concordia, civic virtue",
+    "tags_str": "Justitia, Concordia, relief, civic virtue, Bremen, town hall, Renaissance"
   },
   {
     "id": "DE-010",
@@ -1298,7 +1550,13 @@
       "Benedictine",
       "ecclesiastical",
       "secular law"
-    ]
+    ],
+    "year": 1752,
+    "medium_norm": "Outro",
+    "country_pt": "Alemanha",
+    "period_norm": "Barroco/Rococó",
+    "motif_str": "Justitia, Jus Civile, civil law",
+    "tags_str": "Justitia, civil law, Baroque, Benedictine, ecclesiastical, secular law"
   },
   {
     "id": "DE-011",
@@ -1328,7 +1586,13 @@
       "Leipzig",
       "town hall",
       "Early Modern"
-    ]
+    ],
+    "year": 1610,
+    "medium_norm": "Outro",
+    "country_pt": "Alemanha",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Justice, civic interior",
+    "tags_str": "Justitia, fireplace, civic interior, Leipzig, town hall, Early Modern"
   },
   {
     "id": "NL-001",
@@ -1361,7 +1625,13 @@
       "Renaissance",
       "Dutch",
       "engraving"
-    ]
+    ],
+    "year": 1500,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "Países Baixos",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Justice, nude allegory, sword, scales",
+    "tags_str": "Justitia, nude, sword, scales, Renaissance, Dutch, engraving"
   },
   {
     "id": "NL-002",
@@ -1392,7 +1662,13 @@
       "all-seeing eye",
       "Dutch",
       "surveillance"
-    ]
+    ],
+    "year": null,
+    "medium_norm": "Outro",
+    "country_pt": "Países Baixos",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Justice, all-seeing eye, crown",
+    "tags_str": "Justitia, bust, crown, all-seeing eye, Dutch, surveillance"
   },
   {
     "id": "NL-003",
@@ -1423,7 +1699,13 @@
       "Dutch",
       "title page",
       "sovereignty"
-    ]
+    ],
+    "year": 1650,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "Países Baixos",
+    "period_norm": "Barroco/Rococó",
+    "motif_str": "Justitia, Justice, enthroned, sovereignty of law",
+    "tags_str": "Justitia, enthroned, Baroque, Dutch, title page, sovereignty"
   },
   {
     "id": "UK-001",
@@ -1456,7 +1738,13 @@
       "British Museum",
       "print",
       "putti"
-    ]
+    ],
+    "year": 1650,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "Reino Unido",
+    "period_norm": "Barroco/Rococó",
+    "motif_str": "Justitia, Justice, enthroned, sword, scales, putti",
+    "tags_str": "Justitia, enthroned, Baroque, British Museum, print, putti"
   },
   {
     "id": "UK-002",
@@ -1488,7 +1776,13 @@
       "architectural",
       "British Museum",
       "personification"
-    ]
+    ],
+    "year": null,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "Reino Unido",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Justice, Providence, scales, snake",
+    "tags_str": "Justitia, Providence, niches, architectural, British Museum, personification"
   },
   {
     "id": "UK-003",
@@ -1521,7 +1815,13 @@
       "British Museum",
       "sword",
       "mirror"
-    ]
+    ],
+    "year": null,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "Reino Unido",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Justice, Prudentia, sword, mirror, cardinal virtues",
+    "tags_str": "Justitia, Prudentia, cardinal virtues, British Museum, sword, mirror"
   },
   {
     "id": "US-001",
@@ -1554,7 +1854,13 @@
       "scales",
       "geopolitics",
       "1776"
-    ]
+    ],
+    "year": 1776,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "EUA",
+    "period_norm": "Iluminismo (Séc. XVIII)",
+    "motif_str": "Justice, Britannia, America, scales, Revolution",
+    "tags_str": "Justice, Britannia, America, Revolution, scales, geopolitics, 1776"
   },
   {
     "id": "US-002",
@@ -1585,7 +1891,13 @@
       "sculpture",
       "Crawford",
       "Senate doors"
-    ]
+    ],
+    "year": 1860,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "EUA",
+    "period_norm": "Séc. XIX",
+    "motif_str": "Justice, History, Capitol, Columbia",
+    "tags_str": "Justice, History, Capitol, sculpture, Crawford, Senate doors"
   },
   {
     "id": "US-003",
@@ -1617,7 +1929,13 @@
       "government",
       "official",
       "steel engraving"
-    ]
+    ],
+    "year": null,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "EUA",
+    "period_norm": "Séc. XIX",
+    "motif_str": "Justice, blindfold, sword, scales",
+    "tags_str": "Justice, blindfold, sword, scales, government, official, steel engraving"
   },
   {
     "id": "US-004",
@@ -1651,7 +1969,13 @@
       "poster",
       "Athena",
       "allegory"
-    ]
+    ],
+    "year": 1917,
+    "medium_norm": "Cartaz",
+    "country_pt": "EUA",
+    "period_norm": "Séc. XX",
+    "motif_str": "Justice, Liberty, Athena, Demeter, Marianne, Columbia",
+    "tags_str": "Justice, Liberty, WWI, Franco-American, poster, Athena, allegory"
   },
   {
     "id": "US-005",
@@ -1684,7 +2008,13 @@
       "Clio",
       "founding",
       "allegory"
-    ]
+    ],
+    "year": 1788,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "EUA",
+    "period_norm": "Iluminismo (Séc. XVIII)",
+    "motif_str": "Justice, Liberty, Concord, Constitution, Columbia",
+    "tags_str": "Justice, Liberty, Constitution, Concord, Clio, founding, allegory"
   },
   {
     "id": "US-006",
@@ -1715,7 +2045,13 @@
       "geopolitics",
       "bilingual",
       "power balance"
-    ]
+    ],
+    "year": 1780,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "EUA",
+    "period_norm": "Iluminismo (Séc. XVIII)",
+    "motif_str": "Justice, Britannia, scales, geopolitics",
+    "tags_str": "Justice, Britannia, scales, geopolitics, bilingual, power balance"
   },
   {
     "id": "US-007",
@@ -1745,7 +2081,13 @@
       "Dewey",
       "chromolithograph",
       "imperialism"
-    ]
+    ],
+    "year": 1899,
+    "medium_norm": "Outro",
+    "country_pt": "EUA",
+    "period_norm": "Séc. XIX",
+    "motif_str": "Columbia, Liberty, martial allegory",
+    "tags_str": "Columbia, martial, Spanish-American War, Dewey, chromolithograph, imperialism"
   },
   {
     "id": "US-008",
@@ -1777,7 +2119,13 @@
       "pageant",
       "photograph",
       "women's rights"
-    ]
+    ],
+    "year": 1913,
+    "medium_norm": "Fotografia",
+    "country_pt": "EUA",
+    "period_norm": "Séc. XIX",
+    "motif_str": "Columbia, Justice, Liberty, suffrage, feminism",
+    "tags_str": "Columbia, suffrage, feminism, pageant, photograph, women's rights"
   },
   {
     "id": "US-009",
@@ -1807,7 +2155,13 @@
       "carte de visite",
       "photograph",
       "living allegory"
-    ]
+    ],
+    "year": 1861,
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "EUA",
+    "period_norm": "Séc. XIX",
+    "motif_str": "Liberty, Columbia, Civil War",
+    "tags_str": "Liberty, Columbia, Civil War, carte de visite, photograph, living allegory"
   },
   {
     "id": "DE-012",
@@ -1841,7 +2195,13 @@
       "sword",
       "scales",
       "Northern Renaissance"
-    ]
+    ],
+    "year": 1537,
+    "medium_norm": "Pintura/Desenho",
+    "country_pt": "Alemanha",
+    "period_norm": "Renascimento/Moderno Inicial",
+    "motif_str": "Justitia, Justice, nude allegory, sword, scales",
+    "tags_str": "Justitia, Cranach, Renaissance, nude, painting, sword, scales, Northern Renaissance"
   },
   {
     "id": "FR-012",
@@ -1874,7 +2234,13 @@
       "Louvre",
       "France",
       "tricolour"
-    ]
+    ],
+    "year": 1830,
+    "medium_norm": "Pintura/Desenho",
+    "country_pt": "França",
+    "period_norm": "Séc. XIX",
+    "motif_str": "Liberty, Marianne, Revolution, tricolour",
+    "tags_str": "Liberty, Marianne, Delacroix, Revolution, July Revolution, Louvre, France, tricolour"
   },
   {
     "id": "UK-004",
@@ -1907,7 +2273,13 @@
       "bronze",
       "courthouse",
       "Pomeroy"
-    ]
+    ],
+    "year": 1907,
+    "medium_norm": "Outro",
+    "country_pt": "Reino Unido",
+    "period_norm": "Séc. XIX",
+    "motif_str": "Justice, Lady Justice, sword, scales, unblindfolded",
+    "tags_str": "Lady Justice, Old Bailey, London, unblindfolded, bronze, courthouse, Pomeroy"
   },
   {
     "id": "BR-009",
@@ -1942,7 +2314,13 @@
       "modernism",
       "granite",
       "January 8"
-    ]
+    ],
+    "year": 1961,
+    "medium_norm": "Outro",
+    "country_pt": "Brasil",
+    "period_norm": "Séc. XX",
+    "motif_str": "Justiça, Justice, Themis, blindfold, sword, modernism",
+    "tags_str": "Justiça, Ceschiatti, STF, Brasília, Niemeyer, modernism, granite, January 8"
   },
   {
     "id": "BE-001",
@@ -1974,7 +2352,13 @@
       "ceiling painting",
       "civic virtue",
       "Belgium"
-    ]
+    ],
+    "year": 1885,
+    "medium_norm": "Outro",
+    "country_pt": "Bélgica",
+    "period_norm": "Séc. XIX",
+    "motif_str": "Justice, Charity, Foresight, civic virtue",
+    "tags_str": "Justice, Stallaert, Brussels, city hall, ceiling painting, civic virtue, Belgium"
   },
   {
     "id": "BR-010",
@@ -2004,7 +2388,13 @@
       "Biblioteca Nacional",
       "Rio de Janeiro",
       "Republic"
-    ]
+    ],
+    "year": 1910,
+    "medium_norm": "Pintura/Desenho",
+    "country_pt": "Brasil",
+    "period_norm": "República/Império (BR)",
+    "motif_str": "Alegoria feminina, Republic, impressionism",
+    "tags_str": "allegory, Visconti, impressionism, Biblioteca Nacional, Rio de Janeiro, Republic"
   },
   {
     "id": "BE-002",
@@ -2036,6 +2426,12 @@
       "architecture",
       "colonialism",
       "Belgium"
-    ]
+    ],
+    "year": 1866,
+    "medium_norm": "Outro",
+    "country_pt": "Bélgica",
+    "period_norm": "Séc. XIX",
+    "motif_str": "Justice, classical allegory, civic architecture, colonialism",
+    "tags_str": "Justice, Poelaert, Brussels, courthouse, architecture, colonialism, Belgium"
   }
 ]
