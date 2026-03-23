@@ -17,6 +17,7 @@ python tools/scripts/<script_name>.py [args]
 | `make_skos.py` | Generate SKOS/RDF vocabulary from Iconclass data | `textbase`, `rich` |
 | `make_sqlite.py` | Build SQLite database from Iconclass data | stdlib (`sqlite3`) |
 | `trace_evidence.py` | Generate evidence traceability reports from corpus records | stdlib |
+| `notion_sync.py` | Sync records.jsonl ↔ Notion database (pull/push/sync) | `NOTION_API_KEY` env var |
 | `validate_schemas.py` | Validate JSON records against dual-agent schemas | `jsonschema` (optional fallback) |
 
 ## Details
@@ -40,6 +41,18 @@ Iconclass data processing utilities. Require the `textbase` library for parsing 
 ### `trace_evidence.py`
 
 Generates traceability reports linking each corpus item to its evidence chain: Origin (Drive) → Process (GitHub) → Description (Notion).
+
+### `notion_sync.py`
+
+Synchronizes `data/processed/records.jsonl` with the Notion corpus database (see `docs/notion-schema.md`). Supports three modes:
+
+```bash
+python tools/scripts/notion_sync.py pull   # Notion → JSONL
+python tools/scripts/notion_sync.py push   # JSONL → Notion
+python tools/scripts/notion_sync.py sync   # Bidirectional (last-write-wins)
+```
+
+Requires `NOTION_API_KEY` and `NOTION_CORPUS_DB_ID` environment variables.
 
 ### `validate_schemas.py`
 
