@@ -17,7 +17,9 @@ python tools/scripts/<script_name>.py [args]
 | `make_skos.py` | Generate SKOS/RDF vocabulary from Iconclass data | `textbase`, `rich` |
 | `make_sqlite.py` | Build SQLite database from Iconclass data | stdlib (`sqlite3`) |
 | `trace_evidence.py` | Generate evidence traceability reports from corpus records | stdlib |
+| `notion_sync.py` | Sync records.jsonl ↔ Notion database (pull/push/sync) | `NOTION_API_KEY` env var |
 | `validate_schemas.py` | Validate JSON records against dual-agent schemas | `jsonschema` (optional fallback) |
+| `code_purification.py` | Interactive CLI for coding 10 purification indicators (0–3) per corpus item | stdlib |
 
 ## Details
 
@@ -41,10 +43,35 @@ Iconclass data processing utilities. Require the `textbase` library for parsing 
 
 Generates traceability reports linking each corpus item to its evidence chain: Origin (Drive) → Process (GitHub) → Description (Notion).
 
+### `notion_sync.py`
+
+Synchronizes `data/processed/records.jsonl` with the Notion corpus database (see `docs/notion-schema.md`). Supports three modes:
+
+```bash
+python tools/scripts/notion_sync.py pull   # Notion → JSONL
+python tools/scripts/notion_sync.py push   # JSONL → Notion
+python tools/scripts/notion_sync.py sync   # Bidirectional (last-write-wins)
+```
+
+Requires `NOTION_API_KEY` and `NOTION_CORPUS_DB_ID` environment variables.
+
 ### `validate_schemas.py`
 
 Validates JSON records against the schemas in `tools/schemas/`. Gracefully falls back if `jsonschema` is not installed.
 
 ```bash
 python tools/scripts/validate_schemas.py examples/batch_001/master_record_*.json
+```
+
+### `code_purification.py`
+
+Interactive CLI for coding the 10 ordinal purification indicators (0–3) on corpus items. Reads from `corpus/corpus-data.json`, writes to `data/processed/purification.jsonl`. See `data/docs/codebook.md` for scale definitions.
+
+```bash
+python tools/scripts/code_purification.py                  # code next uncoded item
+python tools/scripts/code_purification.py --resume         # skip already-coded
+python tools/scripts/code_purification.py --item BR-001    # code specific item
+python tools/scripts/code_purification.py --batch FR       # code all FR-* items
+python tools/scripts/code_purification.py --status         # show progress
+python tools/scripts/code_purification.py --export-csv     # export corpus_dataset.csv
 ```
