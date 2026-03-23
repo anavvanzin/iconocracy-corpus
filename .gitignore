@@ -25,6 +25,16 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# Obsidian (workspace is per-user, not shared)
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json
+vault/.obsidian/plugins/
+vault/.obsidian/hotkeys.json
+vault/.obsidian/core-plugins-migration.json
+
+# Pandoc output
+vault/tese/output/
+
 # Data (large files)
 *.gz
 *.sqlite
