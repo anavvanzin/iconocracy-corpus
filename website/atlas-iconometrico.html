@@ -1,49 +1,185 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Atlas Iconométrico — ICONOCRACIA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atlas Iconométrico — Ius Gentium | UFSC</title>
+<meta name="description" content="Atlas Iconométrico — Contrato Sexual Visual na Iconocracia Jurídica Ocidental. PPGD · UFSC · 2026.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Site Styles -->
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="style.css">
+
+<!-- React & Dependencies for Atlas App -->
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script src="https://unpkg.com/recharts@2.12.7/umd/Recharts.js"></script>
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-tailwind.config = {
-  theme: {
-    extend: {
-      colors: {
-        bg: '#16131f',
-        surface: '#1d1929',
-        border: '#2e2a42',
-        text: '#e8e4d8',
-        muted: '#8a8699',
-        gold: '#c9a84c',
-        lavender: '#a490c2',
-        silver: '#d4d0e0',
-        r1bg: '#3d1f28', r1text: '#e8a0a8', r1border: '#7a3040',
-        r2bg: '#1f2d3d', r2text: '#90b8e8', r2border: '#305878',
-        r3bg: '#252535', r3text: '#b8b8d8', r3border: '#484868',
-      },
-      fontFamily: {
-        mono: ['"Courier New"', 'Courier', 'monospace'],
-        serif: ['Georgia', 'serif'],
-      }
+
+<style>
+  /* Atlas-specific styles scoped inside #atlas-root */
+  #atlas-root {
+    font-family: 'Courier New', Courier, monospace;
+    color: #e8e4d8;
+    min-height: 600px;
+  }
+  #atlas-root ::-webkit-scrollbar { width: 6px; }
+  #atlas-root ::-webkit-scrollbar-track { background: #1d1929; }
+  #atlas-root ::-webkit-scrollbar-thumb { background: #2e2a42; border-radius: 3px; }
+  #atlas-root ::-webkit-scrollbar-thumb:hover { background: #3e3a52; }
+
+  /* Atlas grid helpers (no Tailwind dependency) */
+  .atlas-flex { display: flex; }
+  .atlas-flex-col { display: flex; flex-direction: column; }
+  .atlas-flex-wrap { flex-wrap: wrap; }
+  .atlas-flex-1 { flex: 1; }
+  .atlas-shrink-0 { flex-shrink: 0; }
+  .atlas-items-center { align-items: center; }
+  .atlas-items-start { align-items: flex-start; }
+  .atlas-justify-between { justify-content: space-between; }
+  .atlas-gap-1 { gap: 4px; }
+  .atlas-gap-2 { gap: 8px; }
+  .atlas-gap-4 { gap: 16px; }
+  .atlas-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+  .atlas-overflow-y { overflow-y: auto; }
+  .atlas-overflow-hidden { overflow: hidden; }
+  .atlas-relative { position: relative; }
+  .atlas-absolute { position: absolute; }
+  .atlas-w-full { width: 100%; }
+  .atlas-h-full { height: 100%; }
+  .atlas-object-cover { object-fit: cover; }
+  .atlas-cursor-pointer { cursor: pointer; }
+  .atlas-text-right { text-align: right; }
+  .atlas-text-center { text-align: center; }
+  .atlas-rounded { border-radius: 6px; }
+  .atlas-rounded-full { border-radius: 50%; }
+  .atlas-font-bold { font-weight: 700; }
+  .atlas-tracking-wide { letter-spacing: 0.08em; }
+  .atlas-space-y-2 > * + * { margin-top: 8px; }
+  .atlas-space-y-05 > * + * { margin-top: 2px; }
+  .atlas-ml-auto { margin-left: auto; }
+  .atlas-mx-1 { margin-left: 4px; margin-right: 4px; }
+
+  /* Atlas card transition */
+  .atlas-card { transition: all 0.2s ease; }
+  .atlas-img-hover { transition: all 0.3s ease; filter: grayscale(30%); opacity: 0.85; }
+  .atlas-card:hover .atlas-img-hover { filter: grayscale(0%); opacity: 1; }
+
+  /* Atlas detail panel */
+  .atlas-detail-panel {
+    width: 340px;
+    background: #1d1929;
+    height: 100%;
+    position: relative;
+    overflow-y: auto;
+  }
+  @media (max-width: 768px) {
+    .atlas-detail-panel {
+      width: 100%;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      z-index: 100;
+    }
+    .atlas-main-flex {
+      flex-direction: column;
     }
   }
-}
-</script>
-<style>
-  body { background: #16131f; color: #e8e4d8; font-family: 'Courier New', monospace; margin: 0; }
-  ::-webkit-scrollbar { width: 6px; }
-  ::-webkit-scrollbar-track { background: #1d1929; }
-  ::-webkit-scrollbar-thumb { background: #2e2a42; border-radius: 3px; }
-  ::-webkit-scrollbar-thumb:hover { background: #3e3a52; }
 </style>
 </head>
 <body>
-<div id="root"></div>
+
+<!-- Skip Link -->
+<a href="#main" class="skip-link">Ir para conteúdo principal</a>
+
+<!-- Header -->
+<header class="header" role="banner">
+  <div class="header__inner">
+    <a href="index.html" class="header__logo" aria-label="Ius Gentium - Página Inicial" style="display:flex;align-items:center;gap:8px;text-decoration:none;">
+      <img src="img/logo-48.jpg" alt="Ius Gentium" style="height:40px;width:40px;border-radius:4px;">
+      <span class="header__logo-text" style="font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;font-weight:600;color:#003B70;line-height:1.2;">Ius Gentium<br><span style="font-family:'Inter',sans-serif;font-size:7.5px;color:#666;letter-spacing:0.08em;font-weight:400;">UFSC · DIREITO INTERNACIONAL</span></span>
+    </a>
+
+    <nav class="nav" role="navigation" aria-label="Navegação principal">
+      <a href="index.html" class="nav__link">Início</a>
+      <a href="sobre.html" class="nav__link">O Grupo</a>
+      <a href="pessoas.html" class="nav__link">Pessoas</a>
+      <a href="pesquisa.html" class="nav__link">Pesquisa</a>
+      <a href="projetos.html" class="nav__link">Projetos</a>
+      <a href="producao.html" class="nav__link">Produção</a>
+      <a href="eventos.html" class="nav__link">Eventos</a>
+      <a href="cooperacao.html" class="nav__link">Cooperação</a>
+      <a href="links.html" class="nav__link">Links</a>
+      <a href="biblioteca.html" class="nav__link">Biblioteca</a>
+      <a href="atlas-iconometrico.html" class="nav__link nav__link--active">Atlas</a>
+      <a href="contato.html" class="nav__link">Contato</a>
+    </nav>
+
+    <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile Navigation -->
+<div class="mobile-nav" role="navigation" aria-label="Navegação mobile">
+  <a href="index.html" class="mobile-nav__link">Início</a>
+  <a href="sobre.html" class="mobile-nav__link">O Grupo</a>
+  <a href="pessoas.html" class="mobile-nav__link">Pessoas</a>
+  <a href="pesquisa.html" class="mobile-nav__link">Pesquisa</a>
+  <a href="projetos.html" class="mobile-nav__link">Projetos</a>
+  <a href="producao.html" class="mobile-nav__link">Produção</a>
+  <a href="eventos.html" class="mobile-nav__link">Eventos</a>
+  <a href="cooperacao.html" class="mobile-nav__link">Cooperação</a>
+  <a href="links.html" class="mobile-nav__link">Links</a>
+  <a href="biblioteca.html" class="mobile-nav__link">Biblioteca</a>
+  <a href="atlas-iconometrico.html" class="mobile-nav__link">Atlas</a>
+  <a href="contato.html" class="mobile-nav__link">Contato</a>
+</div>
+
+<!-- Main Content -->
+<main id="main">
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <span class="page-header__label">ICONOCRACIA · PPGD · UFSC</span>
+    <h1 class="page-header__title">Atlas Iconométrico</h1>
+    <hr class="page-header__line">
+    <p class="page-header__desc">Contrato Sexual Visual — Iconocracia Jurídica Ocidental</p>
+  </section>
+
+  <!-- Atlas App Container -->
+  <section style="background:#16131f; border-radius:8px; margin:0 auto; max-width:1400px; padding:0; overflow:hidden;">
+    <div id="atlas-root"></div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__bottom">
+      <p class="footer__copyright">© 2026 Ius Gentium - UFSC. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" aria-label="Voltar ao topo">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="18 15 12 9 6 15"/>
+  </svg>
+</button>
+
+<script src="app.js"></script>
+
+<!-- Atlas React App -->
 <script type="text/babel">
 const { useState, useMemo } = React;
 const { RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, ResponsiveContainer } = Recharts;
@@ -88,12 +224,12 @@ const PANELS = [
 
 function Dots({ value, color }) {
   return (
-    <span className="flex gap-1 items-center">
+    <span className="atlas-flex atlas-gap-1 atlas-items-center">
       {[0,1,2].map(i => (
         <span key={i} style={{
           width: 8, height: 8, borderRadius: '50%', display: 'inline-block',
           background: i < value ? color : '#2e2a42',
-          border: `1px solid ${i < value ? color : '#3e3a52'}`
+          border: '1px solid ' + (i < value ? color : '#3e3a52')
         }}/>
       ))}
     </span>
@@ -105,44 +241,41 @@ function ImageCard({ item, selected, onClick }) {
   return (
     <div
       onClick={onClick}
-      className="cursor-pointer group transition-all duration-200"
+      className="atlas-cursor-pointer atlas-card"
       style={{
         background: '#1d1929',
-        border: `1px solid ${selected ? r.border : '#2e2a42'}`,
+        border: '1px solid ' + (selected ? r.border : '#2e2a42'),
         borderRadius: 6,
         overflow: 'hidden',
-        boxShadow: selected ? `0 0 12px ${r.border}44` : 'none'
+        boxShadow: selected ? '0 0 12px ' + r.border + '44' : 'none'
       }}
     >
-      <div className="relative" style={{ height: 160, overflow: 'hidden' }}>
+      <div className="atlas-relative" style={{ height: 160, overflow: 'hidden' }}>
         <img
           src={item.img}
           alt={item.title}
           loading="lazy"
-          className="w-full h-full object-cover transition-all duration-300"
-          style={{ filter: 'grayscale(30%)', opacity: 0.85 }}
-          onMouseOver={e => { e.currentTarget.style.filter = 'grayscale(0%)'; e.currentTarget.style.opacity = '1'; }}
-          onMouseOut={e => { e.currentTarget.style.filter = 'grayscale(30%)'; e.currentTarget.style.opacity = '0.85'; }}
+          className="atlas-w-full atlas-h-full atlas-object-cover atlas-img-hover"
           onError={e => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement.style.background = r.bg; }}
         />
         <span
-          className="absolute top-2 left-2 text-xs font-bold px-2 py-0.5 rounded"
-          style={{ background: r.bg, color: r.text, border: `1px solid ${r.border}`, fontSize: 10 }}
+          className="atlas-absolute atlas-font-bold"
+          style={{ top: 8, left: 8, background: r.bg, color: r.text, border: '1px solid ' + r.border, fontSize: 10, padding: '2px 8px', borderRadius: 4 }}
         >
           {item.regime === "1" ? "I" : item.regime === "2" ? "II" : "III"}
         </span>
         <span
-          className="absolute bottom-2 right-2 text-xs px-1.5 py-0.5 rounded"
-          style={{ background: 'rgba(22,19,31,0.85)', color: '#8a8699', fontSize: 10 }}
+          className="atlas-absolute"
+          style={{ bottom: 8, right: 8, background: 'rgba(22,19,31,0.85)', color: '#8a8699', fontSize: 10, padding: '2px 6px', borderRadius: 4 }}
         >
           {item.country} · {item.date}
         </span>
       </div>
-      <div className="px-3 py-2">
-        <div className="text-xs leading-tight" style={{ color: '#e8e4d8', fontSize: 11 }}>
+      <div style={{ padding: '8px 12px' }}>
+        <div style={{ color: '#e8e4d8', fontSize: 11, lineHeight: 1.3 }}>
           {item.title}
         </div>
-        <div className="mt-1" style={{ color: '#8a8699', fontSize: 10 }}>
+        <div style={{ color: '#8a8699', fontSize: 10, marginTop: 4 }}>
           {item.medium}
         </div>
       </div>
@@ -158,59 +291,44 @@ function DetailPanel({ item, onClose }) {
   }));
 
   return (
-    <div
-      className="flex-shrink-0 overflow-y-auto"
-      style={{
-        width: 340, background: '#1d1929', borderLeft: `1px solid ${r.border}`,
-        height: '100%', position: 'relative'
-      }}
-    >
-      {/* Close button */}
+    <div className="atlas-detail-panel" style={{ borderLeft: '1px solid ' + r.border }}>
       <button
         onClick={onClose}
-        className="absolute top-3 right-3 z-10 w-7 h-7 flex items-center justify-center rounded-full transition-colors"
-        style={{ background: 'rgba(22,19,31,0.7)', color: '#8a8699', border: '1px solid #2e2a42', fontSize: 14 }}
-        onMouseOver={e => e.currentTarget.style.color = '#e8e4d8'}
-        onMouseOut={e => e.currentTarget.style.color = '#8a8699'}
+        className="atlas-absolute atlas-rounded-full atlas-flex atlas-items-center"
+        style={{ top: 12, right: 12, zIndex: 10, width: 28, height: 28, justifyContent: 'center', background: 'rgba(22,19,31,0.7)', color: '#8a8699', border: '1px solid #2e2a42', fontSize: 14, cursor: 'pointer' }}
       >
         ×
       </button>
 
-      {/* Header image */}
-      <div className="relative" style={{ height: 200, overflow: 'hidden' }}>
-        <img src={item.img} alt={item.title} className="w-full h-full object-cover"
+      <div className="atlas-relative" style={{ height: 200, overflow: 'hidden' }}>
+        <img src={item.img} alt={item.title} className="atlas-w-full atlas-h-full atlas-object-cover"
           onError={e => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement.style.background = r.bg; }}
         />
-        <div className="absolute inset-0" style={{
-          background: `linear-gradient(to top, #1d1929 0%, transparent 50%)`
-        }}/>
+        <div className="atlas-absolute" style={{ inset: 0, background: 'linear-gradient(to top, #1d1929 0%, transparent 50%)' }}/>
         <span
-          className="absolute bottom-3 left-3 text-xs font-bold px-2 py-1 rounded"
-          style={{ background: r.bg, color: r.text, border: `1px solid ${r.border}`, fontSize: 10 }}
+          className="atlas-absolute atlas-font-bold"
+          style={{ bottom: 12, left: 12, background: r.bg, color: r.text, border: '1px solid ' + r.border, fontSize: 10, padding: '4px 8px', borderRadius: 4 }}
         >
           {r.label}
         </span>
       </div>
 
-      {/* Metadata */}
-      <div className="px-4 pt-3 pb-2">
-        <div className="text-sm font-bold" style={{ color: '#e8e4d8' }}>{item.title}</div>
-        <div className="mt-1 space-y-0.5" style={{ fontSize: 11, color: '#8a8699' }}>
+      <div style={{ padding: '12px 16px 8px' }}>
+        <div className="atlas-font-bold" style={{ color: '#e8e4d8', fontSize: 14 }}>{item.title}</div>
+        <div className="atlas-space-y-05" style={{ marginTop: 4, fontSize: 11, color: '#8a8699' }}>
           <div>{item.date} · {item.country}</div>
           <div>{item.medium}</div>
           <div>{item.archive}</div>
         </div>
       </div>
 
-      {/* Radar label */}
-      <div className="px-4 mt-3 mb-1">
-        <span className="text-xs tracking-widest" style={{ color: '#c9a84c', fontSize: 10, letterSpacing: '0.15em' }}>
+      <div style={{ padding: '12px 16px 4px' }}>
+        <span style={{ color: '#c9a84c', fontSize: 10, letterSpacing: '0.15em' }}>
           PERFIL ICONOMÉTRICO
         </span>
       </div>
 
-      {/* Radar chart */}
-      <div className="px-2" style={{ height: 240 }}>
+      <div style={{ padding: '0 8px', height: 240 }}>
         <ResponsiveContainer width="100%" height="100%">
           <RadarChart data={radarData} cx="50%" cy="50%" outerRadius="72%">
             <PolarGrid stroke="#2e2a42" />
@@ -231,12 +349,11 @@ function DetailPanel({ item, onClose }) {
         </ResponsiveContainer>
       </div>
 
-      {/* Indicator list */}
-      <div className="px-4 pb-6 space-y-2">
+      <div className="atlas-space-y-2" style={{ padding: '0 16px 24px' }}>
         {Object.entries(item.indicators).map(([key, val]) => (
-          <div key={key} className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <span className="font-bold" style={{ color: '#c9a84c', fontSize: 10, width: 36 }}>{key}</span>
+          <div key={key} className="atlas-flex atlas-items-center atlas-justify-between">
+            <div className="atlas-flex atlas-items-center atlas-gap-2">
+              <span className="atlas-font-bold" style={{ color: '#c9a84c', fontSize: 10, width: 36 }}>{key}</span>
               <span style={{ color: '#8a8699', fontSize: 10 }}>{INDICATOR_NAMES[key]}</span>
             </div>
             <Dots value={val} color={r.text} />
@@ -247,7 +364,7 @@ function DetailPanel({ item, onClose }) {
   );
 }
 
-function App() {
+function AtlasApp() {
   const [filter, setFilter] = useState("all");
   const [selected, setSelected] = useState(null);
 
@@ -267,32 +384,32 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col" style={{ background: '#16131f' }}>
+    <div className="atlas-flex-col" style={{ minHeight: 600 }}>
       {/* HEADER */}
-      <header className="px-6 pt-5 pb-3" style={{ borderBottom: '1px solid #2e2a42' }}>
-        <div className="flex items-start justify-between">
+      <div style={{ padding: '20px 24px 12px', borderBottom: '1px solid #2e2a42' }}>
+        <div className="atlas-flex atlas-items-start atlas-justify-between">
           <div>
-            <h1 className="font-serif text-3xl tracking-wide" style={{ color: '#e8e4d8', fontFamily: 'Georgia, serif', letterSpacing: '0.08em' }}>
+            <h2 style={{ fontFamily: 'Georgia, serif', fontSize: 24, letterSpacing: '0.08em', color: '#e8e4d8', margin: 0, fontWeight: 400 }}>
               ATLAS ICONOMÉTRICO
-            </h1>
-            <p className="mt-1" style={{ color: '#8a8699', fontSize: 12, letterSpacing: '0.05em' }}>
+            </h2>
+            <p style={{ color: '#8a8699', fontSize: 12, letterSpacing: '0.05em', margin: '4px 0 0' }}>
               Contrato Sexual Visual — Iconocracia Jurídica Ocidental
             </p>
-            <p className="mt-0.5" style={{ color: '#a490c2', fontSize: 11 }}>
+            <p style={{ color: '#a490c2', fontSize: 11, margin: '2px 0 0' }}>
               PPGD · UFSC · 2026
             </p>
           </div>
-          <div className="text-right" style={{ fontSize: 11, color: '#8a8699' }}>
+          <div className="atlas-text-right" style={{ fontSize: 11, color: '#8a8699' }}>
             <div><span style={{ color: '#c9a84c' }}>{CORPUS.length}</span> obras</div>
             <div><span style={{ color: '#c9a84c' }}>{countries.size}</span> países</div>
             <div><span style={{ color: '#c9a84c' }}>{dateRange[0]}–{dateRange[dateRange.length-1]}</span></div>
             <div><span style={{ color: '#c9a84c' }}>10</span> indicadores</div>
           </div>
         </div>
-      </header>
+      </div>
 
       {/* FILTER BAR */}
-      <div className="px-6 py-3 flex gap-2 flex-wrap" style={{ borderBottom: '1px solid #2e2a42' }}>
+      <div className="atlas-flex atlas-flex-wrap atlas-gap-2" style={{ padding: '12px 24px', borderBottom: '1px solid #2e2a42' }}>
         {filters.map(f => {
           const active = filter === f.key;
           const regime = f.key !== "all" ? REGIMES[f.key] : null;
@@ -300,70 +417,71 @@ function App() {
             <button
               key={f.key}
               onClick={() => setFilter(f.key)}
-              className="px-3 py-1.5 rounded text-xs font-bold transition-all duration-200"
+              className="atlas-rounded atlas-font-bold"
               style={{
+                padding: '6px 12px',
+                fontSize: 11,
+                letterSpacing: '0.05em',
                 background: active ? (regime ? regime.bg : '#2e2a42') : 'transparent',
                 color: active ? (regime ? regime.text : '#e8e4d8') : '#8a8699',
-                border: `1px solid ${active ? (regime ? regime.border : '#c9a84c') : '#2e2a42'}`,
-                fontSize: 11,
-                letterSpacing: '0.05em'
+                border: '1px solid ' + (active ? (regime ? regime.border : '#c9a84c') : '#2e2a42'),
+                cursor: 'pointer',
+                transition: 'all 0.2s ease'
               }}
             >
               {f.label}
             </button>
           );
         })}
-        <span className="ml-auto self-center" style={{ fontSize: 10, color: '#8a8699' }}>
+        <span className="atlas-ml-auto" style={{ fontSize: 10, color: '#8a8699', alignSelf: 'center' }}>
           {filtered.length} resultado{filtered.length !== 1 ? 's' : ''}
         </span>
       </div>
 
       {/* MAIN AREA */}
-      <div className="flex flex-1 overflow-hidden">
+      <div className="atlas-flex atlas-flex-1 atlas-overflow-hidden atlas-main-flex" style={{ minHeight: 400 }}>
         {/* IMAGE GRID */}
-        <div className="flex-1 overflow-y-auto p-4">
-          <div
-            className="grid gap-4"
-            style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))' }}
-          >
+        <div className="atlas-flex-1 atlas-overflow-y" style={{ padding: 16 }}>
+          <div className="atlas-grid">
             {filtered.map(item => (
               <ImageCard
                 key={item.id}
                 item={item}
-                selected={selected?.id === item.id}
-                onClick={() => setSelected(selected?.id === item.id ? null : item)}
+                selected={selected && selected.id === item.id}
+                onClick={() => setSelected(selected && selected.id === item.id ? null : item)}
               />
             ))}
           </div>
 
           {filtered.length === 0 && (
-            <div className="text-center py-16" style={{ color: '#8a8699' }}>
+            <div className="atlas-text-center" style={{ padding: '64px 0', color: '#8a8699' }}>
               <div style={{ fontSize: 32, marginBottom: 8 }}>∅</div>
               <div style={{ fontSize: 12 }}>Nenhuma obra encontrada para este filtro.</div>
             </div>
           )}
 
           {/* ATLAS PANELS */}
-          <div className="mt-6 pt-4" style={{ borderTop: '1px solid #2e2a42' }}>
-            <div className="mb-2" style={{ fontSize: 10, color: '#8a8699', letterSpacing: '0.1em' }}>
+          <div style={{ marginTop: 24, paddingTop: 16, borderTop: '1px solid #2e2a42' }}>
+            <div style={{ fontSize: 10, color: '#8a8699', letterSpacing: '0.1em', marginBottom: 8 }}>
               PAINÉIS DO ATLAS
             </div>
-            <div className="flex flex-wrap gap-2">
+            <div className="atlas-flex atlas-flex-wrap atlas-gap-2">
               {PANELS.map(p => {
                 const regime = p.regime ? REGIMES[p.regime] : null;
                 return (
                   <span
                     key={p.id}
-                    className="px-3 py-1.5 rounded cursor-default"
+                    className="atlas-rounded"
                     style={{
+                      padding: '6px 12px',
                       background: regime ? regime.bg : '#1d1929',
                       color: regime ? regime.text : '#c9a84c',
-                      border: `1px solid ${regime ? regime.border : '#2e2a42'}`,
+                      border: '1px solid ' + (regime ? regime.border : '#2e2a42'),
                       fontSize: 11
                     }}
                   >
-                    <span className="font-bold">{p.id}</span>
-                    <span className="mx-1" style={{ color: '#8a8699' }}>·</span>
+                    <span className="atlas-font-bold">{p.id}</span>
+                    <span className="atlas-mx-1" style={{ color: '#8a8699' }}>·</span>
                     {p.label}
                   </span>
                 );
@@ -381,7 +499,7 @@ function App() {
   );
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+ReactDOM.createRoot(document.getElementById('atlas-root')).render(<AtlasApp />);
 </script>
 </body>
 </html>
