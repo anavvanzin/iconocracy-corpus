@@ -33,6 +33,37 @@
     },
     "webscout": { "$ref": "webscout-output.schema.json" },
     "iconocode": { "$ref": "iconocode-output.schema.json" },
+    "purificacao": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "10 ordinal purification indicators (0–3) per codebook",
+      "required": [
+        "desincorporacao", "rigidez_postural", "dessexualizacao",
+        "uniformizacao_facial", "heraldizacao", "enquadramento_arquitetonico",
+        "apagamento_narrativo", "monocromatizacao", "serialidade",
+        "inscricao_estatal"
+      ],
+      "properties": {
+        "desincorporacao":            { "type": "integer", "minimum": 0, "maximum": 3 },
+        "rigidez_postural":           { "type": "integer", "minimum": 0, "maximum": 3 },
+        "dessexualizacao":            { "type": "integer", "minimum": 0, "maximum": 3 },
+        "uniformizacao_facial":       { "type": "integer", "minimum": 0, "maximum": 3 },
+        "heraldizacao":               { "type": "integer", "minimum": 0, "maximum": 3 },
+        "enquadramento_arquitetonico":{ "type": "integer", "minimum": 0, "maximum": 3 },
+        "apagamento_narrativo":       { "type": "integer", "minimum": 0, "maximum": 3 },
+        "monocromatizacao":           { "type": "integer", "minimum": 0, "maximum": 3 },
+        "serialidade":                { "type": "integer", "minimum": 0, "maximum": 3 },
+        "inscricao_estatal":          { "type": "integer", "minimum": 0, "maximum": 3 },
+        "purificacao_composto":       { "type": "number", "minimum": 0, "maximum": 3 },
+        "regime_iconocratico": {
+          "type": "string",
+          "enum": ["fundacional", "normativo", "militar"]
+        },
+        "coded_by":   { "type": "string" },
+        "coded_at":   { "type": "string", "format": "date-time" },
+        "notes":      { "type": "string" }
+      }
+    },
     "exports": {
       "type": "object",
       "additionalProperties": false,

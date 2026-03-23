@@ -19,6 +19,7 @@ python tools/scripts/<script_name>.py [args]
 | `trace_evidence.py` | Generate evidence traceability reports from corpus records | stdlib |
 | `notion_sync.py` | Sync records.jsonl ↔ Notion database (pull/push/sync) | `NOTION_API_KEY` env var |
 | `validate_schemas.py` | Validate JSON records against dual-agent schemas | `jsonschema` (optional fallback) |
+| `code_purification.py` | Interactive CLI for coding 10 purification indicators (0–3) per corpus item | stdlib |
 
 ## Details
 
@@ -60,4 +61,17 @@ Validates JSON records against the schemas in `tools/schemas/`. Gracefully falls
 
 ```bash
 python tools/scripts/validate_schemas.py examples/batch_001/master_record_*.json
+```
+
+### `code_purification.py`
+
+Interactive CLI for coding the 10 ordinal purification indicators (0–3) on corpus items. Reads from `corpus/corpus-data.json`, writes to `data/processed/purification.jsonl`. See `data/docs/codebook.md` for scale definitions.
+
+```bash
+python tools/scripts/code_purification.py                  # code next uncoded item
+python tools/scripts/code_purification.py --resume         # skip already-coded
+python tools/scripts/code_purification.py --item BR-001    # code specific item
+python tools/scripts/code_purification.py --batch FR       # code all FR-* items
+python tools/scripts/code_purification.py --status         # show progress
+python tools/scripts/code_purification.py --export-csv     # export corpus_dataset.csv
 ```
