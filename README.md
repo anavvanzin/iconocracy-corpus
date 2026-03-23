@@ -16,27 +16,26 @@ iconocracy/
 │   └── DASHBOARD_CORPUS.html  # Interactive analytical dashboard (Chart.js)
 ├── tese/                      # Doctoral manuscript and research outputs
 │   ├── manuscrito/            # Chapters under revision (Introdução, Cap.1)
-│   │   ├── LEIAME.md          # Guide for supervisor / orientador
-│   │   ├── sumario_iconocracia.md
-│   │   ├── Introducao_rev.md
-│   │   └── Capitulo1_rev.md
 │   ├── revisoes/              # Review documents (ABNT, terminological audit)
-│   │   ├── CITACOES_FALTANTES.md
-│   │   ├── REVISAO_ICONOCRACY.md
-│   │   └── REVISAO_AWR.md
-│   ├── pesquisa/              # NotebookLM research reports (typology, architecture)
+│   ├── pesquisa/              # NotebookLM research reports
 │   └── ATLAS_ICONOCRACIA.pdf  # Printed atlas: sumário + glossary + image gallery
 ├── tools/                     # Research automation scripts
-│   ├── scripts/               # Python tools (ABNT citations, feminist network extraction, etc.)
+│   ├── scripts/               # Python tools (see docs/scripts.md)
 │   ├── schemas/               # JSON schemas (IconoCode, WebScout, master records)
-│   ├── sql/                   # Database migrations for dual-agent corpus
-│   └── email-workflow/        # Email notification workflow
-├── data/                      # Extracted datasets and networks
-├── docs/                      # Technical specifications
+│   └── sql/                   # Database migrations for dual-agent corpus
+├── data/                      # Datasets (traceability: Drive → GitHub → Notion)
+│   ├── raw/                   # Manifests and Drive links only (never raw files)
+│   ├── interim/               # Data in transformation
+│   ├── processed/             # Datasets ready for analysis
+│   └── docs/                  # Dataset documentation
+├── docs/                      # Technical specifications and ADRs
+├── notebooks/                 # Exploratory analysis and iconometrics
+├── sources/                   # Saved research results (web search, paper lookups)
 ├── examples/                  # Example pipeline outputs (batch_001)
 ├── website/                   # Ius Gentium research group site (grupoiusgentium.com.br)
 ├── CITATION.cff               # Citation metadata
 ├── environment.yml            # Conda environment
+├── requirements.txt           # pip dependencies
 └── LICENSE
 ```
 
@@ -78,8 +77,10 @@ Static site for the [Ius Gentium](https://www.grupoiusgentium.com.br/) research 
 
 ### Data (`data/`)
 
-Pre-extracted datasets:
+Pre-extracted datasets in `data/processed/`:
 - `feminist_network_48C51_pt.json` — Feminist iconography subnetwork (Iconclass 48C51) in Portuguese
+
+See `data/docs/README.md` for full dataset documentation and traceability.
 
 ### Tese (`tese/`)
 
