@@ -30,5 +30,14 @@ Thumbs.db
 *.sqlite
 *.db
 
+# Archives
+*.zip
+
+# Word temp/lock files
+~$*
+
+# Review artifacts
+review/
+
 # Node
 node_modules/
