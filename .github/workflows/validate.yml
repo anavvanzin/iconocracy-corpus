@@ -1,0 +1,36 @@
+name: Validate Schemas
+
+on:
+  push:
+    paths:
+      - 'data/processed/**'
+      - 'tools/schemas/**'
+  pull_request:
+    paths:
+      - 'data/processed/**'
+      - 'tools/schemas/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate schemas
+        run: python tools/scripts/validate_schemas.py
+
+      - name: Reject binary files in data/raw/
+        run: |
+          BINARIES=$(git diff --cached --name-only --diff-filter=A -- 'data/raw/' | grep -vE '\.(json|md|gitkeep)$' || true)
+          if [ -n "$BINARIES" ]; then
+            echo "::error::Binary files detected in data/raw/ — use Google Drive instead (ADR-001)"
+            echo "$BINARIES"
+            exit 1
+          fi

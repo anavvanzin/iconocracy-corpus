@@ -6,8 +6,8 @@ if [ "${CLAUDE_CODE_REMOTE:-}" != "true" ]; then
   exit 0
 fi
 
-# Install Python pip dependencies
+# Install Python dependencies from requirements.txt
 pip install -q -r "$CLAUDE_PROJECT_DIR/requirements.txt"
 
-# Install pylint (used as the project linter, listed in environment.yml)
+# Install pylint for linting (listed in environment.yml but not requirements.txt)
 pip install -q pylint
