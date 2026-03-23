@@ -1,0 +1,6 @@
+{
+  "$schema": "../docs/drive-manifest-schema.json",
+  "_comment": "Mapa: pasta Google Drive → item_id local. Não commitar binários aqui (ver ADR-001).",
+  "drive_root": "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID",
+  "items": []
+}
