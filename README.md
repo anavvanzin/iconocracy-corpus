@@ -2,7 +2,7 @@
 
 **Alegoria Feminina na Iconografia Jurídica · Female Allegory in Legal Iconography**
 
-Monorepo for the doctoral research project *"Iconocracy: Female Allegory in the History of Legal Culture (19th–20th c.)"* at PPGD/UFSC, integrating the searchable corpus, data processing tools, Iconclass classification data, and the Ius Gentium research group website.
+Monorepo for the doctoral research project *"Iconocracy: Female Allegory in the History of Legal Culture (19th–20th c.)"* at PPGD/UFSC, integrating the searchable corpus, data processing tools, Iconclass classification data, and the doctoral manuscript.
 
 ---
 
@@ -10,19 +10,24 @@ Monorepo for the doctoral research project *"Iconocracy: Female Allegory in the 
 
 ```
 iconocracy/
-├── corpus/                    # Searchable iconographic corpus (HTML + JSON)
+├── corpus/                    # Searchable iconographic corpus
 │   ├── index.html             # Browser-based search interface
 │   ├── corpus-data.json       # Full corpus dataset (66 items, CC BY 4.0)
-│   └── DASHBOARD_CORPUS.html  # Interactive analytical dashboard (Chart.js)
+│   ├── DASHBOARD_CORPUS.html  # Interactive analytical dashboard (Chart.js)
+│   └── atlas-iconometrico.html # Visual atlas (React app)
 ├── tese/                      # Doctoral manuscript and research outputs
 │   ├── manuscrito/            # Chapters under revision (Introdução, Cap.1)
 │   ├── revisoes/              # Review documents (ABNT, terminological audit)
-│   ├── pesquisa/              # NotebookLM research reports
-│   └── ATLAS_ICONOCRACIA.pdf  # Printed atlas: sumário + glossary + image gallery
+│   ├── pesquisa/              # Research notes and NotebookLM reports
+│   ├── apresentacoes/         # Progress presentations (PPTX)
+│   ├── Para_Orientador_Mar2026/ # Companion articles for advisor
+│   ├── ATLAS_ICONOCRACIA.pdf  # Printed atlas: sumário + glossary + gallery
+│   └── ATLAS_ICONOCRACIA.docx # Editable source for the atlas
 ├── tools/                     # Research automation scripts
 │   ├── scripts/               # Python tools (see docs/scripts.md)
 │   ├── schemas/               # JSON schemas (IconoCode, WebScout, master records)
-│   └── sql/                   # Database migrations for dual-agent corpus
+│   ├── sql/                   # Database migrations for dual-agent corpus
+│   └── atlas_lab/             # AtlasLab interactive viewer (JSX)
 ├── data/                      # Datasets (traceability: Drive → GitHub → Notion)
 │   ├── raw/                   # Manifests and Drive links only (never raw files)
 │   ├── interim/               # Data in transformation
@@ -30,8 +35,9 @@ iconocracy/
 │   └── docs/                  # Dataset documentation
 ├── docs/                      # Technical specifications and ADRs
 ├── notebooks/                 # Exploratory analysis and iconometrics
-├── sources/                   # Saved research results (web search, paper lookups)
+├── sources/                   # Saved research results and reference materials
 ├── examples/                  # Example pipeline outputs (batch_001)
+├── vault/                     # Obsidian vault (cataloging cards, Pandoc templates)
 ├── website/                   # Ius Gentium research group site (grupoiusgentium.com.br)
 ├── CITATION.cff               # Citation metadata
 ├── environment.yml            # Conda environment
@@ -70,10 +76,6 @@ Research automation pipeline built on the [Iconclass](https://iconclass.org/) cl
 | `make_index.py` / `make_skos.py` | Index and SKOS generation utilities |
 
 **Schemas** define the dual-agent corpus builder pipeline (IconoCode visual coder + WebScout contextual researcher).
-
-### Website (`website/`)
-
-Static site for the [Ius Gentium](https://www.grupoiusgentium.com.br/) research group at PPGD/UFSC. Deployed via GitHub Pages.
 
 ### Data (`data/`)
 
