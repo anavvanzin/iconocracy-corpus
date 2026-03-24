@@ -94,7 +94,8 @@ iconocracy-corpus/
 ├── corpus/                         ← CORPUS PUBLICÁVEL
 │   ├── corpus-data.json            ← Dataset canônico (66 itens, JSON array)
 │   ├── DASHBOARD_CORPUS.html       ← Dashboard interativo (abrir no browser)
-│   └── index.html                  ← Interface de busca simples
+│   ├── index.html                  ← Interface de busca simples
+│   └── atlas-iconometrico.html     ← Atlas visual interativo (React app)
 │
 ├── tese/                           ← MATERIAIS DA TESE
 │   ├── manuscrito/                 ← Capítulos em revisão (Markdown)
@@ -103,8 +104,11 @@ iconocracy-corpus/
 │   │   ├── sumario_iconocracia.md  ← Sumário anotado completo
 │   │   └── LEIAME.md               ← Guia para o orientador
 │   ├── revisoes/                   ← Documentos de revisão
-│   ├── pesquisa/                   ← Relatórios NotebookLM
-│   └── ATLAS_ICONOCRACIA.pdf       ← Atlas imprimível (10 páginas)
+│   ├── pesquisa/                   ← Notas de pesquisa e relatórios NotebookLM
+│   ├── apresentacoes/              ← Apresentações de andamento (PPTX)
+│   ├── Para_Orientador_Mar2026/    ← Artigos complementares para orientador
+│   ├── ATLAS_ICONOCRACIA.pdf       ← Atlas imprimível (10 páginas)
+│   └── ATLAS_ICONOCRACIA.docx      ← Fonte editável do atlas
 │
 ├── vault/                          ← OBSIDIAN VAULT
 │   ├── _templates/                 ← 4 templates (ficha, nota, capítulo, diário)
@@ -126,7 +130,8 @@ iconocracy-corpus/
 ├── tools/                          ← FERRAMENTAS
 │   ├── scripts/                    ← 10 scripts Python
 │   ├── schemas/                    ← JSON Schemas (master-record, iconocode, webscout)
-│   └── sql/                        ← Migrações SQL
+│   ├── sql/                        ← Migrações SQL
+│   └── atlas_lab/                  ← AtlasLab viewer (JSX)
 │
 ├── notebooks/                      ← ANÁLISE (Cap. 6)
 │   ├── 01_exploratory.ipynb        ← Distribuição dos indicadores
@@ -135,14 +140,15 @@ iconocracy-corpus/
 │   └── 04_correspondence.ipynb     ← Análise de correspondência múltipla
 │
 ├── docs/                           ← DOCUMENTAÇÃO TÉCNICA
+│   ├── ICONOCRACIA_PROJETO.md      ← Documento do projeto
 │   ├── scripts.md                  ← Referência de scripts
 │   ├── adr/                        ← Decisões arquiteturais (3 ADRs)
 │   ├── drive-structure.md          ← Organização do Google Drive
 │   └── notion-schema.md            ← Esquema do Notion
 │
-├── website/                        ← Site Ius Gentium (GitHub Pages)
+├── sources/                        ← Materiais de referência e pesquisa salvos
 ├── examples/                       ← Saídas de exemplo do pipeline
-├── sources/                        ← Resultados de pesquisa salvos
+├── website/                        ← Site Ius Gentium (GitHub Pages)
 │
 ├── environment.yml                 ← Ambiente conda
 ├── requirements.txt                ← Dependências pip
