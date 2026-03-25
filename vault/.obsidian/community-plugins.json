@@ -1,4 +1,12 @@
 [
   "templates",
-  "dataview"
+  "dataview",
+  "obsidian-git",
+  "longform",
+  "novel-word-count",
+  "templater-obsidian",
+  "obsidian-excalidraw-plugin",
+  "obsidian-kanban",
+  "obsidian-tasks-plugin",
+  "obsidian-linter"
 ]
