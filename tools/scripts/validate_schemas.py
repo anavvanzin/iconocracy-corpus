@@ -17,7 +17,7 @@ except ImportError:
     sys.exit(1)
 
 
-SCHEMA_DIR = Path(__file__).parent / "schemas"
+SCHEMA_DIR = Path(__file__).parent.parent / "schemas"
 
 
 def load_schema(schema_name: str) -> Dict[str, Any]:

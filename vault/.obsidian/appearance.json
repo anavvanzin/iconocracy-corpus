@@ -1,5 +1,7 @@
 {
   "accentColor": "#7b6cb7",
-  "theme": "none",
-  "cssTheme": ""
+  "theme": "moonstone",
+  "cssTheme": "Retroma",
+  "baseFontSize": 16,
+  "translucency": false
 }
