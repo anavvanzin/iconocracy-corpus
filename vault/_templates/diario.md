@@ -1,3 +1,4 @@
+`
 ---
 data: "{{date:YYYY-MM-DD}}"
 tags: [diario]
