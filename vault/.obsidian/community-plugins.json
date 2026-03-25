@@ -11,5 +11,12 @@
   "obsidian-linter",
   "obsidian-annotator",
   "omnisearch",
-  "obsidian-footnotes"
+  "obsidian-footnotes",
+  "obsidian-mind-map",
+  "highlightr-plugin",
+  "obsidian-book-search-plugin",
+  "calendar",
+  "obsidian-pandoc",
+  "terminal",
+  "github-sync"
 ]
