@@ -58,7 +58,7 @@ O resultado é um paradoxo teórico. Pateman demonstra que o contrato sexual ope
 
 Quando a França revolucionária adotou Marianne como símbolo da República em 1792 e simultaneamente negou às mulheres o direito de voto, de reunião e de associação política; quando a Bélgica de Rogier erigiu uma personificação feminina da Constituição enquanto mantinha o sufrágio censitário exclusivamente masculino; quando o Bureau of Printing dos Estados Unidos gravou em aço a figura de uma Justiça vendada, com balança e espada, num país que negaria às mulheres o voto federal até 1920, o contrato sexual não estava apenas em silêncio. Estava em exibição. Mas exibia-se sob a forma mais eficaz de ocultação: a substituição da presença real pela presença simbólica.
 
-É esse mecanismo, invisível a Pateman porque ela olhava para os textos e não para as imagens, que esta tese propõe nomear como **Contrato Sexual Visual**. Para chegar a essa nomeação, é preciso primeiro compreender como o Direito funciona como regime de imagens. Essa é a tarefa de Peter Goodrich.
+É esse mecanismo — invisível a Pateman porque ela olhava para os textos e não para as imagens — que esta tese propõe nomear como **Contrato Sexual Visual**. Mas para demonstrar que a alegoria feminina não é ornamento acidental e sim operação constitutiva do poder soberano, é necessário compreender, antes, como o Direito funciona como sistema de imagens: que tradição visual transmite de tribunal em tribunal a figura da Justitia; que autoridade produzem as perucas, os pórticos colunados, a espada gravada em aço; que genealogia conecta a Marianne dos selos à Justitia das moedas romanas. Esses elementos não são decoração; são tecnologias de governo que precedem e sustentam o texto normativo. Dessa genealogia trata Peter Goodrich.
 
 ---
 
@@ -78,7 +78,7 @@ Em *Legal Emblems and the Art of Law: Obiter Depicta as the Vision of Governance
 
 No artigo fundacional "Visiocracy: On the Futures of the Fingerpost" (*Critical Inquiry*, 2013a), Goodrich propõe o conceito de visiocracia para designar a sistematização do *common law* no início da modernidade como uma organização do visível, "a strict order for the composition and construction of visible rule as precedence, hierarchy, and acclamatory order" (GOODRICH, 2013a, p. 506). A visiocracia não é uma metáfora; é uma descrição da operação concreta do Direito: a autoridade depende de sua visibilidade, e a fonte do Direito é um soberano ausente cuja presença é fabricada por imagens.
 
-A convergência com Legendre é aqui decisiva. Legendre demonstrou que o Direito opera como uma "função dogmática da imagem", uma *economia da ficção* que fabrica a adesão dos sujeitos ao poder por meio de dispositivos visuais e rituais (LEGENDRE, 1994). Goodrich traduz essa intuição para o *common law* anglo-saxão: os precedentes, as perucas, os bancos elevados, as cerimônias de abertura das sessões não são tradições pitorescas; são tecnologias de produção de legitimidade que operam primariamente no registro visual.
+A convergência com Legendre é aqui decisiva. Legendre demonstrou que o Direito opera como uma "função dogmática da imagem", uma *economia da ficção* que fabrica a adesão dos sujeitos ao poder por meio de dispositivos visuais e rituais (LEGENDRE, 1994). Goodrich traduz essa intuição para o *common law* anglo-saxão: os precedentes, as perucas, os bancos elevados, as cerimônias de abertura das sessões não são tradições pitorescas; são tecnologias de produção de legitimidade que operam primariamente no registro visual (GOODRICH, 2013b, cap. 1).
 
 #### *O que Goodrich não viu: o gênero da visiocracia*
 
@@ -88,7 +88,9 @@ Há, entretanto, uma ausência notável na obra de Goodrich, simétrica à de Pa
 
 A Justiça é uma mulher. A Liberdade é uma mulher. A República é uma mulher. A Nação é uma mulher. As quatro liberdades constitucionais belgas, esculpidas nos cantos da Coluna do Congresso de Bruxelas, são quatro mulheres sentadas com atributos, como demonstra Huygebaert, numa iconografia diretamente modelada sobre as quatro virtudes cardinais medievais (HUYGEBAERT, 2015, p. 35). A visiocracia, tal como Goodrich a descreve, é *genderizada* de ponta a ponta. Mas Goodrich não examina esse gênero.
 
-O próprio Goodrich reconheceu a proximidade entre o conceito de visiocracia e a teoria da iconocracia de Marie-José Mondzain (GOODRICH, 2017). Mas a conexão permanece registrada; não se converte em programa de pesquisa. A articulação entre visiocracia (Goodrich), iconocracia (Mondzain) e contrato sexual (Pateman), que esta tese propõe realizar, permanece uma lacuna na literatura.
+O próprio Goodrich, em *Imago Decidendi* (2017), inscreve seu argumento em diálogo com o pensamento de Marie-José Mondzain sobre a radicalidade da imagem e a economia do visível, reconhecendo que a digitalização do Direito intensifica o regime de imagens até o ponto em que elas se tornam o modo primário de raciocínio, autorização e julgamento (GOODRICH, 2017; MONDZAIN, 2017). A convergência entre os dois projetos teóricos é, contudo, registrada sem ser desenvolvida. A articulação entre visiocracia (Goodrich), economia do ícone (Mondzain) e contrato sexual (Pateman) — que esta tese propõe realizar — permanece uma lacuna na literatura.
+
+[VERIFICAR: confirmar se Goodrich em *Imago Decidendi* (2017) usa explicitamente o conceito de *iconocracia* de Mondzain ou se a referência é mais geral à sua teoria da imagem. A obra de Mondzain citada por Goodrich é *Confiscation: des mots, des images et du temps* (Paris: Les liens qui libèrent, 2017), não *Image, icône, économie* (1996). Ajustar a referência a Mondzain na frase anterior conforme o que Goodrich efetivamente cita.]
 
 ---
 
