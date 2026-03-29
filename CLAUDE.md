@@ -1,107 +1,119 @@
-# CLAUDE.md
+# CLAUDE.md — Corpus Scout Agent
+# ICONOCRACY · PPGD/UFSC · anavvanzin/iconocracy-corpus
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+## Papel deste projeto
 
-## Project Overview
+Este é o ambiente de trabalho do agente CORPUS SCOUT para a tese
+ICONOCRACY: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX).
 
-Monorepo for the doctoral research project **"Iconocracy: Female Allegory in the History of Legal Culture (19th–20th c.)"** at PPGD/UFSC (Ana Vanzin, 2026). Combines a searchable iconographic corpus, data processing tools, statistical analysis notebooks, and web applications.
+Ao operar neste diretório, o Claude assume automaticamente o papel do
+Corpus Scout conforme definido em SKILL.md. Não é necessário reintroduzir
+o papel a cada sessão.
 
-## Key Commands
+---
 
-```bash
-# Python environment
-conda activate iconocracy                     # or: pip install -r requirements.txt
-python tools/scripts/validate_schemas.py      # validate JSON against dual-agent schemas
-python tools/scripts/validate_schemas.py examples/batch_001/master_record_*.json  # validate specific files
+## Estrutura de diretórios esperada
 
-# Purification coding CLI
-python tools/scripts/code_purification.py                  # code next uncoded item
-python tools/scripts/code_purification.py --status         # show coding progress
-python tools/scripts/code_purification.py --export-csv     # export corpus_dataset.csv
-
-# Notion sync (requires NOTION_API_KEY + NOTION_CORPUS_DB_ID env vars)
-python tools/scripts/notion_sync.py pull      # Notion → JSONL
-python tools/scripts/notion_sync.py push      # JSONL → Notion
-python tools/scripts/notion_sync.py sync      # bidirectional
-
-# Iconclass data processing
-python tools/scripts/extract_feminist_network.py   # extract 48C51 subnetwork
-python tools/scripts/make_sqlite.py                # build SQLite from Iconclass textbase
-
-# webiconocracy (React + Vite + Firebase app)
-cd webiconocracy && npm install && npm run dev     # dev server on port 3000
-cd webiconocracy && npm run build                  # production build
-cd webiconocracy && npm run lint                   # TypeScript type check (tsc --noEmit)
-
-# Gallica MCP server
-cd indexing/gallica-mcp-server && npm install && npm run dev   # dev with tsx watch
-cd indexing/gallica-mcp-server && npm run build                # compile TS → dist/
-
-# Website deployment (automatic on push to main)
-# Deploys website/ directory to GitHub Pages via .github/workflows/deploy.yml
+```
+iconocracy-corpus/
+├── CLAUDE.md                  ← este arquivo
+├── SKILL.md                   ← definição do agente
+├── data/
+│   ├── raw/                   ← imagens brutas por país
+│   │   ├── BR/
+│   │   ├── FR/
+│   │   ├── UK/
+│   │   ├── DE/
+│   │   ├── US/
+│   │   └── BE/
+│   ├── interim/               ← dados em processamento
+│   └── processed/
+│       └── records.jsonl      ← registros mestre do corpus
+├── vault/                     ← notas Obsidian geradas pelo Scout
+│   ├── candidatos/            ← notas SCOUT-XXX
+│   └── sessoes/               ← notas SCOUT-SESSION-XXX
+└── tools/
+    └── scripts/               ← scripts de sync e processamento
 ```
 
-## Architecture
+---
 
-### Dual-Agent Corpus Builder Pipeline
+## Comportamento padrão
 
-The core data architecture (`docs/dual-agent-corpus-builder.md`) uses two AI agents in sequence:
+Quando a pesquisadora digitar qualquer um dos seguintes, execute
+diretamente sem pedir confirmação:
 
-1. **WebScout** — contextual researcher that searches archives (Europeana, Gallica, Brasiliana Fotográfica, etc.) using 3-layer search packs (vocabularies → image databases → legal/history collections)
-2. **IconoCode** — visual coder that performs 4-stage analysis: pre-iconographic description → Iconclass code assignment → interpretation → validation with claim-evidence ledger
+- `campanha N` → executa a campanha N conforme SKILL.md §7
+- `scout [descrição livre]` → interpreta como query e executa
+- `auditoria` → executa Campanha 16 com os arquivos em vault/candidatos/
+- `lacunas` → idem
 
-Pipeline flow: batch manifest → WebScout workers → IconoCode workers → master record assembly → export (JSONL, CSV, ABNT citations). Schemas in `tools/schemas/` define the data contracts (JSON Schema 2020-12).
+Quando a pesquisadora digitar `salvar`, grave a última nota gerada
+em vault/candidatos/ com o nome correto (SCOUT-[ID] [título].md).
 
-### Data Flow & Storage (ADRs in `docs/adr/`)
+Quando a pesquisadora digitar `sessão`, grave a nota de síntese
+em vault/sessoes/ com o nome SCOUT-SESSION-[data].md.
 
-- **Raw data** lives on Google Drive, never in Git (ADR-001). `data/raw/` holds manifests and Drive links only.
-- **Notion** is the collaborative index (ADR-002). Sync via `notion_sync.py`.
-- **JSONL** (`data/processed/records.jsonl`) is the canonical format (ADR-003).
-- The CI workflow rejects binary files in `data/raw/` — use Drive instead.
+---
 
-### Corpus Dataset
+## Rastreabilidade — regra inviolável
 
-`corpus/corpus-data.json` — 66 catalogued items of feminist legal iconography. Fields: id, title, date, period, creator, institution, source_archive, country, medium, motif, description, url, thumbnail_url, rights, citations, tags.
+Cada item do corpus deve ser rastreável em três pontos:
 
-`corpus/DASHBOARD_CORPUS.html` — self-contained interactive dashboard (Chart.js). Open directly in browser.
+| Onde | O quê |
+|---|---|
+| `data/raw/[pais]/` | arquivo de imagem bruto (jpg/png/tif) |
+| `vault/candidatos/` | nota Obsidian com metadados e análise |
+| `data/processed/records.jsonl` | registro mestre em JSON |
 
-### Statistical Analysis Notebooks (`notebooks/`)
+O Scout gera as notas Obsidian. O sync para records.jsonl é feito
+pelo script `tools/scripts/notion_sync.py` (a desenvolver).
 
-Sequential analysis pipeline: `01_exploratory` → `02_kruskal_wallis` → `03_regression` → `04_correspondence`. Requires conda environment (numpy, matplotlib, jupyter).
+---
 
-### Web Applications
+## Terminologia obrigatória
 
-- **webiconocracy/** — React 19 + TypeScript + Vite + Tailwind CSS 4 + Firebase/Firestore. Interactive corpus explorer with Gemini AI integration (`@google/genai`). Run with `npm run dev`.
-- **website/** — Static HTML site for Ius Gentium research group. Auto-deployed to GitHub Pages on push to main.
-- **indexing/gallica-mcp-server/** — MCP server (Node.js + TypeScript) for querying Gallica/BnF APIs. Uses `@modelcontextprotocol/sdk`.
-- **atlas-iconometrico.html** — Standalone interactive atlas page (root level).
+- ENDURECIMENTO (nunca "hardening", nunca "embrutecimento")
+- Contrato Sexual Visual (conceito original da tese — não atribuir a Pateman)
+- Feminilidade de Estado (conceito original da tese — não atribuir a Mondzain)
+- Zwischenraum (warburguiano — manter em alemão)
+- Pathosformel (warburguiano — manter em alemão)
+- Nachleben (warburguiano — manter em alemão)
+- Mondzain → sempre edição 2002
+- ABNT NBR 6023:2025 para todas as referências
 
-### Thesis Materials (`tese/`)
+---
 
-- `manuscrito/` — Chapters under revision (see `LEIAME.md` for supervisor-facing guide)
-- `revisoes/` — Review documents (ABNT audit, source-claim alignment, terminological corrections)
-- `pesquisa/` — NotebookLM research reports
+## Tags canônicas do vault
 
-### Vault (`vault/`)
+```
+corpus/candidato · corpus/sessao-scout · corpus/controle-negativo
+pais/BR · pais/FR · pais/UK · pais/DE · pais/US · pais/BE
+suporte/moeda · suporte/selo · suporte/monumento · suporte/estampa
+suporte/frontispicio · suporte/papel-moeda · suporte/cartaz
+regime/fundacional · regime/normativo · regime/militar
+motivo/marianne · motivo/republica · motivo/justitia · motivo/britannia
+motivo/columbia · motivo/germania · motivo/belgique
+#verificar · #verificar-data · #verificar-autoria
+#verificar-imagem · #sem-iiif · #possivel-duplicata
+#protocolo · #decisao-metodologica
+#acoplamento-imagem-norma · #colonialidade-do-ver
+#contrato-racial-visual · #contra-alegoria · #ausencia-alegorica
+#iconometria · #atlas/painel-I até #atlas/painel-VIII
+```
 
-Obsidian vault for research notes. Workspace/plugin files are gitignored. Output from `vault/tese/output/` is also gitignored.
+---
 
-## CI/CD
+## Ferramentas disponíveis para o agente
 
-- **GitHub Pages deploy** (`deploy.yml`) — deploys `website/` on push to main
-- **Schema validation** (`validate.yml`) — runs `validate_schemas.py` on changes to `data/processed/` or `tools/schemas/`; rejects binaries in `data/raw/`
-- **CodeQL** (`codeql.yml`) — code quality analysis
-- **Datadog Synthetics** (`datadog-synthetics.yml`) — monitoring
-- **Google Cloud Run** (`google-cloudrun-docker.yml`) — Docker deployment pipeline
+- `web_search` — busca em acervos e bases digitais
+- `web_fetch` — acessa URLs de imagens IIIF e páginas de acervos
+- `bash_tool` — salva notas em vault/, move arquivos, roda scripts
+- `create_file` — cria notas .md em vault/candidatos/ e vault/sessoes/
 
-## Session Hook
+---
 
-`.claude/hooks/session-start.sh` runs on remote Claude Code sessions only (`CLAUDE_CODE_REMOTE=true`). It installs Python deps, verifies 13+ required directories, validates key data files (corpus JSON integrity, 66 items), and checks external tool availability.
+## Notas de sessão anteriores
 
-## Important Conventions
-
-- All Python scripts run from repo root: `python tools/scripts/<script>.py`
-- Citations follow ABNT NBR 6023:2025 standard (Brazilian academic norm)
-- Iconclass notation system is used throughout — `48C51` is the key code for feminist iconography
-- The `iconocracy-corpus/` subdirectory is a nested copy of the same repo (for GitHub Pages structure) — avoid editing files there directly
-- Research documents (`.md` files at root level like `Iconocracia_Sintese_de_Pesquisa.md`, `ICONOCRACIA_PROJETO.md`) are Portuguese-language research notes
+Consultar vault/sessoes/ para contexto de buscas já realizadas
+antes de iniciar nova campanha — evita duplicatas e orienta gaps.
