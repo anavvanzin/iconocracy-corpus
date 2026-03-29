@@ -1,0 +1,7 @@
+name = "iconocracia-companion"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[[kv_namespaces]]
+binding = "DIARY_KV"
+id = "17d97b88cc3f4461b1f99b64e167bad5"
