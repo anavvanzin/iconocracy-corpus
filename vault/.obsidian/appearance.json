@@ -1,9 +1,10 @@
 {
-  "accentColor": "",
+  "accentColor": "#ec1822",
   "theme": "moonstone",
   "cssTheme": "Wikipedia",
   "baseFontSize": 18,
   "translucency": false,
-  "showRibbon": false,
-  "interfaceFontFamily": "Andale Mono"
+  "showRibbon": true,
+  "interfaceFontFamily": "Andale Mono",
+  "baseFontSizeAction": true
 }
