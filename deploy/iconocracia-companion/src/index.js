@@ -287,19 +287,18 @@ export default {
 
       // GET /api/corpus/stats — corpus statistics
       if (sub === "/stats") {
-        const stats = await env.CORPUS_DB.batch([
-          env.CORPUS_DB.prepare("SELECT COUNT(*) as total FROM corpus_items"),
-          env.CORPUS_DB.prepare("SELECT country, COUNT(*) as cnt FROM corpus_items GROUP BY country ORDER BY cnt DESC"),
-          env.CORPUS_DB.prepare("SELECT medium_norm, COUNT(*) as cnt FROM corpus_items GROUP BY medium_norm ORDER BY cnt DESC"),
-          env.CORPUS_DB.prepare("SELECT COUNT(*) as analyzed FROM iconographic_analysis WHERE status = 'ok'"),
-          env.CORPUS_DB.prepare("SELECT figure_type, COUNT(*) as cnt FROM iconographic_analysis WHERE figure_type LIKE '%Yes%' GROUP BY figure_type"),
-        ]);
+        const r1 = await env.CORPUS_DB.prepare("SELECT COUNT(*) as total FROM corpus_items").all();
+        const r2 = await env.CORPUS_DB.prepare("SELECT country, COUNT(*) as cnt FROM corpus_items GROUP BY country ORDER BY cnt DESC").all();
+        const r3 = await env.CORPUS_DB.prepare("SELECT medium_norm, COUNT(*) as cnt FROM corpus_items GROUP BY medium_norm ORDER BY cnt DESC").all();
+        const r4 = await env.CORPUS_DB.prepare("SELECT COUNT(*) as analyzed FROM iconographic_analysis").all();
+        const r5 = await env.CORPUS_DB.prepare("SELECT item_id, figure_type FROM iconographic_analysis WHERE figure_type LIKE '%Yes%'").all();
         return new Response(JSON.stringify({
-          total_items: stats[0].results[0].total,
-          by_country: stats[1].results,
-          by_medium: stats[2].results,
-          analyzed: stats[3].results[0].analyzed,
-          with_female_allegory: stats[4].results,
+          total_items: r1.results[0].total,
+          by_country: r2.results,
+          by_medium: r3.results,
+          analyzed: r4.results[0].analyzed,
+          with_female_allegory: r5.results.length,
+          female_allegory_items: r5.results,
         }), { headers });
       }
 
