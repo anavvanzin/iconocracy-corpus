@@ -1,7 +1,7 @@
 {
-  "accentColor": "#ec1822",
+  "accentColor": "",
   "theme": "moonstone",
-  "cssTheme": "Wikipedia",
+  "cssTheme": "Retroma",
   "baseFontSize": 18,
   "translucency": false,
   "showRibbon": true,
