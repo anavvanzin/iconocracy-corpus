@@ -8,3 +8,8 @@ directory = "./public"
 [[kv_namespaces]]
 binding = "DIARY_KV"
 id = "17d97b88cc3f4461b1f99b64e167bad5"
+
+[[d1_databases]]
+binding = "CORPUS_DB"
+database_name = "iconocracy-corpus"
+database_id = "77c09df7-b510-48b3-8a39-94b39416aa2f"
