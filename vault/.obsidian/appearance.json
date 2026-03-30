@@ -1,7 +1,9 @@
 {
-  "accentColor": "#7b6cb7",
+  "accentColor": "",
   "theme": "moonstone",
-  "cssTheme": "Retroma",
-  "baseFontSize": 16,
-  "translucency": false
+  "cssTheme": "Wikipedia",
+  "baseFontSize": 18,
+  "translucency": false,
+  "showRibbon": false,
+  "interfaceFontFamily": "Andale Mono"
 }
