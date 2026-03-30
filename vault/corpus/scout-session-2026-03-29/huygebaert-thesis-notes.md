@@ -1,9 +1,9 @@
 ---
-tipo: nota-de-pesquisa
-data: 2026-03-29
-assunto: Stefan Huygebaert - tese de doutorado e publicacoes sobre iconografia juridica belga
+tipo: nota-bibliografica
+titulo: "Huygebaert — Visual Ideals of Law and Justice (Ghent 2019)"
 tags:
-  - pesquisa/bibliografia
+  - "#protocolo"
+  - "#decisao-metodologica"
   - pais/BE
   - motivo/justitia
   - motivo/themis
@@ -13,18 +13,36 @@ tags:
   - regime/NORMATIVO
   - regime/FUNDACIONAL
   - "#verificar"
+updated: 2026-03-29
 related:
   - "[[numen mixtum]]"
   - "[[ENDURECIMENTO]]"
-  - "[[contrato sexual visual]]"
+  - "[[Contrato Sexual Visual]]"
+  - "[[Feminilidade de Estado]]"
   - "[[Palais de Justice Bruxelles]]"
   - "[[La Belgique]]"
   - "[[iconografia juridica]]"
+  - "[[Nomos das Imagens]]"
+  - "[[BE-001 Allegorie de la Justice — Stallaert]]"
+  - "[[BE-002 Palais de Justice de Bruxelles]]"
 ---
 
-# Stefan Huygebaert -- Visual Ideals of Law & Justice
+# Stefan Huygebaert — Visual Ideals of Law & Justice (Ghent 2019)
 
-Nota de pesquisa sobre a tese de doutorado e publicacoes derivadas de Stefan Huygebaert, relevantes para a tese ICONOCRACY.
+> Nota bibliografica atualizada por CORPUS SCOUT · 2026-03-29
+> Pesquisadora: Ana Vanzin, PPGD/UFSC
+
+---
+
+## Correccao de Autoria
+
+**ATENCAO:** O nome correto do autor e **Stefan Huygebaert** (masculino), nao "Sophie Huygebaert". Trata-se de um historiador da arte belga, doutor pela Universidade de Ghent. A confusao de prenome nao afeta a relevancia da pesquisa para a tese ICONOCRACY.
+
+---
+
+## Referencia ABNT NBR 6023:2025 (referencia principal)
+
+HUYGEBAERT, Stefan. **Visual ideals of law & justice: an iconological inquiry into nineteenth-century Belgian legal art**. 2019. Tese (Doutoramento) — Faculteit Letteren en Wijsbegeerte / Faculteit Recht en Criminologie, Universiteit Gent, Ghent, 2019. Orientadores: Prof. Dirk Heirbaut; Prof. Georges Martyn; Prof. Bruno De Wever. Financiamento: FWO (Fonds Wetenschappelijk Onderzoek — Flandres). Disponivel em: https://biblio.ugent.be/publication/8615983. Acesso em: 29 mar. 2026.
 
 ---
 
@@ -35,6 +53,7 @@ Nota de pesquisa sobre a tese de doutorado e publicacoes derivadas de Stefan Huy
 - **Universidade:** Ghent University (Universiteit Gent), Faculty of Law and Criminology / Department of Art History, Musicology and Theatre Studies
 - **Defesa:** maio de 2019 (nao 2018 como inicialmente suposto)
 - **Financiamento:** FWO (Research Foundation -- Flanders)
+- **Orientadores:** Prof. Dirk Heirbaut; Prof. Georges Martyn; Prof. Bruno De Wever
 - **Estancias de pesquisa:** Minerva Research Group "The Nomos of Images: Manifestation and Iconology of Law", Kunsthistorisches Institut in Florenz (Max-Planck-Institut), 2014-2015 e 2016-2017
 - **Repositorio:** <https://biblio.ugent.be/publication/8615983>
 - **Perfil academico:** <https://research.flw.ugent.be/en/stefan.huygebaert>
@@ -182,12 +201,69 @@ HUYGEBAERT, Stefan; VAN REMOORTEL, Marianne. From picturesque anecdote to viral 
 ## 8. Proximos passos
 
 - [ ] Solicitar acesso ao texto completo da tese via repositorio UGent ou contato com Huygebaert
-- [ ] Baixar o PDF do artigo "Etes-vous Justice, Minerve ou Themis?" (link disponivel)
+- [ ] Baixar o PDF do artigo "Etes-vous Justice, Minerve ou Themis?" (link disponivel: https://backoffice.biblio.ugent.be/download/5738998/5739577)
 - [ ] Buscar imagens das esculturas de Ducaju, Van der Stappen e Dillens no Palais de Justice para potencial inclusao no corpus como candidatos (suporte: escultura, pais: BE, regime: NORMATIVO)
 - [ ] Verificar se o volume *The Art of Law* contem outros capitulos relevantes sobre alegorias femininas juridicas
 - [ ] Cruzar com Numista/Colnect para moedas belgas com Justitia do periodo 1880-1920
 - [ ] Investigar a recepcao da tese e eventuais resenhas academicas
+- [ ] Verificar existencia de SCOUT-040 e SCOUT-041 no vault e adicionar Huygebaert como referencia se houver correspondencia
+- [ ] Buscar no MRBAB (musees royaux des beaux-arts de belgique) projetos, maquetes ou estudos de Julien Dillens e Charles Van der Stappen
+- [ ] Europeana: `what:"monument constitutionnel" AND where:"Bruxelles"` para projetos do concurso de 1849
+- [ ] Verificar publicacoes de Vanessa Paumen (co-editora de *The Art of Law*) para candidatos adicionais BE/NL
 
 ---
 
-*Nota gerada por CORPUS SCOUT em 2026-03-29. Fontes verificadas via web search em biblio.ugent.be, Google Scholar, e portais academicos. Dados sobre o conteudo interno da tese sao parciais -- baseados em resumos, capitulos publicados e metadados do repositorio. Consulta ao texto completo e necessaria para confirmacao definitiva.*
+## 9. Verificacao de Duplicatas no Corpus
+
+**Corpus atual para BE:** apenas BE-001 e BE-002 em `corpus-data.json`.
+
+| ID | Titulo | Status de duplicata |
+|---|---|---|
+| BE-001 | Allegorie de la Justice — Joseph Stallaert (Camara Municipal de Bruxelas) | NAO e duplicata — contexto analogo, objeto distinto do que Huygebaert analisa |
+| BE-002 | Palais de Justice de Bruxelas (Joseph Poelaert, 1866-1883) | Objeto central da tese de Huygebaert; pode ser enriquecido com referencias especificas |
+
+Os projetos de Ducaju, Dillens e Van der Stappen sao objetos **nao catalogados** no corpus atual.
+
+---
+
+## 10. Candidatos Potenciais Identificados (Nao Catalogados)
+
+### Candidato A: Busto colossal de Themis (Joseph Ducaju, Palais de Justice, Bruxelas, 1883)
+- **Suporte:** escultura monumental (fachada / coroa do portico central)
+- **Data:** 1883
+- **Pais:** BE
+- **Motivo:** Themis (com atributos minervianos — capacete)
+- **Regime hipotetico:** NORMATIVO
+- **Indicadores ENDURECIMENTO:** heraldizacao, enquadramento_arquitetonico, rigidez_postural
+- **Flag:** #verificar #verificar-imagem
+
+### Candidato B: Projeto de Charles Van der Stappen — Minerva/Themis (numen mixtum, c. 1886-1894)
+- **Suporte:** escultura (figura reutilizada: Minerva 1886 → Themis 1894)
+- **Data:** 1886-1894
+- **Pais:** BE
+- **Motivo:** Themis / Minerva (figura hibrida / numen mixtum)
+- **Regime hipotetico:** NORMATIVO / FUNDACIONAL (limiar)
+- **Indicadores ENDURECIMENTO:** uniformizacao_facial, apagamento_narrativo, dessexualizacao
+- **Flag:** #verificar #verificar-imagem
+
+### Candidato C: "La Justice entre la Clemence et le Droit" (Julien Dillens, Palais de Justice, 1894)
+- **Suporte:** grupo escultural (interior do Palais de Justice)
+- **Data:** 1894
+- **Pais:** BE
+- **Motivo:** Justitia (variante "desviante" — iconografia nao-convencional)
+- **Regime hipotetico:** NORMATIVO (contexto), com morfologia limiar
+- **Indicadores ENDURECIMENTO:** a verificar — iconografia descrita como "desviante" pode indicar RESISTENCIA ao ENDURECIMENTO
+- **Flag:** #verificar #verificar-imagem
+
+### Candidato D: Projetos do concurso para monumento constitucional (Bruxelas, 1849)
+- **Suporte:** escultura monumental / projeto arquitetonico
+- **Data:** 1849
+- **Pais:** BE
+- **Motivo:** Constituicao / alegoria juridico-politica
+- **Regime hipotetico:** FUNDACIONAL
+- **Localizacao provavel:** Archives generales du Royaume (AGR), Bruxelas
+- **Flag:** #verificar #regime/fundacional
+
+---
+
+*Nota atualizada por CORPUS SCOUT em 2026-03-29. Fontes verificadas via web search em biblio.ugent.be, Google Scholar, e portais academicos. Dados sobre o conteudo interno da tese sao parciais — baseados em resumos, capitulos publicados e metadados do repositorio. Consulta ao texto completo e necessaria para confirmacao definitiva.*

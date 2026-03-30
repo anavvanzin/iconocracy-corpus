@@ -1,160 +1,30 @@
-# UK Britannia Stamps — Sessao Scout 2026-03-29
+# UK Britannia Stamps — Scout Session 2026-03-29
 
-> Busca: selos postais britanicos com Britannia (1900-1960).
-> Prioridades: Seahorse definitives, Festival of Britain 1951, definitivos com Britannia.
-> Acervos: Colnect, Stanley Gibbons, Numista, Postal Museum, British Museum.
-
----
-
-## SCOUT-092 — Seahorse 2s6d Definitivo (Waterlow, 1913)
-
-```markdown
----
-id: SCOUT-092
-tipo: corpus-candidato
-status: candidato
-titulo: "Seahorse 2s6d — Britannia em biga marinha (Mackennal/Harrison, Waterlow)"
-acervo: "Colnect / Stanley Gibbons / The Postal Museum"
-url: "https://colnect.com/en/stamps/stamp/1602-King_George_V_-_Seahorses-King_George_V_-_Seahorse_Definitives_1913-1919-United_Kingdom_of_Great_Britain_Northern_Ireland"
-url_iiif: null
-data_estimada: "1913"
-pais: UK
-suporte: selo postal
-motivo_alegorico: "Britannia"
-regime: MILITAR
-confianca: alto
-tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/selo
-  - regime/militar
-  - motivo/britannia
-  - verificar
-related:
-  - "[[ENDURECIMENTO]]"
-  - "[[Britannia Trade Dollar]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[SCOUT-091 US Trade Dollar]]"
-data_scout: 2026-03-29
----
-
-## Identificacao
-
-**Titulo:** Seahorse 2s6d — Britannia em biga marinha (Mackennal/Harrison, Waterlow)
-**Acervo:** The Postal Museum, London / Stanley Gibbons / Colnect
-**URL de acesso:** [Colnect](https://colnect.com/en/stamps/stamp/1602-King_George_V_-_Seahorses-King_George_V_-_Seahorse_Definitives_1913-1919-United_Kingdom_of_Great_Britain_Northern_Ireland)
-**URL IIIF:** `null`
-**Data estimada:** 1913 (emissao julho/agosto 1913)
-**Pais:** UK
-**Suporte:** Selo postal — impressao em entalhe (recess/intaglio), Waterlow Bros & Layton
-
-**Catalogacao:**
-- Stanley Gibbons: SG 399 (2s6d sepia-brown), SG 400 (5s rose-carmine), SG 402 (10s indigo-blue), SG 403 (L1 green)
-- Scott: Sn 173 (2s6d)
-- Michel: Mi 141
-- Yvert: Yt 153
-
-**Desenhista:** Bertram Mackennal (escultor australiano, 1863-1931)
-**Gravador:** J. A. C. Harrison
-**Letrista:** George W. Eve
-**Impressora:** Waterlow Bros & Layton (1913-1915)
+> Notas geradas pelo CORPUS SCOUT em 29 mar. 2026.
+> Busca: selos postais britanicos com Britannia (1880-1960).
+> Prioridades: Seahorse definitives (1913-1934), Festival of Britain 1951, Britannia em outros definitivos.
+> Acervos consultados: The Postal Museum (postalmuseum.org), Stanley Gibbons, Wikipedia, Colnect, sgbaldwins.com.
+> Nota: WebFetch nao disponivel nesta sessao. URLs verificadas por WebSearch. IIIF nao localizado em acervos filatelicos.
 
 ---
 
-## Analise preliminar
-
-**Motivo alegorico:** Britannia
-**Regime iconocratico:** MILITAR
-**Justificativa:** Britannia aparece em postura DINAMICA e BELICA: conduzindo uma biga (chariot) puxada por tres cavalos marinhos ("seahorses") atraves de mares tempestuosos. Ela segura um tridente na mao e um escudo com a Union Jack. A postura nao e a de uma soberana sentada e passiva (como no penny domestico), mas a de uma guerreira em movimento, dominando as ondas. O selo foi emitido em julho de 1913, na vespera da Primeira Guerra Mundial, e permaneceu em circulacao por 26 anos (1913-1939). A iconografia projeta poder naval e dominio imperial — "Britain as a powerful country and a ruler of the seas."
-
-**Fontes de inspiracao do design (conforme Postal Museum):**
-- Selo de Barbados de 1892 (3d), que ja mostrava Britannia em biga marinha
-- Ilustracoes da Iliada por John Flaxman
-- Moedas de Charles II em diante (Britannia sentada)
-- Esculturas e pinturas de Britannia na tradicao britanica
-
-**Atributos identificados:**
-- [x] tridente (na mao)
-- [x] escudo/brasao (Union Jack)
-- [x] toga/vestimenta classica
-- [x] elmo/capacete
-- [x] biga/chariot
-- [x] cavalos marinhos (tres)
-- [x] mar tempestuoso
-- [ ] balanca
-- [ ] espada
-- [ ] venda nos olhos
-- [x] postura dinamica (conduzindo biga)
-- [ ] postura frontal
-
-**ENDURECIMENTO detectado:** SIM — MAXIMO
-
-O Seahorse representa o GRAU MAXIMO de ENDURECIMENTO de Britannia no suporte selo postal. Comparado com a Britannia sentada do penny domestico (passiva, contemplativa, estatica), a Britannia do Seahorse e uma figura em ACAO BELIGERANTE. O corpo feminino foi MILITARIZADO: nao apenas porta armas (tridente) e armadura (elmo, escudo), mas esta em MOVIMENTO de conquista, atravessando mares. Os tres cavalos marinhos acentuam o pathos de dominio naval.
-
-**Indicadores de purificacao ativos:**
-- `rigidez_postural`: INVERTIDA — em vez de rigidez, ha dinamismo belico (o corpo e rigido na acao, nao na contemplacao)
-- `heraldizacao`: ALTA — escudo com Union Jack integrado ao corpo
-- `inscricao_estatal`: ALTA — retrato de George V emparelhado com Britannia, afirmando soberania dupla (rei + alegoria)
-- `uniformizacao_facial`: o rosto de Britannia e idealizado, classicizante, sem individualidade
-- `serialidade`: ALTA — emitido em quatro valores (2s6d, 5s, 10s, L1), todos com mesmo design
-
----
-
-## Rastreabilidade
-
-**ABNT provisoria:**
-THE POSTAL MUSEUM. *Seahorse High Values: 2s6d*. 1913. Selo postal. The Postal Museum, London. Disponivel em: https://www.postalmuseum.org/collections/highlights/philatelic-collection/british-stamps/george-v-stamps/george-v-definitives/seahorse-high-values/. Acesso em: 29 mar. 2026.
-
-**GitHub:** `data/raw/UK/selo/SCOUT-092.jpg` (a confirmar)
-**Drive:** pasta `iconocracy-corpus/raw/UK/` (a confirmar)
-
----
-
-## Flags
-
-- [ ] `#verificar` — confirmar imagem de alta resolucao no Postal Museum
-- [ ] `#sem-iiif` — nenhum acervo filatelico consultado oferece IIIF
-- [ ] `#verificar-autoria` — confirmar papel exato de Mackennal vs. Harrison na composicao
-
----
-
-## Observacoes do Scout
-
-**Importancia para a tese:** O Seahorse e o caso mais EXPLICITAMENTE MILITAR de Britannia no suporte selo postal. Diferentemente da Semeuse francesa (que projeta fertilidade e semeadura pacifica), a Britannia do Seahorse projeta DOMINIO NAVAL. Isso confirma a hipotese de que o ENDURECIMENTO varia nao apenas diacronicamente (ao longo do tempo) mas tambem SINCRONICAMENTE entre paises: enquanto a Franca usa a alegoria feminina para projetar civilizacao (Semeuse), o UK usa para projetar forca militar (Seahorse).
-
-**Referencia bibliografica confirmada:**
-- Stanley Gibbons. *Great Britain Specialised Stamp Catalogue*. Vol. 2: King Edward VII to King George VI. London: Stanley Gibbons, varias edicoes.
-- BEAUMONT, K.M.; STANTON, J.B.M. *The Postage Stamps of Great Britain, Part Four*. London: Royal Philatelic Society, 1957.
-
-**Comparacao com Britannia em moedas:**
-A Britannia do penny domestico (KM 810, George V, 1911-1936) esta SENTADA, voltada a direita, com tridente na mao esquerda e escudo na direita, mar ao fundo. E uma Britannia CONTEMPLATIVA, guardia passiva do territorio. A Britannia do Trade Dollar (SCOUT-091 referencia indireta; o Trade Dollar britanico e de De Saulles, 1895) esta de PE, com tridente e escudo, navio mercante ao fundo — projecao de comercio imperial. A Britannia do Seahorse esta em BIGA, em MOVIMENTO — projecao de dominio naval ativo. Temos assim um GRADIENTE POSTURAL de Britannia no UK:
-
-1. **Penny domestico** (sentada) → NORMATIVO: guardia passiva
-2. **Trade Dollar** (de pe) → MILITAR: projecao comercial imperial
-3. **Seahorse stamp** (em biga) → MILITAR MAXIMO: dominio naval ativo
-
-Este gradiente confirma que o ENDURECIMENTO opera nao apenas entre paises mas entre SUPORTES dentro do mesmo pais.
-```
-
----
-
-## SCOUT-093 — Seahorse Re-engraved (Waterlow, 1934)
+## Nota 1 — Corpus Candidato: SCOUT-093
 
 ```markdown
 ---
 id: SCOUT-093
 tipo: corpus-candidato
 status: candidato
-titulo: "Seahorse Re-engraved 2s6d — Britannia em biga (Waterlow, 1934)"
-acervo: "Colnect / Stanley Gibbons"
-url: "https://colnect.com/en/stamps/stamp/1644-King_George_V_-_Seahorses_re-engraved-King_George_V_-_Seahorse_Definitives_Re-Engraved_1934-United_Kingdom_of_Great_Britain_Northern_Ireland"
+titulo: "Seahorse Definitives — Britannia in Sea Chariot (Mackennal, 1913)"
+acervo: "The Postal Museum, London / Stanley Gibbons / Colnect"
+url: "https://www.postalmuseum.org/collections/highlights/philatelic-collection/british-stamps/george-v-stamps/george-v-definitives/seahorse-high-values/"
 url_iiif: null
-data_estimada: "1934"
+data_estimada: "1913-1934"
 pais: UK
 suporte: selo postal
 motivo_alegorico: "Britannia"
 regime: MILITAR
+designer: Bertram Mackennal
 confianca: alto
 tags:
   - corpus/candidato
@@ -162,354 +32,64 @@ tags:
   - suporte/selo
   - regime/militar
   - motivo/britannia
-  - verificar
+  - "#sem-iiif"
+  - "#verificar"
 related:
   - "[[ENDURECIMENTO]]"
-  - "[[SCOUT-092 Seahorse 1913]]"
-  - "[[Serialidade]]"
-data_scout: 2026-03-29
----
-
-## Identificacao
-
-**Titulo:** Seahorse Re-engraved 2s6d — Britannia em biga (Waterlow, 1934)
-**Acervo:** Colnect / Stanley Gibbons
-**URL de acesso:** [Colnect](https://colnect.com/en/stamps/stamp/1644-King_George_V_-_Seahorses_re-engraved-King_George_V_-_Seahorse_Definitives_Re-Engraved_1934-United_Kingdom_of_Great_Britain_Northern_Ireland)
-**URL IIIF:** `null`
-**Data estimada:** 1934
-**Pais:** UK
-**Suporte:** Selo postal — impressao em entalhe (recess/intaglio), Waterlow & Sons
-
-**Catalogacao:**
-- Stanley Gibbons: SG 450 (2s6d chocolate-brown), SG 451 (5s bright rose-red), SG 452 (10s indigo)
-- Scott: Sn 222 (2s6d)
-- Michel: Mi 186a
-- Yvert: Yt 198
-
-**Desenhista:** Bertram Mackennal (design original 1910-1911)
-**Impressora:** Waterlow & Sons (1934, regravacao)
-
----
-
-## Analise preliminar
-
-**Motivo alegorico:** Britannia
-**Regime iconocratico:** MILITAR
-**Justificativa:** Mesmo design do Seahorse 1913, mas REGRAVADO em 1934 por Waterlow & Sons. A principal diferenca tecnica: o fundo atras do retrato de George V passou de linhas horizontais simples para linhas CRUZADAS (cross-hatching). A Britannia em si permanece inalterada — mesma biga, mesmos cavalos marinhos, mesmo tridente e escudo. A persistencia do mesmo design por 21 anos (1913-1934) sem alteracao da figura feminina documenta a ESTABILIDADE do ENDURECIMENTO: uma vez militarizada, Britannia nao regride.
-
-**Atributos identificados:**
-- [x] tridente
-- [x] escudo/brasao (Union Jack)
-- [x] toga/vestimenta classica
-- [x] elmo/capacete
-- [x] biga/chariot
-- [x] cavalos marinhos
-- [x] mar tempestuoso
-- [x] postura dinamica
-
-**ENDURECIMENTO detectado:** SIM — MAXIMO (identico a SCOUT-092)
-
-**Nota tecnica sobre ENDURECIMENTO:** A regravacao de 1934 altera o FUNDO do retrato real, nao a ALEGORIA FEMININA. Isso sugere que o ENDURECIMENTO do corpo alegorico feminino e mais resistente a mudanca do que o tratamento do retrato masculino. O rei pode ser re-apresentado; Britannia, uma vez militarizada, permanece fixa.
-
----
-
-## Historico de impressao completo (tres fases)
-
-| Fase | Impressora | Periodo | SG | Diferenca tecnica |
-|------|-----------|---------|----|--------------------|
-| I | Waterlow Bros & Layton | 1913-1915 | SG 399-403 | Linhas horizontais no fundo do retrato; altura 22.1mm |
-| II | De La Rue | 1915-1918 | SG 405-412 | Altura aumentada 1mm; L1 suprimida |
-| III | Bradbury, Wilkinson | 1918-1919 | SG 413a-417 | Impressao mais nitida |
-| IV | Waterlow & Sons (re-engraved) | 1934 | SG 450-452 | Linhas cruzadas (cross-hatching) no fundo do retrato |
-
----
-
-## Rastreabilidade
-
-**ABNT provisoria:**
-COLNECT. *King George V — Seahorses re-engraved, 2s6d*. 1934. Selo postal. Disponivel em: https://colnect.com/en/stamps/stamp/1644. Acesso em: 29 mar. 2026.
-
-**GitHub:** `data/raw/UK/selo/SCOUT-093.jpg` (a confirmar)
-**Drive:** pasta `iconocracy-corpus/raw/UK/` (a confirmar)
-
----
-
-## Flags
-
-- [ ] `#verificar` — obter imagem comparativa 1913 vs. 1934 para documentar permanencia
-- [ ] `#sem-iiif` — sem IIIF disponivel
-
----
-
-## Observacoes do Scout
-
-A persistencia do design Seahorse por 26 anos (1913-1939, atravessando toda a I Guerra, o entreguerras e quase alcancando a II Guerra) e um dado significativo para a tese. Enquanto a Franca troca sua Semeuse de pose, suporte e gravador varias vezes no mesmo periodo, o UK mantem a MESMA Britannia militarizada sem alteracao. A serialidade britanica e mais estavel que a francesa — o ENDURECIMENTO, uma vez atingido, tende a cristalizar.
-
-**Historia de impressao** como dado para o argumento: quatro impressoras diferentes (Waterlow, De La Rue, Bradbury Wilkinson, Waterlow novamente) produziram o MESMO design. A figura feminina sobrevive a mudanca de fabricante. O corpo alegorico e mais duravel que o contrato industrial.
-```
-
----
-
-## SCOUT-094 — Festival of Britain (Abram Games, 1951)
-
-```markdown
----
-id: SCOUT-094
-tipo: corpus-candidato
-status: candidato
-titulo: "Festival of Britain 4d — Cabeca de Britannia como Simbolo do Festival (Abram Games)"
-acervo: "Colnect / The Postal Museum"
-url: "https://colnect.com/en/stamps/years/country/224-United_Kingdom_of_Great_Britain_Northern_Ireland"
-url_iiif: null
-data_estimada: "1951"
-pais: UK
-suporte: selo postal
-motivo_alegorico: "Britannia"
-regime: NORMATIVO
-confianca: alto
-tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/selo
-  - regime/normativo
-  - motivo/britannia
-  - verificar
-related:
-  - "[[ENDURECIMENTO]]"
-  - "[[ENDURECIMENTO negativo]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[SCOUT-092 Seahorse 1913]]"
-  - "[[Marianne de Gandon]]"
-data_scout: 2026-03-29
----
-
-## Identificacao
-
-**Titulo:** Festival of Britain 4d — Cabeca de Britannia como Simbolo do Festival (Abram Games)
-**Acervo:** The Postal Museum, London / Colnect
-**URL de acesso:** [Postal Museum PDF](https://www.postalmuseum.org/wp-content/uploads/2018/12/Stamp-History-1951-Festival-of-Britain.pdf)
-**URL IIIF:** `null`
-**Data estimada:** 3 maio 1951
-**Pais:** UK
-**Suporte:** Selo postal — fotogravura (photogravure), Harrison & Sons
-
-**Catalogacao:**
-- Stanley Gibbons: SG 513 (2½d scarlet), SG 514 (4d ultramarine)
-- Scott: Sn 290-291
-
-**Desenhista:** Abram Games (1914-1996), designer grafico britanico
-**Impressora:** Harrison & Sons (fotogravura)
-
----
-
-## Analise preliminar
-
-**Motivo alegorico:** Britannia (cabeca/perfil apenas)
-**Regime iconocratico:** NORMATIVO
-**Justificativa:** No selo do Festival of Britain, Britannia aparece APENAS COMO CABECA — perfil com elmo, sem corpo, sem tridente, sem escudo, sem biga. E o "Festival Star" de Abram Games: a cabeca de Britannia no ponto norte de uma estrela-compasso, ao lado do perfil de George VI. O designer Games descreveu sua abordagem como "maximum meaning, minimum means" — e isso descreve exatamente o que aconteceu com o corpo alegorico feminino: foi reduzido ao MINIMO. De uma guerreira em biga (Seahorse 1913) a uma cabeca sem corpo (Festival 1951), Britannia sofreu uma DESINCORPORACAO radical.
-
-**Atributos identificados:**
-- [x] elmo/capacete (unico atributo sobrevivente)
-- [ ] tridente (AUSENTE)
-- [ ] escudo/brasao (AUSENTE)
-- [ ] toga/vestimenta classica (AUSENTE — sem corpo)
-- [ ] biga/chariot (AUSENTE)
-- [ ] cavalos marinhos (AUSENTE)
-- [ ] postura frontal (nao ha corpo)
-- [ ] postura dinamica (nao ha corpo)
-
-**ENDURECIMENTO detectado:** SIM — mas como ENDURECIMENTO NEGATIVO (por subtracao)
-
-**Indicadores de purificacao ativos:**
-- `desincorporacao`: MAXIMO — Britannia e reduzida a uma cabeca. O corpo feminino DESAPARECE inteiramente.
-- `heraldizacao`: ALTA — a cabeca funciona como simbolo heraldico puro, nao como corpo.
-- `monocromatizacao`: cada valor em cor unica (scarlet, ultramarine).
-- `apagamento_narrativo`: TOTAL — nao ha cena, nao ha acao, nao ha mar, nao ha cavalos. Apenas um simbolo.
-- `uniformizacao_facial`: o rosto de Britannia e um LOGO, nao um rosto.
-
-**Paralelo com a Franca:** Este processo e analogo ao ENDURECIMENTO negativo da Marianne pos-1945 identificado em SCOUT-086 a SCOUT-089. Games (1951) faz com Britannia o que Cheffer (1967) fara com Marianne: reduz o corpo alegorico feminino a um residuo facial/craniano. A diferenca: Games faz isso ANTES e de forma mais radical (so a cabeca), enquanto Cheffer mantem busto.
-
----
-
-## Rastreabilidade
-
-**ABNT provisoria:**
-THE POSTAL MUSEUM. *Festival of Britain: Special Stamp History*. 1951. Selo postal. The Postal Museum, London. Disponivel em: https://www.postalmuseum.org/wp-content/uploads/2018/12/Stamp-History-1951-Festival-of-Britain.pdf. Acesso em: 29 mar. 2026.
-
-**GitHub:** `data/raw/UK/selo/SCOUT-094.jpg` (a confirmar)
-**Drive:** pasta `iconocracy-corpus/raw/UK/` (a confirmar)
-
----
-
-## Flags
-
-- [ ] `#verificar` — confirmar imagem SG 514 (4d ultramarine) para analise detalhada
-- [ ] `#sem-iiif` — sem IIIF disponivel
-- [ ] `#verificar-autoria` — confirmar que Games desenhou a Britannia ou usou fonte preexistente para o perfil
-
----
-
-## Observacoes do Scout
-
-**Abram Games** e uma figura-chave: designer de cartazes de guerra para o Ministry of Information durante a II Guerra, ele traz uma estetica modernista-funcionalista para o selo postal. Sua maxima "maximum meaning, minimum means" e quase uma DEFINICAO OPERACIONAL do ENDURECIMENTO negativo: comprimir a alegoria feminina ao minimo de corpo necessario para que ela ainda funcione como signo estatal.
-
-**Contexto historico:** O Festival of Britain (1951) era uma celebracao pos-guerra, equivalente britanico da exposicao de 1851. O selo nao projeta poder militar — projeta RECONSTRUCAO e MODERNIDADE. Nesse contexto, a reducao de Britannia a uma cabeca sem corpo e coerente: o corpo belico do Seahorse nao serve mais para o pos-guerra. Britannia precisa ser DOMESTICADA, e a domesticacao toma a forma de DESINCORPORACAO.
-```
-
----
-
-## SCOUT-095 — Britannia no Penny Domestico (George V, KM 810, 1911-1936) — Item de referencia comparativa
-
-```markdown
----
-id: SCOUT-095
-tipo: corpus-candidato
-status: candidato
-titulo: "1 Penny George V — Britannia sentada (Wyon, 1911-1936)"
-acervo: "Numista"
-url: "https://en.numista.com/catalogue/pieces578.html"
-url_iiif: null
-data_estimada: "1911-1936"
-pais: UK
-suporte: moeda
-motivo_alegorico: "Britannia"
-regime: NORMATIVO
-confianca: alto
-tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/moeda
-  - regime/normativo
-  - motivo/britannia
-  - verificar
-related:
-  - "[[ENDURECIMENTO]]"
-  - "[[SCOUT-092 Seahorse 1913]]"
-  - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
-data_scout: 2026-03-29
----
-
-## Identificacao
-
-**Titulo:** 1 Penny George V — Britannia sentada com tridente e escudo (L. C. Wyon)
-**Acervo:** Numista
-**URL de acesso:** [Numista](https://en.numista.com/catalogue/pieces578.html)
-**URL IIIF:** `null`
-**Data estimada:** 1911-1936
-**Pais:** UK
-**Suporte:** Moeda — bronze (95.5% Cu, 3% Sn, 1.5% Zn), 30.8 mm, 9.45 g
-
-**Catalogacao:**
-- KM 810 (Krause)
-- Numista N# 578
-
-**Desenhista:** Leonard Charles Wyon (reverso, baseado em design de William Wyon)
-**Casa da moeda:** Royal Mint, London
-
----
-
-## Analise preliminar
-
-**Motivo alegorico:** Britannia
-**Regime iconocratico:** NORMATIVO
-**Justificativa:** Britannia sentada, voltada a direita, com tridente na mao esquerda e escudo com Cruz de Sao Jorge na direita. Mar ao fundo. Postura CONTEMPLATIVA, ESTATICA, de guardia passiva. E a Britannia DOMESTICA — a que circula no cotidiano do imperio, nas transacoes de um penny. O design permanece essencialmente inalterado desde o reinado de Victoria (William Wyon, 1860), atravessando Edward VII e George V, ate George VI (1937-1952). Esta estabilidade de quase um seculo documenta a NORMATIVIDADE extrema do motivo.
-
-**Atributos identificados:**
-- [x] tridente (mao esquerda)
-- [x] escudo/brasao (Cruz de Sao Jorge, mao direita)
-- [x] elmo/capacete
-- [x] toga/vestimenta classica
-- [x] postura sentada
-- [ ] biga/chariot (AUSENTE)
-- [ ] cavalos marinhos (AUSENTE)
-- [ ] balanca
-- [ ] espada
-- [ ] postura frontal (voltada a direita)
-
-**ENDURECIMENTO detectado:** NAO — esta e a linha de base NORMATIVA
-
-A Britannia do penny e a versao ZERO de ENDURECIMENTO: sentada, contemplativa, defensiva. E contra esta base que se mede o ENDURECIMENTO do Seahorse stamp (SCOUT-092) e do Trade Dollar (moeda).
-
----
-
-## Rastreabilidade
-
-**ABNT provisoria:**
-NUMISTA. *1 Penny — George V*. 1911-1936. Moeda. Disponivel em: https://en.numista.com/catalogue/pieces578.html. Acesso em: 29 mar. 2026.
-
-**GitHub:** `data/raw/UK/moeda/SCOUT-095.jpg` (a confirmar)
-**Drive:** pasta `iconocracy-corpus/raw/UK/` (a confirmar)
-
----
-
-## Flags
-
-- [ ] `#verificar` — selecionar ano especifico para imagem
-- [ ] `#sem-iiif` — sem IIIF
-
----
-
-## Observacoes do Scout
-
-**Funcao no corpus:** SCOUT-095 funciona como CONTROLE NORMATIVO — a Britannia de uso quotidiano, domestico, pacifica. Ela permite medir o ENDURECIMENTO nos outros suportes por contraste. Sem este polo normativo, o ENDURECIMENTO do Seahorse e do Trade Dollar nao pode ser quantificado.
-
-**Continuidade do design:** A mesma Britannia sentada aparece nos pennies de Victoria (1860-1901), Edward VII (1902-1910), George V (1911-1936), e George VI (1937-1952) — quase um seculo sem alteracao do reverso. Apenas a efige real muda. O corpo feminino da alegoria e MAIS DURAVEL que o corpo do monarca.
-```
-
----
-
-## SCOUT-096 — British Trade Dollar (De Saulles, 1895-1935) — Britannia de pe
-
-```markdown
----
-id: SCOUT-096
-tipo: corpus-candidato
-status: candidato
-titulo: "British Trade Dollar 1$ — Britannia de pe com tridente e escudo (De Saulles, 1895-1935)"
-acervo: "Numista"
-url: "https://en.numista.com/catalogue/pieces8472.html"
-url_iiif: null
-data_estimada: "1895-1935"
-pais: UK
-suporte: moeda
-motivo_alegorico: "Britannia"
-regime: MILITAR
-confianca: alto
-tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/moeda
-  - regime/militar
-  - motivo/britannia
-  - verificar
-related:
-  - "[[ENDURECIMENTO]]"
-  - "[[ENDURECIMENTO positivo]]"
+  - "[[Contrato Sexual Visual]]"
+  - "[[Regime Militar]]"
   - "[[SCOUT-091 US Trade Dollar]]"
-  - "[[SCOUT-092 Seahorse 1913]]"
-  - "[[SCOUT-ZW-12]]"
-  - "[[SCOUT-ZW-16]]"
-  - "[[Gradiente de violencia imperial]]"
+  - "[[SCOUT-094 Festival of Britain 1951]]"
+  - "[[SCOUT-095 Britannia Penny George V]]"
+  - "[[SCOUT-096 British Trade Dollar]]"
 data_scout: 2026-03-29
+updated: 2026-03-29
 ---
 
 ## Identificacao
 
-**Titulo:** British Trade Dollar 1$ — Britannia de pe com tridente e escudo (De Saulles)
-**Acervo:** Numista / National Museum of American History
-**URL de acesso:** [Numista](https://en.numista.com/catalogue/pieces8472.html)
-**URL IIIF:** `null`
-**Data estimada:** 1895-1935
+**Titulo:** Seahorse Definitives — Britannia em biga marinha (Mackennal, 1913)
+**Acervo:** The Postal Museum, London / Stanley Gibbons Great Britain Specialised / Colnect
+**URL de acesso:** [The Postal Museum — Seahorse High Values](https://www.postalmuseum.org/collections/highlights/philatelic-collection/british-stamps/george-v-stamps/george-v-definitives/seahorse-high-values/)
+**URL IIIF:** `null` — nenhum acervo filatelico consultado oferece manifesto IIIF para este item. #sem-iiif
+**Data estimada:** 1913-1934 (emissao original: junho/agosto 1913; ultima emissao: Waterlow re-engraved, 1934; retirado de circulacao: 1939)
 **Pais:** UK
-**Suporte:** Moeda — prata .900 (26.95 g, 39 mm)
+**Suporte:** Selo postal — quatro valores de alta denominacao (high values definitives); impressao em entalhe (recess/intaglio)
 
-**Catalogacao:**
-- KM T5 (Krause)
-- Numista N# 8472
+---
 
-**Desenhista:** George William De Saulles (1862-1903)
-**Casas da moeda:** Royal Mint London (1925, 1930); Bombay Mint (marca B no tridente); Calcutta Mint (marca C entre pe e escudo)
+### Catalogacao completa
+
+| Valor | Cor | SG (Waterlow 1913) | SG (De La Rue 1915) | SG (Bradbury Wilkinson 1918) | SG (Waterlow re-engraved 1934) | Scott | Michel | Yvert |
+|-------|-----|---------------------|----------------------|-------------------------------|-------------------------------|-------|--------|-------|
+| 2s 6d | sepia-brown | SG 399 | SG 405 | SG 413 | SG 450 | Sn 173 | Mi 141 | Yt 153 |
+| 5s | rose-carmine | SG 400 | SG 407 | SG 416 | SG 451 | Sn 174 | Mi 142 | Yt 154 |
+| 10s | indigo-blue | SG 402 | SG 409 | SG 417 | SG 452 | Sn 175 | Mi 143 | Yt 155 |
+| £1 | green | SG 403 | — (nao emitido) | — (nao emitido) | — (nao emitido) | Sn 176 | Mi 144 | Yt 156 |
+
+**Nota sobre o £1 verde (SG 403):** somente Waterlow (1913) emitiu o £1. De La Rue e Bradbury Wilkinson suprimiram o valor. O £1 verde Seahorse e uma das moedas filatelicas mais escassas do sec. XX britanico.
+
+---
+
+### Equipe de producao
+
+| Funcao | Nome |
+|--------|------|
+| Designer (concepcao iconografica) | Bertram Mackennal (1863-1931), escultor australiano |
+| Gravador (die engraver) | J. A. C. Harrison |
+| Letrista (lettering) | George W. Eve |
+| Impressora — Fase I (1913-1915) | Waterlow Brothers & Layton |
+| Impressora — Fase II (1915-1918) | De La Rue & Co. |
+| Impressora — Fase III (1918-1919) | Bradbury, Wilkinson & Co. Ltd. |
+| Impressora — Fase IV (1934, regravacao) | Waterlow & Sons Ltd. |
+
+**Cronologia da concepcao:** Mackennal submeteu seis designs em 14 set. 1910, incluindo um de maior formato com Britannia e cavalos marinhos para os altos valores. Artwork revisado produzido entre set. 1910 e mar. 1911. O design foi aprovado pessoalmente por George V, filatelist ativo. George V sugeriu que os selos fossem impressos em recess (entalhe) — sugestao adotada.
+
+**Fontes iconograficas de Mackennal:**
+- Selo de Barbados de 1892 (3d), que ja mostrava Britannia em biga marinha
+- Ilustracoes da Iliada de John Flaxman
+- Tradicao numismatica britanica de Britannia (moedas de Charles II em diante)
 
 ---
 
@@ -517,246 +97,248 @@ data_scout: 2026-03-29
 
 **Motivo alegorico:** Britannia
 **Regime iconocratico:** MILITAR
-**Justificativa:** Britannia DE PE na praia, com elmo, tridente na mao direita, escudo oval com Union Jack na mao esquerda. Navio mercante sob vela plena ao fundo. Borda decorativa com motivo de rolo chines (Chinese scroll-pattern) para aceitacao no comercio oriental. Britannia esta ERETA, HELMETED, ARMADA — e uma projecao de SOBERANIA COMERCIAL IMPERIAL. Diferente da Britannia sentada do penny (SCOUT-095), esta Britannia SE LEVANTOU: o gesto de levantar-se e o ENDURECIMENTO em acao.
+**Justificativa:** Britannia aparece em postura DINAMICA e BELICA: conduzindo uma biga (chariot) puxada por tres cavalos marinhos ("seahorses") atraves de mares tempestuosos. Ela empunha tridente na mao direita e carrega escudo com Union Jack. Trata-se da Britannia em ACAO DE DOMINIO: nao a soberana entronada e passiva da numismatica interna (como no penny 1d com Britannia sentada), mas uma guerreira em movimento conquistando as ondas. Emitida em junho/agosto 1913 — vespera da Primeira Guerra Mundial — a serie permaneceu em circulacao por 26 anos (1913-1939), atravessando a I Guerra, o entreguerras e o limiar da II Guerra. A iconografia projeta poder naval e dominio imperial: "Britain as a powerful country and a ruler of the seas" (The Postal Museum).
+
+O fato de que quatro impressoras diferentes (Waterlow, De La Rue, Bradbury Wilkinson, Waterlow novamente) reproduziram exatamente o MESMO design da figura feminina ao longo de 26 anos documenta a ESTABILIDADE DO ENDURECIMENTO: uma vez militarizada, Britannia nao se altera. Apenas o fundo do retrato real foi modificado na regravacao de 1934 (linhas horizontais -> linhas cruzadas/cross-hatching). O corpo alegorico feminino sobrevive intacto a quatro contratos industriais.
 
 **Atributos identificados:**
 - [x] tridente (mao direita)
-- [x] escudo/brasao (Union Jack oval)
-- [x] elmo/capacete
+- [x] escudo/brasao (Union Jack)
 - [x] toga/vestimenta classica
-- [x] postura de pe (standing)
-- [x] navio mercante ao fundo
-- [x] borda decorativa oriental (Chinese scroll-pattern)
-- [ ] biga/chariot (AUSENTE — so no selo Seahorse)
+- [x] elmo/capacete
+- [x] biga/chariot em movimento
+- [x] cavalos marinhos (tres)
+- [x] mar tempestuoso
+- [x] postura dinamica (conduzindo biga)
+- [ ] balanca (ausente)
+- [ ] espada (ausente — o tridente substitui)
+- [ ] venda nos olhos (ausente)
+- [ ] postura frontal (ausente — perfil em movimento)
+- [ ] contexto arquitetonico (ausente — cenario maritimo)
 
-**ENDURECIMENTO detectado:** SIM — ALTO
+**ENDURECIMENTO detectado:** SIM — GRAU MAXIMO no suporte selo postal britanico
 
-**Indicadores de purificacao ativos:**
-- `rigidez_postural`: ALTA — de pe, ereta, frontal
-- `heraldizacao`: ALTA — escudo integrado ao corpo
-- `inscricao_estatal`: ALTA — inscricao "ONE DOLLAR" e caracteres chineses/malaios projetam poder imperial em multiplas linguas
-- `dessexualizacao`: MODERADA — corpo classicizado mas nao explicitamente dessexualizado
+O Seahorse representa o apex do ENDURECIMENTO de Britannia no suporte selo. Comparado com a Britannia sentada do penny domestico (passiva, contemplativa, estatica — ver SCOUT-095), a Britannia do Seahorse e uma figura em ACAO BELIGERANTE. O corpo feminino foi completamente militarizado: nao apenas porta armas (tridente) e armadura (elmo, escudo), mas esta em MOVIMENTO de conquista, atrelada a forca equina marinha. Os tres cavalos marinhos acentuam o pathos de dominio sobre os mares.
 
-**Comparacao com SCOUT-091 (US Trade Dollar):**
-O gradiente imperial Trade Dollar fica completo:
-- **SCOUT-091** (US, Barber): Liberty SENTADA sobre fardos de mercadoria, ramo de oliveira (paz comercial), rolo inscrito "LIBERTY"
-- **SCOUT-096** (UK, De Saulles): Britannia DE PE na praia, tridente (poder naval), escudo (defesa), navio (comercio)
+**Indicadores de purificacao ativos (escala master-record):**
+- `rigidez_postural`: INVERTIDA em dinamismo belico — o corpo e rigido na acao de conquista, nao na contemplacao
+- `heraldizacao`: ALTA — escudo com Union Jack integrado ao corpo como extensao de soberania
+- `inscricao_estatal`: ALTA — retrato de George V emparelhado com Britannia, afirmando soberania dupla (rei + alegoria nacional)
+- `uniformizacao_facial`: o rosto de Britannia e idealizado, classicizante, sem individualidade pessoal
+- `serialidade`: ALTA — emitido em quatro valores (2s6d, 5s, 10s, £1), mesmo design em todos; quatro impressoras diferentes ao longo de 26 anos
+- `dessexualizacao`: PRESENTE — o corpo feminino e completamente couraçado (toga, elmo, escudo); nenhuma pele exposta alem do rosto e maos
+- `apagamento_narrativo`: PARCIAL — ha narrativa maritima/epica, mas ela e belica, nao domestica ou civil
 
-O US Trade Dollar projeta COMERCIO PACIFICO (sentada, oliveira). O UK Trade Dollar projeta DOMINIO NAVAL (de pe, tridente, navio). A Britannia se ENDURECEU em relacao a Liberty.
+**Gradiente postural de Britannia no UK (para uso comparativo):**
+1. **Penny domestico 1d (Wyon, George V, 1911-1936)** → NORMATIVO: Britannia sentada, guardia passiva do territorio (SCOUT-095)
+2. **British Trade Dollar (De Saulles, 1895-1935)** → MILITAR: Britannia de pe na praia, comercio/forca imperial (SCOUT-096)
+3. **Seahorse stamp (Mackennal, 1913-1939)** → MILITAR MAXIMO: Britannia em biga, dominio naval ativo (SCOUT-093)
+4. **Festival of Britain stamp (Abram Games, 1951)** → ENDURECIMENTO NEGATIVO: Britannia reduzida a cabeca sem corpo (SCOUT-094)
+
+Este gradiente demonstra que o ENDURECIMENTO opera nao apenas diacronicamente (ao longo do tempo) mas tambem SINCRONICAMENTE entre suportes dentro do mesmo pais.
 
 ---
 
 ## Rastreabilidade
 
 **ABNT provisoria:**
-NUMISTA. *1 Dollar (British Trade Dollar)*. 1895-1935. Moeda. Disponivel em: https://en.numista.com/catalogue/pieces8472.html. Acesso em: 29 mar. 2026.
 
-**GitHub:** `data/raw/UK/moeda/SCOUT-096.jpg` (a confirmar)
+THE POSTAL MUSEUM. *Seahorse High Values*. 1913. Selos postais (serie de 4 valores: 2s6d, 5s, 10s, £1). The Postal Museum, London. Disponivel em: https://www.postalmuseum.org/collections/highlights/philatelic-collection/british-stamps/george-v-stamps/george-v-definitives/seahorse-high-values/. Acesso em: 29 mar. 2026.
+
+STANLEY GIBBONS LTD. *Great Britain Specialised Stamp Catalogue*. Vol. 2: King Edward VII to King George VI. London: Stanley Gibbons, 2009. ISBN 9780852598412. [SG 399-417, 450-452 — Seahorse High Values].
+
+BEAUMONT, K. M.; STANTON, J. B. M. *The Postage Stamps of Great Britain, Part Four: The Issues of King George V*. London: Royal Philatelic Society, 1957.
+
+STANLEY GIBBONS. Bertram Mackennal and the stamps of King George V. Disponivel em: https://www.stanleygibbons.com/collecting-stamps/dispatches/bertram-mackennal-and-stamps-king-george-v. Acesso em: 29 mar. 2026.
+
+COLNECT. *King George V — Seahorses, 2s6d (SG 399)*. Disponivel em: https://colnect.com/en/stamps/stamp/1602-King_George_V_-_Seahorses-King_George_V_-_Seahorse_Definitives_1913-1919-United_Kingdom_of_Great_Britain_Northern_Ireland. Acesso em: 29 mar. 2026.
+
+**GitHub:** `data/raw/UK/selo/SCOUT-093.jpg` (a confirmar — obter de Colnect ou Postal Museum)
 **Drive:** pasta `iconocracy-corpus/raw/UK/` (a confirmar)
 
 ---
 
 ## Flags
 
-- [ ] `#verificar` — confirmar se esta e a mesma Britannia referida no SCOUT-ZW-12 e SCOUT-ZW-16 (quadripolar)
-- [ ] `#sem-iiif` — sem IIIF
+- [ ] `#sem-iiif` — nenhum acervo filatelico consultado oferece manifesto IIIF. Rastreabilidade depende de URLs Colnect / The Postal Museum.
+- [ ] `#verificar` — confirmar imagem de alta resolucao disponivel para download licenciado (preferencia: The Postal Museum ou Wikimedia Commons)
+- [ ] `#verificar-autoria` — confirmar papel exato de Mackennal vs. Harrison: Mackennal = design iconografico (Britannia, composicao); Harrison = gravador do die (execucao em metal). Eve = letras. Confirmar se esta divisao e correta em todas as quatro fases de impressao.
+- [ ] `#verificar` — confirmar data de retirada: circulacao encerrada em 1939 ou gradualmente substituida pelos stamps de George VI?
 
 ---
 
 ## Observacoes do Scout
 
-**Contexto historico:** O British Trade Dollar foi criado em 1895 a pedido da Camara de Comercio de Hong Kong para substituir o peso mexicano de prata, cada vez mais escasso. A cunhagem cessou em dezembro de 1935 quando Hong Kong abandonou o padrao prata. Quase todos os exemplares de 1935 foram derretidos.
+**Importancia estrutural para a tese:** O Seahorse e o caso mais EXPLICITAMENTE MILITAR de Britannia no suporte selo postal. Diferentemente da Semeuse francesa (que projeta fertilidade e semeadura pacifica no mesmo periodo), a Britannia do Seahorse projeta DOMINIO NAVAL. Isso confirma a hipotese de que o ENDURECIMENTO varia nao apenas diacronicamente (ao longo do tempo) mas tambem SINCRONICAMENTE entre paises: enquanto a Franca usa a alegoria feminina para projetar civilizacao agropastoril (Semeuse, Oscar Roty, 1903), o UK usa para projetar forca naval militar (Seahorse, 1913). Dois paises, mesma decada, mesmo suporte, regimes opostos.
 
-**Tres casas da moeda** documentam a escala imperial: London, Bombay, Calcutta. A mesma Britannia foi cunhada na metropole e nas colonias — o corpo alegorico feminino viaja com o imperio.
+**Persistencia documentada:** A sobrevivencia do design por 26 anos e quatro impressoras e um dado singular. A Semeuse francesa muda de gravador (Roty 1903, Juillet 1906, Hourriez variantes), de tamanho, de cor, de papel. A Britannia do Seahorse permanece identica. A estabilidade britanica e mais resistente que a francesa — o ENDURECIMENTO, uma vez atingido, tende a cristalizar no UK.
 
-**Referencia bibliografica confirmada:**
-- PRIDMORE, F. *The Coins of the British Commonwealth of Nations to the End of the Reign of George VI, 1952*. London: Spink, 1960-1975. 4 v.
+**O £1 verde como dado extra:** A supressao do £1 por De La Rue e Bradbury Wilkinson (so Waterlow o emitiu, em 1913 e nunca mais) cria um hierarquia interna: o valor mais alto — o mais IMPERIAL — foi o mais efemero na emissao e o mais escasso no mercado. Paradoxo iconometrico: a denominacao maxima = a Britannia mais rara = a mais imperializante.
+
+**Relacao com Barbados:** A fonte iconografica identificada pelo Postal Museum (selo de Barbados 1892 com Britannia em biga) revela uma GENEALOGIA COLONIAL do design metropolitano. O UK importa para sua serie definitiva de alta denominacao um design originalmente criado para uma colonia caribenha. O ENDURECIMENTO percorre o caminho inverso: da periferia colonial para o centro metropolitano.
 ```
 
 ---
 
-## SCOUT-ZW-17 — Painel: Gradiente Postural de Britannia (Selo vs. Moeda)
+## Nota 2 — Zwischenraum: SCOUT-ZW-18
 
 ```markdown
 ---
-id: SCOUT-ZW-17
+id: SCOUT-ZW-18
 tipo: corpus-zwischenraum
 status: ativo
-titulo: "Painel 17 -- GRADIENTE POSTURAL DE BRITANNIA: Penny (sentada) x Trade Dollar (de pe) x Seahorse (em biga) x Festival (so cabeca)"
-pais: [UK]
-periodo: "1895-1951"
+titulo: "Painel 18 — ENDURECIMENTO TRANSATLANTICO: Britannia em Biga (UK, 1913) x Semeuse em Campo (FR, 1903)"
+pais: [UK, FR]
+periodo: "1903-1913"
 tags:
   - corpus/zwischenraum
-  - painel/gradiente-postural
+  - painel/endurecimento-comparado
   - metodo/warburg
   - pais/UK
+  - pais/FR
+  - suporte/selo
+  - regime/militar
+  - regime/normativo
+  - "#atlas/painel-III"
 related:
-  - "[[SCOUT-095]]"
-  - "[[SCOUT-096]]"
-  - "[[SCOUT-092]]"
-  - "[[SCOUT-094]]"
+  - "[[SCOUT-093]]"
+  - "[[SCOUT-033 Semeuse Roty 1903]]"
   - "[[ENDURECIMENTO]]"
-  - "[[ENDURECIMENTO negativo]]"
+  - "[[Feminilidade de Estado]]"
   - "[[Contrato Sexual Visual]]"
+  - "[[Regime Normativo]]"
+  - "[[Regime Militar]]"
+  - "[[Nachleben]]"
+  - "[[Pathosformel]]"
 data_scout: 2026-03-29
+updated: 2026-03-29
 ---
 
-## Painel 17 -- GRADIENTE POSTURAL DE BRITANNIA: Moeda domestica → Moeda imperial → Selo imperial → Selo pos-guerra (Zwischenraum)
+## Painel 18 — ENDURECIMENTO TRANSATLANTICO: Britannia em Biga x Semeuse em Campo (Zwischenraum)
 
-Este painel estabelece o espaco de tensao (*Zwischenraum*) entre QUATRO manifestacoes de Britannia no Reino Unido, revelando um gradiente postural que opera em dois eixos: (1) SUPORTE (moeda vs. selo) e (2) FUNCAO (domestica vs. imperial vs. pos-guerra).
+Este painel estabelece o espaco de tensao (*Zwischenraum*) entre dois polos antiteticos do ENDURECIMENTO alegorico no suporte selo postal, producao sincronica (1903-1913), dois paises imperiais rivais.
 
-**Polo A (UK, 1911-1936):** *1 Penny George V* (L. C. Wyon) — Britannia SENTADA, passiva, contemplativa.
-**Polo B (UK, 1895-1935):** *British Trade Dollar* (De Saulles) — Britannia DE PE, armada, ereta.
-**Polo C (UK, 1913-1939):** *Seahorse Stamp 2s6d* (Mackennal/Harrison) — Britannia EM BIGA, dinamica, beligerante.
-**Polo D (UK, 1951):** *Festival of Britain 4d* (Abram Games) — Britannia SO CABECA, desincorporada.
+**Polo A (UK, 1913):** *Seahorse Definitives — Britannia em biga marinha* (Bertram Mackennal / J. A. C. Harrison, Waterlow Bros & Layton) — REGIME MILITAR
+**Polo B (FR, 1903):** *Semeuse — La Republique semeando o campo* (Oscar Roty, gravadores Mouchon/Barre) — REGIME NORMATIVO
+
+---
 
 ### Dados Comparados
 
-| Elemento | Polo A — SCOUT-095 | Polo B — SCOUT-096 | Polo C — SCOUT-092 | Polo D — SCOUT-094 |
-|----------|---------------------|---------------------|---------------------|---------------------|
-| **Item** | 1 Penny George V | British Trade Dollar | Seahorse 2s6d | Festival of Britain 4d |
-| **Data** | 1911-1936 | 1895-1935 | 1913-1939 | 1951 |
-| **Suporte** | Moeda bronze, 30.8mm, 9.45g | Moeda prata .900, 39mm, 26.95g | Selo postal, entalhe | Selo postal, fotogravura |
-| **Valor facial** | 1d (uso domestico) | $1 (comercio imperial asiatico) | 2s6d-L1 (alto valor postal) | 2½d-4d (tarifa ordinaria) |
-| **Desenhista** | L. C. Wyon (d'apres W. Wyon) | G. W. De Saulles | B. Mackennal / J.A.C. Harrison | Abram Games |
-| **Circulacao** | Reino Unido domestico | Hong Kong, Straits Settlements | Reino Unido e imperio | Reino Unido |
-| **Postura** | SENTADA | DE PE | EM BIGA | SO CABECA |
-| **Regime** | NORMATIVO | MILITAR | MILITAR | NORMATIVO |
+| Elemento | Polo A — Seahorse (UK, 1913) | Polo B — Semeuse (FR, 1903) |
+|----------|-------------------------------|------------------------------|
+| **Item** | Seahorse Definitives (2s6d, 5s, 10s, £1) | Semeuse couchee / debout (5c, 10c, 15c, etc.) |
+| **Data de emissao** | junho/agosto 1913 | 1903 (Semeuse couchee); 1907 (Semeuse debout) |
+| **Suporte** | Selo postal — recess/intaglio | Selo postal — tipografia (letterpress) |
+| **Desenhista** | Bertram Mackennal (concepcao); J. A. C. Harrison (gravura) | Oscar Roty (concepcao, 1897); Eugene Mouchon (gravura definitiva) |
+| **Impressora** | Waterlow Bros & Layton (Fase I); De La Rue (II); Bradbury Wilkinson (III); Waterlow & Sons (IV) | Imprimerie des timbres-poste, Paris |
+| **Circulacao** | Reino Unido e Imperio Britanico; valores altos (uso postal e fiscal) | Franca metropolitana e colonial; valores baixos (uso postal quotidiano) |
+| **SG/Yvert** | SG 399-403 (Waterlow I) | Yt 130-131 (couchee), Yt 161-162 (debout) |
+| **Regime** | MILITAR | NORMATIVO |
+| **Periodo em circulacao** | 1913-1939 (26 anos) | 1903-1938 (35 anos) |
+
+---
 
 ### 1. A Mutacao do ENDURECIMENTO
 
-O gradiente postural de Britannia revela uma LOGICA DE ESCALONAMENTO do ENDURECIMENTO que opera em funcao da AUDIENCIA e da FUNCAO do suporte:
+Os dois selos foram concebidos na mesma decada (Roty apresentou o design da Semeuse em 1897; Mackennal desenhou o Seahorse entre 1910-1911), e partilham o mesmo suporte (selo postal) e o mesmo contexto geo-politico (duas potencias imperiais europeias em rivalidade crescente). Nao obstante, representam polos morfologicos opostos do ENDURECIMENTO da alegoria feminina.
 
-**Polo A (penny domestico):** Britannia SENTADA. Postura passiva, contemplativa, de guardia. Tridente e escudo presentes mas em repouso. O ENDURECIMENTO e ZERO — esta e a linha de base normativa. Britannia vigia o territorio, nao o conquista. Indicadores ativos: nenhum fortemente (rigidez_postural moderada pela postura sentada).
+**Polo A — Britannia (ENDURECIMENTO MAXIMO):**
+Os indicadores de purificacao ativos sao: `heraldizacao` (escudo com Union Jack), `inscricao_estatal` (retrato dual Britannia + George V), `uniformizacao_facial` (rosto classicizante sem individualidade), `serialidade` (quatro valores, mesmo design), `dessexualizacao` (corpo completamente couraçado — toga, elmo, escudo, tridente). Britannia esta em ACAO: o movimento da biga impede qualquer leitura contemplativa. O corpo e rigido na acao, nao na contemplacao — `rigidez_postural` aparece INVERTIDA como dinamismo belico. Sao desligados apenas `desincorporacao` (o corpo ainda existe integralmente) e `monocromatizacao` (cada valor tem cor diferente).
 
-**Polo B (Trade Dollar):** Britannia SE LEVANTA. O gesto de levantar-se e ja ENDURECIMENTO positivo: o corpo feminino se erige, se verticaliza, porta as armas agora em posicao de uso (nao de repouso). O tridente esta na mao; o escudo esta empunhado. O navio mercante ao fundo projeta a dimensao COMERCIAL do poder. Indicadores: rigidez_postural ALTA, heraldizacao ALTA.
+**Polo B — Semeuse (ENDURECIMENTO MINIMO ou NORMATIVO ALTO):**
+Os indicadores de purificacao ativos sao: `uniformizacao_facial` (o rosto inclina para baixo, nunca olha o espectador), `monocromatizacao` (serie monocromatica por valor), `serialidade` (multiples valores, mesmo design base), `enquadramento_arquitetonico` (AUSENTE — mas substituido por enquadramento natural: horizonte, sol nascente). Sao desligados: `heraldizacao` (nenhum escudo, brasao ou arma), `inscricao_estatal` (nenhum retrato real emparelhado na versao metropolitana), `rigidez_postural` (o corpo esta em movimento suave — o gesto de semear e fluido, nao beligerante), `dessexualizacao` (as vestes sao civicas, nao militares; a Semeuse tem cabeleira ao vento, elemento sensorial/organico).
 
-**Polo C (Seahorse stamp):** Britannia AVANCA. Nao apenas esta de pe — esta em MOVIMENTO, conduzindo uma biga marinha. Os tres cavalos marinhos acentuam o pathos belico. Mackennal foi explicito: a inspiracao vem de fontes classicas (Iliada de Flaxman) e das moedas de Charles II. O selo postal, aqui, supera a moeda em intensidade belica — o suporte impresso permite uma composicao mais complexa e narrativa. Indicadores: rigidez_postural MAXIMA (dinamismo belico), heraldizacao ALTA, inscricao_estatal ALTA (retrato real emparelhado).
+**A diferenca estrutural:** O ENDURECIMENTO britanico opera por ADICAO DE ATRIBUTOS BELICOS ao corpo feminino (arma + armadura + veiculo de guerra). O ENDURECIMENTO frances opera, no mesmo periodo, por SUPRESSAO DE ATRIBUTOS POLITICOS (nenhuma arma, nenhum brasao, nenhum retrato real) — o que produz uma figura aparentemente mais "livre" mas funcionalmente mais docil: a Semeuse semeia sem olhar, sem agir, sem protestar. Dois modos de neutralizacao do corpo alegorico feminino: o britanico por militarizacao plena; o frances por pastoralizacao civica.
 
-**Polo D (Festival 1951):** Britannia DESAPARECE. De uma guerreira em biga, resta apenas uma CABECA com elmo. Abram Games, o modernista do "maximum meaning, minimum means", completa o ciclo: o ENDURECIMENTO atinge seu limite e INVERTE em DESINCORPORACAO. O corpo feminino e desnecessario no pos-guerra — o ENDURECIMENTO negativo (por subtracao) substitui o ENDURECIMENTO positivo (por adicao de armamento/movimento).
+Warburg chamaria os dois de Pathosformeln opostas ativadas pelo mesmo contexto historico: a ameaca de guerra europeia (1900-1914) aciona no UK a formula do corpo em armas, na Franca a formula do corpo em trabalho. Ambas servem ao Nachleben da alegoria estatal, mas com cargas emotivas antiteticas.
 
-**A CURVA:** A → B → C → D nao e uma progressao linear. E uma PARABOLA:
-- A → B → C: ENDURECIMENTO positivo CRESCENTE (sentada → de pe → em biga)
-- C → D: COLAPSO em ENDURECIMENTO negativo (biga → so cabeca)
-
-O pico do ENDURECIMENTO e o Seahorse (1913-1939). O pos-guerra (1951) nao retorna a Britannia sentada do penny — cria uma NOVA forma de controle do corpo feminino: a DESINCORPORACAO.
+---
 
 ### 2. O Contrato Sexual Visual
 
-O gradiente postural documenta quatro MODALIDADES do contrato sexual visual:
+O *Contrato Sexual Visual* opera diferentemente em cada polo.
 
-**A (penny):** O corpo feminino serve como GUARDIA DOMESTICA. Britannia sentada e a esposa do imperio que cuida do lar (territorio). Sexualidade contida mas presente — corpo completo, vestido, sentado. A funcao e de PROTECAO PASSIVA.
+**No Polo A (Britannia em biga):** o contrato e EXPLICITO e VIOLENTO. Britannia e armada, em movimento, dominando forcas naturais (o mar, os cavalos marinhos). O corpo feminino e o instrumento de projecao de forca imperial: ele AMEACA. O espectador (sujeito britanico imperial) recebe uma mensagem de POTENCIA. Mas a potencia e da alegoria-Estado, nao da mulher: o corpo feminino foi capturado pela soberania e armado a seu servico. A mulher como guerreira e uma mulher que nao existe — e um escudo projetivo do Estado. O contrato e: o feminino empresta seu corpo para que o Estado projete o que o Estado nao pode projetar diretamente (o Estado nao tem corpo — empresta o da alegoria).
 
-**B (Trade Dollar):** O corpo feminino serve como EMBAIXADORA IMPERIAL. Britannia de pe projeta soberania para mercados asiaticos. O Chinese scroll-pattern na borda documenta a INSTRUMENTALIZACAO do corpo feminino para audiencias nao-europeias. O contrato sexual visual e EXPORTADO — o corpo feminino britanico representa poder para o Outro colonial.
+**No Polo B (Semeuse semeando):** o contrato e IMPLICITO e PRODUTIVISTA. A Semeuse caminha, semeia, olha para baixo, nao olha o espectador. O corpo feminino e o instrumento de projecao de PROSPERIDADE CIVILIZATORIA. Ela nao ameaca — ela produz. Mas a producao e unidirecional: ela semeia (trabalha) para que o Estado colha (governe). O gesto de semear sem olhar e o gesto da mulher que nao pede nada em troca. O contrato e: o feminino labora em silencio para que o projeto civilizatorio republicano se realize sem contestacao.
 
-**C (Seahorse):** O corpo feminino serve como GUERREIRA IMPERIAL. O maximo de ENDURECIMENTO corresponde ao maximo de instrumentalizacao: Britannia nao apenas REPRESENTA poder — ela O EXERCE. Conduz a biga, domina os mares. O selo de alto valor (2s6d a L1) marca esta Britannia como instrumento de correspondencia de ELITE e OFICIAL — nao e a Britannia do povo (penny), e a Britannia do Estado.
+A diferenca do contrato em cada polo ilumina o argumento central da tese: o ENDURECIMENTO nao e uma propriedade unica mas um ESPECTRO de captura do corpo feminino para fins de legitimacao estatal. No extremo belico (Britannia), o corpo e capturado como arma. No extremo produtivista (Semeuse), o corpo e capturado como ferramenta. Ambas as capturas apagam a agencia feminina — apenas o modo de apagamento difere.
 
-**D (Festival):** O corpo feminino E DISPENSADO. Resta apenas um LOGO — uma cabeca com elmo que funciona como marca grafica. Games transforma Britannia em DESIGN. O contrato sexual visual atinge seu paradoxo final: para ser maximamente CONTROLADA, a mulher alegorica precisa perder o corpo inteiramente.
+---
 
 ### 3. Sintese para a Tese
 
-Este gradiente quadripolar demonstra tres teses centrais:
+Este Zwischenraum demonstra tres argumentos encadeados:
 
-**(a) O ENDURECIMENTO varia por SUPORTE e FUNCAO, nao apenas por epoca.** No MESMO periodo (1911-1936), Britannia e SENTADA no penny domestico e DE PE no Trade Dollar imperial. Nao e o tempo que determina o ENDURECIMENTO — e a FUNCAO do suporte. Selos e moedas de alto valor/uso imperial recebem mais ENDURECIMENTO que suportes de uso quotidiano.
+**(a) O ENDURECIMENTO e sincronico e comparativo, nao apenas diacronico.** Britannia (1913) e Semeuse (1903) sao contemporaneas. Nao ha uma "evolucao linear" do corpo alegorico — ha ESCOLHAS POLITICAS SINCRONICAS que determinam o regime iconocratico de cada pais. O UK escolhe o regime MILITAR no mesmo momento em que a Franca escolhe o regime NORMATIVO (ainda que com elementos fundacionais sublimados). A comparacao sincronica e intrasuporte (ambas sao selos postais) isola a variavel nacional e revela a especificidade politica de cada regime iconocratico.
 
-**(b) O suporte selo postal PERMITE mais ENDURECIMENTO que a moeda.** O Seahorse stamp (Polo C) supera o Trade Dollar (Polo B) em intensidade belica. A explicacao e tecnica-material: o selo, impresso em entalhe, permite composicoes mais complexas (cena com tres cavalos, biga, ondas, retrato real) que a moeda, limitada pelo relevo circular. O suporte AMPLIFICA o ENDURECIMENTO.
+**(b) O suporte selo postal e um campo de batalha iconocratico transnacional.** Britannia e Semeuse circulam simultaneamente no mesmo espaco atlantico e imperial. Uma carta enviada de Londres para Lagos (Imperio Britanico) levava Britannia em biga; uma carta enviada de Paris para Saigao (Imperio Frances) levava a Semeuse em campo. No espaço postal global do inicio do seculo XX, dois projetos concorrentes de feminilidade de Estado circulavam lado a lado — um belico, um produtivista. O suporte selo e um veiculo de propaganda iconocratica de massa, produzido em milhoes de exemplares, distribuido globalmente.
 
-**(c) O ENDURECIMENTO tem um LIMITE alem do qual INVERTE em DESINCORPORACAO.** Do Seahorse (1913) ao Festival (1951), Britannia nao REGRESSA a postura sentada — ela PERDE O CORPO. Este e o mesmo padrao observado na Marianne francesa pos-1945 (SCOUT-086 a SCOUT-089). O ENDURECIMENTO negativo e um fenomeno POS-GUERRA transnacional: tanto a Franca quanto o UK respondem ao pos-guerra nao por relaxamento do corpo alegorico, mas por sua ELIMINACAO.
-
-**Implicacao metodologica:** Este painel valida a necessidade de analisar a MESMA alegoria em MULTIPLOS suportes simultaneamente. Estudar Britannia so em moedas ou so em selos perderia o gradiente postural. O corpus precisa ser TRANS-SUPORTE para capturar o ENDURECIMENTO em sua plenitude.
+**(c) A genealogia colonial inverte o fluxo esperado.** O design da Britannia em biga tem origem em um selo de Barbados (1892, colonia britanica). O UK importa para sua serie metropolitan definitiva um design originado na periferia colonial. A Semeuse, ao contrario, foi criada em Paris e exportada para as colonias francesas (com sobrecargos). O ENDURECIMENTO britanico flui da PERIFERIA para o CENTRO; o frances, do CENTRO para a PERIFERIA. Este dado inverte a narrativa difusionista e e teoricamente relevante para o capitulo sobre colonialidade da tese.
 ```
 
 ---
 
-## SCOUT-SESSION-2026-03-29-UK — Nota de Sessao
+## Nota 3 — Sessao Scout: SCOUT-SESSION-2026-03-29-UK
 
 ```markdown
 ---
 id: SCOUT-SESSION-2026-03-29-UK
 tipo: sessao-scout
 data: 2026-03-29
-query_executada: "Selos postais britanicos com Britannia entre 1900 e 1960. Prioridades: Seahorse definitives, Festival of Britain 1951, definitivos com Britannia. Comparacao selo vs. moeda."
+query_executada: "Selos postais britanicos com Britannia (1880-1960) — Seahorse definitives, Festival of Britain, outras series"
 total_candidatos: 5
 pais: [UK]
 periodo: "1895-1951"
 tags:
   - corpus/sessao-scout
-  - protocolo
+  - "#protocolo"
 related:
   - "[[DB1 Corpus Iconografico]]"
-  - "[[IconoCode -- Protocolo]]"
-  - "[[SCOUT-092]]"
+  - "[[IconoCode — Protocolo]]"
   - "[[SCOUT-093]]"
-  - "[[SCOUT-094]]"
-  - "[[SCOUT-095]]"
-  - "[[SCOUT-096]]"
-  - "[[SCOUT-ZW-17]]"
-data_scout: 2026-03-29
+  - "[[SCOUT-ZW-18]]"
 ---
 
 ## Resumo da sessao
 
-**Query:** Selos postais britanicos com Britannia (1900-1960): Seahorse definitives (1913, 1918, 1934), Festival of Britain (1951), Britannia em definitivos. Comparacao com Britannia em moedas (Trade Dollar, penny domestico).
-**Acervos consultados:** Colnect, Stanley Gibbons, The Postal Museum, Numista, British Museum, Wikipedia
-**Candidatos encontrados:** 5 (SCOUT-092 a SCOUT-096) + 1 Zwischenraum quadripolar (SCOUT-ZW-17)
-**Nivel de confianca predominante:** ALTO
+**Query:** Selos postais britanicos com Britannia (1880-1960): Seahorse definitives (1913-1934), Festival of Britain (1951), outras series com Britannia ou Justice.
+**Acervos consultados:** The Postal Museum (postalmuseum.org), Stanley Gibbons (stanleygibbons.com, sgbaldwins.com), Wikipedia (King George V Seahorses), Colnect, FiveMinutesSpare, Paul Fraser Collectibles.
+**Candidatos encontrados:** 5 (SCOUT-092 a SCOUT-096) — documentados em arquivo consolidado da sessao anterior. SCOUT-093 formalizado como nota canonica nesta sessao.
+**Nivel de confianca predominante:** alto — os Seahorse definitives sao item filatelico de primeiro nivel com ampla documentacao academica e comercial.
+**Zwischenraum produzido:** SCOUT-ZW-18 (Britannia/Seahorse 1913 x Semeuse 1903 — ENDURECIMENTO comparado transatlantico)
 
-### Candidatos gerados
+## Candidatos desta sessao
 
-| ID | Titulo | Suporte | Regime | Confianca |
-|----|--------|---------|--------|-----------|
-| SCOUT-092 | Seahorse 2s6d (Mackennal/Harrison, Waterlow, 1913) | selo postal | MILITAR | alto |
-| SCOUT-093 | Seahorse Re-engraved (Waterlow, 1934) | selo postal | MILITAR | alto |
-| SCOUT-094 | Festival of Britain 4d (Abram Games, 1951) | selo postal | NORMATIVO | alto |
-| SCOUT-095 | 1 Penny George V — Britannia sentada (Wyon, 1911-1936) | moeda | NORMATIVO | alto |
-| SCOUT-096 | British Trade Dollar (De Saulles, 1895-1935) | moeda | MILITAR | alto |
-
-### Zwischenraum gerado
-
-| ID | Painel | Polos | Tipo |
-|----|--------|-------|------|
-| SCOUT-ZW-17 | Gradiente Postural de Britannia | SCOUT-095 x SCOUT-096 x SCOUT-092 x SCOUT-094 | Quadripolar (moeda domestica → moeda imperial → selo imperial → selo pos-guerra) |
-
-### Verificacao de duplicatas
-
-- **SCOUT-091 (US Trade Dollar):** ja existe no corpus. SCOUT-096 (UK Trade Dollar) e item DIFERENTE — moeda britanica de De Saulles, nao a americana de Barber.
-- **SCOUT-ZW-12 e SCOUT-ZW-16:** ja incluem o British Trade Dollar como polo. SCOUT-096 formaliza o item como candidato autonomo. Verificar se o British Trade Dollar no ZW-12/ZW-16 usa os mesmos dados.
-- **Nenhum selo postal UK existia no corpus antes desta sessao.** Esta e a primeira entrada de UK stamps.
-- Os itens UK existentes no corpus-data.json (linhas com "United Kingdom") sao: estampas/gravuras (Justice, Britannia em contexto 18o seculo), escultura Old Bailey (Pomeroy), gravura Wellcome Collection, cartaz IWM. Nenhum e selo postal e nenhum e moeda domestica/Trade Dollar.
-
-## ENDURECIMENTO detectado — sintese
-
-**Gradiente postural confirmado:**
-
-```
-Penny (SENTADA) → Trade Dollar (DE PE) → Seahorse (EM BIGA) → Festival (SO CABECA)
-   NORMATIVO          MILITAR               MILITAR MAXIMO        NORMATIVO (negativo)
-```
-
-O ENDURECIMENTO de Britannia segue uma PARABOLA, nao uma linha reta. O pico e o Seahorse (1913-1939). O pos-guerra inverte o ENDURECIMENTO positivo em DESINCORPORACAO (ENDURECIMENTO negativo).
-
-**Descoberta principal:** O SUPORTE determina o ENDURECIMENTO tanto quanto a epoca. No MESMO ano (1913), Britannia e sentada no penny e guerreira em biga no Seahorse stamp. O selo de alto valor permite mais ENDURECIMENTO que a moeda de baixo valor.
+| ID | Titulo | Data | Suporte | Regime | Confianca |
+|----|--------|------|---------|--------|-----------|
+| SCOUT-092 | Seahorse 2s6d — Britannia em biga (Mackennal/Harrison, Waterlow, 1913) | 1913 | selo postal | MILITAR | alto |
+| SCOUT-093 | Seahorse Definitives — serie completa (1913-1934) | 1913-1934 | selo postal | MILITAR | alto |
+| SCOUT-094 | Festival of Britain 4d — Cabeca de Britannia (Abram Games, 1951) | 1951 | selo postal | NORMATIVO | alto |
+| SCOUT-095 | 1 Penny George V — Britannia sentada (Wyon, 1911-1936) | 1911-1936 | moeda | NORMATIVO | alto |
+| SCOUT-096 | British Trade Dollar — Britannia de pe (De Saulles, 1895-1935) | 1895-1935 | moeda | MILITAR | alto |
 
 ## Lacunas identificadas
 
-1. **Britannia Definitives George VI (1937-1952):** Apos os Seahorses, que design substituiu Britannia nos selos de alto valor de George VI? Os selos "Arms" de 1939 (SG 476-478a) eliminaram Britannia inteiramente — confirmar.
-2. **Penny reverso George VI (1937-1952):** Britannia sentada permanece? KM 845 confirmar no Numista.
-3. **Selos coloniais com Britannia:** Britannia aparece em selos de colonias britanicas (Barbados, Trinidad)? O Seahorse de Mackennal foi inspirado pelo selo de Barbados 1892 — investigar a circulacao reversa da iconografia.
-4. **Selo QEII Wilding (1952-1967):** Britannia desaparece completamente dos selos definitivos? Confirmar.
-5. **Britannia em selos de alto valor QEII (1951 Festival → 1955 Castles):** Os "Castle" high values (SG 536-539) substituiram Britannia por arquitetura. Documentar essa transicao como DISSOLUCAO HERALDICA.
+1. **Imagens IIIF ausentes:** nenhum acervo filatelico consultado (Colnect, Stanley Gibbons, The Postal Museum) oferece manifesto IIIF. Todos os itens UK desta sessao carregam `#sem-iiif`. Rastreabilidade comprometida. Verificar se Wikimedia Commons tem versoes de alta resolucao com licenca livre (Creative Commons).
+2. **Selos vitoriano-eduardianos com Britannia (1880-1910):** nao pesquisados nesta sessao. A serie Jubilee (1887), Diamond Jubilee (1897) e as series de Edward VII podem conter Britannia ou Justice. Gap cronologico relevante.
+3. **Selos de Guerra (1914-1918, 1939-1945):** emissoes de emergencia ou commemorativas britânicas durante as duas guerras mundiais podem conter figuras alegoricas femininas com atributos militares mais intensos ainda que o Seahorse. Nao pesquisados.
+4. **Selos coloniais britanicos com Britannia (1880-1950):** Jamaica, Canada, Australia, India britanica, Africa do Sul — colonias que usaram Britannia como motivo central em selos proprios. A mutacao colonial de Britannia (de guerreira metropolitana para figura tutelar colonial) e lacuna critica para o argumento sobre colonialidade.
+5. **Britannia em papel-moeda britanico (1694-1950):** Britannia aparece nas cedulas do Bank of England desde o seculo XVIII. O corpus nao tem nenhum item UK de papel-moeda. Gap de suporte.
 
 ## Proximas buscas sugeridas
 
-1. **Selos coloniais britanicos com Britannia (Barbados, Trinidad, Malta)** — testar se a Britannia colonial e diferente da metropolitana (analogia com o caso frances Semeuse/Indochina).
-2. **George VI Arms definitives (1939-1948, SG 476-478a)** — confirmar eliminacao de Britannia nos altos valores.
-3. **Castle high values QEII (1955-1968, SG 536-539)** — documentar a substituicao de Britannia por arquitetura como passo final da DESINCORPORACAO.
-4. **Britannia em papel-moeda britanico (banknotes)** — Bank of England notes com Britannia sentada como marca d'agua ou vinheta. Testar se a Britannia bancaria e diferente da Britannia monetaria.
-5. **Britannia Rule the Waves (1938 selo Empire Exhibition?)** — investigar se existem selos comemorativos do entreguerras com Britannia explicitamente militar.
+1. **Selos coloniais britanicos com Britannia:** buscar no Colnect por `country: Jamaica`, `country: British India`, `country: Canada` + motif `Britannia` + periodo 1880-1950. Comparar a Britannia colonial com a metropolitana do Seahorse.
+2. **Bank of England notes com Britannia:** buscar em `bankofengland.co.uk/museum` e no British Museum (`britishmuseum.org/collection`) por cedulas com Britannia; verificar se ha IIIF disponivel.
+3. **Selos vitoriano-eduardianos:** buscar no Colnect por `United Kingdom + 1887-1910` e verificar series Jubilee (SG 197-214) e Unified (SG 215-257). Designer das Jubilee: Sir Frederic Leighton (concepcao) / Joubert (gravura). Ha alegoria feminina?
+4. **Festival of Britain — imagem verificada:** buscar no Postal Museum o PDF especifico e verificar se a cabeca de Britannia no selo de Abram Games e a mesma do logotipo Festival Star ou uma adaptacao exclusiva para o selo.
+5. **Hikime-kagobana pattern (genealogia Barbados):** buscar o selo de Barbados 1892 (3d) que inspirou Mackennal — verificar se Britannia em biga ja aparecia nele ou se e uma modificacao de Mackennal. Colnect: `country: Barbados + 1892`.
 
 ## Flags de atencao
 
-- SCOUT-092 a SCOUT-094: todos `#sem-iiif` — nenhum acervo filatelico consultado oferece manifesto IIIF. Rastreabilidade depende de URLs Colnect/Stanley Gibbons.
-- SCOUT-096 (British Trade Dollar): verificar se duplica dados ja registrados nos Zwischenraume ZW-12 e ZW-16 do corpus existente. Se sim, manter como candidato autonomo mas registrar a sobreposicao.
-- SCOUT-095 (penny): selecionar ANO especifico para imagem (sugestao: 1913, para sincronizar com Seahorse e permitir comparacao sincronica).
-- Abram Games (SCOUT-094): verificar se Games desenhou o perfil de Britannia originalmente ou adaptou fonte preexistente para o Festival Star.
+- **SCOUT-092 a SCOUT-094:** todos `#sem-iiif` — rastreabilidade depende de URLs Colnect/Postal Museum, que nao sao IIIF-compliant.
+- **SCOUT-093 (nota canonica):** SCOUT-093 foi usado nesta sessao como ID da serie completa Seahorse. SCOUT-092 (arquivo anterior) usava SCOUT-093 como ID para o "Seahorse re-engraved 1934". Regularizar: SCOUT-093 = serie completa (nota canonica); o re-engraved 1934 pode ser subcategoria de SCOUT-093 ou receber ID proprio (SCOUT-093b). Verificar com a pesquisadora.
+- **SCOUT-096 (British Trade Dollar):** verificar se duplica dados ja registrados nos Zwischenraume ZW-12 e ZW-16 do corpus existente (mencionados no arquivo de sessao anterior). Se sim, manter como candidato autonomo mas registrar a sobreposicao formalmente.
+- **SCOUT-ZW-18:** Semeuse de referencia (Polo B) = SCOUT-033 (Semeuse Roty 1903, ja em vault/corpus/scout-session-2026-03-28/). Confirmar que SCOUT-033 esta no corpus antes de usar como polo no Zwischenraum.
 ```
