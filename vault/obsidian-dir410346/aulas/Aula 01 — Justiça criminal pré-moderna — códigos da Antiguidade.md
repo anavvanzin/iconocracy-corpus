@@ -119,3 +119,9 @@ A tensão produtiva entre ambos: se toda periodização é, em alguma medida, pr
 - → [[Aula 02 — Justiça negociada alto-medieval]] (continuidade: Sbriccoli)
 - → [[Memorial 00]] (memorial já submetido sobre estas leituras)
 - → Tese ICONOCRACY: a crítica ao evolucionismo vale para a fonte visual com igual força. Imagens de Hamurábi ou da Justitia "ilustrando" manuais sem análise iconográfica reproduzem o mesmo vício que Oliveira denuncia no texto.
+
+--- 
+
+* 1a parte da aula: discussão dos memoriais. 
+	* Lacunas na história do Direito (no Brasil). 
+	* Questão do eurocentrismo
