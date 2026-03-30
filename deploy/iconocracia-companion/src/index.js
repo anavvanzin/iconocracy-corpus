@@ -2,12 +2,21 @@ import DATA from "./scout-data.json";
 
 const SCOUT_DATA = DATA;
 
+const COUNTRY_FLAGS = {"FR":"🇫🇷","DE":"🇩🇪","BE":"🇧🇪","BR":"🇧🇷","US":"🇺🇸","UK":"🇬🇧"};
+
+function escAttr(s) {
+  return String(s || "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
 function renderCard(c) {
   const regime = (c.regime || "").toUpperCase();
   const regimeClass = regime === "MILITAR" ? "militar" : regime === "FUNDACIONAL" ? "fundacional" : "normativo";
   const isNeg = (c.tipo || "").includes("controle");
+  const pais = (c.pais || "").replace(/[\[\]]/g, "").trim();
+  const flag = COUNTRY_FLAGS[pais] || "";
+  const searchText = escAttr([c.titulo, pais, c.data_estimada, c.suporte, c.justificativa, c.endurecimento].join(" ").toLowerCase());
   return `
-  <div class="card ${regimeClass}${isNeg ? " negative" : ""}">
+  <div class="card ${regimeClass}${isNeg ? " negative" : ""}" data-regime="${regime}" data-pais="${escAttr(pais)}" data-text="${searchText}">
     <div class="card-header">
       <span class="card-id">${c.id}</span>
       <div>
@@ -17,7 +26,7 @@ function renderCard(c) {
     </div>
     <div class="card-title">${c.titulo || ""}</div>
     <div class="card-meta">
-      <span>${c.pais || ""} | ${c.data_estimada || ""}</span>
+      <span>${flag ? flag + " " : ""}${pais} | ${c.data_estimada || ""}</span>
       <span>${c.suporte || ""}</span>
     </div>
     ${c.justificativa ? `<div class="card-body">${c.justificativa}</div>` : ""}
@@ -110,7 +119,22 @@ nav a:hover,nav a.active{color:var(--bordeaux);border-color:rgba(107,45,62,.3);b
 .theory-desc{font-size:.86rem;color:var(--sepia);line-height:1.6}
 .footer{background:var(--navy);text-align:center;padding:1.5rem 2rem;font-family:'IBM Plex Mono',monospace;color:var(--lightSepia);font-size:.7rem;letter-spacing:.1em;border-top:2px solid var(--gold);margin-top:3rem}
 a{color:var(--bordeaux)}
-@media(max-width:600px){.stats{gap:1rem}.card{padding:1rem}.header h1{font-size:1.3rem}}
+/* ─── FILTER BAR ─── */
+.filter-bar{background:var(--parchment);border-bottom:1px solid var(--lightSepia);padding:.9rem 1rem;position:sticky;top:52px;z-index:9}
+.filter-bar-inner{max-width:900px;margin:0 auto;display:flex;flex-direction:column;gap:.6rem}
+.filter-search{width:100%;box-sizing:border-box;padding:.5rem .85rem;border:1px solid var(--lightSepia);border-radius:3px;font-family:'Cormorant Garamond',Georgia,serif;font-size:.95rem;color:var(--ink);background:var(--cream);outline:none;transition:border-color .2s}
+.filter-search:focus{border-color:var(--gold)}
+.filter-pills{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}
+.filter-label{font-family:'IBM Plex Mono',monospace;font-size:.65rem;color:var(--warmGray);letter-spacing:.1em;text-transform:uppercase;margin-right:.2rem}
+.pill{font-family:'IBM Plex Mono',monospace;font-size:.68rem;padding:.25rem .75rem;border-radius:2px;border:1px solid var(--lightSepia);background:transparent;color:var(--warmGray);cursor:pointer;letter-spacing:.06em;transition:all .15s}
+.pill:hover{color:var(--bordeaux);border-color:var(--bordeaux)}
+.pill.active{background:var(--bordeaux);color:var(--cream);border-color:var(--bordeaux)}
+.pill.regime-mil.active{background:var(--bordeaux);border-color:var(--bordeaux)}
+.pill.regime-nor.active{background:var(--sepia);border-color:var(--sepia)}
+.pill.regime-fun.active{background:var(--navy);border-color:var(--navy)}
+.filter-count{font-family:'IBM Plex Mono',monospace;font-size:.7rem;color:var(--warmGray);margin-left:auto;white-space:nowrap}
+.no-results{text-align:center;padding:3rem 1rem;color:var(--warmGray);font-style:italic;font-size:.9rem;display:none}
+@media(max-width:600px){.stats{gap:1rem}.card{padding:1rem}.header h1{font-size:1.3rem}.filter-bar{top:44px}}
 </style>
 </head>
 <body>
@@ -130,8 +154,28 @@ a{color:var(--bordeaux)}
   <a href="#zwischenraume">Zwischenraume</a>
   <a href="#teoria">Teoria</a>
 </nav>
+<div class="filter-bar" id="filter-bar">
+  <div class="filter-bar-inner">
+    <input class="filter-search" id="scout-search" type="search" placeholder="Buscar por título, país, suporte, justificativa…" oninput="applyFilters()" autocomplete="off"/>
+    <div class="filter-pills">
+      <span class="filter-label">Regime</span>
+      <button class="pill active" onclick="setRegime(this,'ALL')">Todos</button>
+      <button class="pill regime-mil" onclick="setRegime(this,'MILITAR')">Militar</button>
+      <button class="pill regime-nor" onclick="setRegime(this,'NORMATIVO')">Normativo</button>
+      <button class="pill regime-fun" onclick="setRegime(this,'FUNDACIONAL')">Fundacional</button>
+      <span class="filter-label" style="margin-left:.6rem">País</span>
+      ${(()=>{
+  const FLAGS={"FR":"🇫🇷 FR","DE":"🇩🇪 DE","BE":"🇧🇪 BE","BR":"🇧🇷 BR","US":"🇺🇸 US","UK":"🇬🇧 UK"};
+  const codes=[...new Set(d.candidates.map(c=>(c.pais||"").replace(/[\[\]]/g,"").trim()).filter(Boolean))].sort();
+  return codes.map(p=>`<button class="pill" onclick="setPais(this,'${p}')">${FLAGS[p]||p}</button>`).join("");
+})()}
+      <span class="filter-count" id="filter-count">${d.total_candidates} candidatos</span>
+    </div>
+  </div>
+</div>
 <div class="container">
-  <div class="section-title" id="candidatos">Candidatos ao Corpus (${d.total_candidates})</div>
+  <div class="section-title" id="candidatos">Candidatos ao Corpus (<span id="candidate-count">${d.total_candidates}</span>)</div>
+  <div id="no-results" class="no-results">Nenhum candidato corresponde a estes filtros.</div>
   ${d.candidates.map(renderCard).join("")}
   <div class="section-title" id="zwischenraume">Zwischenraume — Paineis Comparativos (${d.total_zwischenraume})</div>
   ${d.zwischenraume.map(renderZW).join("")}
@@ -142,6 +186,46 @@ a{color:var(--bordeaux)}
   CORPUS SCOUT · PPGD/UFSC · ${d.session}<br>
   ${d.total_candidates} candidatos · ${d.total_zwischenraume} painéis · ${d.theoretical_contributions.length} conceitos
 </div>
+<script>
+(function(){
+  var activeRegime = 'ALL';
+  var activePais = 'ALL';
+  window.setRegime = function(el, regime){
+    activeRegime = regime;
+    document.querySelectorAll('.filter-pills .pill[onclick^="setRegime"]').forEach(function(p){ p.classList.remove('active'); });
+    el.classList.add('active');
+    applyFilters();
+  };
+  window.setPais = function(el, pais){
+    if(activePais === pais){ activePais = 'ALL'; el.classList.remove('active'); }
+    else {
+      document.querySelectorAll('.filter-pills .pill[onclick^="setPais"]').forEach(function(p){ p.classList.remove('active'); });
+      activePais = pais; el.classList.add('active');
+    }
+    applyFilters();
+  };
+  window.applyFilters = function(){
+    var q = (document.getElementById('scout-search').value || '').toLowerCase().trim();
+    var cards = document.querySelectorAll('#candidatos ~ .card');
+    var visible = 0;
+    cards.forEach(function(card){
+      var regime = (card.dataset.regime || '').toUpperCase();
+      var pais   = (card.dataset.pais || '').toLowerCase();
+      var text   = (card.dataset.text || '').toLowerCase();
+      var matchR = activeRegime === 'ALL' || regime === activeRegime;
+      var matchP = activePais === 'ALL' || pais.includes(activePais.toLowerCase());
+      var matchQ = !q || text.includes(q);
+      if(matchR && matchP && matchQ){ card.style.display = ''; visible++; }
+      else { card.style.display = 'none'; }
+    });
+    var noR = document.getElementById('no-results');
+    noR.style.display = visible === 0 ? 'block' : 'none';
+    var cnt = visible + ' candidato' + (visible !== 1 ? 's' : '');
+    document.getElementById('filter-count').textContent = cnt;
+    document.getElementById('candidate-count').textContent = visible;
+  };
+})();
+</script>
 </body>
 </html>`;
 }
