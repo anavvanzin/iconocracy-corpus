@@ -1,15 +1,4 @@
 
-
- 
-
-Aqui está o guia curado — um mapeamento sistemático dos cinco acervos com foco nas alegorias femininas (*mulher por trás das alegorias*).
-
-***
-
-**Uma nota técnica importante antes de tudo:** nenhum dos cinco acervos pesquisados (Hemeroteca, Gallica, STF, Senado, Câmara) oferece um sistema automático de "download em massa com metadados" de imagens de alegorias femininas. O que existe são **portais de busca e acesso individual**, com regras distintas de uso. O relatório mapeia cada um em detalhe, mas vale adiantar o panorama:
-
-***
-
 ## O que cada acervo oferece
 
 **Hemeroteca Digital Brasileira** é a fonte mais rica para alegorias da República e da Liberdade na imprensa ilustrada brasileira. As alegorias femininas com barrete frígio de Angelo Agostini na *Revista Illustrada* (especialmente as imagens de 1889 sobre o Reconhecimento da República pela Argentina e pela França) e as caricaturas de *O Mosquito* com "A República e A Reforma" como "comadres" (1872) são o núcleo mais denso. Acesso livre e gratuito, busca por OCR; download página a página em PDF.[^1][^2][^3][^4]
