@@ -1,6 +1,6 @@
 {
   "livePreview": true,
-  "strictLineBreaks": false,
+  "strictLineBreaks": true,
   "showFrontmatter": true,
   "foldHeading": true,
   "foldIndent": true,
@@ -8,7 +8,10 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newLinkFormat": "shortest",
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "attachmentFolderPath": "assets",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "trashOption": "local",
+  "uriCallbacks": true
 }

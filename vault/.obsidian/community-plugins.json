@@ -17,5 +17,13 @@
   "obsidian-book-search-plugin",
   "calendar",
   "obsidian-pandoc",
-  "terminal"
+  "terminal",
+  "quickadd",
+  "editing-toolbar",
+  "make-md",
+  "table-editor-obsidian",
+  "obsidian-enhancing-mindmap",
+  "obsidian-citation-plugin",
+  "github-sync",
+  "obsidian-style-settings"
 ]
