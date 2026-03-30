@@ -2,8 +2,8 @@
   "session": "2026-03-28 / 2026-03-29",
   "title": "CORPUS SCOUT — Campanhas de Pesquisa Iconografica",
   "thesis": "ICONOCRACY: Alegoria Feminina na Historia da Cultura Juridica (Sec. XIX-XX)",
-  "total_candidates": 21,
-  "total_zwischenraume": 8,
+  "total_candidates": 23,
+  "total_zwischenraume": 11,
   "candidates": [
     {
       "id": "SCOUT-029a",
@@ -231,6 +231,15 @@
       "justificativa": "A combinacao de trigo (agricultura) e roda (transporte ferroviario/industria) encarna o programa colonial de \"mise en valeur\" -- a valorizacao economica do territorio. A mulher europeia e o vetor alegorico desse programa. A estrela congolesa radiante inscreve a soberania estatal colonial."
     },
     {
+      "id": "SCOUT-092",
+      "tipo": "corpus-candidato",
+      "titulo": "Japanese Trade Dollar — Samurai sem alegoria feminina (controle negativo)",
+      "pais": "JP",
+      "suporte": "moeda",
+      "regime": "MILITAR",
+      "endurecimento": "** N/A — AUSENCIA. Nao ha corpo feminino para endurecer. O conceito de ENDURECIMENTO e INAPLICAVEL onde nao ha alegoria feminina. Esta inaplicabilidade nao e falha analitica: e o DADO CENTRAL. O Japanese Trade Dollar demonstra que a heraldizacao completa (dragao + crisantemo) e uma alternativa DIRETA ao modelo de ENDURECIMENTO ocidental — mas e uma alternativa que NAO PASSA pelo corpo feminino. Classificacao identica ao Mexican Dollar (SCOUT-038): heraldizacao pura desde o inicio, sem processo de ENDURECIMENTO progressivo porque nao ha corpo de partida."
+    },
+    {
       "id": "SCOUT-086",
       "tipo": "corpus-candidato",
       "titulo": "Selo Postal Marianne de Gandon — Pierre Gandon / Henri Cortot (Liberation)",
@@ -306,6 +315,21 @@
       "justificativa": "Primeira Marianne monetaria do seculo XXI e da era europeia. Desenhada por Fabienne Courtiade, gravadora da Monnaie de Paris. Representa uma \"Marianne jovem e feminina, com tracos energicos que encarnam o desejo de uma Europa solida e duradoura.\" Circula nas moedas de 1, 2 e 5 centimos de euro (valo"
     },
     {
+      "id": "SCOUT-093",
+      "tipo": "corpus-candidato",
+      "titulo": "Seahorse Definitives — Britannia in Sea Chariot (Mackennal, 1913)",
+      "pais": "UK",
+      "data_estimada": "1913-1934",
+      "suporte": "selo postal",
+      "motivo_alegorico": "Britannia",
+      "regime": "MILITAR",
+      "confianca": "alto",
+      "url": "https://www.postalmuseum.org/collections/highlights/philatelic-collection/british-stamps/george-v-stamps/george-v-definitives/seahorse-high-values/",
+      "acervo": "The Postal Museum, London / Stanley Gibbons / Colnect",
+      "endurecimento": "** SIM — GRAU MAXIMO no suporte selo postal britanico",
+      "justificativa": "Britannia aparece em postura DINAMICA e BELICA: conduzindo uma biga (chariot) puxada por tres cavalos marinhos (\"seahorses\") atraves de mares tempestuosos. Ela empunha tridente na mao direita e carrega escudo com Union Jack. Trata-se da Britannia em ACAO DE DOMINIO: nao a soberana entronada e passiv"
+    },
+    {
       "id": "SCOUT-091",
       "tipo": "corpus-candidato",
       "titulo": "1 Trade Dollar -- Seated Liberty (US Trade Dollar)",
@@ -344,6 +368,13 @@
       "periodo": "1880-1912"
     },
     {
+      "id": "SCOUT-ZW-17",
+      "tipo": "corpus-zwischenraum",
+      "titulo": "Painel VI — ANATOMIA DA FEMINIZACAO IMPERIAL (quadripolar expandido): Mexican Dollar x US Trade Dollar x Japanese Trade Dollar x French Piastre",
+      "pais": "[MX, US, JP, FR]",
+      "periodo": "1824-1897"
+    },
+    {
       "id": "SCOUT-ZW-15",
       "tipo": "corpus-zwischenraum",
       "titulo": "Painel XV — FIM DO ANTI-ENDURECIMENTO POSTAL: Semeuse 1903 x Cheffer 1967",
@@ -365,6 +396,13 @@
       "periodo": "1903-1960"
     },
     {
+      "id": "SCOUT-ZW-18",
+      "tipo": "corpus-zwischenraum",
+      "titulo": "Painel 18 — ENDURECIMENTO TRANSATLANTICO: Britannia em Biga (UK, 1913) x Semeuse em Campo (FR, 1903)",
+      "pais": "[UK, FR]",
+      "periodo": "1903-1913"
+    },
+    {
       "id": "SCOUT-ZW-16",
       "tipo": "corpus-zwischenraum",
       "titulo": "Painel VI (quadripolar) -- ANATOMIA DA FEMINIZACAO IMPERIAL: Mexican Dollar (sem alegoria) x US Trade Dollar (Liberty sentada) x Piastre de Commerce (Marianne sentada) x British Trade Dollar (Britannia de pe)",
@@ -377,6 +415,12 @@
       "titulo": "Painel VII -- PRESENCA/AUSENCIA: La Belgique constitucional (1880) x Brasao heraldico sem alegoria (1866-1909)",
       "pais": "[BE]",
       "periodo": "1866-1909"
+    },
+    {
+      "tipo": "corpus-zwischenraum",
+      "id": "SCOUT-ZW-05",
+      "titulo": "Expulsao da Alegoria Europeia: Navigation et Commerce → Grasset → Femmes indochinoises",
+      "periodo": "1892-1907"
     }
   ],
   "theoretical_contributions": [
@@ -411,6 +455,18 @@
     {
       "name": "Gradiente de transparencia da violencia imperial",
       "desc": "Olive branch (US) -> fasces (FR) -> trident (UK). Three levels of honesty about what the female body sanctions."
+    },
+    {
+      "name": "Ausencia pre-modelo vs. pos-modelo",
+      "desc": "Two types of absent female allegory: Mexico (1824, pre-model — did not know the European pattern) vs. Japan (1875, post-model — knew and consciously rejected). Japan copied metal, weight, fineness and English inscriptions but rejected the female body. Strongest cultural delimitation argument."
+    },
+    {
+      "name": "ENDURECIMENTO sinconico e comparativo",
+      "desc": "ENDURECIMENTO is not only diachronic: UK militarizes by addition (Britannia armed, seahorse chariot), France pastoralaizes by subtraction (Semeuse removes political attributes) — two synchronic modes of neutralizing the female allegorical body (1903-1913)."
+    },
+    {
+      "name": "Numen mixtum",
+      "desc": "Deliberate iconographic fusion of two deities into a single normalized legal type (Themis + Minerva in Belgian court sculpture, documented by Huygebaert 2019). Maps onto purification indicators uniformizacao_facial and apagamento_narrativo."
     }
   ]
 }

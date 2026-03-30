@@ -123,6 +123,9 @@ data = {
         {"name": "Principio da redundancia", "desc": "Where the courthouse exists in stone, Justitia vanishes from money (Notgeld tribunal cities)."},
         {"name": "Indigenizacao", "desc": "Colonial alternative to ENDURECIMENTO: replace European allegorical body with racialized indigenous body (French colonial stamps)."},
         {"name": "Gradiente de transparencia da violencia imperial", "desc": "Olive branch (US) -> fasces (FR) -> trident (UK). Three levels of honesty about what the female body sanctions."},
+        {"name": "Ausencia pre-modelo vs. pos-modelo", "desc": "Two types of absent female allegory: Mexico (1824, pre-model — did not know the European pattern) vs. Japan (1875, post-model — knew and consciously rejected). Japan copied metal, weight, fineness and English inscriptions but rejected the female body. Strongest cultural delimitation argument."},
+        {"name": "ENDURECIMENTO sinconico e comparativo", "desc": "ENDURECIMENTO is not only diachronic: UK militarizes by addition (Britannia armed, seahorse chariot), France pastoralaizes by subtraction (Semeuse removes political attributes) — two synchronic modes of neutralizing the female allegorical body (1903-1913)."},
+        {"name": "Numen mixtum", "desc": "Deliberate iconographic fusion of two deities into a single normalized legal type (Themis + Minerva in Belgian court sculpture, documented by Huygebaert 2019). Maps onto purification indicators uniformizacao_facial and apagamento_narrativo."},
     ]
 }
 
