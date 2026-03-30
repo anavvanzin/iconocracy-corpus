@@ -268,6 +268,8 @@ function App(){
   const [showNew,setShowNew]=useState(false);
   const [loaded,setLoaded]=useState(false);
   const [scoutData,setScoutData]=useState(null);
+  const [dSearch,setDSearch]=useState("");
+  const [dTypeFilter,setDTypeFilter]=useState("all");
 
   useEffect(()=>{
     loadDiary().then(d=>{setDiary(d);setLoaded(true);});
@@ -289,6 +291,12 @@ function App(){
   const cod=COUNTRIES.reduce((s,c)=>s+c.coded,0);
   const chAvg=Math.round(CHAPTERS.reduce((s,c)=>s+c.pct,0)/CHAPTERS.length);
   const cats=["all",...new Set(PROMPTS.map(p=>p.cat))];
+  const diaryTypes=["all",...new Set(diary.map(e=>e.type).filter(Boolean))];
+  const filteredDiary=diary.filter(e=>{
+    const matchSearch=!dSearch||[e.title,e.text,...(e.tags||[]),...(e.concepts||[])].join(" ").toLowerCase().includes(dSearch.toLowerCase());
+    const matchType=dTypeFilter==="all"||(e.type||"")=== dTypeFilter;
+    return matchSearch&&matchType;
+  });
 
   return <div style={{minHeight:"100vh",display:"flex",flexDirection:"column"}}>
     {/* HEADER */}
@@ -385,10 +393,41 @@ function App(){
       {/* CORPUS */}
       {tab==="corpus"&&<div>
         <h2 style={{fontSize:20,fontWeight:700,margin:"0 0 16px"}}>Corpus Iconográfico</h2>
+        {/* summary strip */}
+        <div style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:10,marginBottom:16}}>
+          {[{l:"Itens levantados",v:tot,t:300,c:"var(--sepia)"},{l:"Codificados",v:cod,t:tot,c:"var(--bordeaux)"},{l:"Taxa de codificação",v:`${Math.round(cod/tot*100)}%`,t:null,c:"var(--navy)"}].map((m,i)=><div key={i} style={{background:"var(--cream)",border:"1px solid var(--lightSepia)",borderRadius:8,padding:"12px 14px",textAlign:"center"}}>
+            <div style={{fontSize:22,fontWeight:700,color:m.c}}>{m.v}</div>
+            <div className="mono" style={{fontSize:9,color:"var(--warmGray)",letterSpacing:1,marginTop:4}}>{m.l}</div>
+            {m.t&&<div style={{height:4,background:"rgba(212,197,169,.3)",borderRadius:2,marginTop:8,overflow:"hidden"}}><div style={{height:"100%",width:`${Math.min((typeof m.v==="number"?m.v:cod)/m.t*100,100)}%`,background:m.c,borderRadius:2}}/></div>}
+          </div>)}
+        </div>
+        {/* por país */}
         <div style={{background:"var(--cream)",border:"1px solid var(--lightSepia)",borderRadius:8,padding:18,marginBottom:16}}>
-          <div className="mono" style={{fontSize:10,color:"var(--warmGray)",letterSpacing:2,marginBottom:12}}>POR PAÍS</div>
+          <div className="mono" style={{fontSize:10,color:"var(--warmGray)",letterSpacing:2,marginBottom:12}}>POR PAÍS — itens codificados / levantados</div>
           {COUNTRIES.map(c=><Bar key={c.code} label={`${c.flag} ${c.name}`} current={c.coded} total={c.items}/>)}
         </div>
+        {/* por painel do atlas */}
+        <div style={{background:"var(--cream)",border:"1px solid var(--lightSepia)",borderRadius:8,padding:18,marginBottom:16}}>
+          <div className="mono" style={{fontSize:10,color:"var(--warmGray)",letterSpacing:2,marginBottom:12}}>POR PAINEL DO ATLAS — slots a preencher</div>
+          {ATLAS.map(panel=>{
+            const slotTarget=panel.slots;
+            const scoutCount=scoutData?(scoutData.candidates||[]).filter(c=>(panel.countries||[]).some(pc=>(c.pais||"").includes(pc))).length:0;
+            const filled=Math.min(scoutCount,slotTarget);
+            const colors=["var(--bordeaux)","var(--gold)","var(--navy)","var(--sepia)","var(--rust)","var(--bordeaux)","var(--navy)","var(--gold)"];
+            return <Bar key={panel.n} label={`${panel.icon} ${panel.n}. ${panel.name}`} current={filled} total={slotTarget} color={colors[(panel.n-1)%colors.length]}/>;
+          })}
+          <div className="mono" style={{fontSize:10,color:"var(--faded)",marginTop:10,fontStyle:"italic"}}>Contagem baseada em candidatos do Scout por países do painel. Meta = slots do Atlas.</div>
+        </div>
+        {/* por regime (se dados do scout disponíveis) */}
+        {scoutData&&<div style={{background:"var(--cream)",border:"1px solid var(--lightSepia)",borderRadius:8,padding:18}}>
+          <div className="mono" style={{fontSize:10,color:"var(--warmGray)",letterSpacing:2,marginBottom:12}}>POR REGIME ICONOCRÁTICO</div>
+          {["MILITAR","NORMATIVO","FUNDACIONAL"].map((regime,i)=>{
+            const count=(scoutData.candidates||[]).filter(c=>(c.regime||"").toUpperCase()===regime).length;
+            const total=scoutData.total_candidates||1;
+            const cols=["var(--bordeaux)","var(--sepia)","var(--navy)"];
+            return <Bar key={regime} label={regime} current={count} total={total} color={cols[i]}/>;
+          })}
+        </div>}
       </div>}
 
       {/* MINI-ATLAS */}
@@ -423,7 +462,7 @@ function App(){
 
       {/* DIARY */}
       {tab==="diary"&&<div>
-        <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:16,flexWrap:"wrap",gap:10}}>
+        <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:14,flexWrap:"wrap",gap:10}}>
           <div>
             <h2 style={{fontSize:20,fontWeight:700,margin:0}}>Diário de Campo</h2>
             <p style={{fontSize:13,color:"var(--sepia)",margin:"4px 0 0",fontStyle:"italic"}}>Insights, hipóteses, conexões — exportável para Obsidian</p>
@@ -434,6 +473,18 @@ function App(){
               {showNew?"✕ fechar":"✎ Nova entrada"}</button>
           </div>
         </div>
+        {diary.length>0&&<div style={{marginBottom:14}}>
+          <input value={dSearch} onChange={e=>setDSearch(e.target.value)} placeholder="Buscar por palavra, tag ou conceito…"
+            style={{width:"100%",boxSizing:"border-box",padding:"8px 12px",border:"1px solid var(--lightSepia)",borderRadius:4,
+              fontSize:13,background:"var(--cream)",color:"var(--ink)",outline:"none",fontFamily:"'Cormorant Garamond',Georgia,serif",marginBottom:8}}/>
+          <div style={{display:"flex",gap:4,flexWrap:"wrap"}}>
+            {diaryTypes.map(t=><button key={t} onClick={()=>setDTypeFilter(t)} className="mono" style={{
+              fontSize:10,padding:"3px 10px",borderRadius:14,
+              background:dTypeFilter===t?"var(--navy)":"transparent",
+              color:dTypeFilter===t?"var(--cream)":"var(--warmGray)",
+              border:`1px solid ${dTypeFilter===t?"var(--navy)":"var(--lightSepia)"}`}}>{t==="all"?"todas":t}</button>)}
+          </div>
+        </div>}
         {showNew&&<NewEntryForm onSave={saveEntry} onCancel={()=>setShowNew(false)}/>}
         {!loaded?<div style={{textAlign:"center",padding:40,color:"var(--warmGray)"}} className="mono">carregando…</div>
         :diary.length===0&&!showNew?<div style={{textAlign:"center",padding:40,background:"var(--cream)",borderRadius:8,border:"1px dashed var(--lightSepia)"}}>
@@ -442,7 +493,11 @@ function App(){
           <div style={{fontSize:13,color:"var(--sepia)",fontStyle:"italic"}}>Comece registrando um insight, uma hipótese, uma conexão inesperada…</div>
           <div style={{fontSize:12,color:"var(--warmGray)",marginTop:12}}>Cada entrada gera nota Obsidian com frontmatter, tags e [[wikilinks]].</div>
         </div>
-        :diary.map(e=><DiaryEntry key={e.id} entry={e} onDelete={delEntry}/>)}
+        :filteredDiary.length===0?<div style={{textAlign:"center",padding:30,background:"var(--cream)",borderRadius:8,border:"1px dashed var(--lightSepia)"}}>
+          <div className="mono" style={{fontSize:12,color:"var(--warmGray)"}}>Nenhuma entrada encontrada para "{dSearch || dTypeFilter}"</div>
+        </div>
+        :filteredDiary.map(e=><DiaryEntry key={e.id} entry={e} onDelete={delEntry}/>)}
+        {filteredDiary.length>0&&(dSearch||dTypeFilter!=="all")&&<div className="mono" style={{fontSize:11,color:"var(--warmGray)",textAlign:"center",marginTop:8}}>{filteredDiary.length} de {diary.length} entradas</div>}
       </div>}
 
       {/* CHAPTERS */}
