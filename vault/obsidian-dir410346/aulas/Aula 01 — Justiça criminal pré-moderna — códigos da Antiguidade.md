@@ -19,11 +19,9 @@ created: 2026-03-29
 
 O que significa, metodologicamente, falar de "direito" e "crime" na Antiguidade? A aula abre o curso com uma dupla provocação: (1) uma crítica epistemológica à forma como os juristas brasileiros narram a história do direito penal, e (2) uma demonstração concreta de que é possível trabalhar com categorias jurídicas antigas sem colapsá-las nas modernas.
 
----
-
 ## Leituras
 
-### 1. [[OLIVEIRA — Não fale do Código de Hamurábi (2004)]]
+### *1. [[OLIVEIRA — Não fale do Código de Hamurábi (2004)]]*
 
 **Referência completa:**
 OLIVEIRA, Luciano. Não fale do código de Hamurábi! A pesquisa sociojurídica na pós-graduação em Direito. In: OLIVEIRA, Luciano. *Sua Excelência o Comissário e outros ensaios de Sociologia jurídica*. Rio de Janeiro: Letra Legal, 2004, pp. 137-167.
