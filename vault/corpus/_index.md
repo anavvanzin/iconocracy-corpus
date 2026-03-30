@@ -1,13 +1,13 @@
 ---
 tipo: "moc"
 tags: [corpus, moc]
-updated: 2026-03-29
+updated: 2026-03-30
 ---
 
 # Corpus Iconocracia — Mapa de Conteudo
 
-> Indice consolidado das notas SCOUT geradas nas campanhas de 28-29 mar. 2026.
-> 44 candidatos, 15 Zwischenraume, 11 sessoes, 7 paises.
+> Indice consolidado das notas SCOUT geradas nas campanhas de 28-30 mar. 2026.
+> 51 candidatos, 17 Zwischenraume, 14 sessoes, 9 paises.
 
 ## Candidatos por pais
 
@@ -77,6 +77,18 @@ updated: 2026-03-29
 |----|--------|------|---------|--------|
 | SCOUT-091 | US Trade Dollar — Seated Liberty (William Barber) | 1873-1885 | moeda | MILITAR |
 
+### Reino Unido (UK) — 1 candidato
+
+| ID | Titulo | Data | Suporte | Regime |
+|----|--------|------|---------|--------|
+| SCOUT-093 | Seahorse Definitives — Britannia in Sea Chariot (Mackennal) | 1913-1934 | selo | MILITAR |
+
+### Japao (JP) — 1 candidato (controle negativo)
+
+| ID | Titulo | Data | Suporte | Regime |
+|----|--------|------|---------|--------|
+| SCOUT-092 | Japanese Trade Dollar — ausencia de alegoria feminina (Boeki Gin) | 1875-1877 | moeda | MILITAR |
+
 ### Mexico (MX) — 1 candidato (controle negativo)
 
 | ID | Titulo | Data | Suporte | Regime |
@@ -88,6 +100,15 @@ updated: 2026-03-29
 | ID | Titulo | Data | Suporte | Regime |
 |----|--------|------|---------|--------|
 | SCOUT-039b | 1 Franc Congo Belga — Mulher com trigo e locomotiva | 1914-1920 | papel-moeda | NORMATIVO |
+
+### Belgica — candidatos Huygebaert (4, pendentes verificacao)
+
+| ID | Titulo | Data | Suporte | Regime |
+|----|--------|------|---------|--------|
+| SCOUT-094 | Ducaju — Themis colossal, Palais de Justice Bruxelas (portico) | 1883 | escultura | NORMATIVO |
+| SCOUT-095 | Van der Stappen — Minerva/Themis (numen mixtum) | 1886-1894 | escultura | NORMATIVO |
+| SCOUT-096 | Dillens — La Justice entre la Clemence et le Droit | 1894 | escultura | NORMATIVO |
+| SCOUT-097 | Concurso monumento constitucional de Bruxelas | 1849 | escultura | FUNDACIONAL |
 
 ---
 
@@ -109,6 +130,8 @@ updated: 2026-03-29
 | SCOUT-ZW-15a | Fim do Anti-ENDURECIMENTO Postal: Semeuse x Cheffer | FR 1903 vs. FR 1967 | 1903-1967 | marianne-post-1945 |
 | SCOUT-ZW-15b | Presenca vs. Ausencia: Justitia Torgau x Hammonia Hamburg | DE com vs. DE sem Justitia | 1921 | notgeld-tribunal |
 | SCOUT-ZW-16 | Anatomia da Feminizacao Imperial (quadripolar): MX → US → FR → UK | MX, US, FR, UK | 1824-1935 | us-trade-dollar |
+| SCOUT-ZW-17 | Anatomia da Feminizacao Imperial (pentapolar expandido): MX → US → JP → FR → UK | MX, US, JP, FR, UK | 1824-1935 | japanese-trade-dollar |
+| SCOUT-ZW-18 | ENDURECIMENTO TRANSATLANTICO: Britannia em Biga (UK, 1913) x Semeuse (FR, 1903) | UK vs. FR | 1903-1934 | uk-britannia-stamps |
 
 ---
 
@@ -122,8 +145,11 @@ updated: 2026-03-29
 | Captura transnacional | Inimigo captura e inverte sua alegoria (Goetz/Marianne) | Goetz K-299 |
 | Dissolucao heraldica | Terminus do ENDURECIMENTO: corpo feminino desaparece em residuo heraldico | BE 2 Francs |
 | Principio da redundancia | Onde o tribunal existe em pedra, Justitia desaparece da moeda | Notgeld tribunal |
-| Indigenizacao | Alternativa colonial ao ENDURECIMENTO: substituir corpo europeu por corpo racializado | Semeuse colonial |
+| Indigenizacao | Alternativa colonial ao ENDURECIMENTO: substituir corpo europeu por corpo racializado (moeda colonial → ENDURECIMENTO; selo colonial → INDIGENIZACAO) | Semeuse colonial |
 | Gradiente de violencia imperial | Ramo de oliveira (US) → fasces (FR) → tridente (UK) | Trade Dollars quadripolar |
+| Ausencia pre-modelo vs. pos-modelo | Dois tipos de ausencia de alegoria feminina: MX (nao conhecia o padrao europeu) vs. JP (conhecia e rejeitou conscientemente — argumento de delimitacao cultural) | Japanese Trade Dollar |
+| ENDURECIMENTO sinconico e comparativo | O ENDURECIMENTO nao e apenas diacronico: UK militariza por adicao, FR pastoriza por subtracao — dois modos de neutralizacao sincronicos (1903-1913) | ZW-18 Britannia x Semeuse |
+| Numen mixtum | Fusao deliberada de duas divindades em tipo unico normalizado (Themis + Minerva); mapeia nos indicadores uniformizacao_facial + apagamento_narrativo | Huygebaert / BE Palais de Justice |
 
 ---
 
@@ -145,6 +171,10 @@ updated: 2026-03-29
 | 2026-03-29 | Semeuse colonial (Indochina, AOF, Argelia) | FR | semeuse-colonial |
 | 2026-03-29 | BR moedas e selos Republica Velha | BR | br-coins-stamps |
 | 2026-03-29 | Verificacao de URLs | — | url-verification |
+| 2026-03-30 | Zwischenraum expulsao alegoria Indochina (tripolar) | FR | zwischenraum-indochina-expulsion |
+| 2026-03-30 | Japanese Trade Dollar (controle negativo + ZW pentapolar) | JP | japanese-trade-dollar |
+| 2026-03-30 | Huygebaert — Visual Ideals of Law & Justice (Ghent 2019) | BE | huygebaert-thesis-notes |
+| 2026-03-30 | UK Britannia — Seahorse Definitives (Mackennal 1913) | UK | uk-britannia-stamps |
 
 ---
 
