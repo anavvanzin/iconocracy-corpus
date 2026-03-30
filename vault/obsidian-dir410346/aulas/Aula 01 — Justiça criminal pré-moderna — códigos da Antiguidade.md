@@ -126,3 +126,4 @@ A tensão produtiva entre ambos: se toda periodização é, em alguma medida, pr
 	* Lacunas na história do Direito (no Brasil). 
 	* Questão do eurocentrismo
 		* A história se repete? A questão de farsa/tragédia- os fatos não ocorrem 2 vezes. 
+		* 
