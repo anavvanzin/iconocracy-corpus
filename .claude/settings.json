@@ -9,6 +9,28 @@
           }
         ]
       }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if echo \"$CLAUDE_FILE_PATH\" | grep -q 'vault/candidatos/SCOUT-'; then echo '📝 Vault note saved: '\"$(basename $CLAUDE_FILE_PATH)\"; fi",
+            "statusMessage": "Tracking vault writes..."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if echo \"$CLAUDE_FILE_PATH\" | grep -q 'corpus/corpus-data.json'; then echo '⚠️  corpus-data.json modified — run sync hf to update HF dataset and python tools/scripts/sync_companion.py to update companion'; fi",
+            "statusMessage": "Checking corpus sync..."
+          }
+        ]
+      }
     ]
   }
 }
