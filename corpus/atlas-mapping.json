@@ -146,6 +146,23 @@
     "file": "SCOUT-ZW-08 UK Longitudinal Britannia 1695-1935.md"
   },
   {
+    "zw_id": "SCOUT-ZW-09",
+    "zw_title": "Painel IX — BRANQUITUDE COLONIAL: Cédulas Congo Belge x Monumento Cinquantenaire",
+    "atlas_panels": [
+      7
+    ],
+    "atlas_names": [
+      "Branquitude"
+    ],
+    "scores": {
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 4
+    },
+    "file": "SCOUT-ZW-09 BE Colonial Branquitude banknotes x monument.md"
+  },
+  {
     "zw_id": "SCOUT-ZW-19",
     "zw_title": "Painel XIX — O CORPO-EDIFÍCIO: Cariátides Paris (1868) × Têmis Brasília (1961)",
     "atlas_panels": [
