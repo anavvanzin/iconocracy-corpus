@@ -56,7 +56,7 @@ ENDURECIMENTO is measured through ten ordinal indicators, each scored on a scale
 9. **Seriality** — mass reproduction (unique → edition → industrial).
 10. **State inscription** — state text or symbols inscribed on or around the body.
 
-The ENDURECIMENTO score is the mean of the ten indicators (0.0–4.0). But the score is a summary, never a substitute for the individual indicators. As this article demonstrates, the relationship between indicators is non-linear: a low overall score can coexist with a fatal deficit in a single indicator — dessexualization — producing rejection, while a higher overall score with adequate dessexualization produces survival.
+The ENDURECIMENTO score is the mean of the ten indicators (0.0–4.0). For qualitative reference: scores below 1.0 are classified as LOW, 1.0–2.0 as MEDIUM-LOW, 2.0–2.5 as MEDIUM, 2.5–3.0 as MEDIUM-HIGH, and above 3.0 as HIGH. But the score is a summary, never a substitute for the individual indicators. As this article demonstrates, the relationship between indicators is non-linear: a low overall score can coexist with a fatal deficit in a single indicator — dessexualization — producing rejection, while a higher overall score with adequate dessexualization produces survival.
 
 ### 2.4. Three Iconocratic Regimes
 
@@ -208,10 +208,10 @@ The remarkable feature of the Brazilian effigy is its morphological *stasis*. Fr
 |------|------|---------|-------|--------|
 | 500 Réis | 1889 | Coin | MEDIUM | FOUNDATIONAL |
 | 2000 Réis | 1906 | Coin | MEDIUM | NORMATIVE |
-| 50 Cruzeiros | 1965 | Coin | HIGH | NORMATIVE |
+| 50 Cruzeiros | 1965 | Coin | MEDIUM-HIGH | NORMATIVE |
 | 1 Cruzeiro note | 1970 | Banknote | MEDIUM-HIGH | NORMATIVE |
 
-The allegory was born NORMATIVE. Even in its foundational moment — the proclamation of the Republic — the effigy was already bureaucratic: a profile bust, a laurel crown, a circular inscription. There was no Brazilian Delacroix, no allegorical woman on the barricades, no bare-breasted Liberty leading the people. The positivist ideology that dominated the early Republic — *Ordem e Progresso* inscribed on the flag — demanded an allegory that was orderly from the start.[^18]
+The trajectory shows a slight upward drift from MEDIUM toward MEDIUM-HIGH in the military period (1964–1985), but the allegory never reaches the HIGH plateau of Britannia or Germania. Even in its foundational moment — the proclamation of the Republic — the effigy was already bureaucratic: a profile bust, a laurel crown, a circular inscription. There was no Brazilian Delacroix, no allegorical woman on the barricades, no bare-breasted Liberty leading the people. The positivist ideology that dominated the early Republic — *Ordem e Progresso* inscribed on the flag — demanded an allegory that was orderly from the start.[^18]
 
 This is the positivist freeze: an ENDURECIMENTO that stabilizes at MEDIUM without ever passing through the FOUNDATIONAL phase of bodily exposure and dynamism. The French trajectory moves from FOUNDATIONAL (Marianne on the barricades, 1789) through a phase of dessexualization (Semeuse, 1898) to NORMATIVE stability. The Brazilian trajectory *skips* the foundational phase entirely, arriving directly at NORMATIVE-MEDIUM and remaining there for a century.
 
@@ -262,7 +262,7 @@ The five national trajectories examined in this article yield a typology:
 | **France** | Dynamic dessexualization | Resolved (Semeuse) | MEDIUM stable | Survival | 120+ years |
 | **Germany** | Maximum rigidity, no reform | Never needed / never possible | HIGH → ABSENT | Abandonment | 22 years |
 | **United States** | No dessexualization | Failed (Educational) | LOW | Rejection | 3 years |
-| **United Kingdom** | Born hardened | Never sexualized | HIGH fixed | Inertia | 270+ years |
+| **United Kingdom** | Born hardened | Never sexualized | HIGH fixed | Inertia | 350+ years |
 | **Brazil** | Positivist import | Born dessexualized | MEDIUM fixed | Frozen persistence | 130+ years |
 
 Three findings emerge:
@@ -321,7 +321,7 @@ The dessexualization threshold is, ultimately, a measure of what a society is wi
 
 [^15]: On Notgeld as art and political commentary, see Christina Vetter, "Making Money: Notgeld and the Material Experience of Inflation in Weimar Germany," *Art History* 42, no. 4 (2019): 678–703. The Bielefeld silk Notgeld (25 Mark, 15 July 1921) was designed by Karl Muggly for the city's 700th anniversary. Specimens are held at the British Museum and the University of Chicago Special Collections.
 
-[^16]: The halfpenny of William III (1695–1698), first copper coin with Britannia: see George C. Brooke, *English Coins from the Seventh Century to the Present Day*, 3rd ed. (London: Methuen, 1932).
+[^16]: Britannia first appeared on English coins in 1672, on the copper halfpenny and farthing of Charles II. The model was Frances Teresa Stuart, Duchess of Richmond. See Philip Attwood, "Postures of Britannia," in *Symbols of Power: Ten Coins that Changed the World*, ed. Thomas Hockenhull (London: British Museum Press, 2015); George C. Brooke, *English Coins from the Seventh Century to the Present Day*, 3rd ed. (London: Methuen, 1932).
 
 [^17]: On the first republican coinage of Brazil, see Kurt Prober, *Catálogo das moedas brasileiras* (Rio de Janeiro: Prober, 1966); Cláudio Amato, Irlei Neves, and Júlio Schütz, *Livro das moedas do Brasil* (São Paulo: Stampworld, 2020).
 
