@@ -11,6 +11,8 @@ Usage:
     python tools/scripts/iconocode_to_corpus.py --write    # write changes
 """
 
+from __future__ import annotations
+
 import json
 import re
 import sys

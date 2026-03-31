@@ -11,6 +11,8 @@ Usage:
     python tools/scripts/atlas_mapping.py
 """
 
+from __future__ import annotations
+
 import json
 import re
 from pathlib import Path
