@@ -2,12 +2,16 @@
 """
 Sync companion app data from corpus-data.json and vault ZW panels.
 
-Reads the canonical corpus and vault, generates updated JS data for
+Reads the canonical corpus and vault, generates updated data for
 the iconocracia-companion dashboard.
 
 Usage:
-    python tools/scripts/sync_companion.py [--output path/to/companion-data.js]
+    python tools/scripts/sync_companion.py                          # print JSON
+    python tools/scripts/sync_companion.py --output data.json       # save to file
+    python tools/scripts/sync_companion.py --push URL               # PUT to companion API
 """
+
+from __future__ import annotations
 
 import json
 import re
@@ -117,17 +121,70 @@ def generate_companion_data(items):
     return data
 
 
+def push_to_companion(base_url, corpus_data, atlas_data=None):
+    """Push data to companion API endpoints."""
+    try:
+        import urllib.request
+    except ImportError:
+        print("ERRO: urllib not available", file=sys.stderr)
+        return False
+
+    # Push corpus data
+    corpus_url = f"{base_url.rstrip('/')}/api/corpus"
+    req = urllib.request.Request(
+        corpus_url, method="PUT",
+        data=json.dumps(corpus_data).encode(),
+        headers={"Content-Type": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(req) as resp:
+            print(f"Corpus pushed: {resp.status}", file=sys.stderr)
+    except Exception as e:
+        print(f"Corpus push failed: {e}", file=sys.stderr)
+        return False
+
+    # Push atlas data if available
+    if atlas_data:
+        atlas_url = f"{base_url.rstrip('/')}/api/atlas"
+        req = urllib.request.Request(
+            atlas_url, method="PUT",
+            data=json.dumps(atlas_data).encode(),
+            headers={"Content-Type": "application/json"},
+        )
+        try:
+            with urllib.request.urlopen(req) as resp:
+                print(f"Atlas pushed: {resp.status}", file=sys.stderr)
+        except Exception as e:
+            print(f"Atlas push failed: {e}", file=sys.stderr)
+
+    return True
+
+
 def main():
-    output = Path(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[1] == "--output" else None
+    output = None
+    push_url = None
+
+    args = sys.argv[1:]
+    while args:
+        arg = args.pop(0)
+        if arg == "--output" and args:
+            output = Path(args.pop(0))
+        elif arg == "--push" and args:
+            push_url = args.pop(0)
 
     items = load_corpus()
     data = generate_companion_data(items)
-
     result = json.dumps(data, indent=2, ensure_ascii=False)
+
+    # Load atlas mapping if available
+    atlas_file = REPO / "corpus" / "atlas-mapping.json"
+    atlas_data = json.loads(atlas_file.read_text()) if atlas_file.exists() else None
 
     if output:
         output.write_text(result)
-        print(f"Written to {output}")
+        print(f"Written to {output}", file=sys.stderr)
+    elif push_url:
+        push_to_companion(push_url, data, atlas_data)
     else:
         print(result)
 

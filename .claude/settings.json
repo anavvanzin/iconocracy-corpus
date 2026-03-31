@@ -16,7 +16,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "if echo \"$CLAUDE_FILE_PATH\" | grep -q 'vault/candidatos/SCOUT-'; then echo '📝 Vault note saved: '\"$(basename $CLAUDE_FILE_PATH)\"; fi",
+            "command": "echo \"$CLAUDE_FILE_PATH\" | grep -q vault/candidatos/SCOUT- && echo \"Vault note saved: $(basename \"$CLAUDE_FILE_PATH\")\" || true",
             "statusMessage": "Tracking vault writes..."
           }
         ]
@@ -26,7 +26,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "if echo \"$CLAUDE_FILE_PATH\" | grep -q 'corpus/corpus-data.json'; then echo '⚠️  corpus-data.json modified — run sync hf to update HF dataset and python tools/scripts/sync_companion.py to update companion'; fi",
+            "command": "echo \"$CLAUDE_FILE_PATH\" | grep -q corpus/corpus-data.json && echo \"corpus-data.json modified -- run sync_companion.py to update companion\" || true",
             "statusMessage": "Checking corpus sync..."
           }
         ]
