@@ -3412,5 +3412,45 @@
     ],
     "url": null,
     "vault_note": "SCOUT-117"
+  },
+  {
+    "id": "DE-WR-1919-50M",
+    "title": "50 Mark Reichsbanknote — Germania as Young Girl (Weimar 1919)",
+    "date": "1919",
+    "period": "Weimar Republic (1919-1933)",
+    "creator": "Reichsdruckerei",
+    "institution": "Deutsche Reichsbank",
+    "source_archive": "Numizon",
+    "country": "Germany",
+    "medium": "Paper money (banknote, P.66)",
+    "motif": [
+      "Germania",
+      "Young girl",
+      "Oak leaves",
+      "Starry sky",
+      "Refoundation"
+    ],
+    "url": "https://www.numizon.com/en/banknote/germany-reichsbanknotes-50-mark-type-1919-pick-66/deu-p66/",
+    "vault_note": "SCOUT-118"
+  },
+  {
+    "id": "DE-WR-1924-50PF",
+    "title": "50 Reichspfennig — Woman Planting Oak Sapling (Weimar 1924)",
+    "date": "1924",
+    "period": "Weimar Republic (1919-1933)",
+    "creator": "Richard Martin Werner",
+    "institution": "Reichsbank",
+    "source_archive": "Numista",
+    "country": "Germany",
+    "medium": "Coin (aluminium-bronze, 23mm)",
+    "motif": [
+      "Anonymous woman",
+      "Oak sapling",
+      "Kneeling",
+      "Regeneration",
+      "Civic allegory"
+    ],
+    "url": "https://en.numista.com/catalogue/pieces2546.html",
+    "vault_note": "SCOUT-119"
   }
 ]

@@ -51,3 +51,12 @@ data_scout: 2026-03-30
 | Sharpe: "Allegories of Empire" | **Feminilidade de Estado** |
 | Apter: "scopic regimes" | **colonialidade do ver** |
 | Scott: "tiny transmitters" | **serialidade** (indicador de ENDURECIMENTO) |
+| Nielson (2016): "erotic attachment" | **Contrato Sexual Visual** |
+| Belgian Congo stamps (2025): "preferably male, vulnerable" | **iconometria** (quantitative content analysis model) |
+| Helmreich (2003): "domesticating Britannia" | **transição MILITAR → NORMATIVO** |
+| Designing the Nation (2011): "state effects" | **agência do gravador** (De Saulles, Barre) |
+
+### Lit Review Completa
+
+Ver: `tese/pesquisa/lit-review-ZW06-colonial-trade-coins-2026-03-31.md`
+14 fontes identificadas, 8 centrais para a tese. Buscas: Consensus (20 papers), Scholar Gateway (30 passagens).
