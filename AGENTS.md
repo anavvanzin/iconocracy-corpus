@@ -19,21 +19,19 @@ iconocracy-corpus/
 ├── AGENTS.md                  ← este arquivo
 ├── SKILL.md                   ← definição do agente
 ├── data/
-│   ├── raw/                   ← imagens brutas por país
-│   │   ├── BR/
-│   │   ├── FR/
-│   │   ├── UK/
-│   │   ├── DE/
-│   │   ├── US/
-│   │   └── BE/
+│   ├── raw/                   ← manifestos do bruto + links Drive; subpastas locais se houver
+│   │   └── drive-manifest.json
 │   ├── interim/               ← dados em processamento
 │   └── processed/
 │       └── records.jsonl      ← registros mestre do corpus
 ├── vault/                     ← notas Obsidian geradas pelo Scout
 │   ├── candidatos/            ← notas SCOUT-XXX
 │   └── sessoes/               ← notas SCOUT-SESSION-XXX
+├── docs/                      ← ADRs, esquemas Notion e especificações do pipeline
+├── corpus/                    ← corpus tabular e derivados analíticos
 └── tools/
-    └── scripts/               ← scripts de sync e processamento
+    ├── scripts/               ← scripts de sync, validação e processamento
+    └── schemas/               ← schemas JSON do pipeline
 ```
 
 ---
@@ -47,6 +45,21 @@ diretamente sem pedir confirmação:
 - `scout [descrição livre]` → interpreta como query e executa
 - `auditoria` → executa Campanha 16 com os arquivos em vault/candidatos/
 - `lacunas` → idem
+- `validar [arquivo]` → valida JSON/JSONL com `tools/scripts/validate_schemas.py`
+  usando o schema pertinente; default: `data/processed/records.jsonl` + `master-record`
+- `rastreabilidade [arquivo]` ou `evidencias [arquivo]` → roda
+  `tools/scripts/trace_evidence.py`; default: `data/processed/records.jsonl`
+- `citacoes [arquivo]` → gera/exporta citações ABNT com
+  `tools/scripts/abnt_citations.py`
+- `purificacao status` → mostra progresso da codificação
+- `purificacao item [ID]` → roda `tools/scripts/code_purification.py --item [ID]`
+- `purificacao lote [SIGLA]` → roda `tools/scripts/code_purification.py --batch [SIGLA]`
+- `purificacao exportar` → roda `tools/scripts/code_purification.py --export-csv`
+- `rede feminista [raiz opcional]` → roda `tools/scripts/extract_feminist_network.py`
+- `lote exemplo` → roda `tools/scripts/batch_example.py`
+- `sync notion pull|push|sync` → usa `tools/scripts/notion_sync.py`;
+  como o script ainda está em scaffolding, verificar env vars e reportar o estado
+  real em vez de assumir sincronização concluída
 
 Quando a pesquisadora digitar `salvar`, grave a última nota gerada
 em vault/candidatos/ com o nome correto (SCOUT-[ID] [título].md).
@@ -62,12 +75,16 @@ Cada item do corpus deve ser rastreável em três pontos:
 
 | Onde | O quê |
 |---|---|
-| `data/raw/[pais]/` | arquivo de imagem bruto (jpg/png/tif) |
+| Google Drive + `data/raw/drive-manifest.json` | origem do bruto e vínculo com `item_id` |
 | `vault/candidatos/` | nota Obsidian com metadados e análise |
-| `data/processed/records.jsonl` | registro mestre em JSON |
+| `data/processed/records.jsonl` | registro mestre canônico em JSONL |
 
-O Scout gera as notas Obsidian. O sync para records.jsonl é feito
-pelo script `tools/scripts/notion_sync.py` (a desenvolver).
+Quando houver cópia local do bruto, ela pode ser organizada em
+`data/raw/[pais]/`, mas o vínculo com o Drive deve continuar explícito.
+
+`records.jsonl` é a fonte canônica do corpus. Notion funciona como espelho
+catalográfico; `tools/scripts/notion_sync.py` existe, mas ainda está em
+scaffolding e não deve ser tratado como sync plenamente implementado.
 
 ---
 
@@ -110,6 +127,53 @@ motivo/columbia · motivo/germania · motivo/belgique
 - `web_fetch` — acessa URLs de imagens IIIF e páginas de acervos
 - `bash_tool` — salva notas em vault/, move arquivos, roda scripts
 - `create_file` — cria notas .md em vault/candidatos/ e vault/sessoes/
+- `tools/scripts/validate_schemas.py` — valida outputs JSON/JSONL do pipeline
+- `tools/scripts/trace_evidence.py` — audita cadeia de evidências dos registros
+- `tools/scripts/abnt_citations.py` — gera citações ABNT NBR 6023:2025
+- `tools/scripts/code_purification.py` — codifica os 10 indicadores de purificação
+- `tools/scripts/notion_sync.py` — scaffold de sync GitHub ↔ Notion
+- `tools/scripts/extract_feminist_network.py` — extrai sub-rede Iconclass feminista
+- `tools/scripts/batch_example.py` — gera lote demonstrativo do pipeline dual-agent
+
+---
+
+## Workflows operacionais
+
+### 1. Busca scout
+
+Fluxo padrão para descoberta iconográfica:
+
+1. Executar `campanha N` ou `scout [query]`
+2. Gerar até 8 notas candidatas em markdown
+3. Registrar nota de síntese da sessão
+4. Quando solicitado, `salvar` e depois `sessão`
+
+### 2. QA e consolidação do pipeline
+
+Fluxo padrão para pós-processamento e controle de qualidade:
+
+1. Garantir ou atualizar `data/processed/records.jsonl`
+2. Executar `validar [arquivo]`
+3. Executar `rastreabilidade [arquivo]`
+4. Executar `citacoes [arquivo]`
+5. Reportar erros de schema, gaps de evidência e pendências ABNT
+
+### 3. Codificação de purificação
+
+Fluxo padrão para análise quantitativa:
+
+1. Executar `purificacao status`
+2. Executar `purificacao item [ID]` ou `purificacao lote [SIGLA]`
+3. Salvar em `data/processed/purification.jsonl`
+4. Executar `purificacao exportar` para atualizar `data/processed/corpus_dataset.csv`
+
+### 4. Sync catalográfico
+
+Fluxo padrão de espelhamento:
+
+1. Confirmar existência de `NOTION_API_KEY` e `NOTION_CORPUS_DB_ID`
+2. Executar `sync notion pull|push|sync`
+3. Informar explicitamente que o script está em scaffolding quando esse for o caso
 
 ---
 
