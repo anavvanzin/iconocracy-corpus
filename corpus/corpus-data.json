@@ -3332,5 +3332,85 @@
     "period_norm": "Idade Média",
     "motif_str": "Justitia, alegoria da justiça, iconografia jurídica medieval, direito canônico, miniatura iluminada",
     "tags_str": "Justitia, direito canônico, manuscrito medieval, iluminura, iconografia jurídica, Graciano, miniatura, Bolonha, BnF, Gallica"
+  },
+  {
+    "id": "US-EDUC-1896-02",
+    "title": "Science Presenting Steam and Electricity to Commerce and Manufacture ($2 Silver Certificate)",
+    "date": "1896",
+    "period": "Gilded Age (1870-1900)",
+    "creator": "Edwin Howland Blashfield (artist), George F.C. Smillie (engraver)",
+    "institution": "Bureau of Engraving and Printing",
+    "source_archive": "Smithsonian National Museum of American History",
+    "country": "United States",
+    "medium": "Paper money (silver certificate)",
+    "motif": [
+      "Female allegory",
+      "Science",
+      "Commerce",
+      "Industry",
+      "Electricity",
+      "Steam"
+    ],
+    "url": "https://americanhistory.si.edu/collections/object/nmah_1817050",
+    "vault_note": "SCOUT-114"
+  },
+  {
+    "id": "US-EDUC-1896-05",
+    "title": "Electricity Presenting Light to the World ($5 Silver Certificate)",
+    "date": "1896",
+    "period": "Gilded Age (1870-1900)",
+    "creator": "Walter Shirlaw (artist), George F.C. Smillie (engraver)",
+    "institution": "Bureau of Engraving and Printing",
+    "source_archive": "Smithsonian National Museum of American History",
+    "country": "United States",
+    "medium": "Paper money (silver certificate)",
+    "motif": [
+      "Female allegory",
+      "Electricity",
+      "Columbia/America",
+      "Fame",
+      "Peace"
+    ],
+    "url": "https://americanhistory.si.edu/collections/object/nmah_1816788",
+    "vault_note": "SCOUT-115"
+  },
+  {
+    "id": "FR-SEM-1898",
+    "title": "Semeuse 1 Franc silver coin (Oscar Roty)",
+    "date": "1898",
+    "period": "Third Republic (1870-1940)",
+    "creator": "Louis Oscar Roty",
+    "institution": "Monnaie de Paris",
+    "source_archive": "Numista",
+    "country": "France",
+    "medium": "Coin (silver 835‰, 5g, 23mm)",
+    "motif": [
+      "Semeuse",
+      "Marianne",
+      "Phrygian cap",
+      "Rising sun",
+      "Sowing seeds"
+    ],
+    "url": "https://en.numista.com/catalogue/pieces682.html",
+    "vault_note": "SCOUT-116"
+  },
+  {
+    "id": "DE-NOTG-1921",
+    "title": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note",
+    "date": "1921",
+    "period": "Weimar Republic (1919-1933)",
+    "creator": "Karl Muggly",
+    "institution": "Municipality of Bielefeld",
+    "source_archive": "British Museum / UChicago Special Collections",
+    "country": "Germany",
+    "medium": "Paper money (Notgeld, silk/linen)",
+    "motif": [
+      "Female allegory",
+      "Fountain of Youth",
+      "Healing",
+      "Municipal emergency currency"
+    ],
+    "url": null,
+    "vault_note": "SCOUT-117"
   }
 ]
