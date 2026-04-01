@@ -289,7 +289,7 @@ export default {
       if (sub === "/stats") {
         const r1 = await env.CORPUS_DB.prepare("SELECT COUNT(*) as total FROM corpus_items").all();
         const r2 = await env.CORPUS_DB.prepare("SELECT country, COUNT(*) as cnt FROM corpus_items GROUP BY country ORDER BY cnt DESC").all();
-        const r3 = await env.CORPUS_DB.prepare("SELECT medium_norm, COUNT(*) as cnt FROM corpus_items GROUP BY medium_norm ORDER BY cnt DESC").all();
+        const r3 = await env.CORPUS_DB.prepare("SELECT support, COUNT(*) as cnt FROM corpus_items WHERE support IS NOT NULL AND support != '' GROUP BY support ORDER BY cnt DESC").all();
         const r4 = await env.CORPUS_DB.prepare("SELECT COUNT(*) as analyzed FROM iconographic_analysis").all();
         const r5 = await env.CORPUS_DB.prepare("SELECT item_id, figure_type FROM iconographic_analysis WHERE figure_type LIKE '%Yes%'").all();
         return new Response(JSON.stringify({
