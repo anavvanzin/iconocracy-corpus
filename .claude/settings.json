@@ -10,6 +10,18 @@
         ]
       }
     ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"$CLAUDE_FILE_PATH\" | grep -qE 'tese/manuscrito/(Capitulo|Introducao|sumario).*_original' && echo '{\"decision\":\"block\",\"reason\":\"Arquivo original do manuscrito protegido. Use vault/tese/ para rascunhos revisados.\"}' || true",
+            "statusMessage": "Verificando proteção do manuscrito..."
+          }
+        ]
+      }
+    ],
     "PostToolUse": [
       {
         "matcher": "Write",
@@ -26,8 +38,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo \"$CLAUDE_FILE_PATH\" | grep -q corpus/corpus-data.json && echo \"corpus-data.json modified -- run sync_companion.py to update companion\" || true",
-            "statusMessage": "Checking corpus sync..."
+            "command": "echo \"$CLAUDE_FILE_PATH\" | grep -q corpus/corpus-data.json && conda run -n iconocracy python \"$CLAUDE_PROJECT_DIR/tools/scripts/validate_schemas.py\" --quiet 2>&1 | tail -3 || true",
+            "statusMessage": "Validando corpus-data.json..."
           }
         ]
       }
