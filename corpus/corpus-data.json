@@ -32,7 +32,24 @@
     "country_pt": "Brasil",
     "period_norm": "República/Império (BR)",
     "motif_str": "Alegoria feminina, Exposição Nacional, Estátua",
-    "tags_str": "female allegory, exhibition, statue, Republic, Rio Grande do Sul"
+    "tags_str": "female allegory, exhibition, statue, Republic, Rio Grande do Sul",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "fotografia"
   },
   {
     "id": "BR-002",
@@ -68,7 +85,24 @@
     "country_pt": "Brasil",
     "period_norm": "Estado Novo",
     "motif_str": "República, Alegoria feminina, Monumento, Bandeira",
-    "tags_str": "Republic monument, female allegory, Belém, Getúlio Vargas, Estado Novo"
+    "tags_str": "Republic monument, female allegory, Belém, Getúlio Vargas, Estado Novo",
+    "regime": "normativo",
+    "endurecimento_score": 1.7,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "fotografia"
   },
   {
     "id": "BR-003",
@@ -104,7 +138,24 @@
     "country_pt": "Brasil",
     "period_norm": "Estado Novo",
     "motif_str": "República, Alegoria feminina, Monumento, Coluna",
-    "tags_str": "Republic monument, female allegory, Belém, column, Estado Novo"
+    "tags_str": "Republic monument, female allegory, Belém, column, Estado Novo",
+    "regime": "normativo",
+    "endurecimento_score": 2.1,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "fotografia"
   },
   {
     "id": "BR-004",
@@ -140,7 +191,24 @@
     "country_pt": "Brasil",
     "period_norm": "República/Império (BR)",
     "motif_str": "Alegoria feminina, Estações, Escultura, Jardim público",
-    "tags_str": "female allegory, seasons, sculpture, Campo de Santana, Rio de Janeiro"
+    "tags_str": "female allegory, seasons, sculpture, Campo de Santana, Rio de Janeiro",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "fotografia"
   },
   {
     "id": "BR-005",
@@ -177,7 +245,24 @@
     "country_pt": "Brasil",
     "period_norm": "República/Império (BR)",
     "motif_str": "República, Alegoria feminina, Positivismo, Barrete frígio",
-    "tags_str": "Republic, female allegory, positivism, Phrygian cap, Ordem e Progresso, painting"
+    "tags_str": "Republic, female allegory, positivism, Phrygian cap, Ordem e Progresso, painting",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 0,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "pintura"
   },
   {
     "id": "BR-006",
@@ -213,7 +298,24 @@
     "country_pt": "Brasil",
     "period_norm": "República/Império (BR)",
     "motif_str": "República, Alegoria feminina, Centenário, Anjo",
-    "tags_str": "Republic, female allegory, centennial, painting, angel"
+    "tags_str": "Republic, female allegory, centennial, painting, angel",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "pintura"
   },
   {
     "id": "BR-007",
@@ -250,7 +352,24 @@
     "country_pt": "Brasil",
     "period_norm": "República/Império (BR)",
     "motif_str": "Justiça, Estátua falante, Diálogo alegórico, Verdade",
-    "tags_str": "Justice, speaking statues, allegory, periodical, Empire, Truth"
+    "tags_str": "Justice, speaking statues, allegory, periodical, Empire, Truth",
+    "regime": "fundacional",
+    "endurecimento_score": 2.3,
+    "indicadores": {
+      "desincorporacao": 3,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "texto"
   },
   {
     "id": "BR-008",
@@ -286,7 +405,24 @@
     "country_pt": "Brasil",
     "period_norm": "República/Império (BR)",
     "motif_str": "Justiça, Estátua, Escultor francês, Praça pública",
-    "tags_str": "Justice, statue, French sculptor, public space, imported allegory"
+    "tags_str": "Justice, statue, French sculptor, public space, imported allegory",
+    "regime": "fundacional",
+    "endurecimento_score": 2.5,
+    "indicadores": {
+      "desincorporacao": 3,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "texto"
   },
   {
     "id": "FR-001",
@@ -323,7 +459,24 @@
     "country_pt": "França",
     "period_norm": "III República / II Império (FR)",
     "motif_str": "Justice, Vengeance, Vérité, Allégorie féminine",
-    "tags_str": "Justice, Truth, Vengeance, female allegory, engraving, Second Empire"
+    "tags_str": "Justice, Truth, Vengeance, female allegory, engraving, Second Empire",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "FR-002",
@@ -359,7 +512,24 @@
     "country_pt": "França",
     "period_norm": "III República / II Império (FR)",
     "motif_str": "Justice, Vérité, Triomphe, Allégorie féminine",
-    "tags_str": "Justice, Truth, triumph, female allegory, engraving"
+    "tags_str": "Justice, Truth, triumph, female allegory, engraving",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "FR-003",
@@ -393,7 +563,24 @@
     "country_pt": "França",
     "period_norm": "III República / II Império (FR)",
     "motif_str": "Justice, Envoyé, Allégorie féminine",
-    "tags_str": "Justice, envoy, female allegory, engraving"
+    "tags_str": "Justice, envoy, female allegory, engraving",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "FR-004",
@@ -430,7 +617,24 @@
     "country_pt": "França",
     "period_norm": "III República / II Império (FR)",
     "motif_str": "Marianne, République, Éducation, Allégorie féminine",
-    "tags_str": "Marianne, Republic, education, female allegory, children, laïcité"
+    "tags_str": "Marianne, Republic, education, female allegory, children, laïcité",
+    "regime": "normativo",
+    "endurecimento_score": 1.1,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "FR-005",
@@ -466,7 +670,24 @@
     "country_pt": "França",
     "period_norm": "III República / II Império (FR)",
     "motif_str": "République, Allégorie féminine, Satire, Corps féminin",
-    "tags_str": "Republic, female allegory, satire, Félicien Rops, eroticism"
+    "tags_str": "Republic, female allegory, satire, Félicien Rops, eroticism",
+    "regime": "normativo",
+    "endurecimento_score": 0.5,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "FR-006",
@@ -502,7 +723,24 @@
     "country_pt": "França",
     "period_norm": "III República / II Império (FR)",
     "motif_str": "République, Crise, Allégorie féminine, Caricature politique",
-    "tags_str": "Republic, political crisis, female allegory, cartoon, Marianne"
+    "tags_str": "Republic, political crisis, female allegory, cartoon, Marianne",
+    "regime": "normativo",
+    "endurecimento_score": 1.0,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 2,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "FR-007",
@@ -540,7 +778,24 @@
     "country_pt": "França",
     "period_norm": "III República / II Império (FR)",
     "motif_str": "Marianne, République, Guerre, Défense nationale, Allégorie féminine",
-    "tags_str": "Marianne, Republic, WWI, propaganda, defense loan, female allegory"
+    "tags_str": "Marianne, Republic, WWI, propaganda, defense loan, female allegory",
+    "regime": "militar",
+    "endurecimento_score": 1.8,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "cartaz"
   },
   {
     "id": "FR-008",
@@ -578,7 +833,24 @@
     "country_pt": "França",
     "period_norm": "III República / II Império (FR)",
     "motif_str": "Marianne, République, Appel, Guerre, Allégorie féminine",
-    "tags_str": "Marianne, Republic, WWI, recruitment, Steinlen, female allegory"
+    "tags_str": "Marianne, Republic, WWI, recruitment, Steinlen, female allegory",
+    "regime": "militar",
+    "endurecimento_score": 1.2,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 1,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "cartaz"
   },
   {
     "id": "FR-009",
@@ -615,7 +887,24 @@
     "country_pt": "França",
     "period_norm": "III República / II Império (FR)",
     "motif_str": "République, Buste, Marianne, Mairie",
-    "tags_str": "Marianne, Republic, bust, mairie, civic space, press photograph"
+    "tags_str": "Marianne, Republic, bust, mairie, civic space, press photograph",
+    "regime": "normativo",
+    "endurecimento_score": 2.4,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 3,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "fotografia"
   },
   {
     "id": "FR-010",
@@ -651,7 +940,24 @@
     "country_pt": "França",
     "period_norm": "III República / II Império (FR)",
     "motif_str": "République, Satire, Hochet, Allégorie féminine",
-    "tags_str": "Republic, satire, rattle, trivialization, female allegory"
+    "tags_str": "Republic, satire, rattle, trivialization, female allegory",
+    "regime": "normativo",
+    "endurecimento_score": 0.6,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "EU-001",
@@ -688,7 +994,24 @@
     "country_pt": "Alemanha",
     "period_norm": "Iluminismo (Séc. XVIII)",
     "motif_str": "Justitia, Trono, Gerechtigkeit, Fresco",
-    "tags_str": "Justitia, enthroned, criminal justice, ceiling fresco, Germany, Koblenz"
+    "tags_str": "Justitia, enthroned, criminal justice, ceiling fresco, Germany, Koblenz",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 3,
+      "serialidade": 0,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "fotografia"
   },
   {
     "id": "EU-002",
@@ -724,7 +1047,24 @@
     "country_pt": "Bélgica",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justice, Vérité, Temps, Allégorie féminine",
-    "tags_str": "Justice, Truth, Time, allegory, Belgium"
+    "tags_str": "Justice, Truth, Time, allegory, Belgium",
+    "regime": "fundacional",
+    "endurecimento_score": 0.5,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 1,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "EU-003",
@@ -760,7 +1100,24 @@
     "country_pt": "Alemanha",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Balança, Espada, Gravura",
-    "tags_str": "Justitia, scales, sword, print, Dutch Golden Age"
+    "tags_str": "Justitia, scales, sword, print, Dutch Golden Age",
+    "regime": "fundacional",
+    "endurecimento_score": 1.2,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "EU-004",
@@ -795,7 +1152,24 @@
     "country_pt": "Itália",
     "period_norm": "Barroco/Rococó",
     "motif_str": "Justice, Allégorie féminine, Baroque",
-    "tags_str": "Justice, allegory, Baroque, Italy, Cortona"
+    "tags_str": "Justice, allegory, Baroque, Italy, Cortona",
+    "regime": "fundacional",
+    "endurecimento_score": 1.1,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "EU-005",
@@ -831,7 +1205,24 @@
     "country_pt": "Áustria",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Relevo, Dourado, Renascimento",
-    "tags_str": "Justitia, relief, gilded, Renaissance, Vienna"
+    "tags_str": "Justitia, relief, gilded, Renaissance, Vienna",
+    "regime": "fundacional",
+    "endurecimento_score": 1.5,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 0,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "monumento"
   },
   {
     "id": "EU-006",
@@ -868,7 +1259,24 @@
     "country_pt": "Alemanha",
     "period_norm": "Barroco/Rococó",
     "motif_str": "Justitia, Balança, Espada, Desenho",
-    "tags_str": "Justitia, scales, sword, drawing, Baroque, Germany"
+    "tags_str": "Justitia, scales, sword, drawing, Baroque, Germany",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "EU-007",
@@ -903,7 +1311,24 @@
     "country_pt": "Bélgica",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia civilis, Justice civile, Allégorie féminine",
-    "tags_str": "civil justice, Justitia civilis, Flemish art, Belgium, female allegory"
+    "tags_str": "civil justice, Justitia civilis, Flemish art, Belgium, female allegory",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 1,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "EU-008",
@@ -941,7 +1366,24 @@
     "country_pt": "Áustria",
     "period_norm": "Barroco/Rococó",
     "motif_str": "Justitia, Putto, Coroa, Nuvem, Balança",
-    "tags_str": "Justitia, crowned, putto, celestial, scales, Austria"
+    "tags_str": "Justitia, crowned, putto, celestial, scales, Austria",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 3,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "EU-009",
@@ -976,7 +1418,24 @@
     "country_pt": "França",
     "period_norm": "III República / II Império (FR)",
     "motif_str": "Allégorie féminine, Symbolisme, Murale",
-    "tags_str": "female allegory, Symbolism, muralist, Third Republic, Puvis de Chavannes"
+    "tags_str": "female allegory, Symbolism, muralist, Third Republic, Puvis de Chavannes",
+    "regime": "normativo",
+    "endurecimento_score": 1.6,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 0,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "PT-001",
@@ -1011,7 +1470,24 @@
     "country_pt": "Portugal",
     "period_norm": "Séc. XX",
     "motif_str": "Justiça popular, Revolução, Cartaz político",
-    "tags_str": "popular justice, Carnation Revolution, political poster, Portugal, UDP"
+    "tags_str": "popular justice, Carnation Revolution, political poster, Portugal, UDP",
+    "regime": "militar",
+    "endurecimento_score": 1.9,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "cartaz"
   },
   {
     "id": "PT-002",
@@ -1047,7 +1523,24 @@
     "country_pt": "Portugal",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Alegoria, História, Figura feminina, Gravura",
-    "tags_str": "History allegory, female figure, engraving, early modern, Portugal"
+    "tags_str": "History allegory, female figure, engraving, early modern, Portugal",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "PT-003",
@@ -1082,7 +1575,24 @@
     "country_pt": "Portugal",
     "period_norm": "Barroco/Rococó",
     "motif_str": "Alegoria, Morte, Gravura barroca",
-    "tags_str": "Death allegory, Baroque, French-Portuguese, engraving, Quillard"
+    "tags_str": "Death allegory, Baroque, French-Portuguese, engraving, Quillard",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "PT-004",
@@ -1117,7 +1627,24 @@
     "country_pt": "Portugal",
     "period_norm": "Barroco/Rococó",
     "motif_str": "Alegoria, Tempo, Gravura barroca",
-    "tags_str": "Time allegory, Baroque, French-Portuguese, engraving, Quillard"
+    "tags_str": "Time allegory, Baroque, French-Portuguese, engraving, Quillard",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "PT-005",
@@ -1154,7 +1681,24 @@
     "country_pt": "Portugal",
     "period_norm": "Estado Novo",
     "motif_str": "República, Alegoria feminina, Eleição, Cartaz político",
-    "tags_str": "Republic, female allegory, election, Norton de Matos, anti-dictatorship, Portugal"
+    "tags_str": "Republic, female allegory, election, Norton de Matos, anti-dictatorship, Portugal",
+    "regime": "normativo",
+    "endurecimento_score": 1.7,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "cartaz"
   },
   {
     "id": "FR-011",
@@ -1191,7 +1735,24 @@
     "country_pt": "França",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justice, Danse macabre, Figure féminine, Manuscrit",
-    "tags_str": "Justice, danse macabre, death, female figure, Renaissance, manuscript"
+    "tags_str": "Justice, danse macabre, death, female figure, Renaissance, manuscript",
+    "regime": "fundacional",
+    "endurecimento_score": 1.1,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "frontispicio"
   },
   {
     "id": "DE-001",
@@ -1230,7 +1791,24 @@
     "country_pt": "Suíça",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Justice, blindfold, sword, scales",
-    "tags_str": "Justitia, fountain, blindfold, Renaissance, Bern, Switzerland, legal iconography"
+    "tags_str": "Justitia, fountain, blindfold, Renaissance, Bern, Switzerland, legal iconography",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "monumento"
   },
   {
     "id": "DE-002",
@@ -1267,7 +1845,24 @@
     "country_pt": "Itália",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Justice, Frederick II",
-    "tags_str": "Justitia, medieval, Frederick II, Hohenstaufen, Capua, marble, legal iconography"
+    "tags_str": "Justitia, medieval, Frederick II, Hohenstaufen, Capua, marble, legal iconography",
+    "regime": "fundacional",
+    "endurecimento_score": 2.4,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 0,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "monumento"
   },
   {
     "id": "DE-003",
@@ -1303,7 +1898,24 @@
     "country_pt": "Alemanha",
     "period_norm": "Iluminismo (Séc. XVIII)",
     "motif_str": "Justitia, Justice, satire",
-    "tags_str": "Justitia, satire, Enlightenment, engraving, Dresden, political commentary"
+    "tags_str": "Justitia, satire, Enlightenment, engraving, Dresden, political commentary",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "DE-004",
@@ -1339,7 +1951,24 @@
     "country_pt": "Alemanha",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Justice, civic architecture",
-    "tags_str": "Justitia, town hall, clock, civic architecture, Renaissance, Esslingen"
+    "tags_str": "Justitia, town hall, clock, civic architecture, Renaissance, Esslingen",
+    "regime": "fundacional",
+    "endurecimento_score": 1.8,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 0,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "monumento"
   },
   {
     "id": "DE-005",
@@ -1375,7 +2004,24 @@
     "country_pt": "Alemanha",
     "period_norm": "Barroco/Rococó",
     "motif_str": "Justitia, Justice, domestic allegory",
-    "tags_str": "Justitia, Baroque, ceiling, domestic space, Lüneburg, wooden ceiling"
+    "tags_str": "Justitia, Baroque, ceiling, domestic space, Lüneburg, wooden ceiling",
+    "regime": "fundacional",
+    "endurecimento_score": 1.3,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "pintura"
   },
   {
     "id": "DE-006",
@@ -1410,7 +2056,24 @@
     "country_pt": "Itália",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Justice",
-    "tags_str": "Justitia, Renaissance, engraving, Raphael circle, Italian, print"
+    "tags_str": "Justitia, Renaissance, engraving, Raphael circle, Italian, print",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "DE-007",
@@ -1447,7 +2110,24 @@
     "country_pt": "Itália",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Justice, cardinal virtues, Prudence",
-    "tags_str": "Justitia, cardinal virtues, Renaissance, Italian, drawing, Prudence"
+    "tags_str": "Justitia, cardinal virtues, Renaissance, Italian, drawing, Prudence",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "DE-008",
@@ -1482,7 +2162,24 @@
     "country_pt": "Alemanha",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Justice, Weser Renaissance",
-    "tags_str": "Justitia, Weser Renaissance, architectural sculpture, Hameln, civic building"
+    "tags_str": "Justitia, Weser Renaissance, architectural sculpture, Hameln, civic building",
+    "regime": "fundacional",
+    "endurecimento_score": 1.7,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 0,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "monumento"
   },
   {
     "id": "DE-009",
@@ -1520,7 +2217,24 @@
     "country_pt": "Alemanha",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Justice, Concordia, civic virtue",
-    "tags_str": "Justitia, Concordia, relief, civic virtue, Bremen, town hall, Renaissance"
+    "tags_str": "Justitia, Concordia, relief, civic virtue, Bremen, town hall, Renaissance",
+    "regime": "fundacional",
+    "endurecimento_score": 1.7,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 0,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "monumento"
   },
   {
     "id": "DE-010",
@@ -1556,7 +2270,24 @@
     "country_pt": "Alemanha",
     "period_norm": "Barroco/Rococó",
     "motif_str": "Justitia, Jus Civile, civil law",
-    "tags_str": "Justitia, civil law, Baroque, Benedictine, ecclesiastical, secular law"
+    "tags_str": "Justitia, civil law, Baroque, Benedictine, ecclesiastical, secular law",
+    "regime": "fundacional",
+    "endurecimento_score": 1.3,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 0,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "monumento"
   },
   {
     "id": "DE-011",
@@ -1592,7 +2323,24 @@
     "country_pt": "Alemanha",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Justice, civic interior",
-    "tags_str": "Justitia, fireplace, civic interior, Leipzig, town hall, Early Modern"
+    "tags_str": "Justitia, fireplace, civic interior, Leipzig, town hall, Early Modern",
+    "regime": "fundacional",
+    "endurecimento_score": 1.8,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 0,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "monumento"
   },
   {
     "id": "NL-001",
@@ -1631,7 +2379,24 @@
     "country_pt": "Países Baixos",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Justice, nude allegory, sword, scales",
-    "tags_str": "Justitia, nude, sword, scales, Renaissance, Dutch, engraving"
+    "tags_str": "Justitia, nude, sword, scales, Renaissance, Dutch, engraving",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "NL-002",
@@ -1668,7 +2433,24 @@
     "country_pt": "Países Baixos",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Justice, all-seeing eye, crown",
-    "tags_str": "Justitia, bust, crown, all-seeing eye, Dutch, surveillance"
+    "tags_str": "Justitia, bust, crown, all-seeing eye, Dutch, surveillance",
+    "regime": "normativo",
+    "endurecimento_score": 1.9,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "monumento"
   },
   {
     "id": "NL-003",
@@ -1705,7 +2487,24 @@
     "country_pt": "Países Baixos",
     "period_norm": "Barroco/Rococó",
     "motif_str": "Justitia, Justice, enthroned, sovereignty of law",
-    "tags_str": "Justitia, enthroned, Baroque, Dutch, title page, sovereignty"
+    "tags_str": "Justitia, enthroned, Baroque, Dutch, title page, sovereignty",
+    "regime": "normativo",
+    "endurecimento_score": 2.0,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "frontispicio"
   },
   {
     "id": "UK-001",
@@ -1744,7 +2543,24 @@
     "country_pt": "Reino Unido",
     "period_norm": "Barroco/Rococó",
     "motif_str": "Justitia, Justice, enthroned, sword, scales, putti",
-    "tags_str": "Justitia, enthroned, Baroque, British Museum, print, putti"
+    "tags_str": "Justitia, enthroned, Baroque, British Museum, print, putti",
+    "regime": "normativo",
+    "endurecimento_score": 1.8,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "UK-002",
@@ -1782,7 +2598,24 @@
     "country_pt": "Reino Unido",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Justice, Providence, scales, snake",
-    "tags_str": "Justitia, Providence, niches, architectural, British Museum, personification"
+    "tags_str": "Justitia, Providence, niches, architectural, British Museum, personification",
+    "regime": "normativo",
+    "endurecimento_score": 2.3,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "UK-003",
@@ -1821,7 +2654,24 @@
     "country_pt": "Reino Unido",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Justice, Prudentia, sword, mirror, cardinal virtues",
-    "tags_str": "Justitia, Prudentia, cardinal virtues, British Museum, sword, mirror"
+    "tags_str": "Justitia, Prudentia, cardinal virtues, British Museum, sword, mirror",
+    "regime": "normativo",
+    "endurecimento_score": 2.3,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "US-001",
@@ -1860,7 +2710,24 @@
     "country_pt": "EUA",
     "period_norm": "Iluminismo (Séc. XVIII)",
     "motif_str": "Justice, Britannia, America, scales, Revolution",
-    "tags_str": "Justice, Britannia, America, Revolution, scales, geopolitics, 1776"
+    "tags_str": "Justice, Britannia, America, Revolution, scales, geopolitics, 1776",
+    "regime": "fundacional",
+    "endurecimento_score": 0.6,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "US-002",
@@ -1897,7 +2764,24 @@
     "country_pt": "EUA",
     "period_norm": "Séc. XIX",
     "motif_str": "Justice, History, Capitol, Columbia",
-    "tags_str": "Justice, History, Capitol, sculpture, Crawford, Senate doors"
+    "tags_str": "Justice, History, Capitol, sculpture, Crawford, Senate doors",
+    "regime": "normativo",
+    "endurecimento_score": 2.1,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "fotografia"
   },
   {
     "id": "US-003",
@@ -1935,7 +2819,24 @@
     "country_pt": "EUA",
     "period_norm": "Séc. XIX",
     "motif_str": "Justice, blindfold, sword, scales",
-    "tags_str": "Justice, blindfold, sword, scales, government, official, steel engraving"
+    "tags_str": "Justice, blindfold, sword, scales, government, official, steel engraving",
+    "regime": "normativo",
+    "endurecimento_score": 2.2,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "US-004",
@@ -1975,7 +2876,24 @@
     "country_pt": "EUA",
     "period_norm": "Séc. XX",
     "motif_str": "Justice, Liberty, Athena, Demeter, Marianne, Columbia",
-    "tags_str": "Justice, Liberty, WWI, Franco-American, poster, Athena, allegory"
+    "tags_str": "Justice, Liberty, WWI, Franco-American, poster, Athena, allegory",
+    "regime": "militar",
+    "endurecimento_score": 1.2,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "cartaz"
   },
   {
     "id": "US-005",
@@ -2014,7 +2932,24 @@
     "country_pt": "EUA",
     "period_norm": "Iluminismo (Séc. XVIII)",
     "motif_str": "Justice, Liberty, Concord, Constitution, Columbia",
-    "tags_str": "Justice, Liberty, Constitution, Concord, Clio, founding, allegory"
+    "tags_str": "Justice, Liberty, Constitution, Concord, Clio, founding, allegory",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "US-006",
@@ -2051,7 +2986,24 @@
     "country_pt": "EUA",
     "period_norm": "Iluminismo (Séc. XVIII)",
     "motif_str": "Justice, Britannia, scales, geopolitics",
-    "tags_str": "Justice, Britannia, scales, geopolitics, bilingual, power balance"
+    "tags_str": "Justice, Britannia, scales, geopolitics, bilingual, power balance",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "US-007",
@@ -2087,7 +3039,24 @@
     "country_pt": "EUA",
     "period_norm": "Séc. XIX",
     "motif_str": "Columbia, Liberty, martial allegory",
-    "tags_str": "Columbia, martial, Spanish-American War, Dewey, chromolithograph, imperialism"
+    "tags_str": "Columbia, martial, Spanish-American War, Dewey, chromolithograph, imperialism",
+    "regime": "militar",
+    "endurecimento_score": 1.0,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 1,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "US-008",
@@ -2125,7 +3094,24 @@
     "country_pt": "EUA",
     "period_norm": "Séc. XIX",
     "motif_str": "Columbia, Justice, Liberty, suffrage, feminism",
-    "tags_str": "Columbia, suffrage, feminism, pageant, photograph, women's rights"
+    "tags_str": "Columbia, suffrage, feminism, pageant, photograph, women's rights",
+    "regime": "normativo",
+    "endurecimento_score": 1.3,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "fotografia"
   },
   {
     "id": "US-009",
@@ -2161,7 +3147,24 @@
     "country_pt": "EUA",
     "period_norm": "Séc. XIX",
     "motif_str": "Liberty, Columbia, Civil War",
-    "tags_str": "Liberty, Columbia, Civil War, carte de visite, photograph, living allegory"
+    "tags_str": "Liberty, Columbia, Civil War, carte de visite, photograph, living allegory",
+    "regime": "normativo",
+    "endurecimento_score": 1.5,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "fotografia"
   },
   {
     "id": "DE-012",
@@ -2201,7 +3204,24 @@
     "country_pt": "Alemanha",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Justice, nude allegory, sword, scales",
-    "tags_str": "Justitia, Cranach, Renaissance, nude, painting, sword, scales, Northern Renaissance"
+    "tags_str": "Justitia, Cranach, Renaissance, nude, painting, sword, scales, Northern Renaissance",
+    "regime": "fundacional",
+    "endurecimento_score": 0.3,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "pintura"
   },
   {
     "id": "FR-012",
@@ -2240,7 +3260,24 @@
     "country_pt": "França",
     "period_norm": "Séc. XIX",
     "motif_str": "Liberty, Marianne, Revolution, tricolour",
-    "tags_str": "Liberty, Marianne, Delacroix, Revolution, July Revolution, Louvre, France, tricolour"
+    "tags_str": "Liberty, Marianne, Delacroix, Revolution, July Revolution, Louvre, France, tricolour",
+    "regime": "fundacional",
+    "endurecimento_score": 0.1,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "pintura"
   },
   {
     "id": "UK-004",
@@ -2279,7 +3316,24 @@
     "country_pt": "Reino Unido",
     "period_norm": "Séc. XIX",
     "motif_str": "Justice, Lady Justice, sword, scales, unblindfolded",
-    "tags_str": "Lady Justice, Old Bailey, London, unblindfolded, bronze, courthouse, Pomeroy"
+    "tags_str": "Lady Justice, Old Bailey, London, unblindfolded, bronze, courthouse, Pomeroy",
+    "regime": "normativo",
+    "endurecimento_score": 2.4,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "monumento"
   },
   {
     "id": "BR-009",
@@ -2320,7 +3374,24 @@
     "country_pt": "Brasil",
     "period_norm": "Séc. XX",
     "motif_str": "Justiça, Justice, Themis, blindfold, sword, modernism",
-    "tags_str": "Justiça, Ceschiatti, STF, Brasília, Niemeyer, modernism, granite, January 8"
+    "tags_str": "Justiça, Ceschiatti, STF, Brasília, Niemeyer, modernism, granite, January 8",
+    "regime": "militar",
+    "endurecimento_score": 2.2,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 2,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "monumento"
   },
   {
     "id": "BE-001",
@@ -2358,7 +3429,24 @@
     "country_pt": "Bélgica",
     "period_norm": "Séc. XIX",
     "motif_str": "Justice, Charity, Foresight, civic virtue",
-    "tags_str": "Justice, Stallaert, Brussels, city hall, ceiling painting, civic virtue, Belgium"
+    "tags_str": "Justice, Stallaert, Brussels, city hall, ceiling painting, civic virtue, Belgium",
+    "regime": "normativo",
+    "endurecimento_score": 1.4,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "pintura"
   },
   {
     "id": "BR-010",
@@ -2394,7 +3482,24 @@
     "country_pt": "Brasil",
     "period_norm": "República/Império (BR)",
     "motif_str": "Alegoria feminina, Republic, impressionism",
-    "tags_str": "allegory, Visconti, impressionism, Biblioteca Nacional, Rio de Janeiro, Republic"
+    "tags_str": "allegory, Visconti, impressionism, Biblioteca Nacional, Rio de Janeiro, Republic",
+    "regime": "fundacional",
+    "endurecimento_score": 0.5,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "pintura"
   },
   {
     "id": "BE-002",
@@ -2432,7 +3537,24 @@
     "country_pt": "Bélgica",
     "period_norm": "Séc. XIX",
     "motif_str": "Justice, classical allegory, civic architecture, colonialism",
-    "tags_str": "Justice, Poelaert, Brussels, courthouse, architecture, colonialism, Belgium"
+    "tags_str": "Justice, Poelaert, Brussels, courthouse, architecture, colonialism, Belgium",
+    "regime": "normativo",
+    "endurecimento_score": 3.0,
+    "indicadores": {
+      "desincorporacao": 3,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "monumento"
   },
   {
     "id": "NL-004",
@@ -2469,7 +3591,24 @@
     "country_pt": "Países Baixos",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Alegoria feminina, Espada, Balança",
-    "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Goltzius, virtue series"
+    "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Goltzius, virtue series",
+    "regime": "fundacional",
+    "endurecimento_score": 1.1,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "NL-005",
@@ -2508,7 +3647,24 @@
     "country_pt": "Países Baixos",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Alegoria feminina, Julgamento, Espada, Balança",
-    "tags_str": "Justitia, female allegory, Justice, exempla iustitiae, Cambyses, Zaleucus, Dutch Golden Age"
+    "tags_str": "Justitia, female allegory, Justice, exempla iustitiae, Cambyses, Zaleucus, Dutch Golden Age",
+    "regime": "fundacional",
+    "endurecimento_score": 0.6,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "NL-006",
@@ -2545,7 +3701,24 @@
     "country_pt": "Países Baixos",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Alegoria feminina, Espada, Balança",
-    "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Goltzius, cardinal virtues"
+    "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Goltzius, cardinal virtues",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "NL-007",
@@ -2582,7 +3755,24 @@
     "country_pt": "Países Baixos",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Alegoria feminina, Espada, Balança",
-    "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Goltzius tradition, anonymous"
+    "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Goltzius tradition, anonymous",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "NL-008",
@@ -2618,7 +3808,24 @@
     "country_pt": "Países Baixos",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Alegoria feminina, Espada, Balança",
-    "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Matham"
+    "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Matham",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "FR-013",
@@ -2658,7 +3865,24 @@
     "country_pt": "França",
     "period_norm": "Iluminismo (Séc. XVIII)",
     "motif_str": "Declaração dos Direitos, Alegoria feminina, Liberté, Marianne, Révolution française",
-    "tags_str": "Déclaration des droits, female allegory, Liberty, Justice, French Revolution, Marianne, legal iconography, broadside"
+    "tags_str": "Déclaration des droits, female allegory, Liberty, Justice, French Revolution, Marianne, legal iconography, broadside",
+    "regime": "fundacional",
+    "endurecimento_score": 1.8,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "FR-014",
@@ -2696,7 +3920,24 @@
     "country_pt": "França",
     "period_norm": "Iluminismo (Séc. XVIII)",
     "motif_str": "Declaração dos Direitos, Alegoria feminina, Liberté, Révolution française",
-    "tags_str": "Déclaration des droits, female allegory, Liberty, French Revolution, anonymous, broadside, legal iconography"
+    "tags_str": "Déclaration des droits, female allegory, Liberty, French Revolution, anonymous, broadside, legal iconography",
+    "regime": "fundacional",
+    "endurecimento_score": 1.8,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "FR-015",
@@ -2735,7 +3976,24 @@
     "country_pt": "França",
     "period_norm": "Iluminismo (Séc. XVIII)",
     "motif_str": "Alegoria feminina, Justiça, Abundância, Administração régia, Iluminismo",
-    "tags_str": "female allegory, Necker, Ancien Régime, fiscal governance, allegorical frontispiece, Enlightenment, state finance"
+    "tags_str": "female allegory, Necker, Ancien Régime, fiscal governance, allegorical frontispiece, Enlightenment, state finance",
+    "regime": "fundacional",
+    "endurecimento_score": 1.3,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "FR-016",
@@ -2774,7 +4032,24 @@
     "country_pt": "França",
     "period_norm": "Iluminismo (Séc. XVIII)",
     "motif_str": "Alegoria feminina, Justiça, Abundância, Administração régia, Iluminismo",
-    "tags_str": "female allegory, Necker, Ancien Régime, fiscal governance, allegorical frontispiece, Enlightenment, variant edition"
+    "tags_str": "female allegory, Necker, Ancien Régime, fiscal governance, allegorical frontispiece, Enlightenment, variant edition",
+    "regime": "fundacional",
+    "endurecimento_score": 1.3,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "FR-017",
@@ -2812,7 +4087,24 @@
     "country_pt": "França",
     "period_norm": "Iluminismo (Séc. XVIII)",
     "motif_str": "Alegoria feminina, Justiça, Abundância, Administração régia",
-    "tags_str": "female allegory, Necker, Ancien Régime, fiscal governance, allegorical frontispiece, Enlightenment, transparency"
+    "tags_str": "female allegory, Necker, Ancien Régime, fiscal governance, allegorical frontispiece, Enlightenment, transparency",
+    "regime": "fundacional",
+    "endurecimento_score": 1.3,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "FR-018",
@@ -2852,7 +4144,24 @@
     "country_pt": "França",
     "period_norm": "Iluminismo (Séc. XVIII)",
     "motif_str": "Liberté, Égalité, Fraternité, Alegoria feminina, République française, Marianne",
-    "tags_str": "Liberté Égalité Fraternité, female allegory, Marianne, French Revolution, République française, Directory period, Republican iconography"
+    "tags_str": "Liberté Égalité Fraternité, female allegory, Marianne, French Revolution, République française, Directory period, Republican iconography",
+    "regime": "fundacional",
+    "endurecimento_score": 1.5,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "US-010",
@@ -2891,7 +4200,24 @@
     "country_pt": "EUA",
     "period_norm": "Séc. XIX",
     "motif_str": "Liberdade, Alegoria feminina, Templo da Liberdade, Goddess of Liberty, Estados Unidos",
-    "tags_str": "Liberty, female allegory, Goddess of Liberty, antebellum, republican values, American iconography, broadside"
+    "tags_str": "Liberty, female allegory, Goddess of Liberty, antebellum, republican values, American iconography, broadside",
+    "regime": "fundacional",
+    "endurecimento_score": 2.3,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "UK-005",
@@ -2930,7 +4256,24 @@
     "country_pt": "Reino Unido",
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Jurisprudência, Alegoria feminina, Espada, Balança",
-    "tags_str": "Justitia, Jurisprudentia, female allegory, Renaissance, Justice, Delaune, sword and scales"
+    "tags_str": "Justitia, Jurisprudentia, female allegory, Renaissance, Justice, Delaune, sword and scales",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "ES-001",
@@ -2969,7 +4312,24 @@
     "country_pt": "Espanha",
     "period_norm": "Séc. XX",
     "motif_str": "República española, Marianne, Alegoria feminina, Espanha, França",
-    "tags_str": "female allegory, Spanish Republic, Marianne, Second Republic, España, Republican iconography, Spain France"
+    "tags_str": "female allegory, Spanish Republic, Marianne, Second Republic, España, Republican iconography, Spain France",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 1,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "US-011",
@@ -3009,7 +4369,24 @@
     "country_pt": "EUA",
     "period_norm": "Séc. XX",
     "motif_str": "Columbia, Alegoria feminina, Estados Unidos, WWI, Goddess of Liberty, Propaganda",
-    "tags_str": "Columbia, female allegory, WWI, propaganda poster, James Montgomery Flagg, Phrygian cap, American iconography"
+    "tags_str": "Columbia, female allegory, WWI, propaganda poster, James Montgomery Flagg, Phrygian cap, American iconography",
+    "regime": "militar",
+    "endurecimento_score": 1.5,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "cartaz"
   },
   {
     "id": "US-012",
@@ -3048,7 +4425,24 @@
     "country_pt": "EUA",
     "period_norm": "Séc. XX",
     "motif_str": "Columbia, Alegoria feminina, Estados Unidos, WWI, Propaganda",
-    "tags_str": "Columbia, female allegory, WWI, propaganda poster, globe, American iconography, sword"
+    "tags_str": "Columbia, female allegory, WWI, propaganda poster, globe, American iconography, sword",
+    "regime": "militar",
+    "endurecimento_score": 1.7,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "cartaz"
   },
   {
     "id": "UK-006",
@@ -3088,7 +4482,24 @@
     "country_pt": "Reino Unido",
     "period_norm": "Séc. XX",
     "motif_str": "Mulher, Alegoria feminina, Britânia, WWI, Propaganda, Recrutamento",
-    "tags_str": "female allegory, WWI, propaganda poster, Britain, recruitment, Parliamentary Recruiting Committee, gender and war"
+    "tags_str": "female allegory, WWI, propaganda poster, Britain, recruitment, Parliamentary Recruiting Committee, gender and war",
+    "regime": "militar",
+    "endurecimento_score": 1.7,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "cartaz"
   },
   {
     "id": "FR-019",
@@ -3129,7 +4540,24 @@
     "country_pt": "França",
     "period_norm": "III República / II Império (FR)",
     "motif_str": "Marianne, Alegoria feminina, Soldado, WWI, République française, Propaganda",
-    "tags_str": "Marianne, female allegory, WWI, Steinlen, propaganda poster, French Republic, Journée du Poilu, Third Republic"
+    "tags_str": "Marianne, female allegory, WWI, Steinlen, propaganda poster, French Republic, Journée du Poilu, Third Republic",
+    "regime": "militar",
+    "endurecimento_score": 1.1,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 1,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "cartaz"
   },
   {
     "id": "DE-013",
@@ -3169,7 +4597,24 @@
     "country_pt": "Alemanha",
     "period_norm": "Séc. XX",
     "motif_str": "alegoria nacional feminina, Germania, guerra, Primeira Guerra Mundial, identidade nacional",
-    "tags_str": "alegoria nacional, Germania, Primeira Guerra Mundial, pintura, arte alemã, feminino, militarismo, propaganda"
+    "tags_str": "alegoria nacional, Germania, Primeira Guerra Mundial, pintura, arte alemã, feminino, militarismo, propaganda",
+    "regime": "normativo",
+    "endurecimento_score": 1.5,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 0,
+      "serialidade": 2,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "pintura"
   },
   {
     "id": "ES-002",
@@ -3209,7 +4654,24 @@
     "country_pt": "Espanha",
     "period_norm": "Séc. XIX",
     "motif_str": "alegoria nacional feminina, república, imprensa satírica, Espanha, constitucionalismo",
-    "tags_str": "alegoria nacional, república, satira política, imprensa oitocentista, barrete frígio, Espanha, feminino, constitucionalismo"
+    "tags_str": "alegoria nacional, república, satira política, imprensa oitocentista, barrete frígio, Espanha, feminino, constitucionalismo",
+    "regime": "fundacional",
+    "endurecimento_score": 0.3,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 2,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "UY-001",
@@ -3249,7 +4711,24 @@
     "country_pt": "Uruguai",
     "period_norm": "Séc. XIX",
     "motif_str": "alegoria nacional feminina, pátria, Uruguai, altar cívico, nação",
-    "tags_str": "alegoria nacional, pátria, Uruguai, altar cívico, pintura, república, feminino, Blanes"
+    "tags_str": "alegoria nacional, pátria, Uruguai, altar cívico, pintura, república, feminino, Blanes",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "pintura"
   },
   {
     "id": "MX-001",
@@ -3289,7 +4768,24 @@
     "country_pt": "México",
     "period_norm": "Séc. XIX",
     "motif_str": "alegoria da Justiça, virtudes cardinais, Justitia, México, imprensa ilustrada oitocentista",
-    "tags_str": "alegoria da justiça, Justitia, virtudes cardinais, México, Posada, litografia, imprensa porfirista, feminino"
+    "tags_str": "alegoria da justiça, Justitia, virtudes cardinais, México, Posada, litografia, imprensa porfirista, feminino",
+    "regime": "normativo",
+    "endurecimento_score": 1.5,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "estampa"
   },
   {
     "id": "FR-020",
@@ -3331,7 +4827,24 @@
     "country_pt": "França",
     "period_norm": "Idade Média",
     "motif_str": "Justitia, alegoria da justiça, iconografia jurídica medieval, direito canônico, miniatura iluminada",
-    "tags_str": "Justitia, direito canônico, manuscrito medieval, iluminura, iconografia jurídica, Graciano, miniatura, Bolonha, BnF, Gallica"
+    "tags_str": "Justitia, direito canônico, manuscrito medieval, iluminura, iconografia jurídica, Graciano, miniatura, Bolonha, BnF, Gallica",
+    "regime": "fundacional",
+    "endurecimento_score": 1.2,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "frontispicio"
   },
   {
     "id": "US-EDUC-1896-02",
@@ -3352,7 +4865,24 @@
       "Steam"
     ],
     "url": "https://americanhistory.si.edu/collections/object/nmah_1817050",
-    "vault_note": "SCOUT-114"
+    "vault_note": "SCOUT-114",
+    "regime": "normativo",
+    "endurecimento_score": 1.6,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "papel-moeda"
   },
   {
     "id": "US-EDUC-1896-05",
@@ -3372,7 +4902,24 @@
       "Peace"
     ],
     "url": "https://americanhistory.si.edu/collections/object/nmah_1816788",
-    "vault_note": "SCOUT-115"
+    "vault_note": "SCOUT-115",
+    "regime": "normativo",
+    "endurecimento_score": 1.4,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "papel-moeda"
   },
   {
     "id": "FR-SEM-1898",
@@ -3392,7 +4939,24 @@
       "Sowing seeds"
     ],
     "url": "https://en.numista.com/catalogue/pieces682.html",
-    "vault_note": "SCOUT-116"
+    "vault_note": "SCOUT-116",
+    "regime": "normativo",
+    "endurecimento_score": 2.5,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "moeda"
   },
   {
     "id": "DE-NOTG-1921",
@@ -3411,7 +4975,24 @@
       "Municipal emergency currency"
     ],
     "url": null,
-    "vault_note": "SCOUT-117"
+    "vault_note": "SCOUT-117",
+    "regime": "fundacional",
+    "endurecimento_score": 0.6,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 3,
+      "inscricao_estatal": 2
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "papel-moeda"
   },
   {
     "id": "DE-WR-1919-50M",
@@ -3431,7 +5012,24 @@
       "Refoundation"
     ],
     "url": "https://www.numizon.com/en/banknote/germany-reichsbanknotes-50-mark-type-1919-pick-66/deu-p66/",
-    "vault_note": "SCOUT-118"
+    "vault_note": "SCOUT-118",
+    "regime": "normativo",
+    "endurecimento_score": 2.2,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "papel-moeda"
   },
   {
     "id": "DE-WR-1924-50PF",
@@ -3451,6 +5049,23 @@
       "Civic allegory"
     ],
     "url": "https://en.numista.com/catalogue/pieces2546.html",
-    "vault_note": "SCOUT-119"
+    "vault_note": "SCOUT-119",
+    "regime": "normativo",
+    "endurecimento_score": 2.2,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "moeda"
   }
 ]
