@@ -41,12 +41,12 @@ vault/tese/output/
 *.db
 
 # Corpus images (stored on external SSD, symlinked)
-data/raw/BR/
-data/raw/FR/
-data/raw/UK/
-data/raw/DE/
-data/raw/US/
-data/raw/BE/
+data/raw/BR
+data/raw/FR
+data/raw/UK
+data/raw/DE
+data/raw/US
+data/raw/BE
 
 # Archives
 *.zip
