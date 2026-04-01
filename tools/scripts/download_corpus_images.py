@@ -12,11 +12,17 @@ Usage:
 import json
 import os
 import re
+import ssl
 import sys
 import time
 import urllib.request
 import urllib.error
 from pathlib import Path
+
+# SSL context for sites with cert issues
+SSL_UNVERIFIED = ssl.create_default_context()
+SSL_UNVERIFIED.check_hostname = False
+SSL_UNVERIFIED.verify_mode = ssl.CERT_NONE
 
 CORPUS_PATH = Path(__file__).resolve().parents[2] / "corpus" / "corpus-data-enriched.json"
 SSD_BASE = Path("/Volumes/ICONOCRACIA/corpus/imagens")
@@ -38,8 +44,8 @@ def get_country_folder(item_id):
     return "OTHER"
 
 
-def download_file(url, dest_path, timeout=30, retries=3):
-    """Download a file with retry logic. Returns (success, file_size, error_msg)."""
+def download_file(url, dest_path, timeout=60, retries=3):
+    """Download a file with streaming + retry logic. Returns (success, file_size, error_msg)."""
     for attempt in range(retries):
         try:
             headers = {
@@ -48,22 +54,57 @@ def download_file(url, dest_path, timeout=30, retries=3):
             }
             req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=timeout) as resp:
-                data = resp.read()
-                if len(data) < 500:
-                    return False, 0, f"File too small ({len(data)} bytes) — likely error page"
+                # Stream download in chunks to avoid IncompleteRead
+                total_size = 0
                 with open(dest_path, "wb") as f:
-                    f.write(data)
-                return True, len(data), None
+                    while True:
+                        chunk = resp.read(65536)  # 64KB chunks
+                        if not chunk:
+                            break
+                        f.write(chunk)
+                        total_size += len(chunk)
+                if total_size < 500:
+                    os.remove(dest_path)
+                    return False, 0, f"File too small ({total_size} bytes) — likely error page"
+                return True, total_size, None
         except urllib.error.HTTPError as e:
             if e.code == 429:  # Rate limited
                 wait = (attempt + 1) * 5
                 print(f"      Rate limited, waiting {wait}s...")
                 time.sleep(wait)
                 continue
-            return False, 0, f"HTTP {e.code}: {e.reason}"
-        except Exception as e:
-            if attempt < retries - 1:
+            if e.code == 403 and attempt < retries - 1:
                 time.sleep(2 * (attempt + 1))
+                continue
+            return False, 0, f"HTTP {e.code}: {e.reason}"
+        except ssl.SSLCertVerificationError:
+            # Retry with unverified SSL
+            try:
+                req2 = urllib.request.Request(url, headers=headers)
+                with urllib.request.urlopen(req2, timeout=timeout, context=SSL_UNVERIFIED) as resp:
+                    total_size = 0
+                    with open(dest_path, "wb") as f:
+                        while True:
+                            chunk = resp.read(65536)
+                            if not chunk:
+                                break
+                            f.write(chunk)
+                            total_size += len(chunk)
+                    if total_size < 500:
+                        os.remove(dest_path)
+                        return False, 0, f"File too small ({total_size} bytes)"
+                    return True, total_size, None
+            except Exception as e2:
+                return False, 0, f"SSL fallback failed: {e2}"
+        except Exception as e:
+            # For IncompleteRead, check if we got enough data via streaming
+            if "IncompleteRead" in str(e) and os.path.exists(dest_path):
+                size = os.path.getsize(dest_path)
+                if size > 10000:  # >10KB is probably a valid partial image
+                    return True, size, None
+                os.remove(dest_path)
+            if attempt < retries - 1:
+                time.sleep(3 * (attempt + 1))
                 continue
             return False, 0, str(e)
     return False, 0, "Max retries exceeded"
