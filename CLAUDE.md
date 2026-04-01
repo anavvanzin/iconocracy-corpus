@@ -19,13 +19,13 @@ iconocracy-corpus/
 ├── CLAUDE.md                  ← este arquivo
 ├── SKILL.md                   ← definição do agente
 ├── data/
-│   ├── raw/                   ← imagens brutas por país
-│   │   ├── BR/
-│   │   ├── FR/
-│   │   ├── UK/
-│   │   ├── DE/
-│   │   ├── US/
-│   │   └── BE/
+│   ├── raw/                   ← symlinks → SSD (ver abaixo)
+│   │   ├── BR/ → /Volumes/ICONOCRACIA/corpus/imagens/BR/
+│   │   ├── FR/ → /Volumes/ICONOCRACIA/corpus/imagens/FR/
+│   │   ├── UK/ → /Volumes/ICONOCRACIA/corpus/imagens/UK/
+│   │   ├── DE/ → /Volumes/ICONOCRACIA/corpus/imagens/DE/
+│   │   ├── US/ → /Volumes/ICONOCRACIA/corpus/imagens/US/
+│   │   └── BE/ → /Volumes/ICONOCRACIA/corpus/imagens/BE/
 │   ├── interim/               ← dados em processamento
 │   └── processed/
 │       └── records.jsonl      ← registros mestre do corpus
@@ -34,6 +34,32 @@ iconocracy-corpus/
 │   └── sessoes/               ← notas SCOUT-SESSION-XXX
 └── tools/
     └── scripts/               ← scripts de sync e processamento
+```
+
+---
+
+## SSD externo ICONOCRACIA
+
+As imagens brutas do corpus ficam no SSD externo (`/Volumes/ICONOCRACIA`),
+acessíveis via symlinks em `data/raw/[PAIS]/`. O SSD também armazena:
+
+- `corpus/imagens/` — imagens brutas por país (destino dos symlinks)
+- `corpus/metadados/` — JSONs intermediários
+- `referencias/zotero-storage/` — PDFs linkados do Zotero
+- `backups/github/` — git mirror do repo
+- `backups/vault/` — snapshots datados do vault
+
+**Antes de salvar imagens em `data/raw/`**, verificar se o SSD está montado:
+```bash
+test -d /Volumes/ICONOCRACIA/corpus/imagens && echo "SSD montado" || echo "SSD ausente"
+```
+
+Se o SSD não estiver montado, salvar a imagem em `vault/assets/` temporariamente
+e marcar com `#mover-para-ssd`.
+
+**Backup manual:**
+```bash
+bash /Volumes/ICONOCRACIA/backups/backup-iconocracia.sh
 ```
 
 ---

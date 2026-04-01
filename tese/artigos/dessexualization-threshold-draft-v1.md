@@ -29,7 +29,7 @@ The argument proceeds in seven steps. Section 2 introduces the theoretical frame
 
 ### 2.1. Iconocracy
 
-Modern legal culture has a visual problem. The state, an abstraction, must make itself visible to those it governs. One persistent solution — employed across Western republics and empires from the French Revolution to the twentieth century — has been to embody sovereignty in the figure of a woman: Marianne in France, Britannia in Britain, Germania in Germany, Columbia in the United States, the Republic in Brazil. These figures are not decorative. They perform a juridical-political function: they make the abstract authority of the state sensorially present on the objects citizens handle daily — coins, stamps, banknotes, court buildings.[^3]
+Modern legal culture has a visual problem. The state, an abstraction, must make itself visible to those it governs. One persistent solution — employed across Western republics and empires from the French Revolution to the twentieth century — has been to embody sovereignty in the figure of a woman: Marianne in France, Britannia in Britain, Germania in Germany, Columbia and her successors in the United States, the Republic in Brazil. These figures are not decorative. They perform a juridical-political function: they make the abstract authority of the state sensorially present on the objects citizens handle daily — coins, stamps, and banknotes.[^3]
 
 I call this practice *iconocracy*: the regime of governance through allegorized feminine images. The term deliberately echoes *iconoclasm* and *theocracy* to signal that what is at stake is not mere representation but a *technology of power* — a way of governing through what Marie-José Mondzain calls the "economy of images."[^4] Iconocracy is not a metaphor for visual culture generally. It designates the specific operation by which the state instrumentalizes the female body as a device of sovereign legitimation.
 
@@ -173,7 +173,7 @@ If the central state abandoned female allegory, the municipalities did not. The 
 
 The ENDURECIMENTO score is 0.4 — the lowest in the entire corpus. Every indicator that was maximal in Germania is minimal here: postural rigidity 0, dessexualization 1, facial uniformization 0, heraldicization 0, narrative erasure 0, monochromatization 0. The Notgeld body is the *inverse* of the imperial body: polychromatic, narrative, individual, sexualized, dynamic.
 
-This inversion confirms a structural pattern: ENDURECIMENTO is a function of *centralization*. When the central state monopolizes sovereign imagery, the allegorical body hardens. When sovereignty fragments — as in the hyperinflation crisis — the body *softens*. The Notgeld constitutes a valve: a space where the feminine body escapes the purification regime of the national allegory and returns to its foundational dynamism.
+This inversion suggests — though a single case cannot confirm — a structural pattern worth investigating: ENDURECIMENTO may be a function of *centralization*. When the central state monopolizes sovereign imagery, the allegorical body hardens. When sovereignty fragments — as in the hyperinflation crisis — the body *softens*. The Notgeld would then constitute a valve: a space where the feminine body escapes the purification regime of the national allegory and returns to its foundational dynamism. Whether this pattern holds across the thousands of Notgeld designs produced in 1921–1923 is a question for further research; the Bielefeld case is suggestive, not probative. But it signals that the dessexualization threshold may apply specifically to *central-state sovereign media*, not to all objects bearing female allegorical figures.
 
 ---
 
@@ -192,7 +192,7 @@ The longitudinal evidence (Zwischenraum panel ZW-08) is remarkable:
 
 Across 240 years of domestic circulation, Britannia's morphology barely changes. The spear becomes a trident; the olive branch disappears. But the seated posture, the armored body, the helmeted head, the generic face — all persist. The ENDURECIMENTO score remains consistently HIGH.
 
-This persistence is not a sign of adaptation — it is a sign of *inertia*. Britannia never needed to be dessexualized because she was never sexualized. She never needed to be reformed because her morphology was already at the institutional ceiling. The French problem — how to keep the allegory alive while making it reproducible — simply did not arise in Britain, because Britannia was never alive in the first place. She was always already a heraldic device.
+This persistence is not a sign of adaptation — it is a sign of *inertia*. Britannia never needed to be dessexualized because she was never sexualized. She never needed to be reformed because her morphology was already at the institutional ceiling. The French problem — how to keep the allegory alive while making it reproducible — simply did not arise in Britain, because Britannia was never alive in the first place — she was, from the outset, a heraldic device.
 
 The critical finding from the George V penny (SCOUT-124, 1912) is chronological: Britannia's ENDURECIMENTO was already at maximum *before* the First World War. The war did not *produce* the militarization of her body — the helmet and the trident had been there for decades. This refutes the intuitive hypothesis that military conflict *generates* iconographic hardening. In the British case, the hardened body preceded the conflict, waiting, as it were, for the war to catch up to its morphology.
 
@@ -291,11 +291,13 @@ These findings have implications for the study of legal culture. If we accept th
 
 This article began with a puzzle: why does the Semeuse survive while the "dirty dollars" do not? The answer is deceptively simple — one is clothed, the other is not — but its implications are substantial. Dessexualization is the mechanism by which the state resolves the contradiction inherent in iconocracy: the need to make sovereignty visible through a female body that must simultaneously be *present* (to fulfill its allegorical function) and *absent* (to avoid scandal, desire, contestation). The dessexualized body achieves this double operation. It is present enough to signify and absent enough to circulate.
 
-France solved this equation with the Semeuse. Germany failed to solve it with Germania and abandoned the project. The United States tested the limits with the Educational Series and was rebuffed. Britain never faced the equation because Britannia was never a body in the erotic sense — she was always already a device. Brazil imported a pre-solved equation and froze it in place.
+France solved this equation with the Semeuse. Germany failed to solve it with Germania and abandoned the project. The United States tested the limits with the Educational Series and was rebuffed. Britain never faced the equation because Britannia was never a body in the erotic sense — she was, from the first coin, a device. Brazil imported a pre-solved equation and froze it in place.
 
 If iconocracy names a *dynamic* practice — the ongoing calibration of the female allegorical body to the demands of sovereign visibility — then France is its paradigmatic case, not because only France uses female allegories (Britannia's 350-year tenure exceeds any French figure), but because only France demonstrates the full arc of the process: a body born in revolutionary exposure (Marianne, 1789), progressively dessexualized through design intervention (Semeuse, 1898), and stabilized across supports and centuries. Britannia's persistence is real but inertial — a body that was never alive cannot demonstrate *adaptation*. Brazil's persistence is real but static — a body imported pre-purified cannot demonstrate *negotiation*. The French exception lies not in duration but in *process*: the active, contingent, designer-mediated calibration of the allegorical body to the threshold of tolerance. It is the contingent result of a specific designer (Roty), a specific political tradition (the revolutionary Marianne), and a specific morphological solution (the Semeuse) that happened to land precisely on the threshold.
 
 The dessexualization threshold is, ultimately, a measure of what a society is willing to look at every day. The state can place a woman's body on a coin — but only if that body has been sufficiently purified to become invisible in its ubiquity. The paradox of iconocracy is that its success requires the body's erasure: the most enduring allegories are those we no longer see.
+
+Much remains to be done. The five-country typology presented here is a first approximation; cases not examined — Italy, Belgium, the Netherlands, Mexico, and other Latin American republics — may reveal trajectories that challenge or refine it. The scoring methodology, explicitly interpretive, awaits inter-rater validation and the development of more formal coding protocols. The Visual Racial Contract, introduced here only schematically, demands its own sustained investigation. And the question of what happens *after* iconocracy — when the euro replaces national currencies, when the stamp loses its daily ubiquity, when the female allegory migrates to digital interfaces — remains open. What this article offers is a framework for asking these questions with precision, and a first demonstration that the female allegorical body, far from being a decorative margin of legal culture, is one of its most revealing diagnostic surfaces.
 
 ---
 
@@ -305,7 +307,7 @@ The dessexualization threshold is, ultimately, a measure of what a society is wi
 
 [^2]: The Semeuse appears on French euro coins (10, 20, and 50 centimes) designed after Roty's original. On the design history, see Jean Belaubre, *Dictionnaire de numismatique* (Paris: Larousse, 1996), s.v. "Semeuse."
 
-[^3]: On allegory and political legitimation, see Marina Warner, *Monuments and Maidens: The Allegory of the Female Form* (London: Weidenfeld & Nicolson, 1985); Maurice Agulhon, *Marianne au combat: l'imagerie et la symbolique républicaines de 1789 à 1880* (Paris: Flammarion, 1979).
+[^3]: On allegory and political legitimation, see Marina Warner, *Monuments and Maidens: The Allegory of the Female Form* (London: Weidenfeld & Nicolson, 1985); Maurice Agulhon, *Marianne au combat: l'imagerie et la symbolique républicaines de 1789 à 1880* (Paris: Flammarion, 1979); Lynn Hunt, *Politics, Culture, and Class in the French Revolution* (Berkeley: University of California Press, 1984), ch. 3; George L. Mosse, *Nationalism and Sexuality: Respectability and Abnormal Sexuality in Modern Europe* (New York: Howard Fertig, 1985).
 
 [^4]: Marie-José Mondzain, *Image, Icon, Economy: The Byzantine Origins of the Contemporary Imaginary*, trans. Rico Franses (Stanford: Stanford University Press, 2005 [2002]).
 
@@ -344,3 +346,23 @@ The dessexualization threshold is, ultimately, a measure of what a society is wi
 [^21]: Piastre de Commerce, French Indochina (1885–1928): Numista catalogue no. 11287. Silver (.900), 27 g, 39 mm. Designed by Jean-Auguste Barre.
 
 [^22]: On the racial dimension of colonial currency, see Leigh Gardner, *Taxing Colonial Africa: The Political Economy of British Imperialism* (Oxford: Oxford University Press, 2012); Catherine Eagleton and Jonathan Williams, *Money: A History*, 2nd ed. (London: British Museum Press, 2007).
+
+[^22a]: Charles W. Mills, *The Racial Contract* (Ithaca: Cornell University Press, 1997); Ann Laura Stoler, *Carnal Knowledge and Imperial Power: Race and the Intimate in Colonial Rule* (Berkeley: University of California Press, 2002). On visuality as a colonial technology, see Nicholas Mirzoeff, *The Right to Look: A Counterhistory of Visuality* (Durham: Duke University Press, 2011).
+
+[^22b]: Frantz Fanon's concept of the "epidermal schema" — the reduction of the colonized subject to skin — operates in reverse on the colonial coin: the *colonizer's* body is also reduced to an epidermal surface, but one that signifies sovereignty rather than subjection. See Frantz Fanon, *Black Skin, White Masks*, trans. Charles Lam Markmann (New York: Grove Press, 1967 [1952]).
+
+[^23]: On the epistemological risks of quantifying bodies, see the feminist STS literature, esp. Donna Haraway, "Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective," *Feminist Studies* 14, no. 3 (1988): 575–599. The complicity between measurement and power is a persistent theme; see also Griselda Pollock, *Differencing the Canon: Feminist Desire and the Writing of Art's Histories* (London: Routledge, 1999), on the gendered politics of art-historical categorization.
+
+[^6a]: Judith Butler, *Bodies That Matter: On the Discursive Limits of "Sex"* (New York: Routledge, 1993), esp. ch. 1, "Bodies That Matter."
+
+[^7a]: On the debate over treating ordinal Likert-type data as interval for purposes of aggregation, see Susan Jamieson, "Likert Scales: How to (Ab)use Them," *Medical Education* 38, no. 12 (2004): 1217–1218. The position adopted here follows the pragmatic tradition in visual analysis that treats ordinal scores as heuristic summaries while acknowledging that the underlying data are not truly continuous.
+
+[^10a]: On the conditions for natural experiments in historical social science, see Thad Dunning, *Natural Experiments in the Social Sciences: A Design-Based Approach* (Cambridge: Cambridge University Press, 2012). The Educational/Semeuse comparison meets the criterion of temporal proximity and functional equivalence but not exogenous assignment.
+
+[^10b]: On the Comstock laws and American moral censorship infrastructure, see Nicola Beisel, *Imperiled Innocents: Anthony Comstock and Family Reproduction in Victorian America* (Princeton: Princeton University Press, 1997). The French Third Republic had no comparable censorship apparatus for currency design, though the 1881 Press Law regulated printed imagery.
+
+[^16a]: On the sexualization of Britannia in satirical prints, see Tamara L. Hunt, *Defining John Bull: Political Caricature and National Identity in Late Georgian England* (Aldershot: Ashgate, 2003); Diana Donald, *The Age of Caricature: Satirical Prints in the Reign of George III* (New Haven: Yale University Press, 1996).
+
+[^18a]: Lilia Moritz Schwarcz, *As barbas do Imperador: D. Pedro II, um monarca nos trópicos* (São Paulo: Companhia das Letras, 1998); Lilia Moritz Schwarcz, *O espetáculo das raças: cientistas, instituições e questão racial no Brasil, 1870–1930* (São Paulo: Companhia das Letras, 1993).
+
+[^18b]: Margareth Rago, *Do cabaré ao lar: a utopia da cidade disciplinar, Brasil 1890–1930* (Rio de Janeiro: Paz e Terra, 1985). On gender and republican political culture in Brazil, see also Angela Alonso, *Ideias em movimento: a geração 1870 na crise do Brasil-Império* (São Paulo: Paz e Terra, 2002).
