@@ -21,10 +21,13 @@ CORPUS_PATH = Path(__file__).resolve().parents[2] / "corpus" / "corpus-data-enri
 
 # ─── Cenário B: URL Resolution ───────────────────────────────────────────────
 
-def fetch_json(url, timeout=15):
+def fetch_json(url, timeout=15, extra_headers=None):
     """Fetch JSON from URL, return dict or None."""
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "ICONOCRACIA-corpus/1.0"})
+        headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) ICONOCRACIA-corpus/1.0"}
+        if extra_headers:
+            headers.update(extra_headers)
+        req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return json.loads(resp.read().decode("utf-8"))
     except Exception as e:
@@ -33,58 +36,62 @@ def fetch_json(url, timeout=15):
 
 
 def resolve_rijksmuseum(item):
-    """Resolve Rijksmuseum items using public API (no key needed for basic search)."""
-    url = item.get("url", "")
+    """Resolve Rijksmuseum items using IIIF directly (API key deprecated)."""
+    url = item.get("url", "") or ""
 
-    # Try to extract object number from URL patterns like /collection/RP-P-OB-27.296
+    # Items with object numbers like /collection/RP-P-OB-27.296
     match = re.search(r"/collection/([A-Z]{1,3}-[A-Za-z0-9._-]+)", url)
     if match:
         obj_number = match.group(1)
-        # Rijksmuseum IIIF
         iiif_manifest = f"https://iiif.rijksmuseum.nl/iiif/{obj_number}/manifest.json"
-        # Direct image via object API (no key needed for basic info)
-        api_url = f"https://www.rijksmuseum.nl/api/nl/collection/{obj_number}?key=0fiuZFh4&format=json"
-        data = fetch_json(api_url)
-        if data and data.get("artObject"):
-            web_image = data["artObject"].get("webImage", {})
-            if web_image and web_image.get("url"):
-                return {
-                    "url_image_download": web_image["url"],
-                    "url_iiif": iiif_manifest,
-                    "iiif_source": "rijksmuseum",
-                    "iiif_note": f"Resolved via Rijksmuseum API, object {obj_number}"
-                }
-        # Even without API success, try IIIF manifest directly
-        return {
-            "url_image_download": f"https://lh3.googleusercontent.com/placeholder",  # won't use this
-            "url_iiif": iiif_manifest,
-            "iiif_source": "rijksmuseum_iiif_only",
-            "iiif_note": f"#verificar IIIF manifest exists but no direct image URL confirmed for {obj_number}"
-        }
+        # Try fetching IIIF manifest to get actual image URL
+        manifest = fetch_json(iiif_manifest)
+        image_url = None
+        if manifest:
+            try:
+                sequences = manifest.get("sequences", [])
+                if sequences:
+                    canvases = sequences[0].get("canvases", [])
+                    if canvases:
+                        images = canvases[0].get("images", [])
+                        if images:
+                            resource = images[0].get("resource", {})
+                            service = resource.get("service", {})
+                            service_id = service.get("@id", "")
+                            if service_id:
+                                image_url = f"{service_id}/full/800,/0/default.jpg"
+                            elif resource.get("@id"):
+                                image_url = resource["@id"]
+            except (IndexError, KeyError):
+                pass
 
-    # For /collection/object/... URLs (hash-based), try search API
-    title = item.get("title", "")
-    if title:
-        query = urllib.parse.quote(title[:50])
-        search_url = f"https://www.rijksmuseum.nl/api/nl/collection?key=0fiuZFh4&q={query}&ps=3&format=json"
-        data = fetch_json(search_url)
-        if data and data.get("artObjects"):
-            for obj in data["artObjects"]:
-                if obj.get("webImage", {}).get("url"):
-                    obj_num = obj["objectNumber"]
-                    return {
-                        "url_image_download": obj["webImage"]["url"],
-                        "url_iiif": f"https://iiif.rijksmuseum.nl/iiif/{obj_num}/manifest.json",
-                        "iiif_source": "rijksmuseum",
-                        "iiif_note": f"Resolved via search API, matched object {obj_num}"
-                    }
+        if image_url:
+            return {
+                "url_image_download": image_url,
+                "url_iiif": iiif_manifest,
+                "iiif_source": "rijksmuseum",
+                "iiif_note": f"Resolved via IIIF manifest, object {obj_number}"
+            }
+        else:
+            return {
+                "url_image_download": None,
+                "url_iiif": iiif_manifest,
+                "iiif_source": "rijksmuseum_iiif_only",
+                "iiif_note": f"#verificar IIIF manifest for {obj_number} — image URL extraction failed"
+            }
 
-    return None
+    # Hash-based URLs (/collection/object/...) — no object number, mark manual
+    return {
+        "url_image_download": None,
+        "url_iiif": None,
+        "iiif_source": "none",
+        "iiif_note": f"#verificar Rijksmuseum hash-based URL — requires manual lookup at {url}"
+    }
 
 
 def resolve_loc(item):
     """Resolve Library of Congress items using JSON API."""
-    url = item.get("url", "")
+    url = item.get("url", "") or ""
     # LoC items have pattern /item/XXXXXXX/
     match = re.search(r"loc\.gov/item/([^/]+)", url)
     if not match:
@@ -92,7 +99,7 @@ def resolve_loc(item):
 
     item_id = match.group(1)
     api_url = f"https://www.loc.gov/item/{item_id}/?fo=json"
-    data = fetch_json(api_url)
+    data = fetch_json(api_url, extra_headers={"Accept": "application/json"})
     if not data:
         return None
 
@@ -144,7 +151,14 @@ def resolve_loc(item):
             "iiif_note": f"Resolved via LoC JSON API"
         }
 
-    return None
+    # Fallback: LoC often serves IIIF at a predictable URL
+    iiif_fallback = f"https://tile.loc.gov/image-services/iiif/service:pnp:cph:{item_id}/full/1024,/0/default.jpg"
+    return {
+        "url_image_download": None,
+        "url_iiif": None,
+        "iiif_source": "none",
+        "iiif_note": f"#verificar LoC JSON API blocked (403). Manual download from https://www.loc.gov/item/{item_id}/"
+    }
 
 
 def resolve_europeana(item):
@@ -204,7 +218,7 @@ def resolve_europeana(item):
 
 def resolve_british_museum(item):
     """Try to construct British Museum image URLs."""
-    url = item.get("url", "")
+    url = item.get("url", "") or ""
     # Extract object ID like P_1870-0625-185
     match = re.search(r"/object/([A-Za-z0-9_-]+)", url)
     if not match:
@@ -225,7 +239,7 @@ def resolve_british_museum(item):
 
 def resolve_wellcome(item):
     """Resolve Wellcome Collection items via IIIF API."""
-    url = item.get("url", "")
+    url = item.get("url", "") or ""
     match = re.search(r"works/([a-z0-9]+)", url)
     if not match:
         return None
@@ -269,7 +283,7 @@ def resolve_wellcome(item):
 
 def resolve_numista(item):
     """Numista doesn't have a public API — mark for manual resolution."""
-    url = item.get("url", "")
+    url = item.get("url", "") or ""
     return {
         "url_image_download": None,
         "url_iiif": None,
@@ -279,39 +293,44 @@ def resolve_numista(item):
 
 
 def resolve_smithsonian(item):
-    """Try Smithsonian Open Access API."""
-    url = item.get("url", "")
+    """Try Smithsonian Open Access API (no key needed for public items)."""
+    url = item.get("url", "") or ""
     match = re.search(r"object/([a-z0-9_]+)", url)
     if not match:
         return None
 
     obj_id = match.group(1)
-    api_url = f"https://api.si.edu/openaccess/api/v1.0/content/{obj_id}?api_key=VKwKMpYIbNLzHSTZVfGkLJhSjuJcDH3d7CbVkRvx"
-    data = fetch_json(api_url)
-    if not data or not data.get("response"):
-        return None
+    # Try the EDANMDM endpoint (public, no key)
+    api_url = f"https://api.si.edu/openaccess/api/v1.0/content/{obj_id}"
+    data = fetch_json(api_url, extra_headers={"Accept": "application/json"})
+    if data and data.get("response"):
+        content = data["response"].get("content", {})
+        descriptive = content.get("descriptiveNonRepeating", {})
+        online_media = descriptive.get("online_media", {})
+        media_list = online_media.get("media", [])
 
-    content = data["response"].get("content", {})
-    descriptive = content.get("descriptiveNonRepeating", {})
-    online_media = descriptive.get("online_media", {})
-    media_list = online_media.get("media", [])
+        for media in media_list:
+            if media.get("type") == "Images" and media.get("content"):
+                image_url = media["content"]
+                return {
+                    "url_image_download": image_url,
+                    "url_iiif": media.get("idsId"),
+                    "iiif_source": "smithsonian",
+                    "iiif_note": f"Resolved via Smithsonian API, object {obj_id}"
+                }
 
-    for media in media_list:
-        if media.get("type") == "Images" and media.get("content"):
-            image_url = media["content"]
-            return {
-                "url_image_download": image_url,
-                "url_iiif": media.get("idsId"),
-                "iiif_source": "smithsonian",
-                "iiif_note": f"Resolved via Smithsonian API, object {obj_id}"
-            }
-
-    return None
+    # Fallback: construct IDS URL from object ID
+    return {
+        "url_image_download": None,
+        "url_iiif": None,
+        "iiif_source": "none",
+        "iiif_note": f"#verificar Smithsonian — API blocked, manual download from {url}"
+    }
 
 
 def resolve_generic(item):
     """For items where we can't resolve automatically."""
-    url = item.get("url", "")
+    url = item.get("url", "") or ""
     archive = item.get("source_archive", "unknown")
     return {
         "url_image_download": None,
@@ -340,6 +359,7 @@ def run_scenario_b(items):
 
         result = None
 
+        url = url or ""
         # Route by archive
         if "rijksmuseum" in archive.lower() or "rijksmuseum" in url.lower():
             result = resolve_rijksmuseum(item)

@@ -36,7 +36,9 @@
     "url_iiif": null,
     "url_image_download": "https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/11778/0000001.JPG.jpg?sequence=3&isAllowed=y",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "Estátua em exposição nacional 1908, função cívico-institucional → NORMATIVO"
   },
   {
     "id": "BR-002",
@@ -76,7 +78,9 @@
     "url_iiif": null,
     "url_image_download": "https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/13609/GV%20dvft%20004%20-%20Visita%20de%20Get%c3%balio%20a%20Bel%c3%a9m%20do%20Par%c3%a1%20Out19400000095.JPG.jpg?sequence=3&isAllowed=y",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "Monumento à República em praça pública, figura estática sobre coluna, bandeira → NORMATIVO"
   },
   {
     "id": "BR-003",
@@ -116,7 +120,9 @@
     "url_iiif": null,
     "url_image_download": "https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/13611/GV%20dvft%20004%20-%20Visita%20de%20Get%c3%balio%20a%20Bel%c3%a9m%20do%20Par%c3%a1%20Out19400000097.JPG.jpg?sequence=3&isAllowed=y",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "Monumento à República em praça pública, figura entronizada sobre coluna → NORMATIVO"
   },
   {
     "id": "BR-004",
@@ -156,7 +162,9 @@
     "url_iiif": null,
     "url_image_download": "https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/11529/002080RJ0118.jpg.jpg?sequence=2&isAllowed=y",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "Frontispício de publicação jurídica, função institucional → NORMATIVO"
   },
   {
     "id": "BR-005",
@@ -197,7 +205,9 @@
     "url_iiif": null,
     "url_image_download": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/D%C3%A9cio_Villares_-_A_Rep%C3%BAblica.jpg/800px-D%C3%A9cio_Villares_-_A_Rep%C3%BAblica.jpg",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "FUNDACIONAL",
+    "regime_justificativa": "barrete frígio, bandeira → FUNDACIONAL"
   },
   {
     "id": "BR-006",
@@ -226,7 +236,8 @@
       "female allegory",
       "centennial",
       "painting",
-      "angel"
+      "angel",
+      "regime_incerto"
     ],
     "year": 1922,
     "medium_norm": "Pintura/Desenho",
@@ -237,7 +248,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Brasiliana Museus — requires manual image lookup at https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/",
+    "regime": "FUNDACIONAL",
+    "regime_justificativa": "independência → FUNDACIONAL"
   },
   {
     "id": "BR-007",
@@ -267,7 +280,8 @@
       "allegory",
       "periodical",
       "Empire",
-      "Truth"
+      "Truth",
+      "regime_incerto"
     ],
     "year": 1827,
     "medium_norm": "Outro",
@@ -278,7 +292,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Hemeroteca Digital Brasileira — requires manual image lookup at http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf",
+    "regime": "FUNDACIONAL",
+    "regime_justificativa": "contexto fundacional (ano 1827) → FUNDACIONAL"
   },
   {
     "id": "BR-008",
@@ -307,7 +323,8 @@
       "statue",
       "French sculptor",
       "public space",
-      "imported allegory"
+      "imported allegory",
+      "regime_incerto"
     ],
     "year": 1872,
     "medium_norm": "Outro",
@@ -318,7 +335,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Hemeroteca Digital Brasileira — requires manual image lookup at http://memoria.bn.br/docreader/webindex/WIPagina/313394/101306",
+    "regime": "FUNDACIONAL",
+    "regime_justificativa": "contexto fundacional (ano 1872) → FUNDACIONAL"
   },
   {
     "id": "FR-001",
@@ -359,7 +378,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531737635/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531737635/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "FR-002",
@@ -399,7 +420,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531737529/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531737529/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "FR-003",
@@ -437,7 +460,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53173732g/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53173732g/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "FR-004",
@@ -478,7 +503,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10574064v/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10574064v/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "FR-005",
@@ -507,7 +534,8 @@
       "female allegory",
       "satire",
       "Félicien Rops",
-      "eroticism"
+      "eroticism",
+      "regime_incerto"
     ],
     "year": 1871,
     "medium_norm": "Gravura/Estampe",
@@ -518,7 +546,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531842166/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531842166/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "FR-006",
@@ -558,7 +588,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8438243t/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8438243t/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "FR-007",
@@ -600,7 +632,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10051217v/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10051217v/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "MILITAR",
+    "regime_justificativa": "contexto bélico, propaganda, período WWI → MILITAR"
   },
   {
     "id": "FR-008",
@@ -642,7 +676,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10510623s/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10510623s/f1/full/1000,/0/native.jpg",
     "iiif_source": "europeana_gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "MILITAR",
+    "regime_justificativa": "período WWI → MILITAR"
   },
   {
     "id": "FR-009",
@@ -672,7 +708,8 @@
       "bust",
       "mairie",
       "civic space",
-      "press photograph"
+      "press photograph",
+      "regime_incerto"
     ],
     "year": 1950,
     "medium_norm": "Fotografia",
@@ -683,7 +720,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6952880n/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6952880n/f1/full/1000,/0/native.jpg",
     "iiif_source": "europeana_gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "FR-010",
@@ -723,7 +762,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8577646g/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8577646g/f1/full/1000,/0/native.jpg",
     "iiif_source": "europeana_gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "EU-001",
@@ -762,9 +803,11 @@
     "motif_str": "Justitia, Trono, Gerechtigkeit, Fresco",
     "tags_str": "Justitia, enthroned, criminal justice, ceiling fresco, Germany, Koblenz",
     "url_iiif": "https://iiif.europeana.eu/presentation/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S/manifest",
-    "url_image_download": null,
-    "iiif_source": "europeana",
-    "iiif_note": null
+    "url_image_download": "http://fotothek.slub-dresden.de/fotos/df_wm_0008356.jpg",
+    "iiif_source": "europeana_resolved",
+    "iiif_note": "Resolved via Europeana API, record 201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S",
+    "regime": "MILITAR",
+    "regime_justificativa": "período WWII → MILITAR"
   },
   {
     "id": "EU-002",
@@ -793,7 +836,8 @@
       "Truth",
       "Time",
       "allegory",
-      "Belgium"
+      "Belgium",
+      "regime_incerto"
     ],
     "year": null,
     "medium_norm": "Outro",
@@ -802,9 +846,11 @@
     "motif_str": "Justice, Vérité, Temps, Allégorie féminine",
     "tags_str": "Justice, Truth, Time, allegory, Belgium",
     "url_iiif": "https://iiif.europeana.eu/presentation/2048001/AP_10342206/manifest",
-    "url_image_download": null,
-    "iiif_source": "europeana",
-    "iiif_note": null
+    "url_image_download": "http://balat.kikirpa.be/image/thumbnail/A114934.jpg",
+    "iiif_source": "europeana_resolved",
+    "iiif_note": "Resolved via Europeana API, record 2048001/AP_10342206",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "EU-003",
@@ -842,9 +888,11 @@
     "motif_str": "Justitia, Balança, Espada, Gravura",
     "tags_str": "Justitia, scales, sword, print, Dutch Golden Age",
     "url_iiif": "https://iiif.europeana.eu/presentation/89/item_ZCR4KC47OMJN7DRRDFTIWRQS33M7PBN2/manifest",
-    "url_image_download": null,
-    "iiif_source": "europeana",
-    "iiif_note": null
+    "url_image_download": "http://diglib.hab.de/varia/haum/matham-j-wb3-0015/max/000001.jpg",
+    "iiif_source": "europeana_resolved",
+    "iiif_note": "Resolved via Europeana API, record 89/item_ZCR4KC47OMJN7DRRDFTIWRQS33M7PBN2",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO"
   },
   {
     "id": "EU-004",
@@ -872,7 +920,8 @@
       "allegory",
       "Baroque",
       "Italy",
-      "Cortona"
+      "Cortona",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1650,
     "medium_norm": "Gravura/Estampe",
@@ -881,9 +930,11 @@
     "motif_str": "Justice, Allégorie féminine, Baroque",
     "tags_str": "Justice, allegory, Baroque, Italy, Cortona",
     "url_iiif": "https://iiif.europeana.eu/presentation/446/RML0348941/manifest",
-    "url_image_download": null,
-    "iiif_source": "europeana",
-    "iiif_note": null
+    "url_image_download": "https://www.internetculturale.it/jmms/thumbnailProxy.jsp?type=normal&id=oai%3Awww.internetculturale.sbn.it%2FTeca%3A20%3ANT0000%3ARML0348941",
+    "iiif_source": "europeana_resolved",
+    "iiif_note": "Resolved via Europeana API, record 446/RML0348941",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "EU-005",
@@ -912,7 +963,9 @@
       "relief",
       "gilded",
       "Renaissance",
-      "Vienna"
+      "Vienna",
+      "regime_incerto",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1550,
     "medium_norm": "Outro",
@@ -921,9 +974,11 @@
     "motif_str": "Justitia, Relevo, Dourado, Renascimento",
     "tags_str": "Justitia, relief, gilded, Renaissance, Vienna",
     "url_iiif": "https://iiif.europeana.eu/presentation/15502/KK_6068/manifest",
-    "url_image_download": null,
-    "iiif_source": "europeana",
-    "iiif_note": null
+    "url_image_download": "http://imageapi.khm.at/images/92075/KK_6068.jpg",
+    "iiif_source": "europeana_resolved",
+    "iiif_note": "Resolved via Europeana API, record 15502/KK_6068",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "EU-006",
@@ -953,7 +1008,8 @@
       "sword",
       "drawing",
       "Baroque",
-      "Germany"
+      "Germany",
+      "regime_incerto"
     ],
     "year": 1650,
     "medium_norm": "Pintura/Desenho",
@@ -962,9 +1018,11 @@
     "motif_str": "Justitia, Balança, Espada, Desenho",
     "tags_str": "Justitia, scales, sword, drawing, Baroque, Germany",
     "url_iiif": "https://iiif.europeana.eu/presentation/89/item_MH6IXNHWTECBQCNPU7IIMCFP2BDFAV76/manifest",
-    "url_image_download": null,
-    "iiif_source": "europeana",
-    "iiif_note": null
+    "url_image_download": "http://diglib.hab.de/varia/haumzeichnungen/z-04356/max/000001.jpg",
+    "iiif_source": "europeana_resolved",
+    "iiif_note": "Resolved via Europeana API, record 89/item_MH6IXNHWTECBQCNPU7IIMCFP2BDFAV76",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "balança da justiça → NORMATIVO"
   },
   {
     "id": "EU-007",
@@ -992,7 +1050,8 @@
       "Justitia civilis",
       "Flemish art",
       "Belgium",
-      "female allegory"
+      "female allegory",
+      "regime_incerto"
     ],
     "year": 1550,
     "medium_norm": "Outro",
@@ -1001,9 +1060,11 @@
     "motif_str": "Justitia civilis, Justice civile, Allégorie féminine",
     "tags_str": "civil justice, Justitia civilis, Flemish art, Belgium, female allegory",
     "url_iiif": "https://iiif.europeana.eu/presentation/2048001/AP_10133590/manifest",
-    "url_image_download": null,
-    "iiif_source": "europeana",
-    "iiif_note": null
+    "url_image_download": "http://balat.kikirpa.be/image/thumbnail/B016622.jpg",
+    "iiif_source": "europeana_resolved",
+    "iiif_note": "Resolved via Europeana API, record 2048001/AP_10133590",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "EU-008",
@@ -1034,7 +1095,9 @@
       "putto",
       "celestial",
       "scales",
-      "Austria"
+      "Austria",
+      "regime_incerto",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1750,
     "medium_norm": "Pintura/Desenho",
@@ -1043,9 +1106,11 @@
     "motif_str": "Justitia, Putto, Coroa, Nuvem, Balança",
     "tags_str": "Justitia, crowned, putto, celestial, scales, Austria",
     "url_iiif": "https://iiif.europeana.eu/presentation/15508/30435/manifest",
-    "url_image_download": null,
-    "iiif_source": "europeana",
-    "iiif_note": null
+    "url_image_download": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=15001&filename=images/30435.jpg&cache=yes",
+    "iiif_source": "europeana_resolved",
+    "iiif_note": "Resolved via Europeana API, record 15508/30435",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "balança da justiça → NORMATIVO"
   },
   {
     "id": "EU-009",
@@ -1073,7 +1138,8 @@
       "Symbolism",
       "muralist",
       "Third Republic",
-      "Puvis de Chavannes"
+      "Puvis de Chavannes",
+      "regime_incerto"
     ],
     "year": 1850,
     "medium_norm": "Pintura/Desenho",
@@ -1082,9 +1148,11 @@
     "motif_str": "Allégorie féminine, Symbolisme, Murale",
     "tags_str": "female allegory, Symbolism, muralist, Third Republic, Puvis de Chavannes",
     "url_iiif": "https://iiif.europeana.eu/presentation/15508/DG1918_7/manifest",
-    "url_image_download": null,
-    "iiif_source": "europeana",
-    "iiif_note": null
+    "url_image_download": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=15001&filename=images/DG1918_7.jpg&cache=yes",
+    "iiif_source": "europeana_resolved",
+    "iiif_note": "Resolved via Europeana API, record 15508/DG1918_7",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "PT-001",
@@ -1112,7 +1180,8 @@
       "Carnation Revolution",
       "political poster",
       "Portugal",
-      "UDP"
+      "UDP",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1975,
     "medium_norm": "Cartaz",
@@ -1123,7 +1192,9 @@
     "url_iiif": null,
     "url_image_download": "https://bndigital.bnportugal.gov.pt/i/?IIIF=/c7/6e/8e/87/c76e8e87-15a8-464f-bc44-1c87dfdd8953/iiif/ct-117-g-cx_0000_000001.tif/full/!256,256/0/default.jpg",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "FUNDACIONAL",
+    "regime_justificativa": "contexto revolucionário → FUNDACIONAL"
   },
   {
     "id": "PT-002",
@@ -1152,7 +1223,8 @@
       "female figure",
       "engraving",
       "early modern",
-      "Portugal"
+      "Portugal",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1600,
     "medium_norm": "Gravura/Estampe",
@@ -1163,7 +1235,9 @@
     "url_iiif": null,
     "url_image_download": "https://bndigital.bnportugal.gov.pt/i/?IIIF=/b3/e4/a7/5d/b3e4a75d-d38e-45ca-9c5b-2614e7f5b2bd/iiif/e-900-v_0000_000001.tif/full/!256,256/0/default.jpg",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "PT-003",
@@ -1191,7 +1265,8 @@
       "Baroque",
       "French-Portuguese",
       "engraving",
-      "Quillard"
+      "Quillard",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1730,
     "medium_norm": "Gravura/Estampe",
@@ -1202,7 +1277,9 @@
     "url_iiif": null,
     "url_image_download": "https://bndigital.bnportugal.gov.pt/i/?IIIF=/ae/8d/15/76/ae8d1576-002e-4678-af6f-cde5bdb3a602/iiif/e-4395-p_0000_1-2_p24-C-R0150_000001.tif/full/!256,256/0/default.jpg",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "PT-004",
@@ -1230,7 +1307,8 @@
       "Baroque",
       "French-Portuguese",
       "engraving",
-      "Quillard"
+      "Quillard",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1730,
     "medium_norm": "Gravura/Estampe",
@@ -1241,7 +1319,9 @@
     "url_iiif": null,
     "url_image_download": "https://bndigital.bnportugal.gov.pt/i/?IIIF=/96/87/56/c0/968756c0-6765-4371-bac9-b5efe8fa114e/iiif/e-4390-p_0000_1-2_p24-C-R0150_000001.tif/full/!256,256/0/default.jpg",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "PT-005",
@@ -1271,7 +1351,8 @@
       "election",
       "Norton de Matos",
       "anti-dictatorship",
-      "Portugal"
+      "Portugal",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1949,
     "medium_norm": "Cartaz",
@@ -1282,7 +1363,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Biblioteca Nacional Digital (BND Portugal) — requires manual image lookup at https://bndigital.bnportugal.gov.pt/records/search?q=república&DocumentType=Iconografia",
+    "regime": "MILITAR",
+    "regime_justificativa": "poder naval → MILITAR"
   },
   {
     "id": "FR-011",
@@ -1312,7 +1395,8 @@
       "death",
       "female figure",
       "Renaissance",
-      "manuscript"
+      "manuscript",
+      "regime_incerto"
     ],
     "year": 1531,
     "medium_norm": "Outro",
@@ -1323,7 +1407,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Gallica — requires manual image lookup at https://gallica.bnf.fr/services/engine/search/sru?query=justice+symbole+femme&filter=dc.type+all+%22image%22",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "DE-001",
@@ -1355,7 +1441,8 @@
       "Renaissance",
       "Bern",
       "Switzerland",
-      "legal iconography"
+      "legal iconography",
+      "regime_incerto"
     ],
     "year": 1543,
     "medium_norm": "Outro",
@@ -1366,7 +1453,9 @@
     "url_iiif": null,
     "url_image_download": "https://www.bildindex.de/document/que20183316?part=0&medium=fmk45-ho-0136a",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "balança da justiça, venda nos olhos → NORMATIVO"
   },
   {
     "id": "DE-002",
@@ -1396,7 +1485,9 @@
       "Hohenstaufen",
       "Capua",
       "marble",
-      "legal iconography"
+      "legal iconography",
+      "regime_incerto",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1239,
     "medium_norm": "Outro",
@@ -1407,7 +1498,9 @@
     "url_iiif": null,
     "url_image_download": "https://www.bildindex.de/document/obj08148970?part=0&medium=bh798728",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "DE-003",
@@ -1447,7 +1540,9 @@
     "url_iiif": null,
     "url_image_download": "https://www.bildindex.de/document/obj30110594?part=0&medium=mi10000g04",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "DE-004",
@@ -1476,7 +1571,8 @@
       "clock",
       "civic architecture",
       "Renaissance",
-      "Esslingen"
+      "Esslingen",
+      "regime_incerto"
     ],
     "year": 1589,
     "medium_norm": "Outro",
@@ -1487,7 +1583,9 @@
     "url_iiif": null,
     "url_image_download": "https://www.bildindex.de/document/obj20553978?part=0&medium=mi05228a07",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "DE-005",
@@ -1516,7 +1614,8 @@
       "ceiling",
       "domestic space",
       "Lüneburg",
-      "wooden ceiling"
+      "wooden ceiling",
+      "regime_incerto"
     ],
     "year": 1660,
     "medium_norm": "Outro",
@@ -1527,7 +1626,9 @@
     "url_iiif": null,
     "url_image_download": "https://www.bildindex.de/document/obj20672587?part=0&medium=mi07014d04",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "MILITAR",
+    "regime_justificativa": "leão → MILITAR"
   },
   {
     "id": "DE-006",
@@ -1555,7 +1656,8 @@
       "engraving",
       "Raphael circle",
       "Italian",
-      "print"
+      "print",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1550,
     "medium_norm": "Gravura/Estampe",
@@ -1566,7 +1668,9 @@
     "url_iiif": null,
     "url_image_download": "https://www.bildindex.de/document/obj08158050?part=0&medium=bh001222",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "DE-007",
@@ -1596,7 +1700,8 @@
       "Renaissance",
       "Italian",
       "drawing",
-      "Prudence"
+      "Prudence",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1501,
     "medium_norm": "Gravura/Estampe",
@@ -1607,7 +1712,9 @@
     "url_iiif": null,
     "url_image_download": "https://www.bildindex.de/document/obj08108743?part=0&medium=bh_gern_024858_post",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "DE-008",
@@ -1635,7 +1742,8 @@
       "Weser Renaissance",
       "architectural sculpture",
       "Hameln",
-      "civic building"
+      "civic building",
+      "regime_incerto"
     ],
     "year": 1558,
     "medium_norm": "Outro",
@@ -1646,7 +1754,9 @@
     "url_iiif": null,
     "url_image_download": "https://www.bildindex.de/document/obj20608421?part=0&medium=mi11300c09",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "DE-009",
@@ -1677,7 +1787,8 @@
       "civic virtue",
       "Bremen",
       "town hall",
-      "Renaissance"
+      "Renaissance",
+      "regime_incerto"
     ],
     "year": 1596,
     "medium_norm": "Outro",
@@ -1688,7 +1799,9 @@
     "url_iiif": null,
     "url_image_download": "https://www.bildindex.de/document/obj20459153?part=0&medium=mi04250a11",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "DE-010",
@@ -1717,7 +1830,8 @@
       "Baroque",
       "Benedictine",
       "ecclesiastical",
-      "secular law"
+      "secular law",
+      "regime_incerto"
     ],
     "year": 1752,
     "medium_norm": "Outro",
@@ -1728,7 +1842,9 @@
     "url_iiif": null,
     "url_image_download": "https://www.bildindex.de/document/obj20677105?part=0&medium=mi08920i01",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "DE-011",
@@ -1757,7 +1873,8 @@
       "civic interior",
       "Leipzig",
       "town hall",
-      "Early Modern"
+      "Early Modern",
+      "regime_incerto"
     ],
     "year": 1610,
     "medium_norm": "Outro",
@@ -1768,7 +1885,9 @@
     "url_iiif": null,
     "url_image_download": "https://www.bildindex.de/document/obj30143134?part=0&medium=mi12335e10",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "MILITAR",
+    "regime_justificativa": "contexto bélico → MILITAR"
   },
   {
     "id": "NL-001",
@@ -1800,7 +1919,8 @@
       "scales",
       "Renaissance",
       "Dutch",
-      "engraving"
+      "engraving",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1500,
     "medium_norm": "Gravura/Estampe",
@@ -1810,8 +1930,10 @@
     "tags_str": "Justitia, nude, sword, scales, Renaissance, Dutch, engraving",
     "url_iiif": null,
     "url_image_download": null,
-    "iiif_source": "rijksmuseum_pending",
-    "iiif_note": "#verificar-iiif-rijksmuseum permalink_id=13997b5b276f9bbbb36a847da4c3022a"
+    "iiif_source": "none",
+    "iiif_note": "#verificar Rijksmuseum hash-based URL — requires manual lookup at https://www.rijksmuseum.nl/en/collection/object/Vrouwe-Justitia--13997b5b276f9bbbb36a847da4c3022a",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO"
   },
   {
     "id": "NL-002",
@@ -1841,7 +1963,9 @@
       "crown",
       "all-seeing eye",
       "Dutch",
-      "surveillance"
+      "surveillance",
+      "regime_incerto",
+      "fora-do-escopo-6-paises"
     ],
     "year": null,
     "medium_norm": "Outro",
@@ -1851,8 +1975,10 @@
     "tags_str": "Justitia, bust, crown, all-seeing eye, Dutch, surveillance",
     "url_iiif": null,
     "url_image_download": null,
-    "iiif_source": "rijksmuseum_pending",
-    "iiif_note": "#verificar-iiif-rijksmuseum permalink_id=314f580f935ba978fb199ce7abeb0db1"
+    "iiif_source": "none",
+    "iiif_note": "#verificar Rijksmuseum hash-based URL — requires manual lookup at https://www.rijksmuseum.nl/en/collection/object/Justitia--314f580f935ba978fb199ce7abeb0db1",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "NL-003",
@@ -1882,7 +2008,8 @@
       "Baroque",
       "Dutch",
       "title page",
-      "sovereignty"
+      "sovereignty",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1650,
     "medium_norm": "Gravura/Estampe",
@@ -1892,8 +2019,10 @@
     "tags_str": "Justitia, enthroned, Baroque, Dutch, title page, sovereignty",
     "url_iiif": null,
     "url_image_download": null,
-    "iiif_source": "rijksmuseum_pending",
-    "iiif_note": "#verificar-iiif-rijksmuseum permalink_id=a26144337b14ab57eb5ca23025308032"
+    "iiif_source": "none",
+    "iiif_note": "#verificar Rijksmuseum hash-based URL — requires manual lookup at https://www.rijksmuseum.nl/en/collection/object/Allegorie-op-de-rechtvaardigheid--a26144337b14ab57eb5ca23025308032",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "UK-001",
@@ -1936,7 +2065,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar British Museum item P_1870-0625-185 — requires manual image lookup at https://www.britishmuseum.org/collection/object/P_1870-0625-185",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO"
   },
   {
     "id": "UK-002",
@@ -1978,7 +2109,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar British Museum item P_1862-0712-304 — requires manual image lookup at https://www.britishmuseum.org/collection/object/P_1862-0712-304",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO"
   },
   {
     "id": "UK-003",
@@ -2021,7 +2154,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar British Museum item P_1862-0712-305 — requires manual image lookup at https://www.britishmuseum.org/collection/object/P_1862-0712-305",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "US-001",
@@ -2064,7 +2199,9 @@
     "url_iiif": "https://tile.loc.gov/image-services/iiif/service:pnp:cph:34572000:cph3a45724/info.json",
     "url_image_download": "https://tile.loc.gov/image-services/iiif/service:pnp:cph:34572000:cph3a45724/full/pct:100/0/default.jpg",
     "iiif_source": "loc",
-    "iiif_note": "#verificar-iiif-loc"
+    "iiif_note": "#verificar-iiif-loc",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO"
   },
   {
     "id": "US-002",
@@ -2105,7 +2242,9 @@
     "url_iiif": "https://tile.loc.gov/image-services/iiif/service:pnp:ppmsca:87910000:ppmsca87910/info.json",
     "url_image_download": "https://tile.loc.gov/image-services/iiif/service:pnp:ppmsca:87910000:ppmsca87910/full/pct:100/0/default.jpg",
     "iiif_source": "loc",
-    "iiif_note": "#verificar-iiif-loc"
+    "iiif_note": "#verificar-iiif-loc",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "US-003",
@@ -2147,7 +2286,9 @@
     "url_iiif": "https://tile.loc.gov/image-services/iiif/service:pnp:cph:30937000:cph3b09379/info.json",
     "url_image_download": "https://tile.loc.gov/image-services/iiif/service:pnp:cph:30937000:cph3b09379/full/pct:100/0/default.jpg",
     "iiif_source": "loc",
-    "iiif_note": "#verificar-iiif-loc"
+    "iiif_note": "#verificar-iiif-loc",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal, balança da justiça, venda nos olhos → NORMATIVO"
   },
   {
     "id": "US-004",
@@ -2191,7 +2332,9 @@
     "url_iiif": "https://tile.loc.gov/image-services/iiif/service:pnp:cph:30402000:cph3f04023/info.json",
     "url_image_download": "https://tile.loc.gov/image-services/iiif/service:pnp:cph:30402000:cph3f04023/full/pct:100/0/default.jpg",
     "iiif_source": "loc",
-    "iiif_note": "#verificar-iiif-loc"
+    "iiif_note": "#verificar-iiif-loc",
+    "regime": "MILITAR",
+    "regime_justificativa": "contexto bélico, período WWI → MILITAR"
   },
   {
     "id": "US-005",
@@ -2223,7 +2366,8 @@
       "Concord",
       "Clio",
       "founding",
-      "allegory"
+      "allegory",
+      "regime_incerto"
     ],
     "year": 1788,
     "medium_norm": "Gravura/Estampe",
@@ -2234,7 +2378,9 @@
     "url_iiif": "https://www.loc.gov/item/2004676797/?fo=json",
     "url_image_download": null,
     "iiif_source": "loc_api",
-    "iiif_note": "#verificar-iiif-loc"
+    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "US-006",
@@ -2275,7 +2421,9 @@
     "url_iiif": "https://www.loc.gov/item/2004673370/?fo=json",
     "url_image_download": null,
     "iiif_source": "loc_api",
-    "iiif_note": "#verificar-iiif-loc"
+    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO"
   },
   {
     "id": "US-007",
@@ -2315,7 +2463,9 @@
     "url_iiif": "https://tile.loc.gov/image-services/iiif/service:pnp:ppmsca:46404000:ppmsca46404/info.json",
     "url_image_download": "https://tile.loc.gov/image-services/iiif/service:pnp:ppmsca:46404000:ppmsca46404/full/pct:100/0/default.jpg",
     "iiif_source": "loc",
-    "iiif_note": "#verificar-iiif-loc"
+    "iiif_note": "#verificar-iiif-loc",
+    "regime": "MILITAR",
+    "regime_justificativa": "espada, contexto bélico, contexto imperial → MILITAR"
   },
   {
     "id": "US-008",
@@ -2346,7 +2496,8 @@
       "feminism",
       "pageant",
       "photograph",
-      "women's rights"
+      "women's rights",
+      "regime_incerto"
     ],
     "year": 1913,
     "medium_norm": "Fotografia",
@@ -2357,7 +2508,9 @@
     "url_iiif": "https://www.loc.gov/item/97510759/?fo=json",
     "url_image_download": null,
     "iiif_source": "loc_api",
-    "iiif_note": "#verificar-iiif-loc"
+    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "US-009",
@@ -2397,7 +2550,9 @@
     "url_iiif": "https://www.loc.gov/item/2018664118/?fo=json",
     "url_image_download": null,
     "iiif_source": "loc_api",
-    "iiif_note": "#verificar-iiif-loc"
+    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte selo postal → NORMATIVO"
   },
   {
     "id": "DE-012",
@@ -2430,7 +2585,8 @@
       "painting",
       "sword",
       "scales",
-      "Northern Renaissance"
+      "Northern Renaissance",
+      "regime_incerto"
     ],
     "year": 1537,
     "medium_norm": "Pintura/Desenho",
@@ -2441,7 +2597,9 @@
     "url_iiif": null,
     "url_image_download": "https://commons.wikimedia.org/wiki/File:Gerechtigkeit-1537.jpg",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "balança da justiça → NORMATIVO"
   },
   {
     "id": "FR-012",
@@ -2484,7 +2642,9 @@
     "url_iiif": null,
     "url_image_download": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "FUNDACIONAL",
+    "regime_justificativa": "contexto revolucionário, tema Liberdade, seminudez, corpo dinâmico → FUNDACIONAL"
   },
   {
     "id": "UK-004",
@@ -2516,7 +2676,8 @@
       "unblindfolded",
       "bronze",
       "courthouse",
-      "Pomeroy"
+      "Pomeroy",
+      "regime_incerto"
     ],
     "year": 1907,
     "medium_norm": "Outro",
@@ -2527,7 +2688,9 @@
     "url_iiif": null,
     "url_image_download": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Old_Bailey_Lady_Justice.jpg",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "balança da justiça, venda nos olhos → NORMATIVO"
   },
   {
     "id": "BR-009",
@@ -2572,7 +2735,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Instituto Moreira Salles — requires manual image lookup at https://acervos.ims.com.br/index.php/Detail/objects/18758",
+    "regime": "MILITAR",
+    "regime_justificativa": "espada → MILITAR"
   },
   {
     "id": "BE-001",
@@ -2603,7 +2768,8 @@
       "city hall",
       "ceiling painting",
       "civic virtue",
-      "Belgium"
+      "Belgium",
+      "regime_incerto"
     ],
     "year": 1885,
     "medium_norm": "Outro",
@@ -2614,7 +2780,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Brussels Heritage Collections — requires manual image lookup at https://collections.heritage.brussels/fr/objects/36822",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "balança da justiça → NORMATIVO"
   },
   {
     "id": "BR-010",
@@ -2643,7 +2811,8 @@
       "impressionism",
       "Biblioteca Nacional",
       "Rio de Janeiro",
-      "Republic"
+      "Republic",
+      "regime_incerto"
     ],
     "year": 1910,
     "medium_norm": "Pintura/Desenho",
@@ -2654,7 +2823,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Eliseu Visconti Project — requires manual image lookup at https://eliseuvisconti.com.br/obra/d702/",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "BE-002",
@@ -2685,7 +2856,8 @@
       "courthouse",
       "architecture",
       "colonialism",
-      "Belgium"
+      "Belgium",
+      "regime_incerto"
     ],
     "year": 1866,
     "medium_norm": "Outro",
@@ -2696,7 +2868,9 @@
     "url_iiif": null,
     "url_image_download": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bruxelles_-_Palais_de_Justice.jpg",
     "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail"
+    "iiif_note": "#sem-iiif usar-thumbnail",
+    "regime": "MILITAR",
+    "regime_justificativa": "contexto colonial → MILITAR"
   },
   {
     "id": "NL-004",
@@ -2726,7 +2900,8 @@
       "Justice",
       "Dutch Golden Age",
       "Goltzius",
-      "virtue series"
+      "virtue series",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1587,
     "medium_norm": "Gravura",
@@ -2734,10 +2909,12 @@
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Alegoria feminina, Espada, Balança",
     "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Goltzius, virtue series",
-    "url_iiif": null,
+    "url_iiif": "https://iiif.rijksmuseum.nl/iiif/RP-P-OB-27.296/manifest.json",
     "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_source": "rijksmuseum_iiif_only",
+    "iiif_note": "#verificar IIIF manifest for RP-P-OB-27.296 — image URL extraction failed",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "balança da justiça, venda nos olhos → NORMATIVO"
   },
   {
     "id": "NL-005",
@@ -2769,7 +2946,9 @@
       "exempla iustitiae",
       "Cambyses",
       "Zaleucus",
-      "Dutch Golden Age"
+      "Dutch Golden Age",
+      "regime_incerto",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1614,
     "medium_norm": "Gravura",
@@ -2777,10 +2956,12 @@
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Alegoria feminina, Julgamento, Espada, Balança",
     "tags_str": "Justitia, female allegory, Justice, exempla iustitiae, Cambyses, Zaleucus, Dutch Golden Age",
-    "url_iiif": null,
+    "url_iiif": "https://iiif.rijksmuseum.nl/iiif/RP-P-1883-A-6992/manifest.json",
     "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_source": "rijksmuseum_iiif_only",
+    "iiif_note": "#verificar IIIF manifest for RP-P-1883-A-6992 — image URL extraction failed",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "balança da justiça → NORMATIVO"
   },
   {
     "id": "NL-006",
@@ -2810,7 +2991,9 @@
       "Justice",
       "Dutch Golden Age",
       "Goltzius",
-      "cardinal virtues"
+      "cardinal virtues",
+      "regime_incerto",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1597,
     "medium_norm": "Gravura",
@@ -2818,10 +3001,12 @@
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Alegoria feminina, Espada, Balança",
     "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Goltzius, cardinal virtues",
-    "url_iiif": null,
+    "url_iiif": "https://iiif.rijksmuseum.nl/iiif/RP-P-OB-27.124/manifest.json",
     "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_source": "rijksmuseum_iiif_only",
+    "iiif_note": "#verificar IIIF manifest for RP-P-OB-27.124 — image URL extraction failed",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "balança da justiça → NORMATIVO"
   },
   {
     "id": "NL-007",
@@ -2851,7 +3036,9 @@
       "Justice",
       "Dutch Golden Age",
       "Goltzius tradition",
-      "anonymous"
+      "anonymous",
+      "regime_incerto",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1610,
     "medium_norm": "Gravura",
@@ -2859,10 +3046,12 @@
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Alegoria feminina, Espada, Balança",
     "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Goltzius tradition, anonymous",
-    "url_iiif": null,
+    "url_iiif": "https://iiif.rijksmuseum.nl/iiif/RP-P-1882-A-6499/manifest.json",
     "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_source": "rijksmuseum_iiif_only",
+    "iiif_note": "#verificar IIIF manifest for RP-P-1882-A-6499 — image URL extraction failed",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "balança da justiça → NORMATIVO"
   },
   {
     "id": "NL-008",
@@ -2891,7 +3080,9 @@
       "female allegory",
       "Justice",
       "Dutch Golden Age",
-      "Matham"
+      "Matham",
+      "regime_incerto",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1593,
     "medium_norm": "Gravura",
@@ -2899,10 +3090,12 @@
     "period_norm": "Renascimento/Moderno Inicial",
     "motif_str": "Justitia, Alegoria feminina, Espada, Balança",
     "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Matham",
-    "url_iiif": null,
+    "url_iiif": "https://iiif.rijksmuseum.nl/iiif/RP-P-1887-A-12280/manifest.json",
     "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_source": "rijksmuseum_iiif_only",
+    "iiif_note": "#verificar IIIF manifest for RP-P-1887-A-12280 — image URL extraction failed",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "balança da justiça → NORMATIVO"
   },
   {
     "id": "FR-013",
@@ -2946,7 +3139,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b69480451/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b69480451/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "FUNDACIONAL",
+    "regime_justificativa": "contexto revolucionário, tema Liberdade, barrete frígio → FUNDACIONAL"
   },
   {
     "id": "FR-014",
@@ -2988,7 +3183,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410817c/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410817c/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "FUNDACIONAL",
+    "regime_justificativa": "contexto revolucionário, tema Liberdade → FUNDACIONAL"
   },
   {
     "id": "FR-015",
@@ -3020,7 +3217,8 @@
       "fiscal governance",
       "allegorical frontispiece",
       "Enlightenment",
-      "state finance"
+      "state finance",
+      "regime_incerto"
     ],
     "year": 1781,
     "medium_norm": "Gravura",
@@ -3031,7 +3229,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410270p/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410270p/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "FR-016",
@@ -3063,7 +3263,8 @@
       "fiscal governance",
       "allegorical frontispiece",
       "Enlightenment",
-      "variant edition"
+      "variant edition",
+      "regime_incerto"
     ],
     "year": 1781,
     "medium_norm": "Gravura",
@@ -3074,7 +3275,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6942595s/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6942595s/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "FR-017",
@@ -3105,7 +3308,8 @@
       "fiscal governance",
       "allegorical frontispiece",
       "Enlightenment",
-      "transparency"
+      "transparency",
+      "regime_incerto"
     ],
     "year": 1781,
     "medium_norm": "Gravura",
@@ -3116,7 +3320,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410268m/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410268m/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "FR-018",
@@ -3160,7 +3366,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8412560z/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8412560z/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "FUNDACIONAL",
+    "regime_justificativa": "contexto revolucionário, tema Liberdade → FUNDACIONAL"
   },
   {
     "id": "US-010",
@@ -3192,7 +3400,8 @@
       "antebellum",
       "republican values",
       "American iconography",
-      "broadside"
+      "broadside",
+      "regime_incerto"
     ],
     "year": 1834,
     "medium_norm": "Gravura",
@@ -3203,7 +3412,9 @@
     "url_iiif": "https://www.loc.gov/item/2008661765/?fo=json",
     "url_image_download": null,
     "iiif_source": "loc_api",
-    "iiif_note": "#verificar-iiif-loc"
+    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "UK-005",
@@ -3235,7 +3446,8 @@
       "Renaissance",
       "Justice",
       "Delaune",
-      "sword and scales"
+      "sword and scales",
+      "regime_incerto"
     ],
     "year": 1560,
     "medium_norm": "Gravura",
@@ -3244,9 +3456,11 @@
     "motif_str": "Justitia, Jurisprudência, Alegoria feminina, Espada, Balança",
     "tags_str": "Justitia, Jurisprudentia, female allegory, Renaissance, Justice, Delaune, sword and scales",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "url_image_download": "https://iiif.wellcomecollection.org/image/V0007524EC/full/300,/0/default.jpg",
+    "iiif_source": "wellcome",
+    "iiif_note": "Resolved via Wellcome API, work rkvhanzr",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "balança da justiça → NORMATIVO"
   },
   {
     "id": "ES-001",
@@ -3278,7 +3492,8 @@
       "Second Republic",
       "España",
       "Republican iconography",
-      "Spain France"
+      "Spain France",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1931,
     "medium_norm": "Gravura",
@@ -3289,7 +3504,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Biblioteca Digital Hispánica (BNE) — requires manual image lookup at https://bdh.bne.es/bnesearch/detalle/76944",
+    "regime": "FUNDACIONAL",
+    "regime_justificativa": "tema Liberdade, barrete frígio, proclamação → FUNDACIONAL"
   },
   {
     "id": "US-011",
@@ -3333,7 +3550,9 @@
     "url_iiif": "https://www.loc.gov/item/91726511/?fo=json",
     "url_image_download": null,
     "iiif_source": "loc_api",
-    "iiif_note": "#verificar-iiif-loc"
+    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "regime": "MILITAR",
+    "regime_justificativa": "contexto bélico, propaganda, período WWI → MILITAR"
   },
   {
     "id": "US-012",
@@ -3376,7 +3595,9 @@
     "url_iiif": "https://www.loc.gov/item/95506508/?fo=json",
     "url_image_download": null,
     "iiif_source": "loc_api",
-    "iiif_note": "#verificar-iiif-loc"
+    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "regime": "MILITAR",
+    "regime_justificativa": "espada, contexto bélico, propaganda, período WWI → MILITAR"
   },
   {
     "id": "UK-006",
@@ -3420,7 +3641,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Imperial War Museum — requires manual image lookup at https://www.iwm.org.uk/collections/item/object/14592",
+    "regime": "MILITAR",
+    "regime_justificativa": "contexto bélico, propaganda, período WWI → MILITAR"
   },
   {
     "id": "FR-019",
@@ -3465,7 +3688,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9012753r/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9012753r/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "MILITAR",
+    "regime_justificativa": "propaganda, período WWI → MILITAR"
   },
   {
     "id": "DE-013",
@@ -3509,7 +3734,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar DHM / Lebendiges Museum Online (LeMO) — requires manual image lookup at https://www.dhm.de/lemo/bestand/objekt/gemaelde-friedrich-august-von-kaulbach-germania-1914",
+    "regime": "MILITAR",
+    "regime_justificativa": "escudo, espada, contexto bélico, contexto imperial → MILITAR"
   },
   {
     "id": "ES-002",
@@ -3542,7 +3769,9 @@
       "barrete frígio",
       "Espanha",
       "feminino",
-      "constitucionalismo"
+      "constitucionalismo",
+      "regime_incerto",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1873,
     "medium_norm": "gravura/litografia",
@@ -3553,7 +3782,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Hemeroteca Digital BNE — requires manual image lookup at https://hemerotecadigital.bne.es/hd/es/card?sid=3971781",
+    "regime": "FUNDACIONAL",
+    "regime_justificativa": "barrete frígio → FUNDACIONAL"
   },
   {
     "id": "UY-001",
@@ -3586,7 +3817,9 @@
       "pintura",
       "república",
       "feminino",
-      "Blanes"
+      "Blanes",
+      "regime_incerto",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1896,
     "medium_norm": "pintura",
@@ -3597,7 +3830,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Museos del Uruguay (museos.gub.uy) — requires manual image lookup at https://www.museos.gub.uy/index.php/component/k2/item/1550-juan-manuel-blanes-1830-1901",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
   },
   {
     "id": "MX-001",
@@ -3630,7 +3865,8 @@
       "Posada",
       "litografia",
       "imprensa porfirista",
-      "feminino"
+      "feminino",
+      "fora-do-escopo-6-paises"
     ],
     "year": 1889,
     "medium_norm": "gravura/litografia",
@@ -3641,7 +3877,9 @@
     "url_iiif": "https://www.loc.gov/item/2003656173/?fo=json",
     "url_image_download": null,
     "iiif_source": "loc_api",
-    "iiif_note": "#verificar-iiif-loc"
+    "iiif_note": "#verificar URL resolution failed for Library of Congress Prints and Photographs Division",
+    "regime": "FUNDACIONAL",
+    "regime_justificativa": "contexto fundacional (ano 1889) → FUNDACIONAL"
   },
   {
     "id": "FR-020",
@@ -3676,7 +3914,8 @@
       "miniatura",
       "Bolonha",
       "BnF",
-      "Gallica"
+      "Gallica",
+      "regime_incerto"
     ],
     "year": 1250,
     "medium_norm": "iluminura/manuscrito",
@@ -3687,7 +3926,9 @@
     "url_iiif": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10544534k/manifest.json",
     "url_image_download": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10544534k/f1/full/1000,/0/native.jpg",
     "iiif_source": "gallica",
-    "iiif_note": null
+    "iiif_note": null,
+    "regime": "NORMATIVO",
+    "regime_justificativa": "balança da justiça → NORMATIVO"
   },
   {
     "id": "US-EDUC-1896-02",
@@ -3712,7 +3953,10 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Smithsonian — API blocked, manual download from https://americanhistory.si.edu/collections/object/nmah_1817050",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "Nota educacional numismática, suporte circulante → NORMATIVO",
+    "tags": []
   },
   {
     "id": "US-EDUC-1896-05",
@@ -3736,7 +3980,10 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Smithsonian — API blocked, manual download from https://americanhistory.si.edu/collections/object/nmah_1816788",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "Nota educacional numismática, suporte circulante → NORMATIVO",
+    "tags": []
   },
   {
     "id": "FR-SEM-1898",
@@ -3760,7 +4007,9 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Numista — no public image API. Manual download from https://en.numista.com/catalogue/pieces682.html",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte numismático, modelo Semeuse → NORMATIVO"
   },
   {
     "id": "DE-NOTG-1921",
@@ -3783,7 +4032,12 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar URL resolution failed for British Museum / UChicago Special Collections",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "tags": [
+      "regime_incerto"
+    ]
   },
   {
     "id": "DE-WR-1919-50M",
@@ -3807,7 +4061,12 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Numizon — requires manual image lookup at https://www.numizon.com/en/banknote/germany-reichsbanknotes-50-mark-type-1919-pick-66/deu-p66/",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "tags": [
+      "regime_incerto"
+    ]
   },
   {
     "id": "DE-WR-1924-50PF",
@@ -3831,6 +4090,8 @@
     "url_iiif": null,
     "url_image_download": null,
     "iiif_source": "none",
-    "iiif_note": "#sem-iiif #verificar"
+    "iiif_note": "#verificar Numista — no public image API. Manual download from https://en.numista.com/catalogue/pieces2546.html",
+    "regime": "NORMATIVO",
+    "regime_justificativa": "suporte numismático → NORMATIVO"
   }
 ]
