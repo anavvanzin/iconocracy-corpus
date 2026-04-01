@@ -6,6 +6,8 @@ from pathlib import Path
 vault_dirs = [
     Path("/Users/ana/iconocracy-corpus/vault/corpus/scout-session-2026-03-28"),
     Path("/Users/ana/iconocracy-corpus/vault/corpus/scout-session-2026-03-29"),
+    Path("/Users/ana/iconocracy-corpus/vault/corpus/scout-session-2026-03-30"),
+    Path("/Users/ana/iconocracy-corpus/vault/corpus/scout-session-2026-04-01"),
 ]
 
 def parse_frontmatter(text):
@@ -107,7 +109,7 @@ for vault_dir in vault_dirs:
                         candidates.append(entry)
 
 data = {
-    "session": "2026-03-28 / 2026-03-29",
+    "session": "2026-03-28 — 2026-04-01",
     "title": "CORPUS SCOUT — Campanhas de Pesquisa Iconografica",
     "thesis": "ICONOCRACY: Alegoria Feminina na Historia da Cultura Juridica (Sec. XIX-XX)",
     "total_candidates": len(candidates),

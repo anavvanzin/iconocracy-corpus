@@ -2,10 +2,10 @@
 id: SCOUT-SESSION-2026-04-01
 tipo: sessao-scout
 data: 2026-04-01
-query_executada: "Campanha numismática: preencher lacunas em MILITAR (moedas, medalhas) e moeda/papel-moeda (todos os regimes) nos 6 países do corpus"
-total_candidatos: 8
-pais: [UK, FR, US, BE, BR]
-periodo: "1860-1937"
+query_executada: "Campanha numismática + filatélica: preencher lacunas em MILITAR, moeda/papel-moeda e selo nos 6 países do corpus"
+total_candidatos: 11
+pais: [UK, FR, US, BE, BR, DE]
+periodo: "1860-1960"
 tags:
   - corpus/sessao-scout
   - protocolo
