@@ -5326,10 +5326,21 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null
+    "endurecimento_score": 2.7,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 4,
+      "serialidade": 4,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-04-01T12:00:00Z"
   },
   {
     "id": "FR-PIAST-1885",
@@ -5373,10 +5384,21 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null
+    "endurecimento_score": 2.5,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 3,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 4,
+      "serialidade": 4,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-04-01T12:00:00Z"
   },
   {
     "id": "US-SLQ-1916",
@@ -5419,10 +5441,21 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null
+    "endurecimento_score": 1.9,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 4,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-04-01T12:00:00Z"
   },
   {
     "id": "BE-IND-1880",
@@ -5464,10 +5497,21 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null
+    "endurecimento_score": 2.1,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 4,
+      "serialidade": 2,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-04-01T12:00:00Z"
   },
   {
     "id": "BR-2000R-1907",
@@ -5508,10 +5552,21 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null
+    "endurecimento_score": 3.1,
+    "indicadores": {
+      "desincorporacao": 3,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 4,
+      "serialidade": 4,
+      "inscricao_estatal": 4
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-04-01T12:00:00Z"
   },
   {
     "id": "UK-PENNY-1860",
@@ -5555,10 +5610,21 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null
+    "endurecimento_score": 2.7,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 4,
+      "serialidade": 4,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-04-01T12:00:00Z"
   },
   {
     "id": "FR-HERC-1870",
@@ -5602,10 +5668,21 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null
+    "endurecimento_score": 1.6,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 4,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-04-01T12:00:00Z"
   },
   {
     "id": "BE-CONGO-1912",
@@ -5650,9 +5727,20 @@
     "support": "papel-moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null
+    "endurecimento_score": 2.1,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 3,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 3,
+      "inscricao_estatal": 4
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-04-01T12:00:00Z"
   }
 ]
