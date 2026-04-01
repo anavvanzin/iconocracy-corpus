@@ -49,7 +49,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "fotografia"
+    "support": "fotografia",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "BR-002",
@@ -102,7 +104,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "fotografia"
+    "support": "fotografia",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "BR-003",
@@ -155,7 +159,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "fotografia"
+    "support": "fotografia",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "BR-004",
@@ -208,7 +214,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "fotografia"
+    "support": "fotografia",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "BR-005",
@@ -262,7 +270,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "pintura"
+    "support": "pintura",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "BR-006",
@@ -315,7 +325,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "pintura"
+    "support": "pintura",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "BR-007",
@@ -369,7 +381,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "texto"
+    "support": "texto",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "BR-008",
@@ -422,7 +436,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "texto"
+    "support": "texto",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-001",
@@ -476,7 +492,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-002",
@@ -529,7 +547,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-003",
@@ -580,7 +600,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-004",
@@ -634,7 +656,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-005",
@@ -687,7 +711,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-006",
@@ -740,7 +766,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-007",
@@ -795,7 +823,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "cartaz"
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-008",
@@ -850,7 +880,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "cartaz"
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-009",
@@ -904,7 +936,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "fotografia"
+    "support": "fotografia",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-010",
@@ -957,7 +991,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "EU-001",
@@ -1011,7 +1047,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "fotografia"
+    "support": "fotografia",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "EU-002",
@@ -1064,7 +1102,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "EU-003",
@@ -1117,7 +1157,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "comparanda",
+    "scope_note": "Jacob Matham — canonical Justitia iconography, Dutch/German circulation"
   },
   {
     "id": "EU-004",
@@ -1169,7 +1212,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Renaissance Italian Justitia — art-historical roots, no state function"
   },
   {
     "id": "EU-005",
@@ -1222,7 +1268,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "monumento"
+    "support": "monumento",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Austrian Renaissance Justitia — pre-modern, no republican context"
   },
   {
     "id": "EU-006",
@@ -1276,7 +1325,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "EU-007",
@@ -1328,7 +1379,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "EU-008",
@@ -1383,7 +1436,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Austrian Baroque Justitia — pre-modern, no republican context"
   },
   {
     "id": "EU-009",
@@ -1435,7 +1491,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "comparanda",
+    "scope_note": "French artist (Puvis de Chavannes), held in Austria — actually FR"
   },
   {
     "id": "PT-001",
@@ -1487,7 +1546,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "cartaz"
+    "support": "cartaz",
+    "in_scope": false,
+    "scope_role": "weak",
+    "scope_note": "Post-1974 revolutionary poster — interesting but isolated"
   },
   {
     "id": "PT-002",
@@ -1540,7 +1602,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "weak",
+    "scope_note": "Allegory of History — not juridical-political function"
   },
   {
     "id": "PT-003",
@@ -1592,7 +1657,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "weak",
+    "scope_note": "Allegory of Death — not juridical-political function"
   },
   {
     "id": "PT-004",
@@ -1644,7 +1712,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "weak",
+    "scope_note": "Allegory of Time — not juridical-political function"
   },
   {
     "id": "PT-005",
@@ -1698,7 +1769,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "cartaz"
+    "support": "cartaz",
+    "in_scope": false,
+    "scope_role": "comparanda",
+    "scope_note": "Portuguese Republic allegory — Lusophone comparison with BR"
   },
   {
     "id": "FR-011",
@@ -1752,7 +1826,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "frontispicio"
+    "support": "frontispicio",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "DE-001",
@@ -1808,7 +1884,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "monumento"
+    "support": "monumento",
+    "in_scope": false,
+    "scope_role": "comparanda",
+    "scope_note": "Bern Justitia fountain (1543) — iconic Nachleben reference, pre-period"
   },
   {
     "id": "DE-002",
@@ -1862,7 +1941,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "monumento"
+    "support": "monumento",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Medieval Italian Justitia — Porta di Capua, no republican context"
   },
   {
     "id": "DE-003",
@@ -1915,7 +1997,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "DE-004",
@@ -1968,7 +2052,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "monumento"
+    "support": "monumento",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "DE-005",
@@ -2021,7 +2107,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "pintura"
+    "support": "pintura",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "DE-006",
@@ -2073,7 +2161,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Renaissance Italian Justitia — Marcantonio Raimondi"
   },
   {
     "id": "DE-007",
@@ -2127,7 +2218,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Renaissance Italian Justitia — cardinal virtues pair"
   },
   {
     "id": "DE-008",
@@ -2179,7 +2273,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "monumento"
+    "support": "monumento",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "DE-009",
@@ -2234,7 +2330,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "monumento"
+    "support": "monumento",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "DE-010",
@@ -2287,7 +2385,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "monumento"
+    "support": "monumento",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "DE-011",
@@ -2340,7 +2440,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "monumento"
+    "support": "monumento",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "NL-001",
@@ -2396,7 +2498,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
   },
   {
     "id": "NL-002",
@@ -2450,7 +2555,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "monumento"
+    "support": "monumento",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
   },
   {
     "id": "NL-003",
@@ -2504,7 +2612,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "frontispicio"
+    "support": "frontispicio",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
   },
   {
     "id": "UK-001",
@@ -2560,7 +2671,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "UK-002",
@@ -2615,7 +2728,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "UK-003",
@@ -2671,7 +2786,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "US-001",
@@ -2727,7 +2844,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "US-002",
@@ -2781,7 +2900,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "fotografia"
+    "support": "fotografia",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "US-003",
@@ -2836,7 +2957,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "US-004",
@@ -2893,7 +3016,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "cartaz"
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "US-005",
@@ -2949,7 +3074,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "US-006",
@@ -3003,7 +3130,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "US-007",
@@ -3056,7 +3185,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "US-008",
@@ -3111,7 +3242,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "fotografia"
+    "support": "fotografia",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "US-009",
@@ -3164,7 +3297,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "fotografia"
+    "support": "fotografia",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "DE-012",
@@ -3221,7 +3356,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "pintura"
+    "support": "pintura",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-012",
@@ -3277,7 +3414,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "pintura"
+    "support": "pintura",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "UK-004",
@@ -3333,7 +3472,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "monumento"
+    "support": "monumento",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "BR-009",
@@ -3391,7 +3532,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "monumento"
+    "support": "monumento",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "BE-001",
@@ -3446,7 +3589,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "pintura"
+    "support": "pintura",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "BR-010",
@@ -3499,7 +3644,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "pintura"
+    "support": "pintura",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "BE-002",
@@ -3554,7 +3701,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "monumento"
+    "support": "monumento",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "NL-004",
@@ -3608,7 +3757,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
   },
   {
     "id": "NL-005",
@@ -3664,7 +3816,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
   },
   {
     "id": "NL-006",
@@ -3718,7 +3873,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
   },
   {
     "id": "NL-007",
@@ -3772,7 +3930,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
   },
   {
     "id": "NL-008",
@@ -3825,7 +3986,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "borderline",
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
   },
   {
     "id": "FR-013",
@@ -3882,7 +4046,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-014",
@@ -3937,7 +4103,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-015",
@@ -3993,7 +4161,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-016",
@@ -4049,7 +4219,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-017",
@@ -4104,7 +4276,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-018",
@@ -4161,7 +4335,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "US-010",
@@ -4217,7 +4393,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "UK-005",
@@ -4273,7 +4451,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "ES-001",
@@ -4329,7 +4509,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "comparanda",
+    "scope_note": "Cross-national Contrato Sexual Visual: Marianne + Spanish Republic allegory"
   },
   {
     "id": "US-011",
@@ -4386,7 +4569,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "cartaz"
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "US-012",
@@ -4442,7 +4627,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "cartaz"
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "UK-006",
@@ -4499,7 +4686,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "cartaz"
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-019",
@@ -4557,7 +4746,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "cartaz"
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "DE-013",
@@ -4614,7 +4805,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "pintura"
+    "support": "pintura",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "ES-002",
@@ -4671,7 +4864,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "comparanda",
+    "scope_note": "La Flaca — satirical counter-allegory, rare subversive case"
   },
   {
     "id": "UY-001",
@@ -4728,7 +4924,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "pintura"
+    "support": "pintura",
+    "in_scope": false,
+    "scope_role": "weak",
+    "scope_note": "Latin America — only 1 item, no critical mass"
   },
   {
     "id": "MX-001",
@@ -4785,7 +4984,10 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "estampa"
+    "support": "estampa",
+    "in_scope": false,
+    "scope_role": "weak",
+    "scope_note": "Latin America — only 1 item, no critical mass"
   },
   {
     "id": "FR-020",
@@ -4844,7 +5046,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "frontispicio"
+    "support": "frontispicio",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "US-EDUC-1896-02",
@@ -4882,7 +5086,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "papel-moeda"
+    "support": "papel-moeda",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "US-EDUC-1896-05",
@@ -4919,7 +5125,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "papel-moeda"
+    "support": "papel-moeda",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "FR-SEM-1898",
@@ -4956,7 +5164,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "moeda"
+    "support": "moeda",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "DE-NOTG-1921",
@@ -4992,7 +5202,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "papel-moeda"
+    "support": "papel-moeda",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "DE-WR-1919-50M",
@@ -5029,7 +5241,9 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "papel-moeda"
+    "support": "papel-moeda",
+    "in_scope": true,
+    "scope_note": null
   },
   {
     "id": "DE-WR-1924-50PF",
@@ -5066,6 +5280,8 @@
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
-    "support": "moeda"
+    "support": "moeda",
+    "in_scope": true,
+    "scope_note": null
   }
 ]
