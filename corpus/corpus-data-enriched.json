@@ -38,7 +38,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "Estátua em exposição nacional 1908, função cívico-institucional → NORMATIVO"
+    "regime_justificativa": "Estátua em exposição nacional 1908, função cívico-institucional → NORMATIVO",
+    "local_image_path": "corpus/imagens/BR/BR-001.jpg"
   },
   {
     "id": "BR-002",
@@ -80,7 +81,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "Monumento à República em praça pública, figura estática sobre coluna, bandeira → NORMATIVO"
+    "regime_justificativa": "Monumento à República em praça pública, figura estática sobre coluna, bandeira → NORMATIVO",
+    "local_image_path": "corpus/imagens/BR/BR-002.jpg"
   },
   {
     "id": "BR-003",
@@ -122,7 +124,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "Monumento à República em praça pública, figura entronizada sobre coluna → NORMATIVO"
+    "regime_justificativa": "Monumento à República em praça pública, figura entronizada sobre coluna → NORMATIVO",
+    "local_image_path": "corpus/imagens/BR/BR-003.jpg"
   },
   {
     "id": "BR-004",
@@ -164,7 +167,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "Frontispício de publicação jurídica, função institucional → NORMATIVO"
+    "regime_justificativa": "Frontispício de publicação jurídica, função institucional → NORMATIVO",
+    "local_image_path": "corpus/imagens/BR/BR-004.jpg"
   },
   {
     "id": "BR-005",
@@ -380,7 +384,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/FR/FR-001.jpg"
   },
   {
     "id": "FR-002",
@@ -422,7 +427,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/FR/FR-002.jpg"
   },
   {
     "id": "FR-003",
@@ -462,7 +468,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/FR/FR-003.jpg"
   },
   {
     "id": "FR-004",
@@ -505,7 +512,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/FR/FR-004.jpg"
   },
   {
     "id": "FR-005",
@@ -548,7 +556,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/FR/FR-005.jpg"
   },
   {
     "id": "FR-006",
@@ -590,7 +599,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/FR/FR-006.jpg"
   },
   {
     "id": "FR-007",
@@ -634,7 +644,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "MILITAR",
-    "regime_justificativa": "contexto bélico, propaganda, período WWI → MILITAR"
+    "regime_justificativa": "contexto bélico, propaganda, período WWI → MILITAR",
+    "local_image_path": "corpus/imagens/FR/FR-007.jpg"
   },
   {
     "id": "FR-008",
@@ -678,7 +689,8 @@
     "iiif_source": "europeana_gallica",
     "iiif_note": null,
     "regime": "MILITAR",
-    "regime_justificativa": "período WWI → MILITAR"
+    "regime_justificativa": "período WWI → MILITAR",
+    "local_image_path": "corpus/imagens/FR/FR-008.jpg"
   },
   {
     "id": "FR-009",
@@ -722,7 +734,8 @@
     "iiif_source": "europeana_gallica",
     "iiif_note": null,
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/FR/FR-009.jpg"
   },
   {
     "id": "FR-010",
@@ -764,7 +777,8 @@
     "iiif_source": "europeana_gallica",
     "iiif_note": null,
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/FR/FR-010.jpg"
   },
   {
     "id": "EU-001",
@@ -807,7 +821,8 @@
     "iiif_source": "europeana_resolved",
     "iiif_note": "Resolved via Europeana API, record 201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S",
     "regime": "MILITAR",
-    "regime_justificativa": "período WWII → MILITAR"
+    "regime_justificativa": "período WWII → MILITAR",
+    "local_image_path": "corpus/imagens/EU/EU-001.jpg"
   },
   {
     "id": "EU-002",
@@ -850,7 +865,8 @@
     "iiif_source": "europeana_resolved",
     "iiif_note": "Resolved via Europeana API, record 2048001/AP_10342206",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/EU/EU-002.jpg"
   },
   {
     "id": "EU-003",
@@ -892,7 +908,8 @@
     "iiif_source": "europeana_resolved",
     "iiif_note": "Resolved via Europeana API, record 89/item_ZCR4KC47OMJN7DRRDFTIWRQS33M7PBN2",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO"
+    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/EU/EU-003.jpg"
   },
   {
     "id": "EU-004",
@@ -934,7 +951,8 @@
     "iiif_source": "europeana_resolved",
     "iiif_note": "Resolved via Europeana API, record 446/RML0348941",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/EU/EU-004.jpg"
   },
   {
     "id": "EU-005",
@@ -978,7 +996,8 @@
     "iiif_source": "europeana_resolved",
     "iiif_note": "Resolved via Europeana API, record 15502/KK_6068",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/EU/EU-005.jpg"
   },
   {
     "id": "EU-006",
@@ -1022,7 +1041,8 @@
     "iiif_source": "europeana_resolved",
     "iiif_note": "Resolved via Europeana API, record 89/item_MH6IXNHWTECBQCNPU7IIMCFP2BDFAV76",
     "regime": "NORMATIVO",
-    "regime_justificativa": "balança da justiça → NORMATIVO"
+    "regime_justificativa": "balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/EU/EU-006.jpg"
   },
   {
     "id": "EU-007",
@@ -1064,7 +1084,8 @@
     "iiif_source": "europeana_resolved",
     "iiif_note": "Resolved via Europeana API, record 2048001/AP_10133590",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/EU/EU-007.jpg"
   },
   {
     "id": "EU-008",
@@ -1194,7 +1215,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "FUNDACIONAL",
-    "regime_justificativa": "contexto revolucionário → FUNDACIONAL"
+    "regime_justificativa": "contexto revolucionário → FUNDACIONAL",
+    "local_image_path": "corpus/imagens/PT/PT-001.tif"
   },
   {
     "id": "PT-002",
@@ -1237,7 +1259,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/PT/PT-002.tif"
   },
   {
     "id": "PT-003",
@@ -1279,7 +1302,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/PT/PT-003.tif"
   },
   {
     "id": "PT-004",
@@ -1321,7 +1345,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/PT/PT-004.tif"
   },
   {
     "id": "PT-005",
@@ -1455,7 +1480,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "balança da justiça, venda nos olhos → NORMATIVO"
+    "regime_justificativa": "balança da justiça, venda nos olhos → NORMATIVO",
+    "local_image_path": "corpus/imagens/DE/DE-001.jpg"
   },
   {
     "id": "DE-002",
@@ -1500,7 +1526,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/DE/DE-002.jpg"
   },
   {
     "id": "DE-003",
@@ -1542,7 +1569,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/DE/DE-003.jpg"
   },
   {
     "id": "DE-004",
@@ -1585,7 +1613,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/DE/DE-004.jpg"
   },
   {
     "id": "DE-005",
@@ -1628,7 +1657,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "MILITAR",
-    "regime_justificativa": "leão → MILITAR"
+    "regime_justificativa": "leão → MILITAR",
+    "local_image_path": "corpus/imagens/DE/DE-005.jpg"
   },
   {
     "id": "DE-006",
@@ -1670,7 +1700,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/DE/DE-006.jpg"
   },
   {
     "id": "DE-007",
@@ -1714,7 +1745,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/DE/DE-007.jpg"
   },
   {
     "id": "DE-008",
@@ -1756,7 +1788,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/DE/DE-008.jpg"
   },
   {
     "id": "DE-009",
@@ -1801,7 +1834,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/DE/DE-009.jpg"
   },
   {
     "id": "DE-010",
@@ -1844,7 +1878,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/DE/DE-010.jpg"
   },
   {
     "id": "DE-011",
@@ -1887,7 +1922,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "MILITAR",
-    "regime_justificativa": "contexto bélico → MILITAR"
+    "regime_justificativa": "contexto bélico → MILITAR",
+    "local_image_path": "corpus/imagens/DE/DE-011.jpg"
   },
   {
     "id": "NL-001",
@@ -2599,7 +2635,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "NORMATIVO",
-    "regime_justificativa": "balança da justiça → NORMATIVO"
+    "regime_justificativa": "balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/DE/DE-012.jpg"
   },
   {
     "id": "FR-012",
@@ -2644,7 +2681,8 @@
     "iiif_source": "thumbnail_fallback",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "FUNDACIONAL",
-    "regime_justificativa": "contexto revolucionário, tema Liberdade, seminudez, corpo dinâmico → FUNDACIONAL"
+    "regime_justificativa": "contexto revolucionário, tema Liberdade, seminudez, corpo dinâmico → FUNDACIONAL",
+    "local_image_path": "corpus/imagens/FR/FR-012.jpg"
   },
   {
     "id": "UK-004",
@@ -3141,7 +3179,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "FUNDACIONAL",
-    "regime_justificativa": "contexto revolucionário, tema Liberdade, barrete frígio → FUNDACIONAL"
+    "regime_justificativa": "contexto revolucionário, tema Liberdade, barrete frígio → FUNDACIONAL",
+    "local_image_path": "corpus/imagens/FR/FR-013.jpg"
   },
   {
     "id": "FR-014",
@@ -3185,7 +3224,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "FUNDACIONAL",
-    "regime_justificativa": "contexto revolucionário, tema Liberdade → FUNDACIONAL"
+    "regime_justificativa": "contexto revolucionário, tema Liberdade → FUNDACIONAL",
+    "local_image_path": "corpus/imagens/FR/FR-014.jpg"
   },
   {
     "id": "FR-015",
@@ -3231,7 +3271,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/FR/FR-015.jpg"
   },
   {
     "id": "FR-016",
@@ -3277,7 +3318,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/FR/FR-016.jpg"
   },
   {
     "id": "FR-017",
@@ -3322,7 +3364,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/FR/FR-017.jpg"
   },
   {
     "id": "FR-018",
@@ -3368,7 +3411,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "FUNDACIONAL",
-    "regime_justificativa": "contexto revolucionário, tema Liberdade → FUNDACIONAL"
+    "regime_justificativa": "contexto revolucionário, tema Liberdade → FUNDACIONAL",
+    "local_image_path": "corpus/imagens/FR/FR-018.jpg"
   },
   {
     "id": "US-010",
@@ -3460,7 +3504,8 @@
     "iiif_source": "wellcome",
     "iiif_note": "Resolved via Wellcome API, work rkvhanzr",
     "regime": "NORMATIVO",
-    "regime_justificativa": "balança da justiça → NORMATIVO"
+    "regime_justificativa": "balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/UK/UK-005.jpg"
   },
   {
     "id": "ES-001",
@@ -3690,7 +3735,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "MILITAR",
-    "regime_justificativa": "propaganda, período WWI → MILITAR"
+    "regime_justificativa": "propaganda, período WWI → MILITAR",
+    "local_image_path": "corpus/imagens/FR/FR-019.jpg"
   },
   {
     "id": "DE-013",
@@ -3928,7 +3974,8 @@
     "iiif_source": "gallica",
     "iiif_note": null,
     "regime": "NORMATIVO",
-    "regime_justificativa": "balança da justiça → NORMATIVO"
+    "regime_justificativa": "balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/FR/FR-020.jpg"
   },
   {
     "id": "US-EDUC-1896-02",
