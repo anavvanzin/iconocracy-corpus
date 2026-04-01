@@ -207,11 +207,12 @@
     "motif_str": "República, Alegoria feminina, Positivismo, Barrete frígio",
     "tags_str": "Republic, female allegory, positivism, Phrygian cap, Ordem e Progresso, painting",
     "url_iiif": null,
-    "url_image_download": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/D%C3%A9cio_Villares_-_A_Rep%C3%BAblica.jpg/800px-D%C3%A9cio_Villares_-_A_Rep%C3%BAblica.jpg",
-    "iiif_source": "thumbnail_fallback",
-    "iiif_note": "#sem-iiif usar-thumbnail",
+    "url_image_download": "https://archive.nyu.edu/retrieve/124973/Rj12-03.tiff.jpg",
+    "iiif_source": "nyu_archive",
+    "iiif_note": "Scraped from web page via WebFetch",
     "regime": "FUNDACIONAL",
-    "regime_justificativa": "barrete frígio, bandeira → FUNDACIONAL"
+    "regime_justificativa": "barrete frígio, bandeira → FUNDACIONAL",
+    "local_image_path": "corpus/imagens/BR/BR-005.jpg"
   },
   {
     "id": "BR-006",
@@ -1965,11 +1966,12 @@
     "motif_str": "Justitia, Justice, nude allegory, sword, scales",
     "tags_str": "Justitia, nude, sword, scales, Renaissance, Dutch, engraving",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar Rijksmuseum hash-based URL — requires manual lookup at https://www.rijksmuseum.nl/en/collection/object/Vrouwe-Justitia--13997b5b276f9bbbb36a847da4c3022a",
+    "url_image_download": "https://iiif.micr.io/SVmwk/full/1200,/0/default.jpg",
+    "iiif_source": "rijksmuseum_micrio",
+    "iiif_note": "Scraped from web page via WebFetch",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO"
+    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/NL/NL-001.jpg"
   },
   {
     "id": "NL-002",
@@ -2010,11 +2012,12 @@
     "motif_str": "Justitia, Justice, all-seeing eye, crown",
     "tags_str": "Justitia, bust, crown, all-seeing eye, Dutch, surveillance",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar Rijksmuseum hash-based URL — requires manual lookup at https://www.rijksmuseum.nl/en/collection/object/Justitia--314f580f935ba978fb199ce7abeb0db1",
+    "url_image_download": "https://iiif.micr.io/seExq/full/1200,/0/default.jpg",
+    "iiif_source": "rijksmuseum_micrio",
+    "iiif_note": "Scraped from web page via WebFetch",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/NL/NL-002.jpg"
   },
   {
     "id": "NL-003",
@@ -2054,11 +2057,12 @@
     "motif_str": "Justitia, Justice, enthroned, sovereignty of law",
     "tags_str": "Justitia, enthroned, Baroque, Dutch, title page, sovereignty",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar Rijksmuseum hash-based URL — requires manual lookup at https://www.rijksmuseum.nl/en/collection/object/Allegorie-op-de-rechtvaardigheid--a26144337b14ab57eb5ca23025308032",
+    "url_image_download": "https://iiif.micr.io/rBXyc/full/1200,/0/default.jpg",
+    "iiif_source": "rijksmuseum_micrio",
+    "iiif_note": "Scraped from web page via WebFetch",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/NL/NL-003.jpg"
   },
   {
     "id": "UK-001",
@@ -2099,11 +2103,12 @@
     "motif_str": "Justitia, Justice, enthroned, sword, scales, putti",
     "tags_str": "Justitia, enthroned, Baroque, British Museum, print, putti",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar British Museum item P_1870-0625-185 — requires manual image lookup at https://www.britishmuseum.org/collection/object/P_1870-0625-185",
+    "url_image_download": "http://media.britishmuseum.org/media/Repository/Documents/2014_10/11_1/016d35db_1d43_47ce_8fe3_a3c10016707c/preview_00583790_001.jpg",
+    "iiif_source": "british_museum",
+    "iiif_note": "Scraped via Playwright browser",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO"
+    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/UK/UK-001.jpg"
   },
   {
     "id": "UK-002",
@@ -2143,11 +2148,12 @@
     "motif_str": "Justitia, Justice, Providence, scales, snake",
     "tags_str": "Justitia, Providence, niches, architectural, British Museum, personification",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar British Museum item P_1862-0712-304 — requires manual image lookup at https://www.britishmuseum.org/collection/object/P_1862-0712-304",
+    "url_image_download": "http://media.britishmuseum.org/media/Repository/Documents/2014_9/30_9/901985b0_bffe_4d77_821b_a3b6009af4c5/preview_00188066_001.jpg",
+    "iiif_source": "british_museum",
+    "iiif_note": "Scraped via Playwright browser",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO"
+    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/UK/UK-002.jpg"
   },
   {
     "id": "UK-003",
@@ -2188,11 +2194,12 @@
     "motif_str": "Justitia, Justice, Prudentia, sword, mirror, cardinal virtues",
     "tags_str": "Justitia, Prudentia, cardinal virtues, British Museum, sword, mirror",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar British Museum item P_1862-0712-305 — requires manual image lookup at https://www.britishmuseum.org/collection/object/P_1862-0712-305",
+    "url_image_download": "http://media.britishmuseum.org/media/Repository/Documents/2014_9/30_9/324571c5_1b0a_47d7_8f80_a3b6009b03c3/preview_00188075_001.jpg",
+    "iiif_source": "british_museum",
+    "iiif_note": "Scraped via Playwright browser",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/UK/UK-003.jpg"
   },
   {
     "id": "US-001",
@@ -2233,11 +2240,12 @@
     "motif_str": "Justice, Britannia, America, scales, Revolution",
     "tags_str": "Justice, Britannia, America, Revolution, scales, geopolitics, 1776",
     "url_iiif": "https://tile.loc.gov/image-services/iiif/service:pnp:cph:34572000:cph3a45724/info.json",
-    "url_image_download": "https://tile.loc.gov/image-services/iiif/service:pnp:cph:34572000:cph3a45724/full/pct:100/0/default.jpg",
-    "iiif_source": "loc",
-    "iiif_note": "#verificar-iiif-loc",
+    "url_image_download": "https://tile.loc.gov/storage-services/service/pnp/cph/3a40000/3a45000/3a45700/3a45724r.jpg",
+    "iiif_source": "loc_storage",
+    "iiif_note": "Downloaded via Playwright browser from LoC storage-services",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO"
+    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/US/US-001.jpg"
   },
   {
     "id": "US-002",
@@ -2276,11 +2284,12 @@
     "motif_str": "Justice, History, Capitol, Columbia",
     "tags_str": "Justice, History, Capitol, sculpture, Crawford, Senate doors",
     "url_iiif": "https://tile.loc.gov/image-services/iiif/service:pnp:ppmsca:87910000:ppmsca87910/info.json",
-    "url_image_download": "https://tile.loc.gov/image-services/iiif/service:pnp:ppmsca:87910000:ppmsca87910/full/pct:100/0/default.jpg",
-    "iiif_source": "loc",
-    "iiif_note": "#verificar-iiif-loc",
+    "url_image_download": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/87900/87910v.jpg",
+    "iiif_source": "loc_storage",
+    "iiif_note": "Downloaded via Playwright browser from LoC storage-services",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/US/US-002.jpg"
   },
   {
     "id": "US-003",
@@ -2320,11 +2329,12 @@
     "motif_str": "Justice, blindfold, sword, scales",
     "tags_str": "Justice, blindfold, sword, scales, government, official, steel engraving",
     "url_iiif": "https://tile.loc.gov/image-services/iiif/service:pnp:cph:30937000:cph3b09379/info.json",
-    "url_image_download": "https://tile.loc.gov/image-services/iiif/service:pnp:cph:30937000:cph3b09379/full/pct:100/0/default.jpg",
-    "iiif_source": "loc",
-    "iiif_note": "#verificar-iiif-loc",
+    "url_image_download": "https://tile.loc.gov/storage-services/service/pnp/cph/3b00000/3b09000/3b09300/3b09379r.jpg",
+    "iiif_source": "loc_storage",
+    "iiif_note": "Downloaded via Playwright browser from LoC storage-services",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal, balança da justiça, venda nos olhos → NORMATIVO"
+    "regime_justificativa": "suporte selo postal, balança da justiça, venda nos olhos → NORMATIVO",
+    "local_image_path": "corpus/imagens/US/US-003.jpg"
   },
   {
     "id": "US-004",
@@ -2366,11 +2376,12 @@
     "motif_str": "Justice, Liberty, Athena, Demeter, Marianne, Columbia",
     "tags_str": "Justice, Liberty, WWI, Franco-American, poster, Athena, allegory",
     "url_iiif": "https://tile.loc.gov/image-services/iiif/service:pnp:cph:30402000:cph3f04023/info.json",
-    "url_image_download": "https://tile.loc.gov/image-services/iiif/service:pnp:cph:30402000:cph3f04023/full/pct:100/0/default.jpg",
-    "iiif_source": "loc",
-    "iiif_note": "#verificar-iiif-loc",
+    "url_image_download": "https://tile.loc.gov/storage-services/service/pnp/cph/3f00000/3f04000/3f04000/3f04023r.jpg",
+    "iiif_source": "loc_storage",
+    "iiif_note": "Downloaded via Playwright browser from LoC storage-services",
     "regime": "MILITAR",
-    "regime_justificativa": "contexto bélico, período WWI → MILITAR"
+    "regime_justificativa": "contexto bélico, período WWI → MILITAR",
+    "local_image_path": "corpus/imagens/US/US-004.jpg"
   },
   {
     "id": "US-005",
@@ -2412,11 +2423,12 @@
     "motif_str": "Justice, Liberty, Concord, Constitution, Columbia",
     "tags_str": "Justice, Liberty, Constitution, Concord, Clio, founding, allegory",
     "url_iiif": "https://www.loc.gov/item/2004676797/?fo=json",
-    "url_image_download": null,
-    "iiif_source": "loc_api",
-    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "url_image_download": "https://tile.loc.gov/storage-services/service/pnp/cph/3a40000/3a45000/3a45700/3a45707r.jpg",
+    "iiif_source": "loc_storage",
+    "iiif_note": "Downloaded via Playwright browser from LoC storage-services",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/US/US-005.jpg"
   },
   {
     "id": "US-006",
@@ -2455,11 +2467,12 @@
     "motif_str": "Justice, Britannia, scales, geopolitics",
     "tags_str": "Justice, Britannia, scales, geopolitics, bilingual, power balance",
     "url_iiif": "https://www.loc.gov/item/2004673370/?fo=json",
-    "url_image_download": null,
-    "iiif_source": "loc_api",
-    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "url_image_download": "https://tile.loc.gov/storage-services/service/pnp/cph/3a40000/3a45000/3a45500/3a45590r.jpg",
+    "iiif_source": "loc_storage",
+    "iiif_note": "Downloaded via Playwright browser from LoC storage-services",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO"
+    "regime_justificativa": "suporte selo postal, balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/US/US-006.jpg"
   },
   {
     "id": "US-007",
@@ -2497,11 +2510,12 @@
     "motif_str": "Columbia, Liberty, martial allegory",
     "tags_str": "Columbia, martial, Spanish-American War, Dewey, chromolithograph, imperialism",
     "url_iiif": "https://tile.loc.gov/image-services/iiif/service:pnp:ppmsca:46404000:ppmsca46404/info.json",
-    "url_image_download": "https://tile.loc.gov/image-services/iiif/service:pnp:ppmsca:46404000:ppmsca46404/full/pct:100/0/default.jpg",
-    "iiif_source": "loc",
-    "iiif_note": "#verificar-iiif-loc",
+    "url_image_download": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/46400/46404v.jpg",
+    "iiif_source": "loc_storage",
+    "iiif_note": "Downloaded via Playwright browser from LoC storage-services",
     "regime": "MILITAR",
-    "regime_justificativa": "espada, contexto bélico, contexto imperial → MILITAR"
+    "regime_justificativa": "espada, contexto bélico, contexto imperial → MILITAR",
+    "local_image_path": "corpus/imagens/US/US-007.jpg"
   },
   {
     "id": "US-008",
@@ -2542,11 +2556,12 @@
     "motif_str": "Columbia, Justice, Liberty, suffrage, feminism",
     "tags_str": "Columbia, suffrage, feminism, pageant, photograph, women's rights",
     "url_iiif": "https://www.loc.gov/item/97510759/?fo=json",
-    "url_image_download": null,
-    "iiif_source": "loc_api",
-    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "url_image_download": "https://tile.loc.gov/storage-services/service/pnp/ppmsc/00000/00032v.jpg",
+    "iiif_source": "loc_storage",
+    "iiif_note": "Downloaded via Playwright browser from LoC storage-services",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/US/US-008.jpg"
   },
   {
     "id": "US-009",
@@ -2584,11 +2599,12 @@
     "motif_str": "Liberty, Columbia, Civil War",
     "tags_str": "Liberty, Columbia, Civil War, carte de visite, photograph, living allegory",
     "url_iiif": "https://www.loc.gov/item/2018664118/?fo=json",
-    "url_image_download": null,
-    "iiif_source": "loc_api",
-    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "url_image_download": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/57600/57686v.jpg",
+    "iiif_source": "loc_storage",
+    "iiif_note": "Downloaded via Playwright browser from LoC storage-services",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte selo postal → NORMATIVO"
+    "regime_justificativa": "suporte selo postal → NORMATIVO",
+    "local_image_path": "corpus/imagens/US/US-009.jpg"
   },
   {
     "id": "DE-012",
@@ -2771,11 +2787,12 @@
     "motif_str": "Justiça, Justice, Themis, blindfold, sword, modernism",
     "tags_str": "Justiça, Ceschiatti, STF, Brasília, Niemeyer, modernism, granite, January 8",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar Instituto Moreira Salles — requires manual image lookup at https://acervos.ims.com.br/index.php/Detail/objects/18758",
+    "url_image_download": "https://acervos.ims.com.br/service.php/File/13350_ca_object_representations_media_8449_medium.jpg",
+    "iiif_source": "ims",
+    "iiif_note": "Scraped from web page via WebFetch",
     "regime": "MILITAR",
-    "regime_justificativa": "espada → MILITAR"
+    "regime_justificativa": "espada → MILITAR",
+    "local_image_path": "corpus/imagens/BR/BR-009.jpg"
   },
   {
     "id": "BE-001",
@@ -2859,11 +2876,12 @@
     "motif_str": "Alegoria feminina, Republic, impressionism",
     "tags_str": "allegory, Visconti, impressionism, Biblioteca Nacional, Rio de Janeiro, Republic",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar Eliseu Visconti Project — requires manual image lookup at https://eliseuvisconti.com.br/obra/d702/",
+    "url_image_download": "https://eliseuvisconti.com.br/wp-content/uploads/2017/06/D702.jpg",
+    "iiif_source": "eliseu_visconti",
+    "iiif_note": "Scraped from web page via WebFetch",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/BR/BR-010.jpg"
   },
   {
     "id": "BE-002",
@@ -2904,11 +2922,12 @@
     "motif_str": "Justice, classical allegory, civic architecture, colonialism",
     "tags_str": "Justice, Poelaert, Brussels, courthouse, architecture, colonialism, Belgium",
     "url_iiif": null,
-    "url_image_download": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bruxelles_-_Palais_de_Justice.jpg",
-    "iiif_source": "thumbnail_fallback",
+    "url_image_download": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Bruxelles_-_Palais_de_Justice.jpg",
+    "iiif_source": "wikimedia",
     "iiif_note": "#sem-iiif usar-thumbnail",
     "regime": "MILITAR",
-    "regime_justificativa": "contexto colonial → MILITAR"
+    "regime_justificativa": "contexto colonial → MILITAR",
+    "local_image_path": "corpus/imagens/BE/BE-002.jpg"
   },
   {
     "id": "NL-004",
@@ -2948,11 +2967,12 @@
     "motif_str": "Justitia, Alegoria feminina, Espada, Balança",
     "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Goltzius, virtue series",
     "url_iiif": "https://iiif.rijksmuseum.nl/iiif/RP-P-OB-27.296/manifest.json",
-    "url_image_download": null,
-    "iiif_source": "rijksmuseum_iiif_only",
-    "iiif_note": "#verificar IIIF manifest for RP-P-OB-27.296 — image URL extraction failed",
+    "url_image_download": "https://iiif.micr.io/TQoch/full/1200,/0/default.jpg",
+    "iiif_source": "rijksmuseum_micrio",
+    "iiif_note": "Scraped from web page via WebFetch",
     "regime": "NORMATIVO",
-    "regime_justificativa": "balança da justiça, venda nos olhos → NORMATIVO"
+    "regime_justificativa": "balança da justiça, venda nos olhos → NORMATIVO",
+    "local_image_path": "corpus/imagens/NL/NL-004.jpg"
   },
   {
     "id": "NL-005",
@@ -2995,11 +3015,12 @@
     "motif_str": "Justitia, Alegoria feminina, Julgamento, Espada, Balança",
     "tags_str": "Justitia, female allegory, Justice, exempla iustitiae, Cambyses, Zaleucus, Dutch Golden Age",
     "url_iiif": "https://iiif.rijksmuseum.nl/iiif/RP-P-1883-A-6992/manifest.json",
-    "url_image_download": null,
-    "iiif_source": "rijksmuseum_iiif_only",
-    "iiif_note": "#verificar IIIF manifest for RP-P-1883-A-6992 — image URL extraction failed",
+    "url_image_download": "https://iiif.micr.io/ueUTw/full/1200,/0/default.jpg",
+    "iiif_source": "rijksmuseum_micrio",
+    "iiif_note": "Scraped from web page via WebFetch",
     "regime": "NORMATIVO",
-    "regime_justificativa": "balança da justiça → NORMATIVO"
+    "regime_justificativa": "balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/NL/NL-005.jpg"
   },
   {
     "id": "NL-006",
@@ -3040,11 +3061,12 @@
     "motif_str": "Justitia, Alegoria feminina, Espada, Balança",
     "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Goltzius, cardinal virtues",
     "url_iiif": "https://iiif.rijksmuseum.nl/iiif/RP-P-OB-27.124/manifest.json",
-    "url_image_download": null,
-    "iiif_source": "rijksmuseum_iiif_only",
-    "iiif_note": "#verificar IIIF manifest for RP-P-OB-27.124 — image URL extraction failed",
+    "url_image_download": "https://iiif.micr.io/CRpgV/full/1200,/0/default.jpg",
+    "iiif_source": "rijksmuseum_micrio",
+    "iiif_note": "Scraped from web page via WebFetch",
     "regime": "NORMATIVO",
-    "regime_justificativa": "balança da justiça → NORMATIVO"
+    "regime_justificativa": "balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/NL/NL-006.jpg"
   },
   {
     "id": "NL-007",
@@ -3085,11 +3107,12 @@
     "motif_str": "Justitia, Alegoria feminina, Espada, Balança",
     "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Goltzius tradition, anonymous",
     "url_iiif": "https://iiif.rijksmuseum.nl/iiif/RP-P-1882-A-6499/manifest.json",
-    "url_image_download": null,
-    "iiif_source": "rijksmuseum_iiif_only",
-    "iiif_note": "#verificar IIIF manifest for RP-P-1882-A-6499 — image URL extraction failed",
+    "url_image_download": "https://iiif.micr.io/dBSbp/full/1200,/0/default.jpg",
+    "iiif_source": "rijksmuseum_micrio",
+    "iiif_note": "Scraped from web page via WebFetch",
     "regime": "NORMATIVO",
-    "regime_justificativa": "balança da justiça → NORMATIVO"
+    "regime_justificativa": "balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/NL/NL-007.jpg"
   },
   {
     "id": "NL-008",
@@ -3129,11 +3152,12 @@
     "motif_str": "Justitia, Alegoria feminina, Espada, Balança",
     "tags_str": "Justitia, female allegory, Justice, Dutch Golden Age, Matham",
     "url_iiif": "https://iiif.rijksmuseum.nl/iiif/RP-P-1887-A-12280/manifest.json",
-    "url_image_download": null,
-    "iiif_source": "rijksmuseum_iiif_only",
-    "iiif_note": "#verificar IIIF manifest for RP-P-1887-A-12280 — image URL extraction failed",
+    "url_image_download": "https://iiif.micr.io/BdhAp/full/1200,/0/default.jpg",
+    "iiif_source": "rijksmuseum_micrio",
+    "iiif_note": "Scraped from web page via WebFetch",
     "regime": "NORMATIVO",
-    "regime_justificativa": "balança da justiça → NORMATIVO"
+    "regime_justificativa": "balança da justiça → NORMATIVO",
+    "local_image_path": "corpus/imagens/NL/NL-008.jpg"
   },
   {
     "id": "FR-013",
@@ -3454,11 +3478,12 @@
     "motif_str": "Liberdade, Alegoria feminina, Templo da Liberdade, Goddess of Liberty, Estados Unidos",
     "tags_str": "Liberty, female allegory, Goddess of Liberty, antebellum, republican values, American iconography, broadside",
     "url_iiif": "https://www.loc.gov/item/2008661765/?fo=json",
-    "url_image_download": null,
-    "iiif_source": "loc_api",
-    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "url_image_download": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/17500/17520v.jpg",
+    "iiif_source": "loc_storage",
+    "iiif_note": "Downloaded via Playwright browser from LoC storage-services",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte institucional/circulante → NORMATIVO"
+    "regime_justificativa": "suporte institucional/circulante → NORMATIVO",
+    "local_image_path": "corpus/imagens/US/US-010.jpg"
   },
   {
     "id": "UK-005",
@@ -3593,11 +3618,12 @@
     "motif_str": "Columbia, Alegoria feminina, Estados Unidos, WWI, Goddess of Liberty, Propaganda",
     "tags_str": "Columbia, female allegory, WWI, propaganda poster, James Montgomery Flagg, Phrygian cap, American iconography",
     "url_iiif": "https://www.loc.gov/item/91726511/?fo=json",
-    "url_image_download": null,
-    "iiif_source": "loc_api",
-    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "url_image_download": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/40900/40985v.jpg",
+    "iiif_source": "loc_storage",
+    "iiif_note": "Downloaded via Playwright browser from LoC storage-services",
     "regime": "MILITAR",
-    "regime_justificativa": "contexto bélico, propaganda, período WWI → MILITAR"
+    "regime_justificativa": "contexto bélico, propaganda, período WWI → MILITAR",
+    "local_image_path": "corpus/imagens/US/US-011.jpg"
   },
   {
     "id": "US-012",
@@ -3638,11 +3664,12 @@
     "motif_str": "Columbia, Alegoria feminina, Estados Unidos, WWI, Propaganda",
     "tags_str": "Columbia, female allegory, WWI, propaganda poster, globe, American iconography, sword",
     "url_iiif": "https://www.loc.gov/item/95506508/?fo=json",
-    "url_image_download": null,
-    "iiif_source": "loc_api",
-    "iiif_note": "#verificar URL resolution failed for Library of Congress",
+    "url_image_download": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/50000/50012v.jpg",
+    "iiif_source": "loc_storage",
+    "iiif_note": "Downloaded via Playwright browser from LoC storage-services",
     "regime": "MILITAR",
-    "regime_justificativa": "espada, contexto bélico, propaganda, período WWI → MILITAR"
+    "regime_justificativa": "espada, contexto bélico, propaganda, período WWI → MILITAR",
+    "local_image_path": "corpus/imagens/US/US-012.jpg"
   },
   {
     "id": "UK-006",
@@ -3684,11 +3711,12 @@
     "motif_str": "Mulher, Alegoria feminina, Britânia, WWI, Propaganda, Recrutamento",
     "tags_str": "female allegory, WWI, propaganda poster, Britain, recruitment, Parliamentary Recruiting Committee, gender and war",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar Imperial War Museum — requires manual image lookup at https://www.iwm.org.uk/collections/item/object/14592",
+    "url_image_download": "https://media.iwm.org.uk/ciim5/145/831/large_000000.jpg",
+    "iiif_source": "iwm",
+    "iiif_note": "Downloaded via Playwright browser",
     "regime": "MILITAR",
-    "regime_justificativa": "contexto bélico, propaganda, período WWI → MILITAR"
+    "regime_justificativa": "contexto bélico, propaganda, período WWI → MILITAR",
+    "local_image_path": "corpus/imagens/UK/UK-006.jpg"
   },
   {
     "id": "FR-019",
@@ -3778,11 +3806,12 @@
     "motif_str": "alegoria nacional feminina, Germania, guerra, Primeira Guerra Mundial, identidade nacional",
     "tags_str": "alegoria nacional, Germania, Primeira Guerra Mundial, pintura, arte alemã, feminino, militarismo, propaganda",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar DHM / Lebendiges Museum Online (LeMO) — requires manual image lookup at https://www.dhm.de/lemo/bestand/objekt/gemaelde-friedrich-august-von-kaulbach-germania-1914",
+    "url_image_download": "https://www.dhm.de/lemo/fileadmin/medien/lemo/images/g0000016.jpg",
+    "iiif_source": "dhm_lemo",
+    "iiif_note": "Scraped from web page via WebFetch",
     "regime": "MILITAR",
-    "regime_justificativa": "escudo, espada, contexto bélico, contexto imperial → MILITAR"
+    "regime_justificativa": "escudo, espada, contexto bélico, contexto imperial → MILITAR",
+    "local_image_path": "corpus/imagens/DE/DE-013.jpg"
   },
   {
     "id": "ES-002",
@@ -3826,11 +3855,12 @@
     "motif_str": "alegoria nacional feminina, república, imprensa satírica, Espanha, constitucionalismo",
     "tags_str": "alegoria nacional, república, satira política, imprensa oitocentista, barrete frígio, Espanha, feminino, constitucionalismo",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar Hemeroteca Digital BNE — requires manual image lookup at https://hemerotecadigital.bne.es/hd/es/card?sid=3971781",
+    "url_image_download": "https://hemerotecadigital.bne.es/hd/es/medium?id=722c9085-527c-454b-ba2e-bd7f3a3c8378",
+    "iiif_source": "bne_hemeroteca",
+    "iiif_note": "Scraped from web page via WebFetch",
     "regime": "FUNDACIONAL",
-    "regime_justificativa": "barrete frígio → FUNDACIONAL"
+    "regime_justificativa": "barrete frígio → FUNDACIONAL",
+    "local_image_path": "corpus/imagens/ES/ES-002.jpg"
   },
   {
     "id": "UY-001",
@@ -3921,11 +3951,12 @@
     "motif_str": "alegoria da Justiça, virtudes cardinais, Justitia, México, imprensa ilustrada oitocentista",
     "tags_str": "alegoria da justiça, Justitia, virtudes cardinais, México, Posada, litografia, imprensa porfirista, feminino",
     "url_iiif": "https://www.loc.gov/item/2003656173/?fo=json",
-    "url_image_download": null,
-    "iiif_source": "loc_api",
-    "iiif_note": "#verificar URL resolution failed for Library of Congress Prints and Photographs Division",
+    "url_image_download": "https://tile.loc.gov/storage-services/service/pnp/cph/3b10000/3b18000/3b18400/3b18453r.jpg",
+    "iiif_source": "loc_storage",
+    "iiif_note": "Downloaded via Playwright browser from LoC storage-services",
     "regime": "FUNDACIONAL",
-    "regime_justificativa": "contexto fundacional (ano 1889) → FUNDACIONAL"
+    "regime_justificativa": "contexto fundacional (ano 1889) → FUNDACIONAL",
+    "local_image_path": "corpus/imagens/MX/MX-001.jpg"
   },
   {
     "id": "FR-020",
@@ -3998,12 +4029,13 @@
     "url": "https://americanhistory.si.edu/collections/object/nmah_1817050",
     "vault_note": "SCOUT-114",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar Smithsonian — API blocked, manual download from https://americanhistory.si.edu/collections/object/nmah_1817050",
+    "url_image_download": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2021q127671&max=800",
+    "iiif_source": "smithsonian_ids",
+    "iiif_note": "Scraped via Playwright browser",
     "regime": "NORMATIVO",
     "regime_justificativa": "Nota educacional numismática, suporte circulante → NORMATIVO",
-    "tags": []
+    "tags": [],
+    "local_image_path": "corpus/imagens/US/US-EDUC-1896-02.jpg"
   },
   {
     "id": "US-EDUC-1896-05",
@@ -4052,11 +4084,12 @@
     "url": "https://en.numista.com/catalogue/pieces682.html",
     "vault_note": "SCOUT-116",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar Numista — no public image API. Manual download from https://en.numista.com/catalogue/pieces682.html",
+    "url_image_download": "https://en.numista.com/catalogue/photo682.jpeg",
+    "iiif_source": "numista",
+    "iiif_note": "Scraped via Playwright browser",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte numismático, modelo Semeuse → NORMATIVO"
+    "regime_justificativa": "suporte numismático, modelo Semeuse → NORMATIVO",
+    "local_image_path": "corpus/imagens/FR/FR-SEM-1898.jpg"
   },
   {
     "id": "DE-NOTG-1921",
@@ -4135,10 +4168,11 @@
     "url": "https://en.numista.com/catalogue/pieces2546.html",
     "vault_note": "SCOUT-119",
     "url_iiif": null,
-    "url_image_download": null,
-    "iiif_source": "none",
-    "iiif_note": "#verificar Numista — no public image API. Manual download from https://en.numista.com/catalogue/pieces2546.html",
+    "url_image_download": "https://en.numista.com/catalogue/photo2546.jpeg",
+    "iiif_source": "numista",
+    "iiif_note": "Scraped via Playwright browser",
     "regime": "NORMATIVO",
-    "regime_justificativa": "suporte numismático → NORMATIVO"
+    "regime_justificativa": "suporte numismático → NORMATIVO",
+    "local_image_path": "corpus/imagens/DE/DE-WR-1924-50PF.jpg"
   }
 ]
