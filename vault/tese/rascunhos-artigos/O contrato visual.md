@@ -3,7 +3,7 @@ title: "O contrato visual: alegoria feminina e contrato sexual na história da c
 author: Ana Vanzin
 affiliation: PPGD/UFSC
 date: 2026-03-28
-status: v2 — revisado (major revisions incorporadas)
+status: v3 — revisado (peer review incorporado 2026-04-01)
 tags:
   - artigo
   - iconologia-jurídica
@@ -29,7 +29,11 @@ tags:
 
 Este artigo investiga por que as grandes abstrações jurídicas — Justiça, República, Liberdade, Lei — são sistematicamente representadas por corpos femininos na tradição iconográfica ocidental. Partindo da abertura metodológica que a iconologia jurídica histórica de Georges Martyn ofereceu à história da cultura jurídica de Paolo Grossi e António Manuel Hespanha, o texto propõe que a dimensão visual dessa cultura possui uma gramática de gênero que permanece invisível ao paradigma vigente. A hipótese central articula Carole Pateman e Marina Warner: assim como o contrato social pressupõe um *contrato sexual* oculto que subordina as mulheres enquanto proclama liberdade universal, a iconografia jurídica opera um *contrato visual* que captura o corpo feminino para representar a ordem jurídica da qual as mulheres foram historicamente excluídas como sujeitos. A análise mobiliza o método dos três níveis de Panofsky — tal como adaptado por Martyn para imagens jurídicas — e o aplica à genealogia da venda da Justitia (1494–1603), demonstrando como a passagem do registro satírico ao alegórico constitui o momento fundacional desse contrato visual, cuja eficácia se estende às codificações oitocentistas e às constituições republicanas contemporâneas. O artigo conclui que reconhecer o contrato visual não refuta a história da cultura jurídica, mas a expande criticamente ao revelar uma camada de naturalização da exclusão de gênero que o historicismo jurídico humanista ainda não tematizou.
 
-**Palavras-chave:** Iconologia jurídica. Contrato sexual. Alegoria feminina. Justitia. História da cultura jurídica. Gênero.
+**Palavras-chave:** Contrato visual. Iconologia jurídica. Contrato sexual. Alegoria feminina. Justitia. História da cultura jurídica.
+
+**Abstract:** This article investigates why the great legal abstractions — Justice, Republic, Freedom, Law — are systematically represented by female bodies in the Western iconographic tradition. Building on the methodological opening that Georges Martyn's historical legal iconology offered to the legal culture history of Paolo Grossi and António Manuel Hespanha, the text proposes that the visual dimension of legal culture possesses a gender grammar that remains invisible to the prevailing paradigm. The central hypothesis articulates Carole Pateman and Marina Warner: just as the social contract presupposes a hidden *sexual contract* that subordinates women while proclaiming universal freedom, legal iconography operates a *visual contract* that captures the female body to represent the legal order from which women were historically excluded as subjects. The analysis mobilizes Panofsky's three-level method — as adapted by Martyn for legal images — and Warburg's concept of *Pathosformel*, applying them to the genealogy of Justitia's blindfold (1494–1603) and to a pre-iconographic reading of Dürer's woodcut in *Das Narrenschiff*. The article concludes that recognizing the visual contract does not refute legal culture history but critically expands it by revealing a layer of gender exclusion naturalization that humanistic legal historicism has not yet thematized.
+
+**Keywords:** Visual contract. Legal iconology. Sexual contract. Feminine allegory. Justitia. Legal culture history.
 
 ---
 
@@ -42,6 +46,14 @@ Um passo decisivo nessa trajetória foi a abertura para a *dimensão visual* da 
 A convergência entre essas duas tradições — a história da cultura jurídica e a iconologia jurídica — materializou-se institucionalmente nos XVI Encontros de História do Direito da UFSC (2019), dedicados ao tema *Printing & Iconology as Legal-Historical Sources*, onde Martyn apresentou sua "Introdução à iconologia histórica do direito", publicada nos anais organizados por Dal Ri Jr. (Dal Ri Jr., 2020; Martyn, 2020). Esse evento marcou um ponto de inflexão: pela primeira vez no contexto brasileiro, a imagem jurídica foi reconhecida como *fonte* historiográfica legítima, e não mera ilustração decorativa de narrativas normativas.
 
 Contudo, a abertura visual da história da cultura jurídica permaneceu circunscrita ao registro da *legitimação*. Tanto no enquadramento de Martyn quanto na tradição mais ampla que vai de Panofsky a W. J. T. Mitchell (Panofsky, 1939; Panofsky, 1955; Mitchell, 1986), a análise iconológica pergunta *o que* a imagem significa e *como* ela legitima uma ordem social — mas não pergunta *por que o corpo que porta essa significação é feminino*. É esse silêncio que o presente artigo pretende tornar audível.
+
+### 1.1. Nota metodológica
+
+O presente artigo constitui pesquisa bibliográfica e iconográfica, situada na confluência entre a história da cultura jurídica, a iconologia e a teoria feminista do contratualismo. O método adotado articula duas tradições: a iconologia de Erwin Panofsky, em seus três níveis de leitura — descrição pré-iconográfica (formas e motivos), análise iconográfica (temas e convenções) e interpretação iconológica (significado intrínseco) —, tal como adaptada por Martyn para o objeto jurídico; e o conceito warburgiano de *Pathosformel* (fórmula de *pathos*), que descreve a sobrevivência (*Nachleben*) de gestos expressivos carregados de energia afetiva que migram entre épocas e contextos culturais (Warburg, 1999). A *Pathosformel* é pertinente porque permite explicar não apenas *o que* a Justitia significa em cada período, mas *como* uma mesma configuração gestual — o corpo feminino portando atributos de autoridade — persiste através dos séculos mudando de valência sem mudar de forma. A Justitia vendada é, nesse sentido, uma *Pathosformel* jurídica: um gesto expressivo (a mulher cega que julga) cuja energia afetiva se inverte da sátira à veneração sem que o corpo que a sustenta se altere.
+
+O corpus visual selecionado concentra-se em três marcos genealógicos da venda — a xilogravura do *Narrenschiff* de Brant (1494), a fonte da Justiça de Gieng em Berna (1543) e a codificação de Ripa na *Iconologia* (1603) —, complementados por um caso ibero-americano (a alegoria republicana brasileira) que permite testar a validade do argumento fora do eixo franco-germânico. A escolha desse corpus é deliberada: não pretende esgotar a iconografia da Justiça, mas isolar a genealogia do atributo que melhor revela o contrato visual em operação.
+
+Cabe ainda uma referência à contribuição de Michael Stolleis, cujo *Das Auge des Gesetzes* (2004) constitui o estudo mais completo sobre a metafórica visual do direito na tradição germânica. Stolleis demonstra que imagens como o "olho da lei" não são ornamentos, mas *dispositivos epistemológicos* que estruturam a compreensão coletiva do que é o direito (Stolleis, 2004). O presente artigo estende essa percepção ao perguntar o que Stolleis não perguntou: por que o corpo que porta esses dispositivos é feminino.
 
 ## 2. O problema de gênero que a iconologia não vê
 
@@ -85,11 +97,15 @@ A analogia com Pateman é estrutural — não causal. O contrato visual não *pr
 
 Para demonstrar como o contrato visual opera concretamente, propomos uma leitura iconológica da *venda da Justitia* — o atributo mais disputado e mais revelador da alegoria jurídica.
 
-### 4.1. 1494: a venda como sátira
+### 4.1. 1494: a venda como sátira — uma leitura em três níveis
 
-A primeira representação conhecida de uma Justitia vendada é uma xilogravura atribuída a Albrecht Dürer, publicada em *Das Narrenschiff* (*A Nau dos Insensatos*) de Sebastian Brant, em 1494 (Brant, 1494). Na imagem, um bobo da corte aplica a venda sobre os olhos da Justiça por trás, enquanto advogados manipulam os pratos da balança. O sentido é inequivocamente satírico: a cegueira não é virtude, mas corrupção. A Justiça não *escolhe* não ver; ela é *impedida* de ver por forças externas — a loucura, a ganância, a venalidade forense (Hayaert, 2018).
+A primeira representação conhecida de uma Justitia vendada é uma xilogravura atribuída a Albrecht Dürer, publicada em *Das Narrenschiff* (*A Nau dos Insensatos*) de Sebastian Brant, em 1494 (Brant, 1494). A imagem merece uma leitura detida nos três níveis panofskianos, pois é nela que o contrato visual encontra seu momento fundacional.
 
-No primeiro nível panofskiano (pré-iconográfico), a imagem mostra um corpo feminino, um tecido sobre os olhos, um bobo e figuras masculinas ao redor. No segundo nível (iconográfico), reconhecemos a Justiça, o bobo e a sátira das profissões jurídicas. No terceiro nível (iconológico), o que a imagem revela é uma *relação de gênero*: um corpo feminino passivo é manipulado por agentes masculinos ativos. A Justiça não age; ela é agida. Ela não se venda; ela *é vendada*.
+**Nível pré-iconográfico (descrição formal).** A xilogravura, de formato retangular vertical (~11 × 8 cm na edição princeps de Johann Bergmann von Olpe, Basel, 1494), apresenta uma composição em três planos. No plano central, uma figura feminina de corpo inteiro, vestida com túnica longa e manto, porta na mão esquerda uma balança cujos pratos estão visivelmente desiguais. Os olhos da figura estão cobertos por um tecido claro, aplicado por trás por uma segunda figura — um homem baixo, vestido com traje de bobo (Narrenkappe), com guizos e orelhas de asno. O bobo está posicionado atrás e acima da mulher, em posição de domínio gestual: seus braços envolvem a cabeça feminina para fixar a venda. No plano inferior, figuras masculinas de toga — advogados ou juízes — manipulam os pratos da balança com as mãos. No plano superior, uma moldura arquitectónica sugere o interior de um tribunal. A composição é marcada por uma assimetria dinâmica: todos os agentes masculinos *agem* (vendando, manipulando), enquanto o único corpo feminino *recebe* a ação. A postura da Justitia é rígida, frontal, de braços semiabertos — uma passividade corporal que contrasta com a agitação dos corpos masculinos ao redor.
+
+**Nível iconográfico (identificação temática).** A figura feminina é identificável como Justitia pela balança. O bobo pertence ao repertório do *Narrenliteratur* (literatura dos tolos), gênero satírico florescente na Basileia humanista de fins do século XV. As figuras togadas representam as profissões jurídicas — alvo recorrente da sátira de Brant. O sentido é inequivocamente negativo: a cegueira não é virtude, mas corrupção. A Justiça não *escolhe* não ver; ela é *impedida* de ver por forças externas — a loucura, a ganância, a venalidade forense (Hayaert, 2018).
+
+**Nível iconológico (significado intrínseco).** É neste terceiro nível que a leitura de gênero se torna indispensável. O que a imagem revela, para além da sátira profissional, é uma *relação de gênero*: um corpo feminino passivo é manipulado por agentes masculinos ativos. A Justiça não age; ela é agida. Ela não se venda; ela *é vendada*. Na gramática gestual da xilogravura, a feminilidade da Justitia não é acidental — é condição de possibilidade da manipulação: é precisamente porque a Justiça é uma mulher que o bobo pode dominá-la fisicamente, envolvendo sua cabeça com os braços. A relação espacial entre os corpos (o masculino acima e atrás, o feminino abaixo e à frente) replica a hierarquia de gênero que estrutura as instituições jurídicas do período. Nos termos warburgianos, a *Pathosformel* da mulher vendada por agentes masculinos concentra uma energia afetiva que sobreviverá à própria inversão semântica: mesmo quando a venda deixar de ser imposição e se tornar atributo, o corpo feminino continuará sendo o suporte passivo da operação.
 
 ### 4.2. 1543–1603: a inversão semântica
 
@@ -129,6 +145,20 @@ Segunda: nem toda representação feminina da justiça é, necessariamente, uma 
 
 Terceira: o contrato visual não se limita à dimensão de gênero. Judith Resnik já apontou que a racialização da Justitia constitui uma dimensão paralela: uma alegoria branca representando uma justiça que, historicamente, não foi justa com corpos não-brancos (Resnik e Curtis, 2011). Behrmann, por sua vez, explorou o "axioma do espelho" na iconologia jurídica — a presunção de que a imagem da justiça *reflete* a justiça real —, mostrando que essa presunção é ela mesma um dispositivo de legitimação (Behrmann, 2018). O contrato visual, tal como aqui proposto, pode ser estendido a essas dimensões.
 
+### 5.3. A dimensão racial do contrato visual
+
+Uma qualificação adicional é necessária, e ela toca em um ponto que a análise desenvolvida até aqui deixou implícito: o corpo feminino capturado pelo contrato visual não é apenas feminino — é branco, jovem, de traços clássicos europeus e de vestimenta greco-romana. A feminilidade que o contrato visual mobiliza é uma feminilidade *racializada*: a universalidade jurídica é representada por um corpo que já é particular em termos de raça, classe e origem. A naturalização opera, portanto, em duas camadas simultâneas: naturaliza-se a feminização da alegoria (por que uma mulher?) *e* naturaliza-se a branquitude da alegoria (por que uma mulher branca?).
+
+Essa dupla naturalização tem consequências materiais especialmente visíveis nos contextos pós-coloniais. No Brasil, a alegoria da República — importada do repertório neoclássico francês sem participação popular, como demonstrou José Murilo de Carvalho (Carvalho, 2017) — instala um corpo feminino branco europeu como rosto da Justiça e da nação num país cuja população é majoritariamente negra e mestiça. A Justitia de Alfredo Ceschiatti, instalada diante do Supremo Tribunal Federal em Brasília em 1961, é uma figura de granito de formas modernistas simplificadas, mas de corporalidade inequivocamente europeia — uma "deusa", no sentido preciso de Haraway, transplantada para o cerrado. Lélia Gonzalez já advertia que a cultura brasileira opera por um "racismo por denegação" que se manifesta precisamente nos espaços simbólicos onde a presença negra é apagada ao mesmo tempo em que a presença simbólica branca é naturalizada (Gonzalez, 1984). O contrato visual é, nesse sentido, não apenas um contrato de gênero, mas um *contrato racial-visual*: a exclusão que ele naturaliza é interseccional — de gênero, de raça e de classe —, ainda que a camada de gênero seja a mais visível por ser a mais estruturalmente constitutiva da forma alegórica.
+
+Reconhecer essa dimensão interseccional não dissolve o argumento do contrato visual em uma crítica genérica da "opressão múltipla". Ao contrário, ele o torna mais preciso: o mecanismo que converte um corpo particular em símbolo universal funciona *porque* os marcadores de particularidade (feminilidade, branquitude, classicismo) são apresentados como neutros. A venda sobre os olhos da Justitia pode ser lida, nessa chave, como metáfora involuntária: a Justiça não vê diferenças — e é precisamente essa cegueira, ao mesmo tempo de gênero e de raça, que o contrato visual institui como virtude.
+
+### 5.4. O contrato visual fora da Europa: a República brasileira como caso
+
+A aplicabilidade do contrato visual pode ser testada em contextos periféricos. A proclamação da República brasileira em 1889 gerou uma necessidade imediata de iconografia legitimadora. O Decreto n. 4, de 19 de novembro de 1889 — apenas quatro dias após o golpe militar que depôs Pedro II —, instituiu a bandeira, o brasão e os sinetes oficiais, juridificando um léxico visual que precisava substituir o repertório monárquico sem dispor de ancoramento popular (Brasil, 1889). A alegoria feminina da República, modelada sobre a Marianne francesa, foi o recurso imediato: uma mulher de perfil clássico, com barrete frígio e estrelas do Cruzeiro do Sul, passou a figurar nas moedas, selos e fachadas do novo regime.
+
+Décio Villares, pintor ligado ao positivismo comtiano, produziu a *República* (c. 1919) que se tornou modelo oficial: uma figura feminina austera, de pé, drapeada à maneira clássica, com barrete discreto e composição sóbria aludindo ao céu estrelado da bandeira. A imagem depura a emotividade da Marianne insurrecional e a substitui por uma serenidade normativa apta à pedagogia estatal. O contrato visual opera aqui com perfeição: o corpo feminino que representa a República brasileira não remete a nenhuma mulher brasileira — não é negra, não é indígena, não é cabocla. É uma importação neoclássica europeia que naturaliza, em território pós-colonial, a mesma operação de captura simbólica e exclusão concreta que Warner identificou nos contextos metropolitanos. A mulher representa a República nos signos, mas é silenciada na participação: o voto feminino no Brasil só será conquistado em 1932, quatro décadas depois de a República-mulher ter sido instalada nas moedas de circulação diária.
+
 ## 6. Conclusão
 
 Este artigo partiu de uma pergunta que a história da cultura jurídica ainda não formulou: por que as grandes abstrações jurídicas são representadas por corpos femininos? A resposta proposta — o conceito de *contrato visual* — articula três tradições: a história da cultura jurídica (Grossi, Hespanha, Dal Ri Jr.), a iconologia jurídica histórica (Martyn, Panofsky, Hayaert) e a crítica feminista do contratualismo (Pateman, Warner).
@@ -145,9 +175,15 @@ Reconhecer o contrato visual não é refutar o historicismo jurídico humanista 
 
 BEHRMANN, Carolin. The Mirror Axiom: Legal Iconology between Truth and Authority. In: HUYGEBAERT, Stefan et al. (org.). *The Art of Law: Artistic Representations and Iconography of Law and Justice in Context, from the Middle Ages to the First World War*. Cham: Springer, 2018. p. 37–56.
 
+BRASIL. Decreto n. 4, de 19 de novembro de 1889. Estabelece os distinctivos da bandeira e das armas nacionaes, e dos selos e sinetes da República. *Coleção das Leis do Brasil*, Rio de Janeiro, 1889.
+
 BRANT, Sebastian. *Das Narrenschiff*. Basel: Johann Bergmann von Olpe, 1494.
 
+CARVALHO, José Murilo de. *A formação das almas: o imaginário da República no Brasil*. São Paulo: Companhia das Letras, 2017.
+
 DAL RI JR., Arno (org.). *Printing & Iconology as Legal-Historical Sources: Proceedings of the XVI Encounters of Legal History at UFSC*. Florianópolis: UFSC/PPGD, 2020.
+
+GONZALEZ, Lélia. Racismo e sexismo na cultura brasileira. *Revista Ciências Sociais Hoje*, São Paulo, ANPOCS, p. 223–244, 1984.
 
 GROSSI, Paolo. *Mitologias jurídicas da modernidade*. 2. ed. Trad. Arno Dal Ri Jr. Florianópolis: Fundação Boiteux, 2007.
 
@@ -176,5 +212,9 @@ PATEMAN, Carole. Thirty Years after *The Sexual Contract*. In: KAPUR, Ratna; MAN
 RESNIK, Judith; CURTIS, Dennis. *Representing Justice: Invention, Controversy, and Rights in City-States and Democratic Courtrooms*. New Haven: Yale University Press, 2011.
 
 RIPA, Cesare. *Iconologia, overo descrittione dell'imagini universali*. Roma: Lepido Facij, 1603.
+
+STOLLEIS, Michael. *Das Auge des Gesetzes: Geschichte einer Metapher*. München: C. H. Beck, 2004.
+
+WARBURG, Aby. *The Renewal of Pagan Antiquity: Contributions to the Cultural History of the European Renaissance*. Los Angeles: Getty Research Institute, 1999.
 
 WARNER, Marina. *Monuments and Maidens: The Allegory of the Female Form*. London: Weidenfeld & Nicolson, 1985.
