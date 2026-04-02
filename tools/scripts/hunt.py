@@ -89,10 +89,14 @@ QUERY_MATRIX = {
         "europeana_qf": 'what:"alegoria" AND what:"República"',
         "europeana_alt": [
             'what:"República" AND (what:"moeda" OR what:"selo" OR what:"monumento")',
+            'what:"Brasil" AND (what:"alegoria" OR what:"Republic")',
         ],
-        "gallica_sru": None,
-        "loc_query": None,
-        "met_query": None,
+        "gallica_sru": '(dc.subject all "Brésil") and (dc.subject all "République" or dc.subject all "allégorie")',
+        "gallica_alt": [
+            '(dc.title all "Brésil") and (dc.type all "image")',
+        ],
+        "loc_query": "Brazil Republic allegory OR Brazil female figure statue",
+        "met_query": "Brazil Republic allegory",
         "va_query": None,
     },
     "UK": {
@@ -130,8 +134,10 @@ QUERY_MATRIX = {
                    "Justice female figure", "Freedom statue",
                    "Saint-Gaudens Liberty", "Weinman Liberty",
                    "Gobrecht dollar seated", "Columbia coin"],
-        "europeana_qf": None,
-        "europeana_alt": [],
+        "europeana_qf": '(what:"Columbia" OR what:"Liberty") AND what:"allegory"',
+        "europeana_alt": [
+            'what:"Liberty" AND (what:"coin" OR what:"dollar" OR what:"medal")',
+        ],
         "gallica_sru": None,
         "loc_query": (
             "Columbia allegory female OR "
@@ -139,9 +145,10 @@ QUERY_MATRIX = {
             "Justice female allegory"
         ),
         "loc_alt": [
-            "seated Liberty coin",
+            "seated Liberty coin dollar",
             "Columbia personification",
             "Freedom statue Capitol",
+            "Saint-Gaudens Liberty gold",
         ],
         "met_query": "Liberty allegory seated coin OR Columbia allegory",
         "va_query": None,
@@ -201,6 +208,8 @@ ALLEGORY_KW = [
     "allegory", "allégorie", "alegoria", "allegorie",
     "personification", "personificação", "personnification",
     "allegorical", "allégorique",
+    "female figure", "figure féminine", "figura feminina",
+    "weibliche figur",
 ]
 
 MOTIF_KW = [
@@ -208,6 +217,8 @@ MOTIF_KW = [
     "belgica", "república", "republic", "république", "republik",
     "justitia", "justice", "justiça", "semeuse",
     "liberté", "liberty", "liberdade", "freiheit",
+    "minerva", "athena", "pallas", "ceres", "fortuna",
+    "seated liberty", "standing liberty", "walking liberty",
 ]
 
 LEGAL_STATE_KW = [
@@ -719,6 +730,14 @@ def infer_motifs(candidate):
         "república": "República",
         "republic": "Republic",
         "république": "République",
+        "minerva": "Minerva",
+        "athena": "Athena",
+        "pallas": "Pallas",
+        "ceres": "Ceres",
+        "fortuna": "Fortuna",
+        "seated liberty": "Seated Liberty",
+        "standing liberty": "Standing Liberty",
+        "walking liberty": "Walking Liberty",
     }
     for kw, label in motif_map.items():
         if kw in text and label not in motifs:
