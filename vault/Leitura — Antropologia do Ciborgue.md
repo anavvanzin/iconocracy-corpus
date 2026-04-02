@@ -64,7 +64,7 @@ Latour (*Jamais fomos modernos*, 1991) distingue dois gestos modernos simultâne
 
 O projeto moderno precisa da purificação *discursiva* precisamente porque a tradução *prática* prolifera híbridos incontroláveis. O ciborgue de Haraway **denuncia e recusa a purificação**: é o híbrido que expõe a impossibilidade do projeto moderno de separação.
 
-**Aplicação ICONOCRACIA:** A Justitia é um dispositivo de *purificação iconocrática*. O corpo feminino é capturado pela alegoria, retirado do domínio da humanidade concreta (mulher histórica, sujeito de direito) e elevado ao abstrato/universal. Haraway fornece o vocabulário crítico; Panofsky fornece o método de leitura; Latour fornece a estrutura ontológica da operação.
+**Aplicação ICONOCRACIA:** A Justitia é um dispositivo de *purificação iconocrática*. O corpo feminino é capturado pela alegoria, retirado do domínio da humanidade concreta (mulher histórica, sujeito de direito) e elevado ao abstrato/universal. Haraway fornece o vocabulário crítico; Panofsky fornece o método de leitura; Latour fornece a estrutura ontológica da operação.¸
 
 ---
 
@@ -101,6 +101,12 @@ O projeto moderno precisa da purificação *discursiva* precisamente porque a tr
 - **Ripa** (*Iconologia*, 1593) — o programa de purificação das alegorias femininas na modernidade precoce
 - **Hespanha** — história do direito como história das representações
 
+
+** Crítica a MacKinnon - p. 46 - "reducionismo radical", Donna Haraway afirma que a teoria de MacKinnon não é, de fato, o feminismo radical, per se, nem que assim se pretende, porém afirma que a "fábula" de MacKinnon elimina a concepção humanista do sujeito revolucionário em prol de sua finalidade (a unidade política das mulheres.)  
+Enquanto o feminismo marxista/socialista posiciona a categoria trabalho ao centro do debate, MacKinnon centra a discussão nas categorias sexo/gênero. Para Donna Haraway, essa estratégia analítica cria ontologicamente "um não-ser". 
+Haraway afirma que a teoria de consciência pautada na experiência "das mulheres" firmada por MacKinnon cria uma um modelo em que o desejo do outro e não o trabalho de produção do eu torna-se a origem da mulher. 
+"A prática feminista é, nessa perspectiva [de MacKinnon] a construção dessa forma de cosnciência, isto é, o autoconhecimento de um eu-que-não-é.". 
+	Haraway afirma que este racícionio faz com que a violência sexual (entre outras experiências "das mulheres") reduza o feminismo. A apropriação sexual tem um status epistemológico tal qual o do trabalho para o feminismo marxista. 
 ---
 
 ## Citação ABNT
@@ -121,3 +127,5 @@ KUNZRU, Hari. Você é um ciborgue: um encontro com Donna Haraway. In: SILVA, To
 - [ ] Escrever nota de pesquisa: *"Ciborgue e Justitia: purificação iconocrática como operação anti-ciborgue"*
 - [ ] Verificar se Agamben dialoga com Haraway em algum texto secundário
 - [ ] Cruzar com corpus: quais itens têm maior escore de "purificação visual"?
+
+
