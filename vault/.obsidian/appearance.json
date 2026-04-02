@@ -1,10 +1,10 @@
 {
-  "cssTheme": "",
-  "baseFontSize": 18,
-  "accentColor": "",
   "interfaceFontFamily": "Andale Mono",
   "theme": "moonstone",
+  "baseFontSize": 18,
+  "cssTheme": "",
   "showRibbon": true,
   "translucency": false,
+  "accentColor": "doNotChange",
   "baseFontSizeAction": true
 }
