@@ -230,9 +230,64 @@ a{color:var(--bordeaux)}
 </html>`;
 }
 
+const CORS = {
+  "Content-Type": "application/json",
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "GET, OPTIONS",
+};
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: CORS });
+
+    // ─── R2 image serving ───
+    if (url.pathname.startsWith("/images/")) {
+      const key = decodeURIComponent(url.pathname.slice("/images/".length));
+      const obj = await env.CORPUS_IMAGES.get(key);
+      if (!obj) return new Response("Not Found", { status: 404 });
+      const h = new Headers();
+      obj.writeHttpMetadata(h);
+      h.set("Cache-Control", "public, max-age=31536000, immutable");
+      h.set("Access-Control-Allow-Origin", "*");
+      return new Response(obj.body, { headers: h });
+    }
+
+    // ─── D1 corpus list ───
+    if (url.pathname === "/api/corpus") {
+      if (!env.CORPUS_DB) return new Response(JSON.stringify([]), { headers: CORS });
+      const country = url.searchParams.get("country");
+      const regime  = url.searchParams.get("regime");
+      const q       = url.searchParams.get("q");
+      const parts = [], params = [];
+      if (country) { parts.push("country = ?"); params.push(country); }
+      if (regime)  { parts.push("LOWER(regime) = LOWER(?)"); params.push(regime); }
+      if (q) {
+        parts.push("(title LIKE ? OR motif_str LIKE ? OR tags_str LIKE ? OR description LIKE ?)");
+        const p = `%${q}%`; params.push(p, p, p, p);
+      }
+      const where = parts.length ? " WHERE " + parts.join(" AND ") : "";
+      const sql = `SELECT id, title, date, country, medium, support, regime, endurecimento_score, motif_str, tags_str, url FROM corpus_items${where} ORDER BY id`;
+      const stmt = env.CORPUS_DB.prepare(sql);
+      const result = params.length ? await stmt.bind(...params).all() : await stmt.all();
+      return new Response(JSON.stringify(result.results), { headers: CORS });
+    }
+
+    // ─── D1 single item ───
+    if (url.pathname.startsWith("/api/corpus/")) {
+      if (!env.CORPUS_DB) return new Response("Not Found", { status: 404, headers: CORS });
+      const id = decodeURIComponent(url.pathname.slice("/api/corpus/".length));
+      const item = await env.CORPUS_DB.prepare("SELECT * FROM corpus_items WHERE id = ?").bind(id).first();
+      if (!item) return new Response("Not Found", { status: 404, headers: CORS });
+      return new Response(JSON.stringify(item), { headers: CORS });
+    }
+
+    // ─── D1 countries list ───
+    if (url.pathname === "/api/corpus/countries") {
+      if (!env.CORPUS_DB) return new Response(JSON.stringify([]), { headers: CORS });
+      const result = await env.CORPUS_DB.prepare("SELECT DISTINCT country FROM corpus_items ORDER BY country").all();
+      return new Response(JSON.stringify(result.results.map(r => r.country)), { headers: CORS });
+    }
 
     if (url.pathname === "/api/diary") {
       const headers = { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Methods": "GET, PUT, OPTIONS" };

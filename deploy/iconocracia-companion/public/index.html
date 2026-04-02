@@ -94,6 +94,73 @@ const PROMPTS=[
   {id:"P10",cat:"GALERIA",title:"Buscar em acervo digital",prompt:"Busque em [Gallica|LoC|British Museum|Rijksmuseum]:\n- Tema: [DESCRIÇÃO]\n- Período: [INTERVALO]\n- Tipo: [estampe|moeda|fotografia]\n\nResultados: título, data, URL, IIIF, licença, ABNT."},
 ];
 
+// ─── CORPUS GALLERY COMPONENTS ───
+const REGIME_COLOR = {normativo:"var(--sepia)",fundacional:"var(--navy)",militar:"var(--bordeaux)"};
+function regimeCol(r){return REGIME_COLOR[(r||"").toLowerCase()]||"var(--warmGray)";}
+function corpusImgUrl(id){const cc=(id||"").split("-")[0];return `/images/${cc}/${id}.jpg`;}
+
+function CorpusCard({item,onClick}){
+  const [imgOk,setImgOk]=useState(true);
+  const rc=regimeCol(item.regime);
+  const score=Math.min((item.endurecimento_score||0)/10*100,100);
+  return <div onClick={()=>onClick(item)} style={{background:"var(--cream)",border:"1px solid var(--lightSepia)",borderTop:`3px solid ${rc}`,borderRadius:4,cursor:"pointer",overflow:"hidden",transition:"box-shadow .2s"}}
+    onMouseEnter={e=>e.currentTarget.style.boxShadow="0 4px 16px rgba(22,33,62,.1)"}
+    onMouseLeave={e=>e.currentTarget.style.boxShadow="none"}>
+    <div style={{aspectRatio:"4/3",background:"var(--parchment)",overflow:"hidden",display:"flex",alignItems:"center",justifyContent:"center"}}>
+      {imgOk?<img src={corpusImgUrl(item.id)} alt={item.title} onError={()=>setImgOk(false)} style={{width:"100%",height:"100%",objectFit:"cover"}}/>
+        :<div style={{textAlign:"center",color:"var(--faded)",padding:"1rem"}}><div style={{fontSize:28,marginBottom:4,opacity:.3}}>◻</div><div className="mono" style={{fontSize:9,letterSpacing:1}}>sem imagem</div></div>}
+    </div>
+    <div style={{padding:"10px 12px"}}>
+      <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:4}}>
+        <span className="mono" style={{fontSize:10,color:"var(--gold)"}}>{item.id}</span>
+        <span className="mono" style={{fontSize:9,color:rc,padding:"1px 6px",border:`1px solid ${rc}`,borderRadius:2,opacity:.85}}>{(item.regime||"").toUpperCase()}</span>
+      </div>
+      <div style={{fontSize:12,fontWeight:600,lineHeight:1.4,marginBottom:3,color:"var(--ink)"}}>{(item.title||"").substring(0,65)}{(item.title||"").length>65?"…":""}</div>
+      <div className="mono" style={{fontSize:10,color:"var(--warmGray)",marginBottom:6}}>{item.country} · {item.date}</div>
+      {score>0&&<div style={{height:3,background:"rgba(212,197,169,.3)",borderRadius:2}}><div style={{height:"100%",width:`${score}%`,background:rc,borderRadius:2,transition:"width .8s"}}/></div>}
+    </div>
+  </div>;
+}
+
+function CorpusModal({item,onClose}){
+  const [full,setFull]=useState(null);
+  const [imgOk,setImgOk]=useState(true);
+  useEffect(()=>{fetch(`/api/corpus/${item.id}`).then(r=>r.json()).then(setFull).catch(()=>setFull(item));},[item.id]);
+  const d=full||item;
+  const rc=regimeCol(d.regime);
+  const score=Math.min((d.endurecimento_score||0)/10*100,100);
+  return <div onClick={onClose} style={{position:"fixed",inset:0,background:"rgba(26,26,46,.85)",zIndex:1000,display:"flex",alignItems:"center",justifyContent:"center",padding:"1rem",overflowY:"auto"}}>
+    <div onClick={e=>e.stopPropagation()} style={{background:"var(--cream)",border:"1px solid var(--lightSepia)",borderTop:`3px solid ${rc}`,borderRadius:6,maxWidth:680,width:"100%",maxHeight:"92vh",overflowY:"auto",position:"relative"}}>
+      <div style={{padding:"12px 16px",borderBottom:"1px solid var(--lightSepia)",display:"flex",justifyContent:"space-between",alignItems:"center",position:"sticky",top:0,background:"var(--cream)",zIndex:1}}>
+        <span className="mono" style={{fontSize:11,color:"var(--gold)"}}>{d.id} · {d.support}</span>
+        <button onClick={onClose} style={{background:"transparent",border:"none",color:"var(--warmGray)",fontSize:20,cursor:"pointer",lineHeight:1}}>✕</button>
+      </div>
+      {imgOk&&<div style={{background:"var(--parchment)",display:"flex",alignItems:"center",justifyContent:"center",maxHeight:380,overflow:"hidden"}}>
+        <img src={corpusImgUrl(d.id)} alt={d.title} onError={()=>setImgOk(false)} style={{maxWidth:"100%",maxHeight:380,objectFit:"contain",display:"block"}}/>
+      </div>}
+      <div style={{padding:"18px 20px"}}>
+        <h2 style={{fontSize:17,fontWeight:700,lineHeight:1.4,marginBottom:8}}>{d.title}</h2>
+        <div style={{display:"flex",gap:8,flexWrap:"wrap",marginBottom:12}}>
+          <span className="mono" style={{fontSize:10,color:rc,padding:"2px 8px",border:`1px solid ${rc}`,borderRadius:2}}>{(d.regime||"").toUpperCase()}</span>
+          {d.period&&<span className="mono" style={{fontSize:10,color:"var(--warmGray)",padding:"2px 8px",border:"1px solid var(--lightSepia)",borderRadius:2}}>{d.period}</span>}
+        </div>
+        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"6px 16px",fontSize:12,marginBottom:14}}>
+          {[["País",d.country],["Data",d.date],["Suporte",d.medium||d.support],["Criador",d.creator]].map(([k,v])=>v?<div key={k}><span style={{color:"var(--warmGray)"}}>{k}: </span><strong>{v}</strong></div>:null)}
+        </div>
+        {d.institution&&<div style={{fontSize:12,marginBottom:4}}><span style={{color:"var(--warmGray)"}}>Instituição: </span>{d.institution}{d.source_archive&&<span style={{color:"var(--warmGray)"}}> / {d.source_archive}</span>}</div>}
+        {d.description&&<p style={{fontSize:13,lineHeight:1.7,color:"var(--sepia)",fontStyle:"italic",margin:"12px 0",padding:"10px 14px",borderLeft:"2px solid var(--lightSepia)"}}>{d.description}</p>}
+        {score>0&&<div style={{marginBottom:12}}>
+          <div style={{display:"flex",justifyContent:"space-between",fontSize:11,color:"var(--warmGray)",marginBottom:3}}><span className="mono">ENDURECIMENTO</span><span className="mono">{d.endurecimento_score?.toFixed(1)}/10</span></div>
+          <div style={{height:5,background:"rgba(212,197,169,.3)",borderRadius:3}}><div style={{height:"100%",width:`${score}%`,background:rc,borderRadius:3}}/></div>
+        </div>}
+        {d.motif_str&&<div style={{fontSize:11,color:"var(--warmGray)",marginBottom:8}}><strong>Motivos:</strong> {d.motif_str}</div>}
+        {d.citation_abnt&&<div style={{fontSize:11,background:"var(--parchment)",padding:"8px 12px",borderRadius:4,lineHeight:1.6,color:"var(--ink)",fontFamily:"'IBM Plex Mono',monospace",marginTop:10,wordBreak:"break-word"}}>{d.citation_abnt}</div>}
+        {d.url&&<a href={d.url} target="_blank" rel="noopener" style={{display:"inline-block",marginTop:12,fontSize:12,color:"var(--bordeaux)"}}>Ver no acervo →</a>}
+      </div>
+    </div>
+  </div>;
+}
+
 // ─── SMALL COMPONENTS ───
 function Ring({pct,size=44,stroke=3.5,color="var(--gold)"}){
   const r=(size-stroke)/2, c=2*Math.PI*r;
@@ -251,6 +318,7 @@ function PromptCard({p}){
 // ─── MAIN APP ───
 const TABS=[
   {id:"overview",label:"Visao Geral",icon:"◎"},
+  {id:"galeria",label:"Galeria",icon:"◧"},
   {id:"scout",label:"Scout",icon:"🔍"},
   {id:"corpus",label:"Corpus",icon:"◉"},
   {id:"atlas",label:"Mini-Atlas",icon:"◫"},
@@ -270,11 +338,25 @@ function App(){
   const [scoutData,setScoutData]=useState(null);
   const [dSearch,setDSearch]=useState("");
   const [dTypeFilter,setDTypeFilter]=useState("all");
+  // gallery
+  const [corpusData,setCorpusData]=useState(null);
+  const [corpusLoading,setCorpusLoading]=useState(false);
+  const [selectedItem,setSelectedItem]=useState(null);
+  const [gSearch,setGSearch]=useState("");
+  const [gCountry,setGCountry]=useState("all");
+  const [gRegime,setGRegime]=useState("all");
 
   useEffect(()=>{
     loadDiary().then(d=>{setDiary(d);setLoaded(true);});
     fetch('/api/scout').then(r=>r.json()).then(setScoutData).catch(()=>{});
   },[]);
+
+  useEffect(()=>{
+    if(tab==="galeria"&&!corpusData&&!corpusLoading){
+      setCorpusLoading(true);
+      fetch('/api/corpus').then(r=>r.json()).then(d=>{setCorpusData(d);setCorpusLoading(false);}).catch(()=>setCorpusLoading(false));
+    }
+  },[tab]);
 
   const saveEntry=useCallback(entry=>{
     const u=[entry,...diary];setDiary(u);saveDiaryAPI(u);setShowNew(false);
@@ -351,6 +433,55 @@ function App(){
             {["QUAN → Cap. 6 · Iconometria","QUAL → Cap. 7 · Iconologia","SÍNTESE → Cap. 8–9 · Atlas"].map((s,i)=><div key={i} style={{fontSize:13,marginBottom:6,paddingLeft:10,borderLeft:`2px solid ${["var(--navy)","var(--sepia)","var(--bordeaux)"][i]}`}}>{s}</div>)}
           </div>
         </div>
+      </div>}
+
+      {/* GALERIA */}
+      {tab==="galeria"&&<div>
+        <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:16,flexWrap:"wrap",gap:10}}>
+          <div>
+            <h2 style={{fontSize:20,fontWeight:700,margin:0}}>Galeria Iconográfica</h2>
+            <p style={{fontSize:13,color:"var(--sepia)",margin:"4px 0 0",fontStyle:"italic"}}>{corpusData?`${corpusData.length} imagens · corpus completo`:"carregando corpus…"}</p>
+          </div>
+        </div>
+        {/* filter bar */}
+        {corpusData&&<div style={{marginBottom:16,display:"flex",flexDirection:"column",gap:8}}>
+          <input value={gSearch} onChange={e=>setGSearch(e.target.value)} placeholder="Buscar por título, motivo, tags…"
+            style={{width:"100%",boxSizing:"border-box",padding:"8px 12px",border:"1px solid var(--lightSepia)",borderRadius:4,fontSize:13,background:"var(--cream)",color:"var(--ink)",outline:"none",fontFamily:"'Cormorant Garamond',Georgia,serif"}}/>
+          <div style={{display:"flex",gap:4,flexWrap:"wrap",alignItems:"center"}}>
+            <span className="mono" style={{fontSize:10,color:"var(--warmGray)",letterSpacing:.08*10}}>REGIME</span>
+            {["all","normativo","fundacional","militar"].map(r=>{
+              const rc={normativo:"var(--sepia)",fundacional:"var(--navy)",militar:"var(--bordeaux)"}[r]||"var(--ink)";
+              const active=gRegime===r;
+              return <button key={r} onClick={()=>setGRegime(r)} className="mono" style={{fontSize:10,padding:"3px 10px",borderRadius:2,
+                background:active?rc:"transparent",color:active?"var(--cream)":rc,
+                border:`1px solid ${active?rc:"var(--lightSepia)"}`,transition:"all .15s",cursor:"pointer"}}>{r==="all"?"todos":r}</button>;
+            })}
+            <span className="mono" style={{fontSize:10,color:"var(--warmGray)",marginLeft:8,letterSpacing:.08*10}}>PAÍS</span>
+            {[...new Set((corpusData||[]).map(i=>i.country))].sort().map(c=>{
+              const active=gCountry===c;
+              return <button key={c} onClick={()=>setGCountry(gCountry===c?"all":c)} className="mono" style={{fontSize:10,padding:"3px 10px",borderRadius:2,
+                background:active?"var(--bordeaux)":"transparent",color:active?"var(--cream)":"var(--warmGray)",
+                border:`1px solid ${active?"var(--bordeaux)":"var(--lightSepia)"}`,transition:"all .15s",cursor:"pointer"}}>{c}</button>;
+            })}
+          </div>
+        </div>}
+        {/* grid */}
+        {corpusLoading&&<div style={{textAlign:"center",padding:60,color:"var(--warmGray)"}} className="mono">carregando galeria…</div>}
+        {corpusData&&(()=>{
+          const filtered=(corpusData||[]).filter(i=>{
+            const mR=gRegime==="all"||(i.regime||"").toLowerCase()===gRegime;
+            const mC=gCountry==="all"||i.country===gCountry;
+            const mQ=!gSearch||[i.title,i.motif_str,i.tags_str,i.country].join(" ").toLowerCase().includes(gSearch.toLowerCase());
+            return mR&&mC&&mQ;
+          });
+          return <>
+            <div className="mono" style={{fontSize:10,color:"var(--warmGray)",marginBottom:12}}>{filtered.length} de {corpusData.length} itens</div>
+            {filtered.length===0?<div style={{textAlign:"center",padding:40,background:"var(--cream)",borderRadius:8,border:"1px dashed var(--lightSepia)",color:"var(--warmGray)",fontStyle:"italic"}}>Nenhum item encontrado.</div>
+            :<div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(200px,1fr))",gap:12}}>
+              {filtered.map(item=><CorpusCard key={item.id} item={item} onClick={setSelectedItem}/>)}
+            </div>}
+          </>;
+        })()}
       </div>}
 
       {/* SCOUT */}
@@ -541,6 +672,9 @@ function App(){
       </div>}
 
     </div>
+
+    {/* CORPUS DETAIL MODAL */}
+    {selectedItem&&<CorpusModal item={selectedItem} onClose={()=>setSelectedItem(null)}/>}
 
     {/* FOOTER */}
     <div style={{background:"var(--navy)",padding:"12px 20px",borderTop:"2px solid var(--gold)",textAlign:"center",marginTop:"auto"}}>
