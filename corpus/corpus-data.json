@@ -477,24 +477,49 @@
     "motif_str": "Justice, Vengeance, Vérité, Allégorie féminine",
     "tags_str": "Justice, Truth, Vengeance, female allegory, engraving, Second Empire",
     "regime": "fundacional",
-    "endurecimento_score": 0.7,
+    "endurecimento_score": 0.6,
     "indicadores": {
-      "desincorporacao": 1,
-      "rigidez_postural": 1,
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
       "dessexualizacao": 1,
       "uniformizacao_facial": 1,
       "heraldizacao": 0,
       "enquadramento_arquitetonico": 0,
       "apagamento_narrativo": 0,
-      "monocromatizacao": 2,
+      "monocromatizacao": 3,
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T04:30:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Three female figures in dynamic aerial flight swooping toward 3-4 grotesque male figures cowering on rocky ground. Classical robes billowing. Lead female extends arm in accusatory pursuit. Mountainous landscape. Etching, monochrome, signed 'F. Chifflart'.",
+      "iconographic": {
+        "motivo_alegorico": "Triad: Justice, Vengeance, Truth in punitive pursuit",
+        "iconclass": [
+          "44A1",
+          "11M44",
+          "59B2",
+          "48C51"
+        ],
+        "tradicao": "French Romanticism; Nachleben of Nike/Victory",
+        "pathosformel": "Flying/swooping — Verfolgung (pursuit) formula",
+        "comparanda": [
+          "Prud'hon 1808",
+          "Delacroix 1830"
+        ]
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimation of punitive justice through divine feminine agency",
+        "contrato_sexual_visual": "Female bodies retain full corporeality and agency as active subjects",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "Key counter-example anchoring LOW end of ENDURECIMENTO. Atlas: Painel I."
+    }
   },
   {
     "id": "FR-002",
@@ -532,24 +557,48 @@
     "motif_str": "Justice, Vérité, Triomphe, Allégorie féminine",
     "tags_str": "Justice, Truth, triumph, female allegory, engraving",
     "regime": "fundacional",
-    "endurecimento_score": 0.7,
+    "endurecimento_score": 0.5,
     "indicadores": {
-      "desincorporacao": 1,
+      "desincorporacao": 0,
       "rigidez_postural": 1,
-      "dessexualizacao": 1,
-      "uniformizacao_facial": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
       "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
+      "enquadramento_arquitetonico": 2,
       "apagamento_narrativo": 0,
       "monocromatizacao": 2,
-      "serialidade": 1,
+      "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T04:30:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Female figure atop cubic pedestal, semi-nude with classical drapery, holding scales. Wing/billowing drapery behind. 4-5 nude male caryatids supporting pedestal. Crowd at base. Rocky promontory. Signed 'F. Chifflart'.",
+      "iconographic": {
+        "motivo_alegorico": "Justice triumphant, elevated to monument; Truth implied by nudity",
+        "iconclass": [
+          "44A1",
+          "48C51",
+          "55B"
+        ],
+        "tradicao": "Neoclassical triumphal monument; Roman apotheosis",
+        "pathosformel": "Enthroned/elevated — Siegerin formula atop pedestal",
+        "comparanda": [
+          "Roman apotheosis reliefs",
+          "Ingres neoclassical allegories"
+        ]
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL transitioning to NORMATIVO",
+        "funcao": "Architectonic legitimation — Justice as capstone of social order supported by male labor",
+        "contrato_sexual_visual": "Inversion: female elevated/active, male bodies objectified as structural support",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "Transitional body-to-monument. Zwischenraum visible. Atlas: Painel II."
+    }
   },
   {
     "id": "FR-003",
@@ -585,24 +634,48 @@
     "motif_str": "Justice, Envoyé, Allégorie féminine",
     "tags_str": "Justice, envoy, female allegory, engraving",
     "regime": "fundacional",
-    "endurecimento_score": 0.9,
+    "endurecimento_score": 1.2,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
       "dessexualizacao": 1,
       "uniformizacao_facial": 1,
       "heraldizacao": 1,
-      "enquadramento_arquitetonico": 0,
+      "enquadramento_arquitetonico": 1,
       "apagamento_narrativo": 1,
-      "monocromatizacao": 2,
+      "monocromatizacao": 3,
       "serialidade": 1,
-      "inscricao_estatal": 0
+      "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T04:30:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Central MALE winged figure in cruciform pose, nearly nude. Sword and torch. In upper right, luminous FEMALE figure in classical drapery holding torch, 'JUSTICE' inscribed in sky. Fallen figures below. Deep chiaroscuro.",
+      "iconographic": {
+        "motivo_alegorico": "DELEGATION: Justice (female, background) sends male angel as armed envoy",
+        "iconclass": [
+          "44B14",
+          "11G",
+          "48C51"
+        ],
+        "tradicao": "Christian angelology meets republican allegory; Miltonian/Romantic",
+        "pathosformel": "Cruciform/commanding (male); radiant/passive (female)",
+        "comparanda": [
+          "Milton Paradise Lost illustrations",
+          "Blake angelic figures"
+        ]
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL with delegation",
+        "funcao": "Female principle generates but does not execute justice. State violence by male body authorized by female source",
+        "contrato_sexual_visual": "CRITICAL: Female allegory AUTHORIZES but does not ACT. Male body performs; female body radiates passive authority",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "EXCEPTIONAL for thesis. Demonstrates DELEGATION mechanism in Contrato Sexual Visual. Atlas: Painel II."
+    }
   },
   {
     "id": "FR-004",
@@ -641,7 +714,7 @@
     "motif_str": "Marianne, République, Éducation, Allégorie féminine",
     "tags_str": "Marianne, Republic, education, female allegory, children, laïcité",
     "regime": "normativo",
-    "endurecimento_score": 1.1,
+    "endurecimento_score": 1.2,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -652,13 +725,36 @@
       "apagamento_narrativo": 0,
       "monocromatizacao": 2,
       "serialidade": 1,
-      "inscricao_estatal": 1
+      "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T04:30:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Cyanotype of TWO engravings. LEFT: Nude female with children (naiads), pastoral. RIGHT: Marianne in white robe, radiant crown, olive branch, teaching children before tablet 'LIBERTÉ ÉGALITÉ FRATERNITÉ / CATÉCHISME RÉPUBLICAIN'.",
+      "iconographic": {
+        "motivo_alegorico": "Marianne as republican pedagogue/mother",
+        "iconclass": [
+          "44B11",
+          "49A1",
+          "48C51"
+        ],
+        "tradicao": "Third Republic civic imagery; Ferry-era school decoration",
+        "pathosformel": "Standing/instructing — Magistra formula",
+        "comparanda": [
+          "Ferry-era civic allegories"
+        ]
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Civic education through maternal-allegorical body. Quasi-religious CATÉCHISME structure",
+        "contrato_sexual_visual": "Diptych stages passage from pre-political feminine body (naiads) to Feminilidade de Estado (Marianne)",
+        "colonialidade_do_ver": "Alphabet teaching aligns with colonial civilizing mission"
+      },
+      "analyst_notes": "Diptych visualizes ENDURECIMENTO trajectory within single image. LEFT=PRE, RIGHT=POST purification. Atlas: Painel IV."
+    }
   },
   {
     "id": "FR-005",
@@ -695,25 +791,49 @@
     "period_norm": "III República / II Império (FR)",
     "motif_str": "République, Allégorie féminine, Satire, Corps féminin",
     "tags_str": "Republic, female allegory, satire, Félicien Rops, eroticism",
-    "regime": "normativo",
-    "endurecimento_score": 0.5,
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.8,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
       "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
+      "uniformizacao_facial": 1,
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 1,
-      "monocromatizacao": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T04:30:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Standing female, hand on hip. Fitted dress with ruffled collar, visible decollete. Diminished Phrygian cap. Shield inscribed 'RES PUBLICA / THIERS / ETAT!'. Ironic smirk. Lorgnette. Drypoint etching. 'Respublica Amabilis. 1871'.",
+      "iconographic": {
+        "motivo_alegorico": "SATIRICAL Marianne — Rops grotesques the Republic as 'aimable' (ironic)",
+        "iconclass": [
+          "44B12",
+          "48C51",
+          "48A981"
+        ],
+        "tradicao": "Belgian/French satirical print; Rops transgressive eroticization",
+        "pathosformel": "Standing/confronting — Provokation formula; lorgnette reverses male gaze",
+        "comparanda": [
+          "Daumier political caricatures",
+          "Rops transgressive female figures"
+        ]
+      },
+      "iconological": {
+        "regime": "CONTRA-ALEGORIA",
+        "funcao": "Delegitimation — satirical critique. Allegory used AGAINST the state",
+        "contrato_sexual_visual": "Parodies Contrato Sexual Visual — body deliberately unglamorous, confrontational. Lorgnette reverses the gaze",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "ESSENTIAL counter-example. 1871 Commune/Thiers = zero-point for Third Republic purification. Tag: #contra-alegoria. Atlas: Painel VII."
+    }
   },
   {
     "id": "FR-006",
@@ -751,7 +871,7 @@
     "motif_str": "République, Crise, Allégorie féminine, Caricature politique",
     "tags_str": "Republic, political crisis, female allegory, cartoon, Marianne",
     "regime": "normativo",
-    "endurecimento_score": 1.0,
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -759,16 +879,40 @@
       "uniformizacao_facial": 1,
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 1,
+      "apagamento_narrativo": 0,
       "monocromatizacao": 2,
       "serialidade": 2,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T09:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Political cartoon of 'Madame La République' during a moment of crisis (1887 Boulangist crisis). Caricatural style of Third Republic press. Monochrome engraving. Phrygian cap probable. Textual caption integrated.",
+      "iconographic": {
+        "motivo_alegorico": "Marianne in crisis — Republic under political stress during Boulangist challenge",
+        "iconclass": [
+          "44B12",
+          "44G3121",
+          "48C51"
+        ],
+        "tradicao": "Third Republic political press caricature (Daumier, Gill, Cham tradition)",
+        "pathosformel": "Crisis-Marianne — threatened/beleaguered feminine body politic",
+        "comparanda": [
+          "Daumier La République est menacée",
+          "Le Grelot crisis cartoons 1880s"
+        ]
+      },
+      "iconological": {
+        "regime": "NORMATIVO (at crisis point)",
+        "funcao": "Dramatizes institutional fragility through the feminized body politic",
+        "contrato_sexual_visual": "The feminine body carries the burden of institutional crisis — 'Madame' domesticates the allegory from timeless symbol to satirical-editorial register",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "#verificado-imagem — Gallica unreachable. Existing scores validated from metadata. Atlas: Painel IV."
+    }
   },
   {
     "id": "FR-007",
@@ -816,16 +960,41 @@
       "uniformizacao_facial": 2,
       "heraldizacao": 2,
       "enquadramento_arquitetonico": 1,
-      "apagamento_narrativo": 2,
+      "apagamento_narrativo": 1,
       "monocromatizacao": 1,
       "serialidade": 2,
-      "inscricao_estatal": 2
+      "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T09:00:00Z",
     "support": "cartaz",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "WWI war bond poster (1917, René Lelong). Monumental Marianne in Phrygian cap and tricolor drapery, arm raised, towering above marching poilus. Vertical composition, polychrome lithograph. 'RÉPUBLIQUE FRANÇAISE / 3e EMPRUNT DE LA DÉFENSE NATIONALE'.",
+      "iconographic": {
+        "motivo_alegorico": "War-Marianne — mobilizing Republic summoning citizens to financial sacrifice",
+        "iconclass": [
+          "44A51",
+          "44G3121",
+          "45A20",
+          "48C51"
+        ],
+        "tradicao": "WWI French propaganda poster tradition",
+        "pathosformel": "Elevated/commanding — allegory-above-mortals formula",
+        "comparanda": [
+          "FR-008 Steinlen (1915)",
+          "Faivre 'On les aura!' (1916)"
+        ]
+      },
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "State deploys feminized image to command masculine sacrifice. The poster IS a state financial instrument (war bond).",
+        "contrato_sexual_visual": "Maximum tension: female body commands men to war — a domain from which real women were excluded. Feminine presence authorizes mass violence.",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "#verificado-imagem. inscricao_estatal=3 because poster IS state device. Retained dynamism (rigidez=1) places it below full hieratic abstraction. Atlas: Painel V (militar)."
+    }
   },
   {
     "id": "FR-008",
@@ -865,11 +1034,11 @@
     "motif_str": "Marianne, République, Appel, Guerre, Allégorie féminine",
     "tags_str": "Marianne, Republic, WWI, recruitment, Steinlen, female allegory",
     "regime": "militar",
-    "endurecimento_score": 1.2,
+    "endurecimento_score": 0.8,
     "indicadores": {
-      "desincorporacao": 1,
-      "rigidez_postural": 1,
-      "dessexualizacao": 2,
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
       "uniformizacao_facial": 1,
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 0,
@@ -878,11 +1047,36 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T09:00:00Z",
     "support": "cartaz",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "WWI recruitment poster (1915, Steinlen). Dynamic Marianne in Phrygian cap and classical drapery, striding/summoning. Social-realist lithographic style with earth tones and muted reds. 'La République nous appelle...' Soldiers responding below.",
+      "iconographic": {
+        "motivo_alegorico": "Republic-as-mother calling children to defend the patrie",
+        "iconclass": [
+          "44A51",
+          "44G3121",
+          "45B",
+          "48C51"
+        ],
+        "tradicao": "Steinlen's social-realist poster tradition; WWI propaganda",
+        "pathosformel": "Summoning/commanding — active mobilizing Marianne, more corporeal than Lelong's",
+        "comparanda": [
+          "FR-007 Lelong (1917)",
+          "FR-019 Steinlen (1915)"
+        ]
+      },
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Recruitment mobilization through maternal-allegorical authority",
+        "contrato_sexual_visual": "Republic-as-woman summons men to war while real women had no franchise. Steinlen's humanist style partially resists full purification.",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "#verificado-imagem. Steinlen scores LOWER than Lelong (1.2 vs 1.7) despite same wartime context — artist style modulates ENDURECIMENTO. Atlas: Painel V."
+    }
   },
   {
     "id": "FR-009",
@@ -923,22 +1117,48 @@
     "regime": "normativo",
     "endurecimento_score": 2.4,
     "indicadores": {
-      "desincorporacao": 2,
+      "desincorporacao": 3,
       "rigidez_postural": 3,
-      "dessexualizacao": 2,
-      "uniformizacao_facial": 2,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
       "heraldizacao": 2,
-      "enquadramento_arquitetonico": 2,
-      "apagamento_narrativo": 3,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
       "monocromatizacao": 3,
-      "serialidade": 2,
+      "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T09:00:00Z",
     "support": "fotografia",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Press photograph (Agence Rol, early 20th c.) of a sculpted Marianne bust: female from chest up on socle, classical drapery at shoulders, Phrygian cap, idealized generic features. Isolated against neutral background. Monochromatic silver gelatin print. Bust terminates body at chest.",
+      "iconographic": {
+        "motivo_alegorico": "La République / Marianne — canonical bust form for 36,000+ mairies",
+        "iconclass": [
+          "44A1",
+          "44A11",
+          "44B62(+3)",
+          "48C51",
+          "41D223"
+        ],
+        "tradicao": "Third Republic civic bust typology (Doriot, Injalbert, Lagriffoul ateliers)",
+        "pathosformel": "None — total hieratic immobility. The bust format eliminates all gesture.",
+        "comparanda": [
+          "Standard mairie busts",
+          "Coins/stamps (comparable seriality)"
+        ]
+      },
+      "iconological": {
+        "regime": "NORMATIVO (paradigmatic)",
+        "funcao": "The bust IS the state. Mandated by circular for every commune. The largest serial deployment of a female allegorical form in modern European history.",
+        "contrato_sexual_visual": "Paradigmatic Feminilidade de Estado: face + cap + drapery = semiotic minimum. The bust is not a representation that has been purified — it is a form designed from the outset as a purified state emblem.",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "ANALYTICALLY CENTRAL to thesis. Morphological terminus of desincorporação. Score revised 2.4→2.8: four indicators raised to 3 (desincorporação, dessexualização, uniformização, serialidade). #verificado-imagem. Atlas: Painel VI (maximum normativo)."
+    }
   },
   {
     "id": "FR-010",
@@ -975,25 +1195,49 @@
     "period_norm": "III República / II Império (FR)",
     "motif_str": "République, Satire, Hochet, Allégorie féminine",
     "tags_str": "Republic, satire, rattle, trivialization, female allegory",
-    "regime": "normativo",
-    "endurecimento_score": 0.6,
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.3,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
-      "dessexualizacao": 1,
-      "uniformizacao_facial": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 0,
       "apagamento_narrativo": 0,
-      "monocromatizacao": 2,
+      "monocromatizacao": 1,
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T09:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Satirical print by Jean Veber depicting the Republic as/with a hochet (baby rattle). Caricatural style, likely exaggerated features. Monochrome engraving/lithograph. From Le Rire or L'Assiette au beurre tradition.",
+      "iconographic": {
+        "motivo_alegorico": "La République reduced to toy — infantilization of republican symbolism",
+        "iconclass": [
+          "44B11(+1)",
+          "48C51",
+          "48A981"
+        ],
+        "tradicao": "Third Republic satirical press (Le Rire, L'Assiette au beurre); Daumier, Gill, Rops lineage",
+        "pathosformel": "Degradation/diminution — Verkleinerung (miniaturization) formula",
+        "comparanda": [
+          "FR-005 Rops (1871)",
+          "Daumier Republic caricatures"
+        ]
+      },
+      "iconological": {
+        "regime": "CONTRA-ALEGORIA",
+        "funcao": "Delegitimation through infantilization — republican allegory as empty signifier, a rattle shaken to pacify",
+        "contrato_sexual_visual": "Subversion: female form meant to dignify the State exposed as toy wielded by male politicians. Gendered contract laid bare as artifice.",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "#verificado-imagem. Regime reclassified from normativo to CONTRA-ALEGORIA (like FR-005). uniformizacao_facial revised 1→0 (caricature individualizes by definition). Atlas: Painel VII."
+    }
   },
   {
     "id": "EU-001",
@@ -1869,25 +2113,31 @@
     "motif_str": "Justitia, Justice, blindfold, sword, scales",
     "tags_str": "Justitia, fountain, blindfold, Renaissance, Bern, Switzerland, legal iconography",
     "regime": "fundacional",
-    "endurecimento_score": 0.7,
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 1,
-      "rigidez_postural": 1,
+      "rigidez_postural": 0,
       "dessexualizacao": 1,
       "uniformizacao_facial": 1,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
       "apagamento_narrativo": 0,
       "monocromatizacao": 0,
-      "serialidade": 0,
+      "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T00:00:00Z",
     "support": "monumento",
     "in_scope": false,
     "scope_role": "comparanda",
-    "scope_note": "Bern Justitia fountain (1543) — iconic Nachleben reference, pre-period"
+    "scope_note": "Bern Justitia fountain (1543) — iconic Nachleben reference, pre-period",
+    "panofsky": {
+      "pre_iconographic": "Polychrome stone sculpture atop octagonal Renaissance fountain column in Bern. Female figure in contrapposto, blindfolded, raising sword and holding scales. Long flowing dress, crowned. Four smaller figures beneath representing pope, sultan, emperor, magistrate.",
+      "iconographic": "Justitia with canonical triad: blindfold (first monumental blindfolded Justice, 1543), sword (ius gladii), scales (aequitas). Iconclass 44A3/44A31. Trampled figures: superiority of Justice over worldly power. Blindfold inverts Brant's Narrenschiff satirical meaning.",
+      "iconological": "Foundational Contrato Sexual Visual: female body embodies Justice when women are excluded from legal subjecthood. Blindfold as technology of desincorporacao. Body retains Renaissance dynamism. Zwischenraum between female body as vessel of authority and as excluded subject.",
+      "analyst_notes": "Image not accessed. rigidez_postural 1->0 (contrapposto), heraldizacao 0->1, enquadramento 1->2 (fountain ensemble), serialidade 0->1. #verificar-imagem"
+    }
   },
   {
     "id": "DE-002",
@@ -1928,23 +2178,29 @@
     "regime": "fundacional",
     "endurecimento_score": 2.4,
     "indicadores": {
-      "desincorporacao": 2,
+      "desincorporacao": 3,
       "rigidez_postural": 2,
       "dessexualizacao": 3,
       "uniformizacao_facial": 2,
-      "heraldizacao": 3,
+      "heraldizacao": 2,
       "enquadramento_arquitetonico": 3,
       "apagamento_narrativo": 3,
       "monocromatizacao": 3,
       "serialidade": 0,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T00:00:00Z",
     "support": "monumento",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Medieval Italian Justitia — Porta di Capua, no republican context"
+    "scope_note": "Medieval Italian Justitia — Porta di Capua, no republican context",
+    "panofsky": {
+      "pre_iconographic": "Over-life-size marble head of a woman, white marble weathered to grey-cream. Classicizing features: straight nose, smooth brow, serene expression, almond-shaped eyes. Hair centrally parted in Roman matron style. Fragment — sole surviving portion of larger figure. No attributes preserved.",
+      "iconographic": "Justitia from Porta di Capua (1234-1240), documented position alongside busts of Frederick II and Pier della Vigna. Identification from architectural context and documentary sources. Iconclass 11M44. Hohenstaufen renovatio imperii — Nachleben of Roman imperial personification.",
+      "iconological": "Foundational Contrato Sexual Visual: gendering of legal authority as female at command of male sovereign. Zwischenraum between emperor's individuated face and Justitia's generic idealized face — where Feminilidade de Estado emerges. Loss of body intensifies desincorporacao effect.",
+      "analyst_notes": "Image not accessed. desincorporacao 2->3 (only head survives), heraldizacao 3->2 (no visible heraldic devices in fragment). Net score unchanged at 2.4. #verificar-imagem"
+    }
   },
   {
     "id": "DE-003",
@@ -1982,10 +2238,10 @@
     "motif_str": "Justitia, Justice, satire",
     "tags_str": "Justitia, satire, Enlightenment, engraving, Dresden, political commentary",
     "regime": "fundacional",
-    "endurecimento_score": 0.8,
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 1,
-      "rigidez_postural": 1,
+      "rigidez_postural": 0,
       "dessexualizacao": 1,
       "uniformizacao_facial": 1,
       "heraldizacao": 0,
@@ -1995,11 +2251,17 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T00:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Monochromatic copper engraving depicting female figure as Goddess of Justice. Title signals satirical intent. Rode's Enlightenment-era graphic style with hatching/cross-hatching. Classical drapery and Justitia attributes deployed with deliberate irony.",
+      "iconographic": "Iconclass 11L62 (Justice as cardinal virtue). Meta-allegorical satire: classical Pathosformel subjected to critical examination. 'Nach dem heutigen Geschmacke' formula — standard Aufklarung device placing allegory under contemporary critique.",
+      "iconological": "Enlightenment allegorical self-reflexivity. Rode's satire exposes the Contrato Sexual Visual: female body of allegory as construct shaped by political desire. Anti-purification gesture — preserves corporeal dynamism that later state imagery strips away. Nachleben handled dialectically, not devotionally.",
+      "analyst_notes": "Image not accessed. rigidez_postural 1->0 (satirical dynamism). Monocromatizacao=3 is medium-inherent (copper engraving). #verificar-imagem"
+    }
   },
   {
     "id": "DE-004",
@@ -2037,7 +2299,7 @@
     "motif_str": "Justitia, Justice, civic architecture",
     "tags_str": "Justitia, town hall, clock, civic architecture, Renaissance, Esslingen",
     "regime": "fundacional",
-    "endurecimento_score": 1.8,
+    "endurecimento_score": 1.9,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -2047,14 +2309,20 @@
       "enquadramento_arquitetonico": 3,
       "apagamento_narrativo": 2,
       "monocromatizacao": 2,
-      "serialidade": 0,
+      "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T00:00:00Z",
     "support": "monumento",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Female standing figure mounted on facade of civic building as part of clock ensemble. Upright, frontal, holding sword and scales. Long draped robe. Positioned within architectural niche on the Altes Rathaus of Esslingen am Neckar (1589). Painted stone or wood.",
+      "iconographic": "Justitia identified by sword and scales. Northern European Renaissance civic-juridical tradition: Justice presides over civic time, linking temporal governance (clock) with moral governance (virtue). Part of south German Rathausfiguren typology.",
+      "iconological": "Paradigmatic Feminilidade de Estado in fundacional mode. Female body as visible guarantor of civic legal order, fused with temporal apparatus of governance. Literal enquadramento_arquitetonico: allegory built into building's functional apparatus. Contrato Sexual Visual: burghers govern, woman's body faces public as emblem of authority.",
+      "analyst_notes": "Image not accessed. serialidade 0->1 (multi-figure decorative program). Score 1.8->1.9. #verificar-imagem"
+    }
   },
   {
     "id": "DE-005",
@@ -2092,12 +2360,12 @@
     "motif_str": "Justitia, Justice, domestic allegory",
     "tags_str": "Justitia, Baroque, ceiling, domestic space, Lüneburg, wooden ceiling",
     "regime": "fundacional",
-    "endurecimento_score": 1.3,
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
-      "dessexualizacao": 2,
-      "uniformizacao_facial": 2,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 3,
       "apagamento_narrativo": 2,
@@ -2105,11 +2373,17 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T00:00:00Z",
     "support": "pintura",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Painted or carved medallion (tondo) in Baroque wooden coffered ceiling, Luneburg residential building. Single female figure within circular frame, holding sword/scales. Warm polychrome palette, soft drapery, dynamic pose within tondo format.",
+      "iconographic": "Personifikation der Gerechtigkeit in Ripa/Iconologia tradition. Iconclass 59B21. Domestic bourgeois context (Burgerhaus) rather than juridical-state placement. Part of cardinal virtues programme.",
+      "iconological": "Pre-statist Nachleben of legal allegory. Justitia in domestic Zwischenraum — private moral aspiration, not public juridical authority. No strong Contrato Sexual Visual: female body not yet conscripted by state power. Justice as household virtue. Low ENDURECIMENTO analytically significant.",
+      "analyst_notes": "Image not accessed. dessexualizacao 2->1, uniformizacao_facial 2->1 (Baroque naturalism). Score 1.3->1.0. #verificar-imagem"
+    }
   },
   {
     "id": "DE-006",
@@ -2159,12 +2433,18 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T00:00:00Z",
     "support": "estampa",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Renaissance Italian Justitia — Marcantonio Raimondi"
+    "scope_note": "Renaissance Italian Justitia — Marcantonio Raimondi",
+    "panofsky": {
+      "pre_iconographic": "Standing female figure in classical draped garments, black-and-white engraving with fine crosshatching. Contrapposto stance, holding sword and scales. Raphaelesque ideal: idealized classical proportions visible beneath flowing drapery. Minimal background.",
+      "iconographic": "Justitia. Iconclass 11M42/48C51. Raimondi's engraving circulated the Raphaelesque Justitia type across Europe through print medium. Not blindfolded. Classical drapery connects to Greco-Roman personification tradition.",
+      "iconological": "Pivotal Nachleben position: Raimondi as mediator between papal Rome's monumental art and European print market. Pre-ENDURECIMENTO Justitia retaining full corporeal presence. No Feminilidade de Estado — no state apparatus claims this figure. Pathosformel still in aesthetic autonomy.",
+      "analyst_notes": "Image not accessed. All scores confirmed unchanged. Errata: corpus-data-enriched.json incorrectly classifies as NORMATIVO. #verificar-imagem"
+    }
   },
   {
     "id": "DE-007",
@@ -2203,7 +2483,7 @@
     "motif_str": "Justitia, Justice, cardinal virtues, Prudence",
     "tags_str": "Justitia, cardinal virtues, Renaissance, Italian, drawing, Prudence",
     "regime": "fundacional",
-    "endurecimento_score": 1.0,
+    "endurecimento_score": 1.1,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -2213,15 +2493,21 @@
       "enquadramento_arquitetonico": 0,
       "apagamento_narrativo": 1,
       "monocromatizacao": 3,
-      "serialidade": 1,
+      "serialidade": 2,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T00:00:00Z",
     "support": "estampa",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Renaissance Italian Justitia — cardinal virtues pair"
+    "scope_note": "Renaissance Italian Justitia — cardinal virtues pair",
+    "panofsky": {
+      "pre_iconographic": "Drawing or print on paper: two standing female figures in classical drapery. Monochrome ink (pen/wash or engraving). Contrapposto poses, flowing robes. One holds sword/scales (Justice), companion holds mirror/serpent (Prudence). Simple composition, no elaborate setting.",
+      "iconographic": "Justitia paired with cardinal virtue (likely Prudentia). Iconclass 11M42. Classical-medieval programme (Cicero, Aquinas). Renaissance convention: virtues as female personifications for civic decoration and book illustration.",
+      "iconological": "Foundational regime: femininity mobilized to render legal authority legible. Pairing signals serialidade logic — virtues as interchangeable female types. Pre-statist phase: pure Pathosformel, Nachleben of classical personification through workshop practice. Zwischenraum between distinct virtues.",
+      "analyst_notes": "Image not accessed. serialidade 1->2 (explicit pairing of interchangeable female types). Score 1.0->1.1. #verificar-imagem"
+    }
   },
   {
     "id": "DE-008",
@@ -2258,7 +2544,7 @@
     "motif_str": "Justitia, Justice, Weser Renaissance",
     "tags_str": "Justitia, Weser Renaissance, architectural sculpture, Hameln, civic building",
     "regime": "fundacional",
-    "endurecimento_score": 1.7,
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -2268,14 +2554,20 @@
       "enquadramento_arquitetonico": 3,
       "apagamento_narrativo": 2,
       "monocromatizacao": 2,
-      "serialidade": 0,
+      "serialidade": 1,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T00:00:00Z",
     "support": "monumento",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Sandstone relief figure on multi-storey facade. Female figure in architectural niche, wearing layered classicizing drapery. Holds sword and scales. Frontal, erect posture. Weathered Obernkirchener sandstone, monochromatic grey-buff. Flanked by Weser Renaissance ornamental framing.",
+      "iconographic": "Justitia identified by sword and scales. Part of Rathausfiguren typology: cardinal virtues on civic buildings. Pattern-book transmission (Cornelis Floris, Vredeman de Vries). Intersection of ecclesiastical authority and civic virtue (Canon's House).",
+      "iconological": "Feminilidade de Estado at local pre-national level. Female body deployed to legitimate clerical-civic institution. Advanced enquadramento_arquitetonico: body inseparable from building's fabric. Nachleben through pattern-book transmission, losing Pathosformel in favour of architectonic rigidity.",
+      "analyst_notes": "Image not accessed. serialidade 0->1 (serial virtue programme on facade). Score 1.7->1.8. #verificar-imagem"
+    }
   },
   {
     "id": "DE-009",
@@ -2328,11 +2620,17 @@
       "serialidade": 0,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T00:00:00Z",
     "support": "monumento",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Two female figures in stone relief on Bremen Altes Rathaus facade. Justice holds sword and scales; Concord holds cornucopia/bundle. Shallow-to-moderate depth relief, integrated into architectural surface. Monochrome stone, frontal arrangement within architectonic framing.",
+      "iconographic": "Justitia and Concordia, paired civic virtues from Roman republican tradition. Programmatic statement: justice and concord as complementary foundations of municipal governance. Post-Ripa iconographic lineage. Hanseatic town hall virtue program.",
+      "iconological": "Foundational Contrato Sexual Visual in municipal form. Female body instrumentalized as surface for inscription of male-authored civic values. Justice-Concord pairing constructs visual syllogism: just governance produces harmony. Bodies built into wall, subordinated to architectural logic.",
+      "analyst_notes": "Image not accessed. All 10 indicators confirmed unchanged. Score 1.7 confirmed. #verificar-imagem"
+    }
   },
   {
     "id": "DE-010",
@@ -2370,24 +2668,30 @@
     "motif_str": "Justitia, Jus Civile, civil law",
     "tags_str": "Justitia, civil law, Baroque, Benedictine, ecclesiastical, secular law",
     "regime": "fundacional",
-    "endurecimento_score": 1.3,
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
-      "dessexualizacao": 2,
+      "dessexualizacao": 1,
       "uniformizacao_facial": 1,
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 2,
-      "apagamento_narrativo": 2,
-      "monocromatizacao": 2,
-      "serialidade": 0,
-      "inscricao_estatal": 1
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 1,
+      "serialidade": 1,
+      "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-02T00:00:00Z",
     "support": "monumento",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Full-length female figure in polychromed limewood, Rococo contrapposto with S-curve and flowing drapery. Placed in niche/console within Benedictine abbey library of Sankt Peter im Schwarzwald. Dynamic pose, deep drapery undercuts, polychrome. Attributes include codex of civil law.",
+      "iconographic": "Personification of Jus Civile (secular law), paired with Jus Canonicum. Iconclass 48C51. Legal-encyclopedic tradition of personifying branches of jurisprudence. Visual taxonomy of legal knowledge within monastic scholarly space.",
+      "iconological": "Female body as epistemological container for civil/canon law distinction. Feminilidade de Estado in pre-state ecclesiastical form. Contrato Sexual Visual through Rococo syntax: sensual dynamism preserved but disciplined by encyclopedic classification. Zwischenraum between sacred space and secular concept. Low ENDURECIMENTO reflects Rococo anti-purification.",
+      "analyst_notes": "Image not accessed. dessexualizacao 2->1, apagamento 2->1, monocromatizacao 2->1 (Rococo polychromy), serialidade 0->1, inscricao 1->0 (ecclesiastical not state). Score 1.3->1.0. #verificar-imagem"
+    }
   },
   {
     "id": "DE-011",
@@ -5326,7 +5630,7 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": 2.7,
+    "endurecimento_score": 2.5,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 3,
@@ -5335,8 +5639,8 @@
       "heraldizacao": 3,
       "enquadramento_arquitetonico": 2,
       "apagamento_narrativo": 2,
-      "monocromatizacao": 4,
-      "serialidade": 4,
+      "monocromatizacao": 3,
+      "serialidade": 3,
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus",
@@ -5384,7 +5688,7 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": 2.5,
+    "endurecimento_score": 2.3,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 3,
@@ -5393,8 +5697,8 @@
       "heraldizacao": 2,
       "enquadramento_arquitetonico": 2,
       "apagamento_narrativo": 2,
-      "monocromatizacao": 4,
-      "serialidade": 4,
+      "monocromatizacao": 3,
+      "serialidade": 3,
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus",
@@ -5441,7 +5745,7 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": 1.9,
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -5450,7 +5754,7 @@
       "heraldizacao": 2,
       "enquadramento_arquitetonico": 2,
       "apagamento_narrativo": 1,
-      "monocromatizacao": 4,
+      "monocromatizacao": 3,
       "serialidade": 3,
       "inscricao_estatal": 3
     },
@@ -5497,7 +5801,7 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": 2.1,
+    "endurecimento_score": 2.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 2,
@@ -5506,7 +5810,7 @@
       "heraldizacao": 2,
       "enquadramento_arquitetonico": 3,
       "apagamento_narrativo": 1,
-      "monocromatizacao": 4,
+      "monocromatizacao": 3,
       "serialidade": 2,
       "inscricao_estatal": 3
     },
@@ -5552,7 +5856,7 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": 3.1,
+    "endurecimento_score": 2.8,
     "indicadores": {
       "desincorporacao": 3,
       "rigidez_postural": 3,
@@ -5561,9 +5865,9 @@
       "heraldizacao": 2,
       "enquadramento_arquitetonico": 2,
       "apagamento_narrativo": 3,
-      "monocromatizacao": 4,
-      "serialidade": 4,
-      "inscricao_estatal": 4
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-04-01T12:00:00Z"
@@ -5610,7 +5914,7 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": 2.7,
+    "endurecimento_score": 2.5,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 3,
@@ -5619,8 +5923,8 @@
       "heraldizacao": 3,
       "enquadramento_arquitetonico": 2,
       "apagamento_narrativo": 2,
-      "monocromatizacao": 4,
-      "serialidade": 4,
+      "monocromatizacao": 3,
+      "serialidade": 3,
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus",
@@ -5668,7 +5972,7 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": 1.6,
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -5677,7 +5981,7 @@
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 1,
       "apagamento_narrativo": 0,
-      "monocromatizacao": 4,
+      "monocromatizacao": 3,
       "serialidade": 3,
       "inscricao_estatal": 3
     },
@@ -5727,7 +6031,7 @@
     "support": "papel-moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": 2.1,
+    "endurecimento_score": 2.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 3,
@@ -5738,7 +6042,7 @@
       "apagamento_narrativo": 1,
       "monocromatizacao": 2,
       "serialidade": 3,
-      "inscricao_estatal": 4
+      "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus",
     "coded_at": "2026-04-01T12:00:00Z"
@@ -5794,10 +6098,10 @@
       "enquadramento_arquitetonico": 2,
       "apagamento_narrativo": 3,
       "monocromatizacao": 3,
-      "serialidade": 4,
+      "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "endurecimento_score": 2.9,
+    "endurecimento_score": 2.8,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-04-01T14:00:00Z"
   },
@@ -5854,9 +6158,9 @@
       "apagamento_narrativo": 3,
       "monocromatizacao": 3,
       "serialidade": 3,
-      "inscricao_estatal": 4
+      "inscricao_estatal": 3
     },
-    "endurecimento_score": 2.9,
+    "endurecimento_score": 2.8,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-04-01T14:00:00Z"
   },
@@ -5911,11 +6215,381 @@
       "enquadramento_arquitetonico": 1,
       "apagamento_narrativo": 2,
       "monocromatizacao": 3,
-      "serialidade": 4,
+      "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "endurecimento_score": 1.8,
+    "endurecimento_score": 1.7,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-04-01T14:00:00Z"
+  },
+  {
+    "id": "FR-021",
+    "title": "Liberty Leading the People",
+    "date": "1830",
+    "period": null,
+    "creator": null,
+    "institution": null,
+    "source_archive": "Europeana (Louvre)",
+    "country": "France",
+    "medium": "IMAGE",
+    "motif": [],
+    "description": null,
+    "url": "https://www.europeana.eu/en/item/2063621/FRA_280_009",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.dropbox.com%2Fs%2F4d3dud656o8hiz4%2FFR_la%2520Libert%25C3%25A9%2520guidant%2520le%2520peuple.jpg%3Fraw%3D1&type=IMAGE",
+    "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.dropbox.com%2Fs%2F4d3dud656o8hiz4%2FFR_la%2520Libert%25C3%25A9%2520guidant%2520le%2520peuple.jpg%3Fraw%3D1&type=IMAGE",
+    "url_iiif": null,
+    "iiif_source": "europeana",
+    "rights": null,
+    "citation_abnt": null,
+    "citation_chicago": null,
+    "tags": [
+      "hunt-candidate",
+      "#verificar"
+    ],
+    "year": 1830,
+    "medium_norm": null,
+    "country_pt": null,
+    "period_norm": null,
+    "regime": null,
+    "endurecimento_score": null,
+    "indicadores": null,
+    "coded_by": null,
+    "coded_at": null,
+    "support": null,
+    "in_scope": null,
+    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+  },
+  {
+    "id": "FR-022",
+    "title": "[Notre-Dame des colonies] : [estampe] / Jean Veber",
+    "date": "1909",
+    "period": null,
+    "creator": null,
+    "institution": null,
+    "source_archive": "Europeana (National Library of France)",
+    "country": "France",
+    "medium": "IMAGE",
+    "motif": [],
+    "description": null,
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b8577655f",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b8577655f%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b8577655f%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_iiif": null,
+    "iiif_source": "europeana",
+    "rights": null,
+    "citation_abnt": null,
+    "citation_chicago": null,
+    "tags": [
+      "hunt-candidate",
+      "#verificar"
+    ],
+    "year": 1909,
+    "medium_norm": null,
+    "country_pt": null,
+    "period_norm": null,
+    "regime": null,
+    "endurecimento_score": null,
+    "indicadores": null,
+    "coded_by": null,
+    "coded_at": null,
+    "support": null,
+    "in_scope": null,
+    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+  },
+  {
+    "id": "FR-023",
+    "title": "Bons de la Défense nationale.",
+    "date": "1916",
+    "period": null,
+    "creator": null,
+    "institution": null,
+    "source_archive": "Europeana (National Library of France)",
+    "country": "France",
+    "medium": "IMAGE",
+    "motif": [],
+    "description": null,
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100505003",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100505003%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100505003%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_iiif": null,
+    "iiif_source": "europeana",
+    "rights": null,
+    "citation_abnt": null,
+    "citation_chicago": null,
+    "tags": [
+      "hunt-candidate",
+      "#verificar"
+    ],
+    "year": 1916,
+    "medium_norm": null,
+    "country_pt": null,
+    "period_norm": null,
+    "regime": null,
+    "endurecimento_score": null,
+    "indicadores": null,
+    "coded_by": null,
+    "coded_at": null,
+    "support": null,
+    "in_scope": null,
+    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+  },
+  {
+    "id": "FR-024",
+    "title": "French Republic. 3rd National Defense loan.",
+    "date": "1917",
+    "period": null,
+    "creator": null,
+    "institution": null,
+    "source_archive": "Europeana (National Library of France)",
+    "country": "France",
+    "medium": "IMAGE",
+    "motif": [],
+    "description": null,
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051217v%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051217v%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_iiif": null,
+    "iiif_source": "europeana",
+    "rights": null,
+    "citation_abnt": null,
+    "citation_chicago": null,
+    "tags": [
+      "hunt-candidate",
+      "#verificar"
+    ],
+    "year": 1917,
+    "medium_norm": null,
+    "country_pt": null,
+    "period_norm": null,
+    "regime": null,
+    "endurecimento_score": null,
+    "indicadores": null,
+    "coded_by": null,
+    "coded_at": null,
+    "support": null,
+    "in_scope": null,
+    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+  },
+  {
+    "id": "FR-025",
+    "title": "Emprunt national. Société générale.",
+    "date": "1920",
+    "period": null,
+    "creator": null,
+    "institution": null,
+    "source_archive": "Europeana (National Library of France)",
+    "country": "France",
+    "medium": "IMAGE",
+    "motif": [],
+    "description": null,
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100512310",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100512310%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100512310%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_iiif": null,
+    "iiif_source": "europeana",
+    "rights": null,
+    "citation_abnt": null,
+    "citation_chicago": null,
+    "tags": [
+      "hunt-candidate",
+      "#verificar"
+    ],
+    "year": 1920,
+    "medium_norm": null,
+    "country_pt": null,
+    "period_norm": null,
+    "regime": null,
+    "endurecimento_score": null,
+    "indicadores": null,
+    "coded_by": null,
+    "coded_at": null,
+    "support": null,
+    "in_scope": null,
+    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+  },
+  {
+    "id": "FR-026",
+    "title": "National loan 1920. Write down. National Bank of Paris and the Netherlands.",
+    "date": "1920",
+    "period": null,
+    "creator": null,
+    "institution": null,
+    "source_archive": "Europeana (National Library of France)",
+    "country": "France",
+    "medium": "IMAGE",
+    "motif": [],
+    "description": null,
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051241d",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051241d%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051241d%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_iiif": null,
+    "iiif_source": "europeana",
+    "rights": null,
+    "citation_abnt": null,
+    "citation_chicago": null,
+    "tags": [
+      "hunt-candidate",
+      "#verificar"
+    ],
+    "year": 1920,
+    "medium_norm": null,
+    "country_pt": null,
+    "period_norm": null,
+    "regime": null,
+    "endurecimento_score": null,
+    "indicadores": null,
+    "coded_by": null,
+    "coded_at": null,
+    "support": null,
+    "in_scope": null,
+    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+  },
+  {
+    "id": "FR-027",
+    "title": "Emprunt de la Libération. Rente française 1918...",
+    "date": "1918",
+    "period": null,
+    "creator": null,
+    "institution": null,
+    "source_archive": "Europeana (National Library of France)",
+    "country": "France",
+    "medium": "IMAGE",
+    "motif": [],
+    "description": null,
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100512528",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100512528%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100512528%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_iiif": null,
+    "iiif_source": "europeana",
+    "rights": null,
+    "citation_abnt": null,
+    "citation_chicago": null,
+    "tags": [
+      "hunt-candidate",
+      "#verificar"
+    ],
+    "year": 1918,
+    "medium_norm": null,
+    "country_pt": null,
+    "period_norm": null,
+    "regime": null,
+    "endurecimento_score": null,
+    "indicadores": null,
+    "coded_by": null,
+    "coded_at": null,
+    "support": null,
+    "in_scope": null,
+    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+  },
+  {
+    "id": "FR-028",
+    "title": "Prêtez à la France pour qu'elle grandisse dans le rayonnement de la Paix! On souscrit sans frais au Comptoir National d'Escompte de Paris et dans toutes ses agences.",
+    "date": "1920",
+    "period": null,
+    "creator": null,
+    "institution": null,
+    "source_archive": "Europeana (National Library of France)",
+    "country": "France",
+    "medium": "IMAGE",
+    "motif": [],
+    "description": null,
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051230j",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051230j%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051230j%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_iiif": null,
+    "iiif_source": "europeana",
+    "rights": null,
+    "citation_abnt": null,
+    "citation_chicago": null,
+    "tags": [
+      "hunt-candidate",
+      "#verificar"
+    ],
+    "year": 1920,
+    "medium_norm": null,
+    "country_pt": null,
+    "period_norm": null,
+    "regime": null,
+    "endurecimento_score": null,
+    "indicadores": null,
+    "coded_by": null,
+    "coded_at": null,
+    "support": null,
+    "in_scope": null,
+    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+  },
+  {
+    "id": "FR-029",
+    "title": "Emprunt national 1920. Société centrale des banques de province.",
+    "date": "1920",
+    "period": null,
+    "creator": null,
+    "institution": null,
+    "source_archive": "Europeana (National Library of France)",
+    "country": "France",
+    "medium": "IMAGE",
+    "motif": [],
+    "description": null,
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100504964",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100504964%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100504964%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_iiif": null,
+    "iiif_source": "europeana",
+    "rights": null,
+    "citation_abnt": null,
+    "citation_chicago": null,
+    "tags": [
+      "hunt-candidate",
+      "#verificar"
+    ],
+    "year": 1920,
+    "medium_norm": null,
+    "country_pt": null,
+    "period_norm": null,
+    "regime": null,
+    "endurecimento_score": null,
+    "indicadores": null,
+    "coded_by": null,
+    "coded_at": null,
+    "support": null,
+    "in_scope": null,
+    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+  },
+  {
+    "id": "FR-030",
+    "title": "En avant Armée de l'Epargne, C'est pour la Patrie.",
+    "date": "1916",
+    "period": null,
+    "creator": null,
+    "institution": null,
+    "source_archive": "Europeana (National Library of France)",
+    "country": "France",
+    "medium": "IMAGE",
+    "motif": [],
+    "description": null,
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100506817",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100506817%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100506817%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "url_iiif": null,
+    "iiif_source": "europeana",
+    "rights": null,
+    "citation_abnt": null,
+    "citation_chicago": null,
+    "tags": [
+      "hunt-candidate",
+      "#verificar"
+    ],
+    "year": 1916,
+    "medium_norm": null,
+    "country_pt": null,
+    "period_norm": null,
+    "regime": null,
+    "endurecimento_score": null,
+    "indicadores": null,
+    "coded_by": null,
+    "coded_at": null,
+    "support": null,
+    "in_scope": null,
+    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "interfaceFontFamily": "Andale Mono",
-  "theme": "moonstone",
-  "baseFontSize": 18,
-  "cssTheme": "",
-  "showRibbon": true,
   "translucency": false,
   "accentColor": "doNotChange",
-  "baseFontSizeAction": true
+  "showRibbon": true,
+  "cssTheme": "",
+  "baseFontSizeAction": true,
+  "theme": "moonstone",
+  "baseFontSize": 18,
+  "interfaceFontFamily": "Andale Mono"
 }
