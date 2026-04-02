@@ -144,7 +144,12 @@ def index(lang, lang_name, prime_content=False):
     Z = []
     with sqlite3.connect("iconclass_index.sqlite") as index_db:
         index_db.enable_load_extension(True)
-        index_db.load_extension("/usr/local/lib/fts5stemmer")
+        # Try repo-local lib first, fall back to system path
+        _lib_dir = os.path.join(os.path.dirname(__file__), "..", "lib")
+        _stemmer = os.path.join(_lib_dir, "fts5stemmer")
+        if not os.path.exists(_stemmer + ".dylib") and not os.path.exists(_stemmer + ".so"):
+            _stemmer = "/usr/local/lib/fts5stemmer"
+        index_db.load_extension(_stemmer)
         ci = index_db.cursor()
 
         if lang == "en":

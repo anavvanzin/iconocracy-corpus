@@ -42,6 +42,27 @@
             "statusMessage": "Validando corpus-data.json..."
           }
         ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"$CLAUDE_FILE_PATH\" | grep -q corpus/corpus-data.json && conda run -n iconocracy python \"$CLAUDE_PROJECT_DIR/tools/scripts/code_purification.py\" --export-csv 2>&1 | tail -1 || true",
+            "timeout": 30,
+            "statusMessage": "Regenerating corpus_dataset.csv..."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"$CLAUDE_FILE_PATH\" | grep -qE 'tese/manuscrito/.*\\.md$' && echo \"Thesis chapter edited: $(basename $CLAUDE_FILE_PATH). Consider running /abnt-checker and /chapter-integrity.\" || true",
+            "statusMessage": "Checking thesis chapter..."
+          }
+        ]
       }
     ]
   }
