@@ -13,3 +13,7 @@ id = "17d97b88cc3f4461b1f99b64e167bad5"
 binding = "CORPUS_DB"
 database_name = "iconocracy-corpus"
 database_id = "77c09df7-b510-48b3-8a39-94b39416aa2f"
+
+[[r2_buckets]]
+binding = "CORPUS_IMAGES"
+bucket_name = "iconocracia-images"
