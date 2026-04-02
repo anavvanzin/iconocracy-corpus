@@ -13,5 +13,6 @@
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
   "trashOption": "local",
-  "uriCallbacks": true
+  "uriCallbacks": true,
+  "spellcheck": false
 }

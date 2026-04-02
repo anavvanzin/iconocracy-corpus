@@ -47,11 +47,30 @@
       "serialidade": 1,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "fotografia",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "B&W photo of female statue at 1908 National Exhibition, RS pavilion. Full body, classical drapery, frontal.",
+      "iconographic": {
+        "motivo_alegorico": "Progress/Abundance allegory for exhibition",
+        "iconclass": [
+          "48C51",
+          "44G3"
+        ],
+        "tradicao": "Expositions Universelles neoclassical tradition",
+        "pathosformel": "Static presentation — Nachleben of Ceres/Abundantia"
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Aesthetic legitimation of republican modernization project",
+        "contrato_sexual_visual": "Female body as decorative frame for male economic activity",
+        "colonialidade_do_ver": "White neoclassical body in diverse RS context — complete absence of regional/ethnic markers"
+      },
+      "analyst_notes": "Confirmed 1.4. Monocromatizacao=3 is medium artifact (photo)."
+    }
   },
   {
     "id": "BR-002",
@@ -102,11 +121,31 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "fotografia",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "B&W photo detail, Republic monument Belém. Female on lion holding flag. Low-angle shot from Vargas visit album 1940.",
+      "iconographic": {
+        "motivo_alegorico": "República Brasileira — flag + lion",
+        "iconclass": [
+          "44A11",
+          "44B62",
+          "25F23(LION)"
+        ],
+        "tradicao": "French République debout transplanted to Brazil",
+        "pathosformel": "Vertical convocation — Nachleben of Nike domesticated"
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Double: republican legitimation (monument) + Estado Novo appropriation (photograph)",
+        "contrato_sexual_visual": "Republic-woman fixed in stone; Vargas visits, acts. She holds the flag; he holds power.",
+        "colonialidade_do_ver": "European classical body in Amazonian city — belle epoque import"
+      },
+      "analyst_notes": "Confirmed 1.7. BR-002 vs BR-003 delta=0.4 proves photographic framing as ENDURECIMENTO operator."
+    }
   },
   {
     "id": "BR-003",
@@ -157,11 +196,31 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "fotografia",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "B&W photo, general view, Republic monument Belém atop column. Tropical trees surround. Same Vargas album.",
+      "iconographic": {
+        "motivo_alegorico": "Same as BR-002, now seen as urban monument",
+        "iconclass": [
+          "44A11",
+          "48C51",
+          "48C9811"
+        ],
+        "tradicao": "Colonne de Juillet / Siegessäule model",
+        "pathosformel": "Proclamation from column — figure becomes silhouette at distance"
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Territorial normalization — Republic reaches Amazonia",
+        "contrato_sexual_visual": "Scale: woman-Republic dominates skyline but is stone, inaccessible",
+        "colonialidade_do_ver": "Intensified: tropical landscape vs. neoclassical column is visually explicit"
+      },
+      "analyst_notes": "Confirmed 2.1. Delta from BR-002 proves medium mediation thesis."
+    }
   },
   {
     "id": "BR-004",
@@ -212,11 +271,31 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "fotografia",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Sepia stereoscopic photo, two female statues (Autumn/Spring) in Campo de Santana garden, Rio. Tropical vegetation.",
+      "iconographic": {
+        "motivo_alegorico": "Seasons allegory — ornamental, not juridico-political",
+        "iconclass": [
+          "24E41",
+          "24E43",
+          "48C51"
+        ],
+        "tradicao": "European garden statuary (Versailles/Val d'Osne)",
+        "pathosformel": "Graceful contrapposto — pastoral serenity"
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL (para-allegorical)",
+        "funcao": "Ornamental civicization — import European garden culture to tropics",
+        "contrato_sexual_visual": "Diffuse: female bodies beautify public space for mixed leisure",
+        "colonialidade_do_ver": "Imported European bodies among tropical palms — colonialidade photographed without irony"
+      },
+      "analyst_notes": "Confirmed 0.7. Lowest BR item. Consider 'ornamental' tag."
+    }
   },
   {
     "id": "BR-005",
@@ -268,11 +347,35 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T12:00:00Z",
     "support": "pintura",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Oil sketch (97x77cm). Female half-body, Phrygian cap inscribed 'Ordem e Progresso'. Serene face, forward gaze. Warm tones, broad brushwork.",
+      "iconographic": {
+        "motivo_alegorico": "República positivista — Clotilde-Humanidade de Comte, not combative Marianne",
+        "iconclass": [
+          "44A11",
+          "44A11(+1)",
+          "48C51"
+        ],
+        "tradicao": "Positivist iconographic program (Apostolado Positivista do Brasil). Villares designed the national flag disk.",
+        "pathosformel": "Contemplative serenity — anti-Delacroix by doctrinal principle. Nachleben of Minerva/Athena.",
+        "comparanda": [
+          "BR-006 Chambelland",
+          "FR-009 Marianne bust"
+        ]
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Found the visual face of the Brazilian Republic. Positivist program disputed with jacobins.",
+        "contrato_sexual_visual": "Exemplary. Modeled on Clotilde de Vaux. Positivism: women morally superior but politically excluded. The woman-Republic is an image, not an agent.",
+        "colonialidade_do_ver": "MAXIMUM and DOCUMENTED. Positivists explicitly rejected indigenous and Afro-Brazilian models (Carvalho, A formação das almas). Whiteness as progress."
+      },
+      "analyst_notes": "Most theoretically dense BR item. Positivism + racial exclusion + Contrato Sexual Visual. Key for Cap. 7.4."
+    }
   },
   {
     "id": "BR-006",
@@ -323,11 +426,31 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "pintura",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Large oil painting (202x152cm). Female figure, raised arm, white tunic + green mantle (national colors). Angel figure. Male figures with manuscripts below.",
+      "iconographic": {
+        "motivo_alegorico": "República at Centennial — celebratory, with angel (sacred register)",
+        "iconclass": [
+          "44A11",
+          "11G",
+          "48C51"
+        ],
+        "tradicao": "Academic celebratory painting. Hybridizes republican allegory with Catholic sacred imagery.",
+        "pathosformel": "Proclamation/benediction — Nachleben of Assumption of the Virgin secularized"
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Centennial celebration and refoundation (1922)",
+        "contrato_sexual_visual": "Republic-woman blesses from above; men write/legislate below",
+        "colonialidade_do_ver": "White figure in national colors. Pre-modernist — Semana de 22 begins questioning European models."
+      },
+      "analyst_notes": "Confirmed 0.7. Rich narrative (apagamento=0) keeps ENDURECIMENTO low."
+    }
   },
   {
     "id": "BR-007",
@@ -379,11 +502,31 @@
       "serialidade": 2,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "texto",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "TEXTUAL item — no image. Literary dialogue in periodical 'Brasil' (1827). Justice and Truth as speaking statues (prosopopeia).",
+      "iconographic": {
+        "motivo_alegorico": "Justiça as speaking statue — pre-visual allegory",
+        "iconclass": [
+          "44A1",
+          "59B22",
+          "48C51"
+        ],
+        "tradicao": "Classical prosopopeia (Pasquino/Marforio). Enlightenment literary allegory in Brazilian Empire press.",
+        "pathosformel": "Sprechende Statue — voice without body"
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimation of imperial juridical order 5 years post-independence",
+        "contrato_sexual_visual": "Operates through grammatical gender only — zero-degree femininity",
+        "colonialidade_do_ver": "European literary tradition transplanted wholesale. Imagined body defaults to classical European."
+      },
+      "analyst_notes": "TEXTUAL, not visual. High ENDURECIMENTO (2.3) reflects extreme abstraction of body into words. #sem-iiif"
+    }
   },
   {
     "id": "BR-008",
@@ -434,11 +577,31 @@
       "serialidade": 2,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "texto",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "TEXTUAL reference — Almanak Laemmert (1929) recording Rochet's Justiça sculpture (1872) at Pedro I monument, Rio.",
+      "iconographic": {
+        "motivo_alegorico": "Justiça as one of four cardinal allegories at equestrian monument base",
+        "iconclass": [
+          "44A1",
+          "44A3(+1)",
+          "48C51"
+        ],
+        "tradicao": "French Second Empire academic sculpture. Rochet trained at École des Beaux-Arts.",
+        "pathosformel": "Sitzende Allegorie — subordinate female at base of male equestrian monument"
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Imperial legitimation through French monumental vocabulary",
+        "contrato_sexual_visual": "Architecturally explicit: female bodies form BASE supporting male sovereign ABOVE",
+        "colonialidade_do_ver": "MAXIMUM: French sculptor, French vocabulary, French material — total importation to majority Afro-Brazilian Rio"
+      },
+      "analyst_notes": "TEXTUAL. 2.5 reflects extreme formality. Earliest known monumental Justiça in Brazil (1872). #sem-iiif"
+    }
   },
   {
     "id": "FR-001",
@@ -1344,11 +1507,32 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Copperplate engraving (Johan Walker, KIK-IRPA). Time + Justice unveil nude Truth. Multiple dynamic figures, atmospheric space.",
+      "iconographic": {
+        "motivo_alegorico": "Veritas filia Temporis — Truth daughter of Time, revealed by Justice",
+        "iconclass": [
+          "11M44",
+          "59B2",
+          "52A51",
+          "48C51"
+        ],
+        "tradicao": "Netherlandish/Flemish engraving. Goltzius, Sadeler, Wierix tradition.",
+        "pathosformel": "Revelatio — gesture of unveiling. Pre-ENDURECIMENTO: Baroque dynamism intact."
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL (pre-state)",
+        "funcao": "Humanist-juridical pedagogy. Teaches, does not command.",
+        "contrato_sexual_visual": "Embryonic: Truth is female and naked, Justice female, Time male (agent). Gender structure visible in embryonic form.",
+        "colonialidade_do_ver": "Not operative. Pre-colonial humanist visual culture."
+      },
+      "analyst_notes": "Confirmed 0.5. Pre-ENDURECIMENTO baseline — soft founding visual vocabulary."
+    }
   },
   {
     "id": "EU-003",
@@ -1621,11 +1805,31 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Copperplate engraving after Maarten de Vos (KIK-IRPA). Justitia civilis with civil-law attributes. Multi-figural, Mannerist style.",
+      "iconographic": {
+        "motivo_alegorico": "Justitia civilis — civil (not criminal) justice personified",
+        "iconclass": [
+          "11M44",
+          "11M4432",
+          "48C51"
+        ],
+        "tradicao": "Antwerp Mannerist print culture. De Vos supplied designs to Plantin press publishers.",
+        "pathosformel": "Compositio iuridica — measured deliberation, not punishment"
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL (pre-state, generative)",
+        "funcao": "Legal-humanist education. Proto-industrial Antwerp print system generates vocabulary later states adopt.",
+        "contrato_sexual_visual": "Generative: differentiation of Justitia into civilis/criminalis = multiplication of female bodies required",
+        "colonialidade_do_ver": "Adjacent — Antwerp in Atlantic world system. Visual language exported to colonial contexts."
+      },
+      "analyst_notes": "Confirmed 0.8. Slightly higher than EU-002 (0.5) due to proto-serial print production."
+    }
   },
   {
     "id": "EU-008",
@@ -2973,11 +3177,31 @@
       "serialidade": 2,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Engraving: Justitia enthroned with sword and scales. Secondary female figures look up. Putti hold shields. Baroque, monochrome.",
+      "iconographic": {
+        "motivo_alegorico": "Justitia as sovereign queen of virtues, enthroned",
+        "iconclass": [
+          "11M44",
+          "44B1",
+          "48C51"
+        ],
+        "tradicao": "Baroque emblematic: Justitia mirrors monarchical iconography",
+        "pathosformel": "Majestas — woman-as-throne"
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Feminilidade de Estado in early modern form",
+        "contrato_sexual_visual": "Female body occupies sovereign position while subject to grammar of majesty",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "Confirmed 1.8."
+    }
   },
   {
     "id": "UK-002",
@@ -3030,11 +3254,31 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Two female figures in architectural niches. Providence (ruler+scales) and Justice (snake). Frontal, symmetrical, monochrome engraving.",
+      "iconographic": {
+        "motivo_alegorico": "Providence and Justice as civic-virtue niche figures",
+        "iconclass": [
+          "11M44",
+          "44B1",
+          "48C51"
+        ],
+        "tradicao": "Civic virtue niche-format tradition",
+        "pathosformel": "Figures ARE the architecture — absorbed into built environment"
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Female body as moral infrastructure of institutions",
+        "contrato_sexual_visual": "Bodies become interchangeable — differentiated only by attribute-signs",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "Confirmed 2.3. enquadramento_arquitetonico=3 is signature: figures subsumed by niche."
+    }
   },
   {
     "id": "UK-003",
@@ -3088,11 +3332,31 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Companion to UK-002. Justitia (sword+tablets) and Prudentia (mirror+snake) in niches. Same format.",
+      "iconographic": {
+        "motivo_alegorico": "Justitia civilis + Prudentia — cardinal virtue pair",
+        "iconclass": [
+          "11M44",
+          "11M4432",
+          "48C51"
+        ],
+        "tradicao": "Same program as UK-002, consecutive BM numbers",
+        "pathosformel": "Same as UK-002 — systematic, interchangeable"
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Tablets of law shift from distributive to positive justice",
+        "contrato_sexual_visual": "Justice appearing in BOTH pairs marks her primacy — the multiply-deployed female body",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "Confirmed 2.3. Identical to UK-002 by design, not artifact."
+    }
   },
   {
     "id": "US-001",
@@ -3146,11 +3410,33 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Etching: two despondent female figures in desolate landscape. Ships, burning city background. Scales (balance) as central motif. Melancholic, turbulent.",
+      "iconographic": {
+        "motivo_alegorico": "Justice/Britannia + America as paired personifications in revolutionary crisis. Geopolitical balance-of-power scales.",
+        "iconclass": [
+          "44A51",
+          "44A3",
+          "44B12",
+          "44C31",
+          "48C51"
+        ],
+        "tradicao": "British satirical print (Gillray/Cruikshank lineage)",
+        "pathosformel": "Melancholia/Trauer — despondent seated female body as political grief"
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Allegorical narration of founding crisis — rupture between Britain and colonies",
+        "contrato_sexual_visual": "Political crisis rendered as domestic drama between female figures. Male actors replaced entirely by female surrogates.",
+        "colonialidade_do_ver": "America as 'Indian princess' — pre-Columbia colonial feminization"
+      },
+      "analyst_notes": "Confirmed 0.6. Paired with US-006 for Painel VI. Maximum narrative = minimum ENDURECIMENTO."
+    }
   },
   {
     "id": "US-002",
@@ -3202,11 +3488,31 @@
       "serialidade": 2,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "fotografia",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Photo of plaster sculptural group: two standing females in heavy classical drapery. Static, symmetrical. Designed for Capitol tympanum.",
+      "iconographic": {
+        "motivo_alegorico": "Justice + History as legislative threshold guardians (Thomas Crawford)",
+        "iconclass": [
+          "44A51",
+          "48C144",
+          "48C51"
+        ],
+        "tradicao": "Roman temple guardian figures → Crawford (trained under Thorvaldsen)",
+        "pathosformel": "Gravitas/solemnitas — body shaped by architectural destination"
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Female body as threshold guardian of sacred legislative space",
+        "contrato_sexual_visual": "Women excluded from Senate but installed permanently at its entrance as visible face of authority",
+        "colonialidade_do_ver": "White Greco-Roman vocabulary in Capitol. Erasure of Indigenous/African American populations."
+      },
+      "analyst_notes": "Confirmed 2.1. enquadramento_arquitetonico=3 is crucial — meaning IS the architectural embedding."
+    }
   },
   {
     "id": "US-003",
@@ -3259,11 +3565,30 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Steel engraving: single blindfolded female, sword raised, scales balanced. Minimal background. Bureau of Engraving quality.",
+      "iconographic": {
+        "motivo_alegorico": "Canonical blindfolded Justitia — most purified form. Post-Ripa tradition.",
+        "iconclass": [
+          "44A51",
+          "48C51"
+        ],
+        "tradicao": "Bureau of Engraving institutional production. Steel plate = technology of monetary/official production.",
+        "pathosformel": "Anti-Pathosformel — systematic elimination of pathos. Blindfold removes gaze; static pose removes gesture."
+      },
+      "iconological": {
+        "regime": "NORMATIVO (purest)",
+        "funcao": "Serial bureaucratic legitimation — authenticates and normalizes",
+        "contrato_sexual_visual": "State excluding women from bar/bench/jury produces image of Justice as woman. Blindfold masks figure's own exclusion.",
+        "colonialidade_do_ver": "Universalist claim masks specificity: slavery, Indian removal administered by same government producing this image."
+      },
+      "analyst_notes": "Confirmed 2.2. 'Zero degree' of normative ENDURECIMENTO in US corpus."
+    }
   },
   {
     "id": "US-004",
@@ -3305,7 +3630,7 @@
     "motif_str": "Justice, Liberty, Athena, Demeter, Marianne, Columbia",
     "tags_str": "Justice, Liberty, WWI, Franco-American, poster, Athena, allegory",
     "regime": "militar",
-    "endurecimento_score": 1.2,
+    "endurecimento_score": 1.1,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -3314,15 +3639,37 @@
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 0,
       "apagamento_narrativo": 1,
-      "monocromatizacao": 1,
+      "monocromatizacao": 0,
       "serialidade": 3,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "cartaz",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Color lithograph poster. Four female allegories (Justice, Liberty, Demeter, Athena) floating above Place Saint-Sulpice, Paris. Art Nouveau style, warm saturated palette.",
+      "iconographic": {
+        "motivo_alegorico": "Four-allegory Franco-American alliance tableau",
+        "iconclass": [
+          "44A51",
+          "44A52",
+          "92C4",
+          "92C2",
+          "48C51"
+        ],
+        "tradicao": "French Belle Epoque poster (Mucha, Chéret). Multiplication of female bodies.",
+        "pathosformel": "Elevation/Ascension — floating bodies between heaven and polis"
+      },
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Wartime fundraising through allegorical spectacle",
+        "contrato_sexual_visual": "Four female bodies legitimize military alliance between two states denying women the vote",
+        "colonialidade_do_ver": "White classical allegories erase colonial troops essential to war effort"
+      },
+      "analyst_notes": "Score corrected 1.2→1.1 (monocromatizacao 1→0: full color lithograph). Belle Epoque style resists ENDURECIMENTO even in militar context."
+    }
   },
   {
     "id": "US-005",
@@ -3376,11 +3723,32 @@
       "serialidade": 1,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Etching: complex constitutional founding tableau. Concord (central), Clio (writing), Cupid (holding Constitution). 13 columns = 13 states. 'Sacred to Liberty Justice and Peace'.",
+      "iconographic": {
+        "motivo_alegorico": "Constitutional founding: Concordia + Clio + Cupid. Justice invoked textually, not personified.",
+        "iconclass": [
+          "44A512",
+          "48C144",
+          "44A51",
+          "48C51"
+        ],
+        "tradicao": "Whig political print (Trenchard, Columbian Magazine, 1788)",
+        "pathosformel": "Celebratio — rational political hope. Enlightenment register."
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Sacralization of constitutional ratification through female allegorical bodies",
+        "contrato_sexual_visual": "Constitution that excluded women celebrated ENTIRELY through female bodies. Foundational paradox.",
+        "colonialidade_do_ver": "13 slave-holding/settler states. Three-Fifths Compromise erased. Classical European vocabulary."
+      },
+      "analyst_notes": "Confirmed 0.8. One of earliest American constitutional allegories."
+    }
   },
   {
     "id": "US-006",
@@ -3432,11 +3800,32 @@
       "serialidade": 1,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Etching: central female with large scales. Britannia on one side, Spain/France/America/Netherlands on other. Bilingual German/French. Augsburg.",
+      "iconographic": {
+        "motivo_alegorico": "Justice/Fortune as geopolitical arbiter — 'balance of power'. Pro-British reading (Britannia outweighs coalition).",
+        "iconclass": [
+          "44A51",
+          "44C31",
+          "44A3",
+          "48C51"
+        ],
+        "tradicao": "Balance of Europe satirical print tradition (Dutch/English/German)",
+        "pathosformel": "Stasis/Equilibrium — arbiter must remain still while world moves"
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Geopolitical argumentation: female body IS the argument — scales are body extended into political space",
+        "contrato_sexual_visual": "Feminine neutrality masks political interests (pro-British). Real women absent from diplomacy the image comments upon.",
+        "colonialidade_do_ver": "America as Indigenous figure (pre-Columbia). European metropolitan gaze: Revolution is European spectacle."
+      },
+      "analyst_notes": "Confirmed 1.0. PAIRED with US-001 for Painel VI (same motif, different perspectives)."
+    }
   },
   {
     "id": "US-007",
@@ -3487,11 +3876,32 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Chromolithograph: Columbia in flag-colored robes presenting sword to uniformed Admiral Dewey. Patriotic background. Popular mass-market style.",
+      "iconographic": {
+        "motivo_alegorico": "Columbia as imperial investitor — presents sword to military hero. Spanish-American War (1899).",
+        "iconclass": [
+          "44A3",
+          "45C",
+          "45D",
+          "48C51"
+        ],
+        "tradicao": "Imperial Columbia (1890s). Medieval investiture → popular chromolithograph.",
+        "pathosformel": "Investiture — female body as source of martial authority. Nation-as-woman authorizes military hero."
+      },
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Imperial legitimation through feminine investiture. Domesticates imperialism via mass-market print.",
+        "contrato_sexual_visual": "Columbia GIVES the phallic instrument (sword) to military man. Visual fantasy of feminine consent to martial masculinity.",
+        "colonialidade_do_ver": "Manila Bay context: white Columbia sanctifies conquest of Philippines. Colonized invisible."
+      },
+      "analyst_notes": "Confirmed 1.0. Low ENDURECIMENTO for militar = popular chromolithographic style resists formal rigidity. Compare US-003 (normativo, 2.2) vs US-007 (militar, 1.0) — normative Bureau plate MORE ENDURECIDO than martial popular print."
+    }
   },
   {
     "id": "US-008",
@@ -3530,10 +3940,10 @@
     "period_norm": "Séc. XIX",
     "motif_str": "Columbia, Justice, Liberty, suffrage, feminism",
     "tags_str": "Columbia, suffrage, feminism, pageant, photograph, women's rights",
-    "regime": "normativo",
-    "endurecimento_score": 1.3,
+    "regime": "fundacional",
+    "endurecimento_score": 1.2,
     "indicadores": {
-      "desincorporacao": 1,
+      "desincorporacao": 0,
       "rigidez_postural": 1,
       "dessexualizacao": 2,
       "uniformizacao_facial": 1,
@@ -3542,13 +3952,34 @@
       "apagamento_narrativo": 1,
       "monocromatizacao": 3,
       "serialidade": 2,
-      "inscricao_estatal": 1
+      "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "fotografia",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "B&W photograph: Hedwig Reicher (actress) in Columbia costume on Treasury Building steps. Star-spangled diadem, white classical robes. Suffrage pageant March 3, 1913.",
+      "iconographic": {
+        "motivo_alegorico": "Columbia AS PERFORMED BY A REAL WOMAN. Living allegory reappropriated by suffrage movement.",
+        "iconclass": [
+          "44A3",
+          "44B15",
+          "33C5",
+          "48C51"
+        ],
+        "tradicao": "Suffrage pageant tradition (Alice Paul, Hazel MacKaye). Inverts court festival/tableau vivant tradition.",
+        "pathosformel": "Incarnation — allegory unfrozen into a real woman. Anti-Pathosformel of the entire corpus."
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL (counter-foundational)",
+        "funcao": "Reappropriation: Columbia, used 130 years to mask women's exclusion, is seized BY women to demand inclusion",
+        "contrato_sexual_visual": "THESIS-DEFINING: Reicher's body simultaneously IS a real woman AND IS Columbia. Inhabiting the allegory exposes the visual contract from inside. Feminilidade de Estado put in crisis.",
+        "colonialidade_do_ver": "1913 pageant segregated Black women marchers (Ida B. Wells). White Columbia cannot include Black women's claims — limit of reappropriation within existing allegorical system."
+      },
+      "analyst_notes": "MOST IMPORTANT US ITEM. Regime reclassified normativo→FUNDACIONAL (counter-foundational). desincorporacao 1→0: this IS a real body. Key for thesis conclusion."
+    }
   },
   {
     "id": "US-009",
@@ -3599,11 +4030,30 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "fotografia",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Carte de visite photo: real woman in star-spangled cape as Liberty/Columbia. Studio setting, Civil War era.",
+      "iconographic": {
+        "motivo_alegorico": "Living allegory — real woman as Liberty in CDV format",
+        "iconclass": [
+          "44A3",
+          "48C51"
+        ],
+        "tradicao": "Civil War patriotic CDV economy",
+        "pathosformel": "Tableau vivant — individual body visible beneath allegorical costume"
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Everyday patriotic circulation of allegorical female body",
+        "contrato_sexual_visual": "Photographic medium preserves individual body, resisting full ENDURECIMENTO",
+        "colonialidade_do_ver": "Not directly operative"
+      },
+      "analyst_notes": "Confirmed 1.5. Photography resists ENDURECIMENTO by preserving individual body."
+    }
   },
   {
     "id": "DE-012",
@@ -3774,11 +4224,32 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "monumento",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Gilt bronze, 3.7m, atop Old Bailey dome at 60m. Sword raised, scales balanced. NO BLINDFOLD. Spiked crown. Gold on sky. Inaugurated 1907 by Edward VII.",
+      "iconographic": {
+        "motivo_alegorico": "Lady Justice — England's principal criminal court. Deliberate omission of blindfold.",
+        "iconclass": [
+          "11M44",
+          "44A3",
+          "44A31",
+          "48C51"
+        ],
+        "tradicao": "Crowning courthouse sculpture. Pomeroy Victorian naturalism.",
+        "pathosformel": "Apex — body AS architectural crown. Most reproduced British Justice."
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "State criminal justice made visible and inescapable from across London",
+        "contrato_sexual_visual": "THESIS-GOLD: court brochures state 'maidenly form' guarantees impartiality. Femininity = justice itself.",
+        "colonialidade_do_ver": "Classical European body crowns imperial-era court"
+      },
+      "analyst_notes": "Confirmed 2.4. 'Maidenly form' quote = Contrato Sexual Visual made literal. Compare BR-009 Ceschiatti."
+    }
   },
   {
     "id": "BR-009",
@@ -3834,11 +4305,36 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T12:00:00Z",
     "support": "monumento",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Monumental seated female in grey granite, ~3.3m, before the STF in Brasilia. Seated on cubic block, eyes closed (not blindfolded — modernist abstraction), both hands grip vertical sword pointing down. No scales. Simplified classical drapery. Framed by Niemeyer's glass-marble STF building. Reflecting pool.",
+      "iconographic": {
+        "motivo_alegorico": "Justiça/Themis — seated, sword-bearing, eyes-closed. Absence of scales: judges and punishes but does not weigh.",
+        "iconclass": [
+          "44A1",
+          "44A3",
+          "48C51"
+        ],
+        "tradicao": "Nachleben of seated Justitia. Synthesis of classical form with Brazilian modernism (Maillol, Despiau influence). Ceschiatti trained with Leopoldo de Almeida in Lisbon.",
+        "pathosformel": "Sitzende Richterin — hieratic stillness. Closed eyes + vertical sword = axis of contained power. Anti-Delacroix: complete arrest of feminine motion.",
+        "comparanda": [
+          "Lincoln Memorial (French, 1920)",
+          "Maillol La Mediterranée",
+          "BR-008 Rochet Justiça (1872)"
+        ]
+      },
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Monumentalize Justice as silent, blind, armed authority. Inaugurated 1961 (Kubitschek) but served military regime 1964-1985.",
+        "contrato_sexual_visual": "Most refined Brazilian expression: female but stripped of femininity. Seated (contained), blind (passive), armed (delegated violence), silent. Feminilidade de Estado in purest form.",
+        "colonialidade_do_ver": "White classical body in capital of majority-Black nation. Modernist abstraction avoids explicit racial marking while defaulting to whiteness. January 8, 2023 attack makes it a living site of iconoclasm."
+      },
+      "analyst_notes": "KEY ITEM. Contrast with BR-010 (Visconti, 0.5) = 50-year ENDURECIMENTO arc. Every indicator rises. Atlas: Painel VII."
+    }
   },
   {
     "id": "BE-001",
@@ -3891,11 +4387,31 @@
       "serialidade": 0,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "pintura",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Ceiling painting, Mayor's Cabinet, Brussels City Hall. Justice with scales and sword, flanked by Charity and Foresight. Academic naturalist, polychromatic.",
+      "iconographic": {
+        "motivo_alegorico": "Justitia as civic virtue (Ciceronian, not sovereign)",
+        "iconclass": [
+          "11M44",
+          "44B1",
+          "48C51"
+        ],
+        "tradicao": "Belgian academic ceiling painting (Stallaert). Tiepolo/Cortona → Delacroix → Belgian academy.",
+        "pathosformel": "Majestas temperata — benevolent, tempered Justice"
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Civic legitimation through virtue allegory. Feminine virtues guide male municipal authority.",
+        "contrato_sexual_visual": "Moderate. Polychromatic medium preserves embodiment. Municipal femininity softer than state.",
+        "colonialidade_do_ver": "Not directly operative. But temporal coincidence: 1885-1888 = Berlin Conference / Congo Free State creation."
+      },
+      "analyst_notes": "Confirmed 1.4. Polychromatic (mono=0) and unique (serial=0) keep ENDURECIMENTO moderate."
+    }
   },
   {
     "id": "BR-010",
@@ -3946,11 +4462,35 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T12:00:00Z",
     "support": "pintura",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Large decorative oil panel, Biblioteca Nacional Rio de Janeiro. Female figure in Visconti's impressionist-symbolist idiom: warm golds, pinks, blues. Soft atmospheric brushwork, dissolved contours. Corporeal, sensuous, draped in flowing fabrics revealing body beneath.",
+      "iconographic": {
+        "motivo_alegorico": "Allegorical female — Knowledge/Letters/Republic for Biblioteca Nacional",
+        "iconclass": [
+          "48C51",
+          "49L7",
+          "44A1"
+        ],
+        "tradicao": "French Symbolism/Art Nouveau. Puvis de Chavannes, Besnard lineage. Most sophisticated transplant of French decorative allegory to Brazil.",
+        "pathosformel": "Schwebende Allegorie — ethereal, atmospheric. Opposite of Ceschiatti's granite.",
+        "comparanda": [
+          "Puvis de Chavannes Sorbonne murals",
+          "Besnard Hotel de Ville ceiling"
+        ]
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Decorative legitimation of republican cultural apparatus. Belle Epoque Rio.",
+        "contrato_sexual_visual": "LOWEST Brazilian expression. Body retains corporeality, sensuality, movement, color. Soft but operative: female body beautifies state space while remaining nameless.",
+        "colonialidade_do_ver": "Visconti (Italian-born, Paris-trained) imports full French decorative apparatus. European features/coloring. But subtle tropicalization — warmth of light exceeds European norms."
+      },
+      "analyst_notes": "LOW-ENDURECIMENTO anchor for Brazil. Contrast pair with BR-009 (0.5 vs 2.2) = most powerful ENDURECIMENTO demonstration in single national tradition. Atlas: Painel VII."
+    }
   },
   {
     "id": "BE-002",
@@ -3990,7 +4530,7 @@
     "motif_str": "Justice, classical allegory, civic architecture, colonialism",
     "tags_str": "Justice, Poelaert, Brussels, courthouse, architecture, colonialism, Belgium",
     "regime": "normativo",
-    "endurecimento_score": 3.0,
+    "endurecimento_score": 2.9,
     "indicadores": {
       "desincorporacao": 3,
       "rigidez_postural": 3,
@@ -4001,13 +4541,40 @@
       "apagamento_narrativo": 3,
       "monocromatizacao": 3,
       "serialidade": 3,
-      "inscricao_estatal": 3
+      "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T12:00:00Z",
     "support": "monumento",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Largest courthouse in the world (26,000m2, 104m dome). Assyro-Greco-Roman eclectic in Belgian bluestone/limestone. Colossal Themis/Minerva bust crowning portico. Caryatid figures at base. Interior: male jurists only (Demosthenes, Lycurgus, Cicero, Ulpian). All monochromatic stone.",
+      "iconographic": {
+        "motivo_alegorico": "Themis/Minerva — ambiguity documented by Huygebaert. Rejected proposals: chryselephantine Themis, Dillens sculptural group.",
+        "iconclass": [
+          "11M44",
+          "44A3",
+          "48C51",
+          "44A31"
+        ],
+        "tradicao": "Eclectic monumental classicism beyond all precedents in scale. Exceeds St. Peter's in footprint.",
+        "pathosformel": "Petrificatio maxima — figures literally petrified into architecture. Anti-Maenad: Dionysian energy compressed into Apollonian mass.",
+        "comparanda": [
+          "Paris Palais de Justice",
+          "London Royal Courts",
+          "Rome Palazzo di Giustizia",
+          "US Supreme Court"
+        ]
+      },
+      "iconological": {
+        "regime": "NORMATIVO (paradigmatic)",
+        "funcao": "State self-legitimation through architectural overwhelm. Citizens must ascend monumental staircase — physical submission to legal authority.",
+        "contrato_sexual_visual": "MAXIMUM. Feminine beauty = building's cultural face; masculine authority = building's operative core. Women become columns; inside, all portraits are male jurists.",
+        "colonialidade_do_ver": "Built during Leopold II's reign, inaugurated 3 years before Berlin Conference. 'Civilization' vs. 'barbarism' architecture. Marolles neighborhood razed — domestic spatial violence prefiguring colonial."
+      },
+      "analyst_notes": "Adjusted 3.0→2.9 (inscricao_estatal 3→2: authority is architectural, not textual). Highest or near-highest in corpus. Perfect 3.0 reserved as theoretical ceiling."
+    }
   },
   {
     "id": "NL-004",
@@ -4695,11 +5262,30 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Woodcut broadside: classical temple housing Goddess of Liberty. 13 columns = 13 states. Black-and-white.",
+      "iconographic": {
+        "motivo_alegorico": "Temple of Liberty — syncretic motif: Liberty enclosed in architecture",
+        "iconclass": [
+          "44A52",
+          "48C51"
+        ],
+        "tradicao": "Jacksonian-era Whig visual culture",
+        "pathosformel": "Architectural enclosure — the temple IS the enquadramento"
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL (anomalously high ENDURECIMENTO 2.3)",
+        "funcao": "Liberty simultaneously legitimized and constrained by architecture",
+        "contrato_sexual_visual": "Liberty exists ONLY within the temple — architecture grants visibility while circumscribing agency",
+        "colonialidade_do_ver": "Classical European vocabulary in antebellum America"
+      },
+      "analyst_notes": "Highest fundacional item (2.3). enquadramento_arquitetonico=3 is the driver. Morphologically normativo."
+    }
   },
   {
     "id": "UK-005",
@@ -4753,11 +5339,30 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Renaissance engraving by Étienne Delaune (c.1560). Jurisprudentia with sword and scales. Small scale (~5-10cm), goldsmith-engraver style.",
+      "iconographic": {
+        "motivo_alegorico": "Jurisprudentia (practice of law) not abstract Justitia — more concrete, less purified",
+        "iconclass": [
+          "11M44",
+          "48C51"
+        ],
+        "tradicao": "Renaissance humanist print tradition. Delaune French goldsmith.",
+        "pathosformel": "Contrapposto — Renaissance vitality retained"
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL (vocabulary-establishing)",
+        "funcao": "Establishes iconographic vocabulary, not institutional order",
+        "contrato_sexual_visual": "Embryonic: allegorical feminization of law begins",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "Confirmed 1.0. UK baseline. Note: 'UK' by collection (Wellcome), not origin (French artist)."
+    }
   },
   {
     "id": "ES-001",
@@ -4871,11 +5476,31 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "cartaz",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Color poster: sleeping Columbia in stars-and-stripes costume, Phrygian cap. 'WAKE UP AMERICA!' Flagg, model Mary Arthur.",
+      "iconographic": {
+        "motivo_alegorico": "SLEEPING Columbia — rare passive variant. Nation-as-woman must be awakened by male citizen.",
+        "iconclass": [
+          "44A3",
+          "44G3121",
+          "48C51"
+        ],
+        "tradicao": "Flagg (also Uncle Sam 'I Want You'). Sleeping-woman-as-nation has no French equivalent.",
+        "pathosformel": "Feminine passivity inverted into mobilization device"
+      },
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Recruitment: sleeping Columbia inverts standard schema — viewer must rouse the nation",
+        "contrato_sexual_visual": "American Columbia is PASSIVE where French Marianne is active. Sleeping = needing (male) awakening.",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "Confirmed 1.5. Sleeping pose = low rigidez. Compare FR-008 Steinlen (active) vs US-011 Flagg (passive)."
+    }
   },
   {
     "id": "US-012",
@@ -4929,11 +5554,31 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "cartaz",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Color poster: Columbia standing on globe over North America, flag + sword. 'Columbia calls — Enlist now for U.S. Army.' Halsted/Aderente.",
+      "iconographic": {
+        "motivo_alegorico": "Columbia as martial globe-straddler — geographical dominion + military authority",
+        "iconclass": [
+          "44A3",
+          "45C",
+          "48C51"
+        ],
+        "tradicao": "Colossus tradition adapted for WWI. Female designer (Halsted) = real woman producing allegorical woman for state.",
+        "pathosformel": "Standing-on-globe — inherently more rigid and heraldic than Flagg's sleeping Columbia"
+      },
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "'Columbia calls' — feminine nation-body ventriloquizes state's demand for male bodies",
+        "contrato_sexual_visual": "She calls; they enlist. Gendered division: female symbol commands, male citizens obey.",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "Confirmed 1.7. 500,000-copy run. Nearly identical ENDURECIMENTO to FR-007 (1.8) — WWI poster genre produces consistent purification cross-nationally."
+    }
   },
   {
     "id": "UK-006",
@@ -4988,11 +5633,30 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "cartaz",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Color lithograph: two real women + boy at window watching soldiers march away. Edwardian civilian dress, NOT classical. 'WOMEN OF BRITAIN SAY — GO!' Parliamentary Recruiting Committee.",
+      "iconographic": {
+        "motivo_alegorico": "NOT classical allegory — real women functioning allegorically. 'Women of Britain' = national-gendered collective voice.",
+        "iconclass": [
+          "44B15",
+          "48C51"
+        ],
+        "tradicao": "WWI recruitment poster. Gender IS the attribute — no classical props needed.",
+        "pathosformel": "Domestic moral authority — command from feminine-domestic into masculine-military sphere"
+      },
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "State propaganda deploys feminine domestic authority to command male sacrifice",
+        "contrato_sexual_visual": "Intensified by ABSENCE of classical trappings: these women need no attributes because their gender IS the attribute",
+        "colonialidade_do_ver": "Absent from image but structurally present: colonial troops invisible in recruitment imagery"
+      },
+      "analyst_notes": "Confirmed 1.7. Borderline case: heraldizacao=2 debatable — bodies themselves become heraldic signs. Needs methodological note in thesis."
+    }
   },
   {
     "id": "FR-019",
@@ -5388,11 +6052,31 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "papel-moeda",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "year": 1896,
+    "panofsky": {
+      "pre_iconographic": "$2 silver certificate (1896 Educational Series, Blashfield/Smillie). Five female allegories: Science presenting Steam+Electricity to Commerce+Manufacture. Intaglio, green/black.",
+      "iconographic": {
+        "motivo_alegorico": "All-female allegorical tableau of PROGRESS on currency. Most beautiful American paper money.",
+        "iconclass": [
+          "48C51",
+          "44A1"
+        ],
+        "tradicao": "Blashfield Beaux-Arts muralism miniaturized for currency",
+        "pathosformel": "Dynamic narrative preserved ON state currency — rare"
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Feminilidade de Estado at maximum: female bodies printed BY state ON state's money FOR economic circulation",
+        "contrato_sexual_visual": "Paradox: most intimate state inscription (currency) + least purified body (sensuous). State displays rather than suppresses.",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "Confirmed 1.6. Controversial at issuance ('nude women on money'). Morphological vs material indicator split: low body purification + high state inscription."
+    }
   },
   {
     "id": "US-EDUC-1896-05",
@@ -5427,11 +6111,30 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
     "support": "papel-moeda",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "year": 1896,
+    "panofsky": {
+      "pre_iconographic": "$5 silver certificate. Electricity (near-nude female) presenting light. Shirlaw/Smillie. Hellenistic semi-nudity. Most controversial denomination.",
+      "iconographic": {
+        "motivo_alegorico": "Electricity as Hellenistic female — modern technology given ancient feminine body",
+        "iconclass": [
+          "48C51"
+        ],
+        "tradicao": "Shirlaw's design more overtly classical/sensuous than Blashfield's $2",
+        "pathosformel": "Light-presenting — Promethean/Aurora gesture feminized"
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Contrato Sexual Visual through SEDUCTION not austerity. State possesses, displays, circulates the female body.",
+        "contrato_sexual_visual": "Lowest ENDURECIMENTO on any paper money in corpus. State does not suppress feminine body — it exhibits it.",
+        "colonialidade_do_ver": null
+      },
+      "analyst_notes": "Confirmed 1.4. Treasury Sec. Gage worried about 'artistic nudity on currency.' dessexualizacao=0 likely correct."
+    }
   },
   {
     "id": "FR-SEM-1898",
@@ -5470,7 +6173,8 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "moeda",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "year": 1898
   },
   {
     "id": "DE-NOTG-1921",
@@ -5508,7 +6212,8 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "papel-moeda",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "year": 1921
   },
   {
     "id": "DE-WR-1919-50M",
@@ -5547,7 +6252,8 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "papel-moeda",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "year": 1919
   },
   {
     "id": "DE-WR-1924-50PF",
@@ -5586,7 +6292,8 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "moeda",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "year": 1924
   },
   {
     "id": "UK-TRADE-1895",
@@ -5643,8 +6350,28 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T12:00:00Z"
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
+    "panofsky": {
+      "pre_iconographic": "Silver coin 39mm. Britannia STANDING on shore, helmet, breastplate, trident, Union Flag shield. Ship in background. Reverse: Chinese + Jawi Malay script. Minted Bombay/Calcutta.",
+      "iconographic": {
+        "motivo_alegorico": "IMPERIAL Britannia — white female warrior facing outward toward colonies",
+        "iconclass": [
+          "44B62",
+          "44G3",
+          "48C51"
+        ],
+        "tradicao": "Imperial coinage. De Saulles design.",
+        "pathosformel": "Standing/projecting — imperial assertion. Opposite of seated domestic Britannia."
+      },
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Commercial imperialism backed by naval force — coin speaks TO colonized subjects",
+        "contrato_sexual_visual": "White female body in military dress projects power. Body retained (desincorporacao=0) because empire NEEDS visible body.",
+        "colonialidade_do_ver": "MAXIMAL: minted in India, circulated in SE Asia. Bilingual reverse = colonial addressees. White warrior-woman as face of extraction."
+      },
+      "analyst_notes": "Confirmed 2.5. desincorporacao=0 is KEY: even at high ENDURECIMENTO, imperial function requires corporeal presence. Paired with UK-PENNY for Zwischenraum."
+    }
   },
   {
     "id": "FR-PIAST-1885",
@@ -5758,8 +6485,27 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T12:00:00Z"
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
+    "panofsky": {
+      "pre_iconographic": "Silver quarter. Full-length Liberty stepping through gateway, shield + olive branch. Type I (1916): bare right breast. 24.3mm.",
+      "iconographic": {
+        "motivo_alegorico": "Standing Liberty — MacNeil's most complex coin. Bare breast (Type I) references Delacroix Marianne tradition.",
+        "iconclass": [
+          "44A52",
+          "48C51"
+        ],
+        "tradicao": "French Republican numismatics adapted for US. Model: Doris Doscher.",
+        "pathosformel": "Threshold passage — Liberty EXITS architectural frame. Zwischenraum."
+      },
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "WWI-eve coin. DOCUMENTS ENDURECIMENTO IN REAL TIME: Type I (breast exposed, 1916) → Type II (chain mail, 1917). State intervened to dessexualize.",
+        "contrato_sexual_visual": "The Type I→II modification IS the Contrato Sexual Visual made visible: state censors the female body on its own currency",
+        "colonialidade_do_ver": "Classical European idiom on American coin"
+      },
+      "analyst_notes": "Confirmed 1.8. RECOMMEND splitting into US-SLQ-1916-I and US-SLQ-1916-II to capture real-time ENDURECIMENTO."
+    }
   },
   {
     "id": "BE-IND-1880",
@@ -5814,8 +6560,29 @@
       "serialidade": 2,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T12:00:00Z"
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
+    "panofsky": {
+      "pre_iconographic": "Silver commemorative coin, 37mm. Standing La Belgique with Constitution tablets, Belgian lion, Congress Column and Palais de Justice in background. Leopold I/II busts on obverse.",
+      "iconographic": {
+        "motivo_alegorico": "La Belgique constitutionnelle — national personification holding law",
+        "iconclass": [
+          "44B62",
+          "44A2",
+          "48C51",
+          "46B2"
+        ],
+        "tradicao": "Belgian constitutional iconography (Huygebaert). Wiener adapts French Marianne, replaces cap with Constitution.",
+        "pathosformel": "Stabilitas constitutionalis — leaning figure, controlled, dependent on dynasty (lion)"
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Commemorative re-legitimation at 50th anniversary. Portable altar of re-foundation.",
+        "contrato_sexual_visual": "She HOLDS the law but does not write/interpret/enforce it. Kings on obverse are agents; she is sign.",
+        "colonialidade_do_ver": "Latent. 1880 = pre-Congo (1885), but proto-colonial logic in self-celebration."
+      },
+      "analyst_notes": "Confirmed 2.0. desincorporacao=0 because full body retained (unlike bust format). Compare with BE-CONGO-1912."
+    }
   },
   {
     "id": "BR-2000R-1907",
@@ -5869,8 +6636,28 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T12:00:00Z"
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T13:00:00Z",
+    "panofsky": {
+      "pre_iconographic": "Silver coin, 33mm. Female bust left profile, Phrygian cap with stars, laurel wreath. 'REPUBLICA DOS ESTADOS UNIDOS DO BRAZIL'. Reverse: 2000 REIS.",
+      "iconographic": {
+        "motivo_alegorico": "A República — Brazilian Republic as female bust with Phrygian cap. Stars = Southern Cross/federalism.",
+        "iconclass": [
+          "44A1",
+          "44B191",
+          "48C51"
+        ],
+        "tradicao": "French Republican numismatics (Dupré, Chaplain, Roty). Brazilian adaptation adds stars on cap.",
+        "pathosformel": "Profilbüste — ultimate reduction of female body to sign. Nachleben of Roman Imperial coinage."
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Maximum normative: coin circulates female body through every transaction",
+        "contrato_sexual_visual": "Most abstract and most pervasive: state borrows femininity for its face, strips it of all content",
+        "colonialidade_do_ver": "European face circulates as Republic in majority Afro-descendant nation. Colonialidade in purest economic form."
+      },
+      "analyst_notes": "Highest BR item (2.8). Medium drives maximum serialidade, monocromatizacao, inscricao_estatal. Atlas: Painel VI+VII."
+    }
   },
   {
     "id": "UK-PENNY-1860",
@@ -5927,8 +6714,27 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T12:00:00Z"
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T14:00:00Z",
+    "panofsky": {
+      "pre_iconographic": "Bronze penny 31mm. Britannia SEATED on rock, helmet, trident, Union Flag shield. Lighthouse left, ship right. Victoria on obverse. Most mass-produced female allegory in British history.",
+      "iconographic": {
+        "motivo_alegorico": "DOMESTIC Britannia — seated guardian of home islands",
+        "iconclass": [
+          "44B62",
+          "48C51"
+        ],
+        "tradicao": "Wyon design for Victorian penny. Hundreds of millions minted.",
+        "pathosformel": "Seated/grounded — sovereignty (throne-like) not conquest"
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Normalizes domestic order through daily circulation. Coin pays for bread, not colonial trade.",
+        "contrato_sexual_visual": "Most frequently HANDLED female image in Victorian world. Intimate bodily contact: touched, pocketed, accumulated.",
+        "colonialidade_do_ver": "Domestic coin but circulated across Empire. Whiteness of Britannia naturalized through daily use."
+      },
+      "analyst_notes": "Confirmed 2.5. Identical score to UK-TRADE but different function: normative vs. militar. Zwischenraum panel finding validated."
+    }
   },
   {
     "id": "FR-HERC-1870",
@@ -6044,8 +6850,33 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T12:00:00Z"
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-03T12:00:00Z",
+    "panofsky": {
+      "pre_iconographic": "Paper banknote, ~140x90mm, blue-green/ochre. LEFT: white European woman in classical drapery, mace on anvil. RIGHT: Black African woman, bare-shouldered, holding ivory tusk. Tropical vegetation background. 'BANQUE DU CONGO BELGE / 20 FRANCS'.",
+      "iconographic": {
+        "motivo_alegorico": "La Belgique/Europa as colonial sovereign paired with ethnographic African figure. Mace+anvil = martial+industrial power.",
+        "iconclass": [
+          "44B62",
+          "44G3",
+          "48C51",
+          "46C1"
+        ],
+        "tradicao": "Colonial banknote iconography. Cf. Banque de l'Afrique Occidentale, Banque de l'Indochine.",
+        "pathosformel": "Dominatio colonialis — rigid European authority + tributary African offering. Nachleben of Roman triumphal presenting gesture.",
+        "comparanda": [
+          "BE-IND-1880 (same La Belgique, transformed from constitutional to colonial)",
+          "French colonial banknotes"
+        ]
+      },
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Colonial monetary legitimation. Economic + ideological + racial triple function.",
+        "contrato_sexual_visual": "DOUBLED AND RACIALIZED. Only white femininity achieves allegorical sublimation; Black femininity remains ethnographic. Intersection of Contrato Sexual Visual with Contrato Racial Visual.",
+        "colonialidade_do_ver": "MAXIMUM in corpus. Operates at every level: composition, clothing, attributes, allegorical capacity, monetary medium."
+      },
+      "analyst_notes": "Strongest colonialidade_do_ver case. Same ENDURECIMENTO as BE-IND-1880 (2.0) but different distribution: rigidez rises, monocrom falls. Atlas: Painel VII (colonial)."
+    }
   },
   {
     "id": "DE-GERM-1900",
