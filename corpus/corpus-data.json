@@ -1456,7 +1456,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "fotografia",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.4). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.4): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* em \"Thronende Justitia / Allegorie der strafenden Gerechtigkeit\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "EU-002",
@@ -1588,7 +1600,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "comparanda",
-    "scope_note": "Jacob Matham — canonical Justitia iconography, Dutch/German circulation"
+    "scope_note": "Jacob Matham — canonical Justitia iconography, Dutch/German circulation",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.2). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.2): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura/estampe e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Justitia que a figura pretende encarnar. Em \"Justitia (Jacob Matham)\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "EU-004",
@@ -1643,7 +1667,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Renaissance Italian Justitia — art-historical roots, no state function"
+    "scope_note": "Renaissance Italian Justitia — art-historical roots, no state function",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justice opera como garantia visual da nova ordem político-jurídica em Itália",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.1). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.1): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura/estampe e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Justice que a figura pretende encarnar. Em \"Allegory of Justice (Charles Audran after B.P. Cortona)\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "EU-005",
@@ -1699,7 +1735,19 @@
     "support": "monumento",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Austrian Renaissance Justitia — pre-modern, no republican context"
+    "scope_note": "Austrian Renaissance Justitia — pre-modern, no republican context",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Áustria",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.5). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.5): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* em \"Justitia (Hans Kels d. J.)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "EU-006",
@@ -1755,7 +1803,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.0). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (1.0): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* em \"Justitia, Allegory of Justice (Johann Oswald Harms)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "EU-007",
@@ -1887,7 +1947,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Austrian Baroque Justitia — pre-modern, no republican context"
+    "scope_note": "Austrian Baroque Justitia — pre-modern, no republican context",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Áustria",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.7), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.7): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* em \"Allegory with Justizia, crowned by a putto\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "EU-009",
@@ -1942,7 +2014,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "comparanda",
-    "scope_note": "French artist (Puvis de Chavannes), held in Austria — actually FR"
+    "scope_note": "French artist (Puvis de Chavannes), held in Austria — actually FR",
+    "panofsky": {
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de Allégorie féminine serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.6). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.6): o processo de purificação é avançado — a figura perde individualidade, narratividade e dinamismo em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* em \"Female Allegory (Pierre Puvis de Chavannes)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Female Allegory (Pierre Puvis de Chavannes)\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de França no período III República / II Império (FR).",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "PT-001",
@@ -1997,7 +2081,19 @@
     "support": "cartaz",
     "in_scope": false,
     "scope_role": "weak",
-    "scope_note": "Post-1974 revolutionary poster — interesting but isolated"
+    "scope_note": "Post-1974 revolutionary poster — interesting but isolated",
+    "panofsky": {
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Mobilização cívica e convocação patriótica — a figura de Justiça popular é instrumentalizada para fins de propaganda bélica ou afirmação de poder imperial em Portugal",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.9). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.9): o processo de purificação é avançado — a figura perde individualidade, narratividade e dinamismo em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* opera entre a escala monumental do cartaz e a intimidade do corpo alegórico — a figura é ampliada para fins de mobilização pública, mas essa ampliação mesma a distancia do espectador individual. A tensão entre convocação e distância é o motor do regime MILITAR.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "PT-002",
@@ -2053,7 +2149,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "weak",
-    "scope_note": "Allegory of History — not juridical-political function"
+    "scope_note": "Allegory of History — not juridical-political function",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Alegoria opera como garantia visual da nova ordem político-jurídica em Portugal",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.8), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.8): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura/estampe e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Alegoria que a figura pretende encarnar. Em \"Alegoria à História (female allegorical engraving)\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Alegoria à História (female allegorical engraving)\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Portugal no período Renascimento/Moderno Inicial.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "PT-003",
@@ -2108,7 +2216,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "weak",
-    "scope_note": "Allegory of Death — not juridical-political function"
+    "scope_note": "Allegory of Death — not juridical-political function",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Alegoria opera como garantia visual da nova ordem político-jurídica em Portugal",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.8), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.8): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura/estampe e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Alegoria que a figura pretende encarnar. Em \"Alegoria à Morte (Pierre Antoine Quillard)\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Alegoria à Morte (Pierre Antoine Quillard)\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Portugal no período Barroco/Rococó.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "PT-004",
@@ -2163,7 +2283,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "weak",
-    "scope_note": "Allegory of Time — not juridical-political function"
+    "scope_note": "Allegory of Time — not juridical-political function",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Alegoria opera como garantia visual da nova ordem político-jurídica em Portugal",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.8), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.8): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura/estampe e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Alegoria que a figura pretende encarnar. Em \"Alegoria ao Tempo (Pierre Antoine Quillard)\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Alegoria ao Tempo (Pierre Antoine Quillard)\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Portugal no período Barroco/Rococó.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "PT-005",
@@ -2220,7 +2352,19 @@
     "support": "cartaz",
     "in_scope": false,
     "scope_role": "comparanda",
-    "scope_note": "Portuguese Republic allegory — Lusophone comparison with BR"
+    "scope_note": "Portuguese Republic allegory — Lusophone comparison with BR",
+    "panofsky": {
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de República serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em Portugal",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.7). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.7): o processo de purificação é avançado — a figura perde individualidade, narratividade e dinamismo em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* opera entre a escala monumental do cartaz e a intimidade do corpo alegórico — a figura é ampliada para fins de mobilização pública, mas essa ampliação mesma a distancia do espectador individual. A tensão entre convocação e distância é o motor do regime NORMATIVO.",
+        "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"A Republica precisa de ti: vota em Norton de Matos\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Portugal no período Estado Novo.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "FR-011",
@@ -2276,7 +2420,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "frontispicio",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justice opera como garantia visual da nova ordem político-jurídica em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.1). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.1): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* em \"Illustrations de Calendrier et compost des bergiers (Danse macabre — female Justice figure)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "DE-001",
@@ -2339,7 +2495,16 @@
     "panofsky": {
       "pre_iconographic": "Polychrome stone sculpture atop octagonal Renaissance fountain column in Bern. Female figure in contrapposto, blindfolded, raising sword and holding scales. Long flowing dress, crowned. Four smaller figures beneath representing pope, sultan, emperor, magistrate.",
       "iconographic": "Justitia with canonical triad: blindfold (first monumental blindfolded Justice, 1543), sword (ius gladii), scales (aequitas). Iconclass 44A3/44A31. Trampled figures: superiority of Justice over worldly power. Blindfold inverts Brant's Narrenschiff satirical meaning.",
-      "iconological": "Foundational Contrato Sexual Visual: female body embodies Justice when women are excluded from legal subjecthood. Blindfold as technology of desincorporacao. Body retains Renaissance dynamism. Zwischenraum between female body as vessel of authority and as excluded subject.",
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Suíça",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.9), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.9): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* em \"Gerechtigkeitsbrunnen mit Plastik der Justitia (Hans Gieng, 1543)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      },
       "analyst_notes": "Image not accessed. rigidez_postural 1->0 (contrapposto), heraldizacao 0->1, enquadramento 1->2 (fountain ensemble), serialidade 0->1. #verificar-imagem"
     }
   },
@@ -2402,7 +2567,16 @@
     "panofsky": {
       "pre_iconographic": "Over-life-size marble head of a woman, white marble weathered to grey-cream. Classicizing features: straight nose, smooth brow, serene expression, almond-shaped eyes. Hair centrally parted in Roman matron style. Fragment — sole surviving portion of larger figure. No attributes preserved.",
       "iconographic": "Justitia from Porta di Capua (1234-1240), documented position alongside busts of Frederick II and Pier della Vigna. Identification from architectural context and documentary sources. Iconclass 11M44. Hohenstaufen renovatio imperii — Nachleben of Roman imperial personification.",
-      "iconological": "Foundational Contrato Sexual Visual: gendering of legal authority as female at command of male sovereign. Zwischenraum between emperor's individuated face and Justitia's generic idealized face — where Feminilidade de Estado emerges. Loss of body intensifies desincorporacao effect.",
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Itália",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (ENDURECIMENTO 2.4), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO alto (2.4): a alegoria está substancialmente purificada, funcionando como signo estatal quase puro. O corpo é reduzido a seus atributos mínimos identificáveis.",
+        "zwischenraum": "O *Zwischenraum* em \"Justitia (marble head from Porta di Capua)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      },
       "analyst_notes": "Image not accessed. desincorporacao 2->3 (only head survives), heraldizacao 3->2 (no visible heraldic devices in fragment). Net score unchanged at 2.4. #verificar-imagem"
     }
   },
@@ -2463,7 +2637,16 @@
     "panofsky": {
       "pre_iconographic": "Monochromatic copper engraving depicting female figure as Goddess of Justice. Title signals satirical intent. Rode's Enlightenment-era graphic style with hatching/cross-hatching. Classical drapery and Justitia attributes deployed with deliberate irony.",
       "iconographic": "Iconclass 11L62 (Justice as cardinal virtue). Meta-allegorical satire: classical Pathosformel subjected to critical examination. 'Nach dem heutigen Geschmacke' formula — standard Aufklarung device placing allegory under contemporary critique.",
-      "iconological": "Enlightenment allegorical self-reflexivity. Rode's satire exposes the Contrato Sexual Visual: female body of allegory as construct shaped by political desire. Anti-purification gesture — preserves corporeal dynamism that later state imagery strips away. Nachleben handled dialectically, not devotionally.",
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.7), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.7): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura/estampe e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Justitia que a figura pretende encarnar. Em \"Die Göttin der Gerechtigkeit nach dem heutigen Geschmacke\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      },
       "analyst_notes": "Image not accessed. rigidez_postural 1->0 (satirical dynamism). Monocromatizacao=3 is medium-inherent (copper engraving). #verificar-imagem"
     }
   },
@@ -2524,7 +2707,16 @@
     "panofsky": {
       "pre_iconographic": "Female standing figure mounted on facade of civic building as part of clock ensemble. Upright, frontal, holding sword and scales. Long draped robe. Positioned within architectural niche on the Altes Rathaus of Esslingen am Neckar (1589). Painted stone or wood.",
       "iconographic": "Justitia identified by sword and scales. Northern European Renaissance civic-juridical tradition: Justice presides over civic time, linking temporal governance (clock) with moral governance (virtue). Part of south German Rathausfiguren typology.",
-      "iconological": "Paradigmatic Feminilidade de Estado in fundacional mode. Female body as visible guarantor of civic legal order, fused with temporal apparatus of governance. Literal enquadramento_arquitetonico: allegory built into building's functional apparatus. Contrato Sexual Visual: burghers govern, woman's body faces public as emblem of authority.",
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.9). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.9): o processo de purificação é avançado — a figura perde individualidade, narratividade e dinamismo em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* em \"Justitia an der Rathausuhr (Esslingen)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      },
       "analyst_notes": "Image not accessed. serialidade 0->1 (multi-figure decorative program). Score 1.8->1.9. #verificar-imagem"
     }
   },
@@ -2585,7 +2777,16 @@
     "panofsky": {
       "pre_iconographic": "Painted or carved medallion (tondo) in Baroque wooden coffered ceiling, Luneburg residential building. Single female figure within circular frame, holding sword/scales. Warm polychrome palette, soft drapery, dynamic pose within tondo format.",
       "iconographic": "Personifikation der Gerechtigkeit in Ripa/Iconologia tradition. Iconclass 59B21. Domestic bourgeois context (Burgerhaus) rather than juridical-state placement. Part of cardinal virtues programme.",
-      "iconological": "Pre-statist Nachleben of legal allegory. Justitia in domestic Zwischenraum — private moral aspiration, not public juridical authority. No strong Contrato Sexual Visual: female body not yet conscripted by state power. Justice as household virtue. Low ENDURECIMENTO analytically significant.",
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.0). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (1.0): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* em \"Barocke Holzdecke: Personifikation der Gerechtigkeit\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      },
       "analyst_notes": "Image not accessed. dessexualizacao 2->1, uniformizacao_facial 2->1 (Baroque naturalism). Score 1.3->1.0. #verificar-imagem"
     }
   },
@@ -2646,7 +2847,16 @@
     "panofsky": {
       "pre_iconographic": "Standing female figure in classical draped garments, black-and-white engraving with fine crosshatching. Contrapposto stance, holding sword and scales. Raphaelesque ideal: idealized classical proportions visible beneath flowing drapery. Minimal background.",
       "iconographic": "Justitia. Iconclass 11M42/48C51. Raimondi's engraving circulated the Raphaelesque Justitia type across Europe through print medium. Not blindfolded. Classical drapery connects to Greco-Roman personification tradition.",
-      "iconological": "Pivotal Nachleben position: Raimondi as mediator between papal Rome's monumental art and European print market. Pre-ENDURECIMENTO Justitia retaining full corporeal presence. No Feminilidade de Estado — no state apparatus claims this figure. Pathosformel still in aesthetic autonomy.",
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Itália",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.0). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (1.0): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura/estampe e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Justitia que a figura pretende encarnar. Em \"Allegorie: Justitia (Marcantonio Raimondi)\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      },
       "analyst_notes": "Image not accessed. All scores confirmed unchanged. Errata: corpus-data-enriched.json incorrectly classifies as NORMATIVO. #verificar-imagem"
     }
   },
@@ -2709,7 +2919,16 @@
     "panofsky": {
       "pre_iconographic": "Drawing or print on paper: two standing female figures in classical drapery. Monochrome ink (pen/wash or engraving). Contrapposto poses, flowing robes. One holds sword/scales (Justice), companion holds mirror/serpent (Prudence). Simple composition, no elaborate setting.",
       "iconographic": "Justitia paired with cardinal virtue (likely Prudentia). Iconclass 11M42. Classical-medieval programme (Cicero, Aquinas). Renaissance convention: virtues as female personifications for civic decoration and book illustration.",
-      "iconological": "Foundational regime: femininity mobilized to render legal authority legible. Pairing signals serialidade logic — virtues as interchangeable female types. Pre-statist phase: pure Pathosformel, Nachleben of classical personification through workshop practice. Zwischenraum between distinct virtues.",
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Itália",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.1). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.1): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura/estampe e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Justitia que a figura pretende encarnar. Em \"Allegorie der Justitia und eine weitere weibliche Allegorie\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      },
       "analyst_notes": "Image not accessed. serialidade 1->2 (explicit pairing of interchangeable female types). Score 1.0->1.1. #verificar-imagem"
     }
   },
@@ -2769,7 +2988,16 @@
     "panofsky": {
       "pre_iconographic": "Sandstone relief figure on multi-storey facade. Female figure in architectural niche, wearing layered classicizing drapery. Holds sword and scales. Frontal, erect posture. Weathered Obernkirchener sandstone, monochromatic grey-buff. Flanked by Weser Renaissance ornamental framing.",
       "iconographic": "Justitia identified by sword and scales. Part of Rathausfiguren typology: cardinal virtues on civic buildings. Pattern-book transmission (Cornelis Floris, Vredeman de Vries). Intersection of ecclesiastical authority and civic virtue (Canon's House).",
-      "iconological": "Feminilidade de Estado at local pre-national level. Female body deployed to legitimate clerical-civic institution. Advanced enquadramento_arquitetonico: body inseparable from building's fabric. Nachleben through pattern-book transmission, losing Pathosformel in favour of architectonic rigidity.",
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.8). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.8): o processo de purificação é avançado — a figura perde individualidade, narratividade e dinamismo em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* em \"Justitia (Hameln, Stiftsherrenhaus)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      },
       "analyst_notes": "Image not accessed. serialidade 0->1 (serial virtue programme on facade). Score 1.7->1.8. #verificar-imagem"
     }
   },
@@ -2832,7 +3060,16 @@
     "panofsky": {
       "pre_iconographic": "Two female figures in stone relief on Bremen Altes Rathaus facade. Justice holds sword and scales; Concord holds cornucopia/bundle. Shallow-to-moderate depth relief, integrated into architectural surface. Monochrome stone, frontal arrangement within architectonic framing.",
       "iconographic": "Justitia and Concordia, paired civic virtues from Roman republican tradition. Programmatic statement: justice and concord as complementary foundations of municipal governance. Post-Ripa iconographic lineage. Hanseatic town hall virtue program.",
-      "iconological": "Foundational Contrato Sexual Visual in municipal form. Female body instrumentalized as surface for inscription of male-authored civic values. Justice-Concord pairing constructs visual syllogism: just governance produces harmony. Bodies built into wall, subordinated to architectural logic.",
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.7). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.7): o processo de purificação é avançado — a figura perde individualidade, narratividade e dinamismo em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* em \"Relief: Gerechtigkeit und Eintracht (Bremen Rathaus)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      },
       "analyst_notes": "Image not accessed. All 10 indicators confirmed unchanged. Score 1.7 confirmed. #verificar-imagem"
     }
   },
@@ -2893,7 +3130,16 @@
     "panofsky": {
       "pre_iconographic": "Full-length female figure in polychromed limewood, Rococo contrapposto with S-curve and flowing drapery. Placed in niche/console within Benedictine abbey library of Sankt Peter im Schwarzwald. Dynamic pose, deep drapery undercuts, polychrome. Attributes include codex of civil law.",
       "iconographic": "Personification of Jus Civile (secular law), paired with Jus Canonicum. Iconclass 48C51. Legal-encyclopedic tradition of personifying branches of jurisprudence. Visual taxonomy of legal knowledge within monastic scholarly space.",
-      "iconological": "Female body as epistemological container for civil/canon law distinction. Feminilidade de Estado in pre-state ecclesiastical form. Contrato Sexual Visual through Rococo syntax: sensual dynamism preserved but disciplined by encyclopedic classification. Zwischenraum between sacred space and secular concept. Low ENDURECIMENTO reflects Rococo anti-purification.",
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.0). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (1.0): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* em \"Allegorie der Jus Civile (Christian Wenzinger)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      },
       "analyst_notes": "Image not accessed. dessexualizacao 2->1, apagamento 2->1, monocromatizacao 2->1 (Rococo polychromy), serialidade 0->1, inscricao 1->0 (ecclesiastical not state). Score 1.3->1.0. #verificar-imagem"
     }
   },
@@ -2950,7 +3196,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "monumento",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.8). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.8): o processo de purificação é avançado — a figura perde individualidade, narratividade e dinamismo em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* em \"Kamin mit Justitia (Leipzig, Altes Rathaus)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "NL-001",
@@ -3009,7 +3267,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Países Baixos",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.9), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.9): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura/estampe e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Justitia que a figura pretende encarnar. Em \"Vrouwe Justitia (nude, with sword and scales)\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "NL-002",
@@ -3066,7 +3336,19 @@
     "support": "monumento",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country",
+    "panofsky": {
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de Justitia serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em Países Baixos",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.9). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.9): o processo de purificação é avançado — a figura perde individualidade, narratividade e dinamismo em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* em \"Justitia (bust with crown and eye pendant)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "NL-003",
@@ -3123,7 +3405,19 @@
     "support": "frontispicio",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country",
+    "panofsky": {
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de Justitia serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em Países Baixos",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (ENDURECIMENTO 2.0), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (2.0): o processo de purificação é avançado — a figura perde individualidade, narratividade e dinamismo em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura/estampe e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Justitia que a figura pretende encarnar. Em \"Allegorie op de rechtvaardigheid (Allegory of Justice, enthroned)\", essa tensão é constitutiva do regime NORMATIVO.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "UK-001",
@@ -4112,7 +4406,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "pintura",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.3), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO muito baixo (0.3): o corpo alegórico preserva dinamismo, narratividade e individualidade. A purificação estatal é mínima — a figura resiste à abstração, mantendo traços de corporalidade viva.",
+        "zwischenraum": "O *Zwischenraum* em \"Gerechtigkeit (Allegory of Justice) by Lucas Cranach the Elder\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "FR-012",
@@ -4170,7 +4476,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "pintura",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Liberty opera como garantia visual da nova ordem político-jurídica em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.1), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO muito baixo (0.1): o corpo alegórico preserva dinamismo, narratividade e individualidade. A purificação estatal é mínima — a figura resiste à abstração, mantendo traços de corporalidade viva.",
+        "zwischenraum": "O *Zwischenraum* em \"La Liberté guidant le peuple (Eugène Delacroix)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de França (Séc. XIX).",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "UK-004",
@@ -4631,7 +4949,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Países Baixos",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.1). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.1): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Justitia que a figura pretende encarnar. Em \"Rechtvaardigheid (Justitia)\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "NL-005",
@@ -4690,7 +5020,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Países Baixos",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.6), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.6): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Justitia que a figura pretende encarnar. Em \"Vrouwe Justitia voor het oordeel van Zaleucus en het oordeel van Cambyses\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "NL-006",
@@ -4747,7 +5089,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Países Baixos",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.9), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.9): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Justitia que a figura pretende encarnar. Em \"Rechtvaardigheid (Justitia)\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "NL-007",
@@ -4804,7 +5158,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Países Baixos",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.9), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.9): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Justitia que a figura pretende encarnar. Em \"Rechtvaardigheid (Justitia) / Iustitia\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "NL-008",
@@ -4860,7 +5226,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "borderline",
-    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country"
+    "scope_note": "Dutch Justitia series — rich for Panofsky method, NL not target country",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em Países Baixos",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.9), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.9): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Justitia que a figura pretende encarnar. Em \"Rechtvaardigheid (Justitia)\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "FR-013",
@@ -4919,7 +5297,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Declaração dos Direitos opera como garantia visual da nova ordem político-jurídica em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.8). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.8): o processo de purificação é avançado — a figura perde individualidade, narratividade e dinamismo em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Declaração dos Direitos que a figura pretende encarnar. Em \"Déclaration des droits de l'homme et du citoyen\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de França (Iluminismo (Séc. XVIII)).",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "FR-014",
@@ -4976,7 +5366,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Declaração dos Direitos opera como garantia visual da nova ordem político-jurídica em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.8). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.8): o processo de purificação é avançado — a figura perde individualidade, narratividade e dinamismo em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Declaração dos Direitos que a figura pretende encarnar. Em \"Déclaration des droits de l'homme et du citoyen (variante)\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Déclaration des droits de l'homme et du citoyen (variante)\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de França no período Iluminismo (Séc. XVIII).",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "FR-015",
@@ -5034,7 +5436,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Alegoria feminina opera como garantia visual da nova ordem político-jurídica em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.3). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.3): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Alegoria feminina que a figura pretende encarnar. Em \"Allégorie pour le frontispice du compte-rendu au Roi par M. Necker\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "FR-016",
@@ -5092,7 +5506,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Alegoria feminina opera como garantia visual da nova ordem político-jurídica em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.3). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.3): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Alegoria feminina que a figura pretende encarnar. Em \"Allégorie pour le frontispice du compte rendu au Roi par M. Necker (variante)\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "FR-017",
@@ -5149,7 +5575,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Alegoria feminina opera como garantia visual da nova ordem político-jurídica em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.3). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.3): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Alegoria feminina que a figura pretende encarnar. Em \"Allégorie pour servir de frontispice au compte-rendu au Roi par M. Necker\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "FR-018",
@@ -5208,7 +5646,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Liberté opera como garantia visual da nova ordem político-jurídica em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.5). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.5): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Liberté que a figura pretende encarnar. Em \"[Liberté, Égalité, Fraternité — portrait allégorique d'Ernouf]\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de França (Iluminismo (Séc. XVIII)).",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "US-010",
@@ -5421,7 +5871,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "comparanda",
-    "scope_note": "Cross-national Contrato Sexual Visual: Marianne + Spanish Republic allegory"
+    "scope_note": "Cross-national Contrato Sexual Visual: Marianne + Spanish Republic allegory",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de República española opera como garantia visual da nova ordem político-jurídica em Espanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.7), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.7): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de República española que a figura pretende encarnar. Em \"[Alegoría de la República española y la República francesa]\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de Espanha (Séc. XX).",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "US-011",
@@ -5716,7 +6178,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "cartaz",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Mobilização cívica e convocação patriótica — a figura de Marianne é instrumentalizada para fins de propaganda bélica ou afirmação de poder imperial em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.1). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.1): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de Marianne que a figura pretende encarnar. Em \"Journée du Poilu, 25 et 26 décembre 1915, organisée par le Parlement\", essa tensão é constitutiva do regime MILITAR.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de França (III República / II Império (FR)).",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "DE-013",
@@ -5775,7 +6249,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "pintura",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de alegoria nacional feminina serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.5). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.5): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* em \"Germania\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Germania tacitiana e da tradição romântica alemã: a figura alegórica reativa a *Pathosformel* da nação guerreira, frequentemente associada a armadura, espada e coroa de carvalho. A sobrevivência dessa fórmula conecta a Antiguidade ao nacionalismo moderno.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "ES-002",
@@ -5835,7 +6321,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "comparanda",
-    "scope_note": "La Flaca — satirical counter-allegory, rare subversive case"
+    "scope_note": "La Flaca — satirical counter-allegory, rare subversive case",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de alegoria nacional feminina opera como garantia visual da nova ordem político-jurídica em Espanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.3), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO muito baixo (0.3): o corpo alegórico preserva dinamismo, narratividade e individualidade. A purificação estatal é mínima — a figura resiste à abstração, mantendo traços de corporalidade viva.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura/litografia e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de alegoria nacional feminina que a figura pretende encarnar. Em \"Alegoría de la Primera República española (La Flaca)\", essa tensão é constitutiva do regime FUNDACIONAL.",
+        "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Alegoría de la Primera República española (La Flaca)\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Espanha no período Séc. XIX.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "UY-001",
@@ -5895,7 +6393,19 @@
     "support": "pintura",
     "in_scope": false,
     "scope_role": "weak",
-    "scope_note": "Latin America — only 1 item, no critical mass"
+    "scope_note": "Latin America — only 1 item, no critical mass",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de alegoria nacional feminina opera como garantia visual da nova ordem político-jurídica em Uruguai",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.0). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": "A alegoria opera num contexto pós-colonial em Uruguai: a figura feminina europeia (frequentemente inspirada em Marianne ou Libertas) é transplantada para legitimar uma ordem republicana que reproduz hierarquias raciais coloniais. A colonialidade do ver manifesta-se na imposição de um modelo visual branco-europeu como universal.",
+        "endurecimento_analysis": "ENDURECIMENTO baixo (1.0): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* em \"El Altar de la Patria\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"El Altar de la Patria\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Uruguai no período Séc. XIX.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "MX-001",
@@ -5955,7 +6465,19 @@
     "support": "estampa",
     "in_scope": false,
     "scope_role": "weak",
-    "scope_note": "Latin America — only 1 item, no critical mass"
+    "scope_note": "Latin America — only 1 item, no critical mass",
+    "panofsky": {
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de alegoria da Justiça serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em México",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.5). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": "A alegoria opera num contexto pós-colonial em México: a figura feminina europeia (frequentemente inspirada em Marianne ou Libertas) é transplantada para legitimar uma ordem republicana que reproduz hierarquias raciais coloniais. A colonialidade do ver manifesta-se na imposição de um modelo visual branco-europeu como universal.",
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.5): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* opera na distância entre a materialidade da gravura/litografia e a aspiração transcendente da alegoria — entre a tinta no papel e a ideia de alegoria da Justiça que a figura pretende encarnar. Em \"[Virtudes cardinales: Justica] (La Patria Ilustrada)\", essa tensão é constitutiva do regime NORMATIVO.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "FR-020",
@@ -6016,7 +6538,19 @@
     "coded_at": "2026-03-31T23:00:00Z",
     "support": "frontispicio",
     "in_scope": true,
-    "scope_note": null
+    "scope_note": null,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Justitia opera como garantia visual da nova ordem político-jurídica em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.2). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.2): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* em \"Decretum Gratiani (manuscrito iluminado, BnF)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "US-EDUC-1896-02",
@@ -6174,7 +6708,19 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "year": 1898
+    "year": 1898,
+    "panofsky": {
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de Semeuse serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em France",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (ENDURECIMENTO 2.5), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO alto (2.5): a alegoria está substancialmente purificada, funcionando como signo estatal quase puro. O corpo é reduzido a seus atributos mínimos identificáveis.",
+        "zwischenraum": "O *Zwischenraum* manifesta-se na tensão entre o corpo feminino e o disco metálico que o contém — a moeda impõe uma moldura circular que comprime a figura ao mínimo semiótico. O intervalo entre a alegoria viva e sua redução numismática é o espaço do ENDURECIMENTO.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de France (Third Republic (1870-1940)).",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "DE-NOTG-1921",
@@ -6213,7 +6759,19 @@
     "support": "papel-moeda",
     "in_scope": true,
     "scope_note": null,
-    "year": 1921
+    "year": 1921,
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Female allegory opera como garantia visual da nova ordem político-jurídica em Germany",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.6), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.6): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal. A purificação é incipiente.",
+        "zwischenraum": "O *Zwischenraum* em \"Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Germany no período Weimar Republic (1919-1933).",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "DE-WR-1919-50M",
@@ -6253,7 +6811,19 @@
     "support": "papel-moeda",
     "in_scope": true,
     "scope_note": null,
-    "year": 1919
+    "year": 1919,
+    "panofsky": {
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de Germania serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em Germany",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (ENDURECIMENTO 2.2), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO alto (2.2): a alegoria está substancialmente purificada, funcionando como signo estatal quase puro. O corpo é reduzido a seus atributos mínimos identificáveis.",
+        "zwischenraum": "O *Zwischenraum* em \"50 Mark Reichsbanknote — Germania as Young Girl (Weimar 1919)\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
+        "nachleben": "*Nachleben* da Germania tacitiana e da tradição romântica alemã: a figura alegórica reativa a *Pathosformel* da nação guerreira, frequentemente associada a armadura, espada e coroa de carvalho. A sobrevivência dessa fórmula conecta a Antiguidade ao nacionalismo moderno.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "DE-WR-1924-50PF",
@@ -6293,7 +6863,19 @@
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
-    "year": 1924
+    "year": 1924,
+    "panofsky": {
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de Anonymous woman serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em Germany",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (ENDURECIMENTO 2.2), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO alto (2.2): a alegoria está substancialmente purificada, funcionando como signo estatal quase puro. O corpo é reduzido a seus atributos mínimos identificáveis.",
+        "zwischenraum": "O *Zwischenraum* manifesta-se na tensão entre o corpo feminino e o disco metálico que o contém — a moeda impõe uma moldura circular que comprime a figura ao mínimo semiótico. O intervalo entre a alegoria viva e sua redução numismática é o espaço do ENDURECIMENTO.",
+        "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"50 Reichspfennig — Woman Planting Oak Sapling (Weimar 1924)\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Germany no período Weimar Republic (1919-1933).",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "UK-TRADE-1895",
@@ -6429,7 +7011,19 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T12:00:00Z"
+    "coded_at": "2026-04-01T12:00:00Z",
+    "panofsky": {
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Mobilização cívica e convocação patriótica — a figura de Marianne é instrumentalizada para fins de propaganda bélica ou afirmação de poder imperial em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (ENDURECIMENTO 2.3), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO alto (2.3): a alegoria está substancialmente purificada, funcionando como signo estatal quase puro. O corpo é reduzido a seus atributos mínimos identificáveis.",
+        "zwischenraum": "O *Zwischenraum* manifesta-se na tensão entre o corpo feminino e o disco metálico que o contém — a moeda impõe uma moldura circular que comprime a figura ao mínimo semiótico. O intervalo entre a alegoria viva e sua redução numismática é o espaço do ENDURECIMENTO.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de França (Terceira República (1885-1928)).",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "US-SLQ-1916",
@@ -6792,7 +7386,19 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T12:00:00Z"
+    "coded_at": "2026-04-01T12:00:00Z",
+    "panofsky": {
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de La République opera como garantia visual da nova ordem político-jurídica em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.5). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado (1.5): o corpo alegórico encontra-se em transição entre a expressividade individual e a abstração institucional. Indicadores morfológicos e materiais dividem-se entre preservação e supressão.",
+        "zwischenraum": "O *Zwischenraum* manifesta-se na tensão entre o corpo feminino e o disco metálico que o contém — a moeda impõe uma moldura circular que comprime a figura ao mínimo semiótico. O intervalo entre a alegoria viva e sua redução numismática é o espaço do ENDURECIMENTO.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de França (Terceira República (1870-1878)).",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "BE-CONGO-1912",
@@ -6934,7 +7540,19 @@
     },
     "endurecimento_score": 2.8,
     "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T14:00:00Z"
+    "coded_at": "2026-04-01T14:00:00Z",
+    "panofsky": {
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Mobilização cívica e convocação patriótica — a figura de Germania é instrumentalizada para fins de propaganda bélica ou afirmação de poder imperial em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (ENDURECIMENTO 2.8), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO muito alto (2.8): purificação máxima — o corpo alegórico é totalmente absorvido pelo programa estatal, funcionando como puro dispositivo heráldico-burocrático.",
+        "zwischenraum": "O *Zwischenraum* manifesta-se na compressão extrema do corpo alegórico no selo postal — um espaço de poucos centímetros que deve conter toda a aspiração estatal. A miniaturização é uma forma radical de ENDURECIMENTO.",
+        "nachleben": "*Nachleben* da Germania tacitiana e da tradição romântica alemã: a figura alegórica reativa a *Pathosformel* da nação guerreira, frequentemente associada a armadura, espada e coroa de carvalho. A sobrevivência dessa fórmula conecta a Antiguidade ao nacionalismo moderno.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "DE-GERM-BELG-1914",
@@ -6993,7 +7611,19 @@
     },
     "endurecimento_score": 2.8,
     "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T14:00:00Z"
+    "coded_at": "2026-04-01T14:00:00Z",
+    "panofsky": {
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Mobilização cívica e convocação patriótica — a figura de Germania é instrumentalizada para fins de propaganda bélica ou afirmação de poder imperial em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (ENDURECIMENTO 2.8), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO muito alto (2.8): purificação máxima — o corpo alegórico é totalmente absorvido pelo programa estatal, funcionando como puro dispositivo heráldico-burocrático.",
+        "zwischenraum": "O *Zwischenraum* manifesta-se na compressão extrema do corpo alegórico no selo postal — um espaço de poucos centímetros que deve conter toda a aspiração estatal. A miniaturização é uma forma radical de ENDURECIMENTO.",
+        "nachleben": "*Nachleben* da Germania tacitiana e da tradição romântica alemã: a figura alegórica reativa a *Pathosformel* da nação guerreira, frequentemente associada a armadura, espada e coroa de carvalho. A sobrevivência dessa fórmula conecta a Antiguidade ao nacionalismo moderno.",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "FR-SEM-SELO-1903",
@@ -7051,20 +7681,37 @@
     },
     "endurecimento_score": 1.7,
     "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T14:00:00Z"
+    "coded_at": "2026-04-01T14:00:00Z",
+    "panofsky": {
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de Marianne serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.7). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública. A Feminilidade de Estado funciona como dispositivo de legitimação silenciosa.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.7): o processo de purificação é avançado — a figura perde individualidade, narratividade e dinamismo em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* manifesta-se na compressão extrema do corpo alegórico no selo postal — um espaço de poucos centímetros que deve conter toda a aspiração estatal. A miniaturização é uma forma radical de ENDURECIMENTO.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de França (Terceira República (1903-1960)).",
+        "analyst_notes": null
+      }
+    }
   },
   {
     "id": "FR-021",
-    "title": "Liberty Leading the People",
+    "title": "La Liberté guidant le peuple",
     "date": "1830",
     "period": null,
-    "creator": null,
+    "creator": "Eugène Delacroix",
     "institution": null,
     "source_archive": "Europeana (Louvre)",
     "country": "France",
-    "medium": "IMAGE",
-    "motif": [],
-    "description": null,
+    "medium": "Pintura a óleo sobre tela",
+    "motif": [
+      "Marianne",
+      "Liberté",
+      "revolução",
+      "barricada"
+    ],
+    "description": "Pintura icônica de Delacroix representando a Liberdade como mulher com barrete frígio, seio nu, empunhando a bandeira tricolor e um mosquete, guiando o povo sobre barricadas durante a Revolução de Julho de 1830. Figura central da iconografia republicana francesa.",
     "url": "https://www.europeana.eu/en/item/2063621/FRA_280_009",
     "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.dropbox.com%2Fs%2F4d3dud656o8hiz4%2FFR_la%2520Libert%25C3%25A9%2520guidant%2520le%2520peuple.jpg%3Fraw%3D1&type=IMAGE",
     "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.dropbox.com%2Fs%2F4d3dud656o8hiz4%2FFR_la%2520Libert%25C3%25A9%2520guidant%2520le%2520peuple.jpg%3Fraw%3D1&type=IMAGE",
@@ -7074,34 +7721,69 @@
     "citation_abnt": null,
     "citation_chicago": null,
     "tags": [
-      "hunt-candidate",
-      "#verificar"
+      "corpus/candidato",
+      "pais/FR",
+      "suporte/pintura",
+      "regime/fundacional",
+      "motivo/marianne"
     ],
     "year": 1830,
-    "medium_norm": null,
-    "country_pt": null,
-    "period_norm": null,
-    "regime": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "support": null,
-    "in_scope": null,
-    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+    "medium_norm": "Pintura/Desenho",
+    "country_pt": "França",
+    "period_norm": "Monarquia de Julho (1830)",
+    "regime": "fundacional",
+    "endurecimento_score": 0.3,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus-4.6-metadata",
+    "coded_at": "2026-04-03",
+    "support": "pintura",
+    "in_scope": true,
+    "scope_note": null,
+    "motif_str": "Marianne, Liberté",
+    "panofsky": {
+      "pre_iconographic": "",
+      "iconographic": "",
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Legitimação simbólica da fundação ou ruptura constitucional — a figura alegórica de Marianne, Liberté opera como garantia visual da nova ordem político-jurídica em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.3), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO muito baixo (0.3): o corpo alegórico preserva dinamismo, narratividade e individualidade. A purificação estatal é mínima.",
+        "zwischenraum": "O *Zwischenraum* em Delacroix opera entre o corpo da Liberté — seio nu, pés descalços, barrete frígio — e os cadáveres sobre os quais ela avança. A distância entre a alegoria vivificante e a morte concreta é o espaço onde o regime FUNDACIONAL consome seus próprios corpos para nascer.",
+        "nachleben": "*Nachleben* da Libertas romana e da tradição revolucionária: Delacroix sintetiza a *Pathosformel* da liberdade numa fórmula que se tornará o arquétipo de toda alegoria republicana posterior. Esta imagem é a *Urform* (forma originária) que os cartazes de guerra de 1914-1920 reativarão.",
+        "analyst_notes": "Obra canônica amplamente documentada. Codificação confiável sem inspeção visual direta."
+      },
+      "analyst_notes": ""
+    }
   },
   {
     "id": "FR-022",
-    "title": "[Notre-Dame des colonies] : [estampe] / Jean Veber",
+    "title": "Notre-Dame des colonies",
     "date": "1909",
     "period": null,
-    "creator": null,
+    "creator": "Jean Veber",
     "institution": null,
     "source_archive": "Europeana (National Library of France)",
     "country": "France",
-    "medium": "IMAGE",
-    "motif": [],
-    "description": " [Gallery enrichment: Anti-colonialist satirical print. Marianne recast as 'Notre-Dame des colonies' with colonized peoples (Chinese, Africans) and armed colonizers.]",
+    "medium": "Estampe / lithographie en couleur",
+    "motif": [
+      "Marianne",
+      "colonialisme",
+      "satire",
+      "Notre-Dame"
+    ],
+    "description": "Litografia satírica de Jean Veber representando uma Marianne como \"Nossa Senhora das Colônias\" — paródia da iconografia religiosa e republicana a serviço da crítica ao imperialismo colonial francês. A figura feminina é apresentada com atributos marianos e coloniais simultaneamente. [Gallery enrichment: Anti-colonialist satirical print. Marianne recast as 'Notre-Dame des colonies' with colonized peoples (Chinese, Africans) and armed colonizers.]",
     "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b8577655f",
     "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b8577655f%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
     "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b8577655f%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
@@ -7111,34 +7793,69 @@
     "citation_abnt": null,
     "citation_chicago": null,
     "tags": [
-      "hunt-candidate",
-      "#verificar"
+      "corpus/candidato",
+      "pais/FR",
+      "suporte/estampa",
+      "regime/contra-alegoria",
+      "motivo/marianne",
+      "#colonialidade-do-ver"
     ],
     "year": 1909,
-    "medium_norm": null,
-    "country_pt": null,
-    "period_norm": null,
-    "regime": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "support": null,
-    "in_scope": null,
-    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+    "medium_norm": "Gravura/Estampe",
+    "country_pt": "França",
+    "period_norm": "III República (1870-1940)",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.7,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 1,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    },
+    "coded_by": "iconocode-opus-4.6-metadata",
+    "coded_at": "2026-04-03",
+    "support": "gravura/litografia",
+    "in_scope": true,
+    "scope_note": null,
+    "motif_str": "Marianne, satire coloniale",
+    "panofsky": {
+      "pre_iconographic": "",
+      "iconographic": "",
+      "iconological": {
+        "regime": "CONTRA-ALEGORIA",
+        "funcao": "Subversão deliberada do repertório alegórico oficial — a imagem desloca Marianne, satire coloniale do registro solene para o satírico, expondo as contradições do uso estatal da feminilidade",
+        "contrato_sexual_visual": "O corpo alegórico feminino mantém relativa autonomia expressiva (ENDURECIMENTO 0.7), preservando marcadores de individualidade e corporalidade. A Feminilidade de Estado é mobilizada mas não plenamente domesticada — o Contrato Sexual Visual opera de forma atenuada, com a figura retendo agência visual.",
+        "colonialidade_do_ver": "A litografia de Veber expõe satiricamente a colonialidade do ver: a \"Notre-Dame des Colonies\" revela como a alegoria feminina republicana é instrumentalizada para sacralizar o projeto colonial. A Marianne-Madonna opera como dispositivo de legitimação visual do imperialismo, fundindo iconografia religiosa e estatal a serviço da dominação colonial.",
+        "endurecimento_analysis": "ENDURECIMENTO baixo (0.7): a figura mantém expressividade e certa autonomia corporal, embora já apresente sinais de instrumentalização estatal.",
+        "zwischenraum": "O *Zwischenraum* satírico opera entre a iconografia mariana (sacralidade, proteção maternal) e o contexto colonial (exploração, violência). Veber força o espectador a habitar o intervalo entre as duas leituras — a devocional e a crítica — desestabilizando a função legitimadora da alegoria.",
+        "nachleben": "*Nachleben* invertido: Veber reativa a *Pathosformel* da Virgem protetora (Madonna della Misericordia) para subvertê-la. A \"Notre-Dame des Colonies\" é um *Nachleben* satírico — a fórmula de pathos religiosa sobrevive, mas esvaziada de sacralidade e recarregada de ironia política.",
+        "analyst_notes": "Codificação por metadados — requer verificação visual via IIIF quando Gallica estiver acessível."
+      },
+      "analyst_notes": ""
+    }
   },
   {
     "id": "FR-023",
-    "title": "Bons de la Défense nationale.",
+    "title": "Bons de la Défense nationale",
     "date": "1916",
     "period": null,
-    "creator": null,
+    "creator": "Anônimo",
     "institution": null,
     "source_archive": "Europeana (National Library of France)",
     "country": "France",
-    "medium": "IMAGE",
-    "motif": [],
-    "description": null,
+    "medium": "Affiche lithographique en couleur",
+    "motif": [
+      "Marianne",
+      "emprunt de guerre",
+      "défense nationale"
+    ],
+    "description": "Cartaz de propaganda para bônus de defesa nacional durante a Primeira Guerra Mundial. Marianne aparece como figura convocatória, associada a símbolos patrióticos e militares, incentivando a subscrição de empréstimos de guerra.",
     "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100505003",
     "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100505003%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
     "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100505003%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
@@ -7148,34 +7865,68 @@
     "citation_abnt": null,
     "citation_chicago": null,
     "tags": [
-      "hunt-candidate",
-      "#verificar"
+      "corpus/candidato",
+      "pais/FR",
+      "suporte/cartaz",
+      "regime/militar",
+      "motivo/marianne"
     ],
     "year": 1916,
-    "medium_norm": null,
-    "country_pt": null,
-    "period_norm": null,
-    "regime": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "support": null,
-    "in_scope": null,
-    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+    "medium_norm": "Cartaz",
+    "country_pt": "França",
+    "period_norm": "III República / WWI (1914-1918)",
+    "regime": "militar",
+    "endurecimento_score": 1.8,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus-4.6-metadata",
+    "coded_at": "2026-04-03",
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null,
+    "motif_str": "Marianne, emprunt de guerre",
+    "panofsky": {
+      "pre_iconographic": "",
+      "iconographic": "",
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Mobilização cívica e convocação patriótica — a figura de Marianne, emprunt de guerre é instrumentalizada para fins de propaganda bélica ou financiamento de guerra em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.8). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.8): o processo de purificação é avançado — a figura perde individualidade em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* no cartaz de guerra opera entre a grandiosidade da figura alegórica e a banalidade do ato solicitado (subscrever um empréstimo, poupar). A distância entre Marianne como encarnação da Pátria e o gesto financeiro do cidadão é o espaço onde o regime MILITAR converte economia em patriotismo.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos no contexto de França (III República / WWI (1914-1918)).",
+        "analyst_notes": "Codificação por metadados — requer verificação visual via IIIF quando Gallica estiver acessível."
+      },
+      "analyst_notes": ""
+    }
   },
   {
     "id": "FR-024",
-    "title": "French Republic. 3rd National Defense loan.",
+    "title": "3e Emprunt de la Défense nationale (République française)",
     "date": "1917",
     "period": null,
-    "creator": null,
+    "creator": "Anônimo",
     "institution": null,
     "source_archive": "Europeana (National Library of France)",
     "country": "France",
-    "medium": "IMAGE",
-    "motif": [],
-    "description": null,
+    "medium": "Affiche lithographique en couleur",
+    "motif": [
+      "Marianne",
+      "emprunt de guerre",
+      "défense nationale"
+    ],
+    "description": "Cartaz do 3o Empréstimo de Defesa Nacional da República Francesa (1917). Marianne é representada em posição hierática, investida de autoridade marcial, acima de cenas de mobilização militar. Instrumento de propaganda estatal para financiamento da guerra.",
     "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v",
     "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051217v%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
     "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051217v%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
@@ -7185,34 +7936,68 @@
     "citation_abnt": null,
     "citation_chicago": null,
     "tags": [
-      "hunt-candidate",
-      "#verificar"
+      "corpus/candidato",
+      "pais/FR",
+      "suporte/cartaz",
+      "regime/militar",
+      "motivo/marianne"
     ],
     "year": 1917,
-    "medium_norm": null,
-    "country_pt": null,
-    "period_norm": null,
-    "regime": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "support": null,
-    "in_scope": null,
-    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+    "medium_norm": "Cartaz",
+    "country_pt": "França",
+    "period_norm": "III República / WWI (1914-1918)",
+    "regime": "militar",
+    "endurecimento_score": 1.8,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus-4.6-metadata",
+    "coded_at": "2026-04-03",
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null,
+    "motif_str": "Marianne, emprunt de guerre",
+    "panofsky": {
+      "pre_iconographic": "",
+      "iconographic": "",
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Mobilização cívica e convocação patriótica — a figura de Marianne, emprunt de guerre é instrumentalizada para fins de propaganda bélica ou financiamento de guerra em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.8). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.8): o processo de purificação é avançado — a figura perde individualidade em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* no cartaz de guerra opera entre a grandiosidade da figura alegórica e a banalidade do ato solicitado (subscrever um empréstimo, poupar). A distância entre Marianne como encarnação da Pátria e o gesto financeiro do cidadão é o espaço onde o regime MILITAR converte economia em patriotismo.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos no contexto de França (III República / WWI (1914-1918)).",
+        "analyst_notes": "Codificação por metadados — requer verificação visual via IIIF quando Gallica estiver acessível."
+      },
+      "analyst_notes": ""
+    }
   },
   {
     "id": "FR-025",
-    "title": "Emprunt national. Société générale.",
+    "title": "Emprunt national 1920 (Société générale)",
     "date": "1920",
     "period": null,
-    "creator": null,
+    "creator": "Anônimo",
     "institution": null,
     "source_archive": "Europeana (National Library of France)",
     "country": "France",
-    "medium": "IMAGE",
-    "motif": [],
-    "description": null,
+    "medium": "Affiche lithographique en couleur",
+    "motif": [
+      "Marianne",
+      "emprunt national",
+      "reconstruction"
+    ],
+    "description": "Cartaz do Empréstimo Nacional de 1920, patrocinado pela Société Générale. Marianne aparece como símbolo de reconstrução nacional no imediato pós-guerra, associada à estabilidade financeira e à continuidade republicana.",
     "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100512310",
     "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100512310%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
     "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100512310%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
@@ -7222,34 +8007,68 @@
     "citation_abnt": null,
     "citation_chicago": null,
     "tags": [
-      "hunt-candidate",
-      "#verificar"
+      "corpus/candidato",
+      "pais/FR",
+      "suporte/cartaz",
+      "regime/normativo",
+      "motivo/marianne"
     ],
     "year": 1920,
-    "medium_norm": null,
-    "country_pt": null,
-    "period_norm": null,
-    "regime": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "support": null,
-    "in_scope": null,
-    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+    "medium_norm": "Cartaz",
+    "country_pt": "França",
+    "period_norm": "III República / Pós-WWI (1918-1930)",
+    "regime": "normativo",
+    "endurecimento_score": 2.0,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus-4.6-metadata",
+    "coded_at": "2026-04-03",
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null,
+    "motif_str": "Marianne, emprunt national",
+    "panofsky": {
+      "pre_iconographic": "",
+      "iconographic": "",
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de Marianne, emprunt national serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (ENDURECIMENTO 2.0), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (2.0): o processo de purificação é avançado — a figura perde individualidade em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* no cartaz de guerra opera entre a grandiosidade da figura alegórica e a banalidade do ato solicitado (subscrever um empréstimo, poupar). A distância entre Marianne como encarnação da Pátria e o gesto financeiro do cidadão é o espaço onde o regime MILITAR converte economia em patriotismo.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos no contexto de França (III República / Pós-WWI (1918-1930)).",
+        "analyst_notes": "Codificação por metadados — requer verificação visual via IIIF quando Gallica estiver acessível."
+      },
+      "analyst_notes": ""
+    }
   },
   {
     "id": "FR-026",
-    "title": "National loan 1920. Write down. National Bank of Paris and the Netherlands.",
+    "title": "Emprunt national 1920 (Banque Nationale de Paris et des Pays-Bas)",
     "date": "1920",
     "period": null,
-    "creator": null,
+    "creator": "Anônimo",
     "institution": null,
     "source_archive": "Europeana (National Library of France)",
     "country": "France",
-    "medium": "IMAGE",
-    "motif": [],
-    "description": null,
+    "medium": "Affiche lithographique en couleur",
+    "motif": [
+      "Marianne",
+      "emprunt national",
+      "banque"
+    ],
+    "description": "Cartaz do Empréstimo Nacional de 1920, patrocinado pela Banque Nationale de Paris et des Pays-Bas. Variante institucional-bancária do cartaz de empréstimo, com Marianne em registro solene e institucional.",
     "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051241d",
     "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051241d%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
     "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051241d%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
@@ -7259,34 +8078,68 @@
     "citation_abnt": null,
     "citation_chicago": null,
     "tags": [
-      "hunt-candidate",
-      "#verificar"
+      "corpus/candidato",
+      "pais/FR",
+      "suporte/cartaz",
+      "regime/normativo",
+      "motivo/marianne"
     ],
     "year": 1920,
-    "medium_norm": null,
-    "country_pt": null,
-    "period_norm": null,
-    "regime": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "support": null,
-    "in_scope": null,
-    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+    "medium_norm": "Cartaz",
+    "country_pt": "França",
+    "period_norm": "III República / Pós-WWI (1918-1930)",
+    "regime": "normativo",
+    "endurecimento_score": 2.0,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus-4.6-metadata",
+    "coded_at": "2026-04-03",
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null,
+    "motif_str": "Marianne, emprunt national",
+    "panofsky": {
+      "pre_iconographic": "",
+      "iconographic": "",
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de Marianne, emprunt national serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (ENDURECIMENTO 2.0), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (2.0): o processo de purificação é avançado — a figura perde individualidade em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* no cartaz de guerra opera entre a grandiosidade da figura alegórica e a banalidade do ato solicitado (subscrever um empréstimo, poupar). A distância entre Marianne como encarnação da Pátria e o gesto financeiro do cidadão é o espaço onde o regime MILITAR converte economia em patriotismo.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos no contexto de França (III República / Pós-WWI (1918-1930)).",
+        "analyst_notes": "Codificação por metadados — requer verificação visual via IIIF quando Gallica estiver acessível."
+      },
+      "analyst_notes": ""
+    }
   },
   {
     "id": "FR-027",
-    "title": "Emprunt de la Libération. Rente française 1918...",
+    "title": "Emprunt de la Libération (Rente française 1918)",
     "date": "1918",
     "period": null,
-    "creator": null,
+    "creator": "Anônimo",
     "institution": null,
     "source_archive": "Europeana (National Library of France)",
     "country": "France",
-    "medium": "IMAGE",
-    "motif": [],
-    "description": null,
+    "medium": "Affiche lithographique en couleur",
+    "motif": [
+      "Marianne",
+      "Liberté",
+      "emprunt de la libération"
+    ],
+    "description": "Cartaz do Empréstimo da Libertação (1918), marcando a transição guerra–paz. Marianne/Liberté é invocada simultaneamente como símbolo de vitória militar e de reconstrução, em registro entre o MILITAR e o NORMATIVO.",
     "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100512528",
     "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100512528%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
     "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100512528%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
@@ -7296,34 +8149,69 @@
     "citation_abnt": null,
     "citation_chicago": null,
     "tags": [
-      "hunt-candidate",
-      "#verificar"
+      "corpus/candidato",
+      "pais/FR",
+      "suporte/cartaz",
+      "regime/militar",
+      "motivo/marianne"
     ],
     "year": 1918,
-    "medium_norm": null,
-    "country_pt": null,
-    "period_norm": null,
-    "regime": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "support": null,
-    "in_scope": null,
-    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+    "medium_norm": "Cartaz",
+    "country_pt": "França",
+    "period_norm": "III República / WWI (1914-1918)",
+    "regime": "militar",
+    "endurecimento_score": 1.7,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus-4.6-metadata",
+    "coded_at": "2026-04-03",
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null,
+    "motif_str": "Marianne, Liberté, emprunt",
+    "panofsky": {
+      "pre_iconographic": "",
+      "iconographic": "",
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Mobilização cívica e convocação patriótica — a figura de Marianne, Liberté, emprunt é instrumentalizada para fins de propaganda bélica ou financiamento de guerra em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.7). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.7): o processo de purificação é avançado — a figura perde individualidade em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* no cartaz de guerra opera entre a grandiosidade da figura alegórica e a banalidade do ato solicitado (subscrever um empréstimo, poupar). A distância entre Marianne como encarnação da Pátria e o gesto financeiro do cidadão é o espaço onde o regime MILITAR converte economia em patriotismo.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos no contexto de França (III República / WWI (1914-1918)).",
+        "analyst_notes": "Codificação por metadados — requer verificação visual via IIIF quando Gallica estiver acessível."
+      },
+      "analyst_notes": ""
+    }
   },
   {
     "id": "FR-028",
-    "title": "Prêtez à la France pour qu'elle grandisse dans le rayonnement de la Paix! On souscrit sans frais au Comptoir National d'Escompte de Paris et dans toutes ses agences.",
+    "title": "Prêtez à la France pour qu'elle grandisse dans le rayonnement de la Paix!",
     "date": "1920",
     "period": null,
-    "creator": null,
+    "creator": "Anônimo",
     "institution": null,
     "source_archive": "Europeana (National Library of France)",
     "country": "France",
-    "medium": "IMAGE",
-    "motif": [],
-    "description": null,
+    "medium": "Affiche lithographique en couleur",
+    "motif": [
+      "Marianne",
+      "France",
+      "paix",
+      "emprunt"
+    ],
+    "description": "Cartaz do Comptoir National d'Escompte de Paris (1920). \"Empreste à França para que ela cresça no esplendor da Paz!\" — Marianne é associada à Paz e ao crescimento nacional, num registro pós-bélico de transição para a normalidade institucional.",
     "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051230j",
     "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051230j%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
     "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051230j%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
@@ -7333,34 +8221,68 @@
     "citation_abnt": null,
     "citation_chicago": null,
     "tags": [
-      "hunt-candidate",
-      "#verificar"
+      "corpus/candidato",
+      "pais/FR",
+      "suporte/cartaz",
+      "regime/normativo",
+      "motivo/marianne"
     ],
     "year": 1920,
-    "medium_norm": null,
-    "country_pt": null,
-    "period_norm": null,
-    "regime": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "support": null,
-    "in_scope": null,
-    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+    "medium_norm": "Cartaz",
+    "country_pt": "França",
+    "period_norm": "III República / Pós-WWI (1918-1930)",
+    "regime": "normativo",
+    "endurecimento_score": 2.0,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus-4.6-metadata",
+    "coded_at": "2026-04-03",
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null,
+    "motif_str": "Marianne, France, Paix",
+    "panofsky": {
+      "pre_iconographic": "",
+      "iconographic": "",
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de Marianne, France, Paix serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (ENDURECIMENTO 2.0), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (2.0): o processo de purificação é avançado — a figura perde individualidade em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* em \"Prêtez à la France pour qu'elle grandisse dans le rayonnement de la Paix!\" opera entre a representação visual e a função jurídico-política — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal).",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos no contexto de França (III República / Pós-WWI (1918-1930)).",
+        "analyst_notes": "Codificação por metadados — requer verificação visual via IIIF quando Gallica estiver acessível."
+      },
+      "analyst_notes": ""
+    }
   },
   {
     "id": "FR-029",
-    "title": "Emprunt national 1920. Société centrale des banques de province.",
+    "title": "Emprunt national 1920 (Société centrale des banques de province)",
     "date": "1920",
     "period": null,
-    "creator": null,
+    "creator": "Anônimo",
     "institution": null,
     "source_archive": "Europeana (National Library of France)",
     "country": "France",
-    "medium": "IMAGE",
-    "motif": [],
-    "description": " [Gallery enrichment: Post-WWI national loan poster (Société centrale des banques de province). Related series: btv1b10051217v, btv1b100506817, btv1b100512528, btv1b10051241d, btv1b10051230j, btv1b10051244r, btv1b10051246n, btv1b100512310, btv1b100505003.]",
+    "medium": "Affiche lithographique en couleur",
+    "motif": [
+      "Marianne",
+      "emprunt national",
+      "province"
+    ],
+    "description": "Cartaz do Empréstimo Nacional de 1920, emitido pela Société centrale des banques de province. Distribuição provincial do programa de empréstimos nacionais, com Marianne como signo de unidade nacional. [Gallery enrichment: Related series ARKs: btv1b10051217v, btv1b100506817, btv1b100512528, btv1b10051241d, btv1b10051230j, btv1b10051244r, btv1b10051246n, btv1b100512310, btv1b100505003.]",
     "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100504964",
     "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100504964%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
     "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100504964%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
@@ -7370,34 +8292,69 @@
     "citation_abnt": null,
     "citation_chicago": null,
     "tags": [
-      "hunt-candidate",
-      "#verificar"
+      "corpus/candidato",
+      "pais/FR",
+      "suporte/cartaz",
+      "regime/normativo",
+      "motivo/marianne"
     ],
     "year": 1920,
-    "medium_norm": null,
-    "country_pt": null,
-    "period_norm": null,
-    "regime": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "support": null,
-    "in_scope": null,
-    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+    "medium_norm": "Cartaz",
+    "country_pt": "França",
+    "period_norm": "III República / Pós-WWI (1918-1930)",
+    "regime": "normativo",
+    "endurecimento_score": 2.0,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus-4.6-metadata",
+    "coded_at": "2026-04-03",
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null,
+    "motif_str": "Marianne, emprunt national",
+    "panofsky": {
+      "pre_iconographic": "",
+      "iconographic": "",
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de Marianne, emprunt national serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (ENDURECIMENTO 2.0), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (2.0): o processo de purificação é avançado — a figura perde individualidade em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* no cartaz de guerra opera entre a grandiosidade da figura alegórica e a banalidade do ato solicitado (subscrever um empréstimo, poupar). A distância entre Marianne como encarnação da Pátria e o gesto financeiro do cidadão é o espaço onde o regime MILITAR converte economia em patriotismo.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos no contexto de França (III República / Pós-WWI (1918-1930)).",
+        "analyst_notes": "Codificação por metadados — requer verificação visual via IIIF quando Gallica estiver acessível."
+      },
+      "analyst_notes": ""
+    }
   },
   {
     "id": "FR-030",
-    "title": "En avant Armée de l'Epargne, C'est pour la Patrie.",
+    "title": "En avant! Armée de l'Épargne, c'est pour la Patrie",
     "date": "1916",
     "period": null,
-    "creator": null,
+    "creator": "Anônimo",
     "institution": null,
     "source_archive": "Europeana (National Library of France)",
     "country": "France",
-    "medium": "IMAGE",
-    "motif": [],
-    "description": null,
+    "medium": "Affiche lithographique en couleur",
+    "motif": [
+      "Marianne",
+      "Patrie",
+      "épargne",
+      "armée"
+    ],
+    "description": "Cartaz de propaganda \"Em frente! Exército da Poupança, é pela Pátria\" (1916). Linguagem militarizada aplicada à economia de guerra — a poupança é apresentada como forma de serviço militar, com Marianne como comandante simbólica do \"exército\" dos poupadores.",
     "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100506817",
     "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100506817%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
     "url_image_download": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100506817%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
@@ -7407,21 +8364,51 @@
     "citation_abnt": null,
     "citation_chicago": null,
     "tags": [
-      "hunt-candidate",
-      "#verificar"
+      "corpus/candidato",
+      "pais/FR",
+      "suporte/cartaz",
+      "regime/militar",
+      "motivo/marianne"
     ],
     "year": 1916,
-    "medium_norm": null,
-    "country_pt": null,
-    "period_norm": null,
-    "regime": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "support": null,
-    "in_scope": null,
-    "scope_note": "Auto-discovered by hunt.py — requires manual review and IconoCode analysis"
+    "medium_norm": "Cartaz",
+    "country_pt": "França",
+    "period_norm": "III República / WWI (1914-1918)",
+    "regime": "militar",
+    "endurecimento_score": 1.8,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus-4.6-metadata",
+    "coded_at": "2026-04-03",
+    "support": "cartaz",
+    "in_scope": true,
+    "scope_note": null,
+    "motif_str": "Marianne, Patrie, épargne",
+    "panofsky": {
+      "pre_iconographic": "",
+      "iconographic": "",
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Mobilização cívica e convocação patriótica — a figura de Marianne, Patrie, épargne é instrumentalizada para fins de propaganda bélica ou financiamento de guerra em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino encontra-se em processo de instrumentalização moderada (ENDURECIMENTO 1.8). O Contrato Sexual Visual opera pela hipervisibilidade compensatória: a figura feminina é tornada onipresente como símbolo estatal precisamente na medida em que mulheres reais são excluídas da esfera pública.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "ENDURECIMENTO moderado-alto (1.8): o processo de purificação é avançado — a figura perde individualidade em favor da estabilidade semiótica institucional.",
+        "zwischenraum": "O *Zwischenraum* no cartaz de guerra opera entre a grandiosidade da figura alegórica e a banalidade do ato solicitado (subscrever um empréstimo, poupar). A distância entre Marianne como encarnação da Pátria e o gesto financeiro do cidadão é o espaço onde o regime MILITAR converte economia em patriotismo.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos no contexto de França (III República / WWI (1914-1918)).",
+        "analyst_notes": "Codificação por metadados — requer verificação visual via IIIF quando Gallica estiver acessível."
+      },
+      "analyst_notes": ""
+    }
   },
   {
     "id": "BR-011",
@@ -9351,5 +10338,6 @@
     "in_scope": true,
     "scope_note": null,
     "panofsky": null
+
   }
 ]
