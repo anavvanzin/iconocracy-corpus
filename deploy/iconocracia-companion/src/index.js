@@ -267,7 +267,7 @@ export default {
         const p = `%${q}%`; params.push(p, p, p, p);
       }
       const where = parts.length ? " WHERE " + parts.join(" AND ") : "";
-      const sql = `SELECT id, title, date, country, medium, support, regime, endurecimento_score, motif_str, tags_str, url FROM corpus_items${where} ORDER BY id`;
+      const sql = `SELECT id, title, date, country, medium, support, regime, endurecimento_score, motif_str, tags_str, url, source_archive, creator, description FROM corpus_items${where} ORDER BY id`;
       const stmt = env.CORPUS_DB.prepare(sql);
       const result = params.length ? await stmt.bind(...params).all() : await stmt.all();
       return new Response(JSON.stringify(result.results), { headers: CORS });
