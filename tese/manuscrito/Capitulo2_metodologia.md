@@ -36,7 +36,7 @@ Identifica o significado convencional: qual alegoria é representada (Marianne, 
 
 #### Nível 3 — Iconológico (interpretação jurídico-política)
 
-Interpreta o sentido profundo à luz da moldura teórica da tese: qual regime iconocrático está em operação (fundacional, normativo, militar), qual função jurídico-política a alegoria desempenha (legitimar fundação, estabilizar burocracia, projetar poder imperial), como opera o Contrato Sexual Visual, e, quando aplicável, como se manifesta a colonialidade do ver.
+Interpreta o sentido profundo à luz da moldura teórica da tese: qual regime iconocrático está em operação (FUNDACIONAL, NORMATIVO, MILITAR), qual função jurídico-política a alegoria desempenha (legitimar fundação, estabilizar burocracia, projetar poder imperial), como opera o Contrato Sexual Visual, e, quando aplicável, como se manifesta a colonialidade do ver.
 
 Para ilustrar: a gravura *L'envoyé de la Justice* de Chifflart (1859, corpus FR-003) mostra, no Nível 1, uma figura masculina alada em posição cruciforme empunhando espada, com uma figura feminina luminosa segurando tocha ao fundo, a palavra "JUSTICE" inscrita no céu. No Nível 2, identifica-se uma estrutura de *delegação*: a Justiça (feminina) permanece no registro superior como presença divina, enquanto seu enviado (masculino) executa a punição no mundo material. No Nível 3, esta imagem torna explícito o mecanismo central do Contrato Sexual Visual: a alegoria feminina *autoriza* mas não *age*; o corpo masculino *executa* a violência que o corpo feminino *legitima*. O *Zwischenraum* entre as duas figuras — a distância espacial e luminosa que separa a Justiça transcendente do Enviado material — materializa a distância conceitual entre o direito abstrato e a força concreta.
 
@@ -63,11 +63,11 @@ O **score de ENDURECIMENTO** é a média dos 10 indicadores (faixa 0,0–3,0). O
 
 #### Indicadores morfológicos vs. indicadores materiais
 
-A análise estatística do corpus (N=106, ver Capítulo 6) revelou uma distinção metodologicamente importante entre dois grupos de indicadores. Os indicadores 1–7 (*desincorporação*, *rigidez*, *dessexualização*, *uniformização*, *heraldicização*, *enquadramento*, *apagamento*) medem propriedades do *corpo representado* — são indicadores **morfológicos** cuja variação reflete escolhas iconográficas deliberadas. Os indicadores 8–10 (*monocromatização*, *serialidade*, *inscrição estatal*) medem propriedades do *suporte material* — são indicadores **materiais** cuja variação pode ser determinada pelo meio (uma gravura é necessariamente monocromática; uma moeda é necessariamente serial) tanto quanto por uma escolha ideológica.
+A análise estatística do corpus (N=106 itens codificados à data da análise, ver Capítulo 6) revelou uma distinção metodologicamente importante entre dois grupos de indicadores. Os indicadores 1–7 (*desincorporação*, *rigidez*, *dessexualização*, *uniformização*, *heraldicização*, *enquadramento*, *apagamento*) medem propriedades do *corpo representado* — são indicadores **morfológicos** cuja variação reflete escolhas iconográficas deliberadas. Os indicadores 8–10 (*monocromatização*, *serialidade*, *inscrição estatal*) medem propriedades do *suporte material* — são indicadores **materiais** cuja variação pode ser determinada pelo meio (uma gravura é necessariamente monocromática; uma moeda é necessariamente serial) tanto quanto por uma escolha ideológica.
 
-Essa distinção emergiu de forma inesperada quando dois indicadores perderam significância estatística na comparação entre regimes. A *monocromatização* apresentou p=0,056 no teste de Kruskal-Wallis sobre os três regimes; contudo, quando controlada pelo suporte material (analisando apenas gravuras), a significância foi recuperada com força (p=0,0006). O padrão subjacente é revelador: o regime militar privilegiou cartazes policromos (propaganda requer cor para mobilizar), enquanto o regime normativo privilegiou moedas e selos monocromáticos (rotinização burocrática tende ao minimalismo cromático). O indicador mede, assim, uma interação real entre ideologia e materialidade — não um artefato.
+Essa distinção emergiu de forma inesperada quando dois indicadores perderam significância estatística na comparação entre regimes. A *monocromatização* apresentou p=0,056 no teste de Kruskal-Wallis sobre os três regimes; contudo, quando controlada pelo suporte material (analisando apenas gravuras), a significância foi recuperada com força (p=0,0006). O padrão subjacente é revelador: o regime MILITAR privilegiou cartazes policromos (propaganda requer cor para mobilizar), enquanto o regime NORMATIVO privilegiou moedas e selos monocromáticos (rotinização burocrática tende ao minimalismo cromático). O indicador mede, assim, uma interação real entre ideologia e materialidade — não um artefato.
 
-O caso do *enquadramento arquitetônico* é análogo. Esculturas alemãs em edifícios públicos (corpus DE-002 a DE-011, regime fundacional) pontuam 3 por serem *inerentemente* emolduradas pela arquitetura — relevos, frontões, lareiras. Quando esses itens são excluídos, o indicador recupera significância (p=0,004), e o padrão esperado se confirma: o regime normativo enquadra mais do que o fundacional. A recomendação para futuras aplicações do protocolo é distinguir entre enquadramento *inerente* (determinado pelo suporte) e enquadramento *imposto* (introduzido deliberadamente para disciplinar a figura).
+O caso do *enquadramento arquitetônico* é análogo. Esculturas alemãs em edifícios públicos (corpus DE-002 a DE-011, regime FUNDACIONAL) pontuam 3 por serem *inerentemente* emolduradas pela arquitetura — relevos, frontões, lareiras. Quando esses itens são excluídos, o indicador recupera significância (p=0,004), e o padrão esperado se confirma: o regime NORMATIVO enquadra mais do que o FUNDACIONAL. A recomendação para futuras aplicações do protocolo é distinguir entre enquadramento *inerente* (determinado pelo suporte) e enquadramento *imposto* (introduzido deliberadamente para disciplinar a figura).
 
 ---
 
@@ -75,25 +75,25 @@ O caso do *enquadramento arquitetônico* é análogo. Esculturas alemãs em edif
 
 Os 10 indicadores não operam independentemente: eles se agrupam em perfis morfológicos característicos, que a tese denomina *regimes iconocráticos*. A análise de cluster e a comparação de medianas (Capítulo 6) confirmaram estatisticamente a existência de três regimes distintos, aos quais a análise qualitativa acrescentou um quarto.
 
-#### Regime Fundacional
+#### Regime FUNDACIONAL
 
 Alegorias em momentos constituintes: revoluções, proclamações, rupturas constitucionais. O corpo alegórico é **dinâmico**, **narrativo** e **corporalizado** — a Liberté de Delacroix nos barricadas, a Justiça de Chifflart em voo punitivo (corpus FR-001, ENDURECIMENTO 0,6), a Marianne de Steinlen empunhando espada com seio descoberto (FR-008, 0,8). O ENDURECIMENTO médio é baixo (1,13).
 
-#### Regime Normativo
+#### Regime NORMATIVO
 
 Alegorias na rotina institucional: moedas, selos, bustos cívicos, decoração de édifícios públicos. O corpo é **estático**, **dessexualizado** e **serializado** — o busto de Marianne nos 36.000 *mairies* da França (FR-009, ENDURECIMENTO 2,4) é o caso paradigmático. O formato do busto *é* a purificação: ele elimina fisicamente os membros, as mãos, o torso, reduzindo a figura a rosto + barrete + ombros — o mínimo semiótico. O ENDURECIMENTO médio é o mais alto dos quatro regimes (1,94).
 
-#### Regime Militar
+#### Regime MILITAR
 
 Alegorias em contextos bélicos e autoritários: cartazes de guerra, empréstimos nacionais, propaganda imperial. O corpo é **mobilizado** — nem revolucionário nem burocrático, mas **convocatório**. A Marianne do *3e Emprunt de la Défense nationale* (FR-007, Lelong, 1917, ENDURECIMENTO 1,8) ergue-se como estátua acima dos soldados que marcham, hierática mas investida de autoridade marcial. O ENDURECIMENTO médio (1,87) é próximo ao normativo, mas o perfil é distinto: os indicadores de *inscrição estatal* e *serialidade* são máximos (o cartaz *é* um instrumento de Estado), enquanto a *rigidez postural* é variável.
 
-Um achado inesperado dentro do regime militar: a diferença entre artistas. O cartaz de Steinlen (FR-008, 0,8) e o cartaz de Lelong (FR-007, 1,8), ambos de propaganda francesa na Primeira Guerra, diferem radicalmente. Steinlen, formado na tradição social-realista, produziu uma Marianne com seio nu, cabelo ao vento e boca aberta em grito — é a reativação (*Nachleben*) da Liberté de Delacroix para fins de mobilização. Lelong, ao contrário, petrificou Marianne em posição de estátua. O estilo individual do artista modula o ENDURECIMENTO, mesmo quando a função institucional (propaganda de guerra) é idêntica.
+Um achado inesperado dentro do regime MILITAR: a diferença entre artistas. O cartaz de Steinlen (FR-008, 0,8) e o cartaz de Lelong (FR-007, 1,8), ambos de propaganda francesa na Primeira Guerra, diferem radicalmente. Steinlen, formado na tradição social-realista, produziu uma Marianne com seio nu, cabelo ao vento e boca aberta em grito — é a reativação (*Nachleben*) da Liberté de Delacroix para fins de mobilização. Lelong, ao contrário, petrificou Marianne em posição de estátua. O estilo individual do artista modula o ENDURECIMENTO, mesmo quando a função institucional (propaganda de guerra) é idêntica.
 
 #### Contra-alegoria
 
 Imagens que subvertem deliberadamente o repertório alegórico oficial. Detectado na análise qualitativa de dois itens franceses: a *République aimable* de Félicien Rops (FR-005, 1871, ENDURECIMENTO 0,8) — uma Marianne irônica, mão na cintura, lorgnette ao rosto, inscrevendo "RES PUBLICA / THIERS / ÉTAT !" num cartucho de cadeira — e *Le hochet de la République* de Jean Veber (FR-010, c. 1904, ENDURECIMENTO 0,3) — uma Marianne grotesca, sorridente, grotescamente corpulenta, barrete frígio vermelho, abraçando um crucifixo, enquanto o título reduz a República a um *hochet* (chocalho de bebê).
 
-Estes itens resistem à classificação nos três regimes porque sua função não é legitimar, estabilizar ou mobilizar o Estado, mas *delegitimá-lo*. O ENDURECIMENTO é mínimo (média 0,55) precisamente porque a sátira recusa a purificação: o corpo permanece individual, sexualizado, expressivo, narrativo — tudo que o processo de ENDURECIMENTO elimina. A contra-alegoria demonstra, por negação, o que o regime normativo suprime.
+Estes itens resistem à classificação nos três regimes porque sua função não é legitimar, estabilizar ou mobilizar o Estado, mas *delegitimá-lo*. O ENDURECIMENTO é mínimo (média 0,55) precisamente porque a sátira recusa a purificação: o corpo permanece individual, sexualizado, expressivo, narrativo — tudo que o processo de ENDURECIMENTO elimina. A contra-alegoria demonstra, por negação, o que o regime NORMATIVO suprime.
 
 ---
 
@@ -128,7 +128,7 @@ Essas discrepâncias confirmam a necessidade da dupla codificação (metadados +
 
 ### 2.6 O corpus: composição e fontes
 
-O corpus compreende 116 imagens oficiais e semi-oficiais (106 codificadas, 10 em processo de catalogação) coletadas em 12 acervos digitais, estratificadas por país, período e suporte material.
+O corpus compreende 116 imagens oficiais e semi-oficiais coletadas em 12 acervos digitais, estratificadas por país, período e suporte material. Destas, 106 estão integralmente codificadas (10 indicadores + regime + análise Panofsky) e 10 encontram-se em processo de catalogação (FR-021 a FR-030, incorporadas ao corpus em abril de 2026).
 
 | País | N | Fontes principais |
 |------|---|------------------|
@@ -142,7 +142,7 @@ O corpus compreende 116 imagens oficiais e semi-oficiais (106 codificadas, 10 em
 | Portugal | 5 | BND Portugal |
 | Outros (IT, AT, CH, ES, UY, MX) | 13 | Diversos |
 
-Os suportes incluem gravuras/estampas (43), moedas (7), selos (3), cartazes (4), fotografias (7), pinturas/desenhos (8), monumentos e relevos categorizados como "outro" (20), e cédulas (3). A cobertura temporal estende-se de 1750 a 2000, com concentração no período 1850–1920.
+Os suportes incluem gravuras/estampas (47), pinturas/desenhos (10), moedas (9), fotografias (7), cédulas (5), cartazes (4), selos (3), iluminuras (1) e outros suportes — incluindo relevos, monumentos, frontispícios e itens em processo de classificação — (30). A cobertura temporal estende-se de 1750 a 2000, com concentração no período 1850–1920.
 
 ---
 
