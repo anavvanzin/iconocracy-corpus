@@ -16,7 +16,7 @@ def test_build_new_name_basic():
         source="BND",
         year="1891",
     )
-    assert name == "BND_1891_0001_constituicao1891.pdf"
+    assert name == "BND_1891_0001_constituicao-1891.pdf"
 
 
 def test_build_new_name_no_year():
