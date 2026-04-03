@@ -3,12 +3,13 @@ Generate an HTML quality report for low-confidence OCR pages.
 Groups by file, highlights worst pages, and provides actionable guidance.
 """
 
+import html
 import logging
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
-from config import CONFIDENCE_THRESHOLD
+import config
 
 logger = logging.getLogger(__name__)
 
@@ -56,7 +57,7 @@ def generate_quality_report(
     if not entries:
         html_parts.append(
             '<div class="ok">All pages passed the confidence threshold '
-            f'({CONFIDENCE_THRESHOLD}%). No manual review needed.</div>'
+            f'({config.CONFIDENCE_THRESHOLD}%). No manual review needed.</div>'
         )
     else:
         # Summary table
@@ -121,7 +122,7 @@ def _header(
 </head>
 <body>
 <h1>OCR Quality Report</h1>
-<p>Generated {now} &mdash; confidence threshold: <strong>{CONFIDENCE_THRESHOLD}%</strong></p>
+<p>Generated {now} &mdash; confidence threshold: <strong>{config.CONFIDENCE_THRESHOLD}%</strong></p>
 
 <div class="stats">
   <div class="stat"><div class="num">{total_files}</div><div class="label">Files processed</div></div>
@@ -146,8 +147,9 @@ def _summary_table(by_file: dict[str, list[LowConfEntry]]) -> str:
         worst = min(p.confidence for p in pages)
         page_nums = ", ".join(str(p.page_number) for p in pages)
         src = pages[0].source_institution
+        safe_fname = html.escape(fname)
         rows.append(
-            f"<tr><td>{fname}</td><td>{src}</td>"
+            f"<tr><td>{safe_fname}</td><td>{src}</td>"
             f"<td>{len(pages)}</td><td>{_confidence_badge(worst)}</td>"
             f"<td>{page_nums}</td></tr>"
         )
@@ -162,15 +164,16 @@ def _summary_table(by_file: dict[str, list[LowConfEntry]]) -> str:
 def _file_detail(fname: str, pages: list[LowConfEntry]) -> str:
     rows = []
     for p in sorted(pages, key=lambda x: x.page_number):
-        preview = p.text_preview.replace("<", "&lt;").replace(">", "&gt;")
+        preview = html.escape(p.text_preview)
         rows.append(
             f"<tr><td>{p.page_number}</td>"
             f"<td>{_confidence_badge(p.confidence)}</td>"
             f"<td>{p.word_count}</td>"
             f'<td class="preview">{preview}</td></tr>'
         )
+    safe_fname = html.escape(fname)
     return (
-        f'<div class="file-block"><h3>{fname}</h3>'
+        f'<div class="file-block"><h3>{safe_fname}</h3>'
         "<table><tr><th>Page</th><th>Confidence</th><th>Words</th>"
         "<th>Text preview</th></tr>"
         + "\n".join(rows) + "</table></div>"

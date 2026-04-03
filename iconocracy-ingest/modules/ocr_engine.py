@@ -102,7 +102,7 @@ def _ocr_single_image(
         quick_text = pytesseract.image_to_string(
             processed,
             lang="por+spa+fra+ita+eng",
-            config=f"--psm {TESSERACT_PSM}",
+            config=f"--psm {config.TESSERACT_PSM}",
         )
         detected_lang = _detect_language(quick_text)
         tess_lang = _get_tesseract_lang(detected_lang)
@@ -114,7 +114,7 @@ def _ocr_single_image(
     data = pytesseract.image_to_data(
         processed,
         lang=tess_lang,
-        config=f"--psm {TESSERACT_PSM}",
+        config=f"--psm {config.TESSERACT_PSM}",
         output_type=pytesseract.Output.DICT,
     )
 
@@ -130,7 +130,7 @@ def _ocr_single_image(
 
     text = " ".join(words)
     mean_conf = sum(confidences) / len(confidences) if confidences else 0.0
-    is_low = mean_conf < CONFIDENCE_THRESHOLD
+    is_low = mean_conf < config.CONFIDENCE_THRESHOLD
 
     return PageResult(
         page_number=page_number,
@@ -154,7 +154,7 @@ def ocr_file(filepath: Path) -> FileOCRResult:
         ext = filepath.suffix.lower()
 
         if ext == ".pdf":
-            images = convert_from_path(str(filepath), dpi=PDF_DPI)
+            images = convert_from_path(str(filepath), dpi=config.PDF_DPI)
         elif ext in {".tif", ".tiff", ".png", ".jpg", ".jpeg", ".jp2"}:
             images = [Image.open(filepath)]
         else:
