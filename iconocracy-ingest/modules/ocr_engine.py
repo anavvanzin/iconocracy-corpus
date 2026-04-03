@@ -14,14 +14,7 @@ from langdetect import detect_langs, LangDetectException
 from pdf2image import convert_from_path
 from PIL import Image
 
-from config import (
-    CONFIDENCE_THRESHOLD,
-    LANG_MAP,
-    MIN_TEXT_LENGTH,
-    PDF_DPI,
-    TARGET_LANGS,
-    TESSERACT_PSM,
-)
+import config
 
 logger = logging.getLogger(__name__)
 
@@ -58,12 +51,12 @@ def _detect_language(text: str) -> str:
     Returns ISO 639-1 code or 'und' (undetermined).
     Filters to only target languages.
     """
-    if len(text.strip()) < MIN_TEXT_LENGTH:
+    if len(text.strip()) < config.MIN_TEXT_LENGTH:
         return "und"
     try:
         results = detect_langs(text[:5000])  # use first 5000 chars for speed
         for r in results:
-            if r.lang in TARGET_LANGS:
+            if r.lang in config.TARGET_LANGS:
                 return r.lang
         # If no target language detected, return the top result anyway
         return results[0].lang if results else "und"
@@ -73,7 +66,7 @@ def _detect_language(text: str) -> str:
 
 def _get_tesseract_lang(iso_code: str) -> str:
     """Map ISO 639-1 to Tesseract language code. Falls back to por+eng."""
-    return LANG_MAP.get(iso_code, "por+eng")
+    return config.LANG_MAP.get(iso_code, "por+eng")
 
 
 def _preprocess_image(img: Image.Image) -> Image.Image:
