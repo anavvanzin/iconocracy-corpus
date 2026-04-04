@@ -1,3 +1,5 @@
 views:
-  - type: table
+  - type: cards
     name: Tabela
+    cardSize: 310
+    imageAspectRatio: 1.1
