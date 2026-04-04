@@ -45,6 +45,11 @@ VALID_REGIMES = {"fundacional", "normativo", "militar", "contra-alegoria"}
 # ---------------------------------------------------------------------------
 
 def _item_uuid(item_id: str) -> str:
+    """Generate a deterministic, stable UUID for a corpus item.
+
+    Uses uuid5 with a fixed namespace so the same item_id always produces
+    the same UUID, making migrations idempotent and records de-duplicatable.
+    """
     return str(uuid.uuid5(_NS, f"iconocracy-corpus-{item_id}"))
 
 

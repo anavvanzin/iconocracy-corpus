@@ -73,22 +73,6 @@ def _load_existing_corpus() -> dict[str, dict]:
         return {}
 
 
-def _extract_item_id(record: dict) -> str:
-    """
-    Try to extract the corpus item ID (e.g. 'BR-001') from a record.
-    It is stored in webscout.search_results[0].notes or can be inferred
-    from iconocode interpretation claims. As a fallback use item_id (UUID).
-    """
-    # The migration sets a predictable UUID via uuid5; we can't reverse it easily.
-    # Instead look in interpretation for an ID pattern.
-    for claim in record.get("iconocode", {}).get("interpretation", []):
-        text = claim.get("claim_text", "")
-        if text.startswith("Regime iconocrático:"):
-            continue
-    # Best: check if we have an existing corpus entry that matches by input_url
-    return ""  # fallback — caller will use url-matching
-
-
 def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
     """Build a corpus-data.json entry from a master record, merging with existing."""
     inp = record.get("input", {})

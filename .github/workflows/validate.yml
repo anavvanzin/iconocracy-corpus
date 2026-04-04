@@ -36,12 +36,14 @@ jobs:
       - name: Check records.jsonl / corpus-data.json consistency
         run: |
           RECORDS=$(python3 -c "
-          lines = [l for l in open('data/processed/records.jsonl') if l.strip()]
+          with open('data/processed/records.jsonl') as f:
+              lines = [l for l in f if l.strip()]
           print(len(lines))
           ")
           CORPUS=$(python3 -c "
           import json
-          data = json.load(open('corpus/corpus-data.json'))
+          with open('corpus/corpus-data.json') as f:
+              data = json.load(f)
           print(len(data))
           ")
           echo "records.jsonl: $RECORDS items | corpus-data.json: $CORPUS items"

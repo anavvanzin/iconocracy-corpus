@@ -26,7 +26,6 @@ import sys
 import uuid
 from datetime import date, datetime, timezone
 from pathlib import Path
-from typing import Any
 
 REPO = Path(__file__).resolve().parent.parent.parent
 RECORDS = REPO / "data" / "processed" / "records.jsonl"
@@ -51,18 +50,22 @@ COUNTRY_NAMES: dict[str, str] = {
 CORPUS_ID_RE = re.compile(r"^[A-Z]{2,4}-[A-Z0-9]+$")
 # SCOUT ID pattern
 SCOUT_ID_RE = re.compile(r"^SCOUT-(\d+)$")
+# Characters invalid in filenames (Windows + POSIX common subset)
+_INVALID_FILENAME_CHARS = re.compile(r'[<>:"/\\|?*\[\]]')
+# Confidence label → float mapping
+_CONFIDENCE_LEVELS = {"alto": 0.85, "medio": 0.65, "baixo": 0.45, "muito-baixo": 0.25}
 
 
 # ---------------------------------------------------------------------------
 # YAML frontmatter parser (minimal, no deps)
 # ---------------------------------------------------------------------------
 
-def _parse_frontmatter(text: str) -> dict[str, Any]:
+def _parse_frontmatter(text: str) -> dict:
     """
     Parse YAML frontmatter between --- delimiters.
     Returns a dict with string/list values (best-effort, no full YAML parser needed).
     """
-    fm: dict[str, Any] = {}
+    fm: dict = {}
     if not text.startswith("---"):
         return fm
     end = text.find("\n---", 3)
@@ -229,9 +232,7 @@ def _vault_note_to_record(fm: dict) -> dict:
     # Purification
     regime = _note_regime(fm)
     confianca_str = str(fm.get("confianca") or "").lower()
-    confidence = {"alto": 0.85, "medio": 0.65, "baixo": 0.45, "muito-baixo": 0.25}.get(
-        confianca_str, 0.5
-    )
+    confidence = _CONFIDENCE_LEVELS.get(confianca_str, 0.5)
 
     # ABNT citation if present
     abnt = str(fm.get("citation_abnt") or "")
@@ -313,7 +314,7 @@ def _vault_note_to_record(fm: dict) -> dict:
 # ---------------------------------------------------------------------------
 
 def _sanitize_filename(title: str, max_len: int = 60) -> str:
-    clean = re.sub(r'[<>:"/\\|?*\[\]]', "", title)
+    clean = _INVALID_FILENAME_CHARS.sub("", title)
     clean = clean.replace("\n", " ").strip()
     if len(clean) > max_len:
         clean = clean[:max_len].rsplit(" ", 1)[0]
@@ -504,13 +505,16 @@ def cmd_pull(dry_run: bool = False) -> None:
         if title and title in title_idx:
             continue
 
-        # Only import notes with a URL or a corpus-style ID
+        # Only import notes that have a verifiable anchor:
+        # - a corpus-style ID (BR-001, FR-013, etc.) ensures traceability to corpus, OR
+        # - a URL provides direct evidence linkage.
+        # SCOUT-NNN notes without either are speculative candidates only — skip.
         note_id = _note_id(note)
         has_corpus_id = CORPUS_ID_RE.match(note_id)
         has_url = bool(url)
 
         if not has_corpus_id and not has_url:
-            continue  # SCOUT-NNN candidates without URL: skip
+            continue  # no anchor — skip speculative SCOUT note
 
         rec = _vault_note_to_record(note)
         if dry_run:
