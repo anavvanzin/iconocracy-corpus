@@ -31,65 +31,143 @@ COUNTRY_NAMES = {
     "US": "United States", "BE": "Belgium", "BR": "Brazil",
 }
 
+# Known engravers/artists of allegorical state imagery
+KNOWN_CREATORS = [
+    "Oscar Roty", "Louis-Oscar Roty", "Roty",
+    "Daniel Dupuis", "Jean-Baptiste Daniel-Dupuis",
+    "Chaplain", "Jules-Clément Chaplain",
+    "Augustin Dupré", "Dupré",
+    "Louis Merley", "Merley",
+    "Alphée Dubois",
+    "Lindauer",
+    "Pierre-Alexandre Morlon", "Morlon",
+    "Leonhard Posch",
+    "Karl Friedrich Schinkel",
+    "Benedetto Pistrucci", "Pistrucci",
+    "George William de Saulles",
+    "Christian Gobrecht", "Gobrecht",
+    "Augustus Saint-Gaudens", "Saint-Gaudens",
+    "Adolph Weinman", "Weinman",
+    "Eliseu Visconti",
+    "Girardet",
+    "Godefroid Devreese",
+]
+
 # ─── Query Matrix ──────────────────────────────────────────────────────────
 
 QUERY_MATRIX = {
     "FR": {
         "motifs": ["Marianne", "République allégorie", "Semeuse",
-                   "Justice allégorie femme", "Liberté figure féminine"],
+                   "Justice allégorie femme", "Liberté figure féminine",
+                   "Roty Semeuse", "Chaplain République", "Dupré Liberté"],
         "europeana_qf": (
             'what:"allégorie" AND '
             '(what:"République" OR what:"Marianne" OR what:"Justice")'
         ),
+        "europeana_alt": [
+            'what:"Semeuse" AND (what:"monnaie" OR what:"timbre")',
+            'what:"Marianne" AND (what:"buste" OR what:"sculpture" OR what:"monnaie")',
+            '(what:"Roty" OR what:"Chaplain" OR what:"Dupré") AND what:"République"',
+        ],
         "gallica_sru": (
             '(dc.subject all "allégorie") and '
             '(dc.subject all "République" or dc.subject all "Marianne")'
         ),
+        "gallica_alt": [
+            '(dc.subject all "Semeuse")',
+            '(dc.subject all "Justice") and (dc.subject all "allégorie")',
+            '(dc.subject all "Marianne") and (dc.type all "image")',
+        ],
         "loc_query": None,
+        "met_query": "Marianne allegory Republic France",
+        "va_query": None,
     },
     "BR": {
         "motifs": ["República alegoria", "Efígie República",
-                   "Justiça alegoria", "Liberdade figura feminina"],
+                   "Justiça alegoria", "Liberdade figura feminina",
+                   "Eliseu Visconti República", "moeda República efígie"],
         "europeana_qf": 'what:"alegoria" AND what:"República"',
-        "gallica_sru": None,
-        "loc_query": None,
+        "europeana_alt": [
+            'what:"República" AND (what:"moeda" OR what:"selo" OR what:"monumento")',
+            'what:"Brasil" AND (what:"alegoria" OR what:"Republic")',
+        ],
+        "gallica_sru": '(dc.subject all "Brésil") and (dc.subject all "République" or dc.subject all "allégorie")',
+        "gallica_alt": [
+            '(dc.title all "Brésil") and (dc.type all "image")',
+        ],
+        "loc_query": "Brazil Republic allegory OR Brazil female figure statue",
+        "met_query": "Brazil Republic allegory",
+        "va_query": None,
     },
     "UK": {
         "motifs": ["Britannia", "Justice allegory",
-                   "Liberty figure female"],
+                   "Liberty figure female", "Pistrucci Britannia",
+                   "Britannia coin penny", "Justice Old Bailey"],
         "europeana_qf": (
             'what:"Britannia" OR '
             '(what:"Justice" AND what:"allegory")'
         ),
+        "europeana_alt": [
+            'what:"Britannia" AND (what:"coin" OR what:"penny" OR what:"medal")',
+        ],
         "gallica_sru": None,
         "loc_query": "Britannia allegory OR Justice female figure",
+        "met_query": "Britannia allegory coin",
+        "va_query": "Britannia allegory",
     },
     "DE": {
         "motifs": ["Germania Allegorie", "Justitia",
-                   "Freiheit Figur"],
+                   "Freiheit Figur", "Germania Münze",
+                   "Justitia Schwert Waage", "Germania Wacht am Rhein"],
         "europeana_qf": 'what:"Germania" AND what:"Allegorie"',
+        "europeana_alt": [
+            'what:"Justitia" AND (what:"Allegorie" OR what:"Gerechtigkeit")',
+            'what:"Germania" AND (what:"Münze" OR what:"Medaille" OR what:"Denkmal")',
+        ],
         "gallica_sru": None,
         "loc_query": "Germania allegory",
+        "met_query": "Germania allegory OR Justitia allegory German",
+        "va_query": None,
     },
     "US": {
         "motifs": ["Columbia allegory", "Liberty seated",
-                   "Justice female figure", "Freedom statue"],
-        "europeana_qf": None,
+                   "Justice female figure", "Freedom statue",
+                   "Saint-Gaudens Liberty", "Weinman Liberty",
+                   "Gobrecht dollar seated", "Columbia coin"],
+        "europeana_qf": '(what:"Columbia" OR what:"Liberty") AND what:"allegory"',
+        "europeana_alt": [
+            'what:"Liberty" AND (what:"coin" OR what:"dollar" OR what:"medal")',
+        ],
         "gallica_sru": None,
         "loc_query": (
             "Columbia allegory female OR "
             "Liberty seated figure OR "
             "Justice female allegory"
         ),
+        "loc_alt": [
+            "seated Liberty coin dollar",
+            "Columbia personification",
+            "Freedom statue Capitol",
+            "Saint-Gaudens Liberty gold",
+        ],
+        "met_query": "Liberty allegory seated coin OR Columbia allegory",
+        "va_query": None,
     },
     "BE": {
         "motifs": ["Belgique allégorie", "Justice Palais Bruxelles",
-                   "Belgica figure"],
+                   "Belgica figure", "Devreese Belgique",
+                   "Justice Palais de Justice Bruxelles"],
         "europeana_qf": (
             'what:"Belgique" AND what:"allégorie"'
         ),
+        "europeana_alt": [
+            '(what:"Belgique" OR what:"Belgica") AND (what:"monnaie" OR what:"médaille")',
+            'what:"Justice" AND what:"Bruxelles"',
+        ],
         "gallica_sru": None,
         "loc_query": None,
+        "met_query": None,
+        "va_query": None,
     },
 }
 
@@ -130,6 +208,8 @@ ALLEGORY_KW = [
     "allegory", "allégorie", "alegoria", "allegorie",
     "personification", "personificação", "personnification",
     "allegorical", "allégorique",
+    "female figure", "figure féminine", "figura feminina",
+    "weibliche figur",
 ]
 
 MOTIF_KW = [
@@ -137,6 +217,8 @@ MOTIF_KW = [
     "belgica", "república", "republic", "république", "republik",
     "justitia", "justice", "justiça", "semeuse",
     "liberté", "liberty", "liberdade", "freiheit",
+    "minerva", "athena", "pallas", "ceres", "fortuna",
+    "seated liberty", "standing liberty", "walking liberty",
 ]
 
 LEGAL_STATE_KW = [
@@ -423,6 +505,297 @@ def harvest_loc(country, query_str, support=None, period=None, limit=50):
     return results
 
 
+def harvest_met(country, query_str, support=None, period=None, limit=50):
+    """Query Metropolitan Museum of Art Open Access API."""
+    if not query_str:
+        return []
+
+    params = {"hasImages": "true", "q": query_str}
+    if period:
+        y1, y2 = _parse_period(period)
+        if y1 and y2:
+            params["dateBegin"] = str(y1)
+            params["dateEnd"] = str(y2)
+
+    url = f"https://collectionapi.metmuseum.org/public/collection/v1/search?{urllib.parse.urlencode(params)}"
+    log(f"  [met/{country}] {url[:120]}...")
+
+    data = fetch_json(url)
+    if not data or not data.get("objectIDs"):
+        log(f"    -> 0 results")
+        return []
+
+    object_ids = data["objectIDs"][:min(limit, 30)]  # cap detail fetches
+    log(f"    -> {data.get('total', 0)} total, fetching {len(object_ids)} details...")
+
+    results = []
+    for oid in object_ids:
+        obj_url = f"https://collectionapi.metmuseum.org/public/collection/v1/objects/{oid}"
+        obj = fetch_json(obj_url)
+        if not obj:
+            continue
+
+        # Skip if not public domain and no image
+        primary_image = obj.get("primaryImage", "")
+        if not primary_image:
+            continue
+
+        title = obj.get("title", "")
+        creator = obj.get("artistDisplayName", "")
+        date_str = obj.get("objectDate", "")
+        medium = obj.get("medium", "")
+        department = obj.get("department", "")
+
+        results.append({
+            "title": title,
+            "url": obj.get("objectURL", ""),
+            "thumbnail_url": obj.get("primaryImageSmall", primary_image),
+            "description": f"{medium}. {department}." if medium else "",
+            "creator": creator,
+            "institution": "The Metropolitan Museum of Art",
+            "date": date_str,
+            "rights": "Public Domain" if obj.get("isPublicDomain") else obj.get("rightsAndReproduction", ""),
+            "source_archive": "Met Museum",
+            "hunt_source": "met",
+        })
+
+        time.sleep(0.15)  # Met rate limit: ~80 req/s but be polite
+
+    log(f"    -> {len(results)} with images")
+    return results
+
+
+def harvest_va(country, query_str, support=None, period=None, limit=50):
+    """Query Victoria & Albert Museum API v2."""
+    if not query_str:
+        return []
+
+    params = {
+        "q": query_str,
+        "images_exist": "true",
+        "page_size": str(min(limit, 50)),
+        "page": "1",
+    }
+    if period:
+        y1, y2 = _parse_period(period)
+        if y1 and y2:
+            params["year_made_from"] = str(y1)
+            params["year_made_to"] = str(y2)
+
+    url = f"https://api.vam.ac.uk/v2/objects/search?{urllib.parse.urlencode(params)}"
+    log(f"  [va/{country}] {url[:120]}...")
+
+    data = fetch_json(url)
+    if not data:
+        return []
+
+    results = []
+    for record in data.get("records", []):
+        obj_type = record.get("objectType", "")
+        primary_title = record.get("_primaryTitle", "")
+        title = primary_title if primary_title else obj_type
+        place = record.get("_primaryPlace", "")
+
+        # V&A image URL
+        images = record.get("_images", {})
+        primary = images.get("_primary_thumbnail", "")
+        iiif = images.get("_iiif_image_base_url", "")
+        thumb = primary
+        if iiif:
+            thumb = f"{iiif}full/400,/0/default.jpg"
+
+        maker = ""
+        maker_data = record.get("_primaryMaker", {})
+        if isinstance(maker_data, dict):
+            maker = maker_data.get("name", "")
+
+        date_str = record.get("_primaryDate", "")
+
+        # Build richer description from sparse V&A data
+        desc_parts = [obj_type, place, f"query: {query_str}"]
+        description = ". ".join(p for p in desc_parts if p)
+
+        results.append({
+            "title": title,
+            "url": f"https://collections.vam.ac.uk/item/{record.get('systemNumber', '')}",
+            "thumbnail_url": thumb,
+            "description": description,
+            "creator": maker,
+            "institution": "Victoria and Albert Museum",
+            "date": date_str,
+            "rights": "",
+            "source_archive": "V&A Museum",
+            "hunt_source": "va",
+        })
+
+    log(f"    -> {len(results)} results")
+    return results
+
+
+# ─── Auto-enrichment ──────────────────────────────────────────────────────
+
+# Regime classification keywords (from enrich_urls_and_regime.py)
+_FUNDACIONAL_KW = [
+    "revolution", "revolução", "founding", "fundação", "independence",
+    "independência", "constitution", "constituição", "phrygian",
+    "broken chains", "fasces", "torch", "tocha", "proclamation",
+    "semi-nude", "bare breast", "dynamic", "charging", "leading",
+    "bastille", "commune", "republic proclaimed",
+]
+_MILITAR_KW = [
+    "helmet", "elmo", "capacete", "shield", "escudo", "sword", "espada",
+    "armor", "armour", "war", "guerra", "military", "militar",
+    "colonial", "empire", "império", "imperial", "lion", "eagle",
+    "águia", "cannon", "propaganda", "wwi", "wwii", "world war",
+    "notgeld",
+]
+_NORMATIVO_KW = [
+    "stamp", "selo", "timbre", "coin", "moeda", "monnaie", "münze",
+    "seated", "sentada", "scales", "balança", "blindfold", "venda",
+    "book", "livro", "laurel", "cornucopia", "semeuse", "standard",
+    "definitive", "frontal", "static", "official", "circulante",
+]
+
+_WAR_YEARS = set(range(1914, 1919)) | set(range(1939, 1946))
+_FOUNDING_YEARS = {1789, 1792, 1793, 1830, 1848, 1870, 1871, 1889}
+
+
+def classify_regime(candidate):
+    """Lightweight regime classification for hunt candidates."""
+    text = f"{candidate.get('title', '')} {candidate.get('description', '')}".lower()
+    year = candidate.get("year") or 0
+
+    scores = {"fundacional": 0, "normativo": 0, "militar": 0}
+    for kw in _FUNDACIONAL_KW:
+        if kw in text:
+            scores["fundacional"] += 1
+    for kw in _MILITAR_KW:
+        if kw in text:
+            scores["militar"] += 1
+    for kw in _NORMATIVO_KW:
+        if kw in text:
+            scores["normativo"] += 1
+
+    if year in _FOUNDING_YEARS:
+        scores["fundacional"] += 3
+    elif year in _WAR_YEARS:
+        scores["militar"] += 3
+
+    best = max(scores, key=scores.get)
+    if scores[best] == 0:
+        return None
+    return best
+
+
+def infer_support(candidate):
+    """Infer support type from title/description/medium."""
+    text = f"{candidate.get('title', '')} {candidate.get('description', '')}".lower()
+    if any(w in text for w in ["coin", "moeda", "monnaie", "münze", "penny", "franc", "dollar", "pfennig", "réis"]):
+        return "moeda"
+    if any(w in text for w in ["stamp", "selo", "timbre", "postage"]):
+        return "selo"
+    if any(w in text for w in ["monument", "statue", "sculpture", "monumento", "estátua", "denkmal"]):
+        return "monumento"
+    if any(w in text for w in ["print", "engraving", "gravure", "estampa", "etching", "lithograph"]):
+        return "estampa"
+    if any(w in text for w in ["frontispiece", "frontispice", "frontispício"]):
+        return "frontispicio"
+    if any(w in text for w in ["banknote", "paper money", "billet", "cédula", "papel-moeda"]):
+        return "papel-moeda"
+    if any(w in text for w in ["poster", "affiche", "cartaz", "propaganda"]):
+        return "cartaz"
+    if any(w in text for w in ["medal", "médaille", "medalha", "medaille"]):
+        return "medalha"
+    return None
+
+
+def infer_motifs(candidate):
+    """Extract likely motif tags from title/description."""
+    text = f"{candidate.get('title', '')} {candidate.get('description', '')}".lower()
+    motifs = []
+    motif_map = {
+        "marianne": "Marianne",
+        "semeuse": "Semeuse",
+        "britannia": "Britannia",
+        "columbia": "Columbia",
+        "germania": "Germania",
+        "belgique": "Belgique",
+        "belgica": "Belgica",
+        "justitia": "Justitia",
+        "justice": "Justice",
+        "liberté": "Liberté",
+        "liberty": "Liberty",
+        "liberdade": "Liberdade",
+        "freiheit": "Freiheit",
+        "república": "República",
+        "republic": "Republic",
+        "république": "République",
+        "minerva": "Minerva",
+        "athena": "Athena",
+        "pallas": "Pallas",
+        "ceres": "Ceres",
+        "fortuna": "Fortuna",
+        "seated liberty": "Seated Liberty",
+        "standing liberty": "Standing Liberty",
+        "walking liberty": "Walking Liberty",
+    }
+    for kw, label in motif_map.items():
+        if kw in text and label not in motifs:
+            motifs.append(label)
+    return motifs
+
+
+def generate_abnt_citation(candidate):
+    """Generate a basic ABNT NBR 6023:2025 citation for a hunt candidate."""
+    parts = []
+
+    creator = candidate.get("creator", "")
+    if creator:
+        # Simple surname inversion
+        name_parts = creator.strip().split()
+        if len(name_parts) > 1:
+            parts.append(f"{name_parts[-1].upper()}, {' '.join(name_parts[:-1])}.")
+        else:
+            parts.append(f"{creator.upper()}.")
+
+    title = candidate.get("title", "")
+    if title:
+        parts.append(f"**{title}**.")
+
+    date_str = candidate.get("date", "")
+    if date_str:
+        parts.append(f"{date_str}.")
+
+    institution = candidate.get("institution", "")
+    if institution:
+        parts.append(f"{institution}.")
+
+    url = candidate.get("url", "")
+    if url:
+        parts.append(f"Disponível em: {url}.")
+        parts.append(f"Acesso em: {date.today().strftime('%d %b. %Y')}.")
+
+    return " ".join(parts)
+
+
+def enrich_candidate(candidate):
+    """Auto-enrich a candidate with regime, support, motifs, citation."""
+    candidate["regime"] = classify_regime(candidate)
+    candidate["support"] = infer_support(candidate)
+    candidate["motif"] = infer_motifs(candidate)
+    candidate["citation_abnt"] = generate_abnt_citation(candidate)
+
+    # Add creator-based tags
+    creator = (candidate.get("creator") or "").lower()
+    for known in KNOWN_CREATORS:
+        if known.lower() in creator:
+            if "known-creator" not in candidate["tags"]:
+                candidate["tags"].append("known-creator")
+            break
+
+    return candidate
+
+
 # ─── Helpers ───────────────────────────────────────────────────────────────
 
 def _xml_text(parent, tag, ns):
@@ -598,6 +971,48 @@ def run_hunt(countries, archives, support, period, limit, dry_run=False):
                                        support, period, limit)
                 country_results.extend(results)
                 time.sleep(0.5)
+                # LoC alt queries
+                for alt_q in qm.get("loc_alt", []):
+                    results = harvest_loc(cc, alt_q, support, period,
+                                           max(10, limit // 3))
+                    country_results.extend(results)
+                    time.sleep(0.5)
+
+        # Met Museum
+        if "met" in archives and qm.get("met_query"):
+            if dry_run:
+                log(f"  [DRY-RUN] met/{cc}: {qm['met_query'][:80]}")
+            else:
+                results = harvest_met(cc, qm["met_query"],
+                                       support, period, limit)
+                country_results.extend(results)
+                time.sleep(0.5)
+
+        # V&A Museum
+        if "va" in archives and qm.get("va_query"):
+            if dry_run:
+                log(f"  [DRY-RUN] va/{cc}: {qm['va_query'][:80]}")
+            else:
+                results = harvest_va(cc, qm["va_query"],
+                                      support, period, limit)
+                country_results.extend(results)
+                time.sleep(0.5)
+
+        # Europeana alt queries
+        if "europeana" in archives and not dry_run:
+            for alt_q in qm.get("europeana_alt", []):
+                results = harvest_europeana(cc, alt_q, support, period,
+                                             max(10, limit // 3))
+                country_results.extend(results)
+                time.sleep(0.5)
+
+        # Gallica alt queries
+        if "gallica" in archives and not dry_run:
+            for alt_q in qm.get("gallica_alt", []):
+                results = harvest_gallica(cc, alt_q, support, period,
+                                           max(10, limit // 3))
+                country_results.extend(results)
+                time.sleep(0.5)
 
         all_raw.extend(country_results)
 
@@ -613,6 +1028,7 @@ def run_hunt(countries, archives, support, period, limit, dry_run=False):
                 continue
             query_used = r.get("hunt_source", "")
             candidate = make_candidate(r, cc, seq, query_used)
+            enrich_candidate(candidate)
             all_candidates.append(candidate)
             # Add to dedup index
             t = _normalize(candidate["title"])[:40]
@@ -683,7 +1099,7 @@ def main():
     if args.archive:
         archives = [a.strip().lower() for a in args.archive.split(",")]
     else:
-        archives = ["europeana", "gallica", "loc"]
+        archives = ["europeana", "gallica", "loc", "met", "va"]
 
     log(f"ICONOCRACIA Hunt — {date.today()}")
     log(f"Countries: {countries} | Archives: {archives}")
