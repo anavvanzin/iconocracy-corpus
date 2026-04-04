@@ -560,7 +560,10 @@ function App(){
     {/* HEADER */}
     <div style={{background:"var(--navy)",padding:"22px 20px 16px",borderBottom:"3px solid var(--gold)"}}>
       <div style={{maxWidth:920,margin:"0 auto"}}>
-        <div className="mono" style={{color:"var(--gold)",fontSize:10,letterSpacing:4,textTransform:"uppercase"}}>Companheiro de Pesquisa · PPGD/UFSC</div>
+        <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+          <div className="mono" style={{color:"var(--gold)",fontSize:10,letterSpacing:4,textTransform:"uppercase"}}>Companheiro de Pesquisa · PPGD/UFSC</div>
+          <a href="/painel.html" className="mono" style={{color:"var(--gold)",fontSize:10,letterSpacing:2,textDecoration:"none",border:"1px solid rgba(196,162,101,.4)",padding:"3px 10px",borderRadius:2,transition:"all .2s"}} onMouseEnter={e=>{e.target.style.background="rgba(196,162,101,.15)";e.target.style.borderColor="var(--gold)"}} onMouseLeave={e=>{e.target.style.background="transparent";e.target.style.borderColor="rgba(196,162,101,.4)"}}>🎮 PAINEL DA TESE</a>
+        </div>
         <h1 style={{margin:"4px 0 0",fontSize:28,fontWeight:700,color:"var(--cream)",letterSpacing:2}}>ICONOCRACIA</h1>
         <div style={{color:"var(--lightSepia)",fontSize:14,fontStyle:"italic"}}>Alegoria Feminina na História da Cultura Jurídica</div>
       </div>
