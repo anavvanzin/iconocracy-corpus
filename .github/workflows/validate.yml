@@ -23,8 +23,32 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Validate schemas
-        run: python tools/scripts/validate_schemas.py
+      - name: Check records.jsonl exists
+        run: |
+          if [ ! -f data/processed/records.jsonl ]; then
+            echo "::error::data/processed/records.jsonl not found — run csv_to_records.py to generate it"
+            exit 1
+          fi
+
+      - name: Validate records.jsonl against master-record schema
+        run: python tools/scripts/validate_schemas.py data/processed/records.jsonl --schema master-record --verbose
+
+      - name: Check records.jsonl / corpus-data.json consistency
+        run: |
+          RECORDS=$(python3 -c "
+          lines = [l for l in open('data/processed/records.jsonl') if l.strip()]
+          print(len(lines))
+          ")
+          CORPUS=$(python3 -c "
+          import json
+          data = json.load(open('corpus/corpus-data.json'))
+          print(len(data))
+          ")
+          echo "records.jsonl: $RECORDS items | corpus-data.json: $CORPUS items"
+          if [ "$RECORDS" -eq 0 ]; then
+            echo "::error::records.jsonl is empty"
+            exit 1
+          fi
 
       - name: Reject binary files in data/raw/
         run: |
@@ -34,3 +58,4 @@ jobs:
             echo "$BINARIES"
             exit 1
           fi
+

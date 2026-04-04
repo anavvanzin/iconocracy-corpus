@@ -57,7 +57,7 @@
         "purificacao_composto":       { "type": "number", "minimum": 0, "maximum": 3 },
         "regime_iconocratico": {
           "type": "string",
-          "enum": ["fundacional", "normativo", "militar"]
+          "enum": ["fundacional", "normativo", "militar", "contra-alegoria"]
         },
         "coded_by":   { "type": "string" },
         "coded_at":   { "type": "string", "format": "date-time" },
