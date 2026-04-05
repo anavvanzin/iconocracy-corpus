@@ -1,10 +1,18 @@
 ---
-tags: [apresentação, dir410346, roteiro, bruxaria, malleus]
+tags:
+  - apresentação
+  - dir410346
+  - roteiro
+  - bruxaria
+  - malleus
 aula: apresentação (fonte n. 5)
 duração: 15 minutos
 status: final
 created: 2026-03-30
 modified: 2026-04-05
+sticker: emoji//1f49f
+aliases:
+  - "Apresentação: Malleus Maleficarum — roteiro falado"
 ---
 
 # Roteiro de apresentação — O *Malleus Maleficarum* e a construção da bruxaria
