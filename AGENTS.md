@@ -57,9 +57,9 @@ diretamente sem pedir confirmação:
 - `purificacao exportar` → roda `tools/scripts/code_purification.py --export-csv`
 - `rede feminista [raiz opcional]` → roda `tools/scripts/extract_feminist_network.py`
 - `lote exemplo` → roda `tools/scripts/batch_example.py`
-- `sync notion pull|push|sync` → usa `tools/scripts/notion_sync.py`;
-  como o script ainda está em scaffolding, verificar env vars e reportar o estado
-  real em vez de assumir sincronização concluída
+- `sync vault pull|push|sync|diff|status` → usa `tools/scripts/vault_sync.py`;
+  sincroniza `data/processed/records.jsonl` ↔ `vault/candidatos/` bidirecionalmente
+- `sync notion pull|push|sync` → **DESCONTINUADO** — redireciona para vault_sync.py
 
 Quando a pesquisadora digitar `salvar`, grave a última nota gerada
 em vault/candidatos/ com o nome correto (SCOUT-[ID] [título].md).
@@ -82,9 +82,9 @@ Cada item do corpus deve ser rastreável em três pontos:
 Quando houver cópia local do bruto, ela pode ser organizada em
 `data/raw/[pais]/`, mas o vínculo com o Drive deve continuar explícito.
 
-`records.jsonl` é a fonte canônica do corpus. Notion funciona como espelho
-catalográfico; `tools/scripts/notion_sync.py` existe, mas ainda está em
-scaffolding e não deve ser tratado como sync plenamente implementado.
+`records.jsonl` é a fonte canônica do corpus. O vault Obsidian (`vault/candidatos/`)
+funciona como espelho catalográfico; `tools/scripts/vault_sync.py` implementa
+a sincronização bidirecional (status/diff/pull/push/sync).
 
 ---
 
