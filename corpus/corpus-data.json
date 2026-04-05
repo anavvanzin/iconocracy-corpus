@@ -6180,7 +6180,6 @@
     "motif_str": "Liberté, Bonnet phrygien, Fasces",
     "tags_str": "Liberty, Phrygian cap, fasces, serpent, Revolution, France",
     "regime": "fundacional",
-    "endurecimiento_score": 1.5,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -6216,7 +6215,8 @@
         "colonialidade_do_ver": "White sculptural body as universal register of freedom — racialized exclusion through aesthetic universalism"
       },
       "analyst_notes": "Strong sculptural presence. Desincorporação=2 because of heavy classicizing that removes corporeal individuality. Fasces + inscription = heraldization. Transitional toward normativo but still foundational energy in the raised arm."
-    }
+    },
+    "endurecimento_score": 1.5
   },
   {
     "id": "FR-039",
