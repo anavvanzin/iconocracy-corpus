@@ -2,8 +2,9 @@
 tags: [handout, dir410346, apresentação, baixo-medieval, inquisição, bruxaria, gênero]
 aula: apresentação (fonte n. 5)
 data: 2026-04-06
-status: rascunho
+status: final
 created: 2026-03-30
+modified: 2026-04-05
 ---
 
 # O *Malleus Maleficarum* e a construção da bruxaria como categoria jurídico-penal
@@ -21,65 +22,62 @@ O texto não nasce de especulação abstrata, mas de um **fracasso judicial conc
 
 **Estrutura:** Parte I: demonstração da existência e gravidade da bruxaria. Parte II: formas e poderes das bruxas. Parte III: procedimento judicial para detecção e punição.
 
-**Referência:** BROEDEL, Hans Peter. *The Malleus Maleficarum and the construction of witchcraft: theology and popular belief in the late Middle Ages*. Manchester: Manchester University Press, 2003.
+**Referência:** BROEDEL, Hans Peter. *The Malleus Maleficarum and the construction of witchcraft*: theology and popular belief in the late Middle Ages. Manchester: Manchester University Press, 2003.
 
 ---
 
-## 2. Três estudos de caso
+## 2. Estudo de caso: do *Malleus* à Bahia colonial
 
-### Caso 1. Helena Scheuberin (Innsbruck, Tirol, 1485)
+### 2.1. O caso que originou o *Malleus*: Helena Scheuberin (Innsbruck, 1485)
 
-**Fonte:** Registros episcopais de Brixen, editados por Hartmann Ammann (1890); análise em Broedel (2003, cap. 1).
+Em 29 de outubro de 1485, Helena Scheuberin, esposa de um *Bürger* de Innsbruck, foi interrogada pelo inquisidor Institoris sob acusações de homicídio por *maleficium* e desobediência à autoridade eclesiástica. Institoris abriu o interrogatório pela **vida sexual** da ré, sustentando que "todas as feiticeiras foram escravas da luxúria carnal desde a juventude." Os comissários episcopais consideraram as perguntas impróprias, autorizaram um **advogado de defesa** e **anularam o processo** por vícios procedimentais. Institoris retirou-se para Colônia e começou a redigir o *Malleus*.
 
-**Os fatos.** Em 29 de outubro de 1485, Helena Scheuberin, esposa de um *Bürger* próspero de Innsbruck, foi interrogada num tribunal composto por representantes do bispo Georg Golser de Brixen, teólogos, dominicanos e o inquisidor Institoris. As acusações:
+O episódio revela: (a) a jurisdição sobre a bruxaria era **contestada** entre inquisidor papal e autoridade episcopal; (b) coexistiam **duas construções distintas do tipo penal**: *maleficium* verificável vs. sexualidade como prova de bruxaria; (c) o processo inquisitorial comportava mecanismos de controle, complexificando a narrativa de arbítrio puro.
+
+### 2.2. O caso focal: Maria Gonçalves Cajada, "Arde-lhe-o-Rabo" (Salvador da Bahia, 1591–1593)
+
+**Fontes primárias.** O processo individual de Maria Gonçalves Cajada encontra-se no Arquivo Nacional da Torre do Tombo: **ANTT, Tribunal do Santo Ofício, Inquisição de Lisboa, processo nº 10748**, digitalizado em digitarq.arquivos.pt. As denunciações que a envolvem constam do **Livro 2º das denunciações da visitação do Santo Ofício na Cidade do Salvador da Baía de Todos os Santos** (cota: PT-TT-TSO-IL-038-0784; Digitarq ID: 2318687). As confissões estão no livro de cota PT/TT/TSO-IL/038/0795.
+
+**Contexto institucional.** O Brasil colonial nunca teve tribunal permanente do Santo Ofício, diferentemente da América espanhola (Lima, México, Cartagena). A Inquisição operava por Visitações periódicas e remessa de processos a Lisboa. Em junho de 1591, o Visitador Heitor Furtado de Mendonça chegou à Bahia e abriu o Tempo de Graça: quem confessasse voluntariamente recebia penas mais brandas. A Primeira Visitação registrou 121 confissões e 212 denunciações.
+
+**A ré.** Natural de Estremoz, distrito de Évora, filha de Pedro Gonçalves Cajado e Margarida Pires. Cristã-velha. Casada com Gaspar Pinto, marinheiro. Já havia sido **degredada para Pernambuco** por seis anos, por incêndio de casas e agressão a um juiz ("atirar com uma infusa ao juiz da terra"), cumprindo penitência pública com carocha diante da igreja de Pernambuco. Transferida para a Bahia por volta de 1578–1579, residiu ali por cerca de dez a doze anos sem domicílio fixo.
+
+**As acusações.** Em agosto de 1591, Catarina Fernandes e Isabel Monteira denunciaram-na ao Visitador. As culpas:
 
 | Acusação | Registro jurídico |
 |----------|-------------------|
-| Cuspiu no inquisidor e disse: "que o mal caído te leve!" | Desobediência à autoridade eclesiástica |
-| Boicotou sermões e incitou outros a fazer o mesmo | Obstrução da Inquisição |
-| Declarou que Institoris "só pregava heresia" | Difamação; inversão da acusação |
-| Causou doença a uma mulher para ficar com seu marido | *Maleficium* por luxúria |
-| Matou o cavaleiro Leopold von Spiess-Friedberg por bruxaria ou veneno | Homicídio por *maleficium* |
+| Conversava com demônios na mata | Pacto demoníaco / demonolatria |
+| Manipulava objetos (botões, tecidos, óleo, galinha, rato) | *Maleficium* por encomenda |
+| Usava palavras da consagração da missa invertidas | Blasfêmia / profanação litúrgica |
+| Desenhava pentagramas (Sinal de Salomão) | Invocação demoníaca |
+| Praticava feitiçaria remunerada (amansar maridos, enriquecimento) | Feitiçaria como serviço |
+| Alegou que os feitiços "não funcionaram" | Estratégia processual de mitigação |
 
-**A ruptura.** Institoris abriu o interrogatório não pelas acusações de *maleficium*, mas por perguntas sobre a **virgindade e a vida sexual** de Scheuberin, sustentando que "todas as feiticeiras foram escravas da luxúria carnal desde a juventude." Os comissários episcopais consideraram as perguntas impróprias e exigiram a cessação. Na sessão seguinte, autorizaram a presença de um **advogado de defesa** (Johann Merwais), que arguiu nulidades processuais. O tribunal acolheu e **anulou o processo**, libertando os acusados. Institoris retirou-se para Colônia e começou a redigir o *Malleus*.
+**Sentença.** Presa em 23 de janeiro de 1593, ouviu sentença no dia seguinte. Condenada a penitência pública: de pé, descalça, com vela acesa na mão e mitra (carocha) na cabeça, durante a leitura da sentença e a missa. Penitências espirituais, jejuns de pão e água às sextas-feiras por cinco semanas, pagamento das custas processuais, e degredo final para Portugal, para reunir-se ao marido. **Isenta de açoites por doença.** O próprio processo registra a dúvida do tribunal sobre a substância das acusações: *"Parece que tudo são embustes e enganos as culpas desta ré."*
 
-**O que revela.** (a) A jurisdição sobre a bruxaria era **contestada** entre o inquisidor papal e a autoridade episcopal local. (b) Para os comissários, o crime era o *maleficium* (dano mágico verificável); para Institoris, bruxaria e sexualidade feminina eram inseparáveis: são **duas construções distintas do mesmo tipo penal**. (c) A presença do advogado de defesa e a anulação por vícios procedimentais complexificam a narrativa de que o processo inquisitorial era puro arbítrio.
+**O que o caso revela.**
 
----
+1. **A feiticeira mais próxima do modelo europeu na Bahia, mas ainda divergente.** Maria Gonçalves invoca demônios, inverte a liturgia, desenha pentagramas. Porém, não há sabá coletivo, não há pacto sexual com o diabo, e a magia é fundamentalmente um **serviço remunerado**. O tipo penal compósito do *Malleus* não se reproduz integralmente na colônia.
 
-### Caso 2. Guiomar de Oliveira e Antônia Nóbrega (Salvador da Bahia, 1591-1592)
+2. **A pena como circulação forçada.** O degredo como modo punitivo opera por **deslocamento geográfico** (Portugal → Pernambuco → Bahia → Portugal), não por execução. A mesma pessoa acumula condenações sem que o ciclo punitivo se interrompa, revelando a ineficácia estrutural do sistema.
 
-**Fonte:** Livro das Confissões da Primeira Visitação do Santo Ofício às partes do Brasil (1591-92), ed. Capistrano de Abreu (1935); ed. Ronaldo Vainfas (1997). ANTT, Lisboa, cota: PT/TT/TSO-IL/038/0795.
+3. **Negociação dentro da justiça hegemônica.** A estratégia de alegar que os feitiços "não funcionaram" e a observação do próprio tribunal de que as culpas parecem "embustes e enganos" apontam para uma **negociação tácita** entre ré e tribunal sobre os limites do confessável. A justiça hegemônica, mesmo no aparato inquisitorial, carrega resíduos de justiça negociada.
 
-**Os fatos.** Durante a Primeira Visitação do Santo Ofício à Bahia, conduzida pelo Visitador Heitor Furtado de Mendonça, Guiomar de Oliveira compareceu voluntariamente no Tempo de Graça para **denunciar** Antônia Nóbrega por práticas de feitiçaria. Confessou que Antônia lhe fornecera pós mágicos, incluindo "pós de osso de finado", que Guiomar deu ao marido misturados em vinho "para ser seu amigo e serem bem-casados." Antônia teria declarado expressamente que as práticas eram "coisas diabólicas" ensinadas pelos diabos.
-
-**Contexto institucional.** O Brasil colonial **nunca teve tribunal permanente** do Santo Ofício, diferentemente da América espanhola (Lima, México, Cartagena). A Inquisição operava por Visitações periódicas, rede de comissários locais e remessa de processos a Lisboa. Na Bahia, a Primeira Visitação registrou 121 confissões e 212 denunciações. O Visitador podia absolver ou penitenciar, mas não condenar à morte autonomamente; os casos graves eram remetidos ao Tribunal de Lisboa.
-
-**O que revela.** (a) O padrão das denúncias coloniais difere radicalmente do modelo europeu: predominam **magia amorosa e curandeirismo**, não o sabá demoníaco ou o pacto formal com o diabo. (b) São mulheres denunciando outras mulheres por práticas ligadas à **vida conjugal**, não inquisidores construindo a categoria de "bruxa" como no *Malleus*. (c) A confitente reconhece o caráter "diabólico" atribuído pela Igreja, mas recorre à magia igualmente, evidenciando a **coexistência de múltiplos registros religiosos** na colônia. (d) A estrutura processual do Tempo de Graça cria um incentivo à autodenúncia que produz um tipo peculiar de prova.
+4. **Gênero e raça na construção do sujeito penal.** Maria Gonçalves é cristã-velha e portuguesa, o que a diferencia da maioria das acusadas coloniais posteriores. A partir do séc. XVII, as acusações de feitiçaria na colônia recaem predominantemente sobre **mulheres negras, mestiças e indígenas**, associadas a práticas de *calundu*, *mandinga* e curandeirismo. O vetor de gênero que o *Malleus* estabelece se cruza na colônia com o vetor de **raça**.
 
 ---
 
-### Caso 3. Maria Gonçalves Cajada, dita "Arde-lhe-o-Rabo" (Salvador da Bahia, 1591-1594)
+## 3. Análise comparativa: Innsbruck e Bahia
 
-**Fonte:** Livro das Denunciações da Bahia (1591-1593), ed. Paulo Prado (1925). Análise: SOUZA, Laura de Mello e. *O diabo e a Terra de Santa Cruz*. São Paulo: Companhia das Letras, 1986.
-
-**Os fatos.** Natural de Estremoz ou Évora (Portugal), já havia sido degredada para Pernambuco por incendiar casas e agredir um juiz. Em agosto de 1591, Catarina Fernandes e Isabel Monteira denunciaram-na ao Visitador. As acusações: praticava feitiçaria diabólica por encomenda em troca de dinheiro e alimentos; "conversava com demônios na mata"; manipulava objetos (botões, tecidos, óleo, galinha, rato) e palavras da consagração da missa; desenhava pentagramas (Sinal de Salomão). Alegou inicialmente que os feitiços eram ineficazes (estratégia para obter pena menor). Após três anos de processo, confessou e recebeu terceiro degredo, desta vez de volta a Portugal.
-
-**O que revela.** (a) Maria Gonçalves é a **feiticeira mais próxima do modelo europeu** entre as processadas na Bahia: pratica magia por encomenda, invoca demônios, usa elementos da liturgia invertida. Mas mesmo ela difere da bruxa do *Malleus*: não há sabá coletivo, não há pacto sexual com o diabo, e a magia é fundamentalmente um **serviço remunerado**. (b) O degredo como pena mostra que o sistema punitivo colonial para feitiçaria operava por **circulação forçada** (colônia → metrópole → colônia), não por execução. (c) Sua trajetória de múltiplos degredos revela a ineficácia punitiva do próprio sistema: a mesma pessoa acumula condenações sem que o ciclo se interrompa. (d) A estratégia processual de alegar ineficácia dos feitiços ("não funcionaram") aponta para a existência de uma **negociação tácita** entre ré e tribunal sobre os limites do confessável.
-
----
-
-## 3. Análise comparativa
-
-| Dimensão | Innsbruck (1485) | Bahia: Guiomar/Antônia (1591) | Bahia: "Arde-lhe-o-Rabo" (1591) |
-|----------|------------------|-------------------------------|----------------------------------|
-| **Jurisdição** | Inquisição papal vs. bispo local | Visitação do Santo Ofício (Lisboa) | Visitação do Santo Ofício (Lisboa) |
-| **Crime** | *Maleficium* + heresia demoníaca | Magia amorosa / feitiçaria doméstica | Feitiçaria diabólica por encomenda |
-| **Gênero** | Mulher acusada; sexualidade como prova | Mulheres denunciando mulheres | Mulher profissional da magia |
-| **Raça/origem** | Europeia, *Bürger* | Colonial, não especificada | Europeia degredada |
-| **Procedimento** | Interrogatório inquisitorial, anulado | Confissão voluntária (Tempo de Graça) | Denunciação + confissão após 3 anos |
-| **Desfecho** | Absolvição por vícios processuais | Penitência espiritual | Degredo para Portugal |
-| **Relação com o *Malleus*** | Caso que *originou* o tratado | Modelo colonial divergente | Caso mais próximo do modelo europeu |
+| Dimensão | Innsbruck (1485) | Bahia: Cajada (1591–1593) |
+|----------|------------------|---------------------------|
+| **Jurisdição** | Inquisição papal vs. bispo local | Visitação do Santo Ofício (Lisboa) |
+| **Crime** | *Maleficium* + heresia demoníaca | Feitiçaria diabólica por encomenda |
+| **Construção do tipo** | Fusão de 5 categorias no *Malleus* | Tipo compósito parcial + práticas coloniais |
+| **Gênero** | Sexualidade como prova de bruxaria | Gênero presente, sem foco na sexualidade |
+| **Procedimento** | Interrogatório inquisitorial, anulado | Denunciação + confissão após 3 anos |
+| **Desfecho** | Absolvição por vícios processuais | Penitência pública + degredo |
+| **Relação com o *Malleus*** | Caso que originou o tratado | Caso mais próximo do modelo, mas divergente |
 
 ---
 
@@ -87,35 +85,31 @@ O texto não nasce de especulação abstrata, mas de um **fracasso judicial conc
 
 ### 4.1. Justiça negociada vs. justiça hegemônica (Sbriccoli)
 
-O *Malleus* é um instrumento da **justiça hegemônica**: publicização da ação penal, monopólio eclesiástico-estatal da persecução, eliminação da composição entre partes. Mas os três casos mostram que essa hegemonia é **contestada e incompleta**. Em Innsbruck, o bispo local funciona como freio. Na Bahia, a ausência de tribunal permanente e a dependência de confissões voluntárias e denúncias de vizinhos preservam elementos de **justiça negociada** dentro do aparato inquisitorial.
+O *Malleus* é um instrumento da **justiça hegemônica**: publicização da ação penal, monopólio eclesiástico-estatal da persecução, eliminação da composição entre partes. Mas os dois casos mostram que essa hegemonia é **contestada e incompleta**. Em Innsbruck, o bispo local funciona como freio ao inquisidor papal. Na Bahia, a ausência de tribunal permanente, a dependência de denúncias de vizinhos e a negociação tácita sobre o confessável preservam elementos de **justiça negociada** dentro do aparato inquisitorial.
 
 ### 4.2. Historicidade do tipo penal "bruxaria"
 
-A "bruxaria" do *Malleus* é uma **construção compósita** (Broedel): combina tradições de *maleficium*, heresia, demonolatria, voo noturno e espíritos femininos numa categoria totalizante. Antes do séc. XV, essas categorias operavam separadamente. Na colônia, a construção é outra: a feitiçaria colonial brasileira absorve **calundu** (tradição banto), **mandinga** (amuletos sincréticos) e **curandeirismo** (ervas e benzeduras), categorias ausentes do universo do *Malleus*.
+A "bruxaria" do *Malleus* é uma **construção compósita** (Broedel): combina tradições de *maleficium*, heresia, demonolatria, voo noturno e espíritos femininos numa categoria totalizante. Na colônia, a construção é outra: a feitiçaria colonial brasileira absorve **calundu** (tradição banto), **mandinga** (amuletos sincréticos) e **curandeirismo** (ervas e benzeduras), categorias ausentes do universo do *Malleus*. O caso de Maria Gonçalves Cajada situa-se no limiar: reproduz elementos europeus (invocação demoníaca, liturgia invertida) mas os insere num contexto colonial de serviço remunerado e circulação atlântica.
 
-### 4.3. Gênero, raça e construção do crime
+### 4.3. Circulação, não "influência"
 
-O *Malleus* sustenta que "uma multidão maior de feiticeiras se encontra entre o sexo mais fraco das mulheres do que entre os homens." Na Europa dos sécs. XVI-XVII, 70-80% dos condenados por bruxaria eram mulheres (Broedel, 2003, cap. 7). Na colônia, o vetor de gênero se cruza com o de **raça**: a partir do séc. XVII, as acusações recaem predominantemente sobre mulheres negras, mestiças e indígenas (Calainho, 2008; Souza, 1986). A "bruxa" colonial é a **calunduzeira**, a **mandingueira**, a **curandeira** de matriz africana ou indígena, e não a adoradora do diabo do imaginário europeu.
-
-### 4.4. Circulação, não "influência"
-
-O *Malleus* circulou por toda a Europa, mas sua recepção na Inquisição portuguesa foi **indireta**. Portugal seguia seus próprios Regimentos do Santo Ofício. Na colônia, as práticas perseguidas são produto de um **sincretismo atlântico** entre tradições europeias, africanas e ameríndias. O conceito de circulação (Nunes) é mais adequado que o de "influência" para descrever esse trânsito.
+O *Malleus* circulou por toda a Europa, mas sua recepção na Inquisição portuguesa foi **indireta**. Portugal seguia seus próprios Regimentos do Santo Ofício. Na colônia, as práticas perseguidas são produto de um **sincretismo atlântico** entre tradições europeias, africanas e ameríndias. O conceito de circulação é mais adequado que o de "influência" para descrever esse trânsito. A própria trajetória de Maria Gonçalves é uma circulação forçada: Estremoz → Pernambuco → Bahia → Portugal.
 
 ---
 
 ## 5. Questões para discussão
 
-1. O processo Scheuberin demonstra que a justiça hegemônica medieval comportava mecanismos internos de controle e resistência. Em que medida essa constatação complexifica o modelo de Sbriccoli?
+1. O caso Cajada demonstra que a justiça hegemônica inquisitorial comportava espaços de negociação (estratégias processuais da ré, dúvida do tribunal). Em que medida essa constatação complexifica o modelo de Sbriccoli?
 
-2. A feitiçaria colonial brasileira pode ser analisada com as mesmas categorias do *Malleus*, ou exige categorias próprias? A divergência entre o modelo europeu e a prática colonial é quantitativa (menor intensidade persecutória) ou qualitativa (outro tipo penal)?
+2. A construção da bruxaria como tipo penal compósito tem paralelos com outros processos de tipificação criminal estudados no curso (o *crimen maiestatis* romano, a heresia medieval)?
 
-3. A construção da bruxaria como tipo penal compósito tem paralelos com outros processos de tipificação criminal estudados no curso (o *crimen maiestatis* romano, a heresia medieval)?
-
-4. O *Malleus* feminiza o crime vinculando bruxaria a sexualidade desordenada. Na colônia, o crime é racializado: a feiticeira é a mulher negra ou indígena. Como essas duas lógicas de construção do sujeito criminoso se relacionam?
+3. O *Malleus* feminiza o crime vinculando bruxaria a sexualidade desordenada. Na colônia, o crime é racializado: a feiticeira é a mulher negra ou indígena. Como essas duas lógicas de construção do sujeito criminoso se relacionam?
 
 ---
 
 ## 6. Referências
+
+ARAÚJO, Gilmara Cruz de. *Artes mágicas na Bahia quinhentista*: o caso de Maria Gonçalves Cajada. 2016. Dissertação (Mestrado em História) — Universidade Federal de Sergipe, São Cristóvão, 2016.
 
 BROEDEL, Hans Peter. *The Malleus Maleficarum and the construction of witchcraft*: theology and popular belief in the late Middle Ages. Manchester: Manchester University Press, 2003.
 
@@ -123,21 +117,23 @@ CALAINHO, Daniela Buono. *Metrópole das mandingas*: religiosidade negra e Inqui
 
 INSTITORIS, Heinrich; SPRENGER, Jacob. *Malleus Maleficarum* [1487]. Fac-símile. Göppingen: Kümmerle Verlag, 1991.
 
+LIMA, Sulamita Pinto. *O Signo do Diabo em forma de Mulher*: a Inquisição na Bahia. 2020. Dissertação (Mestrado) — Universidade Federal da Bahia, Salvador, 2020.
+
 SBRICCOLI, Mario. Justiça criminal. *Discursos Sediciosos*, Rio de Janeiro, n. 17/18, p. 459-504, 2011.
 
 SOUZA, Laura de Mello e. *O diabo e a Terra de Santa Cruz*: feitiçaria e religiosidade popular no Brasil colonial. São Paulo: Companhia das Letras, 1986.
-
-SWEET, James H. *Domingos Álvares, African healing, and the intellectual history of the Atlantic world*. Chapel Hill: University of North Carolina Press, 2011.
 
 VAINFAS, Ronaldo (org.). *Confissões da Bahia*: Santo Ofício da Inquisição de Lisboa. São Paulo: Companhia das Letras, 1997.
 
 ### Fontes primárias
 
+ANTT. Tribunal do Santo Ofício, Inquisição de Lisboa, **processo nº 10748** (Maria Gonçalves Cajada). Digitalizado em: digitarq.arquivos.pt.
+
+ANTT. Tribunal do Santo Ofício, Inquisição de Lisboa, liv. 784. **Livro [2º] das denunciações que se fizeram na visitação do Santo Ofício na Cidade do Salvador da Baía de Todos os Santos, do Estado do Brasil**. Cota: PT-TT-TSO-IL-038-0784. Digitalizado em: digitarq.arquivos.pt (ID: 2318687).
+
 ABREU, J. Capistrano de (ed.). *Primeira Visitação do Santo Officio às partes do Brasil*: Confissões da Bahia, 1591-92. Rio de Janeiro: F. Briguiet, 1935.
 
 ABREU, J. Capistrano de (ed.). *Primeira Visitação do Santo Officio às partes do Brasil*: Denunciações da Bahia, 1591-1593. São Paulo: Paulo Prado, 1925.
-
-AMMANN, Hartmann. Der Innsbrucker Hexenprocess von 1485. *Zeitschrift des Ferdinandeums für Tirol und Vorarlberg*, v. 34, p. 1-87, 1890.
 
 ---
 
