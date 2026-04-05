@@ -6,6 +6,8 @@
 <title>ICONOCRACIA — Companheiro de Pesquisa</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⚖️</text></svg>"/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--parchment:#F5F0E8;--ink:#1A1A2E;--sepia:#8B7355;--bordeaux:#6B2D3E;--navy:#16213E;--gold:#C4A265;--cream:#FAF7F0;--warmGray:#9B8E82;--lightSepia:#D4C5A9;--rust:#A0522D;--faded:#B8A99A}
@@ -16,6 +18,11 @@ input,textarea,select{font-family:'Cormorant Garamond',Georgia,serif}
 pre{font-family:'IBM Plex Mono',monospace}
 ::-webkit-scrollbar{width:6px}
 ::-webkit-scrollbar-thumb{background:var(--lightSepia);border-radius:3px}
+.leaflet-popup-content-wrapper{background:var(--cream);border-radius:8px;font-family:'Cormorant Garamond',Georgia,serif;box-shadow:0 4px 16px rgba(22,33,62,.15)}
+.leaflet-popup-tip{background:var(--cream)}
+.leaflet-popup-content{margin:12px 14px;line-height:1.5}
+.map-legend{background:var(--cream);padding:10px 14px;border-radius:6px;border:1px solid var(--lightSepia);font-size:12px;line-height:1.8}
+.map-legend i{width:10px;height:10px;display:inline-block;border-radius:50%;margin-right:6px;vertical-align:middle}
 </style>
 <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
@@ -315,6 +322,174 @@ function PromptCard({p}){
   </div>;
 }
 
+// ─── MAP COMPONENT ───
+const GEO_ARCHIVE = {
+  'Gallica': [48.83, 2.38],
+  'Brasiliana Fotográfica': [-22.91, -43.17],
+  'Hemeroteca Digital Brasileira': [-22.91, -43.17],
+  'Library of Congress': [38.89, -77.00],
+  'British Museum': [51.52, -0.13],
+  'Europeana': [52.37, 4.90],
+  'Rijksmuseum': [52.36, 4.89],
+  'Rijksmuseum Amsterdam': [52.36, 4.89],
+  'Bildindex der Kunst und Architektur': [50.11, 8.68],
+  'Deutsche Digitale Bibliothek': [50.11, 8.68],
+  'Bayerische Staatsbibliothek': [48.15, 11.58],
+  'Münzkabinett Berlin': [52.52, 13.40],
+  'NYPL Digital Collections': [40.75, -73.98],
+  'Metropolitan Museum of Art': [40.78, -73.96],
+  'Heritage Auctions': [32.76, -96.79],
+  'CoinFacts / Heritage Auctions': [32.76, -96.79],
+  'Old Bailey Online': [51.52, -0.10],
+  'Royal Mint / Heritage Hub': [51.76, -3.24],
+  'Bodleian Libraries': [51.75, -1.25],
+  'KBR (Royal Library of Belgium)': [50.84, 4.36],
+  'Museum Catharijneconvent': [52.09, 5.13],
+  'Biblioteca Nacional Digital (BND Portugal)': [38.74, -9.16],
+  'Biblioteca Nacional de España': [40.42, -3.69],
+  'Brasiliana Museus': [-23.56, -46.66],
+  'NYU Faculty Digital Archive': [40.73, -74.00],
+  'Musée Carnavalet': [48.86, 2.36],
+  'Smithsonian': [38.89, -77.03],
+  'U.S. Mint / CoinFacts': [38.91, -77.04],
+};
+const GEO_COUNTRY = {
+  'Brazil': [-15.79, -47.86], 'France': [48.86, 2.35],
+  'Germany': [52.52, 13.41], 'United States': [38.91, -77.04],
+  'United Kingdom': [51.51, -0.13], 'Belgium': [50.85, 4.35],
+  'Netherlands': [52.37, 4.90], 'Portugal': [38.72, -9.14],
+  'Italy': [41.90, 12.50], 'Austria': [48.21, 16.37],
+  'Spain': [40.42, -3.70], 'Switzerland': [46.95, 7.45],
+  'Uruguay': [-34.90, -56.16], 'Mexico': [19.43, -99.13],
+  'Germany (Netherlands origin)': [52.52, 13.41],
+  'France (held in Austria)': [48.21, 16.37],
+};
+function geocode(entry){
+  const arch = GEO_ARCHIVE[entry.source_archive];
+  if(arch) return arch;
+  return GEO_COUNTRY[entry.country] || [0, 0];
+}
+const MAP_REGIME_COLOR = {normativo:"#8B7355",fundacional:"#16213E",militar:"#6B2D3E","contra-alegoria":"#C4A265"};
+function mapRegimeCol(r){return MAP_REGIME_COLOR[(r||"").toLowerCase()]||"#9B8E82";}
+
+function MapaView({corpus}){
+  const mapRef = React.useRef(null);
+  const mapInstance = React.useRef(null);
+  const markersRef = React.useRef([]);
+  const [regimeFilter, setRegimeFilter] = useState("todos");
+  const [paisFilter, setPaisFilter] = useState("todos");
+
+  const filtered = corpus.filter(e => {
+    if(regimeFilter !== "todos" && (e.regime||"").toLowerCase() !== regimeFilter) return false;
+    if(paisFilter !== "todos" && e.country !== paisFilter) return false;
+    return true;
+  });
+
+  // Initialize map once
+  useEffect(() => {
+    if(!mapRef.current || mapInstance.current) return;
+    const map = L.map(mapRef.current, {center:[30,10], zoom:3, zoomControl:true});
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution:'&copy; OSM &copy; CARTO', subdomains:'abcd', maxZoom:18
+    }).addTo(map);
+    mapInstance.current = map;
+
+    // Legend
+    const legend = L.control({position:'bottomright'});
+    legend.onAdd = function(){
+      const div = L.DomUtil.create('div','map-legend');
+      div.innerHTML = '<div style="font-weight:600;margin-bottom:4px;font-size:11px;font-family:IBM Plex Mono,monospace;letter-spacing:1px">REGIME</div>' +
+        [['fundacional','#16213E'],['normativo','#8B7355'],['militar','#6B2D3E'],['contra-alegoria','#C4A265']]
+        .map(([name,col])=>'<div><i style="background:'+col+'"></i>'+name+'</div>').join('');
+      return div;
+    };
+    legend.addTo(map);
+
+    return () => { map.remove(); mapInstance.current = null; };
+  }, []);
+
+  // Update markers when filtered data changes
+  useEffect(() => {
+    const map = mapInstance.current;
+    if(!map) return;
+
+    // Clear old markers
+    markersRef.current.forEach(m => map.removeLayer(m));
+    markersRef.current = [];
+
+    // Group by coordinates for offset
+    const groups = {};
+    filtered.forEach(e => {
+      const [lat,lon] = geocode(e);
+      const key = lat.toFixed(2)+','+lon.toFixed(2);
+      if(!groups[key]) groups[key] = [];
+      groups[key].push(e);
+    });
+
+    Object.values(groups).forEach(group => {
+      group.forEach((e, idx) => {
+        let [lat,lon] = geocode(e);
+        const total = group.length;
+        if(total > 1){
+          const angle = (idx / total) * 2 * Math.PI;
+          const offset = 0.12 + 0.06 * Math.ceil(idx / 8);
+          lat += Math.cos(angle) * offset;
+          lon += Math.sin(angle) * offset;
+        }
+        const col = mapRegimeCol(e.regime);
+        const marker = L.circleMarker([lat, lon], {
+          radius: 6, fillColor: col, color: '#F5F0E8', weight: 2,
+          fillOpacity: 0.9, opacity: 1
+        }).addTo(map);
+
+        const imgSrc = corpusImgUrl(e.id);
+        const score = (e.endurecimento_score||0).toFixed?.(1) || '0.0';
+        const popup = `
+          <div style="max-width:260px">
+            <img src="${imgSrc}" alt="" style="width:100%;max-height:140px;object-fit:cover;border-radius:4px;margin-bottom:8px" onerror="this.style.display='none'"/>
+            <div style="font-size:14px;font-weight:700;line-height:1.4;margin-bottom:6px">${e.title||''}</div>
+            <div style="font-size:11px;color:#9B8E82;margin-bottom:6px;font-family:'IBM Plex Mono',monospace">${e.creator?e.creator+' · ':''}${e.date||''} · ${e.country||''}</div>
+            <span style="display:inline-block;font-size:10px;padding:2px 8px;border-radius:2px;border:1px solid ${col};color:${col};font-family:'IBM Plex Mono',monospace;margin-bottom:6px">${(e.regime||'').toUpperCase()}</span>
+            <span style="font-size:11px;color:#8B7355;margin-left:8px;font-family:'IBM Plex Mono',monospace">&#x2B25; ${score}</span>
+            ${e.motif_str?`<div style="font-size:11px;color:#9B8E82;margin-top:4px">${e.motif_str}</div>`:''}
+            ${e.url?`<div style="margin-top:8px"><a href="${e.url}" target="_blank" rel="noopener" style="font-size:12px;color:#6B2D3E;text-decoration:none">Ver no acervo &rarr;</a></div>`:''}
+          </div>`;
+        marker.bindPopup(popup);
+        markersRef.current.push(marker);
+      });
+    });
+  }, [filtered]);
+
+  const countries = [...new Set(corpus.map(e => e.country))].filter(Boolean).sort();
+
+  return <div>
+    <div style={{display:'flex',justifyContent:'space-between',alignItems:'flex-start',marginBottom:16,flexWrap:'wrap',gap:10}}>
+      <div>
+        <h2 style={{fontSize:20,fontWeight:700,margin:0}}>Mapa do Corpus</h2>
+        <p style={{fontSize:13,color:'var(--sepia)',margin:'4px 0 0',fontStyle:'italic'}}>Distribuicao geografica das {corpus.length} imagens</p>
+      </div>
+    </div>
+    <div style={{display:'flex',gap:8,marginBottom:12,alignItems:'center',flexWrap:'wrap'}}>
+      <span className="mono" style={{fontSize:10,color:'var(--warmGray)',letterSpacing:1}}>REGIME</span>
+      {['todos','fundacional','normativo','militar'].map(r=>{
+        const rc = r==='todos'?'var(--ink)':mapRegimeCol(r);
+        const active = regimeFilter===r;
+        return <button key={r} onClick={()=>setRegimeFilter(r)} className="mono" style={{fontSize:10,padding:'3px 10px',borderRadius:2,
+          background:active?rc:'transparent',color:active?'var(--cream)':rc,
+          border:`1px solid ${active?rc:'var(--lightSepia)'}`,transition:'all .15s',cursor:'pointer'}}>{r}</button>;
+      })}
+      <span className="mono" style={{fontSize:10,color:'var(--warmGray)',marginLeft:8,letterSpacing:1}}>PAIS</span>
+      <select value={paisFilter} onChange={e=>setPaisFilter(e.target.value)} className="mono"
+        style={{fontSize:11,padding:'4px 8px',border:'1px solid var(--lightSepia)',borderRadius:3,background:'var(--cream)',color:'var(--ink)',cursor:'pointer'}}>
+        <option value="todos">Todos</option>
+        {countries.map(c=><option key={c} value={c}>{c}</option>)}
+      </select>
+      <span className="mono" style={{fontSize:10,color:'var(--warmGray)',marginLeft:'auto'}}>{filtered.length} entradas no mapa</span>
+    </div>
+    <div ref={mapRef} style={{width:'100%',height:'calc(100vh - 200px)',borderRadius:8,border:'1px solid var(--lightSepia)'}}/>
+  </div>;
+}
+
 // ─── MAIN APP ───
 const TABS=[
   {id:"overview",label:"Visao Geral",icon:"◎"},
@@ -322,6 +497,7 @@ const TABS=[
   {id:"scout",label:"Scout",icon:"🔍"},
   {id:"corpus",label:"Corpus",icon:"◉"},
   {id:"atlas",label:"Mini-Atlas",icon:"◫"},
+  {id:"mapa",label:"Mapa",icon:"🗺️"},
   {id:"diary",label:"Diario",icon:"✎"},
   {id:"chapters",label:"Capitulos",icon:"▤"},
   {id:"prompts",label:"Prompts",icon:"⌘"},
@@ -352,7 +528,7 @@ function App(){
   },[]);
 
   useEffect(()=>{
-    if(tab==="galeria"&&!corpusData&&!corpusLoading){
+    if((tab==="galeria"||tab==="mapa")&&!corpusData&&!corpusLoading){
       setCorpusLoading(true);
       fetch('/api/corpus').then(r=>r.json()).then(d=>{setCorpusData(d);setCorpusLoading(false);}).catch(()=>setCorpusLoading(false));
     }
@@ -384,7 +560,10 @@ function App(){
     {/* HEADER */}
     <div style={{background:"var(--navy)",padding:"22px 20px 16px",borderBottom:"3px solid var(--gold)"}}>
       <div style={{maxWidth:920,margin:"0 auto"}}>
-        <div className="mono" style={{color:"var(--gold)",fontSize:10,letterSpacing:4,textTransform:"uppercase"}}>Companheiro de Pesquisa · PPGD/UFSC</div>
+        <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+          <div className="mono" style={{color:"var(--gold)",fontSize:10,letterSpacing:4,textTransform:"uppercase"}}>Companheiro de Pesquisa · PPGD/UFSC</div>
+          <a href="/painel.html" className="mono" style={{color:"var(--gold)",fontSize:10,letterSpacing:2,textDecoration:"none",border:"1px solid rgba(196,162,101,.4)",padding:"3px 10px",borderRadius:2,transition:"all .2s"}} onMouseEnter={e=>{e.target.style.background="rgba(196,162,101,.15)";e.target.style.borderColor="var(--gold)"}} onMouseLeave={e=>{e.target.style.background="transparent";e.target.style.borderColor="rgba(196,162,101,.4)"}}>🎮 PAINEL DA TESE</a>
+        </div>
         <h1 style={{margin:"4px 0 0",fontSize:28,fontWeight:700,color:"var(--cream)",letterSpacing:2}}>ICONOCRACIA</h1>
         <div style={{color:"var(--lightSepia)",fontSize:14,fontStyle:"italic"}}>Alegoria Feminina na História da Cultura Jurídica</div>
       </div>
@@ -589,6 +768,12 @@ function App(){
             </div>
           </div>}
         </div>)}
+      </div>}
+
+      {/* MAPA */}
+      {tab==="mapa"&&<div>
+        {corpusLoading&&<div style={{textAlign:"center",padding:60,color:"var(--warmGray)"}} className="mono">carregando corpus…</div>}
+        {corpusData&&<MapaView corpus={corpusData}/>}
       </div>}
 
       {/* DIARY */}

@@ -130,6 +130,53 @@ motivo/columbia · motivo/germania · motivo/belgique
 
 ---
 
+## Pipeline de Ingestão (iconocracy-ingest/)
+
+Pipeline OCR para material escaneado de acervos. Localizado em `iconocracy-ingest/`.
+
+### Uso rápido
+
+```bash
+# Processar novo lote de digitalizações
+python3 iconocracy-ingest/ingest.py /caminho/do/lote
+
+# Preview sem processar
+python3 iconocracy-ingest/ingest.py /caminho/do/lote --dry-run
+
+# Threshold de confiança mais rigoroso
+python3 iconocracy-ingest/ingest.py /caminho/do/lote --confidence 70 -v
+
+# Bridge: CSV do ingest → corpus-data.json (dry run)
+python3 -m iconocracy-ingest.modules.corpus_bridge
+
+# Bridge: escrever no corpus
+python3 -m iconocracy-ingest.modules.corpus_bridge --write
+```
+
+### Módulos
+
+| Módulo | Função |
+|--------|--------|
+| `ingest.py` | CLI principal (--dry-run, --confidence, --no-copy, --verbose) |
+| `config.py` | Configuração centralizada (SOURCE_CODES, thresholds) |
+| `modules/file_utils.py` | Descoberta de arquivos, SHA-256, detecção de fonte |
+| `modules/ocr_engine.py` | Detecção de idioma + Tesseract OCR com confiança por página |
+| `modules/caption_extractor.py` | Extração multilíngue de legendas (PT, ES, FR, IT, EN) |
+| `modules/renamer.py` | Renomeação: {SOURCE}_{YEAR}_{SEQ:04d}_{stem}.{ext} |
+| `modules/csv_manager.py` | CSV mestre com deduplicação SHA-256 |
+| `modules/quality_report.py` | Relatório HTML para páginas com baixa confiança OCR |
+| `modules/corpus_bridge.py` | Bridge CSV → corpus-data.json com IDs automáticos |
+
+### Fluxo completo
+
+```
+acervo digital → ingest.py → master CSV → corpus_bridge.py → corpus-data.json → IconoCode
+```
+
+Para adicionar nova instituição-fonte, editar `SOURCE_CODES` em `config.py`.
+
+---
+
 ## Ferramentas disponíveis para o agente
 
 - `web_search` — busca em acervos e bases digitais
