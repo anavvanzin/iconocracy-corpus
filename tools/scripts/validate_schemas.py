@@ -113,18 +113,23 @@ def validate_file(file_path: Path, schema_name: str) -> tuple[int, int, List[str
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Validate JSON records against dual-agent corpus builder schemas"
+        description="Validate JSON records against dual-agent corpus builder schemas. "
+                    "When called with no arguments, validates data/processed/records.jsonl "
+                    "against the master-record schema (default behaviour)."
     )
     parser.add_argument(
         "file",
+        nargs="?",
         type=Path,
-        help="JSON or JSONL file to validate"
+        default=None,
+        help="JSON or JSONL file to validate (default: data/processed/records.jsonl)"
     )
     parser.add_argument(
         "--schema",
-        required=True,
+        required=False,
+        default=None,
         choices=["webscout-input", "webscout-output", "iconocode-output", "master-record"],
-        help="Schema to validate against"
+        help="Schema to validate against (default: master-record when validating records.jsonl)"
     )
     parser.add_argument(
         "--verbose",
@@ -134,7 +139,18 @@ def main() -> None:
     )
     
     args = parser.parse_args()
-    
+
+    # Apply defaults when called without arguments
+    repo_root = Path(__file__).resolve().parent.parent.parent
+    if args.file is None:
+        args.file = repo_root / "data" / "processed" / "records.jsonl"
+    if args.schema is None:
+        # Infer schema from filename
+        if args.file.name == "records.jsonl" or args.file.suffix == ".jsonl":
+            args.schema = "master-record"
+        else:
+            parser.error("--schema is required when validating non-JSONL files")
+
     if not args.file.exists():
         print(f"Error: File not found: {args.file}", file=sys.stderr)
         sys.exit(1)
