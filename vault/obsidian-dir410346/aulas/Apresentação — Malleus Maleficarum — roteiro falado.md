@@ -2,7 +2,9 @@
 tags: [apresentação, dir410346, roteiro, bruxaria, malleus]
 aula: apresentação (fonte n. 5)
 duração: 15 minutos
+status: final
 created: 2026-03-30
+modified: 2026-04-05
 ---
 
 # Roteiro de apresentação — O *Malleus Maleficarum* e a construção da bruxaria
@@ -38,66 +40,60 @@ Essa operação de síntese é o que torna o livro tão poderoso e tão perigoso
 
 ---
 
-## O caso Scheuberin em detalhe [3:30–5:30]
+## Innsbruck: duas epistemologias em colisão [3:30–4:30]
 
-Voltemos a Innsbruck. O caso de Helena Scheuberin é fascinante porque mostra que essa construção **não era consensual**. Todos naquele tribunal acreditavam em bruxaria. Ninguém duvidava que magia pudesse causar dano. A divergência era sobre **o que constitui o crime e como prová-lo**.
+Voltemos ao caso Scheuberin para um ponto essencial. Todos naquele tribunal acreditavam em bruxaria. Ninguém duvidava que magia pudesse causar dano. A divergência era sobre **o que constitui o crime e como prová-lo**. Para os comissários do bispo, o crime era o *maleficium*: prove com testemunhos e indícios materiais. Para Institoris, provar a vida sexual era provar o crime. São **duas epistemologias jurídicas diferentes** dentro do mesmo tribunal, e o tribunal colapsa porque os juízes não compartilham a definição do tipo penal.
 
-Para os comissários do bispo, o crime era o *maleficium*: Helena matou alguém por magia? Causou doença? Prove com testemunhos e indícios materiais.
-
-Para Institoris, a prova era outra. Se Helena era sexualmente promíscua, então era bruxa, porque, como ele escreve, "é regra geral que todas as feiticeiras foram escravas da luxúria carnal desde a juventude." A devassidão *é* a bruxaria. Provar a vida sexual é provar o crime.
-
-Essas são **duas epistemologias jurídicas diferentes** colidindo dentro do mesmo tribunal. E o tribunal colapsa porque os juízes não compartilham a definição do tipo penal.
-
-Mas notem uma coisa que complexifica a narrativa. Os comissários do bispo não anulam o processo por compaixão ou por duvidar da bruxaria. Anulam por **vícios procedimentais**. Há um advogado de defesa. Há regras. E elas são invocadas contra o próprio inquisidor. Isso nos obriga a repensar a ideia de que o processo inquisitorial era arbítrio puro.
+Notem ainda que os comissários não anulam por compaixão. Anulam por **vícios procedimentais**. Há advogado de defesa. Há regras. E elas são invocadas contra o próprio inquisidor. A justiça hegemônica não era arbítrio puro.
 
 ---
 
-## Travessia atlântica: a Bahia de 1591 [5:30–8:00]
+## Travessia atlântica: "Arde-lhe-o-Rabo" [4:30–8:30]
 
 Agora eu quero fazer uma travessia. Passamos de Innsbruck, 1485, para Salvador da Bahia, 1591. Cem anos depois. Outro continente. Outro sistema.
 
-Em junho de 1591, chega à Bahia o Visitador Heitor Furtado de Mendonça, enviado pelo Tribunal de Lisboa. O Brasil nunca teve um tribunal permanente da Inquisição; diferente do México e de Lima, aqui o Santo Ofício operava por visitações esporádicas. Furtado de Mendonça publica o Édito da Fé nas igrejas e abre o Tempo de Graça: um prazo em que quem confessasse voluntariamente recebia penas mais brandas.
+Em junho de 1591, chega à Bahia o Visitador Heitor Furtado de Mendonça, enviado pelo Tribunal de Lisboa. O Brasil nunca teve um tribunal permanente da Inquisição; diferente do México e de Lima, aqui o Santo Ofício operava por visitações esporádicas. A Primeira Visitação registrou 121 confissões e 212 denunciações.
 
-E é nesse contexto que aparece **Guiomar de Oliveira**. Ela não é acusada; ela é **confitente**. Vem denunciar Antônia Nóbrega, que lhe deu pós mágicos, incluindo "pós de osso de finado", que Guiomar misturou no vinho do marido "para ser seu amigo e serem bem-casados." Antônia teria dito expressamente que eram "coisas diabólicas, que os diabos lhe ensinaram."
+É nesse contexto que aparece Maria Gonçalves Cajada, conhecida como "Arde-lhe-o-Rabo". Laura de Mello e Souza a chamou de "a feiticeira mais famosa do Brasil quinhentista". E seu processo é fascinante porque é, ao mesmo tempo, o caso mais próximo do modelo europeu na Bahia e o que mais revela a distância entre o *Malleus* e a colônia.
 
-Notem a diferença em relação a Innsbruck. Aqui não há tribunal montado contra uma ré. Há uma mulher que vem espontaneamente denunciar outra. O crime não é o sabá demoníaco nem o pacto formal com o diabo. É **magia amorosa doméstica**: uma mulher tentando salvar seu casamento. E a rede é feminina: Antônia ensina, Guiomar executa, Guiomar denuncia. O inquisidor europeu, que no modelo do *Malleus* é quem constrói ativamente a categoria de bruxa, aqui é quase um receptor passivo de informações que as próprias mulheres trazem.
+Quem era ela? Natural de Estremoz, no Alentejo, filha de Pedro Gonçalves Cajado e Margarida Pires. Cristã-velha. Casada com Gaspar Pinto, marinheiro. Antes de chegar à Bahia, já tinha sido **degredada para Pernambuco** por seis anos, por incêndio de casas e agressão a um juiz. Cumpriu penitência pública com a carocha na cabeça diante da igreja de Pernambuco. Depois, transferida para a Bahia por volta de 1578, viveu ali mais de dez anos, sem endereço fixo.
 
-O segundo caso baiano é mais próximo do modelo europeu, mas ainda diverge. **Maria Gonçalves Cajada**, conhecida como "Arde-lhe-o-Rabo", é a feiticeira mais documentada da Primeira Visitação. Portuguesa de origem, já degredada para Pernambuco por incendiar casas e agredir um juiz. Praticava feitiçaria por encomenda: "conversava com demônios na mata", manipulava objetos, usava palavras da consagração da missa invertidas, desenhava pentagramas. Isso é o mais perto que chegamos do *Malleus* na Bahia.
+Em agosto de 1591, Catarina Fernandes e Isabel Monteira a denunciam ao Visitador. As acusações: praticava feitiçaria diabólica por encomenda, em troca de dinheiro e alimentos. "Conversava com demônios na mata." Manipulava objetos: botões, tecidos, óleo, galinha, rato. Usava palavras da consagração da missa invertidas. Desenhava pentagramas.
 
-Mas mesmo ela difere em pontos essenciais: não há sabá coletivo, não há pacto sexual com o diabo, e a magia é fundamentalmente um **serviço remunerado**. A pena é o degredo, não a fogueira. E a estratégia processual dela é reveladora: alega que os feitiços "não funcionaram." Há uma **negociação tácita** com o tribunal sobre os limites do confessável.
+Notem: isso é o mais perto que chegamos do *Malleus* na Bahia. Há invocação demoníaca. Há inversão da liturgia. Há pentagramas. Mas faltam elementos essenciais do modelo europeu: não há sabá coletivo. Não há pacto sexual com o diabo. E a magia é fundamentalmente um **serviço remunerado**: amansar maridos, enriquecer clientes. Cajada é uma profissional da feitiçaria, não a devota satânica do *Malleus*. O tipo penal compósito que Institoris construiu não se reproduz integralmente na colônia.
 
----
+A estratégia processual dela é reveladora. Inicialmente, alega que os feitiços "não funcionaram". É uma **negociação tácita** com o tribunal sobre os limites do confessável: admito a prática, mas nego a eficácia, e portanto o dano. Depois de três anos de processo, confessa.
 
-## Comparação e categorias [8:00–11:30]
+**A sentença.** Presa em 23 de janeiro de 1593, ouviu sentença no dia seguinte. De pé, descalça, com vela acesa na mão e mitra na cabeça, durante a leitura da sentença e a missa. Penitências espirituais. Jejuns de pão e água às sextas-feiras. Custas do processo. E degredo final para Portugal, para reunir-se ao marido. Isenta de açoites por doença.
 
-Olhando os três casos juntos, o que emerge?
+E há um detalhe extraordinário nos autos. O próprio tribunal registra: *"Parece que tudo são embustes e enganos as culpas desta ré."* Até os inquisidores duvidam. A justiça hegemônica hesita.
 
-**Primeiro, sobre jurisdição.** O *Malleus* é um instrumento da justiça hegemônica no sentido de Sbriccoli: publicização da ação penal, monopólio estatal-eclesiástico da persecução. Mas os três casos mostram que essa hegemonia é **incompleta e contestada**. Em Innsbruck, o bispo local funciona como freio ao inquisidor papal. Na Bahia, a ausência de tribunal permanente e a dependência de confissões voluntárias preservam um espaço de negociação dentro do próprio aparato inquisitorial. A justiça hegemônica, nos dois lados do Atlântico, carrega dentro de si resíduos da justiça negociada.
-
-**Segundo, sobre a historicidade do tipo penal.** A "bruxaria" não é uma categoria estável. O *Malleus* constrói uma versão; a Inquisição portuguesa opera com outra; na colônia, a prática absorve categorias completamente ausentes do universo europeu: o **calundu**, que é um ritual de cura e adivinhação de origem banto; a **mandinga**, que é um amuleto sincrético; o **curandeirismo** de matriz africana e indígena. A partir do século XVII, as acusações na colônia recaem cada vez mais sobre **mulheres negras, mestiças e indígenas**. O vetor de gênero que o *Malleus* estabelece se cruza na colônia com o vetor de **raça**. A bruxa europeia é construída pela sexualidade desordenada; a feiticeira colonial, pela racialização das práticas religiosas.
-
-**Terceiro, sobre circulação.** O *Malleus* circulou por toda a Europa, mas sua recepção em Portugal e na colônia foi indireta. Portugal seguia seus próprios Regimentos. Os conceitos do *Malleus* não foram simplesmente "recebidos" pelo sistema colonial; foram filtrados, deformados e recombinados com tradições locais. Falar de "influência" do *Malleus* na Inquisição baiana seria incorrer exatamente no tipo de simplificação que estamos tentando evitar neste curso. O conceito de **circulação** é mais adequado: há trânsito de categorias jurídicas no espaço atlântico, mas elas se transformam no caminho.
+O processo original está no Arquivo Nacional da Torre do Tombo, em Lisboa: processo nº 10748, Tribunal do Santo Ofício, Inquisição de Lisboa. Digitalizado.
 
 ---
 
-## Uma nota sobre gênero [11:30–13:00]
+## Comparação e categorias [8:30–11:30]
 
-O capítulo 7 do Broedel trata diretamente da questão de gênero. O *Malleus* afirma que "uma multidão maior de feiticeiras se encontra entre o sexo mais fraco das mulheres do que entre os homens." Na Europa dos séculos XVI e XVII, entre 70 e 80% dos condenados por bruxaria eram mulheres.
+Olhando os dois casos juntos, Innsbruck e Bahia, o que emerge?
 
-Christina Larner fez a pergunta decisiva: a caça às bruxas foi, na verdade, **caça às mulheres**? O viés de gênero do *Malleus* é descritivo ou prescritivo? Broedel argumenta que provavelmente é mais descritivo do que se costuma admitir: as pessoas nas comunidades locais realmente acusavam mais mulheres do que homens, antes mesmo do *Malleus*. Mas a interpretação que Institoris faz desse dado é inteiramente sua: ele vincula a bruxaria à sexualidade feminina desordenada de tal modo que a feminilidade desviante passa a ser, ela mesma, evidência de crime.
+**Primeiro, sobre jurisdição.** O *Malleus* é um instrumento da justiça hegemônica no sentido de Sbriccoli: publicização da ação penal, monopólio estatal-eclesiástico da persecução. Mas essa hegemonia é **incompleta e contestada**. Em Innsbruck, o bispo local funciona como freio ao inquisidor papal. Na Bahia, a ausência de tribunal permanente e a dependência de denúncias de vizinhos preservam um espaço de negociação dentro do próprio aparato inquisitorial. Maria Gonçalves negocia a confissão. O tribunal duvida. A justiça hegemônica, nos dois lados do Atlântico, carrega dentro de si resíduos da justiça negociada.
 
-Na Bahia, a lógica é outra, mas o resultado converge: também são majoritariamente mulheres as acusadas. Só que a construção do sujeito criminoso passa pela raça, não pela sexualidade. A feiticeira colonial é a calunduzeira negra, a curandeira indígena, a mandingueira mestiça. Dois sistemas distintos de construção do sujeito penal feminino, separados por um oceano, produzindo efeitos estruturalmente análogos.
+**Segundo, sobre a historicidade do tipo penal.** A "bruxaria" não é uma categoria estável. O *Malleus* constrói uma versão compósita: funde *maleficium*, heresia, demonolatria, voo noturno e espíritos femininos. Na colônia, o tipo se decompõe e se recompõe com categorias locais: o *calundu*, a *mandinga*, o curandeirismo. Maria Gonçalves Cajada ocupa o limiar: reproduz elementos europeus, mas os insere num contexto de serviço remunerado e circulação atlântica que o *Malleus* não prevê. E a sua própria trajetória biográfica é uma circulação forçada: Estremoz, Pernambuco, Bahia, Portugal.
+
+**Terceiro, sobre gênero e raça.** O *Malleus* afirma que "uma multidão maior de feiticeiras se encontra entre o sexo mais fraco das mulheres do que entre os homens." Na Europa dos séculos XVI e XVII, entre 70 e 80% dos condenados por bruxaria eram mulheres. Na Bahia, Maria Gonçalves é cristã-velha e portuguesa, mas ela representa uma exceção: a partir do século XVII, as acusações coloniais recaem cada vez mais sobre **mulheres negras, mestiças e indígenas**, associadas ao calundu, à mandinga, ao curandeirismo. O vetor de gênero que o *Malleus* estabelece se cruza na colônia com o vetor de **raça**. A bruxa europeia é construída pela sexualidade desordenada; a feiticeira colonial, pela racialização das práticas religiosas. Dois sistemas distintos de construção do sujeito penal feminino, separados por um oceano, produzindo efeitos estruturalmente análogos.
 
 ---
 
-## Fechamento [13:00–15:00]
+## Fechamento [11:30–13:30]
 
-Para encerrar, gostaria de voltar à cena inicial. Helena Scheuberin cuspiu no inquisidor e disse que ele só pregava heresia. Institoris se sentiu tão humilhado que escreveu um livro de 200 páginas para provar que ela estava errada. E esse livro moldou a persecução penal da bruxaria na Europa por dois séculos.
+Para encerrar, gostaria de voltar a uma frase. O tribunal de Lisboa escreve sobre Maria Gonçalves Cajada: *"Parece que tudo são embustes e enganos as culpas desta ré."* E mesmo assim a condenam. A pena é leve, mas existe. Até quando duvidam, punem.
 
-Os três casos que vimos hoje mostram que a construção de um tipo penal nunca é um ato puramente técnico. É uma operação de poder que envolve escolhas sobre **quem** é o sujeito do crime, **o que** conta como prova, e **qual** autoridade tem jurisdição para decidir. O *Malleus* respondeu a essas perguntas de um modo. A Inquisição na Bahia respondeu de outro. E o que nos cabe, como historiadores do direito penal, é recusar a naturalização dessas categorias e perguntar, em cada caso, **como** e **por quê** aquela resposta foi construída.
+Essa tensão revela algo sobre a construção do tipo penal que vimos hoje. A bruxaria nunca foi uma categoria jurídica estável. Institoris tentou estabilizá-la no *Malleus*, fundindo cinco tradições num tipo compósito. Mas quando essa construção viaja pelo Atlântico e chega à Bahia, encontra uma realidade que a deforma. Maria Gonçalves Cajada não é a bruxa do *Malleus*: é uma profissional da magia, sem sabá, sem pacto sexual, sem comunidade demoníaca. E o tribunal sabe disso. Mas o aparato institucional já está em movimento.
+
+O que nos cabe, como historiadores do direito penal, é recusar a naturalização dessas categorias e perguntar, em cada caso, **como** e **por quê** aquela resposta foi construída.
 
 Obrigada. Estou à disposição para perguntas.
 
 ---
 
-> **Nota de tempo:** ~2.200 palavras. A 150 palavras/minuto (ritmo acadêmico confortável), dá ~14:40.
+> **Nota de tempo:** ~2.100 palavras. A 150 palavras/minuto (ritmo acadêmico confortável), dá ~14:00.
