@@ -1,10 +1,10 @@
 {
-  "translucency": false,
-  "accentColor": "doNotChange",
-  "showRibbon": true,
-  "cssTheme": "Retroma",
-  "baseFontSizeAction": true,
-  "theme": "moonstone",
+  "interfaceFontFamily": "Andale Mono",
   "baseFontSize": 17,
-  "interfaceFontFamily": "Andale Mono"
+  "baseFontSizeAction": true,
+  "translucency": false,
+  "showRibbon": true,
+  "theme": "moonstone",
+  "accentColor": "doNotChange",
+  "cssTheme": "Retroma"
 }
