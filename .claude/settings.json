@@ -8,6 +8,16 @@
             "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/session-start.sh"
           }
         ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ ! -d /Volumes/ICONOCRACIA ]; then echo '{\"systemMessage\":\"SSD externo ICONOCRACIA nao montado. Symlinks em data/raw/ nao funcionarao.\"}'; else count=$(jq '.items | length' \"$CLAUDE_PROJECT_DIR/corpus/corpus-data.json\" 2>/dev/null || echo '?'); echo \"{\\\"systemMessage\\\":\\\"SSD montado. Corpus: $count itens.\\\"}\"; fi",
+            "timeout": 5,
+            "statusMessage": "Checking environment..."
+          }
+        ]
       }
     ],
     "PreToolUse": [
@@ -17,7 +27,17 @@
           {
             "type": "command",
             "command": "echo \"$CLAUDE_FILE_PATH\" | grep -qE 'tese/manuscrito/(Capitulo|Introducao|sumario).*_original' && echo '{\"decision\":\"block\",\"reason\":\"Arquivo original do manuscrito protegido. Use vault/tese/ para rascunhos revisados.\"}' || true",
-            "statusMessage": "Verificando proteção do manuscrito..."
+            "statusMessage": "Verificando protecao do manuscrito..."
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path' | { read -r f; echo \"$f\" | grep -q 'vault/candidatos/' && basename \"$f\" | grep -qvE '^[A-Z]{2}-[0-9]{3} ' && echo '{\"decision\":\"block\",\"reason\":\"Vault note must follow pattern: CC-NNN Description.md (e.g. FR-013 Marianne.md)\"}'; } || true",
+            "statusMessage": "Checking vault naming..."
           }
         ]
       }
@@ -30,6 +50,16 @@
             "type": "command",
             "command": "echo \"$CLAUDE_FILE_PATH\" | grep -q vault/candidatos/SCOUT- && echo \"Vault note saved: $(basename \"$CLAUDE_FILE_PATH\")\" || true",
             "statusMessage": "Tracking vault writes..."
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path' | { read -r f; echo \"$f\" | grep -qE 'vault/candidatos/.*\\.md$' && cd /Users/ana/iconocracy-corpus && git add \"$f\" 2>/dev/null; } || true",
+            "async": true
           }
         ]
       },
@@ -59,8 +89,47 @@
         "hooks": [
           {
             "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -q 'corpus-data.json' && count=$(jq '.items | length' /Users/ana/iconocracy-corpus/corpus/corpus-data.json 2>/dev/null) && echo \"{\\\"hookSpecificOutput\\\":{\\\"hookEventName\\\":\\\"PostToolUse\\\",\\\"additionalContext\\\":\\\"Corpus now has $count items.\\\"}}\"; } || true"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -qE 'tese/manuscrito/.*\\.md$' && wc -w < \"$f\" | { read -r w; echo \"{\\\"systemMessage\\\":\\\"Chapter word count: $w words\\\"}\"; }; } || true",
+            "statusMessage": "Counting words..."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -qE 'tools/scripts/.*\\.py$' && python3 -m py_compile \"$f\" 2>&1 | head -5; } || true",
+            "statusMessage": "Checking Python syntax..."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
             "command": "echo \"$CLAUDE_FILE_PATH\" | grep -qE 'tese/manuscrito/.*\\.md$' && echo \"Thesis chapter edited: $(basename $CLAUDE_FILE_PATH). Consider running /abnt-checker and /chapter-integrity.\" || true",
             "statusMessage": "Checking thesis chapter..."
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreCompact\",\"additionalContext\":\"IMPORTANT: Preserve any corpus item IDs (e.g. FR-013, BR-001), Iconclass codes, ENDURECIMENTO scores, and vault note paths discussed in this session. Also preserve the current state of any ongoing SCOUT campaigns.\"}}'"
           }
         ]
       }
