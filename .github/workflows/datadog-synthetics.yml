@@ -11,13 +11,10 @@
 # 1. Add your Datadog API (DD_API_KEY) and Application Key (DD_APP_KEY) as secrets to your GitHub repository. For more information, see: https://docs.datadoghq.com/account_management/api-app-keys/.
 # 2. Start using the action within your workflow
 
-name: Run Datadog Synthetic tests
+name: Run Datadog Synthetic Tests (Dormant)
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -35,5 +32,4 @@ jobs:
         app_key: ${{ secrets.DD_APP_KEY }}
         site: us5.datadoghq.com
         test_search_query: 'tag:e2e-tests' #Modify this tag to suit your tagging strategy
-
 

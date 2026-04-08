@@ -1,7 +1,10 @@
 # ADR-002: Notion como índice catalográfico
 
-**Status:** Aceito
+**Status:** Superado por ADR-004
 **Data:** 2026-03-22
+
+> Histórico: esta decisão foi substituída pelo uso do vault Obsidian como
+> espelho catalográfico. O texto abaixo é mantido apenas para referência.
 
 ## Decisão
 

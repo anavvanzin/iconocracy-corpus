@@ -1,65 +1,23 @@
-# Schema das Databases Notion
+# Notion Schema (Historical)
 
-Mapa das databases Notion usadas como índice do corpus.
-Referência: [ADR-002](adr/002-notion-as-index.md)
+**Status:** archived  
+**Superseded by:** [ADR-004](adr/004-vault-as-index.md)
 
-## Database Principal: Corpus Iconocracia
+Notion is no longer part of the active ICONOCRACY operating model.
 
-| Propriedade | Tipo Notion | Campo JSONL | Notas |
-|-------------|-------------|-------------|-------|
-| Nome | Title | `webscout.title` | Título do item |
-| item_id | Text | `item_id` | UUID, chave de sync |
-| batch_id | Text | `batch_id` | UUID do lote |
-| País | Select | `webscout.country` | |
-| Período | Select | `webscout.period` | |
-| Data | Text | `webscout.date` | |
-| Criador | Text | `webscout.creator` | |
-| Instituição | Select | `webscout.institution` | |
-| Medium | Select | `webscout.medium` | |
-| URL Fonte | URL | `input.input_url` | |
-| Thumbnail | URL | `webscout.thumbnail_url` | |
-| Motivo | Multi-select | `iconocode.codes[].label` | Iconclass labels |
-| Confiança | Number | `iconocode.confidence` | 0.0–1.0 |
-| Citação ABNT | Text | `exports.abnt_citations[0]` | |
-| Audit Flags | Multi-select | `exports.audit_flags` | |
-| Status | Status | — | Workflow manual |
+Current workflow:
 
-## Database Auxiliar: Indicadores de Purificação
+- `data/processed/records.jsonl` is the canonical operational ledger
+- `vault/candidatos/` is the auxiliary cataloguing mirror
+- `corpus/corpus-data.json` is the public-facing export
 
-| Propriedade | Tipo | Escala |
-|-------------|------|--------|
-| item_id | Relation → Corpus | — |
-| desincorporacao | Number | 0–3 |
-| rigidez_postural | Number | 0–3 |
-| dessexualizacao | Number | 0–3 |
-| uniformizacao_facial | Number | 0–3 |
-| heraldizacao | Number | 0–3 |
-| enquadramento_arquitetonico | Number | 0–3 |
-| apagamento_narrativo | Number | 0–3 |
-| monocromatizacao | Number | 0–3 |
-| serialidade | Number | 0–3 |
-| inscricao_estatal | Number | 0–3 |
-| indice_purificacao | Formula | mean dos 10 indicadores |
+The old Notion mapping is preserved only as historical context in git history.
+Do not build new workflow or automation against `notion_sync.py`.
 
-## Variáveis de Ambiente
-
-| Variável | Descrição |
-|----------|-----------|
-| `NOTION_API_KEY` | Token de integração Notion |
-| `NOTION_CORPUS_DB_ID` | ID da database principal |
-| `NOTION_PURIFICACAO_DB_ID` | ID da database de indicadores |
-
-## Sincronização
-
-Script: `tools/scripts/notion_sync.py`
+Use instead:
 
 ```bash
-# Notion → JSONL (pull)
-python tools/scripts/notion_sync.py pull
-
-# JSONL → Notion (push)
-python tools/scripts/notion_sync.py push
-
-# Sync bidirecional (last-write-wins)
-python tools/scripts/notion_sync.py sync
+python tools/scripts/vault_sync.py status
+python tools/scripts/vault_sync.py diff
+python tools/scripts/vault_sync.py sync
 ```

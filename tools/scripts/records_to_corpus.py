@@ -197,18 +197,22 @@ def export_corpus(
 
 def show_diff(records: list[dict], existing_corpus: dict[str, dict]) -> None:
     """Show a summary of differences between records.jsonl and corpus-data.json."""
-    rec_urls = set()
+    rec_items: dict[str, str] = {}
     for rec in records:
         sr = rec.get("webscout", {}).get("search_results", [{}])
         url = sr[0].get("url", "") if sr else ""
-        if url:
-            rec_urls.add(url)
+        item_id = rec.get("item_id", "(sem-item-id)")
+        key = url or f"(sem URL)::{item_id}"
+        rec_items[key] = url or "(sem URL)"
 
-    corpus_urls = {item.get("url", ""): item_id
-                   for item_id, item in existing_corpus.items()}
+    corpus_items = {}
+    for item_id, item in existing_corpus.items():
+        url = item.get("url", "")
+        key = url or f"(sem URL)::{item_id}"
+        corpus_items[key] = {"id": item_id, "url": url or "(sem URL)"}
 
-    only_in_records = rec_urls - set(corpus_urls.keys())
-    only_in_corpus = set(corpus_urls.keys()) - rec_urls
+    only_in_records = set(rec_items.keys()) - set(corpus_items.keys())
+    only_in_corpus = set(corpus_items.keys()) - set(rec_items.keys())
 
     print(f"records.jsonl items:   {len(records)}")
     print(f"corpus-data.json items:{len(existing_corpus)}")
@@ -216,17 +220,16 @@ def show_diff(records: list[dict], existing_corpus: dict[str, dict]) -> None:
 
     if only_in_records:
         print(f"Only in records.jsonl ({len(only_in_records)}):")
-        for url in sorted(only_in_records)[:10]:
-            print(f"  + {url[:80]}")
+        for key in sorted(only_in_records)[:10]:
+            print(f"  + {rec_items[key][:80]}")
         if len(only_in_records) > 10:
             print(f"  ... and {len(only_in_records) - 10} more")
 
     if only_in_corpus:
         print(f"\nOnly in corpus-data.json ({len(only_in_corpus)}):")
-        for url in sorted(only_in_corpus)[:10]:
-            cid = corpus_urls.get(url, "?")
-            url_str = str(url) if url else "(sem URL)"
-            print(f"  - [{cid}] {url_str[:80]}")
+        for key in sorted(only_in_corpus)[:10]:
+            payload = corpus_items[key]
+            print(f"  - [{payload['id']}] {payload['url'][:80]}")
         if len(only_in_corpus) > 10:
             print(f"  ... and {len(only_in_corpus) - 10} more")
 
