@@ -1,5 +1,9 @@
 # CODEBOOK DE PROMPTS — ICONOCRACIA
 
+> Nota operacional (2026-04-06): as seções referentes a Notion permanecem aqui
+> apenas como registro histórico. O fluxo ativo usa `records.jsonl` +
+> `vault_sync.py` + releases explícitos no Hugging Face.
+
 **Projeto:** Iconocracia · Alegoria Feminina na Historia da Cultura Juridica (Seculos XIX-XX)
 **Versao:** 1.1 · Marco 2026
 **Uso:** Referencia rapida para interacao com Claude em qualquer etapa do projeto.

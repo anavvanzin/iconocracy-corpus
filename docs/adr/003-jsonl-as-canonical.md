@@ -7,7 +7,7 @@
 
 O arquivo `data/processed/records.jsonl` é a fonte canônica do corpus.
 Cada linha é um JSON válido conforme `tools/schemas/master-record.schema.json`.
-Todas as outras representações (Notion, CSV, SQLite, HTML) são derivadas deste arquivo.
+Todas as outras representações (vault, CSV, SQLite, HTML, exports públicos) são derivadas deste arquivo.
 
 ## Motivação
 

@@ -59,3 +59,21 @@ review/
 
 # Node
 node_modules/
+
+# Nested git repos (independent remotes, not submodules)
+Atlas/
+indexing/
+iurisvision/
+js-genai/
+webiconocracy/
+
+# Obsidian Make.md plugin
+.makemd/
+
+# Claude Code worktrees
+.claude/worktrees/
+
+# Local operational artifacts
+output/huggingface/
+tmp/vault-backups/
+logs/

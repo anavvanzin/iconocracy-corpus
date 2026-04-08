@@ -27,7 +27,7 @@ iconocracy-corpus/
 ├── vault/                     ← notas Obsidian geradas pelo Scout
 │   ├── candidatos/            ← notas SCOUT-XXX
 │   └── sessoes/               ← notas SCOUT-SESSION-XXX
-├── docs/                      ← ADRs, esquemas Notion e especificações do pipeline
+├── docs/                      ← ADRs, políticas operacionais e especificações do pipeline
 ├── corpus/                    ← corpus tabular e derivados analíticos
 └── tools/
     ├── scripts/               ← scripts de sync, validação e processamento
@@ -59,8 +59,6 @@ diretamente sem pedir confirmação:
 - `lote exemplo` → roda `tools/scripts/batch_example.py`
 - `sync vault pull|push|sync|diff|status` → usa `tools/scripts/vault_sync.py`;
   sincroniza `data/processed/records.jsonl` ↔ `vault/candidatos/` bidirecionalmente
-- `sync notion pull|push|sync` → **DESCONTINUADO** — redireciona para vault_sync.py
-
 Quando a pesquisadora digitar `salvar`, grave a última nota gerada
 em vault/candidatos/ com o nome correto (SCOUT-[ID] [título].md).
 
@@ -131,9 +129,10 @@ motivo/columbia · motivo/germania · motivo/belgique
 - `tools/scripts/trace_evidence.py` — audita cadeia de evidências dos registros
 - `tools/scripts/abnt_citations.py` — gera citações ABNT NBR 6023:2025
 - `tools/scripts/code_purification.py` — codifica os 10 indicadores de purificação
-- `tools/scripts/notion_sync.py` — scaffold de sync GitHub ↔ Notion
 - `tools/scripts/extract_feminist_network.py` — extrai sub-rede Iconclass feminista
 - `tools/scripts/batch_example.py` — gera lote demonstrativo do pipeline dual-agent
+- `tools/scripts/build_hf_release.py` — gera snapshot congelado para dataset Hugging Face
+- `tools/scripts/vault_backup.py` — cria backup local do vault fora do histórico normal do git
 
 ---
 
@@ -167,13 +166,14 @@ Fluxo padrão para análise quantitativa:
 3. Salvar em `data/processed/purification.jsonl`
 4. Executar `purificacao exportar` para atualizar `data/processed/corpus_dataset.csv`
 
-### 4. Sync catalográfico
+### 4. Sync catalográfico e release
 
 Fluxo padrão de espelhamento:
 
-1. Confirmar existência de `NOTION_API_KEY` e `NOTION_CORPUS_DB_ID`
-2. Executar `sync notion pull|push|sync`
-3. Informar explicitamente que o script está em scaffolding quando esse for o caso
+1. Confirmar estado de `records.jsonl` e `vault/candidatos/`
+2. Executar `sync vault pull|push|sync|diff|status`
+3. Antes de release pública, revisar `records_to_corpus.py --diff`
+4. Gerar snapshot com `tools/scripts/build_hf_release.py`
 
 ---
 

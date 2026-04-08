@@ -3,12 +3,16 @@ name: Validate Schemas
 on:
   push:
     paths:
+      - 'corpus/**'
       - 'data/processed/**'
       - 'tools/schemas/**'
+      - 'tools/scripts/**'
   pull_request:
     paths:
+      - 'corpus/**'
       - 'data/processed/**'
       - 'tools/schemas/**'
+      - 'tools/scripts/**'
 
 jobs:
   validate:
@@ -52,12 +56,14 @@ jobs:
             exit 1
           fi
 
+      - name: Show purification status
+        run: python tools/scripts/code_purification.py --status
+
       - name: Reject binary files in data/raw/
         run: |
-          BINARIES=$(git diff --cached --name-only --diff-filter=A -- 'data/raw/' | grep -vE '\.(json|md|gitkeep)$' || true)
+          BINARIES=$(find data/raw -type f ! -name '*.json' ! -name '*.md' ! -name '.gitkeep' || true)
           if [ -n "$BINARIES" ]; then
             echo "::error::Binary files detected in data/raw/ — use Google Drive instead (ADR-001)"
             echo "$BINARIES"
             exit 1
           fi
-

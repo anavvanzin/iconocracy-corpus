@@ -6,13 +6,32 @@ Monorepo for the doctoral research project *"Iconocracy: Female Allegory in the 
 
 ---
 
+## Operating Model
+
+This repository now works through three explicit surfaces:
+
+- local thesis work: corpus expansion, coding, manuscript, vault
+- GitHub: canonical history, lightweight issues, validation, publication backbone
+- Hugging Face: frozen dataset snapshots plus a read-only public explorer
+
+Canonical data hierarchy:
+
+1. `data/processed/records.jsonl` — operational ledger
+2. `corpus/corpus-data.json` — public-facing export
+3. `data/processed/purification.jsonl` — ENDURECIMENTO coding ledger
+4. `vault/candidatos/` — auxiliary mirror only
+
+See [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md) and [docs/huggingface-release.md](docs/huggingface-release.md).
+
+---
+
 ## Structure
 
 ```
 iconocracy/
 ├── corpus/                    # Searchable iconographic corpus
 │   ├── index.html             # Browser-based search interface
-│   ├── corpus-data.json       # Full corpus dataset (66 items, CC BY 4.0)
+│   ├── corpus-data.json       # Public corpus export (145 items in the current local snapshot)
 │   ├── DASHBOARD_CORPUS.html  # Interactive analytical dashboard (Chart.js)
 │   └── atlas-iconometrico.html # Visual atlas (React app)
 ├── tese/                      # Doctoral manuscript and research outputs
@@ -28,7 +47,7 @@ iconocracy/
 │   ├── schemas/               # JSON schemas (IconoCode, WebScout, master records)
 │   ├── sql/                   # Database migrations for dual-agent corpus
 │   └── atlas_lab/             # AtlasLab interactive viewer (JSX)
-├── data/                      # Datasets (traceability: Drive → GitHub → Notion)
+├── data/                      # Datasets (traceability: Drive → GitHub → vault)
 │   ├── raw/                   # Manifests and Drive links only (never raw files)
 │   ├── interim/               # Data in transformation
 │   ├── processed/             # Datasets ready for analysis
@@ -51,7 +70,7 @@ iconocracy/
 
 A searchable database of feminist legal iconography across European and Brazilian archives, documenting how female allegorical figures — Justice, the Republic, Marianne, Justitia — have shaped the visual vocabulary of law and state power.
 
-**`corpus-data.json`** — 66 catalogued items (March 2026). Fields: `id`, `title`, `date`, `period`, `creator`, `institution`, `source_archive`, `country`, `medium`, `motif`, `description`, `url`, `thumbnail_url`, `rights`, `citation_abnt`, `citation_chicago`, `tags`. Countries covered: France (13), Germany (11), Brazil (10), USA (9), Portugal (5), Belgium (4), Italy (4), UK (4), Netherlands (3), Austria (2), Switzerland (1).
+**`corpus-data.json`** — public release export of the corpus (145 items in the current local snapshot). Fields include `id`, `title`, `date`, `period`, `creator`, `institution`, `source_archive`, `country`, `medium`, `motif`, `description`, `url`, `thumbnail_url`, `rights`, `citation_abnt`, `citation_chicago`, `tags`, `regime`, `endurecimento_score`, and `indicadores`.
 
 **`DASHBOARD_CORPUS.html`** — Self-contained interactive dashboard. Open in any browser. Includes: Gallery + Table views, modal with full metadata and copy-ready citations, filters by country/period/medium/archive/motif, 6 Chart.js charts (country, medium, period, sources, top motifs, top tags), 6 KPI cards.
 
@@ -68,10 +87,13 @@ Research automation pipeline built on the [Iconclass](https://iconclass.org/) cl
 | Script | Purpose |
 |---|---|
 | `abnt_citations.py` | Generate ABNT NBR 6023:2025 citations |
+| `build_hf_release.py` | Build a frozen Hugging Face dataset snapshot and dataset card |
 | `extract_feminist_network.py` | Extract feminist iconography subnetwork from Iconclass |
+| `sync_github_labels.py` | Apply the small GitHub label set once auth is available |
 | `batch_example.py` | Batch processing pipeline demo |
 | `trace_evidence.py` | Evidence chain tracer for corpus entries |
 | `validate_schemas.py` | JSON schema validation for pipeline outputs |
+| `vault_backup.py` | Create timestamped local vault backups outside `main` |
 | `make_sqlite.py` | Build SQLite database from Iconclass data |
 | `make_index.py` / `make_skos.py` | Index and SKOS generation utilities |
 
@@ -100,7 +122,8 @@ Doctoral manuscript materials for *"Iconocracy: Female Allegory in the History o
 
 - **Iconclass Python library:** [iconclass/code](https://github.com/iconclass/code) — Software libraries for the Iconclass Classification System
 - **Iconclass website:** [iconclass.org](https://iconclass.org/)
-- **Research HQ:** [ICONOCRACY HQ on Notion](https://www.notion.so/322158101a0581568e58cfc997b7b727)
+- **Hugging Face dataset:** [warholana/iconocracy-corpus](https://hf.co/datasets/warholana/iconocracy-corpus)
+- **Operating model:** [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md)
 
 ## Citation
 

@@ -12,7 +12,7 @@ O GitHub armazena apenas manifests JSON com o caminho Drive e o item_id correspo
 
 - Evitar arquivos binários grandes no git
 - Drive tem versionamento e compartilhamento granular
-- Permite citar a URL do Drive nas fichas Notion como "fonte da verdade"
+- Permite citar a URL do Drive nos registros canônicos e notas do vault como "fonte da verdade"
 
 ## Consequências
 

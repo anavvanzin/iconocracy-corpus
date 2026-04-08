@@ -1,0 +1,32 @@
+[
+  {
+    "name": "corpus",
+    "color": "8B5E34",
+    "description": "Corpus expansion, cataloguing, provenance, and evidence work."
+  },
+  {
+    "name": "coding",
+    "color": "7A1F3D",
+    "description": "Purification coding, quantitative analysis, and codebook work."
+  },
+  {
+    "name": "writing",
+    "color": "2D4F6C",
+    "description": "Thesis chapters, notes, argument structure, and editorial work."
+  },
+  {
+    "name": "infra",
+    "color": "4E6130",
+    "description": "Repository hygiene, CI, deployment, release tooling, and automation."
+  },
+  {
+    "name": "blocked",
+    "color": "B85C00",
+    "description": "Waiting on access, a decision, or an external dependency."
+  },
+  {
+    "name": "release",
+    "color": "C39B1F",
+    "description": "Ready for or tied to a public/internal release milestone."
+  }
+]

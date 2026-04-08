@@ -63,7 +63,7 @@ O **score de ENDURECIMENTO** é a média dos 10 indicadores (faixa 0,0–3,0). O
 
 #### Indicadores morfológicos vs. indicadores materiais
 
-A análise estatística do corpus (N=106 itens codificados à data da análise, ver Capítulo 6) revelou uma distinção metodologicamente importante entre dois grupos de indicadores. Os indicadores 1–7 (*desincorporação*, *rigidez*, *dessexualização*, *uniformização*, *heraldicização*, *enquadramento*, *apagamento*) medem propriedades do *corpo representado* — são indicadores **morfológicos** cuja variação reflete escolhas iconográficas deliberadas. Os indicadores 8–10 (*monocromatização*, *serialidade*, *inscrição estatal*) medem propriedades do *suporte material* — são indicadores **materiais** cuja variação pode ser determinada pelo meio (uma gravura é necessariamente monocromática; uma moeda é necessariamente serial) tanto quanto por uma escolha ideológica.
+A análise estatística do corpus (N=145 itens codificados, ver Capítulo 6) revelou uma distinção metodologicamente importante entre dois grupos de indicadores. Os indicadores 1–7 (*desincorporação*, *rigidez*, *dessexualização*, *uniformização*, *heraldicização*, *enquadramento*, *apagamento*) medem propriedades do *corpo representado* — são indicadores **morfológicos** cuja variação reflete escolhas iconográficas deliberadas. Os indicadores 8–10 (*monocromatização*, *serialidade*, *inscrição estatal*) medem propriedades do *suporte material* — são indicadores **materiais** cuja variação pode ser determinada pelo meio (uma gravura é necessariamente monocromática; uma moeda é necessariamente serial) tanto quanto por uma escolha ideológica.
 
 Essa distinção emergiu de forma inesperada quando dois indicadores perderam significância estatística na comparação entre regimes. A *monocromatização* apresentou p=0,056 no teste de Kruskal-Wallis sobre os três regimes; contudo, quando controlada pelo suporte material (analisando apenas gravuras), a significância foi recuperada com força (p=0,0006). O padrão subjacente é revelador: o regime MILITAR privilegiou cartazes policromos (propaganda requer cor para mobilizar), enquanto o regime NORMATIVO privilegiou moedas e selos monocromáticos (rotinização burocrática tende ao minimalismo cromático). O indicador mede, assim, uma interação real entre ideologia e materialidade — não um artefato.
 
@@ -91,17 +91,23 @@ Um achado inesperado dentro do regime MILITAR: a diferença entre artistas. O ca
 
 #### Contra-alegoria
 
-Imagens que subvertem deliberadamente o repertório alegórico oficial. Detectado na análise qualitativa de dois itens franceses: a *République aimable* de Félicien Rops (FR-005, 1871, ENDURECIMENTO 0,8) — uma Marianne irônica, mão na cintura, lorgnette ao rosto, inscrevendo "RES PUBLICA / THIERS / ÉTAT !" num cartucho de cadeira — e *Le hochet de la République* de Jean Veber (FR-010, c. 1904, ENDURECIMENTO 0,3) — uma Marianne grotesca, sorridente, grotescamente corpulenta, barrete frígio vermelho, abraçando um crucifixo, enquanto o título reduz a República a um *hochet* (chocalho de bebê).
+Imagens que subvertem deliberadamente o repertório alegórico oficial. O corpus inclui 7 itens classificados como contra-alegoria, que operam por três mecanismos distintos:
 
-Estes itens resistem à classificação nos três regimes porque sua função não é legitimar, estabilizar ou mobilizar o Estado, mas *delegitimá-lo*. O ENDURECIMENTO é mínimo (média 0,55) precisamente porque a sátira recusa a purificação: o corpo permanece individual, sexualizado, expressivo, narrativo — tudo que o processo de ENDURECIMENTO elimina. A contra-alegoria demonstra, por negação, o que o regime NORMATIVO suprime.
+**Subversão por grotesco.** A *République aimable* de Félicien Rops (FR-005, 1871, ENDURECIMENTO 0,8) — uma Marianne irônica, mão na cintura, lorgnette ao rosto — e a *Notre-Dame des colonies* de Jean Veber (FR-022, 1909, ENDURECIMENTO 0,3) — uma Marianne grotescamente obesa, flanqueada por figuras colonizadas emaciadas, parodiando simultaneamente a iconografia republicana e religiosa a serviço da crítica anticolonial. A *Madame Anastasie* de André Gill (FR-031, 1874, ENDURECIMENTO 0,4) personifica a censura como velha de tesoura — inversão deliberada de cada código da Feminilidade de Estado.
+
+**Subversão por desmembramento.** *Liberty Is Not Anarchy* de Thomas Nast (US-019, 1886, ENDURECIMENTO 1,7) — o caso mais radical de desincorporação do corpus: o corpo alegórico feminino é literalmente eliminado, reduzido a mãos gigantescas que esmagam anarquistas. A dessexualização, a uniformização facial e a desincorporação atingem o grau máximo (3) não por abstração institucional, mas por amputação — a purificação última é a ausência do corpo.
+
+**Subversão por ausência.** *Looking Backward* de Joseph Keppler (US-020, 1893, ENDURECIMENTO 0,5) — a *ausência alegórica* como forma mais radical de contra-alegoria. Numa cena que por todas as convenções exigiria a presença de Columbia/Liberty (imigração, acolhimento), a alegoria simplesmente não aparece. O Contrato Sexual Visual é denunciado pela negação: o corpo materno-acolhedor que deveria legitimar a política de imigração foi retirado, expondo o interesse de classe subjacente.
+
+Estes itens resistem à classificação nos três regimes porque sua função não é legitimar, estabilizar ou mobilizar o Estado, mas *delegitimá-lo*. O ENDURECIMENTO médio é de 0,63 (N=7), o mais baixo dos quatro regimes, precisamente porque a sátira recusa a purificação: o corpo permanece individual, sexualizado, expressivo, narrativo — tudo que o processo de ENDURECIMENTO elimina. A contra-alegoria demonstra, por negação, o que o regime NORMATIVO suprime.
 
 ---
 
 ### 2.5 Validação: codificação por imagem vs. codificação por metadados
 
-O corpus foi inicialmente codificado em lote em 31 de março de 2026 (N=106) utilizando metadados textuais (título, descrição, data, país, suporte) sem inspeção visual direta das imagens. Essa codificação inicial foi realizada pelo modelo Claude Opus 4.6 ("iconocode-opus") com base nos descritores disponíveis. Subsequentemente, 10 itens franceses (FR-001 a FR-010) foram recodificados com inspeção visual direta da imagem original obtida por protocolo IIIF, pelo mesmo modelo ("iconocode-opus-4.6-image"), em 2 e 3 de abril de 2026.
+O corpus foi inicialmente codificado em lote em 31 de março de 2026 (N=106) utilizando metadados textuais (título, descrição, data, país, suporte) sem inspeção visual direta das imagens. Essa codificação inicial foi realizada pelo modelo Claude Opus 4.6 ("iconocode-opus") com base nos descritores disponíveis. Subsequentemente, duas rodadas de recodificação com inspeção visual foram conduzidas: (a) 10 itens franceses (FR-001 a FR-010) em 2–3 de abril de 2026, e (b) 10 itens adicionais (FR-021 a FR-030) em 7 de abril de 2026, ambas pelo mesmo modelo ("iconocode-opus-4.6-image") com acesso direto às imagens via protocolo IIIF da Gallica/BnF.
 
-A comparação entre as duas codificações revelou padrões sistemáticos:
+#### Rodada 1: FR-001 a FR-010 (codificação exploratória)
 
 | Item | Score por metadados | Score por imagem | Delta |
 |------|--------------------:|------------------:|------:|
@@ -116,33 +122,58 @@ A comparação entre as duas codificações revelou padrões sistemáticos:
 | FR-009 | 2,4 | 2,4 | 0,0 |
 | FR-010 | 0,6 | 0,3 | –0,3 |
 
-O delta médio absoluto é de 0,18 ponto (numa escala de 0–3), com desvio padrão de 0,14. Não houve viés sistemático de sobre ou subestimação (média algébrica do delta ≈ –0,04). Contudo, os casos com maior discrepância revelaram informações que a descrição textual não continha:
+O delta médio absoluto foi de 0,18 ponto (escala 0–3), sem viés sistemático (média algébrica ≈ –0,04).
 
-- **FR-008** (delta –0,4): a descrição mencionava "cartaz de guerra de Steinlen"; a imagem revelou uma Marianne com *seio nu* empunhando espada, reclassificando *dessexualização* de 2 para 0.
-- **FR-010** (delta –0,3): a descrição dizia "gravura monocromática"; a imagem revelou uma *litografia policrômica* (barrete vermelho, pele rosa), reclassificando *monocromatização* de 2 para 1.
-- **FR-003** (delta +0,3): a descrição mencionava "gravura de Justiça"; a imagem revelou que a Justiça é uma figura *secundária* no fundo, enquanto o protagonista é um enviado *masculino* — achado invisível sem inspeção visual.
+#### Rodada 2: FR-021 a FR-030 (teste com série homogênea)
 
-Essas discrepâncias confirmam a necessidade da dupla codificação (metadados + imagem) e sugerem que a codificação por metadados é confiável para propriedades formais do suporte (monocromatização, serialidade) mas menos confiável para propriedades corporais (dessexualização, rigidez) que dependem da inspeção visual.
+A segunda rodada foi desenhada como teste mais exigente: os 10 itens incluem quatro cartazes do Emprunt National 1920 (FR-025, FR-026, FR-028, FR-029), encomendados por bancos diferentes mas todos classificados como regime NORMATIVO com ENDURECIMENTO idêntico de 2,0 pela codificação por metadados. A hipótese era que a codificação por imagem revelaria variação interna invisível aos metadados.
+
+| Item | Score por metadados | Score por imagem | Delta |
+|------|--------------------:|------------------:|------:|
+| FR-021 | 0,3 | 0,2 | –0,1 |
+| FR-022 | 0,7 | 0,3 | –0,4 |
+| FR-023 | 1,8 | 2,1 | +0,3 |
+| FR-024 | 1,8 | 1,8 | 0,0 |
+| FR-025 | 2,0 | 1,0 | –1,0 |
+| FR-026 | 2,0 | 1,3 | –0,7 |
+| FR-027 | 1,7 | 2,3 | +0,6 |
+| FR-028 | 2,0 | 0,4 | –1,6 |
+| FR-029 | 2,0 | 1,5 | –0,5 |
+| FR-030 | 1,8 | 1,5 | –0,3 |
+
+O delta médio absoluto foi de **0,55 ponto** — três vezes superior ao da Rodada 1 —, com amplitude de –1,6 a +0,6. A hipótese foi confirmada de forma contundente: os quatro cartazes do Emprunt National 1920, recebendo scores idênticos pela codificação por metadados, revelaram-se radicalmente diferentes pela inspeção visual:
+
+- **FR-025** (delta –1,0): a Société Générale encomendou uma Marianne em pleno *Nachleben* de Delacroix — corpo dinâmico, narrativa de reconstrução, policromo — resultando em ENDURECIMENTO 1,0.
+- **FR-026** (delta –0,7): a Banque Nationale de Paris encomendou de Francisque Poulbot uma *Marianne criança* descalça na praia, com barrete frígio e vestido tricolor — dessexualização máxima (3) por via de regressão etária, ENDURECIMENTO 1,3.
+- **FR-028** (delta –1,6): o Comptoir National d'Escompte encomendou uma Marianne Art Nouveau jardineira, com corpo naturalista, décolletage e rosas — quase nenhuma purificação, ENDURECIMENTO 0,4.
+- **FR-029** (delta –0,5): a Société Centrale des Banques de Province encomendou uma alegoria em ruínas de guerra, apontando para o horizonte industrial — registro intermediário, ENDURECIMENTO 1,5.
+
+Inversamente, os cartazes financeiro-administrativos (FR-023, FR-027) tiveram seu ENDURECIMENTO *subestimado* pela codificação por metadados, porque a subordinação da figura alegórica ao texto burocrático — Marianne como marca d'água atrás de taxas de juros, ou como pequena vinheta no alto de um documento de subscrição — só é perceptível visualmente.
+
+#### Conclusão metodológica
+
+As duas rodadas demonstram que a codificação por metadados é confiável para **propriedades do suporte** (monocromatização, serialidade, inscrição estatal) mas sistematicamente **nivela a variação** em propriedades corporais (dessexualização, rigidez, apagamento narrativo). O viés não é aleatório: metadados textuais tendem a classificar itens de mesma função institucional (cartaz de empréstimo de guerra) com scores similares, apagando as diferenças de estilo artístico que são precisamente o objeto da análise morfológica. A dupla codificação (metadados + imagem) é portanto indispensável, e os scores finais do corpus refletem, sempre que possível, a codificação por imagem.
 
 ---
 
 ### 2.6 O corpus: composição e fontes
 
-O corpus compreende 116 imagens oficiais e semi-oficiais coletadas em 12 acervos digitais, estratificadas por país, período e suporte material. Destas, 106 estão integralmente codificadas (10 indicadores + regime + análise Panofsky) e 10 encontram-se em processo de catalogação (FR-021 a FR-030, incorporadas ao corpus em abril de 2026).
+O corpus compreende 145 imagens oficiais e semi-oficiais coletadas em 15 acervos digitais, estratificadas por país, período e suporte material. Todas as 145 estão integralmente codificadas (10 indicadores + regime + análise Panofsky), sendo 20 codificadas por inspeção visual direta (IIIF) e 125 por metadados refinados.
 
 | País | N | Fontes principais |
 |------|---|------------------|
-| França | 34 | Gallica (BnF), Europeana |
-| Alemanha | 16 | Deutsche Digitale Bibliothek, Europeana |
-| Estados Unidos | 15 | Library of Congress, Smithsonian |
-| Brasil | 11 | Brasiliana Fotográfica, Museu da República |
-| Países Baixos | 8 | Rijksmuseum, Europeana |
-| Reino Unido | 8 | British Museum, National Archives |
+| França | 47 | Gallica (BnF), Europeana |
+| Estados Unidos | 20 | Library of Congress, Smithsonian |
+| Alemanha | 18 | Deutsche Digitale Bibliothek, Europeana |
+| Brasil | 12 | Brasiliana Fotográfica, Museu da República |
+| Reino Unido | 10 | British Museum, Imperial War Museum |
+| Itália | 8 | Europeana, Numista |
 | Bélgica | 6 | Europeana, KBR |
-| Portugal | 5 | BND Portugal |
-| Outros (IT, AT, CH, ES, UY, MX) | 13 | Diversos |
+| Portugal | 7 | BND Portugal, Numista |
+| Espanha | 4 | Numista, Europeana |
+| Outros (AR, AT, MX, NL, CH, UY) | 13 | Diversos |
 
-Os suportes incluem gravuras/estampas (47), pinturas/desenhos (10), moedas (9), fotografias (7), cédulas (5), cartazes (4), selos (3), iluminuras (1) e outros suportes — incluindo relevos, monumentos, frontispícios e itens em processo de classificação — (30). A cobertura temporal estende-se de 1750 a 2000, com concentração no período 1850–1920.
+A cobertura temporal estende-se de 1559 (FR-047, *Iustitia* de Bruegel, item arqueológico pré-moderno) a 2000, com concentração no período 1850–1920. A distribuição por regime iconocrático é: fundacional (71), normativo (40), militar (27) e contra-alegoria (7). O score de ENDURECIMENTO varia de 0,1 a 3,1 (média 1,44).
 
 ---
 

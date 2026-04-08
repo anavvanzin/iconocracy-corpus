@@ -13,6 +13,9 @@ python tools/scripts/<script_name>.py [args]
 | `csv_to_records.py` | **Migra** `corpus-data.json` + `corpus_dataset.csv` → `records.jsonl` | stdlib |
 | `records_to_corpus.py` | **Exporta** `records.jsonl` → `corpus/corpus-data.json` (merge ou replace) | stdlib |
 | `vault_sync.py` | **Sincroniza** `records.jsonl` ↔ `vault/candidatos/` (Obsidian) | stdlib |
+| `vault_backup.py` | **Cria** backup local do vault fora do histórico normal do git | stdlib |
+| `build_hf_release.py` | **Gera** snapshot do dataset para Hugging Face + dataset card | stdlib + `hf` CLI opcional |
+| `sync_github_labels.py` | **Sincroniza** o conjunto mínimo de labels via `gh` CLI | stdlib + `gh` CLI |
 | `abnt_citations.py` | Generate ABNT NBR 6023:2025 citations from corpus records | stdlib |
 | `batch_example.py` | Demo batch processing for dual-agent corpus builder | stdlib (`uuid`, `hashlib`) |
 | `extract_feminist_network.py` | Extract feminist iconography subnetwork (Iconclass 48C51) | stdlib |
@@ -79,6 +82,47 @@ python tools/scripts/vault_sync.py diff     # show differences
 python tools/scripts/vault_sync.py pull     # vault → records.jsonl (new items)
 python tools/scripts/vault_sync.py push     # records.jsonl → vault (new notes)
 python tools/scripts/vault_sync.py sync     # pull then push
+```
+
+### `vault_backup.py`
+
+Creates timestamped `tar.gz` backups of `vault/` in `tmp/vault-backups/`
+so automated backups no longer need to land on `main`.
+
+```bash
+python tools/scripts/vault_backup.py
+python tools/scripts/vault_backup.py --note "before major vault cleanup"
+python tools/scripts/vault_backup.py --dest /path/to/backups --keep 10
+```
+
+### `build_hf_release.py`
+
+Builds a frozen Hugging Face dataset snapshot from local canonical sources and
+updates the dataset card for release.
+
+```bash
+python tools/scripts/build_hf_release.py
+python tools/scripts/build_hf_release.py --note "Aligned public dataset with local snapshot."
+python tools/scripts/build_hf_release.py --publish
+```
+
+Outputs are written to `output/huggingface/<release-tag>/` and include:
+
+- `corpus-data.json`
+- `records.jsonl`
+- `purification.jsonl`
+- `release.json`
+- `CHANGELOG.md`
+- `README.md`
+
+### `sync_github_labels.py`
+
+Applies the small operational label set defined in `.github/labels.json`
+once `gh` authentication is available again.
+
+```bash
+python tools/scripts/sync_github_labels.py --dry-run
+python tools/scripts/sync_github_labels.py --repo anavvanzin/iconocracy-corpus
 ```
 
 ### `notion_sync.py` *(DESCONTINUADO)*

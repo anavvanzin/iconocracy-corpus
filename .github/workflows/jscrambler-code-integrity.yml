@@ -9,14 +9,10 @@
 #
 # More info can be found here : https://docs.jscrambler.com/latest/code-integrity/documentation/github-ci-integration
 
-name: Jscrambler Code Integrity
+name: Jscrambler Code Integrity (Dormant)
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    # The branches below must be a subset of the branches above
-    branches: [ "main" ]
+  workflow_dispatch:
 
 permissions:
   contents: read

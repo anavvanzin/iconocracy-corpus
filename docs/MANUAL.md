@@ -1,6 +1,6 @@
 # Manual de Instruções — Repositório Iconocracia
 
-**Versão:** 1.0 · Março 2026
+**Versão:** 1.1 · Abril 2026
 **Autora:** Ana Vanzin — PPGD/UFSC
 
 ---
@@ -32,12 +32,20 @@
 **Iconocracia** é a infraestrutura de pesquisa para a tese de doutorado *"Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"*.
 
 O repositório integra:
-- **Corpus iconográfico** — ~300 imagens de alegorias femininas oficiais (selos, moedas, fachadas, monumentos) de 6 países, séculos XIX–XX
+- **Corpus iconográfico** — 145 itens na fotografia local atual do `corpus-data.json`, com crescimento contínuo
 - **Codificação quantitativa** — 10 indicadores ordinais de purificação (0–3) por item
 - **Manuscrito da tese** — capítulos em Markdown, compiláveis para DOCX (ABNT) via Pandoc
 - **Vault Obsidian** — fichas catalográficas, notas de pesquisa, diário
 - **Dashboard interativo** — HTML autocontido com gráficos, filtros e busca
-- **Pipeline de automação** — scripts Python para citações, validação, exportação
+- **Pipeline de automação** — scripts Python para validação, exportação, release e backup
+
+**Modelo operacional ativo:**
+
+- `data/processed/records.jsonl` = ledger operacional canônico
+- `corpus/corpus-data.json` = export público para browsers e releases
+- `data/processed/purification.jsonl` = ledger canônico da codificação
+- `vault/candidatos/` = espelho auxiliar
+- Hugging Face = superfície pública de release
 
 **Objetivo:** que todos os materiais da tese — dados, análise, texto, figuras — vivam num único repositório rastreável.
 
@@ -73,8 +81,9 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # 3. Verificar instalação
-python tools/scripts/validate_schemas.py
+python tools/scripts/validate_schemas.py data/processed/records.jsonl --schema master-record --verbose
 python tools/scripts/code_purification.py --status
+python tools/scripts/vault_sync.py status
 ```
 
 ### Configuração do Obsidian
@@ -92,7 +101,7 @@ python tools/scripts/code_purification.py --status
 iconocracy-corpus/
 │
 ├── corpus/                         ← CORPUS PUBLICÁVEL
-│   ├── corpus-data.json            ← Dataset canônico (66 itens, JSON array)
+│   ├── corpus-data.json            ← Export público do corpus (145 itens na fotografia local atual)
 │   ├── DASHBOARD_CORPUS.html       ← Dashboard interativo (abrir no browser)
 │   ├── index.html                  ← Interface de busca simples
 │   └── atlas-iconometrico.html     ← Atlas visual interativo (React app)
@@ -128,7 +137,7 @@ iconocracy-corpus/
 │   └── docs/                       ← Codebook, descrição do dataset
 │
 ├── tools/                          ← FERRAMENTAS
-│   ├── scripts/                    ← 10 scripts Python
+│   ├── scripts/                    ← scripts Python de pipeline, release e backup
 │   ├── schemas/                    ← JSON Schemas (master-record, iconocode, webscout)
 │   ├── sql/                        ← Migrações SQL
 │   └── atlas_lab/                  ← AtlasLab viewer (JSX)
@@ -142,9 +151,11 @@ iconocracy-corpus/
 ├── docs/                           ← DOCUMENTAÇÃO TÉCNICA
 │   ├── ICONOCRACIA_PROJETO.md      ← Documento do projeto
 │   ├── scripts.md                  ← Referência de scripts
-│   ├── adr/                        ← Decisões arquiteturais (3 ADRs)
+│   ├── adr/                        ← Decisões arquiteturais (5 ADRs)
 │   ├── drive-structure.md          ← Organização do Google Drive
-│   └── notion-schema.md            ← Esquema do Notion
+│   ├── OPERATING_MODEL.md          ← Modelo operacional vigente
+│   ├── huggingface-release.md      ← Fluxo de release no Hugging Face
+│   └── notion-schema.md            ← Arquivo histórico (Notion descontinuado)
 │
 ├── sources/                        ← Materiais de referência e pesquisa salvos
 ├── examples/                       ← Saídas de exemplo do pipeline
@@ -333,34 +344,43 @@ make help
 ### Fluxo canônico
 
 ```
-Acervo digital (Gallica, Europeana, Brasiliana...)
+Google Drive (brutos)           ← fora do git
         │
         ▼
-corpus/corpus-data.json          ← Metadados catalográficos (66 itens)
+data/processed/records.jsonl    ← ledger operacional canônico
         │
-        ├──► code_purification.py ──► data/processed/purification.jsonl
-        │                                     │
-        │                                     ▼
-        └──► --export-csv ──────────► data/processed/corpus_dataset.csv
-                                              │
-                                              ▼
-                                     notebooks/*.ipynb  (Cap. 6)
+        ├──► records_to_corpus.py ─► corpus/corpus-data.json
+        │                                  │
+        │                                  ├──► dashboards / sites / Hugging Face Space
+        │                                  └──► build_hf_release.py ─► snapshot público
+        │
+        ├──► vault_sync.py ─────────► vault/candidatos/
+        │
+        └──► code_purification.py ─► data/processed/purification.jsonl
+                                           │
+                                           ▼
+                                   data/processed/corpus_dataset.csv
+                                           │
+                                           ▼
+                                   notebooks/*.ipynb  (Cap. 6)
 ```
 
 ### Formatos de dados
 
 | Arquivo | Formato | Conteúdo |
 |---------|---------|----------|
-| `corpus/corpus-data.json` | JSON array | Metadados base (id, título, data, país, suporte, URL, citações) |
+| `data/processed/records.jsonl` | JSONL | Ledger operacional canônico do corpus |
+| `corpus/corpus-data.json` | JSON array | Export público para sites, dashboards e releases |
 | `data/processed/purification.jsonl` | JSONL | Codificação dos 10 indicadores + composto + regime |
-| `data/processed/corpus_dataset.csv` | CSV | Junção dos dois acima (para notebooks/SPSS/R) |
+| `data/processed/corpus_dataset.csv` | CSV | Junção para notebooks/SPSS/R |
 
 ### Adicionar novo item ao pipeline
 
-1. Adicionar metadados a `corpus/corpus-data.json`
-2. Codificar purificação: `python tools/scripts/code_purification.py --item XX-NNN`
-3. Exportar CSV atualizado: `python tools/scripts/code_purification.py --export-csv`
-4. (Opcional) Criar ficha Obsidian em `vault/corpus/`
+1. Atualizar ou criar o registro canônico
+2. Revisar `python tools/scripts/vault_sync.py diff`
+3. Exportar para `corpus/corpus-data.json` quando necessário
+4. Codificar purificação: `python tools/scripts/code_purification.py --item XX-NNN`
+5. Exportar CSV atualizado: `python tools/scripts/code_purification.py --export-csv`
 
 ---
 
@@ -380,7 +400,10 @@ python tools/scripts/<nome>.py [argumentos]
 | `batch_example.py` | Demo do pipeline de processamento em lote | — |
 | `extract_feminist_network.py` | Extrair sub-rede feminista do Iconclass | — |
 | `trace_evidence.py` | Rastreabilidade de evidência por item | — |
-| `notion_sync.py` | Sincronizar JSONL ↔ Notion | `pull`, `push`, `sync` |
+| `vault_sync.py` | Sincronizar `records.jsonl` ↔ `vault/candidatos/` | `status`, `diff`, `pull`, `push`, `sync` |
+| `vault_backup.py` | Criar backup local do vault fora do histórico do git | `--note`, `--dest`, `--keep` |
+| `build_hf_release.py` | Gerar snapshot e dataset card para Hugging Face | `--note`, `--publish` |
+| `sync_github_labels.py` | Aplicar conjunto mínimo de labels no GitHub | `--dry-run`, `--repo` |
 | `make_index.py` | Índice de busca do Iconclass | — |
 | `make_skos.py` | Vocabulário SKOS/RDF do Iconclass | — |
 | `make_sqlite.py` | Banco SQLite do Iconclass | — |
@@ -466,8 +489,9 @@ jupyter notebook notebooks/
 
 - Commitar frequentemente com mensagens descritivas
 - Nunca commitar arquivos de imagem brutos (referência por URL)
-- Branch principal: `main`
-- Branches de feature: `claude/nome-da-feature-XXXXX`
+- `main` é reservado para commits intencionais e legíveis
+- Use branches curtas (`codex/...`, `topic/...`) para trabalho novo
+- Use `python tools/scripts/vault_backup.py` para backups automáticos do vault
 
 ### Citações
 
@@ -491,8 +515,10 @@ Documentadas em `docs/adr/`:
 | ADR | Decisão | Resumo |
 |-----|---------|--------|
 | 001 | Google Drive como armazém bruto | Imagens ficam no Drive; repositório tem apenas URLs e metadados |
-| 002 | Notion como índice do corpus | Notion serve como interface de catalogação; GitHub é canônico |
+| 002 | Notion como índice do corpus | Histórico; superado por ADR-004 |
 | 003 | JSONL como formato canônico | 1 registro por linha; fácil de processar, versionar e validar |
+| 004 | Vault como espelho catalográfico | Obsidian substitui Notion no fluxo ativo |
+| 005 | GitHub/Hugging Face como superfícies | GitHub é backbone canônico; HF é release público |
 
 ---
 
