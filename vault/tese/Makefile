@@ -51,6 +51,8 @@ endif
 
 .PHONY: docx pdf clean setup
 
+all: docx
+
 $(OUTPUT_DIR):
 	mkdir -p $(OUTPUT_DIR)
 
