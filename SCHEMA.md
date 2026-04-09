@@ -24,14 +24,12 @@ Iconocracy: Female Allegory in the History of Legal Culture (19th–20th c.)
   ```
 
 ## Tag Taxonomy
-- Concepts: regime-fundacional, regime-normativo, regime-militar, endurecimento, contrato-sexual-visual, feminilidade-de-estado
-- Figures: marianne, republica, justitia, britannia, columbia, germania, belgique
-- Support: moeda, selo, monumento, estampa, frontispicio, papel-moeda, cartaz
-- Disciplines: iconography, law, legal-history, political-science, visual-culture, gender-studies, history
-- Meta: comparison, timeline, controversy, prediction, analysis, iconocracy
-
-Rule: every tag on a page must appear in this taxonomy. If a new tag is needed,
-add it here first, then use it. This prevents tag sprawl.
+- Iconography: allegorical-figure, symbol, motif, iconoclasm, visual-culture
+- Legal History: legal-history, criminal-law, jurisprudence, legal-culture, legal-theory, legal-reform
+- Gender & Feminism: gender, feminism, allegory-female, woman, representation, patriarchy, counter-allegory
+- Geography & Time: 19th-century, 20th-century, Brazil, France, Europe, US
+- Media & Form: sculpture, painting, print, banknote, stamp, monument, political-cartoon, literature
+- Concepts: republic, justice, liberty, allegory, power, resistance, state, colonialism, modernity
 
 ## Page Thresholds
 - **Create a page** when an entity/concept appears in 2+ sources OR is central to one source
