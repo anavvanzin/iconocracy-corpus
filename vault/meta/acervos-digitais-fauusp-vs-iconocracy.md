@@ -88,6 +88,9 @@ Se a seção de Metodologia (ou o Capítulo 1) precisar situar o ICONOCRACY em r
 
 > "A presente tese não se insere no paradigma das humanidades digitais de matriz infraestrutural, representado no Brasil por iniciativas como o Projeto Temático *Acervos Digitais e Pesquisa* (FAU/USP, FAPESP 2022/05946-9), cujo foco é o desenvolvimento de modelos de arquivo distribuído e protótipos de visão computacional aplicados a acervos de arte, arquitetura e design. O ICONOCRACY compartilha com esse campo o interesse pela imagem como documento e pelo acervo digital como condição de possibilidade da pesquisa, mas se distingue por adotar a hermenêutica crítica como paradigma epistemológico e a iconologia jurídica como método central, priorizando a interpretação sobre a infraestrutura."
 
+
+
+
 ---
 
 *Nota criada automaticamente a partir de pesquisa web em 09/04/2026. Verificar periodicidade das atualizações do site.*
