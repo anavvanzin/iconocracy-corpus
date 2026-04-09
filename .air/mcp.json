@@ -1,0 +1,34 @@
+{
+    "mcpServers": {
+        "arxiv": {
+            "type": "stdio",
+            "command": "uvx",
+            "args": ["arxiv-mcp-server"]
+        },
+        "doi-verify": {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["-y", "doi-mcp"]
+        },
+        "paper-search": {
+            "type": "stdio",
+            "command": "uvx",
+            "args": ["paper-search-mcp"]
+        },
+        "openalex": {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["-y", "openalex-research-mcp"]
+        },
+        "iiif": {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["-y", "@code4history/iiif-mcp"]
+        },
+        "zotero-mcp": {
+            "type": "stdio",
+            "command": "uvx",
+            "args": ["zotero-mcp"]
+        }
+    }
+}
