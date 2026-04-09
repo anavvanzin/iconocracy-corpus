@@ -4,7 +4,7 @@ disciplina: "Métodos e Metodologias Aplicados ao Projeto de Tese"
 semestre: 2026.1
 created: 2026-04-08
 ---
-
+ 
 # Métodos e Metodologias Aplicados ao Projeto de Tese — MOC
 
 > **Disciplina:** Métodos e Metodologias Aplicados ao Projeto de Tese

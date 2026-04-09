@@ -1,3 +1,6 @@
+---
+sticker: emoji//1f93c
+---
 # Atividade Métodos I — Pesquisa em Bases de Dados
 
 **Disciplina:** Métodos de Pesquisa I
