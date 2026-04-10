@@ -1,183 +1,49 @@
-# AGENTS.md — Corpus Scout Agent
-# ICONOCRACY · PPGD/UFSC · anavvanzin/iconocracy-corpus
+# AGENTS.md — ICONOCRACY Quick Brief
 
-## Papel deste projeto
+## Missão e superfícies
+- Monorepo da tese ICONOCRACY: dual-agent pipeline (WebScout → IconoCode) produz `data/processed/records.jsonl`, que depois gera `corpus/corpus-data.json` e releases Hugging Face.
+- Três superfícies permanentes: Local (trabalho ativo), GitHub (histórico canônico, CI), Hugging Face (snapshots publicados). Nunca publique sem passar pelo gate de validação.
 
-Este é o ambiente de trabalho do agente CORPUS SCOUT para a tese
-ICONOCRACY: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX).
+## Ambiente e comandos base
+- `conda activate iconocracy` (Python ≥3.10; use sempre este ambiente) e execute scripts a partir da raiz: `python tools/scripts/<script>.py`.
+- QA/corpus: `validate_schemas.py`, `trace_evidence.py`, `abnt_citations.py`, `records_to_corpus.py --diff`, `sync_companion.py`.
+- Codificação ENDURECIMENTO: `code_purification.py --status|--item ID|--batch SIGLA|--export-csv` atualiza `data/processed/purification.jsonl` e `corpus_dataset.csv`.
+- Vault sync: `python tools/scripts/vault_sync.py status|pull|push|sync|diff` mantém `records.jsonl` ↔ `vault/candidatos/` pareados.
+- Releases: `python tools/scripts/build_hf_release.py` só depois de `validate_schemas.py`, `vault_sync.py status`, `records_to_corpus.py --diff` e `code_purification.py --status` limpos.
+- Thesis e webapps: `make -C vault/tese/ docx|pdf`, `cd webiconocracy && npm run dev`, `cd indexing/gallica-mcp-server && npm run dev` (portas 3000/3001). Ingest: `python iconocracy-ingest/ingest.py <batch> --dry-run` antes de escrever.
 
-Ao operar neste diretório, o Codex assume automaticamente o papel do
-Corpus Scout conforme definido em SKILL.md. Não é necessário reintroduzir
-o papel a cada sessão.
+## Dados canônicos e diretórios que importam
+- Ordem de verdade: `data/processed/records.jsonl` → `corpus/corpus-data.json` → `data/processed/purification.jsonl` → `vault/candidatos/` (espelho, nunca fonte).
+- `data/raw/` guarda **apenas** manifestos (ex.: `drive-manifest.json`). Binários ficam no Google Drive `/Volumes/ICONOCRACIA`; commits com arquivos reais quebram a CI.
+- `vault/candidatos/` usa padrão `CC-NNN Nome.md`; `vault/sessoes/` usa `SCOUT-SESSION-YYYY-MM-DD.md`. Rodar `vault_sync.py` antes de tocar em `records.jsonl` ou no vault manualmente.
+- `tools/schemas/` contém os contratos (master-record, iconocode-output, webscout-input/output). Nunca altere `corpus/corpus-data.json` sem passar por `records_to_corpus.py`.
+- `docs/OPERATING_MODEL.md` e `CLAUDE.md` registram decisões; leia antes de mexer em fluxos ou releases.
 
----
+## Fluxos essenciais
+- **Validação rápida:** `python tools/scripts/validate_schemas.py data/processed/records.jsonl --schema master-record --verbose` → `trace_evidence.py` → `abnt_citations.py`. Corrija todo erro antes de prosseguir.
+- **QA de corpus export:** `python tools/scripts/records_to_corpus.py --diff` mostra o delta que iria para `corpus/corpus-data.json`. Só aceite se IDs e ENDURECIMENTO não forem alterados indevidamente.
+- **Sync catalográfico:** estado limpo em `vault_sync.py status` é requisito para commits e releases. Use `pull` antes de editar notas, `push` ao final.
+- **Hugging Face snapshot:** depois do gate acima, rode `build_hf_release.py` e publique apenas o artefato congelado.
+- **Indexação Iconclass:** `python tools/scripts/extract_feminist_network.py` atualiza `data/processed/feminist_network_48C51_pt.json`; cite Iconclass 48C51 quando questionado sobre a taxonomia.
 
-## Estrutura de diretórios esperada
+## Atalhos disparados pelo usuário
+- `campanha N` / `scout [query]` executam a campanha definida em `SKILL.md` (sem confirmação).
+- `auditoria` / `lacunas` → Campanha 16 sobre `vault/candidatos/`.
+- `validar [arquivo]`, `rastreabilidade [arquivo]`, `citacoes [arquivo]` → scripts homônimos.
+- `purificacao status|item|lote|exportar` → `code_purification.py` com o subcomando correspondente.
+- `sync vault pull|push|sync|diff|status` → `vault_sync.py` (sempre informar o modo).
+- `salvar` → persistir última nota em `vault/candidatos/` com o ID correto; `sessão` → gerar nota `vault/sessoes/`.
+- `rede feminista [raiz?]` → `extract_feminist_network.py`; `lote exemplo` → `batch_example.py`.
 
-```
-iconocracy-corpus/
-├── AGENTS.md                  ← este arquivo
-├── SKILL.md                   ← definição do agente
-├── data/
-│   ├── raw/                   ← manifestos do bruto + links Drive; subpastas locais se houver
-│   │   └── drive-manifest.json
-│   ├── interim/               ← dados em processamento
-│   └── processed/
-│       └── records.jsonl      ← registros mestre do corpus
-├── vault/                     ← notas Obsidian geradas pelo Scout
-│   ├── candidatos/            ← notas SCOUT-XXX
-│   └── sessoes/               ← notas SCOUT-SESSION-XXX
-├── docs/                      ← ADRs, políticas operacionais e especificações do pipeline
-├── corpus/                    ← corpus tabular e derivados analíticos
-└── tools/
-    ├── scripts/               ← scripts de sync, validação e processamento
-    └── schemas/               ← schemas JSON do pipeline
-```
+## Terminologia e estilo obrigatórios
+- Use sempre: ENDURECIMENTO, Contrato Sexual Visual, Feminilidade de Estado, Pathosformel, Zwischenraum, Nachleben, Iconclass 48C51.
+- Toda referência segue ABNT NBR 6023:2025. Quando citar Mondzain, a edição é 2002.
+- Redija em português jurídico-penal; evite enquadramentos antropológicos/sociológicos.
 
----
-
-## Comportamento padrão
-
-Quando a pesquisadora digitar qualquer um dos seguintes, execute
-diretamente sem pedir confirmação:
-
-- `campanha N` → executa a campanha N conforme SKILL.md §7
-- `scout [descrição livre]` → interpreta como query e executa
-- `auditoria` → executa Campanha 16 com os arquivos em vault/candidatos/
-- `lacunas` → idem
-- `validar [arquivo]` → valida JSON/JSONL com `tools/scripts/validate_schemas.py`
-  usando o schema pertinente; default: `data/processed/records.jsonl` + `master-record`
-- `rastreabilidade [arquivo]` ou `evidencias [arquivo]` → roda
-  `tools/scripts/trace_evidence.py`; default: `data/processed/records.jsonl`
-- `citacoes [arquivo]` → gera/exporta citações ABNT com
-  `tools/scripts/abnt_citations.py`
-- `purificacao status` → mostra progresso da codificação
-- `purificacao item [ID]` → roda `tools/scripts/code_purification.py --item [ID]`
-- `purificacao lote [SIGLA]` → roda `tools/scripts/code_purification.py --batch [SIGLA]`
-- `purificacao exportar` → roda `tools/scripts/code_purification.py --export-csv`
-- `rede feminista [raiz opcional]` → roda `tools/scripts/extract_feminist_network.py`
-- `lote exemplo` → roda `tools/scripts/batch_example.py`
-- `sync vault pull|push|sync|diff|status` → usa `tools/scripts/vault_sync.py`;
-  sincroniza `data/processed/records.jsonl` ↔ `vault/candidatos/` bidirecionalmente
-Quando a pesquisadora digitar `salvar`, grave a última nota gerada
-em vault/candidatos/ com o nome correto (SCOUT-[ID] [título].md).
-
-Quando a pesquisadora digitar `sessão`, grave a nota de síntese
-em vault/sessoes/ com o nome SCOUT-SESSION-[data].md.
-
----
-
-## Rastreabilidade — regra inviolável
-
-Cada item do corpus deve ser rastreável em três pontos:
-
-| Onde | O quê |
-|---|---|
-| Google Drive + `data/raw/drive-manifest.json` | origem do bruto e vínculo com `item_id` |
-| `vault/candidatos/` | nota Obsidian com metadados e análise |
-| `data/processed/records.jsonl` | registro mestre canônico em JSONL |
-
-Quando houver cópia local do bruto, ela pode ser organizada em
-`data/raw/[pais]/`, mas o vínculo com o Drive deve continuar explícito.
-
-`records.jsonl` é a fonte canônica do corpus. O vault Obsidian (`vault/candidatos/`)
-funciona como espelho catalográfico; `tools/scripts/vault_sync.py` implementa
-a sincronização bidirecional (status/diff/pull/push/sync).
-
----
-
-## Terminologia obrigatória
-
-- ENDURECIMENTO (nunca "hardening", nunca "embrutecimento")
-- Contrato Sexual Visual (conceito original da tese — não atribuir a Pateman)
-- Feminilidade de Estado (conceito original da tese — não atribuir a Mondzain)
-- Zwischenraum (warburguiano — manter em alemão)
-- Pathosformel (warburguiano — manter em alemão)
-- Nachleben (warburguiano — manter em alemão)
-- Mondzain → sempre edição 2002
-- ABNT NBR 6023:2025 para todas as referências
-
----
-
-## Tags canônicas do vault
-
-```
-corpus/candidato · corpus/sessao-scout · corpus/controle-negativo
-pais/BR · pais/FR · pais/UK · pais/DE · pais/US · pais/BE
-suporte/moeda · suporte/selo · suporte/monumento · suporte/estampa
-suporte/frontispicio · suporte/papel-moeda · suporte/cartaz
-regime/fundacional · regime/normativo · regime/militar
-motivo/marianne · motivo/republica · motivo/justitia · motivo/britannia
-motivo/columbia · motivo/germania · motivo/belgique
-#verificar · #verificar-data · #verificar-autoria
-#verificar-imagem · #sem-iiif · #possivel-duplicata
-#protocolo · #decisao-metodologica
-#acoplamento-imagem-norma · #colonialidade-do-ver
-#contrato-racial-visual · #contra-alegoria · #ausencia-alegorica
-#iconometria · #atlas/painel-I até #atlas/painel-VIII
-```
-
----
-
-## Ferramentas disponíveis para o agente
-
-- `web_search` — busca em acervos e bases digitais
-- `web_fetch` — acessa URLs de imagens IIIF e páginas de acervos
-- `bash_tool` — salva notas em vault/, move arquivos, roda scripts
-- `create_file` — cria notas .md em vault/candidatos/ e vault/sessoes/
-- `tools/scripts/validate_schemas.py` — valida outputs JSON/JSONL do pipeline
-- `tools/scripts/trace_evidence.py` — audita cadeia de evidências dos registros
-- `tools/scripts/abnt_citations.py` — gera citações ABNT NBR 6023:2025
-- `tools/scripts/code_purification.py` — codifica os 10 indicadores de purificação
-- `tools/scripts/extract_feminist_network.py` — extrai sub-rede Iconclass feminista
-- `tools/scripts/batch_example.py` — gera lote demonstrativo do pipeline dual-agent
-- `tools/scripts/build_hf_release.py` — gera snapshot congelado para dataset Hugging Face
-- `tools/scripts/vault_backup.py` — cria backup local do vault fora do histórico normal do git
-
----
-
-## Workflows operacionais
-
-### 1. Busca scout
-
-Fluxo padrão para descoberta iconográfica:
-
-1. Executar `campanha N` ou `scout [query]`
-2. Gerar até 8 notas candidatas em markdown
-3. Registrar nota de síntese da sessão
-4. Quando solicitado, `salvar` e depois `sessão`
-
-### 2. QA e consolidação do pipeline
-
-Fluxo padrão para pós-processamento e controle de qualidade:
-
-1. Garantir ou atualizar `data/processed/records.jsonl`
-2. Executar `validar [arquivo]`
-3. Executar `rastreabilidade [arquivo]`
-4. Executar `citacoes [arquivo]`
-5. Reportar erros de schema, gaps de evidência e pendências ABNT
-
-### 3. Codificação de purificação
-
-Fluxo padrão para análise quantitativa:
-
-1. Executar `purificacao status`
-2. Executar `purificacao item [ID]` ou `purificacao lote [SIGLA]`
-3. Salvar em `data/processed/purification.jsonl`
-4. Executar `purificacao exportar` para atualizar `data/processed/corpus_dataset.csv`
-
-### 4. Sync catalográfico e release
-
-Fluxo padrão de espelhamento:
-
-1. Confirmar estado de `records.jsonl` e `vault/candidatos/`
-2. Executar `sync vault pull|push|sync|diff|status`
-3. Antes de release pública, revisar `records_to_corpus.py --diff`
-4. Gerar snapshot com `tools/scripts/build_hf_release.py`
-
----
-
-## Notas de sessão anteriores
-
-Consultar vault/sessoes/ para contexto de buscas já realizadas
-antes de iniciar nova campanha — evita duplicatas e orienta gaps.
+## Guardrails que evitam erros caros
+- Regra de rastreabilidade: cada item precisa existir em (1) Google Drive + `data/raw/drive-manifest.json`, (2) `vault/candidatos/`, (3) `data/processed/records.jsonl`. Nenhuma exceção.
+- Não edite JSONs parcialmente; use scripts ou reescreva o arquivo inteiro com `Write`. Para `corpus-data.json`, use `records_to_corpus.py`.
+- `tese/manuscrito/*_original` é somente leitura; trabalhe nas cópias indicadas.
+- Antes de commits, confirme que `git status` não mostra binários novos em `data/raw/`. A CI (`.github/workflows/validate.yml`) falha se isso ocorrer ou se `records.jsonl` quebrar o schema.
+- Use `tools/scripts/vault_backup.py` para backups; nunca misture snapshots em `main`.
+- Se alguma instrução conflitar, confie primeiro nos scripts/configs e nos arquivos `CLAUDE.md` + `SKILL.md`.
