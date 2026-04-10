@@ -101,17 +101,38 @@ def load_corpus():
         return json.load(f)
 
 
-def load_coded():
-    """Load already-coded items from JSONL. Returns dict keyed by item id."""
-    coded = {}
+def load_coded(mode="latest"):
+    """Load coded items from JSONL.
+
+    Modes:
+        latest   — dict[id -> record], last-write-wins (original behavior)
+        all      — dict[id -> list[record]], all codings per item (for IRR)
+        consensus — dict[id -> record], prefers adjudicated, falls back to latest
+    """
+    if mode not in ("latest", "all", "consensus"):
+        raise ValueError(f"Unknown mode: {mode}")
+
+    all_records = {}  # id -> list[record]
     if OUTPUT_JSONL.exists():
         with open(OUTPUT_JSONL, encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
                 if line:
                     rec = json.loads(line)
-                    coded[rec["id"]] = rec
-    return coded
+                    all_records.setdefault(rec["id"], []).append(rec)
+
+    if mode == "all":
+        return all_records
+
+    if mode == "consensus":
+        result = {}
+        for item_id, records in all_records.items():
+            adjudicated = [r for r in records if r.get("adjudication_status") == "adjudicated"]
+            result[item_id] = adjudicated[-1] if adjudicated else records[-1]
+        return result
+
+    # mode == "latest"
+    return {item_id: records[-1] for item_id, records in all_records.items()}
 
 
 def save_record(record):
@@ -291,6 +312,59 @@ def export_csv(corpus, coded):
     print(f"     ({coded_count} with purification codes, {len(corpus) - coded_count} uncoded)")
 
 
+def select_sample(coded, n):
+    """Generate a stratified random sample of N items for double-coding (IRR)."""
+    import random
+
+    if not coded:
+        print("  ❌ No coded items found in purification.jsonl")
+        sys.exit(1)
+
+    # Group by regime
+    by_regime = {}
+    for item_id, rec in coded.items():
+        regime = rec.get("regime_iconocratico", "unknown")
+        by_regime.setdefault(regime, []).append(item_id)
+
+    total = len(coded)
+    n = min(n, total)
+
+    print(f"\n  Stratified sample: {n} items from {total} coded")
+    print(f"  {'─' * 50}")
+
+    sample = []
+    remainder = n
+    regimes_sorted = sorted(by_regime.keys(), key=lambda r: len(by_regime[r]), reverse=True)
+
+    for i, regime in enumerate(regimes_sorted):
+        pool = by_regime[regime]
+        if i == len(regimes_sorted) - 1:
+            # last regime gets the remainder
+            count = remainder
+        else:
+            count = max(1, round(n * len(pool) / total))
+            count = min(count, len(pool), remainder)
+        picked = random.sample(pool, min(count, len(pool)))
+        sample.extend(picked)
+        remainder -= len(picked)
+        print(f"    {regime:20s}  {len(pool):3d} items → {len(picked):2d} sampled")
+
+    random.shuffle(sample)
+
+    print(f"\n  Sample IDs ({len(sample)} items):")
+    for item_id in sorted(sample):
+        rec = coded[item_id]
+        print(f"    {item_id:15s}  regime={rec.get('regime_iconocratico','?'):15s}  "
+              f"composto={rec.get('purificacao_composto', 0):.2f}")
+
+    # Save sample list
+    sample_path = REPO_ROOT / "data" / "processed" / "irr_sample.json"
+    with open(sample_path, "w", encoding="utf-8") as f:
+        json.dump({"sample_size": len(sample), "items": sorted(sample),
+                    "generated_at": datetime.now(timezone.utc).isoformat()}, f, indent=2)
+    print(f"\n  ✅ Sample saved to {sample_path}")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Code purification indicators for Iconocracia corpus items"
@@ -305,6 +379,8 @@ def main():
                         help="Export merged corpus + purification to CSV")
     parser.add_argument("--coder", default="ana",
                         help="Coder name for audit trail (default: ana)")
+    parser.add_argument("--select-sample", type=int, metavar="N",
+                        help="Generate stratified random sample of N items for double-coding")
     args = parser.parse_args()
 
     corpus = load_corpus()
@@ -316,6 +392,10 @@ def main():
 
     if args.export_csv:
         export_csv(corpus, coded)
+        return
+
+    if args.select_sample:
+        select_sample(coded, args.select_sample)
         return
 
     # Build work queue
