@@ -1,192 +1,175 @@
-# CLAUDE.md — Corpus Scout Agent
-# ICONOCRACY · PPGD/UFSC · anavvanzin/iconocracy-corpus
+# CLAUDE.md
 
-## Papel deste projeto
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-Este é o ambiente de trabalho do agente CORPUS SCOUT para a tese
-ICONOCRACY: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX).
+## Project
 
-Ao operar neste diretório, o Claude assume automaticamente o papel do
-Corpus Scout conforme definido em SKILL.md. Não é necessário reintroduzir
-o papel a cada sessão.
+Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2026). Integrates a searchable corpus of 145+ female allegorical figures, research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
 
 ---
 
-## Estrutura de diretórios esperada
-
-```
-iconocracy-corpus/
-├── CLAUDE.md                  ← este arquivo
-├── SKILL.md                   ← definição do agente
-├── data/
-│   ├── raw/                   ← symlinks → SSD (ver abaixo)
-│   │   ├── BR/ → /Volumes/ICONOCRACIA/corpus/imagens/BR/
-│   │   ├── FR/ → /Volumes/ICONOCRACIA/corpus/imagens/FR/
-│   │   ├── UK/ → /Volumes/ICONOCRACIA/corpus/imagens/UK/
-│   │   ├── DE/ → /Volumes/ICONOCRACIA/corpus/imagens/DE/
-│   │   ├── US/ → /Volumes/ICONOCRACIA/corpus/imagens/US/
-│   │   └── BE/ → /Volumes/ICONOCRACIA/corpus/imagens/BE/
-│   ├── interim/               ← dados em processamento
-│   └── processed/
-│       └── records.jsonl      ← registros mestre do corpus
-├── vault/                     ← notas Obsidian geradas pelo Scout
-│   ├── candidatos/            ← notas SCOUT-XXX
-│   └── sessoes/               ← notas SCOUT-SESSION-XXX
-└── tools/
-    └── scripts/               ← scripts de sync e processamento
-```
-
----
-
-## SSD externo ICONOCRACIA
-
-As imagens brutas do corpus ficam no SSD externo (`/Volumes/ICONOCRACIA`),
-acessíveis via symlinks em `data/raw/[PAIS]/`. O SSD também armazena:
-
-- `corpus/imagens/` — imagens brutas por país (destino dos symlinks)
-- `corpus/metadados/` — JSONs intermediários
-- `referencias/zotero-storage/` — PDFs linkados do Zotero
-- `backups/github/` — git mirror do repo
-- `backups/vault/` — snapshots datados do vault
-
-**Antes de salvar imagens em `data/raw/`**, verificar se o SSD está montado:
-```bash
-test -d /Volumes/ICONOCRACIA/corpus/imagens && echo "SSD montado" || echo "SSD ausente"
-```
-
-Se o SSD não estiver montado, salvar a imagem em `vault/assets/` temporariamente
-e marcar com `#mover-para-ssd`.
-
-**Backup manual:**
-```bash
-bash /Volumes/ICONOCRACIA/backups/backup-iconocracia.sh
-```
-
----
-
-## Comportamento padrão
-
-Quando a pesquisadora digitar qualquer um dos seguintes, execute
-diretamente sem pedir confirmação:
-
-- `campanha N` → executa a campanha N conforme SKILL.md §7
-- `scout [descrição livre]` → interpreta como query e executa
-- `auditoria` → executa Campanha 16 com os arquivos em vault/candidatos/
-- `lacunas` → idem
-
-Quando a pesquisadora digitar `salvar`, grave a última nota gerada
-em vault/candidatos/ com o nome correto (SCOUT-[ID] [título].md).
-
-Quando a pesquisadora digitar `sessão`, grave a nota de síntese
-em vault/sessoes/ com o nome SCOUT-SESSION-[data].md.
-
----
-
-## Rastreabilidade — regra inviolável
-
-Cada item do corpus deve ser rastreável em três pontos:
-
-| Onde | O quê |
-|---|---|
-| `data/raw/[pais]/` | arquivo de imagem bruto (jpg/png/tif) |
-| `vault/candidatos/` | nota Obsidian com metadados e análise |
-| `data/processed/records.jsonl` | registro mestre em JSON |
-
-O Scout gera as notas Obsidian. O sync para records.jsonl é feito
-pelo script `tools/scripts/notion_sync.py` (a desenvolver).
-
----
-
-## Terminologia obrigatória
-
-- ENDURECIMENTO (nunca "hardening", nunca "embrutecimento")
-- Contrato Sexual Visual (conceito original da tese — não atribuir a Pateman)
-- Feminilidade de Estado (conceito original da tese — não atribuir a Mondzain)
-- Zwischenraum (warburguiano — manter em alemão)
-- Pathosformel (warburguiano — manter em alemão)
-- Nachleben (warburguiano — manter em alemão)
-- Mondzain → sempre edição 2002
-- ABNT NBR 6023:2025 para todas as referências
-
----
-
-## Tags canônicas do vault
-
-```
-corpus/candidato · corpus/sessao-scout · corpus/controle-negativo
-pais/BR · pais/FR · pais/UK · pais/DE · pais/US · pais/BE
-suporte/moeda · suporte/selo · suporte/monumento · suporte/estampa
-suporte/frontispicio · suporte/papel-moeda · suporte/cartaz
-regime/fundacional · regime/normativo · regime/militar
-motivo/marianne · motivo/republica · motivo/justitia · motivo/britannia
-motivo/columbia · motivo/germania · motivo/belgique
-#verificar · #verificar-data · #verificar-autoria
-#verificar-imagem · #sem-iiif · #possivel-duplicata
-#protocolo · #decisao-metodologica
-#acoplamento-imagem-norma · #colonialidade-do-ver
-#contrato-racial-visual · #contra-alegoria · #ausencia-alegorica
-#iconometria · #atlas/painel-I até #atlas/painel-VIII
-```
-
----
-
-## Pipeline de Ingestão (iconocracy-ingest/)
-
-Pipeline OCR para material escaneado de acervos. Localizado em `iconocracy-ingest/`.
-
-### Uso rápido
+## Quick Commands
 
 ```bash
-# Processar novo lote de digitalizações
-python3 iconocracy-ingest/ingest.py /caminho/do/lote
+# Environment
+conda activate iconocracy                          # Python 3.10+ environment
 
-# Preview sem processar
-python3 iconocracy-ingest/ingest.py /caminho/do/lote --dry-run
+# Validation & corpus
+python tools/scripts/validate_schemas.py           # validate all JSON schemas
+python tools/scripts/validate_schemas.py data/processed/records.jsonl --schema master-record --verbose
+python tools/scripts/code_purification.py --status  # ENDURECIMENTO coding progress
+python tools/scripts/code_purification.py --export-csv  # regenerate corpus_dataset.csv
 
-# Threshold de confiança mais rigoroso
-python3 iconocracy-ingest/ingest.py /caminho/do/lote --confidence 70 -v
+# Corpus sync pipeline
+python tools/scripts/vault_sync.py status          # vault ↔ records.jsonl state
+python tools/scripts/vault_sync.py sync            # bidirectional sync
+python tools/scripts/records_to_corpus.py --diff   # preview records → corpus-data.json changes
 
-# Bridge: CSV do ingest → corpus-data.json (dry run)
-python3 -m iconocracy-ingest.modules.corpus_bridge
+# Thesis compilation (Pandoc)
+make -C vault/tese/ docx                           # full thesis → DOCX
+make -C vault/tese/ pdf                            # full thesis → PDF (requires LaTeX)
 
-# Bridge: escrever no corpus
-python3 -m iconocracy-ingest.modules.corpus_bridge --write
+# Web apps
+cd webiconocracy && npm run dev                    # React corpus explorer (port 3000)
 ```
-
-### Módulos
-
-| Módulo | Função |
-|--------|--------|
-| `ingest.py` | CLI principal (--dry-run, --confidence, --no-copy, --verbose) |
-| `config.py` | Configuração centralizada (SOURCE_CODES, thresholds) |
-| `modules/file_utils.py` | Descoberta de arquivos, SHA-256, detecção de fonte |
-| `modules/ocr_engine.py` | Detecção de idioma + Tesseract OCR com confiança por página |
-| `modules/caption_extractor.py` | Extração multilíngue de legendas (PT, ES, FR, IT, EN) |
-| `modules/renamer.py` | Renomeação: {SOURCE}_{YEAR}_{SEQ:04d}_{stem}.{ext} |
-| `modules/csv_manager.py` | CSV mestre com deduplicação SHA-256 |
-| `modules/quality_report.py` | Relatório HTML para páginas com baixa confiança OCR |
-| `modules/corpus_bridge.py` | Bridge CSV → corpus-data.json com IDs automáticos |
-
-### Fluxo completo
-
-```
-acervo digital → ingest.py → master CSV → corpus_bridge.py → corpus-data.json → IconoCode
-```
-
-Para adicionar nova instituição-fonte, editar `SOURCE_CODES` em `config.py`.
 
 ---
 
-## Ferramentas disponíveis para o agente
+## Architecture
 
-- `web_search` — busca em acervos e bases digitais
-- `web_fetch` — acessa URLs de imagens IIIF e páginas de acervos
-- `bash_tool` — salva notas em vault/, move arquivos, roda scripts
-- `create_file` — cria notas .md em vault/candidatos/ e vault/sessoes/
+### Dual-Agent Pipeline
+
+```
+WebScout (archive discovery) → IconoCode (visual analysis) → master records
+```
+
+- **WebScout** queries digital archives (Europeana, Gallica, LOC, BnF, Numista, Colnect)
+- **IconoCode** performs 3-level Panofsky analysis + 10 ENDURECIMENTO indicators (0–3 scale)
+- Output: `data/processed/records.jsonl` (canonical) → `corpus/corpus-data.json` (public export)
+
+### Canonical Data Hierarchy (source-of-truth order)
+
+1. `data/processed/records.jsonl` — operational canonical ledger
+2. `corpus/corpus-data.json` — public-facing export (browsers, dashboards, HF releases)
+3. `data/processed/purification.jsonl` — ENDURECIMENTO coding ledger
+4. `vault/candidatos/` — auxiliary cataloguing mirror only
+
+### Key Directories
+
+```
+corpus/             → corpus-data.json + HTML dashboards (index.html, DASHBOARD_CORPUS.html)
+data/raw/           → metadata-only in git (binaries → Google Drive / SSD, per ADR-001)
+data/processed/     → records.jsonl, purification.jsonl (canonical ledgers)
+vault/candidatos/   → Obsidian SCOUT notes (XX-NNN pattern, e.g. FR-013 Déclaration des droits.md)
+vault/sessoes/      → session summary notes (SCOUT-SESSION-YYYY-MM-DD.md)
+tese/manuscrito/    → thesis chapters (Markdown, compiled via Pandoc)
+tools/scripts/      → 26 Python automation scripts
+tools/schemas/      → JSON schemas (master-record, iconocode-output, webscout-input/output)
+notebooks/          → sequential analysis (01_exploratory → 02_kruskal_wallis → 03_regression → 04_correspondence)
+webiconocracy/      → React+Vite+Firebase corpus explorer
+indexing/           → Gallica MCP server, corpus-scout-agent
+deploy/             → Cloudflare Workers companion, HF Space
+```
+
+### CI/CD (`.github/workflows/validate.yml`)
+
+Validates `records.jsonl` against `tools/schemas/master-record.schema.json`, checks consistency with `corpus-data.json`, and **rejects binary files in `data/raw/`** (ADR-001).
 
 ---
 
-## Notas de sessão anteriores
+## Hooks (`.claude/settings.json`)
 
-Consultar vault/sessoes/ para contexto de buscas já realizadas
-antes de iniciar nova campanha — evita duplicatas e orienta gaps.
+Active automation:
+- **SessionStart**: checks SSD mount (`/Volumes/ICONOCRACIA`), reports corpus item count
+- **PreToolUse**: blocks edits to `tese/manuscrito/*_original` files; enforces vault note naming (`XX-NNN Title.md`)
+- **PostToolUse**: auto-stages vault notes to git; validates `corpus-data.json` schema on edit; regenerates CSV; counts thesis chapter words; checks Python syntax
+- **PreCompact**: preserves corpus IDs, Iconclass codes, ENDURECIMENTO scores, and ongoing campaigns
+
+---
+
+## Mandatory Terminology
+
+| Term | Rule |
+|------|------|
+| **ENDURECIMENTO** | Always in Portuguese. NEVER "hardening" or "embrutecimento" |
+| **Contrato Sexual Visual** | Original thesis concept — do NOT attribute to Pateman |
+| **Feminilidade de Estado** | Original thesis concept — do NOT attribute to Mondzain |
+| **Pathosformel**, **Zwischenraum**, **Nachleben** | Warburg — always in German |
+| **Mondzain** | Always 2002 edition |
+| **ABNT NBR 6023:2025** | Citation standard for all references |
+| **Iconclass 48C51** | Key code for feminist iconography |
+
+---
+
+## Corpus Parameters
+
+**Countries:** FR (Marianne, La République, La Justice, La Liberté) · UK (Britannia, Justice, Hibernia, Scotia) · DE (Germania, Justitia, Minerva) · US (Columbia, Lady Justice, Liberty, America) · BE (La Belgique) · BR (A República, A Justiça)
+
+**Supports:** moeda · selo · monumento/escultura · arquitetura forense · estampa/gravura · frontispício · papel-moeda · cartaz
+
+**Period:** 1800–2000 (priority: 1880–1920)
+
+**Three iconocratic regimes:** FUNDACIONAL (sacrificial, body alive) → NORMATIVO (domesticated, bureaucratic) → MILITAR (hardened, imperial)
+
+**10 purification indicators** (ordinal 0–4 per master prompt; current corpus data uses 0–3 range): desincorporação · rigidez_postural · dessexualização · uniformização_facial · heraldicização · enquadramento_arquitetônico · apagamento_narrativo · monocromatização · serialidade · inscrição_estatal
+
+**Inclusion criteria** (all 5 required): female allegorical figure + explicit juridical-political function + datable 1800–2000 + one of 6 countries + accepted support
+
+---
+
+## Mode Routing & Shortcut Commands
+
+The agent dispatches by trigger keywords (full spec: `ICONOCRACY_MASTER_PROMPT.md` §C). Execute directly without confirmation:
+
+| Trigger | Mode | Action |
+|---------|------|--------|
+| `scout [query]`, `campanha N`, `buscar`, `lacunas`, `auditoria` | SCOUT | Archive search, Obsidian note generation, gap analysis |
+| `codificar`, `iconocode`, `analisar imagem`, or image received | ICONOCODE | 3-level Panofsky + 10 indicators |
+| `compilar`, `make tese`, `gerar PDF` | COMPILAR | Markdown → PDF via Pandoc |
+| `validar [file]` | VALIDAR | JSON schema validation (`validate_schemas.py`) |
+| `sync vault pull/push/sync/diff/status` | SYNC | Bidirectional vault ↔ records sync (`vault_sync.py`) |
+| `purificacao status/item/lote/exportar` | PURIFICAÇÃO | ENDURECIMENTO coding (`code_purification.py`) |
+| `pesquisar`, `lit review`, `revisão de literatura` | PESQUISAR | Deep academic research |
+| `redigir`, `draft`, `escrever capítulo` | REDIGIR | Academic writing |
+| `revisar`, `peer review` | REVISAR | Multi-perspective review |
+| `zwischenraum`, `painel comparativo` | ZWISCHENRAUM | Warburg comparative panels |
+| `salvar` | — | Save last note to `vault/candidatos/` |
+| `sessão` | — | Save session summary to `vault/sessoes/` |
+
+---
+
+## Vault Tags
+
+Namespaced prefixes: `corpus/`, `pais/` (BR, FR, UK, DE, US, BE), `suporte/` (moeda, selo, monumento, estampa, frontispicio, papel-moeda, cartaz), `regime/` (fundacional, normativo, militar), `motivo/` (marianne, republica, justitia, britannia, columbia, germania, belgique). Flags: `#verificar`, `#possivel-duplicata`, `#contra-alegoria`, `#ausencia-alegorica`, `#colonialidade-do-ver`, `#contrato-racial-visual`.
+
+---
+
+## Traceability Rule
+
+Every corpus item must exist in three places:
+
+| Location | Content |
+|----------|---------|
+| Google Drive + `data/raw/drive-manifest.json` | Raw image origin + item_id link |
+| `vault/candidatos/` | Obsidian note with metadata and analysis |
+| `data/processed/records.jsonl` | Canonical master record |
+
+---
+
+## Key Conventions
+
+- All Python scripts run from repo root: `python tools/scripts/<script>.py`
+- Never use `sed` or partial edits on JSON config files — rewrite entirely with `Write`
+- For `corpus-data.json`, use Python scripts for atomic updates rather than direct Edit
+- `data/raw/` must remain metadata-only in git (ADR-001: Google Drive stores binaries)
+- Vault notes follow pattern `XX-NNN Title.md` where XX = country code, NNN = sequential number (e.g., `FR-013 Déclaration des droits.md`)
+- Thesis original files (`*_original`) are protected — use `vault/tese/` for revised drafts
+- SSD `/Volumes/ICONOCRACIA` stores raw images, Zotero PDFs, and backups
+- Automatic vault backups must not land on `main` (use `vault_backup.py`)
+- Academic voice: formal Portuguese with jurídico-penal framing (legal-criminal history, NOT anthropological/sociological)
+
+---
+
+## Release Gate
+
+Before public release: `validate_schemas.py` → `code_purification.py --status` → `vault_sync.py status` → `records_to_corpus.py --diff` → `build_hf_release.py`. See `docs/OPERATING_MODEL.md` for full policy.
