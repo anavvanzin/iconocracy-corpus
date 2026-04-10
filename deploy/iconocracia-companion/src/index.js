@@ -1,3 +1,5 @@
+import { Hono } from "hono";
+import { cors } from "hono/cors";
 import DATA from "./scout-data.json";
 
 const SCOUT_DATA = DATA;
@@ -230,155 +232,130 @@ a{color:var(--bordeaux)}
 </html>`;
 }
 
-const CORS = {
-  "Content-Type": "application/json",
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Methods": "GET, OPTIONS",
-};
+const app = new Hono();
 
-export default {
-  async fetch(request, env, ctx) {
-    const url = new URL(request.url);
-    if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: CORS });
+// ─── CORS middleware ───
+app.use("*", cors({
+  origin: "*",
+  allowMethods: ["GET", "PUT", "OPTIONS"],
+}));
 
-    // ─── R2 image serving ───
-    if (url.pathname.startsWith("/images/")) {
-      const key = decodeURIComponent(url.pathname.slice("/images/".length));
-      const obj = await env.CORPUS_IMAGES.get(key);
-      if (!obj) return new Response("Not Found", { status: 404 });
-      const h = new Headers();
-      obj.writeHttpMetadata(h);
-      h.set("Cache-Control", "public, max-age=31536000, immutable");
-      h.set("Access-Control-Allow-Origin", "*");
-      return new Response(obj.body, { headers: h });
-    }
+// ─── R2 image serving ───
+// {.+} captures the full remaining path including slashes (e.g. "FR/FR-001.jpg")
+app.get("/images/:key{.+}", async (c) => {
+  const key = c.req.param("key");
+  const obj = await c.env.CORPUS_IMAGES.get(decodeURIComponent(key));
+  if (!obj) return c.text("Not Found", 404);
+  const h = new Headers();
+  obj.writeHttpMetadata(h);
+  h.set("Cache-Control", "public, max-age=31536000, immutable");
+  h.set("Access-Control-Allow-Origin", "*");
+  return new Response(obj.body, { headers: h });
+});
 
-    // ─── D1 corpus list ───
-    if (url.pathname === "/api/corpus") {
-      if (!env.CORPUS_DB) return new Response(JSON.stringify([]), { headers: CORS });
-      const country = url.searchParams.get("country");
-      const regime  = url.searchParams.get("regime");
-      const q       = url.searchParams.get("q");
-      const parts = [], params = [];
-      if (country) { parts.push("country = ?"); params.push(country); }
-      if (regime)  { parts.push("LOWER(regime) = LOWER(?)"); params.push(regime); }
-      if (q) {
-        parts.push("(title LIKE ? OR motif_str LIKE ? OR tags_str LIKE ? OR description LIKE ?)");
-        const p = `%${q}%`; params.push(p, p, p, p);
-      }
-      const where = parts.length ? " WHERE " + parts.join(" AND ") : "";
-      const sql = `SELECT id, title, date, country, medium, support, regime, endurecimento_score, motif_str, tags_str, url, source_archive, creator, description FROM corpus_items${where} ORDER BY id`;
-      const stmt = env.CORPUS_DB.prepare(sql);
-      const result = params.length ? await stmt.bind(...params).all() : await stmt.all();
-      return new Response(JSON.stringify(result.results), { headers: CORS });
-    }
+// ─── D1 corpus stats ───
+app.get("/api/corpus/stats", async (c) => {
+  if (!c.env.CORPUS_DB) return c.json({ total_items: 0, by_country: [], by_medium: [], analyzed: 0, with_female_allegory: 0, female_allegory_items: [] });
+  const r1 = await c.env.CORPUS_DB.prepare("SELECT COUNT(*) as total FROM corpus_items").all();
+  const r2 = await c.env.CORPUS_DB.prepare("SELECT country, COUNT(*) as cnt FROM corpus_items GROUP BY country ORDER BY cnt DESC").all();
+  const r3 = await c.env.CORPUS_DB.prepare("SELECT support, COUNT(*) as cnt FROM corpus_items WHERE support IS NOT NULL AND support != '' GROUP BY support ORDER BY cnt DESC").all();
+  const r4 = await c.env.CORPUS_DB.prepare("SELECT COUNT(*) as analyzed FROM iconographic_analysis").all();
+  const r5 = await c.env.CORPUS_DB.prepare("SELECT item_id, figure_type FROM iconographic_analysis WHERE figure_type LIKE '%Yes%'").all();
+  return c.json({
+    total_items: r1.results[0].total,
+    by_country: r2.results,
+    by_medium: r3.results,
+    analyzed: r4.results[0].analyzed,
+    with_female_allegory: r5.results.length,
+    female_allegory_items: r5.results,
+  });
+});
 
-    // ─── D1 single item ───
-    if (url.pathname.startsWith("/api/corpus/")) {
-      if (!env.CORPUS_DB) return new Response("Not Found", { status: 404, headers: CORS });
-      const id = decodeURIComponent(url.pathname.slice("/api/corpus/".length));
-      const item = await env.CORPUS_DB.prepare("SELECT * FROM corpus_items WHERE id = ?").bind(id).first();
-      if (!item) return new Response("Not Found", { status: 404, headers: CORS });
-      return new Response(JSON.stringify(item), { headers: CORS });
-    }
+// ─── D1 countries list ───
+app.get("/api/corpus/countries", async (c) => {
+  if (!c.env.CORPUS_DB) return c.json([]);
+  const result = await c.env.CORPUS_DB.prepare("SELECT DISTINCT country FROM corpus_items ORDER BY country").all();
+  return c.json(result.results.map(r => r.country));
+});
 
-    // ─── D1 countries list ───
-    if (url.pathname === "/api/corpus/countries") {
-      if (!env.CORPUS_DB) return new Response(JSON.stringify([]), { headers: CORS });
-      const result = await env.CORPUS_DB.prepare("SELECT DISTINCT country FROM corpus_items ORDER BY country").all();
-      return new Response(JSON.stringify(result.results.map(r => r.country)), { headers: CORS });
-    }
+// ─── D1 analysis search ───
+app.get("/api/corpus/analysis/search", async (c) => {
+  if (!c.env.CORPUS_DB) return c.json({ count: 0, results: [] });
+  const attr = c.req.query("attr") || "";
+  const fig = c.req.query("figure") || "";
+  let sql = `SELECT a.item_id, a.figure_type, a.attributes, a.iconclass_codes, a.juridical_function, c.title, c.country, c.date, c.url FROM iconographic_analysis a JOIN corpus_items c ON a.item_id = c.id WHERE 1=1`;
+  const params = [];
+  if (attr) { sql += " AND a.attributes LIKE ?"; params.push(`%${attr}%`); }
+  if (fig) { sql += " AND a.figure_type LIKE ?"; params.push(`%${fig}%`); }
+  sql += " ORDER BY c.date";
+  const result = await c.env.CORPUS_DB.prepare(sql).bind(...params).all();
+  return c.json({ count: result.results.length, results: result.results });
+});
 
-    if (url.pathname === "/api/diary") {
-      const headers = { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Methods": "GET, PUT, OPTIONS" };
-      if (request.method === "OPTIONS") return new Response(null, { status: 204, headers });
-      if (request.method === "GET") { const data = await env.DIARY_KV.get("diary", "text"); return new Response(data || "[]", { headers }); }
-      if (request.method === "PUT") { const body = await request.text(); await env.DIARY_KV.put("diary", body); return new Response(JSON.stringify({ ok: true }), { headers }); }
-      return new Response("Method not allowed", { status: 405, headers });
-    }
+// ─── D1 all analyses ───
+app.get("/api/corpus/analysis", async (c) => {
+  if (!c.env.CORPUS_DB) return c.json({ count: 0, analyses: [] });
+  const result = await c.env.CORPUS_DB.prepare(
+    `SELECT a.*, c.title, c.country, c.date, c.url FROM iconographic_analysis a JOIN corpus_items c ON a.item_id = c.id ORDER BY a.item_id`
+  ).all();
+  return c.json({ count: result.results.length, analyses: result.results });
+});
 
-    // ─── D1 Corpus API ───
-    if (url.pathname.startsWith("/api/corpus")) {
-      const headers = { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Methods": "GET, OPTIONS" };
-      if (request.method === "OPTIONS") return new Response(null, { status: 204, headers });
+// ─── D1 corpus list ───
+app.get("/api/corpus", async (c) => {
+  if (!c.env.CORPUS_DB) return c.json([]);
+  const country = c.req.query("country");
+  const regime  = c.req.query("regime");
+  const q       = c.req.query("q");
+  const parts = [], params = [];
+  if (country) { parts.push("country = ?"); params.push(country); }
+  if (regime)  { parts.push("LOWER(regime) = LOWER(?)"); params.push(regime); }
+  if (q) {
+    parts.push("(title LIKE ? OR motif_str LIKE ? OR tags_str LIKE ? OR description LIKE ?)");
+    const p = `%${q}%`; params.push(p, p, p, p);
+  }
+  const where = parts.length ? " WHERE " + parts.join(" AND ") : "";
+  const sql = `SELECT id, title, date, country, medium, support, regime, endurecimento_score, motif_str, tags_str, url, source_archive, creator, description FROM corpus_items${where} ORDER BY id`;
+  const stmt = c.env.CORPUS_DB.prepare(sql);
+  const result = params.length ? await stmt.bind(...params).all() : await stmt.all();
+  return c.json(result.results);
+});
 
-      const sub = url.pathname.replace("/api/corpus", "") || "/";
+// ─── D1 single item ───
+app.get("/api/corpus/:id", async (c) => {
+  if (!c.env.CORPUS_DB) return c.json({ error: "Not found" }, 404);
+  const id = decodeURIComponent(c.req.param("id"));
+  const item = await c.env.CORPUS_DB.prepare("SELECT * FROM corpus_items WHERE id = ?").bind(id).first();
+  if (!item) return c.json({ error: "Not found" }, 404);
+  const analysis = await c.env.CORPUS_DB.prepare("SELECT * FROM iconographic_analysis WHERE item_id = ?").bind(id).first();
+  return c.json({ item, analysis: analysis || null });
+});
 
-      // GET /api/corpus — all items with optional filters
-      if (sub === "/" || sub === "") {
-        const country = url.searchParams.get("country");
-        const q = url.searchParams.get("q");
-        let sql = "SELECT * FROM corpus_items";
-        const params = [];
-        const where = [];
-        if (country) { where.push("country = ?"); params.push(country); }
-        if (q) { where.push("(title LIKE ? OR description LIKE ? OR motif_str LIKE ? OR tags_str LIKE ?)"); params.push(`%${q}%`, `%${q}%`, `%${q}%`, `%${q}%`); }
-        if (where.length) sql += " WHERE " + where.join(" AND ");
-        sql += " ORDER BY id";
-        const result = await env.CORPUS_DB.prepare(sql).bind(...params).all();
-        return new Response(JSON.stringify({ count: result.results.length, items: result.results }), { headers });
-      }
+// ─── KV diary ───
+app.get("/api/diary", async (c) => {
+  const data = await c.env.DIARY_KV.get("diary", "text");
+  return c.body(data || "[]", 200, { "Content-Type": "application/json" });
+});
 
-      // GET /api/corpus/analysis — all vision analyses
-      if (sub === "/analysis") {
-        const result = await env.CORPUS_DB.prepare(
-          `SELECT a.*, c.title, c.country, c.date, c.url FROM iconographic_analysis a JOIN corpus_items c ON a.item_id = c.id ORDER BY a.item_id`
-        ).all();
-        return new Response(JSON.stringify({ count: result.results.length, analyses: result.results }), { headers });
-      }
+app.put("/api/diary", async (c) => {
+  const body = await c.req.text();
+  await c.env.DIARY_KV.put("diary", body);
+  return c.json({ ok: true });
+});
 
-      // GET /api/corpus/analysis/search?attr=scales — search by attribute
-      if (sub === "/analysis/search") {
-        const attr = url.searchParams.get("attr") || "";
-        const fig = url.searchParams.get("figure") || "";
-        let sql = `SELECT a.item_id, a.figure_type, a.attributes, a.iconclass_codes, a.juridical_function, c.title, c.country, c.date, c.url FROM iconographic_analysis a JOIN corpus_items c ON a.item_id = c.id WHERE 1=1`;
-        const params = [];
-        if (attr) { sql += " AND a.attributes LIKE ?"; params.push(`%${attr}%`); }
-        if (fig) { sql += " AND a.figure_type LIKE ?"; params.push(`%${fig}%`); }
-        sql += " ORDER BY c.date";
-        const result = await env.CORPUS_DB.prepare(sql).bind(...params).all();
-        return new Response(JSON.stringify({ count: result.results.length, results: result.results }), { headers });
-      }
+// ─── Scout data JSON ───
+app.get("/api/scout", (c) => {
+  return c.body(JSON.stringify(SCOUT_DATA, null, 2), 200, { "Content-Type": "application/json" });
+});
 
-      // GET /api/corpus/stats — corpus statistics
-      if (sub === "/stats") {
-        const r1 = await env.CORPUS_DB.prepare("SELECT COUNT(*) as total FROM corpus_items").all();
-        const r2 = await env.CORPUS_DB.prepare("SELECT country, COUNT(*) as cnt FROM corpus_items GROUP BY country ORDER BY cnt DESC").all();
-        const r3 = await env.CORPUS_DB.prepare("SELECT support, COUNT(*) as cnt FROM corpus_items WHERE support IS NOT NULL AND support != '' GROUP BY support ORDER BY cnt DESC").all();
-        const r4 = await env.CORPUS_DB.prepare("SELECT COUNT(*) as analyzed FROM iconographic_analysis").all();
-        const r5 = await env.CORPUS_DB.prepare("SELECT item_id, figure_type FROM iconographic_analysis WHERE figure_type LIKE '%Yes%'").all();
-        return new Response(JSON.stringify({
-          total_items: r1.results[0].total,
-          by_country: r2.results,
-          by_medium: r3.results,
-          analyzed: r4.results[0].analyzed,
-          with_female_allegory: r5.results.length,
-          female_allegory_items: r5.results,
-        }), { headers });
-      }
+// ─── Scout page (server-rendered HTML) ───
+app.get("/scout", (c) => {
+  return c.html(renderPage());
+});
 
-      // GET /api/corpus/:id — single item with analysis
-      const itemId = sub.replace(/^\//, "");
-      if (itemId) {
-        const item = await env.CORPUS_DB.prepare("SELECT * FROM corpus_items WHERE id = ?").bind(itemId).first();
-        if (!item) return new Response(JSON.stringify({ error: "Not found" }), { status: 404, headers });
-        const analysis = await env.CORPUS_DB.prepare("SELECT * FROM iconographic_analysis WHERE item_id = ?").bind(itemId).first();
-        return new Response(JSON.stringify({ item, analysis: analysis || null }), { headers });
-      }
-    }
+// ─── Static asset fallthrough ───
+app.all("*", async (c) => {
+  return c.env.ASSETS.fetch(c.req.raw);
+});
 
-    if (url.pathname === "/api/scout") {
-      return new Response(JSON.stringify(SCOUT_DATA, null, 2), {
-        headers: { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" },
-      });
-    }
-
-    if (url.pathname === "/scout") {
-      return new Response(renderPage(), {
-        headers: { "Content-Type": "text/html; charset=utf-8" },
-      });
-    }
-
-    return env.ASSETS.fetch(request);
-  },
-};
+export default app;
