@@ -241,6 +241,7 @@ app.use("*", cors({
 }));
 
 // ─── R2 image serving ───
+// {.+} captures the full remaining path including slashes (e.g. "FR/FR-001.jpg")
 app.get("/images/:key{.+}", async (c) => {
   const key = c.req.param("key");
   const obj = await c.env.CORPUS_IMAGES.get(decodeURIComponent(key));
@@ -254,7 +255,7 @@ app.get("/images/:key{.+}", async (c) => {
 
 // ─── D1 corpus stats ───
 app.get("/api/corpus/stats", async (c) => {
-  if (!c.env.CORPUS_DB) return c.json({});
+  if (!c.env.CORPUS_DB) return c.json({ total_items: 0, by_country: [], by_medium: [], analyzed: 0, with_female_allegory: 0, female_allegory_items: [] });
   const r1 = await c.env.CORPUS_DB.prepare("SELECT COUNT(*) as total FROM corpus_items").all();
   const r2 = await c.env.CORPUS_DB.prepare("SELECT country, COUNT(*) as cnt FROM corpus_items GROUP BY country ORDER BY cnt DESC").all();
   const r3 = await c.env.CORPUS_DB.prepare("SELECT support, COUNT(*) as cnt FROM corpus_items WHERE support IS NOT NULL AND support != '' GROUP BY support ORDER BY cnt DESC").all();
