@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ICONOCRACIA — Analytics</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⚖️</text></svg>"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1" integrity="sha384-jb8JQMbMoBUzgWatfe6COACi2ljcDdZQ2OxczGA3bGNeWe+6DChMTBJemed7ZnvJ" crossorigin="anonymous"></script>
+<style>
+:root{
+  --parchment:#F5F0E8;--ink:#1A1A2E;--sepia:#8B7355;
+  --bordeaux:#6B2D3E;--navy:#16213E;--gold:#C4A265;
+  --cream:#FAF7F0;--warmGray:#9B8E82;--lightSepia:#D4C5A9;
+  --rust:#A0522D;--faded:#B8A99A
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Cormorant Garamond',Georgia,serif;background:var(--parchment);color:var(--ink);font-size:14px;line-height:1.5}
+.mono{font-family:'IBM Plex Mono',monospace}
+button{cursor:pointer;font-family:inherit}
+input,select{font-family:'Cormorant Garamond',Georgia,serif}
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-thumb{background:var(--lightSepia);border-radius:3px}
+
+/* ─── Header ─── */
+.hdr{background:var(--navy);padding:16px 20px;border-bottom:3px solid var(--gold);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.hdr-left{display:flex;flex-direction:column;gap:2px}
+.hdr-back{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--lightSepia);text-decoration:none;letter-spacing:.08em;border:1px solid rgba(212,197,169,.3);padding:2px 8px;border-radius:2px;display:inline-block;transition:all .2s;width:fit-content}
+.hdr-back:hover{color:var(--gold);border-color:var(--gold)}
+.hdr h1{font-size:18px;font-weight:700;color:var(--cream);letter-spacing:.1em;text-transform:uppercase;margin-top:4px}
+.hdr p{font-size:12px;color:var(--warmGray);font-style:italic}
+
+/* ─── Filter bar ─── */
+.filter-bar{background:var(--cream);border-bottom:2px solid var(--lightSepia);padding:10px 20px;position:sticky;top:0;z-index:20}
+.filter-bar-inner{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:8px}
+.filter-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.filter-search{flex:1;min-width:180px;padding:6px 10px;border:1px solid var(--lightSepia);border-radius:3px;font-size:13px;color:var(--ink);background:var(--parchment);outline:none;transition:border-color .2s}
+.filter-search:focus{border-color:var(--gold)}
+.filter-select{padding:5px 8px;border:1px solid var(--lightSepia);border-radius:3px;font-size:11px;font-family:'IBM Plex Mono',monospace;color:var(--ink);background:var(--cream);cursor:pointer;outline:none}
+.filter-label{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--warmGray);letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
+.pill-group{display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+.pill{font-family:'IBM Plex Mono',monospace;font-size:10px;padding:3px 10px;border-radius:2px;border:1px solid var(--lightSepia);background:transparent;color:var(--warmGray);cursor:pointer;letter-spacing:.06em;transition:all .15s}
+.pill:hover{color:var(--bordeaux);border-color:rgba(107,45,62,.4)}
+.pill.active{background:var(--bordeaux);color:var(--cream);border-color:var(--bordeaux)}
+.pill.regime-mil.active{background:var(--bordeaux);border-color:var(--bordeaux)}
+.pill.regime-nor.active{background:var(--sepia);border-color:var(--sepia)}
+.pill.regime-fun.active{background:var(--navy);border-color:var(--navy)}
+.pill.regime-ca.active{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.filter-count{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--warmGray);margin-left:auto;white-space:nowrap}
+.range-wrap{display:flex;gap:4px;align-items:center}
+.range-input{width:64px;padding:4px 6px;border:1px solid var(--lightSepia);border-radius:3px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink);background:var(--cream);outline:none}
+.range-input:focus{border-color:var(--gold)}
+
+/* ─── Export button (retro sepia style) ─── */
+.export-wrap{position:relative;display:inline-block}
+.export-btn{font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.08em;padding:6px 14px;background:var(--gold);color:var(--navy);border:2px solid var(--rust);border-radius:2px;cursor:pointer;transition:all .1s;display:inline-flex;align-items:center;gap:6px;white-space:nowrap;box-shadow:2px 2px 0 var(--rust)}
+.export-btn:hover{background:#d4a830;transform:translate(1px,1px);box-shadow:1px 1px 0 var(--rust)}
+.export-btn:active{transform:translate(2px,2px);box-shadow:none}
+.export-menu{display:none;position:absolute;right:0;top:calc(100% + 4px);background:var(--cream);border:1px solid var(--lightSepia);border-radius:3px;box-shadow:0 4px 16px rgba(22,33,62,.15);min-width:200px;z-index:30}
+.export-menu.open{display:block}
+.export-menu-item{display:block;width:100%;text-align:left;padding:10px 16px;background:none;border:none;border-bottom:1px solid var(--lightSepia);font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink);cursor:pointer;transition:background .15s;letter-spacing:.04em}
+.export-menu-item:last-child{border-bottom:none}
+.export-menu-item:hover{background:var(--parchment);color:var(--bordeaux)}
+.export-icon{margin-right:8px}
+
+/* ─── Wrap ─── */
+.wrap{max-width:1400px;margin:0 auto;padding:16px 20px 60px}
+
+/* ─── KPI ─── */
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:16px}
+.kpi{background:var(--cream);border:1px solid var(--lightSepia);border-top:3px solid var(--gold);border-radius:4px;padding:14px 16px}
+.kpi-label{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--warmGray);margin-bottom:4px}
+.kpi-value{font-size:24px;font-weight:700;color:var(--navy)}
+.kpi-sub{font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--faded);margin-top:2px}
+
+/* ─── Charts ─── */
+.charts-g2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.charts-g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:12px}
+.chart-card{background:var(--cream);border:1px solid var(--lightSepia);border-radius:4px;padding:14px 16px}
+.chart-card h3{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--warmGray);margin-bottom:10px;border-bottom:1px solid var(--lightSepia);padding-bottom:6px}
+.chart-card canvas{max-height:200px}
+
+/* ─── Table ─── */
+.table-card{background:var(--cream);border:1px solid var(--lightSepia);border-radius:4px;padding:14px 16px}
+.tbl-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;flex-wrap:wrap;gap:8px}
+.tbl-header h3{font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--warmGray)}
+.tbl-wrap{overflow-x:auto}
+.dtbl{width:100%;border-collapse:collapse;font-size:12px}
+.dtbl thead th{text-align:left;padding:7px 10px;border-bottom:2px solid var(--lightSepia);font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.06em;color:var(--warmGray);background:var(--parchment);white-space:nowrap;cursor:pointer;user-select:none}
+.dtbl thead th:hover{color:var(--ink)}
+.dtbl tbody td{padding:7px 10px;border-bottom:1px solid rgba(212,197,169,.4);vertical-align:middle}
+.dtbl tbody tr:hover{background:rgba(212,197,169,.12)}
+.regime-tag{font-family:'IBM Plex Mono',monospace;font-size:9px;padding:2px 6px;border-radius:2px;text-transform:uppercase;letter-spacing:.08em;white-space:nowrap}
+.regime-normativo{background:rgba(139,115,85,.1);color:var(--sepia);border:1px solid rgba(139,115,85,.25)}
+.regime-fundacional{background:rgba(22,33,62,.1);color:var(--navy);border:1px solid rgba(22,33,62,.25)}
+.regime-militar{background:rgba(107,45,62,.1);color:var(--bordeaux);border:1px solid rgba(107,45,62,.25)}
+.regime-contra-alegoria{background:rgba(196,162,101,.1);color:var(--rust);border:1px solid rgba(196,162,101,.25)}
+.score-bar-wrap{display:flex;align-items:center;gap:6px;min-width:80px}
+.score-bar-bg{height:4px;background:rgba(212,197,169,.4);border-radius:2px;flex:1}
+.score-bar-fill{height:100%;border-radius:2px;background:var(--bordeaux)}
+.pagi{display:flex;gap:4px;align-items:center;justify-content:flex-end;margin-top:10px;flex-wrap:wrap}
+.pagi-btn{font-family:'IBM Plex Mono',monospace;font-size:10px;padding:3px 8px;border:1px solid var(--lightSepia);border-radius:2px;background:var(--cream);cursor:pointer;color:var(--warmGray);transition:all .15s}
+.pagi-btn.active{background:var(--navy);color:var(--cream);border-color:var(--navy)}
+.pagi-btn:hover:not(.active):not([disabled]){border-color:var(--sepia);color:var(--ink)}
+.no-results{text-align:center;padding:40px;color:var(--warmGray);font-style:italic;font-size:13px}
+
+footer{background:var(--navy);text-align:center;padding:12px 20px;font-family:'IBM Plex Mono',monospace;color:var(--lightSepia);font-size:9px;letter-spacing:.1em;border-top:2px solid var(--gold);margin-top:2rem}
+@media(max-width:700px){.charts-g2,.charts-g3{grid-template-columns:1fr}.hdr{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <div class="hdr-left">
+    <a href="/" class="hdr-back mono">← Companheiro de Pesquisa</a>
+    <h1>ICONOCRACIA — Analytics</h1>
+    <p>Corpus iconográfico · Alegoria Feminina na Cultura Jurídica · PPGD/UFSC · Ana Vanzin</p>
+  </div>
+  <div id="hdr-stats" class="mono" style="font-size:11px;color:var(--lightSepia);text-align:right;line-height:1.9"></div>
+</div>
+
+<div class="filter-bar">
+  <div class="filter-bar-inner">
+    <div class="filter-row">
+      <input class="filter-search" id="f-search" type="search" placeholder="Buscar por título, motivo, suporte, tags…" oninput="dash.applyFilters()"/>
+      <span class="filter-label">País</span>
+      <select class="filter-select" id="f-country" onchange="dash.applyFilters()">
+        <option value="">Todos</option>
+      </select>
+      <span class="filter-label">Suporte</span>
+      <select class="filter-select" id="f-support" onchange="dash.applyFilters()">
+        <option value="">Todos</option>
+      </select>
+      <span class="filter-label">Período</span>
+      <select class="filter-select" id="f-period" onchange="dash.applyFilters()">
+        <option value="">Todos</option>
+      </select>
+      <span class="filter-label">Score</span>
+      <div class="range-wrap">
+        <input class="range-input" id="f-score-min" type="number" min="0" max="3" step="0.1" placeholder="min" oninput="dash.applyFilters()"/>
+        <span class="mono" style="font-size:10px;color:var(--faded)">–</span>
+        <input class="range-input" id="f-score-max" type="number" min="0" max="3" step="0.1" placeholder="max" oninput="dash.applyFilters()"/>
+      </div>
+      <div class="export-wrap">
+        <button class="export-btn" id="export-toggle" onclick="toggleExportMenu(event)" aria-haspopup="true" aria-expanded="false">
+          ⬇ Exportar <span style="font-size:9px;opacity:.8">▾</span>
+        </button>
+        <div class="export-menu" id="export-menu" role="menu">
+          <button class="export-menu-item" onclick="dash.exportCSV()" role="menuitem">
+            <span class="export-icon">📄</span>CSV — campos essenciais
+          </button>
+          <button class="export-menu-item" onclick="dash.exportJSON()" role="menuitem">
+            <span class="export-icon">{ }</span>JSON — dataset completo
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="filter-row">
+      <span class="filter-label">Regime</span>
+      <div class="pill-group">
+        <button class="pill active" id="pill-ALL" onclick="dash.setRegime('ALL',this)">Todos</button>
+        <button class="pill regime-mil" id="pill-militar" onclick="dash.setRegime('militar',this)">Militar</button>
+        <button class="pill regime-nor" id="pill-normativo" onclick="dash.setRegime('normativo',this)">Normativo</button>
+        <button class="pill regime-fun" id="pill-fundacional" onclick="dash.setRegime('fundacional',this)">Fundacional</button>
+        <button class="pill regime-ca" id="pill-contra-alegoria" onclick="dash.setRegime('contra-alegoria',this)">Contra-alegoria</button>
+      </div>
+      <span class="filter-count" id="filter-count">— itens</span>
+      <button class="mono" onclick="dash.reset()" style="font-size:10px;color:var(--warmGray);background:none;border:1px solid var(--lightSepia);border-radius:2px;padding:3px 8px">↺ Limpar filtros</button>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-label">Itens filtrados</div><div class="kpi-value" id="kpi-total">—</div><div class="kpi-sub">de 145 no corpus</div></div>
+    <div class="kpi"><div class="kpi-label">Países</div><div class="kpi-value" id="kpi-countries">—</div><div class="kpi-sub">representados</div></div>
+    <div class="kpi"><div class="kpi-label">Score médio</div><div class="kpi-value" id="kpi-score">—</div><div class="kpi-sub">ENDURECIMENTO</div></div>
+    <div class="kpi"><div class="kpi-label">Suporte principal</div><div class="kpi-value" id="kpi-support" style="font-size:16px;margin-top:2px">—</div><div class="kpi-sub" id="kpi-support-sub"></div></div>
+    <div class="kpi"><div class="kpi-label">Regime dominante</div><div class="kpi-value" id="kpi-regime" style="font-size:16px;margin-top:2px">—</div><div class="kpi-sub" id="kpi-regime-sub"></div></div>
+    <div class="kpi"><div class="kpi-label">Cobertura temporal</div><div class="kpi-value" id="kpi-years" style="font-size:16px;margin-top:2px">—</div><div class="kpi-sub" id="kpi-years-sub"></div></div>
+  </div>
+
+  <div class="charts-g2">
+    <div class="chart-card"><h3>Distribuição por País</h3><canvas id="c-country"></canvas></div>
+    <div class="chart-card"><h3>Distribuição por Regime Iconocrático</h3><canvas id="c-regime"></canvas></div>
+  </div>
+
+  <div class="charts-g3">
+    <div class="chart-card"><h3>Suporte Material</h3><canvas id="c-support"></canvas></div>
+    <div class="chart-card"><h3>Score ENDURECIMENTO</h3><canvas id="c-score"></canvas></div>
+    <div class="chart-card"><h3>Distribuição Temporal por Década</h3><canvas id="c-time"></canvas></div>
+  </div>
+
+  <div class="table-card">
+    <div class="tbl-header">
+      <h3>Itens do Corpus — <span id="tbl-count">—</span> resultados</h3>
+    </div>
+    <div class="tbl-wrap">
+      <table class="dtbl" id="dtbl">
+        <thead>
+          <tr>
+            <th onclick="dash.sort('id')">ID ↕</th>
+            <th onclick="dash.sort('title')">Título ↕</th>
+            <th onclick="dash.sort('country')">País ↕</th>
+            <th onclick="dash.sort('date')">Data ↕</th>
+            <th onclick="dash.sort('regime')">Regime ↕</th>
+            <th onclick="dash.sort('endurecimento_score')">Score ↕</th>
+            <th onclick="dash.sort('support')">Suporte ↕</th>
+            <th>Motivo</th>
+          </tr>
+        </thead>
+        <tbody id="dtbl-body"></tbody>
+      </table>
+    </div>
+    <div class="pagi" id="pagi"></div>
+  </div>
+</div>
+
+<footer>ICONOCRACIA · Analytics Dashboard · PPGD/UFSC · 2026 · Ana Vanzin</footer>
+
+<script>
+// ─── Close export menu when clicking outside ───
+document.addEventListener('click', function(e) {
+  const wrap = document.querySelector('.export-wrap');
+  if (wrap && !wrap.contains(e.target)) {
+    document.getElementById('export-menu').classList.remove('open');
+    document.getElementById('export-toggle').setAttribute('aria-expanded', 'false');
+  }
+});
+
+function toggleExportMenu(e) {
+  e.stopPropagation();
+  const menu = document.getElementById('export-menu');
+  const btn  = document.getElementById('export-toggle');
+  const isOpen = menu.classList.toggle('open');
+  btn.setAttribute('aria-expanded', String(isOpen));
+}
+
+// ─── Dashboard class ───
+class Dashboard {
+  constructor(data) {
+    this.data     = data;
+    this.filtered = [...data];
+    this.sortKey  = 'id';
+    this.sortDir  = 1;
+    this.regime   = 'ALL';
+    this.page     = 0;
+    this.pageSize = 20;
+    this.charts   = {};
+    this._populateFilters();
+    this.applyFilters();
+  }
+
+  _populateFilters() {
+    const uniq = (key) => [...new Set(this.data.map(d => d[key]).filter(Boolean))].sort();
+    const sel  = (id, vals) => {
+      const el = document.getElementById(id);
+      vals.forEach(v => { const o = document.createElement('option'); o.value = v; o.textContent = v; el.appendChild(o); });
+    };
+    sel('f-country', uniq('country'));
+    sel('f-support', uniq('support'));
+    sel('f-period',  uniq('period'));
+  }
+
+  applyFilters() {
+    const q        = (document.getElementById('f-search').value || '').toLowerCase().trim();
+    const country  = document.getElementById('f-country').value;
+    const support  = document.getElementById('f-support').value;
+    const period   = document.getElementById('f-period').value;
+    const scoreMin = parseFloat(document.getElementById('f-score-min').value);
+    const scoreMax = parseFloat(document.getElementById('f-score-max').value);
+
+    this.filtered = this.data.filter(d => {
+      if (this.regime !== 'ALL' && (d.regime || '').toLowerCase() !== this.regime) return false;
+      if (country && d.country !== country) return false;
+      if (support && d.support !== support) return false;
+      if (period  && d.period  !== period)  return false;
+      if (!isNaN(scoreMin) && (d.endurecimento_score || 0) < scoreMin) return false;
+      if (!isNaN(scoreMax) && (d.endurecimento_score || 0) > scoreMax) return false;
+      if (q) {
+        const hay = [d.id, d.title, d.motif, d.tags, d.support, d.country, d.period].join(' ').toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+
+    this.page = 0;
+    this._sort();
+    this._renderKPIs();
+    this._renderTable();
+    document.getElementById('filter-count').textContent = this.filtered.length + ' itens';
+    try { this._renderCharts(); } catch(e) { console.warn('Chart.js unavailable:', e.message); }
+  }
+
+  setRegime(regime, el) {
+    this.regime = regime;
+    document.querySelectorAll('.pill-group .pill').forEach(p => p.classList.remove('active'));
+    if (el) el.classList.add('active');
+    this.applyFilters();
+  }
+
+  reset() {
+    document.getElementById('f-search').value    = '';
+    document.getElementById('f-country').value   = '';
+    document.getElementById('f-support').value   = '';
+    document.getElementById('f-period').value    = '';
+    document.getElementById('f-score-min').value = '';
+    document.getElementById('f-score-max').value = '';
+    this.regime = 'ALL';
+    document.querySelectorAll('.pill-group .pill').forEach(p => p.classList.remove('active'));
+    const allPill = document.getElementById('pill-ALL');
+    if (allPill) allPill.classList.add('active');
+    this.applyFilters();
+  }
+
+  sort(key) {
+    if (this.sortKey === key) this.sortDir *= -1;
+    else { this.sortKey = key; this.sortDir = 1; }
+    this.page = 0;
+    this._sort();
+    this._renderTable();
+  }
+
+  _sort() {
+    const k = this.sortKey, dir = this.sortDir;
+    this.filtered.sort((a, b) => {
+      const av = a[k] ?? '', bv = b[k] ?? '';
+      if (typeof av === 'number' && typeof bv === 'number') return (av - bv) * dir;
+      return String(av).localeCompare(String(bv)) * dir;
+    });
+  }
+
+  _renderKPIs() {
+    const f       = this.filtered;
+    const scores  = f.map(d => d.endurecimento_score).filter(s => s != null && !isNaN(s));
+    const avg     = scores.length ? (scores.reduce((a, b) => a + b, 0) / scores.length).toFixed(2) : '—';
+    const cntries = new Set(f.map(d => d.country).filter(Boolean));
+    const regMap  = {}, supMap = {};
+    f.forEach(d => {
+      const r = d.regime  || '?'; regMap[r] = (regMap[r] || 0) + 1;
+      const s = d.support || '?'; supMap[s] = (supMap[s] || 0) + 1;
+    });
+    const topReg = Object.entries(regMap).sort((a, b) => b[1] - a[1])[0];
+    const topSup = Object.entries(supMap).sort((a, b) => b[1] - a[1])[0];
+    const years  = f.map(d => d.year).filter(y => y && !isNaN(y));
+    document.getElementById('kpi-total').textContent         = f.length;
+    document.getElementById('kpi-countries').textContent     = cntries.size;
+    document.getElementById('kpi-score').textContent         = avg;
+    document.getElementById('kpi-support').textContent       = topSup ? topSup[0] : '—';
+    document.getElementById('kpi-support-sub').textContent   = topSup ? topSup[1] + ' itens' : '';
+    document.getElementById('kpi-regime').textContent        = topReg ? topReg[0] : '—';
+    document.getElementById('kpi-regime-sub').textContent    = topReg ? topReg[1] + ' itens' : '';
+    document.getElementById('kpi-years').textContent         = years.length ? Math.min(...years) + '–' + Math.max(...years) : '—';
+    document.getElementById('kpi-years-sub').textContent     = years.length ? years.length + ' datas' : '';
+    document.getElementById('hdr-stats').innerHTML           = f.length + ' itens filtrados · ' + cntries.size + ' países';
+  }
+
+  _mkChart(id, type, labels, data, colors) {
+    const ctx = document.getElementById(id).getContext('2d');
+    if (this.charts[id]) this.charts[id].destroy();
+    const FONT_MONO = "'IBM Plex Mono',monospace";
+    const FONT_SERIF = "'Cormorant Garamond',Georgia,serif";
+    this.charts[id] = new Chart(ctx, {
+      type,
+      data: { labels, datasets: [{ data, backgroundColor: colors, borderColor: colors, borderWidth: 1 }] },
+      options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+          legend: {
+            display: type === 'doughnut' || type === 'pie',
+            position: 'bottom',
+            labels: { font: { family: FONT_MONO, size: 9 }, padding: 6 }
+          },
+          tooltip: {
+            titleFont: { family: FONT_SERIF },
+            bodyFont:  { family: FONT_MONO, size: 10 }
+          }
+        },
+        scales: (type === 'bar') ? {
+          x: { ticks: { font: { family: FONT_MONO, size: 9 }, maxRotation: 45 } },
+          y: { ticks: { font: { family: FONT_MONO, size: 9 } }, beginAtZero: true }
+        } : undefined
+      }
+    });
+  }
+
+  _renderCharts() {
+    const f = this.filtered;
+    const P = ['#6B2D3E','#16213E','#8B7355','#C4A265','#A0522D','#9B8E82','#B8A99A','#D4C5A9','#3d6b5e','#5a3d6b','#3d5a6b','#6b5a3d'];
+    const cnt = (key) => {
+      const m = {};
+      f.forEach(d => { const v = d[key] || '?'; m[v] = (m[v] || 0) + 1; });
+      return Object.entries(m).sort((a, b) => b[1] - a[1]);
+    };
+    // Country bar chart (top 12)
+    const cc = cnt('country').slice(0, 12);
+    this._mkChart('c-country', 'bar', cc.map(x => x[0].substring(0, 16)), cc.map(x => x[1]), P);
+    // Regime doughnut
+    const rc = cnt('regime');
+    const RC = { 'militar': '#6B2D3E', 'normativo': '#8B7355', 'fundacional': '#16213E', 'contra-alegoria': '#C4A265' };
+    this._mkChart('c-regime', 'doughnut', rc.map(x => x[0]), rc.map(x => x[1]), rc.map(x => RC[x[0]] || '#9B8E82'));
+    // Support doughnut
+    const sc = cnt('support').slice(0, 8);
+    this._mkChart('c-support', 'doughnut', sc.map(x => x[0]), sc.map(x => x[1]), P.slice(0, sc.length));
+    // Score histogram
+    const bins   = [0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0];
+    const bLabels = bins.slice(0, -1).map((b, i) => b + '–' + bins[i + 1]);
+    const bCounts = Array(bins.length - 1).fill(0);
+    f.forEach(d => {
+      const s = d.endurecimento_score;
+      if (s == null || isNaN(s)) return;
+      for (let i = 0; i < bins.length - 1; i++) {
+        if (s >= bins[i] && (s < bins[i + 1] || (i === bins.length - 2 && s <= bins[i + 1]))) { bCounts[i]++; break; }
+      }
+    });
+    this._mkChart('c-score', 'bar', bLabels, bCounts, P.slice(0, bLabels.length));
+    // Temporal distribution by decade
+    const dec = {};
+    f.forEach(d => {
+      if (!d.year || isNaN(d.year)) return;
+      const dk = Math.floor(d.year / 10) * 10;
+      dec[dk] = (dec[dk] || 0) + 1;
+    });
+    const decE = Object.entries(dec).sort((a, b) => a[0] - b[0]);
+    this._mkChart('c-time', 'bar', decE.map(x => x[0] + 's'), decE.map(x => x[1]), P.slice(0, decE.length));
+  }
+
+  _renderTable() {
+    const total = Math.ceil(this.filtered.length / this.pageSize);
+    const start = this.page * this.pageSize;
+    const items = this.filtered.slice(start, start + this.pageSize);
+    document.getElementById('tbl-count').textContent = this.filtered.length;
+    const tbody = document.getElementById('dtbl-body');
+    if (this.filtered.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="8" class="no-results">Nenhum item corresponde aos filtros aplicados.</td></tr>';
+    } else {
+      tbody.innerHTML = items.map(d => {
+        const score = d.endurecimento_score != null ? (+d.endurecimento_score).toFixed(1) : '—';
+        const pct   = d.endurecimento_score != null ? Math.min((d.endurecimento_score / 3) * 100, 100) : 0;
+        const reg   = (d.regime || 'normativo').toLowerCase();
+        const motif = (d.motif || '').substring(0, 45) + ((d.motif || '').length > 45 ? '…' : '');
+        return '<tr>'
+          + '<td class="mono" style="font-size:10px;color:var(--gold);white-space:nowrap">' + this._esc(d.id) + '</td>'
+          + '<td style="max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px">' + this._esc(d.title) + '</td>'
+          + '<td class="mono" style="font-size:10px;white-space:nowrap">' + this._esc(d.country) + '</td>'
+          + '<td class="mono" style="font-size:10px;white-space:nowrap">' + this._esc(d.date) + '</td>'
+          + '<td><span class="regime-tag regime-' + reg + '">' + this._esc(d.regime || '?') + '</span></td>'
+          + '<td><div class="score-bar-wrap"><span class="mono" style="font-size:10px;white-space:nowrap;min-width:26px">' + score + '</span>'
+          + '<div class="score-bar-bg"><div class="score-bar-fill" style="width:' + pct + '%"></div></div></div></td>'
+          + '<td class="mono" style="font-size:10px;white-space:nowrap">' + this._esc(d.support || '—') + '</td>'
+          + '<td style="font-size:11px;color:var(--sepia);font-style:italic;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + this._esc(motif) + '</td>'
+          + '</tr>';
+      }).join('');
+    }
+    // Pagination
+    const pagiEl = document.getElementById('pagi');
+    if (total <= 1) { pagiEl.innerHTML = ''; return; }
+    let html = '<span class="mono" style="font-size:10px;color:var(--warmGray);margin-right:6px">Pág. ' + (this.page + 1) + ' / ' + total + '</span>';
+    html += '<button class="pagi-btn" onclick="dash.goPage(' + (this.page - 1) + ')"' + (this.page === 0 ? ' disabled style="opacity:.4"' : '') + '>‹</button>';
+    for (let i = 0; i < total; i++) {
+      if (total <= 7 || Math.abs(i - this.page) <= 2 || i === 0 || i === total - 1) {
+        html += '<button class="pagi-btn' + (i === this.page ? ' active' : '') + '" onclick="dash.goPage(' + i + ')">' + (i + 1) + '</button>';
+      } else if (Math.abs(i - this.page) === 3) {
+        html += '<span class="mono" style="font-size:10px;color:var(--faded);padding:0 4px">…</span>';
+      }
+    }
+    html += '<button class="pagi-btn" onclick="dash.goPage(' + (this.page + 1) + ')"' + (this.page >= total - 1 ? ' disabled style="opacity:.4"' : '') + '>›</button>';
+    pagiEl.innerHTML = html;
+  }
+
+  goPage(n) {
+    const total = Math.ceil(this.filtered.length / this.pageSize);
+    if (n < 0 || n >= total) return;
+    this.page = n;
+    this._renderTable();
+    document.querySelector('.table-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  _esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  _today() {
+    return new Date().toISOString().split('T')[0];
+  }
+
+  _download(content, filename, mime) {
+    const blob = new Blob([content], { type: mime });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href = url; a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    document.getElementById('export-menu').classList.remove('open');
+    document.getElementById('export-toggle').setAttribute('aria-expanded', 'false');
+  }
+
+  exportCSV() {
+    const fields  = ['id', 'title', 'date', 'country', 'regime', 'endurecimento_score', 'support', 'motif', 'tags'];
+    const csvEsc  = (v) => {
+      const s = String(v == null ? '' : v);
+      return (s.includes(',') || s.includes('"') || s.includes('\n')) ? '"' + s.replace(/"/g, '""') + '"' : s;
+    };
+    const rows = [fields.join(',')];
+    this.filtered.forEach(d => rows.push(fields.map(f => csvEsc(d[f])).join(',')));
+    this._download('\uFEFF' + rows.join('\r\n'), 'iconocracy-corpus-' + this._today() + '.csv', 'text/csv;charset=utf-8;');
+  }
+
+  exportJSON() {
+    this._download(JSON.stringify(this.filtered, null, 2), 'iconocracy-corpus-' + this._today() + '.json', 'application/json');
+  }
+}
+
+// ─── DATA (145 corpus items, generated from corpus-data.json) ───
+const DATA = [{"id":"AR-001","title":"Allegory, Liberty Seated — Selo definitivo da República Argentina","date":"1899-1903","year":1899,"country":"Argentina","regime":"normativo","endurecimento_score":2.1,"support":"selo","motif":"Libertad Sentada, Argentina","tags":"corpus/candidato, pais/AR, suporte/selo, regime/normativo, motivo/liberty","medium":"Selo","period":"República Argentina consolidada (1899)","source_archive":"","url":"https://colnect.com/en/stamps/stamp/128820-Allegory_Liberty_Seated-Allegory-Argentina"},{"id":"AT-001","title":"Zeichnet 8. Kriegsanleihe","date":"1918","year":1918,"country":"Austria","regime":"militar","endurecimento_score":1.6,"support":"cartaz","motif":"Justitia, empréstimo de guerra","tags":"corpus/candidato, pais/AT, suporte/cartaz, regime/militar, motivo/justitia","medium":"Cartaz","period":"Império Austro-Húngaro / WWI (1918)","source_archive":"","url":"https://www.loc.gov/item/2004666193/"},{"id":"BE-001","title":"Allégorie de la Justice (Joseph Stallaert, Brussels City Hall)","date":"1885–1888","year":1885,"country":"Belgium","regime":"normativo","endurecimento_score":1.4,"support":"pintura","motif":"Justice, Charity, Foresight, civic virtue","tags":"Justice, Stallaert, Brussels, city hall, ceiling painting, civic virtue, Belgium","medium":"Outro","period":"Séc. XIX","source_archive":"Brussels Heritage Collections","url":"https://collections.heritage.brussels/fr/objects/36822"},{"id":"BE-002","title":"Palais de Justice de Bruxelles (Joseph Poelaert)","date":"1866–1883","year":1866,"country":"Belgium","regime":"normativo","endurecimento_score":2.9,"support":"monumento","motif":"Justice, classical allegory, civic architecture, colonialism","tags":"Justice, Poelaert, Brussels, courthouse, architecture, colonialism, Belgium","medium":"Outro","period":"Séc. XIX","source_archive":"Wikimedia Commons","url":"https://be-monumen.be/patrimoine-belge/poelaert-joseph/"},{"id":"BE-IND-1880","title":"5 Francs — 50 ans de Belgique: La Belgique avec Constitution et Lion","date":"1880","year":1880,"country":"Belgium","regime":"fundacional","endurecimento_score":2.0,"support":"moeda","motif":"La Belgique","tags":"female allegory, La Belgique, constitution, independence","medium":"coin","period":"Reino da Bélgica (1880)","source_archive":"Numista","url":"https://en.numista.com/catalogue/pieces27258.html"},{"id":"BE-CONGO-1912","title":"20 Francs Belgian Congo — Allegory of Europe with Mace and African Woman with Ivory Tusk","date":"1912-1937","year":1912,"country":"Belgium","regime":"militar","endurecimento_score":2.0,"support":"papel-moeda","motif":"La Belgique, allegory of Europe","tags":"female allegory, La Belgique, colonial, Congo, racial contract","medium":"banknote","period":"Congo Belga (1912-1937)","source_archive":"Numista","url":"https://en.numista.com/catalogue/note258714.html"},{"id":"BR-001","title":"Estátua feminina na abertura da amostra dos produtos do Rio Grande do Sul","date":"1908","year":1908,"country":"Brazil","regime":"fundacional","endurecimento_score":1.4,"support":"fotografia","motif":"Alegoria feminina, Exposição Nacional, Estátua","tags":"female allegory, exhibition, statue, Republic, Rio Grande do Sul","medium":"Fotografia","period":"República/Império (BR)","source_archive":"Brasiliana Fotográfica","url":"https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778"},{"id":"BR-002","title":"Detalhe do monumento à República, Praça da República, Belém","date":"1940","year":1940,"country":"Brazil","regime":"normativo","endurecimento_score":1.7,"support":"fotografia","motif":"República, Alegoria feminina, Monumento, Bandeira","tags":"Republic monument, female allegory, Belém, Getúlio Vargas, Estado Novo","medium":"Fotografia","period":"Estado Novo","source_archive":"Brasiliana Fotográfica","url":"https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609"},{"id":"BR-003","title":"Monumento à República, Praça da República, Belém (vista geral)","date":"1940","year":1940,"country":"Brazil","regime":"normativo","endurecimento_score":2.1,"support":"fotografia","motif":"República, Alegoria feminina, Monumento, Coluna","tags":"Republic monument, female allegory, Belém, column, Estado Novo","medium":"Fotografia","period":"Estado Novo","source_archive":"Brasiliana Fotográfica","url":"https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611"},{"id":"BR-004","title":"Jardim do Campo da Aclamação (Campo de Santana): estátuas do Outono e da Primavera","date":"c. 1925","year":1925,"country":"Brazil","regime":"fundacional","endurecimento_score":0.7,"support":"fotografia","motif":"Alegoria feminina, Estações, Escultura, Jardim público","tags":"female allegory, seasons, sculpture, Campo de Santana, Rio de Janeiro","medium":"Fotografia","period":"República/Império (BR)","source_archive":"Brasiliana Fotográfica","url":"https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529"},{"id":"BR-005","title":"Alegoria da República (Décio Villares)","date":"c. 1900","year":1900,"country":"Brazil","regime":"fundacional","endurecimento_score":1.0,"support":"pintura","motif":"República, Alegoria feminina, Positivismo, Barrete frígio","tags":"Republic, female allegory, positivism, Phrygian cap, Ordem e Progresso, painting","medium":"Pintura/Desenho","period":"República/Império (BR)","source_archive":"NYU Faculty Digital Archive / Brasiliana Museus","url":"https://archive.nyu.edu/handle/2451/61396"},{"id":"BR-006","title":"Alegoria da República (Carlos Chambelland)","date":"1922","year":1922,"country":"Brazil","regime":"fundacional","endurecimento_score":0.7,"support":"pintura","motif":"República, Alegoria feminina, Centenário, Anjo","tags":"Republic, female allegory, centennial, painting, angel","medium":"Pintura/Desenho","period":"República/Império (BR)","source_archive":"Brasiliana Museus","url":"https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/"},{"id":"BR-007","title":"As Estátuas Fallando (The Statues Speaking) — Justiça","date":"1827","year":1827,"country":"Brazil","regime":"fundacional","endurecimento_score":2.3,"support":"texto","motif":"Justiça, Estátua falante, Diálogo alegórico, Verdade","tags":"Justice, speaking statues, allegory, periodical, Empire, Truth","medium":"Outro","period":"República/Império (BR)","source_archive":"Hemeroteca Digital Brasileira","url":"http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf"},{"id":"BR-008","title":"Estátua da Justiça (Luiz Rochet) — referência no Almanak Laemmert","date":"1872 (inaugurated); 1929 (reference)","year":1872,"country":"Brazil","regime":"fundacional","endurecimento_score":2.5,"support":"texto","motif":"Justiça, Estátua, Escultor francês, Praça pública","tags":"Justice, statue, French sculptor, public space, imported allegory","medium":"Outro","period":"República/Império (BR)","source_archive":"Hemeroteca Digital Brasileira","url":"http://memoria.bn.br/docreader/webindex/WIPagina/313394/101306"},{"id":"BR-009","title":"A Justiça (Alfredo Ceschiatti, STF Brasília)","date":"1961","year":1961,"country":"Brazil","regime":"militar","endurecimento_score":2.2,"support":"monumento","motif":"Justiça, Justice, Themis, blindfold, sword, modernism","tags":"Justiça, Ceschiatti, STF, Brasília, Niemeyer, modernism, granite, January 8","medium":"Outro","period":"Séc. XX","source_archive":"Instituto Moreira Salles","url":"https://acervos.ims.com.br/index.php/Detail/objects/18758"},{"id":"BR-010","title":"Eliseu Visconti — Alegoria (Biblioteca Nacional, Rio de Janeiro)","date":"1910","year":1910,"country":"Brazil","regime":"fundacional","endurecimento_score":0.5,"support":"pintura","motif":"Alegoria feminina, Republic, impressionism","tags":"allegory, Visconti, impressionism, Biblioteca Nacional, Rio de Janeiro, Republic","medium":"Pintura/Desenho","period":"República/Império (BR)","source_archive":"Eliseu Visconti Project","url":"https://eliseuvisconti.com.br/obra/d702/"},{"id":"BR-016","title":"Alegoria da República (Estados Unidos do Brasil)","date":"1896","year":1896,"country":"Brazil","regime":"fundacional","endurecimento_score":1.8,"support":"pintura","motif":"Alegoria feminina, República, Trono","tags":"female allegory, Republic, throne, sword, Phrygian cap, national colors, Brazil","medium":"Pintura","period":"República/Império (BR)","source_archive":"Museu de Arte da Bahia","url":""},{"id":"BR-2000R-1907","title":"2000 Réis — Efígie da República com Barrete Frígio","date":"1906-1912","year":1907,"country":"Brazil","regime":"normativo","endurecimento_score":2.8,"support":"moeda","motif":"A República","tags":"female allegory, A República, Phrygian cap, positivism","medium":"coin","period":"República Velha (1906-1912)","source_archive":"Numista","url":"https://en.numista.com/catalogue/pieces14489.html"},{"id":"DE-001","title":"Gerechtigkeitsbrunnen mit Plastik der Justitia (Hans Gieng, 1543)","date":"1543","year":1543,"country":"Switzerland","regime":"fundacional","endurecimento_score":0.9,"support":"monumento","motif":"Justitia, Justice, blindfold, sword, scales","tags":"Justitia, fountain, blindfold, Renaissance, Bern, Switzerland, legal iconography","medium":"Outro","period":"Renascimento/Moderno Inicial","source_archive":"Bildindex der Kunst und Architektur","url":"https://www.bildindex.de/document/que20183316"},{"id":"DE-002","title":"Justitia (marble head from Porta di Capua)","date":"1239–1240","year":1239,"country":"Italy","regime":"fundacional","endurecimento_score":2.4,"support":"monumento","motif":"Justitia, Justice, Frederick II","tags":"Justitia, medieval, Frederick II, Hohenstaufen, Capua, marble, legal iconography","medium":"Outro","period":"Renascimento/Moderno Inicial","source_archive":"Bildindex der Kunst und Architektur","url":"https://www.bildindex.de/document/obj08148970"},{"id":"DE-003","title":"Die Göttin der Gerechtigkeit nach dem heutigen Geschmacke","date":"18th century","year":1750,"country":"Germany","regime":"fundacional","endurecimento_score":0.7,"support":"estampa","motif":"Justitia, Justice, satire","tags":"Justitia, satire, Enlightenment, engraving, Dresden, political commentary","medium":"Gravura/Estampe","period":"Iluminismo (Séc. XVIII)","source_archive":"Bildindex der Kunst und Architektur","url":"https://www.bildindex.de/document/obj30110594"},{"id":"DE-004","title":"Justitia an der Rathausuhr (Esslingen)","date":"1589","year":1589,"country":"Germany","regime":"fundacional","endurecimento_score":1.9,"support":"monumento","motif":"Justitia, Justice, civic architecture","tags":"Justitia, town hall, clock, civic architecture, Renaissance, Esslingen","medium":"Outro","period":"Renascimento/Moderno Inicial","source_archive":"Bildindex der Kunst und Architektur","url":"https://www.bildindex.de/document/obj20553978"},{"id":"DE-005","title":"Barocke Holzdecke: Personifikation der Gerechtigkeit","date":"1660–1780","year":1660,"country":"Germany","regime":"fundacional","endurecimento_score":1.0,"support":"pintura","motif":"Justitia, Justice, domestic allegory","tags":"Justitia, Baroque, ceiling, domestic space, Lüneburg, wooden ceiling","medium":"Outro","period":"Barroco/Rococó","source_archive":"Bildindex der Kunst und Architektur","url":"https://www.bildindex.de/document/obj20672587"},{"id":"DE-006","title":"Allegorie: Justitia (Marcantonio Raimondi)","date":"Early 16th century","year":1550,"country":"Italy","regime":"fundacional","endurecimento_score":1.0,"support":"estampa","motif":"Justitia, Justice","tags":"Justitia, Renaissance, engraving, Raphael circle, Italian, print","medium":"Gravura/Estampe","period":"Renascimento/Moderno Inicial","source_archive":"Bildindex der Kunst und Architektur","url":"https://www.bildindex.de/document/obj08158050"},{"id":"DE-007","title":"Allegorie der Justitia und eine weitere weibliche Allegorie","date":"1501–1550","year":1501,"country":"Italy","regime":"fundacional","endurecimento_score":1.1,"support":"estampa","motif":"Justitia, Justice, cardinal virtues, Prudence","tags":"Justitia, cardinal virtues, Renaissance, Italian, drawing, Prudence","medium":"Gravura/Estampe","period":"Renascimento/Moderno Inicial","source_archive":"Bildindex der Kunst und Architektur","url":"https://www.bildindex.de/document/obj08108743"},{"id":"DE-008","title":"Justitia (Hameln, Stiftsherrenhaus)","date":"c. 1558","year":1558,"country":"Germany","regime":"fundacional","endurecimento_score":1.8,"support":"monumento","motif":"Justitia, Justice, Weser Renaissance","tags":"Justitia, Weser Renaissance, architectural sculpture, Hameln, civic building","medium":"Outro","period":"Renascimento/Moderno Inicial","source_archive":"Bildindex der Kunst und Architektur","url":"https://www.bildindex.de/document/obj20608421"},{"id":"DE-009","title":"Relief: Gerechtigkeit und Eintracht (Bremen Rathaus)","date":"1596–1605","year":1596,"country":"Germany","regime":"fundacional","endurecimento_score":1.7,"support":"monumento","motif":"Justitia, Justice, Concordia, civic virtue","tags":"Justitia, Concordia, relief, civic virtue, Bremen, town hall, Renaissance","medium":"Outro","period":"Renascimento/Moderno Inicial","source_archive":"Bildindex der Kunst und Architektur","url":"https://www.bildindex.de/document/obj20459153"},{"id":"DE-010","title":"Allegorie der Jus Civile (Christian Wenzinger)","date":"1752","year":1752,"country":"Germany","regime":"fundacional","endurecimento_score":1.0,"support":"monumento","motif":"Justitia, Jus Civile, civil law","tags":"Justitia, civil law, Baroque, Benedictine, ecclesiastical, secular law","medium":"Outro","period":"Barroco/Rococó","source_archive":"Bildindex der Kunst und Architektur","url":"https://www.bildindex.de/document/obj20677105"},{"id":"DE-011","title":"Kamin mit Justitia (Leipzig, Altes Rathaus)","date":"c. 1610","year":1610,"country":"Germany","regime":"fundacional","endurecimento_score":1.8,"support":"monumento","motif":"Justitia, Justice, civic interior","tags":"Justitia, fireplace, civic interior, Leipzig, town hall, Early Modern","medium":"Outro","period":"Renascimento/Moderno Inicial","source_archive":"Bildindex der Kunst und Architektur","url":"https://www.bildindex.de/document/obj30143134"},{"id":"DE-012","title":"Gerechtigkeit (Allegory of Justice) by Lucas Cranach the Elder","date":"1537","year":1537,"country":"Germany","regime":"fundacional","endurecimento_score":0.3,"support":"pintura","motif":"Justitia, Justice, nude allegory, sword, scales","tags":"Justitia, Cranach, Renaissance, nude, painting, sword, scales, Northern Renaissance","medium":"Pintura/Desenho","period":"Renascimento/Moderno Inicial","source_archive":"Cranach Digital Archive","url":"https://lucascranach.org/en/PRIVATE_NONE-P457/"},{"id":"DE-013","title":"Germania","date":"1914","year":1914,"country":"Germany","regime":"normativo","endurecimento_score":1.5,"support":"pintura","motif":"alegoria nacional feminina, Germania, guerra, Primeira Guerra Mundial, identidade nacional","tags":"alegoria nacional, Germania, Primeira Guerra Mundial, pintura, arte alemã, feminino, militarismo, propaganda","medium":"pintura","period":"Séc. XX","source_archive":"DHM / Lebendiges Museum Online (LeMO)","url":"https://www.dhm.de/lemo/bestand/objekt/gemaelde-friedrich-august-von-kaulbach-germania-1914"},{"id":"DE-014","title":"Helft uns siegen! Zeichnet die Kriegsanleihe","date":"ca. 1917","year":1917,"country":"Germany","regime":"militar","endurecimento_score":1.7,"support":"cartaz","motif":"Kriegsanleihe, mobilização","tags":"corpus/candidato, pais/DE, suporte/cartaz, regime/militar","medium":"Cartaz","period":"Kaiserreich / WWI (1914-1918)","source_archive":"","url":"https://www.loc.gov/item/2004665855/"},{"id":"DE-015","title":"Germania — Guter Rat ist teuer (Bismarck e Alsácia-Lorena)","date":"c. 1871","year":1871,"country":"Germany","regime":"contra-alegoria","endurecimento_score":0.8,"support":"gravura/litografia","motif":"Germania, anexação, Alsácia-Lorena","tags":"corpus/candidato, pais/DE, suporte/estampa, regime/contra-alegoria","medium":"Gravura/Estampe","period":"Unificação Alemã (1871)","source_archive":"","url":"https://germanhistorydocs.ghi-dc.org/sub_image.cfm?image_id=1408"},{"id":"DE-NOTG-1921","title":"Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note","date":"1921","year":1921,"country":"Germany","regime":"fundacional","endurecimento_score":0.6,"support":"papel-moeda","motif":"","tags":"","medium":"","period":"","source_archive":"British Museum / UChicago Special Collections","url":""},{"id":"DE-WR-1919-50M","title":"50 Mark Reichsbanknote — Germania as Young Girl (Weimar 1919)","date":"1919","year":1919,"country":"Germany","regime":"normativo","endurecimento_score":2.2,"support":"papel-moeda","motif":"","tags":"","medium":"","period":"","source_archive":"Numizon","url":"https://www.numizon.com/en/banknote/germany-reichsbanknotes-50-mark-type-1919-pick-66/deu-p66/"},{"id":"DE-WR-1924-50PF","title":"50 Reichspfennig — Woman Planting Oak Sapling (Weimar 1924)","date":"1924","year":1924,"country":"Germany","regime":"normativo","endurecimento_score":2.2,"support":"moeda","motif":"","tags":"","medium":"","period":"","source_archive":"Numista","url":"https://en.numista.com/catalogue/pieces2546.html"},{"id":"DE-GERM-1900","title":"Germania — Reichspost / Deutsches Reich Definitive Stamp (Paul Eduard Waldraff)","date":"1900-1922","year":1900,"country":"Germany","regime":"militar","endurecimento_score":2.8,"support":"selo","motif":"Germania","tags":"female allegory, Germania, imperial crown, sword","medium":"stamp","period":"Kaiserreich / Weimar (1900-1922)","source_archive":"Wikipedia / Colnect","url":"https://en.wikipedia.org/wiki/Germania_(stamp)"},{"id":"DE-GERM-BELG-1914","title":"Germania \"Belgien\" Overprint — Military Occupation Stamp (WWI)","date":"1914-1918","year":1914,"country":"Germany","regime":"militar","endurecimento_score":2.8,"support":"selo","motif":"Germania","tags":"female allegory, Germania, occupation, Belgien overprint","medium":"stamp","period":"Ocupação WWI (1914-1918)","source_archive":"Colnect","url":"https://colnect.com/en/stamps/stamp/320475-overprint_on_Germania-Belgium-Belgium_German_Occupation_in_WWI"},{"id":"ES-001","title":"[Alegoría de la República española y la República francesa]","date":"1931","year":1931,"country":"Spain","regime":"fundacional","endurecimento_score":0.7,"support":"estampa","motif":"República española, Marianne, Alegoria feminina, Espanha, França","tags":"female allegory, Spanish Republic, Marianne, Second Republic, España, Republican iconography, Spain France","medium":"Gravura","period":"Séc. XX","source_archive":"Biblioteca Digital Hispánica (BNE)","url":"https://bdh.bne.es/bnesearch/detalle/76944"},{"id":"ES-002","title":"Alegoría de la Primera República española (La Flaca)","date":"1873","year":1873,"country":"Spain","regime":"fundacional","endurecimento_score":0.3,"support":"estampa","motif":"alegoria nacional feminina, república, imprensa satírica, Espanha, constitucionalismo","tags":"alegoria nacional, república, satira política, imprensa oitocentista, barrete frígio, Espanha, feminino, constitucionalismo","medium":"gravura/litografia","period":"Séc. XIX","source_archive":"Hemeroteca Digital BNE","url":"https://hemerotecadigital.bne.es/hd/es/card?sid=3971781"},{"id":"ES-003","title":"5 Pesetas \"Hispania Reclinada\" — Gobierno Provisional","date":"1870","year":1870,"country":"Spain","regime":"fundacional","endurecimento_score":1.7,"support":"moeda","motif":"Hispania, peseta fundacional","tags":"corpus/candidato, pais/ES, suporte/moeda, regime/fundacional, motivo/hispania","medium":"Moeda","period":"Revolução Gloriosa / Gobierno Provisional (1869-1870)","source_archive":"","url":"https://en.numista.com/6722"},{"id":"ES-004","title":"1 Peseta \"Hispania Sentada\" — II República","date":"1933","year":1933,"country":"Spain","regime":"fundacional","endurecimento_score":2.3,"support":"moeda","motif":"Hispania, Segunda República","tags":"corpus/candidato, pais/ES, suporte/moeda, regime/fundacional, motivo/hispania","medium":"Moeda","period":"II República Espanhola (1931-1939)","source_archive":"","url":"https://en.numista.com/catalogue/pieces11169.html"},{"id":"EU-001","title":"Thronende Justitia / Allegorie der strafenden Gerechtigkeit","date":"1943–1944 (photograph of earlier fresco)","year":1943,"country":"Germany","regime":"fundacional","endurecimento_score":1.4,"support":"fotografia","motif":"Justitia, Trono, Gerechtigkeit, Fresco","tags":"Justitia, enthroned, criminal justice, ceiling fresco, Germany, Koblenz","medium":"Fotografia","period":"Iluminismo (Séc. XVIII)","source_archive":"Europeana","url":"https://www.europeana.eu/en/item/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S"},{"id":"EU-002","title":"Time and Justice Reveal the Truth","date":"Unknown","year":null,"country":"Belgium","regime":"fundacional","endurecimento_score":0.5,"support":"estampa","motif":"Justice, Vérité, Temps, Allégorie féminine","tags":"Justice, Truth, Time, allegory, Belgium","medium":"Outro","period":"Renascimento/Moderno Inicial","source_archive":"Europeana","url":"https://www.europeana.eu/en/item/2048001/AP_10342206"},{"id":"EU-003","title":"Justitia (Jacob Matham)","date":"c. 1600","year":1600,"country":"Germany (Netherlands origin)","regime":"fundacional","endurecimento_score":1.2,"support":"estampa","motif":"Justitia, Balança, Espada, Gravura","tags":"Justitia, scales, sword, print, Dutch Golden Age","medium":"Gravura/Estampe","period":"Renascimento/Moderno Inicial","source_archive":"Europeana","url":"https://www.europeana.eu/en/item/89/item_ZCR4KC47OMJN7DRRDFTIWRQS33M7PBN2"},{"id":"EU-004","title":"Allegory of Justice (Charles Audran after B.P. Cortona)","date":"17th century","year":1650,"country":"Italy","regime":"fundacional","endurecimento_score":1.1,"support":"estampa","motif":"Justice, Allégorie féminine, Baroque","tags":"Justice, allegory, Baroque, Italy, Cortona","medium":"Gravura/Estampe","period":"Barroco/Rococó","source_archive":"Europeana","url":"https://www.europeana.eu/en/item/446/RML0348941"},{"id":"EU-005","title":"Justitia (Hans Kels d. J.)","date":"16th century","year":1550,"country":"Austria","regime":"fundacional","endurecimento_score":1.5,"support":"monumento","motif":"Justitia, Relevo, Dourado, Renascimento","tags":"Justitia, relief, gilded, Renaissance, Vienna","medium":"Outro","period":"Renascimento/Moderno Inicial","source_archive":"Europeana","url":"https://www.europeana.eu/en/item/15502/KK_6068"},{"id":"EU-006","title":"Justitia, Allegory of Justice (Johann Oswald Harms)","date":"17th century","year":1650,"country":"Germany","regime":"fundacional","endurecimento_score":1.0,"support":"estampa","motif":"Justitia, Balança, Espada, Desenho","tags":"Justitia, scales, sword, drawing, Baroque, Germany","medium":"Pintura/Desenho","period":"Barroco/Rococó","source_archive":"Europeana","url":"https://www.europeana.eu/en/item/89/item_MH6IXNHWTECBQCNPU7IIMCFP2BDFAV76"},{"id":"EU-007","title":"Justitia civilis (Maarten de Vos)","date":"16th century","year":1550,"country":"Belgium","regime":"fundacional","endurecimento_score":0.8,"support":"estampa","motif":"Justitia civilis, Justice civile, Allégorie féminine","tags":"civil justice, Justitia civilis, Flemish art, Belgium, female allegory","medium":"Outro","period":"Renascimento/Moderno Inicial","source_archive":"Europeana","url":"https://www.europeana.eu/en/item/2048001/AP_10133590"},{"id":"EU-008","title":"Allegory with Justizia, crowned by a putto","date":"18th century","year":1750,"country":"Austria","regime":"fundacional","endurecimento_score":0.7,"support":"estampa","motif":"Justitia, Putto, Coroa, Nuvem, Balança","tags":"Justitia, crowned, putto, celestial, scales, Austria","medium":"Pintura/Desenho","period":"Barroco/Rococó","source_archive":"Europeana","url":"https://www.europeana.eu/en/item/15508/30435"},{"id":"EU-009","title":"Female Allegory (Pierre Puvis de Chavannes)","date":"19th century","year":1850,"country":"France (held in Austria)","regime":"normativo","endurecimento_score":1.6,"support":"estampa","motif":"Allégorie féminine, Symbolisme, Murale","tags":"female allegory, Symbolism, muralist, Third Republic, Puvis de Chavannes","medium":"Pintura/Desenho","period":"III República / II Império (FR)","source_archive":"Europeana","url":"https://www.europeana.eu/en/item/15508/DG1918_7"},{"id":"FR-001","title":"La Justice, la Vengeance et la Vérité","date":"1865","year":1865,"country":"France","regime":"fundacional","endurecimento_score":0.6,"support":"estampa","motif":"Justice, Vengeance, Vérité, Allégorie féminine","tags":"Justice, Truth, Vengeance, female allegory, engraving, Second Empire","medium":"Gravura/Estampe","period":"III República / II Império (FR)","source_archive":"Gallica","url":"https://gallica.bnf.fr/ark:/12148/btv1b531737635"},{"id":"FR-002","title":"Le triomphe de la Justice et de la Vérité","date":"1865","year":1865,"country":"France","regime":"fundacional","endurecimento_score":0.5,"support":"estampa","motif":"Justice, Vérité, Triomphe, Allégorie féminine","tags":"Justice, Truth, triumph, female allegory, engraving","medium":"Gravura/Estampe","period":"III República / II Império (FR)","source_archive":"Gallica","url":"https://gallica.bnf.fr/ark:/12148/btv1b531737529"},{"id":"FR-003","title":"L'envoyé de la Justice","date":"1859","year":1859,"country":"France","regime":"fundacional","endurecimento_score":1.2,"support":"estampa","motif":"Justice, Envoyé, Allégorie féminine","tags":"Justice, envoy, female allegory, engraving","medium":"Gravura/Estampe","period":"III República / II Império (FR)","source_archive":"Gallica","url":"https://gallica.bnf.fr/ark:/12148/btv1b53173732g"},{"id":"FR-004","title":"Marianne enseignant l'alphabet à des enfants (naïades et Marianne)","date":"1859–1910","year":1859,"country":"France","regime":"normativo","endurecimento_score":1.2,"support":"estampa","motif":"Marianne, République, Éducation, Allégorie féminine","tags":"Marianne, Republic, education, female allegory, children, laïcité","medium":"Gravura/Estampe","period":"III República / II Império (FR)","source_archive":"Gallica","url":"https://gallica.bnf.fr/ark:/12148/btv1b10574064v"},{"id":"FR-005","title":"La République aimable (Félicien Rops)","date":"1871","year":1871,"country":"France","regime":"contra-alegoria","endurecimento_score":0.8,"support":"estampa","motif":"République, Allégorie féminine, Satire, Corps féminin","tags":"Republic, female allegory, satire, Félicien Rops, eroticism","medium":"Gravura/Estampe","period":"III República / II Império (FR)","source_archive":"Gallica","url":"https://gallica.bnf.fr/ark:/12148/btv1b531842166"},{"id":"FR-006","title":"The French Crisis: Madame La République","date":"1887","year":1887,"country":"France","regime":"normativo","endurecimento_score":0.9,"support":"estampa","motif":"République, Crise, Allégorie féminine, Caricature politique","tags":"Republic, political crisis, female allegory, cartoon, Marianne","medium":"Gravura/Estampe","period":"III República / II Império (FR)","source_archive":"Gallica","url":"https://gallica.bnf.fr/ark:/12148/btv1b8438243t"},{"id":"FR-007","title":"République Française: 3e Emprunt de la Défense nationale","date":"1917","year":1917,"country":"France","regime":"militar","endurecimento_score":1.8,"support":"cartaz","motif":"Marianne, République, Guerre, Défense nationale, Allégorie féminine","tags":"Marianne, Republic, WWI, propaganda, defense loan, female allegory","medium":"Gravura/Estampe","period":"III República / II Império (FR)","source_archive":"Europeana / Gallica","url":"https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v"},{"id":"FR-008","title":"La République nous appelle... (Steinlen)","date":"1915","year":1915,"country":"France","regime":"militar","endurecimento_score":0.8,"support":"cartaz","motif":"Marianne, République, Appel, Guerre, Allégorie féminine","tags":"Marianne, Republic, WWI, recruitment, Steinlen, female allegory","medium":"Cartaz","period":"III República / II Império (FR)","source_archive":"Europeana / Gallica","url":"https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10510623s"},{"id":"FR-009","title":"Buste de la République (Agence Rol)","date":"Early 20th century","year":1950,"country":"France","regime":"normativo","endurecimento_score":2.4,"support":"fotografia","motif":"République, Buste, Marianne, Mairie","tags":"Marianne, Republic, bust, mairie, civic space, press photograph","medium":"Fotografia","period":"III República / II Império (FR)","source_archive":"Europeana / Gallica","url":"https://www.europeana.eu/en/item/9200518/ark__12148_btv1b6952880n"},{"id":"FR-010","title":"Le hochet de la République (Jean Veber)","date":"1868–1928 (artist's active period)","year":1868,"country":"France","regime":"contra-alegoria","endurecimento_score":0.3,"support":"estampa","motif":"République, Satire, Hochet, Allégorie féminine","tags":"Republic, satire, rattle, trivialization, female allegory","medium":"Gravura/Estampe","period":"III República / II Império (FR)","source_archive":"Europeana / Gallica","url":"https://www.europeana.eu/en/item/9200518/ark__12148_btv1b8577646g"},{"id":"FR-011","title":"Illustrations de Calendrier et compost des bergiers (Danse macabre — female Justice figure)","date":"1531","year":1531,"country":"France","regime":"fundacional","endurecimento_score":1.1,"support":"frontispicio","motif":"Justice, Danse macabre, Figure féminine, Manuscrit","tags":"Justice, danse macabre, death, female figure, Renaissance, manuscript","medium":"Outro","period":"Renascimento/Moderno Inicial","source_archive":"Gallica","url":"https://gallica.bnf.fr/services/engine/search/sru?query=justice+symbole+femme&filter=dc.type+all+%22image%22"},{"id":"FR-012","title":"La Liberté guidant le peuple (Eugène Delacroix)","date":"1830","year":1830,"country":"France","regime":"fundacional","endurecimento_score":0.1,"support":"pintura","motif":"Liberty, Marianne, Revolution, tricolour","tags":"Liberty, Marianne, Delacroix, Revolution, July Revolution, Louvre, France, tricolour","medium":"Pintura/Desenho","period":"Séc. XIX","source_archive":"Wikimedia Commons","url":"https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg"},{"id":"FR-013","title":"Déclaration des droits de l'homme et du citoyen","date":"1789","year":1789,"country":"France","regime":"fundacional","endurecimento_score":1.8,"support":"estampa","motif":"Declaração dos Direitos, Alegoria feminina, Liberté, Marianne, Révolution française","tags":"Déclaration des droits, female allegory, Liberty, Justice, French Revolution, Marianne, legal iconography, broadside","medium":"Gravura","period":"Iluminismo (Séc. XVIII)","source_archive":"Gallica (BnF)","url":"https://gallica.bnf.fr/ark:/12148/btv1b69480451.item"},{"id":"FR-014","title":"Déclaration des droits de l'homme et du citoyen (variante)","date":"1789","year":1789,"country":"France","regime":"fundacional","endurecimento_score":1.8,"support":"estampa","motif":"Declaração dos Direitos, Alegoria feminina, Liberté, Révolution française","tags":"Déclaration des droits, female allegory, Liberty, French Revolution, anonymous, broadside, legal iconography","medium":"Gravura","period":"Iluminismo (Séc. XVIII)","source_archive":"Gallica (BnF)","url":"https://gallica.bnf.fr/ark:/12148/btv1b8410817c.item"},{"id":"FR-015","title":"Allégorie pour le frontispice du compte-rendu au Roi par M. Necker","date":"1781","year":1781,"country":"France","regime":"fundacional","endurecimento_score":1.3,"support":"estampa","motif":"Alegoria feminina, Justiça, Abundância, Administração régia, Iluminismo","tags":"female allegory, Necker, Ancien Régime, fiscal governance, allegorical frontispiece, Enlightenment, state finance","medium":"Gravura","period":"Iluminismo (Séc. XVIII)","source_archive":"Gallica (BnF)","url":"https://gallica.bnf.fr/ark:/12148/btv1b8410270p.item"},{"id":"FR-016","title":"Allégorie pour le frontispice du compte rendu au Roi par M. Necker (variante)","date":"1781","year":1781,"country":"France","regime":"fundacional","endurecimento_score":1.3,"support":"estampa","motif":"Alegoria feminina, Justiça, Abundância, Administração régia, Iluminismo","tags":"female allegory, Necker, Ancien Régime, fiscal governance, allegorical frontispiece, Enlightenment, variant edition","medium":"Gravura","period":"Iluminismo (Séc. XVIII)","source_archive":"Gallica (BnF)","url":"https://gallica.bnf.fr/ark:/12148/btv1b6942595s.item"},{"id":"FR-017","title":"Allégorie pour servir de frontispice au compte-rendu au Roi par M. Necker","date":"1781","year":1781,"country":"France","regime":"fundacional","endurecimento_score":1.3,"support":"estampa","motif":"Alegoria feminina, Justiça, Abundância, Administração régia","tags":"female allegory, Necker, Ancien Régime, fiscal governance, allegorical frontispiece, Enlightenment, transparency","medium":"Gravura","period":"Iluminismo (Séc. XVIII)","source_archive":"Gallica (BnF)","url":"https://gallica.bnf.fr/ark:/12148/btv1b8410268m"},{"id":"FR-018","title":"[Liberté, Égalité, Fraternité — portrait allégorique d'Ernouf]","date":"c. 1793–1800","year":1796,"country":"France","regime":"fundacional","endurecimento_score":1.5,"support":"estampa","motif":"Liberté, Égalité, Fraternité, Alegoria feminina, République française, Marianne","tags":"Liberté Égalité Fraternité, female allegory, Marianne, French Revolution, République française, Directory period, Republican iconography","medium":"Gravura","period":"Iluminismo (Séc. XVIII)","source_archive":"Gallica (BnF)","url":"https://gallica.bnf.fr/ark:/12148/btv1b8412560z"},{"id":"FR-019","title":"Journée du Poilu, 25 et 26 décembre 1915, organisée par le Parlement","date":"1915","year":1915,"country":"France","regime":"militar","endurecimento_score":1.1,"support":"cartaz","motif":"Marianne, Alegoria feminina, Soldado, WWI, République française, Propaganda","tags":"Marianne, female allegory, WWI, Steinlen, propaganda poster, French Republic, Journée du Poilu, Third Republic","medium":"Gravura","period":"III República / II Império (FR)","source_archive":"Gallica (BnF)","url":"https://gallica.bnf.fr/ark:/12148/btv1b9012753r.item"},{"id":"FR-020","title":"Decretum Gratiani (manuscrito iluminado, BnF)","date":"c. séc. XIII","year":1250,"country":"France","regime":"fundacional","endurecimento_score":1.2,"support":"frontispicio","motif":"Justitia, alegoria da justiça, iconografia jurídica medieval, direito canônico, miniatura iluminada","tags":"Justitia, direito canônico, manuscrito medieval, iluminura, iconografia jurídica, Graciano, miniatura, Bolonha, BnF, Gallica","medium":"iluminura/manuscrito","period":"Idade Média","source_archive":"Gallica — Bibliothèque numérique de la BnF","url":"https://gallica.bnf.fr/ark:/12148/btv1b10544534k.item"},{"id":"FR-021","title":"La Liberté guidant le peuple","date":"1830","year":1830,"country":"France","regime":"fundacional","endurecimento_score":0.2,"support":"pintura","motif":"Marianne, Liberté","tags":"","medium":"Pintura/Desenho","period":"Monarquia de Julho (1830)","source_archive":"Europeana (Louvre)","url":"https://www.europeana.eu/en/item/2063621/FRA_280_009"},{"id":"FR-022","title":"Notre-Dame des colonies","date":"1909","year":1909,"country":"France","regime":"contra-alegoria","endurecimento_score":0.3,"support":"gravura/litografia","motif":"Marianne, satire coloniale","tags":"","medium":"Gravura/Estampe","period":"III República (1870-1940)","source_archive":"Europeana (National Library of France)","url":"https://www.europeana.eu/en/item/9200518/ark__12148_btv1b8577655f"},{"id":"FR-023","title":"Bons de la Défense nationale","date":"1916","year":1916,"country":"France","regime":"militar","endurecimento_score":2.1,"support":"cartaz","motif":"Marianne, emprunt de guerre","tags":"","medium":"Cartaz","period":"III República / WWI (1914-1918)","source_archive":"Europeana (National Library of France)","url":"https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100505003"},{"id":"FR-024","title":"3e Emprunt de la Défense nationale (République française)","date":"1917","year":1917,"country":"France","regime":"militar","endurecimento_score":1.8,"support":"cartaz","motif":"Marianne, emprunt de guerre","tags":"","medium":"Cartaz","period":"III República / WWI (1914-1918)","source_archive":"Europeana (National Library of France)","url":"https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v"},{"id":"FR-025","title":"Emprunt national 1920 (Société générale)","date":"1920","year":1920,"country":"France","regime":"normativo","endurecimento_score":1.0,"support":"cartaz","motif":"Marianne, emprunt national","tags":"","medium":"Cartaz","period":"III República / Pós-WWI (1918-1930)","source_archive":"Europeana (National Library of France)","url":"https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100512310"},{"id":"FR-026","title":"Emprunt national 1920 (Banque Nationale de Paris et des Pays-Bas)","date":"1920","year":1920,"country":"France","regime":"normativo","endurecimento_score":1.3,"support":"cartaz","motif":"Marianne, emprunt national","tags":"","medium":"Cartaz","period":"III República / Pós-WWI (1918-1930)","source_archive":"Europeana (National Library of France)","url":"https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051241d"},{"id":"FR-027","title":"Emprunt de la Libération (Rente française 1918)","date":"1918","year":1918,"country":"France","regime":"militar","endurecimento_score":2.3,"support":"cartaz","motif":"Marianne, Liberté, emprunt","tags":"","medium":"Cartaz","period":"III República / WWI (1914-1918)","source_archive":"Europeana (National Library of France)","url":"https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100512528"},{"id":"FR-028","title":"Prêtez à la France pour qu'elle grandisse dans le rayonnement de la Paix!","date":"1920","year":1920,"country":"France","regime":"normativo","endurecimento_score":0.4,"support":"cartaz","motif":"Marianne, France, Paix","tags":"","medium":"Cartaz","period":"III República / Pós-WWI (1918-1930)","source_archive":"Europeana (National Library of France)","url":"https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051230j"},{"id":"FR-029","title":"Emprunt national 1920 (Société centrale des banques de province)","date":"1920","year":1920,"country":"France","regime":"normativo","endurecimento_score":1.5,"support":"cartaz","motif":"Marianne, emprunt national","tags":"","medium":"Cartaz","period":"III República / Pós-WWI (1918-1930)","source_archive":"Europeana (National Library of France)","url":"https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100504964"},{"id":"FR-030","title":"En avant! Armée de l'Épargne, c'est pour la Patrie","date":"1916","year":1916,"country":"France","regime":"militar","endurecimento_score":1.5,"support":"cartaz","motif":"Marianne, Patrie, épargne","tags":"","medium":"Cartaz","period":"III República / WWI (1914-1918)","source_archive":"Europeana (National Library of France)","url":"https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100506817"},{"id":"FR-031","title":"Madame Anastasie (avec les ciseaux de la censure)","date":"1874","year":1874,"country":"France","regime":"contra-alegoria","endurecimento_score":0.4,"support":"gravura/litografia","motif":"Anastasie, censura, anti-Marianne","tags":"corpus/candidato, pais/FR, suporte/estampa, regime/contra-alegoria, #contra-alegoria","medium":"Gravura/Estampe","period":"III República / Ordre moral (1874)","source_archive":"","url":"https://gallica.bnf.fr/ark:/12148/bpt6k1068692m"},{"id":"FR-032","title":"La Paix — Idylle","date":"1871","year":1871,"country":"France","regime":"contra-alegoria","endurecimento_score":0.6,"support":"gravura/litografia","motif":"Paix, ausência alegórica","tags":"corpus/candidato, pais/FR, suporte/estampa, regime/contra-alegoria, #ausencia-alegorica","medium":"Gravura/Estampe","period":"Cerco de Paris / Guerra Franco-Prussiana (1871)","source_archive":"","url":"https://www.metmuseum.org/art/collection/search/757244"},{"id":"FR-033","title":"L'Empire c'est la paix","date":"1870","year":1870,"country":"France","regime":"contra-alegoria","endurecimento_score":0.7,"support":"gravura/litografia","motif":"Império, paz, ausência alegórica","tags":"corpus/candidato, pais/FR, suporte/estampa, regime/contra-alegoria, #ausencia-alegorica","medium":"Gravura/Estampe","period":"Queda do II Império (1870)","source_archive":"","url":"https://www.metmuseum.org/art/collection/search/757135"},{"id":"FR-036","title":"Calendrier républicain (An III)","date":"1794","year":1794,"country":"France","regime":"fundacional","endurecimento_score":1.6,"support":"estampa","motif":"Alegoria feminina, Calendrier républicain, Liberté, Égalité","tags":"female allegory, republican calendar, Liberty, Equality, Revolution, France","medium":"Estampa","period":"Revolução/República (FR)","source_archive":"Gallica","url":""},{"id":"FR-038","title":"Liberté (d'après Moitte)","date":"1792","year":1792,"country":"France","regime":"fundacional","endurecimento_score":1.2,"support":"estampa","motif":"Liberté, Bonnet phrygien, Fasces","tags":"Liberty, Phrygian cap, fasces, serpent, Revolution, France","medium":"Estampa","period":"Revolução/República (FR)","source_archive":"Gallica","url":""},{"id":"FR-039","title":"La Liberté, soutenue par la Raison, protège l'Innocence et couronne la Vertu","date":"1793","year":1793,"country":"France","regime":"fundacional","endurecimento_score":0.9,"support":"estampa","motif":"Liberté, Raison, Vertu, Innocence","tags":"Liberty, Reason, Virtue, Innocence, winged figure, lion, Revolution, France","medium":"Estampa","period":"Revolução/República (FR)","source_archive":"Gallica","url":""},{"id":"FR-040","title":"La Liberté armée du Sceptre de la Raison foudroye l'Ignorance et le Fanatisme","date":"1793","year":1793,"country":"France","regime":"fundacional","endurecimento_score":0.9,"support":"estampa","motif":"Liberté, Raison, Ignorance, Fanatisme","tags":"Liberty, Reason, Ignorance, Fanaticism, lightning, lion, Revolution, France","medium":"Estampa","period":"Revolução/República (FR)","source_archive":"Gallica","url":""},{"id":"FR-047","title":"Iustitia (d'après Bruegel)","date":"1559","year":1559,"country":"France","regime":"fundacional","endurecimento_score":0.7,"support":"estampa","motif":"Iustitia, Justitia, Punição, Direito penal","tags":"Justice, Justitia, punishment, penal law, Seven Virtues, Bruegel, blindfold, sword, scales","medium":"Estampa","period":"Antigo Regime","source_archive":"Gallica","url":""},{"id":"FR-SEM-1898","title":"Semeuse 1 Franc silver coin (Oscar Roty)","date":"1898","year":1898,"country":"France","regime":"normativo","endurecimento_score":2.5,"support":"moeda","motif":"","tags":"","medium":"","period":"","source_archive":"Numista","url":"https://en.numista.com/catalogue/pieces682.html"},{"id":"FR-PIAST-1885","title":"Piastre de Commerce — Marianne Assise avec Fasces","date":"1885-1928","year":1885,"country":"France","regime":"militar","endurecimento_score":2.3,"support":"moeda","motif":"Marianne","tags":"female allegory, Marianne, colonial, Indochina","medium":"coin","period":"Terceira República (1885-1928)","source_archive":"Numista","url":"https://en.numista.com/catalogue/pieces4510.html"},{"id":"FR-HERC-1870","title":"5 Francs Hercule — La République et La Justice flanquant Hercule","date":"1870-1878","year":1870,"country":"France","regime":"fundacional","endurecimento_score":1.5,"support":"moeda","motif":"La République, La Justice","tags":"female allegory, La République, La Justice, Hercule","medium":"coin","period":"Terceira República (1870-1878)","source_archive":"Numista","url":"https://en.numista.com/catalogue/pieces1187.html"},{"id":"FR-SEM-SELO-1903","title":"Semeuse — Selo Definitivo da República Francesa (Oscar Roty / Mouchon)","date":"1903-1960","year":1903,"country":"France","regime":"normativo","endurecimento_score":1.7,"support":"selo","motif":"Marianne / La Semeuse","tags":"female allegory, Marianne, Semeuse, peace, sowing","medium":"stamp","period":"Terceira República (1903-1960)","source_archive":"Wikipedia / Colnect","url":"https://en.wikipedia.org/wiki/Sowing_(Oscar_Roty)"},{"id":"IT-005","title":"Sottoscrivete al Prestito — Italia Turrita","date":"1917","year":1917,"country":"Italy","regime":"militar","endurecimento_score":1.3,"support":"cartaz","motif":"Italia Turrita, empréstimo de guerra","tags":"corpus/candidato, pais/IT, suporte/cartaz, regime/militar, motivo/italia-turrita","medium":"Cartaz","period":"WWI / Regno d'Italia (1917)","source_archive":"","url":"https://www.loc.gov/item/2004666216/"},{"id":"IT-006","title":"100 Lire \"Minerva\" — Testa d'Italia laureata","date":"1955-1989","year":1955,"country":"Italy","regime":"normativo","endurecimento_score":2.7,"support":"moeda","motif":"Italia laureata, Minerva","tags":"corpus/candidato, pais/IT, suporte/moeda, regime/normativo, motivo/italia-turrita","medium":"Moeda","period":"República Italiana (1955-1989)","source_archive":"","url":"https://en.numista.com/catalogue/pieces304.html"},{"id":"IT-007","title":"500 Lire \"Caravelle\" — Italia Turrita","date":"1958-2001","year":1958,"country":"Italy","regime":"normativo","endurecimento_score":2.5,"support":"moeda","motif":"Italia Turrita, caravelas","tags":"corpus/candidato, pais/IT, suporte/moeda, regime/normativo, motivo/italia-turrita","medium":"Moeda","period":"República Italiana (1958-2001)","source_archive":"","url":"https://en.numista.com/catalogue/pieces2716.html"},{"id":"IT-008","title":"Selo \"Siracusana\" — Italia Turrita","date":"1953-1977","year":1953,"country":"Italy","regime":"normativo","endurecimento_score":2.7,"support":"selo","motif":"Italia Turrita, selo definitivo","tags":"corpus/candidato, pais/IT, suporte/selo, regime/normativo, motivo/italia-turrita","medium":"Selo","period":"República Italiana (1953-1977)","source_archive":"","url":"https://www.lastdodo.com/en/areas/6628487-1953-siracusana"},{"id":"MX-001","title":"[Virtudes cardinales: Justica] (La Patria Ilustrada)","date":"1889","year":1889,"country":"Mexico","regime":"normativo","endurecimento_score":1.5,"support":"estampa","motif":"alegoria da Justiça, virtudes cardinais, Justitia, México, imprensa ilustrada oitocentista","tags":"alegoria da justiça, Justitia, virtudes cardinais, México, Posada, litografia, imprensa porfirista, feminino","medium":"gravura/litografia","period":"Séc. XIX","source_archive":"Library of Congress Prints and Photographs Division","url":"https://www.loc.gov/item/2003656173/"},{"id":"MX-002","title":"Alegoría de la República Mexicana con Símbolos Masónicos","date":"1850","year":1850,"country":"Mexico","regime":"fundacional","endurecimento_score":0.9,"support":"pintura","motif":"República Mexicana, maçonaria","tags":"corpus/candidato, pais/MX, suporte/pintura, regime/fundacional, #colonialidade-do-ver","medium":"Pintura/Desenho","period":"México pós-independência (1850)","source_archive":"","url":"https://mediateca.inah.gob.mx/islandora_74/islandora/object/pintura:3081"},{"id":"NL-001","title":"Vrouwe Justitia (nude, with sword and scales)","date":"1500–1600","year":1500,"country":"Netherlands","regime":"fundacional","endurecimento_score":0.9,"support":"estampa","motif":"Justitia, Justice, nude allegory, sword, scales","tags":"Justitia, nude, sword, scales, Renaissance, Dutch, engraving","medium":"Gravura/Estampe","period":"Renascimento/Moderno Inicial","source_archive":"Rijksmuseum","url":"https://www.rijksmuseum.nl/en/collection/object/Vrouwe-Justitia--13997b5b276f9bbbb36a847da4c3022a"},{"id":"NL-002","title":"Justitia (bust with crown and eye pendant)","date":"Unknown","year":null,"country":"Netherlands","regime":"normativo","endurecimento_score":1.9,"support":"monumento","motif":"Justitia, Justice, all-seeing eye, crown","tags":"Justitia, bust, crown, all-seeing eye, Dutch, surveillance","medium":"Outro","period":"Renascimento/Moderno Inicial","source_archive":"Rijksmuseum","url":"https://www.rijksmuseum.nl/en/collection/object/Justitia--314f580f935ba978fb199ce7abeb0db1"},{"id":"NL-003","title":"Allegorie op de rechtvaardigheid (Allegory of Justice, enthroned)","date":"17th century","year":1650,"country":"Netherlands","regime":"normativo","endurecimento_score":2.0,"support":"frontispicio","motif":"Justitia, Justice, enthroned, sovereignty of law","tags":"Justitia, enthroned, Baroque, Dutch, title page, sovereignty","medium":"Gravura/Estampe","period":"Barroco/Rococó","source_archive":"Rijksmuseum","url":"https://www.rijksmuseum.nl/en/collection/object/Allegorie-op-de-rechtvaardigheid--a26144337b14ab57eb5ca23025308032"},{"id":"NL-004","title":"Rechtvaardigheid (Justitia)","date":"1585–1589","year":1587,"country":"Netherlands","regime":"fundacional","endurecimento_score":1.1,"support":"estampa","motif":"Justitia, Alegoria feminina, Espada, Balança","tags":"Justitia, female allegory, Justice, Dutch Golden Age, Goltzius, virtue series","medium":"Gravura","period":"Renascimento/Moderno Inicial","source_archive":"Rijksmuseum","url":"https://www.rijksmuseum.nl/en/collection/RP-P-OB-27.296"},{"id":"NL-005","title":"Vrouwe Justitia voor het oordeel van Zaleucus en het oordeel van Cambyses","date":"1590–1638","year":1614,"country":"Netherlands","regime":"fundacional","endurecimento_score":0.6,"support":"estampa","motif":"Justitia, Alegoria feminina, Julgamento, Espada, Balança","tags":"Justitia, female allegory, Justice, exempla iustitiae, Cambyses, Zaleucus, Dutch Golden Age","medium":"Gravura","period":"Renascimento/Moderno Inicial","source_archive":"Rijksmuseum","url":"https://www.rijksmuseum.nl/en/collection/RP-P-1883-A-6992"},{"id":"NL-006","title":"Rechtvaardigheid (Justitia)","date":"1597","year":1597,"country":"Netherlands","regime":"fundacional","endurecimento_score":0.9,"support":"estampa","motif":"Justitia, Alegoria feminina, Espada, Balança","tags":"Justitia, female allegory, Justice, Dutch Golden Age, Goltzius, cardinal virtues","medium":"Gravura","period":"Renascimento/Moderno Inicial","source_archive":"Rijksmuseum","url":"https://www.rijksmuseum.nl/en/collection/RP-P-OB-27.124"},{"id":"NL-007","title":"Rechtvaardigheid (Justitia) / Iustitia","date":"1585–1637","year":1610,"country":"Netherlands","regime":"fundacional","endurecimento_score":0.9,"support":"estampa","motif":"Justitia, Alegoria feminina, Espada, Balança","tags":"Justitia, female allegory, Justice, Dutch Golden Age, Goltzius tradition, anonymous","medium":"Gravura","period":"Renascimento/Moderno Inicial","source_archive":"Rijksmuseum","url":"https://www.rijksmuseum.nl/en/collection/RP-P-1882-A-6499"},{"id":"NL-008","title":"Rechtvaardigheid (Justitia)","date":"1593","year":1593,"country":"Netherlands","regime":"fundacional","endurecimento_score":0.9,"support":"estampa","motif":"Justitia, Alegoria feminina, Espada, Balança","tags":"Justitia, female allegory, Justice, Dutch Golden Age, Matham","medium":"Gravura","period":"Renascimento/Moderno Inicial","source_archive":"Rijksmuseum","url":"https://www.rijksmuseum.nl/en/collection/RP-P-1887-A-12280"},{"id":"PT-001","title":"Justiça popular (UDP political poster)","date":"c. 1975","year":1975,"country":"Portugal","regime":"militar","endurecimento_score":1.9,"support":"cartaz","motif":"Justiça popular, Revolução, Cartaz político","tags":"popular justice, Carnation Revolution, political poster, Portugal, UDP","medium":"Cartaz","period":"Séc. XX","source_archive":"Biblioteca Nacional Digital (BND Portugal)","url":"https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular"},{"id":"PT-002","title":"Alegoria à História (female allegorical engraving)","date":"c. 1600","year":1600,"country":"Portugal","regime":"fundacional","endurecimento_score":0.8,"support":"estampa","motif":"Alegoria, História, Figura feminina, Gravura","tags":"History allegory, female figure, engraving, early modern, Portugal","medium":"Gravura/Estampe","period":"Renascimento/Moderno Inicial","source_archive":"Biblioteca Nacional Digital (BND Portugal)","url":"https://bndigital.bnportugal.gov.pt/records/item/39213-alegoria-a-historia"},{"id":"PT-003","title":"Alegoria à Morte (Pierre Antoine Quillard)","date":"1730","year":1730,"country":"Portugal","regime":"fundacional","endurecimento_score":0.8,"support":"estampa","motif":"Alegoria, Morte, Gravura barroca","tags":"Death allegory, Baroque, French-Portuguese, engraving, Quillard","medium":"Gravura/Estampe","period":"Barroco/Rococó","source_archive":"Biblioteca Nacional Digital (BND Portugal)","url":"https://bndigital.bnportugal.gov.pt/records/item/37491-alegoria-a-morte"},{"id":"PT-004","title":"Alegoria ao Tempo (Pierre Antoine Quillard)","date":"1730","year":1730,"country":"Portugal","regime":"fundacional","endurecimento_score":0.8,"support":"estampa","motif":"Alegoria, Tempo, Gravura barroca","tags":"Time allegory, Baroque, French-Portuguese, engraving, Quillard","medium":"Gravura/Estampe","period":"Barroco/Rococó","source_archive":"Biblioteca Nacional Digital (BND Portugal)","url":"https://bndigital.bnportugal.gov.pt/records/item/37507-alegoria-ao-tempo"},{"id":"PT-005","title":"A Republica precisa de ti: vota em Norton de Matos","date":"1949","year":1949,"country":"Portugal","regime":"normativo","endurecimento_score":1.7,"support":"cartaz","motif":"República, Alegoria feminina, Eleição, Cartaz político","tags":"Republic, female allegory, election, Norton de Matos, anti-dictatorship, Portugal","medium":"Cartaz","period":"Estado Novo","source_archive":"Biblioteca Nacional Digital (BND Portugal)","url":"https://bndigital.bnportugal.gov.pt/records/search?q=república&DocumentType=Iconografia"},{"id":"PT-006","title":"1 Escudo \"Alvorada\" — Primeira República Portuguesa","date":"1914","year":1914,"country":"Portugal","regime":"fundacional","endurecimento_score":1.7,"support":"moeda","motif":"República Portuguesa, Alvorada","tags":"corpus/candidato, pais/PT, suporte/moeda, regime/fundacional, motivo/republica","medium":"Moeda","period":"Primeira República (1910-1926)","source_archive":"","url":"https://en.numista.com/catalogue/pieces907.html"},{"id":"PT-007","title":"Série Ceres — Selo definitivo da República Portuguesa","date":"1912-1945","year":1912,"country":"Portugal","regime":"fundacional","endurecimento_score":1.9,"support":"selo","motif":"Ceres, República Portuguesa","tags":"corpus/candidato, pais/PT, suporte/selo, regime/fundacional, motivo/ceres","medium":"Selo","period":"Primeira República / Estado Novo (1912-1945)","source_archive":"","url":"https://en.wikipedia.org/wiki/Ceres_series_(Portugal)"},{"id":"UK-001","title":"Justitia enthroned, with sword and scales","date":"17th century","year":1650,"country":"United Kingdom","regime":"normativo","endurecimento_score":1.8,"support":"estampa","motif":"Justitia, Justice, enthroned, sword, scales, putti","tags":"Justitia, enthroned, Baroque, British Museum, print, putti","medium":"Gravura/Estampe","period":"Barroco/Rococó","source_archive":"British Museum","url":"https://www.britishmuseum.org/collection/object/P_1870-0625-185"},{"id":"UK-002","title":"Providence and Justice (female personifications in niches)","date":"Unknown","year":null,"country":"United Kingdom","regime":"normativo","endurecimento_score":2.3,"support":"estampa","motif":"Justitia, Justice, Providence, scales, snake","tags":"Justitia, Providence, niches, architectural, British Museum, personification","medium":"Gravura/Estampe","period":"Renascimento/Moderno Inicial","source_archive":"British Museum","url":"https://www.britishmuseum.org/collection/object/P_1862-0712-304"},{"id":"UK-003","title":"Justitia and Prudentia (female personifications)","date":"Unknown","year":null,"country":"United Kingdom","regime":"normativo","endurecimento_score":2.3,"support":"estampa","motif":"Justitia, Justice, Prudentia, sword, mirror, cardinal virtues","tags":"Justitia, Prudentia, cardinal virtues, British Museum, sword, mirror","medium":"Gravura/Estampe","period":"Renascimento/Moderno Inicial","source_archive":"British Museum","url":"https://www.britishmuseum.org/collection/object/P_1862-0712-305"},{"id":"UK-004","title":"Lady Justice (F.W. Pomeroy, Old Bailey, London)","date":"1907","year":1907,"country":"United Kingdom","regime":"normativo","endurecimento_score":2.4,"support":"monumento","motif":"Justice, Lady Justice, sword, scales, unblindfolded","tags":"Lady Justice, Old Bailey, London, unblindfolded, bronze, courthouse, Pomeroy","medium":"Outro","period":"Séc. XIX","source_archive":"Wikimedia Commons","url":"http://www.speel.me.uk/sculptlondon/oldbaileyjustice.htm"},{"id":"UK-005","title":"Woman holding sword and scales of justice (Jurisprudentia)","date":"c. 1560","year":1560,"country":"United Kingdom","regime":"fundacional","endurecimento_score":1.0,"support":"estampa","motif":"Justitia, Jurisprudência, Alegoria feminina, Espada, Balança","tags":"Justitia, Jurisprudentia, female allegory, Renaissance, Justice, Delaune, sword and scales","medium":"Gravura","period":"Renascimento/Moderno Inicial","source_archive":"Wellcome Collection","url":"https://wellcomecollection.org/works/rkvhanzr"},{"id":"UK-006","title":"Women of Britain Say 'Go!'","date":"1915","year":1915,"country":"United Kingdom","regime":"militar","endurecimento_score":1.7,"support":"cartaz","motif":"Mulher, Alegoria feminina, Britânia, WWI, Propaganda, Recrutamento","tags":"female allegory, WWI, propaganda poster, Britain, recruitment, Parliamentary Recruiting Committee, gender and war","medium":"Gravura","period":"Séc. XX","source_archive":"Imperial War Museum","url":"https://www.iwm.org.uk/collections/item/object/14592"},{"id":"UK-009","title":"Take Up the Sword of Justice","date":"1915","year":1915,"country":"United Kingdom","regime":"militar","endurecimento_score":0.9,"support":"cartaz","motif":"Justitia, recrutamento","tags":"corpus/candidato, pais/UK, suporte/cartaz, regime/militar, motivo/justitia","medium":"Cartaz","period":"WWI (1914-1918)","source_archive":"","url":"https://www.iwm.org.uk/collections/item/object/21133"},{"id":"UK-010","title":"Two Forces — Britannia protecting Hibernia","date":"c. 1881","year":1881,"country":"United Kingdom","regime":"contra-alegoria","endurecimento_score":1.1,"support":"gravura","motif":"Britannia, Hibernia, colonialismo","tags":"corpus/candidato, pais/UK, suporte/estampa, regime/contra-alegoria, #colonialidade-do-ver","medium":"Gravura/Estampe","period":"Vitoriano / Irish Land War (1881)","source_archive":"","url":"https://www.gutenberg.org/files/59801/59801-h/59801-h.htm"},{"id":"UK-TRADE-1895","title":"British Trade Dollar — Britannia Standing with Trident and Shield","date":"1895-1935","year":1895,"country":"United Kingdom","regime":"militar","endurecimento_score":2.5,"support":"moeda","motif":"Britannia","tags":"female allegory, Britannia, colonial, trade dollar","medium":"coin","period":"Imperial (1895-1935)","source_archive":"Numista","url":"https://en.numista.com/catalogue/pieces8472.html"},{"id":"UK-PENNY-1860","title":"Penny — Britannia Seated with Trident, Helmet and Shield","date":"1860-1894","year":1860,"country":"United Kingdom","regime":"normativo","endurecimento_score":2.5,"support":"moeda","motif":"Britannia","tags":"female allegory, Britannia, mass circulation","medium":"coin","period":"Vitoriano (1860-1894)","source_archive":"Numista","url":"https://en.numista.com/catalogue/pieces3377.html"},{"id":"US-001","title":"America pois'd in the balance of justice","date":"1776","year":1776,"country":"United States","regime":"fundacional","endurecimento_score":0.6,"support":"estampa","motif":"Justice, Britannia, America, scales, Revolution","tags":"Justice, Britannia, America, Revolution, scales, geopolitics, 1776","medium":"Gravura/Estampe","period":"Iluminismo (Séc. XVIII)","source_archive":"Library of Congress","url":"https://www.loc.gov/item/2004673327/"},{"id":"US-002","title":"Justice and History (plaster model for US Capitol)","date":"c. 1860","year":1860,"country":"United States","regime":"normativo","endurecimento_score":2.1,"support":"fotografia","motif":"Justice, History, Capitol, Columbia","tags":"Justice, History, Capitol, sculpture, Crawford, Senate doors","medium":"Gravura/Estampe","period":"Séc. XIX","source_archive":"Library of Congress","url":"https://www.loc.gov/item/2009631377/"},{"id":"US-003","title":"Justice (blindfolded woman with sword and scales)","date":"Unknown","year":null,"country":"United States","regime":"normativo","endurecimento_score":2.2,"support":"estampa","motif":"Justice, blindfold, sword, scales","tags":"Justice, blindfold, sword, scales, government, official, steel engraving","medium":"Gravura/Estampe","period":"Séc. XIX","source_archive":"Library of Congress","url":"https://www.loc.gov/item/2007675578/"},{"id":"US-004","title":"Foire France-Américaine: Justice, Liberty, Demeter, Athena","date":"1917","year":1917,"country":"United States","regime":"militar","endurecimento_score":1.1,"support":"cartaz","motif":"Justice, Liberty, Athena, Demeter, Marianne, Columbia","tags":"Justice, Liberty, WWI, Franco-American, poster, Athena, allegory","medium":"Cartaz","period":"Séc. XX","source_archive":"Library of Congress","url":"https://www.loc.gov/item/99613542/"},{"id":"US-005","title":"Behold! a fabric now to freedom rear'd (Constitutional allegory)","date":"1788","year":1788,"country":"United States","regime":"fundacional","endurecimento_score":0.8,"support":"estampa","motif":"Justice, Liberty, Concord, Constitution, Columbia","tags":"Justice, Liberty, Constitution, Concord, Clio, founding, allegory","medium":"Gravura/Estampe","period":"Iluminismo (Séc. XVIII)","source_archive":"Library of Congress","url":"https://www.loc.gov/item/2004676797/"},{"id":"US-006","title":"Die Wage der Macht / La balance de la puissance","date":"1780","year":1780,"country":"United States","regime":"fundacional","endurecimento_score":1.0,"support":"estampa","motif":"Justice, Britannia, scales, geopolitics","tags":"Justice, Britannia, scales, geopolitics, bilingual, power balance","medium":"Gravura/Estampe","period":"Iluminismo (Séc. XVIII)","source_archive":"Library of Congress","url":"https://www.loc.gov/item/2004673370/"},{"id":"US-007","title":"Columbia presenting sword to Admiral Dewey","date":"1899","year":1899,"country":"United States","regime":"militar","endurecimento_score":1.0,"support":"estampa","motif":"Columbia, Liberty, martial allegory","tags":"Columbia, martial, Spanish-American War, Dewey, chromolithograph, imperialism","medium":"Outro","period":"Séc. XIX","source_archive":"Library of Congress","url":"https://www.loc.gov/item/2018697020/"},{"id":"US-008","title":"Hedwig Reicher as Columbia in suffrage pageant","date":"1913","year":1913,"country":"United States","regime":"fundacional","endurecimento_score":1.2,"support":"fotografia","motif":"Columbia, Justice, Liberty, suffrage, feminism","tags":"Columbia, suffrage, feminism, pageant, photograph, women's rights","medium":"Fotografia","period":"Séc. XIX","source_archive":"Library of Congress","url":"https://www.loc.gov/item/97510759/"},{"id":"US-009","title":"The Goddess of Liberty (woman in star-spangled cape)","date":"1861","year":1861,"country":"United States","regime":"normativo","endurecimento_score":1.5,"support":"fotografia","motif":"Liberty, Columbia, Civil War","tags":"Liberty, Columbia, Civil War, carte de visite, photograph, living allegory","medium":"Gravura/Estampe","period":"Séc. XIX","source_archive":"Library of Congress","url":"https://www.loc.gov/item/2018664118/"},{"id":"US-010","title":"Temple of Liberty","date":"1834","year":1834,"country":"United States","regime":"fundacional","endurecimento_score":2.3,"support":"estampa","motif":"Liberdade, Alegoria feminina, Templo da Liberdade, Goddess of Liberty, Estados Unidos","tags":"Liberty, female allegory, Goddess of Liberty, antebellum, republican values, American iconography, broadside","medium":"Gravura","period":"Séc. XIX","source_archive":"Library of Congress","url":"https://www.loc.gov/item/2008661765/"},{"id":"US-011","title":"Wake up America! Civilization calls every man, woman and child!","date":"1917","year":1917,"country":"United States","regime":"militar","endurecimento_score":1.5,"support":"cartaz","motif":"Columbia, Alegoria feminina, Estados Unidos, WWI, Goddess of Liberty, Propaganda","tags":"Columbia, female allegory, WWI, propaganda poster, James Montgomery Flagg, Phrygian cap, American iconography","medium":"Gravura","period":"Séc. XX","source_archive":"Library of Congress","url":"https://www.loc.gov/item/91726511/"},{"id":"US-012","title":"Columbia calls—Enlist now for U.S. Army","date":"1917","year":1917,"country":"United States","regime":"militar","endurecimento_score":1.7,"support":"cartaz","motif":"Columbia, Alegoria feminina, Estados Unidos, WWI, Propaganda","tags":"Columbia, female allegory, WWI, propaganda poster, globe, American iconography, sword","medium":"Gravura","period":"Séc. XX","source_archive":"Library of Congress","url":"https://www.loc.gov/item/95506508/"},{"id":"US-016","title":"Wake Up America! Civilization Calls Every Man, Woman and Child!","date":"1917","year":1917,"country":"United States","regime":"militar","endurecimento_score":1.9,"support":"cartaz","motif":"Columbia, Liberty","tags":"corpus/candidato, pais/US, suporte/cartaz, regime/militar, motivo/columbia","medium":"Cartaz","period":"Progressive Era / WWI (1917)","source_archive":"","url":"https://www.loc.gov/item/91726511/"},{"id":"US-017","title":"Columbia Calls — Enlist Now for U.S. Army","date":"1917","year":1917,"country":"United States","regime":"militar","endurecimento_score":1.6,"support":"cartaz","motif":"Columbia, recrutamento","tags":"corpus/candidato, pais/US, suporte/cartaz, regime/militar, motivo/columbia","medium":"Cartaz","period":"Progressive Era / WWI (1917)","source_archive":"","url":"https://www.loc.gov/item/95506508"},{"id":"US-018","title":"Fight or Buy Bonds — Third Liberty Loan","date":"1917","year":1917,"country":"United States","regime":"militar","endurecimento_score":1.7,"support":"cartaz","motif":"Liberty, war bonds","tags":"corpus/candidato, pais/US, suporte/cartaz, regime/militar, motivo/liberty","medium":"Cartaz","period":"Progressive Era / WWI (1917)","source_archive":"","url":"https://www.loc.gov/item/2002708939/"},{"id":"US-019","title":"Liberty Is Not Anarchy","date":"1886","year":1886,"country":"United States","regime":"contra-alegoria","endurecimento_score":1.7,"support":"gravura","motif":"Columbia, anarquia, Haymarket","tags":"corpus/candidato, pais/US, suporte/estampa, regime/contra-alegoria, #contra-alegoria","medium":"Gravura/Estampe","period":"Gilded Age (1886)","source_archive":"","url":"https://www.loc.gov/item/2004679037/"},{"id":"US-020","title":"Looking Backward","date":"1893","year":1893,"country":"United States","regime":"contra-alegoria","endurecimento_score":0.5,"support":"gravura/litografia","motif":"Columbia, imigração, ausência","tags":"corpus/candidato, pais/US, suporte/estampa, regime/contra-alegoria, #ausencia-alegorica","medium":"Gravura/Estampe","period":"Gilded Age (1893)","source_archive":"","url":"https://hti.osu.edu/opper/lesson-plans/immigration/images/looking-backward"},{"id":"US-EDUC-1896-02","title":"Science Presenting Steam and Electricity to Commerce and Manufacture ($2 Silver Certificate)","date":"1896","year":1896,"country":"United States","regime":"normativo","endurecimento_score":1.6,"support":"papel-moeda","motif":"","tags":"","medium":"","period":"","source_archive":"Smithsonian National Museum of American History","url":"https://americanhistory.si.edu/collections/object/nmah_1817050"},{"id":"US-EDUC-1896-05","title":"Electricity Presenting Light to the World ($5 Silver Certificate)","date":"1896","year":1896,"country":"United States","regime":"normativo","endurecimento_score":1.4,"support":"papel-moeda","motif":"","tags":"","medium":"","period":"","source_archive":"Smithsonian National Museum of American History","url":"https://americanhistory.si.edu/collections/object/nmah_1816788"},{"id":"US-SLQ-1916","title":"Standing Liberty Quarter — Liberty with Shield and Olive Branch","date":"1916-1930","year":1916,"country":"United States","regime":"militar","endurecimento_score":1.8,"support":"moeda","motif":"Liberty","tags":"female allegory, Liberty, nudity controversy","medium":"coin","period":"Era Progressista / WWI (1916-1930)","source_archive":"Numista","url":"https://en.numista.com/catalogue/pieces15965.html"},{"id":"UY-001","title":"El Altar de la Patria","date":"1896","year":1896,"country":"Uruguay","regime":"fundacional","endurecimento_score":1.0,"support":"pintura","motif":"alegoria nacional feminina, pátria, Uruguai, altar cívico, nação","tags":"alegoria nacional, pátria, Uruguai, altar cívico, pintura, república, feminino, Blanes","medium":"pintura","period":"Séc. XIX","source_archive":"Museos del Uruguay (museos.gub.uy)","url":"https://www.museos.gub.uy/index.php/component/k2/item/1550-juan-manuel-blanes-1830-1901"}]
+;
+
+// ─── Initialize dashboard ───
+const dash = new Dashboard(DATA);
+</script>
+</body>
+</html>
