@@ -266,7 +266,8 @@ app.use("*", cors({
 }));
 
 // ─── R2 image serving ───
-app.get("/images/:key", async (c) => {
+// {.+} captures the full remaining path including slashes (e.g. "FR/FR-001.jpg")
+app.get("/images/:key{.+}", async (c) => {
   const key = decodeURIComponent(c.req.param("key"));
   if (key.includes("..") || key.startsWith("/")) {
     return c.text("Bad Request", 400);
@@ -321,7 +322,7 @@ app.get("/api/scout", (c) => {
 
 // GET /api/corpus/stats
 app.get("/api/corpus/stats", async (c) => {
-  if (!c.env.CORPUS_DB) return c.json({ total_items: 0, by_country: [], by_medium: [], analyzed: 0 });
+  if (!c.env.CORPUS_DB) return c.json({ total_items: 0, by_country: [], by_medium: [], analyzed: 0, with_female_allegory: 0, female_allegory_items: [] });
   try {
     const [r1, r2, r3, r4, r5] = await Promise.all([
       c.env.CORPUS_DB.prepare("SELECT COUNT(*) as total FROM corpus_items").all(),
