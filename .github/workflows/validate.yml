@@ -37,6 +37,9 @@ jobs:
       - name: Validate records.jsonl against master-record schema
         run: python tools/scripts/validate_schemas.py data/processed/records.jsonl --schema master-record --verbose
 
+      - name: Validate purification.jsonl against purification-record schema
+        run: python tools/scripts/validate_schemas.py data/processed/purification.jsonl --schema purification-record --verbose
+
       - name: Check records.jsonl / corpus-data.json consistency
         run: |
           RECORDS=$(python3 -c "

@@ -65,7 +65,7 @@ Outros autores-chave: Agulhon (Marianne), Warner (*Monuments and Maidens*), Mign
 ### Fase 1 — Quantitativa (Cap. 6)
 - Amostra estratificada de ~300 imagens oficiais
 - Codificadas com protocolo de 10 indicadores ordinais de purificação (+ Field 11)
-- Validação inter-codificadores: Kappa de Cohen (κ ≥ 0.70)
+- Validação inter-codificadores: Alpha de Krippendorff ordinal (α ≥ 0.70)
 - Testes: Kruskal-Wallis, Regressão Logística Ordinal (com termo de interação Regime × Suporte)
 - Análise de Correspondência Múltipla
 - **Matriz 3×2:** cruza 3 regimes iconocráticos × 2 tipos de suporte → gera predições testáveis
