@@ -288,10 +288,16 @@ def export_csv(corpus, coded):
     indicator_names = [name for name, _, _ in INDICATORS]
     extra_cols = ["purificacao_composto", "regime_iconocratico", "coded_by", "coded_at", "notes"]
 
-    # Base columns from corpus
+    # Base columns from corpus.
+    # support: physical medium type (e.g. "selo", "moeda", "cartaz")
+    # url: canonical source URL; thumbnail_url: preview image URL
+    # description: detailed item description; citation_abnt: ABNT NBR 6023:2025 citation
+    # in_scope: boolean inclusion status; scope_note: rationale for inclusion/exclusion
     base_cols = ["id", "title", "date", "year", "period", "period_norm",
                  "creator", "country", "country_pt", "medium", "medium_norm",
-                 "source_archive", "motif_str", "tags_str"]
+                 "support", "source_archive", "url", "thumbnail_url",
+                 "description", "citation_abnt", "motif_str", "tags_str",
+                 "in_scope", "scope_note"]
 
     all_cols = base_cols + indicator_names + extra_cols
 
