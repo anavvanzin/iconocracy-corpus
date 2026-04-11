@@ -1,7 +1,7 @@
 ---
 id: SCOUT-099
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "5 Francs — Léopold I (founding coin of Belgium)"
 acervo: "Numista / Monnaie Royale de Belgique"
 url: "https://en.numista.com/catalogue/pieces255.html"

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-110
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "50 Mark Reichsbanknote (24 Jun. 1919) — última cédula imperial / primeira Weimar"
 acervo: "Numista / Deutsche Reichsbank"
 url: "https://en.numista.com/catalogue/note202186.html"

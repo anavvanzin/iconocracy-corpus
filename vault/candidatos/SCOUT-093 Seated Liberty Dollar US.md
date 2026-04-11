@@ -1,7 +1,7 @@
 ---
 id: SCOUT-093
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "1 Dollar 'Seated Liberty' (without motto)"
 acervo: "Numista / U.S. Mint"
 url: "https://en.numista.com/catalogue/pieces11472.html"
