@@ -1,7 +1,7 @@
 ---
 id: SCOUT-118
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "1 Florin — Britannia Standing on Ship Prow (Edward VII)"
 acervo: "Royal Mint / Museums Victoria Collection"
 url: "https://collections.museumsvictoria.com.au/items/77020"

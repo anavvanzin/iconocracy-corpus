@@ -496,6 +496,8 @@ const TABS=[
   {id:"galeria",label:"Galeria",icon:"◧"},
   {id:"scout",label:"Scout",icon:"🔍"},
   {id:"corpus",label:"Corpus",icon:"◉"},
+  {id:"analytics",label:"Analytics",icon:"📊"},
+  {id:"agentes",label:"Agentes",icon:"🤖"},
   {id:"atlas",label:"Mini-Atlas",icon:"◫"},
   {id:"mapa",label:"Mapa",icon:"🗺️"},
   {id:"diary",label:"Diario",icon:"✎"},
@@ -738,6 +740,24 @@ function App(){
             return <Bar key={regime} label={regime} current={count} total={total} color={cols[i]}/>;
           })}
         </div>}
+      </div>}
+
+      {/* ANALYTICS (iframe) */}
+      {tab==="analytics"&&<div>
+        <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:12}}>
+          <h2 style={{fontSize:20,fontWeight:700,margin:0}}>Corpus Analytics</h2>
+          <a href="/analytics.html" target="_blank" rel="noopener" className="mono" style={{fontSize:11,color:"var(--bordeaux)",textDecoration:"none",border:"1px solid var(--lightSepia)",padding:"4px 12px",borderRadius:4}}>Abrir em tela cheia &#8599;</a>
+        </div>
+        <iframe src="/analytics.html?embed" style={{width:"100%",height:"calc(100vh - 180px)",border:"1px solid var(--lightSepia)",borderRadius:8,background:"var(--cream)"}} title="Corpus Analytics"/>
+      </div>}
+
+      {/* AGENTES (iframe) */}
+      {tab==="agentes"&&<div>
+        <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:12}}>
+          <h2 style={{fontSize:20,fontWeight:700,margin:0}}>Painel de Agentes</h2>
+          <a href="/agents.html" target="_blank" rel="noopener" className="mono" style={{fontSize:11,color:"var(--bordeaux)",textDecoration:"none",border:"1px solid var(--lightSepia)",padding:"4px 12px",borderRadius:4}}>Abrir em tela cheia &#8599;</a>
+        </div>
+        <iframe src="/agents.html?embed" style={{width:"100%",height:"calc(100vh - 180px)",border:"1px solid var(--lightSepia)",borderRadius:8,background:"var(--cream)"}} title="Painel de Agentes"/>
       </div>}
 
       {/* MINI-ATLAS */}

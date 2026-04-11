@@ -1,7 +1,7 @@
 ---
 id: SCOUT-341
 tipo: corpus-candidato
-status: candidato
+status: duplicata  # já no corpus como UK-009
 titulo: "N° 5 - Take up the sword of justice"
 acervo: "National Library of France"
 url: "http://gallica.bnf.fr/ark:/12148/btv1b10051600t"

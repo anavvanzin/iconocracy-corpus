@@ -1,7 +1,7 @@
 ---
 id: SCOUT-100
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "Assignat de 400 livres (21 nov. 1792, an premier de la République)"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b69443660.item"

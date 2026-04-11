@@ -1,7 +1,7 @@
 ---
 id: SCOUT-124
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "1 Penny — Britannia Seated, Helmeted (George V, 1912)"
 acervo: "Museums Victoria Collection / Royal Mint"
 url: "https://collections.museumsvictoria.com.au/items/57610"

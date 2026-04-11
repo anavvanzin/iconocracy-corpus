@@ -1,7 +1,7 @@
 ---
 id: SCOUT-113
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "Monument aux Pionniers Belges au Congo — 'La race noire accueillie par la Belgique'"
 acervo: "Parc du Cinquantenaire, Bruxelles / Wikipedia"
 url: "https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo"
