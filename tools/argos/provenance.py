@@ -23,13 +23,16 @@ def build_provenance(
 ):
     """Build a normalized provenance payload for ARGOS fetch operations."""
 
-    metadata = {
+    canonical_metadata = {
         "source_url": source_url,
         "source_domain": _source_domain(source_url),
         "record_id": record_id,
     }
+
+    metadata = {}
     if extra_metadata:
         metadata.update(extra_metadata)
+    metadata.update(canonical_metadata)
 
     metadata = {key: value for key, value in metadata.items() if value is not None}
 
