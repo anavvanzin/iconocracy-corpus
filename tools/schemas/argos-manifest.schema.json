@@ -14,7 +14,8 @@
   ],
   "properties": {
     "manifest_version": {
-      "type": "string"
+      "type": "string",
+      "minLength": 1
     },
     "generated_at": {
       "type": "string",
@@ -26,7 +27,8 @@
     },
     "storage_tier": {
       "type": "string",
-      "enum": ["ssd", "repo-staging"]
+      "enum": ["ssd", "repo-staging"],
+      "minLength": 1
     },
     "summary": {
       "type": "object",
@@ -68,6 +70,7 @@
     },
     "items": {
       "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -95,7 +98,8 @@
           },
           "source_url": {
             "type": "string",
-            "format": "uri"
+            "format": "uri",
+            "minLength": 1
           },
           "source_domain": {
             "type": "string",
@@ -103,11 +107,13 @@
           },
           "protocol": {
             "type": "string",
-            "enum": ["iiif", "direct", "playwright-required", "blocked", "unknown"]
+            "enum": ["iiif", "direct", "playwright-required", "blocked", "unknown"],
+            "minLength": 1
           },
           "status": {
             "type": "string",
-            "enum": ["pending", "success", "partial", "failed", "manual"]
+            "enum": ["pending", "success", "partial", "failed", "manual"],
+            "minLength": 1
           },
           "failure_class": {
             "type": "string"
@@ -126,9 +132,53 @@
             "type": "string"
           },
           "provenance": {
-            "type": "object"
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "retrieved_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "retrieved_from": {
+                "type": "string",
+                "format": "uri",
+                "minLength": 1
+              },
+              "agent": {
+                "type": "string"
+              },
+              "method": {
+                "type": "string"
+              },
+              "metadata": {
+                "type": "object"
+              }
+            }
           }
-        }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "success"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "local_path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        ]
       }
     }
   }
