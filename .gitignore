@@ -77,3 +77,8 @@ webiconocracy/
 output/huggingface/
 tmp/vault-backups/
 logs/
+
+# ARGOS acquisition orchestrator
+data/raw/.staging/
+data/raw/argos/manifest.lock
+data/raw/argos/manifest.json.bak

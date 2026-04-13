@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://iconocracia.org/schemas/argos-manifest/1.0",
+  "title": "ARGOS Acquisition Manifest",
+  "description": "Canonical manifest of pending and completed corpus image acquisitions, maintained by the ARGOS orchestrator.",
+  "type": "object",
+  "required": ["manifest_version", "generated_at", "storage_tier", "items"],
+  "properties": {
+    "manifest_version": {"type": "string", "const": "1.0"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "updated_at": {"type": "string"},
+    "storage_root": {"type": "string"},
+    "storage_tier": {"type": "string", "enum": ["ssd", "staging"]},
+    "total_items": {"type": "integer", "minimum": 0},
+    "items": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/item"}
+    }
+  },
+  "$defs": {
+    "item": {
+      "type": "object",
+      "required": ["item_id", "source_url", "protocol", "status"],
+      "properties": {
+        "item_id": {"type": "string"},
+        "title": {"type": ["string", "null"]},
+        "country": {"type": ["string", "null"]},
+        "source_archive": {"type": ["string", "null"]},
+        "source_domain": {"type": ["string", "null"]},
+        "source_url": {"type": "string"},
+        "protocol": {
+          "type": "string",
+          "enum": [
+            "iiif",
+            "rest-api",
+            "direct",
+            "playwright-required",
+            "blocked-prone",
+            "unknown"
+          ]
+        },
+        "iiif_manifest_url": {"type": ["string", "null"]},
+        "status": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "success",
+            "partial",
+            "failed",
+            "manual",
+            "tos_restricted"
+          ]
+        },
+        "failure_class": {
+          "type": ["string", "null"],
+          "enum": [
+            null,
+            "403_block",
+            "404_not_found",
+            "iiif_not_found",
+            "playwright_timeout",
+            "playwright_unavailable",
+            "cloudflare",
+            "robots_denied",
+            "network",
+            "server_error",
+            "tos_restricted",
+            "post_download",
+            "no_source_url",
+            "unknown"
+          ]
+        },
+        "failure_reason": {"type": ["string", "null"]},
+        "attempts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ts": {"type": "string"},
+              "protocol": {"type": "string"},
+              "status_code": {"type": ["integer", "null"]},
+              "error": {"type": ["string", "null"]},
+              "bytes": {"type": ["integer", "null"]},
+              "content_type": {"type": ["string", "null"]},
+              "fetched_url": {"type": ["string", "null"]}
+            }
+          }
+        },
+        "local_path": {"type": ["string", "null"]},
+        "bytes": {"type": ["integer", "null"]},
+        "sha256": {"type": ["string", "null"]},
+        "provenance": {
+          "type": ["object", "null"],
+          "properties": {
+            "fetched_at": {"type": "string"},
+            "fetched_by": {"type": "string"},
+            "user_agent": {"type": "string"},
+            "protocol_succeeded": {"type": "string"},
+            "license_hint": {"type": ["string", "null"]}
+          }
+        }
+      }
+    }
+  }
+}

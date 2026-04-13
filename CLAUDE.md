@@ -25,6 +25,11 @@ python tools/scripts/vault_sync.py status          # vault ↔ records.jsonl sta
 python tools/scripts/vault_sync.py sync            # bidirectional sync
 python tools/scripts/records_to_corpus.py --diff   # preview records → corpus-data.json changes
 
+# ARGOS — autonomous corpus acquisition orchestrator
+python tools/scripts/argos_build_manifest.py       # scan pending → data/raw/argos/manifest.json
+python tools/scripts/argos_acquire_item.py --domain gallica.bnf.fr --limit 3
+python tools/scripts/argos_report.py               # render report.md from manifest
+
 # Thesis compilation (Pandoc)
 make -C vault/tese/ docx                           # full thesis → DOCX
 make -C vault/tese/ pdf                            # full thesis → PDF (requires LaTeX)
@@ -133,6 +138,7 @@ The agent dispatches by trigger keywords (full spec: `ICONOCRACY_MASTER_PROMPT.m
 | `redigir`, `draft`, `escrever capítulo` | REDIGIR | Academic writing |
 | `revisar`, `peer review` | REVISAR | Multi-perspective review |
 | `zwischenraum`, `painel comparativo` | ZWISCHENRAUM | Warburg comparative panels |
+| `argos`, `orchestrar acquisition`, `acquisition run` | ARGOS | Autonomous parallel acquisition (`argos_build_manifest.py` + dispatch + `argos_report.py`) |
 | `salvar` | — | Save last note to `vault/candidatos/` |
 | `sessão` | — | Save session summary to `vault/sessoes/` |
 
