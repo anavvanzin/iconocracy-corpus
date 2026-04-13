@@ -1,8 +1,8 @@
-from pathlib import Path
+import importlib
 import unittest
 
 
 class ArgosSmokeTests(unittest.TestCase):
-    def test_argos_package_exists(self):
-        self.assertTrue(Path("tools/argos/__init__.py").exists())
-        self.assertTrue(Path("tools/argos/protocols/__init__.py").exists())
+    def test_argos_modules_are_importable(self):
+        self.assertIsNotNone(importlib.import_module("tools.argos"))
+        self.assertIsNotNone(importlib.import_module("tools.argos.protocols"))
