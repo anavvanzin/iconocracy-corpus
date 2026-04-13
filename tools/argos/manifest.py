@@ -86,6 +86,10 @@ def build_manifest(
     }
 
 
+def pending_item_count(manifest: dict) -> int:
+    return int(manifest.get("summary", {}).get("pending", len(manifest.get("items", []))))
+
+
 def protocol_breakdown(manifest: dict) -> dict[str, int]:
     counts = Counter(item["protocol"] for item in manifest.get("items", []))
     return dict(sorted(counts.items()))
