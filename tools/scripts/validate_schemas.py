@@ -128,7 +128,7 @@ def main() -> None:
         "--schema",
         required=False,
         default=None,
-        choices=["webscout-input", "webscout-output", "iconocode-output", "master-record", "purification-record"],
+        choices=["webscout-input", "webscout-output", "iconocode-output", "master-record", "purification-record", "argos-manifest"],
         help="Schema to validate against (default: master-record when validating records.jsonl)"
     )
     parser.add_argument(
