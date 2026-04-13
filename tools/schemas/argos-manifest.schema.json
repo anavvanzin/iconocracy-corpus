@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/argos-manifest.schema.json",
+  "title": "ArgosManifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifest_version",
+    "generated_at",
+    "storage_root",
+    "storage_tier",
+    "summary",
+    "items"
+  ],
+  "properties": {
+    "manifest_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "storage_root": {
+      "type": "string",
+      "minLength": 1
+    },
+    "storage_tier": {
+      "type": "string",
+      "enum": ["ssd", "repo-staging"]
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "total_items",
+        "pending",
+        "success",
+        "partial",
+        "failed",
+        "manual"
+      ],
+      "properties": {
+        "total_items": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pending": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "success": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "partial": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "failed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "manual": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "item_id",
+          "title",
+          "source_url",
+          "source_domain",
+          "protocol",
+          "status",
+          "failure_class",
+          "failure_reason",
+          "attempts",
+          "local_path",
+          "sha256",
+          "provenance"
+        ],
+        "properties": {
+          "item_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "source_domain": {
+            "type": "string",
+            "minLength": 1
+          },
+          "protocol": {
+            "type": "string",
+            "enum": ["iiif", "direct", "playwright-required", "blocked", "unknown"]
+          },
+          "status": {
+            "type": "string",
+            "enum": ["pending", "success", "partial", "failed", "manual"]
+          },
+          "failure_class": {
+            "type": "string"
+          },
+          "failure_reason": {
+            "type": "string"
+          },
+          "attempts": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "local_path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string"
+          },
+          "provenance": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}
