@@ -11,7 +11,7 @@ def resolve_storage_root(repo_root, ssd_root=DEFAULT_SSD_ROOT):
     repo_root = Path(repo_root)
     ssd_root = Path(ssd_root)
 
-    if ssd_root.exists():
+    if ssd_root.is_dir():
         return ssd_root, "ssd"
 
     fallback_root = repo_root / FALLBACK_RELATIVE_PATH
