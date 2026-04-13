@@ -1,8 +1,8 @@
 {
   "manifest_version": "1.0",
-  "generated_at": "2026-04-13T23:22:24Z",
-  "storage_root": "/Volumes/ICONOCRACIA/argos",
-  "storage_tier": "ssd",
+  "generated_at": "2026-04-13T23:29:45Z",
+  "storage_root": "/Users/ana/iconocracy-corpus/data/raw/.staging",
+  "storage_tier": "repo-staging",
   "summary": {
     "total_items": 20,
     "pending": 20,

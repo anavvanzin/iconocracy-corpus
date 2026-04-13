@@ -10,13 +10,12 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from tools.argos.manifest import build_manifest, protocol_breakdown
+from tools.argos.manifest import build_manifest, pending_item_count, protocol_breakdown
+from tools.argos.storage import resolve_storage_root
 
 DEFAULT_CORPUS_PATH = REPO_ROOT / "corpus" / "corpus-data.json"
 DEFAULT_DRIVE_MANIFEST_PATH = REPO_ROOT / "data" / "raw" / "drive-manifest.json"
 DEFAULT_OUTPUT_PATH = REPO_ROOT / "data" / "raw" / "argos" / "manifest.json"
-DEFAULT_STORAGE_ROOT = "/Volumes/ICONOCRACIA/argos"
-DEFAULT_STORAGE_TIER = "ssd"
 
 
 def _load_json(path: Path):
@@ -56,15 +55,20 @@ def main() -> int:
 
     corpus_items = _load_json(args.corpus)
     drive_manifest = _load_json(args.drive_manifest)
+    storage_root, storage_tier = resolve_storage_root(REPO_ROOT)
     manifest = build_manifest(
         corpus_items,
         drive_manifest,
-        storage_root=DEFAULT_STORAGE_ROOT,
-        storage_tier=DEFAULT_STORAGE_TIER,
+        storage_root=storage_root,
+        storage_tier=storage_tier,
         limit=args.limit,
     )
 
     _print_summary(manifest)
+
+    if pending_item_count(manifest) == 0:
+        print("No pending items remain; manifest not written")
+        return 0
 
     if args.dry_run:
         print("Dry run: manifest not written")
