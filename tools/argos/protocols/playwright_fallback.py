@@ -12,7 +12,7 @@ RESTRICTED_DOMAINS = {
 
 
 def _source_domain(url: str) -> str:
-    return urlparse(url).netloc.lower()
+    return (urlparse(url).hostname or "").lower()
 
 
 def _restricted_domain(domain: str) -> str | None:
