@@ -106,11 +106,12 @@ class PlaywrightFallbackTests(unittest.TestCase):
             ):
                 result = fetch_with_playwright("https://example.com/object/1", dest_path, playwright_allowed=True)
 
+            self.assertFalse(dest_path.exists())
+
         self.assertFalse(result["success"])
         self.assertTrue(result["manual_required"])
         self.assertEqual(result["failure_class"], "playwright_unavailable")
         self.assertEqual(result["protocol"], "playwright")
-        self.assertFalse(dest_path.exists())
 
     def test_fetch_with_playwright_uses_browser_factory_when_allowed(self):
         page = _FakePage(payload=b"x" * 1024, status=202)
