@@ -23,6 +23,9 @@ Canonical data hierarchy:
 
 See [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md) and [docs/huggingface-release.md](docs/huggingface-release.md).
 
+Canonical workspace root: `/Users/ana/Research`.
+Workspace topology and compatibility paths: [docs/workspace-map.md](docs/workspace-map.md).
+
 ---
 
 ## Structure
