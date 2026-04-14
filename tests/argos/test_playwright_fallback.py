@@ -27,6 +27,12 @@ class _FakePage:
         Path(path).write_bytes(self.payload)
 
 
+class _EmptyCapturePage(_FakePage):
+    def screenshot(self, path, full_page=True):
+        self.screenshot_calls.append({"path": path, "full_page": full_page})
+        Path(path).touch()
+
+
 class _FakeBrowser:
     def __init__(self, page):
         self.page = page
@@ -80,6 +86,17 @@ class PlaywrightFallbackTests(unittest.TestCase):
         self.assertEqual(result["source_domain"], "en.numista.com")
         self.assertIn("explicitly allowed", result["error"])
 
+    def test_fetch_with_playwright_treats_restricted_domain_with_port_as_restricted_by_default(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            dest_path = Path(tmpdir) / "numista-port.png"
+            result = fetch_with_playwright("https://en.numista.com:8443/catalogue/piece123.html", dest_path)
+
+        self.assertFalse(result["success"])
+        self.assertTrue(result["manual_required"])
+        self.assertEqual(result["failure_class"], "manual_required")
+        self.assertEqual(result["source_domain"], "en.numista.com")
+        self.assertIn("numista.com", result["notes"][0])
+
     def test_fetch_with_playwright_returns_unavailable_failure_when_dependency_missing(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             dest_path = Path(tmpdir) / "fallback.png"
@@ -117,6 +134,43 @@ class PlaywrightFallbackTests(unittest.TestCase):
         self.assertEqual(page.goto_calls[0]["wait_until"], "networkidle")
         self.assertEqual(page.goto_calls[0]["timeout"], 12000)
         self.assertEqual(written, b"x" * 1024)
+
+    def test_fetch_with_playwright_allows_restricted_domain_when_explicitly_enabled(self):
+        page = _FakePage(payload=b"restricted-ok", status=203)
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            dest_path = Path(tmpdir) / "restricted.png"
+            result = fetch_with_playwright(
+                "https://colnect.com/en/coins/item/1",
+                dest_path,
+                playwright_allowed=True,
+                browser_factory=lambda: _FakePlaywrightContext(page),
+            )
+
+            written = dest_path.read_bytes()
+
+        self.assertTrue(result["success"])
+        self.assertEqual(result["status_code"], 203)
+        self.assertEqual(result["source_domain"], "colnect.com")
+        self.assertEqual(written, b"restricted-ok")
+
+    def test_fetch_with_playwright_cleans_up_empty_capture_output(self):
+        page = _EmptyCapturePage()
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            dest_path = Path(tmpdir) / "empty.png"
+            result = fetch_with_playwright(
+                "https://example.com/object/empty",
+                dest_path,
+                playwright_allowed=True,
+                browser_factory=lambda: _FakePlaywrightContext(page),
+            )
+
+            exists_after = dest_path.exists()
+
+        self.assertFalse(result["success"])
+        self.assertEqual(result["failure_class"], "playwright_empty_capture")
+        self.assertFalse(exists_after)
 
 
 if __name__ == "__main__":
