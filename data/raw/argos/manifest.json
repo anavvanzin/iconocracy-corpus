@@ -1,15 +1,15 @@
 {
   "manifest_version": "1.0",
-  "generated_at": "2026-04-13T23:29:45Z",
-  "storage_root": "/Users/ana/iconocracy-corpus/data/raw/.staging",
-  "storage_tier": "repo-staging",
+  "generated_at": "2026-04-14T03:37:40Z",
+  "storage_root": "/Volumes/ICONOCRACIA/corpus/imagens",
+  "storage_tier": "ssd",
   "summary": {
     "total_items": 20,
-    "pending": 20,
+    "pending": 0,
     "success": 0,
     "partial": 0,
-    "failed": 0,
-    "manual": 0
+    "failed": 14,
+    "manual": 6
   },
   "items": [
     {
@@ -18,19 +18,26 @@
       "source_url": "https://colnect.com/en/stamps/stamp/128820-Allegory_Liberty_Seated-Allegory-Argentina",
       "source_domain": "colnect.com",
       "protocol": "playwright-required",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "manual",
+      "failure_class": "manual_required",
+      "failure_reason": "Playwright fallback for colnect.com requires manual review unless explicitly allowed",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "playwright-required",
+        "method": "playwright",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "colnect.com"
-        }
+          "dispatch_group": "colnect.com",
+          "bytes_written": 0,
+          "source_domain": "colnect.com",
+          "notes": [
+            "Restricted domain policy matched: colnect.com"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:27Z",
+        "retrieved_from": "https://colnect.com/en/stamps/stamp/128820-Allegory_Liberty_Seated-Allegory-Argentina"
       }
     },
     {
@@ -39,10 +46,10 @@
       "source_url": "https://www.loc.gov/item/2004666193/",
       "source_domain": "www.loc.gov",
       "protocol": "iiif",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "iiif_image_unavailable",
+      "failure_reason": "Discovered IIIF manifest but no fetchable image URL",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
@@ -50,8 +57,15 @@
         "method": "iiif",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "www.loc.gov"
-        }
+          "dispatch_group": "www.loc.gov",
+          "bytes_written": 0,
+          "source_domain": "www.loc.gov",
+          "notes": [],
+          "manifest_url": "https://www.loc.gov/item/2004666193/?fo=json",
+          "iiif_source": "loc_api"
+        },
+        "retrieved_at": "2026-04-14T03:39:52Z",
+        "retrieved_from": "https://www.loc.gov/item/2004666193/"
       }
     },
     {
@@ -60,19 +74,26 @@
       "source_url": "https://collections.heritage.brussels/fr/objects/36822",
       "source_domain": "collections.heritage.brussels",
       "protocol": "unknown",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "unknown",
+        "method": "direct",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "collections.heritage.brussels"
-        }
+          "dispatch_group": "collections.heritage.brussels",
+          "bytes_written": 0,
+          "source_domain": "collections.heritage.brussels",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:40:19Z",
+        "retrieved_from": "https://collections.heritage.brussels/fr/objects/36822"
       }
     },
     {
@@ -81,19 +102,26 @@
       "source_url": "https://be-monumen.be/patrimoine-belge/poelaert-joseph/",
       "source_domain": "be-monumen.be",
       "protocol": "unknown",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "unknown",
+        "method": "direct",
         "metadata": {
           "thumbnail_missing": false,
-          "dispatch_group": "be-monumen.be"
-        }
+          "dispatch_group": "be-monumen.be",
+          "bytes_written": 0,
+          "source_domain": "be-monumen.be",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:40:27Z",
+        "retrieved_from": "https://be-monumen.be/patrimoine-belge/poelaert-joseph/"
       }
     },
     {
@@ -102,19 +130,26 @@
       "source_url": "https://en.numista.com/catalogue/pieces255.html",
       "source_domain": "en.numista.com",
       "protocol": "playwright-required",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "manual",
+      "failure_class": "manual_required",
+      "failure_reason": "Playwright fallback for numista.com requires manual review unless explicitly allowed",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "playwright-required",
+        "method": "playwright",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "en.numista.com"
-        }
+          "dispatch_group": "en.numista.com",
+          "bytes_written": 0,
+          "source_domain": "en.numista.com",
+          "notes": [
+            "Restricted domain policy matched: numista.com"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:40Z",
+        "retrieved_from": "https://en.numista.com/catalogue/pieces255.html"
       }
     },
     {
@@ -123,19 +158,26 @@
       "source_url": "https://en.numista.com/258715",
       "source_domain": "en.numista.com",
       "protocol": "playwright-required",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "manual",
+      "failure_class": "manual_required",
+      "failure_reason": "Playwright fallback for numista.com requires manual review unless explicitly allowed",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "playwright-required",
+        "method": "playwright",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "en.numista.com"
-        }
+          "dispatch_group": "en.numista.com",
+          "bytes_written": 0,
+          "source_domain": "en.numista.com",
+          "notes": [
+            "Restricted domain policy matched: numista.com"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:47Z",
+        "retrieved_from": "https://en.numista.com/258715"
       }
     },
     {
@@ -144,10 +186,10 @@
       "source_url": "https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo",
       "source_domain": "en.wikipedia.org",
       "protocol": "direct",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
@@ -155,8 +197,15 @@
         "method": "direct",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "en.wikipedia.org"
-        }
+          "dispatch_group": "en.wikipedia.org",
+          "bytes_written": 0,
+          "source_domain": "en.wikipedia.org",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:37Z",
+        "retrieved_from": "https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo"
       }
     },
     {
@@ -165,19 +214,26 @@
       "source_url": "https://en.numista.com/catalogue/pieces27258.html",
       "source_domain": "en.numista.com",
       "protocol": "playwright-required",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "manual",
+      "failure_class": "manual_required",
+      "failure_reason": "Playwright fallback for numista.com requires manual review unless explicitly allowed",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "playwright-required",
+        "method": "playwright",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "en.numista.com"
-        }
+          "dispatch_group": "en.numista.com",
+          "bytes_written": 0,
+          "source_domain": "en.numista.com",
+          "notes": [
+            "Restricted domain policy matched: numista.com"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:55Z",
+        "retrieved_from": "https://en.numista.com/catalogue/pieces27258.html"
       }
     },
     {
@@ -186,19 +242,26 @@
       "source_url": "https://en.numista.com/catalogue/note258714.html",
       "source_domain": "en.numista.com",
       "protocol": "playwright-required",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "manual",
+      "failure_class": "manual_required",
+      "failure_reason": "Playwright fallback for numista.com requires manual review unless explicitly allowed",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "playwright-required",
+        "method": "playwright",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "en.numista.com"
-        }
+          "dispatch_group": "en.numista.com",
+          "bytes_written": 0,
+          "source_domain": "en.numista.com",
+          "notes": [
+            "Restricted domain policy matched: numista.com"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:52Z",
+        "retrieved_from": "https://en.numista.com/catalogue/note258714.html"
       }
     },
     {
@@ -207,19 +270,26 @@
       "source_url": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778",
       "source_domain": "brasilianafotografica.bn.gov.br",
       "protocol": "unknown",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "unknown",
+        "method": "direct",
         "metadata": {
           "thumbnail_missing": false,
-          "dispatch_group": "brasilianafotografica.bn.gov.br"
-        }
+          "dispatch_group": "brasilianafotografica.bn.gov.br",
+          "bytes_written": 0,
+          "source_domain": "brasilianafotografica.bn.gov.br",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:40:27Z",
+        "retrieved_from": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778"
       }
     },
     {
@@ -228,19 +298,24 @@
       "source_url": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609",
       "source_domain": "brasilianafotografica.bn.gov.br",
       "protocol": "unknown",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "iiif_unavailable",
+      "failure_reason": "No supported IIIF pattern discovered",
+      "attempts": 2,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "unknown",
+        "method": "iiif",
         "metadata": {
           "thumbnail_missing": false,
-          "dispatch_group": "brasilianafotografica.bn.gov.br"
-        }
+          "dispatch_group": "brasilianafotografica.bn.gov.br",
+          "bytes_written": 0,
+          "source_domain": "brasilianafotografica.bn.gov.br",
+          "notes": []
+        },
+        "retrieved_at": "2026-04-14T03:40:34Z",
+        "retrieved_from": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609"
       }
     },
     {
@@ -249,19 +324,24 @@
       "source_url": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611",
       "source_domain": "brasilianafotografica.bn.gov.br",
       "protocol": "unknown",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "iiif_unavailable",
+      "failure_reason": "No supported IIIF pattern discovered",
+      "attempts": 2,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "unknown",
+        "method": "iiif",
         "metadata": {
           "thumbnail_missing": false,
-          "dispatch_group": "brasilianafotografica.bn.gov.br"
-        }
+          "dispatch_group": "brasilianafotografica.bn.gov.br",
+          "bytes_written": 0,
+          "source_domain": "brasilianafotografica.bn.gov.br",
+          "notes": []
+        },
+        "retrieved_at": "2026-04-14T03:40:41Z",
+        "retrieved_from": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611"
       }
     },
     {
@@ -270,19 +350,24 @@
       "source_url": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529",
       "source_domain": "brasilianafotografica.bn.gov.br",
       "protocol": "unknown",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "iiif_unavailable",
+      "failure_reason": "No supported IIIF pattern discovered",
+      "attempts": 2,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "unknown",
+        "method": "iiif",
         "metadata": {
           "thumbnail_missing": false,
-          "dispatch_group": "brasilianafotografica.bn.gov.br"
-        }
+          "dispatch_group": "brasilianafotografica.bn.gov.br",
+          "bytes_written": 0,
+          "source_domain": "brasilianafotografica.bn.gov.br",
+          "notes": []
+        },
+        "retrieved_at": "2026-04-14T03:40:47Z",
+        "retrieved_from": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529"
       }
     },
     {
@@ -291,19 +376,26 @@
       "source_url": "https://archive.nyu.edu/handle/2451/61396",
       "source_domain": "archive.nyu.edu",
       "protocol": "unknown",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "unknown",
+        "method": "direct",
         "metadata": {
           "thumbnail_missing": false,
-          "dispatch_group": "archive.nyu.edu"
-        }
+          "dispatch_group": "archive.nyu.edu",
+          "bytes_written": 0,
+          "source_domain": "archive.nyu.edu",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:40:49Z",
+        "retrieved_from": "https://archive.nyu.edu/handle/2451/61396"
       }
     },
     {
@@ -312,19 +404,26 @@
       "source_url": "https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/",
       "source_domain": "brasiliana.museus.gov.br",
       "protocol": "unknown",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "unknown",
+        "method": "direct",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "brasiliana.museus.gov.br"
-        }
+          "dispatch_group": "brasiliana.museus.gov.br",
+          "bytes_written": 0,
+          "source_domain": "brasiliana.museus.gov.br",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:40:51Z",
+        "retrieved_from": "https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/"
       }
     },
     {
@@ -333,19 +432,25 @@
       "source_url": "http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf",
       "source_domain": "memoria.bn.br",
       "protocol": "unknown",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "404_not_found",
+      "failure_reason": "HTTP 404: Not Found",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "unknown",
+        "method": "direct",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "memoria.bn.br"
-        }
+          "dispatch_group": "memoria.bn.br",
+          "bytes_written": 0,
+          "status_code": 404,
+          "source_domain": "memoria.bn.br",
+          "notes": []
+        },
+        "retrieved_at": "2026-04-14T03:40:52Z",
+        "retrieved_from": "http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf"
       }
     },
     {
@@ -354,19 +459,24 @@
       "source_url": "http://memoria.bn.br/docreader/webindex/WIPagina/313394/101306",
       "source_domain": "memoria.bn.br",
       "protocol": "unknown",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "iiif_unavailable",
+      "failure_reason": "No supported IIIF pattern discovered",
+      "attempts": 2,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "unknown",
+        "method": "iiif",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "memoria.bn.br"
-        }
+          "dispatch_group": "memoria.bn.br",
+          "bytes_written": 0,
+          "source_domain": "memoria.bn.br",
+          "notes": []
+        },
+        "retrieved_at": "2026-04-14T03:40:59Z",
+        "retrieved_from": "http://memoria.bn.br/docreader/webindex/WIPagina/313394/101306"
       }
     },
     {
@@ -375,19 +485,26 @@
       "source_url": "https://acervos.ims.com.br/index.php/Detail/objects/18758",
       "source_domain": "acervos.ims.com.br",
       "protocol": "unknown",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "unknown",
+        "method": "direct",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "acervos.ims.com.br"
-        }
+          "dispatch_group": "acervos.ims.com.br",
+          "bytes_written": 0,
+          "source_domain": "acervos.ims.com.br",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:40:59Z",
+        "retrieved_from": "https://acervos.ims.com.br/index.php/Detail/objects/18758"
       }
     },
     {
@@ -396,19 +513,26 @@
       "source_url": "https://eliseuvisconti.com.br/obra/d702/",
       "source_domain": "eliseuvisconti.com.br",
       "protocol": "unknown",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "unknown",
+        "method": "direct",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "eliseuvisconti.com.br"
-        }
+          "dispatch_group": "eliseuvisconti.com.br",
+          "bytes_written": 0,
+          "source_domain": "eliseuvisconti.com.br",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:41:03Z",
+        "retrieved_from": "https://eliseuvisconti.com.br/obra/d702/"
       }
     },
     {
@@ -417,19 +541,26 @@
       "source_url": "https://en.numista.com/catalogue/pieces14484.html",
       "source_domain": "en.numista.com",
       "protocol": "playwright-required",
-      "status": "pending",
-      "failure_class": "",
-      "failure_reason": "",
-      "attempts": 0,
+      "status": "manual",
+      "failure_class": "manual_required",
+      "failure_reason": "Playwright fallback for numista.com requires manual review unless explicitly allowed",
+      "attempts": 1,
       "local_path": "",
       "sha256": "",
       "provenance": {
         "agent": "argos",
-        "method": "playwright-required",
+        "method": "playwright",
         "metadata": {
           "thumbnail_missing": true,
-          "dispatch_group": "en.numista.com"
-        }
+          "dispatch_group": "en.numista.com",
+          "bytes_written": 0,
+          "source_domain": "en.numista.com",
+          "notes": [
+            "Restricted domain policy matched: numista.com"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:58Z",
+        "retrieved_from": "https://en.numista.com/catalogue/pieces14484.html"
       }
     }
   ]
