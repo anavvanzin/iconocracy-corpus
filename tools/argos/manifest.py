@@ -98,13 +98,32 @@ def _validate_manifest(manifest: dict) -> None:
         raise ValueError("Manifest failed schema validation after update: " + "; ".join(errors))
 
 
-def _write_json(path: Path, payload: dict) -> None:
-    serialized = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8") as handle:
-        handle.write(serialized)
-        handle.flush()
-        os.fsync(handle.fileno())
+def _fsync_directory(path: Path) -> None:
+    if os.name == "nt":
+        return
+
+    try:
+        directory_fd = os.open(path, os.O_RDONLY)
+    except OSError:
+        return
+
+    try:
+        os.fsync(directory_fd)
+    except OSError:
+        pass
+    finally:
+        os.close(directory_fd)
+
+
+def _recursive_merge(base: dict, patch: dict) -> dict:
+    merged = dict(base)
+    for key, value in patch.items():
+        existing = merged.get(key)
+        if isinstance(existing, dict) and isinstance(value, dict):
+            merged[key] = _recursive_merge(existing, value)
+        else:
+            merged[key] = value
+    return merged
 
 
 def _write_atomic_json(path: Path, payload: dict) -> None:
@@ -118,6 +137,7 @@ def _write_atomic_json(path: Path, payload: dict) -> None:
             handle.flush()
             os.fsync(handle.fileno())
         os.replace(tmp_name, path)
+        _fsync_directory(path.parent)
     except Exception:
         if os.path.exists(tmp_name):
             os.unlink(tmp_name)
@@ -141,11 +161,16 @@ def locked_update_manifest(path: str | Path, item_id: str, patch: dict, lock_pat
 
         updated_items = []
         matched = False
-        for item in items:
+        for index, item in enumerate(items):
             if not isinstance(item, dict):
                 raise ValueError("Manifest items must be JSON objects")
-            if item.get("item_id") == item_id:
-                updated_items.append({**item, **patch})
+
+            existing_item_id = item.get("item_id")
+            if not isinstance(existing_item_id, str) or not existing_item_id:
+                raise ValueError(f"Manifest item at index {index} is missing item_id")
+
+            if existing_item_id == item_id:
+                updated_items.append(_recursive_merge(item, patch))
                 matched = True
             else:
                 updated_items.append(item)
@@ -158,7 +183,7 @@ def locked_update_manifest(path: str | Path, item_id: str, patch: dict, lock_pat
         updated_manifest["summary"] = _summary_from_items(updated_items)
         _validate_manifest(updated_manifest)
 
-        _write_json(manifest_path.with_suffix(".json.bak"), manifest)
+        _write_atomic_json(manifest_path.with_suffix(".json.bak"), manifest)
         _write_atomic_json(manifest_path, updated_manifest)
         return updated_manifest
 
