@@ -15,6 +15,12 @@ from tools.argos.manifest import locked_update_manifest
 DEFAULT_MANIFEST_PATH = REPO_ROOT / "data" / "raw" / "argos" / "manifest.json"
 
 
+def _format_user_error(exc: Exception) -> str:
+    if isinstance(exc, KeyError) and exc.args:
+        return str(exc.args[0])
+    return str(exc)
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Atomically update a single ARGOS manifest item.")
     parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST_PATH, help="Path to manifest.json")
@@ -39,7 +45,7 @@ def main() -> int:
     try:
         locked_update_manifest(args.manifest, args.item_id, patch, lock_path=args.lock_path)
     except (KeyError, ValueError) as exc:
-        print(str(exc), file=sys.stderr)
+        print(_format_user_error(exc), file=sys.stderr)
         return 1
 
     print(f"Updated manifest item {args.item_id} in {args.manifest}")
