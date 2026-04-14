@@ -25,6 +25,11 @@ python tools/scripts/vault_sync.py status          # vault ↔ records.jsonl sta
 python tools/scripts/vault_sync.py sync            # bidirectional sync
 python tools/scripts/records_to_corpus.py --diff   # preview records → corpus-data.json changes
 
+# ARGOS acquisition workflow
+python tools/scripts/argos_build_manifest.py       # build pending acquisition manifest
+python tools/scripts/argos_prepare_dispatch.py --manifest data/raw/argos/manifest.json  # derive dispatch groups
+python tools/scripts/argos_report.py               # render markdown acquisition report
+
 # Thesis compilation (Pandoc)
 make -C vault/tese/ docx                           # full thesis → DOCX
 make -C vault/tese/ pdf                            # full thesis → PDF (requires LaTeX)
@@ -124,6 +129,7 @@ The agent dispatches by trigger keywords (full spec: `ICONOCRACY_MASTER_PROMPT.m
 | Trigger | Mode | Action |
 |---------|------|--------|
 | `scout [query]`, `campanha N`, `buscar`, `lacunas`, `auditoria` | SCOUT | Archive search, Obsidian note generation, gap analysis |
+| `argos`, `acquisition`, `orquestrar aquisicao`, `orquestrar aquisição` | ARGOS | Build manifest, prepare dispatch groups, coordinate acquisition workflow |
 | `codificar`, `iconocode`, `analisar imagem`, or image received | ICONOCODE | 3-level Panofsky + 10 indicators |
 | `compilar`, `make tese`, `gerar PDF` | COMPILAR | Markdown → PDF via Pandoc |
 | `validar [file]` | VALIDAR | JSON schema validation (`validate_schemas.py`) |

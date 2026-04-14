@@ -77,3 +77,6 @@ webiconocracy/
 output/huggingface/
 tmp/vault-backups/
 logs/
+data/raw/.staging/
+data/raw/argos/manifest.lock
+data/raw/argos/*.bak
