@@ -6,6 +6,7 @@ import json
 import sys
 from collections import defaultdict
 from pathlib import Path
+from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
@@ -14,21 +15,54 @@ if str(REPO_ROOT) not in sys.path:
 DEFAULT_MANIFEST_PATH = REPO_ROOT / "data" / "raw" / "argos" / "manifest.json"
 
 
-def _pending_items(items: list[dict]) -> list[dict]:
-    return [item for item in items if item.get("status") == "pending"]
+UNKNOWN_VALUE = "unknown"
 
 
-def _domain_buckets(items: list[dict]) -> list[dict]:
+def _normalize_string(value: Any, default: str = UNKNOWN_VALUE) -> str:
+    if value is None:
+        return default
+    text = str(value).strip()
+    return text or default
+
+
+def _normalize_pending_item(item: Any) -> dict | None:
+    if not isinstance(item, dict):
+        return None
+
+    if item.get("status") != "pending":
+        return None
+
+    return {
+        **item,
+        "item_id": _normalize_string(item.get("item_id")),
+        "source_domain": _normalize_string(item.get("source_domain")),
+        "protocol": _normalize_string(item.get("protocol")),
+    }
+
+
+def _pending_items(items: list[dict] | None) -> list[dict]:
+    if not items:
+        return []
+
+    pending_items = []
+    for item in items:
+        normalized_item = _normalize_pending_item(item)
+        if normalized_item is not None:
+            pending_items.append(normalized_item)
+    return pending_items
+
+
+def _domain_buckets(items: list[dict] | None) -> list[dict]:
     buckets: dict[str, dict] = {}
     grouped_items: dict[str, list[dict]] = defaultdict(list)
 
     for item in _pending_items(items):
-        domain = item.get("source_domain") or "unknown"
+        domain = item["source_domain"]
         grouped_items[domain].append(item)
 
     for domain, domain_items in grouped_items.items():
-        item_ids = sorted(str(item.get("item_id")) for item in domain_items if item.get("item_id"))
-        protocols = sorted({str(item.get("protocol") or "unknown") for item in domain_items})
+        item_ids = sorted(item["item_id"] for item in domain_items)
+        protocols = sorted({item["protocol"] for item in domain_items})
         buckets[domain] = {
             "domain": domain,
             "count": len(item_ids),
@@ -70,7 +104,7 @@ def _longtail_group(buckets: list[dict]) -> dict:
     }
 
 
-def build_dispatch_groups(items: list[dict], max_groups: int = 6) -> list[dict]:
+def build_dispatch_groups(items: list[dict] | None, max_groups: int = 6) -> list[dict]:
     if max_groups < 1:
         raise ValueError("max_groups must be at least 1")
 
@@ -94,9 +128,8 @@ def build_dispatch_groups(items: list[dict], max_groups: int = 6) -> list[dict]:
     standalone_count = len(standalone_candidates)
     longtail_count = 1 if longtail_candidates else 0
     while standalone_count + longtail_count > max_groups and standalone_candidates:
-        smallest_bucket = min(standalone_candidates, key=lambda bucket: (bucket["count"], bucket["domain"]))
-        standalone_candidates.remove(smallest_bucket)
-        longtail_candidates.append(smallest_bucket)
+        lowest_priority_bucket = standalone_candidates.pop()
+        longtail_candidates.append(lowest_priority_bucket)
         longtail_count = 1
         standalone_count = len(standalone_candidates)
 
@@ -122,7 +155,8 @@ def _load_json(path: Path):
 def main() -> int:
     args = parse_args()
     manifest = _load_json(args.manifest)
-    items = manifest.get("items", [])
+    raw_items = manifest.get("items", [])
+    items = raw_items if isinstance(raw_items, list) else []
     groups = build_dispatch_groups(items, max_groups=args.max_groups)
     print(json.dumps(groups, ensure_ascii=False, indent=2))
     return 0

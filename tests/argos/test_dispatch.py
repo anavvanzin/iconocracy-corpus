@@ -12,6 +12,23 @@ class DispatchTests(unittest.TestCase):
         self.repo_root = Path(__file__).resolve().parents[2]
         self.script_path = self.repo_root / "tools" / "scripts" / "argos_prepare_dispatch.py"
 
+    def test_build_dispatch_groups_returns_empty_for_empty_input(self):
+        self.assertEqual(build_dispatch_groups([]), [])
+        self.assertEqual(build_dispatch_groups(None), [])
+
+    def test_build_dispatch_groups_returns_empty_when_nothing_is_pending(self):
+        items = [
+            {"item_id": "DONE-001", "source_domain": "loc.gov", "protocol": "iiif", "status": "success"},
+            {"item_id": "FAIL-001", "source_domain": "gallica.bnf.fr", "protocol": "iiif", "status": "failed"},
+            "malformed-entry",
+        ]
+
+        self.assertEqual(build_dispatch_groups(items), [])
+
+    def test_build_dispatch_groups_rejects_invalid_max_groups(self):
+        with self.assertRaisesRegex(ValueError, "max_groups must be at least 1"):
+            build_dispatch_groups([], max_groups=0)
+
     def test_build_dispatch_groups_caps_at_six_and_bundles_longtail(self):
         items = [
             {"item_id": "FR-001", "source_domain": "gallica.bnf.fr", "protocol": "iiif", "status": "pending"},
@@ -44,6 +61,38 @@ class DispatchTests(unittest.TestCase):
         self.assertIn("blocked", groups[-1]["prompt_hint"])
         self.assertIn("unknown", groups[-1]["prompt_hint"])
         self.assertNotIn("DONE-001", [item_id for group in groups for item_id in group["item_ids"]])
+
+    def test_build_dispatch_groups_merges_longtail_when_cap_is_exceeded_without_special_protocols(self):
+        items = [
+            {"item_id": "ALPHA-001", "source_domain": "alpha.example", "protocol": "direct", "status": "pending"},
+            {"item_id": "BETA-001", "source_domain": "beta.example", "protocol": "direct", "status": "pending"},
+            {"item_id": "GAMMA-001", "source_domain": "gamma.example", "protocol": "direct", "status": "pending"},
+            {"item_id": "DELTA-001", "source_domain": "delta.example", "protocol": "direct", "status": "pending"},
+        ]
+
+        groups = build_dispatch_groups(items, max_groups=3)
+
+        self.assertEqual([group["group_name"] for group in groups], ["alpha.example", "beta.example", "longtail"])
+        self.assertEqual(groups[-1]["protocol"], "direct")
+        self.assertEqual(groups[-1]["item_ids"], ["DELTA-001", "GAMMA-001"])
+        self.assertIn("delta.example, gamma.example", groups[-1]["prompt_hint"])
+        self.assertIn("direct", groups[-1]["prompt_hint"])
+
+    def test_build_dispatch_groups_normalizes_missing_domain_protocol_and_item_id(self):
+        items = [
+            {"item_id": "KNOWN-001", "source_domain": "example.org", "protocol": "iiif", "status": "pending"},
+            {"item_id": None, "source_domain": "", "protocol": None, "status": "pending"},
+            {"source_domain": None, "status": "pending"},
+            "malformed-entry",
+        ]
+
+        groups = build_dispatch_groups(items, max_groups=6)
+
+        self.assertEqual([group["group_name"] for group in groups], ["unknown", "example.org"])
+        self.assertEqual(groups[0]["protocol"], "unknown")
+        self.assertEqual(groups[0]["item_ids"], ["unknown", "unknown"])
+        self.assertEqual(groups[1]["protocol"], "iiif")
+        self.assertEqual(groups[1]["item_ids"], ["KNOWN-001"])
 
     def test_build_dispatch_groups_is_deterministic_for_tied_domain_counts(self):
         items = [
