@@ -37,6 +37,21 @@ class HtmlExtractionTests(unittest.TestCase):
         self.assertEqual(result["candidates"][0]["url"], "https://images.example.org/media/hero.jpg")
         self.assertEqual(result["candidates"][0]["source_hint"], "img:src")
 
+    def test_normalizes_relative_anchor_download_path(self):
+        html = """
+        <html>
+          <body>
+            <a href="../downloads/object-7-full.jpg">Download high resolution image</a>
+          </body>
+        </html>
+        """
+
+        result = extract_landing_page_candidates(html, "https://images.example.org/collection/item-7/index.html")
+
+        self.assertEqual(result["candidates"][0]["url"], "https://images.example.org/collection/downloads/object-7-full.jpg")
+        self.assertEqual(result["candidates"][0]["kind"], "download")
+        self.assertEqual(result["candidates"][0]["source_hint"], "a:download")
+
     def test_detects_iiif_manifest_url_inside_json(self):
         html = """
         <html>
@@ -55,6 +70,45 @@ class HtmlExtractionTests(unittest.TestCase):
 
         self.assertEqual(result["iiif_manifest_candidates"], ["https://iiif.example.org/iiif/3/book-1/manifest"])
         self.assertEqual(result["candidates"], [])
+
+    def test_distinguishes_iiif_info_json_from_iiif_image(self):
+        html = """
+        <html>
+          <body>
+            <script type="application/ld+json">
+              {
+                "service": "https://iiif.example.org/iiif/3/book-1/info.json",
+                "rendered": "https://iiif.example.org/iiif/3/book-1/full/3000,/0/default.jpg"
+              }
+            </script>
+          </body>
+        </html>
+        """
+
+        result = extract_landing_page_candidates(html, "https://example.org/object/book-1")
+
+        self.assertEqual(result["api_candidates"], ["https://iiif.example.org/iiif/3/book-1/info.json"])
+        self.assertEqual(result["iiif_manifest_candidates"], [])
+        self.assertEqual(len(result["candidates"]), 1)
+        self.assertEqual(result["candidates"][0]["url"], "https://iiif.example.org/iiif/3/book-1/full/3000,/0/default.jpg")
+        self.assertEqual(result["candidates"][0]["kind"], "iiif_image")
+        self.assertEqual(result["candidates"][0]["source_hint"], "json:url")
+
+    def test_uses_visible_anchor_text_for_download_detection(self):
+        html = """
+        <html>
+          <body>
+            <a href="https://media.example.org/files/object-9-master.jpg"><span>Download JPG 4000x3000</span></a>
+          </body>
+        </html>
+        """
+
+        result = extract_landing_page_candidates(html, "https://example.org/object/9")
+
+        self.assertEqual(len(result["candidates"]), 1)
+        self.assertEqual(result["candidates"][0]["url"], "https://media.example.org/files/object-9-master.jpg")
+        self.assertEqual(result["candidates"][0]["kind"], "download")
+        self.assertEqual(result["candidates"][0]["source_hint"], "a:download")
 
     def test_prefers_explicit_high_resolution_download(self):
         html = """

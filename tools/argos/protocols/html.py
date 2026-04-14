@@ -36,6 +36,7 @@ class _LandingPageParser(HTMLParser):
         self._seen_api_urls: set[str] = set()
         self._capture_script = False
         self._script_parts: list[str] = []
+        self._anchor_stack: list[dict[str, Any]] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         attrs_dict = {key.lower(): value for key, value in attrs if value is not None}
@@ -79,14 +80,15 @@ class _LandingPageParser(HTMLParser):
             href = attrs_dict.get("href")
             if not href:
                 return
-            anchor_text = " ".join(
-                part for part in (attrs_dict.get("download"), attrs_dict.get("title"), attrs_dict.get("aria-label")) if part
+            self._anchor_stack.append(
+                {
+                    "href": href,
+                    "attr_text": " ".join(
+                        part for part in (attrs_dict.get("download"), attrs_dict.get("title"), attrs_dict.get("aria-label")) if part
+                    ),
+                    "text_parts": [],
+                }
             )
-            lowered = f"{href} {anchor_text}".lower()
-            if any(word in lowered for word in DOWNLOAD_WORDS):
-                self._add_candidate(href, "download", "a:download", context=anchor_text)
-            elif IMAGE_EXT_PATTERN.search(href) and any(word in lowered for word in IMAGE_WORDS):
-                self._add_candidate(href, "image", "a:image")
             return
 
         if tag == "script":
@@ -102,6 +104,16 @@ class _LandingPageParser(HTMLParser):
             self.page_title = " ".join(part.strip() for part in self._title_parts if part.strip())
             self._title_parts = []
             return
+        if tag == "a" and self._anchor_stack:
+            anchor = self._anchor_stack.pop()
+            anchor_text = " ".join(part.strip() for part in anchor["text_parts"] if part.strip())
+            context = " ".join(part for part in (anchor_text, anchor["attr_text"]) if part)
+            lowered = f"{anchor['href']} {context}".lower()
+            if any(word in lowered for word in DOWNLOAD_WORDS):
+                self._add_candidate(anchor["href"], "download", "a:download", context=context)
+            elif IMAGE_EXT_PATTERN.search(anchor["href"]) and any(word in lowered for word in IMAGE_WORDS):
+                self._add_candidate(anchor["href"], "image", "a:image", context=context)
+            return
         if tag == "script" and self._capture_script:
             self._capture_script = False
             script_text = "".join(self._script_parts)
@@ -113,6 +125,8 @@ class _LandingPageParser(HTMLParser):
             self._title_parts.append(data)
         if self._capture_script:
             self._script_parts.append(data)
+        if self._anchor_stack:
+            self._anchor_stack[-1]["text_parts"].append(data)
 
     def close(self) -> None:
         super().close()
