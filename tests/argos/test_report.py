@@ -1,5 +1,7 @@
+import copy
 import json
 import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -117,13 +119,85 @@ class ReportTests(unittest.TestCase):
         self.assertIn("UK-001", text)
         self.assertIn("britishmuseum.org", text)
         self.assertIn("403_block", text)
+        self.assertIn("Open the source URL in a logged-in browser", text)
 
-    def test_report_suggests_actions_from_failures(self):
-        text = build_report_markdown(self.make_manifest())
+    def test_report_warns_when_manifest_summary_disagrees_with_items(self):
+        manifest = self.make_manifest()
+        manifest["summary"] = {
+            "total_items": 99,
+            "pending": 3,
+            "success": 9,
+            "partial": 0,
+            "failed": 0,
+            "manual": 0,
+        }
 
-        self.assertIn("Prioritize manual retrieval for blocked domains", text)
-        self.assertIn("Re-check direct URLs returning permanent client errors", text)
-        self.assertIn("Retry IIIF discovery or image extraction", text)
+        text = build_report_markdown(manifest)
+
+        self.assertIn("## 2a. Manifest summary warnings", text)
+        self.assertIn("Warning: manifest summary does not match counts derived from items.", text)
+        self.assertIn("| total_items | 99 | 4 |", text)
+        self.assertIn("- success: 1", text)
+        self.assertIn("- manual: 1", text)
+
+    def test_report_suggests_actions_for_manual_playwright_and_transport_failures(self):
+        manifest = copy.deepcopy(self.make_manifest())
+        manifest["items"][1]["failure_class"] = "manual_required"
+        manifest["items"].append(
+            {
+                "item_id": "US-001",
+                "title": "Columbia figure",
+                "source_url": "https://archive.example/item/us-001",
+                "source_domain": "archive.example",
+                "protocol": "browser",
+                "status": "failed",
+                "failure_class": "playwright_error",
+                "failure_reason": "Playwright timed out during screenshot capture",
+                "attempts": 1,
+                "local_path": "",
+                "sha256": "",
+                "provenance": {
+                    "agent": "argos",
+                    "method": "browser",
+                    "metadata": {},
+                },
+            }
+        )
+        manifest["items"].append(
+            {
+                "item_id": "PT-001",
+                "title": "Justiça lusitana",
+                "source_url": "https://museum.example/pt-001.jpg",
+                "source_domain": "museum.example",
+                "protocol": "direct",
+                "status": "failed",
+                "failure_class": "unexpected_content_type",
+                "failure_reason": "Server returned text/html instead of image/jpeg",
+                "attempts": 1,
+                "local_path": "",
+                "sha256": "",
+                "provenance": {
+                    "agent": "argos",
+                    "method": "direct",
+                    "metadata": {},
+                },
+            }
+        )
+
+        text = build_report_markdown(manifest)
+
+        self.assertIn(
+            "Prioritize manual browser retrieval for blocked or policy-gated sources and log the operator workflow.",
+            text,
+        )
+        self.assertIn(
+            "Repair or rerun the Playwright fallback environment before retrying browser-dependent captures.",
+            text,
+        )
+        self.assertIn(
+            "Inspect content-type mismatches for HTML landing pages, redirects, or API responses before downloading again.",
+            text,
+        )
 
     def test_cli_writes_markdown_report(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -133,7 +207,7 @@ class ReportTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    "python",
+                    sys.executable,
                     str(self.script_path),
                     "--manifest",
                     str(manifest_path),
