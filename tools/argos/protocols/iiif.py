@@ -6,8 +6,8 @@ from pathlib import Path
 from tools.argos.protocols.direct import fetch_direct
 
 
-ARK_PATTERN = re.compile(r"(ark:/\d+/[A-Za-z0-9]+)")
-EUROPEANA_ARK_PATTERN = re.compile(r"ark__(\d+)_([A-Za-z0-9]+)")
+ARK_PATTERN = re.compile(r"(ark:/\d+/[^\s?#]+)", re.IGNORECASE)
+EUROPEANA_ARK_PATTERN = re.compile(r"ark__(\d+)_([^/?#]+)", re.IGNORECASE)
 EUROPEANA_ITEM_PATTERN = re.compile(r"/item/(\d+)/(.+?)(?:\?|$)")
 LOC_RESOURCE_PATTERN = re.compile(r"/resource/([a-z]+)\.(\w+)/?")
 LOC_ITEM_PATTERN = re.compile(r"/item/(\d+)/?")
@@ -36,7 +36,7 @@ def _ark_from_text(value: str | None) -> str | None:
         return None
     match = ARK_PATTERN.search(value)
     if match:
-        return match.group(1)
+        return match.group(1).rstrip("/.,;)]")
     return None
 
 
@@ -81,7 +81,11 @@ def _discover_loc(item: dict) -> dict | None:
 
 
 def discover_iiif(item: dict) -> dict | None:
-    """Discover an IIIF manifest/image pair from known archive URL patterns."""
+    """Discover likely IIIF endpoints from known URL patterns.
+
+    This is intentionally pattern-based discovery for common archives, not a full
+    IIIF manifest parser or crawler.
+    """
 
     url = item.get("url", "") or ""
     thumb = item.get("thumbnail_url", "") or ""
@@ -127,7 +131,7 @@ def discover_iiif(item: dict) -> dict | None:
 
 
 def fetch_iiif_image(item: dict, dest_path: Path) -> dict:
-    """Fetch an image using the best discovered IIIF image URL."""
+    """Fetch via a discovered IIIF image URL when one is inferable from patterns."""
 
     discovered = discover_iiif(item)
     if not discovered:
