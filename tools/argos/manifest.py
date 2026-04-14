@@ -1,11 +1,17 @@
 from __future__ import annotations
 
+import json
+import os
+import tempfile
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
 
+import fcntl
+
 from tools.argos.classifier import classify_source
+from tools.scripts.validate_schemas import validate_record
 
 
 MANIFEST_VERSION = "1.0"
@@ -48,6 +54,113 @@ def _build_manifest_item(item: dict) -> dict:
             },
         },
     }
+
+
+def _summary_from_items(items: list[dict]) -> dict[str, int]:
+    counts = Counter(item.get("status", "") for item in items)
+    return {
+        "total_items": len(items),
+        "pending": counts.get("pending", 0),
+        "success": counts.get("success", 0),
+        "partial": counts.get("partial", 0),
+        "failed": counts.get("failed", 0),
+        "manual": counts.get("manual", 0),
+    }
+
+
+def _default_lock_path(path: Path) -> Path:
+    return path.with_name("manifest.lock")
+
+
+def _load_manifest(path: Path) -> dict:
+    try:
+        raw = path.read_text(encoding="utf-8")
+    except FileNotFoundError as exc:
+        raise ValueError(f"Manifest file not found: {path}") from exc
+
+    if not raw.strip():
+        raise ValueError(f"Manifest file is empty: {path}")
+
+    try:
+        manifest = json.loads(raw)
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"Manifest file contains invalid JSON: {path}") from exc
+
+    if not isinstance(manifest, dict):
+        raise ValueError("Manifest root must be a JSON object")
+
+    return manifest
+
+
+def _validate_manifest(manifest: dict) -> None:
+    is_valid, errors = validate_record(manifest, "argos-manifest")
+    if not is_valid:
+        raise ValueError("Manifest failed schema validation after update: " + "; ".join(errors))
+
+
+def _write_json(path: Path, payload: dict) -> None:
+    serialized = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as handle:
+        handle.write(serialized)
+        handle.flush()
+        os.fsync(handle.fileno())
+
+
+def _write_atomic_json(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    serialized = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+
+    fd, tmp_name = tempfile.mkstemp(prefix=f"{path.stem}-", suffix=".tmp", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as handle:
+            handle.write(serialized)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(tmp_name, path)
+    except Exception:
+        if os.path.exists(tmp_name):
+            os.unlink(tmp_name)
+        raise
+
+
+def locked_update_manifest(path: str | Path, item_id: str, patch: dict, lock_path: str | Path | None = None) -> dict:
+    manifest_path = Path(path)
+    resolved_lock_path = Path(lock_path) if lock_path is not None else _default_lock_path(manifest_path)
+
+    if not isinstance(patch, dict) or not patch:
+        raise ValueError("Patch must be a non-empty JSON object")
+
+    resolved_lock_path.parent.mkdir(parents=True, exist_ok=True)
+    with resolved_lock_path.open("a+", encoding="utf-8") as lock_handle:
+        fcntl.flock(lock_handle.fileno(), fcntl.LOCK_EX)
+        manifest = _load_manifest(manifest_path)
+        items = manifest.get("items")
+        if not isinstance(items, list):
+            raise ValueError("Manifest items must be a list")
+
+        updated_items = []
+        matched = False
+        for item in items:
+            if not isinstance(item, dict):
+                raise ValueError("Manifest items must be JSON objects")
+            if item.get("item_id") == item_id:
+                updated_items.append({**item, **patch})
+                matched = True
+            else:
+                updated_items.append(item)
+
+        if not matched:
+            raise KeyError(f"Manifest item not found: {item_id}")
+
+        updated_manifest = dict(manifest)
+        updated_manifest["items"] = updated_items
+        updated_manifest["summary"] = _summary_from_items(updated_items)
+        _validate_manifest(updated_manifest)
+
+        _write_json(manifest_path.with_suffix(".json.bak"), manifest)
+        _write_atomic_json(manifest_path, updated_manifest)
+        return updated_manifest
 
 
 def build_manifest(
