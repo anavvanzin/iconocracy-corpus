@@ -164,6 +164,86 @@ class AcquireItemTests(unittest.TestCase):
             iiif_mock.assert_not_called()
             playwright_mock.assert_not_called()
 
+    def test_manifest_update_failure_cleans_up_written_asset_and_sidecar(self):
+        payload = b"cleanup-on-manifest-failure" * 16
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            tmp_path = Path(tmp_dir)
+            manifest_path = tmp_path / "manifest.json"
+            manifest_path.write_text(json.dumps(self.make_manifest()), encoding="utf-8")
+            storage_root = tmp_path / "storage"
+            storage_root.mkdir()
+
+            def fake_fetch_direct(url, dest_path):
+                Path(dest_path).parent.mkdir(parents=True, exist_ok=True)
+                Path(dest_path).write_bytes(payload)
+                return {
+                    "success": True,
+                    "protocol": "direct",
+                    "dest_path": str(dest_path),
+                    "bytes_written": len(payload),
+                    "status_code": 200,
+                    "source_url": url,
+                    "source_domain": "example.com",
+                    "notes": [],
+                }
+
+            with mock.patch.object(self.worker, "resolve_storage_root", return_value=(storage_root, "repo-staging")), mock.patch.object(
+                self.worker, "fetch_direct", side_effect=fake_fetch_direct
+            ), mock.patch.object(self.worker, "locked_update_manifest", side_effect=ValueError("manifest write failed")), mock.patch.object(
+                self.worker, "log_run"
+            ) as log_mock:
+                with self.assertRaisesRegex(ValueError, "manifest write failed"):
+                    self.worker.acquire_item(manifest_path=manifest_path, item_id="FR-013")
+
+            item_dir = storage_root / "repo-staging"
+            self.assertFalse((item_dir / "FR-013.jpg").exists())
+            self.assertFalse((item_dir / "FR-013.meta.json").exists())
+            log_mock.assert_not_called()
+
+    def test_manual_required_failure_updates_manifest_to_manual(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            tmp_path = Path(tmp_dir)
+            manifest_path = tmp_path / "manifest.json"
+            manifest_path.write_text(json.dumps(self.make_manifest()), encoding="utf-8")
+            storage_root = tmp_path / "storage"
+            storage_root.mkdir()
+
+            logged_runs = []
+
+            def fake_log_run(**kwargs):
+                logged_runs.append(kwargs)
+                return kwargs
+
+            with mock.patch.object(self.worker, "resolve_storage_root", return_value=(storage_root, "repo-staging")), mock.patch.object(
+                self.worker,
+                "fetch_direct",
+                return_value={
+                    "success": False,
+                    "protocol": "direct",
+                    "dest_path": str(storage_root / "repo-staging" / "FR-013.jpg"),
+                    "bytes_written": 0,
+                    "status_code": 403,
+                    "failure_class": "manual_required",
+                    "error": "Manual review required",
+                    "manual_required": True,
+                    "notes": ["cookie wall"],
+                },
+            ), mock.patch.object(self.worker, "log_run", side_effect=fake_log_run):
+                result = self.worker.acquire_item(manifest_path=manifest_path, item_id="FR-013")
+
+            self.assertEqual(result["status"], "manual")
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            item = manifest["items"][0]
+            self.assertEqual(item["status"], "manual")
+            self.assertEqual(item["failure_class"], "manual_required")
+            self.assertEqual(item["failure_reason"], "Manual review required")
+            self.assertEqual(item["attempts"], 1)
+            self.assertEqual(item["provenance"]["metadata"]["notes"], ["cookie wall"])
+            self.assertEqual(manifest["summary"]["manual"], 1)
+            self.assertEqual(manifest["summary"]["pending"], 0)
+            self.assertEqual(logged_runs[0]["status"], "warning")
+
     def test_blocked_direct_attempt_falls_through_iiif_discovery_to_playwright_when_allowed(self):
         with tempfile.TemporaryDirectory() as tmp_dir:
             tmp_path = Path(tmp_dir)
@@ -202,8 +282,6 @@ class AcquireItemTests(unittest.TestCase):
                     "notes": [],
                 },
             ) as direct_mock, mock.patch.object(self.worker, "discover_iiif", return_value=None) as discover_mock, mock.patch.object(
-                self.worker, "fetch_iiif_image"
-            ) as iiif_mock, mock.patch.object(
                 self.worker, "fetch_with_playwright", side_effect=fake_playwright
             ) as playwright_mock, mock.patch.object(self.worker, "log_run"):
                 result = self.worker.acquire_item(
@@ -236,7 +314,6 @@ class AcquireItemTests(unittest.TestCase):
                     "url": "https://example.com/image.jpg",
                 }
             )
-            iiif_mock.assert_not_called()
             playwright_mock.assert_called_once()
             self.assertEqual(result["attempts"][1]["failure_class"], "iiif_unavailable")
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -267,20 +344,37 @@ class AcquireItemTests(unittest.TestCase):
                     "notes": [],
                 }
 
-            with mock.patch.object(self.worker, "resolve_storage_root", return_value=(storage_root, "repo-staging")), mock.patch.object(
-                self.worker,
-                "fetch_direct",
-                return_value={
+            fetch_calls = []
+
+            def fake_fetch_direct(url, dest_path):
+                fetch_calls.append(url)
+                if len(fetch_calls) == 1:
+                    return {
+                        "success": False,
+                        "protocol": "direct",
+                        "dest_path": str(storage_root / "repo-staging" / "FR-013.jpg"),
+                        "bytes_written": 0,
+                        "status_code": 429,
+                        "failure_class": "429_rate_limited",
+                        "error": "HTTP 429: Too Many Requests",
+                        "notes": [],
+                    }
+                return {
                     "success": False,
                     "protocol": "direct",
                     "dest_path": str(storage_root / "repo-staging" / "FR-013.jpg"),
                     "bytes_written": 0,
-                    "status_code": 429,
-                    "failure_class": "429_rate_limited",
-                    "error": "HTTP 429: Too Many Requests",
+                    "status_code": 403,
+                    "failure_class": "403_block",
+                    "error": "HTTP 403: Forbidden",
                     "notes": [],
-                },
-            ), mock.patch.object(
+                }
+
+            with mock.patch.object(self.worker, "resolve_storage_root", return_value=(storage_root, "repo-staging")), mock.patch.object(
+                self.worker,
+                "fetch_direct",
+                side_effect=fake_fetch_direct,
+            ) as direct_mock, mock.patch.object(
                 self.worker,
                 "discover_iiif",
                 return_value={
@@ -289,19 +383,6 @@ class AcquireItemTests(unittest.TestCase):
                     "image_url": "https://gallica.bnf.fr/iiif/ark:/12148/foo/f1/full/full/0/native.jpg",
                 },
             ) as discover_mock, mock.patch.object(
-                self.worker,
-                "fetch_iiif_image",
-                return_value={
-                    "success": False,
-                    "protocol": "iiif",
-                    "dest_path": str(storage_root / "repo-staging" / "FR-013.jpg"),
-                    "bytes_written": 0,
-                    "status_code": 403,
-                    "failure_class": "403_block",
-                    "error": "HTTP 403: Forbidden",
-                    "notes": [],
-                },
-            ) as iiif_mock, mock.patch.object(
                 self.worker, "fetch_with_playwright", side_effect=fake_playwright
             ) as playwright_mock, mock.patch.object(self.worker, "log_run"):
                 result = self.worker.acquire_item(
@@ -313,10 +394,11 @@ class AcquireItemTests(unittest.TestCase):
             self.assertEqual(result["status"], "success")
             self.assertEqual([attempt["step"] for attempt in result["attempts"]], ["direct", "iiif", "playwright"])
             discover_mock.assert_called_once()
-            iiif_mock.assert_called_once()
-            iiif_item = iiif_mock.call_args.args[0]
-            self.assertEqual(iiif_item["url"], "https://example.com/image.jpg")
-            self.assertEqual(iiif_item["source_url"], "https://example.com/image.jpg")
+            self.assertEqual(direct_mock.call_count, 2)
+            self.assertEqual(fetch_calls[1], "https://gallica.bnf.fr/iiif/ark:/12148/foo/f1/full/full/0/native.jpg")
+            self.assertEqual(result["attempts"][1]["protocol"], "iiif")
+            self.assertEqual(result["attempts"][1]["manifest_url"], "https://gallica.bnf.fr/iiif/ark:/12148/foo/manifest.json")
+            self.assertEqual(result["attempts"][1]["iiif_source"], "gallica")
             playwright_mock.assert_called_once()
 
     def test_log_agent_run_accepts_argos_choice(self):
@@ -344,6 +426,20 @@ class AcquireItemTests(unittest.TestCase):
             logged = json.loads(runs_path.read_text(encoding="utf-8"))
             self.assertEqual(logged[0]["agent"], "argos")
             self.assertIn("Logged: argos [success]", stdout.getvalue())
+
+    def test_log_agent_run_atomic_write_persists_entries_with_patched_runs_file(self):
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            runs_path = Path(tmp_dir) / "agent-runs.json"
+
+            with mock.patch.object(self.log_agent_run, "RUNS_FILE", str(runs_path)):
+                first = self.log_agent_run.log_run(agent="argos", status="success", items=1, duration=2, details="first")
+                second = self.log_agent_run.log_run(agent="argos", status="warning", items=0, duration=3, details="second")
+
+            logged = json.loads(runs_path.read_text(encoding="utf-8"))
+            self.assertEqual(logged[0]["details"], second["details"])
+            self.assertEqual(logged[1]["details"], first["details"])
+            self.assertEqual(len(logged), 2)
+            self.assertEqual(sorted(path.name for path in Path(tmp_dir).iterdir()), ["agent-runs.json", "agent-runs.lock"])
 
 
 if __name__ == "__main__":

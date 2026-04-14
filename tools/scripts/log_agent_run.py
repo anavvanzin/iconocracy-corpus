@@ -6,8 +6,10 @@ Usage:
     python tools/scripts/log_agent_run.py --agent scout --status error --items 0 --duration 45 --details "Gallica API timeout"
 """
 import argparse
+import fcntl
 import json
 import os
+import tempfile
 from datetime import datetime, timezone
 
 RUNS_FILE = os.path.join(os.path.dirname(__file__), '..', '..', 'corpus', 'agent-runs.json')
@@ -22,10 +24,28 @@ def load_runs():
     return []
 
 
+def _lock_path() -> str:
+    return os.path.join(os.path.dirname(RUNS_FILE), 'agent-runs.lock')
+
+
+def _write_atomic(path, payload):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    serialized = json.dumps(payload, ensure_ascii=False, indent=2) + '\n'
+    fd, tmp_path = tempfile.mkstemp(prefix='agent-runs-', suffix='.tmp', dir=os.path.dirname(path))
+    try:
+        with os.fdopen(fd, 'w', encoding='utf-8') as f:
+            f.write(serialized)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp_path, path)
+    except Exception:
+        if os.path.exists(tmp_path):
+            os.unlink(tmp_path)
+        raise
+
+
 def save_runs(runs):
-    os.makedirs(os.path.dirname(RUNS_FILE), exist_ok=True)
-    with open(RUNS_FILE, 'w', encoding='utf-8') as f:
-        json.dump(runs, f, ensure_ascii=False, indent=2)
+    _write_atomic(RUNS_FILE, runs)
 
 
 def build_entry(*, agent, status, items=0, duration=0, details=''):
@@ -40,11 +60,14 @@ def build_entry(*, agent, status, items=0, duration=0, details=''):
 
 
 def log_run(*, agent, status, items=0, duration=0, details=''):
-    runs = load_runs()
-    entry = build_entry(agent=agent, status=status, items=items, duration=duration, details=details)
-    runs.insert(0, entry)
-    runs = runs[:500]
-    save_runs(runs)
+    os.makedirs(os.path.dirname(_lock_path()), exist_ok=True)
+    with open(_lock_path(), 'a+', encoding='utf-8') as lock_handle:
+        fcntl.flock(lock_handle.fileno(), fcntl.LOCK_EX)
+        runs = load_runs()
+        entry = build_entry(agent=agent, status=status, items=items, duration=duration, details=details)
+        runs.insert(0, entry)
+        runs = runs[:500]
+        save_runs(runs)
     return entry
 
 
