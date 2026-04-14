@@ -79,6 +79,8 @@ def infer_next_step(protocol: str, last_attempt: dict[str, Any] | None) -> str:
 
     failure_class = str(last_attempt.get("failure_class") or "")
     status_code = last_attempt.get("status_code")
+    if last_attempt.get("manual_required") or failure_class == "manual_required":
+        return "stop"
     blocked = failure_class in BLOCK_STEP_FAILURES or status_code in BLOCK_STEP_STATUS_CODES or "block" in failure_class
 
     if blocked and protocol in {"direct", "unknown", "blocked"}:
@@ -127,6 +129,16 @@ def _compute_sha256(path: Path) -> str:
 def _write_json(path: Path, payload: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def _cleanup_artifacts(*paths: Path | None) -> None:
+    for path in paths:
+        if path is None:
+            continue
+        try:
+            Path(path).unlink(missing_ok=True)
+        except OSError:
+            pass
 
 
 def _build_sidecar_payload(
@@ -241,7 +253,29 @@ def _attempt_iiif_fallback(item: dict[str, Any], dest_path: Path) -> dict[str, A
             "error": "No supported IIIF pattern discovered",
             "notes": [],
         }
-    return fetch_iiif_image(discovery_item, dest_path)
+
+    image_url = discovered.get("image_url")
+    if not image_url:
+        return {
+            "success": False,
+            "protocol": "iiif",
+            "dest_path": str(dest_path),
+            "bytes_written": 0,
+            "status_code": None,
+            "failure_class": "iiif_image_unavailable",
+            "error": "Discovered IIIF manifest but no fetchable image URL",
+            "manifest_url": discovered.get("manifest_url"),
+            "iiif_source": discovered.get("iiif_source"),
+            "notes": [],
+        }
+
+    result = fetch_direct(image_url, dest_path)
+    result["protocol"] = "iiif"
+    result["manifest_url"] = discovered.get("manifest_url")
+    result["iiif_source"] = discovered.get("iiif_source")
+    result["source_url"] = image_url
+    result.setdefault("notes", [])
+    return result
 
 
 def acquire_item(
@@ -315,7 +349,11 @@ def acquire_item(
             sha256=sha256,
             acquisition_result=result,
         )
-        locked_update_manifest(manifest_path, item_id, patch)
+        try:
+            locked_update_manifest(manifest_path, item_id, patch)
+        except Exception:
+            _cleanup_artifacts(sidecar_path, asset_path)
+            raise
         duration = max(0, int(time.time() - started_at))
         log_run(agent="argos", status="success", items=1, duration=duration, details=f"Acquired {item_id}")
         return {
