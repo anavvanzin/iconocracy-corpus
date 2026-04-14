@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-04-14T15:59:58Z",
+    "agent": "sync",
+    "status": "success",
+    "items_affected": 1,
+    "duration_s": 1,
+    "details": "Batch B: deduped DE-NOTGELD-1921 into DE-NOTG-1921 (merged country_pt,medium_norm,rights,tags,tags_str). Corpus 165→164."
+  },
+  {
+    "timestamp": "2026-04-14T15:58:20Z",
+    "agent": "argos",
+    "status": "success",
+    "items_affected": 19,
+    "duration_s": 1,
+    "details": "Batch C: backfill manifest written to data/raw/argos/backfill-manifest.json for IconoCode batch run."
+  },
+  {
+    "timestamp": "2026-04-14T15:58:19Z",
+    "agent": "lacunas",
+    "status": "success",
+    "items_affected": 9,
+    "duration_s": 1,
+    "details": "Batch A: 9 empty-URL corpus items inspected. 8 fully coded (missing only URL field), 1 hollow duplicate (DE-NOTGELD-1921)."
+  },
+  {
     "timestamp": "2026-04-14T03:41:03Z",
     "agent": "argos",
     "status": "error",

@@ -2886,25 +2886,10 @@
         "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Germany no período Weimar Republic (1919-1933).",
         "analyst_notes": null
       }
-    }
-  },
-  {
-    "id": "DE-NOTGELD-1921",
-    "title": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note 1921",
-    "date": "",
-    "period": "",
-    "creator": null,
-    "institution": "British Museum / University of Chicago Special Collections",
-    "source_archive": "British Museum",
-    "country": "Germany",
-    "medium": "Papel-moeda",
-    "motif": [],
-    "description": "",
-    "url": null,
-    "thumbnail_url": null,
+    },
+    "country_pt": "Alemanha",
+    "medium_norm": "Papel-moeda",
     "rights": "Public domain",
-    "citation_abnt": null,
-    "citation_chicago": null,
     "tags": [
       "corpus/candidato",
       "pais/DE",
@@ -2913,21 +2898,7 @@
       "#verificar",
       "#verificar-imagem"
     ],
-    "year": null,
-    "medium_norm": "Papel-moeda",
-    "country_pt": "Alemanha",
-    "period_norm": "",
-    "motif_str": "",
-    "tags_str": "corpus/candidato, pais/DE, suporte/papel-moeda, regime/fundacional, #verificar, #verificar-imagem",
-    "regime": "fundacional",
-    "support": "papel-moeda",
-    "in_scope": true,
-    "scope_note": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
+    "tags_str": "corpus/candidato, pais/DE, suporte/papel-moeda, regime/fundacional, #verificar, #verificar-imagem"
   },
   {
     "id": "DE-WR-1919-50M",
