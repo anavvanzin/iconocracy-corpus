@@ -109,6 +109,13 @@ def _destination_path(storage_root: Path, storage_tier: str, item: dict[str, Any
     return storage_root / storage_tier / f"{item['item_id']}{_safe_suffix(item.get('source_url'))}"
 
 
+def _iiif_discovery_item(item: dict[str, Any]) -> dict[str, Any]:
+    discovery_item = dict(item)
+    if not discovery_item.get("url"):
+        discovery_item["url"] = item.get("source_url")
+    return discovery_item
+
+
 def _compute_sha256(path: Path) -> str:
     digest = hashlib.sha256()
     with Path(path).open("rb") as handle:
@@ -203,7 +210,7 @@ def _manifest_patch(
 
 def _attempt_protocol(protocol: str, item: dict[str, Any], dest_path: Path, *, playwright_allowed: bool) -> dict[str, Any]:
     if protocol == "iiif":
-        return fetch_iiif_image(item, dest_path)
+        return fetch_iiif_image(_iiif_discovery_item(item), dest_path)
     if protocol == "playwright-required":
         return fetch_with_playwright(item["source_url"], dest_path, playwright_allowed=playwright_allowed)
     if protocol in {"direct", "unknown", "blocked"}:
@@ -218,6 +225,23 @@ def _attempt_protocol(protocol: str, item: dict[str, Any], dest_path: Path, *, p
         "error": f"Unsupported protocol: {protocol}",
         "notes": [],
     }
+
+
+def _attempt_iiif_fallback(item: dict[str, Any], dest_path: Path) -> dict[str, Any]:
+    discovery_item = _iiif_discovery_item(item)
+    discovered = discover_iiif(discovery_item)
+    if not discovered:
+        return {
+            "success": False,
+            "protocol": "iiif",
+            "dest_path": str(dest_path),
+            "bytes_written": 0,
+            "status_code": None,
+            "failure_class": "iiif_unavailable",
+            "error": "No supported IIIF pattern discovered",
+            "notes": [],
+        }
+    return fetch_iiif_image(discovery_item, dest_path)
 
 
 def acquire_item(
@@ -250,13 +274,11 @@ def acquire_item(
 
     next_step = infer_next_step(current_protocol, result)
     if next_step == "iiif-discovery":
-        discovered = discover_iiif({"url": item.get("source_url"), "thumbnail_url": item.get("thumbnail_url")})
-        if discovered and discovered.get("image_url"):
-            iiif_result = fetch_iiif_image(item, dest_path)
-            attempts.append({"step": "iiif", **iiif_result})
-            result = iiif_result
-            current_protocol = "iiif"
-        next_step = infer_next_step(current_protocol, result)
+        iiif_result = _attempt_iiif_fallback(item, dest_path)
+        attempts.append({"step": "iiif", **iiif_result})
+        result = iiif_result
+        current_protocol = "iiif"
+        next_step = "playwright-fallback" if not result.get("success") else infer_next_step(current_protocol, result)
 
     if next_step == "playwright-fallback" and _should_try_playwright(item, allow_restricted=playwright_allowed):
         playwright_result = fetch_with_playwright(
