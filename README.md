@@ -25,6 +25,7 @@ See [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md) and [docs/huggingface-rel
 
 Canonical workspace root: `/Users/ana/Research`.
 Workspace topology and compatibility paths: [docs/workspace-map.md](docs/workspace-map.md).
+Git-safe migration note: tracked thesis-owned directories such as `vault/` and `iconocracy-ingest/` remain versioned in this repository while sibling `Research/...` paths provide the workspace-facing entrypoints.
 
 ---
 
