@@ -23,7 +23,10 @@ import numpy as np
 try:
     import krippendorff
 except ImportError:
-    print("Error: krippendorff library required. Install with: pip install krippendorff", file=sys.stderr)
+    print(
+        "Error: krippendorff library required. Install with: pip install krippendorff",
+        file=sys.stderr,
+    )
     sys.exit(1)
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -31,15 +34,25 @@ PURIFICATION_JSONL = REPO_ROOT / "data" / "processed" / "purification.jsonl"
 IRR_REPORT_JSON = REPO_ROOT / "data" / "processed" / "irr_report.json"
 
 INDICATORS = [
-    "desincorporacao", "rigidez_postural", "dessexualizacao",
-    "uniformizacao_facial", "heraldizacao", "enquadramento_arquitetonico",
-    "apagamento_narrativo", "monocromatizacao", "serialidade",
+    "desincorporacao",
+    "rigidez_postural",
+    "dessexualizacao",
+    "uniformizacao_facial",
+    "heraldizacao",
+    "enquadramento_arquitetonico",
+    "apagamento_narrativo",
+    "monocromatizacao",
+    "serialidade",
     "inscricao_estatal",
 ]
 
 
 def load_all_codings():
-    """Load all codings grouped by item ID."""
+    """Load raw codings grouped by item ID.
+
+    Adjudicated consensus records stay in the ledger for downstream exports,
+    but they must not count as independent coder passes in IRR calculations.
+    """
     by_item = defaultdict(list)
     if PURIFICATION_JSONL.exists():
         with open(PURIFICATION_JSONL, encoding="utf-8") as f:
@@ -47,6 +60,8 @@ def load_all_codings():
                 line = line.strip()
                 if line:
                     rec = json.loads(line)
+                    if rec.get("adjudication_status") == "adjudicated":
+                        continue
                     by_item[rec["id"]].append(rec)
     return dict(by_item)
 
@@ -92,8 +107,7 @@ def compute_alpha(double_coded, indicator):
 
     try:
         alpha = krippendorff.alpha(
-            reliability_data=matrix[:, valid_cols],
-            level_of_measurement="ordinal"
+            reliability_data=matrix[:, valid_cols], level_of_measurement="ordinal"
         )
         return round(alpha, 4)
     except Exception:
@@ -107,12 +121,14 @@ def find_disagreements(double_coded, threshold=2):
         for indicator in INDICATORS:
             values = [c.get(indicator) for c in codings if c.get(indicator) is not None]
             if len(values) >= 2 and (max(values) - min(values)) >= threshold:
-                disagreements.append({
-                    "item_id": item_id,
-                    "indicator": indicator,
-                    "values": {c["coded_by"]: c.get(indicator) for c in codings},
-                    "spread": max(values) - min(values),
-                })
+                disagreements.append(
+                    {
+                        "item_id": item_id,
+                        "indicator": indicator,
+                        "values": {c["coded_by"]: c.get(indicator) for c in codings},
+                        "spread": max(values) - min(values),
+                    }
+                )
     return sorted(disagreements, key=lambda d: d["spread"], reverse=True)
 
 
@@ -123,7 +139,9 @@ def report(all_codings):
     print(f"\n{'=' * 60}")
     print(f"  Inter-Rater Reliability Report (Krippendorff's Alpha)")
     print(f"{'=' * 60}")
-    print(f"  Total items in ledger:    {sum(len(v) for v in all_codings.values())} codings across {len(all_codings)} items")
+    print(
+        f"  Total items in ledger:    {sum(len(v) for v in all_codings.values())} codings across {len(all_codings)} items"
+    )
     print(f"  Double-coded items:       {len(double_coded)}")
 
     if not double_coded:
@@ -171,7 +189,11 @@ def report(all_codings):
     # Composite agreement
     composite_diffs = []
     for item_id, codings in double_coded.items():
-        composites = [c.get("purificacao_composto") for c in codings if c.get("purificacao_composto") is not None]
+        composites = [
+            c.get("purificacao_composto")
+            for c in codings
+            if c.get("purificacao_composto") is not None
+        ]
         if len(composites) >= 2:
             composite_diffs.append(max(composites) - min(composites))
     if composite_diffs:
@@ -185,7 +207,9 @@ def report(all_codings):
         print(f"\n  ⚠ Disagreements (>= 2 levels apart): {len(disagreements)}")
         for d in disagreements[:10]:
             vals = ", ".join(f"{k}: {v}" for k, v in d["values"].items())
-            print(f"    {d['item_id']:15s} {d['indicator']:<30s} [{vals}] (Δ={d['spread']})")
+            print(
+                f"    {d['item_id']:15s} {d['indicator']:<30s} [{vals}] (Δ={d['spread']})"
+            )
 
     print()
     return results
@@ -216,8 +240,7 @@ def compute_alpha_overall(double_coded):
 
     try:
         alpha = krippendorff.alpha(
-            reliability_data=matrix[:, valid_cols],
-            level_of_measurement="ordinal"
+            reliability_data=matrix[:, valid_cols], level_of_measurement="ordinal"
         )
         return round(alpha, 4)
     except Exception:
@@ -235,7 +258,9 @@ def adjudicate(all_codings):
     items_to_adjudicate = sorted(set(d["item_id"] for d in disagreements))
 
     print(f"\n  Adjudication mode: {len(items_to_adjudicate)} items with disagreements")
-    print(f"  For each indicator, enter the consensus value (0-3) or Enter to keep first coder's value.\n")
+    print(
+        f"  For each indicator, enter the consensus value (0-3) or Enter to keep first coder's value.\n"
+    )
 
     adjudicated = 0
     for item_id in items_to_adjudicate:
@@ -245,7 +270,9 @@ def adjudicate(all_codings):
 
         # Show all codings side by side
         coder_names = [c["coded_by"] for c in codings]
-        header = f"  {'Indicator':<30s}" + "".join(f" {name:>15s}" for name in coder_names)
+        header = f"  {'Indicator':<30s}" + "".join(
+            f" {name:>15s}" for name in coder_names
+        )
         print(header)
         print(f"  {'─' * (30 + 16 * len(coder_names))}")
 
@@ -260,7 +287,9 @@ def adjudicate(all_codings):
             if differs:
                 while True:
                     default = values[0] if values[0] != "?" else values[1]
-                    inp = input(f"    → Consensus for {indicator} [{default}]: ").strip()
+                    inp = input(
+                        f"    → Consensus for {indicator} [{default}]: "
+                    ).strip()
                     if inp == "":
                         consensus_scores[indicator] = default
                         break
@@ -282,7 +311,9 @@ def adjudicate(all_codings):
             regime = regimes[0]
         else:
             print(f"\n  Regimes differ: {regimes}")
-            regime = input(f"    → Consensus regime [{regimes[0]}]: ").strip() or regimes[0]
+            regime = (
+                input(f"    → Consensus regime [{regimes[0]}]: ").strip() or regimes[0]
+            )
 
         record = {
             "id": item_id,
@@ -318,8 +349,8 @@ def export_json(results, all_codings):
         "thresholds": {
             "good": 0.800,
             "tentative": 0.667,
-            "method": "Krippendorff's Alpha (ordinal metric)"
-        }
+            "method": "Krippendorff's Alpha (ordinal metric)",
+        },
     }
 
     with open(IRR_REPORT_JSON, "w", encoding="utf-8") as f:
@@ -331,10 +362,16 @@ def main():
     parser = argparse.ArgumentParser(
         description="Compute inter-rater reliability (Krippendorff's Alpha) for ENDURECIMENTO coding"
     )
-    parser.add_argument("--export-json", action="store_true",
-                        help="Export results as JSON for notebook consumption")
-    parser.add_argument("--adjudicate", action="store_true",
-                        help="Interactive adjudication of disagreements")
+    parser.add_argument(
+        "--export-json",
+        action="store_true",
+        help="Export results as JSON for notebook consumption",
+    )
+    parser.add_argument(
+        "--adjudicate",
+        action="store_true",
+        help="Interactive adjudication of disagreements",
+    )
     args = parser.parse_args()
 
     all_codings = load_all_codings()
