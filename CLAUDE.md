@@ -179,3 +179,22 @@ Every corpus item must exist in three places:
 ## Release Gate
 
 Before public release: `validate_schemas.py` → `code_purification.py --status` → `vault_sync.py status` → `records_to_corpus.py --diff` → `build_hf_release.py`. See `docs/OPERATING_MODEL.md` for full policy.
+
+---
+
+## Skills for this workspace
+
+Curated skills Claude should prefer inside the thesis hub. Global + `find-skill` still apply.
+
+### Primary entry points
+| Skill ID | When to use |
+| --- | --- |
+| `iconocracy-agent` | Default umbrella — orchestrates corpus research, coding, compile, progress |
+| `compilar-tese` | Direct thesis compile (DOCX/PDF) when bypassing the agent |
+| `validate-corpus` | Quick schema check after editing `corpus/corpus-data.json` |
+
+### Branches (when bypassing the agent)
+- `corpus-scout` · `iconocode-analyze` · `iconocode-batch` · `thesis-progress` · `citation-management` · `dir410346`
+
+### Review agents (subagent dispatch)
+- `abnt-checker` · `thesis-reviewer` · `chapter-integrity` · `iconclass-reviewer` · `iconocode` · `corpus-dedup`
