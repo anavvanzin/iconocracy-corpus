@@ -128,7 +128,7 @@ def main() -> None:
         "--schema",
         required=False,
         default=None,
-        choices=["webscout-input", "webscout-output", "iconocode-output", "master-record"],
+        choices=["webscout-input", "webscout-output", "iconocode-output", "master-record", "purification-record"],
         help="Schema to validate against (default: master-record when validating records.jsonl)"
     )
     parser.add_argument(
@@ -146,7 +146,9 @@ def main() -> None:
         args.file = repo_root / "data" / "processed" / "records.jsonl"
     if args.schema is None:
         # Infer schema from filename
-        if args.file.name == "records.jsonl" or args.file.suffix == ".jsonl":
+        if args.file.name == "purification.jsonl":
+            args.schema = "purification-record"
+        elif args.file.name == "records.jsonl" or args.file.suffix == ".jsonl":
             args.schema = "master-record"
         else:
             parser.error("--schema is required when validating non-JSONL files")

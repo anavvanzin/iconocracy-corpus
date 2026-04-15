@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ICONOCRACIA — Agentes</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1" integrity="sha384-jb8JQMbMoBUzgWatfe6COACi2ljcDdZQ2OxczGA3bGNeWe+6DChMTBJemed7ZnvJ" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --cream:#fdf6e3; --beige:#e9dcc9; --sidebar:#d5c4a1; --brown:#8b5a2b;
+  --dark:#5c3a21; --red:#c84b31; --danger:#b85450; --success:#4a7c59;
+  --green:#82b366; --amber:#d79b00; --page:#d4c4a0;
+  --shadow:4px 4px 0px 0px rgba(139,90,43,0.3);
+  --shadow-sm:2px 2px 0px 0px rgba(139,90,43,0.2);
+  --gap:16px; --radius:12px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Inter',sans-serif;background:var(--page);color:var(--dark);font-size:14px;line-height:1.5;display:flex;min-height:100vh;}
+.font-pixel{font-family:'Pixelify Sans',sans-serif;text-transform:uppercase;letter-spacing:0.05em;}
+
+.sidebar{width:240px;min-height:100vh;background:var(--sidebar);border-right:4px solid var(--brown);display:flex;flex-direction:column;position:fixed;top:0;left:0;z-index:100;}
+.sidebar-hdr{padding:20px;border-bottom:4px solid var(--brown);background:var(--beige);}
+.sidebar-hdr h1{font-family:'Pixelify Sans',sans-serif;font-size:22px;color:var(--dark);letter-spacing:.05em;}
+.sidebar-hdr p{font-size:10px;color:var(--brown);margin-top:4px;}
+.sidebar nav{flex:1;padding:16px 12px;display:flex;flex-direction:column;gap:6px;}
+.nav-btn{width:100%;display:flex;align-items:center;gap:10px;padding:10px 14px;border-radius:8px;border:2px solid transparent;background:var(--cream);color:var(--brown);font-family:'Pixelify Sans',sans-serif;font-size:13px;text-transform:uppercase;letter-spacing:.04em;cursor:pointer;transition:all .15s;text-align:left;}
+.nav-btn:hover{border-color:var(--brown);color:var(--dark);box-shadow:var(--shadow-sm);}
+.nav-btn.active{background:var(--brown);color:var(--cream);border-color:var(--dark);box-shadow:2px 2px 0px 0px var(--dark);}
+.nav-btn svg{width:18px;height:18px;flex-shrink:0;}
+.sidebar-footer{padding:12px;border-top:4px solid var(--brown);background:var(--beige);}
+.sidebar-footer a{display:block;text-align:center;padding:8px;background:var(--cream);border:2px solid var(--brown);border-radius:8px;font-family:'Pixelify Sans',sans-serif;font-size:12px;color:var(--brown);text-decoration:none;text-transform:uppercase;box-shadow:var(--shadow-sm);}
+.sidebar-footer a:hover{background:var(--brown);color:var(--cream);}
+
+.main{margin-left:240px;flex:1;padding:24px;overflow-y:auto;min-height:100vh;}
+
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:var(--gap);margin-bottom:var(--gap);}
+.kpi{background:var(--cream);border:4px solid var(--brown);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow);position:relative;overflow:hidden;}
+.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;}
+.kpi.green::before{background:var(--success);}
+.kpi.red::before{background:var(--danger);}
+.kpi.amber::before{background:var(--amber);}
+.kpi.blue::before{background:#4a72b0;}
+.kpi-label{font-size:10px;font-family:'Pixelify Sans',sans-serif;color:var(--brown);text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px;}
+.kpi-value{font-size:28px;font-weight:800;color:var(--dark);}
+.kpi-sub{font-size:10px;color:var(--brown);margin-top:2px;}
+
+.card{background:var(--cream);border:4px solid var(--brown);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;margin-bottom:var(--gap);}
+.card-header{background:var(--beige);border-bottom:4px solid var(--brown);padding:14px 18px;}
+.card-header h3{font-family:'Pixelify Sans',sans-serif;font-size:13px;color:var(--dark);text-transform:uppercase;letter-spacing:.05em;}
+.card-body{padding:16px 18px;}
+.card-body canvas{max-height:280px;}
+
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap);margin-bottom:var(--gap);}
+.g1{margin-bottom:var(--gap);}
+
+/* Pipeline */
+.pipeline{display:flex;gap:4px;align-items:center;flex-wrap:wrap;}
+.pipe-stage{background:var(--cream);border:3px solid var(--brown);border-radius:8px;padding:10px 14px;text-align:center;flex:1;min-width:100px;position:relative;}
+.pipe-stage.ok{border-color:var(--success);background:#f0faf3;}
+.pipe-stage.warn{border-color:var(--amber);background:#fef9ee;}
+.pipe-stage.err{border-color:var(--danger);background:#fef2f2;}
+.pipe-stage .stage-name{font-family:'Pixelify Sans',sans-serif;font-size:10px;text-transform:uppercase;color:var(--brown);letter-spacing:.03em;}
+.pipe-stage .stage-status{font-size:18px;margin:4px 0;}
+.pipe-stage .stage-time{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--brown);}
+.pipe-arrow{font-size:16px;color:var(--brown);flex-shrink:0;}
+
+/* Table */
+.tbl-wrap{overflow-x:auto;}
+.dtbl{width:100%;border-collapse:collapse;font-size:12px;}
+.dtbl thead th{text-align:left;padding:10px 12px;border-bottom:4px solid var(--brown);color:var(--brown);font-family:'Pixelify Sans',sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:.04em;cursor:pointer;white-space:nowrap;user-select:none;background:var(--beige);}
+.dtbl thead th:hover{color:var(--dark);}
+.dtbl tbody td{padding:8px 12px;border-bottom:2px solid var(--beige);vertical-align:middle;}
+.dtbl tbody tr:hover{background:var(--beige);}
+.status-dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;}
+.status-dot.success{background:var(--success);}
+.status-dot.error{background:var(--danger);}
+.status-dot.warning{background:var(--amber);}
+.agent-tag{display:inline-block;padding:2px 8px;border-radius:6px;font-family:'Pixelify Sans',sans-serif;font-size:10px;text-transform:uppercase;border:1px solid var(--brown);background:var(--beige);}
+
+.section{display:none;}
+.section.active{display:block;}
+
+footer{text-align:center;font-size:10px;color:var(--brown);padding:20px 0 8px;font-family:'Pixelify Sans',sans-serif;}
+@media(max-width:900px){.sidebar{display:none;}.main{margin-left:0;} .g2{grid-template-columns:1fr;} }
+/* Embed mode (inside iframe) */
+body.embed .sidebar{display:none!important;}
+body.embed .main{margin-left:0;}
+</style>
+</head>
+<body>
+<script>if(window.location.search.includes('embed')||window!==window.top)document.body.classList.add('embed');</script>
+
+<div class="sidebar">
+  <div class="sidebar-hdr">
+    <h1>ICONOCRACIA</h1>
+    <p>Painel de Agentes &middot; PPGD/UFSC</p>
+  </div>
+  <nav>
+    <button class="nav-btn active" onclick="showSec('overview',this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      Visão Geral
+    </button>
+    <button class="nav-btn" onclick="showSec('pipeline',this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      Pipeline
+    </button>
+    <button class="nav-btn" onclick="showSec('log',this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/></svg>
+      Log de Execuções
+    </button>
+  </nav>
+  <div class="sidebar-footer">
+    <a href="/">&#8592; Companheiro</a>
+  </div>
+</div>
+
+<div class="main">
+  <!-- OVERVIEW -->
+  <div class="section active" id="sec-overview">
+    <div class="kpi-row">
+      <div class="kpi green"><div class="kpi-label">Total de Execuções</div><div class="kpi-value" id="k-runs">—</div><div class="kpi-sub">últimos 30 dias</div></div>
+      <div class="kpi green"><div class="kpi-label">Taxa de Sucesso</div><div class="kpi-value" id="k-rate">—</div><div class="kpi-sub" id="k-rate-s"></div></div>
+      <div class="kpi amber"><div class="kpi-label">Última Execução</div><div class="kpi-value" id="k-last" style="font-size:14px;margin-top:6px;">—</div><div class="kpi-sub" id="k-last-s"></div></div>
+      <div class="kpi blue"><div class="kpi-label">Itens Processados</div><div class="kpi-value" id="k-items">—</div><div class="kpi-sub">esta semana</div></div>
+    </div>
+    <div class="g2">
+      <div class="card"><div class="card-header"><h3>Atividade dos Agentes (30 dias)</h3></div><div class="card-body"><canvas id="c-activity"></canvas></div></div>
+      <div class="card"><div class="card-header"><h3>Execuções por Agente</h3></div><div class="card-body"><canvas id="c-by-agent"></canvas></div></div>
+    </div>
+    <div class="g2">
+      <div class="card"><div class="card-header"><h3>Status (últimas 30 execuções)</h3></div><div class="card-body"><canvas id="c-status"></canvas></div></div>
+      <div class="card"><div class="card-header"><h3>Duração Média por Agente</h3></div><div class="card-body"><canvas id="c-duration"></canvas></div></div>
+    </div>
+  </div>
+
+  <!-- PIPELINE -->
+  <div class="section" id="sec-pipeline">
+    <div class="card">
+      <div class="card-header"><h3>Pipeline Autopilot — 7 Estágios</h3></div>
+      <div class="card-body">
+        <div class="pipeline" id="pipeline-viz"></div>
+      </div>
+    </div>
+    <div class="g2" style="margin-top:var(--gap);">
+      <div class="card"><div class="card-header"><h3>Últimas Execuções do Pipeline</h3></div><div class="card-body" id="pipeline-log"></div></div>
+      <div class="card"><div class="card-header"><h3>Saúde do Sistema</h3></div><div class="card-body" id="health-panel"></div></div>
+    </div>
+  </div>
+
+  <!-- LOG -->
+  <div class="section" id="sec-log">
+    <div class="card">
+      <div class="card-header" style="display:flex;justify-content:space-between;align-items:center;">
+        <h3>Log de Execuções</h3>
+        <span id="log-count" style="font-family:'Pixelify Sans',sans-serif;font-size:12px;color:var(--brown);"></span>
+      </div>
+      <div class="card-body">
+        <div class="tbl-wrap">
+          <table class="dtbl">
+            <thead><tr>
+              <th>Status</th><th>Agente</th><th>Data/Hora</th><th>Itens</th><th>Duração</th><th>Detalhes</th>
+            </tr></thead>
+            <tbody id="log-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>ICONOCRACIA — Painel de Agentes &middot; Ana Vanzin &middot; PPGD/UFSC</footer>
+</div>
+
+<script>
+const RUNS = [{"timestamp":"2026-04-10T12:14:57Z","agent":"validate","status":"success","items_affected":145,"duration_s":8,"details":"Schema validation passed, 145 items OK"}];
+const COLORS = {validate:'#4a7c59', scout:'#c84b31', iconocode:'#d79b00', sync:'#8b5a2b', lacunas:'#b85450', download:'#82b366'};
+
+function showSec(id, btn) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.getElementById('sec-' + id).classList.add('active');
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+}
+
+function grp(arr, key) {
+  const r = {};
+  arr.forEach(d => { const v = d[key]; r[v] = (r[v]||0)+1; });
+  return r;
+}
+
+function mean(arr) { return arr.length ? arr.reduce((a,b)=>a+b,0)/arr.length : 0; }
+
+// KPIs
+const totalRuns = RUNS.length;
+const successes = RUNS.filter(r => r.status === 'success').length;
+const rate = totalRuns > 0 ? (successes / totalRuns * 100) : 0;
+const lastRun = RUNS.length > 0 ? RUNS[0] : null;
+const weekAgo = new Date(Date.now() - 7 * 86400000).toISOString();
+const weekItems = RUNS.filter(r => r.timestamp >= weekAgo).reduce((a,r) => a + r.items_affected, 0);
+
+document.getElementById('k-runs').textContent = totalRuns;
+document.getElementById('k-rate').textContent = rate.toFixed(0) + '%';
+document.getElementById('k-rate-s').textContent = successes + ' de ' + totalRuns + ' com sucesso';
+if(lastRun) {
+  const d = new Date(lastRun.timestamp);
+  document.getElementById('k-last').textContent = lastRun.agent + ' — ' + lastRun.status;
+  document.getElementById('k-last-s').textContent = d.toLocaleString('pt-BR');
+}
+document.getElementById('k-items').textContent = weekItems;
+
+// Activity chart (daily runs last 30 days)
+const dailyCounts = {};
+RUNS.forEach(r => {
+  const day = r.timestamp.slice(0,10);
+  dailyCounts[day] = (dailyCounts[day]||0) + 1;
+});
+const days30 = [];
+for(let i = 29; i >= 0; i--) {
+  const d = new Date(Date.now() - i * 86400000);
+  const key = d.toISOString().slice(0,10);
+  days30.push({label: d.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'}), count: dailyCounts[key]||0});
+}
+new Chart(document.getElementById('c-activity').getContext('2d'), {
+  type:'bar', data:{labels:days30.map(d=>d.label), datasets:[{data:days30.map(d=>d.count), backgroundColor:'rgba(74,124,89,0.5)', borderColor:'#4a7c59', borderWidth:1, borderRadius:4}]},
+  options:{responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true},x:{grid:{display:false},ticks:{maxTicksLimit:10,font:{size:9}}}}}
+});
+
+// By agent
+const byAgent = grp(RUNS, 'agent');
+const agentNames = Object.keys(byAgent).sort();
+new Chart(document.getElementById('c-by-agent').getContext('2d'), {
+  type:'doughnut', data:{labels:agentNames, datasets:[{data:agentNames.map(a=>byAgent[a]), backgroundColor:agentNames.map(a=>COLORS[a]||'#999'), borderColor:'#fdf6e3', borderWidth:3}]},
+  options:{responsive:true,maintainAspectRatio:false,animation:false,cutout:'55%',plugins:{legend:{position:'bottom',labels:{usePointStyle:true,padding:10,font:{size:11}}}}}
+});
+
+// Status
+const byStatus = grp(RUNS, 'status');
+new Chart(document.getElementById('c-status').getContext('2d'), {
+  type:'doughnut', data:{labels:Object.keys(byStatus), datasets:[{data:Object.values(byStatus), backgroundColor:['#4a7c59','#b85450','#d79b00'], borderColor:'#fdf6e3', borderWidth:3}]},
+  options:{responsive:true,maintainAspectRatio:false,animation:false,cutout:'55%',plugins:{legend:{position:'bottom',labels:{usePointStyle:true,padding:10,font:{size:11}}}}}
+});
+
+// Duration by agent
+const durByAgent = {};
+RUNS.forEach(r => {
+  if(!durByAgent[r.agent]) durByAgent[r.agent] = [];
+  durByAgent[r.agent].push(r.duration_s);
+});
+new Chart(document.getElementById('c-duration').getContext('2d'), {
+  type:'bar', data:{labels:agentNames, datasets:[{data:agentNames.map(a=>mean(durByAgent[a]||[]).toFixed(0)), backgroundColor:agentNames.map(a=>(COLORS[a]||'#999')+'aa'), borderColor:agentNames.map(a=>COLORS[a]||'#999'), borderWidth:1, borderRadius:6}]},
+  options:{responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,title:{display:true,text:'segundos',font:{size:10}}},x:{grid:{display:false}}}}
+});
+
+// Pipeline visualization
+const stages = [
+  {name:'Preflight',icon:'&#9881;'},
+  {name:'Lacunas',icon:'&#128269;'},
+  {name:'Scout',icon:'&#127758;'},
+  {name:'Download',icon:'&#11015;'},
+  {name:'IconoCode',icon:'&#9733;'},
+  {name:'Validate',icon:'&#10003;'},
+  {name:'Report',icon:'&#128196;'},
+];
+const pipeEl = document.getElementById('pipeline-viz');
+const lastByStage = {};
+['validate','scout','iconocode','sync','lacunas','download'].forEach(a => {
+  const last = RUNS.find(r => r.agent === a);
+  if(last) lastByStage[a] = last;
+});
+const stageMap = {Preflight:'validate',Lacunas:'lacunas',Scout:'scout',Download:'download',IconoCode:'iconocode',Validate:'validate',Report:'sync'};
+pipeEl.innerHTML = stages.map((s,i) => {
+  const agent = stageMap[s.name];
+  const run = lastByStage[agent];
+  const cls = run ? (run.status === 'success' ? 'ok' : run.status === 'error' ? 'err' : 'warn') : '';
+  const time = run ? new Date(run.timestamp).toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}) : '—';
+  return (i > 0 ? '<span class="pipe-arrow">&#8594;</span>' : '') +
+    '<div class="pipe-stage ' + cls + '">' +
+      '<div class="stage-status">' + s.icon + '</div>' +
+      '<div class="stage-name">' + s.name + '</div>' +
+      '<div class="stage-time">' + time + '</div>' +
+    '</div>';
+}).join('');
+
+// Pipeline log
+const pipeLog = document.getElementById('pipeline-log');
+const recent = RUNS.slice(0, 8);
+pipeLog.innerHTML = recent.map(r => {
+  const d = new Date(r.timestamp);
+  const dotCls = r.status;
+  return '<div style="display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:2px solid var(--beige);font-size:12px;">' +
+    '<span class="status-dot ' + dotCls + '"></span>' +
+    '<span class="agent-tag">' + r.agent + '</span>' +
+    '<span style="flex:1;">' + r.details + '</span>' +
+    '<span style="font-family:JetBrains Mono,monospace;font-size:10px;color:var(--brown);">' + d.toLocaleDateString('pt-BR') + '</span>' +
+  '</div>';
+}).join('');
+
+// Health panel
+const health = document.getElementById('health-panel');
+const checks = [
+  {name:'Schema Validation', ok: true, last:'Hoje 08:00'},
+  {name:'Records ↔ Corpus Sync', ok: true, last:'Hoje 08:30'},
+  {name:'Gallica API', ok: false, last:'Ontem 14:22 (timeout)'},
+  {name:'Europeana API', ok: true, last:'Hoje 09:15'},
+  {name:'Dashboard Refresh', ok: true, last:'Hoje 08:35'},
+  {name:'Git Status', ok: true, last:'Clean (main)'},
+];
+health.innerHTML = checks.map(c =>
+  '<div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:2px solid var(--beige);font-size:12px;">' +
+    '<span class="status-dot ' + (c.ok ? 'success' : 'error') + '"></span>' +
+    '<span style="flex:1;font-weight:500;">' + c.name + '</span>' +
+    '<span style="font-family:JetBrains Mono,monospace;font-size:10px;color:var(--brown);">' + c.last + '</span>' +
+  '</div>'
+).join('');
+
+// Log table
+document.getElementById('log-count').textContent = RUNS.length + ' execuções';
+document.getElementById('log-body').innerHTML = RUNS.map(r => {
+  const d = new Date(r.timestamp);
+  return '<tr>' +
+    '<td><span class="status-dot ' + r.status + '"></span>' + r.status + '</td>' +
+    '<td><span class="agent-tag">' + r.agent + '</span></td>' +
+    '<td style="font-family:JetBrains Mono,monospace;font-size:11px;">' + d.toLocaleString('pt-BR') + '</td>' +
+    '<td>' + r.items_affected + '</td>' +
+    '<td style="font-family:JetBrains Mono,monospace;">' + r.duration_s + 's</td>' +
+    '<td style="font-size:11px;color:var(--brown);max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">' + r.details + '</td>' +
+  '</tr>';
+}).join('');
+</script>
+</body>
+</html>

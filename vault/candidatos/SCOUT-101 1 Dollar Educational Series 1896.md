@@ -1,7 +1,7 @@
 ---
 id: SCOUT-101
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "1 Dollar Silver Certificate 'Educational Series' — History Instructing Youth"
 acervo: "Numista / Smithsonian NMAH"
 url: "https://en.numista.com/catalogue/note207329.html"

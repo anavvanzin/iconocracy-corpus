@@ -1,7 +1,7 @@
 ---
 id: SCOUT-103
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "50 Cruzeiros — Efígie da República (Benedito Ribeiro / Tônia Carreiro)"
 acervo: "Numista / Casa da Moeda do Brasil"
 url: "https://en.numista.com/9337"

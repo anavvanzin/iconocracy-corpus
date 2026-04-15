@@ -1,7 +1,7 @@
 ---
 id: SCOUT-097
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "1000 Mark Reichsbanknote — allegorical figures"
 acervo: "Numista / Deutsche Reichsbank"
 url: "https://en.numista.com/catalogue/note203637.html"

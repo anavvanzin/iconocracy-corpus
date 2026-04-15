@@ -1,7 +1,7 @@
 ---
 id: SCOUT-363
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "Hail! Glorious banner of our land Respectfully inscribed to Major General George B. McClellan - By Mrs. Mary Farrell Moore, Cincinnati, Ohio, July 4th 1861 /"
 acervo: "Library of Congress"
 url: "https://www.loc.gov/item/91721286/"

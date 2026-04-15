@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/purification-record.schema.json",
+  "title": "PurificationRecord",
+  "description": "Single coding record for ENDURECIMENTO purification indicators (0-3 ordinal scale). Multiple records per item_id are allowed for inter-rater reliability.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "desincorporacao", "rigidez_postural", "dessexualizacao",
+    "uniformizacao_facial", "heraldizacao", "enquadramento_arquitetonico",
+    "apagamento_narrativo", "monocromatizacao", "serialidade",
+    "inscricao_estatal",
+    "purificacao_composto", "regime_iconocratico",
+    "coded_by", "coded_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}-",
+      "description": "Item identifier (e.g., FR-013, BR-001, DE-NOTG-1921)"
+    },
+    "desincorporacao":             { "type": "integer", "minimum": 0, "maximum": 4 },
+    "rigidez_postural":            { "type": "integer", "minimum": 0, "maximum": 4 },
+    "dessexualizacao":             { "type": "integer", "minimum": 0, "maximum": 4 },
+    "uniformizacao_facial":        { "type": "integer", "minimum": 0, "maximum": 4 },
+    "heraldizacao":                { "type": "integer", "minimum": 0, "maximum": 4 },
+    "enquadramento_arquitetonico": { "type": "integer", "minimum": 0, "maximum": 4 },
+    "apagamento_narrativo":        { "type": "integer", "minimum": 0, "maximum": 4 },
+    "monocromatizacao":            { "type": "integer", "minimum": 0, "maximum": 4 },
+    "serialidade":                 { "type": "integer", "minimum": 0, "maximum": 4 },
+    "inscricao_estatal":           { "type": "integer", "minimum": 0, "maximum": 4 },
+    "purificacao_composto": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 4,
+      "description": "Arithmetic mean of the 10 indicators"
+    },
+    "regime_iconocratico": {
+      "type": "string",
+      "enum": ["fundacional", "normativo", "militar", "contra-alegoria"]
+    },
+    "coded_by": {
+      "type": "string",
+      "description": "Coder identifier (e.g., iconocode-opus-4.6-image, ana)"
+    },
+    "coded_at": {
+      "type": "string",
+      "description": "ISO 8601 date or datetime of coding"
+    },
+    "confidence_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Coder confidence in this coding (0-1). For AI coders, derived from model confidence."
+    },
+    "prompt_version": {
+      "type": "string",
+      "description": "Version identifier of the coding prompt/codebook used (e.g., iconocode-v3.2)"
+    },
+    "coding_round": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Coding round number (1 = initial, 2 = double-coding, etc.)"
+    },
+    "adjudication_status": {
+      "type": "string",
+      "enum": ["single", "pending", "adjudicated"],
+      "description": "Whether this record has been reviewed for inter-rater agreement"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional observations about this coding"
+    }
+  }
+}

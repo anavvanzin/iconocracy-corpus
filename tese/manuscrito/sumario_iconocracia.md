@@ -164,7 +164,7 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 
 #### 5.2 — O protocolo de 10 indicadores ordinais de purificação
 
-> ▸ *Instrumento original: 10 indicadores que medem o grau de 'purificação clássica' do corpo alegórico (exposição da carne, militarização, venda nos olhos, atributos, vestimenta, pose, contexto arquitetônico, etc.). Escala ordinal. Teste de confiabilidade inter-codificadores (Kappa de Cohen).*
+> ▸ *Instrumento original: 10 indicadores que medem o grau de 'purificação clássica' do corpo alegórico (exposição da carne, militarização, venda nos olhos, atributos, vestimenta, pose, contexto arquitetônico, etc.). Escala ordinal. Teste de confiabilidade inter-codificadores (Alpha de Krippendorff, ordinal).*
 
 #### 5.3 — Sistema de codificação IconoCode e integração ICONCLASS
 

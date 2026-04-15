@@ -1,7 +1,7 @@
 ---
 id: SCOUT-119
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "1000 Réis — Efígie da República (Brasil, 1906–1912)"
 acervo: "Casa da Moeda do Brasil / Numista"
 url: "https://en.numista.com/catalogue/pieces14484.html"

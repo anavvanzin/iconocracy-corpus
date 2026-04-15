@@ -61,7 +61,10 @@
         },
         "coded_by":   { "type": "string" },
         "coded_at":   { "type": "string", "format": "date-time" },
-        "notes":      { "type": "string" }
+        "notes":      { "type": "string" },
+        "confidence_score": { "type": "number", "minimum": 0, "maximum": 1, "description": "Coder confidence (0-1)" },
+        "prompt_version":   { "type": "string", "description": "Coding prompt/codebook version" },
+        "adjudication_status": { "type": "string", "enum": ["single", "pending", "adjudicated"], "description": "Inter-rater review status" }
       }
     },
     "exports": {

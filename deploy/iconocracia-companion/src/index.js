@@ -10,6 +10,22 @@ function escAttr(s) {
   return String(s || "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
+function escHtml(s) {
+  return String(s || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function safeHref(url) {
+  if (!url || url === "null") return null;
+  const s = String(url).trim();
+  if (s.startsWith("https://") || s.startsWith("http://")) return escAttr(s);
+  return null;
+}
+
 function renderCard(c) {
   const regime = (c.regime || "").toUpperCase();
   const regimeClass = regime === "MILITAR" ? "militar" : regime === "FUNDACIONAL" ? "fundacional" : "normativo";
@@ -17,23 +33,24 @@ function renderCard(c) {
   const pais = (c.pais || "").replace(/[\[\]]/g, "").trim();
   const flag = COUNTRY_FLAGS[pais] || "";
   const searchText = escAttr([c.titulo, pais, c.data_estimada, c.suporte, c.justificativa, c.endurecimento].join(" ").toLowerCase());
+  const href = safeHref(c.url);
   return `
   <div class="card ${regimeClass}${isNeg ? " negative" : ""}" data-regime="${regime}" data-pais="${escAttr(pais)}" data-text="${searchText}">
     <div class="card-header">
-      <span class="card-id">${c.id}</span>
+      <span class="card-id">${escHtml(c.id)}</span>
       <div>
-        ${c.confianca ? `<span class="conf conf-${c.confianca}">${c.confianca}</span>` : ""}
+        ${c.confianca ? `<span class="conf conf-${escAttr(c.confianca)}">${escHtml(c.confianca)}</span>` : ""}
         <span class="card-regime regime-${regime}">${regime || "?"}</span>
       </div>
     </div>
-    <div class="card-title">${c.titulo || ""}</div>
+    <div class="card-title">${escHtml(c.titulo)}</div>
     <div class="card-meta">
-      <span>${flag ? flag + " " : ""}${pais} | ${c.data_estimada || ""}</span>
-      <span>${c.suporte || ""}</span>
+      <span>${flag ? flag + " " : ""}${escHtml(pais)} | ${escHtml(c.data_estimada)}</span>
+      <span>${escHtml(c.suporte)}</span>
     </div>
-    ${c.justificativa ? `<div class="card-body">${c.justificativa}</div>` : ""}
-    ${c.endurecimento ? `<div class="card-end"><strong>ENDURECIMENTO:</strong> ${c.endurecimento}</div>` : ""}
-    ${c.url && c.url !== "null" ? `<a class="card-link" href="${c.url}" target="_blank" rel="noopener">Ver no acervo &rarr;</a>` : ""}
+    ${c.justificativa ? `<div class="card-body">${escHtml(c.justificativa)}</div>` : ""}
+    ${c.endurecimento ? `<div class="card-end"><strong>ENDURECIMENTO:</strong> ${escHtml(c.endurecimento)}</div>` : ""}
+    ${href ? `<a class="card-link" href="${href}" target="_blank" rel="noopener">Ver no acervo &rarr;</a>` : ""}
     ${isNeg ? `<div class="card-note">Controle negativo — documenta ausencia de alegoria</div>` : ""}
   </div>`;
 }
@@ -42,18 +59,18 @@ function renderZW(z) {
   return `
   <div class="zw-card">
     <div class="card-header">
-      <span class="card-id">${z.id}</span>
-      <span class="card-meta">${(z.pais || "").toString().replace(/[\[\]]/g, "")} | ${z.periodo || ""}</span>
+      <span class="card-id">${escHtml(z.id)}</span>
+      <span class="card-meta">${escHtml((z.pais || "").toString().replace(/[\[\]]/g, ""))} | ${escHtml(z.periodo)}</span>
     </div>
-    <div class="card-title">${z.titulo || ""}</div>
+    <div class="card-title">${escHtml(z.titulo)}</div>
   </div>`;
 }
 
 function renderTheory(t) {
   return `
   <div class="theory-card">
-    <div class="theory-name">${t.name}</div>
-    <div class="theory-desc">${t.desc}</div>
+    <div class="theory-name">${escHtml(t.name)}</div>
+    <div class="theory-desc">${escHtml(t.desc)}</div>
   </div>`;
 }
 
@@ -141,9 +158,9 @@ a{color:var(--bordeaux)}
 </head>
 <body>
 <div class="header">
-  <a href="/" class="back">← Companheiro de Pesquisa</a>
+  <a href="/" class="back">&larr; Companheiro de Pesquisa</a>
   <h1>Corpus Scout</h1>
-  <p>${d.thesis}</p>
+  <p>${escHtml(d.thesis)}</p>
   <div class="stats">
     <div class="stat"><div class="stat-num">${d.total_candidates}</div><div class="stat-label">Candidatos</div></div>
     <div class="stat"><div class="stat-num">${d.total_zwischenraume}</div><div class="stat-label">Zwischenraume</div></div>
@@ -158,18 +175,18 @@ a{color:var(--bordeaux)}
 </nav>
 <div class="filter-bar" id="filter-bar">
   <div class="filter-bar-inner">
-    <input class="filter-search" id="scout-search" type="search" placeholder="Buscar por título, país, suporte, justificativa…" oninput="applyFilters()" autocomplete="off"/>
+    <input class="filter-search" id="scout-search" type="search" placeholder="Buscar por titulo, pais, suporte, justificativa…" oninput="applyFilters()" autocomplete="off"/>
     <div class="filter-pills">
       <span class="filter-label">Regime</span>
       <button class="pill active" onclick="setRegime(this,'ALL')">Todos</button>
       <button class="pill regime-mil" onclick="setRegime(this,'MILITAR')">Militar</button>
       <button class="pill regime-nor" onclick="setRegime(this,'NORMATIVO')">Normativo</button>
       <button class="pill regime-fun" onclick="setRegime(this,'FUNDACIONAL')">Fundacional</button>
-      <span class="filter-label" style="margin-left:.6rem">País</span>
+      <span class="filter-label" style="margin-left:.6rem">Pais</span>
       ${(()=>{
   const FLAGS={"FR":"🇫🇷 FR","DE":"🇩🇪 DE","BE":"🇧🇪 BE","BR":"🇧🇷 BR","US":"🇺🇸 US","UK":"🇬🇧 UK"};
   const codes=[...new Set(d.candidates.map(c=>(c.pais||"").replace(/[\[\]]/g,"").trim()).filter(Boolean))].sort();
-  return codes.map(p=>`<button class="pill" onclick="setPais(this,'${p}')">${FLAGS[p]||p}</button>`).join("");
+  return codes.map(p=>`<button class="pill" onclick="setPais(this,'${escAttr(p)}')">${FLAGS[p]||escHtml(p)}</button>`).join("");
 })()}
       <span class="filter-count" id="filter-count">${d.total_candidates} candidatos</span>
     </div>
@@ -185,8 +202,8 @@ a{color:var(--bordeaux)}
   ${d.theoretical_contributions.map(renderTheory).join("")}
 </div>
 <div class="footer">
-  CORPUS SCOUT · PPGD/UFSC · ${d.session}<br>
-  ${d.total_candidates} candidatos · ${d.total_zwischenraume} painéis · ${d.theoretical_contributions.length} conceitos
+  CORPUS SCOUT · PPGD/UFSC · ${escHtml(d.session)}<br>
+  ${d.total_candidates} candidatos · ${d.total_zwischenraume} paineis · ${d.theoretical_contributions.length} conceitos
 </div>
 <script>
 (function(){
@@ -232,6 +249,13 @@ a{color:var(--bordeaux)}
 </html>`;
 }
 
+// ─── Explicit column list for corpus queries ───
+
+const CORPUS_COLUMNS = `id, title, date, year, country, country_pt, medium_norm, support,
+  period_norm, regime, endurecimiento_score AS endurecimento_score,
+  motif, motif_str, tags, tags_str, description, url, thumbnail_url,
+  source_archive, creator, institution, coded_by, coded_at, in_scope, citation_abnt`;
+
 const app = new Hono();
 
 // ─── CORS middleware ───
@@ -243,92 +267,123 @@ app.use("*", cors({
 // ─── R2 image serving ───
 // {.+} captures the full remaining path including slashes (e.g. "FR/FR-001.jpg")
 app.get("/images/:key{.+}", async (c) => {
-  const key = c.req.param("key");
-  const obj = await c.env.CORPUS_IMAGES.get(decodeURIComponent(key));
-  if (!obj) return c.text("Not Found", 404);
-  const h = new Headers();
-  obj.writeHttpMetadata(h);
-  h.set("Cache-Control", "public, max-age=31536000, immutable");
-  h.set("Access-Control-Allow-Origin", "*");
-  return new Response(obj.body, { headers: h });
+  const key = decodeURIComponent(c.req.param("key"));
+  if (key.includes("..") || key.startsWith("/")) return c.text("Bad Request", 400);
+  try {
+    const obj = await c.env.CORPUS_IMAGES.get(key);
+    if (!obj) return c.text("Not Found", 404);
+    const h = new Headers();
+    obj.writeHttpMetadata(h);
+    h.set("Cache-Control", "public, max-age=31536000, immutable");
+    h.set("Access-Control-Allow-Origin", "*");
+    return new Response(obj.body, { headers: h });
+  } catch (e) {
+    return c.text("Storage error", 500);
+  }
 });
 
 // ─── D1 corpus stats ───
 app.get("/api/corpus/stats", async (c) => {
   if (!c.env.CORPUS_DB) return c.json({ total_items: 0, by_country: [], by_medium: [], analyzed: 0, with_female_allegory: 0, female_allegory_items: [] });
-  const r1 = await c.env.CORPUS_DB.prepare("SELECT COUNT(*) as total FROM corpus_items").all();
-  const r2 = await c.env.CORPUS_DB.prepare("SELECT country, COUNT(*) as cnt FROM corpus_items GROUP BY country ORDER BY cnt DESC").all();
-  const r3 = await c.env.CORPUS_DB.prepare("SELECT support, COUNT(*) as cnt FROM corpus_items WHERE support IS NOT NULL AND support != '' GROUP BY support ORDER BY cnt DESC").all();
-  const r4 = await c.env.CORPUS_DB.prepare("SELECT COUNT(*) as analyzed FROM iconographic_analysis").all();
-  const r5 = await c.env.CORPUS_DB.prepare("SELECT item_id, figure_type FROM iconographic_analysis WHERE figure_type LIKE '%Yes%'").all();
-  return c.json({
-    total_items: r1.results[0].total,
-    by_country: r2.results,
-    by_medium: r3.results,
-    analyzed: r4.results[0].analyzed,
-    with_female_allegory: r5.results.length,
-    female_allegory_items: r5.results,
-  });
+  try {
+    const [r1, r2, r3, r4, r5] = await Promise.all([
+      c.env.CORPUS_DB.prepare("SELECT COUNT(*) as total FROM corpus_items").all(),
+      c.env.CORPUS_DB.prepare("SELECT country, COUNT(*) as cnt FROM corpus_items GROUP BY country ORDER BY cnt DESC").all(),
+      c.env.CORPUS_DB.prepare("SELECT support, COUNT(*) as cnt FROM corpus_items WHERE support IS NOT NULL AND support != '' GROUP BY support ORDER BY cnt DESC").all(),
+      c.env.CORPUS_DB.prepare("SELECT COUNT(*) as analyzed FROM iconographic_analysis").all(),
+      c.env.CORPUS_DB.prepare("SELECT item_id, figure_type FROM iconographic_analysis WHERE figure_type LIKE '%Yes%'").all(),
+    ]);
+    return c.json({
+      total_items: r1.results[0]?.total ?? 0,
+      by_country: r2.results,
+      by_medium: r3.results,
+      analyzed: r4.results[0]?.analyzed ?? 0,
+      with_female_allegory: r5.results.length,
+      female_allegory_items: r5.results,
+    });
+  } catch (e) {
+    return c.json({ error: "Database error: " + e.message }, 500);
+  }
 });
 
 // ─── D1 countries list ───
 app.get("/api/corpus/countries", async (c) => {
   if (!c.env.CORPUS_DB) return c.json([]);
-  const result = await c.env.CORPUS_DB.prepare("SELECT DISTINCT country FROM corpus_items ORDER BY country").all();
-  return c.json(result.results.map(r => r.country));
+  try {
+    const result = await c.env.CORPUS_DB.prepare("SELECT DISTINCT country FROM corpus_items ORDER BY country").all();
+    return c.json(result.results.map(r => r.country));
+  } catch (e) {
+    return c.json({ error: "Database error: " + e.message }, 500);
+  }
 });
 
 // ─── D1 analysis search ───
 app.get("/api/corpus/analysis/search", async (c) => {
   if (!c.env.CORPUS_DB) return c.json({ count: 0, results: [] });
-  const attr = c.req.query("attr") || "";
-  const fig = c.req.query("figure") || "";
-  let sql = `SELECT a.item_id, a.figure_type, a.attributes, a.iconclass_codes, a.juridical_function, c.title, c.country, c.date, c.url FROM iconographic_analysis a JOIN corpus_items c ON a.item_id = c.id WHERE 1=1`;
-  const params = [];
-  if (attr) { sql += " AND a.attributes LIKE ?"; params.push(`%${attr}%`); }
-  if (fig) { sql += " AND a.figure_type LIKE ?"; params.push(`%${fig}%`); }
-  sql += " ORDER BY c.date";
-  const result = await c.env.CORPUS_DB.prepare(sql).bind(...params).all();
-  return c.json({ count: result.results.length, results: result.results });
+  try {
+    const attr = c.req.query("attr") || "";
+    const fig = c.req.query("figure") || "";
+    let sql = `SELECT a.item_id, a.figure_type, a.attributes, a.iconclass_codes, a.juridical_function, c.title, c.country, c.date, c.url FROM iconographic_analysis a JOIN corpus_items c ON a.item_id = c.id WHERE 1=1`;
+    const params = [];
+    if (attr) { sql += " AND a.attributes LIKE ?"; params.push(`%${attr}%`); }
+    if (fig) { sql += " AND a.figure_type LIKE ?"; params.push(`%${fig}%`); }
+    sql += " ORDER BY c.date";
+    const result = await c.env.CORPUS_DB.prepare(sql).bind(...params).all();
+    return c.json({ count: result.results.length, results: result.results });
+  } catch (e) {
+    return c.json({ error: "Database error: " + e.message }, 500);
+  }
 });
 
 // ─── D1 all analyses ───
 app.get("/api/corpus/analysis", async (c) => {
   if (!c.env.CORPUS_DB) return c.json({ count: 0, analyses: [] });
-  const result = await c.env.CORPUS_DB.prepare(
-    `SELECT a.*, c.title, c.country, c.date, c.url FROM iconographic_analysis a JOIN corpus_items c ON a.item_id = c.id ORDER BY a.item_id`
-  ).all();
-  return c.json({ count: result.results.length, analyses: result.results });
+  try {
+    const result = await c.env.CORPUS_DB.prepare(
+      `SELECT a.*, c.title, c.country, c.date, c.url FROM iconographic_analysis a JOIN corpus_items c ON a.item_id = c.id ORDER BY a.item_id`
+    ).all();
+    return c.json({ count: result.results.length, analyses: result.results });
+  } catch (e) {
+    return c.json({ error: "Database error: " + e.message }, 500);
+  }
 });
 
 // ─── D1 corpus list ───
 app.get("/api/corpus", async (c) => {
-  if (!c.env.CORPUS_DB) return c.json([]);
-  const country = c.req.query("country");
-  const regime  = c.req.query("regime");
-  const q       = c.req.query("q");
-  const parts = [], params = [];
-  if (country) { parts.push("country = ?"); params.push(country); }
-  if (regime)  { parts.push("LOWER(regime) = LOWER(?)"); params.push(regime); }
-  if (q) {
-    parts.push("(title LIKE ? OR motif_str LIKE ? OR tags_str LIKE ? OR description LIKE ?)");
-    const p = `%${q}%`; params.push(p, p, p, p);
+  if (!c.env.CORPUS_DB) return c.json({ count: 0, items: [] });
+  try {
+    const country = c.req.query("country");
+    const regime  = c.req.query("regime");
+    const q       = c.req.query("q");
+    const parts = [], params = [];
+    if (country) { parts.push("country = ?"); params.push(country); }
+    if (regime)  { parts.push("LOWER(regime) = LOWER(?)"); params.push(regime); }
+    if (q) {
+      parts.push("(title LIKE ? OR motif_str LIKE ? OR tags_str LIKE ? OR description LIKE ?)");
+      const p = `%${q}%`; params.push(p, p, p, p);
+    }
+    const where = parts.length ? " WHERE " + parts.join(" AND ") : "";
+    const sql = `SELECT ${CORPUS_COLUMNS} FROM corpus_items${where} ORDER BY id`;
+    const stmt = c.env.CORPUS_DB.prepare(sql);
+    const result = params.length ? await stmt.bind(...params).all() : await stmt.all();
+    return c.json({ count: result.results.length, items: result.results });
+  } catch (e) {
+    return c.json({ error: "Database error: " + e.message }, 500);
   }
-  const where = parts.length ? " WHERE " + parts.join(" AND ") : "";
-  const sql = `SELECT id, title, date, country, medium, support, regime, endurecimento_score, motif_str, tags_str, url, source_archive, creator, description FROM corpus_items${where} ORDER BY id`;
-  const stmt = c.env.CORPUS_DB.prepare(sql);
-  const result = params.length ? await stmt.bind(...params).all() : await stmt.all();
-  return c.json(result.results);
 });
 
 // ─── D1 single item ───
 app.get("/api/corpus/:id", async (c) => {
   if (!c.env.CORPUS_DB) return c.json({ error: "Not found" }, 404);
-  const id = decodeURIComponent(c.req.param("id"));
-  const item = await c.env.CORPUS_DB.prepare("SELECT * FROM corpus_items WHERE id = ?").bind(id).first();
-  if (!item) return c.json({ error: "Not found" }, 404);
-  const analysis = await c.env.CORPUS_DB.prepare("SELECT * FROM iconographic_analysis WHERE item_id = ?").bind(id).first();
-  return c.json({ item, analysis: analysis || null });
+  try {
+    const id = decodeURIComponent(c.req.param("id"));
+    const item = await c.env.CORPUS_DB.prepare(`SELECT ${CORPUS_COLUMNS} FROM corpus_items WHERE id = ?`).bind(id).first();
+    if (!item) return c.json({ error: "Not found" }, 404);
+    const analysis = await c.env.CORPUS_DB.prepare("SELECT * FROM iconographic_analysis WHERE item_id = ?").bind(id).first();
+    return c.json({ item, analysis: analysis || null });
+  } catch (e) {
+    return c.json({ error: "Database error: " + e.message }, 500);
+  }
 });
 
 // ─── KV diary ───
@@ -338,7 +393,14 @@ app.get("/api/diary", async (c) => {
 });
 
 app.put("/api/diary", async (c) => {
+  const auth = c.req.header("Authorization") || "";
+  if (!c.env.DIARY_SECRET || auth !== `Bearer ${c.env.DIARY_SECRET}`) {
+    return c.json({ error: "Unauthorized" }, 401);
+  }
   const body = await c.req.text();
+  if (body.length > 500_000) {
+    return c.json({ error: "Payload too large" }, 413);
+  }
   await c.env.DIARY_KV.put("diary", body);
   return c.json({ ok: true });
 });

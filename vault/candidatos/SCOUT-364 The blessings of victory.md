@@ -1,7 +1,7 @@
 ---
 id: SCOUT-364
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "The blessings of victory"
 acervo: "Library of Congress"
 url: "https://www.loc.gov/item/2022631575/"

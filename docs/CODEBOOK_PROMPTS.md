@@ -276,7 +276,7 @@ Tenho duas codificacoes independentes do mesmo item:
 Codificador A: [COLAR JSON ou RESUMO]
 Codificador B: [COLAR JSON ou RESUMO]
 
-Calcule concordancia simples, Kappa de Cohen, pontos de discordancia,
+Calcule concordancia simples, Alpha de Krippendorff (ordinal), pontos de discordancia,
 e recomendacao (qual adotar ou terceiro codificador).
 ```
 

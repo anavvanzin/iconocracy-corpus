@@ -1,7 +1,7 @@
 ---
 id: SCOUT-109
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "1 Cruzeiro (cédula) — Efígie da República (2ª edição)"
 acervo: "Numista / Banco Central do Brasil"
 url: "https://en.numista.com/catalogue/note203551.html"

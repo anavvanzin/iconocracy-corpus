@@ -1,4 +1,4 @@
-# Iconocracy
+<img width="2400" height="1200" alt="iconocracy_01_corpus_banner" src="https://github.com/user-attachments/assets/bca33fa4-0de9-4f3b-aa2e-31fa07be3c06" />
 
 **Alegoria Feminina na Iconografia Jurídica · Female Allegory in Legal Iconography**
 
