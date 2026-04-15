@@ -9,32 +9,12 @@ from pathlib import Path
 # Maps folder-name fragments (case-insensitive) → canonical institution codes.
 # Add new sources here; the pipeline picks them up automatically.
 SOURCE_CODES = {
-    # Brazil
     "bnd": "BND",           # Biblioteca Nacional Digital
     "bndigital": "BND",
     "biblioteca nacional": "BND",
     "camara": "CAM",        # Câmara dos Deputados
     "deputados": "CAM",
     "senado": "SEN",        # Senado Federal
-    # France
-    "gallica": "GAL",       # Gallica / BnF
-    "bnf": "BNF",           # Bibliothèque nationale de France
-    # United Kingdom
-    "british library": "BL",
-    "britishmuseum": "BM",  # British Museum
-    "british museum": "BM",
-    # United States
-    "loc.gov": "LOC",       # Library of Congress
-    "library of congress": "LOC",
-    # Germany
-    "digitale sammlungen": "BSB",  # Bayerische Staatsbibliothek
-    "deutsche digitale": "DDB",     # Deutsche Digitale Bibliothek
-    # Belgium
-    "kbr": "KBR",           # KBR (Royal Library of Belgium)
-    # Multi-country
-    "europeana": "EUR",     # Europeana
-    "numista": "NUM",       # Numista (coins/medals)
-    "colnect": "COL",       # Colnect (stamps/banknotes)
     "archive.org": "IA",    # Internet Archive
     "internet archive": "IA",
     "ia_": "IA",

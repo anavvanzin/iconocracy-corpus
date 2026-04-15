@@ -14,7 +14,14 @@ from langdetect import detect_langs, LangDetectException
 from pdf2image import convert_from_path
 from PIL import Image
 
-import config
+from config import (
+    CONFIDENCE_THRESHOLD,
+    LANG_MAP,
+    MIN_TEXT_LENGTH,
+    PDF_DPI,
+    TARGET_LANGS,
+    TESSERACT_PSM,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -51,12 +58,12 @@ def _detect_language(text: str) -> str:
     Returns ISO 639-1 code or 'und' (undetermined).
     Filters to only target languages.
     """
-    if len(text.strip()) < config.MIN_TEXT_LENGTH:
+    if len(text.strip()) < MIN_TEXT_LENGTH:
         return "und"
     try:
         results = detect_langs(text[:5000])  # use first 5000 chars for speed
         for r in results:
-            if r.lang in config.TARGET_LANGS:
+            if r.lang in TARGET_LANGS:
                 return r.lang
         # If no target language detected, return the top result anyway
         return results[0].lang if results else "und"
@@ -66,7 +73,7 @@ def _detect_language(text: str) -> str:
 
 def _get_tesseract_lang(iso_code: str) -> str:
     """Map ISO 639-1 to Tesseract language code. Falls back to por+eng."""
-    return config.LANG_MAP.get(iso_code, "por+eng")
+    return LANG_MAP.get(iso_code, "por+eng")
 
 
 def _preprocess_image(img: Image.Image) -> Image.Image:
@@ -102,7 +109,7 @@ def _ocr_single_image(
         quick_text = pytesseract.image_to_string(
             processed,
             lang="por+spa+fra+ita+eng",
-            config=f"--psm {config.TESSERACT_PSM}",
+            config=f"--psm {TESSERACT_PSM}",
         )
         detected_lang = _detect_language(quick_text)
         tess_lang = _get_tesseract_lang(detected_lang)
@@ -114,7 +121,7 @@ def _ocr_single_image(
     data = pytesseract.image_to_data(
         processed,
         lang=tess_lang,
-        config=f"--psm {config.TESSERACT_PSM}",
+        config=f"--psm {TESSERACT_PSM}",
         output_type=pytesseract.Output.DICT,
     )
 
@@ -130,7 +137,7 @@ def _ocr_single_image(
 
     text = " ".join(words)
     mean_conf = sum(confidences) / len(confidences) if confidences else 0.0
-    is_low = mean_conf < config.CONFIDENCE_THRESHOLD
+    is_low = mean_conf < CONFIDENCE_THRESHOLD
 
     return PageResult(
         page_number=page_number,
@@ -154,7 +161,7 @@ def ocr_file(filepath: Path) -> FileOCRResult:
         ext = filepath.suffix.lower()
 
         if ext == ".pdf":
-            images = convert_from_path(str(filepath), dpi=config.PDF_DPI)
+            images = convert_from_path(str(filepath), dpi=PDF_DPI)
         elif ext in {".tif", ".tiff", ".png", ".jpg", ".jpeg", ".jp2"}:
             images = [Image.open(filepath)]
         else:
