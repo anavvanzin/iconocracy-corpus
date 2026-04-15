@@ -169,6 +169,8 @@ Every corpus item must exist in three places:
 - For `corpus-data.json`, use Python scripts for atomic updates rather than direct Edit
 - `data/raw/` must remain metadata-only in git (ADR-001: Google Drive stores binaries)
 - Vault notes follow pattern `XX-NNN Title.md` where XX = country code, NNN = sequential number (e.g., `FR-013 Déclaration des droits.md`)
+- All generic vault notes in `vault/**/*.md` should default to **Obsidian Flavored Markdown**: frontmatter properties, `[[wikilinks]]`, `![[embeds]]`, callouts, comments, highlights, and external URLs only as Markdown links
+- Canonical vault guide: `vault/meta/Guia — Obsidian Flavored Markdown.md`; generic default template: `vault/_templates/nota-obsidian-padrao.md`
 - Thesis original files (`*_original`) are protected — use `vault/tese/` for revised drafts
 - SSD `/Volumes/ICONOCRACIA` stores raw images, Zotero PDFs, and backups
 - Automatic vault backups must not land on `main` (use `vault_backup.py`)
