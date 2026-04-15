@@ -2,8 +2,11 @@
   "mcpServers": {
     "gallica": {
       "command": "node",
-      "args": ["/Users/ana/iconocracy-corpus/indexing/gallica-mcp-server/dist/bundle.cjs"]
+      "args": ["/Users/ana/Research/hub/iconocracy-corpus/indexing/gallica-mcp-server/dist/bundle.cjs"]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
     }
   }
 }
-
