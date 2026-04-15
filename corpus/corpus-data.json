@@ -2886,25 +2886,10 @@
         "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Germany no período Weimar Republic (1919-1933).",
         "analyst_notes": null
       }
-    }
-  },
-  {
-    "id": "DE-NOTGELD-1921",
-    "title": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note 1921",
-    "date": "",
-    "period": "",
-    "creator": null,
-    "institution": "British Museum / University of Chicago Special Collections",
-    "source_archive": "British Museum",
-    "country": "Germany",
-    "medium": "Papel-moeda",
-    "motif": [],
-    "description": "",
-    "url": null,
-    "thumbnail_url": null,
+    },
+    "country_pt": "Alemanha",
+    "medium_norm": "Papel-moeda",
     "rights": "Public domain",
-    "citation_abnt": null,
-    "citation_chicago": null,
     "tags": [
       "corpus/candidato",
       "pais/DE",
@@ -2913,21 +2898,7 @@
       "#verificar",
       "#verificar-imagem"
     ],
-    "year": null,
-    "medium_norm": "Papel-moeda",
-    "country_pt": "Alemanha",
-    "period_norm": "",
-    "motif_str": "",
-    "tags_str": "corpus/candidato, pais/DE, suporte/papel-moeda, regime/fundacional, #verificar, #verificar-imagem",
-    "regime": "fundacional",
-    "support": "papel-moeda",
-    "in_scope": true,
-    "scope_note": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
+    "tags_str": "corpus/candidato, pais/DE, suporte/papel-moeda, regime/fundacional, #verificar, #verificar-imagem"
   },
   {
     "id": "DE-WR-1919-50M",
@@ -11353,6 +11324,80 @@
         "zwischenraum": "O *Zwischenraum* em \"El Altar de la Patria\" opera entre a representação visual e a função jurídico-política que ela desempenha — entre o que a imagem mostra (corpo feminino) e o que ela significa (autoridade estatal). Esse intervalo é o espaço onde o Contrato Sexual Visual se consuma.",
         "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"El Altar de la Patria\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Uruguai no período Séc. XIX.",
         "analyst_notes": null
+      }
+    }
+  },
+  {
+    "id": "FR-048",
+    "title": "La Justice — porcelaine de Sèvres",
+    "date": "1889",
+    "period": "Troisième République (1870–1940)",
+    "creator": null,
+    "institution": "Manufacture nationale de Sèvres",
+    "source_archive": null,
+    "country": "France",
+    "medium": "Porcelana de Sèvres (cerâmica)",
+    "motif": [
+      "La Justice",
+      "Allégorie féminine",
+      "République"
+    ],
+    "description": "Peça de porcelana produzida pela Manufacture nationale de Sèvres em 1889, ano da Exposição Universal de Paris e do centenário da Revolução Francesa. Figura alegórica de La Justice em suporte cerâmico de prestígio, destinada a representação institucional do Estado republicano consolidado.",
+    "url": null,
+    "thumbnail_url": null,
+    "rights": "Public domain",
+    "citation_abnt": "MANUFACTURE NATIONALE DE SÈVRES. La Justice. 1889. 1 peça de porcelana. Manufacture nationale de Sèvres.",
+    "citation_chicago": "Manufacture nationale de Sèvres. La Justice. 1889. Porcelain. Manufacture nationale de Sèvres.",
+    "tags": [
+      "corpus/candidato",
+      "pais/FR",
+      "suporte/ceramica",
+      "regime/normativo",
+      "motivo/justice",
+      "verificar"
+    ],
+    "year": 1889,
+    "medium_norm": "Cerâmica",
+    "country_pt": "França",
+    "period_norm": "III República / II Império (FR)",
+    "motif_str": "La Justice, Allégorie féminine, République",
+    "tags_str": "corpus/candidato, pais/FR, suporte/ceramica, regime/normativo, motivo/justice",
+    "regime": "normativo",
+    "endurecimento_score": 0.6,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 2,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "manual-entry",
+    "coded_at": "2026-04-14",
+    "support": "cerâmica",
+    "in_scope": true,
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Estatueta ou peça decorativa em porcelana. Figura feminina alegórica com atributos de Justice (balança; espada e venda a confirmar). Produção Sèvres 1889.",
+      "iconographic": {
+        "motivo_alegorico": "La Justice — alegoria da justiça republicana francesa",
+        "iconclass": [
+          "11M44(JUSTICE)",
+          "48C51"
+        ],
+        "tradicao": "Tradição iconográfica francesa da Justitia; Terceira República consolidada",
+        "pathosformel": "Figura estática e solene — Pathosformel da autoridade domesticada"
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Legitimação da justiça republicana estabilizada via suporte de prestígio estatal (Sèvres)",
+        "contrato_sexual_visual": "Corpo feminino completamente domesticado: coberto, estático, heraldicizado. O Contrato Sexual Visual opera pela neutralização da corporalidade — La Justice torna-se ícone institucional, não corpo vivo.",
+        "colonialidade_do_ver": null,
+        "analyst_notes": "Entrada manual. Verificar: autoria do modelo, dimensões, número de inventário, localização atual. #verificar #sem-iiif"
       }
     }
   }

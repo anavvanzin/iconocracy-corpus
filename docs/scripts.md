@@ -12,6 +12,11 @@ python tools/scripts/<script_name>.py [args]
 |--------|---------|-----------------|
 | `csv_to_records.py` | **Migra** `corpus-data.json` + `corpus_dataset.csv` → `records.jsonl` | stdlib |
 | `records_to_corpus.py` | **Exporta** `records.jsonl` → `corpus/corpus-data.json` (merge ou replace) | stdlib |
+| `argos_build_manifest.py` | **Constrói** `data/raw/argos/manifest.json` com itens pendentes, protocolos e destino de armazenamento | stdlib |
+| `argos_acquire_item.py` | **Adquire** um item do manifesto, registra tentativas, sidecar e atualização atômica do status | stdlib + protocolos ARGOS |
+| `argos_manifest_update.py` | **Atualiza** um item do manifesto com patch JSON sob lock atômico | stdlib |
+| `argos_prepare_dispatch.py` | **Agrupa** itens pendentes por domínio/protocolo para despacho determinístico de subagentes | stdlib |
+| `argos_report.py` | **Gera** `data/raw/argos/report.md` a partir do manifesto consolidado | stdlib |
 | `vault_sync.py` | **Sincroniza** `records.jsonl` ↔ `vault/candidatos/` (Obsidian) | stdlib |
 | `vault_backup.py` | **Cria** backup local do vault fora do histórico normal do git | stdlib |
 | `build_hf_release.py` | **Gera** snapshot do dataset para Hugging Face + dataset card | stdlib + `hf` CLI opcional |
@@ -69,6 +74,57 @@ python tools/scripts/records_to_corpus.py             # merge export
 python tools/scripts/records_to_corpus.py --replace   # full replace
 python tools/scripts/records_to_corpus.py --diff      # show differences
 python tools/scripts/records_to_corpus.py --dry-run   # preview only
+```
+
+### `argos_build_manifest.py`
+
+Constrói o manifesto operacional do ARGOS em `data/raw/argos/manifest.json`, cruzando `corpus/corpus-data.json` com `data/raw/drive-manifest.json` para identificar itens pendentes, classificar protocolo de aquisição e resolver o tier de armazenamento.
+
+```bash
+python tools/scripts/argos_build_manifest.py
+python tools/scripts/argos_build_manifest.py --dry-run
+python tools/scripts/argos_build_manifest.py --limit 25
+python tools/scripts/argos_build_manifest.py --output data/raw/argos/manifest.json
+```
+
+### `argos_acquire_item.py`
+
+Executa a aquisição de um único item do manifesto ARGOS. Registra tentativas, calcula SHA256, grava sidecar de proveniência e atualiza o manifesto de forma atômica, com fallback para IIIF ou Playwright quando permitido.
+
+```bash
+python tools/scripts/argos_acquire_item.py --item-id BR-001
+python tools/scripts/argos_acquire_item.py --manifest data/raw/argos/manifest.json --item-id FR-013
+python tools/scripts/argos_acquire_item.py --item-id US-010 --dry-run
+python tools/scripts/argos_acquire_item.py --item-id DE-004 --playwright-allowed
+```
+
+### `argos_manifest_update.py`
+
+Aplica um patch JSON a um item específico de `manifest.json`, usando lock file para evitar condições de corrida entre subagentes.
+
+```bash
+python tools/scripts/argos_manifest_update.py --item-id BR-001 --patch '{"status":"manual_review"}'
+python tools/scripts/argos_manifest_update.py --manifest data/raw/argos/manifest.json --item-id FR-013 --patch '{"failure_class":"403_block"}'
+```
+
+### `argos_prepare_dispatch.py`
+
+Lê `data/raw/argos/manifest.json` e agrupa itens pendentes por domínio e protocolo, emitindo grupos determinísticos para despacho paralelo de subagentes; fontes pequenas, bloqueadas ou desconhecidas podem ser consolidadas no grupo `longtail`.
+
+```bash
+python tools/scripts/argos_prepare_dispatch.py
+python tools/scripts/argos_prepare_dispatch.py --manifest data/raw/argos/manifest.json
+python tools/scripts/argos_prepare_dispatch.py --max-groups 4
+```
+
+### `argos_report.py`
+
+Gera `data/raw/argos/report.md` a partir do manifesto consolidado, resumindo sucessos, pendências, bloqueios e casos de intervenção manual.
+
+```bash
+python tools/scripts/argos_report.py
+python tools/scripts/argos_report.py --manifest data/raw/argos/manifest.json
+python tools/scripts/argos_report.py --output data/raw/argos/report.md
 ```
 
 ### `vault_sync.py`

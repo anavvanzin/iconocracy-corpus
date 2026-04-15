@@ -21,7 +21,11 @@ Canonical data hierarchy:
 3. `data/processed/purification.jsonl` — ENDURECIMENTO coding ledger
 4. `vault/candidatos/` — auxiliary mirror only
 
-See [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md) and [docs/huggingface-release.md](docs/huggingface-release.md).
+See [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md), [docs/WORKFLOW.md](docs/WORKFLOW.md), and [docs/huggingface-release.md](docs/huggingface-release.md).
+
+Canonical workspace root: `/Users/ana/Research`.
+Workspace topology and compatibility paths: [docs/workspace-map.md](docs/workspace-map.md).
+Git-safe migration note: tracked thesis-owned directories such as `vault/` and `iconocracy-ingest/` remain versioned in this repository while sibling `Research/...` paths provide the workspace-facing entrypoints.
 
 ---
 

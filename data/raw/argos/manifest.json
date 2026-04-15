@@ -1,0 +1,567 @@
+{
+  "manifest_version": "1.0",
+  "generated_at": "2026-04-14T03:37:40Z",
+  "storage_root": "/Volumes/ICONOCRACIA/corpus/imagens",
+  "storage_tier": "ssd",
+  "summary": {
+    "total_items": 20,
+    "pending": 0,
+    "success": 0,
+    "partial": 0,
+    "failed": 14,
+    "manual": 6
+  },
+  "items": [
+    {
+      "item_id": "AR-001",
+      "title": "Allegory, Liberty Seated — Selo definitivo da República Argentina",
+      "source_url": "https://colnect.com/en/stamps/stamp/128820-Allegory_Liberty_Seated-Allegory-Argentina",
+      "source_domain": "colnect.com",
+      "protocol": "playwright-required",
+      "status": "manual",
+      "failure_class": "manual_required",
+      "failure_reason": "Playwright fallback for colnect.com requires manual review unless explicitly allowed",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "playwright",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "colnect.com",
+          "bytes_written": 0,
+          "source_domain": "colnect.com",
+          "notes": [
+            "Restricted domain policy matched: colnect.com"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:27Z",
+        "retrieved_from": "https://colnect.com/en/stamps/stamp/128820-Allegory_Liberty_Seated-Allegory-Argentina"
+      }
+    },
+    {
+      "item_id": "AT-001",
+      "title": "Zeichnet 8. Kriegsanleihe",
+      "source_url": "https://www.loc.gov/item/2004666193/",
+      "source_domain": "www.loc.gov",
+      "protocol": "iiif",
+      "status": "failed",
+      "failure_class": "iiif_image_unavailable",
+      "failure_reason": "Discovered IIIF manifest but no fetchable image URL",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "iiif",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "www.loc.gov",
+          "bytes_written": 0,
+          "source_domain": "www.loc.gov",
+          "notes": [],
+          "manifest_url": "https://www.loc.gov/item/2004666193/?fo=json",
+          "iiif_source": "loc_api"
+        },
+        "retrieved_at": "2026-04-14T03:39:52Z",
+        "retrieved_from": "https://www.loc.gov/item/2004666193/"
+      }
+    },
+    {
+      "item_id": "BE-001",
+      "title": "Allégorie de la Justice (Joseph Stallaert, Brussels City Hall)",
+      "source_url": "https://collections.heritage.brussels/fr/objects/36822",
+      "source_domain": "collections.heritage.brussels",
+      "protocol": "unknown",
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "direct",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "collections.heritage.brussels",
+          "bytes_written": 0,
+          "source_domain": "collections.heritage.brussels",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:40:19Z",
+        "retrieved_from": "https://collections.heritage.brussels/fr/objects/36822"
+      }
+    },
+    {
+      "item_id": "BE-002",
+      "title": "Palais de Justice de Bruxelles (Joseph Poelaert)",
+      "source_url": "https://be-monumen.be/patrimoine-belge/poelaert-joseph/",
+      "source_domain": "be-monumen.be",
+      "protocol": "unknown",
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "direct",
+        "metadata": {
+          "thumbnail_missing": false,
+          "dispatch_group": "be-monumen.be",
+          "bytes_written": 0,
+          "source_domain": "be-monumen.be",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:40:27Z",
+        "retrieved_from": "https://be-monumen.be/patrimoine-belge/poelaert-joseph/"
+      }
+    },
+    {
+      "item_id": "BE-5F-LEOPOLD-1832",
+      "title": "5 Francs — Léopold I (founding coin of Belgium)",
+      "source_url": "https://en.numista.com/catalogue/pieces255.html",
+      "source_domain": "en.numista.com",
+      "protocol": "playwright-required",
+      "status": "manual",
+      "failure_class": "manual_required",
+      "failure_reason": "Playwright fallback for numista.com requires manual review unless explicitly allowed",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "playwright",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "en.numista.com",
+          "bytes_written": 0,
+          "source_domain": "en.numista.com",
+          "notes": [
+            "Restricted domain policy matched: numista.com"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:40Z",
+        "retrieved_from": "https://en.numista.com/catalogue/pieces255.html"
+      }
+    },
+    {
+      "item_id": "BE-CONGO-100F-1912",
+      "title": "100 Francs Banque du Congo Belge — Allegory of Europe Kneeling with African Boys",
+      "source_url": "https://en.numista.com/258715",
+      "source_domain": "en.numista.com",
+      "protocol": "playwright-required",
+      "status": "manual",
+      "failure_class": "manual_required",
+      "failure_reason": "Playwright fallback for numista.com requires manual review unless explicitly allowed",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "playwright",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "en.numista.com",
+          "bytes_written": 0,
+          "source_domain": "en.numista.com",
+          "notes": [
+            "Restricted domain policy matched: numista.com"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:47Z",
+        "retrieved_from": "https://en.numista.com/258715"
+      }
+    },
+    {
+      "item_id": "BE-CONGO-MON-1921",
+      "title": "Monument aux Pionniers Belges au Congo — La Race Noire Accueillie par la Belgique",
+      "source_url": "https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo",
+      "source_domain": "en.wikipedia.org",
+      "protocol": "direct",
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "direct",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "en.wikipedia.org",
+          "bytes_written": 0,
+          "source_domain": "en.wikipedia.org",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:37Z",
+        "retrieved_from": "https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo"
+      }
+    },
+    {
+      "item_id": "BE-IND-1880",
+      "title": "5 Francs — 50 ans de Belgique: La Belgique avec Constitution et Lion",
+      "source_url": "https://en.numista.com/catalogue/pieces27258.html",
+      "source_domain": "en.numista.com",
+      "protocol": "playwright-required",
+      "status": "manual",
+      "failure_class": "manual_required",
+      "failure_reason": "Playwright fallback for numista.com requires manual review unless explicitly allowed",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "playwright",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "en.numista.com",
+          "bytes_written": 0,
+          "source_domain": "en.numista.com",
+          "notes": [
+            "Restricted domain policy matched: numista.com"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:55Z",
+        "retrieved_from": "https://en.numista.com/catalogue/pieces27258.html"
+      }
+    },
+    {
+      "item_id": "BE-CONGO-1912",
+      "title": "20 Francs Belgian Congo — Allegory of Europe with Mace and African Woman with Ivory Tusk",
+      "source_url": "https://en.numista.com/catalogue/note258714.html",
+      "source_domain": "en.numista.com",
+      "protocol": "playwright-required",
+      "status": "manual",
+      "failure_class": "manual_required",
+      "failure_reason": "Playwright fallback for numista.com requires manual review unless explicitly allowed",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "playwright",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "en.numista.com",
+          "bytes_written": 0,
+          "source_domain": "en.numista.com",
+          "notes": [
+            "Restricted domain policy matched: numista.com"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:52Z",
+        "retrieved_from": "https://en.numista.com/catalogue/note258714.html"
+      }
+    },
+    {
+      "item_id": "BR-001",
+      "title": "Estátua feminina na abertura da amostra dos produtos do Rio Grande do Sul",
+      "source_url": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778",
+      "source_domain": "brasilianafotografica.bn.gov.br",
+      "protocol": "unknown",
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "direct",
+        "metadata": {
+          "thumbnail_missing": false,
+          "dispatch_group": "brasilianafotografica.bn.gov.br",
+          "bytes_written": 0,
+          "source_domain": "brasilianafotografica.bn.gov.br",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:40:27Z",
+        "retrieved_from": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778"
+      }
+    },
+    {
+      "item_id": "BR-002",
+      "title": "Detalhe do monumento à República, Praça da República, Belém",
+      "source_url": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609",
+      "source_domain": "brasilianafotografica.bn.gov.br",
+      "protocol": "unknown",
+      "status": "failed",
+      "failure_class": "iiif_unavailable",
+      "failure_reason": "No supported IIIF pattern discovered",
+      "attempts": 2,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "iiif",
+        "metadata": {
+          "thumbnail_missing": false,
+          "dispatch_group": "brasilianafotografica.bn.gov.br",
+          "bytes_written": 0,
+          "source_domain": "brasilianafotografica.bn.gov.br",
+          "notes": []
+        },
+        "retrieved_at": "2026-04-14T03:40:34Z",
+        "retrieved_from": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609"
+      }
+    },
+    {
+      "item_id": "BR-003",
+      "title": "Monumento à República, Praça da República, Belém (vista geral)",
+      "source_url": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611",
+      "source_domain": "brasilianafotografica.bn.gov.br",
+      "protocol": "unknown",
+      "status": "failed",
+      "failure_class": "iiif_unavailable",
+      "failure_reason": "No supported IIIF pattern discovered",
+      "attempts": 2,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "iiif",
+        "metadata": {
+          "thumbnail_missing": false,
+          "dispatch_group": "brasilianafotografica.bn.gov.br",
+          "bytes_written": 0,
+          "source_domain": "brasilianafotografica.bn.gov.br",
+          "notes": []
+        },
+        "retrieved_at": "2026-04-14T03:40:41Z",
+        "retrieved_from": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611"
+      }
+    },
+    {
+      "item_id": "BR-004",
+      "title": "Jardim do Campo da Aclamação (Campo de Santana): estátuas do Outono e da Primavera",
+      "source_url": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529",
+      "source_domain": "brasilianafotografica.bn.gov.br",
+      "protocol": "unknown",
+      "status": "failed",
+      "failure_class": "iiif_unavailable",
+      "failure_reason": "No supported IIIF pattern discovered",
+      "attempts": 2,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "iiif",
+        "metadata": {
+          "thumbnail_missing": false,
+          "dispatch_group": "brasilianafotografica.bn.gov.br",
+          "bytes_written": 0,
+          "source_domain": "brasilianafotografica.bn.gov.br",
+          "notes": []
+        },
+        "retrieved_at": "2026-04-14T03:40:47Z",
+        "retrieved_from": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529"
+      }
+    },
+    {
+      "item_id": "BR-005",
+      "title": "Alegoria da República (Décio Villares)",
+      "source_url": "https://archive.nyu.edu/handle/2451/61396",
+      "source_domain": "archive.nyu.edu",
+      "protocol": "unknown",
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "direct",
+        "metadata": {
+          "thumbnail_missing": false,
+          "dispatch_group": "archive.nyu.edu",
+          "bytes_written": 0,
+          "source_domain": "archive.nyu.edu",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:40:49Z",
+        "retrieved_from": "https://archive.nyu.edu/handle/2451/61396"
+      }
+    },
+    {
+      "item_id": "BR-006",
+      "title": "Alegoria da República (Carlos Chambelland)",
+      "source_url": "https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/",
+      "source_domain": "brasiliana.museus.gov.br",
+      "protocol": "unknown",
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "direct",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "brasiliana.museus.gov.br",
+          "bytes_written": 0,
+          "source_domain": "brasiliana.museus.gov.br",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:40:51Z",
+        "retrieved_from": "https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/"
+      }
+    },
+    {
+      "item_id": "BR-007",
+      "title": "As Estátuas Fallando (The Statues Speaking) — Justiça",
+      "source_url": "http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf",
+      "source_domain": "memoria.bn.br",
+      "protocol": "unknown",
+      "status": "failed",
+      "failure_class": "404_not_found",
+      "failure_reason": "HTTP 404: Not Found",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "direct",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "memoria.bn.br",
+          "bytes_written": 0,
+          "status_code": 404,
+          "source_domain": "memoria.bn.br",
+          "notes": []
+        },
+        "retrieved_at": "2026-04-14T03:40:52Z",
+        "retrieved_from": "http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf"
+      }
+    },
+    {
+      "item_id": "BR-008",
+      "title": "Estátua da Justiça (Luiz Rochet) — referência no Almanak Laemmert",
+      "source_url": "http://memoria.bn.br/docreader/webindex/WIPagina/313394/101306",
+      "source_domain": "memoria.bn.br",
+      "protocol": "unknown",
+      "status": "failed",
+      "failure_class": "iiif_unavailable",
+      "failure_reason": "No supported IIIF pattern discovered",
+      "attempts": 2,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "iiif",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "memoria.bn.br",
+          "bytes_written": 0,
+          "source_domain": "memoria.bn.br",
+          "notes": []
+        },
+        "retrieved_at": "2026-04-14T03:40:59Z",
+        "retrieved_from": "http://memoria.bn.br/docreader/webindex/WIPagina/313394/101306"
+      }
+    },
+    {
+      "item_id": "BR-009",
+      "title": "A Justiça (Alfredo Ceschiatti, STF Brasília)",
+      "source_url": "https://acervos.ims.com.br/index.php/Detail/objects/18758",
+      "source_domain": "acervos.ims.com.br",
+      "protocol": "unknown",
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "direct",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "acervos.ims.com.br",
+          "bytes_written": 0,
+          "source_domain": "acervos.ims.com.br",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:40:59Z",
+        "retrieved_from": "https://acervos.ims.com.br/index.php/Detail/objects/18758"
+      }
+    },
+    {
+      "item_id": "BR-010",
+      "title": "Eliseu Visconti — Alegoria (Biblioteca Nacional, Rio de Janeiro)",
+      "source_url": "https://eliseuvisconti.com.br/obra/d702/",
+      "source_domain": "eliseuvisconti.com.br",
+      "protocol": "unknown",
+      "status": "failed",
+      "failure_class": "unexpected_content_type",
+      "failure_reason": "Unexpected content type: text/html",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "direct",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "eliseuvisconti.com.br",
+          "bytes_written": 0,
+          "source_domain": "eliseuvisconti.com.br",
+          "notes": [
+            "Rejected response with content-type text/html"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:41:03Z",
+        "retrieved_from": "https://eliseuvisconti.com.br/obra/d702/"
+      }
+    },
+    {
+      "item_id": "BR-1000R-1906",
+      "title": "1000 Réis — Efígie da República (Brasil, 1906–1912)",
+      "source_url": "https://en.numista.com/catalogue/pieces14484.html",
+      "source_domain": "en.numista.com",
+      "protocol": "playwright-required",
+      "status": "manual",
+      "failure_class": "manual_required",
+      "failure_reason": "Playwright fallback for numista.com requires manual review unless explicitly allowed",
+      "attempts": 1,
+      "local_path": "",
+      "sha256": "",
+      "provenance": {
+        "agent": "argos",
+        "method": "playwright",
+        "metadata": {
+          "thumbnail_missing": true,
+          "dispatch_group": "en.numista.com",
+          "bytes_written": 0,
+          "source_domain": "en.numista.com",
+          "notes": [
+            "Restricted domain policy matched: numista.com"
+          ]
+        },
+        "retrieved_at": "2026-04-14T03:38:58Z",
+        "retrieved_from": "https://en.numista.com/catalogue/pieces14484.html"
+      }
+    }
+  ]
+}
