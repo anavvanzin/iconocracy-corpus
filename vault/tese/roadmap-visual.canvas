@@ -1,0 +1,305 @@
+{
+  "nodes": [
+    {
+      "id": "a1",
+      "type": "text",
+      "text": "**Artigo: Imagens da Nação**\n*(A reciclar para Capítulos)*",
+      "x": 0,
+      "y": 0,
+      "width": 260,
+      "height": 70,
+      "color": "3"
+    },
+    {
+      "id": "a2",
+      "type": "text",
+      "text": "**Artigo: Maria, Marianne**\n*(A reciclar para Capítulos)*",
+      "x": 0,
+      "y": 100,
+      "width": 260,
+      "height": 70,
+      "color": "3"
+    },
+    {
+      "id": "a3",
+      "type": "text",
+      "text": "**Artigo: O contrato visual**\n*(A reciclar para Capítulos)*",
+      "x": 0,
+      "y": 200,
+      "width": 260,
+      "height": 70,
+      "color": "3"
+    },
+    {
+      "id": "a4",
+      "type": "text",
+      "text": "**Artigo: Vrouwe Justitia**\n*(A reciclar para Capítulos)*",
+      "x": 0,
+      "y": 300,
+      "width": 260,
+      "height": 70,
+      "color": "3"
+    },
+    {
+      "id": "a5",
+      "type": "text",
+      "text": "**Artigo: A Materialidade**\n*(A reciclar para Capítulos)*",
+      "x": 0,
+      "y": 400,
+      "width": 260,
+      "height": 70,
+      "color": "3"
+    },
+    {
+      "id": "a6",
+      "type": "text",
+      "text": "**Artigo: Iconocracia Tropical**\n*(A reciclar para Capítulos)*",
+      "x": 0,
+      "y": 500,
+      "width": 260,
+      "height": 70,
+      "color": "3"
+    },
+    {
+      "id": "a7",
+      "type": "text",
+      "text": "**Artigo: O Silêncio da Justiça**\n*(A reciclar para Capítulos)*",
+      "x": 0,
+      "y": 600,
+      "width": 260,
+      "height": 70,
+      "color": "3"
+    },
+    {
+      "id": "c1",
+      "type": "text",
+      "text": "**Capítulo 1\nGenealogia**",
+      "x": 450,
+      "y": 0,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "c2",
+      "type": "text",
+      "text": "**Capítulo 2\nIconocracia**",
+      "x": 450,
+      "y": 110,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "c3",
+      "type": "text",
+      "text": "**Capítulo 3\nColonialidade do Ver**",
+      "x": 450,
+      "y": 220,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "c4",
+      "type": "text",
+      "text": "**Capítulo 4\nO Panteão**",
+      "x": 450,
+      "y": 330,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "c5",
+      "type": "text",
+      "text": "**Capítulo 5\nA República**",
+      "x": 450,
+      "y": 440,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "c6",
+      "type": "text",
+      "text": "**Capítulo 6\nA Toga**",
+      "x": 450,
+      "y": 550,
+      "width": 260,
+      "height": 90,
+      "color": "5"
+    },
+    {
+      "id": "h0",
+      "type": "text",
+      "text": "**H0 (Imediato)\nDesbloqueios Técnicos\n(Concluído)**",
+      "x": 900,
+      "y": 0,
+      "width": 280,
+      "height": 100,
+      "color": "5"
+    },
+    {
+      "id": "h1",
+      "type": "text",
+      "text": "**H1 (Abr-Jul 2026)\nFoco: Caps 6, 4-5 e 2**",
+      "x": 900,
+      "y": 150,
+      "width": 280,
+      "height": 100,
+      "color": "4"
+    },
+    {
+      "id": "h2",
+      "type": "text",
+      "text": "**H2 (Ago-Dez 2026)\nFoco: Cap 3 e Submissões**",
+      "x": 900,
+      "y": 300,
+      "width": 280,
+      "height": 100,
+      "color": "2"
+    },
+    {
+      "id": "h3",
+      "type": "text",
+      "text": "**H3 (2027)\nFoco: Qualificação (Nov)\nDefesa Final**",
+      "x": 900,
+      "y": 450,
+      "width": 280,
+      "height": 100,
+      "color": "1"
+    },
+    {
+      "id": "group_artigos",
+      "type": "group",
+      "label": "Material Base (7 Artigos ~39.5k palavras)",
+      "x": -20,
+      "y": -40,
+      "width": 300,
+      "height": 720,
+      "color": "3"
+    },
+    {
+      "id": "group_caps",
+      "type": "group",
+      "label": "Estrutura da Tese",
+      "x": 430,
+      "y": -40,
+      "width": 300,
+      "height": 720,
+      "color": "4"
+    },
+    {
+      "id": "group_timeline",
+      "type": "group",
+      "label": "Cronograma / Horizontes",
+      "x": 880,
+      "y": -40,
+      "width": 320,
+      "height": 620,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_a1_c4",
+      "fromNode": "a1",
+      "fromSide": "right",
+      "toNode": "c4",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e_a2_c5",
+      "fromNode": "a2",
+      "fromSide": "right",
+      "toNode": "c5",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e_a3_c2",
+      "fromNode": "a3",
+      "fromSide": "right",
+      "toNode": "c2",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e_a4_c6",
+      "fromNode": "a4",
+      "fromSide": "right",
+      "toNode": "c6",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e_a5_c2",
+      "fromNode": "a5",
+      "fromSide": "right",
+      "toNode": "c2",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e_a6_c3",
+      "fromNode": "a6",
+      "fromSide": "right",
+      "toNode": "c3",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e_a6_c4",
+      "fromNode": "a6",
+      "fromSide": "right",
+      "toNode": "c4",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e_a7_c2",
+      "fromNode": "a7",
+      "fromSide": "right",
+      "toNode": "c2",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "e_h1_c6",
+      "fromNode": "h1",
+      "fromSide": "left",
+      "toNode": "c6",
+      "toSide": "right"
+    },
+    {
+      "id": "e_h1_c4",
+      "fromNode": "h1",
+      "fromSide": "left",
+      "toNode": "c4",
+      "toSide": "right"
+    },
+    {
+      "id": "e_h1_c5",
+      "fromNode": "h1",
+      "fromSide": "left",
+      "toNode": "c5",
+      "toSide": "right"
+    },
+    {
+      "id": "e_h1_c2",
+      "fromNode": "h1",
+      "fromSide": "left",
+      "toNode": "c2",
+      "toSide": "right"
+    },
+    {
+      "id": "e_h2_c3",
+      "fromNode": "h2",
+      "fromSide": "left",
+      "toNode": "c3",
+      "toSide": "right"
+    }
+  ]
+}
