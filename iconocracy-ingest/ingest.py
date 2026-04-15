@@ -187,7 +187,9 @@ def process_file(
         "min_confidence": ocr_result.min_confidence,
         "low_conf_pages": ocr_result.low_conf_pages,
         "caption_count": len(captions),
-        "has_figures": len(captions) > 0,
+        "has_figures": any(
+            c.match_type in ("caption", "figure_ref") for c in captions
+        ),
         "year_detected": year,
         "input_folder": str(filepath.parent),
         "notes": ocr_result.error or "",
