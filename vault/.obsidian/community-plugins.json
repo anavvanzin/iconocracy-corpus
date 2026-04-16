@@ -1,1 +1,8 @@
-["templater-obsidian"]
+[
+  "templater-obsidian",
+  "table-editor-obsidian",
+  "obsidian-annotator",
+  "dataview",
+  "editing-toolbar",
+  "obsidian-enhancing-mindmap"
+]
