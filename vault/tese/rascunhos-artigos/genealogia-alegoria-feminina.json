@@ -1,0 +1,903 @@
+{
+  "_meta": {
+    "schema_version": "1.0.0",
+    "document_id": "ICONOCRACY-ESSAY-A",
+    "titulo_principal": "O contrato visual: alegoria feminina e contrato sexual na história da cultura jurídica",
+    "titulo_alternativo": "Genealogia da Alegoria Feminina: Da Gramática ao Contrato Sexual Visual",
+    "autora": "Ana Vanzin",
+    "afiliacao": "Programa de Pós-Graduação em Direito (PPGD) — Universidade Federal de Santa Catarina (UFSC)",
+    "grupo_pesquisa": "Ius Gentium (UFSC/CNPq)",
+    "data_publicacao": "2026-03-28",
+    "versao": "v3 — revisado (peer review incorporado 2026-04-01)",
+    "status": "revisado",
+    "repositorio_origem": "anavvanzin/iconocracy-corpus",
+    "caminho_origem": "vault/tese/rascunhos-artigos/O contrato visual.md",
+    "tipo_documento": "artigo-academico",
+    "palavras_chave": [
+      "Contrato Sexual Visual",
+      "iconologia jurídica",
+      "contrato sexual",
+      "alegoria feminina",
+      "Justitia",
+      "história da cultura jurídica",
+      "gênero",
+      "ENDURECIMENTO",
+      "Pathosformel",
+      "Visiocracia"
+    ],
+    "resumo": "O artigo investiga por que as grandes abstrações jurídicas — Justiça, República, Liberdade, Lei — são sistematicamente representadas por corpos femininos na tradição iconográfica ocidental. Articula Carole Pateman e Marina Warner para propor o conceito de Contrato Sexual Visual: a estrutura semiótica pela qual a iconografia jurídica mobiliza o corpo feminino como suporte privilegiado da abstração normativa, naturalizando a exclusão das mulheres reais.",
+    "abstract_en": "This article investigates why the great legal abstractions are systematically represented by female bodies in the Western iconographic tradition. Building on Pateman and Warner, it proposes the concept of Visual Contract: the semiotic structure by which legal iconography mobilizes the female body as privileged support for normative abstraction, naturalizing the exclusion of real women.",
+    "tags_iconocracy": [
+      "contrato-sexual-visual",
+      "endurecimento",
+      "feminilidade-de-estado",
+      "visiocracia",
+      "economia-iconica",
+      "pathosformel"
+    ]
+  },
+
+  "theses": [
+    {
+      "id": "TESE-01",
+      "titulo": "O Álibi Gramatical",
+      "subtitulo": "O gênero gramatical como causa ilusória da alegoria feminina",
+      "posicao_no_argumento": 1,
+      "resumo": "A explicação convencional aponta para uma convenção linguística: substantivos abstratos como 'Iustitia', 'Libertas' e 'Veritas' são gramaticalmente femininos no latim e nas línguas neolatinas, e a tradição artística limitaria-se a traduzir o gênero gramatical em gênero visual. Esta tese demonstra que essa explicação é insuficiente e funcionalmente cega.",
+      "argumento_central": "O fato de 'Iustitia' ser feminino em latim não obriga ninguém a representá-la como mulher. Trata-se de uma escolha cultural, não de uma dedução gramatical. Além disso, a convenção persiste em línguas sem gênero gramatical — como o inglês — onde 'Justice' é neutro, mas Lady Justice continua feminina. O gênero gramatical é tomado por causa quando é apenas condição.",
+      "refutacoes": [
+        {
+          "argumento_refutado": "O latim determina a representação visual",
+          "refutacao": "É uma escolha cultural que toma a condição por causa — o gênero gramatical não obriga a representação figurativa."
+        },
+        {
+          "argumento_refutado": "A convenção se limita a línguas latinas",
+          "refutacao": "Em inglês, 'Justice' não tem gênero gramatical, mas Lady Justice continua feminina, provando que a persistência é cultural, não linguística."
+        }
+      ],
+      "theoretical_framework": [
+        {
+          "autor": "Cesare Ripa",
+          "obra": "Iconologia, overo descrittione dell'imagini universali",
+          "ano": 1603,
+          "contribuicao": "Codificação da explicação gramatical como justificativa da alegoria feminina — modelo que este artigo critica como insuficiente."
+        },
+        {
+          "autor": "Marina Warner",
+          "obra": "Monuments and Maidens: The Allegory of the Female Form",
+          "ano": 1985,
+          "contribuicao": "Formulação precisa do paradoxo: 'figures of women are conventionally chosen to personify an ideal, while most women are excluded from pursuing that ideal practically.' Warner identifica a estrutura, mas não a explica causalmente."
+        },
+        {
+          "autor": "Georges Martyn",
+          "obra": "Twenty Centuries of Legal Iconography: The Third Level",
+          "ano": 2018,
+          "contribuicao": "Abertura metodológica da iconologia jurídica histórica que identifica o silêncio sobre gênero como um ponto cego do campo."
+        }
+      ],
+      "lacuna_que_abre": "Se o gênero gramatical não explica a persistência, qual é o mecanismo real? Isso abre caminho para a Tese 02 (Abstração pela Exclusão)."
+    },
+    {
+      "id": "TESE-02",
+      "titulo": "A Abstração pela Exclusão",
+      "subtitulo": "A exclusão institucional das mulheres como condição de possibilidade da alegoria feminina",
+      "posicao_no_argumento": 2,
+      "resumo": "A alegoria feminina da Justiça funciona precisamente porque a mulher concreta está ausente do campo jurídico. É a exclusão institucional que permite ao corpo feminino operar como significante 'puro', desvinculado de qualquer agência real. Essa estrutura é análoga — não causal, mas homóloga — ao Contrato Sexual de Pateman.",
+      "argumento_central": "Se as mulheres fossem juízas, advogadas e legisladoras, a feminilidade da Justitia deixaria de ser transparente e passaria a ser problemática — a alegoria perderia sua eficácia naturalizadora. A exclusão institucional não é um efeito colateral; ela é a condição estrutural que torna possível a captura simbólica do corpo feminino. O corpo feminino alegórico não remete a nenhuma mulher particular, operando como um significante esvaziado que pode ser investido de qualquer conteúdo institucional.",
+      "mecanismo_estrutural": {
+        "passo_1": "Mulheres são excluídas do campo jurídico como sujeitos de direito e exercentes de funções.",
+        "passo_2": "O campo jurídico necessita de símbolos de universalidade, imparcialidade e transcendência.",
+        "passo_3": "O corpo feminino, esvaziado de agência concreta pela exclusão, torna-se disponível como significante puro para a abstração.",
+        "passo_4": "A alegoria naturaliza a exclusão ao apresentar a presença simbólica como substituto da presença real.",
+        "relacao_causal": "Não causal direta, mas homologia estrutural com o Contrato Sexual de Pateman: ambos pressupõem a subordinação como condição da universalidade proclamada."
+      },
+      "correlato_historico": "Precisamente no período em que a venda da Justitia se naturaliza como atributo de imparcialidade (séculos XVI–XVIII), consolida-se na doutrina europeia a incapacidade civil e política das mulheres: tutela perpétua da mulher casada, proibição do exercício de cargos judiciais, exclusão do testemunho feminino.",
+      "theoretical_framework": [
+        {
+          "autor": "Carole Pateman",
+          "obra": "The Sexual Contract",
+          "ano": 1988,
+          "contribuicao": "Demonstração de que o contrato social pressupõe um contrato sexual anterior, não narrado, que subordina as mulheres enquanto proclama liberdade universal. A estrutura é homóloga ao Contrato Visual: ambos dependem funcionalmente da omissão da subordinação."
+        },
+        {
+          "autor": "Carole Pateman",
+          "obra": "Thirty Years after The Sexual Contract",
+          "ano": 2018,
+          "contribuicao": "Reafirmação da atualidade da estrutura do contrato sexual nos contratos de trabalho, barriga de aluguel e políticas de welfare."
+        },
+        {
+          "autor": "Erwin Panofsky",
+          "obra": "Studies in Iconology: Humanistic Themes in the Art of the Renaissance",
+          "ano": 1939,
+          "contribuicao": "O terceiro nível iconológico — as 'tendências essenciais da mente humana' — é o nível onde a gramática de gênero opera inconscientemente."
+        },
+        {
+          "autor": "Peter Goodrich",
+          "obra": "Imago Decidendi",
+          "ano": 2017,
+          "contribuicao": "Visiocracia: o controle sobre o campo visual como forma de controle sobre a ordem social e jurídica."
+        }
+      ]
+    },
+    {
+      "id": "TESE-03",
+      "titulo": "A Castração da Deusa — ENDURECIMENTO",
+      "subtitulo": "O processo de purificação que transforma o corpo vivo em ícone estatal",
+      "posicao_no_argumento": 3,
+      "resumo": "A passagem da deusa ativa (Themis, Dike, Justitia pré-moderna) para a alegoria vendada e petrificada não é uma simples mudança iconográfica: é um processo de ENDURECIMENTO — a progressiva purificação do corpo feminino que o transforma de corpo vivo (com atributos de agência, desejo, visão) em ícone estatal (rígido, dessexualizado, serializado, sem narrativa).",
+      "argumento_central": "O ENDURECIMENTO não é neutro: ele apaga sistematicamente os traços de agência e humanidade do corpo feminino. A Justitia perde a visão (venda), perde o movimento (rigidez postural), perde a singularidade (uniformização facial), perde a narrativa (apagamento narrativo) e ganha a serialidade industrial (reprodução em massa). Cada atributo perdido corresponde a um traço de subjetividade — a castração da deusa é a transformação da mulher-sujeito em mulher-símbolo.",
+      "endurecimento": {
+        "definicao": "Processo de purificação progressiva que transforma o corpo feminino alegorizado de corpo vivo em ícone estatal. Mensurável pelos 10 indicadores de purificação do protocolo IconoCode.",
+        "regra_terminologica": "SEMPRE em português — nunca 'hardening' ou 'embrutecimento'.",
+        "indicadores_de_purificacao": [
+          {
+            "numero": 1,
+            "nome": "desincorporacao",
+            "descricao": "Redução do corpo inteiro ao busto, ao rosto e finalmente ao símbolo abstrato.",
+            "escala": "0 = corpo inteiro representado; 4 = apenas símbolo heráldico"
+          },
+          {
+            "numero": 2,
+            "nome": "rigidez_postural",
+            "descricao": "Congelamento do corpo de dinâmico (correndo, gesticulando) para estático (frontal, sentado, imóvel).",
+            "escala": "0 = movimento máximo; 4 = imobilidade total"
+          },
+          {
+            "numero": 3,
+            "nome": "dessexualizacao",
+            "descricao": "Ocultação do corpo feminino, remoção de marcadores corporais (seios, cintura, cabelos).",
+            "escala": "0 = corpo exposto e marcado; 4 = corpo totalmente neutralizado"
+          },
+          {
+            "numero": 4,
+            "nome": "uniformizacao_facial",
+            "descricao": "Substituição de feições individuais por fisionomia genérica e intercambiável.",
+            "escala": "0 = rosto singular, identificável; 4 = rosto completamente genérico"
+          },
+          {
+            "numero": 5,
+            "nome": "heraldicizacao",
+            "descricao": "Integração da figura em programa heráldico ou institucional (brasões, selos, insígnias).",
+            "escala": "0 = figura autônoma; 4 = completamente integrada ao programa heráldico"
+          },
+          {
+            "numero": 6,
+            "nome": "enquadramento_arquitetonico",
+            "descricao": "Emolduramento por bordas arquitetônicas ou ornamentais que fixam a figura em espaço institucional.",
+            "escala": "0 = sem enquadramento; 4 = integração total em moldura arquitetônica"
+          },
+          {
+            "numero": 7,
+            "nome": "apagamento_narrativo",
+            "descricao": "Remoção do contexto narrativo (história, ação, drama) — a figura deixa de contar uma história e passa a ser um ícone.",
+            "escala": "0 = narrativa completa; 4 = pura iconicidade sem narrativa"
+          },
+          {
+            "numero": 8,
+            "nome": "monocromatizacao",
+            "descricao": "Redução da policromia à monocromia e finalmente à metalicidade (bronze, mármore, chumbo).",
+            "escala": "0 = policromia plena; 4 = monocromatismo absoluto (metal, pedra)"
+          },
+          {
+            "numero": 9,
+            "nome": "serialidade",
+            "descricao": "Reprodução em massa do item — de único a edição limitada a produção industrial.",
+            "escala": "0 = peça única; 4 = reprodução industrial em milhões de cópias"
+          },
+          {
+            "numero": 10,
+            "nome": "inscricao_estatal",
+            "descricao": "Sobreposição de textos e símbolos estatais sobre ou ao redor do corpo alegórico.",
+            "escala": "0 = nenhuma inscrição estatal; 4 = corpo completamente inscrito por texto e símbolos do Estado"
+          }
+        ],
+        "formula_score": "ENDURECIMENTO score = média aritmética dos 10 indicadores (escala 0.0 a 4.0)"
+      },
+      "theoretical_framework": [
+        {
+          "autor": "Aby Warburg",
+          "obra": "The Renewal of Pagan Antiquity",
+          "ano": 1999,
+          "contribuicao": "Pathosformel: a fórmula gestual carregada de energia afetiva que sobrevive (Nachleben) através dos séculos mudando de valência sem mudar de forma. A Justitia vendada é uma Pathosformel jurídica."
+        },
+        {
+          "autor": "Marie-José Mondzain",
+          "obra": "Image, icône, économie",
+          "ano": 2002,
+          "nota_terminologica": "Citar SEMPRE a edição de 2002. NÃO atribuir 'Feminilidade de Estado' a Mondzain — é conceito original da tese.",
+          "contribuicao": "Economia icônica: a gestão do visível como tecnologia de poder. O corpo feminino purificado é a moeda corrente dessa economia."
+        },
+        {
+          "autor": "Valérie Hayaert",
+          "obra": "The Paradoxes of the Blindfold of Justice",
+          "ano": 2018,
+          "contribuicao": "A venda como 'paradoxo irredutível': privação sensorial que se torna virtude. O ENDURECIMENTO é o mecanismo que explica como essa inversão se sedimenta."
+        },
+        {
+          "autor": "Michael Stolleis",
+          "obra": "Das Auge des Gesetzes: Geschichte einer Metapher",
+          "ano": 2004,
+          "contribuicao": "Imagens jurídicas como 'dispositivos epistemológicos' que estruturam a compreensão coletiva do direito. O ENDURECIMENTO é a operação pela qual o corpo feminino se torna dispositivo."
+        }
+      ]
+    },
+    {
+      "id": "TESE-04",
+      "titulo": "A Visiocracia — O Regime do Visível como Regime Jurídico",
+      "subtitulo": "O contrato visual como operador do regime de imagens do direito moderno",
+      "posicao_no_argumento": 4,
+      "resumo": "O Contrato Sexual Visual não é apenas uma observação sobre iconografia: ele nomeia uma estrutura de poder visual que governa o direito moderno. A Visiocracia — o controle sobre o campo visual como forma de poder — encontra na alegoria feminina seu dispositivo mais eficaz: uma imagem que não argumenta, mas mostra; que não exclui por via normativa, mas torna a exclusão imperceptível por via estética.",
+      "argumento_central": "O contrato visual funciona em três registros simultâneos: captura simbólica (o corpo feminino é capturado como veículo da abstração jurídica), naturalização da exclusão (a presença simbólica torna invisível a ausência institucional) e legitimação circular (a alegoria confere atemporalidade ao direito; o direito confere estatuto institucional à alegoria). Esses três registros constituem o núcleo da Visiocracia jurídica.",
+      "tres_registros_do_contrato_visual": [
+        {
+          "registro": "Captura Simbólica",
+          "descricao": "O corpo feminino é mobilizado como veículo da abstração jurídica, mas a mulher concreta desaparece no processo. A Justitia não representa uma mulher; ela representa a Justiça apesar de ser uma mulher.",
+          "efeito_politico": "Esvaziamento da subjetividade feminina como condição da universalidade simbólica."
+        },
+        {
+          "registro": "Naturalização da Exclusão",
+          "descricao": "Ao tornar visualmente natural que a Justiça seja feminina, o contrato visual torna invisível o paradoxo de Warner: a presença simbólica das mulheres coexiste com sua ausência institucional.",
+          "efeito_politico": "A exclusão concreta torna-se imperceptível porque a presença simbólica funciona como substituto da presença real."
+        },
+        {
+          "registro": "Legitimação Circular",
+          "descricao": "A alegoria feminina confere ao direito uma aura de atemporalidade e universalidade, enquanto o direito confere à alegoria um estatuto institucional. Cada polo legitima o outro.",
+          "efeito_politico": "Autorreprodução autônoma do contrato visual independentemente de qualquer intencionalidade dos agentes."
+        }
+      ],
+      "propriedades_especificas_do_visual": [
+        {
+          "propriedade": "Imediaticidade",
+          "descricao": "Ao contrário do argumento filosófico, que exige mediação conceitual, a imagem produz reconhecimento instantâneo: a Justiça é uma mulher antes de qualquer reflexão.",
+          "contraste_com_o_discursivo": "O discurso jurídico exige ser lido e interpretado; a imagem age diretamente sobre a percepção."
+        },
+        {
+          "propriedade": "Iterabilidade",
+          "descricao": "A repetição da mesma figura em selos, fachadas, códigos e tribunais ao longo de séculos sedimenta a associação até torná-la invisível como escolha.",
+          "contraste_com_o_discursivo": "A norma pode ser revogada; a imagem acumulada nas paredes, moedas e selos não é revogável por decreto."
+        },
+        {
+          "propriedade": "Despersonalização",
+          "descricao": "O corpo feminino alegórico não remete a nenhuma mulher particular, operando como significante esvaziado que pode ser investido de qualquer conteúdo institucional.",
+          "contraste_com_o_discursivo": "A generalidade jurídica é produzida pelo texto abstrato; a generalidade visual é produzida pela evacuação da mulher concreta."
+        }
+      ],
+      "theoretical_framework": [
+        {
+          "autor": "Peter Goodrich",
+          "obra": "Imago Decidendi",
+          "ano": 2017,
+          "contribuicao": "Proposição da Visiocracia: o direito como regime de imagens onde o controle sobre o campo visual traduz-se em controle sobre a ordem social."
+        },
+        {
+          "autor": "W. J. T. Mitchell",
+          "obra": "Iconology: Image, Text, Ideology",
+          "ano": 1986,
+          "contribuicao": "A iconologia é uma questão de ideologia: a relação entre imagem e texto não é neutra, mas politicamente carregada. A feminilidade da alegoria jurídica é um dispositivo ideológico que performa uma operação de gênero."
+        },
+        {
+          "autor": "Judith Resnik e Dennis Curtis",
+          "obra": "Representing Justice: Invention, Controversy, and Rights in City-States and Democratic Courtrooms",
+          "ano": 2011,
+          "contribuicao": "'Longevidade notável' dos atributos da Justitia como evidência da iterabilidade do contrato visual. A longevidade não é neutra: é o efeito da naturalização iterativa."
+        },
+        {
+          "autor": "Carolin Behrmann",
+          "obra": "The Mirror Axiom: Legal Iconology between Truth and Authority",
+          "ano": 2018,
+          "contribuicao": "O 'axioma do espelho' — a presunção de que a imagem da justiça reflete a justiça real — é ele mesmo um dispositivo de legitimação. O contrato visual estende e radicaliza esse diagnóstico."
+        }
+      ]
+    }
+  ],
+
+  "genealogy_timeline": {
+    "descricao": "Linha do tempo genealógica da alegoria feminina da Justiça, do mundo antigo ao Brasil republicano. Organizada em duas fases correspondentes aos dois grandes regimes históricos de instrumentalização do corpo feminino.",
+    "fases": [
+      {
+        "id": "FASE-01",
+        "nome": "Antiguidade — A Deusa com Agência",
+        "periodo": "Século VIII a.C. – Século I d.C.",
+        "subtitulo": "Da deusa ativa à alegoria passiva: a genealogia da perda",
+        "descricao_geral": "Na Antiguidade grega e romana, as figuras divinas femininas ligadas à Justiça e à Lei são entidades ativas com atributos de poder e visão. Não são alegorias passivas, mas agentes cósmicos e políticos. A transição para a alegoria ocorre com a secularização humanista e a codificação emblemática.",
+        "figuras": [
+          {
+            "nome": "Themis",
+            "origem_geografica": "Grécia Antiga",
+            "periodo": "Século VIII a.C. (Hesíodo)",
+            "natureza": "Deusa Titânide",
+            "etimologia": {
+              "palavra": "Themis",
+              "lingua": "Grego antigo (θέμις)",
+              "significado_primario": "lei divina, ordem cósmica, decreto inviolável",
+              "campo_semantico": "Prescrição divina que precede a lei humana — diferente de nomos (lei convencionada) e de dike (justiça concreta)"
+            },
+            "atributos_originais": [
+              {
+                "atributo": "Visão integral",
+                "descricao": "Themis vê — ela é profética, oracular, conselheira de Zeus. A cegueira está ausente.",
+                "status_no_processo_de_endurecimento": "PERDIDO"
+              },
+              {
+                "atributo": "Voz e conselho",
+                "descricao": "Convoca as assembleias dos deuses, aconselha Zeus, enuncia a lei cósmica.",
+                "status_no_processo_de_endurecimento": "PERDIDO"
+              },
+              {
+                "atributo": "Maternidade ativa",
+                "descricao": "Mãe das Horas e das Moiras — suas filhas são as forças que governam o tempo e o destino.",
+                "status_no_processo_de_endurecimento": "PERDIDO"
+              },
+              {
+                "atributo": "Corpo presente e nomeado",
+                "descricao": "Themis tem identidade, genealogia, relações — não é um significante esvaziado.",
+                "status_no_processo_de_endurecimento": "PERDIDO"
+              }
+            ],
+            "funcao_juridico_politica": "Personificação da lei divina pré-estatal. Seu corpo é suporte de autoridade cósmica, não de autoridade estatal.",
+            "relacao_com_contrato_visual": "Inversamente proporcional — Themis possui exatamente o que o contrato visual retira: agência, visão, voz, singularidade."
+          },
+          {
+            "nome": "Dike",
+            "origem_geografica": "Grécia Antiga",
+            "periodo": "Século VIII a.C. (Hesíodo, Ésquilo)",
+            "natureza": "Deusa — filha de Zeus e Themis",
+            "etimologia": {
+              "palavra": "Dike",
+              "lingua": "Grego antigo (δίκη)",
+              "significado_primario": "justiça concreta, julgamento, veredicto, costume",
+              "campo_semantico": "Justiça como processo vivo e situado — diferente de Themis (lei cósmica) e de nomos (lei positiva)"
+            },
+            "atributos_originais": [
+              {
+                "atributo": "Ação retributiva",
+                "descricao": "Dike vinga injustiças, persegue os culpados — é figura ativa, não passiva.",
+                "status_no_processo_de_endurecimento": "PERDIDO"
+              },
+              {
+                "atributo": "Testemunho divino",
+                "descricao": "Relata a Zeus as injustiças cometidas pelos mortais — ela vê, fala e age.",
+                "status_no_processo_de_endurecimento": "PERDIDO"
+              },
+              {
+                "atributo": "Presença no tribunal",
+                "descricao": "No drama ático, Dike é invocada no tribunal como autoridade moral viva.",
+                "status_no_processo_de_endurecimento": "TRANSFORMADO em alegoria passiva"
+              }
+            ],
+            "funcao_juridico_politica": "Personificação da justiça processual e retributiva. Opera no espaço público da polis, na controvérsia, no julgamento.",
+            "relacao_com_contrato_visual": "Dike é a Justitia antes do contrato visual: ativa, vidente, vocalizada."
+          },
+          {
+            "nome": "Iustitia (Roma)",
+            "origem_geografica": "Roma Antiga",
+            "periodo": "Século I a.C. – Século I d.C.",
+            "natureza": "Deusa — personificação romana da justiça",
+            "etimologia": {
+              "palavra": "Iustitia",
+              "lingua": "Latim",
+              "significado_primario": "justiça, equidade, retidão",
+              "campo_semantico": "Substantivo abstrato feminino — esta feminilidade gramatical será depois invocada como 'causa' da representação visual feminina",
+              "nota_critica": "O gênero gramatical de 'Iustitia' é a base do Álibi Gramatical (Tese 01) — mas é apenas condição, não causa."
+            },
+            "atributos_originais": [
+              {
+                "atributo": "Balança",
+                "descricao": "Símbolo de equilíbrio e ponderação — presente desde as representações romanas.",
+                "status_no_processo_de_endurecimento": "MANTIDO, mas ressignificado"
+              },
+              {
+                "atributo": "Cornucópia",
+                "descricao": "Abundância — justiça como prosperidade.",
+                "status_no_processo_de_endurecimento": "PERDIDO nas representações modernas"
+              },
+              {
+                "atributo": "Sem venda",
+                "descricao": "A Iustitia romana não era vendada — ela via e julgava.",
+                "status_no_processo_de_endurecimento": "INVERTIDO — a venda surgirá séculos depois como imposição satírica (1494) e depois como atributo positivo (1543)"
+              }
+            ],
+            "funcao_juridico_politica": "Personificação da ordem jurídica romana. Seu corpo ainda porta visão e agência.",
+            "relacao_com_contrato_visual": "Marco de transição: o corpo feminino começa a ser vinculado à ordem estatal, mas ainda não está plenamente domesticado."
+          }
+        ],
+        "dinamica_da_fase": "As deusas antigas possuem agência, visão, voz, singularidade e relações. A transição para a alegoria moderna corresponde à perda sistemática desses atributos — que é precisamente o que o conceito de ENDURECIMENTO mensura.",
+        "marco_de_transicao": "A codificação humanista e emblemática do século XV–XVII (Brant 1494, Gieng 1543, Ripa 1603) opera a passagem definitiva da deusa ativa para a alegoria petrificada."
+      },
+      {
+        "id": "FASE-02",
+        "nome": "Modernidade — O Estado Captura o Corpo",
+        "periodo": "Séculos XV–XX",
+        "subtitulo": "Da sátira à naturalização: genealogia da venda como Contrato Sexual Visual",
+        "descricao_geral": "A modernidade jurídica opera a captura definitiva do corpo feminino pela ordem estatal. O processo tem três marcos genealógicos na iconografia da venda da Justitia e se estende às alegorias republicanas do século XIX–XX.",
+        "subfases": [
+          {
+            "id": "SUBFASE-2A",
+            "nome": "A Sátira Fundacional",
+            "periodo": "1494",
+            "evento": "Xilogravura de Das Narrenschiff (Brant/Dürer)",
+            "descricao": "A primeira representação conhecida da Justitia vendada. A venda é imposição satírica — um bobo (Narrenkappe) venda a Justiça por trás enquanto figuras togadas manipulam os pratos da balança.",
+            "leitura_tres_niveis_panofsky": {
+              "nivel_1_pre_iconografico": "Composição vertical. Figura feminina central com balança de pratos desiguais. Olhos cobertos por tecido claro, aplicado por um homem de traje de bobo posicionado atrás e acima. Advogados/juízes manipulam os pratos no plano inferior. Assimetria dinâmica: agentes masculinos agem; corpo feminino recebe a ação.",
+              "nivel_2_iconografico": "Justitia identificada pela balança. O bobo pertence ao Narrenliteratur (literatura dos tolos). A cegueira é sinal de corrupção, não de virtude. Contexto: sátira forense da Basileia humanista de fins do século XV.",
+              "nivel_3_iconologico": "Relação de gênero: corpo feminino passivo manipulado por agentes masculinos ativos. A feminilidade da Justitia não é acidental — é condição de possibilidade da manipulação: o bobo pode dominar fisicamente a Justiça precisamente porque ela é uma mulher. A hierarquia espacial (masculino acima e atrás; feminino abaixo e à frente) replica a hierarquia de gênero."
+            },
+            "pathosformel": "Mulher vendada por agentes masculinos — fórmula gestual de energia afetiva que sobreviverá à inversão semântica.",
+            "status_do_contrato_visual": "PRÉ-CONTRATO — a violência ainda é visível, o agente ainda está presente, a imposição ainda é legível."
+          },
+          {
+            "id": "SUBFASE-2B",
+            "nome": "A Inversão Semântica",
+            "periodo": "1543",
+            "evento": "Chafariz da Justiça em Berna (Hans Gieng)",
+            "descricao": "A Justitia de Berna já porta a venda como atributo positivo — signo de imparcialidade, não de corrupção. O agente da vendação desaparece: ninguém mais venda a Justiça; ela simplesmente é vendada.",
+            "mutacao_semantica": "IMPOSIÇÃO (1494) → ATRIBUTO (1543): o que era ato de violência simbólica perpetrado contra um corpo feminino torna-se propriedade intrínseca da alegoria.",
+            "o_que_desaparece": "O agente masculino que impunha a venda. Com ele desaparece a legibilidade da violência — e começa o contrato visual.",
+            "status_do_contrato_visual": "MOMENTO FUNDACIONAL — a naturalização começa aqui."
+          },
+          {
+            "id": "SUBFASE-2C",
+            "nome": "A Codificação e a Naturalização",
+            "periodo": "1603",
+            "evento": "Iconologia de Cesare Ripa",
+            "descricao": "Ripa sistematiza as variedades de Giustitia. A venda já integra o repertório alegórico estável — não precisa mais ser explicada porque foi naturalizada. O contrato visual está consolidado.",
+            "efeito_do_contrato_visual": "A venda passa de anomalia satírica (1494) a atributo positivo (1543) a dado inquestionável (1603). Em cada passo, o mecanismo de naturalização apaga um agente, uma história, uma escolha.",
+            "paradoxo_de_hayaert": "A privação sensorial que deveria significar deficiência passa a significar virtude — a incapacidade torna-se imparcialidade. Mas há um paradoxo adicional: a passividade imposta ao corpo feminino é reinterpretada como autonomia institucional.",
+            "status_do_contrato_visual": "CONSOLIDADO — naturalização completa, agente apagado, violência invisível."
+          },
+          {
+            "id": "SUBFASE-2D",
+            "nome": "A Extensão Colonial e Republicana",
+            "periodo": "Séculos XIX–XX",
+            "evento_principal": "Proclamação da República Brasileira e suas alegorias",
+            "descricao": "O contrato visual exporta-se com o colonialismo e o republicanismo. No Brasil, a alegoria feminina da República é importada do repertório neoclássico francês sem participação popular, instalando um corpo feminino branco europeu como rosto da Justiça e da nação num país majoritariamente negro e mestiço.",
+            "caso_brasil": {
+              "data": "1889",
+              "evento": "Proclamação da República — Decreto n. 4, 19 de novembro de 1889",
+              "descricao": "O Decreto n. 4 instituiu a bandeira, o brasão e os sinetes oficiais apenas quatro dias após o golpe militar. A alegoria feminina da República, modelada sobre a Marianne francesa, foi o recurso imediato de legitimação visual.",
+              "figura_principal": {
+                "nome": "A República Brasileira",
+                "artista": "Décio Villares",
+                "data": "c. 1919",
+                "descricao": "Figura feminina austera, de pé, drapeada à maneira clássica, com barrete discreto. Composição sóbria, serenidade normativa — depura a emotividade da Marianne insurrecional.",
+                "contrato_visual_em_operacao": "Corpo feminino que representa a República brasileira não remete a nenhuma mulher brasileira — não é negra, indígena ou cabocla. É importação neoclássica europeia.",
+                "paradoxo_historico": "A mulher representa a República nos signos, mas é silenciada na participação: o voto feminino no Brasil só virá em 1932 — quatro décadas depois de a República-mulher ter sido instalada nas moedas de circulação diária."
+              },
+              "figura_complementar": {
+                "nome": "Justitia do STF",
+                "artista": "Alfredo Ceschiatti",
+                "data": "1961",
+                "localizacao": "Diante do Supremo Tribunal Federal, Brasília",
+                "descricao": "Figura de granito de formas modernistas simplificadas, corporalidade inequivocamente europeia. Uma 'deusa' transplantada para o cerrado.",
+                "referencia": "Lélia Gonzalez: 'racismo por denegação' — os espaços simbólicos apagam a presença negra enquanto naturalizam a presença simbólica branca."
+              }
+            },
+            "dimensao_racial": {
+              "descricao": "O corpo feminino capturado pelo contrato visual não é apenas feminino — é branco, jovem, de traços clássicos europeus. A feminilidade que o contrato visual mobiliza é racializada. A naturalização opera em duas camadas simultâneas: naturaliza-se a feminização da alegoria E naturaliza-se a branquitude da alegoria.",
+              "conceito": "Contrato Racial-Visual",
+              "referencia_teorica": "Lélia Gonzalez (1984): racismo por denegação que se manifesta nos espaços simbólicos onde a presença negra é apagada ao mesmo tempo em que a presença simbólica branca é naturalizada.",
+              "status_no_framework": "Extensão do Contrato Sexual Visual — a exclusão naturalizada é interseccional: de gênero, raça e classe."
+            },
+            "status_do_contrato_visual": "OPERACIONAL E INVISÍVEL — persiste sem alteração mesmo após as conquistas de direitos femininos, demonstrando sua independência do discurso normativo."
+          }
+        ]
+      }
+    ]
+  },
+
+  "iconographic_mapping": [
+    {
+      "id": "ICON-01",
+      "figura": "A Venda",
+      "tipo": "atributo",
+      "atributo_convencional": "Imparcialidade e equidade da Justiça",
+      "origem_historica": {
+        "data_primeiro_registro": "1494",
+        "contexto": "Xilogravura do Das Narrenschiff de Sebastian Brant",
+        "natureza_original": "IMPOSIÇÃO satírica — bobo vendando a Justiça como crítica à corrupção forense",
+        "mecanismo_de_inversao": "Entre 1494 (sátira) e 1543 (Berna) e 1603 (Ripa), a venda inverte de signo de corrupção a signo de virtude. O agente da vendação desaparece; a imposição torna-se atributo.",
+        "referencias": [
+          "Brant, Sebastian. Das Narrenschiff, 1494.",
+          "Hayaert, Valérie. The Paradoxes of the Blindfold of Justice, 2018.",
+          "Resnik, Judith; Curtis, Dennis. Representing Justice, 2011."
+        ]
+      },
+      "perda_genealogica": "A venda apaga a visão que Themis e Dike possuíam — o atributo mais fundamental da agência divina feminina.",
+      "significado_politico": "Silenciamento da capacidade de ver e julgar por si mesma. O corpo feminino é privado da visão ativa (que as deusas possuíam) e a privação é reapresentada como virtude institucional. A cegueira que o bobo impunha como humilhação torna-se a marca da excelência judicial.",
+      "contrato_visual": "Modelo paradigmático do funcionamento do contrato visual: a imposição de uma limitação sobre o corpo feminino é invertida em virtude — e o agente da imposição é apagado, tornando a limitação aparentemente intrínseca.",
+      "indicadores_de_purificacao_ativados": ["dessexualizacao", "apagamento_narrativo"],
+      "endurecimento_contribuicao": "Alto — a venda é o mais visível dos dispositivos de ENDURECIMENTO: ela literalmente cega o corpo feminino e apaga o agente de sua limitação."
+    },
+    {
+      "id": "ICON-02",
+      "figura": "A Balança",
+      "tipo": "atributo",
+      "atributo_convencional": "Equilíbrio, ponderação, imparcialidade das decisões",
+      "origem_historica": {
+        "data_primeiro_registro": "Antiguidade (representações romanas de Iustitia)",
+        "natureza_original": "Instrumento de medição concreto — remete à pesagem de evidências e ao equilíbrio entre interesses.",
+        "mutacao_no_processo": "Na xilogravura de 1494, os pratos da balança estão visivelmente DESIGUAIS e são manipulados por figuras togadas — sátira à corrupção. Na codificação posterior, a balança torna-se sempre equilibrada, símbolo abstrato de uma imparcialidade presumida."
+      },
+      "perda_genealogica": "A balança perde sua concretude instrumental (medir, pesar, verificar) e torna-se símbolo abstrato — abstração que corresponde ao ENDURECIMENTO.",
+      "significado_politico": "A balança equilibrada naturaliza a imparcialidade da ordem jurídica, tornando invisível que os pratos nunca foram (nem são) iguais para todos os sujeitos.",
+      "contrato_visual": "A balança equilibrada performa a universalidade da Justiça — escondendo que a justiça concreta não é universal.",
+      "indicadores_de_purificacao_ativados": ["apagamento_narrativo", "inscricao_estatal"],
+      "endurecimento_contribuicao": "Médio — a balança é o atributo mais antigo, mas é ressignificada (de instrumento concreto a símbolo abstrato) ao longo do processo."
+    },
+    {
+      "id": "ICON-03",
+      "figura": "Material — Bronze e Mármore",
+      "tipo": "suporte-material",
+      "atributo_convencional": "Permanência, durabilidade, autoridade institucional",
+      "origem_historica": {
+        "periodo": "Séculos XVI–XX",
+        "contexto": "Monumentos, estátuas de tribunais, selos metálicos, moedas",
+        "exemplos": [
+          "Chafariz da Justiça de Berna (1543) — pedra policroma",
+          "Justitia do STF de Brasília (1961) — granito modernista",
+          "Moedas e selos definitivos — chumbo, cobre, prata (monocromatização máxima)"
+        ]
+      },
+      "perda_genealogica": "A materialização em pedra e metal é a forma mais literal do ENDURECIMENTO: o corpo feminino literalmente se petrifica. Suor, calor, desejo, vida — tudo isso é incompatível com o bronze.",
+      "significado_politico": "A metalização e petrificação do corpo alegórico correspondem à última fase do ENDURECIMENTO: o corpo feminino torna-se literal e metaforicamente uma pedra — permanente, fria, imodificável, institucional. A perda de humanidade (suor, desejo, movimento) é apresentada como ganho de autoridade.",
+      "contrato_visual": "O material duro performa a eternidade e a universalidade da ordem jurídica: uma lei que é bronze não muda, não sente, não errar. O corpo feminino petrificado legitima a pretensão de atemporalidade do direito.",
+      "indicadores_de_purificacao_ativados": ["monocromatizacao", "rigidez_postural", "dessexualizacao"],
+      "endurecimento_contribuicao": "Extremo — a petrificação é o grau máximo do ENDURECIMENTO (score 4 no indicador monocromatização)."
+    },
+    {
+      "id": "ICON-04",
+      "figura": "A Toga e o Drapeado Clássico",
+      "tipo": "vestimenta",
+      "atributo_convencional": "Autoridade, decoro, atemporalidade clássica",
+      "origem_historica": {
+        "periodo": "Renascimento – século XX",
+        "contexto": "A vestimenta clássica greco-romana é adotada como gramática visual da autoridade jurídica no período humanista e perpetuada nas codificações emblemáticas."
+      },
+      "perda_genealogica": "A toga e o drapeado cobrem o corpo, operando a dessexualização. Mas além de cobrir, eles classificam racialmente: a vestimenta clássica greco-romana situa o corpo feminino em uma corporalidade branca e europeia.",
+      "significado_politico": "Dupla operação: (1) dessexualização — o corpo é coberto, neutralizado, desprovido de marcadores de desejo; (2) racialização — a universalidade da Justiça é corporificada em um referente cultural específico (Europa clássica) apresentado como universal.",
+      "contrato_visual": "A vestimenta clássica realiza no plano estético o mesmo movimento que o direito natural realiza no plano filosófico: converte o particular (europeu, branco, cristão) em universal (humano, racional, natural).",
+      "indicadores_de_purificacao_ativados": ["dessexualizacao", "uniformizacao_facial"],
+      "endurecimento_contribuicao": "Alto — a vestimenta clássica é o mais visível dos dispositivos de dessexualização e uniformização."
+    },
+    {
+      "id": "ICON-05",
+      "figura": "O Barrete Frígio",
+      "tipo": "atributo",
+      "atributo_convencional": "Liberdade, república, revolução",
+      "origem_historica": {
+        "periodo": "Séculos XVIII–XIX",
+        "contexto": "Atributo da Marianne revolucionária francesa e das alegorias republicanas do século XIX.",
+        "regime_iconocratico": "FUNDACIONAL — o barrete é o símbolo do regime fundacional, quando o corpo alegórico ainda é dinâmico e a revolução ainda é recente."
+      },
+      "trajetoria_de_endurecimento": [
+        {
+          "fase": "FUNDACIONAL",
+          "descricao": "Barrete vermelho, uso vigoroso, corpo em movimento, peito nu ou seminú — a Marianne de Delacroix (1830).",
+          "score_endurecimento_estimado": "0.8–1.2"
+        },
+        {
+          "fase": "NORMATIVO",
+          "descricao": "Barrete discreto, estilizado, corpo coberto, postura frontal — a República de Décio Villares (c. 1919).",
+          "score_endurecimento_estimado": "2.0–2.5"
+        },
+        {
+          "fase": "MILITAR",
+          "descricao": "Barrete substituído por capacete — Germania, Britannia, Minerva. O barrete de liberdade é trocado pela armadura de guerra.",
+          "score_endurecimento_estimado": "3.0–3.5"
+        }
+      ],
+      "significado_politico": "A trajetória do barrete é o indicador mais visível da transição entre regimes iconocráticos: sua domesticação ou substituição marca o ponto em que o Estado abandona a retórica fundacional e adota a gramática da normalidade ou da guerra.",
+      "contrato_visual": "O barrete, mesmo no regime fundacional, ainda é atributo imposto à alegoria feminina pelo Estado — ela não o carrega por escolha própria, mas como marca de regime.",
+      "indicadores_de_purificacao_ativados": ["rigidez_postural", "apagamento_narrativo"],
+      "endurecimento_contribuicao": "Varia — indicador de transição entre regimes."
+    },
+    {
+      "id": "ICON-06",
+      "figura": "A Fisionomia Branca Europeia",
+      "tipo": "traço-corporal",
+      "atributo_convencional": "Universalidade da lei — a Justiça não tem raça",
+      "origem_historica": {
+        "periodo": "Séculos XV–XX",
+        "contexto": "A iconografia jurídica ocidental representa sistematicamente a Justiça com traços europeus brancos, jovens e clássicos — mesmo em contextos pós-coloniais."
+      },
+      "perda_genealogica": "A universalidade que a alegoria performa é, na verdade, um particular: o corpo branco europeu como referente do humano universal.",
+      "significado_politico": "O contrato racial-visual: a naturalização da branquitude como neutralidade, enquanto corpos não-brancos são apresentados como particulares, específicos, racializados. A Justitia do STF de Brasília — granito modernista, formas europeias — instala esse contrato em território pós-colonial.",
+      "contrato_visual": "A dimensão racial do contrato visual opera em paralelo à dimensão de gênero: a exclusão naturalizada é interseccional. O mecanismo que converte corpo particular em símbolo universal funciona porque os marcadores de particularidade (feminilidade, branquitude, classicismo) são apresentados como neutros.",
+      "referencia_critica": "Lélia Gonzalez (1984): 'racismo por denegação' — apagamento simbólico da presença negra nos espaços de representação nacional.",
+      "indicadores_de_purificacao_ativados": ["uniformizacao_facial", "dessexualizacao"],
+      "endurecimento_contribuicao": "Alto — a uniformização facial é um dos indicadores centrais do ENDURECIMENTO e opera sempre em direção à branquitude europeia."
+    },
+    {
+      "id": "ICON-07",
+      "figura": "A Espada",
+      "tipo": "atributo",
+      "atributo_convencional": "Poder coercitivo do Estado, capacidade punitiva da lei",
+      "origem_historica": {
+        "periodo": "Séculos XVI–XX",
+        "contexto": "A espada acompanha a balança como atributo da Justitia nas representações modernas — ela representa o braço coercitivo da lei.",
+        "regime_iconocratico": "Presente nos regimes NORMATIVO e MILITAR"
+      },
+      "trajetoria": "A espada é o único atributo ativo restante após o ENDURECIMENTO: enquanto o corpo é vendado, petrificado e serializado, a espada mantém a potência coercitiva — mas é a potência do Estado, não da mulher.",
+      "significado_politico": "Paradoxo da espada: o único atributo ativo do corpo feminino petrificado é um instrumento de violência estatal. A mulher-alegoria não possui agência; ela porta a violência do outro.",
+      "contrato_visual": "A espada na mão da Justitia não lhe pertence — ela a porta por delegação estatal. Mais um mecanismo de captura: o corpo feminino como suporte do poder de punir que ele mesmo não exerce.",
+      "indicadores_de_purificacao_ativados": ["inscricao_estatal", "apagamento_narrativo"],
+      "endurecimento_contribuicao": "Médio — a espada é sinal de poder delegado, não de agência autônoma."
+    }
+  ],
+
+  "political_paradox": {
+    "id": "PARADOX-01",
+    "nome": "O Paradoxo da Representação Invertida",
+    "subtitulo": "Relação inversamente proporcional entre poder real e representação simbólica universal",
+    "enunciado": "Quanto menor é o poder real das mulheres na ordem jurídica, maior é a sua presença simbólica como representantes universais dessa mesma ordem. A exclusão concreta é a condição estrutural da captura simbólica.",
+    "formulacao_warner": "As figuras de mulheres são convencionalmente escolhidas para personificar um ideal enquanto a maioria das mulheres é (e foi) excluída de perseguir esse ideal na prática. (Warner, 1985)",
+    "estrutura_do_paradoxo": {
+      "polo_a": {
+        "nome": "Poder Real das Mulheres na Ordem Jurídica",
+        "descricao": "Capacidade efetiva das mulheres de exercer direitos, funções e poder na ordem jurídica concreta.",
+        "exemplos_historicos": [
+          "Exclusão do exercício de cargos judiciais (séculos XVI–XIX)",
+          "Tutela perpétua da mulher casada (direito romano e codificações modernas)",
+          "Proibição do testemunho feminino em determinadas matérias",
+          "Exclusão do sufrágio (Brasil: voto feminino apenas em 1932)",
+          "Acesso tardio às profissões jurídicas"
+        ],
+        "trajetoria": "CRESCENTE ao longo dos séculos XIX–XX — as mulheres gradualmente conquistam direitos civis e políticos"
+      },
+      "polo_b": {
+        "nome": "Representação Simbólica Universal via Alegoria Feminina",
+        "descricao": "Presença do corpo feminino como representante universal dos valores jurídicos mais elevados (Justiça, República, Liberdade, Lei).",
+        "exemplos_historicos": [
+          "Justitia vendada em todos os tribunais europeus (séculos XVI–XX)",
+          "Marianne como face da República Francesa (desde 1789)",
+          "República Brasileira — Decreto n. 4 de 1889",
+          "Columbia como símbolo dos EUA (séculos XVIII–XIX)",
+          "Britannia como símbolo do Império Britânico",
+          "Justitia de Ceschiatti no STF (1961)"
+        ],
+        "trajetoria": "ESTÁVEL ou CRESCENTE ao longo do mesmo período — a alegoria feminina não se transforma quando as mulheres conquistam direitos"
+      },
+      "relacao": "INVERSAMENTE PROPORCIONAL na fase clássica (séculos XVI–XIX): quanto menor o poder real, maior a presença simbólica. PARADOXALMENTE ESTÁVEL na fase contemporânea: mesmo com o crescimento do poder real, a alegoria feminina permanece inalterada.",
+      "mecanismo_explicativo": "O contrato visual naturaliza a exclusão concreta através da presença simbólica. Quando a exclusão começa a ser revertida (conquistas de direitos), a imagem não muda — porque a imagem já opera de forma autônoma, independentemente das mudanças normativas. Isso demonstra que o contrato visual não é reflexo da realidade jurídica; ele a antecipa e a sobrevive."
+    },
+    "dimensoes_do_paradoxo": [
+      {
+        "dimensao": "Gênero",
+        "formulacao": "A mulher é o rosto universal da Justiça e o sujeito mais sistematicamente excluído da sua prática.",
+        "evidencia_historica": "A Justitia adorna os frontispícios dos mesmos códigos que consagram a tutela perpétua da mulher casada."
+      },
+      {
+        "dimensao": "Raça",
+        "formulacao": "A Justiça é representada por um corpo branco europeu numa ordem jurídica que protegeu e expandiu a escravidão e o colonialismo.",
+        "evidencia_historica": "A Justitia do STF de Brasília (1961) é de corporalidade europeia num país que aboliu a escravidão apenas em 1888 — e onde a população negra ainda é a mais encarcerada e a menos representada no Judiciário.",
+        "conceito": "Contrato Racial-Visual"
+      },
+      {
+        "dimensao": "Universalidade/Particularidade",
+        "formulacao": "A universalidade da lei é representada pelo corpo mais marcado como particular (feminino, racializado) — e esse corpo particular funciona como universal precisamente porque foi esvaziado de sua particularidade concreta.",
+        "evidencia_teorica": "O mecanismo de abstração pelo qual o particular se torna universal no direito moderno tem um correlato visual: o corpo feminino despersonalizado, uniformizado e petrificado opera como o equivalente visual da norma geral e abstrata."
+      }
+    ],
+    "implicacao_para_a_historia_do_direito": "O paradoxo da representação invertida revela uma camada oculta da cultura jurídica moderna: ela não apenas produz normas abstratas — ela produz imagens que naturalizam a exclusão de quem não pode ser sujeito dessas normas. Reconhecer o contrato visual significa admitir que a cultura jurídica tem uma gramática de gênero que opera no nível mais profundo da iconologia, e que essa gramática precisa ser lida, nomeada e criticamente analisada.",
+    "implicacao_para_o_framework_iconocracy": {
+      "conceito_aplicado": "Contrato Sexual Visual",
+      "nota_terminologica": "O 'Contrato Sexual Visual' é conceito original desta tese — NÃO atribuir a Pateman (cujo conceito é 'Contrato Sexual') nem a Mondzain.",
+      "relacao_com_endurecimento": "O ENDURECIMENTO é o mecanismo operacional do Contrato Sexual Visual: é através do ENDURECIMENTO progressivo do corpo feminino (petrificação, vendação, uniformização, serialização) que a captura simbólica se completa e a exclusão se naturaliza.",
+      "relacao_com_feminilidade_de_estado": "A 'Feminilidade de Estado' é o produto acabado do Contrato Sexual Visual: a feminilidade não como atributo das mulheres concretas, mas como tecnologia de governo visual do Estado moderno.",
+      "relacao_com_visiocracia": "A Visiocracia (Goodrich) é o regime geral de imagens que o Contrato Sexual Visual opera no interior do campo jurídico — o direito como regime de visibilidade que usa o corpo feminino como seu dispositivo central de naturalização."
+    }
+  },
+
+  "concepts_network": {
+    "descricao": "Rede de conceitos da tese e suas relações estruturais",
+    "nos": [
+      {
+        "id": "CN-01",
+        "conceito": "Contrato Sexual Visual",
+        "tipo": "conceito-original-tese",
+        "nota_terminologica": "NÃO atribuir a Pateman. Conceito original da tese ICONOCRACY (Vanzin, 2026).",
+        "definicao": "A estrutura semiótica recorrente pela qual a iconografia jurídica ocidental mobiliza o corpo feminino como suporte privilegiado da abstração normativa, produzindo simultaneamente a representação da universalidade do direito e a naturalização da exclusão das mulheres concretas.",
+        "relacionamentos": ["CN-02", "CN-03", "CN-04", "CN-05"]
+      },
+      {
+        "id": "CN-02",
+        "conceito": "ENDURECIMENTO",
+        "tipo": "conceito-original-tese",
+        "nota_terminologica": "SEMPRE em português. NUNCA 'hardening' ou 'embrutecimento'.",
+        "definicao": "Processo de purificação progressiva que transforma o corpo feminino alegorizado de corpo vivo em ícone estatal. Mensurável pelos 10 indicadores de purificação do protocolo IconoCode. Score de 0.0 a 4.0.",
+        "relacionamentos": ["CN-01", "CN-03", "CN-06"]
+      },
+      {
+        "id": "CN-03",
+        "conceito": "Feminilidade de Estado",
+        "tipo": "conceito-original-tese",
+        "nota_terminologica": "NÃO atribuir a Mondzain. Conceito original da tese ICONOCRACY (Vanzin, 2026).",
+        "definicao": "A feminilidade como tecnologia de governo visual: o Estado moderno instrumentaliza a imagem feminina para fins de legitimação, produzindo uma 'feminilidade' que não pertence às mulheres concretas, mas ao aparato estatal.",
+        "relacionamentos": ["CN-01", "CN-04", "CN-05"]
+      },
+      {
+        "id": "CN-04",
+        "conceito": "Visiocracia",
+        "tipo": "conceito-externo-adaptado",
+        "autor_original": "Peter Goodrich",
+        "obra_original": "Imago Decidendi, 2017",
+        "definicao": "O direito como regime de imagens: o controle sobre o campo visual traduz-se em controle sobre a ordem social e jurídica. No framework da tese, a Visiocracia é o regime geral em que o Contrato Sexual Visual opera.",
+        "relacionamentos": ["CN-01", "CN-03", "CN-05"]
+      },
+      {
+        "id": "CN-05",
+        "conceito": "Economia Icônica",
+        "tipo": "conceito-externo-adaptado",
+        "autor_original": "Marie-José Mondzain",
+        "obra_original": "Image, icône, économie, 2002",
+        "nota": "Citar SEMPRE a edição de 2002.",
+        "definicao": "A gestão do visível como tecnologia de poder. O corpo feminino purificado é a 'moeda corrente' da economia icônica jurídica: um valor que circula, se reproduz e sustenta o regime de legitimação estatal.",
+        "relacionamentos": ["CN-01", "CN-02", "CN-04"]
+      },
+      {
+        "id": "CN-06",
+        "conceito": "Pathosformel",
+        "tipo": "conceito-externo",
+        "autor_original": "Aby Warburg",
+        "obra_original": "Mnemosyne-Atlas / The Renewal of Pagan Antiquity, 1999",
+        "nota_terminologica": "Manter em alemão.",
+        "definicao": "Fórmula gestual carregada de energia afetiva que sobrevive (Nachleben) através dos séculos, migrando entre épocas e contextos culturais. A Justitia vendada é uma Pathosformel jurídica: um gesto (a mulher cega que julga) cuja energia se inverte da sátira à veneração sem que o corpo se altere.",
+        "relacionamentos": ["CN-01", "CN-02"]
+      }
+    ]
+  },
+
+  "regimes_iconocraticos": {
+    "descricao": "Os três regimes que estruturam a transformação histórica das alegorias femininas conforme o argumento da tese",
+    "regimes": [
+      {
+        "id": "REGIME-FUNDACIONAL",
+        "nome": "FUNDACIONAL",
+        "subtitulo": "Sacrificial-fundacional",
+        "descricao": "Fundação do Estado, independência, constituições, revoluções. O corpo alegórico está em seu estado mais vivo — dinâmico, exposto, até sacrificial.",
+        "marcadores_visuais": ["Peito nu / seminudez", "Barrete frígio", "Corpo dinâmico", "Armas seguradas agressivamente", "Correntes quebradas", "Sol nascente", "Constituição / tábuas"],
+        "endurecimento_score_tipico": "0.5–1.5",
+        "exemplo_canonico": "Marianne de Delacroix — La Liberté guidant le peuple (1830)"
+      },
+      {
+        "id": "REGIME-NORMATIVO",
+        "nome": "NORMATIVO",
+        "subtitulo": "Burocrático-estabilizado",
+        "descricao": "República estabilizada, rotina burocrática. A alegoria é domesticada — vestida, controlada, infinitamente reproduzível.",
+        "marcadores_visuais": ["Corpo totalmente vestido", "Pose frontal ou 3/4", "Postura sentada", "Balança da justiça", "Venda nos olhos", "Livro / código legal", "Face genérica", "Produzida em massa"],
+        "endurecimento_score_tipico": "1.5–2.5",
+        "exemplo_canonico": "Semeuse — selos definitivos da França República (1898–)"
+      },
+      {
+        "id": "REGIME-MILITAR",
+        "nome": "MILITAR",
+        "subtitulo": "Imperial-militar",
+        "descricao": "Guerra, imperialismo, expansão colonial, mobilização. O corpo endurece — o ENDURECIMENTO está no máximo.",
+        "marcadores_visuais": ["Capacete", "Escudo", "Espada / tridente", "Armadura / couraça", "De pé sobre globo / mapa", "Sujeitos coloniais abaixo", "Corpo rígido", "Troféus militares"],
+        "endurecimento_score_tipico": "2.5–4.0",
+        "exemplo_canonico": "Britannia — Trade Dollar (1895), moeda colonial para circulação na Ásia"
+      }
+    ]
+  },
+
+  "references_abnt": {
+    "nota": "Todas as referências em ABNT NBR 6023:2025, conforme norma de citação obrigatória da tese.",
+    "references": [
+      {
+        "id": "REF-01",
+        "tipo": "livro",
+        "citacao": "BEHRMANN, Carolin. The Mirror Axiom: Legal Iconology between Truth and Authority. In: HUYGEBAERT, Stefan et al. (org.). The Art of Law: Artistic Representations and Iconography of Law and Justice in Context, from the Middle Ages to the First World War. Cham: Springer, 2018. p. 37–56."
+      },
+      {
+        "id": "REF-02",
+        "tipo": "norma",
+        "citacao": "BRASIL. Decreto n. 4, de 19 de novembro de 1889. Estabelece os distinctivos da bandeira e das armas nacionaes, e dos selos e sinetes da República. Coleção das Leis do Brasil, Rio de Janeiro, 1889."
+      },
+      {
+        "id": "REF-03",
+        "tipo": "livro",
+        "citacao": "BRANT, Sebastian. Das Narrenschiff. Basel: Johann Bergmann von Olpe, 1494."
+      },
+      {
+        "id": "REF-04",
+        "tipo": "livro",
+        "citacao": "CARVALHO, José Murilo de. A formação das almas: o imaginário da República no Brasil. São Paulo: Companhia das Letras, 2017."
+      },
+      {
+        "id": "REF-05",
+        "tipo": "artigo",
+        "citacao": "GONZALEZ, Lélia. Racismo e sexismo na cultura brasileira. Revista Ciências Sociais Hoje, São Paulo, ANPOCS, p. 223–244, 1984."
+      },
+      {
+        "id": "REF-06",
+        "tipo": "livro",
+        "citacao": "GROSSI, Paolo. Mitologias jurídicas da modernidade. 2. ed. Trad. Arno Dal Ri Jr. Florianópolis: Fundação Boiteux, 2007."
+      },
+      {
+        "id": "REF-07",
+        "tipo": "capitulo",
+        "citacao": "HAYAERT, Valérie. The Paradoxes of the Blindfold of Justice: Allegory, Emblematics, and Judicial Authority. In: HUYGEBAERT, Stefan et al. (org.). The Art of Law. Cham: Springer, 2018. p. 57–80."
+      },
+      {
+        "id": "REF-08",
+        "tipo": "artigo",
+        "citacao": "HAYAERT, Valérie. Lady Justice Disrobed and Blindfolded: Allegorical Traditions and Legal Practice. Zeitschrift für Rechtsgeschichte, v. 140, p. 1–28, 2023."
+      },
+      {
+        "id": "REF-09",
+        "tipo": "livro",
+        "citacao": "HESPANHA, António Manuel. Cultura jurídica europeia: síntese de um milênio. Florianópolis: Fundação Boiteux, 2005."
+      },
+      {
+        "id": "REF-10",
+        "tipo": "livro",
+        "citacao": "HUYGEBAERT, Stefan et al. (org.). The Art of Law: Artistic Representations and Iconography of Law and Justice in Context, from the Middle Ages to the First World War. Cham: Springer, 2018."
+      },
+      {
+        "id": "REF-11",
+        "tipo": "capitulo",
+        "citacao": "MARTYN, Georges. Twenty Centuries of Legal Iconography: The Third Level. In: HUYGEBAERT, Stefan et al. (org.). The Art of Law. Cham: Springer, 2018. p. 1–36."
+      },
+      {
+        "id": "REF-12",
+        "tipo": "capitulo",
+        "citacao": "MARTYN, Georges. Introdução à iconologia histórica do direito. In: DAL RI JR., Arno (org.). Printing & Iconology as Legal-Historical Sources. Florianópolis: UFSC/PPGD, 2020. p. 15–42."
+      },
+      {
+        "id": "REF-13",
+        "tipo": "livro",
+        "citacao": "MITCHELL, W. J. T. Iconology: Image, Text, Ideology. Chicago: University of Chicago Press, 1986."
+      },
+      {
+        "id": "REF-14",
+        "tipo": "livro",
+        "citacao": "MONDZAIN, Marie-José. Image, icône, économie: les sources byzantines de l'imaginaire contemporain. Paris: Seuil, 2002."
+      },
+      {
+        "id": "REF-15",
+        "tipo": "livro",
+        "citacao": "PANOFSKY, Erwin. Studies in Iconology: Humanistic Themes in the Art of the Renaissance. New York: Oxford University Press, 1939."
+      },
+      {
+        "id": "REF-16",
+        "tipo": "livro",
+        "citacao": "PANOFSKY, Erwin. Meaning in the Visual Arts. Garden City: Doubleday Anchor, 1955."
+      },
+      {
+        "id": "REF-17",
+        "tipo": "livro",
+        "citacao": "PATEMAN, Carole. The Sexual Contract. Stanford: Stanford University Press, 1988."
+      },
+      {
+        "id": "REF-18",
+        "tipo": "capitulo",
+        "citacao": "PATEMAN, Carole. Thirty Years after The Sexual Contract. In: KAPUR, Ratna; MANOR, James (org.). On Civic Republicanism: Ancient Lessons for Global Politics. Cambridge: Cambridge University Press, 2018. p. 199–218."
+      },
+      {
+        "id": "REF-19",
+        "tipo": "livro",
+        "citacao": "RESNIK, Judith; CURTIS, Dennis. Representing Justice: Invention, Controversy, and Rights in City-States and Democratic Courtrooms. New Haven: Yale University Press, 2011."
+      },
+      {
+        "id": "REF-20",
+        "tipo": "livro",
+        "citacao": "RIPA, Cesare. Iconologia, overo descrittione dell'imagini universali. Roma: Lepido Facij, 1603."
+      },
+      {
+        "id": "REF-21",
+        "tipo": "livro",
+        "citacao": "STOLLEIS, Michael. Das Auge des Gesetzes: Geschichte einer Metapher. München: C. H. Beck, 2004."
+      },
+      {
+        "id": "REF-22",
+        "tipo": "livro",
+        "citacao": "WARBURG, Aby. The Renewal of Pagan Antiquity: Contributions to the Cultural History of the European Renaissance. Los Angeles: Getty Research Institute, 1999."
+      },
+      {
+        "id": "REF-23",
+        "tipo": "livro",
+        "citacao": "WARNER, Marina. Monuments and Maidens: The Allegory of the Female Form. London: Weidenfeld & Nicolson, 1985."
+      }
+    ]
+  }
+}
