@@ -68,7 +68,7 @@ data/processed/     → records.jsonl, purification.jsonl (canonical ledgers)
 vault/candidatos/   → Obsidian SCOUT notes (XX-NNN pattern, e.g. FR-013 Déclaration des droits.md)
 vault/sessoes/      → session summary notes (SCOUT-SESSION-YYYY-MM-DD.md)
 tese/manuscrito/    → thesis chapters (Markdown, compiled via Pandoc)
-tools/scripts/      → 26 Python automation scripts
+tools/scripts/      → Python automation scripts (50+; see tools/scripts/ for full list)
 tools/schemas/      → JSON schemas (master-record, iconocode-output, webscout-input/output)
 notebooks/          → sequential analysis (01_exploratory → 02_kruskal_wallis → 03_regression → 04_correspondence)
 webiconocracy/      → React+Vite+Firebase corpus explorer
@@ -116,7 +116,7 @@ Active automation:
 
 **Three iconocratic regimes:** FUNDACIONAL (sacrificial, body alive) → NORMATIVO (domesticated, bureaucratic) → MILITAR (hardened, imperial)
 
-**10 purification indicators** (ordinal 0–4 per master prompt; current corpus data uses 0–3 range): desincorporação · rigidez_postural · dessexualização · uniformização_facial · heraldicização · enquadramento_arquitetônico · apagamento_narrativo · monocromatização · serialidade · inscrição_estatal
+**10 purification indicators** (ordinal 0–3): desincorporação · rigidez_postural · dessexualização · uniformização_facial · heraldicização · enquadramento_arquitetônico · apagamento_narrativo · monocromatização · serialidade · inscrição_estatal
 
 **Inclusion criteria** (all 5 required): female allegorical figure + explicit juridical-political function + datable 1800–2000 + one of 6 countries + accepted support
 

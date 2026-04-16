@@ -74,9 +74,36 @@ webiconocracy/
 .claude/worktrees/
 
 # Local operational artifacts
-output/huggingface/
-tmp/vault-backups/
+output/
+tmp/
 logs/
 data/raw/.staging/
 data/raw/argos/manifest.lock
 data/raw/argos/*.bak
+
+# Cloudflare local state (contains account IDs, geolocation, binary blobs)
+.wrangler/
+
+# Firebase debug logs (contain email, billing IDs)
+firebase-debug.log
+
+# Postman generated artifacts
+postman/
+.postman/
+
+# Dead/duplicate agent config dirs
+.agents/
+.hermes/
+
+# Backup files
+*.bak*
+corpus/corpus-data.json.bak-dedupe
+
+# Loose files that don't belong in the thesis repo
+random outputs/
+Notas e Textos/
+Bibliografia - Uso simb*/
+dissertacao de mestrado.pdf
+Plan Linux.pdf
+Esquema antigo .md
+docker-compose.override.yml
