@@ -46,3 +46,4 @@ Que essa série de três imagens trace um mapa iconográfico das transformaçõe
 ---
 
 *Florianópolis, abril de 2026.*
+Sai da aula com a cabeça fervilhando, com várias novas abas mentais. Em primeiro lugar, com o sentimento de que as leituras, embora pontuais na historiografia da justiça criminal, deslocam questões que já vinham amadurecendo na minha própria pesquisa. O centro da aula estava, com nitidez,  
