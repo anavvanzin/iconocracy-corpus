@@ -1,0 +1,159 @@
+{
+  "lpai_system": {
+    "metadata": {
+      "title": "Legal-Political Allegory Index (LPAI)",
+      "version": "2.0",
+      "date_compiled": "2026-03-15",
+      "domain": "Legal-Historical Iconography",
+      "focus": "Brazilian & General Legal Allegories",
+      "syntax_rule": "[Materiality] .[Class] . [Personification] . [Attribute] . [Posture] + [Modifiers]"
+    },
+    "taxonomy": {
+      "materiality_codes":[
+        { "code": "M.100", "medium": "Lithography / Etching / Newsprint", "description": "Mass distribution, Cartoons" },
+        { "code": "M.200", "medium": "Numismatics / Philately", "description": "Coins, Banknotes, Stamps" },
+        { "code": "M.300", "medium": "Stained Glass / Vitral", "description": "Ethereal, light-bearing imagery" },
+        { "code": "M.400", "medium": "Monumental Bronze / Stone", "description": "Permanent, imposing architecture" },
+        { "code": "M.500", "medium": "Digital / Ephemeral", "description": "Memes, Photography of transient events" }
+      ],
+      "macro_classes":[
+        {
+          "class_id": "100",
+          "name": "Jurisprudence & Law",
+          "personifications":[
+            { "id": "110", "name": "Justitia", "attributes": {"111.1": "Scales", "111.2": "Sword", "111.3": "Blindfold", "111.4": "Fasces"}, "postures": {"112.1": "Seated/Enthroned", "112.2": "Standing/Striding"} },
+            { "id": "120", "name": "Lex", "attributes": {"121.1": "Book of Law", "121.2": "Stone Tablets", "121.3": "Scroll"} },
+            { "id": "130", "name": "Aequitas", "attributes": {"131.1": "Measuring rod", "131.2": "Cornucopia"} }
+          ]
+        },
+        {
+          "class_id": "200",
+          "name": "Liberty & Emancipation",
+          "personifications":[
+            { "id": "210", "name": "Libertas", "attributes": {"211.1": "Phrygian Cap", "211.2": "Liberty Pole/Spear", "211.3": "Broken Chains", "211.4": "Torch"}, "postures": {"212.1": "Actively breaking chains", "212.2": "Leading the populace"} }
+          ]
+        },
+        {
+          "class_id": "300",
+          "name": "The State, Republic & Nation",
+          "personifications":[
+            { "id": "310", "name": "Respublica", "attributes": {"311.1": "Mural Crown", "311.2": "Star Halo", "311.3": "Oak/Laurel wreaths", "311.4": "Shield"}, "manifestations": {"312.1": "Marianne (FR)", "312.2": "Britannia (UK)", "312.3": "Columbia (US)", "312.4": "Efígie da República (BR)"} }
+          ]
+        },
+        {
+          "class_id": "400",
+          "name": "Civic & Judicial Virtues",
+          "personifications":[
+            { "id": "410", "name": "Prudentia", "attributes": {"411.1": "Mirror", "411.2": "Snake"} },
+            { "id": "420", "name": "Fortitudo", "attributes": {"421.1": "Column/Pillar", "421.2": "Armor"} },
+            { "id": "430", "name": "Veritas", "attributes": {"431.1": "Unveiled/Nude", "431.2": "Sun motif"} }
+          ]
+        },
+        {
+          "class_id": "800",
+          "name": "Social Justice & Labor Law",
+          "personifications":[
+            { "id": "810", "name": "Justitia Socialis", "attributes": {"811.1": "Cogwheel/Anvil", "811.2": "Sheaf of Wheat/Sickle", "811.3": "Shield/Cloak"}, "postures": {"812.1": "Shielding a worker/vulnerable", "812.2": "Breaking chains of poverty"} }
+          ]
+        },
+        {
+          "class_id": "900",
+          "name": "Iconoclasm, Vandalism & Reappropriation",
+          "actions": {
+            "910": "Physical Iconoclasm", "attributes": {"911.1": "Graffiti/Pichação", "911.2": "Dismemberment", "911.3": "Blinding"},
+            "920": "Ephemeral Reappropriation", "attributes": {"921.1": "Draping flags", "921.2": "Protest Blindfolding"}
+          }
+        }
+      ],
+      "modifiers":[
+        {
+          "group": "+500",
+          "name": "General Contextual Modifiers",
+          "codes": { "+510": "Accompanied by Putti", "+520": "Flanked by totemic animals", "+530": "Trampling antagonists", "+540": "Situated in architectural framing" }
+        },
+        {
+          "group": "+600",
+          "name": "Brazilian Contextual Modifiers",
+          "codes": { "+610": "Cruzeiro do Sul (Southern Cross)", "+620": "Agrarian attributes (Coffee/Tobacco)", "+630": "Positivist indicators", "+640": "Modernist sculptural aesthetics", "+650": "Indigenous / Tropical Allegorization" }
+        },
+        {
+          "group": "+700",
+          "name": "Satirical Subversion",
+          "codes": { "+710": "Corrupted Attributes", "+720": "Victimized Allegory", "+730": "Complicit/Incompetent Allegory" }
+        }
+      ]
+    },
+    "database_log":[
+      {
+        "record_id": "BR-001",
+        "title": "A Justiça (Alfredo Ceschiatti)",
+        "location": "STF, Brasília",
+        "era": "1961",
+        "materiality": "M.400",
+        "lpai_code": "[M.400].110.111.2.111.3.112.1+640",
+        "key_attributes":["Justitia", "Sword", "Blindfold", "Seated", "Modernist"],
+        "analytical_note": "Scales omitted; monolithic aesthetic denotes absolute state power over bureaucratic balancing."
+      },
+      {
+        "record_id": "BR-002",
+        "title": "A Constituição",
+        "location": "Praça Tiradentes, Rio de Janeiro",
+        "era": "1862",
+        "materiality": "M.400",
+        "lpai_code": "[M.400].120.121.1.112.1+540+650",
+        "key_attributes": ["Lex", "Book of Law", "Seated", "Pedestal framing", "Tropical motif"],
+        "analytical_note": "Placed beneath the Emperor's equestrian statue; visually indexes the Constitution as a grant from the monarch."
+      },
+      {
+        "record_id": "BR-004",
+        "title": "Justiça de Olhos Abertos",
+        "location": "Antigo TJRJ, Rio de Janeiro",
+        "era": "1926",
+        "materiality": "M.400",
+        "lpai_code": "[M.400].110.111.1.111.2.112.1+540",
+        "key_attributes":["Justitia", "Scales", "Sword", "Seated", "No Blindfold"],
+        "analytical_note": "Rejects the blindfold; reflects the jurisprudence that Justice must actively see social inequality."
+      },
+      {
+        "record_id": "BR-009",
+        "title": "Efígie da República",
+        "location": "1 Real Coin, Brazil",
+        "era": "1994-Present",
+        "materiality": "M.200",
+        "lpai_code": "[M.200].310.312.4.211.1+311.3",
+        "key_attributes":["Respublica", "Marianne", "Phrygian Cap", "Laurel Wreath"],
+        "analytical_note": "Most widely circulated allegory in Brazil. Laurel indexes the economic stabilization of the nation post-hyperinflation."
+      },
+      {
+        "record_id": "BR-010",
+        "title": "Vandalization of Ceschiatti's Justiça",
+        "location": "Praça dos Três Poderes, Brasília",
+        "era": "2023",
+        "materiality": "M.500",
+        "lpai_code": "[M.500].110.111.2.111.3.112.1+640+910.911.1",
+        "key_attributes": ["Justitia", "Sword", "Blindfold", "Graffitied/Defaced"],
+        "analytical_note": "Transition of an official monument into a victim of iconoclasm (Class 900), symbolizing rupture between populace and Judiciary."
+      },
+      {
+        "record_id": "SAT-001",
+        "title": "A Justiça que Vê",
+        "location": "Editorial Print",
+        "era": "General Satire",
+        "materiality": "M.100",
+        "lpai_code": "[M.100].110.111.1.111.3+710+730",
+        "key_attributes":["Justitia", "Scales (tipped by money)", "Blindfold (lifted)"],
+        "analytical_note": "Subverts the blindfold (+730 complicity) and scales (+710 corruption). Indexes societal anxiety regarding class-based legal bias."
+      },
+      {
+        "record_id": "SAT-003",
+        "title": "A Constituição Amordaçada",
+        "location": "Political Cartoons",
+        "era": "Dictatorship Eras (1937, 1964)",
+        "materiality": "M.100",
+        "lpai_code": "[M.100].120.121.1.112.1+421.1+720",
+        "key_attributes": ["Lex", "Book of Law", "Bound to pillar", "Gagged"],
+        "analytical_note": "Neutralizes attributes. Pillar subverted from fortitude to imprisonment. Indexes the suspension of civil rights and state censorship."
+      }
+    ]
+  }
+}
