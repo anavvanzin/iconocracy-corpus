@@ -30,11 +30,14 @@
 
 > A recorrência de alegorias femininas nos repertórios estatais e jurídicos dos séculos XIX–XX constitui um regime iconocrático que materializa visualmente o contrato sexual, oferecendo reconhecimento simbólico ao feminino enquanto mantém a exclusão cívica das mulheres reais.
 
-### Conceitos originais (3)
+### Conceitos originais (4) — arquitetura revisada 2026-04-17
 
-1. **Contrato Sexual Visual** — ponte Pateman↔Goodrich: a dimensão visual do contrato sexual
-2. **Feminilidade de Estado** — o corpo feminino esvaziado como infraestrutura de afeto público
-3. **Contrato Racial Visual** — a branquitude constitutiva da alegoria "universal" (dimensão pós-colonial)
+1. **Contrato Sexual Visual** (Cap. 1) — ponte Pateman↔Goodrich: a dimensão visual do contrato sexual
+2. **Feminilidade de Estado** (Cap. 2.2) — o corpo feminino esvaziado como infraestrutura de afeto público; raízes genealógicas: Legendre (juiz totêmico) + Carson (hystéra)
+3. **Contrato Racial Visual** (Cap. 3) — a branquitude constitutiva da alegoria "universal" (dimensão pós-colonial)
+4. **Purificação Clássica** (Cap. 5.2) — operação formal de extração do feminino histórico para fixá-lo no eterno alegórico. Matriz primária jurídica (Kantorowicz/Legendre/Hespanha); extensão ferramental (Latour 1991/Haraway 1985/Descola). Operacionalizada empiricamente em ENDURECIMENTO (10 indicadores ordinais). Ver [[2026-04-17_ultraplan-qualificacao]]
+
+> **Decisão 2026-04-17 (Council A+):** A palavra "ciberfeminismo" não aparece no manuscrito. Tradição reservada para paper derivado pós-defesa.
 
 ### Pergunta central
 

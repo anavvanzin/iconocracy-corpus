@@ -96,13 +96,16 @@ Active automation:
 
 | Term | Rule |
 |------|------|
-| **ENDURECIMENTO** | Always in Portuguese. NEVER "hardening" or "embrutecimento" |
-| **Contrato Sexual Visual** | Original thesis concept — do NOT attribute to Pateman |
-| **Feminilidade de Estado** | Original thesis concept — do NOT attribute to Mondzain |
+| **ENDURECIMENTO** | Always in Portuguese. NEVER "hardening" or "embrutecimento". Empirical operationalization of **Purificação Clássica** via 10 ordinal indicators (0–3) |
+| **Contrato Sexual Visual** | Original thesis concept #1 — do NOT attribute to Pateman (Pateman is the source of the non-visual contract; the visual extension is autoral) |
+| **Feminilidade de Estado** | Original thesis concept #2 — do NOT attribute to Mondzain. Genealogical roots: Legendre (juiz totêmico) + Carson (hystéra) |
+| **Contrato Racial Visual** | Original thesis concept #3 — branquitude constitutiva da alegoria "universal"; transferência transatlântica de modelos neoclássicos. Cap. 3 |
+| **Purificação Clássica** | Original thesis concept #4 — operação formal de extração do feminino histórico para fixá-lo no eterno alegórico. Matriz primária jurídica (Kantorowicz/Legendre/Hespanha); extensão ferramental (Latour 1991 / Haraway 1985 / Descola). Operacionalizada em ENDURECIMENTO. Cap. 5.2. Use sempre "Purificação Clássica" no manuscrito final, não "purificação iconocrática" |
 | **Pathosformel**, **Zwischenraum**, **Nachleben** | Warburg — always in German |
 | **Mondzain** | Always 2002 edition |
 | **ABNT NBR 6023:2025** | Citation standard for all references |
 | **Iconclass 48C51** | Key code for feminist iconography |
+| **"ciberfeminismo"** | NEVER use in thesis text. Reservado para paper derivado pós-defesa. Operadores Haraway/Latour/Descola entram como matriz ferramental de Purificação Clássica, não como filiação a tradição |
 
 ---
 
