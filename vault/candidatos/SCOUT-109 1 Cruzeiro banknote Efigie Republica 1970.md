@@ -15,6 +15,7 @@ tags: [corpus/candidato, pais/BR, suporte/papel-moeda, regime/normativo, motivo/
 related: ["[[Regime Normativo]]", "[[ENDURECIMENTO]]", "[[SCOUT-103]]", "[[SCOUT-095]]"]
 hf_synced: false
 data_scout: 2026-03-30
+records_item_id: 8a5d8e43-91a1-5329-8e02-fcb98d10fd7f
 ---
 
 ## Identificacao

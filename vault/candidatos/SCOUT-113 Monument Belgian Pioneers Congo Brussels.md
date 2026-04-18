@@ -15,6 +15,7 @@ tags: [corpus/candidato, pais/BE, suporte/monumento, regime/militar, motivo/belg
 related: ["[[Regime Militar]]", "[[Contrato Racial Visual]]", "[[SCOUT-111]]", "[[SCOUT-112]]"]
 hf_synced: false
 data_scout: 2026-03-31
+records_item_id: 6b92ad6a-f23b-5c9b-b995-b66ab0297c58
 ---
 
 ## Identificacao

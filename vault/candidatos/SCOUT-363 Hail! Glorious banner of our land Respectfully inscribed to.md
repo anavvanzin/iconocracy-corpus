@@ -25,6 +25,7 @@ related:
 hunt_score: 0.8
 hunt_source: loc
 data_scout: 2026-04-04
+records_item_id: 4c27a448-9240-5618-b781-551ef3f85ff2
 ---
 
 ## Hail! Glorious banner of our land Respectfully inscribed to Major General George B. McClellan - By Mrs. Mary Farrell Moore, Cincinnati, Ohio, July 4th 1861 /

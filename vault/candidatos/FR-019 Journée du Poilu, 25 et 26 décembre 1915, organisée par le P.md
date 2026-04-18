@@ -14,6 +14,7 @@ fonte_analise: Qwen2-VL-2B-Instruct (HF GPU)
 data_analise: 2026-03-30
 related:
   - "[[corpus-data]]"
+records_item_id: 5abac01e-4ee9-5db7-9f8f-a4930e55c54d
 ---
 
 ## Journée du Poilu, 25 et 26 décembre 1915, organisée par le Parlement

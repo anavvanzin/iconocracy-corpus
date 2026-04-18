@@ -15,6 +15,7 @@ tags: [corpus/candidato, pais/BE, suporte/papel-moeda, regime/militar, motivo/be
 related: ["[[Regime Militar]]", "[[Contrato Racial Visual]]", "[[SCOUT-102]]", "[[SCOUT-105]]"]
 hf_synced: false
 data_scout: 2026-03-31
+records_item_id: c5b2c5fa-7be3-5003-a5b6-824deaa93a94
 ---
 
 ## Identificacao

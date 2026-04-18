@@ -25,6 +25,7 @@ related:
   - "[[Iconocracia]]"
   - "[[Feminilidade de Estado]]"
   - "[[Semeuse selo]]"
+records_item_id: 307097c6-6f43-55b0-b804-fdb48032e4a2
 ---
 
 # SCOUT-116 — Semeuse 1 Franc: Oscar Roty silver coin (1898–1920)

@@ -38,6 +38,7 @@ related:
   - "[[Feminilidade de Estado]]"
 data_scout: 2026-03-31
 sessao: SCOUT-SESSION-2026-03-31c
+records_item_id: e7a3e5b7-0f31-5fce-b0d9-efd4ed5e627f
 ---
 
 ## Identificação

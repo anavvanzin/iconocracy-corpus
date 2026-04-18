@@ -15,6 +15,7 @@ fonte_analise: Qwen2-VL-2B-Instruct (HF GPU)
 data_analise: 2026-03-30
 related:
   - "[[corpus-data]]"
+records_item_id: b83229c4-0c92-5c0d-8df4-590e246bc7a8
 ---
 
 ## Alegoria à Morte (Pierre Antoine Quillard)

@@ -15,6 +15,7 @@ fonte_analise: Qwen2-VL-2B-Instruct (HF GPU)
 data_analise: 2026-03-30
 related:
   - "[[corpus-data]]"
+records_item_id: 858046d0-0125-5d97-aa38-5d07f862121b
 ---
 
 ## Estátua feminina na abertura da amostra dos produtos do Rio Grande do Sul

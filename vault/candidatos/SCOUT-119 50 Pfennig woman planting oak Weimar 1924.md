@@ -25,6 +25,7 @@ related:
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-NC-03 Weimar Republic 1 Reichsmark eagle 1925]]"
   - "[[SCOUT-116 Semeuse 1 Franc silver coin Roty 1898]]"
+records_item_id: 62599722-19a6-5eb3-ae51-4cfe6b85f0e3
 ---
 
 # SCOUT-119 — 50 Reichspfennig: Woman Planting Oak Sapling (1924)

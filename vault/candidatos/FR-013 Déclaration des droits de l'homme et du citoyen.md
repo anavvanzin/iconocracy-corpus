@@ -15,6 +15,7 @@ fonte_analise: Qwen2-VL-2B-Instruct (HF GPU)
 data_analise: 2026-03-30
 related:
   - "[[corpus-data]]"
+records_item_id: 29894605-5d67-5700-ab5b-51ac92465996
 ---
 
 ## Déclaration des droits de l'homme et du citoyen

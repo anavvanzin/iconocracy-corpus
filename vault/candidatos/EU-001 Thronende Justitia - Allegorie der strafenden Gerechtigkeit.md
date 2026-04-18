@@ -15,6 +15,7 @@ fonte_analise: Qwen2-VL-2B-Instruct (HF GPU)
 data_analise: 2026-03-30
 related:
   - "[[corpus-data]]"
+records_item_id: 4bb745be-92c7-5080-8968-2247c2450ca1
 ---
 
 ## Thronende Justitia / Allegorie der strafenden Gerechtigkeit

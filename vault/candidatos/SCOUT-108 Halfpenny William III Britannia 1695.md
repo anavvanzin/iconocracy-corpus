@@ -15,6 +15,7 @@ tags: [corpus/candidato, pais/UK, suporte/moeda, regime/fundacional, motivo/brit
 related: ["[[Regime Fundacional]]", "[[SCOUT-NC-02]]", "[[SCOUT-105]]", "[[Nachleben]]"]
 hf_synced: false
 data_scout: 2026-03-30
+records_item_id: 90c16b9c-1bae-5655-a4bb-ab91489e9501
 ---
 
 ## Identificacao

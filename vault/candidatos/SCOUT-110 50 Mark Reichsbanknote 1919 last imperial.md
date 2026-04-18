@@ -15,6 +15,7 @@ tags: [corpus/candidato, pais/DE, suporte/papel-moeda, regime/fundacional, motiv
 related: ["[[Regime Fundacional]]", "[[SCOUT-096]]", "[[SCOUT-104]]", "[[ENDURECIMENTO]]"]
 hf_synced: false
 data_scout: 2026-03-30
+records_item_id: 5c3d26ad-718c-5bd8-886f-72d01a5e6a0d
 ---
 
 ## Identificacao

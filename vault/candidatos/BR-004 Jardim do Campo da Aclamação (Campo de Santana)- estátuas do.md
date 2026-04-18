@@ -15,6 +15,7 @@ fonte_analise: Qwen2-VL-2B-Instruct (HF GPU)
 data_analise: 2026-03-30
 related:
   - "[[corpus-data]]"
+records_item_id: b86d93a1-9594-523d-ba2b-31e8e521ea1a
 ---
 
 ## Jardim do Campo da Aclamação (Campo de Santana): estátuas do Outono e da Primavera

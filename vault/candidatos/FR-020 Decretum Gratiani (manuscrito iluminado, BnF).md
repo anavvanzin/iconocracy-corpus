@@ -14,6 +14,7 @@ fonte_analise: Qwen2-VL-2B-Instruct (HF GPU)
 data_analise: 2026-03-30
 related:
   - "[[corpus-data]]"
+records_item_id: fb40f20f-d105-55ae-b1bf-2a789c235d9a
 ---
 
 ## Decretum Gratiani (manuscrito iluminado, BnF)

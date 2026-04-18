@@ -38,10 +38,14 @@ O gate canônico falhava porque `data/processed/records.jsonl` tinha apenas 2 re
 ### `tools/scripts/vault_sync.py`
 - alinhei `push` e `_record_to_vault_note()` para preferir a URL primária de `webscout.search_results[0].url` antes de `input_url`
 - isso evita gerar notas novas com URL de handle/landing page quando o registro já carrega a URL primária da evidência
+- adicionei normalização de título/URL e preservei apóstrofos no parser de frontmatter
+- adicionei `backfill-record-ids` para preencher `records_item_id` em notas legadas do espelho do ledger
 
 ### Dados escritos
 - regenerei `data/processed/records.jsonl` com 165 registros válidos
 - executei `vault_sync.py push`, que criou 113 notas novas para cobrir itens do corpus ainda sem espelho no vault
+- executei um segundo `vault_sync.py push`, que criou mais 8 notas para itens com placeholder
+- executei `vault_sync.py backfill-record-ids`, que atualizou 46 notas legadas para matching explícito por `records_item_id`
 
 ## Verificações executadas
 
@@ -72,10 +76,11 @@ Resultado:
 ```bash
 conda run -n iconocracy python tools/scripts/vault_sync.py status
 ```
-Resultado após push:
+Resultado após push/backfill:
 - `records.jsonl`: 165 registros
-- `vault/candidatos/`: 306 notas
-- 255 notas SCOUT e 26 notas com corpus ID
+- `vault/candidatos/`: 314 notas
+- 263 notas SCOUT e 26 notas com corpus ID
+- 165/165 registros do ledger agora possuem uma nota com `records_item_id` explícito no vault
 
 ## Estado final
 

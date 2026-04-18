@@ -26,6 +26,7 @@ related:
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-NC-03 Weimar Republic 1 Reichsmark eagle 1925]]"
   - "[[SCOUT-ZW-11 Semeuse vs Weimar eagle absence]]"
+records_item_id: f049b319-a096-557c-909f-22d90a00425e
 ---
 
 # SCOUT-118 — 50 Mark Reichsbanknote: Germania as Young Girl (1919)

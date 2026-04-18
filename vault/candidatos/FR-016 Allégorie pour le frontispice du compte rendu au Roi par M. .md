@@ -14,6 +14,7 @@ fonte_analise: Qwen2-VL-2B-Instruct (HF GPU)
 data_analise: 2026-03-30
 related:
   - "[[corpus-data]]"
+records_item_id: 8adb7337-2867-51e5-b822-6453c2230b23
 ---
 
 ## Allégorie pour le frontispice du compte rendu au Roi par M. Necker (variante)

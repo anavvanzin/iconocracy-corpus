@@ -1,5 +1,7 @@
 # Hub Consistency Validation Log
 
+> Historical note: this file records the pre-restoration validation state captured during the structural refactor. The canonical ledger was repaired later in this branch; see `docs/plans/2026-04-17-corpus-restoration-log.md` and `docs/plans/2026-04-17-vault-curation-backlog.md` for the superseding state.
+
 Data: 2026-04-17
 Branch: `infra/hub-consistency-refactor`
 Worktree: `/Users/ana/Research/.worktrees/iconocracy-corpus-hub-consistency`

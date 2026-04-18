@@ -15,6 +15,7 @@ tags: [corpus/candidato, pais/US, suporte/papel-moeda, regime/normativo, motivo/
 related: ["[[Regime Normativo]]", "[[Contrato Sexual Visual]]", "[[Feminilidade de Estado]]"]
 hf_synced: false
 data_scout: 2026-03-30
+records_item_id: b3c337eb-c85f-50c8-a44a-dbbbd0892aa6
 ---
 
 ## Identificacao

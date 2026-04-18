@@ -25,6 +25,7 @@ related:
   - "[[Iconocracia]]"
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-115 5 Dollar Educational Series Electricity 1896]]"
+records_item_id: ac63fca1-03c9-53f4-ae4b-865a53f0d43f
 ---
 
 # SCOUT-114 — $2 Educational Series: Science Presenting Steam and Electricity to Commerce and Manufacture

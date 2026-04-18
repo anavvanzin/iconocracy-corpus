@@ -25,6 +25,7 @@ import re
 import sys
 import unicodedata
 import uuid
+from collections import defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
@@ -241,6 +242,19 @@ def _note_country(fm: dict) -> str:
     pais = str(fm.get("pais") or "").strip()
     # May be a code like "BR" or a full name
     return COUNTRY_NAMES.get(pais.upper(), pais)
+
+
+def _set_frontmatter_scalar(text: str, key: str, value: str) -> str:
+    if not text.startswith("---\n"):
+        return text
+    needle = re.compile(rf"^{re.escape(key)}:\s*.*$", re.M)
+    replacement = f"{key}: {value}"
+    if needle.search(text):
+        return needle.sub(replacement, text, count=1)
+    end = text.find("\n---", 4)
+    if end == -1:
+        return text
+    return text[:end] + f"\n{replacement}" + text[end:]
 
 
 def _now_iso() -> str:
@@ -690,6 +704,69 @@ def cmd_sync(dry_run: bool = False) -> None:
     cmd_push(dry_run=dry_run)
 
 
+def cmd_backfill_record_ids(dry_run: bool = False) -> None:
+    """Backfill records_item_id in existing vault notes using current matching rules."""
+    records = _load_records()
+    notes = _scan_vault_notes()
+
+    by_url: dict[str, list[dict]] = defaultdict(list)
+    by_title: dict[str, list[dict]] = defaultdict(list)
+    by_item_id: dict[str, dict] = {}
+    for rec in records:
+        rec_id = str(rec.get("item_id") or "")
+        if rec_id:
+            by_item_id[rec_id] = rec
+        url_norm = _normalize_url(_record_primary_url(rec))
+        title_norm = _normalize_title(_record_title(rec))
+        if url_norm:
+            by_url[url_norm].append(rec)
+        if title_norm:
+            by_title[title_norm].append(rec)
+
+    updated = 0
+    skipped_ambiguous = 0
+    skipped_existing = 0
+    for note in notes:
+        if _note_records_item_id(note):
+            skipped_existing += 1
+            continue
+        candidates: list[dict] = []
+        url_norm = _normalize_url(_note_url(note))
+        title_norm = _normalize_title(_note_title(note))
+        note_id = _note_id(note)
+
+        if note_id in by_item_id:
+            candidates = [by_item_id[note_id]]
+        elif url_norm and len(by_url.get(url_norm, [])) == 1:
+            candidates = by_url[url_norm]
+        elif title_norm and len(by_title.get(title_norm, [])) == 1:
+            candidates = by_title[title_norm]
+
+        if len(candidates) != 1:
+            skipped_ambiguous += 1
+            continue
+
+        rec = candidates[0]
+        path = note.get("_path")
+        if not path:
+            continue
+        text = path.read_text(encoding="utf-8")
+        new_text = _set_frontmatter_scalar(text, "records_item_id", str(rec.get("item_id") or ""))
+        if new_text == text:
+            continue
+        if dry_run:
+            print(f"  [DRY-RUN] BACKFILL: {note.get('_file', '?')} -> {rec.get('item_id', '')}")
+        else:
+            path.write_text(new_text, encoding="utf-8")
+            print(f"  BACKFILL: {note.get('_file', '?')} -> {rec.get('item_id', '')}")
+        updated += 1
+
+    if dry_run:
+        print(f"\n[DRY-RUN] Backfill: {updated} notas atualizáveis, {skipped_existing} já tinham records_item_id, {skipped_ambiguous} ambíguas/sem match único.")
+    else:
+        print(f"\nBackfill concluído: {updated} notas atualizadas, {skipped_existing} já tinham records_item_id, {skipped_ambiguous} ambíguas/sem match único.")
+
+
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
@@ -700,7 +777,7 @@ def main() -> None:
     )
     parser.add_argument(
         "command",
-        choices=["status", "diff", "pull", "push", "sync"],
+        choices=["status", "diff", "pull", "push", "sync", "backfill-record-ids"],
         help="Comando a executar",
     )
     parser.add_argument(
@@ -715,6 +792,7 @@ def main() -> None:
         "pull": lambda: cmd_pull(dry_run=args.dry_run),
         "push": lambda: cmd_push(dry_run=args.dry_run),
         "sync": lambda: cmd_sync(dry_run=args.dry_run),
+        "backfill-record-ids": lambda: cmd_backfill_record_ids(dry_run=args.dry_run),
     }
     cmds[args.command]()
 

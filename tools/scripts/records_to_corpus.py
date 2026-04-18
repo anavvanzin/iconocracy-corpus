@@ -19,6 +19,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from collections import Counter, defaultdict, deque
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent
@@ -84,6 +85,18 @@ def _match_key(url: str | None, fallback_id: str = "") -> str:
 def _display_url(url: str | None) -> str:
     text = str(url or "")
     return "(sem URL)" if text.startswith(PLACEHOLDER_PREFIX) else (text or "(sem URL)")
+
+
+def _record_match_url(rec: dict) -> str:
+    sr = rec.get("webscout", {}).get("search_results", [{}])
+    url = sr[0].get("url", "") if sr else ""
+    input_url = rec.get("input", {}).get("input_url", "")
+    return url or input_url
+
+
+def _duplicate_keys_from_values(values: list[str]) -> dict[str, int]:
+    counts = Counter(v for v in values if v)
+    return {k: v for k, v in counts.items() if v > 1}
 
 
 def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
@@ -172,91 +185,115 @@ def export_corpus(
     """
     result: list[dict] = []
 
-    # Index records by URL or placeholder-derived corpus id for matching
-    records_by_key: dict[str, dict] = {}
+    # Index records by URL or placeholder-derived corpus id for matching.
+    # Use queues to preserve multiplicity instead of silently overwriting duplicates.
+    records_by_key: dict[str, deque[dict]] = defaultdict(deque)
     for rec in records:
-        sr = rec.get("webscout", {}).get("search_results", [{}])
-        url = sr[0].get("url", "") if sr else ""
-        input_url = rec.get("input", {}).get("input_url", "")
-        match_url = url or input_url
-        match_key = _match_key(match_url)
+        match_key = _match_key(_record_match_url(rec))
         if match_key:
-            records_by_key[match_key] = rec
+            records_by_key[match_key].append(rec)
 
     # Process existing corpus entries
-    matched_keys: set[str] = set()
+    matched_record_ids: set[str] = set()
 
     if not replace:
         for item_id, item in existing_corpus.items():
             item_url = item.get("url", "")
             item_key = _match_key(item_url, item_id)
-            rec = records_by_key.get(item_key)
+            rec_queue = records_by_key.get(item_key)
+            rec = None
+            if rec_queue:
+                while rec_queue and rec_queue[0].get("item_id") in matched_record_ids:
+                    rec_queue.popleft()
+                if rec_queue:
+                    rec = rec_queue.popleft()
             if rec:
                 entry = _corpus_entry_from_record(rec, item)
-                matched_keys.add(item_key)
+                matched_record_ids.add(rec.get("item_id", ""))
             else:
                 entry = dict(item)
             result.append(entry)
 
     # Add records not matched to existing corpus
-    existing_keys = {_match_key(i.get("url", ""), i.get("id", "")) for i in result}
+    existing_keys = [_match_key(i.get("url", ""), i.get("id", "")) for i in result]
+    existing_key_counts = Counter(existing_keys)
     for rec in records:
-        sr = rec.get("webscout", {}).get("search_results", [{}])
-        url = sr[0].get("url", "") if sr else ""
-        input_url = rec.get("input", {}).get("input_url", "")
-        match_url = url or input_url
-        match_key = _match_key(match_url)
-        if match_key in matched_keys:
+        rec_item_id = rec.get("item_id", "")
+        match_key = _match_key(_record_match_url(rec))
+        if rec_item_id in matched_record_ids:
             continue
-        if replace or match_key not in existing_keys:
-            entry = _corpus_entry_from_record(rec, None)
-            if entry.get("title"):
-                result.append(entry)
+        current_count = sum(1 for r in result if _match_key(r.get("url", ""), r.get("id", "")) == match_key)
+        target_count = existing_key_counts.get(match_key, 0)
+        if not replace and current_count < target_count:
+            continue
+        entry = _corpus_entry_from_record(rec, None)
+        if entry.get("title"):
+            result.append(entry)
+            matched_record_ids.add(rec_item_id)
 
     return result
 
 
 def show_diff(records: list[dict], existing_corpus: dict[str, dict]) -> None:
     """Show a summary of differences between records.jsonl and corpus-data.json."""
-    rec_items: dict[str, str] = {}
+    rec_items: dict[str, list[str]] = defaultdict(list)
+    rec_keys_raw: list[str] = []
     for rec in records:
-        sr = rec.get("webscout", {}).get("search_results", [{}])
-        url = sr[0].get("url", "") if sr else ""
-        input_url = rec.get("input", {}).get("input_url", "")
-        match_url = url or input_url
+        match_url = _record_match_url(rec)
         key = _match_key(match_url)
-        rec_items[key] = _display_url(match_url)
+        rec_items[key].append(_display_url(match_url))
+        rec_keys_raw.append(key)
 
-    corpus_items = {}
+    corpus_items: dict[str, list[dict]] = defaultdict(list)
+    corpus_keys_raw: list[str] = []
     for item_id, item in existing_corpus.items():
         url = item.get("url", "")
         key = _match_key(url, item_id)
-        corpus_items[key] = {"id": item_id, "url": _display_url(url)}
+        corpus_items[key].append({"id": item_id, "url": _display_url(url)})
+        corpus_keys_raw.append(key)
 
     only_in_records = set(rec_items.keys()) - set(corpus_items.keys())
     only_in_corpus = set(corpus_items.keys()) - set(rec_items.keys())
+    duplicate_record_keys = _duplicate_keys_from_values(rec_keys_raw)
+    duplicate_corpus_keys = _duplicate_keys_from_values(corpus_keys_raw)
 
     print(f"records.jsonl items:   {len(records)}")
     print(f"corpus-data.json items:{len(existing_corpus)}")
     print()
 
+    if duplicate_record_keys:
+        print(f"AVISO: chaves duplicadas em records.jsonl ({len(duplicate_record_keys)}):")
+        for key, count in sorted(duplicate_record_keys.items())[:10]:
+            print(f"  ! {count}x {_display_url(key)}")
+        if len(duplicate_record_keys) > 10:
+            print(f"  ... and {len(duplicate_record_keys) - 10} more")
+        print()
+
+    if duplicate_corpus_keys:
+        print(f"AVISO: chaves duplicadas em corpus-data.json ({len(duplicate_corpus_keys)}):")
+        for key, count in sorted(duplicate_corpus_keys.items())[:10]:
+            print(f"  ! {count}x {_display_url(key)}")
+        if len(duplicate_corpus_keys) > 10:
+            print(f"  ... and {len(duplicate_corpus_keys) - 10} more")
+        print()
+
     if only_in_records:
         print(f"Only in records.jsonl ({len(only_in_records)}):")
         for key in sorted(only_in_records)[:10]:
-            print(f"  + {rec_items[key][:80]}")
+            print(f"  + {rec_items[key][0][:80]}")
         if len(only_in_records) > 10:
             print(f"  ... and {len(only_in_records) - 10} more")
 
     if only_in_corpus:
         print(f"\nOnly in corpus-data.json ({len(only_in_corpus)}):")
         for key in sorted(only_in_corpus)[:10]:
-            payload = corpus_items[key]
+            payload = corpus_items[key][0]
             print(f"  - [{payload['id']}] {payload['url'][:80]}")
         if len(only_in_corpus) > 10:
             print(f"  ... and {len(only_in_corpus) - 10} more")
 
     if not only_in_records and not only_in_corpus:
-        print("Em sincronização (por URL).")
+        print("Em sincronização (por URL/chave de correspondência).")
 
 
 def main() -> None:

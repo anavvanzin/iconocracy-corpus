@@ -14,6 +14,7 @@ fonte_analise: Qwen2-VL-2B-Instruct (HF GPU)
 data_analise: 2026-03-30
 related:
   - "[[corpus-data]]"
+records_item_id: ae8876ff-0ecb-5084-a871-3a205b8caba6
 ---
 
 ## Monumento à República, Praça da República, Belém (vista geral)

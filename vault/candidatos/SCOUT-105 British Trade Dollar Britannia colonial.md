@@ -15,6 +15,7 @@ tags: [corpus/candidato, pais/UK, suporte/moeda, regime/militar, motivo/britanni
 related: ["[[Regime Militar]]", "[[ENDURECIMENTO]]", "[[SCOUT-106]]", "[[SCOUT-NC-02]]"]
 hf_synced: false
 data_scout: 2026-03-30
+records_item_id: 38461286-c1c9-5c8b-af31-d85806074db9
 ---
 
 ## Identificacao

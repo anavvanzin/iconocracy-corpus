@@ -25,6 +25,7 @@ related:
 hunt_score: 0.8
 hunt_source: loc
 data_scout: 2026-04-04
+records_item_id: 3554f7c3-1f9f-5f5a-9211-b085bf99c08d
 ---
 
 ## The blessings of victory

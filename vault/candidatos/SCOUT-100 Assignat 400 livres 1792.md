@@ -16,6 +16,7 @@ tags: [corpus/candidato, pais/FR, suporte/papel-moeda, regime/fundacional, motiv
 related: ["[[Regime Fundacional]]", "[[SCOUT-096]]", "[[Contrato Sexual Visual]]"]
 hf_synced: false
 data_scout: 2026-03-30
+records_item_id: 35d51ab4-aa88-5f88-9306-e1daf568e508
 ---
 
 ## Identificacao

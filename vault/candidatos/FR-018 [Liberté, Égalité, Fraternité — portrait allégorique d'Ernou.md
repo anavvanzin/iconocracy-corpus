@@ -15,6 +15,7 @@ fonte_analise: Qwen2-VL-2B-Instruct (HF GPU)
 data_analise: 2026-03-30
 related:
   - "[[corpus-data]]"
+records_item_id: 0f062b69-9c73-59aa-86f5-c0458b4ea37c
 ---
 
 ## [Liberté, Égalité, Fraternité — portrait allégorique d'Ernouf]

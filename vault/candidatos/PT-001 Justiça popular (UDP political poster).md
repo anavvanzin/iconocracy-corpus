@@ -14,6 +14,7 @@ fonte_analise: Qwen2-VL-2B-Instruct (HF GPU)
 data_analise: 2026-03-30
 related:
   - "[[corpus-data]]"
+records_item_id: 1ab9df88-0542-5cd9-95df-99cf0b8cd65f
 ---
 
 ## Justiça popular (UDP political poster)

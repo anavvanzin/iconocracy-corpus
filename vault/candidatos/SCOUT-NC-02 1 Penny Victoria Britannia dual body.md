@@ -15,6 +15,7 @@ tags: [corpus/candidato, corpus/controle-negativo, pais/UK, suporte/moeda, regim
 related: ["[[Ausencia Alegorica]]", "[[Contrato Sexual Visual]]", "[[SCOUT-105]]", "[[SCOUT-NC-01]]"]
 hf_synced: false
 data_scout: 2026-03-30
+records_item_id: 5a87d103-c4da-5c3f-afd0-74a5c11b0eb5
 ---
 
 ## Identificacao

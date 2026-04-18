@@ -15,6 +15,7 @@ fonte_analise: Qwen2-VL-2B-Instruct (HF GPU)
 data_analise: 2026-03-30
 related:
   - "[[corpus-data]]"
+records_item_id: b3ea808a-fabc-5f0d-975f-81249e3f741a
 ---
 
 ## Alegoria ao Tempo (Pierre Antoine Quillard)

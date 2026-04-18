@@ -15,6 +15,7 @@ tags: [corpus/candidato, pais/DE, suporte/papel-moeda, regime/normativo, motivo/
 related: ["[[Regime Normativo]]", "[[ENDURECIMENTO]]", "[[Feminilidade de Estado]]"]
 hf_synced: false
 data_scout: 2026-03-30
+records_item_id: be91e95b-9083-5bac-97af-cefefb7fd765
 ---
 
 ## Identificacao

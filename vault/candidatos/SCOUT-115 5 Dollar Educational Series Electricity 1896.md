@@ -27,6 +27,7 @@ related:
   - "[[Iconocracia]]"
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-114 2 Dollar Educational Series Science 1896]]"
+records_item_id: 11fa83ea-c4eb-5685-abc5-acdf23e0d427
 ---
 
 # SCOUT-115 — $5 Educational Series: Electricity Presenting Light to the World

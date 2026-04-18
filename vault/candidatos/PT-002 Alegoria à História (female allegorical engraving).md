@@ -15,6 +15,7 @@ fonte_analise: Qwen2-VL-2B-Instruct (HF GPU)
 data_analise: 2026-03-30
 related:
   - "[[corpus-data]]"
+records_item_id: 8b9906df-a133-515a-b7e4-60d9650a057e
 ---
 
 ## Alegoria à História (female allegorical engraving)

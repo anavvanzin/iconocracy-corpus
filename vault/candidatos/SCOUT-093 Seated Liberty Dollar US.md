@@ -15,6 +15,7 @@ tags: [corpus/candidato, pais/US, suporte/moeda, regime/fundacional, motivo/colu
 related: ["[[Regime Fundacional]]", "[[Feminilidade de Estado]]", "[[ENDURECIMENTO]]"]
 hf_synced: false
 data_scout: 2026-03-30
+records_item_id: 94c243b4-e40f-524d-9806-fda4da8e7809
 ---
 
 ## Identificacao
