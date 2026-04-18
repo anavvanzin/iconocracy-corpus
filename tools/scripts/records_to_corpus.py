@@ -165,8 +165,14 @@ def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
         entry["citation_abnt"] = abnt
 
     # Tags from exports audit_flags
-    if exports.get("audit_flags") and not entry.get("audit_flags"):
-        entry["audit_flags"] = exports["audit_flags"]
+    audit_flags = exports.get("audit_flags") or []
+    if audit_flags and not entry.get("audit_flags"):
+        entry["audit_flags"] = audit_flags
+
+    if not entry.get("id"):
+        source_note_flag = next((flag for flag in audit_flags if isinstance(flag, str) and flag.startswith("source-note-id:")), "")
+        if source_note_flag:
+            entry["id"] = source_note_flag.split(":", 1)[1].strip()
 
     return entry
 

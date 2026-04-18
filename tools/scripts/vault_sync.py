@@ -299,7 +299,9 @@ def _vault_note_to_record(fm: dict) -> dict:
 
     # Tags
     tags = fm.get("tags") or []
-    audit_flags = ["vault-import", "#verificar"] if "#verificar" in str(tags) else ["vault-import"]
+    audit_flags = ["vault-import", f"source-note-id:{_note_id(fm)}"]
+    if "#verificar" in str(tags):
+        audit_flags.append("#verificar")
 
     now = _now_iso()
 
