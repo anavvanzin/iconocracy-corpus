@@ -108,8 +108,18 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -qE 'tools/scripts/.*\\.py$' && python3 -m py_compile \"$f\" 2>&1 | head -5; } || true",
-            "statusMessage": "Checking Python syntax..."
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -qE '\\.py$' && ruff check --quiet \"$f\" 2>&1 | head -10; } || true",
+            "statusMessage": "Ruff lint check..."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -qE '\\.sh$' && shellcheck \"$f\" 2>&1 | head -10; } || true",
+            "statusMessage": "Shellcheck..."
           }
         ]
       },
