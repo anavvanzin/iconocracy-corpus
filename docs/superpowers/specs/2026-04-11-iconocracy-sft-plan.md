@@ -51,7 +51,7 @@ No repositório, guardar apenas:
 
 ---
 
-## 3. Fontes canônicas para o dataset v1
+## 3. Fontes operacionais selecionadas para o dataset v1
 
 ### Fontes principais já identificadas
 1. `AGENT_CONFIG_ICONOCRACIA.md`

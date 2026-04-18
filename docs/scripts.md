@@ -6,6 +6,8 @@ All scripts live in `tools/scripts/`. Run from repository root:
 python tools/scripts/<script_name>.py [args]
 ```
 
+Plans live under `docs/plans/`. Reusable specs and guides live under `docs/superpowers/specs/`.
+
 ## Script Reference
 
 | Script | Purpose | Key Dependencies |

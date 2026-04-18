@@ -6,6 +6,8 @@ This document defines the day-to-day operating model for `iconocracy-corpus`.
 It replaces the earlier tendency to treat the repository as both working
 surface and backup log.
 
+For canonical workspace root, compatibility symlinks, and cross-workspace topology, see `docs/workspace-map.md`.
+
 ## Three durable surfaces
 
 ### 1. Local research surface
@@ -46,6 +48,7 @@ Hugging Face is the public release layer:
 - the dataset is a frozen release artifact, not a live working copy
 - releases happen at meaningful milestones, not on every repo change
 - the first Space is read-only and browses a frozen dataset snapshot
+- public app surfaces may live outside the hub under `/Users/ana/Research/apps/` and should not be assumed to exist as repo-root directories
 
 ## Canonical data contract
 

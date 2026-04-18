@@ -70,6 +70,10 @@ webiconocracy/
 # Obsidian Make.md plugin
 .makemd/
 
+# Jupyter / notebook transient outputs
+.ipynb_checkpoints/
+notebooks/**/output/
+
 # Claude Code worktrees
 .claude/worktrees/
 
@@ -77,9 +81,15 @@ webiconocracy/
 output/
 tmp/
 logs/
+corpus/agent-runs.lock
 data/raw/.staging/
 data/raw/argos/manifest.lock
 data/raw/argos/*.bak
+
+# Local MCP / helper state
+.air/
+.remember/
+.mcp.local.json
 
 # Cloudflare local state (contains account IDs, geolocation, binary blobs)
 .wrangler/

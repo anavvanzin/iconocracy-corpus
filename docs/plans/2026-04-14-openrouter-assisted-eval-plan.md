@@ -305,7 +305,7 @@ git commit -m "feat: add openrouter eval round 1 wrapper"
 
 **Files:**
 - Outputs under: `data/training/`
-- Summary under: `docs/superpowers/specs/` or `docs/plans/`
+- Summary under: planning memos and conclusions in `docs/plans/`; reusable eval guides/specs in `docs/superpowers/specs/`
 
 **Step 1: Run local baseline if needed**
 

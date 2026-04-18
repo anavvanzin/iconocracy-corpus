@@ -26,7 +26,9 @@ O contrato de dados permanece inalterado:
 
 1. `data/processed/records.jsonl`
 2. `corpus/corpus-data.json`
-3. releases publicos e snapshots congelados
+3. `data/processed/purification.jsonl`
+4. `vault/candidatos/` como espelho auxiliar
+5. releases publicos e snapshots congelados como artefatos derivados
 
 ## Dependencias e spokes
 
@@ -35,7 +37,7 @@ O contrato de dados permanece inalterado:
 | `iconocracy-corpus` | `/Users/ana/Research/hub/iconocracy-corpus` | Hub canonico e ponto de verdade da tese | canonical | `/Users/ana/iconocracy-corpus` |
 | `iconocracia-companion` | `/Users/ana/Research/apps/iconocracia-companion` | Interface publica do corpus | experimental | `/Users/ana/iconocracia-companion` |
 | `iconocracia-space` | `/Users/ana/Research/apps/iconocracia-space` | Explorer/read-only para Hugging Face | experimental | `/Users/ana/iconocracia-space` |
-| `webiconocracy` | `/Users/ana/Research/apps/webiconocracy` | App experimental separado do hub | experimental | symlink em `webiconocracy/` dentro do hub |
+| `webiconocracy` | `/Users/ana/Research/apps/webiconocracy` | App experimental separado do hub | experimental | sem atalho local garantido no hub |
 | `iconocracy-ingest` | `/Users/ana/Research/pipelines/iconocracy-ingest` | Pipeline de ingestao que alimenta os dados do hub | derived | path externo canonico apontando para `iconocracy-ingest/` dentro do hub |
 | `indexing` | `/Users/ana/Research/pipelines/indexing` | Indexacao e infraestrutura Gallica/Scout | derived | symlink em `indexing/` dentro do hub |
 | `Atlas` | `/Users/ana/Research/pipelines/Atlas` | Toolkit iconografico auxiliar | experimental | symlink em `Atlas/` dentro do hub |

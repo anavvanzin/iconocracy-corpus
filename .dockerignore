@@ -44,5 +44,19 @@ README.md
 *.md.bak
 *.swp
 
+# Project-local noise and historical root artifacts
+logs/
+*.pdf
+.agents/
+.air/
+.remember/
+.postman/
+tmp/
+misc/
+random outputs/
+New Folder/
+Notas e Textos/
+PHD/
+
 # Pandoc output
 vault/tese/output/

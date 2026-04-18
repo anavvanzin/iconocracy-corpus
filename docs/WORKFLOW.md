@@ -6,6 +6,7 @@ Workflow curto para tocar a tese sem perder tempo com drift de estrutura, Git ou
 
 - Trabalhe no hub canônico: `/Users/ana/Research/hub/iconocracy-corpus`
 - Use os paths em `/Users/ana/Research/...` como mapa do workspace
+- `/Users/ana/iconocracy-corpus` pode continuar funcionando como symlink de compatibilidade, mas a documentação operacional deve preferir o path em `Research/`
 - Considere `records.jsonl` a fonte operacional, `corpus-data.json` o export público e `vault/` o espelho de trabalho
 - Não trate Hugging Face como working copy
 - Não trate o vault como fonte primária de verdade
