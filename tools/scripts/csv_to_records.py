@@ -65,11 +65,30 @@ def _safe_int(val, default: int = 0) -> int:
         return default
 
 
+def _bounded_indicator(val, default: int = 0) -> int:
+    """Normalize legacy 0–4 values into the current schema's 0–3 range."""
+    return max(0, min(3, _safe_int(val, default)))
+
+
 def _safe_float(val, default: float = 0.0) -> float:
     try:
         return float(str(val))
     except (TypeError, ValueError):
         return default
+
+
+def _normalize_text(val: str | None, fallback: str) -> str:
+    text = str(val).strip() if val is not None else ""
+    return text or fallback
+
+
+def _normalize_datetime(val: str | None, fallback: str) -> str:
+    text = str(val).strip() if val is not None else ""
+    if not text:
+        return fallback
+    if len(text) == 10 and text.count("-") == 2:
+        return f"{text}T00:00:00Z"
+    return text
 
 
 def _safe_url(item_id: str, url: str | None) -> str:
@@ -215,12 +234,12 @@ def _build_purificacao(item: dict, csv_row: dict | None) -> dict | None:
     # Prefer CSV data (has string values), then corpus indicadores dict
     csv_ind: dict = {}
     if csv_row:
-        csv_ind = {col: _safe_int(csv_row.get(col, 0)) for col in PURIF_COLS}
+        csv_ind = {col: _bounded_indicator(csv_row.get(col, 0)) for col in PURIF_COLS}
 
     corpus_ind: dict = item.get("indicadores") or {}
 
     # Merge: CSV wins on numeric purif cols; corpus fills the rest
-    ind = {col: csv_ind.get(col, _safe_int(corpus_ind.get(col, 0)))
+    ind = {col: csv_ind.get(col, _bounded_indicator(corpus_ind.get(col, 0)))
            for col in PURIF_COLS}
 
     if all(v == 0 for v in ind.values()) and not corpus_ind and not csv_row:
@@ -237,10 +256,16 @@ def _build_purificacao(item: dict, csv_row: dict | None) -> dict | None:
     # purificacao_composto
     csv_comp = _safe_float(csv_row.get("purificacao_composto", 0)) if csv_row else 0
     corpus_comp = _safe_float(item.get("endurecimento_score", 0))
-    composto = csv_comp if csv_comp else corpus_comp
+    composto = min(3.0, max(0.0, csv_comp if csv_comp else corpus_comp))
 
-    coded_by = (csv_row.get("coded_by") if csv_row else None) or item.get("coded_by", "migration")
-    coded_at = (csv_row.get("coded_at") if csv_row else None) or item.get("coded_at", MIGRATION_TS)
+    coded_by = _normalize_text(
+        (csv_row.get("coded_by") if csv_row else None) or item.get("coded_by"),
+        "migration",
+    )
+    coded_at = _normalize_datetime(
+        (csv_row.get("coded_at") if csv_row else None) or item.get("coded_at"),
+        MIGRATION_TS,
+    )
 
     purif: dict = {col: ind[col] for col in PURIF_COLS}
     purif["purificacao_composto"] = round(composto, 3)

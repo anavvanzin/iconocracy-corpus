@@ -337,11 +337,12 @@ def _record_to_vault_note(record: dict, note_id: str) -> str:
     """Generate an Obsidian note from a master record."""
     inp = record.get("input", {})
     title = inp.get("title_hint") or "Sem título"
-    url = inp.get("input_url", "")
+    sr = (record.get("webscout") or {}).get("search_results") or [{}]
+    primary = sr[0] if sr else {}
+    url = primary.get("url") or inp.get("input_url", "")
     date_str = inp.get("date_hint", "")
     country = inp.get("place_hint", "")
 
-    sr = (record.get("webscout") or {}).get("search_results") or [{}]
     abnt = (record.get("exports") or {}).get("abnt_citations") or []
     abnt_str = abnt[0] if abnt else title
 
@@ -547,7 +548,9 @@ def cmd_push(dry_run: bool = False) -> None:
 
     for rec in records:
         inp = rec.get("input") or {}
-        url = inp.get("input_url", "")
+        sr = (rec.get("webscout") or {}).get("search_results") or [{}]
+        primary = sr[0] if sr else {}
+        url = primary.get("url") or inp.get("input_url", "")
         title = inp.get("title_hint", "")
 
         # Skip placeholder URLs — no point creating notes for these

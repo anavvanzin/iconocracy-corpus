@@ -24,6 +24,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent.parent
 RECORDS = REPO / "data" / "processed" / "records.jsonl"
 CORPUS_OUT = REPO / "corpus" / "corpus-data.json"
+PLACEHOLDER_PREFIX = "https://iconocracy.corpus/placeholder/"
 
 # Map master-record country strings (from input.place_hint) back to corpus names
 COUNTRY_MAP_REVERSE: dict[str, str] = {
@@ -71,6 +72,18 @@ def _load_existing_corpus() -> dict[str, dict]:
         return {item["id"]: item for item in items if "id" in item}
     except Exception:
         return {}
+
+
+def _match_key(url: str | None, fallback_id: str = "") -> str:
+    text = str(url or "")
+    if text.startswith(PLACEHOLDER_PREFIX):
+        return f"(sem URL)::{text.removeprefix(PLACEHOLDER_PREFIX)}"
+    return text or f"(sem URL)::{fallback_id}"
+
+
+def _display_url(url: str | None) -> str:
+    text = str(url or "")
+    return "(sem URL)" if text.startswith(PLACEHOLDER_PREFIX) else (text or "(sem URL)")
 
 
 def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
@@ -159,35 +172,43 @@ def export_corpus(
     """
     result: list[dict] = []
 
-    # Index records by URL for matching
-    records_by_url: dict[str, dict] = {}
+    # Index records by URL or placeholder-derived corpus id for matching
+    records_by_key: dict[str, dict] = {}
     for rec in records:
         sr = rec.get("webscout", {}).get("search_results", [{}])
         url = sr[0].get("url", "") if sr else ""
-        if url:
-            records_by_url[url] = rec
+        input_url = rec.get("input", {}).get("input_url", "")
+        match_url = url or input_url
+        match_key = _match_key(match_url)
+        if match_key:
+            records_by_key[match_key] = rec
 
     # Process existing corpus entries
-    matched_urls: set[str] = set()
+    matched_keys: set[str] = set()
 
     if not replace:
         for item_id, item in existing_corpus.items():
             item_url = item.get("url", "")
-            rec = records_by_url.get(item_url)
+            item_key = _match_key(item_url, item_id)
+            rec = records_by_key.get(item_key)
             if rec:
                 entry = _corpus_entry_from_record(rec, item)
-                matched_urls.add(item_url)
+                matched_keys.add(item_key)
             else:
                 entry = dict(item)
             result.append(entry)
 
     # Add records not matched to existing corpus
+    existing_keys = {_match_key(i.get("url", ""), i.get("id", "")) for i in result}
     for rec in records:
         sr = rec.get("webscout", {}).get("search_results", [{}])
         url = sr[0].get("url", "") if sr else ""
-        if url in matched_urls:
+        input_url = rec.get("input", {}).get("input_url", "")
+        match_url = url or input_url
+        match_key = _match_key(match_url)
+        if match_key in matched_keys:
             continue
-        if replace or url not in {i.get("url", "") for i in result}:
+        if replace or match_key not in existing_keys:
             entry = _corpus_entry_from_record(rec, None)
             if entry.get("title"):
                 result.append(entry)
@@ -201,15 +222,16 @@ def show_diff(records: list[dict], existing_corpus: dict[str, dict]) -> None:
     for rec in records:
         sr = rec.get("webscout", {}).get("search_results", [{}])
         url = sr[0].get("url", "") if sr else ""
-        item_id = rec.get("item_id", "(sem-item-id)")
-        key = url or f"(sem URL)::{item_id}"
-        rec_items[key] = url or "(sem URL)"
+        input_url = rec.get("input", {}).get("input_url", "")
+        match_url = url or input_url
+        key = _match_key(match_url)
+        rec_items[key] = _display_url(match_url)
 
     corpus_items = {}
     for item_id, item in existing_corpus.items():
         url = item.get("url", "")
-        key = url or f"(sem URL)::{item_id}"
-        corpus_items[key] = {"id": item_id, "url": url or "(sem URL)"}
+        key = _match_key(url, item_id)
+        corpus_items[key] = {"id": item_id, "url": _display_url(url)}
 
     only_in_records = set(rec_items.keys()) - set(corpus_items.keys())
     only_in_corpus = set(corpus_items.keys()) - set(rec_items.keys())
