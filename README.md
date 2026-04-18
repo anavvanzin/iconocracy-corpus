@@ -24,6 +24,8 @@ Canonical data hierarchy:
 See [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md), [docs/WORKFLOW.md](docs/WORKFLOW.md), and [docs/huggingface-release.md](docs/huggingface-release.md).
 
 Canonical workspace root: `/Users/ana/Research`.
+Canonical hub path: `/Users/ana/Research/hub/iconocracy-corpus`.
+Legacy flat path `/Users/ana/iconocracy-corpus` remains compatibility-only.
 Workspace topology and compatibility paths: [docs/workspace-map.md](docs/workspace-map.md).
 Git-safe migration note: tracked thesis-owned directories such as `vault/` and `iconocracy-ingest/` remain versioned in this repository while sibling `Research/...` paths provide the workspace-facing entrypoints.
 
@@ -32,39 +34,30 @@ Git-safe migration note: tracked thesis-owned directories such as `vault/` and `
 ## Structure
 
 ```
-iconocracy/
-├── corpus/                    # Searchable iconographic corpus
-│   ├── index.html             # Browser-based search interface
-│   ├── corpus-data.json       # Public corpus export (145 items in the current local snapshot)
+iconocracy-corpus/
+├── corpus/                    # Public export + dashboards derived from canonical ledgers
+│   ├── corpus-data.json       # Public corpus export (derived from records.jsonl)
 │   ├── DASHBOARD_CORPUS.html  # Interactive analytical dashboard (Chart.js)
-│   └── atlas-iconometrico.html # Visual atlas (React app)
-├── tese/                      # Doctoral manuscript and research outputs
-│   ├── manuscrito/            # Chapters under revision (Introdução, Cap.1)
-│   ├── revisoes/              # Review documents (ABNT, terminological audit)
-│   ├── pesquisa/              # Research notes and NotebookLM reports
-│   ├── apresentacoes/         # Progress presentations (PPTX)
-│   ├── Para_Orientador_Mar2026/ # Companion articles for advisor
-│   ├── ATLAS_ICONOCRACIA.pdf  # Printed atlas: sumário + glossary + gallery
-│   └── ATLAS_ICONOCRACIA.docx # Editable source for the atlas
-├── tools/                     # Research automation scripts
-│   ├── scripts/               # Python tools (see docs/scripts.md)
-│   ├── schemas/               # JSON schemas (IconoCode, WebScout, master records)
-│   ├── sql/                   # Database migrations for dual-agent corpus
-│   └── atlas_lab/             # AtlasLab interactive viewer (JSX)
-├── data/                      # Datasets (traceability: Drive → GitHub → vault)
-│   ├── raw/                   # Manifests and Drive links only (never raw files)
+│   └── atlas-iconometrico.html # Visual atlas HTML surface
+├── data/                      # Canonical operational data + manifests
+│   ├── raw/                   # Manifests and Drive links only (never raw binaries)
 │   ├── interim/               # Data in transformation
-│   ├── processed/             # Datasets ready for analysis
+│   ├── processed/             # records.jsonl, purification.jsonl, derived analyses
 │   └── docs/                  # Dataset documentation
-├── docs/                      # Technical specifications and ADRs
+├── docs/                      # Operating model, ADRs, plans, workflow notes
 ├── notebooks/                 # Exploratory analysis and iconometrics
-├── sources/                   # Saved research results and reference materials
-├── examples/                  # Example pipeline outputs (batch_001)
-├── vault/                     # Obsidian vault (cataloging cards, Pandoc templates)
-├── website/                   # Ius Gentium research group site (grupoiusgentium.com.br)
+├── tese/                      # Thesis materials tracked directly in the hub
+├── vault/                     # Working vault mirror; `vault/tese/` is the active Pandoc build surface
+├── tools/                     # Research automation scripts and schemas
+├── deploy/                    # Deployment and release-facing assets
+├── iconocracy-ingest/         # Ingest pipeline kept physically in-repo for git-safe migration
+├── Atlas -> /Users/ana/Research/pipelines/Atlas
+├── indexing -> /Users/ana/Research/pipelines/indexing
+├── iurisvision -> /Users/ana/Research/labs/iurisvision
+├── js-genai -> /Users/ana/Research/archive/js-genai
 ├── CITATION.cff               # Citation metadata
 ├── environment.yml            # Conda environment
-├── requirements.txt           # pip dependencies
+├── requirements.txt           # Supplemental pip compatibility deps
 └── LICENSE
 ```
 

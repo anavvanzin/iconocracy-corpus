@@ -4,7 +4,7 @@ Data: 2026-04-10
 Status: proposta operacional de médio prazo
 Escopo:
 - infraestrutura geral em `/Users/ana`
-- implementação específica em `/Users/ana/iconocracy-corpus`
+- implementação específica em `/Users/ana/Research/hub/iconocracy-corpus`
 
 ---
 
@@ -15,12 +15,12 @@ Este roadmap reorganiza o projeto em duas camadas complementares:
 1. **Camada home (`/Users/ana`)**
    Ambiente amplo de ferramentas, skills, MCPs, experimentos, superfícies auxiliares e laboratórios de IA.
 
-2. **Camada monorepo (`/Users/ana/iconocracy-corpus`)**
+2. **Camada monorepo (`/Users/ana/Research/hub/iconocracy-corpus`)**
    Superfície canônica da tese, do corpus e do pipeline WebScout → IconoCode → export/release.
 
 Princípio central:
 - `/Users/ana` = laboratório e infraestrutura de apoio
-- `/Users/ana/iconocracy-corpus` = sistema de produção intelectual e documental da tese
+- `/Users/ana/Research/hub/iconocracy-corpus` = sistema de produção intelectual e documental da tese
 
 ---
 
@@ -29,7 +29,7 @@ Princípio central:
 ### 2.1. Home `/Users/ana`
 
 Sinais atuais relevantes:
-- `~/iconocracy-corpus` é claramente o projeto principal
+- `~/iconocracy-corpus` permanece como symlink de compatibilidade para o hub em `Research/`
 - `~/Tools/` já concentra utilitários persistentes (ex.: `lm-eval-harness`, `remote-kernel`)
 - `~/.hermes/skills/research/iconocracy-agent` já foi expandido com integração conceitual de CLIP e protótipo técnico
 - há repositórios auxiliares em `~/Projects/`, inclusive:
@@ -39,7 +39,7 @@ Sinais atuais relevantes:
   - superfícies Ius Gentium separadas do núcleo ICONOCRACY
 - existe `~/iconocracia-space`, sugerindo uma superfície pública/experimental paralela
 
-### 2.2. Monorepo `/Users/ana/iconocracy-corpus`
+### 2.2. Monorepo `/Users/ana/Research/hub/iconocracy-corpus`
 
 Pontos estáveis observados:
 - contrato canônico já definido:
@@ -176,7 +176,7 @@ Servir como infraestrutura transversal do ecossistema ICONOCRACY, sem competir c
 
 ---
 
-## B. Camada MONOREPO (`/Users/ana/iconocracy-corpus`)
+## B. Camada MONOREPO (`/Users/ana/Research/hub/iconocracy-corpus`)
 
 ### B.1. Papel
 

@@ -12,7 +12,7 @@ Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História 
 
 ```bash
 # Environment
-conda activate iconocracy                          # Python 3.10+ environment
+conda activate iconocracy                          # Python 3.12 environment
 
 # Validation & corpus
 python tools/scripts/validate_schemas.py           # validate all JSON schemas
@@ -34,8 +34,8 @@ python tools/scripts/argos_report.py               # render markdown acquisition
 make -C vault/tese/ docx                           # full thesis → DOCX
 make -C vault/tese/ pdf                            # full thesis → PDF (requires LaTeX)
 
-# Web apps
-cd webiconocracy && npm run dev                    # React corpus explorer (port 3000)
+# Public app surface (outside the hub)
+cd /Users/ana/Research/apps/iconocracia-companion && npm run dev
 ```
 
 ---
@@ -59,6 +59,10 @@ WebScout (archive discovery) → IconoCode (visual analysis) → master records
 3. `data/processed/purification.jsonl` — ENDURECIMENTO coding ledger
 4. `vault/candidatos/` — auxiliary cataloguing mirror only
 
+Canonical workspace root: `/Users/ana/Research`
+Canonical hub path: `/Users/ana/Research/hub/iconocracy-corpus`
+Legacy flat path `/Users/ana/iconocracy-corpus` is compatibility-only.
+
 ### Key Directories
 
 ```
@@ -70,10 +74,11 @@ vault/sessoes/      → session summary notes (SCOUT-SESSION-YYYY-MM-DD.md)
 tese/manuscrito/    → thesis chapters (Markdown, compiled via Pandoc)
 tools/scripts/      → Python automation scripts (50+; see tools/scripts/ for full list)
 tools/schemas/      → JSON schemas (master-record, iconocode-output, webscout-input/output)
-notebooks/          → sequential analysis (01_exploratory → 02_kruskal_wallis → 03_regression → 04_correspondence)
-webiconocracy/      → React+Vite+Firebase corpus explorer
-indexing/           → Gallica MCP server, corpus-scout-agent
-deploy/             → Cloudflare Workers companion, HF Space
+notebooks/          → sequential analysis and exploratory outputs
+vault/tese/         → active Pandoc build surface for thesis output
+indexing/           → symlink to `/Users/ana/Research/pipelines/indexing`
+deploy/             → deployment/release-facing assets inside the hub
+/Users/ana/Research/apps/iconocracia-companion → public app surface outside the hub
 ```
 
 ### CI/CD (`.github/workflows/validate.yml`)
