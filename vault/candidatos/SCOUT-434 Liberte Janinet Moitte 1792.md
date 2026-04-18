@@ -17,7 +17,7 @@ tags:
   - motivo/marianne
   - #pathosformel
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[Pathosformel]]"

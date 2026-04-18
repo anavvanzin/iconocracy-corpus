@@ -18,7 +18,7 @@ Canonical data hierarchy:
 
 1. `data/processed/records.jsonl` — operational ledger
 2. `corpus/corpus-data.json` — public-facing export
-3. `data/processed/purification.jsonl` — ENDURECIMENTO coding ledger
+3. `data/processed/purification.jsonl` — endurecimento coding ledger
 4. `vault/candidatos/` — auxiliary mirror only
 
 See [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md), [docs/WORKFLOW.md](docs/WORKFLOW.md), and [docs/huggingface-release.md](docs/huggingface-release.md).
@@ -114,7 +114,7 @@ See `data/docs/README.md` for full dataset documentation and traceability.
 
 Doctoral manuscript materials for *"Iconocracy: Female Allegory in the History of Legal Culture (19th–20th c.)"* — PPGD/UFSC, Ana Vanzin, 2026.
 
-**`ATLAS_ICONOCRACIA.pdf`** — 10-page A4 printed atlas (ReportLab). Three sections: structural summary (clean, without annotations), operational concepts glossary (10 entries: Contrato Sexual Visual, Feminilidade de Estado, Visiocracia, Iconocracia, Pathosformel, Zwischenraum, Regime Iconocrático, Purificação Clássica, Hardening Militar, Colonialidade do Ver), and iconographic gallery (6 public domain images from Wikimedia Commons).
+**`ATLAS_ICONOCRACIA.pdf`** — 10-page A4 printed atlas (ReportLab). Three sections: structural summary (clean, without annotations), operational concepts glossary (10 entries: Contrato Sexual Visual, Feminilidade de Estado, Visiocracia, Iconocracia, Pathosformel, Zwischenraum, Regime Iconocrático, Purificação Clássica, endurecimento militar, Colonialidade do Ver), and iconographic gallery (6 public domain images from Wikimedia Commons).
 
 **`manuscrito/`** — Chapters in advanced revision state. See `LEIAME.md` for supervisor-facing guide.
 

@@ -17,7 +17,7 @@ conda activate iconocracy                          # Python 3.10+ environment
 # Validation & corpus
 python tools/scripts/validate_schemas.py           # validate all JSON schemas
 python tools/scripts/validate_schemas.py data/processed/records.jsonl --schema master-record --verbose
-python tools/scripts/code_purification.py --status  # ENDURECIMENTO coding progress
+python tools/scripts/code_purification.py --status  # endurecimento coding progress
 python tools/scripts/code_purification.py --export-csv  # regenerate corpus_dataset.csv
 
 # Corpus sync pipeline
@@ -49,14 +49,14 @@ WebScout (archive discovery) → IconoCode (visual analysis) → master records
 ```
 
 - **WebScout** queries digital archives (Europeana, Gallica, LOC, BnF, Numista, Colnect)
-- **IconoCode** performs 3-level Panofsky analysis + 10 ENDURECIMENTO indicators (0–3 scale)
+- **IconoCode** performs 3-level Panofsky analysis + 10 endurecimento indicators (0–3 scale)
 - Output: `data/processed/records.jsonl` (canonical) → `corpus/corpus-data.json` (public export)
 
 ### Canonical Data Hierarchy (source-of-truth order)
 
 1. `data/processed/records.jsonl` — operational canonical ledger
 2. `corpus/corpus-data.json` — public-facing export (browsers, dashboards, HF releases)
-3. `data/processed/purification.jsonl` — ENDURECIMENTO coding ledger
+3. `data/processed/purification.jsonl` — endurecimento coding ledger
 4. `vault/candidatos/` — auxiliary cataloguing mirror only
 
 ### Key Directories
@@ -88,7 +88,7 @@ Active automation:
 - **SessionStart**: checks SSD mount (`/Volumes/ICONOCRACIA`), reports corpus item count
 - **PreToolUse**: blocks edits to `tese/manuscrito/*_original` files; enforces vault note naming (`XX-NNN Title.md`)
 - **PostToolUse**: auto-stages vault notes to git; validates `corpus-data.json` schema on edit; regenerates CSV; counts thesis chapter words; checks Python syntax
-- **PreCompact**: preserves corpus IDs, Iconclass codes, ENDURECIMENTO scores, and ongoing campaigns
+- **PreCompact**: preserves corpus IDs, Iconclass codes, endurecimento scores, and ongoing campaigns
 
 ---
 
@@ -96,11 +96,11 @@ Active automation:
 
 | Term | Rule |
 |------|------|
-| **ENDURECIMENTO** | Always in Portuguese. NEVER "hardening" or "embrutecimento". Empirical operationalization of **Purificação Clássica** via 10 ordinal indicators (0–3) |
+| **endurecimento** | Always in Portuguese. NEVER "hardening" or "embrutecimento". Empirical operationalization of **Purificação Clássica** via 10 ordinal indicators (0–3) |
 | **Contrato Sexual Visual** | Original thesis concept #1 — do NOT attribute to Pateman (Pateman is the source of the non-visual contract; the visual extension is autoral) |
 | **Feminilidade de Estado** | Original thesis concept #2 — do NOT attribute to Mondzain. Genealogical roots: Legendre (juiz totêmico) + Carson (hystéra) |
 | **Contrato Racial Visual** | Original thesis concept #3 — branquitude constitutiva da alegoria "universal"; transferência transatlântica de modelos neoclássicos. Cap. 3 |
-| **Purificação Clássica** | Original thesis concept #4 — operação formal de extração do feminino histórico para fixá-lo no eterno alegórico. Matriz primária jurídica (Kantorowicz/Legendre/Hespanha); extensão ferramental (Latour 1991 / Haraway 1985 / Descola). Operacionalizada em ENDURECIMENTO. Cap. 5.2. Use sempre "Purificação Clássica" no manuscrito final, não "purificação iconocrática" |
+| **Purificação Clássica** | Original thesis concept #4 — operação formal de extração do feminino histórico para fixá-lo no eterno alegórico. Matriz primária jurídica (Kantorowicz/Legendre/Hespanha); extensão ferramental (Latour 1991 / Haraway 1985 / Descola). Operacionalizada em endurecimento. Cap. 5.2. Use sempre "Purificação Clássica" no manuscrito final, não "purificação iconocrática" |
 | **Pathosformel**, **Zwischenraum**, **Nachleben** | Warburg — always in German |
 | **Mondzain** | Always 2002 edition |
 | **ABNT NBR 6023:2025** | Citation standard for all references |
@@ -137,7 +137,7 @@ The agent dispatches by trigger keywords (full spec: `ICONOCRACY_MASTER_PROMPT.m
 | `compilar`, `make tese`, `gerar PDF` | COMPILAR | Markdown → PDF via Pandoc |
 | `validar [file]` | VALIDAR | JSON schema validation (`validate_schemas.py`) |
 | `sync vault pull/push/sync/diff/status` | SYNC | Bidirectional vault ↔ records sync (`vault_sync.py`) |
-| `purificacao status/item/lote/exportar` | PURIFICAÇÃO | ENDURECIMENTO coding (`code_purification.py`) |
+| `purificacao status/item/lote/exportar` | PURIFICAÇÃO | endurecimento coding (`code_purification.py`) |
 | `pesquisar`, `lit review`, `revisão de literatura` | PESQUISAR | Deep academic research |
 | `redigir`, `draft`, `escrever capítulo` | REDIGIR | Academic writing |
 | `revisar`, `peer review` | REVISAR | Multi-perspective review |

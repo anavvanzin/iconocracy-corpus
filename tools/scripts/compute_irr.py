@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-compute_irr.py — Inter-Rater Reliability for ENDURECIMENTO purification coding.
+compute_irr.py — Inter-Rater Reliability for endurecimento purification coding.
 
 Computes Krippendorff's Alpha (ordinal metric) across multiple coders for the
 10 purification indicators. Supports adjudication of disagreements.
@@ -360,7 +360,7 @@ def export_json(results, all_codings):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Compute inter-rater reliability (Krippendorff's Alpha) for ENDURECIMENTO coding"
+        description="Compute inter-rater reliability (Krippendorff's Alpha) for endurecimento coding"
     )
     parser.add_argument(
         "--export-json",

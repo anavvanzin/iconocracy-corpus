@@ -19,7 +19,7 @@ tags: [rotina/R2, diario, coding]
 
 # R2 — Coding IconoCode · {{date:YYYY-MM-DD}}
 
-> 30 min. Codificar 1 item: 3 niveis Panofsky + 10 indicadores ENDURECIMENTO (0-3).
+> 30 min. Codificar 1 item: 3 niveis Panofsky + 10 indicadores endurecimento (0-3).
 
 ## Item
 
@@ -34,7 +34,7 @@ tags: [rotina/R2, diario, coding]
 - Notacoes: `48C51` ...
 ### 3. Iconologico
 
-## 10 indicadores de ENDURECIMENTO (0-3)
+## 10 indicadores de endurecimento (0-3)
 
 | Indicador | Score | Justificativa |
 |---|---|---|

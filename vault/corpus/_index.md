@@ -126,12 +126,12 @@ updated: 2026-03-30
 | SCOUT-ZW-11a | Ciclo de Vida de Marianne: Semeuse → Piastre → Goetz (tripolar) | FR, DE | 1885-1923 | session-03-28 |
 | SCOUT-ZW-11b | Do Metal Nobre ao Metal Vil: 500 Reis 1889 x 100 Reis 1901 | BR prata vs. BR cupro-niquel | 1889-1901 | br-coins-stamps |
 | SCOUT-ZW-12 | Feminizacao Imperial (tripolar): Mexican Dollar x Trade Dollar x Piastre | MX, UK, FR | 1824-1895 | mexican-dollar |
-| SCOUT-ZW-14 | Anti-ENDURECIMENTO da Semeuse: Roty 1903 x Piel 1960 | FR 1903 vs. FR 1960 | 1903-1960 | semeuse-evolution |
-| SCOUT-ZW-15a | Fim do Anti-ENDURECIMENTO Postal: Semeuse x Cheffer | FR 1903 vs. FR 1967 | 1903-1967 | marianne-post-1945 |
+| SCOUT-ZW-14 | Anti-endurecimento da Semeuse: Roty 1903 x Piel 1960 | FR 1903 vs. FR 1960 | 1903-1960 | semeuse-evolution |
+| SCOUT-ZW-15a | Fim do Anti-endurecimento Postal: Semeuse x Cheffer | FR 1903 vs. FR 1967 | 1903-1967 | marianne-post-1945 |
 | SCOUT-ZW-15b | Presenca vs. Ausencia: Justitia Torgau x Hammonia Hamburg | DE com vs. DE sem Justitia | 1921 | notgeld-tribunal |
 | SCOUT-ZW-16 | Anatomia da Feminizacao Imperial (quadripolar): MX → US → FR → UK | MX, US, FR, UK | 1824-1935 | us-trade-dollar |
 | SCOUT-ZW-17 | Anatomia da Feminizacao Imperial (pentapolar expandido): MX → US → JP → FR → UK | MX, US, JP, FR, UK | 1824-1935 | japanese-trade-dollar |
-| SCOUT-ZW-18 | ENDURECIMENTO TRANSATLANTICO: Britannia em Biga (UK, 1913) x Semeuse (FR, 1903) | UK vs. FR | 1903-1934 | uk-britannia-stamps |
+| SCOUT-ZW-18 | endurecimento TRANSATLANTICO: Britannia em Biga (UK, 1913) x Semeuse (FR, 1903) | UK vs. FR | 1903-1934 | uk-britannia-stamps |
 
 ---
 
@@ -139,16 +139,16 @@ updated: 2026-03-30
 
 | Conceito | Descricao | Fonte |
 |----------|-----------|-------|
-| Anti-ENDURECIMENTO | Colapso de regime reverte purificacao: persistencia fantasma, reversao satirica, weaponizacao | Notgeld 1922-23 |
-| ENDURECIMENTO negativo | Purificacao por subtracao (pos-1945 Marianne remove corpo, barrete, movimento) | Marianne pos-1945 |
-| ENDURECIMENTO positivo | Purificacao por adicao (armadura, fasces, tridente) | Trade Dollars |
+| Anti-endurecimento | Colapso de regime reverte purificacao: persistencia fantasma, reversao satirica, weaponizacao | Notgeld 1922-23 |
+| endurecimento negativo | Purificacao por subtracao (pos-1945 Marianne remove corpo, barrete, movimento) | Marianne pos-1945 |
+| endurecimento positivo | Purificacao por adicao (armadura, fasces, tridente) | Trade Dollars |
 | Captura transnacional | Inimigo captura e inverte sua alegoria (Goetz/Marianne) | Goetz K-299 |
-| Dissolucao heraldica | Terminus do ENDURECIMENTO: corpo feminino desaparece em residuo heraldico | BE 2 Francs |
+| Dissolucao heraldica | Terminus do endurecimento: corpo feminino desaparece em residuo heraldico | BE 2 Francs |
 | Principio da redundancia | Onde o tribunal existe em pedra, Justitia desaparece da moeda | Notgeld tribunal |
-| Indigenizacao | Alternativa colonial ao ENDURECIMENTO: substituir corpo europeu por corpo racializado (moeda colonial → ENDURECIMENTO; selo colonial → INDIGENIZACAO) | Semeuse colonial |
+| Indigenizacao | Alternativa colonial ao endurecimento: substituir corpo europeu por corpo racializado (moeda colonial → endurecimento; selo colonial → INDIGENIZACAO) | Semeuse colonial |
 | Gradiente de violencia imperial | Ramo de oliveira (US) → fasces (FR) → tridente (UK) | Trade Dollars quadripolar |
 | Ausencia pre-modelo vs. pos-modelo | Dois tipos de ausencia de alegoria feminina: MX (nao conhecia o padrao europeu) vs. JP (conhecia e rejeitou conscientemente — argumento de delimitacao cultural) | Japanese Trade Dollar |
-| ENDURECIMENTO sinconico e comparativo | O ENDURECIMENTO nao e apenas diacronico: UK militariza por adicao, FR pastoriza por subtracao — dois modos de neutralizacao sincronicos (1903-1913) | ZW-18 Britannia x Semeuse |
+| endurecimento sinconico e comparativo | O endurecimento nao e apenas diacronico: UK militariza por adicao, FR pastoriza por subtracao — dois modos de neutralizacao sincronicos (1903-1913) | ZW-18 Britannia x Semeuse |
 | Numen mixtum | Fusao deliberada de duas divindades em tipo unico normalizado (Themis + Minerva); mapeia nos indicadores uniformizacao_facial + apagamento_narrativo | Huygebaert / BE Palais de Justice |
 
 ---

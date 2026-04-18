@@ -20,7 +20,7 @@ Este capítulo tem como objetivo apresentar os resultados da aplicação do prot
 
 O corpus analisado é composto por 145 artefatos visuais codificados integralmente, englobando suportes que transitam desde a grande estatuária oficial até a numismática e o meio impresso. O recorte geográfico reflete o circuito hegemônico de produção da cultura jurídica ocidental moderna, com predominância da França (42 itens) e dos Estados Unidos (20 itens), seguidos por Alemanha (18), Brasil (12), Reino Unido (10) e Itália (8).
 
-A métrica central desta análise é o *score* composto de ENDURECIMENTO (variando teoricamente de 0 a 3), que agrega os dez indicadores ordinais de purificação corporal. No conjunto global do corpus, a média de endurecimento situa-se em 1.44 (com dispersão de 0.10 a 3.10). Contudo, esse valor médio oculta variações cruciais quando os artefatos são agrupados por regime iconocrático.
+A métrica central desta análise é o *score* composto de endurecimento (variando teoricamente de 0 a 3), que agrega os dez indicadores ordinais de purificação corporal. No conjunto global do corpus, a média de endurecimento situa-se em 1.44 (com dispersão de 0.10 a 3.10). Contudo, esse valor médio oculta variações cruciais quando os artefatos são agrupados por regime iconocrático.
 
 O corpus distribui-se de maneira desigual entre os quatro regimes identificados: o regime *fundacional* é o mais populoso (71 itens), refletindo a proliferação de imagens no calor das rupturas constitucionais ou revolucionárias; segue-se o regime *normativo* (40 itens), característico da consolidação e rotinização do poder estatal; o regime *militar* ou imperial (27 itens); e, marginalmente, as *contra-alegorias* (7 itens), que funcionam como o reverso subversivo da iconografia oficial. 
 
@@ -36,7 +36,7 @@ No momento fundacional da lei (como as imagens da primeira República francesa o
 
 ## 6.3 — Preditores do endurecimento: Regressão e o papel do suporte material
 
-A fim de isolar o efeito do regime iconocrático em relação a outros fatores, construiu-se um modelo de regressão (Ordinary Least Squares - OLS) tendo o *score* composto de ENDURECIMENTO como variável dependente ($R^2$ ajustado = 0.451). 
+A fim de isolar o efeito do regime iconocrático em relação a outros fatores, construiu-se um modelo de regressão (Ordinary Least Squares - OLS) tendo o *score* composto de endurecimento como variável dependente ($R^2$ ajustado = 0.451). 
 
 O modelo confirmou as intuições visuais: a materialidade do suporte exerce um poder ditatorial sobre a forma do corpo jurídico. A mídia da numismática (moedas e medalhas) atua como um fortíssimo preditor do endurecimento corporal (coeficiente $\beta = 0.797, p < 0.001$). A moeda não apenas miniaturiza a alegoria; sua ontologia circulante e metálica exige um grau extremo de dessexualização e heraldicização para garantir a legitimação serial do valor do Estado. Em contrapartida, as mídias da pintura e do desenho predizem um *relaxamento* dos indicadores de purificação ($\beta = -0.529, p < 0.01$). O óleo sobre tela abriga a carne; a numismática exige o brasão.
 
@@ -54,4 +54,4 @@ No espaço Euclidiano projetado pelo algoritmo, itens periféricos ou de expans�
 
 A iconometria, embora desvele padrões morfológicos ocultos sob a poeira dos arquivos, esbarra em um limite epistemológico essencial. O número captura a rigidez postural, mas não captura a raça; ele quantifica o enquadramento arquitetônico, mas não a branquitude como pré-requisito da universalidade. A estatística revela que o Estado dessexualiza a alegoria para torná-la lei, mas a operação excludente que converte *apenas* corpos caucasianos e classicizados em metáforas válidas da jurisdição opera muitas vezes abaixo do radar da abstração quantitativa. 
 
-Para essa dimensão do contrato visual, a contagem deve necessariamente ceder espaço à crítica teórica: é a *colonialidade do ver* (objeto do Capítulo 3) que ilumina por que o ENDURECIMENTO afeta de maneira diferencial os corpos que podem — ou não — ascender ao Panteão normativo do Estado moderno.
+Para essa dimensão do contrato visual, a contagem deve necessariamente ceder espaço à crítica teórica: é a *colonialidade do ver* (objeto do Capítulo 3) que ilumina por que o endurecimento afeta de maneira diferencial os corpos que podem — ou não — ascender ao Panteão normativo do Estado moderno.

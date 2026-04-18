@@ -21,7 +21,7 @@ tags:
   - verificar
 related:
   - "[[Regime MILITAR]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Pathosformel]]"
 hf_synced: false
@@ -57,7 +57,7 @@ data_scout: 2026-04-11
 - [ ] postura frontal
 - [ ] contexto arquitetônico
 
-**ENDURECIMENTO detectado:** sim — heraldicização forte (tridente, biga, seahorses), inscrição estatal, rigidez postural
+**endurecimento detectado:** sim — heraldicização forte (tridente, biga, seahorses), inscrição estatal, rigidez postural
 
 ---
 
@@ -82,4 +82,4 @@ MACKENNAL, Bertram; HARRISON, J. A. C. *King George V Seahorses*. 1913–1939. S
 
 ## Observações do Scout
 
-A série Seahorses é um dos exemplos mais eloquentes de ENDURECIMENTO no suporte selo. Britannia não é mais a figura estática sentada com escudo (como nas moedas): ela está em movimento bélico, conduzindo uma biga marinha. Esta transformação do Pathosformel — de repouso a combate — marca a passagem do regime NORMATIVO (penny stamps com perfil real) ao MILITAR (selos de alto valor com alegoria imperial em ação). A emissão para valores altos (até £1) reforça o vínculo entre corpo feminino alegorizado e poder econômico-imperial. Candidato forte para Zwischenraum com Britannia numismática.
+A série Seahorses é um dos exemplos mais eloquentes de endurecimento no suporte selo. Britannia não é mais a figura estática sentada com escudo (como nas moedas): ela está em movimento bélico, conduzindo uma biga marinha. Esta transformação do Pathosformel — de repouso a combate — marca a passagem do regime NORMATIVO (penny stamps com perfil real) ao MILITAR (selos de alto valor com alegoria imperial em ação). A emissão para valores altos (até £1) reforça o vínculo entre corpo feminino alegorizado e poder econômico-imperial. Candidato forte para Zwischenraum com Britannia numismática.

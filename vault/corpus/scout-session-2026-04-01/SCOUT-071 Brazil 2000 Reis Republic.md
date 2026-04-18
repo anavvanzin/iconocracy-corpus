@@ -19,7 +19,7 @@ tags:
   - regime/normativo
   - motivo/republica
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[A República]]"
   - "[[Marianne]]"
@@ -56,7 +56,7 @@ data_scout: 2026-04-01
 - [x] perfil (busto)
 - [x] inscrição estatal ("REPUBLICA DOS ESTADOS UNIDOS DO BRAZIL")
 
-**ENDURECIMENTO detectado:** sim — desincorporação (busto apenas), uniformização facial, monocromatização, serialidade máxima
+**endurecimento detectado:** sim — desincorporação (busto apenas), uniformização facial, monocromatização, serialidade máxima
 
 ---
 
@@ -82,6 +82,6 @@ CASA DA MOEDA DO BRASIL. *2000 Réis — Efígie da República*. 1906–1912. Mo
 
 Primeira moeda brasileira no corpus. A efígie da República com barrete frígio é transplante direto da Marianne francesa — a circulação transatlântica da Pathosformel republicana. Mas no Brasil positivista, a República recebe atributos positivistas (estrela, lema "Ordem e Progresso") que diferenciam da Marianne laica.
 
-A desincorporação é notável: corpo inteiro → busto → perfil. Compare com a Semeuse francesa (FR-SEM-1898, corpo inteiro semeando) e a Marianne sentada da Piastre (SCOUT-068, corpo inteiro entronizado). A moeda brasileira opera o ENDURECIMENTO de forma mais radical — apenas o rosto e o barrete sobrevivem.
+A desincorporação é notável: corpo inteiro → busto → perfil. Compare com a Semeuse francesa (FR-SEM-1898, corpo inteiro semeando) e a Marianne sentada da Piastre (SCOUT-068, corpo inteiro entronizado). A moeda brasileira opera o endurecimento de forma mais radical — apenas o rosto e o barrete sobrevivem.
 
 Mintagem: 2.863.000 em 1907 — serialidade industrial máxima.

@@ -56,7 +56,7 @@ data_scout: 2026-04-11
 - [x] postura frontal
 - [ ] contexto arquitetônico
 
-**ENDURECIMENTO detectado:** não — corpo FUNDACIONAL, vivo, narrativo
+**endurecimento detectado:** não — corpo FUNDACIONAL, vivo, narrativo
 
 ---
 

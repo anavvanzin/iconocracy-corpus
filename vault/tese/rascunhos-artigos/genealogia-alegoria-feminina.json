@@ -21,7 +21,7 @@
       "Justitia",
       "história da cultura jurídica",
       "gênero",
-      "ENDURECIMENTO",
+      "endurecimento",
       "Pathosformel",
       "Visiocracia"
     ],
@@ -121,11 +121,11 @@
     },
     {
       "id": "TESE-03",
-      "titulo": "A Castração da Deusa — ENDURECIMENTO",
+      "titulo": "A Castração da Deusa — endurecimento",
       "subtitulo": "O processo de purificação que transforma o corpo vivo em ícone estatal",
       "posicao_no_argumento": 3,
-      "resumo": "A passagem da deusa ativa (Themis, Dike, Justitia pré-moderna) para a alegoria vendada e petrificada não é uma simples mudança iconográfica: é um processo de ENDURECIMENTO — a progressiva purificação do corpo feminino que o transforma de corpo vivo (com atributos de agência, desejo, visão) em ícone estatal (rígido, dessexualizado, serializado, sem narrativa).",
-      "argumento_central": "O ENDURECIMENTO não é neutro: ele apaga sistematicamente os traços de agência e humanidade do corpo feminino. A Justitia perde a visão (venda), perde o movimento (rigidez postural), perde a singularidade (uniformização facial), perde a narrativa (apagamento narrativo) e ganha a serialidade industrial (reprodução em massa). Cada atributo perdido corresponde a um traço de subjetividade — a castração da deusa é a transformação da mulher-sujeito em mulher-símbolo.",
+      "resumo": "A passagem da deusa ativa (Themis, Dike, Justitia pré-moderna) para a alegoria vendada e petrificada não é uma simples mudança iconográfica: é um processo de endurecimento — a progressiva purificação do corpo feminino que o transforma de corpo vivo (com atributos de agência, desejo, visão) em ícone estatal (rígido, dessexualizado, serializado, sem narrativa).",
+      "argumento_central": "O endurecimento não é neutro: ele apaga sistematicamente os traços de agência e humanidade do corpo feminino. A Justitia perde a visão (venda), perde o movimento (rigidez postural), perde a singularidade (uniformização facial), perde a narrativa (apagamento narrativo) e ganha a serialidade industrial (reprodução em massa). Cada atributo perdido corresponde a um traço de subjetividade — a castração da deusa é a transformação da mulher-sujeito em mulher-símbolo.",
       "endurecimento": {
         "definicao": "Processo de purificação progressiva que transforma o corpo feminino alegorizado de corpo vivo em ícone estatal. Mensurável pelos 10 indicadores de purificação do protocolo IconoCode.",
         "regra_terminologica": "SEMPRE em português — nunca 'hardening' ou 'embrutecimento'.",
@@ -191,7 +191,7 @@
             "escala": "0 = nenhuma inscrição estatal; 4 = corpo completamente inscrito por texto e símbolos do Estado"
           }
         ],
-        "formula_score": "ENDURECIMENTO score = média aritmética dos 10 indicadores (escala 0.0 a 4.0)"
+        "formula_score": "endurecimento score = média aritmética dos 10 indicadores (escala 0.0 a 4.0)"
       },
       "theoretical_framework": [
         {
@@ -211,13 +211,13 @@
           "autor": "Valérie Hayaert",
           "obra": "The Paradoxes of the Blindfold of Justice",
           "ano": 2018,
-          "contribuicao": "A venda como 'paradoxo irredutível': privação sensorial que se torna virtude. O ENDURECIMENTO é o mecanismo que explica como essa inversão se sedimenta."
+          "contribuicao": "A venda como 'paradoxo irredutível': privação sensorial que se torna virtude. O endurecimento é o mecanismo que explica como essa inversão se sedimenta."
         },
         {
           "autor": "Michael Stolleis",
           "obra": "Das Auge des Gesetzes: Geschichte einer Metapher",
           "ano": 2004,
-          "contribuicao": "Imagens jurídicas como 'dispositivos epistemológicos' que estruturam a compreensão coletiva do direito. O ENDURECIMENTO é a operação pela qual o corpo feminino se torna dispositivo."
+          "contribuicao": "Imagens jurídicas como 'dispositivos epistemológicos' que estruturam a compreensão coletiva do direito. O endurecimento é a operação pela qual o corpo feminino se torna dispositivo."
         }
       ]
     },
@@ -401,7 +401,7 @@
             "relacao_com_contrato_visual": "Marco de transição: o corpo feminino começa a ser vinculado à ordem estatal, mas ainda não está plenamente domesticado."
           }
         ],
-        "dinamica_da_fase": "As deusas antigas possuem agência, visão, voz, singularidade e relações. A transição para a alegoria moderna corresponde à perda sistemática desses atributos — que é precisamente o que o conceito de ENDURECIMENTO mensura.",
+        "dinamica_da_fase": "As deusas antigas possuem agência, visão, voz, singularidade e relações. A transição para a alegoria moderna corresponde à perda sistemática desses atributos — que é precisamente o que o conceito de endurecimento mensura.",
         "marco_de_transicao": "A codificação humanista e emblemática do século XV–XVII (Brant 1494, Gieng 1543, Ripa 1603) opera a passagem definitiva da deusa ativa para a alegoria petrificada."
       },
       {
@@ -506,7 +506,7 @@
       "significado_politico": "Silenciamento da capacidade de ver e julgar por si mesma. O corpo feminino é privado da visão ativa (que as deusas possuíam) e a privação é reapresentada como virtude institucional. A cegueira que o bobo impunha como humilhação torna-se a marca da excelência judicial.",
       "contrato_visual": "Modelo paradigmático do funcionamento do contrato visual: a imposição de uma limitação sobre o corpo feminino é invertida em virtude — e o agente da imposição é apagado, tornando a limitação aparentemente intrínseca.",
       "indicadores_de_purificacao_ativados": ["dessexualizacao", "apagamento_narrativo"],
-      "endurecimento_contribuicao": "Alto — a venda é o mais visível dos dispositivos de ENDURECIMENTO: ela literalmente cega o corpo feminino e apaga o agente de sua limitação."
+      "endurecimento_contribuicao": "Alto — a venda é o mais visível dos dispositivos de endurecimento: ela literalmente cega o corpo feminino e apaga o agente de sua limitação."
     },
     {
       "id": "ICON-02",
@@ -518,7 +518,7 @@
         "natureza_original": "Instrumento de medição concreto — remete à pesagem de evidências e ao equilíbrio entre interesses.",
         "mutacao_no_processo": "Na xilogravura de 1494, os pratos da balança estão visivelmente DESIGUAIS e são manipulados por figuras togadas — sátira à corrupção. Na codificação posterior, a balança torna-se sempre equilibrada, símbolo abstrato de uma imparcialidade presumida."
       },
-      "perda_genealogica": "A balança perde sua concretude instrumental (medir, pesar, verificar) e torna-se símbolo abstrato — abstração que corresponde ao ENDURECIMENTO.",
+      "perda_genealogica": "A balança perde sua concretude instrumental (medir, pesar, verificar) e torna-se símbolo abstrato — abstração que corresponde ao endurecimento.",
       "significado_politico": "A balança equilibrada naturaliza a imparcialidade da ordem jurídica, tornando invisível que os pratos nunca foram (nem são) iguais para todos os sujeitos.",
       "contrato_visual": "A balança equilibrada performa a universalidade da Justiça — escondendo que a justiça concreta não é universal.",
       "indicadores_de_purificacao_ativados": ["apagamento_narrativo", "inscricao_estatal"],
@@ -538,11 +538,11 @@
           "Moedas e selos definitivos — chumbo, cobre, prata (monocromatização máxima)"
         ]
       },
-      "perda_genealogica": "A materialização em pedra e metal é a forma mais literal do ENDURECIMENTO: o corpo feminino literalmente se petrifica. Suor, calor, desejo, vida — tudo isso é incompatível com o bronze.",
-      "significado_politico": "A metalização e petrificação do corpo alegórico correspondem à última fase do ENDURECIMENTO: o corpo feminino torna-se literal e metaforicamente uma pedra — permanente, fria, imodificável, institucional. A perda de humanidade (suor, desejo, movimento) é apresentada como ganho de autoridade.",
+      "perda_genealogica": "A materialização em pedra e metal é a forma mais literal do endurecimento: o corpo feminino literalmente se petrifica. Suor, calor, desejo, vida — tudo isso é incompatível com o bronze.",
+      "significado_politico": "A metalização e petrificação do corpo alegórico correspondem à última fase do endurecimento: o corpo feminino torna-se literal e metaforicamente uma pedra — permanente, fria, imodificável, institucional. A perda de humanidade (suor, desejo, movimento) é apresentada como ganho de autoridade.",
       "contrato_visual": "O material duro performa a eternidade e a universalidade da ordem jurídica: uma lei que é bronze não muda, não sente, não errar. O corpo feminino petrificado legitima a pretensão de atemporalidade do direito.",
       "indicadores_de_purificacao_ativados": ["monocromatizacao", "rigidez_postural", "dessexualizacao"],
-      "endurecimento_contribuicao": "Extremo — a petrificação é o grau máximo do ENDURECIMENTO (score 4 no indicador monocromatização)."
+      "endurecimento_contribuicao": "Extremo — a petrificação é o grau máximo do endurecimento (score 4 no indicador monocromatização)."
     },
     {
       "id": "ICON-04",
@@ -605,7 +605,7 @@
       "contrato_visual": "A dimensão racial do contrato visual opera em paralelo à dimensão de gênero: a exclusão naturalizada é interseccional. O mecanismo que converte corpo particular em símbolo universal funciona porque os marcadores de particularidade (feminilidade, branquitude, classicismo) são apresentados como neutros.",
       "referencia_critica": "Lélia Gonzalez (1984): 'racismo por denegação' — apagamento simbólico da presença negra nos espaços de representação nacional.",
       "indicadores_de_purificacao_ativados": ["uniformizacao_facial", "dessexualizacao"],
-      "endurecimento_contribuicao": "Alto — a uniformização facial é um dos indicadores centrais do ENDURECIMENTO e opera sempre em direção à branquitude europeia."
+      "endurecimento_contribuicao": "Alto — a uniformização facial é um dos indicadores centrais do endurecimento e opera sempre em direção à branquitude europeia."
     },
     {
       "id": "ICON-07",
@@ -617,7 +617,7 @@
         "contexto": "A espada acompanha a balança como atributo da Justitia nas representações modernas — ela representa o braço coercitivo da lei.",
         "regime_iconocratico": "Presente nos regimes NORMATIVO e MILITAR"
       },
-      "trajetoria": "A espada é o único atributo ativo restante após o ENDURECIMENTO: enquanto o corpo é vendado, petrificado e serializado, a espada mantém a potência coercitiva — mas é a potência do Estado, não da mulher.",
+      "trajetoria": "A espada é o único atributo ativo restante após o endurecimento: enquanto o corpo é vendado, petrificado e serializado, a espada mantém a potência coercitiva — mas é a potência do Estado, não da mulher.",
       "significado_politico": "Paradoxo da espada: o único atributo ativo do corpo feminino petrificado é um instrumento de violência estatal. A mulher-alegoria não possui agência; ela porta a violência do outro.",
       "contrato_visual": "A espada na mão da Justitia não lhe pertence — ela a porta por delegação estatal. Mais um mecanismo de captura: o corpo feminino como suporte do poder de punir que ele mesmo não exerce.",
       "indicadores_de_purificacao_ativados": ["inscricao_estatal", "apagamento_narrativo"],
@@ -682,7 +682,7 @@
     "implicacao_para_o_framework_iconocracy": {
       "conceito_aplicado": "Contrato Sexual Visual",
       "nota_terminologica": "O 'Contrato Sexual Visual' é conceito original desta tese — NÃO atribuir a Pateman (cujo conceito é 'Contrato Sexual') nem a Mondzain.",
-      "relacao_com_endurecimento": "O ENDURECIMENTO é o mecanismo operacional do Contrato Sexual Visual: é através do ENDURECIMENTO progressivo do corpo feminino (petrificação, vendação, uniformização, serialização) que a captura simbólica se completa e a exclusão se naturaliza.",
+      "relacao_com_endurecimento": "O endurecimento é o mecanismo operacional do Contrato Sexual Visual: é através do endurecimento progressivo do corpo feminino (petrificação, vendação, uniformização, serialização) que a captura simbólica se completa e a exclusão se naturaliza.",
       "relacao_com_feminilidade_de_estado": "A 'Feminilidade de Estado' é o produto acabado do Contrato Sexual Visual: a feminilidade não como atributo das mulheres concretas, mas como tecnologia de governo visual do Estado moderno.",
       "relacao_com_visiocracia": "A Visiocracia (Goodrich) é o regime geral de imagens que o Contrato Sexual Visual opera no interior do campo jurídico — o direito como regime de visibilidade que usa o corpo feminino como seu dispositivo central de naturalização."
     }
@@ -701,7 +701,7 @@
       },
       {
         "id": "CN-02",
-        "conceito": "ENDURECIMENTO",
+        "conceito": "endurecimento",
         "tipo": "conceito-original-tese",
         "nota_terminologica": "SEMPRE em português. NUNCA 'hardening' ou 'embrutecimento'.",
         "definicao": "Processo de purificação progressiva que transforma o corpo feminino alegorizado de corpo vivo em ícone estatal. Mensurável pelos 10 indicadores de purificação do protocolo IconoCode. Score de 0.0 a 4.0.",
@@ -772,7 +772,7 @@
         "id": "REGIME-MILITAR",
         "nome": "MILITAR",
         "subtitulo": "Imperial-militar",
-        "descricao": "Guerra, imperialismo, expansão colonial, mobilização. O corpo endurece — o ENDURECIMENTO está no máximo.",
+        "descricao": "Guerra, imperialismo, expansão colonial, mobilização. O corpo endurece — o endurecimento está no máximo.",
         "marcadores_visuais": ["Capacete", "Escudo", "Espada / tridente", "Armadura / couraça", "De pé sobre globo / mapa", "Sujeitos coloniais abaixo", "Corpo rígido", "Troféus militares"],
         "endurecimento_score_tipico": "2.5–4.0",
         "exemplo_canonico": "Britannia — Trade Dollar (1895), moeda colonial para circulação na Ásia"

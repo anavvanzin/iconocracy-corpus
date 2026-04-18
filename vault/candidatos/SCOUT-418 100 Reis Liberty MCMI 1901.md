@@ -19,7 +19,7 @@ tags:
   - regime/normativo
   - motivo/republica
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-413 20000 Reis Ouro Efigie Republica]]"
   - "[[BR-2000R-1907]]"
@@ -58,7 +58,7 @@ data_scout: 2026-04-10
 - [ ] escudo/brasão
 - [x] contexto arquitetônico (moldura circular)
 
-**ENDURECIMENTO detectado:** sim
+**endurecimento detectado:** sim
 
 **Indicadores de purificação (descrição SCOUT):**
 1. **desincorporação** alta: apenas busto, sem corpo visível — redução máxima a cabeça + pescoço
@@ -95,6 +95,6 @@ CASA DA MOEDA DO BRASIL. *100 Réis — Liberty (Série MCMI)*. 1901. Moeda (cob
 
 Esta é a menor denominação da série MCMI, que unificou a imagética numismática republicana brasileira em 1901. A série inteira (100, 200, 400 Réis em cobre-níquel) compartilha o mesmo programa iconográfico: efígie feminina da Liberty/República com coroa de estrelas. A série representa o momento de transição FUNDACIONAL → NORMATIVO: a alegoria republicana, que nos primeiros anos (1889) ainda carregava dinamismo revolucionário, é agora reduzida a busto padronizado para circulação em massa.
 
-Comparar com a série de ouro (20.000 Réis, SCOUT-413) e a série de prata (2000 Réis, BR-2000R-1907) para observar como o ENDURECIMENTO opera diferentemente conforme o metal e o valor de face — hipótese: moedas de menor valor = maior serialidade = maior ENDURECIMENTO.
+Comparar com a série de ouro (20.000 Réis, SCOUT-413) e a série de prata (2000 Réis, BR-2000R-1907) para observar como o endurecimento opera diferentemente conforme o metal e o valor de face — hipótese: moedas de menor valor = maior serialidade = maior endurecimento.
 
 A inscrição "15 DE NOVEMBRO DE 1889" em moeda de 1901 é um dispositivo de ancoragem fundacional — o regime NORMATIVO preserva a data revolucionária como legitimação, mas o corpo alegórico já não é revolucionário.

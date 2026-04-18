@@ -27,7 +27,7 @@ data_scout: 2026-03-30
 ## Analise — CONTROLE NEGATIVO EXPANDIDO
 **Motivo:** DUAL BODY — queen + allegory on SAME coin. UK is the ONLY case where sovereign portrait and female allegory coexist. Britannia is subordinated (reverse).
 **Regime:** NORMATIVO (domestic)
-**ENDURECIMENTO detectado:** sim — Britannia seated (domestic NORMATIVO) vs. standing on Trade Dollar (colonial MILITAR). Same allegory, same designer, same period, different morphology = CONTEXT determines ENDURECIMIENTO.
+**endurecimento detectado:** sim — Britannia seated (domestic NORMATIVO) vs. standing on Trade Dollar (colonial MILITAR). Same allegory, same designer, same period, different morphology = CONTEXT determines ENDURECIMIENTO.
 
 ## Importancia para a tese
 This is the Rosetta Stone: same Britannia by same De Saulles, seated on penny (NORMATIVO) vs. standing on Trade Dollar (MILITAR). The context — not the artist, not the period — determines the morphological regime.

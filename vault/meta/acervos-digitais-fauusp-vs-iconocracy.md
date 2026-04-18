@@ -68,7 +68,7 @@ O ICONOCRACY **não é** um projeto de humanidades digitais no sentido que o FAU
 
 **a) A questão da infraestrutura.** O FAU/USP pergunta *como organizar e dar acesso* a imagens — é uma questão arquivística e tecnológica. O ICONOCRACY pergunta *o que as imagens fazem juridicamente* — é uma questão hermenêutica e de teoria do direito. A distinção é entre *biblioteca* e *leitura*.
 
-**b) A questão do gênero.** No FAU/USP, gênero aparece como marcador de comunidades cujos acervos precisam ser preservados (arquivos queer, feministas). No ICONOCRACY, gênero é a categoria analítica central: a tese investiga como o Estado mobiliza a feminilidade como signo de autoridade ao mesmo tempo que a exclui da cidadania — o [[../tese/rascunhos-artigos/ENDURECIMENTO|ENDURECIMENTO]] e o [[../tese/rascunhos-artigos/ENDURECIMENTO|Contrato Sexual Visual]] não têm equivalente no FAU/USP.
+**b) A questão do gênero.** No FAU/USP, gênero aparece como marcador de comunidades cujos acervos precisam ser preservados (arquivos queer, feministas). No ICONOCRACY, gênero é a categoria analítica central: a tese investiga como o Estado mobiliza a feminilidade como signo de autoridade ao mesmo tempo que a exclui da cidadania — o [[../tese/rascunhos-artigos/endurecimento|endurecimento]] e o [[../tese/rascunhos-artigos/endurecimento|Contrato Sexual Visual]] não têm equivalente no FAU/USP.
 
 **c) A questão da IA.** No FAU/USP, IA é o problema de pesquisa (como aplicar visão computacional a acervos?). No ICONOCRACY, IA é um recurso metodológico subordinado ao protocolo IconoCode — a interpretação iconológica permanece hermenêutica, e a IA apenas sistematiza a pontuação dos indicadores.
 

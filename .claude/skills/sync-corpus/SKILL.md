@@ -18,7 +18,7 @@ Run the ICONOCRACIA corpus sync pipeline in sequence. Stop immediately if any st
 | 3 | `records_to_corpus.py --diff` | Reports records.jsonl ↔ corpus-data.json drift |
 | 4 | `sync_companion.py` | Rebuilds companion-data.json from corpus |
 | 5 | `refresh_dashboard.py` | Re-embeds data into HTML dashboards |
-| 6 | `code_purification.py --status` | Reports ENDURECIMENTO scores across corpus |
+| 6 | `code_purification.py --status` | Reports endurecimento scores across corpus |
 
 ## Execution
 
@@ -59,7 +59,7 @@ After running, present a table:
 | records_to_corpus | OK/DRIFT | N itens só em records / M só em corpus |
 | sync_companion | OK/FAIL | companion-data.json atualizado |
 | refresh_dashboard | OK/FAIL | corpus + agents dashboards |
-| code_purification | OK/FAIL | Score médio ENDURECIMENTO: X.X |
+| code_purification | OK/FAIL | Score médio endurecimento: X.X |
 
 If any step fails, show the full error and stop. Do not run subsequent steps.
 Log the run via `tools/scripts/log_agent_run.py --agent sync --status success/error`.

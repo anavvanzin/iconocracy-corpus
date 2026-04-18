@@ -16,7 +16,7 @@ tags:
   - regime/normativo
   - motivo/marianne
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
 data_scout: 2026-04-13
@@ -47,7 +47,7 @@ fonte_campanha: "LPAI v2 Campanha SCOUT BR/FR (abr 2026)"
 
 ### Nota analitica
 
-A escultura de Clesinger foi modelo para a figura sentada da Republica na IIe Republique (1848). O registro fotografico de Nadar em 1900, meio seculo depois, documenta o processo de ENDURECIMENTO atraves da mediacao fotografica: a escultura tridimensional (suporte FUNDACIONAL) e transformada em imagem plana (proto-NORMATIVO) e depois em fotografia tecnica (NORMATIVO pleno). Cada conversao de suporte aumenta serialidade e apagamento narrativo.
+A escultura de Clesinger foi modelo para a figura sentada da Republica na IIe Republique (1848). O registro fotografico de Nadar em 1900, meio seculo depois, documenta o processo de endurecimento atraves da mediacao fotografica: a escultura tridimensional (suporte FUNDACIONAL) e transformada em imagem plana (proto-NORMATIVO) e depois em fotografia tecnica (NORMATIVO pleno). Cada conversao de suporte aumenta serialidade e apagamento narrativo.
 
 ### Citacao ABNT
 

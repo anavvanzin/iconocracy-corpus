@@ -24,7 +24,7 @@ tags:
 
 Cartaz oficial das festas do centenario da Revolucao Francesa (1889). Litografia comemorativa representando o "Triunfo da Republica" -- Marianne/Republica em postura triunfal, provavelmente com atributos marciais e cap frigio. Contexto: a Terceira Republica celebra a si mesma como herdeira direta de 1789. O centenario e o momento fundacional por excelencia do regime republicano consolidado.
 
-## ENDURECIMENTO detectado
+## Endurecimento detectado
 
 O centenario de 1889 marca a transicao fundacional-normativo. Espera-se:
 - **dessexualizacao**: moderada -- corpo classico mas coberto para ocasiao oficial

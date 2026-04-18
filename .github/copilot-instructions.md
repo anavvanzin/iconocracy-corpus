@@ -51,7 +51,7 @@ This repository is the **canonical source** in a wider research workspace. Works
 
 The repo operates across three durable surfaces:
 
-1. **Local research surface** for corpus expansion, ENDURECIMENTO coding, vault work, and manuscript drafting.
+1. **Local research surface** for corpus expansion, endurecimento coding, vault work, and manuscript drafting.
 2. **GitHub surface** for canonical history, CI, and release preparation.
 3. **Hugging Face surface** for frozen public dataset snapshots.
 
@@ -106,7 +106,7 @@ Update the canonical ledger first and derive public exports from it. Do not trea
 
 ### Terminology and writing constraints
 
-- Keep **ENDURECIMENTO** in Portuguese.
+- Keep **endurecimento** in Portuguese.
 - Keep **Contrato Sexual Visual** and **Feminilidade de Estado** as thesis-native concepts.
 - Keep **Pathosformel**, **Zwischenraum**, and **Nachleben** in German.
 - Use **ABNT NBR 6023:2025** for citations.

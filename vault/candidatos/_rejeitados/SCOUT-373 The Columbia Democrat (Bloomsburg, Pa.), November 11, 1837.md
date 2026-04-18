@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -39,9 +39,9 @@ Bloomsburg, Pa.
 
 **Motivos identificados**: Columbia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 PA, penn state university libraries; university park,. **The Columbia Democrat (Bloomsburg, Pa.), November 11, 1837**. 1837-11-11. Library of Congress. Disponível em: https://www.loc.gov/item/sn85025180/1837-11-11/ed-1/. Acesso em: 04 Apr. 2026.

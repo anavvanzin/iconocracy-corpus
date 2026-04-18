@@ -18,7 +18,7 @@ tags:
   - #colonialidade-do-ver
   - #verificar-imagem
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[colonialidade do ver]]"

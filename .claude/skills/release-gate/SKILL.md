@@ -15,7 +15,7 @@ Run the ICONOCRACIA release gate in the sequence fixed by `docs/OPERATING_MODEL.
 | # | Script | Mode | Purpose |
 |---|--------|------|---------|
 | 1 | `validate_schemas.py` | check | Validate `records.jsonl` + `corpus-data.json` against JSON schemas |
-| 2 | `code_purification.py --status` | report | ENDURECIMENTO coverage across corpus |
+| 2 | `code_purification.py --status` | report | endurecimento coverage across corpus |
 | 3 | `vault_sync.py status` | report | Vault ↔ records divergence |
 | 4 | `records_to_corpus.py --diff` | report | Preview changes `records.jsonl` → `corpus-data.json` |
 | 5 | `build_hf_release.py --release-tag <date>` | write (local) | Generate HF snapshot under `output/huggingface/<tag>/` |
@@ -33,7 +33,7 @@ echo "=== Release Gate ICONOCRACIA — tag $TAG ==="
 echo "[1/5] Validando schemas..."
 $PY "$REPO/tools/scripts/validate_schemas.py"
 
-echo "[2/5] Status de purificação (ENDURECIMENTO)..."
+echo "[2/5] Status de purificação (endurecimento)..."
 $PY "$REPO/tools/scripts/code_purification.py" --status
 
 echo "[3/5] Status do vault..."

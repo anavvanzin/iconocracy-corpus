@@ -1,5 +1,5 @@
 ---
-titulo: "6.3 — A Estrutura Multidimensional do ENDURECIMENTO"
+titulo: "6.3 — A Estrutura Multidimensional do endurecimento"
 parte: "III — Resultados"
 capitulo: 6
 subsecao: 6.3
@@ -14,7 +14,7 @@ pandoc:
   bibliography: "references.bib"
 ---
 
-# 6.3 — A Estrutura Multidimensional do ENDURECIMENTO
+# 6.3 — A Estrutura Multidimensional do endurecimento
 
 O modelo de scoring composto — média simples dos dez indicadores ordinais — opera sob um pressuposto implícito: que os dez indicadores de purificação corporal capturam uma única dimensão latente de endurecimento. Este pressuposto é estatisticamente testável. A análise de componentes principais (PCA) revela que ele é apenas parcialmente verdadeiro — e que o preço da simplificação é a perda de uma distinção historicamente significativa.
 
@@ -36,7 +36,7 @@ O score composto atual (média simples dos dez indicadores) é essencialmente PC
 
 ### PC1 — A dimensão geral de endurecimento
 
-PC1 responde por 53,7% da variância total. Todos os dez indicadores carregam positivamente, com loadings entre 0,18 (monocromatização) e 0,37 (rigidez postural, uniformização facial). Este componente confirma que o ENDURECIMENTO é, em primeiro nível, uma dimensão única — os dez indicadores variam juntos na direção do endurecimento. O Estado endurece a alegoria female de forma integrada, não isolando partes do corpo.
+PC1 responde por 53,7% da variância total. Todos os dez indicadores carregam positivamente, com loadings entre 0,18 (monocromatização) e 0,37 (rigidez postural, uniformização facial). Este componente confirma que o endurecimento é, em primeiro nível, uma dimensão única — os dez indicadores variam juntos na direção do endurecimento. O Estado endurece a alegoria female de forma integrada, não isolando partes do corpo.
 
 ### PC2 — O eixo burocrático (11,8%)
 
@@ -51,13 +51,13 @@ Este componente captura a tensão entre a alegoria que se desvincula da narrativ
 
 PC3 (9,6%) é dominado quase inteiramente pela monocromatização (loading = 0,87). Os demais indicadores carregam abaixo de 0,35 em valor absoluto. Este componente não é um segundo fator de endurecimento — é um eixo independente que mede *o que resta quando se remove a dimensão geral*.
 
-A interpretação preliminar — de que PC3 capturaria uma "segunda dimensão" do ENDURECIMENTO — revelou-se incorreta após análise mais aprofundada (ver seção 6.3.3).
+A interpretação preliminar — de que PC3 capturaria uma "segunda dimensão" do endurecimento — revelou-se incorreta após análise mais aprofundada (ver seção 6.3.3).
 
 ## 6.3.2 — Os três registros visuais do Estado
 
 A estrutura PCA sugere um modelo de três registros visuais que operam de forma parcialmente independente na produção da alegoria estatal feminina:
 
-**REGISTRO DE ENDURECIMENTO GERAL** (PC1, 53,7%): o endurecimento corporal — rigidez postural, dessexualização, uniformização facial, apagamento das particularidades. É o registro que a literatura Warburguiana e a teoria do Contrato Sexual Visual já identificam como a operação central do Estado sobre o corpo alegórico.
+**REGISTRO DE endurecimento GERAL** (PC1, 53,7%): o endurecimento corporal — rigidez postural, dessexualização, uniformização facial, apagamento das particularidades. É o registro que a literatura Warburguiana e a teoria do Contrato Sexual Visual já identificam como a operação central do Estado sobre o corpo alegórico.
 
 **REGISTRO CROMÁTICO** (monocromatização, ortogonal a PC1): a redução ou eliminação da paleta cromática. Opera independentemente do endurecimento corporal — um artefato pode ter alto endurecimento core e baixa ou alta monocromatização sem que uma prediga a outra. Este registro é o foco da seção 6.3.3.
 
@@ -65,14 +65,14 @@ A estrutura PCA sugere um modelo de três registros visuais que operam de forma 
 
 A média por regime iconocrático para cada sub-score ilustra como os registros se distribuem:
 
-| Regime | ENDURECIMENTO Core | REG. CROMÁTICO | REG. BURÓCRÁTICO | Composite (10 ind) |
+| Regime | endurecimento Core | REG. CROMÁTICO | REG. BURÓCRÁTICO | Composite (10 ind) |
 |--------|-------------------|----------------|------------------|--------------------|
 | Fundacional | 1,07 | 1,97 | 1,04 | 1,16 |
 | Normativo | 1,70 | **2,40** | 2,16 | 1,82 |
 | Militar | 1,73 | 1,67 | **2,52** | 1,80 |
 | Contra-alegoria | 0,50 | 1,29 | 1,21 | 0,71 |
 
-*Nota: ENDURECIMENTO Core = média de 8 indicadores (excluindo monocromatização e serialidade); REG. CROMÁTICO = monocromatização isolada; REG. BURÓCRÁTICO = média de serialidade + inscrição estatal.*
+*Nota: endurecimento Core = média de 8 indicadores (excluindo monocromatização e serialidade); REG. CROMÁTICO = monocromatização isolada; REG. BURÓCRÁTICO = média de serialidade + inscrição estatal.*
 
 Os regimes *normativo* e *militar* produzem scores compostos praticamente idênticos (1,82 vs. 1,80) — o teste de Kruskal-Wallis não os diferencia significativamente. Contudo, os sub-scores revelam que eles operam por lógicas visuais distintas: o regime normativo maximiza o registro cromático (2,40); o regime militar maximiza o registro burocrático (2,52). Essa distinção era invisível no composite.
 
@@ -125,7 +125,7 @@ Três casos paradigmáticos do corpus ilustram o problema:
 
 O problema não é um bug a ser corrigido — é uma lente historiográfica. A hipótese que se pode derivar é a seguinte:
 
-*A emergência do Estado moderno ocidental coincide historicamente com a普及ação de tecnologias de reprodução visual mecânica (gravura, litografia, numismática, selo) que impõem formas visuais padronizadas e, frequentemente, monocromáticas. O que denominamos 'ENDURECIMENTO cromático' é, em parte, um subproduto da materialidade das tecnologias de Estado — e, em parte, uma estratégia deliberada de economia visual que torna a alegoria legível em escala reduzida (moeda), circulável em larga escala (selo, cartaz) e resistente ao excesso sensual da pintura naturalista.*
+*A emergência do Estado moderno ocidental coincide historicamente com a普及ação de tecnologias de reprodução visual mecânica (gravura, litografia, numismática, selo) que impõem formas visuais padronizadas e, frequentemente, monocromáticas. O que denominamos 'endurecimento cromático' é, em parte, um subproduto da materialidade das tecnologias de Estado — e, em parte, uma estratégia deliberada de economia visual que torna a alegoria legível em escala reduzida (moeda), circulável em larga escala (selo, cartaz) e resistente ao excesso sensual da pintura naturalista.*
 
 A dificuldade interpretativa é que estes dois mecanismos — necessidade material e escolha estratégica — deixam a mesma marca no objeto iconográfico. A solução historiográfica não está na estatística, mas na pesquisa de arquivo: rastrear, para os itens com alto registro cromático e baixo endurecimento core (FR-HERC, NL-005, US-001), se havia alternativas policromáticas disponíveis no mesmo meio, no mesmo período, pelo mesmo Estado — e se a escolha monocromática foi documentada como decisão.
 
@@ -184,9 +184,9 @@ A distribuição temporal do corpus (n=158 itens com ano) revela concentrações
 - **1860s–1900s** (n=43): expansão da numismática e do selo estatal
 - **1910s** (n=32): produção maciça de cartazes militares da Primeira Guerra Mundial (23 militar)
 
-A média de ENDURECIMENTO por década (apenas décadas com n ≥ 3 para média ± desvio padrão):
+A média de endurecimento por década (apenas décadas com n ≥ 3 para média ± desvio padrão):
 
-| Década | ENDURECIMENTO médio | n |
+| Década | endurecimento médio | n |
 |--------|---------------------|---|
 | 1850s | 1,12 ± 0,33 | 4 |
 | 1860s | 1,61 ± 1,00 | 7 |
@@ -209,7 +209,7 @@ A circulação de países no corpus por década mostra que a produção imagéti
 
 A análise multidimensional dos indicadores de purificação produz três achados principais:
 
-**1. O ENDURECIMENTO é estruturalmente unidimensional, com duas dimensões residuais.** O score composto de 10 indicadores captura 53,7% da variância (PC1) — a dimensão geral de endurecimento corporal. As dimensões residuais (PC2: burocrática; PC3: cromática) são estatisticamente significativas mas substancialmente menores.
+**1. O endurecimento é estruturalmente unidimensional, com duas dimensões residuais.** O score composto de 10 indicadores captura 53,7% da variância (PC1) — a dimensão geral de endurecimento corporal. As dimensões residuais (PC2: burocrática; PC3: cromática) são estatisticamente significativas mas substancialmente menores.
 
 **2. Os regimes normativo e militar são funcionalmente distintos por trás do composite.** Ambos produzem scores compostos quase idênticos (1,82 vs. 1,80). Os sub-scores revelam que o regime normativo opera pelo registro cromático (padronização visual, redução cromática) enquanto o regime militar opera pelo registro burocrático (multiplicação serial, inscrição estatal). São duas estratégias visuais distintas que convergem no composite.
 
@@ -223,10 +223,10 @@ A análise multidimensional dos indicadores de purificação produz três achado
 
 As análises apresentadas nesta seção foram realizadas nos seguintes notebooks Jupyter (diretório `notebooks/`):
 
-- **05_temporal.ipynb** — Dinâmica temporal (regimes, ENDURECIMENTO, países, suportes por década)
+- **05_temporal.ipynb** — Dinâmica temporal (regimes, endurecimento, países, suportes por década)
 - **06_clustering.ipynb** — Clustering hierárquico e k-means; silhueta; validação cruzada
 - **07_dimensionality.ipynb** — PCA: scree plot, loadings, biplot
-- **08_multidimensional_scoring.ipynb** — Sub-scores (ENDURECIMENTO core, monocromatização, formalização burocrática); comparações por regime; exportação de `subscores.csv`
+- **08_multidimensional_scoring.ipynb** — Sub-scores (endurecimento core, monocromatização, formalização burocrática); comparações por regime; exportação de `subscores.csv`
 
 Os notebooks usam Python 3.12 (ambiente conda `iconocracy`), com as bibliotecas pandas, numpy, scipy, scikit-learn, matplotlib e seaborn. Todos foram executados e validados em 2026-04-17. Os resultados reportados nesta seção são reproduzíveis a partir dos notebooks.
 

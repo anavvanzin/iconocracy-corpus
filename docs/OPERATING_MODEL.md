@@ -13,7 +13,7 @@ surface and backup log.
 Use the local repository for the thesis itself:
 
 - corpus expansion and evidence capture
-- ENDURECIMENTO coding
+- Endurecimento coding
 - manuscript drafting
 - vault note-taking and mirroring
 
@@ -56,7 +56,7 @@ The source-of-truth hierarchy is:
 2. `corpus/corpus-data.json`
    Public-facing export for browsers, dashboards, and public releases.
 3. `data/processed/purification.jsonl`
-   Canonical ledger for ENDURECIMENTO coding.
+   Canonical ledger for endurecimento coding.
 4. `vault/candidatos/`
    Auxiliary cataloguing mirror only.
 

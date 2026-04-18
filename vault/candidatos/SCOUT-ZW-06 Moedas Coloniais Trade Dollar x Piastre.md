@@ -20,7 +20,7 @@ data_scout: 2026-03-30
 | **Reverso** | chinês + malaio | chinês + vietnamita |
 | **Metal** | prata .900, 26.96g | prata .900, 27g |
 
-**Duas tecnologias coloniais:** British = ARRIVAL (corpo dinâmico); French = INSTALLATION (corpo entronizado). Mesmo regime MILITAR, dois morfemas do ENDURECIMENTO colonial.
+**Duas tecnologias coloniais:** British = ARRIVAL (corpo dinâmico); French = INSTALLATION (corpo entronizado). Mesmo regime MILITAR, dois morfemas do endurecimento colonial.
 
 **Contrato racial visual:** O corpo feminino BRANCO circula como moeda corrente entre povos colonizados. O reverso em línguas coloniais está literalmente ABAIXO do corpo alegórico branco. A hierarquia visual reproduz a hierarquia racial.
 
@@ -28,7 +28,7 @@ data_scout: 2026-03-30
 
 ## Estado da arte (lit-review escalation)
 
-**Lacuna identificada:** Nenhum estudo analisa especificamente a comparação MORFOLÓGICA entre Britannia e Marianne em trade coins. A tese preenche esta lacuna com o conceito de ENDURECIMENTO como variável mensurável.
+**Lacuna identificada:** Nenhum estudo analisa especificamente a comparação MORFOLÓGICA entre Britannia e Marianne em trade coins. A tese preenche esta lacuna com o conceito de endurecimento como variável mensurável.
 
 ### Eixo 1 — Numismática colonial e propaganda visual
 - RAENTO (2017): moeda colonial como "pocket-sized imperialism" — símbolos desestabilizam fronteiras nacionais
@@ -50,7 +50,7 @@ data_scout: 2026-03-30
 | McClintock: "Imperial Leather" | **contrato racial visual** |
 | Sharpe: "Allegories of Empire" | **Feminilidade de Estado** |
 | Apter: "scopic regimes" | **colonialidade do ver** |
-| Scott: "tiny transmitters" | **serialidade** (indicador de ENDURECIMENTO) |
+| Scott: "tiny transmitters" | **serialidade** (indicador de endurecimento) |
 | Nielson (2016): "erotic attachment" | **Contrato Sexual Visual** |
 | Belgian Congo stamps (2025): "preferably male, vulnerable" | **iconometria** (quantitative content analysis model) |
 | Helmreich (2003): "domesticating Britannia" | **transição MILITAR → NORMATIVO** |

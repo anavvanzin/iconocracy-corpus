@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -39,9 +39,9 @@ Also available in digital form.
 
 **Motivos identificados**: Liberty
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 B., carrington, henry. **Patriotic Reader; or Human Liberty Developed**. 1888. Library of Congress. Disponível em: https://www.loc.gov/item/07004199/. Acesso em: 04 Apr. 2026.

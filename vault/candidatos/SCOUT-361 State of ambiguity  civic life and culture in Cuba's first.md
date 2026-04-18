@@ -19,7 +19,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: loc
@@ -40,9 +40,9 @@ Includes bibliographical references (pages 323-348) and index. Description based
 
 **Motivos identificados**: Republic
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 AMPARO, sanchez cobos,. **State of ambiguity : civic life and culture in Cuba's first republic**. 2014-01-01. Library of Congress. Disponível em: https://www.loc.gov/item/2020719663/. Acesso em: 03 Apr. 2026.

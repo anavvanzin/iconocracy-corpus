@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://example.org/schemas/purification-record.schema.json",
   "title": "PurificationRecord",
-  "description": "Single coding record for ENDURECIMENTO purification indicators (0-3 ordinal scale). Multiple records per item_id are allowed for inter-rater reliability.",
+  "description": "Single coding record for endurecimento purification indicators (0-3 ordinal scale). Multiple records per item_id are allowed for inter-rater reliability.",
   "type": "object",
   "additionalProperties": false,
   "required": [

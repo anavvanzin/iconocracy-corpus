@@ -12,7 +12,7 @@ class OpenRouterEvalRunnerTests(unittest.TestCase):
         messages = build_messages("Explique QUAN→QUAL.")
         self.assertEqual(messages[0]["role"], "system")
         self.assertEqual(messages[1]["role"], "user")
-        self.assertIn("ENDURECIMENTO", messages[0]["content"])
+        self.assertIn("endurecimento", messages[0]["content"])
         self.assertEqual(messages[1]["content"], "Explique QUAN→QUAL.")
 
     def test_load_jsonl_reads_prompt_rows(self):

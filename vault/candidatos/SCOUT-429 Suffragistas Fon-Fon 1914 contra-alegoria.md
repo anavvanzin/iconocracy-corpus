@@ -17,7 +17,7 @@ tags:
   - #contra-alegoria
   - #acoplamento-imagem-norma
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[contra-alegoria]]"

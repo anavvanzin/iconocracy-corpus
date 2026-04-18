@@ -21,7 +21,7 @@ tags:
   - colonialidade-do-ver
   - contrato-racial-visual
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Colonialidade do Ver]]"
   - "[[Britannia]]"
@@ -58,7 +58,7 @@ data_scout: 2026-04-01
 - [x] postura de pé
 - [x] navio ao fundo
 
-**ENDURECIMENTO detectado:** sim — corpo rígido, armado, monocromático, produção em massa industrial
+**endurecimento detectado:** sim — corpo rígido, armado, monocromático, produção em massa industrial
 
 ---
 

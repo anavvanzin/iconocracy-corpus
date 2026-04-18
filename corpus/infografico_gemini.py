@@ -81,7 +81,7 @@ def create_infographic():
     ax_header.axis('off')
     ax_header.text(0.5, 0.8, 'ICONOCRACIA', fontsize=44, fontweight='bold', ha='center', fontfamily='serif')
     ax_header.text(0.5, 0.55, 'Corpus de Alegorias Femininas na História da Cultura Jurídica', fontsize=20, ha='center', fontfamily='serif')
-    ax_header.text(0.5, 0.3, '165 itens | 15 países | 1239-1975 | ENDURECIMENTO médio 1.42', 
+    ax_header.text(0.5, 0.3, '165 itens | 15 países | 1239-1975 | endurecimento médio 1.42', 
                   fontsize=16, ha='center', fontfamily='sans-serif', fontweight='bold', color='#444444')
 
     # --- PAINEL A: Distribuição por país ---
@@ -129,13 +129,13 @@ def create_infographic():
     ax_c.spines['top'].set_visible(False)
     ax_c.spines['right'].set_visible(False)
 
-    # --- PAINEL D: ENDURECIMENTO por regime ---
+    # --- PAINEL D: endurecimento por regime ---
     ax_d = fig.add_subplot(gs[3, 0])
     regimes_d = ['Contra-alegoria', 'Fundacional', 'Militar', 'Normativo']
     scores_d = [0.72, 1.15, 1.76, 1.90]
     colors_d = [COLORS['contra'], COLORS['fundacional'], COLORS['militar'], COLORS['normativo']]
     bars_d = ax_d.bar(regimes_d, scores_d, color=colors_d)
-    ax_d.set_title('PAINEL D — ENDURECIMENTO por regime', fontsize=16, fontweight='bold', pad=20)
+    ax_d.set_title('PAINEL D — endurecimento por regime', fontsize=16, fontweight='bold', pad=20)
     ax_d.set_ylim(0, 2.5)
     ax_d.set_ylabel('Score Médio (0-3)', fontfamily='sans-serif')
     for bar in bars_d:
@@ -160,7 +160,7 @@ def create_infographic():
     ax_e.spines['top'].set_visible(False)
     ax_e.spines['right'].set_visible(False)
 
-    # --- PAINEL F: Radar dos 10 indicadores de ENDURECIMENTO ---
+    # --- PAINEL F: Radar dos 10 indicadores de endurecimento ---
     indicators = ['Desincorporação', 'Rigidez postural', 'Dessexualização', 'Uniformização facial', 
                   'Heraldicização', 'Arq. Enquadramento', 'Apagamento narr.', 'Monocromatização', 
                   'Serialidade', 'Insc. Estatal']
@@ -173,7 +173,7 @@ def create_infographic():
     ax_f.fill(theta, values_f, facecolor=COLORS['normativo'], alpha=0.25)
     ax_f.set_varlabels(indicators)
     ax_f.set_ylim(0, 3)
-    ax_f.set_title('PAINEL F — Radar dos 10 indicadores de ENDURECIMENTO (Escala 0-3)', 
+    ax_f.set_title('PAINEL F — Radar dos 10 indicadores de endurecimento (Escala 0-3)', 
                   fontsize=16, fontweight='bold', pad=30)
     
     # Destacar monocromatização

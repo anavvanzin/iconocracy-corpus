@@ -21,7 +21,7 @@ tags:
 hf_synced: false
 related:
   - "[[Contrato Sexual Visual]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Iconocracia]]"
   - "[[Feminilidade de Estado]]"
   - "[[Semeuse selo]]"
@@ -55,7 +55,7 @@ Jovem mulher caminhando contra o vento à luz do sol nascente, usando **barrete 
 
 Valor facial (1 FRANC), ano, divisa republicana LIBERTÉ · ÉGALITÉ · FRATERNITÉ, ramo de oliveira (símbolo de paz).
 
-## ENDURECIMENTO detectado
+## Endurecimento detectado
 
 **Regime NORMATIVO** — A Semeuse é o caso paradigmático de estabilização burocrática da alegoria feminina na III República.
 
@@ -93,7 +93,7 @@ Indicadores ativos:
 | Fundo | Sol nascente, paisagem | Monocromo |
 | Serialidade | 440M (1F prata) | Bilhões (todas as variantes) |
 
-A transição moeda → selo é um caso de ENDURECIMENTO progressivo: a mesma figura perde movimento e contexto narrativo ao mudar de suporte. O selo "camée" reduz a Semeuse a silhueta quase heráldica.
+A transição moeda → selo é um caso de endurecimento progressivo: a mesma figura perde movimento e contexto narrativo ao mudar de suporte. O selo "camée" reduz a Semeuse a silhueta quase heráldica.
 
 ### Referências Bibliográficas
 

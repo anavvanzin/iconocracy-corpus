@@ -57,7 +57,7 @@ data_scout: 2026-04-11
 - [ ] postura frontal
 - [ ] contexto arquitetônico
 
-**ENDURECIMENTO detectado:** não — corpo FUNDACIONAL, perfil vivo, sem rigidez institucional
+**endurecimento detectado:** não — corpo FUNDACIONAL, perfil vivo, sem rigidez institucional
 
 ---
 

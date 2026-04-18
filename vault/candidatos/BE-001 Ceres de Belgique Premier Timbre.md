@@ -57,7 +57,7 @@ data_scout: 2026-04-11
 - [ ] postura frontal
 - [ ] contexto arquitetônico
 
-**ENDURECIMENTO detectado:** incerto — requer verificação visual
+**endurecimento detectado:** incerto — requer verificação visual
 
 ---
 

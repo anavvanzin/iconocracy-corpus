@@ -13,7 +13,7 @@ Arquivo de prompts:
 
 ### A. Terminologia e guardrails
 O modelo deve:
-- manter `ENDURECIMENTO` em português
+- manter `endurecimento` em português
 - não atribuir `Feminilidade de Estado` a Mondzain
 - respeitar a cadeia de rastreabilidade do corpus
 - tratar claims do pipeline como hipóteses, não como prova final
@@ -80,7 +80,7 @@ O fine-tune está funcionando se o modelo:
 ## 4. Sinais de fracasso
 
 O fine-tune ainda está fraco se o modelo:
-- traduzir `ENDURECIMENTO`;
+- traduzir `endurecimento`;
 - atribuir conceitos originais da tese a autores de referência;
 - transformar toda resposta em retórica grandiosa e pouco controlada;
 - tomar claims do pipeline como fatos estabelecidos;

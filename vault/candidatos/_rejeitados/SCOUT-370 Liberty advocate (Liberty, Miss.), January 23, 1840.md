@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -39,9 +39,9 @@ Liberty, Miss.
 
 **Motivos identificados**: Liberty
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 HISTORY, mississippi department of archives and. **Liberty advocate (Liberty, Miss.), January 23, 1840**. 1840-01-23. Library of Congress. Disponível em: https://www.loc.gov/item/sn83016942/1840-01-23/ed-1/. Acesso em: 04 Apr. 2026.

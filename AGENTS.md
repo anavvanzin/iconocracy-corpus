@@ -9,7 +9,7 @@
 - **Validação rápida**: `python tools/scripts/validate_schemas.py data/processed/records.jsonl --schema master-record --verbose` → `python tools/scripts/trace_evidence.py` → `python tools/scripts/abnt_citations.py`.
 - **QA de export**: `python tools/scripts/records_to_corpus.py --diff` antes de tocar em `corpus/corpus-data.json`.
 - **Sync do vault**: `python tools/scripts/vault_sync.py status|pull|push|sync|diff` mantém `vault/candidatos/` alinhado a `records.jsonl`. Use `pull` antes de editar notas e `push` ao final.
-- **Codificação ENDURECIMENTO**: `python tools/scripts/code_purification.py --status|--item ID|--batch SIGLA|--export-csv` atualiza `data/processed/purification.jsonl` + `corpus_dataset.csv`.
+- **Codificação endurecimento**: `python tools/scripts/code_purification.py --status|--item ID|--batch SIGLA|--export-csv` atualiza `data/processed/purification.jsonl` + `corpus_dataset.csv`.
 - **Atlas / tese**: `make -C vault/tese/ docx` ou `make -C vault/tese/ pdf`. Webapps: `cd webiconocracy && npm run dev` (porta 3000), `cd indexing/gallica-mcp-server && npm run dev` (3001).
 - **Releases**: rode `validate_schemas.py`, `vault_sync.py status`, `records_to_corpus.py --diff`, `code_purification.py --status` **antes** de `python tools/scripts/build_hf_release.py`.
 - **Ingest**: `python iconocracy-ingest/ingest.py <batch> --dry-run` sempre precede qualquer escrita.
@@ -23,7 +23,7 @@
 
 ## Fluxos que não podem ser quebrados
 - **Rastreabilidade total**: cada item precisa existir em (1) Google Drive + `data/raw/drive-manifest.json`, (2) `vault/candidatos/`, (3) `data/processed/records.jsonl`.
-- **Export gate**: aceite mudanças em `records_to_corpus.py --diff` somente se não adulterarem IDs, regimes ou ENDURECIMENTO.
+- **Export gate**: aceite mudanças em `records_to_corpus.py --diff` somente se não adulterarem IDs, regimes ou endurecimento.
 - **Snapshots HF**: só publique após o combo validação + diff + sync + purificação. Use `build_hf_release.py` para gerar o pacote completo.
 - **Iconclass / rede feminista**: `python tools/scripts/extract_feminist_network.py` atualiza `data/processed/feminist_network_48C51_pt.json`; cite Iconclass 48C51 como referência padrão.
 
@@ -37,7 +37,7 @@
 - `rede feminista [raiz?]` → `extract_feminist_network.py`; `lote exemplo` → `batch_example.py`.
 
 ## Estilo e terminologia obrigatórios
-- Sempre use os termos originais da tese: **ENDURECIMENTO**, **Contrato Sexual Visual**, **Feminilidade de Estado**, **Pathosformel**, **Zwischenraum**, **Nachleben**, **Iconclass 48C51**.
+- Sempre use os termos originais da tese: **endurecimento**, **Contrato Sexual Visual**, **Feminilidade de Estado**, **Pathosformel**, **Zwischenraum**, **Nachleben**, **Iconclass 48C51**.
 - Citações em ABNT NBR 6023:2025; Mondzain = edição 2002. Texto acadêmico em português jurídico-penal, não antropológico/sociológico.
 
 ## Guardrails finais

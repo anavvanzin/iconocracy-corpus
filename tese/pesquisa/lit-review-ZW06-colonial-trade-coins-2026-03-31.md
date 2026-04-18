@@ -4,7 +4,7 @@
 
 ### Research Question
 
-How do the British Trade Dollar (Britannia standing, trident, colonial Hong Kong/Straits Settlements) and French Piastre de Commerce (Marianne seated, fasces, colonial Indochina) deploy female allegorical figures as visual instruments of imperial authority? What are the morphological differences between these two strategies of imperial ENDURECIMENTO, and what does existing scholarship say about gendered allegory, colonial numismatics, and what the thesis calls the "visual sexual contract"?
+How do the British Trade Dollar (Britannia standing, trident, colonial Hong Kong/Straits Settlements) and French Piastre de Commerce (Marianne seated, fasces, colonial Indochina) deploy female allegorical figures as visual instruments of imperial authority? What are the morphological differences between these two strategies of imperial endurecimento, and what does existing scholarship say about gendered allegory, colonial numismatics, and what the thesis calls the "visual sexual contract"?
 
 ---
 
@@ -24,7 +24,7 @@ Methodological model: quantitative content analysis of 149 colonial stamps acros
 
 **3. Italian Colonial Stamps (2022).** *Nations and Nationalism*, 1 citation.
 
-Shows that "an image of exoticism reinforces the idea of the nation as a new empire" — domination expressed through visual culture. The quantitative method (content analysis of propaganda themes across periods) is directly applicable to the ENDURECIMENTO trajectory the thesis proposes.
+Shows that "an image of exoticism reinforces the idea of the nation as a new empire" — domination expressed through visual culture. The quantitative method (content analysis of propaganda themes across periods) is directly applicable to the endurecimento trajectory the thesis proposes.
 
 **4. Zimbabwe Banknotes and Sovereignty (2025).** *Nations and Nationalism*.
 

@@ -37,7 +37,7 @@ related:
 
 1. Campanha #6 (Venda nos olhos) — rastrear quando a Justiça passa a usar venda nos suportes brasileiros pós-1890.
 2. Campanha #11 (Frontispícios) — ampliar repertório de decretos e códigos com vinhetas alegóricas (EN/FR para contraste).
-3. Pesquisar medalhas comemorativas em acervos estaduais (Museu Paulista, Museu Paranaense) para medir ENDURECIMENTO regional.
+3. Pesquisar medalhas comemorativas em acervos estaduais (Museu Paulista, Museu Paranaense) para medir endurecimento regional.
 
 ## Flags de atenção
 

@@ -26,7 +26,7 @@ Do not change the prompt set during round 1. The point is to compare model behav
 
 For each model, review:
 1. Terminology
-   - preserves `ENDURECIMENTO`
+   - preserves `endurecimento`
    - does not misattribute `Feminilidade de Estado`
 2. Method
    - explains QUAN→QUAL→síntese correctly

@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.8
 hunt_source: va
@@ -39,9 +39,9 @@ Fan. Great Britain. query: Britannia allegory
 
 **Motivos identificados**: Britannia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 UNKNOWN. **Fan**. ca. 1745. Victoria and Albert Museum. Disponível em: https://collections.vam.ac.uk/item/O126326. Acesso em: 03 Apr. 2026.

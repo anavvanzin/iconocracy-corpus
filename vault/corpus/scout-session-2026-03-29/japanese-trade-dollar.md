@@ -60,7 +60,7 @@ updated: 2026-03-29
 
 **Regime iconocratico:** MILITAR — instrumento de penetracao economica no comercio asiatico Meiji; concorrencia direta com Mexican Dollar, US Trade Dollar e Piastre de Commerce francesa.
 
-**Justificativa da inclusao como controle negativo:** O Japanese Trade Dollar responde diretamente a hipotese central do Painel VI: o ENDURECIMENTO alegorico feminino nas trade dollars e fenomeno UNIVERSAL (qualquer potencia que emita trade dollar feminiza a soberania monetaria) ou ESPECIFICAMENTE OCIDENTAL? O Japao, ao criar sua trade dollar em 1875 com especificacoes tecnicas IDENTICAS ao US Trade Dollar — mesmo metal, mesmo peso (420 grains), mesma finura (.900), inscricoes em ingles — mas com iconografia COMPLETAMENTE DIFERENTE, demonstra que a feminizacao e ESCOLHA CULTURAL OCIDENTAL, nao necessidade funcional. A moeda funciona no mercado asiatico SEM corpo feminino. O corpo feminino e excesso simbolico que serve ao IMPERIO que emite, nao ao COMERCIO que circula.
+**Justificativa da inclusao como controle negativo:** O Japanese Trade Dollar responde diretamente a hipotese central do Painel VI: o endurecimento alegorico feminino nas trade dollars e fenomeno UNIVERSAL (qualquer potencia que emita trade dollar feminiza a soberania monetaria) ou ESPECIFICAMENTE OCIDENTAL? O Japao, ao criar sua trade dollar em 1875 com especificacoes tecnicas IDENTICAS ao US Trade Dollar — mesmo metal, mesmo peso (420 grains), mesma finura (.900), inscricoes em ingles — mas com iconografia COMPLETAMENTE DIFERENTE, demonstra que a feminizacao e ESCOLHA CULTURAL OCIDENTAL, nao necessidade funcional. A moeda funciona no mercado asiatico SEM corpo feminino. O corpo feminino e excesso simbolico que serve ao IMPERIO que emite, nao ao COMERCIO que circula.
 
 **Iconografia detalhada:**
 
@@ -99,7 +99,7 @@ updated: 2026-03-29
 - [x] perola flamejante (atributo do dragao soberano)
 - [x] inscricoes bilingues (japones + ingles) — concessao linguistica ao mercado ocidental
 
-**ENDURECIMENTO detectado:** N/A — AUSENCIA. Nao ha corpo feminino para endurecer. O conceito de ENDURECIMENTO e INAPLICAVEL onde nao ha alegoria feminina. Esta inaplicabilidade nao e falha analitica: e o DADO CENTRAL. O Japanese Trade Dollar demonstra que a heraldizacao completa (dragao + crisantemo) e uma alternativa DIRETA ao modelo de ENDURECIMENTO ocidental — mas e uma alternativa que NAO PASSA pelo corpo feminino. Classificacao identica ao Mexican Dollar (SCOUT-038): heraldizacao pura desde o inicio, sem processo de ENDURECIMENTO progressivo porque nao ha corpo de partida.
+**endurecimento detectado:** N/A — AUSENCIA. Nao ha corpo feminino para endurecer. O conceito de endurecimento e INAPLICAVEL onde nao ha alegoria feminina. Esta inaplicabilidade nao e falha analitica: e o DADO CENTRAL. O Japanese Trade Dollar demonstra que a heraldizacao completa (dragao + crisantemo) e uma alternativa DIRETA ao modelo de endurecimento ocidental — mas e uma alternativa que NAO PASSA pelo corpo feminino. Classificacao identica ao Mexican Dollar (SCOUT-038): heraldizacao pura desde o inicio, sem processo de endurecimento progressivo porque nao ha corpo de partida.
 
 ---
 
@@ -177,7 +177,7 @@ O Japao, cronologicamente entre o US Trade Dollar e a Piastre de Commerce, demon
 - [[Zwischenraum Anatomia da Feminizacao Imperial]]
 - [[controle negativo mexicano]]
 - [[SCOUT-038 Mexican Dollar]]
-- [[ENDURECIMENTO]]
+- [[endurecimento]]
 - [[Contrato Sexual Visual]]
 - [[Moedas de Comercio Imperial]]
 - [[Regime MILITAR]]
@@ -213,7 +213,7 @@ related:
   - "[[SCOUT-092 Japanese Trade Dollar]]"
   - "[[Zwischenraum Anatomia da Feminizacao Imperial]]"
   - "[[controle negativo mexicano]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Heraldizacao]]"
   - "[[Moedas de Comercio Imperial]]"
@@ -260,23 +260,23 @@ Este painel estabelece o espaco de tensao (*Zwischenraum*) entre QUATRO resposta
 
 ---
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-A estrutura quadripolar revela que o ENDURECIMENTO so e possivel como categoria analitica onde ha CORPO FEMININO — e que o corpo feminino e uma OPCAO OCIDENTAL, nao uma constante da trade dollar.
+A estrutura quadripolar revela que o endurecimento so e possivel como categoria analitica onde ha CORPO FEMININO — e que o corpo feminino e uma OPCAO OCIDENTAL, nao uma constante da trade dollar.
 
 **Polo 0 (Mexican Dollar) — HERALDIZACAO PRE-CORPO:**
-O ENDURECIMENTO e inaplicavel porque o corpo feminino nunca foi convocado. O barrete frigio (Phrygian cap) e um simbolo ABSTRACTO da liberdade — evoca o corpo feminino allegorico europeu (Marianne usa o barrete frigio) mas nao O APRESENTA. A aguia com serpente no reverso e heraldica pura, sem corpo feminino portador. Indicadores ativos: heraldizacao (total, desde o inicio), inscricao_estatal (LIBERTAD), apagamento_narrativo (nao ha narrativa corporal para apagar). O Mexico heraldiza sem ter primeiro encorporado.
+O endurecimento e inaplicavel porque o corpo feminino nunca foi convocado. O barrete frigio (Phrygian cap) e um simbolo ABSTRACTO da liberdade — evoca o corpo feminino allegorico europeu (Marianne usa o barrete frigio) mas nao O APRESENTA. A aguia com serpente no reverso e heraldica pura, sem corpo feminino portador. Indicadores ativos: heraldizacao (total, desde o inicio), inscricao_estatal (LIBERTAD), apagamento_narrativo (nao ha narrativa corporal para apagar). O Mexico heraldiza sem ter primeiro encorporado.
 
-**Polo A (US Trade Dollar) — ENDURECIMENTO MEDIO:**
-Liberty sentada apresenta um CORPO FEMININO COM NARRATIVA: ela SENTA sobre fardos (comercio), SEGURA oliveira (paz) e rolo "LIBERTY" (direito), tem trigo ao fundo (prosperidade). E uma cena ATIVA, com corpo expressivo. Os indicadores de ENDURECIMENTO parcialmente ativos:
+**Polo A (US Trade Dollar) — endurecimento MEDIO:**
+Liberty sentada apresenta um CORPO FEMININO COM NARRATIVA: ela SENTA sobre fardos (comercio), SEGURA oliveira (paz) e rolo "LIBERTY" (direito), tem trigo ao fundo (prosperidade). E uma cena ATIVA, com corpo expressivo. Os indicadores de endurecimento parcialmente ativos:
 - *rigidez_postural:* MEDIA — corpo sentado, gestos residuais (mao com oliveira)
 - *dessexualizacao:* MEDIA — toga drapeada, ombro parcialmente exposto
 - *heraldizacao:* MEDIA — 13 estrelas ao redor, aguia no reverso
 - *apagamento_narrativo:* BAIXO — cena narrativa presente (fardos, trigo, navio implicito)
 - *inscricao_estatal:* MEDIA — "LIBERTY" no rolo, peso/finura no reverso
-O corpo de Liberty ainda e um CORPO com historia, com cena, com narrativa. O ENDURECIMENTO nao atingiu o nivel de dessexualizacao total do corpo heraldico.
+O corpo de Liberty ainda e um CORPO com historia, com cena, com narrativa. O endurecimento nao atingiu o nivel de dessexualizacao total do corpo heraldico.
 
-**Polo B (Japanese Trade Dollar) — ENDURECIMENTO INAPLICAVEL:**
+**Polo B (Japanese Trade Dollar) — endurecimento INAPLICAVEL:**
 Todos os dez indicadores do master-record schema sao INAPLICAVEIS:
 - Nao ha *desincorporacao* porque nao ha corpo de partida
 - Nao ha *rigidez_postural* porque nao ha postura humana
@@ -288,19 +288,19 @@ Todos os dez indicadores do master-record schema sao INAPLICAVEIS:
 - Nao ha *monocromatizacao* (aplicavel a suportes bidimensionais)
 - Nao ha *serialidade* no sentido pertinente (a serialidade de cunhagem nao e serializacao do corpo)
 - *inscricao_estatal:* TOTAL — crisantemo imperial E a inscricao do Estado
-O dragao NAO PASSA pelo processo de ENDURECIMENTO porque NUNCA PASSOU pelo estado de corpo expressivo. O ENDURECIMENTO e o processo de CONTROLE de um corpo que foi convocado. O Japao nunca convocou o corpo — logo, nao ha o que controlar.
+O dragao NAO PASSA pelo processo de endurecimento porque NUNCA PASSOU pelo estado de corpo expressivo. O endurecimento e o processo de CONTROLE de um corpo que foi convocado. O Japao nunca convocou o corpo — logo, nao ha o que controlar.
 
-**Polo C (French Piastre) — ENDURECIMENTO ALTO:**
+**Polo C (French Piastre) — endurecimento ALTO:**
 Marianne na Piastre de Commerce e uma figura RIGIDIFICADA desde o inicio da serie colonial. Diferente da Marianne do contexto metropolitano (que pode ser dinamica, semi-nua, fundacional), a Marianne colonial-comercial e SENTADA, VESTIDA, FRONTAL, IMPASSIVEL. Os indicadores:
 - *rigidez_postural:* ALTA — Marianne sentada em trono, postura frontal, gesto minimo (fascio)
 - *dessexualizacao:* ALTA — drapeado total, sem exposicao corporal
 - *heraldizacao:* ALTA — fascio (poder do Estado), ancora (comercio/colonia), trigo (prosperidade)
 - *apagamento_narrativo:* ALTO — sem cena narrativa; apenas postura emblematica
 - *inscricao_estatal:* ALTA — "REPUBLIQUE FRANCAISE" + valor + data
-A Piastre de Commerce demonstra o ENDURECIMENTO JA CONSOLIDADO: Marianne chegou ao suporte colonial JA ENDURECIDA, sem o processo gradual que se observa nos suportes metropolitanos.
+A Piastre de Commerce demonstra o endurecimento JA CONSOLIDADO: Marianne chegou ao suporte colonial JA ENDURECIDA, sem o processo gradual que se observa nos suportes metropolitanos.
 
 **O que a comparacao quadripolar demonstra:**
-O ENDURECIMENTO e um processo que PRESSUPOE o corpo feminino como ponto de partida. Onde ha corpo feminino (US, FR), o ENDURECIMENTO existe como maior ou menor rigidificacao. Onde nao ha corpo feminino (MX, JP), o ENDURECIMENTO simplesmente nao existe como categoria — o Estado projeta soberania por outros meios (heraldica, animal mitico, simbolo abstracto). A alegoria feminina e, portanto, uma TECNOLOGIA CULTURAL ESPECIFICAMENTE OCIDENTAL de producao de soberania monetaria.
+O endurecimento e um processo que PRESSUPOE o corpo feminino como ponto de partida. Onde ha corpo feminino (US, FR), o endurecimento existe como maior ou menor rigidificacao. Onde nao ha corpo feminino (MX, JP), o endurecimento simplesmente nao existe como categoria — o Estado projeta soberania por outros meios (heraldica, animal mitico, simbolo abstracto). A alegoria feminina e, portanto, uma TECNOLOGIA CULTURAL ESPECIFICAMENTE OCIDENTAL de producao de soberania monetaria.
 
 ---
 
@@ -356,8 +356,8 @@ Quatro potencias resolvem o mesmo problema (trade dollar para o comercio asiatic
 - Ausencia POS-modelo (JP, 1875): o modelo europeu e CONHECIDO (mintmaster britanico, dies londrinos) e REJEITADO conscientemente
 A rejeicao japonesa e mais forte analiticamente porque e INFORMADA. O Japao sabe o que o Ocidente faz e escolhe nao fazer. Esta escolha e prova de que a feminizacao e uma DECISAO, nao uma inevitabilidade historica.
 
-**Conclusao 3: O ENDURECIMENTO delimita-se como fenomeno intra-ocidental.**
-O ENDURECIMENTO so pode existir onde a cultura politica primeiro CONVOCOU o corpo feminino para representar o Estado. Esta convocacao e especificamente ocidental — resultado da confluencia entre a Revolucao Francesa (que cunhou Marianne), o neoclassicismo (que deu a iconografia), e o imperialismo monetario (que projetou esta iconografia no mundo). O Japao Meiji, que modernizou tudo o mais, nao modernizou o Estado via corpo feminino alegorico. O ENDURECIMENTO e, portanto, a historia de como o Ocidente administra a tensao que o proprio Ocidente criou ao convocar o corpo feminino para o servico do Estado. Esta tese e sobre o Ocidente — e o Japanese Trade Dollar, como controle negativo, demonstra que ela O E.
+**Conclusao 3: O endurecimento delimita-se como fenomeno intra-ocidental.**
+O endurecimento so pode existir onde a cultura politica primeiro CONVOCOU o corpo feminino para representar o Estado. Esta convocacao e especificamente ocidental — resultado da confluencia entre a Revolucao Francesa (que cunhou Marianne), o neoclassicismo (que deu a iconografia), e o imperialismo monetario (que projetou esta iconografia no mundo). O Japao Meiji, que modernizou tudo o mais, nao modernizou o Estado via corpo feminino alegorico. O endurecimento e, portanto, a historia de como o Ocidente administra a tensao que o proprio Ocidente criou ao convocar o corpo feminino para o servico do Estado. Esta tese e sobre o Ocidente — e o Japanese Trade Dollar, como controle negativo, demonstra que ela O E.
 
 **Configuracao final do Painel VI (pentapolar):**
 
@@ -372,14 +372,14 @@ O ENDURECIMENTO so pode existir onde a cultura politica primeiro CONVOCOU o corp
    POLO A: US TRADE $         POLO C: FRENCH PIASTRE
    Liberty sentada (1873)     Marianne sentada (1885)
    Comercial / paz            Colonial / lei
-   ENDURECIMENTO medio        ENDURECIMENTO alto
+   endurecimento medio        endurecimento alto
          |                             |
          +——— COM alegoria feminina ———+
          |
          POLO B: JAPANESE TRADE DOLLAR (JP, 1875)
          Dragao imperial + Crisantemo
          SEM alegoria feminina — POS-modelo (REJEICAO INFORMADA)
-         ENDURECIMENTO INAPLICAVEL
+         endurecimento INAPLICAVEL
 ```
 
 O Painel VI pentapolar e a demonstracao geograficamente e cronologicamente mais ampla da tese: a feminizacao da soberania monetaria e um fenomeno ESPECIFICAMENTE OCIDENTAL, com dois polos ocidentais ativos (US e FR), dois controles negativos nao-ocidentais (MX pre-modelo, JP pos-modelo), e o British Trade Dollar (Britannia de pe, 1895) como quinto polo ocidental que completara a cobertura cronologica e geografica do fenomeno.
@@ -389,7 +389,7 @@ O Painel VI pentapolar e a demonstracao geograficamente e cronologicamente mais 
 - [[controle negativo mexicano]]
 - [[SCOUT-038 Mexican Dollar]]
 - [[SCOUT-092 Japanese Trade Dollar]]
-- [[ENDURECIMENTO]]
+- [[endurecimento]]
 - [[Contrato Sexual Visual]]
 - [[Painel VI]]
 - [[Moedas de Comercio Imperial]]

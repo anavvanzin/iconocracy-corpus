@@ -28,7 +28,7 @@ bash tools/scripts/run_iconocracy_3b_pilot.sh
 ## O que observar depois
 
 Comparar base vs fine-tuned em:
-- terminologia (`ENDURECIMENTO`, `Feminilidade de Estado`)
+- terminologia (`endurecimento`, `Feminilidade de Estado`)
 - método (`QUAN→QUAL→síntese`, IconoCode)
 - planejamento da tese
 - transformação de registros do corpus em notas analíticas

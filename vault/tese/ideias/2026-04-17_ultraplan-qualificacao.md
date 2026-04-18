@@ -25,7 +25,7 @@ Após sessão socrática + dois conselhos (Arquiteto + Skeptic + Pragmatist + Cr
 | 1 | **Contrato Sexual Visual** | Pateman (extensão visual via Goodrich) | Cap. 1 |
 | 2 | **Feminilidade de Estado** | Legendre (já citado Cap. 2.2) + Carson (a inserir Cap. 2.2) | Cap. 2.2 |
 | 3 | **Contrato Racial Visual** | Mills + decolonial (Lugones/Curiel) — depende densidade Cap. 3 | Cap. 3 |
-| 4 | **Purificação Clássica** | Matriz primária jurídica: Kantorowicz + Legendre + Hespanha. Extensão ferramental: Latour + Haraway + Descola. Operacionalizada empiricamente em ENDURECIMENTO (10 indicadores ordinais sobre 145 itens) | Cap. 5.2 |
+| 4 | **Purificação Clássica** | Matriz primária jurídica: Kantorowicz + Legendre + Hespanha. Extensão ferramental: Latour + Haraway + Descola. Operacionalizada empiricamente em endurecimento (10 indicadores ordinais sobre 145 itens) | Cap. 5.2 |
 
 ### Decisão sobre ciberfeminismo
 
@@ -85,5 +85,5 @@ Escolha confirmada: **Opção A+** (operadores ancorados em tradição jurídica
 - Os 4 conceitos originais aparecem nomeados na Introdução, em Cap. 2.2, em Cap. 5.2 e na Conclusão
 - Purificação Clássica tem matriz primária jurídica (Kantorowicz/Legendre/Hespanha) declarada antes da extensão ferramental (Latour/Haraway/Descola)
 - Palavra "ciberfeminismo" não aparece no manuscrito
-- ENDURECIMENTO (10 indicadores) é apresentado como operacionalização empírica da Purificação Clássica
+- Endurecimento (10 indicadores) é apresentado como operacionalização empírica da Purificação Clássica
 - Nota de rodapé honesta sobre limites do recorte presente em Cap. 5.2

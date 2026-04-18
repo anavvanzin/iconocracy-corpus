@@ -16,7 +16,7 @@ tags:
   - regime/fundacional
   - motivo/columbia
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[Nachleben]]"
 data_scout: 2026-03-30
@@ -31,9 +31,9 @@ data_scout: 2026-03-30
 
 Figura feminina colossal (~20 m original), braços estendidos, robe fluente. Personifica a força da república americana. Réplica de 1918 reduzida a 1/3.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**PARCIAL** — O percurso 20m → 7,3m documenta ENDURECIMENTO NEGATIVO por miniaturização. O corpo feminino ENCOLHE entre 1893 e 1918. French é o mesmo escultor do Lincoln Memorial (1922) — transição de alegoria feminina para retrato masculino.
+**PARCIAL** — O percurso 20m → 7,3m documenta endurecimento NEGATIVO por miniaturização. O corpo feminino ENCOLHE entre 1893 e 1918. French é o mesmo escultor do Lincoln Memorial (1922) — transição de alegoria feminina para retrato masculino.
 
 ### Citação ABNT
 

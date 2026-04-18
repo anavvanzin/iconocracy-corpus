@@ -23,7 +23,7 @@ tags:
 hf_synced: false
 related:
   - "[[Contrato Sexual Visual]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Iconocracia]]"
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-114 2 Dollar Educational Series Science 1896]]"
@@ -60,7 +60,7 @@ related:
 
 Retratos dos generais Ulysses S. Grant e Philip H. Sheridan (Guerra Civil).
 
-## ENDURECIMENTO detectado
+## Endurecimento detectado
 
 **Regime NORMATIVO com TENSÃO FUNDACIONAL** — Esta nota representa um caso-limite: a alegoria feminina no suporte mais burocrático (papel-moeda) mas com corpo semi-nu que evoca o regime FUNDACIONAL.
 
@@ -74,7 +74,7 @@ Os seios expostos de Electricity provocaram reação violenta:
 - A expressão **"banned in Boston"** pode ter se originado com esta nota
 - Série substituída em 1899
 
-**DECISÃO METODOLÓGICA**: Este é um dos casos mais eloquentes do Contrato Sexual Visual — o corpo feminino alegórico no suporte soberano (moeda nacional) torna-se campo de batalha moral. O ENDURECIMENTO posterior (substituição por designs mais "decentes") é uma resposta direta à recusa social do corpo feminino nu no Estado burocrático.
+**DECISÃO METODOLÓGICA**: Este é um dos casos mais eloquentes do Contrato Sexual Visual — o corpo feminino alegórico no suporte soberano (moeda nacional) torna-se campo de batalha moral. O endurecimento posterior (substituição por designs mais "decentes") é uma resposta direta à recusa social do corpo feminino nu no Estado burocrático.
 
 Indicadores ativos:
 - **desincorporação**: 1 (corpo expressivo, alado, dinâmico)
@@ -96,7 +96,7 @@ A $5 Educational é possivelmente a nota mais bonita da história numismática a
 
 1. **Suporte burocrático** (papel-moeda estatal) + **corpo feminino semi-nu** = contradição que gera reação social
 2. **Contrato Sexual Visual** em ação: o público policia os limites do corpo feminino permitido na imagem soberana
-3. **ENDURECIMENTO como consequência**: a série foi substituída precisamente porque o corpo não era suficientemente "endurecido" para o suporte
+3. **endurecimento como consequência**: a série foi substituída precisamente porque o corpo não era suficientemente "endurecido" para o suporte
 
 ### Referências Bibliográficas
 

@@ -85,7 +85,7 @@ from typing import Any
 # ---------------------------------------------------------------------------
 
 # Canonical indicator keys per data/processed/purification.jsonl schema
-# (ASCII snake_case, no accents). ENDURECIMENTO is the UMBRELLA concept
+# (ASCII snake_case, no accents). Endurecimento is the UMBRELLA concept
 # per CLAUDE.md Mandatory Terminology — the 10 indicators below compose it.
 # Reference list only; runtime collects indicator keys dynamically from
 # each input record (see reconcile_indicators).

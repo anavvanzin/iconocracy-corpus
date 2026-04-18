@@ -24,7 +24,7 @@ related:
   - "[[Regime NORMATIVO]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Contrato Racial Visual]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[FR-021 Type Sage Paix et Commerce]]"
 hf_synced: false
 data_scout: 2026-04-11
@@ -59,7 +59,7 @@ data_scout: 2026-04-11
 - [x] postura frontal
 - [ ] contexto arquitetônico
 
-**ENDURECIMENTO detectado:** sim — dessexualização, uniformização facial, serialidade (30+ territórios com mesmo design)
+**endurecimento detectado:** sim — dessexualização, uniformização facial, serialidade (30+ territórios com mesmo design)
 
 ---
 
@@ -85,4 +85,4 @@ MOUCHON, Louis-Eugène. *Navigation et Commerce*. 1892–1920s. Selo postal colo
 
 ## Observações do Scout
 
-Item de altíssima relevância teórica. A circulação de uma mesma alegoria feminina europeia como selo postal em dezenas de territórios colonizados é um caso extremo de serialidade e inscrição estatal — dois indicadores de ENDURECIMENTO. A Navigation et Commerce materializa o Contrato Sexual Visual em escala imperial: o corpo feminino alegorizado não apenas legitima a República metropolitana, mas projeta a soberania francesa sobre corpos e territórios colonizados. Candidato forte para análise de #contrato-racial-visual e para Zwischenraum com selos metropolitanos (Type Sage, Semeuse).
+Item de altíssima relevância teórica. A circulação de uma mesma alegoria feminina europeia como selo postal em dezenas de territórios colonizados é um caso extremo de serialidade e inscrição estatal — dois indicadores de endurecimento. A Navigation et Commerce materializa o Contrato Sexual Visual em escala imperial: o corpo feminino alegorizado não apenas legitima a República metropolitana, mas projeta a soberania francesa sobre corpos e territórios colonizados. Candidato forte para análise de #contrato-racial-visual e para Zwischenraum com selos metropolitanos (Type Sage, Semeuse).

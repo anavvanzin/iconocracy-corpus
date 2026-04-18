@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.8
 hunt_source: va
@@ -38,9 +38,9 @@ Cup and cover. England. query: Britannia allegory
 
 **Motivos identificados**: Britannia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 **The Cowper Seal Cups**. ca. 1714. Victoria and Albert Museum. Disponível em: https://collections.vam.ac.uk/item/O1261189. Acesso em: 03 Apr. 2026.

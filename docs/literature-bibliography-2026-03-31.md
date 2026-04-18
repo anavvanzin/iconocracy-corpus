@@ -1,7 +1,7 @@
 # BIBLIOGRAPHY: ICONOCRACY -- Female Allegory in the History of Legal Culture (19th-20th c.)
 
 Generated 2026-03-31 by Claude Code agents. Organized by theme with ABNT-style citations.
-Works most critical for the ENDURECIMENTO framework are marked with **[CRITICAL]**.
+Works most critical for the endurecimento framework are marked with **[CRITICAL]**.
 
 ---
 
@@ -36,7 +36,7 @@ AGULHON, Maurice. **Marianne into Battle: Republican Imagery and Symbolism in Fr
 ## II. FEMALE ALLEGORY -- GENERAL THEORY
 
 **[CRITICAL]** WARNER, Marina. **Monuments and Maidens: The Allegory of the Female Form**. London: Weidenfeld and Nicolson, 1985.
-- Central paradox: "Liberty is not represented by a woman because women were and are free." Theoretical foundation for ENDURECIMENTO as a whole.
+- Central paradox: "Liberty is not represented by a woman because women were and are free." Theoretical foundation for endurecimento as a whole.
 
 RIPA, Cesare. **Iconologia, overo Descrittione dell'imagini universali cavate dall'antichita et da altri luoghi**. Roma, 1593.
 - Foundational emblem book that standardized allegorical personification. Indispensable primary source for *heraldicizacao*.
@@ -62,7 +62,7 @@ MOSSE, George L. **The Nationalization of the Masses: Political Symbolism and Ma
 ## IV. LADY JUSTICE / JUSTITIA -- LEGAL ICONOGRAPHY
 
 **[CRITICAL]** HAYAERT, Valerie. **Lady Justice: An Anatomy of Allegory**. Edinburgh: Edinburgh University Press, 2023.
-- Anatomizes Lady Justice "organ by organ, limb by limb," analyzing thousands of images from 1400-1600. The anatomical method mirrors ENDURECIMENTO indicator-by-indicator approach.
+- Anatomizes Lady Justice "organ by organ, limb by limb," analyzing thousands of images from 1400-1600. The anatomical method mirrors endurecimento indicator-by-indicator approach.
 
 HAYAERT, Valerie. The Paradoxes of Lady Justice's Blindfold. In: HUYGEBAERT, Stefan et al. (Eds.). **The Art of Law**. Cham: Springer, 2018.
 - Polysemic nature of the blindfold from Sebastian Brant's *Narrenschiff* (1494) to modern reinterpretation.
@@ -125,10 +125,10 @@ MELLINI, Peter; MATTHEWS, Roy T. From Britannia to Maggie: The Rise and Fall of 
 ## VII. WARBURG, PATHOSFORMEL, AND THE SURVIVAL OF ALLEGORICAL FORMS
 
 **[CRITICAL]** WARBURG, Aby. **Bilderatlas Mnemosyne** [1924-1929]. Edited by Martin Warnke and Claudia Brink. Berlin: Akademie Verlag, 2000.
-- *Pathosformel* -- "emotionally charged visual tropes that recur throughout images in Western Europe" -- is the direct methodological ancestor of ENDURECIMENTO indicators. The *Nympha* is the prototypical Pathosformel. The thesis tracks how the Nympha becomes Justitia.
+- *Pathosformel* -- "emotionally charged visual tropes that recur throughout images in Western Europe" -- is the direct methodological ancestor of endurecimento indicators. The *Nympha* is the prototypical Pathosformel. The thesis tracks how the Nympha becomes Justitia.
 
 DIDI-HUBERMAN, Georges. **L'image survivante: histoire de l'art et temps des fantomes selon Aby Warburg**. Paris: Minuit, 2002.
-- *Nachleben* (surviving image) explains how allegorical forms persist while undergoing transformation -- the theoretical basis for tracing ENDURECIMENTO across regimes.
+- *Nachleben* (surviving image) explains how allegorical forms persist while undergoing transformation -- the theoretical basis for tracing endurecimento across regimes.
 
 ---
 
@@ -165,7 +165,7 @@ EHNE (Encyclopedie d'histoire numerique de l'Europe). Female Allegories of the N
 
 ---
 
-## SUMMARY: CRITICAL WORKS RANKED BY RELEVANCE TO ENDURECIMENTO
+## SUMMARY: CRITICAL WORKS RANKED BY RELEVANCE TO endurecimento
 
 | Rank | Author | Work | Primary indicators |
 |------|--------|------|--------------------|

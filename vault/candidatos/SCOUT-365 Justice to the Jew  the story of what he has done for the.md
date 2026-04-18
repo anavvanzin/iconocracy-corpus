@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: loc
@@ -39,9 +39,9 @@ First published in 1899. Also available in digital form.
 
 **Motivos identificados**: Justice
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 CLINTON, peters, madison. **Justice to the Jew : the story of what he has done for the world**. 1900. Library of Congress. Disponível em: https://www.loc.gov/item/08030546/. Acesso em: 04 Apr. 2026.

@@ -28,7 +28,7 @@ tags: [rotina/R6, diario, higiene]
 - [ ] Wikilinks quebrados (Obsidian: Ctrl+P > Check broken links)
 - [ ] Referencias ABNT NBR 6023:2025 conferidas em `vault/tese/` tocados esta semana
 - [ ] Zotero sync OK
-- [ ] Terminologia mandatoria respeitada (ENDURECIMENTO, nao "hardening")
+- [ ] Terminologia mandatoria respeitada (endurecimento, nao "hardening")
 - [ ] Iconclass `48C51` presente onde cabe
 
 ## Acoes executadas

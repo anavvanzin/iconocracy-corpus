@@ -17,7 +17,7 @@ tags:
   - motivo/republica
   - #pathosformel
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[Pathosformel]]"

@@ -57,7 +57,7 @@ data_scout: 2026-04-11
 - [ ] postura frontal
 - [ ] contexto arquitetônico
 
-**ENDURECIMENTO detectado:** não — corpo ainda "vivo", perfil clássico sem rigidez institucional
+**endurecimento detectado:** não — corpo ainda "vivo", perfil clássico sem rigidez institucional
 
 ---
 
@@ -82,4 +82,4 @@ BARRE, Jacques-Jean. *Cérès — Première Émission*. 1849. Selo postal. Dispo
 
 ## Observações do Scout
 
-Primeiro selo da República Francesa — marco zero da iconocracia filatélica. A transição Cérès (1849, FUNDACIONAL) → Type Sage (1876, NORMATIVO) → Semeuse (1903, NORMATIVO avançado) constitui uma série completa de ENDURECIMENTO dentro de um mesmo suporte (selo) e país (FR). A re-emissão de Cérès em 1938 representa um *Nachleben* — retorno do Pathosformel fundacional em momento de crise (ante-guerra). Essencial para Zwischenraum com a Cérès portuguesa (1912) — mesmo motivo, mesma deusa, diferentes projetos republicanos.
+Primeiro selo da República Francesa — marco zero da iconocracia filatélica. A transição Cérès (1849, FUNDACIONAL) → Type Sage (1876, NORMATIVO) → Semeuse (1903, NORMATIVO avançado) constitui uma série completa de endurecimento dentro de um mesmo suporte (selo) e país (FR). A re-emissão de Cérès em 1938 representa um *Nachleben* — retorno do Pathosformel fundacional em momento de crise (ante-guerra). Essencial para Zwischenraum com a Cérès portuguesa (1912) — mesmo motivo, mesma deusa, diferentes projetos republicanos.

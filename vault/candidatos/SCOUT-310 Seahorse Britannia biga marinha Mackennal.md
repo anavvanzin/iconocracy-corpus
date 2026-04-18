@@ -16,7 +16,7 @@ tags:
   - regime/militar
   - motivo/britannia
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-093]]"
 data_scout: 2026-03-30
@@ -29,11 +29,11 @@ data_scout: 2026-03-30
 
 ### Descrição iconográfica
 
-Britannia conduzindo biga puxada por três cavalos marinhos. Tridente + escudo com Union Jack. Cabeça de George V no canto. ENDURECIMENTO MILITAR máximo no suporte selo postal britânico.
+Britannia conduzindo biga puxada por três cavalos marinhos. Tridente + escudo com Union Jack. Cabeça de George V no canto. Endurecimento MILITAR máximo no suporte selo postal britânico.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**SIM** — Dinamismo COMO forma de ENDURECIMENTO: a ação é MILITAR, não livre. Dessexualizacao completa (armadura, capacete). Inscrição estatal dupla (rei + alegoria co-presentes).
+**SIM** — Dinamismo COMO forma de endurecimento: a ação é MILITAR, não livre. Dessexualizacao completa (armadura, capacete). Inscrição estatal dupla (rei + alegoria co-presentes).
 
 ### Citação ABNT
 

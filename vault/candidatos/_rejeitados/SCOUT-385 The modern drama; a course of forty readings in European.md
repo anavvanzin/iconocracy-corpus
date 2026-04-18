@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -39,9 +39,9 @@ At head of title: Columbia university in the city of New York. Also available in
 
 **Motivos identificados**: Columbia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 WHITE, burrill, edgar. **The modern drama; a course of forty readings in European and American drama beginning with Ibsen and continuing to the present day,**. 1920. Library of Congress. Disponível em: https://www.loc.gov/item/20007282/. Acesso em: 04 Apr. 2026.

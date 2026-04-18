@@ -16,7 +16,7 @@ tags:
 updated: 2026-03-29
 related:
   - "[[numen mixtum]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[Palais de Justice Bruxelles]]"
@@ -103,7 +103,7 @@ Van der Stappen contribuiu com sua Minerva/Themis hibrida, que materializa o con
 
 Huygebaert argumenta que a confusao entre Justice, Minerve e Themis **nao e acidental nem recente**, mas deve ser vista como um ***numen mixtum*** -- uma **sintese iconografica deliberada de duas divindades**. O caso do logo Larcier e paradigmatico: desde o final do seculo XIX, uma deusa com capacete e espada adorna as publicacoes juridicas da editora, frequentemente vista como Justitia, embora claramente represente Athena/Minerva.
 
-> **Relevancia para ICONOCRACY:** O fenomeno do *numen mixtum* e um indicador de ENDURECIMENTO. Quando figuras alegoricas distintas se fundem num unico tipo iconografico, ocorre **uniformizacao_facial** e **dessexualizacao** -- duas figuras com funcoes e atributos corporais distintos convergem para uma imagem normalizada, perdendo suas especificidades narrativas e corporais. Este e um caso exemplar de **apagamento_narrativo** (a historia mitologica especifica de cada divindade se dissolve na funcao generica de "alegoria juridica").
+> **Relevancia para ICONOCRACY:** O fenomeno do *numen mixtum* e um indicador de endurecimento. Quando figuras alegoricas distintas se fundem num unico tipo iconografico, ocorre **uniformizacao_facial** e **dessexualizacao** -- duas figuras com funcoes e atributos corporais distintos convergem para uma imagem normalizada, perdendo suas especificidades narrativas e corporais. Este e um caso exemplar de **apagamento_narrativo** (a historia mitologica especifica de cada divindade se dissolve na funcao generica de "alegoria juridica").
 
 ---
 
@@ -183,7 +183,7 @@ HUYGEBAERT, Stefan; VAN REMOORTEL, Marianne. From picturesque anecdote to viral 
 
 | Tema Huygebaert | Conceito ICONOCRACY | Observacao |
 |---|---|---|
-| *Numen mixtum* (fusao Themis/Minerva/Justitia) | ENDURECIMENTO: uniformizacao_facial, apagamento_narrativo | A fusao de divindades distintas num tipo unico e forma de ENDURECIMENTO |
+| *Numen mixtum* (fusao Themis/Minerva/Justitia) | endurecimento: uniformizacao_facial, apagamento_narrativo | A fusao de divindades distintas num tipo unico e forma de endurecimento |
 | Transicao historismo → simbolismo | Regime FUNDACIONAL → NORMATIVO | Passagem do corpo narrativo-historico ao corpo alegorico-abstrato |
 | Simbiose direito-arte (Picard) | Contrato sexual visual | O corpo feminino alegorico como mediador entre poder juridico e estetica |
 | Logo Larcier como marca | Regime NORMATIVO: serialidade, inscricao_estatal | Alegoria feminina burocratizada em suporte normativo |
@@ -193,7 +193,7 @@ HUYGEBAERT, Stefan; VAN REMOORTEL, Marianne. From picturesque anecdote to viral 
 
 1. **Moedas e medalhas belgas:** verificar na tese completa se ha capitulo especifico sobre numismatica #verificar
 2. **Iconografia colonial belga:** Huygebaert aborda alegorias coloniais? Relevante para a categoria "La Belgique, constitutional and colonial allegories" #verificar
-3. **Imagens especificas:** obter reproducoes das propostas de Ducaju, Van der Stappen e Dillens para analise de ENDURECIMENTO #verificar
+3. **Imagens especificas:** obter reproducoes das propostas de Ducaju, Van der Stappen e Dillens para analise de endurecimento #verificar
 4. **Texto completo da tese:** solicitar acesso via biblio.ugent.be ou contato direto com o autor #verificar
 
 ---
@@ -234,7 +234,7 @@ Os projetos de Ducaju, Dillens e Van der Stappen sao objetos **nao catalogados**
 - **Pais:** BE
 - **Motivo:** Themis (com atributos minervianos — capacete)
 - **Regime hipotetico:** NORMATIVO
-- **Indicadores ENDURECIMENTO:** heraldizacao, enquadramento_arquitetonico, rigidez_postural
+- **Indicadores endurecimento:** heraldizacao, enquadramento_arquitetonico, rigidez_postural
 - **Flag:** #verificar #verificar-imagem
 
 ### Candidato B: Projeto de Charles Van der Stappen — Minerva/Themis (numen mixtum, c. 1886-1894)
@@ -243,7 +243,7 @@ Os projetos de Ducaju, Dillens e Van der Stappen sao objetos **nao catalogados**
 - **Pais:** BE
 - **Motivo:** Themis / Minerva (figura hibrida / numen mixtum)
 - **Regime hipotetico:** NORMATIVO / FUNDACIONAL (limiar)
-- **Indicadores ENDURECIMENTO:** uniformizacao_facial, apagamento_narrativo, dessexualizacao
+- **Indicadores endurecimento:** uniformizacao_facial, apagamento_narrativo, dessexualizacao
 - **Flag:** #verificar #verificar-imagem
 
 ### Candidato C: "La Justice entre la Clemence et le Droit" (Julien Dillens, Palais de Justice, 1894)
@@ -252,7 +252,7 @@ Os projetos de Ducaju, Dillens e Van der Stappen sao objetos **nao catalogados**
 - **Pais:** BE
 - **Motivo:** Justitia (variante "desviante" — iconografia nao-convencional)
 - **Regime hipotetico:** NORMATIVO (contexto), com morfologia limiar
-- **Indicadores ENDURECIMENTO:** a verificar — iconografia descrita como "desviante" pode indicar RESISTENCIA ao ENDURECIMENTO
+- **Indicadores endurecimento:** a verificar — iconografia descrita como "desviante" pode indicar RESISTENCIA ao endurecimento
 - **Flag:** #verificar #verificar-imagem
 
 ### Candidato D: Projetos do concurso para monumento constitucional (Bruxelas, 1849)

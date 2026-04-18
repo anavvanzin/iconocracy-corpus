@@ -143,7 +143,7 @@ Release snapshot for `{dataset_repo}` built from the local `iconocracy-corpus` r
 - Canonical records: **{stats['records_items']}**
 - Coded items: **{stats['coded_items']}**
 - Countries represented: **{stats['country_count']}**
-- Mean ENDURECIMENTO score: **{mean_score}**
+- Mean endurecimento score: **{mean_score}**
 - Master-record schema versions: `{schema_versions}`
 
 ## Contract

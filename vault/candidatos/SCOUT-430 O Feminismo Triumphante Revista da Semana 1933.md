@@ -16,7 +16,7 @@ tags:
   - regime/fundacional
   - #contra-alegoria
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[contra-alegoria]]"

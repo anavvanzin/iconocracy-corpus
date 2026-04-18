@@ -16,7 +16,7 @@ class CompareIconocracyEvalRunsTests(unittest.TestCase):
                     "id": "guardrails-1",
                     "category": "guardrails",
                     "prompt": "Pergunta A",
-                    "expectations": ["Não traduzir ENDURECIMENTO"],
+                    "expectations": ["Não traduzir endurecimento"],
                     "model": "model-a",
                     "adapter": None,
                     "response": "Resposta A",
@@ -29,7 +29,7 @@ class CompareIconocracyEvalRunsTests(unittest.TestCase):
                     "id": "guardrails-1",
                     "category": "guardrails",
                     "prompt": "Pergunta A",
-                    "expectations": ["Não traduzir ENDURECIMENTO"],
+                    "expectations": ["Não traduzir endurecimento"],
                     "model": "model-b",
                     "adapter": "/tmp/adapter",
                     "response": "Resposta B",
@@ -49,7 +49,7 @@ class CompareIconocracyEvalRunsTests(unittest.TestCase):
             "guardrails-1": {
                 "prompt": "Pergunta A",
                 "category": "guardrails",
-                "expectations": ["Não traduzir ENDURECIMENTO"],
+                "expectations": ["Não traduzir endurecimento"],
                 "runs": [
                     {
                         "model": "model-a",
@@ -76,7 +76,7 @@ class CompareIconocracyEvalRunsTests(unittest.TestCase):
         self.assertIn("Pergunta A", markdown)
         self.assertIn("#### model-a", markdown)
         self.assertIn("#### openrouter:model-b + adapter=/tmp/adapter", markdown)
-        self.assertIn("Não traduzir ENDURECIMENTO", markdown)
+        self.assertIn("Não traduzir endurecimento", markdown)
         self.assertIn("Resposta B", markdown)
 
 

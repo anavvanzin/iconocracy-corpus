@@ -44,7 +44,7 @@ Warburg's key quote (1924 library inauguration): "The question of the influence 
 
 The definitive English-language monograph on the Atlas. Key: the Atlas is "not simply the culmination of Warburg's lifelong study but the ultimate expression of his search for syncretic solutions." The Atlas makes "visible the many polarities that fueled antiquity's afterlife."
 
-**For the thesis:** The 8 Atlas panels (Gênese → Justitia → Domesticação → ENDURECIMENTO → Pedra e Bronze → Balança e Império → Branquitude → Fissuras) ARE the thesis's Bilderatlas. Each panel is a Warburgian arrangement of images revealing polarities.
+**For the thesis:** The 8 Atlas panels (Gênese → Justitia → Domesticação → endurecimento → Pedra e Bronze → Balança e Império → Branquitude → Fissuras) ARE the thesis's Bilderatlas. Each panel is a Warburgian arrangement of images revealing polarities.
 
 ### 6. MORETTI / Totentanz (2017, 20 cit.)
 **"Operationalizing Aby Warburg's Pathosformeln."** *New Left Review.*
@@ -106,7 +106,7 @@ Argues the Atlas "aims to eliminate magic and reveal the hidden plot that seeks 
 | Silverman builds feminist atlas for lactation | **Builds feminist atlas for state-deployed female body** |
 | Digitization projects reproduce the Atlas | **Creates a NEW Atlas with original panels (ZW-01 to ZW-23)** |
 | No study connects Warburg to numismatics | **Coins and stamps as primary corpus — serialidade as Warburgian category** |
-| No study connects Pathosformel to measurable ENDURECIMENTO | **ENDURECIMENTO score = quantified Pathosformel mutation** |
+| No study connects Pathosformel to measurable endurecimento | **endurecimento score = quantified Pathosformel mutation** |
 
 ---
 
@@ -144,7 +144,7 @@ Argues the Atlas "aims to eliminate magic and reveal the hidden plot that seeks 
 
 ### The 10 indicators as operationalized Pathosformel
 
-Warburg never quantified the Pathosformel. Moretti (2017) attempted computational operationalization. The thesis proposes a **human-coded ordinal operationalization**: the 10 purification indicators measure HOW a Pathosformel mutates (hardens/softens) across regimes. The ENDURECIMENTO score is the mean mutation index.
+Warburg never quantified the Pathosformel. Moretti (2017) attempted computational operationalization. The thesis proposes a **human-coded ordinal operationalization**: the 10 purification indicators measure HOW a Pathosformel mutates (hardens/softens) across regimes. The endurecimento score is the mean mutation index.
 
 This positions the thesis at the intersection of:
 - Warburg studies (theoretical framework)

@@ -232,7 +232,7 @@ Document these lanes:
 **Step 2: Define evaluation questions**
 
 For each model, review:
-- ENDURECIMENTO preservation
+- Endurecimento preservation
 - Mondzain / Feminilidade de Estado guardrail
 - QUAN→QUAL→síntese explanation
 - corpus traceability correctness

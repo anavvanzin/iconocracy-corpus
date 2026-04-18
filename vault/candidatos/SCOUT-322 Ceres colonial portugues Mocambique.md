@@ -16,7 +16,7 @@ tags:
   - regime/normativo
   - "#colonialidade-do-ver"
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[SCOUT-308]]"
   - "[[SCOUT-317]]"
 data_scout: 2026-03-30
@@ -31,7 +31,7 @@ data_scout: 2026-03-30
 
 Cérès de pé com foice e feixe de trigo. Primeira emissão após República (1910). Substitui retrato de Manuel II. Corpo feminino SUBSTITUI corpo real masculino (monarquia → república via alegoria feminina).
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
 **SIM** — CLONAGEM IMPERIAL. Mesmo design de Lisboa a Timor, 33 anos. Três impérios (FR, UK, PT), três alegorias CLONADAS. PT não substitui (até 1945) vs. FR que indigeniza (1907).
 

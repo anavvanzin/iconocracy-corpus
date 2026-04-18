@@ -54,7 +54,7 @@ data_scout: 2026-04-04
 
 A peça faz parte de uma coleção acadêmica curada ("Relics & Selves") que estuda precisamente como a iconografia visual construiu identidades nacionais na América do Sul.
 
-**ENDURECIMENTO detectado:** incerto — necessita análise visual.
+**endurecimento detectado:** incerto — necessita análise visual.
 
 ---
 

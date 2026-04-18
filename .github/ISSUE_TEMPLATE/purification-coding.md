@@ -1,6 +1,6 @@
 ---
 name: Purification coding
-about: Track ENDURECIMENTO coding, recoding, or codebook follow-up.
+about: Track endurecimento coding, recoding, or codebook follow-up.
 title: "[coding] "
 labels: coding
 assignees: ""

@@ -19,9 +19,9 @@ Artigo C  Dados ║   Dados       Síntese    Draft I    Draft II   Revisão    
 Legenda: ║ = mapa conceitual + coleção de fontes
 ```
 
-## Artigo A — Contrato Sexual Visual & ENDURECIMENTO
+## Artigo A — Contrato Sexual Visual & endurecimento
 
-- **Tese**: o ENDURECIMENTO funciona como operador do Contrato Sexual Visual ao transformar reconhecimento simbólico em exclusão política.
+- **Tese**: o endurecimento funciona como operador do Contrato Sexual Visual ao transformar reconhecimento simbólico em exclusão política.
 - **Estrutura**:
   1. Cena inicial: Marianne selo tipo Blanc vs. Justiça de Ceschiatti.
   2. Teoria: Pateman (1988), Mondzain (2002), Goodrich (2017), Legendre (2004).

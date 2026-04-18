@@ -19,7 +19,7 @@ tags:
   - regime/fundacional
   - motivo/republica
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-316 500 Reis Republica Brasil 1889]]"
@@ -61,7 +61,7 @@ data_scout: 2026-04-11
 - [ ] balança
 - [ ] espada
 
-**ENDURECIMENTO detectado:** sim, mas em nível intermediário típico do período fundacional
+**endurecimento detectado:** sim, mas em nível intermediário típico do período fundacional
 
 **Indicadores de purificação (descrição SCOUT):**
 1. **desincorporação** alta: apenas busto, sem corpo visível — redução a cabeça + pescoço + ombro
@@ -100,7 +100,7 @@ CASA DA MOEDA DO BRASIL. *2000 Réis — Efígie da Liberdade Laureada*. 1891. M
 
 **Lacuna preenchida: BR / FUNDACIONAL / moeda.** Esta era a lacuna de mais alta prioridade no corpus brasileiro, conforme análise de `lacunas.py`. A 2000 Réis de 1891–1897 (KM# 498) preenche exatamente esta célula da matriz: Brasil, regime FUNDACIONAL, suporte moeda.
 
-**Distinção crucial com BR-2000R-1907.** O corpus já possui a 2000 Réis de 1906–1912 (KM# 508, catalogada como BR-2000R-1907, regime NORMATIVO). A presente peça é de uma série completamente diferente: anterior no tempo, superior em pureza de prata (.917 vs. .900), maior em diâmetro (37mm vs. 33mm) e peso (25,50g vs. 20,00g), e com programa iconográfico distinto. A transição de KM# 498 para KM# 508 é em si mesma uma demonstração do ENDURECIMENTO: a alegoria é reduzida em tamanho, em pureza metálica, e integrada num programa mais burocrático.
+**Distinção crucial com BR-2000R-1907.** O corpus já possui a 2000 Réis de 1906–1912 (KM# 508, catalogada como BR-2000R-1907, regime NORMATIVO). A presente peça é de uma série completamente diferente: anterior no tempo, superior em pureza de prata (.917 vs. .900), maior em diâmetro (37mm vs. 33mm) e peso (25,50g vs. 20,00g), e com programa iconográfico distinto. A transição de KM# 498 para KM# 508 é em si mesma uma demonstração do endurecimento: a alegoria é reduzida em tamanho, em pureza metálica, e integrada num programa mais burocrático.
 
 **Série diacrônica reconstruída.** Com esta adição, o corpus passa a ter a seguinte sequência numismática republicana brasileira:
 
@@ -120,4 +120,4 @@ A série demonstra a hipótese central da tese: a progressiva purificação da a
 
 **Referência bibliográfica relevante:** Bentes, R. M. *Moedas Brasileiras: Livro Oficial*. 9. ed. Ischia: MBA Editores, 2023. Verificar entrada para KM# 498.
 
-**Nota sobre a fundição:** A maioria dos 2000 Réis desta série foi enviada à Grã-Bretanha e fundida para pagar dívidas do Império — o que significa que a alegoria republicana fundacional foi literalmente dissolvida pelo credor imperial. Há aqui uma metáfora material para o ENDURECIMENTO: o corpo alegórico fundacional é consumido, e o que permanece em circulação é a versão domesticada posterior.
+**Nota sobre a fundição:** A maioria dos 2000 Réis desta série foi enviada à Grã-Bretanha e fundida para pagar dívidas do Império — o que significa que a alegoria republicana fundacional foi literalmente dissolvida pelo credor imperial. Há aqui uma metáfora material para o endurecimento: o corpo alegórico fundacional é consumido, e o que permanece em circulação é a versão domesticada posterior.

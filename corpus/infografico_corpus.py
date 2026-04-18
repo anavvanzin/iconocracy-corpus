@@ -103,7 +103,7 @@ def main():
             else:
                 decade_regime[f"{(y // 10) * 10}s"][r] += 1
 
-    # ENDURECIMENTO por regime
+    # endurecimento por regime
     regime_scores = defaultdict(list)
     for item in items:
         r = get_regime(item)
@@ -152,7 +152,7 @@ def main():
         (f"{n}", "itens catalogados"),
         ("15", "paises"),
         ("1239-1975", "periodo"),
-        ("1.42", "ENDURECIMENTO medio"),
+        ("1.42", "endurecimento medio"),
     ]
     box_width = 0.18
     start_x = 0.5 - (len(kpis) * box_width + (len(kpis) - 1) * 0.03) / 2
@@ -247,7 +247,7 @@ def main():
             arrowprops=dict(arrowstyle="->", color=COLORS["militar"], lw=1.5),
         )
 
-    # ── D: ENDURECIMENTO por regime ─────────────────────────────
+    # ── D: endurecimento por regime ─────────────────────────────
     ax_d = fig.add_subplot(gs[3, 0])
     regime_display_order = ["contra-alegoria", "fundacional", "militar", "normativo"]
     d_means = [np.mean(regime_scores[r]) if regime_scores[r] else 0 for r in regime_display_order]
@@ -264,7 +264,7 @@ def main():
 
     ax_d.set_ylim(0, 3.2)
     ax_d.set_ylabel("Score medio (0-3)", fontsize=11)
-    ax_d.set_title("D. ENDURECIMENTO por regime", fontsize=14, fontweight="bold",
+    ax_d.set_title("D. Endurecimento por regime", fontsize=14, fontweight="bold",
                     color=ACCENT, loc="left", pad=10)
     ax_d.spines[["top", "right"]].set_visible(False)
     ax_d.yaxis.grid(True, color=GRID_COLOR, linewidth=0.5, alpha=0.7)
@@ -302,7 +302,7 @@ def main():
     ax_f.set_yticks([0.5, 1.0, 1.5, 2.0, 2.5, 3.0])
     ax_f.set_yticklabels(["0.5", "1.0", "1.5", "2.0", "2.5", "3.0"],
                           fontsize=8, color="#999999")
-    ax_f.set_title("F. Media dos 10 indicadores de ENDURECIMENTO", fontsize=14,
+    ax_f.set_title("F. Media dos 10 indicadores de endurecimento", fontsize=14,
                     fontweight="bold", color=ACCENT, loc="left", pad=20, x=-0.05)
     ax_f.spines["polar"].set_color(GRID_COLOR)
     ax_f.grid(color=GRID_COLOR, linewidth=0.5)

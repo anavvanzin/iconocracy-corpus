@@ -17,7 +17,7 @@ tags:
   - motivo/republica
   - #verificar-imagem
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
 data_scout: 2026-04-13

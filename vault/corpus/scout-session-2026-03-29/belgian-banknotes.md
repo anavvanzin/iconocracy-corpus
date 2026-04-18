@@ -12,7 +12,7 @@ tags:
 related:
   - "[[DB1 Corpus Iconografico]]"
   - "[[IconoCode -- Protocolo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Regime NORMATIVO]]"
 ---
 
@@ -65,7 +65,7 @@ tags:
   - motivo/cornucopia
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato sexual visual]]"
   - "[[BE-001]]"
 data_scout: 2026-03-29
@@ -101,7 +101,7 @@ data_scout: 2026-03-29
 - [x] escudo/brasao (monograma real)
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** sim -- rigidez_postural (postura controlada, frontal), dessexualizacao (corpo coberto, sem dinamismo), serialidade (cedula de alta tiragem), inscricao_estatal (emissao do banco central), monocromatizacao (verde-oliva sobre policromia suave).
+**endurecimento detectado:** sim -- rigidez_postural (postura controlada, frontal), dessexualizacao (corpo coberto, sem dinamismo), serialidade (cedula de alta tiragem), inscricao_estatal (emissao do banco central), monocromatizacao (verde-oliva sobre policromia suave).
 
 ---
 
@@ -161,7 +161,7 @@ tags:
   - motivo/agricultura
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[SCOUT-080]]"
 data_scout: 2026-03-29
 ---
@@ -195,7 +195,7 @@ data_scout: 2026-03-29
 - [x] escudo/brasao (brasoes das 9 provincias belgas no reverso)
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** sim -- uniformizacao_facial (faces idealizadas, sem individualidade), heraldizacao (brasoes provinciais), serialidade (tipo mantido por decadas), inscricao_estatal (emissao BNB), dessexualizacao (figuras classicamente vestidas).
+**endurecimento detectado:** sim -- uniformizacao_facial (faces idealizadas, sem individualidade), heraldizacao (brasoes provinciais), serialidade (tipo mantido por decadas), inscricao_estatal (emissao BNB), dessexualizacao (figuras classicamente vestidas).
 
 ---
 
@@ -255,7 +255,7 @@ tags:
   - motivo/abundancia
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[SCOUT-080]]"
   - "[[Contrato sexual visual]]"
 data_scout: 2026-03-29
@@ -291,7 +291,7 @@ data_scout: 2026-03-29
 - [ ] contexto arquitetonico
 - [x] elementos vegetais/florais
 
-**ENDURECIMENTO detectado:** incerto -- a postura reclinada sugere menor rigidez_postural que o habitual no regime NORMATIVO, porem ha dessexualizacao (corpo coberto), uniformizacao_facial (rosto idealizado), serialidade e inscricao_estatal. Possivel caso de ENDURECIMENTO incompleto -- a cedula preserva uma sensualidade controlada herdada da tradicao Art Nouveau.
+**endurecimento detectado:** incerto -- a postura reclinada sugere menor rigidez_postural que o habitual no regime NORMATIVO, porem ha dessexualizacao (corpo coberto), uniformizacao_facial (rosto idealizado), serialidade e inscricao_estatal. Possivel caso de endurecimento incompleto -- a cedula preserva uma sensualidade controlada herdada da tradicao Art Nouveau.
 
 ---
 
@@ -353,7 +353,7 @@ tags:
   - motivo/art-nouveau
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Art Nouveau e alegoria]]"
   - "[[BE-002]]"
 data_scout: 2026-03-29
@@ -390,7 +390,7 @@ data_scout: 2026-03-29
 - [x] livro/texto legal
 - [x] leao (leao belga alado)
 
-**ENDURECIMENTO detectado:** sim -- rigidez_postural (postura frontal, ritual), dessexualizacao (vestimenta integral), heraldizacao (leao belga), inscricao_estatal (texto punitivo: "a Lei pune o falsificador"), enquadramento_arquitetonico (escadaria).
+**endurecimento detectado:** sim -- rigidez_postural (postura frontal, ritual), dessexualizacao (vestimenta integral), heraldizacao (leao belga), inscricao_estatal (texto punitivo: "a Lei pune o falsificador"), enquadramento_arquitetonico (escadaria).
 
 ---
 
@@ -454,7 +454,7 @@ tags:
   - motivo/art-nouveau
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Minerva como alegoria juridica]]"
   - "[[SCOUT-083]]"
 data_scout: 2026-03-29
@@ -492,7 +492,7 @@ data_scout: 2026-03-29
 - [x] leao (leao belga)
 - [x] ferramentas/instrumentos de trabalho
 
-**ENDURECIMENTO detectado:** sim -- rigidez_postural (Minerva em postura de autoridade), dessexualizacao (vestimenta completa), heraldizacao (leao belga), inscricao_estatal (texto "Travail - Economie").
+**endurecimento detectado:** sim -- rigidez_postural (Minerva em postura de autoridade), dessexualizacao (vestimenta completa), heraldizacao (leao belga), inscricao_estatal (texto "Travail - Economie").
 
 ---
 
@@ -550,7 +550,7 @@ tags:
   - motivo/art-nouveau
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato sexual visual]]"
   - "[[SCOUT-083]]"
 data_scout: 2026-03-29
@@ -586,7 +586,7 @@ data_scout: 2026-03-29
 - [ ] contexto arquitetonico
 - [x] elementos vegetais/agricolas
 
-**ENDURECIMENTO detectado:** incerto -- as figuras estao em atividade (menos rigidez_postural), mas ha uniformizacao_facial, serialidade, e inscricao_estatal. Possivel transicao entre estetica Art Nouveau (fluida, organica) e ENDURECIMENTO normativo.
+**endurecimento detectado:** incerto -- as figuras estao em atividade (menos rigidez_postural), mas ha uniformizacao_facial, serialidade, e inscricao_estatal. Possivel transicao entre estetica Art Nouveau (fluida, organica) e endurecimento normativo.
 
 ---
 
@@ -643,7 +643,7 @@ tags:
 related:
   - "[[SCOUT-083]]"
   - "[[SCOUT-080]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato sexual visual]]"
   - "[[Regime NORMATIVO]]"
 data_scout: 2026-03-29
@@ -668,9 +668,9 @@ Este painel estabelece o espaco de tensao (*Zwischenraum*) entre duas manifestac
 | **Denominacao** | 50 Francs | 1000 Francs / 200 Belgas |
 | **Regime** | NORMATIVO (Art Nouveau) | NORMATIVO (guerra) |
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-Entre 1919 e 1943, o corpo alegorico feminino na cedula belga sofre ENDURECIMENTO em multiplos eixos:
+Entre 1919 e 1943, o corpo alegorico feminino na cedula belga sofre endurecimento em multiplos eixos:
 
 - **rigidez_postural**: as mulheres-Lei de 1919 estao em relacao dinamica com o livro e a escadaria (corpos em acao, segurando, abrindo); a La Belgique de 1943 esta sentada/reclinada em postura estatica, passiva, receptora.
 - **dessexualizacao**: ambas sao vestidas, mas em 1919 ha vitalidade Art Nouveau (linhas curvas, floresta, organicidade); em 1943 o corpo e pura funcao institucional.
@@ -678,7 +678,7 @@ Entre 1919 e 1943, o corpo alegorico feminino na cedula belga sofre ENDURECIMENT
 - **heraldizacao**: em 1919 o leao alado e companheiro; em 1943 os medalhoes reais dominam e subordinam a alegoria.
 - **apagamento_narrativo**: em 1919 ha narrativa (mulheres seguram livro da Lei num cenario); em 1943 a figura e isolada, descontextualizada, pura personificacao sem cena.
 
-O transito de 1919 a 1943 demonstra que o ENDURECIMENTO nao e apenas efetica militar (regime MILITAR) -- ele ocorre tambem dentro do proprio regime NORMATIVO, acelerado pelo contexto de guerra e ocupacao.
+O transito de 1919 a 1943 demonstra que o endurecimento nao e apenas efetica militar (regime MILITAR) -- ele ocorre tambem dentro do proprio regime NORMATIVO, acelerado pelo contexto de guerra e ocupacao.
 
 ### 2. O Contrato Sexual Visual
 
@@ -688,9 +688,9 @@ A inscricao de 1919 -- "A Lei pune o falsificador com trabalho forcado" -- faz d
 
 ### 3. Sintese para a Tese
 
-Este transito belga demonstra com precisao o argumento central da tese: a cultura juridica altera a morfologia de suas alegorias em resposta a crises de legitimacao. A Belgica de 1919 (pos-Grande Guerra, reconstrucao nacional, Belle Epoque tardia) precisa de uma Lei viva, ativa, que anuncia sua propria autoridade. A Belgica de 1943 (ocupacao nazista, soberania suspensa) precisa de uma nacao-mulher silenciosa, receptiva, que aguarda a restauracao. O ENDURECIMENTO nao e estetico -- e politico.
+Este transito belga demonstra com precisao o argumento central da tese: a cultura juridica altera a morfologia de suas alegorias em resposta a crises de legitimacao. A Belgica de 1919 (pos-Grande Guerra, reconstrucao nacional, Belle Epoque tardia) precisa de uma Lei viva, ativa, que anuncia sua propria autoridade. A Belgica de 1943 (ocupacao nazista, soberania suspensa) precisa de uma nacao-mulher silenciosa, receptiva, que aguarda a restauracao. O endurecimento nao e estetico -- e politico.
 
-Para a dissertacao, este painel pode ser posicionado no capitulo sobre o regime NORMATIVO como demonstracao de que o ENDURECIMENTO e interno ao proprio regime, e nao apenas transicao entre regimes.
+Para a dissertacao, este painel pode ser posicionado no capitulo sobre o regime NORMATIVO como demonstracao de que o endurecimento e interno ao proprio regime, e nao apenas transicao entre regimes.
 ```
 
 ---

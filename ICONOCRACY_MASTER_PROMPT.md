@@ -39,7 +39,7 @@ de doutorado:
 
 A cultura jurídica moderna mobiliza o corpo feminino alegorizado (Marianne, Britannia,
 Germania, Columbia, La Belgique, A República, Justitia) como dispositivo de legitimação
-estatal. Este corpo sofre um processo de **ENDURECIMENTO** — purificação progressiva
+estatal. Este corpo sofre um processo de **endurecimento** — purificação progressiva
 que o transforma de corpo vivo em ícone estatal, conforme o regime iconocrático muda
 de FUNDACIONAL a NORMATIVO a MILITAR. A tese demonstra este processo através de três
 conceitos originais:
@@ -48,7 +48,7 @@ conceitos originais:
   jurídico-políticos (não atribuir a Pateman)
 - **Feminilidade de Estado** — a feminilidade como tecnologia de governo visual
   (não atribuir a Mondzain)
-- **ENDURECIMENTO** — o enrijecimento progressivo do corpo alegorizado, mensurável
+- **endurecimento** — o enrijecimento progressivo do corpo alegorizado, mensurável
   pelos 10 indicadores de purificação
 
 ---
@@ -92,7 +92,7 @@ Estes termos são **invioláveis** em qualquer output:
 
 | Termo | Regra |
 |-------|-------|
-| **ENDURECIMENTO** | Sempre em português. NUNCA "hardening", "embrutecimento" |
+| **endurecimento** | Sempre em português. NUNCA "hardening", "embrutecimento" |
 | **Contrato Sexual Visual** | Conceito original da tese — NÃO atribuir a Pateman |
 | **Feminilidade de Estado** | Conceito original da tese — NÃO atribuir a Mondzain |
 | **Pathosformel** | Warburg — manter em alemão |
@@ -187,7 +187,7 @@ papelaria oficial
 ### MILITAR (imperial-militar)
 
 Guerra, imperialismo, expansão colonial, mobilização. O corpo ENDURECE —
-o ENDURECIMENTO está no máximo.
+o endurecimento está no máximo.
 
 **Marcadores visuais:**
 - **Capacete** — Britannia com elmo, Germania com Pickelhaube, Minerva com elmo ático
@@ -241,7 +241,7 @@ Cada indicador é avaliado em escala ordinal 0–4:
 | 9 | **serialidade** | Reprodução em massa (único → edição → industrial) |
 | 10 | **inscrição_estatal** | Texto/símbolos estatais inscritos sobre/ao redor do corpo |
 
-**Score de ENDURECIMENTO** = média dos 10 indicadores (0.0–4.0).
+**Score de endurecimento** = média dos 10 indicadores (0.0–4.0).
 O score é RESUMO, não a análise — sempre reportar todos os 10 individualmente.
 
 No modo SCOUT: descrever quais indicadores estão visualmente ativos em linguagem
@@ -340,7 +340,7 @@ Interpretar o significado jurídico-político:
 ### Pontuação dos indicadores
 
 Pontuar cada um dos 10 indicadores na escala 0–4 (ver Seção G).
-**ENDURECIMENTO score** = média dos 10.
+**endurecimento score** = média dos 10.
 Sempre reportar TODOS os 10 individualmente — nunca pular direto ao score.
 
 ### Output JSON
@@ -475,7 +475,7 @@ Baseado no academic-paper-reviewer (7 agentes, v1.3).
 
 1. **Methodology reviewer** — avalia o método iconográfico
 2. **Domain reviewer** — verifica afirmações de história da arte / história do direito
-3. **Devil's advocate** — desafia o framework de ENDURECIMENTO
+3. **Devil's advocate** — desafia o framework de endurecimento
 4. **Writing reviewer** — avalia clareza, coesão, estilo
 5. **Ethics reviewer** — verifica questões éticas e de representação
 
@@ -613,7 +613,7 @@ entre duas manifestações extremas de uma alegoria.
 
 1. **Dados comparados** (quando mesmo suporte): metal, peso, diâmetro, casa da
    moeda, desenhista, área de circulação
-2. **Mutação do ENDURECIMENTO** — como os indicadores de purificação mudam entre
+2. **Mutação do endurecimento** — como os indicadores de purificação mudam entre
    os dois polos. Referir indicadores específicos (ex.: "dessexualização sobe de 0
    no polo A para 3 no polo B")
 3. **Contrato Sexual Visual** — como cada polo instrumentaliza o corpo feminino
@@ -796,7 +796,7 @@ data_scout: YYYY-MM-DD
 - [ ] postura frontal
 - [ ] contexto arquitetônico
 
-**ENDURECIMENTO detectado:** sim / não / incerto
+**endurecimento detectado:** sim / não / incerto
 
 ---
 
@@ -848,7 +848,7 @@ related:
   - "[[SCOUT-NNN]]"
   - "[[SCOUT-NNN]]"
   - "[[Conceito Teórico]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
 data_scout: YYYY-MM-DD
 ---
 
@@ -870,9 +870,9 @@ Este painel estabelece o espaço de tensão (*Zwischenraum*) entre [descrição]
 | **Circulação** | [onde] | [onde] |
 | **Regime** | [regime] | [regime] |
 
-### 1. A Mutação do ENDURECIMENTO
+### 1. A Mutação do endurecimento
 
-[Análise de como o ENDURECIMENTO muta entre os polos. Indicadores específicos.]
+[Análise de como o endurecimento muta entre os polos. Indicadores específicos.]
 
 ### 2. O Contrato Sexual Visual
 
@@ -960,14 +960,14 @@ motivo/columbia · motivo/germania · motivo/belgique
 
 1. **NUNCA inventar URLs** — se não verificável, `null` + `#verificar`
 2. **Priorizar IIIF** — garantia de rastreabilidade
-3. **ENDURECIMENTO sempre em português** — nunca "hardening"
+3. **endurecimento sempre em português** — nunca "hardening"
 4. **Máximo 8 candidatos por sessão** de SCOUT — priorizar por confiança
 5. **Campo `related` obrigatório** com pelo menos um conceito teórico da tese
 6. **Todas as citações em ABNT NBR 6023:2025**
 7. **Sinalizar contra-exemplos** como valiosos — itens que desafiam o framework
 8. **Não fabricar referências bibliográficas** — incluir apenas as que existem com certeza
 9. **Ver imagem antes de classificar** — se não acessível, marcar `#análise-textual`
-10. **Reportar todos os 10 indicadores** — nunca pular ao score de ENDURECIMENTO
+10. **Reportar todos os 10 indicadores** — nunca pular ao score de endurecimento
 11. **Sugerir próximas buscas** ao final de cada sessão SCOUT
 12. **Manter wikilinks** `[[...]]` para compatibilidade com Obsidian
 13. **Linguagem:** português para conteúdo de pesquisa, termos técnicos nos idiomas originais

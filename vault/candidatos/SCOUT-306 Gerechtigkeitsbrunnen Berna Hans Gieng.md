@@ -18,7 +18,7 @@ tags:
   - "#decisao-metodologica"
   - "#protocolo"
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Nachleben]]"
   - "[[Pathosformel]]"
 data_scout: 2026-03-30
@@ -34,9 +34,9 @@ data_scout: 2026-03-30
 
 Figura feminina policromada: espada, balança, VENDA NOS OLHOS — primeira representação conhecida da Justitia vendada em escultura pública. Aos pés: Papa, Imperador, Sultão, Schultheiss.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**NÃO** — Anti-ENDURECIMENTO fundacional. Corpo em contraposto, policromia, narrativa máxima. ITEM DE REFERÊNCIA pré-corpus (anterior a 1800).
+**NÃO** — Anti-endurecimento fundacional. Corpo em contraposto, policromia, narrativa máxima. ITEM DE REFERÊNCIA pré-corpus (anterior a 1800).
 
 ### Citação ABNT
 

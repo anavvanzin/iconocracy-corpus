@@ -18,7 +18,7 @@ tags:
 related:
   - "[[DB1 Corpus Iconografico]]"
   - "[[IconoCode -- Protocolo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Regime NORMATIVO]]"
   - "[[Notgeld como suporte]]"
 ---
@@ -127,7 +127,7 @@ tags:
   - verificar
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Notgeld como suporte]]"
   - "[[Justitia mit Waage und Schwert]]"
 data_scout: 2026-03-29
@@ -162,7 +162,7 @@ data_scout: 2026-03-29
 - [ ] postura frontal
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** incerto -- necessaria verificacao visual. Pela descricao catalografica, Justitia com balanca e espada sugere representacao classica sem endurecimento avancado, mas a confirmacao depende de imagem.
+**endurecimento detectado:** incerto -- necessaria verificacao visual. Pela descricao catalografica, Justitia com balanca e espada sugere representacao classica sem endurecimento avancado, mas a confirmacao depende de imagem.
 
 ---
 
@@ -222,7 +222,7 @@ tags:
   - verificar
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Enquadramento arquitetonico]]"
   - "[[Forensic Architecture]]"
 data_scout: 2026-03-29
@@ -257,7 +257,7 @@ data_scout: 2026-03-29
 - [x] postura frontal
 - [x] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** sim (provavel) -- Justitia integrada a fachada de tribunal criminal (enquadramento_arquitetonico), postura provavelmente rigida (rigidez_postural), funcao estatal de intimidacao (inscricao_estatal). Indicadores ativos provaveis: enquadramento_arquitetonico, rigidez_postural, inscricao_estatal.
+**endurecimento detectado:** sim (provavel) -- Justitia integrada a fachada de tribunal criminal (enquadramento_arquitetonico), postura provavelmente rigida (rigidez_postural), funcao estatal de intimidacao (inscricao_estatal). Indicadores ativos provaveis: enquadramento_arquitetonico, rigidez_postural, inscricao_estatal.
 
 ---
 
@@ -339,7 +339,7 @@ data_scout: 2026-03-29
 
 **Motivo alegorico:** Hammonia (personificacao feminina de Hamburg) e motivos civico-comerciais
 **Regime iconocratico:** NORMATIVO
-**Justificativa:** A serie de 3 notas (50 Pf, 75 Pf, 1 Mark) da "Kultur- und Sportwoche" de agosto 1921 (Mehl/Grabowski 539.2) apresenta motivos tipicamente hamburgueses: monumento a Bismarck, Rathaus, cais, bandeira comercial. A relevancia para o corpus reside na AUSENCIA de Justitia: Hamburg, cidade com imponente Justizforum (1879-1912), escolhe Hammonia -- alegoria civico-comercial com coroa mural, ancora e brasao da cidade -- como personificacao, suprimindo inteiramente a dimensao juridica. Hammonia funciona como anti-Justitia: alegoria feminina de legitimacao estatal que EXCLUI deliberadamente os atributos juridicos (balanca, espada, venda). Este e um caso de ENDURECIMENTO por substituicao: a alegoria juridica e deslocada pela alegoria mercantil.
+**Justificativa:** A serie de 3 notas (50 Pf, 75 Pf, 1 Mark) da "Kultur- und Sportwoche" de agosto 1921 (Mehl/Grabowski 539.2) apresenta motivos tipicamente hamburgueses: monumento a Bismarck, Rathaus, cais, bandeira comercial. A relevancia para o corpus reside na AUSENCIA de Justitia: Hamburg, cidade com imponente Justizforum (1879-1912), escolhe Hammonia -- alegoria civico-comercial com coroa mural, ancora e brasao da cidade -- como personificacao, suprimindo inteiramente a dimensao juridica. Hammonia funciona como anti-Justitia: alegoria feminina de legitimacao estatal que EXCLUI deliberadamente os atributos juridicos (balanca, espada, venda). Este e um caso de endurecimento por substituicao: a alegoria juridica e deslocada pela alegoria mercantil.
 
 **Atributos identificados:**
 - [ ] balanca
@@ -352,7 +352,7 @@ data_scout: 2026-03-29
 - [ ] postura frontal
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** sim -- por substituicao. A funcao juridica e apagada (apagamento_narrativo) e substituida pela funcao comercial. Indicadores ativos: apagamento_narrativo, heraldizacao (brasao da cidade domina), dessexualizacao (Hammonia e matronal, nao erotica).
+**endurecimento detectado:** sim -- por substituicao. A funcao juridica e apagada (apagamento_narrativo) e substituida pela funcao comercial. Indicadores ativos: apagamento_narrativo, heraldizacao (brasao da cidade domina), dessexualizacao (Hammonia e matronal, nao erotica).
 
 ---
 
@@ -376,7 +376,7 @@ HAMBURG. Notgeld: Kultur- und Sportwoche, 12-24 August 1921. 3 cedulas de emerge
 
 ## Observacoes do Scout
 
-A relevancia deste candidato e invertida: interessa justamente pela AUSENCIA de Justitia numa cidade com vasta infraestrutura judicial. Esta ausencia pode ser lida como evidencia da tese do ENDURECIMENTO por substituicao -- quando a alegoria juridica e inteiramente deslocada por uma alegoria civico-comercial (Hammonia), o corpo feminino alegorizante e redirecionado para funcoes de legitimacao economica, nao juridica.
+A relevancia deste candidato e invertida: interessa justamente pela AUSENCIA de Justitia numa cidade com vasta infraestrutura judicial. Esta ausencia pode ser lida como evidencia da tese do endurecimento por substituicao -- quando a alegoria juridica e inteiramente deslocada por uma alegoria civico-comercial (Hammonia), o corpo feminino alegorizante e redirecionado para funcoes de legitimacao economica, nao juridica.
 
 Verificar a serie 539.3 (documentada como "Bismarck monument, town hall and landing piers") e as series de Hamburg Hochbahn para confirmar se alguma delas porta Hammonia explicitamente, ou se o brasao da cidade (leoes flanqueando a torre) e a unica marca heraldica.
 
@@ -403,7 +403,7 @@ tags:
 related:
   - "[[SCOUT-301]]"
   - "[[SCOUT-303]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato sexual visual]]"
   - "[[Regime NORMATIVO]]"
   - "[[Apagamento narrativo]]"
@@ -432,15 +432,15 @@ Este painel estabelece o espaco de tensao (*Zwischenraum*) entre duas manifestac
 | **Alegoria** | Justitia (juridica) | Hammonia (civico-comercial) |
 | **Atributos** | balanca + espada | coroa mural + ancora + brasao |
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-O transito entre os dois polos revela uma mutacao surpreendente: o ENDURECIMENTO nao opera por rigidificacao da alegoria juridica, mas por sua **substituicao total**. Em Torgau, cidade pequena sem grande aparato judicial, Justitia aparece em forma classica (balanca + espada) -- a representacao e relativamente "livre," sem pressao institucional forte. Em Hamburg, onde o aparato judicial e monumental (tres edificios no Sievekingplatz desde 1879), a alegoria juridica e completamente APAGADA do suporte monetario e substituida por Hammonia, a deusa civica.
+O transito entre os dois polos revela uma mutacao surpreendente: o endurecimento nao opera por rigidificacao da alegoria juridica, mas por sua **substituicao total**. Em Torgau, cidade pequena sem grande aparato judicial, Justitia aparece em forma classica (balanca + espada) -- a representacao e relativamente "livre," sem pressao institucional forte. Em Hamburg, onde o aparato judicial e monumental (tres edificios no Sievekingplatz desde 1879), a alegoria juridica e completamente APAGADA do suporte monetario e substituida por Hammonia, a deusa civica.
 
 Indicadores ativos em cada polo:
-- **Torgau:** baixo ENDURECIMENTO (Justitia classica, provavelmente dinamica)
-- **Hamburg:** alto ENDURECIMENTO por **apagamento_narrativo** (a funcao juridica e suprimida), **heraldizacao** (o brasao da cidade domina), **dessexualizacao** (Hammonia e matronal)
+- **Torgau:** baixo endurecimento (Justitia classica, provavelmente dinamica)
+- **Hamburg:** alto endurecimento por **apagamento_narrativo** (a funcao juridica e suprimida), **heraldizacao** (o brasao da cidade domina), **dessexualizacao** (Hammonia e matronal)
 
-Paradoxo: o ENDURECIMENTO e mais intenso justamente onde a infraestrutura juridica e mais imponente. A presenca material do tribunal suprime a representacao alegorica da justica -- como se a instituicao, uma vez materializada em pedra, nao precisasse mais de sua representacao simbolica no papel-moeda.
+Paradoxo: o endurecimento e mais intenso justamente onde a infraestrutura juridica e mais imponente. A presenca material do tribunal suprime a representacao alegorica da justica -- como se a instituicao, uma vez materializada em pedra, nao precisasse mais de sua representacao simbolica no papel-moeda.
 
 ### 2. O Contrato Sexual Visual
 
@@ -452,7 +452,7 @@ Em Hamburg, o contrato e renegociado: Hammonia instrumentaliza o corpo feminino 
 
 Este transito demonstra um achado central para a tese: a relacao entre presenca institucional material (edificio judicial) e representacao alegorica no suporte monetario e INVERSA, nao direta. Cidades grandes com tribunais imponentes (Hamburg, Leipzig, Munique, Nuremberg, Berlin-Moabit) suprimem Justitia de seu Notgeld, enquanto Justitia aparece em Torgau, cidade sem grande infraestrutura judicial.
 
-Hipotese explicativa: quando o aparato estatal-juridico se materializa em arquitetura monumental, a alegoria perde sua funcao de representacao e e substituida por alegorias de identidade civico-comercial. O ENDURECIMENTO atinge seu estagio maximo (apagamento_narrativo total) precisamente nas cidades onde a instituicao judicial e mais visivel. A alegoria feminina da justica e redundante onde o tribunal ja existe em pedra -- e necessaria onde o juridico nao tem corpo arquitetonico proprio.
+Hipotese explicativa: quando o aparato estatal-juridico se materializa em arquitetura monumental, a alegoria perde sua funcao de representacao e e substituida por alegorias de identidade civico-comercial. O endurecimento atinge seu estagio maximo (apagamento_narrativo total) precisamente nas cidades onde a instituicao judicial e mais visivel. A alegoria feminina da justica e redundante onde o tribunal ja existe em pedra -- e necessaria onde o juridico nao tem corpo arquitetonico proprio.
 
 Isso contribui para o argumento da tese de que o regime NORMATIVO opera uma dupla estrategia: (1) materializa a funcao juridica em edificios (forensic architecture), e (2) libera o suporte monetario para alegorias de identidade local, esvaziando a dimensao juridica do papel-moeda. O corpo feminino alegorico e redistribuido entre suportes -- de Justitia no papel a Justitia na pedra.
 ```

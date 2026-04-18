@@ -131,7 +131,7 @@ lsof -i :8080
 
 ---
 
-## Semana 3: Security & Hardening
+## Semana 3: Security & endurecimento
 
 > [!goal] Objetivo
 > Fundamentos de segurança, criptografia prática, e introdução a pentesting. Foco em ferramentas defensivas e ofensivas básicas.
@@ -188,7 +188,7 @@ nmap --script ssl-enum-ciphers -p 443 example.com
 ### Guias de Estudo
 - [ ] [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) — metodologia de testes
 - [ ] [Hacking: The Art of Exploitation](https://nostarch.com/hacking2.htm) — fundamentos
-- [ ] [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html) — hardening completo
+- [ ] [Linux endurecimento Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html) — hardening completo
 
 ### Exercícios Práticos
 1. Gerar certificado autoassinado com OpenSSL
@@ -276,7 +276,7 @@ nmap --script ssl-enum-ciphers -p 443 example.com
 |--------|------|-----------|------------|
 | 1 | CLI Fundamentals | 1-2h | Ambiente configurado + aliases úteis |
 | 2 | Networking & Systems | 1-2h | SSH config avançado + one-liners documentados |
-| 3 | Security & Hardening | 1-2h | Sistema auditado + GPG configurado |
+| 3 | Security & endurecimento | 1-2h | Sistema auditado + GPG configurado |
 | 4 | DevOps & Labs | 2-3h | Bandit 0-15 completo + 1 máquina HTB/THM |
 
 ---

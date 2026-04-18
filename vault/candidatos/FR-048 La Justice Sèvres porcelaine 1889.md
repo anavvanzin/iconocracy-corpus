@@ -21,7 +21,7 @@ tags:
   - verificar
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[FR-001 La Justice la Vengeance et la Vérité]]"
 hf_synced: false
@@ -57,7 +57,7 @@ data_scout: 2026-04-14
 - [x] postura frontal — rigidez postural moderada
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** sim
+**endurecimento detectado:** sim
 
 | Indicador | Score | Observação |
 |-----------|-------|-----------|
@@ -72,7 +72,7 @@ data_scout: 2026-04-14
 | serialidade | 0 | Produção limitada, peça de prestígio |
 | inscricao_estatal | 0 | Marcas de manufatura possíveis — #verificar |
 
-**Score ENDURECIMENTO:** 0.6 (média dos 10 indicadores)
+**Score endurecimento:** 0.6 (média dos 10 indicadores)
 
 ---
 

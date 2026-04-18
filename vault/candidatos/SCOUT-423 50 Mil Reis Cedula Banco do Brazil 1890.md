@@ -23,7 +23,7 @@ tags:
   - verificar
 related:
   - "[[Regime Fundacional]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[BR-2000R-1907]]"
 hf_synced: false
@@ -61,7 +61,7 @@ data_scout: 2026-04-10
 - [x] postura frontal (Liberdade)
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** baixo a moderado. Análise dos indicadores:
+**endurecimento detectado:** baixo a moderado. Análise dos indicadores:
 - **desincorporação** baixa: três figuras de corpo inteiro/busto, presença corporal substancial
 - **rigidez postural** moderada: figuras sentadas em pose estática, composição simétrica
 - **dessexualização** moderada: vestimenta clássica mas sem nudez explícita (diferente do fundacional europeu)
@@ -104,6 +104,6 @@ Esta cédula é extraordinariamente relevante para a tese por várias razões:
 
 3. **Delegação europeia**: a impressão por Waterlow & Sons (Londres) revela a dependência da periferia para a produção de sua própria iconografia estatal — o corpo feminino alegórico é desenhado por gravadores britânicos para representar a República brasileira.
 
-4. **Tensão fundacional/normativo**: apesar de ser uma emissão fundacional (1890), o suporte "cédula" impõe alta serialidade e enquadramento arquitetônico (guilloché), antecipando o ENDURECIMENTO normativo.
+4. **Tensão fundacional/normativo**: apesar de ser uma emissão fundacional (1890), o suporte "cédula" impõe alta serialidade e enquadramento arquitetônico (guilloché), antecipando o endurecimento normativo.
 
 Referência numismática: Pick catalog (World Paper Money), verificar número P# para esta emissão.

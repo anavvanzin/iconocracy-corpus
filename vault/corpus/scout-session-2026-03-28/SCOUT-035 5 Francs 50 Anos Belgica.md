@@ -21,7 +21,7 @@ tags:
   - motivo/justica
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Acoplamento imagem-norma]]"
   - "[[SCOUT-004 Palais de Justice Bruxelas]]"
@@ -57,7 +57,7 @@ data_scout: 2026-03-28
 - [x] postura frontal
 - [x] contexto arquitetonico (Coluna do Congresso + Palais de Justice)
 
-**ENDURECIMENTO detectado:** sim — ENDURECIMENTO constitucional. Rigidez_postural moderada, heraldizacao forte, inscricao_estatal maxima, enquadramento_arquitetonico explicito, dessexualizacao completa.
+**endurecimento detectado:** sim — endurecimento constitucional. Rigidez_postural moderada, heraldizacao forte, inscricao_estatal maxima, enquadramento_arquitetonico explicito, dessexualizacao completa.
 
 ---
 

@@ -57,7 +57,7 @@ data_scout: 2026-04-11
 - [x] postura frontal
 - [x] contexto arquitetônico
 
-**ENDURECIMENTO detectado:** sim — simetria rígida, dessexualização, enquadramento arquitetônico forte
+**endurecimento detectado:** sim — simetria rígida, dessexualização, enquadramento arquitetônico forte
 
 ---
 

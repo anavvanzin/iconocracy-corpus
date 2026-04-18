@@ -21,7 +21,7 @@ tags:
   - colonialidade-do-ver
   - contrato-racial-visual
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Colonialidade do Ver]]"
   - "[[Marianne]]"
@@ -58,7 +58,7 @@ data_scout: 2026-04-01
 - [x] postura sentada (entronizada)
 - [x] âncora (comércio naval)
 
-**ENDURECIMENTO detectado:** sim — corpo rígido, entronizado, monocromático, produção em massa colonial
+**endurecimento detectado:** sim — corpo rígido, entronizado, monocromático, produção em massa colonial
 
 ---
 

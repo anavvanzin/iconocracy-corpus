@@ -16,7 +16,7 @@ tags:
   - regime/fundacional
   - motivo/republica
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
 data_scout: 2026-04-13
@@ -47,7 +47,7 @@ fonte_campanha: "LPAI v2 Campanha SCOUT BR/FR (abr 2026)"
 
 ### Nota analitica
 
-Capa comemorativa da Proclamacao da Republica. A composicao segue o modelo da Marianne fundacional. A serialidade da publicacao semanal (tiragem de 4.000 exemplares) inicia o processo de ENDURECIMENTO pela reproducao em massa, ainda que o repertorio visual seja de alto FUNDACIONAL.
+Capa comemorativa da Proclamacao da Republica. A composicao segue o modelo da Marianne fundacional. A serialidade da publicacao semanal (tiragem de 4.000 exemplares) inicia o processo de endurecimento pela reproducao em massa, ainda que o repertorio visual seja de alto FUNDACIONAL.
 
 ### Citacao ABNT
 

@@ -40,7 +40,7 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 - Lista de Abreviaturas e Siglas
 - Glossário de Conceitos Operativos
 
-> ▸ *Inclui definições operativas de: Iconocracia, Visiocracia, Contrato Sexual Visual, Feminilidade de Estado, Zwischenraum, Purificação Clássica, Hardening Militar, Pathosformel, Regime Iconocrático (Fundacional, Normativo, Militar).*
+> ▸ *Inclui definições operativas de: Iconocracia, Visiocracia, Contrato Sexual Visual, Feminilidade de Estado, Zwischenraum, Purificação Clássica, endurecimento militar, Pathosformel, Regime Iconocrático (Fundacional, Normativo, Militar).*
 
 ---
 
@@ -104,7 +104,7 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 
 #### 2.3 — Regimes iconocráticos: Fundacional, Normativo, Militar
 
-> ▸ *Tipologia central da tese. Regime Fundacional: alegorias em momentos constituintes (revoluções, repúblicas). Regime Normativo: rotinização em selos, moedas, edifícios. Regime Militar: ENDURECIMENTO do corpo feminino em crises bélicas e autoritárias.*
+> ▸ *Tipologia central da tese. Regime Fundacional: alegorias em momentos constituintes (revoluções, repúblicas). Regime Normativo: rotinização em selos, moedas, edifícios. Regime Militar: endurecimento do corpo feminino em crises bélicas e autoritárias.*
 
 #### 2.4 — O Pathosformel jurídico: Warburg, Agamben e a sobrevivência das fórmulas
 
@@ -190,7 +190,7 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 
 > ▸ *Teste central: as medianas dos indicadores de purificação diferem significativamente entre os três regimes (Fundacional, Normativo, Militar)? Análise post hoc com correção de Dunn.*
 
-#### 6.3 — Preditores do ENDURECIMENTO: Regressão Logística Ordinal
+#### 6.3 — Preditores do endurecimento: Regressão Logística Ordinal
 
 > ▸ *Que variáveis (país, período, regime, suporte) predizem maior militarização e purificação clássica do corpo alegórico? Odds ratios e intervalos de confiança.*
 
@@ -266,7 +266,7 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 
 > ▸ *A 'limpeza' progressiva do corpo alegórico. Marianne nas barricadas vs. Marianne nos selos. A normalização institucional que transforma energia revolucionária em estética burocrática. O regime Normativo em ação.*
 
-#### 9.4 — Painel IV: HARDENING — O Corpo em Guerra
+#### 9.4 — Painel IV: endurecimento — O Corpo em Guerra
 
 > ▸ *Militarização da alegoria em contextos bélicos e autoritários. Columbia entregando a espada (1899). Alegorias da I Guerra (Romberg, 1917). Estado Novo brasileiro. O corpo feminino como escudo e convocação.*
 

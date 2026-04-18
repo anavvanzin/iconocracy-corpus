@@ -13,7 +13,7 @@ tags:
 related:
   - "[[DB1 Corpus Iconográfico]]"
   - "[[IconoCode -- Protocolo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
 ---
 
 ## Resumo da sessão

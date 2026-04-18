@@ -1923,7 +1923,7 @@
     {
       "id": "SCOUT-ZW-15",
       "tipo": "corpus-zwischenraum",
-      "titulo": "Painel XV — FIM DO ANTI-ENDURECIMENTO POSTAL: Semeuse 1903 x Cheffer 1967",
+      "titulo": "Painel XV — FIM DO ANTI-endurecimento POSTAL: Semeuse 1903 x Cheffer 1967",
       "pais": "[FR, FR]",
       "periodo": "1903-1967"
     },
@@ -1937,14 +1937,14 @@
     {
       "id": "SCOUT-ZW-14",
       "tipo": "corpus-zwischenraum",
-      "titulo": "Painel XIV — ANTI-ENDURECIMENTO DA SEMEUSE: Roty 1903 x Piel 1960",
+      "titulo": "Painel XIV — ANTI-endurecimento DA SEMEUSE: Roty 1903 x Piel 1960",
       "pais": "[FR, FR]",
       "periodo": "1903-1960"
     },
     {
       "id": "SCOUT-ZW-18",
       "tipo": "corpus-zwischenraum",
-      "titulo": "Painel 18 — ENDURECIMENTO TRANSATLANTICO: Britannia em Biga (UK, 1913) x Semeuse em Campo (FR, 1903)",
+      "titulo": "Painel 18 — endurecimento TRANSATLANTICO: Britannia em Biga (UK, 1913) x Semeuse em Campo (FR, 1903)",
       "pais": "[UK, FR]",
       "periodo": "1903-1913"
     },
@@ -1978,16 +1978,16 @@
   ],
   "theoretical_contributions": [
     {
-      "name": "Anti-ENDURECIMENTO",
+      "name": "Anti-endurecimento",
       "desc": "Regime collapse reverses purification. Three paths: phantom persistence, satirical reversal, weaponization."
     },
     {
-      "name": "ENDURECIMENTO negativo",
-      "desc": "Hardening by subtraction (post-1945 Marianne removes body, cap, movement)."
+      "name": "endurecimento negativo",
+      "desc": "endurecimento by subtraction (post-1945 Marianne removes body, cap, movement)."
     },
     {
-      "name": "ENDURECIMENTO positivo",
-      "desc": "Hardening by addition (armor, fasces, trident)."
+      "name": "endurecimento positivo",
+      "desc": "endurecimento by addition (armor, fasces, trident)."
     },
     {
       "name": "Captura transnacional",
@@ -1995,7 +1995,7 @@
     },
     {
       "name": "Dissolucao heraldica",
-      "desc": "ENDURECIMENTO terminus where the female body disappears entirely into heraldic residue (Belgian coins)."
+      "desc": "endurecimento terminus where the female body disappears entirely into heraldic residue (Belgian coins)."
     },
     {
       "name": "Principio da redundancia",
@@ -2003,7 +2003,7 @@
     },
     {
       "name": "Indigenizacao",
-      "desc": "Colonial alternative to ENDURECIMENTO: replace European allegorical body with racialized indigenous body (French colonial stamps)."
+      "desc": "Colonial alternative to endurecimento: replace European allegorical body with racialized indigenous body (French colonial stamps)."
     },
     {
       "name": "Gradiente de transparencia da violencia imperial",
@@ -2014,8 +2014,8 @@
       "desc": "Two types of absent female allegory: Mexico (1824, pre-model — did not know the European pattern) vs. Japan (1875, post-model — knew and consciously rejected). Japan copied metal, weight, fineness and English inscriptions but rejected the female body. Strongest cultural delimitation argument."
     },
     {
-      "name": "ENDURECIMENTO sinconico e comparativo",
-      "desc": "ENDURECIMENTO is not only diachronic: UK militarizes by addition (Britannia armed, seahorse chariot), France pastoralaizes by subtraction (Semeuse removes political attributes) — two synchronic modes of neutralizing the female allegorical body (1903-1913)."
+      "name": "endurecimento sinconico e comparativo",
+      "desc": "endurecimento is not only diachronic: UK militarizes by addition (Britannia armed, seahorse chariot), France pastoralaizes by subtraction (Semeuse removes political attributes) — two synchronic modes of neutralizing the female allegorical body (1903-1913)."
     },
     {
       "name": "Numen mixtum",
