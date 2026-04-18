@@ -23,9 +23,11 @@ import hashlib
 import json
 import re
 import sys
+import unicodedata
 import uuid
 from datetime import date, datetime, timezone
 from pathlib import Path
+from urllib.parse import urlsplit, urlunsplit
 
 REPO = Path(__file__).resolve().parent.parent.parent
 RECORDS = REPO / "data" / "processed" / "records.jsonl"
@@ -60,6 +62,46 @@ _CONFIDENCE_LEVELS = {"alto": 0.85, "medio": 0.65, "baixo": 0.45, "muito-baixo":
 # YAML frontmatter parser (minimal, no deps)
 # ---------------------------------------------------------------------------
 
+def _unquote_yaml_scalar(value: str) -> str:
+    value = value.strip()
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in {'"', "'"}:
+        return value[1:-1]
+    return value
+
+
+def _normalize_url(url: str | None) -> str:
+    text = str(url or "").strip()
+    if not text:
+        return ""
+    parts = urlsplit(text)
+    path = parts.path.rstrip("/")
+    if path.endswith(".item"):
+        path = path[:-5]
+    normalized = urlunsplit(("", parts.netloc.lower(), path, parts.query, ""))
+    return normalized
+
+
+def _normalize_title(text: str | None) -> str:
+    raw = str(text or "").strip().lower()
+    if not raw:
+        return ""
+    raw = unicodedata.normalize("NFKD", raw)
+    raw = "".join(ch for ch in raw if not unicodedata.combining(ch))
+    raw = raw.replace("—", " ").replace("–", " ").replace("’", "'")
+    raw = re.sub(r"[^a-z0-9]+", " ", raw)
+    return re.sub(r"\s+", " ", raw).strip()
+
+
+def _record_primary_url(rec: dict) -> str:
+    sr = (rec.get("webscout") or {}).get("search_results") or [{}]
+    primary = sr[0] if sr else {}
+    return str(primary.get("url") or (rec.get("input") or {}).get("input_url", "")).strip()
+
+
+def _record_title(rec: dict) -> str:
+    return str((rec.get("input") or {}).get("title_hint", "")).strip()
+
+
 def _parse_frontmatter(text: str) -> dict:
     """
     Parse YAML frontmatter between --- delimiters.
@@ -79,7 +121,7 @@ def _parse_frontmatter(text: str) -> dict:
     for line in block.splitlines():
         # List item
         if line.startswith("  - ") or line.startswith("- "):
-            item = line.lstrip(" -").strip().strip('"').strip("'")
+            item = _unquote_yaml_scalar(line.lstrip(" -").strip())
             if current_list is not None:
                 current_list.append(item)
             continue
@@ -92,7 +134,7 @@ def _parse_frontmatter(text: str) -> dict:
 
             parts = line.split(":", 1)
             current_key = parts[0].strip()
-            val = parts[1].strip().strip('"').strip("'") if len(parts) > 1 else ""
+            val = _unquote_yaml_scalar(parts[1].strip()) if len(parts) > 1 else ""
 
             if val == "":
                 # Might be followed by list items
@@ -184,6 +226,10 @@ def _note_title(fm: dict) -> str:
 
 def _note_id(fm: dict) -> str:
     return str(fm.get("id") or "").strip()
+
+
+def _note_records_item_id(fm: dict) -> str:
+    return str(fm.get("records_item_id") or "").strip()
 
 
 def _note_regime(fm: dict) -> str:
@@ -442,68 +488,106 @@ def cmd_diff() -> None:
     records = _load_records()
     notes = _scan_vault_notes()
 
-    rec_urls = {
-        (rec.get("webscout") or {}).get("search_results", [{}])[0].get("url", "")
+    rec_infos = [
+        {
+            "item_id": rec.get("item_id", ""),
+            "url": _record_primary_url(rec),
+            "url_norm": _normalize_url(_record_primary_url(rec)),
+            "title": _record_title(rec),
+            "title_norm": _normalize_title(_record_title(rec)),
+        }
         for rec in records
-    }
-    vault_urls = {_note_url(n) for n in notes if _note_url(n)}
+    ]
+    note_infos = [
+        {
+            "file": n.get("_file", "?"),
+            "url": _note_url(n),
+            "url_norm": _normalize_url(_note_url(n)),
+            "title": _note_title(n),
+            "title_norm": _normalize_title(_note_title(n)),
+            "records_item_id": _note_records_item_id(n),
+        }
+        for n in notes
+    ]
 
-    only_records = rec_urls - vault_urls - {""}
-    only_vault = vault_urls - rec_urls
+    note_url_norms = {n["url_norm"] for n in note_infos if n["url_norm"]}
+    note_title_norms = {n["title_norm"] for n in note_infos if n["title_norm"]}
+    note_record_ids = {n["records_item_id"] for n in note_infos if n["records_item_id"]}
 
-    rec_titles = {
-        (rec.get("input") or {}).get("title_hint", "").lower()
-        for rec in records
-    }
-    vault_titles = {_note_title(n).lower() for n in notes}
+    rec_url_only = [
+        r for r in rec_infos
+        if r["item_id"] not in note_record_ids
+        and r["url_norm"]
+        and r["url_norm"] not in note_url_norms
+        and r["title_norm"] not in note_title_norms
+    ]
 
-    only_records_title = {
-        (rec.get("input") or {}).get("title_hint", "")
-        for rec in records
-        if (rec.get("input") or {}).get("title_hint", "").lower() not in vault_titles
-    } - {""}
+    rec_title_only = [
+        r for r in rec_infos
+        if r["item_id"] not in note_record_ids
+        and r["title_norm"]
+        and r["title_norm"] not in note_title_norms
+        and (not r["url_norm"] or r["url_norm"] not in note_url_norms)
+    ]
+
+    rec_item_ids = {r["item_id"] for r in rec_infos if r["item_id"]}
+    rec_url_norms = {r["url_norm"] for r in rec_infos if r["url_norm"]}
+    rec_title_norms = {r["title_norm"] for r in rec_infos if r["title_norm"]}
+
+    vault_only = [
+        n for n in note_infos
+        if n["records_item_id"] not in rec_item_ids
+        and n["url_norm"] not in rec_url_norms
+        and n["title_norm"] not in rec_title_norms
+    ]
 
     print(f"records.jsonl: {len(records)} | vault: {len(notes)}")
     print()
 
-    if only_records:
-        print(f"Apenas em records.jsonl (por URL) — {len(only_records)}:")
-        for url in sorted(only_records)[:10]:
-            print(f"  + {url[:80]}")
-        if len(only_records) > 10:
-            print(f"  ... e mais {len(only_records) - 10}")
+    if rec_url_only:
+        print(f"Apenas em records.jsonl (por URL) — {len(rec_url_only)}:")
+        for item in rec_url_only[:10]:
+            print(f"  + {item['url'][:80]}")
+        if len(rec_url_only) > 10:
+            print(f"  ... e mais {len(rec_url_only) - 10}")
     else:
         print("Sem itens exclusivos em records.jsonl (por URL).")
 
-    if only_vault:
-        print(f"\nApenas no vault (por URL) — {len(only_vault)}:")
-        for url in sorted(only_vault)[:10]:
-            note = next((n for n in notes if _note_url(n) == url), {})
-            print(f"  - [{note.get('_file', '?')}] {url[:60]}")
-        if len(only_vault) > 10:
-            print(f"  ... e mais {len(only_vault) - 10}")
+    if vault_only:
+        print(f"\nApenas no vault (por URL/título) — {len(vault_only)}:")
+        for item in vault_only[:10]:
+            print(f"  - [{item['file']}] {(item['url'] or item['title'])[:60]}")
+        if len(vault_only) > 10:
+            print(f"  ... e mais {len(vault_only) - 10}")
     else:
-        print("Sem itens exclusivos no vault (por URL).")
+        print("Sem itens exclusivos no vault (por URL/título).")
 
-    print(f"\nItens em records.jsonl sem nota vault (por título): {len(only_records_title)}")
+    print(f"\nItens em records.jsonl sem nota vault (por título): {len(rec_title_only)}")
 
 
 def cmd_pull(dry_run: bool = False) -> None:
     """Pull: vault notes → records.jsonl (add new items not already in records)."""
     records = _load_records()
-    url_idx = _records_url_index(records)
-    title_idx = _records_title_index(records)
     notes = _scan_vault_notes()
+
+    rec_item_ids = {rec.get("item_id", "") for rec in records if rec.get("item_id")}
+    rec_url_norms = {_normalize_url(_record_primary_url(rec)) for rec in records if _record_primary_url(rec)}
+    rec_title_norms = {_normalize_title(_record_title(rec)) for rec in records if _record_title(rec)}
 
     added = 0
     for note in notes:
         url = _note_url(note)
-        title = _note_title(note).lower()
+        title = _note_title(note)
+        note_record_id = _note_records_item_id(note)
+        url_norm = _normalize_url(url)
+        title_norm = _normalize_title(title)
 
         # Skip if already in records
-        if url and url in url_idx:
+        if note_record_id and note_record_id in rec_item_ids:
             continue
-        if title and title in title_idx:
+        if url_norm and url_norm in rec_url_norms:
+            continue
+        if title_norm and title_norm in rec_title_norms:
             continue
 
         # Only import notes that have a verifiable anchor:
@@ -522,6 +606,12 @@ def cmd_pull(dry_run: bool = False) -> None:
             print(f"  [DRY-RUN] Pull: {note.get('_file', '')} → records.jsonl")
         else:
             records.append(rec)
+            if rec.get("item_id"):
+                rec_item_ids.add(rec["item_id"])
+            if _record_primary_url(rec):
+                rec_url_norms.add(_normalize_url(_record_primary_url(rec)))
+            if _record_title(rec):
+                rec_title_norms.add(_normalize_title(_record_title(rec)))
             added += 1
             print(f"  PULL: {note.get('_file', '')} → item_id={rec['item_id'][:8]}…")
 
@@ -540,29 +630,27 @@ def cmd_push(dry_run: bool = False) -> None:
     records = _load_records()
     notes = _scan_vault_notes()
 
-    vault_urls = {_note_url(n) for n in notes if _note_url(n)}
-    vault_titles_lower = {_note_title(n).lower() for n in notes}
+    vault_record_ids = {_note_records_item_id(n) for n in notes if _note_records_item_id(n)}
+    vault_url_norms = {_normalize_url(_note_url(n)) for n in notes if _note_url(n)}
+    vault_title_norms = {_normalize_title(_note_title(n)) for n in notes if _note_title(n)}
 
     next_id = _next_scout_id()
     pushed = 0
 
     for rec in records:
-        inp = rec.get("input") or {}
-        sr = (rec.get("webscout") or {}).get("search_results") or [{}]
-        primary = sr[0] if sr else {}
-        url = primary.get("url") or inp.get("input_url", "")
-        title = inp.get("title_hint", "")
+        item_id = str(rec.get("item_id") or "")
+        url = _record_primary_url(rec)
+        title = _record_title(rec)
+        url_norm = _normalize_url(url)
+        title_norm = _normalize_title(title)
 
-        # Skip placeholder URLs — no point creating notes for these
-        if url.startswith("https://iconocracy.corpus/placeholder/"):
+        if item_id and item_id in vault_record_ids:
             continue
-        if url in vault_urls:
+        if url_norm and url_norm in vault_url_norms:
             continue
-        if title.lower() in vault_titles_lower:
+        if title_norm and title_norm in vault_title_norms:
             continue
 
-        # Use corpus ID from records item_id hint if available (from migration batch)
-        # For vault-imported records the note_id would be SCOUT-NNN
         note_id = f"SCOUT-{next_id + pushed}"
         safe_title = _sanitize_filename(title)
         filename = f"{note_id} {safe_title}.md"
@@ -575,6 +663,12 @@ def cmd_push(dry_run: bool = False) -> None:
         else:
             VAULT.mkdir(parents=True, exist_ok=True)
             filepath.write_text(note_content, encoding="utf-8")
+            if item_id:
+                vault_record_ids.add(item_id)
+            if url_norm:
+                vault_url_norms.add(url_norm)
+            if title_norm:
+                vault_title_norms.add(title_norm)
             print(f"  PUSH: {filename}")
 
         pushed += 1
