@@ -16,7 +16,7 @@ status: entregue
 # Encontro 5 — Desenho de Pesquisa e Métodos/Técnicas
 
 > **Entrega:** Seção "Metodologia" (v.1) da tese ICONOCRACY
-> **Arquivo .docx:** `PHD/Metodologia_v1_ICONOCRACY.docx`
+> **Arquivo .docx:** `archive/root-legacy/PHD/Metodologia_v1_ICONOCRACY.docx`
 
 ---
 
@@ -144,4 +144,4 @@ WARNER, Marina. **Monuments and maidens: the allegory of the female form**. Lond
 
 ---
 
-*Nota: arquivo .docx completo com formatação ABNT em `PHD/Metodologia_v1_ICONOCRACY.docx`*
+*Nota: arquivo .docx completo com formatação ABNT em `archive/root-legacy/PHD/Metodologia_v1_ICONOCRACY.docx`*

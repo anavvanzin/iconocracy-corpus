@@ -11,9 +11,9 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
 from docx.enum.style import WD_STYLE_TYPE
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
-import copy
+from pathlib import Path
 
-OUTPUT = "/Users/ana/iconocracy-corpus/PHD/Metodologia_v1_ICONOCRACY.docx"
+OUTPUT = Path(__file__).resolve().with_name("Metodologia_v1_ICONOCRACY.docx")
 
 doc = Document()
 
