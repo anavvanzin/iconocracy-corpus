@@ -25,7 +25,7 @@ import re
 import sys
 import unicodedata
 import uuid
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
@@ -621,6 +621,7 @@ def cmd_pull(dry_run: bool = False) -> None:
             continue  # no anchor — skip speculative SCOUT note
 
         rec = _vault_note_to_record(note)
+        added += 1
         if dry_run:
             print(f"  [DRY-RUN] Pull: {note.get('_file', '')} → records.jsonl")
         else:
@@ -631,7 +632,6 @@ def cmd_pull(dry_run: bool = False) -> None:
                 rec_url_counts[_normalize_url(_record_primary_url(rec))] += 1
             if _record_title(rec):
                 rec_title_counts[_normalize_title(_record_title(rec))] += 1
-            added += 1
             print(f"  PULL: {note.get('_file', '')} → item_id={rec['item_id'][:8]}…")
 
     if not dry_run:
