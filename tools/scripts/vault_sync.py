@@ -585,8 +585,10 @@ def cmd_pull(dry_run: bool = False) -> None:
     notes = _scan_vault_notes()
 
     rec_item_ids = {rec.get("item_id", "") for rec in records if rec.get("item_id")}
-    rec_url_norms = {_normalize_url(_record_primary_url(rec)) for rec in records if _record_primary_url(rec)}
-    rec_title_norms = {_normalize_title(_record_title(rec)) for rec in records if _record_title(rec)}
+    rec_url_counts = Counter(_normalize_url(_record_primary_url(rec)) for rec in records if _record_primary_url(rec))
+    rec_title_counts = Counter(_normalize_title(_record_title(rec)) for rec in records if _record_title(rec))
+    note_url_counts = Counter(_normalize_url(_note_url(note)) for note in notes if _note_url(note))
+    note_title_counts = Counter(_normalize_title(_note_title(note)) for note in notes if _note_title(note))
 
     added = 0
     for note in notes:
@@ -596,12 +598,15 @@ def cmd_pull(dry_run: bool = False) -> None:
         url_norm = _normalize_url(url)
         title_norm = _normalize_title(title)
 
-        # Skip if already in records
+        # Skip if already in records by explicit item_id
         if note_record_id and note_record_id in rec_item_ids:
             continue
-        if url_norm and url_norm in rec_url_norms:
+
+        # Multiplicity-aware skip logic: only skip by normalized URL/title
+        # when records already cover at least as many items for that key.
+        if url_norm and rec_url_counts[url_norm] >= note_url_counts[url_norm]:
             continue
-        if title_norm and title_norm in rec_title_norms:
+        if title_norm and rec_title_counts[title_norm] >= note_title_counts[title_norm]:
             continue
 
         # Only import notes that have a verifiable anchor:
@@ -623,9 +628,9 @@ def cmd_pull(dry_run: bool = False) -> None:
             if rec.get("item_id"):
                 rec_item_ids.add(rec["item_id"])
             if _record_primary_url(rec):
-                rec_url_norms.add(_normalize_url(_record_primary_url(rec)))
+                rec_url_counts[_normalize_url(_record_primary_url(rec))] += 1
             if _record_title(rec):
-                rec_title_norms.add(_normalize_title(_record_title(rec)))
+                rec_title_counts[_normalize_title(_record_title(rec))] += 1
             added += 1
             print(f"  PULL: {note.get('_file', '')} → item_id={rec['item_id'][:8]}…")
 
@@ -645,8 +650,10 @@ def cmd_push(dry_run: bool = False) -> None:
     notes = _scan_vault_notes()
 
     vault_record_ids = {_note_records_item_id(n) for n in notes if _note_records_item_id(n)}
-    vault_url_norms = {_normalize_url(_note_url(n)) for n in notes if _note_url(n)}
-    vault_title_norms = {_normalize_title(_note_title(n)) for n in notes if _note_title(n)}
+    vault_url_counts = Counter(_normalize_url(_note_url(n)) for n in notes if _note_url(n))
+    vault_title_counts = Counter(_normalize_title(_note_title(n)) for n in notes if _note_title(n))
+    record_url_counts = Counter(_normalize_url(_record_primary_url(rec)) for rec in records if _record_primary_url(rec))
+    record_title_counts = Counter(_normalize_title(_record_title(rec)) for rec in records if _record_title(rec))
 
     next_id = _next_scout_id()
     pushed = 0
@@ -660,9 +667,9 @@ def cmd_push(dry_run: bool = False) -> None:
 
         if item_id and item_id in vault_record_ids:
             continue
-        if url_norm and url_norm in vault_url_norms:
+        if url_norm and vault_url_counts[url_norm] >= record_url_counts[url_norm]:
             continue
-        if title_norm and title_norm in vault_title_norms:
+        if title_norm and vault_title_counts[title_norm] >= record_title_counts[title_norm]:
             continue
 
         note_id = f"SCOUT-{next_id + pushed}"
@@ -680,9 +687,9 @@ def cmd_push(dry_run: bool = False) -> None:
             if item_id:
                 vault_record_ids.add(item_id)
             if url_norm:
-                vault_url_norms.add(url_norm)
+                vault_url_counts[url_norm] += 1
             if title_norm:
-                vault_title_norms.add(title_norm)
+                vault_title_counts[title_norm] += 1
             print(f"  PUSH: {filename}")
 
         pushed += 1
