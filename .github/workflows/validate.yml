@@ -22,7 +22,7 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -58,6 +58,13 @@ jobs:
             echo "::error::records.jsonl is empty"
             exit 1
           fi
+          if [ "$RECORDS" -ne "$CORPUS" ]; then
+            echo "::error::records.jsonl / corpus-data.json count mismatch"
+            exit 1
+          fi
+
+      - name: Validate traceability report
+        run: python tools/scripts/trace_evidence.py data/processed/records.jsonl
 
       - name: Show purification status
         run: python tools/scripts/code_purification.py --status

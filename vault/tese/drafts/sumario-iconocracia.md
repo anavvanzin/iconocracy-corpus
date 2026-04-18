@@ -104,7 +104,7 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 
 #### 2.3 — Regimes iconocráticos: Fundacional, Normativo, Militar
 
-> ▸ *Tipologia central da tese. Regime Fundacional: alegorias em momentos constituintes (revoluções, repúblicas). Regime Normativo: rotinização em selos, moedas, edifícios. Regime Militar: hardening do corpo feminino em crises bélicas e autoritárias.*
+> ▸ *Tipologia central da tese. Regime Fundacional: alegorias em momentos constituintes (revoluções, repúblicas). Regime Normativo: rotinização em selos, moedas, edifícios. Regime Militar: ENDURECIMENTO do corpo feminino em crises bélicas e autoritárias.*
 
 #### 2.4 — O Pathosformel jurídico: Warburg, Agamben e a sobrevivência das fórmulas
 
@@ -190,7 +190,7 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 
 > ▸ *Teste central: as medianas dos indicadores de purificação diferem significativamente entre os três regimes (Fundacional, Normativo, Militar)? Análise post hoc com correção de Dunn.*
 
-#### 6.3 — Preditores do hardening: Regressão Logística Ordinal
+#### 6.3 — Preditores do ENDURECIMENTO: Regressão Logística Ordinal
 
 > ▸ *Que variáveis (país, período, regime, suporte) predizem maior militarização e purificação clássica do corpo alegórico? Odds ratios e intervalos de confiança.*
 

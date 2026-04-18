@@ -20,6 +20,7 @@ import csv
 import hashlib
 import json
 import sys
+import tempfile
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
@@ -77,6 +78,16 @@ def _safe_url(item_id: str, url: str | None) -> str:
     if url and str(url).strip().startswith("http"):
         return str(url).strip()
     return f"https://iconocracy.corpus/placeholder/{item_id}"
+
+
+def _normalize_datetime(value: str | None) -> str:
+    """Normalize date-ish strings to ISO 8601 date-time strings."""
+    raw = str(value or "").strip()
+    if not raw:
+        return MIGRATION_TS
+    if "T" in raw:
+        return raw
+    return f"{raw}T00:00:00Z"
 
 
 # ---------------------------------------------------------------------------
@@ -239,8 +250,8 @@ def _build_purificacao(item: dict, csv_row: dict | None) -> dict | None:
     corpus_comp = _safe_float(item.get("endurecimento_score", 0))
     composto = csv_comp if csv_comp else corpus_comp
 
-    coded_by = (csv_row.get("coded_by") if csv_row else None) or item.get("coded_by", "migration")
-    coded_at = (csv_row.get("coded_at") if csv_row else None) or item.get("coded_at", MIGRATION_TS)
+    coded_by = ((csv_row.get("coded_by") if csv_row else None) or item.get("coded_by") or "migration")
+    coded_at = _normalize_datetime((csv_row.get("coded_at") if csv_row else None) or item.get("coded_at") or MIGRATION_TS)
 
     purif: dict = {col: ind[col] for col in PURIF_COLS}
     purif["purificacao_composto"] = round(composto, 3)
@@ -268,6 +279,18 @@ def _build_exports(item: dict) -> dict:
         "abnt_citations": [abnt] if abnt else [],
         "audit_flags": flags,
     }
+
+
+def _atomic_write_jsonl(path: Path, rows: list[dict]) -> None:
+    """Atomically write JSONL to disk to avoid half-written records.jsonl."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(
+        "w", encoding="utf-8", dir=path.parent, delete=False, suffix=".tmp"
+    ) as tmp:
+        for rec in rows:
+            tmp.write(json.dumps(rec, ensure_ascii=False) + "\n")
+        tmp_path = Path(tmp.name)
+    tmp_path.replace(path)
 
 
 # ---------------------------------------------------------------------------
@@ -345,10 +368,8 @@ def convert(
             print(json.dumps(records[0], indent=2, ensure_ascii=False)[:800])
         return 0
 
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("w", encoding="utf-8") as f:
-        for rec in records:
-            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    records.sort(key=lambda rec: (str(rec.get("item_id", "")), str(rec.get("input", {}).get("input_url", ""))))
+    _atomic_write_jsonl(output_path, records)
 
     print(f"OK: {len(records)} registros escritos em {output_path}")
     if errors:

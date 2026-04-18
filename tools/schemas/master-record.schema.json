@@ -42,7 +42,7 @@
     "purificacao": {
       "type": "object",
       "additionalProperties": false,
-      "description": "10 ordinal purification indicators (0–3) per codebook",
+      "description": "10 ordinal purification indicators (0–4) per codebook",
       "required": [
         "desincorporacao", "rigidez_postural", "dessexualizacao",
         "uniformizacao_facial", "heraldizacao", "enquadramento_arquitetonico",
@@ -50,17 +50,17 @@
         "inscricao_estatal"
       ],
       "properties": {
-        "desincorporacao":            { "type": "integer", "minimum": 0, "maximum": 3 },
-        "rigidez_postural":           { "type": "integer", "minimum": 0, "maximum": 3 },
-        "dessexualizacao":            { "type": "integer", "minimum": 0, "maximum": 3 },
-        "uniformizacao_facial":       { "type": "integer", "minimum": 0, "maximum": 3 },
-        "heraldizacao":               { "type": "integer", "minimum": 0, "maximum": 3 },
-        "enquadramento_arquitetonico":{ "type": "integer", "minimum": 0, "maximum": 3 },
-        "apagamento_narrativo":       { "type": "integer", "minimum": 0, "maximum": 3 },
-        "monocromatizacao":           { "type": "integer", "minimum": 0, "maximum": 3 },
-        "serialidade":                { "type": "integer", "minimum": 0, "maximum": 3 },
-        "inscricao_estatal":          { "type": "integer", "minimum": 0, "maximum": 3 },
-        "purificacao_composto":       { "type": "number", "minimum": 0, "maximum": 3 },
+        "desincorporacao":            { "type": "integer", "minimum": 0, "maximum": 4 },
+        "rigidez_postural":           { "type": "integer", "minimum": 0, "maximum": 4 },
+        "dessexualizacao":            { "type": "integer", "minimum": 0, "maximum": 4 },
+        "uniformizacao_facial":       { "type": "integer", "minimum": 0, "maximum": 4 },
+        "heraldizacao":               { "type": "integer", "minimum": 0, "maximum": 4 },
+        "enquadramento_arquitetonico":{ "type": "integer", "minimum": 0, "maximum": 4 },
+        "apagamento_narrativo":       { "type": "integer", "minimum": 0, "maximum": 4 },
+        "monocromatizacao":           { "type": "integer", "minimum": 0, "maximum": 4 },
+        "serialidade":                { "type": "integer", "minimum": 0, "maximum": 4 },
+        "inscricao_estatal":          { "type": "integer", "minimum": 0, "maximum": 4 },
+        "purificacao_composto":       { "type": "number", "minimum": 0, "maximum": 4 },
         "regime_iconocratico": {
           "type": "string",
           "enum": ["fundacional", "normativo", "militar", "contra-alegoria"]
