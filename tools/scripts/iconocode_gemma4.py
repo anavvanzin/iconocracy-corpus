@@ -49,8 +49,24 @@ CORPUS_PATH = REPO / "corpus" / "corpus-data.json"
 STAGING_PATH = REPO / "data" / "staging" / "iconocode-gemma4-runs.jsonl"
 CACHE_DIR = REPO / ".cache" / "iconocode-images"
 
-MODEL_ID = "google/gemma-4-E4B-it"
-AGENT_ID = "gemma-4-E4B-it"
+# GGUF backend via llama-cpp-python (fits Apple M4 16GB; transformers fp16
+# weights would OOM at ~15 GB). Default: Q4_K_M + mmproj-F16 from
+# unsloth/gemma-4-E4B-it-GGUF. Paths can be overridden via env vars.
+HF_HUB_CACHE = Path(
+    os.environ.get("HF_HOME", str(Path.home() / ".cache" / "huggingface"))
+) / "hub"
+GGUF_REPO_DIR = (
+    HF_HUB_CACHE / "models--unsloth--gemma-4-E4B-it-GGUF" / "snapshots"
+)
+GGUF_MODEL_FILENAME = os.environ.get(
+    "ICONOCODE_GGUF_MODEL", "gemma-4-E4B-it-Q4_K_M.gguf"
+)
+GGUF_MMPROJ_FILENAME = os.environ.get(
+    "ICONOCODE_GGUF_MMPROJ", "mmproj-F16.gguf"
+)
+
+MODEL_ID = "unsloth/gemma-4-E4B-it-GGUF"
+AGENT_ID = "gemma-4-E4B-it-Q4_K_M-llamacpp"
 PROMPT_VERSION = "iconocode-gemma4-v1"
 
 INDICATOR_KEYS: list[str] = [
@@ -271,57 +287,92 @@ def pick_device(requested: str) -> str:
 
 
 class GemmaIconoCoder:
-    """Thin wrapper around AutoProcessor + AutoModelForImageTextToText.
+    """Thin wrapper around llama-cpp-python for Gemma-4 E4B GGUF (multimodal).
 
-    The real model is only loaded when .load() is called. Tests inject fakes
-    via the `processor` / `model` constructor args, bypassing .load().
+    The real model is only loaded when .load() is called. Tests inject a fake
+    Llama via the `llm` constructor arg, bypassing .load().
+
+    Why GGUF over transformers: the fp16 safetensors is ~15 GB, which will
+    OOM on Apple M4 with 16 GB unified memory. Q4_K_M GGUF is ~4.6 GB and
+    fits comfortably. The chat handler loads the mmproj vision adapter
+    separately (CLIP-style projector, ~950 MB).
     """
 
     def __init__(
         self,
-        model_id: str = MODEL_ID,
-        device: str = "auto",
-        processor: Any | None = None,
-        model: Any | None = None,
+        model_path: Path | None = None,
+        mmproj_path: Path | None = None,
+        device: str = "auto",  # kept for CLI compat; llama-cpp uses n_gpu_layers
+        n_ctx: int = 4096,
+        n_gpu_layers: int = -1,  # -1 = all layers on GPU (Metal on Apple Silicon)
+        llm: Any | None = None,
     ) -> None:
-        self.model_id = model_id
+        self.model_path = model_path  # resolved at load() time
+        self.mmproj_path = mmproj_path
         self.device = device
-        self.processor = processor
-        self.model = model
+        self.n_ctx = n_ctx
+        self.n_gpu_layers = n_gpu_layers
+        self.llm = llm
+
+    def _resolve_gguf_paths(self) -> tuple[Path, Path]:
+        """Find the downloaded GGUF + mmproj under the HF hub cache."""
+        if self.model_path and self.mmproj_path:
+            return Path(self.model_path), Path(self.mmproj_path)
+
+        if not GGUF_REPO_DIR.exists():
+            raise FileNotFoundError(
+                f"GGUF não baixado. Execute: hf download {MODEL_ID} "
+                f"{GGUF_MODEL_FILENAME} {GGUF_MMPROJ_FILENAME}"
+            )
+
+        snapshots = sorted(GGUF_REPO_DIR.iterdir())
+        if not snapshots:
+            raise FileNotFoundError(
+                f"Sem snapshots em {GGUF_REPO_DIR}. Rode hf download primeiro."
+            )
+        snap = snapshots[-1]
+        model_p = snap / GGUF_MODEL_FILENAME
+        mmproj_p = snap / GGUF_MMPROJ_FILENAME
+        for p, label in ((model_p, "model"), (mmproj_p, "mmproj")):
+            if not p.exists():
+                raise FileNotFoundError(
+                    f"{label} GGUF não encontrado: {p}. Rode hf download."
+                )
+        return model_p, mmproj_p
 
     def load(self) -> None:
-        if self.processor is not None and self.model is not None:
+        if self.llm is not None:
             return
-        import torch
-        from transformers import AutoModelForImageTextToText, AutoProcessor
+        from llama_cpp import Llama
+        # Gemma-4 uses the same chat template family as Gemma-3; the Gemma3
+        # handler works for multimodal input. If a native Gemma4ChatHandler
+        # ships in a future llama-cpp-python release, switch to it.
+        try:
+            from llama_cpp.llama_chat_format import Gemma3ChatHandler as ChatHandler
+        except ImportError:  # pragma: no cover - older llama-cpp-python
+            raise RuntimeError(
+                "llama-cpp-python sem Gemma3ChatHandler. Atualize para ≥0.3.5."
+            )
 
-        device = pick_device(self.device)
-        self.device = device
-        dtype = torch.bfloat16 if device != "cpu" else torch.float32
+        model_path, mmproj_path = self._resolve_gguf_paths()
+        self.model_path = model_path
+        self.mmproj_path = mmproj_path
 
         print(
-            f"INFO: carregando {self.model_id} em device={device} dtype={dtype}",
+            f"INFO: carregando {model_path.name} + {mmproj_path.name} "
+            f"(n_gpu_layers={self.n_gpu_layers}, n_ctx={self.n_ctx})",
             file=sys.stderr,
         )
 
-        self.processor = AutoProcessor.from_pretrained(self.model_id)
-
-        # We load in the selected dtype then explicitly move to the target
-        # device. `device_map="auto"` would require `accelerate`; we avoid
-        # adding that dep and instead fail loudly if the device cannot hold
-        # the ~16 GB weight file.
-        kwargs = {"dtype": dtype}
-        try:
-            self.model = AutoModelForImageTextToText.from_pretrained(
-                self.model_id, **kwargs
-            )
-        except TypeError:
-            # Older transformers: still accepts `torch_dtype=`
-            self.model = AutoModelForImageTextToText.from_pretrained(
-                self.model_id, torch_dtype=dtype
-            )
-        self.model = self.model.to(device)
-        self.model.eval()
+        handler = ChatHandler(clip_model_path=str(mmproj_path), verbose=False)
+        self.llm = Llama(
+            model_path=str(model_path),
+            chat_handler=handler,
+            n_ctx=self.n_ctx,
+            n_gpu_layers=self.n_gpu_layers,
+            logits_all=False,
+            verbose=False,
+        )
 
     def generate_json(
         self,
@@ -330,41 +381,25 @@ class GemmaIconoCoder:
         prompt_text: str,
         max_new_tokens: int = 800,
     ) -> str:
-        """Run one generate() call. Returns raw decoded text."""
-        from PIL import Image
-
-        image = Image.open(image_path).convert("RGB")
+        """Run one create_chat_completion call. Returns raw text of assistant reply."""
         messages = [
             {
                 "role": "user",
                 "content": [
-                    {"type": "image", "image": image},
+                    {
+                        "type": "image_url",
+                        "image_url": {"url": f"file://{image_path.resolve()}"},
+                    },
                     {"type": "text", "text": prompt_text},
                 ],
             }
         ]
-        inputs = self.processor.apply_chat_template(
-            messages,
-            add_generation_prompt=True,
-            tokenize=True,
-            return_dict=True,
-            return_tensors="pt",
+        resp = self.llm.create_chat_completion(
+            messages=messages,
+            max_tokens=max_new_tokens,
+            temperature=0.0,
         )
-        # Move inputs to model device where possible
-        try:
-            inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
-        except Exception:
-            pass
-
-        out_ids = self.model.generate(
-            **inputs,
-            max_new_tokens=max_new_tokens,
-            do_sample=False,
-        )
-        # Strip prompt tokens
-        input_len = inputs.get("input_ids").shape[-1] if hasattr(inputs.get("input_ids"), "shape") else 0
-        gen_ids = out_ids[0][input_len:] if input_len else out_ids[0]
-        return self.processor.decode(gen_ids, skip_special_tokens=True)
+        return resp["choices"][0]["message"]["content"] or ""
 
 
 # ---------------------------------------------------------------------------

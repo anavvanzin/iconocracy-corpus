@@ -1,9 +1,16 @@
 # T3 — Gemma-4 IconoCode Workflow
 
 Automated IconoCode coding for the 19 uncoded corpus items (queue:
-`docs/T3-coding-queue.md`) using `google/gemma-4-E4B-it` (image-text-to-text,
-apache-2.0, ~8B params). **Every output goes to a STAGING file and requires
-per-item human review before it touches `corpus-data.json`.**
+`docs/T3-coding-queue.md`) using **`unsloth/gemma-4-E4B-it-GGUF` (Q4_K_M,
+~4.6 GB) + `mmproj-F16`** via `llama-cpp-python` with Metal.
+**Every output goes to a STAGING file and requires per-item human review
+before it touches `corpus-data.json`.**
+
+> **Why GGUF and not transformers fp16?** Gemma-4 E4B fp16 safetensors ≈ 15
+> GB, which OOMs on a 16 GB unified-memory Mac (e.g. M4). Q4_K_M GGUF ≈ 4.6
+> GB fits comfortably with headroom for activations, image buffers, and the
+> OS. Quality delta vs. fp16 is measured at roughly 1–2 pp on Gemma-4 vision
+> benchmarks — acceptable for a staging signal that a human vets anyway.
 
 > ## ⚠️ Escala dos indicadores: 0–4 ou 0–3?
 >
@@ -34,12 +41,30 @@ JSON back. Output is appended to
 
 ## Install the extra dependencies
 
-```
-/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/pip install \
+```bash
+# Install llama-cpp-python with Metal (one-time, compiles locally)
+CMAKE_ARGS="-DLLAMA_METAL=on" \
+  /opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/pip install \
     -r requirements-iconocode-gemma4.txt
 ```
 
 The repo's main `requirements.txt` is left unchanged.
+
+## Download the model
+
+```bash
+# ~5.6 GB total: Q4_K_M (4.64 GB) + mmproj-F16 (945 MB)
+hf download unsloth/gemma-4-E4B-it-GGUF \
+    gemma-4-E4B-it-Q4_K_M.gguf mmproj-F16.gguf
+```
+
+Override the default filenames (e.g., to try Q5_K_M for higher quality) via
+env vars read by the script:
+
+```bash
+export ICONOCODE_GGUF_MODEL=gemma-4-E4B-it-Q5_K_M.gguf
+export ICONOCODE_GGUF_MMPROJ=mmproj-F16.gguf
+```
 
 ## How to run
 
@@ -114,12 +139,16 @@ arbitration on the same schema).
 
 ## Troubleshooting
 
-- **RAM pressure on MPS**: Gemma-4 E4B weights are ~16 GB in bfloat16. On a
-  32 GB Mac, run with nothing else open. If the OS starts swapping, lower
-  `max_new_tokens` in `iconocode_gemma4.py`, or fall back to `--device cpu`
-  (very slow — minutes per item).
-- **`transformers` version**: requires `>= 4.50` for the `AutoModelForImageTextToText`
-  class with gemma-4. The repo env already has `5.5.3`.
+- **RAM pressure on M4 16 GB**: Q4_K_M is ~4.6 GB resident; mmproj-F16 adds
+  ~950 MB; Python + image processing + KV-cache adds ~2 GB. Expect ~7–8 GB
+  total. If Activity Monitor shows memory pressure, close browsers before
+  running, or switch to a smaller quant (Q4_0 is fractionally smaller; E2B
+  is ~2 GB if you accept lower iconographic fidelity).
+- **`llama-cpp-python` not importable**: rebuild with Metal:
+  `CMAKE_ARGS="-DLLAMA_METAL=on" pip install --force-reinstall llama-cpp-python`.
+- **GGUF not found**: the script looks under the HF hub cache.
+  Run `hf download unsloth/gemma-4-E4B-it-GGUF gemma-4-E4B-it-Q4_K_M.gguf
+  mmproj-F16.gguf` first (~5.6 GB).
 - **Image fetch fails**: Numista / Wikipedia pages return HTML, not images.
   The script sniffs `Content-Type` and refuses HTML — the item is recorded
   with `confidence: low` and `image_hash: null`. Fix by adding a direct image
@@ -127,6 +156,10 @@ arbitration on the same schema).
   `.cache/iconocode-images/<item_id>.jpg` by hand and re-run).
 - **Parse failure**: the repair prompt re-asks for JSON. If both attempts
   fail, the raw text is kept in `raw_model_output` for debugging.
+- **Gemma4 chat handler not available**: the script uses `Gemma3ChatHandler`
+  from `llama_cpp.llama_chat_format` because Gemma-4 reuses the Gemma-3 chat
+  template family. If/when a `Gemma4ChatHandler` ships upstream, update
+  `iconocode_gemma4.py`'s `load()` method to import it.
 
 ## Critic's gate
 

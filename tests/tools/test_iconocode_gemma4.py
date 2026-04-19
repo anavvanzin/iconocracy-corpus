@@ -50,57 +50,23 @@ GOOD_JSON = {
 }
 
 
-class MockProcessor:
-    """Minimal AutoProcessor stand-in."""
+class MockLlama:
+    """Minimal llama_cpp.Llama stand-in.
 
-    def __init__(self) -> None:
-        self.calls: list[Any] = []
-
-    def apply_chat_template(self, messages, **kwargs):  # noqa: ARG002
-        self.calls.append(messages)
-
-        class _Inputs(dict):
-            def __init__(self, inner):
-                super().__init__(inner)
-
-        class _T:
-            shape = (1, 10)
-
-            def to(self, _):  # noqa: ARG002
-                return self
-
-        return _Inputs({"input_ids": _T()})
-
-    def decode(self, ids, skip_special_tokens=True):  # noqa: ARG002
-        # The "decoded" string is smuggled via ids._decoded for tests
-        return getattr(ids, "_decoded", "")
-
-
-class _FakeIds:
-    def __init__(self, decoded: str) -> None:
-        self._decoded = decoded
-
-    def __getitem__(self, _):
-        return self
-
-
-class MockModel:
-    """Minimal AutoModelForImageTextToText stand-in."""
+    Returns canned chat-completion responses. Exposes `generate_calls` so
+    tests that exercise the repair path can assert N generations happened.
+    """
 
     def __init__(self, responses: list[str]) -> None:
         self._responses = list(responses)
-        self.device = "cpu"
         self.generate_calls = 0
+        self.last_messages = None
 
-    def generate(self, **kwargs):  # noqa: ARG002
+    def create_chat_completion(self, messages, **kwargs):  # noqa: ARG002
         self.generate_calls += 1
-        if not self._responses:
-            text = ""
-        else:
-            text = self._responses.pop(0)
-        ids = _FakeIds(text)
-        # outer sequence → [batch_of_token_ids]; code strips prompt then decodes
-        return [ids]
+        self.last_messages = messages
+        text = self._responses.pop(0) if self._responses else ""
+        return {"choices": [{"message": {"role": "assistant", "content": text}}]}
 
 
 def _make_png(tmp_path: Path, name: str = "tiny.png") -> Path:
@@ -211,9 +177,7 @@ def test_malformed_output_triggers_repair(tmp_path):
         "um relatório em texto, sem JSON",
         "Claro! " + json.dumps(GOOD_JSON),
     ]
-    coder = mod.GemmaIconoCoder(
-        processor=MockProcessor(), model=MockModel(responses)
-    )
+    coder = mod.GemmaIconoCoder(llm=MockLlama(responses))
     image = _make_png(tmp_path)
     item = {"id": "X-1", "title": "t", "support": "moeda", "country": "X", "date": "1900"}
 
@@ -221,7 +185,7 @@ def test_malformed_output_triggers_repair(tmp_path):
         record = mod.code_one_item(coder, item, force_refresh=False)
 
     # Two generate calls — the initial + the repair
-    assert coder.model.generate_calls == 2
+    assert coder.llm.generate_calls == 2
     assert record["parse_failed"] is False
     assert record["regime"] == "militar"
     assert record["confidence"] == "high"
@@ -229,16 +193,14 @@ def test_malformed_output_triggers_repair(tmp_path):
 
 def test_repair_still_fails_marks_low_confidence(tmp_path):
     responses = ["garbage 1", "garbage 2"]
-    coder = mod.GemmaIconoCoder(
-        processor=MockProcessor(), model=MockModel(responses)
-    )
+    coder = mod.GemmaIconoCoder(llm=MockLlama(responses))
     image = _make_png(tmp_path)
     item = {"id": "X-2", "title": "t", "support": "moeda", "country": "X", "date": "1900"}
 
     with patch.object(mod, "download_image", return_value=image):
         record = mod.code_one_item(coder, item, force_refresh=False)
 
-    assert coder.model.generate_calls == 2
+    assert coder.llm.generate_calls == 2
     assert record["parse_failed"] is True
     assert record["confidence"] == "low"
     # Indicators default to zeros
@@ -383,15 +345,13 @@ def test_coerce_indicators_clamps_and_fills():
 
 
 def test_missing_image_skips_generation():
-    coder = mod.GemmaIconoCoder(
-        processor=MockProcessor(), model=MockModel([])
-    )
+    coder = mod.GemmaIconoCoder(llm=MockLlama([]))
     item = {"id": "NO-IMG", "title": "t", "support": "moeda"}
 
     with patch.object(mod, "download_image", return_value=None):
         record = mod.code_one_item(coder, item, force_refresh=False)
 
-    assert coder.model.generate_calls == 0
+    assert coder.llm.generate_calls == 0
     assert record["parse_failed"] is True
     assert record["confidence"] == "low"
     assert record["image_hash"] is None
