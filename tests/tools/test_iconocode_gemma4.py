@@ -36,13 +36,13 @@ GOOD_JSON = {
         "desincorporacao": 3,
         "rigidez_postural": 3,
         "dessexualizacao": 3,
-        "uniformizacao_facial": 4,
-        "heraldizacao": 4,
+        "uniformizacao_facial": 3,
+        "heraldizacao": 3,
         "enquadramento_arquitetonico": 1,
         "apagamento_narrativo": 3,
-        "monocromatizacao": 4,
-        "serialidade": 4,
-        "inscricao_estatal": 4,
+        "monocromatizacao": 3,
+        "serialidade": 3,
+        "inscricao_estatal": 3,
     },
     "regime": "militar",
     "reasoning": "Cunhagem seriada com Britannia hierática e inscrição estatal dominante.",
@@ -157,7 +157,7 @@ def test_round_trip_through_schema(tmp_path):
     # Indicator count and range
     assert set(reparsed["indicators"].keys()) == set(mod.INDICATOR_KEYS)
     for v in reparsed["indicators"].values():
-        assert 0 <= v <= 4
+        assert 0 <= v <= 3
     # endurecimento_score = mean of 10 indicators
     assert reparsed["endurecimento_score"] == round(
         sum(reparsed["indicators"].values()) / 10, 2
@@ -318,7 +318,7 @@ def test_parse_bare_json_block():
     text = "Aqui está: " + json.dumps(GOOD_JSON) + " — fim."
     parsed = mod.parse_model_output(text)
     assert parsed is not None
-    assert parsed["indicators"]["heraldizacao"] == 4
+    assert parsed["indicators"]["heraldizacao"] == 3
 
 
 def test_parse_returns_none_on_garbage():
@@ -330,13 +330,13 @@ def test_coerce_indicators_clamps_and_fills():
     out = mod.coerce_indicators(
         {"desincorporacao": 99, "rigidez_postural": -5, "heraldizacao": "3"}
     )
-    assert out["desincorporacao"] == 4
+    assert out["desincorporacao"] == 3
     assert out["rigidez_postural"] == 0
     assert out["heraldizacao"] == 3
     # Missing keys default to 0
     for k in mod.INDICATOR_KEYS:
         assert k in out
-        assert 0 <= out[k] <= 4
+        assert 0 <= out[k] <= 3
 
 
 # ---------------------------------------------------------------------------

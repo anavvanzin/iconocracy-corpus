@@ -12,25 +12,8 @@ before it touches `corpus-data.json`.**
 > OS. Quality delta vs. fp16 is measured at roughly 1–2 pp on Gemma-4 vision
 > benchmarks — acceptable for a staging signal that a human vets anyway.
 
-> ## ⚠️ Escala dos indicadores: 0–4 ou 0–3?
->
-> O repo contém um conflito documental que precisa ser resolvido pela
-> pesquisadora antes de qualquer coding em produção:
->
-> - `tools/schemas/master-record.schema.json` — restringe cada indicador a
->   `integer, minimum: 0, maximum: 4`. É o schema que a CI valida contra
->   `data/processed/records.jsonl`.
-> - `tools/schemas/purification-record.schema.json` — descreve a escala
->   como `0-3 ordinal scale`.
-> - `CLAUDE.md` (repo) — descreve a escala como `(0–3)` em três lugares.
->
-> Este script (`iconocode_gemma4.py`) segue o **master-record schema (0–4)**
-> porque é o que a CI enforça operacionalmente. Se o codebook da tese é
-> 0–3, é necessário ou (a) atualizar `master-record.schema.json` para 0–3 e
-> ajustar `INDICATOR_SCALE_MAX` aqui, ou (b) manter 0–4 e atualizar
-> `CLAUDE.md` + `purification-record.schema.json`. **Não faça coding em
-> produção até que o conflito esteja resolvido** — qualquer staging gerado
-> agora com escala errada precisará ser rejeitado no review humano.
+> Escala canônica: **0–3 ordinal** por Purificação Clássica codebook (conforme repo CLAUDE.md).
+> Schemas, script, e testes alinhados em commit T5.
 
 ## What this is
 
@@ -118,7 +101,7 @@ coding into a vault note.
 4. **Port approved codings** into the matching vault note under a
    `## IconoCode Analysis` section (format expected by
    `iconocode_to_corpus.py`). Keep the `endurecimento_score` line and each
-   indicator as `<name>: <0-4>`.
+   indicator as `<name>: <0-3>`.
 5. **Merge** to `corpus-data.json`:
    ```
    python tools/scripts/iconocode_to_corpus.py            # dry run

@@ -100,7 +100,7 @@ Data aproximada: {date}
 - iconografico: identificação dos motivos iconográficos convencionais (alegoria da República, Britannia, Germania, atributos: balança, escudo, coroa etc.). Máx 400 caracteres.
 - iconologico: significado cultural/jurídico-político no contexto do período. Máx 400 caracteres.
 
-=== 2. Dez indicadores de Purificação Clássica (escala 0–4; 0 = ausente, 4 = intenso) ===
+=== 2. Dez indicadores de Purificação Clássica (escala 0–3; 0 = ausente, 3 = intenso) ===
 - desincorporacao: ausência/abstração do corpo feminino histórico (quanto mais etérea, impessoal ou mineralizada a figura, maior)
 - rigidez_postural: pose estática, vertical, hierática, sem gesto narrativo
 - dessexualizacao: neutralização de marcadores sexuais secundários (drapeado púdico, ausência de busto erotizado)
@@ -150,7 +150,7 @@ Classifique em exatamente um de:
 Responda APENAS o JSON acima, preenchido. Sem prefixos, sem explicações extras, sem markdown.
 """
 
-REPAIR_PROMPT = """Sua resposta anterior não foi JSON válido. Reemita APENAS um objeto JSON, sem texto antes ou depois, seguindo exatamente o esquema pedido (chaves: panofsky, indicators, regime, reasoning, confidence). Valores numéricos inteiros 0–4 para cada indicador.
+REPAIR_PROMPT = """Sua resposta anterior não foi JSON válido. Reemita APENAS um objeto JSON, sem texto antes ou depois, seguindo exatamente o esquema pedido (chaves: panofsky, indicators, regime, reasoning, confidence). Valores numéricos inteiros 0–3 para cada indicador.
 """
 
 
@@ -429,7 +429,7 @@ def parse_model_output(text: str) -> dict[str, Any] | None:
 
 
 def coerce_indicators(raw: dict[str, Any] | None) -> dict[str, int]:
-    """Force indicator values into int 0..4. Missing keys default to 0."""
+    """Force indicator values into int 0..3. Missing keys default to 0."""
     out: dict[str, int] = {}
     raw = raw or {}
     for key in INDICATOR_KEYS:
@@ -438,7 +438,7 @@ def coerce_indicators(raw: dict[str, Any] | None) -> dict[str, int]:
             v = int(round(float(val)))
         except (TypeError, ValueError):
             v = 0
-        out[key] = max(0, min(4, v))
+        out[key] = max(0, min(3, v))
     return out
 
 
