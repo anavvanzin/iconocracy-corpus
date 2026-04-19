@@ -7,12 +7,16 @@ on:
       - 'data/processed/**'
       - 'tools/schemas/**'
       - 'tools/scripts/**'
+      - 'companion-data.json'
+      - '.github/workflows/validate.yml'
   pull_request:
     paths:
       - 'corpus/**'
       - 'data/processed/**'
       - 'tools/schemas/**'
       - 'tools/scripts/**'
+      - 'companion-data.json'
+      - '.github/workflows/validate.yml'
 
 jobs:
   validate:

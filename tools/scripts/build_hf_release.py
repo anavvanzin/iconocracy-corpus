@@ -259,9 +259,15 @@ def main() -> None:
         )
     snapshot_dir.mkdir(parents=True, exist_ok=True)
 
-    shutil.copy2(CORPUS, snapshot_dir / "corpus-data.json")
-    shutil.copy2(RECORDS, snapshot_dir / "records.jsonl")
-    shutil.copy2(PURIFICATION, snapshot_dir / "purification.jsonl")
+# Guard: refuse to build HF release with empty purification.jsonl
+    purif_path = Path('data/processed/purification.jsonl')
+    if purif_path.exists() and purif_path.stat().st_size < 100:
+        print('ERROR: purification.jsonl is empty — code items before releasing to HF')
+        raise SystemExit(1)
+
+    shutil.copy2(CORPUS, snapshot_dir / 'corpus-data.json')
+    shutil.copy2(RECORDS, snapshot_dir / 'records.jsonl')
+    shutil.copy2(PURIFICATION, snapshot_dir / 'purification.jsonl')
 
     changelog = render_changelog(args.note, stats)
     (snapshot_dir / "CHANGELOG.md").write_text(changelog, encoding="utf-8")
