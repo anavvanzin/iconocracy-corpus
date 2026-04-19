@@ -1,0 +1,13 @@
+# Minimum versions for tools/scripts/iconocode_gemma4.py
+# Model: google/gemma-4-E4B-it (image-text-to-text, 8B params, apache-2.0)
+# Host: Apple Silicon Mac with MPS (CPU fallback supported).
+#
+# Install into the iconocracy conda env:
+#   /opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/pip install -r requirements-iconocode-gemma4.txt
+#
+# This file is additive — it does NOT replace the repo's requirements.txt.
+
+transformers>=4.50
+torch>=2.3
+pillow>=10.0
+requests>=2.31

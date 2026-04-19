@@ -81,6 +81,11 @@ data/raw/.staging/
 data/raw/argos/manifest.lock
 data/raw/argos/*.bak
 
+# Gemma-4 IconoCode cache + staging (T3-int)
+.cache/iconocode-images/
+data/staging/iconocode-gemma4-runs.jsonl
+data/staging/iconocode-gemma4-runs.*.jsonl
+
 # Cloudflare local state (contains account IDs, geolocation, binary blobs)
 .wrangler/
 
