@@ -147,6 +147,7 @@ def apply_normalization(
       support_out_of_canonical: Counter (subset of support_after that is
           neither canonical nor a merge source)
       support_changed, country_pt_changed: int
+      ids_country_pt_none: sorted list of item ids where country_pt is None
     """
     support_before: Counter[Any] = Counter()
     support_after: Counter[Any] = Counter()
@@ -154,6 +155,7 @@ def apply_normalization(
     country_pt_after: Counter[Any] = Counter()
     support_changed = 0
     country_pt_changed = 0
+    ids_country_pt_none: list[str] = []
 
     out: list[dict[str, Any]] = []
     for item in data:
@@ -181,6 +183,12 @@ def apply_normalization(
             c = new_c
         country_pt_after[c] += 1
 
+        # Track IDs whose country_pt is None (post-normalization).
+        if c is None:
+            iid = new_item.get("id")
+            if isinstance(iid, str):
+                ids_country_pt_none.append(iid)
+
         out.append(new_item)
 
     # support_out_of_canonical: values after normalization that are neither
@@ -201,6 +209,7 @@ def apply_normalization(
         "support_out_of_canonical": support_ooc,
         "support_changed": support_changed,
         "country_pt_changed": country_pt_changed,
+        "ids_country_pt_none": sorted(ids_country_pt_none),
     }
     return out, stats
 
@@ -226,7 +235,10 @@ def _fmt_counter(c: Counter[Any]) -> str:
     return "\n".join(lines) if lines else "    (empty)"
 
 
-def print_report(stats: dict[str, Any], *, header: str) -> None:
+def print_report(stats: dict[str, Any], *, header: str) -> bool:
+    """Print the normalization report. Returns True iff any UNEXPECTED
+    support variant is present (value neither canonical nor in the known
+    out-of-canonical set). Callers use this to set exit code 2."""
     print(f"\n=== {header} ===")
     print("\n-- support before --")
     print(_fmt_counter(stats["support_before"]))
@@ -240,14 +252,28 @@ def print_report(stats: dict[str, Any], *, header: str) -> None:
     print(_fmt_counter(stats["country_pt_after"]))
     print(f"\ncountry_pt items changed: {stats['country_pt_changed']}")
 
+    # Enumerate IDs whose country_pt is None, sorted and compact.
+    none_ids: list[str] = stats.get("ids_country_pt_none", [])
+    if none_ids:
+        print(
+            f"country_pt=null ({len(none_ids)} items): "
+            + ", ".join(none_ids)
+        )
+
     ooc = stats["support_out_of_canonical"]
+    has_unexpected = False
     print("\n-- out-of-canonical support values (flagged, NOT rewritten) --")
     if ooc:
         for k, v in sorted(ooc.items(), key=lambda kv: (-kv[1], str(kv[0]))):
-            known = "known" if k in SUPPORT_OUT_OF_CANONICAL else "UNEXPECTED"
-            print(f"    {v:4d}  {k!r}  [{known}]")
+            is_known = k in SUPPORT_OUT_OF_CANONICAL
+            label = "known" if is_known else "UNEXPECTED"
+            if not is_known:
+                has_unexpected = True
+            print(f"    {v:4d}  {k!r}  [{label}]")
     else:
         print("    (none)")
+
+    return has_unexpected
 
 
 # ---- Entry point -------------------------------------------------------
@@ -307,16 +333,16 @@ def main(argv: list[str] | None = None) -> int:
             print(f"    {k!r}: {vs}")
 
     new_data, stats = apply_normalization(data)
-    print_report(stats, header="Normalization summary")
+    has_unexpected = print_report(stats, header="Normalization summary")
 
     if args.dry_run:
         print("\n[dry-run] No writes performed.")
-        return 0
+        return 2 if has_unexpected else 0
 
     changed = stats["support_changed"] + stats["country_pt_changed"]
     if changed == 0:
         print("\nNo changes required (already normalized). Skipping write.")
-        return 0
+        return 2 if has_unexpected else 0
 
     try:
         atomic_write_json(args.path, new_data)
@@ -325,7 +351,9 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     print(f"\nWrote {len(new_data)} items to {args.path} (atomic replace).")
-    return 0
+    # Exit code 2 is a signal (unexpected support variant present) AFTER a
+    # successful write; it does not block the write itself.
+    return 2 if has_unexpected else 0
 
 
 if __name__ == "__main__":
