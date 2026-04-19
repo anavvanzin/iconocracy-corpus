@@ -86,6 +86,10 @@ data/raw/argos/*.bak
 data/staging/iconocode-gemma4-runs.jsonl
 data/staging/iconocode-gemma4-runs.*.jsonl
 
+# LPAI v2 ingest staging (T4) — promoted via records_to_corpus.py after review
+data/staging/fichas-lpai-v2-parsed.jsonl
+data/staging/vault-drafts-lpai-v2/
+
 # Cloudflare local state (contains account IDs, geolocation, binary blobs)
 .wrangler/
 
