@@ -125,9 +125,22 @@ def test_dedup_detects_url_match(tmp_path):
     )
     records.write_text("", encoding="utf-8")
     idx = ingest.DedupIndex.from_files(corpus, records)
-    status, match = idx.classify("BR-SCOUT-001", "https://example.org/ficha/1", "New title")
+    status, match, signals = idx.classify(
+        "BR-SCOUT-001", "https://example.org/ficha/1", "New title"
+    )
     assert status == "PARTIAL"
     assert match == "XX-001"
+    assert signals == ["url"]
+
+
+def test_normalize_title_strips_parentheticals():
+    """Regression guard: `_normalize_title` drops parenthetical content so
+    the authorial attribution `(Félicien Rops)` does not break title_exact
+    equality with the LPAI ficha that omits it. Addresses the FR-SCOUT-001
+    ↔ FR-005 case called out in the T4 review."""
+    a = ingest._normalize_title("La République aimable (Félicien Rops)")
+    b = ingest._normalize_title("La République aimable")
+    assert a == b == "la republique aimable"
 
 
 def test_dedup_detects_title_match(tmp_path):
@@ -141,12 +154,13 @@ def test_dedup_detects_title_match(tmp_path):
     )
     records.write_text("", encoding="utf-8")
     idx = ingest.DedupIndex.from_files(corpus, records)
-    status, match = idx.classify(
+    status, match, signals = idx.classify(
         "BR-SCOUT-999", "https://brand-new/url", "alegoria da republica teste"
     )
     # title matches after normalization
     assert status == "PARTIAL"
     assert match == "XX-042"
+    assert signals == ["title_exact"]
 
 
 def test_dedup_strong_match_two_signals(tmp_path):
@@ -166,9 +180,11 @@ def test_dedup_strong_match_two_signals(tmp_path):
     )
     records.write_text("", encoding="utf-8")
     idx = ingest.DedupIndex.from_files(corpus, records)
-    status, match = idx.classify("BR-SCOUT-001", "https://u/1", "Exact Title")
+    status, match, signals = idx.classify("BR-SCOUT-001", "https://u/1", "Exact Title")
     assert status == "MATCHES"
     assert match == "XX-007"
+    assert "url" in signals
+    assert "title_exact" in signals
 
 
 def test_dedup_new_item(tmp_path):
@@ -177,9 +193,10 @@ def test_dedup_new_item(tmp_path):
     records = tmp_path / "records.jsonl"
     records.write_text("", encoding="utf-8")
     idx = ingest.DedupIndex.from_files(corpus, records)
-    status, match = idx.classify("BR-SCOUT-001", "https://new/1", "new title")
+    status, match, signals = idx.classify("BR-SCOUT-001", "https://new/1", "new title")
     assert status == "NEW"
     assert match is None
+    assert signals == []
 
 
 # ---------------------------------------------------------------------------
@@ -213,14 +230,101 @@ def test_wet_run_writes_jsonl_and_drafts(synth_docx, tmp_path):
     assert jsonl.exists()
     lines = jsonl.read_text(encoding="utf-8").strip().splitlines()
     assert len(lines) == 15
+    item_ids: list[str] = []
     # Each line parses as JSON with required top-level keys
     for line in lines:
         rec = json.loads(line)
         assert rec["master_record_version"] == "1.0"
         assert rec["input"]["input_url"].startswith("https://")
+        # Every record carries the ingest audit flag (regression guard for
+        # C2 / C3 flag-append logic and for downstream promote filtering).
+        assert "lpai_v2_ingest" in rec["exports"]["audit_flags"]
+        item_ids.append(rec["item_id"])
+    # Unique item_id values across all 15 records (guard against C2 regression:
+    # a copy-paste duplicate in the DOCX would collapse to the same uuid5).
+    assert len(set(item_ids)) == 15
     drafts_dir = Path(result["drafts_dir"])
     drafts = list(drafts_dir.glob("*.md"))
     assert len(drafts) == 15
+    # Every markdown filename contains its ficha_id (regression guard against
+    # `_slug()` over-eating on the title portion).
+    expected_ficha_ids = [
+        f"BR-SCOUT-{i + 1:03d}" if i < 7 else f"FR-SCOUT-{i - 6:03d}"
+        for i in range(15)
+    ]
+    draft_names = {p.name for p in drafts}
+    for fid in expected_ficha_ids:
+        assert any(fid in name for name in draft_names), (
+            f"no draft filename contains ficha_id {fid}; got {draft_names}"
+        )
+
+
+def test_empty_url_flags_block_promote(tmp_path):
+    """C3: a ficha with no URL keeps the placeholder (schema requires `uri`)
+    but gains a distinctive all-caps audit flag so the promote step can
+    grep for and refuse to merge placeholder records."""
+    ficha = {
+        "id": "BR-SCOUT-999",
+        "title": "Sem URL",
+        "url": "",
+        "url_download": "",
+        "creator": "",
+        "date": "",
+        "source": "",
+        "support": "",
+        "dimensions": "",
+        "lpai_code": "",
+        "classe": "",
+        "atributos": "",
+        "iconclass": "",
+        "regime": "FUNDACIONAL",
+        "modo": "",
+        "nota_analitica": "",
+        "ref_abnt": "",
+    }
+    rec = ingest.build_staging_record(
+        ficha,
+        batch_id="00000000-0000-4000-8000-lpaiv2scout0001",
+        now_iso="2026-04-19T12:00:00Z",
+    )
+    flags = rec["exports"]["audit_flags"]
+    assert "missing_url" in flags
+    assert "placeholder_url_BLOCK_PROMOTE" in flags
+    # Schema still validates (placeholder URL is a valid `uri`).
+    assert ingest.validate_record(rec) == []
+    assert rec["input"]["input_url"] == ingest.PLACEHOLDER_URL
+
+
+def test_dedup_url_canonicalization_http_vs_https(tmp_path):
+    """I2: http:// and https:// variants of a known archive host collide
+    through `_canonicalize_url`, and www./trailing-slash differences also
+    normalize out."""
+    corpus = tmp_path / "corpus.json"
+    records = tmp_path / "records.jsonl"
+    # Stored canonical-ish URL: https, no trailing slash.
+    corpus.write_text(
+        json.dumps(
+            [
+                {
+                    "id": "FR-XYZ",
+                    "title": "Teste canon",
+                    "url": "https://gallica.bnf.fr/ark:/12148/btv1babc",
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+    records.write_text("", encoding="utf-8")
+    idx = ingest.DedupIndex.from_files(corpus, records)
+    # Query with http + www + trailing slash — all three should normalize.
+    status, match, signals = idx.classify(
+        "FR-SCOUT-XXX",
+        "http://www.gallica.bnf.fr/ark:/12148/btv1babc/",
+        "totally different title",
+    )
+    assert status == "PARTIAL", f"expected PARTIAL, got {status} with signals={signals}"
+    assert match == "FR-XYZ"
+    assert "url" in signals
 
 
 def test_skip_images_does_not_create_images_dir(synth_docx, tmp_path):

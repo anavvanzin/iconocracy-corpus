@@ -31,7 +31,8 @@ import zipfile
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Tuple
+from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
+from urllib.parse import urlsplit, urlunsplit
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 DEFAULT_DOCX = Path("/Users/ana/Downloads/Documents/Fichas_LPAI_v2_Campanha_SCOUT_BR_FR.docx")
@@ -78,6 +79,29 @@ LPAI_OPTIONAL_FIELDS = {
 }
 
 SEPARATOR_MARKERS = {"═══  LPAI v2 RECORD  ═══", "───────────────────"}
+
+# Placeholder URL used when a ficha has no URL. Master-record + webscout-output
+# schemas both require `format: uri`, so we cannot leave it empty. The
+# companion `placeholder_url_BLOCK_PROMOTE` audit flag acts as an all-caps,
+# grep-clean marker so downstream promote tooling can refuse to merge these
+# records until a real URL lands.
+PLACEHOLDER_URL = "https://example.org/lpai-placeholder"
+
+# Known archive hosts whose http/https variants describe the same resource.
+# Used by `_canonicalize_url` to coerce `http` → `https` before matching, so
+# pre-2018 legacy links in `corpus-data.json` collide with current https ones.
+KNOWN_ARCHIVE_HOSTS = frozenset(
+    {
+        "gallica.bnf.fr",
+        "europeana.eu",
+        "loc.gov",
+        "numista.com",
+        "bildindex.de",
+        "rijksmuseum.nl",
+        "bn.gov.br",
+        "bndigital.bnportugal.gov.pt",
+    }
+)
 
 
 # ---------------------------------------------------------------------------
@@ -244,9 +268,13 @@ def build_staging_record(
     place_hint = country_code_to_name(country_code) if country_code else ""
 
     abnt_list = build_abnt_from_ficha(ficha)
-    audit_flags = []
+    audit_flags: List[str] = []
+    url_for_record = url or PLACEHOLDER_URL
     if not url:
         audit_flags.append("missing_url")
+        # All-caps, grep-clean marker so a downstream promote step can refuse
+        # to merge placeholder-URL records into the canonical ledger.
+        audit_flags.append("placeholder_url_BLOCK_PROMOTE")
     if not title:
         audit_flags.append("missing_title")
     if ficha.get("_extra"):
@@ -265,7 +293,7 @@ def build_staging_record(
                 "evidence_id": "lpai-src",
                 "source_type": "primary_image",
                 "title": title or ficha_id,
-                "url": url or "https://example.org/lpai-placeholder",
+                "url": url_for_record,
                 "abnt_citation": abnt_list[0]
                 if abnt_list
                 else f"[{ficha_id}] sem ABNT no ficha v2.",
@@ -313,7 +341,7 @@ def build_staging_record(
         "item_id": item_uuid_for(ficha),
         "item_hash": item_hash_for(ficha),
         "input": {
-            "input_url": url or "https://example.org/lpai-placeholder",
+            "input_url": url_for_record,
             "title_hint": title,
             "date_hint": ficha.get("date", ""),
             "place_hint": place_hint,
@@ -342,7 +370,51 @@ def _normalize_title(s: str) -> str:
         if not unicodedata.combining(ch)
     )
     s = re.sub(r"[—–\-_,.;:!?\"']", " ", s)
+    # Strip parenthetical content so "La République aimable (Félicien Rops)"
+    # reduces to "la republique aimable" for substring matching.
+    s = re.sub(r"\([^)]*\)", " ", s)
     return re.sub(r"\s+", " ", s).strip()
+
+
+def _canonicalize_url(url: str) -> str:
+    """Canonicalize a URL so http/https and www/non-www variants collide.
+
+    Rules:
+    - lowercase host, strip leading `www.`
+    - drop trailing `/` on the path (unless the path is the sole `/`)
+    - force `https` scheme when the host (bare, minus `www.`) matches a
+      known archive host in `KNOWN_ARCHIVE_HOSTS`
+    - preserve query and fragment
+    - if the input is not a parseable URL or has no host, return it
+      stripped of trailing slash / lowercased-ish (best effort)
+    """
+    if not url:
+        return ""
+    try:
+        parts = urlsplit(url.strip())
+    except ValueError:
+        return url.strip().rstrip("/")
+    scheme = (parts.scheme or "").lower()
+    host = (parts.netloc or "").lower()
+    if host.startswith("www."):
+        host = host[4:]
+    # Force https on known archive hosts — matches `host` itself or any
+    # suffix-match like `en.numista.com` against `numista.com`.
+    if scheme == "http" and host:
+        for known in KNOWN_ARCHIVE_HOSTS:
+            if host == known or host.endswith("." + known):
+                scheme = "https"
+                break
+    path = parts.path or ""
+    if len(path) > 1 and path.endswith("/"):
+        path = path.rstrip("/")
+    return urlunsplit((scheme, host, path, parts.query, parts.fragment))
+
+
+# Minimum length for the title-substring dedup pass. Guards against the
+# shortest substrings collapsing to "a" / "the" / "la" and matching every
+# item in the corpus.
+TITLE_SUBSTRING_MIN_CHARS = 8
 
 
 @dataclass
@@ -360,7 +432,7 @@ class DedupIndex:
                     iid = item.get("id") or ""
                     if iid:
                         idx.ids.add(iid)
-                    url = item.get("url")
+                    url = _canonicalize_url(item.get("url") or "")
                     if url and url not in idx.url_to_id:
                         idx.url_to_id[url] = iid
                     t = _normalize_title(item.get("title", ""))
@@ -374,7 +446,7 @@ class DedupIndex:
                     if iid:
                         idx.ids.add(iid)
                     inp = rec.get("input") or {}
-                    url = inp.get("input_url")
+                    url = _canonicalize_url(inp.get("input_url") or "")
                     if url and url not in idx.url_to_id:
                         idx.url_to_id[url] = iid
                     t = _normalize_title(inp.get("title_hint", ""))
@@ -382,25 +454,45 @@ class DedupIndex:
                         idx.title_to_id[t] = iid
         return idx
 
-    def classify(self, ficha_id: str, url: str, title: str) -> Tuple[str, Optional[str]]:
-        """Return (status, matched_existing_id) where status is:
+    def classify(
+        self, ficha_id: str, url: str, title: str
+    ) -> Tuple[str, Optional[str], List[str]]:
+        """Return (status, matched_existing_id, signals) where status is:
         'NEW' | 'MATCHES' | 'PARTIAL'.
+
+        `signals` is a list of the signal names that hit — one of:
+        `id`, `url`, `title_exact`, `title_substring`. Exposed so the
+        dedup report can distinguish weak (title_substring) from strong
+        (title_exact) title matches.
         """
-        hits = []
+        hits: List[Tuple[str, str]] = []
         if ficha_id and ficha_id in self.ids:
             hits.append(("id", ficha_id))
-        if url and url in self.url_to_id:
-            hits.append(("url", self.url_to_id[url]))
+        canon_url = _canonicalize_url(url)
+        if canon_url and canon_url in self.url_to_id:
+            hits.append(("url", self.url_to_id[canon_url]))
         nt = _normalize_title(title)
+        title_signal_kind: Optional[str] = None
         if nt and nt in self.title_to_id:
-            hits.append(("title", self.title_to_id[nt]))
+            hits.append(("title_exact", self.title_to_id[nt]))
+            title_signal_kind = "title_exact"
+        elif nt and len(nt) >= TITLE_SUBSTRING_MIN_CHARS:
+            # Second pass: title substring match. Iterates the (small,
+            # ~200 entries) title index and promotes weaker similarity.
+            for stored, stored_id in self.title_to_id.items():
+                if len(stored) < TITLE_SUBSTRING_MIN_CHARS:
+                    continue
+                if nt in stored or stored in nt:
+                    hits.append(("title_substring", stored_id))
+                    title_signal_kind = "title_substring"
+                    break
         if not hits:
-            return "NEW", None
-        # If only one signal hit, partial match
+            return "NEW", None, []
+        signals = [name for name, _ in hits]
         if len(hits) == 1:
-            return "PARTIAL", hits[0][1]
+            return "PARTIAL", hits[0][1], signals
         # ≥2 orthogonal signals → strong match
-        return "MATCHES", hits[0][1]
+        return "MATCHES", hits[0][1], signals
 
 
 # ---------------------------------------------------------------------------
@@ -618,12 +710,31 @@ def run(
 
     per_ficha: List[Dict[str, Any]] = []
     records: List[Dict[str, Any]] = []
+    # Intra-batch dedup: detect copy-paste duplicates inside the DOCX (same
+    # ficha_id or URL appearing twice across distinct ficha tables). The
+    # second (and later) occurrence gets an `intra_batch_duplicate` audit
+    # flag. We do not skip or hard-fail — the user adjudicates during
+    # promote review.
+    seen_keys: Set[Tuple[str, str]] = set()
+    intra_batch_dup_count = 0
     for f in fichas:
         record = build_staging_record(f, batch_id=batch_id, now_iso=now)
         errors = validate_record(record)
-        dedup_status, matched = dedup.classify(
+        dedup_status, matched, signals = dedup.classify(
             f.get("id", ""), f.get("url", ""), f.get("title", "")
         )
+        ficha_id = (f.get("id") or "").strip()
+        canon = _canonicalize_url(f.get("url") or "")
+        key = (ficha_id, canon)
+        intra_batch_dup = False
+        # Only flag when at least one of (id, url) is non-empty — an all-empty
+        # key would collapse every malformed ficha onto the same bucket.
+        if (ficha_id or canon) and key in seen_keys:
+            intra_batch_dup = True
+            intra_batch_dup_count += 1
+            record["exports"]["audit_flags"].append("intra_batch_duplicate")
+        else:
+            seen_keys.add(key)
         per_ficha.append(
             {
                 "ficha": f,
@@ -631,6 +742,8 @@ def run(
                 "validation_errors": errors,
                 "dedup_status": dedup_status,
                 "dedup_match_id": matched,
+                "dedup_signals": signals,
+                "intra_batch_duplicate": intra_batch_dup,
             }
         )
         records.append(record)
@@ -670,6 +783,7 @@ def run(
         "written_files": written_files,
         "extracted_images": extracted_images,
         "validation_failed": validation_failed,
+        "intra_batch_duplicates": intra_batch_dup_count,
         "batch_id": batch_id,
         "now": now,
         "dry_run": dry_run,
@@ -688,6 +802,8 @@ def _print_summary(result: Dict[str, Any]) -> None:
     for e in fichas:
         dedup_counts[e["dedup_status"]] = dedup_counts.get(e["dedup_status"], 0) + 1
     print(f"  dedup: {dedup_counts}", file=sys.stderr)
+    intra = result.get("intra_batch_duplicates", 0)
+    print(f"  intra-batch duplicates: {intra}", file=sys.stderr)
     fails = sum(1 for e in fichas if e["validation_errors"])
     print(f"  validation: {len(fichas) - fails}/{len(fichas)} pass", file=sys.stderr)
     if result["dry_run"]:

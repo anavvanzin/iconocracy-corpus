@@ -1,13 +1,18 @@
 # T4 — LPAI v2 Ingest Report (staging phase)
 
-**Run date:** 2026-04-19  
-**Source DOCX:** `/Users/ana/Downloads/Documents/Fichas_LPAI_v2_Campanha_SCOUT_BR_FR.docx`  
-**Parser:** `tools/scripts/ingest_fichas_lpai.py`  
+**Run date:** 2026-04-19 (parser), updated 2026-04-19 (T4 review follow-up)
+**Source DOCX:** `/Users/ana/Downloads/Documents/Fichas_LPAI_v2_Campanha_SCOUT_BR_FR.docx`
+**Parser:** `tools/scripts/ingest_fichas_lpai.py`
 **Batch ID:** `00000000-0000-4000-8000-lpaiv2scout0001`
 
 > This report documents the **staging** phase only. Nothing in
 > `corpus/corpus-data.json`, `data/processed/records.jsonl`,
 > `data/processed/purification.jsonl`, or `vault/candidatos/` was touched.
+>
+> **Updated after T4 review:** intra-batch dedup, URL canonicalization,
+> title-substring dedup, and a `placeholder_url_BLOCK_PROMOTE` audit flag
+> have been added to the parser. The per-ficha table and §3 reflect the
+> post-fix classifier.
 
 ## 1. Parse outcome
 
@@ -17,6 +22,10 @@
   via `tools/scripts/validate_schemas.py`. Every record carries an
   `audit_flags: ["lpai_v2_ingest"]` tag so downstream tooling can
   distinguish ingested-but-uncoded items from fully-coded corpus members.
+- **Intra-batch duplicates:** 0 (no copy-paste duplicates inside the 15
+  ficha tables). The parser tracks `(ficha_id, canonicalized_url)` seen
+  during the parse loop and appends an `intra_batch_duplicate` audit
+  flag on any second-or-later occurrence; the DOCX has none.
 - **Inline images in DOCX:** 0 (confirmed via `zipfile` inspection of
   `word/media/`). The `_images/` directory is created empty for
   consistency; image attachment happens through the existing ARGOS
@@ -24,45 +33,113 @@
 
 ## 2. Per-ficha table
 
-| Proposed ID | Title (truncated) | Country | Support (truncated) | URL | Dedup |
-|---|---|---|---|---|---|
-| BR-SCOUT-001 | Alegoria da República Brasileira — Revista Illustrada | BR | Litografia em periódico (Revista Il… | commons.wikimedia.org/wiki/File:Repub… | NEW |
-| BR-SCOUT-002 | Alegoria à República — Capa da Revista Illustrada n. 566 | BR | Litografia em periódico (capa, Revi… | commons.wikimedia.org/wiki/File:Capa_… | NEW |
-| BR-SCOUT-003 | Alegoria da República — Manoel Lopes Rodrigues (óleo s.t.) | BR | Óleo sobre tela, 230 × 120 cm | artsandculture.google.com/story/cole… | NEW |
-| BR-SCOUT-004 | Alegoria à Lei de 13 de Maio de 1888 (estudo) | BR | Pintura a óleo sobre tela (estudo) | mhn.museus.gov.br/estudo-de-decio-vil… | NEW |
-| BR-SCOUT-005 | A Justiça (escultura monumental) — STF, Brasília | BR | Granito monolítico de Petrópolis, 3… | commons.wikimedia.org/wiki/Category:J… | NEW |
-| BR-SCOUT-006 | Suffragistas — Fon-Fon, 16 de maio de 1914 | BR | Litografia/caricatura em periódico… | bndigital.bn.gov.br/exposicoes/brasil… | NEW |
-| BR-SCOUT-007 | O Feminismo Triumphante — Revista da Semana, 20 maio 1933 | BR | Fotografia/ilustração em periódico | bndigital.bn.gov.br/exposicoes/brasil… | NEW |
-| FR-SCOUT-001 | La République aimable | FR | Estampa (gravura, eau-forte) | gallica.bnf.fr/ark:/12148/btv1b531842… | **PARTIAL → FR-005** |
-| FR-SCOUT-002 | La République nous appelle... (État avec remarque) | FR | Litografia (état avec remarque, édi… | gallica.bnf.fr/ark:/12148/btv1b105106… | NEW |
-| FR-SCOUT-003 | République de Clésinger (fotografia de demonstração) | FR | Fotografia (tirage de démonstration… | gallica.bnf.fr/ark:/12148/btv1b531241… | NEW |
-| FR-SCOUT-004 | Unité indivisibilité de la République (j'ai rompu mes c…) | FR | Estampa (gravura em relevo/entalhe) | gallica.bnf.fr/ark:/12148/btv1b695038… | NEW |
-| FR-SCOUT-005 | Buste de la République (série de 4 fotografias) | FR | Fotografia de imprensa (busto escul…) | gallica.bnf.fr/ark:/12148/btv1b695287… | NEW |
-| FR-SCOUT-006 | Liberté (Moitte/Janinet) | FR | Estampa (gravura colorida — Janinet…) | gallica.bnf.fr/ark:/12148/btv1b100269… | NEW |
-| FR-SCOUT-007 | La République (en hauteur) — Exposição Internacional 1889 | FR | Fotografia (escultura monumental da…) | gallica.bnf.fr/ark:/12148/btv1b116003… | NEW |
-| FR-SCOUT-008 | Étude pour le 1er mai? (Steinlen) | FR | Desenho (dessin original) | gallica.bnf.fr/ark:/12148/btv1b531888… | NEW |
+Post-fix (T4 follow-up) dedup signals. Columns: `url` (exact after
+canonicalization), `title_exact` (normalized equality, parentheticals
+stripped), `title_substring` (weaker containment ≥ 8 chars). Two or more
+signals → `MATCHES`; one → `PARTIAL`; none → `NEW`. `INTRA-BATCH` would
+appear here if the parser flagged a record as a within-batch duplicate;
+this run has none.
 
-## 3. Dedup deep-dive (PARTIAL matches)
+| Proposed ID | Title (truncated) | Country | URL (host) | Dedup |
+|---|---|---|---|---|
+| BR-SCOUT-001 | Alegoria da República Brasileira — Revista Illustrada | BR | commons.wikimedia.org | **PARTIAL → BR-005** (title_substring) |
+| BR-SCOUT-002 | Alegoria à República — Capa da Revista Illustrada n. 566 | BR | commons.wikimedia.org | NEW |
+| BR-SCOUT-003 | Alegoria da República — Manoel Lopes Rodrigues (óleo s.t.) | BR | artsandculture.google.com | **PARTIAL → BR-005** (title_substring) |
+| BR-SCOUT-004 | Alegoria à Lei de 13 de Maio de 1888 (estudo) | BR | mhn.museus.gov.br | NEW |
+| BR-SCOUT-005 | A Justiça (escultura monumental) — STF, Brasília | BR | commons.wikimedia.org | **PARTIAL → BR-009** (title_substring) |
+| BR-SCOUT-006 | Suffragistas — Fon-Fon, 16 de maio de 1914 | BR | bndigital.bn.gov.br | NEW |
+| BR-SCOUT-007 | O Feminismo Triumphante — Revista da Semana, 20 maio 1933 | BR | bndigital.bn.gov.br | NEW |
+| FR-SCOUT-001 | La République aimable | FR | gallica.bnf.fr | **MATCHES → FR-005** (url + title_exact) |
+| FR-SCOUT-002 | La République nous appelle... (État avec remarque) | FR | gallica.bnf.fr | **PARTIAL → FR-008** (title_exact) |
+| FR-SCOUT-003 | République de Clésinger (fotografia de demonstração) | FR | gallica.bnf.fr | NEW |
+| FR-SCOUT-004 | Unité indivisibilité de la République (j'ai rompu mes c…) | FR | gallica.bnf.fr | NEW |
+| FR-SCOUT-005 | Buste de la République (série de 4 fotografias) | FR | gallica.bnf.fr | **PARTIAL → FR-009** (title_exact) |
+| FR-SCOUT-006 | Liberté (Moitte/Janinet) | FR | gallica.bnf.fr | **PARTIAL → FR-038** (title_exact) |
+| FR-SCOUT-007 | La République (en hauteur) — Exposição Internacional 1889 | FR | gallica.bnf.fr | NEW |
+| FR-SCOUT-008 | Étude pour le 1er mai? (Steinlen) | FR | gallica.bnf.fr | NEW |
 
-### FR-SCOUT-001 ↔ existing FR-005
+Post-fix distribution: `MATCHES` = 1, `PARTIAL` = 6, `NEW` = 8,
+`INTRA-BATCH` = 0.
 
-- **New (LPAI v2):** La République aimable — no creator in title.
-- **Existing corpus item FR-005:** `La République aimable (Félicien Rops)` —
-  attributed to Rops, dated 1871, regime `contra-alegoria`.
-- **Shared signals:** identical `url`
-  (`https://gallica.bnf.fr/ark:/12148/btv1b531842166`) **and**
-  normalized-title substring match.
-- **Diagnosis:** almost certainly the same object; the LPAI v2 ficha drops
-  the parenthetical attribution. The dedup classifier flagged this as
-  PARTIAL (not MATCHES) because only the URL hit registered as an exact
-  signal — the LPAI title is a strict prefix of the canonical title.
+## 3. Dedup deep-dive
 
-**Recommended resolution:** *do not create a new corpus entry*. Promote the
-staging record as an **enrichment** of `FR-005` — merge LPAI v2 fields
-(`lpai_v2_code`, `classe`, `atributos`, `nota_analitica`, updated
-`citation_abnt`) into the existing record rather than appending a new
-row. The staged JSON line and draft vault note for FR-SCOUT-001 should be
-archived but not promoted.
+### 3.1 How the classifier works (post-fix)
+
+`DedupIndex.classify` now produces a **signal list** rather than a single
+winner. Three signal families:
+
+1. **`url`** — exact equality after `_canonicalize_url` (lowercase host,
+   strip `www.`, drop trailing `/`, force `https` on known archive hosts:
+   `gallica.bnf.fr`, `europeana.eu`, `loc.gov`, `numista.com`,
+   `bildindex.de`, `rijksmuseum.nl`, `bn.gov.br`,
+   `bndigital.bnportugal.gov.pt`). Applied at both index-build and query
+   time, so http/https and www./non-www variants collide.
+2. **`title_exact`** — normalized-title dict equality. Normalization
+   lowercases, strips diacritics, removes punctuation, **and strips
+   parenthetical content** (so `"La République aimable (Félicien Rops)"`
+   reduces to `"la republique aimable"`).
+3. **`title_substring`** — second-pass containment check over the title
+   index (≥ 8 chars on each side, iterates the full index). Promotes
+   weaker prefix/substring matches that exact equality would miss.
+
+Classification: zero signals → `NEW`; exactly one signal → `PARTIAL`; two
+or more orthogonal signals → `MATCHES`.
+
+**Correction of the pre-fix report.** An earlier revision of §3
+incorrectly claimed the original (pre-fix) classifier matched
+FR-SCOUT-001 ↔ FR-005 via URL **and** a "normalized-title substring
+match". That was false: the original `DedupIndex.classify` did only
+exact-equality dict lookup on normalized titles, and the authorial
+parenthetical `(Félicien Rops)` broke that exact match, so only the URL
+signal registered — which is why the status was `PARTIAL`, not `MATCHES`.
+The T4 review follow-up (I1) added the explicit substring pass and (also
+I1) made `_normalize_title` strip parentheticals, which is what now
+drives the `title_exact` match for this pair.
+
+### 3.2 FR-SCOUT-001 ↔ existing FR-005 (MATCHES, post-fix)
+
+- **New (LPAI v2):** `La République aimable` — no creator in title.
+- **Existing corpus item FR-005:** `La République aimable (Félicien Rops)`,
+  dated 1871, regime `contra-alegoria`.
+- **Shared signals after the fix:**
+  - `url`: `https://gallica.bnf.fr/ark:/12148/btv1b531842166` (identical
+    on both sides; canonicalization has no effect here because both are
+    already `https`, no `www`, no trailing slash — but would equally
+    absorb a legacy `http://www.gallica.bnf.fr/...` link if one appeared).
+  - `title_exact`: after stripping the `(Félicien Rops)` parenthetical,
+    the two titles normalize to the same string `"la republique aimable"`.
+- **Classification:** two orthogonal signals → **MATCHES** (was `PARTIAL`
+  in the original T4 run because the pre-fix classifier used
+  exact-equality on normalized titles without stripping parentheticals;
+  URL alone gave the single PARTIAL hit).
+
+**Resolution unchanged:** treat as an enrichment of `FR-005`, not a new
+corpus entry. The staged JSON line and draft vault note for FR-SCOUT-001
+should be archived but not promoted. Merge LPAI-specific fields into
+`FR-005` (`lpai_v2_code`, `classe`, `atributos`, `nota_analitica`,
+updated ABNT) manually or via `records_to_corpus.py` after editing the
+canonical record.
+
+### 3.3 Other PARTIAL matches — need human adjudication
+
+The I1 title-substring pass plus the parenthetical-stripping normalization
+surfaced five additional PARTIAL overlaps that the pre-fix classifier
+could not see. Every one needs a human call before promotion.
+
+| Candidate | Existing | Signal | Notes |
+|---|---|---|---|
+| BR-SCOUT-001 | BR-005 `Alegoria da República (Décio Villares)` | `title_substring` | Different object (Agostini litho in Revista Illustrada vs. Villares oil). Both carry the stem "alegoria da republica" — substring match is noise here. Promote as new. |
+| BR-SCOUT-003 | BR-005 `Alegoria da República (Décio Villares)` | `title_substring` | Different object (Lopes Rodrigues oil vs. Villares oil). Same substring noise as BR-SCOUT-001. Promote as new. |
+| BR-SCOUT-005 | BR-009 `A Justiça (Alfredo Ceschiatti, STF Brasília)` | `title_substring` | **Same object.** LPAI ficha title omits the Ceschiatti attribution. Enrich BR-009, do not promote as new. |
+| FR-SCOUT-002 | FR-008 `La République nous appelle... (Steinlen)` | `title_exact` | Same object, different edition/state (état avec remarque). Promote as a sibling variant record cross-linked to FR-008, or merge as enrichment — Ana decides. |
+| FR-SCOUT-005 | FR-009 `Buste de la République (Agence Rol)` | `title_exact` | Same object family (Buste de la République series). Enrich FR-009 with the "série de 4 fotografias" grouping, or promote as a sibling. |
+| FR-SCOUT-006 | FR-038 `Liberté (d'après Moitte)` | `title_exact` | Same object. Canonical FR-038 has no URL; LPAI ficha supplies the Gallica URL. Enrich FR-038 with the URL instead of creating a duplicate. |
+
+`title_substring` matches are weaker than `title_exact` and frequently
+false-positive on corpus-wide stems like "alegoria da república". Treat
+them as review triggers, not verdicts. `title_exact` matches (where
+parenthetical stripping produced the equality) are much stronger signals
+— assume same-or-sibling object and adjudicate accordingly.
 
 ## 4. Validation summary
 
@@ -76,21 +153,30 @@ archived but not promoted.
 - **Purificação (`purificacao`) is absent on every ingested record.**
   Valid — the schema marks that block optional. It will be populated by
   IconoCode after promotion.
+- **Placeholder-URL guard (C3).** The parser no longer silently slots
+  `https://example.org/lpai-placeholder` into records with empty URLs.
+  The placeholder is still written (master-record + webscout-output both
+  require `format: uri`), but the record now also carries an all-caps
+  `placeholder_url_BLOCK_PROMOTE` audit flag. A downstream promote step
+  can `grep` for this marker and refuse to merge those records into the
+  canonical ledger until a real URL lands. This run produced zero
+  placeholder records — all 15 fichas have URLs.
 
 ## 5. Required human actions before merge
 
-### a. Disambiguate FR-SCOUT-001
+### a. Disambiguate FR-SCOUT-001 and the five other PARTIAL matches
 
-Decide: merge into `FR-005` (recommended) or assert this is a distinct
-printing/state that deserves its own record. If merging: drop the line
-for FR-SCOUT-001 from the staged JSONL before appending to
-`records.jsonl`, and copy the LPAI-specific fields into `FR-005`
-manually.
+FR-SCOUT-001 is a MATCHES result — merge into FR-005 (do not promote as a
+new row). The five PARTIAL results (BR-SCOUT-001, BR-SCOUT-003,
+BR-SCOUT-005, FR-SCOUT-002, FR-SCOUT-005, FR-SCOUT-006) each need the
+call described in §3.3: enrich an existing record, promote as a sibling
+variant, or promote as new. No automatic behavior is triggered by
+`PARTIAL` — the classifier only tags; promotion is human-driven.
 
-### b. Queue the 15 new records for IconoCode coding
+### b. Queue the new records for IconoCode coding
 
-After merge, the T3 coding queue grows by **14** items (15 ingested,
-minus 1 de-duplicated):
+After merge, the T3 coding queue grows by the number of items that land
+as fresh entries (between 8 and 14, depending on the §3.3 adjudications).
 
 ```bash
 # once promoted
@@ -124,16 +210,22 @@ The DOCX itself carries no inline media. For each staged item:
 
 ## 6. Promotion commands (run after review)
 
-**DO NOT run these until actions 5.a–5.c above are satisfied.** This is
-the skeleton merge pipeline; see `docs/OPERATING_MODEL.md` §release-gate
-for policy.
+**DO NOT run these until actions 5.a–5.c above are satisfied, and in
+particular until you have `grep`-checked the staged JSONL for
+`placeholder_url_BLOCK_PROMOTE` and `intra_batch_duplicate` flags.** This
+is the skeleton merge pipeline; see `docs/OPERATING_MODEL.md`
+§release-gate for policy.
 
 ```bash
+# 0. Gate: refuse to promote records with placeholder URLs or intra-batch duplicates
+grep -l "placeholder_url_BLOCK_PROMOTE\|intra_batch_duplicate" \
+  data/staging/fichas-lpai-v2-parsed.jsonl \
+  && echo "STOP — clean up flagged records first" && exit 1
+
 # 1. Promote (approved) vault drafts to vault/candidatos/
 #    Review each file, then:
 cp data/staging/vault-drafts-lpai-v2/BR-SCOUT-001*.md vault/candidatos/
 # ... repeat for each approved ficha ...
-# (or use a for-loop once you've inspected all 14/15)
 
 # 2. Append ingested JSONL to the canonical ledger
 cat data/staging/fichas-lpai-v2-parsed.jsonl >> data/processed/records.jsonl
