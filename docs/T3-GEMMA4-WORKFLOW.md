@@ -5,6 +5,26 @@ Automated IconoCode coding for the 19 uncoded corpus items (queue:
 apache-2.0, ~8B params). **Every output goes to a STAGING file and requires
 per-item human review before it touches `corpus-data.json`.**
 
+> ## ⚠️ Escala dos indicadores: 0–4 ou 0–3?
+>
+> O repo contém um conflito documental que precisa ser resolvido pela
+> pesquisadora antes de qualquer coding em produção:
+>
+> - `tools/schemas/master-record.schema.json` — restringe cada indicador a
+>   `integer, minimum: 0, maximum: 4`. É o schema que a CI valida contra
+>   `data/processed/records.jsonl`.
+> - `tools/schemas/purification-record.schema.json` — descreve a escala
+>   como `0-3 ordinal scale`.
+> - `CLAUDE.md` (repo) — descreve a escala como `(0–3)` em três lugares.
+>
+> Este script (`iconocode_gemma4.py`) segue o **master-record schema (0–4)**
+> porque é o que a CI enforça operacionalmente. Se o codebook da tese é
+> 0–3, é necessário ou (a) atualizar `master-record.schema.json` para 0–3 e
+> ajustar `INDICATOR_SCALE_MAX` aqui, ou (b) manter 0–4 e atualizar
+> `CLAUDE.md` + `purification-record.schema.json`. **Não faça coding em
+> produção até que o conflito esteja resolvido** — qualquer staging gerado
+> agora com escala errada precisará ser rejeitado no review humano.
+
 ## What this is
 
 `tools/scripts/iconocode_gemma4.py` loads Gemma-4, fetches the item image,

@@ -599,11 +599,20 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
 
+    if not args.items and not args.all_uncoded:
+        print(
+            "ERRO: especifique --items ID[,ID,...] ou --all-uncoded. "
+            "Invocação sem alvo explícito é desabilitada por segurança "
+            "(evita codificação acidental em lote).",
+            file=sys.stderr,
+        )
+        return 1
+
     corpus = load_corpus()
     ids: list[str] | None = None
     if args.items:
         ids = [s.strip() for s in args.items.split(",") if s.strip()]
-    items = select_items(corpus, ids, args.all_uncoded or not ids)
+    items = select_items(corpus, ids, args.all_uncoded)
 
     if not items:
         print("AVISO: nenhum item a codificar — saída limpa.", file=sys.stderr)

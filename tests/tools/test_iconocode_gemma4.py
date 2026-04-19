@@ -271,6 +271,14 @@ def test_unknown_id_raises(fake_corpus):
         mod.select_items(fake_corpus, ids=["NOT-A-REAL-ID"], all_uncoded=False)
 
 
+def test_main_requires_explicit_target(capsys):
+    """No --items and no --all-uncoded → exit 1 with clear error (I2 fix)."""
+    rc = mod.main([])
+    assert rc == 1
+    err = capsys.readouterr().err
+    assert "--items" in err and "--all-uncoded" in err
+
+
 # ---------------------------------------------------------------------------
 # 5. Caching — second call on same ID does NOT re-download
 # ---------------------------------------------------------------------------
