@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2026). Integrates a searchable corpus of 145+ female allegorical figures, research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
+Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2026). Integrates a searchable corpus of 165 female allegorical figures, research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
 
 ---
 
@@ -34,8 +34,9 @@ python tools/scripts/argos_report.py               # render markdown acquisition
 make -C vault/tese/ docx                           # full thesis → DOCX
 make -C vault/tese/ pdf                            # full thesis → PDF (requires LaTeX)
 
-# Web apps
-cd webiconocracy && npm run dev                    # React corpus explorer (port 3000)
+# Web apps (Gallica MCP server)
+cd indexing/gallica-mcp-server && npm run dev      # port 3001
+# NOTE: webiconocracy React explorer was retired (directory no longer present)
 ```
 
 ---
@@ -71,7 +72,6 @@ tese/manuscrito/    → thesis chapters (Markdown, compiled via Pandoc)
 tools/scripts/      → Python automation scripts (50+; see tools/scripts/ for full list)
 tools/schemas/      → JSON schemas (master-record, iconocode-output, webscout-input/output)
 notebooks/          → sequential analysis (01_exploratory → 02_kruskal_wallis → 03_regression → 04_correspondence)
-webiconocracy/      → React+Vite+Firebase corpus explorer
 indexing/           → Gallica MCP server, corpus-scout-agent
 deploy/             → Cloudflare Workers companion, HF Space
 ```

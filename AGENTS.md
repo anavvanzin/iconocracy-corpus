@@ -10,7 +10,7 @@
 - **QA de export**: `python tools/scripts/records_to_corpus.py --diff` antes de tocar em `corpus/corpus-data.json`.
 - **Sync do vault**: `python tools/scripts/vault_sync.py status|pull|push|sync|diff` mantém `vault/candidatos/` alinhado a `records.jsonl`. Use `pull` antes de editar notas e `push` ao final.
 - **Codificação endurecimento**: `python tools/scripts/code_purification.py --status|--item ID|--batch SIGLA|--export-csv` atualiza `data/processed/purification.jsonl` + `corpus_dataset.csv`.
-- **Atlas / tese**: `make -C vault/tese/ docx` ou `make -C vault/tese/ pdf`. Webapps: `cd webiconocracy && npm run dev` (porta 3000), `cd indexing/gallica-mcp-server && npm run dev` (3001).
+- **Atlas / tese**: `make -C vault/tese/ docx` ou `make -C vault/tese/ pdf`. Webapp ativo: `cd indexing/gallica-mcp-server && npm run dev` (porta 3001). `webiconocracy/` foi aposentado.
 - **Releases**: rode `validate_schemas.py`, `vault_sync.py status`, `records_to_corpus.py --diff`, `code_purification.py --status` **antes** de `python tools/scripts/build_hf_release.py`.
 - **Ingest**: `python iconocracy-ingest/ingest.py <batch> --dry-run` sempre precede qualquer escrita.
 
@@ -37,7 +37,7 @@
 - `rede feminista [raiz?]` → `extract_feminist_network.py`; `lote exemplo` → `batch_example.py`.
 
 ## Estilo e terminologia obrigatórios
-- Sempre use os termos originais da tese: **endurecimento**, **Contrato Sexual Visual**, **Feminilidade de Estado**, **Pathosformel**, **Zwischenraum**, **Nachleben**, **Iconclass 48C51**.
+- Sempre use os termos originais da tese: **endurecimento** (nunca "hardening"/"embrutecimento"), **Contrato Sexual Visual** (autoral — Vanzin 2026, NÃO atribuir a Pateman), **Feminilidade de Estado** (autoral — NÃO atribuir a Mondzain), **Purificação Clássica**, **Pathosformel**, **Zwischenraum**, **Nachleben**, **Iconclass 48C51**.
 - Citações em ABNT NBR 6023:2025; Mondzain = edição 2002. Texto acadêmico em português jurídico-penal, não antropológico/sociológico.
 
 ## Guardrails finais
