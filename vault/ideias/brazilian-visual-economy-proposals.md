@@ -11,6 +11,9 @@ tags:
 
 # Cinco Direções para o Caso Brasileiro — Iconocracia
 
+> [!note]
+> Ver também a [[brazilian-case-decision-matrix|matriz de decisão do caso brasileiro]].
+
 Este documento reúne cinco direções possíveis para o estudo de caso brasileiro da tese ICONOCRACIA, conforme discussão de 2026-04-21. Cada direção parte do argumento teórico do contrato sexual visual e propõe uma forma de materialização empírica no contexto brasileiro.
 
 ---

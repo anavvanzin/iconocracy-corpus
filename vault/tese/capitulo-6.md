@@ -68,6 +68,7 @@ Cinco direções foram mapeadas para essa extensão:
 4. **Arquitetura judiciária** — programas visuais interiores dos tribunais brasileiros como espaço de produção de subjetividade judicial
 5. **Dimensão racial** — a interseção entre contrato sexual e contrato racial na alegoria brasileira (corpo branco como pré-requisito da universalidade)
 
-> 📎 Ver completo em: `[[brazilian-visual-economy-proposals]]`
+> 📎 Ver completo em: [[brazilian-visual-economy-proposals]]  
+> 📊 Matriz comparativa: [[brazilian-case-decision-matrix]]
 
 O bloco "Contrato Racial Visual" (Bloco 3 da Matriz de Hipóteses) não deve ser reduzido a uma sub-seção do caso brasileiro — requer desenvolvimento próprio, demonstrado *através* do caso mas não limitado a ele.
