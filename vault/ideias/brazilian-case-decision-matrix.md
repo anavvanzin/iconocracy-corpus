@@ -16,7 +16,7 @@ aliases:
 
 Documento de apoio para decidir quais frentes do caso brasileiro priorizar na tese e quais podem render artigo, corpus complementar ou capítulo autônomo.
 
-Relacionado a: [[brazilian-visual-economy-proposals]]
+Relacionado a: [[brazilian-visual-economy-proposals]] · [[plano-2-semanas-caso-brasileiro]]
 
 ## Critérios
 
