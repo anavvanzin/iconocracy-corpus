@@ -521,6 +521,10 @@ def cmd_pull(dry_run: bool = False) -> None:
             print(f"  [DRY-RUN] Pull: {note.get('_file', '')} → records.jsonl")
         else:
             records.append(rec)
+            if url:
+                url_idx[url] = rec
+            if title:
+                title_idx[title] = rec
             added += 1
             print(f"  PULL: {note.get('_file', '')} → item_id={rec['item_id'][:8]}…")
 

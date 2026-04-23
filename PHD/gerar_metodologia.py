@@ -13,7 +13,8 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 import copy
 
-OUTPUT = "/Users/ana/iconocracy-corpus/PHD/Metodologia_v1_ICONOCRACY.docx"
+from pathlib import Path as _Path
+OUTPUT = str(_Path(__file__).resolve().parent / "Metodologia_v1_ICONOCRACY.docx")
 
 doc = Document()
 

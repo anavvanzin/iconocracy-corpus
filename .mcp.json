@@ -2,7 +2,7 @@
   "mcpServers": {
     "gallica": {
       "command": "node",
-      "args": ["/Users/ana/iconocracy-corpus/indexing/gallica-mcp-server/dist/bundle.cjs"]
+      "args": ["indexing/gallica-mcp-server/dist/bundle.cjs"]
     }
   }
 }

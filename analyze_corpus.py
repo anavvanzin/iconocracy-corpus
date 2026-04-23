@@ -4,7 +4,6 @@ ICONOCRACY Corpus Analysis Script
 Analyzes the structure and distribution patterns in records.jsonl
 """
 import json
-import sys
 from collections import defaultdict, Counter
 from datetime import datetime
 import re
