@@ -115,13 +115,21 @@ fi
 if _step_enabled 2; then
   _header 2 "Sync vault <-> records.jsonl"
   if $DRY_RUN; then
-    _run_step _py tools/scripts/vault_sync.py diff || true
-    echo "  [DRY-RUN] diff exibido, nada escrito"
+    if _run_step _py tools/scripts/vault_sync.py diff; then
+      echo "  [DRY-RUN] diff exibido, nada escrito"
+    else
+      echo "  [DRY-RUN] diff exibido (com diferenças)"
+    fi
+    _record pass
   else
-    _run_step _py tools/scripts/vault_sync.py sync || true
+    if _run_step _py tools/scripts/vault_sync.py sync; then
+      echo "  [OK] Sync concluído"
+      _record pass
+    else
+      echo "  [ERRO] Falha no sync vault <-> records"
+      _record fail
+    fi
   fi
-  echo "  [OK] Sync concluído"
-  _record pass
 else
   _record skip
 fi
@@ -130,13 +138,21 @@ fi
 if _step_enabled 3; then
   _header 3 "Exportar records -> corpus-data.json"
   if $DRY_RUN; then
-    _run_step _py tools/scripts/records_to_corpus.py --diff || true
-    echo "  [DRY-RUN] diff exibido, nada escrito"
+    if _run_step _py tools/scripts/records_to_corpus.py --diff; then
+      echo "  [DRY-RUN] diff exibido, nada escrito"
+    else
+      echo "  [DRY-RUN] diff exibido (com diferenças)"
+    fi
+    _record pass
   else
-    _run_step _py tools/scripts/records_to_corpus.py || true
+    if _run_step _py tools/scripts/records_to_corpus.py; then
+      echo "  [OK] Exportação concluída"
+      _record pass
+    else
+      echo "  [ERRO] Falha na exportação records -> corpus"
+      _record fail
+    fi
   fi
-  echo "  [OK] Exportação concluída"
-  _record pass
 else
   _record skip
 fi
@@ -147,10 +163,14 @@ if _step_enabled 4; then
   if $DRY_RUN; then
     echo "  [DRY-RUN] Pulando regeneração CSV"
   else
-    _run_step _py tools/scripts/code_purification.py --export-csv || true
+    if _run_step _py tools/scripts/code_purification.py --export-csv; then
+      echo "  [OK] CSV atualizado"
+      _record pass
+    else
+      echo "  [ERRO] Falha na regeneração CSV"
+      _record fail
+    fi
   fi
-  echo "  [OK] CSV atualizado"
-  _record pass
 else
   _record skip
 fi
@@ -161,10 +181,14 @@ if _step_enabled 5; then
   if $DRY_RUN; then
     echo "  [DRY-RUN] Pulando refresh de dashboards"
   else
-    _run_step _py tools/scripts/refresh_dashboard.py || true
+    if _run_step _py tools/scripts/refresh_dashboard.py; then
+      echo "  [OK] Dashboards atualizados"
+      _record pass
+    else
+      echo "  [ERRO] Falha ao atualizar dashboards"
+      _record fail
+    fi
   fi
-  echo "  [OK] Dashboards atualizados"
-  _record pass
 else
   _record skip
 fi
@@ -172,9 +196,13 @@ fi
 # --- Passo 6: Análise de lacunas ----------------------------------------
 if _step_enabled 6; then
   _header 6 "Análise de lacunas"
-  _run_step _py tools/scripts/lacunas.py || true
-  echo "  [OK] Lacunas mapeadas"
-  _record pass
+  if _run_step _py tools/scripts/lacunas.py; then
+    echo "  [OK] Lacunas mapeadas"
+    _record pass
+  else
+    echo "  [ERRO] Falha na análise de lacunas"
+    _record fail
+  fi
 else
   _record skip
 fi

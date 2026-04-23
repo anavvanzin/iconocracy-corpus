@@ -163,34 +163,54 @@ def export_corpus(
     """
     result: list[dict] = []
 
-    # Index records by URL for matching
-    records_by_url: dict[str, dict] = {}
+    # Index records by URL — use a list to handle duplicate URLs safely
+    from collections import defaultdict
+    records_by_url: dict[str, list[dict]] = defaultdict(list)
     for rec in records:
         sr = rec.get("webscout", {}).get("search_results", [{}])
         url = sr[0].get("url", "") if sr else ""
         if url:
-            records_by_url[url] = rec
+            records_by_url[url].append(rec)
+
+    # Track which individual records have been consumed (by item_id)
+    matched_record_ids: set[str] = set()
 
     # Process existing corpus entries
-    matched_urls: set[str] = set()
-
     if not replace:
         for item_id, item in existing_corpus.items():
             item_url = item.get("url", "")
-            rec = records_by_url.get(item_url)
+            candidates = records_by_url.get(item_url, [])
+            rec = None
+            if len(candidates) == 1:
+                rec = candidates[0]
+            elif len(candidates) > 1:
+                # Disambiguate by title_hint matching the corpus item title
+                item_title = (item.get("title") or "").lower()
+                for c in candidates:
+                    if c.get("item_id") not in matched_record_ids:
+                        hint = (c.get("input", {}).get("title_hint") or "").lower()
+                        if hint and hint in item_title or item_title in hint:
+                            rec = c
+                            break
+                # Fall back to first unconsumed record
+                if rec is None:
+                    for c in candidates:
+                        if c.get("item_id") not in matched_record_ids:
+                            rec = c
+                            break
             if rec:
                 entry = _corpus_entry_from_record(rec, item)
-                matched_urls.add(item_url)
+                matched_record_ids.add(rec.get("item_id", ""))
             else:
                 entry = dict(item)
             result.append(entry)
 
     # Add records not matched to existing corpus
     for rec in records:
+        if rec.get("item_id") in matched_record_ids:
+            continue
         sr = rec.get("webscout", {}).get("search_results", [{}])
         url = sr[0].get("url", "") if sr else ""
-        if url in matched_urls:
-            continue
         if replace or url not in {i.get("url", "") for i in result}:
             entry = _corpus_entry_from_record(rec, None)
             if entry.get("title"):

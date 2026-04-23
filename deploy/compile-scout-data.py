@@ -3,11 +3,13 @@
 import json, re, sys
 from pathlib import Path
 
+REPO_ROOT = Path(__file__).resolve().parents[1]
+
 vault_dirs = [
-    Path("/Users/ana/iconocracy-corpus/vault/corpus/scout-session-2026-03-28"),
-    Path("/Users/ana/iconocracy-corpus/vault/corpus/scout-session-2026-03-29"),
-    Path("/Users/ana/iconocracy-corpus/vault/corpus/scout-session-2026-03-30"),
-    Path("/Users/ana/iconocracy-corpus/vault/corpus/scout-session-2026-04-01"),
+    REPO_ROOT / "vault/corpus/scout-session-2026-03-28",
+    REPO_ROOT / "vault/corpus/scout-session-2026-03-29",
+    REPO_ROOT / "vault/corpus/scout-session-2026-03-30",
+    REPO_ROOT / "vault/corpus/scout-session-2026-04-01",
 ]
 
 def parse_frontmatter(text):
@@ -131,6 +133,7 @@ data = {
     ]
 }
 
-out = Path("/Users/ana/iconocracy-corpus/deploy/scout-data.json")
+out = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parent / "scout-data.json"
+out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding='utf-8')
 print(f"Compiled {len(candidates)} candidates + {len(zwischenraume)} zwischenraume -> {out}")
