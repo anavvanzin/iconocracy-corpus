@@ -101,13 +101,13 @@ def generate_companion_data(items):
     panels = extract_zw_panels()
 
     countries = []
-    for code in ["FR", "US", "DE", "BR", "NL", "UK", "BE", "PT", "IT"]:
-        if by_country.get(code, 0) > 0:
+    for code, count in sorted(by_country.items(), key=lambda kv: -kv[1]):
+        if count > 0:
             countries.append({
                 "code": code,
                 "name": COUNTRY_NAMES.get(code, code),
                 "flag": COUNTRY_FLAGS.get(code, "🏳️"),
-                "items": by_country[code],
+                "items": count,
                 "coded": 0,  # to be updated when IconoCode runs
             })
 

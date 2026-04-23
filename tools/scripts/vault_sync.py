@@ -33,7 +33,7 @@ VAULT = REPO / "vault" / "candidatos"
 
 # Namespace for deterministic UUIDs (same as csv_to_records.py)
 _NS = uuid.UUID("6ba7b810-9dad-11d1-80b4-00c04fd430c8")
-VAULT_BATCH_ID = "00000000-1c0c-4842-8a1a-vaultsync0001"
+VAULT_BATCH_ID = "00000000-1c0c-4842-8a1a-000000000001"
 
 VALID_REGIMES = {"fundacional", "normativo", "militar", "contra-alegoria"}
 
