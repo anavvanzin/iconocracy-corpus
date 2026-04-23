@@ -117,7 +117,7 @@ Active automation:
 
 **Period:** 1800–2000 (priority: 1880–1920)
 
-**Three iconocratic regimes:** FUNDACIONAL (sacrificial, body alive) → NORMATIVO (domesticated, bureaucratic) → MILITAR (hardened, imperial)
+**Three iconocratic regimes:** FUNDACIONAL (sacrificial, body alive) → NORMATIVO (domesticated, bureaucratic) → MILITAR (hardened, imperial) → CONTRA-ALEGORIA (subversive, contested)
 
 **10 purification indicators** (ordinal 0–3): desincorporação · rigidez_postural · dessexualização · uniformização_facial · heraldicização · enquadramento_arquitetônico · apagamento_narrativo · monocromatização · serialidade · inscrição_estatal
 
@@ -180,6 +180,16 @@ Every corpus item must exist in three places:
 - Academic voice: formal Portuguese with jurídico-penal framing (legal-criminal history, NOT anthropological/sociological)
 
 ---
+
+## Known Data Issues (April 2026)
+
+These documented problems affect corpus operations:
+
+1. **11 records with out-of-range indicator values** — `data/processed/records.jsonl` contains 11 records with values of 4 in indicators that the canonicalized T5 scale limits to 0–3. `validate_schemas.py` reports 154/165 valid. Do not use these 11 records in quantitative analysis until fixed.
+2. **purification.jsonl empty** — `data/processed/purification.jsonl` exists with 0 records. The HF release gate should block if empty.
+3. **companion-data.json stale** — reports 145 items vs. 165 actual. Run `sync_companion.py` before any release.
+4. **Notebooks hardcoded at 145 items** — some notebooks assume a corpus of 145 items. Verify `len(df)` at the start of each analysis.
+5. **8 records with placeholder URLs** — `https://iconocracy.corpus/placeholder/{item_id}`. Require verification against drive-manifest.json.
 
 ## Release Gate
 
