@@ -37,13 +37,13 @@ Ademais, o atlas desprovido de protocolo de validação corre o risco de não se
 
 ## 3. Por que o IMES resolve
 
-O IMES (Iconocracia como Dispositivo Metodológico Estratificado) opera com três camadas de triangulação que se corroboram mutuamente:
+O IMES (Iconocracia como Dispositivo Metodológico Estratificado) opera com três camadas de triangulação que se corroboram mutuamente sobre o mesmo corpus de 165 registros:
 
-1. **Camada de captura (LPAI-capta):** registro estratificado da imagem em três níveis panofskianos (pré-iconográfico, iconográfico, iconológico), acrescidos dos 10 indicadores de *endurecimento* da alegoria feminina. Essa camada produz não um *score*, mas uma matriz de evidências sobre como a imagem opera no *Regime Visual* do direito penal.
+1. **Camada 1 — Atlas-Argumento (primária):** pranchas warburguianas que constelam imagens por afinidade de *Pathosformel*, não por cronologia. Cada prancha é uma demonstração historiográfica: o arranjo visual é ele próprio argumento. A validação das pranchas opera através dos **Critérios de Justificação de Vizinhança (CJV)**: critérios explícitos (eco formal, eco histórico, eco de campo) com regra de validação de ≥80% dos pares adjacentes. O CJV é o antídoto ao HARKing: obriga a justificativa *a priori* do agrupamento.
 
-2. **Camada de vizinhança (CJV — Critérios de Justificação de Vizinhança):** protocolo explícito que determina quando uma imagem pode ser considerada "vizinha" de outra no corpus. Os critérios incluem: (a) contiguidade temporal máxima de ±15 anos; (b) compartilhamento de pelo menos dois indicadores de *endurecimento*; (c) pertencimento ao mesmo circuito institucional (manuais de direito penal, monumentos judiciários, ilustrações de códigos); (d) presença de intertexto normativo identificável. O CJV é o antídoto ao HARKing: ele obriga a justificativa *a priori* do agrupamento.
+2. **Camada 2 — Campo Cartográfico (relacional):** mapeamento de posições no campo jurídico-iconográfico. Para cada imagem, documenta-se: quem produziu, onde circulou, que posição institucional ocupou. Esta camada ancora a prancha-atlas no tecido social do direito, evitando que a constelação visual flutue no vácuo formal.
 
-3. **Camada de defesa (protocolo de comitê):** preparação sistemática dos argumentos de originalidade e dos limites honestos da pesquisa, endereçados à banca de qualificação. Essa camada assegura que a transição metodológica não seja uma mera escolha de conveniência, mas uma decisão epistemológica fundamentada e defensável.
+3. **Camada 3 — LPAI-capta (instrumental):** registro estratificado da imagem em três níveis panofskianos (pré-iconográfico, iconográfico, iconológico), acrescidos dos 10 indicadores de *endurecimento*. Esta camada produz não um *score* de autoridade, mas uma **matriz de capta** (Drucker, 2011) — documentação de ausências, contradições e impasses que a prancha-atlas torna visíveis. O LPAI-capta não mede; ele testemunha.
 
 A triangulação dessas três camadas converte o IMES em um dispositivo que não produz verdades, mas produz *sustentabilidade argumentativa*. A tese não precisa provar que a alegoria feminina "significa X"; ela precisa demonstrar que a hipótese de que ela opera como *Contrato Sexual Visual* é mais robusta — isto é, mais resistente ao contraditório — do que as hipóteses alternativas. O IMES fornece a estrutura metodológica para essa demonstração.
 
