@@ -131,7 +131,30 @@ def render_readme(dataset_repo: str, release_tag: str, stats: dict, changelog: s
         f"{'more' if delta > 0 else 'fewer'} item(s) than records.jsonl."
     )
 
-    return f"""# ICONOCRACY Corpus
+    return f"""---
+license: cc-by-4.0
+language:
+- pt
+- en
+- fr
+- de
+pretty_name: ICONOCRACY Corpus
+size_categories:
+- n<1K
+tags:
+- iconography
+- legal-iconography
+- legal-history
+- female-allegory
+- digital-humanities
+- cultural-heritage
+- political-iconography
+- feminist-iconography
+- abnt
+- metadata
+---
+
+# ICONOCRACY Corpus
 
 Release snapshot for `{dataset_repo}` built from the local `iconocracy-corpus` repository.
 
