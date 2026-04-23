@@ -40,6 +40,11 @@ Prerequisite: authenticate the local CLI first.
 
 ```bash
 hf auth login
+```
+
+Then build and publish:
+
+```bash
 python tools/scripts/build_hf_release.py \
   --publish \
   --note "Release note 1" \
@@ -49,6 +54,8 @@ python tools/scripts/build_hf_release.py \
 The publish step uses:
 
 - `hf upload <dataset-repo> <snapshot-dir> . --repo-type dataset`
+
+> Note: `huggingface-cli` is deprecated. Use `hf` (installed via `pip install huggingface-hub>=0.20`).
 
 ## Space scaffold
 
