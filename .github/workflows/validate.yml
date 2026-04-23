@@ -73,12 +73,12 @@ jobs:
       - name: Show purification status
         run: python tools/scripts/code_purification.py --status
 
-- name: Reject binary files in data/raw/
+      - name: Reject binary files in data/raw/
         run: |
           BINARIES=$(find data/raw -type f ! -name '*.json' ! -name '*.md' ! -name '.gitkeep' || true)
-          if [ -n \"$BINARIES\" ]; then
-            echo \"::error::Binary files detected in data/raw/ — use Google Drive instead (ADR-001)\"
-            echo \"$BINARIES\"
+          if [ -n "$BINARIES" ]; then
+            echo "::error::Binary files detected in data/raw/ — use Google Drive instead (ADR-001)"
+            echo "$BINARIES"
             exit 1
           fi
 
