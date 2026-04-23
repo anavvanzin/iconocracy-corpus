@@ -199,20 +199,24 @@ def main():
     regime_order = ["fundacional", "normativo", "militar", "contra-alegoria"]
     r_vals = [regimes.get(r, 0) for r in regime_order]
     r_colors = [COLORS[r] for r in regime_order]
-    r_labels = [f"{r.capitalize()}\n({v}, {v/sum(r_vals)*100:.0f}%)"
+    total_regimes = sum(r_vals)
+    r_labels = [f"{r.capitalize()}\n({v}, {v/total_regimes*100:.0f}%)"
+                if total_regimes > 0 else f"{r.capitalize()}\n(0, 0%)"
                 for r, v in zip(regime_order, r_vals)]
 
     wedges, texts = ax_b.pie(
-        r_vals, colors=r_colors, startangle=90,
+        r_vals if total_regimes > 0 else [1], colors=r_colors if total_regimes > 0 else ["#D9D9D9"],
+        startangle=90,
         wedgeprops=dict(width=0.4, edgecolor="white", linewidth=2),
     )
-    ax_b.text(0, 0, f"{sum(r_vals)}", fontsize=28, fontweight="bold",
+    ax_b.text(0, 0, f"{total_regimes}", fontsize=28, fontweight="bold",
               color=ACCENT, ha="center", va="center")
 
-    ax_b.legend(
-        wedges, r_labels, loc="center left", bbox_to_anchor=(0.85, 0.5),
-        fontsize=10, frameon=False,
-    )
+    if total_regimes > 0:
+        ax_b.legend(
+            wedges, r_labels, loc="center left", bbox_to_anchor=(0.85, 0.5),
+            fontsize=10, frameon=False,
+        )
     ax_b.set_title("B. Regimes iconocraticos", fontsize=14, fontweight="bold",
                     color=ACCENT, loc="left", pad=10)
 

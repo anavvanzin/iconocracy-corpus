@@ -5,12 +5,9 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
-vault_dirs = [
-    REPO_ROOT / "vault/corpus/scout-session-2026-03-28",
-    REPO_ROOT / "vault/corpus/scout-session-2026-03-29",
-    REPO_ROOT / "vault/corpus/scout-session-2026-03-30",
-    REPO_ROOT / "vault/corpus/scout-session-2026-04-01",
-]
+vault_dirs = sorted(REPO_ROOT.glob("vault/corpus/scout-session-*"))
+if not vault_dirs:
+    print("No scout-session-* directories found under vault/corpus/", file=sys.stderr)
 
 def parse_frontmatter(text):
     """Extract YAML-like frontmatter between --- markers."""
