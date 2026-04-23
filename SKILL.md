@@ -70,6 +70,10 @@ Função: normalizar e estabilizar a ordem.
 Endurecimento morfológico do corpo alegórico: rígido, armado, hierático.
 Função: mobilizar e intimidar.
 
+**CONTRA-ALEGORIA** — subversões, reapropriações feministas, respostas
+anticoloniais. Corpo que desafia ou inverte o programa iconocrático.
+Função: contestar o Contrato Sexual Visual.
+
 > REGRA TERMINOLÓGICA: sempre endurecimento em português.
 > Nunca "hardening". Nunca "embrutecimento".
 
@@ -83,6 +87,12 @@ Função: mobilizar e intimidar.
 
 **Relevância ALTA** (priorizar): período 1880–1920 + atributos canônicos
 visíveis + URL IIIF estável + classificação preliminar de regime possível.
+
+> **Limiar de dessexualização** — achado teórico recente: alegorias com
+> dessexualização baixa (0–1) tendem a ser rejeitadas; com dessexualização
+> alta (2–3) tendem a persistir. Britannia nunca foi sexualizada; Brasil
+> nasceu dessexualizado. A dessexualização opera como condição necessária
+> de sobrevivência iconocrática.
 
 ---
 
@@ -172,7 +182,7 @@ Avalie o grau de endurecimento:
 - ALTO: corpo rígido, hierático, armado, endurecido
 
 ### Nível 4 — Regime
-Classifique: FUNDACIONAL / NORMATIVO / MILITAR
+Classifique: FUNDACIONAL / NORMATIVO / MILITAR / CONTRA-ALEGORIA
 Com justificativa de 1 frase baseada exclusivamente no que foi visto.
 
 ### Nível 5 — Confiança visual
@@ -217,6 +227,8 @@ related:
   - "[[A República brasileira — Nachleben]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
+  - "[[Contrato Racial Visual]]"
+  - "[[Limiar de Dessexualização]]"
 data_scout: 2026-03-28
 ---
 
