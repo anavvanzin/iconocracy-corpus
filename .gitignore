@@ -78,6 +78,9 @@ output/huggingface/
 tmp/vault-backups/
 logs/
 
+# Wrangler cache (Cloudflare deployment metadata)
+.wrangler/
+
 # ARGOS acquisition orchestrator
 data/raw/.staging/
 data/raw/argos/manifest.lock

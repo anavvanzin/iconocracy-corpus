@@ -115,10 +115,14 @@ def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
 
     coded_by = purif.get("coded_by") or ""
     coded_at = purif.get("coded_at") or record.get("timestamps", {}).get("updated_at", "")
-    endurecimento = purif.get("purificacao_composto") or 0.0
+    endurecimento = purif.get("purificacao_composto")
 
     # Start from existing entry for rich fields (panofsky, institution, etc.)
     entry: dict = dict(existing) if existing else {}
+
+    # Ensure new entries get a canonical ID from the record
+    if not existing and record.get("item_id"):
+        entry.setdefault("id", record["item_id"])
 
     # Overwrite with authoritative fields from records.jsonl
     entry.update({
@@ -127,7 +131,7 @@ def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
         "description": description or entry.get("description", ""),
         "motif": motifs or entry.get("motif", []),
         "regime": regime or entry.get("regime", ""),
-        "endurecimento_score": endurecimento or entry.get("endurecimento_score", 0.0),
+        "endurecimento_score": endurecimento if endurecimento is not None else entry.get("endurecimento_score", 0.0),
         "coded_by": coded_by or entry.get("coded_by", ""),
         "coded_at": coded_at or entry.get("coded_at", ""),
     })
