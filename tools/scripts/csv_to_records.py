@@ -237,7 +237,7 @@ def _build_purificacao(item: dict, csv_row: dict | None) -> dict | None:
     # purificacao_composto
     csv_comp = _safe_float(csv_row.get("purificacao_composto", 0)) if csv_row else 0
     corpus_comp = _safe_float(item.get("endurecimento_score", 0))
-    composto = csv_comp if csv_comp else corpus_comp
+    composto = csv_comp if csv_comp is not None else corpus_comp
 
     coded_by = (csv_row.get("coded_by") if csv_row else None) or item.get("coded_by", "migration")
     coded_at = (csv_row.get("coded_at") if csv_row else None) or item.get("coded_at", MIGRATION_TS)

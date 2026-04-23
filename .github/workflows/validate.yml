@@ -5,12 +5,14 @@ on:
     paths:
       - 'corpus/**'
       - 'data/processed/**'
+      - 'data/raw/**'
       - 'tools/schemas/**'
       - 'tools/scripts/**'
   pull_request:
     paths:
       - 'corpus/**'
       - 'data/processed/**'
+      - 'data/raw/**'
       - 'tools/schemas/**'
       - 'tools/scripts/**'
 

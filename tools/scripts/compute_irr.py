@@ -267,10 +267,10 @@ def adjudicate(all_codings):
                     if inp == "q":
                         print(f"\n  Adjudicated {adjudicated} items this session.")
                         return
-                    if inp in ("0", "1", "2", "3", "4"):
+                    if inp in ("0", "1", "2", "3"):
                         consensus_scores[indicator] = int(inp)
                         break
-                    print("      Enter 0-4 or Enter for default")
+                    print("      Enter 0-3 or Enter for default")
             else:
                 consensus_scores[indicator] = values[0]
 
