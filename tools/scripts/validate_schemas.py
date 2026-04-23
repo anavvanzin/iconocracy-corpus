@@ -11,7 +11,7 @@ from typing import Any, Dict, List
 
 try:
     import jsonschema
-    from jsonschema import Draft202012Validator, RefResolver
+    from jsonschema import Draft202012Validator, FormatChecker, RefResolver
 except ImportError:
     print("Error: jsonschema library required. Install with: pip install jsonschema", file=sys.stderr)
     sys.exit(1)
@@ -56,7 +56,7 @@ def validate_record(data: Dict[str, Any], schema_name: str) -> tuple[bool, List[
     """
     schema = load_schema(schema_name)
     resolver = create_resolver()
-    validator = Draft202012Validator(schema, resolver=resolver)
+    validator = Draft202012Validator(schema, resolver=resolver, format_checker=FormatChecker())
     
     errors = []
     for error in validator.iter_errors(data):

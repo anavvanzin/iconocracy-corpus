@@ -12,6 +12,7 @@ Output: one JSON object per line with:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import random
 from pathlib import Path
@@ -371,7 +372,8 @@ def build_record_assistant(r: Dict[str, Any], variant: int) -> str:
 def build_record_examples(record: Dict[str, Any]) -> List[Dict[str, Any]]:
     r = summarize_record(record)
     item_key = str(r["item_id"])
-    variants = [hash(item_key) % 4, (hash(item_key) + 1) % 4]
+    h = int(hashlib.md5(item_key.encode()).hexdigest(), 16)
+    variants = [h % 4, (h + 1) % 4]
     examples = []
     for idx, variant in enumerate(variants):
         examples.append(
@@ -464,7 +466,8 @@ def build_purification_assistant(row: Dict[str, Any], variant: int) -> str:
 
 def build_purification_examples(row: Dict[str, Any]) -> List[Dict[str, Any]]:
     rid = str(row.get("id", "unknown"))
-    variants = [hash(rid) % 4, (hash(rid) + 2) % 4]
+    h = int(hashlib.md5(rid.encode()).hexdigest(), 16)
+    variants = [h % 4, (h + 2) % 4]
     examples = []
     for idx, variant in enumerate(variants):
         examples.append(

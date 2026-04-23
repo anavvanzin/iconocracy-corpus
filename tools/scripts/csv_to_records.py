@@ -30,7 +30,7 @@ CORPUS_CSV = REPO / "data" / "processed" / "corpus_dataset.csv"
 RECORDS_OUT = REPO / "data" / "processed" / "records.jsonl"
 
 # Fixed batch UUID for this migration run (stable / deterministic)
-MIGRATION_BATCH_ID = "00000000-1c0c-4842-8a1a-iconocracy001"
+MIGRATION_BATCH_ID = "00000000-1c0c-4842-8a1a-000000000002"
 MIGRATION_TS = "2026-04-04T09:47:29Z"
 
 # Namespace for deterministic UUIDs derived from item IDs
