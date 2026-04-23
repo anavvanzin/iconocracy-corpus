@@ -8,6 +8,7 @@ on:
       - 'tools/schemas/**'
       - 'tools/scripts/**'
       - 'companion-data.json'
+      - 'requirements.txt'
       - '.github/workflows/validate.yml'
   pull_request:
     paths:
@@ -16,6 +17,7 @@ on:
       - 'tools/schemas/**'
       - 'tools/scripts/**'
       - 'companion-data.json'
+      - 'requirements.txt'
       - '.github/workflows/validate.yml'
 
 jobs:
