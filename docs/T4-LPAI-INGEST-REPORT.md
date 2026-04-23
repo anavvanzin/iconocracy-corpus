@@ -166,12 +166,23 @@ parenthetical stripping produced the equality) are much stronger signals
 
 ### a. Disambiguate FR-SCOUT-001 and the five other PARTIAL matches
 
+**COMPLETED 2026-04-22** via Council & Santa method adjudication.
+
 FR-SCOUT-001 is a MATCHES result — merge into FR-005 (do not promote as a
-new row). The five PARTIAL results (BR-SCOUT-001, BR-SCOUT-003,
-BR-SCOUT-005, FR-SCOUT-002, FR-SCOUT-005, FR-SCOUT-006) each need the
-call described in §3.3: enrich an existing record, promote as a sibling
-variant, or promote as new. No automatic behavior is triggered by
-`PARTIAL` — the classifier only tags; promotion is human-driven.
+new row). The six PARTIAL results were adjudicated as follows:
+
+| Candidate | Existing | Decision | Method | Rationale |
+|---|---|---|---|---|
+| BR-SCOUT-001 | BR-005 | **NEW** | Santa | title_substring noise; different creators (Agostini lithograph vs Villares oil) |
+| BR-SCOUT-003 | BR-005 | **NEW** | Santa | title_substring noise; different creators (Lopes Rodrigues 1896 vs Villares 1888) |
+| BR-SCOUT-005 | BR-009 | **ENRICH** | Council | Same object (Ceschiatti sculpture); LPAI title omits attribution |
+| FR-SCOUT-002 | FR-008 | **ENRICH** | Council | Same object, different state (etat avec remarque); atlas does not need separate panel |
+| FR-SCOUT-005 | FR-009 | **ENRICH** | Council | Same object family; photographic series enriches the bust record |
+| FR-SCOUT-006 | FR-038 | **ENRICH** | Santa | Same object; LPAI supplies missing Gallica URL and Janinet attribution |
+
+Log: `data/staging/t4-adjudication-log.json`.
+Four existing records enriched with LPAI evidence; two staged records
+approved for promotion.
 
 ### b. Queue the new records for IconoCode coding
 

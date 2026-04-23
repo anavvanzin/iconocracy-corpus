@@ -88,7 +88,11 @@ data/staging/iconocode-gemma4-runs.*.jsonl
 
 # LPAI v2 ingest staging (T4) — promoted via records_to_corpus.py after review
 data/staging/fichas-lpai-v2-parsed.jsonl
+data/staging/t4-adjudication-log.json
 data/staging/vault-drafts-lpai-v2/
+
+# Thesis compilation output (ABNT, DOCX, PDF builds)
+tese/compilacao-*/
 
 # Cloudflare local state (contains account IDs, geolocation, binary blobs)
 .wrangler/
