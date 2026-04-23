@@ -75,7 +75,7 @@ function renderTheory(t) {
 function renderPage() {
   const d = SCOUT_DATA;
   const countries = [...new Set(d.candidates.map(c => (c.pais || "").replace(/[\[\]]/g, "").trim()))].filter(Boolean);
-  const regimes = { MILITAR: 0, NORMATIVO: 0, FUNDACIONAL: 0 };
+  const regimes = { MILITAR: 0, NORMATIVO: 0, FUNDACIONAL: 0, "CONTRA-ALEGORIA": 0 };
   d.candidates.forEach(c => { const r = (c.regime || "").toUpperCase(); if (regimes[r] !== undefined) regimes[r]++; });
 
   return `<!DOCTYPE html>

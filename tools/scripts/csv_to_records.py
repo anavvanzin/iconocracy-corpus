@@ -235,7 +235,7 @@ def _build_purificacao(item: dict, csv_row: dict | None) -> dict | None:
     regime = regime_raw if regime_raw in VALID_REGIMES else "normativo"
 
     # purificacao_composto
-    csv_comp = _safe_float(csv_row.get("purificacao_composto", 0)) if csv_row else 0
+    csv_comp = _safe_float(csv_row.get("purificacao_composto")) if csv_row and "purificacao_composto" in csv_row else None
     corpus_comp = _safe_float(item.get("endurecimento_score", 0))
     composto = csv_comp if csv_comp is not None else corpus_comp
 
