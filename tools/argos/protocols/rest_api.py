@@ -102,13 +102,12 @@ def resolve(source_url: str) -> dict[str, Any]:
 def fetch(source_url: str, dest_path) -> dict[str, Any]:
     """REST-API pipeline with IIIF fallback.
 
-    Returns a direct.fetch-style dict.
+    Returns a fetch_direct-style dict.
     """
 
     info = resolve(source_url)
     if info and info.get("image_url"):
-        result = direct.fetch(info["image_url"], dest_path)
+        result = direct.fetch_direct(info["image_url"], dest_path)
         result["fetched_url"] = info["image_url"]
         return result
-    # No REST adapter — fall through to IIIF discovery.
-    return iiif.fetch(source_url, dest_path)
+    return iiif.fetch_iiif_image({"url": source_url}, dest_path)
