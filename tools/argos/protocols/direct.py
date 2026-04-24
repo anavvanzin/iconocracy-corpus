@@ -214,18 +214,16 @@ def fetch_direct(url: str, dest_path: Path, timeout: int = 60, retries: int = 3)
                     ssl_verification="unverified",
                 )
         except http.client.IncompleteRead as error:
-            if dest_path.exists():
-                partial_size = dest_path.stat().st_size
-                if partial_size > 10000:
-                    return _build_result(dest_path, success=True, bytes_written=partial_size)
-                dest_path.unlink(missing_ok=True)
-
+            dest_path.unlink(missing_ok=True)
             if attempt < retries - 1:
                 time.sleep(3 * (attempt + 1))
                 continue
-
-            dest_path.unlink(missing_ok=True)
-            return _build_result(dest_path, error=str(error), failure_class="request_error")
+            return _build_result(
+                dest_path,
+                error=f"Incomplete read after {retries} attempts: {error}",
+                failure_class="incomplete_read",
+                notes=["All retry attempts returned truncated responses"],
+            )
         except urllib.error.URLError as error:
             if attempt < retries - 1:
                 time.sleep(3 * (attempt + 1))
