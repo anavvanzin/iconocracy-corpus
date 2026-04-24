@@ -69,6 +69,9 @@ jobs:
             exit 1
           fi
 
+      - name: Check records export idempotence
+        run: python tools/scripts/check_corpus_export_idempotent.py
+
       - name: Validate traceability report
         run: python tools/scripts/trace_evidence.py data/processed/records.jsonl
 
