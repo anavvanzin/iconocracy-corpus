@@ -15,7 +15,7 @@ tags:
 related:
   - "[[UK-PENNY-1860]]"
   - "[[UK-TRADE-1895]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Colonialidade do Ver]]"
   - "[[Britannia]]"
@@ -41,9 +41,9 @@ Este painel estabelece o espaço de tensão (*Zwischenraum*) entre duas manifest
 | **Desenhista** | Leonard Charles Wyon | George William De Saulles |
 | **Circulação** | Metrópole (UK doméstico) | Colônia (Ásia Oriental) |
 | **Regime** | NORMATIVO | MILITAR |
-| **ENDURECIMENTO** | 2.70 | 2.70 |
+| **endurecimento** | 2.70 | 2.70 |
 
-### 1. A Mutação do ENDURECIMENTO
+### 1. A Mutação do endurecimento
 
 Os scores compostos são idênticos (2.70) — mas a distribuição interna revela a mutação:
 
@@ -60,7 +60,7 @@ Os scores compostos são idênticos (2.70) — mas a distribuição interna reve
 | serialidade | 4 | 4 | = |
 | inscrição_estatal | 3 | 3 | = |
 
-O paradoxo: **os indicadores são idênticos.** O ENDURECIMENTO quantitativo não captura a diferença. Isto é precisamente o ponto: a mutação não está *no corpo*, mas *na circulação*. O mesmo corpo alegorizado, com o mesmo grau de purificação, adquire função jurídico-política radicalmente diferente conforme o circuito em que circula.
+O paradoxo: **os indicadores são idênticos.** O endurecimento quantitativo não captura a diferença. Isto é precisamente o ponto: a mutação não está *no corpo*, mas *na circulação*. O mesmo corpo alegorizado, com o mesmo grau de purificação, adquire função jurídico-política radicalmente diferente conforme o circuito em que circula.
 
 A diferença reside nos elementos que o score não mede diretamente:
 - **Postura:** sentada (Polo A) → de pé (Polo B). A transição postural é a marca da projeção imperial.
@@ -83,8 +83,8 @@ O Polo A não opera o Contrato Racial Visual — ou antes, opera-o por omissão:
 
 ### 4. Síntese para a Tese
 
-Este Zwischenraum demonstra que o ENDURECIMENTO não é apenas uma propriedade *intrínseca* da imagem — é também uma propriedade *relacional* do circuito de circulação. O mesmo corpo alegorizado, com os mesmos indicadores de purificação, funciona como dispositivo de estabilização doméstica (NORMATIVO) ou como instrumento de projeção imperial (MILITAR) conforme o circuito em que é inserido.
+Este Zwischenraum demonstra que o endurecimento não é apenas uma propriedade *intrínseca* da imagem — é também uma propriedade *relacional* do circuito de circulação. O mesmo corpo alegorizado, com os mesmos indicadores de purificação, funciona como dispositivo de estabilização doméstica (NORMATIVO) ou como instrumento de projeção imperial (MILITAR) conforme o circuito em que é inserido.
 
-Isto sugere que o modelo de 10 indicadores, embora eficaz para capturar a morfologia do ENDURECIMENTO, precisa ser complementado por uma análise do *circuito* — quem fabrica, onde circula, quem recebe. A Britannia do Penny e a Britannia do Trade Dollar são o mesmo corpo; o que muda é o contrato.
+Isto sugere que o modelo de 10 indicadores, embora eficaz para capturar a morfologia do endurecimento, precisa ser complementado por uma análise do *circuito* — quem fabrica, onde circula, quem recebe. A Britannia do Penny e a Britannia do Trade Dollar são o mesmo corpo; o que muda é o contrato.
 
 A fabricação colonial (Bombaim/Calcutá) acrescenta uma dimensão que nenhum indicador visual captura: a alegoria metropolitana produzida na periferia, enviada de volta à periferia. O corpo de Britannia nunca toca a metrópole na versão colonial — é um fantasma imperial que circula apenas entre colônias.

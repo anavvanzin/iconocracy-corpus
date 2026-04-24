@@ -15,7 +15,7 @@ tags:
 related:
   - "[[DB1 Corpus Iconográfico]]"
   - "[[IconoCode -- Protocolo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
 ---
 
 ## Resumo da sessão
@@ -54,7 +54,7 @@ related:
 
 1. **ZW: Britannia sentada vs. Britannia de pé** — SCOUT-072 (Penny, NORMATIVO, metrópole) vs. SCOUT-067 (Trade Dollar, MILITAR, colônia). Mesma alegoria, mesmo atributo (tridente+escudo), transição postural sentada→de pé correlaciona com metrópole→colônia.
 
-2. **ZW: Standing Liberty Type I vs. Type II** — SCOUT-069 internamente: seio nu (1916) vs. cota de malha (1917). ENDURECIMENTO documentável em tempo real, dessexualização forçada.
+2. **ZW: Standing Liberty Type I vs. Type II** — SCOUT-069 internamente: seio nu (1916) vs. cota de malha (1917). Endurecimento documentável em tempo real, dessexualização forçada.
 
 3. **ZW: La Belgique constitucional vs. La Belgique colonial** — SCOUT-070 (5 Francs 1880, FUNDACIONAL) vs. SCOUT-074 (Congo 20 Francs, MILITAR). Mesma alegoria nacional, da fundação à colonização.
 

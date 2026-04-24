@@ -1,7 +1,7 @@
 ---
 id: SCOUT-118
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "1 Florin — Britannia Standing on Ship Prow (Edward VII)"
 acervo: "Royal Mint / Museums Victoria Collection"
 url: "https://collections.museumsvictoria.com.au/items/77020"
@@ -11,7 +11,7 @@ pais: UK
 suporte: moeda
 motivo_alegorico: "Britannia"
 regime: NORMATIVO
-endurecimento: ALTO
+Endurecimento: ALTO
 confianca: alto
 tags:
   - corpus/candidato
@@ -57,7 +57,7 @@ Reverso: figura feminina (Britannia) em pé sobre a proa de nau antiga, postura 
 - [x] postura frontal hierática (ereta, de pé, frontal)
 - [ ] contexto arquitetônico forense
 
-**ENDURECIMENTO:** ALTO
+**endurecimento:** ALTO
 **Regime iconocrático:** NORMATIVO
 **Justificativa:** Britannia armada e estática sobre proa de nau — corpo militarizado inserido em suporte circulatório burocrático de massa (moeda de uso cotidiano), sem dinamismo revolucionário.
 
@@ -88,6 +88,6 @@ ROYAL MINT. *1 Florin — Britannia (Edward VII)*. 1902–1910. Prata. Acervo Mu
 
 **Lacuna preenchida:** primeira moeda UK no corpus. O corpus tinha 6 itens UK (UK-001 a UK-006), todos gravuras, escultura ou cartaz — zero moedas. Este Florin preenche o gap suporte/moeda para o Reino Unido.
 
-**Posição no argumento:** Britannia em moeda de prata circulante (1902–1910) contrasta diretamente com SCOUT-108 (½ Penny William III, 1695) — o mesmo motivo em 270 anos de Nachleben (ver ZW-08). O ENDURECIMENTO ALTO da Britannia de De Saulles versus o ENDURECIMENTO MÉDIO da versão vitoriana evidencia a trajetória morfológica do motivo britânico.
+**Posição no argumento:** Britannia em moeda de prata circulante (1902–1910) contrasta diretamente com SCOUT-108 (½ Penny William III, 1695) — o mesmo motivo em 270 anos de Nachleben (ver ZW-08). O endurecimento ALTO da Britannia de De Saulles versus o endurecimento MÉDIO da versão vitoriana evidencia a trajetória morfológica do motivo britânico.
 
-**Zwischenraum potencial:** Florin Edward VII (UK, moeda NORMATIVO-ALTO) × Semeuse 1F Roty (FR, moeda NORMATIVO-MÉDIO) = painel comparativo transatlântico do ENDURECIMENTO em suporte moeda, mesmo período (1897–1910). Cultura jurídica como variável explicativa da diferença morfológica.
+**Zwischenraum potencial:** Florin Edward VII (UK, moeda NORMATIVO-ALTO) × Semeuse 1F Roty (FR, moeda NORMATIVO-MÉDIO) = painel comparativo transatlântico do endurecimento em suporte moeda, mesmo período (1897–1910). Cultura jurídica como variável explicativa da diferença morfológica.

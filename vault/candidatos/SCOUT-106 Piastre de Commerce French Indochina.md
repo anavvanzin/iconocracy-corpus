@@ -1,7 +1,7 @@
 ---
 id: SCOUT-106
 tipo: corpus-candidato
-status: candidato
+status: duplicata  # já no corpus como FR-PIAST-1885
 titulo: "1 Piastre de Commerce — French Indochina (Marianne seated)"
 acervo: "Numista / Monnaie de Paris"
 url: "https://en.numista.com/11287"
@@ -12,7 +12,7 @@ motivo_alegorico: "Marianne / La République (seated, colonial)"
 regime: MILITAR
 confianca: alto
 tags: [corpus/candidato, pais/FR, suporte/moeda, regime/militar, motivo/marianne, "#colonialidade-do-ver"]
-related: ["[[Regime Militar]]", "[[ENDURECIMENTO]]", "[[SCOUT-094]]", "[[SCOUT-105]]"]
+related: ["[[Regime Militar]]", "[[endurecimento]]", "[[SCOUT-094]]", "[[SCOUT-105]]"]
 hf_synced: false
 data_scout: 2026-03-30
 ---
@@ -28,7 +28,7 @@ data_scout: 2026-03-30
 **Motivo:** Marianne SEATED on throne, holding FASCES, radiate crown, wheat + anchor.
 Reverse: Chinese + Vietnamese text. Colonial circulation: Indochina.
 **Regime:** MILITAR — domestic Cérès mutates into imperial enthroned Marianne
-**ENDURECIMENTO detectado:** sim (rigidez_postural, heraldizacao, inscricao_estatal)
+**endurecimento detectado:** sim (rigidez_postural, heraldizacao, inscricao_estatal)
 
 ## Observacoes do Scout
 

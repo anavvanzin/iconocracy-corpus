@@ -16,7 +16,7 @@ tags:
   - regime/fundacional
   - motivo/republica
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 data_scout: 2026-03-30
 ---
@@ -30,9 +30,9 @@ data_scout: 2026-03-30
 
 Cabeça de Cérès com guirlanda de trigo e uvas. Sem barrete frígio — escolha DELIBERADA: evitar conotações revolucionárias. República como fertilidade agrícola, não revolução.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**PARCIAL** — Pré-ENDURECIMENTO. SUBSTITUÍDA em 1852 por retrato de Luís-Napoleão: o corpo feminino alegórico cede ao retrato masculino imperial. Retorna em 1870 (Terceira República) = Nachleben pendular.
+**PARCIAL** — Pré-endurecimento. SUBSTITUÍDA em 1852 por retrato de Luís-Napoleão: o corpo feminino alegórico cede ao retrato masculino imperial. Retorna em 1870 (Terceira República) = Nachleben pendular.
 
 ### Citação ABNT
 

@@ -19,7 +19,7 @@ tags:
   - regime/fundacional
   - motivo/republica
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-311 Serie Personalidades Alegoria Liberdade Brasil]]"
   - "[[BR-2000R-1907 2000 Reis Efigie Republica]]"
@@ -56,7 +56,7 @@ data_scout: 2026-04-04
 - [x] produzida em massa (serialidade máxima)
 - [x] inscrição estatal ("Thesouro Nacional", "Republica dos Estados Unidos do Brazil")
 
-**ENDURECIMENTO detectado:** sim — a sequência 1891→1918 documenta desincorporação progressiva (corpo inteiro → cabeça → perfil estilizado) e aumento de serialidade.
+**endurecimento detectado:** sim — a sequência 1891→1918 documenta desincorporação progressiva (corpo inteiro → cabeça → perfil estilizado) e aumento de serialidade.
 
 ---
 

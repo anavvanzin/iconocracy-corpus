@@ -7,12 +7,18 @@ on:
       - 'data/processed/**'
       - 'tools/schemas/**'
       - 'tools/scripts/**'
+      - 'companion-data.json'
+      - 'requirements.txt'
+      - '.github/workflows/validate.yml'
   pull_request:
     paths:
       - 'corpus/**'
       - 'data/processed/**'
       - 'tools/schemas/**'
       - 'tools/scripts/**'
+      - 'companion-data.json'
+      - 'requirements.txt'
+      - '.github/workflows/validate.yml'
 
 jobs:
   validate:
@@ -22,7 +28,7 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -36,6 +42,9 @@ jobs:
 
       - name: Validate records.jsonl against master-record schema
         run: python tools/scripts/validate_schemas.py data/processed/records.jsonl --schema master-record --verbose
+
+      - name: Validate purification.jsonl against purification-record schema
+        run: python tools/scripts/validate_schemas.py data/processed/purification.jsonl --schema purification-record --verbose
 
       - name: Check records.jsonl / corpus-data.json consistency
         run: |
@@ -55,6 +64,16 @@ jobs:
             echo "::error::records.jsonl is empty"
             exit 1
           fi
+          if [ "$RECORDS" -ne "$CORPUS" ]; then
+            echo "::error::records.jsonl / corpus-data.json count mismatch"
+            exit 1
+          fi
+
+      - name: Check records export idempotence
+        run: python tools/scripts/check_corpus_export_idempotent.py
+
+      - name: Validate traceability report
+        run: python tools/scripts/trace_evidence.py data/processed/records.jsonl
 
       - name: Show purification status
         run: python tools/scripts/code_purification.py --status
@@ -67,3 +86,11 @@ jobs:
             echo "$BINARIES"
             exit 1
           fi
+
+      - name: Run tests
+        run: |
+          pip install -r requirements.txt
+          python -m pytest tests/ -q --tb=short
+
+      - name: Check thesis terminology
+        run: python tools/scripts/check_thesis_terms.py

@@ -19,7 +19,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: gallica
@@ -41,10 +41,10 @@ Référence bibliographique : Rol, 171521
 
 **Motivos identificados**: Marianne
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime preliminar**: FUNDACIONAL
 Indicadores esperados: corpo dinâmico, seminudez, atributos revolucionários.
-ENDURECIMENTO esperado: BAIXO (corpo ainda vivo, narrativo).
+Endurecimento esperado: BAIXO (corpo ainda vivo, narrativo).
 
 *Classificação preliminar baseada em metadados textuais. Requer confirmação visual.*
 

@@ -8,7 +8,7 @@ date: 2026-04-03
 
 ## Core idea
 
-BR-009 (Ceschiatti's Justiça, STF Brasília) was attacked and damaged on January 8, 2023. The thesis's paradigmatic case of Brazilian ENDURECIMENTO became a site of iconoclasm in living memory.
+BR-009 (Ceschiatti's Justiça, STF Brasília) was attacked and damaged on January 8, 2023. The thesis's paradigmatic case of Brazilian endurecimento became a site of iconoclasm in living memory.
 
 ## Symmetry
 
@@ -19,4 +19,4 @@ Both actions target the allegorical body as proxy for the state. One demands inc
 
 ## Thesis closing
 
-The granite body that represented 60 years of state authority was broken — not by critics, but by a mob that believed the state itself was illegitimate. When the ENDURECIMENTO fails — when the purified body no longer convinces — what remains?
+The granite body that represented 60 years of state authority was broken — not by critics, but by a mob that believed the state itself was illegitimate. When the endurecimento fails — when the purified body no longer convinces — what remains?

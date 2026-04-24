@@ -7,9 +7,9 @@ Programa de Pós-Graduação em Direito — Universidade Federal de Santa Catari
 
 ---
 
-**Resumo:** Este artigo investiga uma dimensão negligenciada da iconografia jurídica: a progressiva perda de voz das figuras alegóricas femininas que personificam a Justiça, a Liberdade e a República na cultura visual estatal dos séculos XIX e XX. A partir de um corpus de 106 imagens oficiais e semi-oficiais de 8 países, codificadas com protocolo de 10 indicadores ordinais de purificação (ENDURECIMENTO), o artigo demonstra que a trajetória do corpo alegórico feminino — de figura narrativa e dinâmica a emblema institucional estático — é acompanhada por um silenciamento paralelo: as alegorias que falam, gritam ou convocam nos registros fundacionais perdem progressivamente a capacidade vocal à medida que são absorvidas pelo regime normativo. O artigo propõe o conceito de *silenciamento* como dimensão qualitativa complementar aos indicadores morfológicos de ENDURECIMENTO e analisa casos paradigmáticos em que a relação entre voz e mutismo revela a operação do Contrato Sexual Visual na iconografia do Estado.
+**Resumo:** Este artigo investiga uma dimensão negligenciada da iconografia jurídica: a progressiva perda de voz das figuras alegóricas femininas que personificam a Justiça, a Liberdade e a República na cultura visual estatal dos séculos XIX e XX. A partir de um corpus de 106 imagens oficiais e semi-oficiais de 8 países, codificadas com protocolo de 10 indicadores ordinais de purificação (endurecimento), o artigo demonstra que a trajetória do corpo alegórico feminino — de figura narrativa e dinâmica a emblema institucional estático — é acompanhada por um silenciamento paralelo: as alegorias que falam, gritam ou convocam nos registros fundacionais perdem progressivamente a capacidade vocal à medida que são absorvidas pelo regime normativo. O artigo propõe o conceito de *silenciamento* como dimensão qualitativa complementar aos indicadores morfológicos de endurecimento e analisa casos paradigmáticos em que a relação entre voz e mutismo revela a operação do Contrato Sexual Visual na iconografia do Estado.
 
-**Palavras-chave:** alegoria feminina; iconografia jurídica; silêncio; ENDURECIMENTO; Contrato Sexual Visual; Feminilidade de Estado.
+**Palavras-chave:** alegoria feminina; iconografia jurídica; silêncio; endurecimento; Contrato Sexual Visual; Feminilidade de Estado.
 
 ---
 
@@ -19,7 +19,7 @@ Em 1827, o periódico *Brasil* publicou um diálogo literário intitulado "As Es
 
 Cento e trinta e quatro anos depois, Alfredo Ceschiatti instalou diante do Supremo Tribunal Federal, em Brasília, uma escultura de granito cinza de 3,3 metros: uma mulher sentada, olhos fechados, mãos agarradas a uma espada vertical apontada para baixo. Sem balança. Sem venda — os olhos são selados, não vendados. E, crucialmente, sem boca articulada: o rosto é uma máscara de serenidade genérica, geometricamente abstraída. A Justiça de Ceschiatti não pode falar. Não é que ela escolha o silêncio — é que a forma escultórica eliminou a possibilidade mesma da fala. O granito não tem cordas vocais.
 
-Este artigo investiga a trajetória entre esses dois pontos — da Justiça que fala (1827) à Justiça que não pode falar (1961) — como um caso particular de um fenômeno mais amplo: o silenciamento progressivo do corpo alegórico feminino na iconografia jurídica e estatal. Argumenta-se que esse silenciamento não é incidental nem meramente estético, mas constitutivo do processo que esta pesquisa denomina *ENDURECIMENTO*: a transformação do corpo alegórico feminino de figura narrativa, dinâmica e individualizada em signo estatal abstrato, rígido e serial.
+Este artigo investiga a trajetória entre esses dois pontos — da Justiça que fala (1827) à Justiça que não pode falar (1961) — como um caso particular de um fenômeno mais amplo: o silenciamento progressivo do corpo alegórico feminino na iconografia jurídica e estatal. Argumenta-se que esse silenciamento não é incidental nem meramente estético, mas constitutivo do processo que esta pesquisa denomina *endurecimento*: a transformação do corpo alegórico feminino de figura narrativa, dinâmica e individualizada em signo estatal abstrato, rígido e serial.
 
 ---
 
@@ -35,7 +35,7 @@ Peter Goodrich (2013), ao recuperar o conceito romano de *ius imaginum* — o di
 
 Aby Warburg (2010) conceituou a *Pathosformel* — a fórmula de pathos — como a sobrevivência (*Nachleben*) de gestos expressivos intensos que atravessam séculos na memória visual das sociedades ocidentais. As *Pathosformeln* warburguianas são eminentemente corporais e visuais: mãos erguidas, corpos em torção, drapeados ao vento. Mas há uma *Pathosformel* que Warburg não sistematizou: a da boca. A boca aberta em grito (a Mênade), a boca fechada em serenidade (a Minerva sentada), a boca selada em mutismo institucional (o busto de Marianne) — estas são fórmulas expressivas distintas cuja trajetória histórica pode ser mapeada no corpo alegórico feminino.
 
-A passagem da boca aberta à boca selada é, argumentamos, uma dimensão do ENDURECIMENTO tão significativa quanto a passagem do corpo dinâmico ao corpo rígido. Se a *Pathosformel* da Mênade dionisíaca é o grito — a expressão máxima de energia vital não-domesticada —, a *Pathosformel* da Justiça normativa é o mutismo — a expressão máxima de energia vital suprimida. O processo de ENDURECIMENTO pode ser lido, nesta chave, como uma trajetória de Dioniso a Apolo que passa pela laringe: do grito ao silêncio.
+A passagem da boca aberta à boca selada é, argumentamos, uma dimensão do endurecimento tão significativa quanto a passagem do corpo dinâmico ao corpo rígido. Se a *Pathosformel* da Mênade dionisíaca é o grito — a expressão máxima de energia vital não-domesticada —, a *Pathosformel* da Justiça normativa é o mutismo — a expressão máxima de energia vital suprimida. O processo de endurecimento pode ser lido, nesta chave, como uma trajetória de Dioniso a Apolo que passa pela laringe: do grito ao silêncio.
 
 ---
 
@@ -45,51 +45,51 @@ A análise do corpus (N=106 imagens oficiais e semi-oficiais, 6 países, 1776–
 
 ### 3.1 A prosopopeia: a alegoria que fala
 
-**Caso:** BR-007, *As Estátuas Fallando* (1827). ENDURECIMENTO: 2,3.
+**Caso:** BR-007, *As Estátuas Fallando* (1827). Endurecimento: 2,3.
 
-A prosopopeia é o modo mais antigo de vocalidade alegórica. Nela, a figura feminina recebe voz através do texto literário — ela *fala* em discurso direto. A Justiça de 1827 argumenta, interpela, denuncia. Este modo é paradoxalmente de alto ENDURECIMENTO (2,3) porque a figura é *inteiramente textual* — não há corpo, não há imagem, apenas voz. A desincorporação é máxima (3), mas por ausência de imagem, não por abstração do corpo. A voz sem corpo é o inverso simétrico do corpo sem voz: ambos são extremos no gradiente de purificação.
+A prosopopeia é o modo mais antigo de vocalidade alegórica. Nela, a figura feminina recebe voz através do texto literário — ela *fala* em discurso direto. A Justiça de 1827 argumenta, interpela, denuncia. Este modo é paradoxalmente de alto endurecimento (2,3) porque a figura é *inteiramente textual* — não há corpo, não há imagem, apenas voz. A desincorporação é máxima (3), mas por ausência de imagem, não por abstração do corpo. A voz sem corpo é o inverso simétrico do corpo sem voz: ambos são extremos no gradiente de purificação.
 
 ### 3.2 O grito: a alegoria que vocifera
 
-**Caso:** FR-008, *La République nous appelle* (Steinlen, 1915). ENDURECIMENTO: 0,8.
+**Caso:** FR-008, *La République nous appelle* (Steinlen, 1915). Endurecimento: 0,8.
 
-Steinlen desenhou uma Marianne com boca escancarada em grito, seio nu, espada empunhada, cabelos ao vento. A boca aberta é visualmente dominante: esta é uma figura que *grita*, que *convoca*, que *interpela* fisicamente o espectador. O baixíssimo ENDURECIMENTO (0,8) correlaciona-se diretamente com a vocalidade máxima: todos os indicadores morfológicos estão em 0 ou 1. O grito é a *Pathosformel* que resiste à purificação — uma boca aberta não pode ser heráldica, não pode ser serial, não pode ser institucional. O grito é individual, temporal, irrepetível: tudo que o regime normativo precisa eliminar.
+Steinlen desenhou uma Marianne com boca escancarada em grito, seio nu, espada empunhada, cabelos ao vento. A boca aberta é visualmente dominante: esta é uma figura que *grita*, que *convoca*, que *interpela* fisicamente o espectador. O baixíssimo endurecimento (0,8) correlaciona-se diretamente com a vocalidade máxima: todos os indicadores morfológicos estão em 0 ou 1. O grito é a *Pathosformel* que resiste à purificação — uma boca aberta não pode ser heráldica, não pode ser serial, não pode ser institucional. O grito é individual, temporal, irrepetível: tudo que o regime normativo precisa eliminar.
 
-Comparar com FR-007 (Lelong, mesmo contexto bélico, 1917, ENDURECIMENTO 1,8): a Marianne de Lelong é muda — estátua sobre soldados, boca fechada, hierática. Dois cartazes de guerra franceses, mesma data, mesma função (mobilização), mas ENDURECIMENTO radicalmente diferente. O que os distingue? A boca. Steinlen grita; Lelong cala. A diferença de ENDURECIMENTO (0,8 vs. 1,8) é, em grande medida, uma diferença de vocalidade.
+Comparar com FR-007 (Lelong, mesmo contexto bélico, 1917, endurecimento 1,8): a Marianne de Lelong é muda — estátua sobre soldados, boca fechada, hierática. Dois cartazes de guerra franceses, mesma data, mesma função (mobilização), mas endurecimento radicalmente diferente. O que os distingue? A boca. Steinlen grita; Lelong cala. A diferença de endurecimento (0,8 vs. 1,8) é, em grande medida, uma diferença de vocalidade.
 
 ### 3.3 A interpelação: quando mulheres reais falam pela alegoria
 
-**Caso:** UK-006, *Women of Britain Say 'Go!'* (1915). ENDURECIMENTO: 1,7.
+**Caso:** UK-006, *Women of Britain Say 'Go!'* (1915). Endurecimento: 1,7.
 
 Este caso é limítrofe. As figuras não são alegorias clássicas — são mulheres reais em trajes eduardianos, observando soldados partirem pela janela. Mas o título faz delas um sujeito coletivo que *fala*: "Women of Britain *SAY* — 'Go!'" A voz aqui não é da alegoria, mas das mulheres reais que a habitam. O verbo *say* é o operador que transforma mulheres comuns em voz nacional.
 
 Caso inverso: US-011, *Wake up America!* (Flagg, 1917). Columbia *dorme* — não pode falar, não pode agir, precisa ser despertada pelo cidadão (masculino). A nação-como-mulher-adormecida é a vocalidade zero disfarçada de narrativa: o silêncio é tornado dramático.
 
-**Caso paradigmático:** US-008, Hedwig Reicher como Columbia (1913). ENDURECIMENTO: 1,2. Uma mulher real — atriz, com nome, biografia, corpo que respira — veste-se de Columbia no desfile sufragista de 1913 e *fala*. Pela primeira vez, a alegoria nacional feminina é habitada por uma mulher que pode realmente falar, e que usa essa voz para exigir direitos que a alegoria muda sempre mascarou. Quando a alegoria ganha cordas vocais, o Contrato Sexual Visual entra em crise.
+**Caso paradigmático:** US-008, Hedwig Reicher como Columbia (1913). Endurecimento: 1,2. Uma mulher real — atriz, com nome, biografia, corpo que respira — veste-se de Columbia no desfile sufragista de 1913 e *fala*. Pela primeira vez, a alegoria nacional feminina é habitada por uma mulher que pode realmente falar, e que usa essa voz para exigir direitos que a alegoria muda sempre mascarou. Quando a alegoria ganha cordas vocais, o Contrato Sexual Visual entra em crise.
 
 ### 3.4 O decoro: a alegoria de boca fechada
 
-**Caso:** UK-004, Lady Justice (Pomeroy, Old Bailey, 1907). ENDURECIMENTO: 2,4.
+**Caso:** UK-004, Lady Justice (Pomeroy, Old Bailey, 1907). Endurecimento: 2,4.
 
 A Justiça do Old Bailey segura espada e balança, sem venda nos olhos — os folhetos do tribunal afirmam que sua "forma donzelar" (*maidenly form*) garante imparcialidade sem necessidade de venda. Mas a boca está fechada: lábios selados em serenidade institucional. A vocalidade é zero. A forma donzelar que "garante" imparcialidade é também uma forma silenciosa — o decoro feminino que o Estado requer é um decoro de mutismo. A "boa" alegoria não fala.
 
-Compare-se com FR-009 (busto de Marianne, ENDURECIMENTO 2,4): o formato busto elimina fisicamente a possibilidade de fala — sem corpo abaixo do peito, sem braços para gesticular, sem pulmões para gritar. O busto é o silenciamento materializado em pedra.
+Compare-se com FR-009 (busto de Marianne, endurecimento 2,4): o formato busto elimina fisicamente a possibilidade de fala — sem corpo abaixo do peito, sem braços para gesticular, sem pulmões para gritar. O busto é o silenciamento materializado em pedra.
 
 ### 3.5 A petrificação: a alegoria que não pode falar
 
-**Caso:** BE-002, Palais de Justice de Bruxelles (Poelaert, 1866–1883). ENDURECIMENTO: 2,9.
+**Caso:** BE-002, Palais de Justice de Bruxelles (Poelaert, 1866–1883). Endurecimento: 2,9.
 
-O caso extremo. As figuras femininas do Palácio de Justiça de Bruxelas não estão apenas silenciosas — estão *petrificadas*, absorvidas pela arquitetura, transformadas em colunas, capitéis, bustos de coroamento. São pedra dentro de pedra. A vocalidade é não apenas zero mas *estruturalmente impossível*: uma coluna não pode falar, um capitel não pode gritar. O ENDURECIMENTO máximo (2,9) coincide com o silenciamento máximo: o corpo que se torna arquitetura perde não apenas a voz, mas a possibilidade mesma de ter voz.
+O caso extremo. As figuras femininas do Palácio de Justiça de Bruxelas não estão apenas silenciosas — estão *petrificadas*, absorvidas pela arquitetura, transformadas em colunas, capitéis, bustos de coroamento. São pedra dentro de pedra. A vocalidade é não apenas zero mas *estruturalmente impossível*: uma coluna não pode falar, um capitel não pode gritar. O endurecimento máximo (2,9) coincide com o silenciamento máximo: o corpo que se torna arquitetura perde não apenas a voz, mas a possibilidade mesma de ter voz.
 
 No interior do Palácio, todas as estátuas-retrato são de homens: Demóstenes, Licurgo, Cícero, Ulpiano. Os juristas masculinos mantêm seus rostos individualizados — e portanto, implicitamente, suas vozes. As mulheres são as colunas; os homens são os oradores.
 
 ---
 
-## 4. A correlação silêncio–ENDURECIMENTO
+## 4. A correlação silêncio–endurecimento
 
-A tabela abaixo organiza os casos analisados pelo gradiente de vocalidade, justaposto ao score de ENDURECIMENTO:
+A tabela abaixo organiza os casos analisados pelo gradiente de vocalidade, justaposto ao score de endurecimento:
 
-| Modo vocal | Caso | Vocalidade | ENDURECIMENTO | Regime |
+| Modo vocal | Caso | Vocalidade | endurecimento | Regime |
 |------------|------|-----------|--------------|--------|
 | Prosopopeia | BR-007 (1827) | Fala em discurso direto | 2,3 | fundacional |
 | Grito | FR-008 (Steinlen, 1915) | Boca aberta, grito | 0,8 | militar |
@@ -101,9 +101,9 @@ A tabela abaixo organiza os casos analisados pelo gradiente de vocalidade, justa
 | Petrificação | BE-002 (Poelaert, 1866–83) | Pedra dentro de pedra | 2,9 | normativo |
 | Petrificação | BR-009 (Ceschiatti, 1961) | Olhos selados, granito mudo | 2,2 | militar |
 
-O padrão é nítido nos extremos: o grito (FR-008, 0,8) coincide com ENDURECIMENTO mínimo; a petrificação (BE-002, 2,9) coincide com ENDURECIMENTO máximo. A exceção — BR-007, alto ENDURECIMENTO (2,3) com máxima vocalidade — confirma a regra por inversão: o corpo textual sem imagem é tão abstraído quanto o corpo de pedra sem voz. Ambos atingem alto ENDURECIMENTO, mas por caminhos opostos: um por excesso de logos (pura palavra), outro por excesso de lithos (pura pedra).
+O padrão é nítido nos extremos: o grito (FR-008, 0,8) coincide com endurecimento mínimo; a petrificação (BE-002, 2,9) coincide com endurecimento máximo. A exceção — BR-007, alto endurecimento (2,3) com máxima vocalidade — confirma a regra por inversão: o corpo textual sem imagem é tão abstraído quanto o corpo de pedra sem voz. Ambos atingem alto endurecimento, mas por caminhos opostos: um por excesso de logos (pura palavra), outro por excesso de lithos (pura pedra).
 
-A correlação sugere que o *silenciamento* não é um epifenômeno do ENDURECIMENTO, mas uma de suas dimensões constitutivas — possivelmente mensurável como um indicador independente.
+A correlação sugere que o *silenciamento* não é um epifenômeno do endurecimento, mas uma de suas dimensões constitutivas — possivelmente mensurável como um indicador independente.
 
 ---
 
@@ -120,7 +120,7 @@ O protocolo IconoCode utilizado nesta pesquisa emprega 10 indicadores ordinais d
 | 2 | Boca fechada, serenidade, decoro institucional | UK-004 (Old Bailey, lábios selados) |
 | 3 | Boca ausente, abstraída ou impossível (busto, arquitetura) | BE-002 (cariátide petrificada) |
 
-A inclusão desse indicador permitiria captar uma dimensão do ENDURECIMENTO que os 10 indicadores existentes medem apenas indiretamente — por meio da *rigidez postural* (que registra a imobilidade do corpo, não da voz) e do *apagamento narrativo* (que registra a ausência de história, não de fala). O silenciamento é ortogonal a ambos: uma figura pode ser narrativamente inserida e posturalmente dinâmica e ainda assim ter a boca selada (decoro sem rigidez); inversamente, uma figura pode estar isolada e imóvel mas ter a boca aberta em grito eterno (a Medusa petrificada que ainda grita).
+A inclusão desse indicador permitiria captar uma dimensão do endurecimento que os 10 indicadores existentes medem apenas indiretamente — por meio da *rigidez postural* (que registra a imobilidade do corpo, não da voz) e do *apagamento narrativo* (que registra a ausência de história, não de fala). O silenciamento é ortogonal a ambos: uma figura pode ser narrativamente inserida e posturalmente dinâmica e ainda assim ter a boca selada (decoro sem rigidez); inversamente, uma figura pode estar isolada e imóvel mas ter a boca aberta em grito eterno (a Medusa petrificada que ainda grita).
 
 ---
 
@@ -136,7 +136,7 @@ Quando esse pacto é rompido — quando Hedwig Reicher veste-se de Columbia e *f
 
 ## 7. Considerações finais
 
-A trajetória da Justiça que fala (Brasil, 1827) à Justiça muda (Brasília, 1961) é a trajetória de um silenciamento que acompanha, reforça e constitui o processo de ENDURECIMENTO do corpo alegórico feminino. Esse silenciamento não é um resíduo estético, mas uma operação política: a purificação clássica do corpo alegórico inclui, como dimensão necessária, a supressão de sua capacidade de interpelação.
+A trajetória da Justiça que fala (Brasil, 1827) à Justiça muda (Brasília, 1961) é a trajetória de um silenciamento que acompanha, reforça e constitui o processo de endurecimento do corpo alegórico feminino. Esse silenciamento não é um resíduo estético, mas uma operação política: a purificação clássica do corpo alegórico inclui, como dimensão necessária, a supressão de sua capacidade de interpelação.
 
 A proposta de um 11.º indicador — o *silenciamento* — não pretende esgotar a questão, mas abrir uma linha de investigação que os indicadores morfológicos existentes captam apenas lateralmente. A dimensão vocal da alegoria é o ponto onde iconografia, retórica e teoria política se encontram: a imagem que pode falar é uma imagem que pode contestar; a imagem que foi silenciada é uma imagem que foi domesticada.
 

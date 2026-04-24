@@ -19,7 +19,7 @@ tags:
   - regime/normativo
   - motivo/britannia
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Britannia]]"
 hf_synced: false
@@ -57,7 +57,7 @@ data_scout: 2026-04-01
 - [x] postura sentada
 - [x] farol e navio
 
-**ENDURECIMENTO detectado:** sim — rigidez postural (sentada), monocromatização (bronze), serialidade extrema (circulação massiva), inscrição estatal
+**endurecimento detectado:** sim — rigidez postural (sentada), monocromatização (bronze), serialidade extrema (circulação massiva), inscrição estatal
 
 ---
 
@@ -81,6 +81,6 @@ ROYAL MINT. *Penny — Britannia*. 1860–1894. Moeda, bronze. Design: Leonard C
 
 ## Observações do Scout
 
-Potencial **Zwischenraum** com o British Trade Dollar (SCOUT-067): mesma Britannia, mesmo tridente+escudo, mas sentada (NORMATIVO, circulação metropolitana) vs. de pé (MILITAR, circulação colonial). A transição postural sentada→de pé correlaciona com a transição metrópole→colônia. O ENDURECIMENTO muda de vetor: na penny doméstica, Britannia é guardiã passiva; no Trade Dollar colonial, Britannia é projeção ativa de poder.
+Potencial **Zwischenraum** com o British Trade Dollar (SCOUT-067): mesma Britannia, mesmo tridente+escudo, mas sentada (NORMATIVO, circulação metropolitana) vs. de pé (MILITAR, circulação colonial). A transição postural sentada→de pé correlaciona com a transição metrópole→colônia. O endurecimento muda de vetor: na penny doméstica, Britannia é guardiã passiva; no Trade Dollar colonial, Britannia é projeção ativa de poder.
 
 Esta é a moeda mais reproduzida do Império Britânico no período — serialidade extrema. Britannia no penny é a imagem mais vista do corpus, potencialmente bilhões de impressões no inconsciente visual vitoriano.

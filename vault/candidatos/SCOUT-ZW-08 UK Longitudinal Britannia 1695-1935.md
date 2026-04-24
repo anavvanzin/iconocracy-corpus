@@ -5,7 +5,7 @@ titulo: "Painel VIII — UK LONGITUDINAL: Britannia 1695 → 1895 → 1895 (270 
 pais: [UK, UK, UK]
 periodo: "1695-1935"
 tags: [corpus/zwischenraum, painel/longitudinal, painel/tres-regimes, metodo/warburg]
-related: ["[[SCOUT-108]]", "[[SCOUT-NC-02]]", "[[SCOUT-105]]", "[[Nachleben]]", "[[ENDURECIMENTO]]"]
+related: ["[[SCOUT-108]]", "[[SCOUT-NC-02]]", "[[SCOUT-105]]", "[[Nachleben]]", "[[endurecimento]]"]
 data_scout: 2026-03-30
 ---
 
@@ -35,7 +35,7 @@ MILITAR (colonial, De Saulles).
 
 ### Nachleben da Pathosformel
 A → B: Em 200 anos, Britannia permanece sentada mas perde a oliveira (paz) e ganha
-o tridente (poder marítimo). ENDURECIMENTO progressivo: de pacificadora a guardiã.
+o tridente (poder marítimo). Endurecimento progressivo: de pacificadora a guardiã.
 B → C: No MESMO ANO, Britannia levanta-se — de sentada (doméstica) para de pé (colonial).
 O contexto colonial REATIVA a dinamicidade FUNDACIONAL para fins MILITAR.
 A → C: O arco completo: a Pathosformel fundacional retorna transformada 200 anos depois

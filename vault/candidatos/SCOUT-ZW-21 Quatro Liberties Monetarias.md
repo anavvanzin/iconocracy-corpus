@@ -15,13 +15,13 @@ related:
   - "[[SCOUT-313]]"
   - "[[SCOUT-314]]"
   - "[[SCOUT-316]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
 data_scout: 2026-03-30
 ---
 
 ## Painel XXI — QUATRO LIBERTIES MONETÁRIAS
 
-FR: ENDURECIMENTO por REDUÇÃO (só cabeça, 117M exemplares). UK: ENDURECIMENTO por ARMAMENTO (tridente adicionado). US: ENDURECIMENTO EM ATO (seio censurado em meses). BR: ENDURECIMENTO por IMPORTAÇÃO (copia modelo francês já endurecido).
+FR: endurecimento por REDUÇÃO (só cabeça, 117M exemplares). UK: endurecimento por ARMAMENTO (tridente adicionado). US: endurecimento EM ATO (seio censurado em meses). BR: endurecimento por IMPORTAÇÃO (copia modelo francês já endurecido).
 
-A moeda revela: quanto mais o suporte é MANUSEADO, mais severo é o ENDURECIMENTO. Hierarquia dos suportes = hierarquia de CONTATO FÍSICO com o corpo alegórico.
+A moeda revela: quanto mais o suporte é MANUSEADO, mais severo é o endurecimento. Hierarquia dos suportes = hierarquia de CONTATO FÍSICO com o corpo alegórico.

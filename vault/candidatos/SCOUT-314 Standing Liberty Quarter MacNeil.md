@@ -17,7 +17,7 @@ tags:
   - motivo/columbia
   - "#contra-alegoria"
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
 data_scout: 2026-03-30
@@ -32,9 +32,9 @@ data_scout: 2026-03-30
 **Tipo I (1916–17)**: Liberty de pé, escudo + oliveira. SEIO DIREITO EXPOSTO.
 **Tipo II (1917–30)**: MESMO corpo, seio COBERTO por cota de malha. Censurado por pressão pública.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**SIM** — o caso mais EXPLÍCITO de ENDURECIMENTO documentado em tempo real. Tipo I→II É a dessexualizacao capturada em ato. Potencialmente o item mais importante do corpus inteiro: prova que o ENDURECIMENTO é PROCESSO SOCIAL CONSCIENTE, não tendência estilística inconsciente.
+**SIM** — o caso mais EXPLÍCITO de endurecimento documentado em tempo real. Tipo I→II É a dessexualizacao capturada em ato. Potencialmente o item mais importante do corpus inteiro: prova que o endurecimento é PROCESSO SOCIAL CONSCIENTE, não tendência estilística inconsciente.
 
 ### Citação ABNT
 

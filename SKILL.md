@@ -67,10 +67,14 @@ papel-moeda, edifícios). Corpo controlado, vestido, frontal, sereno.
 Função: normalizar e estabilizar a ordem.
 
 **MILITAR** — guerra, imperialismo, mobilização, regimes autoritários.
-ENDURECIMENTO morfológico do corpo alegórico: rígido, armado, hierático.
+Endurecimento morfológico do corpo alegórico: rígido, armado, hierático.
 Função: mobilizar e intimidar.
 
-> REGRA TERMINOLÓGICA: sempre ENDURECIMENTO em português.
+**CONTRA-ALEGORIA** — subversões, reapropriações feministas, respostas
+anticoloniais. Corpo que desafia ou inverte o programa iconocrático.
+Função: contestar o Contrato Sexual Visual.
+
+> REGRA TERMINOLÓGICA: sempre endurecimento em português.
 > Nunca "hardening". Nunca "embrutecimento".
 
 ### 2.5 Critério de inclusão (todos obrigatórios)
@@ -83,6 +87,12 @@ Função: mobilizar e intimidar.
 
 **Relevância ALTA** (priorizar): período 1880–1920 + atributos canônicos
 visíveis + URL IIIF estável + classificação preliminar de regime possível.
+
+> **Limiar de dessexualização** — achado teórico recente: alegorias com
+> dessexualização baixa (0–1) tendem a ser rejeitadas; com dessexualização
+> alta (2–3) tendem a persistir. Britannia nunca foi sexualizada; Brasil
+> nasceu dessexualizado. A dessexualização opera como condição necessária
+> de sobrevivência iconocrática.
 
 ---
 
@@ -166,13 +176,13 @@ Identifique atributos alegóricos. Para cada um: presente / ausente / incerto.
 - postura frontal hierática · contexto arquitetônico forense
 
 ### Nível 3 — Morfológico
-Avalie o grau de ENDURECIMENTO:
+Avalie o grau de endurecimento:
 - BAIXO: corpo dinâmico, expressivo, em movimento
 - MÉDIO: corpo controlado, sereno, vestido, frontal
 - ALTO: corpo rígido, hierático, armado, endurecido
 
 ### Nível 4 — Regime
-Classifique: FUNDACIONAL / NORMATIVO / MILITAR
+Classifique: FUNDACIONAL / NORMATIVO / MILITAR / CONTRA-ALEGORIA
 Com justificativa de 1 frase baseada exclusivamente no que foi visto.
 
 ### Nível 5 — Confiança visual
@@ -203,7 +213,7 @@ pais: BR
 suporte: estampa
 motivo_alegorico: "A República"
 regime: FUNDACIONAL
-endurecimento: BAIXO
+Endurecimento: BAIXO
 confianca: alto
 tags:
   - corpus/candidato
@@ -217,6 +227,8 @@ related:
   - "[[A República brasileira — Nachleben]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
+  - "[[Contrato Racial Visual]]"
+  - "[[Limiar de Dessexualização]]"
 data_scout: 2026-03-28
 ---
 
@@ -249,7 +261,7 @@ data_scout: 2026-03-28
 - [ ] postura frontal hierática
 - [ ] contexto arquitetônico forense
 
-**ENDURECIMENTO:** BAIXO
+**endurecimento:** BAIXO
 **Regime iconocrático:** FUNDACIONAL
 **Justificativa:** [1 frase baseada no que foi visto]
 
@@ -338,12 +350,12 @@ Quando a pesquisadora pedir uma campanha por número, execute:
 | 1 | Brasil, regime Fundacional | Estampas/gravuras república brasileira 1889–1910, BNDigital |
 | 2 | França, domesticação de Marianne | Selos postais franceses Marianne 1876–1914, Gallica IIIF |
 | 3 | Bélgica, contexto colonial | Alegorias belgas + Congo 1885–1910, hierarquia visual racial |
-| 4 | Reino Unido, Britannia em guerra | Cartazes recrutamento 1914–1918, ENDURECIMENTO morfológico |
+| 4 | Reino Unido, Britannia em guerra | Cartazes recrutamento 1914–1918, endurecimento morfológico |
 | 5 | EUA, Columbia e Justice comparadas | Bureau of Engraving, Capitólio, selos, LoC 1880–1920 |
 | 6 | Venda nos olhos, comparação transatlântica | Justitia com/sem venda, 6 países, todos suportes |
 | 7 | Alemanha, Germania e unificação | Moedas/monumentos/gravuras 1871–1918, Europeana |
 | 8 | Auditoria de lacunas | Meta-busca por gaps país×período×suporte×regime |
-| 9 | Moedas, progressão morfológica | 6 países × 5 décadas, Numista, rastrear ENDURECIMENTO |
+| 9 | Moedas, progressão morfológica | 6 países × 5 décadas, Numista, rastrear endurecimento |
 | 10 | Selos, acoplamento imagem-norma | Figura + texto normativo explícito, grau de acoplamento |
 | 11 | Frontispícios de códigos e constituições | Code civil, Constituição 1891, compilações jurídicas |
 | 12 | Papel-moeda colonial | FR/UK/BE para colônias africanas/asiáticas 1880–1940 |
@@ -368,9 +380,9 @@ Quando a pesquisadora pedir uma campanha por número, execute:
   `#contrato-racial-visual`, `#contra-alegoria`, `#ausencia-alegorica`.
 - Se encontrar mais de 8 candidatos: priorize por confiança, retorne 8,
   avise que há mais e sugira refinar a query.
-- O campo `ENDURECIMENTO` é obrigatório em todas as notas.
+- O campo `endurecimento` é obrigatório em todas as notas.
 - A nota de síntese de sessão é obrigatória em todas as respostas.
-- Nunca use "hardening" — sempre ENDURECIMENTO.
+- Nunca use "hardening" — sempre endurecimento.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-101
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "1 Dollar Silver Certificate 'Educational Series' — History Instructing Youth"
 acervo: "Numista / Smithsonian NMAH"
 url: "https://en.numista.com/catalogue/note207329.html"
@@ -27,5 +27,5 @@ data_scout: 2026-03-30
 ## Analise preliminar
 **Motivo:** History (reclining female) instructing Youth, pointing to U.S. Constitution
 **Regime:** NORMATIVO — the allegory teaches, not founds
-**ENDURECIMENTO detectado:** sim (dessexualizacao, enquadramento_arquitetonico, serialidade)
+**endurecimento detectado:** sim (dessexualizacao, enquadramento_arquitetonico, serialidade)
 **Reverso:** Martha Washington — real woman replacing allegory. Thesis datum.

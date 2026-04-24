@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" font-family="Inter, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FAF7F4"/>
+      <stop offset="1" stop-color="#F2ECE6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#800020"/>
+      <stop offset="1" stop-color="#B8334F"/>
+    </linearGradient>
+    <linearGradient id="argos" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1F3A5F"/>
+      <stop offset="1" stop-color="#4A6FA5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="4" result="off"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1100" fill="url(#bg)"/>
+
+  <!-- Header band -->
+  <rect x="0" y="0" width="1600" height="130" fill="url(#accent)"/>
+  <text x="60" y="55" font-size="14" fill="#F5D8DD" letter-spacing="4">ICONOCRACIA · PPGD/UFSC · ANA VANZIN</text>
+  <text x="60" y="95" font-size="30" font-weight="700" fill="#FFFFFF">Relatório · quinta 16 → sexta 17 → sábado 18/abril 2026</text>
+  <text x="60" y="118" font-size="14" fill="#F5D8DD">Foco: PROJETO ARGOS (pipeline de aquisição do corpus, 157 itens)</text>
+  <text x="1540" y="70" font-size="13" fill="#F5D8DD" text-anchor="end">BRT · UTC−3</text>
+  <text x="1540" y="92" font-size="13" fill="#F5D8DD" text-anchor="end">Gerado 21/abr/2026</text>
+
+  <!-- KPI row -->
+  <g transform="translate(60,160)" filter="url(#shadow)">
+    <rect width="180" height="110" rx="10" fill="#FFFFFF"/>
+    <text x="18" y="32" font-size="11" fill="#800020" letter-spacing="2">HORAS ATIVAS</text>
+    <text x="18" y="82" font-size="42" font-weight="700" fill="#222">22h</text>
+    <text x="115" y="82" font-size="12" fill="#888">em 48h</text>
+  </g>
+  <g transform="translate(260,160)" filter="url(#shadow)">
+    <rect width="180" height="110" rx="10" fill="#FFFFFF"/>
+    <text x="18" y="32" font-size="11" fill="#800020" letter-spacing="2">COMMITS</text>
+    <text x="18" y="82" font-size="42" font-weight="700" fill="#222">135</text>
+    <text x="115" y="82" font-size="12" fill="#888">5 repos</text>
+  </g>
+  <g transform="translate(460,160)" filter="url(#shadow)">
+    <rect width="180" height="110" rx="10" fill="#FFFFFF"/>
+    <text x="18" y="32" font-size="11" fill="#800020" letter-spacing="2">SESSÕES CC</text>
+    <text x="18" y="82" font-size="42" font-weight="700" fill="#222">19</text>
+    <text x="85" y="82" font-size="12" fill="#888">~256 msgs</text>
+  </g>
+  <g transform="translate(660,160)" filter="url(#shadow)">
+    <rect width="180" height="110" rx="10" fill="#FFFFFF"/>
+    <text x="18" y="32" font-size="11" fill="#1F3A5F" letter-spacing="2">ARGOS ITEMS</text>
+    <text x="18" y="82" font-size="42" font-weight="700" fill="#1F3A5F">157</text>
+    <text x="115" y="82" font-size="12" fill="#888">17 domínios</text>
+  </g>
+  <g transform="translate(860,160)" filter="url(#shadow)">
+    <rect width="180" height="110" rx="10" fill="url(#argos)"/>
+    <text x="18" y="32" font-size="11" fill="#CFE0F5" letter-spacing="2">LINHAS CORPUS</text>
+    <text x="18" y="82" font-size="42" font-weight="700" fill="#FFFFFF">+1722</text>
+    <text x="18" y="102" font-size="11" fill="#CFE0F5">corpus-data.json 17/abr 23:49</text>
+  </g>
+  <g transform="translate(1060,160)" filter="url(#shadow)">
+    <rect width="260" height="110" rx="10" fill="#800020"/>
+    <text x="18" y="32" font-size="11" fill="#F5D8DD" letter-spacing="2">CVE FIX</text>
+    <text x="18" y="66" font-size="18" font-weight="700" fill="#FFFFFF">protobufjs ≥7.5.5</text>
+    <text x="18" y="92" font-size="13" fill="#F5D8DD">CVE-2026-41242 · 18/04 14:17</text>
+  </g>
+  <g transform="translate(1340,160)" filter="url(#shadow)">
+    <rect width="200" height="110" rx="10" fill="#FFFFFF"/>
+    <text x="18" y="32" font-size="11" fill="#800020" letter-spacing="2">DECISÕES</text>
+    <text x="18" y="82" font-size="42" font-weight="700" fill="#222">13</text>
+    <text x="100" y="82" font-size="12" fill="#888">duráveis</text>
+  </g>
+
+  <!-- ARGOS Timeline title -->
+  <g transform="translate(60,310)">
+    <rect x="0" y="0" width="1480" height="36" fill="url(#argos)" rx="6"/>
+    <text x="18" y="24" font-size="16" font-weight="700" fill="#FFFFFF">⏱  TIMELINE ARGOS — 10 commits em 70 minutos na noite de sexta 17/abr</text>
+    <text x="1465" y="24" font-size="12" fill="#CFE0F5" text-anchor="end">records.jsonl +167 · corpus-data.json +1722 · vault notes 25 SCOUTs</text>
+  </g>
+
+  <!-- ARGOS timeline -->
+  <g transform="translate(60,360)">
+    <line x1="20" y1="20" x2="1460" y2="20" stroke="#1F3A5F" stroke-width="3"/>
+
+    <!-- 10 dots with timestamps -->
+    <g font-size="10" fill="#1F3A5F">
+      <circle cx="20" cy="20" r="7" fill="#4A6FA5"/>
+      <text x="20" y="0" text-anchor="middle" font-weight="700">22:39:44</text>
+      <text x="20" y="42" text-anchor="middle" font-size="9" fill="#666">taxonomy policy</text>
+
+      <circle cx="135" cy="20" r="7" fill="#4A6FA5"/>
+      <text x="135" y="0" text-anchor="middle" font-weight="700">22:39:55</text>
+      <text x="135" y="42" text-anchor="middle" font-size="9" fill="#666">topology refs</text>
+
+      <circle cx="250" cy="20" r="7" fill="#4A6FA5"/>
+      <text x="250" y="0" text-anchor="middle" font-weight="700">22:40:01</text>
+      <text x="250" y="42" text-anchor="middle" font-size="9" fill="#666">move legacy</text>
+
+      <circle cx="365" cy="20" r="7" fill="#4A6FA5"/>
+      <text x="365" y="0" text-anchor="middle" font-weight="700">22:40:16</text>
+      <text x="365" y="42" text-anchor="middle" font-size="9" fill="#666">validation log</text>
+
+      <circle cx="550" cy="20" r="10" fill="#800020"/>
+      <text x="550" y="0" text-anchor="middle" font-weight="700" fill="#800020">22:54:25 ★</text>
+      <text x="550" y="42" text-anchor="middle" font-size="10" fill="#800020" font-weight="700">restore ledger + vault (+167 jsonl)</text>
+
+      <circle cx="720" cy="20" r="7" fill="#4A6FA5"/>
+      <text x="720" y="0" text-anchor="middle" font-weight="700">23:12:06</text>
+      <text x="720" y="42" text-anchor="middle" font-size="9" fill="#666">normalize sync</text>
+
+      <circle cx="890" cy="20" r="10" fill="#800020"/>
+      <text x="890" y="0" text-anchor="middle" font-weight="700" fill="#800020">23:24:34 ★</text>
+      <text x="890" y="42" text-anchor="middle" font-size="10" fill="#800020" font-weight="700">harden matching (+103 py)</text>
+
+      <circle cx="1060" cy="20" r="7" fill="#4A6FA5"/>
+      <text x="1060" y="0" text-anchor="middle" font-weight="700">23:32:09</text>
+      <text x="1060" y="42" text-anchor="middle" font-size="9" fill="#666">multiplicity</text>
+
+      <circle cx="1200" cy="20" r="7" fill="#4A6FA5"/>
+      <text x="1200" y="0" text-anchor="middle" font-weight="700">23:36:55</text>
+      <text x="1200" y="42" text-anchor="middle" font-size="9" fill="#666">dry-run fix</text>
+
+      <circle cx="1340" cy="20" r="12" fill="#800020"/>
+      <text x="1340" y="0" text-anchor="middle" font-weight="700" fill="#800020">23:49:07 ★★</text>
+      <text x="1340" y="42" text-anchor="middle" font-size="10" fill="#800020" font-weight="700">PROMOTE SCOUT BATCH</text>
+      <text x="1340" y="55" text-anchor="middle" font-size="10" fill="#800020">(+1722 corpus-data.json)</text>
+
+      <circle cx="1460" cy="20" r="10" fill="#222"/>
+      <text x="1460" y="0" text-anchor="middle" font-weight="700" fill="#222">18/00:11 ★</text>
+      <text x="1460" y="42" text-anchor="middle" font-size="10" fill="#222" font-weight="700">records contract</text>
+    </g>
+  </g>
+
+  <!-- Full day timeline -->
+  <g transform="translate(60,490)">
+    <text x="0" y="0" font-size="18" font-weight="700" fill="#800020">Fases das 48h</text>
+    <line x1="0" y1="36" x2="1480" y2="36" stroke="#D4C4B8" stroke-width="2"/>
+
+    <!-- Phase 1 -->
+    <circle cx="80" cy="36" r="9" fill="#800020"/>
+    <rect x="20" y="56" width="270" height="160" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="40" y="82" font-size="11" fill="#888" letter-spacing="2">QUI 16/04 11h + 18–22h</text>
+    <text x="40" y="108" font-size="15" font-weight="700" fill="#222">ARGOS snapshot + Aula 3</text>
+    <text x="40" y="132" font-size="12" fill="#444">• 11:01 manifest 157 itens</text>
+    <text x="40" y="152" font-size="12" fill="#444">• 18:52 Memorial DIR410346</text>
+    <text x="40" y="172" font-size="12" fill="#444">• Vault/Notas e Textos/ organizar</text>
+    <text x="40" y="192" font-size="12" fill="#444">• 23:23 dependabot protobufjs</text>
+
+    <!-- Phase 2 -->
+    <circle cx="400" cy="36" r="9" fill="#800020"/>
+    <rect x="340" y="56" width="270" height="160" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="360" y="82" font-size="11" fill="#888" letter-spacing="2">SEX 17/04 TARDE</text>
+    <text x="360" y="108" font-size="15" font-weight="700" fill="#222">Originalidade da tese</text>
+    <text x="360" y="132" font-size="12" fill="#444">• 15:35 cluster pipeline YAML</text>
+    <text x="360" y="152" font-size="12" fill="#444">• 16:42 Purificação Clássica</text>
+    <text x="360" y="172" font-size="12" fill="#444">• 4 conceitos originais</text>
+    <text x="360" y="192" font-size="12" fill="#444">• 18:05 Cap 3 BibTeX/ABNT</text>
+
+    <!-- Phase 3 -->
+    <circle cx="720" cy="36" r="12" fill="url(#argos)"/>
+    <rect x="660" y="56" width="270" height="160" rx="10" fill="#1F3A5F" filter="url(#shadow)"/>
+    <text x="680" y="82" font-size="11" fill="#CFE0F5" letter-spacing="2">SEX 17 22h–SAB 18 00h ★</text>
+    <text x="680" y="108" font-size="15" font-weight="700" fill="#FFFFFF">SPRINT ARGOS/LEDGER</text>
+    <text x="680" y="132" font-size="12" fill="#E5ECF5">• 10 commits / 70 min</text>
+    <text x="680" y="152" font-size="12" fill="#E5ECF5">• records.jsonl +167</text>
+    <text x="680" y="172" font-size="12" fill="#E5ECF5">• corpus-data.json +1722</text>
+    <text x="680" y="192" font-size="12" fill="#E5ECF5">• 25 vault SCOUT notes</text>
+
+    <!-- Phase 4 -->
+    <circle cx="1040" cy="36" r="9" fill="#800020"/>
+    <rect x="980" y="56" width="270" height="160" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="1000" y="82" font-size="11" fill="#888" letter-spacing="2">SAB 18 00h–06h</text>
+    <text x="1000" y="108" font-size="15" font-weight="700" fill="#222">Consolidação técnica</text>
+    <text x="1000" y="132" font-size="12" fill="#444">• 01:17 notebooks temp/cluster</text>
+    <text x="1000" y="152" font-size="12" fill="#444">• 01:49 endurecimento→minúsc</text>
+    <text x="1000" y="172" font-size="12" fill="#444">• 01:52 ABNT Hespanha/Descola</text>
+    <text x="1000" y="192" font-size="12" fill="#444">• 02:29 Intro §I.3 + Conclusão §C.1</text>
+
+    <!-- Phase 5 -->
+    <circle cx="1360" cy="36" r="9" fill="#800020"/>
+    <rect x="1300" y="56" width="170" height="160" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="1320" y="82" font-size="11" fill="#888" letter-spacing="2">SAB 18 DIA+NOITE</text>
+    <text x="1320" y="108" font-size="15" font-weight="700" fill="#222">Segurança</text>
+    <text x="1320" y="132" font-size="12" fill="#444">• Dependabot</text>
+    <text x="1320" y="152" font-size="12" fill="#444">• CVE protobufjs</text>
+    <text x="1320" y="172" font-size="12" fill="#444">• Gemini key off</text>
+    <text x="1320" y="192" font-size="12" fill="#444">• pixel-love off</text>
+  </g>
+
+  <!-- ARGOS scripts card -->
+  <g transform="translate(60,770)">
+    <rect width="620" height="240" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="620" height="36" fill="url(#argos)" rx="10"/>
+    <text x="18" y="24" font-size="14" font-weight="700" fill="#FFFFFF">Pipeline ARGOS — tools/scripts/argos_*.py</text>
+
+    <g font-size="12" fill="#222">
+      <text x="18" y="68" font-family="Menlo, monospace" font-weight="700" fill="#1F3A5F">argos_build_manifest.py</text>
+      <text x="280" y="68">gera manifest.json a partir do corpus</text>
+
+      <text x="18" y="92" font-family="Menlo, monospace" font-weight="700" fill="#1F3A5F">argos_prepare_dispatch.py</text>
+      <text x="280" y="92">agrupa por domínio, prepara fila</text>
+
+      <text x="18" y="116" font-family="Menlo, monospace" font-weight="700" fill="#1F3A5F">argos_acquire_item.py</text>
+      <text x="280" y="116">worker download + fallback Playwright</text>
+
+      <text x="18" y="140" font-family="Menlo, monospace" font-weight="700" fill="#1F3A5F">argos_manifest_update.py</text>
+      <text x="280" y="140">atualização atômica com lock</text>
+
+      <text x="18" y="164" font-family="Menlo, monospace" font-weight="700" fill="#1F3A5F">argos_report.py</text>
+      <text x="280" y="164">gera report.md por domínio</text>
+    </g>
+
+    <line x1="18" y1="182" x2="602" y2="182" stroke="#D4C4B8"/>
+    <text x="18" y="205" font-size="11" fill="#888">Storage root:</text>
+    <text x="120" y="205" font-size="11" font-family="Menlo, monospace" fill="#222">/Volumes/ICONOCRACIA/corpus/imagens</text>
+    <text x="18" y="225" font-size="11" fill="#888">Status atual:</text>
+    <text x="120" y="225" font-size="11" fill="#222">157 pending · 17 domínios · Numista 28 · Gallica 17</text>
+  </g>
+
+  <!-- Commits by repo -->
+  <g transform="translate(720,770)">
+    <rect width="820" height="240" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="18" y="26" font-size="14" font-weight="700" fill="#800020">Commits por repositório (16–18 abr)</text>
+
+    <rect x="18" y="40" width="660" height="24" fill="#800020"/>
+    <text x="26" y="57" font-size="12" fill="#FFF">browser-harness</text>
+    <text x="672" y="57" font-size="12" fill="#FFF" text-anchor="end">90+</text>
+
+    <rect x="18" y="72" width="180" height="24" fill="#B8334F"/>
+    <text x="26" y="89" font-size="12" fill="#FFF">iconocracy-corpus (hub)</text>
+    <text x="192" y="89" font-size="12" fill="#FFF" text-anchor="end">24</text>
+
+    <rect x="18" y="104" width="50" height="24" fill="#C56078"/>
+    <text x="76" y="121" font-size="12" fill="#333">iconocracia-companion · 5</text>
+
+    <rect x="18" y="136" width="40" height="24" fill="#D78A9C"/>
+    <text x="66" y="153" font-size="12" fill="#333">Research (meta) · 4</text>
+
+    <rect x="18" y="168" width="10" height="24" fill="#E6AAB8"/>
+    <text x="36" y="185" font-size="12" fill="#333">iurisvision · 1 (security fix)</text>
+
+    <line x1="18" y1="200" x2="802" y2="200" stroke="#D4C4B8"/>
+    <text x="18" y="222" font-size="11" fill="#444">Destaque corpus: commits 22:39–00:11 (sex 17→sáb 18) = <tspan font-weight="700" fill="#1F3A5F">SPRINT ARGOS LEDGER</tspan></text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="0" y="1060" width="1600" height="40" fill="#800020"/>
+  <text x="60" y="1085" font-size="12" fill="#F5D8DD">Fonte: ~/.claude/projects/**/*.jsonl + git log (15 repos) + data/raw/argos/</text>
+  <text x="1540" y="1085" font-size="12" fill="#F5D8DD" text-anchor="end">vault/relatorios/2026-04-21_relatorio.pdf</text>
+</svg>

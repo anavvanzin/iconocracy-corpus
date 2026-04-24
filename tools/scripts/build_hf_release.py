@@ -4,10 +4,11 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
-import math
 import shutil
 import subprocess
+import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -48,6 +49,11 @@ def parse_args() -> argparse.Namespace:
         "--publish",
         action="store_true",
         help="Upload the generated snapshot using `hf upload` after building it.",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Overwrite an existing snapshot directory for the same release tag.",
     )
     return parser.parse_args()
 
@@ -125,7 +131,30 @@ def render_readme(dataset_repo: str, release_tag: str, stats: dict, changelog: s
         f"{'more' if delta > 0 else 'fewer'} item(s) than records.jsonl."
     )
 
-    return f"""# ICONOCRACY Corpus
+    return f"""---
+license: cc-by-4.0
+language:
+- pt
+- en
+- fr
+- de
+pretty_name: ICONOCRACY Corpus
+size_categories:
+- n<1K
+tags:
+- iconography
+- legal-iconography
+- legal-history
+- female-allegory
+- digital-humanities
+- cultural-heritage
+- political-iconography
+- feminist-iconography
+- abnt
+- metadata
+---
+
+# ICONOCRACY Corpus
 
 Release snapshot for `{dataset_repo}` built from the local `iconocracy-corpus` repository.
 
@@ -137,7 +166,7 @@ Release snapshot for `{dataset_repo}` built from the local `iconocracy-corpus` r
 - Canonical records: **{stats['records_items']}**
 - Coded items: **{stats['coded_items']}**
 - Countries represented: **{stats['country_count']}**
-- Mean ENDURECIMENTO score: **{mean_score}**
+- Mean endurecimento score: **{mean_score}**
 - Master-record schema versions: `{schema_versions}`
 
 ## Contract
@@ -183,6 +212,39 @@ def ensure_hf_auth() -> None:
         raise SystemExit("hf CLI is not authenticated. Run `hf auth login` first.")
 
 
+def validate_local_contract() -> None:
+    """Fail closed if local dataset artifacts are invalid or drifted."""
+    validate_script = REPO / "tools" / "scripts" / "validate_schemas.py"
+    subprocess.run(
+        [sys.executable, str(validate_script), str(RECORDS), "--schema", "master-record", "--verbose"],
+        check=True,
+    )
+    subprocess.run(
+        [sys.executable, str(validate_script), str(PURIFICATION), "--schema", "purification-record", "--verbose"],
+        check=True,
+    )
+
+    corpus = load_json(CORPUS)
+    records = load_jsonl(RECORDS)
+    purification = load_jsonl(PURIFICATION)
+    stats = compute_stats(corpus, records, purification)
+    delta = stats["corpus_records_delta"]
+    if delta != 0:
+        raise SystemExit(
+            "Refusing to build HF snapshot: corpus/records drift detected "
+            f"(corpus={stats['corpus_items']}, records={stats['records_items']}, delta={delta})."
+        )
+
+
+def write_sha256sums(snapshot_dir: Path) -> None:
+    lines: list[str] = []
+    for name in ["corpus-data.json", "records.jsonl", "purification.jsonl", "release.json", "CHANGELOG.md", "README.md"]:
+        path = snapshot_dir / name
+        digest = hashlib.sha256(path.read_bytes()).hexdigest()
+        lines.append(f"{digest}  {name}")
+    (snapshot_dir / "SHA256SUMS.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def publish_snapshot(dataset_repo: str, snapshot_dir: Path, release_tag: str, notes: list[str]) -> None:
     ensure_hf_auth()
     commit_message = f"release: dataset snapshot {release_tag}"
@@ -207,17 +269,28 @@ def publish_snapshot(dataset_repo: str, snapshot_dir: Path, release_tag: str, no
 
 def main() -> None:
     args = parse_args()
+    validate_local_contract()
     corpus = load_json(CORPUS)
     records = load_jsonl(RECORDS)
     purification = load_jsonl(PURIFICATION)
     stats = compute_stats(corpus, records, purification)
 
     snapshot_dir = args.output_root / args.release_tag
+    if snapshot_dir.exists() and not args.force:
+        raise SystemExit(
+            f"Snapshot directory already exists: {snapshot_dir}. Re-run with --force to overwrite."
+        )
     snapshot_dir.mkdir(parents=True, exist_ok=True)
 
-    shutil.copy2(CORPUS, snapshot_dir / "corpus-data.json")
-    shutil.copy2(RECORDS, snapshot_dir / "records.jsonl")
-    shutil.copy2(PURIFICATION, snapshot_dir / "purification.jsonl")
+# Guard: refuse to build HF release with empty purification.jsonl
+    purif_path = Path('data/processed/purification.jsonl')
+    if purif_path.exists() and purif_path.stat().st_size < 100:
+        print('ERROR: purification.jsonl is empty — code items before releasing to HF')
+        raise SystemExit(1)
+
+    shutil.copy2(CORPUS, snapshot_dir / 'corpus-data.json')
+    shutil.copy2(RECORDS, snapshot_dir / 'records.jsonl')
+    shutil.copy2(PURIFICATION, snapshot_dir / 'purification.jsonl')
 
     changelog = render_changelog(args.note, stats)
     (snapshot_dir / "CHANGELOG.md").write_text(changelog, encoding="utf-8")
@@ -236,6 +309,7 @@ def main() -> None:
         render_readme(args.dataset_repo, args.release_tag, stats, changelog),
         encoding="utf-8",
     )
+    write_sha256sums(snapshot_dir)
 
     print(f"Release snapshot written to: {snapshot_dir}")
     print(

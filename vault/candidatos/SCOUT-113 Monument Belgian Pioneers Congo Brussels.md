@@ -1,7 +1,7 @@
 ---
 id: SCOUT-113
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "Monument aux Pionniers Belges au Congo — 'La race noire accueillie par la Belgique'"
 acervo: "Parc du Cinquantenaire, Bruxelles / Wikipedia"
 url: "https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo"
@@ -30,9 +30,9 @@ seminua que APRESENTA SEUS FILHOS. A Belgique = civilização/luz. A africana = 
 ser "acolhida"/iluminada.
 
 **Regime:** MILITAR — monumento comemora a conquista colonial (Guerra Congo-Árabe 1892-94)
-**ENDURECIMENTO detectado:** sim — La Belgique está SENTADA (postura de autoridade),
+**endurecimento detectado:** sim — La Belgique está SENTADA (postura de autoridade),
 ESTÁTICA, VESTIDA (vs. mulher africana seminua). Rigidez + dessexualização da mulher
-branca vs. exposição da mulher negra = ENDURECIMENTO RACIALIZADO.
+branca vs. exposição da mulher negra = endurecimento RACIALIZADO.
 
 ## Importancia para a tese
 O TÍTULO ORIGINAL é o dado: "La race noire accueillie par la Belgique" — A RAÇA

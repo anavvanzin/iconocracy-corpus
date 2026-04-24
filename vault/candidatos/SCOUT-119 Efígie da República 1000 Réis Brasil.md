@@ -1,7 +1,7 @@
 ---
 id: SCOUT-119
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "1000 Réis — Efígie da República (Brasil, 1906–1912)"
 acervo: "Casa da Moeda do Brasil / Numista"
 url: "https://en.numista.com/catalogue/pieces14484.html"
@@ -11,7 +11,7 @@ pais: BR
 suporte: moeda
 motivo_alegorico: "A República"
 regime: NORMATIVO
-endurecimento: MEDIO
+Endurecimento: MEDIO
 confianca: alto
 tags:
   - corpus/candidato
@@ -57,7 +57,7 @@ Anverso: busto feminino alegórico de perfil voltado à esquerda, levemente elev
 - [ ] postura frontal hierática (perfil, não frontal)
 - [ ] contexto arquitetônico forense
 
-**ENDURECIMENTO:** MÉDIO
+**endurecimento:** MÉDIO
 **Regime iconocrático:** NORMATIVO
 **Justificativa:** Busto estático e sereno em perfil clássico, inserido em moeda de circulação cotidiana — corpo controlado e despolitizado em relação à fase fundacional (1889), mantendo apenas os atributos simbólicos essenciais (barrete + louros).
 

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-341
 tipo: corpus-candidato
-status: candidato
+status: duplicata  # já no corpus como UK-009
 titulo: "N° 5 - Take up the sword of justice"
 acervo: "National Library of France"
 url: "http://gallica.bnf.fr/ark:/12148/btv1b10051600t"
@@ -19,7 +19,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: europeana
@@ -41,10 +41,10 @@ Appartient à l’ensemble documentaire : Rtmgus1
 
 **Motivos identificados**: Justice
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime preliminar**: MILITAR
 Indicadores esperados: armadura, capacete, escudo, rigidez extrema.
-ENDURECIMENTO esperado: ALTO (corpo blindado/petrificado).
+Endurecimento esperado: ALTO (corpo blindado/petrificado).
 
 *Classificação preliminar baseada em metadados textuais. Requer confirmação visual.*
 

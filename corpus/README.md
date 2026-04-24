@@ -68,7 +68,7 @@ The corpus is organized around three iconocratic regimes:
 
 - **FUNDACIONAL** -- state foundation, independence, constitutions. Dynamic allegorical body, semi-nude, revolutionary.
 - **NORMATIVO** -- stabilized bureaucratic supports (stamps, coins). Controlled body, dressed, frontal.
-- **MILITAR** -- war, imperialism, mobilization. Morphological ENDURECIMENTO of the allegorical body.
+- **MILITAR** -- war, imperialism, mobilization. Morphological endurecimento of the allegorical body.
 
 ## Key Iconclass Code
 
@@ -85,7 +85,7 @@ Arquivo Nacional (BR), and others.
 Each record follows the project's master-record schema with fields for:
 - Identification (id, title, date, creator, institution)
 - Classification (country, medium, motifs, period)
-- Analysis (ten purification indicators for ENDURECIMENTO assessment)
+- Analysis (ten purification indicators for endurecimento assessment)
 - Traceability (URLs, IIIF links, ABNT/Chicago citations)
 
 ## Citation

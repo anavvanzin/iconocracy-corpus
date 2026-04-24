@@ -1,0 +1,70 @@
+Conversation with Perplexity Enterprise
+Started on March 10, 2026 at 08:57 AM Pacific Time (US & Canada) time PDT (GMT-0700)
+
+---
+
+08:57 AM | ana.archive: Billing & Subscription
+
+08:57 AM | Perplexity Support Concierge: What billing & subscription support do you require?
+
+08:58 AM | ana.archive: Change subscription
+
+08:58 AM | Perplexity Support Concierge: To update your subscription and edit billing and payment information: 
+ - Go to Settings by clicking on your profile at the bottom of the left side menu. 
+ - Scroll down to find Subscription under Perplexity Pro. 
+ - Click on Manage Pro which will redirect you to the current plan page.
+
+08:58 AM | Perplexity Support Concierge: What this helpful?
+
+08:58 AM | Perplexity Support Concierge: If you have subscribed through one of our mobile apps, please refer to the articles on how to update your subscription. 
+ [App: Article Inserter] 
+ [App: Article Inserter]
+
+08:58 AM | ana.archive: No, I need more help
+
+08:58 AM | Perplexity Support Concierge: Please let us know how we can assist you. You can also refer to our Billing & Subscription FAQ's 
+ [App: Article Inserter]
+
+08:58 AM | Perplexity Support Concierge: The team will get back to you on this. Our usual reply time is a day.
+You'll get replies here and to warholana@msn.com.
+
+09:02 AM | Sam from Perplexity Enterprise: Hey there! I'm Sam, Perplexity's AI Support Agent. 
+ What specific change would you like to make to your subscription? 
+ Regards,
+ Sam
+ AI Support agent for Perplexity
+
+09:03 AM | ana.archive: Hi!
+
+09:03 AM | ana.archive: I would like to keep my enterprise max account, but just one sit.
+
+09:04 AM | ana.archive: On March 6, 2026, I was successfully charged via Stripe for Enterprise Perplexity Max, invoice WN9ZHDJD-0001, amount $325.00 (R$1,771.22), paid with Visa - - - - 0978. The invoice shows that it is fully paid - but I got the message: "Your latest payment has failed. Update your payment method to continue this subscription” for Enterprise Perplexity Max (×2) and Enterprise Perplexity Pro, total R$690.00 per month, with the same card.
+
+09:05 AM | ana.archive: But now I can't even use the one max subscription that went through and I don't intend to add any other members as it is just me :(
+
+09:06 AM | ana.archive: [Attachment: "Receipt-2889-3573 (1).pdf"] 
+ This is the March 6th receipt
+
+09:08 AM | ana.archive: [Image "image.png?expires=1773161100&signature=c373c36086b8c392838eb06d755db60489d042e7f214c3fb4bb708fa8046292d&req=diEjEc55mYlZWvMW1HO4zc%2FDJ%2Fgw4Ivnv5dLukyC59WjXMxfsojB7Vyw8AT8%0AHrbT%0A"] [Image "image.png?expires=1773161100&signature=bddb27457d6af6a651f642d6bf61d594b5aec62d4819afc56ac450cd34549901&req=diEjEc55lYJYUfMW1HO4zdl%2F0meZ0RTdWCGzp2jb%2Bx1NWgNLRnQzx5o3ciq8%0AklTh%0A"] My account - and one member
+
+09:12 AM | Sam from Perplexity Enterprise: Hi Ana! 
+ Thank you for providing all these details about your billing situation. I'm merging this with your existing request so all your information is in one place. Our team is working on your case and you can expect a response within 1 working day. 
+ Regards,
+ Sam
+ AI Support agent for Perplexity
+
+09:12 AM | Perplexity Support Concierge: Rate your conversation
+
+09:12 AM | ana.archive: Perfect!
+
+09:12 AM | ana.archive: Thank you!
+
+09:13 AM | Sam from Perplexity Enterprise: You're welcome! Our team will follow up on your billing issue in your other ticket. Let me know if there's anything else I can help with! 
+ Regards,
+ Sam
+ AI Support agent for Perplexity
+
+09:14 AM | ana.archive: That's all - thank you and have an excellent day!
+
+---
+Exported from Perplexity Enterprise on March 10, 2026 at 09:15 AM Pacific Time (US & Canada) time PDT (GMT-0700)

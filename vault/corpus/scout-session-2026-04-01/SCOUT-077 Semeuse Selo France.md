@@ -20,7 +20,7 @@ tags:
   - motivo/marianne
   - contrato-sexual-visual
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Marianne]]"
   - "[[Semeuse]]"
@@ -60,7 +60,7 @@ data_scout: 2026-04-01
 - [x] sementes (fertilidade, produtividade)
 - [x] sol nascente (no horizonte, versão 1903)
 
-**ENDURECIMENTO detectado:** moderado — corpo inteiro e dinâmico (baixo), mas serialidade extrema e monocromatização alta
+**endurecimento detectado:** moderado — corpo inteiro e dinâmico (baixo), mas serialidade extrema e monocromatização alta
 
 ---
 

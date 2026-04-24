@@ -17,7 +17,13 @@
   ],
   "properties": {
     "master_record_version": { "type": "string" },
-    "batch_id": { "type": "string", "format": "uuid" },
+    "batch_id": {
+      "type": "string",
+      "anyOf": [
+        { "format": "uuid" },
+        { "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[a-z][a-z0-9]*[0-9]+$" }
+      ]
+    },
     "item_id": { "type": "string", "format": "uuid" },
     "item_hash": { "type": "string", "minLength": 16 },
     "input": {
@@ -61,7 +67,10 @@
         },
         "coded_by":   { "type": "string" },
         "coded_at":   { "type": "string", "format": "date-time" },
-        "notes":      { "type": "string" }
+        "notes":      { "type": "string" },
+        "confidence_score": { "type": "number", "minimum": 0, "maximum": 1, "description": "Coder confidence (0-1)" },
+        "prompt_version":   { "type": "string", "description": "Coding prompt/codebook version" },
+        "adjudication_status": { "type": "string", "enum": ["single", "pending", "adjudicated"], "description": "Inter-rater review status" }
       }
     },
     "exports": {

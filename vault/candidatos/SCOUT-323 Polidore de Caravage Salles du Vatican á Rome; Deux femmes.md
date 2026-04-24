@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 1.0
 hunt_source: europeana
@@ -37,9 +37,9 @@ data_scout: 2026-04-03
 
 **Motivos identificados**: Justice
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 HTTPS://D-NB.INFO/GND/118834460. **Polidore de Caravage Salles du Vatican á Rome; [Deux femmes de profil; La Justice] [Zwei Frauen im Profil; Allegorie der Gerechtigkeit]**. Herzog Anton Ulrich Museum. Disponível em: http://kk.haum-bs.de/?id=saint-non-j-c-r-d-ab3-0145. Acesso em: 03 Apr. 2026.

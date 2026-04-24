@@ -1,7 +1,7 @@
 ---
 id: SCOUT-103
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "50 Cruzeiros — Efígie da República (Benedito Ribeiro / Tônia Carreiro)"
 acervo: "Numista / Casa da Moeda do Brasil"
 url: "https://en.numista.com/9337"
@@ -12,7 +12,7 @@ motivo_alegorico: "A República (efígie)"
 regime: NORMATIVO
 confianca: alto
 tags: [corpus/candidato, pais/BR, suporte/moeda, regime/normativo, motivo/republica, "#sem-iiif"]
-related: ["[[Regime Normativo]]", "[[ENDURECIMENTO]]", "[[SCOUT-095]]"]
+related: ["[[Regime Normativo]]", "[[endurecimento]]", "[[SCOUT-095]]"]
 hf_synced: false
 data_scout: 2026-03-30
 ---
@@ -25,5 +25,5 @@ data_scout: 2026-03-30
 
 ## Analise preliminar
 **Motivo:** Efígie da República — profile bust inspirada em Tônia Carreiro
-**Regime:** NORMATIVO — ENDURECIMENTO máximo na série brasileira
-**ENDURECIMENTO detectado:** sim (todos os 10 indicadores ativos)
+**Regime:** NORMATIVO — endurecimento máximo na série brasileira
+**endurecimento detectado:** sim (todos os 10 indicadores ativos)

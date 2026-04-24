@@ -1,7 +1,7 @@
 ---
 id: SCOUT-096
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "100 Mark Reichsbanknote — Germania seated (green seals)"
 acervo: "Numista / Deutsche Reichsbank"
 url: "https://en.numista.com/catalogue/note203616.html"
@@ -12,7 +12,7 @@ motivo_alegorico: "Germania"
 regime: NORMATIVO
 confianca: alto
 tags: [corpus/candidato, pais/DE, suporte/papel-moeda, regime/normativo, motivo/germania, "#sem-iiif"]
-related: ["[[Regime Normativo]]", "[[ENDURECIMENTO]]", "[[Feminilidade de Estado]]"]
+related: ["[[Regime Normativo]]", "[[endurecimento]]", "[[Feminilidade de Estado]]"]
 hf_synced: false
 data_scout: 2026-03-30
 ---
@@ -26,4 +26,4 @@ data_scout: 2026-03-30
 ## Analise preliminar
 **Motivo:** Germania seated under oak tree with shield and sword
 **Regime:** NORMATIVO — first paper money in the corpus
-**ENDURECIMENTO detectado:** sim (rigidez_postural, enquadramento, serialidade)
+**endurecimento detectado:** sim (rigidez_postural, enquadramento, serialidade)

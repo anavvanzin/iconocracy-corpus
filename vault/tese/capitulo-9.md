@@ -20,7 +20,7 @@ pandoc:
 
 ## 9.3 — Painel III: DOMESTICAÇÃO
 
-## 9.4 — Painel IV: HARDENING
+## 9.4 — Painel IV: endurecimento
 
 ## 9.5 — Painel V: PEDRA E BRONZE
 

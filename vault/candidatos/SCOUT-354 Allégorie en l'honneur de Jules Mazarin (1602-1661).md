@@ -19,7 +19,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: gallica
@@ -39,10 +39,10 @@ data_scout: 2026-04-03
 ### Descrição
 Référence bibliographique : Laz, 165
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime preliminar**: NORMATIVO
 Indicadores esperados: pose estática/frontal, drapeado pesado, serialidade.
-ENDURECIMENTO esperado: MÉDIO a ALTO (corpo institucionalizado).
+Endurecimento esperado: MÉDIO a ALTO (corpo institucionalizado).
 
 *Classificação preliminar baseada em metadados textuais. Requer confirmação visual.*
 

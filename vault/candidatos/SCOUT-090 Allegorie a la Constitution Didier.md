@@ -28,7 +28,7 @@ data_scout: 2026-03-30
 ## Analise preliminar
 **Motivo:** La Constitution — female figure personifying constitutional law
 **Regime:** FUNDACIONAL — corpo dinamico, gestualidade revolucionaria
-**ENDURECIMENTO detectado:** nao
+**endurecimento detectado:** nao
 
 ## Rastreabilidade
 DIDIER. Allégorie à la Constitution, dédié à la nation françoise. [1789-1791]. 1 estampe. BnF. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b6948145c.item. Acesso em: 30 mar. 2026.

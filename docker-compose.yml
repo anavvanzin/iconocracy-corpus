@@ -1,0 +1,68 @@
+# iconocracy-corpus — local dev orchestration
+#
+# Default (web + mcp long-running):
+#   docker compose up
+#
+# On-demand profiles:
+#   docker compose run --rm tools python tools/scripts/validate_schemas.py
+#   docker compose run --rm thesis make docx
+#
+# See deploy/docker/README.md
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: deploy/docker/web.Dockerfile
+      additional_contexts:
+        webapp: ./webiconocracy
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - ./webiconocracy:/app
+      - web_node_modules:/app/node_modules
+    working_dir: /app
+    environment:
+      - NODE_ENV=development
+      - VITE_HOST=0.0.0.0
+    env_file:
+      - path: ./webiconocracy/.env
+        required: false
+
+  mcp:
+    build:
+      context: .
+      dockerfile: deploy/docker/mcp.Dockerfile
+      additional_contexts:
+        mcpsrc: ./indexing/gallica-mcp-server
+    volumes:
+      - ./indexing/gallica-mcp-server:/app
+      - mcp_node_modules:/app/node_modules
+    working_dir: /app
+    environment:
+      - NODE_ENV=development
+    stdin_open: true
+    tty: true
+
+  tools:
+    build:
+      context: .
+      dockerfile: deploy/docker/tools.Dockerfile
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    profiles: ["tools"]
+
+  thesis:
+    build:
+      context: .
+      dockerfile: deploy/docker/thesis.Dockerfile
+    platform: linux/amd64        # pandoc/latex is amd64-only; runs via Rosetta on Apple Silicon
+    volumes:
+      - ./vault/tese:/thesis
+    working_dir: /thesis
+    profiles: ["thesis"]
+
+volumes:
+  web_node_modules:
+  mcp_node_modules:

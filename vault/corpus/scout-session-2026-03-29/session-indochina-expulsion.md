@@ -20,7 +20,7 @@ related:
   - "[[SCOUT-036]]"
   - "[[SCOUT-037]]"
   - "[[SCOUT-ZW-05]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Colonialidade do ver]]"
 ---
 
@@ -55,7 +55,7 @@ related:
 
 3. **Polo C — Femmes indochinoises (1907):** Confirmado. Desenhista Jules-Jacques Puyplat (1843–1915). 18 valores (Yvert n. 41–58 / Scott 41–58). Selos bicolores nos altos valores. Mulheres nomeadas por etnia: cambojana (75c, 10F), annamita/vietnamita (1F), hmong (2F), laosiana (5F). Nenhum atributo alegorico classico.
 
-4. **Conceito de INDIGENIZACAO:** Confirmado como fenomeno distinto do ENDURECIMENTO — o Polo C substitui o corpo europeu por corpos racializados ao inves de enrijecê-lo. Terceira via morfologica colonial.
+4. **Conceito de INDIGENIZACAO:** Confirmado como fenomeno distinto do endurecimento — o Polo C substitui o corpo europeu por corpos racializados ao inves de enrijecê-lo. Terceira via morfologica colonial.
 
 5. **Sem duplicatas no corpus:** Os tres candidatos existem como SCOUT-035, SCOUT-036, SCOUT-037 em semeuse-colonial.md. Nenhuma duplicata detectada no corpus-data.json.
 

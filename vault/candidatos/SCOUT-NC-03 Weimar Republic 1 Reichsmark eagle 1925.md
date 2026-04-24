@@ -20,7 +20,7 @@ tags:
 hf_synced: false
 related:
   - "[[Contrato Sexual Visual]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Iconocracia]]"
   - "[[SCOUT-NC-01]]"
   - "[[SCOUT-NC-02]]"
@@ -68,9 +68,9 @@ A Alemanha é o caso OPOSTO da França: onde a III República francesa multiplic
 
 A EXCEÇÃO é o Notgeld (moeda de emergência municipal), onde alegorias femininas locais reaparecem (ver SCOUT-117).
 
-## ENDURECIMENTO detectado
+## Endurecimento detectado
 
-**Nenhum** — ausência de corpo alegórico feminino. Este é um caso de deslocamento completo da alegoria, não de ENDURECIMENTO.
+**Nenhum** — ausência de corpo alegórico feminino. Este é um caso de deslocamento completo da alegoria, não de endurecimento.
 
 ## Observações do Scout
 

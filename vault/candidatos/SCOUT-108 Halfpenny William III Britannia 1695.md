@@ -1,7 +1,7 @@
 ---
 id: SCOUT-108
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "½ Penny — William III (1st issue) / Britannia seated (earliest coin)"
 acervo: "Numista / Royal Mint"
 url: "https://en.numista.com/catalogue/pieces90365.html"
@@ -28,7 +28,7 @@ data_scout: 2026-03-30
 with Union flag. THE EARLIEST Britannia on coins — the founding moment of the
 allegorical tradition that will produce the Trade Dollar 200 years later.
 **Regime:** FUNDACIONAL — post-Glorious Revolution (1688), new constitutional settlement
-**ENDURECIMENTO detectado:** incerto — foundational but already seated (passividade?)
+**endurecimento detectado:** incerto — foundational but already seated (passividade?)
 
 ## Importancia para a tese
 Origem da linhagem Britannia numismática. Permite um Zwischenraum longitudinal UK de

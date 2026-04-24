@@ -8,5 +8,8 @@
   "devDependencies": {
     "@google/genai": "^1.48.0",
     "firebase": "^12.11.0"
+  },
+  "overrides": {
+    "protobufjs": "^7.5.5"
   }
 }

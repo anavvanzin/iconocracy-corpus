@@ -16,7 +16,7 @@ tags:
   - regime/normativo
   - motivo/britannia
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[Nachleben]]"
 data_scout: 2026-03-30
@@ -30,9 +30,9 @@ data_scout: 2026-03-30
 
 Britannia sentada sobre rocha, voltada à esquerda. Oliveira + TRIDENTE (primeira vez em moeda). O tridente associa a personificação feminina ao domínio naval — exatamente quando a Royal Navy derrota as frotas francesa e espanhola.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**SIM** — ENDURECIMENTO POSITIVO (por adição): Britannia GANHA o tridente em 1797. O corpo feminino RECEBE o instrumento de domínio naval.
+**SIM** — endurecimento POSITIVO (por adição): Britannia GANHA o tridente em 1797. O corpo feminino RECEBE o instrumento de domínio naval.
 
 ### Citação ABNT
 

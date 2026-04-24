@@ -1,7 +1,7 @@
 ---
 id: SCOUT-112
 tipo: corpus-candidato
-status: candidato
+status: ativo
 titulo: "100 Francs Banque du Congo Belge — Allegory of Europe kneeling"
 acervo: "Numista / Banque du Congo Belge"
 url: "https://en.numista.com/258715"
@@ -30,7 +30,7 @@ Presas de elefante e frutas exóticas espalhadas no chão.
 
 **Regime:** MILITAR — a postura ajoelhada da europeia é PATERNALISTA (ela se abaixa
 para "civilizar"); os meninos africanos são INFANTILIZADOS (crianças, não adultos)
-**ENDURECIMENTO detectado:** paradoxal — a mulher europeia está ajoelhada (aparente
+**endurecimento detectado:** paradoxal — a mulher europeia está ajoelhada (aparente
 humildade) mas SEGURA O TECIDO (envolve/veste = civiliza). A "suavidade" da postura
 mascara a violência do gesto civilizatório.
 

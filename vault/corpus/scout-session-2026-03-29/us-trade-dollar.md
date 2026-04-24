@@ -32,7 +32,7 @@ related:
   - "[[SCOUT-021 British Trade Dollar]]"
   - "[[SCOUT-023 Piastre de Commerce]]"
   - "[[SCOUT-038 Mexican Dollar]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Moedas de Comercio Imperial]]"
   - "[[Regime MILITAR]]"
@@ -115,7 +115,7 @@ data_scout: 2026-03-29
 - [x] mar ao fundo
 - [x] 13 estrelas
 
-**ENDURECIMENTO detectado:** MEDIO-ALTO. A Liberty sentada apresenta rigidez postural significativa (postura sentada frontal-lateral, estatica), dessexualizacao moderada (toga drapeada mas ombro descoberto), e forte heraldizacao (rodeada de 13 estrelas, inscricao estatal). Comparada com a Marianne da Piastre (tambem sentada), o ENDURECIMENTO e ligeiramente menor: a Liberty americana ainda estende a mao com o ramo de oliveira (gesto dinamico residual), enquanto a Marianne francesa com fasces e totalmente petrificada.
+**endurecimento detectado:** MEDIO-ALTO. A Liberty sentada apresenta rigidez postural significativa (postura sentada frontal-lateral, estatica), dessexualizacao moderada (toga drapeada mas ombro descoberto), e forte heraldizacao (rodeada de 13 estrelas, inscricao estatal). Comparada com a Marianne da Piastre (tambem sentada), o endurecimento e ligeiramente menor: a Liberty americana ainda estende a mao com o ramo de oliveira (gesto dinamico residual), enquanto a Marianne francesa com fasces e totalmente petrificada.
 
 ---
 
@@ -180,7 +180,7 @@ UNITED STATES MINT. *1 Trade Dollar, Pattern*. 1873. Moeda de prata. Smithsonian
 3. **Polo B (FR):** Marianne SENTADA com fasces -- soberania juridico-colonial
 4. **Polo C (UK):** Britannia DE PE com tridente -- soberania naval-militar
 
-A SEQUENCIA CRONOLOGICA e reveladora: Mexican Dollar (1824) → US Trade Dollar (1873) → Piastre de Commerce (1885) → British Trade Dollar (1895). Cada potencia imperial subsequente ADICIONA uma alegoria feminina, mas com grau crescente de ENDURECIMENTO: Liberty americana ainda estende um ramo de oliveira (gesto de abertura), Marianne francesa segura fasces (poder juridico), Britannia britanica empunha tridente (poder militar). O corpo feminino se ENDURECE progressivamente a medida que o imperialismo se intensifica.
+A SEQUENCIA CRONOLOGICA e reveladora: Mexican Dollar (1824) → US Trade Dollar (1873) → Piastre de Commerce (1885) → British Trade Dollar (1895). Cada potencia imperial subsequente ADICIONA uma alegoria feminina, mas com grau crescente de endurecimento: Liberty americana ainda estende um ramo de oliveira (gesto de abertura), Marianne francesa segura fasces (poder juridico), Britannia britanica empunha tridente (poder militar). O corpo feminino se ENDURECE progressivamente a medida que o imperialismo se intensifica.
 
 **A unica trade dollar demonetizada:** O US Trade Dollar e a UNICA moeda americana oficialmente demonetizada (1876), quando trabalhadores americanos comecaram a recebe-la como pagamento abaixo do valor facial. A demonetizacao revela a CRISE DE LEGITIMIDADE interna de uma moeda projetada para o exterior: o corpo feminino de Liberty, desenhado para seduzir comerciantes chineses, tornou-se instrumento de exploracao de trabalhadores americanos. Caso raro em que o contrato sexual visual se volta contra o proprio imperio.
 
@@ -219,7 +219,7 @@ related:
   - "[[SCOUT-023]]"
   - "[[SCOUT-021]]"
   - "[[SCOUT-ZW-12]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Heraldizacao]]"
   - "[[Moedas de Comercio Imperial]]"
@@ -229,7 +229,7 @@ data_scout: 2026-03-29
 
 ## Painel VI (quadripolar) -- ANATOMIA DA FEMINIZACAO IMPERIAL (Zwischenraum)
 
-Este painel expande o Zwischenraum tripolar anterior (SCOUT-ZW-12) para uma configuracao QUADRIPOLAR, incorporando o US Trade Dollar (SCOUT-091) como segundo polo alegorico. A estrutura de quatro pontos revela a PROGRESSAO CRONOLOGICA do ENDURECIMENTO no corpo feminino das moedas de comercio imperial na Asia: da ausencia total de alegoria (Mexico) ao maximo de militarizacao do corpo feminino (Gra-Bretanha), passando por dois graus intermediarios de soberania comercial-juridica (EUA, Franca).
+Este painel expande o Zwischenraum tripolar anterior (SCOUT-ZW-12) para uma configuracao QUADRIPOLAR, incorporando o US Trade Dollar (SCOUT-091) como segundo polo alegorico. A estrutura de quatro pontos revela a PROGRESSAO CRONOLOGICA do endurecimento no corpo feminino das moedas de comercio imperial na Asia: da ausencia total de alegoria (Mexico) ao maximo de militarizacao do corpo feminino (Gra-Bretanha), passando por dois graus intermediarios de soberania comercial-juridica (EUA, Franca).
 
 **Polo 0 / Origem (MX, 1824-1897):** *8 Reales Cap and Rays* -- Nenhuma figura humana. Heraldizacao pura: aguia + barrete frigio.
 **Polo A (US, 1873-1885):** *1 Trade Dollar* (William Barber) -- Liberty SENTADA sobre fardos de mercadoria, ramo de oliveira estendido, rolo com "LIBERTY", feixe de trigo.
@@ -257,36 +257,36 @@ Este painel expande o Zwischenraum tripolar anterior (SCOUT-ZW-12) para uma conf
 | **Atributo principal** | Barrete frigio (sem corpo) | Ramo de oliveira + rolo "LIBERTY" | Fasces + ancora | Tridente + escudo |
 | **Regime** | NORMATIVO | MILITAR | MILITAR | MILITAR |
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-A configuracao quadripolar permite mapear o ENDURECIMENTO como um GRADIENTE de quatro estagios, onde cada polo apresenta um nivel crescente de rigidificacao do corpo alegorico:
+A configuracao quadripolar permite mapear o endurecimento como um GRADIENTE de quatro estagios, onde cada polo apresenta um nivel crescente de rigidificacao do corpo alegorico:
 
-**ESTAGIO 0 -- HERALDIZACAO PURA (Mexico):** Nenhum corpo humano. A soberania monetaria opera por simbolo abstracto (aguia, barrete frigio). E o grau zero do ENDURECIMENTO: nao ha corpo para endurecer. Este e o ponto de referencia a partir do qual todos os imperios europeus (e os EUA) ADICIONAM o corpo feminino.
+**ESTAGIO 0 -- HERALDIZACAO PURA (Mexico):** Nenhum corpo humano. A soberania monetaria opera por simbolo abstracto (aguia, barrete frigio). E o grau zero do endurecimento: nao ha corpo para endurecer. Este e o ponto de referencia a partir do qual todos os imperios europeus (e os EUA) ADICIONAM o corpo feminino.
 
-**ESTAGIO 1 -- ENDURECIMENTO BAIXO-MEDIO (EUA, Liberty):** Primeiro corpo feminino a entrar no espaco monetario asiatico. Liberty apresenta:
+**ESTAGIO 1 -- endurecimento BAIXO-MEDIO (EUA, Liberty):** Primeiro corpo feminino a entrar no espaco monetario asiatico. Liberty apresenta:
 - **rigidez_postural:** MEDIA -- sentada, mas com gesto dinamico residual (mao estendida com ramo de oliveira)
 - **dessexualizacao:** MEDIA -- toga drapeada mas ombro parcialmente exposto; corpo ainda visivel sob o tecido
 - **heraldizacao:** MEDIA -- 13 estrelas, mas sem escudo nem brasao no corpo da figura
 - **inscricao_estatal:** MEDIA -- "LIBERTY" no rolo, peso e finura no reverso (concesso ao mercado asiatico)
 - **apagamento_narrativo:** BAIXO -- a cena e narrativa (Liberty entre mercadorias, mar ao fundo, gesto de oferta)
 
-**ESTAGIO 2 -- ENDURECIMENTO MEDIO-ALTO (Franca, Marianne):** Segundo corpo feminino, cronologicamente. Marianne apresenta:
+**ESTAGIO 2 -- endurecimento MEDIO-ALTO (Franca, Marianne):** Segundo corpo feminino, cronologicamente. Marianne apresenta:
 - **rigidez_postural:** ALTA -- sentada, sem gesto dinamico; postura de magistrada petrificada
 - **dessexualizacao:** ALTA -- corpo inteiramente coberto, postura fechada
 - **heraldizacao:** ALTA -- fasces (simbolo romano de poder soberano) como atributo principal
 - **inscricao_estatal:** ALTA -- fasces + legenda republicana + marca de casa da moeda
 - **apagamento_narrativo:** MEDIO -- ainda ha atributos (ancora, leme), mas a cena e mais abstrata que a americana
 
-**ESTAGIO 4 -- ENDURECIMENTO MAXIMO NO TIPO (UK, Britannia):** Terceiro corpo feminino, o mais tardio. Britannia apresenta:
+**ESTAGIO 4 -- endurecimento MAXIMO NO TIPO (UK, Britannia):** Terceiro corpo feminino, o mais tardio. Britannia apresenta:
 - **rigidez_postural:** MEDIO -- de pe, mas em postura estatica de vigilia, nao de marcha
 - **dessexualizacao:** BAIXO -- corpo mais visivel que nos dois polos sentados; vestimenta classica mais reveladora
 - **heraldizacao:** MAXIMA -- escudo com Union Jack (heraldica nacional INSCRITA no corpo da figura), tridente (poder naval)
 - **inscricao_estatal:** MAXIMA -- escudo heraldico + navio imperial ao fundo + legenda
 - **apagamento_narrativo:** BAIXO -- cena completa (costa, navio, mar) com forte narratividade
 
-**PARADOXO REVELADO:** Britannia, a mais MILITARIZADA (tridente, escudo, navio de guerra), e ao mesmo tempo a MENOS dessexualizada e a mais NARRATIVA das tres. O ENDURECIMENTO britanico nao opera por petrificacao do corpo (como a Marianne francesa) mas por ARMAMENTO do corpo -- Britannia e uma guerreira, nao uma juiza. Isso sugere que o ENDURECIMENTO nao e linear (corpo cada vez mais rigido) mas BIFURCADO: ha um caminho JURIDICO (petrificacao: EUA → Franca) e um caminho MILITAR (armamento: Gra-Bretanha). Ambos instrumentalizam o corpo feminino, mas por estrategias opostas.
+**PARADOXO REVELADO:** Britannia, a mais MILITARIZADA (tridente, escudo, navio de guerra), e ao mesmo tempo a MENOS dessexualizada e a mais NARRATIVA das tres. O endurecimento britanico nao opera por petrificacao do corpo (como a Marianne francesa) mas por ARMAMENTO do corpo -- Britannia e uma guerreira, nao uma juiza. Isso sugere que o endurecimento nao e linear (corpo cada vez mais rigido) mas BIFURCADO: ha um caminho JURIDICO (petrificacao: EUA → Franca) e um caminho MILITAR (armamento: Gra-Bretanha). Ambos instrumentalizam o corpo feminino, mas por estrategias opostas.
 
-**Indicadores de ENDURECIMENTO comparados:**
+**Indicadores de endurecimento comparados:**
 
 | Indicador | Polo 0 (MX) | Polo A (US) | Polo B (FR) | Polo C (UK) |
 |-----------|-------------|-------------|-------------|-------------|
@@ -326,7 +326,7 @@ O Painel VI quadripolar fornece ao argumento central da tese uma DEMONSTRACAO CO
 
 **Ato 2 (1873) -- A America Entra: Oliveira e Algodao.** Os EUA criam a PRIMEIRA trade dollar com alegoria feminina (Liberty sentada), posicionando-a explicitamente voltada para a Asia. O corpo feminino e introduzido como NOVIDADE no espaco monetario asiatico. A postura sentada sobre fardos de mercadoria transforma Liberty em PERSONIFICACAO DO COMERCIO -- o corpo feminino torna-se o proprio ato de comerciar.
 
-**Ato 3 (1885) -- A Franca Endurece: Fasces e Jurisdicao.** A Piastre de Commerce adota Marianne sentada com fasces, elevando o ENDURECIMENTO. A postura sentada permanece (soberania juridica), mas o atributo muda: do ramo de oliveira (paz) para as fasces (poder coercitivo). A passagem Liberty → Marianne e uma ESCALADA de transparencia da violencia colonial dentro do mesmo paradigma postural.
+**Ato 3 (1885) -- A Franca Endurece: Fasces e Jurisdicao.** A Piastre de Commerce adota Marianne sentada com fasces, elevando o endurecimento. A postura sentada permanece (soberania juridica), mas o atributo muda: do ramo de oliveira (paz) para as fasces (poder coercitivo). A passagem Liberty → Marianne e uma ESCALADA de transparencia da violencia colonial dentro do mesmo paradigma postural.
 
 **Ato 4 (1895) -- A Gra-Bretanha Rompe: Tridente e Dominio.** O British Trade Dollar abandona a postura sentada por Britannia de pe com tridente. Ruptura total: o corpo feminino nao e mais juiza, e GUERREIRA. A Gra-Bretanha, com a marinha mais poderosa do mundo, nao precisa disfarcar a violencia de paz ou formaliza-la como lei -- EXIBE-A como poder naval.
 
@@ -348,9 +348,9 @@ O Painel VI quadripolar fornece ao argumento central da tese uma DEMONSTRACAO CO
     (soberania juridica)  (soberania militar)
 ```
 
-A CRONOLOGIA e a CHAVE: cada imperio subsequente intensifica a presenca do corpo feminino. O ENDURECIMENTO nao e apenas rigidificacao -- e DIVERSIFICACAO das estrategias de instrumentalizacao do corpo feminino, cada uma correspondendo a um modelo diferente de penetracao imperial na Asia.
+A CRONOLOGIA e a CHAVE: cada imperio subsequente intensifica a presenca do corpo feminino. O endurecimento nao e apenas rigidificacao -- e DIVERSIFICACAO das estrategias de instrumentalizacao do corpo feminino, cada uma correspondendo a um modelo diferente de penetracao imperial na Asia.
 
-**Nota sobre o eixo sentada/de pe:** A hipotese inicial da pesquisadora -- "a postura sentada e convencao de trade coin ou estrategia colonial?" -- e agora respondida: NAO E CONVENCAO (Britannia refuta), E ESTRATEGIA. Mas nao apenas colonial: e estrategia que codifica o TIPO ESPECIFICO de poder imperial. O eixo sentada/de pe no Painel VI e um eixo de TIPO DE SOBERANIA, nao de grau de ENDURECIMENTO.
+**Nota sobre o eixo sentada/de pe:** A hipotese inicial da pesquisadora -- "a postura sentada e convencao de trade coin ou estrategia colonial?" -- e agora respondida: NAO E CONVENCAO (Britannia refuta), E ESTRATEGIA. Mas nao apenas colonial: e estrategia que codifica o TIPO ESPECIFICO de poder imperial. O eixo sentada/de pe no Painel VI e um eixo de TIPO DE SOBERANIA, nao de grau de endurecimento.
 ```
 
 ---

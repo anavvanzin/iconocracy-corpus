@@ -19,7 +19,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.8
 hunt_source: met
@@ -41,9 +41,9 @@ Painted enamel on copper, partly gilt. European Sculpture and Decorative Arts.
 
 **Motivos identificados**: Republic
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 MEYER, Alfred-Bernard. **Allegory of the French Republic**. 1892. The Metropolitan Museum of Art. Disponível em: https://www.metmuseum.org/art/collection/search/208134. Acesso em: 03 Apr. 2026.

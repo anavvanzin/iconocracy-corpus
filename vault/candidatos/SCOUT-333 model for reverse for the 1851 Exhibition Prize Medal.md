@@ -19,7 +19,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.8
 hunt_source: va
@@ -40,9 +40,9 @@ Model. London. query: Britannia allegory
 
 **Motivos identificados**: Britannia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 CHARLES, Wyon, Leonard. **model for reverse for the 1851 Exhibition Prize Medal**. 1851. Victoria and Albert Museum. Disponível em: https://collections.vam.ac.uk/item/O102162. Acesso em: 03 Apr. 2026.

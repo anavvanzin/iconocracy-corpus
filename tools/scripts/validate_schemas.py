@@ -6,12 +6,14 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List
+from urllib.parse import urlparse
 
 try:
     import jsonschema
-    from jsonschema import Draft202012Validator, RefResolver
+    from jsonschema import Draft202012Validator, FormatChecker, RefResolver
 except ImportError:
     print("Error: jsonschema library required. Install with: pip install jsonschema", file=sys.stderr)
     sys.exit(1)
@@ -44,6 +46,60 @@ def create_resolver() -> RefResolver:
     return RefResolver(base_uri, {}, store=schema_store)
 
 
+def _is_datetime_string(value: str) -> bool:
+    if not isinstance(value, str):
+        return False
+    try:
+        normalized = value.replace("Z", "+00:00") if value.endswith("Z") else value
+        datetime.fromisoformat(normalized)
+        return True
+    except ValueError:
+        return False
+
+
+def _is_uri_string(value: str) -> bool:
+    if not isinstance(value, str):
+        return False
+    parsed = urlparse(value)
+    return bool(parsed.scheme and parsed.netloc)
+
+
+def _collect_format_errors(data: Any, schema: Dict[str, Any], path: str = "root") -> List[str]:
+    errors: List[str] = []
+
+    schema_type = schema.get("type")
+    schema_format = schema.get("format")
+
+    if schema_format == "date-time" and data is not None and not _is_datetime_string(data):
+        errors.append(f"{path}: {data!r} is not a 'date-time'")
+    elif schema_format == "uri" and data is not None and not _is_uri_string(data):
+        errors.append(f"{path}: {data!r} is not a 'uri'")
+
+    if schema_type == "object" and isinstance(data, dict):
+        for key, subschema in schema.get("properties", {}).items():
+            if key in data:
+                child_path = f"{path}.{key}" if path != "root" else key
+                errors.extend(_collect_format_errors(data[key], subschema, child_path))
+    elif schema_type == "array" and isinstance(data, list):
+        item_schema = schema.get("items")
+        if isinstance(item_schema, dict):
+            for index, item in enumerate(data):
+                child_path = f"{path}.{index}" if path != "root" else str(index)
+                errors.extend(_collect_format_errors(item, item_schema, child_path))
+
+    for subschema in schema.get("allOf", []):
+        errors.extend(_collect_format_errors(data, subschema, path))
+
+    if "if" in schema and isinstance(data, dict):
+        condition_validator = Draft202012Validator(schema["if"], format_checker=FormatChecker())
+        if not list(condition_validator.iter_errors(data)) and "then" in schema:
+            errors.extend(_collect_format_errors(data, schema["then"], path))
+        elif list(condition_validator.iter_errors(data)) and "else" in schema:
+            errors.extend(_collect_format_errors(data, schema["else"], path))
+
+    return errors
+
+
 def validate_record(data: Dict[str, Any], schema_name: str) -> tuple[bool, List[str]]:
     """Validate a single record against a schema.
     
@@ -56,12 +112,20 @@ def validate_record(data: Dict[str, Any], schema_name: str) -> tuple[bool, List[
     """
     schema = load_schema(schema_name)
     resolver = create_resolver()
-    validator = Draft202012Validator(schema, resolver=resolver)
+    validator = Draft202012Validator(
+        schema,
+        resolver=resolver,
+        format_checker=FormatChecker(),
+    )
     
     errors = []
     for error in validator.iter_errors(data):
         path = ".".join(str(p) for p in error.path) if error.path else "root"
         errors.append(f"{path}: {error.message}")
+
+    for error in _collect_format_errors(data, schema):
+        if error not in errors:
+            errors.append(error)
     
     return (len(errors) == 0, errors)
 
@@ -128,7 +192,7 @@ def main() -> None:
         "--schema",
         required=False,
         default=None,
-        choices=["webscout-input", "webscout-output", "iconocode-output", "master-record"],
+        choices=["webscout-input", "webscout-output", "iconocode-output", "master-record", "purification-record", "argos-manifest"],
         help="Schema to validate against (default: master-record when validating records.jsonl)"
     )
     parser.add_argument(
@@ -146,7 +210,9 @@ def main() -> None:
         args.file = repo_root / "data" / "processed" / "records.jsonl"
     if args.schema is None:
         # Infer schema from filename
-        if args.file.name == "records.jsonl" or args.file.suffix == ".jsonl":
+        if args.file.name == "purification.jsonl":
+            args.schema = "purification-record"
+        elif args.file.name == "records.jsonl" or args.file.suffix == ".jsonl":
             args.schema = "master-record"
         else:
             parser.error("--schema is required when validating non-JSONL files")

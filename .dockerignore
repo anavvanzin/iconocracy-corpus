@@ -1,0 +1,48 @@
+.git
+.gitignore
+.github
+.vscode
+.idea
+.DS_Store
+
+# Node
+**/node_modules
+**/dist
+**/.next
+**/.cache
+**/coverage
+**/*.log
+
+# Python
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/.venv
+**/venv
+
+# Conda / Jupyter
+**/.ipynb_checkpoints
+**/.conda
+
+# Secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Raw image data — lives in Google Drive, never in container context
+data/raw/
+
+# Build/compose artifacts
+docker-compose*.yml
+deploy/docker/*.Dockerfile
+.dockerignore
+
+# Docs / IDE noise
+README.md
+*.md.bak
+*.swp
+
+# Pandoc output
+vault/tese/output/
