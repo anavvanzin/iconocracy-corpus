@@ -11,6 +11,14 @@
 | Data | 2026-04-23 |
 | Autora | Ana Vanzin — PhD, PPGD/UFSC |
 
+## 0. Pipeline metodológico (visão sinótica)
+
+![Pipeline metodológico: Teoria → Codebook → Amostragem → Piloto → Confiabilidade → FREEZE → Análise](./assets/pipeline-methodology.png)
+
+> Versão animada: [`docs/assets/pipeline-methodology.gif`](./assets/pipeline-methodology.gif) · Versão vetorial: [`docs/assets/pipeline-methodology.svg`](./assets/pipeline-methodology.svg)
+
+O pipeline obedece à disciplina `teoria → codebook → amostragem → piloto → confiabilidade → freeze → análise`. A barreira **FREEZE** é inegociável: **nenhuma inferência substantiva é proposta antes do congelamento do dataset**. Mudança de indicador após o freeze exige nova versão do codebook e entrada correspondente no changelog.
+
 ## 1. Problema metodológico
 
 Como arranjar o corpus de alegorias femininas em dispositivos jurídico-estatais (moedas, selos, brasões, monumentos, arquitetura forense, paratextos normativos, 1800–2000) **de modo que o arranjo seja, ele próprio, argumento — e não ilustração**?
