@@ -1,0 +1,126 @@
+[10:30:50] Starting autopilot: stage=preflight country=BR max=5 batch=5
+[10:30:50] *** DRY RUN MODE ***
+
+[1m[0;34m━━━ Stage: preflight ━━━[0m
+
+[1m╔══════════════════════════════════════════════╗[0m
+[1m║     ICONOCRACY — Environment Health Check    ║[0m
+[1m╚══════════════════════════════════════════════╝[0m
+
+[1m[0;34m[Shell Profile][0m
+  [0;32mPASS[0m  No ANTHROPIC_API_KEY in shell profiles
+  [0;32mPASS[0m  No Vertex credential override
+  [0;32mPASS[0m  No anthropic env sourcing
+  [1;33mWARN[0m  4 API key(s) exported directly in .zshrc — consider using a secrets manager
+
+[1m[0;34m[Python Environment][0m
+  [0;32mPASS[0m  conda available
+  [0;32mPASS[0m  conda env 'iconocracy' exists
+  [0;32mPASS[0m  Python 3.12.13 (3.12.x)
+  [0;32mPASS[0m  Package: jsonschema
+  [0;32mPASS[0m  Package: rich
+
+[1m[0;34m[Git & Auth][0m
+  [0;31mFAIL[0m  gh CLI not authenticated
+  [0;32mPASS[0m  Git remote uses HTTPS: https://github.com/anavvanzin/iconocracy-corpus.git
+  [1;33mWARN[0m  10 uncommitted change(s) in repo
+
+[1m[0;34m[Corpus Data][0m
+  [0;32mPASS[0m  corpus-data.json: ? items
+  [0;32mPASS[0m  Schema validation passed
+  [0;32mPASS[0m  SSD mounted — images: 69M
+  [0;32mPASS[0m  data/raw/ symlinks OK
+
+[1m[0;34m[Claude Code][0m
+  [0;32mPASS[0m  Claude CLI: 2.1.96 (Claude Code)
+  [0;32mPASS[0m  settings.json: valid JSON
+
+[1m─────────────────────────────────────────────[0m
+  [0;32m15 passed[0m  [1;33m2 warnings[0m  [0;31m1 failures[0m
+[1m─────────────────────────────────────────────[0m
+
+[1mSuggested fixes:[0m
+  1. gh auth login --web
+[10:30:58] Preflight found failures. Attempting auto-fix...
+
+[1m╔══════════════════════════════════════════════╗[0m
+[1m║     ICONOCRACY — Environment Health Check    ║[0m
+[1m╚══════════════════════════════════════════════╝[0m
+
+[1m[0;34m[Shell Profile][0m
+  [0;32mPASS[0m  No ANTHROPIC_API_KEY in shell profiles
+  [0;32mPASS[0m  No Vertex credential override
+  [0;32mPASS[0m  No anthropic env sourcing
+  [1;33mWARN[0m  4 API key(s) exported directly in .zshrc — consider using a secrets manager
+
+[1m[0;34m[Python Environment][0m
+  [0;32mPASS[0m  conda available
+  [0;32mPASS[0m  conda env 'iconocracy' exists
+  [0;32mPASS[0m  Python 3.12.13 (3.12.x)
+  [0;32mPASS[0m  Package: jsonschema
+  [0;32mPASS[0m  Package: rich
+
+[1m[0;34m[Git & Auth][0m
+  [0;31mFAIL[0m  gh CLI not authenticated
+  [0;32mPASS[0m  Git remote uses HTTPS: https://github.com/anavvanzin/iconocracy-corpus.git
+  [1;33mWARN[0m  10 uncommitted change(s) in repo
+
+[1m[0;34m[Corpus Data][0m
+  [0;32mPASS[0m  corpus-data.json: ? items
+  [0;32mPASS[0m  Schema validation passed
+  [0;32mPASS[0m  SSD mounted — images: 69M
+  [0;32mPASS[0m  data/raw/ symlinks OK
+
+[1m[0;34m[Claude Code][0m
+  [0;32mPASS[0m  Claude CLI: 2.1.96 (Claude Code)
+  [0;32mPASS[0m  settings.json: valid JSON
+
+[1m─────────────────────────────────────────────[0m
+  [0;32m15 passed[0m  [1;33m2 warnings[0m  [0;31m1 failures[0m
+[1m─────────────────────────────────────────────[0m
+
+[1mSuggested fixes:[0m
+  1. gh auth login --web
+
+[1;33mAuto-fixing safe issues...[0m
+  [1;33mManual:[0m gh auth login --web
+
+[1m╔══════════════════════════════════════════════╗[0m
+[1m║     ICONOCRACY — Environment Health Check    ║[0m
+[1m╚══════════════════════════════════════════════╝[0m
+
+[1m[0;34m[Shell Profile][0m
+  [0;32mPASS[0m  No ANTHROPIC_API_KEY in shell profiles
+  [0;32mPASS[0m  No Vertex credential override
+  [0;32mPASS[0m  No anthropic env sourcing
+  [1;33mWARN[0m  4 API key(s) exported directly in .zshrc — consider using a secrets manager
+
+[1m[0;34m[Python Environment][0m
+  [0;32mPASS[0m  conda available
+  [0;32mPASS[0m  conda env 'iconocracy' exists
+  [0;32mPASS[0m  Python 3.12.13 (3.12.x)
+  [0;32mPASS[0m  Package: jsonschema
+  [0;32mPASS[0m  Package: rich
+
+[1m[0;34m[Git & Auth][0m
+  [0;31mFAIL[0m  gh CLI not authenticated
+  [0;32mPASS[0m  Git remote uses HTTPS: https://github.com/anavvanzin/iconocracy-corpus.git
+  [1;33mWARN[0m  10 uncommitted change(s) in repo
+
+[1m[0;34m[Corpus Data][0m
+  [0;32mPASS[0m  corpus-data.json: ? items
+  [0;32mPASS[0m  Schema validation passed
+  [0;32mPASS[0m  SSD mounted — images: 69M
+  [0;32mPASS[0m  data/raw/ symlinks OK
+
+[1m[0;34m[Claude Code][0m
+  [0;32mPASS[0m  Claude CLI: 2.1.96 (Claude Code)
+  [0;32mPASS[0m  settings.json: valid JSON
+
+[1m─────────────────────────────────────────────[0m
+  [0;32m15 passed[0m  [1;33m2 warnings[0m  [0;31m1 failures[0m
+[1m─────────────────────────────────────────────[0m
+
+[1mSuggested fixes:[0m
+  1. gh auth login --web
+[10:31:03] Preflight still failing — manual intervention needed. Aborting.

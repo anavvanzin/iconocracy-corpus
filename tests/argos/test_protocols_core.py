@@ -7,6 +7,7 @@ from unittest import mock
 
 from tools.argos.protocols.direct import classify_http_failure, fetch_direct
 from tools.argos.protocols.iiif import discover_iiif, fetch_iiif_image, gallica_manifest_from_ark
+from tools.argos.protocols.rest_api import resolve as resolve_rest_api
 
 
 class FakeResponse:
@@ -99,6 +100,28 @@ class ProtocolCoreTests(unittest.TestCase):
         self.assertFalse(result["success"])
         self.assertEqual(result["failure_class"], "iiif_unavailable")
         self.assertIn("No supported IIIF pattern discovered", result["error"])
+
+    def test_rest_api_rejects_host_substring_spoofing(self):
+        malicious_urls = [
+            "https://vam.ac.uk.evil.example/item/O12345",
+            "https://evil.example/collections/item/object/12345?next=iwm.org.uk",
+            "https://metmuseum.org.evil.example/art/collection/search/12345",
+        ]
+
+        with mock.patch("tools.argos.protocols.rest_api._get_json") as mocked_get_json:
+            for url in malicious_urls:
+                self.assertEqual(resolve_rest_api(url), {})
+
+        mocked_get_json.assert_not_called()
+
+    def test_rest_api_accepts_exact_or_subdomain_hosts(self):
+        vam_response = {"records": [{"_images": {"_iiif_image_base_url": "https://iiif.vam.ac.uk/image"}}]}
+
+        with mock.patch("tools.argos.protocols.rest_api._get_json", return_value=vam_response):
+            resolved = resolve_rest_api("https://collections.vam.ac.uk/item/O12345/example")
+
+        self.assertEqual(resolved["archive"], "vam")
+        self.assertEqual(resolved["image_url"], "https://iiif.vam.ac.uk/image/full/full/0/default.jpg")
 
 
 if __name__ == "__main__":
