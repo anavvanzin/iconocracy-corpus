@@ -19,7 +19,7 @@
     "url": "https://colnect.com/en/stamps/stamp/128820-Allegory_Liberty_Seated-Allegory-Argentina",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Allegory, Liberty Seated — Selo definitivo da República Argentina",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -49,7 +49,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "selo",
     "in_scope": true,
     "scope_note": null,
@@ -67,7 +67,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "AT-001",
@@ -90,7 +93,7 @@
     "url": "https://www.loc.gov/item/2004666193/",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Zeichnet 8. Kriegsanleihe",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -120,7 +123,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -138,7 +141,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "BE-001",
@@ -191,8 +197,8 @@
       "serialidade": 0,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "pintura",
     "in_scope": true,
     "scope_note": null,
@@ -215,7 +221,10 @@
         "colonialidade_do_ver": "Not directly operative. But temporal coincidence: 1885-1888 = Berlin Conference / Congo Free State creation."
       },
       "analyst_notes": "Confirmed 1.4. Polychromatic (mono=0) and unique (serial=0) keep endurecimento moderate."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "BE-002",
@@ -255,7 +264,7 @@
     "motif_str": "Justice, classical allegory, civic architecture, colonialism",
     "tags_str": "Justice, Poelaert, Brussels, courthouse, architecture, colonialism, Belgium",
     "regime": "normativo",
-    "endurecimento_score": 2.9,
+    "endurecimento_score": 3.0,
     "indicadores": {
       "desincorporacao": 3,
       "rigidez_postural": 3,
@@ -266,10 +275,10 @@
       "apagamento_narrativo": 3,
       "monocromatizacao": 3,
       "serialidade": 3,
-      "inscricao_estatal": 2
+      "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T12:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "monumento/escultura",
     "in_scope": true,
     "scope_note": null,
@@ -318,7 +327,7 @@
     "url": "https://en.numista.com/catalogue/pieces255.html",
     "thumbnail_url": null,
     "rights": "Public domain",
-    "citation_abnt": null,
+    "citation_abnt": "5 Francs — Léopold I (founding coin of Belgium)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -340,10 +349,24 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "BE-CONGO-100F-1912",
@@ -390,137 +413,24 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
-  },
-  {
-    "id": "BE-CONGO-MON-1921",
-    "title": "Monument aux Pionniers Belges au Congo — La Race Noire Accueillie par la Belgique",
-    "date": "1911-1921",
-    "period": "Colonial period (1911-1921)",
-    "creator": "Thomas Vinçotte",
-    "institution": "Parc du Cinquantenaire, Bruxelles",
-    "source_archive": "Wikipedia",
-    "country": "Belgium",
-    "medium": "Sculpture (Euville limestone)",
-    "motif": [
-      "La Belgique",
-      "colonial",
-      "African woman",
-      "torch",
-      "veil",
-      "civilizing mission"
-    ],
-    "description": "La Belgique seated, holding torch, lifting veil for a semi-nude African woman presenting her children. The European allegory is clothed, static, authoritative; the African woman is semi-nude, subordinate. Racialized endurecimento: white woman hardened/dressed vs. Black woman exposed/submitted. Vinçotte also sculpted the equestrian statue of Leopold II.",
-    "url": "https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo",
-    "thumbnail_url": null,
-    "rights": "Public domain",
-    "citation_abnt": "VINÇOTTE, Thomas. Monument aux Pionniers Belges au Congo. 1911-1921. Escultura em calcário de Euville. Parc du Cinquantenaire, Bruxelles. Disponível em: https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo. Acesso em: 11 abr. 2026.",
-    "citation_chicago": "Vinçotte, Thomas. Monument aux Pionniers Belges au Congo. 1911–1921. Limestone sculpture. Parc du Cinquantenaire, Brussels.",
-    "tags": [
-      "female allegory",
-      "La Belgique",
-      "colonial",
-      "Congo",
-      "military regime",
-      "racial visual contract",
-      "sculpture",
-      "Vinçotte"
-    ],
-    "year": 1911,
-    "medium_norm": "Monumento",
-    "country_pt": "Bélgica",
-    "period_norm": "Período colonial (1911-1921)",
-    "motif_str": "La Belgique, colonial, African woman",
-    "tags_str": "female allegory, La Belgique, colonial, Congo, racial visual contract",
-    "regime": "militar",
-    "support": "monumento/escultura",
-    "in_scope": true,
-    "scope_note": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
-  },
-  {
-    "id": "BE-IND-1880",
-    "title": "5 Francs — 50 ans de Belgique: La Belgique avec Constitution et Lion",
-    "date": "1880",
-    "period": "Kingdom of Belgium (1880)",
-    "creator": "Charles Wiener (engraver)",
-    "institution": "Monnaie Royale de Belgique",
-    "source_archive": "Numista",
-    "country": "Belgium",
-    "medium": "Coin (silver, commemorative)",
-    "motif": [
-      "La Belgique",
-      "lion",
-      "Constitution",
-      "Congress Column",
-      "Palace of Justice"
-    ],
-    "description": "Commemorative coin for 50th anniversary of Belgian independence. Reverse: personification of Belgium leaning on lion, holding Belgian Constitution. Congress Column to left, Brussels Palace of Justice to right. Obverse: jugate busts of Leopold I and Leopold II.",
-    "url": "https://en.numista.com/catalogue/pieces27258.html",
-    "thumbnail_url": null,
-    "rights": "Public domain",
-    "citation_abnt": "MONNAIE ROYALE DE BELGIQUE. 5 Francs — 50 ans de Belgique. 1880. Moeda, prata. Design: Charles Wiener. Disponível em: https://en.numista.com/catalogue/pieces27258.html. Acesso em: 01 abr. 2026.",
-    "citation_chicago": "Monnaie Royale de Belgique. 5 Francs — 50 ans de Belgique. 1880. Silver coin. Numista. https://en.numista.com/catalogue/pieces27258.html.",
-    "tags": [
-      "female allegory",
-      "La Belgique",
-      "foundational regime",
-      "constitution",
-      "numismatics"
-    ],
-    "year": 1880,
-    "medium_norm": "coin",
-    "country_pt": "Bélgica",
-    "period_norm": "Reino da Bélgica (1880)",
-    "motif_str": "La Belgique",
-    "tags_str": "female allegory, La Belgique, constitution, independence",
-    "regime": "fundacional",
-    "support": "moeda",
-    "in_scope": true,
-    "scope_note": null,
-    "endurecimento_score": 2.0,
     "indicadores": {
       "desincorporacao": 0,
-      "rigidez_postural": 2,
-      "dessexualizacao": 2,
-      "uniformizacao_facial": 2,
-      "heraldizacao": 2,
-      "enquadramento_arquitetonico": 3,
-      "apagamento_narrativo": 1,
-      "monocromatizacao": 3,
-      "serialidade": 2,
-      "inscricao_estatal": 3
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
-    "panofsky": {
-      "pre_iconographic": "Silver commemorative coin, 37mm. Standing La Belgique with Constitution tablets, Belgian lion, Congress Column and Palais de Justice in background. Leopold I/II busts on obverse.",
-      "iconographic": {
-        "motivo_alegorico": "La Belgique constitutionnelle — national personification holding law",
-        "iconclass": [
-          "44B62",
-          "44A2",
-          "48C51",
-          "46B2"
-        ],
-        "tradicao": "Belgian constitutional iconography (Huygebaert). Wiener adapts French Marianne, replaces cap with Constitution.",
-        "pathosformel": "Stabilitas constitutionalis — leaning figure, controlled, dependent on dynasty (lion)"
-      },
-      "iconological": {
-        "regime": "FUNDACIONAL",
-        "funcao": "Commemorative re-legitimation at 50th anniversary. Portable altar of re-foundation.",
-        "contrato_sexual_visual": "She HOLDS the law but does not write/interpret/enforce it. Kings on obverse are agents; she is sign.",
-        "colonialidade_do_ver": "Latent. 1880 = pre-Congo (1885), but proto-colonial logic in self-celebration."
-      },
-      "analyst_notes": "Confirmed 2.0. desincorporacao=0 because full body retained (unlike bust format). Compare with BE-CONGO-1912."
-    }
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "BE-CONGO-1912",
@@ -579,7 +489,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T12:00:00Z",
+    "coded_at": "2026-04-04T09:47:29Z",
     "panofsky": {
       "pre_iconographic": "Paper banknote, ~140x90mm, blue-green/ochre. LEFT: white European woman in classical drapery, mace on anvil. RIGHT: Black African woman, bare-shouldered, holding ivory tusk. Tropical vegetation background. 'BANQUE DU CONGO BELGE / 20 FRANCS'.",
       "iconographic": {
@@ -604,7 +514,156 @@
         "colonialidade_do_ver": "MAXIMUM in corpus. Operates at every level: composition, clothing, attributes, allegorical capacity, monetary medium."
       },
       "analyst_notes": "Strongest colonialidade_do_ver case. Same endurecimento as BE-IND-1880 (2.0) but different distribution: rigidez rises, monocrom falls. Atlas: Painel VII (colonial)."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "pre_canon_rescale_2026-04-19"
+    ]
+  },
+  {
+    "id": "BE-CONGO-MON-1921",
+    "title": "Monument aux Pionniers Belges au Congo — La Race Noire Accueillie par la Belgique",
+    "date": "1911-1921",
+    "period": "Colonial period (1911-1921)",
+    "creator": "Thomas Vinçotte",
+    "institution": "Parc du Cinquantenaire, Bruxelles",
+    "source_archive": "Wikipedia",
+    "country": "Belgium",
+    "medium": "Sculpture (Euville limestone)",
+    "motif": [
+      "La Belgique",
+      "colonial",
+      "African woman",
+      "torch",
+      "veil",
+      "civilizing mission"
+    ],
+    "description": "La Belgique seated, holding torch, lifting veil for a semi-nude African woman presenting her children. The European allegory is clothed, static, authoritative; the African woman is semi-nude, subordinate. Racialized endurecimento: white woman hardened/dressed vs. Black woman exposed/submitted. Vinçotte also sculpted the equestrian statue of Leopold II.",
+    "url": "https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo",
+    "thumbnail_url": null,
+    "rights": "Public domain",
+    "citation_abnt": "VINÇOTTE, Thomas. Monument aux Pionniers Belges au Congo. 1911-1921. Escultura em calcário de Euville. Parc du Cinquantenaire, Bruxelles. Disponível em: https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo. Acesso em: 11 abr. 2026.",
+    "citation_chicago": "Vinçotte, Thomas. Monument aux Pionniers Belges au Congo. 1911–1921. Limestone sculpture. Parc du Cinquantenaire, Brussels.",
+    "tags": [
+      "female allegory",
+      "La Belgique",
+      "colonial",
+      "Congo",
+      "military regime",
+      "racial visual contract",
+      "sculpture",
+      "Vinçotte"
+    ],
+    "year": 1911,
+    "medium_norm": "Monumento",
+    "country_pt": "Bélgica",
+    "period_norm": "Período colonial (1911-1921)",
+    "motif_str": "La Belgique, colonial, African woman",
+    "tags_str": "female allegory, La Belgique, colonial, Congo, racial visual contract",
+    "regime": "militar",
+    "support": "monumento/escultura",
+    "in_scope": true,
+    "scope_note": null,
+    "endurecimento_score": null,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
+  },
+  {
+    "id": "BE-IND-1880",
+    "title": "5 Francs — 50 ans de Belgique: La Belgique avec Constitution et Lion",
+    "date": "1880",
+    "period": "Kingdom of Belgium (1880)",
+    "creator": "Charles Wiener (engraver)",
+    "institution": "Monnaie Royale de Belgique",
+    "source_archive": "Numista",
+    "country": "Belgium",
+    "medium": "Coin (silver, commemorative)",
+    "motif": [
+      "La Belgique",
+      "lion",
+      "Constitution",
+      "Congress Column",
+      "Palace of Justice"
+    ],
+    "description": "Commemorative coin for 50th anniversary of Belgian independence. Reverse: personification of Belgium leaning on lion, holding Belgian Constitution. Congress Column to left, Brussels Palace of Justice to right. Obverse: jugate busts of Leopold I and Leopold II.",
+    "url": "https://en.numista.com/catalogue/pieces27258.html",
+    "thumbnail_url": null,
+    "rights": "Public domain",
+    "citation_abnt": "MONNAIE ROYALE DE BELGIQUE. 5 Francs — 50 ans de Belgique. 1880. Moeda, prata. Design: Charles Wiener. Disponível em: https://en.numista.com/catalogue/pieces27258.html. Acesso em: 01 abr. 2026.",
+    "citation_chicago": "Monnaie Royale de Belgique. 5 Francs — 50 ans de Belgique. 1880. Silver coin. Numista. https://en.numista.com/catalogue/pieces27258.html.",
+    "tags": [
+      "female allegory",
+      "La Belgique",
+      "foundational regime",
+      "constitution",
+      "numismatics"
+    ],
+    "year": 1880,
+    "medium_norm": "coin",
+    "country_pt": "Bélgica",
+    "period_norm": "Reino da Bélgica (1880)",
+    "motif_str": "La Belgique",
+    "tags_str": "female allegory, La Belgique, constitution, independence",
+    "regime": "fundacional",
+    "support": "moeda",
+    "in_scope": true,
+    "scope_note": null,
+    "endurecimento_score": 2.0,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": {
+      "pre_iconographic": "Silver commemorative coin, 37mm. Standing La Belgique with Constitution tablets, Belgian lion, Congress Column and Palais de Justice in background. Leopold I/II busts on obverse.",
+      "iconographic": {
+        "motivo_alegorico": "La Belgique constitutionnelle — national personification holding law",
+        "iconclass": [
+          "44B62",
+          "44A2",
+          "48C51",
+          "46B2"
+        ],
+        "tradicao": "Belgian constitutional iconography (Huygebaert). Wiener adapts French Marianne, replaces cap with Constitution.",
+        "pathosformel": "Stabilitas constitutionalis — leaning figure, controlled, dependent on dynasty (lion)"
+      },
+      "iconological": {
+        "regime": "FUNDACIONAL",
+        "funcao": "Commemorative re-legitimation at 50th anniversary. Portable altar of re-foundation.",
+        "contrato_sexual_visual": "She HOLDS the law but does not write/interpret/enforce it. Kings on obverse are agents; she is sign.",
+        "colonialidade_do_ver": "Latent. 1880 = pre-Congo (1885), but proto-colonial logic in self-celebration."
+      },
+      "analyst_notes": "Confirmed 2.0. desincorporacao=0 because full body retained (unlike bust format). Compare with BE-CONGO-1912."
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "pre_canon_rescale_2026-04-19"
+    ]
   },
   {
     "id": "BR-001",
@@ -654,8 +713,8 @@
       "serialidade": 1,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "fotografia",
     "in_scope": true,
     "scope_note": null,
@@ -728,8 +787,8 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "fotografia",
     "in_scope": true,
     "scope_note": null,
@@ -803,8 +862,8 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "fotografia",
     "in_scope": true,
     "scope_note": null,
@@ -878,8 +937,8 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "fotografia",
     "in_scope": true,
     "scope_note": null,
@@ -954,8 +1013,8 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T12:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "pintura",
     "in_scope": true,
     "scope_note": null,
@@ -1033,8 +1092,8 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "pintura",
     "in_scope": true,
     "scope_note": null,
@@ -1057,7 +1116,10 @@
         "colonialidade_do_ver": "White figure in national colors. Pre-modernist — Semana de 22 begins questioning European models."
       },
       "analyst_notes": "Confirmed 0.7. Rich narrative (apagamento=0) keeps endurecimento low."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "BR-007",
@@ -1109,8 +1171,8 @@
       "serialidade": 2,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "texto",
     "in_scope": true,
     "scope_note": null,
@@ -1133,7 +1195,10 @@
         "colonialidade_do_ver": "European literary tradition transplanted wholesale. Imagined body defaults to classical European."
       },
       "analyst_notes": "TEXTUAL, not visual. High endurecimento (2.3) reflects extreme abstraction of body into words. #sem-iiif"
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "BR-008",
@@ -1184,8 +1249,8 @@
       "serialidade": 2,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "texto",
     "in_scope": true,
     "scope_note": null,
@@ -1208,7 +1273,10 @@
         "colonialidade_do_ver": "MAXIMUM: French sculptor, French vocabulary, French material — total importation to majority Afro-Brazilian Rio"
       },
       "analyst_notes": "TEXTUAL. 2.5 reflects extreme formality. Earliest known monumental Justiça in Brazil (1872). #sem-iiif"
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "BR-009",
@@ -1264,8 +1332,8 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T12:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "monumento/escultura",
     "in_scope": true,
     "scope_note": null,
@@ -1293,7 +1361,11 @@
         "colonialidade_do_ver": "White classical body in capital of majority-Black nation. Modernist abstraction avoids explicit racial marking while defaulting to whiteness. January 8, 2023 attack makes it a living site of iconoclasm."
       },
       "analyst_notes": "KEY ITEM. Contrast with BR-010 (Visconti, 0.5) = 50-year endurecimento arc. Every indicator rises. Atlas: Painel VII."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "lpai_v2_enrich_br_scout_005"
+    ]
   },
   {
     "id": "BR-010",
@@ -1344,8 +1416,8 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T12:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "pintura",
     "in_scope": true,
     "scope_note": null,
@@ -1372,7 +1444,10 @@
         "colonialidade_do_ver": "Visconti (Italian-born, Paris-trained) imports full French decorative apparatus. European features/coloring. But subtle tropicalization — warmth of light exceeds European norms."
       },
       "analyst_notes": "LOW-endurecimento anchor for Brazil. Contrast pair with BR-009 (0.5 vs 2.2) = most powerful endurecimento demonstration in single national tradition. Atlas: Painel VII."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "BR-016",
@@ -1425,7 +1500,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "pintura",
     "in_scope": true,
     "scope_note": null,
@@ -1447,7 +1522,11 @@
         "colonialidade_do_ver": "White neoclassical body with European features in a multiracial society; green-and-gold national symbols domesticate the revolutionary Marianne into tropical decorum"
       },
       "analyst_notes": "Key foundational painting for BR corpus. Endurecimento moderate — heraldization and architectural framing are strong (throne, mosaic), but body retains some dynamism through the green mantle draping. Sword is decorative, not raised."
-    }
+    },
+    "audit_flags": [
+      "sem-url",
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "BR-1000R-1906",
@@ -1466,7 +1545,7 @@
     "url": "https://en.numista.com/catalogue/pieces14484.html",
     "thumbnail_url": null,
     "rights": "Public domain",
-    "citation_abnt": null,
+    "citation_abnt": "1000 Réis — Efígie da República (Brasil, 1906–1912)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -1486,10 +1565,24 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "BR-1CR-1970",
@@ -1508,7 +1601,7 @@
     "url": "https://en.numista.com/catalogue/note203551.html",
     "thumbnail_url": null,
     "rights": "Public domain",
-    "citation_abnt": null,
+    "citation_abnt": "1 Cruzeiro (cédula) — Efígie da República (2ª edição)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -1529,10 +1622,24 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "BR-2000R-1907",
@@ -1587,7 +1694,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_at": "2026-04-04T09:47:29Z",
     "panofsky": {
       "pre_iconographic": "Silver coin, 33mm. Female bust left profile, Phrygian cap with stars, laurel wreath. 'REPUBLICA DOS ESTADOS UNIDOS DO BRAZIL'. Reverse: 2000 REIS.",
       "iconographic": {
@@ -1607,7 +1714,11 @@
         "colonialidade_do_ver": "European face circulates as Republic in majority Afro-descendant nation. Colonialidade in purest economic form."
       },
       "analyst_notes": "Highest BR item (2.8). Medium drives maximum serialidade, monocromatizacao, inscricao_estatal. Atlas: Painel VI+VII."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "pre_canon_rescale_2026-04-19"
+    ]
   },
   {
     "id": "BR-50CR-1965",
@@ -1626,7 +1737,7 @@
     "url": "https://en.numista.com/9337",
     "thumbnail_url": null,
     "rights": "Public domain",
-    "citation_abnt": null,
+    "citation_abnt": "50 Cruzeiros — Efígie da República (Benedito Ribeiro / Tônia Carreiro)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -1647,10 +1758,24 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "DE-001",
@@ -1691,21 +1816,21 @@
     "motif_str": "Justitia, Justice, blindfold, sword, scales",
     "tags_str": "Justitia, fountain, blindfold, Renaissance, Bern, Switzerland, legal iconography",
     "regime": "fundacional",
-    "endurecimento_score": 0.9,
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 1,
-      "rigidez_postural": 0,
+      "rigidez_postural": 1,
       "dessexualizacao": 1,
       "uniformizacao_facial": 1,
-      "heraldizacao": 1,
-      "enquadramento_arquitetonico": 2,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 1,
       "apagamento_narrativo": 0,
       "monocromatizacao": 0,
-      "serialidade": 1,
+      "serialidade": 0,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T00:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "monumento/escultura",
     "in_scope": false,
     "scope_role": "comparanda",
@@ -1724,7 +1849,10 @@
         "analyst_notes": null
       },
       "analyst_notes": "Image not accessed. rigidez_postural 1->0 (contrapposto), heraldizacao 0->1, enquadramento 1->2 (fountain ensemble), serialidade 0->1. #verificar-imagem"
-    }
+    },
+    "audit_flags": [
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "DE-002",
@@ -1765,19 +1893,19 @@
     "regime": "fundacional",
     "endurecimento_score": 2.4,
     "indicadores": {
-      "desincorporacao": 3,
+      "desincorporacao": 2,
       "rigidez_postural": 2,
       "dessexualizacao": 3,
       "uniformizacao_facial": 2,
-      "heraldizacao": 2,
+      "heraldizacao": 3,
       "enquadramento_arquitetonico": 3,
       "apagamento_narrativo": 3,
       "monocromatizacao": 3,
       "serialidade": 0,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T00:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "monumento/escultura",
     "in_scope": false,
     "scope_role": "borderline",
@@ -1796,7 +1924,10 @@
         "analyst_notes": null
       },
       "analyst_notes": "Image not accessed. desincorporacao 2->3 (only head survives), heraldizacao 3->2 (no visible heraldic devices in fragment). Net score unchanged at 2.4. #verificar-imagem"
-    }
+    },
+    "audit_flags": [
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "DE-003",
@@ -1834,10 +1965,10 @@
     "motif_str": "Justitia, Justice, satire",
     "tags_str": "Justitia, satire, Enlightenment, engraving, Dresden, political commentary",
     "regime": "fundacional",
-    "endurecimento_score": 0.7,
+    "endurecimento_score": 0.8,
     "indicadores": {
       "desincorporacao": 1,
-      "rigidez_postural": 0,
+      "rigidez_postural": 1,
       "dessexualizacao": 1,
       "uniformizacao_facial": 1,
       "heraldizacao": 0,
@@ -1847,8 +1978,8 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T00:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -1904,7 +2035,7 @@
     "motif_str": "Justitia, Justice, civic architecture",
     "tags_str": "Justitia, town hall, clock, civic architecture, Renaissance, Esslingen",
     "regime": "fundacional",
-    "endurecimento_score": 1.9,
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -1914,11 +2045,11 @@
       "enquadramento_arquitetonico": 3,
       "apagamento_narrativo": 2,
       "monocromatizacao": 2,
-      "serialidade": 1,
+      "serialidade": 0,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T00:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "monumento/escultura",
     "in_scope": true,
     "scope_note": null,
@@ -1974,12 +2105,12 @@
     "motif_str": "Justitia, Justice, domestic allegory",
     "tags_str": "Justitia, Baroque, ceiling, domestic space, Lüneburg, wooden ceiling",
     "regime": "fundacional",
-    "endurecimento_score": 1.0,
+    "endurecimento_score": 1.3,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
-      "dessexualizacao": 1,
-      "uniformizacao_facial": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 3,
       "apagamento_narrativo": 2,
@@ -1987,8 +2118,8 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T00:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "pintura",
     "in_scope": true,
     "scope_note": null,
@@ -2056,8 +2187,8 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T00:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": false,
     "scope_role": "borderline",
@@ -2076,7 +2207,10 @@
         "analyst_notes": null
       },
       "analyst_notes": "Image not accessed. All scores confirmed unchanged. Errata: corpus-data-enriched.json incorrectly classifies as NORMATIVO. #verificar-imagem"
-    }
+    },
+    "audit_flags": [
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "DE-007",
@@ -2115,7 +2249,7 @@
     "motif_str": "Justitia, Justice, cardinal virtues, Prudence",
     "tags_str": "Justitia, cardinal virtues, Renaissance, Italian, drawing, Prudence",
     "regime": "fundacional",
-    "endurecimento_score": 1.1,
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -2125,11 +2259,11 @@
       "enquadramento_arquitetonico": 0,
       "apagamento_narrativo": 1,
       "monocromatizacao": 3,
-      "serialidade": 2,
+      "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T00:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": false,
     "scope_role": "borderline",
@@ -2148,7 +2282,10 @@
         "analyst_notes": null
       },
       "analyst_notes": "Image not accessed. serialidade 1->2 (explicit pairing of interchangeable female types). Score 1.0->1.1. #verificar-imagem"
-    }
+    },
+    "audit_flags": [
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "DE-008",
@@ -2185,7 +2322,7 @@
     "motif_str": "Justitia, Justice, Weser Renaissance",
     "tags_str": "Justitia, Weser Renaissance, architectural sculpture, Hameln, civic building",
     "regime": "fundacional",
-    "endurecimento_score": 1.8,
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -2195,11 +2332,11 @@
       "enquadramento_arquitetonico": 3,
       "apagamento_narrativo": 2,
       "monocromatizacao": 2,
-      "serialidade": 1,
+      "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T00:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "monumento/escultura",
     "in_scope": true,
     "scope_note": null,
@@ -2270,8 +2407,8 @@
       "serialidade": 0,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T00:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "monumento/escultura",
     "in_scope": true,
     "scope_note": null,
@@ -2327,21 +2464,21 @@
     "motif_str": "Justitia, Jus Civile, civil law",
     "tags_str": "Justitia, civil law, Baroque, Benedictine, ecclesiastical, secular law",
     "regime": "fundacional",
-    "endurecimento_score": 1.0,
+    "endurecimento_score": 1.3,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
-      "dessexualizacao": 1,
+      "dessexualizacao": 2,
       "uniformizacao_facial": 1,
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 2,
-      "apagamento_narrativo": 1,
-      "monocromatizacao": 1,
-      "serialidade": 1,
-      "inscricao_estatal": 0
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 0,
+      "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T00:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "monumento/escultura",
     "in_scope": true,
     "scope_note": null,
@@ -2568,7 +2705,10 @@
         "nachleben": "*Nachleben* da Germania tacitiana e da tradição romântica alemã: a figura alegórica reativa a *Pathosformel* da nação guerreira, frequentemente associada a armadura, espada e coroa de carvalho. A sobrevivência dessa fórmula conecta a Antiguidade ao nacionalismo moderno.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "DE-014",
@@ -2589,7 +2729,7 @@
     "url": "https://www.loc.gov/item/2004665855/",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Helft uns siegen! Zeichnet die Kriegsanleihe",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -2618,7 +2758,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -2636,7 +2776,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "DE-015",
@@ -2659,7 +2802,7 @@
     "url": "https://germanhistorydocs.ghi-dc.org/sub_image.cfm?image_id=1408",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Germania — Guter Rat ist teuer (Bismarck e Alsácia-Lorena)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -2688,7 +2831,7 @@
       "inscricao_estatal": 1
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -2706,7 +2849,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "DE-1000M-1910",
@@ -2725,7 +2871,7 @@
     "url": "https://en.numista.com/catalogue/note203637.html",
     "thumbnail_url": null,
     "rights": "Public domain",
-    "citation_abnt": null,
+    "citation_abnt": "1000 Mark Reichsbanknote — allegorical figures",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -2746,10 +2892,24 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "DE-100M-1908",
@@ -2768,7 +2928,7 @@
     "url": "https://en.numista.com/catalogue/note203616.html",
     "thumbnail_url": null,
     "rights": "Public domain",
-    "citation_abnt": null,
+    "citation_abnt": "100 Mark Reichsbanknote — Germania seated (green seals)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -2789,10 +2949,24 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "DE-50M-1919",
@@ -2811,7 +2985,7 @@
     "url": "https://en.numista.com/catalogue/note202186.html",
     "thumbnail_url": null,
     "rights": "Public domain",
-    "citation_abnt": null,
+    "citation_abnt": "50 Mark Reichsbanknote (24 Jun. 1919) — última cédula imperial / primeira Weimar",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -2832,10 +3006,173 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
+  },
+  {
+    "id": "DE-GERM-1900",
+    "title": "Germania — Reichspost / Deutsches Reich Definitive Stamp (Paul Eduard Waldraff)",
+    "date": "1900-1922",
+    "period": "German Empire / Weimar (1900-1922)",
+    "creator": "Paul Eduard Waldraff (designer), Anna Führing (model)",
+    "institution": "Deutsche Reichspost",
+    "source_archive": "Wikipedia / Colnect",
+    "country": "Germany",
+    "medium": "Postage stamp (definitive series, multiple denominations)",
+    "motif": [
+      "Germania",
+      "imperial crown",
+      "sword",
+      "olive branch",
+      "armor",
+      "Jugendstil"
+    ],
+    "description": "Bust of Germania wearing octagonal imperial crown, holding sword and olive branch. Art Nouveau design personally chosen by Kaiser Wilhelm II. Model: actress Anna Führing. Longest-running German definitive series (22 years). NOT used in colonies (replaced by Yacht issue). Overprinted for occupied territories in WWI.",
+    "url": "https://en.wikipedia.org/wiki/Germania_(stamp)",
+    "thumbnail_url": null,
+    "rights": "Public domain",
+    "citation_abnt": "DEUTSCHE REICHSPOST. Germania. 1900-1922. Selo postal, série definitiva. Design: Paul Eduard Waldraff. Disponível em: https://en.wikipedia.org/wiki/Germania_(stamp). Acesso em: 01 abr. 2026.",
+    "citation_chicago": "Deutsche Reichspost. Germania. 1900–1922. Postage stamp. Wikipedia. https://en.wikipedia.org/wiki/Germania_(stamp).",
+    "tags": [
+      "female allegory",
+      "Germania",
+      "military regime",
+      "philately",
+      "Jugendstil",
+      "imperial crown"
+    ],
+    "year": 1900,
+    "medium_norm": "stamp",
+    "country_pt": "Alemanha",
+    "period_norm": "Kaiserreich / Weimar (1900-1922)",
+    "motif_str": "Germania",
+    "tags_str": "female allegory, Germania, imperial crown, sword",
+    "regime": "militar",
+    "support": "selo",
+    "in_scope": true,
+    "scope_note": null,
+    "indicadores": {
+      "desincorporacao": 3,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "endurecimento_score": 2.8,
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": {
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Mobilização cívica e convocação patriótica — a figura de Germania é instrumentalizada para fins de propaganda bélica ou afirmação de poder imperial em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (endurecimento 2.8), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "endurecimento muito alto (2.8): purificação máxima — o corpo alegórico é totalmente absorvido pelo programa estatal, funcionando como puro dispositivo heráldico-burocrático.",
+        "zwischenraum": "O *Zwischenraum* manifesta-se na compressão extrema do corpo alegórico no selo postal — um espaço de poucos centímetros que deve conter toda a aspiração estatal. A miniaturização é uma forma radical de endurecimento.",
+        "nachleben": "*Nachleben* da Germania tacitiana e da tradição romântica alemã: a figura alegórica reativa a *Pathosformel* da nação guerreira, frequentemente associada a armadura, espada e coroa de carvalho. A sobrevivência dessa fórmula conecta a Antiguidade ao nacionalismo moderno.",
+        "analyst_notes": null
+      }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "pre_canon_rescale_2026-04-19"
+    ]
+  },
+  {
+    "id": "DE-GERM-BELG-1914",
+    "title": "Germania \"Belgien\" Overprint — Military Occupation Stamp (WWI)",
+    "date": "1914-1918",
+    "period": "WWI Occupation (1914-1918)",
+    "creator": "Paul Eduard Waldraff (original design)",
+    "institution": "Deutsche Reichspost (occupation)",
+    "source_archive": "Colnect",
+    "country": "Germany",
+    "medium": "Postage stamp (overprint on Germania series)",
+    "motif": [
+      "Germania",
+      "imperial crown",
+      "sword",
+      "olive branch",
+      "Belgien overprint",
+      "military occupation"
+    ],
+    "description": "Germania definitive stamp overprinted with \"Belgien\" and revalued in Centimes/Francs for use in German-occupied Belgium during WWI. Same image as DE-GERM-1900 but with additional state inscription marking occupation. First series October 1914, second series May 1916.",
+    "url": "https://colnect.com/en/stamps/stamp/320475-overprint_on_Germania-Belgium-Belgium_German_Occupation_in_WWI",
+    "thumbnail_url": null,
+    "rights": "Public domain",
+    "citation_abnt": "DEUTSCHE REICHSPOST. Germania — Overprint \"Belgien\". 1914-1918. Selo postal, overprint de ocupação. Disponível em: https://colnect.com/en/stamps/stamp/320475. Acesso em: 01 abr. 2026.",
+    "citation_chicago": "Deutsche Reichspost. Germania — Overprint \"Belgien.\" 1914–1918. Postage stamp. Colnect. https://colnect.com/en/stamps/stamp/320475.",
+    "tags": [
+      "female allegory",
+      "Germania",
+      "military regime",
+      "philately",
+      "occupation",
+      "WWI",
+      "Belgium"
+    ],
+    "year": 1914,
+    "medium_norm": "stamp",
+    "country_pt": "Alemanha",
+    "period_norm": "Ocupação WWI (1914-1918)",
+    "motif_str": "Germania",
+    "tags_str": "female allegory, Germania, occupation, Belgien overprint",
+    "regime": "militar",
+    "support": "selo",
+    "in_scope": true,
+    "scope_note": null,
+    "indicadores": {
+      "desincorporacao": 3,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "endurecimento_score": 2.8,
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": {
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Mobilização cívica e convocação patriótica — a figura de Germania é instrumentalizada para fins de propaganda bélica ou afirmação de poder imperial em Alemanha",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (endurecimento 2.8), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "endurecimento muito alto (2.8): purificação máxima — o corpo alegórico é totalmente absorvido pelo programa estatal, funcionando como puro dispositivo heráldico-burocrático.",
+        "zwischenraum": "O *Zwischenraum* manifesta-se na compressão extrema do corpo alegórico no selo postal — um espaço de poucos centímetros que deve conter toda a aspiração estatal. A miniaturização é uma forma radical de endurecimento.",
+        "nachleben": "*Nachleben* da Germania tacitiana e da tradição romântica alemã: a figura alegórica reativa a *Pathosformel* da nação guerreira, frequentemente associada a armadura, espada e coroa de carvalho. A sobrevivência dessa fórmula conecta a Antiguidade ao nacionalismo moderno.",
+        "analyst_notes": null
+      }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "pre_canon_rescale_2026-04-19"
+    ]
   },
   {
     "id": "DE-NOTG-1921",
@@ -2898,7 +3235,13 @@
       "#verificar",
       "#verificar-imagem"
     ],
-    "tags_str": "corpus/candidato, pais/DE, suporte/papel-moeda, regime/fundacional, #verificar, #verificar-imagem"
+    "tags_str": "corpus/candidato, pais/DE, suporte/papel-moeda, regime/fundacional, #verificar, #verificar-imagem",
+    "description": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note",
+    "citation_abnt": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note",
+    "audit_flags": [
+      "sem-url",
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "DE-WR-1919-50M",
@@ -2950,7 +3293,12 @@
         "nachleben": "*Nachleben* da Germania tacitiana e da tradição romântica alemã: a figura alegórica reativa a *Pathosformel* da nação guerreira, frequentemente associada a armadura, espada e coroa de carvalho. A sobrevivência dessa fórmula conecta a Antiguidade ao nacionalismo moderno.",
         "analyst_notes": null
       }
-    }
+    },
+    "description": "50 Mark Reichsbanknote — Germania as Young Girl (Weimar 1919)",
+    "citation_abnt": "50 Mark Reichsbanknote — Germania as Young Girl (Weimar 1919)",
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "DE-WR-1924-50PF",
@@ -3002,148 +3350,12 @@
         "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"50 Reichspfennig — Woman Planting Oak Sapling (Weimar 1924)\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Germany no período Weimar Republic (1919-1933).",
         "analyst_notes": null
       }
-    }
-  },
-  {
-    "id": "DE-GERM-1900",
-    "title": "Germania — Reichspost / Deutsches Reich Definitive Stamp (Paul Eduard Waldraff)",
-    "date": "1900-1922",
-    "period": "German Empire / Weimar (1900-1922)",
-    "creator": "Paul Eduard Waldraff (designer), Anna Führing (model)",
-    "institution": "Deutsche Reichspost",
-    "source_archive": "Wikipedia / Colnect",
-    "country": "Germany",
-    "medium": "Postage stamp (definitive series, multiple denominations)",
-    "motif": [
-      "Germania",
-      "imperial crown",
-      "sword",
-      "olive branch",
-      "armor",
-      "Jugendstil"
-    ],
-    "description": "Bust of Germania wearing octagonal imperial crown, holding sword and olive branch. Art Nouveau design personally chosen by Kaiser Wilhelm II. Model: actress Anna Führing. Longest-running German definitive series (22 years). NOT used in colonies (replaced by Yacht issue). Overprinted for occupied territories in WWI.",
-    "url": "https://en.wikipedia.org/wiki/Germania_(stamp)",
-    "thumbnail_url": null,
-    "rights": "Public domain",
-    "citation_abnt": "DEUTSCHE REICHSPOST. Germania. 1900-1922. Selo postal, série definitiva. Design: Paul Eduard Waldraff. Disponível em: https://en.wikipedia.org/wiki/Germania_(stamp). Acesso em: 01 abr. 2026.",
-    "citation_chicago": "Deutsche Reichspost. Germania. 1900–1922. Postage stamp. Wikipedia. https://en.wikipedia.org/wiki/Germania_(stamp).",
-    "tags": [
-      "female allegory",
-      "Germania",
-      "military regime",
-      "philately",
-      "Jugendstil",
-      "imperial crown"
-    ],
-    "year": 1900,
-    "medium_norm": "stamp",
-    "country_pt": "Alemanha",
-    "period_norm": "Kaiserreich / Weimar (1900-1922)",
-    "motif_str": "Germania",
-    "tags_str": "female allegory, Germania, imperial crown, sword",
-    "regime": "militar",
-    "support": "selo",
-    "in_scope": true,
-    "scope_note": null,
-    "indicadores": {
-      "desincorporacao": 3,
-      "rigidez_postural": 3,
-      "dessexualizacao": 3,
-      "uniformizacao_facial": 2,
-      "heraldizacao": 3,
-      "enquadramento_arquitetonico": 2,
-      "apagamento_narrativo": 3,
-      "monocromatizacao": 3,
-      "serialidade": 3,
-      "inscricao_estatal": 3
     },
-    "endurecimento_score": 2.8,
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T14:00:00Z",
-    "panofsky": {
-      "iconological": {
-        "regime": "MILITAR",
-        "funcao": "Mobilização cívica e convocação patriótica — a figura de Germania é instrumentalizada para fins de propaganda bélica ou afirmação de poder imperial em Alemanha",
-        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (endurecimento 2.8), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
-        "colonialidade_do_ver": null,
-        "endurecimento_analysis": "endurecimento muito alto (2.8): purificação máxima — o corpo alegórico é totalmente absorvido pelo programa estatal, funcionando como puro dispositivo heráldico-burocrático.",
-        "zwischenraum": "O *Zwischenraum* manifesta-se na compressão extrema do corpo alegórico no selo postal — um espaço de poucos centímetros que deve conter toda a aspiração estatal. A miniaturização é uma forma radical de endurecimento.",
-        "nachleben": "*Nachleben* da Germania tacitiana e da tradição romântica alemã: a figura alegórica reativa a *Pathosformel* da nação guerreira, frequentemente associada a armadura, espada e coroa de carvalho. A sobrevivência dessa fórmula conecta a Antiguidade ao nacionalismo moderno.",
-        "analyst_notes": null
-      }
-    }
-  },
-  {
-    "id": "DE-GERM-BELG-1914",
-    "title": "Germania \"Belgien\" Overprint — Military Occupation Stamp (WWI)",
-    "date": "1914-1918",
-    "period": "WWI Occupation (1914-1918)",
-    "creator": "Paul Eduard Waldraff (original design)",
-    "institution": "Deutsche Reichspost (occupation)",
-    "source_archive": "Colnect",
-    "country": "Germany",
-    "medium": "Postage stamp (overprint on Germania series)",
-    "motif": [
-      "Germania",
-      "imperial crown",
-      "sword",
-      "olive branch",
-      "Belgien overprint",
-      "military occupation"
-    ],
-    "description": "Germania definitive stamp overprinted with \"Belgien\" and revalued in Centimes/Francs for use in German-occupied Belgium during WWI. Same image as DE-GERM-1900 but with additional state inscription marking occupation. First series October 1914, second series May 1916.",
-    "url": "https://colnect.com/en/stamps/stamp/320475-overprint_on_Germania-Belgium-Belgium_German_Occupation_in_WWI",
-    "thumbnail_url": null,
-    "rights": "Public domain",
-    "citation_abnt": "DEUTSCHE REICHSPOST. Germania — Overprint \"Belgien\". 1914-1918. Selo postal, overprint de ocupação. Disponível em: https://colnect.com/en/stamps/stamp/320475. Acesso em: 01 abr. 2026.",
-    "citation_chicago": "Deutsche Reichspost. Germania — Overprint \"Belgien.\" 1914–1918. Postage stamp. Colnect. https://colnect.com/en/stamps/stamp/320475.",
-    "tags": [
-      "female allegory",
-      "Germania",
-      "military regime",
-      "philately",
-      "occupation",
-      "WWI",
-      "Belgium"
-    ],
-    "year": 1914,
-    "medium_norm": "stamp",
-    "country_pt": "Alemanha",
-    "period_norm": "Ocupação WWI (1914-1918)",
-    "motif_str": "Germania",
-    "tags_str": "female allegory, Germania, occupation, Belgien overprint",
-    "regime": "militar",
-    "support": "selo",
-    "in_scope": true,
-    "scope_note": null,
-    "indicadores": {
-      "desincorporacao": 3,
-      "rigidez_postural": 3,
-      "dessexualizacao": 3,
-      "uniformizacao_facial": 2,
-      "heraldizacao": 3,
-      "enquadramento_arquitetonico": 2,
-      "apagamento_narrativo": 3,
-      "monocromatizacao": 3,
-      "serialidade": 3,
-      "inscricao_estatal": 3
-    },
-    "endurecimento_score": 2.8,
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T14:00:00Z",
-    "panofsky": {
-      "iconological": {
-        "regime": "MILITAR",
-        "funcao": "Mobilização cívica e convocação patriótica — a figura de Germania é instrumentalizada para fins de propaganda bélica ou afirmação de poder imperial em Alemanha",
-        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (endurecimento 2.8), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
-        "colonialidade_do_ver": null,
-        "endurecimento_analysis": "endurecimento muito alto (2.8): purificação máxima — o corpo alegórico é totalmente absorvido pelo programa estatal, funcionando como puro dispositivo heráldico-burocrático.",
-        "zwischenraum": "O *Zwischenraum* manifesta-se na compressão extrema do corpo alegórico no selo postal — um espaço de poucos centímetros que deve conter toda a aspiração estatal. A miniaturização é uma forma radical de endurecimento.",
-        "nachleben": "*Nachleben* da Germania tacitiana e da tradição romântica alemã: a figura alegórica reativa a *Pathosformel* da nação guerreira, frequentemente associada a armadura, espada e coroa de carvalho. A sobrevivência dessa fórmula conecta a Antiguidade ao nacionalismo moderno.",
-        "analyst_notes": null
-      }
-    }
+    "description": "50 Reichspfennig — Woman Planting Oak Sapling (Weimar 1924)",
+    "citation_abnt": "50 Reichspfennig — Woman Planting Oak Sapling (Weimar 1924)",
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "ES-001",
@@ -3214,7 +3426,11 @@
         "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de Espanha (Séc. XX).",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "ES-002",
@@ -3286,7 +3502,11 @@
         "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Alegoría de la Primera República española (La Flaca)\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Espanha no período Séc. XIX.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "ES-003",
@@ -3308,7 +3528,7 @@
     "url": "https://en.numista.com/6722",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "5 Pesetas \"Hispania Reclinada\" — Gobierno Provisional",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -3338,7 +3558,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
@@ -3356,7 +3576,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "ES-004",
@@ -3378,7 +3601,7 @@
     "url": "https://en.numista.com/catalogue/pieces11169.html",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "1 Peseta \"Hispania Sentada\" — II República",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -3408,7 +3631,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
@@ -3426,7 +3649,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "EU-001",
@@ -3545,8 +3771,8 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -3570,7 +3796,10 @@
         "colonialidade_do_ver": "Not operative. Pre-colonial humanist visual culture."
       },
       "analyst_notes": "Confirmed 0.5. Pre-endurecimento baseline — soft founding visual vocabulary."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "EU-003",
@@ -3638,7 +3867,11 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "EU-004",
@@ -3705,7 +3938,11 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "EU-005",
@@ -3773,7 +4010,11 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "EU-006",
@@ -3841,7 +4082,10 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "EU-007",
@@ -3891,8 +4135,8 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -3915,7 +4159,10 @@
         "colonialidade_do_ver": "Adjacent — Antwerp in Atlantic world system. Visual language exported to colonial contexts."
       },
       "analyst_notes": "Confirmed 0.8. Slightly higher than EU-002 (0.5) due to proto-serial print production."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "EU-008",
@@ -3985,7 +4232,11 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "EU-009",
@@ -4052,7 +4303,11 @@
         "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Female Allegory (Pierre Puvis de Chavannes)\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de França no período III República / II Império (FR).",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "FR-001",
@@ -4091,21 +4346,21 @@
     "motif_str": "Justice, Vengeance, Vérité, Allégorie féminine",
     "tags_str": "Justice, Truth, Vengeance, female allegory, engraving, Second Empire",
     "regime": "fundacional",
-    "endurecimento_score": 0.6,
+    "endurecimento_score": 0.7,
     "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
       "dessexualizacao": 1,
       "uniformizacao_facial": 1,
       "heraldizacao": 0,
       "enquadramento_arquitetonico": 0,
       "apagamento_narrativo": 0,
-      "monocromatizacao": 3,
+      "monocromatizacao": 2,
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T04:30:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -4133,7 +4388,10 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "Key counter-example anchoring LOW end of endurecimento. Atlas: Painel I."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-002",
@@ -4171,21 +4429,21 @@
     "motif_str": "Justice, Vérité, Triomphe, Allégorie féminine",
     "tags_str": "Justice, Truth, triumph, female allegory, engraving",
     "regime": "fundacional",
-    "endurecimento_score": 0.5,
+    "endurecimento_score": 0.7,
     "indicadores": {
-      "desincorporacao": 0,
+      "desincorporacao": 1,
       "rigidez_postural": 1,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
       "heraldizacao": 0,
-      "enquadramento_arquitetonico": 2,
+      "enquadramento_arquitetonico": 0,
       "apagamento_narrativo": 0,
       "monocromatizacao": 2,
-      "serialidade": 0,
+      "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T04:30:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -4212,7 +4470,10 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "Transitional body-to-monument. Zwischenraum visible. Atlas: Painel II."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-003",
@@ -4248,21 +4509,21 @@
     "motif_str": "Justice, Envoyé, Allégorie féminine",
     "tags_str": "Justice, envoy, female allegory, engraving",
     "regime": "fundacional",
-    "endurecimento_score": 1.2,
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
       "dessexualizacao": 1,
       "uniformizacao_facial": 1,
       "heraldizacao": 1,
-      "enquadramento_arquitetonico": 1,
+      "enquadramento_arquitetonico": 0,
       "apagamento_narrativo": 1,
-      "monocromatizacao": 3,
+      "monocromatizacao": 2,
       "serialidade": 1,
-      "inscricao_estatal": 1
+      "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T04:30:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -4289,7 +4550,10 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "EXCEPTIONAL for thesis. Demonstrates DELEGATION mechanism in Contrato Sexual Visual. Atlas: Painel II."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-004",
@@ -4328,7 +4592,7 @@
     "motif_str": "Marianne, République, Éducation, Allégorie féminine",
     "tags_str": "Marianne, Republic, education, female allegory, children, laïcité",
     "regime": "normativo",
-    "endurecimento_score": 1.2,
+    "endurecimento_score": 1.1,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4339,10 +4603,10 @@
       "apagamento_narrativo": 0,
       "monocromatizacao": 2,
       "serialidade": 1,
-      "inscricao_estatal": 2
+      "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T04:30:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -4368,7 +4632,10 @@
         "colonialidade_do_ver": "Alphabet teaching aligns with colonial civilizing mission"
       },
       "analyst_notes": "Diptych visualizes endurecimento trajectory within single image. LEFT=PRE, RIGHT=POST purification. Atlas: Painel IV."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-005",
@@ -4405,22 +4672,22 @@
     "period_norm": "III República / II Império (FR)",
     "motif_str": "République, Allégorie féminine, Satire, Corps féminin",
     "tags_str": "Republic, female allegory, satire, Félicien Rops, eroticism",
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.8,
+    "regime": "normativo",
+    "endurecimento_score": 0.5,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
       "dessexualizacao": 0,
-      "uniformizacao_facial": 1,
+      "uniformizacao_facial": 0,
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 2,
-      "monocromatizacao": 3,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-02T04:30:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -4447,7 +4714,10 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "ESSENTIAL counter-example. 1871 Commune/Thiers = zero-point for Third Republic purification. Tag: #contra-alegoria. Atlas: Painel VII."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-006",
@@ -4485,7 +4755,7 @@
     "motif_str": "République, Crise, Allégorie féminine, Caricature politique",
     "tags_str": "Republic, political crisis, female allegory, cartoon, Marianne",
     "regime": "normativo",
-    "endurecimento_score": 0.9,
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4493,13 +4763,13 @@
       "uniformizacao_facial": 1,
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
+      "apagamento_narrativo": 1,
       "monocromatizacao": 2,
       "serialidade": 2,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T09:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -4526,7 +4796,10 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "#verificado-imagem — Gallica unreachable. Existing scores validated from metadata. Atlas: Painel IV."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-007",
@@ -4574,13 +4847,13 @@
       "uniformizacao_facial": 2,
       "heraldizacao": 2,
       "enquadramento_arquitetonico": 1,
-      "apagamento_narrativo": 1,
+      "apagamento_narrativo": 2,
       "monocromatizacao": 1,
       "serialidade": 2,
-      "inscricao_estatal": 3
+      "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T09:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -4648,11 +4921,11 @@
     "motif_str": "Marianne, République, Appel, Guerre, Allégorie féminine",
     "tags_str": "Marianne, Republic, WWI, recruitment, Steinlen, female allegory",
     "regime": "militar",
-    "endurecimento_score": 0.8,
+    "endurecimento_score": 1.2,
     "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
       "uniformizacao_facial": 1,
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 0,
@@ -4661,8 +4934,8 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T09:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -4690,7 +4963,11 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "#verificado-imagem. Steinlen scores LOWER than Lelong (1.2 vs 1.7) despite same wartime context — artist style modulates endurecimento. Atlas: Painel V."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "lpai_v2_enrich_fr_scout_002"
+    ]
   },
   {
     "id": "FR-009",
@@ -4731,19 +5008,19 @@
     "regime": "normativo",
     "endurecimento_score": 2.4,
     "indicadores": {
-      "desincorporacao": 3,
+      "desincorporacao": 2,
       "rigidez_postural": 3,
-      "dessexualizacao": 3,
-      "uniformizacao_facial": 3,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
       "heraldizacao": 2,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 3,
       "monocromatizacao": 3,
-      "serialidade": 3,
+      "serialidade": 2,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T09:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "fotografia",
     "in_scope": true,
     "scope_note": null,
@@ -4772,7 +5049,11 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "ANALYTICALLY CENTRAL to thesis. Morphological terminus of desincorporação. Score revised 2.4→2.8: four indicators raised to 3 (desincorporação, dessexualização, uniformização, serialidade). #verificado-imagem. Atlas: Painel VI (maximum normativo)."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "lpai_v2_enrich_fr_scout_005"
+    ]
   },
   {
     "id": "FR-010",
@@ -4809,22 +5090,22 @@
     "period_norm": "III República / II Império (FR)",
     "motif_str": "République, Satire, Hochet, Allégorie féminine",
     "tags_str": "Republic, satire, rattle, trivialization, female allegory",
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.3,
+    "regime": "normativo",
+    "endurecimento_score": 0.6,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 0,
       "apagamento_narrativo": 0,
-      "monocromatizacao": 1,
+      "monocromatizacao": 2,
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T09:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -4851,7 +5132,10 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "#verificado-imagem. Regime reclassified from normativo to CONTRA-ALEGORIA (like FR-005). uniformizacao_facial revised 1→0 (caricature individualizes by definition). Atlas: Painel VII."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-011",
@@ -4919,7 +5203,10 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-012",
@@ -5579,7 +5866,7 @@
     "url_iiif": null,
     "iiif_source": "europeana",
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "La Liberté guidant le peuple",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -5607,7 +5894,7 @@
       "inscricao_estatal": 1
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "pintura",
     "in_scope": true,
     "scope_note": null,
@@ -5651,7 +5938,7 @@
     "url_iiif": null,
     "iiif_source": "europeana",
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Notre-Dame des colonies",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -5680,7 +5967,7 @@
       "inscricao_estatal": 0
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -5723,7 +6010,7 @@
     "url_iiif": null,
     "iiif_source": "europeana",
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Bons de la Défense nationale",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -5751,7 +6038,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -5794,7 +6081,7 @@
     "url_iiif": null,
     "iiif_source": "europeana",
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "3e Emprunt de la Défense nationale (République française)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -5822,7 +6109,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -5865,7 +6152,7 @@
     "url_iiif": null,
     "iiif_source": "europeana",
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Emprunt national 1920 (Société générale)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -5893,7 +6180,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -5936,7 +6223,7 @@
     "url_iiif": null,
     "iiif_source": "europeana",
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Emprunt national 1920 (Banque Nationale de Paris et des Pays-Bas)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -5964,7 +6251,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -6007,7 +6294,7 @@
     "url_iiif": null,
     "iiif_source": "europeana",
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Emprunt de la Libération (Rente française 1918)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -6035,7 +6322,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -6079,7 +6366,7 @@
     "url_iiif": null,
     "iiif_source": "europeana",
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Prêtez à la France pour qu'elle grandisse dans le rayonnement de la Paix!",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -6107,7 +6394,7 @@
       "inscricao_estatal": 1
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -6150,7 +6437,7 @@
     "url_iiif": null,
     "iiif_source": "europeana",
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Emprunt national 1920 (Société centrale des banques de province)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -6178,7 +6465,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -6222,7 +6509,7 @@
     "url_iiif": null,
     "iiif_source": "europeana",
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "En avant! Armée de l'Épargne, c'est pour la Patrie",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -6250,7 +6537,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -6291,7 +6578,7 @@
     "url": "https://gallica.bnf.fr/ark:/12148/bpt6k1068692m",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Madame Anastasie (avec les ciseaux de la censure)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -6321,7 +6608,7 @@
       "inscricao_estatal": 0
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -6339,7 +6626,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-032",
@@ -6361,7 +6651,7 @@
     "url": "https://www.metmuseum.org/art/collection/search/757244",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "La Paix — Idylle",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -6391,7 +6681,7 @@
       "inscricao_estatal": 0
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -6409,7 +6699,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-033",
@@ -6431,7 +6724,7 @@
     "url": "https://www.metmuseum.org/art/collection/search/757135",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "L'Empire c'est la paix",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -6461,7 +6754,7 @@
       "inscricao_estatal": 1
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -6479,7 +6772,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-036",
@@ -6532,7 +6828,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -6555,7 +6851,11 @@
         "colonialidade_do_ver": "Universal republican time imposed through Greco-Roman allegorical vocabulary"
       },
       "analyst_notes": "Interesting liminal object — between foundational propaganda and normative bureaucratic instrument. Low endurecimento consistent with revolutionary dynamism. Small-scale figures limit detailed indicator coding."
-    }
+    },
+    "audit_flags": [
+      "sem-url",
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-038",
@@ -6606,7 +6906,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -6629,7 +6929,12 @@
       },
       "analyst_notes": "Strong sculptural presence. Desincorporação=2 because of heavy classicizing that removes corporeal individuality. Fasces + inscription = heraldization. Transitional toward normativo but still foundational energy in the raised arm."
     },
-    "endurecimento_score": 1.2
+    "endurecimento_score": 1.2,
+    "audit_flags": [
+      "sem-url",
+      "sem-thumbnail",
+      "lpai_v2_enrich_fr_scout_006"
+    ]
   },
   {
     "id": "FR-039",
@@ -6684,7 +6989,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -6707,7 +7012,11 @@
         "colonialidade_do_ver": "Universal moral virtues given exclusively white, classical bodies — revolutionary universalism as aesthetic whiteness"
       },
       "analyst_notes": "Very low endurecimento — narrative is rich (apagamento_narrativo=0), bodies are dynamic and differentiated. Quintessentially foundational: Liberty still has wings, still acts. Compare with FR-040 (companion piece) for same series."
-    }
+    },
+    "audit_flags": [
+      "sem-url",
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-040",
@@ -6762,7 +7071,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -6784,7 +7093,11 @@
         "colonialidade_do_ver": "Fanaticism and Ignorance shown as grotesque/deformed vs. the beautiful allegorical women — moral hierarchy mapped onto aesthetic hierarchy"
       },
       "analyst_notes": "Slightly higher endurecimento than FR-039 — Liberty is more static (seated), heraldization begins (lion as attribute). But narrative richness (apagamento=0) and dynamic combat scene keep it foundational. Paired with FR-039 in Boizot's series."
-    }
+    },
+    "audit_flags": [
+      "sem-url",
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-047",
@@ -6840,7 +7153,7 @@
       "inscricao_estatal": 1
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "estampa/gravura",
     "in_scope": false,
     "scope_note": "Pre-1789 — included as iconographic antecedent for the Iustitia tradition. Bruegel's Seven Virtues series is a foundational reference for the thesis genealogy of juridical allegory.",
@@ -6862,7 +7175,90 @@
         "colonialidade_do_ver": "Pre-colonial European juridical imaginary — the 'universal' Justice will be exported to colonial contexts"
       },
       "analyst_notes": "Out of temporal scope (1559) but essential genealogical reference. Very low endurecimento — rich narrative, embodied figure, no bureaucratic hardening. Pre-foundational: the tradition from which 19th-c. allegory descends."
-    }
+    },
+    "audit_flags": [
+      "sem-url",
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
+  },
+  {
+    "id": "FR-048",
+    "title": "La Justice — porcelaine de Sèvres",
+    "date": "1889",
+    "period": "Troisième République (1870–1940)",
+    "creator": null,
+    "institution": "Manufacture nationale de Sèvres",
+    "source_archive": null,
+    "country": "France",
+    "medium": "Porcelana de Sèvres (cerâmica)",
+    "motif": [
+      "La Justice",
+      "Allégorie féminine",
+      "République"
+    ],
+    "description": "Peça de porcelana produzida pela Manufacture nationale de Sèvres em 1889, ano da Exposição Universal de Paris e do centenário da Revolução Francesa. Figura alegórica de La Justice em suporte cerâmico de prestígio, destinada a representação institucional do Estado republicano consolidado.",
+    "url": null,
+    "thumbnail_url": null,
+    "rights": "Public domain",
+    "citation_abnt": "MANUFACTURE NATIONALE DE SÈVRES. La Justice. 1889. 1 peça de porcelana. Manufacture nationale de Sèvres.",
+    "citation_chicago": "Manufacture nationale de Sèvres. La Justice. 1889. Porcelain. Manufacture nationale de Sèvres.",
+    "tags": [
+      "corpus/candidato",
+      "pais/FR",
+      "suporte/ceramica",
+      "regime/normativo",
+      "motivo/justice",
+      "verificar"
+    ],
+    "year": 1889,
+    "medium_norm": "Cerâmica",
+    "country_pt": "França",
+    "period_norm": "III República / II Império (FR)",
+    "motif_str": "La Justice, Allégorie féminine, République",
+    "tags_str": "corpus/candidato, pais/FR, suporte/ceramica, regime/normativo, motivo/justice",
+    "regime": "normativo",
+    "endurecimento_score": 0.6,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 2,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "manual-entry",
+    "coded_at": "2026-04-14T00:00:00Z",
+    "support": "cerâmica",
+    "in_scope": true,
+    "scope_note": null,
+    "panofsky": {
+      "pre_iconographic": "Estatueta ou peça decorativa em porcelana. Figura feminina alegórica com atributos de Justice (balança; espada e venda a confirmar). Produção Sèvres 1889.",
+      "iconographic": {
+        "motivo_alegorico": "La Justice — alegoria da justiça republicana francesa",
+        "iconclass": [
+          "11M44(JUSTICE)",
+          "48C51"
+        ],
+        "tradicao": "Tradição iconográfica francesa da Justitia; Terceira República consolidada",
+        "pathosformel": "Figura estática e solene — Pathosformel da autoridade domesticada"
+      },
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Legitimação da justiça republicana estabilizada via suporte de prestígio estatal (Sèvres)",
+        "contrato_sexual_visual": "Corpo feminino completamente domesticado: coberto, estático, heraldicizado. O Contrato Sexual Visual opera pela neutralização da corporalidade — La Justice torna-se ícone institucional, não corpo vivo.",
+        "colonialidade_do_ver": null,
+        "analyst_notes": "Entrada manual. Verificar: autoria do modelo, dimensões, número de inventário, localização atual. #verificar #sem-iiif"
+      }
+    },
+    "audit_flags": [
+      "sem-url",
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-ASSIGNAT-1792",
@@ -6881,7 +7277,7 @@
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b69443660.item",
     "thumbnail_url": null,
     "rights": "Public domain",
-    "citation_abnt": null,
+    "citation_abnt": "Assignat de 400 livres (21 nov. 1792, an premier de la République)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -6902,10 +7298,24 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-CERES-5F-1849",
@@ -6924,7 +7334,7 @@
     "url": "https://en.numista.com/catalogue/pieces1181.html",
     "thumbnail_url": null,
     "rights": "Public domain",
-    "citation_abnt": null,
+    "citation_abnt": "5 Francs (Cérès, 2e République)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -6945,132 +7355,24 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
-  },
-  {
-    "id": "FR-SEM-1898",
-    "title": "Semeuse 1 Franc silver coin (Oscar Roty)",
-    "date": "1898",
-    "period": "Third Republic (1870-1940)",
-    "creator": "Louis Oscar Roty",
-    "institution": "Monnaie de Paris",
-    "source_archive": "Numista",
-    "country": "France",
-    "medium": "Coin (silver 835‰, 5g, 23mm)",
-    "motif": [
-      "Semeuse",
-      "Marianne",
-      "Phrygian cap",
-      "Rising sun",
-      "Sowing seeds"
-    ],
-    "url": "https://en.numista.com/catalogue/pieces682.html",
-    "vault_note": "SCOUT-116",
-    "regime": "normativo",
-    "endurecimento_score": 2.5,
-    "indicadores": {
-      "desincorporacao": 2,
-      "rigidez_postural": 2,
-      "dessexualizacao": 2,
-      "uniformizacao_facial": 2,
-      "heraldizacao": 2,
-      "enquadramento_arquitetonico": 3,
-      "apagamento_narrativo": 3,
-      "monocromatizacao": 3,
-      "serialidade": 3,
-      "inscricao_estatal": 3
-    },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-03-31T23:00:00Z",
-    "support": "moeda",
-    "in_scope": true,
-    "scope_note": null,
-    "year": 1898,
-    "panofsky": {
-      "iconological": {
-        "regime": "NORMATIVO",
-        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de Semeuse serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em France",
-        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (endurecimento 2.5), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
-        "colonialidade_do_ver": null,
-        "endurecimento_analysis": "endurecimento alto (2.5): a alegoria está substancialmente purificada, funcionando como signo estatal quase puro. O corpo é reduzido a seus atributos mínimos identificáveis.",
-        "zwischenraum": "O *Zwischenraum* manifesta-se na tensão entre o corpo feminino e o disco metálico que o contém — a moeda impõe uma moldura circular que comprime a figura ao mínimo semiótico. O intervalo entre a alegoria viva e sua redução numismática é o espaço do endurecimento.",
-        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de France (Third Republic (1870-1940)).",
-        "analyst_notes": null
-      }
-    }
-  },
-  {
-    "id": "FR-PIAST-1885",
-    "title": "Piastre de Commerce — Marianne Assise avec Fasces",
-    "date": "1885-1928",
-    "period": "Third Republic (1885-1928)",
-    "creator": "Jean-Auguste Barre (designer)",
-    "institution": "Monnaie de Paris",
-    "source_archive": "Numista",
-    "country": "France",
-    "medium": "Coin (silver .900, 27.215g)",
-    "motif": [
-      "Marianne",
-      "fasces",
-      "radiate crown",
-      "anchor",
-      "wheat",
-      "colonial trade"
-    ],
-    "description": "Marianne seated left on throne holding fasces, wearing radiate crown. Wheat bundles to left, anchor to right. Reverse: INDO-CHINE FRANÇAISE. Colonial trade coin for Indochina.",
-    "url": "https://en.numista.com/catalogue/pieces4510.html",
-    "thumbnail_url": null,
-    "rights": "Public domain",
-    "citation_abnt": "MONNAIE DE PARIS. Piastre de Commerce. 1885-1928. Moeda, prata .900, 27,215 g. Disponível em: https://en.numista.com/catalogue/pieces4510.html. Acesso em: 01 abr. 2026.",
-    "citation_chicago": "Monnaie de Paris. Piastre de Commerce. 1885–1928. Silver coin. Numista. https://en.numista.com/catalogue/pieces4510.html.",
-    "tags": [
-      "female allegory",
-      "Marianne",
-      "colonial",
-      "Indochina",
-      "military regime",
-      "numismatics"
-    ],
-    "year": 1885,
-    "medium_norm": "coin",
-    "country_pt": "França",
-    "period_norm": "Terceira República (1885-1928)",
-    "motif_str": "Marianne",
-    "tags_str": "female allegory, Marianne, colonial, Indochina",
-    "regime": "militar",
-    "support": "moeda",
-    "in_scope": true,
-    "scope_note": null,
-    "endurecimento_score": 2.3,
     "indicadores": {
       "desincorporacao": 0,
-      "rigidez_postural": 3,
-      "dessexualizacao": 2,
-      "uniformizacao_facial": 3,
-      "heraldizacao": 2,
-      "enquadramento_arquitetonico": 2,
-      "apagamento_narrativo": 2,
-      "monocromatizacao": 3,
-      "serialidade": 3,
-      "inscricao_estatal": 3
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T12:00:00Z",
-    "panofsky": {
-      "iconological": {
-        "regime": "MILITAR",
-        "funcao": "Mobilização cívica e convocação patriótica — a figura de Marianne é instrumentalizada para fins de propaganda bélica ou afirmação de poder imperial em França",
-        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (endurecimento 2.3), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
-        "colonialidade_do_ver": null,
-        "endurecimento_analysis": "endurecimento alto (2.3): a alegoria está substancialmente purificada, funcionando como signo estatal quase puro. O corpo é reduzido a seus atributos mínimos identificáveis.",
-        "zwischenraum": "O *Zwischenraum* manifesta-se na tensão entre o corpo feminino e o disco metálico que o contém — a moeda impõe uma moldura circular que comprime a figura ao mínimo semiótico. O intervalo entre a alegoria viva e sua redução numismática é o espaço do endurecimento.",
-        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de França (Terceira República (1885-1928)).",
-        "analyst_notes": null
-      }
-    }
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-HERC-1870",
@@ -7128,7 +7430,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T12:00:00Z",
+    "coded_at": "2026-04-04T09:47:29Z",
     "panofsky": {
       "iconological": {
         "regime": "FUNDACIONAL",
@@ -7140,7 +7442,142 @@
         "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de França (Terceira República (1870-1878)).",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "pre_canon_rescale_2026-04-19"
+    ]
+  },
+  {
+    "id": "FR-PIAST-1885",
+    "title": "Piastre de Commerce — Marianne Assise avec Fasces",
+    "date": "1885-1928",
+    "period": "Third Republic (1885-1928)",
+    "creator": "Jean-Auguste Barre (designer)",
+    "institution": "Monnaie de Paris",
+    "source_archive": "Numista",
+    "country": "France",
+    "medium": "Coin (silver .900, 27.215g)",
+    "motif": [
+      "Marianne",
+      "fasces",
+      "radiate crown",
+      "anchor",
+      "wheat",
+      "colonial trade"
+    ],
+    "description": "Marianne seated left on throne holding fasces, wearing radiate crown. Wheat bundles to left, anchor to right. Reverse: INDO-CHINE FRANÇAISE. Colonial trade coin for Indochina.",
+    "url": "https://en.numista.com/catalogue/pieces4510.html",
+    "thumbnail_url": null,
+    "rights": "Public domain",
+    "citation_abnt": "MONNAIE DE PARIS. Piastre de Commerce. 1885-1928. Moeda, prata .900, 27,215 g. Disponível em: https://en.numista.com/catalogue/pieces4510.html. Acesso em: 01 abr. 2026.",
+    "citation_chicago": "Monnaie de Paris. Piastre de Commerce. 1885–1928. Silver coin. Numista. https://en.numista.com/catalogue/pieces4510.html.",
+    "tags": [
+      "female allegory",
+      "Marianne",
+      "colonial",
+      "Indochina",
+      "military regime",
+      "numismatics"
+    ],
+    "year": 1885,
+    "medium_norm": "coin",
+    "country_pt": "França",
+    "period_norm": "Terceira República (1885-1928)",
+    "motif_str": "Marianne",
+    "tags_str": "female allegory, Marianne, colonial, Indochina",
+    "regime": "militar",
+    "support": "moeda",
+    "in_scope": true,
+    "scope_note": null,
+    "endurecimento_score": 2.3,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 3,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": {
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Mobilização cívica e convocação patriótica — a figura de Marianne é instrumentalizada para fins de propaganda bélica ou afirmação de poder imperial em França",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (endurecimento 2.3), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "endurecimento alto (2.3): a alegoria está substancialmente purificada, funcionando como signo estatal quase puro. O corpo é reduzido a seus atributos mínimos identificáveis.",
+        "zwischenraum": "O *Zwischenraum* manifesta-se na tensão entre o corpo feminino e o disco metálico que o contém — a moeda impõe uma moldura circular que comprime a figura ao mínimo semiótico. O intervalo entre a alegoria viva e sua redução numismática é o espaço do endurecimento.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de França (Terceira República (1885-1928)).",
+        "analyst_notes": null
+      }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "pre_canon_rescale_2026-04-19"
+    ]
+  },
+  {
+    "id": "FR-SEM-1898",
+    "title": "Semeuse 1 Franc silver coin (Oscar Roty)",
+    "date": "1898",
+    "period": "Third Republic (1870-1940)",
+    "creator": "Louis Oscar Roty",
+    "institution": "Monnaie de Paris",
+    "source_archive": "Numista",
+    "country": "France",
+    "medium": "Coin (silver 835‰, 5g, 23mm)",
+    "motif": [
+      "Semeuse",
+      "Marianne",
+      "Phrygian cap",
+      "Rising sun",
+      "Sowing seeds"
+    ],
+    "url": "https://en.numista.com/catalogue/pieces682.html",
+    "vault_note": "SCOUT-116",
+    "regime": "normativo",
+    "endurecimento_score": 2.5,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
+    "support": "moeda",
+    "in_scope": true,
+    "scope_note": null,
+    "year": 1898,
+    "panofsky": {
+      "iconological": {
+        "regime": "NORMATIVO",
+        "funcao": "Estabilização burocrática e rotinização institucional — a alegoria de Semeuse serve como signo de continuidade estatal, despersonalizado e serializado para circulação administrativa em France",
+        "contrato_sexual_visual": "O corpo alegórico feminino está plenamente purificado (endurecimento 2.5), reduzido a signo estatal abstrato. O Contrato Sexual Visual opera em grau máximo: a alegoria feminina é desprovida de qualquer marca de subjetividade individual, tornando-se puro instrumento semiótico do Estado. A Feminilidade de Estado atinge seu ponto de saturação — o corpo é o Estado.",
+        "colonialidade_do_ver": null,
+        "endurecimento_analysis": "endurecimento alto (2.5): a alegoria está substancialmente purificada, funcionando como signo estatal quase puro. O corpo é reduzido a seus atributos mínimos identificáveis.",
+        "zwischenraum": "O *Zwischenraum* manifesta-se na tensão entre o corpo feminino e o disco metálico que o contém — a moeda impõe uma moldura circular que comprime a figura ao mínimo semiótico. O intervalo entre a alegoria viva e sua redução numismática é o espaço do endurecimento.",
+        "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de France (Third Republic (1870-1940)).",
+        "analyst_notes": null
+      }
+    },
+    "description": "Semeuse 1 Franc silver coin (Oscar Roty)",
+    "citation_abnt": "Semeuse 1 Franc silver coin (Oscar Roty)",
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "FR-SEM-SELO-1903",
@@ -7198,7 +7635,7 @@
     },
     "endurecimento_score": 1.7,
     "coded_by": "iconocode-opus",
-    "coded_at": "2026-04-01T14:00:00Z",
+    "coded_at": "2026-04-04T09:47:29Z",
     "panofsky": {
       "iconological": {
         "regime": "NORMATIVO",
@@ -7210,7 +7647,11 @@
         "nachleben": "*Nachleben* da tradição revolucionária francesa: a figura retoma a *Pathosformel* da Liberté guiando o povo (Delacroix, 1830), reativando o gesto de emancipação para novos fins político-jurídicos. A fórmula de pathos revolucionária sobrevive transformada no contexto de França (Terceira República (1903-1960)).",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "pre_canon_rescale_2026-04-19"
+    ]
   },
   {
     "id": "IT-005",
@@ -7231,7 +7672,7 @@
     "url": "https://www.loc.gov/item/2004666216/",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Sottoscrivete al Prestito — Italia Turrita",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -7261,7 +7702,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -7279,7 +7720,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "IT-006",
@@ -7300,7 +7744,7 @@
     "url": "https://en.numista.com/catalogue/pieces304.html",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "100 Lire \"Minerva\" — Testa d'Italia laureata",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -7330,7 +7774,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
@@ -7348,7 +7792,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "IT-007",
@@ -7369,7 +7816,7 @@
     "url": "https://en.numista.com/catalogue/pieces2716.html",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "500 Lire \"Caravelle\" — Italia Turrita",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -7399,7 +7846,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
@@ -7417,7 +7864,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "IT-008",
@@ -7439,7 +7889,7 @@
     "url": "https://www.lastdodo.com/en/areas/6628487-1953-siracusana",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Selo \"Siracusana\" — Italia Turrita",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -7469,7 +7919,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "selo",
     "in_scope": true,
     "scope_note": null,
@@ -7487,7 +7937,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "MX-001",
@@ -7559,7 +8012,11 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "MX-002",
@@ -7581,7 +8038,7 @@
     "url": "https://mediateca.inah.gob.mx/islandora_74/islandora/object/pintura:3081",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Alegoría de la República Mexicana con Símbolos Masónicos",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -7611,7 +8068,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "pintura",
     "in_scope": true,
     "scope_note": null,
@@ -7629,7 +8086,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "NL-001",
@@ -7700,7 +8160,11 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "NL-002",
@@ -7769,7 +8233,11 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "NL-003",
@@ -7838,7 +8306,11 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "NL-004",
@@ -7907,7 +8379,11 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "NL-005",
@@ -7978,7 +8454,11 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "NL-006",
@@ -8047,7 +8527,11 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "NL-007",
@@ -8116,7 +8600,11 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "NL-008",
@@ -8184,7 +8672,11 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "PT-001",
@@ -8251,7 +8743,10 @@
         "nachleben": "*Nachleben* da Iustitia romana e da tradição medieval das Virtudes: a figura preserva atributos clássicos (balança, espada, venda) cuja origem remonta à iconografia das virtudes cardeais. A sobrevivência desses atributos através dos séculos demonstra a força da *Pathosformel* jurídica.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "PT-002",
@@ -8319,7 +8814,10 @@
         "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Alegoria à História (female allegorical engraving)\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Portugal no período Renascimento/Moderno Inicial.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "PT-003",
@@ -8386,7 +8884,10 @@
         "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Alegoria à Morte (Pierre Antoine Quillard)\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Portugal no período Barroco/Rococó.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "PT-004",
@@ -8453,7 +8954,10 @@
         "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"Alegoria ao Tempo (Pierre Antoine Quillard)\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Portugal no período Barroco/Rococó.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "PT-005",
@@ -8472,7 +8976,7 @@
       "Cartaz político"
     ],
     "description": "Electoral poster from the 1949 Portuguese presidential campaign featuring a female allegorical figure representing the Portuguese Republic. 'The Republic needs you: vote for Norton de Matos.' A classical female figure in robes symbolizes the Republic during a period of authoritarian governance — the allegory deployed as opposition to dictatorship.",
-    "url": "https://bndigital.bnportugal.gov.pt/records/search?q=república&DocumentType=Iconografia",
+    "url": "https://bndigital.bnportugal.gov.pt/records/search?q=rep%C3%BAblica&DocumentType=Iconografia",
     "thumbnail_url": "",
     "rights": "Status to be confirmed",
     "citation_abnt": "A REPUBLICA precisa de ti: vota em Norton de Matos. 1949. 1 cartaz. Comissão Distrital do Porto. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/.",
@@ -8522,7 +9026,11 @@
         "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"A Republica precisa de ti: vota em Norton de Matos\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Portugal no período Estado Novo.",
         "analyst_notes": null
       }
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   },
   {
     "id": "PT-006",
@@ -8544,7 +9052,7 @@
     "url": "https://en.numista.com/catalogue/pieces907.html",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "1 Escudo \"Alvorada\" — Primeira República Portuguesa",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -8574,7 +9082,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "moeda",
     "in_scope": true,
     "scope_note": null,
@@ -8592,7 +9100,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "PT-007",
@@ -8614,7 +9125,7 @@
     "url": "https://en.wikipedia.org/wiki/Ceres_series_(Portugal)",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Série Ceres — Selo definitivo da República Portuguesa",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -8644,7 +9155,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "selo",
     "in_scope": true,
     "scope_note": null,
@@ -8662,7 +9173,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "UK-001",
@@ -8716,8 +9230,8 @@
       "serialidade": 2,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -8740,7 +9254,10 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "Confirmed 1.8."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "UK-002",
@@ -8793,8 +9310,8 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -8817,7 +9334,10 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "Confirmed 2.3. enquadramento_arquitetonico=3 is signature: figures subsumed by niche."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "UK-003",
@@ -8871,8 +9391,8 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -8895,7 +9415,10 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "Confirmed 2.3. Identical to UK-002 by design, not artifact."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "UK-004",
@@ -8949,8 +9472,8 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "monumento/escultura",
     "in_scope": true,
     "scope_note": null,
@@ -9028,8 +9551,8 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -9051,7 +9574,10 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "Confirmed 1.0. UK baseline. Note: 'UK' by collection (Wellcome), not origin (French artist)."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "UK-006",
@@ -9106,8 +9632,8 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -9129,7 +9655,10 @@
         "colonialidade_do_ver": "Absent from image but structurally present: colonial troops invisible in recruitment imagery"
       },
       "analyst_notes": "Confirmed 1.7. Borderline case: heraldizacao=2 debatable — bodies themselves become heraldic signs. Needs methodological note in thesis."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "UK-009",
@@ -9151,7 +9680,7 @@
     "url": "https://www.iwm.org.uk/collections/item/object/21133",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Take Up the Sword of Justice",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -9181,7 +9710,7 @@
       "inscricao_estatal": 1
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -9199,7 +9728,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "UK-010",
@@ -9221,7 +9753,7 @@
     "url": "https://www.gutenberg.org/files/59801/59801-h/59801-h.htm",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Two Forces — Britannia protecting Hibernia",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -9236,7 +9768,7 @@
     "period_norm": "Vitoriano / Irish Land War (1881)",
     "motif_str": "Britannia, Hibernia, colonialismo",
     "tags_str": "corpus/candidato, pais/UK, suporte/estampa, regime/contra-alegoria, #colonialidade-do-ver",
-    "regime": "contra-alegoria",
+    "regime": "normativo",
     "endurecimento_score": 1.1,
     "indicadores": {
       "desincorporacao": 0,
@@ -9251,7 +9783,7 @@
       "inscricao_estatal": 1
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -9269,7 +9801,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "UK-FLORIN-1902",
@@ -9288,7 +9823,7 @@
     "url": "https://collections.museumsvictoria.com.au/items/77020",
     "thumbnail_url": null,
     "rights": "Public domain",
-    "citation_abnt": null,
+    "citation_abnt": "1 Florin — Britannia Standing on Ship Prow (Edward VII)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -9308,10 +9843,24 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "UK-HALFPENNY-1695",
@@ -9331,7 +9880,7 @@
     "url": "https://en.numista.com/catalogue/pieces90365.html",
     "thumbnail_url": null,
     "rights": "Public domain",
-    "citation_abnt": null,
+    "citation_abnt": "½ Penny — William III (1st issue) / Britannia seated (earliest coin)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -9352,173 +9901,24 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
-  },
-  {
-    "id": "UK-PENNY-1895",
-    "title": "One Penny -- Victoria Veiled Head / Britannia Seated with Trident",
-    "date": "",
-    "period": "",
-    "creator": null,
-    "institution": "Numista",
-    "source_archive": "Numista",
-    "country": "United Kingdom",
-    "medium": "Moeda",
-    "motif": [],
-    "description": "",
-    "url": "https://en.numista.com/catalogue/pieces670.html",
-    "thumbnail_url": null,
-    "rights": "Public domain",
-    "citation_abnt": null,
-    "citation_chicago": null,
-    "tags": [
-      "corpus/candidato",
-      "pais/UK",
-      "suporte/moeda",
-      "regime/normativo",
-      "motivo/britannia"
-    ],
-    "year": null,
-    "medium_norm": "Moeda",
-    "country_pt": "Reino Unido",
-    "period_norm": "",
-    "motif_str": "",
-    "tags_str": "corpus/candidato, pais/UK, suporte/moeda, regime/normativo, motivo/britannia",
-    "regime": "normativo",
-    "support": "moeda",
-    "in_scope": true,
-    "scope_note": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
-  },
-  {
-    "id": "UK-PENNY-1912",
-    "title": "1 Penny — Britannia Seated, Helmeted (George V, 1912)",
-    "date": "1911-1936",
-    "period": "1911-1936",
-    "creator": null,
-    "institution": "Museums Victoria Collection / Royal Mint",
-    "source_archive": "Museums Victoria Collection",
-    "country": "United Kingdom",
-    "medium": "Moeda",
-    "motif": [
-      "Britannia"
-    ],
-    "description": "Britannia",
-    "url": "https://collections.museumsvictoria.com.au/items/57610",
-    "thumbnail_url": null,
-    "rights": "Public domain",
-    "citation_abnt": null,
-    "citation_chicago": null,
-    "tags": [
-      "corpus/candidato",
-      "pais/UK",
-      "suporte/moeda",
-      "regime/normativo",
-      "motivo/britannia",
-      "endurecimento/alto",
-      "#acoplamento-imagem-norma",
-      "#serialidade"
-    ],
-    "year": 1911,
-    "medium_norm": "Moeda",
-    "country_pt": "Reino Unido",
-    "period_norm": "1911-1936",
-    "motif_str": "Britannia",
-    "tags_str": "corpus/candidato, pais/UK, suporte/moeda, regime/normativo, motivo/britannia, endurecimento/alto, #acoplamento-imagem-norma, #serialidade",
-    "regime": "normativo",
-    "support": "moeda",
-    "in_scope": true,
-    "scope_note": null,
-    "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
-  },
-  {
-    "id": "UK-TRADE-1895",
-    "title": "British Trade Dollar — Britannia Standing with Trident and Shield",
-    "date": "1895-1935",
-    "period": "Victorian / Edwardian (1895-1935)",
-    "creator": "George William De Saulles (designer)",
-    "institution": "Royal Mint",
-    "source_archive": "Numista",
-    "country": "United Kingdom",
-    "medium": "Coin (silver .900, 26.96g, 39mm)",
-    "motif": [
-      "Britannia",
-      "trident",
-      "shield",
-      "helmet",
-      "merchant ship",
-      "colonial trade"
-    ],
-    "description": "Britannia standing on shore holding trident and shield with Union Flag, merchant ship in background. Reverse with denomination in Chinese and Jawi Malay. Colonial trade dollar for circulation in Hong Kong, Straits Settlements, Labuan. Minted in Bombay and Calcutta.",
-    "url": "https://en.numista.com/catalogue/pieces8472.html",
-    "thumbnail_url": null,
-    "rights": "Public domain",
-    "citation_abnt": "ROYAL MINT. British Trade Dollar. 1895-1935. Moeda, prata .900, 39 mm. Disponível em: https://en.numista.com/catalogue/pieces8472.html. Acesso em: 01 abr. 2026.",
-    "citation_chicago": "Royal Mint. British Trade Dollar. 1895–1935. Silver coin. Numista. https://en.numista.com/catalogue/pieces8472.html.",
-    "tags": [
-      "female allegory",
-      "Britannia",
-      "colonial",
-      "trade dollar",
-      "military regime",
-      "numismatics"
-    ],
-    "year": 1895,
-    "medium_norm": "coin",
-    "country_pt": "Reino Unido",
-    "period_norm": "Imperial (1895-1935)",
-    "motif_str": "Britannia",
-    "tags_str": "female allegory, Britannia, colonial, trade dollar",
-    "regime": "militar",
-    "support": "moeda",
-    "in_scope": true,
-    "scope_note": null,
-    "endurecimento_score": 2.5,
     "indicadores": {
       "desincorporacao": 0,
-      "rigidez_postural": 3,
-      "dessexualizacao": 3,
-      "uniformizacao_facial": 3,
-      "heraldizacao": 3,
-      "enquadramento_arquitetonico": 2,
-      "apagamento_narrativo": 2,
-      "monocromatizacao": 3,
-      "serialidade": 3,
-      "inscricao_estatal": 3
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
-    "panofsky": {
-      "pre_iconographic": "Silver coin 39mm. Britannia STANDING on shore, helmet, breastplate, trident, Union Flag shield. Ship in background. Reverse: Chinese + Jawi Malay script. Minted Bombay/Calcutta.",
-      "iconographic": {
-        "motivo_alegorico": "IMPERIAL Britannia — white female warrior facing outward toward colonies",
-        "iconclass": [
-          "44B62",
-          "44G3",
-          "48C51"
-        ],
-        "tradicao": "Imperial coinage. De Saulles design.",
-        "pathosformel": "Standing/projecting — imperial assertion. Opposite of seated domestic Britannia."
-      },
-      "iconological": {
-        "regime": "MILITAR",
-        "funcao": "Commercial imperialism backed by naval force — coin speaks TO colonized subjects",
-        "contrato_sexual_visual": "White female body in military dress projects power. Body retained (desincorporacao=0) because empire NEEDS visible body.",
-        "colonialidade_do_ver": "MAXIMAL: minted in India, circulated in SE Asia. Bilingual reverse = colonial addressees. White warrior-woman as face of extraction."
-      },
-      "analyst_notes": "Confirmed 2.5. desincorporacao=0 is KEY: even at high endurecimento, imperial function requires corporeal presence. Paired with UK-PENNY for Zwischenraum."
-    }
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "UK-PENNY-1860",
@@ -9576,7 +9976,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_at": "2026-04-04T09:47:29Z",
     "panofsky": {
       "pre_iconographic": "Bronze penny 31mm. Britannia SEATED on rock, helmet, trident, Union Flag shield. Lighthouse left, ship right. Victoria on obverse. Most mass-produced female allegory in British history.",
       "iconographic": {
@@ -9595,7 +9995,208 @@
         "colonialidade_do_ver": "Domestic coin but circulated across Empire. Whiteness of Britannia naturalized through daily use."
       },
       "analyst_notes": "Confirmed 2.5. Identical score to UK-TRADE but different function: normative vs. militar. Zwischenraum panel finding validated."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "pre_canon_rescale_2026-04-19"
+    ]
+  },
+  {
+    "id": "UK-PENNY-1895",
+    "title": "One Penny -- Victoria Veiled Head / Britannia Seated with Trident",
+    "date": "",
+    "period": "",
+    "creator": null,
+    "institution": "Numista",
+    "source_archive": "Numista",
+    "country": "United Kingdom",
+    "medium": "Moeda",
+    "motif": [
+      "figura feminina alegórica"
+    ],
+    "description": "One Penny -- Victoria Veiled Head / Britannia Seated with Trident",
+    "url": "https://en.numista.com/catalogue/pieces670.html",
+    "thumbnail_url": null,
+    "rights": "Public domain",
+    "citation_abnt": "One Penny -- Victoria Veiled Head / Britannia Seated with Trident",
+    "citation_chicago": null,
+    "tags": [
+      "corpus/candidato",
+      "pais/UK",
+      "suporte/moeda",
+      "regime/normativo",
+      "motivo/britannia"
+    ],
+    "year": null,
+    "medium_norm": "Moeda",
+    "country_pt": "Reino Unido",
+    "period_norm": "",
+    "motif_str": "",
+    "tags_str": "corpus/candidato, pais/UK, suporte/moeda, regime/normativo, motivo/britannia",
+    "regime": "normativo",
+    "support": "moeda",
+    "in_scope": true,
+    "scope_note": null,
+    "endurecimento_score": null,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
+  },
+  {
+    "id": "UK-PENNY-1912",
+    "title": "1 Penny — Britannia Seated, Helmeted (George V, 1912)",
+    "date": "1911-1936",
+    "period": "1911-1936",
+    "creator": null,
+    "institution": "Museums Victoria Collection / Royal Mint",
+    "source_archive": "Museums Victoria Collection",
+    "country": "United Kingdom",
+    "medium": "Moeda",
+    "motif": [
+      "Britannia"
+    ],
+    "description": "Britannia",
+    "url": "https://collections.museumsvictoria.com.au/items/57610",
+    "thumbnail_url": null,
+    "rights": "Public domain",
+    "citation_abnt": "1 Penny — Britannia Seated, Helmeted (George V, 1912)",
+    "citation_chicago": null,
+    "tags": [
+      "corpus/candidato",
+      "pais/UK",
+      "suporte/moeda",
+      "regime/normativo",
+      "motivo/britannia",
+      "endurecimento/alto",
+      "#acoplamento-imagem-norma",
+      "#serialidade"
+    ],
+    "year": 1911,
+    "medium_norm": "Moeda",
+    "country_pt": "Reino Unido",
+    "period_norm": "1911-1936",
+    "motif_str": "Britannia",
+    "tags_str": "corpus/candidato, pais/UK, suporte/moeda, regime/normativo, motivo/britannia, endurecimento/alto, #acoplamento-imagem-norma, #serialidade",
+    "regime": "normativo",
+    "support": "moeda",
+    "in_scope": true,
+    "scope_note": null,
+    "endurecimento_score": null,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
+  },
+  {
+    "id": "UK-TRADE-1895",
+    "title": "British Trade Dollar — Britannia Standing with Trident and Shield",
+    "date": "1895-1935",
+    "period": "Victorian / Edwardian (1895-1935)",
+    "creator": "George William De Saulles (designer)",
+    "institution": "Royal Mint",
+    "source_archive": "Numista",
+    "country": "United Kingdom",
+    "medium": "Coin (silver .900, 26.96g, 39mm)",
+    "motif": [
+      "Britannia",
+      "trident",
+      "shield",
+      "helmet",
+      "merchant ship",
+      "colonial trade"
+    ],
+    "description": "Britannia standing on shore holding trident and shield with Union Flag, merchant ship in background. Reverse with denomination in Chinese and Jawi Malay. Colonial trade dollar for circulation in Hong Kong, Straits Settlements, Labuan. Minted in Bombay and Calcutta.",
+    "url": "https://en.numista.com/catalogue/pieces8472.html",
+    "thumbnail_url": null,
+    "rights": "Public domain",
+    "citation_abnt": "ROYAL MINT. British Trade Dollar. 1895-1935. Moeda, prata .900, 39 mm. Disponível em: https://en.numista.com/catalogue/pieces8472.html. Acesso em: 01 abr. 2026.",
+    "citation_chicago": "Royal Mint. British Trade Dollar. 1895–1935. Silver coin. Numista. https://en.numista.com/catalogue/pieces8472.html.",
+    "tags": [
+      "female allegory",
+      "Britannia",
+      "colonial",
+      "trade dollar",
+      "military regime",
+      "numismatics"
+    ],
+    "year": 1895,
+    "medium_norm": "coin",
+    "country_pt": "Reino Unido",
+    "period_norm": "Imperial (1895-1935)",
+    "motif_str": "Britannia",
+    "tags_str": "female allegory, Britannia, colonial, trade dollar",
+    "regime": "militar",
+    "support": "moeda",
+    "in_scope": true,
+    "scope_note": null,
+    "endurecimento_score": 2.5,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": {
+      "pre_iconographic": "Silver coin 39mm. Britannia STANDING on shore, helmet, breastplate, trident, Union Flag shield. Ship in background. Reverse: Chinese + Jawi Malay script. Minted Bombay/Calcutta.",
+      "iconographic": {
+        "motivo_alegorico": "IMPERIAL Britannia — white female warrior facing outward toward colonies",
+        "iconclass": [
+          "44B62",
+          "44G3",
+          "48C51"
+        ],
+        "tradicao": "Imperial coinage. De Saulles design.",
+        "pathosformel": "Standing/projecting — imperial assertion. Opposite of seated domestic Britannia."
+      },
+      "iconological": {
+        "regime": "MILITAR",
+        "funcao": "Commercial imperialism backed by naval force — coin speaks TO colonized subjects",
+        "contrato_sexual_visual": "White female body in military dress projects power. Body retained (desincorporacao=0) because empire NEEDS visible body.",
+        "colonialidade_do_ver": "MAXIMAL: minted in India, circulated in SE Asia. Bilingual reverse = colonial addressees. White warrior-woman as face of extraction."
+      },
+      "analyst_notes": "Confirmed 2.5. desincorporacao=0 is KEY: even at high endurecimento, imperial function requires corporeal presence. Paired with UK-PENNY for Zwischenraum."
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "pre_canon_rescale_2026-04-19"
+    ]
   },
   {
     "id": "US-001",
@@ -9649,8 +10250,8 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -9727,8 +10328,8 @@
       "serialidade": 2,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "fotografia",
     "in_scope": true,
     "scope_note": null,
@@ -9804,8 +10405,8 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -9869,7 +10470,7 @@
     "motif_str": "Justice, Liberty, Athena, Demeter, Marianne, Columbia",
     "tags_str": "Justice, Liberty, WWI, Franco-American, poster, Athena, allegory",
     "regime": "militar",
-    "endurecimento_score": 1.1,
+    "endurecimento_score": 1.2,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9878,12 +10479,12 @@
       "heraldizacao": 1,
       "enquadramento_arquitetonico": 0,
       "apagamento_narrativo": 1,
-      "monocromatizacao": 0,
+      "monocromatizacao": 1,
       "serialidade": 3,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -9962,8 +10563,8 @@
       "serialidade": 1,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -9987,7 +10588,10 @@
         "colonialidade_do_ver": "13 slave-holding/settler states. Three-Fifths Compromise erased. Classical European vocabulary."
       },
       "analyst_notes": "Confirmed 0.8. One of earliest American constitutional allegories."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-006",
@@ -10039,8 +10643,8 @@
       "serialidade": 1,
       "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -10064,7 +10668,10 @@
         "colonialidade_do_ver": "America as Indigenous figure (pre-Columbia). European metropolitan gaze: Revolution is European spectacle."
       },
       "analyst_notes": "Confirmed 1.0. PAIRED with US-001 for Painel VI (same motif, different perspectives)."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-007",
@@ -10115,8 +10722,8 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -10179,10 +10786,10 @@
     "period_norm": "Séc. XIX",
     "motif_str": "Columbia, Justice, Liberty, suffrage, feminism",
     "tags_str": "Columbia, suffrage, feminism, pageant, photograph, women's rights",
-    "regime": "fundacional",
-    "endurecimento_score": 1.2,
+    "regime": "normativo",
+    "endurecimento_score": 1.3,
     "indicadores": {
-      "desincorporacao": 0,
+      "desincorporacao": 1,
       "rigidez_postural": 1,
       "dessexualizacao": 2,
       "uniformizacao_facial": 1,
@@ -10191,10 +10798,10 @@
       "apagamento_narrativo": 1,
       "monocromatizacao": 3,
       "serialidade": 2,
-      "inscricao_estatal": 2
+      "inscricao_estatal": 1
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "fotografia",
     "in_scope": true,
     "scope_note": null,
@@ -10218,7 +10825,10 @@
         "colonialidade_do_ver": "1913 pageant segregated Black women marchers (Ida B. Wells). White Columbia cannot include Black women's claims — limit of reappropriation within existing allegorical system."
       },
       "analyst_notes": "MOST IMPORTANT US ITEM. Regime reclassified normativo→FUNDACIONAL (counter-foundational). desincorporacao 1→0: this IS a real body. Key for thesis conclusion."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-009",
@@ -10269,8 +10879,8 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "fotografia",
     "in_scope": true,
     "scope_note": null,
@@ -10292,7 +10902,10 @@
         "colonialidade_do_ver": "Not directly operative"
       },
       "analyst_notes": "Confirmed 1.5. Photography resists endurecimento by preserving individual body."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-010",
@@ -10346,8 +10959,8 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -10369,7 +10982,10 @@
         "colonialidade_do_ver": "Classical European vocabulary in antebellum America"
       },
       "analyst_notes": "Highest fundacional item (2.3). enquadramento_arquitetonico=3 is the driver. Morphologically normativo."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-011",
@@ -10424,8 +11040,8 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -10448,7 +11064,10 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "Confirmed 1.5. Sleeping pose = low rigidez. Compare FR-008 Steinlen (active) vs US-011 Flagg (passive)."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-012",
@@ -10502,8 +11121,8 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -10526,7 +11145,10 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "Confirmed 1.7. 500,000-copy run. Nearly identical endurecimento to FR-007 (1.8) — WWI poster genre produces consistent purification cross-nationally."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-016",
@@ -10547,7 +11169,7 @@
     "url": "https://www.loc.gov/item/91726511/",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Wake Up America! Civilization Calls Every Man, Woman and Child!",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -10577,7 +11199,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -10595,7 +11217,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-017",
@@ -10617,7 +11242,7 @@
     "url": "https://www.loc.gov/item/95506508",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Columbia Calls — Enlist Now for U.S. Army",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -10647,7 +11272,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -10665,7 +11290,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-018",
@@ -10686,7 +11314,7 @@
     "url": "https://www.loc.gov/item/2002708939/",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Fight or Buy Bonds — Third Liberty Loan",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -10716,7 +11344,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "cartaz",
     "in_scope": true,
     "scope_note": null,
@@ -10734,7 +11362,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-019",
@@ -10756,7 +11387,7 @@
     "url": "https://www.loc.gov/item/2004679037/",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Liberty Is Not Anarchy",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -10786,7 +11417,7 @@
       "inscricao_estatal": 2
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -10804,7 +11435,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-020",
@@ -10826,7 +11460,7 @@
     "url": "https://hti.osu.edu/opper/lesson-plans/immigration/images/looking-backward",
     "thumbnail_url": null,
     "rights": null,
-    "citation_abnt": null,
+    "citation_abnt": "Looking Backward",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -10856,7 +11490,7 @@
       "inscricao_estatal": 0
     },
     "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07",
+    "coded_at": "2026-04-07T00:00:00Z",
     "support": "estampa/gravura",
     "in_scope": true,
     "scope_note": null,
@@ -10874,7 +11508,10 @@
         "analyst_notes": "Codificação por metadados — requer verificação visual."
       },
       "analyst_notes": ""
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-BANNER-1861",
@@ -10919,9 +11556,20 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
     "panofsky": null
   },
   {
@@ -10941,7 +11589,7 @@
     "url": "https://en.numista.com/catalogue/note207329.html",
     "thumbnail_url": null,
     "rights": "Public domain",
-    "citation_abnt": null,
+    "citation_abnt": "1 Dollar Silver Certificate 'Educational Series' — History Instructing Youth",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -10962,10 +11610,24 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-EDUC-1896-02",
@@ -11001,8 +11663,8 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "papel-moeda",
     "in_scope": true,
     "scope_note": null,
@@ -11025,7 +11687,12 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "Confirmed 1.6. Controversial at issuance ('nude women on money'). Morphological vs material indicator split: low body purification + high state inscription."
-    }
+    },
+    "description": "Science Presenting Steam and Electricity to Commerce and Manufacture ($2 Silver Certificate)",
+    "citation_abnt": "Science Presenting Steam and Electricity to Commerce and Manufacture ($2 Silver Certificate)",
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-EDUC-1896-05",
@@ -11060,8 +11727,8 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T14:00:00Z",
+    "coded_by": "iconocode-opus",
+    "coded_at": "2026-03-31T23:00:00Z",
     "support": "papel-moeda",
     "in_scope": true,
     "scope_note": null,
@@ -11083,7 +11750,12 @@
         "colonialidade_do_ver": null
       },
       "analyst_notes": "Confirmed 1.4. Treasury Sec. Gage worried about 'artistic nudity on currency.' dessexualizacao=0 likely correct."
-    }
+    },
+    "description": "Electricity Presenting Light to the World ($5 Silver Certificate)",
+    "citation_abnt": "Electricity Presenting Light to the World ($5 Silver Certificate)",
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-NAST-1864",
@@ -11131,9 +11803,20 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
     "panofsky": null
   },
   {
@@ -11153,7 +11836,7 @@
     "url": "https://en.numista.com/catalogue/pieces11472.html",
     "thumbnail_url": null,
     "rights": "Public domain",
-    "citation_abnt": null,
+    "citation_abnt": "1 Dollar 'Seated Liberty' (without motto)",
     "citation_chicago": null,
     "tags": [
       "corpus/candidato",
@@ -11174,10 +11857,24 @@
     "in_scope": true,
     "scope_note": null,
     "endurecimento_score": null,
-    "indicadores": null,
-    "coded_by": null,
-    "coded_at": null,
-    "panofsky": null
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "coded_by": "migration",
+    "coded_at": "2026-04-04T09:47:29Z",
+    "panofsky": null,
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "id": "US-SLQ-1916",
@@ -11234,7 +11931,7 @@
       "inscricao_estatal": 3
     },
     "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-03T13:00:00Z",
+    "coded_at": "2026-04-04T09:47:29Z",
     "panofsky": {
       "pre_iconographic": "Silver quarter. Full-length Liberty stepping through gateway, shield + olive branch. Type I (1916): bare right breast. 24.3mm.",
       "iconographic": {
@@ -11253,7 +11950,11 @@
         "colonialidade_do_ver": "Classical European idiom on American coin"
       },
       "analyst_notes": "Confirmed 1.8. RECOMMEND splitting into US-SLQ-1916-I and US-SLQ-1916-II to capture real-time endurecimento."
-    }
+    },
+    "audit_flags": [
+      "sem-thumbnail",
+      "pre_canon_rescale_2026-04-19"
+    ]
   },
   {
     "id": "UY-001",
@@ -11325,80 +12026,10 @@
         "nachleben": "*Nachleben* da tradição alegórica europeia: a figura em \"El Altar de la Patria\" reativa fórmulas visuais herdadas da Antiguidade clássica e da tradição iconográfica moderna, adaptando *Pathosformeln* pré-existentes ao contexto político-jurídico de Uruguai no período Séc. XIX.",
         "analyst_notes": null
       }
-    }
-  },
-  {
-    "id": "FR-048",
-    "title": "La Justice — porcelaine de Sèvres",
-    "date": "1889",
-    "period": "Troisième République (1870–1940)",
-    "creator": null,
-    "institution": "Manufacture nationale de Sèvres",
-    "source_archive": null,
-    "country": "France",
-    "medium": "Porcelana de Sèvres (cerâmica)",
-    "motif": [
-      "La Justice",
-      "Allégorie féminine",
-      "République"
-    ],
-    "description": "Peça de porcelana produzida pela Manufacture nationale de Sèvres em 1889, ano da Exposição Universal de Paris e do centenário da Revolução Francesa. Figura alegórica de La Justice em suporte cerâmico de prestígio, destinada a representação institucional do Estado republicano consolidado.",
-    "url": null,
-    "thumbnail_url": null,
-    "rights": "Public domain",
-    "citation_abnt": "MANUFACTURE NATIONALE DE SÈVRES. La Justice. 1889. 1 peça de porcelana. Manufacture nationale de Sèvres.",
-    "citation_chicago": "Manufacture nationale de Sèvres. La Justice. 1889. Porcelain. Manufacture nationale de Sèvres.",
-    "tags": [
-      "corpus/candidato",
-      "pais/FR",
-      "suporte/ceramica",
-      "regime/normativo",
-      "motivo/justice",
-      "verificar"
-    ],
-    "year": 1889,
-    "medium_norm": "Cerâmica",
-    "country_pt": "França",
-    "period_norm": "III República / II Império (FR)",
-    "motif_str": "La Justice, Allégorie féminine, République",
-    "tags_str": "corpus/candidato, pais/FR, suporte/ceramica, regime/normativo, motivo/justice",
-    "regime": "normativo",
-    "endurecimento_score": 0.6,
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 2,
-      "dessexualizacao": 1,
-      "uniformizacao_facial": 1,
-      "heraldizacao": 2,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
     },
-    "coded_by": "manual-entry",
-    "coded_at": "2026-04-14",
-    "support": "cerâmica",
-    "in_scope": true,
-    "scope_note": null,
-    "panofsky": {
-      "pre_iconographic": "Estatueta ou peça decorativa em porcelana. Figura feminina alegórica com atributos de Justice (balança; espada e venda a confirmar). Produção Sèvres 1889.",
-      "iconographic": {
-        "motivo_alegorico": "La Justice — alegoria da justiça republicana francesa",
-        "iconclass": [
-          "11M44(JUSTICE)",
-          "48C51"
-        ],
-        "tradicao": "Tradição iconográfica francesa da Justitia; Terceira República consolidada",
-        "pathosformel": "Figura estática e solene — Pathosformel da autoridade domesticada"
-      },
-      "iconological": {
-        "regime": "NORMATIVO",
-        "funcao": "Legitimação da justiça republicana estabilizada via suporte de prestígio estatal (Sèvres)",
-        "contrato_sexual_visual": "Corpo feminino completamente domesticado: coberto, estático, heraldicizado. O Contrato Sexual Visual opera pela neutralização da corporalidade — La Justice torna-se ícone institucional, não corpo vivo.",
-        "colonialidade_do_ver": null,
-        "analyst_notes": "Entrada manual. Verificar: autoria do modelo, dimensões, número de inventário, localização atual. #verificar #sem-iiif"
-      }
-    }
+    "audit_flags": [
+      "sem-thumbnail",
+      "fora-do-escopo"
+    ]
   }
 ]
