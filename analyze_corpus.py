@@ -74,7 +74,7 @@ def extract_regime_info(record):
         claim_text = interp.get('claim_text', '')
         if 'Regime iconocrático:' in claim_text:
             # Extract regime type
-            regime_match = re.search(r'Regime iconocrático:\s*(\w+)', claim_text)
+            regime_match = re.search(r'Regime iconocrático:\s*([\w-]+)', claim_text)
             if regime_match:
                 return regime_match.group(1).upper()
     
