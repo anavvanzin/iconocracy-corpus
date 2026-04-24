@@ -62,11 +62,13 @@ on:
   # push:
   #   branches: [ "main" ]
 
-  # pull_request_target is used to securely share secret to the PR's workflow run.
-  # For more info visit: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#pull_request_target
-  pull_request_target:
-    branches: [ "main" ]
-    types: [ assigned, opened, synchronize, reopened, labeled, edited ]
+  # Disabled for pull_request_target: redhat-actions/crda@v1 currently fails
+  # before scanning with "403 Resource not accessible by integration" while
+  # checking PR approval labels. Keep CRDA available for manual/reusable runs
+  # until the action is replaced or repository permissions are adjusted.
+  # pull_request_target:
+  #   branches: [ "main" ]
+  #   types: [ assigned, opened, synchronize, reopened, labeled, edited ]
 
 permissions:
   contents: read
