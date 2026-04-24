@@ -323,6 +323,13 @@ def acquire_item(
         attempts.append({"step": "playwright", **playwright_result})
         result = playwright_result
         current_protocol = "playwright-required"
+    elif next_step == "playwright-fallback":
+        result = {
+            "success": False,
+            "manual_required": True,
+            "failure_class": "manual_required",
+            "error": "Blocked source requires manual browser retrieval (Playwright not allowed)",
+        }
 
     if result.get("success"):
         asset_path = Path(result.get("dest_path") or dest_path)
