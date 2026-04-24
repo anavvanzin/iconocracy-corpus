@@ -19,12 +19,19 @@ try:
 except ImportError:  # pragma: no cover
     HAS_REQUESTS = False
 
-from .. import USER_AGENT
 from . import direct, iiif
 
-VAM_OBJECT_RE = re.compile(r"vam\.ac\.uk/.*?/O(\d+)")
-IWM_ITEM_RE = re.compile(r"iwm\.org\.uk/collections/item/object/(\d+)")
-MET_OBJECT_RE = re.compile(r"metmuseum\.org/art/collection/search/(\d+)")
+USER_AGENT = direct.USER_AGENT
+
+VAM_OBJECT_RE = re.compile(r"/(?:[^/]+/)*O(\d+)(?:/|$)")
+IWM_ITEM_RE = re.compile(r"^/collections/item/object/(\d+)(?:/|$)")
+MET_OBJECT_RE = re.compile(r"^/art/collection/search/(\d+)(?:/|$)")
+
+
+def _host_matches(host: str, domain: str) -> bool:
+    """Return True for an exact domain or one of its subdomains."""
+
+    return host == domain or host.endswith(f".{domain}")
 
 
 def _get_json(url: str) -> dict[str, Any] | None:
@@ -46,11 +53,13 @@ def _get_json(url: str) -> dict[str, Any] | None:
 def resolve(source_url: str) -> dict[str, Any]:
     """Return ``{'image_url', 'archive'}`` or empty dict."""
 
-    host = (urlparse(source_url).hostname or "").lower()
+    parsed = urlparse(source_url)
+    host = (parsed.hostname or "").lower()
+    path = parsed.path
 
     # V&A Museum
-    m = VAM_OBJECT_RE.search(source_url)
-    if m and "vam.ac.uk" in host:
+    m = VAM_OBJECT_RE.search(path)
+    if m and _host_matches(host, "vam.ac.uk"):
         obj = m.group(1)
         data = _get_json(
             f"https://api.vam.ac.uk/v2/objects/search?id_object=O{obj}&images=1"
@@ -66,8 +75,8 @@ def resolve(source_url: str) -> dict[str, Any]:
         return {}
 
     # IWM
-    m = IWM_ITEM_RE.search(source_url)
-    if m and "iwm.org.uk" in host:
+    m = IWM_ITEM_RE.search(path)
+    if m and _host_matches(host, "iwm.org.uk"):
         obj = m.group(1)
         data = _get_json(
             f"https://www.iwm.org.uk/collections/item/object/{obj}.json"
@@ -77,8 +86,8 @@ def resolve(source_url: str) -> dict[str, Any]:
         return {}
 
     # Met Museum public Collection API
-    m = MET_OBJECT_RE.search(source_url)
-    if m and "metmuseum.org" in host:
+    m = MET_OBJECT_RE.search(path)
+    if m and _host_matches(host, "metmuseum.org"):
         obj = m.group(1)
         data = _get_json(
             f"https://collectionapi.metmuseum.org/public/collection/v1/objects/{obj}"
