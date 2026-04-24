@@ -59,11 +59,11 @@ O núcleo quantitativo da iconometria consiste em 10 indicadores ordinais que me
 | 9 | **Serialidade** | Reprodução em massa (único → edição → industrial) |
 | 10 | **Inscrição estatal** | Texto/símbolos do Estado inscritos no/ao redor do corpo |
 
-O **score de endurecimento** é a média dos 10 indicadores (faixa 0,0–3,0). O termo *endurecimento* designa o processo global de purificação e foi preferido a "hardening" ou "embrutecimento" por captar simultaneamente a rigidificação do corpo (ficar duro) e a perda de sensibilidade (endurecer-se).
+O **score de endurecimento** é a média dos 10 indicadores (faixa 0,0–3,0). O termo *endurecimento* designa o processo global de purificação e foi preferido a alternativas em inglês por captar simultaneamente a rigidificação do corpo (ficar duro) e a perda de sensibilidade (endurecer-se).
 
 #### Indicadores morfológicos vs. indicadores materiais
 
-A análise estatística do corpus (N=145 itens codificados, ver Capítulo 6) revelou uma distinção metodologicamente importante entre dois grupos de indicadores. Os indicadores 1–7 (*desincorporação*, *rigidez*, *dessexualização*, *uniformização*, *heraldicização*, *enquadramento*, *apagamento*) medem propriedades do *corpo representado* — são indicadores **morfológicos** cuja variação reflete escolhas iconográficas deliberadas. Os indicadores 8–10 (*monocromatização*, *serialidade*, *inscrição estatal*) medem propriedades do *suporte material* — são indicadores **materiais** cuja variação pode ser determinada pelo meio (uma gravura é necessariamente monocromática; uma moeda é necessariamente serial) tanto quanto por uma escolha ideológica.
+A análise estatística do corpus (165 registros no ledger atual, dos quais 154 com codificação de purificação; o congelamento analítico anterior registrou N=145, ver Capítulo 6) revelou uma distinção metodologicamente importante entre dois grupos de indicadores. Os indicadores 1–7 (*desincorporação*, *rigidez*, *dessexualização*, *uniformização*, *heraldicização*, *enquadramento*, *apagamento*) medem propriedades do *corpo representado* — são indicadores **morfológicos** cuja variação reflete escolhas iconográficas deliberadas. Os indicadores 8–10 (*monocromatização*, *serialidade*, *inscrição estatal*) medem propriedades do *suporte material* — são indicadores **materiais** cuja variação pode ser determinada pelo meio (uma gravura é necessariamente monocromática; uma moeda é necessariamente serial) tanto quanto por uma escolha ideológica.
 
 Essa distinção emergiu de forma inesperada quando dois indicadores perderam significância estatística na comparação entre regimes. A *monocromatização* apresentou p=0,056 no teste de Kruskal-Wallis sobre os três regimes; contudo, quando controlada pelo suporte material (analisando apenas gravuras), a significância foi recuperada com força (p=0,0006). O padrão subjacente é revelador: o regime MILITAR privilegiou cartazes policromos (propaganda requer cor para mobilizar), enquanto o regime NORMATIVO privilegiou moedas e selos monocromáticos (rotinização burocrática tende ao minimalismo cromático). O indicador mede, assim, uma interação real entre ideologia e materialidade — não um artefato.
 
@@ -158,7 +158,7 @@ As duas rodadas demonstram que a codificação por metadados é confiável para 
 
 ### 2.6 O corpus: composição e fontes
 
-O corpus compreende 145 imagens oficiais e semi-oficiais coletadas em 15 acervos digitais, estratificadas por país, período e suporte material. Todas as 145 estão integralmente codificadas (10 indicadores + regime + análise Panofsky), sendo 20 codificadas por inspeção visual direta (IIIF) e 125 por metadados refinados.
+O corpus compreende 165 registros no ledger atual, dos quais 154 itens com codificação de purificação; o congelamento analítico anterior registrou 145 imagens oficiais e semi-oficiais coletadas em 15 acervos digitais, estratificadas por país, período e suporte material. Todas as 145 do congelamento anterior estão integralmente codificadas (10 indicadores + regime + análise Panofsky), sendo 20 codificadas por inspeção visual direta (IIIF) e 125 por metadados refinados.
 
 | País | N | Fontes principais |
 |------|---|------------------|

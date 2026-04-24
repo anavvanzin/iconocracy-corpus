@@ -43,9 +43,9 @@ The concept draws on, but is not reducible to, Judith Butler's account of how re
 
 ### 2.3. Endurecimento: The Ten Indicators
 
-The allegorical body does not remain static. As it migrates across supports and historical periods, it undergoes a process I call *endurecimento* — a Portuguese term deliberately preserved in its original language to resist translation into the English "hardening," which carries misleading material connotations. Endurecimento designates the progressive *purification* of the allegorical body: a process by which the body is stripped of dynamism, narrative, sexuality, and individuality until it becomes a rigid, reproducible, heraldic sign.[^7]
+The allegorical body does not remain static. As it migrates across supports and historical periods, it undergoes a process I call *endurecimento* — a Portuguese term deliberately preserved in its original language to resist translation into English equivalents that carry misleading material connotations. Endurecimento designates the progressive *purification* of the allegorical body: a process by which the body is stripped of dynamism, narrative, sexuality, and individuality until it becomes a rigid, reproducible, heraldic sign.[^7]
 
-Endurecimento is assessed through ten ordinal indicators, each scored on a scale from 0 (absent) to 4 (extreme). A methodological caveat is in order: these are interpretive assessments, not measurements in the natural-science sense. The scores are assigned by the researcher on the basis of visual inspection, informed by art-historical conventions and cross-checked against the corpus. No instrument can objectively "measure" dessexualization; what the scoring system provides is a *structured vocabulary* for comparative description — a way of making explicit the judgments that iconographic analysis always already makes but rarely quantifies. The ordinal scale does not support arithmetic means in the strict psychometric sense; the aggregated score reported below should be understood as a heuristic summary, not a statistical measure.[^7a] The ten indicators are:
+Endurecimento is assessed through ten ordinal indicators, each scored on a scale from 0 (absent) to 3 (high). A methodological caveat is in order: these are interpretive assessments, not measurements in the natural-science sense. The scores are assigned by the researcher on the basis of visual inspection, informed by art-historical conventions and cross-checked against the corpus. No instrument can objectively "measure" dessexualization; what the scoring system provides is a *structured vocabulary* for comparative description — a way of making explicit the judgments that iconographic analysis always already makes but rarely quantifies. The ordinal scale does not support arithmetic means in the strict psychometric sense; the aggregated score reported below should be understood as a heuristic summary, not a statistical measure.[^7a] The ten indicators are:
 
 1. **Disincorporation** — reduction from full body to bust to face to symbol.
 2. **Postural rigidity** — static versus dynamic body.
@@ -58,7 +58,7 @@ Endurecimento is assessed through ten ordinal indicators, each scored on a scale
 9. **Seriality** — mass reproduction (unique → edition → industrial).
 10. **State inscription** — state text or symbols inscribed on or around the body.
 
-The endurecimento score is the mean of the ten indicators (0.0–4.0). For qualitative reference: scores below 1.0 are classified as LOW, 1.0–2.0 as MEDIUM-LOW, 2.0–2.5 as MEDIUM, 2.5–3.0 as MEDIUM-HIGH, and above 3.0 as HIGH. But the score is a summary, never a substitute for the individual indicators. As this article demonstrates, the relationship between indicators is non-linear: a low overall score can coexist with a fatal deficit in a single indicator — dessexualization — producing rejection, while a higher overall score with adequate dessexualization produces survival.
+The endurecimento score is the mean of the ten indicators (0.0–3.0). For qualitative reference: scores below 1.0 are classified as LOW, 1.0–2.0 as MEDIUM-LOW, 2.0–2.5 as MEDIUM, 2.5–3.0 as MEDIUM-HIGH, and above 3.0 as HIGH. But the score is a summary, never a substitute for the individual indicators. As this article demonstrates, the relationship between indicators is non-linear: a low overall score can coexist with a fatal deficit in a single indicator — dessexualization — producing rejection, while a higher overall score with adequate dessexualization produces survival.
 
 ### 2.4. Three Iconocratic Regimes
 
@@ -194,7 +194,7 @@ Across 240 years of domestic circulation, Britannia's morphology barely changes.
 
 This persistence is not a sign of adaptation — it is a sign of *inertia*. Britannia never needed to be dessexualized because she was never sexualized. She never needed to be reformed because her morphology was already at the institutional ceiling. The French problem — how to keep the allegory alive while making it reproducible — simply did not arise in Britain, because Britannia was never alive in the first place — she was, from the outset, a heraldic device.
 
-The critical finding from the George V penny (SCOUT-124, 1912) is chronological: Britannia's endurecimento was already at maximum *before* the First World War. The war did not *produce* the militarization of her body — the helmet and the trident had been there for decades. This refutes the intuitive hypothesis that military conflict *generates* iconographic hardening. In the British case, the hardened body preceded the conflict, waiting, as it were, for the war to catch up to its morphology.
+The critical finding from the George V penny (SCOUT-124, 1912) is chronological: Britannia's endurecimento was already at maximum *before* the First World War. The war did not *produce* the militarization of her body — the helmet and the trident had been there for decades. This refutes the intuitive hypothesis that military conflict *generates* iconographic rigidification. In the British case, the hardened body preceded the conflict, waiting, as it were, for the war to catch up to its morphology.
 
 ---
 
@@ -315,7 +315,7 @@ Much remains to be done. The five-country typology presented here is a first app
 
 [^6]: On the distinction between the allegory as representation of women and as state device, see Joan B. Landes, *Visualizing the Nation: Gender, Representation, and Revolution in Eighteenth-Century France* (Ithaca: Cornell University Press, 2001).
 
-[^7]: The term endurecimento is preserved in Portuguese throughout this article. The English "hardening" would risk confusion with material processes (metal hardening) and with Theodor Adorno's concept of *Verhärtung* (psychic hardening), neither of which captures the specific visual-political process described here.
+[^7]: The term endurecimento is preserved in Portuguese throughout this article. Direct English translations would risk confusion with material processes and with Theodor Adorno's concept of *Verhärtung* (psychic rigidity), neither of which captures the specific visual-political process described here.
 
 [^8]: On Roty's career and the Semeuse design, see Yves-Marie Bercé, "La Semeuse," in *Les lieux de mémoire*, ed. Pierre Nora, vol. 1 (Paris: Gallimard, 1984); Jean Belaubre, *Dictionnaire de numismatique* (Paris: Larousse, 1996), s.v. "Semeuse."
 

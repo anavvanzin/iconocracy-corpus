@@ -37,7 +37,7 @@
 3. **Contrato Racial Visual** (Cap. 3) — a branquitude constitutiva da alegoria "universal" (dimensão pós-colonial)
 4. **Purificação Clássica** (Cap. 5.2) — operação formal de extração do feminino histórico para fixá-lo no eterno alegórico. Matriz primária jurídica (Kantorowicz/Legendre/Hespanha); extensão ferramental (Latour 1991/Haraway 1985/Descola). Operacionalizada empiricamente em endurecimento (10 indicadores ordinais). Ver [[2026-04-17_ultraplan-qualificacao]]
 
-> **Decisão 2026-04-17 (Council A+):** A palavra "ciberfeminismo" não aparece no manuscrito. Tradição reservada para paper derivado pós-defesa.
+> **Decisão 2026-04-17 (Council A+):** A palavra tecnopolítica do corpo não aparece no manuscrito. Tradição reservada para paper derivado pós-defesa.
 
 ### Pergunta central
 

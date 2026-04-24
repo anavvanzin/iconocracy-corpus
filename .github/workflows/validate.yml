@@ -91,3 +91,6 @@ jobs:
         run: |
           pip install -r requirements.txt
           python -m pytest tests/ -q --tb=short
+
+      - name: Check thesis terminology
+        run: python tools/scripts/check_thesis_terms.py

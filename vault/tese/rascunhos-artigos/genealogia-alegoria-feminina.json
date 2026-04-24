@@ -128,7 +128,7 @@
       "argumento_central": "O endurecimento não é neutro: ele apaga sistematicamente os traços de agência e humanidade do corpo feminino. A Justitia perde a visão (venda), perde o movimento (rigidez postural), perde a singularidade (uniformização facial), perde a narrativa (apagamento narrativo) e ganha a serialidade industrial (reprodução em massa). Cada atributo perdido corresponde a um traço de subjetividade — a castração da deusa é a transformação da mulher-sujeito em mulher-símbolo.",
       "endurecimento": {
         "definicao": "Processo de purificação progressiva que transforma o corpo feminino alegorizado de corpo vivo em ícone estatal. Mensurável pelos 10 indicadores de purificação do protocolo IconoCode.",
-        "regra_terminologica": "SEMPRE em português — nunca 'hardening' ou 'embrutecimento'.",
+        "regra_terminologica": "SEMPRE em português — nunca traduções diretas para o inglês ou 'embrutecimento'.",
         "indicadores_de_purificacao": [
           {
             "numero": 1,
@@ -703,7 +703,7 @@
         "id": "CN-02",
         "conceito": "endurecimento",
         "tipo": "conceito-original-tese",
-        "nota_terminologica": "SEMPRE em português. NUNCA 'hardening' ou 'embrutecimento'.",
+        "nota_terminologica": "SEMPRE em português. NUNCA traduções diretas para o inglês ou 'embrutecimento'.",
         "definicao": "Processo de purificação progressiva que transforma o corpo feminino alegorizado de corpo vivo em ícone estatal. Mensurável pelos 10 indicadores de purificação do protocolo IconoCode. Score de 0.0 a 4.0.",
         "relacionamentos": ["CN-01", "CN-03", "CN-06"]
       },

@@ -7,7 +7,7 @@ sucessor: "[[2026-04-17_ultraplan-qualificacao]]"
 tags:
   - originalidade
   - qualificacao
-  - ciberfeminismo
+  - tecnopolíticas do corpo
   - feminilidade-de-estado
   - contrato-racial-visual
   - purificacao-classica
@@ -26,7 +26,7 @@ Sessão socrática + conselho (Arquiteto + Skeptic + Pragmatist + Critic) + rele
 
 2. **Baudrillard/Benjamin incompatibilidade** — inoperante: draft Descola já produz "simulacro circulante" derivado de Descola (não de Baudrillard). Triângulo coerente: Descola (ontologia naturalista) + Latour (purificação gesto moderno) + Haraway (Justitia ciborgue invertido), sem conflito com Benjamin.
 
-3. **Ciberfeminismo "invisível"** — parcialmente falso alarme: não está invisível, está renomeado como **purificação iconocrática**. Endurecimento (10 indicadores ordinais) é a operacionalização empírica disso. Des-incorporação = Latour-Haraway mensurada. Falta só declarar as fontes do operador.
+3. **Tecnopolítica do corpo "invisível"** — parcialmente falso alarme: não está invisível, está renomeado como **purificação iconocrática**. Endurecimento (10 indicadores ordinais) é a operacionalização empírica disso. Des-incorporação = Latour-Haraway mensurada. Falta só declarar as fontes do operador.
 
 ## Arquitetura final — 4 conceitos originais declarados
 
@@ -61,19 +61,19 @@ Declarar "purificação iconocrática" como operador-mãe que endurecimento mens
 
 **Purificação Clássica elevada a 4º conceito original**, com matriz primária ancorada em tradição jurídica (Kantorowicz/Legendre/Hespanha) e extensão ferramental pontual (Latour/Haraway/Descola).
 
-- Palavra "ciberfeminismo" **NÃO USAR** no texto da tese
+- Termo tecnopolítico do corpo **NÃO USAR** no texto da tese
 - Tradição ciberfeminista (Plant, VNS Matrix, xenofeminismo Laboria Cuboniks) reservada para paper derivado pós-defesa em revista A1
-- Nota de rodapé honesta declarando limite do recorte (sem Lugones/Curiel decolonial; sem ciberfeminismo pós-2000)
+- Nota de rodapé honesta declarando limite do recorte (sem Lugones/Curiel decolonial; sem tradição tecnopolítica pós-2000)
 - Endurecimento renomeado conceitualmente como **operacionalização empírica da Purificação Clássica** — sem alterar os 10 indicadores existentes
 
 ## Abandonar definitivamente
 
-- **"Substituição simbólica"** via Baudrillard como conceito original declarado — desnecessária (Descola já fornece simulacro circulante limpo) + incompatibilidade temporal com Benjamin
-- **"Domesticação da revolução"** como quarto original declarado — já opera como Painel 9.3 do Atlas + §7 Nietzsche-Foucault no projeto v2. Operador qualitativo, não conceito.
+- Termo tecnopolítico do corpo **NÃO USAR** no texto da tese
+- Nota de rodapé honesta declarando limite do recorte (sem Lugones/Curiel decolonial; sem tradição tecnopolítica pós-2000)
 
-## Próximo passo
+[...]
 
-1. Decisão A vs B sobre ciberfeminismo
+1. Decisão A vs B sobre tecnopolíticas do corpo
 2. Executar Inserção 1 (Cap. 2.2 + Carson)
 3. Executar Inserção 2 (§4.2 ou §5.2 purificação iconocrática)
 4. Priorizar trabalho do Cap. 3 como caminho crítico
