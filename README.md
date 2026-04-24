@@ -18,10 +18,14 @@ Canonical data hierarchy:
 
 1. `data/processed/records.jsonl` — operational ledger
 2. `corpus/corpus-data.json` — public-facing export
-3. `data/processed/purification.jsonl` — ENDURECIMENTO coding ledger
+3. `data/processed/purification.jsonl` — endurecimento coding ledger
 4. `vault/candidatos/` — auxiliary mirror only
 
-See [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md) and [docs/huggingface-release.md](docs/huggingface-release.md).
+See [docs/OPERATING_MODEL.md](docs/OPERATING_MODEL.md), [docs/WORKFLOW.md](docs/WORKFLOW.md), and [docs/huggingface-release.md](docs/huggingface-release.md).
+
+Canonical workspace root: `/Users/ana/Research`.
+Workspace topology and compatibility paths: [docs/workspace-map.md](docs/workspace-map.md).
+Git-safe migration note: tracked thesis-owned directories such as `vault/` and `iconocracy-ingest/` remain versioned in this repository while sibling `Research/...` paths provide the workspace-facing entrypoints.
 
 ---
 
@@ -70,7 +74,7 @@ iconocracy/
 
 A searchable database of feminist legal iconography across European and Brazilian archives, documenting how female allegorical figures — Justice, the Republic, Marianne, Justitia — have shaped the visual vocabulary of law and state power.
 
-**`corpus-data.json`** — public release export of the corpus (145 items in the current local snapshot). Fields include `id`, `title`, `date`, `period`, `creator`, `institution`, `source_archive`, `country`, `medium`, `motif`, `description`, `url`, `thumbnail_url`, `rights`, `citation_abnt`, `citation_chicago`, `tags`, `regime`, `endurecimento_score`, and `indicadores`.
+**`corpus-data.json`** — public release export of the corpus (165 items in the current local snapshot). Fields include `id`, `title`, `date`, `period`, `creator`, `institution`, `source_archive`, `country`, `medium`, `motif`, `description`, `url`, `thumbnail_url`, `rights`, `citation_abnt`, `citation_chicago`, `tags`, `regime`, `endurecimento_score`, and `indicadores`.
 
 **`DASHBOARD_CORPUS.html`** — Self-contained interactive dashboard. Open in any browser. Includes: Gallery + Table views, modal with full metadata and copy-ready citations, filters by country/period/medium/archive/motif, 6 Chart.js charts (country, medium, period, sources, top motifs, top tags), 6 KPI cards.
 
@@ -110,7 +114,7 @@ See `data/docs/README.md` for full dataset documentation and traceability.
 
 Doctoral manuscript materials for *"Iconocracy: Female Allegory in the History of Legal Culture (19th–20th c.)"* — PPGD/UFSC, Ana Vanzin, 2026.
 
-**`ATLAS_ICONOCRACIA.pdf`** — 10-page A4 printed atlas (ReportLab). Three sections: structural summary (clean, without annotations), operational concepts glossary (10 entries: Contrato Sexual Visual, Feminilidade de Estado, Visiocracia, Iconocracia, Pathosformel, Zwischenraum, Regime Iconocrático, Purificação Clássica, ENDURECIMENTO, Colonialidade do Ver), and iconographic gallery (6 public domain images from Wikimedia Commons).
+**`ATLAS_ICONOCRACIA.pdf`** — 10-page A4 printed atlas (ReportLab). Three sections: structural summary (clean, without annotations), operational concepts glossary (10 entries: Contrato Sexual Visual, Feminilidade de Estado, Visiocracia, Iconocracia, Pathosformel, Zwischenraum, Regime Iconocrático, Purificação Clássica, endurecimento militar, Colonialidade do Ver), and iconographic gallery (6 public domain images from Wikimedia Commons).
 
 **`manuscrito/`** — Chapters in advanced revision state. See `LEIAME.md` for supervisor-facing guide.
 

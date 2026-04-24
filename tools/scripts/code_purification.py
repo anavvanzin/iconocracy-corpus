@@ -92,7 +92,7 @@ INDICATORS = [
     ]),
 ]
 
-REGIMES = ["fundacional", "normativo", "militar", "contra-alegoria"]
+REGIMES = ["fundacional", "normativo", "militar"]
 
 
 def load_corpus():

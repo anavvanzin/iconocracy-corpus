@@ -26,4 +26,4 @@ data_scout: 2026-03-30
 ## Analise preliminar
 **Motivo:** Cérès personifying the Second Republic (Oudiné design)
 **Regime:** FUNDACIONAL — short-lived pure founding coin
-**ENDURECIMENTO detectado:** incerto — profile bust format constrains body
+**endurecimento detectado:** incerto — profile bust format constrains body

@@ -17,7 +17,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: europeana
@@ -34,9 +34,9 @@ data_scout: 2026-04-03
 **Thumbnail**: [imagem](https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fwww.bildindex.de%2Fbilder%2Fd%2Fmi00108e05&type=IMAGE)
 **Direitos**: http://rightsstatements.org/vocab/InC/1.0/
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 HTTP://DATA.EUROPEANA.EU/AGENT/9916. **Putti als Allegorien der Gerechtigkeit und der Klugheit**. German Documentation Center for Art History - Marburg Picture Index. Disponível em: http://www.bildindex.de/document/obj20455031. Acesso em: 03 Apr. 2026.

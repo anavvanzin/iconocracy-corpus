@@ -3,11 +3,12 @@
 import json, re, sys
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
-
-vault_dirs = sorted(REPO_ROOT.glob("vault/corpus/scout-session-*"))
-if not vault_dirs:
-    print("No scout-session-* directories found under vault/corpus/", file=sys.stderr)
+vault_dirs = [
+    Path("/Users/ana/iconocracy-corpus/vault/corpus/scout-session-2026-03-28"),
+    Path("/Users/ana/iconocracy-corpus/vault/corpus/scout-session-2026-03-29"),
+    Path("/Users/ana/iconocracy-corpus/vault/corpus/scout-session-2026-03-30"),
+    Path("/Users/ana/iconocracy-corpus/vault/corpus/scout-session-2026-04-01"),
+]
 
 def parse_frontmatter(text):
     """Extract YAML-like frontmatter between --- markers."""
@@ -47,8 +48,8 @@ def extract_from_composite(text):
                 m = re.search(rf'^{field}:\s*["\']?(.+?)["\']?\s*$', block, re.MULTILINE)
                 if m:
                     entry[field] = m.group(1).strip()
-            # Extract ENDURECIMENTO
-            end_m = re.search(r'ENDURECIMENTO detectado:\s*(.+?)(?:\n|$)', block)
+            # Extract endurecimento
+            end_m = re.search(r'endurecimento detectado:\s*(.+?)(?:\n|$)', block)
             if not end_m:
                 end_m = re.search(r'endurecimento_detectado:\s*["\']?(.+?)["\']?(?:\n|$)', block)
             if end_m:
@@ -80,10 +81,10 @@ for vault_dir in vault_dirs:
                 'id', 'tipo', 'titulo', 'acervo', 'url', 'data_estimada',
                 'pais', 'suporte', 'motivo_alegorico', 'regime', 'confianca', 'periodo'
             ]}
-            # Extract ENDURECIMENTO from body
-            end_m = re.search(r'ENDURECIMENTO detectado:\*\*\s*(.+?)(?:\n|$)', text)
+            # Extract endurecimento from body
+            end_m = re.search(r'endurecimento detectado:\*\*\s*(.+?)(?:\n|$)', text)
             if not end_m:
-                end_m = re.search(r'ENDURECIMENTO detectado:\s*(.+?)(?:\n|$)', text)
+                end_m = re.search(r'endurecimento detectado:\s*(.+?)(?:\n|$)', text)
             if end_m:
                 entry['endurecimento'] = end_m.group(1).strip()
             # Extract justificativa
@@ -116,21 +117,20 @@ data = {
     "candidates": candidates,
     "zwischenraume": zwischenraume,
     "theoretical_contributions": [
-        {"name": "Anti-ENDURECIMENTO", "desc": "Regime collapse reverses purification. Three paths: phantom persistence, satirical reversal, weaponization."},
-        {"name": "ENDURECIMENTO negativo", "desc": "Hardening by subtraction (post-1945 Marianne removes body, cap, movement)."},
-        {"name": "ENDURECIMENTO positivo", "desc": "Hardening by addition (armor, fasces, trident)."},
+        {"name": "Anti-endurecimento", "desc": "Regime collapse reverses purification. Three paths: phantom persistence, satirical reversal, weaponization."},
+        {"name": "endurecimento negativo", "desc": "endurecimento by subtraction (post-1945 Marianne removes body, cap, movement)."},
+        {"name": "endurecimento positivo", "desc": "endurecimento by addition (armor, fasces, trident)."},
         {"name": "Captura transnacional", "desc": "Enemy seizes and inverts your allegory (Goetz capturing Marianne)."},
-        {"name": "Dissolucao heraldica", "desc": "ENDURECIMENTO terminus where the female body disappears entirely into heraldic residue (Belgian coins)."},
+        {"name": "Dissolucao heraldica", "desc": "endurecimento terminus where the female body disappears entirely into heraldic residue (Belgian coins)."},
         {"name": "Principio da redundancia", "desc": "Where the courthouse exists in stone, Justitia vanishes from money (Notgeld tribunal cities)."},
-        {"name": "Indigenizacao", "desc": "Colonial alternative to ENDURECIMENTO: replace European allegorical body with racialized indigenous body (French colonial stamps)."},
+        {"name": "Indigenizacao", "desc": "Colonial alternative to endurecimento: replace European allegorical body with racialized indigenous body (French colonial stamps)."},
         {"name": "Gradiente de transparencia da violencia imperial", "desc": "Olive branch (US) -> fasces (FR) -> trident (UK). Three levels of honesty about what the female body sanctions."},
         {"name": "Ausencia pre-modelo vs. pos-modelo", "desc": "Two types of absent female allegory: Mexico (1824, pre-model — did not know the European pattern) vs. Japan (1875, post-model — knew and consciously rejected). Japan copied metal, weight, fineness and English inscriptions but rejected the female body. Strongest cultural delimitation argument."},
-        {"name": "ENDURECIMENTO sinconico e comparativo", "desc": "ENDURECIMENTO is not only diachronic: UK militarizes by addition (Britannia armed, seahorse chariot), France pastoralaizes by subtraction (Semeuse removes political attributes) — two synchronic modes of neutralizing the female allegorical body (1903-1913)."},
+        {"name": "endurecimento sinconico e comparativo", "desc": "endurecimento is not only diachronic: UK militarizes by addition (Britannia armed, seahorse chariot), France pastoralaizes by subtraction (Semeuse removes political attributes) — two synchronic modes of neutralizing the female allegorical body (1903-1913)."},
         {"name": "Numen mixtum", "desc": "Deliberate iconographic fusion of two deities into a single normalized legal type (Themis + Minerva in Belgian court sculpture, documented by Huygebaert 2019). Maps onto purification indicators uniformizacao_facial and apagamento_narrativo."},
     ]
 }
 
-out = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parent / "scout-data.json"
-out.parent.mkdir(parents=True, exist_ok=True)
+out = Path("/Users/ana/iconocracy-corpus/deploy/scout-data.json")
 out.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding='utf-8')
 print(f"Compiled {len(candidates)} candidates + {len(zwischenraume)} zwischenraume -> {out}")

@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.8
 hunt_source: va
@@ -39,9 +39,9 @@ Drawing. England. query: Britannia allegory
 
 **Motivos identificados**: Britannia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 (SIR), Thornhill, James. **Design for the ceiling of the Great Hall at Blenheim**. ca. 1716. Victoria and Albert Museum. Disponível em: https://collections.vam.ac.uk/item/O190041. Acesso em: 03 Apr. 2026.

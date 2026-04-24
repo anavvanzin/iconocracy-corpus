@@ -24,7 +24,7 @@ tags:
 
 Estatua colossal (65 pes / 20m) de figura feminina classica com bracos estendidos, drapejada em robes classicos, segurando um bastao coroado por aguia e um globo. Originalmente em gesso dourado para a World's Columbian Exposition de 1893; replica reduzida em bronze (1918) ainda de pe em Jackson Park, Chicago.
 
-## ENDURECIMENTO detectado
+## Endurecimento detectado
 
 - **desincorporacao**: baixa -- corpo inteiro visivel, escala colossal
 - **rigidez_postural**: moderada -- postura estatica mas com bracos estendidos
@@ -49,5 +49,5 @@ Referencia: BOIME, Albert. A Social History of Modern Art. Vol. 4. Chicago: Univ
 
 - [[Columbia]]
 - [[regime normativo]]
-- [[ENDURECIMENTO]]
+- [[endurecimento]]
 - [[Feminilidade de Estado]]

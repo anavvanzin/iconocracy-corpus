@@ -17,7 +17,7 @@ tags:
   - "#colonialidade-do-ver"
   - "#contrato-racial-visual"
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-ZW-05]]"
 data_scout: 2026-03-30
@@ -32,9 +32,9 @@ data_scout: 2026-03-30
 
 Duas figuras femininas alegóricas: Navigation (remo, proa) e Commerce (caduceu). Corpo EUROPEU, pele BRANCA, design IDÊNTICO de Saigon a Dakar.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**SIM** — ENDURECIMENTO por EXPORTAÇÃO UNIVERSAL. Serialidade extrema (dezenas de territórios). Corpo metropolitano exportado INTACTO. A universalidade do corpo alegórico europeu É o argumento colonial.
+**SIM** — endurecimento por EXPORTAÇÃO UNIVERSAL. Serialidade extrema (dezenas de territórios). Corpo metropolitano exportado INTACTO. A universalidade do corpo alegórico europeu É o argumento colonial.
 
 ### Citação ABNT
 

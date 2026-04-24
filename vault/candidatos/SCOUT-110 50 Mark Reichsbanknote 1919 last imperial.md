@@ -12,7 +12,7 @@ motivo_alegorico: "Allegorical female figure (transitional)"
 regime: FUNDACIONAL
 confianca: medio
 tags: [corpus/candidato, pais/DE, suporte/papel-moeda, regime/fundacional, motivo/germania, "#verificar"]
-related: ["[[Regime Fundacional]]", "[[SCOUT-096]]", "[[SCOUT-104]]", "[[ENDURECIMENTO]]"]
+related: ["[[Regime Fundacional]]", "[[SCOUT-096]]", "[[SCOUT-104]]", "[[endurecimento]]"]
 hf_synced: false
 data_scout: 2026-03-30
 ---
@@ -28,8 +28,8 @@ data_scout: 2026-03-30
 primeira cédula da República de Weimar — emitida 7 meses após a derrota e 7 semanas
 antes da Constituição de Weimar.
 **Regime:** FUNDACIONAL — momento de refundação republicana (Kaiserreich → Weimar)
-**ENDURECIMENTO detectado:** incerto — item de transição. Se a figura feminina mantém
-atributos imperiais (coroa, espada), documenta a inércia do ENDURECIMENTO. Se perde
+**endurecimento detectado:** incerto — item de transição. Se a figura feminina mantém
+atributos imperiais (coroa, espada), documenta a inércia do endurecimento. Se perde
 esses atributos, documenta a des-militarização da alegoria.
 
 ## Importancia para a tese
@@ -42,6 +42,6 @@ Na série DE:
 
 A tese prevê que a alegoria feminina é "ideologicamente indesejada" (Numismatic News)
 pelo regime nazi — substituída pela águia do partido. Isto documenta a DESTRUIÇÃO
-da alegoria feminina, não seu ENDURECIMENTO — um endpoint do processo.
+da alegoria feminina, não seu endurecimento — um endpoint do processo.
 
 Confianca medio — verificar presença de alegoria feminina na cédula.

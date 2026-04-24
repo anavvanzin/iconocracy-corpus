@@ -18,7 +18,7 @@ related:
   - "[[IconoCode -- Protocolo]]"
   - "[[SCOUT-033]]"
   - "[[SCOUT-023]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Regime NORMATIVO]]"
 ---
 
@@ -39,7 +39,7 @@ A investigacao revela um achado central para a tese: **a Semeuse de Roty (1903) 
 
 A Argelia e o unico territorio colonial onde a Semeuse metropolitana circulou -- mas **nunca sem alteracao**. A partir de 1924, selos metropolitanos franceses (incluindo o tipo Semeuse, alem dos tipos Blanc, Merson e Pasteur) receberam a sobrecarga "ALGERIE" impressa tipograficamente em vermelho, azul ou preto. Foram emitidos 32 tipos em 24 denominacoes entre 1924-1926. A sobrecarga foi impressa na oficina de selos do Boulevard Brune, Paris.
 
-**Significado para a tese:** A Argelia, juridicamente considerada departamento frances (nao colonia), recebeu a mesma alegoria metropolitana -- a Semeuse dinamica, anti-ENDURECIMENTO -- mas com a inscricao territorial que marca a diferenca. A sobrecarga nao altera a morfologia do corpo alegorico, mas inscreve a marca colonial sobre ele. Em 1926, a Argelia passou a ter selos proprios com cenas locais, substituindo a Semeuse.
+**Significado para a tese:** A Argelia, juridicamente considerada departamento frances (nao colonia), recebeu a mesma alegoria metropolitana -- a Semeuse dinamica, anti-endurecimento -- mas com a inscricao territorial que marca a diferenca. A sobrecarga nao altera a morfologia do corpo alegorico, mas inscreve a marca colonial sobre ele. Em 1926, a Argelia passou a ter selos proprios com cenas locais, substituindo a Semeuse.
 
 **Catalogacao:** Yvert & Tellier Algerie n. 1-32 (1924-1926). Scott Algeria 1-32.
 
@@ -58,7 +58,7 @@ A Indochina e o caso mais revelador. Os selos seguiram esta sequencia:
 - **1904-1906:** Tipo Grasset -- alegoria de "France" com inscricao "INDO-CHINE FRANCAISE" (17 valores, de 1c a 2F)
 - **1907 em diante:** Serie "Femmes indochinoises" -- **substituicao da alegoria metropolitana por figuras femininas locais/indigenas**
 
-A Semeuse de Roty (introduzida na metropole em 1903) **nunca foi adotada na Indochina**. A colonia passou diretamente do tipo Mouchon ao tipo Grasset, e deste as "mulheres indochinesas" -- uma indigenizacao da alegoria que e o oposto do ENDURECIMENTO.
+A Semeuse de Roty (introduzida na metropole em 1903) **nunca foi adotada na Indochina**. A colonia passou diretamente do tipo Mouchon ao tipo Grasset, e deste as "mulheres indochinesas" -- uma indigenizacao da alegoria que e o oposto do endurecimento.
 
 ### 5. AOF e AEF (1906-1944): Semeuse NAO usada -- tipo "Navigation et Commerce" e series pictoricas
 
@@ -105,7 +105,7 @@ tags:
 related:
   - "[[Regime NORMATIVO]]"
   - "[[SCOUT-033]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato sexual visual]]"
 data_scout: 2026-03-29
 ---
@@ -126,7 +126,7 @@ data_scout: 2026-03-29
 
 **Motivo alegorico:** Semeuse (La Republique semeuse) -- identica a Semeuse metropolitana de Roty
 **Regime iconocratico:** NORMATIVO
-**Justificativa:** A Semeuse camee de 25c azul com sobrecarga "ALGERIE" em vermelho e a mesma alegoria metropolitana (mulher jovem semeando contra sol nascente, barrete frigio, gesto dinamico) transportada para o contexto colonial. O corpo alegorico NAO sofre alteracao morfologica -- a sobrecarga textual e a unica marca de diferenciacao territorial. Isto contrasta radicalmente com o sistema monetario, onde a Piastre de Commerce (SCOUT-023) criou uma alegoria colonial especifica (Marianne sentada com fasces). O selo postal preserva a dinamica anti-ENDURECIMENTO da Semeuse original.
+**Justificativa:** A Semeuse camee de 25c azul com sobrecarga "ALGERIE" em vermelho e a mesma alegoria metropolitana (mulher jovem semeando contra sol nascente, barrete frigio, gesto dinamico) transportada para o contexto colonial. O corpo alegorico NAO sofre alteracao morfologica -- a sobrecarga textual e a unica marca de diferenciacao territorial. Isto contrasta radicalmente com o sistema monetario, onde a Piastre de Commerce (SCOUT-023) criou uma alegoria colonial especifica (Marianne sentada com fasces). O selo postal preserva a dinamica anti-endurecimento da Semeuse original.
 
 **Atributos identificados:**
 - [x] barrete frigio (Phrygian cap)
@@ -141,7 +141,7 @@ data_scout: 2026-03-29
 - [x] sol nascente (fundo)
 - [ ] postura frontal (postura lateral/dinamica)
 
-**ENDURECIMENTO detectado:** nao -- a Semeuse colonial argelina preserva integralmente a morfologia dinamica metropolitana. Zero indicadores de ENDURECIMENTO ativos. A sobrecarga "ALGERIE" e uma inscricao estatal (inscricao_estatal) sem efeito sobre o corpo.
+**endurecimento detectado:** nao -- a Semeuse colonial argelina preserva integralmente a morfologia dinamica metropolitana. Zero indicadores de endurecimento ativos. A sobrecarga "ALGERIE" e uma inscricao estatal (inscricao_estatal) sem efeito sobre o corpo.
 
 ---
 
@@ -214,7 +214,7 @@ tags:
 related:
   - "[[Regime NORMATIVO]]"
   - "[[SCOUT-033]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato sexual visual]]"
   - "[[Louis-Eugene Mouchon]]"
 data_scout: 2026-03-29
@@ -236,7 +236,7 @@ data_scout: 2026-03-29
 
 **Motivo alegorico:** Alegorias de Navigation et Commerce -- duas figuras femininas classicas representando o comercio e a navegacao
 **Regime iconocratico:** NORMATIVO
-**Justificativa:** O tipo "Navigation et Commerce" (ou "Type Groupe"), desenhado por Louis-Eugene Mouchon em 1892, e a alegoria postal colonial francesa por excelencia. Difere radicalmente da Semeuse metropolitana: enquanto a Semeuse e uma figura unica, dinamica, semeando contra o sol (anti-ENDURECIMENTO), o tipo colonial apresenta duas figuras femininas estaticas em composicao classica. O nome da colonia e inscrito em cartela retangular na base do selo -- o unico elemento que muda entre colonias. Esta e a prova de que o sistema postal colonial NAO exportou a Semeuse mas criou uma alegoria colonial propria, com maior grau de ENDURECIMENTO.
+**Justificativa:** O tipo "Navigation et Commerce" (ou "Type Groupe"), desenhado por Louis-Eugene Mouchon em 1892, e a alegoria postal colonial francesa por excelencia. Difere radicalmente da Semeuse metropolitana: enquanto a Semeuse e uma figura unica, dinamica, semeando contra o sol (anti-endurecimento), o tipo colonial apresenta duas figuras femininas estaticas em composicao classica. O nome da colonia e inscrito em cartela retangular na base do selo -- o unico elemento que muda entre colonias. Esta e a prova de que o sistema postal colonial NAO exportou a Semeuse mas criou uma alegoria colonial propria, com maior grau de endurecimento.
 
 **Atributos identificados:**
 - [ ] barrete frigio
@@ -251,7 +251,7 @@ data_scout: 2026-03-29
 - [x] postura frontal/estatica
 - [x] cartela territorial colonial
 
-**ENDURECIMENTO detectado:** sim (parcial) -- as figuras alegoricas do tipo colonial sao mais estaticas que a Semeuse metropolitana. Indicadores ativos: rigidez_postural (figuras sentadas/estaticas vs. Semeuse em movimento), uniformizacao_facial (figuras genericas, sem individualizacao), serialidade (mesmo desenho em dezenas de colonias), inscricao_estatal (cartela com nome da colonia).
+**endurecimento detectado:** sim (parcial) -- as figuras alegoricas do tipo colonial sao mais estaticas que a Semeuse metropolitana. Indicadores ativos: rigidez_postural (figuras sentadas/estaticas vs. Semeuse em movimento), uniformizacao_facial (figuras genericas, sem individualizacao), serialidade (mesmo desenho em dezenas de colonias), inscricao_estatal (cartela com nome da colonia).
 
 ---
 
@@ -319,7 +319,7 @@ related:
   - "[[Regime NORMATIVO]]"
   - "[[SCOUT-033]]"
   - "[[SCOUT-035]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
 data_scout: 2026-03-29
 ---
 
@@ -353,7 +353,7 @@ data_scout: 2026-03-29
 - [x] postura frontal/estatica
 - [x] inscricao "INDO-CHINE FRANCAISE"
 
-**ENDURECIMENTO detectado:** sim (parcial) -- a alegoria de "France" e uma figura tutelar, estatica, que substitui a dinamica da Semeuse. Indicadores: rigidez_postural, heraldizacao (personificacao da nacao como entidade heraldica), inscricao_estatal.
+**endurecimento detectado:** sim (parcial) -- a alegoria de "France" e uma figura tutelar, estatica, que substitui a dinamica da Semeuse. Indicadores: rigidez_postural, heraldizacao (personificacao da nacao como entidade heraldica), inscricao_estatal.
 
 ---
 
@@ -416,7 +416,7 @@ related:
   - "[[SCOUT-033]]"
   - "[[SCOUT-035]]"
   - "[[SCOUT-036]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato sexual visual]]"
 data_scout: 2026-03-29
 ---
@@ -437,7 +437,7 @@ data_scout: 2026-03-29
 
 **Motivo alegorico:** Femmes indochinoises -- figuras femininas indigenas/locais
 **Regime iconocratico:** NORMATIVO (com tensao entre NORMATIVO e uma quarta categoria nao prevista pela tipologia: a *indigenizacao* colonial)
-**Justificativa:** A serie definitiva de 1907 (18 valores, de 1c a 75c) substitui a alegoria de "France" (Grasset) por retratos ou figuras de mulheres indochinesas. Esta e uma mutacao morfologica radical: o corpo alegorico deixa de ser europeu/classico e torna-se indigena. Nao e ENDURECIMENTO (a figura nao se torna rigida, marcial ou heraldica) -- e uma *indigenizacao* que levanta questoes fundamentais para o contrato sexual visual: **o corpo feminino colonizado substitui o corpo feminino alegorico metropolitano**. A mulher indigena nao representa a Republica; ela representa o territorio colonizado como corpo disponivel ao olhar metropolitano.
+**Justificativa:** A serie definitiva de 1907 (18 valores, de 1c a 75c) substitui a alegoria de "France" (Grasset) por retratos ou figuras de mulheres indochinesas. Esta e uma mutacao morfologica radical: o corpo alegorico deixa de ser europeu/classico e torna-se indigena. Nao e endurecimento (a figura nao se torna rigida, marcial ou heraldica) -- e uma *indigenizacao* que levanta questoes fundamentais para o contrato sexual visual: **o corpo feminino colonizado substitui o corpo feminino alegorico metropolitano**. A mulher indigena nao representa a Republica; ela representa o territorio colonizado como corpo disponivel ao olhar metropolitano.
 
 **Atributos identificados:**
 - [ ] barrete frigio
@@ -453,7 +453,7 @@ data_scout: 2026-03-29
 - [x] inscricao "INDO-CHINE" ou "INDOCHINE"
 - [x] figura feminina nao-alegorica (retrato etnografico)
 
-**ENDURECIMENTO detectado:** nao (mas presenca de um fenomeno distinto: *indigenizacao do corpo feminino postal*). A mulher indochinesa no selo nao e uma alegoria endurecida; e uma substituicao total da alegoria por um corpo racializado.
+**endurecimento detectado:** nao (mas presenca de um fenomeno distinto: *indigenizacao do corpo feminino postal*). A mulher indochinesa no selo nao e uma alegoria endurecida; e uma substituicao total da alegoria por um corpo racializado.
 
 ---
 
@@ -477,7 +477,7 @@ INDOCHINE FRANCAISE. *Femmes indochinoises, serie definitiva*. 1907. Selo postal
 
 ## Observacoes do Scout
 
-Candidato de alta relevancia teorica, mesmo que venha a ser excluido do corpus por nao atender ao criterio de "figura alegorica". A sequencia Indochina (Navigation et Commerce -> France/Grasset -> Femmes indochinoises) demonstra uma trajetoria postal colonial unica: da alegoria universal colonial, passando pela alegoria da metropole, ate a substituicao por corpos femininos indigenas. E o oposto do ENDURECIMENTO -- e uma *corporizacao etnografica*.
+Candidato de alta relevancia teorica, mesmo que venha a ser excluido do corpus por nao atender ao criterio de "figura alegorica". A sequencia Indochina (Navigation et Commerce -> France/Grasset -> Femmes indochinoises) demonstra uma trajetoria postal colonial unica: da alegoria universal colonial, passando pela alegoria da metropole, ate a substituicao por corpos femininos indigenas. E o oposto do endurecimento -- e uma *corporizacao etnografica*.
 
 **Referencias bibliograficas:**
 - Stamp Encyclopedia. "Indochina." Disponivel em: https://stampencyclopedia.miraheze.org/wiki/Indochina
@@ -516,7 +516,7 @@ related:
   - "[[Regime MILITAR]]"
   - "[[SCOUT-023]]"
   - "[[SCOUT-033]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato sexual visual]]"
   - "[[Piastre de Commerce]]"
 data_scout: 2026-03-29
@@ -553,7 +553,7 @@ data_scout: 2026-03-29
 - [x] postura frontal/majestativa/sentada
 - [x] trono
 
-**ENDURECIMENTO detectado:** sim -- fortemente presente. Indicadores ativos: rigidez_postural (sentada em trono vs. Semeuse em movimento), dessexualizacao (corpo coberto, majestativo), heraldizacao (fasces como atributo heraldico de poder), inscricao_estatal (PIASTRE DE COMMERCE + INDO-CHINE FRANCAISE), monocromatizacao (prata uniforme). A Piastre e um caso exemplar de ENDURECIMENTO colonial no suporte monetario.
+**endurecimento detectado:** sim -- fortemente presente. Indicadores ativos: rigidez_postural (sentada em trono vs. Semeuse em movimento), dessexualizacao (corpo coberto, majestativo), heraldizacao (fasces como atributo heraldico de poder), inscricao_estatal (PIASTRE DE COMMERCE + INDO-CHINE FRANCAISE), monocromatizacao (prata uniforme). A Piastre e um caso exemplar de endurecimento colonial no suporte monetario.
 
 ---
 
@@ -583,7 +583,7 @@ BARRE, Jean-Auguste (grav.). *Piastre de Commerce, 1 Piastre*. 1885-1895. Moeda,
 
 ## Observacoes do Scout
 
-**ATENCAO: Possivel relacao com SCOUT-023.** A pesquisa original menciona SCOUT-023 como "Piastre de Commerce, Marianne sentada com fasces -- moeda colonial com ENDURECIMENTO." Se SCOUT-023 ja cataloga esta mesma moeda, SCOUT-038 e duplicata e deve ser descartado. Se SCOUT-023 catalogou uma variante diferente (por exemplo, o tipo de 1895-1928 com peso reduzido), entao SCOUT-038 complementa como o tipo anterior. **Verificar.**
+**ATENCAO: Possivel relacao com SCOUT-023.** A pesquisa original menciona SCOUT-023 como "Piastre de Commerce, Marianne sentada com fasces -- moeda colonial com endurecimento." Se SCOUT-023 ja cataloga esta mesma moeda, SCOUT-038 e duplicata e deve ser descartado. Se SCOUT-023 catalogou uma variante diferente (por exemplo, o tipo de 1895-1928 com peso reduzido), entao SCOUT-038 complementa como o tipo anterior. **Verificar.**
 
 **Referencias bibliograficas:**
 - KRAUSE, Chester L.; MISHLER, Clifford. *Standard Catalog of World Coins*. Iola, WI: Krause Publications.
@@ -617,7 +617,7 @@ related:
   - "[[SCOUT-033]]"
   - "[[SCOUT-034]]"
   - "[[SCOUT-035]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Regime NORMATIVO]]"
   - "[[Contrato sexual visual]]"
 data_scout: 2026-03-29
@@ -625,7 +625,7 @@ data_scout: 2026-03-29
 
 ## Painel 5 -- SEMEUSE METROPOLITANA x SISTEMA POSTAL COLONIAL (Zwischenraum)
 
-Este painel estabelece o espaco de tensao (*Zwischenraum*) entre a Semeuse metropolitana -- alegoria dinamica da Republica em gesto de semeadura, anti-ENDURECIMENTO por excelencia -- e o sistema postal colonial frances, que **recusou** a Semeuse e criou alegorias coloniais proprias.
+Este painel estabelece o espaco de tensao (*Zwischenraum*) entre a Semeuse metropolitana -- alegoria dinamica da Republica em gesto de semeadura, anti-endurecimento por excelencia -- e o sistema postal colonial frances, que **recusou** a Semeuse e criou alegorias coloniais proprias.
 
 **Polo A (Franca metropolitana, 1903):** *La Semeuse* (Oscar Roty, gravada por Mouchon) -- mulher jovem semeando contra sol nascente, barrete frigio, corpo em movimento, gesto de disseminacao. SCOUT-033.
 **Polo B (Indochina francesa, 1892-1907):** *Type Navigation et Commerce* (Mouchon, 1892) -> *Type Grasset* (1904) -> *Femmes indochinoises* (1907) -- sequencia de alegorias coloniais que nunca incluiu a Semeuse. SCOUT-035, SCOUT-036, SCOUT-037.
@@ -638,19 +638,19 @@ Este painel estabelece o espaco de tensao (*Zwischenraum*) entre a Semeuse metro
 | **Data** | 1903-1940 | 1892-1907+ |
 | **Desenhista** | Oscar Roty (des.) / L.-E. Mouchon (grav.) | L.-E. Mouchon (1892) / Grasset (1904) / anonimo (1907) |
 | **Circulacao** | Metropole francesa exclusivamente | Indochina francesa exclusivamente |
-| **Regime** | NORMATIVO (dinamico) | NORMATIVO (com ENDURECIMENTO progressivo, depois indigenizacao) |
+| **Regime** | NORMATIVO (dinamico) | NORMATIVO (com endurecimento progressivo, depois indigenizacao) |
 | **Corpo alegorico** | Mulher jovem, dinamica, semeando | Figuras femininas estaticas (1892), depois alegoria tutelar (1904), depois mulheres indigenas (1907) |
 | **Atributo central** | Sementes/trigo + sol nascente | Comercio/navegacao (1892), "France" (1904), etnicidade (1907) |
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-O Zwischenraum entre a Semeuse e o sistema postal colonial revela que **o ENDURECIMENTO nao e a unica estrategia de mutacao alegorica colonial**. Na moeda colonial (Piastre de Commerce), o ENDURECIMENTO e classico: Marianne sentada com fasces, corpo rigido, dessexualizado, majestativo. Mas no selo postal colonial, a estrategia e diferente e mais complexa:
+O Zwischenraum entre a Semeuse e o sistema postal colonial revela que **o endurecimento nao e a unica estrategia de mutacao alegorica colonial**. Na moeda colonial (Piastre de Commerce), o endurecimento e classico: Marianne sentada com fasces, corpo rigido, dessexualizado, majestativo. Mas no selo postal colonial, a estrategia e diferente e mais complexa:
 
-1. **Fase 1 (1892-1904): ENDURECIMENTO leve.** O tipo "Navigation et Commerce" e mais estatico que a Semeuse (rigidez_postural, uniformizacao_facial, serialidade) mas nao apresenta a rigidez marcial da Piastre. E uma alegoria burocratica, nao militar.
+1. **Fase 1 (1892-1904): endurecimento leve.** O tipo "Navigation et Commerce" e mais estatico que a Semeuse (rigidez_postural, uniformizacao_facial, serialidade) mas nao apresenta a rigidez marcial da Piastre. E uma alegoria burocratica, nao militar.
 
 2. **Fase 2 (1904-1906): Heraldizacao colonial.** O tipo Grasset substitui a alegoria generica por "France" -- a nacao personificada como potencia tutelar sobre a colonia. Heraldizacao sem marcialidade.
 
-3. **Fase 3 (1907+): Indigenizacao.** As "Femmes indochinoises" nao sao ENDURECIMENTO nem anti-ENDURECIMENTO. Sao uma terceira via: a **substituicao da alegoria por um corpo racializado**. A mulher no selo deixa de representar a Republica e passa a representar o territorio colonizado como corpo disponivel.
+3. **Fase 3 (1907+): Indigenizacao.** As "Femmes indochinoises" nao sao endurecimento nem anti-endurecimento. Sao uma terceira via: a **substituicao da alegoria por um corpo racializado**. A mulher no selo deixa de representar a Republica e passa a representar o territorio colonizado como corpo disponivel.
 
 **Indicadores comparados:**
 
@@ -680,19 +680,19 @@ O contrato sexual visual opera de maneiras radicalmente distintas nos dois polos
 
 ### 3. Sintese para a Tese
 
-Este Zwischenraum demonstra uma tese central: **a cultura juridica modifica a morfologia de suas alegorias nao apenas por ENDURECIMENTO (rigidez, dessexualizacao, heraldizacao) mas tambem por *indigenizacao* (substituicao da alegoria por corpos racializados)**. O sistema postal colonial frances prova que o ENDURECIMENTO nao e a unica resposta a crise de legitimacao colonial:
+Este Zwischenraum demonstra uma tese central: **a cultura juridica modifica a morfologia de suas alegorias nao apenas por endurecimento (rigidez, dessexualizacao, heraldizacao) mas tambem por *indigenizacao* (substituicao da alegoria por corpos racializados)**. O sistema postal colonial frances prova que o endurecimento nao e a unica resposta a crise de legitimacao colonial:
 
-- No **sistema monetario** colonial (Piastre de Commerce), a estrategia foi o ENDURECIMENTO classico: Marianne sentada com fasces, corpo rigido, autoridade imperial.
+- No **sistema monetario** colonial (Piastre de Commerce), a estrategia foi o endurecimento classico: Marianne sentada com fasces, corpo rigido, autoridade imperial.
 - No **sistema postal** colonial (Indochina), a estrategia foi uma sequencia que culminou na indigenizacao: substituicao da alegoria republicana por corpos femininos colonizados.
 
 A excecao crucial e a **Argelia**, unico territorio onde a Semeuse metropolitana circulou (com sobrecarga "ALGERIE") -- porque a Argelia era juridicamente departamento, nao colonia. A alegoria acompanha o estatuto juridico do territorio.
 
-Esta divergencia entre suportes (moeda = ENDURECIMENTO, selo = indigenizacao) sugere que a funcao do suporte determina a estrategia morfologica: a moeda exige autoridade (ENDURECIMENTO), o selo permite pedagogia colonial (indigenizacao como espetaculo do dominio sobre o corpo do outro).
+Esta divergencia entre suportes (moeda = endurecimento, selo = indigenizacao) sugere que a funcao do suporte determina a estrategia morfologica: a moeda exige autoridade (endurecimento), o selo permite pedagogia colonial (indigenizacao como espetaculo do dominio sobre o corpo do outro).
 ```
 
 ---
 
-## SCOUT-ZW-06 Painel 6 -- SEMEUSE DINAMICA x PIASTRE DE COMMERCE: Moeda e selo como vetores divergentes de ENDURECIMENTO colonial
+## SCOUT-ZW-06 Painel 6 -- SEMEUSE DINAMICA x PIASTRE DE COMMERCE: Moeda e selo como vetores divergentes de endurecimento colonial
 
 ```
 ---
@@ -713,7 +713,7 @@ related:
   - "[[SCOUT-023]]"
   - "[[SCOUT-034]]"
   - "[[SCOUT-038]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Regime NORMATIVO]]"
   - "[[Regime MILITAR]]"
   - "[[Contrato sexual visual]]"
@@ -724,8 +724,8 @@ data_scout: 2026-03-29
 
 Este painel confronta dois suportes materiais do Estado frances -- selo postal e moeda -- para demonstrar que o mesmo Estado usou **estrategias alegorigicas opostas** conforme o suporte e o destino (metropole vs. colonia).
 
-**Polo A (Metropole, selo, 1903):** *La Semeuse* (Roty/Mouchon) -- corpo dinamico, anti-ENDURECIMENTO, gesto de semeadura, barrete frigio. SCOUT-033.
-**Polo B (Colonia, moeda, 1885):** *Piastre de Commerce* (Barre) -- Marianne sentada com fasces, corpo rigido, ENDURECIMENTO maximo, coroa radiada. SCOUT-023 / SCOUT-038.
+**Polo A (Metropole, selo, 1903):** *La Semeuse* (Roty/Mouchon) -- corpo dinamico, anti-endurecimento, gesto de semeadura, barrete frigio. SCOUT-033.
+**Polo B (Colonia, moeda, 1885):** *Piastre de Commerce* (Barre) -- Marianne sentada com fasces, corpo rigido, endurecimento maximo, coroa radiada. SCOUT-023 / SCOUT-038.
 
 ### Dados Comparados
 
@@ -740,19 +740,19 @@ Este painel confronta dois suportes materiais do Estado frances -- selo postal e
 | **Corpo alegorico** | Mulher em movimento, semeando | Mulher sentada em trono com fasces |
 | **Atributo central** | Sementes + sol nascente | Fasces + coroa radiada + trono |
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-A comparacao entre Semeuse e Piastre e o caso mais puro de ENDURECIMENTO diferencial no corpus frances:
+A comparacao entre Semeuse e Piastre e o caso mais puro de endurecimento diferencial no corpus frances:
 
-**Semeuse (anti-ENDURECIMENTO):**
+**Semeuse (anti-endurecimento):**
 - Corpo em movimento pleno (caminhando, bracando para semear)
 - Veste fluida acompanhando o gesto
 - Barrete frigio (simbolo revolucionario, nao imperial)
 - Atributo: sementes (geracao, futuro, paz)
 - Direcao: para frente, contra o sol nascente
-- Zero indicadores de ENDURECIMENTO ativos
+- Zero indicadores de endurecimento ativos
 
-**Piastre de Commerce (ENDURECIMENTO maximo):**
+**Piastre de Commerce (endurecimento maximo):**
 - Corpo sentado, imobilizado em trono
 - Veste pesada, rigida, classicizante
 - Coroa radiada (simbolo imperial, nao republicano)
@@ -760,7 +760,7 @@ A comparacao entre Semeuse e Piastre e o caso mais puro de ENDURECIMENTO diferen
 - Direcao: lateral esquerda, estatica, hieratica
 - Indicadores ativos: rigidez_postural, dessexualizacao, heraldizacao, inscricao_estatal, monocromatizacao
 
-O delta de ENDURECIMENTO entre os dois e maximo: **0/10 vs. 5/10**. A mesma "Marianne" -- a mesma Republica -- produz corpos alegoricos opostos conforme o suporte e o destino colonial.
+O delta de endurecimento entre os dois e maximo: **0/10 vs. 5/10**. A mesma "Marianne" -- a mesma Republica -- produz corpos alegoricos opostos conforme o suporte e o destino colonial.
 
 ### 2. O Contrato Sexual Visual
 
@@ -774,11 +774,11 @@ A diferenca entre "semear" e "empunhar fasces" e a diferenca entre dois contrato
 
 Este Zwischenraum e central para a tese porque demonstra que:
 
-1. **O ENDURECIMENTO e funcao do destino colonial, nao do suporte.** A mesma Republica que se autorrepresenta como semeadora dinamica na metropole se autorrepresenta como soberana armada de fasces na colonia. O corpo alegorico muda conforme o destinatario: cidadaos metropolitanos recebem a promessa (sementes); sujeitos coloniais recebem a ameaca (fasces).
+1. **O endurecimento e funcao do destino colonial, nao do suporte.** A mesma Republica que se autorrepresenta como semeadora dinamica na metropole se autorrepresenta como soberana armada de fasces na colonia. O corpo alegorico muda conforme o destinatario: cidadaos metropolitanos recebem a promessa (sementes); sujeitos coloniais recebem a ameaca (fasces).
 
-2. **O suporte condiciona a estrategia.** A moeda colonial (Piastre) adotou ENDURECIMENTO classico porque a moeda exige autoridade fiduciaria -- o peso, a pureza, o trono comunicam confianca e poder. O selo postal colonial (Navigation et Commerce) adotou uma via diferente (alegoria generica -> indigenizacao) porque o selo comunica presenca administrativa, nao autoridade fiduciaria.
+2. **O suporte condiciona a estrategia.** A moeda colonial (Piastre) adotou endurecimento classico porque a moeda exige autoridade fiduciaria -- o peso, a pureza, o trono comunicam confianca e poder. O selo postal colonial (Navigation et Commerce) adotou uma via diferente (alegoria generica -> indigenizacao) porque o selo comunica presenca administrativa, nao autoridade fiduciaria.
 
-3. **A cronologia e reveladora.** A Piastre (1885) antecede a Semeuse (1903). A colonia recebeu o ENDURECIMENTO antes de a metropole ter formulado sua alternativa anti-ENDURECIMENTO. Isto sugere que o ENDURECIMENTO nao e uma *degeneracao* da alegoria metropolitana, mas sim a **forma primaria** da alegoria colonial, sobre a qual a metropole depois construiu sua alternativa.
+3. **A cronologia e reveladora.** A Piastre (1885) antecede a Semeuse (1903). A colonia recebeu o endurecimento antes de a metropole ter formulado sua alternativa anti-endurecimento. Isto sugere que o endurecimento nao e uma *degeneracao* da alegoria metropolitana, mas sim a **forma primaria** da alegoria colonial, sobre a qual a metropole depois construiu sua alternativa.
 
 4. **O mesmo Estado, duas alegorias:** A Republica Francesa operou simultaneamente (1903-1928) duas representacoes femininas do poder estatal -- Semeuse e Piastre -- sem contradicao aparente. Esta dualidade e a prova material de que a cultura juridica moderna instrumentaliza o corpo feminino de forma diferenciada conforme a relacao de poder (cidadania vs. sujeicao colonial).
 ```

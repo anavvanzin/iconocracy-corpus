@@ -19,7 +19,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.8
 hunt_source: va
@@ -40,9 +40,9 @@ Medal. London. query: Britannia allegory
 
 **Motivos identificados**: Britannia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 LTD, Spink & Son. **Medal**. 1897. Victoria and Albert Museum. Disponível em: https://collections.vam.ac.uk/item/O77466. Acesso em: 03 Apr. 2026.

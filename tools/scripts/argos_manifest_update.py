@@ -1,16 +1,4 @@
 #!/usr/bin/env python3
-"""Atomic locked writeback to ARGOS manifest.json.
-
-Subagents call this helper after each item attempt; the ``fcntl`` lock
-serialises concurrent writes. The patch is a JSON object; the special
-``attempts`` key (if present) is *appended* rather than overwritten.
-
-Usage:
-    python tools/scripts/argos_manifest_update.py \
-        --item-id BR-001 \
-        --patch '{"status":"success","attempts":[{"ts":"...","protocol":"iiif","status_code":200}]}'
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -18,37 +6,51 @@ import json
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
-from argos import manifest as argos_manifest
+from tools.argos.manifest import locked_update_manifest
+
+DEFAULT_MANIFEST_PATH = REPO_ROOT / "data" / "raw" / "argos" / "manifest.json"
+
+
+def _format_user_error(exc: Exception) -> str:
+    if isinstance(exc, KeyError) and exc.args:
+        return str(exc.args[0])
+    return str(exc)
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Atomically update a single ARGOS manifest item.")
+    parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST_PATH, help="Path to manifest.json")
+    parser.add_argument("--item-id", required=True, help="Manifest item_id to update")
+    parser.add_argument("--patch", required=True, help="JSON object patch to merge into the matching item")
+    parser.add_argument("--lock-path", type=Path, default=None, help="Optional explicit lock file path")
+    return parser.parse_args()
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--item-id", required=True)
-    parser.add_argument("--patch", required=True, help="JSON object of fields to merge")
-    args = parser.parse_args()
-
+    args = parse_args()
     try:
         patch = json.loads(args.patch)
     except json.JSONDecodeError as exc:
         print(f"Invalid patch JSON: {exc}", file=sys.stderr)
-        return 2
+        return 1
+
     if not isinstance(patch, dict):
-        print("Patch must be a JSON object", file=sys.stderr)
-        return 2
+        print("Patch must decode to a JSON object", file=sys.stderr)
+        return 1
 
     try:
-        argos_manifest.locked_update(args.item_id, patch)
-    except KeyError as exc:
-        print(f"Manifest update failed: {exc}", file=sys.stderr)
-        return 3
-    except Exception as exc:  # noqa: BLE001
-        print(f"Manifest update error: {exc}", file=sys.stderr)
-        return 4
-    print(f"updated {args.item_id}")
+        locked_update_manifest(args.manifest, args.item_id, patch, lock_path=args.lock_path)
+    except (KeyError, ValueError) as exc:
+        print(_format_user_error(exc), file=sys.stderr)
+        return 1
+
+    print(f"Updated manifest item {args.item_id} in {args.manifest}")
     return 0
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    sys.exit(main())

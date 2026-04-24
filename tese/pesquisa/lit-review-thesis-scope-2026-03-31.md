@@ -96,7 +96,7 @@ The Notion page identifies: *"limited systematic work on colonial and postcoloni
 | Studies ONE country's allegory | **6-country comparative** |
 | Studies ONE support type | **5 support types** (coins, stamps, paper money, monuments, prints) |
 | Applies Warburg to art | **Applies Warburg to mass-produced juridical imagery** |
-| Studies gender OR race in allegory | **Introduces ENDURECIMENTO as measurable 10-indicator framework** |
+| Studies gender OR race in allegory | **Introduces endurecimento as measurable 10-indicator framework** |
 | Belgian colonial allegory = "Insufficient evidence" (Notion) | **3 BE Congo items + ZW-09** |
 | Colonial reworkings = "limited" (Notion) | **ZW-06 (Trade Dollar x Piastre) + ZW-09 (Congo banknotes)** |
 | Johnson uses Germania alone | **Tracks Pathosformel across 6 national allegories simultaneously** |

@@ -27,4 +27,4 @@ data_scout: 2026-03-30
 ## Analise preliminar
 **Motivo:** La Constitution founded on Natural Liberty
 **Regime:** FUNDACIONAL — sacrificial-foundational, the allegory declares its own founding logic
-**ENDURECIMENTO detectado:** nao
+**endurecimento detectado:** nao

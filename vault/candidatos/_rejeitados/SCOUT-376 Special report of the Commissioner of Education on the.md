@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -36,9 +36,9 @@ data_scout: 2026-04-04
 
 **Motivos identificados**: Columbia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 OFFICE, united states. government publishing. **Special report of the Commissioner of Education on the condition and improvement of public schools in the District of Columbia, submitted to the Senate June, 1868, and to the House, with additions June 13, 1870**. 1869. Library of Congress. Disponível em: https://www.loc.gov/item/2024881253/. Acesso em: 04 Apr. 2026.

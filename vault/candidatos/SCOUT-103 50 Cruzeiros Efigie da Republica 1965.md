@@ -12,7 +12,7 @@ motivo_alegorico: "A República (efígie)"
 regime: NORMATIVO
 confianca: alto
 tags: [corpus/candidato, pais/BR, suporte/moeda, regime/normativo, motivo/republica, "#sem-iiif"]
-related: ["[[Regime Normativo]]", "[[ENDURECIMENTO]]", "[[SCOUT-095]]"]
+related: ["[[Regime Normativo]]", "[[endurecimento]]", "[[SCOUT-095]]"]
 hf_synced: false
 data_scout: 2026-03-30
 ---
@@ -25,5 +25,5 @@ data_scout: 2026-03-30
 
 ## Analise preliminar
 **Motivo:** Efígie da República — profile bust inspirada em Tônia Carreiro
-**Regime:** NORMATIVO — ENDURECIMENTO máximo na série brasileira
-**ENDURECIMENTO detectado:** sim (todos os 10 indicadores ativos)
+**Regime:** NORMATIVO — endurecimento máximo na série brasileira
+**endurecimento detectado:** sim (todos os 10 indicadores ativos)

@@ -13,7 +13,7 @@
 | Recurso | Status | Cobertura |
 |---------|--------|-----------|
 | Projeto de tese (processo seletivo 2025) | Completo | Hipótese, objetivos, referencial — precisa atualização para qualificação |
-| Corpus empírico | 145 itens, 88% codificados (ENDURECIMENTO) | 6 países, 27% da matriz país×regime×suporte preenchida |
+| Corpus empírico | 145 itens, 88% codificados (endurecimento) | 6 países, 27% da matriz país×regime×suporte preenchida |
 | Notebooks estatísticos | 4/4 completos e executados | Cap. 6 inteiro coberto (descritivo, Kruskal-Wallis, regressão, correspondência) |
 | Rascunhos de artigos | 7 textos, ~40k palavras | Alimentam Caps. 1–5, 7 diretamente |
 | Capítulos redigidos | Intro (~5.3k), Cap. 1 (~3.3k), Cap. 2 (~1.2k vault) | 3/11 peças com texto |
@@ -30,11 +30,14 @@
 
 > A recorrência de alegorias femininas nos repertórios estatais e jurídicos dos séculos XIX–XX constitui um regime iconocrático que materializa visualmente o contrato sexual, oferecendo reconhecimento simbólico ao feminino enquanto mantém a exclusão cívica das mulheres reais.
 
-### Conceitos originais (3)
+### Conceitos originais (4) — arquitetura revisada 2026-04-17
 
-1. **Contrato Sexual Visual** — ponte Pateman↔Goodrich: a dimensão visual do contrato sexual
-2. **Feminilidade de Estado** — o corpo feminino esvaziado como infraestrutura de afeto público
-3. **Contrato Racial Visual** — a branquitude constitutiva da alegoria "universal" (dimensão pós-colonial)
+1. **Contrato Sexual Visual** (Cap. 1) — ponte Pateman↔Goodrich: a dimensão visual do contrato sexual
+2. **Feminilidade de Estado** (Cap. 2.2) — o corpo feminino esvaziado como infraestrutura de afeto público; raízes genealógicas: Legendre (juiz totêmico) + Carson (hystéra)
+3. **Contrato Racial Visual** (Cap. 3) — a branquitude constitutiva da alegoria "universal" (dimensão pós-colonial)
+4. **Purificação Clássica** (Cap. 5.2) — operação formal de extração do feminino histórico para fixá-lo no eterno alegórico. Matriz primária jurídica (Kantorowicz/Legendre/Hespanha); extensão ferramental (Latour 1991/Haraway 1985/Descola). Operacionalizada empiricamente em endurecimento (10 indicadores ordinais). Ver [[2026-04-17_ultraplan-qualificacao]]
+
+> **Decisão 2026-04-17 (Council A+):** A palavra "ciberfeminismo" não aparece no manuscrito. Tradição reservada para paper derivado pós-defesa.
 
 ### Pergunta central
 
@@ -58,10 +61,10 @@
 | I | Cap. 3 — A Colonialidade do Ver | A "universalidade" da alegoria clássica é operação colonial; o contrato racial visual instala-se no Brasil | 12.000 |
 | II — Método e Corpus | Cap. 4 — Desenho Metodológico | Iconometria jurídica (QUAN) e iconologia (QUAL) são complementares; a montagem warburguiana sintetiza | 10.000 |
 | II | Cap. 5 — O Corpus | 145+ itens, 10 indicadores ordinais, IconoCode, infraestrutura auditável = contribuição metodológica original | 10.000 |
-| III — Resultados | Cap. 6 — Análise Quantitativa | ENDURECIMENTO difere entre regimes; regime+suporte predizem purificação; famílias alegóricas transatlânticas | 12.000 |
+| III — Resultados | Cap. 6 — Análise Quantitativa | endurecimento difere entre regimes; regime+suporte predizem purificação; famílias alegóricas transatlânticas | 12.000 |
 | III | Cap. 7 — Análise Qualitativa | Casos paradigmáticos revelam agência, contestação e sobrevivência das fórmulas | 18.000 |
 | IV — Atlas e Síntese | Cap. 8 — Atlas: Princípios | O Atlas é método de demonstração, não ilustração | 8.000 |
-| IV | Cap. 9 — Os 8 Painéis | Cada painel é argumento visual (Gênese, Justitia, Domesticação, Hardening, Pedra, Balança, Branquitude, Fissuras) | 15.000 |
+| IV | Cap. 9 — Os 8 Painéis | Cada painel é argumento visual (Gênese, Justitia, Domesticação, endurecimento, Pedra, Balança, Branquitude, Fissuras) | 15.000 |
 | — | Conclusão | Contrato Sexual Visual como chave de leitura; limites; agenda futura | 6.000 |
 | | **TOTAL** | | **~128.000** |
 
@@ -144,10 +147,10 @@
 
 ### CAPÍTULO 6 — Análise Quantitativa: Padrões Iconométricos
 
-- **Argumento**: ENDURECIMENTO difere significativamente entre regimes; regime+suporte predizem purificação; análise de correspondência revela famílias alegóricas transatlânticas
+- **Argumento**: endurecimento difere significativamente entre regimes; regime+suporte predizem purificação; análise de correspondência revela famílias alegóricas transatlânticas
 - **Seções**: 6.1 Panorama descritivo · 6.2 Kruskal-Wallis · 6.3 Regressão ordinal · 6.4 Correspondência múltipla · 6.5 Limites da quantificação
 - **Material existente**: 4 notebooks completos (01_exploratory → 02_kruskal_wallis → 03_regression → 04_correspondence) + 10 figuras + CSV 145 itens
-- **Dados-chave**: Kruskal-Wallis 9/10 significativos; Regressão R²=0.49 (regime+medium); MCA 3 dims = 10.9% inércia; ENDURECIMENTO médio 1.44
+- **Dados-chave**: Kruskal-Wallis 9/10 significativos; Regressão R²=0.49 (regime+medium); MCA 3 dims = 10.9% inércia; endurecimento médio 1.44
 - **A fazer**: Converter resultados em prosa acadêmica; conectar estatística ↔ teoria dos regimes
 - **Dependências**: Cap. 5 (corpus descrito) + notebooks (FEITO)
 - **Trilho**: B (empírico-técnico)
@@ -182,7 +185,7 @@
 
 ### CAPÍTULO 9 — Os 8 Painéis do Atlas Iconocrático
 
-- **Argumento**: Cada painel é argumento visual — Gênese, Justitia, Domesticação, Hardening, Pedra e Bronze, Balança e Império, Branquitude, Fissuras
+- **Argumento**: Cada painel é argumento visual — Gênese, Justitia, Domesticação, endurecimento, Pedra e Bronze, Balança e Império, Branquitude, Fissuras
 - **Seções**: 9.1–9.8 (um por painel: título, epígrafe, seleção de imagens, texto interpretativo)
 - **Material existente**: Sumário dos 8 painéis + corpus com imagens + Zwischenräume (ZW-01 a ZW-09)
 - **A fazer**: Montar painéis + redigir textos interpretativos (~1.500–1.800 por painel)

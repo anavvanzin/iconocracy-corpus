@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: europeana
@@ -40,9 +40,9 @@ Justitia (Gerechtigkeit). Wohl Öl auf Holz (ab 1634; C. Schiebling). Radebeul, 
 
 **Motivos identificados**: Justitia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 (FOTOGRAF), Ahlers, Henrik (Herstellung). **Justitia (Gerechtigkeit)**. Deutsche Fotothek. Disponível em: http://www.deutschefotothek.de/documents/obj/72066905. Acesso em: 03 Apr. 2026.

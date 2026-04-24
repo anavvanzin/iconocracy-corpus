@@ -19,11 +19,16 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import tempfile
+import uuid
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent
 RECORDS = REPO / "data" / "processed" / "records.jsonl"
 CORPUS_OUT = REPO / "corpus" / "corpus-data.json"
+
+# Stable namespace shared with csv_to_records.py for corpus-id -> UUID5 mapping.
+_NS = uuid.UUID("6ba7b810-9dad-11d1-80b4-00c04fd430c8")
 
 # Map master-record country strings (from input.place_hint) back to corpus names
 COUNTRY_MAP_REVERSE: dict[str, str] = {
@@ -43,6 +48,39 @@ COUNTRY_MAP_REVERSE: dict[str, str] = {
     "Mexico": "Mexico",
     "Argentina": "Argentina",
 }
+
+
+def _item_uuid(corpus_id: str) -> str:
+    """Reconstruct the deterministic item UUID used by csv_to_records.py."""
+    return str(uuid.uuid5(_NS, f"iconocracy-corpus-{corpus_id}"))
+
+
+def _atomic_write_json(path: Path, payload: list[dict]) -> None:
+    """Atomically write JSON to disk to avoid half-written corpus files."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(
+        "w", encoding="utf-8", dir=path.parent, delete=False, suffix=".tmp"
+    ) as tmp:
+        tmp.write(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
+        tmp_path = Path(tmp.name)
+    tmp_path.replace(path)
+
+
+def _record_diff_key(record: dict) -> str:
+    """Normalize diff comparison keys so placeholders align with empty-URL corpus items."""
+    sr = record.get("webscout", {}).get("search_results", [{}])
+    url = sr[0].get("url", "") if sr else ""
+    item_id = record.get("item_id", "(sem-item-id)")
+    prefix = "https://iconocracy.corpus/placeholder/"
+    if url.startswith(prefix):
+        corpus_id = url.removeprefix(prefix)
+        return f"(sem URL)::{corpus_id}"
+    return url or f"(sem URL)::{item_id}"
+
+
+def _corpus_diff_key(item_id: str, item: dict) -> str:
+    url = item.get("url", "")
+    return url or f"(sem URL)::{item_id}"
 
 
 def _load_records() -> list[dict]:
@@ -115,14 +153,10 @@ def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
 
     coded_by = purif.get("coded_by") or ""
     coded_at = purif.get("coded_at") or record.get("timestamps", {}).get("updated_at", "")
-    endurecimento = purif.get("purificacao_composto")
+    endurecimento = purif.get("purificacao_composto") or 0.0
 
     # Start from existing entry for rich fields (panofsky, institution, etc.)
     entry: dict = dict(existing) if existing else {}
-
-    # Ensure new entries get a canonical ID from the record
-    if not existing and record.get("item_id"):
-        entry.setdefault("id", record["item_id"])
 
     # Overwrite with authoritative fields from records.jsonl
     entry.update({
@@ -131,7 +165,7 @@ def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
         "description": description or entry.get("description", ""),
         "motif": motifs or entry.get("motif", []),
         "regime": regime or entry.get("regime", ""),
-        "endurecimento_score": endurecimento if endurecimento is not None else entry.get("endurecimento_score", 0.0),
+        "endurecimento_score": endurecimento or entry.get("endurecimento_score", 0.0),
         "coded_by": coded_by or entry.get("coded_by", ""),
         "coded_at": coded_at or entry.get("coded_at", ""),
     })
@@ -163,59 +197,50 @@ def export_corpus(
     """
     result: list[dict] = []
 
-    # Index records by URL — use a list to handle duplicate URLs safely
-    from collections import defaultdict
-    records_by_url: dict[str, list[dict]] = defaultdict(list)
+    # Index records by deterministic item_id first (canonical), URL as fallback.
+    records_by_item_id: dict[str, dict] = {}
+    records_by_url: dict[str, dict] = {}
     for rec in records:
+        rec_item_id = rec.get("item_id", "")
+        if rec_item_id:
+            records_by_item_id[rec_item_id] = rec
         sr = rec.get("webscout", {}).get("search_results", [{}])
         url = sr[0].get("url", "") if sr else ""
         if url:
-            records_by_url[url].append(rec)
-
-    # Track which individual records have been consumed (by item_id)
-    matched_record_ids: set[str] = set()
+            records_by_url[url] = rec
 
     # Process existing corpus entries
+    matched_urls: set[str] = set()
+    matched_item_ids: set[str] = set()
+
     if not replace:
         for item_id, item in existing_corpus.items():
+            expected_record_item_id = _item_uuid(item_id)
             item_url = item.get("url", "")
-            candidates = records_by_url.get(item_url, [])
-            rec = None
-            if len(candidates) == 1:
-                rec = candidates[0]
-            elif len(candidates) > 1:
-                # Disambiguate by title_hint matching the corpus item title
-                item_title = (item.get("title") or "").lower()
-                for c in candidates:
-                    if c.get("item_id") not in matched_record_ids:
-                        hint = (c.get("input", {}).get("title_hint") or "").lower()
-                        if hint and hint in item_title or item_title in hint:
-                            rec = c
-                            break
-                # Fall back to first unconsumed record
-                if rec is None:
-                    for c in candidates:
-                        if c.get("item_id") not in matched_record_ids:
-                            rec = c
-                            break
+            rec = records_by_item_id.get(expected_record_item_id)
+            if not rec and item_url:
+                rec = records_by_url.get(item_url)
             if rec:
                 entry = _corpus_entry_from_record(rec, item)
-                matched_record_ids.add(rec.get("item_id", ""))
+                matched_item_ids.add(rec.get("item_id", ""))
+                matched_urls.add(item_url)
             else:
                 entry = dict(item)
             result.append(entry)
 
     # Add records not matched to existing corpus
     for rec in records:
-        if rec.get("item_id") in matched_record_ids:
-            continue
+        rec_item_id = rec.get("item_id", "")
         sr = rec.get("webscout", {}).get("search_results", [{}])
         url = sr[0].get("url", "") if sr else ""
+        if rec_item_id in matched_item_ids or url in matched_urls:
+            continue
         if replace or url not in {i.get("url", "") for i in result}:
             entry = _corpus_entry_from_record(rec, None)
             if entry.get("title"):
                 result.append(entry)
 
+    result.sort(key=lambda item: (str(item.get("id", "")), str(item.get("url", ""))))
     return result
 
 
@@ -223,17 +248,13 @@ def show_diff(records: list[dict], existing_corpus: dict[str, dict]) -> None:
     """Show a summary of differences between records.jsonl and corpus-data.json."""
     rec_items: dict[str, str] = {}
     for rec in records:
-        sr = rec.get("webscout", {}).get("search_results", [{}])
-        url = sr[0].get("url", "") if sr else ""
-        item_id = rec.get("item_id", "(sem-item-id)")
-        key = url or f"(sem URL)::{item_id}"
-        rec_items[key] = url or "(sem URL)"
+        key = _record_diff_key(rec)
+        rec_items[key] = key
 
     corpus_items = {}
     for item_id, item in existing_corpus.items():
-        url = item.get("url", "")
-        key = url or f"(sem URL)::{item_id}"
-        corpus_items[key] = {"id": item_id, "url": url or "(sem URL)"}
+        key = _corpus_diff_key(item_id, item)
+        corpus_items[key] = {"id": item_id, "url": item.get("url", "") or "(sem URL)"}
 
     only_in_records = set(rec_items.keys()) - set(corpus_items.keys())
     only_in_corpus = set(corpus_items.keys()) - set(rec_items.keys())
@@ -298,11 +319,7 @@ def main() -> None:
         print(f"  Corpus existente: {len(existing)}")
         return
 
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(
-        json.dumps(result, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
+    _atomic_write_json(args.output, result)
     print(f"OK: {len(result)} itens escritos em {args.output}")
 
 

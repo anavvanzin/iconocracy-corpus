@@ -33,7 +33,7 @@ VAULT = REPO / "vault" / "candidatos"
 
 # Namespace for deterministic UUIDs (same as csv_to_records.py)
 _NS = uuid.UUID("6ba7b810-9dad-11d1-80b4-00c04fd430c8")
-VAULT_BATCH_ID = "00000000-1c0c-4842-8a1a-000000000001"
+VAULT_BATCH_ID = "00000000-1c0c-4842-8a1a-vaultsync0001"
 
 VALID_REGIMES = {"fundacional", "normativo", "militar", "contra-alegoria"}
 
@@ -384,7 +384,7 @@ confianca: baixo
 tags:
 {tags_yaml}
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 data_scout: {today}
 records_item_id: {record.get('item_id', '')}
@@ -400,7 +400,7 @@ records_item_id: {record.get('item_id', '')}
 
 **Motivos identificados**: {motifs_str}
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime preliminar**: {regime}
 
 *Análise gerada automaticamente a partir de records.jsonl. Requer validação visual.*
@@ -521,10 +521,6 @@ def cmd_pull(dry_run: bool = False) -> None:
             print(f"  [DRY-RUN] Pull: {note.get('_file', '')} → records.jsonl")
         else:
             records.append(rec)
-            if url:
-                url_idx[url] = rec
-            if title:
-                title_idx[title] = rec
             added += 1
             print(f"  PULL: {note.get('_file', '')} → item_id={rec['item_id'][:8]}…")
 

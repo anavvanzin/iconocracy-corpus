@@ -1,210 +1,233 @@
-"""Build and safely update the ARGOS acquisition manifest.
-
-Two operations:
-
-1. ``build_manifest`` — scan ``corpus/corpus-data.json`` for pending items
-   (those lacking ``thumbnail_url`` or otherwise missing from
-   ``data/raw/drive-manifest.json``) and write an initial manifest.
-
-2. ``locked_update`` — atomically merge a patch for a single item into
-   the manifest. Every subagent call goes through this helper so
-   concurrent writes do not corrupt the file. An advisory ``fcntl.flock``
-   on ``manifest.lock`` serialises writers; a ``.bak`` copy is written
-   before each commit.
-"""
-
 from __future__ import annotations
 
-import fcntl
 import json
 import os
 import tempfile
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
+from typing import Iterable
 
-from . import classifier
-from . import storage
+import fcntl
 
-MANIFEST_PATH = storage.REPO_ROOT / "data" / "raw" / "argos" / "manifest.json"
-LOCK_PATH = MANIFEST_PATH.with_name("manifest.lock")
-BACKUP_PATH = MANIFEST_PATH.with_suffix(".json.bak")
+from tools.argos.classifier import classify_source
+from tools.scripts.validate_schemas import validate_record
+
 
 MANIFEST_VERSION = "1.0"
 
 
-# ---------------------------------------------------------------------------
-# Builder
-# ---------------------------------------------------------------------------
+def _utc_timestamp() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def _is_pending(corpus_item: dict[str, Any], drive_items: set[str]) -> bool:
-    """Return True if ``corpus_item`` still needs image acquisition."""
-
-    if corpus_item["id"] in drive_items:
-        return False
-    # Missing thumbnail → pending.
-    if not corpus_item.get("thumbnail_url"):
-        return True
-    # Also treat items whose source URL we can classify as acquirable, but
-    # where only a thumbnail exists (low-res) — leave for operator decision
-    # by NOT marking pending. Keeping conservative: thumbnail present → skip.
-    return False
+def _pending_item_ids(drive_manifest: dict) -> set[str]:
+    return {
+        item.get("item_id")
+        for item in drive_manifest.get("items", [])
+        if item.get("item_id")
+    }
 
 
-def _load_drive_items() -> set[str]:
-    """Return the set of item_ids already recorded in ``drive-manifest.json``."""
+def _build_manifest_item(item: dict) -> dict:
+    source_url = item["url"]
+    classification = classify_source(source_url)
 
-    path = storage.REPO_ROOT / "data" / "raw" / "drive-manifest.json"
-    if not path.exists():
-        return set()
+    return {
+        "item_id": item["id"],
+        "title": item.get("title", ""),
+        "source_url": source_url,
+        "source_domain": classification.domain,
+        "protocol": classification.protocol,
+        "status": "pending",
+        "failure_class": "",
+        "failure_reason": "",
+        "attempts": 0,
+        "local_path": "",
+        "sha256": "",
+        "provenance": {
+            "agent": "argos",
+            "method": classification.protocol,
+            "metadata": {
+                "thumbnail_missing": not bool(item.get("thumbnail_url")),
+                "dispatch_group": classification.domain,
+            },
+        },
+    }
+
+
+def _summary_from_items(items: list[dict]) -> dict[str, int]:
+    counts = Counter(item.get("status", "") for item in items)
+    return {
+        "total_items": len(items),
+        "pending": counts.get("pending", 0),
+        "success": counts.get("success", 0),
+        "partial": counts.get("partial", 0),
+        "failed": counts.get("failed", 0),
+        "manual": counts.get("manual", 0),
+    }
+
+
+def _default_lock_path(path: Path) -> Path:
+    return path.with_name("manifest.lock")
+
+
+def _load_manifest(path: Path) -> dict:
     try:
-        data = json.loads(path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
-        return set()
-    return {entry.get("item_id") for entry in data.get("items", []) if entry.get("item_id")}
+        raw = path.read_text(encoding="utf-8")
+    except FileNotFoundError as exc:
+        raise ValueError(f"Manifest file not found: {path}") from exc
 
+    if not raw.strip():
+        raise ValueError(f"Manifest file is empty: {path}")
 
-def _make_entry(corpus_item: dict[str, Any]) -> dict[str, Any]:
-    """Transform a corpus-data.json row into an ARGOS manifest entry."""
+    try:
+        manifest = json.loads(raw)
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"Manifest file contains invalid JSON: {path}") from exc
 
-    url = corpus_item.get("url") or ""
-    domain = classifier.domain_for(url)
-    protocol = classifier.classify(url)
-    tos = classifier.is_tos_restricted(url)
-    has_url = bool(url.strip())
-    if not has_url:
-        status, fc, fr = "manual", "no_source_url", "Corpus entry has no source URL."
-    elif tos:
-        status, fc, fr = (
-            "tos_restricted",
-            "tos_restricted",
-            "Domain flagged TOS-restricted; acquisition requires explicit opt-in.",
-        )
-    else:
-        status, fc, fr = "pending", None, None
-    entry: dict[str, Any] = {
-        "item_id": corpus_item["id"],
-        "title": corpus_item.get("title"),
-        "country": corpus_item.get("country"),
-        "source_archive": corpus_item.get("source_archive"),
-        "source_domain": domain,
-        "source_url": url,
-        "protocol": protocol,
-        "iiif_manifest_url": None,
-        "status": status,
-        "failure_class": fc,
-        "failure_reason": fr,
-        "attempts": [],
-        "local_path": None,
-        "bytes": None,
-        "sha256": None,
-        "provenance": None,
-    }
-    return entry
+    if not isinstance(manifest, dict):
+        raise ValueError("Manifest root must be a JSON object")
 
-
-def build_manifest(dry_run: bool = False) -> dict[str, Any]:
-    """Scan corpus-data.json and write a fresh manifest.
-
-    Returns the manifest dictionary. When ``dry_run`` is True the file
-    is not written.
-    """
-
-    corpus_path = storage.REPO_ROOT / "corpus" / "corpus-data.json"
-    corpus = json.loads(corpus_path.read_text(encoding="utf-8"))
-    drive_items = _load_drive_items()
-
-    pending = [item for item in corpus if _is_pending(item, drive_items)]
-    entries = [_make_entry(item) for item in pending]
-
-    root, tier = storage.resolve_root()
-    manifest = {
-        "manifest_version": MANIFEST_VERSION,
-        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "storage_root": str(root),
-        "storage_tier": tier,
-        "total_items": len(entries),
-        "items": entries,
-    }
-
-    if not dry_run:
-        MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
-        _atomic_write(manifest)
     return manifest
 
 
-# ---------------------------------------------------------------------------
-# Atomic locked update
-# ---------------------------------------------------------------------------
+def _validate_manifest(manifest: dict) -> None:
+    is_valid, errors = validate_record(manifest, "argos-manifest")
+    if not is_valid:
+        raise ValueError("Manifest failed schema validation after update: " + "; ".join(errors))
 
 
-def _atomic_write(manifest: dict[str, Any]) -> None:
-    """Write ``manifest.json`` atomically via temp-file + rename.
+def _fsync_directory(path: Path) -> None:
+    if os.name == "nt":
+        return
 
-    Also refreshes ``manifest.json.bak`` with the previous contents.
-    """
-
-    MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
-
-    # Backup existing file before overwriting.
-    if MANIFEST_PATH.exists():
-        BACKUP_PATH.write_bytes(MANIFEST_PATH.read_bytes())
-
-    # Refuse to overwrite with obviously-bad data.
-    if not isinstance(manifest, dict) or "items" not in manifest:
-        raise ValueError("Refusing to write manifest without 'items' key")
-
-    tmp_fd, tmp_name = tempfile.mkstemp(
-        prefix="manifest.", suffix=".json", dir=str(MANIFEST_PATH.parent)
-    )
     try:
-        with os.fdopen(tmp_fd, "w", encoding="utf-8") as fh:
-            json.dump(manifest, fh, indent=2, ensure_ascii=False)
-            fh.flush()
-            os.fsync(fh.fileno())
-        os.replace(tmp_name, MANIFEST_PATH)
+        directory_fd = os.open(path, os.O_RDONLY)
+    except OSError:
+        return
+
+    try:
+        os.fsync(directory_fd)
+    except OSError:
+        pass
+    finally:
+        os.close(directory_fd)
+
+
+def _recursive_merge(base: dict, patch: dict) -> dict:
+    merged = dict(base)
+    for key, value in patch.items():
+        existing = merged.get(key)
+        if isinstance(existing, dict) and isinstance(value, dict):
+            merged[key] = _recursive_merge(existing, value)
+        else:
+            merged[key] = value
+    return merged
+
+
+def _write_atomic_json(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    serialized = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+
+    fd, tmp_name = tempfile.mkstemp(prefix=f"{path.stem}-", suffix=".tmp", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as handle:
+            handle.write(serialized)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(tmp_name, path)
+        _fsync_directory(path.parent)
     except Exception:
-        try:
+        if os.path.exists(tmp_name):
             os.unlink(tmp_name)
-        except OSError:
-            pass
         raise
 
 
-def load_manifest() -> dict[str, Any]:
-    """Read the current manifest (no lock held — callers in locked_update hold it)."""
+def locked_update_manifest(path: str | Path, item_id: str, patch: dict, lock_path: str | Path | None = None) -> dict:
+    manifest_path = Path(path)
+    resolved_lock_path = Path(lock_path) if lock_path is not None else _default_lock_path(manifest_path)
 
-    return json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+    if not isinstance(patch, dict) or not patch:
+        raise ValueError("Patch must be a non-empty JSON object")
+
+    resolved_lock_path.parent.mkdir(parents=True, exist_ok=True)
+    with resolved_lock_path.open("a+", encoding="utf-8") as lock_handle:
+        fcntl.flock(lock_handle.fileno(), fcntl.LOCK_EX)
+        manifest = _load_manifest(manifest_path)
+        items = manifest.get("items")
+        if not isinstance(items, list):
+            raise ValueError("Manifest items must be a list")
+
+        updated_items = []
+        matched = False
+        for index, item in enumerate(items):
+            if not isinstance(item, dict):
+                raise ValueError("Manifest items must be JSON objects")
+
+            existing_item_id = item.get("item_id")
+            if not isinstance(existing_item_id, str) or not existing_item_id:
+                raise ValueError(f"Manifest item at index {index} is missing item_id")
+
+            if existing_item_id == item_id:
+                updated_items.append(_recursive_merge(item, patch))
+                matched = True
+            else:
+                updated_items.append(item)
+
+        if not matched:
+            raise KeyError(f"Manifest item not found: {item_id}")
+
+        updated_manifest = dict(manifest)
+        updated_manifest["items"] = updated_items
+        updated_manifest["summary"] = _summary_from_items(updated_items)
+        _validate_manifest(updated_manifest)
+
+        _write_atomic_json(manifest_path.with_suffix(".json.bak"), manifest)
+        _write_atomic_json(manifest_path, updated_manifest)
+        return updated_manifest
 
 
-def locked_update(item_id: str, patch: dict[str, Any]) -> dict[str, Any]:
-    """Acquire an exclusive lock, merge ``patch`` into the item, rewrite.
+def build_manifest(
+    corpus_items: Iterable[dict],
+    drive_manifest: dict,
+    *,
+    storage_root: str | Path,
+    storage_tier: str,
+    limit: int | None = None,
+) -> dict:
+    existing_ids = _pending_item_ids(drive_manifest)
 
-    ``patch`` may include any top-level item fields. ``attempts`` is a
-    list and is *appended* to rather than replaced.
-    """
+    pending_items = [
+        _build_manifest_item(item)
+        for item in corpus_items
+        if item.get("url") and item.get("id") not in existing_ids
+    ]
 
-    LOCK_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with open(LOCK_PATH, "a+") as lockfile:
-        fcntl.flock(lockfile.fileno(), fcntl.LOCK_EX)
-        try:
-            manifest = load_manifest()
-            found = False
-            for entry in manifest["items"]:
-                if entry["item_id"] == item_id:
-                    new_attempts = patch.pop("attempts", None)
-                    if new_attempts:
-                        entry.setdefault("attempts", []).extend(new_attempts)
-                    entry.update(patch)
-                    found = True
-                    break
-            if not found:
-                raise KeyError(f"item_id not in manifest: {item_id}")
-            manifest["updated_at"] = datetime.now(timezone.utc).isoformat(
-                timespec="seconds"
-            )
-            _atomic_write(manifest)
-            return manifest
-        finally:
-            fcntl.flock(lockfile.fileno(), fcntl.LOCK_UN)
+    if limit is not None:
+        pending_items = pending_items[:limit]
+
+    return {
+        "manifest_version": MANIFEST_VERSION,
+        "generated_at": _utc_timestamp(),
+        "storage_root": str(storage_root),
+        "storage_tier": storage_tier,
+        "summary": {
+            "total_items": len(pending_items),
+            "pending": len(pending_items),
+            "success": 0,
+            "partial": 0,
+            "failed": 0,
+            "manual": 0,
+        },
+        "items": pending_items,
+    }
+
+
+def pending_item_count(manifest: dict) -> int:
+    return int(manifest.get("summary", {}).get("pending", len(manifest.get("items", []))))
+
+
+def protocol_breakdown(manifest: dict) -> dict[str, int]:
+    counts = Counter(item["protocol"] for item in manifest.get("items", []))
+    return dict(sorted(counts.items()))

@@ -20,7 +20,7 @@ tags:
   - motivo/columbia
   - contrato-sexual-visual
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Columbia]]"
   - "[[Liberty]]"
@@ -44,7 +44,7 @@ data_scout: 2026-04-01
 
 **Motivo alegórico:** Liberty
 **Regime iconocrático:** MILITAR
-**Justificativa:** Liberty de pé, segurando escudo (defesa) e ramo de oliveira (paz), avançando por um portão aberto — preparada para a guerra (contexto: entrada dos EUA na WWI, 1917). O Type I (1916-1917) apresenta seio nu exposto, gerando escândalo público e redesign em 1917 (Type II: cota de malha cobre o peito). Este é um caso exemplar de **Contrato Sexual Visual em transição**: o corpo feminino "exposto demais" para o suporte numismático é imediatamente disciplinado — a controvérsia da nudez é o próprio ENDURECIMENTO em ação.
+**Justificativa:** Liberty de pé, segurando escudo (defesa) e ramo de oliveira (paz), avançando por um portão aberto — preparada para a guerra (contexto: entrada dos EUA na WWI, 1917). O Type I (1916-1917) apresenta seio nu exposto, gerando escândalo público e redesign em 1917 (Type II: cota de malha cobre o peito). Este é um caso exemplar de **Contrato Sexual Visual em transição**: o corpo feminino "exposto demais" para o suporte numismático é imediatamente disciplinado — a controvérsia da nudez é o próprio endurecimento em ação.
 
 **Atributos identificados:**
 - [ ] balança
@@ -57,7 +57,7 @@ data_scout: 2026-04-01
 - [x] postura de pé, avançando
 - [x] ramo de oliveira
 
-**ENDURECIMENTO detectado:** sim — e documentável na transição Type I → Type II (1916→1917): dessexualização forçada por pressão pública
+**endurecimento detectado:** sim — e documentável na transição Type I → Type II (1916→1917): dessexualização forçada por pressão pública
 
 ---
 
@@ -81,8 +81,8 @@ US MINT. *Standing Liberty Quarter*. 1916–1930. Moeda, prata .900, 24,3 mm. De
 
 ## Observações do Scout
 
-Caso extraordinário para a tese. A Standing Liberty Quarter documenta o ENDURECIMENTO *em tempo real*: o seio nu do Type I (1916) é coberto com cota de malha no Type II (1917). A dessexualização é imposta pela reação pública — o corpo alegórico feminino na moeda circulante é disciplinado porque "exposto demais". Paralelo direto com os "Educational Silver Certificates" (US-EDUC-1896) já no corpus.
+Caso extraordinário para a tese. A Standing Liberty Quarter documenta o endurecimento *em tempo real*: o seio nu do Type I (1916) é coberto com cota de malha no Type II (1917). A dessexualização é imposta pela reação pública — o corpo alegórico feminino na moeda circulante é disciplinado porque "exposto demais". Paralelo direto com os "Educational Silver Certificates" (US-EDUC-1896) já no corpus.
 
-Potencial **Zwischenraum**: Type I (seio nu, FUNDACIONAL) vs. Type II (cota de malha, MILITAR) — o mesmo corpo, o mesmo designer, a mesma moeda, separados por um ano. Um dos casos mais claros de ENDURECIMENTO mensurável no corpus inteiro.
+Potencial **Zwischenraum**: Type I (seio nu, FUNDACIONAL) vs. Type II (cota de malha, MILITAR) — o mesmo corpo, o mesmo designer, a mesma moeda, separados por um ano. Um dos casos mais claros de endurecimento mensurável no corpus inteiro.
 
 Mintagem do Type I: apenas 52.000 — a raridade numismática é proporcional à transgressão iconográfica.

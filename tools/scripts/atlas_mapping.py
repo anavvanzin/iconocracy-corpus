@@ -28,7 +28,7 @@ ATLAS_PANELS = {
         "keywords": ["justitia", "justice", "balança", "espada", "tribunal"]},
     3: {"name": "Domesticação", "desc": "Como o corpo alegórico foi purificado",
         "keywords": ["normativo", "purificação", "domesticação", "semeuse", "definitivo"]},
-    4: {"name": "ENDURECIMENTO", "desc": "O corpo que endurece quando o Estado faz guerra",
+    4: {"name": "endurecimento", "desc": "O corpo que endurece quando o Estado faz guerra",
         "keywords": ["militar", "guerra", "endurecimento", "colonial", "trade dollar", "piastre"]},
     5: {"name": "Pedra e Bronze", "desc": "Quando a alegoria se torna monumento",
         "keywords": ["monumento", "escultura", "pedra", "bronze", "cariátide", "edifício"]},

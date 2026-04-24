@@ -26,4 +26,4 @@ data_scout: 2026-03-30
 ## Analise — CONTROLE NEGATIVO
 **Motivo:** AUSENCIA — king's portrait replaces female allegory on coins
 **Regime:** FUNDACIONAL (founding of Belgium)
-**ENDURECIMENTO detectado:** n/a — ausencia alegorica feminina
+**endurecimento detectado:** n/a — ausencia alegorica feminina

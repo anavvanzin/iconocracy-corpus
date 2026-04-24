@@ -30,9 +30,9 @@ seminua que APRESENTA SEUS FILHOS. A Belgique = civilização/luz. A africana = 
 ser "acolhida"/iluminada.
 
 **Regime:** MILITAR — monumento comemora a conquista colonial (Guerra Congo-Árabe 1892-94)
-**ENDURECIMENTO detectado:** sim — La Belgique está SENTADA (postura de autoridade),
+**endurecimento detectado:** sim — La Belgique está SENTADA (postura de autoridade),
 ESTÁTICA, VESTIDA (vs. mulher africana seminua). Rigidez + dessexualização da mulher
-branca vs. exposição da mulher negra = ENDURECIMENTO RACIALIZADO.
+branca vs. exposição da mulher negra = endurecimento RACIALIZADO.
 
 ## Importancia para a tese
 O TÍTULO ORIGINAL é o dado: "La race noire accueillie par la Belgique" — A RAÇA

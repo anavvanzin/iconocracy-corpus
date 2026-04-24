@@ -1,0 +1,3 @@
+Source: https://notebooklm.google.com/notebook/bb8acbe1-9943-4538-b1ab-bd82d48a3a73
+The TXT is downloaded by 'DownloadAllContent'
+

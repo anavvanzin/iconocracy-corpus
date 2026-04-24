@@ -20,7 +20,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.8
 hunt_source: loc
@@ -41,10 +41,10 @@ data_scout: 2026-04-04
 
 **Motivos identificados**: Columbia, Liberty
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime preliminar**: MILITAR
 Indicadores esperados: armadura, capacete, escudo, rigidez extrema.
-ENDURECIMENTO esperado: ALTO (corpo blindado/petrificado).
+Endurecimento esperado: ALTO (corpo blindado/petrificado).
 
 *Classificação preliminar baseada em metadados textuais. Requer confirmação visual.*
 

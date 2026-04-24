@@ -26,7 +26,7 @@ colonial sobre o corpo feminino negro.
 = três FACES do mesmo contrato racial visual, em grau decrescente de violência
 explícita e crescente de violência simbólica.
 
-**ENDURECIMENTO racializado:** A mulher branca endurece (vestida, estática, autoridade)
+**endurecimento racializado:** A mulher branca endurece (vestida, estática, autoridade)
 enquanto a mulher negra permanece "mole" (seminua, dinâmica, subordinada). O
-ENDURECIMENTO opera DIFERENCIALMENTE segundo a raça — achado central para o
+Endurecimento opera DIFERENCIALMENTE segundo a raça — achado central para o
 Painel 7 (Branquitude) da tese.

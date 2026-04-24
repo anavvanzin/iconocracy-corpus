@@ -19,7 +19,7 @@ tags:
   - regime/fundacional
   - motivo/republica
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[BR-2000R-1907 2000 Reis Efigie Republica]]"
   - "[[SCOUT-316 500 Reis Republica Brasil 1889]]"
@@ -62,7 +62,7 @@ O corpus já possui BR-2000R-1907 (2.000 réis em prata) e SCOUT-316 (500 réis)
 - [x] produzida em massa (serialidade máxima)
 - [x] inscrição estatal (lema positivista, data da proclamação)
 
-**ENDURECIMENTO detectado:** sim — desincorporação extrema (apenas perfil/cabeça), monocromatização (metal), serialidade máxima (cunhagem industrial). Mas o barrete frígio mantém o vínculo fundacional.
+**endurecimento detectado:** sim — desincorporação extrema (apenas perfil/cabeça), monocromatização (metal), serialidade máxima (cunhagem industrial). Mas o barrete frígio mantém o vínculo fundacional.
 
 ---
 

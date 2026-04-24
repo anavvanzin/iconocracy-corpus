@@ -14,7 +14,7 @@ tags:
 related:
   - "[[DB1 Corpus Iconográfico]]"
   - "[[IconoCode -- Protocolo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
 ---
 
 ## Resumo da sessão
@@ -46,7 +46,7 @@ related:
 
 - **Roteamento de modo:** SCOUT ativado corretamente por "campanha BR"
 - **Progressive disclosure:** referências carregadas sob demanda (templates, indicadores, tags, regimes)
-- **Terminologia obrigatória:** ENDURECIMENTO em português em todas as notas ✓
+- **Terminologia obrigatória:** endurecimento em português em todas as notas ✓
 - **10 indicadores:** descritos em linguagem natural em todas as notas ✓
 - **Templates Obsidian:** seguidos conforme `references/templates-obsidian.md` ✓
 - **Dedup:** executada via corpus-dedup agent ✓

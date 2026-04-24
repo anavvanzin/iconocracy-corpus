@@ -21,7 +21,7 @@ tags:
   - verificar
 related:
   - "[[Regime Fundacional]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[SCOUT-423]]"
   - "[[Contrato Sexual Visual]]"
 hf_synced: false
@@ -59,7 +59,7 @@ data_scout: 2026-04-10
 - [ ] postura frontal
 - [x] contexto arquitetonico (pedestal, bandeiras)
 
-**ENDURECIMENTO detectado:** baixo. Análise dos indicadores:
+**endurecimento detectado:** baixo. Análise dos indicadores:
 - **desincorporação** baixa: figura de corpo inteiro, presença corporal plena
 - **rigidez postural** baixa: figura de pé apoiada (não sentada/entronizada)
 - **dessexualização** moderada: vestimenta clássica mas sem nudez

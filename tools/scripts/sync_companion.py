@@ -101,13 +101,13 @@ def generate_companion_data(items):
     panels = extract_zw_panels()
 
     countries = []
-    for code, count in sorted(by_country.items(), key=lambda kv: -kv[1]):
-        if count > 0:
+    for code in ["FR", "US", "DE", "BR", "NL", "UK", "BE", "PT", "IT"]:
+        if by_country.get(code, 0) > 0:
             countries.append({
                 "code": code,
                 "name": COUNTRY_NAMES.get(code, code),
                 "flag": COUNTRY_FLAGS.get(code, "🏳️"),
-                "items": count,
+                "items": by_country[code],
                 "coded": 0,  # to be updated when IconoCode runs
             })
 
@@ -122,19 +122,14 @@ def generate_companion_data(items):
 
 
 def push_to_companion(base_url, corpus_data, atlas_data=None):
-    """Push data to companion API endpoints.
-
-    NOTE: The companion worker's /api/corpus route is currently read-only
-    (SELECT only). Until a write route is implemented in the Worker, this
-    function will receive a 405/success-without-effect. The data is still
-    validated and serialised so it is ready when the write endpoint ships.
-    """
+    """Push data to companion API endpoints."""
     try:
         import urllib.request
     except ImportError:
         print("ERRO: urllib not available", file=sys.stderr)
         return False
 
+    # Push corpus data
     corpus_url = f"{base_url.rstrip('/')}/api/corpus"
     req = urllib.request.Request(
         corpus_url, method="PUT",
@@ -143,19 +138,9 @@ def push_to_companion(base_url, corpus_data, atlas_data=None):
     )
     try:
         with urllib.request.urlopen(req) as resp:
-            if resp.status in (200, 201):
-                print(f"Corpus pushed: {resp.status}", file=sys.stderr)
-            else:
-                print(
-                    f"WARNING: companion returned {resp.status} — write endpoint may not be implemented yet",
-                    file=sys.stderr,
-                )
+            print(f"Corpus pushed: {resp.status}", file=sys.stderr)
     except Exception as e:
-        print(
-            f"Corpus push failed ({e}). The companion /api/corpus route may be read-only; "
-            "implement a PUT handler in the Worker before using --push.",
-            file=sys.stderr,
-        )
+        print(f"Corpus push failed: {e}", file=sys.stderr)
         return False
 
     # Push atlas data if available

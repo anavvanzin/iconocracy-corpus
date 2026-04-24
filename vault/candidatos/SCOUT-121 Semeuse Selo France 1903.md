@@ -11,7 +11,7 @@ pais: FR
 suporte: selo postal
 motivo_alegorico: "La République / Semeuse"
 regime: NORMATIVO
-endurecimento: BAIXO
+Endurecimento: BAIXO
 confianca: alto
 tags:
   - corpus/candidato
@@ -59,7 +59,7 @@ Figura feminina em perfil caminhando para a esquerda (ou direita, conforme varia
 - [ ] postura frontal hierática (em movimento, perfil)
 - [ ] contexto arquitetônico forense
 
-**ENDURECIMENTO:** BAIXO
+**endurecimento:** BAIXO
 **Regime iconocrático:** NORMATIVO
 **Justificativa:** Figura em movimento civil (semeando), sem atributos militares ou jurídicos explícitos — máxima dessimbolização e dessexualização do corpo republicano em suporte postal de circulação massiva.
 
@@ -90,8 +90,8 @@ LA POSTE FRANÇAISE. *Semeuse — Série definitiva*. 1903–1938. Selo postal. 
 
 **Lacuna preenchida:** Semeuse em suporte **selo** (além da moeda já catalogada como SCOUT-116). Permite o Zwischenraum moeda×selo com o **mesmo design do mesmo artista** — caso único no corpus de comparação intra-motivo por suporte.
 
-**Argumento central:** A Semeuse de Roty aparece simultaneamente em moeda (1 Franc, prata, 1897–1920) e selo postal (1903–1938), permitindo controlar a variável suporte com o motivo constante. O ENDURECIMENTO na moeda é MÉDIO (corpo mais controlado, circular); no selo é BAIXO (corpo em movimento, ação civil). O suporte moeda impõe maior rigidez morfológica que o suporte selo — tese sobre a hierarquia iconocrática por suporte.
+**Argumento central:** A Semeuse de Roty aparece simultaneamente em moeda (1 Franc, prata, 1897–1920) e selo postal (1903–1938), permitindo controlar a variável suporte com o motivo constante. O endurecimento na moeda é MÉDIO (corpo mais controlado, circular); no selo é BAIXO (corpo em movimento, ação civil). O suporte moeda impõe maior rigidez morfológica que o suporte selo — tese sobre a hierarquia iconocrática por suporte.
 
-**Zwischenraum proposto — ZW-12:** Semeuse moeda (SCOUT-116, MÉDIO) × Semeuse selo (SCOUT-121, BAIXO) = "O mesmo corpo, dois regimes morfológicos: hierarquia iconocrática por suporte dentro do mesmo motivo". Argumento: a materialidade do suporte co-produz o ENDURECIMENTO, não apenas a escolha iconográfica.
+**Zwischenraum proposto — ZW-12:** Semeuse moeda (SCOUT-116, MÉDIO) × Semeuse selo (SCOUT-121, BAIXO) = "O mesmo corpo, dois regimes morfológicos: hierarquia iconocrática por suporte dentro do mesmo motivo". Argumento: a materialidade do suporte co-produz o endurecimento, não apenas a escolha iconográfica.
 
 **Nota de método:** Este candidato pode ser tratado como múltiplas entradas (por denominação, variante de fundo, período de emissão) ou como entrada única com nota de complexidade. Recomendo entrada única com subdivisão interna para fins de corpus.

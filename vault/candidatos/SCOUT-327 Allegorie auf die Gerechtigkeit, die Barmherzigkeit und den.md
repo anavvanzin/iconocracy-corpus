@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 1.0
 hunt_source: europeana
@@ -37,9 +37,9 @@ data_scout: 2026-04-03
 
 **Motivos identificados**: Justice
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 VAN, Winghe, Jodocus. **[Allegorie auf die Gerechtigkeit, die Barmherzigkeit und den Frieden; Allegory on justice, charity and peace]**. Herzog Anton Ulrich Museum. Disponível em: http://kk.haum-bs.de/?id=jansz-e-ab2-0001. Acesso em: 03 Apr. 2026.

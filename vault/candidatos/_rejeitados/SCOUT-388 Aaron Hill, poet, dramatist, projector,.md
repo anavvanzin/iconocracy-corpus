@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -39,9 +39,9 @@ Thesis (Ph.D.)--Columbia university, 1913. Vita. Published also without thesis n
 
 **Motivos identificados**: Columbia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 DOROTHY, brewster,. **Aaron Hill, poet, dramatist, projector,**. 1913. Library of Congress. Disponível em: https://www.loc.gov/item/14002634/. Acesso em: 04 Apr. 2026.

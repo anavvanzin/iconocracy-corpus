@@ -12,7 +12,7 @@ pais: BR
 suporte: moeda
 motivo_alegorico: "A República"
 regime: NORMATIVO
-endurecimento: MÉDIO
+Endurecimento: MÉDIO
 confianca: medio
 designer_anverso: "Augusto Girardet (atrib.)"
 tags:
@@ -66,7 +66,7 @@ Anverso: busto alegórico da República em perfil voltado à esquerda, com barre
 - [x] postura frontal hierática (perfil estrito, busto rígido)
 - [ ] contexto arquitetônico forense
 
-**ENDURECIMENTO:** MÉDIO
+**endurecimento:** MÉDIO
 **Regime iconocrático:** NORMATIVO
 **Justificativa:** O busto em perfil estrito e o barrete frígio indicam a estabilização da efígie republicana no suporte numismático (1906–1913) — figura controlada, uniformizada para circulação massiva, sem dinamismo fundacional residual; o barrete permanece como lembrança da ruptura de 1889, agora domesticado pela serialidade da moeda.
 
@@ -76,14 +76,14 @@ Anverso: busto alegórico da República em perfil voltado à esquerda, com barre
 
 Esta moeda ocupa o período **consolidação da Primeira República (1906–1913)** — fase em que a efígie republicana deixa de ser imagem de ruptura e torna-se norma visual do Estado:
 
-| Data | Denominação | Suporte | ENDURECIMENTO | Nota |
+| Data | Denominação | Suporte | endurecimento | Nota |
 |------|-------------|---------|---------------|------|
 | 1889 | 500 Réis | moeda (prata) | MÉDIO | SCOUT-316 |
 | **1906–1913** | **2000 Réis** | **moeda (prata)** | **MÉDIO** | **SCOUT-121 ← esta nota** |
 | 1965 | 50 Cruzeiros | cédula | MÉDIO | SCOUT-103 |
 | 1970 | 1 Cruzeiro | cédula | MÉDIO | SCOUT-109 |
 
-A consistência do ENDURECIMENTO MÉDIO ao longo de 80 anos (1889–1970) sugere que a efígie brasileira foi fixada no regime normativo sem jamais migrar para o regime militar — diferença fundamental em relação a Britannia (UK) e Germania (DE).
+A consistência do endurecimento MÉDIO ao longo de 80 anos (1889–1970) sugere que a efígie brasileira foi fixada no regime normativo sem jamais migrar para o regime militar — diferença fundamental em relação a Britannia (UK) e Germania (DE).
 
 ---
 
@@ -109,4 +109,4 @@ BRASIL. Casa da Moeda. *2000 Réis — Efígie da República*, 1906–1913. Prat
 
 ## Observações do Scout
 
-Complementa SCOUT-316 (500 Réis 1889, período de ruptura fundacional) e antecipa SCOUT-103 (50 Cruzeiros 1965). A análise da série completa revelará se o ENDURECIMENTO da efígie brasileira permanece constante ou varia por período. O barrete frígio — símbolo jacobino por excelência — é absorvido pelo regime normativo brasileiro sem transição para regime militar, ao contrário da Britannia britânica: hipótese de trabalho para Cap. 4 da tese. A variante "O aberto" no reverso (1906/07) é detalhes numismático sem impacto iconográfico. Verificar se a coleção Brasiliana Fotográfica ou BNDigital tem imagem digitalizável da moeda em resolução adequada.
+Complementa SCOUT-316 (500 Réis 1889, período de ruptura fundacional) e antecipa SCOUT-103 (50 Cruzeiros 1965). A análise da série completa revelará se o endurecimento da efígie brasileira permanece constante ou varia por período. O barrete frígio — símbolo jacobino por excelência — é absorvido pelo regime normativo brasileiro sem transição para regime militar, ao contrário da Britannia britânica: hipótese de trabalho para Cap. 4 da tese. A variante "O aberto" no reverso (1906/07) é detalhes numismático sem impacto iconográfico. Verificar se a coleção Brasiliana Fotográfica ou BNDigital tem imagem digitalizável da moeda em resolução adequada.

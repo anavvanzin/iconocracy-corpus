@@ -83,7 +83,7 @@ Relatórios gerados via NotebookLM e documentos de pesquisa de suporte (Columbia
 Três seções:
 
 1. **Sumário estrutural** — versão limpa (sem anotações `▸`), com tabela de estrutura argumentativa e mapa teoria → método → resultados → atlas
-2. **Glossário de Conceitos Operativos** — 10 verbetes com definição, referência principal e conexão com a hipótese central: *Contrato Sexual Visual, Feminilidade de Estado, Visiocracia, Iconocracia, Pathosformel, Zwischenraum, Regime Iconocrático, Purificação Clássica, Hardening Militar, Colonialidade do Ver*
+2. **Glossário de Conceitos Operativos** — 10 verbetes com definição, referência principal e conexão com a hipótese central: *Contrato Sexual Visual, Feminilidade de Estado, Visiocracia, Iconocracia, Pathosformel, Zwischenraum, Regime Iconocrático, Purificação Clássica, endurecimento militar, Colonialidade do Ver*
 3. **Galeria Iconográfica** — 6 imagens de domínio público (Wikimedia Commons), legendadas com título, data e acervo
 
 **Uso:** enviar ao orientador como panorama da tese; imprimir para referência de trabalho.

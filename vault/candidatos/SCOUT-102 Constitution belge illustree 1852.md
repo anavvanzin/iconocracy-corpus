@@ -26,5 +26,5 @@ data_scout: 2026-03-30
 ## Analise preliminar
 **Motivo:** La Belgique as maiden — city crown, Belgian lion, broken chains, Tables of the Law ("Constitution de la Belgique 1831"), supported by professional classes
 **Regime:** FUNDACIONAL — retroactively sacralizes the 1830 founding
-**ENDURECIMENTO detectado:** incerto
+**endurecimento detectado:** incerto
 **10 allegorical compositions** in the volume beyond frontispiece — each illustrating a constitutional article. Engravers: Henri/William Brown, Ligny, Pannemacker, Vermorcken after Victor Lagye.

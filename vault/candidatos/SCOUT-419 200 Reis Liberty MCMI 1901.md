@@ -19,7 +19,7 @@ tags:
   - regime/normativo
   - motivo/republica
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-418 100 Reis Liberty MCMI 1901]]"
   - "[[SCOUT-413 20000 Reis Ouro Efigie Republica]]"
@@ -55,7 +55,7 @@ data_scout: 2026-04-10
 - [ ] barrete frígio
 - [x] contexto arquitetônico (moldura circular)
 
-**ENDURECIMENTO detectado:** sim
+**endurecimento detectado:** sim
 
 **Indicadores de purificação (descrição SCOUT):**
 1. **desincorporação** alta: apenas busto, sem corpo

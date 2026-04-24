@@ -54,7 +54,7 @@ A Missão Francesa de 1816 é o momento fundador da transplantação do aparato 
 - [ ] cocar / penas (possível — tradição da "América" como mulher indígena)
 - [ ] cornucópia (provável — abundância tropical)
 
-**ENDURECIMENTO detectado:** não — esta é a fase pré-ENDURECIMENTO, o corpo em seu estado mais vivo e menos domesticado.
+**endurecimento detectado:** não — esta é a fase pré-endurecimento, o corpo em seu estado mais vivo e menos domesticado.
 
 ---
 
@@ -80,6 +80,6 @@ BRASILIANA ICONOGRÁFICA. A Missão Francesa ou a Colônia Lebreton (1816). Disp
 
 ## Observações do Scout
 
-A Brasiliana de Debret se insere na tradição iconográfica da "América" como mulher indígena/exótica (ver Brasiliana Iconográfica: "A representação da América quando era grande e desconhecida"). A transição Brasiliana (imperial, possivelmente indígena) → República (1889, marianista, branca) é um arco fundamental para a tese: o ENDURECIMENTO brasileiro opera também como embranquecimento da alegoria nacional.
+A Brasiliana de Debret se insere na tradição iconográfica da "América" como mulher indígena/exótica (ver Brasiliana Iconográfica: "A representação da América quando era grande e desconhecida"). A transição Brasiliana (imperial, possivelmente indígena) → República (1889, marianista, branca) é um arco fundamental para a tese: o endurecimento brasileiro opera também como embranquecimento da alegoria nacional.
 
 Este item funciona como ponto zero cronológico do corpus BR — anterior a todos os demais. Permite traçar a genealogia completa: Brasiliana imperial (1820s) → primeiras moedas/selos republicanos (1889-1891) → Monumento à República Belém (1897) → Catete (1899-1910) → Ceschiatti STF (1961) → Efígie do Real (1994).

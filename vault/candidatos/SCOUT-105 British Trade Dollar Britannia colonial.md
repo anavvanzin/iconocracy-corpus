@@ -12,7 +12,7 @@ motivo_alegorico: "Britannia (standing, colonial)"
 regime: MILITAR
 confianca: alto
 tags: [corpus/candidato, pais/UK, suporte/moeda, regime/militar, motivo/britannia, "#colonialidade-do-ver"]
-related: ["[[Regime Militar]]", "[[ENDURECIMENTO]]", "[[SCOUT-106]]", "[[SCOUT-NC-02]]"]
+related: ["[[Regime Militar]]", "[[endurecimento]]", "[[SCOUT-106]]", "[[SCOUT-NC-02]]"]
 hf_synced: false
 data_scout: 2026-03-30
 ---
@@ -28,7 +28,7 @@ data_scout: 2026-03-30
 **Motivo:** Britannia STANDING on colonial shore, trident + shield, merchant ship behind.
 Reverse: Chinese + Malay text. Colonial circulation: Hong Kong, Straits Settlements.
 **Regime:** MILITAR — domestic allegory reactivated for imperial projection
-**ENDURECIMENTO detectado:** sim — but ALSO re-corporealização (standing vs. domestic seated)
+**endurecimento detectado:** sim — but ALSO re-corporealização (standing vs. domestic seated)
 
 ## Observacoes do Scout
 

@@ -30,7 +30,7 @@ Presas de elefante e frutas exóticas espalhadas no chão.
 
 **Regime:** MILITAR — a postura ajoelhada da europeia é PATERNALISTA (ela se abaixa
 para "civilizar"); os meninos africanos são INFANTILIZADOS (crianças, não adultos)
-**ENDURECIMENTO detectado:** paradoxal — a mulher europeia está ajoelhada (aparente
+**endurecimento detectado:** paradoxal — a mulher europeia está ajoelhada (aparente
 humildade) mas SEGURA O TECIDO (envolve/veste = civiliza). A "suavidade" da postura
 mascara a violência do gesto civilizatório.
 

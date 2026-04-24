@@ -17,7 +17,13 @@
   ],
   "properties": {
     "master_record_version": { "type": "string" },
-    "batch_id": { "type": "string", "format": "uuid" },
+    "batch_id": {
+      "type": "string",
+      "anyOf": [
+        { "format": "uuid" },
+        { "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[a-z][a-z0-9]*[0-9]+$" }
+      ]
+    },
     "item_id": { "type": "string", "format": "uuid" },
     "item_hash": { "type": "string", "minLength": 16 },
     "input": {

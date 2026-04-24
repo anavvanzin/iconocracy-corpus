@@ -15,7 +15,7 @@ pais: FR
 suporte: selo
 motivo_alegorico: "La Semeuse"
 regime: NORMATIVO
-endurecimento: MÉDIO
+Endurecimento: MÉDIO
 confianca: medio
 designer: "Oscar Roty (figura) / Louis-Eugène Mouchon → Jean-Baptiste Lhomme (retoque 1907)"
 denominacao: "10 centimes"
@@ -83,9 +83,9 @@ Figura feminina em passo à esquerda, inclinada ligeiramente para a frente, em g
 - [ ] postura frontal hierática (corpo em movimento de semeadura — ANTI-hierática)
 - [ ] contexto arquitetônico forense
 
-**ENDURECIMENTO:** MÉDIO
+**endurecimento:** MÉDIO
 **Regime iconocrático:** NORMATIVO
-**Justificativa:** A Semeuse camée mantém o corpo dinâmico de Roty (idêntico à moeda de 1 franco e ao selo lignée) mas o isolamento no fundo branco cria um efeito medallhístico que eleva o formalismo sem alcançar a rigidez hierática de Germania ou Britannia — ENDURECIMENTO MÉDIO por acoplamento de mobilidade corporal com distância formal do fundo.
+**Justificativa:** A Semeuse camée mantém o corpo dinâmico de Roty (idêntico à moeda de 1 franco e ao selo lignée) mas o isolamento no fundo branco cria um efeito medallhístico que eleva o formalismo sem alcançar a rigidez hierática de Germania ou Britannia — endurecimento MÉDIO por acoplamento de mobilidade corporal com distância formal do fundo.
 
 ---
 
@@ -93,13 +93,13 @@ Figura feminina em passo à esquerda, inclinada ligeiramente para a frente, em g
 
 Esta nota completa a trilogia iconográfica da Semeuse de Roty no corpus:
 
-| ID | Suporte | Fundo | ENDURECIMENTO | Data |
+| ID | Suporte | Fundo | endurecimento | Data |
 |---|---|---|---|---|
 | SCOUT-116 | Moeda (1F prata) | Metálico/tridimensional | MÉDIO | 1898 |
 | SCOUT-107 | Selo (lignée 15c) | Linhas horizontais | MÉDIO | 1903 |
 | **SCOUT-123** | **Selo (camée 10c)** | **Branco sólido** | **MÉDIO** | **1906** |
 
-**Hipótese analítica:** O ENDURECIMENTO da Semeuse permanece MÉDIO em TODOS os suportes — moeda, selos lignée e camée — ao longo de 1898–1941. Isso sugere que o design de Roty contém uma "resistência interna" ao ENDURECIMENTO, independente do suporte. Contraste com Germania (ALTO em todos os suportes) e Britannia (ALTO com elmo).
+**Hipótese analítica:** O endurecimento da Semeuse permanece MÉDIO em TODOS os suportes — moeda, selos lignée e camée — ao longo de 1898–1941. Isso sugere que o design de Roty contém uma "resistência interna" ao endurecimento, independente do suporte. Contraste com Germania (ALTO em todos os suportes) e Britannia (ALTO com elmo).
 
 ---
 
@@ -125,4 +125,4 @@ FRANCE. Imprimerie nationale. *10 Centimes Semeuse Camée — fond plein avec so
 
 ## Observações do Scout
 
-Nota metodológica importante: a Semeuse camée substituiu progressivamente a Semeuse lignée (SCOUT-107) a partir de 1906. O fato de a mesma figura aparecer em três formatos diferentes (moeda, lignée, camée) sem alteração morfológica é em si uma descoberta: a Semeuse é o único caso no corpus em que o MESMO corpo atravessa TRÊS suportes com MESMO grau de ENDURECIMENTO — hipótese a explorar no Cap. 4 como "resistência Roty". O retoque de Lhomme (1907) tornando as inscrições mais grossas não altera a figura — apenas a tipografia ao redor, o que confirma a intangibilidade iconográfica do corpo de La Semeuse. A segunda variante "sem sol" é visualmente mais limpa e iconograficamente mais canônica; priorizar aquisição de imagem dessa versão para o corpus definitivo.
+Nota metodológica importante: a Semeuse camée substituiu progressivamente a Semeuse lignée (SCOUT-107) a partir de 1906. O fato de a mesma figura aparecer em três formatos diferentes (moeda, lignée, camée) sem alteração morfológica é em si uma descoberta: a Semeuse é o único caso no corpus em que o MESMO corpo atravessa TRÊS suportes com MESMO grau de endurecimento — hipótese a explorar no Cap. 4 como "resistência Roty". O retoque de Lhomme (1907) tornando as inscrições mais grossas não altera a figura — apenas a tipografia ao redor, o que confirma a intangibilidade iconográfica do corpo de La Semeuse. A segunda variante "sem sol" é visualmente mais limpa e iconograficamente mais canônica; priorizar aquisição de imagem dessa versão para o corpus definitivo.

@@ -20,7 +20,7 @@ tags:
   - motivo/marianne
   - motivo/justitia
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Marianne]]"
   - "[[Justitia]]"
@@ -57,7 +57,7 @@ data_scout: 2026-04-01
 - [x] nível triangular (Igualdade/Justiça)
 - [x] Hercule (corpo masculino central)
 
-**ENDURECIMENTO detectado:** baixo — corpo dinâmico, narrativo, com interação entre figuras
+**endurecimento detectado:** baixo — corpo dinâmico, narrativo, com interação entre figuras
 
 ---
 

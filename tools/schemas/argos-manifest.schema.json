@@ -1,104 +1,184 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://iconocracia.org/schemas/argos-manifest/1.0",
-  "title": "ARGOS Acquisition Manifest",
-  "description": "Canonical manifest of pending and completed corpus image acquisitions, maintained by the ARGOS orchestrator.",
+  "$id": "https://example.org/schemas/argos-manifest.schema.json",
+  "title": "ArgosManifest",
   "type": "object",
-  "required": ["manifest_version", "generated_at", "storage_tier", "items"],
+  "additionalProperties": false,
+  "required": [
+    "manifest_version",
+    "generated_at",
+    "storage_root",
+    "storage_tier",
+    "summary",
+    "items"
+  ],
   "properties": {
-    "manifest_version": {"type": "string", "const": "1.0"},
-    "generated_at": {"type": "string", "format": "date-time"},
-    "updated_at": {"type": "string"},
-    "storage_root": {"type": "string"},
-    "storage_tier": {"type": "string", "enum": ["ssd", "staging"]},
-    "total_items": {"type": "integer", "minimum": 0},
+    "manifest_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "storage_root": {
+      "type": "string",
+      "minLength": 1
+    },
+    "storage_tier": {
+      "type": "string",
+      "enum": ["ssd", "repo-staging"],
+      "minLength": 1
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "total_items",
+        "pending",
+        "success",
+        "partial",
+        "failed",
+        "manual"
+      ],
+      "properties": {
+        "total_items": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pending": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "success": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "partial": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "failed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "manual": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
     "items": {
       "type": "array",
-      "items": {"$ref": "#/$defs/item"}
-    }
-  },
-  "$defs": {
-    "item": {
-      "type": "object",
-      "required": ["item_id", "source_url", "protocol", "status"],
-      "properties": {
-        "item_id": {"type": "string"},
-        "title": {"type": ["string", "null"]},
-        "country": {"type": ["string", "null"]},
-        "source_archive": {"type": ["string", "null"]},
-        "source_domain": {"type": ["string", "null"]},
-        "source_url": {"type": "string"},
-        "protocol": {
-          "type": "string",
-          "enum": [
-            "iiif",
-            "rest-api",
-            "direct",
-            "playwright-required",
-            "blocked-prone",
-            "unknown"
-          ]
-        },
-        "iiif_manifest_url": {"type": ["string", "null"]},
-        "status": {
-          "type": "string",
-          "enum": [
-            "pending",
-            "success",
-            "partial",
-            "failed",
-            "manual",
-            "tos_restricted"
-          ]
-        },
-        "failure_class": {
-          "type": ["string", "null"],
-          "enum": [
-            null,
-            "403_block",
-            "404_not_found",
-            "iiif_not_found",
-            "playwright_timeout",
-            "playwright_unavailable",
-            "cloudflare",
-            "robots_denied",
-            "network",
-            "server_error",
-            "tos_restricted",
-            "post_download",
-            "no_source_url",
-            "unknown"
-          ]
-        },
-        "failure_reason": {"type": ["string", "null"]},
-        "attempts": {
-          "type": "array",
-          "items": {
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "item_id",
+          "title",
+          "source_url",
+          "source_domain",
+          "protocol",
+          "status",
+          "failure_class",
+          "failure_reason",
+          "attempts",
+          "local_path",
+          "sha256",
+          "provenance"
+        ],
+        "properties": {
+          "item_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri",
+            "minLength": 1
+          },
+          "source_domain": {
+            "type": "string",
+            "minLength": 1
+          },
+          "protocol": {
+            "type": "string",
+            "enum": ["iiif", "direct", "playwright-required", "blocked", "unknown"],
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": ["pending", "success", "partial", "failed", "manual"],
+            "minLength": 1
+          },
+          "failure_class": {
+            "type": "string"
+          },
+          "failure_reason": {
+            "type": "string"
+          },
+          "attempts": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "local_path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string"
+          },
+          "provenance": {
             "type": "object",
+            "additionalProperties": false,
             "properties": {
-              "ts": {"type": "string"},
-              "protocol": {"type": "string"},
-              "status_code": {"type": ["integer", "null"]},
-              "error": {"type": ["string", "null"]},
-              "bytes": {"type": ["integer", "null"]},
-              "content_type": {"type": ["string", "null"]},
-              "fetched_url": {"type": ["string", "null"]}
+              "retrieved_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "retrieved_from": {
+                "type": "string",
+                "format": "uri",
+                "minLength": 1
+              },
+              "agent": {
+                "type": "string"
+              },
+              "method": {
+                "type": "string"
+              },
+              "metadata": {
+                "type": "object"
+              }
             }
           }
         },
-        "local_path": {"type": ["string", "null"]},
-        "bytes": {"type": ["integer", "null"]},
-        "sha256": {"type": ["string", "null"]},
-        "provenance": {
-          "type": ["object", "null"],
-          "properties": {
-            "fetched_at": {"type": "string"},
-            "fetched_by": {"type": "string"},
-            "user_agent": {"type": "string"},
-            "protocol_succeeded": {"type": "string"},
-            "license_hint": {"type": ["string", "null"]}
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "success"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "local_path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
           }
-        }
+        ]
       }
     }
   }

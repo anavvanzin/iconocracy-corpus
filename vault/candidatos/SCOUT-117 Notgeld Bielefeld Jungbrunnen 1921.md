@@ -19,7 +19,7 @@ tags:
   - "#verificar-imagem"
 hf_synced: false
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-NC-03 Weimar Republic 1 Reichsmark eagle 1925]]"
 ---
@@ -42,7 +42,7 @@ Cena central: águas curativas do Jungbrunnen de Bielefeld. Um homem e uma mulhe
 
 A figura feminina é uma **alegoria da cura/renascimento** — típica das alegorias locais que aparecem nos Notgeld quando a alegoria nacional (Germania) desaparece das moedas oficiais.
 
-## ENDURECIMENTO detectado
+## Endurecimento detectado
 
 **Regime FUNDACIONAL (municipal)** — Os Notgeld representam um retorno ao corpo alegórico dinâmico e local, precisamente no momento em que a moeda oficial (Reichsmark) elimina toda alegoria feminina.
 
@@ -60,7 +60,7 @@ Indicadores ativos:
 - **serialidade**: 1 (tiragem limitada, colecionável)
 - **inscrição_estatal**: 1 (apenas municipal)
 
-**Score preliminar: 0.4/4** — O mais baixo possível, confirmando inversão do ENDURECIMENTO.
+**Score preliminar: 0.4/4** — O mais baixo possível, confirmando inversão do endurecimento.
 
 ## Observações do Scout
 

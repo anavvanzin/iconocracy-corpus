@@ -29,16 +29,16 @@ O confronto mais puro de morfologias estatais na serialização postal.
 | **Atributos** | Saco de sementes, bonnet | Espada, coroa imperial |
 | **Regime político** | República | Monarquia/Império |
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 Ambas são NORMATIVO, mas a morfologia diverge:
 - **Semeuse:** corpo DINÂMICO — ela semeia, caminha, projeta. O regime republicano
   permite que a alegoria retenha gestualidade FUNDACIONAL dentro do NORMATIVO.
 - **Germania:** corpo ESTÁTICO — ela segura espada e olha frontalmente. O regime
   imperial congela a alegoria em postura de poder.
 
-Paradoxo: a República produz menos ENDURECIMENTO que o Império na serialização postal.
+Paradoxo: a República produz menos endurecimento que o Império na serialização postal.
 A República permite movimento; o Império exige imobilidade. Isto inverte a previsão
-linear da tese — o ENDURECIMENTO depende do regime político, não apenas do tempo.
+linear da tese — o endurecimento depende do regime político, não apenas do tempo.
 
 ### 2. O Contrato Sexual Visual
 - **Semeuse:** o corpo feminino TRABALHA — semear é função produtiva. A República

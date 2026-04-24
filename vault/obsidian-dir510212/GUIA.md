@@ -29,4 +29,4 @@ Disciplina de metodologia para o projeto de tese doutoral. Diretamente aplicáve
 - Referências em ABNT NBR 6023:2025
 - Idioma: português acadêmico formal
 - Voz metodológica rigorosa, compatível com o enquadramento jurídico-penal da tese
-- Terminologia da tese (ENDURECIMENTO, Contrato Sexual Visual, Feminilidade de Estado, Pathosformel, etc.) deve ser mantida quando aplicável
+- Terminologia da tese (endurecimento, Contrato Sexual Visual, Feminilidade de Estado, Pathosformel, etc.) deve ser mantida quando aplicável

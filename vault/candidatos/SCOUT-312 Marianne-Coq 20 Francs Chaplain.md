@@ -16,7 +16,7 @@ tags:
   - regime/normativo
   - motivo/marianne
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 data_scout: 2026-03-30
 ---
@@ -30,7 +30,7 @@ data_scout: 2026-03-30
 
 Perfil de Marianne com barrete frígio e louros. Cabelos soltos. Reverso: galo gaulês. Legenda de borda muda de "DIEU PROTEGE LA FRANCE" (1899–1905) para "LIBERTÉ ÉGALITÉ FRATERNITÉ" (1906+) — separação Igreja-Estado. Corpo IDÊNTICO, texto que muda.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
 **MODERADO** — desincorporacao alta (só cabeça), serialidade EXTREMA (117 milhões). Cabelos soltos preservam feminilidade vs. Germania blindada.
 

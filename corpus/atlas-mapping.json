@@ -23,7 +23,7 @@
     ],
     "atlas_names": [
       "Gênese",
-      "ENDURECIMENTO"
+      "endurecimento"
     ],
     "scores": {
       "1": 1,
@@ -42,7 +42,7 @@
     "atlas_names": [
       "Gênese",
       "Domesticação",
-      "ENDURECIMENTO"
+      "endurecimento"
     ],
     "scores": {
       "1": 1,
@@ -76,7 +76,7 @@
     "atlas_names": [
       "Gênese",
       "Domesticação",
-      "ENDURECIMENTO"
+      "endurecimento"
     ],
     "scores": {
       "1": 1,
@@ -93,7 +93,7 @@
       6
     ],
     "atlas_names": [
-      "ENDURECIMENTO",
+      "endurecimento",
       "Balança e Império"
     ],
     "scores": {
@@ -132,7 +132,7 @@
       6
     ],
     "atlas_names": [
-      "ENDURECIMENTO",
+      "endurecimento",
       "Balança e Império"
     ],
     "scores": {
@@ -172,7 +172,7 @@
     ],
     "atlas_names": [
       "Domesticação",
-      "ENDURECIMENTO",
+      "endurecimento",
       "Branquitude"
     ],
     "scores": {
@@ -197,7 +197,7 @@
       "Gênese",
       "Justitia",
       "Domesticação",
-      "ENDURECIMENTO",
+      "endurecimento",
       "Balança e Império",
       "Fissuras"
     ],
@@ -223,7 +223,7 @@
     "atlas_names": [
       "Gênese",
       "Domesticação",
-      "ENDURECIMENTO",
+      "endurecimento",
       "Pedra e Bronze"
     ],
     "scores": {
@@ -257,7 +257,7 @@
       6
     ],
     "atlas_names": [
-      "ENDURECIMENTO",
+      "endurecimento",
       "Balança e Império"
     ],
     "scores": {
@@ -273,7 +273,7 @@
       4
     ],
     "atlas_names": [
-      "ENDURECIMENTO"
+      "endurecimento"
     ],
     "scores": {
       "4": 1
@@ -305,7 +305,7 @@
       7
     ],
     "atlas_names": [
-      "ENDURECIMENTO",
+      "endurecimento",
       "Balança e Império",
       "Branquitude"
     ],

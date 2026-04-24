@@ -17,7 +17,7 @@ tags:
 related:
   - "[[SCOUT-316 500 Reis Republica Brasil 1889]]"
   - "[[SCOUT-421 500 Reis Prata 1912]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
 data_scout: 2026-04-10
@@ -28,7 +28,7 @@ data_scout: 2026-04-10
 Este painel estabelece o espaço de tensão (*Zwischenraum*) entre duas materializações
 da mesma alegoria republicana no mesmo valor de face, separadas por 23 anos de
 normalização institucional. O *Zwischenraum* é temporal: não entre países ou figuras,
-mas entre estados do mesmo corpo alegórico ao longo do processo de ENDURECIMENTO.
+mas entre estados do mesmo corpo alegórico ao longo do processo de endurecimento.
 
 **Polo A (Brasil, 1889):** *500 Réis — Efígie da República* (SCOUT-316) — Primeira
 cunhagem republicana, prata de lei (.917), 6,375 g, 25 mm. Emitida no ano da
@@ -52,7 +52,7 @@ A República é agora rotina burocrática.
 | **Regime** | FUNDACIONAL | NORMATIVO |
 | **Numista** | N# 19841 | N# 14481 |
 
-### 1. A Mutação do ENDURECIMENTO
+### 1. A Mutação do endurecimento
 
 O trânsito entre os polos documenta a purificação progressiva da República brasileira
 na moeda de prata de valor intermediário. As mutações são mensuráveis:
@@ -77,7 +77,7 @@ encolhe junto com a energia fundacional.
 | serialidade | moderada (inaugural) | alta (circulação massiva) | ↑ |
 | inscrição_estatal | alta | máxima | ↑ |
 
-**Síntese:** 5 dos 10 indicadores aumentam entre os polos, nenhum diminui. O ENDURECIMENTO
+**Síntese:** 5 dos 10 indicadores aumentam entre os polos, nenhum diminui. O endurecimento
 opera unidirecionalmente neste par — a entropia do corpo alegórico é irreversível
 dentro do regime monetário.
 
@@ -106,7 +106,7 @@ e portanto não é mais visto como corpo.
 
 ### 3. Síntese para a Tese
 
-Este Zwischenraum é excepcionalmente valioso porque demonstra o ENDURECIMENTO
+Este Zwischenraum é excepcionalmente valioso porque demonstra o endurecimento
 *in vivo* — na mesma denominação, no mesmo país, no mesmo metal (com degradação
 quantificável). A redução de peso, diâmetro e pureza da prata é evidência material
 do processo que a tese teoriza: o corpo alegórico não apenas se rigidifica visualmente,
@@ -115,7 +115,7 @@ menos substância na alegoria à medida que ela se torna mais funcional.
 
 O par demonstra ainda que a transição FUNDACIONAL → NORMATIVO não é apenas estilística
 (mudança de pose, atributos) mas *metalúrgica* — a purificação opera no nível da
-composição material do suporte. Isto reforça o argumento de que o ENDURECIMENTO não
+composição material do suporte. Isto reforça o argumento de que o endurecimento não
 é metáfora, mas processo material observável.
 
 **Conexão com outros painéis:** comparar com a transição Marianne-barricade → Semeuse

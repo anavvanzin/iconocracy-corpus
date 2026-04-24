@@ -18,7 +18,7 @@ created: 2026-04-10
 | [[SCOUT-205]] | Frontispício do Decreto n.º 1 | Frontispício tipográfico | Cartela jurídica que transforma decreto em relíquia | Painel I / Cap. 5.2 |
 | [[SCOUT-206]] | Medalha comemorativa (Casa da Moeda, 1890) | Medalha | Relevo metálico como selo portátil da República | Painel I (submódulo “selo como monumento”) |
 
-**Narrativa:** a mesma Pathosformel migra de papel jornalístico (SCOUT-204) para chancela jurídica (SCOUT-205) e, em seguida, para metal de circulação controlada (SCOUT-206). Cada suporte aumenta o ENDURECIMENTO e a distância entre corpo feminino e cidadania. O decreto que aparece em brasa na litografia torna-se inscrição fria no bronze.
+**Narrativa:** a mesma Pathosformel migra de papel jornalístico (SCOUT-204) para chancela jurídica (SCOUT-205) e, em seguida, para metal de circulação controlada (SCOUT-206). Cada suporte aumenta o endurecimento e a distância entre corpo feminino e cidadania. O decreto que aparece em brasa na litografia torna-se inscrição fria no bronze.
 
 **Ganchos textuais:**
 - Cap. 3.2 — transferências visuais FR → BR (usar a litografia como exemplo de clonagem).

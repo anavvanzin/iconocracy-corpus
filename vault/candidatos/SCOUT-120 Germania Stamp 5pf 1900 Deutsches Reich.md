@@ -11,7 +11,7 @@ pais: DE
 suporte: selo postal
 motivo_alegorico: "Germania"
 regime: NORMATIVO
-endurecimento: ALTO
+Endurecimento: ALTO
 confianca: alto
 tags:
   - corpus/candidato
@@ -58,9 +58,9 @@ Figura feminina sentada ou em postura imperial, de frente, ocupando todo o espa�
 - [x] postura frontal hierática
 - [ ] contexto arquitetônico forense
 
-**ENDURECIMENTO:** ALTO
+**endurecimento:** ALTO
 **Regime iconocrático:** NORMATIVO
-**Justificativa:** Germania armada e coroada em postura frontal hierática sobre suporte postal de circulação massiva — corpo imperial estabilizado em formato burocrático definitivo, com ENDURECIMENTO máximo desde a emissão inaugural.
+**Justificativa:** Germania armada e coroada em postura frontal hierática sobre suporte postal de circulação massiva — corpo imperial estabilizado em formato burocrático definitivo, com endurecimento máximo desde a emissão inaugural.
 
 ---
 

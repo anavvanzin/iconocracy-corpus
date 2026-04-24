@@ -46,7 +46,7 @@ data_scout: 2026-04-04
 **Regime iconocrático:** NORMATIVO
 **Justificativa:** Projeto de Visconti intitulado explicitamente "A Mulher Brasileira" para selo postal. Diferente das demais alegorias da série (República, Artes, Comércio), esta não personifica uma virtude ou instituição, mas a NAÇÃO MESMA como corpo feminino. É a Feminilidade de Estado em seu grau mais literal: a mulher não é metáfora de algo (justiça, liberdade) — ela É o Brasil.
 
-**ENDURECIMENTO detectado:** incerto — necessita análise visual.
+**endurecimento detectado:** incerto — necessita análise visual.
 
 ---
 

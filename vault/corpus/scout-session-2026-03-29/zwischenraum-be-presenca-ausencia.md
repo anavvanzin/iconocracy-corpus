@@ -19,7 +19,7 @@ related:
   - "[[SCOUT-035 5 Francs 50 Anos Belgica]]"
   - "[[SCOUT-036 2 Francs Leopold II controle negativo]]"
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Heraldizacao]]"
   - "[[Apagamento Narrativo]]"
   - "[[Contrato Sexual Visual]]"
@@ -59,9 +59,9 @@ Este painel estabelece o espaco de tensao (*Zwischenraum*) entre a manifestacao 
 
 ---
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-A oscilacao entre os dois polos documenta nao uma progressao temporal do ENDURECIMENTO, mas sua **logica de ativacao contextual**. Os dez indicadores de purificacao operam de modos radicalmente distintos:
+A oscilacao entre os dois polos documenta nao uma progressao temporal do endurecimento, mas sua **logica de ativacao contextual**. Os dez indicadores de purificacao operam de modos radicalmente distintos:
 
 | Indicador | Polo A (SCOUT-035) | Polo B (SCOUT-036) |
 |-----------|--------------------|--------------------|
@@ -76,9 +76,9 @@ A oscilacao entre os dois polos documenta nao uma progressao temporal do ENDUREC
 | **serialidade** | Baixa -- peca unica comemorativa | Alta -- serie de circulacao, decadas de emissao |
 | **inscricao_estatal** | Maxima -- "CONSTITUTION BELGE" + datas "1830 1880" | Maxima -- "L'UNION FAIT LA FORCE" + valor facial |
 
-O dado crucial: seis dos dez indicadores de purificacao atingem seu grau maximo no Polo B, mas **nao por operarem sobre um corpo feminino** -- operam pela *eliminacao previa* desse corpo. O ENDURECIMENTO aqui nao endurece a alegoria: a *dissolve*. A heraldizacao e o apagamento_narrativo nao sao processos de rigidificacao do corpo feminino; sao processos de *substituicao* do corpo feminino pelo aparato heraldico. O Polo B documenta o **grau zero** do ENDURECIMENTO -- o ponto em que a purificacao se completa pela supressao total da alegoria.
+O dado crucial: seis dos dez indicadores de purificacao atingem seu grau maximo no Polo B, mas **nao por operarem sobre um corpo feminino** -- operam pela *eliminacao previa* desse corpo. O endurecimento aqui nao endurece a alegoria: a *dissolve*. A heraldizacao e o apagamento_narrativo nao sao processos de rigidificacao do corpo feminino; sao processos de *substituicao* do corpo feminino pelo aparato heraldico. O Polo B documenta o **grau zero** do endurecimento -- o ponto em que a purificacao se completa pela supressao total da alegoria.
 
-O Polo A, inversamente, demonstra que a presenca da alegoria feminina e *reativada* quando o Estado precisa de uma cena de **origem**. A moeda comemorativa recorre ao corpo feminino precisamente porque a funcao jubilar exige narrativa, e a narrativa exige personagem. O ENDURECIMENTO no Polo A e real (dessexualizacao, heraldizacao, enquadramento), mas preserva o corpo como vetor necessario do *acoplamento imagem-norma*: a mulher *e* a Constituicao porque a segura nas maos.
+O Polo A, inversamente, demonstra que a presenca da alegoria feminina e *reativada* quando o Estado precisa de uma cena de **origem**. A moeda comemorativa recorre ao corpo feminino precisamente porque a funcao jubilar exige narrativa, e a narrativa exige personagem. O endurecimento no Polo A e real (dessexualizacao, heraldizacao, enquadramento), mas preserva o corpo como vetor necessario do *acoplamento imagem-norma*: a mulher *e* a Constituicao porque a segura nas maos.
 
 ---
 
@@ -102,7 +102,7 @@ Este Zwischenraum demonstra tres teses simultaneamente:
 
 **a) A alegoria feminina e um dispositivo *funcional*, nao decorativo.** Se fosse decorativa, estaria nas moedas de circulacao tanto quanto nas comemorativas. Sua presenca seletiva prova que o corpo feminino e ativado quando o Estado necessita de uma operacao semiotica especifica: fundir fundacao, constituicao e nacao numa unica imagem.
 
-**b) O ENDURECIMENTO tem um terminus: a dissolucao heraldica.** O Polo B mostra que o processo de purificacao nao necessariamente desemboca numa alegoria rigida (como em DE ou UK); pode desembocar na eliminacao completa da alegoria, substituida pelo brasao. A heraldizacao maxima e o apagamento_narrativo maximo nao sao etapas intermediarias — sao o *fim do processo*. Isso exige que o modelo de ENDURECIMENTO da tese preveja nao apenas o *continuum* de rigidificacao, mas tambem o *salto qualitativo* para a ausencia.
+**b) O endurecimento tem um terminus: a dissolucao heraldica.** O Polo B mostra que o processo de purificacao nao necessariamente desemboca numa alegoria rigida (como em DE ou UK); pode desembocar na eliminacao completa da alegoria, substituida pelo brasao. A heraldizacao maxima e o apagamento_narrativo maximo nao sao etapas intermediarias — sao o *fim do processo*. Isso exige que o modelo de endurecimento da tese preveja nao apenas o *continuum* de rigidificacao, mas tambem o *salto qualitativo* para a ausencia.
 
 **c) A Belgica como caso-limite ilumina os outros paises.** Se a Belgica demonstra que a alegoria feminina e *dispensavel* na funcao monetaria quotidiana, entao sua *permanencia* em FR, UK e US se torna um fato que exige explicacao. A permanencia de Marianne, Britannia e Liberty nao e natural — e uma *escolha politica* cuja necessidade o caso belga torna visivel. O controle negativo (SCOUT-036) funciona como revelador fotografico dos demais casos positivos.
 

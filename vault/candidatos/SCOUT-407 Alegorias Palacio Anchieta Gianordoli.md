@@ -19,7 +19,7 @@ tags:
   - regime/normativo
   - motivo/republica
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-406 Alegorias Palacio Catete Val dOsne]]"
 hf_synced: false
@@ -52,7 +52,7 @@ data_scout: 2026-04-04
 - [x] contexto arquitetônico (escadaria do palácio do governo)
 - [ ] cornucópia (provável em Primavera/Verão)
 
-**ENDURECIMENTO detectado:** incerto — necessita análise visual. A presença de alegorias sazonais (não diretamente jurídico-políticas) em edifício governamental sugere uma domesticação do corpo feminino em registro decorativo-naturalista, possivelmente indicando dessexualização e apagamento narrativo.
+**endurecimento detectado:** incerto — necessita análise visual. A presença de alegorias sazonais (não diretamente jurídico-políticas) em edifício governamental sugere uma domesticação do corpo feminino em registro decorativo-naturalista, possivelmente indicando dessexualização e apagamento narrativo.
 
 ---
 
@@ -76,7 +76,7 @@ GIANORDOLI, Pedro. *Alegorias das Estações e da Indústria*. 1912. Escultura. 
 
 ## Observações do Scout
 
-Conjunto comparável ao programa do Palácio do Catete (SCOUT-406), mas sobrevivente — as esculturas permanecem in situ. A comparação Catete (removidas) × Anchieta (preservadas) pode revelar diferenças regionais no processo de ENDURECIMENTO.
+Conjunto comparável ao programa do Palácio do Catete (SCOUT-406), mas sobrevivente — as esculturas permanecem in situ. A comparação Catete (removidas) × Anchieta (preservadas) pode revelar diferenças regionais no processo de endurecimento.
 
 A Alegoria da Indústria é particularmente relevante: o corpo feminino como veículo de progresso econômico (não jurídico stricto sensu) no contexto positivista da República Velha. Conecta com a Semeuse francesa (corpo feminino semeando = produtividade domesticada).
 

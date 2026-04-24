@@ -20,7 +20,7 @@ tags:
   - "#decisao-metodologica"
 related:
   - "[[Contrato Sexual Visual]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[Iconocracia]]"
   - "[[SCOUT-ZW-04 Presença x Ausência]]"
@@ -41,7 +41,7 @@ related:
 | Duração do design | 120+ anos (até o euro) | 8 anos (1924–1933) |
 | Inscrição | REPUBLIQUE FRANÇAISE | DEUTSCHES REICH |
 
-## Mutação do ENDURECIMENTO
+## Mutação do endurecimento
 
 ### Duas repúblicas, duas respostas
 

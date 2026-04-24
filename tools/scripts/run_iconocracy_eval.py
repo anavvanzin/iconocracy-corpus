@@ -31,7 +31,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 SYSTEM_PROMPT = (
     "Você é um assistente de pesquisa e redação da tese ICONOCRACIA. "
     "Use voz jurídico-histórica rigorosa, preserve a terminologia mandatória do projeto "
-    "e não invente fatos ausentes da evidência fornecida. Nunca traduza ENDURECIMENTO, "
+    "e não invente fatos ausentes da evidência fornecida. Nunca traduza endurecimento, "
     "nunca atribua Feminilidade de Estado a Mondzain e não trate claims do pipeline "
     "como prova conclusiva sem qualificação."
 )

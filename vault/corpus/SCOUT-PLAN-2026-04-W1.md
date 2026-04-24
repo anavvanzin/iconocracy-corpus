@@ -56,4 +56,4 @@ https://bndigital.bn.gov.br/sru?version=1.2&operation=searchRetrieve&startRecord
 
 - Priorizar itens com presença explícita de texto normativo (pergaminhos, decretos, inscrições legíveis).
 - Coletar paletas cromáticas com `pip install colour-science` (rodar depois) para Atlas.
-- Registrar insights para Artigo A (contraste ENDURECIMENTO fundacional x militar).
+- Registrar insights para Artigo A (contraste endurecimento fundacional x militar).

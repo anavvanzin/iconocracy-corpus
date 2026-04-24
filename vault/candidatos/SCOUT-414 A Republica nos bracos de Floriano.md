@@ -11,7 +11,7 @@ pais: BR
 suporte: estampa
 motivo_alegorico: "A República"
 regime: NORMATIVO
-endurecimento: MEDIO
+Endurecimento: MEDIO
 confianca: alto
 tags:
   - corpus/candidato
@@ -24,7 +24,7 @@ related:
   - "[[Regime Normativo]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
 data_scout: 2026-04-05
 ---
 
@@ -57,7 +57,7 @@ A imagem retrata o Marechal Deodoro da Fonseca, com aparência envelhecida e can
 - [ ] postura frontal hierática
 - [ ] contexto arquitetônico forense
 
-**ENDURECIMENTO:** MEDIO
+**endurecimento:** MEDIO
 **Regime iconocrático:** NORMATIVO
 **Justificativa:** A imagem marca a transição da "República da Espada" para a consolidação institucional, onde a fragilidade civil da alegoria é "protegida" pela robustez militar de Floriano.
 
