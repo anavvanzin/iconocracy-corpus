@@ -1,1 +1,1 @@
-"""Protocol handlers for archive acquisition."""
+"""Protocol adapters for ARGOS."""

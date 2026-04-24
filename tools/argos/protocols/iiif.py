@@ -1,189 +1,167 @@
-"""IIIF discovery and fetch.
-
-Archive-specific patterns (Gallica ARK, LoC ``/manifest.json``,
-Europeana record API, Rijksmuseum object API) are used to discover the
-IIIF Presentation manifest for a given source URL. Once found, the
-image API endpoint is reduced to ``/full/max/0/default.jpg``.
-
-Derived from the patterns in ``tools/scripts/enrich_iiif.py``.
-"""
-
 from __future__ import annotations
 
 import re
-from typing import Any
-from urllib.parse import urlparse
+from pathlib import Path
 
-try:
-    import requests
-
-    HAS_REQUESTS = True
-except ImportError:  # pragma: no cover
-    HAS_REQUESTS = False
-
-from .. import USER_AGENT
-from . import direct
-
-GALLICA_ARK_RE = re.compile(r"ark:/(\d+/[^./]+)")
-LOC_ITEM_RE = re.compile(r"loc\.gov/(?:item|resource)/([^/?#]+)")
-EUROPEANA_RECORD_RE = re.compile(r"europeana\.eu/(?:[a-z]+/)?item/([^/?#]+)/([^/?#]+)")
-RIJKS_OBJECT_RE = re.compile(r"rijksmuseum\.nl/.*?/([A-Z]{2}-[A-Z0-9-]+)")
+from tools.argos.protocols.direct import fetch_direct
 
 
-def discover(source_url: str) -> dict[str, Any]:
-    """Return ``{'image_url', 'manifest_url', 'archive'}`` or empty dict."""
+ARK_PATTERN = re.compile(r"(ark:/\d+/[^\s?#]+)", re.IGNORECASE)
+EUROPEANA_ARK_PATTERN = re.compile(r"ark__(\d+)_([^/?#]+)", re.IGNORECASE)
+EUROPEANA_ITEM_PATTERN = re.compile(r"/item/(\d+)/(.+?)(?:\?|$)")
+LOC_RESOURCE_PATTERN = re.compile(r"/resource/([a-z]+)\.(\w+)/?")
+LOC_ITEM_PATTERN = re.compile(r"/item/(\d+)/?")
 
-    if not source_url:
-        return {}
-    host = (urlparse(source_url).hostname or "").lower()
 
-    # Gallica (BnF) — ARK-based image API
-    m = GALLICA_ARK_RE.search(source_url)
-    if m and ("gallica" in host or "bnf.fr" in host):
-        ark = m.group(1)
+def _normalize_gallica_ark(ark: str) -> str:
+    clean = re.sub(r"^https?://gallica\.bnf\.fr/", "", ark)
+    clean = re.sub(r"^/?ark:/", "ark:/", clean)
+    if not clean.startswith("ark:"):
+        clean = f"ark:/12148/{clean}"
+    return clean
+
+
+def gallica_manifest_from_ark(ark: str) -> str:
+    """Build the Gallica IIIF manifest URL for an ARK."""
+
+    return f"https://gallica.bnf.fr/iiif/{_normalize_gallica_ark(ark)}/manifest.json"
+
+
+def _gallica_image_from_ark(ark: str) -> str:
+    return f"https://gallica.bnf.fr/iiif/{_normalize_gallica_ark(ark)}/f1/full/full/0/native.jpg"
+
+
+def _ark_from_text(value: str | None) -> str | None:
+    if not value:
+        return None
+    match = ARK_PATTERN.search(value)
+    if match:
+        return match.group(1).rstrip("/.,;)]")
+    return None
+
+
+def _ark_from_europeana_url(url: str | None) -> str | None:
+    if not url:
+        return None
+    match = EUROPEANA_ARK_PATTERN.search(url)
+    if not match:
+        return None
+    return f"ark:/{match.group(1)}/{match.group(2)}"
+
+
+def _discover_loc(item: dict) -> dict | None:
+    thumb = item.get("thumbnail_url", "") or ""
+    url = item.get("url", "") or ""
+
+    match = LOC_RESOURCE_PATTERN.search(thumb)
+    if match:
+        prefix, num = match.group(1), match.group(2)
+        digits = re.sub(r"\D", "", num)
+        if len(digits) >= 5:
+            folder = digits[:5] + "000"
+            service_id = f"service:pnp:{prefix}:{folder}:{prefix}{num}"
+            manifest = f"https://tile.loc.gov/image-services/iiif/{service_id}/info.json"
+            image_url = f"https://tile.loc.gov/image-services/iiif/{service_id}/full/pct:100/0/default.jpg"
+            return {
+                "iiif_source": "loc",
+                "manifest_url": manifest,
+                "image_url": image_url,
+            }
+
+    match = LOC_ITEM_PATTERN.search(url)
+    if match:
+        item_id = match.group(1)
         return {
-            "archive": "gallica",
-            "manifest_url": f"https://gallica.bnf.fr/iiif/ark:/{ark}/manifest.json",
-            "image_url": f"https://gallica.bnf.fr/iiif/ark:/{ark}/f1/full/max/0/native.jpg",
-            "image_url_alt": f"https://gallica.bnf.fr/iiif/ark:/{ark}/f1/full/full/0/native.jpg",
-            "thumbnail_url": f"https://gallica.bnf.fr/ark:/{ark}/f1.thumbnail",
-        }
-
-    # Library of Congress
-    m = LOC_ITEM_RE.search(source_url)
-    if m and "loc.gov" in host:
-        item_id = m.group(1).rstrip("/")
-        return {
-            "archive": "loc",
-            "manifest_url": f"https://www.loc.gov/item/{item_id}/manifest.json",
-            "image_url": None,  # resolve via manifest; set in _resolve_loc
-        }
-
-    # Europeana
-    m = EUROPEANA_RECORD_RE.search(source_url)
-    if m and "europeana" in host:
-        rid = f"{m.group(1)}/{m.group(2)}"
-        return {
-            "archive": "europeana",
-            "manifest_url": f"https://api.europeana.eu/record/v2/{rid}.json?wskey=api2demo",
+            "iiif_source": "loc_api",
+            "manifest_url": f"https://www.loc.gov/item/{item_id}/?fo=json",
             "image_url": None,
         }
-
-    # Rijksmuseum — IIIF image service keyed by object number
-    m = RIJKS_OBJECT_RE.search(source_url)
-    if m and "rijksmuseum" in host:
-        obj = m.group(1)
-        return {
-            "archive": "rijksmuseum",
-            "manifest_url": (
-                f"https://www.rijksmuseum.nl/api/en/collection/{obj}"
-                "?key=0fiuZFh4"  # public demo key
-            ),
-            "image_url": None,
-        }
-
-    return {}
-
-
-def _resolve_via_manifest(manifest_url: str) -> str | None:
-    """Fetch a IIIF manifest and extract the first image service URL."""
-
-    if not HAS_REQUESTS:
-        return None
-    try:
-        resp = requests.get(
-            manifest_url,
-            headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
-            timeout=15,
-        )
-        if resp.status_code >= 400:
-            return None
-        data = resp.json()
-    except (requests.RequestException, ValueError):
-        return None
-
-    # IIIF Presentation v2
-    sequences = data.get("sequences") or []
-    if sequences:
-        canvases = sequences[0].get("canvases") or []
-        if canvases:
-            images = canvases[0].get("images") or []
-            if images:
-                resource = images[0].get("resource") or {}
-                service = resource.get("service") or {}
-                if service.get("@id"):
-                    return service["@id"].rstrip("/") + "/full/max/0/default.jpg"
-                if resource.get("@id"):
-                    return resource["@id"]
-
-    # IIIF Presentation v3
-    items = data.get("items") or []
-    if items:
-        try:
-            body = items[0]["items"][0]["items"][0].get("body", {})
-            service = body.get("service") or []
-            if service:
-                svc = service[0] if isinstance(service, list) else service
-                if svc.get("id"):
-                    return svc["id"].rstrip("/") + "/full/max/0/default.jpg"
-            if body.get("id"):
-                return body["id"]
-        except (KeyError, IndexError, TypeError):
-            pass
-
-    # Europeana record JSON envelope
-    obj = data.get("object")
-    if isinstance(obj, dict):
-        aggs = obj.get("aggregations") or []
-        for agg in aggs:
-            shown = agg.get("edmIsShownBy") or agg.get("edmObject")
-            if shown:
-                return shown
-
-    # Rijksmuseum object envelope
-    art = data.get("artObject") or {}
-    web = art.get("webImage") or {}
-    if web.get("url"):
-        return web["url"]
 
     return None
 
 
-def resolve_image_url(source_url: str) -> dict[str, Any]:
-    """Return the best-guess image URL for ``source_url`` via IIIF discovery."""
+def discover_iiif(item: dict) -> dict | None:
+    """Discover likely IIIF endpoints from known URL patterns.
 
-    info = discover(source_url)
-    if not info:
-        return {}
-    if info.get("image_url"):
-        return info
-    manifest_url = info.get("manifest_url")
-    if manifest_url:
-        resolved = _resolve_via_manifest(manifest_url)
-        if resolved:
-            info["image_url"] = resolved
-    return info
+    This is intentionally pattern-based discovery for common archives, not a full
+    IIIF manifest parser or crawler.
+    """
 
+    url = item.get("url", "") or ""
+    thumb = item.get("thumbnail_url", "") or ""
 
-def fetch(source_url: str, dest_path) -> dict[str, Any]:
-    """IIIF pipeline: discover → resolve → GET. Returns a direct.fetch-style dict."""
-
-    info = resolve_image_url(source_url)
-    if not info or not info.get("image_url"):
+    ark = _ark_from_text(url)
+    if "gallica.bnf.fr" in url and ark:
         return {
-            "ok": False,
-            "status_code": None,
-            "bytes": 0,
-            "error": "iiif_not_found",
-            "iiif_manifest_url": (info or {}).get("manifest_url"),
+            "iiif_source": "gallica",
+            "manifest_url": gallica_manifest_from_ark(ark),
+            "image_url": _gallica_image_from_ark(ark),
         }
-    url = info["image_url"]
-    result = direct.fetch(url, dest_path)
-    result["fetched_url"] = url
-    result["iiif_manifest_url"] = info.get("manifest_url")
-    # Try the /full/full fallback for Gallica if /full/max returns 404.
-    if not result["ok"] and info.get("image_url_alt"):
-        result = direct.fetch(info["image_url_alt"], dest_path)
-        result["fetched_url"] = info["image_url_alt"]
-        result["iiif_manifest_url"] = info.get("manifest_url")
+
+    ark = _ark_from_text(thumb)
+    if "gallica.bnf.fr/iiif" in thumb and ark:
+        return {
+            "iiif_source": "gallica",
+            "manifest_url": gallica_manifest_from_ark(ark),
+            "image_url": _gallica_image_from_ark(ark),
+        }
+
+    if "europeana.eu" in url:
+        ark = _ark_from_europeana_url(url)
+        if ark:
+            return {
+                "iiif_source": "europeana_gallica",
+                "manifest_url": gallica_manifest_from_ark(ark),
+                "image_url": _gallica_image_from_ark(ark),
+            }
+
+        match = EUROPEANA_ITEM_PATTERN.search(url)
+        if match:
+            provider, local = match.group(1), match.group(2)
+            return {
+                "iiif_source": "europeana",
+                "manifest_url": f"https://iiif.europeana.eu/presentation/{provider}/{local}/manifest",
+                "image_url": None,
+            }
+
+    if "loc.gov" in url:
+        return _discover_loc(item)
+
+    return None
+
+
+def fetch_iiif_image(item: dict, dest_path: Path) -> dict:
+    """Fetch via a discovered IIIF image URL when one is inferable from patterns."""
+
+    discovered = discover_iiif(item)
+    if not discovered:
+        return {
+            "success": False,
+            "protocol": "iiif",
+            "dest_path": str(Path(dest_path)),
+            "bytes_written": 0,
+            "status_code": None,
+            "failure_class": "iiif_unavailable",
+            "error": "No supported IIIF pattern discovered",
+        }
+
+    image_url = discovered.get("image_url")
+    if not image_url:
+        return {
+            "success": False,
+            "protocol": "iiif",
+            "dest_path": str(Path(dest_path)),
+            "bytes_written": 0,
+            "status_code": None,
+            "failure_class": "iiif_image_unavailable",
+            "error": "Discovered IIIF manifest but no fetchable image URL",
+            "manifest_url": discovered.get("manifest_url"),
+            "iiif_source": discovered.get("iiif_source"),
+        }
+
+    result = fetch_direct(image_url, dest_path)
+    result["protocol"] = "iiif"
+    result["manifest_url"] = discovered.get("manifest_url")
+    result["iiif_source"] = discovered.get("iiif_source")
+    result["source_url"] = image_url
     return result

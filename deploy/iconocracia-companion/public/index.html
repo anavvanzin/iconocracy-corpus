@@ -68,7 +68,7 @@ const ATLAS=[
   {n:1,name:"Gênese",desc:"A primeira vez que o Estado vestiu um corpo feminino",icon:"🌅",slots:6,motif:"Origens republicanas, primeiras Mariannes, Columbia nascente",countries:["FR","US"],period:"1789–1850"},
   {n:2,name:"Justitia",desc:"Balança, espada, venda — a fórmula que sobrevive",icon:"⚖️",slots:8,motif:"Pathosformel da Justiça através de séculos e fronteiras",countries:["FR","UK","DE","BE"],period:"1800–2000"},
   {n:3,name:"Domesticação",desc:"Como o corpo alegórico foi purificado",icon:"🏛️",slots:6,motif:"Purificação clássica, cobertura do corpo, remoção de atributos",countries:["FR","UK","US"],period:"1850–1920"},
-  {n:4,name:"ENDURECIMENTO",desc:"O corpo que endurece quando o Estado faz guerra",icon:"🛡️",slots:7,motif:"Militarização, rigidez, armadura, Helmeted Britannia",countries:["FR","UK","DE","US"],period:"1870–1945"},
+  {n:4,name:"endurecimento",desc:"O corpo que endurece quando o Estado faz guerra",icon:"🛡️",slots:7,motif:"Militarização, rigidez, armadura, Helmeted Britannia",countries:["FR","UK","DE","US"],period:"1870–1945"},
   {n:5,name:"Pedra e Bronze",desc:"Quando a alegoria se torna monumento",icon:"🗿",slots:5,motif:"Transição do papel ao bronze, escala monumental",countries:["FR","US","BR","BE"],period:"1870–1940"},
   {n:6,name:"Balança e Império",desc:"A justiça como arma geopolítica",icon:"🌍",slots:6,motif:"Exportação colonial da iconografia jurídica",countries:["FR","UK","BE","BR"],period:"1850–1960"},
   {n:7,name:"Branquitude",desc:"O contrato racial da imagem soberana",icon:"👁️",slots:5,motif:"Branqueamento alegórico, apagamento do corpo colonizado",countries:["BR","BE","FR"],period:"1870–1950"},
@@ -79,7 +79,7 @@ const GLOSSARY=[
   {term:"Visiocracia",source:"Goodrich (2014)",type:"mobilizado",ch:"Cap. 1"},
   {term:"Contrato Sexual Visual",source:"original",type:"original",ch:"Cap. 1"},
   {term:"Feminilidade de Estado",source:"original",type:"original",ch:"Cap. 2"},
-  {term:"ENDURECIMENTO",source:"original",type:"original",ch:"Cap. 6–7"},
+  {term:"endurecimento",source:"original",type:"original",ch:"Cap. 6–7"},
   {term:"Purificação Clássica",source:"original",type:"original",ch:"Cap. 5–6"},
   {term:"Zwischenraum",source:"Warburg",type:"mobilizado",ch:"Cap. 8"},
   {term:"Pathosformel",source:"Warburg",type:"mobilizado",ch:"Cap. 4"},
@@ -93,7 +93,7 @@ const PROMPTS=[
   {id:"P2",cat:"ICONOCODE",title:"Codificar 3 níveis Panofsky",prompt:"Codifique esta imagem segundo o IconoCode:\n[DESCRIÇÃO ou URL]\nPaís/Ano: [PAÍS] / [ANO]\n\nNível 1 (pré-iconográfico): motivos\nNível 2 (iconográfico): tema + ICONCLASS\nNível 3 (iconológico): significado jurídico-político\n\nJSON compatível com iconocode-output.schema.json."},
   {id:"P3",cat:"INDICADORES",title:"Aplicar 10 indicadores",prompt:"Aplique os 10 indicadores ordinais de purificação a:\n[DESCRIÇÃO DA IMAGEM]\n\n1. Exposição/nudez  2. Militarização  3. Venda nos olhos\n4. Atributos  5. Vestimenta  6. Pose\n7. Contexto arquitetônico  8. Rel. figuras masculinas\n9. Escala/proporção  10. Idealização/naturalismo"},
   {id:"P4",cat:"ATLAS",title:"Compor painel do Atlas",prompt:"Proponha a composição do Painel [N] — [NOME].\n1. Que imagens do corpus?\n2. Qual Zwischenraum revela?\n3. Disposição warburguiana (não linear)\n4. Que Pathosformel conecta?\n5. Legenda de cada imagem"},
-  {id:"P5",cat:"ESCRITA",title:"Redigir seção de capítulo",prompt:"Redija a seção [X.Y] do Cap. [N]: \"[TÍTULO]\".\nSeção anterior: [X]. Objetivo: [Y]. Seguinte: [Z].\nReferências: [AUTORES]\n\nTom ensaístico (Goodrich). Sem travessões. ENDURECIMENTO em português. Mondzain=2002."},
+  {id:"P5",cat:"ESCRITA",title:"Redigir seção de capítulo",prompt:"Redija a seção [X.Y] do Cap. [N]: \"[TÍTULO]\".\nSeção anterior: [X]. Objetivo: [Y]. Seguinte: [Z].\nReferências: [AUTORES]\n\nTom ensaístico (Goodrich). Sem travessões. Endurecimento em português. Mondzain=2002."},
   {id:"P6",cat:"TEORIA",title:"Articular tríade teórica",prompt:"Articule Pateman–Mondzain–Goodrich em relação a [TEMA].\n1. Contribuição de cada autor\n2. Contrato Sexual Visual como ponte\n3. Warburg como âncora metodológica\n4. Lacuna preenchida"},
   {id:"P7",cat:"INFRA",title:"Sinc GitHub↔Notion",prompt:"Verifique coerência entre records.jsonl (GitHub) e Notion DB1.\n1. Itens sem correspondente\n2. Campos divergentes\n3. IDs duplicados\nGere diff + ação corretiva."},
   {id:"P8",cat:"OBSIDIAN",title:"Gerar nota zettelkasten",prompt:"Gere nota atômica Obsidian sobre [TEMA].\nFrontmatter: tags, related [[]], date, source, chapter.\nConteúdo: uma ideia por nota, links internos [[]] para conceitos."},
@@ -157,7 +157,7 @@ function CorpusModal({item,onClose}){
         {d.institution&&<div style={{fontSize:12,marginBottom:4}}><span style={{color:"var(--warmGray)"}}>Instituição: </span>{d.institution}{d.source_archive&&<span style={{color:"var(--warmGray)"}}> / {d.source_archive}</span>}</div>}
         {d.description&&<p style={{fontSize:13,lineHeight:1.7,color:"var(--sepia)",fontStyle:"italic",margin:"12px 0",padding:"10px 14px",borderLeft:"2px solid var(--lightSepia)"}}>{d.description}</p>}
         {score>0&&<div style={{marginBottom:12}}>
-          <div style={{display:"flex",justifyContent:"space-between",fontSize:11,color:"var(--warmGray)",marginBottom:3}}><span className="mono">ENDURECIMENTO</span><span className="mono">{d.endurecimento_score?.toFixed(1)}/10</span></div>
+          <div style={{display:"flex",justifyContent:"space-between",fontSize:11,color:"var(--warmGray)",marginBottom:3}}><span className="mono">endurecimento</span><span className="mono">{d.endurecimento_score?.toFixed(1)}/10</span></div>
           <div style={{height:5,background:"rgba(212,197,169,.3)",borderRadius:3}}><div style={{height:"100%",width:`${score}%`,background:rc,borderRadius:3}}/></div>
         </div>}
         {d.motif_str&&<div style={{fontSize:11,color:"var(--warmGray)",marginBottom:8}}><strong>Motivos:</strong> {d.motif_str}</div>}

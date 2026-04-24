@@ -21,7 +21,7 @@ tags:
 hf_synced: false
 related:
   - "[[Contrato Sexual Visual]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-NC-03 Weimar Republic 1 Reichsmark eagle 1925]]"
   - "[[SCOUT-116 Semeuse 1 Franc silver coin Roty 1898]]"
@@ -59,9 +59,9 @@ Figura feminina anônima **ajoelhada**, plantando uma muda de carvalho. NÃO é 
 
 Águia republicana sem coroa + DEUTSCHES REICH.
 
-## ENDURECIMENTO detectado
+## Endurecimento detectado
 
-**ENDURECIMENTO MÍNIMO** — Esta é a antítese da Germania imperial. Onde Germania era:
+**endurecimento MÍNIMO** — Esta é a antítese da Germania imperial. Onde Germania era:
 - De pé → esta está ajoelhada
 - Blindada → esta está desarmada
 - Conquistadora → esta está plantando

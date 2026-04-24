@@ -24,14 +24,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check Pages artifact
+        id: pages_artifact
+        run: |
+          if [ -d website ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::notice::website directory not found; skipping Pages deploy"
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Setup Pages
+        if: steps.pages_artifact.outputs.exists == 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
+        if: steps.pages_artifact.outputs.exists == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: "website"
 
       - name: Deploy to GitHub Pages
+        if: steps.pages_artifact.outputs.exists == 'true'
         id: deployment
         uses: actions/deploy-pages@v4

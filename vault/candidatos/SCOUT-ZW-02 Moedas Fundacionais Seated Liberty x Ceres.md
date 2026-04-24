@@ -13,4 +13,4 @@ data_scout: 2026-03-30
 **Polo A (US):** Seated Liberty Dollar (Gobrecht, 1840) — full body, cap-on-pole, shield
 **Polo B (FR):** 5 Francs Cérès (Oudiné, 1849) — profile bust, wreath
 
-**Divergencia:** FR avança desincorporação (bust); US avança rigidez_postural (full body seated). Mesmo regime FUNDACIONAL, dois caminhos para ENDURECIMENTO.
+**Divergencia:** FR avança desincorporação (bust); US avança rigidez_postural (full body seated). Mesmo regime FUNDACIONAL, dois caminhos para endurecimento.

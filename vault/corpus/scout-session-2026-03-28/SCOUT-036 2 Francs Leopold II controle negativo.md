@@ -24,7 +24,7 @@ tags:
 related:
   - "[[Regime Normativo]]"
   - "[[Heraldizacao]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Apagamento Narrativo]]"
 data_scout: 2026-03-28
 ---
@@ -58,7 +58,7 @@ data_scout: 2026-03-28
 - [ ] postura frontal
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** sim — ENDURECIMENTO por dissolucao. Heraldizacao 3/3, apagamento_narrativo 3/3, inscricao_estatal plena. Grau zero da alegoria.
+**endurecimento detectado:** sim — endurecimento por dissolucao. Heraldizacao 3/3, apagamento_narrativo 3/3, inscricao_estatal plena. Grau zero da alegoria.
 
 ---
 

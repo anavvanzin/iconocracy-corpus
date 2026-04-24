@@ -9,14 +9,14 @@ tags:
 created: 2026-04-10
 ---
 
-# Artigo A — Contrato Sexual Visual & ENDURECIMENTO (Mapa Conceitual)
+# Artigo A — Contrato Sexual Visual & endurecimento (Mapa Conceitual)
 
 ```
              [Contr. Sexual Visual]
                        |
             +----------+-----------+
             |                      |
-    [Economia Icônica]     [ENDURECIMENTO]
+    [Economia Icônica]     [endurecimento]
             |                      |
    (Mondzain 2002)         (Indicadores IconoCode)
             |                      |
@@ -29,7 +29,7 @@ created: 2026-04-10
 
 Cross-links:
 - Contrato Sexual Visual ↔ Feminilidade de Estado (reconhecimento sem cidadania)
-- ENDURECIMENTO ↔ Acoplamento imagem-norma (quando a imagem vira norma, o corpo endurece)
+- Endurecimento ↔ Acoplamento imagem-norma (quando a imagem vira norma, o corpo endurece)
 - Economia Icônica ↔ Regimes iconocráticos (destacar atualização no Brasil)
 ```
 
@@ -38,14 +38,14 @@ Cross-links:
 1. **Cena comparada** — Marianne (selo tipo Blanc) vs. Justiça de Ceschiatti (foco em Pathosformel). Notas: coletar dados IconoCode específicos.
 2. **Contrato Sexual Visual** — Pateman 1988 + crítica visual (falta da dimensão imagética).
 3. **Economia Icônica** — Mondzain 2002, Goodrich 2017, Legendre 2004.
-4. **ENDURECIMENTO como operador** — indicadores (desincorporação, rigidez, acoplamento, serialidade) com estatísticas (Cap. 6) + gráfico.
+4. **endurecimento como operador** — indicadores (desincorporação, rigidez, acoplamento, serialidade) com estatísticas (Cap. 6) + gráfico.
 5. **Casos paradigmáticos** — BR 1889 gravura, Columbia 1899, Palais de Justice; conectar com regimes.
 6. **Implicações** — dogmática penal, letramento visual.
 
 ## Dados/Tabelas a extrair
 
-- Média de ENDURECIMENTO por regime (fundacional 1.x, normativo 1.x, militar 2.x).
-- Campo 11 (acoplamento) vs. ENDURECIMENTO.
+- Média de endurecimento por regime (fundacional 1.x, normativo 1.x, militar 2.x).
+- Campo 11 (acoplamento) vs. Endurecimento.
 - Lista de itens com maiores scores (para figura).
 
 ## Referências-chave
@@ -58,6 +58,6 @@ Cross-links:
 
 ## Próximas ações
 
-- [ ] Exportar gráfico ENDURECIMENTO × regimes do notebook `03_regression`.
+- [ ] Exportar gráfico endurecimento × regimes do notebook `03_regression`.
 - [ ] Selecionar 3 trechos visuais para abrir cada seção (BR, US, BE).
 - [ ] Definir título provisório (ex.: "O direito como promessa vazia").

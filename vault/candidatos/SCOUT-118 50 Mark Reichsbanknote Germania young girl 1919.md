@@ -22,7 +22,7 @@ tags:
 hf_synced: false
 related:
   - "[[Contrato Sexual Visual]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-NC-03 Weimar Republic 1 Reichsmark eagle 1925]]"
   - "[[SCOUT-ZW-11 Semeuse vs Weimar eagle absence]]"
@@ -58,9 +58,9 @@ Figura feminina descrita como "an allegory of Germania" nos catálogos, mas repr
 
 Emissão semanas após a assinatura da Constituição de Weimar. Esta é a ÚLTIMA Germania a aparecer em papel-moeda alemão oficial.
 
-## ENDURECIMENTO detectado
+## Endurecimento detectado
 
-**INVERSÃO DO ENDURECIMENTO** — Esta nota demonstra o processo inverso: a Germania imperial (blindada, helmeted, marcial) é "amolecida" em uma jovem de tranças. O Estado democrático REJUVENESCE a alegoria antes de eliminá-la.
+**INVERSÃO DO endurecimento** — Esta nota demonstra o processo inverso: a Germania imperial (blindada, helmeted, marcial) é "amolecida" em uma jovem de tranças. O Estado democrático REJUVENESCE a alegoria antes de eliminá-la.
 
 Indicadores ativos:
 - **desincorporação**: baixa — corpo inteiro visível, juvenil

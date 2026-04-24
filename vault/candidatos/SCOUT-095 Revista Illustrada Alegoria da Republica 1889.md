@@ -26,4 +26,4 @@ data_scout: 2026-03-30
 ## Analise preliminar
 **Motivo:** A República — primeira personificação feminina da República brasileira
 **Regime:** FUNDACIONAL — corpo sacrificial, ruptura com o Império
-**ENDURECIMENTO detectado:** nao — corpo dinâmico, gestualidade revolucionária
+**endurecimento detectado:** nao — corpo dinâmico, gestualidade revolucionária

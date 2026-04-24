@@ -26,7 +26,7 @@ related:
   - "[[SCOUT-104 Germania definitive stamp 10Pf]]"
   - "[[SCOUT-119 50 Pfennig woman planting oak Weimar 1924]]"
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
 data_scout: 2026-03-31
 sessao: SCOUT-SESSION-2026-03-31c
@@ -45,14 +45,14 @@ sessao: SCOUT-SESSION-2026-03-31c
 - **Regime político:** República de Weimar (desde nov. 1918)
 - **Figura:** Germania — coroa imperial, vestes clássicas, hierática
 - **Inscrição:** "DEUTSCHES REICH" (vocabulário imperial mantido)
-- **ENDURECIMENTO:** ALTO
+- **endurecimento:** ALTO
 - **Designer:** Paul Eduard Waldraff †1917 — design póstumo
 
 ### Polo B — SCOUT-NC-03: Moeda Weimar sem alegoria (1924/25)
 - **Suporte:** Moeda metálica, 1 Reichsmark
 - **Regime político:** República de Weimar (mesma)
 - **Figura:** Ausência — substituída por águia heráldica
-- **ENDURECIMENTO:** N/A — controle negativo
+- **endurecimento:** N/A — controle negativo
 - **Significado:** A iconocracia foi abandonada na moeda antes do selo
 
 ---
@@ -63,7 +63,7 @@ sessao: SCOUT-SESSION-2026-03-31c
 
 ```
 WEIMAR (1920-1924)
-├── SELOS → mantém Germania (ALTO ENDURECIMENTO)
+├── SELOS → mantém Germania (ALTO endurecimento)
 └── MOEDAS → abandona alegoria feminina (AUSÊNCIA)
 ```
 
@@ -87,7 +87,7 @@ WEIMAR (1920-1924)
 | Figura alegórica | Presente (Germania) | Ausente (águia) |
 | Suporte | Postal | Numismático |
 | Decisão de redesenho | Adiada pela hiperinflação | Forçada pela reforma monetária |
-| ENDURECIMENTO | ALTO | N/A |
+| endurecimento | ALTO | N/A |
 | Ano | 1920 | 1924–25 |
 
 **Tese do painel:** A iconocracia não colapsa com o regime que a criou — colapsa quando o suporte material que a sustenta precisa ser re-legitimado. No caso alemão, a reforma do Reichsmark (1923–1924) foi o evento externo que forçou a decisão iconográfica, não a proclamação da república em 1918.

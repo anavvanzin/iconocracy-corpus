@@ -22,7 +22,7 @@ tags:
   - "#acoplamento-imagem-norma"
   - "#ausencia-alegorica"
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[BR-002 Monumento à República Belém]]"
@@ -50,7 +50,7 @@ data_scout: 2026-04-04
 **Regime iconocrático:** FUNDACIONAL (com transição documentada para NORMATIVO)
 **Justificativa:** Sete esculturas femininas em ferro e bronze da fundição francesa Val d'Osne foram instaladas no parapeito do Palácio do Catete — sede da presidência da República — entre 1899 e 1910. O programa alegórico incluía: **A República** (posição central), **Justiça e Outono** (ala esquerda), **Agricultura e Primavera** (ala direita), **Inverno e Verão** (fundos, voltadas para o jardim). Além destas, o vestíbulo do palácio continha pares incluindo **"O Pudor"** (mulher nua cobrindo-se com manto) e **"A Glória"** (mulher com cornucópia e coroa de louros).
 
-**Evento crítico — ENDURECIMENTO documentado:** Em 1910, durante os governos Afonso Pena / Nilo Peçanha, **todas as alegorias femininas do parapeito foram removidas e substituídas por águias**. Este é um caso documentado de substituição do corpo feminino alegorizado por símbolo animal heráldico na sede do poder executivo — evidência direta do processo de ENDURECIMENTO no Brasil republicano.
+**Evento crítico — endurecimento documentado:** Em 1910, durante os governos Afonso Pena / Nilo Peçanha, **todas as alegorias femininas do parapeito foram removidas e substituídas por águias**. Este é um caso documentado de substituição do corpo feminino alegorizado por símbolo animal heráldico na sede do poder executivo — evidência direta do processo de endurecimento no Brasil republicano.
 
 **Atributos identificados:**
 - [x] cornucópia (A Glória)
@@ -60,7 +60,7 @@ data_scout: 2026-04-04
 - [ ] balança (a confirmar para a Justiça)
 - [ ] barrete frígio (a confirmar para a República)
 
-**ENDURECIMENTO detectado:** sim — **caso paradigmático**: a remoção das alegorias femininas e substituição por águias em 1910 é um evento de ENDURECIMENTO documentado. Transição de corpo feminino vivo (regime FUNDACIONAL) para símbolo heráldico animal (regime NORMATIVO).
+**endurecimento detectado:** sim — **caso paradigmático**: a remoção das alegorias femininas e substituição por águias em 1910 é um evento de endurecimento documentado. Transição de corpo feminino vivo (regime FUNDACIONAL) para símbolo heráldico animal (regime NORMATIVO).
 
 ---
 
@@ -86,7 +86,7 @@ MUSEU DA REPÚBLICA. *República em documentos: coleção de alegorias*. Rio de 
 
 ## Observações do Scout
 
-Este é possivelmente o achado mais importante desta sessão. O Palácio do Catete como sede da presidência (1897–1960) é o locus par excellence da Feminilidade de Estado brasileira. A instalação e posterior remoção das alegorias femininas documenta em um único edifício o arco completo do ENDURECIMENTO: corpo feminino vivo (Val d'Osne, 1899) → ausência / substituição por águia (1910).
+Este é possivelmente o achado mais importante desta sessão. O Palácio do Catete como sede da presidência (1897–1960) é o locus par excellence da Feminilidade de Estado brasileira. A instalação e posterior remoção das alegorias femininas documenta em um único edifício o arco completo do endurecimento: corpo feminino vivo (Val d'Osne, 1899) → ausência / substituição por águia (1910).
 
 A origem francesa das esculturas (Val d'Osne) conecta diretamente ao repertório marianista — são provavelmente modelos de catálogo da mesma fundição que produzia Mariannes para prefeituras francesas. A circulação transatlântica do corpo alegórico feminino é demonstrável.
 

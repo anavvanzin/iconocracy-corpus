@@ -15,7 +15,7 @@ tags:
 related:
   - "[[BE-IND-1880]]"
   - "[[BE-CONGO-1912]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Colonialidade do Ver]]"
   - "[[La Belgique]]"
@@ -40,9 +40,9 @@ Este painel estabelece o espaço de tensão (*Zwischenraum*) entre duas manifest
 | **Desenhista** | Charles Wiener | Banque du Congo Belge |
 | **Circulação** | Bélgica | Congo Belga |
 | **Regime** | FUNDACIONAL | MILITAR |
-| **ENDURECIMENTO** | 2.10 | 2.10 |
+| **endurecimento** | 2.10 | 2.10 |
 
-### 1. A Mutação do ENDURECIMENTO
+### 1. A Mutação do endurecimento
 
 | Indicador | Polo A (5 Francs) | Polo B (Congo 20F) | Δ |
 |-----------|:-:|:-:|:-:|
@@ -91,4 +91,4 @@ Este Zwischenraum demonstra a trajetória de uma alegoria nacional da fundação
 
 O caso belga é particularmente valioso porque a Bélgica é um pequeno Estado europeu com um vasto império colonial (Congo = 80× o território metropolitano). A desproporção entre a nação e a colônia torna o Contrato Sexual Visual colonial mais explícito: a alegoria feminina precisa compensar a fragilidade metropolitana com demonstração de poder colonial.
 
-A presença simultânea de duas mulheres (branca e negra) na nota do Congo é o dado visual mais potente do corpus para demonstrar a intersecção entre Contrato Sexual Visual e Contrato Racial Visual. A Feminilidade de Estado opera em dois registros: a feminilidade branca alegorizada como soberania, a feminilidade negra etnizada como recurso. O ENDURECIMENTO do corpo branco é proporcionalmente inverso à vulnerabilização do corpo negro.
+A presença simultânea de duas mulheres (branca e negra) na nota do Congo é o dado visual mais potente do corpus para demonstrar a intersecção entre Contrato Sexual Visual e Contrato Racial Visual. A Feminilidade de Estado opera em dois registros: a feminilidade branca alegorizada como soberania, a feminilidade negra etnizada como recurso. O endurecimento do corpo branco é proporcionalmente inverso à vulnerabilização do corpo negro.

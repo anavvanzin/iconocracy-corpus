@@ -12,7 +12,7 @@ motivo_alegorico: "Germania / Navigation / Agriculture"
 regime: NORMATIVO
 confianca: medio
 tags: [corpus/candidato, pais/DE, suporte/papel-moeda, regime/normativo, motivo/germania, "#verificar"]
-related: ["[[Regime Normativo]]", "[[ENDURECIMENTO]]", "[[SCOUT-096]]"]
+related: ["[[Regime Normativo]]", "[[endurecimento]]", "[[SCOUT-096]]"]
 hf_synced: false
 data_scout: 2026-03-30
 ---
@@ -26,5 +26,5 @@ data_scout: 2026-03-30
 ## Analise preliminar
 **Motivo:** Allegorical figures of Navigation and Agriculture
 **Regime:** NORMATIVO — anonymous functional allegories
-**ENDURECIMENTO detectado:** sim (dessexualizacao, apagamento_narrativo, serialidade)
+**endurecimento detectado:** sim (dessexualizacao, apagamento_narrativo, serialidade)
 **Confianca:** medio — needs visual verification

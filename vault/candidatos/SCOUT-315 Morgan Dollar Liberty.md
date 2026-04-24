@@ -16,7 +16,7 @@ tags:
   - regime/normativo
   - motivo/columbia
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 data_scout: 2026-03-30
 ---
@@ -30,9 +30,9 @@ data_scout: 2026-03-30
 
 Perfil de Liberty com barrete frígio ornado com algodão e trigo (unidade Norte-Sul pós-Guerra Civil). Modelada por MULHER REAL. Anna Williams tentou manter anonimato — quando revelada pela imprensa, foi assediada. O corpo REAL da modelo torna-se refém do corpo ALEGÓRICO.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**SIM** — ENDURECIMENTO estável: desincorporacao máxima (só perfil), 43 anos de cunhagem idêntica. Paralelo com Marianne-Coq: ambas usam barrete frígio, ambas modeladas por mulheres reais.
+**SIM** — endurecimento estável: desincorporacao máxima (só perfil), 43 anos de cunhagem idêntica. Paralelo com Marianne-Coq: ambas usam barrete frígio, ambas modeladas por mulheres reais.
 
 ### Citação ABNT
 

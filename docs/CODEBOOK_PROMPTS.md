@@ -27,7 +27,7 @@
 12. [ANALISE QUALITATIVA — Iconologia](#12-analise-qualitativa--iconologia)
 13. [ATLAS ICONOCRATICO](#13-atlas-iconocratico)
 14. [TEORIA — Conceitos Operativos](#14-teoria--conceitos-operativos)
-15. [TEORIA — Anti-ENDURECIMENTO e Colapso de Regime](#15-teoria--anti-endurecimento-e-colapso-de-regime)
+15. [TEORIA — Anti-endurecimento e Colapso de Regime](#15-teoria--anti-endurecimento-e-colapso-de-regime)
 16. [ESCRITA — Capitulos e Prosa Academica](#16-escrita--capitulos-e-prosa-academica)
 17. [ESCRITA — Artigos e Entregas Parciais](#17-escrita--artigos-e-entregas-parciais)
 18. [ESCRITA — Compilacao da Tese](#18-escrita--compilacao-da-tese)
@@ -132,7 +132,7 @@ A ficha deve conter:
 
 ## 2. CORPUS SCOUT — Busca em Acervos e Notas Atomicas
 
-> Skill ativa: `/corpus-scout` em Claude Code. Dispara automaticamente ao mencionar alegorias, acervos, regimes, ENDURECIMENTO, ou figuras da tese (Marianne, Britannia, Germania, Columbia, La Belgique, A Republica).
+> Skill ativa: `/corpus-scout` em Claude Code. Dispara automaticamente ao mencionar alegorias, acervos, regimes, endurecimento, ou figuras da tese (Marianne, Britannia, Germania, Columbia, La Belgique, A Republica).
 
 ### P2.01 · Buscar candidatos em acervos digitais
 ```
@@ -145,7 +145,7 @@ Para cada item encontrado, descreve:
 - Presenca/ausencia de fasces ou barrete frigio
 
 Classifica o regime (FUNDACIONAL | NORMATIVO | MILITAR).
-Detecta grau de ENDURECIMENTO.
+Detecta grau de endurecimento.
 Retorna como notas Obsidian.
 ```
 
@@ -155,12 +155,12 @@ Gera o Zwischenraum entre:
 - [ITEM A: nome, pais, ano, suporte, regime]
 - [ITEM B: nome, pais, ano, suporte, regime]
 
-Painel comparativo sobre [TEMA: ENDURECIMENTO colonial | desmilitarizacao |
+Painel comparativo sobre [TEMA: endurecimento colonial | desmilitarizacao |
 transicao de regime | captura transnacional | etc.].
 
 Estrutura obrigatoria:
 1. Dados Comparados (tabela com especificacoes materiais se mesmo suporte)
-2. A Mutacao do ENDURECIMENTO (mapear indicadores de purificacao por polo)
+2. A Mutacao do endurecimento (mapear indicadores de purificacao por polo)
 3. O Contrato Sexual Visual
 4. Sintese para a Tese
 ```
@@ -187,7 +187,7 @@ Busca a versao colonial e a versao metropolitana de [ALEGORIA]:
 - Metropolitana: [ex.: Britannia no penny domestico]
 - Colonial: [ex.: Britannia no British Trade Dollar]
 
-Compara morfologia, atributos, e grau de ENDURECIMENTO.
+Compara morfologia, atributos, e grau de endurecimento.
 O que muda quando a mesma alegoria cruza o oceano?
 ```
 
@@ -200,7 +200,7 @@ ocupacao do Ruhr | hiperinflacao | Guerra dos Boeres | etc.].
 Atencao especial a:
 - Caricaturas de alegorias inimigas (Marianne vista pela Alemanha, etc.)
 - Reversao satirica de atributos classicos
-- Anti-ENDURECIMENTO (corpo re-erotizado ou grotesquizado)
+- Anti-endurecimento (corpo re-erotizado ou grotesquizado)
 ```
 
 ### P2.07 · Buscar em JSON (alternativa a notas Obsidian)
@@ -495,7 +495,7 @@ Gere script Python e notebook Jupyter.
 ### P10.03 · Regressao Logistica Ordinal
 ```
 Monte a Regressao Logistica Ordinal (Cap. 6.3):
-VD: grau de ENDURECIMENTO. VIs: pais, periodo, regime, suporte.
+VD: grau de endurecimento. VIs: pais, periodo, regime, suporte.
 Interacao: regime x tipo_suporte (Matriz 3x2).
 Gere script, odds ratios com IC 95%, verificacao de pressupostos.
 ```
@@ -574,7 +574,7 @@ Desenvolva analise qualitativa que explica por que confirma/desafia a hipotese.
 ```
 Desenvolva analise comparada (Cap. 7): genealogia iconografica, diferencas
 morfologicas nos 10 indicadores, regime correspondente, relacao com contrato
-sexual, ENDURECIMENTO em conflito, caso Thatcher como contra-alegoria.
+sexual, endurecimento em conflito, caso Thatcher como contra-alegoria.
 ```
 
 ### P12.04 · Analise de arquitetura forense
@@ -622,7 +622,7 @@ relacao com outros conceitos, capitulo(s) onde opera.
 Status: [original da tese | mobilizado | adaptado].
 
 Conceitos nucleares: Iconocracia, Visiocracia, Contrato Sexual Visual,
-Feminilidade de Estado, Zwischenraum, Purificacao Classica, ENDURECIMENTO,
+Feminilidade de Estado, Zwischenraum, Purificacao Classica, endurecimento,
 Pathosformel, Regime Iconocratico, Acoplamento imagem-norma.
 ```
 
@@ -632,7 +632,7 @@ Verifique a atribuicao de [CONCEITO]:
 A quem atribuido? Correto? Risco de confusao com homonimos? Citacao precisa?
 
 Atencao: "Pintura de alma" = construcao original (Legendre+Goodrich+Mondzain).
-Feminilidade de Estado = original da tese. ENDURECIMENTO = sempre em portugues.
+Feminilidade de Estado = original da tese. Endurecimento = sempre em portugues.
 "desver" = Manoel de Barros (O livro das ignorancas, 1993).
 ```
 
@@ -649,16 +649,16 @@ Diferencie: [CONCEITO A] vs. [CONCEITO B].
 Definicao de cada, o que os distingue, como se relacionam na argumentacao.
 
 Pares frequentes: Iconocracia vs. Visiocracia, Contrato social vs. sexual,
-Purificacao Classica vs. ENDURECIMENTO, Pathosformel vs. Nachleben.
+Purificacao Classica vs. Endurecimento, Pathosformel vs. Nachleben.
 ```
 
 ---
 
-## 15. TEORIA — Anti-ENDURECIMENTO e Colapso de Regime
+## 15. TEORIA — Anti-endurecimento e Colapso de Regime
 
-### P15.01 · Analisar anti-ENDURECIMENTO
+### P15.01 · Analisar anti-endurecimento
 ```
-Analise o fenomeno de anti-ENDURECIMENTO no contexto de [EVENTO/PERIODO].
+Analise o fenomeno de anti-endurecimento no contexto de [EVENTO/PERIODO].
 
 Tres destinos possiveis do corpo alegorico pos-colapso:
 1. Persistencia fantasma — forma rigida, substancia vazia
@@ -668,7 +668,7 @@ Tres destinos possiveis do corpo alegorico pos-colapso:
 3. Weaponizacao — alegoria capturada pelo inimigo
    (ex.: Marianne de Goetz estrangulando alemao)
 
-Articule com: hipotese do ENDURECIMENTO, indicadores de purificacao,
+Articule com: hipotese do endurecimento, indicadores de purificacao,
 dependencia institucional do contrato sexual visual.
 ```
 
@@ -679,12 +679,12 @@ Analise a captura de [ALEGORIA] por [AGENTE INIMIGO].
 Estrutura:
 1. Alegoria no contexto original (quem emite, que funcao)
 2. Alegoria capturada (quem reformata, como muda)
-3. ENDURECIMENTO muda de agente — implicacoes
+3. Endurecimento muda de agente — implicacoes
 4. Contrato sexual visual e reversivel?
 5. Fragilidade estrutural da iconocracia
 ```
 
-### P15.03 · Diferenciar ENDURECIMENTO autoctone vs. hostil
+### P15.03 · Diferenciar endurecimento autoctone vs. hostil
 ```
 Diferencie:
 - Autoctone: Estado endurece sua propria alegoria (Piastre, Germania colonial)
@@ -715,7 +715,7 @@ Referencias a mobilizar: [AUTORES/OBRAS].
 
 Diretrizes: tom ensaistico-filosofico, sem travessoes (usar virgulas),
 sem sentencas sobre negativas, sem dois-pontos excessivos,
-sem triparticoes automaticas, ENDURECIMENTO sempre em portugues,
+sem triparticoes automaticas, endurecimento sempre em portugues,
 Mondzain = edicao 2002, prosa densa mas legivel.
 ```
 
@@ -1044,7 +1044,7 @@ Compila a tese: make -C vault/tese/
 Status do pipeline de notebooks?
 Quantos candidatos SCOUT temos sem URL verificada?
 Consolida as sessoes SCOUT no _index.md do corpus.
-Analisa o anti-ENDURECIMENTO em [CONTEXTO DE COLAPSO].
+Analisa o anti-endurecimento em [CONTEXTO DE COLAPSO].
 Quem capturou [ALEGORIA] e como a reformatou?
 Roda o 01_exploratory com os dados atualizados.
 Atualiza o webiconocracy com os novos candidatos.

@@ -7,7 +7,7 @@
         },
         "doi-verify": {
             "type": "stdio",
-            "command": "npx",
+            "command": "/usr/local/bin/npx",
             "args": ["-y", "doi-mcp"]
         },
         "paper-search": {
@@ -17,12 +17,12 @@
         },
         "openalex": {
             "type": "stdio",
-            "command": "npx",
+            "command": "/usr/local/bin/npx",
             "args": ["-y", "openalex-research-mcp"]
         },
         "iiif": {
             "type": "stdio",
-            "command": "npx",
+            "command": "/usr/local/bin/npx",
             "args": ["-y", "@code4history/iiif-mcp"]
         },
         "zotero-mcp": {

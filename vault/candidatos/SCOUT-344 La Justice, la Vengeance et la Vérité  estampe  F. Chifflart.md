@@ -20,7 +20,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: europeana
@@ -42,10 +42,10 @@ Ancien possesseur : Musée du Luxembourg (Paris ; 1818-1937). Ancien possesseur
 
 **Motivos identificados**: Justice
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime preliminar**: NORMATIVO
 Indicadores esperados: pose estática/frontal, drapeado pesado, serialidade.
-ENDURECIMENTO esperado: MÉDIO a ALTO (corpo institucionalizado).
+Endurecimento esperado: MÉDIO a ALTO (corpo institucionalizado).
 
 *Classificação preliminar baseada em metadados textuais. Requer confirmação visual.*
 

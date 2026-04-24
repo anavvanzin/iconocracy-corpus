@@ -13,7 +13,7 @@ tags:
 related:
   - "[[DE-GERM-1900]]"
   - "[[FR-SEM-SELO-1903]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Pathosformel]]"
   - "[[Germania]]"
@@ -40,9 +40,9 @@ Este painel estabelece o espaço de tensão (*Zwischenraum*) entre as duas grand
 | **Estilo** | Jugendstil | Art Nouveau |
 | **Circulação** | Alemanha (NÃO colônias) | França + colônias |
 | **Regime** | MILITAR | NORMATIVO |
-| **ENDURECIMENTO** | 2.90 | 1.80 |
+| **endurecimento** | 2.90 | 1.80 |
 
-### 1. A Mutação do ENDURECIMENTO
+### 1. A Mutação do endurecimento
 
 | Indicador | Polo A (Germania) | Polo B (Semeuse) | Δ |
 |-----------|:-:|:-:|:-:|
@@ -94,8 +94,8 @@ Esta diferença é estrutural: a França exporta sua Feminilidade de Estado para
 
 ### 5. Síntese para a Tese
 
-Este Zwischenraum demonstra que o ENDURECIMENTO não opera uniformemente entre nações. A mesma pressão histórica (nacionalismo imperial, virada do século, corrida colonial) produz respostas iconocráticas opostas no selo definitivo: a Alemanha endurece o corpo feminino ao máximo (armadura, espada, busto desincorporado = 2.90); a França mantém o corpo fluido e produtivo (vestes, sementes, corpo inteiro = 1.80).
+Este Zwischenraum demonstra que o endurecimento não opera uniformemente entre nações. A mesma pressão histórica (nacionalismo imperial, virada do século, corrida colonial) produz respostas iconocráticas opostas no selo definitivo: a Alemanha endurece o corpo feminino ao máximo (armadura, espada, busto desincorporado = 2.90); a França mantém o corpo fluido e produtivo (vestes, sementes, corpo inteiro = 1.80).
 
-A diferença de 1.10 pontos no ENDURECIMENTO entre as duas nações rivais é um dos dados mais expressivos do corpus. Ela traduz em termos mensuráveis a tese de que cada cultura jurídica produz sua própria morfologia de ENDURECIMENTO — não há um modelo único de purificação do corpo alegorizado, mas variantes nacionais do mesmo processo.
+A diferença de 1.10 pontos no endurecimento entre as duas nações rivais é um dos dados mais expressivos do corpus. Ela traduz em termos mensuráveis a tese de que cada cultura jurídica produz sua própria morfologia de endurecimento — não há um modelo único de purificação do corpo alegorizado, mas variantes nacionais do mesmo processo.
 
-O fim de ambas as séries é igualmente significativo: a Germania morre em 1922 (substituída por trabalhadores masculinos); a Semeuse sobrevive até 1960. A alegoria feminina militarizada é descartada com a queda do império; a alegoria feminina domesticada persiste através de múltiplos regimes. O ENDURECIMENTO extremo é frágil; o ENDURECIMENTO moderado é resiliente.
+O fim de ambas as séries é igualmente significativo: a Germania morre em 1922 (substituída por trabalhadores masculinos); a Semeuse sobrevive até 1960. A alegoria feminina militarizada é descartada com a queda do império; a alegoria feminina domesticada persiste através de múltiplos regimes. O endurecimento extremo é frágil; o endurecimento moderado é resiliente.

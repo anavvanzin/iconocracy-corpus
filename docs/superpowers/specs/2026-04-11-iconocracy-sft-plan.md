@@ -77,7 +77,7 @@ No repositório, guardar apenas:
 - `records.jsonl`
   - matéria-prima de transformação corpus → análise
 - `purification.jsonl`
-  - matéria-prima de interpretação dos indicadores e do ENDURECIMENTO
+  - matéria-prima de interpretação dos indicadores e do endurecimento
 
 ---
 
@@ -96,7 +96,7 @@ No repositório, guardar apenas:
 
 2. **Indicadores → interpretação**
    - entrada: linha de `purification.jsonl`
-   - saída: leitura interpretativa do nível de purificação/ENDURECIMENTO
+   - saída: leitura interpretativa do nível de purificação/endurecimento
 
 3. **Planejamento de tese**
    - entrada: pergunta sobre capítulo, dependência, risco ou ordem de redação
@@ -119,7 +119,7 @@ No repositório, guardar apenas:
 ### Não entra
 - notas provisórias confusas
 - material que contradiga a fase atual do projeto
-- saídas que traduzam `ENDURECIMENTO`
+- saídas que traduzam `endurecimento`
 - respostas que tratem a IA como substituta da leitura do usuário
 - outputs que quebrem a cadeia `fonte → Drive → scripts → records.jsonl → corpus/tese`
 
@@ -189,7 +189,7 @@ O treino v1 será considerado bem-sucedido se o modelo:
 1. usar corretamente:
    - Contrato Sexual Visual
    - Feminilidade de Estado
-   - ENDURECIMENTO
+   - endurecimento
    - Pathosformel / Zwischenraum / Nachleben
 2. não deslizar para antropologia/sociologia genérica quando a tarefa exige voz jurídico-histórica;
 3. produzir notas analíticas úteis a partir de `records.jsonl`;

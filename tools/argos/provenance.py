@@ -1,48 +1,45 @@
-"""Sidecar provenance metadata for downloaded binaries.
-
-For every successful acquisition, ARGOS writes ``{item_id}.meta.json``
-alongside the binary. This file records the exact URL fetched, the
-protocol that succeeded, the sha256, a timestamp, and a human-readable
-user agent. Together with the corpus record and the drive-manifest,
-this closes the traceability loop demanded by CLAUDE.md.
-"""
-
-from __future__ import annotations
-
-import json
 from datetime import datetime, timezone
-from pathlib import Path
-from typing import Any
-
-from . import USER_AGENT
+from urllib.parse import urlparse
 
 
-def write_sidecar(
-    binary_path: Path,
-    item_id: str,
-    source_url: str,
-    fetched_url: str,
-    protocol: str,
-    sha256: str,
-    bytes_: int,
-    country: str,
-    license_hint: str | None = None,
-) -> Path:
-    """Write a ``*.meta.json`` sidecar next to the binary and return its path."""
+def _utc_timestamp():
+    return datetime.now(timezone.utc).replace(microsecond=0).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    meta: dict[str, Any] = {
-        "schema": "argos-provenance/1.0",
-        "item_id": item_id,
-        "country": country,
+
+def _source_domain(source_url):
+    if not source_url:
+        return None
+    return urlparse(source_url).netloc.lower() or None
+
+
+def build_provenance(
+    *,
+    fetched_by,
+    protocol,
+    storage_tier,
+    source_url=None,
+    record_id=None,
+    extra_metadata=None,
+):
+    """Build a normalized provenance payload for ARGOS fetch operations."""
+
+    canonical_metadata = {
         "source_url": source_url,
-        "fetched_url": fetched_url,
-        "protocol": protocol,
-        "sha256": sha256,
-        "bytes": bytes_,
-        "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "user_agent": USER_AGENT,
-        "license_hint": license_hint,
+        "source_domain": _source_domain(source_url),
+        "record_id": record_id,
     }
-    sidecar = binary_path.with_suffix(binary_path.suffix + ".meta.json")
-    sidecar.write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
-    return sidecar
+
+    metadata = {}
+    if extra_metadata:
+        metadata.update(extra_metadata)
+    metadata.update(canonical_metadata)
+
+    metadata = {key: value for key, value in metadata.items() if value is not None}
+
+    return {
+        "fetched_at": _utc_timestamp(),
+        "fetched_by": fetched_by,
+        "protocol": protocol,
+        "storage_tier": storage_tier,
+        "metadata": metadata,
+    }

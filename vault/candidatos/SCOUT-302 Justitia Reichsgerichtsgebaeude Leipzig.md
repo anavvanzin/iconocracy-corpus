@@ -17,7 +17,7 @@ tags:
   - motivo/justitia
   - motivo/germania
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[Nachleben]]"
 data_scout: 2026-03-30
@@ -34,9 +34,9 @@ data_scout: 2026-03-30
 
 Justitia entronizada no centro do frontão do tribunal do Reich. Programa escultórico excepcional: Justitia em DUAS funções — à esquerda como libertadora, à direita como punitiva.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**SIM** — ENDURECIMENTO NORMATIVO máximo. A dualidade libertadora/punitiva: o Estado usa DOIS corpos femininos para separar suas funções.
+**SIM** — endurecimento NORMATIVO máximo. A dualidade libertadora/punitiva: o Estado usa DOIS corpos femininos para separar suas funções.
 - **rigidez_postural**: máxima (entronizada, frontal)
 - **heraldizacao**: máxima
 - **enquadramento_arquitetonico**: corpo ENQUADRADO pelo frontão clássico

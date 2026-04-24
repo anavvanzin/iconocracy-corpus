@@ -18,7 +18,7 @@ tags:
 related:
   - "[[DB1 Corpus Iconografico]]"
   - "[[IconoCode -- Protocolo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Regime NORMATIVO]]"
 ---
 
@@ -64,7 +64,7 @@ tags:
   - motivo/liberdade
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Marianne -- Semeuse]]"
   - "[[SCOUT-202]]"
   - "[[SCOUT-203]]"
@@ -111,7 +111,7 @@ data_scout: 2026-03-29
 - [ ] balanca
 - [ ] espada
 
-**ENDURECIMENTO detectado:** incerto -- trata-se da *primeira* emissao republicana; o corpo alegorico ainda e relativamente expressivo (perfil classico, cabelo solto sob o barrete), mas ja apresenta desincorporacao (busto cortado, sem torso visivel) e inscricao_estatal forte. Comparar com versoes posteriores (serie Liberty 1901) para detectar progressao.
+**endurecimento detectado:** incerto -- trata-se da *primeira* emissao republicana; o corpo alegorico ainda e relativamente expressivo (perfil classico, cabelo solto sob o barrete), mas ja apresenta desincorporacao (busto cortado, sem torso visivel) e inscricao_estatal forte. Comparar com versoes posteriores (serie Liberty 1901) para detectar progressao.
 
 ### Rastreabilidade
 
@@ -161,7 +161,7 @@ tags:
   - motivo/liberdade
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[SCOUT-201]]"
   - "[[SCOUT-203]]"
 data_scout: 2026-03-29
@@ -203,7 +203,7 @@ data_scout: 2026-03-29
 - [x] inscricao estatal
 - [x] lema positivista ("Ordem e Progresso")
 
-**ENDURECIMENTO detectado:** incerto -- mesma analise que SCOUT-201. A serialidade (500/1000/2000) ja indica uniformizacao_facial e serialidade como indicadores ativos.
+**endurecimento detectado:** incerto -- mesma analise que SCOUT-201. A serialidade (500/1000/2000) ja indica uniformizacao_facial e serialidade como indicadores ativos.
 
 ### Rastreabilidade
 
@@ -248,7 +248,7 @@ tags:
   - motivo/liberdade
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[SCOUT-201]]"
   - "[[SCOUT-202]]"
 data_scout: 2026-03-29
@@ -290,7 +290,7 @@ data_scout: 2026-03-29
 - [x] inscricao estatal
 - [x] lema positivista
 
-**ENDURECIMENTO detectado:** incerto -- a serie longa (1891-1897) pode revelar micro-variacoes no cunho ao longo dos anos, potencialmente indicando rigidez_postural crescente. Necessita comparacao de exemplares de anos diferentes.
+**endurecimento detectado:** incerto -- a serie longa (1891-1897) pode revelar micro-variacoes no cunho ao longo dos anos, potencialmente indicando rigidez_postural crescente. Necessita comparacao de exemplares de anos diferentes.
 
 ### Rastreabilidade
 
@@ -335,7 +335,7 @@ tags:
   - motivo/liberdade
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[SCOUT-201]]"
   - "[[Paulin Tasset]]"
   - "[[Rodolfo Bernardelli]]"
@@ -375,12 +375,12 @@ data_scout: 2026-03-29
 - [x] inscricao estatal
 - [ ] lema positivista (nao presente nesta serie)
 
-**ENDURECIMENTO detectado:** sim -- comparada com a serie 1889 (SCOUT-201/202/203), a serie 1901 apresenta:
+**endurecimento detectado:** sim -- comparada com a serie 1889 (SCOUT-201/202/203), a serie 1901 apresenta:
 - **dessexualizacao**: cabelo mais contido sob o barrete
 - **uniformizacao_facial**: tracos mais esquematicos, menos naturalistas
 - **heraldizacao**: a bordura de estrelas enquadra rigidamente o perfil
 - **monocromatizacao**: metal base (cupro-niquel vs. prata) aplana o relevo
-A transicao prata-para-cupro-niquel e ela propria um vetor de ENDURECIMENTO material.
+A transicao prata-para-cupro-niquel e ela propria um vetor de endurecimento material.
 
 ### Rastreabilidade
 
@@ -430,7 +430,7 @@ tags:
   - verificar
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[SCOUT-206]]"
   - "[[Semeuse (FR)]]"
 data_scout: 2026-03-29
@@ -472,7 +472,7 @@ data_scout: 2026-03-29
 - [ ] estrela
 - [ ] louro (a confirmar)
 
-**ENDURECIMENTO detectado:** nao -- sendo o *primeiro* selo republicano bicolor, o Tintureiro apresenta relativa vivacidade cromatica (vermelho e azul) e um enquadramento ainda nao totalmente rigidificado. Comparar com a serie Madrugada Republicana (SCOUT-206) para verificar progressao.
+**endurecimento detectado:** nao -- sendo o *primeiro* selo republicano bicolor, o Tintureiro apresenta relativa vivacidade cromatica (vermelho e azul) e um enquadramento ainda nao totalmente rigidificado. Comparar com a serie Madrugada Republicana (SCOUT-206) para verificar progressao.
 
 ### Rastreabilidade
 
@@ -524,7 +524,7 @@ tags:
   - verificar
 related:
   - "[[Regime NORMATIVO]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[SCOUT-205]]"
   - "[[Semeuse (FR)]]"
   - "[[Cabecinha]]"
@@ -567,7 +567,7 @@ data_scout: 2026-03-29
 - [ ] louro (a confirmar via imagem)
 - [ ] estrela (a confirmar)
 
-**ENDURECIMENTO detectado:** sim -- a progressao do Tintureiro (1891, bicolor, enquadramento aberto) para a Madrugada Republicana (1894-1906, monocromatica, enquadramento rigido) demonstra:
+**endurecimento detectado:** sim -- a progressao do Tintureiro (1891, bicolor, enquadramento aberto) para a Madrugada Republicana (1894-1906, monocromatica, enquadramento rigido) demonstra:
 - **monocromatizacao**: de bicolor para monocromatico
 - **serialidade**: de selo unico para serie de 8+ denominacoes
 - **uniformizacao_facial**: mesmo perfil alegorico replicado mecanicamente
@@ -592,7 +592,7 @@ BRASIL. Correios. *Serie Madrugada Republicana -- Alegoria da Republica*. 1894-1
 
 ### Observacoes do Scout
 
-A serie Madrugada Republicana e a principal candidata para demonstrar ENDURECIMENTO filatelico no contexto brasileiro. Sua longa duracao permite comparacao diacronica (1894 vs. 1900 vs. 1906). A presenca de filigrana a partir de 1905 e um caso raro de ENDURECIMENTO que opera *no substrato material* (papel com marca d'agua estatal), nao apenas na representacao visual.
+A serie Madrugada Republicana e a principal candidata para demonstrar endurecimento filatelico no contexto brasileiro. Sua longa duracao permite comparacao diacronica (1894 vs. 1900 vs. 1906). A presenca de filigrana a partir de 1905 e um caso raro de endurecimento que opera *no substrato material* (papel com marca d'agua estatal), nao apenas na representacao visual.
 
 A serie "Personalidades e Alegoria da Liberdade" (Colnect: "Personalities and Liberty Allegory") que a sucede, com efígies de proceres republicanos (Benjamin Constant, Floriano Peixoto, Wandenkolk) + alegoria da Republica, demonstra a transicao de alegoriaimpessoal para retrato-de-heroi -- tema central da tese.
 
@@ -624,7 +624,7 @@ tags:
 related:
   - "[[SCOUT-201]]"
   - "[[SCOUT-205]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Regime NORMATIVO]]"
   - "[[Contrato Sexual Visual]]"
 data_scout: 2026-03-29
@@ -649,9 +649,9 @@ Este painel estabelece o espaco de tensao (*Zwischenraum*) entre as duas primeir
 | **Circulacao** | Nacional (transacoes monetarias) | Nacional (correspondencia postal) |
 | **Regime** | NORMATIVO | NORMATIVO |
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-A passagem da moeda ao selo e ela propria uma operacao de ENDURECIMENTO. No Polo A, o corpo alegorico conserva tridimensionalidade (alto-relevo em prata), materialidade preciosa (metal nobre), e uma presenca haptica -- a moeda e tocada, pesada, fisicamente experimentada. No Polo B, o corpo se achata na bidimensionalidade da impressao tipografica, perde a materialidade preciosa (papel), e entra no regime da reproducao mecanica serial.
+A passagem da moeda ao selo e ela propria uma operacao de endurecimento. No Polo A, o corpo alegorico conserva tridimensionalidade (alto-relevo em prata), materialidade preciosa (metal nobre), e uma presenca haptica -- a moeda e tocada, pesada, fisicamente experimentada. No Polo B, o corpo se achata na bidimensionalidade da impressao tipografica, perde a materialidade preciosa (papel), e entra no regime da reproducao mecanica serial.
 
 Indicadores ativos no transito A -> B:
 - **monocromatizacao** parcial: de prata uniforme (monocromatica por natureza) para bicolor (paradoxalmente mais cromatico, porem mais plano)
@@ -665,11 +665,11 @@ Paradoxo: o Tintureiro, sendo bicolor, e *mais cromatico* que a moeda de prata -
 
 Em ambos os polos, o corpo feminino cumpre funcao estritamente substitutiva: ele *ocupa* o espaco antes preenchido pelo retrato masculino do imperador. A alegoria feminina e convocada precisamente porque e *impessoal* -- nenhuma mulher real e representada, ao contrario de Pedro II, cuja efígie era retrato fisionomo. O contrato sexual visual opera aqui pela logica da *desindividuacao*: o corpo feminino e mobilizado porque pode ser generico, idealizavel, ahistorico. O barrete frigio importado da Franca completa a operacao: a Republica brasileira *nao tem rosto proprio*, emprestando o da Marianne francesa.
 
-Na moeda, o perfil feminino conserva certo naturalismo (cabelos soltos, modelagem facial). No selo, a efígie e mais esquematica, mais *tipo* e menos *retrato* -- o ENDURECIMENTO opera como dessexualizacao e uniformizacao_facial simultaneas.
+Na moeda, o perfil feminino conserva certo naturalismo (cabelos soltos, modelagem facial). No selo, a efígie e mais esquematica, mais *tipo* e menos *retrato* -- o endurecimento opera como dessexualizacao e uniformizacao_facial simultaneas.
 
 ### 3. Sintese para a Tese
 
-O transito 500 Reis -> Tintureiro demonstra que o ENDURECIMENTO nao e apenas uma mutacao formal *dentro* de um suporte, mas tambem *entre* suportes. A cultura juridica republicana brasileira dissemina sua alegoria fundacional em multiplos meios (moeda, selo, monumento), e cada transposicao de meio implica uma operacao de achatamento, controle e serialidade. A mudanca material (prata -> papel) e a mudanca tecnica (cunhagem -> impressao) sao vetores de ENDURECIMENTO tao potentes quanto a evolucao cronologica dentro de um unico suporte.
+O transito 500 Reis -> Tintureiro demonstra que o endurecimento nao e apenas uma mutacao formal *dentro* de um suporte, mas tambem *entre* suportes. A cultura juridica republicana brasileira dissemina sua alegoria fundacional em multiplos meios (moeda, selo, monumento), e cada transposicao de meio implica uma operacao de achatamento, controle e serialidade. A mudanca material (prata -> papel) e a mudanca tecnica (cunhagem -> impressao) sao vetores de endurecimento tao potentes quanto a evolucao cronologica dentro de um unico suporte.
 
 Este painel sustenta o argumento de que o regime NORMATIVO nao e definido apenas pela estabilidade temporal, mas pela *multiplicacao de suportes burocraticos* que enquadram o corpo alegorico em logicas cada vez mais controladas.
 
@@ -692,7 +692,7 @@ tags:
 related:
   - "[[SCOUT-201]]"
   - "[[SCOUT-204]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Regime NORMATIVO]]"
   - "[[Rodolfo Bernardelli]]"
   - "[[Paulin Tasset]]"
@@ -720,13 +720,13 @@ Este painel estabelece o espaco de tensao entre dois momentos da mesma tipologia
 | **Orientacao do perfil** | Esquerda | Direita |
 | **Regime** | NORMATIVO | NORMATIVO |
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-O ENDURECIMENTO entre os dois polos opera em multiplas dimensoes simultaneas:
+O endurecimento entre os dois polos opera em multiplas dimensoes simultaneas:
 
 **Material:** A transicao prata -> cupro-niquel e uma degradacao literal do suporte. O metal precioso, com sua luminosidade e sua capacidade de modelar relevos finos, cede lugar a uma liga industrial, mais dura, mais opaca, menos capaz de nuance. O corpo alegorico perde brilho e profundidade de relevo.
 
-**Autoria:** Em 1889, o gravador local (Pinto Carneiro) e autor unico. Em 1901, a autoria se bifurca entre desenhista (Bernardelli, brasileiro) e gravador (Tasset, frances) -- especializacao burocratica da producao artistica que e ela propria ENDURECIMENTO institucional.
+**Autoria:** Em 1889, o gravador local (Pinto Carneiro) e autor unico. Em 1901, a autoria se bifurca entre desenhista (Bernardelli, brasileiro) e gravador (Tasset, frances) -- especializacao burocratica da producao artistica que e ela propria endurecimento institucional.
 
 **Orientacao:** A inversao do perfil (esquerda -> direita) nao e trivial. Na convencao heraldica europeia, o perfil a esquerda (sinistra do portador) e o padrao nobre. A mudanca pode indicar uma ruptura deliberada com a convencao imperial ou a adocao de modelos franceses diferentes.
 
@@ -740,7 +740,7 @@ No Polo A, a alegoria ainda carrega tracos de expressividade individual: cabelos
 
 ### 3. Sintese para a Tese
 
-O transito 500 Reis prata 1889 -> 100 Reis cupro-niquel 1901 condensa em 12 anos o arco completo do ENDURECIMENTO dentro do regime NORMATIVO. A alegoria republicana brasileira nasce em metal nobre, com autoria local e perfil expressivo, e se estabiliza em liga industrial, com autoria internacional bifurcada e perfil padronizado. Este e um caso exemplar para o argumento da tese de que o regime NORMATIVO *necessita* do ENDURECIMENTO para cumprir sua funcao de estabilizacao burocratica do simbolo estatal. A moeda de circulacao diaria *precisa* de uma alegoria controlada, reproducivel, resistente ao desgaste -- e essas exigencias tecnicas do suporte se imprimem na morfologia do corpo alegorico.
+O transito 500 Reis prata 1889 -> 100 Reis cupro-niquel 1901 condensa em 12 anos o arco completo do endurecimento dentro do regime NORMATIVO. A alegoria republicana brasileira nasce em metal nobre, com autoria local e perfil expressivo, e se estabiliza em liga industrial, com autoria internacional bifurcada e perfil padronizado. Este e um caso exemplar para o argumento da tese de que o regime NORMATIVO *necessita* do endurecimento para cumprir sua funcao de estabilizacao burocratica do simbolo estatal. A moeda de circulacao diaria *precisa* de uma alegoria controlada, reproducivel, resistente ao desgaste -- e essas exigencias tecnicas do suporte se imprimem na morfologia do corpo alegorico.
 
 ---
 
@@ -751,7 +751,7 @@ O transito 500 Reis prata 1889 -> 100 Reis cupro-niquel 1901 condensa em 12 anos
 1. **Imagens de alta resolucao**: Nenhum dos acervos consultados (Numista, Colnect, blogs filatelicos) oferece IIIF. O Museu de Valores do Banco Central do Brasil (BCB) e a fonte mais provavel de imagens oficiais, mas seu acervo digital nao foi localizado online.
 2. **Serie "Cabecinha" (RHM 80, 1893)**: Selo com "Alegoria da Liberdade tipo Cabecinha" de 100 reis, mencionado nas fontes mas nao detalhado. Pode ser o elo entre o Tintureiro e a Madrugada Republicana.
 3. **Serie "Personalidades e Alegoria" (1906-1917)**: Colnect lista esta serie com efígies de proceres + alegoria da Republica (RHM 137-141). E o momento em que a alegoria feminina *coexiste* com retratos masculinos -- transicao relevante para a tese.
-4. **Variantes anuais do 2000 Reis (1891-1897)**: Comparacao diacronica de cunhos para detectar micro-ENDURECIMENTO.
+4. **Variantes anuais do 2000 Reis (1891-1897)**: Comparacao diacronica de cunhos para detectar micro-endurecimento.
 5. **Decio Villares e a alegoria positivista**: BR-005 no corpus e uma pintura de Villares. Verificar se ha conexao direta entre a alegoria pictórica de Villares e os desenhos das moedas/selos.
 
 ## Proximas buscas sugeridas

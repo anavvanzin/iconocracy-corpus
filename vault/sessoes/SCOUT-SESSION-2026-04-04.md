@@ -13,7 +13,7 @@ related:
   - "[[DB1 Corpus Iconográfico]]"
   - "[[IconoCode -- Protocolo]]"
   - "[[Feminilidade de Estado]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
 ---
 
 ## Resumo da sessão
@@ -44,7 +44,7 @@ related:
 
 ## Achado principal
 
-**SCOUT-406 — Alegorias do Palácio do Catete (Val d'Osne, 1899-1910):** Esculturas femininas de República, Justiça e Agricultura na sede da presidência, fundidas em ferro e bronze pela Fonderie du Val d'Osne (França), instaladas 1899, **removidas em 1910 e substituídas por águias**. Este é um caso documentado de ENDURECIMENTO — o Estado literalmente retira o corpo feminino e o substitui por um animal heráldico. O PDF do Museu da República documenta o evento. Fonte primária para a tese.
+**SCOUT-406 — Alegorias do Palácio do Catete (Val d'Osne, 1899-1910):** Esculturas femininas de República, Justiça e Agricultura na sede da presidência, fundidas em ferro e bronze pela Fonderie du Val d'Osne (França), instaladas 1899, **removidas em 1910 e substituídas por águias**. Este é um caso documentado de endurecimento — o Estado literalmente retira o corpo feminino e o substitui por um animal heráldico. O PDF do Museu da República documenta o evento. Fonte primária para a tese.
 
 ## Lacunas identificadas
 
@@ -86,7 +86,7 @@ related:
 3. **Campanha Visconti completa** — gerar notas individuais para cada selo do Concurso 1904 (10+ projetos)
 4. **Exploração Brasiliana Fotográfica** — triar os 125 itens de "Estátuas e Monumentos"
 5. **Campanha Museu da República (Badarq)** — busca sistemática nas 65 coleções
-6. **Painel Zwischenraum proposto:** Catete feminino (1899) × Catete águias (1910) — ENDURECIMENTO no poder executivo
+6. **Painel Zwischenraum proposto:** Catete feminino (1899) × Catete águias (1910) — endurecimento no poder executivo
 
 ## Flags de atenção
 

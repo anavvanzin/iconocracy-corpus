@@ -1,59 +1,84 @@
 #!/usr/bin/env python3
-"""Build the ARGOS acquisition manifest.
-
-Scans ``corpus/corpus-data.json`` for pending items (those lacking
-``thumbnail_url`` or missing from ``data/raw/drive-manifest.json``),
-classifies each by source domain protocol, and writes
-``data/raw/argos/manifest.json``.
-
-Usage:
-    python tools/scripts/argos_build_manifest.py [--dry-run]
-"""
-
 from __future__ import annotations
 
 import argparse
 import json
 import sys
-from collections import Counter
 from pathlib import Path
 
-# Allow running from repo root without PYTHONPATH tweaks.
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
-from argos import manifest as argos_manifest
+from tools.argos.manifest import build_manifest, pending_item_count, protocol_breakdown
+from tools.argos.storage import resolve_storage_root
+
+DEFAULT_CORPUS_PATH = REPO_ROOT / "corpus" / "corpus-data.json"
+DEFAULT_DRIVE_MANIFEST_PATH = REPO_ROOT / "data" / "raw" / "drive-manifest.json"
+DEFAULT_OUTPUT_PATH = REPO_ROOT / "data" / "raw" / "argos" / "manifest.json"
+
+
+def _load_json(path: Path):
+    with path.open("r", encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def _print_summary(manifest: dict) -> None:
+    print(f"Pending items: {manifest['summary']['pending']}")
+    print("Protocol breakdown:")
+    breakdown = protocol_breakdown(manifest)
+    if not breakdown:
+        print("  (none)")
+        return
+
+    for protocol, count in breakdown.items():
+        print(f"  {protocol}: {count}")
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Build the ARGOS pending acquisition manifest.")
+    parser.add_argument("--dry-run", action="store_true", help="Print pending counts without writing the manifest")
+    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT_PATH, help="Manifest output path")
+    parser.add_argument("--limit", type=int, default=None, help="Maximum number of pending items to include")
+    parser.add_argument("--corpus", type=Path, default=DEFAULT_CORPUS_PATH, help="Path to corpus/corpus-data.json")
+    parser.add_argument(
+        "--drive-manifest",
+        type=Path,
+        default=DEFAULT_DRIVE_MANIFEST_PATH,
+        help="Path to data/raw/drive-manifest.json",
+    )
+    return parser.parse_args()
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Print summary without writing manifest.json",
+    args = parse_args()
+
+    corpus_items = _load_json(args.corpus)
+    drive_manifest = _load_json(args.drive_manifest)
+    storage_root, storage_tier = resolve_storage_root(REPO_ROOT)
+    manifest = build_manifest(
+        corpus_items,
+        drive_manifest,
+        storage_root=storage_root,
+        storage_tier=storage_tier,
+        limit=args.limit,
     )
-    args = parser.parse_args()
 
-    data = argos_manifest.build_manifest(dry_run=args.dry_run)
-    protocol_counts = Counter(entry["protocol"] for entry in data["items"])
-    domain_counts = Counter(entry["source_domain"] or "(unknown)" for entry in data["items"])
+    _print_summary(manifest)
 
-    print(f"ARGOS manifest — {data['total_items']} pending items")
-    print(f"  storage_tier: {data['storage_tier']}")
-    print(f"  storage_root: {data['storage_root']}")
-    print()
-    print("Protocols:")
-    for proto, n in protocol_counts.most_common():
-        print(f"  {proto:<22} {n}")
-    print()
-    print("Top domains:")
-    for domain, n in domain_counts.most_common(10):
-        print(f"  {domain:<40} {n}")
+    if pending_item_count(manifest) == 0:
+        print("No pending items remain; manifest not written")
+        return 0
+
     if args.dry_run:
-        print("\n(dry-run — manifest.json NOT written)")
-    else:
-        print(f"\nWrote: {argos_manifest.MANIFEST_PATH}")
+        print("Dry run: manifest not written")
+        return 0
+
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Manifest written to {args.output}")
     return 0
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    sys.exit(main())

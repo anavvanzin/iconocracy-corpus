@@ -29,7 +29,7 @@ Sessão de preenchimento de lacunas críticas documentadas em SCOUT-SESSION-2026
 
 ## Candidatos adicionados
 
-| ID | Título | País | Suporte | Regime | ENDURECIMENTO | Confiança | URL verificada |
+| ID | Título | País | Suporte | Regime | endurecimento | Confiança | URL verificada |
 |---|---|---|---|---|---|---|---|
 | SCOUT-124 | 1 Penny — Britannia Seated, George V (1912) | UK | moeda | NORMATIVO | ALTO | alto | Museums Victoria ✅ |
 | SCOUT-125 | 2000 Réis — Efígie da República com Barrete Frígio (1906–1913) | BR | moeda | NORMATIVO | MÉDIO | medio | Numista ✅ (imagem #verificar) |
@@ -60,16 +60,16 @@ Sessão de preenchimento de lacunas críticas documentadas em SCOUT-SESSION-2026
 ## Descobertas-chave desta sessão
 
 ### 1. Britannia George V preenche lacuna cronológica crítica (SCOUT-120)
-O corpus já tinha: 1695 (SCOUT-108), 1895-1901 (SCOUT-322), 1902-1910 (SCOUT-118). A moeda de 1912 fecha o arco até a WWI. **Descoberta:** o ENDURECIMENTO ALTO de Britannia antecede em décadas a entrada na guerra — refuta a hipótese de que a guerra *gerou* o endurecimento iconográfico. O elmo e o tridente já estavam lá.
+O corpus já tinha: 1695 (SCOUT-108), 1895-1901 (SCOUT-322), 1902-1910 (SCOUT-118). A moeda de 1912 fecha o arco até a WWI. **Descoberta:** o endurecimento ALTO de Britannia antecede em décadas a entrada na guerra — refuta a hipótese de que a guerra *gerou* o endurecimento iconográfico. O elmo e o tridente já estavam lá.
 
-### 2. Efígie brasileira = barrete sem ENDURECIMENTO crescente (SCOUT-121)
-A República de 2000 Réis (1906-1913) mantém o ENDURECIMENTO MÉDIO do período fundacional (500 Réis 1889). A hipótese emergente: a efígie brasileira foi fixada em NORMATIVO-MÉDIO desde o início, sem jamais migrar para ALTO — diferença estrutural com UK (ALTO fixo) e DE (ALTO→Ausência). Argumento para Cap. 4: **positivismo republicano como moderador do ENDURECIMENTO**.
+### 2. Efígie brasileira = barrete sem endurecimento crescente (SCOUT-121)
+A República de 2000 Réis (1906-1913) mantém o endurecimento MÉDIO do período fundacional (500 Réis 1889). A hipótese emergente: a efígie brasileira foi fixada em NORMATIVO-MÉDIO desde o início, sem jamais migrar para ALTO — diferença estrutural com UK (ALTO fixo) e DE (ALTO→Ausência). Argumento para Cap. 4: **positivismo republicano como moderador do endurecimento**.
 
 ### 3. Paradoxo Weimar — inércia iconocrática pós-ruptura política (SCOUT-122 + ZW-13)
 A República de Weimar (desde nov. 1918) emite selos Germania com coroa imperial em 1920. **A revolução política não produziu revolução iconográfica imediata.** A hiperinflação (1921-1923) encerrou a série por colapso econômico — não por decisão política. O designer Waldraff havia morrido em 1917: a figura imperial é literalmente póstumo. ZW-13 demonstra que a moeda abandonou a alegoria 4-5 anos ANTES do selo — o suporte postal teve mais inércia que o numismático.
 
 ### 4. Semeuse camée confirma "resistência Roty" (SCOUT-123)
-O design de Oscar Roty mantém ENDURECIMENTO MÉDIO em TRÊS suportes distintos (moeda 1F/1898, selo lignée/1903, selo camée/1906). A hipótese de "resistência Roty" — o designer impõe uma morfologia que o Estado não consegue enrijecer — ganha suporte empírico. O fato de o retoque de Lhomme (1907) alterar apenas a tipografia, não a figura, confirma a intangibilidade iconográfica do corpo de La Semeuse.
+O design de Oscar Roty mantém endurecimento MÉDIO em TRÊS suportes distintos (moeda 1F/1898, selo lignée/1903, selo camée/1906). A hipótese de "resistência Roty" — o designer impõe uma morfologia que o Estado não consegue enrijecer — ganha suporte empírico. O fato de o retoque de Lhomme (1907) alterar apenas a tipografia, não a figura, confirma a intangibilidade iconográfica do corpo de La Semeuse.
 
 ---
 
@@ -107,7 +107,7 @@ Buscar imagem da **Semeuse camée 10c sans sol** (julho 1906) via Gallica IIIF o
 Buscar: o que substitui Germania nos **selos alemães 1922-1933**? Europeana + Wikimedia Commons. Verificar se há retorno da figura feminina ou apagamento definitivo.
 
 ### Prioridade 4 — BR 1000 Réis + série completa
-Buscar: **1000 Réis República Brasil** (Numista ref. 14484) — verificar se imagem é acessível. Propor ZW panel 500 Réis / 1000 Réis / 2000 Réis mostrando estabilidade do ENDURECIMENTO MÉDIO.
+Buscar: **1000 Réis República Brasil** (Numista ref. 14484) — verificar se imagem é acessível. Propor ZW panel 500 Réis / 1000 Réis / 2000 Réis mostrando estabilidade do endurecimento MÉDIO.
 
 ---
 

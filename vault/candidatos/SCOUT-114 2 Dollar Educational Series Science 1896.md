@@ -21,7 +21,7 @@ tags:
 hf_synced: false
 related:
   - "[[Contrato Sexual Visual]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Iconocracia]]"
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-115 5 Dollar Educational Series Electricity 1896]]"
@@ -62,7 +62,7 @@ Cinco figuras alegóricas em composição neoclássica:
 
 Retratos de Robert Fulton (inventor do barco a vapor) e Samuel F.B. Morse (telégrafo) — contrapartidas reais das figuras alegóricas.
 
-## ENDURECIMENTO detectado
+## Endurecimento detectado
 
 **Regime NORMATIVO** — Estabilização burocrática da alegoria feminina em suporte massificado.
 

@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: gallica
@@ -40,9 +40,9 @@ data_scout: 2026-04-03
 
 **Motivos identificados**: Justice
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 DÉDICATEUR, Jaillot, Alexis-Hubert (1632?-1712). Cartographe.. **La Province de Berry. La Généralité de Bourges, ou sont les Eslections de Bourges d'Yssoudun de Chau-roux, du Blanc, de La Chastre, de St. Amand et de la Charité / Dédiée A Messire Nicolas Estienne Roujault, Chevalier Conseiller du Roy en ses Conseils, Maistre des Requestes ordinaire de Son hôtel Intendant de Justice Police et Finance en la Généralité de Bourges ; Par... A. Hubert Iaillot...**. 1707. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b59718546. Acesso em: 03 Apr. 2026.

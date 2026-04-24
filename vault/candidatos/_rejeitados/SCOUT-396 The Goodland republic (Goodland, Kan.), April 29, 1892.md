@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -39,9 +39,9 @@ Goodland, Kan.
 
 **Motivos identificados**: Republic
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 KS, kansas state historical society; topeka,. **The Goodland republic (Goodland, Kan.), April 29, 1892**. 1892-04-29. Library of Congress. Disponível em: https://www.loc.gov/item/sn85030821/1892-04-29/ed-1/. Acesso em: 04 Apr. 2026.

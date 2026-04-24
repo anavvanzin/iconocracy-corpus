@@ -17,7 +17,7 @@ tags:
   - motivo/marianne
   - "#colonialidade-do-ver"
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-023]]"
   - "[[SCOUT-ZW-10]]"
@@ -33,9 +33,9 @@ data_scout: 2026-03-30
 
 Marianne SENTADA em trono, coroa RADIADA (não barrete frígio), FASCES na mão direita. Trigo + âncora. Reverso bilíngue (francês + chinês).
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**SIM** — ENDURECIMENTO MILITAR colonial. Marianne colonial é MAIS DURA que a metropolitana: ENTRONADA (não de pé), FASCES (não oliveira), COROA RADIADA (não barrete). A colônia produz uma Marianne MAIS DURA porque a soberania é mais contestada.
+**SIM** — endurecimento MILITAR colonial. Marianne colonial é MAIS DURA que a metropolitana: ENTRONADA (não de pé), FASCES (não oliveira), COROA RADIADA (não barrete). A colônia produz uma Marianne MAIS DURA porque a soberania é mais contestada.
 
 ### Citação ABNT
 

@@ -17,7 +17,7 @@ tags:
   - motivo/republica
   - "#possivel-duplicata"
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-201]]"
 data_scout: 2026-03-30
@@ -32,7 +32,7 @@ data_scout: 2026-03-30
 
 Busto feminino com barrete frígio e louro. "REPUBLICA DOS ESTADOS UNIDOS DO BRAZIL * 1889 *". 21 estrelas (federação). POSSÍVEL DUPLICATA de SCOUT-201.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
 **INCERTO** — Momento FUNDACIONAL. SERIALIDADE IMEDIATA: mesmo corpo em três denominações desde o DIA UM da República. O Estado nasce JÁ com alegoria feminina pronta.
 

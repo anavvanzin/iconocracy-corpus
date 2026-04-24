@@ -21,7 +21,7 @@ tags:
   - verificar
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Desincorporacao]]"
   - "[[Hiperinflacao de Weimar]]"
@@ -57,7 +57,7 @@ data_scout: 2026-03-28
 - [x] postura frontal
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** nao — anti-ENDURECIMENTO radical. A dessexualizacao e revertida (seios expostos como provocacao), a desincorporacao opera ao contrario — o corpo re-corporifica a crise.
+**endurecimento detectado:** nao — anti-endurecimento radical. A dessexualizacao e revertida (seios expostos como provocacao), a desincorporacao opera ao contrario — o corpo re-corporifica a crise.
 
 ---
 

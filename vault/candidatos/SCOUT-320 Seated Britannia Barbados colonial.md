@@ -17,7 +17,7 @@ tags:
   - motivo/britannia
   - "#colonialidade-do-ver"
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-309]]"
 data_scout: 2026-03-30
@@ -33,9 +33,9 @@ data_scout: 2026-03-30
 
 Britannia sentada, navio ao fundo. Design IDÊNTICO em três colônias. Para REDUZIR CUSTOS, Perkins Bacon usa o MESMO corpo para três territórios. Britannia INTERCAMBIÁVEL entre colônias.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**SIM** — ENDURECIMENTO por CLONAGEM colonial. Serialidade extrema (mesmo cunho, 3 colônias, 30 anos).
+**SIM** — endurecimento por CLONAGEM colonial. Serialidade extrema (mesmo cunho, 3 colônias, 30 anos).
 
 ### Citação ABNT
 

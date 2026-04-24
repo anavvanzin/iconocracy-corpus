@@ -35,7 +35,7 @@ This glossary defines key terms and concepts used throughout the Iconocracia res
   - Type: Original
   - Chapter: Cap. 2
 
-- **ENDURECIMENTO:**
+- **endurecimento:**
   - Source: Original
   - Type: Original
   - Chapter: Cap. 6–7

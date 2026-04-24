@@ -17,7 +17,7 @@ tags:
   - motivo/justitia
   - motivo/republica
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[Contrato Sexual Visual]]"
 data_scout: 2026-03-30
@@ -32,9 +32,9 @@ data_scout: 2026-03-30
 
 Quatro cariátides: Prudência, Justiça, Inocência e Força — quatro corpos femininos sustentando literalmente a estrutura do tribunal.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**SIM** — ENDURECIMENTO via CARIÁTIDE = terminus: o corpo feminino se torna COLUNA. A mulher-coluna é a forma mais radical do "Contrato Sexual Visual" — o corpo feminino SUSTENTA o edifício sem poder abandoná-lo.
+**SIM** — endurecimento via CARIÁTIDE = terminus: o corpo feminino se torna COLUNA. A mulher-coluna é a forma mais radical do "Contrato Sexual Visual" — o corpo feminino SUSTENTA o edifício sem poder abandoná-lo.
 
 ### Citação ABNT
 

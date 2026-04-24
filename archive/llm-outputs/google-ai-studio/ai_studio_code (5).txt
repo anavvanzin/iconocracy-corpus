@@ -1,0 +1,1410 @@
+[
+  {
+    "section": "A_MASTER_DATABASE_LOG",
+    "type": "markdown_table",
+    "content": "| ID | Title | Creator | Date | Location | LPAI v2 Code | B-codes | M | P | G | National+ | Satirical+ | Iconclass | Regime | Mode | Note |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| FR-001 | «La République française» | Anonymous | c. 1792 | Paris, France | 310.312.1.211.1 + +620.1 + G.1... | B.1f.B.2c.B.3b.B.4a.B.5a.B.6a.B.7a | M.6 | P.3 | G.1 | +620.1 | None | 44B119, 44C311 | Normativo-Jurídico | Insurgent | Early codification of the Republic in female form, aggressively brandishing liberty. |\n| FR-002 | «Buste de Marianne» | Jean-Antoine Injalbert | 1889 | Paris, France | 310.312.1.311.3 + +620.2 + +620.4... | B.1c.B.2a.B.3a.B.4a.B.5b.B.6e.B.7a | M.4 | P.4 | G.1 | +620.2, +620.4 | None | 44B119 | Normativo-Jurídico | Institutional | Deliberate absence of the Phrygian cap signals shift to constitutional stability. |\n| FR-003 | Buste de Marianne (Laetitia Casta) | M.-P. Deville-Chabrolle | 2000 | Paris, France | 310.312.1.211.1 + +620.3 + +620.4... | B.1c.B.2a.B.3a.B.4a.B.5a.B.6c.B.7f | M.4 | P.1 | G.1 | +620.3, +620.4 | None | 44B119 | Normativo-Jurídico | Institutional | Individualization of the effigy creates a paradox within normative iconography. |\n| FR-004 | Type Sage | Jules-Auguste Sage | 1876 | France | 310.312.1 + +620.5 + G.4... | B.1b.B.2b.B.3a.B.4a.B.5a.B.6b.B.7a | M.3 | P.1 | G.4 | +620.5 | None | 44B119, 46A1 | Normativo-Jurídico | Institutional | The State framed as a pacified guarantor of bourgeois trade and diplomacy. |\n| FR-005 | La Semeuse | Oscar Roty | 1903 | France | 310.312.1.211.1 + +620.5 + G.1... | B.1e.B.2b.B.3a.B.4a.B.5a.B.6c.B.7a | M.3 | P.1 | G.1 | +620.5 | None | 44B119, 47I111 | Normativo-Jurídico | Institutional | Shifts the normative republican allegory into an active, progressive agrarian mode. |\n| FR-006 | Marianne de Gandon | Pierre Gandon | 1945 | France | 310.312.1.211.1 + +620.5 + G.1... | B.1c.B.2c.B.3a.B.4a.B.5b.B.6c.B.7a | M.3 | P.4 | G.1 | +620.5 | None | 44B119 | Normativo-Jurídico | Institutional | Reasserts constitutional legitimacy against disgraced Vichy regime iconography. |\n| FR-007 | Marianne de l'Avenir | Olivier Balez | 2023-2024 | France | 310.312.1.211.1 + +620.5 + G.1... | B.1c.B.2b.B.3d.B.4e.B.5a.B.6a.B.7a | M.3 | P.1 | G.1 | +620.5 | None | 44B119, 25G | Normativo-Jurídico | Institutional | Normative language shifts from sovereign state authority to planetary stewardship. |\n| FR-008 | L'Abondance | Pierre-François Berruer | 1781 | Palais de Justice, Paris | 130.131.2 | [EXT?] + COMP... | B.1b.B.2a.B.3a.B.4a.B.5a.B.6b.B.7a | M.9 | P.1 | G.1 | None | None | 20M42, 11M4 | Normativo-Jurídico | Institutional | Pre-revolutionary survival; justice linked to the material prosperity of the realm. |\n| FR-009 | La Prudence | Félix Lecomte | 1781 | Palais de Justice, Paris | 410 + G.1 + B.1b... | B.1b.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a | M.9 | P.1 | G.1 | None | None | 11M41 | Normativo-Jurídico | Institutional | Pre-revolutionary conception of justice as moral virtue emanating from sovereign. |\n| FR-010 | La Justice | Félix Lecomte | 1781 | Palais de Justice, Paris | 110.111.1 | 110.111.2 | 110... | B.1b.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a | M.9 | P.1 | G.1 | None | None | 11M44, 59C2 | Normativo-Jurídico | Institutional | Deliberately omits the blindfold (111.5), adhering to French monarchical tradition. |\n| FR-011 | La Force | Pierre-François Berruer | 1781 | Palais de Justice, Paris | 420 + G.1 + B.1b... | B.1b.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a | M.9 | P.1 | G.1 | None | None | 11M43 | Normativo-Jurídico | Institutional | The necessary civic foundation ensuring execution of Justitia’s decrees. |\n| FR-012 | Monument à Malesherbes | J.-E. Dumont / F.-J. Bosio | 1822 | Palais de Justice, Paris | 320.321.1 | 450 + COMP... | B.1b.B.2c.B.3a.B.4a.B.5a.B.6b.B.7a | M.4 | P.1 | G.1 | None | None | 11M31, 44A51 | Normativo-Jurídico | Institutional | Sanitizes and institutionalizes royalist loyalty via female allegorical form. |\n| FR-013 | Monument à Berryer | Henri Chapu | 1879 | Palais de Justice, Paris | 450 | [EXT?] + COMP... | B.1a.B.2c.B.3a.B.4a.B.5a.B.6b.B.7a | M.4 | P.4 | G.1 | None | None | 11M31, 52D3 | Normativo-Jurídico | Institutional | Re-legitimizes the procedural rights of the defense during the Third Republic. |\n| FR-014 | La Glorification de la Loi | Paul Baudry | 1881 | Palais de Justice, Paris | 120.121.1 | 110.111.1 | 130... | B.1a.B.2a.B.3a.B.4a.B.5b.B.6e.B.7a | M.5 | P.4 | G.1 | None | None | 44C11, 11M44 | Normativo-Jurídico | Institutional | Absolute subordination of the judge to the female personification of statutory law. |\n| FR-015 | Les Gens de Justice (Pl. 11) | Honoré Daumier | 1845 | BnF | 110.111.5 + +730 + G.1... | B.1f.B.2a.B.3d.B.4a.B.5b.B.6c.B.7a | M.6 | P.1 | G.1 | None | +730 | 11M44 | Normativo-Jurídico | Insurgent | Daumier exposes the open eye as willful blindness of the magistrature. |\n| FR-016 | Une péroraison à la Démosthène | Honoré Daumier | 1848 | Musée d'Orsay | 110.111.1 + +710 + +740... | B.1b.B.2d.B.3a.B.4a.B.5a.B.6b.B.7a | M.6 | P.1 | G.1 | None | +710, +740 | 11M44 | Normativo-Jurídico | Insurgent | The scales are corrupted (+710), entirely disconnected from actual procedural reality. |\n| FR-017 | Les Gens de Justice (Typical) | Honoré Daumier | 1845-1848 | Various | 110.111.3 + +710 + +730... | B.1b.B.2f.B.3a.B.4a.B.5a.B.6b.B.7a | M.6 | P.1 | G.1 | None | +710, +730 | 11M44 | Normativo-Jurídico | Insurgent | Physical presence of the statue highlights the total absence of justice. |\n| FR-018 | La République (Sketch) | Honoré Daumier | 1848 | Musée d'Orsay | 310 | 510 + COMP... | B.1a.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a | M.5 | P.4 | G.1 | +620.2 | None | 44B119, 42A3...| Fundacional-Sacrificial | Institutional | The Republic envisioned not as insurgent liberty, but as robust nursing mother. |\n| FR-019 | Marianne bâillonnée | Plantu | c. 2000s | Le Monde | 310.312.1.211.1 + +620.1... | B.1d.B.2d.B.3d.B.4e.B.5a.B.6c.B.7c | M.6 | P.8 | G.1 | +620.1 | +720 | 44B119 | Normativo-Jurídico | Insurgent | By binding and gagging the Republic, the cartoonist subverts official iconography. |\n| FR-020 | La Justice et ses balances | Lefred-Thouron | c. 2010s | Le Canard enchaîné | 110.111.1 | 110.111.3 | 110... | B.1b.B.2f.B.3a.B.4e.B.5a.B.6c.B.7a | M.6 | P.8 | G.1 | None | +710, +730 | 11M44 | Normativo-Jurídico | Insurgent | The blindfold is lifted, allowing Justice to favor the powerful (+730). |\n| BE-001 | Liberté de la Presse | Joseph Geefs | 1852 | Brussels, Belgium | 210 + +630.1 + +630.4... | B.1a.B.2d.B.3a.B.4a.B.5a.B.6b.B.7a | M.4 | P.4 | G.1 | +630.1, +630.4 | None | 44C311, 46E12 | Normativo-Jurídico | Institutional | Anchors the monument with a specific statutory liberty. |\n| BE-002 | Liberté des Cultes | Eugène Simonis | 1856 | Brussels, Belgium | 210 | 450 + COMP... | B.1a.B.2e.B.3a.B.4a.B.5b.B.6c.B.7a | M.4 | P.4 | G.1 | +630.1, +630.4 | None | 11P11, 11M31 | Normativo-Jurídico | Institutional | Pacified, legally protected sphere of personal worship devoid of coercion. |\n| BE-003 | Liberté d'Association | Charles-Auguste Fraikin | 1856 | Brussels, Belgium | 210 | 110.111.4 + COMP... | B.1a.B.2a.B.3a.B.4a.B.5a.B.6e.B.7a | M.4 | P.4 | G.1 | +630.1, +630.4 | None | 44C311, 44M1 | Normativo-Jurídico | Institutional | Translates the abstract legal right of assembly into legible classical form. |\n| BE-004 | Liberté d'Enseignement | Guillaume Geefs | 1850-1859 | Brussels, Belgium | 210 | 510 + COMP... | B.1a.B.2d.B.3a.B.4a.B.5b.B.6b.B.7a | M.4 | P.4 | G.1 | +630.1, +630.4 | None | 49C, 44C311 | Normativo-Jurídico | Institutional | Places pedagogical liberty within the confines of statutory rights. |\n| BE-005 | La Belgica aux Journées... | Anonymous | c. 1830 | KBR, Belgium | 310.312.6.321.2 + G.1... | B.1b.B.2a.B.3a.B.4a.B.5a.B.6e.B.7a | M.6 | P.3 | G.1 | None | None | 44B119, 44A51 | Normativo-Jurídico | Insurgent | Visual coding signals a controlled insurgency seeking legitimate independence. |\n| BE-006 | L'Œuvre civilisatrice... | Anonymous | c. 1897 | AfricaMuseum, Belgium | 830 | 510 + COMP... | B.1a.B.2d.B.3a.B.4a.B.5b.B.6e.B.7a | M.11| P.6 | G.1 | +630.3 | None | 44B119, 44B11 | Militar-Imperial | Institutional | Civilizing mission laundered through the hybrid female allegorical body. |\n| BE-007 | La Justice | Albert Desenfans | 1882 | Palais de Justice, Brussels| 110.111.1 | 110.111.2... | B.1a.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a | M.9 | P.1 | G.1 | None | None | 11M44 | Normativo-Jurídico | Institutional | Distant absolute; Structural anchor of state terror. |\n| BE-008 | La Loi | Aimable Dutrieux | 1882 | Palais de Justice, Brussels| 120.121.1 + G.1... | B.1a.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a | M.9 | P.1 | G.1 | None | None | 44C11 | Normativo-Jurídico | Institutional | The Law is not to be understood, but is a monolith to be obeyed. |\n| BE-009 | La Force | Thomas Vinçotte | 1882 | Palais de Justice, Brussels| 420 + +630.3 + G.1... | B.1a.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a | M.9 | P.6 | G.1 | +630.3 | None | 11M43 | Militar-Imperial | Institutional | Bridges domestic intimidation with overseas imperial extraction. |\n| BE-010 | La Clémence Royale | Alphonse de Tombay | 1882 | Palais de Justice, Brussels| 130 | [EXT?] + COMP... | B.1a.B.2d.B.3a.B.4a.B.5b.B.6b.B.7a | M.9 | P.6 | G.1 | +630.3 | None | 11M4 | Normativo-Jurídico | Institutional | Coats violent Congo administration in benevolent pacifying aesthetics. |\n| BE-011 | Gardiens de la Loi | Cattier & Bouré | 1883 | Palais de Justice, Brussels| 120 | [EXT?] + COMP... | B.1b.B.2a.B.3a.B.4a.B.5b.B.6d.B.7a | M.4 | P.1 | G.2 | +630.2 | None | 44C11, 52D3 | Normativo-Jurídico | Institutional | Massive patriarchal figures neutralize the emancipatory potential of law. |\n| BE-012 | Palais de Justice sous... | Pierre Kroll | c. 2010s | Le Soir, Brussels | 110.111.1 + +630.2... | B.1b.B.2f.B.3a.B.4a.B.5b.B.6b.B.7c | M.6 | P.8 | G.1 | +630.2 | +710, +730 | 11M44 | Normativo-Jurídico | Insurgent | Rusted pipes immobilize scales; allegory rendered entirely incompetent. |"
+  },
+  {
+    "section": "B_FULL_JSON_ARRAY",
+    "type": "record_array",
+    "records": [
+      {
+        "id": "FR-001",
+        "title": "«La République française» (Anonymous Engraving)",
+        "creator": "Anonymous",
+        "date": "c. 1792",
+        "location": "Paris, France",
+        "support": "Print/Engraving",
+        "lpai_code": "310.312.1.211.1 + +620.1 + G.1 + B.1f.B.2c.B.3b.B.4a.B.5a.B.6a.B.7a + M.6 + P.3",
+        "class": "310 Respublica",
+        "personification": "312.1 Marianne",
+        "attributes": [
+          "211.1 Phrygian Cap"
+        ],
+        "body": {
+          "B1": "B.1f",
+          "B2": "B.2c",
+          "B3": "B.3b",
+          "B4": "B.4a",
+          "B5": "B.5a",
+          "B6": "B.6a",
+          "B7": "B.7a"
+        },
+        "medium": "M.6",
+        "political_context": "P.3",
+        "gender": "G.1",
+        "national_ext": [
+          "+620.1"
+        ],
+        "satirical_mod": [],
+        "general_mod": [],
+        "composite": false,
+        "iconclass": [
+          "44B119",
+          "44C311"
+        ],
+        "iconclass_mapping": "Approximate",
+        "regime": "Normativo-Jurídico",
+        "mode": "Insurgent",
+        "note": "This early anonymous engraving represents the initial codification of the French Republic in female form, aggressively brandishing the symbols of liberty."
+      },
+      {
+        "id": "FR-002",
+        "title": "«Buste de Marianne»",
+        "creator": "Jean-Antoine Injalbert",
+        "date": "1889",
+        "location": "Paris, France",
+        "support": "Plaster/Bronze",
+        "lpai_code": "310.312.1.311.3 + +620.2 + +620.4 + G.1 + B.1c.B.2a.B.3a.B.4a.B.5b.B.6e.B.7a + M.4 + P.4",
+        "class": "310 Respublica",
+        "personification": "312.1 Marianne",
+        "attributes": [
+          "311.3 Oak/Laurel Wreath"
+        ],
+        "body": {
+          "B1": "B.1c",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6e",
+          "B7": "B.7a"
+        },
+        "medium": "M.4",
+        "political_context": "P.4",
+        "gender": "G.1",
+        "national_ext": [
+          "+620.2",
+          "+620.4"
+        ],
+        "satirical_mod": [],
+        "general_mod": [],
+        "composite": false,
+        "iconclass": [
+          "44B119"
+        ],
+        "iconclass_mapping": "Approximate",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Injalbert’s bust exemplifies the Third Republic's pacification of the revolutionary allegory following the 1877 crisis and the constitutional consolidation of the 1880s."
+      },
+      {
+        "id": "FR-003",
+        "title": "«Buste de Marianne (Laetitia Casta)»",
+        "creator": "Marie-Paule Deville-Chabrolle",
+        "date": "2000",
+        "location": "Paris, France",
+        "support": "Plaster/Resin",
+        "lpai_code": "310.312.1.211.1 + +620.3 + +620.4 + G.1 + B.1c.B.2a.B.3a.B.4a.B.5a.B.6c.B.7f + M.4 + P.1",
+        "class": "310 Respublica",
+        "personification": "312.1 Marianne",
+        "attributes": [
+          "211.1 Phrygian Cap"
+        ],
+        "body": {
+          "B1": "B.1c",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5a",
+          "B6": "B.6c",
+          "B7": "B.7f"
+        },
+        "medium": "M.4",
+        "political_context": "P.1",
+        "gender": "G.1",
+        "national_ext": [
+          "+620.3",
+          "+620.4"
+        ],
+        "satirical_mod": [],
+        "general_mod": [],
+        "composite": false,
+        "iconclass": [
+          "44B119"
+        ],
+        "iconclass_mapping": "Approximate",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "The Fifth Republic introduced the unprecedented practice of absorbing real celebrity faces into the allegorical matrix."
+      },
+      {
+        "id": "FR-004",
+        "title": "«Type Sage (Peace and Commerce)»",
+        "creator": "Jules-Auguste Sage",
+        "date": "1876",
+        "location": "France",
+        "support": "Postage stamp",
+        "lpai_code": "310.312.1 + +620.5 + G.4 + B.1b.B.2b.B.3a.B.4a.B.5a.B.6b.B.7a + M.3 + P.1",
+        "class": "310 Respublica",
+        "personification": "312.1 Marianne",
+        "attributes": [
+          "[EXT?] Proposed: 461.2 Olive Branch"
+        ],
+        "body": {
+          "B1": "B.1b",
+          "B2": "B.2b",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5a",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.3",
+        "political_context": "P.1",
+        "gender": "G.4",
+        "national_ext": [
+          "+620.5"
+        ],
+        "satirical_mod": [],
+        "general_mod": [],
+        "composite": false,
+        "iconclass": [
+          "44B119",
+          "46A1",
+          "45A14"
+        ],
+        "iconclass_mapping": "Approximate",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Operating within a composite group featuring Peace and Commerce, this stamp represents the early Third Republic's desire for stability."
+      },
+      {
+        "id": "FR-005",
+        "title": "«La Semeuse»",
+        "creator": "Oscar Roty",
+        "date": "1903",
+        "location": "France",
+        "support": "Postage stamp",
+        "lpai_code": "310.312.1.211.1 + +620.5 + G.1 + B.1e.B.2b.B.3a.B.4a.B.5a.B.6c.B.7a + M.3 + P.1",
+        "class": "310 Respublica",
+        "personification": "312.1 Marianne",
+        "attributes": [
+          "211.1 Phrygian Cap"
+        ],
+        "body": {
+          "B1": "B.1e",
+          "B2": "B.2b",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5a",
+          "B6": "B.6c",
+          "B7": "B.7a"
+        },
+        "medium": "M.3",
+        "political_context": "P.1",
+        "gender": "G.1",
+        "national_ext": [
+          "+620.5"
+        ],
+        "satirical_mod": [],
+        "general_mod": [],
+        "composite": false,
+        "iconclass": [
+          "44B119",
+          "47I111"
+        ],
+        "iconclass_mapping": "Partial",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Roty’s Semeuse shifts the normative republican allegory into an active, agrarian mode."
+      },
+      {
+        "id": "FR-006",
+        "title": "«Marianne de Gandon»",
+        "creator": "Pierre Gandon",
+        "date": "1945",
+        "location": "France",
+        "support": "Postage stamp",
+        "lpai_code": "310.312.1.211.1 + +620.5 + G.1 + B.1c.B.2c.B.3a.B.4a.B.5b.B.6c.B.7a + M.3 + P.4",
+        "class": "310 Respublica",
+        "personification": "312.1 Marianne",
+        "attributes": [
+          "211.1 Phrygian Cap"
+        ],
+        "body": {
+          "B1": "B.1c",
+          "B2": "B.2c",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6c",
+          "B7": "B.7a"
+        },
+        "medium": "M.3",
+        "political_context": "P.4",
+        "gender": "G.1",
+        "national_ext": [
+          "+620.5"
+        ],
+        "satirical_mod": [],
+        "general_mod": [],
+        "composite": false,
+        "iconclass": [
+          "44B119"
+        ],
+        "iconclass_mapping": "Approximate",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Reasserts constitutional republican legitimacy against the disgraced, anti-republican iconography of the Vichy regime."
+      },
+      {
+        "id": "FR-007",
+        "title": "«Marianne de l'Avenir»",
+        "creator": "Olivier Balez",
+        "date": "2023-2024",
+        "location": "France",
+        "support": "Postage stamp",
+        "lpai_code": "310.312.1.211.1 + +620.5 + G.1 + B.1c.B.2b.B.3d.B.4e.B.5a.B.6a.B.7a + M.3 + P.1",
+        "class": "310 Respublica",
+        "personification": "312.1 Marianne",
+        "attributes": [
+          "211.1 Phrygian Cap"
+        ],
+        "body": {
+          "B1": "B.1c",
+          "B2": "B.2b",
+          "B3": "B.3d",
+          "B4": "B.4e",
+          "B5": "B.5a",
+          "B6": "B.6a",
+          "B7": "B.7a"
+        },
+        "medium": "M.3",
+        "political_context": "P.1",
+        "gender": "G.1",
+        "national_ext": [
+          "+620.5"
+        ],
+        "satirical_mod": [],
+        "general_mod": [],
+        "composite": false,
+        "iconclass": [
+          "44B119",
+          "25G"
+        ],
+        "iconclass_mapping": "Partial",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Integrates the traditional republican allegory with the contemporary ecological crisis."
+      },
+      {
+        "id": "FR-008",
+        "title": "«L'Abondance» (Cour de Mai Façade)",
+        "creator": "Pierre-François Berruer",
+        "date": "1781",
+        "location": "Palais de Justice, Paris",
+        "support": "Stone (Architectural attic statue)",
+        "lpai_code": "130.131.2 | [EXT?] Abondance + COMP + G.1 + B.1b.B.2a.B.3a.B.4a.B.5a.B.6b.B.7a + M.9 + P.1 + +940",
+        "class": "130 Aequitas / [EXT?] Abundantia",
+        "personification": "Abondance",
+        "attributes": [
+          "131.2 Cornucopia"
+        ],
+        "body": {
+          "B1": "B.1b",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5a",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.9",
+        "political_context": "P.1",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [],
+        "general_mod": [
+          "+940"
+        ],
+        "composite": true,
+        "iconclass": [
+          "20M42",
+          "11M4"
+        ],
+        "iconclass_mapping": "Approximate",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Pre-revolutionary survival; associates the administration of royal justice with the material prosperity of the realm."
+      },
+      {
+        "id": "FR-009",
+        "title": "«La Prudence» (Cour de Mai Façade)",
+        "creator": "Félix Lecomte",
+        "date": "1781",
+        "location": "Palais de Justice, Paris",
+        "support": "Stone (Architectural attic statue)",
+        "lpai_code": "410 + G.1 + B.1b.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a + M.9 + P.1 + +940",
+        "class": "410 Prudentia",
+        "personification": "Prudence",
+        "attributes": [
+          "Mirror",
+          "Serpent"
+        ],
+        "body": {
+          "B1": "B.1b",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.9",
+        "political_context": "P.1",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [],
+        "general_mod": [
+          "+940"
+        ],
+        "composite": false,
+        "iconclass": [
+          "11M41"
+        ],
+        "iconclass_mapping": "Direct",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Establishes a visual perimeter of legal caution and wisdom before the citizen enters the judicial space."
+      },
+      {
+        "id": "FR-010",
+        "title": "«La Justice» (Cour de Mai Façade)",
+        "creator": "Félix Lecomte",
+        "date": "1781",
+        "location": "Palais de Justice, Paris",
+        "support": "Stone (Architectural attic statue)",
+        "lpai_code": "110.111.1 | 110.111.2 | 110.111.5 + COMP + G.1 + B.1b.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a + M.9 + P.1 + +940",
+        "class": "110 Justitia",
+        "personification": "Justice",
+        "attributes": [
+          "111.1 Scales",
+          "111.2 Sword",
+          "111.5 Open eyes"
+        ],
+        "body": {
+          "B1": "B.1b",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.9",
+        "political_context": "P.1",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [],
+        "general_mod": [
+          "+940"
+        ],
+        "composite": true,
+        "iconclass": [
+          "11M44",
+          "59C2"
+        ],
+        "iconclass_mapping": "Direct",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Deliberately omits the blindfold (111.5), adhering to the French monarchical tradition where royal justice is clear-sighted."
+      },
+      {
+        "id": "FR-011",
+        "title": "«La Force» (Cour de Mai Façade)",
+        "creator": "Pierre-François Berruer",
+        "date": "1781",
+        "location": "Palais de Justice, Paris",
+        "support": "Stone (Architectural attic statue)",
+        "lpai_code": "420 + G.1 + B.1b.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a + M.9 + P.1 + +940",
+        "class": "420 Fortitudo",
+        "personification": "Force",
+        "attributes": [
+          "Column"
+        ],
+        "body": {
+          "B1": "B.1b",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.9",
+        "political_context": "P.1",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [],
+        "general_mod": [
+          "+940"
+        ],
+        "composite": false,
+        "iconclass": [
+          "11M43"
+        ],
+        "iconclass_mapping": "Direct",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Underscores the coercive power of the law, not as military violence, but as civic foundation."
+      },
+      {
+        "id": "FR-012",
+        "title": "«Monument à Malesherbes»",
+        "creator": "Jacques-Edme Dumont / François-Joseph Bosio",
+        "date": "1822",
+        "location": "Salle des Pas Perdus, Palais de Justice, Paris",
+        "support": "Marble (Monument)",
+        "lpai_code": "320.321.1 | 450 + COMP + G.1 + B.1b.B.2c.B.3a.B.4a.B.5a.B.6b.B.7a + M.4 + P.1 + +960",
+        "class": "320 Patria / 450 Fides",
+        "personification": "France / Fidélité",
+        "attributes": [
+          "Traditional markers"
+        ],
+        "body": {
+          "B1": "B.1b",
+          "B2": "B.2c",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5a",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.4",
+        "political_context": "P.1",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [],
+        "general_mod": [
+          "+960"
+        ],
+        "composite": true,
+        "iconclass": [
+          "11M31",
+          "44A51"
+        ],
+        "iconclass_mapping": "Partial",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Visually rehabilitated the Ancien Régime’s memory within the highest court."
+      },
+      {
+        "id": "FR-013",
+        "title": "«Monument à Berryer»",
+        "creator": "Henri Chapu",
+        "date": "1879",
+        "location": "Salle des Pas Perdus, Palais de Justice, Paris",
+        "support": "Marble (Monument)",
+        "lpai_code": "450 | [EXT?] L'Éloquence + COMP + G.1 + B.1a.B.2c.B.3a.B.4a.B.5a.B.6b.B.7a + M.4 + P.4 + +960",
+        "class": "450 Fides / [EXT?] L'Éloquence",
+        "personification": "Fidélité / Éloquence",
+        "attributes": [
+          "Shield",
+          "Pen"
+        ],
+        "body": {
+          "B1": "B.1a",
+          "B2": "B.2c",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5a",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.4",
+        "political_context": "P.4",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [],
+        "general_mod": [
+          "+960"
+        ],
+        "composite": true,
+        "iconclass": [
+          "11M31",
+          "52D3"
+        ],
+        "iconclass_mapping": "Partial",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Represents the civic and professional virtues of the avocat during the Third Republic."
+      },
+      {
+        "id": "FR-014",
+        "title": "«La Glorification de la Loi»",
+        "creator": "Paul Baudry",
+        "date": "1881",
+        "location": "Cour de cassation, Palais de Justice, Paris",
+        "support": "Oil on canvas",
+        "lpai_code": "120.121.1 | 110.111.1 | 130.131.1 + COMP + G.1 + B.1a.B.2a.B.3a.B.4a.B.5b.B.6e.B.7a + M.5 + P.4 + +940 + +960",
+        "class": "120 Lex",
+        "personification": "La Loi",
+        "attributes": [
+          "121.1 Book of Law",
+          "111.1 Scales",
+          "131.1 Measuring rod"
+        ],
+        "body": {
+          "B1": "B.1a",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6e",
+          "B7": "B.7a"
+        },
+        "medium": "M.5",
+        "political_context": "P.4",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [],
+        "general_mod": [
+          "+940",
+          "+960"
+        ],
+        "composite": true,
+        "iconclass": [
+          "44C11",
+          "11M44"
+        ],
+        "iconclass_mapping": "Direct",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Absolute subordination of the judge to the female personification of statutory law."
+      },
+      {
+        "id": "FR-015",
+        "title": "«Les Gens de Justice (Plate 11)»",
+        "creator": "Honoré Daumier",
+        "date": "1845",
+        "location": "BnF",
+        "support": "Lithograph",
+        "lpai_code": "110.111.5 + +730 + G.1 + B.1f.B.2a.B.3d.B.4a.B.5b.B.6c.B.7a + M.6 + P.1 + +950",
+        "class": "110 Justitia",
+        "personification": "Justice",
+        "attributes": [
+          "111.5 Open eyes"
+        ],
+        "body": {
+          "B1": "B.1f",
+          "B2": "B.2a",
+          "B3": "B.3d",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6c",
+          "B7": "B.7a"
+        },
+        "medium": "M.6",
+        "political_context": "P.1",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [
+          "+730"
+        ],
+        "general_mod": [
+          "+950"
+        ],
+        "composite": false,
+        "iconclass": [
+          "11M44"
+        ],
+        "iconclass_mapping": "Approximate",
+        "regime": "Normativo-Jurídico",
+        "mode": "Insurgent",
+        "note": "Daumier exposes the open eye as willful blindness of the magistrature."
+      },
+      {
+        "id": "FR-016",
+        "title": "«Une péroraison à la Démosthène»",
+        "creator": "Honoré Daumier",
+        "date": "1848",
+        "location": "Musée d'Orsay",
+        "support": "Lithograph",
+        "lpai_code": "110.111.1 + +710 + +740 + G.1 + B.1b.B.2d.B.3a.B.4a.B.5a.B.6b.B.7a + M.6 + P.1 + +940",
+        "class": "110 Justitia",
+        "personification": "Justice",
+        "attributes": [
+          "111.1 Scales"
+        ],
+        "body": {
+          "B1": "B.1b",
+          "B2": "B.2d",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5a",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.6",
+        "political_context": "P.1",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [
+          "+710",
+          "+740"
+        ],
+        "general_mod": [
+          "+940"
+        ],
+        "composite": false,
+        "iconclass": [
+          "11M44"
+        ],
+        "iconclass_mapping": "Direct",
+        "regime": "Normativo-Jurídico",
+        "mode": "Insurgent",
+        "note": "The scales are corrupted (+710), entirely disconnected from actual procedural reality."
+      },
+      {
+        "id": "FR-017",
+        "title": "«Les Gens de Justice» (Typical)",
+        "creator": "Honoré Daumier",
+        "date": "1845-1848",
+        "location": "Various",
+        "support": "Lithograph",
+        "lpai_code": "110.111.3 + +710 + +730 + G.1 + B.1b.B.2f.B.3a.B.4a.B.5a.B.6b.B.7a + M.6 + P.1",
+        "class": "110 Justitia",
+        "personification": "Justice",
+        "attributes": [
+          "111.3 Blindfold"
+        ],
+        "body": {
+          "B1": "B.1b",
+          "B2": "B.2f",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5a",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.6",
+        "political_context": "P.1",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [
+          "+710",
+          "+730"
+        ],
+        "general_mod": [],
+        "composite": false,
+        "iconclass": [
+          "11M44"
+        ],
+        "iconclass_mapping": "Direct",
+        "regime": "Normativo-Jurídico",
+        "mode": "Insurgent",
+        "note": "Physical presence of the statue highlights the total absence of justice."
+      },
+      {
+        "id": "FR-018",
+        "title": "«La République» (Sketch)",
+        "creator": "Honoré Daumier",
+        "date": "1848",
+        "location": "Musée d'Orsay",
+        "support": "Oil on canvas",
+        "lpai_code": "310 | 510 + COMP + +620.2 + G.1 + B.1a.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a + M.5 + P.4 + +910",
+        "class": "310 Respublica / 510 Mater Patriae",
+        "personification": "La République",
+        "attributes": [
+          "[EXT?] Tricolor Flag",
+          "Nursing gesture"
+        ],
+        "body": {
+          "B1": "B.1a",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.5",
+        "political_context": "P.4",
+        "gender": "G.1",
+        "national_ext": [
+          "+620.2"
+        ],
+        "satirical_mod": [],
+        "general_mod": [
+          "+910"
+        ],
+        "composite": true,
+        "iconclass": [
+          "44B119",
+          "42A3",
+          "44C312"
+        ],
+        "iconclass_mapping": "Direct",
+        "regime": "Fundacional-Sacrificial",
+        "mode": "Institutional",
+        "note": "The Republic envisioned not as insurgent liberty, but as robust nursing mother."
+      },
+      {
+        "id": "FR-019",
+        "title": "«Marianne bâillonnée»",
+        "creator": "Plantu",
+        "date": "c. 2000s",
+        "location": "Le Monde",
+        "support": "Newsprint/Digital drawing",
+        "lpai_code": "310.312.1.211.1 + +620.1 + +720 + G.1 + B.1d.B.2d.B.3d.B.4e.B.5a.B.6c.B.7c + M.6 + P.8",
+        "class": "310 Respublica",
+        "personification": "312.1 Marianne",
+        "attributes": [
+          "211.1 Phrygian Cap"
+        ],
+        "body": {
+          "B1": "B.1d",
+          "B2": "B.2d",
+          "B3": "B.3d",
+          "B4": "B.4e",
+          "B5": "B.5a",
+          "B6": "B.6c",
+          "B7": "B.7c"
+        },
+        "medium": "M.6",
+        "political_context": "P.8",
+        "gender": "G.1",
+        "national_ext": [
+          "+620.1"
+        ],
+        "satirical_mod": [
+          "+720"
+        ],
+        "general_mod": [],
+        "composite": false,
+        "iconclass": [
+          "44B119"
+        ],
+        "iconclass_mapping": "Approximate",
+        "regime": "Normativo-Jurídico",
+        "mode": "Insurgent",
+        "note": "By binding and gagging the Republic, the cartoonist subverts official iconography."
+      },
+      {
+        "id": "FR-020",
+        "title": "«La Justice et ses balances»",
+        "creator": "Lefred-Thouron",
+        "date": "c. 2010s",
+        "location": "Le Canard enchaîné",
+        "support": "Newsprint drawing",
+        "lpai_code": "110.111.1 | 110.111.3 | 110.111.5 + COMP + +710 + +730 + G.1 + B.1b.B.2f.B.3a.B.4e.B.5a.B.6c.B.7a + M.6 + P.8",
+        "class": "110 Justitia",
+        "personification": "Justice",
+        "attributes": [
+          "111.1 Scales",
+          "111.3 Blindfold",
+          "111.5 Open eyes"
+        ],
+        "body": {
+          "B1": "B.1b",
+          "B2": "B.2f",
+          "B3": "B.3a",
+          "B4": "B.4e",
+          "B5": "B.5a",
+          "B6": "B.6c",
+          "B7": "B.7a"
+        },
+        "medium": "M.6",
+        "political_context": "P.8",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [
+          "+710",
+          "+730"
+        ],
+        "general_mod": [],
+        "composite": true,
+        "iconclass": [
+          "11M44"
+        ],
+        "iconclass_mapping": "Direct",
+        "regime": "Normativo-Jurídico",
+        "mode": "Insurgent",
+        "note": "The blindfold is lifted, allowing Justice to favor the powerful (+730)."
+      },
+      {
+        "id": "BE-001",
+        "title": "«La Liberté de la Presse»",
+        "creator": "Joseph Geefs",
+        "date": "1852",
+        "location": "Brussels, Belgium",
+        "support": "Bronze",
+        "lpai_code": "210 + +630.1 + +630.4 + G.1 + B.1a.B.2d.B.3a.B.4a.B.5a.B.6b.B.7a + M.4 + P.4 + +940",
+        "class": "210 Libertas",
+        "personification": "Liberté de la Presse",
+        "attributes": [
+          "[EXT?] Proposed: Printing press mechanism / Scroll"
+        ],
+        "body": {
+          "B1": "B.1a",
+          "B2": "B.2d",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5a",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.4",
+        "political_context": "P.4",
+        "gender": "G.1",
+        "national_ext": [
+          "+630.1",
+          "+630.4"
+        ],
+        "satirical_mod": [],
+        "general_mod": [
+          "+940"
+        ],
+        "composite": false,
+        "iconclass": [
+          "44C311",
+          "46E12"
+        ],
+        "iconclass_mapping": "Approximate",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Anchors the monument with a specific statutory liberty rather than generic martial victory."
+      },
+      {
+        "id": "BE-002",
+        "title": "«La Liberté des Cultes»",
+        "creator": "Eugène Simonis",
+        "date": "1856",
+        "location": "Brussels, Belgium",
+        "support": "Bronze",
+        "lpai_code": "210 | 450 + COMP + +630.1 + +630.4 + G.1 + B.1a.B.2e.B.3a.B.4a.B.5b.B.6c.B.7a + M.4 + P.4 + +940",
+        "class": "210 Libertas / 450 Fides",
+        "personification": "Liberté des Cultes",
+        "attributes": [
+          "[EXT?] Proposed: Cross / Censer (Thurible)"
+        ],
+        "body": {
+          "B1": "B.1a",
+          "B2": "B.2e",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6c",
+          "B7": "B.7a"
+        },
+        "medium": "M.4",
+        "political_context": "P.4",
+        "gender": "G.1",
+        "national_ext": [
+          "+630.1",
+          "+630.4"
+        ],
+        "satirical_mod": [],
+        "general_mod": [
+          "+940"
+        ],
+        "composite": true,
+        "iconclass": [
+          "11P11",
+          "11M31"
+        ],
+        "iconclass_mapping": "Direct",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Pacified, legally protected sphere of personal worship devoid of coercion."
+      },
+      {
+        "id": "BE-003",
+        "title": "«La Liberté d'Association»",
+        "creator": "Charles-Auguste Fraikin",
+        "date": "1856",
+        "location": "Brussels, Belgium",
+        "support": "Bronze",
+        "lpai_code": "210 | 110.111.4 + COMP + +630.1 + +630.4 + G.1 + B.1a.B.2a.B.3a.B.4a.B.5a.B.6e.B.7a + M.4 + P.4 + +940",
+        "class": "210 Libertas / 110 Justitia",
+        "personification": "Liberté d'Association",
+        "attributes": [
+          "111.4 Fasces"
+        ],
+        "body": {
+          "B1": "B.1a",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5a",
+          "B6": "B.6e",
+          "B7": "B.7a"
+        },
+        "medium": "M.4",
+        "political_context": "P.4",
+        "gender": "G.1",
+        "national_ext": [
+          "+630.1",
+          "+630.4"
+        ],
+        "satirical_mod": [],
+        "general_mod": [
+          "+940"
+        ],
+        "composite": true,
+        "iconclass": [
+          "44C311",
+          "44M1"
+        ],
+        "iconclass_mapping": "Approximate",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Translates the abstract legal right of assembly into legible classical form."
+      },
+      {
+        "id": "BE-004",
+        "title": "«La Liberté d'Enseignement»",
+        "creator": "Guillaume Geefs",
+        "date": "1850-1859",
+        "location": "Brussels, Belgium",
+        "support": "Bronze",
+        "lpai_code": "210 | 510 + COMP + +630.1 + +630.4 + G.1 + B.1a.B.2d.B.3a.B.4a.B.5b.B.6b.B.7a + M.4 + P.4 + +910 + +940",
+        "class": "210 Libertas / 510 Mater Patriae",
+        "personification": "Liberté d'Enseignement",
+        "attributes": [
+          "[EXT?] Proposed: Open book of instruction"
+        ],
+        "body": {
+          "B1": "B.1a",
+          "B2": "B.2d",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.4",
+        "political_context": "P.4",
+        "gender": "G.1",
+        "national_ext": [
+          "+630.1",
+          "+630.4"
+        ],
+        "satirical_mod": [],
+        "general_mod": [
+          "+910",
+          "+940"
+        ],
+        "composite": true,
+        "iconclass": [
+          "49C",
+          "44C311"
+        ],
+        "iconclass_mapping": "Partial",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Places pedagogical liberty strictly within the confines of statutory rights."
+      },
+      {
+        "id": "BE-005",
+        "title": "«La Belgica aux Journées de Septembre»",
+        "creator": "Anonymous",
+        "date": "c. 1830",
+        "location": "KBR, Belgium",
+        "support": "Lithograph",
+        "lpai_code": "310.312.6.321.2 + G.1 + B.1b.B.2a.B.3a.B.4a.B.5a.B.6e.B.7a + M.6 + P.3 + +920",
+        "class": "310 Respublica",
+        "personification": "312.6 Belgica",
+        "attributes": [
+          "321.2 Flag",
+          "[EXT?] Proposed: Spear (sans cap)"
+        ],
+        "body": {
+          "B1": "B.1b",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5a",
+          "B6": "B.6e",
+          "B7": "B.7a"
+        },
+        "medium": "M.6",
+        "political_context": "P.3",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [],
+        "general_mod": [
+          "+920"
+        ],
+        "composite": false,
+        "iconclass": [
+          "44B119",
+          "44A51"
+        ],
+        "iconclass_mapping": "Partial",
+        "regime": "Normativo-Jurídico",
+        "mode": "Insurgent",
+        "note": "Visual coding signals a controlled insurgency seeking legitimate independence."
+      },
+      {
+        "id": "BE-006",
+        "title": "«L'Œuvre civilisatrice...»",
+        "creator": "Anonymous",
+        "date": "c. 1897",
+        "location": "AfricaMuseum, Belgium",
+        "support": "Lithograph",
+        "lpai_code": "830 | 510 + COMP + +630.3 + G.1 + B.1a.B.2d.B.3a.B.4a.B.5b.B.6e.B.7a + M.11 + P.6",
+        "class": "830 Imperiatrix/Domina / 510 Mater Patriae",
+        "personification": "Belgica (Colonial)",
+        "attributes": [
+          "Imperial crown",
+          "Protective embrace"
+        ],
+        "body": {
+          "B1": "B.1a",
+          "B2": "B.2d",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6e",
+          "B7": "B.7a"
+        },
+        "medium": "M.11",
+        "political_context": "P.6",
+        "gender": "G.1",
+        "national_ext": [
+          "+630.3"
+        ],
+        "satirical_mod": [],
+        "general_mod": [],
+        "composite": true,
+        "iconclass": [
+          "44B119",
+          "44B11"
+        ],
+        "iconclass_mapping": "Partial",
+        "regime": "Militar-Imperial",
+        "mode": "Institutional",
+        "note": "Civilizing mission laundered through the hybrid female allegorical body."
+      },
+      {
+        "id": "BE-007",
+        "title": "«La Justice»",
+        "creator": "Albert Desenfans",
+        "date": "1882",
+        "location": "Palais de Justice, Brussels",
+        "support": "Bronze",
+        "lpai_code": "110.111.1 | 110.111.2 + COMP + G.1 + B.1a.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a + M.9 + P.1 + +920",
+        "class": "110 Justitia",
+        "personification": "La Justice",
+        "attributes": [
+          "111.1 Scales",
+          "111.2 Sword"
+        ],
+        "body": {
+          "B1": "B.1a",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.9",
+        "political_context": "P.1",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [],
+        "general_mod": [
+          "+920"
+        ],
+        "composite": true,
+        "iconclass": [
+          "11M44"
+        ],
+        "iconclass_mapping": "Direct",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Structural anchor of state terror."
+      },
+      {
+        "id": "BE-008",
+        "title": "«La Loi»",
+        "creator": "Aimable Dutrieux",
+        "date": "1882",
+        "location": "Palais de Justice, Brussels",
+        "support": "Bronze",
+        "lpai_code": "120.121.1 + G.1 + B.1a.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a + M.9 + P.1 + +920",
+        "class": "120 Lex",
+        "personification": "La Loi",
+        "attributes": [
+          "121.1 Book of Law"
+        ],
+        "body": {
+          "B1": "B.1a",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.9",
+        "political_context": "P.1",
+        "gender": "G.1",
+        "national_ext": [],
+        "satirical_mod": [],
+        "general_mod": [
+          "+920"
+        ],
+        "composite": false,
+        "iconclass": [
+          "44C11"
+        ],
+        "iconclass_mapping": "Direct",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "The Law is not to be understood, but is a monolith to be obeyed."
+      },
+      {
+        "id": "BE-009",
+        "title": "«La Force»",
+        "creator": "Thomas Vinçotte",
+        "date": "1882",
+        "location": "Palais de Justice, Brussels",
+        "support": "Bronze",
+        "lpai_code": "420 + +630.3 + G.1 + B.1a.B.2a.B.3a.B.4a.B.5b.B.6b.B.7a + M.9 + P.6 + +920",
+        "class": "420 Fortitudo",
+        "personification": "La Force",
+        "attributes": [
+          "Traditional attributes of strength"
+        ],
+        "body": {
+          "B1": "B.1a",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.9",
+        "political_context": "P.6",
+        "gender": "G.1",
+        "national_ext": [
+          "+630.3"
+        ],
+        "satirical_mod": [],
+        "general_mod": [
+          "+920"
+        ],
+        "composite": false,
+        "iconclass": [
+          "11M43"
+        ],
+        "iconclass_mapping": "Direct",
+        "regime": "Militar-Imperial",
+        "mode": "Institutional",
+        "note": "Bridges domestic intimidation with overseas imperial extraction."
+      },
+      {
+        "id": "BE-010",
+        "title": "«La Clémence Royale»",
+        "creator": "Alphonse de Tombay",
+        "date": "1882",
+        "location": "Palais de Justice, Brussels",
+        "support": "Bronze",
+        "lpai_code": "130 | [EXT?] Clementia + COMP + +630.3 + G.1 + B.1a.B.2d.B.3a.B.4a.B.5b.B.6b.B.7a + M.9 + P.6 + +920",
+        "class": "130 Aequitas / [EXT?] Clementia",
+        "personification": "La Clémence Royale",
+        "attributes": [
+          "Scepter",
+          "Downward gesture of pardon"
+        ],
+        "body": {
+          "B1": "B.1a",
+          "B2": "B.2d",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6b",
+          "B7": "B.7a"
+        },
+        "medium": "M.9",
+        "political_context": "P.6",
+        "gender": "G.1",
+        "national_ext": [
+          "+630.3"
+        ],
+        "satirical_mod": [],
+        "general_mod": [
+          "+920"
+        ],
+        "composite": true,
+        "iconclass": [
+          "11M4"
+        ],
+        "iconclass_mapping": "Approximate",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Coats violent Congo administration in benevolent pacifying aesthetics."
+      },
+      {
+        "id": "BE-011",
+        "title": "«Gardiens de la Loi»",
+        "creator": "Cattier & Bouré",
+        "date": "1883",
+        "location": "Palais de Justice, Brussels",
+        "support": "Marble",
+        "lpai_code": "120 | [EXT?] Eloquentia + COMP + +630.2 + G.2 + B.1b.B.2a.B.3a.B.4a.B.5b.B.6d.B.7a + M.4 + P.1 + +960",
+        "class": "120 Lex / [EXT?] Eloquentia",
+        "personification": "Male Lawgivers",
+        "attributes": [
+          "Scrolls",
+          "Roman/Greek drapery"
+        ],
+        "body": {
+          "B1": "B.1b",
+          "B2": "B.2a",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6d",
+          "B7": "B.7a"
+        },
+        "medium": "M.4",
+        "political_context": "P.1",
+        "gender": "G.2",
+        "national_ext": [
+          "+630.2"
+        ],
+        "satirical_mod": [],
+        "general_mod": [
+          "+960"
+        ],
+        "composite": true,
+        "iconclass": [
+          "44C11",
+          "52D3"
+        ],
+        "iconclass_mapping": "Approximate",
+        "regime": "Normativo-Jurídico",
+        "mode": "Institutional",
+        "note": "Massive patriarchal figures neutralize the emancipatory potential of law."
+      },
+      {
+        "id": "BE-012",
+        "title": "«Palais de Justice sous les échafaudages»",
+        "creator": "Pierre Kroll",
+        "date": "c. 2010s-2020s",
+        "location": "Le Soir, Brussels",
+        "support": "Newsprint",
+        "lpai_code": "110.111.1 + +630.2 + +710 + +730 + G.1 + B.1b.B.2f.B.3a.B.4a.B.5b.B.6b.B.7c + M.6 + P.8 + +940",
+        "class": "110 Justitia",
+        "personification": "Justice (Entangled)",
+        "attributes": [
+          "111.1 Scales",
+          "[EXT?] Proposed: Scaffolding"
+        ],
+        "body": {
+          "B1": "B.1b",
+          "B2": "B.2f",
+          "B3": "B.3a",
+          "B4": "B.4a",
+          "B5": "B.5b",
+          "B6": "B.6b",
+          "B7": "B.7c"
+        },
+        "medium": "M.6",
+        "political_context": "P.8",
+        "gender": "G.1",
+        "national_ext": [
+          "+630.2"
+        ],
+        "satirical_mod": [
+          "+710",
+          "+730"
+        ],
+        "general_mod": [
+          "+940"
+        ],
+        "composite": false,
+        "iconclass": [
+          "11M44"
+        ],
+        "iconclass_mapping": "Approximate",
+        "regime": "Normativo-Jurídico",
+        "mode": "Insurgent",
+        "note": "Rusted pipes immobilize scales; allegory rendered entirely incompetent."
+      }
+    ]
+  },
+  {
+    "section": "C_EXTENSION_CANDIDATES",
+    "type": "evaluation_list",
+    "candidates": [
+      {
+        "flag": "[EXT?] Proposed: 461.2 Olive Branch (FR-004)",
+        "action": "Incorporate",
+        "justification": "The olive branch is a ubiquitous civic attribute for Peace/Concord lacking a specific base code in the current taxonomy."
+      },
+      {
+        "flag": "[EXT?] Abondance (FR-008)",
+        "action": "Incorporate",
+        "justification": "Abundantia/Cornucopia represents macroeconomic benevolence, a key dimension of monarchical and civic virtue separate from strictly juridical equity."
+      },
+      {
+        "flag": "[EXT?] L'Éloquence (FR-013, BE-011)",
+        "action": "Incorporate",
+        "justification": "Eloquence is a distinct professional virtue essential for analyzing the iconography of the Bar and procedural rights."
+      },
+      {
+        "flag": "[EXT?] Tricolor Flag (FR-018)",
+        "action": "Incorporate",
+        "justification": "The national flag is a foundational identifier for Class 300 and 500 manifestations that requires dedicated sub-coding."
+      },
+      {
+        "flag": "[EXT?] Proposed: Printing press mechanism / Scroll (BE-001)",
+        "action": "Reject",
+        "justification": "A printing press is too technologically specific; freedom of expression is better mapped as a generalized Class 200 attribute such as a scroll or torch."
+      },
+      {
+        "flag": "[EXT?] Proposed: Cross / Censer (Thurible) (BE-002)",
+        "action": "Incorporate",
+        "justification": "Religious attributes are strictly necessary for differentiating Class 210 (Freedom of Worship) and Class 450 (Fides)."
+      },
+      {
+        "flag": "[EXT?] Proposed: Open book of instruction (BE-004)",
+        "action": "Incorporate",
+        "justification": "An open book of instruction distinguishes educational/pedagogical liberty from the statutory Book of Law (121.1)."
+      },
+      {
+        "flag": "[EXT?] Proposed: Spear (sans cap) (BE-005)",
+        "action": "Incorporate",
+        "justification": "A spear without a cap is an essential marker of conservative/institutional liberty, distinguishing it from insurgent Jacobin liberty."
+      },
+      {
+        "flag": "[EXT?] Clementia (BE-010)",
+        "action": "Incorporate",
+        "justification": "Clementia (Sovereign Pardon) functions as a distinct constitutional prerogative separate from general Aequitas (Class 130)."
+      },
+      {
+        "flag": "[EXT?] Proposed: Scaffolding (BE-012)",
+        "action": "Reject",
+        "justification": "Scaffolding is a highly situational, contemporary satirical element that is accurately captured by the existing +710 (Corrupted Attributes) modifier."
+      }
+    ]
+  },
+  {
+    "section": "D_STATISTICS",
+    "type": "summary_table",
+    "statistics": {
+      "total_records": 32,
+      "by_country": {
+        "France": 20,
+        "Belgium": 12
+      },
+      "by_class": {
+        "Class_100_Jurisprudence_Law": 13,
+        "Class_200_Liberty_Emancipation": 4,
+        "Class_300_State_Republic": 11,
+        "Class_400_Civic_Virtues": 6,
+        "Class_500_Foundational_Sacrificial": 3,
+        "Class_800_Military_Imperial": 1
+      },
+      "composite_entries": 14,
+      "satirical_entries": 6
+    }
+  }
+]

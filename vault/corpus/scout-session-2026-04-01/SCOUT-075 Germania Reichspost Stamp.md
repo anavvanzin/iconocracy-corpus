@@ -20,7 +20,7 @@ tags:
   - motivo/germania
   - contrato-sexual-visual
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Germania]]"
   - "[[Semeuse]]"
@@ -60,7 +60,7 @@ data_scout: 2026-04-01
 - [x] busto (desincorporação)
 - [x] ramo de oliveira (paz)
 
-**ENDURECIMENTO detectado:** sim — desincorporação máxima (busto), rigidez postural, uniformização facial, monocromatização variável (múltiplas cores mas impressão monocromática), serialidade industrial extrema
+**endurecimento detectado:** sim — desincorporação máxima (busto), rigidez postural, uniformização facial, monocromatização variável (múltiplas cores mas impressão monocromática), serialidade industrial extrema
 
 ---
 

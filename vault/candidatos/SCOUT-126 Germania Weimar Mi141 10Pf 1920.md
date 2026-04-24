@@ -13,7 +13,7 @@ pais: DE
 suporte: selo
 motivo_alegorico: "Germania"
 regime: NORMATIVO
-endurecimento: ALTO
+Endurecimento: ALTO
 confianca: alto
 designer: "Paul Eduard Waldraff (1870–1917) — design herdado do Império"
 michel: "Mi.141 / Sc.119"
@@ -36,7 +36,7 @@ related:
   - "[[SCOUT-ZW-11 Semeuse vs Weimar eagle absence]]"
   - "[[SCOUT-119 50 Pfennig woman planting oak Weimar 1924]]"
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
 data_scout: 2026-03-31
 sessao: SCOUT-SESSION-2026-03-31c
@@ -72,9 +72,9 @@ Imagem accessada via URL confirmada. Selo de fundo laranja (cor oficial da emiss
 - [x] postura frontal hierática
 - [ ] contexto arquitetônico forense
 
-**ENDURECIMENTO:** ALTO
+**endurecimento:** ALTO
 **Regime iconocrático:** NORMATIVO
-**Justificativa:** Germania mantém morfologia imperial (coroa, armadura, postura hierática) em suporte postal da República de Weimar — o regime político mudou em novembro de 1918 mas a figura soberana permanece idêntica; o ENDURECIMENTO não é produto do regime autoritário mas da estabilização iconocrática pré-existente.
+**Justificativa:** Germania mantém morfologia imperial (coroa, armadura, postura hierática) em suporte postal da República de Weimar — o regime político mudou em novembro de 1918 mas a figura soberana permanece idêntica; o endurecimento não é produto do regime autoritário mas da estabilização iconocrática pré-existente.
 
 ---
 

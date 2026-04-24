@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.8
 hunt_source: europeana
@@ -37,9 +37,9 @@ data_scout: 2026-04-03
 
 **Motivos identificados**: Justitia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 DEN, Bosche, Elias van. **[Allegory with Justitia and Pax in a cart in front of Albert and Isabella of Austria, Moritz of Orange, Spinola and other persons; Allegory with Justitia and Pax on a Car before Albert and Isabella of Austria, Maurice of Orange, Spinola and other Persons]**. Herzog Anton Ulrich Museum. Disponível em: http://kk.haum-bs.de/?id=bosche-e-v-d-ab2-0002. Acesso em: 03 Apr. 2026.

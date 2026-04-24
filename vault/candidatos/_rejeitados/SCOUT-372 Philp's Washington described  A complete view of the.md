@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -39,9 +39,9 @@ Also available in digital form. LAC nsk 2020-11-23 update (1 card)
 
 **Motivos identificados**: Columbia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 CONGRESS), joseph meredith toner collection (library of. **Philp's Washington described : A complete view of the American capital, and the District of Columbia; with many notices, historical, topographical, and scientific, of the seat of government**. 1861. Library of Congress. Disponível em: https://www.loc.gov/item/03024606/. Acesso em: 04 Apr. 2026.

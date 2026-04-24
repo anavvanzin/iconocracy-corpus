@@ -5,7 +5,7 @@ titulo: "Painel V — BR LONGITUDINAL: Revista Illustrada (1889) x Efígie Cruze
 pais: [BR, BR]
 periodo: "1889-1965"
 tags: [corpus/zwischenraum, painel/longitudinal, painel/fundacional-normativo, metodo/warburg]
-related: ["[[SCOUT-095]]", "[[SCOUT-103]]", "[[ENDURECIMENTO]]"]
+related: ["[[SCOUT-095]]", "[[SCOUT-103]]", "[[endurecimento]]"]
 data_scout: 2026-03-30
 ---
 
@@ -13,4 +13,4 @@ data_scout: 2026-03-30
 **Polo A (1889):** Revista Illustrada — A República corpo inteiro, dinâmica, FUNDACIONAL
 **Polo B (1965):** 50 Cruzeiros efígie — perfil congelado, NORMATIVO
 
-**ENDURECIMENTO TOTAL:** Todos os 10 indicadores se movem na direção do endurecimento. O transito mais completo do corpus.
+**endurecimento TOTAL:** Todos os 10 indicadores se movem na direção do endurecimento. O transito mais completo do corpus.

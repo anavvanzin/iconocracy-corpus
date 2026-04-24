@@ -17,7 +17,7 @@ tags:
   - motivo/justitia
   - "#acoplamento-imagem-norma"
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
 data_scout: 2026-03-30
@@ -35,9 +35,9 @@ data_scout: 2026-03-30
 
 Têmis sentada, vendada, com espada apoiada no colo. **SEM BALANÇA** — ausência excepcional do atributo canônico. Influência concretista: volume compacto, formas simétricas e econômicas.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**SIM** — ENDURECIMENTO por SUBTRAÇÃO (negativo). A balança REMOVIDA = supressão do atributo narrativo central. Ceschiatti produz uma Justitia que JULGA (espada) mas não PESA (sem balança).
+**SIM** — endurecimento por SUBTRAÇÃO (negativo). A balança REMOVIDA = supressão do atributo narrativo central. Ceschiatti produz uma Justitia que JULGA (espada) mas não PESA (sem balança).
 
 ### Citação ABNT
 

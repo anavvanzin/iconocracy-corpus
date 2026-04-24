@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -39,9 +39,9 @@ Thesis (Ph.D.)--Columbia University. Vita. Bibliography: p. 228-234. Pub. also a
 
 **Motivos identificados**: Columbia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 MARION), tucker, s. marion (samuel. **Verse-satire in England before the renaissance ...**. 1908. Library of Congress. Disponível em: https://www.loc.gov/item/a11000993/. Acesso em: 04 Apr. 2026.

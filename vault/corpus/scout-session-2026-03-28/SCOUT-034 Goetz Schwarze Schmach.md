@@ -25,7 +25,7 @@ tags:
 related:
   - "[[Regime Militar]]"
   - "[[Contrato Sexual Visual]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Ocupacao da Renania]]"
   - "[[SCOUT-032]]"
 data_scout: 2026-03-28
@@ -50,7 +50,7 @@ data_scout: 2026-03-28
 
 **NOTA METODOLOGICA:** Conteudo racista explicito. Inclusao justificada pela funcao analitica: demonstrar interseccao genero/raca na iconocracia.
 
-**ENDURECIMENTO detectado:** sim — ENDURECIMENTO por vitimizacao. Corpo despido e acorrentado.
+**endurecimento detectado:** sim — endurecimento por vitimizacao. Corpo despido e acorrentado.
 
 ---
 

@@ -3,7 +3,7 @@ name: sync-corpus
 description: >
   Run the full corpus sync pipeline in safe sequence. Use when the user says
   "sync", "sincronizar", "pipeline sync", "atualizar corpus", or after adding
-  new candidates to corpus-data.json. Includes optional ingest bridge step.
+  new candidates to corpus-data.json.
 user-invocable: true
 ---
 
@@ -13,11 +13,12 @@ Run the ICONOCRACIA corpus sync pipeline in sequence. Stop immediately if any st
 
 | Step | Script | What it does |
 |------|--------|--------------|
-| 0 | `corpus_bridge.py` | *(optional)* Bridges ingest CSV to corpus-data.json |
-| 1 | `validate_schemas.py` | Validates corpus-data.json against JSON schemas |
-| 2 | `sync_companion.py` | Rebuilds companion-data.json from corpus |
-| 3 | `make_index.py` | Rebuilds index.html and search index |
-| 4 | `code_purification.py --status` | Reports ENDURECIMENTO scores across corpus |
+| 1 | `validate_schemas.py` | Validates records.jsonl against master-record schema |
+| 2 | `vault_sync.py status` | Reports vault ↔ records.jsonl drift |
+| 3 | `records_to_corpus.py --diff` | Reports records.jsonl ↔ corpus-data.json drift |
+| 4 | `sync_companion.py` | Rebuilds companion-data.json from corpus |
+| 5 | `refresh_dashboard.py` | Re-embeds data into HTML dashboards |
+| 6 | `code_purification.py --status` | Reports endurecimento scores across corpus |
 
 ## Execution
 
@@ -25,39 +26,27 @@ Run the ICONOCRACIA corpus sync pipeline in sequence. Stop immediately if any st
 set -e
 REPO="$CLAUDE_PROJECT_DIR"
 PYTHON="conda run -n iconocracy python"
-INGEST="$REPO/iconocracy-ingest"
 
 echo "=== Sync Corpus ICONOCRACIA ==="
 
-# Step 0: Bridge ingest CSV (only if master CSV exists)
-MASTER_CSV="$INGEST/output/iconocracy_master.csv"
-if [ -f "$MASTER_CSV" ]; then
-  echo "[0/4] Bridge: checking ingest CSV for new items..."
-  cd "$INGEST" && python3 -m modules.corpus_bridge --csv "$MASTER_CSV"
-  # Agent should ask user before running with --write
-else
-  echo "[0/4] Bridge: skipped (no ingest CSV found)"
-fi
-
-echo "[1/4] Validando schemas..."
+echo "[1/6] Validando schemas..."
 $PYTHON "$REPO/tools/scripts/validate_schemas.py"
 
-echo "[2/4] Sincronizando companion data..."
-$PYTHON "$REPO/tools/scripts/sync_companion.py"
+echo "[2/6] Vault drift..."
+$PYTHON "$REPO/tools/scripts/vault_sync.py" status
 
-echo "[3/4] Reconstruindo indice..."
-$PYTHON "$REPO/tools/scripts/make_index.py"
+echo "[3/6] Records ↔ corpus drift..."
+$PYTHON "$REPO/tools/scripts/records_to_corpus.py" --diff
 
-echo "[4/4] Status de purificacao..."
+echo "[4/6] Sincronizando companion data..."
+$PYTHON "$REPO/tools/scripts/sync_companion.py" > /dev/null
+
+echo "[5/6] Atualizando dashboards..."
+$PYTHON "$REPO/tools/scripts/refresh_dashboard.py"
+
+echo "[6/6] Status de purificacao..."
 $PYTHON "$REPO/tools/scripts/code_purification.py" --status
 ```
-
-**Bridge step behavior:**
-
-- Step 0 runs the bridge in **dry-run mode** first, showing new items
-- If new items are found, **ask the user** before running with `--write`
-- To write directly: `cd $INGEST && python3 -m modules.corpus_bridge --write`
-- To force a country: `--country FR`
 
 ## Report format
 
@@ -65,13 +54,15 @@ After running, present a table:
 
 | Passo | Status | Detalhes |
 |-------|--------|----------|
-| bridge (ingest) | OK/SKIP/FAIL | N novos itens / skipped / erro |
-| validate_schemas | OK/FAIL | N itens validos / erro |
+| validate_schemas | OK/FAIL | N itens válidos / erro |
+| vault_sync | OK/DRIFT | N notas, X SCOUT pendentes |
+| records_to_corpus | OK/DRIFT | N itens só em records / M só em corpus |
 | sync_companion | OK/FAIL | companion-data.json atualizado |
-| make_index | OK/FAIL | index.html reconstruido |
-| code_purification | OK/FAIL | Score medio de ENDURECIMENTO: X.X |
+| refresh_dashboard | OK/FAIL | corpus + agents dashboards |
+| code_purification | OK/FAIL | Score médio endurecimento: X.X |
 
 If any step fails, show the full error and stop. Do not run subsequent steps.
+Log the run via `tools/scripts/log_agent_run.py --agent sync --status success/error`.
 
 ## When to run
 
@@ -79,3 +70,10 @@ If any step fails, show the full error and stop. Do not run subsequent steps.
 - After running `ingest.py` on a new batch of scans
 - Before committing changes to the corpus
 - After running Scout campaigns that modify corpus data
+
+## Notes
+
+- Bridge step (`corpus_bridge.py`) removed — module deleted, ingest pipeline
+  refactor in progress (2026-04).
+- `make_index.py` is the Iconclass index builder (takes `<lang> <cmd>`),
+  not a corpus tool — excluded.

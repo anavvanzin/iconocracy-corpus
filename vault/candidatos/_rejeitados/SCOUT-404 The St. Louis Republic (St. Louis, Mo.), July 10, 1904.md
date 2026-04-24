@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -39,9 +39,9 @@ St. Louis, Mo.
 
 **Motivos identificados**: Republic
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 MO, state historical society of missouri; columbia,. **The St. Louis Republic (St. Louis, Mo.), July 10, 1904**. 1904-07-10. Library of Congress. Disponível em: https://www.loc.gov/item/sn84020274/1904-07-10/ed-1/. Acesso em: 04 Apr. 2026.

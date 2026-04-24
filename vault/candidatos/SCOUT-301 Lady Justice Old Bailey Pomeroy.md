@@ -16,7 +16,7 @@ tags:
   - regime/normativo
   - motivo/justitia
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[Contrato Sexual Visual]]"
 data_scout: 2026-03-30
@@ -35,9 +35,9 @@ data_scout: 2026-03-30
 
 Figura feminina de pé sobre a cúpula do tribunal criminal central de Londres. Mão direita empunha a espada da retribuição; mão esquerda segura a balança da justiça em equilíbrio. **Não usa venda nos olhos** — os folhetos do tribunal explicam que sua "forma donzela" (maidenly form) já garante imparcialidade, tornando a venda redundante.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**SIM** — ENDURECIMENTO NORMATIVO avançado:
+**SIM** — endurecimento NORMATIVO avançado:
 - **rigidez_postural**: máxima (frontal, simétrica, estática sobre pedestal elevado)
 - **dessexualizacao**: completa (drapeada em vestes clássicas pesadas)
 - **heraldizacao**: forte (posição heráldica com atributos simétricos)

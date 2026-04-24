@@ -40,13 +40,13 @@ Sessão focada em preencher lacunas críticas: **moedas, papel-moeda, e o caso W
 ## Descobertas-chave
 
 ### 1. O limiar da dessexualização (ZW-10)
-A $5 Educational (score ENDURECIMENTO 1.9) e a Semeuse (score 2.5) diferem em apenas 0.6 pontos — mas a primeira foi banida em 3 anos e a segunda sobrevive há 120+. A variável decisiva é a dessexualização (0 vs 3).
+A $5 Educational (score endurecimento 1.9) e a Semeuse (score 2.5) diferem em apenas 0.6 pontos — mas a primeira foi banida em 3 anos e a segunda sobrevive há 120+. A variável decisiva é a dessexualização (0 vs 3).
 
 ### 2. A iconocracia não é universal (ZW-11)
 A República de Weimar elimina TODA alegoria feminina da moeda oficial — substituindo por águia heráldica. A iconocracia (uso do corpo feminino como imagem soberana) é um fenômeno **francês** por excelência, não uma necessidade republicana.
 
 ### 3. Os Notgeld como válvula (SCOUT-117)
-Quando o Estado central abandona a alegoria feminina, os municípios a recuperam nos Notgeld — com corpos MENOS endurecidos (score 0.4 vs 2.5 da Semeuse). O ENDURECIMENTO se inverte na descentralização.
+Quando o Estado central abandona a alegoria feminina, os municípios a recuperam nos Notgeld — com corpos MENOS endurecidos (score 0.4 vs 2.5 da Semeuse). O endurecimento se inverte na descentralização.
 
 ### 4. O corpus agora tem moedas e papel-moeda
 Antes desta sessão: 0 moedas, 0 papel-moeda no corpus. Agora: 1 moeda (Semeuse), 3 papel-moeda (Educational $2, $5, Notgeld). Suportes massificados fundamentais para o argumento da serialidade.

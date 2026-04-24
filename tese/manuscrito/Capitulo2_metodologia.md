@@ -59,7 +59,7 @@ O núcleo quantitativo da iconometria consiste em 10 indicadores ordinais que me
 | 9 | **Serialidade** | Reprodução em massa (único → edição → industrial) |
 | 10 | **Inscrição estatal** | Texto/símbolos do Estado inscritos no/ao redor do corpo |
 
-O **score de ENDURECIMENTO** é a média dos 10 indicadores (faixa 0,0–3,0). O termo *ENDURECIMENTO* designa o processo global de purificação e foi preferido a "hardening" ou "embrutecimento" por captar simultaneamente a rigidificação do corpo (ficar duro) e a perda de sensibilidade (endurecer-se).
+O **score de endurecimento** é a média dos 10 indicadores (faixa 0,0–3,0). O termo *endurecimento* designa o processo global de purificação e foi preferido a "hardening" ou "embrutecimento" por captar simultaneamente a rigidificação do corpo (ficar duro) e a perda de sensibilidade (endurecer-se).
 
 #### Indicadores morfológicos vs. indicadores materiais
 
@@ -77,29 +77,29 @@ Os 10 indicadores não operam independentemente: eles se agrupam em perfis morfo
 
 #### Regime FUNDACIONAL
 
-Alegorias em momentos constituintes: revoluções, proclamações, rupturas constitucionais. O corpo alegórico é **dinâmico**, **narrativo** e **corporalizado** — a Liberté de Delacroix nos barricadas, a Justiça de Chifflart em voo punitivo (corpus FR-001, ENDURECIMENTO 0,6), a Marianne de Steinlen empunhando espada com seio descoberto (FR-008, 0,8). O ENDURECIMENTO médio é baixo (1,13).
+Alegorias em momentos constituintes: revoluções, proclamações, rupturas constitucionais. O corpo alegórico é **dinâmico**, **narrativo** e **corporalizado** — a Liberté de Delacroix nos barricadas, a Justiça de Chifflart em voo punitivo (corpus FR-001, endurecimento 0,6), a Marianne de Steinlen empunhando espada com seio descoberto (FR-008, 0,8). O endurecimento médio é baixo (1,13).
 
 #### Regime NORMATIVO
 
-Alegorias na rotina institucional: moedas, selos, bustos cívicos, decoração de édifícios públicos. O corpo é **estático**, **dessexualizado** e **serializado** — o busto de Marianne nos 36.000 *mairies* da França (FR-009, ENDURECIMENTO 2,4) é o caso paradigmático. O formato do busto *é* a purificação: ele elimina fisicamente os membros, as mãos, o torso, reduzindo a figura a rosto + barrete + ombros — o mínimo semiótico. O ENDURECIMENTO médio é o mais alto dos quatro regimes (1,94).
+Alegorias na rotina institucional: moedas, selos, bustos cívicos, decoração de édifícios públicos. O corpo é **estático**, **dessexualizado** e **serializado** — o busto de Marianne nos 36.000 *mairies* da França (FR-009, endurecimento 2,4) é o caso paradigmático. O formato do busto *é* a purificação: ele elimina fisicamente os membros, as mãos, o torso, reduzindo a figura a rosto + barrete + ombros — o mínimo semiótico. O endurecimento médio é o mais alto dos quatro regimes (1,94).
 
 #### Regime MILITAR
 
-Alegorias em contextos bélicos e autoritários: cartazes de guerra, empréstimos nacionais, propaganda imperial. O corpo é **mobilizado** — nem revolucionário nem burocrático, mas **convocatório**. A Marianne do *3e Emprunt de la Défense nationale* (FR-007, Lelong, 1917, ENDURECIMENTO 1,8) ergue-se como estátua acima dos soldados que marcham, hierática mas investida de autoridade marcial. O ENDURECIMENTO médio (1,87) é próximo ao normativo, mas o perfil é distinto: os indicadores de *inscrição estatal* e *serialidade* são máximos (o cartaz *é* um instrumento de Estado), enquanto a *rigidez postural* é variável.
+Alegorias em contextos bélicos e autoritários: cartazes de guerra, empréstimos nacionais, propaganda imperial. O corpo é **mobilizado** — nem revolucionário nem burocrático, mas **convocatório**. A Marianne do *3e Emprunt de la Défense nationale* (FR-007, Lelong, 1917, endurecimento 1,8) ergue-se como estátua acima dos soldados que marcham, hierática mas investida de autoridade marcial. O endurecimento médio (1,87) é próximo ao normativo, mas o perfil é distinto: os indicadores de *inscrição estatal* e *serialidade* são máximos (o cartaz *é* um instrumento de Estado), enquanto a *rigidez postural* é variável.
 
-Um achado inesperado dentro do regime MILITAR: a diferença entre artistas. O cartaz de Steinlen (FR-008, 0,8) e o cartaz de Lelong (FR-007, 1,8), ambos de propaganda francesa na Primeira Guerra, diferem radicalmente. Steinlen, formado na tradição social-realista, produziu uma Marianne com seio nu, cabelo ao vento e boca aberta em grito — é a reativação (*Nachleben*) da Liberté de Delacroix para fins de mobilização. Lelong, ao contrário, petrificou Marianne em posição de estátua. O estilo individual do artista modula o ENDURECIMENTO, mesmo quando a função institucional (propaganda de guerra) é idêntica.
+Um achado inesperado dentro do regime MILITAR: a diferença entre artistas. O cartaz de Steinlen (FR-008, 0,8) e o cartaz de Lelong (FR-007, 1,8), ambos de propaganda francesa na Primeira Guerra, diferem radicalmente. Steinlen, formado na tradição social-realista, produziu uma Marianne com seio nu, cabelo ao vento e boca aberta em grito — é a reativação (*Nachleben*) da Liberté de Delacroix para fins de mobilização. Lelong, ao contrário, petrificou Marianne em posição de estátua. O estilo individual do artista modula o endurecimento, mesmo quando a função institucional (propaganda de guerra) é idêntica.
 
 #### Contra-alegoria
 
 Imagens que subvertem deliberadamente o repertório alegórico oficial. O corpus inclui 7 itens classificados como contra-alegoria, que operam por três mecanismos distintos:
 
-**Subversão por grotesco.** A *République aimable* de Félicien Rops (FR-005, 1871, ENDURECIMENTO 0,8) — uma Marianne irônica, mão na cintura, lorgnette ao rosto — e a *Notre-Dame des colonies* de Jean Veber (FR-022, 1909, ENDURECIMENTO 0,3) — uma Marianne grotescamente obesa, flanqueada por figuras colonizadas emaciadas, parodiando simultaneamente a iconografia republicana e religiosa a serviço da crítica anticolonial. A *Madame Anastasie* de André Gill (FR-031, 1874, ENDURECIMENTO 0,4) personifica a censura como velha de tesoura — inversão deliberada de cada código da Feminilidade de Estado.
+**Subversão por grotesco.** A *République aimable* de Félicien Rops (FR-005, 1871, endurecimento 0,8) — uma Marianne irônica, mão na cintura, lorgnette ao rosto — e a *Notre-Dame des colonies* de Jean Veber (FR-022, 1909, endurecimento 0,3) — uma Marianne grotescamente obesa, flanqueada por figuras colonizadas emaciadas, parodiando simultaneamente a iconografia republicana e religiosa a serviço da crítica anticolonial. A *Madame Anastasie* de André Gill (FR-031, 1874, endurecimento 0,4) personifica a censura como velha de tesoura — inversão deliberada de cada código da Feminilidade de Estado.
 
-**Subversão por desmembramento.** *Liberty Is Not Anarchy* de Thomas Nast (US-019, 1886, ENDURECIMENTO 1,7) — o caso mais radical de desincorporação do corpus: o corpo alegórico feminino é literalmente eliminado, reduzido a mãos gigantescas que esmagam anarquistas. A dessexualização, a uniformização facial e a desincorporação atingem o grau máximo (3) não por abstração institucional, mas por amputação — a purificação última é a ausência do corpo.
+**Subversão por desmembramento.** *Liberty Is Not Anarchy* de Thomas Nast (US-019, 1886, endurecimento 1,7) — o caso mais radical de desincorporação do corpus: o corpo alegórico feminino é literalmente eliminado, reduzido a mãos gigantescas que esmagam anarquistas. A dessexualização, a uniformização facial e a desincorporação atingem o grau máximo (3) não por abstração institucional, mas por amputação — a purificação última é a ausência do corpo.
 
-**Subversão por ausência.** *Looking Backward* de Joseph Keppler (US-020, 1893, ENDURECIMENTO 0,5) — a *ausência alegórica* como forma mais radical de contra-alegoria. Numa cena que por todas as convenções exigiria a presença de Columbia/Liberty (imigração, acolhimento), a alegoria simplesmente não aparece. O Contrato Sexual Visual é denunciado pela negação: o corpo materno-acolhedor que deveria legitimar a política de imigração foi retirado, expondo o interesse de classe subjacente.
+**Subversão por ausência.** *Looking Backward* de Joseph Keppler (US-020, 1893, endurecimento 0,5) — a *ausência alegórica* como forma mais radical de contra-alegoria. Numa cena que por todas as convenções exigiria a presença de Columbia/Liberty (imigração, acolhimento), a alegoria simplesmente não aparece. O Contrato Sexual Visual é denunciado pela negação: o corpo materno-acolhedor que deveria legitimar a política de imigração foi retirado, expondo o interesse de classe subjacente.
 
-Estes itens resistem à classificação nos três regimes porque sua função não é legitimar, estabilizar ou mobilizar o Estado, mas *delegitimá-lo*. O ENDURECIMENTO médio é de 0,63 (N=7), o mais baixo dos quatro regimes, precisamente porque a sátira recusa a purificação: o corpo permanece individual, sexualizado, expressivo, narrativo — tudo que o processo de ENDURECIMENTO elimina. A contra-alegoria demonstra, por negação, o que o regime NORMATIVO suprime.
+Estes itens resistem à classificação nos três regimes porque sua função não é legitimar, estabilizar ou mobilizar o Estado, mas *delegitimá-lo*. O endurecimento médio é de 0,63 (N=7), o mais baixo dos quatro regimes, precisamente porque a sátira recusa a purificação: o corpo permanece individual, sexualizado, expressivo, narrativo — tudo que o processo de endurecimento elimina. A contra-alegoria demonstra, por negação, o que o regime NORMATIVO suprime.
 
 ---
 
@@ -126,7 +126,7 @@ O delta médio absoluto foi de 0,18 ponto (escala 0–3), sem viés sistemático
 
 #### Rodada 2: FR-021 a FR-030 (teste com série homogênea)
 
-A segunda rodada foi desenhada como teste mais exigente: os 10 itens incluem quatro cartazes do Emprunt National 1920 (FR-025, FR-026, FR-028, FR-029), encomendados por bancos diferentes mas todos classificados como regime NORMATIVO com ENDURECIMENTO idêntico de 2,0 pela codificação por metadados. A hipótese era que a codificação por imagem revelaria variação interna invisível aos metadados.
+A segunda rodada foi desenhada como teste mais exigente: os 10 itens incluem quatro cartazes do Emprunt National 1920 (FR-025, FR-026, FR-028, FR-029), encomendados por bancos diferentes mas todos classificados como regime NORMATIVO com endurecimento idêntico de 2,0 pela codificação por metadados. A hipótese era que a codificação por imagem revelaria variação interna invisível aos metadados.
 
 | Item | Score por metadados | Score por imagem | Delta |
 |------|--------------------:|------------------:|------:|
@@ -143,12 +143,12 @@ A segunda rodada foi desenhada como teste mais exigente: os 10 itens incluem qua
 
 O delta médio absoluto foi de **0,55 ponto** — três vezes superior ao da Rodada 1 —, com amplitude de –1,6 a +0,6. A hipótese foi confirmada de forma contundente: os quatro cartazes do Emprunt National 1920, recebendo scores idênticos pela codificação por metadados, revelaram-se radicalmente diferentes pela inspeção visual:
 
-- **FR-025** (delta –1,0): a Société Générale encomendou uma Marianne em pleno *Nachleben* de Delacroix — corpo dinâmico, narrativa de reconstrução, policromo — resultando em ENDURECIMENTO 1,0.
-- **FR-026** (delta –0,7): a Banque Nationale de Paris encomendou de Francisque Poulbot uma *Marianne criança* descalça na praia, com barrete frígio e vestido tricolor — dessexualização máxima (3) por via de regressão etária, ENDURECIMENTO 1,3.
-- **FR-028** (delta –1,6): o Comptoir National d'Escompte encomendou uma Marianne Art Nouveau jardineira, com corpo naturalista, décolletage e rosas — quase nenhuma purificação, ENDURECIMENTO 0,4.
-- **FR-029** (delta –0,5): a Société Centrale des Banques de Province encomendou uma alegoria em ruínas de guerra, apontando para o horizonte industrial — registro intermediário, ENDURECIMENTO 1,5.
+- **FR-025** (delta –1,0): a Société Générale encomendou uma Marianne em pleno *Nachleben* de Delacroix — corpo dinâmico, narrativa de reconstrução, policromo — resultando em endurecimento 1,0.
+- **FR-026** (delta –0,7): a Banque Nationale de Paris encomendou de Francisque Poulbot uma *Marianne criança* descalça na praia, com barrete frígio e vestido tricolor — dessexualização máxima (3) por via de regressão etária, endurecimento 1,3.
+- **FR-028** (delta –1,6): o Comptoir National d'Escompte encomendou uma Marianne Art Nouveau jardineira, com corpo naturalista, décolletage e rosas — quase nenhuma purificação, endurecimento 0,4.
+- **FR-029** (delta –0,5): a Société Centrale des Banques de Province encomendou uma alegoria em ruínas de guerra, apontando para o horizonte industrial — registro intermediário, endurecimento 1,5.
 
-Inversamente, os cartazes financeiro-administrativos (FR-023, FR-027) tiveram seu ENDURECIMENTO *subestimado* pela codificação por metadados, porque a subordinação da figura alegórica ao texto burocrático — Marianne como marca d'água atrás de taxas de juros, ou como pequena vinheta no alto de um documento de subscrição — só é perceptível visualmente.
+Inversamente, os cartazes financeiro-administrativos (FR-023, FR-027) tiveram seu endurecimento *subestimado* pela codificação por metadados, porque a subordinação da figura alegórica ao texto burocrático — Marianne como marca d'água atrás de taxas de juros, ou como pequena vinheta no alto de um documento de subscrição — só é perceptível visualmente.
 
 #### Conclusão metodológica
 
@@ -173,7 +173,7 @@ O corpus compreende 145 imagens oficiais e semi-oficiais coletadas em 15 acervos
 | Espanha | 4 | Numista, Europeana |
 | Outros (AR, AT, MX, NL, CH, UY) | 13 | Diversos |
 
-A cobertura temporal estende-se de 1559 (FR-047, *Iustitia* de Bruegel, item arqueológico pré-moderno) a 2000, com concentração no período 1850–1920. A distribuição por regime iconocrático é: fundacional (71), normativo (40), militar (27) e contra-alegoria (7). O score de ENDURECIMENTO varia de 0,1 a 3,1 (média 1,44).
+A cobertura temporal estende-se de 1559 (FR-047, *Iustitia* de Bruegel, item arqueológico pré-moderno) a 2000, com concentração no período 1850–1920. A distribuição por regime iconocrático é: fundacional (71), normativo (40), militar (27) e contra-alegoria (7). O score de endurecimento varia de 0,1 a 3,1 (média 1,44).
 
 ---
 

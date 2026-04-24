@@ -23,7 +23,7 @@ tags:
 related:
   - "[[Regime Militar]]"
   - "[[Contrato Sexual Visual]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Ocupacao do Ruhr]]"
   - "[[Iconocracia Beligerante]]"
   - "[[SCOUT-023 Piastre de Commerce]]"
@@ -59,7 +59,7 @@ data_scout: 2026-03-28
 - [x] postura frontal (reverso)
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** sim — ENDURECIMENTO por grotesquizacao hostil.
+**endurecimento detectado:** sim — endurecimento por grotesquizacao hostil.
 
 ---
 

@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -39,9 +39,9 @@ Washington [D.C.]
 
 **Motivos identificados**: Republic
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 DC, library of congress, washington,. **The republic (Washington [D.C.]), June 1, 1850**. 1850-06-01. Library of Congress. Disponível em: https://www.loc.gov/item/sn82014434/1850-06-01/ed-1/. Acesso em: 04 Apr. 2026.

@@ -26,4 +26,4 @@ data_scout: 2026-03-30
 ## Analise — CONTROLE NEGATIVO
 **Motivo:** AUSENCIA — Emperor's portrait replaces female allegory
 **Padrao:** Republicas (FR, US) = alegoria feminina em moedas. Monarquias (DE, BE) = retrato soberano. A ausencia E o dado.
-**ENDURECIMENTO detectado:** n/a
+**endurecimento detectado:** n/a

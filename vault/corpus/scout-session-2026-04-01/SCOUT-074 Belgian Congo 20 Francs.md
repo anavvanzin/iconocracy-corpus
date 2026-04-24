@@ -21,7 +21,7 @@ tags:
   - colonialidade-do-ver
   - contrato-racial-visual
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Colonialidade do Ver]]"
   - "[[La Belgique]]"
@@ -58,7 +58,7 @@ data_scout: 2026-04-01
 - [x] postura de dominação
 - [x] figura racializada subordinada
 
-**ENDURECIMENTO detectado:** sim — corpo rígido, hierarquia racial explícita, inscrição estatal colonial
+**endurecimento detectado:** sim — corpo rígido, hierarquia racial explícita, inscrição estatal colonial
 
 ---
 

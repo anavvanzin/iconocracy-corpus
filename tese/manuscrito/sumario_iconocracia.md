@@ -40,7 +40,7 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 - Lista de Abreviaturas e Siglas
 - Glossário de Conceitos Operativos
 
-> ▸ *Inclui definições operativas de: Iconocracia, Visiocracia, Contrato Sexual Visual, Feminilidade de Estado, Zwischenraum, Purificação Clássica, Hardening Militar, Pathosformel, Regime Iconocrático (Fundacional, Normativo, Militar).*
+> ▸ *Inclui definições operativas de: Iconocracia, Visiocracia, Contrato Sexual Visual, Feminilidade de Estado, Zwischenraum, Purificação Clássica, endurecimento militar, Pathosformel, Regime Iconocrático (Fundacional, Normativo, Militar).*
 
 ---
 
@@ -266,7 +266,7 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 
 > ▸ *A 'limpeza' progressiva do corpo alegórico. Marianne nas barricadas vs. Marianne nos selos. A normalização institucional que transforma energia revolucionária em estética burocrática. O regime Normativo em ação.*
 
-#### 9.4 — Painel IV: HARDENING — O Corpo em Guerra
+#### 9.4 — Painel IV: endurecimento — O Corpo em Guerra
 
 > ▸ *Militarização da alegoria em contextos bélicos e autoritários. Columbia entregando a espada (1899). Alegorias da I Guerra (Romberg, 1917). Estado Novo brasileiro. O corpo feminino como escudo e convocação.*
 

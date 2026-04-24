@@ -63,7 +63,7 @@ tags:
   - "#verificar-imagem"
 related:
   - "[[Regime Fundacional]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-035 5 Francs 50 Anos Belgica]]"
   - "[[BE-002 Palais de Justice Bruxelas]]"
@@ -100,7 +100,7 @@ data_scout: 2026-03-29
 - [x] postura frontal (a confirmar)
 - [x] contexto estatal (exposicao nacional)
 
-**ENDURECIMENTO detectado:** sim — ENDURECIMENTO cerimonial. Heraldizacao forte (leao, coroa), inscricao_estatal maxima, uniformizacao_facial provavel, dessexualizacao completa. O suporte medalha e por natureza mais controlado que a escultura.
+**endurecimento detectado:** sim — endurecimento cerimonial. Heraldizacao forte (leao, coroa), inscricao_estatal maxima, uniformizacao_facial provavel, dessexualizacao completa. O suporte medalha e por natureza mais controlado que a escultura.
 
 ---
 
@@ -126,7 +126,7 @@ WIENER, Charles. *Medalha da Exposition Nationale de Bruxelles 1880 — Cinquent
 
 Charles Wiener (1832-1888), escultor e medalhista belga nascido em Venlo (Paises Baixos), irmao de Jacques e Leopold Wiener. Formado na Academia Real de Belas Artes de Bruxelas (1844-1852), aluno de Fraikin e depois de Oudine em Paris. Em 1864 nomeado gravador-chefe da Casa da Moeda de Lisboa. Em 1880 gravou a medalha comemorativa do cinquentenario belga. Legou postumamente toda sua colecao de obras ao Estado belga (deposito no Museu do Banco Nacional da Belgica).
 
-Esta medalha e o par numismatico da moeda SCOUT-035 — mesmo gravador, mesmo evento, suportes diferentes. A comparacao medalha/moeda dentro do mesmo programa iconografico e uma oportunidade rara para medir o ENDURECIMENTO entre suportes: a medalha, por nao circular, pode preservar maior dinamismo alegorico que a moeda.
+Esta medalha e o par numismatico da moeda SCOUT-035 — mesmo gravador, mesmo evento, suportes diferentes. A comparacao medalha/moeda dentro do mesmo programa iconografico e uma oportunidade rara para medir o endurecimento entre suportes: a medalha, por nao circular, pode preservar maior dinamismo alegorico que a moeda.
 ```
 
 ---
@@ -157,7 +157,7 @@ tags:
   - "#verificar-imagem"
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-038]]"
 data_scout: 2026-03-29
@@ -193,7 +193,7 @@ data_scout: 2026-03-29
 - [ ] postura frontal
 - [x] postura sentada sobre globo
 
-**ENDURECIMENTO detectado:** moderado — serialidade (medalha produzida para evento de massa), uniformizacao_facial provavel, dessexualizacao parcial.
+**endurecimento detectado:** moderado — serialidade (medalha produzida para evento de massa), uniformizacao_facial provavel, dessexualizacao parcial.
 
 ---
 
@@ -273,7 +273,7 @@ data_scout: 2026-03-29
 **Regime iconocratico:** NORMATIVO
 **Justificativa:** Jeton comemorativo local emitido em 1983, centenario da inauguracao do Palais de Justice (1883). Pertence a serie "Onze Hoofdstad / Notre Capitale" (Nossa Capital), que documenta monumentos de Bruxelas. Confianca baixa porque: (1) fora do periodo prioritario 1800-1920; (2) provavelmente apenas representacao arquitetonica sem alegoria feminina autonoma; (3) suporte de baixa relevancia iconocratica. Incluido como documento do Nachleben do Palais como icone.
 
-**ENDURECIMENTO detectado:** a verificar — se houver apenas fachada sem figura feminina, nao se aplica.
+**endurecimento detectado:** a verificar — se houver apenas fachada sem figura feminina, nao se aplica.
 
 ---
 
@@ -327,7 +327,7 @@ tags:
   - "#verificar-imagem"
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[BE-002 Palais de Justice Bruxelas]]"
   - "[[Jacques Wiener — Serie Monumentos]]"
@@ -366,7 +366,7 @@ Esta medalha e parte de uma serie sistematica: Wiener medalhou todos os palacios
 - [ ] postura frontal
 - [x] apoio em estela (postura lateralizada)
 
-**ENDURECIMENTO detectado:** sim — heraldizacao (leao), enquadramento_arquitetonico (o edificio domina o anverso), dessexualizacao (vestimenta completa), inscricao_estatal (referencias ao reino).
+**endurecimento detectado:** sim — heraldizacao (leao), enquadramento_arquitetonico (o edificio domina o anverso), dessexualizacao (vestimenta completa), inscricao_estatal (referencias ao reino).
 
 ---
 

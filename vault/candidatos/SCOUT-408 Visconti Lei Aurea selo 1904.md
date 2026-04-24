@@ -22,7 +22,7 @@ tags:
   - "#colonialidade-do-ver"
   - "#contrato-racial-visual"
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Contrato Racial Visual]]"
   - "[[BR-010 Eliseu Visconti Alegoria]]"
@@ -57,7 +57,7 @@ Visconti venceu o concurso com uma coleção completa de selos alegóricos, todo
 - [ ] correntes quebradas (provável dado o tema)
 - [ ] contexto arquitetônico
 
-**ENDURECIMENTO detectado:** incerto — necessita análise visual. Sendo projeto para selo (serialidade máxima), espera-se indicadores de monocromatização e serialidade elevados.
+**endurecimento detectado:** incerto — necessita análise visual. Sendo projeto para selo (serialidade máxima), espera-se indicadores de monocromatização e serialidade elevados.
 
 ---
 

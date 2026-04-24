@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: gallica
@@ -40,9 +40,9 @@ Référence bibliographique : Rol, 169397
 
 **Motivos identificados**: Marianne
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 (COMMANDITAIRE), Agence Rol. Agence photographique. **18/1/33, [de gauche à droite] M. Mistler [sous-secrétaire d'Etat aux Beaux-Arts], M. [Pierre-Marie] Poisson [sculpteur de la nouvelle Marianne] : [photographie de presse] / [Agence Rol]**. 1933. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b532646114. Acesso em: 03 Apr. 2026.

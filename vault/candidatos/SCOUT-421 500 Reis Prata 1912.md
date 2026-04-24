@@ -19,7 +19,7 @@ tags:
   - regime/normativo
   - motivo/republica
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-316 500 Reis Republica Brasil 1889]]"
   - "[[BR-2000R-1907]]"
@@ -55,7 +55,7 @@ data_scout: 2026-04-10
 - [x] inscrição positivista ("ORDEM E PROGRESSO")
 - [x] data fundacional (15 DE NOVEMBRO DE 1889)
 
-**ENDURECIMENTO detectado:** sim
+**endurecimento detectado:** sim
 
 **Indicadores de purificação (descrição SCOUT):**
 1. **desincorporação** alta: apenas busto

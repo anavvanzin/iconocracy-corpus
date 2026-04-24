@@ -49,7 +49,7 @@ data_scout: 2026-03-28
 - **Fundo:** Linhas horizontais finas (fundo "ligne") com sol tratado tambem em linhas. Horizonte visivel.
 - **Formato:** 17 x 21 mm. Dentelure 14 x 13,5. Tipografia em folhas de 150 (depois 100).
 - **Gravador:** Louis-Eugene Mouchon (a partir do desenho de Roty).
-- **ENDURECIMENTO detectado:** NAO — anti-ENDURECIMENTO deliberado. Corpo dinamico, vestimenta esvoacante, descalca, postura de perfil em marcha. Paradoxo: serialidade maxima (milhoes de copias, 35 anos de emissao) sem rigidez formal.
+- **endurecimento detectado:** NAO — anti-endurecimento deliberado. Corpo dinamico, vestimenta esvoacante, descalca, postura de perfil em marcha. Paradoxo: serialidade maxima (milhoes de copias, 35 anos de emissao) sem rigidez formal.
 
 **Indicadores de purificacao ativos:** serialidade (maxima), inscricao_estatal (presente). Indicadores INATIVOS: rigidez_postural, desincorporacao, dessexualizacao, uniformizacao_facial, heraldizacao, enquadramento_arquitetonico, apagamento_narrativo, monocromatizacao.
 
@@ -117,7 +117,7 @@ data_scout: 2026-03-29
 - [ ] postura frontal
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** nao — postura e dinamismo identicos a lignee. A mudanca e exclusivamente grafica (fundo), nao morfologica.
+**endurecimento detectado:** nao — postura e dinamismo identicos a lignee. A mudanca e exclusivamente grafica (fundo), nao morfologica.
 
 ---
 
@@ -218,7 +218,7 @@ data_scout: 2026-03-29
 - [ ] postura frontal
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** incerto — A postura e o gesto de semeadura sao mantidos. A silhueta preserva a marcha dinamica. Porem, a tecnica de gravura (transferencia eletromecanica) introduz uma PRECISAO MECANICA ausente nas versoes manuais de Mouchon e Lhomme. As linhas de contorno sao mais regulares, o drape menos fluido. Nao ha ENDURECIMENTO deliberado do programa iconografico, mas ha uma rigidificacao tecnica involuntaria.
+**endurecimento detectado:** incerto — A postura e o gesto de semeadura sao mantidos. A silhueta preserva a marcha dinamica. Porem, a tecnica de gravura (transferencia eletromecanica) introduz uma PRECISAO MECANICA ausente nas versoes manuais de Mouchon e Lhomme. As linhas de contorno sao mais regulares, o drape menos fluido. Nao ha endurecimento deliberado do programa iconografico, mas ha uma rigidificacao tecnica involuntaria.
 
 ---
 
@@ -253,14 +253,14 @@ PIEL, Jules (d'apres ROTY, Louis-Oscar). *La Semeuse de Piel* (selo postal 20c r
 
 ---
 
-## SCOUT-ZW-14 — Painel XIV: Anti-ENDURECIMENTO da Semeuse — Resistencia ou Erosao? (1903 x 1960)
+## SCOUT-ZW-14 — Painel XIV: Anti-endurecimento da Semeuse — Resistencia ou Erosao? (1903 x 1960)
 
 ```markdown
 ---
 id: SCOUT-ZW-14
 tipo: corpus-zwischenraum
 status: ativo
-titulo: "Painel XIV — ANTI-ENDURECIMENTO DA SEMEUSE: Roty 1903 x Piel 1960"
+titulo: "Painel XIV — ANTI-endurecimento DA SEMEUSE: Roty 1903 x Piel 1960"
 pais: [FR, FR]
 periodo: "1903-1960"
 tags:
@@ -273,7 +273,7 @@ related:
   - "[[SCOUT-033]]"
   - "[[SCOUT-035]]"
   - "[[SCOUT-034]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Nachleben]]"
   - "[[Serialidade]]"
@@ -282,9 +282,9 @@ related:
 data_scout: 2026-03-29
 ---
 
-## Painel XIV — ANTI-ENDURECIMENTO DA SEMEUSE: Resistencia ou Erosao? (Zwischenraum)
+## Painel XIV — ANTI-endurecimento DA SEMEUSE: Resistencia ou Erosao? (Zwischenraum)
 
-Este painel estabelece o espaco de tensao (*Zwischenraum*) entre a primeira e a ultima incarnacao postal da Semeuse francesa, separadas por 57 anos e duas guerras mundiais. Testa a hipotese central: o anti-ENDURECIMENTO programatico da Semeuse metropolitana se MANTEM ou se ERODE ao longo de meio seculo?
+Este painel estabelece o espaco de tensao (*Zwischenraum*) entre a primeira e a ultima incarnacao postal da Semeuse francesa, separadas por 57 anos e duas guerras mundiais. Testa a hipotese central: o anti-endurecimento programatico da Semeuse metropolitana se MANTEM ou se ERODE ao longo de meio seculo?
 
 **Polo A (FR, 1903):** *Semeuse lignee* (Roty/Mouchon) — Marianne seminando contra o vento. Selo postal 15c verde. NORMATIVO.
 **Polo B (FR, 1960):** *Semeuse de Piel* (Piel d'apres Roty) — Marianne seminando contra o vento. Selo postal 20c rosa/turquesa. NORMATIVO.
@@ -304,11 +304,11 @@ Este painel estabelece o espaco de tensao (*Zwischenraum*) entre a primeira e a 
 | **Regime** | NORMATIVO (Terceira Republica) | NORMATIVO (Quinta Republica, Novo Franco) |
 | **Contexto politico** | Consolidacao republicana pos-Dreyfus | Gaullismo, descolonizacao, reforma monetaria |
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-**Tese do painel:** O anti-ENDURECIMENTO da Semeuse SE MANTEM no programa iconografico mas sofre EROSAO TECNICA involuntaria.
+**Tese do painel:** O anti-endurecimento da Semeuse SE MANTEM no programa iconografico mas sofre EROSAO TECNICA involuntaria.
 
-A Semeuse de Roty (1903) e o caso mais paradoxal do corpus frances. Ela reune serialidade maxima (indicador ativo) com anti-ENDURECIMENTO quase total em todos os outros indicadores:
+A Semeuse de Roty (1903) e o caso mais paradoxal do corpus frances. Ela reune serialidade maxima (indicador ativo) com anti-endurecimento quase total em todos os outros indicadores:
 - **rigidez_postural:** INATIVO — corpo em marcha, contraposto dinamico
 - **desincorporacao:** INATIVO — corpo presente, sensual sob o drape
 - **dessexualizacao:** INATIVO — silhueta feminina explicita, curvas visiveis
@@ -318,11 +318,11 @@ A Semeuse de Roty (1903) e o caso mais paradoxal do corpus frances. Ela reune se
 - **apagamento_narrativo:** INATIVO — acao clara (semeadura), narrativa agraria
 - **monocromatizacao:** parcialmente ATIVO (selo monocromatico por natureza tecnica)
 
-A Semeuse de Piel (1960) preserva TODOS estes indicadores no mesmo estado — o PROGRAMA permanece identico. A postura, o gesto, o barrete, o drape, o vento, o sol: tudo e conservado. Nenhum ENDURECIMENTO programatico foi introduzido em 57 anos.
+A Semeuse de Piel (1960) preserva TODOS estes indicadores no mesmo estado — o PROGRAMA permanece identico. A postura, o gesto, o barrete, o drape, o vento, o sol: tudo e conservado. Nenhum endurecimento programatico foi introduzido em 57 anos.
 
 **Porem:** a tecnica de gravura muda. A transferencia eletromecanica de Piel substitui a mao do gravador (Mouchon/Lhomme) por uma reproducao mecanizada. O resultado e sutil mas mensuravel: as linhas de contorno sao mais REGULARES, o drape menos FLUIDO, os cabelos menos AGITADOS. A vibration manuale do Art Nouveau cede lugar a uma precisao industrial da Quinta Republica.
 
-Isso configura uma **rigidificacao tecnica sem ENDURECIMENTO ideologico** — uma categoria que a tese precisa nomear. Proposta: "ENDURECIMENTO latente por mediacao tecnica" ou "ENDURECIMENTO mecanico" (vs. "ENDURECIMENTO programatico").
+Isso configura uma **rigidificacao tecnica sem endurecimento ideologico** — uma categoria que a tese precisa nomear. Proposta: "endurecimento latente por mediacao tecnica" ou "endurecimento mecanico" (vs. "endurecimento programatico").
 
 ### 2. O Contrato Sexual Visual
 
@@ -334,14 +334,14 @@ A Semeuse e o caso-limite do Contrato Sexual Visual no regime NORMATIVO. Diferen
 
 ### 3. Sintese para a Tese
 
-**Achado central:** A Semeuse metropolitana e o unico caso no corpus frances onde o anti-ENDURECIMENTO SOBREVIVE a 57 anos de historia, incluindo duas guerras mundiais, a descolonizacao e a transicao da Terceira para a Quinta Republica.
+**Achado central:** A Semeuse metropolitana e o unico caso no corpus frances onde o anti-endurecimento SOBREVIVE a 57 anos de historia, incluindo duas guerras mundiais, a descolonizacao e a transicao da Terceira para a Quinta Republica.
 
 Isso confirma a hipotese da tese com uma NUANCE importante:
-1. O ENDURECIMENTO nao e inevitavel. A Semeuse prova que uma alegoria pode resistir a rigidificacao se seu programa iconografico for suficientemente anti-heroico (semeadura vs. guerra, campo vs. tribunal).
-2. A resistencia ao ENDURECIMENTO tem um CUSTO: a Semeuse de Piel dura apenas 5 anos (1960-1965), contra 27 da lignee e 31 da camee. A Quinta Republica a abandona rapidamente em favor da Marianne de Cheffer (1967) — uma efige frontal, busto, rigida. O anti-ENDURECIMENTO da Semeuse e tolerado apenas como INTERLUDIO NOSTALGICO.
-3. A erosao tecnica (gravura mecanica vs. manual) introduz um ENDURECIMENTO involuntario que opera abaixo do limiar da intencionalidade — a tese deve distinguir ENDURECIMENTO programatico (decisao iconografica) de ENDURECIMENTO mecanico (efeito da reproducao tecnica). Isso dialoga com Benjamin (reprodutibilidade tecnica) e com a propria serialidade como indicador.
+1. O endurecimento nao e inevitavel. A Semeuse prova que uma alegoria pode resistir a rigidificacao se seu programa iconografico for suficientemente anti-heroico (semeadura vs. guerra, campo vs. tribunal).
+2. A resistencia ao endurecimento tem um CUSTO: a Semeuse de Piel dura apenas 5 anos (1960-1965), contra 27 da lignee e 31 da camee. A Quinta Republica a abandona rapidamente em favor da Marianne de Cheffer (1967) — uma efige frontal, busto, rigida. O anti-endurecimento da Semeuse e tolerado apenas como INTERLUDIO NOSTALGICO.
+3. A erosao tecnica (gravura mecanica vs. manual) introduz um endurecimento involuntario que opera abaixo do limiar da intencionalidade — a tese deve distinguir endurecimento programatico (decisao iconografica) de endurecimento mecanico (efeito da reproducao tecnica). Isso dialoga com Benjamin (reprodutibilidade tecnica) e com a propria serialidade como indicador.
 
-**Para o atlas warburguiano:** Este painel deve ficar proximo ao Painel XI (Ciclo de Vida de Marianne), formando uma SEQUENCIA. Painel XI mostra a Semeuse em contraste com suas variantes hostis (Piastre colonial, Goetz satirica); Painel XIV mostra a Semeuse em contraste CONSIGO MESMA ao longo do tempo. Juntos, demonstram que a Semeuse resiste ao ENDURECIMENTO interno mas nao ao externo (colonial, satirico).
+**Para o atlas warburguiano:** Este painel deve ficar proximo ao Painel XI (Ciclo de Vida de Marianne), formando uma SEQUENCIA. Painel XI mostra a Semeuse em contraste com suas variantes hostis (Piastre colonial, Goetz satirica); Painel XIV mostra a Semeuse em contraste CONSIGO MESMA ao longo do tempo. Juntos, demonstram que a Semeuse resiste ao endurecimento interno mas nao ao externo (colonial, satirico).
 ```
 
 ---
@@ -358,19 +358,19 @@ Isso confirma a hipotese da tese com uma NUANCE importante:
 | **Fundo** | Linhas horizontais | Fundo pleno (camafeu) | Fundo pleno |
 | **Gravador** | Mouchon (manual) | Lhomme (manual) | Piel (eletromecanico) |
 | **Fluidez do drape** | Maxima (Art Nouveau) | Mantida (linhas de luz mais nitidas) | Reduzida (precisao mecanica) |
-| **ENDURECIMENTO** | NAO | NAO | INCERTO (tecnico, nao programatico) |
+| **endurecimento** | NAO | NAO | INCERTO (tecnico, nao programatico) |
 | **Duracao** | 27 anos | 31 anos | 5 anos |
 | **Regime politico** | Terceira Republica | Terceira Republica | Quinta Republica (Novo Franco) |
 
-### Diagnostico final: ENDURECIMENTO PROGRESSIVO?
+### Diagnostico final: endurecimento PROGRESSIVO?
 
 **Resposta: NAO ao nivel programatico, SIM ao nivel tecnico.**
 
-A evolucao 1903→1907→1960 NAO mostra ENDURECIMENTO progressivo no sentido classico da tese (rigidificacao deliberada do corpo alegorico). A postura, o gesto, os atributos, a vestimenta permanecem essencialmente identicos ao longo de 57 anos. A Semeuse e um caso de ESTABILIDADE MORFOLOGICA excepcional.
+A evolucao 1903→1907→1960 NAO mostra endurecimento progressivo no sentido classico da tese (rigidificacao deliberada do corpo alegorico). A postura, o gesto, os atributos, a vestimenta permanecem essencialmente identicos ao longo de 57 anos. A Semeuse e um caso de ESTABILIDADE MORFOLOGICA excepcional.
 
 O que muda e: (a) o fundo (linhas → pleno), produzindo desincorporacao crescente da figura; (b) a tecnica de gravura (manual → eletromecanica), produzindo uma sutil perda de fluidez. Nenhuma destas mutacoes e intencional do ponto de vista do programa iconografico — sao efeitos da evolucao tecnica e estetica.
 
-O anti-ENDURECIMENTO da Semeuse metropolitana SE MANTEM mas e FRAGIL: dura 57 anos em tres incarnacoes, depois e definitivamente substituido por efigie frontal (Cheffer, 1967), busto classico (Bequet, 1971), e finalmente pela Marianne republicana estandartizada.
+O anti-endurecimento da Semeuse metropolitana SE MANTEM mas e FRAGIL: dura 57 anos em tres incarnacoes, depois e definitivamente substituido por efigie frontal (Cheffer, 1967), busto classico (Bequet, 1971), e finalmente pela Marianne republicana estandartizada.
 
 ---
 
@@ -381,7 +381,7 @@ O anti-ENDURECIMENTO da Semeuse metropolitana SE MANTEM mas e FRAGIL: dura 57 an
 id: SCOUT-SESSION-2026-03-29
 tipo: sessao-scout
 data: 2026-03-29
-query_executada: "Mapeamento da evolucao morfologica da Semeuse francesa: lignee (1903) → camee (1907) → Piel (1960). Teste de ENDURECIMENTO progressivo."
+query_executada: "Mapeamento da evolucao morfologica da Semeuse francesa: lignee (1903) → camee (1907) → Piel (1960). Teste de endurecimento progressivo."
 total_candidatos: 2 (novos: SCOUT-034 e SCOUT-035; SCOUT-033 ja existente)
 pais: [FR]
 periodo: "1903-1960"
@@ -399,7 +399,7 @@ related:
 
 ## Resumo da sessao
 
-**Query:** Evolucao morfologica da Semeuse francesa ao longo de tres variantes (1903-1960), com Zwischenraum comparativo para testar ENDURECIMENTO progressivo.
+**Query:** Evolucao morfologica da Semeuse francesa ao longo de tres variantes (1903-1960), com Zwischenraum comparativo para testar endurecimento progressivo.
 **Acervos consultados:** Numista, Gallica/BnF, WikiTimbres, Fondation Oscar Roty, Musee d'Orsay, phil-ouest.com, cpl14.fr, nosanneesvintage.fr, alex-bernardini.fr
 **Candidatos encontrados:** 2 novos (SCOUT-034, SCOUT-035) + 1 pre-existente (SCOUT-033)
 **Zwischenraum gerado:** SCOUT-ZW-14 (Painel XIV)
@@ -414,15 +414,15 @@ SCOUT-033 ja existe no vault (sessao 2026-03-28) e foi referenciado, nao duplica
 ## Lacunas identificadas
 
 1. **Verificacao visual ausente:** Nenhuma imagem foi inspecionada diretamente. A afirmacao de "sutil rigidificacao tecnica" na Semeuse de Piel precisa ser CONFIRMADA por comparacao visual lado a lado (lignee 1903 vs. Piel 1960).
-2. **Semeuse colonial ausente:** A Semeuse aparece em selos coloniais (Indochina, AOF, AEF) — estas variantes podem mostrar ENDURECIMENTO que a metropolitana nao mostra.
+2. **Semeuse colonial ausente:** A Semeuse aparece em selos coloniais (Indochina, AOF, AEF) — estas variantes podem mostrar endurecimento que a metropolitana nao mostra.
 3. **Moeda Semeuse Novo Franco:** A moeda de 1 Franc 1960 (Numista pieces/6) usa poincons derivados de Roty com mais fidelidade que o selo de Piel. Comparacao selo vs. moeda do MESMO ANO seria um Zwischenraum intra-suporte revelador.
-4. **Marianne de Cheffer (1967) como terminus:** A substituicao da Semeuse pela efige frontal de Cheffer marca o FIM do anti-ENDURECIMENTO postal frances. Deveria ser o candidato seguinte.
+4. **Marianne de Cheffer (1967) como terminus:** A substituicao da Semeuse pela efige frontal de Cheffer marca o FIM do anti-endurecimento postal frances. Deveria ser o candidato seguinte.
 5. **Fontes IIIF:** Nenhuma das URLs encontradas oferece IIIF. Gallica pode ter os selos em colecoes filatelicas digitalizadas — busca especifica necessaria.
 
 ## Proximas buscas sugeridas
 
-1. **Semeuse colonial (Indochina, AOF, AEF)** — testar se o ENDURECIMENTO opera na variante colonial quando ausente na metropolitana.
-2. **Marianne de Cheffer (1967)** — documentar o momento em que o anti-ENDURECIMENTO postal e definitivamente abandonado.
+1. **Semeuse colonial (Indochina, AOF, AEF)** — testar se o endurecimento opera na variante colonial quando ausente na metropolitana.
+2. **Marianne de Cheffer (1967)** — documentar o momento em que o anti-endurecimento postal e definitivamente abandonado.
 3. **Moeda Semeuse 1 Franc 1960 (Numista)** — registrar como SCOUT-036 e gerar Zwischenraum intra-suporte (selo Piel vs. moeda Roty, mesmo ano).
 4. **Gallica: colecoes filatelicas BnF** — buscar imagens IIIF dos tres tipos de Semeuse para rastreabilidade.
 5. **Marianne de Muller (1955-1959)** — documentar o que a Semeuse de Piel SUBSTITUIU para entender a logica de restauracao nostalgica.
@@ -431,7 +431,7 @@ SCOUT-033 ja existe no vault (sessao 2026-03-28) e foi referenciado, nao duplica
 
 - SCOUT-034: confirmar que Lhomme e o unico gravador do poincon camee (fontes divergem sobre grau de participacao de Mouchon).
 - SCOUT-035: verificar visualmente a rigidificacao tecnica — pode ser imperceptivel e portanto irrelevante para a tese.
-- SCOUT-ZW-14: o conceito de "ENDURECIMENTO mecanico" (vs. programatico) precisa ser validado pela orientadora antes de incorporar a tese.
+- SCOUT-ZW-14: o conceito de "endurecimento mecanico" (vs. programatico) precisa ser validado pela orientadora antes de incorporar a tese.
 - Nenhuma URL IIIF disponivel para nenhum dos tres selos — rastreabilidade comprometida.
 ```
 

@@ -14,7 +14,7 @@ pais: UK
 suporte: moeda
 motivo_alegorico: "Britannia"
 regime: NORMATIVO
-endurecimento: ALTO
+Endurecimento: ALTO
 confianca: alto
 designer_anverso: "Edgar Bertram Mackennal"
 designer_reverso: "Leonard Charles Wyon (herdado)"
@@ -34,7 +34,7 @@ related:
   - "[[SCOUT-322 Victoria Penny Britannia 1895]]"
   - "[[SCOUT-ZW-08 UK Longitudinal Britannia 1695-1935]]"
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 data_scout: 2026-03-31
 sessao: SCOUT-SESSION-2026-03-31c
@@ -69,12 +69,12 @@ Anverso: busto de George V de cabeça descoberta, virado à esquerda, com inicia
 - [ ] barrete frígio
 - [x] postura frontal hierática (sentada, estática, voltada para o lado direito)
 - [ ] contexto arquitetônico forense
-- [x] elmo — atributo marcador de ENDURECIMENTO
+- [x] elmo — atributo marcador de endurecimento
 - [x] tridente — atributo de soberania marítima
 
-**ENDURECIMENTO:** ALTO
+**endurecimento:** ALTO
 **Regime iconocrático:** NORMATIVO
-**Justificativa:** Britannia apresenta postura hierática e atributos marcialmente equipados (elmo, escudo, tridente) em suporte de circulação massiva — definição paradigmática do regime normativo com ENDURECIMENTO alto; a produção de 1912 coincide com o início do rearmamento pré-WWI.
+**Justificativa:** Britannia apresenta postura hierática e atributos marcialmente equipados (elmo, escudo, tridente) em suporte de circulação massiva — definição paradigmática do regime normativo com endurecimento alto; a produção de 1912 coincide com o início do rearmamento pré-WWI.
 
 ---
 
@@ -82,14 +82,14 @@ Anverso: busto de George V de cabeça descoberta, virado à esquerda, com inicia
 
 Esta moeda ocupa o período **George V / WWI (1911–1920)** no quadro longitudinal SCOUT-ZW-08 (Britannia 1695–1935):
 
-| Data | Suporte | ENDURECIMENTO | Evento |
+| Data | Suporte | endurecimento | Evento |
 |------|---------|---------------|--------|
 | 1695 | moeda | MÉDIO | SCOUT-108 |
 | 1895 | moeda | ALTO | SCOUT-322 |
 | 1902–1910 | moeda | ALTO | SCOUT-118 (florin Edward VII) |
 | **1912** | **moeda** | **ALTO** | **SCOUT-120 ← esta nota** |
 
-A continuidade do ENDURECIMENTO ALTO desde 1895 até 1912 confirma que a entrada na WWI não *cria* o ENDURECIMENTO — ele já estava inscrito no corpo de Britannia décadas antes.
+A continuidade do endurecimento ALTO desde 1895 até 1912 confirma que a entrada na WWI não *cria* o endurecimento — ele já estava inscrito no corpo de Britannia décadas antes.
 
 ---
 

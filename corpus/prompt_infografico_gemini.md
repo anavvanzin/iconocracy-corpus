@@ -49,15 +49,15 @@ Crie um infografico academico elegante e completo para minha tese de doutorado e
 - 1900s: 10 | **1910s: 32** (PICO) | 1920s: 8
 - 1930s: 2 | 1940s: 4 | 1950s: 4 | 1960s: 2 | 1970s: 2
 
-### Score medio de ENDURECIMENTO por regime (escala 0-3)
-O ENDURECIMENTO e um indice original da tese que mede o grau de "purificacao" (despersonalizacao, rigidez, abstracaoheraldicacao) das figuras alegoricas femininas.
+### Score medio de endurecimento por regime (escala 0-3)
+O endurecimento e um indice original da tese que mede o grau de "purificacao" (despersonalizacao, rigidez, abstracaoheraldicacao) das figuras alegoricas femininas.
 
 - Contra-alegoria: 0.72 (baixo — figuras subversivas, vivas)
 - Fundacional: 1.15 (moderado-baixo — corpo ainda presente)
 - Militar: 1.76 (alto — corpo enrijecido, imperial)
 - Normativo: 1.90 (mais alto — corpo desaparecido, burocratizado)
 
-### Media dos 10 indicadores de ENDURECIMENTO (escala 0-3)
+### Media dos 10 indicadores de endurecimento (escala 0-3)
 - Desincorporacao: 1.01
 - Rigidez postural: 1.29
 - Dessexualizacao: 1.48
@@ -74,7 +74,7 @@ O ENDURECIMENTO e um indice original da tese que mede o grau de "purificacao" (d
 ### Cabecalho
 - Titulo: "ICONOCRACIA" (grande, serif, elegante)
 - Subtitulo: "Corpus de Alegorias Femininas na Historia da Cultura Juridica"
-- Linha de KPIs: 165 itens | 15 paises | 1239-1975 | ENDURECIMENTO medio 1.42
+- Linha de KPIs: 165 itens | 15 paises | 1239-1975 | endurecimento medio 1.42
 
 ### Painel A — Distribuicao por pais
 Barras horizontais, top 10 paises, gradiente de azul-marinho a azul claro. Valores numericos ao lado de cada barra.
@@ -89,13 +89,13 @@ Grafico donut com 4 segmentos. Numero total (165) no centro. Cores tematicas:
 ### Painel C — Distribuicao temporal (painel largo, largura total)
 Histograma de barras empilhadas por decada, coloridas por regime. Eixo X: decadas de pre-1800 ate 1970s. Destacar visualmente o pico dos anos 1910s (32 itens) com uma anotacao/seta.
 
-### Painel D — ENDURECIMENTO por regime
+### Painel D — endurecimento por regime
 Barras verticais mostrando o score medio de cada regime (0.72 → 1.15 → 1.76 → 1.90), com as mesmas cores do donut. Mostrar valor numerico acima de cada barra.
 
 ### Painel E — Distribuicao por suporte
 Barras horizontais, top 8 categorias, cor azul-marinho uniforme. Valores numericos ao lado.
 
-### Painel F — Radar dos 10 indicadores de ENDURECIMENTO
+### Painel F — Radar dos 10 indicadores de endurecimento
 Grafico radar/spider com os 10 indicadores. Area preenchida em azul translucido. Escala 0-3. Destacar que monocromatizacao (1.95) e o indicador mais alto.
 
 ## ESTILO VISUAL

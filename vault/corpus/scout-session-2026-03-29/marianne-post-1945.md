@@ -1,7 +1,7 @@
-# Marianne Pos-1945: O Re-ENDURECIMENTO Postal Frances (IV e V Republica)
+# Marianne Pos-1945: O Re-endurecimento Postal Frances (IV e V Republica)
 
 Sessao CORPUS SCOUT — 2026-03-29
-Query: Representacoes de Marianne pos-1945 em selos postais, moedas e papel-moeda. Foco em Gandon (1945), Muller (1955), Cheffer (1967), Bequet (1971) e Nova Marianne do Euro (1999). Teste de re-ENDURECIMENTO apos a guerra.
+Query: Representacoes de Marianne pos-1945 em selos postais, moedas e papel-moeda. Foco em Gandon (1945), Muller (1955), Cheffer (1967), Bequet (1971) e Nova Marianne do Euro (1999). Teste de re-endurecimento apos a guerra.
 Referencia cruzada: SCOUT-033 (Semeuse lignee, 1903).
 Acervos consultados: WikiTimbres, Wikipedia FR, phil-ouest.com, timbres-de-france.com, alex-bernardini.fr, Numista, ECB, Monnaie de Paris, philatelie-francaise.com, Assemblee nationale
 Verificacao de duplicatas: Nenhuma duplicata encontrada em `corpus-data.json` para Gandon, Muller, Cheffer, Bequet ou Euro Marianne.
@@ -33,7 +33,7 @@ tags:
   - motivo/marianne
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Marianne — Nachleben]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-033]]"
@@ -77,7 +77,7 @@ data_scout: 2026-03-29
 - [x] postura frontal (perfil rigido, busto cortado)
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** SIM — inicio do re-ENDURECIMENTO postal frances. Transicao decisiva: a Semeuse (corpo inteiro, em marcha, seminando, descalca, esvoacante) e substituida por um BUSTO CORTADO. A Marianne perde pernas, bracos, gesto, acao. Resta apenas o ROSTO. Rigidez_postural maxima por SUBTRACAO do corpo. Desincorporacao radical.
+**endurecimento detectado:** SIM — inicio do re-endurecimento postal frances. Transicao decisiva: a Semeuse (corpo inteiro, em marcha, seminando, descalca, esvoacante) e substituida por um BUSTO CORTADO. A Marianne perde pernas, bracos, gesto, acao. Resta apenas o ROSTO. Rigidez_postural maxima por SUBTRACAO do corpo. Desincorporacao radical.
 
 ---
 
@@ -103,7 +103,7 @@ GANDON, Pierre; CORTOT, Henri (grav.). *Marianne de Gandon* (selo postal, serie 
 
 **Contexto historico:** A Marianne de Gandon e a primeira efige postal da Franca liberada. Ela substitui os selos de Vichy (Petain) e marca a restauracao da Republica. Porem, a restauracao republicana NAO restaura a Semeuse — escolhe um BUSTO. Isso e significativo: a Franca pos-guerra nao retoma a Marianne em marcha da Terceira Republica, mas cria uma Marianne IMOBILIZADA.
 
-**Dado critico para a tese:** A passagem Semeuse (1903-1940) → Gandon (1945) e o momento exato em que o anti-ENDURECIMENTO postal frances e abandonado. A Semeuse seminava, caminhava, trabalhava — corpo inteiro, descalca, esvoacante. Gandon corta o corpo: resta apenas cabeca e ombros. Esta DESINCORPORACAO e o gesto fundador do re-ENDURECIMENTO pos-1945.
+**Dado critico para a tese:** A passagem Semeuse (1903-1940) → Gandon (1945) e o momento exato em que o anti-endurecimento postal frances e abandonado. A Semeuse seminava, caminhava, trabalhava — corpo inteiro, descalca, esvoacante. Gandon corta o corpo: resta apenas cabeca e ombros. Esta DESINCORPORACAO e o gesto fundador do re-endurecimento pos-1945.
 
 **Tres versoes tecnicas:** Tipografia (valores correntes, Cortot gravador), taille-douce (valores estrangeiros, Gandon gravador), taille-douce grande formato (altos valores 20-100F).
 
@@ -137,7 +137,7 @@ tags:
   - motivo/marianne
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Marianne — Nachleben]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-086]]"
@@ -183,7 +183,7 @@ data_scout: 2026-03-29
 - [x] postura frontal (perfil rigido, busto cortado)
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** SIM — confirmacao do re-ENDURECIMENTO. O busto cortado de Gandon e mantido. Detalhe significativo: a AUSENCIA do barrete frigio. Muller substitui o barrete (simbolo revolucionario) por folhas de carvalho e louros (simbolos de estabilidade, forca, paz). Isso e uma DESSEXUALIZACAO E DESPOLITIZACAO simultaneas: o corpo desaparece (desincorporacao), o atributo revolucionario desaparece (neutralizacao), e a expressao se suaviza (uniformizacao_facial em direcao a serenidade).
+**endurecimento detectado:** SIM — confirmacao do re-endurecimento. O busto cortado de Gandon e mantido. Detalhe significativo: a AUSENCIA do barrete frigio. Muller substitui o barrete (simbolo revolucionario) por folhas de carvalho e louros (simbolos de estabilidade, forca, paz). Isso e uma DESSEXUALIZACAO E DESPOLITIZACAO simultaneas: o corpo desaparece (desincorporacao), o atributo revolucionario desaparece (neutralizacao), e a expressao se suaviza (uniformizacao_facial em direcao a serenidade).
 
 ---
 
@@ -213,7 +213,7 @@ MULLER, Louis-Charles (des.); PIEL, Jules (grav.). *Marianne de Muller* (selo po
 
 **Catalogos:** Yvert & Tellier n. 1009A-1011C. Scott.
 
-**Dado critico para a tese:** A Marianne de Muller representa o ENDURECIMENTO em sua forma mais SUAVE — nao ha agressividade, nao ha militarismo. O ENDURECIMENTO opera por SUBTRACAO: retira-se o corpo (busto cortado), retira-se o gesto (nenhuma acao), retira-se o simbolo revolucionario (carvalho no lugar do barrete). A Republica se torna ROSTO SEM CORPO, sem historia, sem atributos politicos. E o grau zero do Contrato Sexual Visual: o feminino e reduzido a EFIGE.
+**Dado critico para a tese:** A Marianne de Muller representa o endurecimento em sua forma mais SUAVE — nao ha agressividade, nao ha militarismo. O endurecimento opera por SUBTRACAO: retira-se o corpo (busto cortado), retira-se o gesto (nenhuma acao), retira-se o simbolo revolucionario (carvalho no lugar do barrete). A Republica se torna ROSTO SEM CORPO, sem historia, sem atributos politicos. E o grau zero do Contrato Sexual Visual: o feminino e reduzido a EFIGE.
 ```
 
 ---
@@ -244,7 +244,7 @@ tags:
   - motivo/ceres
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Marianne — Nachleben]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-086]]"
@@ -292,7 +292,7 @@ data_scout: 2026-03-29
 - [x] postura frontal (perfil rigido, busto cortado, frontalidade da efige)
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** SIM — ENDURECIMENTO consolidado. O busto cortado e agora CANONICO (terceira Marianne consecutiva neste formato apos Gandon e Muller). A frontalidade se confirma como regime visual padrao. A evocacao de Ceres religa a Marianne pos-guerra a tradicao do selo Ceres de 1849 (Segundo Republica), contornando deliberadamente a Semeuse da Terceira Republica. O anti-ENDURECIMENTO da Semeuse e definitivamente liquidado.
+**endurecimento detectado:** SIM — endurecimento consolidado. O busto cortado e agora CANONICO (terceira Marianne consecutiva neste formato apos Gandon e Muller). A frontalidade se confirma como regime visual padrao. A evocacao de Ceres religa a Marianne pos-guerra a tradicao do selo Ceres de 1849 (Segundo Republica), contornando deliberadamente a Semeuse da Terceira Republica. O anti-endurecimento da Semeuse e definitivamente liquidado.
 
 **Indicadores de purificacao ativos:**
 - rigidez_postural: ATIVO (busto imobilizado, sem gesto)
@@ -327,7 +327,7 @@ CHEFFER, Henry (des.); DURRENS, Claude (grav.). *Marianne de Cheffer* (selo post
 
 **Historia postal decisiva:** Cheffer apresentou este desenho em 1954 para substituir Gandon, mas foi preterido. A administracao postal preferiu Muller. Apos a morte de Cheffer (1957), o desenho foi finalmente adotado em 1967 — um Nachleben postumo peculiar. O autor morre antes de ver sua Marianne emitida. E a unica Marianne postal francesa desenhada por um morto.
 
-**Sobre a evocacao de Ceres:** O epi de trigo diante dos cabelos e uma citacao explicita do tipo Ceres de Jacques-Jean Barre (1849-1850). Ceres era a efige da II Republica — a Republica FUNDACIONAL. Ao citar Ceres e nao a Semeuse, Cheffer/Durrens fazem uma escolha iconografica precisa: conectam a V Republica gaullista a II Republica (1848-1852), IGNORANDO a III Republica e sua Semeuse. A Semeuse — com seu anti-ENDURECIMENTO, seu corpo em marcha, sua Pathosformel agraria — e apagada da genealogia visual.
+**Sobre a evocacao de Ceres:** O epi de trigo diante dos cabelos e uma citacao explicita do tipo Ceres de Jacques-Jean Barre (1849-1850). Ceres era a efige da II Republica — a Republica FUNDACIONAL. Ao citar Ceres e nao a Semeuse, Cheffer/Durrens fazem uma escolha iconografica precisa: conectam a V Republica gaullista a II Republica (1848-1852), IGNORANDO a III Republica e sua Semeuse. A Semeuse — com seu anti-endurecimento, seu corpo em marcha, sua Pathosformel agraria — e apagada da genealogia visual.
 
 **Catalogos:** Yvert & Tellier n. 1535-1536. Scott.
 ```
@@ -359,7 +359,7 @@ tags:
   - motivo/marianne
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Marianne — Nachleben]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-088]]"
@@ -406,7 +406,7 @@ data_scout: 2026-03-29
 - [x] postura frontal (busto cortado, rigido)
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** SIM — ENDURECIMENTO MAXIMAL na serie pos-1945. A efige e nao apenas cortada (desincorporacao) e imobilizada (rigidez_postural), mas agora REDUZIDA, MINIATURIZADA em relacao ao valor facial. O corpo alegorico perd la hierarchie visuelle: le chiffre l'emporte sur la figure. A Marianne se torna ornement marginal de sa propre monnaie postale.
+**endurecimento detectado:** SIM — endurecimento MAXIMAL na serie pos-1945. A efige e nao apenas cortada (desincorporacao) e imobilizada (rigidez_postural), mas agora REDUZIDA, MINIATURIZADA em relacao ao valor facial. O corpo alegorico perd la hierarchie visuelle: le chiffre l'emporte sur la figure. A Marianne se torna ornement marginal de sa propre monnaie postale.
 
 **Indicadores de purificacao ativos:**
 - rigidez_postural: ATIVO (busto imobilizado)
@@ -440,11 +440,11 @@ BEQUET, Pierre. *Marianne de Bequet* (selo postal 0,50F vermelho). 1971. Selo po
 
 ## Observacoes do Scout
 
-**Recepcao publica:** A Marianne de Bequet foi mal recebida. A desproporcao entre a efige e o valor facial foi criticada como "hideuse." Isso sugere que o publico SENTIA o ENDURECIMENTO mesmo sem nomea-lo: a miniaturizacao da Marianne era percebida como uma degradacao da dignidade republicana.
+**Recepcao publica:** A Marianne de Bequet foi mal recebida. A desproporcao entre a efige e o valor facial foi criticada como "hideuse." Isso sugere que o publico SENTIA o endurecimento mesmo sem nomea-lo: a miniaturizacao da Marianne era percebida como uma degradacao da dignidade republicana.
 
 **Catalogos:** Yvert & Tellier n. 1663-1664. Scott.
 
-**Dado critico para a tese:** A Bequet marca o ponto de ENDURECIMENTO maximo na serie postal francesa: a efige nao e apenas imobilizada e cortada, ela e DIMINUIDA. A hierarquia visual se inverte: o NUMERO (valor facial) domina a FIGURA (Marianne). O Estado pos-industrial trata a alegoria feminina como acessorio do valor economico — o Contrato Sexual Visual atinge aqui sua forma mais explicita de instrumentalizacao.
+**Dado critico para a tese:** A Bequet marca o ponto de endurecimento maximo na serie postal francesa: a efige nao e apenas imobilizada e cortada, ela e DIMINUIDA. A hierarquia visual se inverte: o NUMERO (valor facial) domina a FIGURA (Marianne). O Estado pos-industrial trata a alegoria feminina como acessorio do valor economico — o Contrato Sexual Visual atinge aqui sua forma mais explicita de instrumentalizacao.
 ```
 
 ---
@@ -474,7 +474,7 @@ tags:
   - motivo/marianne
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Marianne — Nachleben]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-033]]"
@@ -521,7 +521,7 @@ data_scout: 2026-03-29
 - [x] postura frontal (efige rigida)
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** SIM — mas com MODULACAO. A desincorporacao e ABSOLUTA (apenas cabeca), a rigidez_postural e MAXIMA (nenhum movimento possivel). Porem, a uniformizacao_facial e PARCIALMENTE INVERTIDA: Courtiade introduz tracos "energicos" e "determinados" — uma tentativa de re-individualizar a efige. A Marianne do Euro nao e serena como Muller nem generica como Bequet, ela e ASSERTIVA. Isso pode ser lido como tentativa de CONTRA-ENDURECIMENTO ao nivel da expressao facial, mesmo com corpo totalmente ausente.
+**endurecimento detectado:** SIM — mas com MODULACAO. A desincorporacao e ABSOLUTA (apenas cabeca), a rigidez_postural e MAXIMA (nenhum movimento possivel). Porem, a uniformizacao_facial e PARCIALMENTE INVERTIDA: Courtiade introduz tracos "energicos" e "determinados" — uma tentativa de re-individualizar a efige. A Marianne do Euro nao e serena como Muller nem generica como Bequet, ela e ASSERTIVA. Isso pode ser lido como tentativa de CONTRA-endurecimento ao nivel da expressao facial, mesmo com corpo totalmente ausente.
 
 **Nota: moedas de 10, 20 e 50 centimos usam a SEMEUSE de Roty (Nachleben monetario!), nao a efige de Courtiade. Os 1 e 2 euros usam uma "arvore" (Laurent Jorio). A Marianne-efige fica confinada aos valores MINIMOS.**
 
@@ -556,7 +556,7 @@ COURTIADE, Fabienne. *Marianne* (moeda 1 centimo de euro). 1999. Moeda. Monnaie 
 
 ## Observacoes do Scout
 
-**Paradoxo Semeuse/Marianne no Euro:** O sistema de moedas de euro frances opera uma CISAO alegorica: a Semeuse de Roty (anti-ENDURECIMENTO, corpo inteiro, em marcha) aparece nas moedas de 10, 20 e 50 centimos, enquanto a Marianne-efige de Courtiade (ENDURECIMENTO, apenas cabeca) aparece nas de 1, 2 e 5 centimos. A Semeuse recebe os valores INTERMEDIARIOS, a Marianne-efige os valores INFIMOS, e a "arvore" (abstrata, sem corpo feminino) os valores SUPERIORES (1 e 2 euros). Hierarquia significativa: quanto MAIOR o valor, MENOR a presenca do corpo feminino.
+**Paradoxo Semeuse/Marianne no Euro:** O sistema de moedas de euro frances opera uma CISAO alegorica: a Semeuse de Roty (anti-endurecimento, corpo inteiro, em marcha) aparece nas moedas de 10, 20 e 50 centimos, enquanto a Marianne-efige de Courtiade (endurecimento, apenas cabeca) aparece nas de 1, 2 e 5 centimos. A Semeuse recebe os valores INTERMEDIARIOS, a Marianne-efige os valores INFIMOS, e a "arvore" (abstrata, sem corpo feminino) os valores SUPERIORES (1 e 2 euros). Hierarquia significativa: quanto MAIOR o valor, MENOR a presenca do corpo feminino.
 
 **Referencia bibliografica relevante:** Agulhon, Maurice. *Marianne au pouvoir: l'imagerie et la symbolique republicaines de 1880 a 1914*. Paris: Flammarion, 1989. Agulhon, Maurice. *Les metamorphoses de Marianne: l'imagerie et la symbolique republicaines de 1914 a nos jours*. Paris: Flammarion, 2001.
 
@@ -565,14 +565,14 @@ COURTIADE, Fabienne. *Marianne* (moeda 1 centimo de euro). 1999. Moeda. Monnaie 
 
 ---
 
-## SCOUT-ZW-15 — Painel XV: O Fim do Anti-ENDURECIMENTO Postal Frances (Semeuse 1903 x Cheffer 1967)
+## SCOUT-ZW-15 — Painel XV: O Fim do Anti-endurecimento Postal Frances (Semeuse 1903 x Cheffer 1967)
 
 ```markdown
 ---
 id: SCOUT-ZW-15
 tipo: corpus-zwischenraum
 status: ativo
-titulo: "Painel XV — FIM DO ANTI-ENDURECIMENTO POSTAL: Semeuse 1903 x Cheffer 1967"
+titulo: "Painel XV — FIM DO ANTI-endurecimento POSTAL: Semeuse 1903 x Cheffer 1967"
 pais: [FR, FR]
 periodo: "1903-1967"
 tags:
@@ -589,7 +589,7 @@ related:
   - "[[SCOUT-086]]"
   - "[[SCOUT-087]]"
   - "[[SCOUT-ZW-14]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Nachleben]]"
   - "[[Desincorporacao]]"
@@ -597,9 +597,9 @@ related:
 data_scout: 2026-03-29
 ---
 
-## Painel XV — FIM DO ANTI-ENDURECIMENTO POSTAL FRANCES: Semeuse 1903 x Cheffer 1967 (Zwischenraum)
+## Painel XV — FIM DO ANTI-endurecimento POSTAL FRANCES: Semeuse 1903 x Cheffer 1967 (Zwischenraum)
 
-Este painel estabelece o espaco de tensao (*Zwischenraum*) entre o ponto de MINIMO ENDURECIMENTO na historia postal francesa (a Semeuse de Roty, 1903) e o momento em que o anti-ENDURECIMENTO e definitivamente liquidado (a Marianne de Cheffer, 1967). Separados por 64 anos, duas guerras mundiais, a descolonizacao e a transicao da III para a V Republica, estes dois selos representam os dois extremos do Contrato Sexual Visual na producao postal francesa.
+Este painel estabelece o espaco de tensao (*Zwischenraum*) entre o ponto de MINIMO endurecimento na historia postal francesa (a Semeuse de Roty, 1903) e o momento em que o anti-endurecimento e definitivamente liquidado (a Marianne de Cheffer, 1967). Separados por 64 anos, duas guerras mundiais, a descolonizacao e a transicao da III para a V Republica, estes dois selos representam os dois extremos do Contrato Sexual Visual na producao postal francesa.
 
 **Polo A (FR, 1903):** *Semeuse lignee* (Roty/Mouchon) — Marianne de corpo inteiro, em marcha dinamica, seminando contra o vento. Selo postal 15c verde. NORMATIVO.
 **Polo B (FR, 1967):** *Marianne de Cheffer* (Cheffer/Durrens) — Busto cortado de Marianne, perfil esquerdo, coroada de epis de trigo. Selo postal 0,30F verde. NORMATIVO.
@@ -622,11 +622,11 @@ Este painel estabelece o espaco de tensao (*Zwischenraum*) entre o ponto de MINI
 | **Regime politico** | III Republica (consolidacao pos-Dreyfus) | V Republica (gaullismo) |
 | **Referencia historica citada** | Nenhuma (criacao original Art Nouveau) | Ceres 1849 (II Republica) |
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-**Tese do painel:** Entre a Semeuse (1903) e Cheffer (1967), o corpo alegorico postal frances sofre uma DESINCORPORACAO TOTAL. E o caso mais radical de ENDURECIMENTO por subtracao no corpus.
+**Tese do painel:** Entre a Semeuse (1903) e Cheffer (1967), o corpo alegorico postal frances sofre uma DESINCORPORACAO TOTAL. E o caso mais radical de endurecimento por subtracao no corpus.
 
-A Semeuse de Roty (Polo A) e o anti-ENDURECIMENTO em estado puro. Todos os indicadores de purificacao sao INATIVOS, exceto serialidade e inscricao_estatal (inerentes ao suporte postal):
+A Semeuse de Roty (Polo A) e o anti-endurecimento em estado puro. Todos os indicadores de purificacao sao INATIVOS, exceto serialidade e inscricao_estatal (inerentes ao suporte postal):
 
 | Indicador | Polo A (Semeuse 1903) | Polo B (Cheffer 1967) |
 |-----------|----------------------|----------------------|
@@ -641,11 +641,11 @@ A Semeuse de Roty (Polo A) e o anti-ENDURECIMENTO em estado puro. Todos os indic
 | serialidade | ATIVO | ATIVO |
 | inscricao_estatal | ATIVO | ATIVO |
 
-**Contagem:** Polo A tem 2/10 indicadores ativos. Polo B tem 8/10 indicadores ativos. Delta de ENDURECIMENTO: +6 indicadores em 64 anos.
+**Contagem:** Polo A tem 2/10 indicadores ativos. Polo B tem 8/10 indicadores ativos. Delta de endurecimento: +6 indicadores em 64 anos.
 
-A mutacao NAO e gradual. Ela se concentra em um momento CRITICO: a passagem Semeuse → Gandon (1940-1945). E a guerra que mata a Semeuse. A Libertacao (1945) nao restaura o corpo em marcha — ela institui o BUSTO CORTADO como nova norma. Gandon (1945) abre a ferida; Muller (1955) a normaliza; Cheffer (1967) a canoniza; Bequet (1971) a radicaliza. A Semeuse de Piel (1960) e o unico interludio nostalgico — e dura apenas 5 anos, confirmando que o anti-ENDURECIMENTO nao e mais toleravel como regime permanente.
+A mutacao NAO e gradual. Ela se concentra em um momento CRITICO: a passagem Semeuse → Gandon (1940-1945). E a guerra que mata a Semeuse. A Libertacao (1945) nao restaura o corpo em marcha — ela institui o BUSTO CORTADO como nova norma. Gandon (1945) abre a ferida; Muller (1955) a normaliza; Cheffer (1967) a canoniza; Bequet (1971) a radicaliza. A Semeuse de Piel (1960) e o unico interludio nostalgico — e dura apenas 5 anos, confirmando que o anti-endurecimento nao e mais toleravel como regime permanente.
 
-**Mecanismo:** O ENDURECIMENTO pos-1945 opera por SUBTRACAO, nao por ADICAO. A Semeuse nao e rigidificada (como se se acrescentasse armadura, armas, postura militar); ela e AMPUTADA. Pernas, bracos, gesto, acao, horizonte, vento — tudo e removido. O que resta e um rosto. O corpo alegorico feminino e DESAPARECIDO, nao disciplinado. A tese deve distinguir estas duas modalidades de ENDURECIMENTO: ENDURECIMENTO por rigidificacao (addicao de disciplina ao corpo) vs. ENDURECIMENTO por desincorporacao (subtracao do corpo).
+**Mecanismo:** O endurecimento pos-1945 opera por SUBTRACAO, nao por ADICAO. A Semeuse nao e rigidificada (como se se acrescentasse armadura, armas, postura militar); ela e AMPUTADA. Pernas, bracos, gesto, acao, horizonte, vento — tudo e removido. O que resta e um rosto. O corpo alegorico feminino e DESAPARECIDO, nao disciplinado. A tese deve distinguir estas duas modalidades de endurecimento: endurecimento por rigidificacao (addicao de disciplina ao corpo) vs. Endurecimento por desincorporacao (subtracao do corpo).
 
 ### 2. O Contrato Sexual Visual
 
@@ -661,34 +661,34 @@ Esta transicao acompanha a transformacao do Estado frances: de Republica AGRARIA
 
 ### 3. Sintese para a Tese
 
-**Achado central:** O Zwischenraum Semeuse (1903) / Cheffer (1967) documenta o processo de DESINCORPORACAO mais radical da historia postal francesa: em 64 anos, a Marianne perde corpo inteiro, bracos, pernas, gesto, acao, horizonte, vento, descalcidade — e reduzida a um rosto-signo. O ENDURECIMENTO nao opera aqui por rigidificacao militar (como nas alegorias de guerra) mas por SUBTRACAO CORPORAL. E um ENDURECIMENTO NEGATIVO, que funciona por AUSENCIA.
+**Achado central:** O Zwischenraum Semeuse (1903) / Cheffer (1967) documenta o processo de DESINCORPORACAO mais radical da historia postal francesa: em 64 anos, a Marianne perde corpo inteiro, bracos, pernas, gesto, acao, horizonte, vento, descalcidade — e reduzida a um rosto-signo. O endurecimento nao opera aqui por rigidificacao militar (como nas alegorias de guerra) mas por SUBTRACAO CORPORAL. E um endurecimento NEGATIVO, que funciona por AUSENCIA.
 
 **Implicacoes para a tese:**
 
-**a)** A periodizacao do ENDURECIMENTO postal frances e agora clara:
-- 1903-1940: anti-ENDURECIMENTO (Semeuse lignee, camee)
+**a)** A periodizacao do endurecimento postal frances e agora clara:
+- 1903-1940: anti-endurecimento (Semeuse lignee, camee)
 - 1945: RUPTURA — Gandon inaugura o busto cortado
 - 1955: NORMALIZACAO — Muller consolida o busto, retira o barrete
 - 1960: INTERLUDIO NOSTALGICO — Semeuse de Piel (5 anos apenas)
 - 1967: CANONIZACAO — Cheffer consolida o busto-efige como forma definitiva
 - 1971: RADICALIZACAO — Bequet miniaturiza a efige
 
-**b)** A tese deve propor uma TIPOLOGIA do ENDURECIMENTO:
-- ENDURECIMENTO POSITIVO (por adicao): armamento, armadura, postura militar, heraldizacao — opera nas alegorias de guerra e coloniais
-- ENDURECIMENTO NEGATIVO (por subtracao): desincorporacao, apagamento, miniaturizacao — opera nos suportes burocraticos pos-1945
+**b)** A tese deve propor uma TIPOLOGIA do endurecimento:
+- Endurecimento POSITIVO (por adicao): armamento, armadura, postura militar, heraldizacao — opera nas alegorias de guerra e coloniais
+- Endurecimento NEGATIVO (por subtracao): desincorporacao, apagamento, miniaturizacao — opera nos suportes burocraticos pos-1945
 
-**c)** A Semeuse e o CONTROLE EXPERIMENTAL. Ela prova que o ENDURECIMENTO nao e inevitavel (a Semeuse resiste 57 anos) mas que ele e IRRESISTIVEL a longo prazo. A V Republica nao consegue sustentar a Semeuse por mais de 5 anos (Piel 1960-1965) antes de recorrer ao busto-efige. O anti-ENDURECIMENTO e tolerado como nostalgia, nao como regime permanente.
+**c)** A Semeuse e o CONTROLE EXPERIMENTAL. Ela prova que o endurecimento nao e inevitavel (a Semeuse resiste 57 anos) mas que ele e IRRESISTIVEL a longo prazo. A V Republica nao consegue sustentar a Semeuse por mais de 5 anos (Piel 1960-1965) antes de recorrer ao busto-efige. O anti-endurecimento e tolerado como nostalgia, nao como regime permanente.
 
 **d)** O paradoxo do Euro (1999) confirma a regra: a Semeuse de Roty SOBREVIVE nas moedas de 10, 20 e 50 centimos (o Nachleben monetario da III Republica), mas a Marianne-efige de Courtiade ocupa as moedas de menor valor, e os valores SUPERIORES (1 e 2 euros) abandonam completamente o corpo feminino (arvore abstrata de Jorio). Mais le support e alto, menos o feminino: a hierarquia monetaria reproduz a logica da desincorporacao.
 
-**Posicao no atlas warburguiano:** Este painel deve ficar APOS o Painel XIV (SCOUT-ZW-14, Semeuse 1903 x Piel 1960), formando uma SEQUENCIA de tres paineis sobre a Semeuse e seus Nachleben: Painel XIV (anti-ENDURECIMENTO interno da Semeuse) → Painel XV (fim do anti-ENDURECIMENTO: Semeuse x Cheffer) → futuro Painel XVI (o paradoxo do Euro: Semeuse monetaria x Marianne-efige).
+**Posicao no atlas warburguiano:** Este painel deve ficar APOS o Painel XIV (SCOUT-ZW-14, Semeuse 1903 x Piel 1960), formando uma SEQUENCIA de tres paineis sobre a Semeuse e seus Nachleben: Painel XIV (anti-endurecimento interno da Semeuse) → Painel XV (fim do anti-endurecimento: Semeuse x Cheffer) → futuro Painel XVI (o paradoxo do Euro: Semeuse monetaria x Marianne-efige).
 ```
 
 ---
 
-## Tabela-Resumo: Sequencia Cronologica do ENDURECIMENTO Postal Frances (1903-1999)
+## Tabela-Resumo: Sequencia Cronologica do endurecimento Postal Frances (1903-1999)
 
-| Efige | Data | Desenhista | Formato | Barrete | Corpo | Gesto | ENDURECIMENTO | Indicadores ativos |
+| Efige | Data | Desenhista | Formato | Barrete | Corpo | Gesto | endurecimento | Indicadores ativos |
 |-------|------|------------|---------|---------|-------|-------|---------------|-------------------|
 | Semeuse lignee | 1903 | Roty | Corpo inteiro, perfil | SIM | INTEIRO, dinamico | Semeadura | NAO | 2/10 |
 | Semeuse camee | 1907 | Roty | Corpo inteiro, perfil | SIM | INTEIRO, dinamico | Semeadura | NAO | 2/10 |
@@ -699,7 +699,7 @@ Esta transicao acompanha a transformacao do Estado frances: de Republica AGRARIA
 | Marianne de Bequet | 1971 | Bequet | BUSTO miniaturizado | SIM | AUSENTE | NENHUM | SIM (maximo) | 9/10 |
 | Marianne Euro (moeda) | 1999 | Courtiade | CABECA apenas | SIM | AUSENTE | NENHUM | SIM (modulado) | 7/10 |
 
-**Leitura vertical:** O ENDURECIMENTO postal frances se intensifica de forma quase monotonica de 1945 a 1971 (2/10 → 9/10), com um unico interludio regressivo (Semeuse de Piel, 1960, 3/10). A passagem de 1903 a 1945 e a RUPTURA decisiva: de 2/10 para 6/10 em um unico salto, provocado pela guerra.
+**Leitura vertical:** O endurecimento postal frances se intensifica de forma quase monotonica de 1945 a 1971 (2/10 → 9/10), com um unico interludio regressivo (Semeuse de Piel, 1960, 3/10). A passagem de 1903 a 1945 e a RUPTURA decisiva: de 2/10 para 6/10 em um unico salto, provocado pela guerra.
 
 ---
 
@@ -710,7 +710,7 @@ Esta transicao acompanha a transformacao do Estado frances: de Republica AGRARIA
 id: SCOUT-SESSION-2026-03-29-B
 tipo: sessao-scout
 data: 2026-03-29
-query_executada: "Representacoes de Marianne pos-1945 (IV e V Republica francesa) em selos postais, moedas e papel-moeda. Foco: Gandon (1945), Muller (1955), Cheffer (1967), Bequet (1971), Euro Marianne (1999). Teste de re-ENDURECIMENTO apos a guerra."
+query_executada: "Representacoes de Marianne pos-1945 (IV e V Republica francesa) em selos postais, moedas e papel-moeda. Foco: Gandon (1945), Muller (1955), Cheffer (1967), Bequet (1971), Euro Marianne (1999). Teste de re-endurecimento apos a guerra."
 total_candidatos: 5 (SCOUT-086 a SCOUT-090)
 pais: [FR]
 periodo: "1945-1999"
@@ -732,10 +732,10 @@ related:
 
 ## Resumo da sessao
 
-**Query:** Mapeamento do re-ENDURECIMENTO postal frances pos-1945 atraves de cinco variantes de Marianne (Gandon, Muller, Cheffer, Bequet, Euro), com Zwischenraum comparativo Semeuse 1903 x Cheffer 1967.
+**Query:** Mapeamento do re-endurecimento postal frances pos-1945 atraves de cinco variantes de Marianne (Gandon, Muller, Cheffer, Bequet, Euro), com Zwischenraum comparativo Semeuse 1903 x Cheffer 1967.
 **Acervos consultados:** WikiTimbres, Wikipedia FR/EN, phil-ouest.com, timbres-de-france.com, alex-bernardini.fr, Numista, ECB, Monnaie de Paris, philatelie-francaise.com, Assemblee nationale, Musee de La Poste
 **Candidatos encontrados:** 5 novos (SCOUT-086 a SCOUT-090)
-**Zwischenraum gerado:** SCOUT-ZW-15 (Painel XV — Fim do Anti-ENDURECIMENTO Postal)
+**Zwischenraum gerado:** SCOUT-ZW-15 (Painel XV — Fim do Anti-endurecimento Postal)
 **Nivel de confianca predominante:** alto
 **Referencia cruzada:** SCOUT-033 (Semeuse lignee, 1903), SCOUT-034 (Semeuse camee, 1907), SCOUT-035 (Semeuse de Piel, 1960), SCOUT-ZW-14 (Painel XIV)
 
@@ -746,7 +746,7 @@ Nenhuma duplicata encontrada em `/Users/ana/iconocracy-corpus/corpus/corpus-data
 ## Lacunas identificadas
 
 1. **Verificacao visual ausente:** Nenhuma imagem foi inspecionada diretamente. Todas as descricoes morfologicas sao baseadas em fontes textuais e precisam de CONFIRMACAO VISUAL.
-2. **Marianne de Muller versao Algerie-RF:** A variante colonial merece nota propria — a mesma efige circulando na Argelia e na metropole simultaneamente levanta questoes sobre a colonialidade do ENDURECIMENTO.
+2. **Marianne de Muller versao Algerie-RF:** A variante colonial merece nota propria — a mesma efige circulando na Argelia e na metropole simultaneamente levanta questoes sobre a colonialidade do endurecimento.
 3. **Sabine de Gandon (1977-1981):** Substituiu Bequet. Inspirada em David (*Les Sabines*). Nao coberta nesta sessao.
 4. **Liberte de Gandon (1982-1990):** Inspirada em Delacroix (*La Liberte guidant le peuple*). Nachleben de Delacroix no selo postal. Nao coberta.
 5. **Marianne du Bicentenaire (Briat, 1989):** Associada aos 200 anos da Revolucao. Nao coberta.
@@ -757,11 +757,11 @@ Nenhuma duplicata encontrada em `/Users/ana/iconocracy-corpus/corpus/corpus-data
 ## Proximas buscas sugeridas
 
 1. **Sabine de Gandon (1977)** — proximo elo na cadeia pos-Bequet; retorno a pintura neoclassica (David) como fonte.
-2. **Liberte de Gandon (1982)** — Nachleben postal de Delacroix; possivel contra-ENDURECIMENTO (seio nu, barricada)?
+2. **Liberte de Gandon (1982)** — Nachleben postal de Delacroix; possivel contra-endurecimento (seio nu, barricada)?
 3. **Semeuse monetaria do Euro (10/20/50 cent)** — registrar como candidato e gerar Painel XVI (Semeuse x Marianne-efige no Euro).
-4. **Marianne de Muller versao Algerie-RF** — variante colonial do ENDURECIMENTO pos-1945.
+4. **Marianne de Muller versao Algerie-RF** — variante colonial do endurecimento pos-1945.
 5. **Papel-moeda frances pos-1945** — verificar presenca/ausencia de Marianne nos bilhetes da Banque de France.
-6. **Marianne du Bicentenaire (Briat, 1989)** — 200 anos da Revolucao, possivel ruptura no ENDURECIMENTO?
+6. **Marianne du Bicentenaire (Briat, 1989)** — 200 anos da Revolucao, possivel ruptura no endurecimento?
 
 ## Flags de atencao
 
@@ -770,7 +770,7 @@ Nenhuma duplicata encontrada em `/Users/ana/iconocracy-corpus/corpus/corpus-data
 - SCOUT-088 (Cheffer): os 11 desenhos preparatorios de Durrens sao documentados em blog dedicado — fonte fragil.
 - SCOUT-089 (Bequet): recepcao negativa ("hideuse") precisa de fonte primaria (imprensa filatelica da epoca).
 - SCOUT-090 (Euro): confirmar se Courtiade tambem gravou ou apenas desenhou.
-- SCOUT-ZW-15: o conceito de "ENDURECIMENTO NEGATIVO (por subtracao)" vs. "ENDURECIMENTO POSITIVO (por adicao)" e uma proposta teorica original — requer validacao pela orientadora.
+- SCOUT-ZW-15: o conceito de "endurecimento NEGATIVO (por subtracao)" vs. "endurecimento POSITIVO (por adicao)" e uma proposta teorica original — requer validacao pela orientadora.
 - Nenhuma URL IIIF disponivel para nenhum dos cinco candidatos — rastreabilidade comprometida para todos.
 ```
 

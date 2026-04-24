@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: loc
@@ -36,9 +36,9 @@ data_scout: 2026-04-03
 
 **Motivos identificados**: Columbia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 GARRISON, brinton, daniel. **Report of the United States Commission to the Columbian Historical Exposition at Madrid, 1892-1893, with special papers**. 1895. Library of Congress. Disponível em: https://www.loc.gov/item/2024771974/. Acesso em: 03 Apr. 2026.

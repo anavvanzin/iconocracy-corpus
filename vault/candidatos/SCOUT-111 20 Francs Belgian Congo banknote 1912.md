@@ -30,7 +30,7 @@ PRESA DE ELEFANTE (marfim — riqueza colonial extraída). Acima: medalhão com 
 mulher europeia coroada. Marca d'água: cabeça de elefante.
 
 **Regime:** MILITAR — a alegoria europeia domina; a mulher africana serve
-**ENDURECIMENTO detectado:** sim — a mulher branca é RÍGIDA (maça, bigorna = ferramentas
+**endurecimento detectado:** sim — a mulher branca é RÍGIDA (maça, bigorna = ferramentas
 de poder); a mulher africana é SUBORDINADA (oferece recursos). Dois corpos femininos em
 HIERARQUIA RACIAL no mesmo suporte.
 

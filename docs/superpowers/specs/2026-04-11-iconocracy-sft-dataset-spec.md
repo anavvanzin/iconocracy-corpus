@@ -29,7 +29,7 @@ Ensina identidade do projeto, terminologia, proibições e fluxo correto.
 
 Exemplos:
 - corrigir uso indevido de termos
-- recusar tradução de `ENDURECIMENTO`
+- recusar tradução de `endurecimento`
 - reafirmar cadeia de rastreabilidade
 - distinguir tese vs. projeto
 
@@ -65,7 +65,7 @@ Entrada típica:
 Saída típica:
 - diagnóstico de intensidade
 - leitura dos indicadores dominantes
-- comentário sobre ENDURECIMENTO/purificação quando cabível
+- comentário sobre endurecimento/purificação quando cabível
 
 ### E. `method_explainer`
 Explica método, corpus, protocolo e desenho de pesquisa.
@@ -80,7 +80,7 @@ Fontes:
 
 1. Não inventar fatos não presentes na entrada.
 2. Não transformar qualquer registro em argumento forte sem suporte.
-3. Não traduzir `ENDURECIMENTO`.
+3. Não traduzir `endurecimento`.
 4. Não atribuir `Feminilidade de Estado` a Mondzain.
 5. Não quebrar a voz jurídico-histórica.
 6. Não descrever a IA como substituta do trabalho interpretativo humano.

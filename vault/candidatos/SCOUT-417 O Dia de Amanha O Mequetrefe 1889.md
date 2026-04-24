@@ -11,7 +11,7 @@ pais: BR
 suporte: estampa
 motivo_alegorico: "A República"
 regime: FUNDACIONAL
-endurecimento: BAIXO
+Endurecimento: BAIXO
 confianca: alto
 tags:
   - corpus/candidato
@@ -56,7 +56,7 @@ Figura feminina jovem, em vestes clássicas, portando o barrete frígio, apresen
 - [ ] postura frontal hierática
 - [ ] contexto arquitetônico forense
 
-**ENDURECIMENTO:** BAIXO
+**endurecimento:** BAIXO
 **Regime iconocrático:** FUNDACIONAL
 **Justificativa:** A imagem antecipa visualmente o regime republicano, usando a beleza e a juventude da alegoria para legitimar a ruptura com o Império (a "velha" monarquia).
 

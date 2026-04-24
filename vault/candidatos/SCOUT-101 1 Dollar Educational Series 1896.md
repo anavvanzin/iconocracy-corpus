@@ -27,5 +27,5 @@ data_scout: 2026-03-30
 ## Analise preliminar
 **Motivo:** History (reclining female) instructing Youth, pointing to U.S. Constitution
 **Regime:** NORMATIVO — the allegory teaches, not founds
-**ENDURECIMENTO detectado:** sim (dessexualizacao, enquadramento_arquitetonico, serialidade)
+**endurecimento detectado:** sim (dessexualizacao, enquadramento_arquitetonico, serialidade)
 **Reverso:** Martha Washington — real woman replacing allegory. Thesis datum.

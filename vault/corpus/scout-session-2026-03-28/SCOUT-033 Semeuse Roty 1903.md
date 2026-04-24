@@ -56,7 +56,7 @@ data_scout: 2026-03-28
 - [ ] postura frontal
 - [ ] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** nao — anti-ENDURECIMENTO deliberado. Corpo dinamico, vestimenta esvoacante, postura de perfil em marcha. Paradoxo: serialidade maxima sem rigidez formal.
+**endurecimento detectado:** nao — anti-endurecimento deliberado. Corpo dinamico, vestimenta esvoacante, postura de perfil em marcha. Paradoxo: serialidade maxima sem rigidez formal.
 
 ---
 

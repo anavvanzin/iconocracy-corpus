@@ -16,7 +16,7 @@ tags:
   - regime/normativo
   - motivo/republica
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-205]]"
   - "[[SCOUT-206]]"
@@ -31,9 +31,9 @@ data_scout: 2026-03-30
 
 Série mista: valores BAIXOS com efígie feminina da Liberdade (barrete frígio); valores ALTOS com retratos masculinos (Benjamin Constant, Floriano Peixoto). A hierarquia valor facial/gênero é explícita: a mulher-alegoria é o TROCO MIÚDO da República.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**SIM** — ENDURECIMENTO por COMPARTILHAMENTO DO ESPAÇO. A alegoria feminina DIVIDE o definitivo com retratos masculinos. Impressa nos EUA = corpo feminino republicano GRAVADO no exterior.
+**SIM** — endurecimento por COMPARTILHAMENTO DO ESPAÇO. A alegoria feminina DIVIDE o definitivo com retratos masculinos. Impressa nos EUA = corpo feminino republicano GRAVADO no exterior.
 
 ### Citação ABNT
 

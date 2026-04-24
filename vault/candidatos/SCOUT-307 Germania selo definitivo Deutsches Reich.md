@@ -16,7 +16,7 @@ tags:
   - regime/normativo
   - motivo/germania
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 data_scout: 2026-03-30
 ---
@@ -30,9 +30,9 @@ data_scout: 2026-03-30
 
 Busto de Germania com coroa imperial octogonal, espada e ramo de oliveira. Armadura visível. 22 anos de uso contínuo. Modelada a partir de ATRIZ real.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**SIM** — ENDURECIMENTO NORMATIVO-MILITAR simultâneo. Germania nasce JÁ endurecida: armadura + coroa + busto cortado. Serialidade de 22 anos. Paradoxo: corpo feminino veste ARMADURA MASCULINA mas segura OLIVEIRA pacífica.
+**SIM** — endurecimento NORMATIVO-MILITAR simultâneo. Germania nasce JÁ endurecida: armadura + coroa + busto cortado. Serialidade de 22 anos. Paradoxo: corpo feminino veste ARMADURA MASCULINA mas segura OLIVEIRA pacífica.
 
 ### Citação ABNT
 

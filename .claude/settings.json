@@ -108,8 +108,18 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -qE 'tools/scripts/.*\\.py$' && python3 -m py_compile \"$f\" 2>&1 | head -5; } || true",
-            "statusMessage": "Checking Python syntax..."
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -qE '(tools/scripts|notebooks|iconocracy-ingest)/.*\\.py$' && ruff check --quiet \"$f\" 2>&1 | head -10; } || true",
+            "statusMessage": "Ruff lint check..."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -qE '\\.sh$' && shellcheck \"$f\" 2>&1 | head -10; } || true",
+            "statusMessage": "Shellcheck..."
           }
         ]
       },
@@ -129,7 +139,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreCompact\",\"additionalContext\":\"IMPORTANT: Preserve any corpus item IDs (e.g. FR-013, BR-001), Iconclass codes, ENDURECIMENTO scores, and vault note paths discussed in this session. Also preserve the current state of any ongoing SCOUT campaigns.\"}}'"
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreCompact\",\"additionalContext\":\"IMPORTANT: Preserve any corpus item IDs (e.g. FR-013, BR-001), Iconclass codes, endurecimento scores, and vault note paths discussed in this session. Also preserve the current state of any ongoing SCOUT campaigns.\"}}'"
           }
         ]
       }

@@ -184,13 +184,13 @@ abnt_paragraph(doc,
     "iconográfica citada e a Pathosformel warburguiana ativa — a fórmula gestual que porta, em si "
     "mesma, uma memória de emoção histórica (Nachleben). Na terceira etapa — análise iconológica —, "
     "interpreta-se a função jurídico-política da alegoria, classificando-a em um dos três regimes "
-    "iconocráticos (FUNDACIONAL, NORMATIVO, MILITAR) e avaliando o grau de ENDURECIMENTO do corpo "
+    "iconocráticos (FUNDACIONAL, NORMATIVO, MILITAR) e avaliando o grau de endurecimento do corpo "
     "alegórico mediante os dez indicadores de purificação.")
 
 # ══════════════════════════════════════════════════════════════════════
-# 4. ENDURECIMENTO E REGIMES ICONOCRÁTICOS
+# 4. Endurecimento E REGIMES ICONOCRÁTICOS
 # ══════════════════════════════════════════════════════════════════════
-heading(doc, "4  Os Três Regimes Iconocráticos e o Conceito de ENDURECIMENTO")
+heading(doc, "4  Os Três Regimes Iconocráticos e o Conceito de endurecimento")
 
 abnt_paragraph(doc,
     "O conceito de iconocracia designa o regime pelo qual o Estado moderno utiliza imagens — "
@@ -213,7 +213,7 @@ abnt_paragraph(doc,
     "A Britannia com tridente e capacete, sentada sobre o globo, é o seu paradigma.")
 
 abnt_paragraph(doc,
-    "O ENDURECIMENTO — conceito original desta tese — designa o processo de purificação progressiva "
+    "O endurecimento — conceito original desta tese — designa o processo de purificação progressiva "
     "pelo qual o corpo feminino alegorizado se transforma de corpo vivo em ícone estatal imóvel, "
     "intercambiável e metalizado. Trata-se de um processo mensurável a partir de dez indicadores "
     "analíticos, cada um avaliado em escala ordinal de zero a quatro pontos (0 = ausente; 4 = "
@@ -225,13 +225,13 @@ abnt_paragraph(doc,
     "ou ornamentais; (7) apagamento narrativo — remoção do contexto de ação; (8) monocromatização "
     "— redução da policromia ao monocromo ou ao metálico; (9) serialidade — reprodução industrial "
     "em massa; e (10) inscrição estatal — texto ou símbolos estatais inscritos sobre ou ao redor "
-    "do corpo. O score de ENDURECIMENTO de cada item é calculado como média aritmética dos dez "
+    "do corpo. O score de endurecimento de cada item é calculado como média aritmética dos dez "
     "indicadores (escala 0,0–4,0), funcionando sempre como síntese interpretativa, nunca como "
     "substituição da análise qualitativa individual de cada indicador.")
 
 abnt_paragraph(doc,
     "Esta tese propõe igualmente dois conceitos originais que operacionalizam a dimensão de gênero "
-    "do ENDURECIMENTO. O Contrato Sexual Visual designa o mecanismo pelo qual o Estado moderno "
+    "do endurecimento. O Contrato Sexual Visual designa o mecanismo pelo qual o Estado moderno "
     "instrumentaliza o corpo feminino alegorizado para fins de legitimação jurídico-política: o corpo "
     "da mulher — abstrato, idealizado, purificado — é convertido em suporte da autoridade estatal "
     "precisamente porque é esvaziado de sua particularidade de sujeito. A Feminilidade de Estado "
@@ -300,7 +300,7 @@ abnt_paragraph(doc,
     "A segunda técnica é a análise de conteúdo visual, entendida à luz da proposta metodológica de "
     "Laurence Bardin e adaptada às especificidades do documento iconográfico. As categorias analíticas "
     "são estabelecidas a priori com base no marco teórico da pesquisa e operacionalizadas pelo "
-    "protocolo dos dez indicadores de ENDURECIMENTO: cada indicador funciona como uma categoria de "
+    "protocolo dos dez indicadores de endurecimento: cada indicador funciona como uma categoria de "
     "análise com definição operacional explícita, escala de pontuação e exemplos-âncora calibrados "
     "por subgrupo de regime iconocrático. A análise é realizada em dupla rodada independente — com "
     "intervalo mínimo de quinze dias entre as rodadas — para controle da consistência interna. As "
@@ -309,7 +309,7 @@ abnt_paragraph(doc,
 
 abnt_paragraph(doc,
     "A terceira técnica é a comparação sistemática entre jurisdições. A comparação opera em dois "
-    "níveis articulados. No primeiro nível, comparam-se os perfis médios de ENDURECIMENTO entre "
+    "níveis articulados. No primeiro nível, comparam-se os perfis médios de endurecimento entre "
     "jurisdições e entre regimes iconocráticos, identificando tendências convergentes e divergentes. "
     "No segundo nível — o mais relevante para a tese —, analisam-se as transferências iconográficas "
     "transnacionais: como a Marianne francesa influenciou a República brasileira; como a Britannia "
@@ -329,14 +329,14 @@ abnt_paragraph(doc,
     "a presente tese, quatro dispositivos foram concebidos de forma integrada. O "
     "primeiro é a triangulação metodológica: cada peça do corpus é examinada por "
     "ao menos três vias analíticas independentes — a análise iconológica em três "
-    "níveis, a pontuação dos dez indicadores de ENDURECIMENTO e a localização da "
+    "níveis, a pontuação dos dez indicadores de endurecimento e a localização da "
     "peça no mapa comparativo do Zwischenraum — de modo que nenhuma conclusão "
     "interpretativa repousa sobre uma única operação analítica."
 )
 
 abnt_paragraph(doc,
     "O segundo dispositivo é a operacionalização explícita e pública dos conceitos. "
-    "Os dez indicadores de ENDURECIMENTO são definidos operacionalmente no protocolo "
+    "Os dez indicadores de endurecimento são definidos operacionalmente no protocolo "
     "IconoCode com descrição verbal, exemplos positivos e negativos, e critérios de "
     "pontuação (escala ordinal 0–4) suficientemente precisos para permitir a "
     "aplicação independente por outros pesquisadores. Essa transparência definitória "
@@ -361,7 +361,7 @@ abnt_paragraph(doc,
 abnt_paragraph(doc,
     "A validade externa da tese é de natureza analítica, não estatística: o objetivo "
     "não é generalizar para uma população de imagens, mas testar a transferibilidade "
-    "do modelo de ENDURECIMENTO para contextos culturais comparáveis. A estratégia "
+    "do modelo de endurecimento para contextos culturais comparáveis. A estratégia "
     "de saturação teórica — encerramento da coleta quando novos itens deixam de "
     "acrescentar variação nos scores dos indicadores — fornece o critério de "
     "suficiência do corpus sem recorrer a cálculos amostrais probabilísticos. "
@@ -398,7 +398,7 @@ abnt_paragraph(doc,
 
 abnt_paragraph(doc,
     "A terceira limitação é inerente ao método interpretativo: a pontuação dos dez "
-    "indicadores de ENDURECIMENTO depende, em última instância, do juízo informado "
+    "indicadores de endurecimento depende, em última instância, do juízo informado "
     "da pesquisadora, cuja trajetória intelectual (formada na interface entre direito "
     "e história da arte) constitui simultaneamente o ativo e o limite da análise. "
     "O protocolo de dupla codificação reduz, mas não elimina, a dimensão subjetiva "

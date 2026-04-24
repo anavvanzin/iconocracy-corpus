@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: loc
@@ -39,9 +39,9 @@ Thesis (PH. D.)--Columbia university, 1912. Vita. Published also as Studies in h
 
 **Motivos identificados**: Columbia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 ERNEST, brehaut,. **An encyclopedist of the dark ages : Isidore of Seville,**. 1912. Library of Congress. Disponível em: https://www.loc.gov/item/12018646/. Acesso em: 04 Apr. 2026.

@@ -14,7 +14,7 @@ tags:
 related:
   - "[[SCOUT-023]]"
   - "[[SCOUT-032]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Marianne — Nachleben]]"
   - "[[Ocupacao do Ruhr]]"
@@ -26,4 +26,4 @@ data_scout: 2026-03-28
 Polo A (FR, 1885): Piastre de Commerce (Barre) — Marianne sentada, fasces, ancora. Soberania colonial.
 Polo B (DE, 1923): Goetz K-299 — Marianne com chicote/estrangulando. Propaganda anti-francesa.
 
-A mesma alegoria, o mesmo barrete frigio. Em 1885 garante a jurisdicao francesa na Asia. Em 1923 e capturada pelo inimigo e transformada em assassina. O ENDURECIMENTO muda de agente: o Estado frances endurece sua propria alegoria; o inimigo alemao a endurece contra ela.
+A mesma alegoria, o mesmo barrete frigio. Em 1885 garante a jurisdicao francesa na Asia. Em 1923 e capturada pelo inimigo e transformada em assassina. O endurecimento muda de agente: o Estado frances endurece sua propria alegoria; o inimigo alemao a endurece contra ela.

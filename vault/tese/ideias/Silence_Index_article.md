@@ -8,7 +8,7 @@ date: 2026-04-03
 
 ## Core idea
 
-Map which allegories SPEAK vs. which are SILENT across the corpus. Silence as an unmeasured dimension of ENDURECIMENTO — a qualitative layer the 10 quantitative indicators miss.
+Map which allegories SPEAK vs. which are SILENT across the corpus. Silence as an unmeasured dimension of endurecimento — a qualitative layer the 10 quantitative indicators miss.
 
 ## Evidence from the corpus
 
@@ -22,7 +22,7 @@ Map which allegories SPEAK vs. which are SILENT across the corpus. Silence as an
 
 ## Thesis argument
 
-The trajectory from BR-007 (speaking Justice, 1827) to BR-009 (mute Justice, 1961) parallels the ENDURECIMENTO trajectory: as the body hardens, the voice disappears. Silence is not merely the absence of speech — it is the RESULT of purification. The normative regime requires silence because speech implies agency, individuality, temporality — everything ENDURECIMENTO eliminates.
+The trajectory from BR-007 (speaking Justice, 1827) to BR-009 (mute Justice, 1961) parallels the endurecimento trajectory: as the body hardens, the voice disappears. Silence is not merely the absence of speech — it is the RESULT of purification. The normative regime requires silence because speech implies agency, individuality, temporality — everything endurecimento eliminates.
 
 ## Potential 11th indicator?
 

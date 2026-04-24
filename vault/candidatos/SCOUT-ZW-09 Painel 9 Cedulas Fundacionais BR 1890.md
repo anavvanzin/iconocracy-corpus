@@ -13,7 +13,7 @@ tags:
 related:
   - "[[SCOUT-423]]"
   - "[[SCOUT-424]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Regime Fundacional]]"
   - "[[Contrato Sexual Visual]]"
 data_scout: 2026-04-10
@@ -40,15 +40,15 @@ Este painel estabelece o espaço de tensão (*Zwischenraum*) entre as duas prime
 | **N° de alegorias** | 3 (Liberdade, Governo, Justiça) | 1 (Liberdade) |
 | **Postura dominante** | Sentadas + busto | De pé |
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-Ambos os polos pertencem ao regime FUNDACIONAL, mas exibem estratégias de ENDURECIMENTO distintas:
+Ambos os polos pertencem ao regime FUNDACIONAL, mas exibem estratégias de endurecimento distintas:
 
-**Polo A (50 Mil Réis)** apresenta *mais* ENDURECIMENTO: três figuras sentadas em composição simétrica, rigidez postural moderada, enquadramento arquitetônico denso (guilloché), apagamento narrativo (alegorias genéricas sem cena específica). A **serialidade** e a **monocromatização** são máximas. A impressão por firma londrina introduz um filtro europeu na representação do corpo republicano brasileiro.
+**Polo A (50 Mil Réis)** apresenta *mais* endurecimento: três figuras sentadas em composição simétrica, rigidez postural moderada, enquadramento arquitetônico denso (guilloché), apagamento narrativo (alegorias genéricas sem cena específica). A **serialidade** e a **monocromatização** são máximas. A impressão por firma londrina introduz um filtro europeu na representação do corpo republicano brasileiro.
 
-**Polo B (20 Mil Réis)** apresenta *menos* ENDURECIMENTO: figura de pé (rigidez postural baixa), bandeiras ao fundo (apagamento narrativo menor — há contexto revolucionário). A figura solitária evita a heraldicização tripartida do Polo A.
+**Polo B (20 Mil Réis)** apresenta *menos* endurecimento: figura de pé (rigidez postural baixa), bandeiras ao fundo (apagamento narrativo menor — há contexto revolucionário). A figura solitária evita a heraldicização tripartida do Polo A.
 
-A **desincorporação** opera inversamente: no Polo A, o corpo é fragmentado em três figuras (nenhuma completa em si), enquanto no Polo B, o corpo inteiro está presente. Paradoxalmente, a multiplicação de alegorias no Polo A produz mais ENDURECIMENTO que a figura única do Polo B.
+A **desincorporação** opera inversamente: no Polo A, o corpo é fragmentado em três figuras (nenhuma completa em si), enquanto no Polo B, o corpo inteiro está presente. Paradoxalmente, a multiplicação de alegorias no Polo A produz mais endurecimento que a figura única do Polo B.
 
 ### 2. O Contrato Sexual Visual
 
@@ -62,6 +62,6 @@ A tensão entre os dois polos revela o dilema fundacional: o novo Estado oscila 
 
 ### 3. Sintese para a Tese
 
-Este Zwischenraum demonstra que o ENDURECIMENTO começa *dentro* do próprio momento fundacional. A República brasileira de 1890 já oscila entre dois programas visuais: o institucional (corpos sentados, tripartidos, simétricos — proto-normativo) e o revolucionário (corpo de pé, bandeiras, dinamismo — fundacional puro).
+Este Zwischenraum demonstra que o endurecimento começa *dentro* do próprio momento fundacional. A República brasileira de 1890 já oscila entre dois programas visuais: o institucional (corpos sentados, tripartidos, simétricos — proto-normativo) e o revolucionário (corpo de pé, bandeiras, dinamismo — fundacional puro).
 
 A impressão por casas europeias (Waterlow & Sons) adiciona uma camada colonial ao contrato visual: o corpo da República brasileira é desenhado por gravadores britânicos, replicando padrões iconográficos europeus. A *Efígie da República* brasileira é, desde o nascimento, uma importação visual — uma Marianne tropicalizada. Esta dependência iconográfica conecta-se ao argumento central da tese sobre a colonialidade do ver (*Colonialidade do Ver*, Cap. 3).

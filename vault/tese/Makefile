@@ -9,6 +9,7 @@
 PANDOC = pandoc
 CSL = abnt.csl
 BIB = references.bib
+META = metadata.yaml
 REF_DOC = template.docx
 OUTPUT_DIR = output
 
@@ -41,12 +42,15 @@ PANDOC_PDF = $(PANDOC_COMMON) \
              -V documentclass=report \
              -V mainfont="Times New Roman"
 
-# Adicionar CSL e BIB apenas se existirem
+# Adicionar CSL, BIB e metadata.yaml apenas se existirem
 ifneq (,$(wildcard $(CSL)))
   PANDOC_COMMON += --csl=$(CSL)
 endif
 ifneq (,$(wildcard $(BIB)))
   PANDOC_COMMON += --bibliography=$(BIB)
+endif
+ifneq (,$(wildcard $(META)))
+  PANDOC_COMMON += --metadata-file=$(META)
 endif
 
 .PHONY: docx pdf clean setup

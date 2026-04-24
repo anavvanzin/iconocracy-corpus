@@ -12,7 +12,7 @@ motivo_alegorico: "A República (efígie em medalha)"
 regime: NORMATIVO
 confianca: alto
 tags: [corpus/candidato, pais/BR, suporte/papel-moeda, regime/normativo, motivo/republica, "#sem-iiif"]
-related: ["[[Regime Normativo]]", "[[ENDURECIMENTO]]", "[[SCOUT-103]]", "[[SCOUT-095]]"]
+related: ["[[Regime Normativo]]", "[[endurecimento]]", "[[SCOUT-103]]", "[[SCOUT-095]]"]
 hf_synced: false
 data_scout: 2026-03-30
 ---
@@ -28,7 +28,7 @@ data_scout: 2026-03-30
 Tônia Carreiro da moeda de 50 cruzeiros, SCOUT-103). A mesma alegoria migra da moeda
 para a cédula — multiplica a serialidade.
 **Regime:** NORMATIVO — regime militar brasileiro (1964-1985)
-**ENDURECIMENTO detectado:** sim — todos os indicadores ativos. A efígie é literalmente
+**endurecimento detectado:** sim — todos os indicadores ativos. A efígie é literalmente
 um medallão dentro da cédula — enquadramento_arquitetonico ao quadrado. Emitida durante
 o regime militar, a alegoria "republicana" é cooptada pelo autoritarismo.
 

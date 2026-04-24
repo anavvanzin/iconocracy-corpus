@@ -133,27 +133,27 @@ def build_tags(candidate):
 
 
 def format_regime_analysis(candidate):
-    """Generate a preliminary ENDURECIMENTO assessment."""
+    """Generate a preliminary endurecimento assessment."""
     regime = candidate.get("regime")
     support = candidate.get("support")
     motifs = candidate.get("motif", [])
     score = candidate.get("hunt_score", 0)
 
     if not regime:
-        return "**Regime**: indeterminado — requer análise visual.\n**ENDURECIMENTO**: pendente — sem acesso à imagem."
+        return "**Regime**: indeterminado — requer análise visual.\n**endurecimento**: pendente — sem acesso à imagem."
 
     regime_upper = regime.upper()
     lines = [f"**Regime preliminar**: {regime_upper}"]
 
     if regime == "fundacional":
         lines.append("Indicadores esperados: corpo dinâmico, seminudez, atributos revolucionários.")
-        lines.append("ENDURECIMENTO esperado: BAIXO (corpo ainda vivo, narrativo).")
+        lines.append("endurecimento esperado: BAIXO (corpo ainda vivo, narrativo).")
     elif regime == "normativo":
         lines.append("Indicadores esperados: pose estática/frontal, drapeado pesado, serialidade.")
-        lines.append("ENDURECIMENTO esperado: MÉDIO a ALTO (corpo institucionalizado).")
+        lines.append("endurecimento esperado: MÉDIO a ALTO (corpo institucionalizado).")
     elif regime == "militar":
         lines.append("Indicadores esperados: armadura, capacete, escudo, rigidez extrema.")
-        lines.append("ENDURECIMENTO esperado: ALTO (corpo blindado/petrificado).")
+        lines.append("endurecimento esperado: ALTO (corpo blindado/petrificado).")
 
     lines.append("")
     lines.append("*Classificação preliminar baseada em metadados textuais. Requer confirmação visual.*")
@@ -195,7 +195,7 @@ def generate_note(candidate, scout_id):
 
     # Build YAML frontmatter
     tags_yaml = "\n".join(f'  - {t}' for t in tags)
-    related_yaml = '  - "[[ENDURECIMENTO]]"\n  - "[[Feminilidade de Estado]]"'
+    related_yaml = '  - "[[endurecimento]]"\n  - "[[Feminilidade de Estado]]"'
 
     frontmatter = f"""---
 id: SCOUT-{scout_id}
@@ -252,7 +252,7 @@ data_scout: {date.today()}
         body_parts.append("")
 
     # Regime analysis
-    body_parts.append("### Análise preliminar de ENDURECIMENTO")
+    body_parts.append("### Análise preliminar de endurecimento")
     body_parts.append(format_regime_analysis(candidate))
     body_parts.append("")
 

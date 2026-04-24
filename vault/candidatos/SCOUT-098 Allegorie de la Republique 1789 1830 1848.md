@@ -31,11 +31,11 @@ data_scout: 2026-03-30
 ## Analise preliminar
 **Motivo:** La République across three constitutional founding moments (1789, 1830, 1848)
 **Regime:** FUNDACIONAL — meta-foundational: the Nachleben of the Pathosformel made explicit
-**ENDURECIMENTO detectado:** incerto — requires close analysis of whether the three depicted moments show progressive morphological variation
+**endurecimento detectado:** incerto — requires close analysis of whether the three depicted moments show progressive morphological variation
 
 ## Importancia para a tese
 Potencialmente o item FUNDACIONAL mais importante do corpus. Uma estampe que
 explicitamente representa a Nachleben da Pathosformel republicana em tres momentos
-constitucionais. Se as tres figuras mostram ENDURECIMENTO progressivo, esta é
+constitucionais. Se as tres figuras mostram endurecimento progressivo, esta é
 evidencia iconografica direta de que a cultura juridica altera suas alegorias
 ao longo do tempo. PRIORIDADE MAXIMA para analise IconoCode.

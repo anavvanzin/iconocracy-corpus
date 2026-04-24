@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -39,9 +39,9 @@ Columbia, S.C.
 
 **Motivos identificados**: Columbia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 SC, university of south carolina; columbia,. **The Columbia daily phoenix (Columbia, S.C.), June 21, 1865**. 1865-06-21. Library of Congress. Disponível em: https://www.loc.gov/item/sn84027007/1865-06-21/ed-1/. Acesso em: 04 Apr. 2026.

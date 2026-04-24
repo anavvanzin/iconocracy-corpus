@@ -24,7 +24,7 @@ tags:
 
 Moeda de bronze (1 penny). Anverso: Victoria com veu (Veiled Head), retrato envelhecido da rainha. Reverso: Britannia sentada a direita sobre rocha, com capacete, robes fluentes, segurando tridente, escudo com cruzes da Union.
 
-## ENDURECIMENTO detectado
+## Endurecimento detectado
 
 - **desincorporacao**: moderada -- busto (anverso) e corpo sentado (reverso)
 - **rigidez_postural**: alta -- postura sentada, hieratica, ancorada

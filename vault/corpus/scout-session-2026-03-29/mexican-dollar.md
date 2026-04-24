@@ -32,7 +32,7 @@ tags:
 related:
   - "[[SCOUT-021 British Trade Dollar]]"
   - "[[SCOUT-023 Piastre de Commerce]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Moedas de Comercio Imperial]]"
 data_scout: 2026-03-29
@@ -100,7 +100,7 @@ data_scout: 2026-03-29
 - [x] barrete frigio (SEM corpo feminino que o porte)
 - [x] raios de luz/sol
 
-**ENDURECIMENTO detectado:** N/A -- nao ha corpo alegorico para endurecer. A moeda opera por HERALDIZACAO PURA: o simbolo nacional (aguia) e o simbolo de liberdade (barrete) funcionam sem mediacao de corpo feminino.
+**endurecimento detectado:** N/A -- nao ha corpo alegorico para endurecer. A moeda opera por HERALDIZACAO PURA: o simbolo nacional (aguia) e o simbolo de liberdade (barrete) funcionam sem mediacao de corpo feminino.
 
 ---
 
@@ -164,7 +164,7 @@ related:
   - "[[SCOUT-038]]"
   - "[[SCOUT-021]]"
   - "[[SCOUT-023]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Heraldizacao]]"
   - "[[Moedas de Comercio Imperial]]"
@@ -196,7 +196,7 @@ Este painel estabelece um Zwischenraum TRIPOLAR entre a moeda de comercio asiati
 | **Alegoria feminina** | **AUSENTE** | **PRESENTE** | **PRESENTE** |
 | **Regime** | NORMATIVO | MILITAR | MILITAR |
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
 O triangulo revela uma operacao de SUBSTITUICAO ICONOGRAFICA sem precedentes. A moeda mexicana opera por **heraldizacao pura** -- o brasao nacional (aguia devorando serpente) e o simbolo de liberdade (barrete frigio) funcionam sem corpo humano. E uma moeda que veicula soberania por SIMBOLO ABSTRATO, nao por CORPO ALEGORICO.
 
@@ -208,7 +208,7 @@ Quando o Imperio Britanico e a Republica Francesa decidem criar moedas para comp
 
 A AUSENCIA de corpo feminino no Polo 0 torna visivel o que os Polos A e B ADICIONAM: o corpo feminino como instrumento de legitimacao imperial. Nao se trata de continuidade monetaria, mas de INOVACAO ICONOCRATICA. Os imperios nao herdaram a alegoria feminina da moeda que substituiam -- eles a IMPLANTARAM.
 
-**Indicadores de ENDURECIMENTO ativos:**
+**Indicadores de endurecimento ativos:**
 
 | Indicador | Polo 0 (MX) | Polo A (UK) | Polo B (FR) |
 |-----------|-------------|-------------|-------------|
@@ -247,9 +247,9 @@ Este Zwischenraum tripolar fornece uma das evidencias mais fortes para o argumen
 
 2. O corpo feminino funciona como MARCADOR DE CIVILIZACAO autoproclamada -- Britannia e Marianne sao alegorias de imperios que se consideram superiores a republica mexicana.
 
-3. O ENDURECIMENTO nao e apenas a rigidificacao de alegorias existentes -- e tambem a CRIACAO de alegorias onde antes nao existiam, quando a situacao imperial o exige.
+3. O endurecimento nao e apenas a rigidificacao de alegorias existentes -- e tambem a CRIACAO de alegorias onde antes nao existiam, quando a situacao imperial o exige.
 
-4. A competicao entre Britannia (de pe, dinamica) e Marianne (sentada, estatica) mostra que mesmo dentro do paradigma imperial, ha VARIACOES no grau de ENDURECIMENTO: a Gra-Bretanha opta por uma Britannia mais proxima do regime MILITAR (dominadora), enquanto a Franca opta por uma Marianne mais proxima do regime NORMATIVO (juridica, petrificada).
+4. A competicao entre Britannia (de pe, dinamica) e Marianne (sentada, estatica) mostra que mesmo dentro do paradigma imperial, ha VARIACOES no grau de endurecimento: a Gra-Bretanha opta por uma Britannia mais proxima do regime MILITAR (dominadora), enquanto a Franca opta por uma Marianne mais proxima do regime NORMATIVO (juridica, petrificada).
 
 **Para o atlas warburguiano:** Este painel tripolar deve ocupar posicao CENTRAL no Painel VI, com o Mexican Dollar no topo (ou no centro) como ponto de referencia a partir do qual irradiam as duas solucoes imperiais. A disposicao visual deve mostrar a BIFURCACAO: de uma moeda sem corpo feminino (heraldizacao pura) nascem DUAS moedas com corpo feminino (Britannia dinamica vs. Marianne petrificada), revelando o momento exato em que os imperios europeus INVENTAM a necessidade do corpo feminino no instrumento monetario de comercio.
 ```

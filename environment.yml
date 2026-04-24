@@ -13,3 +13,8 @@ dependencies:
   - pip:
     - jsonschema>=4.0
     - rich>=10.0
+    - prince
+    - statsmodels
+    - seaborn
+    - scipy
+    - scikit-posthocs

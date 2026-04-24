@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: europeana
@@ -37,9 +37,9 @@ data_scout: 2026-04-03
 
 **Motivos identificados**: Justice
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 JUSTUS, Danckerts,. **Iusticia [justice]**. Herzog Anton Ulrich Museum. Disponível em: http://kk.haum-bs.de/?id=briot-i-wb3-0005. Acesso em: 03 Apr. 2026.

@@ -11,7 +11,7 @@ pais: BR
 suporte: estampa
 motivo_alegorico: "Contra-alegoria"
 regime: CONTRA-ALEGORIA
-endurecimento: BAIXO
+Endurecimento: BAIXO
 confianca: alto
 tags:
   - corpus/candidato
@@ -56,7 +56,7 @@ Cena doméstica que retrata a inversão dos papéis de gênero: homens idosos fa
 - [ ] postura frontal hierática
 - [x] contexto arquitetônico forense (referenciado como 'Câmara')
 
-**ENDURECIMENTO:** BAIXO
+**endurecimento:** BAIXO
 **Regime iconocrático:** CONTRA-ALEGORIA
 **Justificativa:** A charge utiliza o riso e o ridículo para ridicularizar a agência política feminina, agindo como uma barreira visual à expansão da cidadania.
 

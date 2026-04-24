@@ -19,7 +19,7 @@ tags:
   - "#decisao-metodologica"
 related:
   - "[[Contrato Sexual Visual]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[Iconocracia]]"
   - "[[SCOUT-ZW-11 Semeuse vs Weimar eagle absence]]"
@@ -44,7 +44,7 @@ related:
 | Duração | 120+ anos (1898–presente) | ~6 anos (1924–1930) |
 | Tiragem | 440 milhões | Limitada |
 
-## Mutação do ENDURECIMENTO
+## Mutação do endurecimento
 
 ### Dois gestos femininos da república
 

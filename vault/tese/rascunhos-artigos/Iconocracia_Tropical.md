@@ -73,7 +73,7 @@ Em vez de caos, o 8 de janeiro manifestou a colisão de duas comunidades epistê
 
 ### 2.3 O Contrato Sexual Visual
 
-Como os historiadores Maurice Agulhon e Marina Warner argumentaram, uma figura masculina representa um governante específico — um concorrente ao poder. Uma figura feminina, historicamente excluída do governo e juridicamente definida como menor de idade, implica ideais em vez de poder pessoal. Ela representa o Estado sem ameaçar usurpá-lo; é a mãe dos cidadãos, não seu senhor. Assim, a dimensão visual do Contrato Sexual Visual transpõe a crítica feminista de Carole Pateman para o campo da iconografia jurídica (AGULHON, 1981; WARNER, 1985).
+Como os historiadores Maurice Agulhon e Marina Warner argumentaram, uma figura masculina representa um governante específico — um concorrente ao poder. Uma figura feminina, historicamente excluída do governo e juridicamente definida como menor de idade, implica ideais em vez de poder pessoal. Ela representa o Estado sem ameaçar usurpá-lo; é a mãe dos cidadãos, não seu senhor. A partir desse problema histórico, o artigo mobiliza o **Contrato Sexual Visual** — conceito original desta tese — como formulação que põe em diálogo a crítica feminista de Carole Pateman com o campo da iconografia jurídica (AGULHON, 1981; WARNER, 1985; PATEMAN, 1988).
 
 A exaltação simbólica do feminino como Nação, Liberdade ou Justiça encobre e naturaliza a exclusão efetiva das mulheres da esfera cívica e política. A iconografia jurídica surge, assim, como dispositivo de controle ideológico pelo qual a instrumentalização do feminino sustenta a hegemonia masculina e a autoridade do Estado moderno (PATEMAN, 1988).
 

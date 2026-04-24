@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 1.0
 hunt_source: europeana
@@ -37,9 +37,9 @@ data_scout: 2026-04-03
 
 **Motivos identificados**: Justice
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 ENGLEBERT, Fisen,. **Allégorie : le perron avec ses deux blasons muets entre la Force et la Prudence ; au-dessus plane la Justice**. Royal Institute for Cultural Heritage. Disponível em: http://balat.kikirpa.be/object/10130401. Acesso em: 03 Apr. 2026.

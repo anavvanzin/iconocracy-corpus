@@ -384,7 +384,7 @@ confianca: baixo
 tags:
 {tags_yaml}
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 data_scout: {today}
 records_item_id: {record.get('item_id', '')}
@@ -400,7 +400,7 @@ records_item_id: {record.get('item_id', '')}
 
 **Motivos identificados**: {motifs_str}
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime preliminar**: {regime}
 
 *Análise gerada automaticamente a partir de records.jsonl. Requer validação visual.*

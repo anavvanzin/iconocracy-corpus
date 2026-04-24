@@ -88,9 +88,7 @@ Há, entretanto, uma ausência notável na obra de Goodrich, simétrica à de Pa
 
 A Justiça é uma mulher. A Liberdade é uma mulher. A República é uma mulher. A Nação é uma mulher. As quatro liberdades constitucionais belgas, esculpidas nos cantos da Coluna do Congresso de Bruxelas, são quatro mulheres sentadas com atributos, como demonstra Huygebaert, numa iconografia diretamente modelada sobre as quatro virtudes cardinais medievais (HUYGEBAERT, 2015, p. 35). A visiocracia, tal como Goodrich a descreve, é *genderizada* de ponta a ponta. Mas Goodrich não examina esse gênero.
 
-O próprio Goodrich, em *Imago Decidendi* (2017), inscreve seu argumento em diálogo com o pensamento de Marie-José Mondzain sobre a radicalidade da imagem e a economia do visível, reconhecendo que a digitalização do Direito intensifica o regime de imagens até o ponto em que elas se tornam o modo primário de raciocínio, autorização e julgamento (GOODRICH, 2017; MONDZAIN, 2017). A convergência entre os dois projetos teóricos é, contudo, registrada sem ser desenvolvida. A articulação entre visiocracia (Goodrich), economia do ícone (Mondzain) e contrato sexual (Pateman) — que esta tese propõe realizar — permanece uma lacuna na literatura.
-
-[VERIFICAR: confirmar se Goodrich em *Imago Decidendi* (2017) usa explicitamente o conceito de *iconocracia* de Mondzain ou se a referência é mais geral à sua teoria da imagem. A obra de Mondzain citada por Goodrich é *Confiscation: des mots, des images et du temps* (Paris: Les liens qui libèrent, 2017), não *Image, icône, économie* (1996). Ajustar a referência a Mondzain na frase anterior conforme o que Goodrich efetivamente cita.]
+O próprio Goodrich, em *Imago Decidendi* (2017), aproxima seu argumento de Mondzain num registro mais geral da imagem e da encarnação da decisão, sem desenvolver explicitamente o conceito de iconocracia. A convergência entre os dois projetos teóricos é, contudo, apenas assinalada. A articulação entre visiocracia (Goodrich), economia do ícone (Mondzain) e contrato sexual (Pateman) — que esta tese propõe realizar — permanece uma lacuna na literatura.
 
 ---
 

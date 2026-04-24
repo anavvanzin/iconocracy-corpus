@@ -17,7 +17,7 @@ tags:
   - motivo/britannia
   - "#contra-alegoria"
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
 data_scout: 2026-03-30
 ---
@@ -30,9 +30,9 @@ data_scout: 2026-03-30
 
 Britannia munificente ao centro, escudo e leão, rodeada por representações dos continentes com pessoas lendo cartas. RIDICULARIZADO pelo público e RETIRADO em dois meses. Substituído pelo Penny Black com retrato da rainha = corpo REAL triunfa sobre corpo ALEGÓRICO.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**NÃO** — Anti-ENDURECIMENTO fundacional. Corpo narrativo, dinâmico, complexo — REJEITADO pelo público. UK: único país onde corpo REAL feminino substitui corpo ALEGÓRICO feminino.
+**NÃO** — Anti-endurecimento fundacional. Corpo narrativo, dinâmico, complexo — REJEITADO pelo público. UK: único país onde corpo REAL feminino substitui corpo ALEGÓRICO feminino.
 
 ### Citação ABNT
 

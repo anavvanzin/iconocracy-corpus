@@ -51,11 +51,11 @@ The 1910s peak at 11 items. The 1800s, 1810s, 1840s, 1980s, and 1990s have zero 
 
 ### GAP 1 -- MILITAR regime has only 3 items (3%)
 
-**CRITICAL.** The entire ENDURECIMENTO thesis rests on demonstrating progressive purification across fundacional -> normativo -> militar. With only 3 items in the militar category (2 BR Estado Novo, 1 cartaz), no statistical test (Kruskal-Wallis, correspondence analysis) can produce reliable results. Needs at minimum 15-20 items.
+**CRITICAL.** The entire endurecimento thesis rests on demonstrating progressive purification across fundacional -> normativo -> militar. With only 3 items in the militar category (2 BR Estado Novo, 1 cartaz), no statistical test (Kruskal-Wallis, correspondence analysis) can produce reliable results. Needs at minimum 15-20 items.
 
 ### GAP 2 -- No militar items for FR, DE, US, UK, or BE
 
-The ENDURECIMENTO hypothesis requires showing the pattern holds across national traditions. Currently all 3 militar items are Brazilian (Estado Novo). Vichy France, Nazi Germany (post-1933), fascist Italy, and wartime US/UK propaganda are completely absent.
+The endurecimento hypothesis requires showing the pattern holds across national traditions. Currently all 3 militar items are Brazilian (Estado Novo). Vichy France, Nazi Germany (post-1933), fascist Italy, and wartime US/UK propaganda are completely absent.
 
 ### GAP 3 -- Moeda and papel-moeda critically underrepresented (2 coins, 4 banknotes)
 

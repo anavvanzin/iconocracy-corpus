@@ -27,5 +27,5 @@ data_scout: 2026-03-30
 ## Analise preliminar
 **Motivo:** Revolutionary paper money — Year I of the Republic
 **Regime:** FUNDACIONAL — if female allegory confirmed, earliest paper money allegory
-**ENDURECIMENTO detectado:** nao (if present, should be fully FUNDACIONAL)
+**endurecimento detectado:** nao (if present, should be fully FUNDACIONAL)
 **Confianca:** medio — needs IIIF visual confirmation of female figure

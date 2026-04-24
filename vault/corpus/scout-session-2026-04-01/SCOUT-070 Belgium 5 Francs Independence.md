@@ -19,7 +19,7 @@ tags:
   - regime/fundacional
   - motivo/belgique
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[La Belgique]]"
 hf_synced: false
@@ -55,7 +55,7 @@ data_scout: 2026-04-01
 - [x] Constituição (documento fundacional)
 - [x] contexto arquitetônico (Coluna do Congresso, Palácio de Justiça)
 
-**ENDURECIMENTO detectado:** moderado — corpo vestido e estático, mas contexto narrativo forte (cena fundacional)
+**endurecimento detectado:** moderado — corpo vestido e estático, mas contexto narrativo forte (cena fundacional)
 
 ---
 

@@ -48,7 +48,7 @@ related:
   - "[[Contrato Sexual Visual]]"
   - "[[BE-001]]"
   - "[[BE-002]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
 data_scout: 2026-03-29
 ---
 
@@ -82,7 +82,7 @@ data_scout: 2026-03-29
 - [x] contexto arquitetonico (Coluna do Congresso, Palacio de Justica)
 - [x] constituicao/documento juridico
 
-**ENDURECIMENTO detectado:** nao -- corpo dinamico, semi-drapeado, em posicao apoiada mas nao rigida. Gestualidade viva. Momento fundacional pre-ENDURECIMENTO.
+**endurecimento detectado:** nao -- corpo dinamico, semi-drapeado, em posicao apoiada mas nao rigida. Gestualidade viva. Momento fundacional pre-endurecimento.
 
 ---
 
@@ -137,7 +137,7 @@ tags:
   - motivo/colonial
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-035]]"
   - "[[SCOUT-037]]"
@@ -175,7 +175,7 @@ data_scout: 2026-03-29
 - [x] bigorna (instrumento de trabalho/industria)
 - [x] tiara/diadema (no medalhao)
 
-**ENDURECIMENTO detectado:** sim -- a figura europeia esta rigida, frontalizada, em posicao de dominio estatico. Dessexualizacao parcial (vestida, nao semi-nua como no regime fundacional). Uniformizacao facial (perfil idealizado). Heraldizacao (estrela congolesa, brasao). Inscricao estatal explicita ("BANQUE DU CONGO BELGE").
+**endurecimento detectado:** sim -- a figura europeia esta rigida, frontalizada, em posicao de dominio estatico. Dessexualizacao parcial (vestida, nao semi-nua como no regime fundacional). Uniformizacao facial (perfil idealizado). Heraldizacao (estrela congolesa, brasao). Inscricao estatal explicita ("BANQUE DU CONGO BELGE").
 
 ---
 
@@ -231,7 +231,7 @@ tags:
   - motivo/domesticidade
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-035]]"
   - "[[SCOUT-036]]"
@@ -269,7 +269,7 @@ data_scout: 2026-03-29
 - [x] fuso/quenouille (atributo de industria)
 - [x] colmeia (atributo de laboriosidade)
 
-**ENDURECIMENTO detectado:** sim (parcial) -- corpo vestido, dessexualizado, em postura estatica sentada. Uniformizacao facial. Apagamento narrativo (nenhuma referencia ao contexto africano real -- tudo e alegorico europeu). Heraldizacao (estrela congolesa).
+**endurecimento detectado:** sim (parcial) -- corpo vestido, dessexualizado, em postura estatica sentada. Uniformizacao facial. Apagamento narrativo (nenhuma referencia ao contexto africano real -- tudo e alegorico europeu). Heraldizacao (estrela congolesa).
 
 ---
 
@@ -324,7 +324,7 @@ tags:
   - motivo/colonial
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-035]]"
   - "[[SCOUT-036]]"
@@ -362,7 +362,7 @@ data_scout: 2026-03-29
 - [x] diadema/tiara (no medalhao)
 - [x] livros (atributo de civilizacao/educacao)
 
-**ENDURECIMENTO detectado:** incerto -- a postura ajoelhada e incomum e nao se enquadra facilmente nos indicadores. Ha dessexualizacao (vestida) e uniformizacao facial, mas a postura ajoelhada introduz dinamismo e vulnerabilidade atipicos para o regime normativo.
+**endurecimento detectado:** incerto -- a postura ajoelhada e incomum e nao se enquadra facilmente nos indicadores. Ha dessexualizacao (vestida) e uniformizacao facial, mas a postura ajoelhada introduz dinamismo e vulnerabilidade atipicos para o regime normativo.
 
 ---
 
@@ -419,7 +419,7 @@ tags:
   - verificar
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[SCOUT-037]]"
 data_scout: 2026-03-29
 ---
@@ -455,7 +455,7 @@ data_scout: 2026-03-29
 - [x] feixe de trigo (agricultura)
 - [x] roda de locomotiva (industria/progresso)
 
-**ENDURECIMENTO detectado:** sim (parcial) -- corpo vestido, sentado, dessexualizado. Postura estatica. Heraldizacao (estrela).
+**endurecimento detectado:** sim (parcial) -- corpo vestido, sentado, dessexualizado. Postura estatica. Heraldizacao (estrela).
 
 ---
 
@@ -506,7 +506,7 @@ tags:
 related:
   - "[[SCOUT-035]]"
   - "[[SCOUT-036]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Regime Fundacional]]"
   - "[[Regime Normativo]]"
@@ -532,11 +532,11 @@ Este painel estabelece o espaco de tensao (*Zwischenraum*) entre a alegoria femi
 | **Circulacao** | Belgica metropolitana | Congo Belga (5 cidades) |
 | **Regime** | FUNDACIONAL | NORMATIVO |
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-No Polo A, La Belgique esta em plena *Pathosformel* fundacional: corpo semi-drapeado, apoiado mas nao rigido, gestualidade viva. A Constituicao e segurada como promessa, nao como instrumento de controle. Nenhum dos dez indicadores de purificacao esta plenamente ativo -- estamos antes do ENDURECIMENTO.
+No Polo A, La Belgique esta em plena *Pathosformel* fundacional: corpo semi-drapeado, apoiado mas nao rigido, gestualidade viva. A Constituicao e segurada como promessa, nao como instrumento de controle. Nenhum dos dez indicadores de purificacao esta plenamente ativo -- estamos antes do endurecimento.
 
-No Polo B, a mesma tipologia feminina europeia sofre transformacao radical. Os indicadores ativos sao: **dessexualizacao** (corpo vestido, coberto), **uniformizacao facial** (rosto idealizado e generico), **heraldizacao** (estrela congolesa, brasao), **inscricao estatal** ("BANQUE DU CONGO BELGE"), **rigidez postural** (postura frontal estatica), **apagamento narrativo** (o contexto africano e eliminado -- a cena e puramente alegorica europeia com o africano como acessorio). A bigorna substitui a Constituicao: do documento juridico-fundador ao instrumento de producao colonial. O ENDURECIMENTO opera aqui nao apenas como rigidificacao morfologica, mas como *deslocamento funcional* da alegoria -- de encarnacao da nacao para instrumento de dominio imperial.
+No Polo B, a mesma tipologia feminina europeia sofre transformacao radical. Os indicadores ativos sao: **dessexualizacao** (corpo vestido, coberto), **uniformizacao facial** (rosto idealizado e generico), **heraldizacao** (estrela congolesa, brasao), **inscricao estatal** ("BANQUE DU CONGO BELGE"), **rigidez postural** (postura frontal estatica), **apagamento narrativo** (o contexto africano e eliminado -- a cena e puramente alegorica europeia com o africano como acessorio). A bigorna substitui a Constituicao: do documento juridico-fundador ao instrumento de producao colonial. O endurecimento opera aqui nao apenas como rigidificacao morfologica, mas como *deslocamento funcional* da alegoria -- de encarnacao da nacao para instrumento de dominio imperial.
 
 ### 2. O Contrato Sexual Visual
 
@@ -546,9 +546,9 @@ No Polo B, o contrato se reconfigura dramaticamente. A mulher europeia nao encar
 
 ### 3. Sintese para a Tese
 
-O transito entre estes dois polos demonstra que o ENDURECIMENTO nao e apenas um fenomeno formal-morfologico, mas um processo de *refuncionalizacao politica* da alegoria. Quando La Belgique cruza o Atlantico (ou o Mediterraneo) para o Congo, sua funcao muda: de encarnacao constitucional para legitimacao imperial. Esta mutacao revela que a cultura juridica altera a morfologia de suas alegorias nao apenas em resposta a crises de legitimacao domestica (como na tese principal), mas tambem em resposta a *expansao territorial do poder soberano*. A colonia e o laboratorio onde o ENDURECIMENTO se radicaliza, porque a necessidade de legitimacao e maior e o corpo alegorico precisa trabalhar mais -- cobrir mais, esconder mais, naturalizar mais.
+O transito entre estes dois polos demonstra que o endurecimento nao e apenas um fenomeno formal-morfologico, mas um processo de *refuncionalizacao politica* da alegoria. Quando La Belgique cruza o Atlantico (ou o Mediterraneo) para o Congo, sua funcao muda: de encarnacao constitucional para legitimacao imperial. Esta mutacao revela que a cultura juridica altera a morfologia de suas alegorias nao apenas em resposta a crises de legitimacao domestica (como na tese principal), mas tambem em resposta a *expansao territorial do poder soberano*. A colonia e o laboratorio onde o endurecimento se radicaliza, porque a necessidade de legitimacao e maior e o corpo alegorico precisa trabalhar mais -- cobrir mais, esconder mais, naturalizar mais.
 
-Este painel abre uma sub-hipotese para a tese: **o colonialismo como acelerador do ENDURECIMENTO alegorico.**
+Este painel abre uma sub-hipotese para a tese: **o colonialismo como acelerador do endurecimento alegorico.**
 ```
 
 ---
@@ -611,7 +611,7 @@ As **cedulas**, por outro lado, sao riquissimas em alegorias femininas coloniais
 2. **Cedulas tardias do Congo Belga (1940-1960)** -- verificar 50 Francs Tipo 1942 e 10 Francs Tipo 1937 no Numizon para confirmar presenca/ausencia de alegorias femininas.
 3. **Medalhas coloniais belgas** -- buscar em Numista e Colnect por medalhas do merito ou decoracoes do Congo Belga com figuras alegoricas.
 4. **Ruanda-Urundi** -- territorio mandatado belga; verificar se as cedulas da Banque du Congo Belge et du Ruanda-Urundi (pos-1952) mantiveram as mesmas alegorias ou as alteraram.
-5. **Comparacao intra-metropolitana** -- buscar outras moedas belgas com La Belgique (1 Franc, 2 Francs, selos) para rastrear a evolucao da alegoria na metropole e mapear o ENDURECIMENTO domestico.
+5. **Comparacao intra-metropolitana** -- buscar outras moedas belgas com La Belgique (1 Franc, 2 Francs, selos) para rastrear a evolucao da alegoria na metropole e mapear o endurecimento domestico.
 
 ## Flags de atencao
 

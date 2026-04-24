@@ -35,7 +35,7 @@ tags:
   - "#sem-iiif"
   - "#verificar"
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Regime Militar]]"
@@ -99,7 +99,7 @@ updated: 2026-03-29
 **Regime iconocratico:** MILITAR
 **Justificativa:** Britannia aparece em postura DINAMICA e BELICA: conduzindo uma biga (chariot) puxada por tres cavalos marinhos ("seahorses") atraves de mares tempestuosos. Ela empunha tridente na mao direita e carrega escudo com Union Jack. Trata-se da Britannia em ACAO DE DOMINIO: nao a soberana entronada e passiva da numismatica interna (como no penny 1d com Britannia sentada), mas uma guerreira em movimento conquistando as ondas. Emitida em junho/agosto 1913 — vespera da Primeira Guerra Mundial — a serie permaneceu em circulacao por 26 anos (1913-1939), atravessando a I Guerra, o entreguerras e o limiar da II Guerra. A iconografia projeta poder naval e dominio imperial: "Britain as a powerful country and a ruler of the seas" (The Postal Museum).
 
-O fato de que quatro impressoras diferentes (Waterlow, De La Rue, Bradbury Wilkinson, Waterlow novamente) reproduziram exatamente o MESMO design da figura feminina ao longo de 26 anos documenta a ESTABILIDADE DO ENDURECIMENTO: uma vez militarizada, Britannia nao se altera. Apenas o fundo do retrato real foi modificado na regravacao de 1934 (linhas horizontais -> linhas cruzadas/cross-hatching). O corpo alegorico feminino sobrevive intacto a quatro contratos industriais.
+O fato de que quatro impressoras diferentes (Waterlow, De La Rue, Bradbury Wilkinson, Waterlow novamente) reproduziram exatamente o MESMO design da figura feminina ao longo de 26 anos documenta a ESTABILIDADE DO endurecimento: uma vez militarizada, Britannia nao se altera. Apenas o fundo do retrato real foi modificado na regravacao de 1934 (linhas horizontais -> linhas cruzadas/cross-hatching). O corpo alegorico feminino sobrevive intacto a quatro contratos industriais.
 
 **Atributos identificados:**
 - [x] tridente (mao direita)
@@ -116,9 +116,9 @@ O fato de que quatro impressoras diferentes (Waterlow, De La Rue, Bradbury Wilki
 - [ ] postura frontal (ausente — perfil em movimento)
 - [ ] contexto arquitetonico (ausente — cenario maritimo)
 
-**ENDURECIMENTO detectado:** SIM — GRAU MAXIMO no suporte selo postal britanico
+**endurecimento detectado:** SIM — GRAU MAXIMO no suporte selo postal britanico
 
-O Seahorse representa o apex do ENDURECIMENTO de Britannia no suporte selo. Comparado com a Britannia sentada do penny domestico (passiva, contemplativa, estatica — ver SCOUT-095), a Britannia do Seahorse e uma figura em ACAO BELIGERANTE. O corpo feminino foi completamente militarizado: nao apenas porta armas (tridente) e armadura (elmo, escudo), mas esta em MOVIMENTO de conquista, atrelada a forca equina marinha. Os tres cavalos marinhos acentuam o pathos de dominio sobre os mares.
+O Seahorse representa o apex do endurecimento de Britannia no suporte selo. Comparado com a Britannia sentada do penny domestico (passiva, contemplativa, estatica — ver SCOUT-095), a Britannia do Seahorse e uma figura em ACAO BELIGERANTE. O corpo feminino foi completamente militarizado: nao apenas porta armas (tridente) e armadura (elmo, escudo), mas esta em MOVIMENTO de conquista, atrelada a forca equina marinha. Os tres cavalos marinhos acentuam o pathos de dominio sobre os mares.
 
 **Indicadores de purificacao ativos (escala master-record):**
 - `rigidez_postural`: INVERTIDA em dinamismo belico — o corpo e rigido na acao de conquista, nao na contemplacao
@@ -133,9 +133,9 @@ O Seahorse representa o apex do ENDURECIMENTO de Britannia no suporte selo. Comp
 1. **Penny domestico 1d (Wyon, George V, 1911-1936)** → NORMATIVO: Britannia sentada, guardia passiva do territorio (SCOUT-095)
 2. **British Trade Dollar (De Saulles, 1895-1935)** → MILITAR: Britannia de pe na praia, comercio/forca imperial (SCOUT-096)
 3. **Seahorse stamp (Mackennal, 1913-1939)** → MILITAR MAXIMO: Britannia em biga, dominio naval ativo (SCOUT-093)
-4. **Festival of Britain stamp (Abram Games, 1951)** → ENDURECIMENTO NEGATIVO: Britannia reduzida a cabeca sem corpo (SCOUT-094)
+4. **Festival of Britain stamp (Abram Games, 1951)** → endurecimento NEGATIVO: Britannia reduzida a cabeca sem corpo (SCOUT-094)
 
-Este gradiente demonstra que o ENDURECIMENTO opera nao apenas diacronicamente (ao longo do tempo) mas tambem SINCRONICAMENTE entre suportes dentro do mesmo pais.
+Este gradiente demonstra que o endurecimento opera nao apenas diacronicamente (ao longo do tempo) mas tambem SINCRONICAMENTE entre suportes dentro do mesmo pais.
 
 ---
 
@@ -169,13 +169,13 @@ COLNECT. *King George V — Seahorses, 2s6d (SG 399)*. Disponivel em: https://co
 
 ## Observacoes do Scout
 
-**Importancia estrutural para a tese:** O Seahorse e o caso mais EXPLICITAMENTE MILITAR de Britannia no suporte selo postal. Diferentemente da Semeuse francesa (que projeta fertilidade e semeadura pacifica no mesmo periodo), a Britannia do Seahorse projeta DOMINIO NAVAL. Isso confirma a hipotese de que o ENDURECIMENTO varia nao apenas diacronicamente (ao longo do tempo) mas tambem SINCRONICAMENTE entre paises: enquanto a Franca usa a alegoria feminina para projetar civilizacao agropastoril (Semeuse, Oscar Roty, 1903), o UK usa para projetar forca naval militar (Seahorse, 1913). Dois paises, mesma decada, mesmo suporte, regimes opostos.
+**Importancia estrutural para a tese:** O Seahorse e o caso mais EXPLICITAMENTE MILITAR de Britannia no suporte selo postal. Diferentemente da Semeuse francesa (que projeta fertilidade e semeadura pacifica no mesmo periodo), a Britannia do Seahorse projeta DOMINIO NAVAL. Isso confirma a hipotese de que o endurecimento varia nao apenas diacronicamente (ao longo do tempo) mas tambem SINCRONICAMENTE entre paises: enquanto a Franca usa a alegoria feminina para projetar civilizacao agropastoril (Semeuse, Oscar Roty, 1903), o UK usa para projetar forca naval militar (Seahorse, 1913). Dois paises, mesma decada, mesmo suporte, regimes opostos.
 
-**Persistencia documentada:** A sobrevivencia do design por 26 anos e quatro impressoras e um dado singular. A Semeuse francesa muda de gravador (Roty 1903, Juillet 1906, Hourriez variantes), de tamanho, de cor, de papel. A Britannia do Seahorse permanece identica. A estabilidade britanica e mais resistente que a francesa — o ENDURECIMENTO, uma vez atingido, tende a cristalizar no UK.
+**Persistencia documentada:** A sobrevivencia do design por 26 anos e quatro impressoras e um dado singular. A Semeuse francesa muda de gravador (Roty 1903, Juillet 1906, Hourriez variantes), de tamanho, de cor, de papel. A Britannia do Seahorse permanece identica. A estabilidade britanica e mais resistente que a francesa — o endurecimento, uma vez atingido, tende a cristalizar no UK.
 
 **O £1 verde como dado extra:** A supressao do £1 por De La Rue e Bradbury Wilkinson (so Waterlow o emitiu, em 1913 e nunca mais) cria um hierarquia interna: o valor mais alto — o mais IMPERIAL — foi o mais efemero na emissao e o mais escasso no mercado. Paradoxo iconometrico: a denominacao maxima = a Britannia mais rara = a mais imperializante.
 
-**Relacao com Barbados:** A fonte iconografica identificada pelo Postal Museum (selo de Barbados 1892 com Britannia em biga) revela uma GENEALOGIA COLONIAL do design metropolitano. O UK importa para sua serie definitiva de alta denominacao um design originalmente criado para uma colonia caribenha. O ENDURECIMENTO percorre o caminho inverso: da periferia colonial para o centro metropolitano.
+**Relacao com Barbados:** A fonte iconografica identificada pelo Postal Museum (selo de Barbados 1892 com Britannia em biga) revela uma GENEALOGIA COLONIAL do design metropolitano. O UK importa para sua serie definitiva de alta denominacao um design originalmente criado para uma colonia caribenha. O endurecimento percorre o caminho inverso: da periferia colonial para o centro metropolitano.
 ```
 
 ---
@@ -187,7 +187,7 @@ COLNECT. *King George V — Seahorses, 2s6d (SG 399)*. Disponivel em: https://co
 id: SCOUT-ZW-18
 tipo: corpus-zwischenraum
 status: ativo
-titulo: "Painel 18 — ENDURECIMENTO TRANSATLANTICO: Britannia em Biga (UK, 1913) x Semeuse em Campo (FR, 1903)"
+titulo: "Painel 18 — endurecimento TRANSATLANTICO: Britannia em Biga (UK, 1913) x Semeuse em Campo (FR, 1903)"
 pais: [UK, FR]
 periodo: "1903-1913"
 tags:
@@ -203,7 +203,7 @@ tags:
 related:
   - "[[SCOUT-093]]"
   - "[[SCOUT-033 Semeuse Roty 1903]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Regime Normativo]]"
@@ -214,9 +214,9 @@ data_scout: 2026-03-29
 updated: 2026-03-29
 ---
 
-## Painel 18 — ENDURECIMENTO TRANSATLANTICO: Britannia em Biga x Semeuse em Campo (Zwischenraum)
+## Painel 18 — endurecimento TRANSATLANTICO: Britannia em Biga x Semeuse em Campo (Zwischenraum)
 
-Este painel estabelece o espaco de tensao (*Zwischenraum*) entre dois polos antiteticos do ENDURECIMENTO alegorico no suporte selo postal, producao sincronica (1903-1913), dois paises imperiais rivais.
+Este painel estabelece o espaco de tensao (*Zwischenraum*) entre dois polos antiteticos do endurecimento alegorico no suporte selo postal, producao sincronica (1903-1913), dois paises imperiais rivais.
 
 **Polo A (UK, 1913):** *Seahorse Definitives — Britannia em biga marinha* (Bertram Mackennal / J. A. C. Harrison, Waterlow Bros & Layton) — REGIME MILITAR
 **Polo B (FR, 1903):** *Semeuse — La Republique semeando o campo* (Oscar Roty, gravadores Mouchon/Barre) — REGIME NORMATIVO
@@ -239,17 +239,17 @@ Este painel estabelece o espaco de tensao (*Zwischenraum*) entre dois polos anti
 
 ---
 
-### 1. A Mutacao do ENDURECIMENTO
+### 1. A Mutacao do endurecimento
 
-Os dois selos foram concebidos na mesma decada (Roty apresentou o design da Semeuse em 1897; Mackennal desenhou o Seahorse entre 1910-1911), e partilham o mesmo suporte (selo postal) e o mesmo contexto geo-politico (duas potencias imperiais europeias em rivalidade crescente). Nao obstante, representam polos morfologicos opostos do ENDURECIMENTO da alegoria feminina.
+Os dois selos foram concebidos na mesma decada (Roty apresentou o design da Semeuse em 1897; Mackennal desenhou o Seahorse entre 1910-1911), e partilham o mesmo suporte (selo postal) e o mesmo contexto geo-politico (duas potencias imperiais europeias em rivalidade crescente). Nao obstante, representam polos morfologicos opostos do endurecimento da alegoria feminina.
 
-**Polo A — Britannia (ENDURECIMENTO MAXIMO):**
+**Polo A — Britannia (endurecimento MAXIMO):**
 Os indicadores de purificacao ativos sao: `heraldizacao` (escudo com Union Jack), `inscricao_estatal` (retrato dual Britannia + George V), `uniformizacao_facial` (rosto classicizante sem individualidade), `serialidade` (quatro valores, mesmo design), `dessexualizacao` (corpo completamente couraçado — toga, elmo, escudo, tridente). Britannia esta em ACAO: o movimento da biga impede qualquer leitura contemplativa. O corpo e rigido na acao, nao na contemplacao — `rigidez_postural` aparece INVERTIDA como dinamismo belico. Sao desligados apenas `desincorporacao` (o corpo ainda existe integralmente) e `monocromatizacao` (cada valor tem cor diferente).
 
-**Polo B — Semeuse (ENDURECIMENTO MINIMO ou NORMATIVO ALTO):**
+**Polo B — Semeuse (endurecimento MINIMO ou NORMATIVO ALTO):**
 Os indicadores de purificacao ativos sao: `uniformizacao_facial` (o rosto inclina para baixo, nunca olha o espectador), `monocromatizacao` (serie monocromatica por valor), `serialidade` (multiples valores, mesmo design base), `enquadramento_arquitetonico` (AUSENTE — mas substituido por enquadramento natural: horizonte, sol nascente). Sao desligados: `heraldizacao` (nenhum escudo, brasao ou arma), `inscricao_estatal` (nenhum retrato real emparelhado na versao metropolitana), `rigidez_postural` (o corpo esta em movimento suave — o gesto de semear e fluido, nao beligerante), `dessexualizacao` (as vestes sao civicas, nao militares; a Semeuse tem cabeleira ao vento, elemento sensorial/organico).
 
-**A diferenca estrutural:** O ENDURECIMENTO britanico opera por ADICAO DE ATRIBUTOS BELICOS ao corpo feminino (arma + armadura + veiculo de guerra). O ENDURECIMENTO frances opera, no mesmo periodo, por SUPRESSAO DE ATRIBUTOS POLITICOS (nenhuma arma, nenhum brasao, nenhum retrato real) — o que produz uma figura aparentemente mais "livre" mas funcionalmente mais docil: a Semeuse semeia sem olhar, sem agir, sem protestar. Dois modos de neutralizacao do corpo alegorico feminino: o britanico por militarizacao plena; o frances por pastoralizacao civica.
+**A diferenca estrutural:** O endurecimento britanico opera por ADICAO DE ATRIBUTOS BELICOS ao corpo feminino (arma + armadura + veiculo de guerra). O endurecimento frances opera, no mesmo periodo, por SUPRESSAO DE ATRIBUTOS POLITICOS (nenhuma arma, nenhum brasao, nenhum retrato real) — o que produz uma figura aparentemente mais "livre" mas funcionalmente mais docil: a Semeuse semeia sem olhar, sem agir, sem protestar. Dois modos de neutralizacao do corpo alegorico feminino: o britanico por militarizacao plena; o frances por pastoralizacao civica.
 
 Warburg chamaria os dois de Pathosformeln opostas ativadas pelo mesmo contexto historico: a ameaca de guerra europeia (1900-1914) aciona no UK a formula do corpo em armas, na Franca a formula do corpo em trabalho. Ambas servem ao Nachleben da alegoria estatal, mas com cargas emotivas antiteticas.
 
@@ -263,7 +263,7 @@ O *Contrato Sexual Visual* opera diferentemente em cada polo.
 
 **No Polo B (Semeuse semeando):** o contrato e IMPLICITO e PRODUTIVISTA. A Semeuse caminha, semeia, olha para baixo, nao olha o espectador. O corpo feminino e o instrumento de projecao de PROSPERIDADE CIVILIZATORIA. Ela nao ameaca — ela produz. Mas a producao e unidirecional: ela semeia (trabalha) para que o Estado colha (governe). O gesto de semear sem olhar e o gesto da mulher que nao pede nada em troca. O contrato e: o feminino labora em silencio para que o projeto civilizatorio republicano se realize sem contestacao.
 
-A diferenca do contrato em cada polo ilumina o argumento central da tese: o ENDURECIMENTO nao e uma propriedade unica mas um ESPECTRO de captura do corpo feminino para fins de legitimacao estatal. No extremo belico (Britannia), o corpo e capturado como arma. No extremo produtivista (Semeuse), o corpo e capturado como ferramenta. Ambas as capturas apagam a agencia feminina — apenas o modo de apagamento difere.
+A diferenca do contrato em cada polo ilumina o argumento central da tese: o endurecimento nao e uma propriedade unica mas um ESPECTRO de captura do corpo feminino para fins de legitimacao estatal. No extremo belico (Britannia), o corpo e capturado como arma. No extremo produtivista (Semeuse), o corpo e capturado como ferramenta. Ambas as capturas apagam a agencia feminina — apenas o modo de apagamento difere.
 
 ---
 
@@ -271,11 +271,11 @@ A diferenca do contrato em cada polo ilumina o argumento central da tese: o ENDU
 
 Este Zwischenraum demonstra tres argumentos encadeados:
 
-**(a) O ENDURECIMENTO e sincronico e comparativo, nao apenas diacronico.** Britannia (1913) e Semeuse (1903) sao contemporaneas. Nao ha uma "evolucao linear" do corpo alegorico — ha ESCOLHAS POLITICAS SINCRONICAS que determinam o regime iconocratico de cada pais. O UK escolhe o regime MILITAR no mesmo momento em que a Franca escolhe o regime NORMATIVO (ainda que com elementos fundacionais sublimados). A comparacao sincronica e intrasuporte (ambas sao selos postais) isola a variavel nacional e revela a especificidade politica de cada regime iconocratico.
+**(a) O endurecimento e sincronico e comparativo, nao apenas diacronico.** Britannia (1913) e Semeuse (1903) sao contemporaneas. Nao ha uma "evolucao linear" do corpo alegorico — ha ESCOLHAS POLITICAS SINCRONICAS que determinam o regime iconocratico de cada pais. O UK escolhe o regime MILITAR no mesmo momento em que a Franca escolhe o regime NORMATIVO (ainda que com elementos fundacionais sublimados). A comparacao sincronica e intrasuporte (ambas sao selos postais) isola a variavel nacional e revela a especificidade politica de cada regime iconocratico.
 
 **(b) O suporte selo postal e um campo de batalha iconocratico transnacional.** Britannia e Semeuse circulam simultaneamente no mesmo espaco atlantico e imperial. Uma carta enviada de Londres para Lagos (Imperio Britanico) levava Britannia em biga; uma carta enviada de Paris para Saigao (Imperio Frances) levava a Semeuse em campo. No espaço postal global do inicio do seculo XX, dois projetos concorrentes de feminilidade de Estado circulavam lado a lado — um belico, um produtivista. O suporte selo e um veiculo de propaganda iconocratica de massa, produzido em milhoes de exemplares, distribuido globalmente.
 
-**(c) A genealogia colonial inverte o fluxo esperado.** O design da Britannia em biga tem origem em um selo de Barbados (1892, colonia britanica). O UK importa para sua serie metropolitan definitiva um design originado na periferia colonial. A Semeuse, ao contrario, foi criada em Paris e exportada para as colonias francesas (com sobrecargos). O ENDURECIMENTO britanico flui da PERIFERIA para o CENTRO; o frances, do CENTRO para a PERIFERIA. Este dado inverte a narrativa difusionista e e teoricamente relevante para o capitulo sobre colonialidade da tese.
+**(c) A genealogia colonial inverte o fluxo esperado.** O design da Britannia em biga tem origem em um selo de Barbados (1892, colonia britanica). O UK importa para sua serie metropolitan definitiva um design originado na periferia colonial. A Semeuse, ao contrario, foi criada em Paris e exportada para as colonias francesas (com sobrecargos). O endurecimento britanico flui da PERIFERIA para o CENTRO; o frances, do CENTRO para a PERIFERIA. Este dado inverte a narrativa difusionista e e teoricamente relevante para o capitulo sobre colonialidade da tese.
 ```
 
 ---
@@ -307,7 +307,7 @@ related:
 **Acervos consultados:** The Postal Museum (postalmuseum.org), Stanley Gibbons (stanleygibbons.com, sgbaldwins.com), Wikipedia (King George V Seahorses), Colnect, FiveMinutesSpare, Paul Fraser Collectibles.
 **Candidatos encontrados:** 5 (SCOUT-092 a SCOUT-096) — documentados em arquivo consolidado da sessao anterior. SCOUT-093 formalizado como nota canonica nesta sessao.
 **Nivel de confianca predominante:** alto — os Seahorse definitives sao item filatelico de primeiro nivel com ampla documentacao academica e comercial.
-**Zwischenraum produzido:** SCOUT-ZW-18 (Britannia/Seahorse 1913 x Semeuse 1903 — ENDURECIMENTO comparado transatlantico)
+**Zwischenraum produzido:** SCOUT-ZW-18 (Britannia/Seahorse 1913 x Semeuse 1903 — endurecimento comparado transatlantico)
 
 ## Candidatos desta sessao
 

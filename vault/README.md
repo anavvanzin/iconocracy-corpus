@@ -10,6 +10,14 @@ Este é o vault Obsidian do projeto Iconocracia.
    - **Dataview** — consultas sobre o corpus via frontmatter
    - **Templates** — fichas catalográficas padronizadas
 
+## Padrao de Markdown do vault
+
+- Todo `vault/**/*.md` usa **Obsidian Flavored Markdown** como padrao.
+- Guia canônico: [[meta/Guia — Obsidian Flavored Markdown|Guia — Obsidian Flavored Markdown]]
+- Template generico default: `_templates/nota-obsidian-padrao.md`
+- Para notas internas, prefira `[[wikilinks]]`; para URLs externas, use links Markdown comuns.
+- Fichas catalograficas e notas especializadas podem estender esse padrao com frontmatter proprio.
+
 ## Estrutura
 
 ```

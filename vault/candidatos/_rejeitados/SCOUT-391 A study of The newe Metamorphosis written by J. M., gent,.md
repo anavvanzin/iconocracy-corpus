@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -39,9 +39,9 @@ The author ascribes The newe Metamorphosis to Gervase Markham, although it is us
 
 **Motivos identificados**: Columbia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 HOBART), lyon, john h. h., (henry. **A study of The newe Metamorphosis written by J. M., gent, 1600,**. 1919. Library of Congress. Disponível em: https://www.loc.gov/item/20003786/. Acesso em: 04 Apr. 2026.

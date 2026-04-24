@@ -21,7 +21,7 @@ O papel amarelado da litografia “Proclamação da República” range ao ser d
 ## 2. Pergunta iconocrática
 
 - De que modo a República brasileira importou o gesto visual da Marianne para legitimar um golpe militar travestido de fundação civil?
-- O ENDURECIMENTO surge já na fase fundacional ou permanece latente até os decretos normativos?
+- O endurecimento surge já na fase fundacional ou permanece latente até os decretos normativos?
 
 ## 3. Score alvo
 

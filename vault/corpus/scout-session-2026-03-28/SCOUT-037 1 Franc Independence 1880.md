@@ -20,7 +20,7 @@ tags:
   - motivo/belgique
 related:
   - "[[Regime Normativo]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[SCOUT-035]]"
 data_scout: 2026-03-28
@@ -42,7 +42,7 @@ data_scout: 2026-03-28
 
 **Motivo alegorico:** La Belgique — mesma alegoria do 5 Francs (SCOUT-035) em denominacao menor
 **Regime iconocratico:** NORMATIVO
-**Justificativa:** Versao reduzida da composicao comemorativa do cinquentenario. A reducao de escala e relevante: a serialidade opera em diferentes denominacoes (5F, 2F, 1F), cada uma com menor resolucao visual. ENDURECIMENTO por miniaturizacao.
+**Justificativa:** Versao reduzida da composicao comemorativa do cinquentenario. A reducao de escala e relevante: a serialidade opera em diferentes denominacoes (5F, 2F, 1F), cada uma com menor resolucao visual. Endurecimento por miniaturizacao.
 
 **Atributos identificados:**
 - [ ] balanca
@@ -55,7 +55,7 @@ data_scout: 2026-03-28
 - [x] postura frontal
 - [x] contexto arquitetonico
 
-**ENDURECIMENTO detectado:** sim — mesmo padrao do SCOUT-035, intensificado pela miniaturizacao.
+**endurecimento detectado:** sim — mesmo padrao do SCOUT-035, intensificado pela miniaturizacao.
 
 ---
 

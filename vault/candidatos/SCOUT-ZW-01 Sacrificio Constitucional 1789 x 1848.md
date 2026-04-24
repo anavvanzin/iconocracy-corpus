@@ -13,4 +13,4 @@ data_scout: 2026-03-30
 **Polo A:** Allégorie à la Constitution (Didier, 1789-1791) — corpo dinâmico, revolucionário
 **Polo B:** Proclamation de la Constitution 1848 — potencialmente mais controlado
 
-**Questão central:** O ENDURECIMENTO opera DENTRO do regime FUNDACIONAL? Se o corpo de 1848 é mais controlado que o de 1789, isto documenta endurecimento intra-regime.
+**Questão central:** O endurecimento opera DENTRO do regime FUNDACIONAL? Se o corpo de 1848 é mais controlado que o de 1789, isto documenta endurecimento intra-regime.

@@ -11,7 +11,7 @@ pais: [BR]
 suporte: frontispicio
 motivo_alegorico: "A República"
 regime: FUNDACIONAL
-endurecimento: medio
+Endurecimento: medio
 confianca: medio
 tags:
   - corpus/candidato
@@ -51,7 +51,7 @@ data_scout: 2026-04-10
 - [x] contexto arquitetônico estilizado (arco neoclássico)
 - [x] inscrição textual integrada (acoplamento alto)
 
-**ENDURECIMENTO:** médio — o corpo se apresenta frontal e contido, sem dinamismo revolucionário, sinalizando transição imediata ao regime normativo.
+**endurecimento:** médio — o corpo se apresenta frontal e contido, sem dinamismo revolucionário, sinalizando transição imediata ao regime normativo.
 
 **Regime:** FUNDACIONAL (limiar do Normativo) — frontispício transforma decreto em monumento portátil, antecipando a rotina burocrática.
 

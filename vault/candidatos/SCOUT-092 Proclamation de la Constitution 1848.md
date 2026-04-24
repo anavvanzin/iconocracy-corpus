@@ -27,4 +27,4 @@ data_scout: 2026-03-30
 ## Analise preliminar
 **Motivo:** La République proclaiming the 1848 Constitution
 **Regime:** FUNDACIONAL — Second Republic founding moment
-**ENDURECIMENTO detectado:** incerto — 1848 may show early normativization
+**endurecimento detectado:** incerto — 1848 may show early normativization

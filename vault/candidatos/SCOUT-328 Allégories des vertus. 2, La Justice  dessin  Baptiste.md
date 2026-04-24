@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 1.0
 hunt_source: gallica
@@ -37,9 +37,9 @@ data_scout: 2026-04-03
 
 **Motivos identificados**: Justice
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 DESSINATEUR, Pellerin, Baptiste (15..-1575).. **[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]**. 1560-1570. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b53234029x. Acesso em: 03 Apr. 2026.

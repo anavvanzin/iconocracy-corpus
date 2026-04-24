@@ -16,7 +16,7 @@ tags:
 ## 2. Pergunta iconocrática
 
 - Qual paradoxo do Contrato Sexual Visual esta campanha expõe?
-- Como o ENDURECIMENTO aparece (ou falta)?
+- Como o endurecimento aparece (ou falta)?
 
 ## 3. Score alvo
 

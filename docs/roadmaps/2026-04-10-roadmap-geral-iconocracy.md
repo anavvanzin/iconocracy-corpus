@@ -124,7 +124,7 @@ Servir como infraestrutura transversal do ecossistema ICONOCRACY, sem competir c
 ### A.3. O que NÃO deve viver no home como fonte da tese
 
 - versão canônica do corpus
-- ledger principal de ENDURECIMENTO
+- ledger principal de endurecimento
 - export oficial do corpus
 - snapshots públicos definitivos
 - edição “solta” da tese fora do monorepo/vault
@@ -254,7 +254,7 @@ Entregas:
    - ingest
    - sync com vault
    - export para corpus público
-   - coding de ENDURECIMENTO
+   - coding de endurecimento
 
 3. Garantir que qualquer nova camada auxiliar preserve a separação:
    - observação visual
@@ -281,7 +281,7 @@ Entregas:
 
 Regras metodológicas:
 - CLIP nunca atribui regime final
-- CLIP nunca fecha score final de ENDURECIMENTO
+- CLIP nunca fecha score final de endurecimento
 - CLIP sempre entra com `review_required: true`
 
 Resultado esperado:
@@ -354,7 +354,7 @@ Entregas:
    - selo
    - tribunal
    - monumentalização
-   - ENDURECIMENTO
+   - endurecimento
 
 4. permitir passagem mais fluida:
    - SCOUT -> ICONOCODE -> ZWISCHENRAUM -> REDIGIR

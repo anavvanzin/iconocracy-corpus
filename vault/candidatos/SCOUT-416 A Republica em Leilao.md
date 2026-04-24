@@ -11,7 +11,7 @@ pais: BR
 suporte: estampa
 motivo_alegorico: "A República"
 regime: NORMATIVO
-endurecimento: MEDIO
+Endurecimento: MEDIO
 confianca: alto
 tags:
   - corpus/candidato
@@ -56,7 +56,7 @@ Representação da alegoria da República sendo leiloada por políticos em um es
 - [ ] postura frontal hierática
 - [ ] contexto arquitetônico forense
 
-**ENDURECIMENTO:** MEDIO
+**endurecimento:** MEDIO
 **Regime iconocrático:** NORMATIVO
 **Justificativa:** A charge mostra a domesticação da alegoria pela política oligárquica, transformando o símbolo da soberania nacional em objeto de transação mercantil.
 

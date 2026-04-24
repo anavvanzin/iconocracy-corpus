@@ -19,7 +19,7 @@ tags:
   - regime/fundacional
   - motivo/republica
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[SCOUT-316 500 Reis Republica Brasil 1889]]"
@@ -57,7 +57,7 @@ data_scout: 2026-04-10
 - [ ] espada
 - [ ] barrete frígio (`#verificar` — presença possível na emissão inaugural)
 
-**ENDURECIMENTO detectado:** sim, mas em nível inferior às séries posteriores
+**endurecimento detectado:** sim, mas em nível inferior às séries posteriores
 
 **Indicadores de purificação (descrição SCOUT):**
 1. **desincorporação** alta: busto, mas possivelmente com mais detalhamento que as séries posteriores (verificar imagem)
@@ -86,14 +86,14 @@ CASA DA MOEDA DO BRASIL. *1000 Réis — Efígie da República*. 1889. Moeda (pr
 ## Flags
 
 - [ ] `#verificar` — confirmar presença de barrete frígio na efígie inaugural
-- [ ] `#verificar` — comparar visualmente com séries posteriores para medir evolução do ENDURECIMENTO
+- [ ] `#verificar` — comparar visualmente com séries posteriores para medir evolução do endurecimento
 - [ ] `#sem-iiif` — Numista não oferece IIIF
 
 ---
 
 ## Observações do Scout
 
-**Peça-chave para a tese.** A 1000 Réis de 1889 é uma das primeiras materializações numismáticas da República brasileira. Ao lado da 500 Réis (SCOUT-316) e do 20.000 Réis em ouro (SCOUT-413), forma o primeiro programa iconográfico numismático republicano. A série inaugural de 1889 em prata de lei (.917) contrasta com as séries posteriores de prata rebaixada (.900) e cobre-níquel — a hierarquia de metais espelha a trajetória do ENDURECIMENTO: quanto mais o regime se normaliza, menos metal nobre investe na alegoria.
+**Peça-chave para a tese.** A 1000 Réis de 1889 é uma das primeiras materializações numismáticas da República brasileira. Ao lado da 500 Réis (SCOUT-316) e do 20.000 Réis em ouro (SCOUT-413), forma o primeiro programa iconográfico numismático republicano. A série inaugural de 1889 em prata de lei (.917) contrasta com as séries posteriores de prata rebaixada (.900) e cobre-níquel — a hierarquia de metais espelha a trajetória do endurecimento: quanto mais o regime se normaliza, menos metal nobre investe na alegoria.
 
 **Análise diacrônica potencial:** 1000 Réis 1889 (FUNDACIONAL, .917) → 1000 Réis 1912 (NORMATIVO, .900, SCOUT pendente) → demonstra a purificação progressiva no mesmo valor de face.
 

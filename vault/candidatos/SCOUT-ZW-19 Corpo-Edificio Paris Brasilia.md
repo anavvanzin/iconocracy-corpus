@@ -12,7 +12,7 @@ tags:
 related:
   - "[[SCOUT-305]]"
   - "[[SCOUT-303]]"
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
 data_scout: 2026-03-30
 ---

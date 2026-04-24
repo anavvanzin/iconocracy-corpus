@@ -11,7 +11,7 @@ pais: [BR]
 suporte: estampa
 motivo_alegorico: "A República"
 regime: FUNDACIONAL
-endurecimento: medio
+Endurecimento: medio
 confianca: medio
 tags:
   - corpus/candidato
@@ -51,7 +51,7 @@ data_scout: 2026-04-10
 - [x] postura frontal hierática
 - [ ] contexto arquitetônico forense (é praça pública)
 
-**ENDURECIMENTO (hipótese):** médio — corpo já verticalizado e rígido, porém ainda exposto ao vento revolucionário.
+**endurecimento (hipótese):** médio — corpo já verticalizado e rígido, porém ainda exposto ao vento revolucionário.
 
 **Regime iconocrático:** FUNDACIONAL — transforma o golpe militar em gesto cívico por meio da hipervisibilidade feminina.
 

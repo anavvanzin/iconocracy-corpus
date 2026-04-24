@@ -12,7 +12,7 @@ motivo_alegorico: "La Semeuse (Marianne semeadora)"
 regime: NORMATIVO
 confianca: alto
 tags: [corpus/candidato, pais/FR, suporte/selo, regime/normativo, motivo/marianne, "#sem-iiif"]
-related: ["[[Regime Normativo]]", "[[ENDURECIMENTO]]", "[[Serialidade]]", "[[SCOUT-104]]"]
+related: ["[[Regime Normativo]]", "[[endurecimento]]", "[[Serialidade]]", "[[SCOUT-104]]"]
 hf_synced: false
 data_scout: 2026-03-30
 ---
@@ -28,7 +28,7 @@ data_scout: 2026-03-30
 Design por Louis Oscar Roty (originalmente em medalha 1887, moeda 1897, selo 1903).
 Modelo: atriz Anna Führing NÃO (isso é Germania). Semeuse é design original Roty.
 **Regime:** NORMATIVO — o selo definitivo francês mais longevo (1903-1960+)
-**ENDURECIMENTO detectado:** sim — serialidade (bilhões de exemplares), monocromatizacao
+**endurecimento detectado:** sim — serialidade (bilhões de exemplares), monocromatizacao
 (impressão monocromática), uniformizacao_facial (mesma face em todas as denominações),
 inscricao_estatal ("REPUBLIQUE FRANÇAISE")
 

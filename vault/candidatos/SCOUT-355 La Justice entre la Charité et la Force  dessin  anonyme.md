@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: gallica
@@ -39,9 +39,9 @@ Référence bibliographique : FL, n.d.
 
 **Motivos identificados**: Justice
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 **[La Justice entre la Charité et la Force] : [dessin] / [anonyme des Pays-Bas, XVIIIe siècle]**. 1710. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b53240455t. Acesso em: 03 Apr. 2026.

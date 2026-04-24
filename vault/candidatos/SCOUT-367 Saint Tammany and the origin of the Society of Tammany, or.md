@@ -18,7 +18,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.7
 hunt_source: loc
@@ -39,9 +39,9 @@ Published as thesis (Ph. D.)--Columbia university, 1913. "Tammany societies in t
 
 **Motivos identificados**: Columbia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime**: indeterminado — requer análise visual.
-**ENDURECIMENTO**: pendente — sem acesso à imagem.
+**endurecimento**: pendente — sem acesso à imagem.
 
 ### Citação ABNT
 P., kilroe, edwin. **Saint Tammany and the origin of the Society of Tammany, or Columbian order in the city of New York,**. 1913. Library of Congress. Disponível em: https://www.loc.gov/item/13016362/. Acesso em: 04 Apr. 2026.

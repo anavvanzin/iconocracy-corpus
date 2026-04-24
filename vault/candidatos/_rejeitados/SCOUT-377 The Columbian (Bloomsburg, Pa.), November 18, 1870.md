@@ -19,7 +19,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -40,10 +40,10 @@ Bloomsburg, Pa.
 
 **Motivos identificados**: Columbia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime preliminar**: FUNDACIONAL
 Indicadores esperados: corpo dinâmico, seminudez, atributos revolucionários.
-ENDURECIMENTO esperado: BAIXO (corpo ainda vivo, narrativo).
+Endurecimento esperado: BAIXO (corpo ainda vivo, narrativo).
 
 *Classificação preliminar baseada em metadados textuais. Requer confirmação visual.*
 

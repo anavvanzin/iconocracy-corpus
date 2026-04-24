@@ -1,27 +1,10 @@
 #!/usr/bin/env python3
-"""ARGOS per-item acquisition worker.
-
-Subagents call this script once per item. It executes the full
-acquisition state machine:
-
-  1. Robots check (cached per domain per run).
-  2. HEAD probe.
-  3. Protocol dispatch (iiif / rest-api / direct / playwright-required).
-  4. On 401/403/429/Cloudflare → IIIF discovery fallback.
-  5. On still-failing → Playwright fallback (soft-imported).
-  6. On success → write binary + sidecar, compute sha256.
-  7. Writeback → locked update of manifest.json.
-
-Usage:
-    python tools/scripts/argos_acquire_item.py --item-id BR-001
-    python tools/scripts/argos_acquire_item.py --domain gallica.bnf.fr --limit 3
-"""
-
 from __future__ import annotations
 
 import argparse
+import hashlib
+import importlib.util
 import json
-import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -29,416 +12,414 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
-from argos import USER_AGENT, classifier, manifest as argos_manifest, provenance, storage
-from argos.protocols import direct, iiif, playwright_fallback, rest_api
-
-try:
-    from urllib.robotparser import RobotFileParser
-
-    import requests  # type: ignore[import]
-
-    HAS_REQUESTS = True
-except ImportError:  # pragma: no cover
-    HAS_REQUESTS = False
-
-# Rate-limit: polite intra-host sleep between items in the same run.
-INTRA_HOST_SLEEP = 1.5
-CLOUDFLARE_SIGNATURES = ("cloudflare", "attention required")
+from tools.argos.manifest import locked_update_manifest
+from tools.argos.provenance import build_provenance
+from tools.argos.protocols.direct import fetch_direct
+from tools.argos.protocols.iiif import discover_iiif, fetch_iiif_image
+from tools.argos.protocols.playwright_fallback import fetch_with_playwright
+from tools.argos.storage import resolve_storage_root
 
 
-# ---------------------------------------------------------------------------
-# Robots.txt (cached in-process for the duration of a single run)
-# ---------------------------------------------------------------------------
-
-_ROBOTS_CACHE: dict[str, RobotFileParser | None] = {}
-
-
-def _robots_allows(url: str) -> tuple[bool, str | None]:
-    """Return ``(allowed, reason)``. Unknown → allowed (conservative default)."""
-
-    host = classifier.domain_for(url)
-    if not host:
-        return True, None
-    if host in _ROBOTS_CACHE:
-        rp = _ROBOTS_CACHE[host]
-    else:
-        if not HAS_REQUESTS:
-            _ROBOTS_CACHE[host] = None
-            return True, None
-        robots_url = f"https://{host}/robots.txt"
-        rp = RobotFileParser()
-        rp.set_url(robots_url)
-        try:
-            resp = requests.get(
-                robots_url, headers={"User-Agent": USER_AGENT}, timeout=5
-            )
-            if resp.status_code >= 400:
-                _ROBOTS_CACHE[host] = None
-                return True, None
-            rp.parse(resp.text.splitlines())
-            _ROBOTS_CACHE[host] = rp
-        except requests.RequestException:
-            _ROBOTS_CACHE[host] = None
-            return True, None
-    if rp is None:
-        return True, None
-    if not rp.can_fetch(USER_AGENT, url):
-        return False, f"robots.txt denies {USER_AGENT}"
-    return True, None
+def _load_log_run():
+    module_path = REPO_ROOT / "tools" / "scripts" / "log_agent_run.py"
+    spec = importlib.util.spec_from_file_location("tools.scripts.log_agent_run_runtime", module_path)
+    module = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(module)
+    return module.log_run
 
 
-# ---------------------------------------------------------------------------
-# Cloudflare heuristic
-# ---------------------------------------------------------------------------
+log_run = _load_log_run()
+
+DEFAULT_MANIFEST_PATH = REPO_ROOT / "data" / "raw" / "argos" / "manifest.json"
+BLOCK_STEP_FAILURES = {"401_unauthorized", "403_block", "429_rate_limited", "blocked", "manual_required"}
+BLOCK_STEP_STATUS_CODES = {401, 403, 429}
 
 
-def _is_cloudflare_response(head_info: dict[str, Any]) -> bool:
-    ct = (head_info.get("content_type") or "").lower()
-    return head_info.get("status_code") == 403 and (
-        "text/html" in ct
-        or any(sig in (head_info.get("error") or "").lower() for sig in CLOUDFLARE_SIGNATURES)
+def _utc_timestamp() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Acquire one ARGOS manifest item.")
+    parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST_PATH, help="Path to manifest.json")
+    parser.add_argument("--item-id", required=True, help="Manifest item_id to acquire")
+    parser.add_argument("--dry-run", action="store_true", help="Print attempt plan without mutating manifest")
+    parser.add_argument(
+        "--playwright-allowed",
+        action="store_true",
+        help="Allow Playwright fallback on restricted domains when policy permits escalation",
     )
+    return parser.parse_args()
 
 
-# ---------------------------------------------------------------------------
-# Core per-item routine
-# ---------------------------------------------------------------------------
+def load_manifest(path: Path) -> dict[str, Any]:
+    return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
-def _now_iso() -> str:
-    return datetime.now(timezone.utc).isoformat(timespec="seconds")
+def load_manifest_item(path: Path, item_id: str) -> tuple[dict[str, Any], dict[str, Any]]:
+    manifest = load_manifest(path)
+    items = manifest.get("items", [])
+    for item in items:
+        if item.get("item_id") == item_id:
+            return manifest, item
+    raise KeyError(f"Manifest item not found: {item_id}")
 
 
-def _ext_from_content_type(ct: str | None, url: str) -> str:
-    if ct:
-        ct = ct.split(";")[0].strip().lower()
-        if ct == "image/jpeg":
-            return ".jpg"
-        if ct == "image/png":
-            return ".png"
-        if ct == "image/tiff":
-            return ".tif"
-        if ct == "image/webp":
-            return ".webp"
-        if ct == "image/gif":
-            return ".gif"
-    # Fallback: infer from URL path.
-    path = urlparse(url).path.lower()
-    for ext in (".jpg", ".jpeg", ".png", ".tif", ".tiff", ".webp", ".gif"):
-        if path.endswith(ext):
-            return ".jpg" if ext == ".jpeg" else ext
-    return ".jpg"
+def infer_next_step(protocol: str, last_attempt: dict[str, Any] | None) -> str:
+    if not last_attempt:
+        return "stop"
+
+    if last_attempt.get("success"):
+        return "complete"
+
+    failure_class = str(last_attempt.get("failure_class") or "")
+    status_code = last_attempt.get("status_code")
+    if last_attempt.get("manual_required") or failure_class == "manual_required":
+        return "stop"
+    blocked = failure_class in BLOCK_STEP_FAILURES or status_code in BLOCK_STEP_STATUS_CODES or "block" in failure_class
+
+    if blocked and protocol in {"direct", "unknown", "blocked"}:
+        return "iiif-discovery"
+    if blocked and protocol in {"iiif", "playwright-required"}:
+        return "playwright-fallback"
+    return "stop"
 
 
-def _infer_country_code(country: str | None) -> str:
-    """Map a country name to a 2-3 letter code used for subdirectory naming."""
-
-    if not country:
-        return "UNK"
-    mapping = {
-        "Argentina": "AR",
-        "Austria": "AT",
-        "Belgium": "BE",
-        "Brazil": "BR",
-        "Brasil": "BR",
-        "France": "FR",
-        "Germany": "DE",
-        "Italy": "IT",
-        "Netherlands": "NL",
-        "Portugal": "PT",
-        "Spain": "ES",
-        "United Kingdom": "UK",
-        "UK": "UK",
-        "United States": "US",
-        "USA": "US",
-    }
-    return mapping.get(country, country[:3].upper())
-
-
-def _dispatch(protocol: str, source_url: str, dest_path: Path) -> dict[str, Any]:
-    """Call the appropriate protocol handler; return its result dict."""
-
-    if protocol == "iiif":
-        return iiif.fetch(source_url, dest_path)
-    if protocol == "rest-api":
-        return rest_api.fetch(source_url, dest_path)
-    if protocol == "direct":
-        return direct.fetch(source_url, dest_path)
+def _should_try_playwright(item: dict[str, Any], *, allow_restricted: bool) -> bool:
+    protocol = item.get("protocol")
     if protocol == "playwright-required":
-        return playwright_fallback.fetch(source_url, dest_path)
-    # unknown / blocked-prone → try direct first.
-    return direct.fetch(source_url, dest_path)
+        return True
+    if allow_restricted:
+        return True
+    return False
 
 
-def acquire_item(entry: dict[str, Any], dry_run: bool = False) -> dict[str, Any]:
-    """Run the acquisition state machine for a single manifest entry.
+def _safe_suffix(url: str | None, fallback: str = ".jpg") -> str:
+    path = urlparse(url or "").path
+    suffix = Path(path).suffix.lower()
+    if suffix in {".jpg", ".jpeg", ".png", ".tif", ".tiff", ".gif", ".webp"}:
+        return suffix
+    return fallback
 
-    Returns the *patch* to be written back via locked_update().
-    """
 
-    item_id = entry["item_id"]
-    source_url = entry.get("source_url") or ""
-    protocol = entry.get("protocol") or "unknown"
-    country = entry.get("country") or ""
-    cc = _infer_country_code(country)
+def _destination_path(storage_root: Path, storage_tier: str, item: dict[str, Any]) -> Path:
+    return storage_root / storage_tier / f"{item['item_id']}{_safe_suffix(item.get('source_url'))}"
 
-    attempts: list[dict[str, Any]] = []
-    patch: dict[str, Any] = {"attempts": attempts}
 
-    if not source_url:
-        patch["status"] = "manual"
-        patch["failure_class"] = "no_source_url"
-        patch["failure_reason"] = "Corpus entry has no URL"
-        return patch
+def _iiif_discovery_item(item: dict[str, Any]) -> dict[str, Any]:
+    discovery_item = dict(item)
+    if not discovery_item.get("url"):
+        discovery_item["url"] = item.get("source_url")
+    return discovery_item
 
-    # 1. TOS
-    if classifier.is_tos_restricted(source_url):
-        patch["status"] = "tos_restricted"
-        patch["failure_class"] = "tos_restricted"
-        patch["failure_reason"] = "Domain is TOS-restricted; manual review required."
-        return patch
 
-    # 2. Robots
-    allowed, reason = _robots_allows(source_url)
-    if not allowed:
-        patch["status"] = "manual"
-        patch["failure_class"] = "robots_denied"
-        patch["failure_reason"] = reason
-        return patch
+def _compute_sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with Path(path).open("rb") as handle:
+        for chunk in iter(lambda: handle.read(65536), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
-    if dry_run:
-        patch["status"] = "pending"
-        patch["dry_run"] = True
-        patch["planned_protocol"] = protocol
-        return patch
 
-    # 3. HEAD probe
-    head = direct.head_probe(source_url)
-    attempts.append(
-        {
-            "ts": _now_iso(),
-            "protocol": "head",
-            "status_code": head.get("status_code"),
-            "error": head.get("error"),
-            "content_type": head.get("content_type"),
-        }
+def _write_json(path: Path, payload: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def _cleanup_artifacts(*paths: Path | None) -> None:
+    for path in paths:
+        if path is None:
+            continue
+        try:
+            Path(path).unlink(missing_ok=True)
+        except OSError:
+            pass
+
+
+def _build_sidecar_payload(
+    *,
+    item: dict[str, Any],
+    asset_path: Path,
+    sha256: str,
+    acquisition_result: dict[str, Any],
+    storage_tier: str,
+    attempts: list[dict[str, Any]],
+) -> dict[str, Any]:
+    provenance = build_provenance(
+        fetched_by="argos",
+        protocol=acquisition_result.get("protocol") or item.get("protocol") or "unknown",
+        storage_tier=storage_tier,
+        source_url=acquisition_result.get("source_url") or item.get("source_url"),
+        record_id=item.get("item_id"),
+        extra_metadata={
+            "title": item.get("title"),
+            "sha256": sha256,
+            "local_path": str(asset_path),
+            "source_domain": acquisition_result.get("source_domain") or item.get("source_domain"),
+            "status_code": acquisition_result.get("status_code"),
+            "bytes_written": acquisition_result.get("bytes_written"),
+            "notes": acquisition_result.get("notes") or [],
+        },
     )
+    return {
+        "item_id": item.get("item_id"),
+        "title": item.get("title"),
+        "local_path": str(asset_path),
+        "sha256": sha256,
+        "provenance": provenance,
+        "attempts": attempts,
+    }
 
-    # 4. Compute destination path (use .jpg as placeholder; refined later).
-    country_dir = storage.country_dir(cc)
-    dest = country_dir / f"{item_id}.jpg"
 
-    # 5. Primary dispatch
-    result = _dispatch(protocol, source_url, dest)
-    attempts.append(
-        {
-            "ts": _now_iso(),
-            "protocol": protocol,
-            "status_code": result.get("status_code"),
-            "error": result.get("error"),
-            "bytes": result.get("bytes"),
-            "fetched_url": result.get("fetched_url"),
-        }
-    )
-    if result.get("iiif_manifest_url"):
-        patch["iiif_manifest_url"] = result["iiif_manifest_url"]
-
-    # 6. Fallback chain on failure
-    if not result.get("ok"):
-        status_code = result.get("status_code")
-        cloudflare = _is_cloudflare_response(
+def _manifest_patch(
+    *,
+    item: dict[str, Any],
+    status: str,
+    failure_class: str,
+    failure_reason: str,
+    attempts_count: int,
+    asset_path: Path | None,
+    sha256: str,
+    acquisition_result: dict[str, Any] | None,
+) -> dict[str, Any]:
+    method = (acquisition_result or {}).get("protocol") or item.get("protocol") or "unknown"
+    retrieved_from = (acquisition_result or {}).get("source_url") or item.get("source_url")
+    metadata = dict(item.get("provenance", {}).get("metadata", {}))
+    if acquisition_result:
+        metadata.update(
             {
-                "status_code": status_code,
-                "content_type": head.get("content_type"),
-                "error": result.get("error"),
+                "bytes_written": acquisition_result.get("bytes_written"),
+                "status_code": acquisition_result.get("status_code"),
+                "source_domain": acquisition_result.get("source_domain") or item.get("source_domain"),
+                "notes": acquisition_result.get("notes") or [],
             }
         )
+        for key in ("manifest_url", "iiif_source"):
+            if acquisition_result.get(key):
+                metadata[key] = acquisition_result[key]
+    metadata = {key: value for key, value in metadata.items() if value is not None}
+    return {
+        "status": status,
+        "failure_class": failure_class,
+        "failure_reason": failure_reason,
+        "attempts": attempts_count,
+        "local_path": str(asset_path) if asset_path else "",
+        "sha256": sha256,
+        "provenance": {
+            "retrieved_at": _utc_timestamp(),
+            "retrieved_from": retrieved_from,
+            "agent": "argos",
+            "method": method,
+            "metadata": metadata,
+        },
+    }
 
-        # 6a. IIIF discovery (unless we already tried it).
-        if protocol != "iiif":
-            iiif_result = iiif.fetch(source_url, dest)
-            attempts.append(
-                {
-                    "ts": _now_iso(),
-                    "protocol": "iiif-fallback",
-                    "status_code": iiif_result.get("status_code"),
-                    "error": iiif_result.get("error"),
-                    "bytes": iiif_result.get("bytes"),
-                    "fetched_url": iiif_result.get("fetched_url"),
-                }
-            )
-            if iiif_result.get("iiif_manifest_url"):
-                patch["iiif_manifest_url"] = iiif_result["iiif_manifest_url"]
-            if iiif_result.get("ok"):
-                result = iiif_result
 
-        # 6b. Playwright fallback on still-failing.
-        if not result.get("ok"):
-            pw_result = playwright_fallback.fetch(source_url, dest)
-            attempts.append(
-                {
-                    "ts": _now_iso(),
-                    "protocol": "playwright-fallback",
-                    "status_code": pw_result.get("status_code"),
-                    "error": pw_result.get("error"),
-                    "bytes": pw_result.get("bytes"),
-                    "fetched_url": pw_result.get("fetched_url"),
-                }
-            )
-            if pw_result.get("ok"):
-                result = pw_result
+def _attempt_protocol(protocol: str, item: dict[str, Any], dest_path: Path, *, playwright_allowed: bool) -> dict[str, Any]:
+    if protocol == "iiif":
+        return fetch_iiif_image(_iiif_discovery_item(item), dest_path)
+    if protocol == "playwright-required":
+        return fetch_with_playwright(item["source_url"], dest_path, playwright_allowed=playwright_allowed)
+    if protocol in {"direct", "unknown", "blocked"}:
+        return fetch_direct(item["source_url"], dest_path)
+    return {
+        "success": False,
+        "protocol": protocol,
+        "dest_path": str(dest_path),
+        "bytes_written": 0,
+        "status_code": None,
+        "failure_class": "unsupported_protocol",
+        "error": f"Unsupported protocol: {protocol}",
+        "notes": [],
+    }
 
-        # 6c. Classify final failure.
-        if not result.get("ok"):
-            err = (result.get("error") or "").lower()
-            if err == "playwright_unavailable":
-                failure_class = "playwright_unavailable"
-            elif err.startswith("playwright"):
-                failure_class = "playwright_timeout"
-            elif cloudflare:
-                failure_class = "cloudflare"
-            elif status_code == 403:
-                failure_class = "403_block"
-            elif status_code == 404:
-                failure_class = "404_not_found"
-            elif err == "iiif_not_found":
-                failure_class = "iiif_not_found"
-            elif status_code and 500 <= status_code < 600:
-                failure_class = "server_error"
-            else:
-                failure_class = "network"
-            patch["status"] = "manual" if failure_class == "playwright_unavailable" else "failed"
-            patch["failure_class"] = failure_class
-            patch["failure_reason"] = result.get("error") or f"HTTP {status_code}"
-            return patch
 
-    # 7. Success — rename to correct extension, compute sha256, write sidecar.
-    try:
-        content_type = result.get("content_type")
-        ext = _ext_from_content_type(content_type, result.get("fetched_url") or source_url)
-        if ext != dest.suffix:
-            new_dest = dest.with_suffix(ext)
-            try:
-                dest.replace(new_dest)
-                dest = new_dest
-            except OSError:
-                pass
-        sha = storage.sha256_file(dest)
-        provenance.write_sidecar(
-            binary_path=dest,
-            item_id=item_id,
-            source_url=source_url,
-            fetched_url=result.get("fetched_url") or source_url,
-            protocol=attempts[-1]["protocol"] if attempts else protocol,
-            sha256=sha,
-            bytes_=result.get("bytes") or dest.stat().st_size,
-            country=cc,
-        )
-        patch["status"] = "success"
-        patch["local_path"] = storage.relpath(dest)
-        patch["bytes"] = result.get("bytes") or dest.stat().st_size
-        patch["sha256"] = sha
-        patch["provenance"] = {
-            "fetched_at": _now_iso(),
-            "fetched_by": f"argos/acquire_item",
-            "user_agent": USER_AGENT,
-            "protocol_succeeded": attempts[-1]["protocol"] if attempts else protocol,
+def _attempt_iiif_fallback(item: dict[str, Any], dest_path: Path) -> dict[str, Any]:
+    discovery_item = _iiif_discovery_item(item)
+    discovered = discover_iiif(discovery_item)
+    if not discovered:
+        return {
+            "success": False,
+            "protocol": "iiif",
+            "dest_path": str(dest_path),
+            "bytes_written": 0,
+            "status_code": None,
+            "failure_class": "iiif_unavailable",
+            "error": "No supported IIIF pattern discovered",
+            "notes": [],
         }
-    except Exception as exc:  # noqa: BLE001
-        patch["status"] = "partial"
-        patch["failure_class"] = "post_download"
-        patch["failure_reason"] = f"Downloaded but failed to finalise: {exc}"
-    return patch
+
+    image_url = discovered.get("image_url")
+    if not image_url:
+        return {
+            "success": False,
+            "protocol": "iiif",
+            "dest_path": str(dest_path),
+            "bytes_written": 0,
+            "status_code": None,
+            "failure_class": "iiif_image_unavailable",
+            "error": "Discovered IIIF manifest but no fetchable image URL",
+            "manifest_url": discovered.get("manifest_url"),
+            "iiif_source": discovered.get("iiif_source"),
+            "notes": [],
+        }
+
+    result = fetch_direct(image_url, dest_path)
+    result["protocol"] = "iiif"
+    result["manifest_url"] = discovered.get("manifest_url")
+    result["iiif_source"] = discovered.get("iiif_source")
+    result["source_url"] = image_url
+    result.setdefault("notes", [])
+    return result
 
 
-def _select_items(
-    data: dict[str, Any],
-    item_id: str | None,
-    domain: str | None,
-    limit: int | None,
-    include_tos: bool,
-) -> list[dict[str, Any]]:
-    entries = data["items"]
-    if item_id:
-        return [e for e in entries if e["item_id"] == item_id]
-    if domain:
-        entries = [e for e in entries if e.get("source_domain") == domain]
-    # Skip TOS-restricted unless explicitly included.
-    if not include_tos:
-        entries = [e for e in entries if e.get("status") != "tos_restricted"]
-    # Only attempt items still needing work.
-    entries = [e for e in entries if e.get("status") in {"pending", "failed", "manual"}]
-    if limit:
-        entries = entries[:limit]
-    return entries
+def acquire_item(
+    *,
+    manifest_path: Path = DEFAULT_MANIFEST_PATH,
+    item_id: str,
+    playwright_allowed: bool = False,
+    dry_run: bool = False,
+) -> dict[str, Any]:
+    started_at = time.time()
+    manifest, item = load_manifest_item(manifest_path, item_id)
+    storage_root, storage_tier = resolve_storage_root(REPO_ROOT)
+    dest_path = _destination_path(Path(storage_root), storage_tier, item)
+
+    attempt_plan = [item.get("protocol") or "unknown", "iiif-discovery-on-block", "playwright-fallback-when-allowed"]
+    if dry_run:
+        return {
+            "status": "dry-run",
+            "item_id": item_id,
+            "storage_root": str(storage_root),
+            "storage_tier": storage_tier,
+            "attempt_plan": attempt_plan,
+            "manifest_status": item.get("status"),
+        }
+
+    attempts: list[dict[str, Any]] = []
+    current_protocol = item.get("protocol") or "unknown"
+    result = _attempt_protocol(current_protocol, item, dest_path, playwright_allowed=playwright_allowed)
+    attempts.append({"step": current_protocol, **result})
+
+    next_step = infer_next_step(current_protocol, result)
+    if next_step == "iiif-discovery":
+        iiif_result = _attempt_iiif_fallback(item, dest_path)
+        attempts.append({"step": "iiif", **iiif_result})
+        result = iiif_result
+        current_protocol = "iiif"
+        next_step = "playwright-fallback" if not result.get("success") else infer_next_step(current_protocol, result)
+
+    if next_step == "playwright-fallback" and _should_try_playwright(item, allow_restricted=playwright_allowed):
+        playwright_result = fetch_with_playwright(
+            item["source_url"],
+            dest_path,
+            playwright_allowed=playwright_allowed,
+        )
+        attempts.append({"step": "playwright", **playwright_result})
+        result = playwright_result
+        current_protocol = "playwright-required"
+
+    if result.get("success"):
+        asset_path = Path(result.get("dest_path") or dest_path)
+        if not asset_path.exists():
+            raise FileNotFoundError(f"Fetch reported success but file is missing: {asset_path}")
+        sha256 = _compute_sha256(asset_path)
+        sidecar_path = asset_path.with_suffix(".meta.json")
+        sidecar_payload = _build_sidecar_payload(
+            item=item,
+            asset_path=asset_path,
+            sha256=sha256,
+            acquisition_result=result,
+            storage_tier=storage_tier,
+            attempts=attempts,
+        )
+        _write_json(sidecar_path, sidecar_payload)
+        patch = _manifest_patch(
+            item=item,
+            status="success",
+            failure_class="",
+            failure_reason="",
+            attempts_count=int(item.get("attempts", 0)) + len(attempts),
+            asset_path=asset_path,
+            sha256=sha256,
+            acquisition_result=result,
+        )
+        try:
+            locked_update_manifest(manifest_path, item_id, patch)
+        except Exception:
+            _cleanup_artifacts(sidecar_path, asset_path)
+            raise
+        duration = max(0, int(time.time() - started_at))
+        log_run(agent="argos", status="success", items=1, duration=duration, details=f"Acquired {item_id}")
+        return {
+            "status": "success",
+            "item_id": item_id,
+            "asset_path": str(asset_path),
+            "sidecar_path": str(sidecar_path),
+            "sha256": sha256,
+            "attempts": attempts,
+        }
+
+    failure_class = str(result.get("failure_class") or "acquisition_failed")
+    failure_reason = str(result.get("error") or failure_class)
+    patch = _manifest_patch(
+        item=item,
+        status="manual" if result.get("manual_required") else "failed",
+        failure_class=failure_class,
+        failure_reason=failure_reason,
+        attempts_count=int(item.get("attempts", 0)) + len(attempts),
+        asset_path=None,
+        sha256="",
+        acquisition_result=result,
+    )
+    locked_update_manifest(manifest_path, item_id, patch)
+    duration = max(0, int(time.time() - started_at))
+    log_status = "warning" if result.get("manual_required") else "error"
+    log_run(agent="argos", status=log_status, items=1, duration=duration, details=f"{item_id}: {failure_reason}")
+    return {
+        "status": patch["status"],
+        "item_id": item_id,
+        "failure_class": failure_class,
+        "failure_reason": failure_reason,
+        "attempts": attempts,
+    }
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--item-id", help="Process a single item")
-    parser.add_argument("--domain", help="Process all items with this source_domain")
-    parser.add_argument("--limit", type=int, help="Cap the number of items processed")
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Report the plan without fetching or writing binaries",
-    )
-    parser.add_argument(
-        "--allow-tos",
-        action="store_true",
-        help="Include items flagged TOS-restricted (use with caution)",
-    )
-    parser.add_argument(
-        "--no-writeback",
-        action="store_true",
-        help="Do not call locked_update; print the patch to stdout instead",
-    )
-    args = parser.parse_args()
+    args = parse_args()
+    try:
+        result = acquire_item(
+            manifest_path=args.manifest,
+            item_id=args.item_id,
+            playwright_allowed=args.playwright_allowed,
+            dry_run=args.dry_run,
+        )
+    except (KeyError, ValueError, FileNotFoundError) as exc:
+        print(str(exc), file=sys.stderr)
+        return 1
 
-    if not any([args.item_id, args.domain]):
-        parser.error("Provide --item-id or --domain")
-
-    data = argos_manifest.load_manifest()
-    entries = _select_items(
-        data,
-        item_id=args.item_id,
-        domain=args.domain,
-        limit=args.limit,
-        include_tos=args.allow_tos,
-    )
-    if not entries:
-        print("No matching items.")
+    if args.dry_run:
+        print(f"Dry run for {args.item_id}")
+        print(f"Storage root: {result['storage_root']}")
+        print(f"Storage tier: {result['storage_tier']}")
+        for index, step in enumerate(result["attempt_plan"], start=1):
+            print(f"{index}. {step}")
+        print("Manifest unchanged")
         return 0
 
-    last_host: str | None = None
-    summary: list[dict[str, Any]] = []
-    for entry in entries:
-        host = entry.get("source_domain")
-        if last_host == host and not args.dry_run:
-            time.sleep(INTRA_HOST_SLEEP)
-        last_host = host
+    if result["status"] == "success":
+        print(f"Acquired {args.item_id} -> {result['asset_path']}")
+        print(f"SHA256: {result['sha256']}")
+        return 0
 
-        patch = acquire_item(entry, dry_run=args.dry_run)
-        if args.no_writeback:
-            print(json.dumps({"item_id": entry["item_id"], "patch": patch}, indent=2))
-        else:
-            try:
-                argos_manifest.locked_update(entry["item_id"], patch)
-            except Exception as exc:  # noqa: BLE001
-                print(f"[writeback-failed] {entry['item_id']}: {exc}", file=sys.stderr)
-        summary.append(
-            {
-                "item_id": entry["item_id"],
-                "status": patch.get("status"),
-                "failure_class": patch.get("failure_class"),
-            }
-        )
-
-    print(json.dumps({"processed": len(summary), "results": summary}, indent=2))
-    return 0
+    print(f"{args.item_id} -> {result['status']}: {result['failure_reason']}")
+    return 1
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    sys.exit(main())

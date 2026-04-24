@@ -19,7 +19,7 @@ tags:
   - #verificar
   - hunt-candidate
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[Feminilidade de Estado]]"
 hunt_score: 0.5
 hunt_source: loc
@@ -40,10 +40,10 @@ Published also as thesis (PH. D.) Columbia University, 1913. Bibliography: p. 23
 
 **Motivos identificados**: Columbia
 
-### Análise preliminar de ENDURECIMENTO
+### Análise preliminar de endurecimento
 **Regime preliminar**: MILITAR
 Indicadores esperados: armadura, capacete, escudo, rigidez extrema.
-ENDURECIMENTO esperado: ALTO (corpo blindado/petrificado).
+Endurecimento esperado: ALTO (corpo blindado/petrificado).
 
 *Classificação preliminar baseada em metadados textuais. Requer confirmação visual.*
 

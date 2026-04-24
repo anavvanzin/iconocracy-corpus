@@ -12,7 +12,7 @@ motivo_alegorico: "Germania"
 regime: NORMATIVO
 confianca: alto
 tags: [corpus/candidato, pais/DE, suporte/selo, regime/normativo, motivo/germania, "#sem-iiif"]
-related: ["[[Regime Normativo]]", "[[ENDURECIMENTO]]", "[[Serialidade]]", "[[SCOUT-096]]"]
+related: ["[[Regime Normativo]]", "[[endurecimento]]", "[[Serialidade]]", "[[SCOUT-096]]"]
 hf_synced: false
 data_scout: 2026-03-30
 ---
@@ -26,4 +26,4 @@ data_scout: 2026-03-30
 ## Analise preliminar
 **Motivo:** Germania wearing imperial crown (Waldraff design)
 **Regime:** NORMATIVO — the most serialized female allegory in European postal history
-**ENDURECIMENTO detectado:** sim (rigidez, uniformizacao, serialidade maxima, monocromatizacao, inscricao_estatal)
+**endurecimento detectado:** sim (rigidez, uniformizacao, serialidade maxima, monocromatizacao, inscricao_estatal)

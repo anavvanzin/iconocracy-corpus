@@ -14,7 +14,7 @@ O projeto é um **compromisso com a banca**. Tudo que está lá será cobrado. P
 |-------------------|-----------------------|
 | Os 3 conceitos originais (CSV, FdE, CRV) | Atlas Iconocrático como Parte IV separada |
 | Método misto QUAN→QUAL | Infraestrutura técnica (GitHub, pipeline, dashboards) |
-| 10 indicadores de ENDURECIMENTO | Número exato de itens do corpus (manter "~300") |
+| 10 indicadores de endurecimento | Número exato de itens do corpus (manter "~300") |
 | Resultados preliminares (Kruskal-Wallis sig.) | Detalhes do IconoCode/ICONCLASS |
 | Krippendorff alpha como método de confiabilidade | Obsidian, crons, scripts |
 | Sumário em 7 capítulos (próximo ao original) | Sumário em 9 capítulos (fica para a tese) |
@@ -83,7 +83,7 @@ O projeto é um **compromisso com a banca**. Tudo que está lá será cobrado. P
 
 1. **ABNT NBR 6023:2025** — todas as citações e referências
 2. **Voz jurídico-penal** — ancoragem na história do direito penal, não na antropologia ou sociologia
-3. **Terminologia mandatória** — ENDURECIMENTO (nunca "hardening"), Pathosformel/Zwischenraum/Nachleben em alemão, Mondzain 2002
+3. **Terminologia mandatória** — endurecimento (nunca "hardening"), Pathosformel/Zwischenraum/Nachleben em alemão, Mondzain 2002
 4. **Coerência interna** — hipótese ↔ objetivos ↔ metodologia ↔ sumário devem formar cadeia lógica
 5. **Notas de rodapé** — preservar as 99 existentes onde válidas; atualizar as que citam Notion, Kappa de Cohen, ou estrutura antiga
 6. **Não prometer o que não se pode entregar** — corpus "~300" (meta), não "145" (atual); Atlas como possibilidade, não compromisso

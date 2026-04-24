@@ -17,7 +17,7 @@ tags:
   - "#colonialidade-do-ver"
   - "#decisao-metodologica"
 related:
-  - "[[ENDURECIMENTO]]"
+  - "[[endurecimento]]"
   - "[[SCOUT-320]]"
 data_scout: 2026-03-30
 ---
@@ -31,9 +31,9 @@ data_scout: 2026-03-30
 
 Figura feminina de "Hope" com âncora. Formato triangular único. Não é Britannia mas HOPE — a colônia INVENTA sua própria alegoria. Percurso postural: reclinada (1853) → sentada (1864) → de pé (1893). Hope LEVANTA em 40 anos.
 
-### ENDURECIMENTO detectado
+### Endurecimento detectado
 
-**PARCIAL** — ENDURECIMENTO progressivo capturado na postura. Enquadramento triangular excepcional. Item COLONIAL britânico (não metropolitano).
+**PARCIAL** — endurecimento progressivo capturado na postura. Enquadramento triangular excepcional. Item COLONIAL britânico (não metropolitano).
 
 ### Citação ABNT
 
