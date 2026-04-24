@@ -1,4 +1,6 @@
-jsonschema>=4.0
+jsonschema>=4.23,<5
+referencing>=0.35,<1
+rpds-py>=0.20,<1
 rich>=10.0
 krippendorff>=0.8
 numpy>=1.24
