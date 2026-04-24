@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import math
 import sys
 from pathlib import Path
 
@@ -16,6 +17,8 @@ from tools.scripts.records_to_corpus import (
     export_corpus,
 )
 
+# Keep in sync with the authoritative update block in
+# tools/scripts/records_to_corpus.py::_corpus_entry_from_record().
 AUTHORITATIVE_FIELDS = (
     "url",
     "title",
@@ -37,7 +40,10 @@ def diff_authoritative_fields(generated: dict, existing: dict) -> list[str]:
     for field in AUTHORITATIVE_FIELDS:
         g = generated.get(field)
         e = existing.get(field)
-        if g != e:
+        if field == "endurecimento_score" and isinstance(g, (int, float)) and isinstance(e, (int, float)):
+            if not math.isclose(g, e, abs_tol=1e-9):
+                diffs.append(f"  {field}: generated={g!r} existing={e!r}")
+        elif g != e:
             diffs.append(f"  {field}: generated={g!r} existing={e!r}")
     return diffs
 
@@ -46,6 +52,15 @@ def main() -> int:
     records = _load_records()
     existing_corpus = _load_existing_corpus()
     generated = export_corpus(records, existing_corpus, replace=False)
+
+    id_less = [g for g in generated if "id" not in g]
+    if id_less:
+        print(f"corpus export NOT idempotent: {len(id_less)} generated items lack 'id'")
+        for item in id_less[:5]:
+            print(f"  missing id: title={item.get('title', '(no title)')!r}")
+        if len(id_less) > 5:
+            print(f"  ... and {len(id_less) - 5} more")
+        return 1
 
     # Index both by id for alignment
     generated_by_id: dict[str, dict] = {g["id"]: g for g in generated if "id" in g}
