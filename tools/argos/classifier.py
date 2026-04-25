@@ -7,6 +7,7 @@ PROTOCOL_MAP = {
     "loc.gov": "iiif",
     "www.loc.gov": "iiif",
     "rijksmuseum.nl": "iiif",
+    "www.rijksmuseum.nl": "iiif",
     "www.europeana.eu": "iiif",
     "europeana.eu": "iiif",
     "commons.wikimedia.org": "direct",
