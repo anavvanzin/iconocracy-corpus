@@ -272,6 +272,5 @@ As condições são falsificáveis num sentido (violá-las garante captura detec
 - [`docs/pilots/P01-republica-armada.md`](./pilots/P01-republica-armada.md) — prancha-piloto com os operadores curatoriais aplicados.
 - [`docs/dialectic-cycle-1/`](./dialectic-cycle-1/README.md) — ciclo dialético 1 · traço completo (Fases 1–7).
 - [`docs/anexo-m3-protocolo-auditoria-externa.md`](./anexo-m3-protocolo-auditoria-externa.md) — **Anexo M.3** · protocolo de auditoria externa com poder real (Direção 2 da recursão, issue #38).
-- [`docs/anexo-m4-archive-repertoire.md`](./anexo-m4-archive-repertoire.md) — **Anexo M.4** · forma-arquivo vs. repertoire — a grade é constitutivamente iconocrática? (Direção 3 da recursão, issue #39).
 - [ADR-005 — GitHub canônico / HF público](./adr/005-github-and-hf-release-surfaces.md).
 - [`README.md`](../README.md) — modelo operacional do monorepo.
