@@ -312,7 +312,7 @@ def acquire_item(
         attempts.append({"step": "iiif", **iiif_result})
         result = iiif_result
         current_protocol = "iiif"
-        next_step = "playwright-fallback" if not result.get("success") else infer_next_step(current_protocol, result)
+        next_step = infer_next_step(current_protocol, result)
 
     if next_step == "playwright-fallback" and _should_try_playwright(item, allow_restricted=playwright_allowed):
         playwright_result = fetch_with_playwright(
