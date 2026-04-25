@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-04-15T19:35:41.609213+00:00",
+  "total_items": 145,
+  "double_coded_items": 30,
+  "alphas": {
+    "desincorporacao": 0.4628,
+    "rigidez_postural": 0.6373,
+    "dessexualizacao": 0.6239,
+    "uniformizacao_facial": 0.6119,
+    "heraldizacao": 0.6335,
+    "enquadramento_arquitetonico": 0.806,
+    "apagamento_narrativo": 0.8617,
+    "monocromatizacao": 0.8567,
+    "serialidade": 0.6397,
+    "inscricao_estatal": 0.8195,
+    "_overall": 0.7483
+  },
+  "disagreements": [
+    {
+      "item_id": "UK-004",
+      "indicator": "serialidade",
+      "values": {
+        "iconocode-opus": 3,
+        "opencode-pilot": 0
+      },
+      "spread": 3
+    },
+    {
+      "item_id": "UK-TRADE-1895",
+      "indicator": "desincorporacao",
+      "values": {
+        "iconocode-opus": 0,
+        "opencode-pilot": 3
+      },
+      "spread": 3
+    },
+    {
+      "item_id": "NL-006",
+      "indicator": "dessexualizacao",
+      "values": {
+        "iconocode-opus": 0,
+        "opencode-pilot": 2
+      },
+      "spread": 2
+    },
+    {
+      "item_id": "NL-008",
+      "indicator": "dessexualizacao",
+      "values": {
+        "iconocode-opus": 0,
+        "opencode-pilot": 2
+      },
+      "spread": 2
+    },
+    {
+      "item_id": "PT-005",
+      "indicator": "enquadramento_arquitetonico",
+      "values": {
+        "iconocode-opus": 2,
+        "opencode-pilot": 0
+      },
+      "spread": 2
+    },
+    {
+      "item_id": "UK-004",
+      "indicator": "heraldizacao",
+      "values": {
+        "iconocode-opus": 1,
+        "opencode-pilot": 3
+      },
+      "spread": 2
+    },
+    {
+      "item_id": "US-005",
+      "indicator": "heraldizacao",
+      "values": {
+        "iconocode-opus": 0,
+        "opencode-pilot": 2
+      },
+      "spread": 2
+    },
+    {
+      "item_id": "US-005",
+      "indicator": "inscricao_estatal",
+      "values": {
+        "iconocode-opus": 1,
+        "opencode-pilot": 3
+      },
+      "spread": 2
+    },
+    {
+      "item_id": "UK-TRADE-1895",
+      "indicator": "enquadramento_arquitetonico",
+      "values": {
+        "iconocode-opus": 2,
+        "opencode-pilot": 0
+      },
+      "spread": 2
+    }
+  ],
+  "thresholds": {
+    "good": 0.8,
+    "tentative": 0.667,
+    "method": "Krippendorff's Alpha (ordinal metric)"
+  }
+}

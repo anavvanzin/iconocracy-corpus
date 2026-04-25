@@ -1,0 +1,13 @@
+$kind: http-request
+method: PUT
+url: '{{baseUrl}}/api/diary'
+headers:
+  - key: Authorization
+    value: 'Bearer {{diarySecret}}'
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    []
+order: 2000

@@ -1,0 +1,4 @@
+- Aligned public dataset with local thesis snapshot: 165 corpus records.
+- Regenerated purification.jsonl from canonical records purificacao blocks: 154/165 coded; 11 remain uncoded.
+- Removed stale image and legacy analysis artifacts from the Hugging Face dataset surface.
+- Snapshot counts: corpus=165, records=165, coded=154.

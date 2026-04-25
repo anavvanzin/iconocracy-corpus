@@ -1,0 +1,11 @@
+[DRY-RUN] claude -p: 
+Você é o WebScout do projeto ICONOCRACIA. Sua tarefa é descobrir UM novo item para o corpus.
+
+CONTEXTO DO CORPUS:
+- Total atual: 165 itens em corpus-data.json
+- Notas comparti
+[DRY-RUN] claude -p: 
+Revise as mudanças feitas na iteração anterior do SCOUT loop.
+
+1. Verifique se novas notas em vault/candidatos/ seguem o padrão de nomeação XX-NNN Título.md
+2. Verifique s

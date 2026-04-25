@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Se usar este corpus, por favor cite conforme abaixo."
+title: "Iconocracy Corpus: Female Allegory in the History of Legal Culture"
+type: dataset
+authors:
+  - family-names: Vanzin
+    given-names: Ana
+repository-code: https://github.com/anavvanzin/iconocracy-corpus
+license:
+  - MIT
+  - CC-BY-4.0
+date-released: "2026-03-24"

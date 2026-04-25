@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" office:version="1.2">
+  <office:font-face-decls>
+    <style:font-face style:name="Courier New" style:font-family-generic="modern" style:font-pitch="fixed" svg:font-family="'Courier New'" />
+  </office:font-face-decls>
+  <office:automatic-styles>
+    <text:list-style style:name="L1">
+      <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="◦">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in" fo:margin-left="0.75in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="▪">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.0in" fo:text-indent="-0.25in" fo:margin-left="1.0in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in" fo:margin-left="1.25in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="◦">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in" fo:margin-left="1.5in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="▪">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in" fo:margin-left="1.75in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.0in" fo:text-indent="-0.25in" fo:margin-left="2.0in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="◦">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in" fo:margin-left="2.25in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="▪">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in" fo:margin-left="2.5in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+    </text:list-style>
+    <text:list-style style:name="L2">
+      <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.5in" fo:text-indent="-0.25in" fo:margin-left="0.5in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="◦">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.75in" fo:text-indent="-0.25in" fo:margin-left="0.75in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="▪">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.0in" fo:text-indent="-0.25in" fo:margin-left="1.0in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.25in" fo:text-indent="-0.25in" fo:margin-left="1.25in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="◦">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.5in" fo:text-indent="-0.25in" fo:margin-left="1.5in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="▪">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.75in" fo:text-indent="-0.25in" fo:margin-left="1.75in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.0in" fo:text-indent="-0.25in" fo:margin-left="2.0in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="◦">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.25in" fo:text-indent="-0.25in" fo:margin-left="2.25in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="▪">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.5in" fo:text-indent="-0.25in" fo:margin-left="2.5in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+        <style:list-level-properties text:list-level-position-and-space-mode="label-alignment" fo:text-align="right">
+          <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.75in" fo:text-indent="-0.25in" fo:margin-left="2.75in" />
+        </style:list-level-properties>
+      </text:list-level-style-bullet>
+    </text:list-style>
+    <style:style style:name="T1" style:family="text"><style:text-properties fo:language="en" /></style:style>
+    <style:style style:name="fr2" style:family="graphic" style:parent-style-name="Formula"><style:graphic-properties style:vertical-pos="middle" style:vertical-rel="text" style:horizontal-pos="center" style:horizontal-rel="paragraph-content" style:wrap="none" /></style:style>
+    <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Formula"><style:graphic-properties style:vertical-pos="middle" style:vertical-rel="text" /></style:style>
+    <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+      <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" />
+    </style:style>
+    <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+      <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" />
+    </style:style>
+    <style:style style:name="TableHeaderRowCell" style:family="table-cell">
+      <style:table-cell-properties fo:border="none" />
+    </style:style>
+    <style:style style:name="TableRowCell" style:family="table-cell">
+      <style:table-cell-properties fo:border="none" />
+    </style:style>
+    <style:style style:name="Table1" style:family="table">
+      <style:table-properties table:align="center" />
+    </style:style>
+    <style:style style:name="Table1.A" style:family="table-column" />
+    <style:style style:name="Table1.B" style:family="table-column" />
+    <style:style style:name="Table1.C" style:family="table-column" />
+  </office:automatic-styles>
+<office:body>
+<office:text>
+<text:p text:style-name="Title">Ius Gentium – Grupo de Pesquisa em
+Direito Internacional UFSC/CNPq</text:p>
+<text:section text:name="wm-ipp-base"><text:section text:name="wm-ipp"><text:section text:name="donato"><text:section text:name="donato-base"></text:section></text:section>
+<text:section text:name="wm-ipp-inside"><text:section text:name="wm-toolbar"><text:section text:name="wm-logo"><text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/" office:name="Wayback Machine home page"><text:span text:style-name="Definition"><draw:frame draw:name="img1"><draw:image xlink:href="https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" /></draw:frame></text:span></text:a></text:p></text:section>
+<text:section text:name="wm-nav-captures"><text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/*/https://www.iusgentium.ufsc.br/" office:name="See a list of every capture for this URL"><text:span text:style-name="Definition"><text:span text:style-name="T1">109
+captures</text:span></text:span></text:a></text:p>
+<text:p text:style-name="Text_20_body"><text:span text:style-name="T1">17
+Oct 2010 - 21 Jan 2026</text:span></text:p></text:section>
+<text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://www.iusgentium.ufsc.br/" office:name=""><text:span text:style-name="Definition"></text:span></text:a></text:p>
+<text:section text:name="wm-ipp-sparkline"></text:section>
+<table:table table:name="Table1" table:style-name="Table1">
+  <table:table-column table:style-name="Table1.A" />
+  <table:table-column table:style-name="Table1.B" />
+  <table:table-column table:style-name="Table1.C" />
+  <table:table-row>
+    <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20241214001436/https://www.iusgentium.ufsc.br/" office:name="00:14:36 Dec 14, 2024"><text:span text:style-name="Definition"><text:span text:style-name="T1">Dec</text:span></text:span></text:a></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="T1">JAN</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250317043158/https://www.iusgentium.ufsc.br/" office:name="04:31:58 Mar 17, 2025"><text:span text:style-name="Definition"><text:span text:style-name="T1">Mar</text:span></text:span></text:a></text:p>
+    </table:table-cell>
+  </table:table-row>
+  <table:table-row>
+    <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20241214001436/https://www.iusgentium.ufsc.br/" office:name="00:14:36 Dec 14, 2024"><text:span text:style-name="Definition"></text:span></text:a></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="T1">16</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250215124108/https://www.iusgentium.ufsc.br/" office:name="12:41:08 Feb 15, 2025"><text:span text:style-name="Definition"></text:span></text:a></text:p>
+    </table:table-cell>
+  </table:table-row>
+  <table:table-row>
+    <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20231202122129/https://www.iusgentium.ufsc.br/" office:name="12:21:29 Dec 2, 2023"><text:span text:style-name="Definition"><text:span text:style-name="T1">2023</text:span></text:span></text:a></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="T1">2025</text:span></text:p>
+    </table:table-cell>
+    <table:table-cell table:style-name="TableRowCell" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20260116180309/https://www.iusgentium.ufsc.br/" office:name="18:03:09 Jan 16, 2026"><text:span text:style-name="Definition"><text:span text:style-name="T1">2026</text:span></text:span></text:a></text:p>
+    </table:table-cell>
+  </table:table-row>
+</table:table>
+<text:section text:name="wm-btns"><text:p text:style-name="First_20_paragraph"><text:span text:style-name="T1">
+</text:span></text:p>
+<text:section text:name="wm-save-snapshot-success"><text:p text:style-name="Text_20_body"><text:span text:style-name="T1">success</text:span></text:p></text:section>
+<text:section text:name="wm-save-snapshot-fail"><text:p text:style-name="Text_20_body"><text:span text:style-name="T1">fail</text:span></text:p></text:section>
+<text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://www.iusgentium.ufsc.br/#" office:name="Share via My Web Archive"><text:span text:style-name="Definition"></text:span></text:a><text:span text:style-name="T1">
+</text:span><text:a xlink:type="simple" xlink:href="https://archive.org/account/login.php" office:name="Sign In"><text:span text:style-name="Definition"></text:span></text:a><text:span text:style-name="T1">
+</text:span><text:bookmark text:name="wm-save-snapshot-in-progress" /><text:span text:style-name="T1">
+</text:span><text:a xlink:type="simple" xlink:href="https://help.archive.org/help/category/the-wayback-machine/" office:name="Get some help using the Wayback Machine"><text:span text:style-name="Definition"></text:span></text:a><text:span text:style-name="T1">
+</text:span><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://www.iusgentium.ufsc.br/#close" office:name="Close the toolbar"><text:span text:style-name="Definition"></text:span></text:a></text:p></text:section>
+<text:section text:name="wm-share"><text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/http://web.archive.org/screenshot/https://www.iusgentium.ufsc.br/" office:name="screenshot"><text:span text:style-name="Definition"></text:span></text:a><text:span text:style-name="T1">
+</text:span><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://www.iusgentium.ufsc.br/#" office:name="video"><text:span text:style-name="Definition"></text:span></text:a><text:span text:style-name="T1">
+</text:span><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://www.iusgentium.ufsc.br/#" office:name="Share on Facebook"><text:span text:style-name="Definition"></text:span></text:a><text:span text:style-name="T1">
+</text:span><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://www.iusgentium.ufsc.br/#" office:name="Share on Twitter"><text:span text:style-name="Definition"></text:span></text:a></text:p></text:section>
+<text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://www.iusgentium.ufsc.br/#expand" office:name=""><text:span text:style-name="Definition"><text:bookmark text:name="wm-expand-icon" /><text:span text:style-name="T1">
+</text:span><text:span text:style-name="T1">About this
+capture</text:span></text:span></text:a></text:p></text:section>
+<text:section text:name="wm-capinfo"><text:section text:name="wm-capinfo-notice"></text:section>
+<text:section text:name="wm-capinfo-collected-by"><text:p text:style-name="Text_20_body"><text:span text:style-name="T1">COLLECTED
+BY</text:span></text:p>
+<text:section text:name="wm-collected-by-content"><text:p text:style-name="Text_20_body"></text:p>
+<text:p text:style-name="Text_20_body"><text:span text:style-name="T1">Collection:
+</text:span><text:a xlink:type="simple" xlink:href="https://archive.org/details/commoncrawl" office:name=""><text:span text:style-name="Definition"><text:span text:style-name="T1">Common
+Crawl</text:span></text:span></text:a></text:p>
+<text:p text:style-name="Text_20_body"><text:span text:style-name="T1">Web
+crawl data from Common
+Crawl.</text:span></text:p></text:section></text:section>
+<text:section text:name="wm-capinfo-timestamps"><text:p text:style-name="Text_20_body"><text:span text:style-name="T1">TIMESTAMPS</text:span></text:p>
+<text:section text:name="wm-capresources"></text:section>
+<text:section text:name="wm-capresources-loading"><text:p text:style-name="Text_20_body"><draw:frame draw:name="img2"><draw:image xlink:href="https://web-static.archive.org/_static/images/loading.gif" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" /></draw:frame></text:p></text:section></text:section></text:section></text:section></text:section></text:section>
+<text:section text:name="wm-ipp-print"><text:p text:style-name="Text_20_body">The
+Wayback Machine -
+https://web.archive.org/web/20250116042957/https://iusgentium.ufsc.br/</text:p></text:section>
+<text:section text:name="container"><text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://www.iusgentium.ufsc.br/" office:name=""><text:span text:style-name="Definition">Skip
+to content</text:span></text:a></text:p>
+<text:section text:name="header"><text:section text:name="branding"><text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/http://iusgentium.ufsc.br/" office:name=""><text:span text:style-name="Definition"><draw:frame draw:name="img3" svg:width="6912" svg:height="3232"><draw:image xlink:href="./Ius%20Gentium%20–%20Grupo%20de%20Pesquisa%20em%20Direito%20Internacional%20UFSC_CNPq_files/cropped-Copy-of-Copy-of-Ius-Gentium-Banner-Landscape-1.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" /></draw:frame></text:span></text:a></text:p>
+<text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/http://iusgentium.ufsc.br/" office:name=""><text:span text:style-name="Definition">Ius
+Gentium</text:span></text:a></text:p></text:section>
+<text:section text:name="menu-toggle-primary"><text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://www.iusgentium.ufsc.br/#menu-primary" office:name=""><text:span text:style-name="Definition">Atividades
+em desenvolvimento</text:span></text:a>
+<text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://www.iusgentium.ufsc.br/#menu-toggle-primary" office:name=""><text:span text:style-name="Definition">Atividades
+em
+desenvolvimento</text:span></text:a></text:p></text:section></text:section>
+<text:section text:name="main"><text:section text:name="content"><text:h text:style-name="Heading_20_1" text:outline-level="1"><text:bookmark-start text:name="apresentação" />APRESENTAÇÃO<text:bookmark-end text:name="apresentação" /></text:h>
+<text:p text:style-name="First_20_paragraph"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/http://iusgentium.ufsc.br/wp-content/uploads/2022/05/Copy-of-Copy-of-Ius-Gentium-Banner-Landscape-Facebook-Cover.png" office:name=""><text:span text:style-name="Definition"><draw:frame draw:name="img4" svg:width="470" svg:height="265"><draw:image xlink:href="./Ius%20Gentium%20–%20Grupo%20de%20Pesquisa%20em%20Direito%20Internacional%20UFSC_CNPq_files/Copy-of-Copy-of-Ius-Gentium-Banner-Landscape-Facebook-Cover-1024x577.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" /></draw:frame></text:span></text:a></text:p>
+<text:p text:style-name="Text_20_body">O Ius Gentium – Grupo de Pesquisa
+em Direito Internacional UFSC/CNPq é responsável pelo fomento ao estudo
+de Direito Internacional dentre os estudantes da UFSC. Desde sua
+primeira edição, sob a coordenação do Prof. PhD Arno Dal Ri Júnior,
+dezenas de estudantes passaram pelo grupo para desenvolver seus estudos
+em Direito Internacional formando, hoje, uma gama de professores,
+diplomatas, atores em órgãos internacionais, entre outros.</text:p>
+<text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://docs.google.com/forms/d/e/1FAIpQLSfOe_hUlCRVHtif1SgInAqnJMMZ9ivbGwgmq6GkurvKfvrHRA/viewform?fbclid=PAZXh0bgNhZW0CMTEAAaZN0AzY_wYutko6vFWwZ3rzy7eUYQwbfFOtRGdn8P0bbL-JtTRk8kI9zFs_aem_wrmbUUzU1a2b64yA6DwZyg" office:name=""><text:span text:style-name="Definition">PARA
+SE INSCREVER NA EDIÇÃO ATUAL CLIQUE AQUI</text:span></text:a></text:p>
+<text:p text:style-name="Text_20_body">O grupo de estudos visa reunir
+estudantes para abordar um assunto específico por semestre, através de
+reuniões semanais, em que são relatados e discutidos textos,
+jurisprudências e casos pré-selecionados pelos monitores do grupo em
+conjunto com os professores coordenadores e disponibilizados neste
+site.</text:p>
+<text:p text:style-name="Text_20_body">Hoje, em sua 34ª edição, o Ius
+Gentium continua se organizando a partir do seu método inicial: através
+de um grupo de estudos e um grupo de pesquisa. Para acessar a página com
+as informações da edição atual,
+<text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://iusgentium.ufsc.br/semestre-2024-2-trajetorias-para-a-diplomacia/" office:name=""><text:span text:style-name="Definition">clique
+aqui</text:span></text:a>. </text:p>
+<text:p text:style-name="Text_20_body">Os estudantes interessados nos
+temas trabalhados no grupo de estudos podem conversar com os monitores
+sobre o desenvolvimento de pesquisas. Os monitores, mestrandos e
+doutorandos orientados pelo professor Arno possuem diferentes áreas de
+enfoque, de modo que há uma vasta gama tópicos sobre Direito
+Internacional que poderão ser desenvolvidos.</text:p>
+<text:p text:style-name="Text_20_body"> Para as últimas atualizações
+sobre as nossas atividades, acompanhe nossas redes
+sociais. </text:p></text:section>
+<text:section text:name="sidebar-primary"><text:section text:name="nav_menu-2"><text:h text:style-name="Heading_20_3" text:outline-level="3"><text:bookmark-start text:name="menu-de-navegação" />Menu
+de navegação<text:bookmark-end text:name="menu-de-navegação" /></text:h>
+<text:list text:style-name="L1">
+  <text:list-item>
+    <text:p text:style-name="P1"><text:bookmark-start text:name="menu-item-1462" /><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/http://iusgentium.ufsc.br/semestre-2024-2-trajetorias-para-a-diplomacia/" office:name=""><text:span text:style-name="Definition">SEMESTRE
+    ATUAL
+    (2024.2)</text:span></text:a><text:bookmark-end text:name="menu-item-1462" /></text:p>
+  </text:list-item>
+  <text:list-item>
+    <text:p text:style-name="P1"><text:bookmark-start text:name="menu-item-1432" /><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/http://iusgentium.ufsc.br/semestres-passados/" office:name="https://iusgentium.ufsc.br/semestres-passados/"><text:span text:style-name="Definition">SEMESTRES
+    PASSADOS</text:span></text:a><text:bookmark-end text:name="menu-item-1432" /></text:p>
+  </text:list-item>
+  <text:list-item>
+    <text:p text:style-name="P1"><text:bookmark-start text:name="menu-item-27" /><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/http://iusgentium.ufsc.br/membros/" office:name=""><text:span text:style-name="Definition">MEMBROS</text:span></text:a><text:bookmark-end text:name="menu-item-27" /></text:p>
+  </text:list-item>
+  <text:list-item>
+    <text:p text:style-name="P1"><text:bookmark-start text:name="menu-item-41" /><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/http://iusgentium.ufsc.br/links-uteis/" office:name=""><text:span text:style-name="Definition">CONTATO
+    E LINKS
+    RELACIONADOS</text:span></text:a><text:bookmark-end text:name="menu-item-41" /></text:p>
+  </text:list-item>
+  <text:list-item>
+    <text:p text:style-name="P1"><text:bookmark-start text:name="menu-item-11" /><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/http://iusgentium.ufsc.br/historico/" office:name=""><text:span text:style-name="Definition">HISTÓRICO
+    DE
+    EVENTOS</text:span></text:a><text:bookmark-end text:name="menu-item-11" /></text:p>
+  </text:list-item>
+  <text:list-item>
+    <text:p text:style-name="P1"><text:bookmark-start text:name="menu-item-52" /><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/http://iusgentium.ufsc.br/cooperacao-internacional/" office:name=""><text:span text:style-name="Definition">COOPERAÇÃO
+    INTERNACIONAL</text:span></text:a><text:bookmark-end text:name="menu-item-52" /></text:p>
+  </text:list-item>
+  <text:list-item>
+    <text:p text:style-name="P1"><text:bookmark-start text:name="menu-item-55" /><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/http://iusgentium.ufsc.br/siteantigo" office:name=""><text:span text:style-name="Definition">WEBSITE
+    ANTIGO</text:span></text:a><text:bookmark-end text:name="menu-item-55" /></text:p><text:list text:style-name="L2">
+      <text:list-item>
+        <text:p text:style-name="P2"><text:bookmark-start text:name="menu-item-14" /><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/http://iusgentium.ufsc.br/atividades/" office:name=""><text:span text:style-name="Definition">ATIVIDADES</text:span></text:a><text:bookmark-end text:name="menu-item-14" /></text:p>
+      </text:list-item>
+    </text:list>
+  </text:list-item>
+</text:list></text:section>
+<text:section text:name="text-2"><text:h text:style-name="Heading_20_3" text:outline-level="3"><text:bookmark-start text:name="acompanhe-o-grupo" />Acompanhe
+o Grupo<text:bookmark-end text:name="acompanhe-o-grupo" /></text:h>
+<text:p text:style-name="First_20_paragraph"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://www.facebook.com/iusgentiumufsc/?__xts__%5B0%5D=68.ARBqb53iZo4hD8pmc3zoARk9-IC0jfUvka2TTW3QqYYwlZ2tVBNhV4uypmFaDOV-eLeCB2n-0yis7yDqy4VMNLBLbLwx-CUP6tAJdR7TqNLAoe7VAIi1w2W-NdfpT6O1qdKtT_rWmW-QyYsmzJ5HBfNO7ms732cDlakDmZe3dhRfLMYpbRIO5Q" office:name=""><text:span text:style-name="Definition">Facebook</text:span></text:a></text:p>
+<text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://www.instagram.com/iusgentiumufsc/" office:name=""><text:span text:style-name="Definition">Instagram</text:span></text:a></text:p>
+<text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/https://www.youtube.com/@iusgentiumufsc1070" office:name=""><text:span text:style-name="Definition">Youtube</text:span></text:a></text:p></text:section>
+<text:section text:name="search-2"><text:h text:style-name="Heading_20_3" text:outline-level="3"><text:bookmark-start text:name="pesquisa" />Pesquisa<text:bookmark-end text:name="pesquisa" /></text:h>
+<text:p text:style-name="First_20_paragraph">Search
+for:</text:p></text:section></text:section></text:section>
+<text:section text:name="footer-widgets"><text:section text:name="sidebar-footer-1"><text:section text:name="social-links"></text:section></text:section>
+<text:section text:name="sidebar-footer-2"></text:section>
+<text:section text:name="sidebar-footer-3"></text:section></text:section>
+<text:p text:style-name="Text_20_body"><text:a xlink:type="simple" xlink:href="https://web.archive.org/web/20250116042957/http://iusgentium.ufsc.br/" office:name=""><text:span text:style-name="Definition">Ius
+Gentium</text:span></text:a> © 2025</text:p></text:section>
+</office:text>
+</office:body>
+</office:document-content>

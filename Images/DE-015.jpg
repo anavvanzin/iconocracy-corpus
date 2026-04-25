@@ -1,0 +1,733 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+
+<title>GHDI - Image</title>
+<meta http-equiv="Content-Type" content="text/html;">
+
+<script language="javascript">
+<!--
+	function bioinfo(x) {
+		biowindow = window.open('bioinfo.cfm?bio_id=' + x, 'thisName1', config='height=400,width=400,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,directories=no,status=yes');
+	}
+//-->
+</script>
+
+<!-- Fireworks MX Dreamweaver MX target.  Created Wed Dec 17 14:01:26 GMT-0500 (Eastern Standard Time) 2003-->
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+//-->
+</script>
+<link href="/ghdi.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#ffffff" onLoad="MM_preloadImages('/common/n_1_f2.gif','/common/n_2_f2.gif','/common/n_3_f2.gif','/common/n_4_f2.gif','/common/n_5_f2.gif','/common/n_6_f2.gif','/common/n_7_f2.gif','/common/n_8_f2.gif','/common/n_9_f2.gif','/common/n_10_f2.gif','/common/n_english_f2.gif','/common/n_deutsch_f2.gif','/eng/n_about_f2.gif','/eng/n_search_f2.gif')">
+<table border="0" cellpadding="0" cellspacing="0" width="672">
+<!-- fwtable fwsrc="navigation.png" fwbase="navigation.gif" fwstyle="Dreamweaver" fwdocid = "742308039" fwnested="0" -->
+  <tr>
+    <td><img src="/common/spacer.gif" width="95" height="1" border="0" alt=""></td>
+    <td><img src="/common/spacer.gif" width="66" height="1" border="0" alt=""></td>
+    <td><img src="/common/spacer.gif" width="28" height="1" border="0" alt=""></td>
+    <td><img src="/common/spacer.gif" width="38" height="1" border="0" alt=""></td>
+    <td><img src="/common/spacer.gif" width="66" height="1" border="0" alt=""></td>
+    <td><img src="/common/spacer.gif" width="66" height="1" border="0" alt=""></td>
+    <td><img src="/common/spacer.gif" width="66" height="1" border="0" alt=""></td>
+    <td><img src="/common/spacer.gif" width="66" height="1" border="0" alt=""></td>
+    <td><img src="/common/spacer.gif" width="66" height="1" border="0" alt=""></td>
+    <td><img src="/common/spacer.gif" width="67" height="1" border="0" alt=""></td>
+    <td><img src="/common/spacer.gif" width="67" height="1" border="0" alt=""></td>
+    <td><img src="/common/spacer.gif" width="67" height="1" border="0" alt=""></td>
+    <td><img src="/common/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+
+  <tr>
+    
+  <td><a href="index.cfm"><img name="n_logo" src="/eng/n_logo.gif" width="100" height="96" border="0" alt="GHDI logo"></a></td>
+   <td><a href="section.cfm?section_id=7" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_1','','/common/n_1_f2.gif',1)"><img name="n_1" src="/common/n_1.gif" border="0" alt=""></a></td>
+   <td colspan="2"><a href="section.cfm?section_id=8" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_2','','/common/n_2_f2.gif',1)"><img name="n_2" src="/common/n_2.gif" border="0" alt=""></a></td>
+   <td><a href="section.cfm?section_id=9" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_3','','/common/n_3_f2.gif',1)"><img name="n_3" src="/common/n_3.gif" border="0" alt=""></a></td>
+   <td><a href="section.cfm?section_id=10" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_4','','/common/n_4_f2.gif',1)"><img name="n_4" src="/common/n_4.gif" border="0" alt=""></a></td>
+   <td><a href="section.cfm?section_id=11" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_5','','/common/n_5_f2.gif',1)"><img name="n_5" src="/common/n_5.gif" border="0" alt=""></a></td>
+   <td><a href="section.cfm?section_id=12" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_6','','/common/n_6_f2.gif',1)"><img name="n_6" src="/common/n_6.gif" border="0" alt=""></a></td>
+   <td><a href="section.cfm?section_id=13" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_7','','/common/n_7_f2.gif',1)"><img name="n_7" src="/common/n_7.gif" border="0" alt=""></a></td>
+   <td><a href="section.cfm?section_id=14" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_8','','/common/n_8_f2.gif',1)"><img name="n_8" src="/common/n_8.gif" border="0" alt=""></a></td>
+   <td><a href="section.cfm?section_id=15" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_9','','/common/n_9_f2.gif',1)"><img name="n_9" src="/common/n_9.gif" border="0" alt=""></a></td>
+   <td><a href="section.cfm?section_id=16" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_10','','/common/n_10_f2.gif',1)"><img name="n_10" src="/common/n_10.gif" border="0" alt=""></a></td>
+
+   <td><img src="/eng/spacer.gif" width="1" height="30" border="0" alt=""></td>
+  </tr>
+  <tr>
+	
+	
+	
+   <td><img src="/eng/spacer.gif" width="100" height="1" border="0" alt=""></td>
+   <td align="left" valign="top" colspan="4"><a href="about.cfm" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_about','','/eng/n_about_f2.gif',1);"><img name="n_about" src="/eng/n_about.gif" width="92" height="39" border="0" alt=""></a></td>
+   <td colspan="7" align="right"><a href="/search/search.cfm" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_search','','/eng/n_search_f2.gif',1);"><img name="n_search" src="/eng/n_search.gif" border="0" alt=""></a>
+	<a href="/sub_image.cfm?image_id=1408&language=english" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_english','','/common/n_english_f2.gif',1)"><img name="n_english" src="/common/n_english.gif" border="0" alt=""></a>
+	<a href="/sub_image.cfm?image_id=1408&language=german" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('n_deutsch','','/common/n_deutsch_f2.gif',1)"><img name="n_deutsch" src="/common/n_deutsch.gif" border="0" alt=""></a>
+ 	<img src="/eng/spacer.gif" width="1" height="27" border="0" alt="">
+  </td>
+	
+   <td><img src="/eng/spacer.gif" width="1" height="39" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img src="/eng/spacer.gif" width="100" height="1" border="0" alt=""></td>
+    <td colspan="11" valign="middle" class="nav"><span class="navtitle">
+		
+		
+		
+		
+		
+			
+			
+		
+		
+		
+		
+			
+				
+					Forging an Empire: Bismarckian Germany (1866-1890)
+				
+			
+		</span><br>
+		<span class="splash"><a href="sub_document.cfm?document_id=2290" class="nav">INTRODUCTION</a>
+	  
+	   | <a href="sub_docs.cfm?section_id=10" class="nav">DOCUMENTS</a>
+	   | <a href="sub_imgs.cfm?section_id=10" class="nav">IMAGES</a>
+	   | <a href="maplist.cfm?section_id=10" class="nav">MAPS</a>
+	   | <a href="editor.cfm?section_id=10" class="nav">EDITOR</a></span>
+	  
+	  	
+		
+		
+		
+		
+
+</td>
+   <td><img src="/eng/spacer.gif" width="1" height="41" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img src="/eng/spacer.gif" width="100" height="1" border="0" alt=""></td>
+  	<td colspan="11">
+	<table cellspacing="0" cellpadding="15" border="0">
+	<tr>
+		<td align="left" valign="top">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+	
+	
+
+
+
+	
+	
+
+
+
+
+
+
+
+	
+
+
+
+<p>
+
+<br>
+<span class="pagetitle">Bismarck Leads Alsace and Lorraine into the Empire (1871) 
+</span>
+</p>
+<p>
+<span class="bodytext">
+
+	
+
+
+
+This <I>Kladderadatsch</i> cartoon by Wilhelm Scholz is entitled “Good Advice is Costly” [“Guter Rath is theuer”]. The caption reads: “Bismarck (leading Alsace and Lorraine): Dear Reichstag, we have the two lads back again, but now tell me where and how we should accommodate them!” While Bavaria would have happily taken over custodianship of the two provinces seized from France in 1871, this cartoon correctly foresees a struggle for authority between Germania (representing Germany’s martial origins) and the Reichstag, whose members saw an opportunity to import newer, liberal traditions into the governance of the territories. Agreement on a <a href="http://www.germanhistorydocs.ghi-dc.org/sub_document.cfm?document_id=773&language=english">constitution for Alsace-Lorraine</a> was achieved very belatedly in Imperial Germany – in 1911.  <p class="bodytext">
+</span>
+
+<table cellspacing="0" cellpadding="3" border="0" width="100%">
+<tr>
+	<td align="left"><nobr>
+                      
+					  	
+                        <a href="print_document.cfm?document_id=1408"><img src="/common/print.gif" border="0" align="top"> 
+                        print version</a> 
+						
+                      
+					  &nbsp;
+					  &nbsp;
+					  
+					  		<a href="sub_imglist.cfm?startrow=1&section_id=10&sub_id=166"><img src="/common/list.gif" border="0" align="top">return to image list</a>
+					  
+					</nobr>
+	</td>
+	<td align="right">
+					<nobr>
+					  
+					  	
+							
+							  	
+									<a href="sub_image.cfm?image_id=1407"><img src="/common/previous.gif" border="0" align="top">previous image</a>
+								
+							
+       		              
+					  
+					  &nbsp;&nbsp;&nbsp;&nbsp;
+					  
+					  	
+							
+							  	
+									<a href="sub_image.cfm?image_id=1409">next image<img src="/common/Next.gif" border="0" align="top"></a>
+								
+							
+						
+
+					  
+				</nobr>
+	</td>
+	</tr>
+	</table>
+
+<p>
+
+	<img src="/images/30013228-r.jpg" border="0" alt="Bismarck Leads Alsace and Lorraine into the Empire (1871) " align="center">
+
+<br clear="all">
+</P>
+<p class="bodytext">© Bildarchiv Preußischer Kulturbesitz</p>
+
+
+
+ </p> 
+            		</td>
+	</tr>
+	</table>
+	</td>
+   <td><img src="/eng/spacer.gif" width="1" height="41" border="0" alt=""></td>
+</tr>
+</table>
+</body>
+
+</html>
+
+
+
+
+

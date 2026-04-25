@@ -1,0 +1,20 @@
+name: iconocracy
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyter
+  - matplotlib
+  - numpy
+  - psycopg2
+  - pylint
+  - pip
+  - pip:
+    - jsonschema>=4.0
+    - rich>=10.0
+    - prince
+    - statsmodels
+    - seaborn
+    - scipy
+    - scikit-posthocs

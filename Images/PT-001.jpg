@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="pt" class="LTR" dir="LTR"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="pt" class="LTR" dir="LTR"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="pt" class="LTR" dir="LTR"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="pt" class="LTR" dir="LTR"> <!--<![endif]-->
+    <head>
+
+        <!-- Basic Page Needs
+  ================================================== -->
+        <meta charset="utf-8">
+        <title>Justiça popular</title>
+        <meta name="description" content="">
+        <meta name="dc.date" content="1974-01-01">
+<meta name="dc.date" content="1976-01-01">
+<meta name="dc.format" content="1 cartaz : color.; 150x107 cm">
+<meta name="dc.source" content="ct-117-g-cx">
+<meta name="dc.language" content="Português">
+<meta name="dc.rights" content="COPYRIGHTED">
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Justiça popular" />
+        <meta property="og:description" content="" />
+        <meta property="og:url" content="https://bndigital.bnportugal.gov.pt/idurl/1/17148"/>
+        <meta property="og:image" content="http://bndigital.bnportugal.gov.pt/i/?IIIF=/c7/6e/8e/87/c76e8e87-15a8-464f-bc44-1c87dfdd8953/iiif/ct-117-g-cx_0000_000001.tif/full/!256,256/0/default.jpg" />
+                <!-- Mobile Specific Metas
+  ================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!-- CSS
+  ================================================== -->
+<link rel="stylesheet" href="/assets/ionicons/css/ionicons.min.css?v=4.6.2.5." media="all" /><link rel="stylesheet" href="/assets/styles/lgslider.css?v=4.6.2.5." media="all" /><link rel="stylesheet" href="/assets/styles/timeline_histogram.css?v=4.6.2.5." media="all" /><link rel="stylesheet" href="/assets/styles/date_slider.css?v=4.6.2.5." media="all" /><link rel="stylesheet" href="/assets/styles/jquery.ui.css?v=4.6.2.5." media="all" /><link rel="stylesheet" href="/assets/styles/grapesjs_responsive.css?v=4.6.2.5." media="all" /><link rel="stylesheet" href="/assets/javascripts/library/daterangepicker/daterangepicker.css?v=4.6.2.5." media="all" /><link rel="stylesheet" href="/assets/javascripts/library/fancybox/jquery.fancybox.css?v=2.1.5" media="all" /><link rel="stylesheet" href="/assets/javascripts/library/leaflet/leaflet.css?v=4.6.2.5." media="all" /><link rel="stylesheet" href="/assets/javascripts/library/leaflet/MarkerCluster.Default.css?v=4.6.2.5." media="all" /><link rel="stylesheet" href="/assets/javascripts/library/leaflet/MarkerCluster.css?v=4.6.2.5." media="all" />        <link rel="icon" href="/themes/BNP/images/cropped-bnd6-32x32.png" sizes="32x32" />
+        <link rel="icon" href="/themes/BNP/images/cropped-bnd6-192x192.png" sizes="192x192" />
+        <link rel="apple-touch-icon-precomposed" href="/themes/BNP/images/cropped-bnd6-180x180.png" />
+        <link rel="stylesheet" href="/themes/BNP/styles/skeleton.css?v=2">
+        <link rel="stylesheet" href="/themes/BNP/styles/style.css?v=2">
+	<link rel="stylesheet" type="text/css" href="/assets/javascripts/library/fancybox/jquery.fancybox.css?v=2" media="screen" />
+	<link rel="stylesheet" href="/resources/styles/styles.css?v=2" />
+            </head>
+    <body class="body_page-records-single">
+        <!-- Primary Page Layout
+        ================================================== -->
+
+        
+        <!-- Delete everything in this .container and get started on your own site! -->
+
+
+
+        <!-- Delete everything in this .container and get started on your own site! -->
+        <div id="header">
+        <div id="header_content">
+        <div id="menu_lang">
+                                    <a href="/en/records/item/17148-justica-popular">en</a>
+                                            <a href="/">pt</a>
+                    
+            <a class="user_account" href="/user-account"><i class="ion-person"></i> Iniciar sessão</a>
+        </div>
+            <div id="search_form">
+                <form action="/records#page" method="get" id="search_submit">
+                    <input type="hidden" name="navigation" value="">
+                    <input type="hidden" name="perpage" value="">
+                    <input type="hidden" name="page" value="1">
+                    <input type="text" class="autocomplete" id="search_txt" name="search" value="" data-options='{"itemtype_id":""}' placeholder="Pesquisar texto..." autocomplete="off">
+                <input id="fulltext_checkbox" type="hidden" name="fulltext" value="1">
+                <input id="child_checkbox" type="hidden" name="child" value="1">
+                <input id="bookmarks_checkbox" type="hidden" name="bookmarks" value="1" >
+                <input type="hidden" name="sort" value="_score" >
+
+
+                                                                
+                <button type="submit"  id="search_bt" name="search_submit" value="1"><i class="ion-search"></i></button>
+                
+
+                    
+                </form>
+
+                
+                
+
+                <a class="recherche-avancee" href="/pesquisa-avancada"><i class="ion-android-more-horizontal"></i></a>
+            </div>
+        </div>
+        
+
+       
+
+            <!-- <div id="header_content" class="container">
+
+                <div class="two-thirds column">
+                    <div id="logo">
+						<a href="/pt/" target="_blank"><img src="/themes/BNP/images/logo_right.png" alt="Título_Cabeçalho" class="scale-with-grid"></a>
+                    </div>
+                </div>
+                <div class="one-third column">
+                    <div id="logor">
+                        <a href="/"><img src="/themes/BNP/images/logo.png" alt="Título_Cabeçalho" class="scale-with-grid"></a>
+                    </div>
+                </div>
+
+            </div> -->
+        </div>
+<div class="menu_top_bg">
+
+    
+    <div class="container">
+        
+        <a href="/" ><img src="/themes/BNP/images/bnd_logo_dark.png" alt="Título_Cabeçalho" class="scale-with-grid"></a>
+    <ul class="menu" id="menu-top" ><li ><a  href="/"  title="Ir para Início " alt="Ir para Início ">Início </a></li><li ><a  href="/pesquisa-avancada"  title="Ir para Pesquisar" alt="Ir para Pesquisar">Pesquisar</a></li><li ><a  href="/ajuda"  title="Ir para Ajuda" alt="Ir para Ajuda">Ajuda</a></li><li ><a  href="/records?search=&sort=-PURL_ID,_score"  title="Ir para Mais recentes" alt="Ir para Mais recentes">Mais recentes</a></li><li ><a  href="/colecoes"  title="Ir para Coleções" alt="Ir para Coleções">Coleções</a></li><li ><a  href="/serials/"  title="Ir para Periódicos" alt="Ir para Periódicos">Periódicos</a></li><li ><a  href="/temas"  title="Ir para Temas" alt="Ir para Temas">Temas</a></li><li ><a  href="/blogue"  title="Ir para Blogue" alt="Ir para Blogue">Blogue</a></li><li ><a  href="/sobre"  title="Ir para Sobre" alt="Ir para Sobre">Sobre</a></li></ul><div id="menu-top-mobile"><i class="menu-top-mobile-bar open_modal ion-navicon" data-content="menu-top-mobile-content" "></i></span><div id="menu-top-mobile-content"><ul class="menu" id="menu-top-mobile-content-ul" ><li ><a  href="/"  title="Ir para Início " alt="Ir para Início ">Início </a></li><li ><a  href="/pesquisa-avancada"  title="Ir para Pesquisar" alt="Ir para Pesquisar">Pesquisar</a></li><li ><a  href="/ajuda"  title="Ir para Ajuda" alt="Ir para Ajuda">Ajuda</a></li><li ><a  href="/records?search=&sort=-PURL_ID,_score"  title="Ir para Mais recentes" alt="Ir para Mais recentes">Mais recentes</a></li><li ><a  href="/colecoes"  title="Ir para Coleções" alt="Ir para Coleções">Coleções</a></li><li ><a  href="/serials/"  title="Ir para Periódicos" alt="Ir para Periódicos">Periódicos</a></li><li ><a  href="/temas"  title="Ir para Temas" alt="Ir para Temas">Temas</a></li><li ><a  href="/blogue"  title="Ir para Blogue" alt="Ir para Blogue">Blogue</a></li><li ><a  href="/sobre"  title="Ir para Sobre" alt="Ir para Sobre">Sobre</a></li></ul></div></div> 
+
+
+                  
+
+
+</div>
+</div>
+<div style="clear:both"></div>
+
+
+        <div id="content" class="container">
+
+
+
+    <abbr class="unapi-id" title="17148"></abbr>
+
+    <div style="clear:both"></div>
+    <div id="page">
+        <div class="one-quart column">
+            <div class="lgauth lgbasket_header"><i class="ion-ios-star-outline"></i></div>            
+
+            <div class="page_content media_image">
+
+                <img border="0" class="scale-with-grid" title="Justi&ccedil;a popular" alt="Justi&ccedil;a popular" src="/i/?IIIF=/c7/6e/8e/87/c76e8e87-15a8-464f-bc44-1c87dfdd8953/iiif/ct-117-g-cx_0000_000001.tif/full/!300,500/0/default.jpg" id="media_image">                <div style="clear: both"></div>
+            </div>
+
+
+
+            <div class="page_content share">
+                <div>
+                    <a target="_blank" title="Twitter " href="https://twitter.com/share?url=https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular&text=Justiça popular" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=700');
+                            return false;"><i class="ion-social-twitter"></i></a>
+                    <a target="_blank" title="Facebook " href="https://www.facebook.com/sharer.php?u=https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular&t=Justiça popular" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');
+                            return false;"><i class="ion-social-facebook"></i></a>
+                    <a target="_blank" title="Linkedin " href="https://www.linkedin.com/shareArticle?mini=true&url=https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular&source=LinkedIn" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');
+                            return false;"><i class="ion-social-linkedin"></i></a>
+                    <a target="_blank" title="Pinterest"  href="https://www.pinterest.com/pin/create/button/?url=https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular&description=Justiça popular" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');
+                            return false;"><i class="ion-social-pinterest"></i></a>
+                    <a target="_blank" title="Enviar um email " href="mailto:?subject=Justiça popular&body=https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular" rel="nofollow"><i class="ion-email"></i></a>
+
+                    
+                </div>
+            </div>
+
+
+
+            
+
+<div id="similaire">
+    <h2>Outros volumes</h2><hr><br>
+    <div class="lgitems"  id="volumes" data-options='{"itemtype_id":1,"div_id":"similaire","exclude":"17148","search":"RecordIdentifier_BNPCatalog:464460","refine":"","limit":16,"img":"small","type":"listing","title":"Title","desc":"Cota","sort":"item_id"}'></div> 
+</div>
+
+
+            
+
+
+
+        </div>
+        <div class="three-quarts column">
+            <div class="page_content p_right" lang="pt">
+
+                                
+
+Justiça popular : o Pide que assassinou Dias Coelho vai ser julgado nas costas do povo!... / UDP. - [Lisboa] : UDP, [1975?]. - 1 cartaz : color.; 150x107 cm
+
+                <br><br>
+
+
+<div><div class="two-thirds column">Digitalizado a partir de: ct-117-g-cx</div><div class="one-third column" style="text-align:right;"><a href="http://id.bnportugal.gov.pt/bib/catbnp/464460" target="_blank">Ver registo no catálogo</a><br></div></div><br><br><a href="../?refine[Creator][]=Uni%C3%A3o+Democr%C3%A1tica+Popular">União Democrática Popular</a><br><br><hr><div id="small_info"><br><span class="subtitle_info">ID persistente do objecto digital</span><br><a target="_blank" href="http://purl.pt/22074">http://purl.pt/22074</a><br><br><span class="subtitle_info">Link persistente desta página</span><br>https://bndigital.bnportugal.gov.pt/idurl/1/17148 <div data-url="https://bndigital.bnportugal.gov.pt/idurl/1/17148" class="copy_permalink"><i class="ion-ios-copy" title="Copiar"></i></div><br><br>COPYRIGHTED<br><i>Obra protegida por Direito de Autor, acessível apenas na rede interna da BNP</i><br></div><br>                                 <div style="clear: both"></div> 
+
+
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+    </div><!-- container -->
+</div>
+<div id="footer">
+<div class="container">
+
+
+
+    <div class="one-quart column">
+        <div class="p_left">
+            <a href="https://www.portugal.gov.pt/pt/gc21/area-de-governo/cultura" target="_blank"><img class="logo_cultura" src="/themes/BNP/images/logo_invert.png" alt="Título_Cabeçalho"></a><br>
+<!--            
+Rodapé_Texto1-->
+        </div>
+    </div>
+
+    <div class="one-quart column">
+
+        <div class="p_left">
+            <a href="http://www.bnportugal.gov.pt/" target="_blank"><img class="logo_bnp" src="/themes/BNP/images/logo_bnp.png" alt="Logo BNP" class="scale-with-grid"></a><br>
+          </div>
+<!--
+        <div class="p_center">
+            <p>
+        Rodapé_Título1<br>
+        </p>
+        </div>
+-->
+    </div>
+
+
+    <div class="one-quart column">
+	<p></p>
+<!--
+        <div class="p_center">
+        <p><a href="http://catalogo.bnportugal.gov.pt/ipac20/ipac.jsp?profile=bn" target="_blank">catalogo.bnportugal.gov.pt</a><br></p>
+
+    <div class="social">
+            <a href="" target="_blank" rel="nofollow"><i class="ion-social-twitter"></i></a>
+            <a href="" target="_blank" rel="nofollow"><i class="ion-social-facebook"></i></a>
+            <a href="" target="_blank" rel="nofollow"><i class="ion-social-instagram"></i></a>
+            <a href="" target="_blank" rel="nofollow"><i class="ion-social-youtube"></i></a>
+            <a href="" target="_blank" rel="nofollow"><i class="ion-social-linkedin"></i></a>
+
+    </div>
+
+        </div>
+-->
+    </div>
+
+    <div class="one-quart column">
+        <div class="p_right">
+            <p>
+        <ul class="menu" id="menu-bottom" ><li ><a  href="/ficha-tecnica" target="_blank" title="Ir para Ficha técnica" alt="Ir para Ficha técnica">Ficha técnica</a></li><li ><a  href="https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Flae.digital.gov.pt%2F&data=05%7C02%7Cmbaptista%40bnportugal.gov.pt%7Cf41357f7f6d74f011e8a08de649480b2%7Cdd9ebef0191a4fbb995ea9ffd5477910%7C0%7C0%7C639058786144345861%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=t9FJi2fD2hmAmUZl0olkQNVyZ4fAlUgeaYws2Po%2BUr0%3D&reserved=0" target="_blank" title="Ir para Livro Amarelo Eletrónico" alt="Ir para Livro Amarelo Eletrónico">Livro Amarelo Eletrónico</a></li><li ><a  href="resources/documents/acessibilidade.html" target="_blank" title="Ir para Acessibilidade" alt="Ir para Acessibilidade">Acessibilidade</a></li><li ><a  href="mailto: bndigital@bnportugal.gov.pt" target="_blank" title="Ir para bndigital@bnportugal.gov.pt" alt="Ir para bndigital@bnportugal.gov.pt">bndigital@bnportugal.gov.pt</a></li></ul>  
+        </p>
+        </div>
+    </div>
+
+</div>
+   <div class="container"> 
+
+</div>
+    <div style="clear: both"></div>
+</div>
+<div id="modal_content" style="display:none;"></div>
+<!-- End Document
+================================================== -->
+
+<!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="/assets/javascripts/jquery2.js?v=4.6.2.5."></script><script src="/assets/javascripts/library/popper.min.js?v=4.6.2.5."></script><script src="/assets/javascripts/library/tippy-bundle.umd.js?v=4.6.2.5."></script><script src="/assets/javascripts/helpers.js?v=4.6.2.5."></script><script src="/assets/javascripts/locales.php?l=pt"></script><script src="/assets/javascripts/library/leaflet/leaflet.js?v=4.6.2.5."></script><script src="/assets/javascripts/geomap-leaflet.js?v=4.6.2.5."></script><script src="/assets/javascripts/library/leaflet/leaflet.markercluster.js?v=4.6.2.5."></script><script src="/assets/javascripts/library/jquery-ui.min.js?v=4.6.2.5."></script><script src="/assets/javascripts/library/d3.min.js?v=4.6.2.5."></script><script src="/assets/javascripts/library/mediaelementjs/mediaelement.js?v=4.6.2.5."></script><script src="/assets/javascripts/library/fancybox/jquery.fancybox.js?v=2.1.5"></script><script src="/assets/javascripts/timeline_histogram.js?v=4.6.2.5."></script><script src="/assets/javascripts/date_calendar.js?v=4.6.2.5."></script><script src="/assets/javascripts/jQDateRangeSlider-min.js?v=4.6.2.5."></script><script src="/assets/javascripts/date_slider.js?v=4.6.2.5."></script><script src="/assets/javascripts/slider.js?v=4.6.2.5."></script><script src="/assets/javascripts/lgslider.js?v=4.6.2.5."></script><script src="/assets/javascripts/autocomplete.js?v=4.6.2.5."></script><script src="/assets/javascripts/viewfulltextpage.js?v=4.6.2.5."></script><script src="/assets/javascripts/viewbookmarkspage.js?v=4.6.2.5."></script><script src="/assets/javascripts/viewchildpage.js?v=4.6.2.5."></script><script src="/assets/javascripts/map.js?v=4.6.2.5."></script><script src="/assets/javascripts/articles_ticker.js?v=4.6.2.5."></script><script src="/assets/javascripts/basket.js?v=4.6.2.5."></script><script src="/assets/javascripts/auth.js?v=4.6.2.5."></script><script src="/assets/javascripts/grapes_front.js?v=4.6.2.5."></script><script src="/assets/javascripts/short_url.js?v=4.6.2.5."></script><script src="/assets/javascripts/lg_login_form.js?v=4.6.2.5."></script><script src="/assets/javascripts/library/daterangepicker/moment.js?v=4.6.2.5."></script><script src="/assets/javascripts/library/daterangepicker/daterangepicker.js?v=4.6.2.5."></script><script src="/assets/javascripts/loan_disponibility.js?v=4.6.2.5."></script><script src="/assets/javascripts/stats.js?v=4.6.2.5."></script><script src="/assets/javascripts/locales.php?l=pt"></script><script type="text/javascript" src="/themes/BNP/javascripts/lazyload.min.js?v=2"></script>
+<script type="text/javascript" src="/themes/BNP/javascripts/lgslider.js?v=2"></script>
+<script type="text/javascript" src="/themes/BNP/javascripts/auth.js?v=2"></script>
+<script type="text/javascript" src="/themes/BNP/javascripts/basket.js?v=2"></script>
+<script type="text/javascript" src="/themes/BNP/javascripts/modal.js?v=2"></script>
+<script type="text/javascript" src="/themes/BNP/javascripts/articles.js?v=2"></script>
+<script type="text/javascript" src="/themes/BNP/javascripts/widgets.js?v=2"></script>
+<script type="text/javascript" src="/themes/BNP/javascripts/supra.js?v=2"></script>
+<script type="text/javascript" src="/themes/BNP/javascripts/tracking.js?v=2"></script>
+<script type="text/javascript" src="/resources/javascripts/locales/js.js?v=2"></script>
+
+
+
+</body>
+</html>

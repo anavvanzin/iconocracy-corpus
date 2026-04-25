@@ -1,0 +1,7 @@
+$kind: http-request
+method: GET
+url: '{{baseUrl}}/api/corpus/{{itemId}}'
+order: 9000
+pathVariables:
+  - key: itemId
+    value: '{{itemId}}'

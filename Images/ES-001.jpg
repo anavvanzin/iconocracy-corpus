@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html
+    id="simple"
+    lang="es"
+    class="is-full-device-height"
+    prefix="og: http://ogp.me/ns#">
+
+    <head>
+        
+            
+            <meta charset="UTF-8">
+            <title>BNE Digital. Biblioteca Nacional de España</title>
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <meta name="description" content="La plataforma de acceso al patrimonio digital de la Biblioteca Nacional de España.">
+            <meta name="Generator-Name" content="Biblos">
+            <meta name="Generator-Copyright" content="© 2020-2025 Álvaro Falquina Garrido. All rights reserved.">
+            <meta name="Generator-Version" content="1.0.0">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <link
+                    rel="shortcut icon" type="image/x-icon"
+                    href="/fs/static/img/bne.ico">
+                <link
+                    rel="stylesheet" type="text/css" charset="UTF-8"
+                    href="/fs/static/css/bne.css?2026-04-01T06-56-41Z">
+        
+        
+        
+        
+            <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new
+ Date().getTime(),event:'gtm.js'});var 
+f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5W3WGK6S');</script>
+<!-- End Google Tag Manager -->
+        
+    </head>
+
+
+    <body class="is-flex is-flex-direction-column is-full-device-height">
+        
+            <!-- Google Tag Manager (noscript) -->
+<noscript><iframe 
+src="https://www.googletagmanager.com/ns.html?id=GTM-5W3WGK6S" height="0"
+ width="0" 
+style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        
+        
+            <section id="header" class="hero is-small is-header-color">
+                <div class="hero-head">
+                    <nav class="navbar" role="navigation" aria-label="main navigation">
+                        <div class="container is-max-widescreen">
+                            <div class="navbar-brand">
+                                <a
+                                    role="button"
+                                    class="navbar-burger"
+                                    data-target="top-navbar-menu"
+                                    aria-label="menu"
+                                    aria-expanded="false"
+                                >
+                                    <span aria-hidden="true"></span>
+                                    <span aria-hidden="true"></span>
+                                    <span aria-hidden="true"></span>
+                                </a>
+                            </div>
+                            <div class="navbar-menu" id="top-navbar-menu">
+                                <div class="navbar-start"></div>
+                                <div class="navbar-end">
+                                    
+                                        
+                                    
+                                    
+                                            <ul class="links header-links navbar-item">
+            
+                <li>
+                <a href="/hd/es/" class="is-size-5 is-family-secondary None">Hemeroteca Digital</a>
+            </li>
+    </ul>
+
+                                    
+                                    
+                                        
+                                    
+                                    
+                                            <div id="languages" class="navbar-item has-dropdown is-hoverable is-right">
+        <div class="navbar-link">
+            <span>ES</span>
+        </div>
+        <div class="navbar-dropdown is-right" role="menu">
+                
+                <a class="navbar-item is-active is-info" href="/bd/es/simple" title="Español">
+                    ES
+                </a>
+                
+                <a class="navbar-item" href="/bd/ca/simple" title="Català">
+                    CA
+                </a>
+                
+                <a class="navbar-item" href="/bd/eu/simple" title="Euskera">
+                    EU
+                </a>
+                
+                <a class="navbar-item" href="/bd/gl/simple" title="Galego">
+                    GL
+                </a>
+                
+                <a class="navbar-item" href="/bd/en/simple" title="English">
+                    EN
+                </a>
+                
+                <a class="navbar-item" href="/bd/fr/simple" title="Français">
+                    FR
+                </a>
+        </div>
+    </div>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="hero-body">
+                    
+                        
+                        <div class="container is-max-widescreen is-flex">
+                                <div class="mr-4">
+                                            <a href="/bd/"><img src="/fs/static/img/bne-white-logo.png" class="view-logo"></a>
+                                </div>
+                            <div>
+                                    <h1 class="title is-size-4-mobile">BNE Digital</h1>
+                                    <h1 class="subtitle is-size-6-mobile">Biblioteca Nacional de España</h1>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="hero-foot has-background-tab has-text-tab-text">
+                    <div class="container is-max-widescreen is-flex">
+                    
+                            <nav class="tabs is-boxed is-flex-grow-1 mb-0">
+        <ul>
+                
+                    <li class="is-active">
+                <a href="/bd/es/simple"><img src="/fs/static/img/black-search.svg" class="mr-2 " style="">
+Consulta</a>
+                </li>
+                
+                    <li>
+                <a href="/bd/es/advanced">Avanzada</a>
+                </li>
+                
+                    <li>
+                <a href="/bd/es/results">Resultados</a>
+                </li>
+                
+                    <li id="tab-dossier">
+                <a href="/bd/es/dossier?g=ws&g=d&g=df&g=dd&g=ld&g=pd&g=pg&g=hh&g=ds">Mi BNE Digital</a>
+                </li>
+        </ul>
+    </nav>
+
+                    
+                    
+                            <ul class="links top-links ">
+            
+                <li class="is-hidden-mobile">
+                <a href="/bd/es/about" class="None">Acerca de</a>
+            </li>
+            
+                <li class="is-hidden-mobile">
+                <a href="/fs/static/pdf/guia-de-uso-bne-digital.pdf" class="None" target="_blank">Guía de uso</a>
+            </li>
+            
+                <li class="is-hidden-touch">
+                <a href="/bd/es/faq" class="None">Preguntas frecuentes</a>
+            </li>
+    </ul>
+
+                    
+                    </div>
+                </div>
+            </section>
+        
+        
+            <section id="main" class="section is-flex-grow-1">
+                <div class="container is-max-widescreen">
+                    
+    <div class="has-text-centered is-size-5 mx-6">Plataforma de acceso al patrimonio digital de la Biblioteca&nbsp;Nacional de&nbsp;España.<br>Accede a miles de obras digitales de todas las épocas y tipos.</div>
+    <form class="mt-6 mb-6" name="form" method="get" action="results">
+        <input type="hidden" name="y" value="s">
+        <fieldset class="fieldset is-hidden-mobile">
+                <div class="field is-grouped">
+            <input type="hidden" name="o" value="">
+
+            <div class="control is-expanded">
+        <input
+            type="text" class="input" name="w"
+            autofocus
+            placeholder="¿Qué buscas?">
+    </div>
+
+            <div class="control">
+        <div class="select">
+                <select name="f">
+            <option
+                value="texto_ficha"            >El texto y todos los campos</option>
+            <option
+                value="ficha"                    selected
+            >Todos los campos</option>
+            <option
+                value="name"            >Título</option>
+            <option
+                value="creator"            >Autoría</option>
+            <option
+                value="subject"            >Materia</option>
+            <option
+                value="notes"            >Notas</option>
+    </select>
+
+        </div>
+    </div>
+
+            <div class="control">
+        <button class="button is-primary" type="submit">Buscar</button>
+    </div>
+
+    </div>
+
+        </fieldset>
+        <fieldset class="fieldset is-hidden-tablet">
+                <div class="field">
+            <input type="hidden" name="o" value="">
+
+    </div>
+    <div class="field">
+            <div class="control is-expanded">
+        <input
+            type="text" class="input" name="w"
+            autofocus
+            placeholder="¿Qué buscas?">
+    </div>
+
+    </div>
+    <div class="field">
+            <div class="control is-expanded">
+        <div class="select is-fullwidth">
+                <select name="f">
+            <option
+                value="texto_ficha"            >El texto y todos los campos</option>
+            <option
+                value="ficha"                    selected
+            >Todos los campos</option>
+            <option
+                value="name"            >Título</option>
+            <option
+                value="creator"            >Autoría</option>
+            <option
+                value="subject"            >Materia</option>
+            <option
+                value="notes"            >Notas</option>
+    </select>
+
+        </div>
+    </div>
+
+    </div>
+    <div class="field">
+            <div class="control is-expanded">
+        <button class="button is-primary is-fullwidth" type="submit">Buscar</button>
+    </div>
+
+    </div>
+
+        </fieldset>
+        <div class="block is-flex is-align-items-center is-flex-direction-column">
+                <div class="field is-grouped is-grouped-multiline is-grouped-centered is-align-items-center ">
+        <div class="control">
+        <label title="La consulta que, en BD, restringe la búsqueda a los títulos en acceso libre">
+            <input type="checkbox" class="checkbox" name="g" value="fa" >
+            Solo en títulos de acceso libre
+        </label>
+    </div>
+
+    </div>
+
+                <div class="field is-grouped is-grouped-multiline is-grouped-centered is-align-items-center is-hidden">
+            <div class="control">
+                <label class="mr-2 has-text-weight-medium">Tipos:</label>
+            </div>
+        <div class="control">
+        <label title="Restringe la búsqueda a los títulos de las obras, las divisiones, las publicaciones seriadas y los ejemplares de las publicaciones seriadas">
+            <input type="radio" class="radio" name="g" value="ws" checked>
+            Obras y Seriadas
+        </label>
+    </div>
+
+        <div class="control">
+        <label title="Restringe la búsqueda a los títulos de las obras y las divisiones">
+            <input type="radio" class="radio" name="g" value="w" >
+            Obras
+        </label>
+    </div>
+
+        <div class="control">
+        <label title="Restringe la búsqueda a los títulos de las publicaciones seriadas">
+            <input type="radio" class="radio" name="g" value="t" >
+            Publicaciones seriadas
+        </label>
+    </div>
+
+        <div class="control">
+        <label title="Restringe la búsqueda a los ejemplares de las publicaciones seriadas">
+            <input type="radio" class="radio" name="g" value="fi" >
+            Ejemplares de seriada
+        </label>
+    </div>
+
+        <div class="control">
+        <label title="Restringe la búsqueda a los títulos de las divisiones">
+            <input type="radio" class="radio" name="g" value="d" >
+            Divisiones
+        </label>
+    </div>
+
+        <div class="control">
+        <label title="Restringe la búsqueda a los registros que representan ficheros digitales: texto (PDF, EPUB), imagen (JPEG, TIFF), grabaciones sonoras (MP3) o vídeo (MP4)">
+            <input type="radio" class="radio" name="g" value="df" >
+            Ficheros digitales
+        </label>
+    </div>
+
+        <div class="control">
+        <label title="Busca solo en páginas de Biblioteca.">
+            <input type="radio" class="radio" name="g" value="pp" >
+            Páginas
+        </label>
+    </div>
+
+    </div>
+
+</div>
+        
+    </form>
+    
+        <div class="has-text-centered is-family-secondary is-size-3">
+        Colecciones digitales destacadas
+    </div>
+    <div class="columns is-variable is-4 is-multiline is-centered">
+            <div class="column is-narrow px-2">
+    <a href="https://bnedigital.bne.es/bd/es/results?o=&o=o&o=n&o=&o=o&o=n&w=%22libros+infantiles%22&w=%22cuentos+infantiles%22&w=&w=&w=&w=&f=subject&f=subject&f=ficha&f=ficha&f=ficha&f=ficha&p=&g=ws&g=dd&g=ld&g=pd&g=pg&g=hh&g=fa&d=date&d=&d=&startYear=&endYear=&year=&l=50&x=&t=score-desc&f1=1801-1900&f1=1901-2000%E2%96%B81901-1910&f1=1901-2000%E2%96%B81911-1920&f1=1901-2000%E2%96%B81921-1930&f1=1901-2000%E2%96%B81931-1940&f1=1901-2000%E2%96%B81941-1950&f1=1901-2000%E2%96%B81951-1960&f3=Ciencia+y+cultura+en+general&f3=Ciencias+sociales&f3=Bellas+artes.+Espect%C3%A1culos.+Deportes&f4=Libros&s=0">
+        <div
+            class="card p-3 has-text-centered is-clipped"
+            style="max-width: 368px; height: 472px;">
+            <div class="card-image">
+                <img width="344"
+                    src="/adm/es/high?id=5f5a8e15-cf78-4966-ad69-9399f53842b2"
+                    title="Día Internacional del Libro Infantil y Juvenil"
+                    alt="Día Internacional del Libro Infantil y Juvenil"
+                    loading="lazy">
+            </div>
+            <div class="card-content p-0">
+                <div class="is-size-6 has-text-weight-semibold">Día Internacional del Libro Infantil y Juvenil</div>
+                    <div class="is-size-7">El 2 de abril se celebra el Día Internacional del Libro Infantil y Juvenil. Descubre una muestra de cuentos, fábulas y narraciones históricas para niños y jóvenes.</div>
+            </div>
+        </div>
+    </a>
+</div>
+            <div class="column is-narrow px-2">
+    <a href="https://bnedigital.bne.es/bd/es/results?o=&w=&f=ficha&o=o&w=&f=ficha&o=q&w=marc_899_x%3A%22DIGDPI1945%22&f=ficha&o=&w=&f=ficha&o=o&w=&f=ficha&o=n&w=&f=ficha&p=&g=w&g=dd&d=date&d=&d=&startYear=&endYear=&year=&l=10&t=score-desc&g=e&x=">
+        <div
+            class="card p-3 has-text-centered is-clipped"
+            style="max-width: 368px; height: 472px;">
+            <div class="card-image">
+                <img width="344"
+                    src="/adm/es/high?id=86cf2599-41f8-48f7-a6fc-3c856a02b411"
+                    title="Autores en dominio público 2026"
+                    alt="Autores en dominio público 2026"
+                    loading="lazy">
+            </div>
+            <div class="card-content p-0">
+                <div class="is-size-6 has-text-weight-semibold">Autores en dominio público 2026</div>
+                    <div class="is-size-7">Autores y autoras que pasan a dominio público en 2026. Descubre sus más de 600 obras digitalizadas, libres de derechos, en BNE Digital.</div>
+            </div>
+        </div>
+    </a>
+</div>
+            <div class="column is-narrow px-2">
+    <a href="https://bnedigital.bne.es/bd/es/results?o=&o=o&o=n&o=&o=o&o=n&w=kaulak&w=&w=&w=&w=&w=&f=ficha&f=ficha&f=ficha&f=ficha&f=ficha&f=ficha&p=&g=ws&g=dd&g=ld&g=pd&g=pg&g=hh&g=e&d=date&d=&d=&startYear=&endYear=&year=&l=50&t=score-desc&x=&f0=K%C3%A2ulak+%28Estudio+fotogr%C3%A1fico%29&f4=Dibujos%2C+grabados+y+fotograf%C3%ADas%E2%96%B8Fotograf%C3%ADas&f5=1">
+        <div
+            class="card p-3 has-text-centered is-clipped"
+            style="max-width: 368px; height: 472px;">
+            <div class="card-image">
+                <img width="344"
+                    src="/adm/es/high?id=ac854c9c-d33e-4165-a69d-804bf8098db5"
+                    title="Fotografías Kâulak"
+                    alt="Fotografías Kâulak"
+                    loading="lazy">
+            </div>
+            <div class="card-content p-0">
+                <div class="is-size-6 has-text-weight-semibold">Fotografías Kâulak</div>
+                    <div class="is-size-7">Los originales fotográficos procedentes del estudio Kâulak, fundado por el artista Antonio Cánovas del Castillo Vallejo.</div>
+            </div>
+        </div>
+    </a>
+</div>
+            <div class="column is-narrow px-2">
+    <a href="http://bnedigital.bne.es/bd/es/results?o=&o=o&o=q&o=&o=o&o=n&w=&w=&w=marc_650_a%3A%E2%80%9Dliteratura%E2%80%9D+%26+marc_008_15_17%3A%E2%80%9Dsp%E2%80%9D&w=&w=&w=&f=ficha&f=ficha&f=ficha&f=ficha&f=ficha&f=ficha&p=&g=ws&g=dd&g=hh&g=fa&d=date&d=&d=&startYear=&endYear=&year=&l=50&t=score-desc&x=&f1=1801-1900%E2%96%B81881-1890&f1=1801-1900%E2%96%B81891-1900&f1=1901-2000%E2%96%B81901-1910&f1=1901-2000%E2%96%B81911-1920&f1=1901-2000%E2%96%B81921-1930&f4=Prensa+y+revistas">
+        <div
+            class="card p-3 has-text-centered is-clipped"
+            style="max-width: 368px; height: 472px;">
+            <div class="card-image">
+                <img width="344"
+                    src="/adm/es/high?id=8d8971b4-0a48-49c9-8160-c835842fa07e"
+                    title="Revistas literarias de la Edad de Plata"
+                    alt="Revistas literarias de la Edad de Plata"
+                    loading="lazy">
+            </div>
+            <div class="card-content p-0">
+                <div class="is-size-6 has-text-weight-semibold">Revistas literarias de la Edad de Plata</div>
+                    <div class="is-size-7">Una selección de revistas literarias de la Edad de Plata en España, reflejo del renacer cultural a principios del siglo XX.</div>
+            </div>
+        </div>
+    </a>
+</div>
+            <div class="column is-narrow px-2">
+    <a href="https://bnedigital.bne.es/bd/es/results?o=&w=%22Dibujos+infantiles+--+Espa%C3%B1a+--+1936-1939%22&f=subject&o=o&w=&f=ficha&o=n&w=&f=ficha&o=&w=&f=ficha&o=o&w=&f=ficha&o=n&w=&f=ficha&p=&g=ws&g=dd&g=ld&g=pd&g=pg&g=hh&d=date&d=&d=&startYear=&endYear=&year=&l=50&t=score-desc&g=e&x=">
+        <div
+            class="card p-3 has-text-centered is-clipped"
+            style="max-width: 368px; height: 472px;">
+            <div class="card-image">
+                <img width="344"
+                    src="/adm/es/high?id=81a13a9f-2bd1-49fb-a135-085efe6b4e93"
+                    title="Dibujos de la Guerra Civil "
+                    alt="Dibujos de la Guerra Civil "
+                    loading="lazy">
+            </div>
+            <div class="card-content p-0">
+                <div class="is-size-6 has-text-weight-semibold">Dibujos de la Guerra Civil </div>
+                    <div class="is-size-7">Colección de dibujos realizados por niños durante la Guerra Civil en colonias escolares organizadas por el Gobierno de la República. Adquirida por la Biblioteca en 1986.</div>
+            </div>
+        </div>
+    </a>
+</div>
+            <div class="column is-narrow px-2">
+    <a href="http://bnedigital.bne.es/bd/es/results?o=&w=&f=ficha&o=o&w=&f=ficha&o=q&w=marc_650_a%3A%22moda%22&f=ficha&o=&w=&f=ficha&o=o&w=&f=ficha&o=n&w=&f=ficha&p=&f4=Prensa+y+revistas&g=ws&g=dd&g=ld&g=pd&g=pg&g=hh&d=date&d=&d=&startYear=&endYear=&year=&l=100&t=score-desc&g=fa&x=">
+        <div
+            class="card p-3 has-text-centered is-clipped"
+            style="max-width: 368px; height: 472px;">
+            <div class="card-image">
+                <img width="344"
+                    src="/adm/es/high?id=7e23dc71-74ca-4134-bf6e-d6c28a7e0c90"
+                    title="Revistas de moda"
+                    alt="Revistas de moda"
+                    loading="lazy">
+            </div>
+            <div class="card-content p-0">
+                <div class="is-size-6 has-text-weight-semibold">Revistas de moda</div>
+                    <div class="is-size-7">Revistas de moda de los siglos XIX y XX con cabeceras como Sartorial, Correo de las damas, La moda elegante o Elegancias.</div>
+            </div>
+        </div>
+    </a>
+</div>
+            <div class="column is-narrow px-2">
+    <a href="https://bnedigital.bne.es/bd/es/results?o=&w=&f=ficha&o=o&w=&f=ficha&o=q&w=type+-%3E+name+%3D+epub&f=ficha&o=&w=&f=ficha&o=o&w=&f=ficha&o=n&w=&f=ficha&p=&g=w&g=dd&d=date&d=&d=&startYear=&endYear=&year=&l=10&t=score-desc&g=e&x=">
+        <div
+            class="card p-3 has-text-centered is-clipped"
+            style="max-width: 368px; height: 472px;">
+            <div class="card-image">
+                <img width="344"
+                    src="/adm/es/high?id=aeb0502d-a8c4-4f17-9ef2-7a8335d9492d"
+                    title="Colección de ePubs"
+                    alt="Colección de ePubs"
+                    loading="lazy">
+            </div>
+            <div class="card-content p-0">
+                <div class="is-size-6 has-text-weight-semibold">Colección de ePubs</div>
+                    <div class="is-size-7">Más de 1.300 títulos en dominio público y de diversas temáticas, disponibles para su descarga gratuita.</div>
+            </div>
+        </div>
+    </a>
+</div>
+            <div class="column is-narrow px-2">
+    <a href="https://bnedigital.bne.es/bd/es/results?o=&w=&f=ficha&o=o&w=&f=ficha&o=q&w=marc_650_a%3A%22lectura%22&f=ficha&o=&w=&f=ficha&o=o&w=&f=ficha&o=n&w=&f=ficha&p=&g=ws&g=dd&g=ld&g=pd&g=pg&g=hh&d=date&d=&d=&startYear=&endYear=&year=&l=50&t=score-desc&g=fa&x=">
+        <div
+            class="card p-3 has-text-centered is-clipped"
+            style="max-width: 368px; height: 472px;">
+            <div class="card-image">
+                <img width="344"
+                    src="/adm/es/high?id=d9a99007-6f4e-4949-bd20-3643681a9a0d"
+                    title="Día Internacional del Libro"
+                    alt="Día Internacional del Libro"
+                    loading="lazy">
+            </div>
+            <div class="card-content p-0">
+                <div class="is-size-6 has-text-weight-semibold">Día Internacional del Libro</div>
+                    <div class="is-size-7">El 23 de abril se celebra el Día Internacional del Libro. Descubre la lectura en todas sus manifestaciones con esta selección de fondos de la BNE libres de derechos.</div>
+            </div>
+        </div>
+    </a>
+</div>
+            <div class="column is-narrow px-2">
+    <a href="https://bnedigital.bne.es/bd/es/results?y=s&o=&w=%22Cromos%22&f=subject&g=ws&f4=Dibujos%2C+grabados+y+fotograf%C3%ADas%E2%96%B8Ephemera%E2%96%B8Cromos&f5=1&s=10">
+        <div
+            class="card p-3 has-text-centered is-clipped"
+            style="max-width: 368px; height: 472px;">
+            <div class="card-image">
+                <img width="344"
+                    src="/adm/es/high?id=b756cad0-8ab9-4f37-aaff-1301a84686c9"
+                    title="Cromos en la BNE"
+                    alt="Cromos en la BNE"
+                    loading="lazy">
+            </div>
+            <div class="card-content p-0">
+                <div class="is-size-6 has-text-weight-semibold">Cromos en la BNE</div>
+                    <div class="is-size-7">Conjunto de cromos de los siglos XIX y XX, perteneciente a la colección de Ephemera de la BNE.</div>
+            </div>
+        </div>
+    </a>
+</div>
+    </div>
+
+
+                </div>
+            </section>
+        
+        
+            <section id="footer" class="footer">
+                <div class="content has-text-centered is-small">
+                
+                        <ul class="links bottom-links ">
+            
+                <li>
+                <a href="#" class="None"><img src="/fs/static/img/eu.png" class="mr-2 " style="height: 40px;">
+</a>
+            </li>
+            
+                <li>
+                <a href="#" class="None"><img src="/fs/static/img/prtr.png" class="mr-2 " style="height: 33px;">
+</a>
+            </li>
+            
+                <li>
+                <a href="#" class="None"><img src="/fs/static/img/red-es.png" class="mr-2 " style="height: 24px;">
+</a>
+            </li>
+            
+                <li>
+                <a href="#" class="None"><img src="/fs/static/img/telefonica.svg" class="mr-2 " style="height: 33px;">
+</a>
+            </li>
+    </ul>
+
+                
+                
+                    <div class="is-size-8">
+                    </div>
+                
+                </div>
+            </section>
+        
+        
+            <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-20111465-1']);
+    _gaq.push(['_setDomainName', '.bne.es']);
+    _gaq.push(['_setAllowHash', false]);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+        
+        
+            <div id="progress" class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <progress id="progress-bar" class="progress is-large is-info" max="100">50%</progress>
+                    <div id="progress-message" class="has-text-white has-text-centered">Procesando…</div>
+                </div>
+            </div>
+            <div id="modal-message" class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content has-text-white has-text-centered"></div>
+                <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+        
+            
+            
+            <script
+                type="text/javascript"
+                src="/fs/static/js/alex.js?2026-04-01T06-56-41Z"></script>
+            <script type="text/javascript">
+                (function () {
+                    function toggle() {
+                        var target = "#" + this.dataset.target;
+                        __.toggleClass(this, "is-active")
+                        __.toggleClass(target, "is-active")
+                    }
+                    __.withElems(".navbar-burger", function (element) {
+                        element.addEventListener("click", toggle);
+                    });
+                })();
+                __.initModalMessage();
+                __.dossierInit([]);
+                __.dossierSetupInterface();
+            </script>
+        
+    <script type="text/javascript">
+
+        function swapQueryRows() {
+            var os = document.form.o,
+                ws = document.form.w,
+                fs = document.form.f,
+                f,
+                src,
+                dst;
+
+            if (fs[0].type === "select-one") {
+                var options = fs[0].options,
+                    length = options.length;
+                for (var i = 0; i < length; i += 1) {
+                    if (i === 0 || options[i].defaultSelected) {
+                        f = options[i].value;
+                        break;
+                    }
+                }
+            }
+
+            function clear(start) {
+                os[start].value = "";
+                ws[start].value = "";
+                if (f !== undefined) {
+                    fs[start].value = f;
+                }
+            }
+            
+            function isDefault(start) {
+                if (
+                    os[start].value !== ""
+                    || ws[start].value !== ""
+                    || (f !== undefined && fs[start].value !== f)
+                ) {
+                    return false;
+                }
+                return true;
+            }
+            
+            function copy(src, dst) {
+                os[dst].value = os[src].value;
+                ws[dst].value = ws[src].value;
+                fs[dst].value = fs[src].value;
+            }
+            
+            if (window.innerWidth <= 768) {
+                src = 0;
+                dst = 1;
+            } else {
+                src = 1;
+                dst = 0;
+            }
+            if (!isDefault(src) && isDefault(dst)) {
+                copy(src, dst);
+            }
+            clear(src);
+        }
+
+        window.addEventListener("pagehide", function () {
+           __.saveForm("bd-simple-form", document.form);
+        });
+
+        window.addEventListener("pageshow", function () {
+            __.loadForm("bd-simple-form", document.form);
+            swapQueryRows();
+        });
+        
+        window.addEventListener("resize", swapQueryRows);
+    </script>
+
+    </body>
+
+    <!-- Total:  0.0056 seconds. Cache:    5107 records. -->
+
+</html>

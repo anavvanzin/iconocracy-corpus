@@ -1,0 +1,623 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+	<!-- v1.0.10 -->
+			<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-D8XP5PW1NH"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-D8XP5PW1NH');
+		</script>
+		<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+	
+		<meta name='title' content='Acervo IMS'/>
+<meta name='description' content='Explore o Acervo IMS. Explore o acervo IMS, coleções, pessoas e organizações. Explore the IMS Collection'/>
+<meta name='twitter:title' content='Acervo IMS'/>
+<meta property='og:title' content='Acervo IMS'/>
+<meta property='og:url' content='https://acervos.ims.com.br/index.php/Detail/objects/18758'/>
+
+	
+	
+	
+	<script src='/assets/jquery/js/jquery-3.7.1.min.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/bootstrap/css/bootstrap.css' type='text/css' media='all'/>
+<script src='/assets/bootstrap/js/bootstrap.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/bootstrap/css/bootstrap-theme.css' type='text/css' media='all'/>
+<script src='/assets/jquery/js/jquery-migrate-3.4.0.min.js' type='text/javascript'></script>
+<script src='/assets/plyr/plyr.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/plyr/plyr.css' type='text/css' media='all'/>
+<script src='/assets/jquery/circular-slider/circular-slider.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/jquery/circular-slider/circular-slider.css' type='text/css' media='all'/>
+<script src='/assets/jquery/js/threesixty.min.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/fontawesome/css/all.css' type='text/css' media='all'/>
+<script src='/assets/pdfjs/pdf.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/pdfjs/viewer/viewer.css' type='text/css' media='all'/>
+<script src='/assets/jquery/js/jquery.scrollTo.min.js' type='text/javascript'></script>
+<script src='/themes/acervo/assets/pawtucket/js/read-more.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/themes/acervo/assets/pawtucket/css/fonts.css' type='text/css' media='all'/>
+<script src='/themes/acervo/assets/pawtucket/js/pagination.js' type='text/javascript'></script>
+<script src='/themes/acervo/assets/pawtucket/js/select-field.js' type='text/javascript'></script>
+<script src='/themes/acervo/assets/pawtucket/js/toggle-form-header.js' type='text/javascript'></script>
+<script src='/themes/acervo/assets/pawtucket/js/scroll.js' type='text/javascript'></script>
+<script src='/assets/leaflet/leaflet.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/leaflet/leaflet.css' type='text/css' media='all'/>
+<script src='/assets/leaflet/geocoder/geocoder.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/leaflet/geocoder/geocoder.css' type='text/css' media='all'/>
+<script src='/assets/leaflet/leaflet.rotatedMarker.js' type='text/javascript'></script>
+<script src='/assets/leaflet/markercluster/dist/leaflet.markercluster.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/leaflet/markercluster/dist/MarkerCluster.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='/assets/leaflet/markercluster/dist/MarkerCluster.Default.css' type='text/css' media='all'/>
+<script src='/themes/acervo/assets/pawtucket/js/detail-objects.js' type='text/javascript'></script>
+<script src='/assets/jquery/js/jquery.cookie.js' type='text/javascript'></script>
+<script src='/assets/jquery/js/jquery.cookiejar.js' type='text/javascript'></script>
+<script src='/assets/jquery/js/jquery.jscroll.js' type='text/javascript'></script>
+<script src='/assets/jquery/js/jquery.hscroll.js' type='text/javascript'></script>
+<script src='/assets/jquery/js/jquery.jscrollpane.min.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/jquery/js/jquery.jscrollpane.css' type='text/css' media='all'/>
+<script src='/assets/ca/js/ca.utils.js' type='text/javascript'></script>
+<script src='/assets/jquery/jquery-ui/jquery-ui.min.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/jquery/jquery-ui/jquery-ui.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='/assets/jquery/jquery-ui/jquery-ui.structure.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='/assets/jquery/jquery-ui/jquery-ui.theme.min.css' type='text/css' media='all'/>
+<script src='/assets/ca/js/ca.genericpanel.js' type='text/javascript'></script>
+<script src='/assets/mediaelement/mediaelement-and-player.min.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/mediaelement/mediaelementplayer.min.css' type='text/css' media='all'/>
+<script src='/assets/jquery/js/jquery.mousewheel.js' type='text/javascript'></script>
+<script src='/assets/chartist/dist/chartist.min.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/chartist/dist/chartist.min.css' type='text/css' media='all'/>
+<script src='/assets/ca/js/ca.mediaplayer.js' type='text/javascript'></script>
+<script src='/assets/jquery/jquery-tileviewer/jquery.tileviewer.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/jquery/jquery-tileviewer/jquery.tileviewer.css' type='text/css' media='all'/>
+<script src='/assets/jquery/js/jquery.hotkeys.js' type='text/javascript'></script>
+<script src='/assets/jquery/js/jquery.jCarousel.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/assets/jquery/js/jquery.jCarousel.css' type='text/css' media='all'/>
+<script src='/assets/jquery/js/readmore.min.js' type='text/javascript'></script>
+<script src='https://maps.googleapis.com/maps/api/js?key=' type='text/javascript'></script>
+<script src='/assets/ca/js/ca.googlemaps.js' type='text/javascript'></script>
+<script src='/assets/google/markerclusterer.js' type='text/javascript'></script>
+<script src='/assets/google/geolocationmarker.js' type='text/javascript'></script>
+<link rel='stylesheet' href='/themes/default/assets/pawtucket/css/main.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='/themes/acervo/assets/pawtucket/css/theme.css' type='text/css' media='all'/>
+
+	<title>Acervo IMS : Documento/obra : "A Justiça", escultura de Alfredo Ceschiatti [010ACDF27248.jpg]</title>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+    		jQuery('#browse-menu').on('click mouseover mouseout mousemove mouseenter',function(e) { e.stopPropagation(); });
+    	});
+	</script>
+</head>
+<body class="detail objects">
+	<div id="skipNavigation"><a href="#main">Skip to main content</a></div>
+	<nav class="navbar navbar-default yamm" role="navigation">
+	<div class="header-top container">
+		<div class="header-top__content container-wide">
+			<ul class="header-top__language">
+				Idioma				<li class="active">
+					<a href='/index.php/Detail/objects/18758?lang=pt_BR' >PT</a>				</li>
+				<li >
+					<a href='/index.php/Detail/objects/18758?lang=en_US' >EN</a>				</li>
+			</ul>
+			<div class="header-top__contrast">Contraste				<a href="#">
+					<img src="/themes/acervo/assets/pawtucket/graphics/contraste.png" alt="Contraste">
+				</a>
+			</div>
+		</div>
+	</div>
+		<div class="container menuBar">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle navbar-toggle-user" data-toggle="collapse" data-target="#user-navbar-toggle">
+					<span class="sr-only">User Options</span>
+					<span class="glyphicon glyphicon-user"></span>
+				</button>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-main-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="logo-header" href="/index.php">
+					<img src="/themes/acervo/assets/pawtucket/graphics/header-logo.png" alt="Footer Header">
+
+				</a>
+			</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+			<!-- bs-user-navbar-collapse is the user menu that shows up in the toggle menu - hidden at larger size -->
+			<div class="collapse navbar-collapse" id="user-navbar-toggle">
+				<ul class="nav navbar-nav" role="list" aria-label="Navegação de usuário móvel">
+					<li><a href='#' onclick='caMediaPanel.showPanel("/index.php/LoginReg/LoginForm"); return false;' >Login</a></li>
+<li><a href='#' onclick='caMediaPanel.showPanel("/index.php/LoginReg/RegisterForm"); return false;' >Cadastrar conta</a></li>
+<li><a href='/tutorial'>Tutorial de acesso</a></li>				</ul>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-main-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right" id="user-navbar" role="list" aria-label="Navegação do usuário">
+					<li class="dropdown" style="position:relative;">
+						<a href="#" class="dropdown-toggle icon" data-toggle="dropdown"><span class="glyphicon glyphicon-user" aria-label="Opções de Usuário"></span></a>
+						<ul class="dropdown-menu" role="list"><li><a href='#' onclick='caMediaPanel.showPanel("/index.php/LoginReg/LoginForm"); return false;' >Login</a></li>
+<li><a href='#' onclick='caMediaPanel.showPanel("/index.php/LoginReg/RegisterForm"); return false;' >Cadastrar conta</a></li>
+<li><a href='/tutorial'>Tutorial de acesso</a></li></ul>
+					</li>
+				</ul>
+				<form class="navbar-form navbar-right" role="search" action="/index.php/Search/objects" aria-label="Buscar">
+					<div class="formOutline">
+						<div class="form-group">
+							<input type="text" class="form-control" id="headerSearchInput" placeholder="Buscar" name="search" autocomplete="off" aria-label="Texto de pesquisa" />
+						</div>
+						<button type="submit" class="btn-search" id="headerSearchButton"><span class="glyphicon glyphicon-search" aria-label="Enviar"></span></button>
+					</div>
+					<img class="active-search" src="/themes/acervo/assets/pawtucket/graphics/lupa.png" alt="Lupa de buscas">
+				</form>
+				<script type="text/javascript">
+					$(document).ready(function(){
+						$('#headerSearchButton').prop('disabled',true);
+						$('#headerSearchInput').on('keyup', function(){
+							$('#headerSearchButton').prop('disabled', this.value == "" ? true : false);     
+						})
+					});
+				</script>
+				<ul class="nav navbar-nav navbar-right menuItems" role="list" aria-label="Navegação primária">
+					<li >
+						<a class="home-link" href="/index.php">Home</a>
+					</li>
+										<li >
+						<a href="/sobreims">Sobre</a>
+					</li>
+					<li >
+						<a class="collections-link" href="/index.php/Browse/objects">Acervo</a>
+					</li>
+					<li >
+						<a href='/index.php/Search/advanced/objects'>Busca avançada</a>					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- end container -->
+	</nav>
+	<div class="container"><div class="row"><div class="col-xs-12">
+		<div role="main" id="main"><div id="pageArea" class='ca_objects objects documento_obra detail'>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+	const map = {
+		'/termosdeuso': '/termsofuse',
+		'/termsofuse': '/termosdeuso',
+		'/sobreims': '/aboutims',
+		'/aboutims': '/sobreims'
+	};
+
+	document.querySelectorAll('.header-top__language li a').forEach(link => {
+		link.addEventListener('click', function(e) {
+			const currentPath = window.location.pathname;
+			if (map[currentPath]) {
+				e.preventDefault();
+				// Pega a URL original do link e troca o pathname
+				const url = new URL(this.href);
+				url.pathname = map[currentPath];
+				window.location.href = url.toString();
+			}
+		});
+	});
+});
+</script>
+	
+
+	<div class='navLeftRight top'>
+		<div class="detailNavBgLeft col-xs-12 col-sm-10 col-md-10 col-lg-10" >
+			
+		</div><!-- end detailNavBgLeft -->
+	</div><!-- end col -->
+	<div class="top-navigation">
+		<div class='navLeftRight prev-top col-xs-1 col-sm-1 col-md-1 col-lg-1'>
+			<div class="detailNavBgLeft">
+				
+			</div><!-- end detailNavBgLeft -->
+		</div><!-- end col -->
+		<div class='navLeftRight next-top col-xs-1 col-sm-1 col-md-1 col-lg-1'>
+			<div class="detailNavBgRight">
+				
+			</div><!-- end detailNavBgLeft -->
+		</div><!-- end col -->
+	</div>
+	<div class="row single-theme">
+	
+	<div class='col-xs-12 col-sm-10 col-md-10 col-lg-10'>
+		<div class="container"><div class="row">
+						<h1 class="single-title">
+								Título: "A Justiça", escultura de Alfredo Ceschiatti					
+			</h1>
+			
+			<div class="single-featured-columns">
+				<div class='col-sm-6 col-md-6 col-lg-5 col-lg-offset-1 single-featured-image '>
+										<h1 class="single-title-mobile">
+												Título: "A Justiça", escultura de Alfredo Ceschiatti											</h1>
+
+					
+											<div data-representation_id='8449' class='repViewerContCont'><div id='cont8449' class='repViewerCont'><div><a href='#' class='zoomButton' onclick='caMediaPanel.showPanel("/index.php/Detail/GetMediaOverlay/context/objects/id/18758/representation_id/8449/overlay/1"); return false;'><img src='https://acervos.ims.com.br/service.php/File/13350_ca_object_representations_media_8449_medium.jpg' id='caMediaOverlayTileViewer_8449_detail' width='393' height='400' alt='&quot;A Justiça&quot;, escultura de Alfredo Ceschiatti' /></a></div>	<div class='detailMediaToolbar'><a href='#' class='zoomButton' onclick='caMediaPanel.showPanel("/index.php/Detail/GetMediaOverlay/context/objects/id/18758/representation_id/8449/set_id/0/overlay/1", function() { var url = jQuery("#" + caMediaPanel.getPanelID()).data("reloadUrl"); if(url) { window.location = url; } }); return false;' aria-label='Open Media View' title='Open Media View'><span class='glyphicon glyphicon-zoom-in' role='graphics-document' aria-label='Open Media View'></span></a>
+ <a href='#' class='setsButton' onclick='caMediaPanel.showPanel("/index.php/Lightbox/addItemForm/context/objects/object_id/18758"); return false;' aria-label='Login to add to Minha busca' title='Login to add to Minha busca'><i class='fa fa-folder' aria-label='Add'></i></a>
+<a href='/index.php/Detail/DownloadRepresentation/context/objects/representation_id/8449/id/18758/download/1/version/large' aria-label='Download' class='dlButton'><span class='glyphicon glyphicon-download-alt' role='graphics-document' aria-label='Download' title='Download'></span></a></div><!-- end detailMediaToolbar -->
+<div class="small text-center">[EM BRANCO]</div></div></div>	
+<script type='text/javascript'>
+	jQuery(document).ready(function() {
+			if (jQuery('#detailAnnotations').length) { jQuery('#detailAnnotations').load('/index.php/Detail/GetTimebasedRepresentationAnnotationList/context/objects/id/18758/representation_id/8449'); }
+	});
+</script>
+
+
+									</div><!-- end col -->	
+				
+				<div class='col-sm-6 col-md-6 col-lg-5 single-featured-metadata'>
+				
+					<div class="row">
+						<div class="col-sm-6">
+
+							<div class="unit"><label>Identificador</label><span class="trimText">010ACDF27248.jpg</span></div>
+
+							<idef class="single-area"><a href="/index.php/Detail/collections/2"><label>Área</label>Fotografia</a><br /></idef>
+
+															<div class="unit">
+									<label>Arquivo/Coleção</label>
+									<p>Marcel Gautherot</p>
+								</div>
+
+														
+							<div class="unit authorships-data"><label>Autoria(s)</label><span><a href="/index.php/Detail/entities/1905">Marcel Gautherot</a><br /><span>(Autoria)</span></span></div>
+							
+							<div class="unit"><label>Local(is)</label><div class="location-values"><a href="/index.php/Detail/places/420">Supremo Tribunal Federal</a></div></div>
+
+														<div class='unit'>
+								<label>Data</label>
+								<span>circa 1968</span>
+							</div>
+							
+						</div><!-- end col -->				
+				
+					</div><!-- end row -->
+							
+				</div><!-- end col -->
+			</div>
+			<div class='col-xs-12 col-sm-10 col-md-10 col-lg-10'>
+				<div class='col-sm-6 col-md-6 col-lg-5 detailed-single-metadata '>
+					<div class="row">
+						<div class="col-sm-6 detais-columns">
+							
+							<h1>Detalhes</h1>
+								
+															<div data-representation_id='8449' class='repViewerContCont'><div id='cont8449' class='repViewerCont'><div><a href='#' class='zoomButton' onclick='caMediaPanel.showPanel("/index.php/Detail/GetMediaOverlay/context/objects/id/18758/representation_id/8449/overlay/1"); return false;'><img src='https://acervos.ims.com.br/service.php/File/13350_ca_object_representations_media_8449_medium.jpg' id='caMediaOverlayTileViewer_8449_detail' width='393' height='400' alt='&quot;A Justiça&quot;, escultura de Alfredo Ceschiatti' /></a></div>	<div class='detailMediaToolbar'><a href='#' class='zoomButton' onclick='caMediaPanel.showPanel("/index.php/Detail/GetMediaOverlay/context/objects/id/18758/representation_id/8449/set_id/0/overlay/1", function() { var url = jQuery("#" + caMediaPanel.getPanelID()).data("reloadUrl"); if(url) { window.location = url; } }); return false;' aria-label='Open Media View' title='Open Media View'><span class='glyphicon glyphicon-zoom-in' role='graphics-document' aria-label='Open Media View'></span></a>
+ <a href='#' class='setsButton' onclick='caMediaPanel.showPanel("/index.php/Lightbox/addItemForm/context/objects/object_id/18758"); return false;' aria-label='Login to add to Minha busca' title='Login to add to Minha busca'><i class='fa fa-folder' aria-label='Add'></i></a>
+<a href='/index.php/Detail/DownloadRepresentation/context/objects/representation_id/8449/id/18758/download/1/version/large' aria-label='Download' class='dlButton'><span class='glyphicon glyphicon-download-alt' role='graphics-document' aria-label='Download' title='Download'></span></a></div><!-- end detailMediaToolbar -->
+<div class="small text-center">[EM BRANCO]</div></div></div>	
+<script type='text/javascript'>
+	jQuery(document).ready(function() {
+			if (jQuery('#detailAnnotations').length) { jQuery('#detailAnnotations').load('/index.php/Detail/GetTimebasedRepresentationAnnotationList/context/objects/id/18758/representation_id/8449'); }
+	});
+</script>
+
+								
+
+							<div class="unit"><label>Identificador</label><span class="trimText">010ACDF27248.jpg</span></div>
+
+							<idef class="single-area"><a href="/index.php/Detail/collections/2"><label>Área</label>Fotografia</a><br /></idef>
+
+															<div class="unit">
+									<label>Arquivo/Coleção</label>
+									<p>Marcel Gautherot</p>
+								</div>
+
+							
+							<div class="unit"><label>Posição na hierarquia</label><p>Marcel Gautherot > Individualizados > "A Justiça", escultura de Alfredo Ceschiatti</p></div>
+
+							
+
+							<div class="unit titles"><label>Título(s)</label><div class="title-values">
+										<div class="title-value">
+											<span class="title-text">"A Justiça", escultura de Alfredo Ceschiatti</span>
+											<ifdef code="ca_objects.nonpreferred_labels.type_id">
+												<span class="value-type"> (Título atribuído)</span>
+											</ifdef>
+										</div>
+									</div></div>
+						
+							<div class="unit"><label>Autoria(s)</label><a href="/index.php/Detail/entities/1905">Marcel Gautherot</a> (Autoria)</div>
+
+							
+
+							<div class="unit"><label>Local(is)</label><div class="places-value"><a href="/index.php/Detail/places/420">Brasil > DF > Brasília > Supremo Tribunal Federal <span class="value-type">(retratado)</span></a></div></div>
+
+															<div class="unit dates-metadata">
+									<label>Data(s)</label>
+									<div class="total-dates">
+									<div><span>circa 1968</span><span class="value-type">(Data de produção)</span></div><div><span>1963 - 1973</span><span class="value-type">(Datas-limite)</span></div>									</div>
+								</div>
+								
+
+							<div class="unit"><label>Resumo</label><span>Escultura "A Justiça", em Brasília. Em granito, fica em frente ao prédio do Supremo Tribunal Federal. Ficou pronta em 1961.  A representação da Justiça como figura feminina remonta a retratações de Themis e Iustitia na mitologia antiga. Themis, conhecida por sua percepção aguçada e julgamento perspicaz, foi a deusa grega da Justiça e das Leis. Na mitologia romana, Iustitia foi uma das quatro virtudes, juntamente com Prudência, Fortitude e Temperança. Fonte: Secretaria de Educação do Governo do Paraná e site do Supremo Tribunal Federal Alfredo Ceschiatti (Belo Horizonte, 1 de setembro de 1918 — 1989) foi escultor, desenhista e professor brasileiro. Fez parte da Comissão Nacional de Belas Artes e ensinou escultura e desenho na Universidade de Brasília (UnB). Ficou conhecido por criar obras para decoração de prédios projetados por Oscar Niemeyer. Escultura "A Justiça", em Brasília. Em granito, fica em frente ao prédio do Supremo Tribunal Federal. Ficou pronta em 1961.  A representação da Justiça como figura feminina remonta a retratações de Themis e Iustitia na mitologia antiga. Themis, <br />
+Alfredo Ceschiatti (Belo Horizonte, 1 de setembro de 1918 — 1989) foi escultor, desenhista e professor brasileiro. Fez parte da Comissão Nacional de Belas Artes e ensinou escultura e desenho na Universidade de Brasília (UnB). Ficou conhecido por criar obras para decoração de prédios projetados por Oscar Niemeyer.<br />
+Supremo Tribunal Federal (STF) é a mais alta instância do Poder Judiciário do Brasil e acumula competências típicas de Suprema Corte (tribunal de última instância) e Tribunal Constitucional (que julga questões de constitucionalidade independentemente de litígios concretos). Sua função institucional fundamental é de servir como guardião da Constituição Federal de 1988, apreciando casos que envolvam lesão ou ameaça a esta última.</span></div>
+
+							
+
+							
+
+
+							<div class="unit"><label>Suporte</label><span class="trimText">Negativo flexível</span></div>
+
+							<div class="unit"><label>Técnica</label><span class="trimText">GELATINA/ Prata</span></div>
+
+
+							<div class="unit"><label>Cromia</label><span class="trimText">P&B</span></div>
+							
+							<div class="unit"><label>Dimensão(ões) (cm)</label><span>6<span class='value-type'>(altura)</span> x 6<span class='value-type'>(largura)</span><span class='value-type'>(imagem)</span></span><br></div>
+							
+
+							
+
+							<div class="unit"><label>Palavra-chave</label><span class="trimText">Arquitetura moderna, Escultura, Arquitetura, Arte, Externa, Diurna, Supremo Tribunal Federal - Brasília</span></div>
+
+							
+
+							<div class="unit"><label>Fontes</label><span class="trimText">Secretaria de Educação do Governo do Paraná e site do Supremo Tribunal Federal.</span></div>
+
+							<div class="unit"><label>Sobre o autor</label><span class="trimText">O fotógrafo parisiense Marcel Gautherot (1910-1996), de origem proletária, fez um curso noturno de decoração e, em seguida, estudou dois anos arquitetura, na École Nationale Supérieure des Arts Decoratifs. Participou em 1936 da instalação do Museu do Homem em Paris. Influenciado pela leitura do romance "Jubiabá", de Jorge Amado, veio pela primeira vez ao Brasil, em 1939. No ano seguinte, após uma rápida permanência no Senegal, devido à Segunda Guerra Mundial, retornou ao Brasil, onde morou até sua morte, em 1996. Trabalhou para o SPHAN, Serviço do Patrimônio Histórico e Artístico Nacional, na época, dirigido por Rodrigo Melo Franco de Andrade e para a Sul-América. Colaborou com o arquiteto Oscar Niemeyer, tendo sido um dos mais importantes fotógrafos de Brasília. Também trabalhou com Burle Marx e Lucio Costa, tendo convivido com a elite intelectual do país. Viajou por todas as regiões do Brasil registrando fotograficamente a arquitetura, a arte, o folclore, a cultura popular e os tipos brasileiros. Foi considerado pelo poeta Carlos Drummond de Andrade um "notável documentador da vida brasileira". Deixou como legado de sua obra cerca de 25 mil negativos, incorporados ao acervo do IMS em 1999.</span></div>
+
+
+							
+							
+							<div class="unit"><label>Detentor dos direitos</label><span class="trimText">Instituto Moreira Salles</span></div>
+
+							
+
+							<div class="unit"><label>Restrições de reprodução</label><span class="trimText">Requer liberação de direitos junto ao detentor, indicado no campo: "Detentor dos direitos".</span></div>
+
+							<hr></hr>
+							
+						</div><!-- end col -->				
+						
+					</div><!-- end row -->
+							
+				</div><!-- end col -->
+			</div>
+		</div><!-- end row --></div><!-- end container -->
+	</div><!-- end col -->
+	<div class='col-xs-12 navTop'><!--- only shown at small screen size -->
+		
+	</div><!-- end detailTop -->
+	<div class='navLeftRight col-xs-1 col-sm-1 col-md-1 col-lg-1'>
+		<div class="detailNavBgLeft">
+			
+		</div><!-- end detailNavBgLeft -->
+	</div><!-- end col -->
+	<div class='navLeftRight col-xs-1 col-sm-1 col-md-1 col-lg-1'>
+		<div class="detailNavBgRight">
+			
+		</div><!-- end detailNavBgLeft -->
+	</div><!-- end col -->
+	<div class="related-posts"> 
+		
+		<a href="/Browse/objects" class="btn-white">VOLTAR PARA ACERVO COMPLETO</a>
+	</div>
+</div><!-- end row -->
+
+<script>
+  const seeMoreText = "Ver mais";
+  const seeLessText = "Ver menos";
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const maxChars = 105;
+    const elements = document.querySelectorAll('h1.single-title, .single-title-mobile');
+
+    elements.forEach(el => {
+      const fullText = el.textContent.trim();
+
+      if (fullText.length > maxChars) {
+        const trimmedText = (() => {
+          let cut = fullText.slice(0, maxChars);
+          const lastSpace = cut.lastIndexOf(" ");
+          return lastSpace > 0 ? cut.slice(0, lastSpace) + '...' : cut + '...';
+        })();
+
+        const wrapper = document.createElement('div');
+        wrapper.classList.add('title-wrapper');
+
+        const span = document.createElement('span');
+        span.textContent = trimmedText;
+        span.dataset.fullText = fullText;
+        span.dataset.trimmedText = trimmedText;
+        span.dataset.expanded = 'false';
+
+        const button = document.createElement('button');
+        button.textContent = seeMoreText;
+        button.style.marginLeft = '10px';
+        button.style.background = 'none';
+        button.style.border = 'none';
+        button.style.color = '#2b2b2b';
+        button.style.cursor = 'pointer';
+        button.style.textDecoration = 'underline';
+        button.style.fontSize = '1.6rem';
+
+        button.addEventListener('click', function () {
+          const expanded = span.dataset.expanded === 'true';
+
+          if (expanded) {
+            span.textContent = span.dataset.trimmedText;
+            button.textContent = seeMoreText;
+            span.dataset.expanded = 'false';
+          } else {
+            span.textContent = span.dataset.fullText;
+            button.textContent = seeLessText;
+            span.dataset.expanded = 'true';
+          }
+        });
+
+        el.textContent = '';
+        wrapper.appendChild(span);
+        wrapper.appendChild(button);
+        el.appendChild(wrapper);
+      }
+    });
+  });
+</script>
+		<div style="clear:both; height:1px;"><!-- empty --></div>
+		</div><!-- end pageArea --></div><!-- end main --></div><!-- end col --></div><!-- end row --></div><!-- end container -->
+		<footer id="footer" role="contentinfo">
+			<div class="footer-top">
+				<div class="footer-top__container">
+					<div>
+						<a href="/index.php">
+							<img src="/themes/acervo/assets/pawtucket/graphics/logo-footer.png" alt="Footer Logo">
+						</a>
+					</div>
+					<div class="footer-top-social-network">
+						<a href="https://www.youtube.com/imoreirasalles" target="_blank">
+							<img src="/themes/acervo/assets/pawtucket/graphics/redes1.png" alt="Footer Logo">
+						</a>
+						<a href="https://www.instagram.com/imoreirasalles/" target="_blank">
+							<img src="/themes/acervo/assets/pawtucket/graphics/redes2.png" alt="Footer Logo">
+						</a>
+						<a href="https://www.facebook.com/institutomoreirasalles/" target="_blank">
+							<img src="/themes/acervo/assets/pawtucket/graphics/redes3.png" alt="Footer Logo">
+						</a>
+						<a href="https://x.com/imoreirasalles" target="_blank">
+							<img src="/themes/acervo/assets/pawtucket/graphics/redes4.png" alt="Footer Logo">
+						</a>
+						<a href="https://br.linkedin.com/company/instituto-moreira-salles" target="_blank">
+							<img src="/themes/acervo/assets/pawtucket/graphics/redes5.png" alt="Footer Logo">
+						</a>
+						<a href="https://open.spotify.com/user/institutomoreirasalles" target="_blank">
+							<img src="/themes/acervo/assets/pawtucket/graphics/redes6.png" alt="Footer Logo">
+						</a>
+						<a href="https://artsandculture.google.com/partner/instituto-moreira-salles" target="_blank">
+							<img src="/themes/acervo/assets/pawtucket/graphics/redes7.png" alt="Footer Logo">
+						</a>
+					</div>
+					<div class="footer-top_links">
+						<a href="https://ims.com.br/fale-conosco/" target="_blank">Fale conosco</a>
+						<a href="https://ims.com.br/newsletter/" target="_blank">assine a <span>newsletter</span></a>
+						<a href="https://ims.com.br/atendimento-a-pesquisadores/" target="_blank">atendimento a pesquisadores</a>
+						<a href="https://ims.com.br/imprensa-2/" target="_blank">sala de imprensa</a>
+						<a href="https://ims.com.br/trabalhe-conosco/" target="_blank">trabalhe no ims</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-middle">
+				<div class="footer-midlle__container">
+					<div class="footer-middle__collumns">
+						<div class="footer-middle__collumns-title">
+							<h3>Endereços</a></h3>
+						</div>
+						<div class="footer-middle__collumns-locations">
+							<div>
+								<h4>Rio de Janeiro</h4>
+								<p>O IMS Rio está fechado temporariamente para reformas</p>
+								<p>Horário de visitação: a programação do IMS no Rio de Janeiro será apresentada em instituições culturais parceiras</p>
+								<a href="https://ims.com.br/unidade/rio-de-janeiro/" target="_blank">Mais informações</a>
+							</div>
+							<div>
+								<h4>São Paulo</h4>
+								<p>Avenida Paulista, 2424</p>
+								<p>CEP 01310-300 - São Paulo/SP</p>
+								<p>Tel.: (11) 2842-9120</p>
+								<p>Horário de visitação: terça a domingo e feriados das 10h às 20h (fechado às segundas)</p>
+								<a href="https://ims.com.br/unidade/sao-paulo/" target="_blank">Mais informações</a>
+							</div>
+							<div>
+								<h4>Poços de Caldas</h4>
+								<p>Rua Teresópolis, 90</p>
+								<p>CEP 37701-058 - Poços de Caldas/MG</p>
+								<p>Tel.: (35) 3722-2776</p>
+								<p>Horário de visitação: de terça a sexta, das 13h às 19h. Sábado, domingo e feriados das 9h às 19h (fechado às segundas)</p>
+								<a href="https://ims.com.br/unidade/pocos-de-caldas/" target="_blank">Mais informações</a>
+							</div>
+						</div>
+						<div class="footer-middle__collumns-locations-mobile">
+							<details>
+								<summary>Rio de Janeiro</summary>
+								<p>O IMS Rio está fechado temporariamente para reformas</p>
+								<p>Horário de visitação: a programação do IMS no Rio de Janeiro será apresentada em instituições culturais parceiras</p>
+								<a href="https://ims.com.br/unidade/rio-de-janeiro/" target="_blank">Mais informações</a>
+							</details>
+							
+							<details>
+								<summary>São Paulo</summary>
+								<p>Avenida Paulista, 2424</p>
+								<p>CEP 01310-300 - São Paulo/SP</p>
+								<p>Tel.: (11) 2842-9120</p>
+								<p>Horário de visitação: terça a domingo e feriados das 10h às 20h (fechado às segundas)</p>
+								<a href="https://ims.com.br/unidade/sao-paulo/" target="_blank">Mais informações</a>
+							</details>
+							
+							<details>
+								<summary>Poços de Caldas</summary>
+								<p>Rua Teresópolis, 90</p>
+								<p>CEP 37701-058 - Poços de Caldas/MG</p>
+								<p>Tel.: (35) 3722-2776</p>
+								<p>Horário de visitação: de terça a sexta, das 13h às 19h. Sábado, domingo e feriados das 9h às 19h (fechado às segundas)</p>
+								<a href="https://ims.com.br/unidade/pocos-de-caldas/" target="_blank">Mais informações</a>
+							</details>
+						</div>
+						
+					</div>
+				</div>
+			</div>	
+			<div class="footer-bottom">
+				<div class="footer-bottom__container">
+					<div class="footer-bottom_links">
+						<a href="https://ims.com.br/sobre-o-ims/quem-somos/" target="_blank">Quem Somos</a>
+						<a href="https://ims.com.br/sobre-o-ims/codigo-de-conduta/" target="_blank">código de conduta</a>
+												<a href="/termosdeuso">termos de uso e política de privacidade</a>
+					</div>				
+					<a class="developed-by" href="https://hacklab.com.br/" target="_blank">desenvolvido por<span class="hacklab-name">hacklab</span><span class="barra">/</span></a>
+				</div>
+			</div>
+		</footer><!-- end footer -->
+	
+				<div id="caMediaPanel" role="complementary"> 
+			<div id="caMediaPanelContentArea">
+			
+			</div>
+		</div>
+		<script type="text/javascript">
+			/*
+				Set up the "caMediaPanel" panel that will be triggered by links in object detail
+				Note that the actual <div>'s implementing the panel are located here in views/pageFormat/pageFooter.php
+			*/
+			var caMediaPanel;
+			jQuery(document).ready(function() {
+				if (caUI.initPanel) {
+					caMediaPanel = caUI.initPanel({ 
+						panelID: 'caMediaPanel',										/* DOM ID of the <div> enclosing the panel */
+						panelContentID: 'caMediaPanelContentArea',		/* DOM ID of the content area <div> in the panel */
+						onCloseCallback: function(data) {
+							if(data && data.url) {
+								window.location = data.url;
+							}
+						},
+						exposeBackgroundColor: '#FFFFFF',						/* color (in hex notation) of background masking out page content; include the leading '#' in the color spec */
+						exposeBackgroundOpacity: 0.7,							/* opacity of background color masking out page content; 1.0 is opaque */
+						panelTransitionSpeed: 400, 									/* time it takes the panel to fade in/out in milliseconds */
+						allowMobileSafariZooming: true,
+						mobileSafariViewportTagID: '_msafari_viewport',
+						closeButtonSelector: '.close'					/* anything with the CSS classname "close" will trigger the panel to close */
+					});
+				}
+			});
+			/*(function(e,d,b){var a=0;var f=null;var c={x:0,y:0};e("[data-toggle]").closest("li").on("mouseenter",function(g){if(f){f.removeClass("open")}d.clearTimeout(a);f=e(this);a=d.setTimeout(function(){f.addClass("open")},b)}).on("mousemove",function(g){if(Math.abs(c.x-g.ScreenX)>4||Math.abs(c.y-g.ScreenY)>4){c.x=g.ScreenX;c.y=g.ScreenY;return}if(f.hasClass("open")){return}d.clearTimeout(a);a=d.setTimeout(function(){f.addClass("open")},b)}).on("mouseleave",function(g){d.clearTimeout(a);f=e(this);a=d.setTimeout(function(){f.removeClass("open")},b)})})(jQuery,window,200);*/
+		</script>
+		<div id="cookieNotice" role="dialog" aria-labelledby="Cookie Window">
+	<div class="row">
+		<div class="col-sm-12 col-md-offset-3 col-md-6">
+			<div class="cookieNoticeHeading">
+				Este site usa cookies			</div>
+			<div>
+			Utilizamos cookies em nosso site para melhorar a sua experiência de usuário. Você pode atualizar suas preferências clicando no botão de Gerenciar.			</div>
+			<div class="text-center">
+				<a href='/index.php/Cookies/manage' class='btn btn-default btn-inverse'>Gerenciar</a><a href='/index.php/Cookies/manage/accept/1' class='btn btn-default'>Aceitar</a>			</div>
+		</div>
+	</div>
+</div>
+	<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"adc4eae49c7043869c53ed6c160d5bb4","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6" lang="fr-FR"
+	prefix="og: https://ogp.me/ns#" > <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="fr-FR"
+	prefix="og: https://ogp.me/ns#" > <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="fr-FR"
+	prefix="og: https://ogp.me/ns#" > <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="fr-FR"
+	prefix="og: https://ogp.me/ns#" > <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html xmlns:fb="http://ogp.me/ns/fb#" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" lang="fr-FR"
+	prefix="og: https://ogp.me/ns#" > <!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta property="fb:app_id" content="594911647187742" />
+    <meta property="og:url" content="https://be-monumen.be/patrimoine-belge/poelaert-joseph/" />
+    <meta property="og:title" content="POELAERT Joseph" />
+    <meta property="og:description" content="Joseph Poelaert, officier de l'ordre de Léopold, chevalier de la Légio..." />
+    <meta property="og:image:url" content="https://be-monumen.be/patrimoine-belge/poelaert-joseph/" />
+    <meta property="og:image" content="https://be-monumen.be/wp-content/uploads/Joseph_POELAERT_architecte-171x250.jpg" />
+    <meta property="og:image" content="" />
+    <meta property="og:image" content="https://www.fabtalent.co.uk/wp-content/uploads/2013/04/simply.png" />
+    <meta property="og:type" content="article" />
+	
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://be-monumen.be/feed/?post_type=ad_listing" />
+	<link rel="pingback" href="https://be-monumen.be/xmlrpc.php" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/simply-responsive-cp/js/tags-input.js">
+
+	<!-- WSE20190304: LEAFLET (old 1.4) -->
+    <!--<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>-->
+
+	<!-- WSE20210420: LEAFLET 1.7 -->
+	<!--<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+ 	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>-->
+   
+	<!-- WSE20220727: LEAFLET -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+	<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+
+<!--[if lt IE 9]>
+<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--[if lte IE 7]>
+    <link rel="stylesheet" href="https://be-monumen.be/wp-content/themes/simply-responsive-cp/ie7.css" media="screen" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+	<meta http-equiv="refresh" content="0; url=http://www.microsoft.com/windows/internet-explorer/default.aspx" />
+	<script type="text/javascript">
+	/* <![CDATA[ */ window.top.location ='http://www.microsoft.com/windows/internet-explorer/default.aspx'; /* ]]> */
+    <link rel="stylesheet" href="https://be-monumen.be/wp-content/themes/simply-responsive-cp/ie7.css" media="screen" type="text/css" />
+    <style type="text/css">
+	body{ behavior: url("https://www.rlmseo.com/wp-content/themes/u-design/scripts/csshover3.htc"); }
+    </style>
+<![endif]-->
+		
+		<!-- All in One SEO 4.1.6.2 -->
+		<title>POELAERT Joseph | BE-monumen</title>
+		<meta name="description" content="Joseph Poelaert, officier de l’ordre de Léopold, chevalier de la Légion d’honneur, membre agrégé de l’Académie royale des beaux-arts d’Anvers, est un architecte belge né le 21 mars 1817 rue du Marché au Charbon no 1028 (?), et qui succomba à l’âge de 62 ans en plein labeur le 3 novembre 1879 à cinq heures […]" />
+		<meta name="robots" content="max-image-preview:large" />
+		<link rel="canonical" href="https://be-monumen.be/patrimoine-belge/poelaert-joseph/" />
+		<meta property="og:locale" content="fr_FR" />
+		<meta property="og:site_name" content="BE-monumen | Base de données géolocalisée du patrimoine monumental Belge" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="POELAERT Joseph | BE-monumen" />
+		<meta property="og:description" content="Joseph Poelaert, officier de l’ordre de Léopold, chevalier de la Légion d’honneur, membre agrégé de l’Académie royale des beaux-arts d’Anvers, est un architecte belge né le 21 mars 1817 rue du Marché au Charbon no 1028 (?), et qui succomba à l’âge de 62 ans en plein labeur le 3 novembre 1879 à cinq heures […]" />
+		<meta property="og:url" content="https://be-monumen.be/patrimoine-belge/poelaert-joseph/" />
+		<meta property="article:published_time" content="2020-04-26T10:00:52+00:00" />
+		<meta property="article:modified_time" content="2020-04-26T08:24:12+00:00" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="POELAERT Joseph | BE-monumen" />
+		<meta name="twitter:description" content="Joseph Poelaert, officier de l’ordre de Léopold, chevalier de la Légion d’honneur, membre agrégé de l’Académie royale des beaux-arts d’Anvers, est un architecte belge né le 21 mars 1817 rue du Marché au Charbon no 1028 (?), et qui succomba à l’âge de 62 ans en plein labeur le 3 novembre 1879 à cinq heures […]" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/be-monumen.be\/#website","url":"https:\/\/be-monumen.be\/","name":"BE-monumen","description":"Base de donn\u00e9es g\u00e9olocalis\u00e9e du patrimoine monumental Belge","inLanguage":"fr-FR","publisher":{"@id":"https:\/\/be-monumen.be\/#organization"}},{"@type":"Organization","@id":"https:\/\/be-monumen.be\/#organization","name":"BE-monumen","url":"https:\/\/be-monumen.be\/"},{"@type":"BreadcrumbList","@id":"https:\/\/be-monumen.be\/patrimoine-belge\/poelaert-joseph\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/be-monumen.be\/#listItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/be-monumen.be\/","name":"Accueil","description":"Base de donn\u00e9es g\u00e9olocalis\u00e9e du patrimoine monumental Belge","url":"https:\/\/be-monumen.be\/"},"nextItem":"https:\/\/be-monumen.be\/patrimoine-belge\/poelaert-joseph\/#listItem"},{"@type":"ListItem","@id":"https:\/\/be-monumen.be\/patrimoine-belge\/poelaert-joseph\/#listItem","position":2,"item":{"@type":"WebPage","@id":"https:\/\/be-monumen.be\/patrimoine-belge\/poelaert-joseph\/","name":"POELAERT Joseph","description":"Joseph Poelaert, officier de l\u2019ordre de L\u00e9opold, chevalier de la L\u00e9gion d\u2019honneur, membre agr\u00e9g\u00e9 de l\u2019Acad\u00e9mie royale des beaux-arts d\u2019Anvers, est un architecte belge n\u00e9 le 21 mars 1817 rue du March\u00e9 au Charbon no 1028 (?), et qui succomba \u00e0 l\u2019\u00e2ge de 62 ans en plein labeur le 3 novembre 1879 \u00e0 cinq heures [\u2026]","url":"https:\/\/be-monumen.be\/patrimoine-belge\/poelaert-joseph\/"},"previousItem":"https:\/\/be-monumen.be\/#listItem"}]},{"@type":"Person","@id":"https:\/\/be-monumen.be\/author\/guyvandenbemden_be\/#author","url":"https:\/\/be-monumen.be\/author\/guyvandenbemden_be\/","name":"Guy Vanden Bemden"},{"@type":"WebPage","@id":"https:\/\/be-monumen.be\/patrimoine-belge\/poelaert-joseph\/#webpage","url":"https:\/\/be-monumen.be\/patrimoine-belge\/poelaert-joseph\/","name":"POELAERT Joseph | BE-monumen","description":"Joseph Poelaert, officier de l\u2019ordre de L\u00e9opold, chevalier de la L\u00e9gion d\u2019honneur, membre agr\u00e9g\u00e9 de l\u2019Acad\u00e9mie royale des beaux-arts d\u2019Anvers, est un architecte belge n\u00e9 le 21 mars 1817 rue du March\u00e9 au Charbon no 1028 (?), et qui succomba \u00e0 l\u2019\u00e2ge de 62 ans en plein labeur le 3 novembre 1879 \u00e0 cinq heures [\u2026]","inLanguage":"fr-FR","isPartOf":{"@id":"https:\/\/be-monumen.be\/#website"},"breadcrumb":{"@id":"https:\/\/be-monumen.be\/patrimoine-belge\/poelaert-joseph\/#breadcrumblist"},"author":"https:\/\/be-monumen.be\/author\/guyvandenbemden_be\/#author","creator":"https:\/\/be-monumen.be\/author\/guyvandenbemden_be\/#author","datePublished":"2020-04-26T10:00:52+02:00","dateModified":"2020-04-26T08:24:12+02:00"}]}
+		</script>
+		<!-- All in One SEO -->
+
+<link rel="manifest" href="/pwa-manifest.json">
+<link rel="apple-touch-icon" sizes="512x512" href="https://be-monumen.be/wp-content/uploads/06-Spa-cascade.jpg">
+<link rel="apple-touch-icon-precomposed" sizes="192x192" href="https://be-monumen.be/wp-content/uploads/logo-Be-monumen.png">
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="BE-monumen &raquo; Flux" href="https://be-monumen.be/feed/" />
+<link rel="alternate" type="application/rss+xml" title="BE-monumen &raquo; Flux des commentaires" href="https://be-monumen.be/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/be-monumen.be\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.15"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://be-monumen.be/wp-includes/css/dist/block-library/style.min.css?ver=5.7.15' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://be-monumen.be/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='dw-social-share-css'  href='https://be-monumen.be/wp-content/plugins/dw-social-share/assets/css/style.css?ver=5.7.15' type='text/css' media='all' />
+<link rel='stylesheet' id='dw-social-share-fa-css'  href='https://be-monumen.be/wp-content/plugins/dw-social-share/assets/css/font-awesome.min.css?ver=5.7.15' type='text/css' media='all' />
+<link rel='stylesheet' id='page-list-style-css'  href='https://be-monumen.be/wp-content/plugins/sitemap/css/page-list.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='at-main-css'  href='https://be-monumen.be/wp-content/themes/simply-responsive-cp/style.css?ver=5.7.15' type='text/css' media='all' />
+<link rel='stylesheet' id='at-color-css'  href='https://be-monumen.be/wp-content/themes/simply-responsive-cp/styles/aqua-black.css?ver=5.7.15' type='text/css' media='all' />
+<link rel='stylesheet' id='colorbox-css'  href='https://be-monumen.be/wp-content/themes/classipress/includes/js/colorbox/colorbox.css?ver=1.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-style-css'  href='https://be-monumen.be/wp-content/themes/classipress/includes/js/jquery-ui/jquery-ui.css?ver=1.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='pwaforwp-style-css'  href='https://be-monumen.be/wp-content/plugins/pwa-for-wp/assets/css/pwaforwp-main.min.css?ver=1.7.68' type='text/css' media='all' />
+<script type='text/javascript' src='https://be-monumen.be/wp-content/plugins/geo-ads/lib/markerclusterer_compiled.js?ver=5.7.15' id='marker_clusterer-js'></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3' id='jquery-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/themes/classipress/includes/js/validate/jquery.validate.min.js?ver=1.11.0' id='validate-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/themes/classipress/includes/js/validate/localization/messages_fr.js?ver=1.11.0' id='validate-lang-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/themes/classipress/includes/js/jquery.tinynav.js?ver=1.1' id='tinynav-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/themes/classipress/includes/js/jquery.footable.js?ver=0.1' id='footable-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/themes/simply-responsive-cp/includes/js/selectbox.min.js?ver=1.1.4' id='selectbox-js'></script>
+<script type='text/javascript' id='theme-scripts-js-extra'>
+/* <![CDATA[ */
+var classipress_params = {"appTaxTag":"ad_tag","ad_parent_posting":"yes","ad_currency":"","currency_position":"left","home_url":"https:\/\/be-monumen.be\/","ajax_url":"\/wp-admin\/admin-ajax.php","text_before_delete_ad":"\u00cates-vous s\u00fbr de vouloir supprimer cette fiche ? Une fois la fiche supprim\u00e9e, elle ne peut \u00eatre r\u00e9activ\u00e9e.","text_mobile_navigation":"Menu"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/themes/simply-responsive-cp/includes/js/theme-scripts-33.js?ver=3.3' id='theme-scripts-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/themes/classipress/includes/js/colorbox/jquery.colorbox-min.js?ver=1.4.3' id='colorbox-js'></script>
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?sensor=false&#038;key=AIzaSyD9YqspJ3fqjSBuzr8fcWYJS9wZUnVPUbI&#038;language=fr&#038;region=FR&#038;ver=3.0' id='google-maps-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/themes/simply-responsive-cp/includes/js/respond.js?ver=5.7.15' id='simply_responsive_js-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/themes/simply-responsive-cp/includes/js/ios-orientationchange-fix.js?ver=5.7.15' id='orientation_fix_js-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/themes/simply-responsive-cp/js/jquery.geolocation.edit.js?ver=5.7.15' id='picketEditMaps-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/themes/simply-responsive-cp/js/custom.js?ver=5.7.15' id='customThemeJs-js'></script>
+<link rel="https://api.w.org/" href="https://be-monumen.be/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://be-monumen.be/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://be-monumen.be/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://be-monumen.be/?p=138472' />
+<link rel="alternate" type="application/json+oembed" href="https://be-monumen.be/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbe-monumen.be%2Fpatrimoine-belge%2Fpoelaert-joseph%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://be-monumen.be/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbe-monumen.be%2Fpatrimoine-belge%2Fpoelaert-joseph%2F&#038;format=xml" />
+<link rel="shortcut icon" href="https://be-monumen.be/wp-content/themes/classipress/images/favicon.ico" />
+<meta name="version" content="ClassiPress 3.3" />
+<style type="text/css" media="screen">body{position:relative}#dynamic-to-top{display:none;overflow:hidden;width:auto;z-index:90;position:fixed;bottom:20px;right:20px;top:auto;left:auto;font-family:sans-serif;font-size:1em;color:#fff;text-decoration:none;text-shadow:0 1px 0 #333;font-weight:bold;padding:17px 16px;border:0px solid #000;background:#395898;-webkit-background-origin:border;-moz-background-origin:border;-icab-background-origin:border;-khtml-background-origin:border;-o-background-origin:border;background-origin:border;-webkit-background-clip:padding-box;-moz-background-clip:padding-box;-icab-background-clip:padding-box;-khtml-background-clip:padding-box;-o-background-clip:padding-box;background-clip:padding-box;-webkit-box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );-ms-box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );-moz-box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );-o-box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );-khtml-box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );-icab-box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );-webkit-border-radius:30px;-moz-border-radius:30px;-icab-border-radius:30px;-khtml-border-radius:30px;border-radius:30px}#dynamic-to-top:hover{background:#4fb5ac;background:#395898 -webkit-gradient( linear, 0% 0%, 0% 100%, from( rgba( 255, 255, 255, .2 ) ), to( rgba( 0, 0, 0, 0 ) ) );background:#395898 -webkit-linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );background:#395898 -khtml-linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );background:#395898 -moz-linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );background:#395898 -o-linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );background:#395898 -ms-linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );background:#395898 -icab-linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );background:#395898 linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );cursor:pointer}#dynamic-to-top:active{background:#395898;background:#395898 -webkit-gradient( linear, 0% 0%, 0% 100%, from( rgba( 0, 0, 0, .3 ) ), to( rgba( 0, 0, 0, 0 ) ) );background:#395898 -webkit-linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) );background:#395898 -moz-linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) );background:#395898 -khtml-linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) );background:#395898 -o-linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) );background:#395898 -ms-linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) );background:#395898 -icab-linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) );background:#395898 linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) )}#dynamic-to-top,#dynamic-to-top:active,#dynamic-to-top:focus,#dynamic-to-top:hover{outline:none}#dynamic-to-top span{display:block;overflow:hidden;width:14px;height:12px;background:url( https://be-monumen.be/wp-content/plugins/dynamic-to-top/css/images/up.png )no-repeat center center}</style><link rel="icon" href="https://be-monumen.be/wp-content/uploads/cropped-logo-Be-monumen-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://be-monumen.be/wp-content/uploads/cropped-logo-Be-monumen-192x192.png" sizes="192x192" />
+<meta name="msapplication-TileImage" content="https://be-monumen.be/wp-content/uploads/cropped-logo-Be-monumen-270x270.png" />
+<meta name="pwaforwp" content="wordpress-plugin"/>
+        <meta name="theme-color" content="#D5E0EB">
+        <meta name="apple-mobile-web-app-title" content="BE-monumen">
+        <meta name="application-name" content="BE-monumen">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-touch-fullscreen" content="yes">
+<link rel="apple-touch-icon" sizes="192x192" href="https://be-monumen.be/wp-content/uploads/logo-Be-monumen.png">
+<link rel="apple-touch-icon" sizes="512x512" href="https://be-monumen.be/wp-content/uploads/Fondeur-29.jpg">
+		<style type="text/css" id="wp-custom-css">
+			/*
+Vous pouvez ajouter du CSS personnalisé ici.
+
+Cliquez sur l’icône d’aide ci-dessus pour en savoir plus.
+*/
+p.post-price {
+    text-transform: uppercase;
+}
+#dynamic-to-top {
+   	background: #3e9286;
+	}
+#dynamic-to-top:hover {
+    background: #3e9286;
+}
+		</style>
+		
+</head>
+
+<body data-rsssl=1 class="ad_listing-template-default single single-ad_listing postid-138472">
+
+	
+	<div class="container">
+
+		
+				
+<div class="header">
+
+		<div class="header_top">
+
+				<div class="header_top_res">
+
+						<p>
+										Bienvenue, <strong>visiteur !</strong> [ <a href="https://be-monumen.be/register/">S'enregistrer</a> | <a href="https://be-monumen.be/login/">Connexion</a> ]&nbsp;
+		
+							<a href="https://be-monumen.be/feed/?post_type=ad_listing" class="srvicon rss-icon" target="_blank" title="Flux RSS">Flux RSS</a>
+
+															&nbsp;|&nbsp;<a href="http://www.facebook.com/LaFonderieBXL" class="srvicon facebook-icon" target="_blank" title="Facebook">Facebook</a>
+							
+													</p>
+
+				</div><!-- /header_top_res -->
+
+		</div><!-- /header_top -->
+
+
+		<div class="header_main">
+
+				<div class="header_main_bg">
+
+						<div class="header_main_res">
+
+								<div id="logo">
+
+								
+
+									
+																								<a href="https://be-monumen.be/"><img src="https://be-monumen.be/wp-content/uploads/logo-Be-monumen.jpg" alt="BE-monumen" class="header-logo" /></a>
+											
+									
+								</div><!-- /logo -->
+								<a href="https://be-monumen.be/add-new/" class="obtn btn_orange mobile_btn">Publier une fiche</a>
+
+								<div class="adblock">
+									<a href="" target="_blank"><img src="https://be-monumen.be/wp-content/uploads/bann-1.png" border="0" alt="" /></a>								</div><!-- /adblock -->
+								<div class="clr"></div>
+
+					</div><!-- /header_main_res -->
+
+				</div><!-- /header_main_bg -->
+
+		</div><!-- /header_main -->
+
+
+		<div class="header_menu">
+
+				<div class="header_menu_res">
+
+                <ul id="menu-header" class="menu"><li id="menu-item-1367" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1367"><a href="https://be-monumen.be/">ACCUEIL</a></li>
+<li id="menu-item-7039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7039"><a href="https://be-monumen.be/carte/">CARTE</a></li>
+<li id="menu-item-6878" class="menu-item menu-item-type-taxonomy menu-item-object-ad_cat menu-item-6878"><a href="https://be-monumen.be/cat/monumen/">MONUMEN</a></li>
+<li id="menu-item-6877" class="menu-item menu-item-type-taxonomy menu-item-object-ad_cat menu-item-6877"><a href="https://be-monumen.be/cat/volumen/">VOLUMEN</a></li>
+<li id="menu-item-6879" class="menu-item menu-item-type-taxonomy menu-item-object-ad_cat current-ad_listing-ancestor menu-item-6879"><a href="https://be-monumen.be/cat/nomen/">NOMEN</a></li>
+<li id="menu-item-10855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10855"><a href="https://be-monumen.be/ma-selection/">Ma sélection</a></li>
+<li id="menu-item-7094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7094"><a href="https://be-monumen.be/contact/">Contact</a></li>
+<li id="menu-item-127233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-127233"><a href="https://be-monumen.be/a-propos/">A propos</a></li>
+</ul>
+                <a href="https://be-monumen.be/add-new/" class="obtn btn_orange mobile_btn">Publier une fiche</a>
+
+				<div class="clr"></div>
+
+				</div><!-- /nav -->
+
+		</div><!-- /header_menu -->
+
+</div><!-- /header -->		
+		
+
+	<div id="search-bar">
+
+		<div class="searchblock_out">
+
+			<div class="searchblock">
+
+				<form action="https://be-monumen.be/" method="get" id="searchform" class="form_search">
+
+					<div class="searchfield">
+<!--  What are you looking for -->
+<!-- W42 -->
+						<input name="s" type="text" id="s" tabindex="1" class="editbox_search" style=""  placeholder="Recherche dans l'intitulé des fiches" value="" onfocus="if (this.value == 'Recherche dans l'intitulé des fiches') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Recherche dans l'intitulé des fiches';}"  />
+<!-- W42 -->
+					</div>
+
+					<div class="searchbutcat">
+
+						<button class="btn-topsearch" type="submit" tabindex="3" title="Recherche de fiches" id="go" value="search" name="sa">Recherche de fiches</button>
+
+						<select  name='scat' id='scat' class='searchbar'  tabindex="2">
+	<option value='0'>Toutes les catégories</option>
+	<option class="level-0" value="10">MONUMEN&nbsp;&nbsp;(2 144)</option>
+	<option class="level-1" value="428">&nbsp;&nbsp;&nbsp;Chauffage &#8211; cuisinières &#8211; cheminées&#8230;&nbsp;&nbsp;(0)</option>
+	<option class="level-1" value="426">&nbsp;&nbsp;&nbsp;Décors &#8211; balcons &#8211; grilles &#8211; portes &#8211; kiosques &#8211; métro&#8230;&nbsp;&nbsp;(208)</option>
+	<option class="level-1" value="424">&nbsp;&nbsp;&nbsp;Fontaines et vasques&nbsp;&nbsp;(122)</option>
+	<option class="level-1" value="430">&nbsp;&nbsp;&nbsp;Fonte de bâtiments &#8211; colonnes &#8211; tuyaux &#8211; eau pluviale&#8230;&nbsp;&nbsp;(42)</option>
+	<option class="level-1" value="431">&nbsp;&nbsp;&nbsp;Fonte funéraire&nbsp;&nbsp;(323)</option>
+	<option class="level-1" value="429">&nbsp;&nbsp;&nbsp;L&rsquo;équipement de la maison et du jardin&nbsp;&nbsp;(7)</option>
+	<option class="level-1" value="425">&nbsp;&nbsp;&nbsp;Lampadaire &#8211; torchères &#8211; candélabres&nbsp;&nbsp;(36)</option>
+	<option class="level-1" value="423">&nbsp;&nbsp;&nbsp;Monument aux morts et commémoratifs&nbsp;&nbsp;(349)</option>
+	<option class="level-1" value="419">&nbsp;&nbsp;&nbsp;Monuments aux grands hommes&nbsp;&nbsp;(438)</option>
+	<option class="level-1" value="422">&nbsp;&nbsp;&nbsp;Oeuvres religieuses&nbsp;&nbsp;(221)</option>
+	<option class="level-1" value="421">&nbsp;&nbsp;&nbsp;Sculptures animalières&nbsp;&nbsp;(147)</option>
+	<option class="level-1" value="420">&nbsp;&nbsp;&nbsp;Statues décoratives&nbsp;&nbsp;(523)</option>
+	<option class="level-1" value="427">&nbsp;&nbsp;&nbsp;Vases &#8211; coupes &#8211; urnes&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="8">NOMEN&nbsp;&nbsp;(456)</option>
+	<option class="level-1" value="13" selected="selected">&nbsp;&nbsp;&nbsp;Architecte&nbsp;&nbsp;(21)</option>
+	<option class="level-1" value="786">&nbsp;&nbsp;&nbsp;Éditeur&nbsp;&nbsp;(0)</option>
+	<option class="level-1" value="12">&nbsp;&nbsp;&nbsp;Fondeur&nbsp;&nbsp;(75)</option>
+	<option class="level-1" value="1655">&nbsp;&nbsp;&nbsp;Négociant&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="14">&nbsp;&nbsp;&nbsp;Paysagiste&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="11">&nbsp;&nbsp;&nbsp;Sculpteur&nbsp;&nbsp;(356)</option>
+	<option class="level-1" value="1651">&nbsp;&nbsp;&nbsp;Technicien&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="9">VOLUMEN&nbsp;&nbsp;(252)</option>
+</select>
+
+					</div>
+
+				</form>
+
+			</div> <!-- /searchblock -->
+
+		</div> <!-- /searchblock_out -->
+
+	</div> <!-- /search-bar -->
+
+
+		
+<div class="content">
+
+	<div class="content_botbg">
+
+		<div class="content_res">
+
+			<div id="breadcrumb">
+
+				<div id="crumbs"><a href="https://be-monumen.be/">Accueil</a> &raquo; <a href="https://be-monumen.be/cat/nomen/">NOMEN</a> &raquo; <a href="https://be-monumen.be/cat/nomen/architecte/">Architecte</a> &raquo; POELAERT Joseph<span class="current"></span></div>
+			</div>
+
+              <!-- <div style="width: 105px; height:16px; text-align: right; float: left; font-size:11px; margin-top:-10px; padding:0 10px 5px 5px;"> -->
+									<!-- <span id="reportedPost">L&apos;article a été signalé</span> -->
+									<!--	<a id="reportPost" href="?reportpost=138472">Signaler l&apos;article</a> -->
+							<!-- </div> -->
+
+			<div class="clr"></div>
+
+			<div class="content_left">
+
+				
+				
+				
+					
+						
+						
+						<div class="shadowblock_out ">
+
+							<div class="shadowblock">
+
+									<div class="price-wrap">
+		<span class="tag-head">&nbsp;</span><p class="post-price">architecte</p>
+	</div>
+
+
+								<h2 class="single-listing"><a href="https://be-monumen.be/patrimoine-belge/poelaert-joseph/" title="POELAERT Joseph">POELAERT Joseph</a></h2>
+
+								<div class="clr"></div>
+
+															    <div class="dotted"></div>
+							    <div class="pad2"></div>
+
+								<div class="bigright ">
+
+                                    <h3 class="detail-area">Informations :</h3>
+									<ul>
+										<li id="cp_prnom" class=""><span>Prénom:</span> Joseph</li><li id="cp_nationalit" class=""><span>Nationalité:</span> belge</li><li id="cp_activit" class=""><span>Activité:</span> Architecte</li><li id="cp_date_et_lieu_de_naissance_et_d" class=""><span>Date et lieu de naissance et de décès:</span> Né le 21 mars 1817 à Bruxelles et décédé le 3 novembre 1879 à Bruxelles.</li>											<!-- <li id="cp_listed"><span>Publié le :</span> 26 avril 2020 12 h 00 min</li> -->
+										
+
+									</ul>
+
+									<p><div class="emailico"></div><a href="mailto:?subject=POELAERT Joseph&amp;body=Voici une fiche sur le patrimoine monumental: https://be-monumen.be/patrimoine-belge/poelaert-joseph/" title="Envoyer par email"><div>Envoyer cette fiche par Email</div></a></p>
+
+																										</div><!-- /bigright -->
+
+								                                    <div class="bigleft">
+
+																														
+                                        <div id="main-pic">
+                                            <a href="https://be-monumen.be/wp-content/uploads/Joseph_POELAERT_architecte-581x850.jpg" class="img-main" data-rel="colorbox"><img src="https://be-monumen.be/wp-content/uploads/Joseph_POELAERT_architecte-171x250.jpg" title="POELAERT Joseph" alt="POELAERT Joseph" /></a>                                            <div class="clr"></div>
+                                        </div>
+
+                                    </div><!-- /bigleft -->
+
+								
+				                <div class="clr"></div>
+
+                                    <div class="bigleft">
+
+										<div id="thumbs-pic">
+																				<div class="clr"></div>
+										</div>
+
+                                    </div><!-- /bigleft -->
+
+				                <div class="clr"></div>
+
+			                	
+									<div class="ft-author">
+										<span class="author">Fiche cr&eacute;ée ou mise &agrave; jour par : <a href="https://be-monumen.be/author/guyvandenbemden_be/" title="Articles par Guy Vanden Bemden" rel="author">Guy Vanden Bemden</a></span>
+										le 26 avril 2020										<div class="clr"></div>
+									</div>
+
+								<div class="single-main">
+								
+									<h3 class="description-area">Description:</h3>
+									<p>Joseph Poelaert, officier de l&rsquo;ordre de Léopold, chevalier de la Légion d’honneur, membre agrégé de l&rsquo;Académie royale des beaux-arts d&rsquo;Anvers, est un architecte belge né le 21 mars 1817 rue du Marché au Charbon no 1028 (?), et qui succomba à l&rsquo;âge de 62 ans en plein labeur le 3 novembre 1879 à cinq heures du matin en son domicile, boulevard de Waterloo no 13, des suites d’une congestion cérébrale.</p>
+<p>Il est enterré au cimetière de Laeken.</p>
+<p>Joseph Poelaert naquit dans une famille de la bourgeoisie bruxelloise fortunée et amie des arts. Son père Philippe Poelaert (1790-1875), ancien élève en architecture de Jean-Alexandre Werry (1773-1847) à l&rsquo;Académie Royale des Beaux-Arts, où il obtint le deuxième prix en 1808 et le prix le 1er juillet 1810, est un important architecte-entrepreneur, il était électeur censitaire et Régent (nom donné aux échevins à l&rsquo;époque du Royaume-Uni des Pays-Bas) de Hal. Homme riche, le père de Poelaert aimait à recevoir chez lui, les gens de lettres et les artistes.</p>
+<p>Joseph Poelaert passa son enfance et son adolescence dans le grand hôtel particulier que son père avait construit rue de Laeken (actuel no 76) en 1824 quand il avait sept ans.</p>
+<p><span style="text-decoration: underline;"><strong>Un architecte du règne de Léopold Ier</strong></span></p>
+<p>Beaucoup d’auteurs situent erronément son œuvre sous le règne de Léopold II de Belgique (1865-1909), liant naturellement la majesté, l’abondance et la modernité d’une production hors norme qui apparaît subitement au milieu d’un grand vide architectural avec le règne de ce roi surnommé le « roi bâtisseur », mais qui en fait était plutôt un roi urbaniste et créateur de grands espaces verts. Le vrai grand roi bâtisseur, au sens propre et au sens figuré car il a bâti un pays nouveau, fut Léopold Ier.<br />
+Cette attribution de sa carrière au règne de Léopold II est toujours répétée de nos jours, autrement dit le Palais de Justice aurait été construit avec le sang du Congo… alors que le Palais de Justice commencé en 1860 fut inauguré le 15 octobre 1883 après la mort de Poelaert et que la souveraineté sur le Congo ne fut attribuée au roi Léopold II par la Conférence de Berlin qu’en 1885 ! De même, l&rsquo;église Sainte-Catherine, fut commencée en 1854 et terminée en 1874, et l&rsquo;église Sainte-Marie, œuvre de l&rsquo;architecte Louis van Overstraeten, fut commencée en 1845, un demi-siècle avant que la Belgique n&rsquo;ait une colonie !</p>
+<p>En fait, cette dernière œuvre de Poelaert, le Palais de Justice de Bruxelles, aux plans conçus sous Léopold Ier, sera édifié à la fin du règne de Léopold Ier puis durant les 17 premières années du règne de Léopold II (1865-1909), après la mort tant de Léopold Ier que de Poelaert. Mais il reste une œuvre voulue sous Léopold Ier dont il couronne d&rsquo;une certaine manière symboliquement le règne et l&rsquo;époque qui fut celle de la brillante génération des fondateurs de la Belgique, attachée au droit et aux libertés.</p>
+<p><span style="text-decoration: underline;"><strong>Sa formation</strong></span></p>
+<p>Joseph Poelaert avait commencé ses études auprès de son père qui lui inculqua dès son jeune âge l&rsquo;enseignement de la pratique constructive. Il suivit ensuite les cours de l&rsquo;Académie royale des Beaux-Arts de Bruxelles, sous Tilman-François Suys, dont les leçons ne le marquèrent pas. Poelaert les continua à Paris à l&rsquo;École des Beaux-Arts où il reçut sa formation principale et auprès de Louis Visconti, auteur du tombeau de Napoléon aux Invalides et dans l&rsquo;atelier de Jean-Nicolas Huyot qui termina l&rsquo;Arc de Triomphe. Il devint admirateur de Henri Labrouste (1801-1875), et suivit une carrière parallèle à celle des Joseph-Louis Duc (1802-1879), des Félix Duban (1797-1871) et des Simon-Claude Constant-Dufeux (1801-1870) qu&rsquo;il y côtoya.</p>
+<p>C&rsquo;est à Paris qu&rsquo;il s&rsquo;inspira également de l&rsquo;architecture napoléonienne et de l&rsquo;œuvre de Percier et Fontaine, qui avaient entrepris le projet grandiose de grands palais correspondant aux principales activités de l&rsquo;État et qui furent les maîtres de Visconti.</p>
+<p>Ayant terminé ses études parisiennes, il fit le traditionnel tour de France et ensuite avec son frère le sculpteur Victor Poelaert (1820-1859) et son ami le sculpteur Égide Mélot (1816-1885), il fit un premier voyage de formation en Allemagne qu&rsquo;il répéta par la suite.</p>
+<p><span style="text-decoration: underline;"><strong>Son parcours créatif</strong></span></p>
+<p>Le jeune Joseph Poelaert entre en 1836 comme élève à l’Académie royale des Beaux-Arts de Bruxelles. Il avait hésité à devenir pianiste et restera toute sa vie un excellent musicien, aimant à s&rsquo;exprimer à travers cet instrument.</p>
+<p>Ses premières œuvres, vers 1832, alors qu&rsquo;il avait environ quinze ans, furent les décors de théâtre destinés au petit théâtre qu&rsquo;avait construit son père dans la maison familiale de la rue de Laeken. Ces projets furent révélés après la mort de Poelaert lors de l&rsquo;Exposition nationale d&rsquo;architecture de 1883 à Bruxelles.<br />
+Artiste de la transition entre le romantisme et le modernisme, féru de références classiques au monde gréco-romain, son œuvre est avant tout tournée vers l&rsquo;hellénisme qui fut sa référence principale.</p>
+<p>Joseph Poelaert commence sa carrière comme dessinateur et inspecteur des bâtisses et, ensuite architecte communal à la ville de Bruxelles (1847-1859). À ce titre, il crée une fontaine publique à la mémoire du bourgmestre Nicolas Rouppe (1846) et les plans de deux écoles communales situées boulevard du Midi (1849) et rue de Schaerbeek. Il réalise également l&rsquo;aménagement de la place des Barricades (1849).</p>
+<p>Il remporte ensuite le concours de la place des Panoramas – aujourd’hui place du Congrès – et à partir de 1850, il se consacre au projet d’une colonne consacrée au Congrès national et à l’Indépendance. Elle doit impérativement être plus grande que la colonne Vendôme à Paris, plus belle que la Colonne Trajane à Rome. Pour la représentation des Provinces en bas-relief, il fait appel au sculpteur belge Eugène Simonis. Pour la statue en pied de Léopold Ier qui doit couronner l’édifice, ce sera Guillaume Geefs.<br />
+À la même époque, Bruxelles connaît une inondation qui ravage le quartier Sainte-Catherine. Poelaert est chargé de la construction de la nouvelle église à l&#8217;emplacement du premier bassin du port de Bruxelles. À partir de 1863, l&rsquo;édification est poursuivie par Wynand Janssens. L&rsquo;église n&rsquo;a toutefois jamais été terminée.</p>
+<p>Le 11 octobre 1850, Louise-Marie d&rsquo;Orléans, reine des Belges, meurt à Ostende. Poelaert décorera la collégiale de Bruxelles pour les funérailles. La souveraine ayant fait le vœu d’être inhumée à Laeken, Léopold Ier décide d’ériger une nouvelle église ainsi qu’une crypte réservée à la famille royale. Les fonds nécessaires seront en partie fournis par une souscription nationale lancée à l’initiative des délégués des provinces belges. En 1851, un concours pour Notre-Dame de Laeken est organisé. Poelaert l’emporte avec un projet dans le style néo-gothique. Le roi pose la première pierre le 27 mai 1854. Elle sera consacrée le 7 août 1872 alors que le monument n’est pas encore achevé. Ce sera Léopold II, soucieux de l’embellissement des lieux, qui charge un architecte de Munich, le baron Heinrich von Schmidt, d’achever la façade principale, les porches monumentaux et la tour centrale.</p>
+<p>En 1852, Poelaert est l’architecte le plus prisé de la capitale belge, malgré ses sautes d’humeur, ses prolongations de délais et ses dépassements de budgets dans des proportions pharaoniques. Les critiques sont virulentes : lui sont reprochées son architecture qualifiée de massive et son ornementation jugée rudimentaire.<br />
+En 1855, nommé architecte de la Ville de Bruxelles, il supervise six chantiers d’envergure (dont la caserne des pompiers de la rue Blaes).</p>
+<p>Le 21 janvier 1855, un incendie ravage l’Opéra de La Monnaie. Poelaert remporte le concours pour sa reconstruction. Lors de l&rsquo;inauguration, pendant le premier entracte, comme le raconta la presse, « le bourgmestre a introduit Joseph Poelaert au balcon, l&rsquo;architecte auquel la ville de Bruxelles doit son beau théâtre et qui fut chaleureusement ovationné par le public ».</p>
+<p>Il démissionne de la fonction publique en 1859.</p>
+<p><span style="text-decoration: underline;"><strong>Son œuvre-testament : le Palais de Justice de Bruxelles</strong></span></p>
+<p>L’arrêté royal du 27 mars 1860 annonce le projet de la construction d’un nouveau Palais de Justice. Le concours est international mais aucun des vingt-huit projets n’est retenu. Le Ministère de la Justice se tourne vers Poelaert qui remet un projet d’une surface au sol de 20 000 m2 pour un budget de 3 millions de francs.</p>
+<p>Poelaert soumet en avril 1862 un avant-projet, qui fut approuvé par le ministre Victor Tesch, c&rsquo;est ensuite à Paris, loin des pressions et des influences de Bruxelles, que Poelaert se retira pour mettre la touche finale à ses plans du Palais de Justice, il y avait réuni une équipe de dessinateurs parmi lesquels Charles Laisné et Édouard Corroyer. Revenu à Bruxelles il présente son projet, mais les plans changent en permanence. L&rsquo;édifice finit par atteindre une surface au sol de 26 000 m2 (soit 2,6 ha, soit un carré de 162 m de côté) pour un budget de 50 millions de francs. Les expropriations des maisons du quartier populaire des Marolles ont en effet grevé le budget.</p>
+<p>Finalement, le bourgmestre de Bruxelles, Jules Anspach, soutenu par le roi Léopold Ier, donne le feu vert à Poelaert pour la réalisation de son projet, travaux qui s’étaleront durant 17 ans, de 1866 à 1883, soit quatre années au-delà du décès de ces deux serviteurs de l’État qui s&rsquo;éteignent en 1879.</p>
+<p>Le Palais de Justice en quelques chiffres : 60 000 m3 de pierre blanche du Jura et de petit granit, 245 locaux, 8 cours intérieures, un dôme culminant à plus de 100 m au-dessus de la salle des pas perdus, 4 941 marches d’escaliers. L’imposant portique d’entrée est si grand qu’on pourrait y faire passer une maison entière haute de 15 m et pèse une quinzaine de tonnes. La pyramide initialement prévue par Poelaert a été remplacée par un dôme de cuivre surmonté d&rsquo;un clocheton vitré, lui-même coiffé d&rsquo;une couronne royale dorée. Cet édifice suscite toujours l’étonnement par son gigantisme écrasant, surtout lorsqu’on le contemple depuis le bas de la rue de la Régence qui lui fait face.</p>
+<p>Alors que les grandes puissances s&rsquo;attendaient à voir disparaître rapidement ce nouveau royaume qu’était la Belgique, Joseph Poelaert dota rapidement sa patrie de symboles architecturaux destinés à faire naître dans l’esprit des spectateurs cette impression d’antiquité, de durée, de puissance et d&rsquo;existence de l&rsquo;État, en rendant visible ses institutions dans la pierre, à l’instar des anciens pays européens.</p>
+
+									<div id="cp_complment" class="custom-text-area dotted"><h3>Complément</h3> <p><strong>Quelques œuvres encore visibles:</strong><br /><br />- 1840 : <em>Hôtel de ville de Lincent</em></p>
+<p>- 1846-1848 : </em>Fontaine de la place Rouppe</em>, ornée d'une statue personnifiant Bruxelles, par Charles-Auguste Fraikin</p>
+<p>- 1848, septembre : <em>Projet pour la nouvelle caserne du Petit Château</em></p>
+<p>- 1849 : <em>Grille ornementale et réverbères</em> au milieu de la place des Barricades</p>
+<p>- 1849-1851 : </em>École communale no 6</em>, boulevard du Midi</p>
+<p>- 1850 : à Saint-Vaast, </em>château de monsieur Louis Faignart</em> époux de Claire Clotilde Boucquéau, né à Saint-Vaast (La Louvière), décédé en 1882 à Longchamps (Bertogne), député catholique dont la fille Emma Faignart (1845-1871), épousa Victor Allard</p>
+<p>- 1850-1854 : <em>Église Sainte-Catherine</em></p>
+<p>- 1850 : </em>Colonne du Congrès</em></p>
+<p>- 1850-1852 : <em>Palais</em>, place du Congrès, 1</p>
+<p>- 1850-1852 : </em>Palais</em>, place du Congrès, 2</p>
+<p>- 1851 : </em>Auvent pour la façade</em>, Théâtre royal du Parc</p>
+<p>- 1851-1853 : <em>École communale no 5</em>, rue de Schaerbeek</p>
+<p>- 1854 : 27 mai : </em>Église Notre-Dame de Laeken</em>, début des travaux</p>
+<p>- 1855 : <em>reconstruction du Théâtre de la Monnaie</em></p>
+<p>- 1857 : <em>réservoirs d'eau d'Ixelles</em>, rue de la Vanne</p>
+<p>- 1857 : <em>deux édicules</em> du Parc de Bruxelles en face du palais royal</p>
+<p>- 1857-1862 : <em>Château de La Closière (dit Château Boch)</em> à La Louvière</p>
+<p>- 1859-1860 : </em>caserne des pompiers</em> à Bruxelles, place du Jeu de Balle</p>
+<p>- 1862 : <em>plans du Palais de Justice</em> 1866, 10 septembre : début des travaux du Palais de Justice</p></div><div id="cp_sources_et_liens_externes" class="custom-text-area dotted"><h3>Sources et liens externes</h3> <p><a href="https://fr.wikipedia.org/wiki/Joseph_Poelaert" rel="nofollow" target="_blank">https://fr.wikipedia.org/wiki/Joseph_Poelaert</a></p>
+<p><a href="http://poelaert2017.be/index.php/2017/03/21/1817-marche-aux-charbons/" rel="nofollow" target="_blank">http://poelaert2017.be/index.php/2017/03/21/1817-marche-aux-charbons/</a></p>
+<p><a href="https://www.wikiwand.com/fr/Joseph_Poelaert" rel="nofollow" target="_blank">https://www.wikiwand.com/fr/Joseph_Poelaert</a></p>
+<p><a href="http://patrimoine.brussels/liens/publications-numeriques/versions-pdf/bvah/le-palais-de-justice" rel="nofollow" target="_blank">http://patrimoine.brussels/liens/publications-numeriques/versions-pdf/bvah/le-palais-de-justice</a></p>
+<p><a href="https://jeanpierre-buyle.avocats.be/sites/default/files/Le%20palais%20de%20Poelaert%2C%20colosse%20aux%20pieds%20d%27argile%20-%20Juliette%20%26%20Victor%20n%C2%B054-2016%20_01529281.pdf" rel="nofollow" target="_blank">https://jeanpierre-buyle.avocats.be/sites/default/files/Le%20palais%20de%20Poelaert%2C%20colosse%20aux%20pieds%20d%27argile%20-%20Juliette%20%26%20Victor%20n%C2%B054-2016%20_01529281.pdf</a></p></div>
+								
+								<ul class="dw-social-share dwss-style-5"><li class="dwss-facebook"><a href="javascript.void(0);" rel="nofollow"><i class="fa fa-facebook"></i> <span>Facebook</span></a></li><li class="dwss-twitter"><a href="javascript.void(0);" rel="nofollow"><i class="fa fa-twitter"></i> <span>Twitter</span></a></li><li class="dwss-google-plus"><a href="javascript.void(0);" rel="nofollow"><i class="fa fa-google-plus"></i> <span>Google+</span></a></li><li class="dwss-linkedin"><a href="javascript.void(0);" rel="nofollow"><i class="fa fa-linkedin"></i> <span>LinkedIn</span></a></li><li class="dwss-pinterest"><a href="javascript.void(0);" rel="nofollow"><i class="fa fa-pinterest"></i> <span>Pinterest</span></a></li></ul>	
+								
+									
+
+								</div>
+
+								<nav id="nav-single">
+									
+
+<div class="nav-category">
+</div>
+<br />
+<span class="nav-previous">
+<a href="https://be-monumen.be/patrimoine-belge/balat-alphonse/" rel="prev" title="BALAT Alphonse"><button class="btn_grey" type="submit">&laquo;</button></a>&nbsp;
+	<a href="https://be-monumen.be/patrimoine-belge/pavot-leon/" rel="prev" title="PAVOT Léon"><button class="btn_link" type="submit">&larr; PRECEDENT</button> </a></span>
+<span class="nav-next">
+<a href="https://be-monumen.be/patrimoine-belge/wilbaux-jules/" rel="next" title="WILBAUX Jules"> <button class="mbtn btn_link" type="submit">SUIVANT &rarr;</button></a>&nbsp;
+	<a href="https://be-monumen.be/patrimoine-belge/sjonghers-louis-ernest/" rel="next" title="S’JONGHERS Louis-Ernest"><button class="mbtn btn_grey" type="submit">&raquo;</button></a></span>
+								</nav>
+
+								<!-- map -->
+								
+								
+										
+	<div class='note'><strong>Numéro d'identification de la fiche :</strong> 2645e80b04406518</div>
+    <div class="dotted"></div>
+    <div class="pad5"></div>
+		
+	<div class="prdetails">
+	            <p class="tags"><a href="https://be-monumen.be/mots-cles/poelaert-joseph/" rel="tag">POELAERT Joseph</a></p>
+                <p class="stats">3171 vues au total, 2 vues aujourd'hui</p>         <p class="print">&nbsp;&nbsp;</p>
+            </div>
+    
+
+							</div><!-- /shadowblock -->
+
+						</div><!-- /shadowblock_out -->
+
+						
+					
+					
+				
+				<div class="clr"></div>
+
+				<div class="shadowblock_out">
+
+	<div class="shadowblock">
+
+    	<h2 class="single dotted">Ces fiches peuvent vous intéresser : </h2>
+    	
+    </div><!-- .shadowblock -->
+
+</div><!-- .shadowblock_out -->
+
+<div class="related">
+
+
+    
+	    
+	<div class="post-block-out ">
+        
+    	<div class="post-block">
+        
+        	<div class="post-left">
+        
+            	<a href="https://be-monumen.be/patrimoine-belge/ensemble-place-du-congres-bruxelles/" title="Ensemble &#8211; Place du Congrès – Bruxelles" class="preview" data-rel="https://be-monumen.be/wp-content/uploads/01-Bruxelles-Colonne-CP-533x850.jpg"><img width="250" height="250" src="https://be-monumen.be/wp-content/uploads/01-Bruxelles-Colonne-CP-250x250.jpg" class="attachment-ad-simply size-ad-simply" alt="" loading="lazy" srcset="https://be-monumen.be/wp-content/uploads/01-Bruxelles-Colonne-CP-250x250.jpg 250w, https://be-monumen.be/wp-content/uploads/01-Bruxelles-Colonne-CP-90x90.jpg 90w, https://be-monumen.be/wp-content/uploads/01-Bruxelles-Colonne-CP-50x50.jpg 50w, https://be-monumen.be/wp-content/uploads/01-Bruxelles-Colonne-CP-75x75.jpg 75w" sizes="(max-width: 250px) 100vw, 250px" /></a>                
+            </div>
+        
+            <div class="post-right full">
+                
+            		<div class="price-wrap">
+		<span class="tag-head">&nbsp;</span><p class="post-price">Monumen</p>
+	</div>
+
+        
+                <h3><a href="https://be-monumen.be/patrimoine-belge/ensemble-place-du-congres-bruxelles/">Ensemble &#8211; Place du Congrès – Bruxelles</a></h3>
+                    
+                <div class="clr"></div>
+                    
+                	<p class="post-meta">
+        <span class="folder">&nbsp;</span><a href="https://be-monumen.be/cat/monumen/monument-aux-morts-et-commemoratifs/" rel="tag">Monument aux morts et commémoratifs</a>| <span class="owner"><a href="https://be-monumen.be/author/be-monumen/" title="Articles par Micheline Casier" rel="author">Micheline Casier</a></span>
+	</p>
+                   
+                <div class="clr"></div>
+                    
+                        
+                <p class="post-desc">Ensemble de statues composant la Colonne du Congrès à Bruxelles.</p>
+                    
+                	<p class="stats">4131 vues au total, 0 vues aujourd'hui</p>
+                    
+                <div class="clr"></div>
+        
+            </div>
+        
+            <div class="clr"></div>
+        
+        </div><!-- /post-block -->
+          
+	</div><!-- /post-block-out -->   
+        
+            
+    
+	    
+	<div class="post-block-out ">
+        
+    	<div class="post-block">
+        
+        	<div class="post-left">
+        
+            	<a href="https://be-monumen.be/patrimoine-belge/liberte-de-la-presse-colonne-du-congres-bruxelles/" title="Liberté de la Presse – Colonne du Congrès – Bruxelles" class="preview" data-rel="https://be-monumen.be/wp-content/uploads/Liberte-de-la-Presse-01-567x850.jpg"><img width="250" height="250" src="https://be-monumen.be/wp-content/uploads/Liberte-de-la-Presse-01-250x250.jpg" class="attachment-ad-simply size-ad-simply" alt="" loading="lazy" srcset="https://be-monumen.be/wp-content/uploads/Liberte-de-la-Presse-01-250x250.jpg 250w, https://be-monumen.be/wp-content/uploads/Liberte-de-la-Presse-01-90x90.jpg 90w, https://be-monumen.be/wp-content/uploads/Liberte-de-la-Presse-01-50x50.jpg 50w, https://be-monumen.be/wp-content/uploads/Liberte-de-la-Presse-01-75x75.jpg 75w" sizes="(max-width: 250px) 100vw, 250px" /></a>                
+            </div>
+        
+            <div class="post-right full">
+                
+            		<div class="price-wrap">
+		<span class="tag-head">&nbsp;</span><p class="post-price">Monumen</p>
+	</div>
+
+        
+                <h3><a href="https://be-monumen.be/patrimoine-belge/liberte-de-la-presse-colonne-du-congres-bruxelles/">Liberté de la Presse – Colonne du Congrès – Bruxelles</a></h3>
+                    
+                <div class="clr"></div>
+                    
+                	<p class="post-meta">
+        <span class="folder">&nbsp;</span><a href="https://be-monumen.be/cat/monumen/statues-decoratives/" rel="tag">Statues décoratives</a>| <span class="owner"><a href="https://be-monumen.be/author/be-monumen/" title="Articles par Micheline Casier" rel="author">Micheline Casier</a></span>
+	</p>
+                   
+                <div class="clr"></div>
+                    
+                        
+                <p class="post-desc">Grande statue de femme assise installée sur la base (arrière) de la Colonne du Congrès et représentant la Liberté de la Presse due au sculpteur Joseph Geefs.
+...</p>
+                    
+                	<p class="stats">3275 vues au total, 0 vues aujourd'hui</p>
+                    
+                <div class="clr"></div>
+        
+            </div>
+        
+            <div class="clr"></div>
+        
+        </div><!-- /post-block -->
+          
+	</div><!-- /post-block-out -->   
+        
+            
+    
+	    
+	<div class="post-block-out ">
+        
+    	<div class="post-block">
+        
+        	<div class="post-left">
+        
+            	<a href="https://be-monumen.be/patrimoine-belge/liberte-denseignement-colonne-du-congres-bruxelles/" title="Liberté d&rsquo;enseignement – Colonne du Congrès – Bruxelles" class="preview" data-rel="https://be-monumen.be/wp-content/uploads/Liberte-d’enseignement-01-850x628.jpg"><img width="250" height="250" src="https://be-monumen.be/wp-content/uploads/Liberte-d’enseignement-01-250x250.jpg" class="attachment-ad-simply size-ad-simply" alt="" loading="lazy" srcset="https://be-monumen.be/wp-content/uploads/Liberte-d’enseignement-01-250x250.jpg 250w, https://be-monumen.be/wp-content/uploads/Liberte-d’enseignement-01-90x90.jpg 90w, https://be-monumen.be/wp-content/uploads/Liberte-d’enseignement-01-50x50.jpg 50w, https://be-monumen.be/wp-content/uploads/Liberte-d’enseignement-01-75x75.jpg 75w, https://be-monumen.be/wp-content/uploads/Liberte-d’enseignement-01-593x593.jpg 593w" sizes="(max-width: 250px) 100vw, 250px" /></a>                
+            </div>
+        
+            <div class="post-right full">
+                
+            		<div class="price-wrap">
+		<span class="tag-head">&nbsp;</span><p class="post-price">Monumen</p>
+	</div>
+
+        
+                <h3><a href="https://be-monumen.be/patrimoine-belge/liberte-denseignement-colonne-du-congres-bruxelles/">Liberté d&rsquo;enseignement – Colonne du Congrès – Bruxelles</a></h3>
+                    
+                <div class="clr"></div>
+                    
+                	<p class="post-meta">
+        <span class="folder">&nbsp;</span><a href="https://be-monumen.be/cat/monumen/statues-decoratives/" rel="tag">Statues décoratives</a>| <span class="owner"><a href="https://be-monumen.be/author/be-monumen/" title="Articles par Micheline Casier" rel="author">Micheline Casier</a></span>
+	</p>
+                   
+                <div class="clr"></div>
+                    
+                        
+                <p class="post-desc">Grande statue de femme assise installée sur la base (arrière) de la Colonne du Congrès et représentant la Liberté d'Enseignement due au sculpteur Joseph Geefs.</p>
+                    
+                	<p class="stats">2862 vues au total, 0 vues aujourd'hui</p>
+                    
+                <div class="clr"></div>
+        
+            </div>
+        
+            <div class="clr"></div>
+        
+        </div><!-- /post-block -->
+          
+	</div><!-- /post-block-out -->   
+        
+            
+
+</div><!-- .related -->
+
+<br/>
+					<div class="pad10"></div>
+
+                    
+
+
+					<div class="shadowblock_top">
+
+						<div class="shadowblock">
+
+							<h2 class="dotted">Autres fiches de la m&ecirc;me cat&eacute;gorie :</h2>
+
+															<p class="blockhead">Retour &agrave; la cat&eacute;gorie <a href="https://be-monumen.be/cat/nomen/architecte/" rel="tag">Architecte</a></p>
+							
+						</div><!-- /shadowblock -->
+
+					</div><!-- /shadowblock_out_rlt -->
+
+					
+					
+					
+											<div class="post-block-out ">
+					
+						<div class="post-block">
+
+							<div class="post-left">
+
+																					
+								<a href="https://be-monumen.be/patrimoine-belge/jamar-edmond/" title="JAMAR Edmond" class="preview" data-rel="https://be-monumen.be/wp-content/uploads/Edmond_Jamar-Liege-733x850.jpg"><img width="250" height="250" src="https://be-monumen.be/wp-content/uploads/Edmond_Jamar-Liege-250x250.jpg" class="attachment-ad-simply size-ad-simply" alt="" loading="lazy" srcset="https://be-monumen.be/wp-content/uploads/Edmond_Jamar-Liege-250x250.jpg 250w, https://be-monumen.be/wp-content/uploads/Edmond_Jamar-Liege-90x90.jpg 90w, https://be-monumen.be/wp-content/uploads/Edmond_Jamar-Liege-50x50.jpg 50w, https://be-monumen.be/wp-content/uploads/Edmond_Jamar-Liege-75x75.jpg 75w, https://be-monumen.be/wp-content/uploads/Edmond_Jamar-Liege-593x593.jpg 593w" sizes="(max-width: 250px) 100vw, 250px" /></a>
+							</div>
+
+							<div class="post-right full">
+
+									<div class="price-wrap">
+		<span class="tag-head">&nbsp;</span><p class="post-price">Architecte</p>
+	</div>
+
+
+								<h3><a href="https://be-monumen.be/patrimoine-belge/jamar-edmond/">JAMAR Edmond</a></h3>
+
+								<div class="clr"></div>
+
+									<p class="post-meta">
+        <span class="folder">&nbsp;</span><a href="https://be-monumen.be/cat/nomen/architecte/" rel="tag">Architecte</a>| <span class="owner"><a href="https://be-monumen.be/author/guyvandenbemden_be/" title="Articles par Guy Vanden Bemden" rel="author">Guy Vanden Bemden</a></span>
+	</p>
+
+								<div class="clr"></div>
+
+								
+								<p class="post-desc">Formé à l'Académie des Beaux-Arts de Liège (1867-1874) puis à l'école Saint-Luc de Gand (vers 1876-1877), c'est là qu'il étudie sous la houlette de Jean Béthune...</p>
+
+								<span class="clock-ft"><span>12 novembre 2025</span></span>
+
+									<p class="stats">242 vues au total, 1 vues aujourd'hui</p>
+
+								<div class="clr"></div>
+
+								</div>
+
+								<div class="clr"></div>
+
+							</div><!-- /post-block -->
+
+						</div><!-- /post-block-out -->
+
+                       
+			        
+											<div class="post-block-out ">
+					
+						<div class="post-block">
+
+							<div class="post-left">
+
+																					
+								<a href="https://be-monumen.be/patrimoine-belge/lacoste-henry/" title="LACOSTE Henry" class="preview" data-rel="https://be-monumen.be/wp-content/uploads/Henry-LACOSTE.gif"><img width="250" height="250" src="https://be-monumen.be/wp-content/uploads/Henry-LACOSTE-250x250.gif" class="attachment-ad-simply size-ad-simply" alt="" loading="lazy" srcset="https://be-monumen.be/wp-content/uploads/Henry-LACOSTE-250x250.gif 250w, https://be-monumen.be/wp-content/uploads/Henry-LACOSTE-90x90.gif 90w, https://be-monumen.be/wp-content/uploads/Henry-LACOSTE-50x50.gif 50w, https://be-monumen.be/wp-content/uploads/Henry-LACOSTE-75x75.gif 75w" sizes="(max-width: 250px) 100vw, 250px" /></a>
+							</div>
+
+							<div class="post-right full">
+
+									<div class="price-wrap">
+		<span class="tag-head">&nbsp;</span><p class="post-price">Architecte</p>
+	</div>
+
+
+								<h3><a href="https://be-monumen.be/patrimoine-belge/lacoste-henry/">LACOSTE Henry</a></h3>
+
+								<div class="clr"></div>
+
+									<p class="post-meta">
+        <span class="folder">&nbsp;</span><a href="https://be-monumen.be/cat/nomen/architecte/" rel="tag">Architecte</a>| <span class="owner"><a href="https://be-monumen.be/author/guyvandenbemden_be/" title="Articles par Guy Vanden Bemden" rel="author">Guy Vanden Bemden</a></span>
+	</p>
+
+								<div class="clr"></div>
+
+								
+								<p class="post-desc">Henry Auguste Lacoste est un architecte important du XXe siècle en Belgique. Passionné par son art, par l'histoire de l'architecture et les civilisations ancien...</p>
+
+								<span class="clock-ft"><span>11 juin 2025</span></span>
+
+									<p class="stats">535 vues au total, 1 vues aujourd'hui</p>
+
+								<div class="clr"></div>
+
+								</div>
+
+								<div class="clr"></div>
+
+							</div><!-- /post-block -->
+
+						</div><!-- /post-block-out -->
+
+                       
+			        
+											<div class="post-block-out ">
+					
+						<div class="post-block">
+
+							<div class="post-left">
+
+																					
+								<a href="https://be-monumen.be/patrimoine-belge/govaerts-leon/" title="GOVAERTS Léon" class="preview" data-rel="https://be-monumen.be/wp-content/uploads/FOTOPUB000702-626x850.jpeg"><img width="250" height="250" src="https://be-monumen.be/wp-content/uploads/FOTOPUB000702-250x250.jpeg" class="attachment-ad-simply size-ad-simply" alt="" loading="lazy" srcset="https://be-monumen.be/wp-content/uploads/FOTOPUB000702-250x250.jpeg 250w, https://be-monumen.be/wp-content/uploads/FOTOPUB000702-90x90.jpeg 90w, https://be-monumen.be/wp-content/uploads/FOTOPUB000702-50x50.jpeg 50w, https://be-monumen.be/wp-content/uploads/FOTOPUB000702-75x75.jpeg 75w, https://be-monumen.be/wp-content/uploads/FOTOPUB000702-593x593.jpeg 593w" sizes="(max-width: 250px) 100vw, 250px" /></a>
+							</div>
+
+							<div class="post-right full">
+
+									<div class="price-wrap">
+		<span class="tag-head">&nbsp;</span><p class="post-price">Architecte</p>
+	</div>
+
+
+								<h3><a href="https://be-monumen.be/patrimoine-belge/govaerts-leon/">GOVAERTS Léon</a></h3>
+
+								<div class="clr"></div>
+
+									<p class="post-meta">
+        <span class="folder">&nbsp;</span><a href="https://be-monumen.be/cat/nomen/architecte/" rel="tag">Architecte</a>| <span class="owner"><a href="https://be-monumen.be/author/guyvandenbemden_be/" title="Articles par Guy Vanden Bemden" rel="author">Guy Vanden Bemden</a></span>
+	</p>
+
+								<div class="clr"></div>
+
+								
+								<p class="post-desc">Léon Govaerts est issu d'une famille de décorateurs et commença sa carrière comme dessinateur chez l'architecte Ernest Hendrickx.
+
+Il a poursuivi sa formation...</p>
+
+								<span class="clock-ft"><span>27 décembre 2022</span></span>
+
+									<p class="stats">1091 vues au total, 2 vues aujourd'hui</p>
+
+								<div class="clr"></div>
+
+								</div>
+
+								<div class="clr"></div>
+
+							</div><!-- /post-block -->
+
+						</div><!-- /post-block-out -->
+
+                       
+			        
+			        
+                        <div class="clr"></div>
+
+						<div class="pad10"></div>
+
+                    
+				
+				<div class="clr"></div>
+
+				
+
+
+			</div><!-- /content_left -->
+
+			
+<!-- right sidebar -->
+<div class="content_right">
+
+	<div class="tabprice">
+
+		<ul class="tabnavig">
+						<li><a href="#priceblock2"><span class="big">Contact</span></a></li>
+			<li><a href="#priceblock3"><span class="big">Contributeur</span></a></li>
+		</ul>
+
+
+		
+
+		<!-- tab 2 -->
+		<div id="priceblock2">
+
+			<div class="clr"></div>
+
+			<div class="singletab">
+
+							<div class="pad10"></div>
+				<p class="contact_msg center"><strong>Vous devez être connecté pour contacter le rédacteur de la fiche.Inscrivez-vous en cliquant sur S'enregistrer</strong></p>
+				<div class="pad5"></div>
+			
+			</div><!-- /singletab -->
+
+		</div><!-- /priceblock2 -->
+
+
+		<!-- tab 3 -->
+		<div id="priceblock3">
+
+			<div class="clr"></div>
+
+			<div class="postertab">
+
+				<div class="priceblocksmall dotted">
+
+					<p class="member-title">Information à propos du contributeur</p>
+
+					<div id="userphoto">
+						<p class='image-thumb'></p>
+					</div>
+
+					<ul class="member">
+
+						<li><span>Publié par :</span>
+							<a href="https://be-monumen.be/author/guyvandenbemden_be/">Guy Vanden Bemden</a>
+						</li>
+
+						<li><span>Membre depuis :</span> 6 février 2018</li>
+
+					</ul>
+
+					
+					<div class="pad5"></div>
+
+					<div class="clr"></div>
+
+				</div>
+
+				<div class="pad5"></div>
+
+				<h3>Autres contributions de Guy Vanden Bemden</h3>
+
+				<div class="pad5"></div>
+
+				<ul>
+
+				
+				
+					
+						<li><a href="https://be-monumen.be/patrimoine-belge/scuvie-paul/">SCUVIE Paul</a></li>
+
+					
+						<li><a href="https://be-monumen.be/patrimoine-belge/jamar-edmond/">JAMAR Edmond</a></li>
+
+					
+						<li><a href="https://be-monumen.be/patrimoine-belge/delporte-charles/">DELPORTE Charles</a></li>
+
+					
+						<li><a href="https://be-monumen.be/patrimoine-belge/gillard-marceau/">GILLARD Marceau</a></li>
+
+					
+						<li><a href="https://be-monumen.be/patrimoine-belge/massart-robert/">MASSART Robert</a></li>
+
+					
+				
+				
+				</ul>
+
+				<div class="pad5"></div>
+
+				<a href="https://be-monumen.be/author/guyvandenbemden_be/" class="btn"><span>Plus récentes contributions de Guy Vanden Bemden &raquo;</span></a>
+
+			</div><!-- /singletab -->
+
+		</div><!-- /priceblock3 -->
+
+	</div><!-- /tabprice -->
+
+
+	
+	<div class="shadowblock_out widget_ad_search" id="ad_search-5"><div class="shadowblock"><h2 class="dotted">Recherche experte :</h2>
+	<div class="recordfromblog">
+
+		<form action="https://be-monumen.be/" method="get" id="searchform" class="form_search wse-search-widget">
+											<input name="s" type="text" id="s" class="editbox_search" placeholder="Rechercher par intitulé des fiches" title="Rechercher par intitulé des fiches"  value="Rechercher par intitulé des fiches" onfocus="if (this.value == 'Rechercher par intitulé des fiches') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Rechercher par intitulé des fiches';}"  />
+			<input name="stag" type="text" id="stag" class="editbox_search" placeholder="Rechercher par mots clés" title="Que recherchez-vous ?" value="Rechercher par mots clés" onfocus="if (this.value == 'Rechercher par mots clés') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Rechercher par mots clés';}"  />
+			<input name="cp_code_postal_en_france" type="text" id="cp_code_postal_en_france" class="editbox_search" placeholder="Rechercher par code postal Belgique" title="Rechercher par code postal Belgique" value="" onfocus="if (this.value == '') {this.value = '';}" onblur="if (this.value == '') {this.value = '';}"  />
+			<p><select  name='scat' id='scat' class='postform' >
+	<option value='0'>Toutes les catégories</option>
+	<option class="level-0" value="10">MONUMEN&nbsp;&nbsp;(2 144)</option>
+	<option class="level-1" value="428">&nbsp;&nbsp;&nbsp;Chauffage &#8211; cuisinières &#8211; cheminées&#8230;&nbsp;&nbsp;(0)</option>
+	<option class="level-1" value="426">&nbsp;&nbsp;&nbsp;Décors &#8211; balcons &#8211; grilles &#8211; portes &#8211; kiosques &#8211; métro&#8230;&nbsp;&nbsp;(208)</option>
+	<option class="level-1" value="424">&nbsp;&nbsp;&nbsp;Fontaines et vasques&nbsp;&nbsp;(122)</option>
+	<option class="level-1" value="430">&nbsp;&nbsp;&nbsp;Fonte de bâtiments &#8211; colonnes &#8211; tuyaux &#8211; eau pluviale&#8230;&nbsp;&nbsp;(42)</option>
+	<option class="level-1" value="431">&nbsp;&nbsp;&nbsp;Fonte funéraire&nbsp;&nbsp;(323)</option>
+	<option class="level-1" value="429">&nbsp;&nbsp;&nbsp;L&rsquo;équipement de la maison et du jardin&nbsp;&nbsp;(7)</option>
+	<option class="level-1" value="425">&nbsp;&nbsp;&nbsp;Lampadaire &#8211; torchères &#8211; candélabres&nbsp;&nbsp;(36)</option>
+	<option class="level-1" value="423">&nbsp;&nbsp;&nbsp;Monument aux morts et commémoratifs&nbsp;&nbsp;(349)</option>
+	<option class="level-1" value="419">&nbsp;&nbsp;&nbsp;Monuments aux grands hommes&nbsp;&nbsp;(438)</option>
+	<option class="level-1" value="422">&nbsp;&nbsp;&nbsp;Oeuvres religieuses&nbsp;&nbsp;(221)</option>
+	<option class="level-1" value="421">&nbsp;&nbsp;&nbsp;Sculptures animalières&nbsp;&nbsp;(147)</option>
+	<option class="level-1" value="420">&nbsp;&nbsp;&nbsp;Statues décoratives&nbsp;&nbsp;(523)</option>
+	<option class="level-1" value="427">&nbsp;&nbsp;&nbsp;Vases &#8211; coupes &#8211; urnes&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="8">NOMEN&nbsp;&nbsp;(456)</option>
+	<option class="level-1" value="13" selected="selected">&nbsp;&nbsp;&nbsp;Architecte&nbsp;&nbsp;(21)</option>
+	<option class="level-1" value="786">&nbsp;&nbsp;&nbsp;Éditeur&nbsp;&nbsp;(0)</option>
+	<option class="level-1" value="12">&nbsp;&nbsp;&nbsp;Fondeur&nbsp;&nbsp;(75)</option>
+	<option class="level-1" value="1655">&nbsp;&nbsp;&nbsp;Négociant&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="14">&nbsp;&nbsp;&nbsp;Paysagiste&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="11">&nbsp;&nbsp;&nbsp;Sculpteur&nbsp;&nbsp;(356)</option>
+	<option class="level-1" value="1651">&nbsp;&nbsp;&nbsp;Technicien&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="9">VOLUMEN&nbsp;&nbsp;(252)</option>
+</select>
+</p>
+
+			<p><select name="cp_country" id="cp_country" class="postform selectBox " style="display: none; "><option value="0" selected="selected">Sélectionner: Pays</option><option class="level-1" value="Belgique" >Belgique</option><option class="level-1" value="France" >France</option><option class="level-1" value="Argentine" >Argentine</option><option class="level-1" value="Brésil" >Brésil</option><option class="level-1" value="Canada" >Canada</option><option class="level-1" value="Chili" >Chili</option><option class="level-1" value="Italie" >Italie</option><option class="level-1" value="Mexique" >Mexique</option><option class="level-1" value="Paraguay" >Paraguay</option><option class="level-1" value="Uruguay" >Uruguay</option><option class="level-1" value="USA" >USA</option><option class="level-1" value="United Kingdom" >United Kingdom</option><option class="level-1" value="Afghanistan" >Afghanistan</option><option class="level-1" value="Albania" >Albania</option><option class="level-1" value="Algeria" >Algeria</option><option class="level-1" value="American Samoa" >American Samoa</option><option class="level-1" value="Angola" >Angola</option><option class="level-1" value="Anguilla" >Anguilla</option><option class="level-1" value="Antarctica" >Antarctica</option><option class="level-1" value="Antigua and Barbuda" >Antigua and Barbuda</option><option class="level-1" value="Armenia" >Armenia</option><option class="level-1" value="Aruba" >Aruba</option><option class="level-1" value="Ashmore and Cartier Island" >Ashmore and Cartier Island</option><option class="level-1" value="Australia" >Australia</option><option class="level-1" value="Austria" >Austria</option><option class="level-1" value="Azerbaijan" >Azerbaijan</option><option class="level-1" value="Bahamas" >Bahamas</option><option class="level-1" value="Bahrain" >Bahrain</option><option class="level-1" value="Bangladesh" >Bangladesh</option><option class="level-1" value="Barbados" >Barbados</option><option class="level-1" value="Belarus" >Belarus</option><option class="level-1" value="Belize" >Belize</option><option class="level-1" value="Benin" >Benin</option><option class="level-1" value="Bermuda" >Bermuda</option><option class="level-1" value="Bhutan" >Bhutan</option><option class="level-1" value="Bolivia" >Bolivia</option><option class="level-1" value="Bosnia and Herzegovina" >Bosnia and Herzegovina</option><option class="level-1" value="Botswana" >Botswana</option><option class="level-1" value="British Virgin Islands" >British Virgin Islands</option><option class="level-1" value="Brunei" >Brunei</option><option class="level-1" value="Bulgaria" >Bulgaria</option><option class="level-1" value="Burkina Faso" >Burkina Faso</option><option class="level-1" value="Burma" >Burma</option><option class="level-1" value="Burundi" >Burundi</option><option class="level-1" value="Cambodia" >Cambodia</option><option class="level-1" value="Cameroon" >Cameroon</option><option class="level-1" value="Cape Verde" >Cape Verde</option><option class="level-1" value="Cayman Islands" >Cayman Islands</option><option class="level-1" value="Central African Republic" >Central African Republic</option><option class="level-1" value="Chad" >Chad</option><option class="level-1" value="China" >China</option><option class="level-1" value="Christmas Island" >Christmas Island</option><option class="level-1" value="Colombia" >Colombia</option><option class="level-1" value="Comoros" >Comoros</option><option class="level-1" value="Congo" >Congo</option><option class="level-1" value="Cook Islands" >Cook Islands</option><option class="level-1" value="Costa Rica" >Costa Rica</option><option class="level-1" value="Cote dIvoire" >Cote dIvoire</option><option class="level-1" value="Croatia" >Croatia</option><option class="level-1" value="Cuba" >Cuba</option><option class="level-1" value="Cyprus" >Cyprus</option><option class="level-1" value="Czeck Republic" >Czeck Republic</option><option class="level-1" value="Denmark" >Denmark</option><option class="level-1" value="Djibouti" >Djibouti</option><option class="level-1" value="Dominica" >Dominica</option><option class="level-1" value="Dominican Republic" >Dominican Republic</option><option class="level-1" value="Ecuador" >Ecuador</option><option class="level-1" value="Egypt" >Egypt</option><option class="level-1" value="El Salvador" >El Salvador</option><option class="level-1" value="Equatorial Guinea" >Equatorial Guinea</option><option class="level-1" value="Eritrea" >Eritrea</option><option class="level-1" value="Estonia" >Estonia</option><option class="level-1" value="Ethiopia" >Ethiopia</option><option class="level-1" value="Europa Island" >Europa Island</option><option class="level-1" value="Falkland Islands" >Falkland Islands</option><option class="level-1" value="Faroe Islands" >Faroe Islands</option><option class="level-1" value="Fiji" >Fiji</option><option class="level-1" value="Finland" >Finland</option><option class="level-1" value="French Guiana" >French Guiana</option><option class="level-1" value="French Polynesia" >French Polynesia</option><option class="level-1" value="French Southern and Antarctic Lands" >French Southern and Antarctic Lands</option><option class="level-1" value="Gabon" >Gabon</option><option class="level-1" value="Gambia" >Gambia</option><option class="level-1" value="Gaza Strip" >Gaza Strip</option><option class="level-1" value="Georgia" >Georgia</option><option class="level-1" value="Germany" >Germany</option><option class="level-1" value="Ghana" >Ghana</option><option class="level-1" value="Gibraltar" >Gibraltar</option><option class="level-1" value="Glorioso Islands" >Glorioso Islands</option><option class="level-1" value="Greece" >Greece</option><option class="level-1" value="Greenland" >Greenland</option><option class="level-1" value="Grenada" >Grenada</option><option class="level-1" value="Guadeloupe" >Guadeloupe</option><option class="level-1" value="Guam" >Guam</option><option class="level-1" value="Guatemala" >Guatemala</option><option class="level-1" value="Guernsey" >Guernsey</option><option class="level-1" value="Guinea" >Guinea</option><option class="level-1" value="Guinea-Bissau" >Guinea-Bissau</option><option class="level-1" value="Guyana" >Guyana</option><option class="level-1" value="Haiti" >Haiti</option><option class="level-1" value="Heard Island and McDonald Islands" >Heard Island and McDonald Islands</option><option class="level-1" value="Honduras" >Honduras</option><option class="level-1" value="Hong Kong" >Hong Kong</option><option class="level-1" value="Howland Island" >Howland Island</option><option class="level-1" value="Hungary" >Hungary</option><option class="level-1" value="Iceland" >Iceland</option><option class="level-1" value="India" >India</option><option class="level-1" value="Indonesia" >Indonesia</option><option class="level-1" value="Iran" >Iran</option><option class="level-1" value="Iraq" >Iraq</option><option class="level-1" value="Ireland" >Ireland</option><option class="level-1" value="Ireland Northern" >Ireland Northern</option><option class="level-1" value="Isle of Man" >Isle of Man</option><option class="level-1" value="Israel" >Israel</option><option class="level-1" value="Jamaica" >Jamaica</option><option class="level-1" value="Jan Mayen" >Jan Mayen</option><option class="level-1" value="Japan" >Japan</option><option class="level-1" value="Jarvis Island" >Jarvis Island</option><option class="level-1" value="Jersey" >Jersey</option><option class="level-1" value="Johnston Atoll" >Johnston Atoll</option><option class="level-1" value="Jordan" >Jordan</option><option class="level-1" value="Juan de Nova Island" >Juan de Nova Island</option><option class="level-1" value="Kazakhstan" >Kazakhstan</option><option class="level-1" value="Kenya" >Kenya</option><option class="level-1" value="Kiribati" >Kiribati</option><option class="level-1" value="Korea North" >Korea North</option><option class="level-1" value="Korea South" >Korea South</option><option class="level-1" value="Kuwait" >Kuwait</option><option class="level-1" value="Kyrgyzstan" >Kyrgyzstan</option><option class="level-1" value="Laos" >Laos</option><option class="level-1" value="Latvia" >Latvia</option><option class="level-1" value="Lebanon" >Lebanon</option><option class="level-1" value="Lesotho" >Lesotho</option><option class="level-1" value="Liberia" >Liberia</option><option class="level-1" value="Libya" >Libya</option><option class="level-1" value="Liechtenstein" >Liechtenstein</option><option class="level-1" value="Lithuania" >Lithuania</option><option class="level-1" value="Luxembourg" >Luxembourg</option><option class="level-1" value="Macau" >Macau</option><option class="level-1" value="Macedonia" >Macedonia</option><option class="level-1" value="Madagascar" >Madagascar</option><option class="level-1" value="Malawi" >Malawi</option><option class="level-1" value="Malaysia" >Malaysia</option><option class="level-1" value="Maldives" >Maldives</option><option class="level-1" value="Mali" >Mali</option><option class="level-1" value="Malta" >Malta</option><option class="level-1" value="Marshall Islands" >Marshall Islands</option><option class="level-1" value="Martinique" >Martinique</option><option class="level-1" value="Mauritania" >Mauritania</option><option class="level-1" value="Mauritius" >Mauritius</option><option class="level-1" value="Mayotte" >Mayotte</option><option class="level-1" value="Micronesia" >Micronesia</option><option class="level-1" value="Midway Islands" >Midway Islands</option><option class="level-1" value="Moldova" >Moldova</option><option class="level-1" value="Monaco" >Monaco</option><option class="level-1" value="Mongolia" >Mongolia</option><option class="level-1" value="Montserrat" >Montserrat</option><option class="level-1" value="Morocco" >Morocco</option><option class="level-1" value="Mozambique" >Mozambique</option><option class="level-1" value="Namibia" >Namibia</option><option class="level-1" value="Nauru" >Nauru</option><option class="level-1" value="Nepal" >Nepal</option><option class="level-1" value="Netherlands" >Netherlands</option><option class="level-1" value="Netherlands Antilles" >Netherlands Antilles</option><option class="level-1" value="New Caledonia" >New Caledonia</option><option class="level-1" value="New Zealand" >New Zealand</option><option class="level-1" value="Nicaragua" >Nicaragua</option><option class="level-1" value="Niger" >Niger</option><option class="level-1" value="Nigeria" >Nigeria</option><option class="level-1" value="Niue" >Niue</option><option class="level-1" value="Norfolk Island" >Norfolk Island</option><option class="level-1" value="Northern Mariana Islands" >Northern Mariana Islands</option><option class="level-1" value="Norway" >Norway</option><option class="level-1" value="Oman" >Oman</option><option class="level-1" value="Pakistan" >Pakistan</option><option class="level-1" value="Palau" >Palau</option><option class="level-1" value="Panama" >Panama</option><option class="level-1" value="Papua New Guinea" >Papua New Guinea</option><option class="level-1" value="Peru" >Peru</option><option class="level-1" value="Philippines" >Philippines</option><option class="level-1" value="Pitcaim Islands" >Pitcaim Islands</option><option class="level-1" value="Poland" >Poland</option><option class="level-1" value="Portugal" >Portugal</option><option class="level-1" value="Puerto Rico" >Puerto Rico</option><option class="level-1" value="Qatar" >Qatar</option><option class="level-1" value="Reunion" >Reunion</option><option class="level-1" value="Romania" >Romania</option><option class="level-1" value="Russia" >Russia</option><option class="level-1" value="Rwanda" >Rwanda</option><option class="level-1" value="Saint Helena" >Saint Helena</option><option class="level-1" value="Saint Kitts and Nevis" >Saint Kitts and Nevis</option><option class="level-1" value="Saint Lucia" >Saint Lucia</option><option class="level-1" value="Saint Pierre and Miquelon" >Saint Pierre and Miquelon</option><option class="level-1" value="Saint Vincent and the Grenadines" >Saint Vincent and the Grenadines</option><option class="level-1" value="Samoa" >Samoa</option><option class="level-1" value="San Marino" >San Marino</option><option class="level-1" value="Sao Tome and Principe" >Sao Tome and Principe</option><option class="level-1" value="Saudi Arabia" >Saudi Arabia</option><option class="level-1" value="Scotland" >Scotland</option><option class="level-1" value="Senegal" >Senegal</option><option class="level-1" value="Seychelles" >Seychelles</option><option class="level-1" value="Sierra Leone" >Sierra Leone</option><option class="level-1" value="Singapore" >Singapore</option><option class="level-1" value="Slovakia" >Slovakia</option><option class="level-1" value="Slovenia" >Slovenia</option><option class="level-1" value="Solomon Islands" >Solomon Islands</option><option class="level-1" value="Somalia" >Somalia</option><option class="level-1" value="South Africa" >South Africa</option><option class="level-1" value="South Georgia" >South Georgia</option><option class="level-1" value="Spain" >Spain</option><option class="level-1" value="Spratly Islands" >Spratly Islands</option><option class="level-1" value="Sri Lanka" >Sri Lanka</option><option class="level-1" value="Sudan" >Sudan</option><option class="level-1" value="Suriname" >Suriname</option><option class="level-1" value="Svalbard" >Svalbard</option><option class="level-1" value="Swaziland" >Swaziland</option><option class="level-1" value="Sweden" >Sweden</option><option class="level-1" value="Switzerland" >Switzerland</option><option class="level-1" value="Syria" >Syria</option><option class="level-1" value="Taiwan" >Taiwan</option><option class="level-1" value="Tajikistan" >Tajikistan</option><option class="level-1" value="Tanzania" >Tanzania</option><option class="level-1" value="Thailand" >Thailand</option><option class="level-1" value="Tobago" >Tobago</option><option class="level-1" value="Toga" >Toga</option><option class="level-1" value="Tokelau" >Tokelau</option><option class="level-1" value="Tonga" >Tonga</option><option class="level-1" value="Trinidad" >Trinidad</option><option class="level-1" value="Tunisia" >Tunisia</option><option class="level-1" value="Turkey" >Turkey</option><option class="level-1" value="Turkmenistan" >Turkmenistan</option><option class="level-1" value="Tuvalu" >Tuvalu</option><option class="level-1" value="Uganda" >Uganda</option><option class="level-1" value="Ukraine" >Ukraine</option><option class="level-1" value="United Arab Emirates" >United Arab Emirates</option><option class="level-1" value="Uzbekistan" >Uzbekistan</option><option class="level-1" value="Vanuatu" >Vanuatu</option><option class="level-1" value="Vatican City" >Vatican City</option><option class="level-1" value="Venezuela" >Venezuela</option><option class="level-1" value="Vietnam" >Vietnam</option><option class="level-1" value="Virgin Islands" >Virgin Islands</option><option class="level-1" value="Wales" >Wales</option><option class="level-1" value="Wallis and Futuna" >Wallis and Futuna</option><option class="level-1" value="West Bank" >West Bank</option><option class="level-1" value="Western Sahara" >Western Sahara</option><option class="level-1" value="Yemen" >Yemen</option><option class="level-1" value="Yugoslavia" >Yugoslavia</option><option class="level-1" value="Zambia" >Zambia</option><option class="level-1" value="Zimbabwe" >Zimbabwe</option></select></p>
+			<p><select name="cp_rgion" id="cp_rgion" class="postform selectBox " style="display: none; "><option value="0" selected="selected">Sélectionner: Région</option><option class="level-1" value="Région flamande" >Région flamande</option><option class="level-1" value="Région wallonne" > Région wallonne</option><option class="level-1" value="Région de Bruxelles-Capitale" > Région de Bruxelles-Capitale</option></select></p>
+			<p><select name="cp_dpartement" id="cp_dpartement" class="postform selectBox " style="display: none; "><option value="0" selected="selected">Sélectionner: Province</option><option class="level-1" value="Anvers" >Anvers</option><option class="level-1" value="Brabant flamand" > Brabant flamand</option><option class="level-1" value="Flandre occidentale" >Flandre occidentale</option><option class="level-1" value="Flandre orientale" > Flandre orientale</option><option class="level-1" value="Limbourg" > Limbourg</option><option class="level-1" value="Brabant wallon" > Brabant wallon</option><option class="level-1" value="Hainaut" > Hainaut</option><option class="level-1" value="Liège" > Liège</option><option class="level-1" value="Luxembourg" > Luxembourg</option><option class="level-1" value="Namur" > Namur</option><option class="level-1" value="" ></option></select></p>
+			<p><select name="cp_continent" id="cp_continent" class="postform selectBox " style="display: none; "><option value="0" selected="selected">Sélectionner: Continent</option><option class="level-1" value="Afrique" >Afrique</option><option class="level-1" value="Amérique" >Amérique</option><option class="level-1" value="Asie" >Asie</option><option class="level-1" value="Europe" >Europe</option><option class="level-1" value="Océanie" >Océanie</option></select></p>
+			<p><select name="cp_matriau" id="cp_matriau" class="postform selectBox " style="display: none; "><option value="0" selected="selected">Sélectionner: Matériau</option><option class="level-1" value="Bronze" >Bronze</option><option class="level-1" value="Fonte" >Fonte</option><option class="level-1" value="Plomb" >Plomb</option><option class="level-1" value="Zinc" >Zinc</option><option class="level-1" value="Fer" >Fer</option><option class="level-1" value="Fer Blanc" >Fer Blanc</option><option class="level-1" value="Mixte" >Mixte</option><option class="level-1" value="Indéterminé" >Indéterminé</option><option class="level-1" value="fer forgé" >Fer forgé</option><option class="level-1" value="acier" >Acier</option><option class="level-1" value="cuivre" >Cuivre</option><option class="level-1" value="aluminium" >Aluminium</option><option class="level-1" value="laiton" >Laiton</option></select></p>
+			<p><select name="cp_nom_du_catalogue" id="cp_nom_du_catalogue" class="postform selectBox " style="display: none; "><option value="0" selected="selected">Sélectionner: Nom du catalogue</option><option class="level-1" value="CRULS_Album des Balcons galbés et droits" >CRULS_Album des Balcons galbés et droits</option><option class="level-1" value="CRULS_1908 Feuille volante 1" > CRULS_1908 Feuille volante 1</option><option class="level-1" value="Compagnie des Bronzes-Bronzes monumentaux" > Compagnie des Bronzes-Bronzes monumentaux</option><option class="level-1" value="Album de bâtiment-Fonderies N.PORTA" > Album de bâtiment-Fonderies N.PORTA</option><option class="level-1" value="NESTOR MARTIN NM_1900-1913" > NESTOR MARTIN NM_1900-1913</option><option class="level-1" value="NESTOR MARTIN NM_1911" >NESTOR MARTIN NM_1911</option><option class="level-1" value="" ></option></select></p>
+
+			<p><select name="cp_sculpteur_1" id="cp_sculpteur_1" class="postform selectBox " style="display: none; "><option value="0" selected="selected">Sélectionner: Sculpteur </option><option class="level-1" value="NON CONNU" >NON CONNU</option><option class="level-1" value="AERNAUTS Eugène" >AERNAUTS Eugène</option><option class="level-1" value="AGLANE Georges" > AGLANE Georges</option><option class="level-1" value="
+AKAROVA" >
+AKAROVA</option><option class="level-1" value="ANDRIEN Mady" >ANDRIEN Mady</option><option class="level-1" value="ANTIQUE" >ANTIQUE</option><option class="level-1" value="AUBROECK Karel" >AUBROECK Karel</option><option class="level-1" value="AUVRAY Charles" >AUVRAY Charles</option><option class="level-1" value="BAGGEN Alfons" >BAGGEN Alfons</option><option class="level-1" value="BARMARIN Élisabeth" >BARMARIN Élisabeth</option><option class="level-1" value="BARTHÉLEMY Julien" >BARTHÉLEMY Julien</option><option class="level-1" value="BARTIAUX André" >BARTIAUX André</option><option class="level-1" value="BASTIN Ernest" >BASTIN Ernest</option><option class="level-1" value="BATTAILLE César" >BATTAILLE César</option><option class="level-1" value="
+BAUDRENGHIEN Joseph" >
+BAUDRENGHIEN Joseph</option><option class="level-1" value="BELLETTI Silvana" >BELLETTI Silvana</option><option class="level-1" value="BERCHMANS Jules" >BERCHMANS Jules</option><option class="level-1" value="BERCHMANS Oscar" >BERCHMANS Oscar</option><option class="level-1" value="BERNAERTS Jules" >BERNAERTS Jules</option><option class="level-1" value="BERTRO" >BERTRO</option><option class="level-1" value="BIJA Auguste" >BIJA Auguste</option><option class="level-1" value="BISMAN Paule" >BISMAN Paule</option><option class="level-1" value="BLICKX Tony-Luc" >BLICKX Tony-Luc</option><option class="level-1" value="BLONDEL Alfred" >BLONDEL Alfred</option><option class="level-1" value="BOEDTS Paul" >BOEDTS Paul</option><option class="level-1" value="BONCQUET Henri" >BONCQUET Henri</option><option class="level-1" value="BONNETAIN Armand" >BONNETAIN Armand</option><option class="level-1" value="BOURÉ Antoine-Félix" >BOURÉ Antoine-Félix</option><option class="level-1" value="BRACKE Michael" >BRACKE Michael</option><option class="level-1" value="BRACKENIER E." >BRACKENIER E.</option><option class="level-1" value="BRAECKE Pierre Jean" >BRAECKE Pierre Jean</option><option class="level-1" value="BRICHART Albert" >BRICHART Albert</option><option class="level-1" value="BROUNS Jules" >BROUNS Jules</option><option class="level-1" value="BRUNIN Charles" >BRUNIN Charles</option><option class="level-1" value="BULCKE Émile" >BULCKE Émile</option><option class="level-1" value="BURY Juan" >BURY Juan</option><option class="level-1" value="CALLOIGNE Jean Robert" >CALLOIGNE Jean Robert</option><option class="level-1" value="CALMEYN Jan" >CALMEYN Jan</option><option class="level-1" value="CAMBIER Louis-Gustave" >CAMBIER Louis-Gustave</option><option class="level-1" value="CANNEEL Eugène" >CANNEEL Eugène</option><option class="level-1" value="CANNEEL Jean" >CANNEEL Jean</option><option class="level-1" value="CANTRÉ Jozef" >CANTRÉ Jozef</option><option class="level-1" value="CATTIER Armand" >CATTIER Armand</option><option class="level-1" value="CENTNER Berthe" >CENTNER Berthe</option><option class="level-1" value="CHARLIER Guillaume" >CHARLIER Guillaume</option><option class="level-1" value="CHOTTEAU Thérèse" >CHOTTEAU Thérèse</option><option class="level-1" value="CLAERHOUT May" >CLAERHOUT May</option><option class="level-1" value="CLIQUET René" >CLIQUET René</option><option class="level-1" value="CLUYSENAAR John" >CLUYSENAAR John</option><option class="level-1" value="COLINET Eduard" >COLINET Eduard</option><option class="level-1" value="COLLIN Albéric" >COLLIN Albéric</option><option class="level-1" value="COMEYN Polydor" >COMEYN Polydor</option><option class="level-1" value="COULON Jean" >COULON Jean</option><option class="level-1" value="COURROIX Jules" >COURROIX Jules</option><option class="level-1" value="COURTENS Alfred" >COURTENS Alfred</option><option class="level-1" value="CRACO Arthur" >CRACO Arthur</option><option class="level-1" value="CRICK Alfred" >CRICK Alfred</option><option class="level-1" value="CUYPERS Jean-Henri" >CUYPERS Jean-Henri</option><option class="level-1" value="D’HAVELOOSE Marnix" >D’HAVELOOSE Marnix</option><option class="level-1" value="DAOUST Alexandre" >DAOUST Alexandre</option><option class="level-1" value="DARDENNE Gatien" >DARDENNE Gatien</option><option class="level-1" value="DARVILLE Alphonse" >DARVILLE Alphonse</option><option class="level-1" value="DAUPHINOT Charles-Henri" >DAUPHINOT Charles-Henri</option><option class="level-1" value="DE BEUL Oscar" >DE BEUL Oscar</option><option class="level-1" value="DE BEULE Aloïs" >DE BEULE Aloïs</option><option class="level-1" value="DE BLICK Luc" >DE BLICK Luc</option><option class="level-1" value="DE BLOCK Chantal" >DE BLOCK Chantal</option><option class="level-1" value="DE BREMAECKER Eugène" >DE BREMAECKER Eugène</option><option class="level-1" value="DE CLERCQ Oscar" >DE CLERCQ Oscar</option><option class="level-1" value="DE COCK Jef" >DE COCK Jef</option><option class="level-1" value="DE CRAENE Adelin" >DE CRAENE Adelin</option><option class="level-1" value="DE CUYPER Floris" >DE CUYPER Floris</option><option class="level-1" value="DE DECKER Jos" >DE DECKER Jos</option><option class="level-1" value="DE GREEF Paul" >DE GREEF Paul</option><option class="level-1" value="DE GROOT Guillaume" >DE GROOT Guillaume</option><option class="level-1" value="DE HAEN Jacques-Philippe" >DE HAEN Jacques-Philippe</option><option class="level-1" value="DE HAEN Victor" >DE HAEN Victor</option><option class="level-1" value="DE KESEL Karel" >DE KESEL Karel</option><option class="level-1" value="DE KORTE Maurice" >DE KORTE Maurice</option><option class="level-1" value="DE LA HORIE André" >DE LA HORIE André</option><option class="level-1" value="DE LALAING Jacques" >DE LALAING Jacques</option><option class="level-1" value="DE LOOSE Jozef" >DE LOOSE Jozef</option><option class="level-1" value="DE MAERTELAERE Serafien" >DE MAERTELAERE Serafien</option><option class="level-1" value="DE MATHELIN Maurice" >DE MATHELIN Maurice</option><option class="level-1" value="DE PLYN Eugène" >DE PLYN Eugène</option><option class="level-1" value="DE RUDDER Isidore" >DE RUDDER Isidore</option><option class="level-1" value="DE SOETE Pierre" >DE SOETE Pierre</option><option class="level-1" value="DE TOMBAY Alphonse" >DE TOMBAY Alphonse</option><option class="level-1" value="DE VALERIOLA Edmond" >DE VALERIOLA Edmond</option><option class="level-1" value="DE VIGNE Paul" >DE VIGNE Paul</option><option class="level-1" value="DE VIGNE–QUYO Pierre" >DE VIGNE–QUYO Pierre</option><option class="level-1" value="DE VREE Frans" >DE VREE Frans</option><option class="level-1" value="DE VRIENDT Jan Frans" >DE VRIENDT Jan Frans</option><option class="level-1" value="DE WEVER Auguste" >DE WEVER Auguste</option><option class="level-1" value="DE WINDT Gilberte" >DE WINDT Gilberte</option><option class="level-1" value="DE WINNE René" >DE WINNE René</option><option class="level-1" value="DE WINTER Ronald" >DE WINTER Ronald</option><option class="level-1" value="DE WISPELAERE Alphonse" >DE WISPELAERE Alphonse</option><option class="level-1" value="DEBONNAIRES Fernand" >DEBONNAIRES Fernand</option><option class="level-1" value="DECKERS Edward" >DECKERS Edward</option><option class="level-1" value="DEL COUR Jean" >DEL COUR Jean</option><option class="level-1" value="DELNEST Robert" >DELNEST Robert</option><option class="level-1" value="DELPORTE Charles" >DELPORTE Charles</option><option class="level-1" value="DELVOYE Wim" >DELVOYE Wim</option><option class="level-1" value="
+DEMANET Victor" >
+DEMANET Victor</option><option class="level-1" value="DENIS François-Joseph" >DENIS François-Joseph</option><option class="level-1" value="DEROUBAIX Fortuné" >DEROUBAIX Fortuné</option><option class="level-1" value="DERRE Hildebert" >DERRE Hildebert</option><option class="level-1" value="DESENFANS Constant Albert" >DESENFANS Constant Albert</option><option class="level-1" value="DESMARÉ Mathieu" >DESMARÉ Mathieu</option><option class="level-1" value="DESMARETS Jan" >DESMARETS Jan</option><option class="level-1" value="DEVILLEZ Louis Henri" >DEVILLEZ Louis Henri</option><option class="level-1" value="DEVOS Florent" >DEVOS Florent</option><option class="level-1" value="DEVOS Pierre" >DEVOS Pierre</option><option class="level-1" value="DEVREESE Godefroid" >DEVREESE Godefroid</option><option class="level-1" value="D'HAVELOOSE Marnix" >D'HAVELOOSE Marnix</option><option class="level-1" value="DIEUSAERT Jan" >DIEUSAERT Jan</option><option class="level-1" value="DILLENS Julien" >DILLENS Julien</option><option class="level-1" value="DONNAY Paul" >DONNAY Paul</option><option class="level-1" value="DU BOIS Paul" >DU BOIS Paul</option><option class="level-1" value="DUBOIS Jacques" >DUBOIS Jacques</option><option class="level-1" value="DUJARDIN André" >DUJARDIN André</option><option class="level-1" value="DUPAGNE Arthur" >DUPAGNE Arthur</option><option class="level-1" value="DUPON Arthur" >DUPON Arthur</option><option class="level-1" value="DUPON Josué" >DUPON Josué</option><option class="level-1" value="DUPONT Louis" >DUPONT Louis</option><option class="level-1" value="DUPUIS Louis" >DUPUIS Louis</option><option class="level-1" value="
+DUQUESNOY l’Ancien Jérôme" >
+DUQUESNOY l’Ancien Jérôme</option><option class="level-1" value="DURIEZ Irénée" >DURIEZ Irénée</option><option class="level-1" value="DUTRIEUX Aimable" >DUTRIEUX Aimable</option><option class="level-1" value="ELSTRØM Harry" >ELSTRØM Harry</option><option class="level-1" value="EYCKERMANS Lode" >EYCKERMANS Lode</option><option class="level-1" value="EYKENS Myriam" >EYKENS Myriam</option><option class="level-1" value="FABRE Jan" >FABRE Jan</option><option class="level-1" value="FABRY Robert" >FABRY Robert</option><option class="level-1" value="FALISE Edmond" >FALISE Edmond</option><option class="level-1" value="FASSIN Adolphe" >FASSIN Adolphe</option><option class="level-1" value="FIERS Édouard" >FIERS Édouard</option><option class="level-1" value="FLORIZOONE Pieter" >FLORIZOONE Pieter</option><option class="level-1" value="FOLON Jean-Michel" >FOLON Jean-Michel</option><option class="level-1" value="FÖRSTER Ursula" >FÖRSTER Ursula</option><option class="level-1" value="FRAIKIN Charles-Auguste" >FRAIKIN Charles-Auguste</option><option class="level-1" value="FRANTZEN Tom" >FRANTZEN Tom</option><option class="level-1" value="GASPAR Jean" >GASPAR Jean</option><option class="level-1" value="GEEFS Charles" >GEEFS Charles</option><option class="level-1" value="GEEFS Georges" >GEEFS Georges</option><option class="level-1" value="GEEFS Guillaume" >GEEFS Guillaume</option><option class="level-1" value="GEEFS Jean" >GEEFS Jean</option><option class="level-1" value="GEEFS Joseph" >GEEFS Joseph</option><option class="level-1" value="GELEYN Joseph Louis" >GELEYN Joseph Louis</option><option class="level-1" value="GÉRARDY Louis" >GÉRARDY Louis</option><option class="level-1" value="GERRITS Bruno" >GERRITS Bruno</option><option class="level-1" value="GERRITS Jan Matheus" >GERRITS Jan Matheus</option><option class="level-1" value="GHYSELS Jean-Pierre" >GHYSELS Jean-Pierre</option><option class="level-1" value="GILLARD Marceau" >GILLARD Marceau</option><option class="level-1" value="GOBERT Léon" >GOBERT Léon</option><option class="level-1" value="GODARD Jean" >GODARD Jean</option><option class="level-1" value="GODFROID Raoul" >GODFROID Raoul</option><option class="level-1" value="GOOSSENS Simon" >GOOSSENS Simon</option><option class="level-1" value="GRANDMOULIN Léandre" >GRANDMOULIN Léandre</option><option class="level-1" value="GRARD George" >GRARD George</option><option class="level-1" value="GUAISNET Auguste" >GUAISNET Auguste</option><option class="level-1" value="GUEURY Guillaume" >GUEURY Guillaume</option><option class="level-1" value="GUYAUX Martin" >GUYAUX Martin</option><option class="level-1" value="GYSEN Fernand" >GYSEN Fernand</option><option class="level-1" value="HALKIN Jules" >HALKIN Jules</option><option class="level-1" value="HAMBRESIN Albert" >HAMBRESIN Albert</option><option class="level-1" value="HANREZ Paul" >HANREZ Paul</option><option class="level-1" value="HARVENT René" >HARVENT René</option><option class="level-1" value="HARZÉ Léopold" >HARZÉ Léopold</option><option class="level-1" value="HERAIN Jean" >HERAIN Jean</option><option class="level-1" value="HERBAYS Jules" >HERBAYS Jules</option><option class="level-1" value="HEUSERS Herman" >HEUSERS Herman</option><option class="level-1" value="HEYNDRICKX Werner" >HEYNDRICKX Werner</option><option class="level-1" value="HEUZE Fernand" >HEUZE Fernand</option><option class="level-1" value="HOLEMANS Henri" >HOLEMANS Henri</option><option class="level-1" value="HOUTSTONT Georges" >HOUTSTONT Georges</option><option class="level-1" value="HOYAUX Émile-Joseph" >HOYAUX Émile-Joseph</option><option class="level-1" value="HUBIN Désiré" >HUBIN Désiré</option><option class="level-1" value="HUYGELEN Frans" >HUYGELEN Frans</option><option class="level-1" value="HUYS Modest" >HUYS Modest</option><option class="level-1" value="IANCHELEVICI Idel" >IANCHELEVICI Idel</option><option class="level-1" value="JACOBS Gustave" >JACOBS Gustave</option><option class="level-1" value="JANSEGERS Maurice" >JANSEGERS Maurice</option><option class="level-1" value="JAQUET Jacques" >JAQUET Jacques</option><option class="level-1" value="JAQUET Jean-Joseph" >JAQUET Jean-Joseph</option><option class="level-1" value="JÉHOTTE Louis" >JÉHOTTE Louis</option><option class="level-1" value="JESPERS Émile" >JESPERS Émile</option><option class="level-1" value="JESPERS Oscar" >JESPERS Oscar</option><option class="level-1" value="JOCHEMS Frans" >JOCHEMS Frans</option><option class="level-1" value="JORIS Frans" >JORIS Frans</option><option class="level-1" value="JORIS Paul" >JORIS Paul</option><option class="level-1" value="JORISSEN Antoine" >JORISSEN Antoine</option><option class="level-1" value="JOTTHIER Louis" >JOTTHIER Louis</option><option class="level-1" value="JOURDAIN Jules" >JOURDAIN Jules</option><option class="level-1" value="JULIEN René" >JULIEN René</option><option class="level-1" value="JUNGERS Annie" >JUNGERS Annie</option><option class="level-1" value="KEUSTERMANS Jan Alfons" >KEUSTERMANS Jan Alfons</option><option class="level-1" value="KIRKPATRICK Claire" >KIRKPATRICK Claire</option><option class="level-1" value="KREITZ Willy" >KREITZ Willy</option><option class="level-1" value="LABORNE Édouard" >LABORNE Édouard</option><option class="level-1" value="LAGAE Jules" >LAGAE Jules</option><option class="level-1" value="LAMBEAUX Jef" >LAMBEAUX Jef</option><option class="level-1" value="LAUMANS Jean-André" >LAUMANS Jean-André</option><option class="level-1" value="LAURENT Stella" >LAURENT Stella</option><option class="level-1" value="LE ROY Hippolyte" >LE ROY Hippolyte</option><option class="level-1" value="LECROART Jean" >LECROART Jean</option><option class="level-1" value="LEDEL Dolf" >LEDEL Dolf</option><option class="level-1" value="LEDENE Brecht" >LEDENE Brecht</option><option class="level-1" value="LEFEVER Edmond" >LEFEVER Edmond</option><option class="level-1" value="LEMMERS Georges Ferdinand" >LEMMERS Georges Ferdinand</option><option class="level-1" value="LENAERTS Henri" >LENAERTS Henri</option><option class="level-1" value="LENERTZ Roger" >LENERTZ Roger</option><option class="level-1" value="LEPLAE Charles" >LEPLAE Charles</option><option class="level-1" value="
+LEROY Alfred" >
+LEROY Alfred</option><option class="level-1" value="LEROY Christian" >LEROY Christian</option><option class="level-1" value="LEYS Achiel Jr" >LEYS Achiel Jr</option><option class="level-1" value="LORRAIN Jenny" >LORRAIN Jenny</option><option class="level-1" value="MACKEN Marc" >MACKEN Marc</option><option class="level-1" value="MAILLEUX Raf" >MAILLEUX Raf</option><option class="level-1" value="MARCHANT Edouard François" >MARCHANT Edouard François</option><option class="level-1" value="MARIN Jacques" >MARIN Jacques</option><option class="level-1" value="MARTENS Jean-Baptiste" > MARTENS Jean-Baptiste</option><option class="level-1" value="MASCRÉ Louis" >MASCRÉ Louis</option><option class="level-1" value="MASSART Robert" >MASSART Robert</option><option class="level-1" value="MAST Louis Jean" >MAST Louis Jean</option><option class="level-1" value="MATHOT Jean-Marie" >MATHOT Jean-Marie</option><option class="level-1" value="MATTON Arsène" >MATTON Arsène</option><option class="level-1" value="MAUQUOY Alphonse" >MAUQUOY Alphonse</option><option class="level-1" value="MÉLOT Égide" >MÉLOT Égide</option><option class="level-1" value="MEUNIER Constantin" >MEUNIER Constantin</option><option class="level-1" value="MICHIELS August" > MICHIELS August</option><option class="level-1" value="MICHIELS Jan" >MICHIELS Jan</option><option class="level-1" value="MIGNON Léon" >MIGNON Léon</option><option class="level-1" value="MINNE George" >MINNE George</option><option class="level-1" value="MOL Monique" >MOL Monique</option><option class="level-1" value="MONTEYNE Roland" >MONTEYNE Roland</option><option class="level-1" value="MOONEN Gerard" >MOONEN Gerard</option><option class="level-1" value="MOREAU Joseph" >MOREAU Joseph</option><option class="level-1" value="NAMUR Emile" >NAMUR Emile</option><option class="level-1" value="NEMON Oscar" >NEMON Oscar</option><option class="level-1" value="NEUJEAN Nat" >NEUJEAN Nat</option><option class="level-1" value="NEUWELS Michel Alexandre dit MICHAL" >NEUWELS Michel Alexandre dit MICHAL</option><option class="level-1" value="NICOLET Gaston" >NICOLET Gaston</option><option class="level-1" value="NORGA Pascal" >NORGA Pascal</option><option class="level-1" value="NORGA Sylvain" >NORGA Sylvain</option><option class="level-1" value="PARMENTIER Xavier" >PARMENTIER Xavier</option><option class="level-1" value="PATRIS Ernest" >PATRIS Ernest</option><option class="level-1" value="
+PAULUS Eugène" >
+PAULUS Eugène</option><option class="level-1" value="PETIT Georges" >PETIT Georges</option><option class="level-1" value="PÉTRY Pierre" >PÉTRY Pierre</option><option class="level-1" value="PICKERY Henri" >PICKERY Henri</option><option class="level-1" value="PIETTE Olivier" >PIETTE Olivier</option><option class="level-1" value="PINTENS Roger Jr" >PINTENS Roger Jr</option><option class="level-1" value="PIOT Charles" >PIOT Charles</option><option class="level-1" value="POLLARD Joseph" >POLLARD Joseph</option><option class="level-1" value="POOT Rik" >POOT Rik</option><option class="level-1" value="POURBAIX Christophe" >POURBAIX Christophe</option><option class="level-1" value="PUTTEMANS Auguste" >PUTTEMANS Auguste</option><option class="level-1" value="PUYT Arthur" >PUYT Arthur</option><option class="level-1" value="RAHIR Claude" >RAHIR Claude</option><option class="level-1" value="RAU Marcel" >RAU Marcel</option><option class="level-1" value="
+RENARD" >
+RENARD</option><option class="level-1" value="RENODEYN Julien" >RENODEYN Julien</option><option class="level-1" value="RENS Roland" >RENS Roland</option><option class="level-1" value="ROIG Jean" >ROIG Jean</option><option class="level-1" value="ROMBAUX Égide" >ROMBAUX Égide</option><option class="level-1" value="ROTSAERT Octave" >ROTSAERT Octave</option><option class="level-1" value="ROULIN Félix" >ROULIN Félix</option><option class="level-1" value="ROUSSEAU Victor" > ROUSSEAU Victor</option><option class="level-1" value="RULOT Joseph" >RULOT Joseph</option><option class="level-1" value="RUXTHIEL Henri Joseph" >RUXTHIEL Henri Joseph</option><option class="level-1" value="RUYSSEN Honoré" >RUYSSEN Honoré</option><option class="level-1" value="SAÏBAS" >SAÏBAS</option><option class="level-1" value="SALLE Adelin" >SALLE Adelin</option><option class="level-1" value="SALU Ernest" >SALU Ernest</option><option class="level-1" value="SAMAIN Louis" >SAMAIN Louis</option><option class="level-1" value="SAMUEL Charles" >SAMUEL Charles</option><option class="level-1" value="SANSEN René" >SANSEN René</option><option class="level-1" value="SCAILLON Émile" >SCAILLON Émile</option><option class="level-1" value="SCHOOFS Robert" >SCHOOFS Robert</option><option class="level-1" value="SCHROEVENS César" >SCHROEVENS César</option><option class="level-1" value="SCHUERMANS Karel" >SCHUERMANS Karel</option><option class="level-1" value="SERRUYS Yvonne" >SERRUYS Yvonne</option><option class="level-1" value="SIMONIS Eugène" >SIMONIS Eugène</option><option class="level-1" value="SINIA Oscar" >SINIA Oscar</option><option class="level-1" value="SLOODTS Jean-Baptiste" >SLOODTS Jean-Baptiste</option><option class="level-1" value="SMITS René" >SMITS René</option><option class="level-1" value="STOFFYN Paul" >STOFFYN Paul</option><option class="level-1" value="SOUDEYNS Theo" >SOUDEYNS Theo</option><option class="level-1" value="STRIJMANS Alfons" >STRIJMANS Alfons</option><option class="level-1" value="STURBELLE Camille-Marc" >STURBELLE Camille-Marc</option><option class="level-1" value="TALMAR Jacques" >TALMAR Jacques</option><option class="level-1" value="TEUGELS Mariette" >TEUGELS Mariette</option><option class="level-1" value="THEUNIS Pierre" >THEUNIS Pierre</option><option class="level-1" value="THIÉBAUT Édouard" >THIÉBAUT Édouard</option><option class="level-1" value="VAN AERDE Herman" >VAN AERDE Herman</option><option class="level-1" value="VAN ALBADA Henri" >VAN ALBADA Henri</option><option class="level-1" value="VAN BEURDEN Alphonse" >VAN BEURDEN Alphonse</option><option class="level-1" value="VAN BIESBROECK Jules Pierre" >VAN BIESBROECK Jules Pierre</option><option class="level-1" value="VAN BIESBROECK Louis Pierre" >VAN BIESBROECK Louis Pierre</option><option class="level-1" value="VAN BOECKEL Louis" >VAN BOECKEL Louis</option><option class="level-1" value="VAN CUTSEM Louis" >VAN CUTSEM Louis</option><option class="level-1" value="VAN DE KERCKHOVE Paul" >VAN DE KERCKHOVE Paul</option><option class="level-1" value="VAN DE WINCKEL Émile" >VAN DE WINCKEL Émile</option><option class="level-1" value="VAN DEN BOSSCHE Domien" >VAN DEN BOSSCHE Domien</option><option class="level-1" value="VAN DEN BRANDE Jan" >VAN DEN BRANDE Jan</option><option class="level-1" value="VAN DEN KERCKHOVE Antoine" >VAN DEN KERCKHOVE Antoine</option><option class="level-1" value="VAN DEN KERCKHOVE Augustin" >VAN DEN KERCKHOVE Augustin</option><option class="level-1" value="VAN DEN KERCKHOVE Godefroid" >VAN DEN KERCKHOVE Godefroid</option><option class="level-1" value="VAN DEN KERCKHOVE Jean-François" >VAN DEN KERCKHOVE Jean-François</option><option class="level-1" value="VAN DEN KERCKHOVE Louis" >VAN DEN KERCKHOVE Louis</option><option class="level-1" value="VAN DEN MEERSCHE Gustaaf" >VAN DEN MEERSCHE Gustaaf</option><option class="level-1" value="VAN DER STAPPEN Charles" >VAN DER STAPPEN Charles</option><option class="level-1" value="VAN DER STOCK Jules" >VAN DER STOCK Jules</option><option class="level-1" value="VAN DER VEKENS Hugo" >VAN DER VEKENS Hugo</option><option class="level-1" value="VAN DIONANT Carlos" >VAN DIONANT Carlos</option><option class="level-1" value="VAN ESBROECK Léopold" >VAN ESBROECK Léopold</option><option class="level-1" value="VAN GEEL Jean-Louis" >VAN GEEL Jean-Louis</option><option class="level-1" value="VAN HAMME Joseph" >VAN HAMME Joseph</option><option class="level-1" value="VAN HAVERMAET Frans" >VAN HAVERMAET Frans</option><option class="level-1" value="VAN HEFFEN Jean-Baptiste" >VAN HEFFEN Jean-Baptiste</option><option class="level-1" value="VANHOUTTE Josyane" >VANHOUTTE Josyane</option><option class="level-1" value="VAN HOVE Gustave" >VAN HOVE Gustave</option><option class="level-1" value="VAN NAZARETH Herman" >VAN NAZARETH Herman</option><option class="level-1" value="VAN NESTE Jean" >VAN NESTE Jean</option><option class="level-1" value="VAN OEMBERG Charles" >VAN OEMBERG Charles</option><option class="level-1" value="VAN PARYS Antoon" >VAN PARYS Antoon</option><option class="level-1" value="VAN PERCK Pierre Henri" >VAN PERCK Pierre Henri</option><option class="level-1" value="VAN RANST Frans" >VAN RANST Frans</option><option class="level-1" value="VAN RASBOURGH Antoine-Joseph" >VAN RASBOURGH Antoine-Joseph</option><option class="level-1" value="VAN RUYSEVELT Luc" >VAN RUYSEVELT Luc</option><option class="level-1" value="VAN UYTVANCK Joseph" >VAN UYTVANCK Joseph</option><option class="level-1" value="VANDE CAPELLE Camille" >VANDE CAPELLE Camille</option><option class="level-1" value="VANDERPLANCKE Fernand" >VANDERPLANCKE Fernand</option><option class="level-1" value="VANDEVOORDE Georges" >VANDEVOORDE Georges</option><option class="level-1" value="VERBANCK Geo" >VERBANCK Geo</option><option class="level-1" value="VEREYCKEN Édouard" >VEREYCKEN Édouard</option><option class="level-1" value="
+VERMEYLEN Frantz" >
+VERMEYLEN Frantz</option><option class="level-1" value="VINÇOTTE Thomas" >VINÇOTTE Thomas</option><option class="level-1" value="VINDEVOGEL Geo" >VINDEVOGEL Geo</option><option class="level-1" value="VITS Jules" >VITS Jules</option><option class="level-1" value="VIVROUX Clément" >VIVROUX Clément</option><option class="level-1" value="VOETS Victor" >VOETS Victor</option><option class="level-1" value="VOGELAAR Léon" >VOGELAAR Léon</option><option class="level-1" value="
+VOLDERS Anne-Marie" >
+VOLDERS Anne-Marie</option><option class="level-1" value="VUYLSTEKE Jul" > VUYLSTEKE Jul</option><option class="level-1" value="WAGELMANS Louis-Pierre" >WAGELMANS Louis-Pierre</option><option class="level-1" value="WALGRAEVE Marijke" >WALGRAEVE Marijke</option><option class="level-1" value="WANSART Adolphe" >WANSART Adolphe</option><option class="level-1" value="WANTE Benoît-François" >WANTE Benoît-François</option><option class="level-1" value="WASTERLAIN Georges" >WASTERLAIN Georges</option><option class="level-1" value="WAUCQUEZ Maurice" >WAUCQUEZ Maurice</option><option class="level-1" value="WERSON Jules" > WERSON Jules</option><option class="level-1" value="WEYGERS Désiré" >WEYGERS Désiré</option><option class="level-1" value="WEYNS Jules" >WEYNS Jules</option><option class="level-1" value="WIJNANTS Ernest" >WIJNANTS Ernest</option><option class="level-1" value="WIJNANTS Ferdinand (Nand)" >WIJNANTS Ferdinand (Nand)</option><option class="level-1" value="WILLEMS Joseph" >WILLEMS Joseph</option><option class="level-1" value="WILLEQUET André" >WILLEQUET André</option><option class="level-1" value="WISSAERT Paul" >WISSAERT Paul</option><option class="level-1" value="WITDOUCK Maurits" >WITDOUCK Maurits</option><option class="level-1" value="WITTERWULGHE Joseph" >WITTERWULGHE Joseph</option><option class="level-1" value="WOLFERS Marcel" >WOLFERS Marcel</option><option class="level-1" value="WOUTERS Rik" >WOUTERS Rik</option><option class="level-1" value="ZOMERS Joseph" >ZOMERS Joseph</option><option class="level-1" value="" ></option></select></p>
+			<p><select name="cp_fondeur" id="cp_fondeur" class="postform selectBox " style="display: none; "><option value="0" selected="selected">Sélectionner: Fondeur </option><option class="level-1" value="ALBERS" >ALBERS</option><option class="level-1" value="ALKER Charles" >ALKER Charles</option><option class="level-1" value="ART CASTING" >ART CASTING</option><option class="level-1" value="ATELIER LAURENT LABAT" >ATELIER LAURENT LABAT</option><option class="level-1" value="Ateliers de Machines d’Hellemmes" >Ateliers de Machines d’Hellemmes</option><option class="level-1" value="BATARDY" >BATARDY</option><option class="level-1" value="
+BEDUWÉ" >
+BEDUWÉ</option><option class="level-1" value="BUCKENS Jean-Gérard" >BUCKENS Jean-Gérard</option><option class="level-1" value="Cie Gle des CONDUITES D’EAU" > Cie Gle des CONDUITES D’EAU</option><option class="level-1" value="CHAPEL & PLUNTZ" >CHAPEL & PLUNTZ</option><option class="level-1" value="CLABOTS" >CLABOTS</option><option class="level-1" value="COGNIOUL" >COGNIOUL</option><option class="level-1" value="
+COMPAGNIE DES BRONZES" >
+COMPAGNIE DES BRONZES</option><option class="level-1" value="CRULS FRÈRES" >CRULS FRÈRES</option><option class="level-1" value="DAVER" >DAVER</option><option class="level-1" value="DAVIN" >DAVIN</option><option class="level-1" value="DE BLICK Luc" >DE BLICK Luc</option><option class="level-1" value="DE CLERCQ–GINSBERG" >DE CLERCQ–GINSBERG</option><option class="level-1" value="DEBELLE" >DEBELLE</option><option class="level-1" value="DEBRAZ" >DEBRAZ</option><option class="level-1" value="DE GROEVE" >DE GROEVE</option><option class="level-1" value="DEHIN" >DEHIN</option><option class="level-1" value="DELHOVE Jules" >DELHOVE Jules</option><option class="level-1" value="DEMOULIN" >DEMOULIN</option><option class="level-1" value="
+DEWANDRE" >
+DEWANDRE</option><option class="level-1" value="Fonderie de cloches CAUSARD" >Fonderie de cloches CAUSARD</option><option class="level-1" value="FONDERIE DE COENE" >FONDERIE DE COENE</option><option class="level-1" value="FONDERIE NATIONALE DES BRONZES" >FONDERIE NATIONALE DES BRONZES</option><option class="level-1" value="FONDERIE RODRIQUE" >FONDERIE RODRIQUE</option><option class="level-1" value="FONDERIE ROYALE DE CANONS - LIÈGE" >FONDERIE ROYALE DE CANONS - LIÈGE</option><option class="level-1" value="FONDERIES DEMOL" >FONDERIES DEMOL</option><option class="level-1" value="FONDERIES M. LEGRAND-HERSTAL" >FONDERIES M. LEGRAND-HERSTAL</option><option class="level-1" value="FORGES D'AISEAU (Société des)" >FORGES D'AISEAU (Société des)</option><option class="level-1" value="FRANCART" >FRANCART</option><option class="level-1" value="FRANKEN & LEFÈVRE" >FRANKEN & LEFÈVRE</option><option class="level-1" value="GREFFIN" >GREFFIN</option><option class="level-1" value="HARZÉ Luc" >HARZÉ Luc</option><option class="level-1" value="HUPP Georges" >HUPP Georges</option><option class="level-1" value="LA COUVINOISE" >LA COUVINOISE</option><option class="level-1" value="LECHERF" >LECHERF</option><option class="level-1" value="LEMPEREUR ET BERNARD" >LEMPEREUR ET BERNARD</option><option class="level-1" value="LESETRE" >LESETRE</option><option class="level-1" value="J. LÉVÊQUE & CIE" >J. LÉVÊQUE & CIE</option><option class="level-1" value="LHOEST José" >LHOEST José</option><option class="level-1" value="LUPPENS" >LUPPENS</option><option class="level-1" value="MILET" >MILET</option><option class="level-1" value="MINNE FRERES" >MINNE FRERES</option><option class="level-1" value="MOUSSIAUX" >MOUSSIAUX</option><option class="level-1" value="NESTOR MARTIN" >NESTOR MARTIN</option><option class="level-1" value="NORGA GIETERIJ" >NORGA GIETERIJ</option><option class="level-1" value="ORBAN" >ORBAN</option><option class="level-1" value="PETERMANN" >PETERMANN</option><option class="level-1" value="PIERA" >PIERA</option><option class="level-1" value="PORTA
+" >PORTA
+</option><option class="level-1" value="PYRALLIS" >PYRALLIS</option><option class="level-1" value="RÉQUILÉ" >RÉQUILÉ</option><option class="level-1" value="REY Frères" >REY Frères</option><option class="level-1" value="SCHELLYNCK-FERBUYT" >SCHELLYNCK-FERBUYT</option><option class="level-1" value="SCUVIE Paul" >SCUVIE Paul</option><option class="level-1" value="SIMON Frères" >SIMON Frères</option><option class="level-1" value="STEVENS Y." >STEVENS Y.</option><option class="level-1" value="STEYAERT Karel" >STEYAERT Karel</option><option class="level-1" value="TANTÔT FRÈRES" >TANTÔT FRÈRES</option><option class="level-1" value="TROSSAERT" >TROSSAERT</option><option class="level-1" value="VAN AERSCHODT (Bruxelles)" >VAN AERSCHODT (Bruxelles)</option><option class="level-1" value="VAN AERSCHOT (Herentals)" >VAN AERSCHOT (Herentals)</option><option class="level-1" value="VAN GEERT" >VAN GEERT</option><option class="level-1" value="VAN RANSBEECK Bert" >VAN RANSBEECK Bert</option><option class="level-1" value="
+VANDENBRANDE" >
+VANDENBRANDE</option><option class="level-1" value="VANDEVOORDE Arthur" >VANDEVOORDE Arthur</option><option class="level-1" value="VERBEYST" >VERBEYST</option><option class="level-1" value="
+VERHELPEN P." >
+VERHELPEN P.</option><option class="level-1" value="VINDEVOGEL" >VINDEVOGEL</option><option class="level-1" value="VIROUX-MICHOTTE" >VIROUX-MICHOTTE</option><option class="level-1" value="WAUCQUEZ Maurice" >WAUCQUEZ Maurice</option><option class="level-1" value="WAUTERS-KOECKX" >WAUTERS-KOECKX</option><option class="level-1" value="" ></option></select></p>
+
+			<input type="hidden" value="yes" name="refine_search">
+			<div class="pad5"></div>
+			<input type="submit" class="btn_orange" value="Recherche" title="Recherche" id="go" name="sa" />
+			<!-- <input type="reset" class="btn_orange" value="Re-initialiser"> -->
+		</form>
+
+	</div><!-- /recordfromblog -->        
+
+</div><!-- /shadowblock --></div><!-- /shadowblock_out --><div class="shadowblock_out widget_tag_cloud" id="ad_tag_cloud-2"><div class="shadowblock"><h2 class="dotted">Recherche par mots clés :</h2><div><a href="https://be-monumen.be/mots-cles/anvers/" class="tag-cloud-link tag-link-15015 tag-link-position-1" style="font-size: 8.875pt;" aria-label="Anvers (121 éléments)">Anvers</a>
+<a href="https://be-monumen.be/mots-cles/brabant-flamand/" class="tag-cloud-link tag-link-14791 tag-link-position-2" style="font-size: 10pt;" aria-label="Brabant flamand (152 éléments)">Brabant flamand</a>
+<a href="https://be-monumen.be/mots-cles/bronze/" class="tag-cloud-link tag-link-14650 tag-link-position-3" style="font-size: 22pt;" aria-label="bronze (1 381 éléments)">bronze</a>
+<a href="https://be-monumen.be/mots-cles/bruxelles/" class="tag-cloud-link tag-link-14646 tag-link-position-4" style="font-size: 12.25pt;" aria-label="Bruxelles (226 éléments)">Bruxelles</a>
+<a href="https://be-monumen.be/mots-cles/bruxelles-capitale/" class="tag-cloud-link tag-link-14812 tag-link-position-5" style="font-size: 16.625pt;" aria-label="Bruxelles-Capitale (514 éléments)">Bruxelles-Capitale</a>
+<a href="https://be-monumen.be/mots-cles/compagnie-des-bronzes/" class="tag-cloud-link tag-link-14979 tag-link-position-6" style="font-size: 13.875pt;" aria-label="COMPAGNIE DES BRONZES (306 éléments)">COMPAGNIE DES BRONZES</a>
+<a href="https://be-monumen.be/mots-cles/croix/" class="tag-cloud-link tag-link-15039 tag-link-position-7" style="font-size: 10pt;" aria-label="croix (152 éléments)">croix</a>
+<a href="https://be-monumen.be/mots-cles/flandre-occidentale/" class="tag-cloud-link tag-link-14792 tag-link-position-8" style="font-size: 9.25pt;" aria-label="Flandre occidentale (132 éléments)">Flandre occidentale</a>
+<a href="https://be-monumen.be/mots-cles/flandre-orientale/" class="tag-cloud-link tag-link-14794 tag-link-position-9" style="font-size: 9.5pt;" aria-label="Flandre orientale (137 éléments)">Flandre orientale</a>
+<a href="https://be-monumen.be/mots-cles/fonderie-nationale-des-bronzes/" class="tag-cloud-link tag-link-14719 tag-link-position-10" style="font-size: 8.25pt;" aria-label="FONDERIE NATIONALE DES BRONZES (109 éléments)">FONDERIE NATIONALE DES BRONZES</a>
+<a href="https://be-monumen.be/mots-cles/fonte/" class="tag-cloud-link tag-link-14660 tag-link-position-11" style="font-size: 16.5pt;" aria-label="Fonte (496 éléments)">Fonte</a>
+<a href="https://be-monumen.be/mots-cles/fonte-funeraire/" class="tag-cloud-link tag-link-14818 tag-link-position-12" style="font-size: 11.75pt;" aria-label="fonte funéraire (206 éléments)">fonte funéraire</a>
+<a href="https://be-monumen.be/mots-cles/hainaut/" class="tag-cloud-link tag-link-14790 tag-link-position-13" style="font-size: 14.5pt;" aria-label="Hainaut (343 éléments)">Hainaut</a>
+<a href="https://be-monumen.be/mots-cles/liege/" class="tag-cloud-link tag-link-14736 tag-link-position-14" style="font-size: 11.75pt;" aria-label="Liège (210 éléments)">Liège</a>
+<a href="https://be-monumen.be/mots-cles/monument-aux-morts-et-commemoratifs/" class="tag-cloud-link tag-link-14688 tag-link-position-15" style="font-size: 8pt;" aria-label="Monument aux morts et commémoratifs (103 éléments)">Monument aux morts et commémoratifs</a>
+<a href="https://be-monumen.be/mots-cles/monuments-aux-grands-hommes/" class="tag-cloud-link tag-link-14658 tag-link-position-16" style="font-size: 11.25pt;" aria-label="Monuments aux grands hommes (190 éléments)">Monuments aux grands hommes</a>
+<a href="https://be-monumen.be/mots-cles/porta/" class="tag-cloud-link tag-link-15031 tag-link-position-17" style="font-size: 9.625pt;" aria-label="PORTA (141 éléments)">PORTA</a>
+<a href="https://be-monumen.be/mots-cles/region-de-bruxelles-capitale/" class="tag-cloud-link tag-link-15402 tag-link-position-18" style="font-size: 8.5pt;" aria-label="Région de Bruxelles-Capitale (113 éléments)">Région de Bruxelles-Capitale</a>
+<a href="https://be-monumen.be/mots-cles/sculptures-animalieres/" class="tag-cloud-link tag-link-14683 tag-link-position-19" style="font-size: 8.75pt;" aria-label="Sculptures animalières (118 éléments)">Sculptures animalières</a>
+<a href="https://be-monumen.be/mots-cles/statues-decoratives/" class="tag-cloud-link tag-link-14684 tag-link-position-20" style="font-size: 13.5pt;" aria-label="Statues décoratives (287 éléments)">Statues décoratives</a></div>
+</div><!-- /shadowblock --></div><!-- /shadowblock_out -->
+	
+
+</div><!-- /content_right -->
+
+			<div class="clr"></div>
+
+		</div><!-- /content_res -->
+
+	</div><!-- /content_botbg -->
+
+</div><!-- /content -->
+
+				
+<div class="footer">
+
+		<div class="footer_menu">
+
+				<div class="footer_menu_res">
+
+						<ul id="footer-nav-menu" class="menu"><li id="menu-item-131645" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-131645"><a target="_blank" rel="noopener" href="https://be-monumen.be/wp-content/uploads/BE-MONUMEN.pdf">Comment contribuer</a></li>
+<li id="menu-item-7013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7013"><a href="https://be-monumen.be/ma-selection/">Ma Sélection</a></li>
+<li id="menu-item-7014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7014"><a href="https://be-monumen.be/dashboard/">Mon tableau de bord</a></li>
+<li id="menu-item-7098" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7098"><a href="https://be-monumen.be/mode-demploi/">Mode d&#8217;emploi</a></li>
+<li id="menu-item-127979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-127979"><a href="https://be-monumen.be/aide/">Aide</a></li>
+</ul>
+						<div class="clr"></div>
+
+				</div><!-- /footer_menu_res -->
+
+		</div><!-- /footer_menu -->
+
+		<div class="footer_main">
+
+				<div class="footer_main_res">
+
+						<div class="dotted">
+
+								<div class="column widget_text" id="text-4">			<div class="textwidget"><p><img class="alignnone size-full wp-image-127253" src="https://be-monumen.be/wp-content/uploads/logo.png" alt="" width="220" height="56" /></p>
+<p><strong>La Fonderie</strong><br />
+<strong>Musée bruxellois des industries et du travail</strong><br />
+<strong>Rue Ransfort 27</strong><br />
+<strong>Bruxelles 1080</strong></p>
+</div>
+		</div><!-- /column --><div class="column widget_text" id="text-5">			<div class="textwidget"><p><strong>La Fonderie occupe, depuis 1986, le site de l&rsquo;ancienne Compagnie des Bronzes à Molenbeek : un lieu symbolique du passé industriel bruxellois. C&rsquo;est dans cet endroit que sont nés les projets de développement de l&rsquo;association.</strong></p>
+</div>
+		</div><!-- /column --><div class="column widget-ad-categories" id="widget-ad-categories-3"><h2 class="dotted">Catégories</h2><div class="recordfromblog"><ul>	<li class="cat-item cat-item-10"><a href="https://be-monumen.be/cat/monumen/">MONUMEN</a> (2 144)
+</li>
+	<li class="cat-item cat-item-8"><a href="https://be-monumen.be/cat/nomen/">NOMEN</a> (456)
+</li>
+	<li class="cat-item cat-item-9"><a href="https://be-monumen.be/cat/volumen/">VOLUMEN</a> (252)
+</li>
+</ul></div></div><!-- /column --><div class="column widget_text" id="text-6">			<div class="textwidget"></div>
+		</div><!-- /column --><div class="widget_text column widget_custom_html" id="custom_html-2"><div class="textwidget custom-html-widget"><img class="alignnone  wp-image-127306" src="https://be-monumen.be/wp-content/uploads/Region_FR.jpg" alt="" width="190" height="51" />
+<img class="alignnone  wp-image-127305" src="https://be-monumen.be/wp-content/uploads/FWB.jpg" alt="" width="175" height="51" />
+<img class="alignnone wp-image-127303" src="https://be-monumen.be/wp-content/uploads/LogoCocofFondWebsite.jpg" alt="" width="46" height="51" />
+<a href="https://e-monumen.net" target="_blank" rel="noopener"><img class="alignnone wp-image-128929" src="https://be-monumen.be/wp-content/uploads/logo_aspm.jpg" alt="" width="108" height="60" /></a> <a href="https://www.fontesdart.org" target="_blank" rel="noopener"><img class="alignnone  wp-image-128930" src="https://be-monumen.be/wp-content/uploads/logo_fontedart.png" alt="" width="41" height="60" /></a></div></div><!-- /column -->
+								<div class="clr"></div>
+
+						</div><!-- /dotted -->
+
+						<p>&copy; 2026 BE-monumen | <a href="http://www.lafonderie.be" target="_blank">LaFonderie.be</a> | </p>
+
+						<div class="right">
+								<p>Création <a href="http://www.web42.fr/creation-site-internet-ecommerce-site-annonce/site-annonces/" title="création site Loire saint-etienne" target="_blank" >WEB42</p>
+						</div>
+
+						
+						<div class="clr"></div>
+
+				</div><!-- /footer_main_res -->
+
+		</div><!-- /footer_main -->
+
+</div><!-- /footer -->		
+	</div><!-- /container -->
+
+  <div id="pwaforwp-add-to-home-click" style="background-color:rgb(62,146,134)" class="pwaforwp-footer-prompt pwaforwp-bounceInUp pwaforwp-animated"> <span id="pwaforwp-prompt-close" class="pwaforwp-prompt-close"></span><h3 style="color:#000">Ajouter BE-monumen à votre mobile</h3><div style="background-color:rgb(221,153,51); color:#fff" class="pwaforwp-btn pwaforwp-btn-add-to-home">Installer</div></div><script type='text/javascript' src='https://be-monumen.be/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="https://be-monumen.be/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://be-monumen.be/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://be-monumen.be/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://be-monumen.be/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://be-monumen.be/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://be-monumen.be/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="https://be-monumen.be/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/be-monumen.be\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.5.4' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/plugins/dw-social-share/assets/js/script.js?ver=1.0.0' id='dw-social-share-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-includes/js/jquery/ui/menu.min.js?ver=1.12.1' id='jquery-ui-menu-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-includes/js/dist/dom-ready.min.js?ver=93db39f6fe07a70cb9217310bec0a531' id='wp-dom-ready-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-includes/js/dist/hooks.min.js?ver=d0188aa6c336f8bb426fe5318b7f5b72' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-includes/js/dist/i18n.min.js?ver=6ae7d829c963a7d8856558f3f9b32b43' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' id='wp-a11y-js-translations'>
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2026-03-27 17:10:21+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n > 1;","lang":"fr"},"Notifications":["Notifications"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+</script>
+<script type='text/javascript' src='https://be-monumen.be/wp-includes/js/dist/a11y.min.js?ver=f38c4dee80fd4bb43131247e3175c99a' id='wp-a11y-js'></script>
+<script type='text/javascript' id='jquery-ui-autocomplete-js-extra'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"Aucun r\u00e9sultat.","oneResult":"Un r\u00e9sultat trouv\u00e9. Utilisez les fl\u00e8ches haut et bas du clavier pour les parcourir. ","manyResults":"%d r\u00e9sultats trouv\u00e9s. Utilisez les fl\u00e8ches haut et bas du clavier pour les parcourir.","itemSelected":"\u00c9l\u00e9ment s\u00e9lectionn\u00e9."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://be-monumen.be/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.12.1' id='jquery-ui-autocomplete-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-includes/js/jquery/ui/mouse.min.js?ver=1.12.1' id='jquery-ui-mouse-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-includes/js/jquery/ui/slider.min.js?ver=1.12.1' id='jquery-ui-slider-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/plugins/dynamic-to-top/js/libs/jquery.easing.js?ver=1.3' id='jquery-easing-js'></script>
+<script type='text/javascript' id='dynamic-to-top-js-extra'>
+/* <![CDATA[ */
+var mv_dynamic_to_top = {"text":"Haut de page","version":"0","min":"1200","speed":"1000","easing":"easeInElastic","margin":"20"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/plugins/dynamic-to-top/js/dynamic.to.top.min.js?ver=3.5' id='dynamic-to-top-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/plugins/pwa-for-wp/assets/js/pwaforwp-video.js?ver=1.7.68' id='pwaforwp-video-js-js'></script>
+<script type='text/javascript' id='pwaforwp-download-js-js-extra'>
+/* <![CDATA[ */
+var pwaforwp_download_js_obj = {"force_rememberme":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://be-monumen.be/wp-content/plugins/pwa-for-wp/assets/js/pwaforwp-download.js?ver=1.7.68' id='pwaforwp-download-js-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/pwa-register-sw.js?ver=1.7.68' id='pwa-main-script-js'></script>
+<script type='text/javascript' src='https://be-monumen.be/wp-includes/js/wp-embed.min.js?ver=5.7.15' id='wp-embed-js'></script>
+			<script src="https://www.google.com/recaptcha/api.js?render=6Le6GkscAAAAAO_M5dVJRSsenRRQvlv0TKP8c3n3"></script>
+			<script type="text/javascript">
+				( function( grecaptcha ) {
+
+					var anr_onloadCallback = function() {
+						grecaptcha.execute(
+							'6Le6GkscAAAAAO_M5dVJRSsenRRQvlv0TKP8c3n3',
+							{ action: 'advanced_nocaptcha_recaptcha' }
+						).then( function( token ) {
+							for ( var i = 0; i < document.forms.length; i++ ) {
+								var form = document.forms[i];
+								var captcha = form.querySelector( 'input[name="g-recaptcha-response"]' );
+								if ( null === captcha )
+									continue;
+
+								captcha.value = token;
+							}
+						});
+					};
+
+					grecaptcha.ready( anr_onloadCallback );
+
+					document.addEventListener( 'wpcf7submit', anr_onloadCallback, false );
+					if ( typeof jQuery !== 'undefined' ) {
+						//Woocommerce
+						jQuery( document.body ).on( 'checkout_error', anr_onloadCallback );
+					}
+					//token is valid for 2 minutes, So get new token every after 1 minutes 50 seconds
+					setInterval(anr_onloadCallback, 110000);
+
+				} )( grecaptcha );
+			</script>
+			
+	
+</body>
+
+</html>

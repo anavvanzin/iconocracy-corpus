@@ -1,0 +1,3 @@
+- Aligned public dataset scaffolding with the operating model.
+- Snapshot generated during implementation verification.
+- Snapshot counts: corpus=145, records=139, coded=106.

@@ -1,0 +1,700 @@
+<!doctype html> 
+  <html lang="en">
+    <head>
+      <title>cda :: Paintings :: Justice</title>
+      
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Justice">
+    <meta property="og:description" content="The painting shows the personification of Justice as a half-length figure against a dark background, holding her attributes: the sword and the scales. …">
+    <meta property="og:url" content="https://lucascranach.org/en/PRIVATE_NONE-P457/">
+    <meta property="og:image" content="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/01_Overall/PRIVATE_NONE-P457_FR-none_1992_Overall-s.jpg">
+    <meta property="og:type" content="website">
+    <meta name="description" content="The painting shows the personification of Justice as a half-length figure against a dark background, holding her attributes: the sword and the scales. …">
+    <meta property="article:published_time" content="2025-11-17 15:40 CET">
+    <meta name="author" content="Cranach Digital Archive Team // TH Köln">
+    
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setDomains", ["*.lucascranach.org"]]);
+      _paq.push(["disableCookies"]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//lucascranach.org/matomo/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+  
+  
+      <link href="/artefacts/compiled-assets/main.css" rel="stylesheet">
+      <link href="/artefacts/assets/images/favicon.svg" rel="icon" type="image/svg">
+      <script>
+        const objectData = {};
+        objectData.metadataApiEndpoint = "";
+        objectData.metadataApiKey = "";
+        objectData.langCode = "en";
+        objectData.imageStack = {"overall":{"infos":{"maxDimensions":{"width":2048,"height":2928},"hasOverallOverview":false,"download":false},"images":[{"id":"PRIVATE_NONE-P457_FR-none_1992_Overall","download":false,"metadata":{"fileType":"Scan of colour slide","description":"Overall","created":"Archiv Dieter Koepplin, Basel","date":"unknown","source":"Archiv Dieter Koepplin, Basel"},"sizes":{"xsmall":{"dimensions":{"width":200,"height":287},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/01_Overall/PRIVATE_NONE-P457_FR-none_1992_Overall-xs.jpg","type":"img","download":false},"small":{"dimensions":{"width":400,"height":573},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/01_Overall/PRIVATE_NONE-P457_FR-none_1992_Overall-s.jpg","type":"img","download":false},"medium":{"dimensions":{"width":600,"height":860},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/01_Overall/PRIVATE_NONE-P457_FR-none_1992_Overall-m.jpg","type":"img","download":false},"origin":{"dimensions":{"width":1828,"height":2619},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/01_Overall/PRIVATE_NONE-P457_FR-none_1992_Overall-origin.jpg","type":"img","download":false},"tiles":{"dimensions":{"width":0,"height":0},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/01_Overall/PRIVATE_NONE-P457_FR-none_1992_Overall.dzi","type":"dzi","download":false}}},{"id":"PRIVATE_NONE-P457_FR-none_RKD_Overall-001r","download":false,"metadata":{"fileType":"Scan of black and white photograph","description":"Overall","created":"Archiv Dieter Koepplin, Basel","date":"unknown","source":"Archiv Dieter Koepplin, Basel"},"sizes":{"xsmall":{"dimensions":{"width":200,"height":286},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001r-xs.jpg","type":"img","download":false},"small":{"dimensions":{"width":400,"height":572},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001r-s.jpg","type":"img","download":false},"medium":{"dimensions":{"width":600,"height":858},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001r-m.jpg","type":"img","download":false},"origin":{"dimensions":{"width":2048,"height":2928},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001r-origin.jpg","type":"img","download":false},"tiles":{"dimensions":{"width":0,"height":0},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001r.dzi","type":"dzi","download":false}}},{"id":"PRIVATE_NONE-P457_FR-none_RKD_Overall-001v","download":false,"metadata":{"fileType":"Scan of black and white photograph","description":"reverse of black and white photograph","created":"Archiv Dieter Koepplin, Basel","date":"unknown","source":"Archiv Dieter Koepplin, Basel"},"sizes":{"xsmall":{"dimensions":{"width":200,"height":285},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001v-xs.jpg","type":"img","download":false},"small":{"dimensions":{"width":400,"height":570},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001v-s.jpg","type":"img","download":false},"medium":{"dimensions":{"width":600,"height":854},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001v-m.jpg","type":"img","download":false},"origin":{"dimensions":{"width":2048,"height":2916},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001v-origin.jpg","type":"img","download":false},"tiles":{"dimensions":{"width":0,"height":0},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001v.dzi","type":"dzi","download":false}}}]},"detail":{"infos":{"maxDimensions":{"width":2531,"height":1780},"download":false},"images":[{"id":"PRIVATE_NONE-P457_FR-none_Detail-001","download":false,"metadata":{"fileType":"Scan of colour slide","description":"Detail, signature","created":"Archiv Dieter Koepplin, Basel","date":"unknown","source":"Archiv Dieter Koepplin, Basel"},"sizes":{"xsmall":{"dimensions":{"width":200,"height":141},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/06_Detail/PRIVATE_NONE-P457_FR-none_Detail-001-xs.jpg","type":"img","download":false},"small":{"dimensions":{"width":400,"height":281},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/06_Detail/PRIVATE_NONE-P457_FR-none_Detail-001-s.jpg","type":"img","download":false},"medium":{"dimensions":{"width":600,"height":422},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/06_Detail/PRIVATE_NONE-P457_FR-none_Detail-001-m.jpg","type":"img","download":false},"origin":{"dimensions":{"width":2531,"height":1780},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/06_Detail/PRIVATE_NONE-P457_FR-none_Detail-001-origin.jpg","type":"img","download":false},"tiles":{"dimensions":{"width":0,"height":0},"src":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/06_Detail/PRIVATE_NONE-P457_FR-none_Detail-001.dzi","type":"dzi","download":false}}}]}};
+        objectData.baseUrl = "https://lucascranach.org/en";
+        objectData.imageBaseUrl = {"development":"https://lucascranach.org/data-proxy/image-tiles.php?obj=","production":"https://lucascranach.org/imageserver-2022"};
+        objectData.env = "external";
+        objectData.translations = {"date":{"de":"Datum","en":"Date"},"all":{"de":"Alle","en":"All"},"dating":{"de":"Datierung","en":"Dating"},"dimensions":{"de":"Maße","en":"Dimensions"},"authorAndRights":{"de":"Autor und Rechte","en":"Author & Rights"},"source":{"de":"Quelle","en":"Source"},"allImages":{"de":"Alle Abbildungen","en":"All Images"},"overall":{"de":"Gesamtaufnahmen","en":"Overall"},"reverse":{"de":"Rückseitenaufnahmen","en":"Reverse"},"irr":{"de":"Infrarotaufnahmen","en":"Infrared Images"},"xradiograph":{"de":"Röntgenaufnahmen","en":"X-Radiographs"},"uvlight":{"de":"UV-Fluoreszenzaufnahmen","en":"UV Images"},"detail":{"de":"Detailaufnahmen","en":"Detail Images"},"photomicrograph":{"de":"Mikroskopaufnahmen","en":"Photomicrographs"},"conservation":{"de":"Restaurierung","en":"Conservation"},"other":{"de":"Andere","en":"Other"},"analysis":{"de":"Untersuchungsergebnisse","en":"Analysis"},"rkd":{"de":"Max J. Friedländer-Archiv","en":"Max J. Friedländer Archive"},"showMore":{"de":"mehr Inhalte zeigen","en":"show more content"},"showLess":{"de":"weniger Inhalte zeigen","en":"hide content"},"kindOfImage":{"de":"Art der Abbildung","en":"File type / description"},"fileName":{"de":"Dateiname","en":"File name"},"copiedToClipboard":{"de":"Das Element wurde in die Zwischenablage kopiert.","en":"Element has been copied to clipboard."},"somethingWentWrong":{"de":"Irgendetwas ist schief gelaufen :(","en":"Something went wrong :("},"prevWork":{"de":"vorheriges","en":"previous"},"nextWork":{"de":"nächstes","en":"next"},"imageInformation":{"de":"Bildinformationen","en":"Image Information"}};
+        objectData.asseturl = "/artefacts/assets";
+        objectData.inventoryNumber = "PRIVATE_NONE-P457";
+        objectData.idExtension = "FR-none";
+        objectData.navigationObjects = '{"prev":{"id":"PRIVATE_NONE-P517","imgSrc":"https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P517_FR-none/01_Overall/PRIVATE_NONE-P517_FR-none_1937_Overall-s.jpg","sortingNumber":"1536-013-05"},"next":{"id":"DE_SKD-Lost_1915","imgSrc":"https://lucascranach.org/imageserver-2022/DE_SKD-Lost_1915_FR352/01_Overall/DE_SKD-Lost_1915_FR352_1937_Overall-s.jpg","sortingNumber":"1536-017-02"}}';
+      </script>
+    </head>
+    <body>
+      
+      <div id="page">
+        
+    <nav class="main-navigation js-navigation">
+      <div class="primary-navigation">
+        
+    <a class="button button--is-transparent cda-logo-wrap" href="https://lucascranach.org/home">
+      <img class="cda-logo" style="height: 1.2em" src="/artefacts/assets/images/cda-logo-bw.svg" alt="CDA Logo">
+    </a>
+  
+    <a class="button button--is-transparent" href="https://lucascranach.org/en/search?kind=works&loadLatestSearchConfiguration=true">
+      <span class="button__icon button__icon--is-large icon has-interaction">apps</span>
+      <span class="button__text button__text--is-important">go to works search</span>
+    </a>
+  
+      </div>
+      <div class="secondary-navigation">
+        
+        <div class="options js-options">
+          
+    <ul class="switcher lang-selector" data-state="inactive" data-component="base/interacting/switcher">
+      <li class="switcher-item "><a class="lang-selector__item " href="https://lucascranach.org/de/PRIVATE_NONE-P457/">DE</a></li>
+      <li class="switcher-item "><a class="lang-selector__item lang-selector__item--is-active" href="https://lucascranach.org/en/PRIVATE_NONE-P457/">EN</a></li>
+    </ul>
+  
+          <button 
+            class="button button--is-transparent button__icon button__icon--is-large icon 
+            has-interaction options__trigger" data-state="inactive"></button>
+        </div>
+        <div class="search-result-navigation js-search-result-navigation"></div>
+      </div>
+    </nav>
+  
+          <section class="leporello-recog js-main-content">
+          
+    <figure class="leporello-recog__image">
+      <img loading="lazy" src="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/01_Overall/PRIVATE_NONE-P457_FR-none_1992_Overall-s.jpg" alt="Justice"width="400" height="573">
+    </figure>
+  
+          <div class="leporello-recog__text">
+            <div class="grid-wrapper">
+
+              <div class="base-content">
+                
+  <header class="artefact-header">
+    
+    <h1 id="PRIVATE_NONE-P457-mainTitle" class="title">Justice</h1>
+    
+      <div id="PRIVATE_NONE-P457-completeDataTitles" 
+        class="additional-content js-additional-content"
+        data-is-additional-content-to="PRIVATE_NONE-P457-mainTitle">
+        <h2 class="additional-content__title js-collapse-additional-content has-interaction">Title</h2>
+        <table class="info-table additional-content__table">
+          
+          <tr><td class="info-table__data undefined">Justice</td><td class="info-table__remark"><div class="markdown-it"><p>[cda 2020]</p>
+</div></td></tr>
+        
+        </table>
+      </div>
+    
+  
+    
+    <div class="has-tight-separator">
+      <div id="PRIVATE_NONE-P457-subtitle">
+        <p class="subtitle">Painting on wood</p>
+      </div>
+      
+      <div id="PRIVATE_NONE-P457-completeDataMedium" 
+        class="additional-content js-additional-content"
+        data-is-additional-content-to="PRIVATE_NONE-P457-subtitle">
+        <h2 class="additional-content__title js-collapse-additional-content has-interaction">Medium</h2>
+        <table class="info-table additional-content__table">
+          
+          <tr><td class="info-table__data undefined">Painting on wood</td><td class="info-table__remark"><div class="markdown-it"><p>[Exhib. Cat. Brussels 2010, 197, no. 113]</p>
+</div></td></tr>
+        
+        </table>
+      </div>
+    
+    </div>
+  
+  </header>
+                <div class="copytext">
+                  
+    <div id="switchableCopyText" data-js-switchable-content='["previewText","fullText"]'>
+      <div id="previewText" class="preview-text"><div class="markdown-it"><p>The painting shows the personification of Justice as a half-length figure against a dark background, holding her attributes: the sword and the scales. She wears her hair pinned up under a decorative snood and a gauzy veil falls over her face to just above the eyes. A tunic of similar</p>
+</div></div>
+      <div class="is-cut full-text" id="fullText"><div class="markdown-it"><p>The painting shows the personification of Justice as a half-length figure against a dark background, holding her attributes: the sword and the scales. She wears her hair pinned up under a decorative snood and a gauzy veil falls over her face to just above the eyes. A tunic of similar material covers her naked body without concealing it. Her attire is completed by a choker and a linked chain with a pendant wrapped twice around her neck.</p>
+<p>[cda 2020]</p>
+</div></div>
+    </div>
+    
+                </div>
+              </div>
+
+              <div class="main-column">
+                <div class="block">
+                  
+    <dl id="PRIVATE_NONE-P457-attributionData" class="definition-list is-grid">
+      <dt class="definition-list__term">Attributions</dt>
+      <dd class="definition-list__definition">
+        Lucas Cranach the Elder<br>Lucas Cranach the Younger
+      </dd>
+    </dl>
+    
+      <div id="PRIVATE_NONE-P457-completeDataAttributions" 
+        class="additional-content js-additional-content"
+        data-is-additional-content-to="PRIVATE_NONE-P457-attributionData">
+        <h2 class="additional-content__title js-collapse-additional-content has-interaction">Attributions</h2>
+        <table class="info-table additional-content__table">
+          
+          <tr><td class="info-table__data ">Lucas Cranach the Elder</td><td class="info-table__remark"><div class="markdown-it"><p>[Exhib. Cat. Brussels 2010, 197, no. 113]</p>
+</div></td></tr>
+        
+          <tr><td class="info-table__data ">Lucas Cranach the Younger</td><td class="info-table__remark"><div class="markdown-it"><p>[Koepplin 2007 B, 64]</p>
+</div></td></tr>
+        
+        </table>
+      </div>
+    
+  
+                  
+    <dl id="PRIVATE_NONE-P457-dataList" class="definition-list is-grid">
+      <dt class="definition-list__term">Production date</dt>
+      <dd class="definition-list__definition">1537</dd>
+    </dl>
+
+    
+      <div id="PRIVATE_NONE-P457-completeDataDates" 
+        class="additional-content js-additional-content"
+        data-is-additional-content-to="PRIVATE_NONE-P457-dataList">
+        <h2 class="additional-content__title js-collapse-additional-content has-interaction">Production date</h2>
+        <table class="info-table additional-content__table">
+          
+          <tr><td class="info-table__data undefined">1537</td><td class="info-table__remark"><div class="markdown-it"><p>[dated]</p>
+</div></td></tr>
+        
+        </table>
+      </div>
+    
+  
+                  
+    <dl id="PRIVATE_NONE-P457-dimensions" class="definition-list is-grid">
+      <dt class="definition-list__term">Dimensions</dt>
+      <dd class="definition-list__definition"><span class="preview-text">Dimensions of support: 72 x 49.6 cm</span></dd>
+    </dl>
+    
+      <div id="PRIVATE_NONE-P457-completeDataDimensions" 
+        class="additional-content js-additional-content"
+        data-is-additional-content-to="PRIVATE_NONE-P457-dimensions">
+        <h2 class="additional-content__title js-collapse-additional-content has-interaction">Dimensions</h2>
+        <ul class="info-list additional-content__list">
+          <li class="info-list__item"><div class="markdown-it"><p>Dimensions of support: 72 x 49.6 cm</p>
+</div></li><li class="info-list__item"><div class="markdown-it"><p>[Exhib. Cat. Brussels 2010, 197, no. 113]</p>
+</div></li>
+        </ul>
+      </div>
+    
+  
+                  
+    <dl id="PRIVATE_NONE-P457-signature" class="definition-list is-grid">
+      <dt class="definition-list__term">Signature / Dating</dt>
+      <dd class="definition-list__definition"><div class="markdown-it"><p>Artist's insignia at the bottom left: serpent with elevated wings, facing right and dated '1537'; in yellow paint</p>
+</div></dd>
+    </dl>
+    
+      <div id="PRIVATE_NONE-P457-completeDataSignature" 
+        class="additional-content js-additional-content"
+        data-is-additional-content-to="PRIVATE_NONE-P457-signature">
+        <h2 class="additional-content__title js-collapse-additional-content has-interaction">Signature / Dating</h2>
+        <ul class="info-list additional-content__list">
+          <li class="info-list__item"><div class="markdown-it"><p>Artist's insignia at the bottom left: serpent with elevated wings, facing right and dated '1537'; in yellow paint</p>
+</div></li>
+        </ul>
+      </div>
+    
+  
+                  
+    <dl id="InscriptionsAndLabels" class="definition-list is-grid">
+      <dt class="definition-list__term">Inscriptions and Labels</dt>
+      <dd class="definition-list__definition"><div class="markdown-it"><ul>
+<li>at the top right: 'GERECHTIGKAEIT'</li>
+</ul>
+</div></dd>
+    </dl>
+    <div id="completeDataInscriptionsAndLabels" class="additional-content js-additional-content" data-is-additional-content-to="InscriptionsAndLabels">
+      <h2 class="additional-content__title js-collapse-additional-content has-interaction">Inscriptions and Labels</h2>
+      
+    <h3 class="inner-title">Inscriptions, Badges:</h3>
+    <ul class="info-list additional-content__list">
+      <li class="info-list__item"><div class="markdown-it"><ul>
+<li>at the top right: 'GERECHTIGKAEIT'</li>
+</ul>
+</div></li>
+    </ul>
+  
+      
+    </div>
+  
+                </div>
+                <div class="block">
+                  
+    <dl class="definition-list is-grid">
+      <dt class="definition-list__term">Owner</dt>
+      <dd class="definition-list__definition">Private Collection</dd>
+      <dt class="definition-list__term">Repository</dt>
+      <dd class="definition-list__definition">Private Collection</dd>
+      
+
+    </dl>
+  
+                </div>
+                <div class="block">
+                  
+    <dl class="definition-list is-grid">
+    <dt class="definition-list__term">CDA ID</dt>
+    <dd class="definition-list__definition" data-clipable-content="PRIVATE_NONE-P457">PRIVATE_NONE-P457</dd>
+    
+    <dt class="definition-list__term">FR (1978) Nr.</dt>
+    <dd class="definition-list__definition" data-clipable-content="FR-none">FR-none</dd>
+  
+    
+    
+    
+    <dt class="definition-list__term">Persistent Link</dt>
+    <dd class="definition-list__definition" data-clipable-content="https://lucascranach.org/en/PRIVATE_NONE-P457/"><a href="https://lucascranach.org/en/PRIVATE_NONE-P457/">https://lucascranach.org/en/PRIVATE_NONE-P457/</a></dd>
+  </dl>
+  
+                </div>
+              </div>
+
+              <div class="marginal-content">
+                  
+                
+<div class="foldable-block has-strong-separator">
+  <h2 class="foldable-block__headline is-expand-trigger js-expand-trigger" data-js-expanded="false" data-js-expandable="provenance">
+    Provenance</h2>
+  <div class="expandable-content" id="provenance">
+  <div class="markdown-it"><ul>
+<li>auction, Sotheby's, London 08.07.1992, lot 44</li>
+<li>private collection<br />
+<span class="is-remark">[Exhib. Cat. Brussels 2010, 197, no. 113]</span></li>
+</ul>
+</div>
+  </div>
+</div>
+
+                
+<div class="foldable-block has-strong-separator"> 
+  <h2 class="foldable-block__headline is-expand-trigger js-expand-trigger" data-js-expanded="false" data-js-expandable="exhibition-history">
+    Exhibitions</h2>
+  <div class="expandable-content" id="exhibition-history">
+  <div class="markdown-it"><p>Kronach 1994, no. 169<br />
+Brussels 2010, no. 113</p>
+</div>
+  </div>
+</div>
+                
+    <div class="foldable-block has-strong-separator"> 
+      <h2 class="foldable-block__headline is-expand-trigger js-expand-trigger" data-js-expanded="false" data-js-expandable="PRIVATE_NONE-P457-combined-literature-list">
+        Literature</h2>
+      <div id="PRIVATE_NONE-P457-combined-literature-list" class="expandable-content">
+        <table class="table literature">
+          <thead class="head ">
+            <tr class="row">
+              <td class="cell" style="width: 40%"></td>
+              <td class="cell" style="width: 20%">Reference on page</td>
+<td class="cell" style="width: 20%">Catalogue Number</td>
+<td class="cell" style="width: 20%">Figure / Plate</td>
+            </tr>
+          </thead>
+          <tbody class="body">
+          
+        <tr
+          class="row  is-head" 
+          id="litRef467-0">
+
+          <td class="cell has-interaction"><a href="#" 
+            data-js-toggle-literature="467-0">Exhib. Cat. Brussels 2010</a></td>
+          <td class="cell">197</td>
+<td class="cell">113</td>
+<td class="cell">Pl. p. 209; cover</td>
+        </tr>
+        <tr class="row  is-detail" id="litRefData467-0">
+          <td class="cell" colspan="4">
+            
+      <table class="literature-item-details-table">
+        
+        <tr><th>Editor</th><td>Bozarbooks & Lannoo, Guido Messling</td></tr>
+        
+        <tr><th>Title</th><td>Die Welt des Lucas Cranach. Ein Künstler im Zeitalter von Dürer, Tizian und Metsys [anlässlich der Ausstellung "Die Welt des Lucas Cranach", Palast der Schönen Künste, Brüssel, 20. Oktober 2010 - 23. Januar 2011]</td></tr>
+        
+        
+        
+        
+        
+        
+        
+        <tr><th>Place of Publication</th><td>Brussels</td></tr>
+        
+        <tr><th>Year of Publication</th><td>2010</td></tr>
+        
+        
+        
+        
+        
+        
+        
+      </table>
+
+      <div class="link-to-item-wrap">
+        <a href="https://lucascranach.org/en/literature-467" class="link-to-item">Show Literature</a>
+      </div>
+    
+          </td>
+        </tr>
+        
+
+        <tr
+          class="row has-bg is-head" 
+          id="litRef538-1">
+
+          <td class="cell has-interaction"><a href="#" 
+            data-js-toggle-literature="538-1">Koepplin 2007 B</a></td>
+          <td class="cell">63, 64</td>
+<td class="cell"></td>
+<td class="cell">Fig 2</td>
+        </tr>
+        <tr class="row has-bg is-detail" id="litRefData538-1">
+          <td class="cell" colspan="4">
+            
+      <table class="literature-item-details-table">
+        <tr><th>Author</th><td>Dieter Koepplin</td></tr>
+        
+        
+        <tr><th>Title</th><td>Cranachs Bilder der Caritas im theologischen und humanistischen Geiste Luthers und Melanchthons</td></tr>
+        <tr><th>Publication</th><td>in Bodo Brinkmann, ed., Cranach der Ältere [Exhib. Cat. Frankfurt]</td></tr>
+        
+        
+        
+        
+        
+        
+        <tr><th>Place of Publication</th><td>Ostfildern</td></tr>
+        
+        <tr><th>Year of Publication</th><td>2007</td></tr>
+        
+        
+        
+        
+        
+        <tr><th>Pages</th><td>63-79</td></tr>
+        
+      </table>
+
+      <div class="link-to-item-wrap">
+        <a href="https://lucascranach.org/en/literature-538" class="link-to-item">Show Literature</a>
+      </div>
+    
+          </td>
+        </tr>
+        
+
+        <tr
+          class="row  is-head" 
+          id="litRef27541-2">
+
+          <td class="cell has-interaction"><a href="#" 
+            data-js-toggle-literature="27541-2">Moser 2004</a></td>
+          <td class="cell"></td>
+<td class="cell"></td>
+<td class="cell">Fig. p. 199</td>
+        </tr>
+        <tr class="row  is-detail" id="litRefData27541-2">
+          <td class="cell" colspan="4">
+            
+      <table class="literature-item-details-table">
+        <tr><th>Author</th><td>Peter Moser</td></tr>
+        
+        
+        <tr><th>Title</th><td>Lucas Cranach. Sein Leben, seine Welt und seine Bilder</td></tr>
+        
+        
+        
+        
+        
+        
+        
+        <tr><th>Place of Publication</th><td>Bamberg</td></tr>
+        
+        <tr><th>Year of Publication</th><td>2004</td></tr>
+        
+        
+        
+        
+        
+        
+        
+      </table>
+
+      <div class="link-to-item-wrap">
+        <a href="https://lucascranach.org/en/literature-27541" class="link-to-item">Show Literature</a>
+      </div>
+    
+          </td>
+        </tr>
+        
+
+        <tr
+          class="row has-bg is-head" 
+          id="litRef153-3">
+
+          <td class="cell has-interaction"><a href="#" 
+            data-js-toggle-literature="153-3">Exhib. Cat. Kronach 1994</a></td>
+          <td class="cell">347, 348</td>
+<td class="cell">169</td>
+<td class="cell"></td>
+        </tr>
+        <tr class="row has-bg is-detail" id="litRefData153-3">
+          <td class="cell" colspan="4">
+            
+      <table class="literature-item-details-table">
+        
+        <tr><th>Editor</th><td>Claus Grimm, Johannes Erichsen, Evamaria Brockhoff</td></tr>
+        
+        <tr><th>Title</th><td>Lucas Cranach. Ein Maler-Unternehmer aus Franken [Festung Rosenberg, Kronach 17.05 - 21.08.1994; Museum der Bildenden Künste, Leipzig 07.09 - 06.11.1994]</td></tr>
+        
+        
+        <tr><th>Series</th><td>Veröffentlichungen zur bayerischen Geschichte und Kultur</td></tr>
+        <tr><th>Volume</th><td>26</td></tr>
+        
+        
+        
+        <tr><th>Place of Publication</th><td>Augsburg, Coburg</td></tr>
+        
+        <tr><th>Year of Publication</th><td>1994</td></tr>
+        
+        
+        
+        
+        
+        
+        
+      </table>
+
+      <div class="link-to-item-wrap">
+        <a href="https://lucascranach.org/en/literature-153" class="link-to-item">Show Literature</a>
+      </div>
+    
+          </td>
+        </tr>
+        
+          </tbody>
+        </table>
+      </div>
+    </div>
+                
+      <div class="foldable-block has-strong-separator">
+        <h2 class="foldable-block__headline is-expand-trigger js-expand-trigger" data-js-expanded="false" data-js-expandable="description-interpretation-comments">Research History / Discussion</h2>
+        <div class="expandable-content" id="description-interpretation-comments">
+          
+        <div class="block has-padding">
+          <div class="markdown-it"><p>A very similar variant was sold from the P. Delaroff Collection in Paris, 23.04.1914, lot 4 and is now in Österbottens Museum, Vaasa [FIN_OMV_KH1305].</p>
+<p><a class="link-to-source" href="https://visualcollections.ub.uni-mainz.de/histbuch/content/pageview/456707">[Friedländer, Rossenberg 1979, no. 277C]</a></p>
+</div>
+        </div>
+      
+        </div>
+      </div>
+    
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="leporello-explore">
+          <div class="main-image-wrap">
+            <figure class="main-image">
+              <div class="image-viewer">
+                <div id="viewer-content" class="image-viewer__content"></div>
+              </div>
+              <figcaption class="image-caption-wrap">
+              
+    <ul class="image-caption">
+      <li class="image-caption__title">Justice, 1537</li>
+      
+    </ul>
+  
+              <div id="image-caption" class="image-caption is-secondary has-seperator foldable-block"></div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="explore-content">
+            
+    <div class="foldable-block ">
+      <h2 class="foldable-block__headline is-expand-trigger js-expand-trigger" data-js-expanded="false" data-js-expandable="image-stripe">
+        Images</h2>
+      <div id="image-stripe" class="expandable-content image-stripe">
+        <div class="image-stripe-navigation">
+          
+    <div class="imagetype-selector">
+      <select size="1" data-js-image-selector="true">
+        <option value="all">All</option>
+        <option value="overall">Overall (3)</option>falsefalsefalsefalse<option value="detail">Detail Images (1)</option>falsefalsefalsefalsefalsefalsefalse
+      </select>
+    </div>
+  
+          
+    <a class="cranach-compare-launcher js-cranach-compare-launcher"
+      href="https://lucascranach.org/cranach-compare/index.html"
+      data-visible="false" 
+      target="_blank">
+      Compare images
+    </a>
+  
+        </div>
+        <ul class="image-stripe-list">
+          
+        <li
+          class="image-stripe-list__item has-interaction js-is-collectable"
+          title="PRIVATE_NONE-P457_FR-none_1992_Overall"
+          data-collected="false" 
+          data-cda-id="PRIVATE_NONE-P457"
+          data-object-title="Justice"
+          data-image-type="overall" 
+          data-image-id="PRIVATE_NONE-P457_FR-none_1992_Overall"
+          data-image-preview-url="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/01_Overall/PRIVATE_NONE-P457_FR-none_1992_Overall-s.jpg"
+          data-image-tiles-url="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/01_Overall/PRIVATE_NONE-P457_FR-none_1992_Overall.dzi"
+          data-js-change-image='{"key":"overall","id":"PRIVATE_NONE-P457_FR-none_1992_Overall"}'>
+          <img loading="lazy" src="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/01_Overall/PRIVATE_NONE-P457_FR-none_1992_Overall-s.jpg" alt="overall" >
+        </li>
+      
+        <li
+          class="image-stripe-list__item has-interaction js-is-collectable"
+          title="PRIVATE_NONE-P457_FR-none_RKD_Overall-001r"
+          data-collected="false" 
+          data-cda-id="PRIVATE_NONE-P457"
+          data-object-title="Justice"
+          data-image-type="overall" 
+          data-image-id="PRIVATE_NONE-P457_FR-none_RKD_Overall-001r"
+          data-image-preview-url="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001r-s.jpg"
+          data-image-tiles-url="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001r.dzi"
+          data-js-change-image='{"key":"overall","id":"PRIVATE_NONE-P457_FR-none_RKD_Overall-001r"}'>
+          <img loading="lazy" src="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001r-s.jpg" alt="overall" >
+        </li>
+      
+        <li
+          class="image-stripe-list__item has-interaction js-is-collectable"
+          title="PRIVATE_NONE-P457_FR-none_RKD_Overall-001v"
+          data-collected="false" 
+          data-cda-id="PRIVATE_NONE-P457"
+          data-object-title="Justice"
+          data-image-type="overall" 
+          data-image-id="PRIVATE_NONE-P457_FR-none_RKD_Overall-001v"
+          data-image-preview-url="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001v-s.jpg"
+          data-image-tiles-url="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001v.dzi"
+          data-js-change-image='{"key":"overall","id":"PRIVATE_NONE-P457_FR-none_RKD_Overall-001v"}'>
+          <img loading="lazy" src="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/11_RKD/01_Overall/PRIVATE_NONE-P457_FR-none_RKD_Overall-001v-s.jpg" alt="overall" >
+        </li>
+      
+        <li
+          class="image-stripe-list__item has-interaction js-is-collectable"
+          title="PRIVATE_NONE-P457_FR-none_Detail-001"
+          data-collected="false" 
+          data-cda-id="PRIVATE_NONE-P457"
+          data-object-title="Justice"
+          data-image-type="detail" 
+          data-image-id="PRIVATE_NONE-P457_FR-none_Detail-001"
+          data-image-preview-url="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/06_Detail/PRIVATE_NONE-P457_FR-none_Detail-001-s.jpg"
+          data-image-tiles-url="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/06_Detail/PRIVATE_NONE-P457_FR-none_Detail-001.dzi"
+          data-js-change-image='{"key":"detail","id":"PRIVATE_NONE-P457_FR-none_Detail-001"}'>
+          <img loading="lazy" src="https://lucascranach.org/imageserver-2022/PRIVATE_NONE-P457_FR-none/06_Detail/PRIVATE_NONE-P457_FR-none_Detail-001-s.jpg" alt="detail" >
+        </li>
+      
+        </ul>
+      </div>
+    </div>
+  
+            
+            
+            
+            
+            
+      <div class="foldable-block has-strong-separator">
+        <h2 class="foldable-block__headline is-expand-trigger js-expand-trigger"
+          data-js-expanded="false" data-js-expandable="related-in-content-to">
+          
+          Versions</h2>
+        <div class="expandable-content" id="related-in-content-to">
+        
+        <div class="related-item-wrap">
+          <a href="https://lucascranach.org/en/FIN_OMV_KH1305/">
+          <figure class="related-item">
+            <div class="related-item__image">
+              <img loading="lazy" src="https://lucascranach.org/imageserver-2022/FIN_OMV_KH1305_FR277C/01_Overall/FIN_OMV_KH1305_FR277C_2015_Overall-s.jpg" alt="Justice">
+            </div>
+            <figcaption class="related-item__caption">
+              <ul>
+                <li class="related-item__title">Justice, 1600-1899</li>
+                <li class="related-item__id">FIN_OMV_KH1305</li>
+                <li class="related-item__text">Painting</li>
+                <li class="related-item__text">Karl Hedman Collection</li>
+              </ul>
+            </figcaption>
+          </figure>
+          </a>
+        </div>
+      
+        </div>
+      </div>
+    
+            
+            
+            
+          </div>
+        </section>
+        <section class="final-words">
+          <div class="foldable-block text-block">
+            
+    <h2 class="is-expand-trigger js-expand-trigger" data-js-expanded="false" data-js-expandable="citing-hints">Citing from the Cranach Digital Archive</h2>
+    <dl id="citing-hints" class="expandable-content definition-list is-stacked">
+      <dt class="definition-list__term">Entry with author</dt>
+      <dd class="definition-list__definition js-date-accessed">&lt;author's name&gt;, 'Justice', &lt;title of document, data entry or image&gt;. [&lt;Date of document or image&gt;], in: Cranach Digital Archive, https://lucascranach.org/en/PRIVATE_NONE-P457/ (Accessed {{dateAccessed}})</dd>
+      <dt class="definition-list__term">Entry with no author</dt>
+      <dd class="definition-list__definition js-date-accessed">'Justice', &lt;title of document, data entry or image&gt;. [&lt;Date of document, entry or image&gt;], in: Cranach Digital Archive, https://lucascranach.org/en/PRIVATE_NONE-P457/ (Accessed {{dateAccessed}})</dd>
+    </dl>
+  
+          </div>
+          <div class="text-block">
+            
+      <h2>Help us to improve the Cranach Digital Archive.</h2>
+      <p>Please contact us, if <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtb8vAaRUZAZZUijLP099GFMm279HpbZBdVA5KZf5tnLZVCw/viewform?usp=pp_url&entry.810636170=Justice&entry.1357028798=https://lucascranach.org/en/PRIVATE_NONE-P457/" target="_blank">you have noticed a mistake.</a></p>
+    
+          </div>
+        </section>
+          <footer class="main-footer">
+          <p>© Stiftung Museum Kunstpalast, Düsseldorf / Technische Hochschule Köln, 2025</p>
+        </footer>
+
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/openseadragon@3.1.0/build/openseadragon/openseadragon.min.js"></script>
+      <script src="/artefacts/assets/scripts/main.js"></script>
+      <script src="https://lucascranach.org/cranach-compare//scripts/cranach-collect.js"></script>
+    </body>
+  </html>

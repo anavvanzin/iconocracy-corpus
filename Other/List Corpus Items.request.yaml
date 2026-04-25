@@ -1,0 +1,11 @@
+$kind: http-request
+method: GET
+url: '{{baseUrl}}/api/corpus'
+queryParams:
+  - key: country
+    value: '{{country}}'
+  - key: regime
+    value: '{{regime}}'
+  - key: q
+    value: '{{q}}'
+order: 8000

@@ -1,0 +1,21 @@
+# Dependencies for tools/scripts/iconocode_gemma4.py
+# Backend: llama-cpp-python with Metal (Apple Silicon).
+# Model: unsloth/gemma-4-E4B-it-GGUF (Q4_K_M, ~4.6 GB) + mmproj-F16 (~945 MB).
+# Host: Apple Silicon Mac with 16+ GB unified memory.
+#
+# Install into the iconocracy conda env with Metal:
+#   CMAKE_ARGS="-DLLAMA_METAL=on" \
+#     /opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/pip install \
+#       -r requirements-iconocode-gemma4.txt
+#
+# Download the GGUF + vision adapter (requires `hf auth login` first):
+#   hf download unsloth/gemma-4-E4B-it-GGUF \
+#     gemma-4-E4B-it-Q4_K_M.gguf mmproj-F16.gguf
+#
+# Why GGUF: the transformers fp16 safetensors is ~15 GB and OOMs on 16 GB
+# unified memory Macs. Q4_K_M is ~4.6 GB and fits comfortably. This file is
+# additive — it does NOT replace the repo's requirements.txt.
+
+llama-cpp-python>=0.3.5
+pillow>=10.0
+requests>=2.31

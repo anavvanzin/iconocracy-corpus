@@ -1,0 +1,44 @@
+{
+  "dataset_repo": "warholana/iconocracy-corpus",
+  "release_tag": "2026-04-18-audit-test",
+  "stats": {
+    "generated_at": "2026-04-18T03:02:58Z",
+    "corpus_items": 165,
+    "records_items": 165,
+    "purification_rows": 0,
+    "coded_items": 0,
+    "country_count": 17,
+    "schema_versions": [
+      "1.0"
+    ],
+    "regime_counts": {
+      "normativo": 46,
+      "militar": 31,
+      "fundacional": 78,
+      "contra-alegoria": 10
+    },
+    "top_countries": {
+      "France": 45,
+      "United States": 24,
+      "Germany": 21,
+      "Brazil": 15,
+      "United Kingdom": 14,
+      "Belgium": 9,
+      "Italy": 8,
+      "Netherlands": 8
+    },
+    "top_supports": {
+      "estampa": 52,
+      "cartaz": 24,
+      "moeda": 23,
+      "monumento": 13,
+      "pintura": 12,
+      "papel-moeda": 12,
+      "fotografia": 9,
+      "selo": 6
+    },
+    "mean_endurecimento": 1.416,
+    "corpus_records_delta": 0
+  },
+  "notes": []
+}

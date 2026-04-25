@@ -1,0 +1,4 @@
+
+usage: conda [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda: error: unrecognized arguments: --no-banner
+  [ERRO] Falha na validação de schemas

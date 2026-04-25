@@ -1,0 +1,52 @@
+$kind: http-request
+description: >-
+  This is a GET request and it is used to "get" data from an endpoint. There is
+  no request body for a GET request, but you can use query parameters to help
+  specify the resource you want data on (e.g., in this request, we have `id=1`).
+
+
+  A successful GET response will have a `200 OK` status, and should include some
+  kind of response body - for example, HTML web content or JSON data.
+url: postman-echo.com/get
+method: GET
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test("Status code is 200", function () {
+          pm.expect(pm.response.code).to.eql(200);
+      });
+
+      pm.test("Response time is under 2000ms", function () {
+          pm.expect(pm.response.responseTime).to.be.below(2000);
+      });
+
+      pm.test("Response has JSON body", function () {
+          pm.response.to.be.json;
+      });
+
+      pm.test("Response body has args property and it is an object", function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property("args");
+          pm.expect(jsonData.args).to.be.an("object");
+      });
+
+      pm.test("Response body has headers property and it is an object", function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property("headers");
+          pm.expect(jsonData.headers).to.be.an("object");
+      });
+
+      pm.test("Response body has url property and it equals the request URL", function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property("url");
+          pm.expect(jsonData.url).to.eql("https://postman-echo.com/get");
+      });
+
+      pm.test("Headers contain host and it equals postman-echo.com", function () {
+          var jsonData = pm.response.json();
+          pm.expect(jsonData.headers).to.have.property("host");
+          pm.expect(jsonData.headers.host).to.eql("postman-echo.com");
+      });
+    language: text/javascript
+examples: .resources/Get data.resources/examples
+order: 1000

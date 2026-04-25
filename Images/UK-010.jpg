@@ -1,0 +1,4306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+          "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <title>
+    Cartoons, by Sir John Tenniel&mdash;A Project Gutenberg eBook
+  </title>
+
+  <link rel="coverpage" href="images/cover.jpg" />
+
+  <style type="text/css">
+
+    body {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    h1, h2 {
+      text-align: center;
+      clear: both;
+    }
+
+    h1 {
+      margin-top: 10%;
+      margin-bottom: 2%;
+      font-family: 'Bookman Old Style', 'Bookman', serif;
+    }
+
+    h2 {
+      margin-top: 5%;
+      margin-bottom: 2%;
+      font-family: 'Bookman Old Style', 'Bookman', serif;
+      line-height: 2em;
+    }
+
+    p {
+      margin-top: .5em;
+      text-align: justify;
+      margin-bottom: .5em;
+      text-indent: 1em;
+    }
+
+    p.hang {
+      margin-top: .5em;
+      text-align: justify;
+      margin-bottom: .5em;
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .chapter {
+      clear: both;
+      margin-top: 10%;
+    }
+
+    hr {
+      width: 35%;
+      margin: 1% 32.5%;
+      clear: both;
+    }
+
+    hr.page {
+      width: 65%;
+      margin: 5% 17.5%;
+    }
+
+    hr.r15 {
+      width: 15%;
+      margin: auto 42.5%;
+    }
+
+    /* === fonts === */
+    .large      { font-size: large; }
+    .xxlarge    { font-size: xx-large; }
+    .medium     { font-size: medium; }
+    .small      { font-size: small; }
+    .smcap      { font-variant: small-caps; }
+    .bookman    { font-family: 'Bookman Old Style', 'Bookman', serif; }
+    .red        { color: red; }
+    .underline  { text-decoration: underline; }
+
+    /* === Alignment === */
+    .mt0  { margin-top: 0; }
+    .mt1  { margin-top: 1%; }
+    .mt2  { margin-top: 2%; }
+    .mt10 { margin-top: 10%; }
+    .mb0  { margin-bottom: 0; }
+    .mb2  { margin-bottom: 2%; }
+    .lh1  { line-height: 1.6em; }
+    .center { text-align: center; }
+    .left {text-align: left;}
+    .right {text-align: right;}
+
+    .rightinset {
+      text-align: right;
+      margin-right: 2%;
+    }
+
+    /* === Page #s === */
+    .pagenum { /* uncomment the next line for invisible page numbers */
+      /*  visibility: hidden;  */
+      right: 1%;
+      font-size: x-small;
+      background-color: inherit;
+      color: silver;
+      text-indent: 0;
+      text-align: right;
+      position: absolute;
+      border: thin solid silver;
+      padding: .1em .2em;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      text-decoration: none;
+    }
+
+    /* === Tables === */
+    table {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .tdm {
+      font-size: large;
+    }
+
+    .tdl {
+      text-align: justify;
+      padding-left: 1.4em;
+      font-size: small;
+    }
+
+    .tdr {
+      font-size: small;
+      min-width: 20%;
+    }
+
+    .tdr div {
+      text-align: right;
+    }
+
+    .leaf div {
+      text-align: center;
+    }
+
+    /* === Poetry === */
+    .poetry-container {
+      text-align: center;
+      font-size: small;
+    }
+
+    .poetry {
+      display: inline-block;
+      text-align: left;
+      font-size: 90%;
+      padding-left: 4.5em;
+    }
+
+    .stanza { margin: 3% auto 0% auto; }
+    .stanza2 { margin: 0% auto; }
+    div.i0  { text-indent: -4.5em; }
+    div.i1  { text-indent: -4.0em; }
+    div.i2  { text-indent: -3.6em; }
+    div.i3  { text-indent: -3.0em; }
+    div.i5  { text-indent: -2.3em; }
+    div.i8  { text-indent: -0.8em; }
+    div.i10 { text-indent: 0.4em; }
+    div.i15 { text-indent: 4em; }
+    div.i18 { text-indent: 6em; }
+    div.i20 { text-indent: 11.5em; }
+
+    /* === Images === */
+    .figcenter {
+      margin: 3% auto 2% auto;
+      text-align: center;
+      page-break-inside: avoid;
+    }
+
+    .caption {
+      margin-top: 1%;
+      margin-bottom: 1%;
+      font-size: 120%;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .attribr {
+      float: right;
+      font-size: xx-small;
+      font-style: italic;
+      line-height: 0.6em;
+      margin-bottom: 2%;
+    }
+
+    .attribl {
+      float: left;
+      font-size: xx-small;
+      font-style: italic;
+      line-height: 0.6em;
+    }
+
+    .w480 { width: 480px; }
+    .w600 { width: 600px; }
+    .w700 { width: 600px; }
+
+    @media screen, print {
+
+      p.drop-cap { text-indent: 0; }
+      p.drop-cap:first-letter {
+        float: left;
+        font-size: 350%;
+        margin: 0% 0.1% 0 0;
+        line-height: 0.85em;
+      }
+    }
+
+    @media handheld {
+      body { margin: 0; }
+
+      /* page break instead of rule for chapter heading */
+      hr.page {
+        display: none;
+        page-break-before: always;
+      }
+
+      h1, h2 {
+        page-break-before: always;
+      }
+
+      p.drop-cap { text-indent: 0; }
+      p.drop-cap:first-letter {
+        float: none;
+        font-size: inherit;
+        margin: inherit;
+        line-height: inherit;
+      }
+
+      .w480 { width: 480px; }
+      .w600 { width: 600px; }
+      .w700 { width: 600px; }
+
+      .attribr {
+        float: right;
+        font-size: xx-small;
+        font-style: italic;
+        line-height: 0.6em;
+        margin-bottom: 2%;
+      }
+
+      .attribl {
+        float: left;
+        font-size: xx-small;
+        font-style: italic;
+        line-height: 0.6em;
+      }
+
+      .forenote { display: none; }
+
+    }
+
+    /* === Transcriber's notes === */
+    .transnote {
+      background-color: #E6E6FA;
+      color: black;
+      font-size: smaller;
+      padding: 0.5em;
+      margin-bottom: 5em;
+      font-family: sans-serif, serif;
+    }
+
+    .forenote {
+      background-color: #E6E6FA;
+      color: black;
+      font-size: smaller;
+      padding: 0.5em;
+      margin-bottom: 5em;
+      font-family: sans-serif, serif;
+    }
+
+  </style>
+</head>
+
+<body>
+
+
+<pre>
+
+The Project Gutenberg EBook of Cartoons by Sir John Tenniel, by John Tenniel
+
+This eBook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever.  You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this eBook or online at
+www.gutenberg.org.  If you are not located in the United States, you'll
+have to check the laws of the country where you are located before using
+this ebook.
+
+
+
+Title: Cartoons by Sir John Tenniel
+       Selected from the pages of "Punch"
+
+Author: John Tenniel
+
+Release Date: June 24, 2019 [EBook #59801]
+
+Language: English
+
+Character set encoding: UTF-8
+
+*** START OF THIS PROJECT GUTENBERG EBOOK CARTOONS BY SIR JOHN TENNNIEL ***
+
+
+
+
+Produced by Chris Curnow, Robert Tonsing, and the Online
+Distributed Proofreading Team at http://www.pgdp.net (This
+file was produced from images generously made available
+by The Internet Archive)
+
+
+
+
+
+
+</pre>
+
+
+  <div class="forenote">
+    <p><b>Note:</b> Cartoon images link to higher resolution versions.</p>
+  </div>
+
+  <div class="figcenter">
+    <img src="images/cover.jpg" width="596" height="800" alt="" />
+  </div>
+
+  <hr class="page" />
+
+  <div class="figcenter w480">
+    <a id="i_frontis"><img src="images/i_frontis.jpg" width="487" height="700" alt="" /></a>
+    <div class="attribl"><i>Elliott &amp; Fry</i>]</div>
+    <div class="attribr">[<i>London.</i></div>
+    <div class="caption">Sir John Tenniel.</div>
+  </div>
+
+  <h1>Cartoons</h1>
+
+  <div class="center bookman"><b>by</b></div>
+
+  <div class="red bookman center xxlarge mt2"><b>Sir John Tenniel</b></div>
+
+  <div class="center mt10">Selected from the Pages of “PUNCH.”</div>
+
+  <div class="center mt10">
+    LONDON:<br />
+    “PUNCH” OFFICE, 10, BOUVERIE STREET.
+  </div>
+
+  <hr class="page" />
+  <div class="center small ">
+    BRADBURY, AGNEW &amp; CO., LTD., PRINTERS,<br />
+    LONDON AND TONBRIDGE.
+  </div>
+
+  <hr class="page" />
+  <div class="chapter" id="Prefatory_Note">
+    <h2>Prefatory Note.</h2>
+  </div>
+
+  <hr class="r15" />
+  <p class="drop-cap">
+    THE present collection of Sir John Tenniel’s Cartoons is intended to be
+    a selection comprising the more memorable of those which have appeared
+    in “Punch” during the last 50 years. The first in the collection bears
+    the date of 1851, and the last is Sir John Tenniel’s final Cartoon in
+    January, 1901. Short explanatory notes have been provided, but as most
+    of them will, perhaps, be unnecessary to those to whom the Cartoons
+    themselves are familiar, they have been grouped together and combined
+    with the Table of Contents at the commencement of the volume, where
+    they can readily be referred to.
+  </p>
+
+  <p><i>March, 1901.</i></p>
+
+  <hr class="page" />
+  <div class="chapter" id="CONTENTS">
+    <h2>Contents.</h2>
+  </div>
+
+  <table summary="Contents">
+    <tr>
+      <th>&nbsp;</th>
+      <th class="tdr"><div>PAGE</div></th>
+    </tr>
+    <tr>
+      <td class="tdm"><a href="#i_002-3">May Day, 1851</a></td>
+      <td class="tdr"><div>2-3</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Great Exhibition of All Nations was opened in Hyde
+      Park on May Day, 1851, by the Queen and the Prince Consort.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_004">The Bear and the Bees.—A New
+      Version of an Old Story</a></td>
+      <td class="tdr"><div>4</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The invasion of Turkey by the Russian forces had been met
+      by an unexpected resistance, and had aroused the hostility of the European Powers.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_005">What Nicholas Heard in the Shell</a></td>
+      <td class="tdr"><div>5</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Emperor Nicholas of Russia had provoked a declaration
+      of war by England and France, and his armies had already suffered several defeats.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_006-7">The British Lion’s Vengeance on the Bengal Tiger</a></td>
+      <td class="tdr"><div>6-7</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The horrible misdeeds of the native Indian soldiers after the
+      Mutiny aroused throughout the country an uncontrollable desire for revenge.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_008">The Quaker and the Bauble</a></td>
+      <td class="tdr"><div>8</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Mr. Bright, at this time, in his zeal for Parliamentary Reform,
+      was unsparing in his attacks upon the Landed Interest and the Aristocracy.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_009">John Bull Guards his Pudding</a></td>
+      <td class="tdr"><div>9</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">This year marks the formation of the Volunteer force, which
+      elicited an enthusiastic response from all classes.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_010">Dame Cobden’s New Pupil</a></td>
+      <td class="tdr"><div>10</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Richard Cobden was the means of procuring a Treaty of
+      Commerce between France and England—beneficial to both countries.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_011">Lyndhurst as Nestor rebukes the Chiefs</a></td>
+      <td class="tdr"><div>11</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Lord Lyndhurst—the Nestor of the House of Lords—in a
+      speech of great power reproved the Government for their neglect of the Navy.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_012">Right Leg in the Boot at Last</a></td>
+      <td class="tdr"><div>12</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Victor Emmanuel, King of Sardinia, was patriotically urged
+      by General Garibaldi to aid in the liberation of the Italian Peninsula.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_013">New Elgin Marbles</a></td>
+      <td class="tdr"><div>13</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Lord Elgin, having with the English and French forces
+      occupied Pekin, compelled the Chinese Emperor to pay the indemnity for the last war.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_014">“Beggar my Neighbour”</a></td>
+      <td class="tdr"><div>14</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Emperor Napoleon was making great additions to the
+      French Navy, provoking a corresponding increase by Great Britain.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_015">Papal Allocution.—Snuffing out Modern Civilisation</a></td>
+      <td class="tdr"><div>15</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Pope Pius the Ninth had issued an Allocution condemning
+      without reserve all aspirations for Reform at home and abroad.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_016">King Cotton Bound</a></td>
+      <td class="tdr"><div>16</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The outbreak of the Civil War in the United States prevented
+      the exportation of cotton, and produced great misery in our manufacturing districts.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_017">Waiting for an Answer</a></td>
+      <td class="tdr"><div>17</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The intrusion on a British ship by United States officials and
+      the seizure therefrom of Envoys from the Southern States, led to a demand from Great Britain for their release.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_018">Columbia’s Fix</a></td>
+      <td class="tdr"><div>18</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The justice of Great Britain’s demand was eventually acknowledged
+      by the United States, and the Envoys were set at liberty.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_019">Peace</a></td>
+      <td class="tdr"><div>19</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">“Mr. Punch’s” design for a Colossal Statue, which ought to
+      have been placed in the International Exhibition.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm">
+        <span class="pagenum"><a id="Page_viii">viii</a></span>
+        <a href="#i_020">The “Sensation” Struggle in America</a>
+      </td>
+      <td class="tdr"><div>20</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Civil War in the United States was being conducted with
+      great courage on both sides, and many bloody battles had been fought.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_021">Britannia Discovering the Source of the Nile</a></td>
+      <td class="tdr"><div>21</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The sources of the river Nile, which previously had been
+      unknown, were discovered by two British travellers, Captains Speke and Grant.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_022-23">At Home and Abroad</a></td>
+      <td class="tdr"><div>22-23</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Princess Alexandra of Denmark (now our Queen) made
+      her entry into London amidst an amazing outburst of affection from all classes.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_024">Miranda and Prospero</a></td>
+      <td class="tdr"><div>24</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The signs of unrest amongst the European Nationalities were
+      attributed to the unscrupulous policy of the Emperor of the French.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_025">Shakspeare and the Pigmies</a></td>
+      <td class="tdr"><div>25</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The celebration of the Tercentenary of the birth of Shakspeare
+      was believed to have been productive of much self-advertisement amongst professional journalists.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_026-27">The American Juggernaut</a></td>
+      <td class="tdr"><div>26-27</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The long-continued intensity of the Civil War in the United
+      States had been accompanied by enormous losses on both sides.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_028">Britannia Sympathises with Columbia</a></td>
+      <td class="tdr"><div>28</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The murder of Abraham Lincoln, President of the United
+      States, after the conclusion of the Civil War, evoked widespread feelings of sympathy from all classes of society.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_029">Vulcan’s Best Customer</a></td>
+      <td class="tdr"><div>29</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The overmastering success of the Prussian Needle-gun in the
+      Austro-Prussian War had given an immense impetus to the manufacture of arms of precision.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_030-31">Gladiators preparing for the Arena</a></td>
+      <td class="tdr"><div>30-31</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Conservatives being at this time in office, Parliament
+      opened with indications of an unusual bitterness of party warfare.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_032">“Onward!”</a></td>
+      <td class="tdr"><div>32</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Impressed by the indications of unrest in France, the Emperor
+      had proposed to grant a modified form of Constitutional Government.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_033">France, Sept. 4, 1870</a></td>
+      <td class="tdr"><div>33</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The surrender of the French Emperor at Sedan was followed
+    by the fall of the Empire and the establishment of the
+    Republic at Paris.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_034-35">A Vision on the Way. “BEWARE!”</a></td>
+      <td class="tdr"><div>34-35</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">France had declared war against Germany, and the Emperor
+      Napoleon and his son had left Paris to take command. The shade of the Great
+      Napoleon forebodes the disasters which followed.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_036">Versailles, Oct. 5, 1870</a></td>
+      <td class="tdr"><div>36</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Versailles from this date became the head-quarters of the
+      German army investing Paris, and the Prussian King was here proclaimed Emperor in Germany.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_037">Ajax Defying the Lightning</a></td>
+      <td class="tdr"><div>37</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Mr. Gladstone, after being defeated on the question of Abolition
+      of Purchase, advised the Queen to put an end to purchase by Royal Warrant.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_038-39">“Vae Victis!”</a></td>
+      <td class="tdr"><div>38-39</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">On March 1st, after the conclusion of Peace at Versailles, the
+      German army marched into Paris.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_040">Suspense</a></td>
+      <td class="tdr"><div>40</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The country was in great anxiety on account of the critical
+      condition of the Prince of Wales.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_041">The Loving Cup</a></td>
+      <td class="tdr"><div>41</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">In respect to the “Alabama” Claims Great Britain was
+      judged responsible for a sum of 15,500,000 dollars in gold, in full satisfaction of all claims.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_042">Paradise and the Peri</a></td>
+      <td class="tdr"><div>42</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The General Election had given the Conservatives a majority,
+      and Mr. Disraeli became Premier for the second time.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_043">Dearly Bought</a></td>
+      <td class="tdr"><div>43</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Sir Garnet Wolseley’s march to Coomassie involved much
+      loss of life, with little more result than the possession of the Umbrella, the symbol of Ashanti sovereignty.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_044">The Damp Roman Candle</a></td>
+      <td class="tdr"><div>44</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The fulminations of the Vatican against the Anti-Infallibility
+      pamphlet of Mr. Gladstone had failed to produce the effect intended.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm">
+        <span class="pagenum"><a id="Page_ix">ix</a></span>
+        <a href="#i_045">“Mosé in Egitto!!!”</a></td>
+      <td class="tdr"><div>45</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Mr. Disraeli had successfully effected the purchase from the
+      Khedive, for the sum of £4,000,000, of all his shares in the Suez Canal.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_046-47">Waiting to be Won</a></td>
+      <td class="tdr"><div>46-47</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">An Arctic expedition in search of the North Pole, consisting
+      of H.M. ships <i>Alert</i> and <i>Discovery</i>, had sailed on the 29th of May.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_048">Stuck in the Mud</a></td>
+      <td class="tdr"><div>48</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">After the death of M. Thiers, Marshal MacMahon maintained a
+      stubborn attitude; he was believed to be under the influence of reactionary advisers.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_049">The “Pas de Deux!”</a></td>
+      <td class="tdr"><div>49</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Upon their return from Berlin Lords Beaconsfield and
+      Salisbury were invested with the Order of the Garter.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_050-51">Imperium et Libertas!</a></td>
+      <td class="tdr"><div>50-51</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">An adaptation of Lord Beaconsfield’s phrase, suggested by
+      the state of things in Russia, where there had been another Nihilist attempt upon the life of the Emperor.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_052">The School of Musketry</a></td>
+      <td class="tdr"><div>52</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">At the battle of Majuba Hill the Boers had shown their
+      superiority in marksmanship. “Mr. Punch” points the lesson for the benefit of the Duke of Cambridge.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_053">A Common Sorrow</a></td>
+      <td class="tdr"><div>53</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">General Garfield, President of the United States, had succumbed
+      to the effect of the shot of the assassin Guiteau, who had fired at him on July 2nd.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_054-55">“Out of the Wood!” </a></td>
+      <td class="tdr"><div>54-55</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Irish Land Bill, designed in the interests of Hibernia,
+      after many difficulties had finally passed.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_056">Change of Address</a></td>
+      <td class="tdr"><div>56</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The new Royal Courts of Justice in the Strand were opened
+      by Queen Victoria on the 4th December.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_057">On the Trail </a></td>
+      <td class="tdr"><div>57</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Seventeen persons suspected of complicity with the Phœnix
+      Park murders had been arrested. There was a good hope of at length securing the clue to the series of crimes.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_058">Snubbed!</a></td>
+      <td class="tdr"><div>58</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">An exchange of visits, the first for the last 200 years, had
+      taken place between the German and Spanish Courts. This aroused jealousy in France,
+      where the Spanish King had recently been rudely received.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_059">“Mirage”</a></td>
+      <td class="tdr"><div>59</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">At this time General Gordon at Khartoum was isolated. His
+      appeal for assistance and the opening of communications with Khartoum by the Suakin-Berber route, was still delayed.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_060">“Mrs. Micawber”</a></td>
+      <td class="tdr"><div>60</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">This Cartoon refers to Mr. Gladstone’s vacillating Egyptian
+      policy, and pictures him as “Micawber waiting for something to turn up.” The
+      Liberal Party, however, like Mrs. Micawber, remained loyal to the Premier.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_061">“Wait till the Clouds roll by”</a></td>
+      <td class="tdr"><div>61</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Mr. Gladstone, burdened with political complications at
+      home and abroad, ill-health and impaired voice, was resting and recruiting
+      at Hawarden. The advice here tendered to him was the title of a popular song.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_062">“Too Late!”</a></td>
+      <td class="tdr"><div>62</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">When Sir Charles Wilson at last succeeded in approaching
+      Khartoum, the Mahdi’s flag was flying upon what had been Gordon’s citadel.
+      Khartoum had fallen, and its dauntless defender with it.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_063">“Only his Play” (!!!)</a></td>
+      <td class="tdr"><div>63</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Russians had attacked the Afghans at Penjdeh, and each
+      side charged the other with provoking the conflict.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_064">The Broken Covenant</a></td>
+      <td class="tdr"><div>64</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">On April 27 Mr. Gladstone made use of the above significant
+      words with reference to an arrangement or covenant with Russia concerning
+      Afghanistan, which Russia appeared to have broken.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_065">Our Protean Premier!</a></td>
+      <td class="tdr"><div>65</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">On May 4 Mr. Gladstone removed all immediate fear of
+      war, by announcing that Russia and England would resume negotiations for the delimitation of the Afghan frontier.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_066">The “Irrepressible” Tourist</a></td>
+      <td class="tdr"><div>66</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The occupation by Germany of the Caroline Islands had excited
+      Spanish feeling. England, too, regarded with apprehension the active “Colonial
+      Policy” of Bismarck at this time.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_067">The Waits</a></td>
+      <td class="tdr"><div>67</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">At the end of the year, Lord Salisbury determined to remain
+      in office, though left by the General Election in a minority.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_068">The Grand Young Man!!</a></td>
+      <td class="tdr"><div>68</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Lord Randolph Churchill had been appointed Chancellor of
+      the Exchequer and Leader of the House of Commons in the new Salisbury Ministry.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm">
+        <span class="pagenum"><a id="Page_x">x</a></span>
+        <a href="#i_069">Sink or Swim!!</a>
+      </td>
+      <td class="tdr"><div>69</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Mr. Gladstone had introduced his Home Rule Bill, and had
+      deliberately set his fortune and that of his party upon the policy thereby involved.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_070-71">“1886”</a></td>
+      <td class="tdr"><div>70-71</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">This travesty depicts the retreat of the Liberal Party on the
+      defeat of the second reading of Mr. Gladstone’s Home Rule Bill.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_072">The Tempter</a></td>
+      <td class="tdr"><div>72</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Certain Socialists and Anarchists had taken advantage of the
+      prevailing poverty and lack of work to make inflammatory appeals to the unemployed.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_073">Salisbury Sisyphus</a></td>
+      <td class="tdr"><div>73</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Lord Salisbury had to face the difficulties of the Irish question—a
+      task as formidable to him as to his predecessors.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_074-75">“What of the Night?”</a></td>
+      <td class="tdr"><div>74-75</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The action of Russia (the Great Northern Bear) in Bulgaria
+      and elsewhere at this time seemed likely to involve a disturbance of the peace of Europe.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_076">“Quite English, you know”</a></td>
+      <td class="tdr"><div>76</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">President Cleveland was at this time advocating in America
+      the adoption of the English system of Free Trade.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_077">Bear or Bug-Bear?</a></td>
+      <td class="tdr"><div>77</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Russia, in consequence of her huge armaments and equivocal
+      policy, seemed a standing menace to the peace of Europe.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_078-79">In the Arena</a></td>
+      <td class="tdr"><div>78-79</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The two sides are shown parading before the reassembling of
+      Parliament—the Unionists (Tory and Liberal) under Lord Salisbury, the Home Rulers under Mr. Gladstone.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_080">Germany, March 9, 1888</a></td>
+      <td class="tdr"><div>80</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">On this date Germany was plunged into mourning owing to
+      the death of the Emperor William.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_081">Consol-ation</a></td>
+      <td class="tdr"><div>81</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Mr. Goschen’s National Debt Conversion Bill provided for
+      the conversion of the 3 per cent. Stocks into a new Stock bearing 2-3/4 per
+      cent. interest for fifteen years, and thereafter a guaranteed 2-1/2 per cent. for 20 years.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_082">What next?</a></td>
+      <td class="tdr"><div>82</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The popularity of General Boulanger suggested the idea that
+      France was growing weary of a Republican “regime.”</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_083">“Panic amongst the Pigs!”</a></td>
+      <td class="tdr"><div>83</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">A Papal Rescript, condemning the Plan of Campaign and the
+      practice of Boycotting, caused some excitement among the Irish Nationalists.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_084">Plain English!</a></td>
+      <td class="tdr"><div>84</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">England was aggrieved by the action of Portugal in reference
+      to the Delagoa Railway, and by insults to the British flag committed by the Portuguese.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_085">From the Nile to the Neva</a></td>
+      <td class="tdr"><div>85</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">“And the Egyptians made the children of Israel to serve
+      with rigour. And they made their lives bitter with hard bondage.”—EXODUS.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_086-87">Dropping the Pilot</a></td>
+      <td class="tdr"><div>86-87</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">In consequence of disagreement with the German Emperor,
+      Prince Bismarck resigned his post of Chancellor.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_088">The McGladstone!</a></td>
+      <td class="tdr"><div>88</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Mr. Gladstone had started for Midlothian to carry on another
+      political campaign for the rallying of his forces.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_089">“Separatists”</a></td>
+      <td class="tdr"><div>89</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Owing to the scandal arising out of the O’Shea divorce case,
+      Mr. Gladstone refused to co-operate any longer with Mr. Parnell as leading the Irish Home Rule Party.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_090">Arbitration</a></td>
+      <td class="tdr"><div>90</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Americans claimed to make the Behring Sea a mare
+      clausum, and it was thought advisable to establish a “close-time” for the seals.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_091">“Retire!—What do <i>you</i> think?”</a></td>
+      <td class="tdr"><div>91</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">A rumour that Mr. Gladstone was about to retire from
+    political life proved to be without foundation.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_092">Coriolanus</a></td>
+      <td class="tdr"><div>92</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Prince Bismarck had inspired in the columns of the Hamburger
+      Nachrichten, incessant attacks upon the Imperial  policy, and especially upon
+      the proceedings of his successor, Caprivi.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_093">“Advance, Australia!”</a></td>
+      <td class="tdr"><div>93</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">A scheme, advocated by Sir Henry Parkes, was under consideration
+      for establishing “one great Union Government” amongst the Australian Colonies.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm">
+        <span class="pagenum"><a id="Page_xi">xi</a></span>
+        <a href="#i_094-95">Mr. Punch’s Jubilee Pageant</a>
+      </td>
+      <td class="tdr"><div>94-95</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">In July “Mr. Punch” celebrated his Jubilee. The sketches
+      surrounding the Pageant are of selected cartoons illustrating events ranging over 50 years.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_096">“Turning the Tables”</a></td>
+      <td class="tdr"><div>96</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The suggestion of “Turning the Tables” was that on this
+      occasion the Man (France) was dancing to the tune of the Bear acting as leader.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_097">“What will he do with it?”</a></td>
+      <td class="tdr"><div>97</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">It was hoped that some portion of the large Russian loan
+      might be applied to the relief of misery rather than for war preparations.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_098">Trying it on!</a></td>
+      <td class="tdr"><div>98</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">A rapprochement between Russia and Italy was considered
+    likely to weaken the strength of the Triple Alliance.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_099">The Coming of Ninety-Two</a></td>
+      <td class="tdr"><div>99</div></td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_100">“Short-’anded”</a></td>
+      <td class="tdr"><div>100</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">“The whole legal machinery is out of gear, and the country
+      is too busy to put it right.”—<i>Law Times.</i></td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_101">The Attack on the “Capital”</a></td>
+      <td class="tdr"><div>101</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Liberal Party, which had organised great public meetings
+      in London, were making a determined effort to capture the Tory stronghold.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_102-103">“Her Majesty’s Servants”</a></td>
+      <td class="tdr"><div>102-103</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Parliament opened for its last Session previous to the
+      General Election in July, which gave Mr. Gladstone a small majority.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_104">Younger than ever!</a></td>
+      <td class="tdr"><div>104</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The great Liberal leader, who had been recruiting his health
+      in the South of France, had returned and resumed the leadership.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_105">The Dynamite Dragon</a></td>
+      <td class="tdr"><div>105</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Dynamitards had committed many outrages on the
+      Continent, and the destruction of property by dynamite had been made a capital offence by the French Chamber.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_106">The New “Queen of the May”</a></td>
+      <td class="tdr"><div>106</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Incendiary Manifestoes having been issued by the French
+      proletariat, it was feared that disturbances might ensue during the May Day celebrations on the Continent.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_107">“When Greek meets Greek”</a></td>
+      <td class="tdr"><div>107</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The two great leaders had issued stirring addresses to the
+      constituencies, and were preparing to grapple for supremacy at the approaching General Election.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_108">Mischief!</a></td>
+      <td class="tdr"><div>108</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Mr. Labouchere’s promises of support to the Government
+      were largely discounted by the report that he considered himself slighted at being left out of office.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_109">A Pilgrim’s Progress</a></td>
+      <td class="tdr"><div>109</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Liberal leader was resolved to persevere with his Home
+    Rule Bill, despite the lukewarm support of the Irish Nationalists
+    and the fierce opposition of the Ulster Unionists.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_110">Uncle Toby and Widow Wadman</a></td>
+      <td class="tdr"><div>110</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Ulster Defence Union had issued a Manifesto antagonistic
+      to the Home Rule scheme, and mass meetings were held at Belfast and other parts of Ulster.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_111">“The Minstrel Boy”</a></td>
+      <td class="tdr"><div>111</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Marquis of Salisbury had visited Belfast, and assisted in
+      the demonstrations against the Home Rule Bill.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_112">“Father William”</a></td>
+      <td class="tdr"><div>112</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The German Army Bill, which had been vehemently opposed
+      and rejected in the previous Parliament, was eventually passed.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_113">The French Wolf and the Siamese Lamb</a></td>
+      <td class="tdr"><div>113</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Disputes having arisen between the French and Siamese Governments concerning
+      the boundary of the river Mekong, an ultimatum was sent by France and unconditionally accepted.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_114">“Over the Hills and Far Away!”</a></td>
+      <td class="tdr"><div>114</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Premier had gone to Scotland for a well-earned holiday
+      rest after his arduous exertions during the debates on the Second Home Rule Bill.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_115">The “Forlorn Hope”</a></td>
+      <td class="tdr"><div>115</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">After the summary rejection of the Home Rule Bill by the
+      Peers, the liberal Party were daily awaiting the signal for an attack on the House of Lords.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_116">A Dirty Crossing</a></td>
+      <td class="tdr"><div>116</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The management of the Bank of England had been freely criticised in the Press.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_117">“Confidences”</a></td>
+      <td class="tdr"><div>117</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">There had been a debate in the Chamber of Deputies which
+      provoked comparisons between the French and English Navies.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_118">“Pluck’d!”</a></td>
+      <td class="tdr"><div>118</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Local Government Bill had been severely dealt with by the Lords in Committee,
+        notably the clauses dealing with the Parish Councils.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_119">Unarming</a></td>
+      <td class="tdr"><div>119</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">On March 1, 1894, Mr. Gladstone delivered his last speech
+      in the House of Commons previous to his final retirement from political life.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm">
+        <span class="pagenum"><a id="Page_xii">xii</a></span>
+        <a href="#i_120">Lemon-Squash</a>
+      </td>
+      <td class="tdr"><div>120</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Chancellor of the Exchequer increased the Income Tax
+      from 7<i>d.</i> to 8<i>d.</i></td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_121">“Vive la République!”</a></td>
+      <td class="tdr"><div>121</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">A stringent anti-Anarchist Bill had been passed by the French
+      Chamber after the assassination at Lyons of President Carnot.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_122">Jap the Giant-Killer</a></td>
+      <td class="tdr"><div>122</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">In the war arising out of the Corean dispute between China
+      and Japan, the Japanese forces gained easy victories, both on land and sea.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_123">“Vested Interests”</a></td>
+      <td class="tdr"><div>123</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The House of Lords had survived the repeated attacks made
+      upon it, both in the Commons and by its own Members.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_124">“All’s Well!”</a></td>
+      <td class="tdr"><div>124</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Russian Press at this time suggested that an Anglo-Russian
+      understanding would be of great advantage to the two nations.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_125">The New Passenger</a></td>
+      <td class="tdr"><div>125</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The year 1894 had been marked by many dynamite outrages on
+      the Continent, and specially by the assassination of President Carnot. The New Year opened under brighter auspices.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_126">“Who said—‘<i>Atrocities</i>’?”</a></td>
+      <td class="tdr"><div>126</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Mr. Gladstone had expressed his strong indignation at the
+    atrocities in Armenia, which had profoundly shocked the
+    mind of the country.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_127">Silent!</a></td>
+      <td class="tdr"><div>127</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The British occupation of Egypt still continued, the Egyptian
+      Government being powerless to suppress outrages on Europeans in Alexandria.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_128">An Easter ’Oliday </a></td>
+      <td class="tdr"><div>128</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The House of Commons had adjourned for the Easter
+      vacation. Both leaders were glad of repose after the exciting debates on the Welsh Disestablishment and Irish Land Bills.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_129">“William! ahoy!”</a></td>
+      <td class="tdr"><div>129</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Welsh Disestablishment Bill having been warmly discussed in the
+      Commons, Mr. Gladstone had withdrawn his pair with Mr. Villiers in order to keep “an open mind” on the question.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_130-131">The Old Crusaders!</a></td>
+      <td class="tdr"><div>130-131</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Duke of Argyll had presided at an indignation meeting
+      held in St. James’s Hall to protest against the Armenian atrocities.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_132">Old Warder William</a></td>
+      <td class="tdr"><div>132</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">After Sir William Harcourt’s defeat at Derby he was elected
+      for West Monmouthshire, the Radical candidate having retired in his favour.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_133">“Just a-goin’ to Begin!”</a></td>
+      <td class="tdr"><div>133</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">It was thought that in the coming Session the Jameson raid would bring
+      trouble to the Ministry, but this was averted by the skillful management of Mr. Balfour and the Colonial Secretary.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_134-135">The Tug of War</a></td>
+      <td class="tdr"><div>134-135</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">On an appeal from the Uitlanders at Johannesburg, Dr. Jameson crossed the Transvaal
+      frontier with an armed force. Mr. Chamberlain, however, intervened, and ordered him to retire.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_136">The Patient Ass</a></td>
+      <td class="tdr"><div>136</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Budget having shown a considerable surplus, an idea was prevalent that the
+      Chancellor of the Exchequer would relieve the income-tax payer.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_137">A Turkish Bath</a></td>
+      <td class="tdr"><div>137</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Porte at length realised the gravity of the situation in Crete.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_138">Preparing his Speech</a></td>
+      <td class="tdr"><div>138</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">A genial allusion to the many changes which had marked Mr. Chamberlain’s political career.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_139">“Turkey Limited”</a></td>
+      <td class="tdr"><div>139</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">It was reported that the Powers had considered a scheme for a Turkish loan,
+      to be applied under European control to the cost of the Judiciary, Revenue and Police service.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_140">“Seaside Lodgings”</a></td>
+      <td class="tdr"><div>140</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Cartoon foreshadowed Russian designs upon the Chinese naval arsenal
+      at Port Arthur, which in fact came into her possession a year later.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_141">The Queen’s Year! </a></td>
+      <td class="tdr"><div>141</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">In June of this year Queen Victoria celebrated her Jubilee.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm">
+        <span class="pagenum"><a id="Page_xiii">xiii</a></span>
+        <a href="#i_142">Against the Grain</a>
+      </td>
+      <td class="tdr"><div>142</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Cretans having revolted against Turkish misrule, Greece intervened with an
+      armed force, but was ordered by the Allied Powers to withdraw.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_143">Tender Mercies!</a></td>
+      <td class="tdr"><div>143</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Allied Powers had decided to grant autonomy to Crete, but under Turkish suzerainty.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_144">“Who says ‘Sick Man’ now?”</a></td>
+      <td class="tdr"><div>144</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">After the recall of the Greek army, the Turkish forces were
+      successful in a conflict with the Cretan insurgents.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_145">Spithead, June 26</a></td>
+      <td class="tdr"><div>145</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">At this great Review of the Fleet there were present 165 British war-ships.
+      Official representatives from the various Colonies participated in the display.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_146-147">“For Queen and Empire!!”</a></td>
+      <td class="tdr"><div>146-147</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Cartoon is typical of the great celebrations which marked the Queen’s
+      Diamond Jubilee. The Colonial, Asiatic, and African contingents took part in the procession on June 22.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_148">“Brothers in Arms”</a></td>
+      <td class="tdr"><div>148</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">A treacherous attack had been made at Maizar on the Political Officer’s escort.
+      The British loss was heavy, but the Native Infantry behaved with the greatest gallantry.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_149">Saved!</a></td>
+      <td class="tdr"><div>149</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">England, Russia and France, the Powers originally responsible for the freedom
+      of Greece, agreed to jointly guarantee a loan to that country.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_150">“Financial Relations”</a></td>
+      <td class="tdr"><div>150</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Colonel Saunderson, Mr. Healy, and Mr. Lecky had united in supporting the
+      Irish Local Government Bill, which assigned £700,000 a year to Ireland.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_151">Bull-Baiting</a></td>
+      <td class="tdr"><div>151</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Continental ill-feeling against Great Britain was at this time
+      more than usually manifested.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_152">Sentinels</a></td>
+      <td class="tdr"><div>109</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The occupation of Port Arthur by Russia seemed to leave Great Britain no
+      alternative but to adopt a similar course with Wei-Hai-Wei.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_153">The Duello</a></td>
+      <td class="tdr"><div>153</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The United States, on account of Spanish misrule in Cuba, had declared war against Spain.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_154-155">Bismarck</a></td>
+      <td class="tdr"><div>154-155</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Prince Bismarck, the great Chancellor of the German Empire, died on July 30, 1898.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_156">Honour à la Russe</a></td>
+      <td class="tdr"><div>156</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">When the Russians occupied Talien-Wan it was understood that it was to be a free port.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_157">Our Masters’ Masters</a></td>
+      <td class="tdr"><div>157</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Sympathy for the Costers had led to the rejection of a
+      municipal bye-law for the repression of street shouting.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_158-159">Khartoum!</a></td>
+      <td class="tdr"><div>158-159</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Khartoum was captured by the Mahdi on Jan. 26, 1885, and General Gordon assassinated.
+      On Sept. 2, 1898, General Kitchener annihilated the Khalifa’s army and re-entered the town.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_160">A Fixture</a></td>
+      <td class="tdr"><div>160</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The conquest of the Soudan seemed to indicate a permanence of the British occupation of Egypt.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_161">Under the Mistletoe</a></td>
+      <td class="tdr"><div>161</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Sir William Harcourt had written to Mr. John Morley announcing his retirement from
+      the leadership of the Liberal Party.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_162">A New Year’s Greeting</a></td>
+      <td class="tdr"><div>162</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Thanks to Mr. Henneker Heaton, some of the Colonies had accepted the principle of
+      an International Penny Postage.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_163">Diogenes-Morley</a></td>
+      <td class="tdr"><div>163</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Mr. Morley was one of the few who remained faithful to the traditions of the old Liberal Party.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_164">A Free Hand!</a></td>
+      <td class="tdr"><div>164</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Parliament had been prorogued, and the Government would in the interim, it was thought,
+      have a free hand in the South African and other questions.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_165">Open at Last!</a></td>
+      <td class="tdr"><div>165</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Russians had made Talien-Wan a free port. There had been some doubt as to Russia’s intentions.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_166">Plain English</a></td>
+      <td class="tdr"><div>166</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Transvaal Government had sent an insolent Ultimatum to Great Britain, requiring
+      the withdrawal within forty-eight hours of the British forces from the Boer frontiers.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm">
+        <span class="pagenum"><a id="Page_xiv">xiv</a></span>
+        <a href="#i_167">Who said “Dead”?</a>
+      </td>
+      <td class="tdr"><div>167</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">On Feb. 27, 1900, the anniversary of the Majuba Hill
+      disaster, General Cronje surrendered to General Roberts.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_168">Full of Resource</a></td>
+      <td class="tdr"><div>168</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The Chancellor of the Exchequer had announced in his Budget speech that he hoped
+      to recover a large proportion of the war expenses by taxation of the Transvaal.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_169">Good Wishes!</a></td>
+      <td class="tdr"><div>169</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">“Mr. Punch” here expresses his good wishes for the success
+      of the Paris Exhibition, which was shortly to be opened.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_170-171">The Avenger!</a></td>
+      <td class="tdr"><div>170-171</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Thrilling details had been published of the reported massacre of the British
+      and Foreign Ministers in Pekin. Happily this proved to be unfounded.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_172">The Imperial Dispensary</a></td>
+      <td class="tdr"><div>172</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">Great satisfaction was felt in the Colonies at the introduction
+      by Mr. Chamberlain of his Commonwealth of Australia Bill.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_173">Shifting his Capital</a></td>
+      <td class="tdr"><div>173</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">President Kruger had abandoned Pretoria on the near approach of the British forces,
+      taking with him, it was reported, bullion to the value of £2,000,000.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_174">In the Movement</a></td>
+      <td class="tdr"><div>174</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">On the advance of the Allied troops to Pekin the Empress
+      and the Chinese Court had fled to the interior.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_175">Reporting Himself</a></td>
+      <td class="tdr"><div>175</div></td>
+    </tr>
+    <tr>
+      <td class="tdl">The City of London Imperial Volunteers met with an enthusiastic reception in the City
+      and elsewhere on their return from South Africa.</td>
+      <td class="tdr">&nbsp;</td>
+    </tr>
+    <tr><td colspan="2" class="leaf"><div><img src="images/leaf.png" width="20" height="10" alt="" /></div></td></tr>
+    <tr>
+      <td class="tdm"><a href="#i_176-177">Time’s Appeal</a></td>
+      <td class="tdr"><div>176-177</div></td>
+    </tr>
+  </table>
+
+  <hr class="page" />
+  <div class="chapter" id="Cartoons">
+    <h2>
+      Cartoons<br />
+      <span class="medium">by</span><br />
+      Sir John Tenniel
+    </h2>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_2">2</span>
+    <a id="i_002-3" href="images/i_002-3large.jpg">
+      <img src="images/i_002-3.jpg" width="700" height="414" alt="" />
+    </a>
+    <div class="caption">May Day, Eighteen hundred and Fifty-one.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_4">4</span>
+    <div class="left"><i>July, 1853.</i></div>
+    <a id="i_004" href="images/i_004large.jpg">
+      <img src="images/i_004.jpg" width="700" height="521" alt="" />
+    </a>
+    <div class="caption">The Bear and the Bees.—A New Version of an Old Story.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_5">5</span>
+    <div class="left"><i>June, 1854.</i></div>
+    <a id="i_005" href="images/i_005large.jpg">
+      <img src="images/i_005.jpg" width="533" height="700" alt="" />
+    </a>
+    <div class="caption">What Nicholas heard in the Shell.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_6">6</span>
+    <div class="left mb2"><i>August, 1857.</i></div>
+    <a id="i_006-7" href="images/i_006-7large.jpg">
+      <img src="images/i_006-7.jpg" width="700" height="414" alt="" />
+    </a>
+    <div class="caption">The British Lion’s Vengeance on the Bengal Tiger.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_8">8</span>
+    <div class="left"><i>February, 1859.</i></div>
+    <a id="i_008" href="images/i_008large.jpg">
+      <img src="images/i_008.jpg" width="595" height="700" alt="" />
+    </a>
+    <div class="caption">The Quaker and the Bauble.</div>
+    <p class="small">
+      “It is the Land which the territorial party represents in
+      Parliament.... That is the theory of the Constitution: Blackstone
+      says so. But it is a thing which is not likely to be respected much
+      longer, and it must go, even if involving the destruction of the
+      Constitution.”—Mr. <span class="smcap">Bright</span>.
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_9">9</span>
+    <div class="left"><i>December, 1859.</i></div>
+    <a id="i_009" href="images/i_009large.jpg">
+      <img src="images/i_009.jpg" width="573" height="700" alt="" />
+    </a>
+    <div class="caption">John Bull Guards his Pudding.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_10">10</span>
+    <div class="left"><i>January, 1860.</i></div>
+    <a id="i_010" href="images/i_010large.jpg">
+      <img src="images/i_010.jpg" width="571" height="700" alt="" />
+    </a>
+    <div class="caption">Dame Cobden’s New Pupil.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_11">11</span>
+    <div class="left"><i>May, 1860.</i></div>
+    <a id="i_011" href="images/i_011large.jpg">
+      <img src="images/i_011.jpg" width="700" height="552" alt="" />
+    </a>
+    <div class="caption">Lyndhurst as Nestor rebukes the Chiefs.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_12">12</span>
+    <div class="left"><i>November, 1860.</i></div>
+    <a id="i_012" href="images/i_012large.jpg">
+      <img src="images/i_012.jpg" width="574" height="700" alt="" />
+    </a>
+    <div class="caption">Right Leg in the Boot at last.</div>
+    <div class="small">
+      <span class="smcap">Garibaldi.</span> “If it won’t go on, Sire, try a little more
+      powder.”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_13">13</span>
+    <div class="left"><i>November, 1860.</i></div>
+    <a id="i_013" href="images/i_013large.jpg">
+      <img src="images/i_013.jpg" width="567" height="700" alt="" />
+    </a>
+    <div class="caption">New Elgin Marbles.</div>
+    <div class="small">
+      <span class="smcap">Elgin to Emperor.</span> “Come, knuckle down! No cheating this
+      time!”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_14">14</span>
+    <div class="left"><i>March, 1861.</i></div>
+    <a id="i_014" href="images/i_014large.jpg">
+      <img src="images/i_014.jpg" width="700" height="542" alt="" />
+    </a>
+    <div class="caption">“Beggar my Neighbour.”</div>
+    <div class="small"><span class="smcap">Pam.</span> “Is not your Majesty tired of this foolish game?”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_15">15</span>
+    <div class="left"><i>April, 1861.</i></div>
+    <a id="i_015" href="images/i_015large.jpg">
+      <img src="images/i_015.jpg" width="568" height="700" alt="" />
+    </a>
+    <div class="caption">Papal Allocution.—Snuffing out Modern Civilisation.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_16">16</span>
+    <div class="left"><i>November, 1861.</i></div>
+    <a id="i_016" href="images/i_016large.jpg">
+      <img src="images/i_016.jpg" width="595" height="700" alt="" />
+    </a>
+    <div class="caption">King Cotton Bound;</div>
+    <div class="small">Or, The Modern Prometheus.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_17">17</span>
+    <div class="left"><i>December, 1861.</i></div>
+    <a id="i_017" href="images/i_017large.jpg">
+      <img src="images/i_017.jpg" width="562" height="700" alt="" />
+    </a>
+    <div class="caption">Waiting for an Answer.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_18">18</span>
+    <div class="left"><i>December, 1861.</i></div>
+    <a id="i_018" href="images/i_018large.jpg">
+      <img src="images/i_018.jpg" width="575" height="700" alt="" />
+    </a>
+    <div class="caption">Columbia’s Fix.</div>
+    <div class="small"><span class="smcap">Columbia.</span> “Which answer shall I send?”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_19">19</span>
+    <div class="left"><i>May, 1862.</i></div>
+    <a id="i_019" href="images/i_019large.jpg">
+      <img src="images/i_019.jpg" width="569" height="700" alt="" />
+    </a>
+    <div class="caption">Peace.</div>
+    <div class="small">Mr. <span class="smcap">Punch’s</span> Design for a colossal Statue which ought to have
+    been placed in the International Exhibition.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_20">20</span>
+    <div class="left"><i>June, 1862.</i></div>
+    <a id="i_020" href="images/i_020large.jpg">
+      <img src="images/i_020.jpg" width="561" height="700" alt="" />
+    </a>
+    <div class="caption">The “Sensation” Struggle in America.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_21">21</span>
+    <div class="left"><i>June, 1863.</i></div>
+    <a id="i_021" href="images/i_021large.jpg">
+      <img src="images/i_021.jpg" width="700" height="564" alt="" />
+    </a>
+    <div class="caption">Britannia Discovering the Source of the Nile.</div>
+    <div class="small"><span class="smcap">Britannia.</span> “Aha, Mr. Nilus! So I’ve found you at last!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_22">22</span>
+    <div class="left"><i>March, 1863.</i></div>
+    <a id="i_022-23" href="images/i_022-23large.jpg">
+      <img src="images/i_022-23.jpg" width="700" height="418" alt="" />
+    </a>
+    <div class="caption">At Home and Abroad.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_24">24</span>
+    <div class="left"><i>January, 1864.</i></div>
+    <a id="i_024" href="images/i_024large.jpg">
+      <img src="images/i_024.jpg" width="568" height="700" alt="" />
+    </a>
+    <div class="caption">Miranda and Prospero.</div>
+    <div class="small"><span class="smcap">Miranda</span> (<span class="smcap">Europe</span>). “If by your art, my dearest Louis,
+    you have put the wild waters in this roar, allay them.”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_25">25</span>
+    <div class="left"><i>January, 1864.</i></div>
+    <a id="i_025" href="images/i_025large.jpg">
+      <img src="images/i_025.jpg" width="563" height="700" alt="" />
+    </a>
+    <div class="caption">Shakspeare and the Pigmies.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_26">26</span>
+    <div class="left"><i>September, 1864.</i></div>
+    <a id="i_026-27" href="images/i_026-27large.jpg">
+      <img src="images/i_026-27.jpg" width="700" height="417" alt="" />
+    </a>
+    <div class="caption">The American Juggernaut.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_28">28</span>
+    <div class="left"><i>May, 1865.</i></div>
+    <a id="i_028" href="images/i_028large.jpg">
+      <img src="images/i_028.jpg" width="700" height="558" alt="" />
+    </a>
+    <div class="caption">Britannia Sympathises with Columbia.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_29">29</span>
+    <div class="left"><i>September, 1866.</i></div>
+    <a id="i_029" href="images/i_029large.jpg">
+      <img src="images/i_029.jpg" width="700" height="544" alt="" />
+    </a>
+    <div class="caption">Vulcan’s Best Customer.</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza2">
+          <span class="smcap">Peace.</span> “Not much doing, I suppose, Mr. Vulcan?”<br />
+          <span class="smcap">Vulcan.</span> “Doing! Thanks to you, Miss, I’ve a’most more work than I can manage.”
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_30">30</span>
+    <div class="left"><i>February, 1867.</i></div>
+    <a id="i_030-31" href="images/i_030-31large.jpg">
+      <img src="images/i_030-31.jpg" width="700" height="441" alt="" />
+    </a>
+    <div class="small smcap">
+      J. A. Roebuck. E. Horsman. T. Hughes. Lord Cranborne.<br />
+      S. H. Walpole. Sir John Pakington. Lord Stanley. R. Lowe. J. S. Mill.<br />
+      Lord John Russel. W. E. Gladstone. Earl of Derby. B. Disraeli. John Bright.
+    </div>
+    <div class="caption">Gladiators preparing for the Arena.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_32">32</span>
+    <div class="left"><i>January, 1870.</i></div>
+    <a id="i_032" href="images/i_032large.jpg">
+      <img src="images/i_032.jpg" width="546" height="700" alt="" />
+    </a>
+    <div class="caption">“Onward!”</div>
+  </div>
+
+ <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_33">33</span>
+    <div class="left"><i>September, 1870.</i></div>
+    <a id="i_033" href="images/i_033large.jpg">
+      <img src="images/i_033.jpg" width="541" height="700" alt="" />
+    </a>
+    <div class="caption">France, Sept. 4, 1870.</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza2">
+          <div class="i0">“Aux armes, Citoyens;</div>
+          <div class="i1">Formez vos bataillons!”</div>
+          <div class="i15"><i>The “Marseillaise.”</i></div>
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_34">34</span>
+    <div class="left"><i>July, 1870.</i></div>
+    <a id="i_034-35" href="images/i_034-35large.jpg">
+      <img src="images/i_034-35.jpg" width="700" height="414" alt="" />
+    </a>
+    <div class="caption">A Vision on the Way. “BEWARE!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_36">36</span>
+    <div class="left"><i>October, 1870.</i></div>
+    <a id="i_036" href="images/i_036large.jpg">
+      <img src="images/i_036.jpg" width="537" height="700" alt="" />
+    </a>
+    <div class="caption">Versailles, Oct. 5, 1870.</div>
+    <div class="small">
+      <span class="smcap">Ghost of Louis the Fourteenth</span> (to <span class="smcap">Ghost
+      of Napoleon the First</span>).<br />
+      “Is this the end of ‘All the Glories?’”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_37">37</span>
+    <div class="left"><i>July, 1871.</i></div>
+    <a id="i_037" href="images/i_037large.jpg">
+      <img src="images/i_037.jpg" width="547" height="700" alt="" />
+    </a>
+    <div class="caption">Ajax Defying the Lightning.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_38">38</span>
+    <div class="left"><i>March, 1871.</i></div>
+    <a id="i_038-39" href="images/i_038-39large.jpg">
+      <img src="images/i_038-39.jpg" width="426" height="700" alt="" />
+    </a>
+    <div class="caption">“Væ Victis!”</div>
+    <div class="small">Paris, March 1st, 1871.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_40">40</span>
+    <div class="left"><i>December, 1871.</i></div>
+    <a id="i_040" href="images/i_040large.jpg">
+      <img src="images/i_040.jpg" width="542" height="700" alt="" />
+    </a>
+    <div class="caption">Suspense.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_41">41</span>
+    <div class="left"><i>September, 1872.</i></div>
+    <a id="i_041" href="images/i_041large.jpg">
+      <img src="images/i_041.jpg" width="560" height="700" alt="" />
+    </a>
+    <div class="caption">The Loving Cup.</div>
+    <div class="small">“In this we bury all unkindness!”—<span class="smcap">Shakspeare.</span></div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_42">42</span>
+    <div class="left"><i>February, 1874.</i></div>
+    <a id="i_042" href="images/i_042large.jpg">
+      <img src="images/i_042.jpg" width="543" height="700" alt="" />
+    </a>
+    <div class="caption">Paradise and the Peri.</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza2">
+          <div class="i0">“Joy, joy for ever! My task is done—</div>
+          <div class="i1">The gates are passed, and Heaven is won!”</div>
+          <div class="i20"><i>Lalla Rookh.</i></div>
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_43">43</span>
+    <div class="left"><i>March, 1874.</i></div>
+    <a id="i_043" href="images/i_043large.jpg">
+      <img src="images/i_043.jpg" width="552" height="700" alt="" />
+    </a>
+    <div class="caption">Dearly Bought.</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza2">
+          <div class="i0"><span class="smcap">Sir Garnet.</span> “It don’t look much, Madam, but it has cost good
+            money, and better lives.”</div>
+          <div class="i0"><span class="smcap">Britannia.</span> “And but for you, Sir Garnet, might have cost more
+            of both!”</div>
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_44">44</span>
+    <div class="left"><i>December, 1874.</i></div>
+    <a id="i_044" href="images/i_044large.jpg">
+      <img src="images/i_044.jpg" width="542" height="700" alt="" />
+    </a>
+    <div class="caption">The Damp Roman Candle.</div>
+    <div class="small"><span class="smcap">Papa Pius.</span> “But it won’t go off!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_45">45</span>
+    <div class="left"><i>December, 1875.</i></div>
+    <a id="i_045" href="images/i_045large.jpg">
+      <img src="images/i_045.jpg" width="545" height="700" alt="" />
+    </a>
+    <div class="caption">“Mosé in Egitto!!!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_46">46</span>
+    <div class="left"><i>June, 1875.</i></div>
+    <a id="i_046-47" href="images/i_046-47large.jpg">
+      <img src="images/i_046-47.jpg" width="418" height="700" alt="" />
+    </a>
+    <div class="caption">Waiting to be Won.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_48">48</span>
+    <div class="left"><i>November, 1877.</i></div>
+    <a id="i_048" href="images/i_048large.jpg">
+      <img src="images/i_048.jpg" width="557" height="700" alt="" />
+    </a>
+    <div class="caption">Stuck in the Mud.</div>
+    <div class="small"><span class="smcap">M. le Maréchal</span> (loq.). “J’y suis! J’y reste!” (?)</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_49">49</span>
+    <div class="left"><i>August, 1878.</i></div>
+    <a id="i_049" href="images/i_049large.jpg">
+      <img src="images/i_049.jpg" width="552" height="700" alt="" />
+    </a>
+    <div class="caption">The “Pas de Deux!”</div>
+    <div class="small">(From the “Scène de Triomphe” in the Grand Anglo-Turkish Ballet
+    d’Action.)</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_50">50</span>
+    <div class="left"><i>February, 1880.</i></div>
+    <a id="i_050-51" href="images/i_050-51large.jpg">
+      <img src="images/i_050-51.jpg" width="427" height="700" alt="" />
+    </a>
+    <div class="caption">Imperium et Libertas!</div>
+    <div class="small">(Russ. Translation.)</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_52">52</span>
+    <div class="left"><i>May, 1881.</i></div>
+    <a id="i_052" href="images/i_052large.jpg">
+      <img src="images/i_052.jpg" width="550" height="700" alt="" />
+    </a>
+    <div class="caption">The School of Musketry.</div>
+    <p class="small"><span class="smcap">Boer</span> (to <span class="smcap">F. M. H. R. H. the Commander-in-Chief</span>). “I
+    say, Dook! You don’t happen to want a practical ‘Musketry Instructor,’
+    do you?”</p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_53">53</span>
+    <div class="left"><i>October, 1881.</i></div>
+    <a id="i_053" href="images/i_053large.jpg">
+      <img src="images/i_053.jpg" width="516" height="700" alt="" />
+    </a>
+    <div class="caption">A Common Sorrow.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_54">54</span>
+    <div class="left"><i>August, 1881.</i></div>
+    <a id="i_054-55" href="images/i_054-55large.jpg">
+      <img src="images/i_054-55.jpg" width="425" height="700" alt="" />
+    </a>
+    <div class="caption">“Out of the Wood!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_56">56</span>
+    <div class="left"><i>December, 1882.</i></div>
+    <a id="i_056" href="images/i_056large.jpg">
+      <img src="images/i_056.jpg" width="547" height="700" alt="" />
+    </a>
+    <div class="caption">Change of Address.</div>
+    <div class="small">“For Despatch of Business.”</div>
+    <p class="small">Mr. <span class="smcap">Punch</span> (to Themis). “Well, Madam, now that your New
+    Establishment is open, I trust the system you mean to adopt is—Low
+    Charges and no Delays.”</p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_57">57</span>
+    <div class="left"><i>February, 1883.</i></div>
+    <a id="i_057" href="images/i_057large.jpg">
+      <img src="images/i_057.jpg" width="548" height="700" alt="" />
+    </a>
+    <div class="caption">On the Trail.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_58">58</span>
+    <div class="left"><i>November, 1883.</i></div>
+    <a id="i_058" href="images/i_058large.jpg">
+      <img src="images/i_058.jpg" width="542" height="700" alt="" />
+    </a>
+    <div class="caption">Snubbed!</div>
+    <div class="small"><span class="smcap">Mossoo</span> (aside). “Ha!—with my hated Rival! Why was I so rude to
+    her?!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_59">59</span>
+    <div class="left"><i>April, 1884.</i></div>
+    <a id="i_059" href="images/i_059large.jpg">
+      <img src="images/i_059.jpg" width="556" height="700" alt="" />
+    </a>
+    <div class="caption">“Mirage.”</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza2">
+          <div class="i0"><span class="smcap">General Gordon</span>.... “What is it that I seem to see</div>
+          <div class="i5">Across the sand waste? Is it the quick gleam</div>
+          <div class="i5">Of English steel, or but a desert-dream?</div>
+          <div class="i8">Help—or that last illusion of distress,</div>
+          <div class="i8">The mocking Mirage of the wilderness?”</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_60">60</span>
+    <div class="left"><i>May, 1884.</i></div>
+    <a id="i_060" href="images/i_060large.jpg">
+      <img src="images/i_060.jpg" width="528" height="700" alt="" />
+    </a>
+    <div class="caption">“Mrs. Micawber.”</div>
+    <p class="small mb0">Mrs. M. (hysterically). “I never will do it! It’s of no use asking me!
+    I never will desert Mr. Micawber!!”</p>
+    <div class="small rightinset mt0"><i>David Copperfield</i>.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_61">61</span>
+    <div class="left"><i>January, 1885.</i></div>
+    <a id="i_061" href="images/i_061large.jpg">
+      <img src="images/i_061.jpg" width="558" height="700" alt="" />
+    </a>
+    <div class="caption">“Wait till the Clouds roll by!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_62">62</span>
+    <div class="left"><i>February, 1885.</i></div>
+    <a id="i_062" href="images/i_062large.jpg">
+      <img src="images/i_062.jpg" width="530" height="700" alt="" />
+    </a>
+    <div class="caption">“Too Late!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_63">63</span>
+    <div class="left"><i>April, 1885.</i></div>
+    <a id="i_063" href="images/i_063large.jpg">
+      <img src="images/i_063.jpg" width="700" height="533" alt="" />
+    </a>
+    <div class="caption">“Only his Play.” (!!!)</div>
+    <p class="small">“The Russian Government hope that this unlucky incident may not prevent
+    the continuance of the negotiations. (Laughter.)”—Mr. Gladstone,
+    quoting M. de Giers.</p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_64">64</span>
+    <div class="left"><i>May, 1885.</i></div>
+    <a id="i_064" href="images/i_064large.jpg">
+      <img src="images/i_064.jpg" width="553" height="700" alt="" />
+    </a>
+    <div class="caption">The Broken Covenant.</div>
+    <p class="small">“We cannot close this book, and say we will look into it no more.”—Mr.
+    Gladstone’s Speech, April 27th.</p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_65">65</span>
+    <div class="left"><i>May, 1885.</i></div>
+    <a id="i_065" href="images/i_065large.jpg">
+      <img src="images/i_065.jpg" width="537" height="700" alt="" />
+    </a>
+    <div class="caption">Our Protean Premier!</div>
+    <div class="small">(As “The Angel of Peace,” in his Unrivalled Variety-and-Quick-Change
+    Entertainment.)</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_66">66</span>
+    <div class="left"><i>August, 1885.</i></div>
+    <a id="i_066" href="images/i_066large.jpg">
+      <img src="images/i_066.jpg" width="558" height="700" alt="" />
+    </a>
+    <div class="caption">The “Irrepressible” Tourist.</div>
+    <div class="small"><span class="smcap">Bismarck.</span> “H’m!—Ha!—Where shall I go next?”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_67">67</span>
+    <div class="left"><i>December, 1885.</i></div>
+    <a id="i_067" href="images/i_067large.jpg">
+      <img src="images/i_067.jpg" width="547" height="700" alt="" />
+    </a>
+    <div class="caption">The Waits.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_68">68</span>
+    <div class="left"><i>August, 1886.</i></div>
+    <a id="i_068" href="images/i_068large.jpg">
+      <img src="images/i_068.jpg" width="560" height="700" alt="" />
+    </a>
+    <div class="caption">The Grand Young Man!!</div>
+    <div class="small"><span class="smcap">Shade of “Dizzy.”</span> “Dear me! Quite reminds one of old times!!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_69">69</span>
+    <div class="left"><i>April, 1886.</i></div>
+    <a id="i_069" href="images/i_069large.jpg">
+      <img src="images/i_069.jpg" width="544" height="700" alt="" />
+    </a>
+    <div class="caption">Sink or Swim!!</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_70">70</span>
+    <div class="left"><i>June, 1886.</i></div>
+    <a id="i_070-71" href="images/i_070-71large.jpg">
+      <img src="images/i_070-71.jpg" width="700" height="393" alt="" />
+    </a>
+    <div class="caption">“1885.”</div>
+    <div class="small">(A Playful Adaptation of Meissonier’s Famous Picture, “1814.”)</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_72">72</span>
+    <div class="left"><i>November, 1886.</i></div>
+    <a id="i_072" href="images/i_072large.jpg">
+      <img src="images/i_072.jpg" width="544" height="700" alt="" />
+    </a>
+    <div class="caption">The Tempter.</div>
+    <div class="small"><span class="smcap">Spirit of Anarchy.</span> “What! No work! Come and enlist with
+    me—I’ll find work for you!!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_73">73</span>
+    <div class="left"><i>April, 1887.</i></div>
+    <a id="i_073" href="images/i_073large.jpg">
+      <img src="images/i_073.jpg" width="700" height="540" alt="" />
+    </a>
+    <div class="caption">Salisbury Sisyphus.</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza2">
+          <div class="i0">“Unending task!” &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.</div>
+          <div class="i8">. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.</div>
+          <div class="i0">“Swift roll the years, and still the ceaseless round,</div>
+          <div class="i1">The toilsome press up the precipitous ground,</div>
+          <div class="i1">The sullen slow ascent, the swift rebound!”</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_74">74</span>
+    <div class="left"><i>October, 1886.</i></div>
+    <a id="i_074-75" href="images/i_074-75large.jpg">
+      <img src="images/i_074-75.jpg" width="421" height="700" alt="" />
+    </a>
+    <div class="caption">“What of the Night?”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_76">76</span>
+    <div class="left"><i>December, 1887.</i></div>
+    <a id="i_076" href="images/i_076large.jpg">
+      <img src="images/i_076.jpg" width="554" height="700" alt="" />
+    </a>
+    <div class="caption">“Quite English, you know.”</div>
+    <div class="small">
+      <span class="smcap">President Cleveland</span> (to <span class="smcap">Columbia</span>). “Will you allow me
+      to introduce this Young Lady?”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_77">77</span>
+    <div class="left"><i>January, 1888.</i></div>
+    <a id="i_077" href="images/i_077large.jpg">
+      <img src="images/i_077.jpg" width="541" height="700" alt="" />
+    </a>
+    <div class="caption">Bear or Bug-bear?</div>
+    <div class="small">“Thou com’st in such a questionable shape!”—<i>Hamlet.</i></div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_78">78</span>
+    <div class="left"><i>February, 1888.</i></div>
+    <a id="i_078-79" href="images/i_078-79large.jpg">
+      <img src="images/i_078-79.jpg" width="700" height="404" alt="" />
+    </a>
+    <div class="caption">In the Arena.</div>
+    <div class="small">The “Parade” before the Conflict.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_80">80</span>
+    <div class="left"><i>March, 1888.</i></div>
+    <a id="i_080" href="images/i_080large.jpg">
+      <img src="images/i_080.jpg" width="558" height="700" alt="" />
+    </a>
+    <div class="caption">Germany. March 9, 1888.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_81">81</span>
+    <div class="left"><i>March, 1888.</i></div>
+    <a id="i_081" href="images/i_081large.jpg">
+      <img src="images/i_081.jpg" width="546" height="700" alt="" />
+    </a>
+    <div class="caption">Consol-ation;</div>
+    <div class="small">
+      <p class="center">Or, “A Fair Exchange no Robbery.”</p>
+      <p class="mb0"><span class="smcap">Sweet Simplicity.</span> “I <span class="smcap">am</span> sorry to part with him!”</p>
+      <p class="mt0">
+        <span class="smcap">Shrewd but Seductive Shepherd.</span> “Nay, dear Child! What though
+        this one be but indifferent fair to look on at present? He’ll last
+        longer—and you will <span class="smcap">learn to love him</span>!!”
+      </p>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_82">82</span>
+    <div class="left"><i>April, 1888.</i></div>
+    <a id="i_082" href="images/i_082large.jpg">
+      <img src="images/i_082.jpg" width="555" height="700" alt="" />
+    </a>
+    <div class="caption">What Next?</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_83">83</span>
+    <div class="left"><i>May, 1888.</i></div>
+    <a id="i_083" href="images/i_083large.jpg">
+      <img src="images/i_083.jpg" width="547" height="700" alt="" />
+    </a>
+    <div class="caption">“Panic amongst the Pigs!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600 ">
+    <span class="pagenum" id="Page_84">84</span>
+    <div class="left"><i>January, 1890.</i></div>
+    <a id="i_084" href="images/i_084large.jpg">
+      <img src="images/i_084.jpg" width="544" height="700" alt="" />
+    </a>
+    <div class="caption">Plain English!</div>
+    <p class="small">
+      <span class="smcap">John Bull.</span> “Look here, my little Friend, I don’t want to hurt
+      your little feelings—but, <span class="smcap">come off that Flag</span>!!!”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_85">85</span>
+    <div class="left"><i>August, 1890.</i></div>
+    <a id="i_085" href="images/i_085large.jpg">
+      <img src="images/i_085.jpg" width="539" height="700" alt="" />
+    </a>
+    <div class="caption">From the Nile to the Neva.</div>
+    <div class="small">
+      <span class="smcap">Shade of Pharoah.</span> “Forbear! That weapon always wounds the hand
+      that wields it.”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_86">86</span>
+    <div class="left"><i>March, 1890.</i></div>
+    <a id="i_086-87" href="images/i_086-87large.jpg">
+      <img src="images/i_086-87.jpg" width="418" height="700" alt="" />
+    </a>
+    <div class="caption">Dropping the Pilot.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_88">88</span>
+    <div class="left"><i>October, 1890.</i></div>
+    <a id="i_088" href="images/i_088large.jpg">
+      <img src="images/i_088.jpg" width="545" height="700" alt="" />
+    </a>
+    <div class="caption">The McGladstone!</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza2">
+          <div class="i0">“To land McGladstone lightly sprang,</div>
+          <div class="i1">And thrice aloud his bugle rang</div>
+          <div class="i1">With note prolong’d and varied strain,</div>
+          <div class="i1">Till bold Ben-Ghoil replied again.”</div>
+          <div class="i15">“<i>Lora of the Isles.</i>” Canto IV.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_89">89</span>
+    <div class="left"><i>December, 1890.</i></div>
+    <a id="i_089" href="images/i_089large.jpg">
+      <img src="images/i_089.jpg" width="557" height="700" alt="" />
+    </a>
+    <div class="caption">“Separatists.”</div>
+    <div class="small">Douglas &nbsp;. &nbsp;. &nbsp;. &nbsp;<span class="smcap">Mr. Gladstone</span>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Marmion &nbsp;. &nbsp;. &nbsp;. &nbsp;<span class="smcap">Mr. Parnell</span>.</div>
+    <div class="poetry-container mt1">
+      <div class="poetry">
+        <div class="stanza2">
+          <div class="i0"><span class="smcap">Douglas.</span> “The hand of Douglas is his own;</div>
+          <div class="i10">And never shall in friendly grasp</div>
+          <div class="i10">The hand of such as Marmion clasp!”—<i>Marmion.</i> Canto VI.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_90">90</span>
+    <div class="left"><i>January, 1891.</i></div>
+    <a id="i_090" href="images/i_090large.jpg">
+      <img src="images/i_090.jpg" width="549" height="700" alt="" />
+    </a>
+    <div class="caption">Arbitration.</div>
+    <p class="small">
+      <span class="smcap">The Seal.</span> “Belay, you two Johnnies!—avast quarrelling! Give me
+      a ‘Close-time,’ and leave the ‘Sea’ an open question.”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_91">91</span>
+    <div class="left"><i>February, 1891.</i></div>
+    <a id="i_091" href="images/i_091large.jpg">
+      <img src="images/i_091.jpg" width="524" height="700" alt="" />
+    </a>
+    <div class="caption">“Retire!—What do <span class="underline">You</span> Think?”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_92">92</span>
+    <div class="left"><i>February, 1891.</i></div>
+    <a id="i_092" href="images/i_092large.jpg">
+      <img src="images/i_092.jpg" width="552" height="700" alt="" />
+    </a>
+    <div class="caption">Coriolanus.</div>
+      <div class="poetry-container">
+        <div class="poetry">
+        <div class="stanza2">
+          <div class="i18">“Such a nature,</div>
+          <div class="i0">Tickled with good success, disdains the shadow</div>
+          <div class="i0">Which he treads on at noon.”—<i>Coriolanus</i>, Act I., Sc. 1.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_93">93</span>
+    <div class="left"><i>March, 1891.</i></div>
+    <a id="i_093" href="images/i_093large.jpg">
+      <img src="images/i_093.jpg" width="700" height="545" alt="" />
+    </a>
+    <div class="caption">“Advance, Australia!”</div>
+    <div class="small"><span class="smcap">British Lion.</span> “Bravo, Boys!—<span class="smcap">Swing together</span>!!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_94">94</span>
+    <div class="left"><i>July, 1891.</i></div>
+    <a id="i_094-95" href="images/i_094-95large.jpg">
+      <img src="images/i_094-95.jpg" width="700" height="409" alt="" />
+    </a>
+    <div class="caption">Mr. Punch’s Jubilee Pageant.</div>
+    <div class="small">(As reflected in Punch’s Magic Mirror.)</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_96">96</span>
+    <div class="left"><i>September, 1891.</i></div>
+    <a id="i_096" href="images/i_096large.jpg">
+      <img src="images/i_096.jpg" width="562" height="700" alt="" />
+    </a>
+    <div class="caption">“Turning the Tables.”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_97">97</span>
+    <div class="left"><i>October, 1891.</i></div>
+    <a id="i_097" href="images/i_097large.jpg">
+      <img src="images/i_097.jpg" width="565" height="700" alt="" />
+    </a>
+    <div class="caption">“What will he do with it?”</div>
+    <div class="small"><span class="smcap">Starving Russian Peasant.</span> “Is none of that for <span class="smcap">me</span>,
+      ‘Little Father’?”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_98">98</span>
+    <div class="left"><i>October, 1891.</i></div>
+    <a id="i_098" href="images/i_098large.jpg">
+      <img src="images/i_098.jpg" width="700" height="539" alt="" />
+    </a>
+    <div class="caption">Trying it on!</div>
+    <div class="small"><span class="smcap">Russia.</span> “SS-S-T! (Whispers.) I want to speak to you, my dear!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_99">99</span>
+    <div class="left"><i>January, 1892.</i></div>
+    <a id="i_099" href="images/i_099large.jpg">
+      <img src="images/i_099.jpg" width="536" height="700" alt="" />
+    </a>
+    <div class="caption">The Coming of Ninety-Two</div>
+    <div class="small">To the Modern Merlin, <span class="smcap">Mr. Punch</span>.</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza">
+          <div class="i0">“And down the wave, and in the flame was borne<br /></div>
+          <div class="i3">A naked babe, and rode to <span class="smcap">Punch’s</span> feet,<br /></div>
+          <div class="i1">Who stoopt, and caught the babe, and cried, “The Year!<br /></div>
+          <div class="i3">Here is an heir for Ninety-One!”—<i>Adapted from Tennyson’s “Coming of Arthur.”</i><br /></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_100">100</span>
+    <div class="left"><i>January, 1892.</i></div>
+    <a id="i_100" href="images/i_100large.jpg">
+      <img src="images/i_100.jpg" width="700" height="533" alt="" />
+    </a>
+    <div class="caption">“Short ’Anded.”</div>
+    <p class="small">
+      <span class="smcap">Mrs. Halsbury.</span> “I tell you what it is, Mrs. Coley, Mum—if all
+      this ’ere dirty linen’s to be got through, we must ’ave ’ELP, Mum!!”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_101">101</span>
+    <div class="left"><i>February, 1892.</i></div>
+    <a id="i_101" href="images/i_101large.jpg">
+      <img src="images/i_101.jpg" width="549" height="700" alt="" />
+    </a>
+    <div class="caption">The Attack on the “Capit<span class="underline">a</span>l.”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_102">102</span>
+    <div class="left"><i>February, 1892.</i></div>
+    <a id="i_102-103" href="images/i_102-103large.jpg">
+      <img src="images/i_102-103.jpg" width="700" height="400" alt="" />
+    </a>
+    <div class="caption">“Her Majesty’s Servants.”</div>
+    <div class="small">View of the Stage on the re-opening of the Theatre Royal Westminster.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_104">104</span>
+    <div class="left"><i>March, 1892.</i></div>
+    <a id="i_104" href="images/i_104large.jpg">
+      <img src="images/i_104.jpg" width="533" height="700" alt="" />
+    </a>
+    <div class="caption">Younger than Ever!</div>
+    <div class="small"><span class="smcap">The</span> G.O.M. “Now then, Harcourt!—Tuck in your tuppenny!——Over!!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_105">105</span>
+    <div class="left"><i>April, 1892.</i></div>
+    <a id="i_105" href="images/i_105large.jpg">
+      <img src="images/i_105.jpg" width="516" height="700" alt="" />
+    </a>
+    <div class="caption">The Dynamite Dragon.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_106">106</span>
+    <div class="left"><i>April, 1892.</i></div>
+    <a id="i_106" href="images/i_106large.jpg">
+      <img src="images/i_106.jpg" width="527" height="700" alt="" />
+    </a>
+    <div class="caption">The New “Queen of the May.”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_107">107</span>
+    <div class="left"><i>June, 1892.</i></div>
+    <a id="i_107" href="images/i_107large.jpg">
+      <img src="images/i_107.jpg" width="700" height="536" alt="" />
+    </a>
+    <div class="caption">“When Greek meets Greek.”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_108">108</span>
+    <div class="left"><i>January, 1893.</i></div>
+    <a id="i_108" href="images/i_108large.jpg">
+      <img src="images/i_108.jpg" width="544" height="700" alt="" />
+    </a>
+    <div class="caption">Mischief!</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_109">109</span>
+    <div class="left"><i>April, 1893.</i></div>
+    <a id="i_109" href="images/i_109large.jpg">
+      <img src="images/i_109.jpg" width="547" height="700" alt="" />
+    </a>
+    <div class="caption">A Pilgrim’s Progress.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_110">110</span>
+    <div class="left"><i>April, 1893.</i></div>
+    <a id="i_110" href="images/i_110large.jpg">
+      <img src="images/i_110.jpg" width="548" height="700" alt="" />
+    </a>
+    <div class="caption">Uncle Toby and Widow Wadman.</div>
+    <div class="small">(Modern Ulster Version. After C. R. Leslie, R.A.’s celebrated picture.)</div>
+    <div class="small mt1">
+      <span class="smcap">Mrs. Ulster.</span> “Now, Mr. Bull, do you see any ‘<span class="smcap">green</span>’
+      in my eye?”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_111">111</span>
+    <div class="left"><i>May, 1893.</i></div>
+    <a id="i_111" href="images/i_111large.jpg">
+      <img src="images/i_111.jpg" width="570" height="700" alt="" />
+    </a>
+    <div class="caption">“The Minstrel Boy.”</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza2">
+          <div class="i0"><span class="smcap">Lord Salisbury</span> (sings). “I’ll harp wild war, aye, from sea to sea,</div>
+          <div class="i18">Ere the Loyalists stoop to slavery!”</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_112">112</span>
+    <div class="left"><i>July, 1893.</i></div>
+    <a id="i_112" href="images/i_112large.jpg">
+      <img src="images/i_112.jpg" width="555" height="700" alt="" />
+    </a>
+    <div class="caption">“Father William.”</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza2">
+          <div class="i0">“You are old,” said the Youth; “one would hardly suppose</div>
+          <div class="i3">That your eye was as steady as ever;</div>
+          <div class="i1">Yet you balance that Eel on the end of your nose—</div>
+          <div class="i3">What makes you so awfully clever?”</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_113">113</span>
+    <div class="left"><i>August, 1893.</i></div>
+    <a id="i_113" href="images/i_113large.jpg">
+      <img src="images/i_113.jpg" width="557" height="700" alt="" />
+    </a>
+    <div class="caption">The French Wolf and the Siamese Lamb.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_114">114</span>
+    <div class="left"><i>September, 1893.</i></div>
+    <a id="i_114" href="images/i_114large.jpg">
+      <img src="images/i_114.jpg" width="700" height="529" alt="" />
+    </a>
+    <div class="caption">“Over the Hills and Far Away!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_115">115</span>
+    <div class="left"><i>September, 1893.</i></div>
+    <a id="i_115" href="images/i_115large.jpg">
+      <img src="images/i_115.jpg" width="533" height="700" alt="" />
+    </a>
+    <div class="caption">The “Forlorn Hope.”</div>
+  </div>
+
+   <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_116">116</span>
+    <div class="left"><i>January, 1894.</i></div>
+    <a id="i_116" href="images/i_116large.jpg">
+      <img src="images/i_116.jpg" width="544" height="700" alt="" />
+    </a>
+    <div class="caption">A Dirty Crossing.</div>
+    <p class="small">
+      <span class="smcap">The Old Lady of Threadneedle Street</span> (loq.). “O dear, O dear! I
+      wish I were out of this nasty mess!”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_117">117</span>
+    <div class="left"><i>February, 1894.</i></div>
+    <a id="i_117" href="images/i_117large.jpg">
+      <img src="images/i_117.jpg" width="552" height="700" alt="" />
+    </a>
+    <div class="caption">“Confidences.”</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza2">
+          <div class="i0"><span class="smcap">John Bull.</span> “Did you ever see anything worse than my Navy?”</div>
+          <div class="i0"><span class="smcap">Jean Crapaud.</span> “Yes—<span class="smcap">mine</span>!!”</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_118">118</span>
+    <div class="left"><i>February, 1894.</i></div>
+    <a id="i_118" href="images/i_118large.jpg">
+      <img src="images/i_118.jpg" width="546" height="700" alt="" />
+    </a>
+    <div class="caption">“Pluck’d!”</div>
+    <div class="small">
+      <span class="smcap">Parish Councils Cockatoo</span> (sadly). “I’ve had a doose of a time
+      of it!!!”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_119">119</span>
+    <div class="left"><i>March, 1894.</i></div>
+    <a id="i_119" href="images/i_119large.jpg">
+      <img src="images/i_119.jpg" width="541" height="700" alt="" />
+    </a>
+    <div class="caption">Unarming.</div>
+    <div class="small">
+      “Unarm!—the long day’s task is done!”—<i>Antony and Cleopatra</i>, Act IV., Sc. 12.
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_120">120</span>
+    <div class="left"><i>April, 1894.</i></div>
+    <a id="i_120" href="images/i_120large.jpg">
+      <img src="images/i_120.jpg" width="569" height="700" alt="" />
+    </a>
+    <div class="caption">Lemon-Squash.</div>
+    <div class="small">
+      <span class="smcap">William Harcourt</span> (the Barman). “Wonder if I can squeeze any
+      more out of <span class="smcap">him</span>?”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_121">121</span>
+    <div class="left"><i>July, 1894.</i></div>
+    <a id="i_121" href="images/i_121large.jpg">
+      <img src="images/i_121.jpg" width="537" height="700" alt="" />
+    </a>
+    <div class="caption">“Vive la République!”</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza2">
+          <div class="i0">“The tear that brimmeth, blindeth not her eye,</div>
+          <div class="i3">So fixed aloft it lowereth not to greet</div>
+          <div class="i3">The writhing reptile bruised by her unfaltering feet!”</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_122">122</span>
+    <div class="left"><i>September, 1894.</i></div>
+    <a id="i_122" href="images/i_122large.jpg">
+      <img src="images/i_122.jpg" width="700" height="536" alt="" />
+    </a>
+    <div class="caption">Jap the Giant-Killer.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_123">123</span>
+    <div class="left"><i>October, 1894.</i></div>
+    <a id="i_123" href="images/i_123large.jpg">
+      <img src="images/i_123.jpg" width="554" height="700" alt="" />
+    </a>
+    <div class="caption">“Vested Interests.”</div>
+    <p class="small">
+      <span class="smcap">House of Lords Charwoman.</span> “Well! them Rogeberries, and ’Erbert
+      Gladstings, and Haskwidges, and the rest on ’em may tork—and they may
+      tork—but they h’aint turned <span class="smcap">hus</span> out yet!!”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_124">124</span>
+    <div class="left"><i>December, 1894.</i></div>
+    <a id="i_124" href="images/i_124large.jpg">
+      <img src="images/i_124.jpg" width="558" height="700" alt="" />
+    </a>
+    <div class="caption">“All’s Well!”</div>
+    <div class="small">
+      <span class="smcap">British Lion and Russian Bear</span> (together). “What a pity we
+      didn’t know each other before!”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_125">125</span>
+    <div class="left"><i>January, 1895.</i></div>
+    <a id="i_125" href="images/i_125large.jpg">
+      <img src="images/i_125.jpg" width="547" height="700" alt="" />
+    </a>
+    <div class="caption">The New Passenger.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_126">126</span>
+    <div class="left"><i>January, 1895.</i></div>
+    <a id="i_126" href="images/i_126large.jpg">
+      <img src="images/i_126.jpg" width="560" height="700" alt="" />
+    </a>
+    <div class="caption">“Who said ‘<span class="underline">Atrocities</span>’?”</div>
+    <div class="small">(After the Popular Engraving.)<br />
+      “Old as I am, my feelings have not been deadened in regard to matters
+      of such a dreadful description.”<br />
+      <div class="right"><i>Mr. Gladstone’s Speech at Hawarden, December 29.</i></div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_127">127</span>
+    <div class="left"><i>March, 1895.</i></div>
+    <a id="i_127" href="images/i_127large.jpg">
+      <img src="images/i_127.jpg" width="571" height="700" alt="" />
+    </a>
+    <div class="caption">Silent!</div>
+    <div class="small">
+      <span class="smcap">Little Khedive.</span> “Tell me, great Sphinx—is Egypt for the
+      Egyptians?”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_128">128</span>
+    <div class="left"><i>April, 1895.</i></div>
+    <a id="i_128" href="images/i_128large.jpg">
+      <img src="images/i_128.jpg" width="589" height="700" alt="" />
+    </a>
+    <div class="caption">An Easter ’Oliday.</div>
+    <div class="small">
+      Duet (’<span class="smcap">Arcourt</span> and <span class="smcap">Harthur</span> sing while being jolted).<br />
+      “La-a-zi-ly la-a-zi-ly! Drow-ow-ow-sily! Drow-ow-ow-sily!” etc.
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_129">129</span>
+    <div class="left"><i>June, 1895.</i></div>
+    <a id="i_129" href="images/i_129large.jpg">
+      <img src="images/i_129.jpg" width="567" height="700" alt="" />
+    </a>
+    <div class="caption">“William! ahoy!”</div>
+    <p class="small">
+      <span class="smcap">Open-minded William</span> (having come ashore from “The Stormy
+      Petrel”). “Avast there, Messmates! The statesman who would lay his
+      hands on a steeple-hatted female in distress—save in the way of
+      ke-indness,” etc., etc.
+    </p>
+    <div class="small right">[<i>The “Messmates” “avast” accordingly</i>.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_130-131">130-131</span>
+    <div class="left"><i>May, 1895.</i></div>
+    <a id="i_130-131" href="images/i_130-131large.jpg">
+      <img src="images/i_130-131.jpg" width="434" height="700" alt="" />
+    </a>
+    <div class="caption">The Old Crusaders!</div>
+    <div class="small">
+      The Duke of Argyll and Mr. Gladstone “Brothers in Arms” again!<br />
+      <span class="smcap">Bulgaria</span>, 1876. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="smcap">Armenia</span>, 1895.
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_132">132</span>
+    <div class="left"><i>July, 1895.</i></div>
+    <a id="i_132" href="images/i_132large.jpg">
+      <img src="images/i_132.jpg" width="581" height="700" alt="" />
+    </a>
+    <div class="caption">Old Warder William.</div>
+    <div class="small">
+      <span class="smcap">The Veteran</span> (loquitur). “Dear me! What <span class="smcap">has</span> become of
+      Harcourt?”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_133">133</span>
+    <div class="left"><i>February, 1896.</i></div>
+    <a id="i_133" href="images/i_133large.jpg">
+      <img src="images/i_133.jpg" width="553" height="700" alt="" />
+    </a>
+    <div class="caption">“Just a-goin’ to Begin!”</div>
+    <p class="small">
+      <span class="smcap">Professor Salisbury (P.P.R.).</span> “Now, my Sportin’ Gents, ’ere’s
+      the ‘Atfield Pet and the Brummagem Bruiser—Who’ll have ’em on with either of ’em?”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_134">134</span>
+    <div class="left"><i>January, 1896.</i></div>
+    <a id="i_134-135" href="images/i_134-135large.jpg">
+      <img src="images/i_134-135.jpg" width="700" height="385" alt="" />
+    </a>
+    <div class="caption">The Tug of War.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_136">136</span>
+    <div class="left"><i>April, 1896.</i></div>
+    <a id="i_136" href="images/i_136large.jpg">
+      <img src="images/i_136.jpg" width="700" height="533" alt="" />
+    </a>
+    <div class="caption">The Patient Ass.</div>
+    <div class="small">
+      <span class="smcap">The Income-taxed One murmureth.</span> “I don’t grumble, but—I
+      <span class="smcap">should</span> like just a little taken off.”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_137">137</span>
+    <div class="left"><i>August, 1896.</i></div>
+    <a id="i_137" href="images/i_137large.jpg">
+      <img src="images/i_137.jpg" width="557" height="700" alt="" />
+    </a>
+    <div class="caption">A Turkish Bath.</div>
+    <div class="small">
+      <span class="smcap">Sultan.</span> “They gave it me pretty hot in that Armenian room! But
+      Bismillah! This is——Phew!!”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_138">138</span>
+    <div class="left"><i>October, 1896.</i></div>
+    <a id="i_138" href="images/i_138large.jpg">
+      <img src="images/i_138.jpg" width="548" height="700" alt="" />
+    </a>
+    <div class="caption">Preparing his Speech.</div>
+    <p class="small">
+      <span class="smcap">Mr. Joe Chamberlain</span> (to himself). “‘In short, Gentlemen—if you
+      are only true to your principles, any one of you may become—as I have
+      done—a Minister in a Liber—I should say in a Conserv—I beg pardon—I
+      should say in an Unionist Government.’ H’m rather confusing—I don’t
+      think <span class="smcap">that</span>’ll quite do!”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_139">139</span>
+    <div class="left"><i>November, 1896.</i></div>
+    <a id="i_139" href="images/i_139large.jpg">
+      <img src="images/i_139.jpg" width="560" height="700" alt="" />
+    </a>
+    <div class="caption">“Turkey Limited.”</div>
+    <p class="small">
+      <span class="smcap">Sultan.</span> “Bismillah! Make me into a Limited Company? M’m—ah
+      s’pose they’ll allow me to join the Board after allotment!”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_140">140</span>
+    <div class="left"><i>December, 1896.</i></div>
+    <a id="i_140" href="images/i_140large.jpg">
+      <img src="images/i_140.jpg" width="529" height="700" alt="" />
+    </a>
+    <div class="caption">“Seaside Lodgings.”</div>
+    <div class="small">
+      <span class="smcap">Russian Bear.</span> “Nice view of the sea! Just what I wanted! Think
+      I’ll take ’em!”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_141">141</span>
+    <div class="left"><i>January, 1897.</i></div>
+    <a id="i_141" href="images/i_141large.jpg">
+      <img src="images/i_141.jpg" width="567" height="700" alt="" />
+    </a>
+    <div class="caption">The Queen’s Year!</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_142">142</span>
+    <div class="left"><i>February, 1897.</i></div>
+    <a id="i_142" href="images/i_142large.jpg">
+      <img src="images/i_142.jpg" width="563" height="700" alt="" />
+    </a>
+    <div class="caption">Against the Grain.</div>
+    <p class="small">
+      <span class="smcap">John Bull</span> (loq.). “Ah! that Greek’s a plucky little chap!
+      Precious sorry that me and my Forin’ Mates has to stop him!”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_143">143</span>
+    <div class="left"><i>March, 1897.</i></div>
+    <a id="i_143" href="images/i_143large.jpg">
+      <img src="images/i_143.jpg" width="566" height="700" alt="" />
+    </a>
+    <div class="caption">Tender Mercies!</div>
+    <p class="small">
+      <span class="smcap">Dame Europa</span> (to <span class="smcap">Little Crete</span>). “Don’t cry, my little
+      Man. I’ve asked this nice, kind Turkish Policeman to stay and take care of you!”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_144">144</span>
+    <div class="left"><i>May, 1897.</i></div>
+    <a id="i_144" href="images/i_144large.jpg">
+      <img src="images/i_144.jpg" width="554" height="700" alt="" />
+    </a>
+    <div class="caption">“Who says ‘Sick Man’ now?”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_145">145</span>
+    <div class="left"><i>June, 1897.</i></div>
+    <a id="i_145" href="images/i_145large.jpg">
+      <img src="images/i_145.jpg" width="700" height="509" alt="" />
+    </a>
+    <div class="caption">Spithead. June 26.</div>
+    <p class="small">
+      <span class="smcap">British Lion</span> (taking the Young Lions out to see the Great
+      Naval Review). “Lor’ love yer, my Lads, this is the proudest moment of
+      my life!”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_146">146</span>
+    <div class="left"><i>June, 1897.</i></div>
+    <a id="i_146-147" href="images/i_146-147large.jpg">
+      <img src="images/i_146-147.jpg" width="700" height="394" alt="" />
+    </a>
+    <div class="caption">“For Queen and Empire!!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_148">148</span>
+    <div class="left"><i>September, 1897.</i></div>
+    <a id="i_148" href="images/i_148large.jpg">
+      <img src="images/i_148.jpg" width="597" height="700" alt="" />
+    </a>
+    <div class="caption">“Brothers in Arms.”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_149">149</span>
+    <div class="left"><i>February, 1898.</i></div>
+    <a id="i_149" href="images/i_149large.jpg">
+      <img src="images/i_149.jpg" width="700" height="514" alt="" />
+    </a>
+    <div class="caption">Saved!</div>
+    <p class="small">
+      (Scene from Grand International Nautical Melodrama, first performed in
+      1833, and now revived with all the Original Scenery and Effects.)
+    </p>
+    <p class="small">
+      <span class="smcap">The Three Sailors</span> (together). “Avast there! you lubberly Swab!
+      Take the gold, and let the Gy-url go free!!”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_150">150</span>
+    <div class="left"><i>February, 1898.</i></div>
+    <a id="i_150" href="images/i_150large.jpg">
+      <img src="images/i_150.jpg" width="535" height="700" alt="" />
+    </a>
+    <div class="caption">“Financial Relations.”</div>
+    <div class="small">Chorus of Long-lost Brothers.</div>
+    <div class="small"><span class="smcap">Saunderson, Healy, Lecky</span> (singing):</div>
+    <div class="poetry-container mt1">
+      <div class="poetry">
+        <div class="stanza2">
+          <div class="i0">“It’s the most disthressful counthry that ever you did see!</div>
+          <div class="i1">We want Siv’n Hundred Thousand Pounds from the Saxon Treasuree!”</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_151">151</span>
+    <div class="left"><i>March, 1898.</i></div>
+    <a id="i_151" href="images/i_151large.jpg">
+      <img src="images/i_151.jpg" width="700" height="506" alt="" />
+    </a>
+    <div class="caption">“Bull-Baiting.”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_152">152</span>
+    <div class="left"><i>April, 1898.</i></div>
+    <a id="i_152" href="images/i_152large.jpg">
+      <img src="images/i_152.jpg" width="548" height="700" alt="" />
+    </a>
+    <div class="caption">Sentinels.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_153">153</span>
+    <div class="left"><i>April, 1898.</i></div>
+    <a id="i_153" href="images/i_153large.jpg">
+      <img src="images/i_153.jpg" width="700" height="534" alt="" />
+    </a>
+    <div class="caption">The Duello.</div>
+    <div class="small">“Oh, the pity of it!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_154">154</span>
+    <div class="left"><i>August, 1898.</i></div>
+    <a id="i_154-155" href="images/i_154-155large.jpg">
+      <img src="images/i_154-155.jpg" width="700" height="399" alt="" />
+    </a>
+    <div class="caption">Bismarck.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_156">156</span>
+    <div class="left"><i>May, 1898.</i></div>
+    <a id="i_156" href="images/i_156large.jpg">
+      <img src="images/i_156.jpg" width="534" height="700" alt="" />
+    </a>
+    <div class="caption">Honour à la Russe.</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza2">
+          <div class="small">
+            <span class="smcap">British Lion.</span> “What! Not come in here! Why, you gave me your
+            word!”
+          </div>
+          <div class="small"><span class="smcap">Russian Bear.</span> “My friend! <span class="smcap">How</span> you misunderstand me!”</div>
+          <div class="small"><span class="smcap">British Lion.</span> “Do I! All right! <span class="smcap">Never no more!</span>”</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_157">157</span>
+    <div class="left"><i>July, 1898.</i></div>
+    <a id="i_157" href="images/i_157large.jpg">
+      <img src="images/i_157.jpg" width="603" height="700" alt="" />
+    </a>
+    <div class="caption">Our Masters’ Masters.</div>
+    <div class="small">
+      <span class="smcap">Newspaper Hawker.</span> “Shout away, Bill! We’re safe enough as long
+      as we votes ‘Progressive’!!”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_158">158</span>
+    <div class="left"><i>September, 1898.</i></div>
+    <a id="i_158-159" href="images/i_158-159large.jpg">
+      <img src="images/i_158-159.jpg" width="438" height="700" alt="" />
+    </a>
+    <div class="caption">Khartoum!</div>
+    <div class="small">Monday, January 26, 1885. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friday, September 2, 1898.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_160">160</span>
+    <div class="left"><i>November, 1898.</i></div>
+    <a id="i_160" href="images/i_160large.jpg">
+      <img src="images/i_160.jpg" width="700" height="524" alt="" />
+    </a>
+    <div class="caption">A Fixture.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_161">161</span>
+    <div class="left"><i>December, 1898.</i></div>
+    <a id="i_161" href="images/i_161large.jpg">
+      <img src="images/i_161.jpg" width="546" height="700" alt="" />
+    </a>
+    <div class="caption">Under the Mistletoe.</div>
+    <p class="small">
+      <span class="smcap">Miss Wilhelmina Harcourt</span> (to <span class="smcap">Miss Joanna Morley</span>).
+      “Really, my dear, I don’t think it seems much use our staying here any
+      longer.... They won’t come!”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_162">162</span>
+    <div class="left"><i>January, 1899.</i></div>
+    <a id="i_162" href="images/i_162large.jpg">
+      <img src="images/i_162.jpg" width="546" height="700" alt="" />
+    </a>
+    <div class="caption">A New Year’s Greeting.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_163">163</span>
+    <div class="left"><i>January, 1899.</i></div>
+    <a id="i_163" href="images/i_163large.jpg">
+      <img src="images/i_163.jpg" width="555" height="700" alt="" />
+    </a>
+    <div class="caption">Diogenes-Morley.</div>
+    <div class="small lh1">(In search of a genuine Liberal.)<br />
+      D.-M. “Can’t see one anywhere.”</div>
+    <div class="small right">[<i>Gives it up.</i></div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_164">164</span>
+    <div class="left"><i>August, 1899.</i></div>
+    <a id="i_164" href="images/i_164large.jpg">
+      <img src="images/i_164.jpg" width="525" height="700" alt="" />
+    </a>
+    <div class="caption">A Free Hand!</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza2 lh1">
+          <div>
+            <span class="smcap">Harthur B.</span> (to the Butler). “Well, thank ‘Evins, Mr. Salisbury, they’ve all left the ’Ouse!”
+          </div>
+          <div>
+            <span class="smcap">Joe</span> (the Buttons). “Now we can do just as we like, and no questions arst.”
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_165">165</span>
+    <div class="left"><i>August, 1899.</i></div>
+    <a id="i_165" href="images/i_165large.jpg">
+      <img src="images/i_165.jpg" width="550" height="700" alt="" />
+    </a>
+    <div class="caption">Open at Last!</div>
+    <div class="small">
+      <span class="smcap">Russian Bear</span> (politely). “Come in, Miss. How <span class="smcap">could</span> I keep my
+      door closed against <span class="smcap">you</span>!”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_166">166</span>
+    <div class="left"><i>October, 1899.</i></div>
+    <a id="i_166" href="images/i_166large.jpg">
+      <img src="images/i_166.jpg" width="628" height="700" alt="" />
+    </a>
+    <div class="caption">Plain English.</div>
+    <div class="small">
+      <span class="smcap">John Bull</span> (to Boer). “As you <span class="smcap">will</span> fight, you shall
+      have it. <span class="smcap">This</span> time it’s a fight to a finish.”
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_167">167</span>
+    <div class="left"><i>March, 1900.</i></div>
+    <a id="i_167" href="images/i_167large.jpg">
+      <img src="images/i_167.jpg" width="700" height="526" alt="" />
+    </a>
+    <div class="caption">Who said “Dead”?</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_168">168</span>
+    <div class="left"><i>March, 1900.</i></div>
+    <a id="i_168" href="images/i_168large.jpg">
+      <img src="images/i_168.jpg" width="541" height="700" alt="" />
+    </a>
+    <div class="caption">Full of Resource.</div>
+    <p class="small hang">
+      <span class="smcap">President Kruger</span> (reading the Chancellor of the Exchequer’s
+      speech on the Budget debate):—“I am not going to bind myself as to
+      what I will do on the termination of the War. I look first to the Transvaal.”
+    </p>
+    <p class="small hang">
+      “Oh, <span class="smcap">does</span> he? I know what <span class="smcap">I’m</span> going to do on the
+      termination of the war. <span class="smcap">I’m</span> going through the
+      <span class="smcap">Bankruptcy Court</span>!”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_169">169</span>
+    <div class="left"><i>April, 1900.</i></div>
+    <a id="i_169" href="images/i_169large.jpg">
+      <img src="images/i_169.jpg" width="564" height="700" alt="" />
+    </a>
+    <div class="caption">Good Wishes!</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_170">170</span>
+    <div class="left"><i>July, 1900.</i></div>
+    <a id="i_170-171" href="images/i_170-171large.jpg">
+      <img src="images/i_170-171.jpg" width="429" height="700" alt="" />
+    </a>
+    <div class="caption">The Avenger!</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_172">172</span>
+    <div class="left"><i>May, 1900.</i></div>
+    <a id="i_172" href="images/i_172large.jpg">
+      <img src="images/i_172.jpg" width="568" height="700" alt="" />
+    </a>
+    <div class="caption">The Imperial Dispensary.</div>
+    <p class="small">
+      <span class="smcap">The Kangaroo.</span> “I’ve got a sort of—er—feeling of oppression. My
+      doctor at home gave me that Prescription!”
+    </p>
+    <p class="small">
+      <span class="smcap">Mr. Chamberlain</span> (Colonial Chemist and Druggist according
+      to the British Pharmacopœia). “‘Abolition of Appeal to Privy
+      Council’—of course, I <span class="smcap">could</span> make it up for you, but I think I
+      can give you something that will exactly suit your constitution!”
+    </p>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_173">173</span>
+    <div class="left"><i>June, 1900.</i></div>
+    <a id="i_173" href="images/i_173large.jpg">
+      <img src="images/i_173.jpg" width="700" height="524" alt="" />
+    </a>
+    <div class="caption">Shifting his Capital.</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_174">174</span>
+    <div class="left"><i>August, 1900.</i></div>
+    <a id="i_174" href="images/i_174large.jpg">
+      <img src="images/i_174.jpg" width="700" height="528" alt="" />
+    </a>
+    <div class="caption">In the Movement.</div>
+    <div class="small"><span class="smcap">Oom Paul</span> (to himself). “Shifting her Capital? My idea!”</div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w600">
+    <span class="pagenum" id="Page_175">175</span>
+    <div class="left"><i>September, 1900.</i></div>
+    <a id="i_175" href="images/i_175large.jpg">
+      <img src="images/i_175.jpg" width="564" height="700" alt="" />
+    </a>
+    <div class="caption">Reporting Himself.</div>
+    <div class="poetry-container">
+      <div class="poetry">
+        <div class="stanza">
+          <div class="i0">You that answered England’s call</div>
+          <div class="i2">At the darkest of the night,</div>
+          <div class="i0">Come and take your coronal</div>
+          <div class="i2">Won in many a gallant fight!</div>
+        </div>
+        <div class="stanza">
+          <div class="i0">She that armed your eager ranks,</div>
+          <div class="i2">She from whom you have your name,</div>
+          <div class="i0">London’s city yields you thanks</div>
+          <div class="i2">For your gift of added fame!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="page" />
+  <div class="figcenter w700">
+    <span class="pagenum" id="Page_176">176</span>
+    <div class="left"><i>January, 1901.</i></div>
+    <a id="i_176-177" href="images/i_176-177large.jpg">
+      <img src="images/i_176-177.jpg" width="700" height="447" alt="" />
+    </a>
+    <div class="caption">Time’s appeal.</div>
+  </div>
+
+  <div class="transnote mt10">
+    <p class="large"><b>Transcriber’s Notes:</b></p>
+    <p>Blank page has been removed.</p>
+    <p>Redundant title page removed.</p>
+    <p>Page 33: “Marseilliase” corrected to “Marseillaise”.</p>
+    <p>Images link to higher resolution versions.</p>
+    <p>For the 2-page images, the joins were not fixed up, as it would require
+      substantial subjective art work that would not do justice to Sir Tenniel.</p>
+  </div>
+
+
+
+
+
+
+
+
+<pre>
+
+
+
+
+
+End of Project Gutenberg's Cartoons by Sir John Tenniel, by John Tenniel
+
+*** END OF THIS PROJECT GUTENBERG EBOOK CARTOONS BY SIR JOHN TENNIEL ***
+
+***** This file should be named 59801-h.htm or 59801-h.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/5/9/8/0/59801/
+
+Produced by Chris Curnow, Robert Tonsing, and the Online
+Distributed Proofreading Team at http://www.pgdp.net (This
+file was produced from images generously made available
+by The Internet Archive)
+
+
+Updated editions will replace the previous one--the old editions will
+be renamed.
+
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg-tm electronic works to protect the PROJECT GUTENBERG-tm
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for the eBooks, unless you receive
+specific permission. If you do not charge anything for copies of this
+eBook, complying with the rules is very easy. You may use this eBook
+for nearly any purpose such as creation of derivative works, reports,
+performances and research. They may be modified and printed and given
+away--you may do practically ANYTHING in the United States with eBooks
+not protected by U.S. copyright law. Redistribution is subject to the
+trademark license, especially commercial redistribution.
+
+START: FULL LICENSE
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full
+Project Gutenberg-tm License available with this file or online at
+www.gutenberg.org/license.
+
+Section 1. General Terms of Use and Redistributing Project
+Gutenberg-tm electronic works
+
+1.A. By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg-tm electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg-tm electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the
+person or entity to whom you paid the fee as set forth in paragraph
+1.E.8.
+
+1.B. "Project Gutenberg" is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg-tm
+electronic works. See paragraph 1.E below.
+
+1.C. The Project Gutenberg Literary Archive Foundation ("the
+Foundation" or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg-tm electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg-tm mission of promoting
+free access to electronic works by freely sharing Project Gutenberg-tm
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg-tm name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg-tm License when
+you share it without charge with others.
+
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg-tm work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country outside the United States.
+
+1.E. Unless you have removed all references to Project Gutenberg:
+
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg-tm License must appear
+prominently whenever any copy of a Project Gutenberg-tm work (any work
+on which the phrase "Project Gutenberg" appears, or with which the
+phrase "Project Gutenberg" is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+
+  This eBook is for the use of anyone anywhere in the United States and
+  most other parts of the world at no cost and with almost no
+  restrictions whatsoever. You may copy it, give it away or re-use it
+  under the terms of the Project Gutenberg License included with this
+  eBook or online at www.gutenberg.org. If you are not located in the
+  United States, you'll have to check the laws of the country where you
+  are located before using this ebook.
+
+1.E.2. If an individual Project Gutenberg-tm electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase "Project
+Gutenberg" associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg-tm
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+
+1.E.3. If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg-tm License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg-tm work in a format
+other than "Plain Vanilla ASCII" or other format used in the official
+version posted on the official Project Gutenberg-tm web site
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original "Plain
+Vanilla ASCII" or other form. Any alternate format must include the
+full Project Gutenberg-tm License as specified in paragraph 1.E.1.
+
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works
+provided that
+
+* You pay a royalty fee of 20% of the gross profits you derive from
+  the use of Project Gutenberg-tm works calculated using the method
+  you already use to calculate your applicable taxes. The fee is owed
+  to the owner of the Project Gutenberg-tm trademark, but he has
+  agreed to donate royalties under this paragraph to the Project
+  Gutenberg Literary Archive Foundation. Royalty payments must be paid
+  within 60 days following each date on which you prepare (or are
+  legally required to prepare) your periodic tax returns. Royalty
+  payments should be clearly marked as such and sent to the Project
+  Gutenberg Literary Archive Foundation at the address specified in
+  Section 4, "Information about donations to the Project Gutenberg
+  Literary Archive Foundation."
+
+* You provide a full refund of any money paid by a user who notifies
+  you in writing (or by e-mail) within 30 days of receipt that s/he
+  does not agree to the terms of the full Project Gutenberg-tm
+  License. You must require such a user to return or destroy all
+  copies of the works possessed in a physical medium and discontinue
+  all use of and all access to other copies of Project Gutenberg-tm
+  works.
+
+* You provide, in accordance with paragraph 1.F.3, a full refund of
+  any money paid for a work or a replacement copy, if a defect in the
+  electronic work is discovered and reported to you within 90 days of
+  receipt of the work.
+
+* You comply with all other terms of this agreement for free
+  distribution of Project Gutenberg-tm works.
+
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg-tm electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from both the Project Gutenberg Literary Archive Foundation and The
+Project Gutenberg Trademark LLC, the owner of the Project Gutenberg-tm
+trademark. Contact the Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg-tm collection. Despite these efforts, Project Gutenberg-tm
+electronic works, and the medium on which they may be stored, may
+contain "Defects," such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg-tm
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg-tm work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg-tm work, and (c) any
+Defect you cause.
+
+Section 2. Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at
+www.gutenberg.org Section 3. Information about the Project Gutenberg
+Literary Archive Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation's EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state's laws.
+
+The Foundation's principal office is in Fairbanks, Alaska, with the
+mailing address: PO Box 750175, Fairbanks, AK 99775, but its
+volunteers and employees are scattered throughout numerous
+locations. Its business office is located at 809 North 1500 West, Salt
+Lake City, UT 84116, (801) 596-1887. Email contact links and up to
+date contact information can be found at the Foundation's web site and
+official page at www.gutenberg.org/contact
+
+For additional contact information:
+
+    Dr. Gregory B. Newby
+    Chief Executive and Director
+    gbnewby@pglaf.org
+
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular
+state visit www.gutenberg.org/donate
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate
+
+Section 5. General Information About Project Gutenberg-tm electronic works.
+
+Professor Michael S. Hart was the originator of the Project
+Gutenberg-tm concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg-tm eBooks with only a loose network of
+volunteer support.
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+
+Most people start at our Web site which has the main PG search
+facility: www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+
+
+</pre>
+
+</body>
+</html>

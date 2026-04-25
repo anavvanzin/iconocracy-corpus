@@ -1,0 +1,301 @@
+
+/Users/ana/iconocracy-corpus/tools/scripts/validate_schemas.py:14: DeprecationWarning: jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+  from jsonschema import Draft202012Validator, RefResolver
+Validating /Users/ana/iconocracy-corpus/data/processed/records.jsonl against master-record schema...
+
+Results: 139/139 records valid
+✓ All records are valid
+records.jsonl: 139 | vault: 171
+
+Apenas em records.jsonl (por URL) — 129:
+  + http://memoria.bn.br/docreader/webindex/WIPagina/313394/101306
+  + http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf
+  + http://www.speel.me.uk/sculptlondon/oldbaileyjustice.htm
+  + https://acervos.ims.com.br/index.php/Detail/objects/18758
+  + https://archive.nyu.edu/handle/2451/61396
+  + https://bdh.bne.es/bnesearch/detalle/76944
+  + https://be-monumen.be/patrimoine-belge/poelaert-joseph/
+  + https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular
+  + https://bndigital.bnportugal.gov.pt/records/item/37491-alegoria-a-morte
+  + https://bndigital.bnportugal.gov.pt/records/item/37507-alegoria-ao-tempo
+  ... e mais 119
+
+Apenas no vault (por URL) — 101:
+  - [SCOUT-325 Allégorie  le perron avec ses deux blasons muets entre la.md] http://balat.kikirpa.be/object/10130401
+  - [SCOUT-324 Figures allégories de Vertus et de l'Ancien Testament.md] http://balat.kikirpa.be/object/10134533
+  - [SCOUT-205 Decreto 1 Republica Frontispicio 1889.md] http://docvirt.com/docreader/DocReader.aspx?bib=ACDigital&pa
+  - [SCOUT-341 N° 5 - Take up the sword of justice.md] http://gallica.bnf.fr/ark:/12148/btv1b10051600t
+  - [SCOUT-344 La Justice, la Vengeance et la Vérité  estampe  F. Chifflart.md] http://gallica.bnf.fr/ark:/12148/btv1b531737635
+  - [SCOUT-350 GRAND JUGE ET MINISTRE DE LA JUSTICE  en tête de page.md] http://gallica.bnf.fr/ark:/12148/btv1b8412925w
+  - [SCOUT-349 The Sun of Justice.md] http://kk.haum-bs.de/?id=a-duerer-wb3-0130
+  - [SCOUT-339 La Sagesse et la Justice.md] http://kk.haum-bs.de/?id=bonnet-l-m-ab3-0035
+  - [SCOUT-329 Allegory with Justitia and Pax in a cart in front of Albert.md] http://kk.haum-bs.de/?id=bosche-e-v-d-ab2-0002
+  - [SCOUT-340 Iusticia justice.md] http://kk.haum-bs.de/?id=briot-i-wb3-0005
+  ... e mais 91
+
+Itens em records.jsonl sem nota vault (por título): 120
+records.jsonl items:   139
+corpus-data.json items:165
+
+Only in records.jsonl (1):
+  + https://iconocracy.corpus/placeholder/DE-NOTG-1921
+
+Only in corpus-data.json (27):
+  - [BR-016] (sem URL)
+  - [DE-NOTG-1921] (sem URL)
+  - [DE-NOTGELD-1921] (sem URL)
+  - [FR-036] (sem URL)
+  - [FR-038] (sem URL)
+  - [FR-039] (sem URL)
+  - [FR-040] (sem URL)
+  - [FR-047] (sem URL)
+  - [UK-PENNY-1912] https://collections.museumsvictoria.com.au/items/57610
+  - [UK-FLORIN-1902] https://collections.museumsvictoria.com.au/items/77020
+  ... and 17 more
+
+===============================MATRIZ DO CORPUS===============================
+                    FUNDACIONAL            NORMATIVO              MILITAR       
+
+  France (FR)
+    moeda                     2           1*          1 
+    selo                    ---           1*        --- 
+    monumento               ---         ---         --- 
+    estampa                  14*          2         --- 
+    frontispicio              2         ---         --- 
+    papel-moeda               1         ---         --- 
+    cartaz                  ---           4           7*
+    medalha                 ---         ---         --- 
+
+  United Kingdom (UK)
+    moeda                     1           4*          1*
+    selo                    ---         ---         --- 
+    monumento               ---           1         --- 
+    estampa                   1           3         --- 
+    frontispicio            ---         ---         --- 
+    papel-moeda             ---         ---         --- 
+    cartaz                  ---         ---           2 
+    medalha                 ---         ---         --- 
+
+  Germany (DE)
+    moeda                   ---           1         --- 
+    selo                    ---         ---*          2 
+    monumento                 5         ---         --- 
+    estampa                   2         ---         --- 
+    frontispicio            ---         ---         --- 
+    papel-moeda               3           3         ---*
+    cartaz                  ---         ---           1 
+    medalha                 ---         ---         --- 
+
+  United States (US)
+    moeda                     1*        ---           1 
+    selo                    ---         ---         --- 
+    monumento               ---         ---*        --- 
+    estampa                   4           1           3 
+    frontispicio            ---         ---         --- 
+    papel-moeda             ---           3         --- 
+    cartaz                  ---         ---           6 
+    medalha                 ---         ---         --- 
+
+  Belgium (BE)
+    moeda                     2         ---*        --- 
+    selo                    ---         ---         --- 
+    monumento               ---           1           1 
+    estampa                   2         ---         --- 
+    frontispicio            ---         ---         --- 
+    papel-moeda             ---         ---           2*
+    cartaz                  ---         ---         --- 
+    medalha                 ---         ---         --- 
+
+  Brazil (BR)
+    moeda                   ---*          3         --- 
+    selo                    ---         ---*        --- 
+    monumento               ---         ---           1 
+    estampa                 ---         ---         --- 
+    frontispicio            ---         ---         --- 
+    papel-moeda             ---           1         --- 
+    cartaz                  ---         ---         --- 
+    medalha                 ---         ---         --- 
+
+                                            * = célula prioritária para a tese
+
+===============================RESUMO POR PAÍS================================
+
+  France (FR): 44 itens, 42% cobertura
+    Regimes: {'fundacional': 21, 'normativo': 9, 'contra-alegoria': 6, 'militar': 8}
+    Suportes: {'estampa': 18, 'cartaz': 11, 'fotografia': 1, 'frontispicio': 2, 'pintura': 2, 'gravura/litografia': 4, 'papel-moeda': 1, 'moeda': 4, 'selo': 1}
+
+  United Kingdom (UK): 14 itens, 29% cobertura
+    Regimes: {'normativo': 8, 'fundacional': 2, 'militar': 3, 'contra-alegoria': 1}
+    Suportes: {'estampa': 4, 'monumento': 1, 'cartaz': 2, 'gravura': 1, 'moeda': 6}
+
+  Germany (DE): 22 itens, 29% cobertura
+    Regimes: {'fundacional': 13, 'normativo': 5, 'militar': 3, 'contra-alegoria': 1}
+    Suportes: {'estampa': 2, 'monumento': 5, 'pintura': 3, 'cartaz': 1, 'gravura/litografia': 1, 'papel-moeda': 6, 'moeda': 1, 'selo': 2, 'fotografia': 1}
+
+  United States (US): 24 itens, 29% cobertura
+    Regimes: {'fundacional': 6, 'normativo': 6, 'militar': 10, 'contra-alegoria': 2}
+    Suportes: {'estampa': 8, 'fotografia': 3, 'cartaz': 6, 'gravura': 1, 'gravura/litografia': 1, 'papel-moeda': 3, 'moeda': 2}
+
+  Belgium (BE): 9 itens, 21% cobertura
+    Regimes: {'normativo': 2, 'fundacional': 4, 'militar': 3}
+    Suportes: {'pintura': 1, 'monumento': 2, 'moeda': 2, 'papel-moeda': 2, 'estampa': 2}
+
+  Brazil (BR): 15 itens, 12% cobertura
+    Regimes: {'fundacional': 8, 'normativo': 6, 'militar': 1}
+    Suportes: {'fotografia': 4, 'pintura': 4, 'texto': 2, 'monumento': 1, 'moeda': 3, 'papel-moeda': 1}
+
+=============================RELATÓRIO DE LACUNAS=============================
+  Itens no corpus (6 países): 128
+  Notas no vault: 171
+  Células da matriz: 144
+  Preenchidas (>= 1): 39 (27%)
+  Lacunas: 105
+  Lacunas prioritárias: 6
+
+=============================LACUNAS PRIORITÁRIAS=============================
+  [DE] Germany / NORMATIVO / selo
+  [DE] Germany / MILITAR / papel-moeda
+  [US] United States / NORMATIVO / monumento
+  [BE] Belgium / NORMATIVO / moeda
+  [BR] Brazil / FUNDACIONAL / moeda
+  [BR] Brazil / NORMATIVO / selo
+
+================================DEMAIS LACUNAS================================
+
+  France (FR) — 14 lacunas:
+    fundacional    / selo
+    fundacional    / monumento
+    fundacional    / cartaz
+    fundacional    / medalha
+    normativo      / monumento
+    normativo      / frontispicio
+    normativo      / papel-moeda
+    normativo      / medalha
+    militar        / selo
+    militar        / monumento
+    militar        / estampa
+    militar        / frontispicio
+    militar        / papel-moeda
+    militar        / medalha
+
+  United Kingdom (UK) — 17 lacunas:
+    fundacional    / selo
+    fundacional    / monumento
+    fundacional    / frontispicio
+    fundacional    / papel-moeda
+    fundacional    / cartaz
+    fundacional    / medalha
+    normativo      / selo
+    normativo      / frontispicio
+    normativo      / papel-moeda
+    normativo      / cartaz
+    normativo      / medalha
+    militar        / selo
+    militar        / monumento
+    militar        / estampa
+    militar        / frontispicio
+    militar        / papel-moeda
+    militar        / medalha
+
+  Germany (DE) — 15 lacunas:
+    fundacional    / moeda
+    fundacional    / selo
+    fundacional    / frontispicio
+    fundacional    / cartaz
+    fundacional    / medalha
+    normativo      / monumento
+    normativo      / estampa
+    normativo      / frontispicio
+    normativo      / cartaz
+    normativo      / medalha
+    militar        / moeda
+    militar        / monumento
+    militar        / estampa
+    militar        / frontispicio
+    militar        / medalha
+
+  United States (US) — 16 lacunas:
+    fundacional    / selo
+    fundacional    / monumento
+    fundacional    / frontispicio
+    fundacional    / papel-moeda
+    fundacional    / cartaz
+    fundacional    / medalha
+    normativo      / moeda
+    normativo      / selo
+    normativo      / frontispicio
+    normativo      / cartaz
+    normativo      / medalha
+    militar        / selo
+    militar        / monumento
+    militar        / frontispicio
+    militar        / papel-moeda
+    militar        / medalha
+
+  Belgium (BE) — 18 lacunas:
+    fundacional    / selo
+    fundacional    / monumento
+    fundacional    / frontispicio
+    fundacional    / papel-moeda
+    fundacional    / cartaz
+    fundacional    / medalha
+    normativo      / selo
+    normativo      / estampa
+    normativo      / frontispicio
+    normativo      / papel-moeda
+    normativo      / cartaz
+    normativo      / medalha
+    militar        / moeda
+    militar        / selo
+    militar        / estampa
+    militar        / frontispicio
+    militar        / cartaz
+    militar        / medalha
+
+  Brazil (BR) — 19 lacunas:
+    fundacional    / selo
+    fundacional    / monumento
+    fundacional    / estampa
+    fundacional    / frontispicio
+    fundacional    / papel-moeda
+    fundacional    / cartaz
+    fundacional    / medalha
+    normativo      / monumento
+    normativo      / estampa
+    normativo      / frontispicio
+    normativo      / cartaz
+    normativo      / medalha
+    militar        / moeda
+    militar        / selo
+    militar        / estampa
+    militar        / frontispicio
+    militar        / papel-moeda
+    militar        / cartaz
+    militar        / medalha
+records.jsonl:           139 registros
+vault/candidatos/:       171 notas (.md)
+  com corpus ID (XX-NNN): 17
+  SCOUT-NNN:              130
+  outros:                 24
+
+==================================================
+  Purification Coding Progress
+==================================================
+  Total items:   165
+  Coded:         145 (88%)
+  Remaining:     20
+  Output file:   /Users/ana/iconocracy-corpus/data/processed/purification.jsonl
+
+  Composite stats (coded items):
+    Min:  0.10
+    Max:  3.10
+    Mean: 1.44
+
+  By country:
+    ?                145 coded  (mean=1.44)
+
+  By regime:
+    contra-alegoria    7
+    fundacional       71
+    militar           27
+    normativo         40

@@ -1,0 +1,362 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Alegoria da República : Faculty Digital Archive : NYU Libraries</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Generator" content="DSpace 5.4" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+        <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.creator" content="Villares, Décio" />
+<meta name="DCTERMS.spatial" content="Brazil" xml:lang="en" />
+<meta name="DCTERMS.dateAccepted" content="2020-07-20T03:31:20Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2020-07-20T03:31:20Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="1900" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="http://hdl.handle.net/2451/61396" scheme="DCTERMS.URI" />
+<meta name="DC.description" content="Óleo sobre tela (undated sketch, 97 x 77 cm), c. 1900. Museu Histórico Nacional. Referencias: http://mhn.acervos.museus.gov.br/reserva-tecnica/pintura-alegorica-modelo/" xml:lang="en" />
+<meta name="DC.source" content="Museu Histórico Nacional, reserva técnica" xml:lang="en" />
+<meta name="DC.title" content="Alegoria da República" xml:lang="en" />
+<meta name="DC.type" content="Pintura" xml:lang="en" />
+
+<meta name="citation_keywords" content="Pintura" />
+<meta name="citation_title" content="Alegoria da República" />
+<meta name="citation_author" content="Villares, Décio" />
+<meta name="citation_pdf_url" content="http://archive.nyu.edu/bitstream/2451/61396/2/Rj12-03.tiff" />
+<meta name="citation_date" content="1900" />
+<meta name="citation_abstract_html_url" content="http://archive.nyu.edu/handle/2451/61396" />
+
+
+        
+    <script type='text/javascript' src="/static/js/jquery/jquery-1.10.2.min.js"></script>
+    <script type='text/javascript' src='/static/js/jquery/jquery-ui-1.10.3.custom.min.js'></script>
+    <script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+    <script type='text/javascript' src='/static/js/holder.js'></script>
+    <script type="text/javascript" src="/utils.js"></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+
+    
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CD1NCN148W"></script>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://nyulib.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '16']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='https://cdn.matomo.cloud/nyulib.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CD1NCN148W');
+</script>
+    
+    
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="/static/js/html5shiv.js"></script>
+  <script src="/static/js/respond.min.js"></script>
+<![endif]-->
+  
+    </head>
+    
+    
+    <body>
+<a id="skip-nav" href="#content">Skip navigation</a>
+<header class="navbar navbar-inverse">    
+    
+            <div class="container">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="navbar-header">
+			<button aria-label="Toggle Menu" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			<a class="navbar-brand" href="/"><img height="35" width="432" src="/image/nyu_fda_logo.png" alt="FDA" /> </a> </div>
+			<nav class="collapse navbar-collapse bs-navbar-collapse" >
+			<div class="nav navbar-nav navbar-right">
+				<ul class="nav navbar-nav navbar-right">
+
+					<li class="dropdown"> <a href="/jspui" class="dropdown-toggle" data-toggle="dropdown">Browse <b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li><a href="/community-list">Communities<br/>
+								&amp;&nbsp;Collections</a></li>
+							<li class="divider"></li>
+							 <li class="dropdown-header">Browse Items by:</li>
+																
+																
+																
+																												<li><a href="/browse?type=dateissued">Issue Date</a></li>
+																				
+																												<li><a href="/browse?type=author">Author</a></li>
+																				
+																												<li><a href="/browse?type=title">Title</a></li>
+																				
+																												<li><a href="/browse?type=subject">Subject</a></li>
+																				
+																		
+																
+
+						</ul>
+					</li>
+					<li class=""><a href="/advanced-search">Search</a></li>
+				
+					<li class="dropdown">
+				 
+						 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Sign on to: <b class="caret"></b></a>
+				             
+						 <ul class="dropdown-menu">
+							 <li><a href="/mydspace">My FDA</a></li>
+							 <li><a href="/subscribe">Receive email<br/>updates</a></li>
+							 <li><a href="/profile">Edit Profile</a></li>
+
+								
+						 </ul>
+					 </li>
+ 
+				</ul>
+
+			</div>
+		</nav>
+
+            </div>
+
+<script type="text/javascript">
+  var jQ = jQuery.noConflict();
+  jQ(document).ready(function() {
+      jQ(".fda-tree li").each(function( index ) {
+        if (jQ( this ).find( "ul" ).length ){
+           jQ( this ).addClass("has-sublist");
+          jQ( this ).find( "ul" ).hide();
+          var ArrowElement = jQ( '<a class="arrow" href="#">+</a>');
+          jQ( this ).prepend( ArrowElement );
+          ArrowElement.click(function(event){
+            event.preventDefault();
+            openstate = jQ(this ).siblings( "ul" ).is(":visible");
+            if (!openstate) {
+              jQ( this ).text("-");
+              jQ( this ).addClass("isOpen");
+              jQ( this ).siblings( "ul" ).slideDown("fast", function(){});
+            } else {
+               jQ( this ).removeClass("isOpen");
+              jQ( this ).siblings( "ul" ).slideUp("fast");
+              jQ( this ).text("+");
+            }
+          });
+        } 
+    });
+  });
+  </script>
+</header>
+<main id="content" tabindex="-1">
+<!-- <div class="container">
+    <div class="alert alert-warning" role="alert">
+              <p>The NYU IT team is performing scheduled maintenance on the storage device that supports the Faculty Digital Archive on Wednesday, February 19th starting at 12:30pm EST and continuing though Thursday Februaru 19th. Contents will be available for viewing during this time. However, submitters will not be able to submit or edit items until this maintenance is complete. We apologize for this inconvenience.
+        </p></div>
+</div> -->
+
+<div class="container">
+                
+
+
+
+  
+
+<ol class="breadcrumb">
+
+  <li><a href="/">Faculty Digital Archive : NYU Libraries</a></li>
+
+  <li><a href="/community-list">Communities & Collections</a></li>
+
+  <li><a href="/handle/2451/14814">Arts and Science</a></li>
+
+  <li><a href="/handle/2451/44428">Relics & Selves: Iconographies of the National in Argentina, Brazil and Chile</a></li>
+
+<li>Alegoria da República</li>
+
+</ol>
+
+</div>                
+
+
+
+
+
+        
+<div class="container">
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+
+        <!--<div class="alert alert-warning citation-info">
+        Please use this identifier to cite or link to this item:
+            <code>http://hdl.handle.net/2451/61396</code>
+        </div>-->
+
+
+		<!-- side bar --> 
+
+
+
+
+  <!-- Here's the item itself -->
+    <section class="fda-individual-item">
+    
+    <table class="table itemDisplayTable">
+<tr class="item-title "><td class="metadataFieldLabel">Title:&nbsp;</td><td class="metadataFieldValue"><h1 class="page-title">Alegoria&#x20;da&#x20;República</td></tr>
+<tr><td class="metadataFieldLabel">Authors:&nbsp;</td><td class="metadataFieldValue"><a class="author"href="/browse?type=author&amp;value=Villares%2C+D%C3%A9cio">Villares,&#x20;Décio</a></td></tr>
+<tr><td class="metadataFieldLabel">Date:&nbsp;</td><td class="metadataFieldValue">1900</td></tr>
+<tr><td class="metadataFieldLabel">Type:&nbsp;</td><td class="metadataFieldValue">Pintura</td></tr>
+<tr><td class="metadataFieldLabel">Description:&nbsp;</td><td class="metadataFieldValue">Óleo&#x20;sobre&#x20;tela&#x20;(undated&#x20;sketch,&#x20;97&#x20;x&#x20;77&#x20;cm),&#x20;c.&#x20;1900.&#x20;Museu&#x20;Histórico&#x20;Nacional.&#x20;Referencias:&#x20;http:&#x2F;&#x2F;mhn.acervos.museus.gov.br&#x2F;reserva-tecnica&#x2F;pintura-alegorica-modelo&#x2F;</td></tr>
+<tr><td class="metadataFieldLabel">Country:&nbsp;</td><td class="metadataFieldValue">Brazil</td></tr>
+<tr><td class="metadataFieldLabel">Source:&nbsp;</td><td class="metadataFieldValue">Museu&#x20;Histórico&#x20;Nacional,&#x20;reserva&#x20;técnica</td></tr>
+<tr><td class="metadataFieldLabel">Appears in Collections:</td><td class="metadataFieldValue"><a href="/handle/2451/44428">Relics & Selves: Iconographies of the National in Argentina, Brazil and Chile</a><br/></td></tr>
+</table><br/>
+<div class="panel panel-info"><div class="panel-heading">Files in This Item:</div>
+<table class="table panel-body"><tr><th id="t1" class="standard">File</th>
+<th id="t2" class="standard">Description</th>
+<th id="t3" class="standard">Size</th><th id="t4" class="standard">Format</th><th>&nbsp;</th></tr>
+<tr><td headers="t1" class="standard"><a target="_blank" href="/bitstream/2451/61396/2/Rj12-03.tiff">Rj12-03.tiff</a></td><td headers="t2" class="standard">Rj12-03</td><td headers="t3" class="standard">6.51 MB</td><td headers="t4" class="standard">TIFF</td><td class="standard" align="center"><a target="_blank" href="/bitstream/2451/61396/2/Rj12-03.tiff"><img src="/retrieve/124973/Rj12-03.tiff.jpg" alt="Thumbnail" /></a><br /><a class="btn btn-primary" target="_blank" href="/bitstream/2451/61396/2/Rj12-03.tiff">View/Open</a></td></tr></table>
+</div>
+
+
+   
+    <!-- show full item record button -->
+
+
+
+<div class="container row">
+
+
+    <a class="btn btn-default" href="/handle/2451/61396?mode=full">
+        Show full item record
+    </a>
+
+
+    
+
+</div>
+
+</section>
+<br >
+    
+
+<br/>
+    
+
+    <p class="submitFormHelp">Items in FDA are protected by copyright, with all rights reserved, unless otherwise indicated.</p>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+</main>
+            
+<footer class="navbar navbar-inverse">
+    <div class="footer-holder container">
+    <div class="f-1"><a href="/about">About the Archive</a> | <a target="_blank" href="/help">Help</a> | <a href="/contact">Contact</a> | <a href="/about#rights">Rights</a> | <a href="https://www.nyu.edu/footer/accessibility.html" class="ext" target="_blank">Accessibility <span class="glyphicon glyphicon-new-window"></span></a></div>
+    <div class="f-2">Powered by <a target="_blank" href="http://dlib.nyu.edu/dlts">NYU DLTS</a> and <a target="_blank" href="http://www.dspace.org">DSpace</a> </div>
+    </div>
+</footer>
+
+    </body>
+</html>

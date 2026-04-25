@@ -1,0 +1,72 @@
+{
+  "timestamp": "2026-04-22T22:07:36.603260+00:00",
+  "method": "council-santa",
+  "decisions": [
+    {
+      "scout_label": "BR-SCOUT-001",
+      "staged_item_id": "8f79b2ae-bb3f-54d1-a131-588e0582e33f",
+      "existing_corpus_id": "BR-005",
+      "existing_item_id": "bfac2d3e-5230-5a27-970b-625e5eb7ed24",
+      "decision": "NEW",
+      "rationale": "title_substring noise. Different creators (Agostini lithograph vs Villares oil), different objects. Council: corpus needs both for fundacional sequence. Santa: promote as new.",
+      "timestamp": "2026-04-22T22:07:36.603260+00:00",
+      "method": "council-santa",
+      "promoted": true
+    },
+    {
+      "scout_label": "BR-SCOUT-003",
+      "staged_item_id": "2c605b39-edde-51ef-8bd9-fd027793d097",
+      "existing_corpus_id": "BR-005",
+      "existing_item_id": "bfac2d3e-5230-5a27-970b-625e5eb7ed24",
+      "decision": "NEW",
+      "rationale": "title_substring noise. Different creators (Lopes Rodrigues 1896 vs Villares 1888), state commission vs positivist iconography. Council: distinct epistemic value. Santa: promote as new.",
+      "timestamp": "2026-04-22T22:07:36.603260+00:00",
+      "method": "council-santa",
+      "promoted": true
+    },
+    {
+      "scout_label": "BR-SCOUT-005",
+      "staged_item_id": "0f71b4af-2408-5bbb-a4e7-09a04708eba1",
+      "existing_corpus_id": "BR-009",
+      "existing_item_id": "9eecda17-15eb-59ad-9071-d882725f90f5",
+      "decision": "ENRICH",
+      "rationale": "Same object: Ceschiatti sculpture at STF Brasilia. LPAI title omits attribution. Council: merge LPAI evidence into BR-009, do not duplicate. Santa: enrich existing record.",
+      "timestamp": "2026-04-22T22:07:36.603260+00:00",
+      "method": "council-santa",
+      "enriched": true
+    },
+    {
+      "scout_label": "FR-SCOUT-002",
+      "staged_item_id": "6295a584-394b-5309-ba39-ac67a8b1dfc5",
+      "existing_corpus_id": "FR-008",
+      "existing_item_id": "894174a1-4d8d-50e3-8066-dbb26d18a056",
+      "decision": "ENRICH",
+      "rationale": "Same object, different state (etat avec remarque). Council: in printmaking, states are variants of same matrix; atlas does not need separate panel. Santa: enrich FR-008 with state note.",
+      "timestamp": "2026-04-22T22:07:36.603260+00:00",
+      "method": "council-santa",
+      "enriched": true
+    },
+    {
+      "scout_label": "FR-SCOUT-005",
+      "staged_item_id": "be651636-3485-525f-ae1b-817b146c91b2",
+      "existing_corpus_id": "FR-009",
+      "existing_item_id": "4d84fe99-7db7-5ea5-96cd-bca3bd57a189",
+      "decision": "ENRICH",
+      "rationale": "Same object family. LPAI adds \"serie de 4 fotografias\" — photographic documentation of same bust. Council: photographic series enriches but does not separate. Santa: enrich FR-009.",
+      "timestamp": "2026-04-22T22:07:36.603260+00:00",
+      "method": "council-santa",
+      "enriched": true
+    },
+    {
+      "scout_label": "FR-SCOUT-006",
+      "staged_item_id": "a3c91e92-5007-5b8c-a924-41de894f1bd4",
+      "existing_corpus_id": "FR-038",
+      "existing_item_id": "e933260c-9011-5c67-ad04-4128dd7fcbb3",
+      "decision": "ENRICH",
+      "rationale": "Same object. Existing FR-038 lacks URL; LPAI supplies Gallica URL and Janinet attribution. Council: URL and complete attribution are valuable enrichment. Santa: enrich FR-038.",
+      "timestamp": "2026-04-22T22:07:36.603260+00:00",
+      "method": "council-santa",
+      "enriched": true
+    }
+  ]
+}

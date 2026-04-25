@@ -1,0 +1,47 @@
+{
+  "dataset_repo": "warholana/iconocracy-corpus",
+  "release_tag": "2026-04-06",
+  "stats": {
+    "generated_at": "2026-04-06T15:01:50Z",
+    "corpus_items": 145,
+    "records_items": 139,
+    "purification_rows": 106,
+    "coded_items": 106,
+    "country_count": 17,
+    "schema_versions": [
+      "1.0"
+    ],
+    "regime_counts": {
+      "normativo": 36,
+      "militar": 27,
+      "fundacional": 72,
+      "contra-alegoria": 10
+    },
+    "top_countries": {
+      "France": 42,
+      "United States": 20,
+      "Germany": 18,
+      "Brazil": 12,
+      "United Kingdom": 10,
+      "Italy": 8,
+      "Netherlands": 8,
+      "Portugal": 7
+    },
+    "top_supports": {
+      "estampa": 50,
+      "cartaz": 24,
+      "moeda": 14,
+      "pintura": 12,
+      "monumento": 12,
+      "fotografia": 9,
+      "selo": 6,
+      "gravura/litografia": 6
+    },
+    "mean_endurecimento": 1.446,
+    "corpus_records_delta": 6
+  },
+  "notes": [
+    "Aligned public dataset scaffolding with the operating model.",
+    "Snapshot generated during implementation verification."
+  ]
+}

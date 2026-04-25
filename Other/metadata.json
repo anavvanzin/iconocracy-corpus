@@ -1,0 +1,524 @@
+{
+  "entityId": "0545AEb596bDD8d755EA4370",
+  "entityType": "collections",
+  "buildId": 2568,
+  "createdAt": "2026-04-14T16:45:28.247Z",
+  "downloads": [
+    {
+      "language": "typescript",
+      "status": "success",
+      "createdAt": "2026-04-14T16:45:28.254Z",
+      "link": "https://us-prod-sdk-gen-api-code-gen-uploads.s3.us-east-1.amazonaws.com/af6663e7-d7c5-4b29-bf67-b3a40f72da08/iconocracy-corpus-sdk-typescript-1.0.0.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LJBU7HUMF42PO%2F20260414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260414T164539Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIHksgXvyf4cd5PBv1%2BqSkzHohhcvToAREQOj7R10XTyTAiEAnTUI0PWneFZVAX5qTGQNQwvpLFgiV5KPUmOKZvf5zbMqnAUIkv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjM2NTIxNTgiDFcUTC90nnco9RVvcirwBBcC1D2hkRECtJDHXv8iA7cg8l6eeTCwPeQV7T05BR5Udti5WPbWMz8bIJBtC2H%2B79OjgA2Je28JQnMd9EyLvqh8qqvsQ1m0B97GaRb7SWmGp9f6wQqQ36%2FEv6yWYkjIP6g8p3AdOF7g3BtbMH%2FPfDEOagz8m4W2gqHOmGHC5TdET4%2F5T%2FZOjEoDPcc7TdRXzWm5McmOdrcmH1KMpfX5ZYYgYlP1t0YFUyRPydJualD%2BzKBXbma2v56tKi%2FFhMLTrkiVwRS73b9i7KOC5xHH9J01%2BX%2BfJYPyiV7mX8P6ByUJhiIVaivufWRPhXcnWGRNvFjG5%2FvIUlW3E%2F7Yl4iUy9ckl%2FSwDWJ%2Fv2SVUODo4IMSa2oF8f0c3YyW9kLHzNEKNuC7g7mnGIH3Zn2MKgKMRaJxoQVzmQSuRmuDXTTy5tdQOhEf%2BTrFRHQziwaGFL0yBxvNijz9xPrtAETvqm%2FymvMGww8TqN1DhlbUVzSFOCztmbHpiBgKa82JpqB%2B2kxuz0HU30%2BRoQWmw42L3TSg7dkoXgJNWwwysaeE5lmk6xMgjQ0nf63s1lFeV8FHzEur1MZxMAtjYe2UNiNLTY1Eum7gLpU4usLJyuGIBI3Q4mHqWWP30aCsbLqaCvnKF3JbZtEYXO52HggAM4Jnj%2BaiEJhxPUCtF1qb0G5L5TEzQFR6nZ6pO%2B0YXHIPY9C54DwqwP0sviYz0lZWzI9I%2F%2FAFGkC%2FoNMEr6PsE1QahmJ5506J4Ubufd5hjlBctwrHzVlsjPKg6fJP8Dg3EnrkFQJKT7tx4wPmzr3A8kuMRgxWc457y49P1jxX4yNexzqRWhYu4DCq2PnOBjqZAbpXY757f5vBbZtNruOke6pgmkmxmZYoe%2BtqA1Szc1in76PcVdcd3ZtytHLYQiAxps4uh%2Bj%2FV%2ByI%2Fag2yqz5a91jd8aeENdI9h%2B5diR%2Fy3L2kl6CY6jgffTovAaZICuLqou6FJkHP4e%2BhfvcykcE4jsuwwYVRKPVYrPBGMXaXmgHZim1tTaQDm6j6VEihad1AfT9c1Qkni9HrA%3D%3D&X-Amz-Signature=2ebac98fc6369c34ec4928e576b8be11db5bb81e5c97d9ccd67381a532bcd4fd&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "contentHash": "4bcdbcaa1becf5e5bfbf8808a0c84dced292d6159b683d6603a77677f686fbc7",
+      "logs": [
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "Postman collection does not specify if the request body is required, so the SDK requires a request body by default.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "The variable \"itemId\" is provided in the collection. We will use this value as a constant and it will not be a configurable path parameter in the SDK.",
+          "severity": "INFO",
+          "path": "Implemented API/Get Corpus Item",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Post data",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "Postman collections do not represent whether a property is required or optional. The SDK Generator will generate this property as optional.",
+          "severity": "INFO",
+          "path": "Post data",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        },
+        {
+          "message": "Postman collection does not specify if the request body is required, so the SDK requires a request body by default.",
+          "severity": "INFO",
+          "path": "Post data",
+          "createdAt": "2026-04-14T16:45:34.882Z"
+        }
+      ]
+    },
+    {
+      "language": "python",
+      "status": "success",
+      "createdAt": "2026-04-14T16:45:28.254Z",
+      "link": "https://us-prod-sdk-gen-api-code-gen-uploads.s3.us-east-1.amazonaws.com/e80a5ae0-ab85-4680-bd61-78f6c7fb4756/iconocracy-corpus-sdk-python-1.0.0.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LJBU7HUMF42PO%2F20260414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260414T164539Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIHksgXvyf4cd5PBv1%2BqSkzHohhcvToAREQOj7R10XTyTAiEAnTUI0PWneFZVAX5qTGQNQwvpLFgiV5KPUmOKZvf5zbMqnAUIkv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjM2NTIxNTgiDFcUTC90nnco9RVvcirwBBcC1D2hkRECtJDHXv8iA7cg8l6eeTCwPeQV7T05BR5Udti5WPbWMz8bIJBtC2H%2B79OjgA2Je28JQnMd9EyLvqh8qqvsQ1m0B97GaRb7SWmGp9f6wQqQ36%2FEv6yWYkjIP6g8p3AdOF7g3BtbMH%2FPfDEOagz8m4W2gqHOmGHC5TdET4%2F5T%2FZOjEoDPcc7TdRXzWm5McmOdrcmH1KMpfX5ZYYgYlP1t0YFUyRPydJualD%2BzKBXbma2v56tKi%2FFhMLTrkiVwRS73b9i7KOC5xHH9J01%2BX%2BfJYPyiV7mX8P6ByUJhiIVaivufWRPhXcnWGRNvFjG5%2FvIUlW3E%2F7Yl4iUy9ckl%2FSwDWJ%2Fv2SVUODo4IMSa2oF8f0c3YyW9kLHzNEKNuC7g7mnGIH3Zn2MKgKMRaJxoQVzmQSuRmuDXTTy5tdQOhEf%2BTrFRHQziwaGFL0yBxvNijz9xPrtAETvqm%2FymvMGww8TqN1DhlbUVzSFOCztmbHpiBgKa82JpqB%2B2kxuz0HU30%2BRoQWmw42L3TSg7dkoXgJNWwwysaeE5lmk6xMgjQ0nf63s1lFeV8FHzEur1MZxMAtjYe2UNiNLTY1Eum7gLpU4usLJyuGIBI3Q4mHqWWP30aCsbLqaCvnKF3JbZtEYXO52HggAM4Jnj%2BaiEJhxPUCtF1qb0G5L5TEzQFR6nZ6pO%2B0YXHIPY9C54DwqwP0sviYz0lZWzI9I%2F%2FAFGkC%2FoNMEr6PsE1QahmJ5506J4Ubufd5hjlBctwrHzVlsjPKg6fJP8Dg3EnrkFQJKT7tx4wPmzr3A8kuMRgxWc457y49P1jxX4yNexzqRWhYu4DCq2PnOBjqZAbpXY757f5vBbZtNruOke6pgmkmxmZYoe%2BtqA1Szc1in76PcVdcd3ZtytHLYQiAxps4uh%2Bj%2FV%2ByI%2Fag2yqz5a91jd8aeENdI9h%2B5diR%2Fy3L2kl6CY6jgffTovAaZICuLqou6FJkHP4e%2BhfvcykcE4jsuwwYVRKPVYrPBGMXaXmgHZim1tTaQDm6j6VEihad1AfT9c1Qkni9HrA%3D%3D&X-Amz-Signature=7f1205687a80164c2ef539960efcc146b2ed23814e9840624122dbf93b6505fd&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "contentHash": "6f3feefa7a2445799aca19f2e4b16b66da6db08046f8e2683150c28d807dc1dc",
+      "logs": [
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "Postman collection does not specify if the request body is required, so the SDK requires a request body by default.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "The variable \"itemId\" is provided in the collection. We will use this value as a constant and it will not be a configurable path parameter in the SDK.",
+          "severity": "INFO",
+          "path": "Implemented API/Get Corpus Item",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Post data",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "Postman collections do not represent whether a property is required or optional. The SDK Generator will generate this property as optional.",
+          "severity": "INFO",
+          "path": "Post data",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        },
+        {
+          "message": "Postman collection does not specify if the request body is required, so the SDK requires a request body by default.",
+          "severity": "INFO",
+          "path": "Post data",
+          "createdAt": "2026-04-14T16:45:33.189Z"
+        }
+      ]
+    },
+    {
+      "language": "java",
+      "status": "success",
+      "createdAt": "2026-04-14T16:45:28.254Z",
+      "link": "https://us-prod-sdk-gen-api-code-gen-uploads.s3.us-east-1.amazonaws.com/f3c57c88-8b96-4c35-a73a-78aab0b72503/iconocracy-corpus-sdk-java-1.0.0.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LJBU7HUMF42PO%2F20260414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260414T164539Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIHksgXvyf4cd5PBv1%2BqSkzHohhcvToAREQOj7R10XTyTAiEAnTUI0PWneFZVAX5qTGQNQwvpLFgiV5KPUmOKZvf5zbMqnAUIkv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjM2NTIxNTgiDFcUTC90nnco9RVvcirwBBcC1D2hkRECtJDHXv8iA7cg8l6eeTCwPeQV7T05BR5Udti5WPbWMz8bIJBtC2H%2B79OjgA2Je28JQnMd9EyLvqh8qqvsQ1m0B97GaRb7SWmGp9f6wQqQ36%2FEv6yWYkjIP6g8p3AdOF7g3BtbMH%2FPfDEOagz8m4W2gqHOmGHC5TdET4%2F5T%2FZOjEoDPcc7TdRXzWm5McmOdrcmH1KMpfX5ZYYgYlP1t0YFUyRPydJualD%2BzKBXbma2v56tKi%2FFhMLTrkiVwRS73b9i7KOC5xHH9J01%2BX%2BfJYPyiV7mX8P6ByUJhiIVaivufWRPhXcnWGRNvFjG5%2FvIUlW3E%2F7Yl4iUy9ckl%2FSwDWJ%2Fv2SVUODo4IMSa2oF8f0c3YyW9kLHzNEKNuC7g7mnGIH3Zn2MKgKMRaJxoQVzmQSuRmuDXTTy5tdQOhEf%2BTrFRHQziwaGFL0yBxvNijz9xPrtAETvqm%2FymvMGww8TqN1DhlbUVzSFOCztmbHpiBgKa82JpqB%2B2kxuz0HU30%2BRoQWmw42L3TSg7dkoXgJNWwwysaeE5lmk6xMgjQ0nf63s1lFeV8FHzEur1MZxMAtjYe2UNiNLTY1Eum7gLpU4usLJyuGIBI3Q4mHqWWP30aCsbLqaCvnKF3JbZtEYXO52HggAM4Jnj%2BaiEJhxPUCtF1qb0G5L5TEzQFR6nZ6pO%2B0YXHIPY9C54DwqwP0sviYz0lZWzI9I%2F%2FAFGkC%2FoNMEr6PsE1QahmJ5506J4Ubufd5hjlBctwrHzVlsjPKg6fJP8Dg3EnrkFQJKT7tx4wPmzr3A8kuMRgxWc457y49P1jxX4yNexzqRWhYu4DCq2PnOBjqZAbpXY757f5vBbZtNruOke6pgmkmxmZYoe%2BtqA1Szc1in76PcVdcd3ZtytHLYQiAxps4uh%2Bj%2FV%2ByI%2Fag2yqz5a91jd8aeENdI9h%2B5diR%2Fy3L2kl6CY6jgffTovAaZICuLqou6FJkHP4e%2BhfvcykcE4jsuwwYVRKPVYrPBGMXaXmgHZim1tTaQDm6j6VEihad1AfT9c1Qkni9HrA%3D%3D&X-Amz-Signature=c2699a2c743eee81fffe3c743aafad364c62a18d0f21b6903767dc2a33ed0a40&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "contentHash": "70cb57e6fde944c3625d4b9b9bd3b0778c7a77622c5e0d8d8644dc3d2a48b7f7",
+      "logs": [
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "Postman collection does not specify if the request body is required, so the SDK requires a request body by default.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "The variable \"itemId\" is provided in the collection. We will use this value as a constant and it will not be a configurable path parameter in the SDK.",
+          "severity": "INFO",
+          "path": "Implemented API/Get Corpus Item",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Post data",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "Postman collections do not represent whether a property is required or optional. The SDK Generator will generate this property as optional.",
+          "severity": "INFO",
+          "path": "Post data",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        },
+        {
+          "message": "Postman collection does not specify if the request body is required, so the SDK requires a request body by default.",
+          "severity": "INFO",
+          "path": "Post data",
+          "createdAt": "2026-04-14T16:45:35.337Z"
+        }
+      ]
+    },
+    {
+      "language": "cli",
+      "status": "success",
+      "createdAt": "2026-04-14T16:45:28.254Z",
+      "link": "https://us-prod-sdk-gen-api-code-gen-uploads.s3.us-east-1.amazonaws.com/217bb6e4-a772-4055-9939-a9d8d9d6c586/iconocracy-corpus-sdk-cli-1.0.0.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LJBU7HUMF42PO%2F20260414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260414T164539Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIHksgXvyf4cd5PBv1%2BqSkzHohhcvToAREQOj7R10XTyTAiEAnTUI0PWneFZVAX5qTGQNQwvpLFgiV5KPUmOKZvf5zbMqnAUIkv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjM2NTIxNTgiDFcUTC90nnco9RVvcirwBBcC1D2hkRECtJDHXv8iA7cg8l6eeTCwPeQV7T05BR5Udti5WPbWMz8bIJBtC2H%2B79OjgA2Je28JQnMd9EyLvqh8qqvsQ1m0B97GaRb7SWmGp9f6wQqQ36%2FEv6yWYkjIP6g8p3AdOF7g3BtbMH%2FPfDEOagz8m4W2gqHOmGHC5TdET4%2F5T%2FZOjEoDPcc7TdRXzWm5McmOdrcmH1KMpfX5ZYYgYlP1t0YFUyRPydJualD%2BzKBXbma2v56tKi%2FFhMLTrkiVwRS73b9i7KOC5xHH9J01%2BX%2BfJYPyiV7mX8P6ByUJhiIVaivufWRPhXcnWGRNvFjG5%2FvIUlW3E%2F7Yl4iUy9ckl%2FSwDWJ%2Fv2SVUODo4IMSa2oF8f0c3YyW9kLHzNEKNuC7g7mnGIH3Zn2MKgKMRaJxoQVzmQSuRmuDXTTy5tdQOhEf%2BTrFRHQziwaGFL0yBxvNijz9xPrtAETvqm%2FymvMGww8TqN1DhlbUVzSFOCztmbHpiBgKa82JpqB%2B2kxuz0HU30%2BRoQWmw42L3TSg7dkoXgJNWwwysaeE5lmk6xMgjQ0nf63s1lFeV8FHzEur1MZxMAtjYe2UNiNLTY1Eum7gLpU4usLJyuGIBI3Q4mHqWWP30aCsbLqaCvnKF3JbZtEYXO52HggAM4Jnj%2BaiEJhxPUCtF1qb0G5L5TEzQFR6nZ6pO%2B0YXHIPY9C54DwqwP0sviYz0lZWzI9I%2F%2FAFGkC%2FoNMEr6PsE1QahmJ5506J4Ubufd5hjlBctwrHzVlsjPKg6fJP8Dg3EnrkFQJKT7tx4wPmzr3A8kuMRgxWc457y49P1jxX4yNexzqRWhYu4DCq2PnOBjqZAbpXY757f5vBbZtNruOke6pgmkmxmZYoe%2BtqA1Szc1in76PcVdcd3ZtytHLYQiAxps4uh%2Bj%2FV%2ByI%2Fag2yqz5a91jd8aeENdI9h%2B5diR%2Fy3L2kl6CY6jgffTovAaZICuLqou6FJkHP4e%2BhfvcykcE4jsuwwYVRKPVYrPBGMXaXmgHZim1tTaQDm6j6VEihad1AfT9c1Qkni9HrA%3D%3D&X-Amz-Signature=efaf3eb36e14df020d831afd641fa0f7da0ffbe55065fc3b66a40fdc7779b9b6&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "contentHash": "2774ef8918a258b8fcec05c024c3e562017093666c8135043a666e3f88875f00",
+      "logs": [
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "Postman collection does not specify if the request body is required, so the SDK requires a request body by default.",
+          "severity": "INFO",
+          "path": "Implemented API/Update Diary",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/Search Corpus Analysis",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "All header, cookie, path, and query parameters default to string since Postman does not specify the type.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Implemented API/List Corpus Items",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "The variable \"itemId\" is provided in the collection. We will use this value as a constant and it will not be a configurable path parameter in the SDK.",
+          "severity": "INFO",
+          "path": "Implemented API/Get Corpus Item",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "Parameters, properties, and request bodies default to nullable since Postman collections do not specify nullability. Some fields may be incorrectly marked as nullable.",
+          "severity": "INFO",
+          "path": "Post data",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "Postman collections do not represent whether a property is required or optional. The SDK Generator will generate this property as optional.",
+          "severity": "INFO",
+          "path": "Post data",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        },
+        {
+          "message": "Postman collection does not specify if the request body is required, so the SDK requires a request body by default.",
+          "severity": "INFO",
+          "path": "Post data",
+          "createdAt": "2026-04-14T16:45:34.012Z"
+        }
+      ]
+    }
+  ]
+}

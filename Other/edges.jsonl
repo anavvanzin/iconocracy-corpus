@@ -1,0 +1,25 @@
+{"from": "paper:stramignoni2024", "to": "gap:G1", "type": "addresses_gap", "evidence": "único artigo em inglês com Pathosformel em imagem jurídica"}
+{"from": "paper:hayaert2020", "to": "gap:G1", "type": "addresses_gap", "evidence": "anatomia warburguiana de Justitia sem nomear Warburg"}
+{"from": "paper:becker2013", "to": "gap:G1", "type": "addresses_gap", "evidence": "aplica Pathosformel a Germania, paradigma de alegoria cívica feminina"}
+{"from": "paper:resnik_curtis2011", "to": "gap:G4", "type": "addresses_gap", "evidence": "1 Justitia não-branca em milhares de tribunais globais"}
+{"from": "paper:merry2016", "to": "claim:C2", "type": "supports", "evidence": "indicadores jurídicos produzem verdade em vez de revelá-la"}
+{"from": "paper:drucker2011", "to": "claim:C3", "type": "supports", "evidence": "all data is capta"}
+{"from": "paper:espeland_sauder2007", "to": "claim:C2", "type": "supports", "evidence": "reatividade do índice: disciplina dados futuros"}
+{"from": "paper:warner1985", "to": "claim:C2", "type": "supports", "evidence": "alegoria feminina é constitutivamente paradoxal"}
+{"from": "paper:didi_huberman2002", "to": "claim:C1", "type": "supports", "evidence": "Nachleben como modelo cultural de história"}
+{"from": "paper:didi_huberman2011", "to": "claim:C1", "type": "supports", "evidence": "atlas como dispositivo de montagem epistemológica"}
+{"from": "paper:pollock2007", "to": "claim:C1", "type": "supports", "evidence": "Virtual Feminist Museum como atlas contra-canônico"}
+{"from": "paper:pollock1999", "to": "claim:C1", "type": "supports", "evidence": "differencing the canon como crítica patriarcal"}
+{"from": "paper:joyeux_prunel2012", "to": "claim:C5", "type": "supports", "evidence": "Artl@s como operacionalização cartográfica de campo"}
+{"from": "paper:andermann2007", "to": "claim:C5", "type": "supports", "evidence": "alegoria feminina latino-americana carrega carga política específica"}
+{"from": "paper:carvalho1990", "to": "claim:C4", "type": "supports", "evidence": "iconocracia tropical: Estado Novo prefere mãe-Pátria doméstica"}
+{"from": "paper:capelato1998", "to": "claim:C4", "type": "supports", "evidence": "culto personalista de Vargas desloca alegoria armada"}
+{"from": "idea:001", "to": "gap:G1", "type": "addresses_gap", "evidence": "propõe cartografia warburguiana do imaginário jurídico"}
+{"from": "idea:001", "to": "gap:G2", "type": "addresses_gap", "evidence": "constrói atlas digital de alegoria feminina no direito"}
+{"from": "idea:002", "to": "gap:G4", "type": "addresses_gap", "evidence": "usa LPAI-capta para documentar ausência como achado"}
+{"from": "idea:003", "to": "gap:G3", "type": "addresses_gap", "evidence": "propõe IMES como protocolo de validação estratificado"}
+{"from": "claim:C1", "to": "claim:C5", "type": "extends", "evidence": "atlas como camada primária do IMES"}
+{"from": "claim:C3", "to": "claim:C5", "type": "extends", "evidence": "capta como camada instrumental do IMES"}
+{"from": "claim:C4", "to": "claim:C5", "type": "supports", "evidence": "padrão não-linear justifica método não-linear"}
+{"from": "paper:haraway1988", "to": "claim:C2", "type": "supports", "evidence": "god trick do índice que vê tudo de lugar nenhum"}
+{"from": "paper:dignazio_klein2020", "to": "claim:C2", "type": "supports", "evidence": "classificação hierárquica reproduz desigualdades"}

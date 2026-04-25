@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Ana Vanzin (via Claude Code)" />
+  <meta name="dcterms.date" content="2026-04-21" />
+  <title>Relatório de Atividade — 16–18 abril 2026 (ARGOS + tese)</title>
+  <style>
+
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:780px;margin:40px auto;padding:0 40px;color:#222;line-height:1.5;font-size:11pt}
+h1{border-bottom:3px solid #800000;padding-bottom:8px;color:#800000}
+h2{color:#800000;border-bottom:1px solid #ddd;padding-bottom:4px;margin-top:30px}
+h3{color:#444}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:10pt}
+th,td{border:1px solid #ccc;padding:6px 8px;text-align:left;vertical-align:top}
+th{background:#f5f0ee;color:#800000}
+code{background:#f4f4f4;padding:1px 5px;border-radius:3px;font-size:9.5pt}
+ul,ol{margin:8px 0 8px 20px}
+strong{color:#600}
+hr{border:none;border-top:1px dashed #bbb;margin:24px 0}
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Relatório de Atividade — 16–18 abril 2026 (ARGOS +
+tese)</h1>
+<p class="author">Ana Vanzin (via Claude Code)</p>
+<p class="date">2026-04-21</p>
+</header>
+<h1 id="relatório-de-atividade-quinta-16-sexta-17-sábado-18-madrugadadianoite">Relatório
+de Atividade — quinta 16 → sexta 17 → sábado 18
+(madrugada+dia+noite)</h1>
+<p><strong>Fuso:</strong> BRT (UTC−3). <strong>Repositórios
+escaneados:</strong> 15. <strong>Sessões Claude Code:</strong> 19.
+<strong>Mensagens do usuário:</strong> ~256. <strong>Commits
+totais:</strong> 135.</p>
+<hr />
+<h2 id="foco-projeto-argos-transição-quintasextasábado">🎯 Foco: PROJETO
+ARGOS — transição quinta→sexta→sábado</h2>
+<p><strong>ARGOS = pipeline de aquisição de imagens do corpus</strong>
+(157 itens, 5 scripts Python em <code>tools/scripts/argos_*.py</code>,
+artefatos em <code>data/raw/argos/</code>). O hotspot da semana foi a
+<strong>noite de sexta 17/abr (22:39–23:49 BRT)</strong> com 10 commits
+em 70 min consolidando o ledger canônico que ARGOS alimenta.</p>
+<h3 id="timeline-argos-com-horários-exatos">Timeline ARGOS com horários
+exatos</h3>
+<table>
+<colgroup>
+<col style="width: 48%" />
+<col style="width: 22%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr>
+<th>Horário BRT</th>
+<th>Hash</th>
+<th>Evento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Qui 16/04 11:01</strong></td>
+<td>—</td>
+<td>Manifest + backfill + report.md atualizados (157 itens pending, 17
+domínios)</td>
+</tr>
+<tr>
+<td><strong>Qui 16/04 23:23</strong></td>
+<td>41a31a9</td>
+<td><code>chore(deps): bump protobufjs</code> (Dependabot)</td>
+</tr>
+<tr>
+<td><strong>Sex 17/04 22:39:44</strong></td>
+<td>c0b6a3f</td>
+<td><code>docs: define hub taxonomy and artifact policy</code></td>
+</tr>
+<tr>
+<td><strong>Sex 17/04 22:39:55</strong></td>
+<td>143e8a0</td>
+<td><code>docs: reconcile hub topology references</code></td>
+</tr>
+<tr>
+<td><strong>Sex 17/04 22:40:01</strong></td>
+<td>47a72b3</td>
+<td><code>refactor: move legacy root artifacts out of hub root</code></td>
+</tr>
+<tr>
+<td><strong>Sex 17/04 22:40:16</strong></td>
+<td>152f0e6</td>
+<td><code>docs: record hub consistency validation results</code></td>
+</tr>
+<tr>
+<td><strong>Sex 17/04 22:54:25</strong></td>
+<td><strong>d7d7eee</strong></td>
+<td><strong>fix: restore canonical records ledger and vault
+mirror</strong> — +167 linhas <code>records.jsonl</code>, 25 SCOUT vault
+notes, <code>vault_sync.py</code> +9, <code>records_to_corpus.py</code>
++50, <code>csv_to_records.py</code> +35</td>
+</tr>
+<tr>
+<td><strong>Sex 17/04 23:12:06</strong></td>
+<td>67e7593</td>
+<td><code>fix: normalize vault sync matching and fill placeholder notes</code></td>
+</tr>
+<tr>
+<td><strong>Sex 17/04 23:24:34</strong></td>
+<td><strong>e0d60b9</strong></td>
+<td><strong>fix: harden corpus and vault matching after review</strong>
+— <code>records_to_corpus.py</code> +103, <code>vault_sync.py</code>
++80, 19 SCOUT vault notes atualizadas</td>
+</tr>
+<tr>
+<td><strong>Sex 17/04 23:32:09</strong></td>
+<td>18bd8a8</td>
+<td><code>fix: make vault sync multiplicity-aware</code></td>
+</tr>
+<tr>
+<td><strong>Sex 17/04 23:36:55</strong></td>
+<td>2ce93f5</td>
+<td><code>fix: repair vault sync dry-run accounting</code></td>
+</tr>
+<tr>
+<td><strong>Sex 17/04 23:49:07</strong></td>
+<td><strong>aa57428</strong></td>
+<td><strong>feat: promote first curated scout batch into canonical
+ledger</strong> — <strong>+1722 linhas em
+<code>corpus/corpus-data.json</code></strong>, +4 records, batches 1+2
+em <code>docs/plans/</code> (233 linhas)</td>
+</tr>
+<tr>
+<td><strong>Sáb 18/04 00:11:25</strong></td>
+<td><strong>b8cf038</strong></td>
+<td><strong>fix: restore records contract and harden release
+pipeline</strong> — schema updates, <code>build_hf_release.py</code>
++47, validate.yml CI</td>
+</tr>
+<tr>
+<td><strong>Sáb 18/04 01:49:22</strong></td>
+<td>e993e13</td>
+<td><code>refactor(terminology): lowercase &#39;endurecimento&#39;</code> (toca
+<code>records.jsonl</code> + training data)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Impacto:</strong> 1722 linhas adicionadas em
+<code>corpus-data.json</code> + 167 linhas em <code>records.jsonl</code>
++ 25 vault notes SCOUT → <strong>primeira batch curada promovida ao
+ledger canônico</strong> + pipeline de release (HuggingFace)
+endurecido.</p>
+<h3 id="scripts-argos-existentes-contexto">Scripts ARGOS existentes
+(contexto)</h3>
+<table>
+<colgroup>
+<col style="width: 53%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr>
+<th>Script</th>
+<th>Papel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>argos_build_manifest.py</code></td>
+<td>Gera manifest.json a partir de <code>corpus-data.json</code></td>
+</tr>
+<tr>
+<td><code>argos_prepare_dispatch.py</code></td>
+<td>Agrupa itens por domínio, prepara fila</td>
+</tr>
+<tr>
+<td><code>argos_acquire_item.py</code></td>
+<td>Worker: baixa imagem + fallback Playwright</td>
+</tr>
+<tr>
+<td><code>argos_manifest_update.py</code></td>
+<td>Atualização atômica com lock</td>
+</tr>
+<tr>
+<td><code>argos_report.py</code></td>
+<td>Gera <code>report.md</code> com estatísticas por domínio</td>
+</tr>
+</tbody>
+</table>
+<h3 id="artefatos-argos-em-datarawargos">Artefatos ARGOS em
+<code>data/raw/argos/</code></h3>
+<ul>
+<li><code>manifest.json</code> · 157 itens, versão 1.0, storage
+<code>/Volumes/ICONOCRACIA/corpus/imagens</code></li>
+<li><code>backfill-manifest.json</code> · 19 itens queued (gerado
+14/04)</li>
+<li><code>report.md</code> · breakdown por domínio: Numista 28, Gallica
+17, Wikimedia 5, Colnect 2, …</li>
+<li><code>manifest.lock</code> · lock de concorrência</li>
+</ul>
+<hr />
+<hr />
+<h2 id="sumário-executivo">Sumário Executivo</h2>
+<p>Padrão das 48h em três fases coerentes:</p>
+<ol type="1">
+<li><strong>16/abr noite</strong> — disciplina acadêmica (memorial
+DIR410346) + organização de prompts no vault.</li>
+<li><strong>17/abr tarde</strong> — repensar <strong>originalidade da
+tese</strong>: arquitetura de 4 conceitos originais; <strong>Purificação
+Clássica</strong> entra na Mandatory Terminology.</li>
+<li><strong>17→18 madrugada</strong> — consolidação técnica (ABNT,
+“endurecimento” minúsculo, notebooks de cluster/temporal/dimensionality,
+MCP discover).</li>
+<li><strong>18/abr dia</strong> — housekeeping de segurança (Dependabot,
+CVE protobufjs, Gemini key client-side) + planejamento de convergência
+3-repos.</li>
+<li><strong>18/abr noite</strong> — limpeza de deploys Cloudflare
+(pixel-love/loveu).</li>
+</ol>
+<hr />
+<h2 id="parte-a-commits-por-repositório">Parte A — Commits por
+repositório</h2>
+<h3 id="hubiconocracy-corpus-vault-tese"><code>hub/iconocracy-corpus</code>
+(vault + tese)</h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 40%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr>
+<th>Hash</th>
+<th>Data/Hora</th>
+<th>Mensagem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>835125e..0402956</td>
+<td>16/04 18:56–21:47</td>
+<td>9× <code>vault backup</code> automático</td>
+</tr>
+<tr>
+<td>6a952f6</td>
+<td>17/04 00:59</td>
+<td>vault backup</td>
+</tr>
+<tr>
+<td>59baad2</td>
+<td>17/04 15:35</td>
+<td><strong>feat(research): cluster pipeline — schema + orchestrator +
+8-eixos YAML</strong></td>
+</tr>
+<tr>
+<td>c89f76d</td>
+<td>17/04 15:35</td>
+<td><strong>chore(vault): organize Notas e Textos/</strong> — prompts +
+drafts + archive</td>
+</tr>
+<tr>
+<td>4c10355</td>
+<td>17/04 16:42</td>
+<td><strong>feat(tese): arquitetura de 4 conceitos originais —
+Purificação Clássica como 4º</strong></td>
+</tr>
+<tr>
+<td>581234a</td>
+<td>17/04 18:05</td>
+<td><strong>Cap 3 BibTeX + schema compliance</strong> — Kantorowicz
+1957; Hespanha canonicals; Descola</td>
+</tr>
+<tr>
+<td>40d043d</td>
+<td>17/04 18:28</td>
+<td>vault backup</td>
+</tr>
+<tr>
+<td>c0b6a3f</td>
+<td><strong>17/04 22:39:44</strong></td>
+<td>docs: define hub taxonomy and artifact policy</td>
+</tr>
+<tr>
+<td>143e8a0</td>
+<td><strong>17/04 22:39:55</strong></td>
+<td>docs: reconcile hub topology references</td>
+</tr>
+<tr>
+<td>47a72b3</td>
+<td><strong>17/04 22:40:01</strong></td>
+<td>refactor: move legacy root artifacts out of hub root</td>
+</tr>
+<tr>
+<td>152f0e6</td>
+<td><strong>17/04 22:40:16</strong></td>
+<td>docs: record hub consistency validation results</td>
+</tr>
+<tr>
+<td>d7d7eee</td>
+<td><strong>17/04 22:54:25</strong></td>
+<td><strong>fix: restore canonical records ledger and vault
+mirror</strong></td>
+</tr>
+<tr>
+<td>67e7593</td>
+<td><strong>17/04 23:12:06</strong></td>
+<td>fix: normalize vault sync matching and fill placeholder notes</td>
+</tr>
+<tr>
+<td>e0d60b9</td>
+<td><strong>17/04 23:24:34</strong></td>
+<td><strong>fix: harden corpus and vault matching after
+review</strong></td>
+</tr>
+<tr>
+<td>18bd8a8</td>
+<td><strong>17/04 23:32:09</strong></td>
+<td>fix: make vault sync multiplicity-aware</td>
+</tr>
+<tr>
+<td>2ce93f5</td>
+<td><strong>17/04 23:36:55</strong></td>
+<td>fix: repair vault sync dry-run accounting</td>
+</tr>
+<tr>
+<td>aa57428</td>
+<td><strong>17/04 23:49:07</strong></td>
+<td><strong>feat: promote first curated scout batch into canonical
+ledger</strong> (+1722 linhas)</td>
+</tr>
+<tr>
+<td>b8cf038</td>
+<td><strong>18/04 00:11:25</strong></td>
+<td><strong>fix: restore records contract + harden release
+pipeline</strong></td>
+</tr>
+<tr>
+<td>a181f2e</td>
+<td>18/04 01:17</td>
+<td><strong>feat: temporal/clustering/dimensionality notebooks + regime
+figures</strong></td>
+</tr>
+<tr>
+<td>e993e13</td>
+<td>18/04 01:49</td>
+<td><strong>refactor(terminology): lowercase ‘endurecimento’ across
+hub</strong></td>
+</tr>
+<tr>
+<td>1de0010</td>
+<td>18/04 01:52</td>
+<td><strong>fix(abnt): add years to Hespanha/Descola citations; register
+canonicals in bib</strong></td>
+</tr>
+<tr>
+<td>d4d9012</td>
+<td>18/04 01:56</td>
+<td><strong>feat(tese): populate Intro §I.3/§I.7 e Conclusão §C.1 com 4
+originais</strong></td>
+</tr>
+<tr>
+<td>2331e3c</td>
+<td>18/04 02:29</td>
+<td><strong>fix(abnt+content): peer review follow-up</strong> — citation
+years, bib, objections log</td>
+</tr>
+<tr>
+<td>bbae856</td>
+<td>18/04 02:43</td>
+<td><strong>fix(review-followup): harden code-review findings from
+subagent pass</strong></td>
+</tr>
+<tr>
+<td>4df06d8</td>
+<td>18/04 13:44</td>
+<td>vault backup</td>
+</tr>
+<tr>
+<td>e29e941</td>
+<td>18/04 14:17</td>
+<td><strong>fix(deps): force protobufjs &gt;=7.5.5 via override
+(CVE-2026-41242)</strong></td>
+</tr>
+<tr>
+<td>6fa843c, bec2068</td>
+<td>18/04 18:45–18:55</td>
+<td>vault backups</td>
+</tr>
+</tbody>
+</table>
+<h3 id="research-meta-workspace"><code>~/Research</code>
+(meta-workspace)</h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 40%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr>
+<th>Hash</th>
+<th>Data/Hora</th>
+<th>Mensagem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a1f1d73</td>
+<td>17/04 16:19</td>
+<td><strong>docs: demote Notion to legacy reference</strong></td>
+</tr>
+<tr>
+<td>36c54ab</td>
+<td>18/04 00:11</td>
+<td><strong>docs: add 360 audit reports and keep canonical visual
+essay</strong></td>
+</tr>
+<tr>
+<td>31ea7a1</td>
+<td>18/04 00:29</td>
+<td><strong>Add schedule interval for Dependabot updates</strong></td>
+</tr>
+<tr>
+<td>33eb35d</td>
+<td>18/04 01:18</td>
+<td><strong>chore: add meta tooling, superpowers specs,
+runbook</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="appsiconocracia-companion"><code>apps/iconocracia-companion</code></h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 40%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr>
+<th>Hash</th>
+<th>Data/Hora</th>
+<th>Mensagem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4189c46</td>
+<td>17/04 19:06</td>
+<td><strong>feat: add thesis hub + protected editorial
+search</strong></td>
+</tr>
+<tr>
+<td>3f3fe5e</td>
+<td>18/04 00:11</td>
+<td><strong>fix: make thesis sync portable + harden ignore
+rules</strong></td>
+</tr>
+<tr>
+<td>a61392a</td>
+<td>18/04 01:49</td>
+<td><strong>refactor(content): regen thesis texts with lowercase
+endurecimento</strong></td>
+</tr>
+<tr>
+<td>eaf548e</td>
+<td>18/04 01:56</td>
+<td><strong>refactor(content): regen thesis texts with populated intro +
+conclusão §C.1</strong></td>
+</tr>
+<tr>
+<td>7d967b8</td>
+<td>18/04 02:29</td>
+<td><strong>refactor(content): regen thesis texts with ABNT + style
+fixes</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="labsiurisvision"><code>labs/iurisvision</code></h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 40%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr>
+<th>Hash</th>
+<th>Data/Hora</th>
+<th>Mensagem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>f2bc3dd</td>
+<td>18/04 00:11</td>
+<td><strong>security: remove client-side Gemini key
+inlining</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="labsbrowser-harness-trabalho-paralelo-externo-repo-browser-useharnesless"><code>labs/browser-harness</code>
+(trabalho paralelo externo, repo
+<code>browser-use/harnesless</code>)</h3>
+<p><strong>90+ commits</strong> entre 16/04 17:51 e 18/04 18:48.
+Highlights:</p>
+<ul>
+<li>16/04 17:51 — initial commit: harnesless — LLM-first browser control
+via CDP</li>
+<li>16/04 18:41–19:42 — simplify (drop 14 unused helpers), daemon
+hardening, iframe support, prune eval helpers</li>
+<li>17/04 00:28 — remote browser support (Browser Use cloud) +
+multi-daemon + rename to <code>bu</code></li>
+<li>17/04 13:46–22:26 — skills-structure, interaction/domain-skills
+scaffolds, tab control docs, README/SKILL tighten, Chrome remote
+debugging setup, merge AGENTS→SKILL</li>
+<li>18/04 00:16–04:16 — domain-skill batches 1–9 (Booking, Goodreads,
+etc.)</li>
+<li>18/04 04:31–18:48 — batches 10–18 (World Bank, REST Countries, NASA,
+Wayback, arXiv); Edge support; WS handshake fix; green-tab indicator;
+LICENSE; contributing section; merged via PRs #3–#86</li>
+</ul>
+<hr />
+<h2 id="parte-b-sessões-claude-code-prompts">Parte B — Sessões Claude
+Code + Prompts</h2>
+<h3 id="abr-tardenoite">16/abr — tarde/noite</h3>
+<p><strong>18:52–19:23 · <code>9df88d70</code> —
+<code>/dir410346</code></strong> (memorial de leitura)</p>
+<ul>
+<li>“Escreva melhor: <strong>Memorial de Leitura n. 3 —
+DIR410346</strong> — Aula 3: Justiça hegemônica baixo-medieval e ancien
+régime”</li>
+<li>“humanize o texto tá robótico” (switch sonnet 4.6)</li>
+</ul>
+<p><strong>19:15–22:07 · <code>3c7b6c1b</code> +
+<code>aa6671a1</code></strong> (organização vault/Notas e Textos/)</p>
+<ul>
+<li><code>/model claude-opus-4-7</code></li>
+<li>“vault/prompts/ — mas quero que sejam skills globais também”</li>
+<li>“Pode começar. <code>/agent-introspection-debugging</code> use
+<code>/agent-harness-construction</code>”</li>
+<li><code>/caveman:compress</code> ·
+<code>/strategic-compact</code></li>
+</ul>
+<p><strong>19:16–20:30 · <code>d33b3e29</code></strong> (retirar
+webiconocracy)</p>
+<ul>
+<li>“Atue como Engenheiro de Dados e Arquiteto de Informação
+especialista em modelagem semântica. Converta a pesquisa em rotinas
+diárias para a tese”</li>
+</ul>
+<h3 id="madrugada-1617">Madrugada 16→17</h3>
+<p><strong>00:55–01:21</strong> — “go on here” ·
+<code>/code-review</code></p>
+<p><strong>11:17–14:52 · <code>489ec43d</code> +
+<code>3c7b6c1b</code></strong> (statusline + dedup prompts)</p>
+<ul>
+<li><code>/statusline</code>, <code>/update-config</code>,
+<code>/superpowers:using-superpowers</code>,
+<code>/resume-session</code></li>
+<li>“Revise o risco primeiro. /benchmark”</li>
+<li>Prompt central: <strong>Workflow Elicit — ICONOCRACIA</strong>
+(automatizar eixos de busca no Claude Code em vez do Elicit)</li>
+<li>Correção: “usamos <strong>OBSIDIAN</strong> agora /vault — NÃO
+notion mais”</li>
+<li>“MEMORY.md é auto-loaded… Quero que vc possa mudar a memória
+:)”</li>
+</ul>
+<h3 id="abr-tarde">17/abr — tarde</h3>
+<p><strong>15:16–16:34 · <code>44b8642e</code></strong> (Firecrawl +
+Notion/Parallel fora do default)</p>
+<ul>
+<li><code>npx -y firecrawl-cli@latest init --all --browser</code> —
+falhou, key <code>fc-536b6e29...</code></li>
+<li><strong>Durável:</strong> “não usamos na pipeline o Notion mais — é
+só Obsidian — e não usamos (a não ser que eu mande) o Parallel”</li>
+<li>Commit <code>a1f1d73</code></li>
+</ul>
+<p><strong>15:37–19:05 · <code>c719b190</code></strong> (<strong>sessão
+maior: originalidade tese</strong>)</p>
+<ul>
+<li>“Feminilidade do estado” ← juiz totêmico + Anne Carson (genealogia
+da impureza feminina)</li>
+<li>“Substituição simbólica” ← simulacro Baudrillard/Deleuze</li>
+<li>“Domesticação da revolução” ← leitura própria</li>
+<li>Ciberfeminismo = pressuposto epistemológico invisível</li>
+<li><code>@vault/projeto/PROJETO DE TESE v2 — qualificação.md</code></li>
+<li><code>/AutoResearchClaw</code> · <code>/ecc:council</code></li>
+<li><strong>Ultraplan de reposicionamento de originalidade</strong> →
+memos em <code>vault/tese/ideias/</code>, CLAUDE.md atualizada com
+<strong>Purificação Clássica</strong>, arquitetura de 4 originais, ordem
+A→B→C em capítulo-2.md e capítulo-5.md → commit
+<code>4c10355</code></li>
+</ul>
+<p><strong>16:44–17:19 · <code>62ed2e45</code></strong> — ingestão
+scispace/cotutela/books; reorganização visual</p>
+<p><strong>17:48–17:52 · <code>87dc1433</code> +
+<code>686b804f</code></strong> — update-config, statusline, “claude
+model opus 4.7 please”</p>
+<h3 id="madrugada-1718">Madrugada 17→18</h3>
+<p><strong>23:36–23:43 · <code>f1636d1f</code></strong> (config
+global)</p>
+<ul>
+<li>“effort high — advisor opus 4.6, global config opus 4.7 — toggle
+thinking”</li>
+<li><code>claude update</code> 2.1.98 · “make these the global
+configs”</li>
+</ul>
+<p><strong>23:45–01:03 · <code>f2a83743</code></strong> (review docs +
+ultraplan)</p>
+<ul>
+<li><code>/config</code> Fast=ON, Opus 4.6 1M, Explanatory, vim, Remote
+Control</li>
+<li><code>/autonomous-agent-harness</code> · <code>/ultraplan</code>
+(Claude web) <strong>parado</strong></li>
+<li><code>/santa-method</code> · <code>/plankton-code-quality</code> ·
+“pick what’s best”</li>
+</ul>
+<p><strong>00:52–06:04 · <code>f0b91bcc</code></strong> (~5h —
+<strong>sessão gigante da madrugada</strong>)</p>
+<ul>
+<li>Cloudflare-api MCP auth OK</li>
+<li><code>/mcp-discover</code> em <code>~/Research</code> · “enable
+all”</li>
+<li>Nota hardware: “o ssd agora eh time machine”</li>
+<li>Review
+<code>apps/iconocracia-companion/public/generated/texts</code></li>
+<li><strong>Correção terminológica</strong>: “endurecimento é em
+minúsculas. veja as sessões com o Hermes” → commit
+<code>e993e13</code></li>
+<li><code>/academic-research-skills</code>,
+<code>/AutoResearchClaw</code>, spec
+<code>2026-04-11-thesis-chapter-plan.md</code> +
+<code>ICONOCRACY-knowledge-architecture.md</code></li>
+<li><code>/superpowers:requesting-code-review</code> →
+<code>/subagent-driven-development</code> → “Push!” → commits
+<code>d4d9012</code>, <code>1de0010</code>, <code>2331e3c</code>,
+<code>bbae856</code></li>
+<li><code>/save-session</code> · <code>/caveman:compress</code> ·
+<code>/literature-review</code></li>
+<li>06:04 “obrigada, vou encerrar”</li>
+</ul>
+<h3 id="abr-dianoite">18/abr — dia/noite</h3>
+<p><strong>09:07–09:10 · worktree <code>cranky-dewdney</code></strong> —
+scheduled-task <code>daily-review</code> automático</p>
+<p><strong>13:46–13:57 · <code>d1bc7bd1</code></strong>
+(<code>/Users</code>)</p>
+<ul>
+<li><code>/effort medium</code> · <code>/mcp</code>
+Cloudflare-observability/bindings/builds auth ·
+<code>/firebase:init</code> iniciado</li>
+</ul>
+<p><strong>13:57–18:50 · <code>ef30a9ea</code></strong> (sessão
+principal da tarde)</p>
+<ul>
+<li>“main path é /Users/ana/Research”</li>
+<li>“Dependabot first” · <code>/code-review</code></li>
+<li>“reconcile auto-back up com last substantive commit — protobufjs
+first” → <strong>CVE-2026-41242</strong> fix (commit
+<code>e29e941</code>)</li>
+<li><code>/council</code> · <code>/santa-method</code> · “all of them.
+take as long as needed”</li>
+<li><strong>Bug observado:</strong>
+<code>mkdir: /Users/.remember: Permission</code></li>
+</ul>
+<p><strong>18:43–19:24 · <code>9eab7731</code></strong> (cwd
+<code>~/ana</code>)</p>
+<ul>
+<li><code>/effort xhigh</code> (Opus 4.7)</li>
+<li>Notou handoff duplicado em <code>Research/.remember/</code> e
+<code>hub/iconocracy-corpus/.remember/</code></li>
+<li><strong>Supabase</strong>:
+<code>supabase login &amp;&amp; init &amp;&amp; link --project-ref cppvwkdnuuldiyungkpy</code></li>
+<li><code>bun add @MCP_DOCKER:ui://desktop-commander/config-editor</code>
+(2x)</li>
+<li>“help me configure with the app gateway a ssh connection”</li>
+</ul>
+<p><strong>18:50–19:15 · <code>994f453a</code></strong>
+(<code>~/agency-agents</code>)</p>
+<ul>
+<li>“install as global skills and cowork skills — academic, design,
+engineering, integrations, specialized”</li>
+<li>“Claude Desktop trabalha melhor em pasta dedicada — coisas se
+perdem”</li>
+</ul>
+<p><strong>18:54–19:43 · <code>fb0f4591</code></strong>
+(skill-upgrade-v2)</p>
+<ul>
+<li>“Upgrade skill — guia/workflow/pipeline/arquitetura.
+<strong>anavvanzin/research + iconocracy-corpus +
+iconocracy-space</strong> — convergência entre repositórios”</li>
+<li>“Não tem problema ser densa. Gaste tokens desde que correto”</li>
+<li><code>/ultraplan</code> · <code>/council</code> ·
+<code>/search-first</code></li>
+<li>“Emoji, badge, html, no problem :)”</li>
+</ul>
+<p><strong>20:58–21:03 · <code>24de813e</code></strong> (último do
+dia)</p>
+<ul>
+<li>“remove <strong>pixel-love</strong> e <strong>loveu</strong> out of
+air — remove from deploy”</li>
+</ul>
+<hr />
+<h2 id="parte-c-ações-externas">Parte C — Ações externas</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Ação</th>
+<th>Detalhe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Supabase</td>
+<td>Projeto novo <code>cppvwkdnuuldiyungkpy</code> init/link (anterior
+deletado)</td>
+</tr>
+<tr>
+<td>Cloudflare MCP</td>
+<td>4 servers auth (api/bindings/builds/observability); listagem
+workers; pedido remoção pixel-love/loveu</td>
+</tr>
+<tr>
+<td>Firebase</td>
+<td><code>/firebase:init</code> iniciado, não finalizado</td>
+</tr>
+<tr>
+<td>Firecrawl</td>
+<td>Tentativa add MCP (já existia); key configurada</td>
+</tr>
+<tr>
+<td>GitHub (browser-use)</td>
+<td>90+ commits em browser-harness; PRs #1–#86 no upstream</td>
+</tr>
+<tr>
+<td>Claude Code harness</td>
+<td><code>claude update</code> → 2.1.98; Fast ON; Explanatory; vim;
+Remote Control; effort xhigh (Opus 4.7)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="parte-d-decisões-duráveis-das-48h">Parte D — Decisões duráveis
+das 48h</h2>
+<ol type="1">
+<li><strong>Notion + Parallel fora do default</strong> da pipeline (só
+on-demand)</li>
+<li><strong>Obsidian vault = canônico</strong>
+(<code>~/Research/hub/iconocracy-corpus/vault/</code>)</li>
+<li><strong>Purificação Clássica</strong> entra na Mandatory Terminology
+do CLAUDE.md</li>
+<li><strong>4 conceitos originais</strong> — nova arquitetura tese</li>
+<li><strong>“endurecimento”</strong> em minúsculas em todo hub</li>
+<li><strong>Opus 4.7 + effort high/xhigh</strong> como config global;
+advisor opus 4.6</li>
+<li><strong>ABNT citations</strong> Hespanha/Descola/Kantorowicz
+normalizadas</li>
+<li><strong>protobufjs ≥7.5.5</strong> override (CVE-2026-41242)</li>
+<li><strong>Gemini key inlining</strong> client-side removida
+(security)</li>
+<li><strong>Convergência 3-repos</strong> planejada: research +
+iconocracy-corpus + iconocracy-space</li>
+<li><strong>MEMORY.md</strong> editável pelo Claude</li>
+<li><strong><code>/Users/.remember</code> bug</strong> identificado
+(permission)</li>
+<li><strong>pixel-love/loveu</strong> marcados para remoção do deploy
+Cloudflare</li>
+</ol>
+<hr />
+<h2 id="parte-e-totais">Parte E — Totais</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Métrica</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Horas ativas</td>
+<td>~22h em 48h</td>
+</tr>
+<tr>
+<td>Sessões CC únicas</td>
+<td>19</td>
+</tr>
+<tr>
+<td>Mensagens do usuário</td>
+<td>~256</td>
+</tr>
+<tr>
+<td>Commits totais</td>
+<td>125</td>
+</tr>
+<tr>
+<td>Repos tocados</td>
+<td>5 de 15</td>
+</tr>
+<tr>
+<td>Arquivos duráveis novos</td>
+<td>memo reposicionamento, ultraplan, notebooks
+(temporal/clustering/dim), regime figures, 360 audit reports, thesis
+hub</td>
+</tr>
+<tr>
+<td>MCPs configurados</td>
+<td>firecrawl, cloudflare (4), MCP_DOCKER, firebase (parcial)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>Gerado automaticamente por Claude Code a partir de
+<code>~/.claude/projects/**/*.jsonl</code> e <code>git log</code> de 15
+repositórios locais. Data de geração: 2026-04-21.</em></p>
+</body>
+</html>

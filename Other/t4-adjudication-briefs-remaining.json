@@ -1,0 +1,145 @@
+[
+  {
+    "staged_item_id": "b459de3a-6fa0-51d2-9ff7-81ff1f8e97cf",
+    "staged_title": "Alegoria à República — Capa da Revista Illustrada n. 566",
+    "staged_url": "https://commons.wikimedia.org/wiki/File:Capa_da_Revista_Illustrada,_n.%C2%BA_566_(1889).png",
+    "staged_date": "1889",
+    "staged_place": "Brasil",
+    "staged_citation": "AGOSTINI, Angelo. Alegoria à República. Revista Illustrada, Rio de Janeiro, n. 566, 1889. Capa. Disponível em: https://commons.wikimedia.org/wiki/File:Capa_da_Revista_Illustrada,_n.%C2%BA_566_(1889).png. Acesso em: 13 abr. 2026.",
+    "top_matches": [],
+    "recommendation": "NEW",
+    "rationale": "Capa (cover) of Revista Illustrada n. 566 by Agostini, 1889. Distinct object from BR-SCOUT-001 (internal illustration \"Republica_no_brasil.jpg\" vs cover \"Capa_da_Revista_Illustrada_n.566\"). No canonical match. Adds epistemic value as cover-page iconography.",
+    "confidence": 0.85
+  },
+  {
+    "staged_item_id": "67e8216b-dca2-5687-aa71-3c3161607899",
+    "staged_title": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
+    "staged_url": "https://mhn.museus.gov.br/estudo-de-decio-villares-volta-ao-circuito-expositivo-do-mhn/",
+    "staged_date": "c. 1888 (final do séc. XIX)",
+    "staged_place": "Brasil",
+    "staged_citation": "VILLARES, Décio. Alegoria à Lei de 13 de Maio de 1888 (estudo). c. 1888. Pintura a óleo sobre tela. Museu Histórico Nacional, Rio de Janeiro. Disponível em: https://mhn.museus.gov.br/estudo-de-decio-villares-volta-ao-circuito-expositivo-do-mhn/. Acesso em: 13 abr. 2026.",
+    "top_matches": [
+      {
+        "canonical_item_id": "bfac2d3e-5230-5a27-970b-625e5eb7ed24",
+        "canonical_title": "Alegoria da República (Décio Villares)",
+        "canonical_url": "https://archive.nyu.edu/handle/2451/61396",
+        "score": 0.3262443438914027,
+        "reasons": [
+          "citation_sim_0.57",
+          "place_match"
+        ]
+      },
+      {
+        "canonical_item_id": "ad43ba55-c523-5f19-a667-0bd5872a9867",
+        "canonical_title": "Alegoria da República (Carlos Chambelland)",
+        "canonical_url": "https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/",
+        "score": 0.3141327623126339,
+        "reasons": [
+          "citation_sim_0.54",
+          "place_match"
+        ]
+      }
+    ],
+    "recommendation": "NEW",
+    "rationale": "Estudo by Décio Villares for the Abolition Law allegory (c. 1888), distinct from his \"Alegoria da República\" (BR-005) and from Chambelland's work. Weak title-substring matches (0.33) are noise — different subject, different iconographic function (abolition vs republican founding). Council: corpus lacks abolition-themed Brazilian allegory.",
+    "confidence": 0.8
+  },
+  {
+    "staged_item_id": "39d3028b-77a6-5585-98e4-466e2fb2a04f",
+    "staged_title": "Suffragistas — Fon-Fon, 16 de maio de 1914",
+    "staged_url": "https://bndigital.bn.gov.br/exposicoes/brasil-feminino/",
+    "staged_date": "16 de maio de 1914",
+    "staged_place": "Brasil",
+    "staged_citation": "RAUL. Suffragistas. Fon-Fon, Rio de Janeiro, 16 maio 1914. Disponível em: https://bndigital.bn.gov.br/exposicoes/brasil-feminino/. Acesso em: 13 abr. 2026.",
+    "top_matches": [],
+    "recommendation": "NEW",
+    "rationale": "Brazilian press illustration of suffragists from Fon-Fon (1914). Corpus has US suffrage (Hedwig Reicher as Columbia, 1913) but no Brazilian suffrage material. Represents distinct national context and temporal moment. No canonical matches.",
+    "confidence": 0.9
+  },
+  {
+    "staged_item_id": "510a2ea5-fd48-5699-8d8f-eae72ce2f79c",
+    "staged_title": "O Feminismo Triumphante — Revista da Semana, 20 maio 1933",
+    "staged_url": "https://bndigital.bn.gov.br/exposicoes/brasil-feminino/",
+    "staged_date": "20 de maio de 1933",
+    "staged_place": "Brasil",
+    "staged_citation": "O FEMINISMO TRIUMPHANTE. Revista da Semana, Rio de Janeiro, 20 maio 1933. Disponível em: https://bndigital.bn.gov.br/exposicoes/brasil-feminino/. Acesso em: 13 abr. 2026.",
+    "top_matches": [],
+    "recommendation": "NEW",
+    "rationale": "Brazilian press illustration \"O Feminismo Triumphante\" from Revista da Semana (1933). Distinct from 1914 Fon-Fon suffragist piece (different periodical, date, visual register). Documents later phase of feminist iconography in Brazil. No canonical matches.",
+    "confidence": 0.9
+  },
+  {
+    "staged_item_id": "2e231bde-44e2-5df2-9c1c-925bebbf67fe",
+    "staged_title": "La République aimable",
+    "staged_url": "https://gallica.bnf.fr/ark:/12148/btv1b531842166",
+    "staged_date": "1871",
+    "staged_place": "França",
+    "staged_citation": "ROPS, Félicien. La République aimable. 1871. Estampe (état unique). Gallica / BnF. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b531842166. Acesso em: 13 abr. 2026.",
+    "top_matches": [
+      {
+        "canonical_item_id": "eac80e8f-9794-5610-8a38-962119d0cd14",
+        "canonical_title": "La République aimable (Félicien Rops)",
+        "canonical_url": "https://gallica.bnf.fr/ark:/12148/btv1b531842166",
+        "score": 1.9265072984979903,
+        "reasons": [
+          "exact_url",
+          "title_sim_0.72",
+          "citation_sim_0.73",
+          "date_match"
+        ]
+      }
+    ],
+    "recommendation": "ENRICH",
+    "rationale": "CERTAIN_MATCH: exact same Gallica URL (btv1b531842166), same title, same date (1871), same creator (Félicien Rops). Existing record FR-001 already documents this object. LPAI adds nothing new except redundant citation. Merge evidence into existing record, reject as duplicate entry.",
+    "confidence": 0.98,
+    "existing_item_id": "eac80e8f-9794-5610-8a38-962119d0cd14"
+  },
+  {
+    "staged_item_id": "8f9070f7-c46a-56cd-8e3d-e636516d78df",
+    "staged_title": "République de Clésinger (fotografia de demonstração)",
+    "staged_url": "https://gallica.bnf.fr/ark:/12148/btv1b531241805",
+    "staged_date": "1900 (fotografia); c. 1848 (escultura original)",
+    "staged_place": "França",
+    "staged_citation": "NADAR, Atelier. République de Clésinger. 1900. Fotografia (tirage de démonstration). Gallica / BnF. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b531241805. Acesso em: 13 abr. 2026.",
+    "top_matches": [],
+    "recommendation": "NEW",
+    "rationale": "Photographic documentation by Nadar (1900) of Clésinger's sculpture of the Republic (c. 1848). Distinct object type: photography of sculpture vs sculpture itself. Corpus lacks Clésinger material and lacks 19th-century sculptural photography. No canonical matches.",
+    "confidence": 0.85
+  },
+  {
+    "staged_item_id": "73977177-1ded-58c4-9f86-c613d8bb6aef",
+    "staged_title": "Unité indivisibilité de la République (j'ai rompu mes chaines vive la liberté)",
+    "staged_url": "https://gallica.bnf.fr/ark:/12148/btv1b6950386s",
+    "staged_date": "1793–1794",
+    "staged_place": "França",
+    "staged_citation": "UNITÉ INDIVISIBILITÉ DE LA RÉPUBLIQUE. [1793–1794]. Estampa (gravura em relevo). Gallica / BnF. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b6950386s. Acesso em: 13 abr. 2026.",
+    "top_matches": [],
+    "recommendation": "NEW",
+    "rationale": "Revolutionary print \"Unité indivisibilité de la République\" (1793–1794). Distinct from Declaration of Rights broadside (FR-003) and other revolutionary allegories. Emphasizes republican unity through broken chains motif. No canonical matches.",
+    "confidence": 0.85
+  },
+  {
+    "staged_item_id": "bf042a8a-e967-5236-bf5a-ac131fc1558d",
+    "staged_title": "La République (en hauteur) — Exposição Internacional de Paris 1889",
+    "staged_url": "https://gallica.bnf.fr/ark:/12148/btv1b116003372",
+    "staged_date": "1889",
+    "staged_place": "França",
+    "staged_citation": "BLANCARD, Hippolyte; PEYNOT, Émile. La République (en hauteur). 1889. Fotografia de escultura monumental. Gallica / BnF. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b116003372. Acesso em: 13 abr. 2026.",
+    "top_matches": [],
+    "recommendation": "NEW",
+    "rationale": "Photograph of Peynot's monumental sculpture \"La République\" at the 1889 Paris International Exposition. Distinct from other République sculptures in corpus. Documents Third Republic monumental iconography at world's fair context. No canonical matches.",
+    "confidence": 0.85
+  },
+  {
+    "staged_item_id": "5011b5e8-8415-564d-9232-d435b15a486f",
+    "staged_title": "Étude pour le 1er mai? (Steinlen)",
+    "staged_url": "https://gallica.bnf.fr/ark:/12148/btv1b53188884v",
+    "staged_date": "1894",
+    "staged_place": "França",
+    "staged_citation": "STEINLEN, Théophile Alexandre. Étude pour le 1er mai? 1894. Desenho original. Gallica / BnF. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b53188884v. Acesso em: 13 abr. 2026.",
+    "top_matches": [],
+    "recommendation": "NEW",
+    "rationale": "Drawing study by Steinlen (1894) for May Day. Distinct from Steinlen's lithograph \"La République nous appelle...\" (FR-008, 1915) which was enriched. Different medium (drawing vs lithograph), different date, different subject (labor vs wartime republic). No canonical matches.",
+    "confidence": 0.85
+  }
+]

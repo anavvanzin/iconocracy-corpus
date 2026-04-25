@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html
+    id="card"
+    lang="es"
+    class="is-full-device-height"
+    prefix="og: http://ogp.me/ns#">
+
+    <head>
+        
+            
+            <meta charset="UTF-8">
+            <title>Hemeroteca Digital. Biblioteca Nacional de España</title>
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <meta name="description" content="Hemeroteca Digital">
+            <meta name="Generator-Name" content="Biblos">
+            <meta name="Generator-Copyright" content="© 2020-2025 Álvaro Falquina Garrido. All rights reserved.">
+            <meta name="Generator-Version" content="1.0.0">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <link
+                    rel="shortcut icon" type="image/x-icon"
+                    href="/fs/static/img/bne.ico">
+                <link
+                    rel="stylesheet" type="text/css" charset="UTF-8"
+                    href="/fs/static/css/bne.css?2026-04-14T11-33-40Z">
+        
+        
+        <meta
+   property="og:type"
+   content="website">
+<meta
+   property="og:url"
+   content="http://hemerotecadigital.bne.es/hd/es/card?id=e887e92f-f542-4b51-8209-4ef7d2efe5df">
+<meta
+   property="og:title"
+   content="La Flaca (Barcelona. 1869)">
+<meta
+   property="og:description"
+   content="Revista satírica, de carácter republicano y federal, editada en Barcelona a partir de marzo de 1869 que se prolongará, cambiando de título (La Carcajada, La Madeja política, La Madeja) hasta 1876. Su nombre se opone al título carlista La Gorda. Publicó excelentes caricaturas a color a doble página en las que ridiculizaba la monarquía, el clero, los militares y al político Juan Prim. Aunque estas caricaturas eran anónimas, los investigadores se las atribuyen al barcelonés  Tomás Padró. Con texto en verso y en prosa, la mayoría de los autores la consideran la primera en hacer un uso informativo del color en España.  
+
+Imágenes cedidas por TECNODOC.
+">
+<meta
+   property="og:site_name"
+   content="Hemeroteca Digital. Biblioteca Nacional de España">
+<meta
+   property="og:image"
+   content="http://hemerotecadigital.bne.es/hd/es/medium?id=722c9085-527c-454b-ba2e-bd7f3a3c8378">
+<meta
+   name="twitter:card"
+   content="summary_large_image">
+<meta
+   name="twitter:title"
+   content="La Flaca (Barcelona. 1869)">
+<meta
+   name="twitter:description"
+   content="Revista satírica, de carácter republicano y federal, editada en Barcelona a partir de marzo de 1869 que se prolongará, cambiando de título (La Carcajada, La Madeja política, La Madeja) hasta 1876. Su nombre se opone al título carlista La Gorda. Publicó excelentes caricaturas a color a doble página en las que ridiculizaba la monarquía, el clero, los militares y al político Juan Prim. Aunque estas caricaturas eran anónimas, los investigadores se las atribuyen al barcelonés  Tomás Padró. Con texto en verso y en prosa, la mayoría de los autores la consideran la primera en hacer un uso informativo del color en España.  
+
+Imágenes cedidas por TECNODOC.
+">
+<meta
+   name="twitter:url"
+   content="http://hemerotecadigital.bne.es/hd/es/card?id=e887e92f-f542-4b51-8209-4ef7d2efe5df">
+<meta
+   name="twitter:image:src"
+   content="http://hemerotecadigital.bne.es/hd/es/medium?id=722c9085-527c-454b-ba2e-bd7f3a3c8378">
+<meta
+   name="twitter:site"
+   content="@BNE_biblioteca">
+<meta
+   name="twitter:domain"
+   content="hemerotecadigital.bne.es">
+
+
+        <script
+            type="text/javascript"
+            src="/fs/static/mep/mediaelement-and-player.min.js?2026-04-14T11-33-40Z"></script>
+        <script
+            type="text/javascript"
+            src="/fs/static/mep/skip-back/skip-back.min.js?2026-04-14T11-33-40Z"></script>
+        <script
+            type="text/javascript"
+            src="/fs/static/mep/jump-forward/jump-forward.min.js?2026-04-14T11-33-40Z"></script>
+        <link
+            rel="stylesheet"
+            href="/fs/static/mep/mediaelementplayer.min.css?2026-04-14T11-33-40Z">
+
+        
+            <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MQMTK46');</script>
+<!-- End Google Tag Manager -->
+        
+    </head>
+
+
+    <body class="is-flex is-flex-direction-column is-full-device-height">
+        
+            <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQMTK46" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        
+        
+            <section id="header" class="hero is-small is-header-color">
+                <div class="hero-head">
+                    <nav class="navbar" role="navigation" aria-label="main navigation">
+                        <div class="container is-max-widescreen">
+                            <div class="navbar-brand">
+                                <a
+                                    role="button"
+                                    class="navbar-burger"
+                                    data-target="top-navbar-menu"
+                                    aria-label="menu"
+                                    aria-expanded="false"
+                                >
+                                    <span aria-hidden="true"></span>
+                                    <span aria-hidden="true"></span>
+                                    <span aria-hidden="true"></span>
+                                </a>
+                            </div>
+                            <div class="navbar-menu" id="top-navbar-menu">
+                                <div class="navbar-start"></div>
+                                <div class="navbar-end">
+                                    
+                                        
+                                    
+                                    
+                                            <ul class="links header-links navbar-item">
+            
+                <li>
+                <a href="/bd/es/" class="is-size-5 is-family-secondary None">BNE Digital</a>
+            </li>
+            
+                <li>
+                <a href="https://consultasbibliotecarias.bne.es/form" class="None">Contacto</a>
+            </li>
+    </ul>
+
+                                    
+                                    
+                                        
+                                    
+                                    
+                                            <div id="languages" class="navbar-item has-dropdown is-hoverable is-right">
+        <div class="navbar-link">
+            <span>ES</span>
+        </div>
+        <div class="navbar-dropdown is-right" role="menu">
+                
+                <a class="navbar-item is-active is-info" href="/hd/es/card?sid=3971781" title="Español">
+                    ES
+                </a>
+                
+                <a class="navbar-item" href="/hd/ca/card?sid=3971781" title="Català">
+                    CA
+                </a>
+                
+                <a class="navbar-item" href="/hd/eu/card?sid=3971781" title="Euskera">
+                    EU
+                </a>
+                
+                <a class="navbar-item" href="/hd/gl/card?sid=3971781" title="Galego">
+                    GL
+                </a>
+                
+                <a class="navbar-item" href="/hd/en/card?sid=3971781" title="English">
+                    EN
+                </a>
+                
+                <a class="navbar-item" href="/hd/fr/card?sid=3971781" title="Français">
+                    FR
+                </a>
+        </div>
+    </div>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="hero-body">
+                    
+                        
+                        <div class="container is-max-widescreen is-flex">
+                                <div class="mr-4">
+                                            <a href="https://www.bne.es"><img src="/fs/static/img/bne-white-logo.png" class="view-logo"></a>
+                                </div>
+                            <div>
+                                    <h1 class="title is-size-4-mobile">Hemeroteca Digital</h1>
+                                    <h1 class="subtitle is-size-6-mobile">Biblioteca Nacional de España</h1>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="hero-foot has-background-tab has-text-tab-text">
+                    <div class="container is-max-widescreen is-flex">
+                    
+                            <nav class="tabs is-boxed is-flex-grow-1 mb-0">
+        <ul>
+                
+                    <li>
+                <a href="/hd/es/advanced?sid=3971781"><img src="/fs/static/img/black-search.svg" class="mr-2 " style="">
+Consulta</a>
+                </li>
+                
+                    <li>
+                <a href="/hd/es/results?sid=3971781">Resultados</a>
+                </li>
+                
+                    <li id="tab-dossier">
+                <a href="/hd/es/dossier?g=t&g=i&g=p&g=m&g=o&g=ds&g=eld&g=spd&g=drs">Mi dosier</a>
+                </li>
+        </ul>
+    </nav>
+
+                    
+                    
+                            <ul class="links top-links ">
+            
+                <li class="is-hidden-mobile">
+                <a href="/hd/es/fulltext" class="None">Listado de títulos</a>
+            </li>
+            
+                <li>
+                <a href="https://www.bne.es/es/catalogos/hemeroteca-digital/novedades" class="None" target="_blank">Novedades</a>
+            </li>
+            
+                <li>
+                <a href="https://www.bne.es/es/catalogos/hemeroteca-digital/guias-ayuda-usuario-hemeroteca-digital" class="None" target="_blank">Ayuda</a>
+            </li>
+    </ul>
+
+                    
+                    </div>
+                </div>
+            </section>
+        
+        
+            <section id="main" class="section is-flex-grow-1">
+                <div class="container is-max-widescreen">
+                    
+    <span class="is-size-7 needs-javascript" style="position: absolute; top: -2.5rem; cursor: pointer;" id="back">« Volver</span>
+        <h2 class="title is-2 mb-5 is-size-4-mobile">La Flaca (Barcelona. 1869)</h2>
+<div class="columns">
+    <div class="column is-one-quarter">
+                <fieldset id="id-7297352e-bbcf-4aa7-8f40-576ac8810866" class="pane">
+            <div class="field  ">
+    
+            <div class="field has-text-centered">
+        <img src="/hd/es/medium?id=722c9085-527c-454b-ba2e-bd7f3a3c8378" class="has-border" loading="lazy">
+    </div>
+
+        
+</div>
+
+    </fieldset>
+
+
+        <fieldset class="field mt-5">
+                <div class="field">
+        <div class="control">
+            <a class="button is-fullwidth" href="/hd/es/results?parent=e887e92f-f542-4b51-8209-4ef7d2efe5df&amp;t=alt-asc">
+                <span class="icon mr-2"><img src="/fs/static/img/open-book.svg"></span>
+                Ejemplares
+            </a>
+        </div>
+    </div>
+    <div class="field">
+        <div class="control">
+            <a class="button is-fullwidth" href="/hd/es/calendar?id=e887e92f-f542-4b51-8209-4ef7d2efe5df">
+                <span class="icon mr-2"><img src="/fs/static/img/calendar.svg"></span>
+                Calendario
+            </a>
+        </div>
+    </div>
+
+        </fieldset>
+    </div>
+    <div class="column">
+                <fieldset id="id-5ed8b272-12b2-433c-9ea7-1363f3bc595f" class="pane">
+            <div class="field  ">
+    
+        
+<label class="label">Relacionado</label>
+        <div class="control is-clipped " id="div-276a0ffe-b607-459c-8963-086851fe9573">        
+            Versión en línea Flaca (Internet)
+        <br>
+        
+            <a href="/hd/es/issn/2254-5743?sid=3971781">Caracajada (Barcelona)</a>
+        <br>
+</div>
+        
+</div>
+
+            <div class="field  ">
+    
+        
+<label class="label">Colección</label>
+        <div class="control is-clipped " id="div-a089c2a1-9eb0-42e4-954f-f4392e56e034">Revistas satíricas y humorísticas || Periódicos</div>
+        
+</div>
+
+            <div class="field  ">
+    
+        
+<label class="label">Enlaces</label>
+        <div class="control is-clipped " id="div-eb6bb965-fb47-484d-b2ba-c6292371bfae">
+<a href="https://catalogo.bne.es/permalink/34BNE_INST/f0qo1i/alma991059224269708606"><img src="/fs/static/img/external-link.svg" class="mr-2">Registro bibliográfico</a><br>
+<a href="https://arca.bnc.cat/arcabib_pro/ca/consulta/registro.do?id=2054"><img src="/fs/static/img/external-link.svg" class="mr-2">Versión en línea</a><br>
+<a href="http://www.bnc.cat/digital/arca/titols/flaca.htm"><img src="/fs/static/img/external-link.svg" class="mr-2">1869-1871: Versión en línea</a><br>
+<a href="http://www.memoriademadrid.es/buscador.php?accion=VerFicha&amp;id=275293&amp;num_id=2&amp;num_total=3"><img src="/fs/static/img/external-link.svg" class="mr-2">1869-1873: Versión en línea</a></div>
+        
+</div>
+
+            <div class="field  ">
+    
+        
+<label class="label">Descripción</label>
+        <div class="control is-clipped is-pre-wrap" id="div-96ccec86-ddac-4c93-973c-123546a81376">Revista satírica, de carácter republicano y federal, editada en Barcelona a partir de marzo de 1869 que se prolongará, cambiando de título (La Carcajada, La Madeja política, La Madeja) hasta 1876. Su nombre se opone al título carlista La Gorda. Publicó excelentes caricaturas a color a doble página en las que ridiculizaba la monarquía, el clero, los militares y al político Juan Prim. Aunque estas caricaturas eran anónimas, los investigadores se las atribuyen al barcelonés  Tomás Padró. Con texto en verso y en prosa, la mayoría de los autores la consideran la primera en hacer un uso informativo del color en España.  
+
+Imágenes cedidas por TECNODOC.
+</div>
+        
+</div>
+
+    </fieldset>
+
+
+    </div>
+    <div class="column is-one-quarter">
+        <aside class="has-border p-5">
+                    <fieldset id="id-472a5b31-b2ef-4b9e-81f8-728e35d73d7c" class="pane">
+            <div class="field  ">
+    
+        
+<label class="label">Ámbito geográfico</label>
+        <div class="control is-clipped " id="div-d00f8457-6289-4e5c-85dc-6633b8dc0a43">
+<a href="http://datos.bne.es/resource/XX450579"><img src="/fs/static/img/external-link.svg" class="mr-2">Barcelona</a></div>
+        
+</div>
+
+            <div class="field  ">
+    
+        
+<label class="label">Lugar de publicación</label>
+        <div class="control is-clipped " id="div-73aabb89-7b8d-4148-afa4-906344b6a9a2">Barcelona</div>
+        
+</div>
+
+            <div class="field  ">
+    
+        
+<label class="label">ISSN</label>
+        <div class="control is-clipped " id="div-c1ad557f-11f6-4aae-8b07-2f7f681edd5f">2254-5700</div>
+        
+</div>
+
+            <div class="field  ">
+    
+        
+<label class="label">Fecha</label>
+        <div class="control is-clipped " id="div-b6c0a09b-b845-4d73-b961-a475366c88e7">27/03/1869-03/09/1871</div>
+        
+</div>
+
+            <div class="field  ">
+    
+        
+<label class="label">Idioma</label>
+        <div class="control is-clipped " id="div-7f6d4816-7c8d-4dd2-9307-b4d78caa8324">Español</div>
+        
+</div>
+
+            <div class="field  ">
+    
+        
+<label class="label">Tipo de publicación</label>
+        <div class="control is-clipped " id="div-718f4810-ba86-46e8-b68b-a26945b78be8">Publicación impresa</div>
+        
+</div>
+
+            <div class="field  ">
+    
+        
+<label class="label">Ejemplares</label>
+        <div class="control is-clipped " id="div-557db17e-d108-4b85-b568-530109aca633">100</div>
+        
+</div>
+
+            <div class="field  ">
+    
+        
+<label class="label">Páginas</label>
+        <div class="control is-clipped " id="div-0187041b-d9e4-426b-a227-dbd84cc60fab">401</div>
+        
+</div>
+
+    </fieldset>
+
+
+        </aside>
+    </div>
+</div>
+
+                </div>
+            </section>
+        
+        
+            <section id="footer" class="footer">
+                <div class="content has-text-centered is-small">
+                
+                        <ul class="links bottom-links ">
+            
+                <li>
+                <a href="https://www.bne.es/es/aviso-legal" class="None" target="_blank">Aviso legal</a>
+            </li>
+    </ul>
+
+                
+                
+                    <div class="is-size-8">
+                    </div>
+                
+                </div>
+            </section>
+        
+        
+            <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-20111465-1']);
+    _gaq.push(['_setDomainName', '.bne.es']);
+    _gaq.push(['_setAllowHash', false]);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+        
+        
+            <div id="progress" class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <progress id="progress-bar" class="progress is-large is-info" max="100">50%</progress>
+                    <div id="progress-message" class="has-text-white has-text-centered">Procesando…</div>
+                </div>
+            </div>
+            <div id="modal-message" class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content has-text-white has-text-centered"></div>
+                <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+        
+        
+    
+            
+            <script
+                type="text/javascript"
+                src="/fs/static/js/alex.js?2026-04-14T11-33-40Z"></script>
+            <script type="text/javascript">
+                (function () {
+                    function toggle() {
+                        var target = "#" + this.dataset.target;
+                        __.toggleClass(this, "is-active")
+                        __.toggleClass(target, "is-active")
+                    }
+                    __.withElems(".navbar-burger", function (element) {
+                        element.addEventListener("click", toggle);
+                    });
+                })();
+                __.initModalMessage();
+                __.dossierInit([]);
+                __.dossierSetupInterface();
+            </script>
+        
+        <script type="text/javascript">
+            
+
+
+        
+    
+    
+    
+
+
+        
+    
+    
+    
+
+    
+    
+    
+    
+
+
+</script>
+<script type="text/javascript">
+    __.withElem("#back", function (element) {
+        element.addEventListener("click", function () {
+            window.history.back();
+        });
+    });
+    __.withElems(".visible-on-hover", function (element) {
+        element.addEventListener("click", function () {
+            this.focus();
+        });
+    });
+    __.showNeedsJavaScript();
+</script>
+
+    </body>
+
+    <!-- Total:  1.7941 seconds. Cache:    6206 records. -->
+
+</html>

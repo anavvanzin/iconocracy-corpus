@@ -1,0 +1,378 @@
+[10:48:38] Starting autopilot: stage=preflight country=BR max=5 batch=5
+[10:48:38] *** DRY RUN MODE ***
+
+[1m[0;34m━━━ Stage: preflight ━━━[0m
+
+[1m╔══════════════════════════════════════════════╗[0m
+[1m║     ICONOCRACY — Environment Health Check    ║[0m
+[1m╚══════════════════════════════════════════════╝[0m
+
+[1m[0;34m[Shell Profile][0m
+  [0;32mPASS[0m  No ANTHROPIC_API_KEY in shell profiles
+  [0;32mPASS[0m  No Vertex credential override
+  [0;32mPASS[0m  No anthropic env sourcing
+  [1;33mWARN[0m  4 API key(s) exported directly in .zshrc — consider using a secrets manager
+
+[1m[0;34m[Python Environment][0m
+  [0;32mPASS[0m  conda available
+  [0;32mPASS[0m  conda env 'iconocracy' exists
+  [0;32mPASS[0m  Python 3.12.13 (3.12.x)
+  [0;32mPASS[0m  Package: jsonschema
+  [0;32mPASS[0m  Package: rich
+
+[1m[0;34m[Git & Auth][0m
+  [0;32mPASS[0m  gh CLI authenticated (token valid)
+  [0;32mPASS[0m  Git remote uses HTTPS: https://github.com/anavvanzin/iconocracy-corpus.git
+  [1;33mWARN[0m  9 uncommitted change(s) in repo
+
+[1m[0;34m[Corpus Data][0m
+  [0;32mPASS[0m  corpus-data.json: ? items
+  [0;32mPASS[0m  Schema validation passed
+  [0;32mPASS[0m  SSD mounted — images: 69M
+  [0;32mPASS[0m  data/raw/ symlinks OK
+
+[1m[0;34m[Claude Code][0m
+  [0;32mPASS[0m  Claude CLI: 2.1.96 (Claude Code)
+  [0;32mPASS[0m  settings.json: valid JSON
+
+[1m─────────────────────────────────────────────[0m
+  [0;32m16 passed[0m  [1;33m2 warnings[0m  [0;31m0 failures[0m
+[1m─────────────────────────────────────────────[0m
+
+[1m[0;34m━━━ Stage: gaps ━━━[0m
+[10:48:41] Running lacunas.py...
+
+===============================MATRIZ DO CORPUS===============================
+                    FUNDACIONAL            NORMATIVO              MILITAR       
+
+  Brazil (BR)
+    moeda                   ---*          1         --- 
+    selo                    ---         ---*        --- 
+    monumento               ---         ---           1 
+    estampa                 ---         ---         --- 
+    frontispicio            ---         ---         --- 
+    papel-moeda             ---         ---         --- 
+    cartaz                  ---         ---         --- 
+    medalha                 ---         ---         --- 
+
+                                            * = célula prioritária para a tese
+
+===============================RESUMO POR PAÍS================================
+
+  Brazil (BR): 12 itens, 8% cobertura
+    Regimes: {'fundacional': 8, 'normativo': 3, 'militar': 1}
+    Suportes: {'fotografia': 4, 'pintura': 4, 'texto': 2, 'monumento': 1, 'moeda': 1}
+
+=============================RELATÓRIO DE LACUNAS=============================
+  Itens no corpus (6 países): 108
+  Notas no vault: 196
+  Células da matriz: 144
+  Preenchidas (>= 1): 122 (85%)
+  Lacunas: 22
+  Lacunas prioritárias: 2
+
+=============================LACUNAS PRIORITÁRIAS=============================
+  [BR] Brazil / FUNDACIONAL / moeda
+  [BR] Brazil / NORMATIVO / selo
+
+================================DEMAIS LACUNAS================================
+
+  Brazil (BR) — 20 lacunas:
+    fundacional    / selo
+    fundacional    / monumento
+    fundacional    / estampa
+    fundacional    / frontispicio
+    fundacional    / papel-moeda
+    fundacional    / cartaz
+    fundacional    / medalha
+    normativo      / monumento
+    normativo      / estampa
+    normativo      / frontispicio
+    normativo      / papel-moeda
+    normativo      / cartaz
+    normativo      / medalha
+    militar        / moeda
+    militar        / selo
+    militar        / estampa
+    militar        / frontispicio
+    militar        / papel-moeda
+    militar        / cartaz
+    militar        / medalha
+[10:48:41] Gaps identified: 0
+0
+
+[1m[0;34m━━━ Stage: scout ━━━[0m
+[10:48:41] [scout] Attempt 1/2
+[10:48:41] [dry-run] Would run claude -p for: scout
+
+[1m[0;34m━━━ Stage: download ━━━[0m
+[10:48:41] [download] Attempt 1/2
+[10:48:41] [dry-run] Would run claude -p for: download
+
+[1m[0;34m━━━ Stage: iconocode ━━━[0m
+[10:48:41] [iconocode] Attempt 1/3
+[10:48:41] [dry-run] Would run claude -p for: iconocode
+
+[1m[0;34m━━━ Stage: validate ━━━[0m
+[10:48:41] Running schema validation...
+/Users/ana/iconocracy-corpus/tools/scripts/validate_schemas.py:14: DeprecationWarning: jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+  from jsonschema import Draft202012Validator, RefResolver
+Validating /Users/ana/iconocracy-corpus/data/processed/records.jsonl against master-record schema...
+
+Results: 139/139 records valid
+✓ All records are valid
+[10:48:41] Running gap analysis...
+
+===============================MATRIZ DO CORPUS===============================
+                    FUNDACIONAL            NORMATIVO              MILITAR       
+
+  France (FR)
+    moeda                     1           1*          1 
+    selo                    ---           1*        --- 
+    monumento               ---         ---         --- 
+    estampa                  14*          2         --- 
+    frontispicio              2         ---         --- 
+    papel-moeda             ---         ---         --- 
+    cartaz                  ---           4           7*
+    medalha                 ---         ---         --- 
+
+  United Kingdom (UK)
+    moeda                   ---           1*          1*
+    selo                    ---         ---         --- 
+    monumento               ---           1         --- 
+    estampa                   1           3         --- 
+    frontispicio            ---         ---         --- 
+    papel-moeda             ---         ---         --- 
+    cartaz                  ---         ---           2 
+    medalha                 ---         ---         --- 
+
+  Germany (DE)
+    moeda                   ---           1         --- 
+    selo                    ---         ---*          2 
+    monumento                 5         ---         --- 
+    estampa                   2         ---         --- 
+    frontispicio            ---         ---         --- 
+    papel-moeda               1           1         ---*
+    cartaz                  ---         ---           1 
+    medalha                 ---         ---         --- 
+
+  United States (US)
+    moeda                   ---*        ---           1 
+    selo                    ---         ---         --- 
+    monumento               ---         ---*        --- 
+    estampa                   4           1           1 
+    frontispicio            ---         ---         --- 
+    papel-moeda             ---           2         --- 
+    cartaz                  ---         ---           6 
+    medalha                 ---         ---         --- 
+
+  Belgium (BE)
+    moeda                     1         ---*        --- 
+    selo                    ---         ---         --- 
+    monumento               ---           1         --- 
+    estampa                   2         ---         --- 
+    frontispicio            ---         ---         --- 
+    papel-moeda             ---         ---           1*
+    cartaz                  ---         ---         --- 
+    medalha                 ---         ---         --- 
+
+  Brazil (BR)
+    moeda                   ---*          1         --- 
+    selo                    ---         ---*        --- 
+    monumento               ---         ---           1 
+    estampa                 ---         ---         --- 
+    frontispicio            ---         ---         --- 
+    papel-moeda             ---         ---         --- 
+    cartaz                  ---         ---         --- 
+    medalha                 ---         ---         --- 
+
+                                            * = célula prioritária para a tese
+
+===============================RESUMO POR PAÍS================================
+
+  France (FR): 42 itens, 38% cobertura
+    Regimes: {'fundacional': 19, 'normativo': 9, 'contra-alegoria': 6, 'militar': 8}
+    Suportes: {'estampa': 18, 'cartaz': 11, 'fotografia': 1, 'frontispicio': 2, 'pintura': 2, 'gravura/litografia': 4, 'moeda': 3, 'selo': 1}
+
+  United Kingdom (UK): 10 itens, 25% cobertura
+    Regimes: {'normativo': 5, 'fundacional': 1, 'militar': 3, 'contra-alegoria': 1}
+    Suportes: {'estampa': 4, 'monumento': 1, 'cartaz': 2, 'gravura': 1, 'moeda': 2}
+
+  Germany (DE): 18 itens, 29% cobertura
+    Regimes: {'fundacional': 11, 'normativo': 3, 'militar': 3, 'contra-alegoria': 1}
+    Suportes: {'estampa': 2, 'monumento': 5, 'pintura': 3, 'cartaz': 1, 'gravura/litografia': 1, 'papel-moeda': 2, 'moeda': 1, 'selo': 2, 'fotografia': 1}
+
+  United States (US): 20 itens, 25% cobertura
+    Regimes: {'fundacional': 5, 'normativo': 5, 'militar': 8, 'contra-alegoria': 2}
+    Suportes: {'estampa': 6, 'fotografia': 3, 'cartaz': 6, 'gravura': 1, 'gravura/litografia': 1, 'papel-moeda': 2, 'moeda': 1}
+
+  Belgium (BE): 6 itens, 17% cobertura
+    Regimes: {'normativo': 2, 'fundacional': 3, 'militar': 1}
+    Suportes: {'pintura': 1, 'monumento': 1, 'moeda': 1, 'papel-moeda': 1, 'estampa': 2}
+
+  Brazil (BR): 12 itens, 8% cobertura
+    Regimes: {'fundacional': 8, 'normativo': 3, 'militar': 1}
+    Suportes: {'fotografia': 4, 'pintura': 4, 'texto': 2, 'monumento': 1, 'moeda': 1}
+
+=============================RELATÓRIO DE LACUNAS=============================
+  Itens no corpus (6 países): 108
+  Notas no vault: 196
+  Células da matriz: 144
+  Preenchidas (>= 1): 34 (24%)
+  Lacunas: 110
+  Lacunas prioritárias: 7
+
+=============================LACUNAS PRIORITÁRIAS=============================
+  [DE] Germany / NORMATIVO / selo
+  [DE] Germany / MILITAR / papel-moeda
+  [US] United States / FUNDACIONAL / moeda
+  [US] United States / NORMATIVO / monumento
+  [BE] Belgium / NORMATIVO / moeda
+  [BR] Brazil / FUNDACIONAL / moeda
+  [BR] Brazil / NORMATIVO / selo
+
+================================DEMAIS LACUNAS================================
+
+  France (FR) — 15 lacunas:
+    fundacional    / selo
+    fundacional    / monumento
+    fundacional    / papel-moeda
+    fundacional    / cartaz
+    fundacional    / medalha
+    normativo      / monumento
+    normativo      / frontispicio
+    normativo      / papel-moeda
+    normativo      / medalha
+    militar        / selo
+    militar        / monumento
+    militar        / estampa
+    militar        / frontispicio
+    militar        / papel-moeda
+    militar        / medalha
+
+  United Kingdom (UK) — 18 lacunas:
+    fundacional    / moeda
+    fundacional    / selo
+    fundacional    / monumento
+    fundacional    / frontispicio
+    fundacional    / papel-moeda
+    fundacional    / cartaz
+    fundacional    / medalha
+    normativo      / selo
+    normativo      / frontispicio
+    normativo      / papel-moeda
+    normativo      / cartaz
+    normativo      / medalha
+    militar        / selo
+    militar        / monumento
+    militar        / estampa
+    militar        / frontispicio
+    militar        / papel-moeda
+    militar        / medalha
+
+  Germany (DE) — 15 lacunas:
+    fundacional    / moeda
+    fundacional    / selo
+    fundacional    / frontispicio
+    fundacional    / cartaz
+    fundacional    / medalha
+    normativo      / monumento
+    normativo      / estampa
+    normativo      / frontispicio
+    normativo      / cartaz
+    normativo      / medalha
+    militar        / moeda
+    militar        / monumento
+    militar        / estampa
+    militar        / frontispicio
+    militar        / medalha
+
+  United States (US) — 16 lacunas:
+    fundacional    / selo
+    fundacional    / monumento
+    fundacional    / frontispicio
+    fundacional    / papel-moeda
+    fundacional    / cartaz
+    fundacional    / medalha
+    normativo      / moeda
+    normativo      / selo
+    normativo      / frontispicio
+    normativo      / cartaz
+    normativo      / medalha
+    militar        / selo
+    militar        / monumento
+    militar        / frontispicio
+    militar        / papel-moeda
+    militar        / medalha
+
+  Belgium (BE) — 19 lacunas:
+    fundacional    / selo
+    fundacional    / monumento
+    fundacional    / frontispicio
+    fundacional    / papel-moeda
+    fundacional    / cartaz
+    fundacional    / medalha
+    normativo      / selo
+    normativo      / estampa
+    normativo      / frontispicio
+    normativo      / papel-moeda
+    normativo      / cartaz
+    normativo      / medalha
+    militar        / moeda
+    militar        / selo
+    militar        / monumento
+    militar        / estampa
+    militar        / frontispicio
+    militar        / cartaz
+    militar        / medalha
+
+  Brazil (BR) — 20 lacunas:
+    fundacional    / selo
+    fundacional    / monumento
+    fundacional    / estampa
+    fundacional    / frontispicio
+    fundacional    / papel-moeda
+    fundacional    / cartaz
+    fundacional    / medalha
+    normativo      / monumento
+    normativo      / estampa
+    normativo      / frontispicio
+    normativo      / papel-moeda
+    normativo      / cartaz
+    normativo      / medalha
+    militar        / moeda
+    militar        / selo
+    militar        / estampa
+    militar        / frontispicio
+    militar        / papel-moeda
+    militar        / cartaz
+    militar        / medalha
+[10:48:42] Running coding progress check...
+
+==================================================
+  Purification Coding Progress
+==================================================
+  Total items:   145
+  Coded:         145 (100%)
+  Remaining:     0
+  Output file:   /Users/ana/iconocracy-corpus/data/processed/purification.jsonl
+
+  Composite stats (coded items):
+    Min:  0.10
+    Max:  3.10
+    Mean: 1.44
+
+  By country:
+    ?                145 coded  (mean=1.44)
+
+  By regime:
+    contra-alegoria    7
+    fundacional       71
+    militar           27
+    normativo         40
+
+
+[1m[0;34m━━━ Stage: report ━━━[0m
+[10:48:42] Session report saved to: /Users/ana/iconocracy-corpus/vault/sessoes/AUTOPILOT-2026-04-08.md
+[10:48:42] Full log: /Users/ana/iconocracy-corpus/logs/autopilot/autopilot_20260408_104838.log
+[10:48:42] Done.

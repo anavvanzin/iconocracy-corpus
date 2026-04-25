@@ -1,0 +1,9 @@
+$kind: http-request
+method: GET
+url: '{{baseUrl}}/api/corpus/analysis/search'
+queryParams:
+  - key: attr
+    value: '{{attr}}'
+  - key: figure
+    value: '{{figure}}'
+order: 6000

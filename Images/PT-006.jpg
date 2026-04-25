@@ -1,0 +1,1811 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>1 Escudo - Portugal &ndash; Numista</title>
+    <meta name="description" lang="en" content="Detailed information about the coin 1 Escudo, Portugal, with pictures and collection and swap management: mintage, descriptions, metal, weight, size, value and other numismatic data" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://en.numista.com/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://en.numista.com/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://en.numista.com/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://en.numista.com/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://en.numista.com/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://en.numista.com/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://en.numista.com/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://en.numista.com/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://en.numista.com/apple-touch-icon-180x180.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=E6vrePyX0f" color="#dfeefb">
+    <link rel="icon" sizes="32x32" type="image/png" href="https://en.numista.com/favicon-32x32.png?v=E6vrePyX0f">
+    <link rel="icon" sizes="192x192" type="image/png" href="https://en.numista.com/android-chrome-192x192.png">
+    <link rel="icon" sizes="96x96" type="image/png" href="https://en.numista.com/favicon-96x96.png?v=E6vrePyX0f">
+    <link rel="icon" sizes="16x16" type="image/png" href="https://en.numista.com/favicon-16x16.png?v=E6vrePyX0j">
+    <link rel="manifest" href="https://en.numista.com/manifest.json">
+    <meta name="msapplication-TileColor" content="#000088">
+    <meta name="msapplication-TileImage" content="https://en.numista.com/mstile-144x144.png">
+    <meta name="theme-color" content="#dfeefb">
+    <meta name="application-name" content="Numista">
+    <meta name="apple-mobile-web-app-title" content="Numista">
+
+    <link rel="search" type="application/opensearchdescription+xml" title="Numista" href="/opensearch_desc.php" />
+
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="initial-scale=1.0" />
+    <link rel="stylesheet" href="https://en.numista.com/design/global.v731.css">
+        <link rel="stylesheet" href="https://en.numista.com/design/catalogue.v731.css">
+    <link rel="stylesheet" href="https://en.numista.com/design/my_collection.v731.css">
+    <link rel="stylesheet" href="https://en.numista.com/design/ckeditor.v731.css" />
+        <link rel="stylesheet" type="text/css" href="https://en.numista.com/catalogue/sprite.v731.css" />
+    <link rel="preload" as="font" type="font/woff2" href="/design/font/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky462EK9Cs.woff2" crossorigin="anonymous" />
+    <link rel="preload" as="font" type="font/woff2" href="/design/font/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxf7GEK9Cs.woff2" crossorigin="anonymous" />
+    
+    <script src="https://en.numista.com/outils/jquery-3.6.0.min.js"></script>
+    <script>
+        LANGUAGE = 'en';
+        ZOOM_DOWNLOAD_LABEL = 'Download';
+
+        function toggleMenu(menuName) {
+            let button = document.getElementById(menuName+"_button");
+            let pressed = button.getAttribute("aria-pressed")==="true";
+            button.setAttribute("aria-pressed", pressed? "false": "true");
+            document.getElementById(menuName).setAttribute("aria-hidden", pressed? "true": "false");
+            let links = document.getElementById(menuName).getElementsByTagName("a");
+            for (let i=0; i<links.length; i++) {
+                links[i].setAttribute("tabindex", pressed? "-1": "0");
+            }
+            let buttons = document.getElementById(menuName).getElementsByTagName("button");
+            for (let i=0; i<buttons.length; i++) {
+                buttons[i].setAttribute("tabindex", pressed? "-1": "0");
+            }
+            let selects = document.getElementById(menuName).getElementsByTagName("select");
+            for (let i=0; i<selects.length; i++) {
+                selects[i].setAttribute("tabindex", pressed? "-1": "0");
+            }
+            if (selects.length>0) activate_select2();            let inputs = document.getElementById(menuName).getElementsByTagName("input");
+            for (let i=0; i<inputs.length; i++) {
+                inputs[i].setAttribute("tabindex", pressed? "-1": "0");
+            }
+            if (menuName==="account_menu" && (!pressed)) {
+                if (document.getElementById("language_menu_button").getAttribute("aria-pressed")==="true") toggleMenu("language_menu");
+                if (document.getElementById("search_menu_button").getAttribute("aria-pressed")==="true") toggleMenu("search_menu");
+            }
+            else if (menuName==="search_menu" && (!pressed)) {
+                document.getElementById("search_menu_input").focus();
+                if (document.getElementById("language_menu_button").getAttribute("aria-pressed")==="true") toggleMenu("language_menu");
+                if (document.getElementById("account_menu_button").getAttribute("aria-pressed")==="true") toggleMenu("account_menu");
+            }
+            else if (menuName.substring(0, 9)==="forum_cat") {
+                if (!pressed) {
+                    document.cookie =  menuName + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC';
+                }
+                else {
+                    let date = new Date(Date.now() + 365 * 24 * 3600 * 1000);
+                    document.cookie = menuName + '=1; expires=' + date.toUTCString();
+                }
+            }
+        }
+
+        function togglePinnedAccountMenu() {
+            let pinned = document.getElementById("global_header").className==="pinned_account";
+            if (!pinned) {
+                document.cookie = "pinned_account_menu=1; expires=Sunday, 13-Apr-2036 17:12:04 CEST; domain=numista.com; path=/";
+                document.getElementById("global_header").className = "pinned_account";
+                document.getElementById("pinned_account_button").src = "https://en.numista.com/design/wrap.svg";
+                document.getElementById("pinned_account_button").alt = "Wrap";
+                document.getElementById("pinned_account_button").title = "Wrap";
+                if (window.matchMedia("(max-width: 600px)").matches) toggleMenu("account_menu");
+            }
+            else {
+                document.cookie = "pinned_account_menu=0; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=numista.com; path=/";
+                document.getElementById("global_header").className = "";
+                document.getElementById("pinned_account_button").src = "https://en.numista.com/design/pin.svg";
+                document.getElementById("pinned_account_button").alt = "Pin";
+                document.getElementById("pinned_account_button").title = "Pin";
+                if (document.getElementById("account_menu").getAttribute("aria-hidden")!=="true") toggleMenu("account_menu");
+            }
+        }
+
+        /* Matomo */
+        let _paq = window._paq = window._paq || [];
+        _paq.push(['setCustomDimension', 1, 'no']);
+        _paq.push(["setCookieDomain", "*.numista.com"]);
+        _paq.push(["setDomains", ["*.numista.com"]]);
+        _paq.push(['trackPageView', null, {
+            dimension2: 'en',
+            dimension4: 'en',
+            dimension5: 'publift'
+        }]);
+        _paq.push(['enableLinkTracking']);
+        _paq.push(['trackAllContentImpressions']);
+        (function() {
+            let u="https://analytics.numista.com/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '10']);
+            let d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+
+        <script async src="https://en.numista.com/script_async.v173.js"></script>
+
+            <link rel="stylesheet" href="https://en.numista.com/design/select2.v731.css">
+        <script>
+            SELECT2_TEXT_ENTER_MINT_NAME = 'Enter the name of the mint';
+            SELECT2_TEXT_ENTER_PRINTER_NAME = 'Enter the name of the printer';
+            SELECT2_TEXT_ENTER_RULER_NAME = 'Enter the name of the ruling authority';
+            SELECT2_TEXT_ENTER_CURRENCY_NAME = 'Enter the name of the currency';
+            SELECT2_TEXT_ENTER_ENGRAVER_NAME = 'Enter the name';
+            SELECT2_TEXT_ENTER_SIGNATORY_NAME = 'Enter the name';
+            SELECT2_TEXT_SELECT_ISSUING_ENTITY = 'Select at least one issuing entity above';
+            SELECT2_TEXT_SELECT_PREVIOUS_SESSION = 'Select the previous session';
+            SELECT2_TEXT_SEARCH_PLACES = 'Search places';
+            SELECT2_TEXT_ENTER_MARK_NAME = 'Enter the description or name';
+            SELECT2_TEXT_ENTER_ISSUING_ENTITY_NAME = 'Enter the name of the issuing entity';
+            SELECT2_TEXT_ENTER_SERIES_NAME = 'Enter the name of the series';
+            SELECT2_TEXT_ENTER_NAME = 'Enter the name';
+            SELECT2_TEXT_ENTER_MORE = 'Please enter {number} or more characters';
+            SELECT2_TEXT_ENTER_CATALOGUE = 'Enter the code, the author, the title or the publisher of the catalogue';
+            SELECT2_TEXT_NO_MATCH = 'No results found';
+            SELECT2_TEXT_NO_ASSOCIATION = 'This topic is not associated with any item yet';
+            SELECT2_TEXT_NO_MATCHING_ISSUER = 'No matching issuer';
+            SELECT2_TEXT_NO_MATCHING_SCRIPT = 'No matching script';
+            SELECT2_TEXT_NO_MATCHING_TAG = 'No matching tag';
+            SELECT2_TEXT_NO_MATCHING_TECHNIQUE = 'No matching technique';
+            SELECT2_TEXT_NO_MATCHING_SHAPE = 'No matching shape';
+            SELECT2_TEXT_REMOVE_ALL = 'Remove all items';
+            SELECT2_TEXT_ALL_ISSUERS = 'All';
+            SELECT2_TEXT_ISSUER_SECTION = 'section';
+            SELECT2_TEXT_NUMISTA_NUMBERS = 'Enter a N# number';
+            SELECT2_TEXT_NUMISTA_NUMBER_NO_EXIST = 'Numista number does not exist';
+            SELECT2_TEXT_ALL_COLLECTIBLE_TYPES = 'All';
+            SELECT2_TEXT_SEARCHING = 'Searching...';
+            SELECT2_TEXT_LOADING = 'Loading more...';
+            SELECT2_TEXT_CLEAR = 'Clear';
+        </script>
+        <script src="https://en.numista.com/outils/select2.js"></script>
+        <script src="https://en.numista.com/outils/select2-helpers.v173.js"></script>
+        
+            <script>
+            function show_guidelines(article_id) {
+                // Create a modal container
+                const modal = $('<section class="modal">')
+                    .appendTo(document.body);
+
+                // Create an inner container for content and close button
+                const modalContainer = $('<div class="modal-container" role="dialog" aria-labelledby="modal_title" aria-modal="true">')
+                    .appendTo(modal);
+
+                // Add a close button
+                $('<input type="button" class="close" title="Close" value="×">')
+                    .click(function() {
+                        modal.remove();
+                    })
+                    .appendTo(modalContainer);
+
+                // Add a header bar for the close button
+                $('<header id="modal_title">')
+                    .text('Catalog guidelines')
+                    .appendTo(modalContainer);
+
+                // Create a content container
+                const content = $('<div class="modal-body">')
+                    .html('<img src="https://en.numista.com/design/chargement.gif" alt="Loading&hellip;" />')
+                    .appendTo(modalContainer);
+
+                // Fetch and display the content
+                const url = '/help/article_content.php?id=' + article_id;
+                content.load(url, function(response, status) {
+                    if (status === 'error') {
+                        content.html(`<p>Error: Unable to load the content. Please try again.</p>`);
+                    }
+                });
+
+                // Close the modal when clicking on the outer grey area
+                modal.click(function(e) {
+                    if (e.target === modal.get(0)) {
+                        modal.remove();
+                    }
+                });
+
+                // Close the modal when pressing the ESCAPE key
+                $(document).keyup(function(e) {
+                    if (e.key === "Escape")  modal.remove();
+                });
+            }
+        </script>
+        <link rel="preload" as="image" href="https://en.numista.com/design/chargement.gif" />
+        <style>
+            .guideline_button {
+                padding: 0;
+                background: none;
+                border: none;
+                line-height: 16px;
+            }
+            .guideline_button img {
+                vertical-align: bottom;
+                width: 16px;
+                height: 16px;
+            }
+        </style>
+        <link rel="stylesheet" href="https://en.numista.com/design/help.v731.css">
+        <link rel="stylesheet" href="https://en.numista.com/design/my_collection.v731.css">
+        
+        
+    
+                <script async src="https://cdn.fuseplatform.net/publift/tags/2/4125/fuse.js"></script>
+            <link rel="alternate" type="text/html" hreflang="de" href="https://de.numista.com/907" />
+            <link rel="alternate" type="text/html" hreflang="el" href="https://el.numista.com/907" />
+            <link rel="alternate" type="text/html" hreflang="en" href="https://en.numista.com/907" />
+            <link rel="alternate" type="text/html" hreflang="es" href="https://es.numista.com/907" />
+            <link rel="alternate" type="text/html" hreflang="fr" href="https://fr.numista.com/907" />
+            <link rel="alternate" type="text/html" hreflang="it" href="https://it.numista.com/907" />
+            <link rel="alternate" type="text/html" hreflang="nl" href="https://nl.numista.com/907" />
+            <link rel="alternate" type="text/html" hreflang="pt" href="https://pt.numista.com/907" />
+            <link rel="alternate" type="text/html" hreflang="ru" href="https://ru.numista.com/907" />
+                <link rel="alternate" type="text/html" hreflang="x-default" href="https://en.numista.com/907" />
+        
+            <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    
+    <base href="https://en.numista.com/catalogue/">
+    <meta property="og:url" content="https://en.numista.com/907" />
+    <meta property="og:title" content="1 Escudo, Portugal" />
+    <meta property="og:description" content="Detailed information about the coin 1 Escudo, Portugal, with pictures and collection and swap management: mintage, descriptions, metal, weight, size, value and other numismatic data" />
+    <meta property="og:image" content="https://en.numista.com/catalogue/photo907.jpeg" />
+    <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="310945844752" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@xav_numista"></head>
+<body>
+    <div id="global_container">
+        <header id="global_header">
+            <noscript><p><img src="https://analytics.numista.com/matomo.php?idsite=10&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+            <div class="middle_element">
+                <div id="main_header">
+                    <a href="/" id="global_logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 91">
+                            <title>Numista</title>
+                            <g transform="translate(0,91) scale(0.1,-0.1)" fill="#000088" stroke="none">
+                                <path d="M360 846 c-113 -67 -133 -86 -125 -118 l7 -27 41 30 c52 37 91 36 95 -3 10 -82 -209 -538 -258 -538 -26 0 10 88 50 125 12 11 26 27 31 36 8 15 5 16 -34 4 -36 -10 -49 -23 -90 -82 -73 -108 -87 -218 -31 -240 69 -26 209 179 324 474 23 59 45 112 49 116 11 11 67 -220 92 -378 11 -72 23 -137 25 -145 13 -38 208 329 263 495 64 192 62 287 -7 293 -28 3 -41 -5 -102 -65 -69 -67 -78 -85 -61 -111 6 -10 15 -6 39 17 64 65 95 22 70 -98 -14 -68 -105 -297 -114 -288 -2 2 -15 57 -28 123 -45 218 -118 424 -149 424 -7 0 -46 -20 -87 -44z"/>
+                                <path d="M1963 788 c-24 -24 -43 -47 -43 -50 0 -13 71 -29 99 -23 28 6 111 69 111 84 0 5 -19 11 -42 15 -24 3 -52 8 -63 11 -15 4 -32 -6 -62 -37z"/>
+                                <path d="M2559 792 c-62 -34 -68 -40 -84 -89 -10 -29 -24 -53 -30 -53 -7 0 -24 -10 -39 -21 -27 -21 -27 -21 -7 -36 12 -8 21 -20 21 -26 0 -7 -25 -78 -55 -159 -33 -87 -55 -162 -55 -185 0 -45 23 -73 59 -73 23 0 93 60 142 121 29 37 29 39 13 64 l-16 25 -30 -41 c-16 -22 -31 -39 -34 -36 -2 2 19 70 47 151 48 137 53 146 77 146 14 0 48 15 76 33 l51 32 -63 3 c-34 2 -62 4 -62 6 0 1 15 42 34 89 19 48 31 87 28 86 -4 0 -37 -17 -73 -37z"/>
+                                <path d="M1987 649 c-47 -24 -81 -48 -87 -62 -40 -96 -130 -341 -135 -371 -15 -76 32 -86 122 -25 50 33 62 47 68 75 3 20 9 42 12 50 10 27 -26 14 -42 -15 -25 -50 -35 -44 -19 11 19 62 117 299 144 346 11 17 18 32 17 32 -1 -1 -37 -19 -80 -41z"/>
+                                <path d="M1179 662 c-54 -15 -56 -16 -77 -72 -35 -88 -188 -306 -205 -290 -3 3 22 72 55 154 65 165 71 209 28 214 -16 1 -47 -13 -88 -42 l-63 -45 21 -21 c25 -25 27 -14 -47 -209 -55 -147 -60 -176 -32 -194 29 -18 71 3 137 69 35 35 62 58 59 50 -26 -66 -14 -126 25 -126 11 0 52 17 89 37 56 30 69 42 69 61 0 21 -4 24 -26 19 -15 -2 -28 0 -30 7 -5 14 36 128 91 256 21 47 44 100 51 118 8 17 11 31 7 31 -5 -1 -33 -9 -64 -17z"/>
+                                <path d="M1334 651 c-39 -18 -42 -22 -48 -72 -8 -60 -58 -220 -110 -352 -19 -49 -29 -87 -23 -84 7 2 39 14 72 27 59 22 60 23 97 99 41 85 116 206 124 198 3 -2 -20 -73 -51 -157 -30 -84 -55 -156 -55 -161 0 -4 28 2 63 15 68 26 60 17 182 204 73 111 95 135 70 75 -127 -299 -124 -335 22 -257 63 34 73 43 73 67 0 29 -9 34 -27 16 -7 -7 -13 -7 -17 0 -7 10 12 66 83 253 23 59 41 114 41 123 0 27 -29 29 -81 5 -42 -20 -60 -39 -129 -138 -44 -63 -80 -111 -80 -106 0 5 18 55 40 112 43 109 50 152 25 152 -8 0 -39 -11 -68 -24 -46 -20 -62 -35 -107 -100 -30 -42 -55 -75 -56 -73 -1 1 9 35 22 75 39 116 23 142 -62 103z"/>
+                                <path d="M2203 649 c-71 -35 -143 -130 -143 -188 0 -25 50 -83 95 -111 41 -26 50 -48 29 -71 -28 -31 -94 -22 -94 12 0 11 6 28 13 39 10 17 9 22 -3 30 -18 11 -45 -13 -97 -82 -39 -53 -38 -75 4 -108 31 -24 83 -26 129 -4 62 29 154 152 154 204 0 34 -15 54 -75 99 -60 45 -72 81 -36 101 28 15 46 13 72 -9 21 -17 22 -21 11 -46 -11 -23 -11 -30 0 -36 22 -14 26 -11 68 50 47 70 49 92 14 120 -34 27 -87 27 -141 0z"/>
+                                <path d="M2774 632 c-33 -21 -77 -59 -98 -83 -81 -93 -161 -309 -137 -372 18 -48 78 -29 156 49 l38 37 -5 -34 c-15 -96 37 -105 140 -22 35 29 42 40 42 70 0 36 0 36 -20 18 -48 -44 -35 21 43 212 54 133 58 165 15 142 -13 -7 -24 -6 -40 6 -35 24 -70 18 -134 -23z m49 -70 c16 -17 14 -24 -27 -108 -24 -49 -62 -109 -84 -134 l-41 -45 -1 38 c0 50 52 183 91 230 35 42 40 44 62 19z"/>
+                            </g>
+                        </svg>
+                    </a>
+                    <div id="main_header_spacer"></div>
+                    <div>
+                        <form action="/search_redirect.php" method="get">
+                            <div id="top_search_bar" class="top_search_bar">
+                                <input type="text" name="numista_search" aria-label="Search query" placeholder="Search..." enterkeyhint="search" /><!--
+                             --><select name="cat" aria-label="Search type">
+                                    <option value="catalogue" selected="selected">Catalogue</option>
+                                    <option value="number">N# Number</option>
+                                    <option value="literature">Literature</option>
+                                    <option value="username">User names</option>
+                                    <option value="forum">Forum</option>
+                                </select>
+                                <button type="submit" class="primary" title="Search">
+                                    <svg viewBox="0 0 4.3422532 4.3423419">
+                                        <g transform="translate(-6.9003019,-4.5431149)">
+                                            <path d="m 8.6645435,7.2570343 c 0.5242278,0 0.9493251,-0.4250972 0.9493251,-0.9496778 0,-0.5249333 -0.4250973,-0.9503833 -0.9493251,-0.9503833 -0.5245805,0 -0.9496778,0.42545 -0.9496778,0.9503833 0,0.5245806 0.4250973,0.9496778 0.9496778,0.9496778 z m 2.4189975,1.4696723 c -0.105481,0.1058333 -0.244828,0.15875 -0.383822,0.15875 -0.139348,0 -0.277989,-0.052917 -0.383823,-0.15875 L 9.4671129,7.8775703 c -0.2409472,0.1234723 -0.5136444,0.193675 -0.8025694,0.193675 -0.9743722,0 -1.7642416,-0.7902221 -1.7642416,-1.7638888 0,-0.974725 0.7898694,-1.7642416 1.7642416,-1.7642416 0.9740194,0 1.7635365,0.7895166 1.7635365,1.7642416 0,0.288925 -0.06985,0.5616222 -0.19297,0.8029222 l 0.848431,0.8484306 c 0.212019,0.2120193 0.212019,0.555625 0,0.7679973" />
+                                        </g>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                                        <div>
+                        <button id="language_menu_button" onclick="toggleMenu('language_menu')">
+                            <span title="English">EN</span>
+                            <svg viewBox="0 -256 1792 1792" class="rotatory_menu_arrow">
+                                <g>
+                                    <path d="m 1611,832 q 0,-53 -37,-90 L 923,91 Q 885,53 832,53 778,53 742,91 L 91,742 q -38,36 -38,90 0,53 38,91 l 74,75 q 39,37 91,37 53,0 90,-37 l 486,-486 486,486 q 37,37 90,37 52,0 91,-37 l 75,-75 q 37,-39 37,-91 z" />
+                                </g>
+                            </svg>
+                        </button>
+                        <ul id="language_menu" aria-hidden="true">
+                                                                                    <li><a href="https://de.numista.com/907" tabindex="-1"><span style="display: inline-flex; width: 1.2em;">DE</span> &ndash; Deutsch</a></li>
+                                                                                                                <li><a href="https://el.numista.com/907" tabindex="-1"><span style="display: inline-flex; width: 1.2em;">EL</span> &ndash; Ελληνικά</a></li>
+                                                                                                                                                                    <li><a href="https://es.numista.com/907" tabindex="-1"><span style="display: inline-flex; width: 1.2em;">ES</span> &ndash; Español</a></li>
+                                                                                                                <li><a href="https://fr.numista.com/907" tabindex="-1"><span style="display: inline-flex; width: 1.2em;">FR</span> &ndash; Français</a></li>
+                                                                                                                <li><a href="https://it.numista.com/907" tabindex="-1"><span style="display: inline-flex; width: 1.2em;">IT</span> &ndash; Italiano</a></li>
+                                                                                                                <li><a href="https://nl.numista.com/907" tabindex="-1"><span style="display: inline-flex; width: 1.2em;">NL</span> &ndash; Nederlands</a></li>
+                                                                                                                <li><a href="https://pt.numista.com/907" tabindex="-1"><span style="display: inline-flex; width: 1.2em;">PT</span> &ndash; Português</a></li>
+                                                                                                                <li><a href="https://ru.numista.com/907" tabindex="-1"><span style="display: inline-flex; width: 1.2em;">RU</span> &ndash; Русский</a></li>
+                                                                            </ul>
+                    </div>
+                                        <div>
+                        <button type="button" id="search_menu_button" title="Search" onclick="toggleMenu('search_menu')">
+                            <svg viewBox="0 0 4.3422532 4.3423419">
+                                <g transform="translate(-6.9003019,-4.5431149)">
+                                    <path d="m 8.6645435,7.2570343 c 0.5242278,0 0.9493251,-0.4250972 0.9493251,-0.9496778 0,-0.5249333 -0.4250973,-0.9503833 -0.9493251,-0.9503833 -0.5245805,0 -0.9496778,0.42545 -0.9496778,0.9503833 0,0.5245806 0.4250973,0.9496778 0.9496778,0.9496778 z m 2.4189975,1.4696723 c -0.105481,0.1058333 -0.244828,0.15875 -0.383822,0.15875 -0.139348,0 -0.277989,-0.052917 -0.383823,-0.15875 L 9.4671129,7.8775703 c -0.2409472,0.1234723 -0.5136444,0.193675 -0.8025694,0.193675 -0.9743722,0 -1.7642416,-0.7902221 -1.7642416,-1.7638888 0,-0.974725 0.7898694,-1.7642416 1.7642416,-1.7642416 0.9740194,0 1.7635365,0.7895166 1.7635365,1.7642416 0,0.288925 -0.06985,0.5616222 -0.19297,0.8029222 l 0.848431,0.8484306 c 0.212019,0.2120193 0.212019,0.555625 0,0.7679973" />
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+                                        <div id="top_sign_buttons">
+                        <a href="/connexion/connecter.php" class="button secondary">Sign in</a>
+                        <a href="/connexion/inscription.php" class="button">Register</a>
+                    </div>
+                                    </div>
+                <div id="search_menu" aria-hidden="true">
+                    <form action="/search_redirect.php" method="get">
+                        <div class="top_search_bar">
+                            <input type="text" name="numista_search" id="search_menu_input" aria-label="Search query" placeholder="Search..." tabindex="-1" /><!--
+                         --><select name="cat" aria-label="Search type" tabindex="-1">
+                                <option value="catalogue" selected="selected">Catalogue</option>
+                                <option value="number">N# Number</option>
+                                <option value="literature">Literature</option>
+                                <option value="username">User names</option>
+                                <option value="forum">Forum</option>
+                            </select>
+                            <button type="submit" class="primary" title="Search" tabindex="-1">
+                                <svg viewBox="0 0 4.3422532 4.3423419">
+                                    <g transform="translate(-6.9003019,-4.5431149)">
+                                        <path d="m 8.6645435,7.2570343 c 0.5242278,0 0.9493251,-0.4250972 0.9493251,-0.9496778 0,-0.5249333 -0.4250973,-0.9503833 -0.9493251,-0.9503833 -0.5245805,0 -0.9496778,0.42545 -0.9496778,0.9503833 0,0.5245806 0.4250973,0.9496778 0.9496778,0.9496778 z m 2.4189975,1.4696723 c -0.105481,0.1058333 -0.244828,0.15875 -0.383822,0.15875 -0.139348,0 -0.277989,-0.052917 -0.383823,-0.15875 L 9.4671129,7.8775703 c -0.2409472,0.1234723 -0.5136444,0.193675 -0.8025694,0.193675 -0.9743722,0 -1.7642416,-0.7902221 -1.7642416,-1.7638888 0,-0.974725 0.7898694,-1.7642416 1.7642416,-1.7642416 0.9740194,0 1.7635365,0.7895166 1.7635365,1.7642416 0,0.288925 -0.06985,0.5616222 -0.19297,0.8029222 l 0.848431,0.8484306 c 0.212019,0.2120193 0.212019,0.555625 0,0.7679973" />
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                                <nav id="global_menu" class="icons_menu">
+                    <ul>
+                        <li class="current_nav">
+                            <a href="/catalogue/index.php">
+                                <svg width="20" height="15" viewBox="0 0 56 43" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                                    <g transform="translate(-4,-10)">
+                                        <path d="m11 10c-0.55 0-1 0.45-1 1v35c0 0.55 0.45 1 1 1 6.92 0 12.451 1.25 17.471 4 0.86 0.46 1.6993 0.9693 2.5293 1.5293v-37.34c-5.75-3.57-12-5.1895-20-5.1895zm9.3691 9.8066a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7z" style="fill:#000088"/>
+                                        <path d="m53 10c-8 0-14.25 1.6195-20 5.1895v37.34c0.83-0.56 1.6693-1.0693 2.5293-1.5293 5.02-2.75 10.551-4 17.471-4 0.55 0 1-0.45 1-1v-35c0-0.55-0.45-1-1-1zm-2.291 8.0449a1.25 1.25 0 0 1 1.2637 1.2363 1.25 1.25 0 0 1-1.2383 1.2637c-4.7831 0.05029-10.108 1.8675-13.598 4.4434a1.25 1.25 0 0 1-1.748-0.26367 1.25 1.25 0 0 1 0.26367-1.748c3.9976-2.9509 9.679-4.8751 15.057-4.9316zm-0.03516 7.1621a1.25 1.25 0 0 1 1.2637 1.2363 1.25 1.25 0 0 1-1.2363 1.2637c-4.7831 0.05029-10.108 1.8675-13.598 4.4434a1.25 1.25 0 0 1-1.748-0.26367 1.25 1.25 0 0 1 0.26367-1.748c3.9976-2.9509 9.677-4.8751 15.055-4.9316zm0.26758 7.2012a1.25 1.25 0 0 1 1.2617 1.2363 1.25 1.25 0 0 1-1.2363 1.2617c-4.7832 0.05029-10.108 1.8675-13.598 4.4434a1.25 1.25 0 0 1-1.748-0.26367 1.25 1.25 0 0 1 0.26367-1.748c3.9976-2.9509 9.679-4.8731 15.057-4.9297z" style="fill:#000088"/>
+                                        <path d="m11 49c-1.65 0-3-1.35-3-3v-30h-3c-0.55 0-1 0.45-1 1v35c0 0.55 0.45 1 1 1h22.95c-1.39-0.79-2.82-1.46-4.32-2-3.71-1.37-7.82-2-12.63-2z" style="fill:#000088"/>
+                                        <path d="m59 16h-3v30c0 1.65-1.35 3-3 3-4.81 0-8.92 0.63-12.63 2-1.5 0.54-2.93 1.21-4.32 2h22.95c0.55 0 1-0.45 1-1v-35c0-0.55-0.45-1-1-1z" style="fill:#000088"/>
+                                    </g>
+                                </svg>
+                                <span>Catalogue</span>
+                            </a>
+                                                    </li>
+                        <li >
+                            <a href="/literature/index.php">
+                                <svg width="18" height="18" viewBox="0 0 16.413 16.413" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                                    <g transform="matrix(1.3333 0 0 -1.3333 -367.73 202.31)">
+                                        <g transform="matrix(.1 0 0 .1 0 -.55494)">
+                                            <path d="m2881 1407.7c0.51-2.26-0.88-4.55-3.14-5.04l-11.49-2.71c-2.27-0.52-4.53 0.89-5.06 3.15l-22.65 96.75c-0.52 2.26 0.88 4.54 3.15 5.06l11.47 2.7c2.26 0.53 4.53-0.89 5.06-3.17l22.66-96.74" style="fill:#000088"/>
+                                            <path d="m2788.8 1510.4c0 2.66-2.14 4.8-4.81 4.8h-13.45c-2.67 0-4.82-2.14-4.82-4.8v-28.84c0-2.65 2.15-4.79 4.82-4.79h13.45c2.67 0 4.81 2.14 4.81 4.79zm7.7-99.05c0-6.37-4.31-11.55-9.62-11.55h-19.23c-5.32 0-9.62 5.18-9.62 11.55v100.02c0 6.36 4.3 11.53 9.62 11.53h19.23c5.31 0 9.62-5.17 9.62-11.53v-100.02" style="fill:#000088"/>
+                                            <path d="m2826.4 1462.9c0-2.42-1.28-4.39-2.85-4.39h-7.96c-1.59 0-2.86 1.97-2.86 4.39v40.28c0 2.43 1.27 4.38 2.86 4.38h7.96c1.57 0 2.85-1.95 2.85-4.38zm-0.46 52.34h-12.75c-4.98 0-9.02-4.04-9.02-9.01v-97.36c0-4.97 4.04-9.03 9.02-9.03h12.75c4.97 0 9.01 4.06 9.01 9.03v97.36c0 4.97-4.04 9.01-9.01 9.01" style="fill:#000088"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <span>Literature</span>
+                            </a>
+                                                    </li>
+                        <li >
+                            <a href="/forum/">
+                                <svg width="18" height="18" viewBox="0 0 4.34237 4.3423381">
+                                    <g transform="translate(-108.95378,-91.477639)">
+                                        <path d="m 110.99888,91.477639 h 1.8288 c 0.22966,0 0.41593,0.180622 0.41593,0.403578 v 0.96908 c 0,0.223308 -0.18627,0.403931 -0.41593,0.403931 h -0.33267 v 0.290336 c 0,0.06562 -0.0406,0.12453 -0.10301,0.149225 -0.0201,0.0081 -0.042,0.01235 -0.0631,0.01235 -0.0434,0 -0.0861,-0.01658 -0.11747,-0.04692 l -0.43004,-0.404988 h -0.78246 c -0.23071,0 -0.41628,-0.180623 -0.41628,-0.403931 v -0.96908 c 0,-0.222956 0.18557,-0.403578 0.41628,-0.403578" />
+                                        <path d="m 112.66646,93.616883 v 0.34925 c 0,0.07902 -0.0494,0.149225 -0.12382,0.179564 -0.0251,0.01023 -0.0505,0.01482 -0.0759,0.01482 -0.0529,0 -0.10372,-0.0194 -0.14252,-0.0568 l -0.51682,-0.486834 h -1.21497 c -0.27658,0 -0.50059,-0.217664 -0.50059,-0.48648 v -0.353131 h -0.58702 c -0.3041,0 -0.55104,0.246945 -0.55104,0.551039 v 1.323622 c 0,0.304095 0.24694,0.551392 0.55104,0.551392 h 0.44132 v 0.396169 c 0,0.08961 0.0533,0.169687 0.13582,0.203553 0.0279,0.01164 0.0561,0.01693 0.0847,0.01693 0.0568,0 0.11359,-0.02258 0.15593,-0.06456 l 0.57009,-0.552097 h 1.85278 c 0.3041,0 0.55069,-0.247297 0.55069,-0.551392 V 93.56185 c -0.0681,0.03457 -0.1464,0.05503 -0.2293,0.05503 h -0.40041" />
+                                    </g>
+                                </svg>
+                                <span>Forum</span>
+                            </a>
+                                                    </li>
+                        <li >
+                            <a href="/echanges/index.php">
+                                <svg width="20" height="17" viewBox="0 0 4.3314571 3.7706389">
+                                    <g transform="translate(-15.977127,-13.900363)">
+                                        <path d="m 15.977127,15.787186 v -0.269184 h 0.146362 c 0.139759,0 0.147035,-0.003 0.161203,-0.0673 0.129093,-0.585502 0.479438,-1.066905 0.964523,-1.325347 0.296164,-0.157789 0.769593,-0.261988 0.966173,-0.21265 0.09967,0.02502 0.18442,0.129532 0.18442,0.227441 0,0.17556 -0.106285,0.276634 -0.290896,0.276634 -0.129214,0 -0.439483,0.08275 -0.583062,0.155508 -0.412247,0.208902 -0.68961,0.622768 -0.738124,1.101381 -0.03436,0.339029 -0.09447,0.382701 -0.526756,0.382701 h -0.283843 z" />
+                                        <path d="m 17.952406,16.569533 c -0.209447,-0.05271 -0.420288,-0.223219 -0.527413,-0.426527 -0.05712,-0.108408 -0.06499,-0.151482 -0.06499,-0.35582 0,-0.204335 0.0079,-0.247409 0.06499,-0.355817 0.07942,-0.150738 0.254204,-0.316052 0.40767,-0.385593 0.172273,-0.07806 0.461171,-0.07343 0.640559,0.01027 0.162292,0.07572 0.319336,0.227867 0.396131,0.383778 0.08193,0.166341 0.08193,0.5284 0,0.694741 -0.07573,0.153741 -0.233579,0.308104 -0.387617,0.379044 -0.142748,0.06574 -0.387551,0.09161 -0.529331,0.05593 z" />
+                                        <path d="m 17.969109,17.58829 c -0.11576,-0.115761 -0.11576,-0.231733 0,-0.347493 0.06889,-0.06889 0.101518,-0.08328 0.189653,-0.08363 0.335108,-0.0013 0.704768,-0.162441 0.953987,-0.415764 0.247587,-0.251664 0.348491,-0.486852 0.402178,-0.937416 0.0097,-0.08149 0.03549,-0.141827 0.08365,-0.195771 l 0.06961,-0.07798 0.320198,-0.0081 0.320199,-0.0081 v 0.27113 0.271132 h -0.143315 -0.143311 l -0.038,0.152947 c -0.09676,0.389443 -0.269764,0.687806 -0.551368,0.950881 -0.344054,0.321421 -0.795465,0.509693 -1.224886,0.510868 -0.144349,2.65e-4 -0.161306,-0.0055 -0.238596,-0.08278 z" />
+                                    </g>
+                                </svg>
+                                <span>Swaps</span>
+                            </a>
+                        </li>
+                        <li >
+                            <a href="/outings/index.php?bourse=on&amp;show=on&amp;conference=on&amp;o=t">
+                                <svg width="20" height="20" viewBox="0 0 4.3413224 4.34269">
+                                    <g transform="translate(562.33187,176.88563)">
+                                        <path d="m -558.03664,-174.69488 -0.23671,-0.24166 c -0.0314,-0.0307 -0.0741,-0.0483 -0.11677,-0.0483 -0.004,0 -0.006,0 -0.009,7.1e-4 -0.004,-7.1e-4 -0.007,-7.1e-4 -0.01,-7.1e-4 h -2.1329 c -0.0861,0 -0.15628,0.0695 -0.15698,0.15558 l -0.005,0.49036 c -7.1e-4,0.0868 0.0698,0.15875 0.15663,0.15945 h 2.13219 c 0.002,0 0.006,0 0.008,0 0.004,0 0.008,0 0.0113,0 0.0427,0 0.084,-0.0165 0.115,-0.0469 l 0.24201,-0.23745 c 0.0314,-0.0296 0.0476,-0.0716 0.0483,-0.11571 7.1e-4,-0.0434 -0.0162,-0.085 -0.0469,-0.11536" />
+                                        <path d="m -562.28444,-175.78073 0.23672,-0.2406 c 0.0314,-0.0321 0.073,-0.0494 0.11641,-0.0494 0.004,0 0.006,0 0.009,0 0.004,0 0.007,-7e-4 0.01,-7e-4 h 2.13289 v 0 c 0.0861,0 0.15629,0.0705 0.1577,0.15628 l 0.004,0.49071 c 0,0.0868 -0.0698,0.1584 -0.15664,0.15946 h -2.13218 c -0.004,0 -0.006,0 -0.009,0 -0.004,0 -0.007,0 -0.0113,0 -0.0427,0 -0.0836,-0.0166 -0.11501,-0.0473 l -0.2413,-0.23707 c -0.0314,-0.0307 -0.0487,-0.072 -0.0487,-0.11536 -7.1e-4,-0.0441 0.0166,-0.0847 0.0473,-0.11606" />
+                                        <path d="m -560.432,-176.34271 v -0.27093 c 0,-0.15028 0.121,-0.27199 0.27093,-0.27199 0.14993,0 0.27094,0.12171 0.27094,0.27199 v 0.27093 h -0.54187" />
+                                        <path d="m -560.432,-173.90004 v 1.0855 c 0,0.14993 0.121,0.2716 0.27093,0.2716 0.14993,0 0.27094,-0.12167 0.27094,-0.2716 v -1.0855 h -0.54187" />
+                                    </g>
+                                </svg>
+                                <span>Outings</span>
+                            </a>
+                                                    </li>
+                        <li >
+                            <a href="/help/index.php">
+                                <svg width="18" height="18" viewBox="0 0 4.3423414 4.3423419">
+                                    <g transform="translate(-0.19117995,-0.24363508)">
+                                        <path d="M 3.3009163,2.0399795 C 3.2430607,2.1369934 3.122058,2.2583489 2.941083,2.4001656 2.8070275,2.5067045 2.7241247,2.5906656 2.6877886,2.6569878 2.6556858,2.7162545 2.6376941,2.8675961 2.6341663,2.9575545 H 1.9712969 V 2.8421961 c 0,-0.1195916 0.013758,-0.2176638 0.04057,-0.2903361 0.026458,-0.073378 0.066675,-0.1411111 0.1185333,-0.2014361 0.054328,-0.062089 0.1788583,-0.1742722 0.371475,-0.333375 0.1121833,-0.091369 0.1668639,-0.1756833 0.1668639,-0.2575277 0,-0.079022 -0.024342,-0.1421695 -0.072672,-0.1880306 -0.047625,-0.04445 -0.1188861,-0.066675 -0.2113138,-0.066675 -0.099483,0 -0.1830917,0.033514 -0.2487084,0.099483 -0.060678,0.060678 -0.099836,0.1594556 -0.1192389,0.3009195 L 1.3384136,1.8209045 C 1.3680466,1.5711378 1.4640025,1.3672323 1.623458,1.2137739 1.7892636,1.0539656 2.048908,0.97247395 2.3960413,0.97247395 c 0.2709334,0 0.4914194,0.05715 0.655814,0.16933335 0.225072,0.1516944 0.334786,0.3481916 0.334786,0.6004278 0,0.1019527 -0.029281,0.2017888 -0.085725,0.2977444 z m -0.974725,1.9187583 c -0.2010833,0 -0.3647722,-0.163336 -0.3647722,-0.365125 0,-0.2007307 0.1636889,-0.3647723 0.3647722,-0.3647723 0.2014362,0 0.3647723,0.1640416 0.3647723,0.3647723 0,0.201789 -0.1633361,0.365125 -0.3647723,0.365125 z m 0.035983,-3.71510272 c -1.1987388,0 -2.17099435,0.97190272 -2.17099435,2.17099442 0,1.1990916 0.97225555,2.1713473 2.17099435,2.1713473 1.1990916,0 2.1713473,-0.9722557 2.1713473,-2.1713473 0,-1.1990917 -0.9722557,-2.17099442 -2.1713473,-2.17099442" />
+                                    </g>
+                                </svg>
+                                <span>FAQ</span>
+                            </a>
+                        </li>
+                                                                    </ul>
+                </nav>
+            </div>
+                    </header>
+        <div id="main_container">
+                        <div class="middle_element" id="global">
+                <main id="main">
+                                        <nav id="main_breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+                                                <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                                        <a href="/" itemprop="item"><span itemprop="name">Numista</span></a>
+                                                        <meta itemprop="position" content="0" />
+                             ›                        </span>
+                                                <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                                        <a href="/catalogue/index.php" itemprop="item"><span itemprop="name">Catalogue</span></a>
+                                                        <meta itemprop="position" content="1" />
+                             ›                        </span>
+                                                <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                                        <a href="/catalogue/portugal_section-1.html" itemprop="item"><span itemprop="name">Portugal</span></a>
+                                                        <meta itemprop="position" content="2" />
+                             ›                        </span>
+                                                <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                                        <a href="/catalogue/portugal-1.html" itemprop="item"><span itemprop="name">Portugal</span></a>
+                                                        <meta itemprop="position" content="3" />
+                                                    </span>
+                                            </nav>
+                                                            
+<div style="float:right; margin:0.5em 0 0.5em 0.5em;">
+                    <a href="contributions/modifier.php?id=907" title="Modify or add data on this page">
+                <img src="https://en.numista.com/design/icones/edit.svg" style="width:12px; height:16px; margin-left:10px" alt="Modify or add data on this page" />
+            </a>
+    </div>
+
+<header id="main_title"><h1>1 Escudo</h1></header>
+
+
+
+
+
+
+
+<div id="fiche_photo" class="">
+        <a href="https://en.numista.com/catalogue/photos/portugal/62ca16b378eeb7.91085143-original.jpg" target="_blank" class="coin_pic" data-zoomPic data-zoomPicGroup="coin_pic">
+        <img src="https://en.numista.com/catalogue/photos/portugal/62ca16b378eeb7.91085143-180.jpg"
+            srcset="https://en.numista.com/catalogue/photos/portugal/62ca16b378eeb7.91085143-100.jpg 100w, https://en.numista.com/catalogue/photos/portugal/62ca16b378eeb7.91085143-135.jpg 135w, https://en.numista.com/catalogue/photos/portugal/62ca16b378eeb7.91085143-160.jpg 160w, https://en.numista.com/catalogue/photos/portugal/62ca16b378eeb7.91085143-180.jpg 180w, https://en.numista.com/catalogue/photos/portugal/62ca16b378eeb7.91085143-200.jpg 200w, https://en.numista.com/catalogue/photos/portugal/62ca16b378eeb7.91085143-270.jpg 270w, https://en.numista.com/catalogue/photos/portugal/62ca16b378eeb7.91085143-320.jpg 320w, https://en.numista.com/catalogue/photos/portugal/62ca16b378eeb7.91085143-360.jpg 360w"
+            sizes ="(min-width: 800px) 180px, (min-width: 700px) 25vw, 50vw" 
+            alt="1 Escudo - obverse"
+            title="REPUBLICA PORTUGUESA - 1927
+SIMOÉS  REGO GR" /><!--
+    --></a><!--
+        
+        --><a href="https://en.numista.com/catalogue/photos/portugal/62ca16b3dc4080.89290249-original.jpg" target="_blank" class="coin_pic" data-zoomPic data-zoomPicGroup="coin_pic"><!--
+        --><img src="https://en.numista.com/catalogue/photos/portugal/62ca16b3dc4080.89290249-180.jpg"
+            srcset="https://en.numista.com/catalogue/photos/portugal/62ca16b3dc4080.89290249-100.jpg 100w, https://en.numista.com/catalogue/photos/portugal/62ca16b3dc4080.89290249-135.jpg 135w, https://en.numista.com/catalogue/photos/portugal/62ca16b3dc4080.89290249-160.jpg 160w, https://en.numista.com/catalogue/photos/portugal/62ca16b3dc4080.89290249-180.jpg 180w, https://en.numista.com/catalogue/photos/portugal/62ca16b3dc4080.89290249-200.jpg 200w, https://en.numista.com/catalogue/photos/portugal/62ca16b3dc4080.89290249-270.jpg 270w, https://en.numista.com/catalogue/photos/portugal/62ca16b3dc4080.89290249-320.jpg 320w, https://en.numista.com/catalogue/photos/portugal/62ca16b3dc4080.89290249-360.jpg 360w"
+            sizes ="(min-width: 800px) 180px, (min-width: 700px) 25vw, 50vw" 
+            alt="1 Escudo - reverse"
+            title="1 ESCUDO" />
+    </a>
+    
+            <p class="mentions">&copy; nordboutik59</p>
+            
+    </div>
+<div class="caracteristiques_wrapper">
+
+<section id="fiche_caracteristiques">
+    <h3>Features</h3>
+    <table>
+                <tr>
+            <th>Issuer</th>
+            <td>
+                                <a href="/catalogue/portugal-1.html">Portugal</a>
+                                                <img style="margin-bottom:-3px;" src="https://en.numista.com/design/pays/portugal.gif" width="16" height="16" alt="" title="Portugal" />                            </td>
+        </tr>
+                
+        
+                
+                <tr>
+            <th>Period</th>
+            <td>
+                                <a href="/catalogue/ruler.php?id=1294">
+                                        Second Republic                                        <span dir="ltr">(<em>1926-1974</em>)</span>                </a>
+                <br />
+                            </td>
+        </tr>
+                
+                <tr>
+            <th>Type</th>
+            <td>
+                                <a href="index.php?cat=y&st=1">Standard circulation coins</a>
+        	</td>
+        </tr>
+                
+                
+                <tr>
+            <th>Years</th>
+            <td>
+                1927-1968                            </td>
+        </tr>
+                        
+
+        <tr>
+            <th>Value</th>
+            <td>1 Escudo
+                (1&nbspPTE)
+            </td>
+        </tr>
+                <tr>
+            <th>Currency</th>
+            <td>Escudo (<em>1911-2001</em>)</td>
+        </tr>
+                
+                <tr>
+            <th>Composition</th>
+            <td><a href="/catalogue/material.php?id=16">Nickel brass</a> (Cu 610 + Zn 200 + Ni 190)</td>
+        </tr>
+                
+                <tr>
+            <th>Weight</th>
+            <td>8&nbsp;g</td>
+        </tr>
+                
+                <tr>
+            <th>Diameter</th>
+            <td>26.8&nbsp;mm</td>
+        </tr>
+        
+                <tr>
+            <th>Thickness</th>
+            <td>2&nbsp;mm</td>
+        </tr>
+                
+                <tr>
+            <th>Shape</th>
+            <td>Round</td>
+        </tr>
+                
+                <tr>
+            <th>Technique</th>
+            <td><a href="/catalogue/technique.php?id=3">Milled</a></td>
+        </tr>
+                
+                <tr>
+            <th>Orientation</th>
+            <td>Medal alignment ↑↑</td>
+        </tr>
+        
+                
+                <tr>
+            <th>Demonetized</th>
+            <td>
+                Yes                            </td>
+        </tr>
+        
+        <tr>
+            <th>Number</th>
+            <td><div style="display: inline-block;">N#</div><div style="display: inline-block; margin: 0 0.5em 0 0.1em;">907</div><button onclick="show_guidelines(33)" type="button" class="guideline_button"><img src="/design/help.svg" alt="Help"></button></td>
+        </tr>
+        
+                <tr>
+            <th>References</th>
+            <td><a href="https://en.numista.com/L110802" class="fiche_catalogue" onmouseover="show_tooltip(this, 'tooltip_ref69e0fc44d28d6')" onmouseout="hide_tooltip('tooltip_ref69e0fc44d28d6')">KM</a>#&#8239;578<div class="tooltip catalogue_tooltip" id="tooltip_ref69e0fc44d28d6"><img src="https://en.numista.com/catalogue/catalogues/69930a37bf19a9.33483559-150.jpg" srcset="https://en.numista.com/catalogue/catalogues/69930a37bf19a9.33483559-120.jpg 120w, https://en.numista.com/catalogue/catalogues/69930a37bf19a9.33483559-150.jpg 150w, https://en.numista.com/catalogue/catalogues/69930a37bf19a9.33483559-240.jpg 240w, https://en.numista.com/catalogue/catalogues/69930a37bf19a9.33483559-250.jpg 250w, https://en.numista.com/catalogue/catalogues/69930a37bf19a9.33483559-300.jpg 300w, https://en.numista.com/catalogue/catalogues/69930a37bf19a9.33483559-500.jpg 500w" sizes="(min-width: 800px) 180px, (min-width: 700px) 25vw, 50vw" alt="" /><em>Standard Catalog of World Coins</em> (86 volumes).</div>, <a href="https://en.numista.com/L104520" class="fiche_catalogue" onmouseover="show_tooltip(this, 'tooltip_ref69e0fc44d758b')" onmouseout="hide_tooltip('tooltip_ref69e0fc44d758b')">Gomes</a>#&#8239;R 25<div class="tooltip catalogue_tooltip" id="tooltip_ref69e0fc44d758b"><img src="https://en.numista.com/catalogue/catalogues/gomes.jpg" srcset="https://en.numista.com/catalogue/catalogues/gomes.jpg 120w, https://en.numista.com/catalogue/catalogues/gomes.jpg 150w, https://en.numista.com/catalogue/catalogues/gomes.jpg 240w, https://en.numista.com/catalogue/catalogues/gomes.jpg 250w, https://en.numista.com/catalogue/catalogues/gomes.jpg 300w, https://en.numista.com/catalogue/catalogues/gomes.jpg 500w" sizes="(min-width: 800px) 180px, (min-width: 700px) 25vw, 50vw" alt="" />Alberto Gomes; 1991. <em>Moedas Portuguesas</em>. Associação Numismatica de Portugal, Lisbon, Portugal.</div></td>
+        </tr>
+                
+    </table>
+</section>
+
+    <div id="call_to_action_buttons">
+                    <a href="/echanges/coin_swappers.php?id=907">
+                <img src="https://en.numista.com/design/icones/swap.svg"
+                     alt="Available for swap" title="Available for swap" style="width:20px; height:17px;" />
+                <span>See 51 swap offers</span>
+            </a>
+                <a id="see_available_sales"  href="/catalogue/current_sales.php?id=907">
+            <img src="https://en.numista.com/design/icones/buy2.svg"
+                 alt="Available for swap" title="Available for swap" style="width:20px; height:17px;" />
+            <span>View sale offers</span>
+        </a>
+    </div>
+
+</div>
+<section id="fiche_descriptions">
+
+    
+        <p>
+        Series:        <a href="series.php?id=6596">System 1927-1968</a>
+    </p>
+    
+    <h3>Obverse</h3>
+    
+        <p>Liberty head right, date lower right</p>
+        
+        <p>
+        <strong>Script:</strong>
+        Latin    </p>
+        
+        <p>
+        <strong>Lettering:</strong>
+        <br />        <span id="obverse_lettering" class="lettering">REPUBLICA PORTUGUESA - 1927<br />
+SIMOÉS  REGO GR</span>
+    </p>
+            
+        <p>
+        <strong>Unabridged legend:</strong>
+        <br />        Republica Portuguesa - 1927<br />
+José Simões de Almeida - Alves Domingo Rego    </p>
+        
+        <p>
+        <strong>Translation:</strong>
+                Republic of Portugal - 1927    </p>
+        
+        <p>
+        <strong>Engravers:</strong>
+        <a href="https://en.numista.com/catalogue/artist.php?id=2610">José Simões de Almeida</a>, <a href="https://en.numista.com/catalogue/artist.php?id=4666">Domingos Alves do Rego</a>    </p>
+        
+    
+    <h3>Reverse</h3>
+    
+        <p>Coat of arms of Portugal within designed circle and wreath above value</p>
+        
+        <p>
+        <strong>Script:</strong>
+        Latin    </p>
+        
+        <p>
+        <strong>Lettering:</strong>
+                <span id="reverse_lettering" class="lettering">1 ESCUDO</span>
+    </p>
+            
+        
+        
+        <p>
+        <strong>Engraver:</strong>
+        <a href="https://en.numista.com/catalogue/artist.php?id=2610">José Simões de Almeida</a>    </p>
+        
+    
+    <h3>Edge</h3>
+    
+        <p>Reeded</p>
+        
+        
+        
+        
+    
+        <a href="https://en.numista.com/catalogue/photos/portugal/60b00daee86183.96365123-original.jpg" target="_blank" class="coin_pic" data-zoomPic data-zoomPicGroup="coin_pic">
+        <img src="https://en.numista.com/catalogue/photos/portugal/60b00daee86183.96365123-180.jpg"
+            srcset="https://en.numista.com/catalogue/photos/portugal/60b00daee86183.96365123-100.jpg 100w, https://en.numista.com/catalogue/photos/portugal/60b00daee86183.96365123-135.jpg 135w, https://en.numista.com/catalogue/photos/portugal/60b00daee86183.96365123-160.jpg 160w, https://en.numista.com/catalogue/photos/portugal/60b00daee86183.96365123-180.jpg 180w, https://en.numista.com/catalogue/photos/portugal/60b00daee86183.96365123-200.jpg 200w, https://en.numista.com/catalogue/photos/portugal/60b00daee86183.96365123-270.jpg 270w, https://en.numista.com/catalogue/photos/portugal/60b00daee86183.96365123-320.jpg 320w, https://en.numista.com/catalogue/photos/portugal/60b00daee86183.96365123-360.jpg 360w"
+            sizes ="(min-width: 800px) 180px, (min-width: 700px) 25vw, 50vw" 
+            alt="1 Escudo -  obverse" />
+    </a>
+        <p class="mentions">&copy; Bulgaria1999</p>
+        
+
+
+    <h3>Mint</h3>
+    <a href="mint.php?id=1337">Imprensa Nacional - Casa da Moeda</a>, Lisbon, Portugal
+
+    <h3>Comments</h3>
+    <div id="fiche_comments" class="ck-content"><p>Prova exists for 1968, undocumented by Krause. PROVA strike is a bit weak.</p><p>&nbsp;</p><p><a href="https://en.numista.com/catalogue/images/6665d6eb4c189.jpg" data-zoomPic data-zoomPicGroup="forum915288348"><img src="https://en.numista.com/catalogue/images/miniatures/6665d6eb4c189.jpg"></a><a href="https://en.numista.com/catalogue/images/6665d6eb78ef8.jpg" data-zoomPic data-zoomPicGroup="forum915288348"><img src="https://en.numista.com/catalogue/images/miniatures/6665d6eb78ef8.jpg"></a></p></div>
+    <script>
+        const comment_collapsed_height = 30; // in em
+        const $comment_box = $('#fiche_comments');
+        if ($comment_box.height() > comment_collapsed_height * 1.20 * 16) {
+            $comment_box
+                .addClass('collapsed')
+                .css('height', comment_collapsed_height + 'em') // defined here rather than in CSS to allow height animation
+                .after('<button id="fiche_comments_toggle" class="secondary">Read more</button>');
+            $('#fiche_comments_toggle').click(function() {
+                if ($comment_box.hasClass('collapsed')) {
+                    $comment_box.removeClass('collapsed').css('height', $comment_box.prop('scrollHeight') + 'px');
+                    $('#fiche_comments_toggle').text('Show less');
+                }
+                else {
+                    $comment_box.addClass('collapsed').css('height', comment_collapsed_height + 'em');
+                    $('#fiche_comments_toggle').text('Read more');
+                    // scroll back to the comments only if needed
+                    const bottom_of_collapsed_comments = $comment_box.offset().top + comment_collapsed_height * 16;
+                    if ($([document.documentElement, document.body]).scrollTop() > bottom_of_collapsed_comments) {
+                        $([document.documentElement, document.body]).animate({ scrollTop: bottom_of_collapsed_comments * 0.95 }, 500);
+                    }
+                }
+            });
+        }
+        else {
+            $comment_box.css('position', 'initial') // avoid cropping coin thumbnails
+        }
+    </script>
+
+
+    <h3>See also</h3>
+    
+        <ul class="tag_list">
+                <li><a href="index.php?k%5B%5D=4">Coat of Arms</a></li>
+            </ul>
+        
+        <ul style="list-style-type:none;">
+                        <li style="margin:0;">
+            <img style="margin-bottom:-3px;" src="https://en.numista.com/design/pays/portugal.gif" width="16" height="16" alt="" title="Portugal" /> <a href="/20586" title="1 Escudo (5 October 1910)">1 Escudo (5 October 1910)</a>                        <img src="https://en.numista.com/design/photo.gif" alt="Photo" class="thumbnail_opener" data-thumb-id="20586" data-thumb-country="portugal" data-thumb-obverse="4163" data-thumb-reverse="4164" />
+                    </li>
+                        <li style="margin:0;">
+            <img style="margin-bottom:-3px;" src="https://en.numista.com/design/pays/portugal.gif" width="16" height="16" alt="" title="Portugal" /> <a href="/11152" title="1 Escudo">1 Escudo</a>                        <img src="https://en.numista.com/design/photo.gif" alt="Photo" class="thumbnail_opener" data-thumb-id="11152" data-thumb-country="portugal" data-thumb-obverse="692d9d9b8f2f97.30840429" data-thumb-reverse="692d9d9d0af640.00608339" />
+                    </li>
+                        <li style="margin:0;">
+            <img style="margin-bottom:-3px;" src="https://en.numista.com/design/pays/portugal.gif" width="16" height="16" alt="" title="Portugal" /> <a href="/11155" title="1 Escudo">1 Escudo</a>                        <img src="https://en.numista.com/design/photo.gif" alt="Photo" class="thumbnail_opener" data-thumb-id="11155" data-thumb-country="portugal" data-thumb-obverse="1178" data-thumb-reverse="1179" />
+                    </li>
+                        <li style="margin:0;">
+            <img style="margin-bottom:-3px;" src="https://en.numista.com/design/pays/portugal.gif" width="16" height="16" alt="" title="Portugal" /> <a href="/775" title="1 Escudo">1 Escudo</a>                        <img src="https://en.numista.com/design/photo.gif" alt="Photo" class="thumbnail_opener" data-thumb-id="775" data-thumb-country="portugal" data-thumb-obverse="3152" data-thumb-reverse="3153" />
+                    </li>
+                        <li style="margin:0;">
+            <img style="margin-bottom:-3px;" src="https://en.numista.com/design/pays/portugal.gif" width="16" height="16" alt="" title="Portugal" /> <a href="/11952" title="1 Escudo">1 Escudo</a>                        <img src="https://en.numista.com/design/photo.gif" alt="Photo" class="thumbnail_opener" data-thumb-id="11952" data-thumb-country="portugal" data-thumb-obverse="3369" data-thumb-reverse="3370" />
+                    </li>
+                        <li style="margin:0;">
+            <img style="margin-bottom:-3px;" src="https://en.numista.com/design/pays/portugal.gif" width="16" height="16" alt="" title="Portugal" /> <a href="/1241" title="1 Escudo">1 Escudo</a>                        <img src="https://en.numista.com/design/photo.gif" alt="Photo" class="thumbnail_opener" data-thumb-id="1241" data-thumb-country="portugal" data-thumb-obverse="63bac3529846e1.37524183" data-thumb-reverse="63bac3531aeee1.05973943" />
+                    </li>
+            </ul>
+    
+</section>
+
+<script>
+    $('.translated_info').click(function() {
+        let translation_info_box = $('#' + $(this).data('details-id'));
+        if (translation_info_box.is('[aria-hidden=true]')) translation_info_box.removeAttr('aria-hidden');
+        else translation_info_box.attr('aria-hidden', 'true');
+    });
+</script>
+
+
+<section id="fiche_millesimes">
+    <h3 id="collec">Manage my collection</h3>
+    
+        <p style="margin-bottom:0.5em">Please <a href="../connexion/connecter.php">sign in</a> or <a href="../connexion/inscription.php">create an account</a> to manage your collection.</p>
+        
+    
+        <table class="collection">
+        <tr>
+            <th class="date">Date</th>
+            <th class="sign"></th>
+            <th class="pic"></th>
+            <th class="tirage">Mintage</th>
+                        <th class="value"><abbr title="Good">G</abbr></th>                        <th class="value"><abbr title="Very good">VG</abbr></th>                        <th class="value"><abbr title="Fine">F</abbr></th>                        <th class="value"><abbr title="Very Fine">VF</abbr></th>                        <th class="value"><abbr title="Extremely Fine">XF</abbr></th>                        <th class="value"><abbr title="Almost Uncirculated">AU</abbr></th>                        <th class="value"><abbr title="Uncirculated">UNC</abbr></th>                        <th></th>
+            <th class="comments" colspan="2"></th>
+            <th><a href="#frenquencies_def" class="definition_link" title="Frequencies show the percentage of Numista users who own each year or variety among all the users who own this coin. Since some users own several versions, the sum may be greater than 100%.">Frequency</a></th>            <th class="btn_collec"></th>
+        </tr>
+
+                <tbody class="undetermined_filler907"></tbody>
+        <tbody class="undetermined_filler907"></tbody>
+        <tbody style="display:none;" class="undetermined_line907">
+                    <tr class="date_row">
+                <td class="date">Undetermined</td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage"></td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>                <td></td>
+                <td class="comment" colspan="2"></td>
+                <td></td>
+                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line0_907" class="collec undetermined_line907" style="display:none">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1927&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic">                    <img src="https://en.numista.com/design/photo.gif" alt="Photo" class="thumbnail_opener" data-thumb-id="5240" data-thumbnail-paths="/sales_archive/pictures/63933be97467c-mini.jpg" data-picture-paths="/sales_archive/pictures/63933be97467c.jpg /sales_archive/pictures/61f797d79aaaa.jpg /sales_archive/pictures/61f797d810b06.jpg /sales_archive/pictures/64ddd9a0efc52.jpg" tabindex="0" />
+                </td>
+                <td class="tirage">1&#8239;917&#8239;000</td>
+                                <td class="value" data-grade="G">1.40</td>                                <td class="value" data-grade="VG">3.30</td>                                <td class="value" data-grade="F">5.60</td>                                <td class="value" data-grade="VF">14</td>                                <td class="value" data-grade="XF">69</td>                                <td class="value" data-grade="AU">140</td>                                <td class="value" data-grade="UNC">390</td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster4">26%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line5240" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1928&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic">                    <img src="https://en.numista.com/design/photo.gif" alt="Photo" class="thumbnail_opener" data-thumb-id="6171" data-thumbnail-paths="/sales_archive/pictures/64ddd9a227f14-mini.jpg" data-picture-paths="/sales_archive/pictures/64ddd9a227f14.jpg" tabindex="0" />
+                </td>
+                <td class="tirage">7&#8239;462&#8239;355</td>
+                                <td class="value" data-grade="G">2.10</td>                                <td class="value" data-grade="VG">2.10</td>                                <td class="value" data-grade="F">5.00</td>                                <td class="value" data-grade="VF">5.90</td>                                <td class="value" data-grade="XF">13</td>                                <td class="value" data-grade="AU">34</td>                                <td class="value" data-grade="UNC">300</td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster5">29%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line6171" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1929&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic">                    <img src="https://en.numista.com/design/photo.gif" alt="Photo" class="thumbnail_opener" data-thumb-id="6172" data-thumbnail-paths="/sales_archive/pictures/64aec6d874153-mini.jpg" data-picture-paths="/sales_archive/pictures/64aec6d874153.jpg" tabindex="0" />
+                </td>
+                <td class="tirage">1&#8239;617&#8239;000</td>
+                                <td class="value" data-grade="G">2.40</td>                                <td class="value" data-grade="VG">2.90</td>                                <td class="value" data-grade="F">4.70</td>                                <td class="value" data-grade="VF">22</td>                                <td class="value" data-grade="XF">22</td>                                <td class="value" data-grade="AU"></td>                                <td class="value" data-grade="UNC"></td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster3">21%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line6172" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1930&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">1&#8239;911&#8239;000</td>
+                                <td class="value" data-grade="G">7.70</td>                                <td class="value" data-grade="VG">7.70</td>                                <td class="value" data-grade="F">11</td>                                <td class="value" data-grade="VF">16</td>                                <td class="value" data-grade="XF">17</td>                                <td class="value" data-grade="AU"></td>                                <td class="value" data-grade="UNC"></td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster2">12%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line29963" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1931&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">2&#8239;039&#8239;000</td>
+                                <td class="value" data-grade="G">5.50</td>                                <td class="value" data-grade="VG">5.90</td>                                <td class="value" data-grade="F">8.80</td>                                <td class="value" data-grade="VF">23</td>                                <td class="value" data-grade="XF">23</td>                                <td class="value" data-grade="AU"></td>                                <td class="value" data-grade="UNC"></td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster2">12%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line29964" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1935&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic">                    <img src="https://en.numista.com/design/photo.gif" alt="Photo" class="thumbnail_opener" data-thumb-id="65618" data-thumbnail-paths="/sales_archive/pictures/6591ebd22fd2d-mini.jpg /sales_archive/pictures/6591ebd255a66-mini.jpg" data-picture-paths="/sales_archive/pictures/6591ebd22fd2d.jpg /sales_archive/pictures/6591ebd255a66.jpg /sales_archive/pictures/61f7cad1f1afc.jpg /sales_archive/pictures/61f7cad27c6cd.jpg /sales_archive/pictures/61f7cad303701.jpg /sales_archive/pictures/61f7cad3a0a59.jpg" tabindex="0" />
+                </td>
+                <td class="tirage"></td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG"></td>                                <td class="value" data-grade="F">380</td>                                <td class="value" data-grade="VF">650</td>                                <td class="value" data-grade="XF">4400</td>                                <td class="value" data-grade="AU"></td>                                <td class="value" data-grade="UNC"></td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster0">1.8%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line65618" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1939&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic">                    <img src="https://en.numista.com/design/photo.gif" alt="Photo" class="thumbnail_opener" data-thumb-id="65619" data-thumbnail-paths="/sales_archive/pictures/69a552743de91-mini.jpg /sales_archive/pictures/69a55274879f6-mini.jpg /sales_archive/pictures/69a55274ba8cc-mini.jpg" data-picture-paths="/sales_archive/pictures/69a552743de91.jpg /sales_archive/pictures/69a55274879f6.jpg /sales_archive/pictures/69a55274ba8cc.jpg" tabindex="0" />
+                </td>
+                <td class="tirage">304&#8239;300</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG"></td>                                <td class="value" data-grade="F">29</td>                                <td class="value" data-grade="VF">51</td>                                <td class="value" data-grade="XF"></td>                                <td class="value" data-grade="AU"></td>                                <td class="value" data-grade="UNC"></td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster1">5%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line65619" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1940&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">1&#8239;259&#8239;359</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG">0.59</td>                                <td class="value" data-grade="F">10</td>                                <td class="value" data-grade="VF">27</td>                                <td class="value" data-grade="XF">65</td>                                <td class="value" data-grade="AU"></td>                                <td class="value" data-grade="UNC"></td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster2">13%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line6173" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1944&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic">                    <img src="https://en.numista.com/design/photo.gif" alt="Photo" class="thumbnail_opener" data-thumb-id="65620" data-thumbnail-paths="/sales_archive/pictures/6874b97f02c2b-mini.jpg /sales_archive/pictures/6874b97f653ce-mini.jpg" data-picture-paths="/sales_archive/pictures/6874b97f02c2b.jpg /sales_archive/pictures/6874b97f653ce.jpg /sales_archive/pictures/634919df7afcd.jpg /sales_archive/pictures/634919dff1c4f.jpg /sales_archive/pictures/634919e059723.jpg /sales_archive/pictures/634919e0d0516.jpg" tabindex="0" />
+                </td>
+                <td class="tirage">993&#8239;000</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG">47</td>                                <td class="value" data-grade="F">59</td>                                <td class="value" data-grade="VF">120</td>                                <td class="value" data-grade="XF">120</td>                                <td class="value" data-grade="AU">560</td>                                <td class="value" data-grade="UNC">2900</td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster1">5%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line65620" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1945&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage"></td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG">3.10</td>                                <td class="value" data-grade="F">3.10</td>                                <td class="value" data-grade="VF">12</td>                                <td class="value" data-grade="XF">14</td>                                <td class="value" data-grade="AU"></td>                                <td class="value" data-grade="UNC"></td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster3">15%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line29605" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1946&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">2&#8239;507&#8239;146</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG">2.90</td>                                <td class="value" data-grade="F">4.10</td>                                <td class="value" data-grade="VF">5.90</td>                                <td class="value" data-grade="XF">5.90</td>                                <td class="value" data-grade="AU">28</td>                                <td class="value" data-grade="UNC">440</td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster3">15%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line27906" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1951&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic">                    <img src="https://en.numista.com/design/photo.gif" alt="Photo" class="thumbnail_opener" data-thumb-id="5241" data-thumbnail-paths="/catalogue/examples/pictures/mini/68baeb3049589.jpg /catalogue/examples/pictures/mini/68baeb30b9f15.jpg" data-picture-paths="/catalogue/examples/pictures/68baeb3049589.jpg /catalogue/examples/pictures/68baeb30b9f15.jpg" tabindex="0" />
+                </td>
+                <td class="tirage">2&#8239;500&#8239;000</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG">2.90</td>                                <td class="value" data-grade="F">2.90</td>                                <td class="value" data-grade="VF">5.90</td>                                <td class="value" data-grade="XF">7.10</td>                                <td class="value" data-grade="AU">29</td>                                <td class="value" data-grade="UNC">29</td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster5">27%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line5241" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1952&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">2&#8239;500&#8239;000</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG">4.70</td>                                <td class="value" data-grade="F">4.70</td>                                <td class="value" data-grade="VF">6.90</td>                                <td class="value" data-grade="XF">13</td>                                <td class="value" data-grade="AU"></td>                                <td class="value" data-grade="UNC"></td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster2">11%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line29965" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1957&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">1&#8239;656&#8239;400</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG">1.80</td>                                <td class="value" data-grade="F">2.70</td>                                <td class="value" data-grade="VF">5.90</td>                                <td class="value" data-grade="XF">24</td>                                <td class="value" data-grade="AU">28</td>                                <td class="value" data-grade="UNC"></td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster3">16%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line29966" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1958&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">1&#8239;447&#8239;000</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG">0.59</td>                                <td class="value" data-grade="F">2.90</td>                                <td class="value" data-grade="VF">5.90</td>                                <td class="value" data-grade="XF">11</td>                                <td class="value" data-grade="AU">20</td>                                <td class="value" data-grade="UNC">29</td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster2">14%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line26227" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1959&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">1&#8239;908&#8239;300</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG"></td>                                <td class="value" data-grade="F">4.50</td>                                <td class="value" data-grade="VF">5.90</td>                                <td class="value" data-grade="XF">8.30</td>                                <td class="value" data-grade="AU">12</td>                                <td class="value" data-grade="UNC">51</td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster3">17%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line29967" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1961&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">2&#8239;505&#8239;000</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG"></td>                                <td class="value" data-grade="F">1.80</td>                                <td class="value" data-grade="VF">5.30</td>                                <td class="value" data-grade="XF">9.00</td>                                <td class="value" data-grade="AU">9.00</td>                                <td class="value" data-grade="UNC">9.00</td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster3">19%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line28468" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1962&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">2&#8239;757&#8239;000</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG"></td>                                <td class="value" data-grade="F">1.90</td>                                <td class="value" data-grade="VF">5.30</td>                                <td class="value" data-grade="XF">8.60</td>                                <td class="value" data-grade="AU">12</td>                                <td class="value" data-grade="UNC">22</td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster3">20%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line25233" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1964&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">1&#8239;611&#8239;000</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG"></td>                                <td class="value" data-grade="F">3.50</td>                                <td class="value" data-grade="VF">8.80</td>                                <td class="value" data-grade="XF">8.80</td>                                <td class="value" data-grade="AU">8.80</td>                                <td class="value" data-grade="UNC"></td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster2">14%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line29968" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1965&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">1&#8239;683&#8239;000</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG"></td>                                <td class="value" data-grade="F">4.70</td>                                <td class="value" data-grade="VF">5.90</td>                                <td class="value" data-grade="XF">9.50</td>                                <td class="value" data-grade="AU">11</td>                                <td class="value" data-grade="UNC">22</td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster2">14%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line4480" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1966&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">2&#8239;607&#8239;000</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG"></td>                                <td class="value" data-grade="F">5.00</td>                                <td class="value" data-grade="VF">5.90</td>                                <td class="value" data-grade="XF">5.90</td>                                <td class="value" data-grade="AU">12</td>                                <td class="value" data-grade="UNC">16</td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster3">19%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line9498" class="collec">
+                    </tbody>
+        
+                <tbody>
+            <tr class="date_row">
+                <td class="date">
+                                        1968&nbsp;                                    </td>
+                <td class="sign"></td>
+                <td class="pic"></td>
+                <td class="tirage">4&#8239;099&#8239;000</td>
+                                <td class="value" data-grade="G"></td>                                <td class="value" data-grade="VG">2.40</td>                                <td class="value" data-grade="F">2.40</td>                                <td class="value" data-grade="VF">3.50</td>                                <td class="value" data-grade="XF">5.90</td>                                <td class="value" data-grade="AU">9.40</td>                                <td class="value" data-grade="UNC">15</td>                                                <td class="no_references"></td>
+                                <td class="comment" colspan="2"></td>
+                <td class="own_stat"><span class="cluster4">22%</span></td>                <td class="btn_collec"></td>
+            </tr>
+                    </tbody>
+        <tbody id="collec_line5242" class="collec">
+                    </tbody>
+        
+            </table>
+    
+    <script>
+        let coin_data = [];
+        coin_data['c907'] = {
+            title: '1 Escudo',
+            versions: [
+                            [5240, '1927'],
+                            [6171, '1928'],
+                            [6172, '1929'],
+                            [29963, '1930'],
+                            [29964, '1931'],
+                            [65618, '1935'],
+                            [65619, '1939'],
+                            [6173, '1940'],
+                            [65620, '1944'],
+                            [29605, '1945'],
+                            [27906, '1946'],
+                            [5241, '1951'],
+                            [29965, '1952'],
+                            [29966, '1957'],
+                            [26227, '1958'],
+                            [29967, '1959'],
+                            [28468, '1961'],
+                            [25233, '1962'],
+                            [29968, '1964'],
+                            [4480, '1965'],
+                            [9498, '1966'],
+                            [5242, '1968'],
+                        ]
+        };
+    </script>
+    
+        <p class="intro" style="margin-top:1em;">Values in the table above are expressed in <strong>BRL</strong>. They are based on evaluations by Numista users and sales realized on Internet platforms. They serve as an indication only; they are not intended to be relied upon for buying, selling or exchanging. Numista does not buy or sell coins or banknotes.</p>
+        
+        
+        <p class="intro" style="margin-top:1em;"><dfn id="frenquencies_def">Frequencies</dfn> show the percentage of Numista users who own each year or variety among all the users who own this coin. Since some users own several versions, the sum may be greater than 100%.</p>
+        
+</section>
+
+        
+
+
+<section id="fiche_echanges">
+        <h3>Get this coin</h3>
+    
+        <p class="swapper_list">
+        Members from this site want to exchange it:         <a href="../echanges/swaplist.php?id=19146" onmouseover="show_tooltip(this, 'member19146')" onmouseout="hide_tooltip('member19146')">manach</a>, <a href="../echanges/swaplist.php?id=159923" onmouseover="show_tooltip(this, 'member159923')" onmouseout="hide_tooltip('member159923')">benjammoins</a>, <a href="../echanges/swaplist.php?id=45741" onmouseover="show_tooltip(this, 'member45741')" onmouseout="hide_tooltip('member45741')">asowsa</a>, <a href="../echanges/swaplist.php?id=510000" onmouseover="show_tooltip(this, 'member510000')" onmouseout="hide_tooltip('member510000')">Arcangel60</a>, <a href="../echanges/swaplist.php?id=346270" onmouseover="show_tooltip(this, 'member346270')" onmouseout="hide_tooltip('member346270')">pbarreiros</a>, <a href="../echanges/swaplist.php?id=529050" onmouseover="show_tooltip(this, 'member529050')" onmouseout="hide_tooltip('member529050')">CherOkie_Stacker</a>, <a href="../echanges/swaplist.php?id=76036" onmouseover="show_tooltip(this, 'member76036')" onmouseout="hide_tooltip('member76036')">Sisilija</a>, <a href="../echanges/swaplist.php?id=124901" onmouseover="show_tooltip(this, 'member124901')" onmouseout="hide_tooltip('member124901')">Jpand</a>, <a href="../echanges/swaplist.php?id=483624" onmouseover="show_tooltip(this, 'member483624')" onmouseout="hide_tooltip('member483624')">AB Coins</a>, <a href="../echanges/swaplist.php?id=77784" onmouseover="show_tooltip(this, 'member77784')" onmouseout="hide_tooltip('member77784')">Germancoincollector</a>, <a href="../echanges/swaplist.php?id=27344" onmouseover="show_tooltip(this, 'member27344')" onmouseout="hide_tooltip('member27344')">minor</a>, <a href="../echanges/swaplist.php?id=113227" onmouseover="show_tooltip(this, 'member113227')" onmouseout="hide_tooltip('member113227')">Silkarion</a>, <a href="../echanges/swaplist.php?id=27964" onmouseover="show_tooltip(this, 'member27964')" onmouseout="hide_tooltip('member27964')">mad</a>, <a href="../echanges/swaplist.php?id=50979" onmouseover="show_tooltip(this, 'member50979')" onmouseout="hide_tooltip('member50979')">akadotour</a>, <a href="../echanges/swaplist.php?id=27094" onmouseover="show_tooltip(this, 'member27094')" onmouseout="hide_tooltip('member27094')">alemtagus</a>, <a href="../echanges/swaplist.php?id=354605" onmouseover="show_tooltip(this, 'member354605')" onmouseout="hide_tooltip('member354605')">freeze_coins</a>, <a href="../echanges/swaplist.php?id=119755" onmouseover="show_tooltip(this, 'member119755')" onmouseout="hide_tooltip('member119755')">ATANAGIA</a>, <a href="../echanges/swaplist.php?id=23579" onmouseover="show_tooltip(this, 'member23579')" onmouseout="hide_tooltip('member23579')">Oh-Moon</a>, <a href="../echanges/swaplist.php?id=158015" onmouseover="show_tooltip(this, 'member158015')" onmouseout="hide_tooltip('member158015')">Hein Jan</a>, <a href="../echanges/swaplist.php?id=124467" onmouseover="show_tooltip(this, 'member124467')" onmouseout="hide_tooltip('member124467')">Jérôme Thilly</a>, <a href="../echanges/swaplist.php?id=22421" onmouseover="show_tooltip(this, 'member22421')" onmouseout="hide_tooltip('member22421')">RUIFER03</a>, <a href="../echanges/swaplist.php?id=41401" onmouseover="show_tooltip(this, 'member41401')" onmouseout="hide_tooltip('member41401')">pjrcavaco</a>, <a href="../echanges/swaplist.php?id=2845" onmouseover="show_tooltip(this, 'member2845')" onmouseout="hide_tooltip('member2845')">mesaleja</a>, <a href="../echanges/swaplist.php?id=137860" onmouseover="show_tooltip(this, 'member137860')" onmouseout="hide_tooltip('member137860')">sfaria</a>, <a href="../echanges/swaplist.php?id=124935" onmouseover="show_tooltip(this, 'member124935')" onmouseout="hide_tooltip('member124935')">Fablu</a>, <a href="../echanges/swaplist.php?id=43008" onmouseover="show_tooltip(this, 'member43008')" onmouseout="hide_tooltip('member43008')">capa61</a>, <a href="../echanges/swaplist.php?id=44197" onmouseover="show_tooltip(this, 'member44197')" onmouseout="hide_tooltip('member44197')">aragorn1980</a>, <a href="../echanges/swaplist.php?id=465582" onmouseover="show_tooltip(this, 'member465582')" onmouseout="hide_tooltip('member465582')">lincolnmanand</a>, <a href="../echanges/swaplist.php?id=80663" onmouseover="show_tooltip(this, 'member80663')" onmouseout="hide_tooltip('member80663')">Vennie75</a>, <a href="../echanges/swaplist.php?id=84479" onmouseover="show_tooltip(this, 'member84479')" onmouseout="hide_tooltip('member84479')">vasyli</a>, <a href="../echanges/swaplist.php?id=16256" onmouseover="show_tooltip(this, 'member16256')" onmouseout="hide_tooltip('member16256')">l-ajaiste-21</a>, <a href="../echanges/swaplist.php?id=51475" onmouseover="show_tooltip(this, 'member51475')" onmouseout="hide_tooltip('member51475')">mikimaus</a>, <a href="../echanges/swaplist.php?id=285722" onmouseover="show_tooltip(this, 'member285722')" onmouseout="hide_tooltip('member285722')">Ericopter</a>, <a href="../echanges/swaplist.php?id=48870" onmouseover="show_tooltip(this, 'member48870')" onmouseout="hide_tooltip('member48870')">KasparsLV</a>, <a href="../echanges/swaplist.php?id=154360" onmouseover="show_tooltip(this, 'member154360')" onmouseout="hide_tooltip('member154360')">maor1973</a>, <a href="../echanges/swaplist.php?id=53527" onmouseover="show_tooltip(this, 'member53527')" onmouseout="hide_tooltip('member53527')">jordifo</a>, <a href="../echanges/swaplist.php?id=63399" onmouseover="show_tooltip(this, 'member63399')" onmouseout="hide_tooltip('member63399')">molokoï</a>, <a href="../echanges/swaplist.php?id=72760" onmouseover="show_tooltip(this, 'member72760')" onmouseout="hide_tooltip('member72760')">Swapandswap</a>, <a href="../echanges/swaplist.php?id=101773" onmouseover="show_tooltip(this, 'member101773')" onmouseout="hide_tooltip('member101773')">alin225</a>, <a href="../echanges/swaplist.php?id=55161" onmouseover="show_tooltip(this, 'member55161')" onmouseout="hide_tooltip('member55161')">hugoguh</a>, <a href="../echanges/swaplist.php?id=331820" onmouseover="show_tooltip(this, 'member331820')" onmouseout="hide_tooltip('member331820')">LeModi</a>, <a href="../echanges/swaplist.php?id=4648" onmouseover="show_tooltip(this, 'member4648')" onmouseout="hide_tooltip('member4648')">leprédateur</a>, <a href="../echanges/swaplist.php?id=164080" onmouseover="show_tooltip(this, 'member164080')" onmouseout="hide_tooltip('member164080')">bburke057</a>, <a href="../echanges/swaplist.php?id=136654" onmouseover="show_tooltip(this, 'member136654')" onmouseout="hide_tooltip('member136654')">rsmpaturi</a>, <a href="../echanges/swaplist.php?id=28466" onmouseover="show_tooltip(this, 'member28466')" onmouseout="hide_tooltip('member28466')">kalti celtic odor</a>, <a href="../echanges/swaplist.php?id=509736" onmouseover="show_tooltip(this, 'member509736')" onmouseout="hide_tooltip('member509736')">Kebab</a>, <a href="../echanges/swaplist.php?id=332469" onmouseover="show_tooltip(this, 'member332469')" onmouseout="hide_tooltip('member332469')">jeannot64fr</a>, <a href="../echanges/swaplist.php?id=569216" onmouseover="show_tooltip(this, 'member569216')" onmouseout="hide_tooltip('member569216')">BLACKFIELD2</a>, <a href="../echanges/swaplist.php?id=569915" onmouseover="show_tooltip(this, 'member569915')" onmouseout="hide_tooltip('member569915')">moedascomestoriasparacontar</a>, <a href="../echanges/swaplist.php?id=178338" onmouseover="show_tooltip(this, 'member178338')" onmouseout="hide_tooltip('member178338')">ives</a>, <a href="../echanges/swaplist.php?id=60105" onmouseover="show_tooltip(this, 'member60105')" onmouseout="hide_tooltip('member60105')">puedc</a><!--
+     -->&hellip;    </p>
+    
+        <div class="tooltip" id="member19146">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;357)<br /><strong>Country:</strong> France<br /><strong>Languages:</strong> FR</div>
+        <div class="tooltip" id="member159923">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;86)<br /><strong>Country:</strong> United States<br /><strong>Languages:</strong> EN</div>
+        <div class="tooltip" id="member45741">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;110)<br /><strong>Country:</strong> Portugal<br /><strong>Languages:</strong> EN, PT</div>
+        <div class="tooltip" id="member510000">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;15)<br /><strong>Country:</strong> France<br /><strong>Languages:</strong> FR</div>
+        <div class="tooltip" id="member346270">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;130)<br /><strong>Country:</strong> Portugal<br /><strong>Languages:</strong> EN, PT</div>
+        <div class="tooltip" id="member529050">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;13)<br /><strong>Country:</strong> United States<br /><strong>Languages:</strong> EN</div>
+        <div class="tooltip" id="member76036">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;389)<br /><strong>Country:</strong> United States<br /><strong>Languages:</strong> EN</div>
+        <div class="tooltip" id="member124901">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;227)<br /><strong>Country:</strong> Andorra<br /><strong>Languages:</strong> FR, EN, CA, ES</div>
+        <div class="tooltip" id="member483624">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;7)<br /><strong>Country:</strong> Spain<br /><strong>Languages:</strong> EN, DE, ES</div>
+        <div class="tooltip" id="member77784">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;496)<br /><strong>Country:</strong> Germany<br /><strong>Languages:</strong> EN, DE</div>
+        <div class="tooltip" id="member27344">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;49)<br /><strong>Country:</strong> Denmark<br /><strong>Languages:</strong> EN, DA</div>
+        <div class="tooltip" id="member113227">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;33)<br /><strong>Country:</strong> France<br /><strong>Languages:</strong> FR</div>
+        <div class="tooltip" id="member27964">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;170)<br /><strong>Country:</strong> Belgium<br /><strong>Languages:</strong> FR</div>
+        <div class="tooltip" id="member50979">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;417)<br /><strong>Country:</strong> Latvia<br /><strong>Languages:</strong> EN</div>
+        <div class="tooltip" id="member27094">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;1)<br /><strong>Country:</strong> Portugal<br /><strong>Languages:</strong> EN, ES, FR, PT</div>
+        <div class="tooltip" id="member354605">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;163)<br /><strong>Country:</strong> United States<br /><strong>Languages:</strong> EN</div>
+        <div class="tooltip" id="member119755">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;66)<br /><strong>Country:</strong> Spain<br /><strong>Languages:</strong> ES, EN</div>
+        <div class="tooltip" id="member23579">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;571)<br /><strong>Country:</strong> Portugal<br /><strong>Languages:</strong> EN, FR, PT, ES</div>
+        <div class="tooltip" id="member158015">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;221)<br /><strong>Country:</strong> Italy<br /><strong>Languages:</strong> EN, NL, FR, DE, IT</div>
+        <div class="tooltip" id="member124467">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;111)<br /><strong>Country:</strong> France<br /><strong>Languages:</strong> FR, EN, ES, PT</div>
+        <div class="tooltip" id="member22421">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;391)<br /><strong>Country:</strong> Portugal<br /><strong>Languages:</strong> EN, ES, PT</div>
+        <div class="tooltip" id="member41401">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;281)<br /><strong>Country:</strong> Portugal<br /><strong>Languages:</strong> EN, ES, PT</div>
+        <div class="tooltip" id="member2845">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;658)<br /><strong>Country:</strong> France<br /><strong>Languages:</strong> FR</div>
+        <div class="tooltip" id="member137860">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;183)<br /><strong>Country:</strong> Portugal<br /><strong>Languages:</strong> EN, FR, PT</div>
+        <div class="tooltip" id="member124935">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;46)<br /><strong>Country:</strong> Italy<br /><strong>Languages:</strong> EN, IT</div>
+        <div class="tooltip" id="member43008">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;291)<br /><strong>Country:</strong> Spain<br /><strong>Languages:</strong> EN, ES</div>
+        <div class="tooltip" id="member44197">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;525)<br /><strong>Country:</strong> United States<br /><strong>Languages:</strong> EN</div>
+        <div class="tooltip" id="member465582">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;17)<br /><strong>Country:</strong> United States<br /><strong>Languages:</strong> EN</div>
+        <div class="tooltip" id="member80663">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;496)<br /><strong>Country:</strong> Netherlands<br /><strong>Languages:</strong> EN, NL, DE</div>
+        <div class="tooltip" id="member84479">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;344)<br /><strong>Country:</strong> Canada<br /><strong>Languages:</strong> EN, RU</div>
+        <div class="tooltip" id="member16256">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;73)<br /><strong>Country:</strong> France<br /><strong>Languages:</strong> FR</div>
+        <div class="tooltip" id="member51475">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;509)<br /><strong>Country:</strong> Slovenia<br /><strong>Languages:</strong> EN, HR, DE, SR, SL</div>
+        <div class="tooltip" id="member285722">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;169)<br /><strong>Country:</strong> France<br /><strong>Languages:</strong> FR</div>
+        <div class="tooltip" id="member48870">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;664)<br /><strong>Country:</strong> Latvia<br /><strong>Languages:</strong> EN, LV, RU, SK</div>
+        <div class="tooltip" id="member154360">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;508)<br /><strong>Country:</strong> Portugal<br /><strong>Languages:</strong> EN, FR, PT, ES</div>
+        <div class="tooltip" id="member53527">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;241)<br /><strong>Country:</strong> Spain<br /><strong>Languages:</strong> EN, CA, DE, ES</div>
+        <div class="tooltip" id="member63399">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;212)<br /><strong>Country:</strong> France<br /><strong>Languages:</strong> FR, EN</div>
+        <div class="tooltip" id="member72760">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;181)<br /><strong>Country:</strong> Italy<br /><strong>Languages:</strong> EN, FR, IT</div>
+        <div class="tooltip" id="member101773">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;43)<br /><strong>Country:</strong> Romania<br /><strong>Languages:</strong> EN, RO</div>
+        <div class="tooltip" id="member55161">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;25)<br /><strong>Country:</strong> Sweden<br /><strong>Languages:</strong> EN, FR, PT, ES, SV</div>
+        <div class="tooltip" id="member331820">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;126)<br /><strong>Country:</strong> France<br /><strong>Languages:</strong> FR</div>
+        <div class="tooltip" id="member4648">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;168)<br /><strong>Country:</strong> Canada<br /><strong>Languages:</strong> FR</div>
+        <div class="tooltip" id="member164080">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;46)<br /><strong>Country:</strong> United States<br /><strong>Languages:</strong> EN</div>
+        <div class="tooltip" id="member136654">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;34)<br /><strong>Country:</strong> India<br /><strong>Languages:</strong> EN, TE</div>
+        <div class="tooltip" id="member28466">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;596)<br /><strong>Country:</strong> Slovakia<br /><strong>Languages:</strong> EN, CS, DE, PL, SK</div>
+        <div class="tooltip" id="member509736">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;19)<br /><strong>Country:</strong> Ireland<br /><strong>Languages:</strong> EN, AR, GA</div>
+        <div class="tooltip" id="member332469">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;44)<br /><strong>Country:</strong> Canada<br /><strong>Languages:</strong> FR, EN</div>
+        <div class="tooltip" id="member569216">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;3)<br /><strong>Country:</strong> France<br /><strong>Languages:</strong> FR</div>
+        <div class="tooltip" id="member569915">
+            <strong>Feedback:</strong> <em>none</em><br /><strong>Country:</strong> Portugal<br /><strong>Languages:</strong> PT, ES, FR, EN, IT</div>
+        <div class="tooltip" id="member178338">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;292)<br /><strong>Country:</strong> France<br /><strong>Languages:</strong> FR, EN, ES, PT</div>
+        <div class="tooltip" id="member60105">
+            <strong>Feedback:</strong> <img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /><img src="https://en.numista.com/echanges/etoile1.png" class="icone" alt="5/5" /> (&times;32)<br /><strong>Country:</strong> United States<br /><strong>Languages:</strong> EN</div>
+        <p style="padding-top:5px;">&raquo; <a href="../echanges/coin_swappers.php?id=907">See the details of the coins available for swap</a></p>
+    
+        
+        
+    <div style="padding:25px 0 5px 0">
+        <div style="margin-bottom:0.5em;">
+            Numista Rarity index: <strong>4</strong>
+            <img src="https://en.numista.com/design/help.svg" style="vertical-align:middle; margin-left:0.2em;" alt="Search tips" title="" onmouseover="document.getElementById('aide_rarete').style.display='block'" onmouseout="document.getElementById('aide_rarete').style.display='none'" />
+            <div class="bulle_aide" id="aide_rarete">
+                This index is based on the data of Numista members collections. It ranges from 0 to 100, 0 meaning a very common coin or banknote and 100 meaning a rare coin or banknote among Numista members.            </div>
+        </div>
+        
+            </div>
+    
+    <div id="sale_offers" style="display:none;"></div>
+    <div id="sale_offers_greysheet" style="display:none;"></div>
+</section>
+
+
+    <section>
+        <h3>Examples of the type</h3>
+        <div id="examples_list">
+                        <div>
+                                <div class="example_image">
+                                                                <a href="https://en.numista.com/catalogue/examples/pictures/68baeb3049589.jpg" data-zoomPic data-zoomPicGroup="example20000"><!--
+                         --><img id="image_20000_1" src="https://en.numista.com/catalogue/examples/pictures/mini/68baeb3049589.jpg" alt="Picture 1 of the example of 1 Escudo" /><!--
+                     --></a>
+                                                                    <a href="https://en.numista.com/catalogue/examples/pictures/68baeb30b9f15.jpg" data-zoomPic data-zoomPicGroup="example20000"><!--
+                         --><img id="image_20000_2" src="https://en.numista.com/catalogue/examples/pictures/mini/68baeb30b9f15.jpg" alt="Picture 2 of the example of 1 Escudo" /><!--
+                     --></a>
+                                                            </div>
+                <div class="example_description" id="example_description20000">
+                    <span class="mentions">© Bart van Gils</span><br/>1951
+                                        <a href="examples.php?id=907#example_20000" class="more_example_details" id="see_more20000"> (see more)</a>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            let description = document.getElementById('example_description20000');
+                            let toggleButton = document.getElementById('see_more20000');
+                            if (description.scrollHeight > description.clientHeight) {
+                                toggleButton.style.display = 'inline-block';
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+                    </div>
+        <a href="examples.php?id=907">
+                            See the examples                    </a>
+    </section>
+
+<section>
+    <h3>Past sales</h3>
+    <table id="sales_list">
+        <thead>
+            <tr>
+                <th class="sale_pictures">Pictures</th>
+                <th class="sale_house">Sale</th>
+                <th class="sale_date">Date</th>
+                <th class="sale_version">Version</th>                <th class="sale_grade">Grade</th>
+                <th class="sale_price">Sold price</th>
+            </tr>
+        </thead>
+                <tbody >
+                <tr>
+            <td class="sale_pictures">
+                <div>
+                    <!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/63933be97467c.jpg" data-zoomPic data-zoomPicGroup="sale435924"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/63933be97467c-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 -->                </div>
+            </td>
+            <td class="sale_auction">
+                                <a href="https://katzauction.com/lot/206053" target="_blank" rel="noopener">
+                    Katz<!-- 
+                 --><br />Auction 67<!-- 
+                 --><br />Lot 1577<!--
+             --></a>
+                <a href="https://web.archive.org/https://katzauction.com/lot/206053" target="_blank" rel="noopener"><img src="https://en.numista.com/design/internet_archive.jpg" alt="Internet Archive" title="Internet Archive" class="icone" style="width:16px;" /></a>
+            </td>
+            <td class="sale_date">24 Sep 2022</td>
+                        <td class="sale_version">
+                1927                            </td>
+                        <td class="sale_grade">
+                <abbr title="Uncirculated">UNC</abbr>                            </td>
+            <td class="sale_price">
+                                <span class="unbreakable">BRL 64.90</span>
+                <br /><span class="unbreakable sales_details">(EUR 11.00)</span>                <br /><span class="sales_details">(+ buyer's premium)</span>                                            </td>
+        </tr>
+                            <tr class="sale_copyright_row"><td class="sale_copyright" colspan="7">&copy; <a href="https://www.katzauction.com" target="_blank" rel="noopener">Katz Coins Notes &amp; Supplies Corp.</a></td>
+                
+                </tbody>
+                
+                <tbody >
+                <tr>
+            <td class="sale_pictures">
+                <div>
+                    <!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/61f797d79aaaa.jpg" data-zoomPic data-zoomPicGroup="sale383638"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/61f797d79aaaa-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 --><!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/61f797d810b06.jpg" data-zoomPic data-zoomPicGroup="sale383638"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/61f797d810b06-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 -->                </div>
+            </td>
+            <td class="sale_auction">
+                                <a href="https://coins.ha.com/itm/portugal/republic-escudo-1927-ms65-ngc-/p/232134-16013.s?type=DA-DMC-NumistaWorldCoins-WorldCoins-232134-08192021" target="_blank" rel="noopener">
+                    Heritage Auctions<!-- 
+                 --><br />Wednesday & Thursday World & Ancient Coins Select Auction 232134<!-- 
+                 --><br />Lot 64574<!--
+             --></a>
+                <a href="https://web.archive.org/https://coins.ha.com/itm/portugal/republic-escudo-1927-ms65-ngc-/p/232134-16013.s?type=DA-DMC-NumistaWorldCoins-WorldCoins-232134-08192021" target="_blank" rel="noopener"><img src="https://en.numista.com/design/internet_archive.jpg" alt="Internet Archive" title="Internet Archive" class="icone" style="width:16px;" /></a>
+            </td>
+            <td class="sale_date">25 Aug 2021</td>
+                        <td class="sale_version">
+                1927                            </td>
+                        <td class="sale_grade">
+                <abbr title="Uncirculated">UNC</abbr>                <br /><span class="sales_details">(NGC MS65)</span>            </td>
+            <td class="sale_price">
+                                <span class="unbreakable">BRL 902.16</span>
+                <br /><span class="unbreakable sales_details">(USD 180.00)</span>                <br /><span class="sales_details">(incl. buyer's premium)</span>                                            </td>
+        </tr>
+                            <tr class="sale_copyright_row"><td class="sale_copyright" colspan="7">&copy; <a href="http://www.ha.com" target="_blank" rel="noopener">Heritage Auctions</a></td>
+                
+                </tbody>
+                
+                <tbody >
+                <tr>
+            <td class="sale_pictures">
+                <div>
+                    <!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/64ddd9a0efc52.jpg" data-zoomPic data-zoomPicGroup="sale496784"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/64ddd9a0efc52-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 -->                </div>
+            </td>
+            <td class="sale_auction">
+                                <a href="https://katzauction.com/lot/361643" target="_blank" rel="noopener">
+                    Katz<!-- 
+                 --><br />Auction 92<!-- 
+                 --><br />Lot 1159<!--
+             --></a>
+                <a href="https://web.archive.org/https://katzauction.com/lot/361643" target="_blank" rel="noopener"><img src="https://en.numista.com/design/internet_archive.jpg" alt="Internet Archive" title="Internet Archive" class="icone" style="width:16px;" /></a>
+            </td>
+            <td class="sale_date">15 Aug 2023</td>
+                        <td class="sale_version">
+                1927                            </td>
+                        <td class="sale_grade">
+                <abbr title="Extremely Fine">XF</abbr>                            </td>
+            <td class="sale_price">
+                                <span class="unbreakable">BRL 76.70</span>
+                <br /><span class="unbreakable sales_details">(EUR 13.00)</span>                <br /><span class="sales_details">(+ buyer's premium)</span>                                            </td>
+        </tr>
+                            <tr class="sale_copyright_row"><td class="sale_copyright" colspan="7">&copy; <a href="https://www.katzauction.com" target="_blank" rel="noopener">Katz Coins Notes &amp; Supplies Corp.</a></td>
+                
+                </tbody>
+                
+                <tbody >
+                <tr>
+            <td class="sale_pictures">
+                <div>
+                                    </div>
+            </td>
+            <td class="sale_auction">
+                                <a href="https://coins.ha.com/itm/portugal/republic-escudo-1928-ms63-ngc-/p/232421-34005.s?type=DA-DMC-NumistaWorldCoins-WorldCoins-232421-05162024" target="_blank" rel="noopener">
+                    Heritage Auctions<!-- 
+                 --><br />Wednesday & Thursday World & Ancient Coins Select Auction  232421<!-- 
+                 --><br />Lot 64364<!--
+             --></a>
+                <a href="https://web.archive.org/https://coins.ha.com/itm/portugal/republic-escudo-1928-ms63-ngc-/p/232421-34005.s?type=DA-DMC-NumistaWorldCoins-WorldCoins-232421-05162024" target="_blank" rel="noopener"><img src="https://en.numista.com/design/internet_archive.jpg" alt="Internet Archive" title="Internet Archive" class="icone" style="width:16px;" /></a>
+            </td>
+            <td class="sale_date">16 May 2024</td>
+                        <td class="sale_version">
+                1928                            </td>
+                        <td class="sale_grade">
+                <abbr title="Uncirculated">UNC</abbr>                <br /><span class="sales_details">(NGC MS63)</span>            </td>
+            <td class="sale_price">
+                                <span class="unbreakable">BRL 275.66</span>
+                <br /><span class="unbreakable sales_details">(USD 55.00)</span>                <br /><span class="sales_details">(incl. buyer's premium)</span>                                            </td>
+        </tr>
+                            <tr class="sale_copyright_row"><td class="sale_copyright" colspan="7">&copy; <a href="http://www.ha.com" target="_blank" rel="noopener">Heritage Auctions</a></td>
+                
+                </tbody>
+                
+                <tbody >
+                <tr>
+            <td class="sale_pictures">
+                <div>
+                    <!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/64ddd9a227f14.jpg" data-zoomPic data-zoomPicGroup="sale496785"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/64ddd9a227f14-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 -->                </div>
+            </td>
+            <td class="sale_auction">
+                                <a href="https://katzauction.com/lot/361644" target="_blank" rel="noopener">
+                    Katz<!-- 
+                 --><br />Auction 92<!-- 
+                 --><br />Lot 1160<!--
+             --></a>
+                <a href="https://web.archive.org/https://katzauction.com/lot/361644" target="_blank" rel="noopener"><img src="https://en.numista.com/design/internet_archive.jpg" alt="Internet Archive" title="Internet Archive" class="icone" style="width:16px;" /></a>
+            </td>
+            <td class="sale_date">15 Aug 2023</td>
+                        <td class="sale_version">
+                1928                            </td>
+                        <td class="sale_grade">
+                <abbr title="Extremely Fine">XF</abbr>                            </td>
+            <td class="sale_price">
+                                <span class="unbreakable">BRL 76.70</span>
+                <br /><span class="unbreakable sales_details">(EUR 13.00)</span>                <br /><span class="sales_details">(+ buyer's premium)</span>                                            </td>
+        </tr>
+                            <tr class="sale_copyright_row"><td class="sale_copyright" colspan="7">&copy; <a href="https://www.katzauction.com" target="_blank" rel="noopener">Katz Coins Notes &amp; Supplies Corp.</a></td>
+                
+                </tbody>
+                
+                <tbody >
+                <tr>
+            <td class="sale_pictures">
+                <div>
+                    <!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/64aec6d874153.jpg" data-zoomPic data-zoomPicGroup="sale482267"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/64aec6d874153-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 -->                </div>
+            </td>
+            <td class="sale_auction">
+                                <a href="https://katzauction.com/lot/331978" target="_blank" rel="noopener">
+                    Katz<!-- 
+                 --><br />Auction 88<!-- 
+                 --><br />Lot 956<!--
+             --></a>
+                <a href="https://web.archive.org/https://katzauction.com/lot/331978" target="_blank" rel="noopener"><img src="https://en.numista.com/design/internet_archive.jpg" alt="Internet Archive" title="Internet Archive" class="icone" style="width:16px;" /></a>
+            </td>
+            <td class="sale_date">28 Jun 2023</td>
+                        <td class="sale_version">
+                1929                            </td>
+                        <td class="sale_grade">
+                <abbr title="Extremely Fine">XF</abbr>                            </td>
+            <td class="sale_price">
+                <em>Unsold</em>
+                                            </td>
+        </tr>
+                            <tr class="sale_copyright_row"><td class="sale_copyright" colspan="7">&copy; <a href="https://www.katzauction.com" target="_blank" rel="noopener">Katz Coins Notes &amp; Supplies Corp.</a></td>
+                
+                </tbody>
+                
+                <tbody >
+                <tr>
+            <td class="sale_pictures">
+                <div>
+                    <!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/6591ebd22fd2d.jpg" data-zoomPic data-zoomPicGroup="sale531507"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/6591ebd22fd2d-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 --><!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/6591ebd255a66.jpg" data-zoomPic data-zoomPicGroup="sale531507"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/6591ebd255a66-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 -->                </div>
+            </td>
+            <td class="sale_auction">
+                                <a href="https://auction.rpnumis.com/lots/view/4-MCVL1/portugal-para-azores-1-escudo-1935-km-578" target="_blank" rel="noopener">
+                    Río de la Plata<!-- 
+                 --><br />RPN Subasta Online #1<!-- 
+                 --><br />Lot 240<!--
+             --></a>
+                <a href="https://web.archive.org/https://auction.rpnumis.com/lots/view/4-MCVL1/portugal-para-azores-1-escudo-1935-km-578" target="_blank" rel="noopener"><img src="https://en.numista.com/design/internet_archive.jpg" alt="Internet Archive" title="Internet Archive" class="icone" style="width:16px;" /></a>
+            </td>
+            <td class="sale_date">16 Aug 2020</td>
+                        <td class="sale_version">
+                1935                            </td>
+                        <td class="sale_grade">
+                <abbr title="Very Fine">VF</abbr>                            </td>
+            <td class="sale_price">
+                                <span class="unbreakable">BRL 350.84</span>
+                <br /><span class="unbreakable sales_details">(USD 70.00)</span>                <br /><span class="sales_details">(+ buyer's premium)</span>                                            </td>
+        </tr>
+                            <tr class="sale_copyright_row"><td class="sale_copyright" colspan="7">&copy; <a href="https://rpnumis.com/" target="_blank" rel="noopener">Río de la Plata Compañía Numismática</a></td>
+                
+                </tbody>
+                
+                <tbody >
+                <tr>
+            <td class="sale_pictures">
+                <div>
+                    <!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/61f7cad1f1afc.jpg" data-zoomPic data-zoomPicGroup="sale389393"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/61f7cad1f1afc-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 --><!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/61f7cad27c6cd.jpg" data-zoomPic data-zoomPicGroup="sale389393"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/61f7cad27c6cd-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 --><!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/61f7cad303701.jpg" data-zoomPic data-zoomPicGroup="sale389393"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/61f7cad303701-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 --><!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/61f7cad3a0a59.jpg" data-zoomPic data-zoomPicGroup="sale389393"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/61f7cad3a0a59-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 -->                </div>
+            </td>
+            <td class="sale_auction">
+                                <a href="https://coins.ha.com/itm/portugal/portugal-republic-escudo-1935-vf-details-cleaned-ngc-/a/3073-33585.s?type=DA-DMC-NumistaWorldCoins-WorldCoins-3073-04252019" target="_blank" rel="noopener">
+                    Heritage Auctions<!-- 
+                 --><br />2019 April 25 - 29 Central States World Coins & Ancient Coins Signature Auction - Chicago 3073<!-- 
+                 --><br />Lot 33585<!--
+             --></a>
+                <a href="https://web.archive.org/https://coins.ha.com/itm/portugal/portugal-republic-escudo-1935-vf-details-cleaned-ngc-/a/3073-33585.s?type=DA-DMC-NumistaWorldCoins-WorldCoins-3073-04252019" target="_blank" rel="noopener"><img src="https://en.numista.com/design/internet_archive.jpg" alt="Internet Archive" title="Internet Archive" class="icone" style="width:16px;" /></a>
+            </td>
+            <td class="sale_date">29 Apr 2019</td>
+                        <td class="sale_version">
+                1935                            </td>
+                        <td class="sale_grade">
+                <abbr title="Very Fine">VF</abbr>                <br /><span class="sales_details">(NGC VF Details (Cleaned))</span>            </td>
+            <td class="sale_price">
+                                <span class="unbreakable">BRL 1563.74</span>
+                <br /><span class="unbreakable sales_details">(USD 312.00)</span>                <br /><span class="sales_details">(incl. buyer's premium)</span>                                            </td>
+        </tr>
+                            <tr class="sale_copyright_row"><td class="sale_copyright" colspan="7">&copy; <a href="http://www.ha.com" target="_blank" rel="noopener">Heritage Auctions</a></td>
+                
+                </tbody>
+                
+                <tbody >
+                <tr>
+            <td class="sale_pictures">
+                <div>
+                    <!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/69a552743de91.jpg" data-zoomPic data-zoomPicGroup="sale784208"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/69a552743de91-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 --><!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/69a55274879f6.jpg" data-zoomPic data-zoomPicGroup="sale784208"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/69a55274879f6-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 --><!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/69a55274ba8cc.jpg" data-zoomPic data-zoomPicGroup="sale784208"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/69a55274ba8cc-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 -->                </div>
+            </td>
+            <td class="sale_auction">
+                                <a href="https://coins.ha.com/itm/portugal/republic-escudo-1939-ms65-pcgs-/p/61602-21001.s?type=DA-DMC-NumistaWorldCoins-WorldCoins-61602-03012026" target="_blank" rel="noopener">
+                    Heritage Auctions<!-- 
+                 --><br />2026 March 1 Spotlight: Brazil, Portugal, and Portuguese Colonies World Coins Showcase Auction  61602<!-- 
+                 --><br />Lot 24227<!--
+             --></a>
+                <a href="https://web.archive.org/https://coins.ha.com/itm/portugal/republic-escudo-1939-ms65-pcgs-/p/61602-21001.s?type=DA-DMC-NumistaWorldCoins-WorldCoins-61602-03012026" target="_blank" rel="noopener"><img src="https://en.numista.com/design/internet_archive.jpg" alt="Internet Archive" title="Internet Archive" class="icone" style="width:16px;" /></a>
+            </td>
+            <td class="sale_date">1 Mar 2026</td>
+                        <td class="sale_version">
+                1939                            </td>
+                        <td class="sale_grade">
+                <abbr title="Uncirculated">UNC</abbr>                <br /><span class="sales_details">(PCGS MS65)</span>            </td>
+            <td class="sale_price">
+                                <span class="unbreakable">BRL 5197.44</span>
+                <br /><span class="unbreakable sales_details">(USD 1037.00)</span>                <br /><span class="sales_details">(incl. buyer's premium)</span>                                            </td>
+        </tr>
+                            <tr class="sale_copyright_row"><td class="sale_copyright" colspan="7">&copy; <a href="http://www.ha.com" target="_blank" rel="noopener">Heritage Auctions</a></td>
+                
+                </tbody>
+                
+                <tbody >
+                <tr>
+            <td class="sale_pictures">
+                <div>
+                    <!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/6874b97f02c2b.jpg" data-zoomPic data-zoomPicGroup="sale705879"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/6874b97f02c2b-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 --><!-- 
+                 --><a href="https://en.numista.com/sales_archive/pictures/6874b97f653ce.jpg" data-zoomPic data-zoomPicGroup="sale705879"><!-- 
+                     --><img src="https://en.numista.com/sales_archive/pictures/6874b97f653ce-mini.jpg" alt="Picture 1 of a sold 1 Escudo" /><!--
+                 --></a><!-- 
+                 -->                </div>
+            </td>
+            <td class="sale_auction">
+                                <a href="https://coins.ha.com/itm/portugal/portugal-republic-escudo-1944-ms64-ngc-/a/61526-21101.s?type=DA-DMC-NumistaWorldCoins-WorldCoins-61526-07132025" target="_blank" rel="noopener">
+                    Heritage Auctions<!-- 
+                 --><br />2025 July 13 Spotlight: Brazil World Coins Showcase Auction  61526<!-- 
+                 --><br />Lot 21101<!--
+             --></a>
+                <a href="https://web.archive.org/https://coins.ha.com/itm/portugal/portugal-republic-escudo-1944-ms64-ngc-/a/61526-21101.s?type=DA-DMC-NumistaWorldCoins-WorldCoins-61526-07132025" target="_blank" rel="noopener"><img src="https://en.numista.com/design/internet_archive.jpg" alt="Internet Archive" title="Internet Archive" class="icone" style="width:16px;" /></a>
+            </td>
+            <td class="sale_date">13 Jul 2025</td>
+                        <td class="sale_version">
+                1944                            </td>
+                        <td class="sale_grade">
+                <abbr title="Uncirculated">UNC</abbr>                <br /><span class="sales_details">(NGC MS64)</span>            </td>
+            <td class="sale_price">
+                                <span class="unbreakable">BRL 1924.61</span>
+                <br /><span class="unbreakable sales_details">(USD 384.00)</span>                <br /><span class="sales_details">(incl. buyer's premium)</span>                                            </td>
+        </tr>
+                            <tr class="sale_copyright_row"><td class="sale_copyright" colspan="7">&copy; <a href="http://www.ha.com" target="_blank" rel="noopener">Heritage Auctions</a></td>
+                
+                </tbody>
+                
+            </table>
+    <a href="past_sales.php?id=907">
+                    See all 11 past sales            </a>
+</section>
+
+
+<section>
+            <h3>Related forum discussions</h3>
+        <ul>
+                                            <li><a href="../forum/topic37702.html">Azores km#46 vs Portugal km#664</a></li>
+                                                            <li><a href="../forum/topic93864.html">Show an upgraded coin</a></li>
+                                                            <li><a href="../forum/topic121610.html">Portugal Coin Issues</a></li>
+                                                            <li><a href="../forum/topic121645.html">Wrong measurements on portuguese coin?</a></li>
+                                                            <li><a href="../forum/topic4125.html">Inscription on Portuguese coins</a></li>
+                                    </ul>
+        <p style="margin-top: 1em">
+            <a href="../forum/ecrire_post.php?f=11&cid=907" class="button secondary">Discuss or ask a question</a>
+    </p>
+</section>
+
+<section id="fiche_contribuer">
+    <h3>Contribute to the catalogue</h3>
+    <a href="/catalogue/contributions/modifier.php?id=907">Modify or add data on this page</a><br />
+            <a href="/catalogue/contributions/new_set.php?collectible=907">Register a set with this type</a><br />
+        <a href="/sales_archive/add_sale.php?t=907">Register a past auction sale</a><br />
+    <a href="/catalogue/examples/new.php?type=907">Register an example of this type</a><br />
+    <a href="/catalogue/contributions/nouveau.php?duplicate=907">Duplicate this page</a><br />
+
+        </section>
+
+<div style="margin-top: 1em;">
+    Cite this page:    <a href="https://numista.com/907">https://numista.com/907</a>
+    (<a class="copy-link-button" href="javascript:void(0)" onclick="copyCurrentUrl('907')" title="copy permalink">copy permalink</a>)
+    <span id="copy_link_popup" class="confirmation_popup">
+        Permalink copied    </span>
+    <br/ >
+    Share:    <a href="https://www.facebook.com/dialog/feed?app_id=310945844752&link=https://en.numista.com/907&picture=https://en.numista.com/catalogue/photo907.jpeg" target="_blank" rel="noopener" style="margin: 0 0.5em 0 0.2em"><img src="/design/icones/facebook.svg" alt="Facebook" title="Facebook" style="vertical-align: -30%; width: 24px; height: 24px;" /></a>
+    <a href="https://twitter.com/intent/tweet/?url=https://numista.com/907&hashtags=Numista&related=xav_numista" target="_blank" rel="noopener"><img src="/design/icones/x.svg" alt="X (Twitter)" title="X (Twitter)" style="vertical-align: -30%; width: 24px; height: 24px;" /></a>
+</div>
+
+
+                            </main><!--
+             --><aside id="rightpub">
+                    
+                <script>
+                    $(function() {
+                        const literatureType = "";
+                        let salesPlaceholder = "See %s sale offers";
+                        const showGreysheet = "1";
+                        $.get("/catalogue/buy_coin.php", {id: "907", literature_type: ""})
+                            .done(function(response) {
+                                if(response.length>2) {
+                                    let responses = response.split("=*=*=*= SEPARATOR =*=*=*=");
+                                    $("#sale_offers").html(responses[0]).css("display", "block");
+                                    if (literatureType === "")
+                                        $("#ebay_coins").html(responses[1]);
+                                    $("#pub_space").addClass("ebay").css("min-height", $("#ebay_coins").height());
+                                                                       
+                                    if (responses[2] && parseInt(responses[2].trim(), 10) > 1)  {
+                                        $("#see_available_sales").css("display", "");
+                                        $("#see_available_sales span").text(salesPlaceholder.replace(`%s`, responses[2]));
+                                    }
+                                }
+                            });
+                        if (showGreysheet) 
+                            $.get("/catalogue/buy_coin.php", {id: "907", type: "greysheet"})
+                            .done(function(response) {
+                                if(response.length>2) {
+                                    let responses = response.split("=*=*=*= SEPARATOR =*=*=*=");
+                                    $("#sale_offers_greysheet").html(responses[0]).css("display", "block");
+                                    $("#ebay_coins").html(responses[1]);
+                                    $("#pub_space").addClass("ebay").css("min-height", $("#ebay_coins").height())
+                                }
+                            });
+                    });
+                </script>
+                <div id="ebay_coins" class="buy_coin_links" data-track-content data-content-name="ebay" data-content-piece="ebay_side"></div>                </aside>
+            </div>
+                    </div>
+
+        
+                <div id="bottompub_container">
+            <aside class="middle_element">
+                
+                <div data-fuse="incontent_footer" style="max-width: 1160px; max-height: 480px; overflow: hidden; position: relative;" data-track-content data-content-name="publift" data-content-piece="publift_incontent_footer"></div>            </aside>
+        </div>
+        
+        <footer id="global_footer">
+            <div class="middle_element">
+                <div role="navigation" class="footer_links">
+                    <a href="/info.php">About Numista</a>
+                    &ndash; <a href="/team.php">Numista Team</a>
+                    &ndash; <a href="/conditions.php">Terms of Use</a>
+                    &ndash; <a href="/privacy.php">Privacy policy</a>
+                    &ndash; <a href="/legal.php">Legal information</a>
+                    &ndash; <a href="/advertising.php">Advertise</a>
+                    &ndash; <a href="/release_notes.php">Releases</a>
+                    &ndash; <a href="/api/index.php">API</a>
+                                        &ndash; <a href="/contact.php">Contact us</a>
+                </div>
+                <p class="footer_copyright">
+                    Numista.com&nbsp;&nbsp;2007 &ndash; 2026                </p>
+                            </div>
+            <button type="button" id="top_link" title="Back to the top of the page" onclick="try{window.scrollTo({top:0,behavior:'smooth'})} catch(e){window.scrollTo(0,0)}">
+                <svg viewBox="0 0 4.3423414 4.3419189" height="21" width="21" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-8.4121625,-15.882612)"><path d="m 11.685058,18.037168 -0.813435,-0.813859 c -0.08022,-0.07973 -0.184538,-0.119591 -0.28829,-0.119591 -0.104739,0 -0.208491,0.03986 -0.287866,0.119591 l -0.8141413,0.813859 c -0.07938,0.07973 -0.119627,0.183444 -0.119627,0.288219 0,0.104422 0.04025,0.207786 0.119627,0.287514 0.07962,0.07973 0.183692,0.118886 0.288149,0.118886 0.103752,0 0.2080681,-0.03986 0.2878673,-0.118886 l 0.525991,-0.525992 0.525992,0.525992 c 0.0798,0.07973 0.184115,0.118886 0.28896,0.118886 0.103646,0 0.207398,-0.03986 0.286773,-0.118886 0.08008,-0.07973 0.119627,-0.183797 0.119627,-0.287514 0,-0.104775 -0.03955,-0.208492 -0.119627,-0.288219 z m -1.101725,2.187574 c -1.1983503,0 -2.1709593,-0.971902 -2.1709593,-2.171347 0,-1.199091 0.972609,-2.170994 2.1709593,-2.170994 1.199445,0 2.17096,0.971903 2.17096,2.170994 0,1.199445 -0.971515,2.171347 -2.17096,2.171347" /></g></svg>
+            </button>
+        </footer>
+    </div>
+
+    <div id="zoomedPic">
+        <div id="zoomedMain">
+            <button class="prev_pic_btn">&lt;</button>
+            <div id="zoomedContent"></div>
+            <button class="next_pic_btn">&gt;</button>
+        </div>
+    </div>
+
+        <script>
+        let date = new Date();
+        let diff = -date.getTimezoneOffset();
+        let xhr = new XMLHttpRequest();
+        xhr.open("GET", "/maj_decalage_horaire.php?f=" + diff, true);
+        xhr.send(null);
+    </script>
+    
+    
+    
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAACFbVUOSZNr5JXNW"></div>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"9a3ef6f8e61b4dadb709d2ec54963d0b","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
+        

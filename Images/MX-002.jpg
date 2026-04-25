@@ -1,0 +1,2019 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr" prefix="wgs84_pos: http://www.w3.org/2003/01/geo/wgs84_pos#  org: https://www.w3.org/TR/vocab-org/#org:  xs: http://www.w3.org/2001/XMLSchema#  ldp: http://www.w3.org/ns/ldp#  dc11: http://purl.org/dc/elements/1.1/  dcterms: http://purl.org/dc/terms/  nfo: http://www.semanticdesktop.org/ontologies/2007/03/22/nfo/v1.1/  ebucore: http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#  fedora: http://fedora.info/definitions/v4/repository#  owl: http://www.w3.org/2002/07/owl#  ore: http://www.openarchives.org/ore/terms/  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#  rdau: http://rdaregistry.info/Elements/u/  islandora: http://islandora.ca/  pcdm: http://pcdm.org/models#  use: http://pcdm.org/use#  iana: http://www.iana.org/assignments/relation/  premis: http://www.loc.gov/premis/rdf/v1#  premis3: http://www.loc.gov/premis/rdf/v3/  co: http://purl.org/co/  relators: http://id.loc.gov/vocabulary/relators/  content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " style="--color--primary-hue:0;--color--primary-saturation:0%;--color--primary-lightness:7">
+  <head>
+    <meta charset="utf-8" />
+<script>var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://datos.inah.gob.mx/matomo/" : "http://datos.inah.gob.mx/matomo/");_paq.push(["setSiteId", "6"]);_paq.push(["setTrackerUrl", u+"matomo.php"]);_paq.push(["setDoNotTrack", 1]);if (!window.matomo_search_results_active) {_paq.push(["trackPageView"]);}_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"matomo.js";s.parentNode.insertBefore(g,s);})();</script>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="geo.position" content="19.383436813272947, -99.11270584016027" />
+<meta name="geo.region" content="MX" />
+<link rel="canonical" href="https://repositorio.inah.gob.mx/o-166276" />
+<meta name="robots" content="nofollow, max-image-preview:large" />
+<meta name="original-source" content="https://repositorio.inah.gob.mx" />
+<link rel="image_src" href="/_flysystem/fedora/2024-05/pintura_3081.jpg" />
+<meta name="generator" content="Mediateca INAH" />
+<meta name="rights" content="México - Secretaría de Cultura - Instituto Nacional de Antropología e Historia" />
+<meta name="referrer" content="origin" />
+<meta property="og:determiner" content="" />
+<meta property="og:site_name" content="Repositorio Institucional INAH" />
+<meta property="og:url" content="https://repositorio.inah.gob.mx/o-166276" />
+<meta property="og:title" content="Alegoría de la República mexicana con símbolos masónicos" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="https://repositorio.inah.gob.mx/_flysystem/fedora/2024-05/pintura_3081.jpg" />
+<meta property="og:image:url" content="https://repositorio.inah.gob.mx/_flysystem/fedora/2024-05/pintura_3081.jpg" />
+<meta property="og:image:secure_url" content="https://repositorio.inah.gob.mx/_flysystem/fedora/2024-05/pintura_3081.jpg" />
+<meta property="og:image:type" content="JPG/JPEG" />
+<meta property="og:image:alt" content="Alegoría de la República mexicana con símbolos masónicos" />
+<meta property="og:see_also" content="https://repositorio.inah.gob.mx/o-166276" />
+<meta property="og:country_name" content="Mexico" />
+<meta property="og:email" content="mediateca@inah.gob.mx" />
+<meta property="og:locale" content="es_ES" />
+<meta property="article:author" content="Primitivo Miranda" />
+<meta property="article:author" content="" />
+<meta property="article:tag" content="" />
+<meta property="book:author" content="Primitivo Miranda" />
+<meta property="book:author" content="" />
+<meta name="dcterms.title" content="Alegoría de la República mexicana con símbolos masónicos" />
+<meta name="dcterms.creator" content="Primitivo Miranda" />
+<meta name="dcterms.subject" content="" />
+<meta name="dcterms.description" content="" />
+<meta name="dcterms.type" content="," />
+<meta name="dcterms.format" content=", , ," />
+<meta name="dcterms.identifier" content=", , ," />
+<meta name="dcterms.source" content="INAH," />
+<meta name="dcterms.relation" content="" />
+<meta name="dcterms.coverage" content="," />
+<meta name="dcterms.rights" content="Secretaría de Cultura. Instituto Nacional de Antropología e Hitsoria" />
+<meta name="dcterms.isReferencedBy" content="Repositorio INAH" />
+<meta name="dcterms.extent" content=", , [node:field_extent_height, ," />
+<meta name="dcterms.issued" content="Lun, 06/05/2024 - 17:29" />
+<meta name="dcterms.provenance" content="Instituto Nacional de Antropología e Historia," />
+<meta name="dcterms.abstract" content="" />
+<meta name="dcterms.accessRights" content="Creative Commons 4" />
+<meta name="dcterms.rightsHolder" content="Instituto Nacional de Antropología e Historia" />
+<meta name="dcterms.created" content="" />
+<meta name="dcterms.dateSubmitted" content="Lun, 06/05/2024 - 17:29" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:title" content="Alegoría de la República mexicana con símbolos masónicos" />
+<meta name="twitter:image:alt" content="Alegoría de la República mexicana con símbolos masónicos" />
+<meta name="twitter:image" content="https://repositorio.inah.gob.mx/_flysystem/fedora/2024-05/pintura_3081.jpg" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:500,500italic,600,600italic,700,700italic,italic,regular&amp;subset=latin-ext&amp;display=swap" media="all" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Article",
+            "image": {
+                "@type": "ImageObject",
+                "representativeOfPage": "True",
+                "url": "/_flysystem/fedora/2024-05/pintura_3081.jpg"
+            }
+        },
+        {
+            "@type": "CollectionPage",
+            "author": {
+                "@type": "GovernmentOrganization",
+                "name": "Instituto Nacional de Antropología e Historia",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "/sites/default/files/inrerfaz/repositorioinah.png"
+                }
+            },
+            "publisher": {
+                "@type": "GovernmentOrganization",
+                "name": "Instituto Nacional de Antropología e Historia"
+            },
+            "isAccessibleForFree": "True",
+            "inLanguage": "spanish"
+        }
+    ]
+}</script>
+<link rel="icon" href="/sites/default/files/recurso-45ollin_z.png" type="image/png" />
+<link rel="alternate" hreflang="es" href="https://repositorio.inah.gob.mx/o-166276" />
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <title>Alegoría de la República mexicana con símbolos masónicos</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_i6nmiVbx5jmENe8fgEDZohHcU0sRi2xo7OWZ0zTluZs.css?delta=0&amp;language=es&amp;theme=olivero&amp;include=eJxtkFFywyAMRC-EzZEYGeRUDUZEEkl9-ypO2nQy_WF4u4zQLpRiDG2P8LzMq3CzkMnAiFtSrJgtvnFaWbaQ_SV-2YAai4wOdX4pU6V21oCLJYNF40aNNqikDw4rYS1JsLNYPGB6QFh9xs5DVsgY75AKaa-wJ650ReFwwoYChSVdJP6FBKpoGj4vA2VPgx5_Hx_6AB6WlkG1oPjgIZmr58n3XO-23fgf1xfJ7CvskRu6H54bxSN3s2nByreXqpqwkLH8Sg2udDqanLp4IbIH7tgUoQicuEWvyUIHB4H-oT_FvpR5tD4WL_IDS9BdDbe4gGIYdCYPQO6xYYZ4COFKeNN4nPPGZVT8BkXSxxY" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_5QvFV6UgK6MAiMTdRHndc37MyCgrqNlw3OtdKzbj61M.css?delta=1&amp;language=es&amp;theme=olivero&amp;include=eJxtkFFywyAMRC-EzZEYGeRUDUZEEkl9-ypO2nQy_WF4u4zQLpRiDG2P8LzMq3CzkMnAiFtSrJgtvnFaWbaQ_SV-2YAai4wOdX4pU6V21oCLJYNF40aNNqikDw4rYS1JsLNYPGB6QFh9xs5DVsgY75AKaa-wJ650ReFwwoYChSVdJP6FBKpoGj4vA2VPgx5_Hx_6AB6WlkG1oPjgIZmr58n3XO-23fgf1xfJ7CvskRu6H54bxSN3s2nByreXqpqwkLH8Sg2udDqanLp4IbIH7tgUoQicuEWvyUIHB4H-oT_FvpR5tD4WL_IDS9BdDbe4gGIYdCYPQO6xYYZ4COFKeNN4nPPGZVT8BkXSxxY" />
+
+    <script src="/sites/default/files/js/js_NFkBoyLtrH77AExIe2zzcTsTf_fZuqCUuQiCjQY_bmw.js?scope=header&amp;delta=0&amp;language=es&amp;theme=olivero&amp;include=eJxtj1FywzAIRC-kRDO9ELOWiIMjCQfhtLl9NE6nzYe_gAWWB3J2RXtG_Cbni2nzgN7ZSdrCydXi0s9J1ye5UiqyTgrLBzOZe4LNyGqUmRy2sIPEuVLSRlev5SuhPdAPti_jML65a-WD7scuLT0kcbgMz85lzMQ_LII70jWMe84_vqHEbNuKcv5XTkXabXiocZQhWhvt5b6xjf_VauDJB_3U41ukTfYyzNzY9vfuFj8L2oF7qHCtGt8haJEHm8aGh8w77mk1qbBn0JVbZ2TDrG1AiIdNbuI0yVREnRPiLrwAeK2lgw"></script>
+
+    
+<link rel="preload" href="/core/themes/olivero/fonts/metropolis/Metropolis-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/core/themes/olivero/fonts/metropolis/Metropolis-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/core/themes/olivero/fonts/metropolis/Metropolis-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/core/themes/olivero/fonts/lora/lora-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <noscript><link rel="stylesheet" href="/core/themes/olivero/css/components/navigation/nav-primary-no-js.css?tdjuwz" />
+</noscript>
+  </head>
+  <body class="fontyourface path-node page-node-type-islandora-object">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Pasar al contenido principal
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div id="page-wrapper" class="page-wrapper">
+  <div id="page">
+
+          <header id="header" class="site-header" data-drupal-selector="site-header" role="banner">
+
+                <div class="site-header__fixable" data-drupal-selector="site-header-fixable">
+          <div class="site-header__initial">
+            <button class="sticky-header-toggle" data-drupal-selector="sticky-header-toggle" role="switch" aria-controls="site-header__inner" aria-label="Encabezamiento fijo" aria-checked="false">
+              <span class="sticky-header-toggle__icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </button>
+          </div>
+
+                    <div id="site-header__inner" class="site-header__inner" data-drupal-selector="site-header-inner">
+            <div class="container site-header__inner__container">
+
+              
+
+
+<div id="block-olivero-site-branding" class="contextual-region site-branding block block-system block-system-branding-block">
+  
+    <div data-contextual-id="block:block=olivero_site_branding:langcode=es" data-contextual-token="nXhlQIATQvuXgOiyL7FMdSzz9VLtdHd2KVWqitneJrQ" data-drupal-ajax-container=""></div>
+    <div class="site-branding__inner">
+          <a href="/" rel="home" class="site-branding__logo">
+        <img src="/sites/default/files/repositorio_b_0.png" alt="Inicio" fetchpriority="high" />
+      </a>
+          </div>
+</div>
+
+<div class="header-nav-overlay" data-drupal-selector="header-nav-overlay"></div>
+
+
+                              <div class="mobile-buttons" data-drupal-selector="mobile-buttons">
+                  <button class="mobile-nav-button" data-drupal-selector="mobile-nav-button" aria-label="Menú principal" aria-controls="header-nav" aria-expanded="false">
+                    <span class="mobile-nav-button__label">Menú</span>
+                    <span class="mobile-nav-button__icon"></span>
+                  </button>
+                </div>
+
+                <div id="header-nav" class="header-nav" data-drupal-selector="header-nav">
+                  
+<nav  id="block-olivero-main-menu" class="contextual-region primary-nav block block-menu navigation menu--main" aria-labelledby="block-olivero-main-menu-menu" role="navigation">
+            
+  <h2 class="visually-hidden block__title" id="block-olivero-main-menu-menu">Main navigation</h2>
+  <div data-contextual-id="block:block=olivero_main_menu:langcode=es|menu:menu=main:langcode=es" data-contextual-token="nR7CgAszVx6svDoM3fSux6n4_CTdybkM9trhs9GiWtI" data-drupal-ajax-container=""></div>
+        
+
+
+          
+        
+    <ul  class="menu primary-nav__menu primary-nav__menu--level-1" data-drupal-selector="primary-nav-menu--level-1">
+            
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="/" title="home" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children" data-drupal-link-system-path="&lt;front&gt;">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">INICIO</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="/search" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children" data-drupal-link-system-path="search">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">BUSCA</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--nolink primary-nav__menu-item--level-1 primary-nav__menu-item--has-children" data-drupal-selector="primary-nav-menu-item-has-children">
+                              
+                      <span class="primary-nav__menu-link primary-nav__menu-link--nolink primary-nav__menu-link--level-1 primary-nav__menu-link--has-children" data-drupal-selector="primary-nav-menu-link-has-children">Explora</span>
+
+                                                        
+                <button class="primary-nav__button-toggle" data-drupal-selector="primary-nav-submenu-toggle-button" aria-controls="primary-menu-item-123" aria-expanded="false" aria-hidden="true" tabindex="-1">
+                  <span class="visually-hidden">Explora sub-navegación</span>
+                  <span class="icon--menu-toggle"></span>
+                </button>
+              
+                                      
+              <span data-drupal-selector="primary-nav-menu-🥕" class="primary-nav__menu-🥕"></span>
+    
+    <ul  class="menu primary-nav__menu primary-nav__menu--level-2" data-drupal-selector="primary-nav-menu--level-2" id="primary-menu-item-123">
+            
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-2">
+                              
+                      <a href="/colecciones" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-2" data-drupal-link-system-path="colecciones">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-2">Colecciones</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-2">
+                              
+                      <a href="/acervos" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-2" data-drupal-link-system-path="acervos">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-2">ACERVOS</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-2">
+                              
+                      <a href="/naturaleza" title="Objetos por su naturaleza" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-2" data-drupal-link-system-path="naturaleza">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-2">Naturaleza</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-2">
+                              
+                      <a href="/proveedores" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-2" data-drupal-link-system-path="proveedores">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-2">Proveedores</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-2">
+                              
+                      <a href="/glosarios/tipo-recurso" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-2" data-drupal-link-system-path="glosarios/tipo-recurso">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-2">Recursos</span>
+          </a>
+
+            
+                  </li>
+          </ul>
+  
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1 primary-nav__menu-item--has-children" data-drupal-selector="primary-nav-menu-item-has-children">
+                              
+                      <a href="/blog" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1 primary-nav__menu-link--has-children" data-drupal-selector="primary-nav-menu-link-has-children" data-drupal-link-system-path="blog">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">Descubre</span>
+          </a>
+
+                                                        
+                <button class="primary-nav__button-toggle" data-drupal-selector="primary-nav-submenu-toggle-button" aria-controls="primary-menu-item-1234" aria-expanded="false" aria-hidden="true" tabindex="-1">
+                  <span class="visually-hidden">Descubre sub-navegación</span>
+                  <span class="icon--menu-toggle"></span>
+                </button>
+              
+                                      
+              <span data-drupal-selector="primary-nav-menu-🥕" class="primary-nav__menu-🥕"></span>
+    
+    <ul  class="menu primary-nav__menu primary-nav__menu--level-2" data-drupal-selector="primary-nav-menu--level-2" id="primary-menu-item-1234">
+            
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-2">
+                              
+                      <a href="/blog" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-2" data-drupal-link-system-path="blog">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-2">Blog</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-2">
+                              
+                      <a href="/indices" title="Índices de términos" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-2" data-drupal-link-system-path="indices">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-2">Índices</span>
+          </a>
+
+            
+                  </li>
+          </ul>
+  
+            
+                  </li>
+          </ul>
+  
+
+
+  </nav>
+
+
+                  
+                </div>
+                          </div>
+          </div>
+        </div>
+      </header>
+    
+    <div id="main-wrapper" class="layout-main-wrapper layout-container">
+      <div id="main" class="layout-main">
+        <div class="main-content">
+          <a id="main-content" tabindex="-1"></a>
+          
+          <div class="main-content__container container">
+            
+
+  <div class="region region--highlighted grid-full layout--pass--content-medium">
+    <div data-drupal-messages-fallback class="hidden messages-list"></div>
+
+  </div>
+
+            
+
+  <div class="region region--breadcrumb grid-full layout--pass--content-medium">
+    
+
+<div id="block-olivero-breadcrumbs" class="contextual-region block block-system block-system-breadcrumb-block">
+  
+    <div data-contextual-id="block:block=olivero_breadcrumbs:langcode=es" data-contextual-token="Oo_S-TWVrMahWB-s3fWrKqsdjsLQqEwrZ_Rn6lw75SQ" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+        <nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Ruta de navegación</h2>
+    <div class="breadcrumb__content">
+      <ol class="breadcrumb__list">
+                  <li class="breadcrumb__item">
+                          <a href="/" class="breadcrumb__link">Inicio</a>
+                      </li>
+                  <li class="breadcrumb__item">
+                          <a href="/c-25" class="breadcrumb__link">Pintura</a>
+                      </li>
+                  <li class="breadcrumb__item">
+                          <a href="/o-166276" class="breadcrumb__link">Alegoría de la República mexicana con símbolos masónicos</a>
+                      </li>
+              </ol>
+    </div>
+  </nav>
+
+    </div>
+  </div>
+
+  </div>
+
+
+                          <main role="main">
+                
+
+  <div class="region region--content-above grid-full layout--pass--content-medium">
+    
+
+<div id="block-olivero-page-title" class="contextual-region block block-core block-page-title-block">
+  
+  
+
+  <h1 class="title page-title"><span>
+  Alegoría de la República mexicana con símbolos masónicos
+</span>
+</h1>
+
+
+  <div data-contextual-id="block:block=olivero_page_title:langcode=es" data-contextual-token="rK0nz73ovUZjEow4Mxuvzo0lnQPRceTzfaWN8mL3e2Q" data-drupal-ajax-container=""></div>
+</div>
+
+
+<div id="block-openseadragon-block" class="contextual-region block block-openseadragon block-openseadragon-block">
+  
+    <div data-contextual-id="context_block:context=openseadragon_block&amp;reaction_id=blocks&amp;block_id=30e02221-7810-425f-abed-5b5f82da4612:langcode=es" data-contextual-token="60T8G7inWCHFCOMmPpKNytcLQmbwazgiowdAJl-ijX0" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div  class="openseadragon-viewer" id="openseadragon-viewer-iiif-manifest-block"></div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockmedia-display-blocks-source" id="block-views-block-media-display-blocks-source">
+  
+    <div data-contextual-id="context_block:context=default_media_display&amp;reaction_id=blocks&amp;block_id=d8ee2888-1246-46d8-a92e-1f9333fc585e:langcode=es|entity.view.edit_form:view=media_display_blocks:location=block&amp;name=media_display_blocks&amp;display_id=source&amp;langcode=es" data-contextual-token="aoq7uH7G0YPs01zu1_5P-zuWZSmPlcxGDUDw2pPbAK4" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div><div class="contextual-region view view-media-display-blocks view-id-media_display_blocks view-display-id-source js-view-dom-id-0d44081ad98a5c51422bcfab5ebb09ed02a588ef7f5c533e855e363ae2ac2263">
+  
+    <div data-contextual-id="entity.view.edit_form:view=media_display_blocks:location=block&amp;name=media_display_blocks&amp;display_id=source&amp;langcode=es" data-contextual-token="A0IAVMrhdmy8XKVzHM3T319YEf-EQAyN-D9eyJXnZZs" data-drupal-ajax-container=""></div>
+      
+      <div class="view-empty">
+      <div class="view view-media-display-blocks view-id-media_display_blocks view-display-id-source_original js-view-dom-id-a4600d8ca9a17af02352e076428bf07d15412bf383b714a50cb27987816ba8f7">
+  
+    
+      
+  
+          </div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+                
+
+  <div class="region region--content grid-full layout--pass--content-medium" id="content">
+    
+
+<div id="block-olivero-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="block__content">
+      
+
+<article data-history-node-id="166276" class="contextual-region node node--type-islandora-object node--promoted node--view-mode-full" about="/o-166276" typeof="pcdm:Object">
+  <header class="">
+    
+          <div data-contextual-id="node:node=166276:changed=1763495237&amp;langcode=es" data-contextual-token="WaP-NfiO5mes3WBeYxiFNX6iaylBbEisZzax4u2XpKg" data-drupal-ajax-container=""></div>  <span property="dcterms:title" content="Alegoría de la República mexicana con símbolos masónicos" class="hidden"></span>
+
+      </header>
+  <div class="node__content">
+          <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+  
+
+
+<div class="ebt-width-auto block ebt-block ebt-block-inline-blockebt-tabs block-layout-builder block-inline-blockebt-tabs block-revision-id-1 ebt-tabs-minimalist_tabs">
+  <div class="bg-inner"></div>
+  <div class="ebt-container">
+    
+        
+          
+      <div class="field field--name-field-ebt-tabs field--type-entity-reference-revisions field--label-hidden ebt-tabs-wrapper field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--ebt-tab paragraph--view-mode--default">
+                  <div class="ebt-tab-title">
+          
+            <div class="text-content clearfix field field--name-field-ebt-tab-title field--type-text field--label-hidden field__item"><p><i class="fa-solid fa-print uk-text-large"></i></p>
+</div>
+      
+        </div>
+        <div class="ebt-tab-content">
+          
+            <div class="field field--name-field-ebt-tab-block field--type-block-field field--label-hidden field__item">
+
+<div id="block-printlinks--2" class="block block-entity-print block-print-links">
+  
+    
+      <div class="block__content">
+      <div><div class="print__wrapper print__wrapper--pdf"><a href="/print/pdf/node/166276" class="print__link print__link--pdf">Ver PDF</a></div>
+</div>
+
+    </div>
+  </div>
+</div>
+      
+        </div>
+            </div>
+
+
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--ebt-tab paragraph--view-mode--default">
+                  <div class="ebt-tab-title">
+          
+            <div class="text-content clearfix field field--name-field-ebt-tab-title field--type-text field--label-hidden field__item"><p><i class="fa-solid fa-file-arrow-down uk-text-large" title="descargar"></i></p>
+</div>
+      
+        </div>
+        <div class="ebt-tab-content">
+          
+            <div class="field field--name-field-ebt-tab-views field--type-viewsreference field--label-hidden field__item"></div>
+      
+        </div>
+            </div>
+
+
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--ebt-tab paragraph--view-mode--default">
+                  <div class="ebt-tab-title">
+          
+            <div class="text-content clearfix field field--name-field-ebt-tab-title field--type-text field--label-hidden field__item"><p><i class="fa-solid fa-quote-left uk-text-large" title="Cita bibliografica"></i></p>
+</div>
+      
+        </div>
+        <div class="ebt-tab-content">
+          
+            <div class="field field--name-field-ebt-tab-block field--type-block-field field--label-hidden field__item">
+
+<div id="block-citationselectblock--2" class="block block-citation-select block-citation-select-block">
+  
+    
+      <div class="block__content">
+      <form class="citation-select-select-citation" data-drupal-selector="citation-select-select-citation-2" action="/o-166276" method="post" id="citation-select-select-citation--2" accept-charset="UTF-8">
+  <div class="citation-container js-form-wrapper form-wrapper" data-drupal-selector="edit-container-citation" id="edit-container-citation--2"><div class="left-col js-form-wrapper form-wrapper" data-drupal-selector="edit-citation-info" id="edit-citation-info--2"><select aria-label="Seleccione estilo de citación " data-drupal-selector="edit-citation-style" id="edit-citation-style--2" name="citation_style" class="form-select form-element form-element--type-select"><option value="" selected="selected"> - Seleccione estilo de citación - </option><option value="american_medical_association">American Medical Association 10th edition</option><option value="apa">American Psychological Association 6th edition</option><option value="chicago_author_date">Chicago Manual of Style 16th edition (author-date)</option><option value="modern_language_association">Modern Language Association 7th edition</option><option value="modern_language_association_8th_edition">Modern Language Association 8th edition</option></select><input data-drupal-selector="edit-nid" type="hidden" name="nid" value="166276" />
+<div id='formatted-bibliography'></div></div>
+<div class="right-col form-actions js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions--2"><input onclick="return false;" class="clipboard-button button js-form-submit form-submit" data-clipboard-target="#formatted-bibliography" data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" name="op" value=" Copiar Citación " />
+</div>
+</div>
+<input autocomplete="off" data-drupal-selector="form-mzi1ihraug-tug-csndow30udbvm17jctuojqq4evww" type="hidden" name="form_build_id" value="form-MzI1IhRAUg-TUg-csndOw30udbvm17JCtuOjQq4eVWw" />
+<input data-drupal-selector="edit-citation-select-select-citation-2" type="hidden" name="form_id" value="citation_select_select_citation" />
+
+</form>
+
+    </div>
+  </div>
+</div>
+      
+        </div>
+            </div>
+
+
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--ebt-tab paragraph--view-mode--default">
+                  <div class="ebt-tab-title">
+          
+            <div class="text-content clearfix field field--name-field-ebt-tab-title field--type-text field--label-hidden field__item"><p><i class="fa-solid fa-qrcode" title="Tarjeta QR"></i></p>
+</div>
+      
+        </div>
+        <div class="ebt-tab-content">
+          
+            <div class="field field--name-field-ebt-tab-block field--type-block-field field--label-hidden field__item">
+
+<div id="block-tarjetadeobjeto--2" class="contextual-region block block-block-content block-block-contentca63ec50-b464-4a75-a337-aa212b9162bd">
+  
+    <div data-contextual-id="block_content:block_content=64:changed=1767037781&amp;langcode=es" data-contextual-token="YW-zpA0dq3J9f6AR6Y8XVaXE26dcZjTXlB_EKlDIORU" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+        <div class="uk-container uk-width-large borde uk-flex uk-flex-center uk-padding-remove uk-margin-auto layout layout--onecol" id="card-qr">
+    <div  class="layout__region layout__region--content">
+      
+
+<div class="views-element-container contextual-region block block-views block-views-blockcard-repository-item-block-1">
+  
+    <div data-contextual-id="entity.view.edit_form:view=card_repository_item:location=block&amp;name=card_repository_item&amp;display_id=block_1&amp;langcode=es" data-contextual-token="ojzgHPVXTe10JW3BRgcdvnbGDjRGdzP14Kc0P6GmIgY" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="tarjeta-qr contextual-region view view-card-repository-item view-id-card_repository_item view-display-id-block_1 js-view-dom-id-aef65fd67a2d073fa68814c5562fb0f8fe9d6dcdbb449b693971be93685e62a1">
+  
+    <div data-contextual-id="entity.view.edit_form:view=card_repository_item:location=block&amp;name=card_repository_item&amp;display_id=block_1&amp;langcode=es" data-contextual-token="ojzgHPVXTe10JW3BRgcdvnbGDjRGdzP14Kc0P6GmIgY" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div id="tarjeta-qr-print" class="uk-card uk-card-small uk-align-center uk-margin-remove uk-padding-remove-top  uk-padding-remove-horizontal uk-padding-small-bottom">
+ <div class="uk-card-header uk-width-expand uk-padding-small uk-margin-small">
+<div class="uk-padding-small uk-padding-remove-vertical"><img src="/sites/default/files/inline-images/cultura_inah.png" alt="Secretaría de Cultura - Instituo Nacional de Antropología e Historia" width="auto" height="18" class="align-center uk-padding-remove uk-padding-vertical-small"></div>
+<div class="uk-card-media-top  uk-padding-small uk-padding-remove-vertical uk-margin-remove-bottom uk-margin-small  uk-height-1-1 uk-flex uk-flex-center uk-flex-middle">
+<div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-ba9b9042964c7de3d547e2f3d6a8e51eb2806627a8b270d4bd03171a0759aede">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=634163:changed=1715101731&amp;langcode=es" data-contextual-token="mYfCDWim6XjgJpWDlwYfL83aSPTnOtmItJI8ub24Fiw" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/_flysystem/fedora/styles/max_325x325/fedora/2024-05/pintura_3081.jpg?itok=yKBx_moj" width="313" height="325" alt="pintura_3081.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+
+</div>
+  <div class="uk-card-body uk-padding-small uk-padding-remove-bottom">
+  <div class="uk-text-center">
+   <h3 class=" uk-card-title uk-margin-remove"><a href="/o-166276" hreflang="es">Alegoría de la República mexicana con símbolos masónicos</a> </h3>
+<div class="uk-text-meta uk-list">Menaje y objetos en general/ Miniatura</div>
+<div class="uk-text-small"><a href="/taxonomy/term/48840" hreflang="es">Museo Nacional de Historia Castillo de Chapultepec</a> </div>
+<div class="uk-text-bolder uk-margin-top-small">Instituto Nacional de Antropología e Historia</div>
+<div class="uk-text-meta">https://repositorio.inah.gob.mx/o-166276</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+</span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="block block-generador-qr block-qr-block-mediateca">
+  
+    
+      <div class="block__content">
+      <div class="uk-flex uk-flex-center uk-flex-wrap">
+      <div class="generador-qr-container" data-qr-text="https://repositorio.inah.gob.mx/o-166276"></div>
+</div>
+
+
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="uk-flex uk-flex-center uk-width-1-1 layout layout--onecol">
+    <div  class="uk-text-center layout__region layout__region--content">
+      
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="uk-button uk-button-secondary uk-boton-large uk-width-large" id="boton_descarga" uk-icon="icon:download">Descargar tarjeta</div>
+</div>
+      
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+</div>
+      
+        </div>
+            </div>
+
+
+</div>
+          </div>
+  
+      </div>
+</div>
+
+
+
+<div class="block block-layout-builder block-extra-field-blocknodeislandora-objectnumber-of-items-in-collection-entity-view-4">
+  
+    
+      <div class="block__content">
+      <div class="views-element-container contextual-region"><div class="contextual-region view view-eva view-number-of-items-in-collection view-id-number_of_items_in_collection view-display-id-entity_view_4 js-view-dom-id-5a2d46522999ebe3e36fb92ddc52d256cd6fd7feaf42126f4218b2eadbbe6f9f">
+  
+    <div data-contextual-id="entity.view.edit_form:view=number_of_items_in_collection:location=view&amp;name=number_of_items_in_collection&amp;display_id&amp;langcode=es" data-contextual-token="-AdufM-mC7yFuvJL1CrRGDnJTF-gtr7GTBV6B6zvJmY" data-drupal-ajax-container=""></div>
+
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  </div>
+</div>
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="layout layout--twocol-section layout--twocol-section--67-33 uk-flex-nowrap@m uk-child-width-expand uk-flex uk-flex-wrap" style="max-width: 99%;">
+
+          <div  class="uk-padding-small layout__region layout__region--first">
+        
+
+<div class="views-element-container contextual-region uk-margin-bottom block block-views block-views-blockdatos-block-1">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_1&amp;langcode=es" data-contextual-token="ikBJ59V-ZzN2ow353U1JjbkPzC8dEc2Aa206pPmnVJg" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_1 js-view-dom-id-60e76c2fa2cf34c9e185d15d8f1f037b583cc39a1657dd30f3d240c4dcc39d7c">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_1&amp;langcode=es" data-contextual-token="ikBJ59V-ZzN2ow353U1JjbkPzC8dEc2Aa206pPmnVJg" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-full-title"><strong class="views-label views-label-field-full-title">Título completo</strong><div class="field-content uk-flex uk-flex-inline uk-flex-middle">Alegoría de la República mexicana con símbolos masónicos</div></div><div class="views-field views-field-title uk-flex uk-flex-inline"><strong class="views-label views-label-title">Título</strong><span class="field-content">Alegoría de la República mexicana con símbolos masónicos</span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-2">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_2&amp;langcode=es" data-contextual-token="BrSpVlrPjiqCG5vPStKbNPcwgisoikp1WKXIoSz4DLM" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_2 js-view-dom-id-2688aa6869ca5b1034bd775c23ee74b6c06afae490e44e9be855485b11e9cb72">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_2&amp;langcode=es" data-contextual-token="BrSpVlrPjiqCG5vPStKbNPcwgisoikp1WKXIoSz4DLM" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-abstract"><strong class="views-label views-label-field-abstract">Resumen</strong><div class="field-content">Acuarela miniatura sobre marfil montada en marco circular de madera laqueada con aplicación de lámina de metal dorado y cubierta de protección. Representación alegórica de la República mexicana con símbolos masónicos, elaborada a mediados del siglo XIX por el artista Primitivo Miranda. Se observa a la República mexicana encarnada en una mujer vistiendo indumentaria color azul con bordados y ribetes dorados, tocado de plumas y corona de oro, sujeta un mazo con su mano derecha y sobre ella un circulo de ocho estrellas con un triángulo radiante y un ojo en su centro. En el fondo se observa una muralla de arcos, una colina con una construcción en la cúspide y el sol radiante saliendo detrás de las montañas. En primer plano se observan un águila descendiendo y sujetando una serpiente, un ancla, un compás con regleta, una piedra angular con plomada, una cuchara de constructor, un incensario y un colmenar.</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-7">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_7&amp;langcode=es" data-contextual-token="W6hxUyAohqdTk6nNpliyvtI3jxuRIdCFv6s6oKoszww" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_7 js-view-dom-id-91f31ac4df4e10198dc820a832d5e0f534d8bb4098ef7804d4a1de6ba841956d">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_7&amp;langcode=es" data-contextual-token="W6hxUyAohqdTk6nNpliyvtI3jxuRIdCFv6s6oKoszww" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-language"><div class="views-label views-label-field-language block__title">Idioma</div><div class="field-content">Español</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-3">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_3&amp;langcode=es" data-contextual-token="Ae3ujKmxdCwWvUMtI8fBlHVdImthlgPtlBxOoxjqvj0" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_3 js-view-dom-id-bdf4aa8cac1f2971ea1ece5086908b7f66273893d817378513c4b7f095d07cca">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_3&amp;langcode=es" data-contextual-token="Ae3ujKmxdCwWvUMtI8fBlHVdImthlgPtlBxOoxjqvj0" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><span class="views-field views-field-field-linked-agent"><div class="views-label views-label-field-linked-agent block__title">Agentes</div><div class="field-content objeto-agentes">Creador (cre): <a href="/taxonomy/term/85977" hreflang="es">Primitivo Miranda</a></div></span></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-4">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_4&amp;langcode=es" data-contextual-token="MJIVurA4eHly297FyAmbHWdyUi8es9kzYlO_UeTcyxs" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_4 js-view-dom-id-5ea62ddb99dfe233b7f6e1aff6de92989e065c29c193d30fb544b1276e79a1a0">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_4&amp;langcode=es" data-contextual-token="MJIVurA4eHly297FyAmbHWdyUi8es9kzYlO_UeTcyxs" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="metadatos block__title"> Origen</div>
+<div class="views-field uk-flex"><strong class="views-label">Fecha de creación </strong>1850 (año aproximado)</div>
+
+
+
+
+
+
+
+</span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-6">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_6&amp;langcode=es" data-contextual-token="G-XhjBcsmTN3gfhVCcVeAEp_P_rxgpxL62jf828IWWg" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_6 js-view-dom-id-99ac0e9fb3cd8242c0569adb9458e66d093ef5eb0f8ef9f8b962a599a8af34d1">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_6&amp;langcode=es" data-contextual-token="G-XhjBcsmTN3gfhVCcVeAEp_P_rxgpxL62jf828IWWg" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="metadatos block__title"> Descripción</div>
+ <div class="views-field"><strong class="views-label">Inscripción </strong>Miranda pintó</div>  <div class="views-field"><strong class="views-label">Género </strong><a href="/taxonomy/term/48311" hreflang="es">Miniatura</a></div>  <div class="views-field"><strong class="views-label">Material </strong><a href="/taxonomy/term/46907" hreflang="es">Marfil</a>, <a href="/taxonomy/term/48361" hreflang="es">Pigmento a la acuarela</a>, <a href="/taxonomy/term/46802" hreflang="es">Madera</a>, <a href="/taxonomy/term/46971" hreflang="es">Metal</a></div>  <div class="views-field"><strong class="views-label">Técnica </strong> <a href="/taxonomy/term/48371" hreflang="es">Acuarela sobre marfil</a>, <a href="/taxonomy/term/46927" hreflang="es">Dorado</a> </div>  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-5">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_5&amp;langcode=es" data-contextual-token="Ni8CO9elzYgBgMl7HktU-kNawwvtQhhrINHaunSmNRE" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_5 js-view-dom-id-236b450c04e52a7924171dc7dcd0e3a5558d47e409b148e25e817bf57417e164">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_5&amp;langcode=es" data-contextual-token="Ni8CO9elzYgBgMl7HktU-kNawwvtQhhrINHaunSmNRE" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="metadatos block__title"> Cobertura</div>
+ <div class="views-field"><strong class="views-label">Tópico </strong><a href="/taxonomy/term/97827" hreflang="es">Símbolos patrios</a>, <a href="/taxonomy/term/97175" hreflang="es">Historia</a></div>  <div class="views-field"><strong class="views-label">Geográfica </strong><a href="/taxonomy/term/53546" hreflang="es">América</a> &gt;  <a href="/taxonomy/term/53549" hreflang="es">América del Norte</a> &gt;  <a href="/taxonomy/term/47932" hreflang="es">México</a></div> </span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-8">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_8&amp;langcode=es" data-contextual-token="DVVG01K7Ggodq0giiqnE98ZNPlwMJIUcmZfpcI1xgmA" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_8 js-view-dom-id-fa351cedab364be8cf5c815ef55c8ed802bbf18254807a976aaa4929a97357a5">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_8&amp;langcode=es" data-contextual-token="DVVG01K7Ggodq0giiqnE98ZNPlwMJIUcmZfpcI1xgmA" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="metadatos block__title"> Ubicación</div>
+<a href="/taxonomy/term/48840" hreflang="es">Museo Nacional de Historia Castillo de Chapultepec</a></span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-17">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_17&amp;langcode=es" data-contextual-token="ifBh1VA3SkbLGBkSez5ZXRpx09_Sr9HoHpRqI6KmPIU" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_17 js-view-dom-id-3a20ffd175deff48dedc9010290e579b5720fb5ebcfebc79bee13e3fa1f63274">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_17&amp;langcode=es" data-contextual-token="ifBh1VA3SkbLGBkSez5ZXRpx09_Sr9HoHpRqI6KmPIU" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-15">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_15&amp;langcode=es" data-contextual-token="fW6RE6aLoIhWu0LTW1VO05MQg9nfY3B6fQH07nq9gkA" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_15 js-view-dom-id-025da88d2bceb40b77540878709d9c57effd03ca6076df649cb5daeccc1105f3">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_15&amp;langcode=es" data-contextual-token="fW6RE6aLoIhWu0LTW1VO05MQg9nfY3B6fQH07nq9gkA" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div></div>
+<div></div>
+<div></div>
+</span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-16">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_16&amp;langcode=es" data-contextual-token="yY_1W3w2XPB1YN9wtszG3qGZAjirVKLA2Bfaq8rahB0" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_16 js-view-dom-id-196fb1c0c83458cd1a7d6aad074fe016a95c85e85553e87f09712cc84a2725de">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_16&amp;langcode=es" data-contextual-token="yY_1W3w2XPB1YN9wtszG3qGZAjirVKLA2Bfaq8rahB0" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="metadatos block__title"> Catalogación</div>
+<div class="">
+<div class=""><div><span class="uk-text-bold">Idioma </span> Español </div></div>
+<div class=""> </div>
+<div class=""> </div>
+</div>
+</span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+      </div>
+    
+          <div  class="uk-padding-small uk-width-1-1 layout__region layout__region--second">
+        
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-12">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_12&amp;langcode=es" data-contextual-token="NunADAErycSWYKVnM6OUHebxZ186kIrKSqV8fZwwJJ4" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_12 js-view-dom-id-8e5e259bef3c9f34beb5ecfb65f833bbe3dd5358cc0b2895f7d23e13678ce8a4">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_12&amp;langcode=es" data-contextual-token="NunADAErycSWYKVnM6OUHebxZ186kIrKSqV8fZwwJJ4" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content">                  <h2 class="block__title">Clasificación</h2>
+                                     <div class="views-field"><strong class="views-label">Naturaleza </strong><a href="/taxonomy/term/41566" hreflang="es">Menaje y objetos en general</a> &gt; <a href="/taxonomy/term/41581" hreflang="es">Pintura</a> &gt; <a href="/taxonomy/term/43326" hreflang="es">Miniatura</a></div>                    <div class="views-field"><strong class="views-label">Tipo de recurso </strong><a href="/taxonomy/term/31" hreflang="es">Conjunto</a></div>                                                       </span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-10">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_10&amp;langcode=es" data-contextual-token="ui829yP743CUWonvsADE1JnbunC3M69k2QXP5l_HmVI" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_10 js-view-dom-id-2b68e74056fa3195d45402d3ceda2b92e061766ab59b9e79eaec3bc3a25ecda7">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_10&amp;langcode=es" data-contextual-token="ui829yP743CUWonvsADE1JnbunC3M69k2QXP5l_HmVI" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><h2 class="block__title">Procedencia</h2>
+ <div class="views-field uk-flex"><strong class="views-label">Proveedor </strong></div><a href="/taxonomy/term/48840" hreflang="es">Museo Nacional de Historia Castillo de Chapultepec</a>  <div class="views-field uk-flex"><strong class="views-label">Propietario </strong></div><div class="cshs-term-group">
+  <div class="cshs-term-group__title" data-id="48840">
+     <a href="/taxonomy/term/48840" hreflang="es">Museo Nacional de Historia Castillo de Chapultepec</a>
+  </div>
+
+  </div>
+  <div class="views-field uk-flex"><strong class="views-label">INAH Adscripción </strong></div><a href="/taxonomy/term/52770" hreflang="es">Coordinación Nacional de Museos y Exposiciones</a> </br></span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-19">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_19&amp;langcode=es" data-contextual-token="kd9Gm6APt7MD8l_3kM7b14eFvhA7RMMmgLGH7RMEnf4" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_19 js-view-dom-id-0b559e1f820083f2f14ce4b0a76c81e09017c8993bb7c807dd5bf863063b7d11">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_19&amp;langcode=es" data-contextual-token="kd9Gm6APt7MD8l_3kM7b14eFvhA7RMMmgLGH7RMEnf4" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><h2 class="block__title">Parte de</h2>
+ <div class="views-field"><strong class="views-label uk-flex">Colección </strong><a href="/c-25" hreflang="es">Pintura</a> </div> </span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-11">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_11&amp;langcode=es" data-contextual-token="cK1EHSsk3A7hhGNIbzzOAs-FxZFEPpk5Zgs9Yn086J4" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_11 js-view-dom-id-f23419284b4ca0ac0a3bdcb237f9c97207fdc01a18b1f5305c7599d90604b7c2">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_11&amp;langcode=es" data-contextual-token="cK1EHSsk3A7hhGNIbzzOAs-FxZFEPpk5Zgs9Yn086J4" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><h2 class="block__title">Identificadores</h2>
+ <div class="views-field "><strong class="views-label">Inventario </strong>10-113557</div>  <div class="views-field"><strong class="views-label">Catálogo </strong>1.1.M.3.1_259</div>  <div class="views-field "><strong class="views-label">Identificador MID</strong>72_20150907-122000:10-113557</div>  <div class="views-field "><strong class="views-label">Otra identificación </strong>37</div>  <div class="views-field "><strong class="views-label">Registro/Ubicación </strong>1.1.M.3.1_259</div> </span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-14">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_14&amp;langcode=es" data-contextual-token="3wqgWNGAMsxwqb7aULD9RRc-g9GOckIAE6Hshwv_Ngc" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_14 js-view-dom-id-d10b270981cbdfaa6460e65b5473ac113d66f15bb41b75d507ec49d946e080a0">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_14&amp;langcode=es" data-contextual-token="3wqgWNGAMsxwqb7aULD9RRc-g9GOckIAE6Hshwv_Ngc" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nid"><strong class="views-label views-label-nid">ID Nodo: </strong><span class="field-content">166276</span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+      </div>
+    
+  </div>
+  <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+    </div>
+  </div>
+  <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+<div class="block block-layout-builder block-inline-blockseparador">
+  
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><hr>
+</div>
+      
+    </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="uk-padding uk-background-muted uk-margin-top uk-margin-bottom layout layout--onecol" id="bloque-permisos">
+    <div  class="layout__region layout__region--content">
+      
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-13">
+  
+      <h2 class="block__title">Derechos y Condiciones de uso</h2>
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_13&amp;langcode=es" data-contextual-token="SzhYN19LIbNg5FwQbr2ogPezsm4m5j6GhCOD0mUfAb0" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_13 js-view-dom-id-3a3310443acaddc4526ecc61cf1cd4324a0780a67c9334ef65595228f8db5f8d">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_13&amp;langcode=es" data-contextual-token="SzhYN19LIbNg5FwQbr2ogPezsm4m5j6GhCOD0mUfAb0" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-field-rights"><strong class="views-label views-label-field-rights uk-flex uk-flex-inline uk-flex-middle">Derechos : </strong><div class="field-content uk-flex uk-flex-inline uk-flex-middle  uk-margin-small">Instituto Nacional de Antropología e Historia</div></div><div class="views-field views-field-field-access-terms"><div class="field-content uk-margin-small"><div class="contextual-region" about="/taxonomy/term/47929">
+  
+    <div data-contextual-id="taxonomy_term:taxonomy_term=47929:changed=1754078827&amp;langcode=es" data-contextual-token="sWDEpLnCrevyun7VZE1f2Fc0sHLgOZgCpG__BrHB0fc" data-drupal-ajax-container=""></div>
+    <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+<div class="block block-layout-builder block-field-blocktaxonomy-termislandora-accessdescription">
+  
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-description field--type-text-long field--label-hidden field__item"><div class="uk-text-default uk-flex uk-flex-inline uk-flex-middle uk-flex-wrap uk-margin-remove uk-padding-remove">
+<div class="uk-margin-small-right"><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es" target="_blank"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png" alt="CC BY-NC-ND 4.0" width="113" height="40" loading="lazy"></a></div>
+<div>Esta obra se publica bajo una Licencia de uso <a class="uk-link" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es" target="_blank">Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional</a></div>
+</div>
+</div>
+      
+    </div>
+  </div>
+
+
+<div class="block block-layout-builder block-field-blocktaxonomy-termislandora-accessname">
+  
+    
+      <div class="block__content">
+      
+            <div class="field field--name-name field--type-string field--label-hidden field__item"><h2><a href="/taxonomy/term/47929" hreflang="es">CC BY-NC-ND 4.0</a></h2></div>
+      
+    </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+    </div>
+  </div>
+
+</div>
+</div></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container contextual-region block block-views block-views-blockdatos-block-18">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_18&amp;langcode=es" data-contextual-token="vvF8dnRFJyAjv_-9bQnd1UrnREFboThtNJns5gYMTis" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-datos view-id-datos view-display-id-block_18 js-view-dom-id-b2b5edf927d9078137f02fb21ff3b52c8dac555cd968ad3cc5260ce40c07e438">
+  
+    <div data-contextual-id="entity.view.edit_form:view=datos:location=block&amp;name=datos&amp;display_id=block_18&amp;langcode=es" data-contextual-token="vvF8dnRFJyAjv_-9bQnd1UrnREFboThtNJns5gYMTis" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="uk-child-width-1-2@m uk-flex" uk-grid>
+<div class="uk-light">La información y los archivos de esta página pueden ser utilizados siempre que no sea con propósitos comerciales, no se alteren y se acompañe de sus datos de referencia. Consulte <a href="/uso">aquí </a>las condiciones para otros usos. </br>Cualquier uso que se le dé a la totalidad o parcialidad de este contenido debe incluir de forma clara y visible todos sus créditos y contener el vínculo a esta página . Ejemplo:
+
+</div>
+
+<div id="" class="uk-container">
+<div id="toCopy">
+<div class="uk-text-bold">Alegoría de la República mexicana con símbolos masónicos</div>
+<div class="uk-text-bold"></div>
+<div class="uk-text-bold"></div>
+<div class="uk-text-bold">1850~ </div>
+<div class="uk-text-bold">Museo Nacional de Historia Castillo de Chapultepec. 
+  Coordinación Nacional de Museos y Exposiciones </div>
+<div class="uk-margin-remove uk-flex">© Secretaría de Cultura. Instituto Nacional de Antropología e Historia.</div>
+<div>CC BY-NC-ND 4.0</div>
+<div class="uk-light"><a href="https://repositorio.inah.gob.mx/o-166276">https://repositorio.inah.gob.mx/o-166276</a></div>
+</div>
+<div id="boton-copy" class="uk-button uk-button-default uk-margin-small-top">Copiar referencia</div>
+</div>
+
+</div></span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="layout layout--onecol">
+    <div >
+      
+    </div>
+  </div>
+  <div class="uk-margin-remove-bottom layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="">
+<h3 class="uk-text-left uk-text-uppercase block-title-home block-title">Este objeto forma parte de</h3>
+<div>&nbsp;</div>
+</div>
+</div>
+      
+    </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="uk-child-width-1-3@m uk-align-center layout layout--onecol">
+    <div >
+      
+    </div>
+  </div>
+  <div class="uk-flex uk-flex-center uk-flex-top layout layout--fourcol-section">
+
+          <div  class="layout__region layout__region--first">
+        
+
+<div class="views-element-container contextual-region block block-views block-views-blockrelaciones-block-2">
+  
+    <div data-contextual-id="entity.view.edit_form:view=relaciones:location=block&amp;name=relaciones&amp;display_id=block_2&amp;langcode=es" data-contextual-token="VMWhTFQsgP-iouuXjfex2NTIBfGRnjH38M1tBdI9Bj8" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-relaciones view-id-relaciones view-display-id-block_2 js-view-dom-id-84e7e87cbce2c35ff80d10bf9624c4f87a989aaf4f2f2e716a669c39befd54f0">
+  
+    <div data-contextual-id="entity.view.edit_form:view=relaciones:location=block&amp;name=relaciones&amp;display_id=block_2&amp;langcode=es" data-contextual-token="VMWhTFQsgP-iouuXjfex2NTIBfGRnjH38M1tBdI9Bj8" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div><div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-hover uk-grid-small uk-height-auto uk-width-medium uk-flex uk-flex-top uk-text-center" uk-grid>
+            <div class="uk-width-1-1 uk-padding-remove uk-margin-remove uk-first-column uk-height-small ">
+                  <a href="/c-25"><img class="uk-margin-auto uk-width-auto uk-height-auto uk-margin-auto" src="/sites/default/files/styles/medium/public/2025-05/pintura.png?itok=fFvoXqP2"></a>
+            </div>
+            <div class="uk-width-expand uk-margin-remove uk-padding-small">
+<div class="uk-margin-remove uk-text-meta">Colección</div>                
+<h4 class="uk-margin-remove"> <h4 class="uk-margin-remove"> <a href="/coleccion/25" hreflang="es">Pintura</a></h4></h4>
+               
+            </div>
+ </div></span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--second">
+        
+      </div>
+    
+          <div  class="layout__region layout__region--third">
+        
+
+<div class="views-element-container contextual-region block block-views block-views-blockproveedores-block-1">
+  
+    <div data-contextual-id="entity.view.edit_form:view=proveedores:location=block&amp;name=proveedores&amp;display_id=block_1&amp;langcode=es" data-contextual-token="XnCYHgZJfcEG_aEj9A1q32Vn5jSDMghyO0nRp8ibjQM" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-proveedores view-id-proveedores view-display-id-block_1 js-view-dom-id-8b2e4ab1fca9afa472ba733b8b69187bbb0002aebe4ee3e74192e940434afc98">
+  
+    <div data-contextual-id="entity.view.edit_form:view=proveedores:location=block&amp;name=proveedores&amp;display_id=block_1&amp;langcode=es" data-contextual-token="XnCYHgZJfcEG_aEj9A1q32Vn5jSDMghyO0nRp8ibjQM" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-hover uk-grid-small uk-height-auto uk-width-medium uk-flex uk-flex-top uk-text-center" uk-grid>
+            <div class="uk-width-1-1  uk-flex uk-flex-top uk-flex-center uk-margin-remove uk-paading-remove uk-height-small">
+                 <a href="/taxonomy/term/48840"> <img class="uk-margin-auto uk-width-auto uk-height-small" src="/sites/default/files/styles/medium/public/2024-04/mnh_chapultepec.png?itok=RJt_83rf"> </a>
+            </div>
+            <div class="uk-width-expand  uk-padding-small">
+<div class="uk-margin-remove uk-text-meta">Ubicación</div>                
+<h4 class="uk-margin-remove"> <a href="/taxonomy/term/48840" hreflang="es">Museo Nacional de Historia Castillo de Chapultepec</a></h4>
+               
+            </div>
+ </div></span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--fourth">
+        
+
+<div class="views-element-container contextual-region block block-views block-views-blockrelaciones-block-3">
+  
+    <div data-contextual-id="entity.view.edit_form:view=relaciones:location=block&amp;name=relaciones&amp;display_id=block_3&amp;langcode=es" data-contextual-token="Wv0ff0IeklRrQEk8uljeD_1iJC2x55w_B6IvwWcHh1w" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="contextual-region view view-relaciones view-id-relaciones view-display-id-block_3 js-view-dom-id-7c7eeb8b75dd4ab95576e4ba881775bfe2f2ea1fc870b376405d14b91c17b802">
+  
+    <div data-contextual-id="entity.view.edit_form:view=relaciones:location=block&amp;name=relaciones&amp;display_id=block_3&amp;langcode=es" data-contextual-token="Wv0ff0IeklRrQEk8uljeD_1iJC2x55w_B6IvwWcHh1w" data-drupal-ajax-container=""></div>
+      
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+      </div>
+    
+  </div>
+  <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+    </div>
+  </div>
+
+  </div>
+  </article>
+
+    </div>
+  </div>
+
+  </div>
+
+              </main>
+                        
+
+
+  <div class="region region--content-below">
+    
+
+<div id="block-olivero-tarjetadeobjeto" class="uk-flex uk-flex-center contextual-region block block-block-content block-block-contentca63ec50-b464-4a75-a337-aa212b9162bd">
+  
+    <div data-contextual-id="block:block=olivero_tarjetadeobjeto:langcode=es|block_content:block_content=64:changed=1767037781&amp;langcode=es" data-contextual-token="nqQ_PlYD-OqCvO6rrwqX5Ia3B0HTXTAjd2AlAsr6kqg" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+        <div class="uk-container uk-width-large borde uk-flex uk-flex-center uk-padding-remove uk-margin-auto layout layout--onecol" id="card-qr">
+    <div  class="layout__region layout__region--content">
+      
+
+<div class="views-element-container contextual-region block block-views block-views-blockcard-repository-item-block-1">
+  
+    <div data-contextual-id="entity.view.edit_form:view=card_repository_item:location=block&amp;name=card_repository_item&amp;display_id=block_1&amp;langcode=es" data-contextual-token="ojzgHPVXTe10JW3BRgcdvnbGDjRGdzP14Kc0P6GmIgY" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div class="contextual-region"><div class="tarjeta-qr contextual-region view view-card-repository-item view-id-card_repository_item view-display-id-block_1 js-view-dom-id-00d4856c7143ee741140e0fc89d56c088a7ada8cfd74966c998043ceeb986888">
+  
+    <div data-contextual-id="entity.view.edit_form:view=card_repository_item:location=block&amp;name=card_repository_item&amp;display_id=block_1&amp;langcode=es" data-contextual-token="ojzgHPVXTe10JW3BRgcdvnbGDjRGdzP14Kc0P6GmIgY" data-drupal-ajax-container=""></div>
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-nothing"><span class="field-content"><div id="tarjeta-qr-print" class="uk-card uk-card-small uk-align-center uk-margin-remove uk-padding-remove-top  uk-padding-remove-horizontal uk-padding-small-bottom">
+ <div class="uk-card-header uk-width-expand uk-padding-small uk-margin-small">
+<div class="uk-padding-small uk-padding-remove-vertical"><img src="/sites/default/files/inline-images/cultura_inah.png" alt="Secretaría de Cultura - Instituo Nacional de Antropología e Historia" width="auto" height="18" class="align-center uk-padding-remove uk-padding-vertical-small"></div>
+<div class="uk-card-media-top  uk-padding-small uk-padding-remove-vertical uk-margin-remove-bottom uk-margin-small  uk-height-1-1 uk-flex uk-flex-center uk-flex-middle">
+<div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-ba9b9042964c7de3d547e2f3d6a8e51eb2806627a8b270d4bd03171a0759aede">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=634163:changed=1715101731&amp;langcode=es" data-contextual-token="mYfCDWim6XjgJpWDlwYfL83aSPTnOtmItJI8ub24Fiw" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/_flysystem/fedora/styles/max_325x325/fedora/2024-05/pintura_3081.jpg?itok=yKBx_moj" width="313" height="325" alt="pintura_3081.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+
+</div>
+  <div class="uk-card-body uk-padding-small uk-padding-remove-bottom">
+  <div class="uk-text-center">
+   <h3 class=" uk-card-title uk-margin-remove"><a href="/o-166276" hreflang="es">Alegoría de la República mexicana con símbolos masónicos</a> </h3>
+<div class="uk-text-meta uk-list">Menaje y objetos en general/ Miniatura</div>
+<div class="uk-text-small"><a href="/taxonomy/term/48840" hreflang="es">Museo Nacional de Historia Castillo de Chapultepec</a> </div>
+<div class="uk-text-bolder uk-margin-top-small">Instituto Nacional de Antropología e Historia</div>
+<div class="uk-text-meta">https://repositorio.inah.gob.mx/o-166276</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+</span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div class="block block-generador-qr block-qr-block-mediateca">
+  
+    
+      <div class="block__content">
+      <div class="uk-flex uk-flex-center uk-flex-wrap">
+      <div class="generador-qr-container" data-qr-text="https://repositorio.inah.gob.mx/o-166276"></div>
+</div>
+
+
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="uk-flex uk-flex-center uk-width-1-1 layout layout--onecol">
+    <div  class="uk-text-center layout__region layout__region--content">
+      
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="uk-button uk-button-secondary uk-boton-large uk-width-large" id="boton_descarga" uk-icon="icon:download">Descargar tarjeta</div>
+</div>
+      
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+
+<div class="views-element-container uk-padding-small uk-padding-largel uk-margin-remove contextual-region block block-views block-views-blockmas-objetos-block-1" id="obj-mas-objetos">
+  
+    <div data-contextual-id="block:block=olivero_views_block__mas_objetos_block_1:langcode=es|entity.view.edit_form:view=mas_objetos:location=block&amp;name=mas_objetos&amp;display_id=block_1&amp;langcode=es" data-contextual-token="4bRnhvhOqZXUIPhBtVBoQ9IyevgcgNwDfYCMjZYECuk" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <div><div class="contextual-region view view-mas-objetos view-id-mas_objetos view-display-id-block_1 js-view-dom-id-4abdd6f0df60f6f9f075546c3ae8e7cc3b62241d13abf276248ba0e6fb482172">
+  
+    <div data-contextual-id="entity.view.edit_form:view=mas_objetos:location=block&amp;name=mas_objetos&amp;display_id=block_1&amp;langcode=es" data-contextual-token="EOhgfZ7jynJRo7KzJmXVVGPI4uJNR5Pk-DT_Pf4p-X0" data-drupal-ajax-container=""></div>
+      <div class="view-header">
+      <div class="uk-margin-small uk-padding-large-bottom">
+<div class="">
+<h3 class="uk-text-left uk-text-uppercase block-title-home">
+               Otros objetos<br />
+            </h3>
+<div>
+</div>
+</div>
+</div>
+
+    </div>
+      
+      <div class="view-content">
+      
+
+
+
+
+
+
+
+
+<div data-uk-slider="autoplay: 1; autoplay-interval: 6000; index: 0; pause-on-hover: 1; velocity: 1" class="uk-slider uk-slider-container uk-position-relative uk-visible-toggle">
+
+  
+                <ul data-uk-grid="" class="uk-slider-items uk-grid uk-grid-small uk-child-width-1-1 uk-child-width-1-1@s uk-child-width-1-3@m uk-child-width-1-5@l uk-child-width-1-5@xl" data-uk-height-match="target: uk-width-expand uk-flex uk-flex-center">
+                        <li>
+                                  <div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-default uk-card-small uk-card-hover">
+            <div class="uk-card-media-top uk-align-center uk-padding-remove-bottom uk-margin-remove uk-height-max-medium uk-cover-container uk-flex uk-flex-center">
+<a href="/node/6359">
+                  <div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-a0c71e72e09061bd57f46e73a3b16ca154bd2ffeef5bee451a10ceaeb5300111">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=17076:changed=1700861741&amp;langcode=es" data-contextual-token="KlIbpxlv9FF6VF3nky98UyuIpTtqElhg4QXNvO_keKA" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/styles/max_325x325/public/2023-11/pintura_2900-Thumbnail%20Image.jpg?itok=zvJDnPmX" width="163" height="220" alt="pintura_2900-Thumbnail Image.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+</a>
+            </div>
+            <div class="uk-card-body uk-height-auto">
+                <h4 class="uk-margin-remove"><a href="/node/6359" hreflang="es">Símbolos de la República mexicana</a></h4>
+              <div class="uk-margin-remove uk-text-meta taxo-list">Menaje y objetos en general  » Miniatura </div> 
+            </div>
+        </div></span></div>
+                              </li>
+                        <li>
+                                  <div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-default uk-card-small uk-card-hover">
+            <div class="uk-card-media-top uk-align-center uk-padding-remove-bottom uk-margin-remove uk-height-max-medium uk-cover-container uk-flex uk-flex-center">
+<a href="/node/6471">
+                  <div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-f4bd054d6c9130ad9979489fbff96ecd6c5776bc5a86b9a42849f9298ae7d158">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=17419:changed=1700862484&amp;langcode=es" data-contextual-token="ELRalazMl8F6f_dOipWYb6IwMsnER76sgY2HeOzHMwM" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/styles/max_325x325/public/2023-11/pintura_3013-Thumbnail%20Image.jpg?itok=34DdmaMW" width="200" height="220" alt="pintura_3013-Thumbnail Image.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+</a>
+            </div>
+            <div class="uk-card-body uk-height-auto">
+                <h4 class="uk-margin-remove"><a href="/node/6471" hreflang="es">Personaje masculino</a></h4>
+              <div class="uk-margin-remove uk-text-meta taxo-list">Menaje y objetos en general  » Miniatura </div> 
+            </div>
+        </div></span></div>
+                              </li>
+                        <li>
+                                  <div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-default uk-card-small uk-card-hover">
+            <div class="uk-card-media-top uk-align-center uk-padding-remove-bottom uk-margin-remove uk-height-max-medium uk-cover-container uk-flex uk-flex-center">
+<a href="/node/6389">
+                  <div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-42e2cfa1b58990a872e0a8ca8ff56f513ecac79848b9ad8c140eb775f4442307">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=17158:changed=1700861922&amp;langcode=es" data-contextual-token="S8DhsklsEw_MC8C8oKIBTuO6VYs1sUm38S7_uY3HLSs" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/styles/max_325x325/public/2023-11/pintura_2930-Thumbnail%20Image.jpg?itok=TMo8NxAb" width="218" height="220" alt="pintura_2930-Thumbnail Image.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+</a>
+            </div>
+            <div class="uk-card-body uk-height-auto">
+                <h4 class="uk-margin-remove"><a href="/node/6389" hreflang="es">Dama (Sibila o La Música)</a></h4>
+              <div class="uk-margin-remove uk-text-meta taxo-list">Menaje y objetos en general  » Miniatura </div> 
+            </div>
+        </div></span></div>
+                              </li>
+                        <li>
+                                  <div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-default uk-card-small uk-card-hover">
+            <div class="uk-card-media-top uk-align-center uk-padding-remove-bottom uk-margin-remove uk-height-max-medium uk-cover-container uk-flex uk-flex-center">
+<a href="/node/6407">
+                  <div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-80898b87409445a44873e66937869fa1b598589c0a953c28bc319ecc3cc42d8a">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=17210:changed=1700862056&amp;langcode=es" data-contextual-token="DVU_m0flCiwmAnbX1jEbe-WSS5hMdcf15j7o9TapHVY" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/styles/max_325x325/public/2023-11/pintura_2948-Thumbnail%20Image.jpg?itok=FkfCwnUv" width="190" height="220" alt="pintura_2948-Thumbnail Image.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+</a>
+            </div>
+            <div class="uk-card-body uk-height-auto">
+                <h4 class="uk-margin-remove"><a href="/node/6407" hreflang="es">Eclesiástico</a></h4>
+              <div class="uk-margin-remove uk-text-meta taxo-list">Menaje y objetos en general  » Miniatura </div> 
+            </div>
+        </div></span></div>
+                              </li>
+                        <li>
+                                  <div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-default uk-card-small uk-card-hover">
+            <div class="uk-card-media-top uk-align-center uk-padding-remove-bottom uk-margin-remove uk-height-max-medium uk-cover-container uk-flex uk-flex-center">
+<a href="/node/6503">
+                  <div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-eefb7316fb7e35c227affd6211f55238bbb4064e669de205e6f043fea5cad042">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=17551:changed=1700862712&amp;langcode=es" data-contextual-token="D_1dKoq86zyHy2lceNiLMmXjm1fqPnr6dlqCPUNofLY" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/styles/max_325x325/public/2023-11/pintura_3045-Thumbnail%20Image.jpg?itok=TYATj5hA" width="185" height="220" alt="pintura_3045-Thumbnail Image.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+</a>
+            </div>
+            <div class="uk-card-body uk-height-auto">
+                <h4 class="uk-margin-remove"><a href="/node/6503" hreflang="es">Dama</a></h4>
+              <div class="uk-margin-remove uk-text-meta taxo-list">Menaje y objetos en general  » Miniatura </div> 
+            </div>
+        </div></span></div>
+                              </li>
+                        <li>
+                                  <div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-default uk-card-small uk-card-hover">
+            <div class="uk-card-media-top uk-align-center uk-padding-remove-bottom uk-margin-remove uk-height-max-medium uk-cover-container uk-flex uk-flex-center">
+<a href="/node/6469">
+                  <div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-4e6ff86a6f933d9c037be442caa7a62e386de3d34202bf6798e86c17808d3656">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=17411:changed=1700862472&amp;langcode=es" data-contextual-token="5Cwilow7kwzfieLpdCi3NwFKpWzYKabgxtACmTYqupE" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/styles/max_325x325/public/2023-11/pintura_3011-Thumbnail%20Image.jpg?itok=wjqn2oqz" width="217" height="220" alt="pintura_3011-Thumbnail Image.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+</a>
+            </div>
+            <div class="uk-card-body uk-height-auto">
+                <h4 class="uk-margin-remove"><a href="/node/6469" hreflang="es">Interior de una casa</a></h4>
+              <div class="uk-margin-remove uk-text-meta taxo-list">Menaje y objetos en general  » Miniatura </div> 
+            </div>
+        </div></span></div>
+                              </li>
+                        <li>
+                                  <div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-default uk-card-small uk-card-hover">
+            <div class="uk-card-media-top uk-align-center uk-padding-remove-bottom uk-margin-remove uk-height-max-medium uk-cover-container uk-flex uk-flex-center">
+<a href="/node/6493">
+                  <div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-860898f5025ae02505850399e71066a842e2798369e097eac45c1ad14c14ffb2">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=17512:changed=1700862643&amp;langcode=es" data-contextual-token="iPygTACirlWUrP3HXLaerliO_AFqaNYfhnS-hjMdNT8" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/styles/max_325x325/public/2023-11/pintura_3035-Thumbnail%20Image.jpg?itok=BQsF3d1c" width="176" height="220" alt="pintura_3035-Thumbnail Image.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+</a>
+            </div>
+            <div class="uk-card-body uk-height-auto">
+                <h4 class="uk-margin-remove"><a href="/node/6493" hreflang="es">Personaje masculino</a></h4>
+              <div class="uk-margin-remove uk-text-meta taxo-list">Menaje y objetos en general  » Miniatura </div> 
+            </div>
+        </div></span></div>
+                              </li>
+                        <li>
+                                  <div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-default uk-card-small uk-card-hover">
+            <div class="uk-card-media-top uk-align-center uk-padding-remove-bottom uk-margin-remove uk-height-max-medium uk-cover-container uk-flex uk-flex-center">
+<a href="/node/6501">
+                  <div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-b1d52b05a3728d635274a7231eb32b38ba284dfa640d5df87df824d98e17e195">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=17542:changed=1700862695&amp;langcode=es" data-contextual-token="f7JPKidKYNJ-5SF5I3sxVYY_x2h44o59FWRYiY2VcyU" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/styles/max_325x325/public/2023-11/pintura_3043-Thumbnail%20Image.jpg?itok=i7Vv6Ha3" width="188" height="220" alt="pintura_3043-Thumbnail Image.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+</a>
+            </div>
+            <div class="uk-card-body uk-height-auto">
+                <h4 class="uk-margin-remove"><a href="/node/6501" hreflang="es">Militar</a></h4>
+              <div class="uk-margin-remove uk-text-meta taxo-list">Menaje y objetos en general  » Miniatura </div> 
+            </div>
+        </div></span></div>
+                              </li>
+                        <li>
+                                  <div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-default uk-card-small uk-card-hover">
+            <div class="uk-card-media-top uk-align-center uk-padding-remove-bottom uk-margin-remove uk-height-max-medium uk-cover-container uk-flex uk-flex-center">
+<a href="/node/166273">
+                  <div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-9351093e1b2ff8def1febbaab7178ca62ac2c3a694d265c8330d1a96c14737d4">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=634160:changed=1715101727&amp;langcode=es" data-contextual-token="YKYiYjIzddZZrwGJVe0pDbX4O5mDg5jc4AI4uwVgSwg" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/_flysystem/fedora/styles/max_325x325/fedora/2024-05/pintura_3072.jpg?itok=A6CgcZxh" width="325" height="216" alt="pintura_3072.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+</a>
+            </div>
+            <div class="uk-card-body uk-height-auto">
+                <h4 class="uk-margin-remove"><a href="/o-166273" hreflang="es">Personaje masculino</a></h4>
+              <div class="uk-margin-remove uk-text-meta taxo-list">Menaje y objetos en general  » Miniatura </div> 
+            </div>
+        </div></span></div>
+                              </li>
+                        <li>
+                                  <div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-default uk-card-small uk-card-hover">
+            <div class="uk-card-media-top uk-align-center uk-padding-remove-bottom uk-margin-remove uk-height-max-medium uk-cover-container uk-flex uk-flex-center">
+<a href="/node/6318">
+                  <div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-cd103f6d98c40d8c7b7d99a1717691a9bc0abc626129c94380ff7949ce7754ed">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=16952:changed=1700861439&amp;langcode=es" data-contextual-token="lpUgIRkaQNYnJONG_-CGkvdZz5uiEPkfIkl-SF9nxTU" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/styles/max_325x325/public/2023-11/pintura_2859-Thumbnail%20Image.jpg?itok=cSni7Tou" width="195" height="220" alt="pintura_2859-Thumbnail Image.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+</a>
+            </div>
+            <div class="uk-card-body uk-height-auto">
+                <h4 class="uk-margin-remove"><a href="/node/6318" hreflang="es">Dama</a></h4>
+              <div class="uk-margin-remove uk-text-meta taxo-list">Menaje y objetos en general  » Miniatura </div> 
+            </div>
+        </div></span></div>
+                              </li>
+                        <li>
+                                  <div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-default uk-card-small uk-card-hover">
+            <div class="uk-card-media-top uk-align-center uk-padding-remove-bottom uk-margin-remove uk-height-max-medium uk-cover-container uk-flex uk-flex-center">
+<a href="/node/6319">
+                  <div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-465f8243054705890511b7c40a3052e661fb44ea8f5f83f0d70bd89ba10b8658">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=16955:changed=1700861447&amp;langcode=es" data-contextual-token="BlKd380nI6tfOuHqmekrvqfgCwjJcKrdLtAMv6dGv4w" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/styles/max_325x325/public/2023-11/pintura_2860-Thumbnail%20Image.jpg?itok=tWykLt7B" width="195" height="220" alt="pintura_2860-Thumbnail Image.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+</a>
+            </div>
+            <div class="uk-card-body uk-height-auto">
+                <h4 class="uk-margin-remove"><a href="/node/6319" hreflang="es">Personaje masculino</a></h4>
+              <div class="uk-margin-remove uk-text-meta taxo-list">Menaje y objetos en general  » Miniatura </div> 
+            </div>
+        </div></span></div>
+                              </li>
+                        <li>
+                                  <div class="views-field views-field-nothing"><span class="field-content"><div class="uk-card  uk-card-default uk-card-small uk-card-hover">
+            <div class="uk-card-media-top uk-align-center uk-padding-remove-bottom uk-margin-remove uk-height-max-medium uk-cover-container uk-flex uk-flex-center">
+<a href="/node/6323">
+                  <div class="view view-thumbnail view-id-thumbnail view-display-id-block_2 js-view-dom-id-6af98b79073abc0c8e40273c19a921b351b6699360c4ee469bdb84f0d3691b5e">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="contextual-region media media--type-image media--view-mode-thumbnail">
+  <div data-contextual-id="media:media=16966:changed=1700861476&amp;langcode=es" data-contextual-token="x9QzCOJvtf-YZQicbQYXbfWbTx-alFnycf6Aqkw3UKQ" data-drupal-ajax-container=""></div>
+      
+            <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/styles/max_325x325/public/2023-11/pintura_2864-Thumbnail%20Image.jpg?itok=cQGCgB95" width="168" height="220" alt="pintura_2864-Thumbnail Image.jpg" typeof="Image" />
+
+
+</div>
+      
+  </div>
+</div>
+
+    </div>
+  
+          </div>
+</a>
+            </div>
+            <div class="uk-card-body uk-height-auto">
+                <h4 class="uk-margin-remove"><a href="/node/6323" hreflang="es">Niño con caballito</a></h4>
+              <div class="uk-margin-remove uk-text-meta taxo-list">Menaje y objetos en general  » Miniatura </div> 
+            </div>
+        </div></span></div>
+                              </li>
+                  </ul>
+
+    
+        
+  
+    
+    </div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+<div id="to-top" class="uk-margin-small contextual-region block block-block-content block-block-content0cf4badd-9b9d-418d-8e82-b909eae90e82">
+  
+    <div data-contextual-id="block:block=olivero_totop:langcode=es|block_content:block_content=25:changed=1736988903&amp;langcode=es" data-contextual-token="68BdzGzJB1oHOLfGA5vTi2_AGo-SvzynR0myihEvkIw" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="uk-width-1-1 uk-text-right uk-padding"><a class="uk-text-large uk-text-bold" href="#" uk-totop="" uk-scroll="" title="Ir al inicio"></a></div>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+          </div>
+        </div>
+        <div class="social-bar">
+          
+<div class="social-bar__inner fixable">
+  <div class="rotate">
+    
+
+<div id="block-olivero-addtoanysharebuttons" class="contextual-region block block-addtoany block-addtoany-block">
+  
+    <div data-contextual-id="block:block=olivero_addtoanysharebuttons:langcode=es" data-contextual-token="44cSKspLhvmrxMOpVreM2gmtOHO0AGeoB7-7T7x6PxU" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      <span class="a2a_kit a2a_kit_size_36 addtoany_list" data-a2a-url="https://repositorio.inah.gob.mx/o-166276" data-a2a-title="Alegoría de la República mexicana con símbolos masónicos"><a class="a2a_button_facebook" title="Publicar en Facebook"><i class="fa-brands fa-facebook-f fa-xl"></i></a><a class="a2a_button_x" title="Publicar en Twitter"><i class="fa-brands fa-x-twitter fa-xl"></i></a><a class="a2a_button_linkedin" title="Publicar en LinkedIn"><i class="fa-brands fa-linkedin fa-xl"></i></a><a class="a2a_button_mendeley" title="Agregar a Mendeley"><i class="fa-brands fa-mendeley fa-xl"></i></a><a class="a2a_button_whatsapp" title="Compartir en Whatsapp"><i class="fa-brands fa-whatsapp fa-xl"></i></a><a class="a2a_button_telegram" title="Compartir en Telegram"><i class="fab fa-telegram-plane fa-xl"></i></a><a class="a2a_button_email" title="Enviar por email"><i class="fa-solid fa-envelope fa-xl"></i></a><a class="a2a_button_copy_link" title="Copiar enlace"><i class="fa-solid fa-link fa-xl"></i></a></span>
+
+    </div>
+  </div>
+
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner container">
+        
+
+  <div class="region region--footer-top grid-full layout--pass--content-medium">
+    <div class="region--footer_top__inner">
+      
+
+<div id="block-olivero-avisolegal" class="uk-padding-small contextual-region block block-block-content block-block-content20f28ad3-f857-4cd7-a1c5-9e0b8195e88e">
+  
+    <div data-contextual-id="block:block=olivero_avisolegal:langcode=es|block_content:block_content=9:changed=1744156426&amp;langcode=es" data-contextual-token="HKK2FISwBnsfBDfWsiTvUo6icc5GYWC-0i0ETa0EG7s" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="uk-padding" id="block-legal">
+<div class="uk-margin-small uk-padding-large-bottom">
+<div class="">
+<h3 class="uk-text-left uk-text-uppercase block-title-home">Aviso legal</h3>
+</div>
+</div>
+<div class="uk-child-width-1-2@m uk-grid-medium uk-grid-divider" uk-grid="">
+<div class="">
+<p>A través de su Repositorio Institucional, el Instituto Nacional de Antropología e Historia INAH, pone a disposición la consulta del patrimonio cultural e histórico de México que protege, estudia y conserva; la producción académica y científica de sus escuelas y centros de investigación; y los diversos materiales de divulgación que produce.&nbsp;</p>
+<p>La integración, revisión y actualización de los contenidos de este repositorio digital son actividades permanentes del INAH, por lo que la información que se muestran pueden cambiar parcial o totalmente en cualquier momento sin previos aviso. Los datos y archivos disponibles en este repositorio son responsabilidad de cada una de las <a href="https://repositorio.inah.gob.mx/proveedores">áreas del INAH proveedoras</a>.&nbsp;</p>
+</div>
+<div class="">
+<p>Todos los contenidos de este repositorio pertenecen al Instituto Nacional de Antropología e Historia y a la Secretaría de Cultura de México. A menos de que se indique lo contrario, todos los archivos de este repositorio se publican bajo la licencia de uso <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es" target="_blank">Creative Commons BY-NC-ND 4.0</a>, lo que significa que pueden ser consultados y utilizados libremente para &nbsp;proyectos personales y sin fines de lucro, siempre que no sean alterados, se reconozcan todos los derechos de autoría correspondientes y se indique de forma clara y visible la referencia a este repositorio. <a href="/uso">Ver ejemplo aquí</a>.</p>
+<p>Para cualquier otro uso es necesario solicitar autorización a la Coordinación Nacional de Asuntos Jurídicos del INAH y, en su caso, cubrir los impuestos correspondientes. Para llevar a cabo este trámite siga las instrucciones del portal <a href="https://tramites.inah.gob.mx/INAH-01-004%20(A).html" target="_blank">Trámites INAH aquí</a>.</p>
+</div>
+</div>
+</div>
+</div>
+      
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+        
+
+  <div class="region region--footer-bottom grid-full layout--pass--content-medium">
+    
+
+<div id="block-olivero-segundapartedelfooter" class="contextual-region block block-block-content block-block-contentb5b5e59b-b211-4a4a-acb3-6b76866cf58a">
+  
+    <div data-contextual-id="block:block=olivero_segundapartedelfooter:langcode=es|block_content:block_content=3:changed=1759968857&amp;langcode=es" data-contextual-token="KB7okgLC03MQk9hUUGWcMYpjUKuLjvCWfhq8iDVugiY" data-drupal-ajax-container=""></div>
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="uk-section" style="background-color:#c6c6c6;">
+<div class="uk-width-1-1 uk-flex uk-margin-remove-left uk-margin-remove-right uk-margin-large-bottom uk-padding-small" uk-grid>
+<div class="uk-width-1-1 uk-width-1-3@m uk-flex uk-flex-center uk-flex-middle uk-flex-last text-white" id="logo" uk-grid><img class="align-center uk-padding-remove@m align-center" src="/sites/default/files/inline-images/ollin_blanco.png" alt="Ollin" width="200" height="205" loading="lazy"><br>
+<div class="uk-width-1-1 uk-margin-large-bottom@s uk-margin-small-top uk-flex-middle uk-padding-small">
+<h5 class="text-white uk-margin-remove-bottom uk-margin-remove-top uk-margin-small uk-text-center">Instituto Nacional de Antropología e Historia</h5>
+<p class="uk-text-meta uk-margin-remove-top uk-text-center">Hamburgo 135, Colonia Juárez, Alcaldía Cuauhtémoc<br>CP 06600, Ciudad de México, México</p>
+</div>
+</div>
+<div class="uk-width-1-1 uk-width-2-3@m uk-flex uk-flex-center uk-flex-first uk-margin-auto-vertical" uk-grid>
+<div class="uk-width-1-1 uk-padding-small uk-child-width-1-2@s" uk-grid>
+<div>
+<ul class="uk-nav uk-nav-default uk-nav-divider" uk-nav>
+<li><a class="text-red" href="/presentacion">Presentación</a></li>
+<li><a class="text-red" href="/preguntas">Preguntas frecuentes</a></li>
+<li><a class="text-red" href="/uso">Términos y condiciones</a></li>
+<li><a class="text-red" href="/privacidad">Aviso de privacidad</a></li>
+<li><a class="text-red" href="/contacto">Contacto</a></li>
+</ul>
+</div>
+<div>
+<ul class="uk-nav uk-nav-default uk-nav-divider" uk-nav>
+<li><a class="text-red uk-icon" href="https://inah.gob.mx/" target="_blank" aria-label="Sitio web del INAH" uk-icon="icon: chevron-right">INAH</a></li>
+<li><a class="text-red uk-icon" href="https://investigacion.inah.gob.mx/" target="_blank" aria-label="Repositorio Investigación INAH" uk-icon="icon: chevron-right">Investigación INAH</a></li>
+<li><a class="text-red uk-icon" href="https://revistas.inah.gob.mx/" target="_blank" aria-label="Repositorio de publicaciones periódicas" uk-icon="icon: chevron-right">Revistas INAH</a></li>
+<li><a class="text-red uk-icon" href="https://lugares.inah.gob.mx/" target="_blank" aria-label="Investigación" uk-icon="icon: chevron-right">Lugares INAH</a></li>
+<li><a class="text-red uk-icon" href="https://datos.inah.gob.mx/" target="_blank" aria-label="Datos INAH" uk-icon="icon: chevron-right">Datos INAH</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class="uk-width-1-1 uk-flex uk-margin-large-top" uk-grid>
+<div class="uk-width-1-1 uk-flex uk-flex-center"><img src="/sites/default/files/inline-images/cultura_inah.png" data-entity-uuid="10cffb3a-1c98-4a37-b6c0-2e6059852564" data-entity-type="file" alt="Secretaría de Cultura - Instituo Nacional de Antropología e Historia" width="530" height="100" class="align-center" loading="lazy"></div>
+<div class="uk-width-1-1 uk-flex uk-flex-center">
+<p class="uk-text-meta uk-text-center uk-padding">Dirección de Innovación / Coordinación Nacional de Desarrollo Institucional / Instituto Nacional de Antropología e Historia</p>
+</div>
+</div>
+</div>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+      </div>
+    </footer>
+
+    <div class="overlay" data-drupal-selector="overlay"></div>
+
+  </div>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/166276","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"es"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJxtUm1y6yAMvBAxM70QI4OcyMWISiKpb1_FaV86ffljvLtCHyugFGNoe4Tvn2kRbhZAFS1RWzEbS1x1ytz3ZJxypT4zSHkRU1AzyBkKSyqYDGRFg0SGW8rc0sW2-pahXUFf3F68MNxQecMX6q-7adWQycDIcypWj4l_cFpYtv-DfnpPYAb5Erwpw08bUGOR0aFOT-ZUqb17IRaM5KQ0l9ePgeIm3bPjbD7irPFBpkEHfPIbNdqgkj5wWAhrSYKdxeIBTg8Q7qPvPGSBjPEOUiHtFfbEla4oHM7YUA5jPyT-BumwSoMH87A0D6oFxZMMyVx98nx34K9sN36hetHMXm6P3ND1sIHxxvFxhO9e4uFRs9OMlW9PVjVhIV_XP6rBlc7HBk5d3ArZA3dsilAEztzcV7LQwYFAv-jPEp7MNFofs1t4wRJ0V39JcQbFMOidfBxyjQ0zxIMIV8KbxuM7bVxGxS8iTiUd","theme":"olivero","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/o-166276?ajax_form=1":true},"matomo":{"disableCookies":false,"trackColorbox":false,"trackMailto":true},"lazyLoadUrl":"\/term_reference_fancytree\/subTree","ebtTabs":{"block-revision-id-1":{"blockClass":"block-revision-id-1","options":{"pass_options_to_javascript":true,"design_options":{"box1":{"margin_top":"","margin_right":"","margin_bottom":"","margin_left":"","box2":{"border_top":"","border_right":"","border_bottom":"","border_left":"","box3":{"padding_top":"","padding_right":"","padding_bottom":"","padding_left":""}}},"other_settings":{"border_color":"","border_style":"solid","border_radius":"none","background_color":"","background_media":null,"background_video_settings":{"autoPlay":1,"showControls":0,"mute":1,"startAt":"0","opacity":"1","addOverlay":1,"overlayColor":"#000000","overlayAlpha":"0.3","loop":1,"stopMovieOnBlur":1,"playOnlyIfVisible":0,"coverImage":null,"useOnMobile":1,"mobileFallbackImage":null},"background_image_settings":{"background_position":"default","background_position_custom":"","background_size_custom":""},"background_image_style":"default","edge_to_edge":0,"container_width":"auto"}},"styles":"minimalist_tabs","active":"","collapsible":1,"closed":1,"disable":0,"heightStyle":"content"}},"plugin-id-block-contentec50ebab-0f60-4914-a45b-6b8f685df332":{"blockClass":"plugin-id-block-contentec50ebab-0f60-4914-a45b-6b8f685df332","options":{"pass_options_to_javascript":true,"design_options":{"box1":{"margin_top":"","margin_right":"","margin_bottom":"","margin_left":"","box2":{"border_top":"","border_right":"","border_bottom":"","border_left":"","box3":{"padding_top":"","padding_right":"","padding_bottom":"","padding_left":""}}},"other_settings":{"border_color":"","border_style":"solid","border_radius":"none","background_color":"","background_media":null,"background_video_settings":{"autoPlay":1,"showControls":0,"mute":1,"startAt":"0","opacity":"1","addOverlay":1,"overlayColor":"#000000","overlayAlpha":"0.3","loop":1,"stopMovieOnBlur":1,"playOnlyIfVisible":0,"coverImage":null,"useOnMobile":1,"mobileFallbackImage":null},"background_image_settings":{"background_position":"default","background_position_custom":"","background_size_custom":""},"background_image_style":"default","edge_to_edge":0,"container_width":"auto"}},"styles":"minimalist_tabs","active":"","collapsible":1,"closed":1,"disable":0,"heightStyle":"content"}}},"ajax":{"edit-citation-style--2":{"callback":"::getBibliography","wrapper":"formatted-bibliography","method":"html","event":"change","url":"\/o-166276?ajax_form=1","httpMethod":"POST","dialogType":"ajax","submit":{"_triggering_element_name":"citation_style"}},"edit-citation-style":{"callback":"::getBibliography","wrapper":"formatted-bibliography","method":"html","event":"change","url":"\/o-166276?ajax_form=1","httpMethod":"POST","dialogType":"ajax","submit":{"_triggering_element_name":"citation_style"}}},"ebtCore":{"mobileBreakpoint":"640","tabletBreakpoint":"1020","desktopBreakpoint":"1320"},"openseadragon":{"openseadragon-viewer-iiif-manifest-block":{"basePath":{},"fitToAspectRatio":0,"options":{"id":"openseadragon-viewer-iiif-manifest-block","prefixUrl":"https:\/\/cdn.jsdelivr.net\/gh\/Benomrans\/openseadragon-icons@main\/images\/","tileSources":["https:\/\/repositorio.inah.gob.mx\/cantaloupe\/iiif\/2\/https%3A%2F%2Frepositorio.inah.gob.mx%2Fsites%2Fdefault%2Ffiles%2F2024-05%2Fpintura_3082-Service%2520File.jpg","https:\/\/repositorio.inah.gob.mx\/cantaloupe\/iiif\/2\/https%3A%2F%2Frepositorio.inah.gob.mx%2Fsites%2Fdefault%2Ffiles%2F2024-05%2Fpintura_3083-Service%2520File.jpg"],"fit_to_aspect_ratio":0,"tabIndex":0,"debugMode":0,"debugGridColor":"#437AB2","blendTime":0,"alwaysBlend":0,"autoHideControls":1,"immediateRender":0,"defaultZoomLevel":0,"opacity":1,"degrees":0,"homeFillsViewer":0,"panHorizontal":1,"panVertical":1,"constrainDuringPan":0,"wrapHorizontal":0,"wrapVertical":0,"minZoomImageRatio":0.9,"maxZoomPixelRatio":1.1,"smoothTileEdgesMinZoom":1.1,"autoResize":1,"preserveImageSizeOnResize":0,"minScrollDeltaTime":50,"pixelsPerWheelLine":40,"visibilityRatio":0.5,"imageLoaderLimit":0,"clickTimeThreshold":300,"clickDistThreshold":5,"dblClickTimeThreshold":300,"dblClickDistThreshold":20,"springStiffness":6.5,"animationTime":1.2,"gestureSettingsMouse":{"scrollToZoom":1,"clickToZoom":0,"dblClickToZoom":1,"pinchToZoom":0,"flickEnabled":1,"flickMinSpeed":120,"flickMomentum":0.25,"pinchRotate":0},"gestureSettingsTouch":{"scrollToZoom":0,"clickToZoom":0,"dblClickToZoom":1,"pinchToZoom":1,"flickEnabled":1,"flickMinSpeed":120,"flickMomentum":0.25,"pinchRotate":0},"gestureSettingsPen":{"scrollToZoom":0,"clickToZoom":1,"dblClickToZoom":0,"pinchToZoom":0,"flickEnabled":0,"flickMinSpeed":120,"flickMomentum":0.25,"pinchRotate":0},"gestureSettingsUnknown":{"scrollToZoom":1,"clickToZoom":0,"dblClickToZoom":1,"pinchToZoom":1,"flickEnabled":1,"flickMinSpeed":120,"flickMomentum":0.25,"pinchRotate":0},"zoomPerClick":2,"zoomPerScroll":1.2,"zoomPerSecond":1,"controlsFadeDelay":2000,"controlsFadeLength":1500,"maxImageCacheCount":200,"timeout":30000,"useCanvas":1,"minPixelRatio":0.5,"mouseNavEnabled":1,"sequenceControlAnchor":"TOP_LEFT","navPrevNextWrap":0,"showNavigator":0,"navigatorPosition":"BOTTOM_LEFT","navigatorSizeRatio":0.2,"navigatorMaintainSizeRatio":1,"navigatorAutoResize":1,"navigatorAutoFade":1,"navigatorRotate":1,"showNavigationControl":1,"navigationControlAnchor":"TOP_LEFT","showZoomControl":1,"showHomeControl":1,"showFullPageControl":1,"showRotationControl":0,"preserveViewport":0,"preserveOverlays":0,"showReferenceStrip":1,"referenceStripScroll":"horizontal","referenceStripPosition":"BOTTOM_LEFT","referenceStripSizeRatio":0.15,"collectionMode":0,"collectionRows":3,"collectionColumns":10,"collectionLayout":"horizontal","collectionTileSize":800,"collectionTileMargin":80,"compositeOperation":"","placeholderFillStyle":"","minZoomLevel":"","maxZoomLevel":"","navigatorTop":"","navigatorLeft":"","navigatorHeight":"","navigatorWidth":"","showSequenceControl":true,"sequenceMode":true,"initialPage":0,"referenceStripHeight":"","referenceStripWidth":"","crossOriginPolicy":false,"ajaxWithCredentials":false,"tileSize":256}}},"user":{"uid":0,"permissionsHash":"f041a73f5a91f55c81ca4f4ae837c61303eb9f788b38509dcd84159292438377"}}</script>
+<script src="/sites/default/files/js/js_tSHLDh-GF0_LhOyoi5AvbW5EKzm43PAwpJsp8LlOzvA.js?scope=footer&amp;delta=0&amp;language=es&amp;theme=olivero&amp;include=eJxtj1FywzAIRC-kRDO9ELOWiIMjCQfhtLl9NE6nzYe_gAWWB3J2RXtG_Cbni2nzgN7ZSdrCydXi0s9J1ye5UiqyTgrLBzOZe4LNyGqUmRy2sIPEuVLSRlev5SuhPdAPti_jML65a-WD7scuLT0kcbgMz85lzMQ_LII70jWMe84_vqHEbNuKcv5XTkXabXiocZQhWhvt5b6xjf_VauDJB_3U41ukTfYyzNzY9vfuFj8L2oF7qHCtGt8haJEHm8aGh8w77mk1qbBn0JVbZ2TDrG1AiIdNbuI0yVREnRPiLrwAeK2lgw"></script>
+<script src="https://static.addtoany.com/menu/page.js" defer></script>
+<script src="/sites/default/files/js/js_vSbu5hXqsJB2KcBOpoptbm220NjgAjsZJs7XPsRrhXA.js?scope=footer&amp;delta=2&amp;language=es&amp;theme=olivero&amp;include=eJxtj1FywzAIRC-kRDO9ELOWiIMjCQfhtLl9NE6nzYe_gAWWB3J2RXtG_Cbni2nzgN7ZSdrCydXi0s9J1ye5UiqyTgrLBzOZe4LNyGqUmRy2sIPEuVLSRlev5SuhPdAPti_jML65a-WD7scuLT0kcbgMz85lzMQ_LII70jWMe84_vqHEbNuKcv5XTkXabXiocZQhWhvt5b6xjf_VauDJB_3U41ukTfYyzNzY9vfuFj8L2oF7qHCtGt8haJEHm8aGh8w77mk1qbBn0JVbZ2TDrG1AiIdNbuI0yVREnRPiLrwAeK2lgw"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+<script src="/sites/default/files/js/js_gGoYFMBBJnR49UBY_dGG9UcGQ6G1-biJZkH2dHib_DA.js?scope=footer&amp;delta=4&amp;language=es&amp;theme=olivero&amp;include=eJxtj1FywzAIRC-kRDO9ELOWiIMjCQfhtLl9NE6nzYe_gAWWB3J2RXtG_Cbni2nzgN7ZSdrCydXi0s9J1ye5UiqyTgrLBzOZe4LNyGqUmRy2sIPEuVLSRlev5SuhPdAPti_jML65a-WD7scuLT0kcbgMz85lzMQ_LII70jWMe84_vqHEbNuKcv5XTkXabXiocZQhWhvt5b6xjf_VauDJB_3U41ukTfYyzNzY9vfuFj8L2oF7qHCtGt8haJEHm8aGh8w77mk1qbBn0JVbZ2TDrG1AiIdNbuI0yVREnRPiLrwAeK2lgw"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js"></script>
+<script src="/sites/default/files/js/js_y0hxog4V27SjmWcEbglzkzT3owwZe98HWxczoWUOdss.js?scope=footer&amp;delta=6&amp;language=es&amp;theme=olivero&amp;include=eJxtj1FywzAIRC-kRDO9ELOWiIMjCQfhtLl9NE6nzYe_gAWWB3J2RXtG_Cbni2nzgN7ZSdrCydXi0s9J1ye5UiqyTgrLBzOZe4LNyGqUmRy2sIPEuVLSRlev5SuhPdAPti_jML65a-WD7scuLT0kcbgMz85lzMQ_LII70jWMe84_vqHEbNuKcv5XTkXabXiocZQhWhvt5b6xjf_VauDJB_3U41ukTfYyzNzY9vfuFj8L2oF7qHCtGt8haJEHm8aGh8w77mk1qbBn0JVbZ2TDrG1AiIdNbuI0yVREnRPiLrwAeK2lgw"></script>
+
+  </body>
+</html>
