@@ -184,8 +184,48 @@ class ManifestBuilderCliTests(unittest.TestCase):
 
             self.assertEqual(exit_code, 0)
             self.assertIn("Pending items: 0", stdout.getvalue())
-            self.assertIn("No pending items remain; manifest not written", stdout.getvalue())
+            self.assertIn("No pending items remain.", stdout.getvalue())
             self.assertFalse(output_path.exists())
+
+    def test_cli_non_dry_run_overwrites_stale_manifest_when_no_pending_items(self):
+        module = load_argos_build_manifest_module()
+        corpus = [
+            {
+                "id": "FR-001",
+                "title": "Already acquired",
+                "url": "https://gallica.bnf.fr/ark:/12148/example",
+                "thumbnail_url": None,
+            }
+        ]
+        drive_manifest = {"items": [{"item_id": "FR-001"}]}
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            tmp_path = Path(tmp_dir)
+            corpus_path = tmp_path / "corpus-data.json"
+            drive_manifest_path = tmp_path / "drive-manifest.json"
+            output_path = tmp_path / "manifest.json"
+            corpus_path.write_text(json.dumps(corpus), encoding="utf-8")
+            drive_manifest_path.write_text(json.dumps(drive_manifest), encoding="utf-8")
+            output_path.write_text('{"stale": true}', encoding="utf-8")
+
+            argv = [
+                "argos_build_manifest.py",
+                "--output",
+                str(output_path),
+                "--corpus",
+                str(corpus_path),
+                "--drive-manifest",
+                str(drive_manifest_path),
+            ]
+            stdout = io.StringIO()
+            with mock.patch.object(sys, "argv", argv), mock.patch("sys.stdout", stdout):
+                exit_code = module.main()
+
+            self.assertEqual(exit_code, 0)
+            self.assertIn("overwrites stale data", stdout.getvalue())
+            self.assertTrue(output_path.exists())
+            written = json.loads(output_path.read_text(encoding="utf-8"))
+            self.assertNotIn("stale", written)
 
     def test_cli_non_dry_run_writes_schema_valid_manifest_when_pending_items_exist(self):
         corpus = [

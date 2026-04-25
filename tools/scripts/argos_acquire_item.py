@@ -274,6 +274,10 @@ def _attempt_iiif_fallback(item: dict[str, Any], dest_path: Path) -> dict[str, A
     result["manifest_url"] = discovered.get("manifest_url")
     result["iiif_source"] = discovered.get("iiif_source")
     result["source_url"] = image_url
+    try:
+        result["source_domain"] = urlparse(image_url).netloc
+    except Exception:
+        pass
     result.setdefault("notes", [])
     return result
 

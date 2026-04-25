@@ -108,6 +108,18 @@ def fetch_with_playwright(
             response = page.goto(url, wait_until="networkidle", timeout=timeout * 1000)
             page.screenshot(path=str(dest_path), full_page=True)
 
+        status_code = getattr(response, "status", None) if response else None
+        if status_code and status_code >= 400:
+            dest_path.unlink(missing_ok=True)
+            return _result(
+                dest_path,
+                failure_class="playwright_http_error",
+                error=f"Navigation returned HTTP {status_code}",
+                status_code=status_code,
+                source_url=url,
+                source_domain=domain,
+            )
+
         bytes_written = dest_path.stat().st_size if dest_path.exists() else 0
         if bytes_written <= 0:
             dest_path.unlink(missing_ok=True)
@@ -123,7 +135,7 @@ def fetch_with_playwright(
             dest_path,
             success=True,
             bytes_written=bytes_written,
-            status_code=getattr(response, "status", None),
+            status_code=status_code,
             source_url=url,
             source_domain=domain,
         )
