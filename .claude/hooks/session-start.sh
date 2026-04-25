@@ -13,7 +13,7 @@ echo "=== Iconocracy Corpus — Environment Check ==="
 # 1. Python dependencies
 echo "[1/5] Installing Python dependencies..."
 pip install -q -r "$DIR/requirements.txt"
-pip install -q pylint
+pip install -q pylint pytest
 
 # 2. Verify required directories exist
 echo "[2/5] Checking directory structure..."
