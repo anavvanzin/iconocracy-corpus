@@ -84,6 +84,29 @@ def _resolve_loc_item_image(json_url: str) -> str | None:
     return None
 
 
+def _resolve_europeana_manifest_image(manifest_url: str) -> str | None:
+    try:
+        req = urllib.request.Request(manifest_url, headers={"User-Agent": "ARGOS/1.0", "Accept": "application/ld+json, application/json"})
+        with urllib.request.urlopen(req, timeout=15, context=_SSL_UNVERIFIED) as resp:
+            data = json.loads(resp.read())
+    except Exception:
+        return None
+
+    for seq in data.get("sequences", []):
+        for canvas in seq.get("canvases", []):
+            for img in canvas.get("images", []):
+                resource = img.get("resource", {})
+                service = resource.get("service", {})
+                service_id = service.get("@id") if isinstance(service, dict) else None
+                if service_id:
+                    return f"{service_id.rstrip('/')}/full/full/0/default.jpg"
+                body_id = resource.get("@id")
+                if body_id and isinstance(body_id, str):
+                    return body_id
+
+    return None
+
+
 def _discover_loc(item: dict) -> dict | None:
     thumb = item.get("thumbnail_url", "") or ""
     url = item.get("url", "") or ""
@@ -155,10 +178,12 @@ def discover_iiif(item: dict) -> dict | None:
         match = EUROPEANA_ITEM_PATTERN.search(url)
         if match:
             provider, local = match.group(1), match.group(2)
+            manifest_url = f"https://iiif.europeana.eu/presentation/{provider}/{local}/manifest"
+            image_url = _resolve_europeana_manifest_image(manifest_url)
             return {
                 "iiif_source": "europeana",
-                "manifest_url": f"https://iiif.europeana.eu/presentation/{provider}/{local}/manifest",
-                "image_url": None,
+                "manifest_url": manifest_url,
+                "image_url": image_url,
             }
 
     if "loc.gov" in url:

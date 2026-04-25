@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import http.client
+import os
 import ssl
+import tempfile
 import time
 import urllib.error
 import urllib.request
@@ -64,15 +66,24 @@ def _retry_delay(error: urllib.error.HTTPError, attempt: int) -> float:
 
 
 def _stream_to_path(response, dest_path: Path) -> int:
-    total_size = 0
-    with dest_path.open("wb") as handle:
-        while True:
-            chunk = response.read(65536)
-            if not chunk:
-                break
-            handle.write(chunk)
-            total_size += len(chunk)
-    return total_size
+    fd, tmp_path = tempfile.mkstemp(dir=str(dest_path.parent), suffix=".tmp")
+    try:
+        total_size = 0
+        with os.fdopen(fd, "wb") as handle:
+            while True:
+                chunk = response.read(65536)
+                if not chunk:
+                    break
+                handle.write(chunk)
+                total_size += len(chunk)
+        os.replace(tmp_path, str(dest_path))
+        return total_size
+    except BaseException:
+        try:
+            os.unlink(tmp_path)
+        except OSError:
+            pass
+        raise
 
 
 def _is_retryable_http_error(status_code: int) -> bool:
