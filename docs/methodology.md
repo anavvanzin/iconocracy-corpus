@@ -271,5 +271,6 @@ As condições são falsificáveis num sentido (violá-las garante captura detec
 - [`schema/lpai-v2-as-capta.md`](../schema/lpai-v2-as-capta.md) — reenquadramento do LPAI como *capta* (Drucker).
 - [`docs/pilots/P01-republica-armada.md`](./pilots/P01-republica-armada.md) — prancha-piloto com os operadores curatoriais aplicados.
 - [`docs/dialectic-cycle-1/`](./dialectic-cycle-1/README.md) — ciclo dialético 1 · traço completo (Fases 1–7).
+- [`docs/anexo-m3-protocolo-auditoria-externa.md`](./anexo-m3-protocolo-auditoria-externa.md) — **Anexo M.3** · protocolo de auditoria externa com poder real (Direção 2 da recursão, issue #38).
 - [ADR-005 — GitHub canônico / HF público](./adr/005-github-and-hf-release-surfaces.md).
 - [`README.md`](../README.md) — modelo operacional do monorepo.
