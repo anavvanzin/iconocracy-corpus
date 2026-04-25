@@ -187,7 +187,7 @@ class ManifestBuilderCliTests(unittest.TestCase):
             self.assertIn("No pending items remain.", stdout.getvalue())
             self.assertFalse(output_path.exists())
 
-    def test_cli_non_dry_run_overwrites_stale_manifest_when_no_pending_items(self):
+    def test_cli_non_dry_run_removes_stale_manifest_when_no_pending_items(self):
         module = load_argos_build_manifest_module()
         corpus = [
             {
@@ -222,10 +222,8 @@ class ManifestBuilderCliTests(unittest.TestCase):
                 exit_code = module.main()
 
             self.assertEqual(exit_code, 0)
-            self.assertIn("overwrites stale data", stdout.getvalue())
-            self.assertTrue(output_path.exists())
-            written = json.loads(output_path.read_text(encoding="utf-8"))
-            self.assertNotIn("stale", written)
+            self.assertIn("Removed stale manifest", stdout.getvalue())
+            self.assertFalse(output_path.exists())
 
     def test_cli_non_dry_run_writes_schema_valid_manifest_when_pending_items_exist(self):
         corpus = [

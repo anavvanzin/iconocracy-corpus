@@ -69,8 +69,8 @@ def main() -> int:
     if pending_item_count(manifest) == 0:
         print("No pending items remain.")
         if not args.dry_run and args.output.exists():
-            args.output.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-            print(f"Empty manifest written to {args.output} (overwrites stale data)")
+            args.output.unlink()
+            print(f"Removed stale manifest at {args.output}")
         return 0
 
     if args.dry_run:
