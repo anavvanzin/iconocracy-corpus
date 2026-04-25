@@ -85,7 +85,7 @@ def infer_next_step(protocol: str, last_attempt: dict[str, Any] | None) -> str:
 
     if blocked and protocol in {"direct", "unknown", "blocked"}:
         return "iiif-discovery"
-    if blocked and protocol in {"iiif", "playwright-required"}:
+    if blocked and protocol == "iiif":
         return "playwright-fallback"
     return "stop"
 
