@@ -137,9 +137,15 @@ AGAMBEN, Giorgio. *Potentialities: Collected Essays in Philosophy*. Tradução: 
 
 ANDERMANN, Jens. *The Optic of the State: Visuality and Power in Argentina and Brazil*. Pittsburgh: University of Pittsburgh Press, 2007.
 
+AZOULAY, Ariella Aïsha. *Potential History: Unlearning Imperialism*. London: Verso, 2019.
+
+BARAD, Karen. *Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning*. Durham: Duke University Press, 2007.
+
+BAKHTIN, Mikhail. *Estética da criação verbal*. Tradução: Paulo Bezerra. São Paulo: Martins Fontes, 1986.
+
 BECKER, Colleen. Aby Warburg's Pathosformel as methodological paradigm. *Journal of Art Historiography*, n. 9, 2013. Disponível em: <https://arthistoriography.wordpress.com/9-dec13/>.
 
-CAPELATO, Maria Helena Rolim. *Multidões em cena: propaganda política no varguismo e no peronismo*. Campinas: Papirus, 1998.
+CARNEIRO, Sueli. A construção do outro como não-ser como fundamento do ser. 2005. Tese (Doutorado em Filosofia) — Universidade de São Paulo, São Paulo, 2005.
 
 CARVALHO, José Murilo de. *A Formação das Almas: o imaginário da República no Brasil*. São Paulo: Companhia das Letras, 1990.
 
@@ -151,27 +157,61 @@ D'IGNAZIO, Catherine; KLEIN, Lauren. *Data Feminism*. Cambridge, MA: MIT Press, 
 
 DRUCKER, Johanna. Humanities Approaches to Graphical Display. *Digital Humanities Quarterly*, v. 5, n. 1, 2011. Disponível em: <http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html>.
 
+DRUCKER, Johanna. *Graphesis: Visual Forms of Knowledge Production*. Cambridge, MA: Harvard University Press, 2014.
+
 ESPELAND, Wendy Nelson; SAUDER, Michael. Rankings and reactivity: how public measures recreate social worlds. *American Journal of Sociology*, v. 113, n. 1, p. 1–40, 2007.
 
+FANON, Frantz. *Peau noire, masques blancs*. Paris: Seuil, 1952.
+
+FRASER, Nancy. *Justice Interruptus: Critical Realms and the Politics of Redistribution*. New York: Routledge, 1997.
+
+FRASER, Nancy. From redistribution to recognition? Dilemmas of justice in a 'postsocialist' age. *New Left Review*, n. 212, p. 68–93, 2003.
+
+GLISSANT, Édouard. *Poétique de la Relation*. Paris: Gallimard, 1990.
+
 HARAWAY, Donna. Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective. *Feminist Studies*, v. 14, n. 3, p. 575–599, 1988.
+
+HARTMAN, Saidiya. Venus in Two Acts. *Small Axe*, v. 12, n. 2, p. 1–14, 2008.
 
 HAYAERT, Valérie. *Lawful Lies: Veiled Justice in Early Modern Europe*. Edinburgh: Edinburgh University Press, 2020.
 
 JAY, Martin. Must Justice Be Blind? The Challenge of Images to the Law. *Filozofski Vestnik*, v. 17, n. 2, p. 65–81, 1996. Republicado em: DOUZINAS, C.; NEAD, L. (orgs.). *Law and the Image*. Chicago: University of Chicago Press, 1999. p. 19–35.
 
-JOHNSON, Christopher D. *Memory, Metaphor, and Aby Warburg's Atlas of Images*. Ithaca, NY: Cornell University Press / Cornell University Library, 2012. (Signale: Modern German Letters, Cultures, and Thought). 286 p. ISBN 978-0-8014-7742-3.
+JOHNSON, Christopher D. *Memory, Metaphor, and Aby Warburg's Atlas of Images*. Ithaca, NY: Cornell University Press / Cornell University Library, 2012. (Signale: Modern German Letters, Cultures and Thought). 286 p. ISBN 978-0-8014-7742-3.
+
+KILOMBA, Grada. *Plantation Memories: Episodes of Everyday Racism*. Münster: Unrast, 2008.
+
+KRENAK, Ailton. *Ideias para adiar o fim do mundo*. São Paulo: Companhia das Letras, 2019.
 
 LEGENDRE, Pierre. *Dieu au miroir: étude sur l'institution des images*. Paris: Fayard, 1994. (Leçons III). 348 p. ISBN 978-2-213-03185-9.
+
+LUGONES, María. Heterosexualism and the colonial/modern gender system. *Hypatia*, v. 22, n. 1, p. 186–209, 2007.
+
+MBEMBE, Achille. The Power of the Archive and its Limits. In: HAMILTON, Carolyn *et al.* (orgs.). *Refiguring the Archive*. Dordrecht: Kluwer, 2002. p. 19–26.
 
 MERRY, Sally Engle. *The Seductions of Quantification: Measuring Human Rights, Gender Violence, and Sex Trafficking*. Chicago: University of Chicago Press, 2016.
 
 MOSSE, George L. *Nationalism and Sexuality: Respectability and Abnormal Sexuality in Modern Europe*. New York: Howard Fertig, 1985.
 
+NASCIMENTO, Beatriz. *Uma história feita por mãos negras*. Rio de Janeiro: Zahar, 2021.
+
+PELUSO, Nancy Lee. Women's Output: Gender and the Political Ecology of Resource Management in Indonesia. In: GUILLETTE, Elizabeth; ROCHFORD, Thomas (orgs.). *Feminist Political Ecology*. New York: Routledge, 1995.
+
 POLLOCK, Griselda. *Differencing the Canon: Feminist Desire and the Writing of Art's Histories*. London: Routledge, 1999.
+
+QUIJANO, Aníbal. Colonialidad del poder, eurocentrismo y América Latina. In: LANDER, Edgardo (org.). *La colonialidad del saber: eurocentrismo y ciencias sociales*. Buenos Aires: CLACSO, 2000. p. 201–246.
+
+RANCIÈRE, Jacques. *The Politics of the Aesthetics*. Tradução: Gabriel Rockhill. London: Continuum, 2004.
 
 RESNIK, Judith; CURTIS, Dennis. *Representing Justice: Invention, Controversy, and Rights in City-States and Democratic Courtrooms*. New Haven: Yale University Press, 2011.
 
+SEGATO, Rita Laura. *La guerra contra las mujeres*. Madrid: Traficantes de Sueños, 2016.
+
 SHERWIN, Richard K. *Visualizing Law in the Age of the Digital Baroque: Arabesques and Entanglements*. London: Routledge, 2011.
+
+STAR, Susan Leigh; GRIESEMER, James R. Institutional ecology, 'translations' and boundary objects: amateurs and professionals in Berkeley's Museum of Vertebrate Zoology, 1907–39. *Social Studies of Science*, v. 19, n. 4, p. 387–420, 1989.
+
+STOLER, Ann Laura. *Along the Archival Grain: Epistemic Anxieties and Colonial Common Sense*. Princeton: Princeton University Press, 2009.
 
 STRAMIGNONI, Igor. [Artigo sobre Warburg e teoria da imagem jurídica]. *Law and Critique*, 2024. (DOI a confirmar na corrente `stream1_warburg_legal`).
 
@@ -181,33 +221,47 @@ WARNER, Marina. *Monuments and Maidens: The Allegory of the Female Form*. London
 
 WENK, Silke. *Versteinerte Weiblichkeit: Allegorien in der Skulptur der Moderne*. Köln: Böhlau, 1996.
 
+WERNECK, Jurema. Nossos passos vêm de longe! *Saúde e Direitos Reprodutivos*, v. 12, n. 1, p. 23–28, 2010.
+
 ---
 
 ## Status
 
-Rascunho metodológico · aguardando discussão com orientação PPGD/UFSC e decisão formal sobre destino do LPAI.
+Rascunho metodológico · **Anexo M.2 v6-reparada (com duplo lastro Norte+Sul) incorporated 2026-04-25** · aguardando discussão com orientação PPGD/UFSC. LPAI fate: reenquadrado como *capta* (schema/lpai-v2-as-capta.md). Direção 1 da recursão executada.
 
-## Anexo M.2 — Seis condições de felicidade ilocucionária do Atlas (α–ζ)
+## Anexo M.2 — Seis condições de felicidade ilocucionária do Atlas, com duplo lastro Norte+Sul (α–ζ)
 
-O Atlas-topológico adotado acima não é, *a priori*, contra-iconocrático. Sua eficácia crítica é condicional, auditável em processo mas não em efeito, e estruturalmente limitada pela forma-arquivo. Síntese produzida por ciclo dialético completo (Atlas vs. iconocracia iluminada), documentado em [`docs/dialectic-cycle-1/`](./dialectic-cycle-1/README.md).
+> **Nota.** Este anexo substitui a versão v5 (lastro exclusivamente norte-atlântico) pela versão v6-reparada, incorporando sustentadores do Sul que alteram substantivamente — não ornamentam — cada condição. A alteração foi exigida pelo Ataque 3 da auditora hostil (Fase 6, cycling dialético 1) e executada como Direção 1 da recursão. Síntese completa do ciclo 1 em [`docs/dialectic-cycle-1/07-sintese-final-v6.md`](./dialectic-cycle-1/07-sintese-final-v6.md).
 
-| # | Condição | Indicador auditável |
-|---|----------|---------------------|
-| α | Abertura estrutural (difractiva + acessível) | Campo "excedente interpretativo" no codebook; licença CC-BY-SA; formato não-proprietário; API pública |
-| β | Endereçamento explícito | Carta de endereçamento nomeando comunidades específicas |
-| γ | Transferência de ownership | Repo público versionável; PRs aceitos; não-proprietariedade do corpus |
-| δ | Inscrição em demanda concreta | Uso em disciplina DIR410346 + memorial técnico + colaboração museu/tribunal/movimento |
-| ε | Nominação explícita do regime contestado | Glossário canônico fixo; codebook versionado; changelog público |
-| ζ | Inclusão reflexiva dos atos publicacionais | Itens 166–169 (diagrama, repo, dataset HF, Google Doc) no corpus, codificados pela mesma grade LPAI v2 — **mapeia captura, não a impede** |
+### Preâmbulo: por que o duplo lastro não é ornamental
 
-**Propriedade assimétrica:** as condições são falsificáveis num sentido (violá-las garante captura detectável) mas não são verificáveis em efeito (cumpri-las não garante contra-iconocracia). A síntese não promete emancipação; promete detectabilidade do fracasso.
+As seis condições foram formuladas originalmente com sustentadores do Norte (Barad, Star, Bakhtin, Peluso, Fraser, Rancière, Mondzain, Azoulay, Derrida) — autores que a tese mobiliza legitimamente. O Ataque 3 da Fase 6 demonstrou que uma teoria da *ativação-em-comum* em contexto brasileiro que ignora Fanon, Glissant, Quijano, Carneiro, Krenak, Segato, Kilomba, Lugones e Nascimento é, ela mesma, um ato de iconocracia teórica: importar ferramentas do regime que se pretende analisar, sem examinar de onde vêm e a quem serve essa importação.
 
-**Três limites declarados:**
-1. Auditoria externa real não é opcional (Anexo M.3 — issue #37).
-2. Lastro teórico é do Norte; síntese é epistemicamente parcial (Direção 1 de recursão — issue #36; incorporação de Glissant, Fanon, Quijano, Carneiro, Werneck, Krenak, Lugones, Segato, Nascimento).
-3. Forma-arquivo permanece tensão não resolvida — Taylor (archive vs. repertoire) (issue #38).
+A incorporação que se segue não adiciona referências decorativas. Cada sustentador do Sul *altera a condição* — torna-a mais rigorosa, mais específica ao objeto brasileiro, ou expõe uma dimensão que o sustentador do Norte não alcança sozinho. Onde não há alteração, isso é declarado.
 
-Documentação completa em [`docs/dialectic-cycle-1/07-sintese-final-v6.md`](./dialectic-cycle-1/07-sintese-final-v6.md).
+### Coluna de sustentadores
+
+|| # | Condição | Sustentador Norte | Sustentador Sul | Efeito da adição | Indicador auditável |
+||---|---|---|---|---|---|
+|| α | **Abertura estrutural** — difractiva e acessível | Barad 2007 (*diffraction*); Star & Griesemer 1989 (*boundary object*); Drucker 2014 (*capta*) | Glissant 1990 (*Poétique de la Relation*) | Barad define *diffraction* como padrão de diferenças *entre* trajetórias. Glissant define *opacity* como **direito de não ser transparente** — a opacidade não é falta de clareza; é recusa ativa de apresentar-se legível ao outro. Para o LPAI, isso muda o indicador: o "excedente interpretativo" não é dado que falta codificar; é ruído que o atlas se recusa a eliminar. A condição α exige que a grade não exija que as imagens falem — que ela tolere o que não se reduz a sentido transmissível | (i) grade LPAI v2 inclui campo "excedente interpretativo" explicitamente marcado como **não codificável**; (ii) licença CC-BY-SA com cláusula de não-exigência de transparência interpretativa; (iii) formato não-proprietário; (iv) API pública com rate-limit generoso para consultas parciais |
+|| β | **Endereçamento explícito** | Bakhtin 1986 (*addressivity*); Azoulay 2019 (*Potential History*) | Krenak 2019 (*Ideias para adiar o fim do mundo*) | Bakhtin e Azoulay concebem comunidade como polo de recepção: alguém recebe a obra e a ativa. Krenak inverte a relação: comunidade não é interlocutora que o autor escolhe — é modo de existência que o Estado brasileiro colonial打扮e sistematicamente. *Endereçamento* em Krenak não é convite; é reconhecimento de que a comunidade nomeada existe *contra* a ordem que a tese estuda. A consequência operacional: a carta de endereçamento não pode ser listagem de disciplinas acadêmicas — precisa nomear comunidades concretas cuja existência é atravessada pela iconocracia que a tese denuncia | Carta de endereçamento no prefácio da tese nomeando: (a) movimentos feministas negros e indígenas — Geledés, Cfemea, Coordena das Mulheres Negras, Marcha Mundial das Mulheres; (b) conselhos de mulheres negras de tribunais — AJDUB, AMB; (c) coletivos de arquitetura forense antirracista — Laboratório de Narrativas Antropofágicas, grupos de patrimônio afro-brasileiro; (d) historiadoras do direito interessadas; (e)humanidades digitais críticas. Cada nome requiere carta de convite com explicação do que significa ser "endereçada" |
+|| γ | **Transferência de ownership** | Peluso 1995; Radjawali *et al.* 2017 (*boundary work*) | Carneiro 2005 (*A construção do outro como não-ser*); Nascimento 2021 (*Uma história feita por mãos negras*) | Peluso/Radjawali tratam ownership como controle sobre recursos (ambientais). Carneiro_expande: *epistemicídio* é a destruição sistemática do que não-ser produz como sujeito de conhecimento. Nascimento complementa: a história das mãos negras é a história do que foi destruído do arquivo. A condição γ não é apenas "não proprietizar o corpus" — é reconhecer que o corpus contém **o que foi tomado**, e que devolver ownership exige mais do que abrir PRs: exige que comunidades endereçadas possam **modificar o que entra e o que não entra** — inclusive apagando | Repo público versionável; PRs aceitos com protocolo de resposta em 30 dias; não-proprietariedade do corpus (sem TM/MC sobre "LPAI"); documento de governança de dados nomeando quem pode remover itens — bukan sekadar edit; protocolo de "desarquivamento" para itens que comunidades solicitarem remoção |
+|| δ | **Inscrição em demanda concreta** | Fraser 2003 (*counterpublics*); Leca & Barin Cruz 2021 | Fanon 1952 (*Peau noire, masques blancs*); Segato 2016 (*La guerra contra las mujeres*) | Fraser teoriza demandas de grupos subordinados dentro de ordens de reconhecimento já constituídas. Fanon_expõe o mecanismo mais fundo: o colonizado **interioriza o olhar do colonizador** — o problema da iconocracia não é apenas que o Estado use alegorias; é que mulheres negras e indígenas *interiorizaram* que não são subjects do direito que as representa. Segato complementa: a guerra contra as mulheres é guerra simbólica que precede a violência física — a alegoria jurídica éweapon dessa guerra. A consequência: δ não basta requerer "uso em disciplina"; exige que a demanda seja concretada com comunidades que *sofrem* a iconocracia, não apenas que a estudam | Três usos concretizados antes da defesa: (1) DIR410346 — disciplina com participação de representantes de movimentos feministas negros; (2) memorial técnico em processo de patrimônio contestado (identificar um processo concreto, e.g. tombamento de edificio com alegoria escravocrata); (3) colaboração formal com museu ou tribunal — não como "parceiro", mas como instância que pode recusar a codificação |
+|| ε | **Nominação explícita do regime contestado** | Rancière 2004 (*partage du sensible*); Mondzain 2009 (*Image, icône, économie*) | Quijano 2000 (*colonialidad del poder*) | Rancière/Mondzain nomeiam o regime visual-jurídico como partição do visível. Quijano_expõe que essa partição é **racial**: "colonialidade do poder" é o padrão global de classificação racial que estructura quem é visível, quem representa e quem é representado. Iconocracia brasileira não é análoga à europeia — é o *mesmo* padrão colonial beroperasi di Amerika Latina dengan caratter racial específico. A consequência: ε não pode usar "iconocracia" como se fosse categoria neutra; o glossário deve declarar que o termo é atravessado por Quijano, que nomeia o regime racial-colonial que o sustenta | Glossário canônico fixo (iconocracia, regime iconocrático, feminilidade de Estado, reconhecimento sem reciprocidade, colonialidade do poder, epistemicídio); codebook versionado com changelog público; citação explícita de Quijano em todas as ocorrências de "colonial" no codebook; ABNT NBR 6023:2025 para todas as fontes |
+|| ζ | **Inclusão reflexiva dos atos publicacionais — com declaração de insuficiência** | Azoulay 2019; Stoler 2009; Derrida 1995 | Kilomba 2008 (*Plantation Memories*) | Azoulay/Stoler/Derrida demonstram que a auto-reflexividade do arquivo é insuficiente — o arquivo colonial carrega violência constitutiva que a autoconsciência não neutraliza. Kilomba vai mais longe: em *Plantation Memories*, ela mostra que pessoas negras são ao mesmo tempo **sujeitos do arquivo** (presentes nas listas de escravizados) e **excluídas do arquivo** (as listas não contam sua perspectiva). O problema da condição ζ não é apenas que a tese codifique a si mesma — é que a grade LPAI que a tese usa foi produzida *por* alguém que a banca avalia. Kilomba exige: a condição ζ precisa incluir **testemunhas** — não apenas auto-codificação, mas pessoas atingidas que possam dizer se a codificação as violentou novamente | Itens 166–169 (diagrama pipeline, repo, dataset HF, Google Doc) no corpus; codificados pela grade LPAI v2; submetidos a leitura por testemunhas (mínimo 3) de comunidades endereçadas em β antes da publicação; relatório de testemunhas incluído como item 170; protocolo de "nova codificação após testemunho" documentado |
+
+### Propriedade assimétrica (reafirmada)
+
+As condições são falsificáveis num sentido (violá-las garante captura detectável) mas **não são verificáveis em efeito** (cumpri-las não garante contra-iconocracia). A síntese não promete emancipação; promete detectabilidade do fracasso.
+
+**Assimetria em termos de lastro duplo:** a adição do Sul não remove a assimetria — ela a agudiza. Se Glissant tem razão, o excedente interpretativo de α é irredutível *por princípio*; se Carneiro/Nascimento têm razão, γ nunca pode ser plenamente "transferida" porque o que foi tomado não pode ser devolvido em repositórios. A detecção do fracasso permanece o único critério honesta.
+
+### Três limites declarados (v6-reparada)
+
+1. **Auditoria externa real não é opcional** — Anexo M.3 (Direção 2 da recursão, issue #38). Sem auditores com poder institucional de recusa, α–ζ são laudo pericial assinado pelo réu.
+2. ~~Lastro teórico é do Norte; síntese é epistemicamente parcial~~ **(REPARADO NESTA VERSÃO)** — A Direção 1 da recursão foi executada. O duplo lastro Norte+Sul não fecha a lacuna (nenhuma tese fecha), mas a reduz e a declara com rigor. Permanecem parciais: a tese é escrita em português acadêmico, dentro do PPGD/UFSC, avaliada por banca brasileira — todas as condições de produção carregam геолокацию epistêmica que nenhuma bibliografia corrige.
+3. **Forma-arquivo permanece tensão não resolvida** — Anexo M.4 (Direção 3 da recursão, issue #39). Taylor (archive vs. repertoire) não foi incorporada nesta versão; permanece como investigação em curso.
+4. **O quarto regime epistémico permanece em aberto** — decisão editorial da introdução (Direção 4 da recursão, issue #40).
 
 ---
 
