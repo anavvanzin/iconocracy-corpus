@@ -307,12 +307,15 @@ def acquire_item(
     attempts.append({"step": current_protocol, **result})
 
     next_step = infer_next_step(current_protocol, result)
+    original_was_blocked = next_step == "iiif-discovery"
     if next_step == "iiif-discovery":
         iiif_result = _attempt_iiif_fallback(item, dest_path)
         attempts.append({"step": "iiif", **iiif_result})
         result = iiif_result
         current_protocol = "iiif"
         next_step = infer_next_step(current_protocol, result)
+        if next_step == "stop" and original_was_blocked and not result.get("success"):
+            next_step = "playwright-fallback"
 
     if next_step == "playwright-fallback" and _should_try_playwright(item, allow_restricted=playwright_allowed):
         playwright_result = fetch_with_playwright(
@@ -345,7 +348,6 @@ def acquire_item(
             storage_tier=storage_tier,
             attempts=attempts,
         )
-        _write_json(sidecar_path, sidecar_payload)
         patch = _manifest_patch(
             item=item,
             status="success",
@@ -357,12 +359,16 @@ def acquire_item(
             acquisition_result=result,
         )
         try:
+            _write_json(sidecar_path, sidecar_payload)
             locked_update_manifest(manifest_path, item_id, patch)
         except Exception:
             _cleanup_artifacts(sidecar_path, asset_path)
             raise
         duration = max(0, int(time.time() - started_at))
-        log_run(agent="argos", status="success", items=1, duration=duration, details=f"Acquired {item_id}")
+        try:
+            log_run(agent="argos", status="success", items=1, duration=duration, details=f"Acquired {item_id}")
+        except Exception:
+            pass
         return {
             "status": "success",
             "item_id": item_id,
@@ -387,7 +393,10 @@ def acquire_item(
     locked_update_manifest(manifest_path, item_id, patch)
     duration = max(0, int(time.time() - started_at))
     log_status = "warning" if result.get("manual_required") else "error"
-    log_run(agent="argos", status=log_status, items=1, duration=duration, details=f"{item_id}: {failure_reason}")
+    try:
+        log_run(agent="argos", status=log_status, items=1, duration=duration, details=f"{item_id}: {failure_reason}")
+    except Exception:
+        pass
     return {
         "status": patch["status"],
         "item_id": item_id,
