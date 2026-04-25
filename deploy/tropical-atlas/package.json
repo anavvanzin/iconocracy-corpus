@@ -1,0 +1,18 @@
+{
+  "name": "tropical-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev public --compatibility-date=2026-04-01 --port=8788",
+    "build": "node build.mjs",
+    "deploy": "wrangler pages deploy public --project-name=tropical-atlas",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "hono": "^4.6.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250101.0",
+    "wrangler": "^3.100.0"
+  }
+}
