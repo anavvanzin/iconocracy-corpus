@@ -2,29 +2,31 @@
 id: SCOUT-330
 tipo: corpus-candidato
 status: candidato
-titulo: "Allegory of the French Republic"
-acervo: "The Metropolitan Museum of Art"
-url: "https://www.metmuseum.org/art/collection/search/208134"
-data_estimada: "1892"
+titulo: Allegory of the French Republic
+acervo: The Metropolitan Museum of Art
+url: https://www.metmuseum.org/art/collection/search/208134
+data_estimada: '1892'
 pais: FR
 suporte: monumento
-motivo_alegorico: "Republic"
+motivo_alegorico: Republic
 regime: INDETERMINADO
 confianca: medio
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/monumento
-  - motivo/republica
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- suporte/monumento
+- motivo/republica
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.8
 hunt_source: met
 data_scout: 2026-04-03
+seculo: 19th
 ---
+
 
 ## Allegory of the French Republic
 

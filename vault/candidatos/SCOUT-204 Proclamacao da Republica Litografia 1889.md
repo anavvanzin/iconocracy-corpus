@@ -2,30 +2,33 @@
 id: SCOUT-204
 tipo: corpus-candidato
 status: candidato
-titulo: "Proclamação da República — litografia de Angelo Agostini"
-acervo: "Hemeroteca Digital Brasileira (BNDigital)"
-url: "https://memoria.bn.br/DocReader/Hotpage/HotpageBN.aspx?bib=094078&pagfis=4&url=http://memoria.bn.br/docreader"
+titulo: Proclamação da República — litografia de Angelo Agostini
+acervo: Hemeroteca Digital Brasileira (BNDigital)
+url: https://memoria.bn.br/DocReader/Hotpage/HotpageBN.aspx?bib=094078&pagfis=4&url=http://memoria.bn.br/docreader
 url_iiif: null
-data_estimada: "1889-11"
-pais: [BR]
+data_estimada: 1889-11
+pais:
+- BR
 suporte: estampa
-motivo_alegorico: "A República"
+motivo_alegorico: A República
 regime: FUNDACIONAL
 Endurecimento: medio
 confianca: medio
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/estampa
-  - regime/fundacional
-  - motivo/republica
+- corpus/candidato
+- pais/BR
+- suporte/estampa
+- regime/fundacional
+- motivo/republica
 related:
-  - "[[Regime Fundacional]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[Capitulo 3]]"
+- '[[Regime Fundacional]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Feminilidade de Estado]]'
+- '[[Capitulo 3]]'
 data_scout: 2026-04-10
+seculo: 19th
 ---
+
 
 ## Identificação
 

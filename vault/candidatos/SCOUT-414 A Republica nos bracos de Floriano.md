@@ -2,31 +2,33 @@
 id: SCOUT-414
 tipo: corpus-candidato
 status: candidato
-titulo: "A República nos braços de Floriano"
-acervo: "Biblioteca Nacional / Hemeroteca Digital"
-url: "https://hemerotecadigital.bn.br/acervo-digital/revista-illustrada/332747"
+titulo: A República nos braços de Floriano
+acervo: Biblioteca Nacional / Hemeroteca Digital
+url: https://hemerotecadigital.bn.br/acervo-digital/revista-illustrada/332747
 url_iiif: null
-data_estimada: "1891"
+data_estimada: '1891'
 pais: BR
 suporte: estampa
-motivo_alegorico: "A República"
+motivo_alegorico: A República
 regime: NORMATIVO
 Endurecimento: MEDIO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/estampa
-  - regime/normativo
-  - motivo/republica
-  - verificar
+- corpus/candidato
+- pais/BR
+- suporte/estampa
+- regime/normativo
+- motivo/republica
+- verificar
 related:
-  - "[[Regime Normativo]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[endurecimento]]"
+- '[[Regime Normativo]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Feminilidade de Estado]]'
+- '[[endurecimento]]'
 data_scout: 2026-04-05
+seculo: 19th
 ---
+
 
 ## Identificação
 

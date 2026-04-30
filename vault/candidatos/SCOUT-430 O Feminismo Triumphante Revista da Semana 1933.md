@@ -2,27 +2,29 @@
 id: SCOUT-430
 tipo: corpus-candidato
 status: ativo
-titulo: "O Feminismo Triumphante — Revista da Semana, 20 maio 1933"
+titulo: O Feminismo Triumphante — Revista da Semana, 20 maio 1933
 pais: BR
-data_estimada: "1933"
+data_estimada: '1933'
 suporte: estampa/gravura
-motivo_alegorico: "A República"
+motivo_alegorico: A República
 regime: FUNDACIONAL
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/estampa
-  - regime/fundacional
-  - #contra-alegoria
+- corpus/candidato
+- pais/BR
+- suporte/estampa
+- regime/fundacional
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[contra-alegoria]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Feminilidade de Estado]]'
+- '[[contra-alegoria]]'
 data_scout: 2026-04-13
-fonte_campanha: "LPAI v2 Campanha SCOUT BR/FR (abr 2026)"
+fonte_campanha: LPAI v2 Campanha SCOUT BR/FR (abr 2026)
+seculo: 20th
 ---
+
 
 ## O Feminismo Triumphante — Revista da Semana, 20 maio 1933
 

@@ -2,25 +2,27 @@
 id: SCOUT-301
 tipo: corpus-candidato
 status: ativo
-titulo: "Lady Justice (F.W. Pomeroy) — Old Bailey, Central Criminal Court, London"
+titulo: Lady Justice (F.W. Pomeroy) — Old Bailey, Central Criminal Court, London
 pais: UK
-data_estimada: "1906"
+data_estimada: '1906'
 suporte: monumento
-motivo_alegorico: "Justitia / Lady Justice"
+motivo_alegorico: Justitia / Lady Justice
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/monumento
-  - regime/normativo
-  - motivo/justitia
+- corpus/candidato
+- pais/UK
+- suporte/monumento
+- regime/normativo
+- motivo/justitia
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[Contrato Sexual Visual]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[Contrato Sexual Visual]]'
 data_scout: 2026-03-30
+seculo: 20th
 ---
+
 
 ## Lady Justice (F.W. Pomeroy) — Old Bailey, Central Criminal Court, London
 

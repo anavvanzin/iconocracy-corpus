@@ -2,28 +2,30 @@
 id: SCOUT-429
 tipo: corpus-candidato
 status: ativo
-titulo: "Suffragistas — Fon-Fon, 16 de maio de 1914"
+titulo: Suffragistas — Fon-Fon, 16 de maio de 1914
 pais: BR
-data_estimada: "1914"
+data_estimada: '1914'
 suporte: estampa/gravura
-motivo_alegorico: "A República"
+motivo_alegorico: A República
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/estampa
-  - regime/normativo
-  - #contra-alegoria
-  - #acoplamento-imagem-norma
+- corpus/candidato
+- pais/BR
+- suporte/estampa
+- regime/normativo
+- null
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[contra-alegoria]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Feminilidade de Estado]]'
+- '[[contra-alegoria]]'
 data_scout: 2026-04-13
-fonte_campanha: "LPAI v2 Campanha SCOUT BR/FR (abr 2026)"
+fonte_campanha: LPAI v2 Campanha SCOUT BR/FR (abr 2026)
+seculo: 20th
 ---
+
 
 ## Suffragistas — Fon-Fon, 16 de maio de 1914
 

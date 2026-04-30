@@ -2,20 +2,33 @@
 id: SCOUT-105
 tipo: corpus-candidato
 status: candidato
-titulo: "1 Dollar British Trade Dollar — Britannia standing (colonial)"
-acervo: "Numista / Royal Mint"
-url: "https://en.numista.com/catalogue/pieces8472.html"
-data_estimada: "1895-1935"
-pais: [UK]
+titulo: 1 Dollar British Trade Dollar — Britannia standing (colonial)
+acervo: Numista / Royal Mint
+url: https://en.numista.com/catalogue/pieces8472.html
+data_estimada: 1895-1935
+pais:
+- UK
 suporte: moeda
-motivo_alegorico: "Britannia (standing, colonial)"
+motivo_alegorico: Britannia (standing, colonial)
 regime: MILITAR
 confianca: alto
-tags: [corpus/candidato, pais/UK, suporte/moeda, regime/militar, motivo/britannia, "#colonialidade-do-ver"]
-related: ["[[Regime Militar]]", "[[endurecimento]]", "[[SCOUT-106]]", "[[SCOUT-NC-02]]"]
+tags:
+- corpus/candidato
+- pais/UK
+- suporte/moeda
+- regime/militar
+- motivo/britannia
+- '#colonialidade-do-ver'
+related:
+- '[[Regime Militar]]'
+- '[[endurecimento]]'
+- '[[SCOUT-106]]'
+- '[[SCOUT-NC-02]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Identificacao
 **Titulo:** 1 Dollar British Trade Dollar — Britannia standing

@@ -2,26 +2,28 @@
 id: SCOUT-314
 tipo: corpus-candidato
 status: ativo
-titulo: "Standing Liberty Quarter — Hermon A. MacNeil (seio exposto → censurado)"
+titulo: Standing Liberty Quarter — Hermon A. MacNeil (seio exposto → censurado)
 pais: US
-data_estimada: "1916–1930"
+data_estimada: 1916–1930
 suporte: moeda
-motivo_alegorico: "Liberty (de pé, com escudo e oliveira)"
+motivo_alegorico: Liberty (de pé, com escudo e oliveira)
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/US
-  - suporte/moeda
-  - regime/normativo
-  - motivo/columbia
-  - "#contra-alegoria"
+- corpus/candidato
+- pais/US
+- suporte/moeda
+- regime/normativo
+- motivo/columbia
+- '#contra-alegoria'
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-03-30
+seculo: 20th
 ---
+
 
 ## Standing Liberty Quarter — MacNeil (1916–1930)
 

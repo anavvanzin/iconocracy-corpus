@@ -12,13 +12,17 @@ url: https://gallica.bnf.fr/ark:/12148/btv1b9012156x/f1.item
 iiif: true
 relevancia: 5
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/cartaz
-  - regime/fundacional
-  - motivo/republica
-  - motivo/marianne
+- corpus/candidato
+- pais/FR
+- suporte/cartaz
+- regime/fundacional
+- motivo/republica
+- motivo/marianne
+motivo_alegorico: La République
+seculo: 19th
 ---
+
+
 
 ## Descricao
 

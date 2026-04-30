@@ -2,25 +2,27 @@
 id: SCOUT-313
 tipo: corpus-candidato
 status: ativo
-titulo: "Cartwheel Penny — Britannia sentada com tridente (Boulton, Soho Mint)"
+titulo: Cartwheel Penny — Britannia sentada com tridente (Boulton, Soho Mint)
 pais: UK
-data_estimada: "1797"
+data_estimada: '1797'
 suporte: moeda
-motivo_alegorico: "Britannia (sentada, com tridente — primeira vez)"
+motivo_alegorico: Britannia (sentada, com tridente — primeira vez)
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/moeda
-  - regime/normativo
-  - motivo/britannia
+- corpus/candidato
+- pais/UK
+- suporte/moeda
+- regime/normativo
+- motivo/britannia
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[Nachleben]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[Nachleben]]'
 data_scout: 2026-03-30
+seculo: 18th
 ---
+
 
 ## Cartwheel Penny — Britannia com tridente (1797)
 

@@ -2,20 +2,32 @@
 id: SCOUT-094
 tipo: corpus-candidato
 status: ativo
-titulo: "5 Francs (Cérès, 2e République)"
-acervo: "Numista / Monnaie de Paris"
-url: "https://en.numista.com/catalogue/pieces1181.html"
-data_estimada: "1849-1851"
-pais: [FR]
+titulo: 5 Francs (Cérès, 2e République)
+acervo: Numista / Monnaie de Paris
+url: https://en.numista.com/catalogue/pieces1181.html
+data_estimada: 1849-1851
+pais:
+- FR
 suporte: moeda
-motivo_alegorico: "Cérès / La République"
+motivo_alegorico: Cérès / La République
 regime: FUNDACIONAL
 confianca: alto
-tags: [corpus/candidato, pais/FR, suporte/moeda, regime/fundacional, motivo/republica, "#sem-iiif"]
-related: ["[[Regime Fundacional]]", "[[Contrato Sexual Visual]]", "[[SCOUT-093]]"]
+tags:
+- corpus/candidato
+- pais/FR
+- suporte/moeda
+- regime/fundacional
+- motivo/republica
+- '#sem-iiif'
+related:
+- '[[Regime Fundacional]]'
+- '[[Contrato Sexual Visual]]'
+- '[[SCOUT-093]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Identificacao
 **Titulo:** 5 Francs (Cérès, 2e République)

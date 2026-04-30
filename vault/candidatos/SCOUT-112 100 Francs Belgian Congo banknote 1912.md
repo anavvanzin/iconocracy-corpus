@@ -2,20 +2,33 @@
 id: SCOUT-112
 tipo: corpus-candidato
 status: ativo
-titulo: "100 Francs Banque du Congo Belge — Allegory of Europe kneeling"
-acervo: "Numista / Banque du Congo Belge"
-url: "https://en.numista.com/258715"
-data_estimada: "1912-1929"
-pais: [BE]
+titulo: 100 Francs Banque du Congo Belge — Allegory of Europe kneeling
+acervo: Numista / Banque du Congo Belge
+url: https://en.numista.com/258715
+data_estimada: 1912-1929
+pais:
+- BE
 suporte: papel-moeda
-motivo_alegorico: "Allegory of Europe (kneeling) + African boys"
+motivo_alegorico: Allegory of Europe (kneeling) + African boys
 regime: MILITAR
 confianca: alto
-tags: [corpus/candidato, pais/BE, suporte/papel-moeda, regime/militar, motivo/belgique, "#colonialidade-do-ver", "#contrato-racial-visual"]
-related: ["[[Regime Militar]]", "[[Contrato Racial Visual]]", "[[SCOUT-111]]"]
+tags:
+- corpus/candidato
+- pais/BE
+- suporte/papel-moeda
+- regime/militar
+- motivo/belgique
+- '#colonialidade-do-ver'
+- '#contrato-racial-visual'
+related:
+- '[[Regime Militar]]'
+- '[[Contrato Racial Visual]]'
+- '[[SCOUT-111]]'
 hf_synced: false
 data_scout: 2026-03-31
+seculo: 20th
 ---
+
 
 ## Identificacao
 **Titulo:** 100 Francs — Banque du Congo Belge (Type 1912)

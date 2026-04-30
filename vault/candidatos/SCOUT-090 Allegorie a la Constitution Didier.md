@@ -2,21 +2,32 @@
 id: SCOUT-090
 tipo: corpus-candidato
 status: candidato
-titulo: "Allégorie à la Constitution, dédié à la nation françoise"
-acervo: "Bibliothèque nationale de France"
-url: "https://gallica.bnf.fr/ark:/12148/btv1b6948145c.item"
-url_iiif: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6948145c"
-data_estimada: "1789-1791"
-pais: [FR]
+titulo: Allégorie à la Constitution, dédié à la nation françoise
+acervo: Bibliothèque nationale de France
+url: https://gallica.bnf.fr/ark:/12148/btv1b6948145c.item
+url_iiif: https://gallica.bnf.fr/iiif/ark:/12148/btv1b6948145c
+data_estimada: 1789-1791
+pais:
+- FR
 suporte: estampa
-motivo_alegorico: "La Constitution / La Liberté"
+motivo_alegorico: La Constitution / La Liberté
 regime: FUNDACIONAL
 confianca: alto
-tags: [corpus/candidato, pais/FR, suporte/estampa, regime/fundacional, motivo/republica]
-related: ["[[Regime Fundacional]]", "[[Contrato Sexual Visual]]", "[[Pathosformel]]"]
+tags:
+- corpus/candidato
+- pais/FR
+- suporte/estampa
+- regime/fundacional
+- motivo/republica
+related:
+- '[[Regime Fundacional]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Pathosformel]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 18th
 ---
+
 
 ## Identificacao
 **Titulo:** Allégorie à la Constitution, dédié à la nation françoise

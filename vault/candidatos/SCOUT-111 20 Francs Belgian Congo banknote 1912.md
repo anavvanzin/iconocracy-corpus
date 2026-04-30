@@ -2,20 +2,34 @@
 id: SCOUT-111
 tipo: corpus-candidato
 status: candidato
-titulo: "20 Francs Banque du Congo Belge — Allegory of Europe + African woman"
-acervo: "Numista / Banque du Congo Belge"
-url: "https://en.numista.com/catalogue/note258714.html"
-data_estimada: "1912-1937"
-pais: [BE]
+titulo: 20 Francs Banque du Congo Belge — Allegory of Europe + African woman
+acervo: Numista / Banque du Congo Belge
+url: https://en.numista.com/catalogue/note258714.html
+data_estimada: 1912-1937
+pais:
+- BE
 suporte: papel-moeda
-motivo_alegorico: "Allegory of Europe / La Belgique (colonial)"
+motivo_alegorico: Allegory of Europe / La Belgique (colonial)
 regime: MILITAR
 confianca: alto
-tags: [corpus/candidato, pais/BE, suporte/papel-moeda, regime/militar, motivo/belgique, "#colonialidade-do-ver", "#contrato-racial-visual"]
-related: ["[[Regime Militar]]", "[[Contrato Racial Visual]]", "[[SCOUT-102]]", "[[SCOUT-105]]"]
+tags:
+- corpus/candidato
+- pais/BE
+- suporte/papel-moeda
+- regime/militar
+- motivo/belgique
+- '#colonialidade-do-ver'
+- '#contrato-racial-visual'
+related:
+- '[[Regime Militar]]'
+- '[[Contrato Racial Visual]]'
+- '[[SCOUT-102]]'
+- '[[SCOUT-105]]'
 hf_synced: false
 data_scout: 2026-03-31
+seculo: 20th
 ---
+
 
 ## Identificacao
 **Titulo:** 20 Francs — Banque du Congo Belge (Type 1912)

@@ -2,27 +2,30 @@
 id: SCOUT-319
 tipo: corpus-candidato
 status: ativo
-titulo: "Femmes indochinoises — selo definitivo Indochina (substituição da alegoria europeia)"
+titulo: Femmes indochinoises — selo definitivo Indochina (substituição da alegoria
+  europeia)
 pais: FR
-data_estimada: "1907"
+data_estimada: '1907'
 suporte: selo postal
-motivo_alegorico: "Mulheres indígenas (substituem alegoria europeia)"
+motivo_alegorico: Mulheres indígenas (substituem alegoria europeia)
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/selo
-  - regime/normativo
-  - "#colonialidade-do-ver"
-  - "#contrato-racial-visual"
-  - "#contra-alegoria"
+- corpus/candidato
+- pais/FR
+- suporte/selo
+- regime/normativo
+- '#colonialidade-do-ver'
+- '#contrato-racial-visual'
+- '#contra-alegoria'
 related:
-  - "[[endurecimento]]"
-  - "[[SCOUT-317]]"
-  - "[[SCOUT-ZW-05]]"
+- '[[endurecimento]]'
+- '[[SCOUT-317]]'
+- '[[SCOUT-ZW-05]]'
 data_scout: 2026-03-30
+seculo: 20th
 ---
+
 
 ## Femmes indochinoises — selo definitivo Indochina (1907)
 

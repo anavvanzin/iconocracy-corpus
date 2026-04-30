@@ -2,33 +2,36 @@
 id: SCOUT-412
 tipo: corpus-candidato
 status: candidato
-titulo: "Alegoria à Lei do Ventre Livre (A.D. Bressae) — NYU Faculty Digital Archive"
-acervo: "NYU Libraries, Faculty Digital Archive — Relics & Selves: Iconographies of the National"
-url: "https://archive.nyu.edu/handle/2451/61367"
+titulo: Alegoria à Lei do Ventre Livre (A.D. Bressae) — NYU Faculty Digital Archive
+acervo: 'NYU Libraries, Faculty Digital Archive — Relics & Selves: Iconographies of
+  the National'
+url: https://archive.nyu.edu/handle/2451/61367
 url_iiif: null
-data_estimada: "c. 1871"
+data_estimada: c. 1871
 pais: BR
 suporte: estampa/gravura
-motivo_alegorico: "Alegoria da Lei do Ventre Livre"
+motivo_alegorico: Alegoria da Lei do Ventre Livre
 regime: FUNDACIONAL
 confianca: medio
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/estampa
-  - regime/fundacional
-  - "#acoplamento-imagem-norma"
-  - "#colonialidade-do-ver"
-  - "#contrato-racial-visual"
-  - verificar
+- corpus/candidato
+- pais/BR
+- suporte/estampa
+- regime/fundacional
+- '#acoplamento-imagem-norma'
+- '#colonialidade-do-ver'
+- '#contrato-racial-visual'
+- verificar
 related:
-  - "[[Contrato Sexual Visual]]"
-  - "[[Contrato Racial Visual]]"
-  - "[[SCOUT-408 Visconti Lei Aurea selo 1904]]"
-  - "[[SCOUT-411 Brasiliana Debret personificacao nacional]]"
+- '[[Contrato Sexual Visual]]'
+- '[[Contrato Racial Visual]]'
+- '[[SCOUT-408 Visconti Lei Aurea selo 1904]]'
+- '[[SCOUT-411 Brasiliana Debret personificacao nacional]]'
 hf_synced: false
 data_scout: 2026-04-04
+seculo: 19th
 ---
+
 
 ## Identificação
 

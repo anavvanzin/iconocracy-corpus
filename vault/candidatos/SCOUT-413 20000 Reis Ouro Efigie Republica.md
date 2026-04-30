@@ -2,31 +2,33 @@
 id: SCOUT-413
 tipo: corpus-candidato
 status: candidato
-titulo: "20.000 Réis Ouro — Efígie da República com Barrete Frígio (1889–1922)"
-acervo: "Numista"
-url: "https://en.numista.com/catalogue/pieces36131.html"
+titulo: 20.000 Réis Ouro — Efígie da República com Barrete Frígio (1889–1922)
+acervo: Numista
+url: https://en.numista.com/catalogue/pieces36131.html
 url_iiif: null
-data_estimada: "1889-1922"
+data_estimada: 1889-1922
 pais: BR
 suporte: moeda
-motivo_alegorico: "A República / Efígie da República"
+motivo_alegorico: A República / Efígie da República
 regime: FUNDACIONAL
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/moeda
-  - regime/fundacional
-  - motivo/republica
+- corpus/candidato
+- pais/BR
+- suporte/moeda
+- regime/fundacional
+- motivo/republica
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[BR-2000R-1907 2000 Reis Efigie Republica]]"
-  - "[[SCOUT-316 500 Reis Republica Brasil 1889]]"
-  - "[[SCOUT-ZW-05 BR Longitudinal 1889 x 1965]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[BR-2000R-1907 2000 Reis Efigie Republica]]'
+- '[[SCOUT-316 500 Reis Republica Brasil 1889]]'
+- '[[SCOUT-ZW-05 BR Longitudinal 1889 x 1965]]'
 hf_synced: false
 data_scout: 2026-04-04
+seculo: 19th
 ---
+
 
 ## Identificação
 

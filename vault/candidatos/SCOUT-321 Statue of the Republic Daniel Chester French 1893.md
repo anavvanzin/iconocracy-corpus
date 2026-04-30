@@ -12,13 +12,17 @@ url: https://www.loc.gov/item/2011630457
 iiif: false
 relevancia: 4
 tags:
-  - corpus/candidato
-  - pais/US
-  - suporte/monumento
-  - regime/normativo
-  - motivo/columbia
-  - motivo/republica
+- corpus/candidato
+- pais/US
+- suporte/monumento
+- regime/normativo
+- motivo/columbia
+- motivo/republica
+motivo_alegorico: Columbia
+seculo: 19th
 ---
+
+
 
 ## Descricao
 

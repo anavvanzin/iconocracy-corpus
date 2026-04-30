@@ -2,32 +2,34 @@
 id: SCOUT-120
 tipo: corpus-candidato
 status: candidato
-titulo: "Germania — Série definitiva Deutsches Reich 5pf (1900–1922)"
-acervo: "Reichspost / Wikimedia Commons"
-url: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Germania5pf1900.jpg"
+titulo: Germania — Série definitiva Deutsches Reich 5pf (1900–1922)
+acervo: Reichspost / Wikimedia Commons
+url: https://upload.wikimedia.org/wikipedia/commons/e/e2/Germania5pf1900.jpg
 url_iiif: null
-data_estimada: "1900-1922"
+data_estimada: 1900-1922
 pais: DE
 suporte: selo postal
-motivo_alegorico: "Germania"
+motivo_alegorico: Germania
 regime: NORMATIVO
 Endurecimento: ALTO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/DE
-  - suporte/selo-postal
-  - regime/normativo
-  - motivo/germania
-  - #acoplamento-imagem-norma
-  - #ausencia-alegorica
+- corpus/candidato
+- pais/DE
+- suporte/selo-postal
+- regime/normativo
+- motivo/germania
+- null
+- null
 related:
-  - "[[Regime Normativo]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[SCOUT-NC-03 Weimar Reichsmark — ausência de Germania]]"
-  - "[[ZW-11 Semeuse vs Reichsmark]]"
+- '[[Regime Normativo]]'
+- '[[Feminilidade de Estado]]'
+- '[[SCOUT-NC-03 Weimar Reichsmark — ausência de Germania]]'
+- '[[ZW-11 Semeuse vs Reichsmark]]'
 data_scout: 2026-03-31
+seculo: 19th
 ---
+
 
 ## Identificação
 

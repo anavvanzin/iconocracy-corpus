@@ -2,32 +2,34 @@
 id: SCOUT-411
 tipo: corpus-candidato
 status: candidato
-titulo: "Brasiliana / Braziliana — personificação nacional feminina por J.B. Debret"
-acervo: "Wikimedia Commons / Category:Allegories of Brazil"
-url: "https://commons.wikimedia.org/wiki/File:Braziliana_ou_Brasiliana(Brazil_National_personification)_by_J_B_Debret.jpg"
+titulo: Brasiliana / Braziliana — personificação nacional feminina por J.B. Debret
+acervo: Wikimedia Commons / Category:Allegories of Brazil
+url: https://commons.wikimedia.org/wiki/File:Braziliana_ou_Brasiliana(Brazil_National_personification)_by_J_B_Debret.jpg
 url_iiif: null
-data_estimada: "c. 1820"
+data_estimada: c. 1820
 pais: BR
 suporte: estampa/gravura
-motivo_alegorico: "Brasiliana — personificação do Brasil"
+motivo_alegorico: Brasiliana — personificação do Brasil
 regime: FUNDACIONAL
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/estampa
-  - regime/fundacional
-  - motivo/republica
-  - "#colonialidade-do-ver"
-  - "#contrato-racial-visual"
+- corpus/candidato
+- pais/BR
+- suporte/estampa
+- regime/fundacional
+- motivo/republica
+- '#colonialidade-do-ver'
+- '#contrato-racial-visual'
 related:
-  - "[[Feminilidade de Estado]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[SCOUT-406 Alegorias Palacio Catete Val dOsne]]"
-  - "[[SCOUT-329 Alegoria Lei Ventre Livre]]"
+- '[[Feminilidade de Estado]]'
+- '[[Contrato Sexual Visual]]'
+- '[[SCOUT-406 Alegorias Palacio Catete Val dOsne]]'
+- '[[SCOUT-329 Alegoria Lei Ventre Livre]]'
 hf_synced: false
 data_scout: 2026-04-04
+seculo: 19th
 ---
+
 
 ## Identificação
 

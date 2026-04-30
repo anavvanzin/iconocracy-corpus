@@ -2,26 +2,28 @@
 id: SCOUT-317
 tipo: corpus-candidato
 status: ativo
-titulo: "Navigation et Commerce — selo tipo colonial francês (Mouchon)"
+titulo: Navigation et Commerce — selo tipo colonial francês (Mouchon)
 pais: FR
-data_estimada: "1892–1906"
+data_estimada: 1892–1906
 suporte: selo postal
-motivo_alegorico: "Navigation et Commerce (duas figuras femininas)"
+motivo_alegorico: Navigation et Commerce (duas figuras femininas)
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/selo
-  - regime/normativo
-  - "#colonialidade-do-ver"
-  - "#contrato-racial-visual"
+- corpus/candidato
+- pais/FR
+- suporte/selo
+- regime/normativo
+- '#colonialidade-do-ver'
+- '#contrato-racial-visual'
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[SCOUT-ZW-05]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[SCOUT-ZW-05]]'
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Navigation et Commerce — selo tipo colonial francês (1892–1906)
 

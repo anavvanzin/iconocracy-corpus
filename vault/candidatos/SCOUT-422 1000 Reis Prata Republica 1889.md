@@ -2,32 +2,34 @@
 id: SCOUT-422
 tipo: corpus-candidato
 status: candidato
-titulo: "1000 Réis — Efígie da República (prata .917, emissão inaugural 1889)"
-acervo: "Numista"
-url: "https://en.numista.com/catalogue/pieces36319.html"
+titulo: 1000 Réis — Efígie da República (prata .917, emissão inaugural 1889)
+acervo: Numista
+url: https://en.numista.com/catalogue/pieces36319.html
 url_iiif: null
-data_estimada: "1889"
+data_estimada: '1889'
 pais: BR
 suporte: moeda
-motivo_alegorico: "A República"
+motivo_alegorico: A República
 regime: FUNDACIONAL
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/moeda
-  - regime/fundacional
-  - motivo/republica
+- corpus/candidato
+- pais/BR
+- suporte/moeda
+- regime/fundacional
+- motivo/republica
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[SCOUT-316 500 Reis Republica Brasil 1889]]"
-  - "[[BR-2000R-1907]]"
-  - "[[SCOUT-413 20000 Reis Ouro Efigie Republica]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Feminilidade de Estado]]'
+- '[[SCOUT-316 500 Reis Republica Brasil 1889]]'
+- '[[BR-2000R-1907]]'
+- '[[SCOUT-413 20000 Reis Ouro Efigie Republica]]'
 hf_synced: false
 data_scout: 2026-04-10
+seculo: 19th
 ---
+
 
 ## Identificação
 

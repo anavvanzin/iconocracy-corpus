@@ -2,30 +2,33 @@
 id: SCOUT-205
 tipo: corpus-candidato
 status: candidato
-titulo: "Frontispício do Decreto n.º 1 — Governo Provisório (1889)"
-acervo: "Arquivo Nacional / DocVirt"
-url: "http://docvirt.com/docreader/DocReader.aspx?bib=ACDigital&pagfis=11894"
+titulo: Frontispício do Decreto n.º 1 — Governo Provisório (1889)
+acervo: Arquivo Nacional / DocVirt
+url: http://docvirt.com/docreader/DocReader.aspx?bib=ACDigital&pagfis=11894
 url_iiif: null
-data_estimada: "1889-11"
-pais: [BR]
+data_estimada: 1889-11
+pais:
+- BR
 suporte: frontispicio
-motivo_alegorico: "A República"
+motivo_alegorico: A República
 regime: FUNDACIONAL
 Endurecimento: medio
 confianca: medio
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/frontispicio
-  - regime/fundacional
-  - motivo/republica
-  - acoplamento-imagem-norma
+- corpus/candidato
+- pais/BR
+- suporte/frontispicio
+- regime/fundacional
+- motivo/republica
+- acoplamento-imagem-norma
 related:
-  - "[[Regime Fundacional]]"
-  - "[[Acoplamento imagem-norma]]"
-  - "[[Capitulo 5]]"
+- '[[Regime Fundacional]]'
+- '[[Acoplamento imagem-norma]]'
+- '[[Capitulo 5]]'
 data_scout: 2026-04-10
+seculo: 19th
 ---
+
 
 ## Identificação
 

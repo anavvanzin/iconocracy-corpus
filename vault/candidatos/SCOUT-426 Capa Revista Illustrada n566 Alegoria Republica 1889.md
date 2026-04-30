@@ -2,26 +2,28 @@
 id: SCOUT-426
 tipo: corpus-candidato
 status: ativo
-titulo: "Alegoria a Republica — Capa da Revista Illustrada n. 566 (Angelo Agostini)"
+titulo: Alegoria a Republica — Capa da Revista Illustrada n. 566 (Angelo Agostini)
 pais: BR
-data_estimada: "1889"
+data_estimada: '1889'
 suporte: estampa/gravura
-motivo_alegorico: "A República"
+motivo_alegorico: A República
 regime: FUNDACIONAL
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/estampa
-  - regime/fundacional
-  - motivo/republica
+- corpus/candidato
+- pais/BR
+- suporte/estampa
+- regime/fundacional
+- motivo/republica
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-04-13
-fonte_campanha: "LPAI v2 Campanha SCOUT BR/FR (abr 2026)"
+fonte_campanha: LPAI v2 Campanha SCOUT BR/FR (abr 2026)
+seculo: 19th
 ---
+
 
 ## Alegoria a Republica — Capa da Revista Illustrada n. 566 (Angelo Agostini)
 

@@ -2,46 +2,49 @@
 id: SCOUT-127
 tipo: corpus-candidato
 status: candidato
-titulo: "10 Centimes Semeuse Camée — Fond Plein sans Sol (France, 1906)"
-acervo: "Wikimedia Commons / Imprimerie nationale française"
-url: "https://commons.wikimedia.org/wiki/Category:Semeuse_on_stamps"
+titulo: 10 Centimes Semeuse Camée — Fond Plein sans Sol (France, 1906)
+acervo: Wikimedia Commons / Imprimerie nationale française
+url: https://commons.wikimedia.org/wiki/Category:Semeuse_on_stamps
 url_iiif: null
-url_imagem: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Semeuse_cam%C3%A9e_sol_t%C3%A9ton.jpg"
+url_imagem: https://upload.wikimedia.org/wikipedia/commons/9/9c/Semeuse_cam%C3%A9e_sol_t%C3%A9ton.jpg
 url_variante_sem_sol: null
-data_estimada: "1906-1941"
-data_emissao_primeira: "1906-04-13"
-data_emissao_sem_sol: "1906-07-28"
+data_estimada: 1906-1941
+data_emissao_primeira: '1906-04-13'
+data_emissao_sem_sol: '1906-07-28'
 pais: FR
 suporte: selo
-motivo_alegorico: "La Semeuse"
+motivo_alegorico: La Semeuse
 regime: NORMATIVO
 Endurecimento: MÉDIO
 confianca: medio
-designer: "Oscar Roty (figura) / Louis-Eugène Mouchon → Jean-Baptiste Lhomme (retoque 1907)"
-denominacao: "10 centimes"
-cor: "vermelho (rouge)"
+designer: Oscar Roty (figura) / Louis-Eugène Mouchon → Jean-Baptiste Lhomme (retoque
+  1907)
+denominacao: 10 centimes
+cor: vermelho (rouge)
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/selo
-  - regime/normativo
-  - motivo/semeuse
-  - endurecimento/medio
-  - "#acoplamento-imagem-norma"
-  - "#serialidade"
-  - "#decisao-metodologica"
+- corpus/candidato
+- pais/FR
+- suporte/selo
+- regime/normativo
+- motivo/semeuse
+- endurecimento/medio
+- '#acoplamento-imagem-norma'
+- '#serialidade'
+- '#decisao-metodologica'
 related:
-  - "[[SCOUT-107 Semeuse Roty 15c stamp 1903]]"
-  - "[[SCOUT-116 Semeuse 1 Franc silver coin Roty 1898]]"
-  - "[[SCOUT-ZW-07 Selos Definitivos Semeuse x Germania]]"
-  - "[[SCOUT-ZW-10 Educational Electricity vs Semeuse]]"
-  - "[[SCOUT-ZW-12 Semeuse vs Pflanzerin projection vs recovery]]"
-  - "[[Regime Normativo]]"
-  - "[[Serialidade]]"
-  - "[[Feminilidade de Estado]]"
+- '[[SCOUT-107 Semeuse Roty 15c stamp 1903]]'
+- '[[SCOUT-116 Semeuse 1 Franc silver coin Roty 1898]]'
+- '[[SCOUT-ZW-07 Selos Definitivos Semeuse x Germania]]'
+- '[[SCOUT-ZW-10 Educational Electricity vs Semeuse]]'
+- '[[SCOUT-ZW-12 Semeuse vs Pflanzerin projection vs recovery]]'
+- '[[Regime Normativo]]'
+- '[[Serialidade]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-03-31
 sessao: SCOUT-SESSION-2026-03-31c
+seculo: 20th
 ---
+
 
 ## Identificação
 

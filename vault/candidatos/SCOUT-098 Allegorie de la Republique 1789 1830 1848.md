@@ -2,23 +2,36 @@
 id: SCOUT-098
 tipo: corpus-candidato
 status: candidato
-titulo: "Allégorie de la République de 1789, 1830 et 1848"
-acervo: "Bibliothèque nationale de France"
-url: "https://gallica.bnf.fr/ark:/12148/btv1b53013992k"
-url_iiif: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53013992k"
-iiif_image: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53013992k/f1/full/full/0/native.jpg"
-iiif_dimensions: "3224x4272"
-data_estimada: "1848-1852"
-pais: [FR]
+titulo: Allégorie de la République de 1789, 1830 et 1848
+acervo: Bibliothèque nationale de France
+url: https://gallica.bnf.fr/ark:/12148/btv1b53013992k
+url_iiif: https://gallica.bnf.fr/iiif/ark:/12148/btv1b53013992k
+iiif_image: https://gallica.bnf.fr/iiif/ark:/12148/btv1b53013992k/f1/full/full/0/native.jpg
+iiif_dimensions: 3224x4272
+data_estimada: 1848-1852
+pais:
+- FR
 suporte: estampa
-motivo_alegorico: "La République (three founding moments)"
+motivo_alegorico: La République (three founding moments)
 regime: FUNDACIONAL
 confianca: alto
-tags: [corpus/candidato, pais/FR, suporte/estampa, regime/fundacional, motivo/republica]
-related: ["[[Regime Fundacional]]", "[[Nachleben]]", "[[Pathosformel]]", "[[SCOUT-090]]", "[[SCOUT-092]]"]
+tags:
+- corpus/candidato
+- pais/FR
+- suporte/estampa
+- regime/fundacional
+- motivo/republica
+related:
+- '[[Regime Fundacional]]'
+- '[[Nachleben]]'
+- '[[Pathosformel]]'
+- '[[SCOUT-090]]'
+- '[[SCOUT-092]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Identificacao
 **Titulo:** Allégorie de la République de 1789, 1830 et 1848

@@ -2,33 +2,35 @@
 id: SCOUT-423
 tipo: corpus-candidato
 status: candidato
-titulo: "50 Mil Réis — Cédula do Banco do Brazil (1890)"
-acervo: "Coleções privadas / World Banknotes & Coins"
-url: "https://www.worldbanknotescoins.com/2015/02/brazil-50-mil-reis-banknote-1890-banco-do-brazil.html"
+titulo: 50 Mil Réis — Cédula do Banco do Brazil (1890)
+acervo: Coleções privadas / World Banknotes & Coins
+url: https://www.worldbanknotescoins.com/2015/02/brazil-50-mil-reis-banknote-1890-banco-do-brazil.html
 url_iiif: null
-data_estimada: "1890"
+data_estimada: '1890'
 pais: BR
 suporte: cedula
-motivo_alegorico: "Alegoria do Governo, Alegoria da Justiça, Efígie da Liberdade"
+motivo_alegorico: Alegoria do Governo, Alegoria da Justiça, Efígie da Liberdade
 regime: FUNDACIONAL
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/cedula
-  - regime/fundacional
-  - motivo/justica
-  - motivo/liberdade
-  - motivo/governo
-  - verificar
+- corpus/candidato
+- pais/BR
+- suporte/cedula
+- regime/fundacional
+- motivo/justica
+- motivo/liberdade
+- motivo/governo
+- verificar
 related:
-  - "[[Regime Fundacional]]"
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[BR-2000R-1907]]"
+- '[[Regime Fundacional]]'
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[BR-2000R-1907]]'
 hf_synced: false
 data_scout: 2026-04-10
+seculo: 19th
 ---
+
 
 ## Identificacao
 

@@ -2,31 +2,34 @@
 id: SCOUT-424
 tipo: corpus-candidato
 status: candidato
-titulo: "20 Mil Réis — Cédula do Banco da República dos Estados Unidos do Brazil (c. 1890)"
-acervo: "Numista / Coleções privadas"
-url: "https://en.numista.com/catalogue/note222815.html"
+titulo: 20 Mil Réis — Cédula do Banco da República dos Estados Unidos do Brazil (c.
+  1890)
+acervo: Numista / Coleções privadas
+url: https://en.numista.com/catalogue/note222815.html
 url_iiif: null
-data_estimada: "1890-1893"
+data_estimada: 1890-1893
 pais: BR
 suporte: cedula
-motivo_alegorico: "Alegoria da Liberdade"
+motivo_alegorico: Alegoria da Liberdade
 regime: FUNDACIONAL
 confianca: medio
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/cedula
-  - regime/fundacional
-  - motivo/liberdade
-  - verificar
+- corpus/candidato
+- pais/BR
+- suporte/cedula
+- regime/fundacional
+- motivo/liberdade
+- verificar
 related:
-  - "[[Regime Fundacional]]"
-  - "[[endurecimento]]"
-  - "[[SCOUT-423]]"
-  - "[[Contrato Sexual Visual]]"
+- '[[Regime Fundacional]]'
+- '[[endurecimento]]'
+- '[[SCOUT-423]]'
+- '[[Contrato Sexual Visual]]'
 hf_synced: false
 data_scout: 2026-04-10
+seculo: 19th
 ---
+
 
 ## Identificacao
 

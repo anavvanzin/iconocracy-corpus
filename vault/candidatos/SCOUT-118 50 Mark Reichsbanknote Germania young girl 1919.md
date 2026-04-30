@@ -1,32 +1,37 @@
 ---
 id: SCOUT-118
-titulo: "50 Mark Reichsbanknote — Germania as Young Girl (Weimar, 1919)"
+titulo: 50 Mark Reichsbanknote — Germania as Young Girl (Weimar, 1919)
 tipo: corpus-candidato
-data: "1919"
-pais: [DE]
+data: '1919'
+pais:
+- DE
 suporte: papel-moeda
 regime: fundacional
-acervo: "Numizon / Numiscollection"
-url: "https://www.numizon.com/en/banknote/germany-reichsbanknotes-50-mark-type-1919-pick-66/deu-p66/"
+acervo: Numizon / Numiscollection
+url: https://www.numizon.com/en/banknote/germany-reichsbanknotes-50-mark-type-1919-pick-66/deu-p66/
 iiif: null
 confianca: alta
 tags:
-  - corpus/candidato
-  - pais/DE
-  - suporte/papel-moeda
-  - regime/fundacional
-  - motivo/germania
-  - "#iconometria"
-  - "#decisao-metodologica"
-  - "#acoplamento-imagem-norma"
+- corpus/candidato
+- pais/DE
+- suporte/papel-moeda
+- regime/fundacional
+- motivo/germania
+- '#iconometria'
+- '#decisao-metodologica'
+- '#acoplamento-imagem-norma'
 hf_synced: false
 related:
-  - "[[Contrato Sexual Visual]]"
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[SCOUT-NC-03 Weimar Republic 1 Reichsmark eagle 1925]]"
-  - "[[SCOUT-ZW-11 Semeuse vs Weimar eagle absence]]"
+- '[[Contrato Sexual Visual]]'
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[SCOUT-NC-03 Weimar Republic 1 Reichsmark eagle 1925]]'
+- '[[SCOUT-ZW-11 Semeuse vs Weimar eagle absence]]'
+motivo_alegorico: Germania
+seculo: 20th
 ---
+
+
 
 # SCOUT-118 — 50 Mark Reichsbanknote: Germania as Young Girl (1919)
 

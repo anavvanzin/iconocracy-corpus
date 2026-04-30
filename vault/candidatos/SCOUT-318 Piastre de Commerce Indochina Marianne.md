@@ -2,27 +2,29 @@
 id: SCOUT-318
 tipo: corpus-candidato
 status: ativo
-titulo: "Piastre de Commerce — Marianne sentada com fasces (Indochina Francesa)"
+titulo: Piastre de Commerce — Marianne sentada com fasces (Indochina Francesa)
 pais: FR
-data_estimada: "1885–1895"
+data_estimada: 1885–1895
 suporte: moeda
-motivo_alegorico: "Marianne / La République (sentada, fasces, coroa radiada)"
+motivo_alegorico: Marianne / La République (sentada, fasces, coroa radiada)
 regime: MILITAR
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/moeda
-  - regime/militar
-  - motivo/marianne
-  - "#colonialidade-do-ver"
+- corpus/candidato
+- pais/FR
+- suporte/moeda
+- regime/militar
+- motivo/marianne
+- '#colonialidade-do-ver'
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[SCOUT-023]]"
-  - "[[SCOUT-ZW-10]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[SCOUT-023]]'
+- '[[SCOUT-ZW-10]]'
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Piastre de Commerce — Marianne sentada (Indochina, 1885–1895)
 

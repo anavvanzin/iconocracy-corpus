@@ -6,19 +6,24 @@ data: 1895-1901
 pais: UK
 suporte: moeda
 regime: normativo
-criador: Thomas Brock (anverso) / Leonard Charles Wyon (reverso, modificado por G.W. de Saulles)
+criador: Thomas Brock (anverso) / Leonard Charles Wyon (reverso, modificado por G.W.
+  de Saulles)
 acervo: Numista
 url: https://en.numista.com/catalogue/pieces670.html
 iiif: false
 relevancia: 4
 tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/moeda
-  - regime/normativo
-  - motivo/britannia
-  - #contrato-racial-visual
+- corpus/candidato
+- pais/UK
+- suporte/moeda
+- regime/normativo
+- motivo/britannia
+- null
+motivo_alegorico: Britannia
+seculo: 19th
 ---
+
+
 
 ## Descricao
 

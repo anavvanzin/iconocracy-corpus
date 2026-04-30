@@ -2,29 +2,31 @@
 id: SCOUT-361
 tipo: corpus-candidato
 status: candidato
-titulo: "State of ambiguity : civic life and culture in Cuba's first republic"
-acervo: "Library of Congress"
-url: "https://www.loc.gov/item/2020719663/"
-data_estimada: "2014-01-01"
+titulo: 'State of ambiguity : civic life and culture in Cuba''s first republic'
+acervo: Library of Congress
+url: https://www.loc.gov/item/2020719663/
+data_estimada: '2014-01-01'
 pais: BR
 suporte: estampa
-motivo_alegorico: "Republic"
+motivo_alegorico: Republic
 regime: INDETERMINADO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/estampa
-  - motivo/republica
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/BR
+- suporte/estampa
+- motivo/republica
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.7
 hunt_source: loc
 data_scout: 2026-04-03
+seculo: 21th
 ---
+
 
 ## State of ambiguity : civic life and culture in Cuba's first republic
 

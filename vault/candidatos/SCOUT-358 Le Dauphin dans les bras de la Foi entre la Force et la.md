@@ -2,30 +2,33 @@
 id: SCOUT-358
 tipo: corpus-candidato
 status: candidato
-titulo: "[Le Dauphin dans les bras de la Foi entre la Force et la Justice] : [estampe] / ABosse jn et sculp"
-acervo: "Bibliothèque nationale de France"
-url: "https://gallica.bnf.fr/ark:/12148/btv1b531287227"
-data_estimada: "1662"
+titulo: '[Le Dauphin dans les bras de la Foi entre la Force et la Justice] : [estampe]
+  / ABosse jn et sculp'
+acervo: Bibliothèque nationale de France
+url: https://gallica.bnf.fr/ark:/12148/btv1b531287227
+data_estimada: '1662'
 pais: FR
 suporte: selo
-motivo_alegorico: "Justice"
+motivo_alegorico: Justice
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/selo
-  - regime/normativo
-  - motivo/justitia
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- suporte/selo
+- regime/normativo
+- motivo/justitia
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.7
 hunt_source: gallica
 data_scout: 2026-04-03
+seculo: 17th
 ---
+
 
 ## [Le Dauphin dans les bras de la Foi entre la Force et la Justice] : [estampe] / ABosse jn et sculp
 

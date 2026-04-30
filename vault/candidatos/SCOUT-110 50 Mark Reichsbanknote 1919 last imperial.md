@@ -2,20 +2,34 @@
 id: SCOUT-110
 tipo: corpus-candidato
 status: ativo
-titulo: "50 Mark Reichsbanknote (24 Jun. 1919) — última cédula imperial / primeira Weimar"
-acervo: "Numista / Deutsche Reichsbank"
-url: "https://en.numista.com/catalogue/note202186.html"
-data_estimada: "1919"
-pais: [DE]
+titulo: 50 Mark Reichsbanknote (24 Jun. 1919) — última cédula imperial / primeira
+  Weimar
+acervo: Numista / Deutsche Reichsbank
+url: https://en.numista.com/catalogue/note202186.html
+data_estimada: '1919'
+pais:
+- DE
 suporte: papel-moeda
-motivo_alegorico: "Allegorical female figure (transitional)"
+motivo_alegorico: Allegorical female figure (transitional)
 regime: FUNDACIONAL
 confianca: medio
-tags: [corpus/candidato, pais/DE, suporte/papel-moeda, regime/fundacional, motivo/germania, "#verificar"]
-related: ["[[Regime Fundacional]]", "[[SCOUT-096]]", "[[SCOUT-104]]", "[[endurecimento]]"]
+tags:
+- corpus/candidato
+- pais/DE
+- suporte/papel-moeda
+- regime/fundacional
+- motivo/germania
+- '#verificar'
+related:
+- '[[Regime Fundacional]]'
+- '[[SCOUT-096]]'
+- '[[SCOUT-104]]'
+- '[[endurecimento]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 20th
 ---
+
 
 ## Identificacao
 **Titulo:** 50 Mark Reichsbanknote (24 Jun. 1919) — nota transitional

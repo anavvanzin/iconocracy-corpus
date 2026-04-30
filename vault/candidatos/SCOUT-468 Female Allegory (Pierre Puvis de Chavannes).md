@@ -1,0 +1,46 @@
+---
+id: SCOUT-468
+tipo: corpus/candidato
+status: candidato
+titulo: Female Allegory (Pierre Puvis de Chavannes)
+url: https://www.europeana.eu/en/item/15508/DG1918_7
+data_estimada: 19th century
+seculo: 19th
+pais: FR
+regime: NORMATIVO
+confianca: baixo
+tags:
+- corpus/candidato
+- pais/FR
+- regime/normativo
+- null
+related:
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+data_scout: 2026-04-28
+suporte: estampa
+records_item_id: 48a9d6b2-6c5e-55cd-b594-d0c43e67d64e
+motivo_alegorico: Generic allegory
+---
+
+## Female Allegory (Pierre Puvis de Chavannes)
+
+### Identificação
+**Data**: 19th century | **País**: FR | **Regime**: NORMATIVO
+**URL**: [link](https://www.europeana.eu/en/item/15508/DG1918_7)
+
+**Motivos identificados**: Allégorie féminine, Symbolisme, Murale
+
+### Análise preliminar de endurecimento
+**Regime preliminar**: NORMATIVO
+
+*Análise gerada automaticamente a partir de records.jsonl. Requer validação visual.*
+
+### Citação ABNT
+PUVIS DE CHAVANNES, Pierre. Female allegory. [séc. XIX]. 1 desenho. Albertina Museum. Disponível em: https://www.europeana.eu/en/item/15508/DG1918_7.
+
+### Proveniência
+Nota gerada por `vault_sync.py push` em 2026-04-28.
+Registro canônico: `data/processed/records.jsonl` item_id `48a9d6b2-6c5e-55cd-b594-d0c43e67d64e`.
+
+> **#verificar**: Esta nota requer validação visual e confirmação de escopo.

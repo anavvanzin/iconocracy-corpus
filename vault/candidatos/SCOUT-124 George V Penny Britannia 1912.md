@@ -2,43 +2,45 @@
 id: SCOUT-124
 tipo: corpus-candidato
 status: ativo
-titulo: "1 Penny — Britannia Seated, Helmeted (George V, 1912)"
-acervo: "Museums Victoria Collection / Royal Mint"
-url: "https://collections.museumsvictoria.com.au/items/57610"
+titulo: 1 Penny — Britannia Seated, Helmeted (George V, 1912)
+acervo: Museums Victoria Collection / Royal Mint
+url: https://collections.museumsvictoria.com.au/items/57610
 url_iiif: null
-url_imagem: "https://collections.museumsvictoria.com.au/items/57610/media/413396/large"
-url_numista: "https://en.numista.com/catalogue/pieces578.html"
-data_estimada: "1911-1936"
-data_foco: "1912"
+url_imagem: https://collections.museumsvictoria.com.au/items/57610/media/413396/large
+url_numista: https://en.numista.com/catalogue/pieces578.html
+data_estimada: 1911-1936
+data_foco: '1912'
 pais: UK
 suporte: moeda
-motivo_alegorico: "Britannia"
+motivo_alegorico: Britannia
 regime: NORMATIVO
 Endurecimento: ALTO
 confianca: alto
-designer_anverso: "Edgar Bertram Mackennal"
-designer_reverso: "Leonard Charles Wyon (herdado)"
-acervo_instituicao: "Museums Victoria, Melbourne (AU)"
+designer_anverso: Edgar Bertram Mackennal
+designer_reverso: Leonard Charles Wyon (herdado)
+acervo_instituicao: Museums Victoria, Melbourne (AU)
 tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/moeda
-  - regime/normativo
-  - motivo/britannia
-  - endurecimento/alto
-  - "#acoplamento-imagem-norma"
-  - "#serialidade"
+- corpus/candidato
+- pais/UK
+- suporte/moeda
+- regime/normativo
+- motivo/britannia
+- endurecimento/alto
+- '#acoplamento-imagem-norma'
+- '#serialidade'
 related:
-  - "[[SCOUT-108 Halfpenny William III Britannia 1695]]"
-  - "[[SCOUT-118 Britannia Florin Edward VII]]"
-  - "[[SCOUT-322 Victoria Penny Britannia 1895]]"
-  - "[[SCOUT-ZW-08 UK Longitudinal Britannia 1695-1935]]"
-  - "[[Regime Normativo]]"
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[SCOUT-108 Halfpenny William III Britannia 1695]]'
+- '[[SCOUT-118 Britannia Florin Edward VII]]'
+- '[[SCOUT-322 Victoria Penny Britannia 1895]]'
+- '[[SCOUT-ZW-08 UK Longitudinal Britannia 1695-1935]]'
+- '[[Regime Normativo]]'
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-03-31
 sessao: SCOUT-SESSION-2026-03-31c
+seculo: 20th
 ---
+
 
 ## Identificação
 

@@ -2,28 +2,30 @@
 id: SCOUT-332
 tipo: corpus-candidato
 status: candidato
-titulo: "Design for the ceiling of the Great Hall at Blenheim"
-acervo: "Victoria and Albert Museum"
-url: "https://collections.vam.ac.uk/item/O190041"
-data_estimada: "ca. 1716"
+titulo: Design for the ceiling of the Great Hall at Blenheim
+acervo: Victoria and Albert Museum
+url: https://collections.vam.ac.uk/item/O190041
+data_estimada: ca. 1716
 pais: UK
 suporte: indeterminado
-motivo_alegorico: "Britannia"
+motivo_alegorico: Britannia
 regime: INDETERMINADO
 confianca: medio
 tags:
-  - corpus/candidato
-  - pais/UK
-  - motivo/britannia
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/UK
+- motivo/britannia
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.8
 hunt_source: va
 data_scout: 2026-04-03
+seculo: 18th
 ---
+
 
 ## Design for the ceiling of the Great Hall at Blenheim
 

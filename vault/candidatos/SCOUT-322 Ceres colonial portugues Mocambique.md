@@ -2,25 +2,27 @@
 id: SCOUT-322
 tipo: corpus-candidato
 status: ativo
-titulo: "Cérès colonial — selo tipo definitivo português (Moçambique, Angola, Timor)"
+titulo: Cérès colonial — selo tipo definitivo português (Moçambique, Angola, Timor)
 pais: PT
-data_estimada: "1913–1945"
+data_estimada: 1913–1945
 suporte: selo postal
-motivo_alegorico: "Cérès (exportação republicana para colônias)"
+motivo_alegorico: Cérès (exportação republicana para colônias)
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/PT
-  - suporte/selo
-  - regime/normativo
-  - "#colonialidade-do-ver"
+- corpus/candidato
+- pais/PT
+- suporte/selo
+- regime/normativo
+- '#colonialidade-do-ver'
 related:
-  - "[[endurecimento]]"
-  - "[[SCOUT-308]]"
-  - "[[SCOUT-317]]"
+- '[[endurecimento]]'
+- '[[SCOUT-308]]'
+- '[[SCOUT-317]]'
 data_scout: 2026-03-30
+seculo: 20th
 ---
+
 
 ## Cérès colonial — selo tipo definitivo português (1913–1945)
 

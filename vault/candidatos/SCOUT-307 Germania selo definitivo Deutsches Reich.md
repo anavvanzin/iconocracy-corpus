@@ -2,24 +2,26 @@
 id: SCOUT-307
 tipo: corpus-candidato
 status: ativo
-titulo: "Germania — selo definitivo do Deutsches Reich (Waldraff / Führing)"
+titulo: Germania — selo definitivo do Deutsches Reich (Waldraff / Führing)
 pais: DE
-data_estimada: "1900–1922"
+data_estimada: 1900–1922
 suporte: selo postal
-motivo_alegorico: "Germania"
+motivo_alegorico: Germania
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/DE
-  - suporte/selo
-  - regime/normativo
-  - motivo/germania
+- corpus/candidato
+- pais/DE
+- suporte/selo
+- regime/normativo
+- motivo/germania
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Germania — selo definitivo do Deutsches Reich (1900–1922)
 

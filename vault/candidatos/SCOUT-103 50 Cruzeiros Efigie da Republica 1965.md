@@ -2,20 +2,32 @@
 id: SCOUT-103
 tipo: corpus-candidato
 status: ativo
-titulo: "50 Cruzeiros — Efígie da República (Benedito Ribeiro / Tônia Carreiro)"
-acervo: "Numista / Casa da Moeda do Brasil"
-url: "https://en.numista.com/9337"
-data_estimada: "1965"
-pais: [BR]
+titulo: 50 Cruzeiros — Efígie da República (Benedito Ribeiro / Tônia Carreiro)
+acervo: Numista / Casa da Moeda do Brasil
+url: https://en.numista.com/9337
+data_estimada: '1965'
+pais:
+- BR
 suporte: moeda
-motivo_alegorico: "A República (efígie)"
+motivo_alegorico: A República (efígie)
 regime: NORMATIVO
 confianca: alto
-tags: [corpus/candidato, pais/BR, suporte/moeda, regime/normativo, motivo/republica, "#sem-iiif"]
-related: ["[[Regime Normativo]]", "[[endurecimento]]", "[[SCOUT-095]]"]
+tags:
+- corpus/candidato
+- pais/BR
+- suporte/moeda
+- regime/normativo
+- motivo/republica
+- '#sem-iiif'
+related:
+- '[[Regime Normativo]]'
+- '[[endurecimento]]'
+- '[[SCOUT-095]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 20th
 ---
+
 
 ## Identificacao
 **Titulo:** 50 Cruzeiros — Efígie da República (Benedito Ribeiro)

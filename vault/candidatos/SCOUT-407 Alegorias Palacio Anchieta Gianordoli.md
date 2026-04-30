@@ -2,29 +2,31 @@
 id: SCOUT-407
 tipo: corpus-candidato
 status: candidato
-titulo: "Alegorias do Palácio Anchieta — esculturas de Pedro Gianordoli (Vitória/ES)"
-acervo: "Palácio Anchieta / Escadaria Bárbara Monteiro Lindenberg"
-url: "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Anchieta_Escadaria_B%C3%A1rbara_Monteiro_Lindenberg_Vit%C3%B3ria_Esp%C3%ADrito_Santo_2019-4708.jpg"
+titulo: Alegorias do Palácio Anchieta — esculturas de Pedro Gianordoli (Vitória/ES)
+acervo: Palácio Anchieta / Escadaria Bárbara Monteiro Lindenberg
+url: https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Anchieta_Escadaria_B%C3%A1rbara_Monteiro_Lindenberg_Vit%C3%B3ria_Esp%C3%ADrito_Santo_2019-4708.jpg
 url_iiif: null
-data_estimada: "1912"
+data_estimada: '1912'
 pais: BR
 suporte: monumento/escultura
-motivo_alegorico: "Alegorias das Estações e da Indústria"
+motivo_alegorico: Alegorias das Estações e da Indústria
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/monumento
-  - regime/normativo
-  - motivo/republica
+- corpus/candidato
+- pais/BR
+- suporte/monumento
+- regime/normativo
+- motivo/republica
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[SCOUT-406 Alegorias Palacio Catete Val dOsne]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[SCOUT-406 Alegorias Palacio Catete Val dOsne]]'
 hf_synced: false
 data_scout: 2026-04-04
+seculo: 20th
 ---
+
 
 ## Identificação
 

@@ -2,30 +2,32 @@
 id: SCOUT-410
 tipo: corpus-candidato
 status: candidato
-titulo: "Selo Cabeça da Liberdade — Thesouro Nacional (1891)"
-acervo: "Wikimedia Commons / Colnect"
-url: "https://commons.wikimedia.org/wiki/File:Stamp_of_Brazil_-_1891_-_Colnect_811739_-_Liberty_thesouro_nacional.jpeg"
+titulo: Selo Cabeça da Liberdade — Thesouro Nacional (1891)
+acervo: Wikimedia Commons / Colnect
+url: https://commons.wikimedia.org/wiki/File:Stamp_of_Brazil_-_1891_-_Colnect_811739_-_Liberty_thesouro_nacional.jpeg
 url_iiif: null
-data_estimada: "1891"
+data_estimada: '1891'
 pais: BR
 suporte: selo postal
-motivo_alegorico: "Liberdade / República"
+motivo_alegorico: Liberdade / República
 regime: FUNDACIONAL
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/selo
-  - regime/fundacional
-  - motivo/republica
+- corpus/candidato
+- pais/BR
+- suporte/selo
+- regime/fundacional
+- motivo/republica
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[SCOUT-311 Serie Personalidades Alegoria Liberdade Brasil]]"
-  - "[[BR-2000R-1907 2000 Reis Efigie Republica]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[SCOUT-311 Serie Personalidades Alegoria Liberdade Brasil]]'
+- '[[BR-2000R-1907 2000 Reis Efigie Republica]]'
 hf_synced: false
 data_scout: 2026-04-04
+seculo: 19th
 ---
+
 
 ## Identificação
 

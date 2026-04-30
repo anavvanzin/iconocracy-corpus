@@ -2,25 +2,27 @@
 id: SCOUT-321
 tipo: corpus-candidato
 status: ativo
-titulo: "Hope Seated — selo triangular do Cabo da Boa Esperança (Charles Davidson Bell)"
+titulo: Hope Seated — selo triangular do Cabo da Boa Esperança (Charles Davidson Bell)
 pais: UK
-data_estimada: "1853"
+data_estimada: '1853'
 suporte: selo postal
-motivo_alegorico: "Hope (Esperança — alegoria colonial específica)"
+motivo_alegorico: Hope (Esperança — alegoria colonial específica)
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/selo
-  - regime/normativo
-  - "#colonialidade-do-ver"
-  - "#decisao-metodologica"
+- corpus/candidato
+- pais/UK
+- suporte/selo
+- regime/normativo
+- '#colonialidade-do-ver'
+- '#decisao-metodologica'
 related:
-  - "[[endurecimento]]"
-  - "[[SCOUT-320]]"
+- '[[endurecimento]]'
+- '[[SCOUT-320]]'
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Hope Seated — selo triangular Cabo da Boa Esperança (1853)
 

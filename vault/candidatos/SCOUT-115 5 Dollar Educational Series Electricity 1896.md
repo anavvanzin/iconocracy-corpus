@@ -1,33 +1,37 @@
 ---
 id: SCOUT-115
-titulo: "Electricity Presenting Light to the World — $5 Silver Certificate"
+titulo: Electricity Presenting Light to the World — $5 Silver Certificate
 tipo: corpus-candidato
-data: "1896"
-pais: [US]
+data: '1896'
+pais:
+- US
 suporte: papel-moeda
 regime: normativo
-acervo: "Smithsonian National Museum of American History"
-url: "https://americanhistory.si.edu/collections/object/nmah_1816788"
+acervo: Smithsonian National Museum of American History
+url: https://americanhistory.si.edu/collections/object/nmah_1816788
 iiif: null
 confianca: alta
 tags:
-  - corpus/candidato
-  - pais/US
-  - suporte/papel-moeda
-  - regime/normativo
-  - motivo/columbia
-  - "#iconometria"
-  - "#acoplamento-imagem-norma"
-  - "#contrato-racial-visual"
-  - "#decisao-metodologica"
+- corpus/candidato
+- pais/US
+- suporte/papel-moeda
+- regime/normativo
+- motivo/columbia
+- '#iconometria'
+- '#acoplamento-imagem-norma'
+- '#contrato-racial-visual'
+- '#decisao-metodologica'
 hf_synced: false
 related:
-  - "[[Contrato Sexual Visual]]"
-  - "[[endurecimento]]"
-  - "[[Iconocracia]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[SCOUT-114 2 Dollar Educational Series Science 1896]]"
+- '[[Contrato Sexual Visual]]'
+- '[[endurecimento]]'
+- '[[Iconocracia]]'
+- '[[Feminilidade de Estado]]'
+- '[[SCOUT-114 2 Dollar Educational Series Science 1896]]'
+motivo_alegorico: Columbia / Electricity / Progress
+seculo: 19th
 ---
+
 
 # SCOUT-115 — $5 Educational Series: Electricity Presenting Light to the World
 

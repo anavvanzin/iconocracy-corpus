@@ -2,33 +2,35 @@
 id: SCOUT-121
 tipo: corpus-candidato
 status: candidato
-titulo: "Semeuse — Série de selos definitivos França (1903–1938)"
-acervo: "Poste française / Colnect"
-url: "https://colnect.com/en/stamps/list/country/74-France/series/68206-Semeuse_solid_background"
+titulo: Semeuse — Série de selos definitivos França (1903–1938)
+acervo: Poste française / Colnect
+url: https://colnect.com/en/stamps/list/country/74-France/series/68206-Semeuse_solid_background
 url_iiif: null
-data_estimada: "1903-1938"
+data_estimada: 1903-1938
 pais: FR
 suporte: selo postal
-motivo_alegorico: "La République / Semeuse"
+motivo_alegorico: La République / Semeuse
 regime: NORMATIVO
 Endurecimento: BAIXO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/selo-postal
-  - regime/normativo
-  - motivo/semeuse
-  - motivo/republica
-  - #acoplamento-imagem-norma
+- corpus/candidato
+- pais/FR
+- suporte/selo-postal
+- regime/normativo
+- motivo/semeuse
+- motivo/republica
+- null
 related:
-  - "[[Regime Normativo]]"
-  - "[[Semeuse — Nachleben e Dessexualização]]"
-  - "[[SCOUT-116 Semeuse 1F moeda Roty]]"
-  - "[[ZW-10 Electricity vs Semeuse]]"
-  - "[[Feminilidade de Estado]]"
+- '[[Regime Normativo]]'
+- '[[Semeuse — Nachleben e Dessexualização]]'
+- '[[SCOUT-116 Semeuse 1F moeda Roty]]'
+- '[[ZW-10 Electricity vs Semeuse]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-03-31
+seculo: 20th
 ---
+
 
 ## Identificação
 

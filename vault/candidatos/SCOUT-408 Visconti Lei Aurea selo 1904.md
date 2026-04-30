@@ -2,34 +2,36 @@
 id: SCOUT-408
 tipo: corpus-candidato
 status: candidato
-titulo: "Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)"
-acervo: "Projeto Eliseu Visconti / Wikimedia Commons"
-url: "https://commons.wikimedia.org/wiki/File:EliseuVisconti-A813-A_Lei_%C3%81urea_%E2%80%93_Projeto_para_selo_integrante_da_cole%C3%A7%C3%A3o_vencedora_do_Concurso_dos_Correios_de_1904.jpg"
+titulo: Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)
+acervo: Projeto Eliseu Visconti / Wikimedia Commons
+url: https://commons.wikimedia.org/wiki/File:EliseuVisconti-A813-A_Lei_%C3%81urea_%E2%80%93_Projeto_para_selo_integrante_da_cole%C3%A7%C3%A3o_vencedora_do_Concurso_dos_Correios_de_1904.jpg
 url_iiif: null
-data_estimada: "1903"
+data_estimada: '1903'
 pais: BR
 suporte: estampa/selo postal
-motivo_alegorico: "Alegoria da Lei Áurea / Abolição"
+motivo_alegorico: Alegoria da Lei Áurea / Abolição
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/selo
-  - regime/normativo
-  - motivo/republica
-  - "#acoplamento-imagem-norma"
-  - "#colonialidade-do-ver"
-  - "#contrato-racial-visual"
+- corpus/candidato
+- pais/BR
+- suporte/selo
+- regime/normativo
+- motivo/republica
+- '#acoplamento-imagem-norma'
+- '#colonialidade-do-ver'
+- '#contrato-racial-visual'
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[Contrato Racial Visual]]"
-  - "[[BR-010 Eliseu Visconti Alegoria]]"
-  - "[[SCOUT-311 Serie Personalidades Alegoria Liberdade Brasil]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Contrato Racial Visual]]'
+- '[[BR-010 Eliseu Visconti Alegoria]]'
+- '[[SCOUT-311 Serie Personalidades Alegoria Liberdade Brasil]]'
 hf_synced: false
 data_scout: 2026-04-04
+seculo: 20th
 ---
+
 
 ## Identificação
 

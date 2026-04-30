@@ -2,20 +2,32 @@
 id: SCOUT-101
 tipo: corpus-candidato
 status: ativo
-titulo: "1 Dollar Silver Certificate 'Educational Series' — History Instructing Youth"
-acervo: "Numista / Smithsonian NMAH"
-url: "https://en.numista.com/catalogue/note207329.html"
-data_estimada: "1896"
-pais: [US]
+titulo: 1 Dollar Silver Certificate 'Educational Series' — History Instructing Youth
+acervo: Numista / Smithsonian NMAH
+url: https://en.numista.com/catalogue/note207329.html
+data_estimada: '1896'
+pais:
+- US
 suporte: papel-moeda
-motivo_alegorico: "History / Columbia (instructing Youth)"
+motivo_alegorico: History / Columbia (instructing Youth)
 regime: NORMATIVO
 confianca: alto
-tags: [corpus/candidato, pais/US, suporte/papel-moeda, regime/normativo, motivo/columbia, "#sem-iiif"]
-related: ["[[Regime Normativo]]", "[[Contrato Sexual Visual]]", "[[Feminilidade de Estado]]"]
+tags:
+- corpus/candidato
+- pais/US
+- suporte/papel-moeda
+- regime/normativo
+- motivo/columbia
+- '#sem-iiif'
+related:
+- '[[Regime Normativo]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Feminilidade de Estado]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Identificacao
 **Titulo:** $1 Silver Certificate "Educational Series" — History Instructing Youth

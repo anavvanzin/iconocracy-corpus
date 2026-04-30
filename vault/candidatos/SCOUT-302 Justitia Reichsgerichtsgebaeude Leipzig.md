@@ -2,26 +2,28 @@
 id: SCOUT-302
 tipo: corpus-candidato
 status: ativo
-titulo: "Justitia entronizada — Reichsgerichtsgebäude, Leipzig (Otto Lessing)"
+titulo: Justitia entronizada — Reichsgerichtsgebäude, Leipzig (Otto Lessing)
 pais: DE
-data_estimada: "1895"
+data_estimada: '1895'
 suporte: monumento
-motivo_alegorico: "Justitia (dupla: libertadora e punitiva)"
+motivo_alegorico: 'Justitia (dupla: libertadora e punitiva)'
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/DE
-  - suporte/monumento
-  - regime/normativo
-  - motivo/justitia
-  - motivo/germania
+- corpus/candidato
+- pais/DE
+- suporte/monumento
+- regime/normativo
+- motivo/justitia
+- motivo/germania
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[Nachleben]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[Nachleben]]'
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Justitia entronizada — Reichsgerichtsgebäude, Leipzig (Otto Lessing)
 

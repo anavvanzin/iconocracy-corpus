@@ -2,30 +2,32 @@
 id: SCOUT-415
 tipo: corpus-candidato
 status: candidato
-titulo: "O mundo às avessas: voto feminino"
-acervo: "Biblioteca Nacional / Hemeroteca Digital"
-url: "http://memoria.bn.br/docreader/116300/4346"
+titulo: 'O mundo às avessas: voto feminino'
+acervo: Biblioteca Nacional / Hemeroteca Digital
+url: http://memoria.bn.br/docreader/116300/4346
 url_iiif: null
-data_estimada: "1917"
+data_estimada: '1917'
 pais: BR
 suporte: estampa
-motivo_alegorico: "Contra-alegoria"
+motivo_alegorico: Contra-alegoria
 regime: CONTRA-ALEGORIA
 Endurecimento: BAIXO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/estampa
-  - regime/contra-alegoria
-  - motivo/voto-feminino
-  - #contra-alegoria
+- corpus/candidato
+- pais/BR
+- suporte/estampa
+- regime/contra-alegoria
+- motivo/voto-feminino
+- null
 related:
-  - "[[Contrato Sexual Visual]]"
-  - "[[Mundus Inversus]]"
-  - "[[Resistência Iconográfica]]"
+- '[[Contrato Sexual Visual]]'
+- '[[Mundus Inversus]]'
+- '[[Resistência Iconográfica]]'
 data_scout: 2026-04-05
+seculo: 20th
 ---
+
 
 ## Identificação
 

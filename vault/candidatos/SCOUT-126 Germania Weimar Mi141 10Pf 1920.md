@@ -2,45 +2,47 @@
 id: SCOUT-126
 tipo: corpus-candidato
 status: candidato
-titulo: "10 Pfennig Germania — Deutsches Reich (Weimar Republic, Mi.141, 1920)"
-acervo: "Wikimedia Commons / Deutsche Reichspost (Weimar)"
-url: "https://commons.wikimedia.org/wiki/File:DR_1920_141_Germania.jpg"
+titulo: 10 Pfennig Germania — Deutsches Reich (Weimar Republic, Mi.141, 1920)
+acervo: Wikimedia Commons / Deutsche Reichspost (Weimar)
+url: https://commons.wikimedia.org/wiki/File:DR_1920_141_Germania.jpg
 url_iiif: null
-url_imagem: "https://upload.wikimedia.org/wikipedia/commons/4/49/DR_1920_141_Germania.jpg"
-data_estimada: "1920-1921"
-data_emissao: "1920-09-02"
+url_imagem: https://upload.wikimedia.org/wikipedia/commons/4/49/DR_1920_141_Germania.jpg
+data_estimada: 1920-1921
+data_emissao: '1920-09-02'
 pais: DE
 suporte: selo
-motivo_alegorico: "Germania"
+motivo_alegorico: Germania
 regime: NORMATIVO
 Endurecimento: ALTO
 confianca: alto
-designer: "Paul Eduard Waldraff (1870–1917) — design herdado do Império"
-michel: "Mi.141 / Sc.119"
-cor: "laranja (orange)"
-denominacao: "10 Pfennig"
+designer: Paul Eduard Waldraff (1870–1917) — design herdado do Império
+michel: Mi.141 / Sc.119
+cor: laranja (orange)
+denominacao: 10 Pfennig
 tags:
-  - corpus/candidato
-  - pais/DE
-  - suporte/selo
-  - regime/normativo
-  - motivo/germania
-  - endurecimento/alto
-  - "#acoplamento-imagem-norma"
-  - "#serialidade"
-  - "#decisao-metodologica"
+- corpus/candidato
+- pais/DE
+- suporte/selo
+- regime/normativo
+- motivo/germania
+- endurecimento/alto
+- '#acoplamento-imagem-norma'
+- '#serialidade'
+- '#decisao-metodologica'
 related:
-  - "[[SCOUT-104 Germania definitive stamp 10Pf]]"
-  - "[[SCOUT-307 Germania selo definitivo Deutsches Reich]]"
-  - "[[SCOUT-NC-03 Weimar Republic 1 Reichsmark eagle 1925]]"
-  - "[[SCOUT-ZW-11 Semeuse vs Weimar eagle absence]]"
-  - "[[SCOUT-119 50 Pfennig woman planting oak Weimar 1924]]"
-  - "[[Regime Normativo]]"
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
+- '[[SCOUT-104 Germania definitive stamp 10Pf]]'
+- '[[SCOUT-307 Germania selo definitivo Deutsches Reich]]'
+- '[[SCOUT-NC-03 Weimar Republic 1 Reichsmark eagle 1925]]'
+- '[[SCOUT-ZW-11 Semeuse vs Weimar eagle absence]]'
+- '[[SCOUT-119 50 Pfennig woman planting oak Weimar 1924]]'
+- '[[Regime Normativo]]'
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
 data_scout: 2026-03-31
 sessao: SCOUT-SESSION-2026-03-31c
+seculo: 20th
 ---
+
 
 ## Identificação
 

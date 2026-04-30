@@ -2,28 +2,30 @@
 id: SCOUT-328
 tipo: corpus-candidato
 status: candidato
-titulo: "[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]"
-acervo: "Bibliothèque nationale de France"
-url: "https://gallica.bnf.fr/ark:/12148/btv1b53234029x"
-data_estimada: "1560-1570"
+titulo: '[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]'
+acervo: Bibliothèque nationale de France
+url: https://gallica.bnf.fr/ark:/12148/btv1b53234029x
+data_estimada: 1560-1570
 pais: FR
 suporte: indeterminado
-motivo_alegorico: "Justice"
+motivo_alegorico: Justice
 regime: INDETERMINADO
 confianca: medio
 tags:
-  - corpus/candidato
-  - pais/FR
-  - motivo/justitia
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- motivo/justitia
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 1.0
 hunt_source: gallica
 data_scout: 2026-04-03
+seculo: 16th
 ---
+
 
 ## [Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]
 

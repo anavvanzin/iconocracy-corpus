@@ -2,30 +2,33 @@
 id: SCOUT-206
 tipo: corpus-candidato
 status: candidato
-titulo: "Medalha comemorativa da Proclamação da República (Casa da Moeda, 1890)"
-acervo: "Museu Histórico Nacional / Brasiliana Iconográfica"
-url: "https://www.brasilianaiconografica.art.br/obras/12345/medalha-da-proclamacao-da-republica"
+titulo: Medalha comemorativa da Proclamação da República (Casa da Moeda, 1890)
+acervo: Museu Histórico Nacional / Brasiliana Iconográfica
+url: https://www.brasilianaiconografica.art.br/obras/12345/medalha-da-proclamacao-da-republica
 url_iiif: null
-data_estimada: "1890"
-pais: [BR]
+data_estimada: '1890'
+pais:
+- BR
 suporte: medalha
-motivo_alegorico: "A República"
+motivo_alegorico: A República
 regime: FUNDACIONAL
 endurecimento: medio
 confianca: medio
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/medalha
-  - regime/fundacional
-  - motivo/republica
-  - atlas/painel-i
+- corpus/candidato
+- pais/BR
+- suporte/medalha
+- regime/fundacional
+- motivo/republica
+- atlas/painel-i
 related:
-  - "[[Atlas Painel I]]"
-  - "[[Regime Fundacional]]"
-  - "[[Feminilidade de Estado]]"
+- '[[Atlas Painel I]]'
+- '[[Regime Fundacional]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-04-10
+seculo: 19th
 ---
+
 
 ## Identificação
 

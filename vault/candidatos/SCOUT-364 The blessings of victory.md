@@ -2,30 +2,32 @@
 id: SCOUT-364
 tipo: corpus-candidato
 status: ativo
-titulo: "The blessings of victory"
-acervo: "Library of Congress"
-url: "https://www.loc.gov/item/2022631575/"
-data_estimada: "1864-01-01"
+titulo: The blessings of victory
+acervo: Library of Congress
+url: https://www.loc.gov/item/2022631575/
+data_estimada: '1864-01-01'
 pais: US
 suporte: estampa
-motivo_alegorico: "Columbia"
+motivo_alegorico: Columbia
 regime: MILITAR
 confianca: medio
 tags:
-  - corpus/candidato
-  - pais/US
-  - suporte/estampa
-  - regime/militar
-  - motivo/columbia
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/US
+- suporte/estampa
+- regime/militar
+- motivo/columbia
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.8
 hunt_source: loc
 data_scout: 2026-04-04
+seculo: 19th
 ---
+
 
 ## The blessings of victory
 

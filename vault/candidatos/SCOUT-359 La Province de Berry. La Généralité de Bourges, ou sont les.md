@@ -2,28 +2,34 @@
 id: SCOUT-359
 tipo: corpus-candidato
 status: candidato
-titulo: "La Province de Berry. La Généralité de Bourges, ou sont les Eslections de Bourges d'Yssoudun de Chau-roux, du Blanc, de La Chastre, de St. Amand et de la Charité / Dédiée A Messire Nicolas Estienne Roujault, Chevalier Conseiller du Roy en ses Conseils, Maistre des Requestes ordinaire de Son hôtel Intendant de Justice Police et Finance en la Généralité de Bourges ; Par... A. Hubert Iaillot..."
-acervo: "Bibliothèque nationale de France"
-url: "https://gallica.bnf.fr/ark:/12148/btv1b59718546"
-data_estimada: "1707"
+titulo: La Province de Berry. La Généralité de Bourges, ou sont les Eslections de
+  Bourges d'Yssoudun de Chau-roux, du Blanc, de La Chastre, de St. Amand et de la
+  Charité / Dédiée A Messire Nicolas Estienne Roujault, Chevalier Conseiller du Roy
+  en ses Conseils, Maistre des Requestes ordinaire de Son hôtel Intendant de Justice
+  Police et Finance en la Généralité de Bourges ; Par... A. Hubert Iaillot...
+acervo: Bibliothèque nationale de France
+url: https://gallica.bnf.fr/ark:/12148/btv1b59718546
+data_estimada: '1707'
 pais: FR
 suporte: indeterminado
-motivo_alegorico: "Justice"
+motivo_alegorico: Justice
 regime: INDETERMINADO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - motivo/justitia
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- motivo/justitia
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.7
 hunt_source: gallica
 data_scout: 2026-04-03
+seculo: 18th
 ---
+
 
 ## La Province de Berry. La Généralité de Bourges, ou sont les Eslections de Bourges d'Yssoudun de Chau-roux, du Blanc, de La Chastre, de St. Amand et de la Charité / Dédiée A Messire Nicolas Estienne Roujault, Chevalier Conseiller du Roy en ses Conseils, Maistre des Requestes ordinaire de Son hôtel Intendant de Justice Police et Finance en la Généralité de Bourges ; Par... A. Hubert Iaillot...
 

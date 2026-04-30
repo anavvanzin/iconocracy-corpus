@@ -2,31 +2,33 @@
 id: SCOUT-118
 tipo: corpus-candidato
 status: ativo
-titulo: "1 Florin — Britannia Standing on Ship Prow (Edward VII)"
-acervo: "Royal Mint / Museums Victoria Collection"
-url: "https://collections.museumsvictoria.com.au/items/77020"
+titulo: 1 Florin — Britannia Standing on Ship Prow (Edward VII)
+acervo: Royal Mint / Museums Victoria Collection
+url: https://collections.museumsvictoria.com.au/items/77020
 url_iiif: null
-data_estimada: "1902-1910"
+data_estimada: 1902-1910
 pais: UK
 suporte: moeda
-motivo_alegorico: "Britannia"
+motivo_alegorico: Britannia
 regime: NORMATIVO
 Endurecimento: ALTO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/moeda
-  - regime/normativo
-  - motivo/britannia
-  - #acoplamento-imagem-norma
+- corpus/candidato
+- pais/UK
+- suporte/moeda
+- regime/normativo
+- motivo/britannia
+- null
 related:
-  - "[[Regime Normativo]]"
-  - "[[Britannia — Nachleben e Continuidade Imperial]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[SCOUT-108 Meio Penny William III]]"
+- '[[Regime Normativo]]'
+- '[[Britannia — Nachleben e Continuidade Imperial]]'
+- '[[Feminilidade de Estado]]'
+- '[[SCOUT-108 Meio Penny William III]]'
 data_scout: 2026-03-31
+seculo: 20th
 ---
+
 
 ## Identificação
 

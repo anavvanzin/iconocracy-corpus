@@ -2,20 +2,32 @@
 id: SCOUT-097
 tipo: corpus-candidato
 status: ativo
-titulo: "1000 Mark Reichsbanknote — allegorical figures"
-acervo: "Numista / Deutsche Reichsbank"
-url: "https://en.numista.com/catalogue/note203637.html"
-data_estimada: "1910"
-pais: [DE]
+titulo: 1000 Mark Reichsbanknote — allegorical figures
+acervo: Numista / Deutsche Reichsbank
+url: https://en.numista.com/catalogue/note203637.html
+data_estimada: '1910'
+pais:
+- DE
 suporte: papel-moeda
-motivo_alegorico: "Germania / Navigation / Agriculture"
+motivo_alegorico: Germania / Navigation / Agriculture
 regime: NORMATIVO
 confianca: medio
-tags: [corpus/candidato, pais/DE, suporte/papel-moeda, regime/normativo, motivo/germania, "#verificar"]
-related: ["[[Regime Normativo]]", "[[endurecimento]]", "[[SCOUT-096]]"]
+tags:
+- corpus/candidato
+- pais/DE
+- suporte/papel-moeda
+- regime/normativo
+- motivo/germania
+- '#verificar'
+related:
+- '[[Regime Normativo]]'
+- '[[endurecimento]]'
+- '[[SCOUT-096]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 20th
 ---
+
 
 ## Identificacao
 **Titulo:** 1000 Mark Reichsbanknote (green seals)

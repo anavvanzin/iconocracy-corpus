@@ -2,30 +2,32 @@
 id: SCOUT-416
 tipo: corpus-candidato
 status: candidato
-titulo: "A República em Leilão"
-acervo: "Biblioteca Nacional / Hemeroteca Digital"
-url: "http://memoria.bn.br/DocReader/116300/4346"
+titulo: A República em Leilão
+acervo: Biblioteca Nacional / Hemeroteca Digital
+url: http://memoria.bn.br/DocReader/116300/4346
 url_iiif: null
-data_estimada: "1904"
+data_estimada: '1904'
 pais: BR
 suporte: estampa
-motivo_alegorico: "A República"
+motivo_alegorico: A República
 regime: NORMATIVO
 Endurecimento: MEDIO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/estampa
-  - regime/normativo
-  - motivo/republica
-  - #mercantilizacao
+- corpus/candidato
+- pais/BR
+- suporte/estampa
+- regime/normativo
+- motivo/republica
+- null
 related:
-  - "[[Regime Normativo]]"
-  - "[[Oligarquia]]"
-  - "[[Contrato Sexual Visual]]"
+- '[[Regime Normativo]]'
+- '[[Oligarquia]]'
+- '[[Contrato Sexual Visual]]'
 data_scout: 2026-04-05
+seculo: 20th
 ---
+
 
 ## Identificação
 

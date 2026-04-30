@@ -1,31 +1,35 @@
 ---
 id: SCOUT-119
-titulo: "50 Reichspfennig — Woman Planting Oak Sapling (Weimar, 1924)"
+titulo: 50 Reichspfennig — Woman Planting Oak Sapling (Weimar, 1924)
 tipo: corpus-candidato
-data: "1924"
-pais: [DE]
+data: '1924'
+pais:
+- DE
 suporte: moeda
 regime: fundacional
-acervo: "Numista"
-url: "https://en.numista.com/catalogue/pieces2546.html"
+acervo: Numista
+url: https://en.numista.com/catalogue/pieces2546.html
 iiif: null
 confianca: alta
 tags:
-  - corpus/candidato
-  - pais/DE
-  - suporte/moeda
-  - regime/fundacional
-  - "#iconometria"
-  - "#acoplamento-imagem-norma"
-  - "#decisao-metodologica"
+- corpus/candidato
+- pais/DE
+- suporte/moeda
+- regime/fundacional
+- '#iconometria'
+- '#acoplamento-imagem-norma'
+- '#decisao-metodologica'
 hf_synced: false
 related:
-  - "[[Contrato Sexual Visual]]"
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[SCOUT-NC-03 Weimar Republic 1 Reichsmark eagle 1925]]"
-  - "[[SCOUT-116 Semeuse 1 Franc silver coin Roty 1898]]"
+- '[[Contrato Sexual Visual]]'
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[SCOUT-NC-03 Weimar Republic 1 Reichsmark eagle 1925]]'
+- '[[SCOUT-116 Semeuse 1 Franc silver coin Roty 1898]]'
+motivo_alegorico: Germania / Woman Planting Oak
+seculo: 20th
 ---
+
 
 # SCOUT-119 — 50 Reichspfennig: Woman Planting Oak Sapling (1924)
 
