@@ -12,7 +12,7 @@ Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História 
 
 ```bash
 # Environment
-conda activate iconocracy                          # Python 3.10+ environment
+conda activate iconocracy                          # Python 3.11 env (see environment.yml)
 
 # Validation & corpus
 python tools/scripts/validate_schemas.py           # validate all JSON schemas
