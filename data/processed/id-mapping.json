@@ -1,0 +1,1037 @@
+{
+  "version": "1.0",
+  "created_at": "2026-05-14",
+  "total_records": 265,
+  "total_corpus": 264,
+  "matched": 257,
+  "mapping": [
+    {
+      "item_id": "00a6bd05-0b74-54b4-9b93-604a012aaab6",
+      "corpus_id": "BR-007"
+    },
+    {
+      "item_id": "03075694-0e68-5b33-afb2-3c60687f498b",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "06ffa064-566d-5250-bb87-cb70c7ca6281",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "07dcf849-9f63-5c2e-959a-6682cc5475eb",
+      "corpus_id": "BE-5F-LEOPOLD-1832"
+    },
+    {
+      "item_id": "097d7804-9176-559e-87a3-8acc6485b775",
+      "corpus_id": "UK-PENNY-1860"
+    },
+    {
+      "item_id": "0982e2d1-9591-5fce-9146-143f183fc95a",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "0d805e40-ced2-5531-827d-4584ae6afc55",
+      "corpus_id": "FR-011"
+    },
+    {
+      "item_id": "0de532b9-260d-5e80-a7a0-434993f6155d",
+      "corpus_id": "IT-007"
+    },
+    {
+      "item_id": "0e0cd716-6505-5fce-8581-166cd3f52b0c",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "0f062b69-9c73-59aa-86f5-c0458b4ea37c",
+      "corpus_id": "FR-018"
+    },
+    {
+      "item_id": "1171d90a-9ff7-5d91-b115-8107ef5ff344",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "11fa83ea-c4eb-5685-abc5-acdf23e0d427",
+      "corpus_id": "US-EDUC-1896-05"
+    },
+    {
+      "item_id": "1233c2da-4db4-5849-8ceb-93814eff07c8",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "1444ee85-06cf-59c5-9070-6a2f684cb269",
+      "corpus_id": "FR-CERES-5F-1849"
+    },
+    {
+      "item_id": "14b85866-6a9d-5d34-ba20-3f482ce10759",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "1929bfaa-f01b-56cb-95f4-1b8049070a02",
+      "corpus_id": "IT-006"
+    },
+    {
+      "item_id": "1ab9df88-0542-5cd9-95df-99cf0b8cd65f",
+      "corpus_id": "PT-001"
+    },
+    {
+      "item_id": "1ae7c4ae-e5b5-512c-bb75-857c47853d2c",
+      "corpus_id": "US-006"
+    },
+    {
+      "item_id": "1d99d3c2-663b-590e-9072-34d8cdfdd5ce",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "1dbbf8e6-099d-5db0-8749-ca5886c30783",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "1e7351b9-8ab6-5d9a-b6b5-30d9803ab4c9",
+      "corpus_id": "FR-006"
+    },
+    {
+      "item_id": "1e9bf44b-95a3-5a8a-b592-69f131dae892",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "1f19caed-dbcb-52d6-8373-985bf037b7c8",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "21062d44-81f0-55dd-b0d1-a6e439db9c83",
+      "corpus_id": "FR-033"
+    },
+    {
+      "item_id": "21d4f225-4269-5033-857a-4a320598f52a",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "22225bec-fd2a-5731-8621-2aff727102e0",
+      "corpus_id": "US-005"
+    },
+    {
+      "item_id": "23b1d6f0-3431-5a81-90ff-101ded2b2181",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "2419621d-271a-5af2-8874-526451aa9368",
+      "corpus_id": "US-008"
+    },
+    {
+      "item_id": "24b4b82c-82e7-5380-a4f8-fbab0d4f1d64",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "2793b102-fbf3-5f0b-8df6-1a5452486348",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "284cddfe-b22f-5bc8-82c0-56ed956b3e5e",
+      "corpus_id": "FR-026"
+    },
+    {
+      "item_id": "2852953b-8d79-54bb-a8f5-dee6142a4f0b",
+      "corpus_id": "FR-001"
+    },
+    {
+      "item_id": "285d6e4c-6025-5e81-be44-895cf155a246",
+      "corpus_id": "DE-003"
+    },
+    {
+      "item_id": "29894605-5d67-5700-ab5b-51ac92465996",
+      "corpus_id": "FR-013"
+    },
+    {
+      "item_id": "2a05e121-c939-5ce8-8817-80972641c0b9",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "2a2acf5c-7a1d-566e-bbf5-becbaa7d4da0",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "2a3e2f91-18be-545f-9700-d8b90170bede",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "2b43276d-4e89-5e59-adbb-19d2bf02ca2b",
+      "corpus_id": "DE-001"
+    },
+    {
+      "item_id": "2b761519-10dd-5877-95dc-caf692cad786",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "2b7a1a18-1a29-5703-9264-6012425c65e8",
+      "corpus_id": "FR-024"
+    },
+    {
+      "item_id": "2c078aed-f767-56e8-8552-702a23a077a7",
+      "corpus_id": "FR-004"
+    },
+    {
+      "item_id": "2c6c6e4b-d274-5ef1-91ce-5cce31c8c84b",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "2cdd2590-27b7-55f4-be09-be9ef1171abd",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "2d5d9ea8-7f1d-5b8a-b301-d37f65246515",
+      "corpus_id": "NL-006"
+    },
+    {
+      "item_id": "2e103236-1d7d-5fe1-96be-3057b36a789c",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "2e6062c1-2f33-55bc-8771-755a329e4272",
+      "corpus_id": "BR-2000R-1907"
+    },
+    {
+      "item_id": "2ef37c3e-29de-5883-b2a7-ce2d2b3c898c",
+      "corpus_id": "DE-012"
+    },
+    {
+      "item_id": "2f663e33-8eee-5ccb-be9e-635e66e3e734",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "307097c6-6f43-55b0-b804-fdb48032e4a2",
+      "corpus_id": "FR-SEM-1898"
+    },
+    {
+      "item_id": "30842808-e4e6-5f38-b69c-a54aa731978e",
+      "corpus_id": "AT-001"
+    },
+    {
+      "item_id": "31e96fc4-11a5-50e4-9c0b-8f6a91bd7dd2",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "32235b18-c15a-5d1a-815e-a45e8302472d",
+      "corpus_id": "UK-004"
+    },
+    {
+      "item_id": "34422d75-51db-5d4c-a029-8851a33f61ed",
+      "corpus_id": "FR-030"
+    },
+    {
+      "item_id": "34be13f9-baaa-595c-973b-95ba0a36a20f",
+      "corpus_id": "FR-PIAST-1885"
+    },
+    {
+      "item_id": "3554f7c3-1f9f-5f5a-9211-b085bf99c08d",
+      "corpus_id": "US-NAST-1864"
+    },
+    {
+      "item_id": "35d51ab4-aa88-5f88-9306-e1daf568e508",
+      "corpus_id": "FR-ASSIGNAT-1792"
+    },
+    {
+      "item_id": "35f21876-aec4-5b91-9439-fa0145cdd184",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "36126895-7ef9-5e7b-8e79-4c8ccad914f6",
+      "corpus_id": "DE-006"
+    },
+    {
+      "item_id": "36e20300-49aa-5a7f-b626-70c8d058d5f8",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "3716cf7b-d1f9-53d8-85d2-dda0b5b8cc70",
+      "corpus_id": "BR-50CR-1965"
+    },
+    {
+      "item_id": "371f116f-4cf9-5305-8237-a4f055ad8840",
+      "corpus_id": "FR-017"
+    },
+    {
+      "item_id": "37b32ae5-0d92-5c72-b032-d7131d81e2e2",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "38461286-c1c9-5c8b-af31-d85806074db9",
+      "corpus_id": "UK-TRADE-1895"
+    },
+    {
+      "item_id": "3939a017-2bbc-578c-ad1a-1cd36a3de067",
+      "corpus_id": "ES-003"
+    },
+    {
+      "item_id": "39b3458f-0341-5353-a72b-acc3997f1b99",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "39d195a5-6c5b-5258-b0a7-bc5ad1688df0",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "39ebfe77-0d0b-5130-8cce-f6f48d85a081",
+      "corpus_id": "US-016"
+    },
+    {
+      "item_id": "39ef732e-918f-5e36-acc8-cb5a35614a3b",
+      "corpus_id": "FR-002"
+    },
+    {
+      "item_id": "3a0ce268-b0e4-5a47-88cd-9d29d3cf74a9",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "3f7d2171-8dbb-562f-a412-496405849263",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "416a2c38-c975-5121-aa28-33166a03a0cf",
+      "corpus_id": "US-002"
+    },
+    {
+      "item_id": "42b4bcfd-a6b4-5f19-8eda-46b2a9aa514b",
+      "corpus_id": "DE-005"
+    },
+    {
+      "item_id": "44111531-bcf0-5f24-aea3-f893306094c6",
+      "corpus_id": "BR-1000R-1906"
+    },
+    {
+      "item_id": "442ad547-ffbb-5581-8290-7d514f87d0d4",
+      "corpus_id": "FR-010"
+    },
+    {
+      "item_id": "473ac4d7-a507-51c6-8215-983c2442fc23",
+      "corpus_id": "US-017"
+    },
+    {
+      "item_id": "47e90ddf-10f1-570a-87d3-3bc2455d86d0",
+      "corpus_id": "BE-IND-1880"
+    },
+    {
+      "item_id": "48a9d6b2-6c5e-55cd-b594-d0c43e67d64e",
+      "corpus_id": "EU-009"
+    },
+    {
+      "item_id": "4a932b68-240c-5418-aa91-c618d10585ed",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "4bb745be-92c7-5080-8968-2247c2450ca1",
+      "corpus_id": "EU-001"
+    },
+    {
+      "item_id": "4bf182e3-59af-5c30-a0f4-9653bdbae5a2",
+      "corpus_id": "US-018"
+    },
+    {
+      "item_id": "4c0f5cd1-05a1-5c46-baff-294aed50d29c",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "4c27a448-9240-5618-b781-551ef3f85ff2",
+      "corpus_id": "US-BANNER-1861"
+    },
+    {
+      "item_id": "4c2e84a1-6683-5e56-82a1-dc94c8b96afe",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "4d7f3b41-1049-51dc-a48f-e4ce2f90b365",
+      "corpus_id": "NL-005"
+    },
+    {
+      "item_id": "4d84fe99-7db7-5ea5-96cd-bca3bd57a189",
+      "corpus_id": "FR-009"
+    },
+    {
+      "item_id": "4e0ca57a-0449-51a0-ba29-a7c108e732ff",
+      "corpus_id": "FR-SEM-SELO-1903"
+    },
+    {
+      "item_id": "50dff094-e01e-50b0-96f7-df8283f628cc",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "51335360-14e1-573d-a16d-201dd6dfeab8",
+      "corpus_id": "UK-009"
+    },
+    {
+      "item_id": "51b5a74a-99b1-5d57-b1fb-5f6a4d0a5087",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "5352292c-7d4e-5107-83e7-e76a384bd1e2",
+      "corpus_id": "DE-004"
+    },
+    {
+      "item_id": "543550b1-e66e-59ee-bbee-8fe20d18787e",
+      "corpus_id": "US-001"
+    },
+    {
+      "item_id": "569e5eea-63a8-5e2a-857f-215cf8318fd8",
+      "corpus_id": "DE-002"
+    },
+    {
+      "item_id": "59156365-09f3-5165-bdbb-f0f936fa4c27",
+      "corpus_id": "NL-007"
+    },
+    {
+      "item_id": "59e51758-a00e-56f8-bc6b-c93211313ce4",
+      "corpus_id": "PT-006"
+    },
+    {
+      "item_id": "5a438124-95e6-5a26-8c41-f76f53c6d62f",
+      "corpus_id": "UK-005"
+    },
+    {
+      "item_id": "5a87d103-c4da-5c3f-afd0-74a5c11b0eb5",
+      "corpus_id": "UK-PENNY-1895"
+    },
+    {
+      "item_id": "5aa4b8a3-717f-5893-af0e-a0e6641fd3ff",
+      "corpus_id": "DE-009"
+    },
+    {
+      "item_id": "5abac01e-4ee9-5db7-9f8f-a4930e55c54d",
+      "corpus_id": "FR-019"
+    },
+    {
+      "item_id": "5b031e0c-dd69-5894-afa2-37c6e2ba9b40",
+      "corpus_id": "US-009"
+    },
+    {
+      "item_id": "5c3d26ad-718c-5bd8-886f-72d01a5e6a0d",
+      "corpus_id": "DE-50M-1919"
+    },
+    {
+      "item_id": "5d33c51c-1887-5960-aca8-fd57ae8c5fc4",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "5e332b45-467b-5e4a-b73a-07bab0a2493a",
+      "corpus_id": "IT-008"
+    },
+    {
+      "item_id": "5fe9755f-2575-5eb6-8f58-914c20293cf9",
+      "corpus_id": "US-020"
+    },
+    {
+      "item_id": "610a396d-c907-55de-9c97-727e83348bf4",
+      "corpus_id": "US-007"
+    },
+    {
+      "item_id": "61d2ee4b-bbe6-5896-9482-32c212b44ed2",
+      "corpus_id": "FR-025"
+    },
+    {
+      "item_id": "62599722-19a6-5eb3-ae51-4cfe6b85f0e3",
+      "corpus_id": "DE-WR-1924-50PF"
+    },
+    {
+      "item_id": "66649dfc-c9a6-5ec5-9f4d-8f282c2b504d",
+      "corpus_id": "UK-003"
+    },
+    {
+      "item_id": "6768abc8-8e0d-5415-9c0e-7aa3805be73c",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "68a00893-7b89-5e58-8aef-79f89b547974",
+      "corpus_id": "FR-024"
+    },
+    {
+      "item_id": "693e32ea-ea77-50d2-a086-b8e2e2ebcc91",
+      "corpus_id": "FR-027"
+    },
+    {
+      "item_id": "69df229d-aed0-581b-9d36-cd308b676adf",
+      "corpus_id": "FR-021"
+    },
+    {
+      "item_id": "6a70603a-9224-56ba-87f5-c10133b7706b",
+      "corpus_id": "EU-003"
+    },
+    {
+      "item_id": "6b09a0e7-fb4f-5b0b-bfa9-0d252326ea41",
+      "corpus_id": "EU-005"
+    },
+    {
+      "item_id": "6b92ad6a-f23b-5c9b-b995-b66ab0297c58",
+      "corpus_id": "BE-CONGO-MON-1921"
+    },
+    {
+      "item_id": "6c4a12c1-4949-52ec-bba2-160acf162ee9",
+      "corpus_id": "US-017"
+    },
+    {
+      "item_id": "6efb7eb7-6b98-5c52-a48d-199e388d8fa4",
+      "corpus_id": "ES-002"
+    },
+    {
+      "item_id": "700336c2-ef11-516d-be98-f0b7b0b84913",
+      "corpus_id": "UK-FLORIN-1902"
+    },
+    {
+      "item_id": "7039191c-a457-5402-a453-ab28e3fe333c",
+      "corpus_id": "DE-007"
+    },
+    {
+      "item_id": "734dd76f-7bb0-5c76-8af9-3218acac3182",
+      "corpus_id": "US-003"
+    },
+    {
+      "item_id": "76ba820f-e8a8-5149-8c01-a56437d57960",
+      "corpus_id": "US-019"
+    },
+    {
+      "item_id": "770a84be-5b28-5813-9d68-d106217bf754",
+      "corpus_id": "UY-001"
+    },
+    {
+      "item_id": "7833d92a-6bbe-527f-8893-1d4d12820ffa",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "78585725-f38d-5c83-a89f-048df3f6d22f",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "787ce58d-f363-5bdb-bfbe-6a6a531624bd",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "78b7031c-af02-5575-a4b6-4bb0faccfc0d",
+      "corpus_id": "US-SLQ-1916"
+    },
+    {
+      "item_id": "79998b9a-be88-57ab-8514-2516584bbb2a",
+      "corpus_id": "FR-023"
+    },
+    {
+      "item_id": "7a71b130-c538-5e0c-9cac-abcffb85824f",
+      "corpus_id": "BR-008"
+    },
+    {
+      "item_id": "7c8866f2-49eb-591b-83ed-bee28abed5e7",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "7dea14ce-d3b8-557e-8850-d1e638ddef8a",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "7e321b60-8b81-5311-895f-9cc9197d18e6",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "7e5a7002-8ab2-5062-9bbf-67d7f14caa7d",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "7f8956d2-52b7-5223-a1bf-7e1cb6efbf10",
+      "corpus_id": "MX-002"
+    },
+    {
+      "item_id": "7fdb154e-59f3-50ca-bacf-c3bf48f088d9",
+      "corpus_id": "ES-001"
+    },
+    {
+      "item_id": "81efcd9a-e5c1-5525-a2ed-6c4cbd0c3954",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "82c0efc9-1a2e-55a3-8eca-5de3e58a2fac",
+      "corpus_id": "US-016"
+    },
+    {
+      "item_id": "855f4658-1d17-5928-a0e1-207c69eb2f68",
+      "corpus_id": "NL-003"
+    },
+    {
+      "item_id": "858046d0-0125-5d97-aa38-5d07f862121b",
+      "corpus_id": "BR-001"
+    },
+    {
+      "item_id": "86d31d03-0d84-54e2-816d-07cdd3cda31f",
+      "corpus_id": "IT-005"
+    },
+    {
+      "item_id": "8786d48c-032d-5b80-a4da-3f4dcb675410",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "8794cbe1-c708-5272-843b-a4744b45b672",
+      "corpus_id": "EU-006"
+    },
+    {
+      "item_id": "894174a1-4d8d-50e3-8066-dbb26d18a056",
+      "corpus_id": "FR-008"
+    },
+    {
+      "item_id": "8a5d8e43-91a1-5329-8e02-fcb98d10fd7f",
+      "corpus_id": "BR-1CR-1970"
+    },
+    {
+      "item_id": "8a931f74-c9a1-5eba-9bf6-d73fc6fff672",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "8adb7337-2867-51e5-b822-6453c2230b23",
+      "corpus_id": "FR-016"
+    },
+    {
+      "item_id": "8b9906df-a133-515a-b7e4-60d9650a057e",
+      "corpus_id": "PT-002"
+    },
+    {
+      "item_id": "8bb76a45-d163-58b5-a829-4081c52d9ac0",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "8cca0d6a-d49c-5160-af52-1c08a9512718",
+      "corpus_id": "NL-004"
+    },
+    {
+      "item_id": "8d68ddd2-0db5-571f-924a-fd2e6de46623",
+      "corpus_id": "BE-001"
+    },
+    {
+      "item_id": "8d89996e-c2aa-5a2e-a462-26b91f5308e4",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "8df1b3e3-1ec6-5c79-a66f-5670ee39a725",
+      "corpus_id": "EU-004"
+    },
+    {
+      "item_id": "90044d18-4b02-5be6-962f-b08539ebd2cf",
+      "corpus_id": "FR-022"
+    },
+    {
+      "item_id": "90c16b9c-1bae-5655-a4bb-ab91489e9501",
+      "corpus_id": "UK-HALFPENNY-1695"
+    },
+    {
+      "item_id": "9134d403-f05d-520f-baa8-2eb6b048a24a",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "93cfbeac-85b0-5485-b77c-94d12b54363d",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "942ef9d3-f17b-5ced-a36f-c2277a4018a1",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "94c243b4-e40f-524d-9806-fda4da8e7809",
+      "corpus_id": "US-SEATED-1840"
+    },
+    {
+      "item_id": "958ca335-ae39-5c7d-a44e-87bf4217d3c6",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "9595e808-fc2a-58b9-9807-9b4dbbfef69d",
+      "corpus_id": "DE-011"
+    },
+    {
+      "item_id": "96d48346-62b9-5d47-9463-c50458148fd9",
+      "corpus_id": "DE-014"
+    },
+    {
+      "item_id": "970d58c2-fee6-5c70-94e6-50aed8f82cc9",
+      "corpus_id": "UK-006"
+    },
+    {
+      "item_id": "974b3d65-9d36-59d0-b565-bd29b2cb6d7d",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "991c8684-08fe-5291-baf1-8a36a1c5cf8c",
+      "corpus_id": "PT-005"
+    },
+    {
+      "item_id": "99a7c9ba-d743-521e-aef2-73993de09ef7",
+      "corpus_id": "DE-GERM-BELG-1914"
+    },
+    {
+      "item_id": "99b666c6-ab31-5275-a4c6-01b7a9895364",
+      "corpus_id": "FR-031"
+    },
+    {
+      "item_id": "99b72e9f-1dc8-5f1b-b02a-8d4df4f2d911",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "99e4822c-1745-5100-8aa9-e02b4b274169",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "9ba85e08-c3cd-5cc2-9645-29b81b0a571c",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "9d3c618f-a0d5-5cc2-9091-126fab13fddb",
+      "corpus_id": "BR-010"
+    },
+    {
+      "item_id": "9db0a457-18d3-506f-9cee-2e601fd330ac",
+      "corpus_id": "US-004"
+    },
+    {
+      "item_id": "9eecda17-15eb-59ad-9071-d882725f90f5",
+      "corpus_id": "BR-009"
+    },
+    {
+      "item_id": "9f77480d-852f-553f-932b-af68291e7d70",
+      "corpus_id": "FR-003"
+    },
+    {
+      "item_id": "a155af76-1c78-502b-b024-b1f0b2ae3f03",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "a31a1a53-a2f1-5f94-a270-4bebd8f8d1db",
+      "corpus_id": "NL-002"
+    },
+    {
+      "item_id": "a3e406a2-9b55-5a16-96fe-e70380ad2e36",
+      "corpus_id": "NL-008"
+    },
+    {
+      "item_id": "a481d78f-8df5-539e-90e1-0078dda54a6d",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "a6c1c057-2ea3-5451-bb2a-d635ad80dbbb",
+      "corpus_id": "PT-007"
+    },
+    {
+      "item_id": "ac63fca1-03c9-53f4-ae4b-865a53f0d43f",
+      "corpus_id": "US-EDUC-1896-02"
+    },
+    {
+      "item_id": "ad43ba55-c523-5f19-a667-0bd5872a9867",
+      "corpus_id": "BR-006"
+    },
+    {
+      "item_id": "ae758509-9213-5105-9fff-88c92099f9e0",
+      "corpus_id": "FR-001"
+    },
+    {
+      "item_id": "ae8876ff-0ecb-5084-a871-3a205b8caba6",
+      "corpus_id": "BR-003"
+    },
+    {
+      "item_id": "af0ecea6-98f2-5021-b6ce-41d147657566",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "b0788e77-c16d-5b78-9284-8429abf59022",
+      "corpus_id": "FR-032"
+    },
+    {
+      "item_id": "b33f1bc8-57ba-561f-b9d6-1f898ba407c0",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "b3c337eb-c85f-50c8-a44a-dbbbd0892aa6",
+      "corpus_id": "US-EDUC-1896-01"
+    },
+    {
+      "item_id": "b3ea808a-fabc-5f0d-975f-81249e3f741a",
+      "corpus_id": "PT-004"
+    },
+    {
+      "item_id": "b52f4742-c987-5a72-8b5d-720b39aa234d",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "b6d12c68-e76d-567a-b7c7-8a4f9756729b",
+      "corpus_id": "FR-HERC-1870"
+    },
+    {
+      "item_id": "b746f763-090a-50cb-bbf7-4449349c95ce",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "b83229c4-0c92-5c0d-8df4-590e246bc7a8",
+      "corpus_id": "PT-003"
+    },
+    {
+      "item_id": "b84f6d98-c8c0-58ce-b923-260059ec06ab",
+      "corpus_id": "FR-015"
+    },
+    {
+      "item_id": "b86d93a1-9594-523d-ba2b-31e8e521ea1a",
+      "corpus_id": "BR-004"
+    },
+    {
+      "item_id": "bc6b4ebc-fabd-5a3f-877d-5bea4616235b",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "bc711057-f8bd-58e7-b0ef-80e4a856bf81",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "bc7389e9-3a1d-50a0-899e-2aae20e4a9b6",
+      "corpus_id": "FR-029"
+    },
+    {
+      "item_id": "bde36c58-afcc-55d3-96e8-3ff56b7e913a",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "be91e95b-9083-5bac-97af-cefefb7fd765",
+      "corpus_id": "DE-100M-1908"
+    },
+    {
+      "item_id": "be9ffff5-7c25-5fec-b8fc-7a11b0977574",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "bfac2d3e-5230-5a27-970b-625e5eb7ed24",
+      "corpus_id": "BR-005"
+    },
+    {
+      "item_id": "c02356de-a24e-52bc-9ee8-15d6cec55a4b",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "c0814fd8-eef6-5e77-a06c-7e738c073664",
+      "corpus_id": "BE-CONGO-100F-1912"
+    },
+    {
+      "item_id": "c1132ea4-7d8d-5223-a690-255b4ebb6593",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "c17bb8b3-90cd-5307-9757-5ceb5e3fd756",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "c5b2c5fa-7be3-5003-a5b6-824deaa93a94",
+      "corpus_id": "BE-CONGO-1912"
+    },
+    {
+      "item_id": "c605b927-2f22-52d1-be8f-87ddcf938949",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "c9d3a591-3572-5c60-9620-a8a534d6d307",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "cb3957df-4209-5690-a135-cdb1ff572393",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "cbb9963f-17ae-5163-989a-5ee72f4ba146",
+      "corpus_id": "FR-014"
+    },
+    {
+      "item_id": "cbc309de-02c9-51b6-bc77-d44fdc993703",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "cf7430cf-ffb0-5388-9405-88b1bb3fc281",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "cfac2ea2-7266-5d53-91b8-1255804159f0",
+      "corpus_id": "UK-002"
+    },
+    {
+      "item_id": "d349a40c-aedc-533f-9e16-6ea7bbc1cc8e",
+      "corpus_id": "US-010"
+    },
+    {
+      "item_id": "d59aa292-df0a-5e65-b5e4-57f32b70aeb5",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "d5c61575-cba7-5262-bf20-9017fad5d3cd",
+      "corpus_id": "BR-002"
+    },
+    {
+      "item_id": "d6f71fb1-437c-5e18-85d1-4395f54f6306",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "d77a533b-f4b7-5ea8-b61a-c7eb99b74b8c",
+      "corpus_id": "BE-002"
+    },
+    {
+      "item_id": "da080e00-26a1-563d-836b-e99588564223",
+      "corpus_id": "NL-001"
+    },
+    {
+      "item_id": "dafa4284-f298-55a4-8610-d307a328f453",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "dcc17173-9626-5d8e-9d6b-05f1e5fad09b",
+      "corpus_id": "EU-002"
+    },
+    {
+      "item_id": "dcccea5a-3bc2-5743-8755-8bad2a7d47b0",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "dcf36d44-9c6d-5d40-a87f-de6c335cd552",
+      "corpus_id": "UK-010"
+    },
+    {
+      "item_id": "dd51d863-1ede-5fe6-b955-263ef8922bd5",
+      "corpus_id": "UK-001"
+    },
+    {
+      "item_id": "dddd7a9f-d4ac-5575-882a-1b870707d76b",
+      "corpus_id": "ES-004"
+    },
+    {
+      "item_id": "de7d8e5b-feee-588a-b9e7-69dc588b3a0c",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "deb8221e-bc98-5afb-a0b2-cd3e47a17cff",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "e0aa63ae-d062-5035-bdbc-8f55daaff1be",
+      "corpus_id": "DE-010"
+    },
+    {
+      "item_id": "e191793f-1b9b-5203-b76e-feaab78095e6",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "e1e33f9f-83d1-5447-869f-6c68032ee346",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "e3479a03-4866-5324-b4b7-a7dabdbe6226",
+      "corpus_id": "DE-1000M-1910"
+    },
+    {
+      "item_id": "e503ce4e-6b18-5bd3-ac7b-6225a32600cf",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "e550331b-19c0-5ccb-b8ab-100a35c8a441",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "e6c0c5b5-fbb2-5512-8874-8473ffc1c343",
+      "corpus_id": "EU-008"
+    },
+    {
+      "item_id": "e7a3e5b7-0f31-5fce-b0d9-efd4ed5e627f",
+      "corpus_id": "UK-PENNY-1912"
+    },
+    {
+      "item_id": "e835da28-d1d2-5c93-b383-108f981884fe",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "eab8779d-bf68-564c-b5b5-8b722e627205",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "eac80e8f-9794-5610-8a38-962119d0cd14",
+      "corpus_id": "FR-005"
+    },
+    {
+      "item_id": "ece3eab6-a3f1-5305-a03f-ae92d81c2df0",
+      "corpus_id": "EU-007"
+    },
+    {
+      "item_id": "ee616189-04ab-525a-9228-d42f774a0557",
+      "corpus_id": "FR-012"
+    },
+    {
+      "item_id": "f049b319-a096-557c-909f-22d90a00425e",
+      "corpus_id": "DE-WR-1919-50M"
+    },
+    {
+      "item_id": "f0f04465-d41d-579f-98b7-65c179e32b19",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "f2f019c1-8689-5589-a9c1-2b965269da6e",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "f365d77f-dbca-533d-9aa4-4e4a3cd59a45",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "f45fb749-358f-5f40-a798-178a68363c84",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "f4a4e50f-0c41-5103-9081-30e700c8f646",
+      "corpus_id": "DE-015"
+    },
+    {
+      "item_id": "f4b599f9-72a3-563b-8312-eb0c20e04153",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "f502f5cf-ed4e-50d0-8ae0-45c60cd1c6ea",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "f54bc16b-c0ed-5e46-9fdf-26d55cf26bd2",
+      "corpus_id": "DE-GERM-1900"
+    },
+    {
+      "item_id": "f64abf57-a9ec-599e-a240-43f8fd9dce74",
+      "corpus_id": "FR-028"
+    },
+    {
+      "item_id": "f78e3dff-d7b9-5015-95a2-4075ecfd5709",
+      "corpus_id": "DE-013"
+    },
+    {
+      "item_id": "f7cb69ba-8837-54ba-af4c-f242f8c93ca4",
+      "corpus_id": "DE-008"
+    },
+    {
+      "item_id": "f817d598-aefa-5518-8218-520e593911e7",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "f8d56c8c-15cf-5406-88ef-ed0da58186e1",
+      "corpus_id": "AR-001"
+    },
+    {
+      "item_id": "f96693a2-99a6-53c7-9f7c-3f016270b000",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "f9d4a4c2-fa3c-5e14-84ce-d5b16a022c03",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "fb40f20f-d105-55ae-b1bf-2a789c235d9a",
+      "corpus_id": "FR-020"
+    },
+    {
+      "item_id": "fd34c0df-a784-50e0-a1da-e1c7a7a8c382",
+      "corpus_id": "MX-001"
+    },
+    {
+      "item_id": "fe33e04e-09ad-579c-b7b8-1577d1d67515",
+      "corpus_id": ""
+    },
+    {
+      "item_id": "fe7b843b-a6f5-5bff-966c-2987d8614d85",
+      "corpus_id": ""
+    }
+  ]
+}

@@ -18,7 +18,10 @@ SSL_UNVERIFIED = ssl.create_default_context()
 SSL_UNVERIFIED.check_hostname = False
 SSL_UNVERIFIED.verify_mode = ssl.CERT_NONE
 
-BASE_DIR = "/Users/ana/Research/hub/iconocracy-corpus/data/raw"
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = REPO_ROOT / "data" / "raw"
 API_BASE = "https://api.europeana.eu/record/v2"
 WSKEY = "api2demo"
 USER_AGENT = "ICONOCRACY-Corpus/1.0 (PPGD/UFSC)"

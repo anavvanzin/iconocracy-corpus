@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -258,14 +259,33 @@ def main() -> None:
     
     args = parser.parse_args()
     
-    with args.input.open("r", encoding="utf-8") as f:
-        data = json.load(f)
-    
-    # Handle both direct WebScout output and MasterRecord
-    if "webscout" in data:
-        citations = process_webscout_output(data["webscout"])
+    # Handle both file and directory input
+    if args.input.is_dir():
+        # Process all JSON files in directory
+        all_citations = []
+        for json_file in sorted(args.input.glob("*.json")):
+            try:
+                with json_file.open("r", encoding="utf-8") as f:
+                    data = json.load(f)
+                if "webscout" in data:
+                    citations = process_webscout_output(data["webscout"])
+                else:
+                    citations = process_webscout_output(data)
+                all_citations.extend(citations)
+            except (json.JSONDecodeError, KeyError) as e:
+                print(f"Skipping {json_file.name}: {e}", file=sys.stderr)
+                continue
+        data_for_output = {"citations": all_citations}
+        citations = all_citations
     else:
-        citations = process_webscout_output(data)
+        with args.input.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+        
+        # Handle both direct WebScout output and MasterRecord
+        if "webscout" in data:
+            citations = process_webscout_output(data["webscout"])
+        else:
+            citations = process_webscout_output(data)
     
     # Format output
     if args.format == "json":

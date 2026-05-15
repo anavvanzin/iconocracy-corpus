@@ -17,7 +17,10 @@ import tempfile
 import time
 import urllib.request
 
-BASE_DIR = "/Users/ana/Research/hub/iconocracy-corpus/data/raw"
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = REPO_ROOT / "data" / "raw"
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 USER_AGENT = "ICONOCRACY-Corpus/1.0 (PPGD/UFSC)"
 
