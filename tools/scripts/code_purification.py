@@ -259,8 +259,8 @@ def show_status(corpus, coded):
         print(f"    Mean: {sum(composites) / len(composites):.2f}")
 
         # Build lookups from corpus (has country, support)
-        corpus_country = {item["id"]: item.get("country", "?") for item in corpus}
-        corpus_support = {item["id"]: item.get("support", "?") for item in corpus}
+        corpus_country = {item["id"]: item.get("country", "?") for item in corpus if item.get("id")}
+        corpus_support = {item["id"]: item.get("support", "?") for item in corpus if item.get("id")}
 
         # By country — join with corpus via id (purification.jsonl has no country field)
         by_country = {}
