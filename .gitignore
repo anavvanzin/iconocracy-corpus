@@ -120,3 +120,11 @@ dissertacao de mestrado.pdf
 Plan Linux.pdf
 Esquema antigo .md
 docker-compose.override.yml
+
+# Binary assets (stored in /data/iconocracy-corpus/binaries/)
+Images/
+PDFs/
+*.zip
+*.dylib
+*.so
+deploy/iconocracia-companion/.wrangler/
