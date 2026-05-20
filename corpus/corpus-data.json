@@ -693,21 +693,21 @@
     "motif": [
       "Germania"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "militar",
+    "endurecimento_score": 2.8,
+    "coded_by": "iconometrics-calibration",
+    "coded_at": "2026-05-20T15:25:00Z",
     "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
+      "desincorporacao": 2,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
     },
     "citation_abnt": "Germania definitive stamp (10 Pfennig, Deutsches Reich)",
     "audit_flags": [
@@ -798,20 +798,20 @@
       "Germania"
     ],
     "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "endurecimento_score": 2.7,
+    "coded_by": "iconometrics-calibration",
+    "coded_at": "2026-05-20T15:25:00Z",
     "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
+      "desincorporacao": 2,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
     },
     "citation_abnt": "10 Pfennig Germania — Deutsches Reich (Weimar Republic, Mi.141, 1920)",
     "audit_flags": [
@@ -1046,10 +1046,10 @@
     "motif": [
       "Germania"
     ],
-    "regime": "fundacional",
+    "regime": "normativo",
     "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "coded_by": "iconometrics-calibration",
+    "coded_at": "2026-05-20T15:25:00Z",
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1067,6 +1067,37 @@
       "vault-import"
     ],
     "testemunho_repertoire": ""
+  },
+  {
+    "url": "https://en.numista.com/catalogue/pieces19028.html",
+    "title": "5 Mark — Wilhelm II (Germania / Eagle)",
+    "description": "Silver coin from the German Empire (Kaiserreich) showing the imperial eagle on reverse, representing extreme state codification and metalized heraldry.",
+    "motif": [
+      "Imperial eagle",
+      "Imperial crown",
+      "Heraldry"
+    ],
+    "regime": "militar",
+    "endurecimento_score": 2.8,
+    "coded_by": "iconometrics-calibration",
+    "coded_at": "2026-05-20T15:25:00Z",
+    "testemunho_repertoire": "",
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "citation_abnt": "DEUTSCHES REICH. 5 Mark Coin. 1908. Prata 900, 38mm. Imperial Mint (Berlin).",
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
   },
   {
     "url": "https://en.numista.com/catalogue/pieces36131.html",
@@ -1757,6 +1788,39 @@
     "testemunho_repertoire": ""
   },
   {
+    "url": "https://germanhistorydocs.ghi-dc.org/sub_image.cfm?image_id=259",
+    "title": "Germania (Philipp Veit, St. Paul's Church Parliament 1848)",
+    "description": "Famous painting of Germania that hung in the Paulskirche in Frankfurt during the 1848 Revolution. She stands holding a flag and a sword, with broke chains at her feet, symbolizing liberation. Low level of iconocratic endurance; high narrative and emotional expression.",
+    "motif": [
+      "Germania",
+      "German flag",
+      "sword",
+      "broken chains",
+      "crown of oak leaves"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.4,
+    "coded_by": "iconometrics-calibration",
+    "coded_at": "2026-05-20T15:25:00Z",
+    "testemunho_repertoire": "",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 1
+    },
+    "citation_abnt": "VEIT, Philipp. Germania. 1848. 1 pintura (óleo sobre tela, 482x320cm). Frankfurt am Main: Städelsches Kunstinstitut (empréstimo permanente na Paulskirche).",
+    "audit_flags": [
+      "sem-thumbnail"
+    ]
+  },
+  {
     "url": "https://hemerotecadigital.bn.br/acervo-digital/o-mequetrefe/702390",
     "title": "O Dia de Amanhã (Alegoria da República)",
     "description": "O Dia de Amanhã (Alegoria da República)",
@@ -2217,21 +2281,21 @@
     "motif": [
       "Germania"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "militar",
+    "endurecimento_score": 2.8,
+    "coded_by": "iconometrics-calibration",
+    "coded_at": "2026-05-20T15:25:00Z",
     "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
+      "desincorporacao": 2,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
     },
     "citation_abnt": "Germania — Série definitiva Deutsches Reich 5pf (1900–1922)",
     "audit_flags": [
@@ -5866,21 +5930,21 @@
     "support": "papel-moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": null,
+    "endurecimento_score": 2.0,
     "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 3
     },
-    "coded_by": "migration",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "coded_by": "iconometrics-calibration",
+    "coded_at": "2026-05-20T15:25:00Z",
     "panofsky": null,
     "audit_flags": [
       "sem-thumbnail"
@@ -5924,21 +5988,21 @@
     "support": "papel-moeda",
     "in_scope": true,
     "scope_note": null,
-    "endurecimento_score": null,
+    "endurecimento_score": 2.0,
     "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 3,
+      "inscricao_estatal": 3
     },
-    "coded_by": "migration",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "coded_by": "iconometrics-calibration",
+    "coded_at": "2026-05-20T15:25:00Z",
     "panofsky": null,
     "audit_flags": [
       "sem-thumbnail"
