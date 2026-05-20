@@ -1,1 +1,0 @@
-"""Protocol adapters for ARGOS."""

@@ -1,1 +1,0 @@
-"""ARGOS acquisition orchestration package."""
