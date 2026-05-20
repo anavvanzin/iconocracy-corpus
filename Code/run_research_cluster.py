@@ -54,7 +54,7 @@ OA_BASE = "https://api.openalex.org"
 S2_RATE_SLEEP = 1.1
 OPENALEX_RATE_SLEEP = 0.15
 EXTRACT_MODEL = "claude-sonnet-4-5"
-REPO_ROOT = Path(__file__).resolve().parents[2]
+REPO_ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_PATH = REPO_ROOT / "tools" / "schemas" / "research-cluster.schema.json"
 
 

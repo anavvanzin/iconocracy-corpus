@@ -22,7 +22,7 @@ from pathlib import Path
 from collections import defaultdict
 
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
+REPO_ROOT = Path(__file__).resolve().parents[1]
 CORPUS_PATH = REPO_ROOT / "corpus" / "corpus-data.json"
 RECORDS_PATH = REPO_ROOT / "data" / "processed" / "records.jsonl"
 
@@ -100,33 +100,72 @@ def get_record_title_key(item: dict) -> str:
 def reconcile(corpus: list[dict], records: list[dict]) -> dict:
     """Main reconciliation logic. Returns a results dict."""
 
-    # Build URL indexes
-    corpus_by_url = {}
+    # Build URL indexes (allowing multiple items/records per URL)
+    corpus_by_url = defaultdict(list)
     for c in corpus:
         u = get_corpus_url(c)
         if u:
-            corpus_by_url[u] = c
+            corpus_by_url[u].append(c)
 
-    records_by_url = {}
+    records_by_url = defaultdict(list)
     for r in records:
         u = get_record_url(r)
         if u:
-            records_by_url[u] = r
+            records_by_url[u].append(r)
 
     # Phase 1: URL matching
     matched = []
-    corpus_matched_ids = set()
+    corpus_matched_refs = set()
     record_matched_ids = set()
 
-    for url, c_item in corpus_by_url.items():
+    for url, c_list in corpus_by_url.items():
         if url in records_by_url:
-            r_item = records_by_url[url]
-            matched.append((c_item, r_item, "url"))
-            corpus_matched_ids.add(c_item["id"])
-            record_matched_ids.add(r_item["item_id"])
+            r_list = records_by_url[url]
+            c_remaining = list(c_list)
+            r_remaining = list(r_list)
+            
+            # 1. Exact title match
+            c_matched_idx = []
+            for i, c_item in enumerate(c_remaining):
+                c_title_norm = normalize_title(c_item.get("title", ""))
+                for j, r_item in enumerate(r_remaining):
+                    r_title_norm = normalize_title(r_item.get("input", {}).get("title_hint", ""))
+                    if c_title_norm == r_title_norm:
+                        matched.append((c_item, r_item, "url"))
+                        corpus_matched_refs.add(id(c_item))
+                        record_matched_ids.add(r_item["item_id"])
+                        c_matched_idx.append(i)
+                        r_remaining.pop(j)
+                        break
+            
+            for idx in reversed(c_matched_idx):
+                c_remaining.pop(idx)
+                
+            # 2. Substring title match
+            c_matched_idx = []
+            for i, c_item in enumerate(c_remaining):
+                c_title_norm = normalize_title(c_item.get("title", ""))
+                for j, r_item in enumerate(r_remaining):
+                    r_title_norm = normalize_title(r_item.get("input", {}).get("title_hint", ""))
+                    if c_title_norm in r_title_norm or r_title_norm in c_title_norm:
+                        matched.append((c_item, r_item, "url"))
+                        corpus_matched_refs.add(id(c_item))
+                        record_matched_ids.add(r_item["item_id"])
+                        c_matched_idx.append(i)
+                        r_remaining.pop(j)
+                        break
+            
+            for idx in reversed(c_matched_idx):
+                c_remaining.pop(idx)
+                
+            # 3. Fallback: Match remaining sequentially
+            for c_item, r_item in zip(c_remaining, r_remaining):
+                matched.append((c_item, r_item, "url"))
+                corpus_matched_refs.add(id(c_item))
+                record_matched_ids.add(r_item["item_id"])
 
     # Phase 2: Title+date fallback for unmatched
-    unmatched_corpus = [c for c in corpus if c["id"] not in corpus_matched_ids]
+    unmatched_corpus = [c for c in corpus if id(c) not in corpus_matched_refs]
     unmatched_records = [r for r in records if r["item_id"] not in record_matched_ids]
 
     records_title_idx = {}
@@ -140,11 +179,11 @@ def reconcile(corpus: list[dict], records: list[dict]) -> dict:
         if k in records_title_idx:
             r_item = records_title_idx[k]
             matched.append((c, r_item, "title+date"))
-            corpus_matched_ids.add(c["id"])
+            corpus_matched_refs.add(id(c))
             record_matched_ids.add(r_item["item_id"])
 
     # Orphans
-    orphans_corpus = [c for c in corpus if c["id"] not in corpus_matched_ids]
+    orphans_corpus = [c for c in corpus if id(c) not in corpus_matched_refs]
     orphans_records = [r for r in records if r["item_id"] not in record_matched_ids]
 
     # Divergences in matched pairs
@@ -177,7 +216,7 @@ def reconcile(corpus: list[dict], records: list[dict]) -> dict:
 
         if diffs:
             divergences.append({
-                "corpus_id": c_item["id"],
+                "corpus_id": c_item.get("id") or "(no-id)",
                 "record_id": r_item["item_id"],
                 "match_type": match_type,
                 "differences": diffs,
@@ -195,7 +234,7 @@ def reconcile(corpus: list[dict], records: list[dict]) -> dict:
             "divergent_pairs": len(divergences),
         },
         "orphans_corpus": [
-            {"id": c["id"], "title": c.get("title", ""), "url": c.get("url", "")}
+            {"id": c.get("id") or "(no-id)", "title": c.get("title", ""), "url": c.get("url", "")}
             for c in orphans_corpus
         ],
         "orphans_records": [

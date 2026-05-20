@@ -24,9 +24,9 @@ SSL_UNVERIFIED = ssl.create_default_context()
 SSL_UNVERIFIED.check_hostname = False
 SSL_UNVERIFIED.verify_mode = ssl.CERT_NONE
 
-CORPUS_PATH = Path(__file__).resolve().parents[2] / "corpus" / "corpus-data-enriched.json"
+CORPUS_PATH = Path(__file__).resolve().parents[1] / "corpus" / "corpus-data-enriched.json"
 SSD_BASE = Path("/Volumes/ICONOCRACIA/corpus/imagens")
-REPORT_PATH = Path(__file__).resolve().parents[2] / "corpus" / "download-report.md"
+REPORT_PATH = Path(__file__).resolve().parents[1] / "corpus" / "download-report.md"
 
 # Country prefix → folder mapping
 COUNTRY_MAP = {

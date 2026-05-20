@@ -9,8 +9,8 @@ from tools.argos.manifest import locked_update_manifest
 
 class ManifestUpdateTests(unittest.TestCase):
     def setUp(self):
-        self.repo_root = Path(__file__).resolve().parents[2]
-        self.script_path = self.repo_root / "tools" / "scripts" / "argos_manifest_update.py"
+        self.repo_root = Path(__file__).resolve().parents[1]
+        self.script_path = self.repo_root / "Code" / "argos_manifest_update.py"
 
     def make_manifest(self):
         return {

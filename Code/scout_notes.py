@@ -19,7 +19,7 @@ import sys
 from datetime import date
 from pathlib import Path
 
-VAULT_PATH = Path(__file__).resolve().parents[2] / "vault" / "candidatos"
+VAULT_PATH = Path(__file__).resolve().parents[1] / "vault" / "candidatos"
 
 # Country code mapping
 COUNTRY_CODE = {

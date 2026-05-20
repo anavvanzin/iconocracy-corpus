@@ -11,8 +11,8 @@ from tools.argos.report import build_report_markdown
 
 class ReportTests(unittest.TestCase):
     def setUp(self):
-        self.repo_root = Path(__file__).resolve().parents[2]
-        self.script_path = self.repo_root / "tools" / "scripts" / "argos_report.py"
+        self.repo_root = Path(__file__).resolve().parents[1]
+        self.script_path = self.repo_root / "Code" / "argos_report.py"
 
     def make_manifest(self):
         return {

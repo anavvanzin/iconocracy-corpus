@@ -9,7 +9,7 @@ import tarfile
 from datetime import datetime, timezone
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[1]
 VAULT = REPO / "vault"
 DEFAULT_DEST = REPO / "tmp" / "vault-backups"
 

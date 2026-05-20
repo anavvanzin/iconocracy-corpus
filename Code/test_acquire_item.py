@@ -10,7 +10,7 @@ from unittest import mock
 
 
 def load_module(relative_path: str, module_name: str):
-    repo_root = Path(__file__).resolve().parents[2]
+    repo_root = Path(__file__).resolve().parents[1]
     script_path = repo_root / relative_path
     spec = importlib.util.spec_from_file_location(module_name, script_path)
     module = importlib.util.module_from_spec(spec)
@@ -21,9 +21,9 @@ def load_module(relative_path: str, module_name: str):
 
 class AcquireItemTests(unittest.TestCase):
     def setUp(self):
-        self.repo_root = Path(__file__).resolve().parents[2]
-        self.worker = load_module("tools/scripts/argos_acquire_item.py", "tests.argos._argos_acquire_item")
-        self.log_agent_run = load_module("tools/scripts/log_agent_run.py", "tests.argos._log_agent_run")
+        self.repo_root = Path(__file__).resolve().parents[1]
+        self.worker = load_module("Code/argos_acquire_item.py", "tests.argos._argos_acquire_item")
+        self.log_agent_run = load_module("Code/log_agent_run.py", "tests.argos._log_agent_run")
 
     def make_manifest(self):
         return {

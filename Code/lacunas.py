@@ -17,8 +17,8 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-CORPUS_PATH = Path(__file__).resolve().parents[2] / "corpus" / "corpus-data.json"
-VAULT_PATH = Path(__file__).resolve().parents[2] / "vault" / "candidatos"
+CORPUS_PATH = Path(__file__).resolve().parents[1] / "corpus" / "corpus-data.json"
+VAULT_PATH = Path(__file__).resolve().parents[1] / "vault" / "candidatos"
 
 # ─── Theoretical matrix ──────────────────────────────────────────────────
 

@@ -4,7 +4,11 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from tools.scripts.validate_schemas import load_schema, validate_record
+import sys
+from pathlib import Path
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO_ROOT / "Code"))
+from validate_schemas import load_schema, validate_record
 
 
 class ManifestSchemaTests(unittest.TestCase):
@@ -84,8 +88,8 @@ class ManifestSchemaTests(unittest.TestCase):
     def test_validator_cli_accepts_argos_manifest_schema(self):
         manifest = self.make_manifest()
 
-        repo_root = Path(__file__).resolve().parents[2]
-        script_path = repo_root / "tools" / "scripts" / "validate_schemas.py"
+        repo_root = Path(__file__).resolve().parents[1]
+        script_path = repo_root / "Code" / "validate_schemas.py"
 
         with tempfile.TemporaryDirectory() as tmp_dir:
             manifest_path = Path(tmp_dir) / "manifest.json"

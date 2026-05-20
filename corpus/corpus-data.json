@@ -1712,6 +1712,34 @@
   },
   {
     "url": "https://hemerotecadigital.bn.br/acervo-digital/revista-illustrada/332747",
+    "title": "A República nos braços de Floriano",
+    "description": "A República nos braços de Floriano",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
+    "audit_flags": [
+      "vault-import"
+    ]
+  },
+  {
+    "url": "https://hemerotecadigital.bn.br/acervo-digital/revista-illustrada/332747",
     "title": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
     "description": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
     "motif": [

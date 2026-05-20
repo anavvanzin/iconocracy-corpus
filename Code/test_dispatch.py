@@ -4,13 +4,16 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from tools.scripts.argos_prepare_dispatch import build_dispatch_groups
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from argos_prepare_dispatch import build_dispatch_groups
 
 
 class DispatchTests(unittest.TestCase):
     def setUp(self):
-        self.repo_root = Path(__file__).resolve().parents[2]
-        self.script_path = self.repo_root / "tools" / "scripts" / "argos_prepare_dispatch.py"
+        self.repo_root = Path(__file__).resolve().parents[1]
+        self.script_path = self.repo_root / "Code" / "argos_prepare_dispatch.py"
 
     def test_build_dispatch_groups_returns_empty_for_empty_input(self):
         self.assertEqual(build_dispatch_groups([]), [])

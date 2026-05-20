@@ -24,7 +24,7 @@ import xml.etree.ElementTree as ET
 from datetime import date
 from pathlib import Path
 
-CORPUS_PATH = Path(__file__).resolve().parents[2] / "corpus" / "corpus-data.json"
+CORPUS_PATH = Path(__file__).resolve().parents[1] / "corpus" / "corpus-data.json"
 
 COUNTRY_NAMES = {
     "FR": "France", "UK": "United Kingdom", "DE": "Germany",

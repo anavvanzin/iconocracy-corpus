@@ -12,8 +12,8 @@ from tools.argos.manifest import build_manifest
 
 
 def load_argos_build_manifest_module():
-    repo_root = Path(__file__).resolve().parents[2]
-    script_path = repo_root / "tools" / "scripts" / "argos_build_manifest.py"
+    repo_root = Path(__file__).resolve().parents[1]
+    script_path = repo_root / "Code" / "argos_build_manifest.py"
     module_name = "tests.argos._argos_build_manifest"
     spec = importlib.util.spec_from_file_location(module_name, script_path)
     module = importlib.util.module_from_spec(spec)
@@ -104,8 +104,8 @@ class ManifestBuilderTests(unittest.TestCase):
 
 class ManifestBuilderCliTests(unittest.TestCase):
     def setUp(self):
-        self.repo_root = Path(__file__).resolve().parents[2]
-        self.script_path = self.repo_root / "tools" / "scripts" / "argos_build_manifest.py"
+        self.repo_root = Path(__file__).resolve().parents[1]
+        self.script_path = self.repo_root / "Code" / "argos_build_manifest.py"
 
     def test_cli_dry_run_reports_without_writing_output(self):
         corpus = [

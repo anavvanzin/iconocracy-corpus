@@ -16,7 +16,7 @@ import urllib.parse
 import urllib.error
 from pathlib import Path
 
-CORPUS_PATH = Path(__file__).resolve().parents[2] / "corpus" / "corpus-data-enriched.json"
+CORPUS_PATH = Path(__file__).resolve().parents[1] / "corpus" / "corpus-data-enriched.json"
 
 
 # ─── Cenário B: URL Resolution ───────────────────────────────────────────────

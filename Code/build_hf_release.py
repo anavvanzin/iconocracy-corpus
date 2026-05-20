@@ -13,7 +13,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parents[2]
+REPO = Path(__file__).resolve().parents[1]
 CORPUS = REPO / "corpus" / "corpus-data.json"
 RECORDS = REPO / "data" / "processed" / "records.jsonl"
 PURIFICATION = REPO / "data" / "processed" / "purification.jsonl"

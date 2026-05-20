@@ -106,7 +106,11 @@ def _load_existing_corpus() -> dict[str, dict]:
         return {}
     try:
         items = json.loads(CORPUS_OUT.read_text(encoding="utf-8"))
-        return {item["id"]: item for item in items if "id" in item}
+        res = {}
+        for idx, item in enumerate(items):
+            item_id = item.get("id") or f"no-id-{idx}"
+            res[item_id] = item
+        return res
     except Exception:
         return {}
 
@@ -231,14 +235,11 @@ def export_corpus(
     # Add records not matched to existing corpus
     for rec in records:
         rec_item_id = rec.get("item_id", "")
-        sr = rec.get("webscout", {}).get("search_results", [{}])
-        url = sr[0].get("url", "") if sr else ""
-        if rec_item_id in matched_item_ids or url in matched_urls:
+        if rec_item_id in matched_item_ids:
             continue
-        if replace or url not in {i.get("url", "") for i in result}:
-            entry = _corpus_entry_from_record(rec, None)
-            if entry.get("title"):
-                result.append(entry)
+        entry = _corpus_entry_from_record(rec, None)
+        if entry.get("title"):
+            result.append(entry)
 
     result.sort(key=lambda item: (str(item.get("id", "")), str(item.get("url", ""))))
     return result

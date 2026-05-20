@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 from typing import Iterable, Sequence
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
+REPO_ROOT = Path(__file__).resolve().parents[1]
 SKILL_ROOT = Path.home() / ".hermes" / "skills" / "research" / "iconocracy-agent"
 SKILL_VENV_PYTHON = SKILL_ROOT / ".venv" / "bin" / "python"
 SKILL_SCRIPT = SKILL_ROOT / "scripts" / "clip_iconocracy_prototype.py"
