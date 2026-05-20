@@ -1,0 +1,152 @@
+[
+  {
+    "item_id": "AR-001",
+    "title": "Allegory, Liberty Seated — Selo definitivo da República Argentina",
+    "imes_v3": {
+      "eco_formal": "PENDING_MAPPING",
+      "eco_historico": "PENDING_MAPPING",
+      "eco_de_campo": "PENDING_MAPPING",
+      "cjv_validation": {
+        "eco_formal_status": "in_progress",
+        "eco_historico_status": "in_progress",
+        "eco_de_campo_status": "in_progress"
+      },
+      "timestamp": "2026-04-26T14:26:00.800960"
+    }
+  },
+  {
+    "item_id": "BE-001",
+    "title": "Allégorie de la Justice (Joseph Stallaert, Brussels City Hall)",
+    "imes_v3": {
+      "eco_formal": "PENDING_MAPPING",
+      "eco_historico": "PENDING_MAPPING",
+      "eco_de_campo": "PENDING_MAPPING",
+      "cjv_validation": {
+        "eco_formal_status": "in_progress",
+        "eco_historico_status": "in_progress",
+        "eco_de_campo_status": "in_progress"
+      },
+      "timestamp": "2026-04-26T14:26:00.800967"
+    }
+  },
+  {
+    "item_id": "BE-002",
+    "title": "Palais de Justice de Bruxelles (Joseph Poelaert)",
+    "imes_v3": {
+      "eco_formal": "PENDING_MAPPING",
+      "eco_historico": "PENDING_MAPPING",
+      "eco_de_campo": "PENDING_MAPPING",
+      "cjv_validation": {
+        "eco_formal_status": "in_progress",
+        "eco_historico_status": "in_progress",
+        "eco_de_campo_status": "in_progress"
+      },
+      "timestamp": "2026-04-26T14:26:00.800968"
+    }
+  },
+  {
+    "item_id": "BR-002",
+    "title": "Detalhe do monumento à República, Praça da República, Belém",
+    "imes_v3": {
+      "eco_formal": "PENDING_MAPPING",
+      "eco_historico": "PENDING_MAPPING",
+      "eco_de_campo": "PENDING_MAPPING",
+      "cjv_validation": {
+        "eco_formal_status": "in_progress",
+        "eco_historico_status": "in_progress",
+        "eco_de_campo_status": "in_progress"
+      },
+      "timestamp": "2026-04-26T14:26:00.800970"
+    }
+  },
+  {
+    "item_id": "BR-003",
+    "title": "Monumento à República, Praça da República, Belém (vista geral)",
+    "imes_v3": {
+      "eco_formal": "PENDING_MAPPING",
+      "eco_historico": "PENDING_MAPPING",
+      "eco_de_campo": "PENDING_MAPPING",
+      "cjv_validation": {
+        "eco_formal_status": "in_progress",
+        "eco_historico_status": "in_progress",
+        "eco_de_campo_status": "in_progress"
+      },
+      "timestamp": "2026-04-26T14:26:00.800972"
+    }
+  },
+  {
+    "item_id": "BR-005",
+    "title": "Alegoria da República (Décio Villares)",
+    "imes_v3": {
+      "eco_formal": "PENDING_MAPPING",
+      "eco_historico": "PENDING_MAPPING",
+      "eco_de_campo": "PENDING_MAPPING",
+      "cjv_validation": {
+        "eco_formal_status": "in_progress",
+        "eco_historico_status": "in_progress",
+        "eco_de_campo_status": "in_progress"
+      },
+      "timestamp": "2026-04-26T14:26:00.800973"
+    }
+  },
+  {
+    "item_id": "BR-006",
+    "title": "Alegoria da República (Carlos Chambelland)",
+    "imes_v3": {
+      "eco_formal": "PENDING_MAPPING",
+      "eco_historico": "PENDING_MAPPING",
+      "eco_de_campo": "PENDING_MAPPING",
+      "cjv_validation": {
+        "eco_formal_status": "in_progress",
+        "eco_historico_status": "in_progress",
+        "eco_de_campo_status": "in_progress"
+      },
+      "timestamp": "2026-04-26T14:26:00.800974"
+    }
+  },
+  {
+    "item_id": "BR-007",
+    "title": "As Estátuas Fallando (The Statues Speaking) — Justiça",
+    "imes_v3": {
+      "eco_formal": "PENDING_MAPPING",
+      "eco_historico": "PENDING_MAPPING",
+      "eco_de_campo": "PENDING_MAPPING",
+      "cjv_validation": {
+        "eco_formal_status": "in_progress",
+        "eco_historico_status": "in_progress",
+        "eco_de_campo_status": "in_progress"
+      },
+      "timestamp": "2026-04-26T14:26:00.800975"
+    }
+  },
+  {
+    "item_id": "BR-008",
+    "title": "Estátua da Justiça (Luiz Rochet)",
+    "imes_v3": {
+      "eco_formal": "PENDING_MAPPING",
+      "eco_historico": "PENDING_MAPPING",
+      "eco_de_campo": "PENDING_MAPPING",
+      "cjv_validation": {
+        "eco_formal_status": "in_progress",
+        "eco_historico_status": "in_progress",
+        "eco_de_campo_status": "in_progress"
+      },
+      "timestamp": "2026-04-26T14:26:00.800975"
+    }
+  },
+  {
+    "item_id": "BR-009",
+    "title": "A Justiça (Alfredo Ceschiatti, STF Brasília)",
+    "imes_v3": {
+      "eco_formal": "PENDING_MAPPING",
+      "eco_historico": "PENDING_MAPPING",
+      "eco_de_campo": "PENDING_MAPPING",
+      "cjv_validation": {
+        "eco_formal_status": "in_progress",
+        "eco_historico_status": "in_progress",
+        "eco_de_campo_status": "in_progress"
+      },
+      "timestamp": "2026-04-26T14:26:00.800976"
+    }
+  }
+]

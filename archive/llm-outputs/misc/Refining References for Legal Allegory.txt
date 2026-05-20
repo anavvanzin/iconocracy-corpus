@@ -1,0 +1,224 @@
+﻿The Lipgloss and the Dynamite: The Visual Sexual Contract, Iconoclasm, and the Crisis of the Brazilian Republic
+1. Introduction: The Semiotic Rupture of the Praça dos Três Poderes
+On the afternoon of January 8, 2023, the carefully curated semiotic landscape of Brasília—a city designed as a modernist utopia of rational governance—collapsed into a theater of pre-modern iconoclasm. Thousands of rioters, refusing to accept the results of the 2022 presidential election, breached the monumental axis of the capital. While the physical destruction of the Palácio do Planalto, the National Congress, and the Supreme Federal Court (STF) was extensive, the assault on the symbolic order of the Republic was even more profound. Amidst the shattered glass and burning furniture, a specific act of vandalism crystallized the gendered and political tensions tearing at the fabric of the Brazilian state: the defacement of Alfredo Ceschiatti’s monumental granite sculpture, A Justiça (1961).
+A woman, later identified by federal authorities as Débora Rodrigues dos Santos, climbed onto the lap of the seated stone deity. Using lipstick—a cosmetic tool intrinsically linked to the performance of femininity in the "sexual contract"—she inscribed the phrase "Perdeu, Mané" ("You lost, fool") across the statue’s chest.1 This act was not merely an instance of property damage; it was a complex performative gesture that rewrote the "Visual Sexual Contract" of the Brazilian state. It transformed the abstract, allegorical body of Justice into a site of partisan contestation, forcing the "mute" stone to speak the vulgar vernacular of the political street fight.
+The ramifications of this event extended well beyond the immediate aftermath of the riots. In November 2024, the symbolic violence metamorphosed into physical terror when Francisco Wanderley Luiz attempted a suicide bombing against the Supreme Court. In his final message, scrawled on a mirror in his rented home, he explicitly referenced the lipstick graffiti of 2023, declaring that for a "statue of sh*t," one does not use cosmetics, but TNT.3 This escalation—from the inscription of the surface to the attempted annihilation of the object—marks a critical evolution in the crisis of Brazilian republican imagery.
+This project aims to provide an analysis of these events through the lens of political theory, art history, and legal iconology. By synthesizing Carole Pateman’s theory of the Sexual Contract, Marina Warner’s analysis of female allegory, and Ernst Kantorowicz’s theology of the King’s Two Bodies, we demonstrate that the attack on A Justiça was an inevitable consequence of a Republic that has failed to "form the souls" of its citizens, relying instead on fragile visual mythologies that are now being violently dismantled.
+2. Theoretical Architectures: The Visual Sexual Contract
+To understand why a mob seeking to overthrow a government would pause to vandalize a statue of a woman, one must first interrogate the theoretical underpinnings of state iconography. The modern democratic state, while ostensibly founded on rational legal principles, relies heavily on a "Visual Sexual Contract" to legitimize its authority.
+2.1 Pateman and the Repressed Sphere
+Carole Pateman’s seminal work, The Sexual Contract (1988), deconstructs the classic social contract theories of Hobbes, Locke, and Rousseau. Pateman argues that the "original pact" described by these theorists was not merely a social contract among men to form a civil society, but simultaneously a sexual contract that established men’s patriarchal right over women.6 The civil sphere—the world of law, politics, and the state—is constructed as a fraternal order of men. Women are relegated to the private sphere, incorporated into civil society only as subordinates or subjects.
+This theoretical exclusion creates a paradox in the visual representation of the state. If the state is a fraternity of men (and historically, the Brazilian judiciary and military have been overwhelmingly male), why is the state’s highest ideal—Justice—represented by a woman?
+This is the essence of the Visual Sexual Contract: The female body is deployed as an allegory precisely because women are excluded from agency. As Marina Warner elucidates in Monuments and Maidens, the female form can represent universal virtues (Liberty, Justice, Truth) only because the female figure in a patriarchal society is emptied of specific political power.8 A statue of a male judge would inevitably recall a specific individual, a specific faction, or a specific history of rule. A statue of a woman, however, serves as a "blank slate"—a universal vessel for the projection of male ideals.
+In Brasília, the Supreme Federal Court is the domain of the "fraternity" (the Ministers). A Justiça is the "maiden" who sits outside, validating their authority. She is the "body politic" that the public is allowed to see, while the "body natural" of the judges operates within.10 The Visual Sexual Contract dictates that this female body must remain mute, transcendent, and inviolate. She must be looked at, but never spoken to, and certainly never touched.
+2.2 The King’s Two Bodies in a Republic
+Ernst Kantorowicz’s The King’s Two Bodies (1957) provides the medieval theological root of this modern dilemma. Kantorowicz describes how the medieval jurists developed the fiction that the King possessed two bodies: the body natural, which is mortal, fallible, and subject to disease and death; and the body politic, which is immortal, invisible, and constitutes the office of the Crown.10
+In a monarchy, the biological body of the King anchors the state. When the King dies, the cry "The King is dead, long live the King!" signifies the migration of the body politic to a new body natural. In a Republic, however, there is no biological King. The "body natural" is dissolved into the collective citizenry or the temporary holders of office. To make the state visible, the Republic must manufacture a "body politic" out of stone, bronze, or paint.
+A Justiça is the "body politic" of the Brazilian Supreme Court. She represents the continuity of the Constitution, distinct from the mortal, fallible, and politically controversial bodies of the eleven Ministers inside the building. The crisis of January 8 occurred because the rioters refused to honor this separation. They conflated the "body politic" (the statue) with the "body natural" of Minister Luís Roberto Barroso. By attacking the statue, they were attempting to kill the "King" (the Court) by destroying its immortal body, having failed to depose its mortal occupants.
+2.3 The Economy of the Icon
+Marie-José Mondzain, in Image, Icon, Economy, traces the "economy" (oikonomia) of the image back to the Byzantine iconoclastic controversies.13 The central question of the icon is the relationship between the visible image and the invisible prototype (truth/divinity). The icon is meant to be a transparent window to the divine, not an opaque object in itself.
+In the secular theology of the modern state, the statue of Justice is the icon of the Law. It is meant to make the invisible authority of the Constitution visible to the citizenry. However, the January 8 rioters acted as anti-economists. They did not look through the image to the Law; they looked at the image and saw a lie. By defacing it, they sought to expose the "economy" of the state as a fraud—a manipulation of images designed to hide a corrupt reality. The lipstick graffiti was a technique of "blocking" the transparency of the icon, forcing the viewer to see the granite surface and the insults written upon it, rather than the ideal of Justice it was meant to convey.
+3. The Stone Guest: A Justiça in the Modernist Utopia
+To fully grasp the violence of the attack, one must situate the victim: Alfredo Ceschiatti’s A Justiça. Inaugurated in 1961, the sculpture is a masterpiece of Brazilian modernism, designed to complement the architectural vision of Oscar Niemeyer.15
+3.1 The Monolith and the Omission
+The sculpture stands over three meters tall, carved from blocks of grey granite. Unlike the dynamic, baroque representations of Justice found in European capitals—often shown standing, striding, or struggling with the scales—Ceschiatti’s figure is profoundly static. She is seated, her posture rigid, her expression (beneath the blindfold) impassive. She is a Justice who has already arrived, who waits eternally.
+However, the most significant iconographic feature of Ceschiatti’s work is an omission: the absence of the scales (bilanx).
+Classically, Iustitia carries three attributes:
+1. The Blindfold: Impartiality (or blindness to the status of the litigant).
+2. The Sword: The power of enforcement (imperium) and the ability to punish.
+3. The Scales: The analytical tool for weighing evidence and competing claims (ratio).
+Ceschiatti stripped the figure of the scales. Legal theorist Rafael Lazzarotto Simioni interprets this absence as a deliberate modernist intervention.15 It suggests that the "weighing" of justice is not a divine attribute bestowed from above, but a human process that occurs inside the building, or perhaps, that the scales have been gifted to the citizenry to weigh their own actions.
+This omission, however, left the statue vulnerable to a different interpretation during the crisis of 2023. To the Bolsonarista mob, a Justice without scales is a Justice without ratio. She retains only the sword (force) and the blindfold (which they reinterpreted as willful blindness to electoral fraud). The modernist abstraction, intended to signal a sophisticated, internalized justice, was read by the insurgents as a symbol of arbitrary, tyrannical power—a "dictatorship of the toga" that strikes without weighing.
+3.2 The Materiality of the State
+The choice of granite is also significant. Granite is the geologic substrate of the Brazilian plateau. It is hard, enduring, and difficult to work. It represents the permanence of the institutions. By assaulting this material with lipstick—a substance of wax, oil, and pigment, designed to be ephemeral and soft—the vandalism created a jarring material contrast.
+The restoration reports following the attacks noted the difficulty of removing the pigments from the porous granite without damaging the stone.18 The "pores" of the statue absorbed the insult. This penetration of the stone by the cosmetic created a lasting scar, turning the statue into a palimpsest where the "Visual Sexual Contract" (the pristine female form) and the "Breach of Contract" (the graffiti) coexist.
+4. The Genealogy of Blindness: From the Ship of Fools to Brasília
+The blindfold on A Justiça is the focal point of her allegory, and it is here that the historical resonance of the January 8 attacks becomes most acute. The meaning of the blindfold has shifted radically over the last five centuries, and the Brazilian rioters inadvertently tapped into its earliest, satirical origins.
+4.1 The Fool and the Blindfold
+The first known image of a blindfolded Justice appears not in a law book, but in a satire: Sebastian Brant’s Das Narrenschiff (The Ship of Fools), published in Basel in 1494.19 In a woodcut attributed to the young Albrecht Dürer, accompanying the chapter on "Quarreling and Going to Court," we see a fool (a jester with a cap and bells) standing behind a seated Justice, tying a blindfold over her eyes.
+In 1494, the blindfold was not a symbol of virtue. It was a symbol of derision. A blind judge is a fool. A blind judge cannot see the truth, cannot distinguish the guilty from the innocent, and is easily manipulated by the "fools" (lawyers and litigants) who surround her. The image was a critique of a corrupt and incompetent judiciary.21
+It was only in the late 16th and 17th centuries—as the legal systems of Europe sought to professionalize and claim autonomy—that the meaning of the blindfold was inverted. It came to represent impartiality: "Justice is blind to the wealth, power, and identity of the parties." She sees only the facts (weighed in the scales), not the persons.
+4.2 The Return of the Ship of Fools
+When Débora Rodrigues dos Santos wrote "Perdeu, Mané" on the statue, she effectively reversed 500 years of iconographic evolution. The term "Mané" in Brazilian Portuguese is slang for a fool, a loser, or a simpleton—a direct equivalent to the "Narr" (Fool) in Brant’s title.
+The rioters, in their conspiratorial worldview, believed that the Supreme Court was either "blind" to the alleged fraud of the electronic voting machines or "blindingly" biased against their leader. By labeling the statue (and by extension the Court) as "Mané," they were re-enacting the Dürer woodcut. They were asserting that the blindness of the STF was not the blindness of impartiality, but the blindness of the Fool.
+This historical rhyme—unconscious on the part of the vandals, but legible to the historian—demonstrates the fragility of legal symbols. The "positive" meaning of the blindfold is a tenuous agreement held in place by the legitimacy of the state. When that legitimacy cracks, the symbol reverts to its "negative" origin: the blind judge becomes the foolish judge.
+
+
+Iconographic Phase
+	Visual Element
+	Symbolic Meaning
+	Historical Context
+	Antiquity / Medieval
+	Open Eyes
+	Clear vision of Truth; God sees all.
+	Pre-Modern
+	Renaissance (1494)
+	Blindfold applied by Fool
+	Ignorance, Error, Manipulation.
+	Brant's Ship of Fools 19
+	Modern Era (1600s-1900s)
+	Blindfold as attribute
+	Impartiality, Equality before Law.
+	Rise of Rational Law 21
+	Brasília (1961)
+	Blindfold, No Scales
+	Internalized Impartiality; Abstract Power.
+	High Modernism 15
+	Jan 8 (2023)
+	Blindfold + "Mané"
+	The Fool returns; Bias, Illegitimacy.
+	Post-Truth Populism
+	5. The Event: January 8 and the Semiotics of Gendered Vandalism
+The attack on A Justiça was not an isolated incident of rage; it was a highly specific, gendered performance. To understand it, we must analyze the actors, the medium, and the text.
+5.1 The Text: "Perdeu, Mané, Não Amola"
+The phrase inscribed on the statue has a specific provenance. In November 2022, shortly after the election, Supreme Court Minister Luís Roberto Barroso was in New York City for a legal conference. Outside the Harvard Club, he was accosted by a Brazilian protester who demanded, in aggressive tones, that he release the "source code" of the voting machines (a central trope of the Bolsonarista election fraud conspiracy).
+Barroso, breaking with the stoic silence expected of a magistrate, replied: "Perdeu, mané, não amola" ("You lost, fool, don't bother me").23
+This utterance was a catastrophe for the "King's Two Bodies." The Minister (Body Natural) had spoken like a common carioca (Body Natural), using street slang ("Mané", "não amola"). In doing so, he stripped away the aura of the "Body Politic." The phrase went viral instantly. To the opposition, it was proof of the arrogance and partiality of the Court—a judge telling a citizen "you lost" in the language of a bar fight.
+5.2 The Actor: Débora Rodrigues dos Santos
+On January 8, Débora Rodrigues dos Santos, a hairdresser and mother, entered the Praça dos Três Poderes. She brought with her a tube of lipstick—a tool of her trade and her gender presentation. She approached the statue of Justice, climbed onto it, and wrote the Minister’s words on the statue’s body.1
+This act was a form of ventriloquism. Débora forced the mute, granite Justice to "speak" the words of the mortal Minister. She collapsed the distance between the abstract ideal and the flawed reality. By writing "Perdeu Mané" on the statue, she was saying: "This statue is not Justice; this statue is Barroso. This statue is the arrogance that mocks us."
+5.3 The Medium: Lipstick as Weapon
+The use of lipstick is crucial to the "Visual Sexual Contract" analysis. In the patriarchal order, lipstick is a tool used by women to make themselves aesthetically pleasing to men—to fulfill the terms of the sexual contract (attractiveness, submissiveness).
+Débora weaponized this tool. She used the instrument of beautification to perform an act of desecration.
+* Color: The red of the lipstick invoked blood, but also the "communism" that the right-wing mob believed they were fighting.
+* Texture: The waxy, greasy texture of the lipstick stood in revulsion to the cold, hard granite. It was a pollution of the sacred stone with the "abject" materials of the body.
+* Gender: A male vandal might have used spray paint or a hammer. The use of lipstick marked the act as specifically feminine iconoclasm. It was a woman attacking the "Ideal Woman" of the state. It was a rejection of the allegory by the reality. The living woman (Débora) defaced the stone woman (A Justiça) to assert that the contract was broken.
+6. The Republican Void: A Crisis of Formation
+Why was the statue so vulnerable? Why did the Brazilian people not rush to defend their symbols? The answer lies in the historical weakness of the Brazilian republican imaginary, as diagnosed by historian José Murilo de Carvalho.
+6.1 The Formation of Souls
+In A Formação das Almas (The Formation of Souls), Carvalho analyzes the proclamation of the Brazilian Republic in 1889. It was a military coup, carried out with little popular participation. The new Republic struggled to create a set of symbols that would resonate with the population.25
+* The Flag: They kept the imperial colors (green and yellow) but removed the crown, replacing it with a positivist sky.
+* The Anthem: They kept the music but changed the words (briefly), then reverted.
+* The Allegory: They attempted to introduce Marianne (the French symbol) as the face of the Republic. However, Carvalho notes that this figure never truly "captured the souls" of the people. She remained an elite, foreign import—a "French" lady in a tropical land.
+The competing symbol was Tiradentes, the Christ-like martyr of the 18th-century independence movement. Tiradentes (a man) resonated more with the religious population than the abstract Marianne.
+6.2 The Unloved Allegory
+Ceschiatti’s A Justiça is a descendant of that failed Marianne. She is a high-modernist abstraction, cool and distant. She does not look like a Brazilian woman; she looks like a Platonist idea.
+On January 8, the fragility of this bond was exposed. The "patriots" (as they called themselves) draped themselves in the National Flag (the symbol they accepted) while destroying the Allegories (the symbols they rejected). They did not see the statue as "theirs." They saw it as the property of the "Mané" inside the palace.
+The Visual Sexual Contract failed because the "Sexual" component—the seduction of the populace by the image of the state—was never consummated. The people never fell in love with A Justiça. She remained a stranger, and when the crisis came, she was treated as an enemy.
+7. Comparative Iconologies: The Femen Marianne and the Iron Lady
+To underscore the specificity of the Brazilian crisis, it is illuminating to compare it with other instances where the female allegory of the state was contested.
+7.1 France 2013: The State Absorbs the Radical
+In July 2013, France unveiled a new postage stamp of Marianne. The designers revealed that the model was Inna Shevchenko, the Ukrainian founder of FEMEN, a radical feminist group known for topless protests and anti-religious iconoclasm.27
+* The Crisis: Conservative Catholics in France were outraged. They called for a boycott, arguing that the symbol of the Republic could not be a "foreigner" and a "blasphemer" who sawed down crosses.29
+* The Resolution: The French state absorbed the controversy. The President (Hollande) defended the choice. The logic of the French Visual Sexual Contract is flexible: Marianne is a revolutionary. FEMEN is revolutionary. Therefore, FEMEN can be Marianne. The state co-opted the body of the radical woman to rejuvenate its own image.
+Contrast with Brazil: In Brazil, the state could not absorb Débora Rodrigues. She was not a "model" for a new Justice; she was the anti-Justice. The Brazilian state is more rigid, its iconography more static. The "living woman" (Débora) and the "stone woman" (Justice) were in a zero-sum conflict. One had to destroy the other.
+7.2 UK 1982: The Woman Who Was King
+During the Falklands War, cartoons depicted Prime Minister Margaret Thatcher as Britannia—the warrior maiden with the trident and shield.31
+* The Synthesis: Thatcher achieved what is rare in politics: she merged the Body Natural (her own female body) with the Body Politic (Britannia). She did not need a statue to fight for her; she was the statue.
+* Relevance: In Brazil, there was no female leader to embody the state. President Lula (male) and Minister Barroso (male) stood behind the female statue. The Bolsonaristas, seeking a return to patriarchal order ("God, Fatherland, Family"), attacked the female statue because they viewed the men hiding behind it as weak or corrupt. They wanted to tear down the "Visual Sexual Contract" to expose the "Mané" behind the curtain.
+8. The Aftershock: November 2024 and the "Statue of Sh*t"
+The vandalism of January 8 was not the end of the war on images; it was the prelude to a darker chapter. On November 13, 2024, Francisco Wanderley Luiz (known as Tiü França), a former candidate for city council, drove to the Praça dos Três Poderes with a car laden with fireworks and explosives. After failing to enter the STF building, he detonated a bomb against his own body, killing himself at the feet of A Justiça.33
+8.1 The Message on the Mirror
+In the subsequent investigation, the Federal Police raided the house Francisco had rented in Ceilândia. There, written in lipstick on a bathroom mirror, was a message that directly linked his suicide mission to Débora’s vandalism:
+"Débora Rodrigues, por favor não desperdice batom!! Isso é para deixar as mulheres bonitas!!! Estátua de merda se usa TNT."
+("Débora Rodrigues, please do not waste lipstick!! That is for making women beautiful!!! For a shitty statue, one uses TNT.") 3
+8.2 The Semiotic Escalation
+This text is a document of extraordinary importance for understanding the breakdown of the Visual Sexual Contract.
+1. Policing Gender: Francisco reprimands Débora for her use of lipstick. He reasserts the traditional Sexual Contract: lipstick is "for making women beautiful"—i.e., for the pleasure of men. He rejects her use of lipstick as a political tool. He wants women to return to the private sphere of beautification.
+2. The Ontology of the Statue: He refers to A Justiça as a "Statue of Sh*t" ("Estátua de merda"). This is the ultimate desacralization. The statue is not sacred; it is excrement. It is waste matter that needs to be removed.
+3. The Shift in Medium: He juxtaposes the "soft" medium of the woman (Lipstick/Batom) with the "hard" medium of the man (TNT). He argues that symbolic vandalism is insufficient. The "Statue of Sh*t" cannot be shamed; it must be annihilated.
+Francisco’s act was the logical conclusion of the iconoclasm begun on January 8. If the statue is a "Mané" (Fool), it can be mocked with lipstick. If the statue is "Merda" (Shit), it must be blown up.
+9. Restoration and Erasure: The Politics of the Clean Slate
+Following the January 8 riots, the Brazilian government launched a massive restoration effort. UNESCO and IPHAN specialists worked to remove the lipstick from the granite pores of A Justiça, to stitch back together the canvas of Di Cavalcanti’s As Mulatas (which had been stabbed seven times—another attack on the female image), and to replace the glass of Araguaia.18
+This restoration was framed as a victory of civilization over barbarism. "The traces of the coup will be erased," declared the authorities. However, from the perspective of the Visual Sexual Contract, the erasure is problematic.
+By scrubbing the lipstick and removing the "Perdeu Mané," the state attempts to reset the contract. It tries to make A Justiça mute and virgin again. It tries to pretend that the statue was not violated.
+But the memory of the image persists. The photograph of the statue with the red graffiti is now as iconic as the statue itself. It has become a "counter-monument." It proved that the "Body Politic" is not immortal; it can be scarred. The November 2024 bombing attempt proves that the erasure of the graffiti did not erase the hatred that spawned it. The "Statue of Sh*t" remains a target.
+The restoration restores the form of the contract, but it cannot restore the faith in it. The "Formation of Souls" that Murilo de Carvalho wrote about remains incomplete. The Republic has cleaned its face, but the lipstick on the mirror in Ceilândia suggests that the violence is merely waiting for a new medium—one more volatile than wax.
+10. Conclusion: The Contract Unraveled
+The events spanning from January 8, 2023, to November 13, 2024, represent a profound crisis in the visual and political imaginary of Brazil. The attack on Alfredo Ceschiatti’s A Justiça was not collateral damage; it was a central operation in the insurrectionist semiotics.
+By applying the frameworks of Pateman, Warner, and Kantorowicz, we can see that the rioters were instinctively dismantling the Visual Sexual Contract:
+1. The Exclusion: They rejected the "female" allegory because they felt excluded by the "male" fraternity of the Court.
+2. The Inversion: They inverted the blindfold from a symbol of impartiality to a symbol of the "Fool" (Mané).
+3. The Gendered Violence: They weaponized lipstick to feminize and humiliate the stone body, treating the allegory of the state as a woman to be dominated rather than a deity to be obeyed.
+4. The Escalation: The shift from lipstick to TNT signaled the collapse of symbolic dialogue and the turn toward total annihilation.
+The Brazilian Republic now stands guard over a statue that has been doubly marked: once by the chisel of the modernist sculptor, and once by the lipstick of the reactionary vandal. The lipstick has been washed away, but the "Visual Sexual Contract" remains in tatters. The State can repair the stone, but it has yet to answer the question posed by the graffiti: If the Justice is a "Mané," and the Statue is "Shit," what binds the citizen to the Republic? Until that question is answered, the granite woman sits on the Praça dos Três Poderes not as a symbol of eternal law, but as a hostage to a history she can no longer control.
+References and Data Corpus
+I. Primary Theoretical Frameworks
+* 6 Pateman, Carole. The Sexual Contract. Stanford University Press, 1988. (Defines the patriarchal subordination inherent in the social contract and the paradox of female civil inclusion).
+* 8 Warner, Marina. Monuments and Maidens: The Allegory of the Female Form. University of California Press, 1985/2000. (Analyzes why female bodies represent civic virtues in societies where women lack power).
+* 10 Kantorowicz, Ernst H. The King’s Two Bodies: A Study in Mediaeval Political Theology. Princeton University Press, 1957. (The body natural vs. the body politic).
+* 13 Mondzain, Marie-José. Image, Icon, Economy: The Byzantine Origins of the Contemporary Imaginary. Stanford University Press, 2005. (The economy of the visible and invisible).
+* 47 Grossi, Paolo. Mitologie giuridiche della modernità. Giuffrè, 2007. (The legal mythologies of the modern state).
+* 25 Carvalho, José Murilo de. A Formação das Almas: O Imaginário da República no Brasil. Companhia das Letras, 1990. (The failure of Brazilian republican symbols to capture the popular imagination).
+II. Iconographic History
+* 19 Brant, Sebastian. Ship of Fools (Das Narrenschiff), 1494. (Woodcut attributed to Dürer showing the Fool blindfolding Justice; origin of the negative meaning of the blindfold).
+* 54 Iconography of Justice. Analysis of the shift from the "Fool's Blindfold" to the "Impartial Blindfold".
+III. The Artworks and the Event (Brasília)
+* 15 Ceschiatti, Alfredo. A Justiça (1961). (Granite sculpture, seated, blindfolded, sword, no scales).
+* 1 Rodrigues dos Santos, Débora. (The vandal who used lipstick to write "Perdeu, Mané" on Jan 8, 2023. Released to house arrest in 2025).
+* 23 "Perdeu, Mané". (Phrase uttered by Min. Luís Roberto Barroso in NYC, Nov 2022, appropriated by rioters).
+* 16 Cultural Heritage Damage. (Damage to Di Cavalcanti's As Mulatas, Marianne Peretti's Araguaia, and Balthazar Martinot's clock).
+IV. The November 2024 Attack
+* 33 The Bombing. (Suicide attack by Francisco Wanderley Luiz, Nov 13, 2024).
+* 3 The Message. ("Débora Rodrigues... For a shitty statue, one uses TNT" written on a mirror).
+V. Comparative Context
+* 27 France/Femen. (2013 Marianne stamp modeled on Inna Shevchenko).
+* 31 UK/Thatcher. (Depictions of Thatcher as Britannia during the Falklands War).
+Works cited
+1. Supreme Court suspends trial of woman who vandalized the Monument to Justice, accessed January 14, 2026, https://www.youtube.com/watch?v=auQyQb34jco
+2. Mulher que pichou estátua com batom no 8 de janeiro é libertada | G1, accessed January 14, 2026, https://g1.globo.com/sp/sao-carlos-regiao/noticia/2025/03/29/mulher-pichacao-estatua-justica-8-janeiro-liberdade.ghtml
+3. PF investiga “relação direta” entre homem-bomba e o 8 de Janeiro - Poder360, accessed January 14, 2026, https://www.poder360.com.br/poder-justica/pf-investiga-relacao-direta-entre-homem-bomba-e-o-8-de-janeiro/
+4. Em recado no espelho, homem-bomba fez referência à mulher que pichou estátua do STF no 8 de janeiro | CNN Brasil, accessed January 14, 2026, https://www.cnnbrasil.com.br/politica/em-recado-no-espelho-homem-bomba-fez-referencia-a-mulher-que-pichou-estatua-do-stf-no-8-de-janeiro/
+5. Vídeo mostra casa alugada por homem que morreu em frente ao STF; gaveta gerou 'explosão gravíssima' | G1, accessed January 14, 2026, https://g1.globo.com/df/distrito-federal/noticia/2024/11/14/video-casa-alugada-por-homem-que-morreu-em-frente-ao-stf-foi-destruida-por-explosivo-dizem-vizinhos.ghtml
+6. The Sexual Contract - Carole Pateman - Google Books, accessed January 14, 2026, https://books.google.com/books/about/The_Sexual_Contract.html?id=jH2KPvZF1L0C
+7. The sexual contract / Carole Pateman. - University of Texas at Austin, accessed January 14, 2026, https://search.lib.utexas.edu/discovery/fulldisplay?vid=01UTAU_INST%3ASEARCH&search_scope=MyInst_and_CI&tab=Everything&docid=alma991058282661706011&context=L
+8. Monuments & maidens by Marina Warner | Open Library, accessed January 14, 2026, https://openlibrary.org/books/OL2552349M/Monuments_maidens
+9. Monuments and Maidens: The Allegory of the Female Form - Marina Warner - Google Books, accessed January 14, 2026, https://books.google.com/books/about/Monuments_and_Maidens.html?id=KUrd5GqffyEC
+10. Citation - The king's two bodies : a study in mediaeval political theology - Search UW-Madison Libraries, accessed January 14, 2026, https://search.library.wisc.edu/catalog/999482616202121/cite
+11. The King's Two Bodies: A Study in Mediaeval Political Theology. By Ernst H. Kantorowicz. (Princeton: Princeton University Press. 1957. Pp. xvi, 567. $10.00.) | American Political Science Review | Cambridge Core, accessed January 14, 2026, https://www.cambridge.org/core/journals/american-political-science-review/article/kings-two-bodies-a-study-in-mediaeval-political-theology-by-ernst-h-kantorowicz-princeton-princeton-university-press-1957-pp-xvi-567-1000/7C730646EC6371EABB5BF428DA5F2D7E
+12. The King's Two Bodies: A Study in Mediaeval Political Theology - Ernst Hartwig Kantorowicz, accessed January 14, 2026, https://books.google.com/books/about/The_King_s_Two_Bodies.html?id=RKYPxN0SLdYC
+13. The Byzantine Icon in the Era of Electronic Media - TRAFO – Blog for Transregional Research, accessed January 14, 2026, https://trafo.hypotheses.org/1160
+14. Marie José Mondzain: Image, Icon, Economy: the Byzantine Origins of the Contemporary Imaginary - MSCP - Melbourne School of Continental Philosophy, accessed January 14, 2026, https://mscp.org.au/past-courses/marie-jose-mondzain-image-icon-economy-the-byzantine-origins-of-the-contemporary-imaginary
+15. The Planalto Riots. Making and Unmaking a Failed Coup in Brazil Edited by Lou Caffagni, Isabel Löfgren - Institute of Network Cultures, accessed January 14, 2026, https://networkcultures.org/wp-content/uploads/2024/01/ThePlanaltoRiots_INC2024_ToD.pdf
+16. Officials Assess Damages After Pro-Bolsonaro Rioters Ravage Brasília's Modernist Masterpieces | Architectural Record, accessed January 14, 2026, https://www.architecturalrecord.com/articles/16026-officials-assess-damages-after-pro-bolsonaro-rioters-ravage-brasilias-modernist-masterpieces
+17. (PDF) The Green-and-Yellow Black Box: Mobilization on Platforms for the Attempted Coup on January 8, 2023 - ResearchGate, accessed January 14, 2026, https://www.researchgate.net/publication/397804479_The_Green-and-Yellow_Black_Box_Mobilization_on_Platforms_for_the_Attempted_Coup_on_January_8_2023
+18. UNESCO joins the Ministry of Culture in recovering Brasilia's cultural heritage after yesterday's attack, accessed January 14, 2026, https://www.unesco.org/en/articles/unesco-joins-ministry-culture-recovering-brasilias-cultural-heritage-after-yesterdays-attacks
+19. Justice as a Sign of the Law: The Fool Blindfolding Justice - Lillian Goldman Law Library, accessed January 14, 2026, https://library.law.yale.edu/news/justice-sign-law-fool-blindfolding-justice
+20. Navigating Dürer's Woodcuts for The Ship of Fools - The Public Domain Review, accessed January 14, 2026, https://publicdomainreview.org/essay/navigating-durers-woodcuts-for-the-ship-of-fools/
+21. Blind Justice Was Not Always Just – An Exhibition at the Yale Law Library - Rare Book Hub, accessed January 14, 2026, https://www.rarebookhub.com/articles/1181
+22. Blind Justice - McGill Law Journal, accessed January 14, 2026, https://lawjournal.mcgill.ca/article/blind-justice/
+23. accessed January 14, 2026, https://en.wikipedia.org/wiki/Lu%C3%ADs_Roberto_Barroso#:~:text=On%2013%20November%202022%2C%20while,%2C%20man%2C%20don't%20bother
+24. Barroso a manifestante: "Perdeu, mané. Não amola" | VISÃO CNN - YouTube, accessed January 14, 2026, https://www.youtube.com/watch?v=XJx5--sepyo
+25. The formation of souls by José Murilo de Carvalho - Open Library, accessed January 14, 2026, https://openlibrary.org/books/OL25367293M/The_formation_of_souls
+26. The formation of souls : imagery of the Republic in Brazil : Carvalho, José Murilo de : Free Download, Borrow, and Streaming - Internet Archive, accessed January 14, 2026, https://archive.org/details/formationofsouls0000carv
+27. French Stamp Inspired by Topless Feminist Protester Under Fire - Truthdig, accessed January 14, 2026, https://www.truthdig.com/articles/french-stamp-inspired-by-topless-feminist-protester-under-fire/?amp
+28. Femen-inspired postage stamp angers French right | France - The Guardian, accessed January 14, 2026, https://www.theguardian.com/world/2013/jul/15/femen-postage-stamp-france
+29. France Accidentally Puts FEMEN Leader On New Stamps - Mic, accessed January 14, 2026, https://www.mic.com/articles/54873/france-accidentally-puts-femen-leader-on-new-stamps
+30. TIL that in 2013, the new image of "Marianne" (who symbolises the French Republic, and is typically depicted with bare breasts) on French stamps was inspired by Ukrainian topless activist Inna Shevchenko. After the stamp was released, a right-wing Christian group called for a boycott of the stamp : r/todayilearned - Reddit, accessed January 14, 2026, https://www.reddit.com/r/todayilearned/comments/mzpz3k/til_that_in_2013_the_new_image_of_marianne_who/
+31. Cartoon by Behrendt on the intransigent attitude of British Prime Minister Margaret Thatcher to the EC (30 March 1984) - CVCE Website, accessed January 14, 2026, https://www.cvce.eu/en/obj/cartoon_by_behrendt_on_the_intransigent_attitude_of_british_prime_minister_margaret_thatcher_to_the_ec_30_march_1984-en-b646a40b-ec03-4d9a-9aef-47f7d58dfe83.html
+32. Falklands War cartoon | NZ History, accessed January 14, 2026, https://nzhistory.govt.nz/media/photo/falklands-war-cartoon
+33. One dead after two reported explosions near Brazil's Supreme Court - Al Jazeera, accessed January 14, 2026, https://www.aljazeera.com/news/2024/11/14/one-dead-after-two-reported-explosions-near-brazils-supreme-court
+34. 2024 Brasília attack - Wikipedia, accessed January 14, 2026, https://en.wikipedia.org/wiki/2024_Bras%C3%ADlia_attack
+35. Brazil authorities link Supreme Court bomb attack to extremist discourse • FRANCE 24 English - YouTube, accessed January 14, 2026, https://www.youtube.com/watch?v=xvuj-9Kp9zM
+36. Artworks damaged, destroyed or stolen during the 8 January Brasília attacks - Wikipedia, accessed January 14, 2026, https://en.wikipedia.org/wiki/Artworks_damaged,_destroyed_or_stolen_during_the_8_January_Bras%C3%ADlia_attacks
+37. As Brazil Heals From Riots, a "Museum of Democracy" Takes Shape - Hyperallergic, accessed January 14, 2026, https://hyperallergic.com/as-brazil-heals-from-riots-a-museum-of-democracy-takes-shape/
+38. The Sexual Contract. By Carole Pateman. Stanford, CA: Stanford University Press, 1988. 264p. $39.00 doth, $12.95 paper. | American Political Science Review | Cambridge Core, accessed January 14, 2026, https://www.cambridge.org/core/journals/american-political-science-review/article/sexual-contract-by-carole-pateman-stanford-ca-stanford-university-press-1988-264p-3900-doth-1295-paper/12972DB97A6A4B79DCEE1272257BD124
+39. The sexual contract - University of Surrey, accessed January 14, 2026, https://openresearch.surrey.ac.uk/discovery/fulldisplay?vid=44SUR_INST%3AResearchRepository&docid=alma99339921702346&context=L
+40. The Sexual Contract | Stanford University Press, accessed January 14, 2026, https://www.sup.org/books/politics/sexual-contract
+41. Monuments and Maidens by Marina Warner - Paper - University of California Press, accessed January 14, 2026, https://www.ucpress.edu/book/9780520227330/monuments-and-maidens
+42. Marina Warner - Cambridge University Press, accessed January 14, 2026, https://www.cambridge.org/core/books/marina-warner/5278790E0A0BA17FCAE3E99D93F27090
+43. Monuments and Maidens: The Allegory of the Female Form. Marina Warner | Winterthur Portfolio: Vol 22, No 1 - The University of Chicago Press: Journals, accessed January 14, 2026, https://www.journals.uchicago.edu/doi/10.1086/496320
+44. An Analysis of Ernst H. Kantorwicz's The King's Two Bodies: A Study in - Routledge, accessed January 14, 2026, https://www.routledge.com/An-Analysis-of-Ernst-H-Kantorwiczs-The-Kings-Two-Bodies-A-Study-in-Medieval-Political-Theology/Thomson/p/book/9781912127115
+45. Marie-Jose Mondzain Image, Icon, Economy The Byzantine Origins of The Contemporary Imaginary Cultural Memory in The Present | PDF - Scribd, accessed January 14, 2026, https://www.scribd.com/document/373869491/Marie-Jose-Mondzain-Image-Icon-Economy-the-Byzantine-Origins-of-the-Contemporary-Imaginary-Cultural-Memory-in-the-Present
+46. Image, Icon, Economy: The Byzantine Origins of the Contemporary Imaginary 9781503619289 - DOKUMEN.PUB, accessed January 14, 2026, https://dokumen.pub/image-icon-economy-the-byzantine-origins-of-the-contemporary-imaginary-9781503619289.html
+47. LA LEGGE COME SOLA FONTE DI PRODUZIONE DEL DIRITTO: LA GRANDE ILLUSIONE DELLO STATO MODERNO, accessed January 14, 2026, https://rivista.camminodiritto.it/public/pdfarticoli/7003_4-2021.pdf
+48. Mitologie giuridiche della modernità - Paolo Grossi - Google Books, accessed January 14, 2026, https://books.google.com/books/about/Mitologie_giuridiche_della_modernit%C3%A0.html?id=pViPAAAAMAAJ
+49. Bibliography vol.3 pt 2 | Brazil: Five Centuries of Change - Brown University Library, accessed January 14, 2026, https://library.brown.edu/create/fivecenturiesofchange/bibliography-vol-3-pt-2/
+50. Formation of Souls: Imagery of the Republic in Brazil (Kellogg Institute Series on Democracy and Development) Trade - Biblio, accessed January 14, 2026, https://www.biblio.com/book/formation-souls-imagery-republic-brazil-kellogg/d/1498969028
+51. Formation of Souls : Imagery of the Republic in Brazil - Better World Books, accessed January 14, 2026, https://www.betterworldbooks.com/product/detail/formation-of-souls-imagery-of-the-republic-in-brazil-9780268035266
+52. José Murilo de Carvalho | Academia Brasileira de Letras, accessed January 14, 2026, https://www.academia.org.br/academicos/jose-murilo-de-carvalho/discurso-de-recepcao
+53. Ship of Fools - Tyler Coburn, accessed January 14, 2026, https://www.tylercoburn.com/sof.html
+54. Iconografia da Justiça através dos tempos - TJAM, accessed January 14, 2026, https://www.tjam.jus.br/index.php/esmam-artigos/4426-iconografia-da-justica-atraves-dos-tempos/file
+55. 4ª CJM (MG) - STM, accessed January 14, 2026, https://www.stm.jus.br/1-instancia/4-cjm-mg?id=10732:exposicao-comemorativa-ao-centenario-das-circunscricoes-judiciarias-militares&catid=542:videos-17&start=350
+56. (PDF) The Planalto Riots - ResearchGate, accessed January 14, 2026, https://www.researchgate.net/publication/378738329_The_Planalto_Riots
+57. Perdeu, mané – Wikipédia, a enciclopédia livre, accessed January 14, 2026, https://pt.wikipedia.org/wiki/Perdeu,_man%C3%A9
+58. Brazilian authorities assess artworks damaged by rioting Bolsonaro supporters - The Art Newspaper - International art news and events, accessed January 14, 2026, https://www.theartnewspaper.com/2023/01/16/bolsonaro-supporters-riot-damage-artworks
+59. Pro-Bolsonaro Rioters Damage National Treasures in Brasília - Hyperallergic, accessed January 14, 2026, https://hyperallergic.com/pro-bolsonaro-rioters-damage-national-treasures-in-brasilia/
+60. Judge investigating 2023 coup was court bomb target, say Brazilian police - The Guardian, accessed January 14, 2026, https://www.theguardian.com/world/2024/nov/14/g20-summit-explosions-brazil-bombings-death-toll-plaza-of-the-three-powers
+61. Pochmann: não há crise fiscal, juro e subsídio são o problema, accessed January 14, 2026, https://horadopovo.com.br/wp-content/uploads/2024/11/HP-Edicao-3.980-20-a-26-de-Novembro-de-2024.pdf
+62. Ex-mulher afirma à PF que autor de explosões planejava matar, accessed January 14, 2026, https://redejovemfm.com.br/2024/11/15/ex-mulher-afirma-a-pf-que-autor-de-explosoes-planejava-matar-moraes/
+63. O que se sabe sobre a tentativa de ataque ao STF - SWI swissinfo.ch, accessed January 14, 2026, https://www.swissinfo.ch/por/o-que-se-sabe-sobre-a-tentativa-de-ataque-ao-stf/88155814
+64. No Stamp Of Approval: Femen Icon Sparks Twitter Outrage - Radio Free Europe, accessed January 14, 2026, https://www.rferl.org/a/femen-shevchenko-twitter-outcry/25049282.html
+65. Les Gibbard and the Falklands war: striking cartoons from the Guardian archive, accessed January 14, 2026, https://www.theguardian.com/gnm-archive/2023/dec/04/les-gibbard-and-the-falklands-war-striking-cartoons-from-the-guardian-archive
+66. Falklands War Cartoons and Comics - funny pictures from CartoonStock, accessed January 14, 2026, https://www.cartoonstock.com/directory/f/falklands_war.asp
+67. A Soviet cartoon during the Falklands War. Margaret Thatcher holds a cap of "colonialism" over the islands. 1982. : r/PropagandaPosters - Reddit, accessed January 14, 2026, https://www.reddit.com/r/PropagandaPosters/comments/1crswck/a_soviet_cartoon_during_the_falklands_war/

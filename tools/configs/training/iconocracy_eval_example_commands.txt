@@ -1,0 +1,16 @@
+# Base model eval
+python tools/scripts/run_iconocracy_eval.py \
+  --model Qwen/Qwen2.5-3B-Instruct \
+  --prompts data/training/iconocracy_eval_prompts_v1_1.jsonl \
+  --output data/training/eval_base_qwen3b.jsonl
+
+# Fine-tuned adapter eval
+python tools/scripts/run_iconocracy_eval.py \
+  --model Qwen/Qwen2.5-3B-Instruct \
+  --adapter ~/Models/iconocracy-qwen25-3b-sft-pilot-lora \
+  --prompts data/training/iconocracy_eval_prompts_v1_1.jsonl \
+  --output data/training/eval_ft_qwen3b.jsonl
+
+# Pilot train run
+python tools/scripts/train_iconocracy_sft.py \
+  --config tools/configs/training/iconocracy_qwen25_3b_qlora_pilot.json

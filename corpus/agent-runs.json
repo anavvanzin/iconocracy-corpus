@@ -1,0 +1,202 @@
+[
+  {
+    "timestamp": "2026-04-14T15:59:58Z",
+    "agent": "sync",
+    "status": "success",
+    "items_affected": 1,
+    "duration_s": 1,
+    "details": "Batch B: deduped DE-NOTGELD-1921 into DE-NOTG-1921 (merged country_pt,medium_norm,rights,tags,tags_str). Corpus 165→164."
+  },
+  {
+    "timestamp": "2026-04-14T15:58:20Z",
+    "agent": "argos",
+    "status": "success",
+    "items_affected": 19,
+    "duration_s": 1,
+    "details": "Batch C: backfill manifest written to data/raw/argos/backfill-manifest.json for IconoCode batch run."
+  },
+  {
+    "timestamp": "2026-04-14T15:58:19Z",
+    "agent": "lacunas",
+    "status": "success",
+    "items_affected": 9,
+    "duration_s": 1,
+    "details": "Batch A: 9 empty-URL corpus items inspected. 8 fully coded (missing only URL field), 1 hollow duplicate (DE-NOTGELD-1921)."
+  },
+  {
+    "timestamp": "2026-04-14T03:41:03Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 3,
+    "details": "BR-010: Unexpected content type: text/html"
+  },
+  {
+    "timestamp": "2026-04-14T03:40:59Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 0,
+    "details": "BR-009: Unexpected content type: text/html"
+  },
+  {
+    "timestamp": "2026-04-14T03:40:59Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 7,
+    "details": "BR-008: No supported IIIF pattern discovered"
+  },
+  {
+    "timestamp": "2026-04-14T03:40:52Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 0,
+    "details": "BR-007: HTTP 404: Not Found"
+  },
+  {
+    "timestamp": "2026-04-14T03:40:51Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 1,
+    "details": "BR-006: Unexpected content type: text/html"
+  },
+  {
+    "timestamp": "2026-04-14T03:40:49Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 2,
+    "details": "BR-005: Unexpected content type: text/html"
+  },
+  {
+    "timestamp": "2026-04-14T03:40:47Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 6,
+    "details": "BR-004: No supported IIIF pattern discovered"
+  },
+  {
+    "timestamp": "2026-04-14T03:40:41Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 6,
+    "details": "BR-003: No supported IIIF pattern discovered"
+  },
+  {
+    "timestamp": "2026-04-14T03:40:34Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 6,
+    "details": "BR-002: No supported IIIF pattern discovered"
+  },
+  {
+    "timestamp": "2026-04-14T03:40:27Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 0,
+    "details": "BR-001: Unexpected content type: text/html"
+  },
+  {
+    "timestamp": "2026-04-14T03:40:27Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 7,
+    "details": "BE-002: Unexpected content type: text/html"
+  },
+  {
+    "timestamp": "2026-04-14T03:40:19Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 3,
+    "details": "BE-001: Unexpected content type: text/html"
+  },
+  {
+    "timestamp": "2026-04-14T03:39:52Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 0,
+    "details": "AT-001: Discovered IIIF manifest but no fetchable image URL"
+  },
+  {
+    "timestamp": "2026-04-14T03:38:58Z",
+    "agent": "argos",
+    "status": "warning",
+    "items_affected": 1,
+    "duration_s": 0,
+    "details": "BR-1000R-1906: Playwright fallback for numista.com requires manual review unless explicitly allowed"
+  },
+  {
+    "timestamp": "2026-04-14T03:38:55Z",
+    "agent": "argos",
+    "status": "warning",
+    "items_affected": 1,
+    "duration_s": 0,
+    "details": "BE-IND-1880: Playwright fallback for numista.com requires manual review unless explicitly allowed"
+  },
+  {
+    "timestamp": "2026-04-14T03:38:52Z",
+    "agent": "argos",
+    "status": "warning",
+    "items_affected": 1,
+    "duration_s": 0,
+    "details": "BE-CONGO-1912: Playwright fallback for numista.com requires manual review unless explicitly allowed"
+  },
+  {
+    "timestamp": "2026-04-14T03:38:47Z",
+    "agent": "argos",
+    "status": "warning",
+    "items_affected": 1,
+    "duration_s": 0,
+    "details": "BE-CONGO-100F-1912: Playwright fallback for numista.com requires manual review unless explicitly allowed"
+  },
+  {
+    "timestamp": "2026-04-14T03:38:40Z",
+    "agent": "argos",
+    "status": "warning",
+    "items_affected": 1,
+    "duration_s": 0,
+    "details": "BE-5F-LEOPOLD-1832: Playwright fallback for numista.com requires manual review unless explicitly allowed"
+  },
+  {
+    "timestamp": "2026-04-14T03:38:37Z",
+    "agent": "argos",
+    "status": "error",
+    "items_affected": 1,
+    "duration_s": 0,
+    "details": "BE-CONGO-MON-1921: Unexpected content type: text/html"
+  },
+  {
+    "timestamp": "2026-04-14T03:38:27Z",
+    "agent": "argos",
+    "status": "warning",
+    "items_affected": 1,
+    "duration_s": 0,
+    "details": "AR-001: Playwright fallback for colnect.com requires manual review unless explicitly allowed"
+  },
+  {
+    "timestamp": "2026-04-11T04:55:52Z",
+    "agent": "purification",
+    "status": "success",
+    "items_affected": 145,
+    "duration_s": 3,
+    "details": "total=165, coded=145 (88%), remaining=20, mean_endurecimento=1.44, by_regime: fundacional=71 normativo=40 militar=27 contra-alegoria=7, items_pending_verification=0"
+  },
+  {
+    "timestamp": "2026-04-10T12:14:57Z",
+    "agent": "validate",
+    "status": "success",
+    "items_affected": 145,
+    "duration_s": 8,
+    "details": "Schema validation passed, 145 items OK"
+  }
+]

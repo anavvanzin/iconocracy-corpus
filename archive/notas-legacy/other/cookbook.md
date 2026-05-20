@@ -1,0 +1,54 @@
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Perplexity API Cookbook
+
+> A collection of practical examples and guides for building with Perplexity's API Platform
+
+A collection of practical examples and guides for building with [**Perplexity's API Platform**](https://docs.perplexity.ai/) - the fastest, most cost-effective AI answer engine with real-time search capabilities.
+
+## Quick Start
+
+To get started with any project in this cookbook:
+
+1. **Browse examples** - Find the use case that matches your needs
+2. **Follow the guide** - Each example includes complete setup instructions
+3. **Get the code** - Full implementations are available in our [GitHub repository](https://github.com/perplexityai/api-cookbook)
+4. **Build and customize** - Use the examples as starting points for your projects
+
+## What's Inside
+
+### [Examples](/docs/cookbook/examples/README)
+
+Ready-to-run projects that demonstrate specific use cases and implementation patterns.
+
+### [Showcase](/docs/cookbook/showcase/briefo/)
+
+Community-built applications that demonstrate real-world implementations of the API Platform.
+
+### [Integration Guides](/docs/cookbook/articles/memory-management/chat-summary-memory-buffer/README)
+
+In-depth tutorials for advanced implementations and integrations with other tools.
+
+> **Note**: All complete code examples, scripts, and project files can be found in our [GitHub repository](https://github.com/perplexityai/api-cookbook). The documentation here provides guides and explanations, while the repository contains the full runnable implementations.
+
+## Contributing
+
+Have a project built with API Platform? We'd love to feature it! Check our [Contributing Guidelines](https://github.com/perplexityai/api-cookbook/blob/main/CONTRIBUTING.md) to learn how to:
+
+* Submit example tutorials
+* Add your project to the showcase
+* Improve existing content
+
+## Resources
+
+* [API Documentation](https://docs.perplexity.ai/home)
+* [GitHub Repository](https://github.com/perplexityai/api-cookbook)
+
+***
+
+*Maintained by the Perplexity community*
+
+
+Built with [Mintlify](https://mintlify.com).

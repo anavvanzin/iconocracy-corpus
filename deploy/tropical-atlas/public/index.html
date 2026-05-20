@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iconocracia Tropical — Atlas Iconográfico</title>
+  <meta name="description" content="Atlas público do corpus ICONOCRACIA (PPGD/UFSC): alegorias femininas na cultura jurídica, séculos XII–XX." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Tokens ─────────────────────────────────────────────────────── */
+    :root {
+      --paper:      #f5efe3;
+      --paper-deep: #ede3d0;
+      --paper-card: rgba(255,255,255,0.82);
+      --ink:        #1d1a14;
+      --ink-soft:   #4a4538;
+      --ink-faint:  #8a8070;
+      --accent:     #8a4f2b;
+      --accent-deep:#5f2d1a;
+      --gold:       #b8963e;
+      --seal:       #c0392b;
+      --seal-soft:  rgba(192,57,43,0.12);
+      --border:     rgba(29,26,20,0.13);
+      --shadow:     0 16px 48px rgba(29,26,20,0.09);
+      --shadow-sm:  0 2px 8px rgba(29,26,20,0.07);
+      --radius:     14px;
+      --radius-sm:  8px;
+    }
+    [data-theme="dark"] {
+      --paper:      #18150f;
+      --paper-deep: #211d15;
+      --paper-card: rgba(34,29,20,0.92);
+      --ink:        #e8e0d0;
+      --ink-soft:   #a89e8a;
+      --ink-faint:  #5e5848;
+      --accent:     #d4896a;
+      --accent-deep:#c4704c;
+      --gold:       #c9a85c;
+      --seal:       #e05c4a;
+      --seal-soft:  rgba(224,92,74,0.14);
+      --border:     rgba(232,224,208,0.1);
+      --shadow:     0 16px 48px rgba(0,0,0,0.4);
+    }
+
+    /* ── Reset ──────────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
+    body {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      background: var(--paper);
+      color: var(--ink);
+      min-height: 100dvh;
+      line-height: 1.6;
+      transition: background 0.3s, color 0.3s;
+    }
+    img { display: block; max-width: 100%; }
+    button, input, select { font: inherit; color: inherit; }
+    button { cursor: pointer; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ::selection { background: rgba(138,79,43,0.18); }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+    /* ── Layout ─────────────────────────────────────────────────────── */
+    .shell { max-width: 1400px; margin: 0 auto; padding: 0 20px; }
+
+    /* ── Header ─────────────────────────────────────────────────────── */
+    #site-header {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--paper-card);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(14px);
+    }
+    .header-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      height: 56px; gap: 16px;
+    }
+    .logo {
+      display: flex; align-items: center; gap: 12px;
+      text-decoration: none; color: var(--ink);
+    }
+    .logo svg { flex-shrink: 0; }
+    .logo-text { line-height: 1.15; }
+    .logo-title {
+      font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em;
+      color: var(--ink);
+    }
+    .logo-sub {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.68rem; color: var(--ink-faint); letter-spacing: 0.03em;
+    }
+    .header-nav { display: flex; align-items: center; gap: 6px; }
+    .nav-btn {
+      background: none; border: none; padding: 6px 12px;
+      border-radius: var(--radius-sm);
+      font-family: "IBM Plex Mono", monospace; font-size: 0.78rem;
+      color: var(--ink-soft); cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    .nav-btn:hover, .nav-btn.active {
+      background: var(--seal-soft); color: var(--seal);
+    }
+    .theme-btn {
+      width: 32px; height: 32px; border-radius: 50%;
+      background: none; border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem; transition: background 0.15s;
+    }
+    .theme-btn:hover { background: var(--seal-soft); }
+
+    /* ── Hero ───────────────────────────────────────────────────────── */
+    #hero {
+      padding: 52px 0 36px;
+      border-bottom: 1px solid var(--border);
+      background:
+        radial-gradient(circle at 10% 30%, rgba(184,150,62,0.13), transparent 40%),
+        radial-gradient(circle at 85% 60%, rgba(95,45,26,0.09), transparent 42%);
+    }
+    .hero-eyebrow {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 12px;
+    }
+    .hero-title {
+      font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 600;
+      line-height: 1.08; letter-spacing: -0.02em;
+      color: var(--ink); margin-bottom: 14px;
+    }
+    .hero-title em { color: var(--accent); font-style: italic; }
+    .hero-desc {
+      max-width: 560px; font-size: 1.12rem; color: var(--ink-soft);
+      line-height: 1.65; margin-bottom: 28px;
+    }
+    .hero-stats { display: flex; flex-wrap: wrap; gap: 20px; }
+    .stat-chip {
+      background: var(--paper-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 10px 16px;
+      display: flex; flex-direction: column; gap: 2px;
+    }
+    .stat-n {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 1.5rem; font-weight: 500; color: var(--accent);
+    }
+    .stat-label {
+      font-size: 0.82rem; color: var(--ink-faint);
+      font-family: "IBM Plex Mono", monospace;
+    }
+
+    /* ── Filter bar ─────────────────────────────────────────────────── */
+    #filters {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--border);
+      position: sticky; top: 56px; z-index: 90;
+      background: var(--paper); backdrop-filter: blur(10px);
+    }
+    .filter-row {
+      display: flex; align-items: center; flex-wrap: wrap; gap: 10px;
+    }
+    .filter-label {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em;
+      color: var(--ink-faint); margin-right: 4px;
+    }
+    .filter-select {
+      background: var(--paper-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 7px 28px 7px 11px;
+      font-size: 0.88rem; color: var(--ink);
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M2 4l4 4 4-4' stroke='%238a8070' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 8px center;
+      cursor: pointer;
+      transition: border-color 0.15s;
+    }
+    .filter-select:focus { border-color: var(--accent); outline: none; }
+    .search-wrap { position: relative; flex: 1; min-width: 200px; max-width: 320px; }
+    .search-input {
+      width: 100%;
+      background: var(--paper-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 7px 12px 7px 34px;
+      font-size: 0.88rem; color: var(--ink);
+      transition: border-color 0.15s;
+    }
+    .search-input:focus { border-color: var(--accent); outline: none; }
+    .search-icon {
+      position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+      color: var(--ink-faint); pointer-events: none;
+    }
+    .filter-clear {
+      background: none; border: 1px solid var(--border);
+      border-radius: var(--radius-sm); padding: 7px 12px;
+      font-family: "IBM Plex Mono", monospace; font-size: 0.78rem;
+      color: var(--ink-faint); cursor: pointer;
+      transition: all 0.15s;
+    }
+    .filter-clear:hover { border-color: var(--seal); color: var(--seal); }
+    .result-count {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.76rem; color: var(--ink-faint);
+      margin-left: auto;
+    }
+
+    /* ── View toggle ────────────────────────────────────────────────── */
+    .view-toggle { display: flex; gap: 4px; }
+    .view-btn {
+      background: none; border: 1px solid var(--border);
+      border-radius: var(--radius-sm); width: 32px; height: 32px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.9rem; color: var(--ink-soft);
+      cursor: pointer; transition: all 0.15s;
+    }
+    .view-btn.active { background: var(--seal-soft); border-color: var(--seal); color: var(--seal); }
+
+    /* ── Main content ───────────────────────────────────────────────── */
+    #main { padding: 28px 0 60px; }
+
+    /* ── Grid view ──────────────────────────────────────────────────── */
+    #cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    #cards-grid.list-view {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    /* ── Image card ─────────────────────────────────────────────────── */
+    .card {
+      background: var(--paper-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+    .card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+    .card-img-wrap {
+      width: 100%; aspect-ratio: 4/3;
+      background: var(--paper-deep);
+      overflow: hidden; position: relative;
+    }
+    .card-img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.35s;
+    }
+    .card:hover .card-img { transform: scale(1.04); }
+    .card-img-placeholder {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 2.4rem; color: var(--ink-faint);
+      background: linear-gradient(135deg, var(--paper-deep) 0%, var(--paper-card) 100%);
+    }
+    .card-regime {
+      position: absolute; top: 8px; right: 8px;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.65rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase;
+      padding: 3px 8px; border-radius: 4px;
+    }
+    .regime-normativo    { background: rgba(138,79,43,0.18); color: var(--accent); }
+    .regime-fundacional  { background: rgba(184,150,62,0.18); color: var(--gold); }
+    .regime-militar      { background: rgba(192,57,43,0.18); color: var(--seal); }
+    .regime-contra-alegoria { background: rgba(29,26,20,0.15); color: var(--ink-soft); }
+    .card-body { padding: 14px 16px 16px; }
+    .card-title {
+      font-size: 1rem; font-weight: 600; line-height: 1.25;
+      color: var(--ink); margin-bottom: 6px;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .card-meta {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.72rem; color: var(--ink-faint);
+      display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px;
+    }
+    .card-meta-sep { color: var(--border); }
+    .card-motif {
+      font-size: 0.88rem; color: var(--ink-soft); font-style: italic;
+      margin-bottom: 10px; line-height: 1.3;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .card-footer {
+      display: flex; align-items: center; justify-content: space-between;
+      border-top: 1px solid var(--border); padding-top: 10px; margin-top: 4px;
+    }
+    .card-score {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.7rem; color: var(--ink-faint);
+    }
+    .card-score span { color: var(--gold); font-weight: 500; }
+    .citation-btn {
+      background: none; border: 1px solid var(--border);
+      border-radius: 6px; padding: 4px 10px;
+      font-family: "IBM Plex Mono", monospace; font-size: 0.7rem;
+      color: var(--ink-faint); cursor: pointer;
+      transition: all 0.15s; display: flex; align-items: center; gap: 5px;
+    }
+    .citation-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* ── List card variant ──────────────────────────────────────────── */
+    #cards-grid.list-view .card {
+      display: flex; flex-direction: row; align-items: stretch;
+    }
+    #cards-grid.list-view .card-img-wrap {
+      width: 100px; aspect-ratio: unset; flex-shrink: 0;
+    }
+    #cards-grid.list-view .card-regime { top: 6px; right: 6px; }
+    #cards-grid.list-view .card-body {
+      flex: 1; display: flex; align-items: center; gap: 20px; padding: 12px 16px;
+    }
+    #cards-grid.list-view .card-title { margin-bottom: 2px; -webkit-line-clamp: 1; }
+    #cards-grid.list-view .card-motif { margin-bottom: 0; }
+    #cards-grid.list-view .card-footer { border-top: none; padding-top: 0; margin-top: 0; }
+
+    /* ── Skeleton ───────────────────────────────────────────────────── */
+    .skeleton-card {
+      background: var(--paper-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .skeleton-img { width: 100%; aspect-ratio: 4/3; }
+    .skeleton-body { padding: 14px 16px; }
+    .skeleton-line {
+      height: 1em; border-radius: 4px;
+      background: linear-gradient(90deg, var(--paper-deep) 25%, var(--paper-card) 50%, var(--paper-deep) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.4s infinite ease-in-out;
+    }
+    .skeleton-line.tall { height: 1.3em; }
+    .skeleton-line.short { width: 60%; }
+    .skeleton-line.shorter { width: 40%; }
+    .skeleton-line + .skeleton-line { margin-top: 8px; }
+    @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+
+    /* ── Empty state ────────────────────────────────────────────────── */
+    .empty-state {
+      grid-column: 1 / -1; text-align: center; padding: 80px 20px;
+    }
+    .empty-state svg { margin: 0 auto 16px; opacity: 0.3; }
+    .empty-title { font-size: 1.4rem; color: var(--ink-soft); margin-bottom: 6px; }
+    .empty-sub { font-size: 0.9rem; color: var(--ink-faint); font-family: "IBM Plex Mono", monospace; }
+
+    /* ── Citation popover ───────────────────────────────────────────── */
+    .popover-backdrop {
+      position: fixed; inset: 0; z-index: 200;
+      background: rgba(29,26,20,0.55); backdrop-filter: blur(4px);
+      display: none; align-items: flex-end; justify-content: center;
+      padding: 20px;
+    }
+    .popover-backdrop.open { display: flex; }
+    .popover {
+      background: var(--paper);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      width: 100%; max-width: 640px; max-height: 88vh;
+      overflow-y: auto;
+      animation: slideUp 0.22s cubic-bezier(0.16,1,0.3,1) both;
+    }
+    @keyframes slideUp { from { transform: translateY(18px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    .popover-header {
+      display: flex; align-items: flex-start; justify-content: space-between;
+      padding: 20px 24px 0; gap: 12px;
+    }
+    .popover-title { font-size: 1.25rem; font-weight: 600; line-height: 1.2; flex: 1; }
+    .popover-close {
+      background: none; border: none; font-size: 1.3rem;
+      color: var(--ink-faint); cursor: pointer; padding: 0 2px;
+      flex-shrink: 0; margin-top: -2px;
+    }
+    .popover-close:hover { color: var(--seal); }
+    .popover-body { padding: 16px 24px 24px; }
+    .popover-img-wrap {
+      width: 100%; max-height: 240px; overflow: hidden;
+      border-radius: var(--radius-sm); margin-bottom: 16px;
+      background: var(--paper-deep);
+    }
+    .popover-img { width: 100%; max-height: 240px; object-fit: contain; }
+    .field-group { margin-bottom: 14px; }
+    .field-label {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--ink-faint); margin-bottom: 3px;
+    }
+    .field-value { font-size: 1rem; color: var(--ink); line-height: 1.5; }
+    .field-value a { color: var(--accent); word-break: break-all; }
+    .popover-divider { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
+    .citation-block {
+      background: var(--paper-deep);
+      border-left: 3px solid var(--gold);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 12px 16px;
+      font-size: 0.92rem; line-height: 1.6;
+    }
+    .citation-copy-btn {
+      margin-top: 10px;
+      background: none; border: 1px solid var(--border);
+      border-radius: var(--radius-sm); padding: 6px 14px;
+      font-family: "IBM Plex Mono", monospace; font-size: 0.76rem;
+      color: var(--ink-soft); cursor: pointer;
+      transition: all 0.15s; display: inline-flex; align-items: center; gap: 6px;
+    }
+    .citation-copy-btn:hover { border-color: var(--gold); color: var(--gold); }
+    .lpai-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 8px; margin-top: 6px;
+    }
+    .lpai-item {
+      background: var(--paper-deep);
+      border-radius: var(--radius-sm);
+      padding: 8px 10px;
+    }
+    .lpai-name {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.65rem; color: var(--ink-faint); margin-bottom: 3px;
+    }
+    .lpai-val { font-size: 1.1rem; font-weight: 600; color: var(--accent); }
+    .popover-external {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-family: "IBM Plex Mono", monospace; font-size: 0.78rem;
+      color: var(--accent); margin-top: 6px;
+    }
+
+    /* ── Admin panel ────────────────────────────────────────────────── */
+    #admin-panel { display: none; padding: 32px 0 60px; }
+    #admin-panel.visible { display: block; }
+    .admin-title {
+      font-size: 1.6rem; font-weight: 600; margin-bottom: 6px;
+    }
+    .admin-subtitle {
+      font-family: "IBM Plex Mono", monospace; font-size: 0.8rem;
+      color: var(--ink-faint); margin-bottom: 28px;
+    }
+    .admin-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 20px;
+    }
+    @media (max-width: 700px) { .admin-grid { grid-template-columns: 1fr; } }
+    .admin-card {
+      background: var(--paper-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px 24px; box-shadow: var(--shadow-sm);
+    }
+    .admin-card-title {
+      font-size: 1.05rem; font-weight: 600; margin-bottom: 4px;
+    }
+    .admin-card-sub {
+      font-family: "IBM Plex Mono", monospace; font-size: 0.75rem;
+      color: var(--ink-faint); margin-bottom: 18px;
+    }
+    .upload-zone {
+      border: 2px dashed var(--border); border-radius: var(--radius-sm);
+      padding: 32px 20px; text-align: center; cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .upload-zone:hover, .upload-zone.drag-over {
+      border-color: var(--accent); background: var(--seal-soft);
+    }
+    .upload-zone input[type="file"] { display: none; }
+    .upload-icon { font-size: 2.2rem; margin-bottom: 10px; }
+    .upload-label { font-size: 0.95rem; color: var(--ink-soft); }
+    .upload-hint {
+      font-family: "IBM Plex Mono", monospace; font-size: 0.72rem;
+      color: var(--ink-faint); margin-top: 4px;
+    }
+    .btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      border-radius: var(--radius-sm); padding: 9px 18px;
+      font-family: "IBM Plex Mono", monospace; font-size: 0.82rem;
+      cursor: pointer; transition: all 0.15s; border: 1px solid transparent;
+    }
+    .btn-primary { background: var(--accent); color: #fff; border-color: var(--accent-deep); }
+    .btn-primary:hover { background: var(--accent-deep); }
+    .btn-secondary {
+      background: var(--paper-card); color: var(--ink-soft);
+      border-color: var(--border);
+    }
+    .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+    .btn-danger { background: var(--seal-soft); color: var(--seal); border-color: rgba(192,57,43,0.25); }
+    .btn-danger:hover { background: var(--seal); color: #fff; }
+    .btn:disabled { opacity: 0.45; cursor: not-allowed; }
+    .btn-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .import-mode {
+      display: flex; gap: 8px; margin-bottom: 14px;
+    }
+    .mode-radio { display: none; }
+    .mode-label {
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      padding: 6px 14px; font-family: "IBM Plex Mono", monospace;
+      font-size: 0.76rem; cursor: pointer; color: var(--ink-soft);
+      transition: all 0.15s;
+    }
+    .mode-radio:checked + .mode-label {
+      border-color: var(--accent); color: var(--accent); background: var(--seal-soft);
+    }
+    .import-log {
+      margin-top: 14px; border-radius: var(--radius-sm);
+      border: 1px solid var(--border); padding: 12px 14px;
+      font-family: "IBM Plex Mono", monospace; font-size: 0.76rem;
+      color: var(--ink-soft); background: var(--paper-deep);
+      max-height: 180px; overflow-y: auto; display: none;
+    }
+    .import-log.visible { display: block; }
+    .log-ok { color: var(--gold); }
+    .log-err { color: var(--seal); }
+    .preview-table-wrap {
+      margin-top: 14px; overflow-x: auto;
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      display: none; max-height: 260px; overflow-y: auto;
+    }
+    .preview-table-wrap.visible { display: block; }
+    .preview-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+    .preview-table th {
+      font-family: "IBM Plex Mono", monospace; font-size: 0.65rem;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      background: var(--paper-deep); color: var(--ink-faint);
+      padding: 8px 10px; text-align: left; white-space: nowrap;
+      position: sticky; top: 0;
+    }
+    .preview-table td {
+      padding: 7px 10px; border-top: 1px solid var(--border);
+      max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .preview-table tr:hover td { background: var(--seal-soft); }
+
+    /* Stats cards */
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; margin-top: 14px; }
+    .stat-box {
+      background: var(--paper-deep); border-radius: var(--radius-sm);
+      padding: 12px 14px;
+    }
+    .stat-box-n {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 1.4rem; font-weight: 500; color: var(--accent);
+    }
+    .stat-box-label {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.68rem; color: var(--ink-faint); margin-top: 2px;
+    }
+    .regime-bar { margin-top: 14px; }
+    .regime-row {
+      display: flex; align-items: center; gap: 10px; margin-bottom: 8px;
+      font-size: 0.88rem;
+    }
+    .regime-row-label { min-width: 130px; color: var(--ink-soft); }
+    .regime-fill {
+      height: 10px; border-radius: 4px; background: var(--accent);
+      transition: width 0.6s ease;
+    }
+    .regime-count {
+      font-family: "IBM Plex Mono", monospace; font-size: 0.72rem;
+      color: var(--ink-faint); min-width: 28px;
+    }
+
+    /* ── Load more ──────────────────────────────────────────────────── */
+    .load-more-wrap { text-align: center; padding: 32px 0; }
+
+    /* ── Footer ─────────────────────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px 0; text-align: center;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.73rem; color: var(--ink-faint);
+      line-height: 1.8;
+    }
+    footer a { color: var(--ink-faint); }
+    footer a:hover { color: var(--accent); }
+
+    /* ── Responsive ─────────────────────────────────────────────────── */
+    @media (max-width: 640px) {
+      .hero-title { font-size: 1.8rem; }
+      .filter-row { gap: 8px; }
+      .admin-grid { grid-template-columns: 1fr; }
+      #cards-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────────────────── -->
+<header id="site-header">
+  <div class="shell header-inner">
+    <a class="logo" href="#" onclick="showAtlas(); return false;" aria-label="Iconocracia Tropical">
+      <svg viewBox="0 0 40 40" width="36" height="36" fill="none" aria-hidden="true">
+        <circle cx="20" cy="20" r="18" stroke="var(--gold)" stroke-width="1.2" opacity="0.7"/>
+        <circle cx="20" cy="20" r="14" stroke="var(--gold)" stroke-width="0.5" opacity="0.4"/>
+        <!-- scales of justice -->
+        <line x1="20" y1="9" x2="20" y2="31" stroke="var(--accent)" stroke-width="1.4" stroke-linecap="round"/>
+        <line x1="13" y1="15" x2="27" y2="15" stroke="var(--accent)" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M13 15 L10 21 M10 21 Q13 22.5 16 21 M16 21 L13 15" stroke="var(--accent)" stroke-width="1" fill="none" stroke-linejoin="round"/>
+        <path d="M27 15 L24 21 M24 21 Q27 22.5 30 21 M30 21 L27 15" stroke="var(--accent)" stroke-width="1" fill="none" stroke-linejoin="round"/>
+        <!-- crown rays -->
+        <path d="M20 9 L18.5 6.5 L20 8.5 L21.5 6.5 Z" fill="var(--gold)"/>
+        <circle cx="20" cy="20" r="1.8" fill="var(--accent)" opacity="0.7"/>
+      </svg>
+      <div class="logo-text">
+        <div class="logo-title">Iconocracia Tropical</div>
+        <div class="logo-sub">Atlas Iconográfico · PPGD/UFSC</div>
+      </div>
+    </a>
+    <nav class="header-nav" aria-label="Navegação principal">
+      <button class="nav-btn active" id="nav-atlas" onclick="showAtlas()" data-testid="nav-atlas">Atlas</button>
+      <button class="nav-btn" id="nav-admin" onclick="showAdmin()" data-testid="nav-admin">Admin</button>
+      <button class="theme-btn" id="theme-toggle" onclick="toggleTheme()" aria-label="Alternar tema" data-testid="theme-toggle">🌙</button>
+    </nav>
+  </div>
+</header>
+
+<!-- ── Hero ────────────────────────────────────────────────────────────── -->
+<section id="hero" aria-label="Apresentação">
+  <div class="shell">
+    <p class="hero-eyebrow">Corpus ICONOCRACIA — PPGD/UFSC — 2026</p>
+    <h1 class="hero-title">Alegorias <em>femininas</em><br>na cultura jurídica</h1>
+    <p class="hero-desc">
+      Atlas público do corpus de pesquisa doutoral sobre figuras alegóricas femininas
+      em suportes jurídicos e estatais — moedas, selos, pinturas, monumentos e cartazes
+      (séculos XII–XX).
+    </p>
+    <div class="hero-stats" id="hero-stats" role="list" aria-label="Estatísticas do corpus">
+      <div class="stat-chip" role="listitem">
+        <span class="stat-n" id="stat-total">—</span>
+        <span class="stat-label">entradas</span>
+      </div>
+      <div class="stat-chip" role="listitem">
+        <span class="stat-n" id="stat-countries">—</span>
+        <span class="stat-label">países</span>
+      </div>
+      <div class="stat-chip" role="listitem">
+        <span class="stat-n" id="stat-range">—</span>
+        <span class="stat-label">séc. XII–XX</span>
+      </div>
+      <div class="stat-chip" role="listitem">
+        <span class="stat-n" id="stat-regimes">4</span>
+        <span class="stat-label">regimes LPAI</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Atlas view ──────────────────────────────────────────────────────── -->
+<div id="atlas-view" aria-label="Visualizações do Atlas">
+
+  <!-- Filter bar -->
+  <section id="filters" aria-label="Filtros">
+    <div class="shell filter-row" role="search">
+      <span class="filter-label" aria-hidden="true">Filtrar:</span>
+
+      <div class="search-wrap">
+        <svg class="search-icon" width="15" height="15" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M13 13l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <input class="search-input" id="filter-q" type="search" placeholder="Buscar título, motivo…"
+          aria-label="Buscar no corpus" data-testid="search-input" autocomplete="off" />
+      </div>
+
+      <select class="filter-select" id="filter-country" aria-label="País" data-testid="filter-country">
+        <option value="all">Todos os países</option>
+      </select>
+
+      <select class="filter-select" id="filter-medium" aria-label="Suporte" data-testid="filter-medium">
+        <option value="all">Todos os suportes</option>
+      </select>
+
+      <select class="filter-select" id="filter-regime" aria-label="Regime LPAI" data-testid="filter-regime">
+        <option value="all">Todos os regimes</option>
+      </select>
+
+      <select class="filter-select" id="filter-period" aria-label="Período" data-testid="filter-period">
+        <option value="all">Todos os períodos</option>
+      </select>
+
+      <button class="filter-clear" id="clear-filters" data-testid="clear-filters">✕ Limpar</button>
+
+      <div class="view-toggle" role="group" aria-label="Modo de visualização">
+        <button class="view-btn active" id="btn-grid" onclick="setView('grid')" aria-label="Grade" title="Grade" data-testid="view-grid">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true">
+            <rect x="0" y="0" width="6" height="6" rx="1"/><rect x="8" y="0" width="6" height="6" rx="1"/>
+            <rect x="0" y="8" width="6" height="6" rx="1"/><rect x="8" y="8" width="6" height="6" rx="1"/>
+          </svg>
+        </button>
+        <button class="view-btn" id="btn-list" onclick="setView('list')" aria-label="Lista" title="Lista" data-testid="view-list">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true">
+            <rect x="0" y="1" width="14" height="2" rx="1"/><rect x="0" y="6" width="14" height="2" rx="1"/>
+            <rect x="0" y="11" width="14" height="2" rx="1"/>
+          </svg>
+        </button>
+      </div>
+
+      <span class="result-count" id="result-count" aria-live="polite"></span>
+    </div>
+  </section>
+
+  <!-- Cards grid -->
+  <main id="main" class="shell" aria-label="Corpus">
+    <div id="cards-grid" role="list" aria-label="Entradas do corpus"></div>
+    <div class="load-more-wrap" id="load-more-wrap" style="display:none">
+      <button class="btn btn-secondary" id="load-more-btn" onclick="loadMore()" data-testid="load-more">
+        Carregar mais
+      </button>
+    </div>
+  </main>
+</div><!-- /atlas-view -->
+
+<!-- ── Admin panel ─────────────────────────────────────────────────────── -->
+<div id="admin-panel" class="shell" aria-label="Painel de administração">
+  <h2 class="admin-title">Painel de Administração</h2>
+  <p class="admin-subtitle">Gerencie o corpus sem tocar em código — importe, exporte e acompanhe estatísticas.</p>
+
+  <div class="admin-grid">
+
+    <!-- CSV Import -->
+    <div class="admin-card" aria-labelledby="import-title">
+      <h3 class="admin-card-title" id="import-title">📥 Importar CSV</h3>
+      <p class="admin-card-sub">Arraste ou selecione um arquivo CSV com os campos do corpus.</p>
+
+      <div class="import-mode" role="group" aria-label="Modo de importação">
+        <input type="radio" class="mode-radio" name="import-mode" id="mode-append" value="append" checked />
+        <label class="mode-label" for="mode-append">Acrescentar</label>
+        <input type="radio" class="mode-radio" name="import-mode" id="mode-replace" value="replace" />
+        <label class="mode-label" for="mode-replace">Substituir tudo</label>
+      </div>
+
+      <div class="upload-zone" id="upload-zone" role="button" tabindex="0"
+           aria-label="Zona de upload de CSV" data-testid="upload-zone"
+           onclick="document.getElementById('csv-file').click()"
+           ondragover="handleDragOver(event)"
+           ondragleave="handleDragLeave(event)"
+           ondrop="handleDrop(event)"
+           onkeydown="if(event.key==='Enter'||event.key===' ') document.getElementById('csv-file').click()">
+        <input type="file" id="csv-file" accept=".csv,text/csv" onchange="handleFileSelect(event)" data-testid="csv-file" />
+        <div class="upload-icon" aria-hidden="true">📄</div>
+        <div class="upload-label" id="upload-label-text">Clique ou arraste um arquivo CSV</div>
+        <div class="upload-hint">corpus_dataset.csv · máx. 10 MB</div>
+      </div>
+
+      <div class="preview-table-wrap" id="preview-wrap" aria-label="Prévia dos dados">
+        <table class="preview-table" id="preview-table" aria-label="Prévia do CSV">
+          <thead id="preview-thead"></thead>
+          <tbody id="preview-tbody"></tbody>
+        </table>
+      </div>
+
+      <div class="import-log" id="import-log" role="log" aria-live="polite"></div>
+
+      <div class="btn-row">
+        <button class="btn btn-primary" id="btn-commit" onclick="commitImport()" disabled data-testid="btn-commit">
+          ✓ Importar
+        </button>
+        <button class="btn btn-secondary" onclick="downloadTemplate()" data-testid="btn-template">
+          ⬇ Template CSV
+        </button>
+      </div>
+    </div>
+
+    <!-- Export & Stats -->
+    <div class="admin-card" aria-labelledby="export-title">
+      <h3 class="admin-card-title" id="export-title">📊 Exportar &amp; Estatísticas</h3>
+      <p class="admin-card-sub">Exporte o corpus ou visualize a distribuição atual.</p>
+
+      <div class="btn-row">
+        <button class="btn btn-secondary" onclick="exportCorpus()" data-testid="btn-export">⬇ Exportar CSV</button>
+        <button class="btn btn-danger" onclick="confirmClear()" data-testid="btn-clear">🗑 Limpar corpus</button>
+      </div>
+
+      <div id="admin-stats" class="stats-grid" aria-label="Estatísticas do corpus">
+        <!-- populated by JS -->
+      </div>
+      <div id="regime-chart" class="regime-bar" aria-label="Distribuição por regime"></div>
+    </div>
+
+  </div>
+</div><!-- /admin-panel -->
+
+<!-- ── Citation popover ─────────────────────────────────────────────────── -->
+<div class="popover-backdrop" id="citation-backdrop" role="dialog" aria-modal="true"
+     aria-labelledby="popover-title-text"
+     onclick="if(event.target===this) closePopover()">
+  <div class="popover" id="citation-popover">
+    <div class="popover-header">
+      <h2 class="popover-title" id="popover-title-text"></h2>
+      <button class="popover-close" onclick="closePopover()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="popover-body" id="popover-body"></div>
+  </div>
+</div>
+
+<!-- ── Footer ──────────────────────────────────────────────────────────── -->
+<footer>
+  <div class="shell">
+    Iconocracia Tropical · PPGD/UFSC · Florianópolis, Brasil<br>
+    Corpus em desenvolvimento · <a href="https://github.com/anavvanzin/iconocracy-corpus" target="_blank" rel="noopener">GitHub</a>
+    · <a href="/api/template" download>Template CSV</a>
+    · <a href="/api/export">Exportar corpus</a>
+  </div>
+</footer>
+
+<script>
+/* ── State ────────────────────────────────────────────────────────────── */
+let allEntries = [];
+let displayedCount = 0;
+const PAGE_SIZE = 48;
+let pendingFile = null;
+let pendingMapped = [];
+
+/* ── Boot ─────────────────────────────────────────────────────────────── */
+document.addEventListener("DOMContentLoaded", async () => {
+  await Promise.all([loadFilters(), loadStats(), loadEntries()]);
+  bindFilters();
+  applyTheme();
+});
+
+/* ── Theme ────────────────────────────────────────────────────────────── */
+function applyTheme() {
+  const saved = localStorage.getItem("atlas-theme") || "light";
+  document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("theme-toggle").textContent = saved === "dark" ? "☀" : "🌙";
+}
+function toggleTheme() {
+  const cur = document.documentElement.getAttribute("data-theme") || "light";
+  const next = cur === "dark" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", next);
+  localStorage.setItem("atlas-theme", next);
+  document.getElementById("theme-toggle").textContent = next === "dark" ? "☀" : "🌙";
+}
+
+/* ── View toggle ──────────────────────────────────────────────────────── */
+function setView(mode) {
+  const grid = document.getElementById("cards-grid");
+  document.getElementById("btn-grid").classList.toggle("active", mode === "grid");
+  document.getElementById("btn-list").classList.toggle("active", mode === "list");
+  grid.classList.toggle("list-view", mode === "list");
+}
+
+/* ── Navigation ───────────────────────────────────────────────────────── */
+function showAtlas() {
+  document.getElementById("atlas-view").style.display = "";
+  document.getElementById("admin-panel").classList.remove("visible");
+  document.getElementById("hero").style.display = "";
+  document.getElementById("filters").style.display = "";
+  document.getElementById("nav-atlas").classList.add("active");
+  document.getElementById("nav-admin").classList.remove("active");
+}
+function showAdmin() {
+  document.getElementById("atlas-view").style.display = "none";
+  document.getElementById("admin-panel").classList.add("visible");
+  document.getElementById("hero").style.display = "none";
+  document.getElementById("filters").style.display = "none";
+  document.getElementById("nav-atlas").classList.remove("active");
+  document.getElementById("nav-admin").classList.add("active");
+  loadAdminStats();
+}
+
+/* ── Data loading ─────────────────────────────────────────────────────── */
+async function loadFilters() {
+  try {
+    const data = await apiFetch("/api/filters");
+    populateSelect("filter-country", data.countries);
+    populateSelect("filter-medium", data.mediums);
+    populateSelect("filter-regime", data.regimes);
+    populateSelect("filter-period", data.periods);
+    document.getElementById("stat-countries").textContent = data.countries.length;
+  } catch(e) {
+    console.warn("Filters unavailable:", e);
+  }
+}
+
+function populateSelect(id, values) {
+  const sel = document.getElementById(id);
+  const defaultOpt = sel.options[0];
+  sel.innerHTML = "";
+  sel.appendChild(defaultOpt);
+  values.forEach(v => {
+    const opt = document.createElement("option");
+    opt.value = v; opt.textContent = v;
+    sel.appendChild(opt);
+  });
+}
+
+async function loadEntries(reset = true) {
+  if (reset) {
+    allEntries = [];
+    displayedCount = 0;
+    renderSkeletons();
+  }
+  const params = buildParams();
+  params.set("limit", "200");
+  params.set("offset", allEntries.length.toString());
+  try {
+    const data = await apiFetch("/api/entries?" + params.toString());
+    allEntries = reset ? data.entries : [...allEntries, ...data.entries];
+    document.getElementById("stat-total").textContent = data.total;
+    document.getElementById("result-count").textContent =
+      `${allEntries.length} / ${data.total} entrada${data.total !== 1 ? "s" : ""}`;
+    renderCards(reset);
+    const loadWrap = document.getElementById("load-more-wrap");
+    loadWrap.style.display = data.total > allEntries.length ? "" : "none";
+  } catch(e) {
+    renderEmpty("Erro ao carregar dados. Verifique a conexão.");
+    console.error(e);
+  }
+}
+
+async function loadMore() {
+  await loadEntries(false);
+}
+
+async function loadStats() {
+  try {
+    const data = await apiFetch("/api/stats");
+    document.getElementById("stat-total").textContent = data.total;
+  } catch(e) {}
+}
+
+async function loadAdminStats() {
+  try {
+    const data = await apiFetch("/api/stats");
+    const statsEl = document.getElementById("admin-stats");
+    statsEl.innerHTML = `
+      <div class="stat-box"><div class="stat-box-n">${data.total}</div><div class="stat-box-label">total entradas</div></div>
+      <div class="stat-box"><div class="stat-box-n">${data.byCountry.length}</div><div class="stat-box-label">países</div></div>
+      <div class="stat-box"><div class="stat-box-n">${data.byMedium.length}</div><div class="stat-box-label">suportes</div></div>
+      <div class="stat-box"><div class="stat-box-n">${data.byRegime.length}</div><div class="stat-box-label">regimes LPAI</div></div>
+    `;
+    const chartEl = document.getElementById("regime-chart");
+    const maxN = Math.max(...data.byRegime.map(r => r.n));
+    chartEl.innerHTML = data.byRegime.map(r => `
+      <div class="regime-row">
+        <span class="regime-row-label">${r.regime || "—"}</span>
+        <div class="regime-fill" style="width:${(r.n/maxN)*100}%"></div>
+        <span class="regime-count">${r.n}</span>
+      </div>
+    `).join("");
+  } catch(e) {}
+}
+
+/* ── Render cards ─────────────────────────────────────────────────────── */
+function renderCards(reset = true) {
+  const grid = document.getElementById("cards-grid");
+  const isListView = grid.classList.contains("list-view");
+  if (reset) grid.innerHTML = "";
+  if (!allEntries.length) {
+    renderEmpty("Nenhuma entrada encontrada para os filtros selecionados.");
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  allEntries.forEach((e, i) => {
+    const card = buildCard(e, isListView);
+    card.style.animationDelay = `${Math.min(i, 20) * 20}ms`;
+    card.style.animation = "fadeUp 0.3s ease both";
+    fragment.appendChild(card);
+  });
+  grid.appendChild(fragment);
+}
+
+function buildCard(e, isList) {
+  const div = document.createElement("div");
+  div.className = "card";
+  div.setAttribute("role", "listitem");
+  div.setAttribute("data-testid", `card-entry-${e.id}`);
+  div.setAttribute("tabindex", "0");
+  div.setAttribute("aria-label", e.title);
+  div.onclick = () => openPopover(e.id);
+  div.onkeydown = (ev) => { if (ev.key === "Enter" || ev.key === " ") openPopover(e.id); };
+
+  const regimeClass = e.regime_iconocratico
+    ? `regime-${e.regime_iconocratico.replace(/[^a-z-]/g,"")}`
+    : "";
+  const regimeBadge = e.regime_iconocratico
+    ? `<span class="card-regime ${regimeClass}">${e.regime_iconocratico}</span>`
+    : "";
+
+  const imgHTML = e.thumbnail_url
+    ? `<img class="card-img" src="${escHtml(e.thumbnail_url)}" alt="${escHtml(e.title)}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><div class="card-img-placeholder" aria-hidden="true" style="display:none">⚖</div>`
+    : `<div class="card-img-placeholder" aria-hidden="true">⚖</div>`;
+
+  const score = e.purificacao_composto != null
+    ? `<div class="card-score">LPAI <span>${parseFloat(e.purificacao_composto).toFixed(1)}</span></div>`
+    : "";
+
+  div.innerHTML = `
+    <div class="card-img-wrap">
+      ${imgHTML}
+      ${regimeBadge}
+    </div>
+    <div class="card-body">
+      <div class="card-title">${escHtml(e.title)}</div>
+      <div class="card-meta">
+        ${e.country_pt ? `<span>${escHtml(e.country_pt)}</span>` : ""}
+        ${e.year ? `<span class="card-meta-sep">·</span><span>${e.year}</span>` : ""}
+        ${e.medium_norm ? `<span class="card-meta-sep">·</span><span>${escHtml(e.medium_norm)}</span>` : ""}
+      </div>
+      ${e.motif_str ? `<div class="card-motif">${escHtml(e.motif_str)}</div>` : ""}
+      <div class="card-footer">
+        ${score}
+        <button class="citation-btn" onclick="openPopover('${e.id}'); event.stopPropagation();"
+                aria-label="Ver citação de ${escHtml(e.title)}" data-testid="citation-btn-${e.id}">
+          <svg width="11" height="11" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true">
+            <path d="M1 2h10v1H1zM1 5h8v1H1zM1 8h6v1H1z"/>
+          </svg>
+          Citar
+        </button>
+      </div>
+    </div>
+  `;
+  return div;
+}
+
+function renderSkeletons() {
+  const grid = document.getElementById("cards-grid");
+  grid.innerHTML = Array.from({length: 12}).map(() => `
+    <div class="skeleton-card" aria-hidden="true">
+      <div class="skeleton-line skeleton-img"></div>
+      <div class="skeleton-body">
+        <div class="skeleton-line tall"></div>
+        <div class="skeleton-line short" style="margin-top:8px"></div>
+        <div class="skeleton-line shorter" style="margin-top:8px"></div>
+      </div>
+    </div>
+  `).join("");
+}
+
+function renderEmpty(msg) {
+  document.getElementById("cards-grid").innerHTML = `
+    <div class="empty-state" role="status">
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" aria-hidden="true">
+        <circle cx="28" cy="28" r="26" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M28 18v14M28 36v2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <p class="empty-title">Corpus vazio</p>
+      <p class="empty-sub">${escHtml(msg)}</p>
+    </div>
+  `;
+}
+
+/* ── Popover ──────────────────────────────────────────────────────────── */
+const _popoverCache = {};
+async function openPopover(id) {
+  document.getElementById("popover-title-text").textContent = "Carregando…";
+  document.getElementById("popover-body").innerHTML = "<p style='padding:12px;color:var(--ink-faint)'>A carregar dados…</p>";
+  document.getElementById("citation-backdrop").classList.add("open");
+  document.body.style.overflow = "hidden";
+
+  let entry = _popoverCache[id];
+  if (!entry) {
+    try {
+      entry = await apiFetch(`/api/entries/${id}`);
+      _popoverCache[id] = entry;
+    } catch(e) {
+      document.getElementById("popover-body").innerHTML =
+        `<p style='color:var(--seal);padding:12px'>Erro ao carregar entrada.</p>`;
+      return;
+    }
+  }
+  renderPopover(entry);
+}
+
+function renderPopover(e) {
+  document.getElementById("popover-title-text").textContent = e.title || "Sem título";
+  const scores = [
+    ["Desincorporação","desincorporacao"],["Rigidez postural","rigidez_postural"],
+    ["Dessexualização","dessexualizacao"],["Uniformização facial","uniformizacao_facial"],
+    ["Heraldização","heraldizacao"],["Enquadramento arq.","enquadramento_arquitetonico"],
+    ["Apagamento narrativo","apagamento_narrativo"],["Monocromatização","monocromatizacao"],
+    ["Serialidade","serialidade"],["Inscrição estatal","inscricao_estatal"],
+  ];
+  const lpaiHTML = scores.filter(([,k]) => e[k] != null).map(([label, k]) => `
+    <div class="lpai-item">
+      <div class="lpai-name">${escHtml(label)}</div>
+      <div class="lpai-val">${parseFloat(e[k]).toFixed(1)}</div>
+    </div>
+  `).join("");
+
+  const citationText = e.citation_abnt || buildABNT(e);
+  const imgWrapHTML = e.thumbnail_url
+    ? `<div class="popover-img-wrap"><img class="popover-img" src="${escHtml(e.thumbnail_url)}" alt="${escHtml(e.title)}" loading="lazy" /></div>`
+    : "";
+  const extURL = e.url || e.source_archive;
+  const extHTML = extURL
+    ? `<a class="popover-external" href="${escHtml(extURL)}" target="_blank" rel="noopener">
+         <svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+           <path d="M5 2H2v8h8V7M7 1h4v4M11 1L6 6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+         </svg>
+         Acessar fonte original
+       </a>`
+    : "";
+
+  document.getElementById("popover-body").innerHTML = `
+    ${imgWrapHTML}
+    <div class="field-group">
+      <div class="field-label">Motivo(s)</div>
+      <div class="field-value">${escHtml(e.motif_str || "—")}</div>
+    </div>
+    <div class="field-group" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px">
+      <div>
+        <div class="field-label">País</div>
+        <div class="field-value">${escHtml(e.country_pt || "—")}</div>
+      </div>
+      <div>
+        <div class="field-label">Suporte</div>
+        <div class="field-value">${escHtml(e.medium_norm || "—")}</div>
+      </div>
+      <div>
+        <div class="field-label">Período</div>
+        <div class="field-value">${escHtml(e.period_norm || e.period || "—")}</div>
+      </div>
+    </div>
+    ${e.creator ? `<div class="field-group"><div class="field-label">Criador/Autor</div><div class="field-value">${escHtml(e.creator)}</div></div>` : ""}
+    ${e.source_archive ? `<div class="field-group"><div class="field-label">Acervo</div><div class="field-value">${escHtml(e.source_archive)}</div></div>` : ""}
+    ${e.description ? `<div class="field-group"><div class="field-label">Descrição iconográfica</div><div class="field-value" style="font-size:0.95rem;line-height:1.55">${escHtml(e.description)}</div></div>` : ""}
+    ${e.regime_iconocratico ? `<div class="field-group"><div class="field-label">Regime LPAI</div><div class="field-value"><span class="card-regime regime-${e.regime_iconocratico.replace(/[^a-z-]/g,'')}">${escHtml(e.regime_iconocratico)}</span></div></div>` : ""}
+    ${lpaiHTML ? `
+      <hr class="popover-divider" />
+      <div class="field-group">
+        <div class="field-label">Escores de Purificação LPAI</div>
+        <div class="lpai-grid">${lpaiHTML}</div>
+        ${e.purificacao_composto != null ? `<p style="margin-top:8px;font-family:'IBM Plex Mono',monospace;font-size:0.76rem;color:var(--ink-faint)">Composto: <strong style="color:var(--gold)">${parseFloat(e.purificacao_composto).toFixed(2)}</strong></p>` : ""}
+      </div>` : ""}
+    <hr class="popover-divider" />
+    <div class="field-group">
+      <div class="field-label">Referência ABNT NBR 6023:2025</div>
+      <div class="citation-block" id="citation-text-block">${escHtml(citationText)}</div>
+      <button class="citation-copy-btn" onclick="copyCitation()" data-testid="copy-citation">
+        <svg width="11" height="11" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+          <rect x="4" y="4" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.2"/>
+          <path d="M8 4V2a1 1 0 00-1-1H2a1 1 0 00-1 1v5a1 1 0 001 1h2" stroke="currentColor" stroke-width="1.2"/>
+        </svg>
+        Copiar referência
+      </button>
+    </div>
+    ${extHTML}
+    ${e.notes ? `<hr class="popover-divider"/><div class="field-group"><div class="field-label">Notas</div><div class="field-value" style="font-size:0.88rem;color:var(--ink-soft)">${escHtml(e.notes)}</div></div>` : ""}
+  `;
+}
+
+function buildABNT(e) {
+  const parts = [];
+  if (e.creator) parts.push(e.creator.toUpperCase() + ".");
+  if (e.title) parts.push(`<em>${e.title}</em>.`);
+  if (e.date) parts.push(`${e.date}.`);
+  if (e.medium) parts.push(`1 ${e.medium.toLowerCase()}.`);
+  if (e.source_archive) parts.push(e.source_archive + ".");
+  if (e.url) parts.push(`Disponível em: ${e.url}.`);
+  return parts.join(" ") || "Referência não disponível.";
+}
+
+function closePopover() {
+  document.getElementById("citation-backdrop").classList.remove("open");
+  document.body.style.overflow = "";
+}
+document.addEventListener("keydown", e => { if (e.key === "Escape") closePopover(); });
+
+function copyCitation() {
+  const text = document.getElementById("citation-text-block").textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.querySelector(".citation-copy-btn");
+    btn.textContent = "✓ Copiado!";
+    setTimeout(() => { btn.innerHTML = `<svg width="11" height="11" viewBox="0 0 12 12" fill="none"><rect x="4" y="4" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.2"/><path d="M8 4V2a1 1 0 00-1-1H2a1 1 0 00-1 1v5a1 1 0 001 1h2" stroke="currentColor" stroke-width="1.2"/></svg> Copiar referência`; }, 2000);
+  });
+}
+
+/* ── Filters ──────────────────────────────────────────────────────────── */
+function bindFilters() {
+  let debounce;
+  ["filter-country","filter-medium","filter-regime","filter-period"].forEach(id => {
+    document.getElementById(id).addEventListener("change", () => loadEntries());
+  });
+  document.getElementById("filter-q").addEventListener("input", () => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => loadEntries(), 320);
+  });
+  document.getElementById("clear-filters").addEventListener("click", () => {
+    ["filter-country","filter-medium","filter-regime","filter-period"].forEach(id => {
+      document.getElementById(id).value = "all";
+    });
+    document.getElementById("filter-q").value = "";
+    loadEntries();
+  });
+}
+
+function buildParams() {
+  const p = new URLSearchParams();
+  const q = document.getElementById("filter-q")?.value.trim();
+  if (q) p.set("q", q);
+  const country = document.getElementById("filter-country")?.value;
+  if (country && country !== "all") p.set("country", country);
+  const medium = document.getElementById("filter-medium")?.value;
+  if (medium && medium !== "all") p.set("medium", medium);
+  const regime = document.getElementById("filter-regime")?.value;
+  if (regime && regime !== "all") p.set("regime", regime);
+  const period = document.getElementById("filter-period")?.value;
+  if (period && period !== "all") p.set("period", period);
+  return p;
+}
+
+/* ── CSV import flow ──────────────────────────────────────────────────── */
+function handleDragOver(e) {
+  e.preventDefault();
+  document.getElementById("upload-zone").classList.add("drag-over");
+}
+function handleDragLeave() {
+  document.getElementById("upload-zone").classList.remove("drag-over");
+}
+function handleDrop(e) {
+  e.preventDefault();
+  document.getElementById("upload-zone").classList.remove("drag-over");
+  const f = e.dataTransfer.files[0];
+  if (f) processFile(f);
+}
+function handleFileSelect(ev) {
+  const f = ev.target.files[0];
+  if (f) processFile(f);
+}
+
+async function processFile(file) {
+  pendingFile = file;
+  document.getElementById("upload-label-text").textContent = `📄 ${file.name}`;
+  showLog(`Carregando prévia de ${file.name}…`, "ok");
+  const fd = new FormData();
+  fd.append("file", file);
+  try {
+    const data = await fetch("/api/import/preview", { method: "POST", body: fd }).then(r => r.json());
+    pendingMapped = data.mapped || [];
+    showPreview(data.preview || data.mapped || [], data.total);
+    if (data.errors?.length) {
+      data.errors.forEach(err => showLog(err, "err"));
+    }
+    showLog(`${data.total} linhas detectadas — clique em Importar para confirmar.`, "ok");
+    document.getElementById("btn-commit").disabled = false;
+  } catch(e) {
+    showLog("Erro ao processar CSV: " + e.message, "err");
+  }
+}
+
+function showPreview(rows, total) {
+  if (!rows.length) return;
+  const wrap = document.getElementById("preview-wrap");
+  const thead = document.getElementById("preview-thead");
+  const tbody = document.getElementById("preview-tbody");
+  const cols = Object.keys(rows[0]).slice(0, 8);
+  thead.innerHTML = `<tr>${cols.map(c => `<th>${c}</th>`).join("")}</tr>`;
+  tbody.innerHTML = rows.slice(0, 8).map(r =>
+    `<tr>${cols.map(c => `<td title="${escHtml(String(r[c]||""))}">${escHtml(String(r[c]||"").slice(0,60))}</td>`).join("")}</tr>`
+  ).join("");
+  if (total > 8) {
+    tbody.innerHTML += `<tr><td colspan="${cols.length}" style="text-align:center;color:var(--ink-faint);font-family:'IBM Plex Mono',monospace;font-size:0.72rem">…e mais ${total-8} linhas</td></tr>`;
+  }
+  wrap.classList.add("visible");
+}
+
+async function commitImport() {
+  if (!pendingFile) return;
+  const mode = document.querySelector('input[name="import-mode"]:checked')?.value || "append";
+  if (mode === "replace" && !confirm("Substituir todo o corpus? Esta ação não pode ser desfeita.")) return;
+  document.getElementById("btn-commit").disabled = true;
+  showLog("A importar…", "ok");
+  const fd = new FormData();
+  fd.append("file", pendingFile);
+  fd.append("mode", mode);
+  try {
+    const data = await fetch("/api/import/commit", { method: "POST", body: fd }).then(r => r.json());
+    showLog(`✓ ${data.imported} entradas importadas · ${data.skipped} ignoradas`, "ok");
+    if (data.errors?.length) data.errors.forEach(e => showLog(e, "err"));
+    await loadFilters();
+    await loadEntries();
+    await loadAdminStats();
+    pendingFile = null;
+  } catch(e) {
+    showLog("Erro na importação: " + e.message, "err");
+    document.getElementById("btn-commit").disabled = false;
+  }
+}
+
+function downloadTemplate() { window.location = "/api/template"; }
+function exportCorpus() { window.location = "/api/export"; }
+async function confirmClear() {
+  if (!confirm("Apagar TODAS as entradas do corpus? Ação irreversível.")) return;
+  await apiFetch("/api/entries/clear", { method: "DELETE" });
+  showLog("Corpus limpo.", "ok");
+  loadEntries();
+  loadAdminStats();
+}
+
+function showLog(msg, type) {
+  const log = document.getElementById("import-log");
+  log.classList.add("visible");
+  log.innerHTML += `<div class="log-${type}">${escHtml(msg)}</div>`;
+  log.scrollTop = log.scrollHeight;
+}
+
+/* ── Helpers ──────────────────────────────────────────────────────────── */
+async function apiFetch(url, opts = {}) {
+  const r = await fetch(url, opts);
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  return r.json();
+}
+
+function escHtml(s) {
+  if (!s && s !== 0) return "";
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+/* ── Fade-up animation ────────────────────────────────────────────────── */
+const style = document.createElement("style");
+style.textContent = "@keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }";
+document.head.appendChild(style);
+</script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+workflow_name: elicit-iconocracia-2026
+version: "1.0"
+criado: "2026-04-17"
+autor: Ana Vanzin
+descricao: >
+  Oito eixos temáticos para mapear bibliografia secundária da tese
+  ICONOCRACIA (alegoria feminina na cultura jurídica, 1800–2000).
+  Pivotado do workflow Elicit original — agora nativo via cascata
+  Semantic Scholar + OpenAlex + filtro disciplinar jurídico-penal.
+
+tool: native-cascade
+
+filtros_globais:
+  anos: [1800, 2025]
+  linguas: [en, fr, de, pt, es, it]
+  tipos: [journal_article, book_chapter, book, thesis]
+  disciplinary_filter: >
+    jurídico-penal / história do direito / iconografia jurídica.
+    ACEITAR: legal history, criminal law history, legal iconography,
+    Rechtsikonographie, art-and-law, visual jurisprudence, political
+    iconography quando aplicada a instituições jurídicas.
+    REJEITAR: antropologia pura, história da arte sem recorte jurídico,
+    sociologia do gênero sem dimensão jurídico-institucional,
+    estudos culturais puros.
+
+destinos:
+  vault_root: vault/pesquisa/elicit-iconocracia-2026/
+  papers_subdir: papers/
+  generated_subdir: _generated/
+  csv_export: _generated/extracao.csv
+
+clusters:
+  - id: 1
+    slug: alegoria-feminina-estado
+    titulo: Alegoria feminina e personificação do Estado
+    prioridade: alta
+    descricao: Marianne, Britannia, Germania, Columbia, La República — como corpo simbólico do Estado.
+    prompts:
+      - id: "1.1"
+        texto: Female allegorical personifications of the state (Marianne, Britannia, Germania, Columbia) in legal and political iconography 1800-1950
+      - id: "1.2"
+        texto: Gendered embodiment of sovereignty in republican iconography 19th-20th century
+      - id: "1.3"
+        texto: National allegory and constitutional symbolism female figures
+    limite_papers: 60
+    extraction_schema:
+      - nome: pais_analisados
+        tipo: lista
+        instrucao: List countries or nations whose allegorical figures the paper analyzes. If the abstract does not contain this information, return NULL.
+      - nome: periodo_coberto
+        tipo: texto_curto
+        instrucao: Historical period covered (e.g. "1848-1914"). If the abstract does not contain this information, return NULL.
+      - nome: dimensao_juridica
+        tipo: alta_media_baixa
+        instrucao: Rate how explicitly the paper engages with juridical/constitutional dimensions of the allegory. alta=central, media=mentioned, baixa=marginal. If the abstract does not contain this information, return NULL.
+      - nome: abordagem_metodologica
+        tipo: texto_curto
+        instrucao: Methodological approach (iconology, semiotics, legal history, Rechtsikonographie, etc). If the abstract does not contain this information, return NULL.
+    tags_vault: [pesquisa/eixo-1, tema/alegoria-estado]
+
+  - id: 2
+    slug: justitia-iconografia-jurisdicional
+    titulo: Justitia e iconografia jurisdicional
+    prioridade: alta
+    descricao: Figura da Justiça, balança, espada, venda — contrato visual da jurisdição.
+    prompts:
+      - id: "2.1"
+        texto: Iconography of Justitia Lady Justice scales blindfold sword legal symbolism
+      - id: "2.2"
+        texto: Rechtsikonographie legal iconography courtroom imagery judicial authority
+      - id: "2.3"
+        texto: Visual jurisprudence allegory of law female personification
+    limite_papers: 60
+    extraction_schema:
+      - nome: atributos_tratados
+        tipo: lista
+        instrucao: Which attributes of Justitia the paper discusses (scales, sword, blindfold, etc). If the abstract does not contain this information, return NULL.
+      - nome: corte_temporal
+        tipo: texto_curto
+        instrucao: Temporal scope. If the abstract does not contain this information, return NULL.
+      - nome: tradicao_teorica
+        tipo: texto_curto
+        instrucao: Theoretical tradition invoked (Panofsky, Warburg, Mondzain, etc). If the abstract does not contain this information, return NULL.
+    tags_vault: [pesquisa/eixo-2, tema/justitia, metodo/rechtsikonographie]
+
+  - id: 3
+    slug: endurecimento-regime-militar
+    titulo: Regime MILITAR — endurecimento iconocrático
+    prioridade: alta
+    descricao: Militarização, heraldicização, rigidez postural — terceiro regime iconocrático.
+    prompts:
+      - id: "3.1"
+        texto: Militarization of state iconography allegory fascism totalitarian aesthetics
+      - id: "3.2"
+        texto: Heraldic abstraction of national female allegories 1900-1945
+      - id: "3.3"
+        texto: Rigidity and desexualization in state imagery interwar period
+    limite_papers: 50
+    extraction_schema:
+      - nome: regimes_politicos
+        tipo: lista
+        instrucao: Political regimes covered (Vichy, Weimar, Estado Novo, etc). If the abstract does not contain this information, return NULL.
+      - nome: indicador_endurecimento
+        tipo: lista
+        instrucao: "Which of these purification indicators the paper discusses — desincorporação, rigidez_postural, dessexualização, uniformização_facial, heraldicização, enquadramento_arquitetônico, apagamento_narrativo, monocromatização, serialidade, inscrição_estatal. If the abstract does not contain this information, return NULL."
+    tags_vault: [pesquisa/eixo-3, tema/endurecimento, regime/militar]
+
+  - id: 4
+    slug: numismatica-selos-papel-moeda
+    titulo: Numismática, selos e papel-moeda
+    prioridade: media
+    descricao: Suportes serializados — circulação massiva da alegoria.
+    prompts:
+      - id: "4.1"
+        texto: Numismatic iconography female allegories coins banknotes 19th 20th century
+      - id: "4.2"
+        texto: Postage stamp iconography national allegory political symbolism
+      - id: "4.3"
+        texto: Paper money iconography state personification
+    limite_papers: 40
+    extraction_schema:
+      - nome: suporte
+        tipo: lista
+        instrucao: Material supports analyzed (moeda, selo, papel-moeda, medalha). If the abstract does not contain this information, return NULL.
+      - nome: corpus_empirico
+        tipo: sim_nao
+        instrucao: Does the paper analyze a concrete empirical corpus vs purely theoretical discussion. If the abstract does not contain this information, return NULL.
+    tags_vault: [pesquisa/eixo-4, suporte/numismatica]
+
+  - id: 5
+    slug: arquitetura-forense-monumentos
+    titulo: Arquitetura forense e monumentos
+    prioridade: media
+    descricao: Fachadas de tribunais, estátuas em praças públicas — iconocracia espacializada.
+    prompts:
+      - id: "5.1"
+        texto: Courthouse architecture female allegory facade sculpture
+      - id: "5.2"
+        texto: Public monument allegorical female figure civic space
+      - id: "5.3"
+        texto: Architectural iconography of justice palace of justice
+    limite_papers: 40
+    extraction_schema:
+      - nome: tipologia_espacial
+        tipo: texto_curto
+        instrucao: Type of space (courthouse, square, parliament, etc). If the abstract does not contain this information, return NULL.
+      - nome: localizacao
+        tipo: texto_curto
+        instrucao: Geographic location of the case studies. If the abstract does not contain this information, return NULL.
+    tags_vault: [pesquisa/eixo-5, suporte/monumento]
+
+  - id: 6
+    slug: contrato-sexual-visual
+    titulo: Contrato Sexual Visual (conceito da tese)
+    prioridade: alta
+    descricao: Diálogo com Pateman sem atribuir; interseção gênero × contrato × imagem.
+    prompts:
+      - id: "6.1"
+        texto: Gender sexual contract Pateman legal theory feminist critique
+      - id: "6.2"
+        texto: Visual contract political iconography gendered representation
+      - id: "6.3"
+        texto: Feminist legal iconography critique of sovereignty
+    limite_papers: 50
+    extraction_schema:
+      - nome: autoras_chave
+        tipo: lista
+        instrucao: Key feminist theorists cited (Pateman, Mondzain, Butler, etc). If the abstract does not contain this information, return NULL.
+      - nome: relaciona_imagem_e_contrato
+        tipo: sim_nao
+        instrucao: Does the paper explicitly relate images/iconography to contract/constitutional theory. If the abstract does not contain this information, return NULL.
+    tags_vault: [pesquisa/eixo-6, conceito/contrato-sexual-visual]
+
+  - id: 7
+    slug: colonialidade-do-ver
+    titulo: Colonialidade do ver e contra-alegoria
+    prioridade: media
+    descricao: Exportação imperial da alegoria + apropriações periféricas (Brasil, ex-colônias).
+    prompts:
+      - id: "7.1"
+        texto: Colonial iconography female allegory imperial export
+      - id: "7.2"
+        texto: Brazilian republican allegory A República nacional iconography
+      - id: "7.3"
+        texto: Postcolonial critique of national allegory visual sovereignty
+    limite_papers: 40
+    extraction_schema:
+      - nome: contexto_colonial
+        tipo: sim_nao
+        instrucao: Does the paper address colonial or postcolonial context. If the abstract does not contain this information, return NULL.
+      - nome: regiao
+        tipo: texto_curto
+        instrucao: Geographic region (Latin America, Africa, etc). If the abstract does not contain this information, return NULL.
+    tags_vault: [pesquisa/eixo-7, tema/colonialidade]
+
+  - id: 8
+    slug: metodo-warburg-panofsky
+    titulo: Método — Warburg, Panofsky, iconologia
+    prioridade: complementar
+    descricao: Base metodológica (Pathosformel, Zwischenraum, Nachleben, 3-levels).
+    prompts:
+      - id: "8.1"
+        texto: Aby Warburg Pathosformel Nachleben iconology methodology
+      - id: "8.2"
+        texto: Panofsky three levels iconographical iconological analysis
+      - id: "8.3"
+        texto: Warburg Bilderatlas Mnemosyne political iconography method
+    limite_papers: 30
+    extraction_schema:
+      - nome: conceito_warburguiano
+        tipo: lista
+        instrucao: Which Warburgian concepts (Pathosformel, Zwischenraum, Nachleben, Bilderatlas) the paper engages. If the abstract does not contain this information, return NULL.
+      - nome: aplicabilidade_juridica
+        tipo: alta_media_baixa
+        instrucao: Rate applicability of the method to legal iconography. If the abstract does not contain this information, return NULL.
+    tags_vault: [pesquisa/eixo-8, metodo/warburg, metodo/panofsky]
+
+sessoes:
+  - n: 1
+    eixos: [1, 2, 6]
+    tempo_min: 90
+  - n: 2
+    eixos: [3, 8]
+    tempo_min: 75
+  - n: 3
+    eixos: [4, 5, 7]
+    tempo_min: 90

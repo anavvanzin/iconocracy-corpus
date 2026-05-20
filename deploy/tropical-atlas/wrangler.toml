@@ -1,0 +1,18 @@
+name = "tropical-atlas"
+compatibility_date = "2026-04-01"
+pages_build_output_dir = "./public"
+
+# Reuses the existing D1 database from iconocracia-companion
+[[d1_databases]]
+binding = "CORPUS_DB"
+database_name = "iconocracy-corpus"
+database_id = "77c09df7-b510-48b3-8a39-94b39416aa2f"
+migrations_dir = "migrations"
+
+# Reuses existing R2 bucket for images
+[[r2_buckets]]
+binding = "CORPUS_IMAGES"
+bucket_name = "iconocracia-images"
+
+[observability]
+enabled = true

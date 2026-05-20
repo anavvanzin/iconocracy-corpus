@@ -1,0 +1,106 @@
+Legal Literacy and the Visual-Dogmatic Regimes: Shaping and Shattering Legal Knowledge in Brazil (1889–2023)  
+Project Summary for the Max Planck Academy   
+Ana Vitória Vanzin Mendes[^1]  
+1\. Project Rationale  
+Law is a knowledge-based social practice (Legendre 1997, 107\).[^2]. As legal historians, it is essential to adopt an interdisciplinary yet careful methodological approach to better understand the complexities that guide actors across time and space. (Duve 2022a, 2022b)[^3]. It defines legal literacy as a historically contingent competence through which actors recognise, interpret, and authorise Law via texts, images, objects, spaces, and rituals (Martyn and Sontag 2021, 697-748[^4]; Goodrich 2013, 90[^5]).  
+According to Pierre Legendre, the juridical order acts like a theatre of representation, where elements create coherence and facilitate social communication. This beauty of order is not just an abstract ideal but is expressed in tangible symbols of authority. Political statues play an important role in this process, serving as self-reflective messages that embody the community's values and aspirations. Instead of merely commemorating the past, these monuments articulate the Law's desire for permanence, allowing communities to aestheticize obedience and strengthen their collective identity within the structure of order.   
+Brazil offers a decisive case because republican legality developed through post-colonial translation of European iconographic repertoires, combined with persistent tensions between imported symbols and local social realities.. The attacks of 8 January 2023 in Brasília provide an empirical anchor. The episode involved a direct struggle over constitutional symbols, legal spaces, and institutional imagery (Souto 2023; STF 2023; Ramos 2023; Garrossini et al. 2023). Constitutional Law professor João Carlos Souto (2023) described the events as “the most serious attack on State institutions since re-democratization in 1985” and “the bitter fruit of a slow process that has taken hold in Brazilian society over these four years.”   
+ Two gestures condense the dynamic: the ritual appropriation of a replica of the 1988 Constitution (Folha de São Paulo 2025\) and the lipstick defacement of the Supreme Court’s allegorical statue of Justice, *A Justiça* (BBC News 2025). 
+
+2\. Research Questions
+
+1. How does a regime of visibility organise public recognition of constitutional authority in Brazil across key historical moments (1889–2023)?   
+2. How does post-colonial translation shape the stability or volatility of legal iconography in Brazil?   
+3. How does Tropical Iconocracy explain the fragility of imported legal symbols in Brazil’s republican and constitutional imagination?   
+4. How does the Visual Sexual Contract operate through feminised allegory (Justice/Republic/Nation) as a technology of legitimacy and exclusion?    
+5. How does the Theologico-Political Simulacrum of Legal Objects clarify the January 8 episode as a conflict over rival forms of legal authorisation in a digital-theological environment?    
+6. Which methods enable legal historians to reconstruct legal knowledge from visual, spatial, and material sources, including episodes of iconoclasm?   
+
+3\. Conceptual Structure  
+3.1 Legal literacy and regimes of visibility  
+Legal literacy refers to competence in the public semiotics of normativity. Authority gains recognisability through emblematic images, institutional spaces, ceremonial scripts, and legal artefacts that circulate in everyday life (Resnik and Curtis 2011; Mulcahy 2011; Goodrich 2013). Legal images operate as deontic media (Siniscalchi 2019, 150-159): they perform normative work and orient expectations about legality. The Law, in this sense, both possesses and is possessed by its images.  
+3.2 Tropical Iconocracy  
+Tropical Iconocracy names the post-colonial volatility of legal iconographies that travel from Europe into Brazil and acquire unstable meanings through translation and contestation. The Republic’s 1889 origin in elite and military negotiation produced a symbolic deficit, and early republican iconography often struggled to create broad civic attachment (Carvalho 2017; Jurt 2012). Popular reception re-coded official allegories, which reveals a fragile regime of visibility (Carvalho 1990).
+
+Agamben’s diagnosis of capitalism as a force that produces the Unprofanable builds on a fragment written by Walter Benjamin in 1921, titled “Capitalism as Religion.” Benjamin argues that capitalism is a “religion of pure cult, without dogma” (Benjamin 1996, 288). Unlike other religions that offer a path to redemption or atonement, capitalism is a cult that only creates guilt. “Capitalism is probably the first instance of a cult that creates guilt, not atonement… A vast sense of guilt that is unable to find relief seizes on the cult, not to atone for this guilt but to make it universal” (Benjamin 1996, 288-289). This religion of permanent debt offers no salvation, only destruction.   
+As pointed out by Kibuuka (2020, 289), the neoliberal agenda became englated to Bolsonarism (Py 2019, 2020). Prosperity Theology within Neo-Pentecostal churches compellingly connects spiritual and market success, framing the neoliberal agenda as vital to Christian anthropology rather than mere class warfare.
+
+This framework distorts legal literacy by portraying rights as barriers to economic salvation through deceptive dichotomies like jobs versus human rights.    
+It is a theological concidence, of some kind, that Jair Bolsonaro's full name is Jair *Messias* Bolsonaro. Bolsonarism effectively positions Jair Bolsonaro as a messianic figure validating Paulo Guedes's neoliberal agenda while navigating moral, nationalist, and economic realms.   
+ (Benjamin 1991). Neoliberalism promotes the corrosion of solidarity in the name of the belief in the self-regulation of the market,” It is, for Benjamin, “the expansion of despair, until despair becomes a religious state of the world” (Benjamin 1996, 289). The January 8 insurrection can be un­derstood in this context. The “spiritual warfare” framework is not an act of profanation against the secular state; it is the creation of a rival cult. Faced with the despair of a system that offers no redemption, this movement invents its own theology of guilt (demonizing its enemies) and deliverance (through a messianic leader)[^6]. It does not seek to return the sacred symbols of law to common use but to destroy them in the name of a new, competing sacrality.   
+The specific set of sacred legal objects contested on January 8 has a genealogy that clarifies why certain icons became targets. The concept of Tropical Iconocracy theorizes the post-colonial instability of Brazil’s imported legal iconography: the Brazilian Republic, proclaimed in 1889, pursued legitimacy through European visual and verbal repertories, with a marked French inflection. The national motto, “Ordem e Progresso,” was directly inspired by Auguste Comte’s positivism. Comte himself envisioned a feminine allegory for Humanity: “*La représentation la plus complète de l'Humanité doit consister dans une femme de trente ans, tenant un enfant dans ses bras*” (Comte 1966, 96).   
+However, as historian José Murilo de Carvalho documents, this attempt at symbolic transplantation resulted in an “estrondoso fracasso” (resounding failure) (Carvalho 1990, 88–89). The European-derived female allegory failed to resonate, and the intended virgin-mother figure was quickly resignified in popular caricatures as a prostitute, mocked “mesmo pelos que inicialmente tinham apoiado o novo regime” (even by those who had initially supported the new regime) (Carvalho 1990, 89). This fragile, contested sacred order, built on borrowed and poorly integrated symbols, forms the basis of Tropical Iconocracy.  
+3.3 Visual Sexual Contract  
+The idea of a Visual aspect of the Sexual Contract extends feminist contract theory to legal iconography. Modern states routinely render abstract authority through feminised bodies, —Justice, Republic, Nation—, while institutional power remains masculinised in structure and office-holding (Pateman 1988; Warner 1985; Landes 2003). The feminised allegory supplies a public interface for authority and also reflects exclusion from political agency (Warner 1985; Fruzzetti and Pérez 2002). This lens clarifies why attacks on feminised legal symbols carry gendered meanings and why humiliation of allegory becomes a route for political contest.  
+In the early twenty-first century, this inherited symbolic inventory entered a new cycle of contestation as the Bolsonaro government presented itself as custodian of moral values long associated with Brazilian Protestantism since the nineteenth century, foregrounding the defense of the family, treating folklore and national festivals as sites of profanity, stigmatizing African and Indigenous cultural forms, and advancing a punitive anti-drug discourse (Kibuuka 2020, 289).   
+3.4 Theologico-Political Simulacrum of Legal Objects  
+This merged concept integrates political theology and simulation. Political theology provides grounds for sovereignty and authority that adopt theological forms (Schmitt 2005). Simulation theory clarifies how copies and media saturation reorder relations between representation and reality (Baudrillard 1994). In contemporary Brazilian networks, digital religion and “spiritual warfare” discourse often frame institutions as sacred or demonic and ground legitimacy in divine mandate and charismatic authorisation (Løland 2020; The Revealer 2023). Within this field, legal objects (replicas, flags, constitutions, monuments) serve as privileged carriers of “true Law.” Object-centred authorisation relocates legality from procedures to things, and ritual acts toward artefacts enact claims to sovereignty (Douzinas 2000; Baudrillard 1994).
+
+4\. Historical Scope and Empirical Anchor  
+4.1 1889 and the early Republic: allegory, positivism, and translation  
+Brazil’s post-1889 regime sought legitimacy through symbolic repertoires that drew on European republican iconography and positivist political language (Comte 1966; Jurt 2012). The regime faced a civic-symbolic challenge because the Republic lacked a broad revolutionary scene of origin and relied on elite production of emblems and myths (Carvalho 2017). Carvalho’s account of popular caricature and resignification shows how official allegory met recoding and ridicule, revealing instability at the core of the regime of visibility (Carvalho 1990).  
+4.2 Brasília: modernist abstraction and a new visual grammar of authority  
+The construction of Brasília transformed the visual-legal order through modernist abstraction and monumental spatial design (Holston 1989). The Praça dos Três Poderes stages the separation of powers through architectural form and civic choreography. In this setting, the judiciary’s emblematic figure becomes Alfredo Ceschiatti’s *A Justiça* (1961), a blindfolded granite allegory that places authority in abstraction and scale rather than narrative scene (Holston 1989; Mulcahy 2011). This shift changes the competence required for legal literacy, since recognition now depends on spatial and formal cues embedded in the built environment (Mulcahy 2011; Resnik and Curtis 2011).  
+4.3 8 January 2023: literacy event and counter-authorisation  
+On 8 January 2023, rioters attacked legal institutions and symbol systems in Brasília. Contemporary accounts frame the episode as an assault on democratic institutions that drew energy from disinformation, electoral denialism, and transnational repertoires of anti-institutional mobilisation (Souto 2023; Garrossini et al. 2023; de Ramos 2023; STF 2023).  
+Two episodes anchor the analysis:
+
+1. Constitution replica as juridical simulacrum and legal object-authorisation. A rioter seized a replica of the 1988 Constitution and treated it as the authentic Constitution, which exemplifies the copy’s elevation within a rival order of legality (Folha de São Paulo 2025; Baudrillard 1994).  
+2. Defacement of *A Justiça* as gendered counter-literacy. Débora Rodrigues used lipstick to inscribe “Perdeu, Mané” on the statue, an act that highlights the feminised surface through which abstract legality becomes visible and contestable (BBC News 2025; Warner 1985; Pateman 1988; Fruzzetti and Pérez 2002).
+
+5\. Methodology and Conclusion   
+This study establishes a methodology that integrates legal iconology, forensic architecture, and political theology. By treating the vandalised artefacts of January 8 as primary sources, it demonstrates how legal historians can interpret material evidence alongside textual statutes to assess the resilience and fragility of the legal order. The objective is to provide a comprehensive analysis of the January 8, 2023, attacks from a legal iconological perspective, moving beyond immediate political commentary to situate the event within the longue durée of Brazilian visual culture. The examination of the vandalised Justice statue and the targeted symbols of sovereignty offers a novel interpretation of the crisis as a collapse of legal literacy and a rupture in the economy of images.   
+The vandalism of January 8, 2023 belongs to a more prolonged struggle over the visibility of constitutional authority rather than to a self-contained episode (Reuters 2024). In a Benjaminian register, political tendency becomes legible at points of rupture, when what remains latent in art is forced into public readability (Benjamin 2005, 26). That logic matters for legal literacy because Law stabilises itself through a regime of visibility in which images and monuments train recognition of legitimacy, including the allegory of Justice as a condensed, publicly readable claim about what Law is. The sequence tightened on November 13, 2024, when Francisco Wanderley Luiz detonated explosives at the *Praça dos Três Poderes* near the STF and died at the scene; the Federal Police later concluded he acted alone and identified political extremism as the motive (Polícia Federal 2025).   
+In the residence he occupied previous to his suicide-terrorist-attack, investigators and press reportsers found a lipstick message linking his act to January 8 and to Débora Rodrigues’s earlier lipstick inscription on the statue *A Justiça*: “Débora Rodrigues, please do not waste lipstick. That is for making women beautiful. For a \[*insult in the original*\] statue, one uses TNT.” (Rosa, 2024). 
+
+Works Cited  
+Agulhon, Maurice. 1981\. *Marianne into Battle*. Cambridge: Cambridge University Press.  
+Baudrillard, Jean. 1994 \[1981\]. *Simulacra and Simulation*. Ann Arbor: University of Michigan Press.  
+Benton, Lauren. 2002\. *Law and Colonial Cultures*. Cambridge: Cambridge University Press.  
+BBC News. 2025\. “Woman who used lipstick to write on statue during Brazil unrest jailed for 14 years.” April 26, 2025\.  
+Carvalho, José Murilo de. 1990\. *A Formação das Almas*. São Paulo: Companhia das Letras.  
+Carvalho, José Murilo de. 2017\. *A Formação das Almas*. 2nd ed. Rio de Janeiro: Edições SESC.  
+Comte, Auguste. 1966 \[1852\]. *Catéchisme positiviste*. Paris: Garnier-Flammarion.  
+de Ramos, Elival da Silva. 2023\. “Brazil’s Democracy under Siege.” *Georgetown Journal of International Affairs* 24 (1): 125–131.  
+de Villiers-Human, Suzanne. 2022\. “Iconoclasm, Violent Interpretation, and the Desiring Image.” *Critical Arts* 36 (5–6): 1–16.  
+Douzinas, Costas. 2000\. “The Legality of the Image.” *The Modern Law Review* 63 (6): 813–830.  
+Duve, Thomas. 2022\. “Legal History as a History of the Translation of Knowledge of Normativity.” MPI Research Paper Series 16\.  
+Duve, Thomas. 2024\. “Introduction.” In *The Cambridge History of Latin American Law in Global Perspective*, 1–30. Cambridge: Cambridge University Press.  
+Folha de São Paulo. 2025\. “PF prende homem que furtou réplica da Constituição nos atos golpistas de 8/1.” January 14, 2025\.  
+Fruzzetti, Lina M., and Rosa Maria Pérez. 2002\. “The Gender of the Nation.” *Etnográfica* 6 (1): 77–101.  
+Garrossini, Daniela Fávaro, et al. 2023\. “Social Networks… January 8, 2023, in Brazil.” *Revista Latinoamericana de Ciencias de la Comunicação* 22 (43): 189–204.  
+Goodrich, Peter. 2013\. *Legal Emblems and the Art of Law*. Cambridge: Cambridge University Press.  
+Holston, James. 1989\. *The Modernist City*. Chicago: University of Chicago Press.  
+Kibuuka, Brian Gordon Lutalo. 2020\. “Complicity and Synergy Between Bolsonaro and Brazilian Evangelicals in COVID-19 Times: Adherence to Scientific Negationism for Political-Religious Reasons.” International Journal of Latin American Religions 4: 288–317. https://doi.org/10.1007/s41603-020-00124.  
+Jurt, Joseph. 2012\. “O Brasil: um Estado-nação a ser construído.” *Mana* 18 (3): 471–509.  
+Landes, Joan B. 2003\. *Visualising the Nation*. Ithaca: Cornell University Press.  
+Løland, Ole Jakob. 2020\. “The Political Conditions and Theological Foundations of the New Christian Right in Brazil.” *Iberoamericana* 49 (1): 129–140.  
+Mondzain, Marie-José. 2005\. *Image, Icon, Economy*. Stanford: Stanford University Press.  
+Mulcahy, Linda. 2011\. *Legal Architecture*. Abingdon: Routledge.  
+Panofsky, Erwin. 1939\. *Studies in Iconology*. Oxford: Oxford University Press.  
+Pateman, Carole. 1988\. *The Sexual Contract*. Stanford: Stanford University Press.  
+Ramos, Elival da Silva. 2023\. "Brazil's Democracy under Siege: January 8th and the Threat of a New Military Dictatorship." Georgetown Journal of International Affairs 24 (1): 125–131.   
+Resnik, Judith, and Dennis Curtis. 2011\. *Representing Justice*. New Haven: Yale University Press.  
+João Rosa, “Em recado no espelho, homem-bomba fez referência à mulher que pichou estátua do STF no 8 de janeiro,” CNN Brasil, November 14, 2024, accessed January 26, 2026, https://www.cnnbrasil.com.br/politica/em-recado-no-espelho-homem-bomba-fez-referencia-a-mulher-que-pichou-estatua-do-stf-no-8-de-janeiro.   
+Schmitt, Carl. 2005 \[1922\]. *Political Theology*. Chicago: University of Chicago Press.  
+Siniscalchi, Guglielmo. 2019\. “Deontic Visual Signs. Between Normative Force and Constitutive Power”. Phenomenology and Mind, no. 17 (December):150-59. https://doi.org/10.13128/pam-8033.   
+STF. 2023\. “Relatório sobre os eventos de 8 de janeiro de 2023.” Brasília.  
+Souto, João Carlos. 2023\. “Brazil Dispatch: ‘Brazil Today Witnessed the Most Serious Attack on State Institutions since Redemocratization in 1985.’” JURIST, January 2023\. Accessed January 12, 2025\. https://www.jurist.org/news/2023/01/brazil-dispatch-brazil-today-witnessed-the-most-serious-attack-on-state-institutions-since-redemocratization-in-1985/.   
+The Revealer. 2023\. “The Brazil Riots, Bolsonaro, and Spiritual Warfare.” January 12, 2023\.  
+Wagner, Anne, and Richard K. Sherwin, eds. 2014\. *Law, Culture and Visual Studies*. Dordrecht: Springer.  
+Warburg, Aby. 1999\. *The Renewal of Pagan Antiquity*. Los Angeles: Getty Research Institute.  
+Warner, Marina. 1985\. *Monuments and Maidens*. London: Weidenfeld and Nicolson.  
+   
+
+
+[^1]:  PhD Candidate in Law, Federal University of Santa Catarina, Graduate Program in Law (PPGD/UFSC), Research Line: Historicism, Critical Knowledge and Social Control. Supervised by Professor Arno Dal Ri Júnior, Ph.D
+
+[^2]:  
+
+[^3]:  Duve, by using knowledge of normativity rather than Law or Legal Knowledge, captures the full spectrum of law as a social construction rather than a fixed objective reality.   See Duve 2022a, 2022b. 
+
+[^4]:  Martyn and Sontag use the concept of *longee durée,* over the course of an analysis of the criminal procedural law systems, pose that “historical analysis, therefore, needs to account for the multiple temporalities that coexist in a given space and time. The apparently frenetic changes in certain strata should not obscure the reiteration of older and more enduring structures; on the other hand, even at the levels where change is very slow, there is movement, there is articulation with the transformations going on in other temporalities.” See Martyn, Georges, e Ricardo Sontag. 2021\. “Sobre a (im)possível Modernidade Do Processo Penal. Uma Perspectiva histórica Comparada (Editorial Do Dossiê ‘História Do Processo Penal Na modernidade’)”. Revista Brasileira De Direito Processual Penal 7 (2), 735\. 
+
+[^5]: The image constitutes a foundational structure of both reality and perception, transcending mere reflection to serve as a prerequisite for coherence. Goodrich posits that the lack of images would yield "*nothing to see, only an undifferentiated mêlée of disparate elements and powers*." Consequently, the image establishes the "*imaginary ordering of being*," thereby translating and instituting "*life in a form that can be perceived*.’ See Goodrich, Peter. 2013, 90\. 
+
+[^6]:  Formiga, Eduarda, Cynthia Mara Miranda, and Eder Ahmad Charaf Eddine. 2024\. “JANUARY 8, 2023: Democracy and Resistance in Live News Coverage”. Brazilian Journalism Research 20 (3):e1684. https://doi.org/10.25200/BJR.v20n3.2024.1684.

@@ -1,0 +1,24 @@
+---
+# Pandoc metadata for thesis compile
+#
+# nocite '@*' forces Pandoc citeproc to include ALL entries from references.bib
+# in the References section, regardless of whether the manuscript text uses
+# [@key] Pandoc-style citations or (AUTOR, ano) ABNT-style in-text citations.
+#
+# Rationale: the manuscript uses ABNT in-text style `(AUTOR, ano, p. X)` — voz
+# acadêmica direta, não Pandoc-cite. Without nocite, citeproc would never
+# "link" the 38 .bib entries to the output, and the Referências section would
+# be empty. With nocite '@*', every entry lands in Referências, sorted per
+# abnt.csl rules.
+#
+# Tradeoff: se o .bib contiver entries não-citadas no texto, elas ainda
+# aparecem nas Referências. Mitigação: bib curado em 2026-04-15 (Fase 0 Task 1)
+# cobre apenas citações extraídas de Intro/Ch1/Ch2. Conforme outros capítulos
+# forem escritos, novas entries serão adicionadas; entries órfãs devem ser
+# removidas via `abnt-checker` pass.
+#
+# Long-term tech-debt: converter `(AUTOR, ano)` → `[@key]` no manuscrito
+# habilita validação text-level automática (Pandoc erra em [@key] sem bib match).
+# Adiado para Fase 2.
+nocite: '@*'
+---

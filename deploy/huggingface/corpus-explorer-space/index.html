@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iconocracy Corpus Explorer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper: #f5efe3;
+      --paper-deep: #efe4d2;
+      --ink: #1d2330;
+      --ink-soft: #495469;
+      --accent: #8a5b2f;
+      --accent-deep: #5f2d1a;
+      --gold: #bc9a43;
+      --border: rgba(29, 35, 48, 0.12);
+      --card: rgba(255, 255, 255, 0.78);
+      --shadow: 0 18px 45px rgba(29, 35, 48, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Cormorant Garamond", Georgia, serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(188, 154, 67, 0.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(95, 45, 26, 0.12), transparent 32%),
+        linear-gradient(180deg, #f7f1e6 0%, #f0e6d4 100%);
+    }
+
+    .shell {
+      max-width: 1380px;
+      margin: 0 auto;
+      padding: 28px 20px 40px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .hero-card,
+    .panel,
+    .metric {
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .hero-card {
+      border-radius: 28px;
+      padding: 24px;
+    }
+
+    .eyebrow,
+    .meta-inline,
+    .pill,
+    button,
+    select,
+    input,
+    .detail-label,
+    .footnote {
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      gap: 10px;
+      align-items: center;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent-deep);
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2.2rem, 5vw, 4.5rem);
+      line-height: 0.95;
+      font-weight: 600;
+    }
+
+    .hero-copy {
+      font-size: 1.2rem;
+      line-height: 1.45;
+      max-width: 52rem;
+      color: var(--ink-soft);
+      margin: 0;
+    }
+
+    .meta-inline {
+      margin-top: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 12px;
+      color: var(--ink-soft);
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: rgba(138, 91, 47, 0.08);
+      border: 1px solid rgba(138, 91, 47, 0.16);
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .metric {
+      border-radius: 22px;
+      padding: 18px;
+    }
+
+    .metric-label {
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      margin-bottom: 8px;
+    }
+
+    .metric-value {
+      font-size: clamp(1.7rem, 3vw, 2.6rem);
+      line-height: 1;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .metric-note {
+      font-size: 0.95rem;
+      color: var(--ink-soft);
+    }
+
+    .filters {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .filter {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .filter label {
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+
+    input,
+    select,
+    button {
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      padding: 12px 14px;
+      font-size: 13px;
+      color: var(--ink);
+      background: rgba(255, 255, 255, 0.85);
+    }
+
+    input:focus,
+    select:focus {
+      outline: 2px solid rgba(188, 154, 67, 0.25);
+      border-color: rgba(188, 154, 67, 0.4);
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-columns: 1.25fr 0.75fr;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .panel {
+      border-radius: 28px;
+      padding: 18px;
+    }
+
+    .panel-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: baseline;
+      margin-bottom: 14px;
+    }
+
+    .panel-title {
+      font-size: 1.35rem;
+      margin: 0;
+    }
+
+    .panel-subtitle {
+      margin: 0;
+      font-size: 12px;
+      color: var(--ink-soft);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    thead th {
+      text-align: left;
+      padding: 0 0 10px;
+      border-bottom: 1px solid var(--border);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+    }
+
+    tbody td {
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(29, 35, 48, 0.08);
+      vertical-align: top;
+    }
+
+    tbody tr {
+      cursor: pointer;
+      transition: background-color 0.15s ease;
+    }
+
+    tbody tr:hover,
+    tbody tr.active {
+      background: rgba(188, 154, 67, 0.08);
+    }
+
+    .title-cell {
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+
+    .meta-cell {
+      color: var(--ink-soft);
+      font-size: 0.96rem;
+    }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .detail-block {
+      padding: 12px 14px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.65);
+      border: 1px solid rgba(29, 35, 48, 0.08);
+    }
+
+    .detail-label {
+      display: block;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      margin-bottom: 6px;
+    }
+
+    .detail-value {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .detail-body {
+      margin-top: 12px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+
+    .citation {
+      margin-top: 14px;
+      padding: 14px;
+      border-radius: 18px;
+      background: rgba(29, 35, 48, 0.03);
+      border: 1px solid rgba(29, 35, 48, 0.08);
+    }
+
+    .citation pre {
+      white-space: pre-wrap;
+      margin: 0 0 10px;
+      font-size: 12px;
+      line-height: 1.6;
+      color: var(--ink-soft);
+    }
+
+    .button-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    button {
+      cursor: pointer;
+      background: var(--accent-deep);
+      color: #fff;
+      border: none;
+    }
+
+    button.secondary {
+      background: rgba(138, 91, 47, 0.08);
+      color: var(--accent-deep);
+      border: 1px solid rgba(138, 91, 47, 0.2);
+    }
+
+    a {
+      color: var(--accent-deep);
+    }
+
+    .empty,
+    .status {
+      border-radius: 18px;
+      padding: 14px;
+      font-size: 0.98rem;
+      line-height: 1.5;
+      background: rgba(255, 255, 255, 0.56);
+      border: 1px solid rgba(29, 35, 48, 0.08);
+      color: var(--ink-soft);
+    }
+
+    .footnote {
+      margin-top: 18px;
+      font-size: 12px;
+      color: var(--ink-soft);
+    }
+
+    @media (max-width: 1080px) {
+      .hero,
+      .workspace,
+      .metrics,
+      .filters {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="hero">
+      <article class="hero-card">
+        <div class="eyebrow">ICONOCRACY · PPGD/UFSC · Read-only explorer</div>
+        <h1>Female allegory, frozen as a public research surface.</h1>
+        <p class="hero-copy">
+          Browse the published corpus snapshot, filter by country, regime, or support,
+          inspect thesis metadata, and copy ready-to-use citations without touching the working repo.
+        </p>
+        <div class="meta-inline">
+          <span class="pill" id="dataset-pill">Dataset: loading…</span>
+          <span class="pill" id="release-pill">Release: loading…</span>
+        </div>
+      </article>
+      <article class="hero-card">
+        <div class="eyebrow">Operating contract</div>
+        <p class="hero-copy" style="font-size:1.08rem">
+          This Space is intentionally static and non-destructive. It reads a frozen Hugging Face dataset snapshot,
+          exposes only stable public metadata, and never writes back to cataloguing, coding, or manuscript workflows.
+        </p>
+      </article>
+    </section>
+
+    <section class="metrics">
+      <article class="metric">
+        <div class="metric-label">Corpus items</div>
+        <div class="metric-value" id="metric-total">—</div>
+        <div class="metric-note">Published public records</div>
+      </article>
+      <article class="metric">
+        <div class="metric-label">Coded items</div>
+        <div class="metric-value" id="metric-coded">—</div>
+        <div class="metric-note">endurecimento ledger coverage</div>
+      </article>
+      <article class="metric">
+        <div class="metric-label">Countries</div>
+        <div class="metric-value" id="metric-countries">—</div>
+        <div class="metric-note">Represented in this snapshot</div>
+      </article>
+      <article class="metric">
+        <div class="metric-label">Mean score</div>
+        <div class="metric-value" id="metric-score">—</div>
+        <div class="metric-note">Mean endurecimento score</div>
+      </article>
+    </section>
+
+    <section class="filters">
+      <div class="filter">
+        <label for="search">Search</label>
+        <input id="search" type="search" placeholder="Title, creator, motif, tag, archive…">
+      </div>
+      <div class="filter">
+        <label for="country-filter">Country</label>
+        <select id="country-filter"></select>
+      </div>
+      <div class="filter">
+        <label for="regime-filter">Regime</label>
+        <select id="regime-filter"></select>
+      </div>
+      <div class="filter">
+        <label for="support-filter">Support</label>
+        <select id="support-filter"></select>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <article class="panel">
+        <div class="panel-head">
+          <div>
+            <h2 class="panel-title">Records</h2>
+            <p class="panel-subtitle" id="results-meta">Loading published snapshot…</p>
+          </div>
+          <div class="panel-subtitle" id="results-count">—</div>
+        </div>
+        <div class="status" id="status-box">Fetching `corpus-data.json` from the dataset snapshot…</div>
+        <table id="results-table" hidden>
+          <thead>
+            <tr>
+              <th>Record</th>
+              <th>Country</th>
+              <th>Regime</th>
+              <th>Support</th>
+            </tr>
+          </thead>
+          <tbody id="results-body"></tbody>
+        </table>
+      </article>
+
+      <aside class="panel">
+        <div class="panel-head">
+          <div>
+            <h2 class="panel-title">Record detail</h2>
+            <p class="panel-subtitle">Metadata and copyable citations</p>
+          </div>
+        </div>
+        <div class="empty" id="detail-empty">Select a record to inspect its metadata, archive link, and citations.</div>
+        <div id="detail-card" hidden>
+          <div class="detail-grid" id="detail-grid"></div>
+          <div class="detail-body" id="detail-body"></div>
+          <div class="citation">
+            <span class="detail-label">ABNT citation</span>
+            <pre id="abnt-citation">No ABNT citation available.</pre>
+            <div class="button-row">
+              <button id="copy-abnt" type="button">Copy ABNT</button>
+              <a id="archive-link" href="#" target="_blank" rel="noopener"><button class="secondary" type="button">Open source archive</button></a>
+            </div>
+          </div>
+          <div class="citation">
+            <span class="detail-label">Chicago citation</span>
+            <pre id="chicago-citation">No Chicago citation available.</pre>
+            <div class="button-row">
+              <button id="copy-chicago" type="button">Copy Chicago</button>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <div class="footnote">
+      Default dataset repo: <span id="dataset-id">warholana/iconocracy-corpus</span>.
+      Override with <code>?dataset=owner/repo</code> when testing another frozen snapshot.
+    </div>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const datasetRepo = params.get("dataset") || "warholana/iconocracy-corpus";
+    const datasetBase = `https://huggingface.co/datasets/${datasetRepo}/resolve/main`;
+
+    const state = {
+      allRecords: [],
+      filteredRecords: [],
+      selectedId: null,
+      release: null,
+    };
+
+    const els = {
+      search: document.getElementById("search"),
+      country: document.getElementById("country-filter"),
+      regime: document.getElementById("regime-filter"),
+      support: document.getElementById("support-filter"),
+      status: document.getElementById("status-box"),
+      table: document.getElementById("results-table"),
+      body: document.getElementById("results-body"),
+      resultsMeta: document.getElementById("results-meta"),
+      resultsCount: document.getElementById("results-count"),
+      detailEmpty: document.getElementById("detail-empty"),
+      detailCard: document.getElementById("detail-card"),
+      detailGrid: document.getElementById("detail-grid"),
+      detailBody: document.getElementById("detail-body"),
+      abnt: document.getElementById("abnt-citation"),
+      chicago: document.getElementById("chicago-citation"),
+      archiveLink: document.getElementById("archive-link"),
+      datasetPill: document.getElementById("dataset-pill"),
+      releasePill: document.getElementById("release-pill"),
+      datasetId: document.getElementById("dataset-id"),
+      metricTotal: document.getElementById("metric-total"),
+      metricCoded: document.getElementById("metric-coded"),
+      metricCountries: document.getElementById("metric-countries"),
+      metricScore: document.getElementById("metric-score"),
+    };
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    function getSupport(record) {
+      return record.support || record.medium_norm || record.medium || "Unknown";
+    }
+
+    function fetchJson(name) {
+      return fetch(`${datasetBase}/${name}`)
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(`Could not load ${name}: ${response.status}`);
+          }
+          return response.json();
+        });
+    }
+
+    function uniqueSorted(values) {
+      return [...new Set(values.filter(Boolean))].sort((a, b) => String(a).localeCompare(String(b)));
+    }
+
+    function fillSelect(select, label, values) {
+      select.innerHTML = "";
+      const first = document.createElement("option");
+      first.value = "";
+      first.textContent = label;
+      select.appendChild(first);
+      values.forEach((value) => {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = value;
+        select.appendChild(option);
+      });
+    }
+
+    function getSearchBlob(record) {
+      return [
+        record.id,
+        record.title,
+        record.creator,
+        record.country,
+        record.source_archive,
+        getSupport(record),
+        record.regime,
+        ...(record.motif || []),
+        ...(record.tags || []),
+      ].filter(Boolean).join(" ").toLowerCase();
+    }
+
+    function updateMetrics() {
+      const countries = uniqueSorted(state.allRecords.map((record) => record.country || "Unknown"));
+      const scored = state.allRecords
+        .map((record) => Number(record.endurecimento_score))
+        .filter((value) => !Number.isNaN(value));
+
+      const coded = state.release?.stats?.coded_items ?? scored.length;
+      const mean = state.release?.stats?.mean_endurecimento ??
+        (scored.length ? (scored.reduce((sum, value) => sum + value, 0) / scored.length) : null);
+
+      els.metricTotal.textContent = state.allRecords.length;
+      els.metricCoded.textContent = coded;
+      els.metricCountries.textContent = countries.length;
+      els.metricScore.textContent = mean === null ? "n/a" : Number(mean).toFixed(2);
+    }
+
+    function applyFilters() {
+      const search = els.search.value.trim().toLowerCase();
+      const country = els.country.value;
+      const regime = els.regime.value;
+      const support = els.support.value;
+
+      state.filteredRecords = state.allRecords.filter((record) => {
+        if (country && (record.country || "Unknown") !== country) return false;
+        if (regime && (record.regime || "unknown") !== regime) return false;
+        if (support && getSupport(record) !== support) return false;
+        if (search && !getSearchBlob(record).includes(search)) return false;
+        return true;
+      });
+
+      renderTable();
+      if (!state.filteredRecords.find((record) => record.id === state.selectedId)) {
+        state.selectedId = state.filteredRecords[0]?.id || null;
+      }
+      renderDetail();
+    }
+
+    function renderTable() {
+      els.body.innerHTML = "";
+      els.resultsCount.textContent = `${state.filteredRecords.length} record${state.filteredRecords.length === 1 ? "" : "s"}`;
+      if (!state.filteredRecords.length) {
+        els.status.hidden = false;
+        els.status.textContent = "No records match the current filters.";
+        els.table.hidden = true;
+        return;
+      }
+
+      els.status.hidden = true;
+      els.table.hidden = false;
+
+      state.filteredRecords.forEach((record) => {
+        const row = document.createElement("tr");
+        row.dataset.id = record.id;
+        if (record.id === state.selectedId) {
+          row.classList.add("active");
+        }
+        row.innerHTML = `
+          <td>
+            <div class="title-cell">${escapeHtml(record.title || record.id)}</div>
+            <div class="meta-cell">${escapeHtml(record.date || "Undated")} · ${escapeHtml(record.creator || "Unknown creator")}</div>
+          </td>
+          <td class="meta-cell">${escapeHtml(record.country || "Unknown")}</td>
+          <td class="meta-cell">${escapeHtml((record.regime || "unknown").toUpperCase())}</td>
+          <td class="meta-cell">${escapeHtml(getSupport(record))}</td>
+        `;
+        row.addEventListener("click", () => {
+          state.selectedId = record.id;
+          renderTable();
+          renderDetail();
+        });
+        els.body.appendChild(row);
+      });
+    }
+
+    function detailBlock(label, value) {
+      return `
+        <div class="detail-block">
+          <span class="detail-label">${escapeHtml(label)}</span>
+          <p class="detail-value">${escapeHtml(value || "—")}</p>
+        </div>
+      `;
+    }
+
+    function renderDetail() {
+      const record = state.filteredRecords.find((item) => item.id === state.selectedId);
+      if (!record) {
+        els.detailEmpty.hidden = false;
+        els.detailCard.hidden = true;
+        return;
+      }
+
+      els.detailEmpty.hidden = true;
+      els.detailCard.hidden = false;
+
+      els.detailGrid.innerHTML = [
+        detailBlock("ID", record.id),
+        detailBlock("Country", record.country || "Unknown"),
+        detailBlock("Regime", (record.regime || "unknown").toUpperCase()),
+        detailBlock("Support", getSupport(record)),
+        detailBlock("Date", record.date || "Undated"),
+        detailBlock("Archive", record.source_archive || record.institution || "Unknown"),
+      ].join("");
+
+      const motifs = Array.isArray(record.motif) ? record.motif.join(", ") : (record.motif || "—");
+      const tags = Array.isArray(record.tags) ? record.tags.join(", ") : (record.tags || "—");
+      const score = record.endurecimento_score ?? "—";
+      els.detailBody.innerHTML = `
+        <h3 style="margin:0 0 8px;font-size:1.6rem">${escapeHtml(record.title || record.id)}</h3>
+        <p style="margin:0 0 10px;color:var(--ink-soft)">${escapeHtml(record.description || "No description available.")}</p>
+        <p style="margin:0 0 8px"><strong>Motifs:</strong> ${escapeHtml(motifs)}</p>
+        <p style="margin:0 0 8px"><strong>Tags:</strong> ${escapeHtml(tags)}</p>
+        <p style="margin:0"><strong>endurecimento score:</strong> ${escapeHtml(score)}</p>
+      `;
+
+      els.abnt.textContent = record.citation_abnt || "No ABNT citation available.";
+      els.chicago.textContent = record.citation_chicago || "No Chicago citation available.";
+      els.archiveLink.href = record.url || "#";
+      els.archiveLink.style.pointerEvents = record.url ? "auto" : "none";
+      els.archiveLink.style.opacity = record.url ? "1" : "0.5";
+    }
+
+    async function copyText(text) {
+      if (!text || text.startsWith("No ")) return;
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch (error) {
+        window.alert("Clipboard copy failed. Copy manually from the citation box.");
+      }
+    }
+
+    async function loadSnapshot() {
+      els.datasetId.textContent = datasetRepo;
+      els.datasetPill.textContent = `Dataset: ${datasetRepo}`;
+
+      try {
+        const [records, release] = await Promise.all([
+          fetchJson("corpus-data.json"),
+          fetchJson("release.json").catch(() => null),
+        ]);
+
+        state.allRecords = Array.isArray(records) ? records : [];
+        state.filteredRecords = state.allRecords.slice();
+        state.release = release;
+
+        fillSelect(els.country, "All countries", uniqueSorted(state.allRecords.map((record) => record.country || "Unknown")));
+        fillSelect(els.regime, "All regimes", uniqueSorted(state.allRecords.map((record) => record.regime || "unknown")));
+        fillSelect(els.support, "All supports", uniqueSorted(state.allRecords.map(getSupport)));
+
+        const releaseTag = release?.release_tag || "main";
+        const generated = release?.stats?.generated_at || "published snapshot";
+        els.releasePill.textContent = `Release: ${releaseTag}`;
+        els.resultsMeta.textContent = `Dataset ${datasetRepo} · ${generated}`;
+
+        updateMetrics();
+        state.selectedId = state.allRecords[0]?.id || null;
+        applyFilters();
+      } catch (error) {
+        els.status.hidden = false;
+        els.status.textContent = `Could not load the published snapshot from ${datasetRepo}. Upload corpus-data.json and release.json to the dataset repo, or override ?dataset=owner/repo.`;
+        els.resultsMeta.textContent = "Dataset fetch failed";
+        els.releasePill.textContent = "Release: unavailable";
+        console.error(error);
+      }
+    }
+
+    els.search.addEventListener("input", applyFilters);
+    els.country.addEventListener("change", applyFilters);
+    els.regime.addEventListener("change", applyFilters);
+    els.support.addEventListener("change", applyFilters);
+    document.getElementById("copy-abnt").addEventListener("click", () => copyText(els.abnt.textContent));
+    document.getElementById("copy-chicago").addEventListener("click", () => copyText(els.chicago.textContent));
+
+    loadSnapshot();
+  </script>
+</body>
+</html>

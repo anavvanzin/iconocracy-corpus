@@ -1,0 +1,159 @@
+{
+  "manifest_version": "1.0",
+  "created_at": "2026-04-14T15:57:59.483919+00:00",
+  "purpose": "IconoCode backfill — 18 corpus-data.json items missing master records",
+  "items": [
+    {
+      "id": "BE-5F-LEOPOLD-1832",
+      "input_url": "https://en.numista.com/catalogue/pieces255.html",
+      "title_hint": "5 Francs — Léopold I (founding coin of Belgium)",
+      "country": "Belgium",
+      "date": "1832-1849",
+      "medium": "Moeda"
+    },
+    {
+      "id": "BE-CONGO-100F-1912",
+      "input_url": "https://en.numista.com/258715",
+      "title_hint": "100 Francs Banque du Congo Belge — Allegory of Europe Kneeling with African Boys",
+      "country": "Belgium",
+      "date": "1912-1929",
+      "medium": "Banknote"
+    },
+    {
+      "id": "BE-CONGO-MON-1921",
+      "input_url": "https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo",
+      "title_hint": "Monument aux Pionniers Belges au Congo — La Race Noire Accueillie par la Belgique",
+      "country": "Belgium",
+      "date": "1911-1921",
+      "medium": "Sculpture (Euville limestone)"
+    },
+    {
+      "id": "BR-1000R-1906",
+      "input_url": "https://en.numista.com/catalogue/pieces14484.html",
+      "title_hint": "1000 Réis — Efígie da República (Brasil, 1906–1912)",
+      "country": "Brazil",
+      "date": "1906-1912",
+      "medium": "Moeda"
+    },
+    {
+      "id": "BR-1CR-1970",
+      "input_url": "https://en.numista.com/catalogue/note203551.html",
+      "title_hint": "1 Cruzeiro (cédula) — Efígie da República (2ª edição)",
+      "country": "Brazil",
+      "date": "1970-1972",
+      "medium": "Papel-moeda"
+    },
+    {
+      "id": "BR-50CR-1965",
+      "input_url": "https://en.numista.com/9337",
+      "title_hint": "50 Cruzeiros — Efígie da República (Benedito Ribeiro / Tônia Carreiro)",
+      "country": "Brazil",
+      "date": "1965",
+      "medium": "Moeda"
+    },
+    {
+      "id": "DE-1000M-1910",
+      "input_url": "https://en.numista.com/catalogue/note203637.html",
+      "title_hint": "1000 Mark Reichsbanknote — allegorical figures",
+      "country": "Germany",
+      "date": "1910",
+      "medium": "Papel-moeda"
+    },
+    {
+      "id": "DE-100M-1908",
+      "input_url": "https://en.numista.com/catalogue/note203616.html",
+      "title_hint": "100 Mark Reichsbanknote — Germania seated (green seals)",
+      "country": "Germany",
+      "date": "1908",
+      "medium": "Papel-moeda"
+    },
+    {
+      "id": "DE-50M-1919",
+      "input_url": "https://en.numista.com/catalogue/note202186.html",
+      "title_hint": "50 Mark Reichsbanknote (24 Jun. 1919) — última cédula imperial / primeira Weimar",
+      "country": "Germany",
+      "date": "1919",
+      "medium": "Papel-moeda"
+    },
+    {
+      "id": "FR-ASSIGNAT-1792",
+      "input_url": "https://gallica.bnf.fr/ark:/12148/btv1b69443660.item",
+      "title_hint": "Assignat de 400 livres (21 nov. 1792, an premier de la République)",
+      "country": "France",
+      "date": "1792",
+      "medium": "Papel-moeda"
+    },
+    {
+      "id": "FR-CERES-5F-1849",
+      "input_url": "https://en.numista.com/catalogue/pieces1181.html",
+      "title_hint": "5 Francs (Cérès, 2e République)",
+      "country": "France",
+      "date": "1849-1851",
+      "medium": "Moeda"
+    },
+    {
+      "id": "UK-FLORIN-1902",
+      "input_url": "https://collections.museumsvictoria.com.au/items/77020",
+      "title_hint": "1 Florin — Britannia Standing on Ship Prow (Edward VII)",
+      "country": "United Kingdom",
+      "date": "1902-1910",
+      "medium": "Moeda"
+    },
+    {
+      "id": "UK-HALFPENNY-1695",
+      "input_url": "https://en.numista.com/catalogue/pieces90365.html",
+      "title_hint": "½ Penny — William III (1st issue) / Britannia seated (earliest coin)",
+      "country": "United Kingdom",
+      "date": "1695-1698",
+      "medium": "Moeda"
+    },
+    {
+      "id": "UK-PENNY-1895",
+      "input_url": "https://en.numista.com/catalogue/pieces670.html",
+      "title_hint": "One Penny -- Victoria Veiled Head / Britannia Seated with Trident",
+      "country": "United Kingdom",
+      "date": "",
+      "medium": "Moeda"
+    },
+    {
+      "id": "UK-PENNY-1912",
+      "input_url": "https://collections.museumsvictoria.com.au/items/57610",
+      "title_hint": "1 Penny — Britannia Seated, Helmeted (George V, 1912)",
+      "country": "United Kingdom",
+      "date": "1911-1936",
+      "medium": "Moeda"
+    },
+    {
+      "id": "US-BANNER-1861",
+      "input_url": "https://www.loc.gov/item/91721286/",
+      "title_hint": "Hail! Glorious Banner of Our Land — Columbia with Flag and Eagle (Civil War)",
+      "country": "United States",
+      "date": "1861",
+      "medium": "Lithograph, color (music cover)"
+    },
+    {
+      "id": "US-EDUC-1896-01",
+      "input_url": "https://en.numista.com/catalogue/note207329.html",
+      "title_hint": "1 Dollar Silver Certificate 'Educational Series' — History Instructing Youth",
+      "country": "United States",
+      "date": "1896",
+      "medium": "Papel-moeda"
+    },
+    {
+      "id": "US-NAST-1864",
+      "input_url": "https://www.loc.gov/item/2022631575/",
+      "title_hint": "The Blessings of Victory — Liberty with Sword and Columbia with Palm Branch (Thomas Nast)",
+      "country": "United States",
+      "date": "1864",
+      "medium": "Photograph of wood engraving (carte de visite)"
+    },
+    {
+      "id": "US-SEATED-1840",
+      "input_url": "https://en.numista.com/catalogue/pieces11472.html",
+      "title_hint": "1 Dollar 'Seated Liberty' (without motto)",
+      "country": "United States",
+      "date": "1840-1866",
+      "medium": "Moeda"
+    }
+  ]
+}

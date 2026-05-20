@@ -1,0 +1,53 @@
+---
+id: SCOUT-371
+tipo: corpus-candidato
+status: candidato
+titulo: "The Columbia herald (Columbia, Tenn.), July 30, 1869"
+acervo: "Library of Congress"
+url: "https://www.loc.gov/item/sn85033386/1869-07-30/ed-1/"
+data_estimada: "1869-07-30"
+pais: US
+suporte: indeterminado
+motivo_alegorico: "Columbia"
+regime: INDETERMINADO
+confianca: baixo
+tags:
+  - corpus/candidato
+  - pais/US
+  - motivo/columbia
+  - #verificar
+  - hunt-candidate
+related:
+  - "[[endurecimento]]"
+  - "[[Feminilidade de Estado]]"
+hunt_score: 0.5
+hunt_source: loc
+data_scout: 2026-04-04
+---
+
+## The Columbia herald (Columbia, Tenn.), July 30, 1869
+
+### Identificação
+**Criador/Gravador**: university of tennessee
+**Acervo**: Library of Congress
+**URL**: [link](https://www.loc.gov/item/sn85033386/1869-07-30/ed-1/)
+**Data**: 1869-07-30 | **País**: US | **Suporte**: indeterminado
+**Thumbnail**: [imagem](https://tile.loc.gov/image-services/iiif/service:ndnp:tu:batch_tu_homer_ver01:data:sn85033386:00200293873:1869073001:0018/full/pct:3.125/0/default.jpg#h=288&w=230)
+
+### Descrição
+Columbia, Tenn.
+
+**Motivos identificados**: Columbia
+
+### Análise preliminar de endurecimento
+**Regime**: indeterminado — requer análise visual.
+**endurecimento**: pendente — sem acesso à imagem.
+
+### Citação ABNT
+TENNESSEE, university of. **The Columbia herald (Columbia, Tenn.), July 30, 1869**. 1869-07-30. Library of Congress. Disponível em: https://www.loc.gov/item/sn85033386/1869-07-30/ed-1/. Acesso em: 04 Apr. 2026.
+
+### Proveniência
+Candidato gerado automaticamente por `hunt.py` via loc.
+Score de relevância: **0.5** | Data: 2026-04-04
+
+> **#verificar**: Esta nota requer validação visual e confirmação de escopo pela pesquisadora.

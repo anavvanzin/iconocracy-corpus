@@ -1,0 +1,47 @@
+;;
+;; Domain:     anavanzin.xyz.
+;; Exported:   2026-02-26 16:28:37
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+anavanzin.xyz	3600	IN	SOA	gabriella.ns.cloudflare.com. dns.cloudflare.com. 2052378991 10000 2400 604800 3600
+
+;; NS Records
+anavanzin.xyz.	86400	IN	NS	gabriella.ns.cloudflare.com.
+anavanzin.xyz.	86400	IN	NS	norm.ns.cloudflare.com.
+
+;; CNAME Records
+anavanzin.xyz.	1	IN	CNAME	default-page.cloudflareregistrar.com. ; cf_tags=cf-proxied:true
+sig1._domainkey.anavanzin.xyz.	3600	IN	CNAME	sig1.dkim.anavanzin.xyz.at.icloudmailadmin.com. ; cf_tags=cf-proxied:false
+
+;; MX Records
+anavanzin.xyz.	3600	IN	MX	10 mx02.mail.icloud.com.
+anavanzin.xyz.	3600	IN	MX	10 mx01.mail.icloud.com.
+
+;; TXT Records
+anavanzin.xyz.	3600	IN	TXT	"apple-domain=Szjp63r812LQY0H7"
+anavanzin.xyz.	3600	IN	TXT	"google-site-verification=FB9jxPfni64-OI8qUUXfDAecB3qgxg9wCv4KQ9SU2r4"
+anavanzin.xyz.	3600	IN	TXT	"v=spf1 include:icloud.com ~all"
+anavanzin.xyz.	3600	IN	TXT	"apple-domain=Q6wVMNzE9BHYcEgv"
+_github-pages-challenge-lavenderhazana.anavanzin.xyz.	1	IN	TXT	"2283bc411ddfaa09ecc26289351554"
+xyz.anavanzin.xyz.	1	IN	TXT	"2283bc411ddfaa09ecc26289351554"
