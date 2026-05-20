@@ -3,7 +3,7 @@
 > **Executa:** Direção 3 da recursão (Fase 7, ciclo dialético 1).
 > **Gatilho:** Monge B, §5 da revalidação — a *forma arquivo*, independentemente do conteúdo, codifica imagens em grades que matam polissemia. A condição ζ (Anexo M.2) não resolve; realiza o problema.
 > **Data:** 2026-04-25.
-> **Status:** Anexo investigativo — exige ciclo dialético próprio para decisão final. Aqui se reúne o material e se propõe uma resposta operacional.
+> **Status:** Aprovado e integrado operacionalmente como M.4-plus no Capítulo 2 (com o campo testemunho_repertoire no master-record.schema.json e as práticas de repertório e testemunho oral integradas na condição ζ-plus).
 
 ---
 
