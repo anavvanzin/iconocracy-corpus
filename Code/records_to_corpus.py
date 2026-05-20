@@ -23,7 +23,7 @@ import tempfile
 import uuid
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent.parent
+REPO = Path(__file__).resolve().parent.parent
 RECORDS = REPO / "data" / "processed" / "records.jsonl"
 CORPUS_OUT = REPO / "corpus" / "corpus-data.json"
 

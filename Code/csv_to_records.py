@@ -25,7 +25,7 @@ import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent.parent
+REPO = Path(__file__).resolve().parent.parent
 CORPUS_JSON = REPO / "corpus" / "corpus-data.json"
 CORPUS_CSV = REPO / "data" / "processed" / "corpus_dataset.csv"
 RECORDS_OUT = REPO / "data" / "processed" / "records.jsonl"

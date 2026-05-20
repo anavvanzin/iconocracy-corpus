@@ -17,7 +17,7 @@ import random
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Sequence
 
-REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_OUTPUT = REPO_ROOT / "data" / "training" / "iconocracy_sft_v1_1.jsonl"
 RECORDS_JSONL = REPO_ROOT / "data" / "processed" / "records.jsonl"
 PURIFICATION_JSONL = REPO_ROOT / "data" / "processed" / "purification.jsonl"

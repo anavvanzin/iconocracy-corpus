@@ -10,7 +10,7 @@ import json
 import sys
 from pathlib import Path
 
-CORPUS_PATH = Path(__file__).parent.parent.parent / "corpus" / "corpus-data.json"
+CORPUS_PATH = Path(__file__).parent.parent / "corpus" / "corpus-data.json"
 
 # Countries in our thesis scope
 SCOPE_COUNTRIES = {"France", "Germany", "United Kingdom", "United States", "Belgium", "Brazil",

@@ -27,7 +27,7 @@ import uuid
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent.parent
+REPO = Path(__file__).resolve().parent.parent
 RECORDS = REPO / "data" / "processed" / "records.jsonl"
 VAULT = REPO / "vault" / "candidatos"
 

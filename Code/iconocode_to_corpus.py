@@ -18,7 +18,7 @@ import re
 import sys
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent.parent
+REPO = Path(__file__).resolve().parent.parent
 CORPUS = REPO / "corpus" / "corpus-data.json"
 VAULT = REPO / "vault" / "candidatos"
 

@@ -29,7 +29,7 @@ except ImportError:
     )
     sys.exit(1)
 
-REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+REPO_ROOT = Path(__file__).resolve().parent.parent
 PURIFICATION_JSONL = REPO_ROOT / "data" / "processed" / "purification.jsonl"
 IRR_REPORT_JSON = REPO_ROOT / "data" / "processed" / "irr_report.json"
 

@@ -12,8 +12,8 @@ import time
 
 class GallicaDiscovery:
     def __init__(self):
-        self.gallica_server_path = Path(__file__).parent.parent.parent / "indexing" / "gallica-mcp-server"
-        self.output_dir = Path(__file__).parent.parent.parent / "data" / "raw"
+        self.gallica_server_path = Path(__file__).parent.parent / "indexing" / "gallica-mcp-server"
+        self.output_dir = Path(__file__).parent.parent / "data" / "raw"
         
         # ICONOCRACY search terms optimized for French archives
         self.search_strategies = [

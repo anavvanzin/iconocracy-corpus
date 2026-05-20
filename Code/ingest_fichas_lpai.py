@@ -34,7 +34,7 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
 from urllib.parse import urlsplit, urlunsplit
 
-REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_DOCX = Path("/Users/ana/Downloads/Documents/Fichas_LPAI_v2_Campanha_SCOUT_BR_FR.docx")
 DEFAULT_STAGE_DIR = REPO_ROOT / "data" / "staging"
 STAGING_JSONL_NAME = "fichas-lpai-v2-parsed.jsonl"

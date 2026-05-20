@@ -11,7 +11,7 @@ from pathlib import Path
 import pytest
 
 # Add tools/scripts to path
-REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "tools" / "scripts"))
 
 import ingest_fichas_lpai as ingest  # noqa: E402

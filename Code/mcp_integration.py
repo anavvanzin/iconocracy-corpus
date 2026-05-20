@@ -20,7 +20,7 @@ class ICONOCRACYMCPClient:
     """
     
     def __init__(self):
-        self.base_path = Path(__file__).parent.parent.parent
+        self.base_path = Path(__file__).parent.parent
         self.gallica_server = self.base_path / "indexing" / "gallica-mcp-server"
         self.memory_server = "npx -y @modelcontextprotocol/server-memory"
         

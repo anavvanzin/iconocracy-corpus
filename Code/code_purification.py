@@ -23,7 +23,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 # Paths (relative to repo root)
-REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+REPO_ROOT = Path(__file__).resolve().parent.parent
 CORPUS_JSON = REPO_ROOT / "corpus" / "corpus-data.json"
 OUTPUT_JSONL = REPO_ROOT / "data" / "processed" / "purification.jsonl"
 OUTPUT_CSV = REPO_ROOT / "data" / "processed" / "corpus_dataset.csv"

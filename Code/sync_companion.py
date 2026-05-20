@@ -19,7 +19,7 @@ import sys
 from pathlib import Path
 from collections import Counter
 
-REPO = Path(__file__).resolve().parent.parent.parent
+REPO = Path(__file__).resolve().parent.parent
 CORPUS = REPO / "corpus" / "corpus-data.json"
 VAULT_C = REPO / "vault" / "candidatos"
 VAULT_S = REPO / "vault" / "sessoes"

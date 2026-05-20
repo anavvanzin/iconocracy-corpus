@@ -17,7 +17,7 @@ import json
 import re
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent.parent
+REPO = Path(__file__).resolve().parent.parent
 VAULT = REPO / "vault" / "candidatos"
 
 # The 8 thesis Atlas panels (from iconocracia-companion)

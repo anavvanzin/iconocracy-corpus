@@ -19,7 +19,7 @@ except ImportError:
     sys.exit(1)
 
 
-SCHEMA_DIR = Path(__file__).parent.parent / "schemas"
+SCHEMA_DIR = Path(__file__).parent.parent / "tools" / "schemas"
 
 
 def load_schema(schema_name: str) -> Dict[str, Any]:
@@ -205,7 +205,7 @@ def main() -> None:
     args = parser.parse_args()
 
     # Apply defaults when called without arguments
-    repo_root = Path(__file__).resolve().parent.parent.parent
+    repo_root = Path(__file__).resolve().parent.parent
     if args.file is None:
         args.file = repo_root / "data" / "processed" / "records.jsonl"
     if args.schema is None:

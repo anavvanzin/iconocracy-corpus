@@ -44,7 +44,7 @@ from typing import Any
 
 import requests
 
-REPO = Path(__file__).resolve().parent.parent.parent
+REPO = Path(__file__).resolve().parent.parent
 CORPUS_PATH = REPO / "corpus" / "corpus-data.json"
 STAGING_PATH = REPO / "data" / "staging" / "iconocode-gemma4-runs.jsonl"
 CACHE_DIR = REPO / ".cache" / "iconocode-images"

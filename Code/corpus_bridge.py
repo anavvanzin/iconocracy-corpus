@@ -33,10 +33,9 @@ from typing import Optional
 logger = logging.getLogger("corpus-bridge")
 
 # ── Paths ───────────────────────────────────────────────────────────────────
-INGEST_DIR = Path(__file__).resolve().parent.parent
-REPO_ROOT = INGEST_DIR.parent
+REPO_ROOT = Path(__file__).resolve().parent.parent
 CORPUS_JSON = REPO_ROOT / "corpus" / "corpus-data.json"
-DEFAULT_CSV = INGEST_DIR / "output" / "iconocracy_master.csv"
+DEFAULT_CSV = REPO_ROOT / "output" / "iconocracy_master.csv"
 
 # ── Institution → Country mapping ───────────────────────────────────────────
 # Maps ingest source codes to corpus country prefixes (ISO 2-letter).
