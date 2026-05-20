@@ -265,6 +265,30 @@ As condições são falsificáveis num sentido (violá-las garante captura detec
 
 ---
 
+## Anexo M.2 — Seis condições de felicidade ilocucionária do Atlas (α–ζ)
+
+O Atlas-topológico adotado acima não é, *a priori*, contra-iconocrático. Sua eficácia crítica é condicional, auditável em processo mas não em efeito, e estruturalmente limitada pela forma-arquivo. Síntese produzida por ciclo dialético completo (Atlas vs. iconocracia iluminada), documentado em [`docs/dialectic-cycle-1/`](./dialectic-cycle-1/README.md).
+
+| # | Condição | Indicador auditável |
+|---|----------|---------------------|
+| α | Abertura estrutural (difractiva + acessível) | Campo "excedente interpretativo" no codebook; licença CC-BY-SA; formato não-proprietário; API pública |
+| β | Endereçamento explícito | Carta de endereçamento nomeando comunidades específicas |
+| γ | Transferência de ownership | Repo público versionável; PRs aceitos; não-proprietariedade do corpus |
+| δ | Inscrição em demanda concreta | Uso em disciplina DIR410346 + memorial técnico + colaboração museu/tribunal/movimento |
+| ε | Nominação explícita do regime contestado | Glossário canônico fixo; codebook versionado; changelog público |
+| ζ | Inclusão reflexiva dos atos publicacionais | Itens 166–169 (diagrama, repo, dataset HF, Google Doc) no corpus, codificados pela mesma grade LPAI v2 — **mapeia captura, não a impede** |
+
+**Propriedade assimétrica:** as condições são falsificáveis num sentido (violá-las garante captura detectável) mas não são verificáveis em efeito (cumpri-las não garante contra-iconocracia). A síntese não promete emancipação; promete detectabilidade do fracasso.
+
+**Três limites declarados:**
+1. Auditoria externa real não é opcional (Anexo M.3 — issue #37).
+2. Lastro teórico é do Norte; síntese é epistemicamente parcial (Direção 1 de recursão — issue #36; incorporação de Glissant, Fanon, Quijano, Carneiro, Werneck, Krenak, Lugones, Segato, Nascimento).
+3. Forma-arquivo permanece tensão não resolvida — Taylor (archive vs. repertoire) (issue #38).
+
+Documentação completa em [`docs/dialectic-cycle-1/07-sintese-final-v6.md`](./dialectic-cycle-1/07-sintese-final-v6.md).
+
+---
+
 ## Ligações internas
 
 - [`docs/T4-LPAI-INGEST-REPORT.md`](./T4-LPAI-INGEST-REPORT.md) — estado operacional do LPAI v2 (15 fichas SCOUT BR+FR).
