@@ -172,6 +172,7 @@ def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
         "endurecimento_score": endurecimento or entry.get("endurecimento_score", 0.0),
         "coded_by": coded_by or entry.get("coded_by", ""),
         "coded_at": coded_at or entry.get("coded_at", ""),
+        "testemunho_repertoire": record.get("testemunho_repertoire") or entry.get("testemunho_repertoire", ""),
     })
 
     if indicadores:
@@ -203,7 +204,7 @@ def export_corpus(
 
     # Index records by deterministic item_id first (canonical), URL as fallback.
     records_by_item_id: dict[str, dict] = {}
-    records_by_url: dict[str, dict] = {}
+    records_by_url: dict[str, list[dict]] = {}
     for rec in records:
         rec_item_id = rec.get("item_id", "")
         if rec_item_id:
@@ -211,7 +212,7 @@ def export_corpus(
         sr = rec.get("webscout", {}).get("search_results", [{}])
         url = sr[0].get("url", "") if sr else ""
         if url:
-            records_by_url[url] = rec
+            records_by_url.setdefault(url, []).append(rec)
 
     # Process existing corpus entries
     matched_urls: set[str] = set()
@@ -223,7 +224,17 @@ def export_corpus(
             item_url = item.get("url", "")
             rec = records_by_item_id.get(expected_record_item_id)
             if not rec and item_url:
-                rec = records_by_url.get(item_url)
+                candidates = records_by_url.get(item_url, [])
+                best_cand = None
+                for cand in candidates:
+                    if cand.get("item_id") not in matched_item_ids:
+                        best_cand = cand
+                        cand_title = cand.get("input", {}).get("title_hint", "").lower()
+                        item_title = item.get("title", "").lower()
+                        if cand_title == item_title or cand_title in item_title or item_title in cand_title:
+                            best_cand = cand
+                            break
+                rec = best_cand
             if rec:
                 entry = _corpus_entry_from_record(rec, item)
                 matched_item_ids.add(rec.get("item_id", ""))
