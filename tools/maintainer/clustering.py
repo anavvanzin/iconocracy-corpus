@@ -1,19 +1,26 @@
-def cluster_duplicates(duplicates: dict):
+from typing import Dict, List, Any
+
+def cluster_duplicates(duplicates: Dict[str, List[str]]) -> List[Dict[str, Any]]:
     """
-    Converts a dictionary of duplicates into a list of cluster dictionaries.
+    Groups structural redundancies into Action Sets.
+    
+    This function converts a dictionary of duplicates (checksum: [paths]) 
+    into a list of Action Set dictionaries for the maintenance workflow.
     
     Args:
-        duplicates (dict): A dictionary where keys are checksums and values are lists of file paths.
+        duplicates (Dict[str, List[str]]): A dictionary where keys are checksums 
+            and values are lists of file paths sharing that content.
         
     Returns:
-        list: A list of dictionaries, each representing a cluster of duplicates.
+        List[Dict[str, Any]]: A list of Action Sets, each representing a cluster 
+            of duplicate files with metadata.
     """
-    clusters = []
+    action_sets = []
     for checksum, paths in duplicates.items():
-        clusters.append({
+        action_sets.append({
             "id": f"set_{checksum[:8]}",
             "concern": "Conflict: Multiple paths for same content",
             "files": paths,
             "type": "structural_redundancy"
         })
-    return clusters
+    return action_sets

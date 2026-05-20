@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repo Maintainer Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0a0a0c;
+            --surface-color: #16161a;
+            --border-color: #2d2d34;
+            --text-primary: #f1f1f1;
+            --text-secondary: #94949e;
+            --accent-color: #6366f1;
+            --accent-glow: rgba(99, 102, 241, 0.2);
+            --danger-color: #ef4444;
+            --success-color: #10b981;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            margin-bottom: 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+            background: linear-gradient(to right, #fff, var(--text-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .status-badge {
+            background: var(--accent-glow);
+            color: var(--accent-color);
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            border: 1px solid var(--accent-color);
+        }
+
+        .dashboard-grid {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            border-color: var(--accent-color);
+            transform: translateY(-2px);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .id-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+            color: var(--accent-color);
+            background: rgba(99, 102, 241, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .concern-text {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .type-tag {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .file-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .file-item {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 0.75rem;
+            border-radius: 6px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8125rem;
+            color: var(--text-secondary);
+            border-left: 3px solid var(--border-color);
+            transition: all 0.2s ease;
+        }
+
+        .file-item:hover {
+            background: rgba(99, 102, 241, 0.05);
+            border-left-color: var(--accent-color);
+            color: var(--text-primary);
+        }
+
+        #empty-state {
+            text-align: center;
+            padding: 4rem;
+            color: var(--text-secondary);
+            border: 2px dashed var(--border-color);
+            border-radius: 12px;
+        }
+
+        .loader {
+            width: 24px;
+            height: 24px;
+            border: 2px solid var(--accent-glow);
+            border-top: 2px solid var(--accent-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 2rem auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card {
+            animation: fadeIn 0.4s ease forwards;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Repo Maintainer Dashboard</h1>
+            <div id="connection-status" class="status-badge">Waiting for data...</div>
+        </header>
+
+        <main id="dashboard-content">
+            <div class="loader"></div>
+            <div id="empty-state" style="display: none;">
+                <p>No action sets found. Run the maintainer tool to export data to <code>data.json</code>.</p>
+            </div>
+            <div id="action-sets-list" class="dashboard-grid"></div>
+        </main>
+    </div>
+
+    <script>
+        async function loadData() {
+            const listContainer = document.getElementById('action-sets-list');
+            const statusBadge = document.getElementById('connection-status');
+            const loader = document.querySelector('.loader');
+            const emptyState = document.getElementById('empty-state');
+
+            try {
+                const response = await fetch('data.json');
+                if (!response.ok) throw new Error('Data file not found');
+                
+                const data = await response.json();
+                const actionSets = data.action_sets || [];
+
+                loader.style.display = 'none';
+
+                if (actionSets.length === 0) {
+                    emptyState.style.display = 'block';
+                    statusBadge.textContent = 'Empty';
+                    return;
+                }
+
+                statusBadge.textContent = `${actionSets.length} Action Sets`;
+                statusBadge.style.background = 'rgba(16, 185, 129, 0.1)';
+                statusBadge.style.color = '#10b981';
+                statusBadge.style.borderColor = '#10b981';
+
+                actionSets.forEach((set, index) => {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.style.animationDelay = `${index * 0.1}s`;
+
+                    card.innerHTML = `
+                        <div class="card-header">
+                            <span class="id-label">${set.id}</span>
+                            <span class="type-tag">${set.type.replace('_', ' ')}</span>
+                        </div>
+                        <div class="concern-text">${set.concern}</div>
+                        <ul class="file-list">
+                            ${set.files.map(file => `<li class="file-item">${file}</li>`).join('')}
+                        </ul>
+                    `;
+                    listContainer.appendChild(card);
+                });
+
+            } catch (error) {
+                loader.style.display = 'none';
+                emptyState.style.display = 'block';
+                emptyState.innerHTML = `<p style="color: var(--danger-color)">Error loading data: ${error.message}</p>
+                                         <p style="margin-top: 1rem; font-size: 0.875rem;">Ensure <code>data.json</code> is in the same directory as this HTML file.</p>`;
+                statusBadge.textContent = 'Error';
+                statusBadge.style.background = 'rgba(239, 68, 68, 0.1)';
+                statusBadge.style.color = '#ef4444';
+                statusBadge.style.borderColor = '#ef4444';
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
