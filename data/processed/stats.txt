@@ -1,0 +1,152 @@
+ICONOCRACY Corpus Structure Analysis
+==================================================
+
+Total Records: 265
+File: data/processed/records.jsonl
+Analysis Date: 2026-05-17 16:08:26
+
+==================================================
+DISTRIBUTION BY COUNTRY
+==================================================
+France         :  86 records ( 32.5%)
+Brazil         :  43 records ( 16.2%)
+United States  :  29 records ( 10.9%)
+Germany        :  23 records (  8.7%)
+United Kingdom :  21 records (  7.9%)
+Belgium        :  10 records (  3.8%)
+Italy          :   8 records (  3.0%)
+Netherlands    :   8 records (  3.0%)
+Portugal       :   7 records (  2.6%)
+['FR']         :   6 records (  2.3%)
+Spain          :   4 records (  1.5%)
+['BR']         :   4 records (  1.5%)
+['DE']         :   4 records (  1.5%)
+Austria        :   3 records (  1.1%)
+Mexico         :   2 records (  0.8%)
+Switzerland    :   1 records (  0.4%)
+France (held in Austria):   1 records (  0.4%)
+Germany (Netherlands origin):   1 records (  0.4%)
+Uruguay        :   1 records (  0.4%)
+Argentina      :   1 records (  0.4%)
+[FR]           :   1 records (  0.4%)
+['BE']         :   1 records (  0.4%)
+
+==================================================
+DISTRIBUTION BY REGIME
+==================================================
+FUNDACIONAL    : 106 records ( 40.0%)
+NORMATIVO      :  73 records ( 27.5%)
+Unknown        :  41 records ( 15.5%)
+MILITAR        :  34 records ( 12.8%)
+CONTRA-ALEGORIA:  11 records (  4.2%)
+
+==================================================
+DISTRIBUTION BY DECADE
+==================================================
+1230s          :   1 records (  0.4%)
+1500s          :   2 records (  0.8%)
+1530s          :   2 records (  0.8%)
+1540s          :   2 records (  0.8%)
+1550s          :   2 records (  0.8%)
+1560s          :   2 records (  0.8%)
+1580s          :   4 records (  1.5%)
+1590s          :   4 records (  1.5%)
+1600s          :   2 records (  0.8%)
+1610s          :   1 records (  0.4%)
+1640s          :   2 records (  0.8%)
+1660s          :   2 records (  0.8%)
+1690s          :   1 records (  0.4%)
+1700s          :   1 records (  0.4%)
+1710s          :   3 records (  1.1%)
+1730s          :   2 records (  0.8%)
+1740s          :   1 records (  0.4%)
+1750s          :   1 records (  0.4%)
+1770s          :   1 records (  0.4%)
+1780s          :   9 records (  3.4%)
+1790s          :   9 records (  3.4%)
+1820s          :   2 records (  0.8%)
+1830s          :   4 records (  1.5%)
+1840s          :   6 records (  2.3%)
+1850s          :   6 records (  2.3%)
+1860s          :  11 records (  4.2%)
+1870s          :  12 records (  4.5%)
+1880s          :  20 records (  7.5%)
+1890s          :  24 records (  9.1%)
+1900s          :  23 records (  8.7%)
+1910s          :  38 records ( 14.3%)
+1920s          :  10 records (  3.8%)
+1930s          :   4 records (  1.5%)
+1940s          :   4 records (  1.5%)
+1950s          :   3 records (  1.1%)
+1960s          :   2 records (  0.8%)
+1970s          :   2 records (  0.8%)
+2010s          :   1 records (  0.4%)
+
+==================================================
+TOP ICONCLASS CODES
+==================================================
+48C51          :  56 occurrences ( 21.1%)
+11M44          :  12 occurrences (  4.5%)
+44A3           :  10 occurrences (  3.8%)
+44A1           :   9 occurrences (  3.4%)
+44A51          :   8 occurrences (  3.0%)
+44B62          :   5 occurrences (  1.9%)
+44A11          :   5 occurrences (  1.9%)
+44B12          :   4 occurrences (  1.5%)
+44G3121        :   4 occurrences (  1.5%)
+44B11          :   3 occurrences (  1.1%)
+44G3           :   3 occurrences (  1.1%)
+44A52          :   3 occurrences (  1.1%)
+44B1           :   3 occurrences (  1.1%)
+44C31          :   2 occurrences (  0.8%)
+48C144         :   2 occurrences (  0.8%)
+
+==================================================
+BATCH DISTRIBUTION
+==================================================
+conocracy001: 165 records ( 62.3%)
+aultsync0001: 100 records ( 37.7%)
+
+==================================================
+COUNTRY vs REGIME CROSS-ANALYSIS
+==================================================
+Country        CONTRA-ALEGORIA FUNDACIONAL     MILITAR   NORMATIVO     Unknown   Total
+-----------------------------------------------------------------------------------
+Argentina                 0           0           0           1           0       1
+Austria                   0           2           1           0           0       3
+Belgium                   0           5           3           2           0      10
+Brazil                    1          19           1          16           6      43
+France                    6          24           9          22          25      86
+France (held in Austria)           0           0           0           1           0       1
+Germany                   1          12           3           7           0      23
+Germany (Netherlands origin)           0           1           0           0           0       1
+Italy                     0           4           1           3           0       8
+Mexico                    0           1           0           1           0       2
+Netherlands               0           6           0           2           0       8
+Portugal                  0           5           1           1           0       7
+Spain                     0           4           0           0           0       4
+Switzerland               0           1           0           0           0       1
+United Kingdom            1           2           4           7           7      21
+United States             2           7          10           7           3      29
+Uruguay                   0           1           0           0           0       1
+['BE']                    0           1           0           0           0       1
+['BR']                    0           4           0           0           0       4
+['DE']                    0           3           0           1           0       4
+['FR']                    0           4           1           1           0       6
+[FR]                      0           0           0           1           0       1
+
+==================================================
+KEY FINDINGS
+==================================================
+• Dominant country: France (86 records, 32.5%)
+• Dominant regime: FUNDACIONAL (106 records, 40.0%)
+• Most frequent Iconclass code: 48C51 (56 occurrences)
+• Temporal span: 1239 - 2014 (775 years)
+• Geographic diversity: 22 countries/regions
+• Regime diversity: 5 regime types
+• Iconographic diversity: 51 unique Iconclass codes
+• Feminist iconography (48C51): 56 occurrences (21.1%)
+
+==================================================
+ANALYSIS COMPLETE
+==================================================

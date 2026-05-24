@@ -99,7 +99,7 @@
     "scores": {
       "3": 1,
       "4": 5,
-      "6": 6,
+      "6": 5,
       "7": 3
     },
     "file": "SCOUT-ZW-06 Moedas Coloniais Trade Dollar x Piastre.md"
@@ -123,23 +123,6 @@
       "6": 2
     },
     "file": "SCOUT-ZW-07 Selos Definitivos Semeuse x Germania.md"
-  },
-  {
-    "zw_id": "SCOUT-ZW-08",
-    "zw_title": "Painel 8 -- A DOMESTICAÇÃO DA REPÚBLICA NO MEIO-TOSTÃO: 500 Réis 1889 x 500 Réis 1912",
-    "atlas_panels": [
-      3
-    ],
-    "atlas_names": [
-      "Domesticação"
-    ],
-    "scores": {
-      "1": 1,
-      "3": 4,
-      "4": 1,
-      "8": 1
-    },
-    "file": "SCOUT-ZW-08 Painel 8 500 Reis 1889 vs 1912.md"
   },
   {
     "zw_id": "SCOUT-ZW-08",
@@ -178,32 +161,6 @@
       "7": 4
     },
     "file": "SCOUT-ZW-09 BE Colonial Branquitude banknotes x monument.md"
-  },
-  {
-    "zw_id": "SCOUT-ZW-09",
-    "zw_title": "Painel 9 -- CÉDULAS FUNDACIONAIS: 50 Mil Réis x 20 Mil Réis (BR, 1890)",
-    "atlas_panels": [
-      1,
-      3,
-      4,
-      6,
-      7
-    ],
-    "atlas_names": [
-      "Gênese",
-      "Domesticação",
-      "endurecimento",
-      "Balança e Império",
-      "Branquitude"
-    ],
-    "scores": {
-      "1": 1,
-      "3": 1,
-      "4": 2,
-      "6": 1,
-      "7": 1
-    },
-    "file": "SCOUT-ZW-09 Painel 9 Cedulas Fundacionais BR 1890.md"
   },
   {
     "zw_id": "SCOUT-ZW-10",
@@ -276,26 +233,6 @@
       "5": 1
     },
     "file": "SCOUT-ZW-12 Semeuse vs Pflanzerin projection vs recovery.md"
-  },
-  {
-    "zw_id": "SCOUT-ZW-13",
-    "zw_title": "Germania no selo × Águia na moeda — Weimar (1920–1925)",
-    "atlas_panels": [
-      3,
-      8
-    ],
-    "atlas_names": [
-      "Domesticação",
-      "Fissuras"
-    ],
-    "scores": {
-      "1": 1,
-      "3": 2,
-      "4": 1,
-      "6": 1,
-      "8": 3
-    },
-    "file": "SCOUT-ZW-13 Germania selo Weimar vs Aguia moeda Weimar.md"
   },
   {
     "zw_id": "SCOUT-ZW-19",
@@ -378,34 +315,5 @@
       "7": 1
     },
     "file": "SCOUT-ZW-23 Tres Imperios Um Corpo.md"
-  },
-  {
-    "zw_id": "SCOUT-ZW-24",
-    "zw_title": "Painel 24 -- METAL CONTRA PAPEL: O Duplo Nascimento da República entre a Prata e a Tinta (BR, 1889–1890)",
-    "atlas_panels": [
-      1,
-      2,
-      3,
-      4,
-      6,
-      7
-    ],
-    "atlas_names": [
-      "Gênese",
-      "Justitia",
-      "Domesticação",
-      "endurecimento",
-      "Balança e Império",
-      "Branquitude"
-    ],
-    "scores": {
-      "1": 1,
-      "2": 2,
-      "3": 2,
-      "4": 2,
-      "6": 1,
-      "7": 1
-    },
-    "file": "SCOUT-ZW-24 Metal vs Papel A Republica entre a Prata e a Tinta 1889-1890.md"
   }
 ]

@@ -128,3 +128,10 @@ PDFs/
 *.dylib
 *.so
 deploy/iconocracia-companion/.wrangler/
+
+.worktrees/
+
+# Session state and operational artifacts
+.session-state.md
+.coverage
+.superpowers/

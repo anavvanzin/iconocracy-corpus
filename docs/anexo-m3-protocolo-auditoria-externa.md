@@ -3,7 +3,7 @@
 > **Executa:** Direção 2 da recursão (Fase 7, ciclo dialético 1).
 > **Gatilho:** Ataque 1 da auditora hostil — sem mecanismo institucional real, α–ζ são *laudo pericial assinado pelo réu*.
 > **Data:** 2026-04-25.
-> **Status:** Descartado por decisão autoral para preservar a integridade autoral e a governança direta da pesquisa pelo próprio sujeito enunciante (sendo substituído pela autocrítica reflexiva e abertura arquivo-repertório no Capítulo 2).
+> **Status:** Rascunho operacional — exige negociação institucional real antes da defesa.
 
 ---
 

@@ -90,10 +90,6 @@
         "created_at": { "type": "string", "format": "date-time" },
         "updated_at": { "type": "string", "format": "date-time" }
       }
-    },
-    "testemunho_repertoire": {
-      "type": "string",
-      "description": "Qualitative testimony and reading performance details (M.4-plus repertoire integration)"
     }
   }
 }
