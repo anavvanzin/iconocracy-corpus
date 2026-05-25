@@ -17,6 +17,7 @@ conda activate iconocracy                          # Python 3.10+ environment
 # Validation & corpus
 python tools/scripts/validate_schemas.py           # validate all JSON schemas
 python tools/scripts/validate_schemas.py data/processed/records.jsonl --schema master-record --verbose
+python tools/scripts/check_thesis_terms.py          # forbidden terms + misattributions
 python tools/scripts/code_purification.py --status  # endurecimento coding progress
 python tools/scripts/code_purification.py --export-csv  # regenerate corpus_dataset.csv
 
@@ -96,7 +97,7 @@ Active automation:
 
 | Term | Rule |
 |------|------|
-| **endurecimento** | Always in Portuguese. NEVER "hardening" or "embrutecimento". Empirical operationalization of **Purificação Clássica** via 10 ordinal indicators (0–3) |
+| **Endurecimento** | Always in Portuguese. NEVER "hardening" or "embrutecimento". Empirical operationalization of **Purificação Clássica** via 10 ordinal indicators (0–3) |
 | **Contrato Sexual Visual** | Original thesis concept #1 — do NOT attribute to Pateman (Pateman is the source of the non-visual contract; the visual extension is autoral) |
 | **Feminilidade de Estado** | Original thesis concept #2 — do NOT attribute to Mondzain. Genealogical roots: Legendre (juiz totêmico) + Carson (hystéra) |
 | **Contrato Racial Visual** | Original thesis concept #3 — branquitude constitutiva da alegoria "universal"; transferência transatlântica de modelos neoclássicos. Cap. 3 |

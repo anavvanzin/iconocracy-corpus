@@ -7,6 +7,7 @@
 ## Ambiente, ferramentas e comandos
 - **Conda obrigatório**: `conda activate iconocracy`; scripts Python sempre via `python tools/scripts/<script>.py` a partir da raiz.
 - **Validação rápida**: `python tools/scripts/validate_schemas.py data/processed/records.jsonl --schema master-record --verbose` → `python tools/scripts/trace_evidence.py` → `python tools/scripts/abnt_citations.py`.
+- **Terminologia da tese**: `python tools/scripts/check_thesis_terms.py` flagra `hardening`/`embrutecimento` e atribuições proibidas (Pateman ↔ Contrato Sexual Visual, Mondzain ↔ Feminilidade de Estado).
 - **QA de export**: `python tools/scripts/records_to_corpus.py --diff` antes de tocar em `corpus/corpus-data.json`.
 - **Sync do vault**: `python tools/scripts/vault_sync.py status|pull|push|sync|diff` mantém `vault/candidatos/` alinhado a `records.jsonl`. Use `pull` antes de editar notas e `push` ao final.
 - **Codificação endurecimento**: `python tools/scripts/code_purification.py --status|--item ID|--batch SIGLA|--export-csv` atualiza `data/processed/purification.jsonl` + `corpus_dataset.csv`.
