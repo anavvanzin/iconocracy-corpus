@@ -1,20 +1,20 @@
 # tests/tools/test_migrate_atlas_schema.py
-import pytest
-from tools.scripts.migrate_atlas_schema import calculate_axes, add_bilingual_labels
+from tools.scripts.migrate_atlas_schema import add_bilingual_labels, calculate_axes
+
 
 def test_calculate_axes():
     # Mocking a record with the 10 original purification indicators using the actual schema
     record = {
         "purificacao": {
-            "rigidez_postural": 3, 
-            "desincorporacao": 2, 
-            "monocromatizacao": 1, 
+            "rigidez_postural": 3,
+            "desincorporacao": 2,
+            "monocromatizacao": 1,
             "serialidade": 2,
-            "heraldizacao": 3, 
-            "enquadramento_arquitetonico": 2, 
+            "heraldizacao": 3,
+            "enquadramento_arquitetonico": 2,
             "inscricao_estatal": 1,
-            "dessexualizacao": 3, 
-            "uniformizacao_facial": 3, 
+            "dessexualizacao": 3,
+            "uniformizacao_facial": 3,
             "apagamento_narrativo": 3
         }
     }

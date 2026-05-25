@@ -11,7 +11,6 @@ Usage: python tools/scripts/auto_code_purification.py
 
 import json
 import re
-import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -82,7 +81,7 @@ def infer_scores(item, rec):
     desc = (item.get("description") or "").lower()
     motifs = [m.lower() for m in item.get("motif", [])]
     title_hint = (rec.get("input", {}).get("title_hint") or "").lower()
-    
+
     iconclass_codes = set()
     for se in rec.get("webscout", {}).get("search_results", []):
         for ic in se.get("iconclass_candidates", []):
@@ -93,7 +92,7 @@ def infer_scores(item, rec):
 
     # Classify support type
     all_text = f"{title} {desc} {title_hint}"
-    
+
     is_coin = any(w in all_text for w in ["moeda", "coin ", "franc", "pfennig", "centime",
                                             "mark", "penny", "réis", "reis", "piastre"])
     is_stamp = any(w in all_text for w in ["selo", "stamp", "timbre", "postage", "série"])
@@ -141,15 +140,15 @@ def infer_scores(item, rec):
                                                    "column", "coluna", "portal", "pedestal"])
     is_narrative = any(w in motifs for w in ["conversation", "diálogo", "dialogo",
                                               "dialogue", "scene", "cena", "interaction"])
-    
+
     has_justitia = "justitia" in motifs or "justice" in motifs
     has_republica = "república" in motifs or "republica" in motifs or "republic" in motifs
     has_liberty = "liberdade" in motifs or "liberty" in motifs or "liberte" in motifs
     has_germania = "germania" in motifs
     has_britannia = "brittania" in motifs or "britannia" in motifs
-    
+
     # === Score inference ===
-    
+
     # desincorporacao: 0=naturalistic body, 3=no body
     if is_textual or is_frontispiece:
         desincorporacao = 3
@@ -161,7 +160,7 @@ def infer_scores(item, rec):
         desincorporacao = 0
     else:
         desincorporacao = 1
-    
+
     # rigidez_postural: 0=dynamic, 3=hieratic
     if is_coin or is_banknote or is_stamp:
         rigidez = 3  # fixed profile/static
@@ -173,7 +172,7 @@ def infer_scores(item, rec):
         rigidez = 1
     else:
         rigidez = 1
-    
+
     # dessexualizacao: 0=explicit, 3=covered
     if is_sculpture:
         dessex = 2  # classical nude idealized
@@ -185,7 +184,7 @@ def infer_scores(item, rec):
         dessex = 1  # often bare-breasted
     else:
         dessex = 2
-    
+
     # uniformizacao_facial: 0=individualized, 3=no face
     if is_coin or is_stamp or is_banknote:
         uniform = 3  # standardized profile
@@ -197,7 +196,7 @@ def infer_scores(item, rec):
         uniform = 1  # expressive
     else:
         uniform = 2
-    
+
     # heraldizacao: 0=integrated, 3=isolated emblems
     if is_coin or is_stamp or is_banknote:
         herald = 2  # attributes as design elements
@@ -207,7 +206,7 @@ def infer_scores(item, rec):
         herald = 1  # sword/scales carried
     else:
         herald = 1
-    
+
     # enquadramento_arquitetonico: 0=open space, 3=decorative
     if is_sculpture:
         arq = 2
@@ -219,7 +218,7 @@ def infer_scores(item, rec):
         arq = 2
     else:
         arq = 1
-    
+
     # apagamento_narrativo: 0=complete narrative, 3=isolated
     if is_narrative or ("conversation" in motifs):
         narr = 0
@@ -235,7 +234,7 @@ def infer_scores(item, rec):
         narr = 1
     else:
         narr = 2
-    
+
     # monocromatizacao: 0=polychrome, 3=monochrome
     if is_coin:
         mono = 3
@@ -253,7 +252,7 @@ def infer_scores(item, rec):
         mono = 1
     else:
         mono = 2
-    
+
     # serialidade: 0=unique, 3=mass reproduction
     if is_coin or is_stamp or is_banknote:
         serial = 3
@@ -271,7 +270,7 @@ def infer_scores(item, rec):
         serial = 0
     else:
         serial = 1
-    
+
     # inscricao_estatal: 0=autonomous, 3=state device
     if is_coin or is_stamp or is_banknote:
         estatal = 3
@@ -285,7 +284,7 @@ def infer_scores(item, rec):
         estatal = 2
     else:
         estatal = 1
-    
+
     return {
         "desincorporacao": desincorporacao,
         "rigidez_postural": rigidez,
@@ -302,8 +301,8 @@ def infer_scores(item, rec):
 
 def get_next_id(cc, coded_ids):
     """Get next available ID for a country code."""
-    existing = [int(re.search(r'\d+$', eid).group()) 
-                for eid in coded_ids 
+    existing = [int(re.search(r'\d+$', eid).group())
+                for eid in coded_ids
                 if re.match(rf'^{re.escape(cc)}-\d+$', eid)]
     if existing:
         return f"{cc}-{max(existing) + 1:03d}"
@@ -314,26 +313,26 @@ def main():
     print("=" * 60)
     print("  Auto-Purification Coding for pending items")
     print("=" * 60)
-    
+
     # Load data
     corpus = load_json(CORPUS_JSON)
     coded_entries = load_jsonl(PURIFICATION_JSONL)
     records = load_jsonl(RECORDS_JSONL)
-    
+
     # Build URL->record lookup
     url2rec = {}
     for r in records:
         url2rec[r.get("input", {}).get("input_url", "")] = r
         for se in r.get("webscout", {}).get("search_results", []):
             url2rec[se.get("url", "")] = r
-    
+
     # Existing coded IDs
     coded_ids = set(e["id"] for e in coded_entries)
-    
+
     # Items missing IDs
     no_id_items = [item for item in corpus if not item.get("id")]
     print(f"\nItems to code: {len(no_id_items)}")
-    
+
     # Group by country for ID generation
     from collections import defaultdict
     by_country = defaultdict(list)
@@ -348,28 +347,28 @@ def main():
         else:
             cc = "XX"
         by_country[cc].append((item, rec))
-    
+
     print("\nItems by country code:")
     for cc in sorted(by_country):
         print(f"  {cc}: {len(by_country[cc])} items")
-    
+
     # Generate IDs and code each item
     coded_count = 0
     new_entries = []
     items_updated = []
-    
+
     for cc in sorted(by_country):
         country_items = by_country[cc]
         for item, rec in country_items:
             # Generate ID
             new_id = get_next_id(cc, coded_ids)
             coded_ids.add(new_id)
-            
+
             # Infer scores
             scores = infer_scores(item, rec)
             regime = infer_regime(item, rec)
             composite = round(sum(scores.values()) / len(scores), 2)
-            
+
             # Build entry
             now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
             entry = {
@@ -386,29 +385,29 @@ def main():
                 "coded_at": now,
                 "notes": "Auto-coded — verify visual scores",
             }
-            
+
             new_entries.append(entry)
             items_updated.append((item, new_id))
             coded_count += 1
-            
+
             title_short = (item.get("title") or "?")[:50]
             print(f"  [{coded_count:3d}/{len(no_id_items)}] {new_id:20s} "
                   f"composite={composite:.2f} regime={regime:12s} | {title_short}")
-    
+
     # Write new entries to purification.jsonl
     with open(PURIFICATION_JSONL, "a") as f:
         for entry in new_entries:
             f.write(json.dumps(entry, ensure_ascii=False) + "\n")
-    
+
     print(f"\n  ✅ Wrote {len(new_entries)} entries to {PURIFICATION_JSONL}")
-    
+
     # Update corpus-data.json with IDs
     for item, new_id in items_updated:
         item["id"] = new_id
-    
+
     with open(CORPUS_JSON, "w") as f:
         json.dump(corpus, f, ensure_ascii=False, indent=2)
-    
+
     # Also add country fields if missing
     for item, new_id in items_updated:
         url = item.get("url", "")
@@ -426,26 +425,26 @@ def main():
                           "XX": ""}
             if not item.get("country") and cc in country_map:
                 item["country"] = country_map[cc]
-    
+
     # Rewrite with country updates too
     with open(CORPUS_JSON, "w") as f:
         json.dump(corpus, f, ensure_ascii=False, indent=2)
-    
+
     print(f"  ✅ Updated {len(items_updated)} items in {CORPUS_JSON} with IDs")
-    
+
     # Show summary
     all_coded = set()
     with open(PURIFICATION_JSONL) as f:
         for line in f:
             e = json.loads(line)
             all_coded.add(e["id"])
-    
+
     total = len(corpus)
     done = len(all_coded)
     print(f"\n{'=' * 50}")
     print(f"  Final: {done}/{total} coded ({done/total*100:.0f}%)")
     print(f"{'=' * 50}")
-    
+
     # Stats
     composites = []
     regimes = Counter()
@@ -454,7 +453,7 @@ def main():
             e = json.loads(line)
             composites.append(e.get("purificacao_composto", 0))
             regimes[e.get("regime_iconocratico", "?")] += 1
-    
+
     print(f"  Composite range: {min(composites):.2f} - {max(composites):.2f}")
     print(f"  Composite mean: {sum(composites)/len(composites):.2f}")
     print(f"  By regime: {dict(regimes)}")

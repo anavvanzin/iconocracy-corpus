@@ -1,6 +1,5 @@
 from pathlib import Path
 
-
 DEFAULT_SSD_ROOT = Path("/Volumes/ICONOCRACIA/corpus/imagens")
 FALLBACK_RELATIVE_PATH = Path("data/raw/.staging")
 

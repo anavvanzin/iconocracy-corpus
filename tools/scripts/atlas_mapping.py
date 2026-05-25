@@ -90,8 +90,8 @@ def main():
     mappings = map_zw_to_atlas()
 
     print("# Atlas Panel Mapping\n")
-    print(f"| ZW Panel | Atlas Panel(s) | Score |")
-    print(f"|----------|---------------|-------|")
+    print("| ZW Panel | Atlas Panel(s) | Score |")
+    print("|----------|---------------|-------|")
 
     for m in mappings:
         names = ", ".join(f"{n}: {ATLAS_PANELS[n]['name']}" for n in m["atlas_panels"])

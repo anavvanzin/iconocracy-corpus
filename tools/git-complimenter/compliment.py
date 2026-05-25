@@ -1,6 +1,6 @@
 import json
-import random
 import os
+import random
 
 COMPLIMENTS_PATH = os.path.expanduser("~/Research/hub/iconocracy-corpus/tools/git-complimenter/compliments.json")
 

@@ -14,9 +14,6 @@ import shutil
 import subprocess
 import sys
 import tempfile
-import time
-import urllib.request
-
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -369,7 +366,7 @@ def main():
     if results["copy"]:
         print(f"  Copies: {', '.join(results['copy'])}")
     if results["fail"]:
-        print(f"\n  FAILURES:")
+        print("\n  FAILURES:")
         for item_id, reason in results["fail"]:
             print(f"    {item_id}: {reason}")
 

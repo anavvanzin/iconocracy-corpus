@@ -4,7 +4,12 @@ import unittest
 from pathlib import Path
 from unittest.mock import Mock, patch
 
-from tools.scripts.run_iconocracy_eval_openrouter import build_messages, load_jsonl, parse_response, run_prompt
+from tools.scripts.run_iconocracy_eval_openrouter import (
+    build_messages,
+    load_jsonl,
+    parse_response,
+    run_prompt,
+)
 
 
 class OpenRouterEvalRunnerTests(unittest.TestCase):

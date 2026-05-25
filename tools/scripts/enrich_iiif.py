@@ -15,10 +15,11 @@ Uso:
   python3 enrich_iiif.py corpus-data.json [--out corpus-data-enriched.json] [--report]
 """
 
-import json, re, sys, argparse
-from urllib.parse import urlparse
-from pathlib import Path
+import argparse
+import json
+import re
 from collections import defaultdict
+from pathlib import Path
 
 # ── Padrões ──────────────────────────────────────────────────────────────────
 
@@ -186,7 +187,7 @@ def generate_report(enriched: list) -> str:
     with_manifest = sum(1 for i in enriched if i.get("url_iiif") and
                        not str(i.get("url_iiif","")).endswith("?fo=json"))
     lines.extend(["",
-        f"## Resumo",
+        "## Resumo",
         f"- Itens com `url_image_download`: {with_download}/{len(enriched)}",
         f"- Itens com manifesto IIIF real: {with_manifest}/{len(enriched)}",
         f"- Itens sem nenhuma URL de imagem: {len(no_image)}",

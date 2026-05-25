@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
+
 """
 upload_thumbnails.py — Generate and upload thumbnails for ICONOCRACY corpus items.
 
@@ -13,19 +14,16 @@ Usage:
 R2 upload requires CLOUDFLARE_API_TOKEN + R2_ACCOUNT_ID env vars.
 Without R2 credentials, thumbnails are saved locally only.
 """
-import base64
-import hashlib
 import json
 import os
 import re
 import ssl
 import sys
 import time
-import urllib.request
 import urllib.error
+import urllib.request
 from io import BytesIO
 from pathlib import Path
-from typing import Optional
 
 try:
     from PIL import Image

@@ -88,7 +88,7 @@ def main():
     with open(CORPUS_PATH, "w") as f:
         json.dump(corpus, f, indent=2, ensure_ascii=False)
 
-    print(f"\nClassification results:")
+    print("\nClassification results:")
     for st, count in sorted(classified.items(), key=lambda x: -x[1]):
         print(f"  {st:25s} {count:3d} items")
     print(f"\nUnclassified: {len(unclassified)}")

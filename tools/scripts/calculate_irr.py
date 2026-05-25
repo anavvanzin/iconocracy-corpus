@@ -6,10 +6,10 @@ between human canonical ratings and synthetic pilot ratings.
 
 import argparse
 import json
-import os
 import sys
 from datetime import datetime
 from pathlib import Path
+
 import numpy as np
 
 try:
@@ -91,10 +91,10 @@ def calculate_irr_metrics(human_ratings, synthetic_ratings, verbose=False):
     if not matched_ids:
         print("Error: No overlapping item IDs found between human and synthetic files.", file=sys.stderr)
         sys.exit(1)
-        
+
     if verbose:
         print(f"Matched {len(matched_ids)} items for IRR calculation.")
-    
+
     # 1. Calculate per-indicator Alphas
     alphas = {}
     for ind in INDICATORS:
@@ -104,11 +104,11 @@ def calculate_irr_metrics(human_ratings, synthetic_ratings, verbose=False):
             h_score = human_ratings[item_id].get(ind)
             s_data = synthetic_ratings[item_id].get(ind)
             s_score = s_data.get("score") if s_data else None
-            
+
             if h_score is not None and s_score is not None:
                 coder_human.append(h_score)
                 coder_synthetic.append(s_score)
-        
+
         # Build 2xN reliability matrix
         reliability_data = np.array([coder_human, coder_synthetic])
         if len(coder_human) > 0 and len(set(coder_human).union(set(coder_synthetic))) > 1:
@@ -121,7 +121,7 @@ def calculate_irr_metrics(human_ratings, synthetic_ratings, verbose=False):
                     print(f"Warning: Failed to compute alpha for {ind}: {e}")
         else:
             alphas[ind] = float('nan')
-            
+
     # 2. Calculate pooled global Alpha
     pooled_human = []
     pooled_synthetic = []
@@ -133,7 +133,7 @@ def calculate_irr_metrics(human_ratings, synthetic_ratings, verbose=False):
             if h_score is not None and s_score is not None:
                 pooled_human.append(h_score)
                 pooled_synthetic.append(s_score)
-                
+
     reliability_data_pooled = np.array([pooled_human, pooled_synthetic])
     pooled_alpha = float('nan')
     if len(pooled_human) > 0 and len(set(pooled_human).union(set(pooled_synthetic))) > 1:
@@ -141,28 +141,28 @@ def calculate_irr_metrics(human_ratings, synthetic_ratings, verbose=False):
             pooled_alpha = krippendorff.alpha(reliability_data=reliability_data_pooled, level_of_measurement='ordinal')
         except Exception as e:
             print(f"Error computing pooled alpha: {e}", file=sys.stderr)
-            
+
     # Calculate average of indicator alphas (excluding NaNs)
     valid_alphas = [a for a in alphas.values() if not np.isnan(a)]
     mean_alpha = np.mean(valid_alphas) if valid_alphas else float('nan')
-    
+
     return matched_ids, alphas, pooled_alpha, mean_alpha
 
 def detect_and_log_discrepancies(matched_ids, human_ratings, synthetic_ratings):
     LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     discrepancies = []
-    
+
     with open(LOG_PATH, "w", encoding="utf-8") as log_file:
         log_file.write(f"IRR DISCREPANCY LOG — Generated on {datetime.now().isoformat()}\n")
         log_file.write("=" * 80 + "\n\n")
-        
+
         for item_id in matched_ids:
             for ind in INDICATORS:
                 h_score = human_ratings[item_id].get(ind)
                 s_data = synthetic_ratings[item_id].get(ind)
                 s_score = s_data.get("score") if s_data else None
                 s_just = s_data.get("justification", "") if s_data else ""
-                
+
                 if h_score is not None and s_score is not None:
                     diff = abs(h_score - s_score)
                     if diff >= 2:
@@ -173,7 +173,7 @@ def detect_and_log_discrepancies(matched_ids, human_ratings, synthetic_ratings):
                             "synthetic": s_score,
                             "justification": s_just
                         })
-                        
+
                         log_file.write("=" * 80 + "\n")
                         log_file.write(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
                         log_file.write(f"Item ID: {item_id}\n")
@@ -183,21 +183,21 @@ def detect_and_log_discrepancies(matched_ids, human_ratings, synthetic_ratings):
                         log_file.write(f"Difference: {diff}\n")
                         log_file.write(f"Synthetic Justification:\n{s_just}\n")
                         log_file.write("=" * 80 + "\n\n")
-                        
+
     return discrepancies
 
 def main():
     args = parse_args()
     human = load_human_ratings()
     synthetic = load_synthetic_ratings(args.mock)
-    
+
     if args.verbose:
         print(f"Loaded {len(human)} human canonical records.")
         print(f"Loaded {len(synthetic)} synthetic records.")
-        
+
     matched_ids, alphas, pooled_alpha, mean_alpha = calculate_irr_metrics(human, synthetic, args.verbose)
     discrepancies = detect_and_log_discrepancies(matched_ids, human, synthetic)
-    
+
     print("\n" + "=" * 50)
     print("INTER-RATER RELIABILITY (IRR) PILOT RESULTS")
     print("=" * 50)

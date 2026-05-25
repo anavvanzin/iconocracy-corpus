@@ -10,8 +10,8 @@ import os
 import ssl
 import sys
 import time
-import urllib.request
 import urllib.error
+import urllib.request
 
 # SSL context for servers with cert issues (e.g. Albertina)
 SSL_UNVERIFIED = ssl.create_default_context()
@@ -54,7 +54,7 @@ def make_request(url: str, is_json: bool = False):
             return data
     except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError) as e:
         if "CERTIFICATE_VERIFY_FAILED" in str(e) or "SSL" in str(e):
-            print(f"  [WARN] SSL error, retrying without verification ...")
+            print("  [WARN] SSL error, retrying without verification ...")
             req2 = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
             try:
                 with urllib.request.urlopen(req2, timeout=30, context=SSL_UNVERIFIED) as resp:

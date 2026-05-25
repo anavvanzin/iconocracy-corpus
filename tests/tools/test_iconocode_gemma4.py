@@ -21,7 +21,6 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from tools.scripts import iconocode_gemma4 as mod  # noqa: E402
 
-
 # ---------------------------------------------------------------------------
 # Fixtures — mock model / processor, a tiny PNG, a fake corpus
 # ---------------------------------------------------------------------------

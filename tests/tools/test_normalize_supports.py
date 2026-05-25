@@ -11,13 +11,12 @@ from pathlib import Path
 
 import pytest
 
+from tools.scripts import normalize_supports as ns
 from tools.scripts.normalize_supports import (
     apply_normalization,
     atomic_write_json,
     main,
 )
-from tools.scripts import normalize_supports as ns
-
 
 # ---- Fixtures ---------------------------------------------------------
 

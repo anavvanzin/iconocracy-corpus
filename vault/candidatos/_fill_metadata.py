@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Fill missing suporte, motivo_alegorico, seculo fields in SCOUT-*.md files."""
-import re, os, glob, sys
+import glob
+import os
+import re
 
 WORKDIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -37,9 +39,9 @@ def infer_suporte(title, url, body, yaml_str):
     m = re.search(r'### Citação ABNT\n(.*?)(?:\n\n|\n###|\Z)', body, re.DOTALL)
     if m:
         abnt = m.group(1).lower()
-    
+
     full_text = tlower + ' ' + abnt
-    
+
     # Check title keywords first (most specific)
     # Moeda indicators
     coin_words = ['lire', 'mark', 'franc', 'peseta', 'cent', 'dollar', 'escudo',
@@ -49,24 +51,24 @@ def infer_suporte(title, url, body, yaml_str):
     for w in coin_words:
         if re.search(r'\b' + re.escape(w) + r'\b', tlower):
             return 'moeda'
-    
+
     # Selo indicators
     stamp_words = ['selo', 'stamp', 'overprint', 'série ceres', 'semeuse']
     for w in stamp_words:
         if re.search(r'\b' + re.escape(w) + r'\b', tlower):
             return 'selo'
-    
+
     # Papel-moeda indicators
     paper_words = ['banknote', 'assignat', 'cédula', 'cedula', 'silver certificate',
                    'reichsbanknote', 'notgeld', 'certificate', 'educational series']
     for w in paper_words:
         if re.search(r'\b' + re.escape(w) + r'\b', tlower):
             return 'papel-moeda'
-    
+
     # Medalha
     if re.search(r'\bmedalha\b', tlower) or re.search(r'\bmedal\b', tlower):
         return 'medalha'
-    
+
     # Check ABNT citation for medium clues
     if 'fotografia' in abnt or 'photograph' in abnt:
         return 'fotografia'
@@ -92,7 +94,7 @@ def infer_suporte(title, url, body, yaml_str):
         return 'selo'
     if 'cédula' in abnt or 'banknote' in abnt or 'papel-moeda' in abnt:
         return 'papel-moeda'
-    
+
     # Check title for medium indicators
     if 'fotografia' in tlower or 'photograph' in tlower:
         return 'fotografia'
@@ -122,7 +124,7 @@ def infer_suporte(title, url, body, yaml_str):
         return 'estampa'
     if 'pageant' in tlower:
         return 'fotografia'
-    
+
     # Last resort: check "Motivos identificados" in body for clues
     m = re.search(r'\*\*Motivos identificados\*\*:\s*(.*)', body)
     if m:
@@ -133,19 +135,19 @@ def infer_suporte(title, url, body, yaml_str):
             return 'moeda'
         if 'banknote' in motivos or 'notgeld' in motivos:
             return 'papel-moeda'
-    
+
     return None
 
 def infer_motivo(title, body, yaml_str):
     """Infer motivo_alegorico from title and body."""
     tlower = (title or '').lower()
-    
+
     # Extract Motivos identificados
     m = re.search(r'\*\*Motivos identificados\*\*:\s*(.*)', body)
     motivos = m.group(1).lower() if m else ''
-    
+
     combined = tlower + ' ' + motivos
-    
+
     # Priority order for figure types (most specific first)
     if re.search(r'\bjustiti?a\b', combined, re.IGNORECASE) or \
        re.search(r'\bjustice\b', combined, re.IGNORECASE) or \
@@ -155,25 +157,25 @@ def infer_motivo(title, body, yaml_str):
        re.search(r'\biustitia\b', combined, re.IGNORECASE) or \
        re.search(r'\bjus civile\b', combined, re.IGNORECASE):
         return 'Justitia'
-    
+
     if re.search(r'\bgermania\b', combined, re.IGNORECASE):
         return 'Germania'
-    
+
     if re.search(r'\bbritannia\b', combined, re.IGNORECASE):
         return 'Britannia'
-    
+
     if re.search(r'\bcolumbia\b', combined, re.IGNORECASE):
         return 'Columbia'
-    
+
     if re.search(r'\bhispania\b', combined, re.IGNORECASE):
         return 'Hispania'
-    
+
     if re.search(r'\bitalia turrita\b', combined, re.IGNORECASE):
         return 'Italia Turrita'
-    
+
     if re.search(r'\bmarianne\b', combined, re.IGNORECASE):
         return 'Marianne'
-    
+
     if re.search(r'\bla république\b', combined, re.IGNORECASE) or \
        re.search(r'\brépublique\b', combined, re.IGNORECASE) or \
        re.search(r'\brepublic\b', combined, re.IGNORECASE) or \
@@ -187,67 +189,67 @@ def infer_motivo(title, body, yaml_str):
            re.search(r'\brepública\b', combined, re.IGNORECASE):
             return 'A República'
         return 'Republic'
-    
+
     if re.search(r'\blibert[éy]\b', combined, re.IGNORECASE) or \
        re.search(r'\bliberdade\b', combined, re.IGNORECASE):
         return 'Liberty'
-    
+
     if re.search(r'\bsemeuse\b', combined, re.IGNORECASE) or \
        re.search(r'\bsemeadora\b', combined, re.IGNORECASE):
         return 'La Semeuse'
-    
+
     if re.search(r'\bcérès\b', combined, re.IGNORECASE) or \
        re.search(r'\bceres\b', combined, re.IGNORECASE):
         return 'Cérès'
-    
+
     if re.search(r'\bconstitution\b', combined, re.IGNORECASE):
         return 'Constitution'
-    
+
     if re.search(r'\bpaix\b', combined, re.IGNORECASE) or \
        re.search(r'\bpeace\b', combined, re.IGNORECASE):
         return 'Peace'
-    
+
     if re.search(r'\bempire\b', combined, re.IGNORECASE) or \
        re.search(r'\bempire\b', combined, re.IGNORECASE):
         return 'Empire'
-    
+
     if re.search(r'\balegoria\b', combined, re.IGNORECASE) or \
        re.search(r'\ballegor', combined, re.IGNORECASE) or \
        re.search(r'\bfemale\b', combined, re.IGNORECASE):
         return 'Alegoria feminina'
-    
+
     if re.search(r'\bpatria\b', combined, re.IGNORECASE) or \
        re.search(r'\bpátria\b', combined, re.IGNORECASE):
         return 'Pátria'
-    
+
     if re.search(r'\bnotre-dame\b', combined, re.IGNORECASE):
         return 'Notre-Dame / La République'
-    
+
     if re.search(r'\bmadame\b', combined, re.IGNORECASE):
         return 'Contra-alegoria'
-    
+
     if re.search(r'\bfeminism', combined, re.IGNORECASE) or \
        re.search(r'\bsuffrag', combined, re.IGNORECASE):
         return 'Contra-alegoria'
-    
+
     return None
 
 def compute_seculo(data_estimada):
     """Compute seculo from data_estimada."""
     if not data_estimada or data_estimada.lower() in ('unknown', '', '""', "''"):
         return None
-    
+
     de = data_estimada.strip().strip('"').strip("'")
-    
+
     # Handle "Xth century" patterns
     m = re.match(r'(\d+)(?:st|nd|rd|th)\s+century', de, re.IGNORECASE)
     if m:
         return m.group(1) + 'th'
-    
+
     m = re.match(r'early\s+(\d+)(?:st|nd|rd|th)\s+century', de, re.IGNORECASE)
     if m:
         return m.group(1) + 'th'
-    
+
     # Extract first year-like number
     # Handle patterns like "c. 1560", "c. 1888 (final...)", "ca. 1917"
     # First, try to find a 4-digit year
@@ -256,20 +258,20 @@ def compute_seculo(data_estimada):
         year = int(year_match.group(1))
         century = ((year - 1) // 100) + 1
         return str(century) + 'th'
-    
+
     # Try 3-digit years (rare, like 800s)
     year_match = re.search(r'\b([5-9][0-9]{2}|1[0-2][0-9]{2})\b', de)
     if year_match:
         year = int(year_match.group(1))
         century = ((year - 1) // 100) + 1
         return str(century) + 'th'
-    
+
     return None
 
 def insert_field(yaml_str, field, value):
     """Insert a field into YAML frontmatter, placing it logically."""
     lines = yaml_str.split('\n')
-    
+
     # Determine insertion point based on field
     if field == 'suporte':
         # Insert after 'data_scout:' line, or after 'records_item_id:'
@@ -282,7 +284,7 @@ def insert_field(yaml_str, field, value):
         # Fallback: end of yaml
         lines.append(f'{field}: {value}')
         return '\n'.join(lines)
-    
+
     elif field == 'motivo_alegorico':
         # Insert after 'records_item_id:' or 'data_scout:'
         insert_after = ['records_item_id:', 'data_scout:']
@@ -293,7 +295,7 @@ def insert_field(yaml_str, field, value):
                     return '\n'.join(lines)
         lines.append(f'{field}: {value}')
         return '\n'.join(lines)
-    
+
     elif field == 'seculo':
         # Insert near data_estimada or after motivo_alegorico
         insert_after = ['motivo_alegorico:', 'data_estimada:', 'records_item_id:']
@@ -304,33 +306,33 @@ def insert_field(yaml_str, field, value):
                     return '\n'.join(lines)
         lines.append(f'{field}: {value}')
         return '\n'.join(lines)
-    
+
     return yaml_str
 
 def main():
     files = get_files()
     print(f'Total files to check: {len(files)}')
-    
+
     stats = {'suporte_filled': 0, 'motivo_filled': 0, 'seculo_filled': 0,
              'suporte_skipped': 0, 'motivo_skipped': 0, 'seculo_skipped': 0,
              'problematic': []}
-    
+
     for filepath in files:
         fname = os.path.basename(filepath)
         with open(filepath, 'r') as f:
             content = f.read()
-        
+
         yaml_str, yaml_match, rest = parse_yaml(content)
         if yaml_str is None:
             print(f'  NO YAML: {fname}')
             continue
-        
+
         title = extract_field(yaml_str, 'titulo') or ''
         data_est = extract_field(yaml_str, 'data_estimada') or ''
         url = extract_field(yaml_str, 'url') or ''
-        
+
         modified = False
-        
+
         # Check suporte
         if not has_field(yaml_str, 'suporte'):
             suporte = infer_suporte(title, url, rest, yaml_str)
@@ -343,7 +345,7 @@ def main():
                 stats['suporte_skipped'] += 1
                 stats['problematic'].append(f'{fname}: could not infer suporte')
                 print(f'  SUPORTE: {fname} -> COULD NOT INFER')
-        
+
         # Check motivo_alegorico
         if not has_field(yaml_str, 'motivo_alegorico'):
             motivo = infer_motivo(title, rest, yaml_str)
@@ -356,7 +358,7 @@ def main():
                 stats['motivo_skipped'] += 1
                 stats['problematic'].append(f'{fname}: could not infer motivo')
                 print(f'  MOTIVO: {fname} -> COULD NOT INFER')
-        
+
         # Check seculo
         if not has_field(yaml_str, 'seculo'):
             seculo = compute_seculo(data_est)
@@ -369,18 +371,18 @@ def main():
                 stats['seculo_skipped'] += 1
                 stats['problematic'].append(f'{fname}: could not compute seculo from "{data_est}"')
                 print(f'  SECULO: {fname} -> COULD NOT COMPUTE (data={data_est})')
-        
+
         if modified:
             new_content = '---\n' + yaml_str + '\n---' + rest
             with open(filepath, 'w') as f:
                 f.write(new_content)
-    
+
     print('\n=== SUMMARY ===')
     print(f'Suporte filled: {stats["suporte_filled"]}, skipped: {stats["suporte_skipped"]}')
     print(f'Motivo filled: {stats["motivo_filled"]}, skipped: {stats["motivo_skipped"]}')
     print(f'Seculo filled: {stats["seculo_filled"]}, skipped: {stats["seculo_skipped"]}')
     print(f'Total fields filled: {stats["suporte_filled"] + stats["motivo_filled"] + stats["seculo_filled"]}')
-    
+
     if stats['problematic']:
         print(f'\n=== PROBLEMATIC FILES ({len(stats["problematic"])}) ===')
         for p in stats['problematic']:

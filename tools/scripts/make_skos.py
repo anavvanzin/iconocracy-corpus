@@ -1,6 +1,8 @@
-import sys, os
-import textbase
+import os
+import sys
 from urllib.parse import quote
+
+import textbase
 from rich.progress import track
 
 

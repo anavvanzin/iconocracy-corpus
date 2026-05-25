@@ -1,6 +1,8 @@
 import pytest
 from pydantic import ValidationError
+
 from tools.scripts.run_irr_pilot import PilotCodingResult, generate_mock_response
+
 
 def test_json_parsing_adherence():
     raw_response = """

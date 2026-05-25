@@ -15,15 +15,15 @@ import os
 import re
 import sys
 import time
+import urllib.error
+import urllib.request
 from pathlib import Path
 from typing import Any, Dict, List, Optional
-import urllib.request
-import urllib.error
 
 try:
-    from PIL import Image
     from google import genai
     from google.genai import types
+    from PIL import Image
     from pydantic import BaseModel, Field
 except ImportError as e:
     raise ImportError(
@@ -279,7 +279,7 @@ def main() -> None:
 
     # Open output file in append mode
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    
+
     success_count = 0
     skipped_count = 0
 
@@ -290,7 +290,7 @@ def main() -> None:
                 continue
 
             print(f"\n[{idx}/{len(sample)}] Processing item ID: {item_id}")
-            
+
             # Find record info
             rec = records.get(item_id, {})
             title = rec.get("input", {}).get("title_hint", "Sem Título")
@@ -346,7 +346,7 @@ Sua tarefa é analisar a imagem fornecida e avaliar os 10 indicadores de Purific
             try:
                 with Image.open(img_path) as img:
                     img.load()
-                    
+
                     # API Call or Mock
                     if args.mock:
                         print("  [Mock] Generating mock coding result...")
@@ -409,7 +409,7 @@ Sua tarefa é analisar a imagem fornecida e avaliar os 10 indicadores de Purific
             # Write output
             out_file.write(json.dumps(result_dict, ensure_ascii=False) + "\n")
             out_file.flush()
-            print(f"  Successfully processed and saved results.")
+            print("  Successfully processed and saved results.")
             success_count += 1
 
             # Brief sleep to avoid hitting rate limits

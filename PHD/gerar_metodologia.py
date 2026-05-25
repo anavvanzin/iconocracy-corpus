@@ -5,13 +5,10 @@ Gerador da Seção Metodologia v.1 — ICONOCRACY
 Formatação ABNT NBR 14724: Times New Roman 12pt, margens 3/2/3/2 cm, espaço 1,5
 """
 
+
 from docx import Document
-from docx.shared import Pt, Cm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
-from docx.enum.style import WD_STYLE_TYPE
-from docx.oxml.ns import qn
-from docx.oxml import OxmlElement
-import copy
+from docx.shared import Cm, Pt, RGBColor
 
 OUTPUT = "/Users/ana/iconocracy-corpus/PHD/Metodologia_v1_ICONOCRACY.docx"
 

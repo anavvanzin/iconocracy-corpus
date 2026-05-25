@@ -10,8 +10,6 @@ Usage:
     python tools/scripts/analyze_purification_drift.py
 """
 import json
-import sys
-from collections import Counter, defaultdict
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]

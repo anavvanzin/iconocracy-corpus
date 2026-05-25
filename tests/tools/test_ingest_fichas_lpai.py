@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import io
 import json
 import sys
 import zipfile
@@ -15,7 +14,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(REPO_ROOT / "tools" / "scripts"))
 
 import ingest_fichas_lpai as ingest  # noqa: E402
-
 
 # ---------------------------------------------------------------------------
 # Fixtures

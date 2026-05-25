@@ -22,7 +22,6 @@ import argparse
 import hashlib
 import json
 import re
-import sys
 import uuid
 from datetime import date, datetime, timezone
 from pathlib import Path

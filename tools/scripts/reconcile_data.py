@@ -19,8 +19,6 @@ import json
 import re
 import sys
 from pathlib import Path
-from collections import defaultdict
-
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CORPUS_PATH = REPO_ROOT / "corpus" / "corpus-data.json"

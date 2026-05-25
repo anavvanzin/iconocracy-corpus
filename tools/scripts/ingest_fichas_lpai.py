@@ -23,7 +23,6 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import os
 import re
 import sys
 import uuid
@@ -31,7 +30,7 @@ import zipfile
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
+from typing import Any, Dict, List, Optional, Set, Tuple
 from urllib.parse import urlsplit, urlunsplit
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -530,14 +529,14 @@ def render_vault_draft(ficha: Dict[str, Any], record: Dict[str, Any]) -> Tuple[s
         "---",
         f'title: "{title}"',
         f"id: {ficha_id}",
-        f"aliases: []",
+        "aliases: []",
         "tags:",
     ]
     for t in tags:
         lines.append(f"  - {t}")
     lines.extend(
         [
-            f"status: staging-lpai-v2",
+            "status: staging-lpai-v2",
             f"pais: {country_code_to_name(country_code) if country_code else ''}",
             f"data: {ficha.get('date','')}",
             f"autor: {ficha.get('creator','')}",
