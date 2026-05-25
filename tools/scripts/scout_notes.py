@@ -43,7 +43,6 @@ MOTIF_TAGS = {
     "Justitia": "motivo/justitia",
     "Justice": "motivo/justitia",
     "Republic": "motivo/republica",
-    "Republic": "motivo/republica",
     "République": "motivo/republica",
     "República": "motivo/republica",
     "Minerva": "motivo/justitia",

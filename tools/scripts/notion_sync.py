@@ -30,7 +30,7 @@ def _deprecation_warning() -> None:
         "AVISO: notion_sync.py está descontinuado.\n"
         "O Notion não é mais utilizado como espelho catalográfico.\n"
         "Use vault_sync.py para sincronizar com o vault Obsidian:\n\n"
-        f"    python tools/scripts/vault_sync.py <comando>\n\n"
+        "    python tools/scripts/vault_sync.py <comando>\n\n"
         "Comandos disponíveis: status | diff | pull | push | sync\n",
         file=sys.stderr,
     )

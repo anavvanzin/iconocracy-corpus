@@ -11,9 +11,9 @@ import json
 import re
 import sys
 import time
-import urllib.request
-import urllib.parse
 import urllib.error
+import urllib.parse
+import urllib.request
 from pathlib import Path
 
 CORPUS_PATH = Path(__file__).resolve().parents[2] / "corpus" / "corpus-data-enriched.json"
@@ -148,7 +148,7 @@ def resolve_loc(item):
             "url_image_download": image_url,
             "url_iiif": iiif_url,
             "iiif_source": "loc_resolved",
-            "iiif_note": f"Resolved via LoC JSON API"
+            "iiif_note": "Resolved via LoC JSON API"
         }
 
     # Fallback: LoC often serves IIIF at a predictable URL
@@ -660,7 +660,7 @@ def run_scenario_c(items):
 
         print(f"  [{item_id}] {regime:12s} (F={scores['FUNDACIONAL']:2d} N={scores['NORMATIVO']:2d} M={scores['MILITAR']:2d}) {'⚠️' if uncertain else '✅'} {justification}")
 
-    print(f"\n  Cenário C complete:")
+    print("\n  Cenário C complete:")
     print(f"    FUNDACIONAL: {counts['FUNDACIONAL']}")
     print(f"    NORMATIVO:   {counts['NORMATIVO']}")
     print(f"    MILITAR:     {counts['MILITAR']}")
@@ -692,7 +692,7 @@ def generate_report(items, url_log, regime_counts, uncertain_count, out_of_scope
     lines = [
         "# IIIF Enrichment Report — ICONOCRACIA Corpus",
         "",
-        f"**Generated**: 2026-03-31",
+        "**Generated**: 2026-03-31",
         f"**Total items**: {total}",
         "",
         "## Cobertura de URLs de imagem",

@@ -3,16 +3,43 @@
  * Handles all /api/* routes via Hono
  */
 import { Hono } from "hono";
+import type { Context, Next } from "hono";
 import { cors } from "hono/cors";
 
 interface Env {
   CORPUS_DB: D1Database;
   CORPUS_IMAGES?: R2Bucket;
+  // Shared admin secret. Set via `wrangler pages secret put ADMIN_TOKEN`.
+  // If unset, all mutating routes are denied (fail closed).
+  ADMIN_TOKEN?: string;
 }
 
 const app = new Hono<{ Bindings: Env }>();
 
 app.use("/api/*", cors());
+
+// Constant-time string comparison to avoid leaking the token via timing.
+function timingSafeEqual(a: string, b: string): boolean {
+  if (a.length !== b.length) return false;
+  let diff = 0;
+  for (let i = 0; i < a.length; i++) diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return diff === 0;
+}
+
+// Gate for mutating routes: requires `Authorization: Bearer <ADMIN_TOKEN>`.
+// Reads stay public; writes (import, delete) require the secret.
+const requireAdmin = async (c: Context<{ Bindings: Env }>, next: Next) => {
+  const expected = c.env.ADMIN_TOKEN;
+  if (!expected) {
+    return c.json({ error: "Admin operations are not configured" }, 503);
+  }
+  const header = c.req.header("Authorization") ?? "";
+  const token = header.startsWith("Bearer ") ? header.slice(7) : "";
+  if (!token || !timingSafeEqual(token, expected)) {
+    return c.json({ error: "Unauthorized" }, 401);
+  }
+  await next();
+};
 
 // ── Utility ─────────────────────────────────────────────────────────────────
 
@@ -190,7 +217,7 @@ app.get("/api/filters", async (c) => {
 });
 
 // POST /api/import/preview — parse CSV, return first 10 rows + errors
-app.post("/api/import/preview", async (c) => {
+app.post("/api/import/preview", requireAdmin, async (c) => {
   const body = await c.req.formData();
   const file = body.get("file") as File | null;
   if (!file) return c.json({ error: "No file" }, 400);
@@ -207,7 +234,7 @@ app.post("/api/import/preview", async (c) => {
 });
 
 // POST /api/import/commit — insert CSV rows into D1
-app.post("/api/import/commit", async (c) => {
+app.post("/api/import/commit", requireAdmin, async (c) => {
   const body = await c.req.formData();
   const file = body.get("file") as File | null;
   const mode = (body.get("mode") as string) ?? "append"; // append | replace
@@ -267,7 +294,7 @@ app.post("/api/import/commit", async (c) => {
 });
 
 // DELETE /api/entries/:id
-app.delete("/api/entries/:id", async (c) => {
+app.delete("/api/entries/:id", requireAdmin, async (c) => {
   await c.env.CORPUS_DB.prepare("DELETE FROM atlas_entries WHERE id = ?")
     .bind(c.req.param("id"))
     .run();

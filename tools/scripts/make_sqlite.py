@@ -1,7 +1,7 @@
-import sqlite3
 import os
-import traceback
+import sqlite3
 import sys
+import traceback
 
 SCHEMA = [
     """CREATE TABLE IF NOT EXISTS "notations" (
@@ -167,7 +167,7 @@ if __name__ == "__main__":
                 read_texts(
                     1, thebuf, os.path.join(dirpath, filename), language, cursor
                 )
-            elif filename.startswith("txt_"):                
+            elif filename.startswith("txt_"):
                 language = filename[4:6]
                 read_texts(
                     0, thebuf, os.path.join(dirpath, filename), language, cursor

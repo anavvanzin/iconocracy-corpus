@@ -27,7 +27,7 @@ def load_schema(schema_name: str) -> Dict[str, Any]:
     schema_path = SCHEMA_DIR / f"{schema_name}.schema.json"
     if not schema_path.exists():
         raise FileNotFoundError(f"Schema not found: {schema_path}")
-    
+
     with schema_path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -40,7 +40,7 @@ def create_resolver() -> RefResolver:
             schema = json.load(f)
             if "$id" in schema:
                 schema_store[schema["$id"]] = schema
-    
+
     # Use the master record schema as base
     base_uri = "https://example.org/schemas/"
     return RefResolver(base_uri, {}, store=schema_store)
@@ -117,7 +117,7 @@ def validate_record(data: Dict[str, Any], schema_name: str) -> tuple[bool, List[
         resolver=resolver,
         format_checker=FormatChecker(),
     )
-    
+
     errors = []
     for error in validator.iter_errors(data):
         path = ".".join(str(p) for p in error.path) if error.path else "root"
@@ -126,7 +126,7 @@ def validate_record(data: Dict[str, Any], schema_name: str) -> tuple[bool, List[
     for error in _collect_format_errors(data, schema):
         if error not in errors:
             errors.append(error)
-    
+
     return (len(errors) == 0, errors)
 
 
@@ -143,7 +143,7 @@ def validate_file(file_path: Path, schema_name: str) -> tuple[int, int, List[str
     total = 0
     valid = 0
     all_errors = []
-    
+
     with file_path.open("r", encoding="utf-8") as f:
         if file_path.suffix == ".jsonl":
             for line_num, line in enumerate(f, 1):
@@ -171,7 +171,7 @@ def validate_file(file_path: Path, schema_name: str) -> tuple[int, int, List[str
                     all_errors.extend(errors)
             except json.JSONDecodeError as e:
                 all_errors.append(f"Invalid JSON: {e}")
-    
+
     return (total, valid, all_errors)
 
 
@@ -201,7 +201,7 @@ def main() -> None:
         action="store_true",
         help="Show all validation errors"
     )
-    
+
     args = parser.parse_args()
 
     # Apply defaults when called without arguments
@@ -220,10 +220,10 @@ def main() -> None:
     if not args.file.exists():
         print(f"Error: File not found: {args.file}", file=sys.stderr)
         sys.exit(1)
-    
+
     print(f"Validating {args.file} against {args.schema} schema...")
     total, valid, errors = validate_file(args.file, args.schema)
-    
+
     if errors:
         if args.verbose or total <= 10:
             print("\nValidation errors:")
@@ -234,9 +234,9 @@ def main() -> None:
             for error in errors[:5]:
                 print(f"  {error}")
             print(f"  ... and {len(errors) - 5} more")
-    
+
     print(f"\nResults: {valid}/{total} records valid")
-    
+
     if valid == total:
         print("✓ All records are valid")
         sys.exit(0)

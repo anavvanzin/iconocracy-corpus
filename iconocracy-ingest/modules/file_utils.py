@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 from typing import Optional
 
-from config import SUPPORTED_EXTENSIONS, SOURCE_CODES
+from config import SOURCE_CODES, SUPPORTED_EXTENSIONS
 
 
 def compute_file_hash(filepath: Path) -> str:

@@ -137,7 +137,7 @@ def report(all_codings):
     double_coded = get_double_coded(all_codings)
 
     print(f"\n{'=' * 60}")
-    print(f"  Inter-Rater Reliability Report (Krippendorff's Alpha)")
+    print("  Inter-Rater Reliability Report (Krippendorff's Alpha)")
     print(f"{'=' * 60}")
     print(
         f"  Total items in ledger:    {sum(len(v) for v in all_codings.values())} codings across {len(all_codings)} items"
@@ -197,7 +197,7 @@ def report(all_codings):
         if len(composites) >= 2:
             composite_diffs.append(max(composites) - min(composites))
     if composite_diffs:
-        print(f"\n  Composite score (purificacao_composto):")
+        print("\n  Composite score (purificacao_composto):")
         print(f"    Mean absolute difference: {np.mean(composite_diffs):.3f}")
         print(f"    Max  absolute difference: {max(composite_diffs):.3f}")
 
@@ -259,7 +259,7 @@ def adjudicate(all_codings):
 
     print(f"\n  Adjudication mode: {len(items_to_adjudicate)} items with disagreements")
     print(
-        f"  For each indicator, enter the consensus value (0-3) or Enter to keep first coder's value.\n"
+        "  For each indicator, enter the consensus value (0-3) or Enter to keep first coder's value.\n"
     )
 
     adjudicated = 0

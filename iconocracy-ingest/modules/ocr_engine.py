@@ -4,17 +4,15 @@ Handles PDFs (multi-page) and single images.
 """
 
 import logging
-import re
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional
 
+import config
 import pytesseract
-from langdetect import detect_langs, LangDetectException
+from langdetect import LangDetectException, detect_langs
 from pdf2image import convert_from_path
 from PIL import Image
-
-import config
 
 logger = logging.getLogger(__name__)
 

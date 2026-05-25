@@ -11,19 +11,20 @@ import json
 import subprocess
 import sys
 from pathlib import Path
-from typing import Dict, List, Optional, Any
+from typing import Dict, List, Optional
+
 
 class ICONOCRACYMCPClient:
     """
     MCP client for ICONOCRACY research operations.
     Integrates with existing corpus pipeline: WebScout → IconoCode → validation
     """
-    
+
     def __init__(self):
         self.base_path = Path(__file__).parent.parent.parent
         self.gallica_server = self.base_path / "indexing" / "gallica-mcp-server"
         self.memory_server = "npx -y @modelcontextprotocol/server-memory"
-        
+
         # Validate Gallica MCP server is available
         if not (self.gallica_server / "dist" / "index.js").exists():
             print("⚠️  Gallica MCP server not built. Run: cd indexing/gallica-mcp-server && npm run build")
@@ -41,7 +42,7 @@ class ICONOCRACYMCPClient:
         """
         args = {"query": query, "response_format": "json"}
         args.update(kwargs)
-        
+
         return self._call_gallica("gallica_search", args)
 
     def gallica_iconographic_search(self, subject_terms: List[str], **kwargs) -> Optional[Dict]:
@@ -55,13 +56,13 @@ class ICONOCRACYMCPClient:
         """
         args = {"subject_terms": subject_terms, "response_format": "json"}
         args.update(kwargs)
-        
+
         return self._call_gallica("gallica_search_iconography", args)
 
     def gallica_get_metadata(self, ark: str) -> Optional[Dict]:
         """Get full metadata for a Gallica item, including rights info"""
         return self._call_gallica("gallica_get_metadata", {
-            "ark": ark, 
+            "ark": ark,
             "response_format": "json"
         })
 
@@ -75,7 +76,7 @@ class ICONOCRACYMCPClient:
         """
         args = {"ark": ark, "response_format": "json"}
         args.update(kwargs)
-        
+
         return self._call_gallica("gallica_get_image_url", args)
 
     def _call_gallica(self, tool: str, args: Dict) -> Optional[Dict]:
@@ -87,7 +88,7 @@ class ICONOCRACYMCPClient:
             "--args", json.dumps(args),
             "--output", "json"
         ]
-        
+
         try:
             result = subprocess.run(cmd, cwd=self.gallica_server,
                                   capture_output=True, text=True, timeout=60)
@@ -105,7 +106,7 @@ class ICONOCRACYMCPClient:
         return self._call_memory("create_entities", {
             "entities": [{
                 "name": name,
-                "entityType": entity_type, 
+                "entityType": entity_type,
                 "observations": observations
             }]
         })
@@ -122,13 +123,13 @@ class ICONOCRACYMCPClient:
     def _call_memory(self, tool: str, args: Dict) -> Optional[Dict]:
         """Internal method to call memory MCP tools"""
         cmd = [
-            "npx", "mcporter", "call", 
+            "npx", "mcporter", "call",
             "--stdio", self.memory_server,
             tool,
             "--args", json.dumps(args),
             "--output", "json"
         ]
-        
+
         try:
             result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
             if result.returncode == 0:
@@ -147,22 +148,22 @@ class ICONOCRACYMCPClient:
         Compatible with master-record schema from tools/schemas/master-record.schema.json
         """
         enhanced_record = existing_record.copy()
-        
+
         # Extract search hints from existing record
         input_data = existing_record.get("input", {})
         title_hint = input_data.get("title_hint", "")
-        
+
         if not title_hint:
             return enhanced_record
-        
+
         # Search for related items in Gallica
         search_results = self.gallica_search(title_hint, limit=5)
-        
+
         if search_results and search_results.get("records"):
             # Add Gallica cross-references to webscout section
             webscout_section = enhanced_record.setdefault("webscout", {})
             gallica_refs = []
-            
+
             for record in search_results["records"][:3]:  # Top 3 matches
                 gallica_refs.append({
                     "evidence_id": f"gallica_{len(gallica_refs) + 1}",
@@ -174,11 +175,11 @@ class ICONOCRACYMCPClient:
                     "rights": record.get("rights", ""),
                     "notes": f"Gallica cross-ref via MCP search: {title_hint}"
                 })
-            
+
             if gallica_refs:
                 webscout_section["gallica_cross_refs"] = gallica_refs
                 print(f"✅ Enhanced record {existing_record.get('item_id', 'unknown')} with {len(gallica_refs)} Gallica cross-references")
-        
+
         return enhanced_record
 
     def batch_enhance_corpus(self, records_file: Path) -> int:
@@ -194,49 +195,49 @@ class ICONOCRACYMCPClient:
         if not records_file.exists():
             print(f"❌ Records file not found: {records_file}")
             return 0
-        
+
         enhanced_count = 0
         enhanced_records = []
-        
-        print(f"🔍 Enhancing corpus with Gallica cross-references...")
-        
+
+        print("🔍 Enhancing corpus with Gallica cross-references...")
+
         with open(records_file, 'r', encoding='utf-8') as f:
             for line_num, line in enumerate(f, 1):
                 try:
                     record = json.loads(line.strip())
                     enhanced = self.webscout_gallica_enhancement(record)
-                    
+
                     # Check if actually enhanced
                     if "gallica_cross_refs" in enhanced.get("webscout", {}):
                         enhanced_count += 1
-                    
+
                     enhanced_records.append(enhanced)
-                    
+
                     if line_num % 10 == 0:
                         print(f"  Processed {line_num} records...")
-                        
+
                 except json.JSONDecodeError:
                     print(f"⚠️  Skipping malformed JSON at line {line_num}")
                     continue
                 except Exception as e:
                     print(f"⚠️  Error processing record {line_num}: {e}")
                     continue
-        
+
         # Write enhanced corpus
         enhanced_file = records_file.parent / "records_enhanced.jsonl"
         with open(enhanced_file, 'w', encoding='utf-8') as f:
             for record in enhanced_records:
                 f.write(json.dumps(record, ensure_ascii=False) + '\\n')
-        
+
         print(f"✅ Enhanced {enhanced_count} records out of {len(enhanced_records)}")
         print(f"📄 Saved to: {enhanced_file}")
-        
+
         return enhanced_count
 
 
 def main():
     """CLI interface for MCP operations"""
-    
+
     if len(sys.argv) < 2:
         print("""
 ICONOCRACY MCP Integration

@@ -1,8 +1,9 @@
 import os
-import sys
-import textbase
 import re
 import sqlite3
+import sys
+
+import textbase
 
 
 def hier(data, n):
@@ -170,7 +171,7 @@ def index(lang, lang_name, prime_content=False):
             f"CREATE VIRTUAL TABLE IF NOT EXISTS {lang}  USING fts5(notation UNINDEXED, is_key, text, tokenize = 'snowball {lang_name} unicode61', content=notations, content_rowid=id)"
         )
         ci.execute(
-            f"CREATE TABLE IF NOT EXISTS notations (id integer primary key, notation , is_key, text)"
+            "CREATE TABLE IF NOT EXISTS notations (id integer primary key, notation , is_key, text)"
         )
 
         batch = []
@@ -198,7 +199,7 @@ def index(lang, lang_name, prime_content=False):
         )
 
         if prime_content:
-            ci.executemany(f"INSERT INTO notations VALUES (?, ?, ?, ?)", Z)
+            ci.executemany("INSERT INTO notations VALUES (?, ?, ?, ?)", Z)
 
         ci.execute("CREATE TABLE IF NOT EXISTS txts (notation, lang, txt)")
         ci.execute("CREATE INDEX IF NOT EXISTS txts_notation ON txts (notation)")

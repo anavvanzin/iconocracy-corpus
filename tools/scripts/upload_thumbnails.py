@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
+
 """
 upload_thumbnails.py — Generate and upload thumbnails for ICONOCRACY corpus items.
 
@@ -13,19 +14,16 @@ Usage:
 R2 upload requires CLOUDFLARE_API_TOKEN + R2_ACCOUNT_ID env vars.
 Without R2 credentials, thumbnails are saved locally only.
 """
-import base64
-import hashlib
 import json
 import os
 import re
 import ssl
 import sys
 import time
-import urllib.request
 import urllib.error
+import urllib.request
 from io import BytesIO
 from pathlib import Path
-from typing import Optional
 
 try:
     from PIL import Image
@@ -43,9 +41,9 @@ TARGET_WIDTH = 300
 THUMBNAIL_QUALITY = 82  # WebP quality
 MAX_DIM = (TARGET_WIDTH, TARGET_WIDTH * 2)  # allow tall images
 
-SSL_CTX = ssl.create_default_context()
-SSL_CTX.check_hostname = False
-SSL_CTX.verify_mode = ssl.CERT_NONE
+SSL_UNVERIFIED = ssl.create_default_context()
+SSL_UNVERIFIED.check_hostname = False
+SSL_UNVERIFIED.verify_mode = ssl.CERT_NONE
 
 TIMEOUT = 15
 HEADERS = {
@@ -71,12 +69,21 @@ def fetch_image_bytes(url: str, timeout: int = TIMEOUT) -> bytes | None:
         return None
     req = urllib.request.Request(clean_url(url), headers=HEADERS)
     try:
-        with urllib.request.urlopen(req, timeout=timeout, context=SSL_CTX) as r:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
             ct = r.headers.get("Content-Type", "")
-            if "image" not in ct and "html" not in ct:
+            if "image" in ct or "html" in ct:
                 return r.read()
-            elif "image" in ct:
+            return r.read()
+    except ssl.SSLCertVerificationError:
+        try:
+            with urllib.request.urlopen(req, timeout=timeout, context=SSL_UNVERIFIED) as r:
+                ct = r.headers.get("Content-Type", "")
+                if "image" in ct or "html" in ct:
+                    return r.read()
                 return r.read()
+        except Exception as e:
+            print(f"  fetch error (SSL fallback) {url[:60]}: {e}")
+            return None
     except Exception as e:
         print(f"  fetch error {url[:60]}: {e}")
     return None

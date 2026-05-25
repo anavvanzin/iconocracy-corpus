@@ -8,8 +8,8 @@ Output: docs/superpowers/inventory/2026-04-29-corpus-inventory.csv
 import csv
 import os
 import re
+
 import yaml
-from datetime import datetime
 
 CANDIDATOS_DIR = "vault/candidatos"
 OUTPUT_DIR = "docs/superpowers/inventory"

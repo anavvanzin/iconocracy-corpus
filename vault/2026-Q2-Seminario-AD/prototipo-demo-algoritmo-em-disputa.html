@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Algoritmo em Disputa — Conselho de Contestacao Algoritmica</title>
+<style>
+:root {
+  --bg: #0a0a0f;
+  --bg2: #141420;
+  --bg3: #1e1e32;
+  --border: #2a2a40;
+  --text: #e0e0e8;
+  --text2: #a0a0b0;
+  --accent: #c9942c;
+  --accent2: #2d4a7a;
+  --alert: #8b3a3a;
+  --ok: #3a6b3a;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  height: 100vh;
+  overflow: hidden;
+  line-height: 1.6;
+}
+.app { display:flex; height:100vh; width:100vw; }
+
+/* Sidebar */
+.sidebar {
+  width: 300px;
+  background: var(--bg2);
+  border-right: 1px solid var(--border);
+  display:flex; flex-direction:column;
+}
+.sidebar-header {
+  padding: 20px;
+  border-bottom: 1px solid var(--border);
+}
+.sidebar-header h1 {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+.sidebar-header p {
+  font-size: 11px;
+  color: var(--text2);
+  margin-bottom: 16px;
+}
+.cases-list { flex:1; overflow-y:auto; padding: 12px; }
+.case-item {
+  padding: 14px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: var(--bg3);
+  transition: all 0.2s;
+}
+.case-item:hover { border-color: var(--accent); background: #252540; }
+.case-item.active { border-color: var(--accent); background: #2a2a50; }
+.case-item h3 {
+  font-size: 13px;
+  color: var(--accent);
+  margin-bottom: 4px;
+  font-family: Georgia, serif;
+}
+.case-item p {
+  font-size: 12px;
+  color: var(--text2);
+  line-height: 1.4;
+}
+.case-tag {
+  display: inline-block;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--accent2);
+  color: var(--text);
+  margin-top: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Main */
+.main { flex:1; display:flex; flex-direction:column; overflow:hidden; }
+.main-header {
+  padding: 20px 28px;
+  border-bottom: 1px solid var(--border);
+}
+.main-header h2 {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+.main-header p {
+  font-size: 13px;
+  color: var(--text2);
+  max-width: 700px;
+}
+.main-content { flex:1; overflow-y:auto; padding: 24px 28px; }
+
+/* Phase selector */
+.phases {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.phase-btn {
+  padding: 10px 20px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text2);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.phase-btn:hover { border-color: var(--accent); color: var(--text); }
+.phase-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+}
+
+/* Cards grid */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+.card-icon {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px;
+}
+.card-icon.defensoria { background: var(--alert); }
+.card-icon.cientista { background: var(--accent2); }
+.card-icon.admin { background: var(--ok); }
+.card-icon.cidadao { background: #6b3a8b; }
+.card-title {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  color: var(--accent);
+}
+.card-subtitle {
+  font-size: 11px;
+  color: var(--text2);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.card-body {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.7;
+}
+.card-body strong { color: var(--accent); }
+.card-body em { color: var(--text2); font-style: italic; }
+
+/* Ranking panel */
+.ranking-panel {
+  background: var(--bg2);
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+.ranking-panel h3 {
+  font-family: Georgia, serif;
+  color: var(--accent);
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+.ranking-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  background: var(--bg3);
+  border-radius: 6px;
+  margin-bottom: 8px;
+  border: 1px solid var(--border);
+}
+.ranking-pos {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 16px;
+  min-width: 30px;
+}
+.ranking-name { flex:1; font-size: 13px; }
+.ranking-score {
+  font-family: monospace;
+  font-size: 12px;
+  color: var(--text2);
+}
+
+/* Final opinion */
+.final-panel {
+  background: var(--bg3);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 24px;
+}
+.final-panel h3 {
+  font-family: Georgia, serif;
+  color: var(--accent);
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+.final-panel .section {
+  margin-bottom: 16px;
+}
+.final-panel .section h4 {
+  font-size: 13px;
+  color: var(--text2);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.final-panel .section p, .final-panel .section ul {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--text);
+}
+.final-panel .section ul { padding-left: 20px; }
+.final-panel .section li { margin: 4px 0; }
+.final-panel .alert-box {
+  background: rgba(139, 58, 58, 0.2);
+  border-left: 3px solid var(--alert);
+  padding: 12px;
+  border-radius: 0 6px 6px 0;
+  margin-top: 16px;
+}
+.final-panel .alert-box p {
+  font-size: 13px;
+  color: #d4a0a0;
+  margin: 0;
+}
+
+.hidden { display: none !important; }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .cards-grid { grid-template-columns: 1fr; }
+  .sidebar { width: 260px; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <h1>Algoritmo em Disputa</h1>
+      <p>Conselho de Contestacao Algoritmica — Prototipo Conceitual</p>
+    </div>
+    <div class="cases-list" id="casesList"></div>
+  </div>
+  <div class="main">
+    <div class="main-header">
+      <h2 id="caseTitle">Selecione um caso</h2>
+      <p id="caseDesc">Escolha um caso real brasileiro para ver como 4 perspectivas juridicas analisam uma decisao automatizada.</p>
+    </div>
+    <div class="main-content" id="mainContent">
+      <div style="text-align:center; color:var(--text2); padding:60px 20px;">
+        <p style="font-size:16px; margin-bottom:12px;">Bem-vindo ao Algoritmo em Disputa</p>
+        <p style="font-size:13px;">Este prototipo demonstra como diferentes perspectivas juridicas (Defensoria, Cientista de Dados, Administrador Publico, Cidadao) analisam uma mesma decisao automatizada.</p>
+        <p style="font-size:13px; margin-top:16px; color:var(--accent);">Selecione um caso na barra lateral para comecar.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const cases = [
+  {
+    id: 1,
+    title: "Bolsa Familia Cancelado",
+    desc: "Beneficio cancelado automaticamente por inconsistencia de dados. Sem explicacao do criterio.",
+    tag: "Cadastro Unico",
+    context: "Uma familia de baixa renda teve o Bolsa Familia cancelado automaticamente apos um cruzamento de dados entre Receita Federal, CNIS e Cadastro Unico. A notificacao apenas dizia: INCONSISTENCIA DE DADOS. Nenhuma explicacao sobre qual dado, qual criterio, ou como contestar.",
+    personas: {
+      defensoria: `<strong>Problema juridico:</strong> Violacao do contraditorio e da ampla defesa (art. 5, LV, CF). A decisao foi tomada unilateralmente sem dar a familia chance de se manifestar previamente.<br><br><strong>Leis aplicaveis:</strong> Art. 20, LGPD (revisao de decisao automatizada). Art. 2, Lei 14.129/2021 (garantir ao usuario compreensao das regras).<br><br><strong>Recomendacao:</strong> Contestacao junto ao Ministerio da Cidadania + pedido LAI na Dataprev exigindo o criterio exato do algoritmo. Se nao responder em 20 dias, acionar Defensoria Publica para mandado de seguranca.`,
+      cientista: `<strong>Problema tecnico:</strong> O sistema cruzou CPF, renda declarada e composicao familiar, mas nao revelou qual variavel disparou o cancelamento. E uma caixa-preta.<br><br><strong>Explicabilidade:</strong> Se fosse um modelo de machine learning, precisariamos do SHAP ou feature importance para saber qual campo (renda per capita? idade do responsavel? endereco?) foi determinante.<br><br><strong>Alerta:</strong> Cruzamentos automatizados entre bases governamentais geram erros em cascata. Um erro no CNIS (ex: registro de emprego fantasme) propaga para o CadUnico e gera exclusao automatica.`,
+      admin: `<strong>Problema de governanca:</strong> Faltou supervisao humana obrigatoria antes do cancelamento (art. 20, §2, LGPD). O algoritmo nao pode ser o ultimo passo sem revisao humana em decisoes com efeitos em direitos sociais.<br><br><strong>Lei 14.129/2021:</strong> Art. 6 exige que decisoes automatizadas sejam explicaveis. A notificacao INCONSISTENCIA DE DADOS viola o principio da transparencia.<br><br><strong>Recomendacao administrativa:</strong> O orgao gestor deve publicar portaria com os criterios de cancelamento e criar canal de contestacao direta, sem necessidade de DPU.`,
+      cidadao: `<strong>Impacto real:</strong> Esta familia depende do Bolsa Familia para comprar alimentos. Cancelamento automatico = fome imediata. A tecnologia nao mede isso.<br><br><strong>Exclusao digital:</strong> A familia nao tem internet em casa. Como vai acessar o gov.br para contestar? Como vai ler o tal criterio se ele for publicado apenas online?<br><br><strong>Questao de classe:</strong> Quem tem renda informal, mora em area rural, ou nao tem CPF regularizado e sempre o primeiro excluido por cruzamentos de dados. O algoritmo reproduz desigualdades.`
+    },
+    rankings: [
+      { pos: 1, name: "Defensoria Publica", score: "1.25", votes: 4 },
+      { pos: 2, name: "Cidadao", score: "2.00", votes: 4 },
+      { pos: 3, name: "Cientista de Dados", score: "3.00", votes: 4 },
+      { pos: 4, name: "Administrador Publico", score: "3.75", votes: 4 }
+    ],
+    final: {
+      sintese: "Cancelamento automatico do Bolsa Familia sem explicacao do criterio algoritmico, violando o contraditorio, a LGPD art. 20 e a Lei 14.129/2021.",
+      consenso: "Todos os conselheiros concordam: (1) a decisao carece de motivacao; (2) falta canal de contestacao acessivel; (3) a supervisao humana e obrigatoria antes de cancelar beneficios.",
+      dissenso: "O Administrador Publico defende que a ineficiencia do sistema e um problema de infraestrutura, nao de direitos. Os demais rejeitam essa leitura: direitos sociais nao podem ser sacrificados por problemas tecnicos do Estado.",
+      fundamentacao: "Art. 5, LV (contraditorio); Art. 6, CF (direitos sociais); Art. 20, LGPD (revisao de decisoes automatizadas); Art. 6, Lei 14.129/2021 (explicabilidade); Art. 37, CF (principios da administracao publica, incluindo motivacao).",
+      recomendacao: "1) Pedido LAI a Dataprev exigindo criterio do algoritmo; 2) Contestacao no Fala.BR; 3) Se indeferido, mandado de seguranca na Vara Federal com pedido de liminar. 4) Pressionar gestor municipal para atualizar CadUnico.",
+      alerta: "O cruzamento automatizado entre CNIS e CadUnico esta sendo usado como atalho burocratico para reduzir filas de beneficiarios, mascarando uma decisao politica de austeridade como decisao tecnica."
+    }
+  },
+  {
+    id: 2,
+    title: "IPTU Triplicado Automaticamente",
+    desc: "IPTU subiu 300% apos atualizacao automatizada do cadastro imobiliario. Sem notificacao previa.",
+    tag: "Municipio",
+    context: "Um proprietario residencial teve o IPTU triplicado em 2025 apos a Prefeitura atualizar o cadastro imobiliario via algoritmo que cruza dados de IPTU, carteira de trabalho, matricula escolar dos filhos e registro de comercio. O sistema reclassificou automaticamente o imovel de residencial para misto (residencial/comercial) sem inspecao presencial.",
+    personas: {
+      defensoria: `<strong>Problema juridico:</strong> Ofensa ao principio da legalidade tributaria (art. 150, CF). A nova classificacao nao tem fundamento em lei municipal nem em vistoria tecnica. E um aumento de tributo por algoritmo.<br><br><strong>LGPD art. 20:</strong> A decisao foi tomada unicamente por tratamento automatizado e afeta interesse patrimonial. O contribuinte tem direito a revisao.<br><br><strong>Recomendacao:</strong> Impugnacao ao IPTU + pedido de anulacao do lancamento. Pedir LAI na Secretaria de Fazenda sobre o criterio de reclassificacao.`,
+      cientista: `<strong>Problema tecnico:</strong> O algoritmo usou dados correlacionais como se fossem causais: ter filhos em escola particular e registro de MEI no mesmo endereco nao prova uso comercial do imovel.<br><br><strong>Vies:</strong> O modelo provavelmente foi treinado com dados de bairros comerciais ricos, gerando falso positivo para residencias de classe media em transicao.<br><br><strong>Transparencia:</strong> A prefeitura deve publicar: features usadas, pesos, threshold de reclassificacao, e taxa de erro do modelo. Nada foi publicado.`,
+      admin: `<strong>Problema de governanca:</strong> A Lei Complementar 101/2000 (LRF) exige que aumentos de receita tributaria sejam previamente comunicados. A atualizacao automatizada violou o principio da publicidade.<br><br><strong>Lei 14.129/2021:</strong> Art. 4 exige transparencia em sistemas automatizados. A reclassificacao nao foi explicada.<br><br><strong>Recomendacao:</strong> A prefeitura deve instituir revisao humana obrigatoria antes de qualquer reclassificacao cadastral com efeito tributario.`,
+      cidadao: `<strong>Impacto real:</strong> IPTU triplicado = R$ 3.600/ano em vez de R$ 1.200. Para uma familia com renda de R$ 4.000, isso e 7,5% da renda. O algoritmo nao calcula isso.<br><br><strong>Acesso:</strong> A prefeitura publicou a reclassificacao apenas no site. Quem nao acessa internet nao soube ate receber o carnê.<br><br><strong>Territorio:</strong> Bairros perifericos com moradia mista (lojinha no terreo, casa em cima) sao os mais atingidos. O algoritmo nao distingue loja de sala de estar.`
+    },
+    rankings: [
+      { pos: 1, name: "Defensoria Publica", score: "1.00", votes: 4 },
+      { pos: 2, name: "Cientista de Dados", score: "2.25", votes: 4 },
+      { pos: 3, name: "Cidadao", score: "2.75", votes: 4 },
+      { pos: 4, name: "Administrador Publico", score: "4.00", votes: 4 }
+    ],
+    final: {
+      sintese: "Reclassificacao tributaria automatizada de imovel residencial para misto, sem vistoria, sem notificacao e sem fundamento legal claro, caracterizando violacao dos principios da legalidade, anterioridade e da motivacao.",
+      consenso: "Todos concordam que: (1) a reclassificacao carece de vistoria presencial; (2) correlacao entre dados nao e causalidade; (3) o contribuinte deve ser notificado antes do aumento.",
+      dissenso: "O Administrador Publico defende que a atualizacao cadastral automatizada e necessaria para combater sonegacao. Os demais respondem: a eficiencia da arrecadacao nao justifica o sacrificio da legalidade.",
+      fundamentacao: "Art. 150, CF (principios tributarios); Art. 20, LGPD; Art. 4, Lei 14.129/2021; Art. 37, CF (motivacao); LC 101/2000 (LRF, transparencia fiscal).",
+      recomendacao: "1) Impugnacao ao lancamento do IPTU; 2) LAI na Secretaria de Fazenda exigindo o algoritmo; 3) Mandado de seguranca se indeferido; 4) Requerer vistoria tecnica gratuita.",
+      alerta: "A prefeitura esta usando o algoritmo para aumentar a arrecadacao sem aumentar a carga tributaria via lei -- um mecanismo de delegacao indevida do poder de tributar para uma ferramenta tecnica."
+    }
+  },
+  {
+    id: 3,
+    title: "Auxilio Emergencial Negado",
+    desc: "Cidadao considerado inelegivel automaticamente por cruzamento de dados do CNIS, sem chance de corrigir.",
+    tag: "Beneficio",
+    context: "Um trabalhador autonomo teve o pedido do Auxilio Emergencial negado automaticamente apos cruzamento de dados entre PIS/Pasep, CNIS e Receita Federal. O sistema indicou inelegibilidade por vinculo empregaticio ativo. O cidadao nunca teve carteira assinada. O erro veio de um registro fantasme no CNIS.",
+    personas: {
+      defensoria: `<strong>Problema juridico:</strong> Ofensa ao direito ao minimo existencial (art. 6, CF) e ao devido processo legal. A negativa foi automatica, sem contraditorio previo.<br><br><strong>LGPD art. 46:</strong> O controlador (Dataprev) e responsavel pela qualidade dos dados. Um erro no CNIS nao pode ser usado contra o cidadao sem chance de correcao.<br><br><strong>Recomendacao:</strong> Contestacao extrajudicial via Dataprev + pedido de correcao no CNIS via INSS. Se persistir, mandado de seguranca com pedido de liminar.`,
+      cientista: `<strong>Problema tecnico:</strong> O cruzamento de bases (PIS, CNIS, CPF) usa fuzzy matching que gera falsos positivos quando ha homonimos ou digitacao errada.<br><br><strong>Qualidade de dados:</strong> O CNIS tem 2,3 milhoes de registros fantasmas segundo TCU. Usar essa base como ground truth e um erro metodologico grave.<br><br><strong>Recomendacao tecnica:</strong> O sistema deve exigir match exato (CPF + data de nascimento + nome da mae) antes de declarar inelegibilidade. Fuzzy matching so para aprovacao, nunca para negativa.`,
+      admin: `<strong>Problema:</strong> A Portaria 147/2020 autorizou o cruzamento automatizado, mas nao previu um mecanismo de revisao humana para negativas. Isso viola o art. 20, LGPD.<br><br><strong>Governanca:</strong> O Ministerio da Cidadania (orgao gestor) deve validar cada negativa antes de enviar a Caixa. A Portaria delegou essa validacao a um algoritmo.<br><br><strong>Recomendacao:</strong> Revisar a Portaria para incluir revisao humana obrigatoria em todas as negativas automaticas.`,
+      cidadao: `<strong>Impacto:</strong> Trabalhador autonomo sem renda durante pandemia. Negativa automatica = inscricao no Serasa por conta de luz, aluguel e agua atrasados.<br><br><strong>Sem acesso:</strong> A Dataprev so aceita contestacao online. Quem nao tem internet ou nao sabe usar o site fica excluido.<br><br><strong>Raca e classe:</strong> Trabalhadores autonomos negros e perifericos sao os mais atingidos por erros no CNIS, pois tem maior instabilidade de registro e mais homonimos em bases publicas.`
+    },
+    rankings: [
+      { pos: 1, name: "Defensoria Publica", score: "1.50", votes: 4 },
+      { pos: 2, name: "Cientista de Dados", score: "2.00", votes: 4 },
+      { pos: 3, name: "Cidadao", score: "2.50", votes: 4 },
+      { pos: 4, name: "Administrador Publico", score: "4.00", votes: 4 }
+    ],
+    final: {
+      sintese: "Negativa automatica de beneficio social baseada em dado fantasme do CNIS, sem revisao humana, sem contraditorio e sem canal acessivel de correcao.",
+      consenso: "Todos concordam: (1) a negativa automatica de beneficio requer revisao humana; (2) dados de baixa qualidade nao podem ser base para exclusao; (3) o cidadao precisa de canal fisico e digital de contestacao.",
+      dissenso: "O Administrador Publico argumenta que o volume de 50 milhoes de pedidos inviabiliza revisao humana individual. Os demais respondem: o volume justifica mais investimento em qualidade de dados e supervisao, nao justifica automatizacao sem contrapeso.",
+      fundamentacao: "Art. 6, CF (direitos sociais); Art. 20, LGPD; Art. 46, LGPD (qualidade dos dados); Art. 5, LV, CF (contraditorio); Lei 13.982/2020 (Auxilio Emergencial).",
+      recomendacao: "1) Contestacao via portal Dataprev; 2) Requerimento de correcao no CNIS via INSS; 3) Pedido LAI sobre criterio de cruzamento; 4) Se indeferido, DPU para mandado de seguranca com liminar.",
+      alerta: "O governo esta usando alegacao de escala (50 milhoes de pedidos) para justificar ausencia de direitos fundamentais. Escala nao anula o contraditorio."
+    }
+  }
+];
+
+let activeCase = null;
+let activePhase = 1;
+
+function renderCases() {
+  const list = document.getElementById('casesList');
+  list.innerHTML = cases.map(c => `
+    <div class="case-item ${activeCase === c.id ? 'active' : ''}" onclick="selectCase(${c.id})">
+      <h3>${c.title}</h3>
+      <p>${c.desc}</p>
+      <span class="case-tag">${c.tag}</span>
+    </div>
+  `).join('');
+}
+
+function selectCase(id) {
+  activeCase = id;
+  activePhase = 1;
+  renderCases();
+  renderMain();
+}
+
+function renderMain() {
+  const c = cases.find(x => x.id === activeCase);
+  if (!c) return;
+
+  document.getElementById('caseTitle').textContent = c.title;
+  document.getElementById('caseDesc').textContent = c.context;
+
+  const content = document.getElementById('mainContent');
+
+  content.innerHTML = `
+    <div class="phases">
+      <button class="phase-btn ${activePhase === 1 ? 'active' : ''}" onclick="setPhase(1)">Fase 1: Pareceres</button>
+      <button class="phase-btn ${activePhase === 2 ? 'active' : ''}" onclick="setPhase(2)">Fase 2: Avaliacoes Cruzadas</button>
+      <button class="phase-btn ${activePhase === 3 ? 'active' : ''}" onclick="setPhase(3)">Fase 3: Parecer Final</button>
+    </div>
+    <div id="phaseContent"></div>
+  `;
+
+  renderPhaseContent(c);
+}
+
+function setPhase(p) {
+  activePhase = p;
+  renderMain();
+}
+
+function renderPhaseContent(c) {
+  const container = document.getElementById('phaseContent');
+  if (!container) return;
+
+  if (activePhase === 1) {
+    container.innerHTML = `
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon defensoria">&#9878;</div>
+            <div>
+              <div class="card-title">Defensoria Publica</div>
+              <div class="card-subtitle">Tutela de Direitos</div>
+            </div>
+          </div>
+          <div class="card-body">${c.personas.defensoria}</div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon cientista">&#128300;</div>
+            <div>
+              <div class="card-title">Cientista de Dados</div>
+              <div class="card-subtitle">Explicabilidade</div>
+            </div>
+          </div>
+          <div class="card-body">${c.personas.cientista}</div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon admin">&#128451;</div>
+            <div>
+              <div class="card-title">Administrador Publico</div>
+              <div class="card-subtitle">Governanca</div>
+            </div>
+          </div>
+          <div class="card-body">${c.personas.admin}</div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon cidadao">&#128100;</div>
+            <div>
+              <div class="card-title">Cidadao</div>
+              <div class="card-subtitle">Perspectiva Digital</div>
+            </div>
+          </div>
+          <div class="card-body">${c.personas.cidadao}</div>
+        </div>
+      </div>
+    `;
+  } else if (activePhase === 2) {
+    const items = c.rankings.map(r => `
+      <div class="ranking-item">
+        <span class="ranking-pos">#${r.pos}</span>
+        <span class="ranking-name">${r.name}</span>
+        <span class="ranking-score">Media: ${r.score} (${r.votes} avaliacoes)</span>
+      </div>
+    `).join('');
+
+    container.innerHTML = `
+      <div class="ranking-panel">
+        <h3>Ranking Consolidado — Melhor Protecao ao Cidadao</h3>
+        <p style="font-size:12px; color:var(--text2); margin-bottom:12px;">
+          Cada conselheiro avaliou os outros anonimamente. Ranking calculado pela media das posicoes.
+          Menor pontuacao = maior prioridade aos direitos do cidadao.
+        </p>
+        ${items}
+      </div>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon defensoria">&#9878;</div>
+            <div><div class="card-title">Defensoria avalia os outros</div><div class="card-subtitle">Revisao</div></div>
+          </div>
+          <div class="card-body">
+            <em>"Parecer Cientista e tecnicamente solido, mas foca excessivamente nos detalhes do modelo e esquece o impacto humano. Parecer Admin e preocupante: aceita eficiencia como desculpa para violar direitos. Parecer Cidadao e o mais honesto em relacao ao sofrimento real."</em>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon cientista">&#128300;</div>
+            <div><div class="card-title">Cientista avalia os outros</div><div class="card-subtitle">Revisao</div></div>
+          </div>
+          <div class="card-body">
+            <em>"Parecer Defensoria identifica corretamente os dispositivos legais. Parecer Cidadao traz dimensao social crucial. Parecer Admin ignora completamente a qualidade dos dados de entrada -- um cientista de dados nunca aceitaria usar dados fantasmas como ground truth."</em>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon admin">&#128451;</div>
+            <div><div class="card-title">Admin avalia os outros</div><div class="card-subtitle">Revisao</div></div>
+          </div>
+          <div class="card-body">
+            <em>"Parecer Defensoria e juridicamente impecavel, mas pouco realista em termos de gestao. Parecer Cientista e valioso para melhorar o sistema. Parecer Cidadao e emotivo demais -- nao oferece solucoes institucionais."</em>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-icon cidadao">&#128100;</div>
+            <div><div class="card-title">Cidadao avalia os outros</div><div class="card-subtitle">Revisao</div></div>
+          </div>
+          <div class="card-body">
+            <em>"Parecer Defensoria e o unico que realmente defende a pessoa. Parecer Cientista ajuda a entender, mas nao resolve. Parecer Admin e assustador: parece que o Estado se importa mais com o algoritmo do que com a gente."</em>
+          </div>
+        </div>
+      </div>
+    `;
+  } else {
+    container.innerHTML = `
+      <div class="final-panel">
+        <h3>Parecer Final do Relator do Conselho</h3>
+        <div class="section">
+          <h4>1. Sintese do Caso</h4>
+          <p>${c.final.sintese}</p>
+        </div>
+        <div class="section">
+          <h4>2. Consenso dos Conselheiros</h4>
+          <p>${c.final.consenso}</p>
+        </div>
+        <div class="section">
+          <h4>3. Dissenso</h4>
+          <p>${c.final.dissenso}</p>
+        </div>
+        <div class="section">
+          <h4>4. Fundamentacao Juridica</h4>
+          <p>${c.final.fundamentacao}</p>
+        </div>
+        <div class="section">
+          <h4>5. Recomendacao Final</h4>
+          <ul>${c.final.recomendacao.split(';').map(x => `<li>${x.trim()}</li>`).join('')}</ul>
+        </div>
+        <div class="alert-box">
+          <p><strong>ALERTA:</strong> ${c.final.alerta}</p>
+        </div>
+      </div>
+    `;
+  }
+}
+
+renderCases();
+</script>
+</body>
+</html>

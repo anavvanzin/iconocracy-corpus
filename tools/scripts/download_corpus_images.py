@@ -15,8 +15,8 @@ import re
 import ssl
 import sys
 import time
-import urllib.request
 import urllib.error
+import urllib.request
 from pathlib import Path
 
 # SSL context for sites with cert issues
@@ -266,13 +266,13 @@ def generate_report(stats, items):
     lines = [
         "# Download Report — ICONOCRACIA Corpus Images",
         "",
-        f"**Date**: 2026-04-01",
+        "**Date**: 2026-04-01",
         f"**Total items**: {stats['total']}",
         "",
         "## Summary",
         "",
-        f"| Metric | Value |",
-        f"|--------|-------|",
+        "| Metric | Value |",
+        "|--------|-------|",
         f"| Downloaded | {stats['success']} |",
         f"| Failed | {stats['failed']} |",
         f"| Skipped (no URL) | {stats['skipped']} |",

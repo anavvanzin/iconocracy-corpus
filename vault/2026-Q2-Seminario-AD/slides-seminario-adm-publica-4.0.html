@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seminario — Administracao Publica 4.0</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0f;
+  --bg2: #141420;
+  --bg3: #1e1e32;
+  --border: #2a2a40;
+  --text: #e0e0e8;
+  --text2: #a0a0b0;
+  --accent: #2d4a7a;
+  --accent2: #3a5a8a;
+  --alert: #c9942c;
+  --alert2: #8b3a3a;
+  --green: #3a6b3a;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: #000;
+  font-family: 'Inter', system-ui, sans-serif;
+  color: var(--text);
+  overflow: hidden;
+  height: 100vh;
+}
+#deck {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.slide-canvas {
+  width: 1920px;
+  height: 1080px;
+  background: var(--bg);
+  position: relative;
+  overflow: hidden;
+  transform-origin: center center;
+}
+.slide { position: absolute; inset: 0; opacity: 0; transition: opacity 0.5s ease; pointer-events: none; padding: 80px 100px; }
+.slide.active { opacity: 1; pointer-events: auto; }
+
+/* Typography */
+h1.slide-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 52px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+h2.slide-subtitle {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--alert);
+  margin-bottom: 16px;
+}
+.slide-body {
+  font-size: 20px;
+  line-height: 1.7;
+  color: var(--text);
+  max-width: 900px;
+}
+.slide-body p { margin-bottom: 16px; }
+.slide-body strong { color: var(--alert); font-weight: 600; }
+.slide-body em { color: var(--text2); font-style: italic; }
+
+/* Two columns */
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; margin-top: 40px; }
+.col-box {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 32px;
+}
+.col-box h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+.col-box.blue { border-color: var(--accent); }
+.col-box.blue h3 { color: var(--accent2); }
+.col-box.amber { border-color: var(--alert); }
+.col-box.amber h3 { color: var(--alert); }
+.col-box ul { padding-left: 20px; font-size: 16px; line-height: 1.8; color: var(--text2); }
+.col-box li { margin: 6px 0; }
+
+/* Cards */
+.cards-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 32px; }
+.card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 28px;
+}
+.card-quote {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text);
+  font-style: italic;
+  margin-bottom: 16px;
+}
+.card-ref {
+  font-size: 12px;
+  color: var(--text2);
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+
+/* Map pins */
+.pins-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 32px; }
+.pin-box {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+}
+.pin-box h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  color: var(--alert);
+  margin-bottom: 8px;
+}
+.pin-box p { font-size: 15px; color: var(--text2); line-height: 1.6; }
+
+/* Flow */
+.flow-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 40px 0;
+}
+.flow-step {
+  background: var(--bg3);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 20px 32px;
+  text-align: center;
+  font-size: 16px;
+  color: var(--text);
+}
+.flow-arrow {
+  font-size: 28px;
+  color: var(--accent);
+}
+.flow-alert {
+  background: rgba(139,58,58,0.15);
+  border-left: 3px solid var(--alert2);
+  padding: 16px 24px;
+  border-radius: 0 8px 8px 0;
+  margin-top: 24px;
+}
+.flow-alert p { font-size: 16px; color: #d4a0a0; margin: 0; }
+
+/* Split */
+.split-view { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-top: 32px; }
+.split-left, .split-right { padding: 28px; border-radius: 8px; }
+.split-left { background: rgba(58,107,58,0.1); border: 1px solid var(--green); }
+.split-right { background: rgba(201,148,44,0.08); border: 1px solid var(--alert); }
+.split-left h4 { color: #6ab06a; font-family: 'Playfair Display', serif; font-size: 20px; margin-bottom: 12px; }
+.split-right h4 { color: var(--alert); font-family: 'Playfair Display', serif; font-size: 20px; margin-bottom: 12px; }
+.split-left ul, .split-right ul { padding-left: 20px; font-size: 15px; line-height: 1.8; }
+.split-left li { color: #8ab88a; }
+.split-right li { color: #c9a86c; }
+
+/* Gaps */
+.gap-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 28px; }
+.gap-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.gap-icon {
+  width: 36px; height: 36px; min-width: 36px;
+  background: var(--alert2);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; color: var(--text);
+}
+.gap-card h5 { font-size: 15px; color: var(--text); margin-bottom: 4px; }
+.gap-card p { font-size: 13px; color: var(--text2); line-height: 1.5; }
+
+/* Prototype */
+.proto-box {
+  background: var(--bg2);
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  padding: 32px;
+  margin-top: 24px;
+}
+.proto-box h4 { font-family: 'Playfair Display', serif; font-size: 18px; color: var(--alert); margin-bottom: 12px; }
+.proto-box p { font-size: 15px; color: var(--text2); line-height: 1.6; }
+.proto-panels {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 20px;
+}
+.proto-panel {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 16px;
+  text-align: center;
+}
+.proto-panel .panel-icon { font-size: 28px; margin-bottom: 8px; }
+.proto-panel .panel-label { font-size: 12px; color: var(--text2); text-transform: uppercase; letter-spacing: 0.5px; }
+
+/* Timeline */
+.timeline { display: flex; align-items: center; gap: 20px; margin-top: 28px; }
+.timeline-step {
+  flex: 1;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+.timeline-step .step-num {
+  width: 32px; height: 32px; min-width: 32px;
+  background: var(--accent);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: 600; color: var(--bg);
+  margin: 0 auto 10px;
+}
+.timeline-step p { font-size: 14px; color: var(--text2); line-height: 1.5; }
+.timeline-arrow { font-size: 24px; color: var(--accent); }
+
+/* Conclusion */
+.big-quote {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  line-height: 1.4;
+  color: var(--text);
+  text-align: center;
+  margin: 60px 0 40px;
+  max-width: 1000px;
+}
+.big-quote strong { color: var(--alert); }
+
+/* References */
+.ref-list { margin-top: 20px; }
+.ref-item {
+  font-size: 14px;
+  color: var(--text2);
+  line-height: 1.6;
+  margin-bottom: 12px;
+  padding-left: 20px;
+  text-indent: -20px;
+}
+
+/* Navigation */
+.nav {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: rgba(10,10,15,0.9);
+  border: 1px solid var(--border);
+  border-radius: 30px;
+  padding: 10px 24px;
+  z-index: 100;
+}
+.nav-btn {
+  background: none;
+  border: none;
+  color: var(--text2);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 12px;
+  transition: color 0.2s;
+}
+.nav-btn:hover { color: var(--alert); }
+.slide-counter {
+  font-size: 13px;
+  color: var(--text2);
+  font-family: monospace;
+  min-width: 60px;
+  text-align: center;
+}
+
+/* Cover elements */
+.cover-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+.cover-subtitle {
+  font-size: 22px;
+  color: var(--text2);
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+.cover-meta {
+  font-size: 14px;
+  color: var(--text2);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.cover-accent {
+  position: absolute;
+  bottom: 80px;
+  right: 100px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  opacity: 0.3;
+}
+.cover-accent::before {
+  content: '';
+  position: absolute;
+  inset: 40px;
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.cover-accent::after {
+  content: '';
+  position: absolute;
+  inset: 80px;
+  border: 1px solid var(--alert);
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+/* Decorative line */
+.deco-line {
+  width: 60px;
+  height: 3px;
+  background: var(--alert);
+  margin-bottom: 24px;
+}
+
+/* Scale wrapper */
+.scale-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>
+</head>
+<body>
+
+<div id="deck">
+  <div class="scale-wrapper">
+    <div class="slide-canvas" id="canvas">
+
+      <!-- SLIDE 1: Capa -->
+      <div class="slide active" data-slide="1">
+        <div class="deco-line"></div>
+        <h1 class="cover-title">Administracao Publica 4.0:<br>Big Data, Blockchain, Smart Contracts<br>e Smart Cities no Brasil</h1>
+        <p class="cover-subtitle">Entre a eficiencia administrativa e os direitos fundamentais</p>
+        <p class="cover-meta">Seminario de Direito Digital e Politicas Publicas | 2026</p>
+        <div class="cover-accent"></div>
+      </div>
+
+      <!-- SLIDE 2: Tese -->
+      <div class="slide" data-slide="2">
+        <div class="deco-line"></div>
+        <h1 class="slide-title">A promessa e o risco</h1>
+        <div class="two-col">
+          <div class="col-box blue">
+            <h3>A promessa tecnologica</h3>
+            <ul>
+              <li>Eficiencia administrativa</li>
+              <li>Previsibilidade de decisoes</li>
+              <li>Transparencia via blockchain</li>
+              <li>Cidades inteligentes e sustentaveis</li>
+              <li>Contratos autoexecutaveis</li>
+            </ul>
+          </div>
+          <div class="col-box amber">
+            <h3>O risco juridico</h3>
+            <ul>
+              <li>Opacidade algoritmica</li>
+              <li>Exclusao digital sistemica</li>
+              <li>Discricionariedade mascarada</li>
+              <li>Responsabilidade diluida</li>
+              <li>Tecnologia como delegacao indevida</li>
+            </ul>
+          </div>
+        </div>
+        <div style="margin-top:40px; text-align:center;">
+          <p style="font-family:'Playfair Display',serif; font-size:28px; color:var(--alert);">
+            <em>"A tecnologia nao resolve a politica — ela a disfarca"</em>
+          </p>
+        </div>
+      </div>
+
+      <!-- SLIDE 3: Marcos Teoricos -->
+      <div class="slide" data-slide="3">
+        <div class="deco-line"></div>
+        <h1 class="slide-title">Marcos Teoricos</h1>
+        <div class="cards-row">
+          <div class="card">
+            <p class="card-quote">"Big data, algoritmos e IA na Administracao Publica: reflexoes para a sua utilizacao em um ambiente democratico."</p>
+            <p class="card-ref">ARAÚJO; ZULLO; TORRES (2020). A&C. <strong>Chave:</strong> o uso de big data na adm publica exige equilibrio entre eficiencia e direitos fundamentais.</p>
+          </div>
+          <div class="card">
+            <p class="card-quote">"Inclusao digital e blockchain como instrumentos para o desenvolvimento economico."</p>
+            <p class="card-ref">FRIEDRICH; PHILIPPI (2020). International Journal of Digital Law. <strong>Chave:</strong> blockchain nao e neutro — programacao de regras e exercicio de poder.</p>
+          </div>
+          <div class="card">
+            <p class="card-quote">"La construccion del discurso de la smart city: mitos implicitos y sus consecuencias socio-politicas."</p>
+            <p class="card-ref">FERNÁNDEZ GONZÁLEZ (2016). URBS. <strong>Chave:</strong> smart city como discurso que mascara interesses economicos e exclui periferias.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 4: Diagnostico Empirico -->
+      <div class="slide" data-slide="4">
+        <div class="deco-line"></div>
+        <h1 class="slide-title">Diagnostico Empirico</h1>
+        <p class="slide-body" style="margin-bottom:8px;">Tres municipios, tres abordagens, um mesmo desafio: regulamentar a tecnologia antes que ela regule o cidadao.</p>
+        <div class="pins-row">
+          <div class="pin-box">
+            <h4>Sao Paulo</h4>
+            <p><strong>Operacao Cidade Inteligente:</strong> monitoramento de transito, lixo, iluminacao em tempo real. <em>Risco:</em> vigilancia massiva sem contrapeso democratico.</p>
+          </div>
+          <div class="pin-box">
+            <h4>Recife</h4>
+            <p><strong>CITInova:</strong> laboratorio de inovacao cidadã. <em>Potencial:</em> participacao como contrapeso tecnocratico. <em>Fragilidade:</em> depende de continuidade politica.</p>
+          </div>
+          <div class="pin-box">
+            <h4>Florianopolis</h4>
+            <p><strong>Lei 8.269/2019:</strong> primeira regulamentacao municipal de dados abertos e IA. <em>Inovacao:</em> obrigatoriedade de explicabilidade em decisoes automatizadas.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 5: Blockchain -->
+      <div class="slide" data-slide="5">
+        <div class="deco-line"></div>
+        <h1 class="slide-title">Blockchain & Smart Contracts</h1>
+        <h2 class="slide-subtitle">O contrato que se autoexecuta — e autolegitima?</h2>
+        <div class="flow-box">
+          <div class="flow-step">Condicao A<br><span style="font-size:13px;color:var(--text2)">ex: pagamento aprovado</span></div>
+          <div class="flow-arrow">&#8594;</div>
+          <div class="flow-step">Smart Contract<br><span style="font-size:13px;color:var(--text2)">regra programada</span></div>
+          <div class="flow-arrow">&#8594;</div>
+          <div class="flow-step">Execucao Automatica<br><span style="font-size:13px;color:var(--text2)">sem intervencao humana</span></div>
+        </div>
+        <div class="flow-alert">
+          <p><strong>Questao critica:</strong> Quem programa a regra? Quem altera o erro? Se o contrato publico foi mal programado, o erro se perpetua em toda a cadeia. Friedrich e Philippi (2020) alertam: inclusao digital e um pre-requisito, nao uma consequencia automatica da tecnologia.</p>
+        </div>
+      </div>
+
+      <!-- SLIDE 6: Big Data -->
+      <div class="slide" data-slide="6">
+        <div class="deco-line"></div>
+        <h1 class="slide-title">Big Data & Algoritmos</h1>
+        <h2 class="slide-subtitle">A decisao automatizada e o direito ao contraditorio</h2>
+        <div style="margin-top:24px; display:grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+          <div>
+            <p class="slide-body">Araújo, Zullo e Torres (2020) mostram que big data na Administracao Publica brasileira avanca sem as salvaguardas juridicas necessarias:</p>
+            <ul style="padding-left:24px; font-size:18px; line-height:1.8; color:var(--text2); margin-top:16px;">
+              <li>Decisoes sem supervisao humana</li>
+              <li>Criterios opacos ao administrado</li>
+              <li>Dados de baixa qualidade geram exclusao</li>
+              <li>Eficiencia priorizada sobre legitimidade</li>
+            </ul>
+          </div>
+          <div style="background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:28px;">
+            <p style="font-family:'Playfair Display',serif; font-size:18px; color:var(--alert); margin-bottom:12px;">Direitos afetados</p>
+            <ul style="padding-left:20px; font-size:15px; line-height:1.8; color:var(--text2);">
+              <li>Art. 20, LGPD — revisao de decisoes automatizadas</li>
+              <li>Art. 5, LV, CF — contraditorio e ampla defesa</li>
+              <li>Art. 37, CF — motivacao das decisoes administrativas</li>
+              <li>Art. 5, XXXIII, CF — acesso a informacao (LAI)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 7: Smart Cities -->
+      <div class="slide" data-slide="7">
+        <div class="deco-line"></div>
+        <h1 class="slide-title">Smart Cities</h1>
+        <h2 class="slide-subtitle">Cidade inteligente ou cidade controlada?</h2>
+        <div class="split-view">
+          <div class="split-left">
+            <h4>Leitura otimista</h4>
+            <ul>
+              <li>Eficiencia energetica e mobilidade</li>
+              <li>Gestao de residuos otimizada</li>
+              <li>Participacao cidadã via apps</li>
+              <li>Transparencia de dados publicos</li>
+              <li>Sustentabilidade ambiental</li>
+            </ul>
+          </div>
+          <div class="split-right">
+            <h4>Leitura critica (Fernandez Gonzalez)</h4>
+            <ul>
+              <li>Vigilancia massiva de espacos publicos</li>
+              <li>Discriminacao espacial: periferias excluidas</li>
+              <li>Mercantilizacao urbana: dados como commodity</li>
+              <li>Empresas privadas gerenciando infraestrutura publica</li>
+              <li>Cidadao como usuario, nao como sujeito de direitos</li>
+            </ul>
+          </div>
+        </div>
+        <div style="margin-top:32px; text-align:center;">
+          <p style="font-family:'Playfair Display',serif; font-size:22px; color:var(--text);">
+            <em>"A smart city promete inclusao, mas seus algoritmos reproduzem as desigualdades que ja existem."</em>
+          </p>
+        </div>
+      </div>
+
+      <!-- SLIDE 8: Lacunas -->
+      <div class="slide" data-slide="8">
+        <div class="deco-line"></div>
+        <h1 class="slide-title">O que ainda falta</h1>
+        <p class="slide-body" style="margin-bottom:8px;">Quatro lacunas que nenhuma tecnologia resolve sozinha:</p>
+        <div class="gap-grid">
+          <div class="gap-card">
+            <div class="gap-icon">!</div>
+            <div>
+              <h5>1. Regulamentacao do art. 20, LGPD</h5>
+              <p>A revisao de decisoes automatizadas existe no texto, mas nao na pratica. Falta regulamentacao, canal e prazo.</p>
+            </div>
+          </div>
+          <div class="gap-card">
+            <div class="gap-icon">!</div>
+            <div>
+              <h5>2. Explicabilidade algoritmica (XAI)</h5>
+              <p>O cidadao tem direito de entender o criterio. SHAP, LIME, feature importance — tecnicas que precisam virar obrigacao legal.</p>
+            </div>
+          </div>
+          <div class="gap-card">
+            <div class="gap-icon">!</div>
+            <div>
+              <h5>3. Inclusao digital como pre-condicao</h5>
+              <p>Sem acesso a internet, nao ha gov.br, nao ha contestacao. A exclusao digital e a primeira barreira — nao a ultima.</p>
+            </div>
+          </div>
+          <div class="gap-card">
+            <div class="gap-icon">!</div>
+            <div>
+              <h5>4. Auditoria democratica de sistemas publicos</h5>
+              <p>Nao basta transparencia tecnica. E preciso que cidadãos, nao apenas engenheiros, possam questionar o algoritmo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 9: Prototipo GovLens -->
+      <div class="slide" data-slide="9">
+        <div class="deco-line"></div>
+        <h1 class="slide-title">Protótipo: GovLens / DueProcess.AI</h1>
+        <div class="proto-box">
+          <h4>Uma ferramenta que não resolve o problema — mas revela por que ele existe</h4>
+          <p>O GovLens e um prototipo conceitual que demonstra o que falta no Brasil: uma ferramenta que explique ao cidadao, em linguagem acessivel, como uma decisao automatizada foi tomada — e como contesta-la.</p>
+          <div class="proto-panels">
+            <div class="proto-panel">
+              <div class="panel-icon">&#9878;</div>
+              <div class="panel-label">Processo</div>
+            </div>
+            <div class="proto-panel">
+              <div class="panel-icon">&#128300;</div>
+              <div class="panel-label">Explicabilidade</div>
+            </div>
+            <div class="proto-panel">
+              <div class="panel-icon">&#128202;</div>
+              <div class="panel-label">Vies Demografico</div>
+            </div>
+            <div class="proto-panel">
+              <div class="panel-icon">&#128221;</div>
+              <div class="panel-label">Minuta de Recurso</div>
+            </div>
+          </div>
+        </div>
+        <p style="margin-top:20px; font-size:15px; color:var(--text2);"><em>Nota: Fala.BR e Conteste Aqui existem, mas nenhum explica o algoritmo ou gera estrategia juridica. O valor do GovLens esta na integracao critica, nao na invencao de cada peca isolada.</em></p>
+      </div>
+
+      <!-- SLIDE 10: Prototipo Algoritmo em Disputa -->
+      <div class="slide" data-slide="10">
+        <div class="deco-line"></div>
+        <h1 class="slide-title">Protótipo: Algoritmo em Disputa</h1>
+        <h2 class="slide-subtitle">Conselho de Contestacao Algoritmica</h2>
+        <p class="slide-body" style="margin-bottom:8px;">Quatro perspectivas juridicas analisam uma mesma decisao automatizada:</p>
+        <div class="timeline">
+          <div class="timeline-step">
+            <div class="step-num">1</div>
+            <p>Cidadao submete caso de decisao automatizada</p>
+          </div>
+          <div class="timeline-arrow">&#8594;</div>
+          <div class="timeline-step">
+            <div class="step-num">2</div>
+            <p>4 conselheiros emitem pareceres sob perspectivas distintas</p>
+          </div>
+          <div class="timeline-arrow">&#8594;</div>
+          <div class="timeline-step">
+            <div class="step-num">3</div>
+            <p>Cada conselheiro avalia os outros anonimamente</p>
+          </div>
+          <div class="timeline-arrow">&#8594;</div>
+          <div class="timeline-step">
+            <div class="step-num">4</div>
+            <p>Relator sintetiza parecer final juridicamente fundamentado</p>
+          </div>
+        </div>
+        <div style="margin-top:28px; background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:20px;">
+          <p style="font-size:14px; color:var(--text2); line-height:1.6;">
+            <strong style="color:var(--alert);">Personas:</strong> Defensoria Publica (tutela de direitos) — Cientista de Dados (explicabilidade) — Administrador Publico (governanca) — Cidadao (perspectiva digital).<br><br>
+            <strong style="color:var(--alert);">Diferencial:</strong> Nao e uma ouvidoria. E uma ferramenta de analise que mostra como diferentes especialistas veem a mesma decisao — e onde concordam, discordam, e o que falta.
+          </p>
+        </div>
+      </div>
+
+      <!-- SLIDE 11: Conclusao -->
+      <div class="slide" data-slide="11">
+        <div class="deco-line"></div>
+        <h1 class="slide-title">A pergunta que importa</h1>
+        <p class="big-quote">
+          Nao e <strong>"a tecnologia resolve?"</strong><br>
+          mas <strong>"quem controla a tecnologia?"</strong>
+        </p>
+        <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px;">
+          <div style="background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:24px; text-align:center;">
+            <p style="font-size:32px; margin-bottom:12px;">&#128208;</p>
+            <p style="font-size:15px; color:var(--text); line-height:1.5;">Eficiencia sem legitimidade e apenas autoritarismo acelerado</p>
+          </div>
+          <div style="background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:24px; text-align:center;">
+            <p style="font-size:32px; margin-bottom:12px;">&#128221;</p>
+            <p style="font-size:15px; color:var(--text); line-height:1.5;">A LGPD art. 20 existe no papel. Precisa virar pratica.</p>
+          </div>
+          <div style="background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:24px; text-align:center;">
+            <p style="font-size:32px; margin-bottom:12px;">&#128101;</p>
+            <p style="font-size:15px; color:var(--text); line-height:1.5;">O cidadao nao precisa entender de IA para ter direitos</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 12: Referencias -->
+      <div class="slide" data-slide="12">
+        <div class="deco-line"></div>
+        <h1 class="slide-title">Referências</h1>
+        <div class="ref-list">
+          <p class="ref-item">ARAÚJO, J. M. B.; ZULLO, G.; TORRES, J. B. <em>Big data, algoritmos e inteligência artificial na Administração Pública: reflexões para a sua utilização em um ambiente democrático.</em> A&C, v. 1, n. 1, 2020.</p>
+          <p class="ref-item">FRIEDRICH, G.; PHILIPPI, A. <em>Inclusão digital e blockchain como instrumentos para o desenvolvimento econômico.</em> International Journal of Digital Law, v. 3, n. 2, 2020.</p>
+          <p class="ref-item">FERNÁNDEZ GONZÁLEZ, L. <em>La construcción del discurso de la smart city: mitos implícitos y sus consecuencias socio-políticas.</em> URBS, v. 10, n. 1, 2016.</p>
+          <p class="ref-item">BRASIL. <em>Lei nº 14.129, de 29 de março de 2021.</em> Dispõe sobre princípios, regras e instrumentos para o Governo Digital.</p>
+          <p class="ref-item">BRASIL. <em>Lei nº 13.709, de 14 de agosto de 2018.</em> Lei Geral de Proteção de Dados Pessoais (LGPD).</p>
+          <p class="ref-item">BRASIL. <em>Constituição da República Federativa do Brasil de 1988.</em> Art. 5º, 6º, 37º.</p>
+        </div>
+        <div style="position:absolute; bottom:80px; right:100px; text-align:right;">
+          <p style="font-size:13px; color:var(--text2);">Seminario de Direito Digital e Politicas Publicas</p>
+          <p style="font-size:12px; color:var(--text2); margin-top:4px;">2026</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="nav">
+  <button class="nav-btn" onclick="prevSlide()">&#8592;</button>
+  <span class="slide-counter" id="counter">1 / 12</span>
+  <button class="nav-btn" onclick="nextSlide()">&#8594;</button>
+</div>
+
+<script>
+let current = 1;
+const total = 12;
+const saved = localStorage.getItem('seminario_slide');
+if (saved) current = parseInt(saved) || 1;
+
+function showSlide(n) {
+  if (n < 1) n = 1;
+  if (n > total) n = total;
+  current = n;
+  document.querySelectorAll('.slide').forEach(s => s.classList.remove('active'));
+  const active = document.querySelector('.slide[data-slide="' + current + '"]');
+  if (active) active.classList.add('active');
+  document.getElementById('counter').textContent = current + ' / ' + total;
+  localStorage.setItem('seminario_slide', current);
+}
+
+function nextSlide() { showSlide(current + 1); }
+function prevSlide() { showSlide(current - 1); }
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight') nextSlide();
+  if (e.key === 'ArrowLeft') prevSlide();
+});
+
+function scaleCanvas() {
+  const canvas = document.getElementById('canvas');
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+  const scale = Math.min(vw / 1920, vh / 1080);
+  canvas.style.transform = 'scale(' + scale + ')';
+}
+
+window.addEventListener('resize', scaleCanvas);
+scaleCanvas();
+showSlide(current);
+</script>
+</body>
+</html>

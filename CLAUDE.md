@@ -4,7 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2026). Integrates a searchable corpus of 165 female allegorical figures, research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
+Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2026). Integrates a searchable corpus of female allegorical figures (currently 265 records in `records.jsonl`; see *Known Data Issues* for downstream drift), research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
+
+> **Master plan**: `docs/PLANO-TESE-ICONOCRACIA.md` — comprehensive thesis architecture, methodology, case rankings, risk matrix, 24-month work plan, and 10 immediate decisions.
+
+**Parent CLAUDE.md context** (do not duplicate; read on demand):
+- `~/Documents/CLAUDE.md` — host layout, stale `/data/` → `~/Documents/` migration, location of binary drop zone `iconocracy-corpus/binaries/` (separate from this repo).
+- `~/Documents/projetos/research/CLAUDE.md` — meta-workspace conventions (sub-repo containment, where new pipelines/labs/apps go).
+- `~/.claude/CLAUDE.md` — user profile, conda env, citation defaults, skill catalogue.
 
 ---
 
@@ -12,7 +19,7 @@ Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História 
 
 ```bash
 # Environment
-conda activate iconocracy                          # Python 3.10+ environment
+conda activate iconocracy                          # Python 3.11 env (see environment.yml)
 
 # Validation & corpus
 python tools/scripts/validate_schemas.py           # validate all JSON schemas
@@ -34,10 +41,15 @@ python tools/scripts/argos_report.py               # render markdown acquisition
 # Thesis compilation (Pandoc)
 make -C vault/tese/ docx                           # full thesis → DOCX
 make -C vault/tese/ pdf                            # full thesis → PDF (requires LaTeX)
+make -C vault/tese/ capitulo-1.docx                # single chapter
 
-# Web apps (Gallica MCP server)
-cd indexing/gallica-mcp-server && npm run dev      # port 3001
-# NOTE: webiconocracy React explorer was retired (directory no longer present)
+# Tests (pytest, no config file — runs from repo root)
+pytest tests/                                       # full suite (argos/, tools/, training/ + top-level)
+pytest tests/test_corpus_export_idempotent.py -v    # single file
+pytest tests/argos/ -k acquisition                  # filter by keyword
+
+# NOTE: webiconocracy React explorer and indexing/gallica-mcp-server were retired
+# (directories no longer present in repo; were Mac-era symlinks).
 ```
 
 ---
@@ -70,10 +82,9 @@ data/processed/     → records.jsonl, purification.jsonl (canonical ledgers)
 vault/candidatos/   → Obsidian SCOUT notes (XX-NNN pattern, e.g. FR-013 Déclaration des droits.md)
 vault/sessoes/      → session summary notes (SCOUT-SESSION-YYYY-MM-DD.md)
 tese/manuscrito/    → thesis chapters (Markdown, compiled via Pandoc)
-tools/scripts/      → Python automation scripts (50+; see tools/scripts/ for full list)
+tools/scripts/      → Python automation scripts (69; see tools/scripts/ for full list)
 tools/schemas/      → JSON schemas (master-record, iconocode-output, webscout-input/output)
-notebooks/          → sequential analysis (01_exploratory → 02_kruskal_wallis → 03_regression → 04_correspondence)
-indexing/           → Gallica MCP server, corpus-scout-agent
+notebooks/          → sequential analysis 01–08 (exploratory → kruskal_wallis → regression → correspondence → temporal → clustering → dimensionality → multidimensional_scoring)
 deploy/             → Cloudflare Workers companion, HF Space
 ```
 
@@ -86,7 +97,7 @@ Validates `records.jsonl` against `tools/schemas/master-record.schema.json`, che
 ## Hooks (`.claude/settings.json`)
 
 Active automation:
-- **SessionStart**: checks SSD mount (`/Volumes/ICONOCRACIA`), reports corpus item count
+- **SessionStart**: checks SSD mount (`/media/ana/SSD_DATA`), reports corpus item count
 - **PreToolUse**: blocks edits to `tese/manuscrito/*_original` files; enforces vault note naming (`XX-NNN Title.md`)
 - **PostToolUse**: auto-stages vault notes to git; validates `corpus-data.json` schema on edit; regenerates CSV; counts thesis chapter words; checks Python syntax
 - **PreCompact**: preserves corpus IDs, Iconclass codes, endurecimento scores, and ongoing campaigns
@@ -128,7 +139,7 @@ Active automation:
 
 ## Mode Routing & Shortcut Commands
 
-The agent dispatches by trigger keywords (full spec: `ICONOCRACY_MASTER_PROMPT.md` §C). Execute directly without confirmation:
+The agent dispatches by trigger keywords (archived legacy reference: `archive/root-stale/ICONOCRACY_MASTER_PROMPT.md`). Execute directly without confirmation:
 
 | Trigger | Mode | Action |
 |---------|------|--------|
@@ -176,21 +187,25 @@ Every corpus item must exist in three places:
 - All generic vault notes in `vault/**/*.md` should default to **Obsidian Flavored Markdown**: frontmatter properties, `[[wikilinks]]`, `![[embeds]]`, callouts, comments, highlights, and external URLs only as Markdown links
 - Canonical vault guide: `vault/meta/Guia — Obsidian Flavored Markdown.md`; generic default template: `vault/_templates/nota-obsidian-padrao.md`
 - Thesis original files (`*_original`) are protected — use `vault/tese/` for revised drafts
-- SSD `/Volumes/ICONOCRACIA` stores raw images, Zotero PDFs, and backups
+- SSD `/media/ana/SSD_DATA` stores raw images, Zotero PDFs, and backups
 - Automatic vault backups must not land on `main` (use `vault_backup.py`)
 - Academic voice: formal Portuguese with jurídico-penal framing (legal-criminal history, NOT anthropological/sociological)
 
 ---
 
-## Known Data Issues (April 2026)
+## Known Data Issues (last audit: 2026-05-24)
 
 These documented problems affect corpus operations:
 
-1. **11 records with out-of-range indicator values** — `data/processed/records.jsonl` contains 11 records with values of 4 in indicators that the canonicalized T5 scale limits to 0–3. `validate_schemas.py` reports 154/165 valid. Do not use these 11 records in quantitative analysis until fixed.
-2. **purification.jsonl empty** — `data/processed/purification.jsonl` exists with 0 records. The HF release gate should block if empty.
-3. **companion-data.json stale** — reports 145 items vs. 165 actual. Run `sync_companion.py` before any release.
-4. **Notebooks hardcoded at 145 items** — some notebooks assume a corpus of 145 items. Verify `len(df)` at the start of each analysis.
-5. **8 records with placeholder URLs** — `https://iconocracy.corpus/placeholder/{item_id}`. Require verification against drive-manifest.json.
+1. **Minor drift across exports** — current counts (audit: 2026-05-24):
+   - `data/processed/records.jsonl` → **265 records, all schema-valid** (`validate_schemas.py` → 265/265 ✓)
+   - `corpus/corpus-data.json` → **264 items** (1 record in `records.jsonl` not yet propagated; `records_to_corpus.py --diff` lists it)
+   - `data/processed/purification.jsonl` → **264 records** (1 record lacks endurecimento coding)
+   - `companion-data.json` → **5 items** (drastically stale; `sync_companion.py` will rebuild)
+2. **8 records with placeholder URLs** — `https://iconocracy.corpus/placeholder/{item_id}`. Require verification against `data/raw/drive-manifest.json`.
+3. **Notebooks reference stale corpus sizes** — `01_exploratory.ipynb` reads "145 itens"; `05_temporal`, `06_clustering`, `07_dimensionality` reference "165 itens". Current corpus is 265. Verify `len(df)` at the start of each analysis and re-run after propagation.
+
+**Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the ~100-record drift between records.jsonl and corpus-data.json are resolved — `validate_schemas.py` reports 265/265 valid, and export drift is now 1 item.
 
 ## Release Gate
 
@@ -214,3 +229,21 @@ Curated skills Claude should prefer inside the thesis hub. Global + `find-skill`
 
 ### Review agents (subagent dispatch)
 - `abnt-checker` · `thesis-reviewer` · `chapter-integrity` · `iconclass-reviewer` · `iconocode` · `corpus-dedup`
+
+---
+
+## Agent skills
+
+Per-repo config consumed by Matt Pocock's engineering skills (`triage`, `to-issues`, `to-prd`, `diagnose`, `tdd`, `improve-codebase-architecture`, etc.).
+
+### Issue tracker
+
+GitHub Issues at `anavvanzin/iconocracy-corpus` via the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Canonical defaults (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: `CONTEXT.md` at repo root (created lazily by `/grill-with-docs`) + 5 ADRs in `docs/adr/`. See `docs/agents/domain.md`.
