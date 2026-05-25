@@ -135,3 +135,21 @@ deploy/iconocracia-companion/.wrangler/
 .session-state.md
 .coverage
 .superpowers/
+
+# ECC plugin output — reinstalled via /auto-update, not source (machine-specific abs paths)
+.claude/ecc/
+.claude/skills/ecc/
+.claude/agents/
+.claude/commands/
+.claude/rules/
+.claude/scripts/
+.claude/.agents/
+.claude/mcp-configs/
+.claude/marketplace.json
+.claude/plugin.json
+.claude/AGENTS.md
+.claude/PLUGIN_SCHEMA_NOTES.md
+.claude/README.md
+.claude/hooks/README.md
+.claude/hooks/hooks.json
+.claude/hooks/memory-persistence/

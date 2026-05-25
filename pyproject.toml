@@ -1,0 +1,14 @@
+# Tooling config for the ICONOCRACIA thesis monorepo.
+# Not a package — only declares linters. Code runs from repo root in the
+# `iconocracy` conda env (see environment.yml).
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = ["archive/", "notebooks/"]
+
+[tool.ruff.lint]
+# Start lenient: pycodestyle errors/warnings, pyflakes, import sorting.
+# Widen the selection once the baseline is clean.
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]  # line length handled separately; avoid noise on long URLs/strings
