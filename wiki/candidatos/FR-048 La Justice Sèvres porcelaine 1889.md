@@ -32,8 +32,8 @@ data_scout: 2026-04-14
 
 **Titulo:** La Justice — porcelaine de Sèvres (1889)
 **Acervo:** Manufacture nationale de Sèvres
-**URL de acesso:** `null` — #verificar
-**URL IIIF:** `null` — #verificar
+**URL de acesso:** `null` — [[verificar]]
+**URL IIIF:** `null` — [[verificar]]
 **Data estimada:** 1889
 **Pais:** FR
 **Suporte:** Cerâmica (porcelana de Sèvres)
@@ -48,8 +48,8 @@ data_scout: 2026-04-14
 
 **Atributos identificados:**
 - [x] balança — atributo central de La Justice
-- [ ] espada — a confirmar #verificar
-- [ ] venda nos olhos — a confirmar #verificar
+- [ ] espada — a confirmar [[verificar]]
+- [ ] venda nos olhos — a confirmar [[verificar]]
 - [x] toga/vestimenta classica — coberta, sem nudez (dessexualização moderada)
 - [ ] fasces
 - [ ] coroa mural
@@ -70,7 +70,7 @@ data_scout: 2026-04-14
 | apagamento_narrativo | 0 | Figura isolada, sem cena narrativa |
 | monocromatizacao | 0 | Porcelana Sèvres tipicamente policroma ou branca com detalhes dourados |
 | serialidade | 0 | Produção limitada, peça de prestígio |
-| inscricao_estatal | 0 | Marcas de manufatura possíveis — #verificar |
+| inscricao_estatal | 0 | Marcas de manufatura possíveis — [[verificar]] |
 
 **Score endurecimento:** 0.6 (média dos 10 indicadores)
 

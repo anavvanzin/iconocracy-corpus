@@ -17,7 +17,7 @@ tags:
   - suporte/moeda
   - regime/normativo
   - motivo/britannia
-  - #contrato-racial-visual
+  - [[contrato-racial-visual]]
 ---
 
 ## Descricao

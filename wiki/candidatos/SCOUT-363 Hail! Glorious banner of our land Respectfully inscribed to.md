@@ -17,7 +17,7 @@ tags:
   - suporte/estampa
   - regime/militar
   - motivo/columbia
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"

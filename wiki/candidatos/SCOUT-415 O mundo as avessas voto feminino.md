@@ -19,7 +19,7 @@ tags:
   - suporte/estampa
   - regime/contra-alegoria
   - motivo/voto-feminino
-  - #contra-alegoria
+  - [[contra-alegoria]]
 related:
   - "[[Contrato Sexual Visual]]"
   - "[[Mundus Inversus]]"

@@ -16,7 +16,7 @@ tags:
   - pais/FR
   - regime/militar
   - motivo/justitia
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"

@@ -811,7 +811,7 @@ Este Zwischenraum e central para a tese porque demonstra que:
 
 - **SCOUT-038 possivel duplicata de SCOUT-023:** Verificar antes de catalogar definitivamente
 - **SCOUT-037 decisao metodologica:** As "Femmes indochinoises" atendem ao criterio de inclusao no corpus? Sao figuras femininas em suporte estatal, mas nao sao alegorias classicas. Decisao necessaria.
-- **Todos os candidatos #sem-iiif:** Nenhum possui rastreabilidade IIIF. Priorizar busca em Gallica para versoes IIIF.
+- **Todos os candidatos [[sem-iiif]]:** Nenhum possui rastreabilidade IIIF. Priorizar busca em Gallica para versoes IIIF.
 - **Numeracao SCOUT:** Confirmar que SCOUT-034 a SCOUT-038 nao conflitam com IDs existentes no pipeline.
 
 ---

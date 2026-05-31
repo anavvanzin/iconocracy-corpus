@@ -19,7 +19,7 @@ tags:
   - suporte/moeda
   - regime/normativo
   - motivo/republica
-  - #acoplamento-imagem-norma
+  - [[acoplamento-imagem-norma]]
 related:
   - "[[Regime Normativo]]"
   - "[[A República brasileira — Nachleben]]"

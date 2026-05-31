@@ -15,7 +15,7 @@ tags:
   - suporte/estampa
   - regime/normativo
   - motivo/republica
-  - #verificar-imagem
+  - [[verificar-imagem]]
 related:
   - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"

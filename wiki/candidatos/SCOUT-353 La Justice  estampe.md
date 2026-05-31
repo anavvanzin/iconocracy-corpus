@@ -17,7 +17,7 @@ tags:
   - suporte/selo
   - regime/normativo
   - motivo/justitia
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"

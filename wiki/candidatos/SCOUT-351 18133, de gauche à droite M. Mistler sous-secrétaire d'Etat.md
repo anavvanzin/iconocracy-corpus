@@ -15,7 +15,7 @@ tags:
   - corpus/candidato
   - pais/FR
   - motivo/marianne
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"
