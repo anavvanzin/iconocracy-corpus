@@ -16,7 +16,7 @@ tags:
   - pais/US
   - regime/fundacional
   - motivo/columbia
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"

@@ -19,7 +19,7 @@ tags:
   - suporte/moeda
   - regime/normativo
   - motivo/britannia
-  - #acoplamento-imagem-norma
+  - [[acoplamento-imagem-norma]]
 related:
   - "[[Regime Normativo]]"
   - "[[Britannia — Nachleben e Continuidade Imperial]]"

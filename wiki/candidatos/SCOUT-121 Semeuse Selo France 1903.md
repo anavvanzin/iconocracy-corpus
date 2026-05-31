@@ -20,7 +20,7 @@ tags:
   - regime/normativo
   - motivo/semeuse
   - motivo/republica
-  - #acoplamento-imagem-norma
+  - [[acoplamento-imagem-norma]]
 related:
   - "[[Regime Normativo]]"
   - "[[Semeuse — Nachleben e Dessexualização]]"

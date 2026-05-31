@@ -110,7 +110,7 @@ DEUTSCHE REICHSPOST. *Germania*. 1900–1922. Selo postal, série definitiva. De
 
 4. **Overprints de ocupação** — Germania com "Belgien" e novos valores em centimes/francs circulou na Bélgica ocupada (1914–1918). A alegoria feminina alemã é imposta sobre território belga — inversão da colonialidade (metrópole europeia ocupa metrópole europeia).
 
-5. **Fim da série → #ausencia-alegorica** — Weimar substitui Germania por figuras de trabalhadores (Arbeiter) em 1922–23. A república democrática rejeita a alegoria feminina imperial em favor de iconografia proletária masculina. Paralelo com República de Weimar substituindo Germania por águia nas moedas.
+5. **Fim da série → [[ausencia-alegorica]]** — Weimar substitui Germania por figuras de trabalhadores (Arbeiter) em 1922–23. A república democrática rejeita a alegoria feminina imperial em favor de iconografia proletária masculina. Paralelo com República de Weimar substituindo Germania por águia nas moedas.
 
 ### Zwischenraum potenciais:
 

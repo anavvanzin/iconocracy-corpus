@@ -73,7 +73,7 @@ Antes desta sessão: 0 moedas, 0 papel-moeda no corpus. Agora: 1 moeda (Semeuse)
 
 ## Lacunas identificadas
 
-1. **SCOUT-117 #verificar-imagem** — Notgeld Bielefeld precisa de URL verificável
+1. **SCOUT-117 [[verificar-imagem]]** — Notgeld Bielefeld precisa de URL verificável
 2. **FR Semeuse 50c e 2F** — Temos o 1F, faltam as outras denominações
 3. **FR Semeuse vs Semeuse selo** — Comparação moeda/selo do mesmo design (potencial ZW panel)
 4. **US $1 Educational** — Already in corpus? Verificar se o trio está completo

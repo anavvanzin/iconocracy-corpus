@@ -15,7 +15,7 @@ tags:
   - suporte/estampa
   - regime/fundacional
   - motivo/republica
-  - #pathosformel
+  - [[pathosformel]]
 related:
   - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"

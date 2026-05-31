@@ -16,7 +16,7 @@ tags:
   - pais/FR
   - suporte/selo
   - regime/normativo
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"

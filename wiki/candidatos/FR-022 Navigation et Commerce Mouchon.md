@@ -46,7 +46,7 @@ data_scout: 2026-04-11
 
 **Motivo alegórico:** Navigation et Commerce — duas figuras femininas
 **Regime iconocrático:** NORMATIVO (com traços MILITAR em contexto colonial)
-**Justificativa:** Desenhado por Louis-Eugène Mouchon e gravado por Louis-Eugène Mouchon, este selo foi a emissão padrão das colônias francesas a partir de 1892, utilizado em mais de 30 territórios ultramarinos (Indo-China, Madagascar, Guiana Francesa, Martinica, Nova Caledônia, etc.). As duas figuras femininas — Navigation (com proa de navio) e Commerce (com caduceu) — representam o projeto imperial francês de dominação comercial e marítima. A circulação colonial massiva faz deste item um caso paradigmático de #colonialidade-do-ver e de #contrato-racial-visual: a alegoria feminina europeia circula como selo de soberania sobre territórios colonizados.
+**Justificativa:** Desenhado por Louis-Eugène Mouchon e gravado por Louis-Eugène Mouchon, este selo foi a emissão padrão das colônias francesas a partir de 1892, utilizado em mais de 30 territórios ultramarinos (Indo-China, Madagascar, Guiana Francesa, Martinica, Nova Caledônia, etc.). As duas figuras femininas — Navigation (com proa de navio) e Commerce (com caduceu) — representam o projeto imperial francês de dominação comercial e marítima. A circulação colonial massiva faz deste item um caso paradigmático de [[colonialidade-do-ver]] e de [[contrato-racial-visual]]: a alegoria feminina europeia circula como selo de soberania sobre territórios colonizados.
 
 **Atributos identificados:**
 - [ ] balança
@@ -85,4 +85,4 @@ MOUCHON, Louis-Eugène. *Navigation et Commerce*. 1892–1920s. Selo postal colo
 
 ## Observações do Scout
 
-Item de altíssima relevância teórica. A circulação de uma mesma alegoria feminina europeia como selo postal em dezenas de territórios colonizados é um caso extremo de serialidade e inscrição estatal — dois indicadores de endurecimento. A Navigation et Commerce materializa o Contrato Sexual Visual em escala imperial: o corpo feminino alegorizado não apenas legitima a República metropolitana, mas projeta a soberania francesa sobre corpos e territórios colonizados. Candidato forte para análise de #contrato-racial-visual e para Zwischenraum com selos metropolitanos (Type Sage, Semeuse).
+Item de altíssima relevância teórica. A circulação de uma mesma alegoria feminina europeia como selo postal em dezenas de territórios colonizados é um caso extremo de serialidade e inscrição estatal — dois indicadores de endurecimento. A Navigation et Commerce materializa o Contrato Sexual Visual em escala imperial: o corpo feminino alegorizado não apenas legitima a República metropolitana, mas projeta a soberania francesa sobre corpos e territórios colonizados. Candidato forte para análise de [[contrato-racial-visual]] e para Zwischenraum com selos metropolitanos (Type Sage, Semeuse).

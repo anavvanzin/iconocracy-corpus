@@ -15,7 +15,7 @@ tags:
   - corpus/candidato
   - pais/US
   - motivo/justitia
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"

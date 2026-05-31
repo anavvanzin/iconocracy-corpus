@@ -52,7 +52,7 @@ updated: 2026-03-29
 **Titulo:** Seahorse Definitives — Britannia em biga marinha (Mackennal, 1913)
 **Acervo:** The Postal Museum, London / Stanley Gibbons Great Britain Specialised / Colnect
 **URL de acesso:** [The Postal Museum — Seahorse High Values](https://www.postalmuseum.org/collections/highlights/philatelic-collection/british-stamps/george-v-stamps/george-v-definitives/seahorse-high-values/)
-**URL IIIF:** `null` — nenhum acervo filatelico consultado oferece manifesto IIIF para este item. #sem-iiif
+**URL IIIF:** `null` — nenhum acervo filatelico consultado oferece manifesto IIIF para este item. [[sem-iiif]]
 **Data estimada:** 1913-1934 (emissao original: junho/agosto 1913; ultima emissao: Waterlow re-engraved, 1934; retirado de circulacao: 1939)
 **Pais:** UK
 **Suporte:** Selo postal — quatro valores de alta denominacao (high values definitives); impressao em entalhe (recess/intaglio)

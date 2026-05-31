@@ -16,7 +16,7 @@ tags:
   - pais/FR
   - suporte/monumento
   - motivo/republica
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"

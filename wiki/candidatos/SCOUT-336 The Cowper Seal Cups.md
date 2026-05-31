@@ -15,7 +15,7 @@ tags:
   - corpus/candidato
   - pais/UK
   - motivo/britannia
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"
