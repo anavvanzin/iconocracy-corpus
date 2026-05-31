@@ -26,6 +26,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent.parent
 RECORDS = REPO / "data" / "processed" / "records.jsonl"
 CORPUS_OUT = REPO / "corpus" / "corpus-data.json"
+ID_MAPPING = REPO / "data" / "processed" / "id-mapping.json"
 
 # Stable namespace shared with csv_to_records.py for corpus-id -> UUID5 mapping.
 _NS = uuid.UUID("6ba7b810-9dad-11d1-80b4-00c04fd430c8")
@@ -49,10 +50,59 @@ COUNTRY_MAP_REVERSE: dict[str, str] = {
     "Argentina": "Argentina",
 }
 
+# Fallback country derivation from the corpus_id prefix (e.g. "AT-001" -> "Austria").
+# Used only when input.place_hint is missing and no existing entry carries country.
+# NOTE: imperfect — a few ids (e.g. DE-prefixed items physically held in IT/CH)
+# do not match their country, so place_hint always takes precedence.
+COUNTRY_BY_PREFIX: dict[str, str] = {
+    "FR": "France",
+    "BR": "Brazil",
+    "US": "United States",
+    "DE": "Germany",
+    "UK": "United Kingdom",
+    "GB": "United Kingdom",
+    "BE": "Belgium",
+    "NL": "Netherlands",
+    "PT": "Portugal",
+    "IT": "Italy",
+    "AT": "Austria",
+    "ES": "Spain",
+    "CH": "Switzerland",
+    "UY": "Uruguay",
+    "MX": "Mexico",
+    "AR": "Argentina",
+}
+
 
 def _item_uuid(corpus_id: str) -> str:
     """Reconstruct the deterministic item UUID used by csv_to_records.py."""
     return str(uuid.uuid5(_NS, f"iconocracy-corpus-{corpus_id}"))
+
+
+def _country_from_corpus_id(corpus_id: str) -> str:
+    """Derive a country name from the leading prefix of a corpus_id (best-effort)."""
+    if not corpus_id or "-" not in corpus_id:
+        return ""
+    return COUNTRY_BY_PREFIX.get(corpus_id.split("-", 1)[0].upper(), "")
+
+
+def _load_id_mapping() -> dict[str, str]:
+    """Return {record item_id -> public corpus_id} from id-mapping.json.
+
+    This is the canonical source of the public ``id`` field that corpus-data.json
+    items must carry (issue #56). records.jsonl itself does not store corpus_id.
+    """
+    if not ID_MAPPING.exists():
+        return {}
+    try:
+        data = json.loads(ID_MAPPING.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return {
+        e["item_id"]: e["corpus_id"]
+        for e in data.get("mapping", [])
+        if e.get("item_id") and e.get("corpus_id")
+    }
 
 
 def _atomic_write_json(path: Path, payload: list[dict]) -> None:
@@ -111,8 +161,13 @@ def _load_existing_corpus() -> dict[str, dict]:
         return {}
 
 
-def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
-    """Build a corpus-data.json entry from a master record, merging with existing."""
+def _corpus_entry_from_record(
+    record: dict, existing: dict | None, corpus_id: str = ""
+) -> dict:
+    """Build a corpus-data.json entry from a master record, merging with existing.
+
+    ``corpus_id`` is the public id resolved from id-mapping.json (issue #56).
+    """
     inp = record.get("input", {})
     webscout = record.get("webscout", {})
     iconocode = record.get("iconocode", {})
@@ -180,6 +235,36 @@ def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
     if exports.get("audit_flags") and not entry.get("audit_flags"):
         entry["audit_flags"] = exports["audit_flags"]
 
+    # ── Export contract identity/classification fields (issue #56) ──────────
+    # These were dropped in a prior regression. records.jsonl does not store
+    # them, so they are restored from:
+    #   id      -> id-mapping.json (record item_id -> corpus_id)
+    #   country -> curated value preserved from the existing entry; derived from
+    #              input.place_hint (corpus_id prefix as fallback) only when the
+    #              existing entry has none (i.e. the records-only path).
+    #   support -> curated; preserved from the existing corpus entry only
+    #   year    -> curated; preserved from the existing corpus entry only
+    if corpus_id:
+        entry["id"] = corpus_id
+
+    # Never overwrite a curated country with a raw place_hint (some hints are
+    # malformed, e.g. "['FR']"). Derive only when nothing curated is present.
+    if not entry.get("country"):
+        place_hint = (inp.get("place_hint") or "").strip()
+        country = ""
+        if place_hint and place_hint.lower() != "unknown":
+            country = COUNTRY_MAP_REVERSE.get(place_hint, place_hint)
+        if not country:
+            country = _country_from_corpus_id(corpus_id)
+        if country:
+            entry["country"] = country
+
+    # support/year are curated enrichments held only in corpus-data.json.
+    if existing and existing.get("support"):
+        entry["support"] = existing["support"]
+    if existing and existing.get("year") is not None:
+        entry["year"] = existing["year"]
+
     return entry
 
 
@@ -187,6 +272,7 @@ def export_corpus(
     records: list[dict],
     existing_corpus: dict[str, dict],
     replace: bool = False,
+    id_mapping: dict[str, str] | None = None,
 ) -> list[dict]:
     """
     Build corpus-data.json list.
@@ -194,7 +280,11 @@ def export_corpus(
     In merge mode (default): existing entries are kept and enriched with
     records data; records without a corpus match are added at the end.
     In replace mode: only records entries are used (may lose rich fields).
+
+    ``id_mapping`` maps record item_id -> public corpus_id and is used to
+    restore the export contract ``id`` field (issue #56).
     """
+    id_mapping = id_mapping or {}
     result: list[dict] = []
 
     # Index records by deterministic item_id first (canonical), URL as fallback.
@@ -221,7 +311,9 @@ def export_corpus(
             if not rec and item_url:
                 rec = records_by_url.get(item_url)
             if rec:
-                entry = _corpus_entry_from_record(rec, item)
+                # Prefer the existing corpus id; fall back to the mapping.
+                resolved_id = item_id or id_mapping.get(rec.get("item_id", ""), "")
+                entry = _corpus_entry_from_record(rec, item, resolved_id)
                 matched_item_ids.add(rec.get("item_id", ""))
                 matched_urls.add(item_url)
             else:
@@ -236,7 +328,8 @@ def export_corpus(
         if rec_item_id in matched_item_ids or url in matched_urls:
             continue
         if replace or url not in {i.get("url", "") for i in result}:
-            entry = _corpus_entry_from_record(rec, None)
+            resolved_id = id_mapping.get(rec_item_id, "")
+            entry = _corpus_entry_from_record(rec, None, resolved_id)
             if entry.get("title"):
                 result.append(entry)
 
@@ -306,12 +399,15 @@ def main() -> None:
 
     records = _load_records()
     existing = _load_existing_corpus()
+    id_mapping = _load_id_mapping()
 
     if args.diff:
         show_diff(records, existing)
         return
 
-    result = export_corpus(records, existing, replace=args.replace)
+    result = export_corpus(
+        records, existing, replace=args.replace, id_mapping=id_mapping
+    )
 
     if args.dry_run:
         print(f"[DRY-RUN] Geraria {len(result)} itens em {args.output}")
