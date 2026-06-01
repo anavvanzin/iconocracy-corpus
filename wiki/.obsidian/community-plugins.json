@@ -7,5 +7,10 @@
   "obsidian-footnotes",
   "obsidian-enhancing-mindmap",
   "editing-toolbar",
-  "obsidian-citation-plugin"
+  "obsidian-citation-plugin",
+  "obsidian-mind-map",
+  "obsidian-linter",
+  "obsidian-icon-folder",
+  "highlightr-plugin",
+  "obsidian-pandoc"
 ]
