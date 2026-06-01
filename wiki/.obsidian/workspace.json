@@ -11,13 +11,14 @@
             "id": "20e258d97161cfd3",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Sem título 3.base",
-                "viewName": "Tabela"
+                "file": "tese/capitulo-2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Sem título 3"
+              "icon": "lucide-file",
+              "title": "capitulo-2"
             }
           }
         ]
@@ -192,14 +193,29 @@
   },
   "active": "20e258d97161cfd3",
   "lastOpenFiles": [
+    "tese/ideias/2026-04-18_devils-advocate-objecoes-qualificacao.md",
+    "DIR410346-Historia-Direito-Penal/{aulas,leituras,memoriais,templates,assets}/Handout — O Malleus Maleficarum e a construção da bruxaria.md",
+    "Untitled 1.base",
+    "Untitled 2.base",
+    "brainstorm-workflow-improvements.md",
+    "Feminilidade de Estado.md",
+    "entities/07dcf849-9f63-5c2e-959a-6682cc5475eb.md",
+    "DIR510212-Metodologias-Tese/GUIA.md",
+    "DIR410346-Historia-Direito-Penal/memoriais/Memorial 01 — Códigos da Antiguidade.md",
+    "DIR410346-Historia-Direito-Penal/materiais/Justiça criminal Mario Sbriccoli.pdf (1).pdf",
+    "DIR410346-Historia-Direito-Penal/aulas/Tabela — Processos inquisitoriais da Bahia e Brasil colonial.md",
+    "DIR410346-Historia-Direito-Penal/aulas/Trilogia Iconocracia 2026.md",
+    "DIR410346-Historia-Direito-Penal/aulas/Aula 07 — Penalística civil — Escola Clássica.md",
+    "DIR410346-Historia-Direito-Penal/aulas/Aula 06 — Processo penal moderno — júri e processo misto.md",
+    "DIR410346-Historia-Direito-Penal/aulas/Aula 02 — Justiça negociada alto-medieval.md",
+    "Sem título.base",
+    "Sem título 3.base",
     "DIR410346-Historia-Direito-Penal/aulas/Sem título.base",
     "DIR410346-Historia-Direito-Penal/aulas/Aula 01 — Justiça criminal pré-moderna — códigos da Antiguidade.md",
     "relatorios/Kanban sem título.md",
-    "Sem título 3.base",
     "Excalidraw/Drawing 2026-06-01 12.28.31.excalidraw.md",
     "Sem título 1.canvas",
     "Sem título 2.base",
-    "Feminilidade de Estado.md",
     "candidatos/SCOUT-098 Allegorie de la Republique 1789 1830 1848.md",
     "Excalidraw/Drawing 2026-06-01 12.18.16.excalidraw.md",
     "Sem título 1.base",
@@ -207,7 +223,6 @@
     "concepts/regime-contra-alegoria.md",
     "assets/obsidian-kanban/docs/Obsidian Kanban Plugin.md",
     "estudos/Plano de Estudos — Book of Secret Knowledge.md",
-    "brainstorm-workflow-improvements.md",
     "tese/Kanban sem título.md",
     "Excalidraw/Drawing 2026-05-31 19.59.09.excalidraw.md",
     "Excalidraw",
@@ -216,18 +231,7 @@
     "tese/roadmap-visual.canvas",
     "index.md",
     "SCHEMA.md",
-    "Sem título.base",
     "relatorios/2026-04-22_plano-semanal-atlas-transition.md",
-    "obsidian-deep-research/references/claude-md-spec.md",
-    "obsidian-deep-research/README.md",
-    "prompts/bibliografia/agente-pesquisa-academica-ius-gentium.md",
-    "Untitled.md",
-    "raw/metodologia/prompt-tese-primeiro-estudo-comparado.md",
-    "raw/metodologia/prompt-curso-estudos-pesquisa.md",
-    "raw/metodologia",
-    "Untitled 2.base",
-    "Untitled 1.base",
-    "_templates/Untitled Kanban.md",
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-16 at 12.58.22 PM.png",
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-16 at 1.10.38 PM.png",
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-16 at 1.02.48 PM.png",
@@ -237,8 +241,6 @@
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-13 at 3.46.53 PM.png",
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-13 at 3.48.15 PM.png",
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-13 at 4.00.18 PM.png",
-    "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-13 at 4.02.49 PM.png",
-    "assets/obsidian-kanban/LICENSE.md",
-    "assets/obsidian-kanban/docs/How do I/Add an image to a card.md"
+    "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-13 at 4.02.49 PM.png"
   ]
 }
