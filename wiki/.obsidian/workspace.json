@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "brainstorm-workflow-improvements.md",
+                "file": "DIR410346-Historia-Direito-Penal/aulas/Aula 01 — Justiça criminal pré-moderna — códigos da Antiguidade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "brainstorm-workflow-improvements"
+              "title": "Aula 01 — Justiça criminal pré-moderna — códigos da Antiguidade"
             }
           }
         ]
@@ -191,14 +191,22 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "db886e7be5fea0f1",
+  "active": "20e258d97161cfd3",
   "lastOpenFiles": [
+    "candidatos/SCOUT-098 Allegorie de la Republique 1789 1830 1848.md",
+    "Excalidraw/Drawing 2026-06-01 12.18.16.excalidraw.md",
+    "Sem título 1.base",
+    "Kanban sem título.md",
+    "concepts/regime-contra-alegoria.md",
+    "assets/obsidian-kanban/docs/Obsidian Kanban Plugin.md",
+    "estudos/Plano de Estudos — Book of Secret Knowledge.md",
+    "brainstorm-workflow-improvements.md",
+    "tese/Kanban sem título.md",
     "Excalidraw/Drawing 2026-05-31 19.59.09.excalidraw.md",
     "Excalidraw",
     "Sem título.canvas",
     "tese/output",
     "tese/roadmap-visual.canvas",
-    "brainstorm-workflow-improvements.md",
     "index.md",
     "SCHEMA.md",
     "Sem título.base",
@@ -206,7 +214,6 @@
     "obsidian-deep-research/references/claude-md-spec.md",
     "obsidian-deep-research/README.md",
     "prompts/bibliografia/agente-pesquisa-academica-ius-gentium.md",
-    "assets/obsidian-kanban/docs/Obsidian Kanban Plugin.md",
     "Untitled.md",
     "raw/metodologia/prompt-tese-primeiro-estudo-comparado.md",
     "raw/metodologia/prompt-curso-estudos-pesquisa.md",
@@ -233,13 +240,6 @@
     "assets/obsidian-kanban/README.md",
     "assets/obsidian-kanban/docs/Settings/Note template.md",
     "assets/obsidian-kanban/docs/Settings/Date display format.md",
-    "assets/obsidian-kanban/docs/How do I/Set a WIP Limit.md",
-    "assets/obsidian-kanban/docs/How do I/Create a Kanban board.md",
-    "assets/obsidian-kanban/docs/Settings/Local vs. global settings.md",
-    "assets/obsidian-kanban/docs/Settings/Add date and time to archived cards.md",
-    "assets/obsidian-kanban/docs/How do I/Create notes from cards.md",
-    "assets/obsidian-kanban/docs/FAQs/Frontmatter limitations & gotchas.md",
-    "assets/obsidian-kanban/src/components/Editor/flatpickr/plugins/monthSelect",
-    "assets/obsidian-kanban/src/components/Editor/flatpickr/plugins/labelPlugin"
+    "assets/obsidian-kanban/src/components/Editor/flatpickr/plugins/monthSelect"
   ]
 }

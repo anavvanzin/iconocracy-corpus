@@ -1,6 +1,6 @@
 {
-  "cssTheme": "Prism",
+  "cssTheme": "WY Console",
   "baseFontSizeAction": true,
-  "theme": "moonstone",
-  "accentColor": "#7d768f"
+  "theme": "system",
+  "accentColor": ""
 }
