@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "Sem título",
+      "path": "entities/Sem título.base"
+    },
+    {
+      "basename": "39ef732e-918f-5e36-acc8-cb5a35614a3b",
+      "path": "entities/39ef732e-918f-5e36-acc8-cb5a35614a3b.md"
+    },
+    {
+      "basename": "Plano de Estudos — Book of Secret Knowledge",
+      "path": "estudos/Plano de Estudos — Book of Secret Knowledge.md"
+    },
+    {
+      "basename": "prompt-bases-iconograficas-comparativas",
+      "path": "prompts/catalogacao/prompt-bases-iconograficas-comparativas.md"
+    },
+    {
+      "basename": "INDEX",
+      "path": "prompts/INDEX.md"
+    },
+    {
+      "basename": "2026-04-21_relatorio",
+      "path": "relatorios/2026-04-21_relatorio.html"
+    },
+    {
+      "basename": "2026-04-21_relatorio-figma",
+      "path": "relatorios/2026-04-21_relatorio-figma.svg"
+    },
+    {
+      "basename": "Sem título 2",
+      "path": "Sem título 2.base"
+    },
+    {
+      "basename": "Sem título 1",
+      "path": "Sem título 1.canvas"
+    },
+    {
+      "basename": "_TEMPLATE",
+      "path": "prompts/_TEMPLATE.md"
+    },
+    {
+      "basename": "SCHEMA",
+      "path": "SCHEMA.md"
+    },
+    {
       "basename": "C2",
       "path": "entities/C2.md"
     },
@@ -77,10 +121,6 @@
       "path": "Kanban sem título.md"
     },
     {
-      "basename": "INDEX",
-      "path": "prompts/INDEX.md"
-    },
-    {
       "basename": "Sem título 3",
       "path": "Sem título 3.base"
     },
@@ -133,14 +173,6 @@
       "path": "tese/Kanban sem título.md"
     },
     {
-      "basename": "Sem título 1",
-      "path": "Sem título 1.canvas"
-    },
-    {
-      "basename": "SCHEMA",
-      "path": "SCHEMA.md"
-    },
-    {
       "basename": "Sem título",
       "path": "Sem título.canvas"
     },
@@ -167,18 +199,6 @@
     {
       "basename": "Sem título",
       "path": "assets/obsidian-kanban/docs/Assets/Sem título.base"
-    },
-    {
-      "basename": "Sem título",
-      "path": "tese/ideias/Sem título.base"
-    },
-    {
-      "basename": "202603300110",
-      "path": "202603300110.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],

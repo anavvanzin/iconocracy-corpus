@@ -1,5 +1,6 @@
 {
   "pinned": [
-    "theme:switch"
+    "theme:switch",
+    "editor:download-attachments"
   ]
 }

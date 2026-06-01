@@ -99,8 +99,19 @@
               "icon": "clock",
               "title": "Recent files"
             }
+          },
+          {
+            "id": "9bcabf84da0d621f",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -220,6 +231,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "random-note:Abrir nota aleatória": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "media-extended:Open media library": false,
+      "media-extended:Open media quick switcher": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Criar um novo quadro": false,
       "obsidian-git:Open Git source control": false,
@@ -235,13 +253,13 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "remotely-save:Remotely Save": false,
       "terminal:Open terminal": false,
       "templater-obsidian:Templater": false
     }
   },
   "active": "db886e7be5fea0f1",
   "lastOpenFiles": [
+    "entities/Sem título.base",
     "_templates/Untitled Kanban.md",
     "_templates/SCOUT-NARR.md",
     "_templates/rotina-R6-higiene.md",
@@ -272,7 +290,6 @@
     "tese/rascunhos-artigos/O_Silencio_da_Justica.md",
     "tese/plano-capitulos-2026-04-11.md",
     "tese/capitulo-2.md",
-    "tese/rascunhos-artigos/O contrato visual — mapa conceitual.md",
     "Sem título 1.canvas",
     "Sem título.canvas",
     "Sem título.base",
