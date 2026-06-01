@@ -11,14 +11,13 @@
             "id": "20e258d97161cfd3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "DIR410346-Historia-Direito-Penal/aulas/Aula 01 — Justiça criminal pré-moderna — códigos da Antiguidade.md",
-                "mode": "source",
-                "source": false
+                "file": "Sem título 3.base",
+                "viewName": "Tabela"
               },
-              "icon": "lucide-file",
-              "title": "Aula 01 — Justiça criminal pré-moderna — códigos da Antiguidade"
+              "icon": "lucide-layout-grid",
+              "title": "Sem título 3"
             }
           }
         ]
@@ -193,6 +192,14 @@
   },
   "active": "20e258d97161cfd3",
   "lastOpenFiles": [
+    "DIR410346-Historia-Direito-Penal/aulas/Sem título.base",
+    "DIR410346-Historia-Direito-Penal/aulas/Aula 01 — Justiça criminal pré-moderna — códigos da Antiguidade.md",
+    "relatorios/Kanban sem título.md",
+    "Sem título 3.base",
+    "Excalidraw/Drawing 2026-06-01 12.28.31.excalidraw.md",
+    "Sem título 1.canvas",
+    "Sem título 2.base",
+    "Feminilidade de Estado.md",
     "candidatos/SCOUT-098 Allegorie de la Republique 1789 1830 1848.md",
     "Excalidraw/Drawing 2026-06-01 12.18.16.excalidraw.md",
     "Sem título 1.base",
@@ -221,8 +228,6 @@
     "Untitled 2.base",
     "Untitled 1.base",
     "_templates/Untitled Kanban.md",
-    "tese/drafts/Untitled.base",
-    "Sem título",
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-16 at 12.58.22 PM.png",
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-16 at 1.10.38 PM.png",
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-16 at 1.02.48 PM.png",
@@ -234,12 +239,6 @@
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-13 at 4.00.18 PM.png",
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-13 at 4.02.49 PM.png",
     "assets/obsidian-kanban/LICENSE.md",
-    "assets/obsidian-kanban/docs/How do I/Add an image to a card.md",
-    "assets/obsidian-kanban/docs/Settings/Linked page metadata.md",
-    "assets/obsidian-kanban/MAINTAINERS.md",
-    "assets/obsidian-kanban/README.md",
-    "assets/obsidian-kanban/docs/Settings/Note template.md",
-    "assets/obsidian-kanban/docs/Settings/Date display format.md",
-    "assets/obsidian-kanban/src/components/Editor/flatpickr/plugins/monthSelect"
+    "assets/obsidian-kanban/docs/How do I/Add an image to a card.md"
   ]
 }
