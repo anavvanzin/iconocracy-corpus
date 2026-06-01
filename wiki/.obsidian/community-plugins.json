@@ -12,5 +12,11 @@
   "obsidian-linter",
   "obsidian-icon-folder",
   "highlightr-plugin",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "recent-files-obsidian",
+  "quickadd",
+  "obsidian-style-settings",
+  "remotely-save",
+  "terminal",
+  "templater-obsidian"
 ]
