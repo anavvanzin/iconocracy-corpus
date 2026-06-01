@@ -9,6 +9,11 @@ Programa de Pós-Graduação em Direito — Universidade Federal de Santa Catari
 
 **Resumo:** Este artigo investiga uma dimensão negligenciada da iconografia jurídica: a progressiva perda de voz das figuras alegóricas femininas que personificam a Justiça, a Liberdade e a República na cultura visual estatal dos séculos XIX e XX. A partir de um corpus de 106 imagens oficiais e semi-oficiais de 8 países, codificadas com protocolo de 10 indicadores ordinais de purificação (endurecimento), o artigo demonstra que a trajetória do corpo alegórico feminino — de figura narrativa e dinâmica a emblema institucional estático — é acompanhada por um silenciamento paralelo: as alegorias que falam, gritam ou convocam nos registros fundacionais perdem progressivamente a capacidade vocal à medida que são absorvidas pelo regime normativo. O artigo propõe o conceito de *silenciamento* como dimensão qualitativa complementar aos indicadores morfológicos de endurecimento e analisa casos paradigmáticos em que a relação entre voz e mutismo revela a operação do Contrato Sexual Visual na iconografia do Estado.
 
+|     |     |
+| --- | --- |
+|     |     |
+
+
 **Palavras-chave:** alegoria feminina; iconografia jurídica; silêncio; endurecimento; Contrato Sexual Visual; Feminilidade de Estado.
 
 ---

@@ -1,6 +1,158 @@
 {
   "recentFiles": [
     {
+      "basename": "C2",
+      "path": "entities/C2.md"
+    },
+    {
+      "basename": "Untitled Kanban",
+      "path": "_templates/Untitled Kanban.md"
+    },
+    {
+      "basename": "SCOUT-NARR",
+      "path": "_templates/SCOUT-NARR.md"
+    },
+    {
+      "basename": "rotina-R6-higiene",
+      "path": "_templates/rotina-R6-higiene.md"
+    },
+    {
+      "basename": "rotina-R3-leitura",
+      "path": "_templates/rotina-R3-leitura.md"
+    },
+    {
+      "basename": "rotina-R2-coding",
+      "path": "_templates/rotina-R2-coding.md"
+    },
+    {
+      "basename": "evidence-qa-report",
+      "path": "queries/evidence-qa-report.md"
+    },
+    {
+      "basename": "iconographic-corpus-agent-prompts",
+      "path": "prompts/corpus/iconographic-corpus-agent-prompts.md"
+    },
+    {
+      "basename": "plano-2-semanas-caso-brasileiro",
+      "path": "projeto/plano-2-semanas-caso-brasileiro.md"
+    },
+    {
+      "basename": "PROJETO DE TESE v2 — qualificação",
+      "path": "projeto/PROJETO DE TESE v2 — qualificação.md"
+    },
+    {
+      "basename": "2026-04-21_relatorio",
+      "path": "relatorios/2026-04-21_relatorio.pdf"
+    },
+    {
+      "basename": "2026-04-21_relatorio",
+      "path": "relatorios/2026-04-21_relatorio.png"
+    },
+    {
+      "basename": "iconocracia-memorando-pesquisa--expandido",
+      "path": "tese/drafts/iconocracia-memorando-pesquisa--expandido.md"
+    },
+    {
+      "basename": "iconocracia-memorando-pesquisa",
+      "path": "tese/drafts/iconocracia-memorando-pesquisa.md"
+    },
+    {
+      "basename": "SCOUT-408 Visconti Lei Aurea selo 1904",
+      "path": "candidatos/SCOUT-408 Visconti Lei Aurea selo 1904.md"
+    },
+    {
+      "basename": "Sem título 1",
+      "path": "Sem título 1.base"
+    },
+    {
+      "basename": "mondzain2002",
+      "path": "raw/papers/mondzain2002.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
+      "basename": "Kanban sem título",
+      "path": "Kanban sem título.md"
+    },
+    {
+      "basename": "INDEX",
+      "path": "prompts/INDEX.md"
+    },
+    {
+      "basename": "Sem título 3",
+      "path": "Sem título 3.base"
+    },
+    {
+      "basename": "capitulo-5",
+      "path": "tese/capitulo-5.md"
+    },
+    {
+      "basename": "A SEDUÇÃO BOLSONARISTA E A -ANTROPOLOGIA DOGMÁTICA- DE PIERRE LEGENDRE- PODER, IMAGEM E A CRISE",
+      "path": "tese/drafts/A SEDUÇÃO BOLSONARISTA E A -ANTROPOLOGIA DOGMÁTICA- DE PIERRE LEGENDRE- PODER, IMAGEM E A CRISE.md"
+    },
+    {
+      "basename": "iconocratic_regimes_final_report",
+      "path": "tese/drafts/iconocratic_regimes_final_report.md"
+    },
+    {
+      "basename": "roadmap-visual",
+      "path": "tese/roadmap-visual.canvas"
+    },
+    {
+      "basename": "capitulo-9",
+      "path": "tese/capitulo-9.md"
+    },
+    {
+      "basename": "conclusao",
+      "path": "tese/conclusao.md"
+    },
+    {
+      "basename": "Silence_Index_article",
+      "path": "tese/ideias/Silence_Index_article.md"
+    },
+    {
+      "basename": "O_Silencio_da_Justica",
+      "path": "tese/rascunhos-artigos/O_Silencio_da_Justica.md"
+    },
+    {
+      "basename": "plano-capitulos-2026-04-11",
+      "path": "tese/plano-capitulos-2026-04-11.md"
+    },
+    {
+      "basename": "capitulo-2",
+      "path": "tese/capitulo-2.md"
+    },
+    {
+      "basename": "O contrato visual — mapa conceitual",
+      "path": "tese/rascunhos-artigos/O contrato visual — mapa conceitual.md"
+    },
+    {
+      "basename": "Kanban sem título",
+      "path": "tese/Kanban sem título.md"
+    },
+    {
+      "basename": "Sem título 1",
+      "path": "Sem título 1.canvas"
+    },
+    {
+      "basename": "SCHEMA",
+      "path": "SCHEMA.md"
+    },
+    {
+      "basename": "Sem título",
+      "path": "Sem título.canvas"
+    },
+    {
+      "basename": "2026-04-25",
+      "path": "2026-04-25.md"
+    },
+    {
+      "basename": "introducao",
+      "path": "tese/introducao.md"
+    },
+    {
       "basename": "Drawing 2026-06-01 12.59.14.excalidraw",
       "path": "Excalidraw/Drawing 2026-06-01 12.59.14.excalidraw.md"
     },
