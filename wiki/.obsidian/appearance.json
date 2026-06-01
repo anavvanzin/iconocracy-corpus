@@ -1,4 +1,6 @@
 {
-  "cssTheme": "Vauxhall",
-  "baseFontSizeAction": true
+  "cssTheme": "Prism",
+  "baseFontSizeAction": true,
+  "theme": "moonstone",
+  "accentColor": "#7d768f"
 }
