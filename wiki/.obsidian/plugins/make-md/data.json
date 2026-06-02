@@ -48,8 +48,18 @@
     "//obsidian-dir410346",
     "//pesquisa",
     "//projeto",
-    "//estudos",
-    "//entities"
+    "//entities",
+    "//prompts/prompts/corpus",
+    "//sessoes",
+    "//tese",
+    "//tese/tese/citacoes",
+    "//tese/tese/output",
+    "//tese/tese/drafts",
+    "//tese/tese/ideias",
+    "//tese/tese/rascunhos-artigos",
+    "//ideias",
+    "//obsidian-deep-research",
+    "//metodos-metodologias/metodos-metodologias/aulas"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -62,6 +72,7 @@
     "_blocks"
   ],
   "newFileLocation": "current",
+  "newFileFolderPath": "",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,

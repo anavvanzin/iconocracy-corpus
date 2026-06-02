@@ -1,6 +1,86 @@
 {
   "recentFiles": [
     {
+      "basename": "Kanban sem título 1",
+      "path": "Kanban sem título 1.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
+      "basename": "brazilian-visual-economy-proposals",
+      "path": "ideias/brazilian-visual-economy-proposals.md"
+    },
+    {
+      "basename": "mapa-de-coerencia-iconocracia",
+      "path": "tese/drafts/mapa-de-coerencia-iconocracia.md"
+    },
+    {
+      "basename": "Pipeline_Artigos_2026",
+      "path": "tese/rascunhos-artigos/Pipeline_Artigos_2026.md"
+    },
+    {
+      "basename": "introducao",
+      "path": "tese/introducao.md"
+    },
+    {
+      "basename": "capitulo-5",
+      "path": "tese/capitulo-5.md"
+    },
+    {
+      "basename": "SCOUT-SESSION-2026-04-11",
+      "path": "sessoes/SCOUT-SESSION-2026-04-11.md"
+    },
+    {
+      "basename": "TODO_completados_2026-04-17",
+      "path": "tese/citacoes/TODO_completados_2026-04-17.md"
+    },
+    {
+      "basename": "Kanban sem título",
+      "path": "tese/Kanban sem título.md"
+    },
+    {
+      "basename": "_TEMPLATE",
+      "path": "prompts/_TEMPLATE.md"
+    },
+    {
+      "basename": "INDEX",
+      "path": "prompts/INDEX.md"
+    },
+    {
+      "basename": "log",
+      "path": "log.md"
+    },
+    {
+      "basename": "brainstorm-workflow-improvements",
+      "path": "brainstorm-workflow-improvements.md"
+    },
+    {
+      "basename": "SCHEMA",
+      "path": "SCHEMA.md"
+    },
+    {
+      "basename": "Sem título 2",
+      "path": "Sem título 2.canvas"
+    },
+    {
+      "basename": "index",
+      "path": "media-lib/index.base"
+    },
+    {
+      "basename": "PROJETO DE TESE v2 — qualificação",
+      "path": "projeto/PROJETO DE TESE v2 — qualificação.md"
+    },
+    {
+      "basename": "Sem título 1",
+      "path": "entities/Sem título 1.base"
+    },
+    {
+      "basename": "C2",
+      "path": "entities/C2.md"
+    },
+    {
       "basename": "Sem título",
       "path": "entities/Sem título.base"
     },
@@ -17,10 +97,6 @@
       "path": "prompts/catalogacao/prompt-bases-iconograficas-comparativas.md"
     },
     {
-      "basename": "INDEX",
-      "path": "prompts/INDEX.md"
-    },
-    {
       "basename": "2026-04-21_relatorio",
       "path": "relatorios/2026-04-21_relatorio.html"
     },
@@ -35,18 +111,6 @@
     {
       "basename": "Sem título 1",
       "path": "Sem título 1.canvas"
-    },
-    {
-      "basename": "_TEMPLATE",
-      "path": "prompts/_TEMPLATE.md"
-    },
-    {
-      "basename": "SCHEMA",
-      "path": "SCHEMA.md"
-    },
-    {
-      "basename": "C2",
-      "path": "entities/C2.md"
     },
     {
       "basename": "Untitled Kanban",
@@ -81,10 +145,6 @@
       "path": "projeto/plano-2-semanas-caso-brasileiro.md"
     },
     {
-      "basename": "PROJETO DE TESE v2 — qualificação",
-      "path": "projeto/PROJETO DE TESE v2 — qualificação.md"
-    },
-    {
       "basename": "2026-04-21_relatorio",
       "path": "relatorios/2026-04-21_relatorio.pdf"
     },
@@ -113,20 +173,12 @@
       "path": "raw/papers/mondzain2002.md"
     },
     {
-      "basename": "index",
-      "path": "index.md"
-    },
-    {
       "basename": "Kanban sem título",
       "path": "Kanban sem título.md"
     },
     {
       "basename": "Sem título 3",
       "path": "Sem título 3.base"
-    },
-    {
-      "basename": "capitulo-5",
-      "path": "tese/capitulo-5.md"
     },
     {
       "basename": "A SEDUÇÃO BOLSONARISTA E A -ANTROPOLOGIA DOGMÁTICA- DE PIERRE LEGENDRE- PODER, IMAGEM E A CRISE",
@@ -147,58 +199,6 @@
     {
       "basename": "conclusao",
       "path": "tese/conclusao.md"
-    },
-    {
-      "basename": "Silence_Index_article",
-      "path": "tese/ideias/Silence_Index_article.md"
-    },
-    {
-      "basename": "O_Silencio_da_Justica",
-      "path": "tese/rascunhos-artigos/O_Silencio_da_Justica.md"
-    },
-    {
-      "basename": "plano-capitulos-2026-04-11",
-      "path": "tese/plano-capitulos-2026-04-11.md"
-    },
-    {
-      "basename": "capitulo-2",
-      "path": "tese/capitulo-2.md"
-    },
-    {
-      "basename": "O contrato visual — mapa conceitual",
-      "path": "tese/rascunhos-artigos/O contrato visual — mapa conceitual.md"
-    },
-    {
-      "basename": "Kanban sem título",
-      "path": "tese/Kanban sem título.md"
-    },
-    {
-      "basename": "Sem título",
-      "path": "Sem título.canvas"
-    },
-    {
-      "basename": "2026-04-25",
-      "path": "2026-04-25.md"
-    },
-    {
-      "basename": "introducao",
-      "path": "tese/introducao.md"
-    },
-    {
-      "basename": "Drawing 2026-06-01 12.59.14.excalidraw",
-      "path": "Excalidraw/Drawing 2026-06-01 12.59.14.excalidraw.md"
-    },
-    {
-      "basename": "Base Template",
-      "path": "assets/obsidian-kanban/docs/Assets/Base Template.md"
-    },
-    {
-      "basename": "Sem título",
-      "path": "Sem título.base"
-    },
-    {
-      "basename": "Sem título",
-      "path": "assets/obsidian-kanban/docs/Assets/Sem título.base"
     }
   ],
   "omittedPaths": [],
