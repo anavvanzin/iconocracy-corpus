@@ -28,5 +28,7 @@
   "cmdr",
   "media-extended",
   "obsidian-auto-link-title",
-  "excalibrain"
+  "excalibrain",
+  "obsidian-local-rest-api",
+  "notebook-navigator"
 ]
