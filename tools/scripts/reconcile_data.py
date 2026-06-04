@@ -15,10 +15,13 @@ Usage:
 """
 
 import argparse
+import difflib
 import json
 import re
 import sys
 from pathlib import Path
+from collections import defaultdict
+
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CORPUS_PATH = REPO_ROOT / "corpus" / "corpus-data.json"
@@ -99,29 +102,44 @@ def reconcile(corpus: list[dict], records: list[dict]) -> dict:
     """Main reconciliation logic. Returns a results dict."""
 
     # Build URL indexes
-    corpus_by_url = {}
+    corpus_by_url: dict[str, list[dict]] = {}
     for c in corpus:
         u = get_corpus_url(c)
         if u:
-            corpus_by_url[u] = c
+            corpus_by_url.setdefault(u, []).append(c)
 
-    records_by_url = {}
+    records_by_url: dict[str, list[dict]] = {}
     for r in records:
         u = get_record_url(r)
         if u:
-            records_by_url[u] = r
+            records_by_url.setdefault(u, []).append(r)
 
     # Phase 1: URL matching
     matched = []
     corpus_matched_ids = set()
     record_matched_ids = set()
 
-    for url, c_item in corpus_by_url.items():
+    for url, c_items in corpus_by_url.items():
         if url in records_by_url:
-            r_item = records_by_url[url]
-            matched.append((c_item, r_item, "url"))
-            corpus_matched_ids.add(c_item["id"])
-            record_matched_ids.add(r_item["item_id"])
+            r_items = records_by_url[url]
+            r_available = list(r_items)
+            for c_item in c_items:
+                if not r_available:
+                    break
+                c_title = c_item.get("title", "").lower()
+                best_ratio = -1.0
+                best_r = None
+                for r_item in r_available:
+                    r_title = (r_item.get("input", {}).get("title_hint") or "").lower()
+                    ratio = difflib.SequenceMatcher(None, c_title, r_title).ratio()
+                    if ratio > best_ratio:
+                        best_ratio = ratio
+                        best_r = r_item
+                if best_r:
+                    matched.append((c_item, best_r, "url"))
+                    corpus_matched_ids.add(c_item["id"])
+                    record_matched_ids.add(best_r["item_id"])
+                    r_available.remove(best_r)
 
     # Phase 2: Title+date fallback for unmatched
     unmatched_corpus = [c for c in corpus if c["id"] not in corpus_matched_ids]
