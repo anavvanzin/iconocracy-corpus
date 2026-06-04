@@ -39,9 +39,9 @@ python tools/scripts/argos_prepare_dispatch.py --manifest data/raw/argos/manifes
 python tools/scripts/argos_report.py               # render markdown acquisition report
 
 # Thesis compilation (Pandoc)
-make -C vault/tese/ docx                           # full thesis → DOCX
-make -C vault/tese/ pdf                            # full thesis → PDF (requires LaTeX)
-make -C vault/tese/ capitulo-1.docx                # single chapter
+make -C tese/manuscrito/ docx                      # full thesis → DOCX (prosa viva unificada)
+make -C tese/manuscrito/ pdf                       # full thesis → PDF (requires LaTeX)
+make -C tese/manuscrito/ Capitulo1_rev.docx        # single chapter
 
 # Tests (pytest, no config file — runs from repo root)
 pytest tests/                                       # full suite (argos/, tools/, training/ + top-level)
@@ -186,7 +186,7 @@ Every corpus item must exist in three places:
 - Vault notes follow pattern `XX-NNN Title.md` where XX = country code, NNN = sequential number (e.g., `FR-013 Déclaration des droits.md`)
 - All generic vault notes in `vault/**/*.md` should default to **Obsidian Flavored Markdown**: frontmatter properties, `[[wikilinks]]`, `![[embeds]]`, callouts, comments, highlights, and external URLs only as Markdown links
 - Canonical vault guide: `vault/meta/Guia — Obsidian Flavored Markdown.md`; generic default template: `vault/_templates/nota-obsidian-padrao.md`
-- Thesis original files (`*_original`) are protected — use `vault/tese/` for revised drafts
+- Thesis original files (`*_original`) are protected — use `tese/manuscrito/drafts/` for revised drafts (era `vault/tese/`; reorg 2026-06-04)
 - SSD `/media/ana/SSD_DATA` stores raw images, Zotero PDFs, and backups
 - Automatic vault backups must not land on `main` (use `vault_backup.py`)
 - Academic voice: formal Portuguese with jurídico-penal framing (legal-criminal history, NOT anthropological/sociological)
