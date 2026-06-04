@@ -1,2606 +1,5 @@
 [
   {
-    "url": "http://balat.kikirpa.be/object/10130401",
-    "title": "Allégorie : le perron avec ses deux blasons muets entre la Force et la Prudence ; au-dessus plane la Justice",
-    "description": "Allégorie : le perron avec ses deux blasons muets entre la Force et la Prudence ; au-dessus plane la Justice",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Allégorie : le perron avec ses deux blasons muets entre la Force et la Prudence ; au-dessus plane la Justice",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-049",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://balat.kikirpa.be/object/10134533",
-    "title": "Figures allégories de Vertus et de l'Ancien Testament : Enoch, allégorie de la Diligence, Mathusalem et allégorie de la Justice",
-    "description": "Figures allégories de Vertus et de l'Ancien Testament : Enoch, allégorie de la Diligence, Mathusalem et allégorie de la Justice",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Figures allégories de Vertus et de l'Ancien Testament : Enoch, allégorie de la Diligence, Mathusalem et allégorie de la Justice",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-050",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://docvirt.com/docreader/DocReader.aspx?bib=ACDigital&pagfis=11894",
-    "title": "Frontispício do Decreto n.º 1 — Governo Provisório (1889)",
-    "description": "Frontispício do Decreto n.º 1 — Governo Provisório (1889)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Frontispício do Decreto n.º 1 — Governo Provisório (1889)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-017",
-    "country": "Brazil",
-    "support": "frontispício"
-  },
-  {
-    "url": "http://gallica.bnf.fr/ark:/12148/btv1b10051600t",
-    "title": "N° 5 - Take up the sword of justice",
-    "description": "N° 5 - Take up the sword of justice",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "N° 5 - Take up the sword of justice",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-051",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "http://gallica.bnf.fr/ark:/12148/btv1b531737635",
-    "title": "[La Justice, la Vengeance et la Vérité] : [estampe] / F. Chifflart",
-    "description": "[La Justice, la Vengeance et la Vérité] : [estampe] / F. Chifflart",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "[La Justice, la Vengeance et la Vérité] : [estampe] / F. Chifflart",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-052",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "http://gallica.bnf.fr/ark:/12148/btv1b8412925w",
-    "title": "GRAND JUGE ET MINISTRE DE LA JUSTICE : [en tête de page : [estampe] / Gautherot del. ; B. Roger Sc.",
-    "description": "GRAND JUGE ET MINISTRE DE LA JUSTICE : [en tête de page : [estampe] / Gautherot del. ; B. Roger Sc.",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "GRAND JUGE ET MINISTRE DE LA JUSTICE : [en tête de page : [estampe] / Gautherot del. ; B. Roger Sc.",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-053",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "http://kk.haum-bs.de/?id=a-duerer-wb3-0130",
-    "title": "The Sun of Justice",
-    "description": "The Sun of Justice",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "The Sun of Justice",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-054",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://kk.haum-bs.de/?id=bonnet-l-m-ab3-0035",
-    "title": "La Sagesse et la Justice",
-    "description": "La Sagesse et la Justice",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "La Sagesse et la Justice",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-055",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://kk.haum-bs.de/?id=bosche-e-v-d-ab2-0002",
-    "title": "[Allegory with Justitia and Pax in a cart in front of Albert and Isabella of Austria, Moritz of Orange, Spinola and other persons; Allegory with Justitia and Pax on a Car before Albert and Isabella of Austria, Maurice of Orange, Spinola and other Persons]",
-    "description": "[Allegory with Justitia and Pax in a cart in front of Albert and Isabella of Austria, Moritz of Orange, Spinola and other persons; Allegory with Justitia and Pax on a Car before Albert and Isabella of Austria, Maurice of Orange, Spinola and other Persons]",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "[Allegory with Justitia and Pax in a cart in front of Albert and Isabella of Austria, Moritz of Orange, Spinola and other persons; Allegory with Justitia and Pax on a Car before Albert and Isabella of Austria, Maurice of Orange, Spinola and other Persons]",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-056",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://kk.haum-bs.de/?id=briot-i-wb3-0005",
-    "title": "Iusticia [justice]",
-    "description": "Iusticia [justice]",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Iusticia [justice]",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-057",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://kk.haum-bs.de/?id=goltzius-h-ab3-0031",
-    "title": "Iustitia Prudentia [Gerechtigkeit und Klugheit; Justice and Prudence; Rechtvaardigheid en Voorzichtigheid]",
-    "description": "Iustitia Prudentia [Gerechtigkeit und Klugheit; Justice and Prudence; Rechtvaardigheid en Voorzichtigheid]",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Iustitia Prudentia [Gerechtigkeit und Klugheit; Justice and Prudence; Rechtvaardigheid en Voorzichtigheid]",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-058",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://kk.haum-bs.de/?id=j-e-nilson-ab3-0029",
-    "title": "The old age with the image of justice",
-    "description": "The old age with the image of justice",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "The old age with the image of justice",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-059",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://kk.haum-bs.de/?id=jansz-e-ab2-0001",
-    "title": "[Allegorie auf die Gerechtigkeit, die Barmherzigkeit und den Frieden; Allegory on justice, charity and peace]",
-    "description": "[Allegorie auf die Gerechtigkeit, die Barmherzigkeit und den Frieden; Allegory on justice, charity and peace]",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "[Allegorie auf die Gerechtigkeit, die Barmherzigkeit und den Frieden; Allegory on justice, charity and peace]",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-060",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://kk.haum-bs.de/?id=matham-j-kopie-ab3-0004",
-    "title": "[Justitia; Justice]",
-    "description": "[Justitia; Justice]",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "[Justitia; Justice]",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-061",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://kk.haum-bs.de/?id=saint-non-j-c-r-d-ab3-0145",
-    "title": "Polidore de Caravage Salles du Vatican á Rome; [Deux femmes de profil; La Justice] [Zwei Frauen im Profil; Allegorie der Gerechtigkeit]",
-    "description": "Polidore de Caravage Salles du Vatican á Rome; [Deux femmes de profil; La Justice] [Zwei Frauen im Profil; Allegorie der Gerechtigkeit]",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Polidore de Caravage Salles du Vatican á Rome; [Deux femmes de profil; La Justice] [Zwei Frauen im Profil; Allegorie der Gerechtigkeit]",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-062",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://kk.haum-bs.de/?id=saint-non-j-c-r-d-ab3-0211",
-    "title": "Solimene Sacristie de L'Eglise de Saint Paul a Naples; [Allegorie der Gerechtigkeit]",
-    "description": "Solimene Sacristie de L'Eglise de Saint Paul a Naples; [Allegorie der Gerechtigkeit]",
-    "motif": [
-      "Alegoria feminina"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Solimene Sacristie de L'Eglise de Saint Paul a Naples; [Allegorie der Gerechtigkeit]",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-063",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://kk.haum-bs.de/?id=visscher-n-exc-ab3-0013",
-    "title": "[Gerechtigkeit; Justice]",
-    "description": "[Gerechtigkeit; Justice]",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "[Gerechtigkeit; Justice]",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-064",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://kk.haum-bs.de/?id=z-01383",
-    "title": "Mourning allegories of peace and justice",
-    "description": "Mourning allegories of peace and justice",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Mourning allegories of peace and justice",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-065",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://memoria.bn.br/DocReader/116300/4346",
-    "title": "A República em Leilão",
-    "description": "A República em Leilão",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "A República em Leilão",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-018",
-    "country": "Brazil",
-    "support": "texto"
-  },
-  {
-    "url": "http://memoria.bn.br/docreader/116300/4346",
-    "title": "O mundo às avessas: voto feminino",
-    "description": "O mundo às avessas: voto feminino",
-    "motif": [
-      "Voto Feminino"
-    ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "O mundo às avessas: voto feminino",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-019",
-    "country": "Brazil",
-    "support": "texto"
-  },
-  {
-    "url": "http://www.bildindex.de/document/obj20455031",
-    "title": "Putti als Allegorien der Gerechtigkeit und der Klugheit",
-    "description": "Putti als Allegorien der Gerechtigkeit und der Klugheit",
-    "motif": [
-      "Alegoria feminina"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Putti als Allegorien der Gerechtigkeit und der Klugheit",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-066",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "http://www.deutschefotothek.de/documents/obj/72066905",
-    "title": "Justitia (Gerechtigkeit)",
-    "description": "Justitia (Gerechtigkeit)",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Justitia (Gerechtigkeit)",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "FR-067",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "https://archive.nyu.edu/handle/2451/61367",
-    "title": "Alegoria à Lei do Ventre Livre (A.D. Bressae) — NYU Faculty Digital Archive",
-    "description": "Alegoria à Lei do Ventre Livre (A.D. Bressae) — NYU Faculty Digital Archive",
-    "motif": [
-      "Alegoria da Lei do Ventre Livre"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Alegoria à Lei do Ventre Livre (A.D. Bressae) — NYU Faculty Digital Archive",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-020",
-    "country": "Brazil",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://artsandculture.google.com/story/cole%C3%A7%C3%A3o-lopes-rodrigues-museu-de-arte-da-bahia/kAXx2Zki-R24Lw",
-    "title": "Alegoria da República — Manoel Lopes Rodrigues (óleo sobre tela)",
-    "description": "Alegoria da República — Manoel Lopes Rodrigues (óleo sobre tela)",
-    "motif": [
-      "Republic"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Alegoria da República — Manoel Lopes Rodrigues (óleo sobre tela)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-021",
-    "country": "Brazil",
-    "support": "pintura"
-  },
-  {
-    "url": "https://collections.vam.ac.uk/item/O102162",
-    "title": "model for reverse for the 1851 Exhibition Prize Medal",
-    "description": "model for reverse for the 1851 Exhibition Prize Medal",
-    "motif": [
-      "Britannia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "model for reverse for the 1851 Exhibition Prize Medal",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "UK-011",
-    "country": "United Kingdom",
-    "support": "medalha"
-  },
-  {
-    "url": "https://collections.vam.ac.uk/item/O102163",
-    "title": "Model",
-    "description": "Model",
-    "motif": [
-      "Britannia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Model",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "UK-012",
-    "country": "United Kingdom",
-    "support": "monumento/escultura"
-  },
-  {
-    "url": "https://collections.vam.ac.uk/item/O1242380",
-    "title": "Plaque",
-    "description": "Plaque",
-    "motif": [
-      "Britannia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Plaque",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "UK-013",
-    "country": "United Kingdom",
-    "support": "monumento/escultura"
-  },
-  {
-    "url": "https://collections.vam.ac.uk/item/O1261189",
-    "title": "The Cowper Seal Cups",
-    "description": "The Cowper Seal Cups",
-    "motif": [
-      "Britannia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "The Cowper Seal Cups",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "UK-014",
-    "country": "United Kingdom",
-    "support": "monumento/escultura"
-  },
-  {
-    "url": "https://collections.vam.ac.uk/item/O126326",
-    "title": "Fan",
-    "description": "Fan",
-    "motif": [
-      "Britannia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Fan",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "UK-015",
-    "country": "United Kingdom",
-    "support": "monumento/escultura"
-  },
-  {
-    "url": "https://collections.vam.ac.uk/item/O190041",
-    "title": "Design for the ceiling of the Great Hall at Blenheim",
-    "description": "Design for the ceiling of the Great Hall at Blenheim",
-    "motif": [
-      "Britannia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Design for the ceiling of the Great Hall at Blenheim",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "UK-016",
-    "country": "United Kingdom",
-    "support": "pintura"
-  },
-  {
-    "url": "https://collections.vam.ac.uk/item/O77466",
-    "title": "Medal",
-    "description": "Medal",
-    "motif": [
-      "Britannia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Medal",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "UK-017",
-    "country": "United Kingdom",
-    "support": "medalha"
-  },
-  {
-    "url": "https://colnect.com/en/stamps/list/country/74-France/series/68206-Semeuse_solid_background",
-    "title": "Semeuse — Série de selos definitivos França (1903–1938)",
-    "description": "Semeuse — Série de selos definitivos França (1903–1938)",
-    "motif": [
-      "Semeuse",
-      "Republica"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Semeuse — Série de selos definitivos França (1903–1938)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-068",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "https://colnect.com/en/stamps/list/country/74-France/year/1903",
-    "title": "La Semeuse (15 centimes, type Roty) — selo definitivo francês",
-    "description": "La Semeuse (15 centimes, type Roty) — selo definitivo francês",
-    "motif": [
-      "Marianne"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "La Semeuse (15 centimes, type Roty) — selo definitivo francês",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-069",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "https://colnect.com/en/stamps/stamp/179248",
-    "title": "Germania definitive stamp (10 Pfennig, Deutsches Reich)",
-    "description": "Germania definitive stamp (10 Pfennig, Deutsches Reich)",
-    "motif": [
-      "Germania"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Germania definitive stamp (10 Pfennig, Deutsches Reich)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "DE-016",
-    "country": "Germany",
-    "support": "moeda"
-  },
-  {
-    "url": "https://commons.wikimedia.org/wiki/Category:Semeuse_on_stamps",
-    "title": "10 Centimes Semeuse Camée — Fond Plein sans Sol (France, 1906)",
-    "description": "10 Centimes Semeuse Camée — Fond Plein sans Sol (France, 1906)",
-    "motif": [
-      "Semeuse"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "10 Centimes Semeuse Camée — Fond Plein sans Sol (France, 1906)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-070",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "https://commons.wikimedia.org/wiki/File:Braziliana_ou_Brasiliana(Brazil_National_personification)_by_J_B_Debret.jpg",
-    "title": "Brasiliana / Braziliana — personificação nacional feminina por J.B. Debret",
-    "description": "Brasiliana / Braziliana — personificação nacional feminina por J.B. Debret",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Brasiliana / Braziliana — personificação nacional feminina por J.B. Debret",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-022",
-    "country": "Brazil",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://commons.wikimedia.org/wiki/File:Capa_da_Revista_Illustrada,_n.%C2%BA_566_(1889).png",
-    "title": "Alegoria à República — Capa da Revista Illustrada n. 566",
-    "description": "Alegoria à República — Capa da Revista Illustrada n. 566",
-    "motif": [
-      "Republic"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Alegoria à República — Capa da Revista Illustrada n. 566",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-023",
-    "country": "Brazil",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://commons.wikimedia.org/wiki/File:DR_1920_141_Germania.jpg",
-    "title": "10 Pfennig Germania — Deutsches Reich (Weimar Republic, Mi.141, 1920)",
-    "description": "10 Pfennig Germania — Deutsches Reich (Weimar Republic, Mi.141, 1920)",
-    "motif": [
-      "Germania"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "10 Pfennig Germania — Deutsches Reich (Weimar Republic, Mi.141, 1920)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "DE-017",
-    "country": "Germany",
-    "support": "moeda"
-  },
-  {
-    "url": "https://commons.wikimedia.org/wiki/File:EliseuVisconti-A813-A_Lei_%C3%81urea_%E2%80%93_Projeto_para_selo_integrante_da_cole%C3%A7%C3%A3o_vencedora_do_Concurso_dos_Correios_de_1904.jpg",
-    "title": "Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)",
-    "description": "Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-024",
-    "country": "Brazil",
-    "support": "selo"
-  },
-  {
-    "url": "https://commons.wikimedia.org/wiki/File:EliseuVisconti-A814-A_Mulher_Brasileira_%E2%80%93_Projeto_para_selo_integrante_da_cole%C3%A7%C3%A3o_vencedora_do_Concurso_dos_Correios_de_1904.jpg",
-    "title": "Eliseu Visconti — A Mulher Brasileira (projeto para selo dos Correios, 1904)",
-    "description": "Eliseu Visconti — A Mulher Brasileira (projeto para selo dos Correios, 1904)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Eliseu Visconti — A Mulher Brasileira (projeto para selo dos Correios, 1904)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-025",
-    "country": "Brazil",
-    "support": "selo"
-  },
-  {
-    "url": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Anchieta_Escadaria_B%C3%A1rbara_Monteiro_Lindenberg_Vit%C3%B3ria_Esp%C3%ADrito_Santo_2019-4708.jpg",
-    "title": "Alegorias do Palácio Anchieta — esculturas de Pedro Gianordoli (Vitória/ES)",
-    "description": "Alegorias do Palácio Anchieta — esculturas de Pedro Gianordoli (Vitória/ES)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Alegorias do Palácio Anchieta — esculturas de Pedro Gianordoli (Vitória/ES)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-026",
-    "country": "Brazil",
-    "support": "monumento/escultura"
-  },
-  {
-    "url": "https://commons.wikimedia.org/wiki/File:Republica_no_brasil.jpg",
-    "title": "Alegoria da República Brasileira — Revista Illustrada",
-    "description": "Alegoria da República Brasileira — Revista Illustrada",
-    "motif": [
-      "Republic"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Alegoria da República Brasileira — Revista Illustrada",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-027",
-    "country": "Brazil",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://commons.wikimedia.org/wiki/File:Stamp_of_Brazil_-_1891_-_Colnect_811739_-_Liberty_thesouro_nacional.jpeg",
-    "title": "Selo Cabeça da Liberdade — Thesouro Nacional (1891)",
-    "description": "Selo Cabeça da Liberdade — Thesouro Nacional (1891)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Selo Cabeça da Liberdade — Thesouro Nacional (1891)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-028",
-    "country": "Brazil",
-    "support": "selo"
-  },
-  {
-    "url": "https://en.numista.com/11287",
-    "title": "1 Piastre de Commerce — French Indochina (Marianne seated)",
-    "description": "1 Piastre de Commerce — French Indochina (Marianne seated)",
-    "motif": [
-      "Marianne"
-    ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "1 Piastre de Commerce — French Indochina (Marianne seated)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-071",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "https://en.numista.com/catalogue/note222815.html",
-    "title": "20 Mil Réis — Cédula do Banco da República dos Estados Unidos do Brazil (c.",
-    "description": "20 Mil Réis — Cédula do Banco da República dos Estados Unidos do Brazil (c.",
-    "motif": [
-      "Liberdade"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "20 Mil Réis — Cédula do Banco da República dos Estados Unidos do Brazil (c.",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-029",
-    "country": "Brazil",
-    "support": "moeda"
-  },
-  {
-    "url": "https://en.numista.com/catalogue/pieces14481.html",
-    "title": "500 Réis — Efígie da República (prata, 1912)",
-    "description": "500 Réis — Efígie da República (prata, 1912)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "500 Réis — Efígie da República (prata, 1912)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-030",
-    "country": "Brazil",
-    "support": "moeda"
-  },
-  {
-    "url": "https://en.numista.com/catalogue/pieces15569.html",
-    "title": "1 Reichsmark — Weimar Republic (eagle replaces Germania)",
-    "description": "1 Reichsmark — Weimar Republic (eagle replaces Germania)",
-    "motif": [
-      "Germania"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "1 Reichsmark — Weimar Republic (eagle replaces Germania)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "DE-018",
-    "country": "Germany",
-    "support": "papel-moeda"
-  },
-  {
-    "url": "https://en.numista.com/catalogue/pieces36131.html",
-    "title": "20.000 Réis Ouro — Efígie da República com Barrete Frígio (1889–1922)",
-    "description": "20.000 Réis Ouro — Efígie da República com Barrete Frígio (1889–1922)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "20.000 Réis Ouro — Efígie da República com Barrete Frígio (1889–1922)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-031",
-    "country": "Brazil",
-    "support": "moeda"
-  },
-  {
-    "url": "https://en.numista.com/catalogue/pieces36132.html",
-    "title": "2000 Réis — Efígie da Liberdade Laureada (prata .917, série 1891–1897)",
-    "description": "2000 Réis — Efígie da Liberdade Laureada (prata .917, série 1891–1897)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "2000 Réis — Efígie da Liberdade Laureada (prata .917, série 1891–1897)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-032",
-    "country": "Brazil",
-    "support": "moeda"
-  },
-  {
-    "url": "https://en.numista.com/catalogue/pieces36319.html",
-    "title": "1000 Réis — Efígie da República (prata .917, emissão inaugural 1889)",
-    "description": "1000 Réis — Efígie da República (prata .917, emissão inaugural 1889)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "1000 Réis — Efígie da República (prata .917, emissão inaugural 1889)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-033",
-    "country": "Brazil",
-    "support": "moeda"
-  },
-  {
-    "url": "https://en.numista.com/catalogue/pieces40399.html",
-    "title": "20 Mark Gold — Wilhelm I (NEGATIVE CONTROL)",
-    "description": "20 Mark Gold — Wilhelm I (NEGATIVE CONTROL)",
-    "motif": [
-      "AUSENCIA ALEGORICA — portrait of Wilhelm I"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "20 Mark Gold — Wilhelm I (NEGATIVE CONTROL)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "DE-019",
-    "country": "Germany",
-    "support": "moeda"
-  },
-  {
-    "url": "https://en.numista.com/catalogue/pieces4333.html",
-    "title": "100 Réis — Liberty (Série MCMI)",
-    "description": "100 Réis — Liberty (Série MCMI)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "100 Réis — Liberty (Série MCMI)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-034",
-    "country": "Brazil",
-    "support": "moeda"
-  },
-  {
-    "url": "https://en.numista.com/catalogue/pieces6440.html",
-    "title": "200 Réis — Liberty (Série MCMI)",
-    "description": "200 Réis — Liberty (Série MCMI)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "200 Réis — Liberty (Série MCMI)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-035",
-    "country": "Brazil",
-    "support": "moeda"
-  },
-  {
-    "url": "https://en.numista.com/catalogue/pieces6773.html",
-    "title": "400 Réis — Liberty (Série MCMI)",
-    "description": "400 Réis — Liberty (Série MCMI)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "400 Réis — Liberty (Série MCMI)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-036",
-    "country": "Brazil",
-    "support": "moeda"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b116003372",
-    "title": "La République (en hauteur) — Exposição Internacional de Paris 1889",
-    "description": "La République (en hauteur) — Exposição Internacional de Paris 1889",
-    "motif": [
-      "La République"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "La République (en hauteur) — Exposição Internacional de Paris 1889",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-072",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53009905z.item",
-    "title": "La Constitution Française : Fondée sur la liberté naturelle et les Droits",
-    "description": "La Constitution Française : Fondée sur la liberté naturelle et les Droits",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "La Constitution Française : Fondée sur la liberté naturelle et les Droits",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-073",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53013992k",
-    "title": "Allégorie de la République de 1789, 1830 et 1848",
-    "description": "Allégorie de la République de 1789, 1830 et 1848",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Allégorie de la République de 1789, 1830 et 1848",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-074",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b530172177.item",
-    "title": "Proclamation de la Constitution 1848",
-    "description": "Proclamation de la Constitution 1848",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Proclamation de la Constitution 1848",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-075",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b531241805",
-    "title": "République de Clésinger (fotografia de demonstração)",
-    "description": "République de Clésinger (fotografia de demonstração)",
-    "motif": [
-      "La République"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "République de Clésinger (fotografia de demonstração)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-076",
-    "country": "France",
-    "support": "fotografia"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b531287227",
-    "title": "[Le Dauphin dans les bras de la Foi entre la Force et la Justice] : [estampe]",
-    "description": "[Le Dauphin dans les bras de la Foi entre la Force et la Justice] : [estampe]",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "[Le Dauphin dans les bras de la Foi entre la Force et la Justice] : [estampe]",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-077",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53188884v",
-    "title": "Étude pour le 1er mai? (Steinlen)",
-    "description": "Étude pour le 1er mai? (Steinlen)",
-    "motif": [
-      "Alegoria feminina"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Étude pour le 1er mai? (Steinlen)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-078",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53234029x",
-    "title": "[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]",
-    "description": "[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-079",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53240455t",
-    "title": "[La Justice entre la Charité et la Force] : [dessin] / [anonyme des Pays-Bas,",
-    "description": "[La Justice entre la Charité et la Force] : [dessin] / [anonyme des Pays-Bas,",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "[La Justice entre la Charité et la Force] : [dessin] / [anonyme des Pays-Bas,",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-080",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53250287h",
-    "title": "[Les péchés capitaux] ; [1]. [La Justice] : [estampe] CON FRINGE . EOS. VIRGA",
-    "description": "[Les péchés capitaux] ; [1]. [La Justice] : [estampe] CON FRINGE . EOS. VIRGA",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "[Les péchés capitaux] ; [1]. [La Justice] : [estampe] CON FRINGE . EOS. VIRGA",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-081",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53254750d",
-    "title": "[Allégorie en l''honneur de Jules Mazarin (1602-1661)] : [estampe] ([1er",
-    "description": "[Allégorie en l''honneur de Jules Mazarin (1602-1661)] : [estampe] ([1er",
-    "motif": [
-      "Alegoria feminina"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "[Allégorie en l''honneur de Jules Mazarin (1602-1661)] : [estampe] ([1er",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-082",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b532646114",
-    "title": "18/1/33, [de gauche à droite] M. Mistler [sous-secrétaire d''Etat aux Beaux-Arts],",
-    "description": "18/1/33, [de gauche à droite] M. Mistler [sous-secrétaire d''Etat aux Beaux-Arts],",
-    "motif": [
-      "Marianne"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "18/1/33, [de gauche à droite] M. Mistler [sous-secrétaire d''Etat aux Beaux-Arts],",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-083",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53269527k",
-    "title": "9-4-33, [reconstitution historique de la période révolutionnaire, quartier",
-    "description": "9-4-33, [reconstitution historique de la période révolutionnaire, quartier",
-    "motif": [
-      "Marianne"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "9-4-33, [reconstitution historique de la période révolutionnaire, quartier",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-084",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b55001927d",
-    "title": "[La Justice] : [estampe]",
-    "description": "[La Justice] : [estampe]",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "[La Justice] : [estampe]",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-085",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b59718546",
-    "title": "La Province de Berry. La Généralité de Bourges, ou sont les Eslections de",
-    "description": "La Province de Berry. La Généralité de Bourges, ou sont les Eslections de",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "La Province de Berry. La Généralité de Bourges, ou sont les Eslections de",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-086",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b6948145c.item",
-    "title": "Allégorie à la Constitution, dédié à la nation françoise",
-    "description": "Allégorie à la Constitution, dédié à la nation françoise",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Allégorie à la Constitution, dédié à la nation françoise",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-087",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b6950386s",
-    "title": "Unité indivisibilité de la République (j'ai rompu mes chaines vive la liberté)",
-    "description": "Unité indivisibilité de la République (j'ai rompu mes chaines vive la liberté)",
-    "motif": [
-      "La République"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Unité indivisibilité de la République (j'ai rompu mes chaines vive la liberté)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-088",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b8402182w",
-    "title": "[Allégorie en l''honneur de Louis XIII (1601-1643)] : [estampe] ([Seul état",
-    "description": "[Allégorie en l''honneur de Louis XIII (1601-1643)] : [estampe] ([Seul état",
-    "motif": [
-      "Alegoria feminina"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "[Allégorie en l''honneur de Louis XIII (1601-1643)] : [estampe] ([Seul état",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-089",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b84114624",
-    "title": "D''une vapeur infernale qui couvre le palais de nos rois, sortent la chimère",
-    "description": "D''une vapeur infernale qui couvre le palais de nos rois, sortent la chimère",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "D''une vapeur infernale qui couvre le palais de nos rois, sortent la chimère",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-090",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://gallica.bnf.fr/ark:/12148/btv1b9012156x/f1.item",
-    "title": "Le Triomphe de la Republique -- Ode triomphale, Fetes du Centenaire de 1789",
-    "description": "Le Triomphe de la Republique -- Ode triomphale, Fetes du Centenaire de 1789",
-    "motif": [
-      "Republica",
-      "Marianne"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Le Triomphe de la Republique -- Ode triomphale, Fetes du Centenaire de 1789",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-091",
-    "country": "France",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://hemerotecadigital.bn.br/acervo-digital/o-mequetrefe/702390",
-    "title": "O Dia de Amanhã (Alegoria da República)",
-    "description": "O Dia de Amanhã (Alegoria da República)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "O Dia de Amanhã (Alegoria da República)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-037",
-    "country": "Brazil",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://hemerotecadigital.bn.br/acervo-digital/revista-illustrada/332747",
-    "title": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
-    "description": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-038",
-    "country": "Brazil",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://iconocracy.corpus/vault/03075694-0e68-5b33-afb2-3c60687f498b",
-    "title": "Efígie da República — Selo Definitivo do Brasil Republicano",
-    "description": "Efígie da República — Selo Definitivo do Brasil Republicano",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Efígie da República — Selo Definitivo do Brasil Republicano",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-039",
-    "country": "Brazil",
-    "support": "selo"
-  },
-  {
-    "url": "https://iconocracy.corpus/vault/7833d92a-6bbe-527f-8893-1d4d12820ffa",
-    "title": "Type Sage — Paix et Commerce, Selo Definitivo da República Francesa",
-    "description": "Type Sage — Paix et Commerce, Selo Definitivo da República Francesa",
-    "motif": [
-      "Marianne"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Type Sage — Paix et Commerce, Selo Definitivo da República Francesa",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-092",
-    "country": "France",
-    "support": "selo"
-  },
-  {
-    "url": "https://iconocracy.corpus/vault/a155af76-1c78-502b-b024-b1f0b2ae3f03",
-    "title": "La Justice — porcelaine de Sèvres (1889)",
-    "description": "La Justice — porcelaine de Sèvres (1889)",
-    "motif": [
-      "Justice"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "La Justice — porcelaine de Sèvres (1889)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-093",
-    "country": "France",
-    "support": "cerâmica"
-  },
-  {
-    "url": "https://iconocracy.corpus/vault/b33f1bc8-57ba-561f-b9d6-1f898ba407c0",
-    "title": "Landing of Columbus — Columbia Allegorical Stamp",
-    "description": "Landing of Columbus — Columbia Allegorical Stamp",
-    "motif": [
-      "Columbia"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Landing of Columbus — Columbia Allegorical Stamp",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "US-021",
-    "country": "United States",
-    "support": "selo"
-  },
-  {
-    "url": "https://iconocracy.corpus/vault/cf7430cf-ffb0-5388-9405-88b1bb3fc281",
-    "title": "Cérès de Belgique — Premier Timbre-Poste du Royaume",
-    "description": "Cérès de Belgique — Premier Timbre-Poste du Royaume",
-    "motif": [
-      "Belgique"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Cérès de Belgique — Premier Timbre-Poste du Royaume",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BE-003",
-    "country": "Belgium",
-    "support": "selo"
-  },
-  {
-    "url": "https://iconocracy.corpus/vault/d6f71fb1-437c-5e18-85d1-4395f54f6306",
-    "title": "King George V Seahorses — Britannia Rules the Waves",
-    "description": "King George V Seahorses — Britannia Rules the Waves",
-    "motif": [
-      "Britannia"
-    ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "King George V Seahorses — Britannia Rules the Waves",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "UK-018",
-    "country": "United Kingdom",
-    "support": "moeda"
-  },
-  {
-    "url": "https://iconocracy.corpus/vault/deb8221e-bc98-5afb-a0b2-cd3e47a17cff",
-    "title": "Navigation et Commerce — Selo Colonial Francês (Louis-Eugène Mouchon)",
-    "description": "Navigation et Commerce — Selo Colonial Francês (Louis-Eugène Mouchon)",
-    "motif": [
-      "Marianne"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Navigation et Commerce — Selo Colonial Francês (Louis-Eugène Mouchon)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-094",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "https://iconocracy.corpus/vault/f2f019c1-8689-5589-a9c1-2b965269da6e",
-    "title": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note 1921",
-    "description": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note 1921",
-    "motif": [
-      "Generic allegory / Fountain of Youth"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note 1921",
-    "audit_flags": [
-      "vault-import",
-      "#verificar"
-    ],
-    "id": "DE-020",
-    "country": "Germany",
-    "support": "papel-moeda"
-  },
-  {
-    "url": "https://iconocracy.corpus/vault/f502f5cf-ed4e-50d0-8ae0-45c60cd1c6ea",
-    "title": "Cérès — Première Émission de la République Française",
-    "description": "Cérès — Première Émission de la République Française",
-    "motif": [
-      "Marianne"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Cérès — Première Émission de la République Française",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-095",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "https://memoria.bn.br/DocReader/Hotpage/HotpageBN.aspx?bib=094078&pagfis=4&url=http://memoria.bn.br/docreader",
-    "title": "Proclamação da República — litografia de Angelo Agostini",
-    "description": "Proclamação da República — litografia de Angelo Agostini",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Proclamação da República — litografia de Angelo Agostini",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-040",
-    "country": "Brazil",
-    "support": "estampa/gravura"
-  },
-  {
-    "url": "https://mhn.museus.gov.br/estudo-de-decio-villares-volta-ao-circuito-expositivo-do-mhn/",
-    "title": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
-    "description": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
-    "motif": [
-      "Generic allegory"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-041",
-    "country": "Brazil",
-    "support": "pintura"
-  },
-  {
-    "url": "https://museudarepublica.museus.gov.br/wp-content/uploads/2013/10/republica-em-documentos_colecao-de-alegorias_web.pdf",
-    "title": "Alegorias do Palácio do Catete — esculturas Val d'Osne (República, Justiça,",
-    "description": "Alegorias do Palácio do Catete — esculturas Val d'Osne (República, Justiça,",
-    "motif": [
-      "Republica",
-      "Justitia"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Alegorias do Palácio do Catete — esculturas Val d'Osne (República, Justiça,",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-042",
-    "country": "Brazil",
-    "support": "monumento/escultura"
-  },
-  {
-    "url": "https://neptun.unamur.be/ark:/83449/0091bdf9fa",
-    "title": "Constitution de la Belgique — Édition illustrée (frontispice allégorique)",
-    "description": "Constitution de la Belgique — Édition illustrée (frontispice allégorique)",
-    "motif": [
-      "Belgique"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Constitution de la Belgique — Édition illustrée (frontispice allégorique)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BE-004",
-    "country": "Belgium",
-    "support": "frontispício"
-  },
-  {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Germania5pf1900.jpg",
-    "title": "Germania — Série definitiva Deutsches Reich 5pf (1900–1922)",
-    "description": "Germania — Série definitiva Deutsches Reich 5pf (1900–1922)",
-    "motif": [
-      "Germania"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Germania — Série definitiva Deutsches Reich 5pf (1900–1922)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "DE-021",
-    "country": "Germany",
-    "support": "selo"
-  },
-  {
-    "url": "https://www.brasilianaiconografica.art.br/obras/12345/medalha-da-proclamacao-da-republica",
-    "title": "Medalha comemorativa da Proclamação da República (Casa da Moeda, 1890)",
-    "description": "Medalha comemorativa da Proclamação da República (Casa da Moeda, 1890)",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Medalha comemorativa da Proclamação da República (Casa da Moeda, 1890)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-043",
-    "country": "Brazil",
-    "support": "medalha"
-  },
-  {
-    "url": "https://www.loc.gov/item/08030546/",
-    "title": "Justice to the Jew : the story of what he has done for the world",
-    "description": "Justice to the Jew : the story of what he has done for the world",
-    "motif": [
-      "Justitia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Justice to the Jew : the story of what he has done for the world",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "US-022",
-    "country": "United States",
-    "support": "frontispício"
-  },
-  {
-    "url": "https://www.loc.gov/item/12018646/",
-    "title": "An encyclopedist of the dark ages : Isidore of Seville,",
-    "description": "An encyclopedist of the dark ages : Isidore of Seville,",
-    "motif": [
-      "Columbia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "An encyclopedist of the dark ages : Isidore of Seville,",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "US-023",
-    "country": "United States",
-    "support": "frontispício"
-  },
-  {
-    "url": "https://www.loc.gov/item/13016362/",
-    "title": "Saint Tammany and the origin of the Society of Tammany, or Columbian order",
-    "description": "Saint Tammany and the origin of the Society of Tammany, or Columbian order",
-    "motif": [
-      "Columbia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Saint Tammany and the origin of the Society of Tammany, or Columbian order",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "US-024",
-    "country": "United States",
-    "support": "frontispício"
-  },
-  {
-    "url": "https://www.loc.gov/item/2011630457",
-    "title": "Statue of the Republic -- World's Columbian Exposition, Chicago",
-    "description": "Statue of the Republic -- World's Columbian Exposition, Chicago",
-    "motif": [
-      "Columbia",
-      "Republica"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "Statue of the Republic -- World's Columbian Exposition, Chicago",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "US-025",
-    "country": "United States",
-    "support": "monumento/escultura"
-  },
-  {
-    "url": "https://www.loc.gov/item/2020719663/",
-    "title": "State of ambiguity : civic life and culture in Cuba''s first republic",
-    "description": "State of ambiguity : civic life and culture in Cuba''s first republic",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "State of ambiguity : civic life and culture in Cuba''s first republic",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-044",
-    "country": "Brazil",
-    "support": "texto"
-  },
-  {
-    "url": "https://www.loc.gov/item/2024771974/",
-    "title": "Report of the United States Commission to the Columbian Historical Exposition",
-    "description": "Report of the United States Commission to the Columbian Historical Exposition",
-    "motif": [
-      "Columbia"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Report of the United States Commission to the Columbian Historical Exposition",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-045",
-    "country": "Brazil",
-    "support": "texto"
-  },
-  {
-    "url": "https://www.metmuseum.org/art/collection/search/208134",
-    "title": "Allegory of the French Republic",
-    "description": "Allegory of the French Republic",
-    "motif": [
-      "Republica"
-    ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "citation_abnt": "Allegory of the French Republic",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "FR-096",
-    "country": "France",
-    "support": "moeda"
-  },
-  {
-    "url": "https://www.worldbanknotescoins.com/2015/02/brazil-50-mil-reis-banknote-1890-banco-do-brazil.html",
-    "title": "50 Mil Réis — Cédula do Banco do Brazil (1890)",
-    "description": "50 Mil Réis — Cédula do Banco do Brazil (1890)",
-    "motif": [
-      "Justica",
-      "Liberdade",
-      "Governo"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
-    "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
-    },
-    "citation_abnt": "50 Mil Réis — Cédula do Banco do Brazil (1890)",
-    "audit_flags": [
-      "vault-import"
-    ],
-    "id": "BR-046",
-    "country": "Brazil",
-    "support": "moeda"
-  },
-  {
     "id": "AR-001",
     "title": "Allegory, Liberty Seated — Selo definitivo da República Argentina",
     "date": "1899-1903",
@@ -2910,6 +309,68 @@
       },
       "analyst_notes": "Adjusted 3.0→2.9 (inscricao_estatal 3→2: authority is architectural, not textual). Highest or near-highest in corpus. Perfect 3.0 reserved as theoretical ceiling."
     }
+  },
+  {
+    "url": "https://iconocracy.corpus/vault/cf7430cf-ffb0-5388-9405-88b1bb3fc281",
+    "title": "Cérès de Belgique — Premier Timbre-Poste du Royaume",
+    "description": "Cérès de Belgique — Premier Timbre-Poste du Royaume",
+    "motif": [
+      "Belgique"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Cérès de Belgique — Premier Timbre-Poste du Royaume",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BE-003",
+    "country": "Belgium",
+    "support": "selo"
+  },
+  {
+    "url": "https://neptun.unamur.be/ark:/83449/0091bdf9fa",
+    "title": "Constitution de la Belgique — Édition illustrée (frontispice allégorique)",
+    "description": "Constitution de la Belgique — Édition illustrée (frontispice allégorique)",
+    "motif": [
+      "Belgique"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Constitution de la Belgique — Édition illustrée (frontispice allégorique)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BE-004",
+    "country": "Belgium",
+    "support": "frontispício"
   },
   {
     "id": "BE-5F-LEOPOLD-1832",
@@ -4128,6 +1589,867 @@
       "sem-url",
       "sem-thumbnail"
     ]
+  },
+  {
+    "url": "http://docvirt.com/docreader/DocReader.aspx?bib=ACDigital&pagfis=11894",
+    "title": "Frontispício do Decreto n.º 1 — Governo Provisório (1889)",
+    "description": "Frontispício do Decreto n.º 1 — Governo Provisório (1889)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Frontispício do Decreto n.º 1 — Governo Provisório (1889)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-017",
+    "country": "Brazil",
+    "support": "frontispício"
+  },
+  {
+    "url": "http://memoria.bn.br/DocReader/116300/4346",
+    "title": "A República em Leilão",
+    "description": "A República em Leilão",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "A República em Leilão",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-018",
+    "country": "Brazil",
+    "support": "texto"
+  },
+  {
+    "url": "http://memoria.bn.br/docreader/116300/4346",
+    "title": "O mundo às avessas: voto feminino",
+    "description": "O mundo às avessas: voto feminino",
+    "motif": [
+      "Voto Feminino"
+    ],
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "O mundo às avessas: voto feminino",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-019",
+    "country": "Brazil",
+    "support": "texto"
+  },
+  {
+    "url": "https://archive.nyu.edu/handle/2451/61367",
+    "title": "Alegoria à Lei do Ventre Livre (A.D. Bressae) — NYU Faculty Digital Archive",
+    "description": "Alegoria à Lei do Ventre Livre (A.D. Bressae) — NYU Faculty Digital Archive",
+    "motif": [
+      "Alegoria da Lei do Ventre Livre"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Alegoria à Lei do Ventre Livre (A.D. Bressae) — NYU Faculty Digital Archive",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-020",
+    "country": "Brazil",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://artsandculture.google.com/story/cole%C3%A7%C3%A3o-lopes-rodrigues-museu-de-arte-da-bahia/kAXx2Zki-R24Lw",
+    "title": "Alegoria da República — Manoel Lopes Rodrigues (óleo sobre tela)",
+    "description": "Alegoria da República — Manoel Lopes Rodrigues (óleo sobre tela)",
+    "motif": [
+      "Republic"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Alegoria da República — Manoel Lopes Rodrigues (óleo sobre tela)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-021",
+    "country": "Brazil",
+    "support": "pintura"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File:Braziliana_ou_Brasiliana(Brazil_National_personification)_by_J_B_Debret.jpg",
+    "title": "Brasiliana / Braziliana — personificação nacional feminina por J.B. Debret",
+    "description": "Brasiliana / Braziliana — personificação nacional feminina por J.B. Debret",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Brasiliana / Braziliana — personificação nacional feminina por J.B. Debret",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-022",
+    "country": "Brazil",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File:Capa_da_Revista_Illustrada,_n.%C2%BA_566_(1889).png",
+    "title": "Alegoria à República — Capa da Revista Illustrada n. 566",
+    "description": "Alegoria à República — Capa da Revista Illustrada n. 566",
+    "motif": [
+      "Republic"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Alegoria à República — Capa da Revista Illustrada n. 566",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-023",
+    "country": "Brazil",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File:EliseuVisconti-A813-A_Lei_%C3%81urea_%E2%80%93_Projeto_para_selo_integrante_da_cole%C3%A7%C3%A3o_vencedora_do_Concurso_dos_Correios_de_1904.jpg",
+    "title": "Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)",
+    "description": "Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-024",
+    "country": "Brazil",
+    "support": "selo"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File:EliseuVisconti-A814-A_Mulher_Brasileira_%E2%80%93_Projeto_para_selo_integrante_da_cole%C3%A7%C3%A3o_vencedora_do_Concurso_dos_Correios_de_1904.jpg",
+    "title": "Eliseu Visconti — A Mulher Brasileira (projeto para selo dos Correios, 1904)",
+    "description": "Eliseu Visconti — A Mulher Brasileira (projeto para selo dos Correios, 1904)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Eliseu Visconti — A Mulher Brasileira (projeto para selo dos Correios, 1904)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-025",
+    "country": "Brazil",
+    "support": "selo"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Anchieta_Escadaria_B%C3%A1rbara_Monteiro_Lindenberg_Vit%C3%B3ria_Esp%C3%ADrito_Santo_2019-4708.jpg",
+    "title": "Alegorias do Palácio Anchieta — esculturas de Pedro Gianordoli (Vitória/ES)",
+    "description": "Alegorias do Palácio Anchieta — esculturas de Pedro Gianordoli (Vitória/ES)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Alegorias do Palácio Anchieta — esculturas de Pedro Gianordoli (Vitória/ES)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-026",
+    "country": "Brazil",
+    "support": "monumento/escultura"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File:Republica_no_brasil.jpg",
+    "title": "Alegoria da República Brasileira — Revista Illustrada",
+    "description": "Alegoria da República Brasileira — Revista Illustrada",
+    "motif": [
+      "Republic"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Alegoria da República Brasileira — Revista Illustrada",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-027",
+    "country": "Brazil",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File:Stamp_of_Brazil_-_1891_-_Colnect_811739_-_Liberty_thesouro_nacional.jpeg",
+    "title": "Selo Cabeça da Liberdade — Thesouro Nacional (1891)",
+    "description": "Selo Cabeça da Liberdade — Thesouro Nacional (1891)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Selo Cabeça da Liberdade — Thesouro Nacional (1891)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-028",
+    "country": "Brazil",
+    "support": "selo"
+  },
+  {
+    "url": "https://en.numista.com/catalogue/note222815.html",
+    "title": "20 Mil Réis — Cédula do Banco da República dos Estados Unidos do Brazil (c.",
+    "description": "20 Mil Réis — Cédula do Banco da República dos Estados Unidos do Brazil (c.",
+    "motif": [
+      "Liberdade"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "20 Mil Réis — Cédula do Banco da República dos Estados Unidos do Brazil (c.",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-029",
+    "country": "Brazil",
+    "support": "moeda"
+  },
+  {
+    "url": "https://en.numista.com/catalogue/pieces14481.html",
+    "title": "500 Réis — Efígie da República (prata, 1912)",
+    "description": "500 Réis — Efígie da República (prata, 1912)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "500 Réis — Efígie da República (prata, 1912)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-030",
+    "country": "Brazil",
+    "support": "moeda"
+  },
+  {
+    "url": "https://en.numista.com/catalogue/pieces36131.html",
+    "title": "20.000 Réis Ouro — Efígie da República com Barrete Frígio (1889–1922)",
+    "description": "20.000 Réis Ouro — Efígie da República com Barrete Frígio (1889–1922)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "20.000 Réis Ouro — Efígie da República com Barrete Frígio (1889–1922)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-031",
+    "country": "Brazil",
+    "support": "moeda"
+  },
+  {
+    "url": "https://en.numista.com/catalogue/pieces36132.html",
+    "title": "2000 Réis — Efígie da Liberdade Laureada (prata .917, série 1891–1897)",
+    "description": "2000 Réis — Efígie da Liberdade Laureada (prata .917, série 1891–1897)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "2000 Réis — Efígie da Liberdade Laureada (prata .917, série 1891–1897)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-032",
+    "country": "Brazil",
+    "support": "moeda"
+  },
+  {
+    "url": "https://en.numista.com/catalogue/pieces36319.html",
+    "title": "1000 Réis — Efígie da República (prata .917, emissão inaugural 1889)",
+    "description": "1000 Réis — Efígie da República (prata .917, emissão inaugural 1889)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "1000 Réis — Efígie da República (prata .917, emissão inaugural 1889)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-033",
+    "country": "Brazil",
+    "support": "moeda"
+  },
+  {
+    "url": "https://en.numista.com/catalogue/pieces4333.html",
+    "title": "100 Réis — Liberty (Série MCMI)",
+    "description": "100 Réis — Liberty (Série MCMI)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "100 Réis — Liberty (Série MCMI)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-034",
+    "country": "Brazil",
+    "support": "moeda"
+  },
+  {
+    "url": "https://en.numista.com/catalogue/pieces6440.html",
+    "title": "200 Réis — Liberty (Série MCMI)",
+    "description": "200 Réis — Liberty (Série MCMI)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "200 Réis — Liberty (Série MCMI)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-035",
+    "country": "Brazil",
+    "support": "moeda"
+  },
+  {
+    "url": "https://en.numista.com/catalogue/pieces6773.html",
+    "title": "400 Réis — Liberty (Série MCMI)",
+    "description": "400 Réis — Liberty (Série MCMI)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "400 Réis — Liberty (Série MCMI)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-036",
+    "country": "Brazil",
+    "support": "moeda"
+  },
+  {
+    "url": "https://hemerotecadigital.bn.br/acervo-digital/o-mequetrefe/702390",
+    "title": "O Dia de Amanhã (Alegoria da República)",
+    "description": "O Dia de Amanhã (Alegoria da República)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "O Dia de Amanhã (Alegoria da República)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-037",
+    "country": "Brazil",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://hemerotecadigital.bn.br/acervo-digital/revista-illustrada/332747",
+    "title": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
+    "description": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-038",
+    "country": "Brazil",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://iconocracy.corpus/vault/03075694-0e68-5b33-afb2-3c60687f498b",
+    "title": "Efígie da República — Selo Definitivo do Brasil Republicano",
+    "description": "Efígie da República — Selo Definitivo do Brasil Republicano",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Efígie da República — Selo Definitivo do Brasil Republicano",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-039",
+    "country": "Brazil",
+    "support": "selo"
+  },
+  {
+    "url": "https://memoria.bn.br/DocReader/Hotpage/HotpageBN.aspx?bib=094078&pagfis=4&url=http://memoria.bn.br/docreader",
+    "title": "Proclamação da República — litografia de Angelo Agostini",
+    "description": "Proclamação da República — litografia de Angelo Agostini",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Proclamação da República — litografia de Angelo Agostini",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-040",
+    "country": "Brazil",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://mhn.museus.gov.br/estudo-de-decio-villares-volta-ao-circuito-expositivo-do-mhn/",
+    "title": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
+    "description": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
+    "motif": [
+      "Generic allegory"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-041",
+    "country": "Brazil",
+    "support": "pintura"
+  },
+  {
+    "url": "https://museudarepublica.museus.gov.br/wp-content/uploads/2013/10/republica-em-documentos_colecao-de-alegorias_web.pdf",
+    "title": "Alegorias do Palácio do Catete — esculturas Val d'Osne (República, Justiça,",
+    "description": "Alegorias do Palácio do Catete — esculturas Val d'Osne (República, Justiça,",
+    "motif": [
+      "Republica",
+      "Justitia"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Alegorias do Palácio do Catete — esculturas Val d'Osne (República, Justiça,",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-042",
+    "country": "Brazil",
+    "support": "monumento/escultura"
+  },
+  {
+    "url": "https://www.brasilianaiconografica.art.br/obras/12345/medalha-da-proclamacao-da-republica",
+    "title": "Medalha comemorativa da Proclamação da República (Casa da Moeda, 1890)",
+    "description": "Medalha comemorativa da Proclamação da República (Casa da Moeda, 1890)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Medalha comemorativa da Proclamação da República (Casa da Moeda, 1890)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-043",
+    "country": "Brazil",
+    "support": "medalha"
+  },
+  {
+    "url": "https://www.loc.gov/item/2020719663/",
+    "title": "State of ambiguity : civic life and culture in Cuba''s first republic",
+    "description": "State of ambiguity : civic life and culture in Cuba''s first republic",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "State of ambiguity : civic life and culture in Cuba''s first republic",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-044",
+    "country": "Brazil",
+    "support": "texto"
+  },
+  {
+    "url": "https://www.loc.gov/item/2024771974/",
+    "title": "Report of the United States Commission to the Columbian Historical Exposition",
+    "description": "Report of the United States Commission to the Columbian Historical Exposition",
+    "motif": [
+      "Columbia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Report of the United States Commission to the Columbian Historical Exposition",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-045",
+    "country": "Brazil",
+    "support": "texto"
+  },
+  {
+    "url": "https://www.worldbanknotescoins.com/2015/02/brazil-50-mil-reis-banknote-1890-banco-do-brazil.html",
+    "title": "50 Mil Réis — Cédula do Banco do Brazil (1890)",
+    "description": "50 Mil Réis — Cédula do Banco do Brazil (1890)",
+    "motif": [
+      "Justica",
+      "Liberdade",
+      "Governo"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "50 Mil Réis — Cédula do Banco do Brazil (1890)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "BR-046",
+    "country": "Brazil",
+    "support": "moeda"
   },
   {
     "id": "BR-1000R-1906",
@@ -5454,6 +3776,193 @@
     "audit_flags": [
       "sem-thumbnail"
     ]
+  },
+  {
+    "url": "https://colnect.com/en/stamps/stamp/179248",
+    "title": "Germania definitive stamp (10 Pfennig, Deutsches Reich)",
+    "description": "Germania definitive stamp (10 Pfennig, Deutsches Reich)",
+    "motif": [
+      "Germania"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Germania definitive stamp (10 Pfennig, Deutsches Reich)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "DE-016",
+    "country": "Germany",
+    "support": "moeda"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File:DR_1920_141_Germania.jpg",
+    "title": "10 Pfennig Germania — Deutsches Reich (Weimar Republic, Mi.141, 1920)",
+    "description": "10 Pfennig Germania — Deutsches Reich (Weimar Republic, Mi.141, 1920)",
+    "motif": [
+      "Germania"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "10 Pfennig Germania — Deutsches Reich (Weimar Republic, Mi.141, 1920)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "DE-017",
+    "country": "Germany",
+    "support": "moeda"
+  },
+  {
+    "url": "https://en.numista.com/catalogue/pieces15569.html",
+    "title": "1 Reichsmark — Weimar Republic (eagle replaces Germania)",
+    "description": "1 Reichsmark — Weimar Republic (eagle replaces Germania)",
+    "motif": [
+      "Germania"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "1 Reichsmark — Weimar Republic (eagle replaces Germania)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "DE-018",
+    "country": "Germany",
+    "support": "papel-moeda"
+  },
+  {
+    "url": "https://en.numista.com/catalogue/pieces40399.html",
+    "title": "20 Mark Gold — Wilhelm I (NEGATIVE CONTROL)",
+    "description": "20 Mark Gold — Wilhelm I (NEGATIVE CONTROL)",
+    "motif": [
+      "AUSENCIA ALEGORICA — portrait of Wilhelm I"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "20 Mark Gold — Wilhelm I (NEGATIVE CONTROL)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "DE-019",
+    "country": "Germany",
+    "support": "moeda"
+  },
+  {
+    "url": "https://iconocracy.corpus/vault/f2f019c1-8689-5589-a9c1-2b965269da6e",
+    "title": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note 1921",
+    "description": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note 1921",
+    "motif": [
+      "Generic allegory / Fountain of Youth"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note 1921",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "DE-020",
+    "country": "Germany",
+    "support": "papel-moeda"
+  },
+  {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Germania5pf1900.jpg",
+    "title": "Germania — Série definitiva Deutsches Reich 5pf (1900–1922)",
+    "description": "Germania — Série definitiva Deutsches Reich 5pf (1900–1922)",
+    "motif": [
+      "Germania"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Germania — Série definitiva Deutsches Reich 5pf (1900–1922)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "DE-021",
+    "country": "Germany",
+    "support": "selo"
   },
   {
     "id": "DE-1000M-1910",
@@ -9862,6 +8371,1213 @@
     ]
   },
   {
+    "url": "http://balat.kikirpa.be/object/10130401",
+    "title": "Allégorie : le perron avec ses deux blasons muets entre la Force et la Prudence ; au-dessus plane la Justice",
+    "description": "Allégorie : le perron avec ses deux blasons muets entre la Force et la Prudence ; au-dessus plane la Justice",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Allégorie : le perron avec ses deux blasons muets entre la Force et la Prudence ; au-dessus plane la Justice",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-049",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://balat.kikirpa.be/object/10134533",
+    "title": "Figures allégories de Vertus et de l'Ancien Testament : Enoch, allégorie de la Diligence, Mathusalem et allégorie de la Justice",
+    "description": "Figures allégories de Vertus et de l'Ancien Testament : Enoch, allégorie de la Diligence, Mathusalem et allégorie de la Justice",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Figures allégories de Vertus et de l'Ancien Testament : Enoch, allégorie de la Diligence, Mathusalem et allégorie de la Justice",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-050",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://gallica.bnf.fr/ark:/12148/btv1b10051600t",
+    "title": "N° 5 - Take up the sword of justice",
+    "description": "N° 5 - Take up the sword of justice",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "militar",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "N° 5 - Take up the sword of justice",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-051",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "http://gallica.bnf.fr/ark:/12148/btv1b531737635",
+    "title": "[La Justice, la Vengeance et la Vérité] : [estampe] / F. Chifflart",
+    "description": "[La Justice, la Vengeance et la Vérité] : [estampe] / F. Chifflart",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "[La Justice, la Vengeance et la Vérité] : [estampe] / F. Chifflart",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-052",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "http://gallica.bnf.fr/ark:/12148/btv1b8412925w",
+    "title": "GRAND JUGE ET MINISTRE DE LA JUSTICE : [en tête de page : [estampe] / Gautherot del. ; B. Roger Sc.",
+    "description": "GRAND JUGE ET MINISTRE DE LA JUSTICE : [en tête de page : [estampe] / Gautherot del. ; B. Roger Sc.",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "GRAND JUGE ET MINISTRE DE LA JUSTICE : [en tête de page : [estampe] / Gautherot del. ; B. Roger Sc.",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-053",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "http://kk.haum-bs.de/?id=a-duerer-wb3-0130",
+    "title": "The Sun of Justice",
+    "description": "The Sun of Justice",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "The Sun of Justice",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-054",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://kk.haum-bs.de/?id=bonnet-l-m-ab3-0035",
+    "title": "La Sagesse et la Justice",
+    "description": "La Sagesse et la Justice",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "La Sagesse et la Justice",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-055",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://kk.haum-bs.de/?id=bosche-e-v-d-ab2-0002",
+    "title": "[Allegory with Justitia and Pax in a cart in front of Albert and Isabella of Austria, Moritz of Orange, Spinola and other persons; Allegory with Justitia and Pax on a Car before Albert and Isabella of Austria, Maurice of Orange, Spinola and other Persons]",
+    "description": "[Allegory with Justitia and Pax in a cart in front of Albert and Isabella of Austria, Moritz of Orange, Spinola and other persons; Allegory with Justitia and Pax on a Car before Albert and Isabella of Austria, Maurice of Orange, Spinola and other Persons]",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "[Allegory with Justitia and Pax in a cart in front of Albert and Isabella of Austria, Moritz of Orange, Spinola and other persons; Allegory with Justitia and Pax on a Car before Albert and Isabella of Austria, Maurice of Orange, Spinola and other Persons]",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-056",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://kk.haum-bs.de/?id=briot-i-wb3-0005",
+    "title": "Iusticia [justice]",
+    "description": "Iusticia [justice]",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Iusticia [justice]",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-057",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://kk.haum-bs.de/?id=goltzius-h-ab3-0031",
+    "title": "Iustitia Prudentia [Gerechtigkeit und Klugheit; Justice and Prudence; Rechtvaardigheid en Voorzichtigheid]",
+    "description": "Iustitia Prudentia [Gerechtigkeit und Klugheit; Justice and Prudence; Rechtvaardigheid en Voorzichtigheid]",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Iustitia Prudentia [Gerechtigkeit und Klugheit; Justice and Prudence; Rechtvaardigheid en Voorzichtigheid]",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-058",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://kk.haum-bs.de/?id=j-e-nilson-ab3-0029",
+    "title": "The old age with the image of justice",
+    "description": "The old age with the image of justice",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "The old age with the image of justice",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-059",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://kk.haum-bs.de/?id=jansz-e-ab2-0001",
+    "title": "[Allegorie auf die Gerechtigkeit, die Barmherzigkeit und den Frieden; Allegory on justice, charity and peace]",
+    "description": "[Allegorie auf die Gerechtigkeit, die Barmherzigkeit und den Frieden; Allegory on justice, charity and peace]",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "[Allegorie auf die Gerechtigkeit, die Barmherzigkeit und den Frieden; Allegory on justice, charity and peace]",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-060",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://kk.haum-bs.de/?id=matham-j-kopie-ab3-0004",
+    "title": "[Justitia; Justice]",
+    "description": "[Justitia; Justice]",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "[Justitia; Justice]",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-061",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://kk.haum-bs.de/?id=saint-non-j-c-r-d-ab3-0145",
+    "title": "Polidore de Caravage Salles du Vatican á Rome; [Deux femmes de profil; La Justice] [Zwei Frauen im Profil; Allegorie der Gerechtigkeit]",
+    "description": "Polidore de Caravage Salles du Vatican á Rome; [Deux femmes de profil; La Justice] [Zwei Frauen im Profil; Allegorie der Gerechtigkeit]",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Polidore de Caravage Salles du Vatican á Rome; [Deux femmes de profil; La Justice] [Zwei Frauen im Profil; Allegorie der Gerechtigkeit]",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-062",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://kk.haum-bs.de/?id=saint-non-j-c-r-d-ab3-0211",
+    "title": "Solimene Sacristie de L'Eglise de Saint Paul a Naples; [Allegorie der Gerechtigkeit]",
+    "description": "Solimene Sacristie de L'Eglise de Saint Paul a Naples; [Allegorie der Gerechtigkeit]",
+    "motif": [
+      "Alegoria feminina"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Solimene Sacristie de L'Eglise de Saint Paul a Naples; [Allegorie der Gerechtigkeit]",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-063",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://kk.haum-bs.de/?id=visscher-n-exc-ab3-0013",
+    "title": "[Gerechtigkeit; Justice]",
+    "description": "[Gerechtigkeit; Justice]",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "[Gerechtigkeit; Justice]",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-064",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://kk.haum-bs.de/?id=z-01383",
+    "title": "Mourning allegories of peace and justice",
+    "description": "Mourning allegories of peace and justice",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Mourning allegories of peace and justice",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-065",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://www.bildindex.de/document/obj20455031",
+    "title": "Putti als Allegorien der Gerechtigkeit und der Klugheit",
+    "description": "Putti als Allegorien der Gerechtigkeit und der Klugheit",
+    "motif": [
+      "Alegoria feminina"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Putti als Allegorien der Gerechtigkeit und der Klugheit",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-066",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "http://www.deutschefotothek.de/documents/obj/72066905",
+    "title": "Justitia (Gerechtigkeit)",
+    "description": "Justitia (Gerechtigkeit)",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Justitia (Gerechtigkeit)",
+    "audit_flags": [
+      "vault-import",
+      "#verificar"
+    ],
+    "id": "FR-067",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "https://colnect.com/en/stamps/list/country/74-France/series/68206-Semeuse_solid_background",
+    "title": "Semeuse — Série de selos definitivos França (1903–1938)",
+    "description": "Semeuse — Série de selos definitivos França (1903–1938)",
+    "motif": [
+      "Semeuse",
+      "Republica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Semeuse — Série de selos definitivos França (1903–1938)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-068",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "https://colnect.com/en/stamps/list/country/74-France/year/1903",
+    "title": "La Semeuse (15 centimes, type Roty) — selo definitivo francês",
+    "description": "La Semeuse (15 centimes, type Roty) — selo definitivo francês",
+    "motif": [
+      "Marianne"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "La Semeuse (15 centimes, type Roty) — selo definitivo francês",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-069",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/Category:Semeuse_on_stamps",
+    "title": "10 Centimes Semeuse Camée — Fond Plein sans Sol (France, 1906)",
+    "description": "10 Centimes Semeuse Camée — Fond Plein sans Sol (France, 1906)",
+    "motif": [
+      "Semeuse"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "10 Centimes Semeuse Camée — Fond Plein sans Sol (France, 1906)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-070",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "https://en.numista.com/11287",
+    "title": "1 Piastre de Commerce — French Indochina (Marianne seated)",
+    "description": "1 Piastre de Commerce — French Indochina (Marianne seated)",
+    "motif": [
+      "Marianne"
+    ],
+    "regime": "militar",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "1 Piastre de Commerce — French Indochina (Marianne seated)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-071",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b116003372",
+    "title": "La République (en hauteur) — Exposição Internacional de Paris 1889",
+    "description": "La République (en hauteur) — Exposição Internacional de Paris 1889",
+    "motif": [
+      "La République"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "La République (en hauteur) — Exposição Internacional de Paris 1889",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-072",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53009905z.item",
+    "title": "La Constitution Française : Fondée sur la liberté naturelle et les Droits",
+    "description": "La Constitution Française : Fondée sur la liberté naturelle et les Droits",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "La Constitution Française : Fondée sur la liberté naturelle et les Droits",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-073",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53013992k",
+    "title": "Allégorie de la République de 1789, 1830 et 1848",
+    "description": "Allégorie de la République de 1789, 1830 et 1848",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Allégorie de la République de 1789, 1830 et 1848",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-074",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b530172177.item",
+    "title": "Proclamation de la Constitution 1848",
+    "description": "Proclamation de la Constitution 1848",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Proclamation de la Constitution 1848",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-075",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b531241805",
+    "title": "République de Clésinger (fotografia de demonstração)",
+    "description": "République de Clésinger (fotografia de demonstração)",
+    "motif": [
+      "La République"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "République de Clésinger (fotografia de demonstração)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-076",
+    "country": "France",
+    "support": "fotografia"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b531287227",
+    "title": "[Le Dauphin dans les bras de la Foi entre la Force et la Justice] : [estampe]",
+    "description": "[Le Dauphin dans les bras de la Foi entre la Force et la Justice] : [estampe]",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "[Le Dauphin dans les bras de la Foi entre la Force et la Justice] : [estampe]",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-077",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53188884v",
+    "title": "Étude pour le 1er mai? (Steinlen)",
+    "description": "Étude pour le 1er mai? (Steinlen)",
+    "motif": [
+      "Alegoria feminina"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Étude pour le 1er mai? (Steinlen)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-078",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53234029x",
+    "title": "[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]",
+    "description": "[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-079",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53240455t",
+    "title": "[La Justice entre la Charité et la Force] : [dessin] / [anonyme des Pays-Bas,",
+    "description": "[La Justice entre la Charité et la Force] : [dessin] / [anonyme des Pays-Bas,",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "[La Justice entre la Charité et la Force] : [dessin] / [anonyme des Pays-Bas,",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-080",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53250287h",
+    "title": "[Les péchés capitaux] ; [1]. [La Justice] : [estampe] CON FRINGE . EOS. VIRGA",
+    "description": "[Les péchés capitaux] ; [1]. [La Justice] : [estampe] CON FRINGE . EOS. VIRGA",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "[Les péchés capitaux] ; [1]. [La Justice] : [estampe] CON FRINGE . EOS. VIRGA",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-081",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53254750d",
+    "title": "[Allégorie en l''honneur de Jules Mazarin (1602-1661)] : [estampe] ([1er",
+    "description": "[Allégorie en l''honneur de Jules Mazarin (1602-1661)] : [estampe] ([1er",
+    "motif": [
+      "Alegoria feminina"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "[Allégorie en l''honneur de Jules Mazarin (1602-1661)] : [estampe] ([1er",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-082",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b532646114",
+    "title": "18/1/33, [de gauche à droite] M. Mistler [sous-secrétaire d''Etat aux Beaux-Arts],",
+    "description": "18/1/33, [de gauche à droite] M. Mistler [sous-secrétaire d''Etat aux Beaux-Arts],",
+    "motif": [
+      "Marianne"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "18/1/33, [de gauche à droite] M. Mistler [sous-secrétaire d''Etat aux Beaux-Arts],",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-083",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b53269527k",
+    "title": "9-4-33, [reconstitution historique de la période révolutionnaire, quartier",
+    "description": "9-4-33, [reconstitution historique de la période révolutionnaire, quartier",
+    "motif": [
+      "Marianne"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "9-4-33, [reconstitution historique de la période révolutionnaire, quartier",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-084",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b55001927d",
+    "title": "[La Justice] : [estampe]",
+    "description": "[La Justice] : [estampe]",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "[La Justice] : [estampe]",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-085",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b59718546",
+    "title": "La Province de Berry. La Généralité de Bourges, ou sont les Eslections de",
+    "description": "La Province de Berry. La Généralité de Bourges, ou sont les Eslections de",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "La Province de Berry. La Généralité de Bourges, ou sont les Eslections de",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-086",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b6948145c.item",
+    "title": "Allégorie à la Constitution, dédié à la nation françoise",
+    "description": "Allégorie à la Constitution, dédié à la nation françoise",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Allégorie à la Constitution, dédié à la nation françoise",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-087",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b6950386s",
+    "title": "Unité indivisibilité de la République (j'ai rompu mes chaines vive la liberté)",
+    "description": "Unité indivisibilité de la République (j'ai rompu mes chaines vive la liberté)",
+    "motif": [
+      "La République"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Unité indivisibilité de la République (j'ai rompu mes chaines vive la liberté)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-088",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b8402182w",
+    "title": "[Allégorie en l''honneur de Louis XIII (1601-1643)] : [estampe] ([Seul état",
+    "description": "[Allégorie en l''honneur de Louis XIII (1601-1643)] : [estampe] ([Seul état",
+    "motif": [
+      "Alegoria feminina"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "[Allégorie en l''honneur de Louis XIII (1601-1643)] : [estampe] ([Seul état",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-089",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b84114624",
+    "title": "D''une vapeur infernale qui couvre le palais de nos rois, sortent la chimère",
+    "description": "D''une vapeur infernale qui couvre le palais de nos rois, sortent la chimère",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "D''une vapeur infernale qui couvre le palais de nos rois, sortent la chimère",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-090",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b9012156x/f1.item",
+    "title": "Le Triomphe de la Republique -- Ode triomphale, Fetes du Centenaire de 1789",
+    "description": "Le Triomphe de la Republique -- Ode triomphale, Fetes du Centenaire de 1789",
+    "motif": [
+      "Republica",
+      "Marianne"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Le Triomphe de la Republique -- Ode triomphale, Fetes du Centenaire de 1789",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-091",
+    "country": "France",
+    "support": "estampa/gravura"
+  },
+  {
+    "url": "https://iconocracy.corpus/vault/7833d92a-6bbe-527f-8893-1d4d12820ffa",
+    "title": "Type Sage — Paix et Commerce, Selo Definitivo da República Francesa",
+    "description": "Type Sage — Paix et Commerce, Selo Definitivo da República Francesa",
+    "motif": [
+      "Marianne"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Type Sage — Paix et Commerce, Selo Definitivo da República Francesa",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-092",
+    "country": "France",
+    "support": "selo"
+  },
+  {
+    "url": "https://iconocracy.corpus/vault/a155af76-1c78-502b-b024-b1f0b2ae3f03",
+    "title": "La Justice — porcelaine de Sèvres (1889)",
+    "description": "La Justice — porcelaine de Sèvres (1889)",
+    "motif": [
+      "Justice"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "La Justice — porcelaine de Sèvres (1889)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-093",
+    "country": "France",
+    "support": "cerâmica"
+  },
+  {
+    "url": "https://iconocracy.corpus/vault/deb8221e-bc98-5afb-a0b2-cd3e47a17cff",
+    "title": "Navigation et Commerce — Selo Colonial Francês (Louis-Eugène Mouchon)",
+    "description": "Navigation et Commerce — Selo Colonial Francês (Louis-Eugène Mouchon)",
+    "motif": [
+      "Marianne"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Navigation et Commerce — Selo Colonial Francês (Louis-Eugène Mouchon)",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-094",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "https://iconocracy.corpus/vault/f502f5cf-ed4e-50d0-8ae0-45c60cd1c6ea",
+    "title": "Cérès — Première Émission de la République Française",
+    "description": "Cérès — Première Émission de la République Française",
+    "motif": [
+      "Marianne"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Cérès — Première Émission de la République Française",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-095",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
+    "url": "https://www.metmuseum.org/art/collection/search/208134",
+    "title": "Allegory of the French Republic",
+    "description": "Allegory of the French Republic",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Allegory of the French Republic",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "FR-096",
+    "country": "France",
+    "support": "moeda"
+  },
+  {
     "id": "FR-ASSIGNAT-1792",
     "title": "Assignat de 400 livres (21 nov. 1792, an premier de la République)",
     "date": "1792",
@@ -11780,6 +11496,35 @@
     ]
   },
   {
+    "id": "SCOUT-414",
+    "url": "https://hemerotecadigital.bn.br/acervo-digital/revista-illustrada/332747",
+    "title": "A República nos braços de Floriano",
+    "description": "A República nos braços de Floriano",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "A República nos braços de Floriano",
+    "audit_flags": [
+      "vault-import"
+    ]
+  },
+  {
     "id": "UK-001",
     "title": "Justitia enthroned, with sword and scales",
     "date": "17th century",
@@ -12406,6 +12151,170 @@
     "audit_flags": [
       "sem-thumbnail"
     ]
+  },
+  {
+    "url": "https://collections.vam.ac.uk/item/O102162",
+    "title": "model for reverse for the 1851 Exhibition Prize Medal",
+    "description": "model for reverse for the 1851 Exhibition Prize Medal",
+    "motif": [
+      "Britannia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "model for reverse for the 1851 Exhibition Prize Medal",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "UK-011",
+    "country": "United Kingdom",
+    "support": "medalha"
+  },
+  {
+    "url": "https://collections.vam.ac.uk/item/O102163",
+    "title": "Model",
+    "description": "Model",
+    "motif": [
+      "Britannia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Model",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "UK-012",
+    "country": "United Kingdom",
+    "support": "monumento/escultura"
+  },
+  {
+    "url": "https://collections.vam.ac.uk/item/O1242380",
+    "title": "Plaque",
+    "description": "Plaque",
+    "motif": [
+      "Britannia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Plaque",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "UK-013",
+    "country": "United Kingdom",
+    "support": "monumento/escultura"
+  },
+  {
+    "url": "https://collections.vam.ac.uk/item/O1261189",
+    "title": "The Cowper Seal Cups",
+    "description": "The Cowper Seal Cups",
+    "motif": [
+      "Britannia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "The Cowper Seal Cups",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "UK-014",
+    "country": "United Kingdom",
+    "support": "monumento/escultura"
+  },
+  {
+    "url": "https://collections.vam.ac.uk/item/O126326",
+    "title": "Fan",
+    "description": "Fan",
+    "motif": [
+      "Britannia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Fan",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "UK-015",
+    "country": "United Kingdom",
+    "support": "monumento/escultura"
+  },
+  {
+    "url": "https://collections.vam.ac.uk/item/O190041",
+    "title": "Design for the ceiling of the Great Hall at Blenheim",
+    "description": "Design for the ceiling of the Great Hall at Blenheim",
+    "motif": [
+      "Britannia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Design for the ceiling of the Great Hall at Blenheim",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "UK-016",
+    "country": "United Kingdom",
+    "support": "pintura"
+  },
+  {
+    "url": "https://collections.vam.ac.uk/item/O77466",
+    "title": "Medal",
+    "description": "Medal",
+    "motif": [
+      "Britannia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Medal",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "UK-017",
+    "country": "United Kingdom",
+    "support": "medalha"
+  },
+  {
+    "url": "https://iconocracy.corpus/vault/d6f71fb1-437c-5e18-85d1-4395f54f6306",
+    "title": "King George V Seahorses — Britannia Rules the Waves",
+    "description": "King George V Seahorses — Britannia Rules the Waves",
+    "motif": [
+      "Britannia"
+    ],
+    "regime": "militar",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "King George V Seahorses — Britannia Rules the Waves",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "UK-018",
+    "country": "United Kingdom",
+    "support": "moeda"
   },
   {
     "id": "UK-FLORIN-1902",
@@ -14113,6 +14022,126 @@
     "audit_flags": [
       "sem-thumbnail"
     ]
+  },
+  {
+    "url": "https://iconocracy.corpus/vault/b33f1bc8-57ba-561f-b9d6-1f898ba407c0",
+    "title": "Landing of Columbus — Columbia Allegorical Stamp",
+    "description": "Landing of Columbus — Columbia Allegorical Stamp",
+    "motif": [
+      "Columbia"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Landing of Columbus — Columbia Allegorical Stamp",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "US-021",
+    "country": "United States",
+    "support": "selo"
+  },
+  {
+    "url": "https://www.loc.gov/item/08030546/",
+    "title": "Justice to the Jew : the story of what he has done for the world",
+    "description": "Justice to the Jew : the story of what he has done for the world",
+    "motif": [
+      "Justitia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Justice to the Jew : the story of what he has done for the world",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "US-022",
+    "country": "United States",
+    "support": "frontispício"
+  },
+  {
+    "url": "https://www.loc.gov/item/12018646/",
+    "title": "An encyclopedist of the dark ages : Isidore of Seville,",
+    "description": "An encyclopedist of the dark ages : Isidore of Seville,",
+    "motif": [
+      "Columbia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "An encyclopedist of the dark ages : Isidore of Seville,",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "US-023",
+    "country": "United States",
+    "support": "frontispício"
+  },
+  {
+    "url": "https://www.loc.gov/item/13016362/",
+    "title": "Saint Tammany and the origin of the Society of Tammany, or Columbian order",
+    "description": "Saint Tammany and the origin of the Society of Tammany, or Columbian order",
+    "motif": [
+      "Columbia"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "citation_abnt": "Saint Tammany and the origin of the Society of Tammany, or Columbian order",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "US-024",
+    "country": "United States",
+    "support": "frontispício"
+  },
+  {
+    "url": "https://www.loc.gov/item/2011630457",
+    "title": "Statue of the Republic -- World's Columbian Exposition, Chicago",
+    "description": "Statue of the Republic -- World's Columbian Exposition, Chicago",
+    "motif": [
+      "Columbia",
+      "Republica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Statue of the Republic -- World's Columbian Exposition, Chicago",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "id": "US-025",
+    "country": "United States",
+    "support": "monumento/escultura"
   },
   {
     "id": "US-BANNER-1861",
