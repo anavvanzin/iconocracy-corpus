@@ -15,7 +15,7 @@ tags:
   - corpus/candidato
   - pais/BR
   - motivo/columbia
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"

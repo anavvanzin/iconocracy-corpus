@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-19",
+  "total": 43,
+  "with_iiif": 18,
+  "with_iconclass": 43,
+  "per_sq": {
+    "sq1": {
+      "count": 8,
+      "with_iiif": 1,
+      "rejected_dedup": 0,
+      "rejected_schema": 0
+    },
+    "sq2": {
+      "count": 15,
+      "with_iiif": 0,
+      "rejected_dedup": 0,
+      "rejected_schema": 0
+    },
+    "sq3": {
+      "count": 10,
+      "with_iiif": 10,
+      "rejected_dedup": 0,
+      "rejected_schema": 0
+    },
+    "sq4": {
+      "count": 10,
+      "with_iiif": 7,
+      "rejected_dedup": 1,
+      "rejected_schema": 0
+    }
+  },
+  "dedup_pool_size": 368
+}

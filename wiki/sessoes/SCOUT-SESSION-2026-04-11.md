@@ -67,6 +67,6 @@ related:
 
 - **BE-001** precisa de verificação visual urgente — possível que os primeiros selos belgas não contenham alegoria feminina (apenas efígie real)
 - **US-001** confiança média — distinguir Columbia (alegoria) de Colombo (personagem histórico) requer análise visual
-- **FR-022** (Navigation et Commerce) — item de alta relevância teórica para #colonialidade-do-ver e #contrato-racial-visual; priorizar para ICONOCODE
+- **FR-022** (Navigation et Commerce) — item de alta relevância teórica para [[colonialidade-do-ver]] e [[contrato-racial-visual]]; priorizar para ICONOCODE
 - Nenhuma URL verificada nesta sessão (Gallica MCP indisponível) — todos os itens marcados com `#sem-iiif`
 - Sugerir busca no Numista com URLs específicas na próxima sessão

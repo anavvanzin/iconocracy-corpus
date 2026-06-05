@@ -16,7 +16,7 @@ tags:
   - pais/UK
   - suporte/moeda
   - motivo/britannia
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"

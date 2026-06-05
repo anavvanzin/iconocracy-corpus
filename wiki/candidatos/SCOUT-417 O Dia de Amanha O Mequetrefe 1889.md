@@ -19,7 +19,7 @@ tags:
   - suporte/estampa
   - regime/fundacional
   - motivo/republica
-  - #proclamacao
+  - [[proclamacao]]
 related:
   - "[[Regime Fundacional]]"
   - "[[Alegoria como Profecia]]"

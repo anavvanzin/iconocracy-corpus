@@ -39,9 +39,9 @@ python tools/scripts/argos_prepare_dispatch.py --manifest data/raw/argos/manifes
 python tools/scripts/argos_report.py               # render markdown acquisition report
 
 # Thesis compilation (Pandoc)
-make -C vault/tese/ docx                           # full thesis → DOCX
-make -C vault/tese/ pdf                            # full thesis → PDF (requires LaTeX)
-make -C vault/tese/ capitulo-1.docx                # single chapter
+make -C tese/manuscrito/ docx                      # full thesis → DOCX (prosa viva unificada)
+make -C tese/manuscrito/ pdf                       # full thesis → PDF (requires LaTeX)
+make -C tese/manuscrito/ Capitulo1_rev.docx        # single chapter
 
 # Tests (pytest, no config file — runs from repo root)
 pytest tests/                                       # full suite (argos/, tools/, training/ + top-level)
@@ -186,7 +186,7 @@ Every corpus item must exist in three places:
 - Vault notes follow pattern `XX-NNN Title.md` where XX = country code, NNN = sequential number (e.g., `FR-013 Déclaration des droits.md`)
 - All generic vault notes in `vault/**/*.md` should default to **Obsidian Flavored Markdown**: frontmatter properties, `[[wikilinks]]`, `![[embeds]]`, callouts, comments, highlights, and external URLs only as Markdown links
 - Canonical vault guide: `vault/meta/Guia — Obsidian Flavored Markdown.md`; generic default template: `vault/_templates/nota-obsidian-padrao.md`
-- Thesis original files (`*_original`) are protected — use `vault/tese/` for revised drafts
+- Thesis original files (`*_original`) are protected — use `tese/manuscrito/drafts/` for revised drafts (era `vault/tese/`; reorg 2026-06-04)
 - SSD `/media/ana/SSD_DATA` stores raw images, Zotero PDFs, and backups
 - Automatic vault backups must not land on `main` (use `vault_backup.py`)
 - Academic voice: formal Portuguese with jurídico-penal framing (legal-criminal history, NOT anthropological/sociological)
@@ -203,7 +203,12 @@ These documented problems affect corpus operations:
    - `data/processed/purification.jsonl` → **264 records** (1 record lacks endurecimento coding)
    - `companion-data.json` → **5 items** (drastically stale; `sync_companion.py` will rebuild)
 2. **8 records with placeholder URLs** — `https://iconocracy.corpus/placeholder/{item_id}`. Require verification against `data/raw/drive-manifest.json`.
-3. **Notebooks reference stale corpus sizes** — `01_exploratory.ipynb` reads "145 itens"; `05_temporal`, `06_clustering`, `07_dimensionality` reference "165 itens". Current corpus is 265. Verify `len(df)` at the start of each analysis and re-run after propagation.
+3. **Analysis pinned at N=165 while corpus grew to 265** — the quantitative analysis (notebooks + manuscript) was run against an older 165-item snapshot:
+   - **Notebooks** reference stale sizes — `01_exploratory.ipynb` reads "145 itens"; `05_temporal`, `06_clustering`, `07_dimensionality` reference "165 itens".
+   - **Manuscript** chapters assert N=165 in text: `tese/manuscrito/Capitulo2_metodologia.md:66,161` ("165 registros"); `tese/manuscrito/Introducao_rev.md:127,193` ("165 itens"); also `Capitulo3_analise_quantitativa.md` and `notas/Cap3_quantitativo_outline.md`.
+   - **Pinned snapshot** of that analysis input lives at `Other/corpus-data.json` (165 items, frozen 2026-04-25; all 165 ids ⊆ current 264). The `Other/` dir also holds an **identical duplicate** of `notebooks/01–08` — it is a stale analysis copy, not a second source of truth. Do not delete without deciding the item below.
+   - Current canonical: `records.jsonl` = 265, `corpus/corpus-data.json` = 264.
+   - **DECISION PENDING (Ana) — reframed 2026-05-30, see `docs/decisions/DIALETICA-N165-vs-265.md`:** the "165 vs 265" framing was rejected by adversarial review. Real axis = **coding-validity stratum × instrument provenance**, not date. The corpus is coded by 6 instruments (`coded_by`); **41 items are uncoded** (no `coded_by`/regime/endurecimento) → N=265 is NOT a valid analytic N. Valid options: N≈145 (IconoCode-only) or N≈223 (all coded, after inter-instrument reliability audit of iconocode-opus vs opus-4.6 and audit of vault-import/migration). Action: stratify by `coded_by` → quarantine the 41 uncoded → reliability audit → set analytic N by validity → dataset card in Cap2 replacing "N=165" with "N=[valid]". `endurecimento_score=0` is a valid score (low purification), not "uncoded".
 
 **Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the ~100-record drift between records.jsonl and corpus-data.json are resolved — `validate_schemas.py` reports 265/265 valid, and export drift is now 1 item.
 

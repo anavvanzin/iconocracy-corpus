@@ -78,10 +78,10 @@ Referência acadêmica: VETTER, Christina. Making Money: Notgeld and the Materia
 
 ### Lacunas
 
-- #verificar-imagem — Preciso de URL verificável com imagem IIIF
+- [[verificar-imagem]] — Preciso de URL verificável com imagem IIIF
 - Buscar British Museum collection para exemplar específico
 - Buscar UChicago Special Collections (Guide to Notgeld Collection 1914-1923)
 
 ## Citação ABNT
 
-BIELEFELD (Município). Jubiliäumsscheine — Jungbrunnen, 25 Mark. 1921. Papel-moeda de emergência (Notgeld, linho/seda). Designer: Karl Muggly. #verificar.
+BIELEFELD (Município). Jubiliäumsscheine — Jungbrunnen, 25 Mark. 1921. Papel-moeda de emergência (Notgeld, linho/seda). Designer: Karl Muggly. [[verificar]].

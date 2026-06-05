@@ -1,10 +1,6 @@
 {
-  "interfaceFontFamily": "Andale Mono",
-  "baseFontSize": 17,
+  "cssTheme": "Phosphor CRT",
   "baseFontSizeAction": true,
-  "translucency": false,
-  "showRibbon": true,
-  "theme": "moonstone",
-  "accentColor": "doNotChange",
-  "cssTheme": "Retroma"
+  "theme": "system",
+  "accentColor": "#181127"
 }

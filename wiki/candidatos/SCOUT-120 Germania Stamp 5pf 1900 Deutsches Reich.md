@@ -19,8 +19,8 @@ tags:
   - suporte/selo-postal
   - regime/normativo
   - motivo/germania
-  - #acoplamento-imagem-norma
-  - #ausencia-alegorica
+  - [[acoplamento-imagem-norma]]
+  - [[ausencia-alegorica]]
 related:
   - "[[Regime Normativo]]"
   - "[[Feminilidade de Estado]]"

@@ -19,7 +19,7 @@ tags:
   - suporte/estampa
   - regime/normativo
   - motivo/republica
-  - #mercantilizacao
+  - [[mercantilizacao]]
 related:
   - "[[Regime Normativo]]"
   - "[[Oligarquia]]"

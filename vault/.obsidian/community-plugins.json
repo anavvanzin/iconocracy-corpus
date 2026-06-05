@@ -15,5 +15,14 @@
   "obsidian-style-settings",
   "obsidian-excalidraw-plugin",
   "quickadd",
-  "recent-files-obsidian"
+  "recent-files-obsidian",
+  "calendar",
+  "obsidian-book-search-plugin",
+  "obsidian-citation-plugin",
+  "highlightr-plugin",
+  "obsidian-kanban",
+  "obsidian-linter",
+  "longform",
+  "omnisearch",
+  "copilot"
 ]

@@ -15,8 +15,8 @@ tags:
   - suporte/estampa
   - regime/fundacional
   - motivo/republica
-  - #colonialidade-do-ver
-  - #verificar-imagem
+  - [[colonialidade-do-ver]]
+  - [[verificar-imagem]]
 related:
   - "[[endurecimento]]"
   - "[[Contrato Sexual Visual]]"
