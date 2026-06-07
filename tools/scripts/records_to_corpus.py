@@ -126,6 +126,10 @@ def _extract_id_from_record(record: dict) -> str | None:
         m2 = re.search(r"\b([A-Z]{2,4}-\d+)\b", notes)
         if m2:
             return m2.group(1)
+    # Fallback to item_id
+    item_id = record.get("item_id", "")
+    if item_id:
+        return item_id[:20]  # truncate for readability
     return None
 
 

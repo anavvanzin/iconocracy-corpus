@@ -441,7 +441,7 @@ def cmd_diff() -> None:
     notes = _scan_vault_notes()
 
     rec_urls = {
-        (rec.get("webscout") or {}).get("search_results", [{}])[0].get("url", "")
+        sr[0].get("url", "") if (sr := (rec.get("webscout") or {}).get("search_results")) else ""
         for rec in records
     }
     vault_urls = {_note_url(n) for n in notes if _note_url(n)}
