@@ -53,14 +53,19 @@ ifneq (,$(wildcard $(META)))
   PANDOC_COMMON += --metadata-file=$(META)
 endif
 
-.PHONY: docx pdf clean setup
+PY = /opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python
+REPO_ROOT := $(shell cd $(dir $(lastword $(MAKEFILE_LIST)))/../.. && pwd)
 
-all: docx
+.PHONY: docx pdf clean check setup all
+
+all: check docx
+
+check:
+	$(PY) $(REPO_ROOT)/tools/scripts/validate_schemas.py
+	@echo "✅ Validação de schemas OK"
 
 $(OUTPUT_DIR):
 	mkdir -p $(OUTPUT_DIR)
-
-# Tese completa
 docx: $(OUTPUT_DIR)
 	$(PANDOC) $(PANDOC_DOCX) -o $(OUTPUT_DIR)/tese_completa.docx $(CHAPTERS)
 	@echo "✅ $(OUTPUT_DIR)/tese_completa.docx"

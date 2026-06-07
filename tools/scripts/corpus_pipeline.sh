@@ -17,7 +17,9 @@
 #   4. Regenerar CSV (purification export)
 #   5. Atualizar dashboards HTML
 #   6. Análise de lacunas
-#   7. Relatório de status final
+#   7. Sincronizar companion app
+#   8. Relatório de status final
+#   9. Publicar release no HuggingFace (--publish-only para fazer já)
 
 set -euo pipefail
 
@@ -44,10 +46,10 @@ while [[ $# -gt 0 ]]; do
 done
 
 # ─── Helpers ────────────────────────────────────────────────────────────
-mkdir -p "$LOG_DIR"
+mkdir -p "$LOG_DIR" data/companion
 
 _py() {
-  conda run -n "$CONDA_ENV" python "$@" 2>&1
+  /opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python "$@"
 }
 
 _run_step() {
@@ -179,9 +181,26 @@ else
   _record skip
 fi
 
-# --- Passo 7: Relatório de status final ---------------------------------
+# --- Passo 7: Sincronizar dados do companion app --------------------------
 if _step_enabled 7; then
-  _header 7 "Relatório de status"
+  _header 7 "Sincronizar companion app"
+  if $DRY_RUN; then
+    _run_step _py tools/scripts/sync_companion.py || true
+    echo "  [DRY-RUN] Dados gerados, nada enviado"
+  else
+    _run_step _py tools/scripts/sync_companion.py --output data/companion/scout-data.json || true
+    if [ -f "data/companion/scout-data.json" ]; then
+      echo "  [OK] scout-data.json salvo"
+    fi
+  fi
+  _record pass
+else
+  _record skip
+fi
+
+# --- Passo 8: Relatório de status final ---------------------------------
+if _step_enabled 8; then
+  _header 8 "Relatório de status"
   echo ""
   echo "── records.jsonl ──"
   _run_step _py tools/scripts/vault_sync.py status || true
