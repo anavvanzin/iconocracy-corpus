@@ -62,7 +62,9 @@ def main() -> None:
     total_flagged = tagged + already_tagged
     print(f"OK: tagged {tagged} entries with `{FLAG}` ({already_tagged} already had the flag)")
     print(f"    total entries now carrying flag: {total_flagged}")
-    print(f"    expected from manifest: {manifest['total_queued']}")
+    # Note: total_flagged may exceed manifest's total_queued when corpus-data.json
+    # contains duplicate entries (same URL, no id) — both duplicates get flagged.
+    print(f"    manifest total_queued: {manifest['total_queued']}")
 
 
 if __name__ == "__main__":

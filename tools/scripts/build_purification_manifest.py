@@ -41,16 +41,45 @@ def _load_coded_ids() -> set[str]:
     return coded
 
 
+def _urls_with_corpus_id(corpus: list[dict]) -> set[str]:
+    """Return URLs that belong to entries that already have a corpus id.
+
+    Some corpus entries without an ``id`` field are old-format duplicates of newer
+    entries that DO carry proper corpus IDs.  When both old and new forms share the
+    same URL, the old-format entry is superseded and should not appear separately
+    in the manifest.
+    """
+    urls: set[str] = set()
+    for entry in corpus:
+        if entry.get("id") and entry.get("url"):
+            urls.add(entry["url"])
+    return urls
+
+
 def main() -> None:
     corpus: list[dict] = json.loads(CORPUS.read_text(encoding="utf-8"))
     coded_ids = _load_coded_ids()
+    urls_with_id = _urls_with_corpus_id(corpus)
 
     queued: list[dict] = []
+    seen_urls: set[str] = set()
     for entry in corpus:
         entry_id = entry.get("id", "")
-        # An entry is coded if it has an id that appears in purification.jsonl
+        entry_url = entry.get("url", "")
+
+        # Skip if directly coded
         if entry_id and entry_id in coded_ids:
             continue
+
+        # Skip old-format (no-id) entries whose URL is covered by a proper id'd entry
+        if not entry_id and entry_url and entry_url in urls_with_id:
+            continue
+
+        # Deduplicate no-id entries that share the same URL (data quality issue)
+        if not entry_id and entry_url:
+            if entry_url in seen_urls:
+                continue
+            seen_urls.add(entry_url)
 
         # Determine reason
         if not entry_id:
@@ -61,7 +90,7 @@ def main() -> None:
         queued.append(
             {
                 "corpus_id": entry_id,
-                "url": entry.get("url", ""),
+                "url": entry_url,
                 "title_hint": (entry.get("title") or "")[:120],
                 "country": entry.get("country", ""),
                 "reason": reason,

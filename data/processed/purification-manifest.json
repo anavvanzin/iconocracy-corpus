@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-08T05:49:49.863160+00:00",
+  "generated_at": "2026-06-08T05:52:57.353670+00:00",
   "total_records": 314,
-  "total_coded": 264,
-  "total_queued": 50,
+  "total_coded": 271,
+  "total_queued": 43,
   "queued": [
     {
       "corpus_id": "sq1-2026-05-19-baker-godwin-lincoln-005",
@@ -77,22 +77,8 @@
     },
     {
       "corpus_id": "",
-      "url": "https://artsandculture.google.com/asset/a-rep%C3%BAblica-manoel-lopes-rodrigues/AQGV9DG4UbJnBg",
-      "title_hint": "A República",
-      "country": "",
-      "reason": "no corpus id assigned"
-    },
-    {
-      "corpus_id": "",
       "url": "https://museudarepublica.museus.gov.br/publicacoes/",
       "title_hint": "A República (estudo para escultura/bandeira)",
-      "country": "",
-      "reason": "no corpus id assigned"
-    },
-    {
-      "corpus_id": "",
-      "url": "https://www.loc.gov/item/2003689297/",
-      "title_hint": "Abraham Lincoln, Republican candidate for president of the United States",
       "country": "",
       "reason": "no corpus id assigned"
     },
@@ -210,13 +196,6 @@
     },
     {
       "corpus_id": "",
-      "url": "https://digi.ub.uni-heidelberg.de/diglit/ripa1603",
-      "title_hint": "Iconologia Overo Descrittione Di Diverse Imagini cauate dall'antichità, & di propria inuentione — ed. Roma 1603 (Heidelb",
-      "country": "",
-      "reason": "no corpus id assigned"
-    },
-    {
-      "corpus_id": "",
       "url": "https://digi.ub.uni-heidelberg.de/diglit/ripa1645",
       "title_hint": "Iconologia di Cesare Ripa: divisa in tre libri — ed. Veneza 1645",
       "country": "",
@@ -266,22 +245,8 @@
     },
     {
       "corpus_id": "",
-      "url": "https://www.britishmuseum.org/collection/object/P_1878-0713-2311",
-      "title_hint": "La Justice et la Vengeance Divine poursuivant le Crime",
-      "country": "",
-      "reason": "no corpus id assigned"
-    },
-    {
-      "corpus_id": "",
       "url": "https://www.museodelprado.es/en/the-collection/art-work/truth-has-died/8c3b0257-606f-4d0b-af9e-73f05de59697",
       "title_hint": "La verdad ha muerto (Truth has died)",
-      "country": "",
-      "reason": "no corpus id assigned"
-    },
-    {
-      "corpus_id": "",
-      "url": "https://www.loc.gov/pictures/item/2003689287/",
-      "title_hint": "Liberty. \"Liberty brings to the earth justice and peace\"",
       "country": "",
       "reason": "no corpus id assigned"
     },
@@ -329,22 +294,8 @@
     },
     {
       "corpus_id": "",
-      "url": "https://www.loc.gov/item/2004665366/",
-      "title_hint": "The outbreak of the rebellion in the United States 1861",
-      "country": "",
-      "reason": "no corpus id assigned"
-    },
-    {
-      "corpus_id": "",
       "url": "https://open.smk.dk/artwork/image/KKS6276",
       "title_hint": "Titelblad: \"Justitia\"",
-      "country": "",
-      "reason": "no corpus id assigned"
-    },
-    {
-      "corpus_id": "",
-      "url": "https://www.loc.gov/pictures/item/2004665350/",
-      "title_hint": "Triumph",
       "country": "",
       "reason": "no corpus id assigned"
     },
