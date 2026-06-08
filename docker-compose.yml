@@ -51,6 +51,11 @@ services:
       dockerfile: deploy/docker/tools.Dockerfile
     volumes:
       - .:/workspace
+      - /workspace/.venv
+      - /workspace/.uv-cache
+      - /workspace/.pytest_cache
+      - /workspace/.ruff_cache
+      - /workspace/node_modules
     working_dir: /workspace
     profiles: ["tools"]
 

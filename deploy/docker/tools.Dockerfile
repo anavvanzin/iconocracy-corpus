@@ -9,7 +9,8 @@ RUN apt-get update && \
 
 USER $MAMBA_USER
 COPY --chown=$MAMBA_USER:$MAMBA_USER environment.yml /tmp/environment.yml
-RUN micromamba env create -f /tmp/environment.yml && \
+RUN --mount=type=cache,target=/opt/conda/pkgs,uid=1000,gid=1000 \
+    micromamba env create -f /tmp/environment.yml && \
     micromamba clean --all --yes
 
 ENV ENV_NAME=iconocracy
