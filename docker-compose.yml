@@ -11,6 +11,7 @@
 
 services:
   web:
+    profiles: ["web-retired"]
     build:
       context: .
       dockerfile: deploy/docker/web.Dockerfile
