@@ -312,14 +312,14 @@ def process_item(item_id, url):
     print(f"  Processing {item_id} [{domain}] ...", end=" ", flush=True)
 
     try:
-        if 'bildindex.de' in domain:
+        if domain.endswith('bildindex.de') or domain == 'bildindex.de':
             data, ext, magic, img_url = handle_bildindex(item_id, url)
-        elif 'britishmuseum.org' in domain:
+        elif domain.endswith('.britishmuseum.org') or domain == 'britishmuseum.org':
             data, ext, magic, img_url = handle_britishmuseum(item_id, url)
             time.sleep(1.5)  # extra delay for BM
-        elif 'bnportugal.gov.pt' in domain:
+        elif domain.endswith('.bnportugal.gov.pt') or domain == 'bnportugal.gov.pt':
             data, ext, magic, img_url = handle_bnportugal(item_id, url)
-        elif 'memoria.bn.br' in domain:
+        elif domain.endswith('.memoria.bn.br') or domain == 'memoria.bn.br':
             data, ext, magic, img_url = handle_br007_pdf(item_id, url)
             if magic == "MANUAL_RENDER" or (magic and magic.startswith("PDF_SAVED")):
                 size_kb = os.path.getsize(os.path.join(OUTPUT_DIR, f"{item_id}.pdf")) // 1024 if os.path.exists(os.path.join(OUTPUT_DIR, f"{item_id}.pdf")) else 0
@@ -362,7 +362,7 @@ def main():
     for i, (item_id, url) in enumerate(BATCH2_ITEMS):
         from urllib.parse import urlparse
         domain = urlparse(url).netloc
-        delay = 3.0 if 'britishmuseum' in domain else 1.5
+        delay = 3.0 if (domain.endswith('.britishmuseum.org') or domain == 'britishmuseum.org') else 1.5
         if i > 0:
             time.sleep(delay)
         result = process_item(item_id, url)
