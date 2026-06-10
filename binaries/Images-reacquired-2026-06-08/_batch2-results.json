@@ -1,0 +1,266 @@
+[
+  {
+    "id": "BE-001",
+    "domain": "collections.heritage.brussels",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "Cloudflare block on cloud IP; page content not verified via Exa"
+  },
+  {
+    "id": "BE-002",
+    "domain": "be-monumen.be",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "HTTP 403 from container; Exa not tried"
+  },
+  {
+    "id": "BR-005",
+    "domain": "archive.nyu.edu",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "NYU DSpace: TIFF at /bitstream/2451/61396/2/Rj12-03.tiff; thumbnail at /retrieve/124973/Rj12-03.tiff.jpg — blocked from cloud IP"
+  },
+  {
+    "id": "BR-006",
+    "domain": "brasiliana.museus.gov.br",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "Alegoria da República by Carlos Chambelland 1922; Brasiliana code f9686ffb4f947dbec319d3d63abefccf; image at wp-content/uploads/2024/05/... — 403 from cloud"
+  },
+  {
+    "id": "BR-007",
+    "domain": "memoria.bn.br",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "PDF http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf — 403 from cloud IP; download manually, page 60"
+  },
+  {
+    "id": "BR-009",
+    "domain": "acervos.ims.com.br",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "IMS record 18758; identifier 010ACDF27248.jpg; 'A Justiça' por Marcel Gautherot c.1968; requer liberação de direitos IMS"
+  },
+  {
+    "id": "BR-010",
+    "domain": "eliseuvisconti.com.br",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "D702 O Progresso; pastel, c.1910; Fundação Biblioteca Nacional RJ; 403 from cloud"
+  },
+  {
+    "id": "DE-001",
+    "domain": "www.bildindex.de",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "que20183316 — Exa timeout; Bildarchiv partner portal; try bildindex.de directly from laptop"
+  },
+  {
+    "id": "DE-002",
+    "domain": "www.bildindex.de",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "obj08148970 — Justitia 1239-40, Capua; Datengeber: http://foto.biblhertz.it/obj08148970; Rechte vorbehalten"
+  },
+  {
+    "id": "DE-003",
+    "domain": "www.bildindex.de",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "obj30110594 — Göttin der Gerechtigkeit, Bernhard Rode; Deutsche Fotothek FD 253 077; Rechte vorbehalten"
+  },
+  {
+    "id": "DE-004",
+    "domain": "www.bildindex.de",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "obj20553978 — Justitia an der Rathausuhr 1589, Esslingen; Bildarchiv Foto Marburg mi05228a07; Rechte vorbehalten"
+  },
+  {
+    "id": "DE-005",
+    "domain": "www.bildindex.de",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "obj20672587 — Personifikation Gerechtigkeit 1660/1780, Lüneburg; Bildarchiv Foto Marburg mi07014d04; Rechte vorbehalten"
+  },
+  {
+    "id": "DE-006",
+    "domain": "www.bildindex.de",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "obj08158050 — Allegorie Justitia, Marcantonio Raimondi; Datengeber: http://foto.biblhertz.it/obj08158050; Rechte vorbehalten"
+  },
+  {
+    "id": "DE-007",
+    "domain": "www.bildindex.de",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "obj08108743 — Exa timeout; Bildindex partner portal; try from laptop"
+  },
+  {
+    "id": "DE-008",
+    "domain": "www.bildindex.de",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "obj20608421 — Justitia um 1558, Hameln; Deutsche Fotothek FD 351 316; Rechte vorbehalten"
+  },
+  {
+    "id": "DE-009",
+    "domain": "www.bildindex.de",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "obj20459153 — Exa timeout; Bildindex partner portal; try from laptop"
+  },
+  {
+    "id": "DE-010",
+    "domain": "www.bildindex.de",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "obj20677105 — Jus Civile, Christian Wenzinger 1752, Sankt Peter; Bildarchiv Foto Marburg mi08920i01; Rechte vorbehalten"
+  },
+  {
+    "id": "DE-011",
+    "domain": "www.bildindex.de",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "obj30143134 — Kamin mit Justitia um 1610, Leipzig Altes Rathaus; Deutsche Fotothek FD 115 733; Rechte vorbehalten"
+  },
+  {
+    "id": "DE-012",
+    "domain": "lucascranach.org",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "Cranach Justice 1537, PRIVATE_NONE-P457; CDA page loads via Exa; private collection — 403 for direct image"
+  },
+  {
+    "id": "DE-013",
+    "domain": "www.dhm.de",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "Kaulbach Germania 1914, DHM Inv. 1988/82; page loads via Exa; image requires request to fotoservice@dhm.de"
+  },
+  {
+    "id": "DE-GERM-1900",
+    "domain": "en.wikipedia.org",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "Wikimedia Commons: File:DR_1900_56_Germania_Reichspost.jpg (570x670, public domain); download from https://commons.wikimedia.org/wiki/File:DR_1900_56_Germania_Reichspost.jpg"
+  },
+  {
+    "id": "DE-GERM-BELG-1914",
+    "domain": "colnect.com",
+    "status": "BOT_PROTECTED",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "Colnect protected by Anubis PoW anti-bot; needs browser/laptop download"
+  },
+  {
+    "id": "ES-001",
+    "domain": "bdh.bne.es",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "BNE Digital Library item 76944; IIIF likely at bdh.bne.es/rest/imagen/iiif/manifest?id=76944 — blocked from cloud"
+  },
+  {
+    "id": "ES-002",
+    "domain": "hemerotecadigital.bne.es",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "BNE Hemeroteca card sid=3971781; 1637 newspaper; IIIF or download from laptop"
+  },
+  {
+    "id": "PT-001",
+    "domain": "bndigital.bnportugal.gov.pt",
+    "status": "INSTITUTIONAL_ACCESS",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "BNP item 17148 Justiça popular UDP poster; 'acessível apenas na rede interna da BNP' — needs BNP institutional network or request to bndigital@bnportugal.pt"
+  },
+  {
+    "id": "PT-002",
+    "domain": "bndigital.bnportugal.gov.pt",
+    "status": "INSTITUTIONAL_ACCESS",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "BNP item 39213 Alegoria à História; institucional only"
+  },
+  {
+    "id": "PT-003",
+    "domain": "bndigital.bnportugal.gov.pt",
+    "status": "INSTITUTIONAL_ACCESS",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "BNP item 37491 Alegoria à Morte; institucional only"
+  },
+  {
+    "id": "PT-004",
+    "domain": "bndigital.bnportugal.gov.pt",
+    "status": "INSTITUTIONAL_ACCESS",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "BNP item 37507 Alegoria ao Tempo; institucional only"
+  },
+  {
+    "id": "UK-001",
+    "domain": "www.britishmuseum.org",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "BM P_1870-0625-185; Exa timeout; try BM IIIF API: https://iiif.thebritishmuseum.org/iiif/..."
+  },
+  {
+    "id": "UK-002",
+    "domain": "www.britishmuseum.org",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "BM P_1862-0712-304; Exa timeout; try BM IIIF API"
+  },
+  {
+    "id": "UK-003",
+    "domain": "www.britishmuseum.org",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "BM P_1862-0712-305; Exa timeout; try BM IIIF API"
+  },
+  {
+    "id": "UK-004",
+    "domain": "www.speel.me.uk",
+    "status": "HTTP_403",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "speel.me.uk sculpture London; Exa timeout; small personal site, try curl from laptop"
+  },
+  {
+    "id": "UY-001",
+    "domain": "www.museos.gub.uy",
+    "status": "NEEDS_MANUAL",
+    "magic": "-",
+    "size_kb": 0,
+    "notes": "Blanes biography page — no specific artwork image at this URL; identify correct Blanes artwork image manually"
+  }
+]
