@@ -35,21 +35,39 @@ def load_records(path: Path = RECORDS_PATH) -> list[dict]:
     return [json.loads(line) for line in path.open(encoding="utf-8")]
 
 
-def load_corpus_url_map(path: Path = CORPUS_PATH) -> dict[str, dict]:
+def load_corpus_url_map(path: Path = CORPUS_PATH) -> dict[str, str]:
+    """Load corpus-data.json and return URL -> id mapping."""
     items = json.loads(path.read_text(encoding="utf-8"))
-    return {it["url"]: it for it in items if it.get("url")}
+    result = {}
+    for it in items:
+        url = it.get("url", "")
+        item_id = it.get("id")
+        if url and item_id:
+            result[url] = item_id
+    return result
 
 
-def find_sigla(record: dict, url_map: dict[str, dict]) -> str:
+def find_sigla(record: dict, url_map: dict[str, str]) -> str:
+    """Resolve sigla (XX-NNN) for a record.
+
+    Priority:
+    1. URL match from corpus-data.json
+    2. SCOUT/XX-NNN from webscout notes
+    3. Truncated item_id (last resort)
+    """
     url = record.get("input", {}).get("input_url", "")
-    item = url_map.get(url)
-    if item and item.get("id"):
-        return item["id"]
-    # fallback: SCOUT id from webscout notes
+
+    # Priority 1: Direct URL match
+    if url in url_map:
+        return url_map[url]
+
+    # Priority 2: SCOUT id from webscout notes
     for sr in record.get("webscout", {}).get("search_results", []):
         m = re.search(r"((?:SCOUT|[A-Z]{2})-\d+)", sr.get("notes", ""))
         if m:
             return m.group(1)
+
+    # Priority 3: Truncated item_id (will need manual resolution)
     return record["item_id"][:12]
 
 
