@@ -21,7 +21,7 @@
 
 ## Matéria-prima disponível
 
-- **Corpus:** 145 itens em `corpus/corpus-data.json` (42 FR · 20 US · DE/UK/BR)
+- **Corpus:** 314 itens em `corpus/corpus-data.json` — estado-atual em 5/jun/2026 (94 FR · 47 BR · 33 US · 27 DE · 22 UK · 11 BE · 8 IT · 8 NL · 7 PT · 4 ES)
 - **Vault:** 179 notas — 158 candidatos, 3 negative controls, 18 Zwischenraum
 - **Sessões:** 10 em `vault/sessoes/`
 - **Stats:** notebooks `01_exploratory → 04_correspondence`

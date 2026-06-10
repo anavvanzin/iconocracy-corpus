@@ -17,7 +17,9 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import difflib
 import json
+import re
 import sys
 import tempfile
 import uuid
@@ -111,6 +113,22 @@ def _load_existing_corpus() -> dict[str, dict]:
         return {}
 
 
+def _extract_id_from_record(record: dict) -> str | None:
+    """Extract human-readable ID (e.g. SCOUT-095 or BR-038) from record metadata."""
+    sr = record.get("webscout", {}).get("search_results", [])
+    for s in sr:
+        notes = s.get("notes") or ""
+        # Match SCOUT-NNN
+        m = re.search(r"\b(SCOUT-\d+)\b", notes)
+        if m:
+            return m.group(1)
+        # Match XX-NNN (e.g. BR-038)
+        m2 = re.search(r"\b([A-Z]{2,4}-\d+)\b", notes)
+        if m2:
+            return m2.group(1)
+    return None
+
+
 def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
     """Build a corpus-data.json entry from a master record, merging with existing."""
     inp = record.get("input", {})
@@ -158,6 +176,12 @@ def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
     # Start from existing entry for rich fields (panofsky, institution, etc.)
     entry: dict = dict(existing) if existing else {}
 
+    # Extract ID if new entry
+    if not entry.get("id"):
+        extracted_id = _extract_id_from_record(record)
+        if extracted_id:
+            entry["id"] = extracted_id
+
     # Overwrite with authoritative fields from records.jsonl
     entry.update({
         "url": url if url and not url.startswith("https://iconocracy.corpus/placeholder/") else entry.get("url", url),
@@ -199,7 +223,7 @@ def export_corpus(
 
     # Index records by deterministic item_id first (canonical), URL as fallback.
     records_by_item_id: dict[str, dict] = {}
-    records_by_url: dict[str, dict] = {}
+    records_by_url: dict[str, list[dict]] = {}
     for rec in records:
         rec_item_id = rec.get("item_id", "")
         if rec_item_id:
@@ -207,10 +231,9 @@ def export_corpus(
         sr = rec.get("webscout", {}).get("search_results", [{}])
         url = sr[0].get("url", "") if sr else ""
         if url:
-            records_by_url[url] = rec
+            records_by_url.setdefault(url, []).append(rec)
 
     # Process existing corpus entries
-    matched_urls: set[str] = set()
     matched_item_ids: set[str] = set()
 
     if not replace:
@@ -219,11 +242,22 @@ def export_corpus(
             item_url = item.get("url", "")
             rec = records_by_item_id.get(expected_record_item_id)
             if not rec and item_url:
-                rec = records_by_url.get(item_url)
+                candidates = records_by_url.get(item_url, [])
+                if len(candidates) == 1:
+                    rec = candidates[0]
+                elif len(candidates) > 1:
+                    # Choose the one with the closest title match
+                    existing_title = item.get("title", "").lower()
+                    best_ratio = -1.0
+                    for cand in candidates:
+                        cand_title = (cand.get("input", {}).get("title_hint") or "").lower()
+                        ratio = difflib.SequenceMatcher(None, existing_title, cand_title).ratio()
+                        if ratio > best_ratio:
+                            best_ratio = ratio
+                            rec = cand
             if rec:
                 entry = _corpus_entry_from_record(rec, item)
                 matched_item_ids.add(rec.get("item_id", ""))
-                matched_urls.add(item_url)
             else:
                 entry = dict(item)
             result.append(entry)
@@ -233,12 +267,11 @@ def export_corpus(
         rec_item_id = rec.get("item_id", "")
         sr = rec.get("webscout", {}).get("search_results", [{}])
         url = sr[0].get("url", "") if sr else ""
-        if rec_item_id in matched_item_ids or url in matched_urls:
+        if rec_item_id in matched_item_ids:
             continue
-        if replace or url not in {i.get("url", "") for i in result}:
-            entry = _corpus_entry_from_record(rec, None)
-            if entry.get("title"):
-                result.append(entry)
+        entry = _corpus_entry_from_record(rec, None)
+        if entry.get("title"):
+            result.append(entry)
 
     result.sort(key=lambda item: (str(item.get("id", "")), str(item.get("url", ""))))
     return result

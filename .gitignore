@@ -32,6 +32,14 @@ vault/.obsidian/plugins/
 vault/.obsidian/hotkeys.json
 vault/.obsidian/core-plugins-migration.json
 
+# Obsidian app-state across ALL vaults (wiki/, etc.) — plugins/ é código de
+# terceiros com credenciais embutidas (ex.: remotely-save OAuth); workspace é local.
+**/.obsidian/plugins/
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/hotkeys.json
+**/.obsidian/core-plugins-migration.json
+
 # Pandoc output
 vault/tese/output/
 
