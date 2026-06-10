@@ -54,6 +54,8 @@ def validate_item(item: dict, known_ids: set[str],
 
 
 def _atomic_append_lines(path: Path, lines: list[str]) -> None:
+    # Read-then-rewrite proposital: open("a") nao e atomico em crash;
+    # para o tamanho deste index (<10k linhas) o full-read e aceitavel.
     existing = path.read_text(encoding="utf-8") if path.exists() else ""
     fd, tmp = tempfile.mkstemp(dir=str(path.parent), suffix=".tmp")
     with os.fdopen(fd, "w", encoding="utf-8") as f:
@@ -106,8 +108,8 @@ def main() -> None:
     args = ap.parse_args()
 
     items = json.loads(args.batch_file.read_text(encoding="utf-8"))
-    known_ids = {json.loads(l)["item_id"]
-                 for l in RECORDS_PATH.open(encoding="utf-8") if l.strip()}
+    known_ids = {json.loads(line)["item_id"]
+                 for line in RECORDS_PATH.open(encoding="utf-8") if line.strip()}
     ok, errors = append_batch(items, args.index, args.worklist, known_ids)
     print(f"gravados: {ok}/{len(items)}")
     for e in errors:

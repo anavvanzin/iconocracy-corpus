@@ -64,7 +64,10 @@ def find_local_image(sigla: str, roots: list[Path]) -> Path | None:
 
 def extract_vault_thumb(sigla: str, vault_dir: Path = VAULT_DIR) -> str | None:
     for f in vault_dir.glob(f"{sigla}*.md"):
-        text = f.read_text(encoding="utf-8")
+        try:
+            text = f.read_text(encoding="utf-8")
+        except UnicodeDecodeError:
+            continue  # vault notes sao editadas a mao; byte invalido nao derruba a triagem
         m = re.search(r"\[imagem\]\((https?://[^)]+)\)", text)
         if m:
             return m.group(1)

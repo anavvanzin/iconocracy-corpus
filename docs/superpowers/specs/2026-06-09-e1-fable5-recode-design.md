@@ -29,10 +29,16 @@ O E1 (extração pathosformel / 10 indicadores de purificação) está travado:
 | Sem imagem | **Flag `#no-image` + exclusão da população E1/IRR** | Fallback textual marcado; reaquisição prévia |
 | Execução | **A — Triagem + lotes de ~25 com subagentes iconocode** | B — script API headless (custo de billing); C — fan-out único (frágil) |
 
+> **Atualização de população (2026-06-09, execução):** `origin/main` incorporou
+> os 43 candidatos importáveis de 2026-06-08 — `records.jsonl` no branch de
+> trabalho tem **308 registros** (não 265). O E1 cobre o ledger canônico do
+> branch: população alvo = 308. Os números "265" abaixo refletem o momento do
+> brainstorm; thresholds de sanidade foram ajustados proporcionalmente.
+
 ## 3. Arquitetura
 
 ```
-records.jsonl (265)
+records.jsonl (308)
       │
       ▼
 [1] e1_triage_images.py ──► e1_worklist.json  (codificáveis: fonte local|url)
