@@ -45,6 +45,11 @@ def find_sigla(record: dict, url_map: dict[str, dict]) -> str:
     item = url_map.get(url)
     if item and item.get("id"):
         return item["id"]
+    # fallback: SCOUT id from webscout notes
+    for sr in record.get("webscout", {}).get("search_results", []):
+        m = re.search(r"((?:SCOUT|[A-Z]{2})-\d+)", sr.get("notes", ""))
+        if m:
+            return m.group(1)
     return record["item_id"][:12]
 
 

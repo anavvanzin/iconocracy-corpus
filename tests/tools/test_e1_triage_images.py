@@ -31,8 +31,18 @@ def test_find_sigla_via_corpus_url_map():
 
 
 def test_find_sigla_falls_back_to_item_id_prefix():
-    rec = _record(item_id="abcdef123456789")
+    rec = {
+        "item_id": "abcdef123456789",
+        "input": {"input_url": "https://ex.org/unknown", "title_hint": "X",
+                  "date_hint": "", "place_hint": ""},
+        "webscout": {"search_results": [{"notes": "sem referencia"}]},
+    }
     assert find_sigla(rec, {}) == "abcdef123456"  # 12 chars
+
+
+def test_find_sigla_via_webscout_notes():
+    rec = _record(item_id="abcdef123456789", url="https://ex.org/not-in-map")
+    assert find_sigla(rec, {}) == "SCOUT-112"
 
 
 def test_find_local_image_matches_sigla_filename(tmp_path):
