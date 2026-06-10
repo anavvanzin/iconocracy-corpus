@@ -3,7 +3,7 @@ titulo: "Análise Quantitativa: Padrões Iconométricos"
 parte: "III - Resultados"
 capitulo: 6
 status: "rascunho"
-palavras: 1200
+palavras: 1580
 citacoes: 0
 updated: "2026-04-15"
 pandoc:
@@ -16,13 +16,15 @@ pandoc:
 
 Este capítulo tem como objetivo apresentar os resultados da aplicação do protocolo *IconoCode* ao corpus da pesquisa, traduzindo as categorias iconográficas desenvolvidas nos capítulos anteriores em variáveis mensuráveis. Longe de pretender uma exatidão matemática sobre objetos visuais historicamente contingentes, a iconometria aqui proposta funciona como uma ferramenta heurística: ela permite visualizar padrões de longa duração e continuidades transatlânticas que escapariam à análise qualitativa de imagens isoladas.
 
-## 6.1 - Panorama descritivo do corpus e do grau de purificação
+## 6.1 — Panorama descritivo do corpus e do grau de purificação
 
-O corpus analisado é composto por 145 artefatos visuais codificados integralmente, englobando suportes que transitam desde a grande estatuária oficial até a numismática e o meio impresso. O recorte geográfico reflete o circuito hegemônico de produção da cultura jurídica ocidental moderna, com predominância da França (42 itens) e dos Estados Unidos (20 itens), seguidos por Alemanha (18), Brasil (12), Reino Unido (10) e Itália (8).
+O corpus analisado totaliza 265 artefatos visuais, dos quais 213 foram integralmente codificados segundo os dez indicadores da purificação clássica no momento desta redação, restando 52 itens em processamento pelo protocolo E1 (Pathosformel extraction). A amostra abrange suportes que transitam da estatuária oficial à numismática, da pintura de grande formato ao meio impresso e filatélico, refletindo o circuito hegemônico de produção da cultura jurídica ocidental moderna.
 
-A métrica central desta análise é o *score* composto de endurecimento (variando teoricamente de 0 a 3), que agrega os dez indicadores ordinais de purificação corporal. No conjunto global do corpus, a média de endurecimento situa-se em 1.44 (com dispersão de 0.10 a 3.10). Contudo, esse valor médio oculta variações cruciais quando os artefatos são agrupados por regime iconocrático.
+A distribuição geográfica revela a centralidade francesa no imaginário alegórico ocidental: a França contribui com 58 itens (27,2% do corpus codificado), seguida pelo Brasil com 35 (16,4%), Estados Unidos com 25 (11,7%), Alemanha com 21 (9,9%), Reino Unido com 13 (6,1%), Bélgica e Itália com 8 cada (3,8%), Países Baixos com 8 (3,8%) e Portugal com 7 (3,3%). Os demais países — Espanha, Áustria, México, Suíça, Uruguai e Argentina — somam os 12,7% restantes. Essa distribuição confirma o eixo franco-atlântico como espinha dorsal do corpus, mas revela a presença significativa do Brasil, justificando o recorte do estudo de caso nacional.
 
-O corpus distribui-se de maneira desigual entre os quatro regimes identificados: o regime *fundacional* é o mais populoso (71 itens), refletindo a proliferação de imagens no calor das rupturas constitucionais ou revolucionárias; segue-se o regime *normativo* (40 itens), característico da consolidação e rotinização do poder estatal; o regime *militar* ou imperial (27 itens); e, marginalmente, as *contra-alegorias* (7 itens), que funcionam como o reverso subversivo da iconografia oficial.
+A métrica central é o *score* composto de endurecimento (purificação), variando de 0 a 3. No conjunto dos 213 itens codificados, a média situa-se em 0,86 — consideravelmente inferior aos 1,44 reportados na análise preliminar sobre 145 itens, indicando que a expansão do corpus incorporou artefatos com menor grau de purificação, especialmente do regime fundacional e do suporte pictórico. A dispersão é ampla (0,00 a 3,00), confirmando a heterogeneidade do fenômeno.
+
+O corpus distribui-se entre quatro regimes iconocráticos. O regime *fundacional* é o mais populoso (103 itens, média 0,76), caracterizado pela fluidez compositiva dos momentos de ruptura constitucional. O regime *normativo* (74 itens, média 0,89) revela a consolidação da linguagem estatal sobre o corpo alegórico. O regime *militar* (28 itens, média 1,20) concentra os maiores escores de purificação, sugerindo que a violência institucionalizada exige o grau máximo de controle sobre a representação feminina. As *contra-alegorias* (8 itens, média 0,62) ocupam o polo oposto, subvertendo deliberadamente a gramática canônica.
 
 A análise das correlações internas ($\rho$ de Spearman) entre os dez indicadores revela que o processo de "purificação" estatal não opera de forma isolada sobre partes do corpo, mas como um "pacote" integrado de disciplinamento. As correlações mais fortes ocorrem entre a *rigidez postural* e a *uniformização facial* ($\rho = 0.750$), bem como entre a *dessexualização* e a *uniformização facial* ($\rho = 0.738$). Isso demonstra que a captura do corpo feminino pela linguagem do Estado exige, simultaneamente, o congelamento da espinha dorsal e o apagamento das particularidades do rosto e do sexo. A carne que se faz lei perde, antes de tudo, sua mobilidade e seu desejo.
 

@@ -153,3 +153,10 @@ deploy/iconocracia-companion/.wrangler/
 .claude/hooks/README.md
 .claude/hooks/hooks.json
 .claude/hooks/memory-persistence/
+
+# Ephemeral / local-only artifacts (não versionar) — 2026-06-09
+backups/
+session_logs/
+.planning/
+docs/superpowers/progress/
+.envrc
