@@ -296,6 +296,18 @@ def show_status(corpus, coded):
         for reg in sorted(by_regime):
             print(f"    {reg:15s}  {by_regime[reg]:3d}")
 
+    # Backlog section — reads purification-manifest.json if present (Issue #57 / ADR 007)
+    manifest_path = REPO_ROOT / "data" / "processed" / "purification-manifest.json"
+    if manifest_path.exists():
+        m = json.loads(manifest_path.read_text(encoding="utf-8"))
+        print(f"\n  Backlog (Issue #57 / ADR 007):")
+        print(f"    queued:   {m['total_queued']} (of {m['total_records']} canonical)")
+        no_id = sum(1 for q in m["queued"] if not q["corpus_id"])
+        if no_id:
+            print(f"    no corpus_id yet: {no_id}")
+        print(f"    manifest: data/processed/purification-manifest.json")
+        print(f"    (re-run build_purification_manifest.py to refresh)")
+
     print()
 
 
