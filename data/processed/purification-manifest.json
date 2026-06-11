@@ -1,0 +1,310 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-06-08T05:52:57.353670+00:00",
+  "total_records": 314,
+  "total_coded": 271,
+  "total_queued": 43,
+  "queued": [
+    {
+      "corpus_id": "sq1-2026-05-19-baker-godwin-lincoln-005",
+      "url": "https://www.loc.gov/item/2003689297/",
+      "title_hint": "Abraham Lincoln, Republican candidate for president of the United States",
+      "country": "United States",
+      "reason": "missing purification entry"
+    },
+    {
+      "corpus_id": "sq1-2026-05-19-gusman-justice-vengeance-003",
+      "url": "https://www.britishmuseum.org/collection/object/P_1878-0713-2311",
+      "title_hint": "La Justice et la Vengeance Divine poursuivant le Crime",
+      "country": "France",
+      "reason": "missing purification entry"
+    },
+    {
+      "corpus_id": "sq1-2026-05-19-inger-liberty-004",
+      "url": "https://www.loc.gov/pictures/item/2003689287/",
+      "title_hint": "Liberty. \"Liberty brings to the earth justice and peace\"",
+      "country": "United States",
+      "reason": "missing purification entry"
+    },
+    {
+      "corpus_id": "sq1-2026-05-19-kimmel-outbreak-007",
+      "url": "https://www.loc.gov/item/2004665366/",
+      "title_hint": "The outbreak of the rebellion in the United States 1861",
+      "country": "United States",
+      "reason": "missing purification entry"
+    },
+    {
+      "corpus_id": "sq1-2026-05-19-traubel-triumph-006",
+      "url": "https://www.loc.gov/pictures/item/2004665350/",
+      "title_hint": "Triumph",
+      "country": "United States",
+      "reason": "missing purification entry"
+    },
+    {
+      "corpus_id": "sq2-2026-05-19-alegoria-lei-aurea-villares-004",
+      "url": "https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica/",
+      "title_hint": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
+      "country": "Brazil",
+      "reason": "missing purification entry"
+    },
+    {
+      "corpus_id": "sq2-2026-05-19-republica-manoel-lopes-rodrigues-003",
+      "url": "https://artsandculture.google.com/asset/a-rep%C3%BAblica-manoel-lopes-rodrigues/AQGV9DG4UbJnBg",
+      "title_hint": "A República",
+      "country": "Brazil",
+      "reason": "missing purification entry"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://open.smk.dk/artwork/image/KKS2296",
+      "title_hint": "\"Justitia\"",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://www.portinari.org.br/acervo/obras/18112/a-justica-de-salomao",
+      "title_hint": "A Justiça de Salomão",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://eliseuvisconti.com.br/obra/p332/",
+      "title_hint": "A Providência guia Cabral",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://museudarepublica.museus.gov.br/publicacoes/",
+      "title_hint": "A República (estudo para escultura/bandeira)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica-14/",
+      "title_hint": "Alegoria da Exposição Internacional do Centenário da Independência de 1922",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://mnba.gov.br/",
+      "title_hint": "Alegoria à República (Décio Villares — conjunto positivista)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://smb.museum-digital.de/object/140722",
+      "title_hint": "Allegorie der irdischen und göttlichen Gerechtigkeit — Sebastian Loscher, Augsburg 1536",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://sammlungenonline.albertina.at/objects/546636/allegorische-figur-justitia-gerechtigkeit",
+      "title_hint": "Allegorische Figur: Justitia (Gerechtigkeit)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://www.portinari.org.br/en/archive/artwork/20463/gustavo-capanema-palace-economic-cycles",
+      "title_hint": "Ciclos Econômicos (conjunto de afrescos do Palácio Gustavo Capanema)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://www2.senado.leg.br/bdsf/item/id/227311",
+      "title_hint": "Codigo criminal do imperio do Brazil: annotado com leis, decretos, jurisprudencia dos tribunaes do paiz e avisos do gove",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://artsandculture.google.com/asset/compromisso-constitucional-aur%C3%A9lio-de-figueiredo/jAEuPLgSyN91zA",
+      "title_hint": "Compromisso Constitucional",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://www2.senado.leg.br/bdsf/item/id/221763",
+      "title_hint": "Código Criminal do Império do Brasil",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-10118.html",
+      "title_hint": "Código Penal chileno (1874) — edição original",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://museudarepublica.museus.gov.br/wp-content/uploads/2019/05/republica-em-documentos_jardim_web.pdf",
+      "title_hint": "Die Kämpfende Amazone (Caçada ao Jaguar)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb11255733",
+      "title_hint": "Emblemata D. A. Alciati — ed. Lyon 1550 (Rovilius)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://www.emblems.arts.gla.ac.uk/alciato/books.php?id=A31a",
+      "title_hint": "Emblematum liber — ed. Augsburg 1531 (1.ª ed.) [Alciato]",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://digi.ub.uni-heidelberg.de/diglit/ripa1669",
+      "title_hint": "Erneuerte Iconologia oder Bilder-Sprach — ed. Frankfurt 1669 (trad. alemã Strauß)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://eliseuvisconti.com.br/obra/a803/",
+      "title_hint": "Ex-libris da Biblioteca Nacional (A Mulher-Biblioteca)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://digi.ub.uni-heidelberg.de/diglit/ripa1613bd1",
+      "title_hint": "Iconologia Di Cesare Ripa Pervgino — ed. Siena 1613 (Bd. 1)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://digi.ub.uni-heidelberg.de/diglit/ripa1603",
+      "title_hint": "Iconologia Overo Descrittione Di Diverse Imagini cauate dall'antichità, & di propria inuentione",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://digi.ub.uni-heidelberg.de/diglit/ripa1645",
+      "title_hint": "Iconologia di Cesare Ripa: divisa in tre libri — ed. Veneza 1645",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb11216093",
+      "title_hint": "Iconologia, overo descrittione di diverse imagini cauate dall'antichità, & di propria inuentione — ed. Roma 1603 (MDZ/Au",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://archive.org/details/ideadeunprincipe42saav",
+      "title_hint": "Idea de un principe politico christiano, rapresentada en cien empresas — ed. Monaco/Milão 1643",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://collections.vam.ac.uk/item/O762603/the-virtues-engraving-unknown/",
+      "title_hint": "Iustitia (from the series The Virtues)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://open.smk.dk/artwork/image/KKSgb4097",
+      "title_hint": "Justitia",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://open.smk.dk/artwork/image/KKSgb4863",
+      "title_hint": "Justitia",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://www.rijksmuseum.nl/en/collection/RP-P-1970-232",
+      "title_hint": "Justitia beschermt Onschuld tegen Misdaad",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://www.museodelprado.es/en/the-collection/art-work/truth-has-died/8c3b0257-606f-4d0b-af9e-73f05de59697",
+      "title_hint": "La verdad ha muerto (Truth has died)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb11255734",
+      "title_hint": "Omnia Andreae Alciati Emblemata — ed. Antuérpia 1577 (Plantin)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://museudarepublica.museus.gov.br/a-patria/",
+      "title_hint": "Pátria",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://open.smk.dk/artwork/image/KKS7314e",
+      "title_hint": "Retfærdighed (Justitia)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://open.smk.dk/artwork/image/KKSgb5598",
+      "title_hint": "Siddende Justitia",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://open.smk.dk/artwork/image/KKSgb7580",
+      "title_hint": "Siddende Justitia (Studie efter figur i Sala di Costantino, Vatikanet, Rom)",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://www.digitale-sammlungen.de/en/details/bsb00028235",
+      "title_hint": "Symbolorum & emblematum ex volatilibus et insectis desumtorum centuria tertia — Camerarius, Nuremberg 1596",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://open.smk.dk/artwork/image/KKS6276",
+      "title_hint": "Titelblad: \"Justitia\"",
+      "country": "",
+      "reason": "no corpus id assigned"
+    },
+    {
+      "corpus_id": "",
+      "url": "https://open.smk.dk/artwork/image/KKSgb4255",
+      "title_hint": "Udkast til Retfærdighedsrelieffet på Frihedsstøtten",
+      "country": "",
+      "reason": "no corpus id assigned"
+    }
+  ]
+}
