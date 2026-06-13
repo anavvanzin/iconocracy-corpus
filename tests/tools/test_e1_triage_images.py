@@ -26,7 +26,7 @@ def _record(item_id="uuid-1", url="https://ex.org/item1", title="Marianne"):
 
 def test_find_sigla_via_corpus_url_map():
     rec = _record()
-    url_map = {"https://ex.org/item1": {"id": "FR-013", "url": "https://ex.org/item1"}}
+    url_map = {"https://ex.org/item1": "FR-013"}  # url -> sigla (dict[str, str])
     assert find_sigla(rec, url_map) == "FR-013"
 
 
@@ -77,7 +77,7 @@ def test_build_worklist_local_beats_url(tmp_path):
     note_dir = tmp_path / "vault"
     note_dir.mkdir()
     (note_dir / "FR-013 X.md").write_text("[imagem](https://img.ex/13.jpg)")
-    url_map = {"https://ex.org/item1": {"id": "FR-013"}}
+    url_map = {"https://ex.org/item1": "FR-013"}  # url -> sigla (dict[str, str])
     work, excl = build_worklist(
         [_record()], url_map, [tmp_path], note_dir, head_check=False)
     assert len(work) == 1 and not excl
