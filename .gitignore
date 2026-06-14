@@ -103,7 +103,7 @@ data/staging/vault-drafts-lpai-v2/
 tese/compilacao-*/
 
 # Cloudflare local state (contains account IDs, geolocation, binary blobs)
-.wrangler/
+**/.wrangler/
 
 # Firebase debug logs (contain email, billing IDs)
 firebase-debug.log
