@@ -123,7 +123,7 @@ ul.clean li::before { content:""; position:absolute; left:0; top:.62em; width:.5
 .plate .caption .ttl { font-family: var(--serif); font-style: italic; font-size:clamp(.98rem,1.7vw,1.3rem); color: var(--ivory); line-height:1.12; }
 .plate .caption .meta { font-family: var(--mono); font-size: var(--small-size); color: var(--ivory-dim); letter-spacing:.03em; }
 .plate.win { border-color: var(--bronze); }
-.plate-img { width:100%; height:100%; object-fit: cover; max-height:30vh; }
+.plate-img { width:100%; height:100%; min-height:clamp(4.5rem,16vh,11rem); max-height:32vh; object-fit: cover; display:block; }
 
 .spectrum { display:grid; grid-template-columns:repeat(4,1fr); gap:clamp(.5rem,1.2vw,1rem); position:relative; }
 .spectrum::before { content:""; position:absolute; left:4%; right:4%; top:1.1em; height:2px; background: linear-gradient(90deg, var(--verdigris), var(--bronze) 60%, var(--oxblood)); opacity:.5; }
@@ -390,12 +390,18 @@ ul.clean li::before { content:""; position:absolute; left:0; top:.62em; width:.5
     <div class="slide-content">
       <p class="eyebrow reveal">Conceito 3 &nbsp;·&nbsp; o efeito racial</p>
       <h2 class="reveal" style="--i:1">Contrato Racial Visual</h2>
-      <p class="lead reveal" style="--i:2; max-width:60ch">A alegoria “universal” é constitutivamente <strong>branca</strong>. O neoclassicismo opera como <em>tecnologia de branqueamento</em>.</p>
-      <div class="grid reveal" style="--i:3; grid-template-columns:1fr 1fr; gap:1.1rem; margin-top:.2rem">
-        <div class="card"><h3>Universalização branqueada</h3><p class="dim">Villares, <em>Alegoria da República</em> (1889): um corpo branco, marmóreo — <span class="gold">“que inexiste no Brasil do século XIX”</span>, país recém-abolicionista. O corpo branco é <em>condição de operabilidade</em>, não preferência estética.</p></div>
-        <div class="card"><h3>Autorização paternalística</h3><p class="dim">Congo Belga: o corpo negro é incluído só como criança tutelada — <span class="gold">“a mãe é europeia, o filho é africano”</span>. A purificação vira <em>privilégio racial</em>.</p></div>
+      <p class="lead reveal dim" style="--i:2; max-width:64ch">A alegoria “universal” é constitutivamente <strong>branca</strong> — o neoclassicismo como <em>tecnologia de branqueamento</em>.</p>
+      <div class="two-col reveal" style="--i:3; gap:clamp(.9rem,2.4vw,1.8rem); margin-top:.1rem">
+        <div class="plate win">
+          <div class="visual" style="padding:0"><img class="plate-img" src="assets/villares-republica.jpg" alt="Décio Villares — A República"></div>
+          <div class="caption"><span class="ttl">Villares, <em>A República</em></span><span class="meta">BR · um corpo branco “que inexiste no Brasil do séc. XIX”</span></div>
+        </div>
+        <div class="plate">
+          <div class="visual" style="padding:0"><img class="plate-img" src="assets/congo-100f-1912.jpg" alt="Nota de 100 francos do Banco do Congo Belga (1912)"></div>
+          <div class="caption"><span class="ttl">100 francos · Congo Belge (1912)</span><span class="meta">BE · “a mãe é europeia, o filho é africano”</span></div>
+        </div>
       </div>
-      <blockquote class="reveal" style="--i:4; font-size:clamp(.95rem,1.8vw,1.3rem); max-width:50ch; margin-top:.2rem">
+      <blockquote class="reveal" style="--i:4; font-size:clamp(.92rem,1.7vw,1.25rem); max-width:54ch; margin-top:.1rem">
         Antes que o decreto colonial declare a menoridade do indígena, o bilhete de banco já o mostra como menor.
       </blockquote>
     </div>
@@ -558,8 +564,8 @@ ul.clean li::before { content:""; position:absolute; left:0; top:.62em; width:.5
           </div>
         </div>
         <div class="plate">
-          <div class="visual"><span class="sigil it">A Liberté<small>francesa · barricada · cidade em chamas</small></span></div>
-          <div class="caption"><span class="ttl">Liberté revolucionária</span><span class="meta">FR · estampa · c.1848 · regime fundacional</span>
+          <div class="visual" style="padding:0"><img class="plate-img" src="assets/moitte-liberte-1792.jpg" alt="Moitte — A Liberdade (1792)"></div>
+          <div class="caption"><span class="ttl">Liberté revolucionária</span><span class="meta">FR · Moitte · 1792 · regime fundacional</span>
             <div class="meter"><span class="cap">end.</span><span class="track"><span class="fill" style="--v:0.8"></span></span><span class="val">~0.8</span></div>
           </div>
         </div>
@@ -578,13 +584,13 @@ ul.clean li::before { content:""; position:absolute; left:0; top:.62em; width:.5
       <p class="eyebrow reveal">Caso 2 &nbsp;·&nbsp; Marianne — da barricada ao busto</p>
       <div class="two-col reveal" style="--i:1; gap:clamp(.9rem,2.4vw,1.8rem)">
         <div class="plate">
-          <div class="visual"><span class="sigil it">Delacroix<small>corpo vivo · em marcha · seios nus</small></span></div>
+          <div class="visual" style="padding:0"><img class="plate-img" src="assets/delacroix-liberte.jpg" alt="Delacroix — A Liberdade guiando o povo (1830)"></div>
           <div class="caption"><span class="ttl">A Liberdade guiando o povo</span><span class="meta">FR · pintura · 1830 · fundacional</span>
             <div class="meter"><span class="cap">end.</span><span class="track"><span class="fill" style="--v:0.6"></span></span><span class="val">~0.6</span></div>
           </div>
         </div>
         <div class="plate win">
-          <div class="visual"><span class="sigil">O busto<small>rosto + barrete + ombros · em 36.000 <em>mairies</em></small></span></div>
+          <div class="visual" style="padding:0"><img class="plate-img" src="assets/marianne-busto.jpg" alt="Busto de Marianne numa mairie francesa"></div>
           <div class="caption"><span class="ttl">Marianne de prefeitura</span><span class="meta">FR · escultura serial · séc. XX · normativo</span>
             <div class="meter"><span class="cap">end.</span><span class="track"><span class="fill" style="--v:2.4"></span></span><span class="val">~2.4</span></div>
           </div>
@@ -642,10 +648,10 @@ ul.clean li::before { content:""; position:absolute; left:0; top:.62em; width:.5
         </div>
         <div class="reveal" style="--i:2">
           <p class="mono dim" style="font-size:var(--small-size); letter-spacing:.14em; margin-bottom:.5rem">A CONTRA-ALEGORIA &nbsp;·&nbsp; a prova por negação</p>
-          <div class="chips" style="margin-bottom:.6rem">
-            <span class="chip">Mme Anastasie · Gill 1874</span>
-            <span class="chip">Liberty is not Anarchy · Nast 1886</span>
-            <span class="chip">Looking Backward · Keppler 1893</span>
+          <div class="grid" style="grid-template-columns:repeat(3,1fr); gap:.5rem; margin-bottom:.55rem">
+            <div class="plate"><div class="visual" style="padding:0"><img class="plate-img" style="min-height:0; max-height:15vh" src="assets/gill-anastasie.jpg" alt="André Gill — Madame Anastasie (1874)"></div><div class="caption" style="padding:.35rem .5rem"><span class="meta">Gill · 1874</span></div></div>
+            <div class="plate"><div class="visual" style="padding:0"><img class="plate-img" style="min-height:0; max-height:15vh" src="assets/nast-liberty.jpg" alt="Thomas Nast — Liberty is not Anarchy (1886)"></div><div class="caption" style="padding:.35rem .5rem"><span class="meta">Nast · 1886</span></div></div>
+            <div class="plate"><div class="visual" style="padding:0"><img class="plate-img" style="min-height:0; max-height:15vh" src="assets/keppler-looking-backward.jpg" alt="Joseph Keppler — Looking Backward (1893)"></div><div class="caption" style="padding:.35rem .5rem"><span class="meta">Keppler · 1893</span></div></div>
           </div>
           <p class="dim" style="font-size:var(--small-size)">A sátira <strong>recusa</strong> a purificação: o corpo fica individual, sexuado, narrativo. Demonstra, por negação, o que o regime normativo suprime.</p>
         </div>

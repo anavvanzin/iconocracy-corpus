@@ -1,13 +1,19 @@
-# Imagens dos casos — opcional
+# Imagens dos casos
 
-O deck **já está apresentável sem nenhuma foto**: cada caso aparece como uma *placa de catálogo*
-tipográfica (nome da obra, autor, data, suporte, medidor de endurecimento). Isto é proposital —
-funciona offline e não depende de baixar binários para o repositório (ADR-001 mantém `data/raw/`
-sem binários; aqui em `assets/` você pode colocar imagens locais à vontade, mas elas **não** devem
-ir para `data/raw/`).
+**As imagens reais já estão embutidas** nos slides de caso (domínio público, redimensionadas
+para projeção, em `assets/`):
 
-Se quiser inserir as obras reais (recomendado para o impacto visual), siga a tabela.
-Todas são de **domínio público** (autor falecido há mais de 70 anos / publicação anterior a 1928).
+| Slide | Imagem | Proveniência |
+|---|---|---|
+| 11 — Contrato Racial Visual | `villares-republica.jpg` · `congo-100f-1912.jpg` | corpus ICONOCRACIA |
+| 18 — Bélgica 1848 (lado francês) | `moitte-liberte-1792.jpg` | corpus ICONOCRACIA |
+| 19 — Marianne | `delacroix-liberte.jpg` · `marianne-busto.jpg` | Wikimedia Commons |
+| 21 — Contra-alegoria | `gill-anastasie.jpg` · `nast-liberty.jpg` · `keppler-looking-backward.jpg` | Wikimedia Commons |
+
+O lado **belga** do slide 18 (Meganck, 1848) segue como placa tipográfica — não há boa fonte em
+domínio público localizada. Para **trocar ou adicionar** qualquer imagem, use a tabela de referência
+abaixo. Todas as obras são de **domínio público** (autor falecido há mais de 70 anos / anterior a 1928).
+Mantenha imagens em `assets/` — nunca em `data/raw/` (ADR-001).
 
 ## Como trocar uma placa por uma foto (2 min)
 

@@ -225,10 +225,10 @@
 
 ## 🖼️ Imagens (opcional — ver `assets/IMAGENS.md`)
 
-O deck foi desenhado para funcionar **sem fotos**, com placas tipográficas de catálogo — então já está
-apresentável. Se quiser inserir as imagens reais (Marianne de Delacroix, busto, Justitia, Villares, etc.),
-`assets/IMAGENS.md` traz a lista de obras, as fontes de domínio público (Gallica, Wikimedia, LOC) e como
-trocar uma placa por uma foto em 2 minutos.
+As **imagens reais já estão embutidas** nos slides de caso (11, 18, 19, 21): Delacroix, busto de Marianne,
+Villares *A República*, nota de 100 francos do Congo Belge, e Gill/Nast/Keppler na contra-alegoria.
+A versão `index.html` carrega de `assets/`; a versão **single-file** que você recebeu traz tudo embutido
+(abre em qualquer lugar, offline). Para trocar/adicionar imagens: `assets/IMAGENS.md`.
 
 ## ⚠️ Antes de apresentar
 - Teste o `index.html` no navegador e projetor **antes** (resolução do projetor pode cortar; o layout se
