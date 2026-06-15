@@ -250,7 +250,7 @@
   "url": "https://collections.museumsvictoria.com.au/items/77020",
   "image_source": "local",
   "path_or_url": "/Users/ana/Research/hub/iconocracy-corpus/binaries/Images-reacquired-2026-06-09/UK-FLORIN-1902.jpg",
-  "status": "excluded_bad_image"
+  "status": "done"
  },
  {
   "item_id": "770a84be-5b28-5813-9d68-d106217bf754",
@@ -261,7 +261,7 @@
   "url": "https://www.museos.gub.uy/index.php/component/k2/item/1550-juan-manuel-blanes-1830-1901",
   "image_source": "local",
   "path_or_url": "/Users/ana/Research/hub/iconocracy-corpus/binaries/Images-reacquired-2026-06-09/UY-001.jpg",
-  "status": "excluded_bad_image"
+  "status": "done"
  },
  {
   "item_id": "7f8956d2-52b7-5223-a1bf-7e1cb6efbf10",
@@ -371,7 +371,7 @@
   "url": "https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/",
   "image_source": "local",
   "path_or_url": "/Users/ana/Research/hub/iconocracy-corpus/binaries/Images-reacquired-2026-06-09/BR-006.png",
-  "status": "excluded_bad_image"
+  "status": "done"
  },
  {
   "item_id": "b3c337eb-c85f-50c8-a44a-dbbbd0892aa6",
@@ -459,7 +459,7 @@
   "url": "https://www.gutenberg.org/files/59801/59801-h/59801-h.htm",
   "image_source": "local",
   "path_or_url": "/Users/ana/Research/hub/iconocracy-corpus/binaries/Images-reacquired-2026-06-09/UK-010.jpg",
-  "status": "excluded_bad_image"
+  "status": "done"
  },
  {
   "item_id": "dd51d863-1ede-5fe6-b955-263ef8922bd5",
@@ -536,7 +536,7 @@
   "url": "https://www.dhm.de/lemo/bestand/objekt/gemaelde-friedrich-august-von-kaulbach-germania-1914",
   "image_source": "local",
   "path_or_url": "/Users/ana/Research/hub/iconocracy-corpus/binaries/Images-reacquired-2026-06-09/DE-013.jpg",
-  "status": "excluded_bad_image"
+  "status": "done"
  },
  {
   "item_id": "f7cb69ba-8837-54ba-af4c-f242f8c93ca4",
@@ -547,6 +547,6 @@
   "url": "https://www.bildindex.de/document/obj20608421",
   "image_source": "local",
   "path_or_url": "/Users/ana/Research/hub/iconocracy-corpus/binaries/Images-reacquired-2026-06-09/DE-008.jpg",
-  "status": "excluded_bad_image"
+  "status": "done"
  }
 ]

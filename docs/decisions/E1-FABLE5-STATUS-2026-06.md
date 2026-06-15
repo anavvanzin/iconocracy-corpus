@@ -8,7 +8,28 @@
 
 ---
 
-## 1. Funil (308 → 43 codificados)
+## 0. Atualização Stage A (2026-06-15) — reaquisição dos 7 motivos-núcleo
+
+Reaquiri imagens corretas (firecrawl scrape/search → download → **verificação visual item a item**) e recodifiquei via o mesmo Workflow iconocode. **6 de 7 recuperados:**
+
+| Sigla | Fonte nova | Regime |
+|---|---|---|
+| DE-013 Germania (Kaulbach) | DHM (imagem real, não o logo LeMO) | militar |
+| UK-FLORIN-1902 Britannia | Museum Victoria, **verso** correto | militar |
+| BR-006 Alegoria da República | Wikimedia Commons (MHN) | fundacional |
+| UY-001 El Altar de la Patria | Wikimedia Commons | fundacional |
+| UK-010 Two Forces (Britannia/Hibernia) | Wikimedia Commons (Punch 1881) | militar |
+| DE-008 Justitia (Hameln) | mittelweser-tourismus (close-up real) | normativo |
+
+Imagens em `binaries/Images-reacquired-2026-06-15/` (checkout principal).
+**BE-002 (Palais de Justice)** NÃO recuperado: é arquitetura forense; só há foto do prédio, não uma figura feminina única → DECISÃO PENDENTE (excluir como arquitetura-sem-figura, ou escolher uma estátua de Justice específica). Permanece `excluded_bad_image`.
+
+**Índice agora: 49 linhas · N analítico = 44** (era 38) + 5 fora_escopo.
+Regimes (N=44): normativo 21 · fundacional 13 · **militar 8** (era 5) · contra-alegoria 2.
+
+---
+
+## 1. Funil (308 → 43 codificados) — histórico pré-Stage A
 
 | Etapa | N | Observação |
 |---|---|---|

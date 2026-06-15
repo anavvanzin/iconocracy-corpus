@@ -2580,36 +2580,6 @@
   "checked_at": "2026-06-10T02:04:55.473056+00:00"
  },
  {
-  "item_id": "700336c2-ef11-516d-be98-f0b7b0b84913",
-  "sigla_id": "UK-FLORIN-1902",
-  "title": "1 Florin — Britannia Standing on Ship Prow (Edward VII)",
-  "place": "United Kingdom",
-  "url": "https://collections.museumsvictoria.com.au/items/77020",
-  "reason": "bad_image_reacquire",
-  "motivo": "Lado visivel e o anverso: efigie masculina do rei Eduardo VII (busto barbado de perfil, legenda EDWARDVS VII D:G: BRITT: OMN: REX). Nao ha alegoria feminina na face mostrada; a Britannia estaria no reverso, ausente nesta imagem.",
-  "checked_at": "2026-06-13T17:42:22.954660+00:00"
- },
- {
-  "item_id": "770a84be-5b28-5813-9d68-d106217bf754",
-  "sigla_id": "UY-001",
-  "title": "El Altar de la Patria",
-  "place": "Uruguay",
-  "url": "https://www.museos.gub.uy/index.php/component/k2/item/1550-juan-manuel-blanes-1830-1901",
-  "reason": "bad_image_reacquire",
-  "motivo": "Imagem e retrato fotografico de figura masculina sentada (homem de terno, bigode e barba), nao ha alegoria feminina com funcao juridico-politica.",
-  "checked_at": "2026-06-13T17:42:22.954660+00:00"
- },
- {
-  "item_id": "ad43ba55-c523-5f19-a667-0bd5872a9867",
-  "sigla_id": "BR-006",
-  "title": "Alegoria da República (Carlos Chambelland)",
-  "place": "Brazil",
-  "url": "https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/",
-  "reason": "bad_image_reacquire",
-  "motivo": "Imagem nao figurativa: padrao decorativo abstrato (formas geometricas amarelo-palido sobrepostas), sem figura alegorica feminina nem atributos juridicos. Provavel placeholder/asset corrompido, nao a pintura de Chambelland.",
-  "checked_at": "2026-06-13T17:42:22.954660+00:00"
- },
- {
   "item_id": "d77a533b-f4b7-5ea8-b61a-c7eb99b74b8c",
   "sigla_id": "BE-002",
   "title": "Palais de Justice de Bruxelles (Joseph Poelaert)",
@@ -2617,36 +2587,6 @@
   "url": "https://be-monumen.be/patrimoine-belge/poelaert-joseph/",
   "reason": "bad_image_reacquire",
   "motivo": "Retrato fotografico de estudio de homem idoso barbado de terno (efigie masculina, provavelmente o arquiteto Poelaert); nao ha alegoria feminina.",
-  "checked_at": "2026-06-13T17:42:22.954660+00:00"
- },
- {
-  "item_id": "dcf36d44-9c6d-5d40-a87f-de6c335cd552",
-  "sigla_id": "UK-010",
-  "title": "Two Forces — Britannia protecting Hibernia",
-  "place": "United Kingdom",
-  "url": "https://www.gutenberg.org/files/59801/59801-h/59801-h.htm",
-  "reason": "bad_image_reacquire",
-  "motivo": "Imagem e a capa do livro \"Cartoons by Sir John Tenniel\" (encadernacao azul com letras douradas e ornamento tipografico); nao mostra nenhuma figura alegorica feminina.",
-  "checked_at": "2026-06-13T17:42:22.954660+00:00"
- },
- {
-  "item_id": "f78e3dff-d7b9-5015-95a2-4075ecfd5709",
-  "sigla_id": "DE-013",
-  "title": "Germania",
-  "place": "Germany",
-  "url": "https://www.dhm.de/lemo/bestand/objekt/gemaelde-friedrich-august-von-kaulbach-germania-1914",
-  "reason": "bad_image_reacquire",
-  "motivo": "Imagem nao codificavel: o arquivo nao contem a obra \"Germania\" — exibe apenas um logotipo/placeholder (quadrado azul-ardosia com a palavra \"Lemo\" em branco, provavel marca do portal LeMO). Nao ha figura alegorica feminina nem qualquer iconografia. Falha de aquisicao da imagem; requer reacquisicao da fonte correta.",
-  "checked_at": "2026-06-13T17:42:22.954660+00:00"
- },
- {
-  "item_id": "f7cb69ba-8837-54ba-af4c-f242f8c93ca4",
-  "sigla_id": "DE-008",
-  "title": "Justitia (Hameln, Stiftsherrenhaus)",
-  "place": "Germany",
-  "url": "https://www.bildindex.de/document/obj20608421",
-  "reason": "bad_image_reacquire",
-  "motivo": "Fotografia de arquivo (Miesler 1934) documenta a FACHADA do Stiftsherrenhaus de Hameln, nao a alegoria. O relevo de Justitia (Wange direita do Beischlag) aparece apenas como detalhe escultorico minusculo, em sombra e indiscernivel; impossivel codificar a figura feminina com base visual.",
   "checked_at": "2026-06-13T17:42:22.954660+00:00"
  }
 ]
