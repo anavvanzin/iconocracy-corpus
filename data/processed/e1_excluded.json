@@ -2585,8 +2585,8 @@
   "title": "Palais de Justice de Bruxelles (Joseph Poelaert)",
   "place": "Belgium",
   "url": "https://be-monumen.be/patrimoine-belge/poelaert-joseph/",
-  "reason": "bad_image_reacquire",
-  "motivo": "Retrato fotografico de estudio de homem idoso barbado de terno (efigie masculina, provavelmente o arquiteto Poelaert); nao ha alegoria feminina.",
+  "reason": "pending_female_allegory",
+  "motivo": "Arquitetura forense (Palais de Justice de Bruxelles). Programa escultorico = legisladores/oradores MASCULINOS (Demostenes etc.) + edificio monumental; nenhuma alegoria feminina especifica do Palais encontrada em 2 buscas (2026-06-15). Decisao Ana: so codificar se achar figura aleg. feminina do conjunto. PENDENTE.",
   "checked_at": "2026-06-13T17:42:22.954660+00:00"
  }
 ]
