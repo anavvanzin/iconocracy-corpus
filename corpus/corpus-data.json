@@ -2,684 +2,764 @@
   {
     "url": "https://archive.org/details/ideadeunprincipe42saav",
     "title": "Idea de un principe politico christiano, rapresentada en cien empresas — ed. Monaco/Milão 1643",
-    "description": "",
-    "motif": [],
+    "description": "Edição combinada Monaco/Milão de 1643 das Empresas Políticas de Diego de Saavedra Fajardo, derivada da editio princeps de Munique (1640, Nicolao Enrico). A obra, composta de 101 empresas (emblemas tripartidos) endereçadas ao príncipe Baltasar Carlos, inclui referências explícitas a Iustitia como virtude régia essencial, afirmando que 'os príncipes decretam a justiça em nome de Deus'. Constitui o mais importante tratado emblemático espanhol de teoria política e jurídica do século XVII.",
+    "motif": [
+      "Iustitia",
+      "emblema político",
+      "espelho do príncipe",
+      "empresa política",
+      "alegoria da governança",
+      "espada",
+      "balança",
+      "virtude real"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801626+00:00",
-    "citation_abnt": "S",
-    "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
-  },
-  {
-    "url": "https://artsandculture.google.com/asset/a-rep%C3%BAblica-manoel-lopes-rodrigues/AQGV9DG4UbJnBg",
-    "title": "A República",
-    "description": "",
-    "motif": [],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-05T03:13:46.800094+00:00",
-    "citation_abnt": "R",
+    "citation_abnt": "SAAVEDRA FAJARDO, Diego de. *Idea de un principe politico christiano, rapresentada en cien empresas*. Monaco; Milão: [s.n.], 1643. Disponível em: https://archive.org/details/ideadeunprincipe42saav. Acesso em: 19 maio 2026.",
     "audit_flags": [
       "drive-import-2026-06-04"
-    ],
-    "tags_str": ""
+    ]
   },
   {
     "url": "https://artsandculture.google.com/asset/compromisso-constitucional-aur%C3%A9lio-de-figueiredo/jAEuPLgSyN91zA",
     "title": "Compromisso Constitucional",
-    "description": "",
-    "motif": [],
+    "description": "Pintura histórica de grande formato (330 × 257 cm) que representa o momento em que o Marechal Deodoro da Fonseca presta juramento à primeira Constituição Republicana do Brasil, em 26 de fevereiro de 1891. A obra, encomendada pelo governo, retrata diversos deputados constituintes e o presidente da Assembleia, Prudente de Moraes, conferindo-lhe caráter documental e iconográfico da institucionalização do direito republicano brasileiro.",
+    "motif": [
+      "constituição",
+      "juramento",
+      "república",
+      "direito",
+      "Deodoro da Fonseca",
+      "assembleia constituinte",
+      "ordem jurídica"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800046+00:00",
-    "citation_abnt": "F",
+    "citation_abnt": "FIGUEIREDO, Aurélio de. Compromisso Constitucional. 1896. Óleo sobre tela, 330 × 257 cm. Museu da República, Rio de Janeiro. Disponível em: https://artsandculture.google.com/asset/compromisso-constitucional-aur%C3%A9lio-de-figueiredo/jAEuPLgSyN91zA. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://collections.vam.ac.uk/item/O762603/the-virtues-engraving-unknown/",
     "title": "Iustitia (from the series The Virtues)",
-    "description": "",
-    "motif": [],
+    "description": "Gravura de cobre da série 'As Virtudes', com a legenda 'Iustitia', atribuída ao ambiente artístico flamengo, holandês ou italiano do final do século XVI – início do XVII. Uma de seis pranchas de uma série incompleta de sete virtudes. Dimensões: 84 × 52 mm aprox.",
+    "motif": [
+      "Iustitia",
+      "Justice",
+      "personification",
+      "virtue",
+      "scales",
+      "sword",
+      "engraving"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801047+00:00",
-    "citation_abnt": "D",
+    "citation_abnt": "DESCONHECIDO (Neerlandês/Flamengo/Italiano). Iustitia (série As Virtudes). ca. 1575-1625. Gravura de cobre, ca. 84 × 52 mm. Prints, Drawings & Paintings Collection, Victoria and Albert Museum, Londres. Número de acervo: E.393-1926. Disponível em: https://collections.vam.ac.uk/item/O762603/the-virtues-engraving-unknown/. Acesso em: 23 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://digi.ub.uni-heidelberg.de/diglit/ripa1603",
     "title": "Iconologia Overo Descrittione Di Diverse Imagini cauate dall'antichità, & di propria inuentione",
-    "description": "",
-    "motif": [],
+    "description": "Edição de 1603 da Iconologia de Cesare Ripa, publicada em Roma por Lepido Facio, obra fundamental para a codificação iconográfica da Justitia na arte europeia moderna. Contém a descrição e representação gravada da Iustitia com espada e balança. Digitalizado pela Universidade de Heidelberg com manifesto IIIF v2.1 e v3.0.",
+    "motif": [
+      "Justitia",
+      "Iustitia",
+      "allegory",
+      "personification",
+      "iconography",
+      "emblem book",
+      "Ripa",
+      "woodcut"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801085+00:00",
-    "citation_abnt": "R",
+    "citation_abnt": "RIPA, Cesare. Iconologia Overo Descrittione Di Diverse Imagini cauate dall'antichità, & di propria inuentione. Roma: Lepido Facio, 1603. Livro impresso com xilogravuras, 557 pp. Universitätsbibliothek Heidelberg. Disponível em: https://digi.ub.uni-heidelberg.de/diglit/ripa1603. Acesso em: 23 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://digi.ub.uni-heidelberg.de/diglit/ripa1603",
     "title": "Iconologia Overo Descrittione Di Diverse Imagini cauate dall'antichità, & di propria inuentione — ed. Roma 1603 (Heidelberg)",
-    "description": "",
-    "motif": [],
+    "description": "Exemplar da Universitätsbibliothek Heidelberg da primeira edição ilustrada da Iconologia de Cesare Ripa (Roma, 1603), contendo o tratado encadernado junto a texto de Imperiale Cinuzzi (1604). O registro Heidelberg possui DOI permanente e manifesto IIIF v2 e v3, tornando-o plenamente acessível para consulta iconográfica das personificações de Iustitia.",
+    "motif": [
+      "Iustitia",
+      "balança",
+      "espada",
+      "venda",
+      "Giustizia",
+      "personificação alegórica"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801270+00:00",
-    "citation_abnt": "R",
+    "citation_abnt": "RIPA, Cesare. *Iconologia Overo Descrittione Di Diverse Imagini cauate dall'antichità, & di propria inuentione*. Roma: Appresso Lepido Facij, 1603. Disponível em: https://digi.ub.uni-heidelberg.de/diglit-data/iiif/ripa1603/manifest.json. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://digi.ub.uni-heidelberg.de/diglit/ripa1613bd1",
     "title": "Iconologia Di Cesare Ripa Pervgino — ed. Siena 1613 (Bd. 1)",
-    "description": "",
-    "motif": [],
+    "description": "Edição de Siena (1613) da Iconologia de Ripa, em dois volumes, com ampliação das entradas iconográficas em relação à editio princeps de 1603. Nesta versão, a entrada 'Giustitia' com venda nos olhos é explicitamente comentada como aquela 'exercitada no tribunal dos juízes e executores seculares', estabelecendo o paralelo entre atributo alegórico e prática jurídica. O exemplar de Heidelberg possui manifesto IIIF.",
+    "motif": [
+      "Iustitia",
+      "balança",
+      "espada",
+      "venda",
+      "virtudes",
+      "vícios",
+      "alegorias morais",
+      "personificação feminina"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801325+00:00",
-    "citation_abnt": "R",
+    "citation_abnt": "RIPA, Cesare. *Iconologia Di Cesare Ripa Pervgino Cav.re De S.ti Mavritio, E Lazzaro*. Siena: [s.n.], 1613. v. 1. Disponível em: https://digi.ub.uni-heidelberg.de/diglit-data/iiif/ripa1613bd1/manifest.json. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://digi.ub.uni-heidelberg.de/diglit/ripa1645",
     "title": "Iconologia di Cesare Ripa: divisa in tre libri — ed. Veneza 1645",
-    "description": "",
-    "motif": [],
+    "description": "Edição veneziana de 1645 da Iconologia de Ripa, organizada em três livros por Giovanni Zaratino Castellini, constitui uma das versões mais completas do repertório iconográfico renascentista das virtudes. Apresenta sistematicamente as personificações de Iustitia com variados atributos — balança, espada e venda — estabelecendo o cânone visual que influenciará a iconografia jurídica do Barroco tardio.",
+    "motif": [
+      "Iustitia",
+      "balança",
+      "espada",
+      "venda",
+      "Themis",
+      "virtudes cardinais",
+      "Gerechtigkeit",
+      "personificação feminina"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801367+00:00",
-    "citation_abnt": "R",
+    "citation_abnt": "RIPA, Cesare. *Iconologia di Cesare Ripa: divisa in tre libri ne i quali si esprimono varie imagini di virtù, vitii, affetti, passioni humane, arti*. Veneza: [s.n.], 1645. Ed. de Giovanni Zaratino Castellini. Disponível em: https://digi.ub.uni-heidelberg.de/diglit-data/iiif/ripa1645/manifest.json. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://digi.ub.uni-heidelberg.de/diglit/ripa1669",
     "title": "Erneuerte Iconologia oder Bilder-Sprach — ed. Frankfurt 1669 (trad. alemã Strauß)",
-    "description": "",
-    "motif": [],
+    "description": "Primeira tradução alemã da Iconologia de Ripa (título: 'Erneuerte Iconologia oder Bilder-Sprach'), publicada em Frankfurt am Main em 1669 por Lorenz Strauß. A versão alemã adapta o programa iconográfico de Ripa ao contexto do Sacro Império Romano-Germânico, sendo fundamental para compreender a difusão da alegoria da Gerechtigkeit (Justiça) na arte e na teoria jurídica do Barroco alemão.",
+    "motif": [
+      "Gerechtigkeit",
+      "Iustitia",
+      "balança",
+      "espada",
+      "venda",
+      "personificação feminina",
+      "Tugenden",
+      "alegorias barrocas alemãs"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801414+00:00",
-    "citation_abnt": "R",
+    "citation_abnt": "RIPA, Cesare. *Erneuerte Iconologia oder Bilder-Sprach*. Trad. Lorenz Strauß. Frankfurt am Main: [s.n.], 1669. Bd. 1. Disponível em: https://digi.ub.uni-heidelberg.de/diglit-data/iiif/ripa1669/manifest.json. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://eliseuvisconti.com.br/obra/a803/",
     "title": "Ex-libris da Biblioteca Nacional (A Mulher-Biblioteca)",
-    "description": "",
-    "motif": [],
+    "description": "Ex-libris criado por Eliseu Visconti em 1903 para a Biblioteca Nacional do Rio de Janeiro, ainda em uso atualmente. A composição central mostra 'A Mulher-Biblioteca' de perfil: figura feminina de cabelos fartos presos em coque de íris (símbolo entre deuses e homens), folheando um livro aberto sobre balcão, com globo terrestre ao centro. A alegoria feminina da Biblioteca relaciona-se diretamente com a tradição iconográfica das virtudes e das musas.",
+    "motif": [
+      "alegoria feminina",
+      "biblioteca",
+      "mulher leitora",
+      "íris",
+      "globo terrestre",
+      "livro",
+      "escrita",
+      "sabedoria"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800303+00:00",
-    "citation_abnt": "V",
+    "citation_abnt": "VISCONTI, Eliseu. Ex-libris da Biblioteca Nacional. 1903. Desenho, tinta. Biblioteca Nacional, Rio de Janeiro. Projeto Eliseu Visconti, A803. Disponível em: https://eliseuvisconti.com.br/obra/a803/. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://eliseuvisconti.com.br/obra/p332/",
     "title": "A Providência guia Cabral",
-    "description": "",
-    "motif": [],
+    "description": "Pintura de Eliseu Visconti representando a figura alegórica da Providência guiando Pedro Álvares Cabral nas costas do Brasil em 1500. A obra, pertencente à Pinacoteca de São Paulo (transferida pelo Museu Paulista em 1947/48), integra a tradição das grandes alegorias femininas da história nacional brasileira, com a figura feminina celestial como guia e protetora da nação nascente. Relaciona-se iconograficamente com a tradição das virtudes cardinais e das musas.",
+    "motif": [
+      "Providência",
+      "alegoria feminina",
+      "Cabral",
+      "descobrimento",
+      "figura alada",
+      "história do Brasil",
+      "nação"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800459+00:00",
-    "citation_abnt": "V",
+    "citation_abnt": "VISCONTI, Eliseu. A Providência guia Cabral. [1900]. Óleo sobre tela. Pinacoteca do Estado de São Paulo, São Paulo. Projeto Eliseu Visconti, P332. Disponível em: https://eliseuvisconti.com.br/obra/p332/. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica-14/",
     "title": "Alegoria da Exposição Internacional do Centenário da Independência de 1922",
-    "description": "",
-    "motif": [],
+    "description": "Pintura alegórica em formato de trompe l'oeil com recorte em buraco de fechadura, mostrando figura feminina alada em veste fluida clara segurando bandeiras do Brasil e dos Estados Unidos. A obra foi encomendada para homenagear o pavilhão americano na Exposição Internacional do Centenário da Independência do Brasil (1922), evento que marcou a fundação do MHN. Assinada 'Décio Villares / 1922'. Mede 105 × 74,5 cm.",
+    "motif": [
+      "alegoria feminina",
+      "figura alada",
+      "bandeira nacional",
+      "República",
+      "centenário",
+      "independência"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800136+00:00",
-    "citation_abnt": "V",
+    "citation_abnt": "VILLARES, Décio Rodrigues. Alegoria da Exposição Internacional do Centenário da Independência de 1922. 1922. Óleo sobre tela, 105 × 74,5 cm. Museu Histórico Nacional, Rio de Janeiro. Nº de registro 310906. Disponível em: https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica-14/. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://mnba.gov.br/",
     "title": "Alegoria à República (Décio Villares — conjunto positivista)",
-    "description": "",
-    "motif": [],
+    "description": "Obra alegórica de Décio Rodrigues Villares do acervo do Museu Nacional de Belas Artes do Rio de Janeiro, parte do conjunto de pinturas e esculturas positivistas que o artista produziu durante a Primeira República brasileira. Villares foi o principal articulador visual do imaginário republicano positivista, sendo responsável por imagens de Tiradentes como mártir nacional, de Benjamin Constant como herói republicano, e de alegorias femininas da República com barrete frígio. Suas obras no MNBA integram o corpus da iconografia jurídica e republicana brasileira do período 1889–1930.",
+    "motif": [
+      "República",
+      "alegoria feminina",
+      "positivismo",
+      "Tiradentes",
+      "Benjamin Constant",
+      "liberdade",
+      "barrete frígio"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800538+00:00",
-    "citation_abnt": "V",
+    "citation_abnt": "VILLARES, Décio Rodrigues. Alegoria à República [conjunto de obras do MNBA]. [1890-1910]. Óleo sobre tela. Museu Nacional de Belas Artes, Rio de Janeiro. Disponível em: https://mnba.gov.br/. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://museudarepublica.museus.gov.br/a-patria/",
     "title": "Pátria",
-    "description": "",
-    "motif": [],
+    "description": "Alegoria monumental pintada por Pedro Bruno em 1919, retratando um grupo de mulheres costurando a primeira Bandeira da República Brasileira. A cena doméstica funciona como símbolo positivista do nascimento da nação republicana, com a figura central de uma criança segurando a bandeira iluminada intensamente. Ao fundo aparecem mártires nacionais: Tiradentes, Marechal Deodoro da Fonseca e Benjamin Constant.",
+    "motif": [
+      "República",
+      "alegoria feminina",
+      "bandeira nacional",
+      "Marianne",
+      "pátria",
+      "mulheres costurando"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800008+00:00",
-    "citation_abnt": "B",
+    "citation_abnt": "BRUNO, Pedro. Pátria. 1919. Óleo sobre tela, 190 × 278 cm. Museu da República, Rio de Janeiro. Disponível em: https://museudarepublica.museus.gov.br/a-patria/. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://museudarepublica.museus.gov.br/publicacoes/",
     "title": "A República (estudo para escultura/bandeira)",
-    "description": "",
-    "motif": [],
+    "description": "Décio Villares foi o responsável pelo projeto da Bandeira da República Brasileira com o dístico 'Ordem e Progresso', além de ter pintado e esculpido diversas alegorias republicanas ao longo de sua carreira. Este conjunto de obras inclui imagens de Benjamin Constant e Tiradentes como alegorias cívicas. Os trabalhos de Villares são referências centrais da iconografia republicana brasileira da Primeira República (1889–1930) e integram os acervos do Museu da República, MNBA e Museu Casa de Benjamin Constant.",
+    "motif": [
+      "República",
+      "bandeira nacional",
+      "ordem e progresso",
+      "alegoria",
+      "positivismo",
+      "Décio Villares"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800421+00:00",
-    "citation_abnt": "V",
+    "citation_abnt": "VILLARES, Décio Rodrigues. A República [conjunto de estudos e obras alegóricas]. 1889-1931. Museu da República; Museu Nacional de Belas Artes; Museu Casa de Benjamin Constant, Rio de Janeiro. Disponível em: https://museudarepublica.museus.gov.br/publicacoes/. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://museudarepublica.museus.gov.br/wp-content/uploads/2019/05/republica-em-documentos_jardim_web.pdf",
     "title": "Die Kämpfende Amazone (Caçada ao Jaguar)",
-    "description": "",
-    "motif": [],
+    "description": "Escultura de uma Amazona semi-nua sobre cavalo, usando capuz identificado como similar ao barrete frígio, símbolo da República e da liberdade. A figura feminina, lança em punho atacando um jaguar/onça, é interpretada no contexto do Palácio do Catete como 'Marianne guerreira', representando a luta pelos direitos democráticos e das mulheres. Fabricada por M. Geiß em Berlim a partir do modelo original de August Kiss (1843), a escultura tem 1,60 × 1,15 m e integra o vestíbulo do Palácio do Catete desde os anos 1860.",
+    "motif": [
+      "Amazona",
+      "barrete frígio",
+      "República",
+      "liberdade",
+      "Marianne",
+      "figura equestre feminina",
+      "jaguar",
+      "alegoria feminina"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800496+00:00",
-    "citation_abnt": "K",
+    "citation_abnt": "KISS, August (escultor); GEIBT, M. (fundição). Die Kämpfende Amazone (Caçada ao Jaguar). 1843/[1860]. Metal (zinco), 1,60 × 1,15 m. Museu da República (Palácio do Catete), Rio de Janeiro. In: MUSEU DA REPÚBLICA. Coleção de Alegorias. Rio de Janeiro: Ibram, 2013. Disponível em: https://museudarepublica.museus.gov.br/publicacoes/. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://open.smk.dk/artwork/image/KKS2296",
     "title": "\"Justitia\"",
-    "description": "",
-    "motif": [],
+    "description": "Água-forte dinamarquesa do final do século XIX representando a alegoria da Justitia, de autoria de Hans Nikolaj Hansen. Pertence ao Gabinete Real de Desenho e Gravura do SMK de Copenhague. Dimensões: 120 × 81 mm.",
+    "motif": [
+      "Justitia",
+      "allegory of justice",
+      "personification",
+      "etching"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800700+00:00",
-    "citation_abnt": "H",
+    "citation_abnt": "HANSEN, Hans Nikolaj. Justitia. ca. 1884-1897. Água-forte, 120 × 81 mm. Den Kongelige Kobberstiksamling, SMK – Statens Museum for Kunst, Copenhague. Disponível em: https://open.smk.dk/artwork/image/KKS2296. Acesso em: 23 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://open.smk.dk/artwork/image/KKS6276",
     "title": "Titelblad: \"Justitia\"",
-    "description": "",
-    "motif": [],
+    "description": "Água-forte dinamarquesa de 1783 com a figura da Justitia como ilustração de frontispício para a publicação 'Love for det Venskabelige Selskab'. Obra do gravador Georg Fahrenholtz, 161 × 102 mm, parte do Gabinete Real de Desenho e Gravura do SMK.",
+    "motif": [
+      "Justitia",
+      "allegory of justice",
+      "title page",
+      "etching",
+      "personification"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800819+00:00",
-    "citation_abnt": "F",
+    "citation_abnt": "FAHRENHOLTZ, Georg. Titelblad: \"Justitia\". 1783. Água-forte, 161 × 102 mm. Den Kongelige Kobberstiksamling, SMK – Statens Museum for Kunst, Copenhague. Disponível em: https://open.smk.dk/artwork/image/KKS6276. Acesso em: 23 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://open.smk.dk/artwork/image/KKS7314e",
     "title": "Retfærdighed (Justitia)",
-    "description": "",
-    "motif": [],
+    "description": "Desenho a pena com tinta castanha e lavagem de Hendrick Goltzius, datado de 1592, representando a Justiça (Retfærdighed/Justitia) em técnica virtuosa característica do maneirismo holandês. Dimensões: 324 × 164 mm. Peça de destaque da coleção do Gabinete Real do SMK.",
+    "motif": [
+      "Justitia",
+      "Retfærdighed",
+      "justice",
+      "personification",
+      "pen drawing",
+      "Goltzius"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800890+00:00",
-    "citation_abnt": "G",
+    "citation_abnt": "GOLTZIUS, Hendrick. Retfærdighed (Justitia). 1592. Pena com tinta castanha e lavagem sobre papel, 324 × 164 mm. Den Kongelige Kobberstiksamling, SMK – Statens Museum for Kunst, Copenhague. Disponível em: https://open.smk.dk/artwork/image/KKS7314e. Acesso em: 23 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://open.smk.dk/artwork/image/KKSgb4097",
     "title": "Justitia",
-    "description": "",
-    "motif": [],
+    "description": "Desenho a lápis, pena e tinta castanha de Nicolai Abildgaard representando a figura alegórica da Justitia, provavelmente esboço preparatório para uma composição maior. Obra da coleção do Gabinete Real de Desenho e Gravura da Dinamarca.",
+    "motif": [
+      "Justitia",
+      "allegory of justice",
+      "scales",
+      "sword",
+      "personification"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800631+00:00",
-    "citation_abnt": "A",
+    "citation_abnt": "ABILDGAARD, Nicolai. Justitia. ca. 1780-1800. Desenho (lápis, pena e tinta castanha sobre papel), 189 × 322 mm. Den Kongelige Kobberstiksamling, SMK – Statens Museum for Kunst, Copenhague. Disponível em: https://open.smk.dk/artwork/image/KKSgb4097. Acesso em: 23 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://open.smk.dk/artwork/image/KKSgb4255",
     "title": "Udkast til Retfærdighedsrelieffet på Frihedsstøtten",
-    "description": "",
-    "motif": [],
+    "description": "Esboço preparatório de Nicolai Abildgaard para o relevo da Justiça (Retfærdighed) na Coluna da Liberdade (Frihedsstøtten) de Copenhague, a lápis e pena com tinta castanha, 162 × 161 mm. Relaciona-se diretamente com a escultura pública comemorativa da abolição da servidão (1792).",
+    "motif": [
+      "Justitia",
+      "Retfærdighed",
+      "Justice relief",
+      "Frihedsstøtten",
+      "allegory",
+      "preparatory drawing"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801012+00:00",
-    "citation_abnt": "A",
+    "citation_abnt": "ABILDGAARD, Nicolai. Udkast til Retfærdighedsrelieffet på Frihedsstøtten. ca. 1792-1797. Lápis, pena e tinta castanha sobre papel, 162 × 161 mm. Den Kongelige Kobberstiksamling, SMK – Statens Museum for Kunst, Copenhague. Disponível em: https://open.smk.dk/artwork/image/KKSgb4255. Acesso em: 23 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://open.smk.dk/artwork/image/KKSgb4863",
     "title": "Justitia",
-    "description": "",
-    "motif": [],
+    "description": "Desenho do século XVII no círculo de Jacob Matham e Hendrick Goltzius representando a Justitia em pé, técnica mista com giz preto, pena, tinta e lavagem cinza sobre papel preparado, dimensões 312 × 214 mm. Pertence ao Gabinete Real de Desenho e Gravura do SMK.",
+    "motif": [
+      "Justitia",
+      "allegory of justice",
+      "scales",
+      "personification",
+      "standing figure"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800741+00:00",
-    "citation_abnt": "D",
+    "citation_abnt": "DESCONHECIDO (círculo de Matham/Goltzius). Justitia. ca. 1600-1699. Técnica mista sobre papel, 312 × 214 mm. Den Kongelige Kobberstiksamling, SMK – Statens Museum for Kunst, Copenhague. Disponível em: https://open.smk.dk/artwork/image/KKSgb4863. Acesso em: 23 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://open.smk.dk/artwork/image/KKSgb5598",
     "title": "Siddende Justitia",
-    "description": "",
-    "motif": [],
+    "description": "Desenho italiano do século XVII representando a Justitia sentada, técnica mista com giz negro, pena, tinta castanha e lavagem sobre papel amarelado, 131 × 104 mm. Datação segue os anos de vida do artista. Obra de Castellino Castello, montada em papel branco.",
+    "motif": [
+      "Justitia",
+      "seated Justice",
+      "personification",
+      "scales",
+      "sword",
+      "Italian drawing"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800936+00:00",
-    "citation_abnt": "C",
+    "citation_abnt": "CASTELLO, Castellino. Siddende Justitia. ca. 1579-1649. Técnica mista sobre papel, 131 × 104 mm. Den Kongelige Kobberstiksamling, SMK – Statens Museum for Kunst, Copenhague. Disponível em: https://open.smk.dk/artwork/image/KKSgb5598. Acesso em: 23 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://open.smk.dk/artwork/image/KKSgb7580",
     "title": "Siddende Justitia (Studie efter figur i Sala di Costantino, Vatikanet, Rom)",
-    "description": "",
-    "motif": [],
+    "description": "Estudo a giz preto e branco sobre papel cinzento do pintor dinamarquês Hendrik Krock, representando a Justitia sentada, copiada da Sala di Costantino nos Museus do Vaticano, Roma. Grande formato (526 × 303 mm), provavelmente preparatório para decoração de interiores.",
+    "motif": [
+      "Justitia",
+      "seated Justice",
+      "Vatican study",
+      "personification",
+      "fresco study",
+      "chalk drawing"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800976+00:00",
-    "citation_abnt": "K",
+    "citation_abnt": "KROCK, Hendrik. Siddende Justitia (Studie efter figur i Sala di Costantino, Vatikanet, Rom). ca. 1671-1738. Giz preto e branco sobre papel cinzento, 526 × 303 mm. Den Kongelige Kobberstiksamling, SMK – Statens Museum for Kunst, Copenhague. Disponível em: https://open.smk.dk/artwork/image/KKSgb7580. Acesso em: 23 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://sammlungenonline.albertina.at/objects/546636/allegorische-figur-justitia-gerechtigkeit",
     "title": "Allegorische Figur: Justitia (Gerechtigkeit)",
-    "description": "",
-    "motif": [],
+    "description": "Figura alegórica feminina da Justiça (Justitia), desenhada por Moritz von Schwind e gravada por Theodor Langer em 1848, integrante da série de medalhões para o Sitzungssaal do Ständehaus de Karlsruhe. A composição em formato oval apresenta uma figura feminina clássica portando os atributos tradicionais da Justiça — espada e balança — em estilo biedermeier tardio. A folha tem 35,1 × 28,7 cm; a placa, 21,5 × 17,5 cm.",
+    "motif": [
+      "Iustitia",
+      "scales",
+      "sword",
+      "allegory of justice",
+      "female personification",
+      "cardinal virtue"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.798627+00:00",
-    "citation_abnt": "S",
+    "citation_abnt": "SCHWIND, Moritz von (des.); LANGER, Theodor (grav.). Allegorische Figur: Justitia (Gerechtigkeit). 1848. Kupferstich und Radierung, 35,1 × 28,7 cm (folha). Inv. DG2017/1/6542. Albertina, Wien. Disponível em: https://sammlungenonline.albertina.at/objects/546636/allegorische-figur-justitia-gerechtigkeit. Acesso em: 23 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://smb.museum-digital.de/object/140722",
     "title": "Allegorie der irdischen und göttlichen Gerechtigkeit — Sebastian Loscher, Augsburg 1536",
-    "description": "",
-    "motif": [],
+    "description": "Relevo alegórico de 1536 atribuído ao escultor Sebastian Loscher (Augsburg), representando a dualidade entre justiça terrena e divina: Iustitia apoia-se em uma coluna (símbolo de poder) enquanto um Putto alado lhe oferece a balança e aponta para a espada sob o globo terrestre; ela, porém, volta-se para Deus Pai no alto, indicando que a fonte última da Gerechtigkeit é divina. Exemplar da transformação da iconografia jurídica renascentista alemã.",
+    "motif": [
+      "Iustitia",
+      "Gerechtigkeit irdisch",
+      "Gerechtigkeit göttlich",
+      "balança",
+      "espada",
+      "globo terrestre",
+      "Putto com balança",
+      "Gottvater",
+      "coluna",
+      "justiça divina vs. terrena"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801666+00:00",
-    "citation_abnt": "L",
-    "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
-  },
-  {
-    "url": "https://www.britishmuseum.org/collection/object/P_1878-0713-2311",
-    "title": "La Justice et la Vengeance Divine poursuivant le Crime",
-    "description": "",
-    "motif": [],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-05T03:13:46.799737+00:00",
-    "citation_abnt": "G",
+    "citation_abnt": "LOSCHER, Sebastian (atrib.). *Allegorie der irdischen und göttlichen Gerechtigkeit*. 1536. Escultura. Skulpturensammlung und Museum für Byzantinische Kunst, Staatliche Museen zu Berlin. Disponível em: https://smb.museum-digital.de/object/140722. Acesso em: 19 maio 2026.",
     "audit_flags": [
       "drive-import-2026-06-04"
-    ],
-    "tags_str": ""
+    ]
   },
   {
     "url": "https://www.digitale-sammlungen.de/en/details/bsb00028235",
     "title": "Symbolorum & emblematum ex volatilibus et insectis desumtorum centuria tertia — Camerarius, Nuremberg 1596",
-    "description": "",
-    "motif": [],
+    "description": "Terceira centúria dos Symbolorum et emblematum de Joachim Camerarius, publicada em Nuremberga em 1596, dedicada a emblemas derivados de pássaros e insetos ('ex volatilibus et insectis'). Inclui o Emblema III 'CUSTOS IUSTITIAE' (Guardião da Justiça), representado por uma grua segurando uma pedra — símbolo tradicional de vigilância na administração da justiça — e o Emblema LXXXI 'IUSTA ULTIO' (Justa Retribuição), com uma cegonha como alegoria da punição divina ou legal.",
+    "motif": [
+      "Custos Iustitiae",
+      "Iusta Ultio",
+      "grua",
+      "cegonha",
+      "vigilância da justiça",
+      "retribuição justa",
+      "emblema com animais",
+      "virtudes"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801582+00:00",
-    "citation_abnt": "C",
+    "citation_abnt": "CAMERARIUS, Joachim. *Symbolorum & emblematum ex volatilibus et insectis desumtorum centuria tertia*. Nuremberga: [Vögelin], 1596. Disponível em: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00028235/manifest. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://www.digitale-sammlungen.de/en/details/bsb11216093",
     "title": "Iconologia, overo descrittione di diverse imagini cauate dall'antichità, & di propria inuentione — ed. Roma 1603 (MDZ/Augsburg)",
-    "description": "",
-    "motif": [],
+    "description": "Primeira edição ilustrada da Iconologia de Cesare Ripa, publicada em Roma por Lepido Faci em 1603 com mais de 400 imagens gravadas em cobre. A obra define sistematicamente as personificações femininas das virtudes — entre elas sete variações de Iustitia (Giustizia Divina, Giustizia Terrena, etc.), cada uma com atributos distintos como balança, espada e, em um único caso, venda nos olhos. Digitalizado pelo MDZ a partir do exemplar da Staats- und Stadtbibliothek de Augsburg (cota 4 Kst 1918).",
+    "motif": [
+      "Iustitia",
+      "balança",
+      "espada",
+      "venda",
+      "alegorias de virtudes",
+      "Giustizia Divina",
+      "Giustizia Terrena"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801159+00:00",
-    "citation_abnt": "R",
+    "citation_abnt": "RIPA, Cesare. *Iconologia, overo descrittione di diverse imagini cauate dall'antichità, & di propria inuentione*. Roma: Lepido Facij, 1603. Disponível em: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11216093/manifest. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://www.digitale-sammlungen.de/en/details/bsb11255733",
     "title": "Emblemata D. A. Alciati — ed. Lyon 1550 (Rovilius)",
-    "description": "",
-    "motif": [],
+    "description": "Edição de Lyon de 1550 dos Emblemata de Andrea Alciato, impressa por Guillaume Rouillé (Rovilius) — uma das edições canônicas que consolidou o repertório visual emblemático do Humanismo jurídico europeu. Contém as representações alegóricas de Iustitia e demais virtudes cardinais em emblemas bi ou tripartidos (inscriptio, pictura, subscriptio) que se tornarão modelo para toda a tradição posterior.",
+    "motif": [
+      "Iustitia",
+      "emblema jurídico",
+      "Prudentia",
+      "scales",
+      "espada",
+      "alegorias das virtudes",
+      "iconografia emblemática"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801493+00:00",
-    "citation_abnt": "A",
+    "citation_abnt": "ALCIATO, Andrea. *Emblemata D. A. Alciati*. Lyon: Rovilius [Guillaume Rouillé], 1550. Disponível em: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11255733/manifest. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://www.digitale-sammlungen.de/en/details/bsb11255734",
     "title": "Omnia Andreae Alciati Emblemata — ed. Antuérpia 1577 (Plantin)",
-    "description": "",
-    "motif": [],
+    "description": "Edição de Antuérpia de 1577 dos Emblemata de Alciato, impressa pela oficina de Christophe Plantin (Plantin Press) — o mais influente impressor do século XVI. Esta edição inclui o comentário completo e apresenta as gravuras das virtudes (especialmente Iustitia) em versão refinada pela escola flamenga de gravura, sendo referência fundamental para a iconografia jurídica do Norte da Europa.",
+    "motif": [
+      "Iustitia",
+      "emblema jurídico",
+      "Prudentia",
+      "alegorias das virtudes",
+      "gravura flamenga",
+      "personificação feminina"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801533+00:00",
-    "citation_abnt": "A",
+    "citation_abnt": "ALCIATO, Andrea. *Omnia Andreae Alciati Emblemata*. Antuérpia: Plantin [Christophe Plantin], 1577. Disponível em: https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11255734/manifest. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://www.emblems.arts.gla.ac.uk/alciato/books.php?id=A31a",
     "title": "Emblematum liber — ed. Augsburg 1531 (1.ª ed.) [Alciato]",
-    "description": "",
-    "motif": [],
+    "description": "Primeira edição impressa do Emblematum liber de Andrea Alciato, publicada em Augsburgo em 28 de fevereiro de 1531 por Heinrich Steyner — o primeiro livro de emblemas da história ocidental. Contém 104 emblemas (97 com xilografias atribuídas a Hans Schäufelein) que fundam a iconografia emblemática do Direito: inclui emblemas sobre Iustitia, Iurisprudentia e virtudes cardinais com corpo visual que influenciará toda a emblemática jurídica posterior.",
+    "motif": [
+      "Iustitia",
+      "emblema jurídico",
+      "alegoria da virtude",
+      "emblema renascentista",
+      "Iuris prudentia",
+      "espada",
+      "scales"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.801455+00:00",
-    "citation_abnt": "A",
-    "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
-  },
-  {
-    "url": "https://www.loc.gov/item/2003689297/",
-    "title": "Abraham Lincoln, Republican candidate for president of the United States",
-    "description": "",
-    "motif": [],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-05T03:13:46.799829+00:00",
-    "citation_abnt": "B",
+    "citation_abnt": "ALCIATO, Andrea. *Emblematum liber*. Augsburg: Heinrich Steyner, 28 fev. 1531. Disponível em: https://www.emblems.arts.gla.ac.uk/alciato/books.php?id=A31a. Acesso em: 19 maio 2026.",
     "audit_flags": [
       "drive-import-2026-06-04"
-    ],
-    "tags_str": ""
-  },
-  {
-    "url": "https://www.loc.gov/item/2004665366/",
-    "title": "The outbreak of the rebellion in the United States 1861",
-    "description": "",
-    "motif": [],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-05T03:13:46.799923+00:00",
-    "citation_abnt": "K",
-    "audit_flags": [
-      "drive-import-2026-06-04"
-    ],
-    "tags_str": ""
-  },
-  {
-    "url": "https://www.loc.gov/pictures/item/2003689287/",
-    "title": "Liberty. \"Liberty brings to the earth justice and peace\"",
-    "description": "",
-    "motif": [],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-05T03:13:46.799786+00:00",
-    "citation_abnt": "I",
-    "audit_flags": [
-      "drive-import-2026-06-04"
-    ],
-    "tags_str": ""
-  },
-  {
-    "url": "https://www.loc.gov/pictures/item/2004665350/",
-    "title": "Triumph",
-    "description": "",
-    "motif": [],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-05T03:13:46.799878+00:00",
-    "citation_abnt": "T",
-    "audit_flags": [
-      "drive-import-2026-06-04"
-    ],
-    "tags_str": ""
+    ]
   },
   {
     "url": "https://www.memoriachilena.gob.cl/602/w3-article-10118.html",
     "title": "Código Penal chileno (1874) — edição original",
-    "description": "",
-    "motif": [],
+    "description": "Edição original do Código Penal chileno, promulgado em 12 de novembro de 1874 sob a presidência de Federico Errázuriz Zañartu. O código entrou em vigor em 1.º de março de 1875 e representa marco fundamental da história jurídica chilena. O registro no Memoria Chilena inclui digitalização da publicação original [Santiago: s.n., 1874], com frontispício e página de rosto que integram a iconografia do direito latino-americano oitocentista.",
+    "motif": [
+      "código penal",
+      "frontispício",
+      "lei criminal",
+      "república",
+      "Chile",
+      "iconografia jurídica",
+      "tipografia"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800383+00:00",
-    "citation_abnt": "C",
+    "citation_abnt": "CHILE. Código Penal. [Santiago: s.n.], 1874. Digitalizado pelo Memoria Chilena, Biblioteca Nacional de Chile. Disponível em: https://www.memoriachilena.gob.cl/602/w3-article-10118.html. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://www.museodelprado.es/en/the-collection/art-work/truth-has-died/8c3b0257-606f-4d0b-af9e-73f05de59697",
     "title": "La verdad ha muerto (Truth has died)",
-    "description": "",
-    "motif": [],
+    "description": "Estampa número 79 da série 'Desastres de la Guerra' de Francisco de Goya, gravada entre 1814 e 1815 e publicada na primeira edição de 1863. A composição mostra o corpo reclinado de uma jovem nua (a Verdade, que ilumina tudo), ladeada à direita pela figura feminina da Justiça — vestida de modo semelhante, em luto pela perda da Verdade —, enquanto clérigos e monges preparam-se para o enterro. Interpretada como crítica à restauração dos privilégios da Igreja pelo decreto de 4 de maio de 1814.",
+    "motif": [
+      "Iustitia",
+      "Justice",
+      "Truth",
+      "female personification",
+      "allegory",
+      "mourning",
+      "Disasters of War",
+      "clergy",
+      "political satire"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.799964+00:00",
-    "citation_abnt": "G",
+    "citation_abnt": "GOYA Y LUCIENTES, Francisco de. La verdad ha muerto [Truth has died]. [1814–1815; 1.ª ed. 1863]. Água-forte e brunidor sobre papel vergê. Desastres de la Guerra, prancha 79. Museo Nacional del Prado, Madrid. Disponível em: https://www.museodelprado.es/en/the-collection/art-work/truth-has-died/8c3b0257-606f-4d0b-af9e-73f05de59697. Acesso em: 23 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
-  },
-  {
-    "url": "https://www.portinari.org.br/acervo/obras/18112/a-justica-de-salomao",
-    "title": "A Justiça de Salomão",
-    "description": "",
-    "motif": [],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-05T03:13:46.800177+00:00",
-    "citation_abnt": "P",
-    "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
-  },
-  {
-    "url": "https://www.portinari.org.br/en/archive/artwork/20463/gustavo-capanema-palace-economic-cycles",
-    "title": "Ciclos Econômicos (conjunto de afrescos do Palácio Gustavo Capanema)",
-    "description": "",
-    "motif": [],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-05T03:13:46.800343+00:00",
-    "citation_abnt": "P",
-    "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://www.rijksmuseum.nl/en/collection/RP-P-1970-232",
     "title": "Justitia beschermt Onschuld tegen Misdaad",
-    "description": "",
-    "motif": [],
+    "description": "Estampa intitulada 'A Justiça protege a Inocência contra o Crime' (alt. francês: 'L'Innocence, poursuivie par le Crime, se sauve dans les bras de la Justice'), gravada por Joseph de La Serrie sobre composição de Pierre Paul Prud'hon intermediada por Jacques Louis Copia, datada de 1806. A cena alegórica, extraída do célebre quadro de Prud'hon, mostra a Justiça — figura feminina imponente — acolhendo a Inocência perseguida pelo Crime. Dimensões: 120 × 159 mm.",
+    "motif": [
+      "Iustitia",
+      "Justice protecting Innocence",
+      "Crime",
+      "female personification",
+      "allegory",
+      "scales",
+      "sword"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.799656+00:00",
-    "citation_abnt": "L",
+    "citation_abnt": "LA SERRIE, Joseph de (grav.); PRUD'HON, Pierre Paul (des.). Justitia beschermt Onschuld tegen Misdaad. 1806. Água-forte e buril, 120 × 159 mm. Inv. RP-P-1970-232. Rijksmuseum, Amsterdam. Disponível em: https://id.rijksmuseum.nl/200228490. Acesso em: 23 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://www2.senado.leg.br/bdsf/item/id/221763",
     "title": "Código Criminal do Império do Brasil",
-    "description": "",
-    "motif": [],
+    "description": "Primeira edição do Código Criminal do Império do Brasil (sancionado por D. Pedro I em 16 de dezembro de 1830), digitalizado pela Biblioteca do Senado Federal. O frontispício e a página de rosto da edição de 1858 (Nova ed., Recife: Typ. Universal) constituem objeto iconográfico jurídico relevante para o período imperial. O código foi o primeiro surgido após a Independência e contém elementos tipográficos e decorativos próprios da impressão oitocentista.",
+    "motif": [
+      "código penal",
+      "frontispício",
+      "lei criminal",
+      "império",
+      "iconografia jurídica",
+      "título"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800223+00:00",
-    "citation_abnt": "B",
+    "citation_abnt": "BRASIL. Código criminal do Império do Brasil: annotado com as leis. Nova ed. Recife: Typ. Universal, 1858. 140 p. Digitalizado pela Biblioteca Digital do Senado Federal. Disponível em: https://www2.senado.leg.br/bdsf/item/id/221763. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "url": "https://www2.senado.leg.br/bdsf/item/id/227311",
     "title": "Codigo criminal do imperio do Brazil: annotado com leis, decretos, jurisprudencia dos tribunaes do paiz e avisos do governo até o fim de 1876",
-    "description": "",
-    "motif": [],
+    "description": "Edição anotada do Código Criminal do Império do Brazil de 1830, atualizada até fins de 1876 pelo jurista e senador Vicente Alves de Paula Pessoa. A obra, digitalizada pela BDSF, apresenta frontispício tipográfico característico das publicações jurídicas oitocentistas brasileiras, contendo elementos ornamentais e decorativos que integram o corpus da iconografia do direito no Brasil imperial. 564 páginas, formato 18 cm.",
+    "motif": [
+      "código penal",
+      "frontispício",
+      "lei criminal",
+      "império",
+      "iconografia jurídica",
+      "tipografia oitocentista"
+    ],
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800261+00:00",
-    "citation_abnt": "P",
+    "citation_abnt": "PESSOA, Vicente Alves de Paula (anotador). Codigo criminal do imperio do Brazil: annotado com leis, decretos, jurisprudencia dos tribunaes do paiz e avisos do governo até o fim de 1876. [S. l.: s. n.], 1876. 564, ii p. Biblioteca Digital do Senado Federal. Disponível em: https://www2.senado.leg.br/bdsf/item/id/227311. Acesso em: 19 maio 2026.",
     "audit_flags": [
-      "drive-import-2026-06-04",
-      "uncoded-purification"
-    ],
-    "tags_str": ""
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "id": "AR-001",
@@ -6139,6 +6219,30 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
+    ]
+  },
+  {
+    "id": "FCO-2742",
+    "url": "https://www.portinari.org.br/acervo/obras/18112/a-justica-de-salomao",
+    "title": "A Justiça de Salomão",
+    "description": "Painel em têmpera sobre tela (179 × 191 cm) que retrata a cena bíblica do julgamento de Salomão: o rei, sentado em trono, segura uma criança nua em uma mão e um facão na outra, enquanto a mãe verdadeira, de joelhos em atitude de súplica, e a falsa mãe, arrogante ao fundo, completam a composição. Executado para decorar a sede da Rádio Tupi de São Paulo, a obra foi emprestada ao MASP em 1947 e doada em 1959. Obra tombada sob nº 327.",
+    "motif": [
+      "Justiça de Salomão",
+      "julgamento",
+      "espada",
+      "criança",
+      "figuras femininas",
+      "figuras masculinas",
+      "Iustitia",
+      "lei"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-06-05T03:13:46.800177+00:00",
+    "citation_abnt": "PORTINARI, Candido. A Justiça de Salomão. [1948]. Têmpera sobre tela, 179 × 191 cm. Museu de Arte de São Paulo Assis Chateaubriand (MASP), São Paulo. Projeto Portinari, FCO-2742. Disponível em: https://www.portinari.org.br/acervo/obras/18112/a-justica-de-salomao. Acesso em: 19 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04"
     ]
   },
   {
@@ -11777,6 +11881,29 @@
     ]
   },
   {
+    "id": "OC-4",
+    "url": "https://www.portinari.org.br/en/archive/artwork/20463/gustavo-capanema-palace-economic-cycles",
+    "title": "Ciclos Econômicos (conjunto de afrescos do Palácio Gustavo Capanema)",
+    "description": "Conjunto de doze afrescos murais executados por Portinari no Palácio Gustavo Capanema (antigo Ministério da Educação e Saúde), Rio de Janeiro, entre 1936 e 1944. Os painéis representam os ciclos econômicos da história do Brasil: pau-brasil, cana-de-açúcar, gado, ouro/mineração, algodão e café, além de trabalho agrícola e indústria. O conjunto integra o programa decorativo do edifício modernista de Lúcio Costa e Le Corbusier, e é referência maior da arte pública republicana e legal-institucional no Brasil.",
+    "motif": [
+      "ciclos econômicos",
+      "trabalho",
+      "república",
+      "história do Brasil",
+      "mural",
+      "afresco",
+      "figuras alegóricas"
+    ],
+    "regime": "",
+    "endurecimento_score": 0.0,
+    "coded_by": "",
+    "coded_at": "2026-06-05T03:13:46.800343+00:00",
+    "citation_abnt": "PORTINARI, Candido. Ciclos Econômicos. 1936-1944. Afresco. Palácio Gustavo Capanema (Ministério da Educação e Saúde), Rio de Janeiro. Projeto Portinari, OC-4. Disponível em: https://www.portinari.org.br/en/archive/artwork/20463/gustavo-capanema-palace-economic-cycles. Acesso em: 19 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04"
+    ]
+  },
+  {
     "id": "PT-001",
     "title": "Justiça popular (UDP political poster)",
     "date": "c. 1975",
@@ -12274,6 +12401,35 @@
     },
     "audit_flags": [
       "sem-thumbnail"
+    ]
+  },
+  {
+    "id": "SCOUT-095",
+    "url": "https://hemerotecadigital.bn.br/acervo-digital/revista-illustrada/332747",
+    "title": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
+    "description": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
+    "audit_flags": [
+      "vault-import"
     ]
   },
   {
@@ -15481,7 +15637,7 @@
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "pending-iconocode",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "coded_at": "2026-06-05T03:13:46.799829+00:00",
     "in_scope": true,
     "testemunho_repertoire": "",
     "audit_flags": [
@@ -15543,7 +15699,7 @@
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "pending-iconocode",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "coded_at": "2026-06-05T03:13:46.799737+00:00",
     "in_scope": true,
     "testemunho_repertoire": "",
     "audit_flags": [
@@ -15607,7 +15763,7 @@
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "pending-iconocode",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "coded_at": "2026-06-05T03:13:46.799786+00:00",
     "in_scope": true,
     "testemunho_repertoire": "",
     "audit_flags": [
@@ -15674,7 +15830,7 @@
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "pending-iconocode",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "coded_at": "2026-06-05T03:13:46.799923+00:00",
     "in_scope": true,
     "testemunho_repertoire": "",
     "audit_flags": [
@@ -15740,7 +15896,7 @@
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "pending-iconocode",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "coded_at": "2026-06-05T03:13:46.799878+00:00",
     "in_scope": true,
     "testemunho_repertoire": "",
     "audit_flags": [
@@ -15861,7 +16017,7 @@
     "regime": "",
     "endurecimento_score": 0.0,
     "coded_by": "pending-iconocode",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "coded_at": "2026-06-05T03:13:46.800094+00:00",
     "in_scope": true,
     "testemunho_repertoire": "",
     "audit_flags": [

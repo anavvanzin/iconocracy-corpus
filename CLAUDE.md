@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2026). Integrates a searchable corpus of female allegorical figures (currently 265 records in `records.jsonl`; see *Known Data Issues* for downstream drift), research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
+Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2026). Integrates a searchable corpus of female allegorical figures (currently 308 records in `records.jsonl`; see *Known Data Issues* for downstream drift), research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
 
 > **Master plan**: `docs/PLANO-TESE-ICONOCRACIA.md` — comprehensive thesis architecture, methodology, case rankings, risk matrix, 24-month work plan, and 10 immediate decisions.
 
@@ -193,24 +193,25 @@ Every corpus item must exist in three places:
 
 ---
 
-## Known Data Issues (last audit: 2026-05-24)
+## Known Data Issues (last audit: 2026-06-15)
 
 These documented problems affect corpus operations:
 
-1. **Minor drift across exports** — current counts (audit: 2026-05-24):
-   - `data/processed/records.jsonl` → **265 records, all schema-valid** (`validate_schemas.py` → 265/265 ✓)
-   - `corpus/corpus-data.json` → **264 items** (1 record in `records.jsonl` not yet propagated; `records_to_corpus.py --diff` lists it)
-   - `data/processed/purification.jsonl` → **264 records** (1 record lacks endurecimento coding)
-   - `companion-data.json` → **5 items** (drastically stale; `sync_companion.py` will rebuild)
+1. **Minor drift across exports** — current counts (audit: 2026-06-15):
+   - `data/processed/records.jsonl` → **308 records, all schema-valid** (`validate_schemas.py` → 308/308 ✓)
+   - `corpus/corpus-data.json` → **309 items** (1 item only in corpus: `sq2-2026-05-19-alegoria-lei-aurea-villares-004`; 34 records in `records.jsonl` lack matching corpus IDs — `records_to_corpus.py --diff` lists them)
+   - `data/processed/purification.jsonl` → **264 records** (endurecimento coding ledger; 44 records in records.jsonl lack coding)
+   - `companion-data.json` → **309 items** (rebuilt 2026-06-15 via `sync_companion.py`)
+   - **Coded items (with `regime`):** **224** items in `corpus-data.json` (≈72%)
 2. **8 records with placeholder URLs** — `https://iconocracy.corpus/placeholder/{item_id}`. Require verification against `data/raw/drive-manifest.json`.
-3. **Analysis pinned at N=165 while corpus grew to 265** — the quantitative analysis (notebooks + manuscript) was run against an older 165-item snapshot:
+3. **Analysis pinned at N=165 while corpus grew to 308** — the quantitative analysis (notebooks + manuscript) was run against an older 165-item snapshot:
    - **Notebooks** reference stale sizes — `01_exploratory.ipynb` reads "145 itens"; `05_temporal`, `06_clustering`, `07_dimensionality` reference "165 itens".
    - **Manuscript** chapters assert N=165 in text: `tese/manuscrito/Capitulo2_metodologia.md:66,161` ("165 registros"); `tese/manuscrito/Introducao_rev.md:127,193` ("165 itens"); also `Capitulo3_analise_quantitativa.md` and `notas/Cap3_quantitativo_outline.md`.
-   - **Pinned snapshot** of that analysis input lives at `Other/corpus-data.json` (165 items, frozen 2026-04-25; all 165 ids ⊆ current 264). The `Other/` dir also holds an **identical duplicate** of `notebooks/01–08` — it is a stale analysis copy, not a second source of truth. Do not delete without deciding the item below.
-   - Current canonical: `records.jsonl` = 265, `corpus/corpus-data.json` = 264.
-   - **DECISION PENDING (Ana) — reframed 2026-05-30, see `docs/decisions/DIALETICA-N165-vs-265.md`:** the "165 vs 265" framing was rejected by adversarial review. Real axis = **coding-validity stratum × instrument provenance**, not date. The corpus is coded by 6 instruments (`coded_by`); **41 items are uncoded** (no `coded_by`/regime/endurecimento) → N=265 is NOT a valid analytic N. Valid options: N≈145 (IconoCode-only) or N≈223 (all coded, after inter-instrument reliability audit of iconocode-opus vs opus-4.6 and audit of vault-import/migration). Action: stratify by `coded_by` → quarantine the 41 uncoded → reliability audit → set analytic N by validity → dataset card in Cap2 replacing "N=165" with "N=[valid]". `endurecimento_score=0` is a valid score (low purification), not "uncoded".
+   - **Pinned snapshot** of that analysis input lives at `Other/corpus-data.json` (165 items, frozen 2026-04-25; all 165 ids ⊆ current 309). The `Other/` dir also holds an **identical duplicate** of `notebooks/01–08` — it is a stale analysis copy, not a second source of truth. Do not delete without deciding the item below.
+   - Current canonical: `records.jsonl` = 308, `corpus/corpus-data.json` = 309.
+   - **DECISION PENDING (Ana) — reframed 2026-05-30, see `docs/decisions/DIALETICA-N165-vs-265.md`:** the "165 vs 265" framing was rejected by adversarial review. Real axis = **coding-validity stratum × instrument provenance**, not date. The corpus is coded by 6 instruments (`coded_by`); **85 items are uncoded** (no `regime` in corpus-data.json) → N=309 is NOT a valid analytic N. Valid options: N≈145 (IconoCode-only) or N≈224 (all coded, after inter-instrument reliability audit of iconocode-opus vs opus-4.6 and audit of vault-import/migration). Action: stratify by `coded_by` → quarantine uncoded items → reliability audit → set analytic N by validity → dataset card in Cap2 replacing "N=165" with "N=[valid]". `endurecimento_score=0` is a valid score (low purification), not "uncoded".
 
-**Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the ~100-record drift between records.jsonl and corpus-data.json are resolved — `validate_schemas.py` reports 265/265 valid, and export drift is now 1 item.
+**Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the ~100-record drift between records.jsonl and corpus-data.json are resolved — `validate_schemas.py` reports 308/308 valid, export drift is now 1 item, and `companion-data.json` is rebuilt with current corpus total.
 
 ## Release Gate
 
