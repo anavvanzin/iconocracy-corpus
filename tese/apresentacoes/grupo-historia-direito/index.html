@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Do ventre à alegoria — ICONOCRACIA · Ana Vanzin</title>
+<meta name="description" content="Da mulher como nacional subordinada ao rosto feminino da soberania — uma passagem da dissertação à tese. PPGD/UFSC · Grupo de Estudos de História do Direito." />
+
+<!-- Fontes (com fallbacks robustos caso não haja internet na sala) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<style>
+/* ===========================================================
+   ICONOCRACIA — tema "Mármore & Bronze"
+   Parede de galeria / gravura neoclássica. Zero dependências.
+   Ajuste o tema nas variáveis :root abaixo.
+   =========================================================== */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ===== VIEWPORT FITTING: BASE OBRIGATÓRIA ===== */
+html, body { height: 100%; overflow-x: hidden; }
+html { scroll-snap-type: y mandatory; scroll-behavior: smooth; }
+.slide {
+  width: 100vw; height: 100vh; height: 100dvh;
+  overflow: hidden; scroll-snap-align: start;
+  display: flex; flex-direction: column; position: relative;
+}
+.slide-content {
+  flex: 1; display: flex; flex-direction: column; justify-content: center;
+  max-height: 100%; overflow: hidden;
+  padding: var(--slide-padding); gap: var(--content-gap);
+}
+
+:root {
+  /* Paleta */
+  --bg:#141109; --bg-soft:#1c1810; --panel:#221d13; --panel-2:#2a2318;
+  --ivory:#ece2cf; --ivory-dim:#ab9f86;
+  --bronze:#c89b4a; --gold:#e3c073; --bronze-dp:#7d5e28;
+  --oxblood:#c0503d; --verdigris:#84a78d;
+  --line:rgba(227,192,115,.22); --line-soft:rgba(227,192,115,.12);
+  /* Tipos */
+  --serif:'Cormorant Garamond','Cormorant',Georgia,'Times New Roman',serif;
+  --sans:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;
+  /* Escala (clamp obrigatório) */
+  --title-size:clamp(2.2rem,7vw,5.4rem); --h1-size:clamp(1.9rem,5.4vw,4rem);
+  --h2-size:clamp(1.4rem,3.6vw,2.7rem); --h3-size:clamp(1.05rem,2.3vw,1.55rem);
+  --body-size:clamp(0.84rem,1.45vw,1.12rem); --small-size:clamp(0.66rem,1.0vw,0.86rem);
+  --slide-padding:clamp(1.4rem,4.5vw,4.5rem); --content-gap:clamp(0.55rem,1.8vh,1.55rem);
+  --maxw:min(92vw,1180px);
+}
+
+body {
+  font-family: var(--sans); font-size: var(--body-size); color: var(--ivory);
+  background: var(--bg); line-height: 1.5;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+/* Textura fixa: vinheta + linhas de gravura */
+body::before {
+  content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+  background:
+    radial-gradient(120% 80% at 50% -10%, #241d12 0%, var(--bg) 58%, #0e0b06 100%),
+    repeating-linear-gradient(90deg, transparent 0 7px, rgba(227,192,115,.020) 7px 8px);
+}
+.slide > * { position: relative; z-index: 1; }
+
+/* Tipografia */
+h1,h2,h3,.display { font-family: var(--serif); font-weight: 600; line-height: 1.04; letter-spacing:.005em; }
+h1 { font-size: var(--h1-size); } h2 { font-size: var(--h2-size); } h3 { font-size: var(--h3-size); }
+em,.it { font-style: italic; } strong { font-weight: 600; color: var(--gold); }
+p { max-width: 64ch; }
+
+/* Marca */
+.eyebrow { font-family: var(--mono); font-size: var(--small-size); text-transform: uppercase; letter-spacing:.24em; color: var(--bronze); display:flex; align-items:center; gap:.8em; flex-wrap:wrap; }
+.eyebrow::before { content:""; width:clamp(1.6rem,4vw,3.2rem); height:1px; background: linear-gradient(90deg, var(--bronze), transparent); }
+.kicker { position:absolute; top:50%; right:clamp(-1rem,2vw,3rem); transform: translateY(-50%); font-family: var(--serif); font-weight:500; font-style: italic; font-size:clamp(9rem,38vh,26rem); line-height:1; color: transparent; -webkit-text-stroke:1px var(--line); opacity:.5; z-index:0; pointer-events:none; user-select:none; }
+.lead { font-size: clamp(1rem,1.9vw,1.45rem); color: var(--ivory); max-width: 60ch; }
+.dim { color: var(--ivory-dim); } .mono { font-family: var(--mono); } .gold { color: var(--gold); } .ox { color: var(--oxblood); }
+.rule { height:1px; width:100%; background: linear-gradient(90deg, var(--bronze), var(--line-soft) 60%, transparent); }
+
+blockquote { font-family: var(--serif); font-style: italic; font-size: clamp(1.15rem,2.9vw,2.35rem); line-height:1.22; color: var(--ivory); max-width: 24ch; position: relative; padding-left:.7em; }
+blockquote.wide { max-width: 30ch; }
+blockquote::before { content:"“"; position:absolute; left:-.35em; top:-.25em; font-size:1.6em; color: var(--bronze); opacity:.55; }
+blockquote cite,.attr { display:block; margin-top:.7em; font-family: var(--mono); font-style: normal; font-size: var(--small-size); letter-spacing:.12em; color: var(--bronze); text-transform: uppercase; }
+
+ul.clean { list-style:none; display:flex; flex-direction:column; gap:clamp(.4rem,1.1vh,1rem); max-width:64ch; }
+ul.clean li { position:relative; padding-left:1.5em; font-size: var(--body-size); }
+ul.clean li::before { content:""; position:absolute; left:0; top:.62em; width:.5em; height:.5em; transform: rotate(45deg); border:1px solid var(--bronze); }
+
+.two-col { display:grid; grid-template-columns:1fr 1fr; gap:clamp(1rem,3vw,2.6rem); align-items:center; }
+.grid { display:grid; gap:clamp(.6rem,1.4vw,1.1rem); }
+.card { background: linear-gradient(160deg, var(--panel), var(--bg-soft)); border:1px solid var(--line); border-radius:2px; padding:clamp(.75rem,1.6vw,1.4rem); position:relative; }
+.card h3 { color: var(--gold); margin-bottom:.25em; }
+.card .num { font-family: var(--serif); font-style: italic; color: var(--bronze); font-size:1.4em; }
+
+.chips { display:flex; flex-wrap:wrap; gap:.45em; }
+.chip { font-family: var(--mono); font-size: var(--small-size); border:1px solid var(--line); color: var(--ivory-dim); padding:.28em .7em; border-radius:100px; white-space:nowrap; }
+.chip b { color: var(--gold); font-weight:500; }
+
+.meter { display:flex; align-items:center; gap:.6em; font-family: var(--mono); font-size: var(--small-size); }
+.meter .track { flex:1; height:7px; background: var(--panel-2); border:1px solid var(--line-soft); border-radius:100px; overflow:hidden; }
+.meter .fill { height:100%; width: calc(var(--v) / 3 * 100%); background: linear-gradient(90deg, var(--bronze-dp), var(--gold)); }
+.meter .val { color: var(--gold); min-width:2.4em; text-align:right; }
+.meter .cap { color: var(--bronze); letter-spacing:.14em; text-transform: uppercase; }
+
+.bars { display:flex; flex-direction:column; gap:clamp(.4rem,1vh,.85rem); width:100%; }
+.bar-row { display:grid; grid-template-columns:clamp(7em,16vw,12em) 1fr auto; align-items:center; gap:.8em; font-size: var(--small-size); }
+.bar-row .lbl { font-family: var(--mono); color: var(--ivory-dim); letter-spacing:.04em; text-align:right; }
+.bar-row .track { height:clamp(12px,2.2vh,20px); background: var(--panel-2); border:1px solid var(--line-soft); border-radius:2px; overflow:hidden; }
+.bar-row .fill { height:100%; width: var(--w); background: linear-gradient(90deg, var(--bronze-dp), var(--bronze)); }
+.bar-row .fill.hot { background: linear-gradient(90deg, #6e2a20, var(--oxblood)); }
+.bar-row .fill.cool { background: linear-gradient(90deg, #3f5a48, var(--verdigris)); }
+.bar-row .v { font-family: var(--mono); color: var(--gold); min-width:3em; text-align:right; }
+
+.plate { position:relative; background: linear-gradient(165deg, var(--panel), var(--bg-soft)); border:1px solid var(--bronze-dp); box-shadow:0 0 0 1px var(--line) inset, 0 14px 40px rgba(0,0,0,.45); border-radius:2px; overflow:hidden; display:flex; flex-direction:column; min-height:0; }
+.plate .visual { flex:1; min-height:clamp(5rem,20vh,13rem); display:flex; align-items:center; justify-content:center; text-align:center; padding:clamp(.8rem,2vw,1.6rem); background: radial-gradient(80% 70% at 50% 35%, rgba(227,192,115,.08), transparent 70%), repeating-linear-gradient(135deg, transparent 0 9px, rgba(227,192,115,.04) 9px 10px); border-bottom:1px solid var(--line); }
+.plate .visual .sigil { font-family: var(--serif); font-style: italic; font-size:clamp(1.3rem,3.2vw,2.3rem); color: var(--gold); line-height:1.1; }
+.plate .visual .sigil small { display:block; font-family: var(--mono); font-style: normal; font-size:.42em; letter-spacing:.2em; color: var(--bronze); text-transform: uppercase; margin-top:.8em; }
+.plate .caption { padding:clamp(.55rem,1.3vw,1rem) clamp(.7rem,1.5vw,1.2rem); display:flex; flex-direction:column; gap:.4em; }
+.plate .caption .ttl { font-family: var(--serif); font-style: italic; font-size:clamp(.98rem,1.7vw,1.3rem); color: var(--ivory); line-height:1.12; }
+.plate .caption .meta { font-family: var(--mono); font-size: var(--small-size); color: var(--ivory-dim); letter-spacing:.03em; }
+.plate.win { border-color: var(--bronze); }
+.plate-img { width:100%; height:100%; object-fit: cover; max-height:30vh; }
+
+.spectrum { display:grid; grid-template-columns:repeat(4,1fr); gap:clamp(.5rem,1.2vw,1rem); position:relative; }
+.spectrum::before { content:""; position:absolute; left:4%; right:4%; top:1.1em; height:2px; background: linear-gradient(90deg, var(--verdigris), var(--bronze) 60%, var(--oxblood)); opacity:.5; }
+.regime { text-align:center; display:flex; flex-direction:column; gap:.4em; align-items:center; }
+.regime .dot { width:clamp(.8rem,1.6vw,1.2rem); height:clamp(.8rem,1.6vw,1.2rem); border-radius:50%; background: var(--bronze); box-shadow:0 0 0 4px var(--bg); margin-bottom:.2em; }
+.regime .name { font-family: var(--mono); text-transform: uppercase; letter-spacing:.12em; font-size: var(--small-size); color: var(--gold); }
+.regime .sc { font-family: var(--serif); font-style: italic; font-size:clamp(1.3rem,3vw,2.1rem); color: var(--ivory); }
+.regime .desc { font-size: var(--small-size); color: var(--ivory-dim); max-width:16ch; }
+
+.statline { display:flex; flex-wrap:wrap; gap:clamp(1rem,3vw,2.6rem); }
+.stat { display:flex; flex-direction:column; }
+.stat .big { font-family: var(--serif); font-size:clamp(1.8rem,4.6vw,3.4rem); color: var(--gold); line-height:1; }
+.stat .cap { font-family: var(--mono); font-size: var(--small-size); color: var(--ivory-dim); text-transform: uppercase; letter-spacing:.12em; margin-top:.35em; max-width:18ch; }
+
+.hero-title { font-size: var(--title-size); font-weight:700; line-height:.98; }
+.hero-title .sub { display:block; font-size:.3em; font-style: italic; font-weight:500; color: var(--bronze); margin-top:.5em; letter-spacing:.02em; line-height:1.3; }
+.divider .slide-content { justify-content:center; }
+.divider h2 { font-size:clamp(2rem,6vw,4.4rem); }
+.divider .idx { font-family: var(--mono); color: var(--bronze); letter-spacing:.3em; font-size: var(--small-size); text-transform: uppercase; }
+
+.footer-meta { position:absolute; left: var(--slide-padding); bottom:clamp(.7rem,2vh,1.6rem); font-family: var(--mono); font-size: var(--small-size); color: var(--ivory-dim); letter-spacing:.12em; opacity:.7; }
+
+/* Navegação + UI */
+.progress { position:fixed; top:0; left:0; height:3px; background: linear-gradient(90deg, var(--bronze), var(--gold)); width:0%; z-index:50; transition: width .4s ease; }
+.counter { position:fixed; bottom:clamp(.8rem,2.4vh,1.8rem); right:clamp(1rem,3vw,2.4rem); z-index:50; font-family: var(--mono); font-size: var(--small-size); color: var(--bronze); letter-spacing:.18em; }
+.counter b { color: var(--gold); font-weight:500; }
+.dots { position:fixed; top:50%; right:clamp(.6rem,1.4vw,1.3rem); transform: translateY(-50%); z-index:50; display:flex; flex-direction:column; gap:.65rem; }
+.dots button { width:9px; height:9px; border-radius:50%; border:1px solid var(--bronze); background: transparent; cursor:pointer; padding:0; transition: all .3s; }
+.dots button.on { background: var(--gold); border-color: var(--gold); transform: scale(1.25); }
+.hint { position:fixed; bottom:clamp(.8rem,2.4vh,1.8rem); left:50%; transform: translateX(-50%); z-index:50; font-family: var(--mono); font-size: var(--small-size); color: var(--ivory-dim); letter-spacing:.14em; opacity:.55; pointer-events:none; }
+
+/* Reveal */
+.reveal { opacity:0; transform: translateY(20px); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1); transition-delay: calc(var(--i,0) * 95ms); }
+.slide.is-active .reveal { opacity:1; transform:none; }
+
+/* Alturas curtas */
+@media (max-height:700px){ :root{ --slide-padding:clamp(.9rem,3vw,2rem); --content-gap:clamp(.4rem,1.4vh,1rem);} }
+@media (max-height:600px){ :root{ --content-gap:clamp(.3rem,1vh,.7rem);} .dots,.hint{display:none;} blockquote{font-size:clamp(1.05rem,2.4vw,1.7rem);} }
+@media (max-width:720px){ .two-col{grid-template-columns:1fr;} .spectrum{grid-template-columns:1fr 1fr;} .kicker{display:none;} }
+@media (prefers-reduced-motion: reduce){ *,*::before,*::after{animation-duration:.01ms!important; transition-duration:.2s!important;} html{scroll-behavior:auto;} .reveal{transform:none;} }
+@media print { .slide{page-break-after:always; height:100vh;} .dots,.counter,.hint,.progress{display:none;} }
+</style>
+</head>
+
+<body>
+
+<div class="progress" id="progress"></div>
+<nav class="dots" id="dots" aria-label="Navegação de slides"></nav>
+<div class="counter" id="counter"><b>01</b> / 22</div>
+<div class="hint" id="hint">↑ ↓ · espaço · setas · F = tela cheia</div>
+
+<main>
+
+  <!-- 01 — CAPA -->
+  <section class="slide" data-title="Capa">
+    <span class="kicker" aria-hidden="true">I</span>
+    <div class="slide-content">
+      <p class="eyebrow reveal" style="--i:0">PPGD/UFSC · Grupo de Estudos de História do Direito · 15 jun 2026</p>
+      <h1 class="hero-title reveal" style="--i:1">Do ventre à alegoria
+        <span class="sub">Da mulher como nacional subordinada ao rosto feminino da soberania<br>— uma passagem da dissertação à tese · <span class="gold">ICONOCRACIA</span></span>
+      </h1>
+      <div class="rule reveal" style="--i:2; max-width:38vw; margin-top:.3rem"></div>
+      <p class="mono reveal" style="--i:3; color:var(--bronze); letter-spacing:.14em; margin-top:.5rem">ANA VANZIN · DOUTORADO PPGD/UFSC</p>
+    </div>
+    <div class="footer-meta">iconocracia · vanzin</div>
+  </section>
+
+  <!-- 02 — A PASSAGEM -->
+  <section class="slide" data-title="A passagem">
+    <div class="slide-content">
+      <p class="eyebrow reveal">Hoje não apresento um projeto — mostro uma <em>passagem</em></p>
+      <h2 class="reveal" style="--i:1; max-width:22ch">
+        Saio da mulher como sujeito <span class="ox">juridicamente restringido</span><br>
+        e chego à mulher como imagem <span class="gold">politicamente glorificada</span>.
+      </h2>
+      <p class="lead reveal dim" style="--i:2; margin-top:.6rem">
+        Da minha dissertação sobre nacionalidade feminina para a pesquisa atual sobre iconocracia e alegoria.
+        Duas etapas — um só arranjo de poder.
+      </p>
+    </div>
+    <div class="footer-meta">02 — a linha de fala</div>
+  </section>
+
+  <!-- 03 — A DISSERTAÇÃO EM UMA FRASE -->
+  <section class="slide" data-title="Dissertação em uma frase">
+    <div class="slide-content">
+      <p class="eyebrow reveal">A dissertação, em uma frase</p>
+      <div class="two-col">
+        <div class="grid reveal" style="--i:1; gap:1rem">
+          <div class="card">
+            <span class="num">1804–1957</span>
+            <h3>Condição jurídica feminina &amp; nacionalidade</h3>
+            <p class="dim">Aquisição, manutenção e perda forçada da nacionalidade das mulheres.</p>
+          </div>
+          <div class="card" style="border-color:var(--bronze)">
+            <h3>Tese central</h3>
+            <p class="dim">As leis de nacionalidade não eram neutras: elas <strong>institucionalizavam uma subordinação patriarcal</strong> — sobretudo no casamento.</p>
+          </div>
+        </div>
+        <div class="reveal" style="--i:2">
+          <blockquote>
+            A mulher podia ser símbolo da nação — mas não era reconhecida como <em>nacional de pleno direito</em>.
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div class="footer-meta">03 — de onde eu venho</div>
+  </section>
+
+  <!-- 04 — O QUE A DISSERTAÇÃO DEMONSTROU -->
+  <section class="slide" data-title="A dissertação demonstrou">
+    <div class="slide-content">
+      <p class="eyebrow reveal">O que a dissertação demonstrou &nbsp;·&nbsp; duas engrenagens</p>
+      <div class="grid reveal" style="--i:1; grid-template-columns:1fr 1fr; gap:1.2rem">
+        <div class="card">
+          <h3>Nacionalidade dependente</h3>
+          <p class="dim">A mulher era subordinada ao status nacional do <em>marido</em> — perdendo autonomia legal e cívica no casamento.</p>
+        </div>
+        <div class="card">
+          <h3><em>Ius sanguinis a patre</em></h3>
+          <p class="dim">A nacionalidade transmitia-se pelo <em>pai</em>: a linhagem materna era apagada da reprodução jurídica da nação.</p>
+        </div>
+      </div>
+      <div class="two-col reveal" style="--i:2; margin-top:.3rem">
+        <p class="dim">Não um caso isolado, mas uma <strong>estrutura</strong>: códigos de França, Itália, Reino Unido, Canadá e Estados Unidos institucionalizaram o mesmo padrão.</p>
+        <p class="dim">E as reformas vieram por <strong>contestação feminista e pressão internacional</strong> — não por neutralidade espontânea do direito.</p>
+      </div>
+    </div>
+    <div class="footer-meta">04 — a estrutura por trás dos códigos</div>
+  </section>
+
+  <!-- 05 — A VIRADA / NOVA HIPÓTESE -->
+  <section class="slide" data-title="A virada">
+    <span class="kicker" aria-hidden="true">∴</span>
+    <div class="slide-content">
+      <p class="eyebrow reveal">A virada &nbsp;·&nbsp; uma hipótese mais radical</p>
+      <blockquote class="reveal wide" style="--i:1; font-size:clamp(1.1rem,2.6vw,1.95rem); max-width:40ch">
+        O Estado moderno fez duas operações ao mesmo tempo: retirou das mulheres a plena autonomia jurídica <em>e</em> deu às mulheres um lugar privilegiado no imaginário político.
+      </blockquote>
+      <div class="grid reveal" style="--i:2; grid-template-columns:repeat(3,1fr); gap:.9rem; margin-top:.3rem">
+        <div class="card"><h3>Na lei</h3><p class="dim">dependência</p></div>
+        <div class="card"><h3>Na imagem</h3><p class="dim">monumentalização</p></div>
+        <div class="card"><h3>Na política</h3><p class="dim">legitimação</p></div>
+      </div>
+      <p class="lead reveal" style="--i:3; margin-top:.4rem">A pergunta mudou: <strong>por que o Estado que subordina mulheres se apresenta com rosto de mulher?</strong></p>
+    </div>
+    <div class="footer-meta">05 — exclusão e glorificação: duas faces</div>
+  </section>
+
+  <!-- 06 — A DEFASAGEM -->
+  <section class="slide" data-title="A defasagem">
+    <div class="slide-content">
+      <p class="eyebrow reveal">A prova histórica &nbsp;·&nbsp; presença simbólica × cidadania real</p>
+      <div class="two-col" style="margin-top:.2rem">
+        <div class="grid reveal" style="--i:1; gap:1rem">
+          <div class="card"><span class="num">FR</span><h3>Marianne, 1792 → voto feminino, 1944</h3><p class="dim">152 anos entre o rosto feminino da República e o direito de voto das francesas.</p></div>
+          <div class="card"><span class="num">BE</span><h3>Constituição-mulher, 1848 → sufrágio, 1948</h3><p class="dim">Um século entre a alegoria e a cidadã.</p></div>
+        </div>
+        <div class="reveal" style="--i:2">
+          <blockquote>Quanto maior a consolidação alegórica, maior a resistência à inclusão política.</blockquote>
+          <p class="lead" style="margin-top:1rem">A hipervisibilidade alegórica não <em>contradiz</em> a exclusão cívica: ela a <strong>sustenta, mascara e naturaliza</strong>.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-meta">06 — não é coincidência, é estrutural</div>
+  </section>
+
+  <!-- 07 — ICONOCRACIA + LACUNA -->
+  <section class="slide" data-title="Iconocracia">
+    <div class="slide-content">
+      <p class="eyebrow reveal">Iconocracia &nbsp;·&nbsp; o governo pela imagem</p>
+      <div class="two-col">
+        <div class="reveal" style="--i:1">
+          <h2>A imagem não <em>acompanha</em> o poder. Ela o <span class="gold">fabrica</span>.</h2>
+          <blockquote style="margin-top:1rem; font-size:clamp(1rem,2.1vw,1.5rem); max-width:32ch">
+            A iconocracia opera por precedência: a imagem precede e engendra a realidade política que pretende representar.
+          </blockquote>
+        </div>
+        <div class="reveal" style="--i:2">
+          <p class="mono dim" style="font-size:var(--small-size); letter-spacing:.14em; margin-bottom:.5rem">A LACUNA — DOIS PONTOS CEGOS</p>
+          <ul class="clean">
+            <li><strong>Pateman</strong> tem um “ponto cego visual”: o contrato sexual “não estava em silêncio — estava em <em>exibição</em>”, e ela não cita uma única moeda ou monumento.</li>
+            <li><strong>Goodrich</strong> vê a <em>visiocracia</em> — o direito governa por imagens — mas nunca pergunta <em>por que elas são femininas</em>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-meta">07 — por que a história do direito precisa ver</div>
+  </section>
+
+  <!-- 08 — DIVISOR II: OS 4 CONCEITOS -->
+  <section class="slide divider" data-title="Os quatro conceitos">
+    <span class="kicker" aria-hidden="true">II</span>
+    <div class="slide-content">
+      <p class="idx reveal">Parte II</p>
+      <h2 class="reveal" style="--i:1">Os quatro conceitos autorais</h2>
+      <p class="lead reveal" style="--i:2; max-width:50ch">
+        Três descrevem <em>efeitos</em> — político, subjetivo, racial.
+        O quarto descreve a <strong>operação</strong> que os produz — e que os torna mensuráveis.
+      </p>
+      <div class="chips reveal" style="--i:3; margin-top:.6rem">
+        <span class="chip"><b>1.</b> Contrato Sexual Visual</span>
+        <span class="chip"><b>2.</b> Feminilidade de Estado</span>
+        <span class="chip"><b>3.</b> Contrato Racial Visual</span>
+        <span class="chip"><b>4.</b> Purificação Clássica</span>
+      </div>
+    </div>
+    <div class="footer-meta">08 — arquitetura conceitual</div>
+  </section>
+
+  <!-- 09 — CONTRATO SEXUAL VISUAL -->
+  <section class="slide" data-title="Contrato Sexual Visual">
+    <div class="slide-content">
+      <p class="eyebrow reveal">Conceito 1 &nbsp;·&nbsp; o efeito político</p>
+      <h2 class="reveal" style="--i:1">Contrato Sexual Visual</h2>
+      <div class="two-col">
+        <div class="reveal" style="--i:2">
+          <blockquote style="font-size:clamp(1rem,2vw,1.45rem); max-width:34ch">
+            O Estado exibe um “rosto de mulher” enquanto mantém intacta a fraternidade masculina que o governa.
+          </blockquote>
+          <p class="dim" style="margin-top:1rem; font-size:var(--small-size)"><span class="gold">Atribuição:</span> Pateman é a fonte do contrato <em>não-visual</em>. A extensão <em>visual</em> é autoral — a ponte que nem Pateman nem Goodrich alcançaram.</p>
+        </div>
+        <div class="reveal" style="--i:3">
+          <p class="mono dim" style="font-size:var(--small-size); letter-spacing:.14em; margin-bottom:.6rem">QUATRO MODALIDADES</p>
+          <ul class="clean">
+            <li><strong>Substituição</strong> — a imagem ocupa o lugar da presença real.</li>
+            <li><strong>Naturalização</strong> — a exclusão vira “ordem das coisas”.</li>
+            <li><strong>Sacralização</strong> — o corpo alegórico torna-se intocável.</li>
+            <li><strong>Pedagogia</strong> — a figura ensina o que é ser mulher no Estado.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-meta">09 — Cap. 1 · Pateman → Goodrich</div>
+  </section>
+
+  <!-- 10 — FEMINILIDADE DE ESTADO -->
+  <section class="slide" data-title="Feminilidade de Estado">
+    <div class="slide-content">
+      <p class="eyebrow reveal">Conceito 2 &nbsp;·&nbsp; o efeito subjetivo</p>
+      <h2 class="reveal" style="--i:1">Feminilidade de Estado</h2>
+      <div class="two-col">
+        <div class="reveal" style="--i:2">
+          <p class="lead">Um corpo feminino apto a <strong>carregar</strong> o poder masculino sem jamais reivindicá-lo: um <em>“recipiente vazio”</em>, uma <em>“infraestrutura de afeto público”</em>.</p>
+          <blockquote style="margin-top:1rem; font-size:clamp(1rem,2vw,1.4rem); max-width:30ch">Quanto mais desindividualizada a figura, maior a sua liquidez simbólica.</blockquote>
+        </div>
+        <div class="reveal" style="--i:3">
+          <div class="card">
+            <p class="mono gold" style="font-size:var(--small-size); letter-spacing:.14em">RAIZ DUPLA &nbsp;(não Mondzain)</p>
+            <ul class="clean" style="margin-top:.6rem">
+              <li><strong>Legendre</strong> — o juiz totêmico; o “corpo sem palavras”.</li>
+              <li><strong>Anne Carson</strong> — a <em>hystéra</em>; o útero móvel, a matéria dúctil.</li>
+            </ul>
+            <p class="dim" style="margin-top:.8rem; font-size:var(--small-size)">A codificação totêmica <em>domestica</em> a instabilidade carsoniana em superfície imóvel apta a sustentar a soberania.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-meta">10 — Cap. 2 · Legendre + Carson</div>
+  </section>
+
+  <!-- 11 — CONTRATO RACIAL VISUAL -->
+  <section class="slide" data-title="Contrato Racial Visual">
+    <div class="slide-content">
+      <p class="eyebrow reveal">Conceito 3 &nbsp;·&nbsp; o efeito racial</p>
+      <h2 class="reveal" style="--i:1">Contrato Racial Visual</h2>
+      <p class="lead reveal" style="--i:2; max-width:60ch">A alegoria “universal” é constitutivamente <strong>branca</strong>. O neoclassicismo opera como <em>tecnologia de branqueamento</em>.</p>
+      <div class="grid reveal" style="--i:3; grid-template-columns:1fr 1fr; gap:1.1rem; margin-top:.2rem">
+        <div class="card"><h3>Universalização branqueada</h3><p class="dim">Villares, <em>Alegoria da República</em> (1889): um corpo branco, marmóreo — <span class="gold">“que inexiste no Brasil do século XIX”</span>, país recém-abolicionista. O corpo branco é <em>condição de operabilidade</em>, não preferência estética.</p></div>
+        <div class="card"><h3>Autorização paternalística</h3><p class="dim">Congo Belga: o corpo negro é incluído só como criança tutelada — <span class="gold">“a mãe é europeia, o filho é africano”</span>. A purificação vira <em>privilégio racial</em>.</p></div>
+      </div>
+      <blockquote class="reveal" style="--i:4; font-size:clamp(.95rem,1.8vw,1.3rem); max-width:50ch; margin-top:.2rem">
+        Antes que o decreto colonial declare a menoridade do indígena, o bilhete de banco já o mostra como menor.
+      </blockquote>
+    </div>
+    <div class="footer-meta">11 — Cap. 3 · o visual precede o jurídico</div>
+  </section>
+
+  <!-- 12 — PURIFICAÇÃO CLÁSSICA -->
+  <section class="slide" data-title="Purificação Clássica">
+    <span class="kicker" aria-hidden="true">IV</span>
+    <div class="slide-content">
+      <p class="eyebrow reveal">Conceito 4 &nbsp;·&nbsp; a operação que produz os três</p>
+      <h2 class="reveal" style="--i:1">Purificação Clássica</h2>
+      <blockquote class="reveal wide" style="--i:2; font-size:clamp(1rem,2.2vw,1.6rem); max-width:46ch">
+        A operação formal pela qual o regime iconocrático extrai o feminino histórico — biografia, materialidade, subjetividade — e o fixa numa superfície alegórica eterna, neoclássica e funcional à soberania.
+      </blockquote>
+      <div class="two-col" style="margin-top:.2rem">
+        <div class="reveal" style="--i:3">
+          <p class="mono gold" style="font-size:var(--small-size); letter-spacing:.14em">MATRIZ JURÍDICA</p>
+          <ul class="clean" style="margin-top:.4rem">
+            <li><strong>Kantorowicz</strong> — os dois corpos do rei: o ato inaugural da purificação.</li>
+            <li><strong>Legendre · Hespanha</strong> — o corpo sem palavras; categorias estamentais.</li>
+          </ul>
+        </div>
+        <div class="reveal" style="--i:4">
+          <p class="mono gold" style="font-size:var(--small-size); letter-spacing:.14em">EXTENSÃO FERRAMENTAL</p>
+          <ul class="clean" style="margin-top:.4rem">
+            <li><strong>Latour</strong> (1991) — a “purificação” como gesto moderno.</li>
+            <li><strong>Haraway · Descola</strong> — a alegoria é o <em>inverso do ciborgue</em>: superfície fechada, presença sem agência.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="reveal dim" style="--i:5; font-size:var(--small-size); margin-top:.1rem">→ operacionalizada empiricamente como <span class="gold">endurecimento</span>.</p>
+    </div>
+    <div class="footer-meta">12 — Cap. 5.2 · do conceito ao dado</div>
+  </section>
+
+  <!-- 13 — DIVISOR III: COMO SE MEDE -->
+  <section class="slide divider" data-title="Como se mede">
+    <span class="kicker" aria-hidden="true">III</span>
+    <div class="slide-content">
+      <p class="idx reveal">Parte III</p>
+      <h2 class="reveal" style="--i:1">Como se <em>mede</em> uma alegoria?</h2>
+      <p class="lead reveal" style="--i:2; max-width:46ch">De uma operação ideológica a uma escala ordinal auditável e reprodutível — cruzando iconologia, cultura jurídica e análise quantitativa.</p>
+    </div>
+    <div class="footer-meta">13 — método</div>
+  </section>
+
+  <!-- 14 — PANOFSKY 3 NÍVEIS -->
+  <section class="slide" data-title="Panofsky / IconoCode">
+    <div class="slide-content">
+      <p class="eyebrow reveal">O protocolo IconoCode &nbsp;·&nbsp; Panofsky em três níveis</p>
+      <div class="grid reveal" style="--i:1; grid-template-columns:repeat(3,1fr); gap:1rem">
+        <div class="card"><span class="num">N1</span><h3>Pré-iconográfico</h3><p class="dim">O visível, sem interpretar: espada, balança, barrete, tocha, suporte, texto inscrito.</p></div>
+        <div class="card"><span class="num">N2</span><h3>Iconográfico</h3><p class="dim">Qual alegoria, qual tradição. Codificação <span class="gold">ICONCLASS 48C51</span> — 21% do corpus.</p></div>
+        <div class="card"><span class="num">N3</span><h3>Iconológico</h3><p class="dim">Qual regime opera; qual função jurídico-política; como o Contrato Sexual Visual se manifesta.</p></div>
+      </div>
+      <div class="card reveal" style="--i:2; margin-top:.3rem; border-color:var(--bronze)">
+        <p class="mono gold" style="font-size:var(--small-size); letter-spacing:.14em">CASO-ESCOLA &nbsp;·&nbsp; Chifflart, <em>L'envoyé de la Justice</em> (1859)</p>
+        <p style="margin-top:.4rem">A Justiça feminina <strong>autoriza</strong>, mas não age; o corpo masculino <strong>executa</strong> a violência que o corpo feminino legitima. O intervalo luminoso entre as figuras é o <em>Zwischenraum</em> tornado literal.</p>
+      </div>
+    </div>
+    <div class="footer-meta">14 — leitura em três níveis</div>
+  </section>
+
+  <!-- 15 — OS 10 INDICADORES -->
+  <section class="slide" data-title="10 indicadores">
+    <div class="slide-content">
+      <p class="eyebrow reveal">Endurecimento &nbsp;·&nbsp; 10 indicadores ordinais (0–3)</p>
+      <p class="reveal dim" style="--i:1; font-size:var(--small-size); max-width:72ch">De um corpo vivo, dinâmico e individual (0) a um signo de Estado abstrato, rígido e serial (3). O score é a média dos dez.</p>
+      <div class="two-col" style="gap:clamp(1rem,3vw,2.4rem); align-items:start">
+        <div class="reveal" style="--i:2">
+          <p class="mono gold" style="font-size:var(--small-size); letter-spacing:.14em; margin-bottom:.4rem">1–7 · MORFOLÓGICOS <span class="dim">(o corpo)</span></p>
+          <ul class="clean" style="gap:.3rem">
+            <li>Desincorporação — corpo → busto → rosto → símbolo</li>
+            <li>Rigidez postural — dinâmico vs. congelado</li>
+            <li>Dessexualização — apagar os marcadores do corpo</li>
+            <li>Uniformização facial — genérico vs. individual</li>
+            <li>Heraldicização — absorção em programa institucional</li>
+            <li>Enquadramento arquitetônico — a moldura que aprisiona</li>
+            <li>Apagamento narrativo — história → ícone</li>
+          </ul>
+        </div>
+        <div class="reveal" style="--i:3">
+          <p class="mono gold" style="font-size:var(--small-size); letter-spacing:.14em; margin-bottom:.4rem">8–10 · MATERIAIS <span class="dim">(o suporte)</span></p>
+          <ul class="clean" style="gap:.3rem">
+            <li>Monocromatização — policromia → metal</li>
+            <li>Serialidade — único → edição → industrial</li>
+            <li>Inscrição estatal — o texto do Estado sobre o corpo</li>
+          </ul>
+          <p class="dim" style="margin-top:.9rem; font-size:var(--small-size)">A serialidade de uma <em>moeda</em> é imposta pelo meio. Separar o morfológico do material é parte do rigor — e da autocrítica honesta da tese.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-meta">15 — o instrumento</div>
+  </section>
+
+  <!-- 16 — O CORPUS -->
+  <section class="slide" data-title="O corpus">
+    <div class="slide-content">
+      <p class="eyebrow reveal">O corpus &nbsp;·&nbsp; 1800–2000 &nbsp;·&nbsp; arquivos abertos</p>
+      <div class="statline reveal" style="--i:1">
+        <div class="stat"><span class="big">≈145</span><span class="cap">itens no núcleo analítico codificado</span></div>
+        <div class="stat"><span class="big">265</span><span class="cap">no acervo catalogado (em expansão)</span></div>
+        <div class="stat"><span class="big">6 · 8</span><span class="cap">países · suportes visuais</span></div>
+      </div>
+      <div class="two-col" style="gap:clamp(1rem,3vw,2.6rem); margin-top:.2rem; align-items:start">
+        <div class="reveal" style="--i:2">
+          <p class="mono dim" style="font-size:var(--small-size); letter-spacing:.14em; margin-bottom:.5rem">POR PAÍS &nbsp;(acervo)</p>
+          <div class="bars">
+            <div class="bar-row"><span class="lbl">França</span><span class="track"><span class="fill" style="--w:100%"></span></span><span class="v">32,5%</span></div>
+            <div class="bar-row"><span class="lbl">Brasil</span><span class="track"><span class="fill" style="--w:50%"></span></span><span class="v">16,2%</span></div>
+            <div class="bar-row"><span class="lbl">EUA</span><span class="track"><span class="fill" style="--w:34%"></span></span><span class="v">10,9%</span></div>
+            <div class="bar-row"><span class="lbl">Alemanha</span><span class="track"><span class="fill" style="--w:27%"></span></span><span class="v">8,7%</span></div>
+            <div class="bar-row"><span class="lbl">Reino Unido</span><span class="track"><span class="fill" style="--w:24%"></span></span><span class="v">7,9%</span></div>
+            <div class="bar-row"><span class="lbl">Bélgica</span><span class="track"><span class="fill" style="--w:12%"></span></span><span class="v">3,8%</span></div>
+          </div>
+        </div>
+        <div class="reveal" style="--i:3">
+          <p class="mono dim" style="font-size:var(--small-size); letter-spacing:.14em; margin-bottom:.5rem">POR SUPORTE</p>
+          <div class="chips">
+            <span class="chip">estampa <b>34%</b></span><span class="chip">moeda <b>22%</b></span>
+            <span class="chip">cartaz <b>9%</b></span><span class="chip">monumento <b>7,5%</b></span>
+            <span class="chip">pintura <b>6%</b></span><span class="chip">selo <b>5%</b></span>
+            <span class="chip">papel-moeda <b>5%</b></span>
+          </div>
+          <p class="dim" style="margin-top:1rem; font-size:var(--small-size)">A França é a <span class="gold">“moeda forte”</span> da iconografia política (1/3 do corpus). O Brasil não é variante periférica: é o <em>nó analítico</em> que revela os pressupostos raciais que a versão metropolitana silencia.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-meta">16 — composição do corpus</div>
+  </section>
+
+  <!-- 17 — OS TRÊS REGIMES -->
+  <section class="slide" data-title="Regimes">
+    <div class="slide-content">
+      <p class="eyebrow reveal">Os regimes iconocráticos &nbsp;·&nbsp; perfis morfológicos do corpo</p>
+      <div class="spectrum reveal" style="--i:1; margin-top:.5rem">
+        <div class="regime"><span class="dot" style="background:var(--verdigris)"></span><span class="name">Fundacional</span><span class="sc">≈0,9</span><span class="desc">corpo vivo, narrativo — a barricada</span></div>
+        <div class="regime"><span class="dot"></span><span class="name">Normativo</span><span class="sc">≈1,9</span><span class="desc">busto serial, burocrático — a <em>mairie</em></span></div>
+        <div class="regime"><span class="dot" style="background:var(--oxblood)"></span><span class="name">Militar</span><span class="sc">≈2,2</span><span class="desc">corpo convocatório — o cartaz de guerra</span></div>
+        <div class="regime"><span class="dot" style="background:var(--ivory-dim)"></span><span class="name">Contra-alegoria</span><span class="sc">≈0,6</span><span class="desc">recusa a purificação — a sátira</span></div>
+      </div>
+      <p class="mono dim reveal" style="--i:2; font-size:var(--small-size); text-align:center; margin-top:.1rem">endurecimento médio &nbsp;·&nbsp; do corpo vivo (0) ao signo de Estado (3)</p>
+      <blockquote class="reveal" style="--i:3; font-size:clamp(.95rem,1.9vw,1.35rem); max-width:48ch; margin:.3rem auto 0; text-align:center">
+        Os regimes não se sucedem linearmente — convivem e se sobrepõem. A Feminilidade de Estado pode ser revolucionária em 1789 e policial em 1964.
+      </blockquote>
+    </div>
+    <div class="footer-meta">17 — uma tipologia, não uma cronologia</div>
+  </section>
+
+  <!-- 18 — BÉLGICA 1848 -->
+  <section class="slide" data-title="Bélgica 1848">
+    <div class="slide-content">
+      <p class="eyebrow reveal">Os corpos · Caso 1 &nbsp;·&nbsp; Bélgica, 1848 — as alegorias em duelo</p>
+      <div class="two-col reveal" style="--i:1; gap:clamp(.9rem,2.4vw,1.8rem)">
+        <div class="plate win">
+          <div class="visual"><span class="sigil">A Constituição<small>Meganck · serena · aponta a lei</small></span></div>
+          <div class="caption"><span class="ttl">A Nação Belga &amp; a Justiça</span><span class="meta">BE · estampa · 1848 · regime normativo</span>
+            <div class="meter"><span class="cap">end.</span><span class="track"><span class="fill" style="--v:2.0"></span></span><span class="val">~2.0</span></div>
+          </div>
+        </div>
+        <div class="plate">
+          <div class="visual"><span class="sigil it">A Liberté<small>francesa · barricada · cidade em chamas</small></span></div>
+          <div class="caption"><span class="ttl">Liberté revolucionária</span><span class="meta">FR · estampa · c.1848 · regime fundacional</span>
+            <div class="meter"><span class="cap">end.</span><span class="track"><span class="fill" style="--v:0.8"></span></span><span class="val">~0.8</span></div>
+          </div>
+        </div>
+      </div>
+      <blockquote class="reveal" style="--i:2; font-size:clamp(.92rem,1.8vw,1.3rem); max-width:54ch; margin-top:.1rem">
+        A Bélgica constitucional, feminina e serena, opunha-se à França revolucionária, feminina e destrutiva.
+        Uma <strong>agia</strong>; a outra <strong>mostrava</strong>. Nenhuma mulher real sentava naquele parlamento.
+      </blockquote>
+    </div>
+    <div class="footer-meta">18 — a tese em uma imagem</div>
+  </section>
+
+  <!-- 19 — DA BARRICADA AO BUSTO -->
+  <section class="slide" data-title="Marianne">
+    <div class="slide-content">
+      <p class="eyebrow reveal">Caso 2 &nbsp;·&nbsp; Marianne — da barricada ao busto</p>
+      <div class="two-col reveal" style="--i:1; gap:clamp(.9rem,2.4vw,1.8rem)">
+        <div class="plate">
+          <div class="visual"><span class="sigil it">Delacroix<small>corpo vivo · em marcha · seios nus</small></span></div>
+          <div class="caption"><span class="ttl">A Liberdade guiando o povo</span><span class="meta">FR · pintura · 1830 · fundacional</span>
+            <div class="meter"><span class="cap">end.</span><span class="track"><span class="fill" style="--v:0.6"></span></span><span class="val">~0.6</span></div>
+          </div>
+        </div>
+        <div class="plate win">
+          <div class="visual"><span class="sigil">O busto<small>rosto + barrete + ombros · em 36.000 <em>mairies</em></small></span></div>
+          <div class="caption"><span class="ttl">Marianne de prefeitura</span><span class="meta">FR · escultura serial · séc. XX · normativo</span>
+            <div class="meter"><span class="cap">end.</span><span class="track"><span class="fill" style="--v:2.4"></span></span><span class="val">~2.4</span></div>
+          </div>
+        </div>
+      </div>
+      <blockquote class="reveal" style="--i:2; font-size:clamp(.95rem,1.9vw,1.35rem); max-width:50ch; margin-top:.1rem">
+        O formato do busto <strong>é</strong> a purificação: elimina membros, mãos, torso — reduz a figura ao mínimo semiótico.
+      </blockquote>
+    </div>
+    <div class="footer-meta">19 — a purificação tornada forma</div>
+  </section>
+
+  <!-- 20 — MÉTODO vs METADADO -->
+  <section class="slide" data-title="Método vs metadado">
+    <div class="slide-content">
+      <p class="eyebrow reveal">Caso 3 &nbsp;·&nbsp; por que codificamos a <em>imagem</em>, não o metadado</p>
+      <div class="two-col" style="align-items:start">
+        <div class="reveal" style="--i:1">
+          <div class="card">
+            <h3>Duas Mariannes de guerra (1914–18)</h3>
+            <p class="dim">Mesma função institucional — propaganda de guerra francesa. Corpos opostos:</p>
+            <div class="meter" style="margin-top:.6rem"><span class="cap" style="min-width:6.5em">Steinlen</span><span class="track"><span class="fill" style="--v:0.8"></span></span><span class="val">0.8</span></div>
+            <div class="meter" style="margin-top:.4rem"><span class="cap" style="min-width:6.5em">Lelong</span><span class="track"><span class="fill" style="--v:1.8"></span></span><span class="val">1.8</span></div>
+            <p class="dim" style="margin-top:.5rem; font-size:var(--small-size)">Gritando, seios nus vs. estátua petrificada.</p>
+          </div>
+        </div>
+        <div class="reveal" style="--i:2">
+          <div class="card">
+            <h3><em>Emprunt National</em> 1920 — o quarteto</h3>
+            <p class="dim">Quatro cartazes, score <strong>idêntico (2.0)</strong> pelo metadado. Pela imagem: de <span class="gold">0.4 a 1.5</span> — incluindo uma <em>Marianne-criança</em> descalça na praia.</p>
+          </div>
+        </div>
+      </div>
+      <blockquote class="reveal" style="--i:3; font-size:clamp(.95rem,1.9vw,1.35rem); max-width:56ch; margin-top:.1rem">
+        O estilo individual do artista modula o endurecimento — mesmo quando a função institucional é idêntica. O número capta o que a catalogação não vê.
+      </blockquote>
+    </div>
+    <div class="footer-meta">20 — o que só a imagem revela</div>
+  </section>
+
+  <!-- 21 — OS NÚMEROS + CONTRA-ALEGORIA -->
+  <section class="slide" data-title="Os números">
+    <div class="slide-content">
+      <p class="eyebrow reveal">Os números &nbsp;·&nbsp; o endurecimento é real, mensurável e ligado ao regime</p>
+      <div class="two-col" style="align-items:start; gap:clamp(1rem,3vw,2.6rem)">
+        <div class="reveal" style="--i:1">
+          <p class="mono dim" style="font-size:var(--small-size); letter-spacing:.14em; margin-bottom:.5rem">O GRADIENTE (endurecimento médio)</p>
+          <div class="bars">
+            <div class="bar-row"><span class="lbl">Fundacional</span><span class="track"><span class="fill cool" style="--w:30%"></span></span><span class="v">0,9</span></div>
+            <div class="bar-row"><span class="lbl">Normativo</span><span class="track"><span class="fill" style="--w:63%"></span></span><span class="v">1,9</span></div>
+            <div class="bar-row"><span class="lbl">Militar</span><span class="track"><span class="fill hot" style="--w:74%"></span></span><span class="v">2,2</span></div>
+            <div class="bar-row"><span class="lbl">Contra-alegoria</span><span class="track"><span class="fill cool" style="--w:20%"></span></span><span class="v">0,6</span></div>
+          </div>
+          <p class="dim" style="margin-top:.7rem; font-size:var(--small-size)">Kruskal-Wallis: <strong>9 dos 10</strong> indicadores diferem entre regimes (p&lt;0,001). Os motores: <span class="gold">serialidade · inscrição estatal · heraldicização</span> — a máquina de Estado. O suporte dita o corpo: a moeda endurece, a pintura amolece.</p>
+        </div>
+        <div class="reveal" style="--i:2">
+          <p class="mono dim" style="font-size:var(--small-size); letter-spacing:.14em; margin-bottom:.5rem">A CONTRA-ALEGORIA &nbsp;·&nbsp; a prova por negação</p>
+          <div class="chips" style="margin-bottom:.6rem">
+            <span class="chip">Mme Anastasie · Gill 1874</span>
+            <span class="chip">Liberty is not Anarchy · Nast 1886</span>
+            <span class="chip">Looking Backward · Keppler 1893</span>
+          </div>
+          <p class="dim" style="font-size:var(--small-size)">A sátira <strong>recusa</strong> a purificação: o corpo fica individual, sexuado, narrativo. Demonstra, por negação, o que o regime normativo suprime.</p>
+        </div>
+      </div>
+      <blockquote class="reveal" style="--i:3; font-size:clamp(.95rem,1.9vw,1.35rem); max-width:58ch; margin-top:.1rem">
+        A carne que se faz lei perde, antes de tudo, sua mobilidade e seu desejo. O número capta a forma — mas não capta a <span class="ox">raça</span>: aí o quantitativo cede ao teórico.
+      </blockquote>
+    </div>
+    <div class="footer-meta">21 — métodos mistos · QUAN → QUAL</div>
+  </section>
+
+  <!-- 22 — FECHO -->
+  <section class="slide divider" data-title="Fecho">
+    <span class="kicker" aria-hidden="true">∎</span>
+    <div class="slide-content">
+      <p class="idx reveal">Fechamento &amp; debate</p>
+      <blockquote class="reveal wide" style="--i:1; font-size:clamp(1.2rem,3vw,2.35rem); max-width:30ch">
+        Na dissertação, mostrei que as mulheres foram juridicamente presas à nacionalidade. Na pesquisa atual, investigo como esse mesmo mundo político lhes deu um <span class="gold">pedestal</span> — para continuar lhes negando o <span class="ox">cetro</span>.
+      </blockquote>
+      <p class="lead reveal dim" style="--i:2; max-width:50ch">É nesse intervalo entre subordinação e glorificação que situo a iconocracia. <em>O regime iconocrático forma o olhar antes de formar a opinião.</em></p>
+      <div class="rule reveal" style="--i:3; max-width:34vw"></div>
+      <h3 class="reveal gold" style="--i:4; font-style:italic; max-width:42ch; font-size:clamp(1.1rem,2.4vw,1.7rem)">
+        O que a História do Direito perde quando lê a soberania apenas como texto, e não como imagem?
+      </h3>
+      <p class="mono reveal" style="--i:5; color:var(--bronze); letter-spacing:.16em; margin-top:.3rem">OBRIGADA · ANA VANZIN · ana.vanzin@posgrad.ufsc.br</p>
+    </div>
+    <div class="footer-meta">22 — fim · perguntas</div>
+  </section>
+
+</main>
+
+<script>
+/* PresentationController — teclado, roda, toque, índice, reveals. Zero dependências. */
+(function () {
+  "use strict";
+  const slides   = Array.from(document.querySelectorAll(".slide"));
+  const progress = document.getElementById("progress");
+  const counter  = document.getElementById("counter");
+  const dotsWrap = document.getElementById("dots");
+  const hint     = document.getElementById("hint");
+  const total    = slides.length;
+  let index = 0, locked = false;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  slides.forEach((s, i) => {
+    const b = document.createElement("button");
+    b.setAttribute("aria-label", "Ir ao slide " + (i + 1) + (s.dataset.title ? " — " + s.dataset.title : ""));
+    b.addEventListener("click", () => goTo(i));
+    dotsWrap.appendChild(b);
+  });
+  const dots = Array.from(dotsWrap.children);
+  const pad = (n) => String(n + 1).padStart(2, "0");
+
+  function setActive(i) {
+    index = i;
+    slides.forEach((s, k) => s.classList.toggle("is-active", k === i));
+    dots.forEach((d, k) => d.classList.toggle("on", k === i));
+    progress.style.width = (i / (total - 1) * 100) + "%";
+    counter.innerHTML = "<b>" + pad(i) + "</b> / " + total;
+  }
+  function goTo(i) {
+    i = Math.max(0, Math.min(total - 1, i));
+    if (i === index) return;
+    locked = true;
+    slides[i].scrollIntoView({ behavior: reduce ? "auto" : "smooth" });
+    setActive(i);
+    setTimeout(() => { locked = false; }, reduce ? 60 : 650);
+  }
+  const next = () => goTo(index + 1);
+  const prev = () => goTo(index - 1);
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting && e.intersectionRatio >= 0.55) {
+        const i = slides.indexOf(e.target);
+        if (i !== -1 && !locked) setActive(i);
+      }
+    });
+  }, { threshold: [0.55, 0.75] });
+  slides.forEach((s) => io.observe(s));
+
+  window.addEventListener("keydown", (e) => {
+    switch (e.key) {
+      case "ArrowRight": case "ArrowDown": case "PageDown": case " ":
+        e.preventDefault(); next(); break;
+      case "ArrowLeft": case "ArrowUp": case "PageUp":
+        e.preventDefault(); prev(); break;
+      case "Home": e.preventDefault(); goTo(0); break;
+      case "End":  e.preventDefault(); goTo(total - 1); break;
+      case "f": case "F":
+        if (!document.fullscreenElement) document.documentElement.requestFullscreen?.();
+        else document.exitFullscreen?.(); break;
+    }
+  });
+
+  let wheelT = 0;
+  window.addEventListener("wheel", (e) => {
+    e.preventDefault();
+    const now = Date.now();
+    if (locked || now - wheelT < 700) return;
+    if (Math.abs(e.deltaY) < 12) return;
+    wheelT = now;
+    if (e.deltaY > 0) next(); else prev();
+  }, { passive: false });
+
+  let y0 = null;
+  window.addEventListener("touchstart", (e) => { y0 = e.touches[0].clientY; }, { passive: true });
+  window.addEventListener("touchend", (e) => {
+    if (y0 === null) return;
+    const dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dy) > 45) { if (dy < 0) next(); else prev(); }
+    y0 = null;
+  }, { passive: true });
+
+  setTimeout(() => { if (hint) hint.style.opacity = "0"; }, 5200);
+  setActive(0);
+})();
+</script>
+</body>
+</html>
