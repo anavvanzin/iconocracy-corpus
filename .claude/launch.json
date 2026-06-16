@@ -7,6 +7,12 @@
       "runtimeArgs": ["-c", "exec npx wrangler dev --port 8787"],
       "port": 8787,
       "cwd": "deploy/iconocracia-companion"
+    },
+    {
+      "name": "anavanzin-site",
+      "runtimeExecutable": "/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python3.12",
+      "runtimeArgs": ["-m", "http.server", "4173", "--bind", "127.0.0.1", "-d", "/Users/ana/Documents/GitHub/anavvanzin.github.io"],
+      "port": 4173
     }
   ]
 }

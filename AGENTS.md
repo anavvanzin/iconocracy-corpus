@@ -3,11 +3,11 @@
 ## Context
 Monorepo for the doctoral thesis **"Iconocracia: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** — PPGD/UFSC, Ana Vanzin, defense 2026. Companion file for Claude Code sessions: `CLAUDE.md`.
 
-## Data Hierarchy (counts 2026-05-24)
+## Data Hierarchy (counts 2026-06-12)
 1. `data/processed/records.jsonl` — 265 records (canonical)
-2. `corpus/corpus-data.json` — 264 items (public export)
+2. `corpus/corpus-data.json` — 264 items (public export; **TODO**: re-run `records_to_corpus.py` to sync 265 after 2026-06-04 reconciliation)
 3. `data/processed/purification.jsonl` — 264 records (endurecimento coding)
-4. `vault/candidatos/` — 314 catalog cards (auxiliary mirror)
+4. `vault/candidatos/` — 316 catalog cards (auxiliary mirror)
 
 ## Environment
 ```bash
@@ -31,7 +31,8 @@ python tools/scripts/vault_sync.py pull|push|sync|diff|status
 # Endurecimento coding
 python tools/scripts/code_purification.py --status|--item ID|--batch SIGLA|--export-csv
 
-# Thesis compilation
+# Thesis compilation (chapters live in tese/manuscrito/ since 2026-06-04;
+# Makefile still in vault/tese/ — pipeline migration pending)
 make -C vault/tese/ docx     # full thesis → DOCX
 make -C vault/tese/ pdf      # full thesis → PDF (requires LaTeX)
 

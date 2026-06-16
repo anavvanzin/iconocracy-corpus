@@ -1,0 +1,90 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "anavanzin.com — início" [ref=e4] [cursor=pointer]:
+      - /url: "#topo"
+      - img [ref=e5]
+      - generic [ref=e10]:
+        - generic [ref=e11]: ana vanzin
+        - generic [ref=e12]: anavanzin.com
+    - navigation "Seções" [ref=e13]:
+      - link "Tese" [ref=e14] [cursor=pointer]:
+        - /url: "#tese"
+      - link "Publicações" [ref=e15] [cursor=pointer]:
+        - /url: "#publicacoes"
+      - link "Ius Gentium" [ref=e16] [cursor=pointer]:
+        - /url: "#ius-gentium"
+      - link "Advocacia" [ref=e17] [cursor=pointer]:
+        - /url: "#advocacia"
+      - link "Contato" [ref=e18] [cursor=pointer]:
+        - /url: "#contato"
+  - main [ref=e19]:
+    - region "Apresentação" [ref=e20]:
+      - heading "Ana Vanzin" [level=1] [ref=e22]
+      - paragraph [ref=e23]: Advogada · Doutoranda em história e iconografia do direito — PPGD/UFSC · Universiteit Gent
+      - paragraph [ref=e24]: Estudo as alegorias femininas do direito — Justitia, a República — e o que a sua repetição revela sobre a cultura jurídica dos séculos XIX e XX.
+    - img [ref=e25]
+    - generic [ref=e31]:
+      - heading "Tese" [level=3] [ref=e32]:
+        - generic [ref=e33]: Tese
+      - heading "Iconocracia" [level=2] [ref=e34]
+      - paragraph [ref=e35]: Alegoria feminina na história da cultura jurídica, séculos XIX–XX
+      - paragraph [ref=e36]: Tese de doutorado em curso — PPGD/UFSC · Universiteit Gent. Um corpus documental de alegorias femininas do direito — moedas, selos, monumentos, estampas, frontispícios — reunido em seis países entre 1800 e 2000, e lido a partir da história do direito e da iconografia jurídica.
+      - paragraph [ref=e37]:
+        - text: "A identidade desta página descende da primeira Justitia de olhos vendados de que se tem notícia: a xilogravura do"
+        - emphasis [ref=e38]: Narrenschiff
+        - text: em que um bobo venda a deusa. A venda nasce como sátira, não como virtude.
+        - superscript [ref=e39]:
+          - link "1" [ref=e40] [cursor=pointer]:
+            - /url: "#fn1"
+      - paragraph [ref=e41]:
+        - link "Painel da tese →" [ref=e42] [cursor=pointer]:
+          - /url: /iconocracia-thesis-dashboard/
+    - generic [ref=e43]:
+      - heading "Publicações" [level=3] [ref=e44]:
+        - generic [ref=e45]: Publicações
+      - list [ref=e46]:
+        - listitem [ref=e47]:
+          - text: VANZIN, Ana; OLIVEIRA, Vinícius.
+          - emphasis [ref=e48]: Do poder-dever ao dever-poder
+          - text: . Seminário — PPGD/UFSC, 2026.
+          - link "apresentação →" [ref=e49] [cursor=pointer]:
+            - /url: /seminario8-dever-poder/
+        - listitem [ref=e50]: Lista completa sob solicitação.
+    - generic [ref=e51]:
+      - heading "Ius Gentium" [level=3] [ref=e52]:
+        - generic [ref=e53]: Ius Gentium
+      - paragraph [ref=e54]: Grupo de pesquisa — PPGD/UFSC.
+      - paragraph [ref=e55]:
+        - link "Página do grupo →" [ref=e56] [cursor=pointer]:
+          - /url: /grupoiusgentium.com.br/
+    - generic [ref=e57]:
+      - heading "Advocacia" [level=3] [ref=e58]:
+        - generic [ref=e59]: Advocacia
+      - paragraph [ref=e60]:
+        - text: Advogada. Consultoria e pareceres, mediante agendamento por
+        - link "e-mail" [ref=e61] [cursor=pointer]:
+          - /url: mailto:ana.vanzin@posgrad.ufsc.br
+        - text: .
+    - generic [ref=e62]:
+      - heading "Contato" [level=3] [ref=e63]:
+        - generic [ref=e64]: Contato
+      - paragraph [ref=e65]:
+        - link "ana.vanzin@posgrad.ufsc.br" [ref=e66] [cursor=pointer]:
+          - /url: mailto:ana.vanzin@posgrad.ufsc.br
+        - link "github.com/anavvanzin" [ref=e67] [cursor=pointer]:
+          - /url: https://github.com/anavvanzin
+        - link "Trechos — arquivo de citações de leitura (2014–2026)" [ref=e68] [cursor=pointer]:
+          - /url: /quotes/
+    - complementary "Notas" [ref=e69]:
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - text: BRANT, Sebastian.
+          - emphasis [ref=e72]: Das Narrenschiff
+          - text: ". Basileia: Johann Bergmann von Olpe, 1494."
+          - link "voltar ao texto" [ref=e73] [cursor=pointer]:
+            - /url: "#ref1"
+            - text: ↩
+  - contentinfo [ref=e74]:
+    - img [ref=e75]
+    - paragraph [ref=e83]: anavanzin.com · mmxxvi
+    - paragraph [ref=e84]: Composto em Cormorant Garamond e Hanken Grotesk.
