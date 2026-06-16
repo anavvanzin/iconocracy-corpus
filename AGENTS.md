@@ -3,9 +3,9 @@
 ## Context
 Monorepo for the doctoral thesis **"Iconocracia: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** — PPGD/UFSC, Ana Vanzin, defense 2026. Companion file for Claude Code sessions: `CLAUDE.md`.
 
-## Data Hierarchy (counts 2026-05-24)
-1. `data/processed/records.jsonl` — 265 records (canonical)
-2. `corpus/corpus-data.json` — 264 items (public export)
+## Data Hierarchy (counts 2026-06-15)
+1. `data/processed/records.jsonl` — 308 records (canonical)
+2. `corpus/corpus-data.json` — 309 items (public export)
 3. `data/processed/purification.jsonl` — 264 records (endurecimento coding)
 4. `vault/candidatos/` — 314 catalog cards (auxiliary mirror)
 
