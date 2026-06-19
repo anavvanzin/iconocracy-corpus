@@ -1,0 +1,804 @@
+{
+  "_quarantine_reason": "Estrato 0 — não-codificado (sem coded_by); regime PENDENTE. Excluído de análise quantitativa por definição (DIALETICA-N165-vs-265.md, Aufhebung v2).",
+  "_quarantined_at": "2026-06-19",
+  "_axis": "coding-validity (instrument provenance) — distinto do filtro de inclusão fora-do-escopo",
+  "_source": "corpus/corpus-data.json",
+  "_count": 41,
+  "records": [
+    {
+      "url": "http://balat.kikirpa.be/object/10130401",
+      "title": "Allégorie : le perron avec ses deux blasons muets entre la Force et la Prudence ; au-dessus plane la Justice",
+      "description": "Allégorie : le perron avec ses deux blasons muets entre la Force et la Prudence ; au-dessus plane la Justice",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Allégorie : le perron avec ses deux blasons muets entre la Force et la Prudence ; au-dessus plane la Justice",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-049",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://balat.kikirpa.be/object/10134533",
+      "title": "Figures allégories de Vertus et de l'Ancien Testament : Enoch, allégorie de la Diligence, Mathusalem et allégorie de la Justice",
+      "description": "Figures allégories de Vertus et de l'Ancien Testament : Enoch, allégorie de la Diligence, Mathusalem et allégorie de la Justice",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Figures allégories de Vertus et de l'Ancien Testament : Enoch, allégorie de la Diligence, Mathusalem et allégorie de la Justice",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-050",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://kk.haum-bs.de/?id=a-duerer-wb3-0130",
+      "title": "The Sun of Justice",
+      "description": "The Sun of Justice",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "The Sun of Justice",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-054",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://kk.haum-bs.de/?id=bonnet-l-m-ab3-0035",
+      "title": "La Sagesse et la Justice",
+      "description": "La Sagesse et la Justice",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "La Sagesse et la Justice",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-055",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://kk.haum-bs.de/?id=bosche-e-v-d-ab2-0002",
+      "title": "[Allegory with Justitia and Pax in a cart in front of Albert and Isabella of Austria, Moritz of Orange, Spinola and other persons; Allegory with Justitia and Pax on a Car before Albert and Isabella of Austria, Maurice of Orange, Spinola and other Persons]",
+      "description": "[Allegory with Justitia and Pax in a cart in front of Albert and Isabella of Austria, Moritz of Orange, Spinola and other persons; Allegory with Justitia and Pax on a Car before Albert and Isabella of Austria, Maurice of Orange, Spinola and other Persons]",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "[Allegory with Justitia and Pax in a cart in front of Albert and Isabella of Austria, Moritz of Orange, Spinola and other persons; Allegory with Justitia and Pax on a Car before Albert and Isabella of Austria, Maurice of Orange, Spinola and other Persons]",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-056",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://kk.haum-bs.de/?id=briot-i-wb3-0005",
+      "title": "Iusticia [justice]",
+      "description": "Iusticia [justice]",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Iusticia [justice]",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-057",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://kk.haum-bs.de/?id=goltzius-h-ab3-0031",
+      "title": "Iustitia Prudentia [Gerechtigkeit und Klugheit; Justice and Prudence; Rechtvaardigheid en Voorzichtigheid]",
+      "description": "Iustitia Prudentia [Gerechtigkeit und Klugheit; Justice and Prudence; Rechtvaardigheid en Voorzichtigheid]",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Iustitia Prudentia [Gerechtigkeit und Klugheit; Justice and Prudence; Rechtvaardigheid en Voorzichtigheid]",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-058",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://kk.haum-bs.de/?id=j-e-nilson-ab3-0029",
+      "title": "The old age with the image of justice",
+      "description": "The old age with the image of justice",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "The old age with the image of justice",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-059",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://kk.haum-bs.de/?id=jansz-e-ab2-0001",
+      "title": "[Allegorie auf die Gerechtigkeit, die Barmherzigkeit und den Frieden; Allegory on justice, charity and peace]",
+      "description": "[Allegorie auf die Gerechtigkeit, die Barmherzigkeit und den Frieden; Allegory on justice, charity and peace]",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "[Allegorie auf die Gerechtigkeit, die Barmherzigkeit und den Frieden; Allegory on justice, charity and peace]",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-060",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://kk.haum-bs.de/?id=matham-j-kopie-ab3-0004",
+      "title": "[Justitia; Justice]",
+      "description": "[Justitia; Justice]",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "[Justitia; Justice]",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-061",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://kk.haum-bs.de/?id=saint-non-j-c-r-d-ab3-0145",
+      "title": "Polidore de Caravage Salles du Vatican á Rome; [Deux femmes de profil; La Justice] [Zwei Frauen im Profil; Allegorie der Gerechtigkeit]",
+      "description": "Polidore de Caravage Salles du Vatican á Rome; [Deux femmes de profil; La Justice] [Zwei Frauen im Profil; Allegorie der Gerechtigkeit]",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Polidore de Caravage Salles du Vatican á Rome; [Deux femmes de profil; La Justice] [Zwei Frauen im Profil; Allegorie der Gerechtigkeit]",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-062",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://kk.haum-bs.de/?id=saint-non-j-c-r-d-ab3-0211",
+      "title": "Solimene Sacristie de L'Eglise de Saint Paul a Naples; [Allegorie der Gerechtigkeit]",
+      "description": "Solimene Sacristie de L'Eglise de Saint Paul a Naples; [Allegorie der Gerechtigkeit]",
+      "motif": [
+        "Alegoria feminina"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Solimene Sacristie de L'Eglise de Saint Paul a Naples; [Allegorie der Gerechtigkeit]",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-063",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://kk.haum-bs.de/?id=visscher-n-exc-ab3-0013",
+      "title": "[Gerechtigkeit; Justice]",
+      "description": "[Gerechtigkeit; Justice]",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "[Gerechtigkeit; Justice]",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-064",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://kk.haum-bs.de/?id=z-01383",
+      "title": "Mourning allegories of peace and justice",
+      "description": "Mourning allegories of peace and justice",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Mourning allegories of peace and justice",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-065",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://www.bildindex.de/document/obj20455031",
+      "title": "Putti als Allegorien der Gerechtigkeit und der Klugheit",
+      "description": "Putti als Allegorien der Gerechtigkeit und der Klugheit",
+      "motif": [
+        "Alegoria feminina"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Putti als Allegorien der Gerechtigkeit und der Klugheit",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-066",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "http://www.deutschefotothek.de/documents/obj/72066905",
+      "title": "Justitia (Gerechtigkeit)",
+      "description": "Justitia (Gerechtigkeit)",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Justitia (Gerechtigkeit)",
+      "audit_flags": [
+        "vault-import",
+        "#verificar"
+      ],
+      "id": "FR-067",
+      "country": "France",
+      "support": "moeda"
+    },
+    {
+      "url": "https://artsandculture.google.com/story/cole%C3%A7%C3%A3o-lopes-rodrigues-museu-de-arte-da-bahia/kAXx2Zki-R24Lw",
+      "title": "Alegoria da República — Manoel Lopes Rodrigues (óleo sobre tela)",
+      "description": "Alegoria da República — Manoel Lopes Rodrigues (óleo sobre tela)",
+      "motif": [
+        "Republic"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Alegoria da República — Manoel Lopes Rodrigues (óleo sobre tela)",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "BR-021",
+      "country": "Brazil",
+      "support": "pintura"
+    },
+    {
+      "url": "https://collections.vam.ac.uk/item/O102162",
+      "title": "model for reverse for the 1851 Exhibition Prize Medal",
+      "description": "model for reverse for the 1851 Exhibition Prize Medal",
+      "motif": [
+        "Britannia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "model for reverse for the 1851 Exhibition Prize Medal",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "UK-011",
+      "country": "United Kingdom",
+      "support": "medalha"
+    },
+    {
+      "url": "https://collections.vam.ac.uk/item/O102163",
+      "title": "Model",
+      "description": "Model",
+      "motif": [
+        "Britannia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Model",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "UK-012",
+      "country": "United Kingdom",
+      "support": "monumento/escultura"
+    },
+    {
+      "url": "https://collections.vam.ac.uk/item/O1242380",
+      "title": "Plaque",
+      "description": "Plaque",
+      "motif": [
+        "Britannia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Plaque",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "UK-013",
+      "country": "United Kingdom",
+      "support": "monumento/escultura"
+    },
+    {
+      "url": "https://collections.vam.ac.uk/item/O1261189",
+      "title": "The Cowper Seal Cups",
+      "description": "The Cowper Seal Cups",
+      "motif": [
+        "Britannia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "The Cowper Seal Cups",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "UK-014",
+      "country": "United Kingdom",
+      "support": "monumento/escultura"
+    },
+    {
+      "url": "https://collections.vam.ac.uk/item/O126326",
+      "title": "Fan",
+      "description": "Fan",
+      "motif": [
+        "Britannia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Fan",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "UK-015",
+      "country": "United Kingdom",
+      "support": "monumento/escultura"
+    },
+    {
+      "url": "https://collections.vam.ac.uk/item/O190041",
+      "title": "Design for the ceiling of the Great Hall at Blenheim",
+      "description": "Design for the ceiling of the Great Hall at Blenheim",
+      "motif": [
+        "Britannia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Design for the ceiling of the Great Hall at Blenheim",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "UK-016",
+      "country": "United Kingdom",
+      "support": "pintura"
+    },
+    {
+      "url": "https://collections.vam.ac.uk/item/O77466",
+      "title": "Medal",
+      "description": "Medal",
+      "motif": [
+        "Britannia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Medal",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "UK-017",
+      "country": "United Kingdom",
+      "support": "medalha"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Capa_da_Revista_Illustrada,_n.%C2%BA_566_(1889).png",
+      "title": "Alegoria à República — Capa da Revista Illustrada n. 566",
+      "description": "Alegoria à República — Capa da Revista Illustrada n. 566",
+      "motif": [
+        "Republic"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Alegoria à República — Capa da Revista Illustrada n. 566",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "BR-023",
+      "country": "Brazil",
+      "support": "estampa/gravura"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Republica_no_brasil.jpg",
+      "title": "Alegoria da República Brasileira — Revista Illustrada",
+      "description": "Alegoria da República Brasileira — Revista Illustrada",
+      "motif": [
+        "Republic"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Alegoria da República Brasileira — Revista Illustrada",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "BR-027",
+      "country": "Brazil",
+      "support": "estampa/gravura"
+    },
+    {
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b116003372",
+      "title": "La République (en hauteur) — Exposição Internacional de Paris 1889",
+      "description": "La République (en hauteur) — Exposição Internacional de Paris 1889",
+      "motif": [
+        "La République"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "La République (en hauteur) — Exposição Internacional de Paris 1889",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "FR-072",
+      "country": "France",
+      "support": "estampa/gravura"
+    },
+    {
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b531241805",
+      "title": "République de Clésinger (fotografia de demonstração)",
+      "description": "République de Clésinger (fotografia de demonstração)",
+      "motif": [
+        "La République"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "République de Clésinger (fotografia de demonstração)",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "FR-076",
+      "country": "France",
+      "support": "fotografia"
+    },
+    {
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b53188884v",
+      "title": "Étude pour le 1er mai? (Steinlen)",
+      "description": "Étude pour le 1er mai? (Steinlen)",
+      "motif": [
+        "Alegoria feminina"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Étude pour le 1er mai? (Steinlen)",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "FR-078",
+      "country": "France",
+      "support": "estampa/gravura"
+    },
+    {
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b53234029x",
+      "title": "[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]",
+      "description": "[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "FR-079",
+      "country": "France",
+      "support": "estampa/gravura"
+    },
+    {
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b53240455t",
+      "title": "[La Justice entre la Charité et la Force] : [dessin] / [anonyme des Pays-Bas,",
+      "description": "[La Justice entre la Charité et la Force] : [dessin] / [anonyme des Pays-Bas,",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "[La Justice entre la Charité et la Force] : [dessin] / [anonyme des Pays-Bas,",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "FR-080",
+      "country": "France",
+      "support": "estampa/gravura"
+    },
+    {
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b532646114",
+      "title": "18/1/33, [de gauche à droite] M. Mistler [sous-secrétaire d''Etat aux Beaux-Arts],",
+      "description": "18/1/33, [de gauche à droite] M. Mistler [sous-secrétaire d''Etat aux Beaux-Arts],",
+      "motif": [
+        "Marianne"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "18/1/33, [de gauche à droite] M. Mistler [sous-secrétaire d''Etat aux Beaux-Arts],",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "FR-083",
+      "country": "France",
+      "support": "estampa/gravura"
+    },
+    {
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b59718546",
+      "title": "La Province de Berry. La Généralité de Bourges, ou sont les Eslections de",
+      "description": "La Province de Berry. La Généralité de Bourges, ou sont les Eslections de",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "La Province de Berry. La Généralité de Bourges, ou sont les Eslections de",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "FR-086",
+      "country": "France",
+      "support": "estampa/gravura"
+    },
+    {
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b6950386s",
+      "title": "Unité indivisibilité de la République (j'ai rompu mes chaines vive la liberté)",
+      "description": "Unité indivisibilité de la République (j'ai rompu mes chaines vive la liberté)",
+      "motif": [
+        "La République"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Unité indivisibilité de la République (j'ai rompu mes chaines vive la liberté)",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "FR-088",
+      "country": "France",
+      "support": "estampa/gravura"
+    },
+    {
+      "url": "https://mhn.museus.gov.br/estudo-de-decio-villares-volta-ao-circuito-expositivo-do-mhn/",
+      "title": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
+      "description": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
+      "motif": [
+        "Generic allegory"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "BR-041",
+      "country": "Brazil",
+      "support": "pintura"
+    },
+    {
+      "url": "https://www.loc.gov/item/08030546/",
+      "title": "Justice to the Jew : the story of what he has done for the world",
+      "description": "Justice to the Jew : the story of what he has done for the world",
+      "motif": [
+        "Justitia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Justice to the Jew : the story of what he has done for the world",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "US-022",
+      "country": "United States",
+      "support": "frontispício"
+    },
+    {
+      "url": "https://www.loc.gov/item/12018646/",
+      "title": "An encyclopedist of the dark ages : Isidore of Seville,",
+      "description": "An encyclopedist of the dark ages : Isidore of Seville,",
+      "motif": [
+        "Columbia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "An encyclopedist of the dark ages : Isidore of Seville,",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "US-023",
+      "country": "United States",
+      "support": "frontispício"
+    },
+    {
+      "url": "https://www.loc.gov/item/13016362/",
+      "title": "Saint Tammany and the origin of the Society of Tammany, or Columbian order",
+      "description": "Saint Tammany and the origin of the Society of Tammany, or Columbian order",
+      "motif": [
+        "Columbia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Saint Tammany and the origin of the Society of Tammany, or Columbian order",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "US-024",
+      "country": "United States",
+      "support": "frontispício"
+    },
+    {
+      "url": "https://www.loc.gov/item/2020719663/",
+      "title": "State of ambiguity : civic life and culture in Cuba''s first republic",
+      "description": "State of ambiguity : civic life and culture in Cuba''s first republic",
+      "motif": [
+        "Republica"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "State of ambiguity : civic life and culture in Cuba''s first republic",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "BR-044",
+      "country": "Brazil",
+      "support": "texto"
+    },
+    {
+      "url": "https://www.loc.gov/item/2024771974/",
+      "title": "Report of the United States Commission to the Columbian Historical Exposition",
+      "description": "Report of the United States Commission to the Columbian Historical Exposition",
+      "motif": [
+        "Columbia"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Report of the United States Commission to the Columbian Historical Exposition",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "BR-045",
+      "country": "Brazil",
+      "support": "texto"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/208134",
+      "title": "Allegory of the French Republic",
+      "description": "Allegory of the French Republic",
+      "motif": [
+        "Republica"
+      ],
+      "regime": "PENDENTE",
+      "endurecimento_score": 0.0,
+      "coded_by": "",
+      "coded_at": "2026-05-14T18:02:38Z",
+      "citation_abnt": "Allegory of the French Republic",
+      "audit_flags": [
+        "vault-import"
+      ],
+      "id": "FR-096",
+      "country": "France",
+      "support": "moeda"
+    }
+  ]
+}

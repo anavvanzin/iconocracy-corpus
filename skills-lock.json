@@ -1,0 +1,341 @@
+{
+  "version": 1,
+  "skills": {
+    "Auto-Update Systems Expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/auto-update-systems/SKILL.md",
+      "computedHash": "2cd5b5fdac489cbbf27d827a9573770ffc70f335249ace27a2942a5033560d05"
+    },
+    "CI/CD Pipeline Security Expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/ci-cd/SKILL.md",
+      "computedHash": "3089a9a8227f9841e9b7a06e874c5db7e51b854b158a8472ad8a7207dc3cee51"
+    },
+    "Cross-Platform Build Expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/cross-platform-builds/SKILL.md",
+      "computedHash": "6066440296d887da77c3103b65e17441d2fddaf0d07221f33ad0bcfc03399507"
+    },
+    "Database Design Expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/database-design/SKILL.md",
+      "computedHash": "366da3842f00548f8714766e9a53b23d1dba7aebbabfaa7743fdc082a53633fe"
+    },
+    "SQLCipher Encrypted Database Expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/sqlcipher/SKILL.md",
+      "computedHash": "f06bec4cc4eaba50b239c20fa5dfc43e9b08c67901c2a8b589a41ad77a49957c"
+    },
+    "SQLite Database Expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/sqlite/SKILL.md",
+      "computedHash": "0e75baa1c3159dba4c6db79330634327039c9813410256b73357dcbb0ed9d0ea"
+    },
+    "api-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/api-expert/SKILL.md",
+      "computedHash": "6cf6b00e5ffe788e74beae7e892502e2fce242991dbbdd4dbe0779e0f9741f27"
+    },
+    "applescript": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/applescript/SKILL.md",
+      "computedHash": "402edab11115b141df716e553441b9aa1b7a5a0751eb2a54aac49f68b352726a"
+    },
+    "appsec-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/appsec-expert/SKILL.md",
+      "computedHash": "52113e0f9a1bd1d45dfcffd03a594dfc77168f2f7ab5cc82258da3ce68c03b88"
+    },
+    "async-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/async-expert/SKILL.md",
+      "computedHash": "3f84bde7bba2a67d9afcc18691409fdcce2c93aae61087dd2ef1c99d4ddea47e"
+    },
+    "async-programming": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/async-programming/SKILL.md",
+      "computedHash": "868f77dd041a4212924d4dbaeae2053d6239bd7a94db162b916bae3d473ff76a"
+    },
+    "browser-automation": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/browser-automation/SKILL.md",
+      "computedHash": "59a6b75c500d882f9b2cc9b5b85859fec3f2414ac0cc600db30bc3e07949dc66"
+    },
+    "celery-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/celery-expert/SKILL.md",
+      "computedHash": "a0bc038bb3a9c930024720a2f34eb5fa7aad2152171cc7f7943afdf8c98f7f60"
+    },
+    "cicd-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/cicd-expert/SKILL.md",
+      "computedHash": "0bdbb10c296b5f70e4fe588f4be30bd77f300b06873557af09498fffcd294360"
+    },
+    "cilium-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/cilium-expert/SKILL.md",
+      "computedHash": "65626a0ac73cc7c471d985a7c9e47afb4a84c38601b0d229f63ac5ee89faf9ad"
+    },
+    "cloud-api-integration": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/cloud-api-integration/SKILL.md",
+      "computedHash": "1b8d3859d3fa2064233e636fd71754876c574f94ed5930b9b58d2d2ab6c7dc4b"
+    },
+    "dbus": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/dbus/SKILL.md",
+      "computedHash": "5ce3dbcd68211f9d64fd4f0e73f4249180c0cb49d82089e9db3a52b28f4db394"
+    },
+    "devsecops-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/devsecops-expert/SKILL.md",
+      "computedHash": "0e770b2394b93cd8189a910d92edfb3a5e2b40460c8c2ddb2e13d56dc3254523"
+    },
+    "fastapi": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/fastapi/SKILL.md",
+      "computedHash": "4c23569494ad4bb7d044790519d31ac702029d718686ad29d1242ed81823eb03"
+    },
+    "fastapi-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/fastapi-expert/SKILL.md",
+      "computedHash": "e39bc5387bb44ff2f949a94a9ba3b90a121b80d24714af70c945894b7bab920e"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "9e1c8b3103f92fa8092568a44fe64858de7c5c9dc65ce4bea8f168080e889cfd"
+    },
+    "glsl": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/glsl/SKILL.md",
+      "computedHash": "ac49df8f99d8ed17e57ab31ef1d3332443a67a7ff8b9862b0ca5345923b8e97b"
+    },
+    "graph-database-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/graph-database-expert/SKILL.md",
+      "computedHash": "6ab96774b78cd46ef5bcf1d4afa3f77952705e26ffcf0c4f24cc075c604e19ae"
+    },
+    "graphql-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/graphql-expert/SKILL.md",
+      "computedHash": "018bc22e7bb4b3531e7267721f866ebed06d9728a48e510e458070690ef97a97"
+    },
+    "gsap": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/gsap/SKILL.md",
+      "computedHash": "b7d401d70a6f6f2bd29bb36ee803564cb071cc43bf5701e32a5dedbf88cc1466"
+    },
+    "harbor-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/harbor-expert/SKILL.md",
+      "computedHash": "91dc26d80c593b09c940557ad76639bbd7f7d109a94ae43d097d1b082fece005"
+    },
+    "javascript-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/javascript-expert/SKILL.md",
+      "computedHash": "709901044d12ee235dda90c99d453f8eaf8d2bd0f87533e7cab4deaf07a8c2b5"
+    },
+    "kanidm-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/kanidm-expert/SKILL.md",
+      "computedHash": "1dafec206e0faa355fa9191586e401925a7a3711787db1b31a9d8291783908ff"
+    },
+    "linux-at-spi2": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/linux-at-spi2/SKILL.md",
+      "computedHash": "d0658d48b83c4c7771fdcfff934942b89defdd1a2e7730826c57c34f0947f08f"
+    },
+    "llm-integration": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/llm-integration/SKILL.md",
+      "computedHash": "f28dfe9983a26dd8599fdfeac82693ff3226e19ce9775f078770dc171f67fca6"
+    },
+    "macos-accessibility": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/macos-accessibility/SKILL.md",
+      "computedHash": "5ce51ea9aea29d58b5eaa4f32a0305f854974d7e6770eeba2d31babf0b347e03"
+    },
+    "model-quantization": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/model-quantization/SKILL.md",
+      "computedHash": "aaafe3f6f262e875a3049127b0777fecd261ac125f82ec5033877dcb02321f8a"
+    },
+    "obsidian-markdown": {
+      "source": "kepano/obsidian-skills",
+      "sourceType": "github",
+      "skillPath": "skills/obsidian-markdown/SKILL.md",
+      "computedHash": "0f47297035d7824e7bf0f1984e8145a59a123e2258b5d54c9ac9642f9f77e177"
+    },
+    "obsidian-vault": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/personal/obsidian-vault/SKILL.md",
+      "computedHash": "960437c7c2febc15cf9d49964f0c8bd889d90a56e81b6eaa33f3ac5b594291c3"
+    },
+    "pinia": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/pinia/SKILL.md",
+      "computedHash": "dab6b5d9f97a1b93353a6210afcbee84ea1e91db7e92c409f89fc92f926f9ed1"
+    },
+    "prompt-engineering": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/prompt-engineering/SKILL.md",
+      "computedHash": "52f48c79ce79a939d8953eeab474efc327b7c66b74edb39d9e29fd58e0bca059"
+    },
+    "python": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/python/SKILL.md",
+      "computedHash": "c5e80b09977275e3199fd988e3556cd3c8822d0ee563faa71a20cf1d9550aff0"
+    },
+    "rabbitmq-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/rabbitmq-expert/SKILL.md",
+      "computedHash": "584e368d2811078acfb437c22ca07f1c93da52cbdcabcc8c24562128185c4b6b"
+    },
+    "rust": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/rust/SKILL.md",
+      "computedHash": "b70d9a080fc68001f0e4824f59fadabb287fd26407da97d0a7d2cde4724344fe"
+    },
+    "speech-to-text": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/speech-to-text/SKILL.md",
+      "computedHash": "c6fb55b2789130826a86fe2d7ed1b067ae825027c237bd0c8b20f3d9f917477f"
+    },
+    "surrealdb-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/surrealdb-expert/SKILL.md",
+      "computedHash": "193e7e210b4db1842cc5ae0d040ce1492d82371ab648a82821ea6ec91d9cbc65"
+    },
+    "tailwindcss": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/tailwindcss/SKILL.md",
+      "computedHash": "f592cd917989fe9a57ca6811a859b7caa5e413bee23410ed2d4174a76721c93a"
+    },
+    "talos-os-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/talos-os-expert/SKILL.md",
+      "computedHash": "c73dc27024caa5c8fd1ecbf18832b5a155377837c60cf1858f8d685bec1d7b5c"
+    },
+    "tauri": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/tauri/SKILL.md",
+      "computedHash": "8846df779beba33d583a1712ecfb18a3dc0a542ad1c95643a2797e0eb44f43ab"
+    },
+    "text-to-speech": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/text-to-speech/SKILL.md",
+      "computedHash": "b0cc88dca844894b5c6d16ea16529dd2ba471ca92cc8dd403b7903d4710f8348"
+    },
+    "threejs-tresjs": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-tresjs/SKILL.md",
+      "computedHash": "482eb8dc5bfdc99ca9ba3d0146f92c08fa0e1bd01d5d73670a0919a5a2e5416d"
+    },
+    "typescript": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/typescript/SKILL.md",
+      "computedHash": "cf7ff1a78d07002d388df7d9de896bd45c61b2269e4a8f90e008dd913eaf19cf"
+    },
+    "typescript-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/typescript-expert/SKILL.md",
+      "computedHash": "b3d242af278cd9e3c208e21ccb4ca502b7046caebe6917659357a38c90f7ecce"
+    },
+    "ui-ux-expert": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/ui-ux-expert/SKILL.md",
+      "computedHash": "c8d244c733101670bf2909f2af53d468380269cfc6172938dbaa97111a9848e1"
+    },
+    "vue-nuxt": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/vue-nuxt/SKILL.md",
+      "computedHash": "0c263fbb7360659c075f4a75f2911804cc688a46b76aa939fd71ade38fb4a7f5"
+    },
+    "wake-word-detection": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/wake-word-detection/SKILL.md",
+      "computedHash": "154b9c7a23b4154a77a536392f5273518f5e4c5e0d769eb81df77b8671f3d4d9"
+    },
+    "web-audio-api": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/web-audio-api/SKILL.md",
+      "computedHash": "d791e113525eafe8c0bc0fb3dbbdef05d470b0cfedd9f1eaa2f00081d3fce1bd"
+    },
+    "webgl": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/webgl/SKILL.md",
+      "computedHash": "981e4742ad032bb9e44a13dc1e03266f207e56fdfe4ed33108731837de3686b8"
+    },
+    "websocket": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/websocket/SKILL.md",
+      "computedHash": "95b114a48e8de6379506359866eb08cd40bc3fcda529de5c62cfc65f7e8e6466"
+    },
+    "windows-ui-automation": {
+      "source": "martinholovsky/claude-skills-generator",
+      "sourceType": "github",
+      "skillPath": "skills/windows-ui-automation/SKILL.md",
+      "computedHash": "52d1feaed342c8d0b8081fa090d7ecc53791447ca94504df5a1f62c54f0f6dec"
+    },
+    "writing-shape": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/in-progress/writing-shape/SKILL.md",
+      "computedHash": "4cae0b2eccd512594a1edc15a0eeffaa2f11e7f2cf21dd4cf9213171c165d324"
+    }
+  }
+}

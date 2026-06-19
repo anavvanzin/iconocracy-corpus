@@ -18,11 +18,14 @@ import argparse
 import json
 import re
 import sys
+import uuid
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CORPUS_PATH = REPO_ROOT / "corpus" / "corpus-data.json"
 RECORDS_PATH = REPO_ROOT / "data" / "processed" / "records.jsonl"
+
+_NS = uuid.UUID("6ba7b810-9dad-11d1-80b4-00c04fd430c8")
 
 
 def normalize_url(url: str) -> str:
@@ -98,32 +101,72 @@ def get_record_title_key(item: dict) -> str:
 def reconcile(corpus: list[dict], records: list[dict]) -> dict:
     """Main reconciliation logic. Returns a results dict."""
 
-    # Build URL indexes
-    corpus_by_url = {}
-    for c in corpus:
-        u = get_corpus_url(c)
-        if u:
-            corpus_by_url[u] = c
-
-    records_by_url = {}
-    for r in records:
-        u = get_record_url(r)
-        if u:
-            records_by_url[u] = r
-
-    # Phase 1: URL matching
     matched = []
     corpus_matched_ids = set()
     record_matched_ids = set()
 
-    for url, c_item in corpus_by_url.items():
-        if url in records_by_url:
-            r_item = records_by_url[url]
-            matched.append((c_item, r_item, "url"))
+    # Phase 1: Exact UUID matching
+    records_by_id = {r["item_id"]: r for r in records}
+    for c_item in corpus:
+        expected_id = str(uuid.uuid5(_NS, f"iconocracy-corpus-{c_item['id']}"))
+        if expected_id in records_by_id:
+            r_item = records_by_id[expected_id]
+            matched.append((c_item, r_item, "uuid"))
             corpus_matched_ids.add(c_item["id"])
             record_matched_ids.add(r_item["item_id"])
 
-    # Phase 2: Title+date fallback for unmatched
+    # Phase 2: URL + Title matching for unmatched
+    unmatched_corpus = [c for c in corpus if c["id"] not in corpus_matched_ids]
+    unmatched_records = [r for r in records if r["item_id"] not in record_matched_ids]
+
+    unmatched_records_by_url = {}
+    for r in unmatched_records:
+        u = get_record_url(r)
+        if u:
+            unmatched_records_by_url.setdefault(u, []).append(r)
+
+    for c_item in list(unmatched_corpus):
+        url = get_corpus_url(c_item)
+        if not url:
+            continue
+        if url in unmatched_records_by_url:
+            candidate_recs = unmatched_records_by_url[url]
+            c_title_norm = normalize_title(c_item.get("title", ""))
+            for r_item in candidate_recs:
+                r_title_norm = normalize_title(r_item.get("input", {}).get("title_hint", ""))
+                if c_title_norm == r_title_norm:
+                    matched.append((c_item, r_item, "url+title"))
+                    corpus_matched_ids.add(c_item["id"])
+                    record_matched_ids.add(r_item["item_id"])
+                    candidate_recs.remove(r_item)
+                    unmatched_corpus.remove(c_item)
+                    break
+
+    # Phase 3: URL-only matching for remaining unmatched
+    unmatched_corpus = [c for c in corpus if c["id"] not in corpus_matched_ids]
+    unmatched_records = [r for r in records if r["item_id"] not in record_matched_ids]
+
+    unmatched_records_by_url = {}
+    for r in unmatched_records:
+        u = get_record_url(r)
+        if u:
+            unmatched_records_by_url.setdefault(u, []).append(r)
+
+    for c_item in list(unmatched_corpus):
+        url = get_corpus_url(c_item)
+        if not url:
+            continue
+        if url in unmatched_records_by_url:
+            candidate_recs = unmatched_records_by_url[url]
+            if candidate_recs:
+                r_item = candidate_recs[0]
+                matched.append((c_item, r_item, "url"))
+                corpus_matched_ids.add(c_item["id"])
+                record_matched_ids.add(r_item["item_id"])
+                candidate_recs.remove(r_item)
+                unmatched_corpus.remove(c_item)
+
+    # Phase 4: Title+date fallback for unmatched
     unmatched_corpus = [c for c in corpus if c["id"] not in corpus_matched_ids]
     unmatched_records = [r for r in records if r["item_id"] not in record_matched_ids]
 
@@ -140,6 +183,7 @@ def reconcile(corpus: list[dict], records: list[dict]) -> dict:
             matched.append((c, r_item, "title+date"))
             corpus_matched_ids.add(c["id"])
             record_matched_ids.add(r_item["item_id"])
+            unmatched_corpus.remove(c)
 
     # Orphans
     orphans_corpus = [c for c in corpus if c["id"] not in corpus_matched_ids]
@@ -186,7 +230,7 @@ def reconcile(corpus: list[dict], records: list[dict]) -> dict:
             "corpus_total": len(corpus),
             "records_total": len(records),
             "matched": len(matched),
-            "matched_by_url": sum(1 for _, _, m in matched if m == "url"),
+            "matched_by_url": sum(1 for _, _, m in matched if m in ("url", "url+title")),
             "matched_by_title": sum(1 for _, _, m in matched if m == "title+date"),
             "orphans_corpus": len(orphans_corpus),
             "orphans_records": len(orphans_records),
@@ -206,6 +250,7 @@ def reconcile(corpus: list[dict], records: list[dict]) -> dict:
         ],
         "divergences": divergences,
     }
+
 
 
 def print_report(results: dict, dry_run: bool = False):
