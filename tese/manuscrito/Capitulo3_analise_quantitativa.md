@@ -11,7 +11,7 @@
 
 ### 3.1 Panorama Descritivo: A Geometria do Corpus
 
-A análise quantitativa do corpus ICONOCRACIA permite, em primeira instância, mapear a distribuição espacial, temporal e institucional das alegorias femininas que compõem a base empírica desta tese. Com um total de **265 registros** (dos quais 165 compõem o núcleo analítico consolidado e 100 registros de sincronização e validação), a amostra revela padrões de concentração que corroboram a centralidade do modelo franco-atlântico na cultura jurídica do século XIX.
+A análise quantitativa do corpus ICONOCRACIA permite, em primeira instância, mapear a distribuição espacial, temporal e institucional das alegorias femininas que compõem a base empírica desta tese. O panorama a seguir não toma o total bruto do ledger ou do export como N analítico: ele se apoia no estrato codificado declarado no dataset card metodológico, definido por codificação de purificação e proveniência de instrumento auditável. É esse recorte, e não a cardinalidade administrativa do repositório, que autoriza a leitura dos padrões de concentração.
 
 #### 3.1.1 Distribuição Geográfica e Institucional
 

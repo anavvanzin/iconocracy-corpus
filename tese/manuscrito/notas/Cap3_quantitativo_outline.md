@@ -1,7 +1,7 @@
 # Notas de Pesquisa: Capítulo 3 — Análise Quantitativa
 
 ## Objetivos do Capítulo
-- Apresentar o panorama descritivo do corpus (N=165).
+- Apresentar o panorama descritivo do corpus com N analítico a declarar no dataset card após estratificação por proveniência de instrumento.
 - Testar a hipótese central: os regimes iconocráticos produzem morfologias corporais distintas.
 - Identificar preditores estatísticos do "endurecimento" alegórico.
 
@@ -12,7 +12,7 @@
 4. **Análise de Correspondência**: Clusters transatlânticos.
 
 ## Dados Relevantes (conforme Cap. 2)
-- N=165 (154 com codificação completa).
+- N analítico a declarar no dataset card após estratificação por proveniência de instrumento.
 - Endurecimento médio: 1,44 (faixa 0,1 a 3,1).
 - Regimes: Fundacional (71), Normativo (40), Militar (27), Contra-alegoria (7).
 
