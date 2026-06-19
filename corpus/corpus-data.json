@@ -4287,7 +4287,7 @@
   },
   {
     "id": "DE-NOTG-1921",
-    "title": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note",
+    "title": "25 Mark — Stadtsparkasse Bielefeld (Notgeld), Bielefelder Jungbronnen (Fountain of Youth), silk note",
     "date": "1921",
     "period": "Weimar Republic (1919-1933)",
     "creator": "Karl Muggly",
@@ -4301,7 +4301,7 @@
       "Healing",
       "Municipal emergency currency"
     ],
-    "url": null,
+    "url": "https://en.numista.com/210100",
     "vault_note": "SCOUT-117",
     "regime": "fundacional",
     "endurecimento_score": 0.6,
@@ -4347,7 +4347,7 @@
       "#verificar-imagem"
     ],
     "tags_str": "corpus/candidato, pais/DE, suporte/papel-moeda, regime/fundacional, #verificar, #verificar-imagem",
-    "description": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note",
+    "description": "Weimar-era silk emergency currency (Notgeld) issued by Stadtsparkasse Bielefeld in 1921, celebrating the city's 700th anniversary. The obverse features a \"Jungbrunnen\" (fountain of youth) allegory: crippled figures enter a healing pool and emerge healed, with references to maidens keeping watch and medical attestations. The reverse offers a satirical commentary on local textile dye works polluting the Lutterbach river.",
     "citation_abnt": "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note",
     "audit_flags": [
       "sem-url",
