@@ -1,0 +1,176 @@
+{
+  "liblabVersion": "2.25.51",
+  "date": "2026-04-14T16:45:28.593Z",
+  "config": {
+    "languages": ["java"],
+    "deliveryMethods": ["zip"],
+    "languageOptions": {
+      "python": {
+        "alwaysInitializeOptionals": false,
+        "pypiPackageName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "typescript": {
+        "bundle": true,
+        "exportClassDefault": false,
+        "httpClient": "fetch",
+        "npmName": "",
+        "npmOrg": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "generateEnumAs": "union"
+      },
+      "go": {
+        "goModuleName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "java": {
+        "groupId": "com",
+        "artifactId": "iconocracycorpussdk",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "php": {
+        "composerVendorName": "",
+        "composerPackageName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "csharp": {
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "renameIllegalModelProperties": true,
+        "useOptionalWrapper": true,
+        "validateResponses": false
+      },
+      "cli": {
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "kotlin": {
+        "groupId": "",
+        "artifactId": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      }
+    },
+    "includeWatermark": false,
+    "responseHeaders": false,
+    "sdkName": "iconocracy-corpus-sdk",
+    "sdkVersion": "1.0.0",
+    "groupId": "com",
+    "artifactId": "iconocracycorpussdk",
+    "ignoreFiles": [],
+    "liblabVersion": "2",
+    "language": "java",
+    "deliveryMethod": "zip",
+    "hooks": {
+      "enabled": false,
+      "sourceDir": ""
+    },
+    "usesFormData": false,
+    "authentication": {},
+    "environmentVariables": [],
+    "fileOutput": "/tmp",
+    "inferServiceNames": false,
+    "httpLibrary": {
+      "name": "axios",
+      "packages": {
+        "axios": "^1.13.2"
+      },
+      "languages": ["typescript"]
+    },
+    "auth": [],
+    "retry": {
+      "enabled": true,
+      "maxAttempts": 3,
+      "retryDelay": 150,
+      "maxDelay": 5000,
+      "retryDelayJitter": 50,
+      "backOffFactor": 2,
+      "httpMethodsToRetry": ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"]
+    },
+    "multiTenant": false,
+    "customQueries": {
+      "paths": [],
+      "rawQueries": [],
+      "queriesData": []
+    },
+    "devContainer": false,
+    "ai": false,
+    "includeOptionalSnippetParameters": true,
+    "specType": "postman",
+    "deprecatedOperations": {
+      "include": true
+    },
+    "multipleResponses": {
+      "enabled": false
+    }
+  },
+  "files": [
+    "pom.xml",
+    ".gitignore",
+    "src/main/java/com/iconocracycorpussdk/validation/Violation.java",
+    "src/main/java/com/iconocracycorpussdk/validation/ViolationAggregator.java",
+    "src/main/java/com/iconocracycorpussdk/validation/validators/AbstractValidator.java",
+    "src/main/java/com/iconocracycorpussdk/validation/validators/ListValidator.java",
+    "src/main/java/com/iconocracycorpussdk/validation/validators/NumericValidator.java",
+    "src/main/java/com/iconocracycorpussdk/validation/validators/StringValidator.java",
+    "src/main/java/com/iconocracycorpussdk/validation/validators/Validator.java",
+    "src/main/java/com/iconocracycorpussdk/validation/validators/modelValidators/AbstractModelValidator.java",
+    "src/main/java/com/iconocracycorpussdk/validation/exceptions/ValidationException.java",
+    "src/main/java/com/iconocracycorpussdk/services/BaseService.java",
+    "src/main/java/com/iconocracycorpussdk/http/HttpMethod.java",
+    "src/main/java/com/iconocracycorpussdk/http/ModelConverter.java",
+    "src/main/java/com/iconocracycorpussdk/http/util/ContentTypes.java",
+    "src/main/java/com/iconocracycorpussdk/http/util/HttpArgumentConverter.java",
+    "src/main/java/com/iconocracycorpussdk/http/serialization/PathSerializationStyle.java",
+    "src/main/java/com/iconocracycorpussdk/http/serialization/QuerySerializationStyle.java",
+    "src/main/java/com/iconocracycorpussdk/http/serialization/SerializationStyle.java",
+    "src/main/java/com/iconocracycorpussdk/http/serialization/Serializer.java",
+    "src/main/java/com/iconocracycorpussdk/http/serialization/Util.java",
+    "src/main/java/com/iconocracycorpussdk/http/interceptors/DefaultHeadersInterceptor.java",
+    "src/main/java/com/iconocracycorpussdk/exceptions/ApiError.java",
+    "src/main/java/com/iconocracycorpussdk/http/Environment.java",
+    "src/main/java/com/iconocracycorpussdk/IconocracyCorpusSdk.java",
+    "src/main/java/com/iconocracycorpussdk/http/interceptors/RetryInterceptor.java",
+    "src/main/java/com/iconocracycorpussdk/config/RetryConfig.java",
+    "src/main/java/com/iconocracycorpussdk/config/IconocracyCorpusSdkConfig.java",
+    "src/main/java/com/iconocracycorpussdk/config/RequestConfig.java",
+    "documentation/snippets/snippets.json",
+    "documentation/models/UpdateDiaryParameters.md",
+    "documentation/models/SearchCorpusAnalysisParameters.md",
+    "documentation/models/ListCorpusItemsParameters.md",
+    "documentation/models/PostDataRequest.md",
+    "src/main/java/com/iconocracycorpussdk/json/TypeUtils.java",
+    "examples/pom.xml",
+    "examples/run.sh",
+    "examples/src/main/java/com/example/Main.java",
+    "examples/.gitignore",
+    ".idea/workspace.xml",
+    ".idea/misc.xml",
+    ".idea/compiler.xml",
+    ".idea/encoding.xml",
+    ".idea/jarRepositories.xml",
+    "src/main/java/com/iconocracycorpussdk/http/util/RequestBuilder.java",
+    "examples/README.md",
+    ".env.example",
+    "documentation/services/GetService.md",
+    "documentation/services/PostService.md",
+    "src/main/java/com/iconocracycorpussdk/models/PostDataRequest.java",
+    "src/main/java/com/iconocracycorpussdk/models/SearchCorpusAnalysisParameters.java",
+    "src/main/java/com/iconocracycorpussdk/services/GetService.java",
+    "src/main/java/com/iconocracycorpussdk/services/PostService.java",
+    "src/main/java/com/iconocracycorpussdk/models/ListCorpusItemsParameters.java",
+    "src/main/java/com/iconocracycorpussdk/models/UpdateDiaryParameters.java",
+    "README.md",
+    "documentation/services/ImplementedApiService.md",
+    "src/main/java/com/iconocracycorpussdk/services/ImplementedApiService.java"
+  ]
+}

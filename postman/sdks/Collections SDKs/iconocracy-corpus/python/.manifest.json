@@ -1,0 +1,180 @@
+{
+  "liblabVersion": "2.25.51",
+  "date": "2026-04-14T16:45:28.511Z",
+  "config": {
+    "languages": ["python"],
+    "deliveryMethods": ["zip"],
+    "languageOptions": {
+      "python": {
+        "alwaysInitializeOptionals": false,
+        "pypiPackageName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "typescript": {
+        "bundle": true,
+        "exportClassDefault": false,
+        "httpClient": "fetch",
+        "npmName": "",
+        "npmOrg": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "generateEnumAs": "union"
+      },
+      "go": {
+        "goModuleName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "java": {
+        "groupId": "com",
+        "artifactId": "iconocracycorpussdk",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "php": {
+        "composerVendorName": "",
+        "composerPackageName": "",
+        "githubRepoName": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "csharp": {
+        "ignoreFiles": [],
+        "liblabVersion": "2",
+        "renameIllegalModelProperties": true,
+        "useOptionalWrapper": true,
+        "validateResponses": false
+      },
+      "cli": {
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      },
+      "kotlin": {
+        "groupId": "",
+        "artifactId": "",
+        "ignoreFiles": [],
+        "liblabVersion": "2"
+      }
+    },
+    "includeWatermark": false,
+    "responseHeaders": false,
+    "sdkName": "iconocracy-corpus-sdk",
+    "sdkVersion": "1.0.0",
+    "alwaysInitializeOptionals": false,
+    "pypiPackageName": "",
+    "githubRepoName": "",
+    "ignoreFiles": [],
+    "liblabVersion": "2",
+    "language": "python",
+    "deliveryMethod": "zip",
+    "hooks": {
+      "enabled": false,
+      "sourceDir": ""
+    },
+    "usesFormData": false,
+    "authentication": {},
+    "environmentVariables": [],
+    "fileOutput": "/tmp",
+    "inferServiceNames": false,
+    "httpLibrary": {
+      "name": "axios",
+      "packages": {
+        "axios": "^1.13.2"
+      },
+      "languages": ["typescript"]
+    },
+    "auth": [],
+    "retry": {
+      "enabled": true,
+      "maxAttempts": 3,
+      "retryDelay": 150,
+      "maxDelay": 5000,
+      "retryDelayJitter": 50,
+      "backOffFactor": 2,
+      "httpMethodsToRetry": ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"]
+    },
+    "multiTenant": false,
+    "customQueries": {
+      "paths": [],
+      "rawQueries": [],
+      "queriesData": []
+    },
+    "devContainer": false,
+    "ai": false,
+    "includeOptionalSnippetParameters": true,
+    "specType": "postman",
+    "deprecatedOperations": {
+      "include": true
+    },
+    "multipleResponses": {
+      "enabled": false
+    }
+  },
+  "files": [
+    "src/iconocracy_corpus_sdk/models/utils/base_model.py",
+    "src/iconocracy_corpus_sdk/models/utils/base_error.py",
+    "src/iconocracy_corpus_sdk/models/utils/json_map.py",
+    "src/iconocracy_corpus_sdk/models/__init__.py",
+    "src/iconocracy_corpus_sdk/services/__init__.py",
+    "src/iconocracy_corpus_sdk/services/utils/__init__.py",
+    "src/iconocracy_corpus_sdk/__init__.py",
+    "src/iconocracy_corpus_sdk/net/__init__.py",
+    "src/iconocracy_corpus_sdk/net/headers/__init__.py",
+    "src/iconocracy_corpus_sdk/net/transport/__init__.py",
+    "src/iconocracy_corpus_sdk/net/environment/__init__.py",
+    "src/iconocracy_corpus_sdk/net/request_chain/__init__.py",
+    "src/iconocracy_corpus_sdk/net/request_chain/handlers/__init__.py",
+    "src/iconocracy_corpus_sdk/models/utils/__init__.py",
+    "src/iconocracy_corpus_sdk/services/async_/__init__.py",
+    "src/iconocracy_corpus_sdk/services/async_/utils/__init__.py",
+    "src/iconocracy_corpus_sdk/net/transport/request.py",
+    "src/iconocracy_corpus_sdk/net/transport/response.py",
+    "src/iconocracy_corpus_sdk/net/transport/api_error.py",
+    "src/iconocracy_corpus_sdk/net/transport/request_error.py",
+    "src/iconocracy_corpus_sdk/sdk.py",
+    "src/iconocracy_corpus_sdk/net/transport/serializer.py",
+    "src/iconocracy_corpus_sdk/services/utils/validator.py",
+    "src/iconocracy_corpus_sdk/services/utils/base_service.py",
+    "pyproject.toml",
+    ".gitignore",
+    "src/iconocracy_corpus_sdk/models/utils/cast_models.py",
+    "src/iconocracy_corpus_sdk/net/transport/utils.py",
+    "install.sh",
+    "install.cmd",
+    "examples/install.sh",
+    "examples/install.cmd",
+    "src/iconocracy_corpus_sdk/net/headers/base_header.py",
+    "src/iconocracy_corpus_sdk/net/environment/environment.py",
+    "src/iconocracy_corpus_sdk/net/request_chain/request_chain.py",
+    "src/iconocracy_corpus_sdk/net/request_chain/handlers/base_handler.py",
+    "src/iconocracy_corpus_sdk/net/request_chain/handlers/http_handler.py",
+    "src/iconocracy_corpus_sdk/net/request_chain/handlers/retry_handler.py",
+    "examples/sample.py",
+    "src/iconocracy_corpus_sdk/services/utils/default_headers.py",
+    "documentation/snippets/snippets.json",
+    "documentation/models/PostDataRequest.md",
+    "src/iconocracy_corpus_sdk/models/utils/one_of_base_model.py",
+    "src/iconocracy_corpus_sdk/services/async_/utils/to_async.py",
+    "src/iconocracy_corpus_sdk/services/async_/get.py",
+    "src/iconocracy_corpus_sdk/services/async_/implemented_api.py",
+    "src/iconocracy_corpus_sdk/services/async_/post.py",
+    "src/iconocracy_corpus_sdk/sdk_async.py",
+    "src/iconocracy_corpus_sdk/models/utils/sentinel.py",
+    ".env.example",
+    "examples/.env.example",
+    "src/iconocracy_corpus_sdk/net/sdk_config.py",
+    "src/iconocracy_corpus_sdk/services/get.py",
+    "src/iconocracy_corpus_sdk/services/post.py",
+    "documentation/services/GetService.md",
+    "documentation/services/PostService.md",
+    "src/iconocracy_corpus_sdk/models/post_data_request.py",
+    "documentation/services/ImplementedApiService.md",
+    "README.md",
+    "PyPI_README.md",
+    "src/iconocracy_corpus_sdk/services/implemented_api.py"
+  ]
+}

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620" role="img">
+<rect width="980" height="620" fill="#ffffff"/>
+<text x="48.0" y="46.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#343a40" text-anchor="start">Endurecimento medio por regime iconocratico</text>
+<text x="48.0" y="72.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#68707d" text-anchor="start">Fonte: purification.jsonl + corpus-data.json | N=264 | escala 0-3</text>
+<line x1="48.0" y1="92.0" x2="932.0" y2="92.0" stroke="#edf0f4" stroke-width="1"/>
+<line x1="96.0" y1="500.0" x2="932.0" y2="500.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="82.0" y="505.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="end">0</text>
+<line x1="96.0" y1="407.5" x2="932.0" y2="407.5" stroke="#d9dee6" stroke-width="1"/>
+<text x="82.0" y="412.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="end">0.75</text>
+<line x1="96.0" y1="315.0" x2="932.0" y2="315.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="82.0" y="320.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="end">1.5</text>
+<line x1="96.0" y1="222.5" x2="932.0" y2="222.5" stroke="#d9dee6" stroke-width="1"/>
+<text x="82.0" y="227.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="end">2.2</text>
+<line x1="96.0" y1="130.0" x2="932.0" y2="130.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="82.0" y="135.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="end">3</text>
+<text x="34.0" y="315.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#68707d" text-anchor="middle" transform="rotate(-90 34.0 315.0)">Score medio</text>
+<rect x="96.0" y="337.2" width="177.5" height="162.8" fill="#2f6f9f"/>
+<text x="184.8" y="325.2" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#343a40" text-anchor="middle">1.32</text>
+<text x="184.8" y="526.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="middle">fundacional</text>
+<text x="184.8" y="548.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">n=143</text>
+<line x1="184.8" y1="179.3" x2="184.8" y2="500.0" stroke="#23272f" stroke-width="1.5"/>
+<circle cx="184.8" cy="179.3" r="4.0" fill="#23272f" stroke="none"/>
+<circle cx="184.8" cy="500.0" r="4.0" fill="#23272f" stroke="none"/>
+<rect x="315.5" y="290.0" width="177.5" height="210.0" fill="#2a8a62"/>
+<text x="404.2" y="278.0" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#343a40" text-anchor="middle">1.70</text>
+<text x="404.2" y="526.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="middle">normativo</text>
+<text x="404.2" y="548.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">n=82</text>
+<line x1="404.2" y1="130.0" x2="404.2" y2="500.0" stroke="#23272f" stroke-width="1.5"/>
+<circle cx="404.2" cy="130.0" r="4.0" fill="#23272f" stroke="none"/>
+<circle cx="404.2" cy="500.0" r="4.0" fill="#23272f" stroke="none"/>
+<rect x="535.0" y="318.6" width="177.5" height="181.4" fill="#b6453d"/>
+<text x="623.8" y="306.6" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#343a40" text-anchor="middle">1.47</text>
+<text x="623.8" y="526.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="middle">militar</text>
+<text x="623.8" y="548.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">n=31</text>
+<line x1="623.8" y1="191.7" x2="623.8" y2="500.0" stroke="#23272f" stroke-width="1.5"/>
+<circle cx="623.8" cy="191.7" r="4.0" fill="#23272f" stroke="none"/>
+<circle cx="623.8" cy="500.0" r="4.0" fill="#23272f" stroke="none"/>
+<rect x="754.5" y="401.3" width="177.5" height="98.7" fill="#7a4ea3"/>
+<text x="843.2" y="389.3" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#343a40" text-anchor="middle">0.80</text>
+<text x="843.2" y="526.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="middle">contra-alegoria</text>
+<text x="843.2" y="548.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">n=8</text>
+<line x1="843.2" y1="290.3" x2="843.2" y2="463.0" stroke="#23272f" stroke-width="1.5"/>
+<circle cx="843.2" cy="290.3" r="4.0" fill="#23272f" stroke="none"/>
+<circle cx="843.2" cy="463.0" r="4.0" fill="#23272f" stroke="none"/>
+<text x="96.0" y="576.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="start">Barras = media; linha vertical = intervalo minimo-maximo dentro do regime.</text>
+</svg>

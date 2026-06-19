@@ -1,0 +1,36 @@
+{
+  "endpoints": {
+    "/get": {
+      "get": "from iconocracy_corpus_sdk import IconocracyCorpusSdk, Environment\n\nsdk = IconocracyCorpusSdk(\n    base_url=Environment.DEFAULT.value,\n    timeout=10000\n)\n\nresult = sdk.get.get_data()\n\nprint(result)\n"
+    },
+    "/api/diary": {
+      "get": "from iconocracy_corpus_sdk import IconocracyCorpusSdk, Environment\n\nsdk = IconocracyCorpusSdk(\n    base_url=Environment.DEFAULT.value,\n    timeout=10000\n)\n\nresult = sdk.implemented_api.get_diary()\n\nprint(result)\n",
+      "put": "from iconocracy_corpus_sdk import IconocracyCorpusSdk, Environment\n\nsdk = IconocracyCorpusSdk(\n    base_url=Environment.DEFAULT.value,\n    timeout=10000\n)\n\nrequest_body = [\n    \"\"\n]\n\nresult = sdk.implemented_api.update_diary(\n    request_body=request_body,\n    authorization=\"Bearer {{diarySecret}}\"\n)\n\nprint(result)\n"
+    },
+    "/api/scout": {
+      "get": "from iconocracy_corpus_sdk import IconocracyCorpusSdk, Environment\n\nsdk = IconocracyCorpusSdk(\n    base_url=Environment.DEFAULT.value,\n    timeout=10000\n)\n\nresult = sdk.implemented_api.get_scout_data()\n\nprint(result)\n"
+    },
+    "/api/corpus/stats": {
+      "get": "from iconocracy_corpus_sdk import IconocracyCorpusSdk, Environment\n\nsdk = IconocracyCorpusSdk(\n    base_url=Environment.DEFAULT.value,\n    timeout=10000\n)\n\nresult = sdk.implemented_api.get_corpus_stats()\n\nprint(result)\n"
+    },
+    "/api/corpus/countries": {
+      "get": "from iconocracy_corpus_sdk import IconocracyCorpusSdk, Environment\n\nsdk = IconocracyCorpusSdk(\n    base_url=Environment.DEFAULT.value,\n    timeout=10000\n)\n\nresult = sdk.implemented_api.get_corpus_countries()\n\nprint(result)\n"
+    },
+    "/api/corpus/analysis/search": {
+      "get": "from iconocracy_corpus_sdk import IconocracyCorpusSdk, Environment\n\nsdk = IconocracyCorpusSdk(\n    base_url=Environment.DEFAULT.value,\n    timeout=10000\n)\n\nresult = sdk.implemented_api.search_corpus_analysis(\n    attr=\"{{attr}}\",\n    figure=\"{{figure}}\"\n)\n\nprint(result)\n"
+    },
+    "/api/corpus/analysis": {
+      "get": "from iconocracy_corpus_sdk import IconocracyCorpusSdk, Environment\n\nsdk = IconocracyCorpusSdk(\n    base_url=Environment.DEFAULT.value,\n    timeout=10000\n)\n\nresult = sdk.implemented_api.list_corpus_analysis()\n\nprint(result)\n"
+    },
+    "/api/corpus": {
+      "get": "from iconocracy_corpus_sdk import IconocracyCorpusSdk, Environment\n\nsdk = IconocracyCorpusSdk(\n    base_url=Environment.DEFAULT.value,\n    timeout=10000\n)\n\nresult = sdk.implemented_api.list_corpus_items(\n    country=\"{{country}}\",\n    regime=\"{{regime}}\",\n    q=\"{{q}}\"\n)\n\nprint(result)\n"
+    },
+    "/api/corpus/{itemId}": {
+      "get": "from iconocracy_corpus_sdk import IconocracyCorpusSdk, Environment\n\nsdk = IconocracyCorpusSdk(\n    base_url=Environment.DEFAULT.value,\n    timeout=10000\n)\n\nresult = sdk.implemented_api.get_corpus_item()\n\nprint(result)\n"
+    },
+    "/post": {
+      "post": "from iconocracy_corpus_sdk import IconocracyCorpusSdk, Environment\nfrom iconocracy_corpus_sdk.models import PostDataRequest\n\nsdk = IconocracyCorpusSdk(\n    base_url=Environment.DEFAULT.value,\n    timeout=10000\n)\n\nrequest_body = PostDataRequest(\n    name=\"Add your name in the body\"\n)\n\nresult = sdk.post.post_data(request_body=request_body)\n\nprint(result)\n"
+    }
+  },
+  "example": "from iconocracy_corpus_sdk import IconocracyCorpusSdk, Environment\n\nsdk = IconocracyCorpusSdk(\n    base_url=Environment.DEFAULT.value,\n    timeout=10000\n)\n\nresult = sdk.get.get_data()\n\nprint(result)\n"
+}

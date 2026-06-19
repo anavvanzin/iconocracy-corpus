@@ -1,0 +1,19 @@
+$kind: collection
+name: iconocracy-corpus
+variables:
+  - key: baseUrl
+    value: 'http://localhost:8787'
+  - key: diarySecret
+    value: ''
+  - key: attr
+    value: ''
+  - key: figure
+    value: ''
+  - key: country
+    value: ''
+  - key: regime
+    value: ''
+  - key: q
+    value: ''
+  - key: itemId
+    value: ''

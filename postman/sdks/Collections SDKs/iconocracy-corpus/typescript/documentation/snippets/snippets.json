@@ -1,0 +1,36 @@
+{
+  "endpoints": {
+    "/get": {
+      "get": "import { IconocracyCorpusSdk } from 'iconocracy-corpus-sdk';\n\n(async () => {\n  const iconocracyCorpusSdk = new IconocracyCorpusSdk({});\n\n  const data = await iconocracyCorpusSdk.get_.getData();\n\n  console.log(data);\n})();\n"
+    },
+    "/api/diary": {
+      "get": "import { IconocracyCorpusSdk } from 'iconocracy-corpus-sdk';\n\n(async () => {\n  const iconocracyCorpusSdk = new IconocracyCorpusSdk({});\n\n  const data = await iconocracyCorpusSdk.implementedApi.getDiary();\n\n  console.log(data);\n})();\n",
+      "put": "import { IconocracyCorpusSdk } from 'iconocracy-corpus-sdk';\n\n(async () => {\n  const iconocracyCorpusSdk = new IconocracyCorpusSdk({});\n\n  const data = await iconocracyCorpusSdk.implementedApi.updateDiary(\n    [],\n  {\n      authorization: \"Bearer {{diarySecret}}\",\n  }\n);\n\n  console.log(data);\n})();\n"
+    },
+    "/api/scout": {
+      "get": "import { IconocracyCorpusSdk } from 'iconocracy-corpus-sdk';\n\n(async () => {\n  const iconocracyCorpusSdk = new IconocracyCorpusSdk({});\n\n  const data = await iconocracyCorpusSdk.implementedApi.getScoutData();\n\n  console.log(data);\n})();\n"
+    },
+    "/api/corpus/stats": {
+      "get": "import { IconocracyCorpusSdk } from 'iconocracy-corpus-sdk';\n\n(async () => {\n  const iconocracyCorpusSdk = new IconocracyCorpusSdk({});\n\n  const data = await iconocracyCorpusSdk.implementedApi.getCorpusStats();\n\n  console.log(data);\n})();\n"
+    },
+    "/api/corpus/countries": {
+      "get": "import { IconocracyCorpusSdk } from 'iconocracy-corpus-sdk';\n\n(async () => {\n  const iconocracyCorpusSdk = new IconocracyCorpusSdk({});\n\n  const data = await iconocracyCorpusSdk.implementedApi.getCorpusCountries();\n\n  console.log(data);\n})();\n"
+    },
+    "/api/corpus/analysis/search": {
+      "get": "import { IconocracyCorpusSdk } from 'iconocracy-corpus-sdk';\n\n(async () => {\n  const iconocracyCorpusSdk = new IconocracyCorpusSdk({});\n\n  const data = await iconocracyCorpusSdk.implementedApi.searchCorpusAnalysis({\n      attr: \"{{attr}}\",\n      figure: \"{{figure}}\",\n  });\n\n  console.log(data);\n})();\n"
+    },
+    "/api/corpus/analysis": {
+      "get": "import { IconocracyCorpusSdk } from 'iconocracy-corpus-sdk';\n\n(async () => {\n  const iconocracyCorpusSdk = new IconocracyCorpusSdk({});\n\n  const data = await iconocracyCorpusSdk.implementedApi.listCorpusAnalysis();\n\n  console.log(data);\n})();\n"
+    },
+    "/api/corpus": {
+      "get": "import { IconocracyCorpusSdk } from 'iconocracy-corpus-sdk';\n\n(async () => {\n  const iconocracyCorpusSdk = new IconocracyCorpusSdk({});\n\n  const data = await iconocracyCorpusSdk.implementedApi.listCorpusItems({\n      country: \"{{country}}\",\n      regime: \"{{regime}}\",\n      q: \"{{q}}\",\n  });\n\n  console.log(data);\n})();\n"
+    },
+    "/api/corpus/{itemId}": {
+      "get": "import { IconocracyCorpusSdk } from 'iconocracy-corpus-sdk';\n\n(async () => {\n  const iconocracyCorpusSdk = new IconocracyCorpusSdk({});\n\n  const data = await iconocracyCorpusSdk.implementedApi.getCorpusItem();\n\n  console.log(data);\n})();\n"
+    },
+    "/post": {
+      "post": "import { IconocracyCorpusSdk, PostDataRequest } from 'iconocracy-corpus-sdk';\n\n(async () => {\n  const iconocracyCorpusSdk = new IconocracyCorpusSdk({});\n\n  \n  const postDataRequest: PostDataRequest = {\t\n    name: \"Add your name in the body\"\n  };\n\n  const data = await iconocracyCorpusSdk.post.postData(postDataRequest);\n\n  console.log(data);\n})();\n"
+    }
+  },
+  "example": "import { IconocracyCorpusSdk } from 'iconocracy-corpus-sdk';\n\n(async () => {\n  const iconocracyCorpusSdk = new IconocracyCorpusSdk({});\n\n  const data = await iconocracyCorpusSdk.get_.getData();\n\n  console.log(data);\n})();\n"
+}

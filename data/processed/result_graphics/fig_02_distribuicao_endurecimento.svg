@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="600" viewBox="0 0 980 600" role="img">
+<rect width="980" height="600" fill="#ffffff"/>
+<text x="48.0" y="46.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#343a40" text-anchor="start">Distribuicao do score composto de endurecimento</text>
+<text x="48.0" y="72.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#68707d" text-anchor="start">Media=1.44 | mediana=1.40 | N=264</text>
+<line x1="48.0" y1="92.0" x2="932.0" y2="92.0" stroke="#edf0f4" stroke-width="1"/>
+<line x1="92.0" y1="500.0" x2="932.0" y2="500.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="80.0" y="505.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="end">0</text>
+<line x1="92.0" y1="422.7" x2="932.0" y2="422.7" stroke="#d9dee6" stroke-width="1"/>
+<text x="80.0" y="427.7" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="end">14</text>
+<line x1="92.0" y1="345.4" x2="932.0" y2="345.4" stroke="#d9dee6" stroke-width="1"/>
+<text x="80.0" y="350.4" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="end">28</text>
+<line x1="92.0" y1="268.1" x2="932.0" y2="268.1" stroke="#d9dee6" stroke-width="1"/>
+<text x="80.0" y="273.1" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="end">42</text>
+<line x1="92.0" y1="190.7" x2="932.0" y2="190.7" stroke="#d9dee6" stroke-width="1"/>
+<text x="80.0" y="195.7" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="end">56</text>
+<rect x="95.0" y="384.0" width="64.0" height="116.0" fill="#9dbed9"/>
+<text x="127.0" y="377.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#343a40" text-anchor="middle">21</text>
+<rect x="165.0" y="472.4" width="64.0" height="27.6" fill="#c3d9ed"/>
+<text x="197.0" y="465.4" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#343a40" text-anchor="middle">5</text>
+<rect x="235.0" y="395.1" width="64.0" height="104.9" fill="#a2c1db"/>
+<text x="267.0" y="388.1" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#343a40" text-anchor="middle">19</text>
+<rect x="305.0" y="406.1" width="64.0" height="93.9" fill="#a6c5de"/>
+<text x="337.0" y="399.1" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#343a40" text-anchor="middle">17</text>
+<rect x="375.0" y="378.5" width="64.0" height="121.5" fill="#9abcd7"/>
+<text x="407.0" y="371.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#343a40" text-anchor="middle">22</text>
+<rect x="445.0" y="130.0" width="64.0" height="370.0" fill="#2f6f9f"/>
+<text x="477.0" y="123.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#343a40" text-anchor="middle">67</text>
+<rect x="515.0" y="290.1" width="64.0" height="209.9" fill="#74a1c3"/>
+<text x="547.0" y="283.1" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#343a40" text-anchor="middle">38</text>
+<rect x="585.0" y="428.2" width="64.0" height="71.8" fill="#b0cce3"/>
+<text x="617.0" y="421.2" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#343a40" text-anchor="middle">13</text>
+<rect x="655.0" y="444.8" width="64.0" height="55.2" fill="#b7d1e6"/>
+<text x="687.0" y="437.8" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#343a40" text-anchor="middle">10</text>
+<rect x="725.0" y="433.7" width="64.0" height="66.3" fill="#b2cde4"/>
+<text x="757.0" y="426.7" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#343a40" text-anchor="middle">12</text>
+<rect x="795.0" y="284.6" width="64.0" height="215.4" fill="#729fc2"/>
+<text x="827.0" y="277.6" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#343a40" text-anchor="middle">39</text>
+<rect x="865.0" y="494.5" width="64.0" height="5.5" fill="#cde0f2"/>
+<text x="897.0" y="487.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#343a40" text-anchor="middle">1</text>
+<line x1="92.0" y1="500.0" x2="92.0" y2="507.0" stroke="#343a40" stroke-width="1"/>
+<text x="92.0" y="528.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">0</text>
+<line x1="302.0" y1="500.0" x2="302.0" y2="507.0" stroke="#343a40" stroke-width="1"/>
+<text x="302.0" y="528.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">0.75</text>
+<line x1="512.0" y1="500.0" x2="512.0" y2="507.0" stroke="#343a40" stroke-width="1"/>
+<text x="512.0" y="528.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">1.5</text>
+<line x1="722.0" y1="500.0" x2="722.0" y2="507.0" stroke="#343a40" stroke-width="1"/>
+<text x="722.0" y="528.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">2.2</text>
+<line x1="932.0" y1="500.0" x2="932.0" y2="507.0" stroke="#343a40" stroke-width="1"/>
+<text x="932.0" y="528.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">3</text>
+<line x1="495.5" y1="130.0" x2="495.5" y2="500.0" stroke="#b6453d" stroke-width="2"/>
+<text x="503.5" y="150.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#b6453d" text-anchor="start">media 1.44</text>
+<text x="490.0" y="558.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#68707d" text-anchor="middle">Score composto (0-3)</text>
+<text x="34.0" y="315.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#68707d" text-anchor="middle" transform="rotate(-90 34.0 315.0)">Frequencia</text>
+</svg>
