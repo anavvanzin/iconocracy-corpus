@@ -8,6 +8,18 @@ Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História 
 
 > **Master plan**: `docs/PLANO-TESE-ICONOCRACIA.md` — comprehensive thesis architecture, methodology, case rankings, risk matrix, 24-month work plan, and 10 immediate decisions.
 
+---
+
+## ⚠️ Canonical Data & SSOT Methodology (decided 2026-06-19) — read before touching corpus data
+
+**Methodology (`docs/decisions/2026-06-19-ssot-apparatus-critico-design.md`, via dialectic `docs/decisions/dialectic-ssot-2026-06-19/`):** the corpus is a **versioned hermeneutic artifact** governed by a **critical-apparatus discipline**. The canonical version of reference = a sequence of **frozen, git-versioned releases** (snapshot + coding apparatus + dataset card). **Git is the event log** (commit=event, tag=release). A query DB is an **optional derived index (DuckDB), never the master** — see `docs/apparatus/GUIA-consulta-corpus.md`.
+
+**Operational rules for ALL agents (these prevent real mistakes made on 2026-06-19):**
+1. **`origin/main` is canonical** (records.jsonl=308 / corpus-data.json=309). Local clones may be **stale forks** — ALWAYS `git fetch origin` and compare to `origin/main` BEFORE acting on any corpus count. Never trust a local count.
+2. **`corpus-data.json` is a DERIVED EXPORT** of `records.jsonl` (via `records_to_corpus.py`). Editing it directly is **ephemeral** (regenerated). Change the master, then re-export. **NEVER run `records_to_corpus.py --replace`** — it strips `id`/`country`/`support`. Default (merge) mode is correct.
+3. **Quarantine/uncoded already exists** — `tools/scripts/tag_uncoded_purification.py` + `data/processed/purification-manifest.json` + `docs/decisions/quarantine-uncoded-2026-05-30.json`. Don't reinvent it. Validity axis = `coded_by` (instrument provenance), per `docs/decisions/DIALETICA-N165-vs-265.md`; read decisions/* FIRST.
+4. `endurecimento_score=0` is a **valid score** (low purification), not "uncoded". N analítico = coded only (~223), never 309.
+
 **Parent CLAUDE.md context** (do not duplicate; read on demand):
 - `~/Documents/CLAUDE.md` — host layout, stale `/data/` → `~/Documents/` migration, location of binary drop zone `iconocracy-corpus/binaries/` (separate from this repo).
 - `~/Documents/projetos/research/CLAUDE.md` — meta-workspace conventions (sub-repo containment, where new pipelines/labs/apps go).
