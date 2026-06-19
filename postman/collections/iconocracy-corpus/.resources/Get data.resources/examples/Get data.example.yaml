@@ -1,0 +1,49 @@
+$kind: http-example
+description: >-
+  This is a GET request and it is used to "get" data from an endpoint. There is
+  no request body for a GET request, but you can use query parameters to help
+  specify the resource you want data on (e.g., in this request, we have `id=1`).
+
+
+  A successful GET response will have a `200 OK` status, and should include some
+  kind of response body - for example, HTML web content or JSON data.
+request:
+  url: postman-echo.com/get
+  method: GET
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    - key: date
+      value: Tue, 14 Apr 2026 03:17:52 GMT
+    - key: content-type
+      value: application/json; charset=utf-8
+    - key: transfer-encoding
+      value: chunked
+    - key: connection
+      value: keep-alive
+    - key: etag
+      value: W/"249-GMF2N9lup0RzB2CQrv6dWW3K+hk"
+    - key: vary
+      value: Accept-Encoding
+    - key: x-envoy-upstream-service-time
+      value: "4"
+    - key: cf-cache-status
+      value: DYNAMIC
+    - key: set-cookie
+      value: sails.sid=s%3ASd22PbgX_4EBcVrcaVZ2PZ7yMeFWVebR.S3eswRlS2zW9tggrcVD8tL7KGMXKyiQ38NCtlZhQSWQ;
+        Path=/; HttpOnly
+    - key: set-cookie
+      value: _cfuvid=iwls4zzy0pPtc4ibFMZqZ.aemhNcYfOutP4UAtI4qBE-1776136671.642967-1.0.1.1-XN0yYE9TE4K_4_dEfzFRjJ5myI2buRwsH4FIpeGFxJE;
+        HttpOnly; SameSite=None; Secure; Path=/; Domain=postman-echo.com
+    - key: content-encoding
+      value: gzip
+    - key: server
+      value: cloudflare
+    - key: cf-ray
+      value: 9ebf8f55cbc67e1d-GRU
+  body:
+    type: json
+    content: '{"args":{},"headers":{"host":"postman-echo.com","user-agent":"PostmanRuntime/1.3.4","accept":"*/*","accept-encoding":"gzip","x-forwarded-proto":"https","cache-control":"no-cache","postman-token":"5d4507a8-b195-496c-849e-0d0178a31467","cookie":"__cf_bm=SmYz7bp0GR3fmBJCQB8AgFl.j3038DctzKjxQFQXm0E-1776136652.3672898-1.0.1.1-qxN.Snv8dnrtqggWTe7WtyCATR6ZJpm_XPogvQE3Aq0rfmpj_iSj1eLStQRdWtokjorcnkfmG5gA0yAJwPdlWixAcXTjH_8mhFPiJ.OH4oi2SxcOCq42YSiwdPNydyL4;
+      sails.sid=s%3AbFWrlP7mjqry7zydCjshVJQ5xmWcaGef.e6ubib0tcBbGnzhiDIXRcEopRbK%2F2I1x8bRqA1j6s6w"},"url":"https://postman-echo.com/get"}'
+order: 1776136678730

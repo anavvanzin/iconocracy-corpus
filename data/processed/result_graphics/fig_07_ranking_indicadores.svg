@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="640" viewBox="0 0 1080 640" role="img">
+<rect width="1080" height="640" fill="#ffffff"/>
+<text x="48.0" y="46.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#343a40" text-anchor="start">Indicadores com maior media no corpus</text>
+<text x="48.0" y="72.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#68707d" text-anchor="start">Ranking dos 10 componentes ordinais do protocolo de endurecimento.</text>
+<line x1="48.0" y1="92.0" x2="1032.0" y2="92.0" stroke="#edf0f4" stroke-width="1"/>
+<line x1="260.0" y1="120.0" x2="260.0" y2="540.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="260.0" y="572.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">0</text>
+<line x1="448.0" y1="120.0" x2="448.0" y2="540.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="448.0" y="572.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">0.75</text>
+<line x1="636.0" y1="120.0" x2="636.0" y2="540.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="636.0" y="572.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">1.5</text>
+<line x1="824.0" y1="120.0" x2="824.0" y2="540.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="824.0" y="572.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">2.2</text>
+<line x1="1012.0" y1="120.0" x2="1012.0" y2="540.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="1012.0" y="572.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">3</text>
+<text x="244.0" y="150.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">Monocromatizacao</text>
+<rect x="260.0" y="132.0" width="468.1" height="24.0" fill="#cc7c74"/>
+<text x="738.1" y="149.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.87</text>
+<text x="244.0" y="192.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">Uniformizacao facial</text>
+<rect x="260.0" y="174.0" width="415.9" height="24.0" fill="#d0867e"/>
+<text x="685.9" y="191.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.66</text>
+<text x="244.0" y="234.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">Dessexualizacao</text>
+<rect x="260.0" y="216.0" width="414.9" height="24.0" fill="#d0867e"/>
+<text x="684.9" y="233.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.66</text>
+<text x="244.0" y="276.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">Apagamento narrativo</text>
+<rect x="260.0" y="258.0" width="396.9" height="24.0" fill="#d28981"/>
+<text x="666.9" y="275.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.58</text>
+<text x="244.0" y="318.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">Serialidade</text>
+<rect x="260.0" y="300.0" width="379.8" height="24.0" fill="#d38d85"/>
+<text x="649.8" y="317.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.52</text>
+<text x="244.0" y="360.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">Rigidez postural</text>
+<rect x="260.0" y="342.0" width="347.5" height="24.0" fill="#d6938b"/>
+<text x="617.5" y="359.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.39</text>
+<text x="244.0" y="402.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">Inscricao estatal</text>
+<rect x="260.0" y="384.0" width="321.9" height="24.0" fill="#d89890"/>
+<text x="591.9" y="401.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.28</text>
+<text x="244.0" y="444.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">Heraldizacao</text>
+<rect x="260.0" y="426.0" width="309.5" height="24.0" fill="#d99a92"/>
+<text x="579.5" y="443.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.23</text>
+<text x="244.0" y="486.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">Enquadramento arq.</text>
+<rect x="260.0" y="468.0" width="280.1" height="24.0" fill="#dba098"/>
+<text x="550.1" y="485.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.12</text>
+<text x="244.0" y="528.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">Desincorporacao</text>
+<rect x="260.0" y="510.0" width="277.3" height="24.0" fill="#dba199"/>
+<text x="547.3" y="527.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.11</text>
+<text x="636.0" y="598.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#68707d" text-anchor="middle">Media ordinal (0-3)</text>
+</svg>

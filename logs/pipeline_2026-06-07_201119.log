@@ -1,0 +1,3 @@
+
+Error: jsonschema library required. Install with: pip install jsonschema
+ERROR conda.cli.main_run:execute(148): `conda run python tools/scripts/validate_schemas.py` failed. (See above for error)
