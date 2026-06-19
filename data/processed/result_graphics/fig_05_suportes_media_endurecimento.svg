@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="734" viewBox="0 0 1080 734" role="img">
+<rect width="1080" height="734" fill="#ffffff"/>
+<text x="48.0" y="46.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#343a40" text-anchor="start">Suportes com maior media de endurecimento</text>
+<text x="48.0" y="72.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#68707d" text-anchor="start">Todos os suportes do ledger atual; ordenado por media do score composto.</text>
+<line x1="48.0" y1="92.0" x2="1032.0" y2="92.0" stroke="#edf0f4" stroke-width="1"/>
+<line x1="250.0" y1="120.0" x2="250.0" y2="624.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="250.0" y="656.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">0</text>
+<line x1="440.0" y1="120.0" x2="440.0" y2="624.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="440.0" y="656.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">0.75</text>
+<line x1="630.0" y1="120.0" x2="630.0" y2="624.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="630.0" y="656.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">1.5</text>
+<line x1="820.0" y1="120.0" x2="820.0" y2="624.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="820.0" y="656.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">2.2</text>
+<line x1="1010.0" y1="120.0" x2="1010.0" y2="624.0" stroke="#d9dee6" stroke-width="1"/>
+<text x="1010.0" y="656.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#68707d" text-anchor="middle">3</text>
+<text x="234.0" y="150.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">selo</text>
+<rect x="250.0" y="132.0" width="595.3" height="24.0" fill="#4f9f7c"/>
+<text x="855.3" y="149.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">2.35  n=14</text>
+<text x="234.0" y="192.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">medalha</text>
+<rect x="250.0" y="174.0" width="472.9" height="24.0" fill="#6bae90"/>
+<text x="732.9" y="191.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.87  n=3</text>
+<text x="234.0" y="234.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">texto</text>
+<rect x="250.0" y="216.0" width="443.3" height="24.0" fill="#72b295"/>
+<text x="703.3" y="233.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.75  n=6</text>
+<text x="234.0" y="276.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">moeda</text>
+<rect x="250.0" y="258.0" width="416.1" height="24.0" fill="#78b599"/>
+<text x="676.1" y="275.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.64  n=59</text>
+<text x="234.0" y="318.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">monumento/escultura</text>
+<rect x="250.0" y="300.0" width="414.2" height="24.0" fill="#79b69a"/>
+<text x="674.2" y="317.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.64  n=20</text>
+<text x="234.0" y="360.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">fotografia</text>
+<rect x="250.0" y="342.0" width="400.3" height="24.0" fill="#7cb79c"/>
+<text x="660.3" y="359.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.58  n=10</text>
+<text x="234.0" y="402.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">cartaz</text>
+<rect x="250.0" y="384.0" width="384.2" height="24.0" fill="#80b99e"/>
+<text x="644.2" y="401.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.52  n=24</text>
+<text x="234.0" y="444.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">frontispício</text>
+<rect x="250.0" y="426.0" width="373.7" height="24.0" fill="#82bba0"/>
+<text x="633.7" y="443.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.48  n=8</text>
+<text x="234.0" y="486.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">estampa/gravura</text>
+<rect x="250.0" y="468.0" width="310.3" height="24.0" fill="#90c3aa"/>
+<text x="570.3" y="485.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.22  n=89</text>
+<text x="234.0" y="528.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">cerâmica</text>
+<rect x="250.0" y="510.0" width="253.3" height="24.0" fill="#9dcab3"/>
+<text x="513.3" y="527.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">1.00  n=2</text>
+<text x="234.0" y="570.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">pintura</text>
+<rect x="250.0" y="552.0" width="241.5" height="24.0" fill="#a0cbb5"/>
+<text x="501.5" y="569.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">0.95  n=15</text>
+<text x="234.0" y="612.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#343a40" text-anchor="end">papel-moeda</text>
+<rect x="250.0" y="594.0" width="226.2" height="24.0" fill="#a4cdb8"/>
+<text x="486.2" y="611.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#343a40" text-anchor="start">0.89  n=14</text>
+<text x="630.0" y="696.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#68707d" text-anchor="middle">Media do score composto (0-3)</text>
+</svg>

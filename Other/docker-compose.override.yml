@@ -1,0 +1,12 @@
+# Auto-loaded dev overrides. Adjust local-only env without editing docker-compose.yml.
+# To skip overrides: docker compose -f docker-compose.yml up
+
+services:
+  web:
+    environment:
+      - DEBUG=vite:*
+      - VITE_LOG_LEVEL=info
+
+  mcp:
+    environment:
+      - DEBUG=mcp:*

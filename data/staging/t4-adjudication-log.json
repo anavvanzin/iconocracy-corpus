@@ -1,0 +1,112 @@
+{
+  "adjudicated_at": "2026-04-22T00:00:00Z",
+  "reconstituted_at": "2026-04-28T20:37:52.541483+00:00",
+  "source": "T4-LPAI-INGEST-REPORT.md §5.a — Council & Santa method",
+  "decisions": [
+    {
+      "staged_id": "BR-SCOUT-001",
+      "canonical_id": "BR-005",
+      "decision": "NEW",
+      "method": "Santa",
+      "rationale": "title_substring noise; different creators (Agostini lithograph vs Villares oil)"
+    },
+    {
+      "staged_id": "BR-SCOUT-002",
+      "canonical_id": null,
+      "decision": "NEW",
+      "method": "auto",
+      "rationale": "No dedup signals — genuinely new item"
+    },
+    {
+      "staged_id": "BR-SCOUT-003",
+      "canonical_id": "BR-005",
+      "decision": "NEW",
+      "method": "Santa",
+      "rationale": "title_substring noise; different creators (Lopes Rodrigues 1896 vs Villares 1888)"
+    },
+    {
+      "staged_id": "BR-SCOUT-004",
+      "canonical_id": null,
+      "decision": "NEW",
+      "method": "auto",
+      "rationale": "No dedup signals"
+    },
+    {
+      "staged_id": "BR-SCOUT-005",
+      "canonical_id": "BR-009",
+      "decision": "ENRICH",
+      "method": "Council",
+      "rationale": "Same object (Ceschiatti sculpture); LPAI title omits attribution"
+    },
+    {
+      "staged_id": "BR-SCOUT-006",
+      "canonical_id": null,
+      "decision": "NEW",
+      "method": "auto",
+      "rationale": "No dedup signals"
+    },
+    {
+      "staged_id": "BR-SCOUT-007",
+      "canonical_id": null,
+      "decision": "NEW",
+      "method": "auto",
+      "rationale": "No dedup signals"
+    },
+    {
+      "staged_id": "FR-SCOUT-001",
+      "canonical_id": "FR-005",
+      "decision": "ENRICH",
+      "method": "auto",
+      "rationale": "MATCHES: exact URL + title_exact. Same object (Félicien Rops). Merge LPAI fields into FR-005."
+    },
+    {
+      "staged_id": "FR-SCOUT-002",
+      "canonical_id": "FR-008",
+      "decision": "ENRICH",
+      "method": "Council",
+      "rationale": "Same object, different state (état avec remarque); atlas does not need separate panel"
+    },
+    {
+      "staged_id": "FR-SCOUT-003",
+      "canonical_id": null,
+      "decision": "NEW",
+      "method": "auto",
+      "rationale": "No dedup signals"
+    },
+    {
+      "staged_id": "FR-SCOUT-004",
+      "canonical_id": null,
+      "decision": "NEW",
+      "method": "auto",
+      "rationale": "No dedup signals"
+    },
+    {
+      "staged_id": "FR-SCOUT-005",
+      "canonical_id": "FR-009",
+      "decision": "ENRICH",
+      "method": "Council",
+      "rationale": "Same object family; photographic series enriches the bust record"
+    },
+    {
+      "staged_id": "FR-SCOUT-006",
+      "canonical_id": "FR-038",
+      "decision": "ENRICH",
+      "method": "Santa",
+      "rationale": "Same object; LPAI supplies missing Gallica URL and Janinet attribution"
+    },
+    {
+      "staged_id": "FR-SCOUT-007",
+      "canonical_id": null,
+      "decision": "NEW",
+      "method": "auto",
+      "rationale": "No dedup signals"
+    },
+    {
+      "staged_id": "FR-SCOUT-008",
+      "canonical_id": null,
+      "decision": "NEW",
+      "method": "auto",
+      "rationale": "No dedup signals"
+    }
+  ]
+}

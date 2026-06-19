@@ -1,0 +1,36 @@
+{
+  "endpoints": {
+    "/get": {
+      "get": "import com.iconocracycorpussdk.IconocracyCorpusSdk;\n\npublic class Main {\n    public static void main(String[] args) {\n\t\tIconocracyCorpusSdk iconocracyCorpusSdk = new IconocracyCorpusSdk();\n\n\t\tObject response = iconocracyCorpusSdk.get.getData();\n\t\t\t\n\t\tSystem.out.println(response);\n    }\n}\n"
+    },
+    "/api/diary": {
+      "get": "import com.iconocracycorpussdk.IconocracyCorpusSdk;\n\npublic class Main {\n    public static void main(String[] args) {\n\t\tIconocracyCorpusSdk iconocracyCorpusSdk = new IconocracyCorpusSdk();\n\n\t\tObject response = iconocracyCorpusSdk.implementedApi.getDiary();\n\t\t\t\n\t\tSystem.out.println(response);\n    }\n}\n",
+      "put": "import com.iconocracycorpussdk.IconocracyCorpusSdk;\nimport com.iconocracycorpussdk.models.UpdateDiaryParameters;\nimport java.util.Arrays;\nimport java.util.List;\n\npublic class Main {\n    public static void main(String[] args) {\n\t\tIconocracyCorpusSdk iconocracyCorpusSdk = new IconocracyCorpusSdk();\n\n\t\tList<Object> requestBodyList = Arrays.asList(new Object());\n\t\t\n\t\tUpdateDiaryParameters requestParameters = UpdateDiaryParameters.builder()\n\t\t\t.authorization(\"Bearer {{diarySecret}}\")\n\t\t\t.requestBody(requestBodyList)\n\t\t\t.build();\n\n\t\tObject response = iconocracyCorpusSdk.implementedApi.updateDiary(requestParameters);\n\t\t\t\n\t\tSystem.out.println(response);\n    }\n}\n"
+    },
+    "/api/scout": {
+      "get": "import com.iconocracycorpussdk.IconocracyCorpusSdk;\n\npublic class Main {\n    public static void main(String[] args) {\n\t\tIconocracyCorpusSdk iconocracyCorpusSdk = new IconocracyCorpusSdk();\n\n\t\tObject response = iconocracyCorpusSdk.implementedApi.getScoutData();\n\t\t\t\n\t\tSystem.out.println(response);\n    }\n}\n"
+    },
+    "/api/corpus/stats": {
+      "get": "import com.iconocracycorpussdk.IconocracyCorpusSdk;\n\npublic class Main {\n    public static void main(String[] args) {\n\t\tIconocracyCorpusSdk iconocracyCorpusSdk = new IconocracyCorpusSdk();\n\n\t\tObject response = iconocracyCorpusSdk.implementedApi.getCorpusStats();\n\t\t\t\n\t\tSystem.out.println(response);\n    }\n}\n"
+    },
+    "/api/corpus/countries": {
+      "get": "import com.iconocracycorpussdk.IconocracyCorpusSdk;\n\npublic class Main {\n    public static void main(String[] args) {\n\t\tIconocracyCorpusSdk iconocracyCorpusSdk = new IconocracyCorpusSdk();\n\n\t\tObject response = iconocracyCorpusSdk.implementedApi.getCorpusCountries();\n\t\t\t\n\t\tSystem.out.println(response);\n    }\n}\n"
+    },
+    "/api/corpus/analysis/search": {
+      "get": "import com.iconocracycorpussdk.IconocracyCorpusSdk;\nimport com.iconocracycorpussdk.models.SearchCorpusAnalysisParameters;\n\npublic class Main {\n    public static void main(String[] args) {\n\t\tIconocracyCorpusSdk iconocracyCorpusSdk = new IconocracyCorpusSdk();\n\n\t\tSearchCorpusAnalysisParameters requestParameters = SearchCorpusAnalysisParameters.builder()\n\t\t\t.attr(\"{{attr}}\")\n\t\t\t.figure(\"{{figure}}\")\n\t\t\t.build();\n\n\t\tObject response = iconocracyCorpusSdk.implementedApi.searchCorpusAnalysis(requestParameters);\n\t\t\t\n\t\tSystem.out.println(response);\n    }\n}\n"
+    },
+    "/api/corpus/analysis": {
+      "get": "import com.iconocracycorpussdk.IconocracyCorpusSdk;\n\npublic class Main {\n    public static void main(String[] args) {\n\t\tIconocracyCorpusSdk iconocracyCorpusSdk = new IconocracyCorpusSdk();\n\n\t\tObject response = iconocracyCorpusSdk.implementedApi.listCorpusAnalysis();\n\t\t\t\n\t\tSystem.out.println(response);\n    }\n}\n"
+    },
+    "/api/corpus": {
+      "get": "import com.iconocracycorpussdk.IconocracyCorpusSdk;\nimport com.iconocracycorpussdk.models.ListCorpusItemsParameters;\n\npublic class Main {\n    public static void main(String[] args) {\n\t\tIconocracyCorpusSdk iconocracyCorpusSdk = new IconocracyCorpusSdk();\n\n\t\tListCorpusItemsParameters requestParameters = ListCorpusItemsParameters.builder()\n\t\t\t.country(\"{{country}}\")\n\t\t\t.regime(\"{{regime}}\")\n\t\t\t.q(\"{{q}}\")\n\t\t\t.build();\n\n\t\tObject response = iconocracyCorpusSdk.implementedApi.listCorpusItems(requestParameters);\n\t\t\t\n\t\tSystem.out.println(response);\n    }\n}\n"
+    },
+    "/api/corpus/{itemId}": {
+      "get": "import com.iconocracycorpussdk.IconocracyCorpusSdk;\n\npublic class Main {\n    public static void main(String[] args) {\n\t\tIconocracyCorpusSdk iconocracyCorpusSdk = new IconocracyCorpusSdk();\n\n\t\tObject response = iconocracyCorpusSdk.implementedApi.getCorpusItem();\n\t\t\t\n\t\tSystem.out.println(response);\n    }\n}\n"
+    },
+    "/post": {
+      "post": "import com.iconocracycorpussdk.IconocracyCorpusSdk;\nimport com.iconocracycorpussdk.models.PostDataRequest;\n\npublic class Main {\n    public static void main(String[] args) {\n\t\tIconocracyCorpusSdk iconocracyCorpusSdk = new IconocracyCorpusSdk();\n\n\t\tPostDataRequest postDataRequest = PostDataRequest.builder()\n\t\t\t.name(\"Add your name in the body\")\n\t\t\t.build();\n\n\t\tObject response = iconocracyCorpusSdk.post.postData(postDataRequest);\n\t\t\t\n\t\tSystem.out.println(response);\n    }\n}\n"
+    }
+  },
+  "example": "import com.iconocracycorpussdk.IconocracyCorpusSdk;\nimport com.iconocracycorpussdk.exceptions.ApiError;\n  \npublic class Main {\n  public static void main(String[] args) {\n    IconocracyCorpusSdk iconocracyCorpusSdk = new IconocracyCorpusSdk();\n\n\n    try {\n      Object response = iconocracyCorpusSdk.get.getData();\n        \n      System.out.println(response);\n    } catch (ApiError e) {\n      e.printStackTrace();\n    }\n\n    System.exit(0);\n  }\n}\n"
+}
