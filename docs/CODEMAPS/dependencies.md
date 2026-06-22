@@ -2,7 +2,7 @@
 # Dependencies — env, services, integrations, deploy, CI
 
 ## Runtime
-- **conda env `iconocracy`** (Python 3.12, `/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python3.12`). NEVER system Python; NEVER the SSD env (Linux build → exec format error on macOS).
+- **conda env `iconocracy`** (Python **3.11** per `environment.yml`; rebuilt 3.12→3.11 2026-06-22). Use version-agnostic `/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python` — NOT a pinned `python3.12`/`python3.11`. NEVER system Python; NEVER the SSD env (Linux build → exec format error on macOS).
 - Node/npm present (`node_modules/`) for deploy tooling.
 
 ## External archives (acquisition sources)
