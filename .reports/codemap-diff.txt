@@ -1,0 +1,28 @@
+CODEMAP DIFF — 2026-06-22 (BASELINE: first generation, no prior codemaps to diff)
+================================================================================
+
+Project type: research monorepo (Python pipeline + corpus data + Obsidian vault +
+thesis manuscript). NOT a web app. Adapted the generic template accordingly:
+  - SKIPPED backend.md / frontend.md (webiconocracy retired; only public surface =
+    Cloudflare Worker companion + HF Space).
+  - REPLACED backend.md with pipeline.md (the 79 tools/scripts by function).
+
+Files generated (docs/CODEMAPS/):
+  + architecture.md   ~750 tok  — dual-agent pipeline, corpus lifecycle, subsystems
+  + data.md           ~800 tok  — stores, 7 schemas, 10 indicators, N-strata
+  + pipeline.md       ~900 tok  — 79 scripts in 8 functional families
+  + dependencies.md   ~700 tok  — env, MCPs, archives, deploy, CI
+
+Scanned: 79 tools/scripts/*.py · 8 notebooks (01–08) · 7 JSON schemas ·
+         8 CI workflows · deploy/{companion,huggingface,docker,tropical-atlas}
+
+Architecture notes:
+  - Canonical data flow: records.jsonl → corpus-data.json (derived) → HF.
+  - Analytic-N is unresolved (strata by coded_by; 165/264/265/309 drift across stores).
+  - E1 Fable-5 recode (single instrument, N=44) lives in branch worktree-e1-fable5-recode.
+
+Staleness warnings: none (baseline). Re-run after major pipeline/structure changes.
+
+LOCATION CAVEAT: written into the e1-fable5-recode worktree (session is isolated there;
+main checkout is write-blocked). Content describes the canonical repo structure.
+Move/cherry-pick to main's docs/CODEMAPS/ when convenient.
