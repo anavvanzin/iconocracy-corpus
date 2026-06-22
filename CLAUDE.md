@@ -123,7 +123,7 @@ Active automation:
 
 ## Corpus Parameters
 
-**Countries:** FR (Marianne, La République, La Justice, La Liberté) · UK (Britannia, Justice, Hibernia, Scotia) · DE (Germania, Justitia, Minerva) · US (Columbia, Lady Justice, Liberty, America) · BE (La Belgique) · BR (A República, A Justiça)
+**Countries** (variável analítica, **NÃO gate de inclusão** desde 2026-06-22; lista-núcleo não-exaustiva): FR (Marianne, La République, La Justice, La Liberté) · UK (Britannia, Justice, Hibernia, Scotia) · DE (Germania, Justitia, Minerva) · US (Columbia, Lady Justice, Liberty, America) · BE (La Belgique) · BR (A República, A Justiça) · + qualquer país que satisfaça os 4 critérios (AT, NL, DK, ES já no corpus)
 
 **Supports:** moeda · selo · monumento/escultura · arquitetura forense · estampa/gravura · frontispício · papel-moeda · cartaz
 
@@ -133,7 +133,7 @@ Active automation:
 
 **10 purification indicators** (ordinal 0–3): desincorporação · rigidez_postural · dessexualização · uniformização_facial · heraldicização · enquadramento_arquitetônico · apagamento_narrativo · monocromatização · serialidade · inscrição_estatal
 
-**Inclusion criteria** (all 5 required): female allegorical figure + explicit juridical-political function + datable 1800–2000 + one of 6 countries + accepted support
+**Inclusion criteria** (all 4 required): female allegorical figure + explicit juridical-political function + datable 1800–2000 + accepted support. *(País deixou de ser critério de inclusão em 2026-06-22 — a alegoria "universal" é transnacional, base do Contrato Racial Visual; país permanece variável analítica, não gate. Ver `docs/decisions/E1-OPUS48-BATCH-2026-06-22.md` e memória `feedback_no_country_inclusion_rule`.)*
 
 ---
 
