@@ -92,11 +92,25 @@ def load_mapping():
         with open(MAPPING_FILE, encoding="utf-8") as f:
             try:
                 data = json.load(f)
+                corpus_to_items = {}
                 for entry in data.get("mapping", []):
                     c_id = entry.get("corpus_id")
                     item_id = entry.get("item_id")
                     if c_id and item_id:
-                        mapping[item_id] = c_id
+                        corpus_to_items.setdefault(c_id, []).append(item_id)
+                
+                for entry in data.get("mapping", []):
+                    c_id = entry.get("corpus_id")
+                    item_id = entry.get("item_id")
+                    if c_id and item_id:
+                        items_mapped = corpus_to_items[c_id]
+                        if len(items_mapped) > 1:
+                            ns = uuid.UUID("6ba7b810-9dad-11d1-80b4-00c04fd430c8")
+                            expected_uuid = str(uuid.uuid5(ns, f"iconocracy-corpus-{c_id}"))
+                            if item_id == expected_uuid:
+                                mapping[item_id] = c_id
+                        else:
+                            mapping[item_id] = c_id
             except Exception as e:
                 print(f"Warning: Failed to load id-mapping.json: {e}")
     return mapping
@@ -162,13 +176,7 @@ def build_database():
                 continue
                 
             corpus_id = uuid_to_corpus.get(item_id)
-            if corpus_id and corpus_id.strip() != "":
-                # Reconstruct deterministic UUID to handle duplicate mapping entries cleanly
-                ns = uuid.UUID("6ba7b810-9dad-11d1-80b4-00c04fd430c8")
-                expected_uuid = str(uuid.uuid5(ns, f"iconocracy-corpus-{corpus_id}"))
-                if item_id != expected_uuid:
-                    corpus_id = None
-            else:
+            if not corpus_id or corpus_id.strip() == "":
                 corpus_id = None
             meta = corpus_metadata.get(corpus_id, {}) if corpus_id else {}
             

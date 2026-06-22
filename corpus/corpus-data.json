@@ -1,5 +1,36 @@
 [
   {
+    "id": "8d89996e-c2aa-5a2e-a462-26b91f5308e4",
+    "country": "Brazil",
+    "url": "https://hemerotecadigital.bn.br/acervo-digital/revista-illustrada/332747",
+    "title": "A República nos braços de Floriano",
+    "description": "A República nos braços de Floriano",
+    "motif": [
+      "Republica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
+    "coded_by": "vault-import",
+    "coded_at": "2026-05-14T18:02:38Z",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "A República nos braços de Floriano",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "date": "1891"
+  },
+  {
     "id": "AR-001",
     "title": "Allegory, Liberty Seated — Selo definitivo da República Argentina",
     "date": "1899-1903",
@@ -339,7 +370,8 @@
     ],
     "id": "BE-003",
     "country": "Belgium",
-    "support": "selo"
+    "support": "selo",
+    "date": "1849-1866"
   },
   {
     "url": "https://neptun.unamur.be/ark:/83449/0091bdf9fa",
@@ -370,7 +402,8 @@
     ],
     "id": "BE-004",
     "country": "Belgium",
-    "support": "frontispício"
+    "support": "frontispício",
+    "date": "1852"
   },
   {
     "id": "BE-5F-LEOPOLD-1832",
@@ -1514,7 +1547,7 @@
   {
     "id": "BR-016",
     "title": "Crispim do Amaral, Alegoria da República (pano de boca do Theatro da Paz, Belém, 1890), reproduzida em Lima Junior (2020)",
-    "date": "1896",
+    "date": "1890",
     "period": "Early Republic (1889–1930)",
     "creator": "Manuel Lopes Rodrigues",
     "institution": "Museu de Arte da Bahia",
@@ -1620,7 +1653,8 @@
     ],
     "id": "BR-017",
     "country": "Brazil",
-    "support": "frontispício"
+    "support": "frontispício",
+    "date": "1889-11"
   },
   {
     "url": "http://memoria.bn.br/DocReader/116300/4346",
@@ -1651,7 +1685,8 @@
     ],
     "id": "BR-018",
     "country": "Brazil",
-    "support": "texto"
+    "support": "texto",
+    "date": "1904"
   },
   {
     "url": "http://memoria.bn.br/docreader/116300/4346",
@@ -1682,7 +1717,8 @@
     ],
     "id": "BR-019",
     "country": "Brazil",
-    "support": "texto"
+    "support": "texto",
+    "date": "1917"
   },
   {
     "url": "https://archive.nyu.edu/handle/2451/61367",
@@ -1713,7 +1749,8 @@
     ],
     "id": "BR-020",
     "country": "Brazil",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "c. 1871"
   },
   {
     "url": "https://artsandculture.google.com/story/cole%C3%A7%C3%A3o-lopes-rodrigues-museu-de-arte-da-bahia/kAXx2Zki-R24Lw",
@@ -1732,7 +1769,8 @@
     ],
     "id": "BR-021",
     "country": "Brazil",
-    "support": "pintura"
+    "support": "pintura",
+    "date": "1896"
   },
   {
     "url": "https://commons.wikimedia.org/wiki/File:Braziliana_ou_Brasiliana(Brazil_National_personification)_by_J_B_Debret.jpg",
@@ -1763,7 +1801,8 @@
     ],
     "id": "BR-022",
     "country": "Brazil",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "c. 1820"
   },
   {
     "url": "https://commons.wikimedia.org/wiki/File:Capa_da_Revista_Illustrada,_n.%C2%BA_566_(1889).png",
@@ -1782,7 +1821,8 @@
     ],
     "id": "BR-023",
     "country": "Brazil",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1889"
   },
   {
     "url": "https://commons.wikimedia.org/wiki/File:EliseuVisconti-A813-A_Lei_%C3%81urea_%E2%80%93_Projeto_para_selo_integrante_da_cole%C3%A7%C3%A3o_vencedora_do_Concurso_dos_Correios_de_1904.jpg",
@@ -1813,7 +1853,8 @@
     ],
     "id": "BR-024",
     "country": "Brazil",
-    "support": "selo"
+    "support": "selo",
+    "date": "1903"
   },
   {
     "url": "https://commons.wikimedia.org/wiki/File:EliseuVisconti-A814-A_Mulher_Brasileira_%E2%80%93_Projeto_para_selo_integrante_da_cole%C3%A7%C3%A3o_vencedora_do_Concurso_dos_Correios_de_1904.jpg",
@@ -1844,7 +1885,8 @@
     ],
     "id": "BR-025",
     "country": "Brazil",
-    "support": "selo"
+    "support": "selo",
+    "date": "1903"
   },
   {
     "url": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Anchieta_Escadaria_B%C3%A1rbara_Monteiro_Lindenberg_Vit%C3%B3ria_Esp%C3%ADrito_Santo_2019-4708.jpg",
@@ -1875,7 +1917,8 @@
     ],
     "id": "BR-026",
     "country": "Brazil",
-    "support": "monumento/escultura"
+    "support": "monumento/escultura",
+    "date": "1912"
   },
   {
     "url": "https://commons.wikimedia.org/wiki/File:Republica_no_brasil.jpg",
@@ -1894,7 +1937,8 @@
     ],
     "id": "BR-027",
     "country": "Brazil",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "c. 1889 (pós-Proclamação, 15 nov. 1889)"
   },
   {
     "url": "https://commons.wikimedia.org/wiki/File:Stamp_of_Brazil_-_1891_-_Colnect_811739_-_Liberty_thesouro_nacional.jpeg",
@@ -1925,7 +1969,8 @@
     ],
     "id": "BR-028",
     "country": "Brazil",
-    "support": "selo"
+    "support": "selo",
+    "date": "1891"
   },
   {
     "url": "https://en.numista.com/catalogue/note222815.html",
@@ -1956,7 +2001,8 @@
     ],
     "id": "BR-029",
     "country": "Brazil",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1890-1893"
   },
   {
     "url": "https://en.numista.com/catalogue/pieces14481.html",
@@ -1987,7 +2033,8 @@
     ],
     "id": "BR-030",
     "country": "Brazil",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1912"
   },
   {
     "url": "https://en.numista.com/catalogue/pieces36131.html",
@@ -2018,7 +2065,8 @@
     ],
     "id": "BR-031",
     "country": "Brazil",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1889-1922"
   },
   {
     "url": "https://en.numista.com/catalogue/pieces36132.html",
@@ -2049,7 +2097,8 @@
     ],
     "id": "BR-032",
     "country": "Brazil",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1891"
   },
   {
     "url": "https://en.numista.com/catalogue/pieces36319.html",
@@ -2080,7 +2129,8 @@
     ],
     "id": "BR-033",
     "country": "Brazil",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1889"
   },
   {
     "url": "https://en.numista.com/catalogue/pieces4333.html",
@@ -2111,7 +2161,8 @@
     ],
     "id": "BR-034",
     "country": "Brazil",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1901"
   },
   {
     "url": "https://en.numista.com/catalogue/pieces6440.html",
@@ -2142,7 +2193,8 @@
     ],
     "id": "BR-035",
     "country": "Brazil",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1901"
   },
   {
     "url": "https://en.numista.com/catalogue/pieces6773.html",
@@ -2173,7 +2225,8 @@
     ],
     "id": "BR-036",
     "country": "Brazil",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1901"
   },
   {
     "url": "https://hemerotecadigital.bn.br/acervo-digital/o-mequetrefe/702390",
@@ -2204,16 +2257,17 @@
     ],
     "id": "BR-037",
     "country": "Brazil",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1889"
   },
   {
     "url": "https://hemerotecadigital.bn.br/acervo-digital/revista-illustrada/332747",
-    "title": "A República nos braços de Floriano",
-    "description": "A República nos braços de Floriano",
+    "title": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
+    "description": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
     "motif": [
       "Republica"
     ],
-    "regime": "normativo",
+    "regime": "fundacional",
     "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
@@ -2235,7 +2289,8 @@
     ],
     "id": "BR-038",
     "country": "Brazil",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1889"
   },
   {
     "url": "https://iconocracy.corpus/vault/03075694-0e68-5b33-afb2-3c60687f498b",
@@ -2266,7 +2321,8 @@
     ],
     "id": "BR-039",
     "country": "Brazil",
-    "support": "selo"
+    "support": "selo",
+    "date": "1894-1910"
   },
   {
     "url": "https://memoria.bn.br/DocReader/Hotpage/HotpageBN.aspx?bib=094078&pagfis=4&url=http://memoria.bn.br/docreader",
@@ -2297,7 +2353,8 @@
     ],
     "id": "BR-040",
     "country": "Brazil",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1889-11"
   },
   {
     "url": "https://mhn.museus.gov.br/estudo-de-decio-villares-volta-ao-circuito-expositivo-do-mhn/",
@@ -2316,7 +2373,8 @@
     ],
     "id": "BR-041",
     "country": "Brazil",
-    "support": "pintura"
+    "support": "pintura",
+    "date": "c. 1888 (final do séc. XIX)"
   },
   {
     "url": "https://museudarepublica.museus.gov.br/wp-content/uploads/2013/10/republica-em-documentos_colecao-de-alegorias_web.pdf",
@@ -2348,7 +2406,8 @@
     ],
     "id": "BR-042",
     "country": "Brazil",
-    "support": "monumento/escultura"
+    "support": "monumento/escultura",
+    "date": "1899-1910"
   },
   {
     "url": "https://www.brasilianaiconografica.art.br/obras/12345/medalha-da-proclamacao-da-republica",
@@ -2379,7 +2438,8 @@
     ],
     "id": "BR-043",
     "country": "Brazil",
-    "support": "medalha"
+    "support": "medalha",
+    "date": "1890"
   },
   {
     "url": "https://www.loc.gov/item/2020719663/",
@@ -2398,7 +2458,8 @@
     ],
     "id": "BR-044",
     "country": "Brazil",
-    "support": "texto"
+    "support": "texto",
+    "date": "2014-01-01"
   },
   {
     "url": "https://www.loc.gov/item/2024771974/",
@@ -2417,7 +2478,8 @@
     ],
     "id": "BR-045",
     "country": "Brazil",
-    "support": "texto"
+    "support": "texto",
+    "date": "1895"
   },
   {
     "url": "https://www.worldbanknotescoins.com/2015/02/brazil-50-mil-reis-banknote-1890-banco-do-brazil.html",
@@ -2450,7 +2512,8 @@
     ],
     "id": "BR-046",
     "country": "Brazil",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1890"
   },
   {
     "id": "BR-1000R-1906",
@@ -3807,7 +3870,8 @@
     ],
     "id": "DE-016",
     "country": "Germany",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1900-1920"
   },
   {
     "url": "https://commons.wikimedia.org/wiki/File:DR_1920_141_Germania.jpg",
@@ -3838,7 +3902,8 @@
     ],
     "id": "DE-017",
     "country": "Germany",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1920-1921"
   },
   {
     "url": "https://en.numista.com/catalogue/pieces15569.html",
@@ -3869,7 +3934,8 @@
     ],
     "id": "DE-018",
     "country": "Germany",
-    "support": "papel-moeda"
+    "support": "papel-moeda",
+    "date": ""
   },
   {
     "url": "https://en.numista.com/catalogue/pieces40399.html",
@@ -3900,7 +3966,8 @@
     ],
     "id": "DE-019",
     "country": "Germany",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1871-1873"
   },
   {
     "url": "https://iconocracy.corpus/vault/f2f019c1-8689-5589-a9c1-2b965269da6e",
@@ -3932,7 +3999,8 @@
     ],
     "id": "DE-020",
     "country": "Germany",
-    "support": "papel-moeda"
+    "support": "papel-moeda",
+    "date": ""
   },
   {
     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Germania5pf1900.jpg",
@@ -3963,7 +4031,8 @@
     ],
     "id": "DE-021",
     "country": "Germany",
-    "support": "selo"
+    "support": "selo",
+    "date": "1900-1922"
   },
   {
     "id": "DE-1000M-1910",
@@ -8389,7 +8458,8 @@
     ],
     "id": "FR-049",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://balat.kikirpa.be/object/10134533",
@@ -8409,7 +8479,8 @@
     ],
     "id": "FR-050",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://gallica.bnf.fr/ark:/12148/btv1b10051600t",
@@ -8440,7 +8511,8 @@
     ],
     "id": "FR-051",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1920"
   },
   {
     "url": "http://gallica.bnf.fr/ark:/12148/btv1b531737635",
@@ -8471,7 +8543,8 @@
     ],
     "id": "FR-052",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1865"
   },
   {
     "url": "http://gallica.bnf.fr/ark:/12148/btv1b8412925w",
@@ -8503,7 +8576,8 @@
     ],
     "id": "FR-053",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": ""
   },
   {
     "url": "http://kk.haum-bs.de/?id=a-duerer-wb3-0130",
@@ -8523,7 +8597,8 @@
     ],
     "id": "FR-054",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://kk.haum-bs.de/?id=bonnet-l-m-ab3-0035",
@@ -8543,7 +8618,8 @@
     ],
     "id": "FR-055",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://kk.haum-bs.de/?id=bosche-e-v-d-ab2-0002",
@@ -8563,7 +8639,8 @@
     ],
     "id": "FR-056",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://kk.haum-bs.de/?id=briot-i-wb3-0005",
@@ -8583,7 +8660,8 @@
     ],
     "id": "FR-057",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://kk.haum-bs.de/?id=goltzius-h-ab3-0031",
@@ -8603,7 +8681,8 @@
     ],
     "id": "FR-058",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://kk.haum-bs.de/?id=j-e-nilson-ab3-0029",
@@ -8623,7 +8702,8 @@
     ],
     "id": "FR-059",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://kk.haum-bs.de/?id=jansz-e-ab2-0001",
@@ -8643,7 +8723,8 @@
     ],
     "id": "FR-060",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://kk.haum-bs.de/?id=matham-j-kopie-ab3-0004",
@@ -8663,7 +8744,8 @@
     ],
     "id": "FR-061",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://kk.haum-bs.de/?id=saint-non-j-c-r-d-ab3-0145",
@@ -8683,7 +8765,8 @@
     ],
     "id": "FR-062",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://kk.haum-bs.de/?id=saint-non-j-c-r-d-ab3-0211",
@@ -8703,7 +8786,8 @@
     ],
     "id": "FR-063",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://kk.haum-bs.de/?id=visscher-n-exc-ab3-0013",
@@ -8723,7 +8807,8 @@
     ],
     "id": "FR-064",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://kk.haum-bs.de/?id=z-01383",
@@ -8743,7 +8828,8 @@
     ],
     "id": "FR-065",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://www.bildindex.de/document/obj20455031",
@@ -8763,7 +8849,8 @@
     ],
     "id": "FR-066",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "http://www.deutschefotothek.de/documents/obj/72066905",
@@ -8783,7 +8870,8 @@
     ],
     "id": "FR-067",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": ""
   },
   {
     "url": "https://colnect.com/en/stamps/list/country/74-France/series/68206-Semeuse_solid_background",
@@ -8815,7 +8903,8 @@
     ],
     "id": "FR-068",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1903-1938"
   },
   {
     "url": "https://colnect.com/en/stamps/list/country/74-France/year/1903",
@@ -8846,7 +8935,8 @@
     ],
     "id": "FR-069",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1903-1960"
   },
   {
     "url": "https://commons.wikimedia.org/wiki/Category:Semeuse_on_stamps",
@@ -8877,7 +8967,8 @@
     ],
     "id": "FR-070",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1906-1941"
   },
   {
     "url": "https://en.numista.com/11287",
@@ -8908,7 +8999,8 @@
     ],
     "id": "FR-071",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1885-1928"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b116003372",
@@ -8927,7 +9019,8 @@
     ],
     "id": "FR-072",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1889"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b53009905z.item",
@@ -8958,7 +9051,8 @@
     ],
     "id": "FR-073",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1789-1791"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b53013992k",
@@ -8989,7 +9083,8 @@
     ],
     "id": "FR-074",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1848-1852"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b530172177.item",
@@ -9020,7 +9115,8 @@
     ],
     "id": "FR-075",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1848"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b531241805",
@@ -9039,7 +9135,8 @@
     ],
     "id": "FR-076",
     "country": "France",
-    "support": "fotografia"
+    "support": "fotografia",
+    "date": "1900 (fotografia); c. 1848 (escultura original)"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b531287227",
@@ -9070,7 +9167,8 @@
     ],
     "id": "FR-077",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1662"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b53188884v",
@@ -9089,7 +9187,8 @@
     ],
     "id": "FR-078",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1894"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b53234029x",
@@ -9108,7 +9207,8 @@
     ],
     "id": "FR-079",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1560-1570"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b53240455t",
@@ -9127,7 +9227,8 @@
     ],
     "id": "FR-080",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1710"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b53250287h",
@@ -9158,7 +9259,8 @@
     ],
     "id": "FR-081",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1547"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b53254750d",
@@ -9189,7 +9291,8 @@
     ],
     "id": "FR-082",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1645-1660"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b532646114",
@@ -9208,7 +9311,8 @@
     ],
     "id": "FR-083",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1933"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b53269527k",
@@ -9239,7 +9343,8 @@
     ],
     "id": "FR-084",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1933"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b55001927d",
@@ -9270,7 +9375,8 @@
     ],
     "id": "FR-085",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "15..-1584"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b59718546",
@@ -9289,7 +9395,8 @@
     ],
     "id": "FR-086",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1707"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b6948145c.item",
@@ -9320,7 +9427,8 @@
     ],
     "id": "FR-087",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1789-1791"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b6950386s",
@@ -9339,7 +9447,8 @@
     ],
     "id": "FR-088",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1793–1794"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b8402182w",
@@ -9370,7 +9479,8 @@
     ],
     "id": "FR-089",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1640-1643"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b84114624",
@@ -9401,7 +9511,8 @@
     ],
     "id": "FR-090",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": "1791"
   },
   {
     "url": "https://gallica.bnf.fr/ark:/12148/btv1b9012156x/f1.item",
@@ -9433,7 +9544,8 @@
     ],
     "id": "FR-091",
     "country": "France",
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "date": ""
   },
   {
     "url": "https://iconocracy.corpus/vault/7833d92a-6bbe-527f-8893-1d4d12820ffa",
@@ -9464,7 +9576,8 @@
     ],
     "id": "FR-092",
     "country": "France",
-    "support": "selo"
+    "support": "selo",
+    "date": "1876-1900"
   },
   {
     "url": "https://iconocracy.corpus/vault/a155af76-1c78-502b-b024-b1f0b2ae3f03",
@@ -9495,7 +9608,8 @@
     ],
     "id": "FR-093",
     "country": "France",
-    "support": "cerâmica"
+    "support": "cerâmica",
+    "date": "1889"
   },
   {
     "url": "https://iconocracy.corpus/vault/deb8221e-bc98-5afb-a0b2-cd3e47a17cff",
@@ -9526,7 +9640,8 @@
     ],
     "id": "FR-094",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1892-1920"
   },
   {
     "url": "https://iconocracy.corpus/vault/f502f5cf-ed4e-50d0-8ae0-45c60cd1c6ea",
@@ -9557,7 +9672,8 @@
     ],
     "id": "FR-095",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1849-1850"
   },
   {
     "url": "https://www.metmuseum.org/art/collection/search/208134",
@@ -9576,7 +9692,8 @@
     ],
     "id": "FR-096",
     "country": "France",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1892"
   },
   {
     "id": "FR-ASSIGNAT-1792",
@@ -12141,7 +12258,8 @@
     ],
     "id": "UK-011",
     "country": "United Kingdom",
-    "support": "medalha"
+    "support": "medalha",
+    "date": "1851"
   },
   {
     "url": "https://collections.vam.ac.uk/item/O102163",
@@ -12160,7 +12278,8 @@
     ],
     "id": "UK-012",
     "country": "United Kingdom",
-    "support": "monumento/escultura"
+    "support": "monumento/escultura",
+    "date": "1851"
   },
   {
     "url": "https://collections.vam.ac.uk/item/O1242380",
@@ -12179,7 +12298,8 @@
     ],
     "id": "UK-013",
     "country": "United Kingdom",
-    "support": "monumento/escultura"
+    "support": "monumento/escultura",
+    "date": "1798"
   },
   {
     "url": "https://collections.vam.ac.uk/item/O1261189",
@@ -12198,7 +12318,8 @@
     ],
     "id": "UK-014",
     "country": "United Kingdom",
-    "support": "monumento/escultura"
+    "support": "monumento/escultura",
+    "date": "ca. 1714"
   },
   {
     "url": "https://collections.vam.ac.uk/item/O126326",
@@ -12217,7 +12338,8 @@
     ],
     "id": "UK-015",
     "country": "United Kingdom",
-    "support": "monumento/escultura"
+    "support": "monumento/escultura",
+    "date": "ca. 1745"
   },
   {
     "url": "https://collections.vam.ac.uk/item/O190041",
@@ -12236,7 +12358,8 @@
     ],
     "id": "UK-016",
     "country": "United Kingdom",
-    "support": "pintura"
+    "support": "pintura",
+    "date": "ca. 1716"
   },
   {
     "url": "https://collections.vam.ac.uk/item/O77466",
@@ -12255,7 +12378,8 @@
     ],
     "id": "UK-017",
     "country": "United Kingdom",
-    "support": "medalha"
+    "support": "medalha",
+    "date": "1897"
   },
   {
     "url": "https://iconocracy.corpus/vault/d6f71fb1-437c-5e18-85d1-4395f54f6306",
@@ -12286,7 +12410,8 @@
     ],
     "id": "UK-018",
     "country": "United Kingdom",
-    "support": "moeda"
+    "support": "moeda",
+    "date": "1913-1939"
   },
   {
     "id": "UK-FLORIN-1902",
@@ -14024,7 +14149,8 @@
     ],
     "id": "US-021",
     "country": "United States",
-    "support": "selo"
+    "support": "selo",
+    "date": "1869-1893"
   },
   {
     "url": "https://www.loc.gov/item/08030546/",
@@ -14043,7 +14169,8 @@
     ],
     "id": "US-022",
     "country": "United States",
-    "support": "frontispício"
+    "support": "frontispício",
+    "date": "1900"
   },
   {
     "url": "https://www.loc.gov/item/12018646/",
@@ -14062,7 +14189,8 @@
     ],
     "id": "US-023",
     "country": "United States",
-    "support": "frontispício"
+    "support": "frontispício",
+    "date": "1912"
   },
   {
     "url": "https://www.loc.gov/item/13016362/",
@@ -14081,7 +14209,8 @@
     ],
     "id": "US-024",
     "country": "United States",
-    "support": "frontispício"
+    "support": "frontispício",
+    "date": "1913"
   },
   {
     "url": "https://www.loc.gov/item/2011630457",
@@ -14113,7 +14242,8 @@
     ],
     "id": "US-025",
     "country": "United States",
-    "support": "monumento/escultura"
+    "support": "monumento/escultura",
+    "date": ""
   },
   {
     "id": "US-BANNER-1861",

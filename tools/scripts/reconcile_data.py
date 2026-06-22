@@ -98,30 +98,71 @@ def get_record_title_key(item: dict) -> str:
 def reconcile(corpus: list[dict], records: list[dict]) -> dict:
     """Main reconciliation logic. Returns a results dict."""
 
-    # Build URL indexes
+    # Build URL indexes (mapping normalized URL to list of items to handle collisions)
     corpus_by_url = {}
     for c in corpus:
         u = get_corpus_url(c)
         if u:
-            corpus_by_url[u] = c
+            corpus_by_url.setdefault(u, []).append(c)
 
     records_by_url = {}
     for r in records:
         u = get_record_url(r)
         if u:
-            records_by_url[u] = r
+            records_by_url.setdefault(u, []).append(r)
 
     # Phase 1: URL matching
     matched = []
     corpus_matched_ids = set()
     record_matched_ids = set()
 
-    for url, c_item in corpus_by_url.items():
+    for url, c_items in corpus_by_url.items():
         if url in records_by_url:
-            r_item = records_by_url[url]
-            matched.append((c_item, r_item, "url"))
-            corpus_matched_ids.add(c_item["id"])
-            record_matched_ids.add(r_item["item_id"])
+            r_items = records_by_url[url]
+            # Pair them up. If multiple items share the same normalized URL,
+            # tie-break by trying:
+            # 1. Exact case-sensitive URL match
+            # 2. Exact title match (using normalize_title)
+            # 3. Fallback to first remaining
+            remaining_r = list(r_items)
+            for c_item in c_items:
+                match_r = None
+                c_raw_url = c_item.get("url", "")
+                c_title_norm = normalize_title(c_item.get("title", ""))
+                
+                # 1. Match both case-sensitive URL and title
+                for r in remaining_r:
+                    r_raw_url = r.get("input", {}).get("input_url", "")
+                    r_title_norm = normalize_title(r.get("input", {}).get("title_hint", ""))
+                    if c_raw_url == r_raw_url and c_title_norm == r_title_norm:
+                        match_r = r
+                        break
+                
+                # 2. Match case-sensitive URL only
+                if not match_r:
+                    for r in remaining_r:
+                        r_raw_url = r.get("input", {}).get("input_url", "")
+                        if c_raw_url == r_raw_url:
+                            match_r = r
+                            break
+                            
+                # 3. Match title only
+                if not match_r:
+                    for r in remaining_r:
+                        r_title_norm = normalize_title(r.get("input", {}).get("title_hint", ""))
+                        if c_title_norm == r_title_norm:
+                            match_r = r
+                            break
+                            
+                # 4. Fallback
+                if not match_r and remaining_r:
+                    match_r = remaining_r[0]
+                    
+                if match_r:
+                    matched.append((c_item, match_r, "url"))
+                    corpus_matched_ids.add(c_item["id"])
+                    record_matched_ids.add(match_r["item_id"])
+                    remaining_r.remove(match_r)
 
     # Phase 2: Title+date fallback for unmatched
     unmatched_corpus = [c for c in corpus if c["id"] not in corpus_matched_ids]
