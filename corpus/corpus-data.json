@@ -14763,5 +14763,783 @@
       "sem-thumbnail",
       "fora-do-escopo"
     ]
+  },
+  {
+    "id": "8e44db21-f8d1-4024-a246-e0ac5ff24c9e",
+    "country": "Brazil",
+    "url": "https://www.eba.ufmg.br/revistaceib/index.php/imagembrasileira/article/download/331/284/521",
+    "title": "Virtudes cardinais da Matriz de Nossa Senhora do Pilar, Ouro Preto",
+    "description": "Conjunto escultórico de virtudes cardinais e teologais no interior da Matriz de Nossa Senhora do Pilar, igreja que funcionava também como espaço de legitimação pública e tribunal de consciência colonial.",
+    "motif": [
+      "Prudência",
+      "Justiça",
+      "Fortaleza",
+      "Temperança",
+      "Fé",
+      "Esperança",
+      "Caridade",
+      "Fama"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 1.8,
+    "coded_by": null,
+    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 0,
+      "inscricao_estatal": 1
+    },
+    "citation_abnt": "ACADÊMICO DO JULGAMENTO DE OURO PRETO. Identificação das alegorias das virtudes cardeais da Matriz de Nossa Senhora do Pilar. Imagem Brasileira, Belo Horizonte: EBA/UFMG.",
+    "audit_flags": [
+      "piloto-v2",
+      "core",
+      "barroco-mineiro"
+    ],
+    "date": "c. 1731–1750",
+    "familia_alegorica": "Virtudes",
+    "subtipo": "Justiça",
+    "atributos_iconograficos": [
+      "balanca",
+      "espada",
+      "outro"
+    ],
+    "genero_atribuido": "feminino",
+    "funcao_juridica": "tribunal_consciencia",
+    "vetor_colonial": "luso_brasileiro",
+    "hipotese_racial": "Figuras femininas brancas e idealizadas; racialização implícita pela gramática ibérica de virtudes cristãs.",
+    "referencia_genealogica": [
+      "Ripa_1593_1603",
+      "Warner_1985"
+    ],
+    "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+    "codebook_version": "2.0.0",
+    "pre_freeze_sample": true,
+    "subaltern_caution": false,
+    "creator": "Francisco Xavier de Brito (atribuição)",
+    "institution": "Matriz de Nossa Senhora do Pilar, Ouro Preto",
+    "medium": "Escultura barroca em pedra-sabão / madeira dourada",
+    "tags": [
+      "corpus/core",
+      "pais/BR",
+      "suporte/escultura",
+      "regime/normativo",
+      "motivo/virtudes"
+    ]
+  },
+  {
+    "id": "9647a075-d255-470a-a6a1-9df52af95e9b",
+    "country": "Brazil",
+    "url": "https://www.youtube.com/watch?v=TUuDNXMqna0",
+    "title": "Cédula de 2.000 réis de 1890 — figura feminina",
+    "description": "Cédula de 2.000 réis emitida em 1890 com figura feminina de identidade disputada; objeto de investigação sobre a busca por 'uma bela jovem com características da típica mulher brasileira' para representar a República.",
+    "motif": [
+      "figura feminina",
+      "2 mil réis"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 2.4,
+    "coded_by": null,
+    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "citation_abnt": "Casa da Moeda do Brasil. Cédula de 2.000 réis. 1890.",
+    "audit_flags": [
+      "piloto-v2",
+      "core",
+      "cedula-1890"
+    ],
+    "date": "1890",
+    "familia_alegorica": "Nacional",
+    "subtipo": "Republica",
+    "atributos_iconograficos": [
+      "outro"
+    ],
+    "genero_atribuido": "feminino",
+    "funcao_juridica": "moeda_cedula",
+    "vetor_colonial": "republicano_brasileiro",
+    "hipotese_racial": "A escolha de uma 'típica mulher brasileira' para personificar a República revela tensão entre herança colonial da América alegorizada e projeto de branqueamento civilizacional.",
+    "referencia_genealogica": [
+      "Souza_2014",
+      "Warner_1985"
+    ],
+    "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+    "codebook_version": "2.0.0",
+    "pre_freeze_sample": true,
+    "subaltern_caution": false,
+    "creator": "Império do Brasil / República dos Estados Unidos do Brasil",
+    "institution": "Casa da Moeda do Brasil",
+    "medium": "Cédula de papel-moeda",
+    "tags": [
+      "corpus/core",
+      "pais/BR",
+      "suporte/cedula",
+      "regime/normativo",
+      "motivo/republica"
+    ]
+  },
+  {
+    "id": "dcae9d79-deb4-4bcf-af44-2ea43566e52e",
+    "country": "Brazil",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/brasao.htm",
+    "title": "Brasão da República dos Estados Unidos do Brasil",
+    "description": "Brasão da República Brasileira sem figura humana feminina. Dado negativo relevante: rompe com a tradição europeia de personificar a nação como mulher (Marianne, Britannia, Germania).",
+    "motif": [
+      "estrelas",
+      "ramo de café",
+      "ramo de fumo",
+      "esfera armilar",
+      "faixa ORDEM E PROGRESSO"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 3.0,
+    "coded_by": null,
+    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 3,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 2,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "citation_abnt": "BRASIL. Decreto que institui o brasão de armas da República dos Estados Unidos do Brasil. 1889.",
+    "audit_flags": [
+      "piloto-v2",
+      "core",
+      "dado-negativo",
+      "brasao-republica"
+    ],
+    "date": "1889–",
+    "familia_alegorica": "Nacional",
+    "subtipo": "Brasil",
+    "atributos_iconograficos": [
+      "ramos_estrelas",
+      "outro"
+    ],
+    "genero_atribuido": "ausente",
+    "funcao_juridica": "brasao",
+    "vetor_colonial": "republicano_brasileiro",
+    "hipotese_racial": "Ausência de figura feminina no brasão pode indicar rejeição às personificações nacionais femininas europeias/coloniais, mas também suprime debate racial ao não personificar o país.",
+    "referencia_genealogica": [
+      "Warner_1985",
+      "EHNE_Female_Allegories"
+    ],
+    "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+    "codebook_version": "2.0.0",
+    "pre_freeze_sample": true,
+    "subaltern_caution": true,
+    "creator": "Governo Provisório da República",
+    "institution": "República Federativa do Brasil",
+    "medium": "Brasão de armas / selo de Estado",
+    "tags": [
+      "corpus/core",
+      "pais/BR",
+      "suporte/brasao",
+      "regime/normativo",
+      "motivo/republica",
+      "dado-negativo"
+    ]
+  },
+  {
+    "id": "58aa80d3-ddea-4cac-afcf-7aaccdd0c17e",
+    "country": "Brazil",
+    "url": "https://www.facebook.com/BrazilImperiu/photos/alegoria-da-liberdade-segurando-a-bandeira-do-brasil-imperio",
+    "title": "Alegoria da Liberdade segurando a Bandeira do Brasil Império",
+    "description": "Figura feminina branca, vestida à romana, com barrete frígio, segurando a bandeira do Brasil Império. Antecedente republicano da personificação nacional feminina.",
+    "motif": [
+      "Liberdade",
+      "barrete frígio",
+      "bandeira imperial"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 1.9,
+    "coded_by": null,
+    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    },
+    "citation_abnt": "Alegoria da Liberdade segurando a Bandeira do Brasil Império. Ilustração do século XIX.",
+    "audit_flags": [
+      "piloto-v2",
+      "core",
+      "imperio",
+      "liberdade"
+    ],
+    "date": "século XIX",
+    "familia_alegorica": "Nacional",
+    "subtipo": "Liberdade",
+    "atributos_iconograficos": [
+      "barrete_frigio",
+      "bandeira",
+      "outro"
+    ],
+    "genero_atribuido": "feminino",
+    "funcao_juridica": "paratexto_normativo",
+    "vetor_colonial": "luso_brasileiro",
+    "hipotese_racial": "Liberdade branca e à romana: transmissão direta da gramática europeia de personificações nacionais femininas.",
+    "referencia_genealogica": [
+      "Ripa_1593_1603",
+      "Warner_1985"
+    ],
+    "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+    "codebook_version": "2.0.0",
+    "pre_freeze_sample": true,
+    "subaltern_caution": false,
+    "creator": "Anônimo / imprensa imperial",
+    "institution": "Império do Brasil",
+    "medium": "Ilustração jornalística / gravura",
+    "tags": [
+      "corpus/core",
+      "pais/BR",
+      "suporte/gravura",
+      "regime/normativo",
+      "motivo/liberdade"
+    ]
+  },
+  {
+    "id": "8145d1a4-3cbd-422c-937f-9ce302084f0c",
+    "country": "Brazil",
+    "url": null,
+    "title": "Efígie da República em moedas e cédulas brasileiras (1889–1945)",
+    "description": "Efígie feminina que personifica a República em moedas e cédulas brasileiras entre 1889 e 1945. Herança da alegoria da América: mulher branca, de perfil, idealizada, com atributos civis.",
+    "motif": [
+      "Efígie da República",
+      "mulher de perfil",
+      "coroa de louros"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 2.6,
+    "coded_by": null,
+    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 3,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 2,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "citation_abnt": "Casa da Moeda do Brasil. Efígie da República em moedas e cédulas brasileiras. 1889–1945.",
+    "audit_flags": [
+      "piloto-v2",
+      "core",
+      "republica",
+      "moeda-cedula"
+    ],
+    "date": "1889–1945",
+    "familia_alegorica": "Continentes",
+    "subtipo": "America",
+    "atributos_iconograficos": [
+      "coroa",
+      "outro"
+    ],
+    "genero_atribuido": "feminino",
+    "funcao_juridica": "moeda_cedula",
+    "vetor_colonial": "republicano_brasileiro",
+    "hipotese_racial": "A Efígie branca e romana desfaz o nó colonial da América selvagem, mas reproduz a escolha racial europeia de branqueamento nacional.",
+    "referencia_genealogica": [
+      "Souza_2014",
+      "Ortelius_1570",
+      "Warner_1985"
+    ],
+    "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+    "codebook_version": "2.0.0",
+    "pre_freeze_sample": true,
+    "subaltern_caution": false,
+    "creator": "República dos Estados Unidos do Brasil",
+    "institution": "Casa da Moeda do Brasil / Banco do Brasil",
+    "medium": "Moedas e cédulas",
+    "tags": [
+      "corpus/core",
+      "pais/BR",
+      "suporte/moeda-cedula",
+      "regime/normativo",
+      "motivo/republica"
+    ]
+  },
+  {
+    "id": "a6a957f2-1181-400a-bc29-a8a17c3df07d",
+    "country": "Brazil",
+    "url": null,
+    "title": "Personificação do Brasil em selos postais republicanos",
+    "description": "Séries definitivas e comemorativas de selos postais brasileiros com figura feminina personificando o Brasil ou a República. Alta frequência, rastreáveis por catálogo filatélico.",
+    "motif": [
+      "figura feminina",
+      "Brasil",
+      "coroa",
+      "globo"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 2.5,
+    "coded_by": null,
+    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 3,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 2,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "citation_abnt": "CORREIOS. Selos postais da República dos Estados Unidos do Brasil com personificação feminina. 1889–1960.",
+    "audit_flags": [
+      "piloto-v2",
+      "core",
+      "selo-postal"
+    ],
+    "date": "1889–1960",
+    "familia_alegorica": "Nacional",
+    "subtipo": "Brasil",
+    "atributos_iconograficos": [
+      "coroa",
+      "globo",
+      "outro"
+    ],
+    "genero_atribuido": "feminino",
+    "funcao_juridica": "selo_postal",
+    "vetor_colonial": "republicano_brasileiro",
+    "hipotese_racial": "Personificação do Brasil como mulher idealizada, geralmente branca: reprodução da hierarquia continental europeia convertida em nacionalismo republicano.",
+    "referencia_genealogica": [
+      "Warner_1985",
+      "EHNE_Female_Allegories"
+    ],
+    "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+    "codebook_version": "2.0.0",
+    "pre_freeze_sample": true,
+    "subaltern_caution": false,
+    "creator": "Correios do Brasil",
+    "institution": "Correios",
+    "medium": "Selo postal (gravura a talhe-doce, litografia)",
+    "tags": [
+      "corpus/core",
+      "pais/BR",
+      "suporte/selo",
+      "regime/normativo",
+      "motivo/republica"
+    ]
+  },
+  {
+    "id": "7b1308fd-53f6-4e91-8539-82b67247e049",
+    "country": "Brazil",
+    "url": null,
+    "title": "Iustitia em fachada de tribunal brasileiro (STF ou Tribunal de Justiça)",
+    "description": "Representação de Iustitia em fachada ou interior de tribunal brasileiro entre 1900 e 1950, com balança, espada e eventual venda. Dispositivo de legitimação do poder adjudicatório.",
+    "motif": [
+      "Iustitia",
+      "balança",
+      "espada",
+      "venda"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 2.2,
+    "coded_by": null,
+    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 3,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 0,
+      "inscricao_estatal": 3
+    },
+    "citation_abnt": "BRASIL. Representação de Iustitia em fachada/interior de tribunal brasileiro. 1900–1950.",
+    "audit_flags": [
+      "piloto-v2",
+      "core",
+      "arquitetura-forense"
+    ],
+    "date": "1900–1950",
+    "familia_alegorica": "Virtudes",
+    "subtipo": "Iustitia",
+    "atributos_iconograficos": [
+      "balanca",
+      "espada",
+      "venda"
+    ],
+    "genero_atribuido": "feminino",
+    "funcao_juridica": "arquitetura_forense",
+    "vetor_colonial": "europeu_direto",
+    "hipotese_racial": "Iustitia brasileira herda a tradição europeia de Justiça branca, cega e imparcial, sem incorporar sujeitos racializados do corpus jurídico nacional.",
+    "referencia_genealogica": [
+      "Resnik_Curtis_2011",
+      "Ripa_1593_1603"
+    ],
+    "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+    "codebook_version": "2.0.0",
+    "pre_freeze_sample": true,
+    "subaltern_caution": false,
+    "creator": "Anônimo / escultor contratado pelo poder judiciário",
+    "institution": "Supremo Tribunal Federal ou Tribunal de Justiça estadual",
+    "medium": "Escultura / relevo em fachada ou interior forense",
+    "tags": [
+      "corpus/core",
+      "pais/BR",
+      "suporte/arquitetura",
+      "regime/normativo",
+      "motivo/justica"
+    ]
+  },
+  {
+    "id": "68751372-c591-4853-b4b2-9ecd4873482e",
+    "country": "Brazil",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/brasao.htm",
+    "title": "Elementos hídricos no escudo de armas do Império e da República",
+    "description": "Escudos de armas do Império (1822) e da República (1889) incorporam elementos naturais e marítimos (esfera armilar, faixa com motto). Questão: o Estado brasileiro iconografa seus corpos d'água com que gênero?",
+    "motif": [
+      "esfera armilar",
+      "faixa",
+      "ramos",
+      "estrelas"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 2.8,
+    "coded_by": null,
+    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 3,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 2,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    },
+    "citation_abnt": "BRASIL. Lei que institui o brasão de armas do Império do Brasil. 18 de setembro de 1822.",
+    "audit_flags": [
+      "piloto-v2",
+      "core",
+      "dado-negativo",
+      "oceanos-rios"
+    ],
+    "date": "1822–1889–",
+    "familia_alegorica": "Oceanos/Rios",
+    "subtipo": "Oceano",
+    "atributos_iconograficos": [
+      "ondas_maritimas",
+      "outro"
+    ],
+    "genero_atribuido": "neutro",
+    "funcao_juridica": "brasao",
+    "vetor_colonial": "luso_brasileiro",
+    "hipotese_racial": "Corpos d'água despersonalizados no brasão evitam tanto a personificação masculina imperial (Netuno) quanto qualquer feminização indígena do território.",
+    "referencia_genealogica": [
+      "Warner_1985"
+    ],
+    "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+    "codebook_version": "2.0.0",
+    "pre_freeze_sample": true,
+    "subaltern_caution": true,
+    "creator": "Governo imperial/republicano do Brasil",
+    "institution": "Império do Brasil / República Federativa do Brasil",
+    "medium": "Brasão de armas / selo de Estado",
+    "tags": [
+      "corpus/core",
+      "pais/BR",
+      "suporte/brasao",
+      "regime/normativo",
+      "motivo/oceanos-rios",
+      "dado-negativo"
+    ]
+  },
+  {
+    "id": "d6da6e20-4eeb-4ffa-a91a-2a27fe1bba40",
+    "country": "Brazil",
+    "url": null,
+    "title": "Monumento à República / Pátria feminina em praça pública brasileira",
+    "description": "Monumento público com figura feminina personificando a República ou a Pátria em praça pública de capital brasileira. Dispositivo de inscrição simbólica do Estado no espaço urbano.",
+    "motif": [
+      "República",
+      "Pátria",
+      "mulher de pé",
+      "atributos civis"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 2.0,
+    "coded_by": null,
+    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 3,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 0,
+      "inscricao_estatal": 3
+    },
+    "citation_abnt": "BRASIL. Monumento à República / Pátria. 1889–1950.",
+    "audit_flags": [
+      "piloto-v2",
+      "core",
+      "monumento-publico"
+    ],
+    "date": "1889–1950",
+    "familia_alegorica": "Nacional",
+    "subtipo": "Republica",
+    "atributos_iconograficos": [
+      "outro"
+    ],
+    "genero_atribuido": "feminino",
+    "funcao_juridica": "monumento_publico",
+    "vetor_colonial": "republicano_brasileiro",
+    "hipotese_racial": "Monumentos públicos reproduzem o tipo europeu de nação feminina branca e idealizada, invisibilizando populações negras e indígenas como sujeitos do pacto republicano.",
+    "referencia_genealogica": [
+      "Warner_1985",
+      "EHNE_Female_Allegories"
+    ],
+    "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+    "codebook_version": "2.0.0",
+    "pre_freeze_sample": true,
+    "subaltern_caution": false,
+    "creator": "Escultor contratado por comissão municipal/estadual",
+    "institution": "Prefeitura / Governo estadual",
+    "medium": "Monumento público (bronze, mármore ou concreto)",
+    "tags": [
+      "corpus/core",
+      "pais/BR",
+      "suporte/monumento",
+      "regime/normativo",
+      "motivo/republica"
+    ]
+  },
+  {
+    "id": "68fe7104-d814-441c-9172-112e760cf785",
+    "country": "Brazil",
+    "url": "https://seer.ufrgs.br/index.php/PortoArte/article/view/141873",
+    "title": "Pinturas das quatro estações de Bernardo Pires da Silva (1774) — Ouro Preto",
+    "description": "Pinturas de teto com alegorias das quatro estações em igreja barroca mineira. Candidato a comparador genealógico: alegorias clássicas recebidas pela decoração colonial brasileira com função litúrgica e pública.",
+    "motif": [
+      "quatro estações",
+      "alegorias",
+      "natureza",
+      "ciclo"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 1.5,
+    "coded_by": null,
+    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 0,
+      "inscricao_estatal": 1
+    },
+    "citation_abnt": "SANTOS, Carlos Alberto Ávila. Alegoria, iconografia e iconologia: diferentes usos e significados dos termos na história da arte. In: XVII ENCONTRO DA HISTÓRIA DA ARTE. Campinas: UNICAMP, 2021.",
+    "audit_flags": [
+      "piloto-v2",
+      "comparador",
+      "barroco-mineiro"
+    ],
+    "date": "1774",
+    "familia_alegorica": "Virtudes",
+    "subtipo": "outra_virtude",
+    "atributos_iconograficos": [
+      "outro"
+    ],
+    "genero_atribuido": "feminino",
+    "funcao_juridica": "tribunal_consciencia",
+    "vetor_colonial": "luso_brasileiro",
+    "hipotese_racial": "Alegorias clássicas europeias recebidas pelo barroco colonial sem incorporação de figuras racializadas locais.",
+    "referencia_genealogica": [
+      "Ripa_1593_1603",
+      "Warner_1985"
+    ],
+    "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+    "codebook_version": "2.0.0",
+    "pre_freeze_sample": true,
+    "subaltern_caution": false,
+    "creator": "Bernardo Pires da Silva",
+    "institution": "Igreja de São Francisco de Assis, Ouro Preto",
+    "medium": "Pintura mural / teto",
+    "tags": [
+      "corpus/comparador",
+      "pais/BR",
+      "suporte/pintura",
+      "regime/normativo",
+      "motivo/alegorias"
+    ]
+  },
+  {
+    "id": "6df4bc96-be48-4609-9974-18f48ad910ed",
+    "country": "Brazil",
+    "url": "https://www.brasilianaiconografica.art.br/artigos/24232/a-representacao-da-america-quando-era-grande-e-desconhecida",
+    "title": "A América alegorizada em gravuras e frontispícios circulados no Brasil colonial",
+    "description": "Gravuras e frontispícios com alegoria da América circulados no Brasil colonial via Portugal. Comparador genealógico: mostram a gramática visual disponível para a iconografia nacional posterior.",
+    "motif": [
+      "América",
+      "mulher seminua",
+      "arco e flecha",
+      "animais exóticos"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 1.2,
+    "coded_by": null,
+    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 1,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "SOUZA, Ana Cecília Araújo Soares de. A América alegorizada: imagens e visões do Novo Mundo na iconografia europeia dos séculos XVI a XVIII. João Pessoa: Editora da UFPB, 2014.",
+    "audit_flags": [
+      "piloto-v2",
+      "comparador",
+      "america-alegorizada"
+    ],
+    "date": "séculos XVI–XVIII",
+    "familia_alegorica": "Continentes",
+    "subtipo": "America",
+    "atributos_iconograficos": [
+      "arco_e_flecha",
+      "animais_exoticos",
+      "cabeca_decepada",
+      "outro"
+    ],
+    "genero_atribuido": "feminino",
+    "funcao_juridica": "frontispicio_normativo",
+    "vetor_colonial": "europeu_direto",
+    "hipotese_racial": "América como mulher seminua, selvagem e exótica: gênero e raça entrelaçados na construção do colonial; corpo feminino branco-atribuído sobre território indígena.",
+    "referencia_genealogica": [
+      "Souza_2014",
+      "Ortelius_1570",
+      "Collaert_Four_Continents",
+      "Carriera_Four_Continents"
+    ],
+    "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+    "codebook_version": "2.0.0",
+    "pre_freeze_sample": true,
+    "subaltern_caution": true,
+    "creator": "Várias oficinas europeias (Ortelius, Collaert, edições lusas)",
+    "institution": "Bibliotecas coloniais / coleções privadas",
+    "medium": "Gravura / frontispício de livro",
+    "tags": [
+      "corpus/comparador",
+      "pais/BR",
+      "suporte/gravura",
+      "regime/normativo",
+      "motivo/america"
+    ]
+  },
+  {
+    "id": "d55b1f29-20c6-4785-b7d5-814904b147d5",
+    "country": "Mexico",
+    "url": "https://awarewomenartists.com/en/magazine/interventions-monumentales-feminisme-art-et-resistance-publique-au-mexique/",
+    "title": "Intervenção feminista no Paseo de la Reforma, Cidade do México, 2021",
+    "description": "Ativistas ocupam plinto vazio do monumento a Cristóvão Colombo e instalam escultura feminina indígena. Caso de contra-alegoria que substitui iconografia colonial por personificação feminina contestadora.",
+    "motif": [
+      "mulher indígena",
+      "substituição de Colombo",
+      "iconoclastia"
+    ],
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.5,
+    "coded_by": null,
+    "coded_at": null,
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "AWARE. Monumental Interventions: Feminism, Art and Public Resistance in Mexico. 2021.",
+    "audit_flags": [
+      "piloto-v2",
+      "comparador",
+      "iconoclasmo",
+      "mexico-2021"
+    ],
+    "date": "2021",
+    "familia_alegorica": "Nacional",
+    "subtipo": "outra_nacional",
+    "atributos_iconograficos": [
+      "outro"
+    ],
+    "genero_atribuido": "feminino",
+    "funcao_juridica": "monumento_publico",
+    "vetor_colonial": "nao_aplicavel",
+    "hipotese_racial": "Escultura feminina indígena substitui Colombo: inverte a hierarquia colonial ao colocar corpo feminino racializado como sujeito legítimo do espaço público.",
+    "referencia_genealogica": [
+      "Warner_1985"
+    ],
+    "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+    "codebook_version": "2.0.0",
+    "pre_freeze_sample": true,
+    "subaltern_caution": false,
+    "creator": "Ativistas feministas",
+    "institution": "Paseo de la Reforma, Cidade do México",
+    "medium": "Escultura temporária em plinto público",
+    "tags": [
+      "corpus/comparador",
+      "pais/MX",
+      "suporte/monumento",
+      "regime/contra-alegoria",
+      "motivo/iconoclasmo"
+    ]
   }
 ]
