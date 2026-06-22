@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.12
+#!/usr/bin/env python3
 """
 reconcile_iconocode.py — Arbitrates multi-agent iconocode codings for corpus items.
 
