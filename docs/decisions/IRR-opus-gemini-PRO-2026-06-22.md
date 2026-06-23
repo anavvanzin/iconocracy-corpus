@@ -5,7 +5,7 @@ Audit direto do lote opus-4.8, versão LIMPA (controla os confounds do run Flash
 ## Resultado (N=14)
 - **α global = 0.393** · composto MAD **0.65** · **regime exato 0.71**.
 - opus comp. médio 0.84 vs Gemini-Pro 1.03 (offset sistemático quase nulo, +0.19).
-- α por indicador (decrescente): heraldicizacao 0.562 · rigidez_postural 0.527 · inscricao_estatal 0.491 · uniformizacao_facial 0.455 · apagamento_narrativo 0.449 · desincorporacao 0.429 · dessexualizacao 0.345 · serialidade 0.282 · enquadramento_arquitetonico 0.191 · monocromatizacao 0.103.
+- α por indicador (decrescente): heraldizacao 0.562 · rigidez_postural 0.527 · inscricao_estatal 0.491 · uniformizacao_facial 0.455 · apagamento_narrativo 0.449 · desincorporacao 0.429 · dessexualizacao 0.345 · serialidade 0.282 · enquadramento_arquitetonico 0.191 · monocromatizacao 0.103.
 - **Nenhum indicador atinge poolável (≥0.667).**
 
 ## Comparação das 3 auditorias
