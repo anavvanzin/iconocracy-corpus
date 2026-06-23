@@ -24,12 +24,14 @@ SCHEMA_DIR = Path(__file__).parent.parent / "schemas"
 
 def load_schema(schema_name: str) -> Dict[str, Any]:
     """Load a JSON schema from the schemas directory."""
-    schema_path = SCHEMA_DIR / f"{schema_name}.schema.json"
-    if not schema_path.exists():
-        raise FileNotFoundError(f"Schema not found: {schema_path}")
-
-    with schema_path.open("r", encoding="utf-8") as f:
-        return json.load(f)
+    # Try schemas/ (new location at repo root), then tools/schemas/ (legacy)
+    repo_root = Path(__file__).parent.parent.parent
+    for base in (repo_root / "schemas", repo_root / "tools" / "schemas"):
+        schema_path = base / f"{schema_name}.schema.json"
+        if schema_path.exists():
+            with schema_path.open("r", encoding="utf-8") as f:
+                return json.load(f)
+    raise FileNotFoundError(f"Schema not found: {schema_name}.schema.json in schemas/ or tools/schemas/")
 
 
 def create_resolver() -> RefResolver:
@@ -192,7 +194,7 @@ def main() -> None:
         "--schema",
         required=False,
         default=None,
-        choices=["webscout-input", "webscout-output", "iconocode-output", "master-record", "purification-record", "argos-manifest"],
+        choices=["webscout-input", "webscout-output", "iconocode-output", "master-record", "purification-record", "argos-manifest", "codebook-v2.1.0"],
         help="Schema to validate against (default: master-record when validating records.jsonl)"
     )
     parser.add_argument(

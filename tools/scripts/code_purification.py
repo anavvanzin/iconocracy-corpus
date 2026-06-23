@@ -283,7 +283,7 @@ def show_status(corpus, coded):
             vals = by_support[s]
             marker = " 🔴 GAP" if s == "?" or len([v for v in vals if v > 0]) == 0 else ""
             print(f"    {s:35s}  {len(vals):3d} coded  (mean={sum(vals)/len(vals):.2f}){marker}")
-        if "?" in by_support or all(len(v) == 0 for v in by_support.values()):
+        if "arquitetura forense" not in by_support or len(by_support["arquitetura forense"]) == 0:
             print("    ⚠️  ARQUITETURA FORENSE = 0 itens — lacuna crítica")
 
         # By regime
