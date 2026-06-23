@@ -1,0 +1,51 @@
+{
+  "N": 14,
+  "per_indicator": {
+    "desincorporacao": {
+      "alpha": 0.429,
+      "mad": 0.64
+    },
+    "rigidez_postural": {
+      "alpha": 0.527,
+      "mad": 0.79
+    },
+    "dessexualizacao": {
+      "alpha": 0.345,
+      "mad": 0.93
+    },
+    "uniformizacao_facial": {
+      "alpha": 0.455,
+      "mad": 0.64
+    },
+    "heraldicizacao": {
+      "alpha": 0.562,
+      "mad": 0.57
+    },
+    "enquadramento_arquitetonico": {
+      "alpha": 0.191,
+      "mad": 0.79
+    },
+    "apagamento_narrativo": {
+      "alpha": 0.449,
+      "mad": 0.93
+    },
+    "monocromatizacao": {
+      "alpha": 0.103,
+      "mad": 1.14
+    },
+    "serialidade": {
+      "alpha": 0.282,
+      "mad": 0.86
+    },
+    "inscricao_estatal": {
+      "alpha": 0.491,
+      "mad": 0.79
+    }
+  },
+  "pooled_alpha": 0.393,
+  "composite_mad": 0.65,
+  "regime_exact": 0.71,
+  "opus_comp_mean": 0.84,
+  "gemini_comp_mean": 1.03,
+  "instrument_pair": "opus-4.8 x gemini-3.1-pro-high (rich brief)"
+}
