@@ -1,5 +1,7 @@
 # Patch CHANGELOG v2.1.0 (v2.0.0 → v2.1.0) — Codebook LPAI v2 (Virtudes, Continentes, Oceanos/Rios)
 
+> **Superseded (v2.2.0):** este patch permanece como contexto da expansão Elicit. A consolidação vigente está em [`schema/codebook-MASTER.md`](../../schema/codebook-MASTER.md) e o changelog ativo está em [`schema/CHANGELOG.md`](../../schema/CHANGELOG.md).
+
 ## 1. Cabecalho do patch
 
 Este patch propõe uma atualização implementável do Codebook v2.0.0 para v2.1.0 com foco em (i) maior auditabilidade da codificação como *capta* (isto é, construída e situada) e (ii) redução de ambiguidades classificatórias que afetam comparabilidade e confiabilidade. A justificativa metodológica se ancora na exigência de repensar “data as a given” como *capta* (tomada e construída) e na ênfase em contexto, poder e trabalho na produção de registros[^1][^2], bem como na advertência de que ícones são intrinsecamente ambíguos e dependem de leitores, contextos e intenções[^3][^4].
