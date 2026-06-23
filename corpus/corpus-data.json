@@ -6585,7 +6585,8 @@
       "piloto-v2",
       "core",
       "barroco-mineiro"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "SCOUT-561",
@@ -6619,7 +6620,8 @@
       "piloto-v2",
       "core",
       "cedula-1890"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "SCOUT-562",
@@ -6654,7 +6656,8 @@
       "core",
       "dado-negativo",
       "brasao-republica"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "SCOUT-563",
@@ -6689,7 +6692,8 @@
       "core",
       "imperio",
       "liberdade"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "SCOUT-564",
@@ -6724,7 +6728,8 @@
       "core",
       "republica",
       "moeda-cedula"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "SCOUT-565",
@@ -6758,7 +6763,8 @@
       "piloto-v2",
       "core",
       "selo-postal"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "SCOUT-566",
@@ -6793,7 +6799,8 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ]
+    ],
+    "support": "arquitetura forense"
   },
   {
     "id": "SCOUT-567",
@@ -6828,7 +6835,8 @@
       "core",
       "dado-negativo",
       "oceanos-rios"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "SCOUT-568",
@@ -6862,7 +6870,8 @@
       "piloto-v2",
       "core",
       "monumento-publico"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "SCOUT-569",
@@ -6896,7 +6905,8 @@
       "piloto-v2",
       "comparador",
       "barroco-mineiro"
-    ]
+    ],
+    "support": "pintura"
   },
   {
     "id": "SCOUT-570",
@@ -6930,7 +6940,8 @@
       "piloto-v2",
       "comparador",
       "america-alegorizada"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "SCOUT-571",
@@ -6965,7 +6976,8 @@
       "comparador",
       "iconoclasmo",
       "mexico-2021"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "SCOUT-572",
@@ -7000,7 +7012,82 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ]
+    ],
+    "support": "arquitetura forense"
+  },
+  {
+    "id": "SCOUT-573",
+    "country": "Brazil",
+    "url": "http://www.tjpe.jus.br/institucional/palacio-da-justica/",
+    "title": "Esculturas de A Justiça e a Família e A Justiça e o Homem (Palácio da Justiça de Pernambuco)",
+    "description": "Grupos escultóricos monumentais de autoria de Bibiano Silva ladeando a cúpula do Palácio da Justiça de Recife (1930): 'A Justiça e a Família' (com as tábuas LEX) e 'A Justiça e o Homem' (com a espada em punho).",
+    "motif": [
+      "Deusa Têmis",
+      "Tábuas LEX",
+      "Espada em punho",
+      "Esculturas monumentais"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 2.2,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T18:59:00Z",
+    "date": "1930",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 3,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 0,
+      "inscricao_estatal": 3
+    },
+    "citation_abnt": "SILVA, Bibiano. A Justiça e a Família; A Justiça e o Homem. c. 1930. 2 grupos escultóricos em fachada. Palácio da Justiça de Pernambuco, Recife. Disponível em: http://www.tjpe.jus.br/.",
+    "audit_flags": [
+      "piloto-v2",
+      "core",
+      "arquitetura-forense"
+    ],
+    "support": "arquitetura forense"
+  },
+  {
+    "id": "SCOUT-574",
+    "country": "Brazil",
+    "url": "https://www.tjrs.jus.br/novo/institucional/palacio-da-justica/",
+    "title": "Estátua de Têmis (Palácio da Justiça do Rio Grande do Sul)",
+    "description": "Estátua de Têmis de 9 metros de altura instalada na fachada sul do Palácio da Justiça de Porto Alegre (sede do TJRS). Desenhada originalmente por Carlos Maximiliano Fayet em 1968 e executada/instalada em 2005.",
+    "motif": [
+      "Deusa Têmis",
+      "Olhos abertos (sem venda)",
+      "Espada em repouso",
+      "Escultura monumental em bronze"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 2.4,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T18:59:00Z",
+    "date": "2005",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 0,
+      "inscricao_estatal": 3
+    },
+    "citation_abnt": "FAYET, Carlos Maximiliano. Estátua de Têmis. Projetada c. 1968, instalada 2005. Escultura em bronze, 9 metros. Palácio da Justiça do Rio Grande do Sul, Porto Alegre. Disponível em: https://www.tjrs.jus.br/.",
+    "audit_flags": [
+      "piloto-v2",
+      "core",
+      "arquitetura-forense"
+    ],
+    "support": "arquitetura forense"
   },
   {
     "id": "UK-001",
