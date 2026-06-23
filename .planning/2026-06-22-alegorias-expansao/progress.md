@@ -27,3 +27,13 @@
 ## 2026-06-23 00:35
 - Phase 5 concluída: criadas wiki pages `alegoria-virtudes.md`, `alegoria-continentes.md`, `alegoria-oceanos-rios.md`.
 - `wiki/index.md` e `wiki/log.md` atualizados.
+
+## 2026-06-23 17:30
+- Phase 6 concluída: relatórios consolidados e salvos sob a diretiva canônica de auditoria pós-colonial e acadêmica (`PHASE-06-AUDIT-REPORT_DO_NOT_USE_AS_EVIDENCE_.md`).
+- Correções de layout estrutural aplicadas (renumeração cardinal resolvida).
+- Varredura cruzada automatizada por `corpus-dedup` concluída com zero duplicatas semânticas ou de IDs na base.
+
+## 2026-06-23 17:35
+- Phase 7 concluída: validação matemática formal de todos os 280/280 registros com sucesso via `validate_schemas.py`.
+- O plano de trabalho `2026-06-22-alegorias-expansao` está oficialmente encerrado com status de aprovação definitiva.
+
