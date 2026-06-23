@@ -1,0 +1,562 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lpai.example.org/schemas/codebook-v2.1.0.schema.json",
+  "title": "Registro LPAI v2.1.0",
+  "description": "Schema de validacao para registros do Codebook LPAI v2.1.0 (capta, nao data).[^1] Unidade de analise: figura individual, com agregacao opcional por programa iconografico via programa_id.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "capta_declaration",
+    "coder_id",
+    "coded_at",
+    "codebook_version",
+    "pre_freeze_sample",
+    "coder_position_statement",
+    "confianca_codificacao",
+    "item_id",
+    "titulo",
+    "suporte",
+    "data_suporte",
+    "instituicao_origem",
+    "localizacao_atual",
+    "familia_alegorica",
+    "subtipo",
+    "genero_atribuido",
+    "funcao_juridica",
+    "vetor_colonial",
+    "dado_negativo",
+    "finalidade_atribuida"
+  ],
+  "$defs": {
+    "objetos_regalia_item": {
+      "type": "string",
+      "enum": [
+        "balanca",
+        "espada",
+        "venda",
+        "espelho",
+        "tocha",
+        "globo",
+        "cornucopia",
+        "cetro",
+        "coroa",
+        "tridente",
+        "fasces",
+        "bandeira",
+        "ramos_estrelas",
+        "urna",
+        "incensario",
+        "outro_objeto"
+      ]
+    },
+    "marcas_corporais_item": {
+      "type": "string",
+      "enum": [
+        "corpo_reclinado",
+        "barba",
+        "corpo_ereto",
+        "corpo_sentado",
+        "nudez_parcial",
+        "nudez_total",
+        "vestes_romanas",
+        "vestes_indigenas",
+        "vestes_africanas",
+        "outro_marcador"
+      ]
+    },
+    "marcadores_cena_item": {
+      "type": "string",
+      "enum": [
+        "arco_e_flecha",
+        "cabeca_decepada",
+        "animais_exoticos",
+        "cobra",
+        "escorpiao",
+        "coroa_de_junco",
+        "ondas_maritimas",
+        "outro_cena"
+      ]
+    },
+    "referencia_genealogica_item": {
+      "type": "string",
+      "enum": [
+        "Ripa_1593_1603",
+        "Ortelius_1570",
+        "Collaert_Four_Continents",
+        "Carriera_Four_Continents",
+        "Warner_1985",
+        "Resnik_Curtis_2011",
+        "Souza_2014",
+        "Ihering_Der_Zweck",
+        "outra"
+      ]
+    },
+    "indicador_ordinal_0_4": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 4
+    }
+  },
+  "properties": {
+    "capta_declaration": {
+      "type": "string",
+      "const": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+      "description": "Declaracao fixa que marca o registro como capta (tomado/construido) e nao como dado dado, alinhando a necessidade de repensar data como capta.[^1]"
+    },
+    "coder_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Identificador do/a codificador/a responsavel."
+    },
+    "coded_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Data/hora da codificacao em ISO 8601."
+    },
+    "codebook_version": {
+      "type": "string",
+      "const": "2.1.0",
+      "description": "Versao do codebook; deve igualar 2.1.0."
+    },
+    "pre_freeze_sample": {
+      "type": "boolean",
+      "description": "Indica fase pre-freeze (piloto), em que ajustes de schema ainda sao permitidos."
+    },
+    "coder_position_statement": {
+      "type": "string",
+      "maxLength": 500,
+      "description": "Declaracao curta de posicao para tornar auditavel o trabalho e o contexto do dado/capta (poder, emocao, pluralidade e trabalho).[^2]"
+    },
+    "confianca_codificacao": {
+      "type": "string",
+      "enum": ["alta", "media", "baixa"],
+      "description": "Autoavaliacao de confianca para explicitar a ambiguidade dos icones e o papel do observador/contexto na leitura.[^3][^4]"
+    },
+    "motivo_incerteza": {
+      "type": "string",
+      "maxLength": 300,
+      "description": "Justificativa curta para incerteza; obrigatorio quando confianca_codificacao != 'alta'."
+    },
+
+    "item_id": {
+      "type": "string",
+      "pattern": "^LPAI-[0-9]{4,}(-[0-9]{2})?$",
+      "description": "Identificador unico da figura. Para figuras que integram um programa iconografico, usar sufixo '-NN' (ex.: LPAI-18890001-01). Unidade de analise: figura individual."
+    },
+    "programa_id": {
+      "type": ["string", "null"],
+      "pattern": "^LPAI-[0-9]{4,}$",
+      "description": "ID do programa iconografico pai (quando a figura integra um conjunto). Ex.: LPAI-18890001 para as 8 figuras da Pilar. Permite agregar figuras individuais em programas para analise de conjunto."
+    },
+    "ordem_no_programa": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "description": "Posicao ordinal da figura no programa (1..N). Opcional, usado apenas quando programa_id esta presente."
+    },
+    "titulo": {
+      "type": "string",
+      "minLength": 3,
+      "description": "Titulo curto do item."
+    },
+    "suporte": {
+      "type": "string",
+      "description": "Suporte material (p. ex., moeda, cedula, selo, brasao)."
+    },
+    "data_suporte": {
+      "type": "string",
+      "description": "Data do suporte em formato flexivel: YYYY, c. YYYY, YYYY?, YYYY-YYYY, YYYY-MM-DD, ou combinacoes parciais.",
+      "pattern": "^(c\\.?\\s*)?[0-9]{4}(\\?|\\-?[0-9]{4})?(\\-[0-9]{2}){0,2}$"
+    },
+    "instituicao_origem": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Instituicao emissora/produtora do item."
+    },
+    "localizacao_atual": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Acervo/colecao/localizacao atual do item."
+    },
+    "fonte_imagem": {
+      "type": "string",
+      "description": "URL, arquivo, acervo, catalogo ou referencia bibliografica da imagem usada na codificacao. Aceita tanto URI quanto referencias arquivisticas textuais."
+    },
+    "edicao_suporte": {
+      "type": "string",
+      "description": "Edicao/estado do suporte quando aplicavel; relevante porque edicoes variam e nem todas as alegorias sao ilustradas.[^5]"
+    },
+    "tipo_reproducao": {
+      "type": "string",
+      "enum": ["original", "reproducao_fotografica", "gravura_impressa", "digital", "outro"],
+      "description": "Tipo de reproducao usada para codificacao (impacta o que e visivel e, portanto, o capta).[^3]"
+    },
+
+    "familia_alegorica": {
+      "type": "string",
+      "enum": ["Virtudes", "Continentes", "Oceanos_Rios", "Nacional", "Afro_Brasileira", "Outra"],
+      "description": "Familia iconografica predominante. A centralidade de personificacoes e sua ambivalencia exigem atencao a poder/exclusao e pluralidade interpretativa.[^6][^2]"
+    },
+    "subtipo": {
+      "type": "string",
+      "description": "Subtipo dentro da familia; restringido por familia_alegorica via if/then. Em continentes, trata-se de stand-ins alegoricos, nao de etnografia literal.[^7]"
+    },
+    "objetos_regalia": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/objetos_regalia_item" },
+      "uniqueItems": true,
+      "description": "Lista de objetos/regalia visiveis; operacionaliza decomposicao em elementos (indices de elementos alegoricos) para comparabilidade.[^8]"
+    },
+    "marcas_corporais": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/marcas_corporais_item" },
+      "uniqueItems": true,
+      "description": "Marcas corporais/poses/vestes; dialoga com tradicao de personificar conceitos com atributos distintivos e com convencoes de nudez/pose em America alegorica.[^9][^10]"
+    },
+    "marcadores_cena_arquitetura": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/marcadores_cena_item" },
+      "uniqueItems": true,
+      "description": "Marcadores de cena/ambiente/accoutrements; relevantes porque personificacoes continentais operam por atributos apropriados (accoutrements) e hierarquias visuais.[^7][^11]"
+    },
+    "genero_atribuido": {
+      "type": "string",
+      "enum": ["feminino", "masculino", "neutro", "hibrido", "ausente"],
+      "description": "Genero predominante da personificacao. A figura feminina pode representar sem governar, e seus sentidos sao instaveis; por isso o genero nao deve ser tratado como autoevidente.[^12][^13][^6]"
+    },
+    "justificativa_genero": {
+      "type": "string",
+      "maxLength": 300,
+      "description": "Justificativa baseada em marcadores visiveis para reduzir reificacao do genero na codificacao; obrigatoria quando genero_atribuido e feminino ou masculino.[^6]"
+    },
+    "disjuncao_representa_governa": {
+      "type": "boolean",
+      "description": "True quando a figura alegorica encena representacao sem poder decisorio (\"nao governa, representa\"), capturando o mecanismo de exclusao por substituicao simbolica que a propria alegoria pode realizar.[^12]"
+    },
+    "funcao_juridica": {
+      "type": "string",
+      "enum": [
+        "tribunal_consciencia",
+        "frontispicio_normativo",
+        "moeda_cedula",
+        "selo_postal",
+        "brasao",
+        "arquitetura_forense",
+        "monumento_publico",
+        "paratexto_normativo",
+        "outro"
+      ],
+      "description": "Funcao do dispositivo no espaco juridico-estatal; conecta imagem ao sitio (seen/sited) e a renderizacoes visuais do direito.[^14][^15]"
+    },
+    "vetor_colonial": {
+      "type": "string",
+      "enum": ["europeu_direto", "luso_brasileiro", "republicano_brasileiro", "nao_aplicavel"],
+      "description": "Rota de transmissao do repertorio; relevante porque esquemas (ex.: Quatro Continentes) circulam em multiplos suportes e contextos.[^16]"
+    },
+    "hipotese_racial": {
+      "type": "string",
+      "maxLength": 500,
+      "description": "Campo interpretativo curto (opcional) sobre como genero e raca se cruzam. Atencao: stand-ins continentais sao convencionais e genericamente classicizantes, nao evidencias documentais de 'povos diversos'.[^7]"
+    },
+    "referencia_genealogica": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/referencia_genealogica_item" },
+      "uniqueItems": true,
+      "description": "Chaves de referencia genealogica (pode ser multipla); explicita mediacao textual/repertorial (Ripa) e tradicoes de justica/continentes.[^8][^17][^14]"
+    },
+    "dado_negativo": {
+      "type": "boolean",
+      "description": "True quando a ausencia de figura humana e analiticamente significativa (nao mero missing), pois a leitura de signos depende de contexto e pode operar pelo negativo.[^4][^3]"
+    },
+    "power_at_stake": {
+      "type": "string",
+      "maxLength": 300,
+      "description": "Quem se beneficia (e quem e marginalizado) pelo artefato/codificacao; operacionaliza a pergunta 'who benefits' em projetos de dados/capta.[^2]"
+    },
+    "finalidade_atribuida": {
+      "type": "string",
+      "enum": [
+        "legitimacao_juridica",
+        "pedagogia_civica",
+        "dissuasao",
+        "comemoracao",
+        "branding_estatal",
+        "outro"
+      ],
+      "description": "Finalidade social/politica atribuida (teleologia). Em Ihering, o direito e meio para um fim social, e a paz e fim enquanto a luta e o meio; codificar finalidade alinha a leitura iconografica a Zweck institucional.[^18][^19]"
+    },
+    "relacao_com_repertorio_indigena": {
+      "type": "string",
+      "enum": ["ausente", "apropriado", "coexistente", "hibridizado", "nao_aplicavel"],
+      "description": "Relacao com repertorios indigenas (quando pertinente); recomendada cautela porque a colonialidade pode feminilizar e hierarquizar alteridades (terra feminilizada disponivel a posse).[^10]"
+    },
+
+    "indicadores_purificacao": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Indicadores ordinais (0-4). As leituras iconograficas sao ambiguas e contextuais; use como capta interpretativa, nao medida neutra.[^3][^4][^1]",
+      "properties": {
+        "desincorporacao": {
+          "$ref": "#/$defs/indicador_ordinal_0_4",
+          "description": "0-4. Indicador herdado (mencionado no documento-pai) para perda/retirada do corpo (especialmente feminino)."
+        },
+        "heraldizacao": {
+          "$ref": "#/$defs/indicador_ordinal_0_4",
+          "description": "0-4. Indicador herdado (mencionado no documento-pai) para conversao em emblema/heraldica."
+        },
+        "enquadramento_arquitetonico": {
+          "$ref": "#/$defs/indicador_ordinal_0_4",
+          "description": "0-4. Indicador herdado (mencionado no documento-pai) para enquadramento em arquitetura."
+        },
+        "serialidade": {
+          "$ref": "#/$defs/indicador_ordinal_0_4",
+          "description": "0-4. Indicador herdado (mencionado no documento-pai) para repeticao seriada em dispositivos (moedas/selos/impressos)."
+        },
+        "inscricao_estatal": {
+          "$ref": "#/$defs/indicador_ordinal_0_4",
+          "description": "0-4. Indicador herdado (mencionado no documento-pai) para intensidade de inscricao estatal."
+        },
+        "classicizacao": {
+          "$ref": "#/$defs/indicador_ordinal_0_4",
+          "description": "0-4. [nota_lacuna] Placeholder ate harmonizacao com o documento-pai; ligado a ideais classicizantes em personificacoes.[^7]"
+        },
+        "moralizacao": {
+          "$ref": "#/$defs/indicador_ordinal_0_4",
+          "description": "0-4. [nota_lacuna] Placeholder ate harmonizacao com o documento-pai."
+        },
+        "depuracao_semantica": {
+          "$ref": "#/$defs/indicador_ordinal_0_4",
+          "description": "0-4. [nota_lacuna] Placeholder ate harmonizacao com o documento-pai."
+        },
+        "neutralizacao_afetiva": {
+          "$ref": "#/$defs/indicador_ordinal_0_4",
+          "description": "0-4. [nota_lacuna] Placeholder ate harmonizacao com o documento-pai; atencao a emocao como contexto vital.[^2]"
+        },
+        "monumentalizacao": {
+          "$ref": "#/$defs/indicador_ordinal_0_4",
+          "description": "0-4. [nota_lacuna] Placeholder ate harmonizacao com o documento-pai."
+        }
+      }
+    },
+
+    "adjudicacao_log": {
+      "type": "string",
+      "description": "Nota opcional de adjudicacao intercodificador (quando houver desacordo)."
+    },
+    "subaltern_caution": {
+      "type": "string",
+      "description": "Nota opcional/condicional de cautela quando escalas/categorias forem aplicadas a casos subalternizados, masculinos ou de ausencia; registrar a base interpretativa.[^4]"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Campo livre para notas adicionais (proveniencia, edicao, ambiguidades)."
+    }
+  },
+
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "confianca_codificacao": { "not": { "const": "alta" } }
+        },
+        "required": ["confianca_codificacao"]
+      },
+      "then": {
+        "required": ["motivo_incerteza"]
+      }
+    },
+    {
+      "if": {
+        "properties": { "genero_atribuido": { "const": "feminino" } },
+        "required": ["genero_atribuido"]
+      },
+      "then": {
+        "required": ["justificativa_genero"]
+      }
+    },
+    {
+      "if": {
+        "properties": { "genero_atribuido": { "const": "masculino" } },
+        "required": ["genero_atribuido"]
+      },
+      "then": {
+        "required": ["justificativa_genero"]
+      }
+    },
+    {
+      "if": {
+        "properties": { "familia_alegorica": { "const": "Virtudes" } },
+        "required": ["familia_alegorica"]
+      },
+      "then": {
+        "properties": {
+          "subtipo": {
+            "enum": [
+              "Iustitia",
+              "Veritas",
+              "Prudencia",
+              "Fortaleza",
+              "Temperanca",
+              "Justica_e_Paz",
+              "Esperanca",
+              "Caridade",
+              "Fe",
+              "Fama",
+              "outra_virtude"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "familia_alegorica": { "const": "Continentes" } },
+        "required": ["familia_alegorica"]
+      },
+      "then": {
+        "properties": {
+          "subtipo": {
+            "enum": [
+              "Europa",
+              "America_generica",
+              "America_do_Sul",
+              "Africa",
+              "Asia",
+              "outro_continente"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "familia_alegorica": { "const": "Oceanos_Rios" } },
+        "required": ["familia_alegorica"]
+      },
+      "then": {
+        "properties": {
+          "subtipo": {
+            "enum": [
+              "Oceano",
+              "Rio_grande",
+              "Rio_menor",
+              "Fonte",
+              "Netuno",
+              "Tetis",
+              "outro_hidrico"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "familia_alegorica": { "const": "Nacional" } },
+        "required": ["familia_alegorica"]
+      },
+      "then": {
+        "properties": {
+          "subtipo": {
+            "enum": ["Republica", "Liberdade", "Patria", "Brasil", "outra_nacional"]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "familia_alegorica": { "const": "Afro_Brasileira" } },
+        "required": ["familia_alegorica"]
+      },
+      "then": {
+        "properties": {
+          "subtipo": {
+            "enum": ["Oxum", "Iemanja", "Exu", "orixa_outro", "afro_generica"]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "familia_alegorica": { "const": "Outra" } }
+      },
+      "then": {
+        "properties": {
+          "subtipo": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  ],
+
+  "examples": [
+    {
+      "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+      "coder_id": "coder_exemplo_001",
+      "coded_at": "2026-06-23T14:35:00-03:00",
+      "codebook_version": "2.1.0",
+      "pre_freeze_sample": true,
+      "coder_position_statement": "Historiadora da arte; codificacao baseada em reproducao digital; atencao a convencoes europeias de personificacao.",
+      "confianca_codificacao": "alta",
+
+      "item_id": "LPAI-18890001-01",
+      "programa_id": "LPAI-18890001",
+      "ordem_no_programa": 1,
+      "titulo": "Iustitia (Pilar)",
+      "suporte": "pilar_arquitetonico",
+      "data_suporte": "c. 1890",
+      "instituicao_origem": "Tribunal de Justica de Sao Paulo",
+      "localizacao_atual": "TJSP, sala de sessoes",
+      "fonte_imagem": "Museu do TJSP, catalogo de acervo, item 12",
+      "tipo_reproducao": "reproducao_fotografica",
+
+      "familia_alegorica": "Virtudes",
+      "subtipo": "Iustitia",
+      "objetos_regalia": ["balanca", "espada"],
+      "marcas_corporais": ["vestes_romanas"],
+      "marcadores_cena_arquitetura": [],
+      "genero_atribuido": "feminino",
+      "justificativa_genero": "Figura feminina com vestes romanas, seios visiveis sob tunica.",
+      "disjuncao_representa_governa": false,
+      "funcao_juridica": "arquitetura_forense",
+      "vetor_colonial": "luso_brasileiro",
+      "dado_negativo": false,
+      "finalidade_atribuida": "legitimacao_juridica",
+      "referencia_genealogica": ["Warner_1985", "Ripa_1593_1603"],
+      "hipotese_racial": "Figura classicizante europeizada sem marcadores coloniais especificos."
+    },
+    {
+      "capta_declaration": "LPAI v2-capta: scores sao atos interpretativos situados, nao dados neutros.",
+      "coder_id": "coder_exemplo_002",
+      "coded_at": "2026-06-23T14:36:00-03:00",
+      "codebook_version": "2.1.0",
+      "pre_freeze_sample": true,
+      "coder_position_statement": "Pesquisadora branca, formada em direito e historia da arte; foco em iconografia estatal; reconheco limites de leitura sobre repertorios afro-indigenas.",
+      "confianca_codificacao": "media",
+      "motivo_incerteza": "Reproducao em baixa resolucao; nao e possivel confirmar se ha venda nos olhos.",
+
+      "item_id": "LPAI-18890002",
+      "titulo": "Efigie da Republica (moeda)",
+      "suporte": "moeda",
+      "data_suporte": "1889",
+      "instituicao_origem": "Casa da Moeda do Brasil",
+      "localizacao_atual": "Colecao particular",
+      "fonte_imagem": "https://eidolonstation.com/eidolon_posts/efigie-da-republica-brazil/",
+      "edicao_suporte": "moeda 500 reis 1889",
+      "tipo_reproducao": "digital",
+
+      "familia_alegorica": "Nacional",
+      "subtipo": "Republica",
+      "objetos_regalia": ["coroa"],
+      "marcas_corporais": ["vestes_romanas"],
+      "marcadores_cena_arquitetura": [],
+      "genero_atribuido": "feminino",
+      "justificativa_genero": "Figura feminina jovem com coroa de louros em estilo romano.",
+      "disjuncao_representa_governa": true,
+      "funcao_juridica": "moeda_cedula",
+      "vetor_colonial": "republicano_brasileiro",
+      "dado_negativo": false,
+      "finalidade_atribuida": "branding_estatal",
+      "power_at_stake": "Instituicao estatal reforca aspiracao de imparcialidade ao exibir alegoria feminina; mulheres reais estao excluidas do governo no periodo.",
+      "referencia_genealogica": ["Warner_1985", "Ripa_1593_1603"],
+      "hipotese_racial": "Efigie classicizante europeizada como personificacao nacional."
+    }
+  ]
+}
