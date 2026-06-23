@@ -46,11 +46,11 @@
 - `wiki/index.md` e `wiki/log.md` atualizados
 
 ### Phase 6 — Revisao por Subagentes
-**Status:** in_progress
+**Status:** complete
 **Objective:** Auditar qualidade academica, rigor antropologico e duplicacao de corpus.
 **Deliverables:**
 - Feedback de academic-peer-reviewer, Anthropologist e corpus-dedup
-- Lista de ajustes obrigatorios vs. opcionais (documentado em `.planning/2026-06-22-alegorias-expansao/phase-06-review-plan.md`)
+- Lista de ajustes obrigatorios vs. opcionais (documentado e validado em `.planning/2026-06-22-alegorias-expansao/phase-06-review-plan.md` e `docs/reviews/`)
 
 ### Phase 7 — Ajustes Finais, Validacao e Handoff
 **Status:** pending
