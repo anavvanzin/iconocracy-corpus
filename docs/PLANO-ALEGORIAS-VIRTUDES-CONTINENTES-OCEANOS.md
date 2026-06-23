@@ -2,7 +2,8 @@
 ## Alegorias de Virtudes, Continentes e Oceanos na Cultura Jurídica (sécs. XIX–XX)
 
 > Documento de planejamento — **expansão temática do corpus**. Complementa o master plan
-> [`PLANO-TESE-ICONOCRACIA.md`](PLANO-TESE-ICONOCRACIA.md). Referências em ABNT NBR 6023:2025.
+> [`PLANO-TESE-ICONOCRACIA.md`](PLANO-TESE-ICONOCRACIA.md). A **bibliografia essencial** (§6)
+> segue ABNT NBR 6023:2025; as notas ao final são apenas links de apoio (URLs brutas).
 > Salvo em 2026-06-23.
 
 ***
