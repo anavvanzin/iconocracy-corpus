@@ -2,7 +2,9 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://lpai.example.org/schemas/codebook-v2.1.0.schema.json",
   "title": "Registro LPAI v2.1.0",
-  "description": "Schema de validacao para registros do Codebook LPAI v2.1.0 (capta, nao data).[^1] Unidade de analise: figura individual, com agregacao opcional por programa iconografico via programa_id.",
+  "deprecated": true,
+  "x-supersededBy": "schema/codebook-MASTER.md",
+  "description": "Schema experimental/orphan do Codebook LPAI v2.1.0, preservado como contexto. A validacao canonica do corpus usa tools/schemas/master-record.schema.json e a consolidacao editorial vigente esta em schema/codebook-MASTER.md.",
   "type": "object",
   "additionalProperties": false,
   "required": [
