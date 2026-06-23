@@ -82,7 +82,6 @@ INDEXES = [
     "CREATE INDEX IF NOT EXISTS \"idx_purification_regime\" ON \"purification\" (\"regime_iconocratico\")",
     "CREATE INDEX IF NOT EXISTS \"idx_purification_composite\" ON \"purification\" (\"purificacao_composto\")",
     "CREATE INDEX IF NOT EXISTS \"idx_evidence_item\" ON \"evidence\" (\"item_id\")",
-    "CREATE INDEX IF NOT EXISTS \"idx_iconclass_item\" ON \"item_iconclass\" (\"item_id\")",
 ]
 
 def load_mapping():
