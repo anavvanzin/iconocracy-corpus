@@ -19,13 +19,13 @@
       "type": "string",
       "oneOf": [
         {
-          "pattern": "^[A-Z]{2,4}-[A-Z0-9-]+$"
+          "pattern": "^(?:[A-Z]{2,4}|SCOUT)-[A-Z0-9-]+$"
         },
         {
           "format": "uuid"
         }
       ],
-      "description": "Corpus identifier (e.g., FR-013, BR-001, DE-NOTG-1921) or UUID for vault-imported pilot items"
+      "description": "Corpus identifier (e.g., FR-013, BR-001, DE-NOTG-1921, SCOUT-558) or UUID for vault-imported pilot items"
     },
     "desincorporacao":             { "type": "integer", "minimum": 0, "maximum": 3 },
     "rigidez_postural":            { "type": "integer", "minimum": 0, "maximum": 3 },
