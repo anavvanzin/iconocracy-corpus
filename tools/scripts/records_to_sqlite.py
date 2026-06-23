@@ -195,7 +195,11 @@ def build_database():
                     year = None
                     
             period = meta.get("period") or rec.get("purificacao", {}).get("period")
-            medium_norm = meta.get("medium_norm") or rec.get("purificacao", {}).get("medium_norm")
+            medium_norm = (
+                meta.get("support")
+                or rec.get("purificacao", {}).get("medium_norm")
+                or rec.get("purificacao", {}).get("record_metadata", {}).get("medium")
+            )
             created_at = rec.get("timestamps", {}).get("created_at")
             updated_at = rec.get("timestamps", {}).get("updated_at")
             

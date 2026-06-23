@@ -3,10 +3,10 @@
 ## Context
 Monorepo for the doctoral thesis **"Iconocracia: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** — PPGD/UFSC, Ana Vanzin, defense 2026. Companion file for Claude Code sessions: `CLAUDE.md`.
 
-## Data Hierarchy (counts 2026-05-24)
-1. `data/processed/records.jsonl` — 265 records (canonical)
-2. `corpus/corpus-data.json` — 264 items (public export)
-3. `data/processed/purification.jsonl` — 264 records (endurecimento coding)
+## Data Hierarchy (counts 2026-06-23)
+1. `data/processed/records.jsonl` — 280 records (canonical)
+2. `corpus/corpus-data.json` — 280 items (public export)
+3. `data/processed/purification.jsonl` — 236 records (endurecimento coding)
 4. `vault/candidatos/` — 314 catalog cards (auxiliary mirror)
 
 ## Environment
@@ -64,6 +64,8 @@ Every corpus item must exist in: (1) Google Drive + `data/raw/drive-manifest.jso
 - `tese/manuscrito/*_original` is read-only; work on `*_rev` copies
 - `data/raw/` is metadata-only in git (ADR-001); binaries on Google Drive
 - Never edit `corpus/corpus-data.json` directly — use Python scripts
+- All Codebook v2 allegory fields (e.g. subtipo, familia_alegorica, vetor_colonial, hipotese_racial) must be nested under the `"purificacao"` key in `data/processed/records.jsonl`.
+- The export script `records_to_corpus.py` flattens these fields to the root of `corpus/corpus-data.json`. Direct manual edits to `corpus-data.json` will be overwritten.
 - Vault notes follow `XX-NNN Title.md` pattern in Obsidian Flavored Markdown
 - `vault_backup.py` for snapshots; never mix backups on `main`
 - `python tools/scripts/validate_schemas.py` must pass before any commit
