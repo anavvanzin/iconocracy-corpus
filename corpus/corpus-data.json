@@ -954,10 +954,10 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-22T23:51:07Z",
+    "regime": "normativo",
+    "endurecimento_score": 1.9,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T02:10:47.581425+00:00",
     "date": "século XIX",
     "indicadores": {
       "desincorporacao": 1,
@@ -1040,10 +1040,10 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-22T23:51:07Z",
+    "regime": "normativo",
+    "endurecimento_score": 2.8,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T02:10:47.581440+00:00",
     "date": "1822–1889–",
     "indicadores": {
       "desincorporacao": 3,
@@ -1075,10 +1075,10 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-22T23:51:07Z",
+    "regime": "normativo",
+    "endurecimento_score": 1.5,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T02:10:47.581446+00:00",
     "date": "1774",
     "indicadores": {
       "desincorporacao": 1,
@@ -1109,10 +1109,10 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-22T23:51:07Z",
+    "regime": "normativo",
+    "endurecimento_score": 1.2,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T02:10:47.581449+00:00",
     "date": "séculos XVI–XVIII",
     "indicadores": {
       "desincorporacao": 0,
@@ -1224,10 +1224,10 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-22T23:51:07Z",
+    "regime": "normativo",
+    "endurecimento_score": 2.2,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T02:10:47.581437+00:00",
     "date": "1900–1950",
     "indicadores": {
       "desincorporacao": 1,
@@ -1383,10 +1383,10 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-22T23:51:07Z",
+    "regime": "normativo",
+    "endurecimento_score": 2.6,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T02:10:47.581430+00:00",
     "date": "1889–1945",
     "indicadores": {
       "desincorporacao": 2,
@@ -1538,10 +1538,10 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-22T23:51:07Z",
+    "regime": "normativo",
+    "endurecimento_score": 1.8,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T02:10:47.581178+00:00",
     "date": "c. 1731–1750",
     "indicadores": {
       "desincorporacao": 1,
@@ -1661,10 +1661,10 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-22T23:51:07Z",
+    "regime": "normativo",
+    "endurecimento_score": 2.4,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T02:10:47.581411+00:00",
     "date": "1890",
     "indicadores": {
       "desincorporacao": 2,
@@ -1992,16 +1992,28 @@
       "ivory tusk",
       "colonial hierarchy"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "regime": "normativo",
+    "endurecimento_score": 1.7,
+    "coded_by": "batch-tentative-2026-04-25",
+    "coded_at": "2026-04-25T19:23:34.529501+00:00",
     "date": "1912-1937",
     "citation_abnt": "BANQUE DU CONGO BELGE. 20 Francs. 1912-1937. Papel-moeda. Disponível em: https://en.numista.com/catalogue/note258714.html. Acesso em: 01 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 0,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    }
   },
   {
     "id": "BE-CONGO-MON-1921",
@@ -2052,16 +2064,28 @@
       "Congress Column",
       "Palace of Justice"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "regime": "normativo",
+    "endurecimento_score": 1.7,
+    "coded_by": "batch-tentative-2026-04-25",
+    "coded_at": "2026-04-25T19:23:34.529850+00:00",
     "date": "1880",
     "citation_abnt": "MONNAIE ROYALE DE BELGIQUE. 5 Francs — 50 ans de Belgique. 1880. Moeda, prata. Design: Charles Wiener. Disponível em: https://en.numista.com/catalogue/pieces27258.html. Acesso em: 01 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 3,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 0,
+      "serialidade": 2,
+      "inscricao_estatal": 3
+    }
   },
   {
     "id": "BR-001",
@@ -2434,22 +2458,22 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "normativo",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-05-20T16:56:09Z",
     "date": "1889",
     "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 2
     },
     "citation_abnt": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
     "audit_flags": [
@@ -2530,15 +2554,27 @@
       "bust profile"
     ],
     "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "endurecimento_score": 1.5,
+    "coded_by": "batch-tentative-2026-04-25",
+    "coded_at": "2026-04-25T19:23:34.529854+00:00",
     "date": "1906-1912",
     "citation_abnt": "CASA DA MOEDA DO BRASIL. 2000 Réis — Efígie da República. 1906-1912. Moeda, prata .900, 20 g. Disponível em: https://en.numista.com/catalogue/pieces14489.html. Acesso em: 01 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 0,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "BR-50CR-1965",
@@ -3159,15 +3195,27 @@
       "Jugendstil"
     ],
     "regime": "militar",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "endurecimento_score": 2.0,
+    "coded_by": "batch-tentative-2026-04-25",
+    "coded_at": "2026-04-25T19:23:34.529859+00:00",
     "date": "1900-1922",
     "citation_abnt": "DEUTSCHE REICHSPOST. Germania. 1900-1922. Selo postal, série definitiva. Design: Paul Eduard Waldraff. Disponível em: https://en.wikipedia.org/wiki/Germania_(stamp). Acesso em: 01 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 2,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "DE-GERM-BELG-1914",
@@ -3184,15 +3232,27 @@
       "military occupation"
     ],
     "regime": "militar",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "endurecimento_score": 2.3,
+    "coded_by": "batch-tentative-2026-04-25",
+    "coded_at": "2026-04-25T19:23:34.529862+00:00",
     "date": "1914-1918",
     "citation_abnt": "DEUTSCHE REICHSPOST. Germania — Overprint \"Belgien\". 1914-1918. Selo postal, overprint de ocupação. Disponível em: https://colnect.com/en/stamps/stamp/320475. Acesso em: 01 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    }
   },
   {
     "id": "DE-NOTG-1921",
@@ -5034,21 +5094,21 @@
       "Justitia"
     ],
     "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "endurecimento_score": 2.5,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-05-20T16:56:09Z",
     "date": "1865",
     "indicadores": {
-      "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
+      "desincorporacao": 2,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 1
     },
     "citation_abnt": "[La Justice, la Vengeance et la Vérité] : [estampe] / F. Chifflart",
     "audit_flags": [
@@ -5131,16 +5191,28 @@
       "pike",
       "triangular level"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "regime": "normativo",
+    "endurecimento_score": 1.4,
+    "coded_by": "batch-tentative-2026-04-25",
+    "coded_at": "2026-04-25T19:23:34.529865+00:00",
     "date": "1870-1878",
     "citation_abnt": "MONNAIE DE PARIS. 5 Francs Hercule. 1870-1878. Moeda, prata .900, 37 mm. Design: Augustin Dupré (1795). Disponível em: https://en.numista.com/catalogue/pieces1187.html. Acesso em: 01 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 0,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "FR-PIAST-1885",
@@ -5157,15 +5229,27 @@
       "colonial trade"
     ],
     "regime": "militar",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "endurecimento_score": 2.3,
+    "coded_by": "batch-tentative-2026-04-25",
+    "coded_at": "2026-04-25T19:23:34.529869+00:00",
     "date": "1885-1928",
     "citation_abnt": "MONNAIE DE PARIS. Piastre de Commerce. 1885-1928. Moeda, prata .900, 27,215 g. Disponível em: https://en.numista.com/catalogue/pieces4510.html. Acesso em: 01 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "FR-SEM-1898",
@@ -5216,15 +5300,27 @@
       "rising sun"
     ],
     "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "endurecimento_score": 1.7,
+    "coded_by": "batch-tentative-2026-04-25",
+    "coded_at": "2026-04-25T19:23:34.529871+00:00",
     "date": "1903-1960",
     "citation_abnt": "LA POSTE. La Semeuse. 1903-1960. Selo postal, série definitiva. Design: Oscar Roty / Louis-Eugène Mouchon. Disponível em: https://en.wikipedia.org/wiki/Sowing_(Oscar_Roty). Acesso em: 01 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "IT-005",
@@ -6304,15 +6400,27 @@
       "ship"
     ],
     "regime": "normativo",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "endurecimento_score": 1.7,
+    "coded_by": "batch-tentative-2026-04-25",
+    "coded_at": "2026-04-25T19:23:34.529874+00:00",
     "date": "1860-1894",
     "citation_abnt": "ROYAL MINT. Penny — Britannia. 1860-1894. Moeda, bronze. Design: Leonard Charles Wyon. Disponível em: https://en.numista.com/catalogue/pieces3377.html. Acesso em: 01 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 3,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 0,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "UK-PENNY-1895",
@@ -6390,16 +6498,28 @@
       "merchant ship",
       "colonial trade"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "regime": "normativo",
+    "endurecimento_score": 1.3,
+    "coded_by": "batch-tentative-2026-04-25",
+    "coded_at": "2026-04-25T19:23:34.529877+00:00",
     "date": "1895-1935",
     "citation_abnt": "ROYAL MINT. British Trade Dollar. 1895-1935. Moeda, prata .900, 39 mm. Disponível em: https://en.numista.com/catalogue/pieces8472.html. Acesso em: 01 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 0,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "US-001",
@@ -7181,16 +7301,28 @@
       "bare breast (Type I)",
       "chain mail (Type II)"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-04-04T09:47:29Z",
+    "regime": "normativo",
+    "endurecimento_score": 1.4,
+    "coded_by": "batch-tentative-2026-04-25",
+    "coded_at": "2026-04-25T19:23:34.529880+00:00",
     "date": "1916-1930",
     "citation_abnt": "US MINT. Standing Liberty Quarter. 1916-1930. Moeda, prata .900, 24,3 mm. Design: Hermon Atkins MacNeil. Disponível em: https://en.numista.com/catalogue/pieces15965.html. Acesso em: 01 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 0,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "UY-001",
@@ -7300,10 +7432,10 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-22T23:51:07Z",
+    "regime": "normativo",
+    "endurecimento_score": 2.5,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T02:10:47.581433+00:00",
     "date": "1889–1960",
     "indicadores": {
       "desincorporacao": 2,
@@ -7748,10 +7880,10 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-22T23:51:07Z",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.5,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T02:10:47.581453+00:00",
     "date": "2021",
     "indicadores": {
       "desincorporacao": 0,
@@ -7815,10 +7947,10 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-22T23:51:07Z",
+    "regime": "normativo",
+    "endurecimento_score": 2.0,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T02:10:47.581443+00:00",
     "date": "1889–1950",
     "indicadores": {
       "desincorporacao": 1,
@@ -7911,10 +8043,10 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-06-22T23:51:07Z",
+    "regime": "normativo",
+    "endurecimento_score": 3.0,
+    "coded_by": "ana",
+    "coded_at": "2026-06-23T02:10:47.581420+00:00",
     "date": "1889–",
     "indicadores": {
       "desincorporacao": 3,
