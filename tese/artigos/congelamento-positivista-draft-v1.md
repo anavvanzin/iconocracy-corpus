@@ -50,13 +50,42 @@ In post-colonial contexts, this iconic economy is complicated by the transmissio
 
 
 ## Section 3 — Quantitative Methodology: The 10 Indicators of Symbolic Purification and Kruskal-Wallis Test on Postural Rigidity
-*Outline & Notes:*
-- Present the 10 ordinal indicators used to code the corpus (desincorporação, rigidez_postural, dessexualização, etc.).
-- Introduce the digital infrastructure of the project (IconoCode database, schema validation, and Python pipelines).
-- Describe the statistical setup: using the Kruskal-Wallis test to compare the median purification and hardening scores across different regimes (Fundacional, Normativo, Militar) and countries (FR, US, DE, UK, BE, BR).
-- Address the decolonial critique of data/capta (Johanna Drucker, Catherine D'Ignazio & Lauren Klein).
+
+To subject the visual sexual contract and the hypothesis of the "positivist freeze" to empirical scrutiny, this project deploys a sequence of quantitative metrics designed to measure the physical deformation and institutionalization of the female body. By converting visual attributes into auditable data, we do not seek to reduce the aesthetic complexity of legal iconography to mere numbers. Rather, we aim to map the structural patterns and morphological shifts that escape purely intuitive readings. 
+
+### The 10 Indicators of Symbolic Purification
+The core of our quantitative instrument is a protocol consisting of ten ordinal indicators, scored on a scale from 0 to 3 (where 0 indicates a realistic, dynamic, or unpurified representation, and 3 indicates maximum institutionalization, rigidity, or physical erasure):
+
+1. **Desincorporação (Disembodiment):** Measures the loss of female physical features, body weight, and anatomical depth, transitioning from a three-dimensional, heavy body to a flat, atonic silhouette.
+2. **Rigidez Postural (Postural Rigidity):** Evaluates the physical movement of the figure. A score of 0 represents dynamic, asymmetrical movement (e.g., walking, reaching); 3 represents complete postural stasis, frontality, and geometric rigidity (e.g., seated monoliths).
+3. **Dessexualização (Desexualization):** Quantifies the active concealment of sexual characteristics. Measures the transition from exposed breasts or highlighted female anatomy to heavy, thick, non-revealing drapery that erases the contours of the body.
+4. **Uniformização Facial (Facial Uniformity):** Measures the blankness and lack of individual emotion on the face. Scores the degree of standard, classical Greco-Roman symmetry, transitioning from portrait-like expression to the expressionless, atonic mask of state sovereignty.
+5. **Heraldização (Heraldization):** Evaluates how much the female figure is integrated into or replaced by heraldic shields, military crests, and state symbols.
+6. **Enquadramento Arquitetônico (Architectural Framing):** Measures the containment of the figure by geometric niches, columns, pediments, and arches, locking the body into the stone framework of state authority.
+7. **Apagamento Narrativo (Narrative Erasure):** Quantifies the absence of narrative action. Scores the transition from active participation in a historical event (e.g., fighting on a barricade) to sitting as a static, isolated monument with no temporal or narrative context.
+8. **Monocromatização (Monochromatization):** Measures the reduction of color and tonal variation, moving from vibrant, multi-colored prints or paintings to the monochrome uniformity of metal coins, paper stamps, or grey granite.
+9. **Serialidade (Seriality):** Measures the mechanical reproduction of the image (e.g., mass production in fiat currency and postage stamps), which strips the figure of its singular artistic aura.
+10. **Inscrição Estatal (State Inscription):** Evaluates the direct juxtaposition of official state text, currency values, or sovereign titles over or around the body of the allegory.
+
+By consolidating these ten indicators, we calculate a composite **endurecimento** (hardening) score for each item in the corpus, representing its overall level of symbolic purification.
+
+### Digital Infrastructure and the IconoCode Database
+To support this quantitative pipeline, we constructed a custom digital infrastructure. The canonical data is stored in the `data/processed/records.jsonl` ledger, a machine-readable JSON Lines format. Each record is validated against a strict JSON Schema (`master-record`) using a automated testing suite to prevent data corruption. 
+
+Furthermore, to maintain conceptual and terminological rigour across national and historical contexts, our database integrates the international **ICONCLASS** classification system. Every allegory, gesture, and attribute in the corpus is indexed with precise alphanumeric codes (e.g., `48C514` for allegorical representations, `31AA235` for seated female figures). This integration ensures that comparisons between the French *Marianne* and the Brazilian *Justiça* remain grounded in shared iconographic parameters, providing an auditable path from raw archival source to statistical analysis.
+
+### Statistical Design: The Kruskal-Wallis Test
+Because our indicators are ordinal in nature, we reject parametric statistical assumptions. To analyze whether the median *endurecimento* scores vary significantly across different historical epochs, countries, and iconocratic regimes (Fundacional, Normativo, and Militar), we deploy the non-parametric **Kruskal-Wallis test**. 
+
+The null hypothesis ($H_0$) states that the population medians of the purification indicators are equal across all regimes. If the test returns a statistically significant result (with a significance threshold of $\alpha = 0.05$), we reject the null hypothesis and perform a *post hoc* **Dunn test** with Bonferroni correction to identify which specific pairs of regimes exhibit significant differences. This design allows us to statistically verify if the transition from revolutionary constituent moments (Regime Fundacional) to bureaucratic stasis (Regime Normativo) is indeed accompanied by a measurable hardening and purification of the allegorical body.
+
+### Decolonial Critique: From Data to Capta
+Finally, we must address a critical epistemological caveat. In translating visual allegories into database records, we run the risk of reproducing the positivist delusion that data is a neutral, transparent reflection of reality. As Johanna Drucker (2011) has argued, humanities research does not deal with *data* (things given by nature), but rather with **capta** (things actively taken and constructed through interpretative frames). 
+
+Grounded in the principles of *Data Feminism* (D'Ignazio & Klein, 2020), we acknowledge that the classification of female bodies by the modern state is a historical act of symbolic violence, and our own coding of these bodies is not an objective, value-free measurement. Rather, our scores are situated interpretative acts. To make this subjectivity transparent and accountable, our database includes a mandatory `capta_declaration` in every entry, and our coding pipeline requires double-coding by independent researchers with public inter-coder reliability metrics (Cohen’s Kappa). The quantitative analysis that follows is not a claims to objective truth; it is an auditable, systematic map of our situated readings of the visual sexual contract.
 
 ---
+
 
 ## Section 4 — The Comparative Matrix: Dynamic Bodies (La Semeuse) vs. Institutional Inertia (The Brazilian Republic Currency)
 *Outline & Notes:*
