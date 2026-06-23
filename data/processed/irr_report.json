@@ -1,7 +1,5 @@
 {
   "generated_at": "2026-04-15T19:35:41.609213+00:00",
-  "kind": "pilot-baseline",
-  "description": "IRR baseline from April 2026 pilot. iconocode-opus vs opencode-pilot, N=30. Restored from session memory on 2026-06-23 after compute_irr.py --rater2 overwrote the file with a synthetic null-alpha report.",
   "total_items": 145,
   "double_coded_items": 30,
   "alphas": {
@@ -24,12 +22,85 @@
       "values": {
         "iconocode-opus": 3,
         "opencode-pilot": 0
-      }
+      },
+      "spread": 3
+    },
+    {
+      "item_id": "UK-TRADE-1895",
+      "indicator": "desincorporacao",
+      "values": {
+        "iconocode-opus": 0,
+        "opencode-pilot": 3
+      },
+      "spread": 3
+    },
+    {
+      "item_id": "NL-006",
+      "indicator": "dessexualizacao",
+      "values": {
+        "iconocode-opus": 0,
+        "opencode-pilot": 2
+      },
+      "spread": 2
+    },
+    {
+      "item_id": "NL-008",
+      "indicator": "dessexualizacao",
+      "values": {
+        "iconocode-opus": 0,
+        "opencode-pilot": 2
+      },
+      "spread": 2
+    },
+    {
+      "item_id": "PT-005",
+      "indicator": "enquadramento_arquitetonico",
+      "values": {
+        "iconocode-opus": 2,
+        "opencode-pilot": 0
+      },
+      "spread": 2
+    },
+    {
+      "item_id": "UK-004",
+      "indicator": "heraldizacao",
+      "values": {
+        "iconocode-opus": 1,
+        "opencode-pilot": 3
+      },
+      "spread": 2
+    },
+    {
+      "item_id": "US-005",
+      "indicator": "heraldizacao",
+      "values": {
+        "iconocode-opus": 0,
+        "opencode-pilot": 2
+      },
+      "spread": 2
+    },
+    {
+      "item_id": "US-005",
+      "indicator": "inscricao_estatal",
+      "values": {
+        "iconocode-opus": 1,
+        "opencode-pilot": 3
+      },
+      "spread": 2
+    },
+    {
+      "item_id": "UK-TRADE-1895",
+      "indicator": "enquadramento_arquitetonico",
+      "values": {
+        "iconocode-opus": 2,
+        "opencode-pilot": 0
+      },
+      "spread": 2
     }
   ],
   "thresholds": {
     "good": 0.8,
-    "acceptable": 0.667,
-    "low": 0.0
+    "tentative": 0.667,
+    "method": "Krippendorff's Alpha (ordinal metric)"
   }
 }
