@@ -9,8 +9,10 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-USER_AGENT = "ARGOS/1.0 (+iconocracy-research; ana.vanzin@ufsc.br)"
+
+USER_AGENT = "ARGOS/1.0 (+https://github.com/anavvanzin/iconocracy-corpus)"
 MIN_VALID_BYTES = 500
+ALLOW_UNVERIFIED_SSL = os.environ.get("ARGOS_ALLOW_UNVERIFIED_SSL", "").lower() in {"1", "true", "yes"}
 SSL_UNVERIFIED = ssl.create_default_context()
 SSL_UNVERIFIED.check_hostname = False
 SSL_UNVERIFIED.verify_mode = ssl.CERT_NONE
@@ -188,6 +190,13 @@ def fetch_direct(url: str, dest_path: Path, timeout: int = 60, retries: int = 3)
                 error=f"HTTP {error.code}: {error.reason}",
             )
         except ssl.SSLCertVerificationError:
+            if not ALLOW_UNVERIFIED_SSL:
+                dest_path.unlink(missing_ok=True)
+                return _build_result(
+                    dest_path,
+                    error="SSL certificate verification failed (set ARGOS_ALLOW_UNVERIFIED_SSL=1 to allow unverified fallback)",
+                    failure_class="ssl_error",
+                )
             try:
                 request = urllib.request.Request(url, headers=headers)
                 with urllib.request.urlopen(request, timeout=timeout, context=SSL_UNVERIFIED) as response:

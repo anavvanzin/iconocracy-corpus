@@ -63,7 +63,7 @@ def _is_uri_string(value: str) -> bool:
     if not isinstance(value, str):
         return False
     parsed = urlparse(value)
-    return bool(parsed.scheme and parsed.netloc)
+    return bool(parsed.scheme)
 
 
 def _collect_format_errors(data: Any, schema: Dict[str, Any], path: str = "root") -> List[str]:
@@ -75,7 +75,7 @@ def _collect_format_errors(data: Any, schema: Dict[str, Any], path: str = "root"
     if schema_format == "date-time" and data is not None and not _is_datetime_string(data):
         errors.append(f"{path}: {data!r} is not a 'date-time'")
     elif schema_format == "uri" and data is not None and not _is_uri_string(data):
-        errors.append(f"{path}: {data!r} is not a 'uri'")
+        errors.append(f"{path}: {data!r} is not a valid URI")
 
     if schema_type == "object" and isinstance(data, dict):
         for key, subschema in schema.get("properties", {}).items():
@@ -94,9 +94,10 @@ def _collect_format_errors(data: Any, schema: Dict[str, Any], path: str = "root"
 
     if "if" in schema and isinstance(data, dict):
         condition_validator = Draft202012Validator(schema["if"], format_checker=FormatChecker())
-        if not list(condition_validator.iter_errors(data)) and "then" in schema:
+        condition_errors = list(condition_validator.iter_errors(data))
+        if not condition_errors and "then" in schema:
             errors.extend(_collect_format_errors(data, schema["then"], path))
-        elif list(condition_validator.iter_errors(data)) and "else" in schema:
+        elif condition_errors and "else" in schema:
             errors.extend(_collect_format_errors(data, schema["else"], path))
 
     return errors
