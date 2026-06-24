@@ -104,9 +104,11 @@ Active automation:
 
 ---
 
-## Mandatory Terminology
+## Terminology — Reference (NOT enforced during drafting)
 
-| Term | Rule |
+> **Não é guardrail (decisão 2026-06-24).** Esta tabela é **referência para polimento perto da defesa**, não regra bloqueante durante a redação exploratória. Não flagrar/corrigir termos ou traduções no rascunho; rodar `check_thesis_terms.py` só quando Ana pedir. Única ressalva digna de nota (gentil, não-bloqueante, perto da defesa): não ceder a autoria dos 4 conceitos originais a Pateman/Mondzain. Ver `~/.claude/CLAUDE.md` §"Thesis Drafting".
+
+| Term | Reference note |
 |------|------|
 | **Endurecimento** | Always in Portuguese. NEVER "hardening" or "embrutecimento". Empirical operationalization of **Purificação Clássica** via 10 ordinal indicators (0–3) |
 | **Contrato Sexual Visual** | Original thesis concept #1 — do NOT attribute to Pateman (Pateman is the source of the non-visual contract; the visual extension is autoral) |
