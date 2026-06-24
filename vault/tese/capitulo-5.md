@@ -42,4 +42,16 @@ A Purificação Clássica não substitui os outros três originais; articula-os.
 
 ## 5.3 — Sistema de codificação IconoCode e integração ICONCLASS
 
-## 5.4 — Infraestrutura digital: GitHub, Drive, Notion
+<!-- MIGRAR: preencher a partir do velho Capitulo2_metodologia §2.2 (Panofsky 3 níveis) + §2.5 (validação imagem×metadados) + ICONCLASS (Van de Waal, código 48C51). Pendente. -->
+
+## 5.4 — Infraestrutura digital: GitHub, Drive, Obsidian
+
+O corpus é mantido em regime de ciência aberta no repositório GitHub `anavvanzin/iconocracy-corpus`, seguindo o princípio de rastreabilidade em três pontos:
+
+| Ponto | Localização | Formato |
+|-------|-------------|---------|
+| Imagem original | SSD externo + IIIF | JPEG/TIFF |
+| Nota de pesquisa | `vault/candidatos/` | Obsidian Markdown |
+| Registro canônico | `corpus/corpus-data.json` | JSON |
+
+O pipeline de codificação opera em duas etapas: o agente *WebScout* pesquisa e cataloga candidatos em acervos digitais, gerando notas de pesquisa com metadados e URLs; o agente *IconoCode* aplica o protocolo de três níveis, pontua os 10 indicadores, classifica o regime e produz o registro JSON. Os dados processados são exportados automaticamente para `data/processed/corpus_dataset.csv`, que alimenta os notebooks estatísticos (Jupyter/Python: pandas, scipy, scikit-posthocs).
