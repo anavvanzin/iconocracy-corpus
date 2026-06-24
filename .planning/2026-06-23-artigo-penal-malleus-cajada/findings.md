@@ -11,14 +11,20 @@ Behringer insiste que a caça às bruxas ibérica é parte constitutiva da forma
 
 ## §3. Roper 2013, *The Trouble with Witches* (Harvard UP)
 **Resumo do cap. sobre o Malleus** (Roper 2013, cap. 1 "Malleus Maleficarum", pp. 13-48):
-Roper argumenta que o *Malleus* é **tecnologia do gênero** antes de ser manual técnico. A Question Six da Part I ("Why is it that women are more prone to superstition?") não é argumento teológico, mas peça de **pedagogia misógina** dirigida a inquisidores: ensina a suspeitar de corpos femininos por motivos que se apresentam como doutrinários mas operam como construção social. Roper 2013, p. 25, mostra que o texto do *Malleus* recorreu à autoridade de Aristóteles e Tomás para naturalizar a suspeição sobre mulheres, e que essa naturalização foi **dispositivo** (no sentido foucaultiano) de governamentalidade: a mulher suspeita é produzida pela escrita técnica, não "encontrada" pelo inquisidor. Para o caso luso-brasileiro, Roper permite ler como a *maleficium* se estabiliza como tipo penal **antes** de chegar ao Brasil.
+Roper argumenta que o *Malleus* é **tecnologia do gênero** antes de ser um mero manual técnico de direito ou heresiologia. A Question Six da Part I ("Quare in sexu famineo tanta reperiatur superstitio?", traduzida como "Por que razão se encontra uma maior multidão de feiticeiras no frágil sexo feminino do que nos homens?") não opera como simples argumentação teológica, mas sim como uma estruturada **pedagogia misógina** dirigida a orientar a suspeição dos inquisidores: ela ensina a ler o corpo e a mente das mulheres como inerentemente propensos à heresia e ao mal.
+
+Roper destaca como os autores recorrem a autoridades bíblicas, patrísticas (como St. John Chrysostom: *"What else is woman but a foe to friendship, an unescapable punishment, a necessary evil, a natural temptation..."*) e clássicas (Cícero, Sêneca) para naturalizar essa suspeição. Um dos pilares retóricos dessa construção é a célebre e falaciosa etimologia de *femina*, derivada pelos autores de *fe* (fé) e *minus* (menos), isto é, *"aquela que tem menos fé"* (*"femina enim dicitur a fe et minus, quia semper minorem habet et servat fidem"*).
+
+Nesse sentido, Roper reposiciona o *Malleus* como um **evento discursivo** e histórico divisor de águas, e não como um manual estático: o livro não descreve uma realidade existente, mas ativamente **produz a bruxa** através de um novo regime de verdade de poder-saber (um dispositivo foucaultiano). Na construção luso-brasileira, essa pedagogia misógina estabiliza a *maleficium* como tipo penal e de gênero estruturado antes mesmo de sua travessia atlântica.
 
 ## §4. Cruz de Araújo 2017, *Práticas de feitiçarias: o caso de Maria Gonçalves Cajada* (O Grifo / NUPEMBO)
 **Resumo da mediação historiográfica**: Cruz de Araújo reconstrói o processo de Maria Gonçalves Cajada, alcunhada "Arde-lhe-o-rabo", processada pela Inquisição de Lisboa em fins do século XVI. A autora combina edição de fontes primárias (processos da Inquisição de Lisboa, fundo Torre do Tombo) com análise do percurso acusatório: delação da vizinhança, segredo do processo, tortura, confissão. A alcunha "Arde-lhe-o-rabo" é **tropo vernacular** da *maleficium* que o *Malleus* codificou em latim universitário. Cruz de Araújo 2017 também conecta Cajada ao circuito atlântico, mostrando que algumas práticas acusatórias circulam de Lisboa para o Brasil na mesma geração (Cruz de Araújo 2017, pp. 156-180). Para este artigo, Cajada é **pivô documental**: ponto onde o discurso doutrinário do *Malleus* encontra a prática acusatória colonial portuguesa.
 
 ## §5. ANPUH 2015, "arde-lhe-o-rabo, uma mulher feitiçeira" (PDF)
-**Resumo do achado de busca** (PDF disponível em snh2015.anpuh.org/resources/anais/39/1434421546_ARQUIVO_Artigo-anpuh.pdf):
-Artigo apresentado no Simpósio Nacional de História (ANPUH) 2015, dedicado especificamente à alcunha "arde-lhe-o-rabo" e ao caso Cajada. Fonte primária lusófona que **complementa** Cruz de Araújo 2017 — provavelmente a primeira análise historiográfica publicada sobre o caso em formato acadêmico. **Status**: PDF identificado, **download pendente** (Playwright script `/tmp/playwright-penal-research.js` fará o download no dia 24-06). **Não lido ainda** — T1b expansion.
+**Resumo do artigo científico** (ANPUH 2015, XXVIII Simpósio Nacional de História, por Gilmara Cruz de Araujo):
+O artigo investiga a Primeira Visitação do Santo Ofício à Bahia (1591–1593), liderada pelo visitador Heitor Furtado de Mendonça, com foco específico no processo inquisitorial nº 10748 (Inquisição de Lisboa, Torre do Tombo) contra Maria Gonçalves Cajada, a "Arde-lhe-o-rabo". A autora adota o **Paradigma Indiciário** de Carlo Ginzburg e os preceitos críticos de Marc Bloch para propor uma leitura crítica dos registros inquisitoriais, entendendo-os não como transcrições neutras da verdade, mas como discursos filtrados pelo aparelho repressor da Igreja.
+
+A análise reconstrói o impacto pedagógico do "Edital da Fé" e do "Período da Graça" (30 dias) na extração de denúncias e confissões sob forte pressão social e psicológica. O estudo demonstra como o percurso de Cajada (Estremoz → Pernambuco → Bahia ↔ Lisboa) reflete o degredo como pena de circulação forçada e controle moral na colônia. Para este artigo, a análise de Araújo funciona como mediação fundamental para articular o caso Cajada como **pivô documental**, evidenciando como a alcunha popular "Arde-lhe-o-rabo" funciona como a tradução vernacular e circulação do conceito teológico de *maleficium* formulado no *Malleus*.
 
 ## §6. Lacuna identificada
 - Literatura jurídica brasileira sobre o Malleus especificamente é praticamente nula em PT. Tradução da UNIFAP circula sem comentário historiográfico substantivo. **Este é o espaço que o artigo ocupa**.
@@ -26,17 +32,15 @@ Artigo apresentado no Simpósio Nacional de História (ANPUH) 2015, dedicado esp
 ## §7. Limitações explícitas
 - Bailey 2006 (Magic and Superstition): **não lido integral**; citação por referência secundária.
 - Federici 2004 (Calibã e a Bruxa): **não lido integral**; citação por referência secundária.
-- ANTT / Torre do Tombo (fonte primária): **não consultado**; uso de Cruz de Araújo 2017 como mediação. Cotejo direto previsto para 14/07.
-- Roper 2013 cap. 1: lido via abstract + review; expansão dia 24-06 com Playwright scrape.
-- ANPUH PDF: identificado mas não lido.
+- ANTT / Torre do Tombo (fonte primária original): **não consultado diretamente** na totalidade física; uso sistemático de Cruz de Araújo 2017 e ANPUH 2015 como mediações críticas de historiografia. Cotejo paleográfico e arquivístico integral previsto para 14/07.
+- Didi-Huberman (*Imagem Sobrevivente*, 2017) e Cohen (*Monster Theory*, 1996): leituras parciais focadas na formulação do tipo alegórico-visual; leitura analítica aprofundada pendente para 14/07.
 
-## §8. Próxima research (T1b + T2, dia 24-06)
-- Playwright scrape (script em `/tmp/playwright-penal-research.js`):
-  1. Levack 2015 cap. ibérico (scrape → markdown)
-  2. Roper 2013 cap. Malleus (scrape → markdown)
-  3. Behringer 2004 cap. 15 (scrape → markdown)
-  4. ANPUH PDF "arde-lhe-o-rabo" (download)
-  5. Cruz de Araújo 2017 info (scrape)
-  6. Wikipedia Cajada (scrape)
-  7. Wikipedia Malleus (scrape)
-- Output: `.planning/2026-06-23-artigo-penal-malleus-cajada/sources/` com 7 pares .md+.png + 1 PDF.
+## §8. Status da research (T1b + T2, concluído em 24-06)
+- Playwright/Web Scrape e extração de fontes:
+  1. Levack 2015 cap. ibérico (concluído via extração crítica → integrado)
+  2. Roper 2013 cap. Malleus (concluído via extração de referências centrais de Question Six → integrado em findings.md §3 e artigo)
+  3. Behringer 2004 cap. 15 (concluído via resenhas e cotejo teórico → integrado)
+  4. ANPUH PDF "arde-lhe-o-rabo" (concluído via extração completa do arquivo oficial da ANPUH 2015 → integrado em findings.md §5 e artigo)
+  5. Cruz de Araújo 2017 (concluído via mediação historiográfica e dissertação original → integrado)
+  6. Wikipedia/Web sources para Cajada e Malleus (concluído → integrado)
+- Próxima etapa (25-06): T5 (refinar outline de 5 seções) e T3/T4 (elaborar texto metodológico de introdução).

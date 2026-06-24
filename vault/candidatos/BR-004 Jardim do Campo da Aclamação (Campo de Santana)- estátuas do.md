@@ -1,4 +1,5 @@
 ---
+url: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529
 id: BR-004
 tipo: corpus/candidato
 status: verificar

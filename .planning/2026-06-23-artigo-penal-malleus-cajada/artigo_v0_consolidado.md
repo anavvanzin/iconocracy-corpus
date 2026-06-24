@@ -25,6 +25,30 @@ O argumento é desenvolvido em cinco movimentos:
 ## Recorte temporal
 1487 (publicação do *Malleus*) a 1810 (abolição formal da Inquisição portuguesa). A escolha não é arbitrária: são os marcos de abertura e fechamento de um **regime de penalidade atlântico** centrado no corpo feminino.
 
+## Por que Cajada é pivô, não caso central
+
+Maria Gonçalves Cajada não é o "caso central" deste artigo. Se fosse, o artigo seria um estudo de caso monográfico — e perderia o alcance historiográfico que pretende. Ela também não é mero "exemplo" (ilustração de uma tese pronta), porque o exemplo pressupõe o argumento já formado e apenas o adorna. Cajada é **pivô documental**: o ponto onde o discurso doutrinário do *Malleus* (Seção 1) encontra a tecnologia do corpo confitente (Seção 2) na prática acusatória colonial portuguesa, e de onde essa articulação se projeta para a circulação atlântica (Seção 4).
+
+Três razões sustentam essa posição estrutural:
+
+**1. Cajada é acesso, não destino.** O artigo não se encerra nela. Cajada é a via de entrada para um problema maior — a construção atlântica do tipo penal de bruxaria. A proporção das seções sinaliza a hierarquia: Seção 1 (~6 pp.) + Seção 2 (~6 pp.) > Seção 3 (~5 pp.). O *Malleus* e a tecnologia do corpo confitente são o eixo; Cajada serve ao argumento, não o contrário.
+
+**2. A alcunha "Arde-lhe-o-rabo" é tradução vernacular da *maleficium*.** O *Malleus* codifica a *maleficium* em latim universitário (Part II, Questions I-II); a vizinhança de Estremoz traduz em alcunha popular. Essa tradução não é pitoresca — é o **ponto de contato** entre o discurso doutrinário e a prática acusatória. A alcunha mostra que a categoria penal circula: do latim ao vernáculo, do texto à fala, da metrópole à colônia. O tropo vernacular é a prova de que a *maleficium* saiu do livro e entrou na língua.
+
+**3. O pivô articula, não totaliza.** Cajada conecta as Seções 1-2 (formação do discurso penal) às Seções 4-5 (circulação atlântica e interface ICONOCRACIA). Se ela fosse "caso central", o artigo se fecharia nela. Como pivô, ela abre para o circuito atlântico e para a tese.
+
+**O que Cajada não é.** (a) Não é a "primeira bruxa" processada pela Inquisição portuguesa — há processos anteriores. (b) Não é a "bruxa típica" — não há tipo estatístico. (c) Não é a "prova" de que o *Malleus* circulou em Portugal — essa circulação é atestada pela via institucional (manuais inquisitoriais, regimentos), não por um caso individual. O que Cajada prova não é a *presença* do *Malleus* em Portugal, mas a **operacionalidade** da sua tipologia penal: mostra que a *maleficium* codificada em latim se traduziu em alcunha, processo, tortura, sentença — tecnologia aplicada a um corpo específico.
+
+## Por que 1487-1810
+
+O recorte 1487-1810 não é cronologia neutra. São os marcos de abertura e fechamento de um **regime de penalidade atlântico** centrado no corpo feminino.
+
+**1487: publicação do *Malleus*, não "início da caça às bruxas".** A data não marca o começo da repressão à bruxaria (que antecede o *Malleus* em séculos), mas a **estabilização doutrinária** do tipo penal. O *Malleus* é o primeiro texto a codificar sistematicamente a suspeição sobre corpos femininos como categoria penal operativa — articulando teologia, direito e pedagogia misógina em um único artefato textual. A partir de 1487, inquisidores dispõem de um "manual" que ensina a ler o corpo da mulher como corpo de bruxa. A data marca, portanto, o momento em que o discurso se torna **tecnologia exportável**.
+
+**1810: abolição formal da Inquisição portuguesa, não "fim da bruxaria".** Em 1810, as Cortes de Lisboa abolem formalmente a Inquisição portuguesa. O gesto não elimina a perseguição à bruxaria (que persiste no Brasil imperial, em Angola colonial, na Goa pós-inquisitorial), mas **fecha o regime institucional** que deu forma jurídica ao tipo penal. A partir de 1810, a bruxaria deixa de ser processada pelo aparato inquisitorial e passa a ser processada por outros aparatos (códigos penais oitocentistas, psiquiatria forense, discurso médico). O tipo penal não desaparece; **muda de mão**.
+
+**Por que não 1821?** A abolição da Inquisição no Brasil ocorre apenas em 1821 (Decreto de D. Pedro I). A opção por 1810 (metrópole) e não 1821 (colônia) é deliberada: o artigo prioriza o **circuito atlântico metropolitano**, e é Lisboa que dita o fechamento institucional. A colônia segue a metrópole com atraso — mas o regime já está encerrado em 1810. O Brasil de 1821 apenas formaliza o que Lisboa decidiu uma década antes.
+
 ## Nota metodológica
 O *Malleus* **não** é tomado como "fonte primária aceita" (Golden Comparative Rule) mas como **objeto historiográfico**: lê-se o texto pelo ângulo retórico (Roper 2013), contextualiza-se na formação do Estado confessional (Levack 2015; Behringer 2004), e articula-se com o caso Cajada como pivô documental. O artigo opera em três níveis: historiográfico (Seções 1-2, leitura da bibliografia europeia), documental (Seção 3, caso Cajada), e imperial (Seção 4, circulação atlântica). A Seção 5 projeta a interface com a tese ICONOCRACIA.
 
@@ -54,6 +78,12 @@ A Question Six da Part I ("Why is it that women are more prone to superstition?"
 ### 1.3. A circulação ibérica: filtros e readaptações
 O *Malleus* não "chega" à Península Ibérica intacto. É filtrado pela tradição jurídica ibérica — que prioriza *maleficium* específico (dano, confissão) e não o sabá demonológico coletivo do norte. Os manuales inquisitoriais ibéricos (Alonso de Salazar Frías, Valderrama) operam como readaptações.
 
+A razão pela qual a tradição jurídica ibérica filtrou o *Malleus* privilegiando o *maleficium* em detrimento do *sabbat* não é meramente doutrinária — é estrutural. António Manuel Hespanha demonstrou que o direito do Antigo Regime não operava como ordem unitária de comando estatal, mas como **ordem plural corporativa**: uma constelação de corpos sociais (Igreja, nobreza, corporações, municípios, Inquisição), cada qual dotado de jurisdição própria (*iurisdictio*), foro privilegiado e normas internas, coexistindo no mesmo espaço social sem que nenhuma instância — nem mesmo a Coroa — detivesse o monopólio da produção normativa (HESPANHA, 2012, p. 159-175). Nesse arranjo, o direito canônico e o *ius commune* não se impunham por derrogação automática: eram **filtrados** pelas gramáticas jurídicas locais, que selecionavam, adaptavam e ressignificavam os institutos estrangeiros conforme a economia interna de cada corporação.
+
+Esse pluralismo jurídico estrutural esclarece por que a Inquisição portuguesa priorizou o dano concreto (*maleficium*) sobre a assembleia demonológica coletiva (*sabbat*). O *sabbat*, como constructo teológico-demonológico do norte europeu, exigia uma cadeia probatória frágil — testemunhos de outras bruxas, delações em cadeia, confissões sob tortura sobre encontros noturnos coletivos —, enquanto o *maleficium* produzia **dano tangível**: colheitas arruinadas, crianças doentes, mortes súbitas. Num ordenamento jurídico corporativo-pluralista em que a confissão era a *probatio probatissima* (a "rainha das provas"), o *maleficium* oferecia um fato verificável capaz de sustentar o interrogatório e, eventualmente, a confissão judicial. A Inquisição portuguesa, como corpo jurisdicional que operava dentro da economia corporativa da monarquia ibérica, precisava de **fatos justiciáveis** — e o *sabbat* era, do ponto de vista do *ius commune* recebido na Península, juridicamente inconsistente.
+
+A isso se soma o que Hespanha conceituou como **economia da graça**: o dispositivo régio e corporativo de dominação baseado não na imposição abstrata da lei, mas na distribuição discricionária de mercês, perdões, comutações e reconciliações (HESPANHA, 2015, p. 117-142). Numa cultura jurídica em que a graça — e não a lei geral — era o principal operador de disciplina social, o foco no *maleficium* permitia à Inquisição dosar a resposta penal conforme a gravidade do dano, a qualidade da confissão e a posição corporativa da ré. A bruxa que confessava o dano e se reconciliava recebia a **graça** (pena leve, hábito penitencial, degredo); a que persistia na negativa ou cujo *maleficium* era particularmente grave era "relaxada ao braço secular". O modelo do *sabbat*, ao contrário, implicava apostasia coletiva irreversível — não havia graça possível para quem renunciava a Deus em assembleia demonológica. A Inquisição portuguesa, ao filtrar o *Malleus* pela sua cultura jurídica corporativa, **preservou o espaço da graça** — e, com ele, a eficácia disciplinar de um tribunal que precisava mais de penitentes reconciliados do que de hereges queimados.
+
 ### 1.4. A posição do artigo
 Este artigo lê o *Malleus* **pelo ângulo retórico** (Roper), **contextualiza-o na formação do Estado** (Levack, Behringer), e **articula-o com o caso Cajada** como pivô documental. Não toma o *Malleus* como "fonte primária aceita" (Golden Comparative Rule), mas como objeto historiográfico.
 
@@ -80,8 +110,18 @@ A tecnologia do corpo confitente — o conjunto de procedimentos (segredo, tortu
 ### 2.1. Do discurso à prática: o manual de inquisidor como mediação
 O *Manual de Inquisidores* de Alonso de Salazar Frías (1620) e o *Tribunal de la Conciencia* de Pedro de Valderrama (1556) são as **interfaces técnicas** que traduzem a tipologia do *Malleus* para o procedimento inquisitorial ibérico. Não há aplicação direta: há **filtro**, **seleção**, **tradução**. O *maleficium* (dano concreto) substitui o *sabbat* (reunião demonológica); a *confissão* substitui a *prova testemunhal* do sabá; a *tortura* substitui a *prova por testemunhas* do sabá. A Inquisição portuguesa **filtra** o *Malleus* pela sua própria gramática processual.
 
+Mas o filtro ibérico não é uniforme — e é precisamente essa variação que revela o argumento central do artigo. Coevo e vizinho da Inquisição portuguesa que processa Cajada, o tribunal de Logroño (Navarra, 1609-1614) conduziu a maior série de processos por bruxaria da história espanhola: 1.384 crianças e 420 adultos acusados. O desfecho, porém, foi o oposto. O inquisidor Alonso de Salazar Frías, terceiro juiz do tribunal, investigou os casos com ceticismo empírico: entrevistou as acusadas, examinou os locais dos supostos sabás, buscou veneno, ossos, amuletos — e não encontrou **nenhuma** evidência material. Seu relatório à Suprema (1614) concluiu que as acusações eram "enraizadas em sonhos e fantasias", que as confissões eram produto da tortura e da sugestão coletiva, e que "não havia bruxas nem enfeitiçados até que se começasse a falar deles". A Inquisição espanhola acatou: as *Instrucciones* de 1614 incorporaram o ceticismo de Salazar e a Espanha tornou-se "um dos primeiros tribunais da Europa a ditar regras contra a pena de morte para supostas bruxas" (MONTER, 2013, p. 271). Salazar ganhou o epíteto de "Advogado das Bruxas" (HENNINGSEN, 1980).
+
+O contraste com Portugal é analiticamente decisivo. Mesmo *Malleus*, mesma estrutura inquisitorial, mesma cronologia (Cajada é processada nos anos 1590; Logroño explode em 1609). Mas enquanto a Espanha produziu um Salazar Frías — um inquisidor que submeteu o discurso doutrinário ao escrutínio empírico e o refutou —, Portugal produziu o *Regimento* de 1613 e a *Instrução* de 1618, que codificaram a tortura como procedimento padrão e estenderam a jurisdição inquisitorial às colônias. A diferença não está no texto (*Malleus*), mas na **gramática institucional** que o lê: a Inquisição espanhola, mais centralizada e juridicamente treinada em Salamanca, produziu um filtro cético; a Inquisição portuguesa, mais capilar e dependente da delação local, produziu um filtro que amplificava a suspeição. O *Malleus* é o mesmo; o que muda é o **regime de leitura**. É essa variação que permite afirmar que o tipo penal de bruxaria não "viaja" como doutrina estável: ele se **recompõe** em cada nó institucional.
+
 ### 2.2. A tecnologia do corpo confitente: segredo, tortura, confissão
-O corpo da ré torna-se o **arquivo da verdade** inquisitorial. O segredo de justiça isola a ré; a tortura (gradual, regulada, *probatio*) extrai a "verdade"; a confissão (escrita, assinada, lida em auto de fé) **fecha o circuito**. Roper (2013) mostra que a tortura não é "extração de verdade" mas **produção de sujeito confessante**. No caso luso-brasileiro, a tortura é **regulada** (graus, testemunhas, médico), mas a sua lógica é a mesma: o corpo feminino como **local da verdade** inquisitorial.
+O corpo da ré torna-se o **arquivo da verdade** inquisitorial. O *Malleus* é explícito sobre a centralidade da confissão: "a justiça comum exige que uma bruxa não seja condenada à morte a menos que seja convencida por sua própria confissão" (KRAMER; SPRENGER, 1487, Part III, Question XIII). Mas a confissão não é voluntária — é **extraída**. O texto estabelece três vias pelas quais a acusada pode ser considerada "manifestamente tomada" em heresia: (1) evidência direta do fato, (2) produção legítima de testemunhas, ou (3) a própria confissão. Cada via é independentemente suficiente para autorizar a tortura.
+
+O segredo de justiça isola a ré; a tortura (gradual, regulada, *probatio*) extrai a "verdade"; a confissão (escrita, assinada, lida em auto de fé) **fecha o circuito**. Roper (2013) mostra que a tortura não é "extração de verdade" mas **produção de sujeito confessante**. O *Malleus* antecipa a objeção — e se a bruxa resistir à tortura? — com uma resposta que revela a lógica circular do procedimento: "a menos que Deus, por intermédio de um santo Anjo, compele o diabo a retirar sua ajuda da bruxa, ela será tão insensível às dores da tortura que antes será desmembrada membro por membro do que confessará qualquer verdade" (KRAMER; SPRENGER, 1487, Part III, Question XIII). A resistência à tortura não prova inocência — prova intervenção demoníaca. A tortura não falha; a bruxa é que é insensível. E ainda assim: "a tortura não deve ser negligenciada por essa razão". O corpo que resiste é o corpo que confirma a suspeita.
+
+A Question XV desce aos detalhes operacionais. O juiz deve variar os métodos de interrogatório "assim como o mesmo remédio não se aplica a todos os membros, mas há vários e distintos unguentos para cada membro" — metáfora médica para o terror burocrático (KRAMER; SPRENGER, 1487, Part III, Question XV). A incapacidade de chorar sob tortura é "sinal certíssimo" de bruxaria; o juiz deve conjurar a acusada a verter lágrimas com uma fórmula latina que invoca "as lágrimas amargas derramadas na Cruz por nosso Salvador". O corpo deve ser raspado "de cada parte" — inclusive as "partes secretas" — porque bruxas supostamente escondem amuletos nos cabelos e nas roupas para preservar o silêncio sob tortura. Os juízes não devem permitir contato físico com a bruxa; devem carregar objetos bentos; a acusada deve ser conduzida "de costas" à presença do juiz. Cada gesto é ritual; cada ritual é tecnologia de produção da verdade.
+
+No caso luso-brasileiro, a tortura é **regulada** (graus, testemunhas, médico), mas a sua lógica é a mesma: o corpo feminino como **local da verdade** inquisitorial. A *Instrução* de 1613 e o *Regimento* de 1618 codificam: tortura apenas *post* indícios veementes; presença de cirurgião; interrupção se risco de morte; registro em auto. A tortura regulada é **tortura legitimada** — e por isso mais eficaz como tecnologia de poder.
 
 ### 2.3. O segredo de justiça e a fabricação da verdade
 O segredo não é apenas sigilo processual: é **condição de produção** da verdade inquisitorial. Ao isolar a ré, impede a contaminação da "verdade" por versões externas; ao controlar o acesso ao processo, a Inquisição controla a **narrativaçnarrativa oficial**. O *auto de fé* — cerimônia pública, teatral, com leitura da sentença — é o **ato de publicação** da verdade fabricada no segredo. A publicação **valida** o segredo.
@@ -108,7 +148,7 @@ Maria Gonçalves Cajada, alcunhada "Arde-lhe-o-rabo", processada pela Inquisiç�
 - CRUZ DE ARAÚJO, Gilmara. *Práticas de feitiçarias: o caso de Maria Gonçalves Cajada*. O Grifo/NUPEMBO, 2017.
 - CRUZ DE ARAÚJO, Gilmara. *Práticas de feitiçarias: o caso de Maria Gonçalves Cajada* (dissertação, UFS, 2016).
 - ANPUH 2015, "arde-lhe-o-rabo, uma mulher feitiçeira" (PDF, Simpósio Nacional de História).
-- Processo original: ANTT/Torre do Tombo, Inquisição de Lisboa, processo de Maria Gonçalves Cajada (finais do séc. XVI).
+- Processo original: ANTT/Torre do Tombo, Inquisição de Lisboa, Processo nº 10748, Maria Gonçalves Cajada (finais do séc. XVI).
 - Fundo Torre do Tombo, Inquisição de Lisboa, processos de feitiçaria (séc. XVI-XVII).
 
 ## Parágrafo-tese
@@ -167,12 +207,15 @@ A circulação atlântica do *Malleus* e da tecnologia do corpo confitente **nã
 ### 4.1. Lisboa → Brasil: a Inquisição como vetor imperial
 A Inquisição de Lisboa é a **metrópole processual**: os processos iniciados em Lisboa julgam réus no Brasil, Angola, Goa. As *cartas régias* (1551, 1570, 1613) estendem a jurisdição inquisitorial às possessões. O *Regimento* de 1613 estende a *Instrução* de 1613 às possessões ultramarinas. A **circulação é institucional**: não há "difusão cultural" — há **política imperial**.
 
-### 4.2. Brasil: hibridismo, hibridização, hibridização
-No Brasil, a "bruxaria" colonial **não é réplica** da europeia. Mistura-se a:
-- Práticas indígenas: *pajelança*, *xamanismo*, uso de *jurema*, *ayahuasca* (ritualístico).
-- Práticas africanas: *candomblé*, *quimbanda*, *batuque*, *calundu* (termos que a Inquisição rotula como "feiticeira").
-- Práticas europeias: *maleficium*, *pacto*, *sabá* (importados pelo *Malleus* e manuais inquisitoriais).
-A **hibridização** não é "sincretismo" (termo colonizador): é **conflito, negociação, resistência**. A "bruxa" brasileira não é a bruxa europeia: é **mulher indígena, africana, mestiça**, curandeira, parteira, benzedeira — alvo porque **o corpo feminino racializado** é o alvo preferencial da Inquisição.
+### 4.2. Brasil: hibridização como acumulação primitiva do corpo feminino
+
+No Brasil, a "bruxaria" colonial **não é réplica** da europeia. Mistura-se a práticas indígenas (*pajelança*, *xamanismo*, uso de *jurema*), africanas (*candomblé*, *quimbanda*, *calundu*) e europeias (*maleficium*, *pacto*, *sabá*). A Inquisição rotula todas sob o mesmo signo — "feiticeira" — mas o termo encobre três figuras distintas: a indígena que cura com plantas, a africana que preserva ritos de origem, a europeia pobre que benze e parteja. O que as unifica não é a "crença" que praticam, mas a **posição que ocupam na máquina colonial**: corpos femininos racializados cujo saber — sobre o corpo, a cura, o parto, a terra — precisa ser destruído para que o trabalho colonial se organize.
+
+Silvia Federici (2004) oferece a chave materialista para essa convergência. Em *Calibã e a Bruxa*, ela argumenta que a caça às bruxas europeia não foi histeria religiosa, mas **acumulação primitiva do corpo feminino**: "assim como os cercamentos expropriaram o campesinato da terra comunal, a caça às bruxas expropriou as mulheres de seus corpos, que foram assim 'liberados' de qualquer impedimento que os impedisse de funcionar como máquinas de produção de trabalho" (FEDERICI, 2004, p. 184). A fogueira ergueu "barreiras mais formidáveis ao redor dos corpos das mulheres do que jamais foram erguidas pelo cercamento das terras comunais" (FEDERICI, 2004, p. 184). A metáfora não é retórica: Federici demonstra que a **transição ao capitalismo** exigiu a destruição simultânea da terra comunal e do saber corporal feminino — dois commons que bloqueavam a proletarização.
+
+O que Federici mostra para a Europa vale, redobrado, para o Atlântico. No Brasil colonial, a plantation, o tráfico negreiro e a inquisição operam como **três faces da mesma máquina de acumulação**. A indígena que conhece as ervas, a africana que preserva o *calundu*, a europeia que benze — as três são "bruxas" porque as três detêm um saber que o capitalismo colonial precisa expropriar. Federici nomeia a figura que sintetiza essa tripla expropriação: a bruxa é também "a mulher obeah que envenenava a comida do senhor e inspirava os escravizados à revolta" (FEDERICI, 2004, p. 11). A *obeah* caribenha — magia de cura e resistência dos escravizados — é a prima atlântica da *maleficium* europeia. No Brasil, a *quimbanda*, o *calundu*, a *jurema* ocupam a mesma posição estrutural: saber corporal que resiste à plantation.
+
+A hibridização, portanto, não é "sincretismo" (termo que presume fusão pacífica de tradições). É **conflito, expropriação e resistência** em um único movimento. A "bruxa" brasileira — mulher indígena, africana, mestiça, curandeira, parteira, benzedeira — é alvo não porque "crê em superstições", mas porque seu corpo e seu saber são **obstáculo à acumulação**. A Inquisição portuguesa, ao processar a "feiticeira" colonial, não está apenas punindo heresia: está **limpando o terreno** para o trabalho escravizado e a monocultura. O tipo penal de bruxaria é a forma jurídica dessa limpeza.
 
 ### 4.3. Angola e Goa: periferia ibérica, lógicas locais
 - **Angola**: a Inquisição de Lisboa julga processos de Luanda, Benguela. A "feiticeira" angolana articula-se com *kimbanda*, *quimbo*, *nganga*. A Inquisição rotula como "feiticeira" práticas de *nganga* (curandeiro/feiticeiro). A **tradução** é violenta: *nganga* → "feiticeiro".
@@ -250,8 +293,10 @@ A construção atlântica do tipo penal de bruxaria não é história jurídica 
 
 O caso de Maria Gonçalves Cajada funciona como **pivô** não porque "representa" a bruxaria portuguesa, mas porque mostra que a alcunha — tropo vernacular da *maleficium* do *Malleus* — é o **ponto de tradução** entre o latim universitário e a suspeição da vizinhança colonial. A circulação atlântica do tipo penal é, finalmente, a circulação da própria **iconocracia imperial**: a alegoria feminina que pune (a bruxa) é o reverso da alegoria que exibe a soberania (Justiça, República, Liberdade).
 
+Mas há uma dimensão material que a iconocracia não esgota. Federici (2004) demonstra que a caça às bruxas foi, antes de tudo, **acumulação primitiva do corpo feminino** — condição de possibilidade para o capitalismo nascente. O que este artigo acrescenta é que essa acumulação **não se deteve no Atlântico**: atravessou-o. A plantation brasileira, o tráfico negreiro e a Inquisição colonial são três faces da mesma máquina — e o tipo penal de bruxaria é a forma jurídica que as articula. A bruxa de Estremoz e a escravizada de Salvador não são figuras análogas; são **produtos do mesmo regime de expropriação**. O tipo penal as une.
+
 ## Limitações explícitas
-1. Bailey 2006 e Federici 2004: não lidos integralmente; citação por referência secundária.
+1. Federici 2004: integrada via citações textuais do cap. 4 (acumulação primitiva, cercamentos, corpo) e introdução (figura da *obeah*); leitura integral dos caps. 3 e 5 pendente.
 2. ANTT/Torre do Tombo: não consultado diretamente; Cruz de Araújo 2017 como mediação. Cotejo direto previsto para 14/07.
 3. Roper 2013 (cap. 1 sobre o *Malleus*): lido via abstract e resenhas; leitura integral pendente.
 4. Didi-Huberman (*Imagem Sobrevivente*, 2017) e Cohen (*Monster Theory*, 1996): leitura integral pendente.
@@ -266,13 +311,27 @@ COHEN, Jeffrey Jerome. *Monster Theory: Reading Culture*. Minneapolis: Universit
 
 CRUZ DE ARAÚJO, Gilmara. *Práticas de feitiçarias: o caso de Maria Gonçalves Cajada*. São Cristóvão: O Grifo/NUPEMBO, 2017.
 
+DAL RI JÚNIOR, Arno; SONTAG, Ricardo (org.). *História do Direito Penal entre Medievo e Modernidade*. Belo Horizonte: Del Rey, 2011.
+
 DIDI-HUBERMAN, Georges. *O que vemos, o que nos olha*. São Paulo: Ed. 34, 2017.
 
 DIDI-HUBERMAN, Georges. *A imagem sobrevivente: história da arte e tempo dos fantasmas segundo Aby Warburg*. São Paulo: Ed. 34, 2017.
 
 FEDERICI, Silvia. *Calibã e a Bruxa: mulheres, corpo e acumulação primitiva*. São Paulo: Elefante, 2021 (2004).
 
+HENNINGSEN, Gustav. *The Witches' Advocate: Basque Witchcraft and the Spanish Inquisition (1609-1614)*. Reno: University of Nevada Press, 1980.
+
+HESPANHA, António Manuel. *Cultura Jurídica Europeia: Síntese de um Milénio*. 3. ed. Coimbra: Almedina, 2018.
+
+HESPANHA, António Manuel. *Como os juristas viam o mundo. 1550-1750: direitos, estados, coisas, contratos, ações e crimes*. Coimbra: Almedina, 2015.
+
+HESPANHA, António Manuel. *As vésperas do Leviathan: instituições e poder político, Portugal séc. XVII*. Coimbra: Almedina, 1994.
+
+KRAMER, Heinrich; SPRENGER, Jacob. *Malleus Maleficarum*. Speyer: Peter Drach, 1487. Edição consultada: MACKAY, Christopher S. (trad.). *The Hammer of Witches: A Complete Translation of the Malleus Maleficarum*. Cambridge: Cambridge University Press, 2009.
+
 LEVACK, Brian P. *The Witch-Hunt in Early Modern Europe*. 4. ed. London: Routledge, 2015.
+
+MARTYN, Georges; PAUMEN, Vanessa; BOUSMAR, Eric; ROUSSEAUX, Xavier (eds.). *The Art of Law: Artistic Representations and Iconography of Law and Justice in Context, from the Middle Ages to the First World War*. Cham: Springer, 2018. (Ius Gentium: Comparative Perspectives on Law and Justice, v. 66).
 
 MONTER, William. "Witchcraft in Iberia". In: LEVACK, Brian P. (org.). *The Oxford Handbook of Witchcraft in Early Modern Europe and Colonial America*. Oxford: Oxford University Press, 2013. p. 268-282.
 

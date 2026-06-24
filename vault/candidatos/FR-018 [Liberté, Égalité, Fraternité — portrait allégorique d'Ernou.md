@@ -1,4 +1,5 @@
 ---
+url: https://gallica.bnf.fr/ark:/12148/btv1b8412560z
 id: FR-018
 tipo: corpus/candidato
 status: verificar
