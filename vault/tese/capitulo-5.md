@@ -16,6 +16,27 @@ pandoc:
 
 ## 5.1 — Amostragem estratificada: critérios de seleção e representação
 
+O corpus é construído em regime aberto e de expansão contínua: novas alegorias são incorporadas e codificadas ao longo da pesquisa, de modo que seu tamanho não constitui um valor fixo, mas um horizonte em crescimento até a defesa. Para fins de reprodutibilidade, a análise quantitativa desta tese (Capítulo 6) incide sobre uma amostra codificada e congelada num dado momento, estratificada por país, período e suporte material; sua composição é apresentada a seguir como instantâneo de trabalho — provisório e sujeito a ampliação —, não como número definitivo. As peças da amostra estão integralmente codificadas (dez indicadores + regime + análise Panofsky), parte por inspeção visual direta (IIIF), parte por metadados refinados.
+
+A distribuição por país e acervo, no instantâneo analisado, concentra-se nos circuitos hegemônicos de produção da cultura jurídica ocidental — com predominância da França, seguida dos Estados Unidos e da Alemanha, e participação relevante do Brasil, Reino Unido, Itália, Bélgica, Portugal e Espanha, além de itens isolados de outros países (AR, AT, MX, NL, CH, UY):
+
+| País | Fontes principais |
+|------|------------------|
+| França | Gallica (BnF), Europeana |
+| Estados Unidos | Library of Congress, Smithsonian |
+| Alemanha | Deutsche Digitale Bibliothek, Europeana |
+| Brasil | Brasiliana Fotográfica, Museu da República |
+| Reino Unido | British Museum, Imperial War Museum |
+| Itália | Europeana, Numista |
+| Bélgica | Europeana, KBR |
+| Portugal | BND Portugal, Numista |
+| Espanha | Numista, Europeana |
+| Outros (AR, AT, MX, NL, CH, UY) | Diversos |
+
+A cobertura temporal estende-se de 1559 (FR-047, *Iustitia* de Bruegel, item arqueológico pré-moderno) a 2000, com concentração no período 1850–1920.
+
+<!-- NOTA: contagens de N (total, por país, por regime) deixadas FORA da prosa por decisão de 2026-06-24 — corpus em expansão, defesa a +1 ano; não fixar número até perto da defesa. País é variável analítica, não gate de inclusão (desde 2026-06-22). Os resultados estatísticos do Cap. 6 referem-se ao instantâneo então analisado e serão re-rodados sobre o corpus final. -->
+
 ## 5.2 — Purificação Clássica: o quarto conceito original e seus 10 indicadores ordinais
 
 ### 5.2.1 — Definição
