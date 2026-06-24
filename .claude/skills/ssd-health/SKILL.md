@@ -1,7 +1,7 @@
 ---
 name: ssd-health
 description: >
-  Verify /Volumes/Iconocracia SSD mount, symlink integrity for data/raw/{BR,FR,UK,DE,US,BE},
+  Verify /media/ana/SSD_DATA SSD mount, symlink integrity for data/raw/{BR,FR,UK,DE,US,BE},
   optionally ingest new images from the SSD drop zone into corpus/imagens/, and run
   the SSD backup script. Use when the user says "ssd", "mount check", "verificar ssd",
   "ingest drive", "backup iconocracia", "sync ssd", or before any corpus operation that
@@ -13,29 +13,27 @@ Verifies SSD infrastructure for the ICONOCRACIA corpus. Does NOT touch JSON ledg
 (that is `sync-corpus`). Concerns: mount state, symlink health, ingest from drop zone,
 and backup invocation.
 
-## Known caveat
+## Host
 
-Actual mount point is `/Volumes/Iconocracia` (mixed case). Repo symlinks and
-SSD CLAUDE.md assume `/Volumes/ICONOCRACIA` (all-caps). macOS case-insensitive
-filesystem makes both resolve, but this silently breaks any remote/Linux path.
-Report the mismatch. Do not auto-rename.
+Linux (Debian). The SSD is partition `sdb1`, filesystem label `SSD_DATA`, and
+auto-mounts at `/media/ana/SSD_DATA`. Mac-era paths (`/Volumes/Iconocracia`,
+`/Volumes/ICONOCRACIA`) are stale and no longer resolve — do not use them.
 
 ## Phase 1 — Mount check
 
 ```bash
-MOUNT=/Volumes/Iconocracia
-ALT=/Volumes/ICONOCRACIA
+MOUNT=/media/ana/SSD_DATA
 
 if [ -d "$MOUNT" ]; then
   echo "SSD montado em $MOUNT"
-elif [ -d "$ALT" ]; then
-  echo "SSD montado em $ALT (case all-caps)"
-  MOUNT=$ALT
 else
-  echo "SSD AUSENTE — abortar"
+  echo "SSD AUSENTE — verifique se sdb1 (label SSD_DATA) está montado; abortar"
   exit 1
 fi
 ```
+
+If the drive is connected but not mounted, report it and let the user mount it
+(e.g. via the file manager or `udisksctl mount -b /dev/sdb1`). Do not auto-mount.
 
 ## Phase 2 — Symlink integrity
 
@@ -90,8 +88,7 @@ Runs only when user explicitly requests backup. Confirms before execution
 ```
 | Passo              | Status | Detalhe                               |
 |--------------------|--------|---------------------------------------|
-| Mount              | OK     | /Volumes/Iconocracia                  |
-| Case normalization | WARN   | mount=Iconocracia, symlinks=ICONOCRAC |
+| Mount              | OK     | /media/ana/SSD_DATA                   |
 | Symlinks           | OK     | 6/6 válidos                           |
 | Ingest             | SKIP   | não solicitado                        |
 | Backup             | SKIP   | não solicitado                        |

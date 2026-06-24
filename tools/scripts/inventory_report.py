@@ -5,7 +5,7 @@ Usage: python tools/scripts/inventory_report.py
 """
 
 import csv
-from collections import Counter, defaultdict
+from collections import Counter
 
 CSV_PATH = "docs/superpowers/inventory/2026-04-29-corpus-inventory.csv"
 

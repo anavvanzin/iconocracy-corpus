@@ -114,7 +114,7 @@ A pesquisa direta nao localizou um capitulo ou artigo especifico de Huygebaert d
 - A tese abrange **todos os suportes de arte juridica publica** na Belgica oitocentista, o que inclui medalhas comemorativas e moedas quando funcionam como vetores de iconografia juridica.
 - O capitulo "The Quest for the Decisive Constitutional Moment (DCM)" (em *Sensing the Nation's Law*, 2018, pp. 45-84) analisa as **entradas de design para o concurso de 1849 para um monumento constitucional** em Bruxelas, que inclui medalhas e suportes numismaticos como expressoes do "momento constitucional decisivo".
 - O volume *Sensing the Nation's Law* contem tambem um capitulo sobre numismatica americana (Cap. 9: "Appreciation or Appropriation? An Indigenous Moment in the American Numismatic Narrative, 1999-2009"), sugerindo que o dialogo entre iconografia juridica e numismatica e parte do enquadramento teorico geral.
-- A tese menciona **suportes burocraticos estabilizados** (selos, moedas) como pertencentes ao regime NORMATIVO, mas os detalhes especificos sobre moedas belgas com Justitia requerem consulta direta ao texto completo da tese. #verificar
+- A tese menciona **suportes burocraticos estabilizados** (selos, moedas) como pertencentes ao regime NORMATIVO, mas os detalhes especificos sobre moedas belgas com Justitia requerem consulta direta ao texto completo da tese. [[verificar]]
 
 > **Proximo passo:** Consultar o texto completo da tese (disponivel via biblio.ugent.be ou contato com o autor) para extrair dados especificos sobre representacoes de Justitia em moedas e medalhas belgas.
 
@@ -191,10 +191,10 @@ HUYGEBAERT, Stefan; VAN REMOORTEL, Marianne. From picturesque anecdote to viral 
 
 ### Lacunas a investigar
 
-1. **Moedas e medalhas belgas:** verificar na tese completa se ha capitulo especifico sobre numismatica #verificar
-2. **Iconografia colonial belga:** Huygebaert aborda alegorias coloniais? Relevante para a categoria "La Belgique, constitutional and colonial allegories" #verificar
-3. **Imagens especificas:** obter reproducoes das propostas de Ducaju, Van der Stappen e Dillens para analise de endurecimento #verificar
-4. **Texto completo da tese:** solicitar acesso via biblio.ugent.be ou contato direto com o autor #verificar
+1. **Moedas e medalhas belgas:** verificar na tese completa se ha capitulo especifico sobre numismatica [[verificar]]
+2. **Iconografia colonial belga:** Huygebaert aborda alegorias coloniais? Relevante para a categoria "La Belgique, constitutional and colonial allegories" [[verificar]]
+3. **Imagens especificas:** obter reproducoes das propostas de Ducaju, Van der Stappen e Dillens para analise de endurecimento [[verificar]]
+4. **Texto completo da tese:** solicitar acesso via biblio.ugent.be ou contato direto com o autor [[verificar]]
 
 ---
 
@@ -235,7 +235,7 @@ Os projetos de Ducaju, Dillens e Van der Stappen sao objetos **nao catalogados**
 - **Motivo:** Themis (com atributos minervianos — capacete)
 - **Regime hipotetico:** NORMATIVO
 - **Indicadores endurecimento:** heraldizacao, enquadramento_arquitetonico, rigidez_postural
-- **Flag:** #verificar #verificar-imagem
+- **Flag:** [[verificar]] [[verificar-imagem]]
 
 ### Candidato B: Projeto de Charles Van der Stappen — Minerva/Themis (numen mixtum, c. 1886-1894)
 - **Suporte:** escultura (figura reutilizada: Minerva 1886 → Themis 1894)
@@ -244,7 +244,7 @@ Os projetos de Ducaju, Dillens e Van der Stappen sao objetos **nao catalogados**
 - **Motivo:** Themis / Minerva (figura hibrida / numen mixtum)
 - **Regime hipotetico:** NORMATIVO / FUNDACIONAL (limiar)
 - **Indicadores endurecimento:** uniformizacao_facial, apagamento_narrativo, dessexualizacao
-- **Flag:** #verificar #verificar-imagem
+- **Flag:** [[verificar]] [[verificar-imagem]]
 
 ### Candidato C: "La Justice entre la Clemence et le Droit" (Julien Dillens, Palais de Justice, 1894)
 - **Suporte:** grupo escultural (interior do Palais de Justice)
@@ -253,7 +253,7 @@ Os projetos de Ducaju, Dillens e Van der Stappen sao objetos **nao catalogados**
 - **Motivo:** Justitia (variante "desviante" — iconografia nao-convencional)
 - **Regime hipotetico:** NORMATIVO (contexto), com morfologia limiar
 - **Indicadores endurecimento:** a verificar — iconografia descrita como "desviante" pode indicar RESISTENCIA ao endurecimento
-- **Flag:** #verificar #verificar-imagem
+- **Flag:** [[verificar]] [[verificar-imagem]]
 
 ### Candidato D: Projetos do concurso para monumento constitucional (Bruxelas, 1849)
 - **Suporte:** escultura monumental / projeto arquitetonico
@@ -262,7 +262,7 @@ Os projetos de Ducaju, Dillens e Van der Stappen sao objetos **nao catalogados**
 - **Motivo:** Constituicao / alegoria juridico-politica
 - **Regime hipotetico:** FUNDACIONAL
 - **Localizacao provavel:** Archives generales du Royaume (AGR), Bruxelas
-- **Flag:** #verificar #regime/fundacional
+- **Flag:** [[verificar]] [[regime/fundacional]]
 
 ---
 

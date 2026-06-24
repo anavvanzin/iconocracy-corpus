@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Administração Pública 4.0 em Disputa — Demonstração Interativa</title>
+<style>
+  :root {
+    --bg: #0a0e17;
+    --bg2: #111827;
+    --accent: #00d4aa;
+    --accent2: #ff6b6b;
+    --accent3: #ffd93d;
+    --text: #e2e8f0;
+    --text2: #94a3b8;
+    --border: #1e293b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+  
+  /* Navigation */
+  .nav {
+    display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;
+    padding: 20px; background: var(--bg2); border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; z-index: 100;
+  }
+  .nav button {
+    padding: 10px 20px; border: 1px solid var(--border); background: var(--bg);
+    color: var(--text2); border-radius: 8px; cursor: pointer; font-size: 14px;
+    transition: all 0.3s;
+  }
+  .nav button:hover, .nav button.active {
+    background: var(--accent); color: var(--bg); border-color: var(--accent);
+  }
+  
+  /* Sections */
+  .section { display: none; animation: fadeIn 0.5s; }
+  .section.active { display: block; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  
+  h1 { font-size: 2rem; margin-bottom: 10px; color: var(--accent); }
+  h2 { font-size: 1.5rem; margin: 30px 0 15px; color: var(--accent3); }
+  h3 { font-size: 1.2rem; margin: 20px 0 10px; color: var(--accent); }
+  .subtitle { color: var(--text2); font-size: 1.1rem; margin-bottom: 30px; }
+  
+  /* Cards */
+  .card {
+    background: var(--bg2); border: 1px solid var(--border); border-radius: 12px;
+    padding: 25px; margin: 20px 0; transition: transform 0.3s;
+  }
+  .card:hover { transform: translateY(-3px); border-color: var(--accent); }
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+  
+  /* Dashboard */
+  .dashboard {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;
+    margin: 20px 0;
+  }
+  .metric {
+    background: linear-gradient(135deg, var(--bg2), var(--border));
+    border: 1px solid var(--border); border-radius: 10px; padding: 20px; text-align: center;
+  }
+  .metric-value { font-size: 2rem; font-weight: bold; color: var(--accent); }
+  .metric-label { font-size: 0.9rem; color: var(--text2); margin-top: 5px; }
+  .metric-warning .metric-value { color: var(--accent2); }
+  .metric-ok .metric-value { color: var(--accent); }
+  
+  /* Simulator */
+  .slider-container { margin: 20px 0; }
+  .slider-label { display: flex; justify-content: space-between; margin-bottom: 8px; }
+  .slider-label span:first-child { color: var(--text); }
+  .slider-label span:last-child { color: var(--accent); font-weight: bold; }
+  input[type="range"] {
+    width: 100%; height: 8px; border-radius: 4px; background: var(--border);
+    outline: none; -webkit-appearance: none;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; width: 20px; height: 20px; border-radius: 50%;
+    background: var(--accent); cursor: pointer;
+  }
+  
+  /* Ranking table */
+  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+  th, td { padding: 12px; text-align: left; border-bottom: 1px solid var(--border); }
+  th { color: var(--accent3); font-weight: 600; }
+  tr:hover { background: var(--bg2); }
+  .rank-1 { color: var(--accent); font-weight: bold; }
+  .rank-drop { color: var(--accent2); }
+  .rank-rise { color: var(--accent); }
+  
+  /* Buttons */
+  .btn {
+    padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer;
+    font-size: 1rem; transition: all 0.3s; margin: 5px;
+  }
+  .btn-primary { background: var(--accent); color: var(--bg); }
+  .btn-primary:hover { background: #00b894; }
+  .btn-danger { background: var(--accent2); color: white; }
+  .btn-danger:hover { background: #e74c3c; }
+  .btn-warning { background: var(--accent3); color: var(--bg); }
+  .btn-warning:hover { background: #f9ca24; }
+  
+  /* Alert boxes */
+  .alert {
+    padding: 15px 20px; border-radius: 8px; margin: 15px 0;
+    border-left: 4px solid;
+  }
+  .alert-warning { background: rgba(255, 107, 107, 0.1); border-color: var(--accent2); color: var(--accent2); }
+  .alert-info { background: rgba(0, 212, 170, 0.1); border-color: var(--accent); color: var(--accent); }
+  .alert-yellow { background: rgba(255, 217, 61, 0.1); border-color: var(--accent3); color: var(--accent3); }
+  
+  /* Progress bar */
+  .progress-bar { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+  .progress-fill { height: 100%; background: var(--accent); transition: width 0.5s; }
+  .progress-fill.warning { background: var(--accent2); }
+  
+  /* Toggle switches */
+  .toggle-row { display: flex; align-items: center; gap: 15px; margin: 10px 0; padding: 10px; background: var(--bg2); border-radius: 8px; }
+  .toggle-switch { position: relative; width: 50px; height: 26px; }
+  .toggle-switch input { opacity: 0; width: 0; height: 0; }
+  .toggle-slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background: var(--border); border-radius: 26px; transition: 0.3s; }
+  .toggle-slider:before { position: absolute; content: ""; height: 18px; width: 18px; left: 4px; bottom: 4px; background: white; border-radius: 50%; transition: 0.3s; }
+  input:checked + .toggle-slider { background: var(--accent); }
+  input:checked + .toggle-slider:before { transform: translateX(24px); }
+  
+  /* Map placeholder */
+  .map-container {
+    background: var(--bg2); border: 1px solid var(--border); border-radius: 12px;
+    padding: 30px; text-align: center; min-height: 300px;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+  }
+  .zone { display: inline-block; padding: 8px 16px; margin: 5px; border-radius: 6px; font-size: 0.85rem; }
+  .zone-high { background: rgba(0, 212, 170, 0.2); color: var(--accent); border: 1px solid var(--accent); }
+  .zone-med { background: rgba(255, 217, 61, 0.2); color: var(--accent3); border: 1px solid var(--accent3); }
+  .zone-low { background: rgba(255, 107, 107, 0.2); color: var(--accent2); border: 1px solid var(--accent2); }
+  
+  /* Flow steps */
+  .flow { display: flex; gap: 10px; justify-content: space-between; margin: 30px 0; flex-wrap: wrap; }
+  .flow-step { flex: 1; min-width: 150px; text-align: center; padding: 20px; background: var(--bg2); border-radius: 10px; border: 2px solid var(--border); }
+  .flow-step.active { border-color: var(--accent); background: rgba(0, 212, 170, 0.1); }
+  .flow-step-num { font-size: 1.5rem; font-weight: bold; color: var(--accent); margin-bottom: 10px; }
+  .flow-arrow { display: flex; align-items: center; color: var(--accent); font-size: 1.5rem; }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    h1 { font-size: 1.5rem; }
+    .card-grid { grid-template-columns: 1fr; }
+    .flow { flex-direction: column; }
+    .flow-arrow { transform: rotate(90deg); }
+  }
+  
+  /* Intro screen */
+  .intro-screen { text-align: center; padding: 60px 20px; }
+  .intro-screen h1 { font-size: 2.5rem; margin-bottom: 20px; }
+  .intro-screen .subtitle { font-size: 1.3rem; max-width: 700px; margin: 0 auto 40px; }
+  .big-question {
+    font-size: 1.4rem; font-style: italic; color: var(--accent3);
+    border-left: 4px solid var(--accent3); padding-left: 20px;
+    max-width: 700px; margin: 30px auto; text-align: left;
+  }
+  
+  /* Decision card for GovLens */
+  .decision-card {
+    background: linear-gradient(135deg, var(--bg2), var(--border));
+    border: 2px solid var(--accent2); border-radius: 12px;
+    padding: 30px; margin: 20px 0;
+  }
+  .decision-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 20px; flex-wrap: wrap; gap: 10px;
+  }
+  .decision-status {
+    padding: 8px 16px; border-radius: 20px; font-weight: bold; font-size: 0.9rem;
+  }
+  .status-denied { background: rgba(255, 107, 107, 0.2); color: var(--accent2); }
+  .status-auto { background: rgba(255, 217, 61, 0.2); color: var(--accent3); }
+  
+  .data-flow { display: flex; gap: 15px; flex-wrap: wrap; margin: 20px 0; }
+  .data-pill {
+    padding: 8px 16px; border-radius: 20px; font-size: 0.85rem;
+    background: var(--bg); border: 1px solid var(--border);
+  }
+  .data-pill.sensitive { border-color: var(--accent2); color: var(--accent2); }
+  .data-pill.inferred { border-color: var(--accent3); color: var(--accent3); }
+  
+  /* Highlight box */
+  .highlight {
+    background: rgba(0, 212, 170, 0.05); border: 1px solid var(--accent);
+    border-radius: 8px; padding: 20px; margin: 20px 0;
+  }
+  
+  /* Bias meter */
+  .bias-meter { margin: 20px 0; }
+  .bias-row { display: flex; align-items: center; gap: 15px; margin: 10px 0; }
+  .bias-label { min-width: 120px; font-size: 0.9rem; }
+  .bias-bar { flex: 1; height: 20px; background: var(--border); border-radius: 10px; overflow: hidden; }
+  .bias-fill { height: 100%; border-radius: 10px; transition: width 0.5s; }
+  .bias-fill.low { width: 20%; background: var(--accent); }
+  .bias-fill.med { width: 55%; background: var(--accent3); }
+  .bias-fill.high { width: 85%; background: var(--accent2); }
+  .bias-value { min-width: 50px; text-align: right; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+
+<!-- Navigation -->
+<div class="nav">
+  <button onclick="showSection('intro')" class="active" id="btn-intro">Início</button>
+  <button onclick="showSection('civitas')" id="btn-civitas">Civitas 4.0</button>
+  <button onclick="showSection('algoritmo')" id="btn-algoritmo">Algoritmo em Disputa</button>
+  <button onclick="showSection('govlens')" id="btn-govlens">GovLens</button>
+  <button onclick="showSection('tensao')" id="btn-tensao">Tensão Democrática</button>
+</div>
+
+<div class="container">
+
+<!-- SECTION: INTRO -->
+<div id="intro" class="section active">
+  <div class="intro-screen">
+    <h1>Administração Pública 4.0 em Disputa</h1>
+    <p class="subtitle">Smart Cities, Algoritmos e Controle Democrático</p>
+    
+    <div class="big-question">
+      "Quando a Administração Pública se torna digital, ela se torna automaticamente mais democrática?"
+    </div>
+    
+    <p style="font-size: 1.1rem; max-width: 700px; margin: 0 auto 30px; color: var(--text2);">
+      Esta demonstração interativa apresenta três protótipos para discutir governo digital, 
+      decisão automatizada e controle democrático no Brasil.
+    </p>
+    
+    <div class="card-grid" style="max-width: 900px; margin: 40px auto;">
+      <div class="card">
+        <h3>🌆 Civitas 4.0</h3>
+        <p>A cidade inteligente vista de cima: painéis, indicadores, fluxos de dados. A smart city como forma de governo.</p>
+        <button class="btn btn-primary" onclick="showSection('civitas')">Explorar</button>
+      </div>
+      <div class="card">
+        <h3>⚖️ Algoritmo em Disputa</h3>
+        <p>A decisão automatizada vista de baixo: uma pessoa concreta tentando compreender e contestar uma classificação.</p>
+        <button class="btn btn-primary" onclick="showSection('algoritmo')">Explorar</button>
+      </div>
+      <div class="card">
+        <h3>🔍 GovLens</h3>
+        <p>Plataforma de contestabilidade: auditar o Estado digital, traduzir decisões, gerar recursos.</p>
+        <button class="btn btn-primary" onclick="showSection('govlens')">Explorar</button>
+      </div>
+    </div>
+    
+    <div class="highlight" style="max-width: 700px; margin: 40px auto;">
+      <p style="text-align: center; font-size: 1.1rem; margin: 0;">
+        <strong>Tese central:</strong> Não há Administração Pública 4.0 democrática 
+        sem inclusão digital, transparência algorítmica, proteção de dados e contestação administrativa efetiva.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION: CIVITAS 4.0 -->
+<div id="civitas" class="section">
+  <h1>🏙️ Civitas 4.0</h1>
+  <p class="subtitle">A cidade inteligente como sistema de dados — e de poder</p>
+  
+  <div class="alert alert-info">
+    <strong>Conceito:</strong> Maquete interativa da Administração Pública digital. 
+    Organiza visualmente smart cities, big data, blockchain, smart contracts e governança urbana baseada em dados.
+    <strong>Objetivo:</strong> Não celebrar a cidade inteligente, mas permitir leitura crítica do que ela torna visível — e do que ela oculta.
+  </div>
+  
+  <h2>Dashboard da Cidade</h2>
+  <div class="dashboard">
+    <div class="metric metric-ok">
+      <div class="metric-value">847</div>
+      <div class="metric-label">Serviços Digitais Ativos</div>
+    </div>
+    <div class="metric metric-ok">
+      <div class="metric-value">94%</div>
+      <div class="metric-label">Processos Online</div>
+    </div>
+    <div class="metric metric-warning">
+      <div class="metric-value">12.4M</div>
+      <div class="metric-label">Dados Coletados/Dia</div>
+    </div>
+    <div class="metric metric-warning">
+      <div class="metric-value">73%</div>
+      <div class="metric-label">Conectividade Classe A</div>
+    </div>
+    <div class="metric">
+      <div class="metric-value">3%</div>
+      <div class="metric-label">Conectividade Classes DE</div>
+    </div>
+    <div class="metric">
+      <div class="metric-value">156</div>
+      <div class="metric-label">Sensores Urbanos Ativos</div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <h3>🗺️ Mapa de Zonas Inteligentes</h3>
+    <div class="map-container">
+      <p style="margin-bottom: 20px; color: var(--text2);">Distribuição de conectividade e serviços digitais por região</p>
+      <div>
+        <span class="zone zone-high">Centro — Conectividade 95%</span>
+        <span class="zone zone-high">Zona Sul — Conectividade 89%</span>
+        <span class="zone zone-med">Zona Norte — Conectividade 52%</span>
+        <span class="zone zone-low">Periferia Leste — Conectividade 23%</span>
+        <span class="zone zone-low">Zona Rural — Conectividade 8%</span>
+      </div>
+      <p style="margin-top: 20px; font-size: 0.9rem; color: var(--accent2);">
+        ⚠️ A cidade inteligente cria "ilhas de inteligência" em bairros nobres enquanto perpetua exclusão na periferia.
+      </p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <h3>🔗 Smart Contracts em Execução</h3>
+    <table>
+      <tr>
+        <th>Contrato</th>
+        <th>Status</th>
+        <th>Valor (R$)</th>
+        <th>Transparência</th>
+      </tr>
+      <tr>
+        <td>Licitação #2026-0042 — Iluminação LED</td>
+        <td><span style="color: var(--accent);">✓ Executado</span></td>
+        <td>R$ 4.2M</td>
+        <td>100% on-chain</td>
+      </tr>
+      <tr>
+        <td>Concessão Ônibus — Zona Norte</td>
+        <td><span style="color: var(--accent3);">⏳ Pendente</span></td>
+        <td>R$ 890K/mês</td>
+        <td>60% on-chain</td>
+      </tr>
+      <tr>
+        <td>Parceria Inovação — Centro Tech</td>
+        <td><span style="color: var(--accent2);">✗ Contestado</span></td>
+        <td>R$ 12M</td>
+        <td>15% on-chain</td>
+      </tr>
+    </table>
+    <div class="alert alert-warning">
+      <strong>Tensão:</strong> Smart contracts oferecem rastreabilidade, mas a execução autônoma (*code is law*) 
+      é incompatível com teoria da imprevisão e supremacia do interesse público no Direito Administrativo brasileiro.
+    </div>
+  </div>
+  
+  <div class="highlight">
+    <p><strong>Pergunta crítica:</strong> Quem define os indicadores, quem fica invisível nos dados, 
+    e quem consegue interpretar a cidade digital? Uma cidade pode ser inteligente sem ser justa?</p>
+  </div>
+  
+  <div style="text-align: center; margin: 30px 0;">
+    <button class="btn btn-primary" onclick="showSection('algoritmo')">
+      → Ir para: Algoritmo em Disputa
+    </button>
+  </div>
+</div>
+
+<!-- SECTION: ALGORITMO EM DISPUTA -->
+<div id="algoritmo" class="section">
+  <h1>⚖️ Algoritmo em Disputa</h1>
+  <p class="subtitle">Simulador de priorização habitacional municipal — quem decide quem recebe prioridade?</p>
+  
+  <div class="alert alert-info">
+    <strong>Conceito:</strong> Simulador fictício onde você ajusta o peso de variáveis (renda, família, tempo de espera, risco territorial, deficiência) 
+    e observa em tempo real como o ranking de prioridade se altera entre grupos demográficos.
+  </div>
+  
+  <div class="card">
+    <h3>🎚️ Ajuste os Pesos do Algoritmo</h3>
+    
+    <div class="slider-container">
+      <div class="slider-label">
+        <span>Renda familiar (menor = mais vulnerável)</span>
+        <span id="val-renda">30%</span>
+      </div>
+      <input type="range" id="renda" min="0" max="100" value="30" oninput="updateRanking()">
+    </div>
+    
+    <div class="slider-container">
+      <div class="slider-label">
+        <span>Tamanho da família (maior = mais necessidade)</span>
+        <span id="val-familia">20%</span>
+      </div>
+      <input type="range" id="familia" min="0" max="100" value="20" oninput="updateRanking()">
+    </div>
+    
+    <div class="slider-container">
+      <div class="slider-label">
+        <span>Tempo em lista de espera</span>
+        <span id="val-tempo">25%</span>
+      </div>
+      <input type="range" id="tempo" min="0" max="100" value="25" oninput="updateRanking()">
+    </div>
+    
+    <div class="slider-container">
+      <div class="slider-label">
+        <span>Risco territorial (violência, enchente)</span>
+        <span id="val-risco">15%</span>
+      </div>
+      <input type="range" id="risco" min="0" max="100" value="15" oninput="updateRanking()">
+    </div>
+    
+    <div class="slider-container">
+      <div class="slider-label">
+        <span>Deficiência / Mobilidade reduzida</span>
+        <span id="val-deficiencia">10%</span>
+      </div>
+      <input type="range" id="deficiencia" min="0" max="100" value="10" oninput="updateRanking()">
+    </div>
+  </div>
+  
+  <div class="card">
+    <h3>📊 Ranking de Prioridade (simulação com 5 famílias)</h3>
+    <table id="ranking-table">
+      <tr>
+        <th>Posição</th>
+        <th>Família</th>
+        <th>Perfil</th>
+        <th>Pontuação</th>
+        <th>Mudança</th>
+      </tr>
+      <tr id="fam-1">
+        <td class="rank-1">1º</td>
+        <td>Família Silva</td>
+        <td>3 crianças, renda baixa, zona de risco</td>
+        <td id="score-1">87</td>
+        <td>—</td>
+      </tr>
+      <tr id="fam-2">
+        <td>2º</td>
+        <td>Família Oliveira</td>
+        <td>Idoso com deficiência, 15 anos na lista</td>
+        <td id="score-2">82</td>
+        <td>—</td>
+      </tr>
+      <tr id="fam-3">
+        <td>3º</td>
+        <td>Família Santos</td>
+        <td>Casal jovem, renda média, 2 anos na lista</td>
+        <td id="score-3">64</td>
+        <td>—</td>
+      </tr>
+      <tr id="fam-4">
+        <td>4º</td>
+        <td>Família Costa</td>
+        <td>Mãe solo, 1 criança, renda baixa</td>
+        <td id="score-4">58</td>
+        <td>—</td>
+      </tr>
+      <tr id="fam-5">
+        <td>5º</td>
+        <td>Família Pereira</td>
+        <td>3 adultos, renda média, sem deficiência</td>
+        <td id="score-5">45</td>
+        <td>—</td>
+      </tr>
+    </table>
+    
+    <div class="alert alert-warning" id="bias-alert" style="display: none;">
+      <strong>⚠️ Detecção de viés:</strong> Ao aumentar o peso de "renda", famílias de classes mais baixas 
+      sobem no ranking — mas famílias negras e de periferia concentram-se nas faixas de renda mais baixas, 
+      criando uma correlação racial/territorial não declarada explicitamente.
+    </div>
+  </div>
+  
+  <div class="card">
+    <h3>🔍 Painel de Viés Algorítmico</h3>
+    <div class="bias-meter">
+      <div class="bias-row">
+        <div class="bias-label">Racial</div>
+        <div class="bias-bar"><div class="bias-fill med" id="bias-racial"></div></div>
+        <div class="bias-value" id="val-bias-racial">55%</div>
+      </div>
+      <div class="bias-row">
+        <div class="bias-label">Territorial</div>
+        <div class="bias-bar"><div class="bias-fill high" id="bias-territorial"></div></div>
+        <div class="bias-value" id="val-bias-territorial">82%</div>
+      </div>
+      <div class="bias-row">
+        <div class="bias-label">Idade</div>
+        <div class="bias-bar"><div class="bias-fill low" id="bias-idade"></div></div>
+        <div class="bias-value" id="val-bias-idade">18%</div>
+      </div>
+      <div class="bias-row">
+        <div class="bias-label">Gênero</div>
+        <div class="bias-bar"><div class="bias-fill med" id="bias-genero"></div></div>
+        <div class="bias-value" id="val-bias-genero">42%</div>
+      </div>
+    </div>
+    <p style="font-size: 0.9rem; color: var(--text2); margin-top: 15px;">
+      Estes índices não indicam intenção discriminatória, mas <strong>efeitos diferenciados</strong> 
+      que emergem da combinação de pesos e da distribuição socioespacial da cidade.
+    </p>
+  </div>
+  
+  <div class="card">
+    <h3>📝 Explicação da Decisão (linguagem cidadã)</h3>
+    <div id="explicacao" style="padding: 15px; background: var(--bg); border-radius: 8px;">
+      <p><strong>Decisão:</strong> A família Silva foi classificada em 1º lugar para receber o benefício habitacional.</p>
+      <p><strong>Motivo:</strong> A pontuação considerou renda familiar (30%), tamanho da família com 3 crianças (20%), 
+      tempo na lista de espera (25%) e risco territorial em área de enchente (15%).</p>
+      <p><strong>Direitos:</strong> Você tem o direito de contestar esta decisão, solicitar revisão por servidor humano 
+      e acessar todos os dados utilizados (Lei nº 14.129/2021, art. 21; LGPD, art. 20).</p>
+    </div>
+    <button class="btn btn-danger" onclick="showContestacao()">🚩 Contestar esta Decisão</button>
+    <div id="contestacao" style="display: none; margin-top: 20px; padding: 20px; background: rgba(255,107,107,0.1); border-radius: 8px; border: 1px solid var(--accent2);">
+      <p><strong>Protesto registrado:</strong> Protocolo #2026-AP-0042</p>
+      <p>A contestação será analisada por um servidor humano em até 15 dias úteis. 
+      O cidadão será notificado sobre o andamento via canal preferencial.</p>
+      <p style="font-size: 0.9rem; color: var(--text2);">
+        Nota: Na prática municipal, muitos canais de contestação reduzem-se a ouvidoria/e-SIC 
+        sem integração com explicação de decisões automatizadas.
+      </p>
+    </div>
+  </div>
+  
+  <div class="highlight">
+    <p><strong>Tese demonstrada:</strong> O algoritmo não é apenas cálculo — ele incorpora escolhas distributivas. 
+    Ele decide, implicitamente, que vulnerabilidade conta mais. Sem explicação e sem contestação, 
+    a decisão digital pode ser eficiente, mas permanece democraticamente frágil.</p>
+  </div>
+  
+  <div style="text-align: center; margin: 30px 0;">
+    <button class="btn btn-primary" onclick="showSection('govlens')">
+      → Ir para: GovLens / DueProcess.AI
+    </button>
+  </div>
+</div>
+
+<!-- SECTION: GOVLENS -->
+<div id="govlens" class="section">
+  <h1>🔍 GovLens / DueProcess.AI</h1>
+  <p class="subtitle">Plataforma de Contestabilidade da Administração Pública 4.0</p>
+  
+  <div class="alert alert-info">
+    <strong>Conceito:</strong> Não é uma IA que toma decisões pelo Estado — é uma plataforma que "traduz" e audita 
+    decisões tomadas por IAs estatais. Garante explicabilidade, contestabilidade humana e auditoria de vieses, 
+    concretizando LGPD (art. 20) e LAI frente à opacidade do e-gov.
+  </div>
+  
+  <div class="flow">
+    <div class="flow-step active">
+      <div class="flow-step-num">1</div>
+      <div>Upload da decisão</div>
+    </div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-step">
+      <div class="flow-step-num">2</div>
+      <div>Diagnóstico de opacidade</div>
+    </div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-step">
+      <div class="flow-step-num">3</div>
+      <div>Mapa de dados</div>
+    </div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-step">
+      <div class="flow-step-num">4</div>
+      <div>Estratégia jurídica</div>
+    </div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-step">
+      <div class="flow-step-num">5</div>
+      <div>Contestação</div>
+    </div>
+  </div>
+  
+  <div class="decision-card">
+    <div class="decision-header">
+      <div>
+        <h3>📄 Decisão sob Análise</h3>
+        <p style="color: var(--text2); font-size: 0.9rem;">
+          Prefeitura de São Paulo — Secretaria de Assistência Social — Processo #2026-SAS-00891
+        </p>
+      </div>
+      <div>
+        <span class="decision-status status-denied">❌ INDEFERIDO</span>
+        <span class="decision-status status-auto">🤖 100% AUTOMATIZADO</span>
+      </div>
+    </div>
+    
+    <p><strong>Motivo declarado:</strong> "Inconsistência cadastral e risco elevado de inadimplência — pontuação abaixo do threshold definido pelo sistema de triagem."</p>
+    
+    <div class="alert alert-warning">
+      <strong>⚠️ Problema identificado:</strong> O ato não informa:
+      <ul style="margin-left: 20px; margin-top: 10px;">
+        <li>Quais dados específicos foram utilizados</li>
+        <li>Qual base legal autorizou o tratamento desses dados</li>
+        <li>Se houve revisão humana do caso</li>
+        <li>Como recorrer da decisão de forma efetiva</li>
+        <li>Quais critérios e pesos o algoritmo aplicou</li>
+      </ul>
+    </div>
+    
+    <h3>🗂️ Mapa de Dados Utilizados (inferido pelo GovLens)</h3>
+    <div class="data-flow">
+      <span class="data-pill">Cadastro Único (CadÚnico)</span>
+      <span class="data-pill">Receita Federal — CPF</span>
+      <span class="data-pill sensitive">Histórico de Benefícios (sensível)</span>
+      <span class="data-pill inferred">Score de risco (inferido)</span>
+      <span class="data-pill inferred">Perfil territorial (inferido)</span>
+      <span class="data-pill">SP156 — protocolos anteriores</span>
+    </div>
+    
+    <div class="alert alert-yellow">
+      <strong>🔒 LGPD:</strong> O titular tem direito a revisão de decisões automatizadas (art. 20) e acesso a 
+      critérios utilizados. A decisão não menciona estes direitos nem o canal para exercê-los.
+    </div>
+  </div>
+  
+  <div class="card">
+    <h3>⚡ Estratégia Jurídica Gerada</h3>
+    
+    <div style="margin: 15px 0; padding: 15px; background: var(--bg); border-radius: 8px; border-left: 4px solid var(--accent);">
+      <h4 style="color: var(--accent); margin-bottom: 10px;">1. Pedido LAI (Lei nº 12.527/2011)</h4>
+      <p style="font-size: 0.95rem;">Solicitar os critérios, parâmetros e pesos do algoritmo de triagem; 
+      as bases de dados cruzadas; e o relatório de decisão completo.</p>
+      <button class="btn btn-primary" style="font-size: 0.85rem; padding: 8px 16px;" onclick="this.textContent='✓ Pedido gerado (minuta #LAI-2026-0042)'">Gerar Minuta LAI</button>
+    </div>
+    
+    <div style="margin: 15px 0; padding: 15px; background: var(--bg); border-radius: 8px; border-left: 4px solid var(--accent3);">
+      <h4 style="color: var(--accent3); margin-bottom: 10px;">2. Requerimento LGPD (Lei nº 13.709/2018)</h4>
+      <p style="font-size: 0.95rem;">Solicitar revisão de decisão automatizada (art. 20); 
+      acesso a dados pessoais utilizados (art. 18); e explicação sobre critérios e procedimentos (art. 46).</p>
+      <button class="btn btn-warning" style="font-size: 0.85rem; padding: 8px 16px;" onclick="this.textContent='✓ Requerimento gerado (minuta #LGPD-2026-0018)'">Gerar Requerimento LGPD</button>
+    </div>
+    
+    <div style="margin: 15px 0; padding: 15px; background: var(--bg); border-radius: 8px; border-left: 4px solid var(--accent2);">
+      <h4 style="color: var(--accent2); margin-bottom: 10px;">3. Recurso Administrativo (Lei nº 9.784/1999)</h4>
+      <p style="font-size: 0.95rem;">Arguir motivação insuficiente (art. 2º, §2º), 
+      violação ao contraditório e à ampla defesa, e omissão de análise das peculiaridades do caso concreto.</p>
+      <button class="btn btn-danger" style="font-size: 0.85rem; padding: 8px 16px;" onclick="this.textContent='✓ Recurso gerado (minuta #REC-2026-0091)'">Gerar Recurso</button>
+    </div>
+  </div>
+  
+  <div class="card">
+    <h3>🧪 Simulação de Exclusão Digital</h3>
+    <p>Ative o perfil de usuário para verificar se o serviço é materialmente acessível:</p>
+    
+    <div class="toggle-row">
+      <span>👤 Perfil: Celular pré-pago, sem computador, baixa conectividade</span>
+      <label class="toggle-switch">
+        <input type="checkbox" id="sim-exclusao" onchange="simularExclusao()">
+        <span class="toggle-slider"></span>
+      </label>
+    </div>
+    
+    <div id="resultado-exclusao" style="margin-top: 20px; display: none;">
+      <div class="alert alert-warning">
+        <strong>⚠️ Serviço inacessível para este perfil:</strong>
+        <ul style="margin-left: 20px; margin-top: 10px;">
+          <li>Portal requer upload de documentos em PDF (sem opção de foto pelo celular)</li>
+          <li>Formulário não responsivo — campos quebram em tela pequena</li>
+          <li>Chatbot de ouvidoria não entende linguagem coloquial</li>
+          <li>Prazo de 10 dias para resposta, sem notificação por SMS/WhatsApp</li>
+          <li>Atendimento presencial requer agendamento online (único canal)</li>
+        </ul>
+        <p style="margin-top: 15px;">
+          <strong>Conclusão:</strong> Um serviço "100% digital" pode ser eficiente para o gestor e 
+          <strong>excludente</strong> para 78% da população sem conectividade significativa (TIC Domicílios 2024).
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="highlight">
+    <p><strong>Tese demonstrada:</strong> O GovLens mostra que o problema jurídico não é apenas saber se o algoritmo funciona. 
+    O problema é saber se a pessoa afetada consegue compreender a decisão, conhecer seus critérios e apresentar uma contestação.</p>
+  </div>
+  
+  <div style="text-align: center; margin: 30px 0;">
+    <button class="btn btn-primary" onclick="showSection('tensao')">
+      → Ir para: Tensão Democrática
+    </button>
+  </div>
+</div>
+
+<!-- SECTION: TENSAO DEMOCRATICA -->
+<div id="tensao" class="section">
+  <h1>⚡ Tensão Democrática</h1>
+  <p class="subtitle">Quatro eixos que definem se a Administração Pública 4.0 é democraticamente legítima</p>
+  
+  <div class="card-grid">
+    <div class="card">
+      <h3 style="color: var(--accent);">📈 Eficiência Administrativa</h3>
+      <p>Menos filas, mais dados, mais velocidade, menos papel, mais integração.</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 85%;"></div></div>
+      <p style="font-size: 0.85rem; color: var(--text2); margin-top: 10px;">Avanço real, mas insuficiente sozinho.</p>
+    </div>
+    
+    <div class="card">
+      <h3 style="color: var(--accent2);">⚖️ Direitos Fundamentais</h3>
+      <p>Motivação, contraditório, devido processo legal, proteção de dados, não discriminação.</p>
+      <div class="progress-bar"><div class="progress-fill warning" style="width: 45%;"></div></div>
+      <p style="font-size: 0.85rem; color: var(--text2); margin-top: 10px;">Fragilizado pela opacidade algorítmica.</p>
+    </div>
+    
+    <div class="card">
+      <h3 style="color: var(--accent3);">🏛️ Controle Democrático</h3>
+      <p>Transparência ativa, controle social, participação, accountability, auditabilidade.</p>
+      <div class="progress-bar"><div class="progress-fill" style="width: 55%;"></div></div>
+      <p style="font-size: 0.85rem; color: var(--text2); margin-top: 10px;">Portais crescem, mas explicabilidade não.</p>
+    </div>
+    
+    <div class="card">
+      <h3 style="color: var(--text);">🌐 Inclusão Digital</h3>
+      <p>Acesso material, letramento, atendimento presencial, desenho centrado nos excluídos.</p>
+      <div class="progress-bar"><div class="progress-fill warning" style="width: 30%;"></div></div>
+      <p style="font-size: 0.85rem; color: var(--text2); margin-top: 10px;">Apenas 22% com conectividade significativa.</p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <h3>🎯 Pergunta Final para Debate</h3>
+    <div class="big-question" style="margin: 20px 0;">
+      "A Administração Pública digital está decidindo melhor ou apenas decidendo mais rápido, 
+      com menos possibilidade de compreensão, contestação e participação democrática?"
+    </div>
+    <p style="color: var(--text2);">Considere:</p>
+    <ul style="margin-left: 20px; color: var(--text2);">
+      <li>Uma cidade pode ser inteligente sem ser justa?</li>
+      <li>Um portal pode ser transparente sem ser compreensível?</li>
+      <li>Um algoritmo pode ser eficiente sem ser legítimo?</li>
+      <li>Um smart contract pode ser rastreável sem ser reversível?</li>
+    </ul>
+  </div>
+  
+  <div class="highlight">
+    <p style="text-align: center; font-size: 1.1rem; margin: 0;">
+      <strong>A Administração Pública 4.0 só merece esse nome se for mais do que digital:</strong><br>
+      ela precisa ser explicável, contestável, inclusiva e democraticamente controlável.
+    </p>
+  </div>
+  
+  <div class="card">
+    <h3>📚 Referências Obrigatórias do Seminário</h3>
+    <div style="font-size: 0.9rem; color: var(--text2);">
+      <p><strong>Araújo, Zullo e Torres (2020):</strong> Big Data, algoritmos e IA na Administração Pública — 
+      reflexões para utilização em ambiente democrático (A&C, v. 20, n. 80, p. 241-261).</p>
+      <p><strong>Friedrich e Philippi (2020):</strong> Inclusão digital e blockchain como instrumentos para desenvolvimento econômico 
+      (International Journal of Digital Law, v. 1, n. 1, p. 97-116).</p>
+      <p><strong>Fernández González (2016):</strong> La construcción del discurso de la smart city: mitos implícitos y sus consecuencias socio-políticas 
+      (URBS, v. 6, n. 2, p. 83-99).</p>
+    </div>
+  </div>
+  
+  <div style="text-align: center; margin: 40px 0;">
+    <button class="btn btn-primary" onclick="showSection('intro')">
+      ← Voltar ao Início
+    </button>
+  </div>
+</div>
+
+</div><!-- /container -->
+
+<script>
+// Section navigation
+function showSection(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  document.getElementById('btn-' + id).classList.add('active');
+}
+
+// Algoritmo em Disputa — ranking simulator
+let lastScores = [87, 82, 64, 58, 45];
+
+function updateRanking() {
+  const renda = parseInt(document.getElementById('renda').value);
+  const familia = parseInt(document.getElementById('familia').value);
+  const tempo = parseInt(document.getElementById('tempo').value);
+  const risco = parseInt(document.getElementById('risco').value);
+  const deficiencia = parseInt(document.getElementById('deficiencia').value);
+  
+  // Update labels
+  document.getElementById('val-renda').textContent = renda + '%';
+  document.getElementById('val-familia').textContent = familia + '%';
+  document.getElementById('val-tempo').textContent = tempo + '%';
+  document.getElementById('val-risco').textContent = risco + '%';
+  document.getElementById('val-deficiencia').textContent = deficiencia + '%';
+  
+  // Calculate scores (simplified model)
+  const scores = [
+    Math.min(100, Math.round(renda * 0.4 + familia * 0.9 + tempo * 0.3 + risco * 0.8 + deficiencia * 0.2)),
+    Math.min(100, Math.round(renda * 0.2 + familia * 0.3 + tempo * 0.9 + risco * 0.4 + deficiencia * 0.9)),
+    Math.min(100, Math.round(renda * 0.6 + familia * 0.4 + tempo * 0.2 + risco * 0.3 + deficiencia * 0.1)),
+    Math.min(100, Math.round(renda * 0.8 + familia * 0.6 + tempo * 0.4 + risco * 0.2 + deficiencia * 0.3)),
+    Math.min(100, Math.round(renda * 0.5 + familia * 0.2 + tempo * 0.1 + risco * 0.1 + deficiencia * 0.1))
+  ];
+  
+  // Update table
+  for (let i = 0; i < 5; i++) {
+    document.getElementById('score-' + (i+1)).textContent = scores[i];
+    const change = scores[i] - lastScores[i];
+    const cell = document.getElementById('fam-' + (i+1)).cells[4];
+    if (change > 5) { cell.innerHTML = '<span class="rank-rise">▲ +' + change + '</span>'; }
+    else if (change < -5) { cell.innerHTML = '<span class="rank-drop">▼ ' + change + '</span>'; }
+    else { cell.textContent = '—'; }
+  }
+  
+  lastScores = scores;
+  
+  // Show bias alert if renda is high
+  document.getElementById('bias-alert').style.display = renda > 50 ? 'block' : 'none';
+  
+  // Update bias meters
+  const racialBias = Math.min(100, Math.round(renda * 0.6 + risco * 0.4));
+  const terrBias = Math.min(100, Math.round(risco * 0.8 + renda * 0.3));
+  
+  updateBiasBar('bias-racial', 'val-bias-racial', racialBias);
+  updateBiasBar('bias-territorial', 'val-bias-territorial', terrBias);
+}
+
+function updateBiasBar(barId, valId, value) {
+  const bar = document.getElementById(barId);
+  bar.style.width = value + '%';
+  bar.className = 'bias-fill ' + (value < 40 ? 'low' : value < 70 ? 'med' : 'high');
+  document.getElementById(valId).textContent = value + '%';
+}
+
+function showContestacao() {
+  document.getElementById('contestacao').style.display = 'block';
+}
+
+// GovLens — exclusão digital simulation
+function simularExclusao() {
+  const checked = document.getElementById('sim-exclusao').checked;
+  document.getElementById('resultado-exclusao').style.display = checked ? 'block' : 'none';
+}
+
+// Initialize
+updateRanking();
+</script>
+
+</body>
+</html>

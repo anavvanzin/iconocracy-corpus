@@ -1,0 +1,11 @@
+views:
+  - type: cards
+    name: Tabela
+    order:
+      - file.name
+      - citacoes
+      - capitulo
+      - data
+      - geometry
+    imageFit: contain
+    cardSize: 240

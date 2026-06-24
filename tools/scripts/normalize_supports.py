@@ -40,7 +40,6 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 CORPUS_PATH = REPO_ROOT / "corpus" / "corpus-data.json"
 
@@ -67,7 +66,7 @@ SUPPORT_MERGES = {
 
 # Known out-of-canonical values we intentionally DO NOT touch. Listed here
 # so the report can distinguish "flagged for follow-up" from "unexpected".
-SUPPORT_OUT_OF_CANONICAL = {"pintura", "fotografia", "texto", "cerâmica"}
+SUPPORT_OUT_OF_CANONICAL = {"pintura", "fotografia", "texto", "cerâmica", "medalha"}
 
 COUNTRY_PT_MERGES = {
     "Estados Unidos": "EUA",

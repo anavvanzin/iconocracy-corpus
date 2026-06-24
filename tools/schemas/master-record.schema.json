@@ -16,79 +16,359 @@
     "timestamps"
   ],
   "properties": {
-    "master_record_version": { "type": "string" },
+    "master_record_version": {
+      "type": "string"
+    },
     "batch_id": {
       "type": "string",
       "anyOf": [
-        { "format": "uuid" },
-        { "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[a-z][a-z0-9]*[0-9]+$" }
+        {
+          "format": "uuid"
+        },
+        {
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[a-z][a-z0-9]*[0-9]+$"
+        }
       ]
     },
-    "item_id": { "type": "string", "format": "uuid" },
-    "item_hash": { "type": "string", "minLength": 16 },
+    "item_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "item_hash": {
+      "type": "string",
+      "minLength": 16
+    },
     "input": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["input_url"],
+      "required": [
+        "input_url"
+      ],
       "properties": {
-        "input_url": { "type": "string", "format": "uri" },
-        "title_hint": { "type": "string" },
-        "date_hint": { "type": "string" },
-        "place_hint": { "type": "string" }
+        "input_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "title_hint": {
+          "type": "string"
+        },
+        "date_hint": {
+          "type": "string"
+        },
+        "place_hint": {
+          "type": "string"
+        }
       }
     },
-    "webscout": { "$ref": "webscout-output.schema.json" },
-    "iconocode": { "$ref": "iconocode-output.schema.json" },
+    "webscout": {
+      "$ref": "webscout-output.schema.json"
+    },
+    "iconocode": {
+      "$ref": "iconocode-output.schema.json"
+    },
     "purificacao": {
       "type": "object",
-      "additionalProperties": false,
+      "additionalProperties": true,
       "description": "10 ordinal purification indicators (0–3) per codebook",
       "required": [
-        "desincorporacao", "rigidez_postural", "dessexualizacao",
-        "uniformizacao_facial", "heraldizacao", "enquadramento_arquitetonico",
-        "apagamento_narrativo", "monocromatizacao", "serialidade",
+        "desincorporacao",
+        "rigidez_postural",
+        "dessexualizacao",
+        "uniformizacao_facial",
+        "heraldizacao",
+        "enquadramento_arquitetonico",
+        "apagamento_narrativo",
+        "monocromatizacao",
+        "serialidade",
         "inscricao_estatal"
       ],
       "properties": {
-        "desincorporacao":            { "type": "integer", "minimum": 0, "maximum": 3 },
-        "rigidez_postural":           { "type": "integer", "minimum": 0, "maximum": 3 },
-        "dessexualizacao":            { "type": "integer", "minimum": 0, "maximum": 3 },
-        "uniformizacao_facial":       { "type": "integer", "minimum": 0, "maximum": 3 },
-        "heraldizacao":               { "type": "integer", "minimum": 0, "maximum": 3 },
-        "enquadramento_arquitetonico":{ "type": "integer", "minimum": 0, "maximum": 3 },
-        "apagamento_narrativo":       { "type": "integer", "minimum": 0, "maximum": 3 },
-        "monocromatizacao":           { "type": "integer", "minimum": 0, "maximum": 3 },
-        "serialidade":                { "type": "integer", "minimum": 0, "maximum": 3 },
-        "inscricao_estatal":          { "type": "integer", "minimum": 0, "maximum": 3 },
-        "purificacao_composto":       { "type": "number", "minimum": 0, "maximum": 3 },
+        "desincorporacao": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "rigidez_postural": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "dessexualizacao": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "uniformizacao_facial": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "heraldizacao": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "enquadramento_arquitetonico": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "apagamento_narrativo": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "monocromatizacao": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "serialidade": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "inscricao_estatal": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "purificacao_composto": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 3
+        },
         "regime_iconocratico": {
           "type": "string",
-          "enum": ["fundacional", "normativo", "militar", "contra-alegoria"]
+          "enum": [
+            "fundacional",
+            "normativo",
+            "militar",
+            "contra-alegoria"
+          ]
         },
-        "coded_by":   { "type": "string" },
-        "coded_at":   { "type": "string", "format": "date-time" },
-        "notes":      { "type": "string" },
-        "confidence_score": { "type": "number", "minimum": 0, "maximum": 1, "description": "Coder confidence (0-1)" },
-        "prompt_version":   { "type": "string", "description": "Coding prompt/codebook version" },
-        "adjudication_status": { "type": "string", "enum": ["single", "pending", "adjudicated"], "description": "Inter-rater review status" }
+        "coded_by": {
+          "type": "string"
+        },
+        "coded_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "confidence_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Coder confidence (0-1)"
+        },
+        "prompt_version": {
+          "type": "string",
+          "description": "Coding prompt/codebook version"
+        },
+        "adjudication_status": {
+          "type": "string",
+          "enum": [
+            "single",
+            "pending",
+            "adjudicated"
+          ],
+          "description": "Inter-rater review status"
+        },
+        "familia_alegorica": {
+          "type": "string",
+          "enum": [
+            "Virtudes",
+            "Continentes",
+            "Oceanos/Rios",
+            "Nacional",
+            "Outra"
+          ]
+        },
+        "subtipo": {
+          "type": "string"
+        },
+        "atributos_iconograficos": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "genero_atribuido": {
+          "type": "string",
+          "enum": [
+            "feminino",
+            "masculino",
+            "neutro",
+            "hibrido",
+            "ausente"
+          ]
+        },
+        "funcao_juridica": {
+          "type": "string",
+          "enum": [
+            "tribunal_consciencia",
+            "frontispicio_normativo",
+            "moeda_cedula",
+            "selo_postal",
+            "brasao",
+            "arquitetura_forense",
+            "monumento_publico",
+            "paratexto_normativo",
+            "outro"
+          ]
+        },
+        "vetor_colonial": {
+          "type": "string",
+          "enum": [
+            "europeu_direto",
+            "luso_brasileiro",
+            "republicano_brasileiro",
+            "nao_aplicavel"
+          ]
+        },
+        "hipotese_racial": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "referencia_genealogica": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "capta_declaration": {
+          "type": "string"
+        },
+        "codebook_version": {
+          "type": "string"
+        },
+        "pre_freeze_sample": {
+          "type": "boolean"
+        },
+        "subaltern_caution": {
+          "type": "boolean"
+        },
+        "programa_id": {
+          "type": ["string", "null"],
+          "description": "Optional v2.2.0 grouping identifier for figures or records that belong to the same iconographic program."
+        },
+        "ordem_no_programa": {
+          "type": ["integer", "null"],
+          "minimum": 1,
+          "description": "Optional v2.2.0 ordinal position inside programa_id."
+        },
+        "dado_negativo": {
+          "type": "boolean",
+          "description": "Optional v2.2.0 marker for analytically significant absence."
+        },
+        "finalidade_atribuida": {
+          "type": "string",
+          "enum": [
+            "legitimacao_juridica",
+            "pedagogia_civica",
+            "dissuasao",
+            "comemoracao",
+            "branding_estatal",
+            "outro"
+          ],
+          "description": "Optional v2.2.0 attributed juridical-political purpose."
+        },
+        "power_at_stake": {
+          "type": "string",
+          "maxLength": 500,
+          "description": "Optional v2.2.0 short note on who benefits or is marginalized by the artifact/coding."
+        },
+        "coder_position_statement": {
+          "type": "string",
+          "maxLength": 500,
+          "description": "Optional v2.2.0 situated coder-position statement."
+        },
+        "confianca_codificacao": {
+          "type": "string",
+          "enum": ["alta", "media", "baixa"],
+          "description": "Optional v2.2.0 qualitative confidence label for human-readable methodology."
+        },
+        "motivo_incerteza": {
+          "type": "string",
+          "maxLength": 500,
+          "description": "Optional v2.2.0 reason for uncertainty when confianca_codificacao is media or baixa."
+        },
+        "relacao_com_repertorio_indigena": {
+          "type": "string",
+          "enum": ["ausente", "apropriado", "coexistente", "hibridizado", "nao_aplicavel"],
+          "description": "Optional v2.2.0 relation to Indigenous repertoires when analytically relevant."
+        },
+        "disjuncao_representa_governa": {
+          "type": "boolean",
+          "description": "Optional v2.2.0 marker for allegorical representation without political governing agency."
+        },
+        "objetos_regalia": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true,
+          "description": "Optional v2.2.0 decomposition of atributos_iconograficos into objects/regalia."
+        },
+        "marcas_corporais": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true,
+          "description": "Optional v2.2.0 decomposition of atributos_iconograficos into body, pose and clothing markers."
+        },
+        "marcadores_cena_arquitetura": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true,
+          "description": "Optional v2.2.0 decomposition of atributos_iconograficos into scene and architecture markers."
+        }
       }
     },
     "exports": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["abnt_citations", "audit_flags"],
+      "required": [
+        "abnt_citations",
+        "audit_flags"
+      ],
       "properties": {
-        "abnt_citations": { "type": "array", "items": { "type": "string" } },
-        "audit_flags": { "type": "array", "items": { "type": "string" } }
+        "abnt_citations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "audit_flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     },
     "timestamps": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["created_at", "updated_at"],
+      "required": [
+        "created_at",
+        "updated_at"
+      ],
       "properties": {
-        "created_at": { "type": "string", "format": "date-time" },
-        "updated_at": { "type": "string", "format": "date-time" }
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        }
       }
     }
   }

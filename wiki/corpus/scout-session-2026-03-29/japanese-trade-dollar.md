@@ -25,7 +25,7 @@ updated: 2026-03-29
 **Acervo:** Numista; Smithsonian National Museum of American History (3D scan); PCGS; NGC; Atlas Numismatics
 **URL de acesso:** [Numista](https://en.numista.com/catalogue/pieces18307.html)
 **URL Smithsonian 3D:** [Smithsonian Institution](https://3d.si.edu/object/3d/1-dollar-japan-1876:62b56011-9f02-4ae1-816c-ab442f3b9fa6)
-**URL IIIF:** `null` — Numista nao fornece IIIF; Smithsonian 3D disponivel como alternativa #sem-iiif
+**URL IIIF:** `null` — Numista nao fornece IIIF; Smithsonian 3D disponivel como alternativa [[sem-iiif]]
 **Data estimada:** 1875-1877 (Meiji 8, 9 e 10)
 **Pais:** JP (Japao — Meiji)
 **Suporte:** Moeda (coin) — prata
@@ -137,7 +137,7 @@ DAVENPORT, John S. *European Crowns and Talers since 1800*. Frankfurt: Frankfurt
 
 JACOBS, Norman; VERMEULE, Cornelius C. *Japanese Coinage*. New York: Numismatic Review, 1972.
 
-**GitHub:** `data/raw/JP/moeda/SCOUT-092.jpg` (a confirmar — #verificar-imagem)
+**GitHub:** `data/raw/JP/moeda/SCOUT-092.jpg` (a confirmar — [[verificar-imagem]])
 **Drive:** pasta `iconocracy-corpus/raw/JP/` (a confirmar)
 
 ---

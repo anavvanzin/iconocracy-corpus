@@ -1,33 +1,86 @@
-# ECC Skills — Guia de Uso para ICONOCRACY
+---
+name: ecc-iconocracy-guide
+description: >
+  Mapa de tarefas da tese ICONOCRACIA para as skills, modos do agente, comandos ECC
+  e ferramentas MCP realmente disponíveis neste repositório. Use quando o usuário
+  pedir "qual skill uso para X", "que ferramentas tenho", "guia ecc", "como faço Y na tese",
+  ou estiver em dúvida sobre qual entrada acionar.
+user-invocable: true
+---
 
-Mapeamento entre tarefas do projeto ICONOCRACY e skills ECC instaladas em `~/.claude/skills/`.
+# Guia de Ferramentas — Tese ICONOCRACIA
 
-## Skills mais relevantes para a tese
+Mapeia tarefas do projeto para o que está **de fato instalado e acionável** neste repositório.
+Três camadas:
 
-| Tarefa ICONOCRACY | Skill ECC | Quando usar |
+1. **Skills sob medida da tese** — vivem em `.claude/skills/` (projeto). São a primeira escolha.
+2. **Plugin ECC** (`ecc` v2.0.0-rc.1) — comandos de engenharia em `.claude/commands/` e catálogo de skills em `.claude/skills/ecc/`.
+3. **Ferramentas MCP** — scite (literatura), Context7 (docs de bibliotecas), Exa (busca web).
+
+> O agente também despacha por **palavras-gatilho** (modo routing do `CLAUDE.md`), que muitas vezes
+> é o caminho mais direto — não precisa nomear a skill.
+
+## 1. Skills sob medida da tese (prioridade)
+
+| Tarefa | Skill | Gatilhos |
 |---|---|---|
-| Pesquisa bibliográfica profunda | `deep-research`, `exa-search` | Revisão de literatura, buscar artigos e fontes |
-| Redação de capítulos | `article-writing`, `brand-voice` | Escrever em voz acadêmica consistente |
-| Revisão de qualidade | `verification-loop`, `eval-harness` | Validar coerência e completude de seções |
-| Segurança de dados | `security-review` | Proteger dados do corpus e credenciais |
-| Gerenciar contexto longo | `strategic-compact` | Sessões longas de análise ou escrita |
-| Pesquisa de mercado/landscape | `market-research` | Mapear campo acadêmico, encontrar lacunas |
-| Scripts Python do corpus | `coding-standards` | Manter qualidade dos 26 scripts em `tools/scripts/` |
-| Buscar docs de bibliotecas | `documentation-lookup` | Referência rápida para pandas, jsonschema, etc. |
-| Pesquisa antes de codificar | `search-first` | Verificar se já existe ferramenta antes de criar |
+| Compilar a tese (DOCX/PDF) | `compilar-tese` | "compilar", "make tese", "gerar PDF" |
+| Sincronizar corpus / validar schema | `sync-corpus` | "sync vault", "validar corpus", drift entre `records.jsonl` ↔ `corpus-data.json` |
+| Deduplicar candidatos novos | `scout-dedupe` | "dedupe", "possível duplicata", após uma campanha SCOUT |
+| Checar SSD / symlinks / ingest | `ssd-health` | "ssd", "mount check", "ingest drive", "backup iconocracia" |
+| Citações ABNT (pré-commit) | `abnt-precommit` | "checar ABNT", antes de fechar capítulo |
+| Gestão de referências Zotero | `zotero-cite` | "citar", "zotero", inserir referência |
+| Gate de release público | `release-gate` | "release", "publicar corpus", antes de exportar para HF |
+| Fallback de download de arquivos | `archive-fallback` | invocada pelo modo SCOUT quando uma fonte falha |
+| Conserto de pipeline Pandoc | `pandoc-fix` | erro de compilação Pandoc/LaTeX |
 
-## Skills secundárias (úteis ocasionalmente)
+## 2. Modos do agente (CLAUDE.md mode routing)
 
-| Skill | Quando |
+São o despacho primário da tese. Basta usar o gatilho:
+
+| Gatilho | Modo | O que faz |
+|---|---|---|
+| `scout`, `campanha N`, `buscar`, `lacunas` | SCOUT | Busca em arquivos digitais, gera nota Obsidian, análise de lacunas |
+| `argos`, `orquestrar aquisicao` | ARGOS | Monta manifesto e grupos de aquisição |
+| `codificar`, `iconocode`, imagem recebida | ICONOCODE | Panofsky 3 níveis + 10 indicadores de endurecimento |
+| `validar [arquivo]` | VALIDAR | Validação de schema JSON |
+| `purificacao status/lote` | PURIFICAÇÃO | Codificação de endurecimento |
+| `pesquisar`, `revisão de literatura` | PESQUISAR | Pesquisa acadêmica profunda |
+| `redigir`, `escrever capítulo` | REDIGIR | Redação acadêmica |
+| `revisar`, `peer review` | REVISAR | Revisão multi-perspectiva |
+| `zwischenraum`, `painel comparativo` | ZWISCHENRAUM | Painéis comparativos warburguianos |
+
+## 3. Comandos ECC de engenharia (para os ~69 scripts em `tools/scripts/`)
+
+Acionáveis como slash-commands do plugin `ecc`:
+
+| Tarefa | Comando |
 |---|---|
-| `frontend-design`, `frontend-patterns` | Ajustes no webiconocracy (React+Vite) |
-| `api-design` | Se precisar de API para o corpus |
-| `mcp-server-patterns` | Para o Gallica MCP server em `indexing/` |
-| `product-capability` | Planejar features do corpus explorer |
-| `claude-api` | Automações com a API da Anthropic |
+| Revisão de código Python | `/python-review`, `/code-review` |
+| Varredura de segurança | `/security-scan` |
+| Cobertura / qualidade de testes | `/test-coverage`, `/quality-gate` |
+| Limpeza de código morto | `/refactor-clean` |
+| Conserto de build | `/build-fix` |
+| Atualizar documentação/codemaps | `/update-docs`, `/update-codemaps` |
+| Planejar feature/refactor | `/plan`, `/feature-dev` |
+| Escolher tier de modelo | `/model-route` |
 
-## Skills que provavelmente não serão usadas
+## 4. Ferramentas MCP de pesquisa
 
-Estas vieram no pacote core mas são mais relevantes para projetos de engenharia de software: `backend-patterns`, `bun-runtime`, `nextjs-turbopack`, `e2e-testing`, `tdd-workflow`, `investor-materials`, `investor-outreach`, `crosspost`, `x-api`, `fal-ai-media`, `video-editing`, `dmux-workflows`, `agent-sort`.
+| Tarefa | Ferramenta MCP |
+|---|---|
+| Verificar afirmações, achar artigos com Smart Citations | **scite** (`search_literature`, `search_grants`) |
+| Docs atualizadas de bibliotecas (pandas, jsonschema, etc.) | **Context7** (`resolve-library-id` → `query-docs`) |
+| Busca web ampla / descoberta | **Exa** (`web_search_exa`, `web_fetch_exa`) |
 
-Elas não atrapalham — simplesmente não serão ativadas se não houver trigger relevante.
+## 5. Descoberta
+
+- `/find-skills` — procurar uma skill por funcionalidade.
+- `/ecc-guide` — navegar agentes, skills, comandos e hooks do plugin ECC ao vivo.
+- O catálogo completo `.claude/skills/ecc/` (`deep-research`, `article-writing`, `eval-harness`,
+  `verification-loop`, `strategic-compact`, `market-research`, `scientific-thinking-literature-review`…)
+  existe no disco; nem toda entrada aparece como slash-command. Confirme a disponibilidade real
+  com `/find-skills` ou `/ecc-guide` antes de depender de uma delas.
+
+> **Host:** Linux (`/home/ana`, SSD em `/media/ana/SSD_DATA`). Caminhos `/Users/...` e `/Volumes/...`
+> em docs antigas são da era Mac e estão obsoletos.

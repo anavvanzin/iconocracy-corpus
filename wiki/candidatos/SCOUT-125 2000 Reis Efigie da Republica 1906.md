@@ -42,7 +42,7 @@ sessao: SCOUT-SESSION-2026-03-31c
 **Título:** 2000 Réis — Efígie da República com Barrete Frígio (Brasil)
 **Acervo:** Numista / Casa da Moeda do Brasil
 **URL Numista:** [en.numista.com/catalogue/pieces14489.html](https://en.numista.com/catalogue/pieces14489.html)
-**URL imagem:** null — acesso via Numista requer autenticação; imagem #verificar-imagem
+**URL imagem:** null — acesso via Numista requer autenticação; imagem [[verificar-imagem]]
 **Data:** 1906–1913 (série padrão da Primeira República)
 **País:** BR
 **Suporte:** Moeda (prata, 900‰)

@@ -5,6 +5,7 @@ título: "Justiça criminal"
 ano: 2011
 tipo: artigo
 aula: "[[Aula 03 — Justiça hegemônica baixo-medieval e ancien régime]]"
+páginas_lidas: "464-476"
 status: lido
 created: 2026-04-12
 ---
@@ -67,7 +68,8 @@ O texto articula uma posição delicada. Recusa a narrativa iluminista de emanci
 - p. 464: definição inicial do contraste negociada/hegemônica
 - p. 467-468: caracterização da baixa Idade Média como momento decisivo
 - p. 470: formulação sobre a penalística civil como espaço autônomo
-- p. 471-472: recusa da narrativa iluminista
+| p. 471-472: recusa da narrativa iluminista
+| p. 472-476: projeção do par negociada/hegemônica sobre o século XVIII; Beccaria como catalisador da reorganização da justiça hegemônica em torno do princípio de legalidade
 
 ---
 
@@ -75,6 +77,7 @@ O texto articula uma posição delicada. Recusa a narrativa iluminista de emanci
 
 - → [[Aula 02 — Justiça negociada alto-medieval]] (o outro polo do par conceitual)
 - → [[Aula 03 — Justiça hegemônica baixo-medieval e ancien régime]]
+- → [[Aula 04 — Iluminismo penal e reformismo]] (p. 472-476: projeção do par negociada/hegemônica sobre o século XVIII, reorganização da justiça hegemônica em torno da lei)
 - → [[MECCARELLI — Criminal law before a State Monopoly (2018)]] (complementar no plano da técnica doutrinal)
 - → [[HESPANHA — Da iustitia à disciplina (1987)]] (articulação com o registro ibérico)
 - → Grossi, *Mitologias jurídicas da modernidade* (absolutismo jurídico como prolongamento da justiça hegemônica)

@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """download_images.py — Download em lote das imagens do corpus via IIIF/thumbnail."""
-import os, re, json, time, urllib.request, urllib.error
+import time
+import urllib.error
+import urllib.request
 from pathlib import Path
 
 OUTPUT_DIR = Path("data/raw")

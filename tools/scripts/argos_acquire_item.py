@@ -17,10 +17,10 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from tools.argos.manifest import locked_update_manifest
-from tools.argos.provenance import build_provenance
 from tools.argos.protocols.direct import fetch_direct
 from tools.argos.protocols.iiif import discover_iiif, fetch_iiif_image
 from tools.argos.protocols.playwright_fallback import fetch_with_playwright
+from tools.argos.provenance import build_provenance
 from tools.argos.storage import resolve_storage_root
 
 

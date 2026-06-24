@@ -5,7 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from modules.caption_extractor import extract_captions, captions_to_text
+from modules.caption_extractor import captions_to_text, extract_captions
 
 
 def test_portuguese_figure_caption():

@@ -20,3 +20,7 @@ dependencies:
     - seaborn
     - scipy
     - scikit-posthocs
+    - google-genai
+    - nltk>=3.8.1
+    - krippendorff>=0.8
+

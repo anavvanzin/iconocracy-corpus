@@ -12,7 +12,7 @@ output = []
 
 for i, line in enumerate(lines, 1):
     record = json.loads(line.strip())
-    
+
     # Inject required timestamps if missing
     if "timestamps" not in record:
         record["timestamps"] = {
@@ -29,7 +29,7 @@ for i, line in enumerate(lines, 1):
     # Ensure iconocode block has required fields
     if not record["iconocode"]:
         record["iconocode"] = {}
-    
+
     if "validation" not in record["iconocode"]:
         record["iconocode"]["validation"] = []
     if "confidence" not in record["iconocode"]:
@@ -42,6 +42,7 @@ print("Rewritten records.jsonl with compliant fields")
 
 # Run validation inline
 import subprocess
+
 res = subprocess.run(
     ["python", "tools/scripts/validate_schemas.py", "data/processed/records.jsonl", "--schema", "master-record", "--verbose"],
     cwd=".",

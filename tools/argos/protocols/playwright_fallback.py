@@ -4,7 +4,6 @@ import importlib
 from pathlib import Path
 from urllib.parse import urlparse
 
-
 RESTRICTED_DOMAINS = {
     "numista.com",
     "colnect.com",

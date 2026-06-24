@@ -16,7 +16,7 @@ tags:
   - pais/BR
   - suporte/estampa
   - motivo/republica
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"

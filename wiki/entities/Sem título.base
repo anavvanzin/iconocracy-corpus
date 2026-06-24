@@ -1,0 +1,5 @@
+views:
+  - type: table
+    name: Tabela
+  - type: mx-media-lib
+    name: Visualizaçao padrão

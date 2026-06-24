@@ -16,7 +16,7 @@ tags:
   - pais/FR
   - regime/fundacional
   - motivo/marianne
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"

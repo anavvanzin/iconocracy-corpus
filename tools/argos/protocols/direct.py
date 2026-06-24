@@ -7,7 +7,6 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-
 USER_AGENT = "ARGOS/1.0 (+iconocracy-research; ana.vanzin@ufsc.br)"
 MIN_VALID_BYTES = 500
 SSL_UNVERIFIED = ssl.create_default_context()

@@ -29,7 +29,7 @@ def create_batch_manifest(items: List[Dict[str, str]], batch_name: str) -> Dict[
         Batch manifest with metadata and item list
     """
     batch_id = str(uuid.uuid4())
-    
+
     batch = {
         "batch_id": batch_id,
         "name": batch_name,
@@ -43,7 +43,7 @@ def create_batch_manifest(items: List[Dict[str, str]], batch_name: str) -> Dict[
         "status": "created",
         "items": []
     }
-    
+
     for item_input in items:
         item_id = str(uuid.uuid4())
         item_hash = generate_item_hash(
@@ -51,7 +51,7 @@ def create_batch_manifest(items: List[Dict[str, str]], batch_name: str) -> Dict[
             item_input.get("title_hint", ""),
             item_input.get("date_hint", "")
         )
-        
+
         batch["items"].append({
             "item_id": item_id,
             "batch_id": batch_id,
@@ -62,7 +62,7 @@ def create_batch_manifest(items: List[Dict[str, str]], batch_name: str) -> Dict[
             "status": "pending",
             "hash": item_hash
         })
-    
+
     return batch
 
 
@@ -74,15 +74,15 @@ def create_webscout_input(item: Dict[str, Any]) -> Dict[str, Any]:
         "must_have_image": True,
         "must_have_institution": False
     }
-    
+
     # Extract context from hints
     if item.get("date_hint"):
         context["period"] = item["date_hint"]
     if item.get("place_hint"):
         context["region"] = item["place_hint"]
-    
+
     context["languages"] = ["pt", "en", "es", "fr"]
-    
+
     return {
         "query_type": "item",
         "target": item.get("title_hint") or item["input_url"],
@@ -191,13 +191,13 @@ def create_master_record(
         for result in webscout_output.get("search_results", [])
         if "abnt_citation" in result
     ]
-    
+
     audit_flags = []
     if webscout_output.get("gaps"):
         audit_flags.append(f"WebScout gaps: {len(webscout_output['gaps'])}")
     if iconocode_output.get("confidence", 1.0) < 0.70:
         audit_flags.append(f"Low confidence: {iconocode_output['confidence']:.2f}")
-    
+
     return {
         "master_record_version": "1.0.0",
         "batch_id": batch_id,
@@ -237,10 +237,10 @@ def main() -> None:
         default="Female Legal Allegories - Pilot Batch",
         help="Human-readable batch name"
     )
-    
+
     args = parser.parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    
+
     # Create example items
     example_items = [
         {
@@ -256,14 +256,14 @@ def main() -> None:
             "place_hint": "Portugal"
         }
     ]
-    
+
     # 1. Create batch manifest
     print(f"Creating batch manifest: {args.batch_name}")
     batch = create_batch_manifest(example_items, args.batch_name)
     batch_file = args.output_dir / "batch_manifest.json"
     batch_file.write_text(json.dumps(batch, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"  ✓ {batch_file}")
-    
+
     # 2. Create WebScout input for first item
     item = batch["items"][0]
     webscout_input = create_webscout_input(item)
@@ -273,7 +273,7 @@ def main() -> None:
         encoding="utf-8"
     )
     print(f"  ✓ {webscout_input_file}")
-    
+
     # 3. Create example WebScout output
     webscout_output = create_example_webscout_output()
     webscout_output_file = args.output_dir / f"webscout_output_{item['item_id']}.json"
@@ -282,7 +282,7 @@ def main() -> None:
         encoding="utf-8"
     )
     print(f"  ✓ {webscout_output_file}")
-    
+
     # 4. Create example IconoCode output
     iconocode_output = create_example_iconocode_output()
     iconocode_output_file = args.output_dir / f"iconocode_output_{item['item_id']}.json"
@@ -291,7 +291,7 @@ def main() -> None:
         encoding="utf-8"
     )
     print(f"  ✓ {iconocode_output_file}")
-    
+
     # 5. Create master record
     master_record = create_master_record(
         batch["batch_id"],
@@ -305,20 +305,20 @@ def main() -> None:
         encoding="utf-8"
     )
     print(f"  ✓ {master_record_file}")
-    
+
     # 6. Create records.jsonl with all items (for this example, just one)
     records_file = args.output_dir / "records.jsonl"
     with records_file.open("w", encoding="utf-8") as f:
         f.write(json.dumps(master_record, ensure_ascii=False) + "\n")
     print(f"  ✓ {records_file}")
-    
+
     print(f"\n✓ Example batch created in {args.output_dir}")
-    print(f"\nNext steps:")
-    print(f"  1. Validate schemas:")
+    print("\nNext steps:")
+    print("  1. Validate schemas:")
     print(f"     python validate_schemas.py {master_record_file} --schema master-record")
-    print(f"  2. Extract ABNT citations:")
+    print("  2. Extract ABNT citations:")
     print(f"     python abnt_citations.py {master_record_file} -o {args.output_dir}/citations.txt")
-    print(f"  3. Run evidence trace:")
+    print("  3. Run evidence trace:")
     print(f"     python trace_evidence.py {records_file}")
 
 

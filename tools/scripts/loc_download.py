@@ -14,10 +14,10 @@ import shutil
 import subprocess
 import sys
 import tempfile
-import time
-import urllib.request
+from pathlib import Path
 
-BASE_DIR = "/Users/ana/Research/hub/iconocracy-corpus/data/raw"
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = REPO_ROOT / "data" / "raw"
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 USER_AGENT = "ICONOCRACY-Corpus/1.0 (PPGD/UFSC)"
 
@@ -366,7 +366,7 @@ def main():
     if results["copy"]:
         print(f"  Copies: {', '.join(results['copy'])}")
     if results["fail"]:
-        print(f"\n  FAILURES:")
+        print("\n  FAILURES:")
         for item_id, reason in results["fail"]:
             print(f"    {item_id}: {reason}")
 

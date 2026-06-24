@@ -14,7 +14,7 @@ confianca: baixo
 tags:
   - corpus/candidato
   - pais/FR
-  - #verificar
+  - [[verificar]]
   - hunt-candidate
 related:
   - "[[endurecimento]]"

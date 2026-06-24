@@ -1,0 +1,320 @@
+{
+  "version": "0.2",
+  "generated": "2026-06-19",
+  "derived_from": "v0.1 + mini-validation 30 fios (P4, P6, P8) com taxa de concordância 50%",
+  "principles": [
+    "Toda relação iconocrática pode operar em múltiplas escalas simultâneas: multi-tipo é a norma, não exceção",
+    "A unidade estrutural mais geral é o vínculo (link): pode ser binário (par A↔B) ou ternário+ (cadeia [A,B,C,...])",
+    "Cada tipo de relação pode receber sub-tipos quando o regime colonial ou a direção temporal exigirem distinção",
+    "Flags semânticos modulam categorias sem multiplicá-las: institutional_transmission, colonial_register, diachronic, internal_to_country",
+    "A taxonomia é descritiva da prática iconológica, não substitutiva — categorias servem agregação estatística, não decisão interpretativa"
+  ],
+  "link_types": {
+    "binary": {
+      "description": "Vínculo entre dois itens A e B. Pode receber até 3 relações ordenadas por dominância: primary, secondary, tertiary.",
+      "fields": ["a_id", "b_id", "primary", "secondary", "tertiary", "flags", "panofsky", "scores"]
+    },
+    "chain": {
+      "description": "Vínculo ternário+ entre 3 ou mais itens em sequência ordenada (≥3 placements no canvas Warburg). Usado exclusivamente para 'Endurecimento progressivo' e suas variantes.",
+      "fields": ["item_ids", "primary", "secondary", "flags", "trajectory_direction", "score_delta_per_step", "panofsky", "scores"]
+    }
+  },
+  "families": [
+    {
+      "id": "genealogical",
+      "name": "I. Genealógicas",
+      "axis": "Eixo do tempo",
+      "definition": "Transmissão e sobrevivência de fórmulas visuais",
+      "types": [
+        {
+          "id": "nachleben",
+          "name": "Nachleben",
+          "definition": "Sobrevivência da pathosformel após longo intervalo, sem cadeia institucional ativa",
+          "indicators": {
+            "temporal_delta_min_years": 50,
+            "shared_motif": true,
+            "institutional_transmission_flag": false
+          }
+        },
+        {
+          "id": "mimesis",
+          "name": "Mimesis",
+          "definition": "Imitação direta; cópia ou variante próxima",
+          "indicators": {
+            "temporal_delta_max_years": 50,
+            "shared_motif": true,
+            "shared_country_or_colonial_chain": true
+          }
+        },
+        {
+          "id": "genealogia",
+          "name": "Genealogia",
+          "definition": "A produz família de descendentes B, B′, B″…",
+          "subtypes": [
+            {
+              "id": "genealogia_canonica",
+              "name": "Genealogia canônica",
+              "definition": "Descendência dentro do cânone normativo (Roty → Ceschiatti)"
+            },
+            {
+              "id": "genealogia_tensional",
+              "name": "Genealogia tensional",
+              "definition": "[NOVA v0.2] Descendência dentro da tradição de contra-alegoria (Veber → Rops → Henfil)",
+              "rationale": "Mini-validação P8: tradição satírica opera por genealogia mas em registro tensional"
+            },
+            {
+              "id": "genealogia_ascendente",
+              "name": "Genealogia ascendente",
+              "definition": "[NOVA v0.2] Par dentro do mesmo país, com mudança de regime e score crescente",
+              "rationale": "Mini-validação P4: BR-007 (1827, fund) ↔ BR-2000R-1907 (norm) — internal country, cross-regime"
+            }
+          ]
+        },
+        {
+          "id": "serializacao",
+          "name": "Serialização",
+          "definition": "Repetição industrial em múltiplos suportes (moeda/selo/papel-moeda/poster)",
+          "indicators": {
+            "shared_motif": true,
+            "different_media": true,
+            "temporal_delta_max_years": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "structural",
+      "name": "II. Estruturais",
+      "axis": "Eixo da função",
+      "definition": "Mesma função iconocrática executada por formas distintas",
+      "types": [
+        {
+          "id": "translatio",
+          "name": "Translatio",
+          "definition": "Mesma função, traduções nacionais distintas",
+          "subtypes": [
+            {
+              "id": "translatio_republicana",
+              "name": "Translatio republicana",
+              "definition": "Marianne ↔ Britannia ↔ Germania ↔ Columbia (cada nação produz sua personificação republicana)"
+            },
+            {
+              "id": "translatio_imperial",
+              "name": "Translatio imperial",
+              "definition": "[NOVA v0.2] Operação imperial transferida entre potências coloniais (BE-CONGO ↔ FR-PIAST ↔ UK colonial)",
+              "rationale": "Mini-validação P6: a translatio do registro colonial não é a translatio do registro republicano"
+            },
+            {
+              "id": "translatio_fundacional",
+              "name": "Translatio fundacional",
+              "definition": "[NOVA v0.2] Operação fundacional transmitida institucionalmente entre países (FR-013 1789 → BR-016 1896)",
+              "rationale": "Mini-validação P4: distinguir de Nachleben pelo flag institutional_transmission"
+            }
+          ]
+        },
+        {
+          "id": "concretizacao",
+          "name": "Concretização",
+          "definition": "Abstração ganha figura nomeada e individuada"
+        },
+        {
+          "id": "par_genderizado",
+          "name": "Par genderizado",
+          "definition": "Alegoria feminina pareada com soberano masculino"
+        }
+      ]
+    },
+    {
+      "id": "tensional",
+      "name": "III. Tensionais",
+      "axis": "Eixo crítico",
+      "definition": "Operações de oposição, paródia e dialética interna ao corpus",
+      "multi_type_norm": true,
+      "multi_type_note": "[NOVA v0.2] Família III admite explicitamente acumulação: um único fio pode receber Inversão + Satirização + Contradição sem hierarquia forçada quando os três operam simultaneamente",
+      "types": [
+        {
+          "id": "inversao",
+          "name": "Inversão",
+          "definition": "Mesmos atributos, valor performativo invertido",
+          "subtypes": [
+            {
+              "id": "inversao_sincronica",
+              "name": "Inversão sincrônica",
+              "definition": "Inversão dentro da mesma época (Δ ≤ 25 anos) — paródia direta do canônico contemporâneo"
+            },
+            {
+              "id": "inversao_diacronica",
+              "name": "Inversão diacrônica",
+              "definition": "[NOVA v0.2] Inversão entre épocas opostas (Δ > 25 anos) — a alegoria de um período opera contra a de outro",
+              "rationale": "Mini-validação P8: US-019 1886 ↔ FR-008 1915 — contra-alegoria americana versus mobilização militar francesa"
+            }
+          ]
+        },
+        {
+          "id": "satirizacao",
+          "name": "Satirização",
+          "definition": "Alegoria solene transformada em paródia tópica situada em momento de crise nomeada"
+        },
+        {
+          "id": "contradicao",
+          "name": "Contradição",
+          "definition": "A e B em tensão dialética sem síntese interna",
+          "subtypes": [
+            {
+              "id": "contradicao_intra_nacional",
+              "name": "Contradição intra-nacional",
+              "definition": "Tensão dentro do mesmo país/aparelho institucional"
+            },
+            {
+              "id": "contradicao_transnacional",
+              "name": "Contradição transnacional",
+              "definition": "[NOVA v0.2] Países diferentes operando a mesma contradição interna em sincronia",
+              "rationale": "Mini-validação P8: US-020 1893 (imigração restritiva) ↔ FR-022 1909 (colonial) — mesma operação"
+            },
+            {
+              "id": "contradicao_colonial",
+              "name": "Contradição colonial",
+              "definition": "[NOVA v0.2] Caso especial em que o mesmo aparelho institucional opera doméstico e colonial simultaneamente, fundindo Contradição + Co-presença institucional",
+              "rationale": "Mini-validação P6: BE-002 (Palais Justice Bruxelles) ↔ BE-CONGO-MON-1921 — não distinguíveis pelas duas categorias separadas; este sub-tipo as funde"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transitional",
+      "name": "IV. Transicionais",
+      "axis": "Eixo dos regimes",
+      "definition": "Passagem entre os três regimes iconocráticos",
+      "types": [
+        {
+          "id": "martializacao",
+          "name": "Martialização",
+          "definition": "Alegoria civil (fundacional ou normativo) redeployada em registro militar",
+          "indicators": {"a_regime": ["fundacional", "normativo"], "b_regime": "militar", "temporal_direction": "forward"}
+        },
+        {
+          "id": "desmilitarizacao",
+          "name": "Desmilitarização",
+          "definition": "Alegoria militar reincorporada em registro civil",
+          "indicators": {"a_regime": "militar", "b_regime": ["fundacional", "normativo"], "temporal_direction": "forward"}
+        }
+      ],
+      "note_v02": "[REMOVIDO v0.2] 'Endurecimento progressivo' foi movido para uma estrutura ternária CHAIN. Ver chain_relations abaixo."
+    },
+    {
+      "id": "synchronic",
+      "name": "V. Sincrônicas",
+      "axis": "Eixo da constelação",
+      "definition": "Co-presença sem laço genealógico — constelação histórica",
+      "types": [
+        {
+          "id": "copresenca_politica",
+          "name": "Co-presença política",
+          "definition": "Itens partilham conjuntura sem genealogia direta"
+        },
+        {
+          "id": "copresenca_institucional",
+          "name": "Co-presença institucional",
+          "definition": "Itens do mesmo aparelho institucional/programa",
+          "exclusivity_note": "Quando combinado com Contradição em registro colonial, usar o sub-tipo Contradição colonial em vez desta + Contradição separadamente"
+        }
+      ]
+    }
+  ],
+  "chain_relations": {
+    "description": "[NOVA v0.2] Vínculo ternário+ — exigência estrutural para Endurecimento progressivo",
+    "rationale": "Mini-validação P4: 7 dos 10 fios envolveram cadeias de 3+ itens. Taxonomia binária força colapso para Co-presença política ou Genealogia, perdendo o sentido da cadeia.",
+    "types": [
+      {
+        "id": "endurecimento_progressivo",
+        "name": "Endurecimento progressivo",
+        "definition": "Cadeia ordenada de ≥3 itens onde o score de endurecimento cresce monotonicamente no tempo, frequentemente atravessando regimes",
+        "min_items": 3,
+        "indicators": {
+          "score_monotonically_increasing": true,
+          "year_monotonically_increasing": true,
+          "delta_total_threshold": 0.8
+        },
+        "example": "FR-015 (1781, ⬥1.3) → FR-013 (1789, ⬥1.8) → FR-SEM-1898 (1898, ⬥2.5)"
+      },
+      {
+        "id": "endurecimento_cross_country",
+        "name": "Endurecimento transnacional",
+        "definition": "[NOVA v0.2] Cadeia ascendente que cruza países além de cruzar regimes (caso paradigmático: cadeia francesa traduzindo-se em brasileira)",
+        "min_items": 3,
+        "indicators": {
+          "score_monotonically_increasing": true,
+          "countries_n": ">= 2"
+        }
+      },
+      {
+        "id": "constelacao_temporal",
+        "name": "Constelação temporal",
+        "definition": "[NOVA v0.2] Cadeia que NÃO é endurecimento (scores não crescem), mas que aglutina itens contemporâneos cruzando países/regimes — constelação warburguiana propriamente dita",
+        "min_items": 3,
+        "indicators": {
+          "score_monotonically_increasing": false,
+          "year_span_max": 30
+        }
+      }
+    ]
+  },
+  "flags": {
+    "description": "[NOVO v0.2] Flags semânticos que modulam qualquer relação binária ou chain. Aplicáveis em combinação.",
+    "available": [
+      {
+        "id": "institutional_transmission",
+        "name": "Transmissão institucional ativa",
+        "definition": "Há cadeia documentável (correspondência, currículo institucional, presença em arquivo) entre A e B",
+        "use_case": "Distinguir Translatio fundacional (transmissão ativa) de Nachleben (ressurgimento sem cadeia)"
+      },
+      {
+        "id": "colonial_register",
+        "name": "Registro colonial",
+        "definition": "Pelo menos um dos itens está no registro colonial (BE-CONGO, FR-PIAST, UK-trade, NL-Indes, etc.)",
+        "use_case": "Aciona automaticamente Contradição colonial quando combinado com Co-presença institucional"
+      },
+      {
+        "id": "diachronic",
+        "name": "Diacrônico",
+        "definition": "Δ temporal > 25 anos. Distingue Inversão sincrônica de diacrônica.",
+        "use_case": "Sub-tipo de Inversão"
+      },
+      {
+        "id": "internal_to_country",
+        "name": "Interno ao país",
+        "definition": "A e B no mesmo país. Distingue Genealogia interna de Translatio (que pressupõe países diferentes).",
+        "use_case": "Genealogia ascendente vs. Translatio"
+      },
+      {
+        "id": "cross_regime",
+        "name": "Cruza regimes",
+        "definition": "A e B em regimes iconocráticos diferentes",
+        "use_case": "Aciona Martialização, Desmilitarização ou Endurecimento progressivo"
+      }
+    ]
+  },
+  "multi_type_policy": {
+    "description": "[NOVA v0.2] Política explícita de admissão multi-tipo",
+    "rule": "Toda relação binária pode receber até 3 tipos ordenados (primary, secondary, tertiary). A ordem reflete dominância interpretativa, não exclusão.",
+    "rule_chain": "Toda relação chain pode receber até 2 tipos (primary + secondary).",
+    "validation": "O analisador `analyze_threads.py` v2 calcula score de cada tipo independentemente e reporta os ≥0.5 como aplicáveis."
+  },
+  "migrations_from_v0.1": {
+    "Endurecimento progressivo": "Movido de Família IV (binário) para chain_relations (ternário+)",
+    "Genealogia": "Recebeu três sub-tipos (canônica, tensional, ascendente)",
+    "Translatio": "Recebeu três sub-tipos (republicana, imperial, fundacional)",
+    "Inversão": "Recebeu dois sub-tipos (sincrônica, diacrônica)",
+    "Contradição": "Recebeu três sub-tipos (intra-nacional, transnacional, colonial)",
+    "Multi-tipo": "Mudou de exceção para regra; estrutura admite até 3 relações por fio"
+  },
+  "version_summary": {
+    "v0.1_relations": 15,
+    "v0.2_relations_base": 15,
+    "v0.2_subtypes_added": 9,
+    "v0.2_chain_relations_added": 3,
+    "v0.2_flags_added": 5,
+    "total_v0.2_distinctions": "15 base + 9 subtypes + 3 chains + 5 flags = 32 axes of distinction"
+  }
+}

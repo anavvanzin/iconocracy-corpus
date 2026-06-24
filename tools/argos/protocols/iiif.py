@@ -5,7 +5,6 @@ from pathlib import Path
 
 from tools.argos.protocols.direct import fetch_direct
 
-
 ARK_PATTERN = re.compile(r"(ark:/\d+/[^\s?#]+)", re.IGNORECASE)
 EUROPEANA_ARK_PATTERN = re.compile(r"ark__(\d+)_([^/?#]+)", re.IGNORECASE)
 EUROPEANA_ITEM_PATTERN = re.compile(r"/item/(\d+)/(.+?)(?:\?|$)")

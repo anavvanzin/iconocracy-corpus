@@ -1,12 +1,11 @@
+import matplotlib.gridspec as gridspec
 import matplotlib.pyplot as plt
 import numpy as np
-import matplotlib.gridspec as gridspec
 from matplotlib.patches import Circle, RegularPolygon
 from matplotlib.path import Path
-from matplotlib.projections.polar import PolarAxes
 from matplotlib.projections import register_projection
+from matplotlib.projections.polar import PolarAxes
 from matplotlib.spines import Spine
-from matplotlib.transforms import Affine2D
 
 # Configurações de estilo
 plt.rcParams['font.family'] = 'serif'
@@ -81,7 +80,7 @@ def create_infographic():
     ax_header.axis('off')
     ax_header.text(0.5, 0.8, 'ICONOCRACIA', fontsize=44, fontweight='bold', ha='center', fontfamily='serif')
     ax_header.text(0.5, 0.55, 'Corpus de Alegorias Femininas na História da Cultura Jurídica', fontsize=20, ha='center', fontfamily='serif')
-    ax_header.text(0.5, 0.3, '165 itens | 15 países | 1239-1975 | endurecimento médio 1.42', 
+    ax_header.text(0.5, 0.3, '165 itens | 15 países | 1239-1975 | endurecimento médio 1.42',
                   fontsize=16, ha='center', fontfamily='sans-serif', fontweight='bold', color='#444444')
 
     # --- PAINEL A: Distribuição por país ---
@@ -105,7 +104,7 @@ def create_infographic():
     regimes = ['Fundacional', 'Normativo', 'Militar', 'Contra-alegoria']
     counts_b = [79, 45, 31, 10]
     colors_b = [COLORS['fundacional'], COLORS['normativo'], COLORS['militar'], COLORS['contra']]
-    wedges, texts, autotexts = ax_b.pie(counts_b, labels=regimes, autopct='%1.1f%%', 
+    wedges, texts, autotexts = ax_b.pie(counts_b, labels=regimes, autopct='%1.1f%%',
                                       colors=colors_b, startangle=140, pctdistance=0.85,
                                       textprops={'fontfamily': 'sans-serif', 'fontweight': 'bold'})
     center_circle = plt.Circle((0,0), 0.70, fc='white')
@@ -161,11 +160,11 @@ def create_infographic():
     ax_e.spines['right'].set_visible(False)
 
     # --- PAINEL F: Radar dos 10 indicadores de endurecimento ---
-    indicators = ['Desincorporação', 'Rigidez postural', 'Dessexualização', 'Uniformização facial', 
-                  'Heraldicização', 'Arq. Enquadramento', 'Apagamento narr.', 'Monocromatização', 
+    indicators = ['Desincorporação', 'Rigidez postural', 'Dessexualização', 'Uniformização facial',
+                  'Heraldicização', 'Arq. Enquadramento', 'Apagamento narr.', 'Monocromatização',
                   'Serialidade', 'Insc. Estatal']
     values_f = [1.01, 1.29, 1.48, 1.46, 1.29, 1.23, 1.26, 1.95, 1.68, 1.57]
-    
+
     num_vars = len(indicators)
     theta = radar_factory(num_vars, frame='polygon')
     ax_f = fig.add_subplot(gs[4, :], projection='radar')
@@ -173,9 +172,9 @@ def create_infographic():
     ax_f.fill(theta, values_f, facecolor=COLORS['normativo'], alpha=0.25)
     ax_f.set_varlabels(indicators)
     ax_f.set_ylim(0, 3)
-    ax_f.set_title('PAINEL F — Radar dos 10 indicadores de endurecimento (Escala 0-3)', 
+    ax_f.set_title('PAINEL F — Radar dos 10 indicadores de endurecimento (Escala 0-3)',
                   fontsize=16, fontweight='bold', pad=30)
-    
+
     # Destacar monocromatização
     ax_f.text(theta[7], values_f[7] + 0.3, 'MÁX: 1.95', color=COLORS['militar'], fontweight='bold', ha='center')
 

@@ -16,8 +16,8 @@ from __future__ import annotations
 import json
 import re
 import sys
-from pathlib import Path
 from collections import Counter
+from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent.parent
 CORPUS = REPO / "corpus" / "corpus-data.json"
@@ -189,7 +189,7 @@ def main():
         print(result)
 
     # Summary
-    print(f"\n--- Companion Sync Summary ---", file=sys.stderr)
+    print("\n--- Companion Sync Summary ---", file=sys.stderr)
     print(f"Corpus items: {data['corpus_total']}", file=sys.stderr)
     print(f"Countries: {len(data['countries'])}", file=sys.stderr)
     print(f"Vault candidates: {data['vault']['candidates']}", file=sys.stderr)

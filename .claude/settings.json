@@ -13,7 +13,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "if [ ! -d /Volumes/ICONOCRACIA ]; then echo '{\"systemMessage\":\"SSD externo ICONOCRACIA nao montado. Symlinks em data/raw/ nao funcionarao.\"}'; else count=$(jq '.items | length' \"$CLAUDE_PROJECT_DIR/corpus/corpus-data.json\" 2>/dev/null || echo '?'); echo \"{\\\"systemMessage\\\":\\\"SSD montado. Corpus: $count itens.\\\"}\"; fi",
+            "command": "if [ ! -d /media/ana/SSD_DATA ]; then echo '{\"systemMessage\":\"SSD externo SSD_DATA nao montado. Symlinks em data/raw/ nao funcionarao.\"}'; else count=$(jq 'length' \"$CLAUDE_PROJECT_DIR/corpus/corpus-data.json\" 2>/dev/null || echo '?'); echo \"{\\\"systemMessage\\\":\\\"SSD montado. Corpus: $count itens.\\\"}\"; fi",
             "timeout": 5,
             "statusMessage": "Checking environment..."
           }
@@ -58,7 +58,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq -r '.tool_input.file_path' | { read -r f; echo \"$f\" | grep -qE 'vault/candidatos/.*\\.md$' && cd /Users/ana/iconocracy-corpus && git add \"$f\" 2>/dev/null; } || true",
+            "command": "jq -r '.tool_input.file_path' | { read -r f; echo \"$f\" | grep -qE 'vault/candidatos/.*\\.md$' && cd \"$CLAUDE_PROJECT_DIR\" && git add \"$f\" 2>/dev/null; } || true",
             "async": true
           }
         ]
@@ -89,7 +89,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -q 'corpus-data.json' && count=$(jq '.items | length' /Users/ana/iconocracy-corpus/corpus/corpus-data.json 2>/dev/null) && echo \"{\\\"hookSpecificOutput\\\":{\\\"hookEventName\\\":\\\"PostToolUse\\\",\\\"additionalContext\\\":\\\"Corpus now has $count items.\\\"}}\"; } || true"
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -q 'corpus-data.json' && count=$(jq 'length' $CLAUDE_PROJECT_DIR/corpus/corpus-data.json 2>/dev/null) && echo \"{\\\"hookSpecificOutput\\\":{\\\"hookEventName\\\":\\\"PostToolUse\\\",\\\"additionalContext\\\":\\\"Corpus now has $count items.\\\"}}\"; } || true"
           }
         ]
       },

@@ -32,7 +32,7 @@ Sessão de preenchimento de lacunas críticas documentadas em SCOUT-SESSION-2026
 | ID | Título | País | Suporte | Regime | endurecimento | Confiança | URL verificada |
 |---|---|---|---|---|---|---|---|
 | SCOUT-124 | 1 Penny — Britannia Seated, George V (1912) | UK | moeda | NORMATIVO | ALTO | alto | Museums Victoria ✅ |
-| SCOUT-125 | 2000 Réis — Efígie da República com Barrete Frígio (1906–1913) | BR | moeda | NORMATIVO | MÉDIO | medio | Numista ✅ (imagem #verificar) |
+| SCOUT-125 | 2000 Réis — Efígie da República com Barrete Frígio (1906–1913) | BR | moeda | NORMATIVO | MÉDIO | medio | Numista ✅ (imagem [[verificar]]) |
 | SCOUT-126 | 10 Pfennig Germania — Weimar Mi.141 (1920) | DE | selo | NORMATIVO | ALTO | alto | Wikimedia Commons ✅ |
 | SCOUT-127 | 10 Centimes Semeuse Camée — Fond Plein (1906) | FR | selo | NORMATIVO | MÉDIO | medio | Wikimedia Commons ✅ (variante 1ª emissão) |
 
@@ -113,9 +113,9 @@ Buscar: **1000 Réis República Brasil** (Numista ref. 14484) — verificar se i
 
 ## Flags de atenção
 
-- **SCOUT-121 #verificar-imagem** — Numista retorna 403 para acesso direto; buscar imagem via interface gráfica ou BNDigital
-- **SCOUT-122 #possivel-duplicata** — verificar distinção clara de SCOUT-104 (imperial) e SCOUT-307 (período imperial); SCOUT-122 cobre especificamente **emissão da República de Weimar** (set. 1920)
-- **SCOUT-123 #verificar-imagem** — imagem obtida é variante "com sol" (1ª emissão abril 1906); variante canônica é "sem sol" (2ª emissão julho 1906)
+- **SCOUT-121 [[verificar-imagem]]** — Numista retorna 403 para acesso direto; buscar imagem via interface gráfica ou BNDigital
+- **SCOUT-122 [[possivel-duplicata]]** — verificar distinção clara de SCOUT-104 (imperial) e SCOUT-307 (período imperial); SCOUT-122 cobre especificamente **emissão da República de Weimar** (set. 1920)
+- **SCOUT-123 [[verificar-imagem]]** — imagem obtida é variante "com sol" (1ª emissão abril 1906); variante canônica é "sem sol" (2ª emissão julho 1906)
 - **Numeração duplicada** — há colisão de IDs nos candidatos existentes (dois SCOUT-320, dois SCOUT-321, dois SCOUT-322). Recomendável auditoria de IDs antes da próxima sessão.
 
 ---

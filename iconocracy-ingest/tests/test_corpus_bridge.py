@@ -1,16 +1,14 @@
 """Tests for corpus_bridge module."""
 
-import json
 import sys
-import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from modules.corpus_bridge import (
     csv_row_to_corpus_item,
-    get_existing_ids,
     get_existing_hashes,
+    get_existing_ids,
     humanize_filename,
     next_id_for_country,
 )

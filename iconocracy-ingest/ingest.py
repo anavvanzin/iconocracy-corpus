@@ -30,8 +30,6 @@ from pathlib import Path
 # Ensure project root is importable
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from tqdm import tqdm
-
 import config
 from modules.caption_extractor import (
     CaptionMatch,
@@ -53,6 +51,7 @@ from modules.file_utils import (
 from modules.ocr_engine import FileOCRResult, ocr_file
 from modules.quality_report import LowConfEntry, generate_quality_report
 from modules.renamer import SequenceCounter, rename_file
+from tqdm import tqdm
 
 logger = logging.getLogger("iconocracy-ingest")
 
