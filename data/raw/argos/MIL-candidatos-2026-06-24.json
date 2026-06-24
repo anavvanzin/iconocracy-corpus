@@ -1,0 +1,683 @@
+[
+  {
+    "candidate_id": "MIL-CAND-001",
+    "title": "20 Lire - Vittorio Emanuele III (seated Italia greeted by a Littore with fasces)",
+    "country": "IT",
+    "regime_context": "Itália fascista (1922-1943)",
+    "date_iso": "1928-XX-XX",
+    "support": "moeda",
+    "archive_name": "Numista",
+    "archive_url": "https://en.numista.com/catalogue/pieces7191.html",
+    "image_url": "https://en.numista.com/catalogue/photos/italie/2049-original.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Reverse: a seated woman holding a torch in her right hand, her left arm resting on a shield bearing the Savoy insignia; before her stands a nude athletic male (a Littore) holding a tall bundle of rods (fasces) in a salute. The fascist-era year (A.VI) is at left, the calendar date and mintmark at right, the value below in the exergue. Obverse: head of King Vittorio Emanuele III facing right.",
+      "iconographic": "The seated woman is the allegorical personification of Italy (ITALIA), receiving the salute of the fascist Littore who carries the fascio littorio. The dual dating system (Gregorian + 'Anno' of the Fascist Era) and the Savoy shield bind monarchy and fascist party.",
+      "iconological_regime_hypothesis": "A state circulation coin of Fascist Italy in which the female allegory of the nation is positioned as the static, monarchical recipient of the active fascist (male) salute — the allegory is annexed to the dispositif of the exception regime through fasces and Fascist-Era dating."
+    },
+    "confidence": "high",
+    "verification_note": "Fetched the Numista catalogue page (HTTP ok via Exa fetch; Numista blocks plain WebFetch with 403). Page shows obverse+reverse coin photos and full descriptions. Reverse description quoted verbatim from page: 'A Littore with fasces greeting a seated woman (representing Italy) that has a torch in her right hand and the left arm placed on a shield with Savoy Insigna, with the year in the Fascist Era left of the Littore...'. Issuer Italy, King Vittorio Emanuele III, Years 1927-1934, value 20 Lire, engraver Giuseppe Romagnoli, mint Rome (R), KM#69 — all taken from the page. date_iso set to 1928 (the first regular fascist-era circulation year cited; 1927 were trial strikes). A matching real digitization of the 1928 example also exists on Wikimedia Commons (File:Italia, 20 lire di vittorio emanuele III, 1928.JPG, author Sailko, CC BY-SA 3.0), verified separately.",
+    "notes": "Years 1928-1934 were minted for collectors per Numista; the type is the standard fascist-era 20 Lire design. Alternative verified image (Commons): https://commons.wikimedia.org/wiki/File:Italia,_20_lire_di_vittorio_emanuele_III,_1928.JPG",
+    "source_cluster_id": "MIL-CAND-A1"
+  },
+  {
+    "candidate_id": "MIL-CAND-002",
+    "title": "5 Lire - Vittorio Emanuele III (seated female 'Fertility/Italia' with children, between Savoy shield and Fascio Littorio)",
+    "country": "IT",
+    "regime_context": "Itália fascista (1922-1943)",
+    "date_iso": "1936-XX-XX",
+    "support": "moeda",
+    "archive_name": "Numista",
+    "archive_url": "https://en.numista.com/catalogue/pieces6670.html",
+    "image_url": "",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Reverse: a seated woman surrounded by four children; at her left the crowned Savoy shield with the Gregorian date (1936), at her right the fascio littorio with the year of the Fascist Era (XIV). Below, in the exergue, the value (L.5) and mintmark. Legend 'ITALIA'. Obverse: head of King Vittorio Emanuele III facing left, legend VITT EM III RE E IMP.",
+      "iconographic": "The seated woman is identified on the page as 'a female representing Fertility', captioned ITALIA — i.e. the maternal allegory of the Italian nation, flanked by the Savoy coat of arms (monarchy) and the fascio littorio (party). Edge lettering FERT FERT FERT (Savoy motto).",
+      "iconological_regime_hypothesis": "Circulating state coin of Fascist Italy that fuses the personification of Italy with the regime's natalist 'battaglia per la natalità' ideology: the female allegory is reduced to a seated, fertile maternal body framed by the fasces and Fascist-Era dating, a paradigmatic 'endurecimento' of allegory under the exception regime."
+    },
+    "confidence": "high",
+    "verification_note": "Fetched the Numista page (HTTP ok via Exa fetch). Reverse description quoted verbatim: 'A female representing Fertility seated with four children between the crowned Savoy Shield with normal date at her left, and the Fascio Littorio with the year in Fascist Era at her right.' Issuer Italy, Years 1936-1941, value 5 Lire, silver .835, engraver Giuseppe Romagnoli, KM#79, mint Rome — from the page. The legend ITALIA and 'RE E IMP' (King and Emperor) confirm the post-1936 imperial fascist context. image_url left empty: the page's thumbnails are user-collection photos with attribution that I did not isolate to a single stable original-file URL; the page itself visibly carries coin images.",
+    "notes": "date_iso 1936 = first issue year and the only legal-tender circulation year (1938-1941 were for collectors per Numista). Strong fit for the natalist axis of the thesis.",
+    "source_cluster_id": "MIL-CAND-A2"
+  },
+  {
+    "candidate_id": "MIL-CAND-003",
+    "title": "100 Lire - Vittorio Emanuele III (Italia standing on a fasces-adorned ship's prow, torch and olive branch)",
+    "country": "IT",
+    "regime_context": "Itália fascista (1922-1943)",
+    "date_iso": "1931-XX-XX",
+    "support": "moeda",
+    "archive_name": "Numista",
+    "archive_url": "https://en.numista.com/catalogue/pieces21256.html",
+    "image_url": "https://en.numista.com/catalogue/photos/italie/1887-original.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Reverse: a standing woman holding a torch in her left hand and an olive branch in her right, standing tall on the bow of a ship that is adorned with fasces; at right the value (L.100), the date (1931) and the year of the Fascist regime (IX E F). Legend 'ITALIA'. Obverse: bust of King Vittorio Emanuele III facing left.",
+      "iconographic": "The standing female figure is the allegorical Italia, captioned ITALIA, bearing torch (enlightenment/empire) and olive (peace), planted on a galley prow ornamented with the fascio — a maritime-imperial personification of the nation.",
+      "iconological_regime_hypothesis": "Gold state coin of Fascist Italy projecting the female allegory of the nation as imperial navigator on a fasces-bearing prow, with explicit Fascist-Era dating (Anno IX) — the allegory mobilised as an instrument of the regime's imperial-expansionist self-image."
+    },
+    "confidence": "high",
+    "verification_note": "Fetched the Numista page (HTTP ok via Exa fetch); page shows obverse+reverse coin photos. Reverse description quoted verbatim: 'Italy as a woman with a torch on her left hand and an olive branch in the other, standing tall on a bow of a ship adorned with fasces. On the right the value and the date, together with the year of the Fascist regime.' Lettering on reverse: ITALIA / L.100 / 1931 / IX.E.F / R. Issuer Italy, Years 1931-1933, gold .900, engraver Giuseppe Romagnoli, KM#72 — from the page.",
+    "notes": "date_iso 1931 (= Anno IX of the Fascist Era, per the coin's own legend IX E F).",
+    "source_cluster_id": "MIL-CAND-A3"
+  },
+  {
+    "candidate_id": "MIL-CAND-004",
+    "title": "5000 Francs 'Empire Français' (type 1942) - allegory of France with colonial Empire figures",
+    "country": "FR",
+    "regime_context": "Vichy / État Français (1940-1944)",
+    "date_iso": "1942-XX-XX",
+    "support": "cédula",
+    "archive_name": "Numista",
+    "archive_url": "https://en.numista.com/catalogue/note205571.html",
+    "image_url": "https://en.numista.com/catalogue/photos/france/5e9e549c3ba377.33249094-original.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Obverse: bust of a young woman at centre, a French flag in the background; in front of her three men described as 'Sudanese, Annamese, Arab'; plant patterns and coloured flowers. Reverse: the same female bust at centre, with two maritime landscapes (the Basque coast at left, the port of Rabat at right). Denomination 5000 / CINQ MILLE FRANCS / BANQUE DE FRANCE.",
+      "iconographic": "The central young woman is the allegorical personification of France (per the catalogue, 'representing France'); the three male figures personify the colonial Empire, and the Rabat/Basque vignettes spatialise metropole and colony.",
+      "iconological_regime_hypothesis": "A Banque de France banknote issued under the État Français (Numista period attribution: 'French State 1940-1944'), in which the female allegory of France presides over racialised personifications of the colonial Empire — a state-currency instrument of the Vichy 'Empire Français' that directly stages the visual-racial contract of the universal allegory."
+    },
+    "confidence": "high",
+    "verification_note": "Fetched the Numista note page (HTTP ok via Exa fetch); page shows obverse+reverse banknote photos. Obverse description quoted verbatim: 'Bust of a young woman in the center representing France. French flag in the background. In front, three men representing the Empire (Sudanese, Annamese, Arab). Plant patterns and colorful flowers.' Issuer France, Issuing bank Bank of France, Period 'French State (1940-1944)', Years 1942-1947, value 5000 Francs, designer Clément Serveau, engravers Jules Piel / Camille Beltrand / Marguerite (Rita) Dreyfus, P#103 / Fay#47 — all from the page.",
+    "notes": "Numista explicitly assigns the issuing 'Period' to the French State (Vichy). Especially relevant to the Contrato Racial Visual axis. date_iso 1942 = type/first year; circulation 1942-1947.",
+    "source_cluster_id": "MIL-CAND-A4"
+  },
+  {
+    "candidate_id": "MIL-CAND-005",
+    "title": "1000 Francs 'Commerce et Industrie' (type 1940) - female allegorical figures (French State authority)",
+    "country": "FR",
+    "regime_context": "Vichy / État Français (1940-1944)",
+    "date_iso": "1940-XX-XX",
+    "support": "cédula",
+    "archive_name": "Numista",
+    "archive_url": "https://en.numista.com/catalogue/note205783.html",
+    "image_url": "https://en.numista.com/catalogue/photos/france/5e9edf6c3efd48.07237538-original.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Banknote with two female figures wearing flowers in their hair, a male worker before a metallurgical plant (industry) and the god Mercury before merchant ships (commerce); watermark of a woman's head in profile with a floral wreath. Denomination 1000 / MILLE FRANCS / BANQUE DE FRANCE.",
+      "iconographic": "The female figures function as allegories of Commerce and Industry / abundance (paired with Mercury, god of commerce, and the labouring smith of industry); the female-head watermark continues the convention of personifying the Republic/Nation on currency.",
+      "iconological_regime_hypothesis": "A Banque de France circulation note whose ruling authority Numista records as the 'French State (1940-1944)', circulating across the whole Vichy period — the female allegories of national economic virtue serve as a state-monetary instrument of the exception regime even where the explicit personification of 'la République' was being suppressed."
+    },
+    "confidence": "medium",
+    "verification_note": "Fetched the Numista note page (HTTP ok via Exa fetch); page shows obverse+reverse banknote photos. Page records Issuer France, Issuing bank Bank of France, 'Ruling authority: French State (1940-1944)', Years 1940-1944, value 1000 Francs, P#96 / Fay#39. The female-figures / Mercury / watermark description was confirmed via corroborating search summaries (CGB / leftovercurrency), not quoted verbatim from the Numista page body, hence medium confidence. Design by H-L. Cheffer; engravers Beltrand/Deloche (from secondary sources, not the Numista page).",
+    "notes": "Confidence medium because the type originated under the late Third Republic (specimen July 1940) but Numista assigns its ruling-authority/circulation to the French State 1940-1944; the female figures are decorative-allegorical (Commerce/Industry) rather than a single 'La France' personification. Included as a genuine Vichy-period state instrument with female allegory; verify against drive-manifest before corpus entry.",
+    "source_cluster_id": "MIL-CAND-A5"
+  },
+  {
+    "candidate_id": "MIL-CAND-006",
+    "title": "10 Lire \"Biga\" — Vittorio Emanuele III (Italia on chariot holding fasces)",
+    "country": "IT",
+    "regime_context": "Itália fascista (1922-1943)",
+    "date_iso": "1926/1934",
+    "support": "moeda",
+    "archive_name": "Numista",
+    "archive_url": "https://en.numista.com/catalogue/pieces10490.html",
+    "image_url": "https://en.numista.com/catalogue/photos/italie/2045-original.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Female figure standing on a two-horse chariot (biga) running left, holding a fasces with her left arm; value, date and mint mark in exergue. Obverse: head of King Vittorio Emanuele III left.",
+      "iconographic": "Allegory of Italy (Italia) driving a Roman biga, carrying the fascio littorio — the personification of the State fused with the Fascist Party emblem and Roman triumphal imagery; engraver Giuseppe Romagnoli.",
+      "iconological_regime_hypothesis": "Regime MILITAR/imperial: the female allegory is harnessed to Roman triumphalism (biga) and the fascio, transforming the civic personification into a vehicle of dynamic imperial energy. Endurecimento via heraldicização (fascio) and serialidade (circulating coin)."
+    },
+    "confidence": "high",
+    "verification_note": "Fetched full Numista page via Exa. Reverse description verbatim: 'Italy holding fasces with her left arm on a biga running to the left.' KM#68, silver .835, years 1926-1934, mint R (Rome), engraver Giuseppe Romagnoli. Obverse + reverse photos render on page (obverse 2044, reverse 2045). image_url = the page's reverse photo file (Numista hotlink-protected: 403 to bare curl but displays inline on page). DISTINCT from already-collected pieces7191/6670/21256.",
+    "notes": "Coins dated 1931-1934 struck for collectors only. The 'Biga' type is the classic chariot direction requested. Edge motto FERT (House of Savoy).",
+    "source_cluster_id": "MIL-CAND-E1"
+  },
+  {
+    "candidate_id": "MIL-CAND-007",
+    "title": "10 Lire 1936 XIV — Vittorio Emanuele III RE E IMPERATORE (Italia on ship prow, Victory + fasces)",
+    "country": "IT",
+    "regime_context": "Itália fascista (1922-1943)",
+    "date_iso": "1936",
+    "support": "moeda",
+    "archive_name": "Numista",
+    "archive_url": "https://en.numista.com/catalogue/pieces27942.html",
+    "image_url": "https://en.numista.com/catalogue/pieces27942.html",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Female figure standing on the prow of a ship, small winged Victory statuette in left hand, fasces in right hand; year + Fascist Era (1936 XIV) at left, crowned Savoy shield flanked by two fasces on the bow. Obverse: head of king right, legend RE E IMPERATORE.",
+      "iconographic": "Allegory of Italy on a naval prow bearing Victory and the fascio littorio — maritime/imperial personification of the State; struck the year of the proclamation of the Empire (king titled 'King and Emperor'). Engraver Giuseppe Romagnoli.",
+      "iconological_regime_hypothesis": "Regime MILITAR/imperial: explicit Fascist-era dating (XIV) and the imperial royal title couple the female allegory to naval conquest and Victory. Endurecimento via inscrição_estatal (ITALIA + A.XIV), heraldicização (double fascio + Savoy shield)."
+    },
+    "confidence": "high",
+    "verification_note": "Fetched full Numista page via Exa. Reverse verbatim: 'Female figure (allegory of Italy) standing on the prow of a ship, with a small statue of Victory in her left hand and a fasces in her right ... crowned Shield of Savoy flanked by two fascis.' KM#80, silver .835, 1936 XIV, mint R, engraver Romagnoli; 1936 mintage 618,500. Page renders the figure (© GoldenGarfield photo); image_url left as page URL because the original photo path was not exposed in the fetched markdown. Distinct object from collected pieces21256 (100 Lire 1931 prow).",
+    "notes": "Same prow/Victory motif family as the already-collected 100 Lire 1931, but a DISTINCT denomination, date and die (10 Lire, 1936 XIV, double-fascio bow).",
+    "source_cluster_id": "MIL-CAND-E2"
+  },
+  {
+    "candidate_id": "MIL-CAND-008",
+    "title": "Serie Imperiale 1929 — definitive stamp 15 c. 'Italia turrita' (Paschetto), fasci littori at sides",
+    "country": "IT",
+    "regime_context": "Itália fascista (1922-1943)",
+    "date_iso": "1929-04-21",
+    "support": "selo postal",
+    "archive_name": "TouchStamps (catalogue, image hosted)",
+    "archive_url": "https://touchstamps.com/Stamp/Details/219192/italy-turreted",
+    "image_url": "https://touchstamps.com/Image/GetImage/220080?width=300",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Vertical definitive stamp; bust/figure of a woman wearing a mural (turreted) crown; vertical fasces flanking the design at both sides; face value 15 centesimi.",
+      "iconographic": "Italia turrita — national female personification of Italy with mural crown — framed by the fascio littorio; the long-running 'Imperiale' definitive series of the Kingdom of Italy under Fascism. Designer Paolo Paschetto.",
+      "iconological_regime_hypothesis": "Regime NORMATIVO: the State's everyday postal instrument bureaucratizes and serializes the female allegory, flanked permanently by the fascio. Endurecimento via serialidade (mass definitive), heraldicização (fasci littori), inscrição_estatal."
+    },
+    "confidence": "high",
+    "verification_note": "Fetched TouchStamps detail page: design = 'Italia turrita', face value 15 Italian centesimo, issued 1929-04-21, Imperial Series, photogravure, comb 14; cat. Mi:IT 302X, Un:IT 246. Stamp image present on page (img src https://touchstamps.com/Image/GetImage/220080?width=300; that URL 404s to bare curl due to hotlink protection but renders inline on the page). Series confirmed independently (it.wikipedia 'Serie Imperiale' + stampsoftheworld) as Paschetto Italia turrita with 'fasci littori posti ai due lati'.",
+    "notes": "Imperiale was valid 1929–1946; Kingdom-period printings carry the fasces. Italia turrita denominations in the series: 15c, 35c, 2L, 10L.",
+    "source_cluster_id": "MIL-CAND-E3"
+  },
+  {
+    "candidate_id": "MIL-CAND-009",
+    "title": "Serie Imperiale 1929 — definitive stamp 35 c. 'Italia turrita' (Paschetto)",
+    "country": "IT",
+    "regime_context": "Itália fascista (1922-1943)",
+    "date_iso": "1929-04-21",
+    "support": "selo postal",
+    "archive_name": "TouchStamps (catalogue, image hosted)",
+    "archive_url": "https://touchstamps.com/Stamp/Details/1417337/italia-turrita",
+    "image_url": "https://touchstamps.com/Image/GetImage/1407836?width=300",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Vertical definitive stamp; turreted female figure; face value 35 centesimi (blue).",
+      "iconographic": "Italia turrita, female personification of the State, in the Fascist-era 'Imperiale' definitive series; designer Paolo Paschetto.",
+      "iconological_regime_hypothesis": "Regime NORMATIVO: a second denomination of the same serialized allegory, confirming the systematic bureaucratic circulation of the figure across the postal fee structure of the Fascist State."
+    },
+    "confidence": "high",
+    "verification_note": "Fetched TouchStamps detail page: 'Italia turrita', 35 Italian centesimo, 1929-04-21, designer Paolo Paschetto, Imperial Series, photogravure; cat. Sassone IT 250h. Image present on page (img src https://touchstamps.com/Image/GetImage/1407836?width=300; hotlink-protected, renders inline). Cross-confirmed by stampsoftheworld (35c blue, Italia turrita, Paschetto, Mi 306/Sc 220).",
+    "notes": "Distinct denomination from E3 (35c vs 15c), same series and allegory — documents the serialidade indicator across the fee table.",
+    "source_cluster_id": "MIL-CAND-E4"
+  },
+  {
+    "candidate_id": "MIL-CAND-010",
+    "title": "Medal, Ethiopian campaign 'Ubi Roma ibi lex' (1936) — seated Italia turrita with fasces subduing a lion",
+    "country": "IT",
+    "regime_context": "Itália fascista (1922-1943)",
+    "date_iso": "1936",
+    "support": "medalha",
+    "archive_name": "FLT — Fascist Latin Texts (University of Oslo)",
+    "archive_url": "https://flt.hf.uio.no/texts/object/260",
+    "image_url": "https://api.hf.uio.no/dam/getfile/4551/",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Bronze medal, 33 mm. Obverse: a seated woman with a fortress (mural) crown holding a fasces in her right hand and pressing a lion to the ground with her left; Latin legend 'VBI ROMA IBI LEX' encircling, the figure's head splitting the inscription where a comma would fall.",
+      "iconographic": "Italia turrita as the goddess Italy/Rome, holding the fascio and subduing a lion (Ethiopia/Africa); the legend 'Where Rome is, there is law' equates the personified State with Roman law and the role of the lictors enforcing it. Produced by the Regio Istituto d'Arte, Florence, for the Ethiopian campaign.",
+      "iconological_regime_hypothesis": "Regime MILITAR/imperial + core juridical: the clearest LAW-allegory of the set — the female personification literally bears the fasces of the lictor and the inscription LEX, while colonial domination (the lion) is naturalized as the restoration of Roman law to Africa. Central case for Contrato Racial Visual (branquitude da alegoria 'universal' sobre o leão-África) and Feminilidade de Estado."
+    },
+    "confidence": "high",
+    "verification_note": "Fetched FLT/Oslo object page (Exa + WebFetch). Scholarly catalogue entry with image; the obverse image resolves directly (https://api.hf.uio.no/dam/getfile/4551/ → HTTP 200 image/jpeg, verified by curl). Description verbatim: 'a sitting Italia turrita ... fasces in her right hand and holds a lion towards the ground with her left'; legend 'Ubi Roma ibi lex' = 'Where Rome is, there is law'; 33 mm, 1936, Regio Istituto d'Arte Florence, designer unknown. Bibliography: Gentilozzi & Piermattei 2002, Le Medaglie del Ventennio.",
+    "notes": "A medal is a numismatic state-adjacent instrument; here it is an explicitly juridical dispositif (LEX legend + lictor's fasces). Strongest juridical-political fit of the cluster. A companion die at the same institute reads 'Te teneo leo'.",
+    "source_cluster_id": "MIL-CAND-E5"
+  },
+  {
+    "candidate_id": "MIL-CAND-011",
+    "title": "100 Francs Sully (type 1939) — Banque de France",
+    "country": "FR",
+    "regime_context": "Vichy / État Français (1940-1944)",
+    "date_iso": "1940",
+    "support": "papel-moeda",
+    "archive_name": "Numista",
+    "archive_url": "https://en.numista.com/catalogue/note206018.html",
+    "image_url": "https://en.numista.com/catalogue/photos/france/5ecd218cc8b889.09758445-original.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Busto de mulher coroada de louros à esquerda, segurando o bâton de comando; à direita uma criança (alegoria da Juventude) lhe oferece frutos e flores; ao fundo vista aérea de Paris (Île de la Cité, Notre-Dame, o Sena).",
+      "iconographic": "A mulher laureada é a alegoria explícita da França ('allégorie de la France'), portando o bastão de comando como insígnia de autoridade soberana. Verso com Sully (ministro de Henrique IV) e a divisa 'Labourage et pâturage sont les deux mamelles de la France'.",
+      "iconological_regime_hypothesis": "Instrumento monetário do Estado de exceção: tipo criado sob a IIIª República (1935) mas com 'ruling authority' Numista declarando emissão sob o État Français (1940-1944) — a alegoria feminina da nação-soberania circula como rosto do papel-moeda de Vichy num momento em que Marianne é expurgada da moeda metálica. Endurecimento: figura de autoridade (bastão de comando) com vínculo materno-nacional (mamelas da França)."
+    },
+    "confidence": "high",
+    "verification_note": "Página Numista aberta e lida via Exa web_fetch. Confirmados: Issuer France; Issuing bank Bank of France; Period inclui 'French State (1940-1944)'; Years 1935-1942; Obverse descreve 'bust of a woman crowned with laurels symbolizing France'; Designer Lucien Hector Jonas; Engraver Ernest Deloche; P#94, Fay#26. Duas imagens (obverse/reverse) presentes na página, com original-resolution URL usada. Imagem -180 thumb confirmada como hospedada (WebFetch 403 é bloqueio anti-bot do Numista a hotlink direto, mas a imagem está embutida e visível na página catalogada).",
+    "notes": "NÃO duplica os já coletados (note205571, note205783). Emissões datadas 1940-1942 caem dentro do período Vichy. Vários espécimes datados (ex.: 19-12-1940, 02-10-1941) confirmados em casas numismáticas (numiscollection, ma-shops).",
+    "source_cluster_id": "MIL-CAND-F1"
+  },
+  {
+    "candidate_id": "MIL-CAND-012",
+    "title": "1000 Francs Déesse Déméter (type 1942) — Banque de France",
+    "country": "FR",
+    "regime_context": "Vichy / État Français (1940-1944)",
+    "date_iso": "1942",
+    "support": "papel-moeda",
+    "archive_name": "Numista",
+    "archive_url": "https://en.numista.com/205637",
+    "image_url": "https://en.numista.com/catalogue/note205637.html",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Estátua de Deméter sentada à direita com Hércules-criança ao colo; paisagem provençal com pastor e cabras à esquerda. Verso com estátua de Mercúrio e trabalhos de Hércules; ao fundo o porto de Rouen.",
+      "iconographic": "Deméter (Ceres greco-romana), deusa da fertilidade/colheita, representada como ESTÁTUA (não corpo vivo) num enquadramento de colunas jônicas sustentando arquitrave com 'Banque de France'. Wikipédia: 'a representação alegórica exprime aqui a Fertilidade'.",
+      "iconological_regime_hypothesis": "Billet explicitamente emitido sob o État Français (1942-1944), inscrito na corrente alegórica e mitológica de inspiração nacionalista de Vichy com homenagem à herança greco-romana. Endurecimento exemplar: a alegoria feminina é literalmente petrificada em ESTÁTUA, desincorporada e enquadrada arquitetonicamente — fertilidade nacional fixada no eterno clássico. Gravada por mulher (Marguerite 'Rita' Dreyfus)."
+    },
+    "confidence": "high",
+    "verification_note": "Página Numista aberta e lida via Exa web_fetch. Confirmados: Issuer France; Bank of France; Period 'French State (1940-1944)'; Years 1942-1944; Obverse 'Statue of Demeter seated... with Hercules as a child'; Designer Lucien Hector Jonas; Engraver Marguerite Dreyfus (Rita); watermark 'Head of HERMES'; F#40, P#102; calendário de emissão 28/05/1942 em diante. Corroborado por Wikipédia FR (Billet de 1000 francs Déméter, criado 28/05/1942, emitido 21/10/1942) e billetsdefrance.com (id 467). image_url aponta para a página catalogada com a imagem embutida (Numista 403a hotlink direto de .jpg).",
+    "notes": "NÃO duplica os já coletados. Distinto do 5000F Empire (note205571) e do 1000F Commerce (note205783). É o segundo billet Vichy adicional sólido pedido.",
+    "source_cluster_id": "MIL-CAND-F2"
+  },
+  {
+    "candidate_id": "MIL-CAND-013",
+    "title": "Alegoria à Pátria — Carlos Reis (1935), Sala das Sessões da Câmara Corporativa, Palácio de São Bento",
+    "country": "PT",
+    "regime_context": "Estado Novo / Salazarismo (1933-1974)",
+    "date_iso": "1935",
+    "support": "monumento",
+    "archive_name": "Museu da Assembleia da República (Portugal) / FeelTheArt",
+    "archive_url": "https://museu.parlamento.pt/DetalhesObra?id=2193&tipo=OBJ",
+    "image_url": "https://d33y0z4ooepzrm.cloudfront.net/images/20e25dc8ee5cdbfab3fe34b39fa124bcf499b385/fullscreen/20e25dc8ee5cdbfab3fe34b39fa124bcf499b385.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Cinco figuras femininas em espaço arquitetónico clássico. Ao centro, recuada, mulher de toga branca, diadema dourado e coroa de louros, sentada num trono de pedra de três degraus, segurando o brasão português (5 quinas, seis castelos) na mão direita e ramo de oliveira na esquerda; no espaldar lê-se «PATRIA» em trompe-l'oeil. Flanqueada por alegorias em pé: Atena/guerra (elmo, palma, pilo romano), Artes (paleta e compasso), Ceres/Agricultura (espigas, papoilas), Vitória (coroa de louros).",
+      "iconographic": "Alegoria da Pátria entronizada como soberana, sustentando as armas nacionais — iconografia de majestas estatal. Rodeada pelas alegorias subordinadas das funções da Nação (guerra, artes, agricultura, vitória).",
+      "iconological_regime_hypothesis": "Encomenda oficial do Estado (1934, via Direcção-Geral de Edifícios e Monumentos Nacionais) para a parede da Presidência da Sala das Sessões da CÂMARA CORPORATIVA — órgão legislativo-corporativo do Estado Novo. A figura feminina alegórica é instalada literalmente acima da presidência de uma câmara legislativa: Feminilidade de Estado / Purificação Clássica em pintura mural institucional. Endurecimento: corpo togado, sentado, hierático, enquadrado por trono e arquitetura, inscrição estatal «PATRIA»."
+    },
+    "confidence": "high",
+    "verification_note": "Ficha de inventário do Museu da Assembleia da República (MAR 1631) aberta e lida via Exa web_fetch: título 'Alegoria à Pátria', autor Carlos António Rodrigues dos Reis, datação 1935, óleo s/ tela 315x228 cm, historial = encomenda para a Câmara Corporativa (DGEMN 1934). Confirmação independente em FeelTheArt (app.fta.art) com mesma datação/dimensões e coleção 'Palácio de São Bento'. image_url (CDN FeelTheArt) confirmado loadable via WebFetch (descreve a pintura de 1935). NB: a página do museu retornou 503 ao WebFetch direto, mas carrega via Exa e expõe a multimédia 3223.jpg.",
+    "notes": "Item PT do Estado Novo distinto dos já coletados (estátua 'A Soberania', medalha Ano X, selo Lusíadas, PT-001/005/006/007). Suporte classificado como 'monumento' por ser pintura mural institucional fixa (não há rótulo 'pintura' no esquema); registrar como pintura monumental in situ no órgão legislativo.",
+    "source_cluster_id": "MIL-CAND-F3"
+  },
+  {
+    "candidate_id": "MIL-CAND-014",
+    "title": "Tímpano do frontão «OMNIA PRO PATRIA» — Simões de Almeida (sobrinho), 1934/1938, fachada do Palácio de São Bento (Assembleia)",
+    "country": "PT",
+    "regime_context": "Estado Novo / Salazarismo (1933-1974)",
+    "date_iso": "1938",
+    "support": "monumento",
+    "archive_name": "Museu da Assembleia da República / Wikimedia Commons",
+    "archive_url": "https://museu.parlamento.pt/DetalhesObra/Index/6521?tipo=OBJ",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Assembleia_da_Rep%C3%BAblica_%28Portugal%29_Pal%C3%A1cio_de_S%C3%A3o_Bento%2C_Lisboa.JPG",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Grupo escultórico em pedra lioz, tímpano triangular de 30x6 m, com 19 figuras (11 femininas togadas à clássica, 4 masculinas, 2 crianças). Ao centro, figura feminina entronizada (a Pátria); flanqueada à esquerda pela porta-bandeira de peito descoberto (iconografia da Liberdade) e à direita pela Fortaleza (ceptro lanceolado, elmo clássico); demais alegorias: Arquitectura, Desenho, Pintura, Sabedoria, Indústria, Comércio, Vitória.",
+      "iconographic": "Pátria entronizada como majestas legislativa, identificada pela insígnia latina «OMNIA PRO PATRIA» (Tudo pela Nação) inscrita no estrado do trono, ladeada pelas alegorias das funções do Estado e da produção nacional.",
+      "iconological_regime_hypothesis": "Frontão do edifício do Parlamento. A inscrição foi DELIBERADAMENTE alterada sob o Estado Novo: proposta de 'CONSTITUIÇÃO' para 'PÁTRIA' por Raul Lino (1937) e fixada em 'OMNIA PRO PATRIA' por determinação do Eng. Duarte Pacheco (1938). A própria fonte parlamentar afirma: 'a iconografia obedece ao programa ideológico da política do Estado Novo'. Caso-exemplar de Feminilidade de Estado e endurecimento (corpo feminino pétreo, hierático, enquadrado, com inscrição estatal substituída para apagar a Constituição em favor da Pátria)."
+    },
+    "confidence": "high",
+    "verification_note": "Ficha MAR 2059 do Museu da Assembleia da República aberta via Exa: autor José Simões de Almeida (sobrinho), datação 1934/1938, escultura em pedra lioz 3000x600 cm, historial documentando a mudança de inscrição CONSTITUIÇÃO→PÁTRIA→OMNIA PRO PATRIA (1937-1938, DGEMN). Corroborado pela página oficial parlamento.pt/Fachada e app.parlamento.pt/visita/fachada (descrição idêntica do programa Estado Novo). image_url = foto Commons da fachada principal (inclui o frontão), confirmada loadable e CC BY-SA 3.0 via WebFetch (2012, mostra fachada com frontão).",
+    "notes": "Distinto do item F3 (pintura de Carlos Reis, interior) — este é o frontão exterior. A foto Commons mostra a fachada inteira; o tímpano é o grupo escultórico no topo. Para imagem isolada de detalhe do tímpano, a parlamento.pt hospeda fotos dedicadas (MAR 2059.jpg / fachada9.html), porém sem URL estável garantido — usada a foto Commons estável como prova visual do objeto.",
+    "source_cluster_id": "MIL-CAND-F4"
+  },
+  {
+    "candidate_id": "MIL-CAND-015",
+    "title": "Estátuas alegóricas femininas da arcada «LEX» da fachada (A Prudência, A Justiça, A Força, A Temperança), Palácio de São Bento",
+    "country": "PT",
+    "regime_context": "Estado Novo / Salazarismo (1933-1974)",
+    "date_iso": "1938",
+    "support": "monumento",
+    "archive_name": "Assembleia da República (parlamento.pt) / Wikimedia Commons",
+    "archive_url": "https://www.parlamento.pt/Parlamento/Paginas/fachada.aspx",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Assembleia_da_Rep%C3%BAblica_%28Portugal%29_Pal%C3%A1cio_de_S%C3%A3o_Bento%2C_Lisboa.JPG",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Quatro estátuas femininas sentadas e togadas, em mármore/lioz branco de grão grosso, 'de talhe duro e esquematização formal', dispostas sobre a arcada de volta perfeita da fachada, ladeando a dupla inscrição latina «LEX» entre os dois arcos centrais.",
+      "iconographic": "As quatro Virtudes Cardeais personificadas: A Prudência (Raul Xavier), A Justiça (Costa Mota sobrinho / Maximiano Alves segundo as fontes), A Força (Maximiano Alves / Costa Mota), A Temperança (Barata Feyo). A inscrição «LEX» declara explicitamente a função legislativa.",
+      "iconological_regime_hypothesis": "Programa escultórico da fachada do Parlamento sob o Estado Novo (escadaria de Cristino da Silva, 1941; leões apotropaicos de Raul Xavier). As alegorias femininas das virtudes jurídicas sustentam visualmente a palavra LEX — a Lei feminizada e endurecida em mármore de 'talhe duro'. Núcleo do corpus: alegoria feminina da Justiça/Virtudes em arquitetura forense-legislativa estatal. Endurecimento: desincorporação, rigidez postural, dessexualização, enquadramento arquitetónico, inscrição estatal."
+    },
+    "confidence": "medium",
+    "verification_note": "Descrição confirmada em DUAS páginas oficiais do parlamento (parlamento.pt/Fachada e app.parlamento.pt/visita/fachada): 'quatro estátuas alegóricas femininas, sentadas e togadas... A Prudência, A Justiça, A Força e A Temperança', sob a 'dupla inscrição da palavra latina Lex'. As fontes oficiais DIVERGEM na atribuição autoral de Justiça vs Força (Costa Mota sobrinho vs Maximiano Alves) — registrado como tal, não inventado. image_url = mesma foto Commons da fachada (as quatro estátuas situam-se sobre a arcada central). Datação aproximada ao conjunto da remodelação Estado Novo da fachada (anos 1930-40); ano exato de cada estátua não declarado pelas fontes → 1938 como aproximação do conjunto, marcar #verificar.",
+    "notes": "Confidence MEDIUM porque: (a) a foto Commons é da fachada inteira, não um close isolado de cada estátua; (b) divergência de atribuição autoral entre as próprias fontes oficiais; (c) datação do conjunto, não por peça. Item conceptualmente forte (alegoria feminina da Justiça/Lei em fachada legislativa Estado Novo) e distinto dos F3/F4.",
+    "source_cluster_id": "MIL-CAND-F5"
+  },
+  {
+    "candidate_id": "MIL-CAND-016",
+    "title": "Cédula 5 Cruzeiros (carimbo/sobreimpressão sobre 5 Mil Réis, P# 125) — Tesouro Nacional, Estado Novo (1942)",
+    "country": "BR",
+    "regime_context": "Estado Novo (1937-1945)",
+    "date_iso": "1942",
+    "support": "papel-moeda (cédula)",
+    "archive_name": "Numista (item page) + Banknotes.com (verified images)",
+    "archive_url": "https://en.numista.com/catalogue/note218204.html",
+    "image_url": "https://www.banknotes.com/BR125R.JPG",
+    "panofsky_preliminary": {
+      "pre_iconographic": "No verso (sépia, calcografia), um painel com uma criança entre duas mulheres sentadas; no anverso, medalhão oval com retrato masculino (Barão do Rio Branco) ladeado pelo valor 5 e carimbos 'CASA DA MOEDA / 5 / CRUZEIROS'.",
+      "iconographic": "Verso identificado pelo catálogo como 'alegoria da Indústria e do Comércio' (duas figuras femininas sentadas com criança). Instrumento monetário do Tesouro Nacional emitido sob o Estado Novo (Decreto-lei 4791 de 5 out. 1942), no momento da substituição do mil-réis pelo cruzeiro.",
+      "iconological_regime_hypothesis": "Regime NORMATIVO/burocrático: a alegoria feminina serializada no dispositivo monetário estatal do Estado Novo, ligando o feminino alegórico à ordem produtiva nacional (Indústria/Comércio) sob o varguismo. NB: não é alegoria jurídica da República/Justiça, mas alegoria estatal feminina em instrumento de regime de exceção."
+    },
+    "confidence": "high",
+    "verification_note": "Numista item page (note218204.html / 218204) confirmado via Exa: Brasil, 1942, 5 Cruzeiros, Tesouro Nacional, série 'Casa da Moeda - Provisional Issue 1942', verso explicitamente 'a panel with the figure of a child between two seated women (allegory of Industry and Commerce)'; período pt 'República dos Estados Unidos do Brasil (Estado Novo)', Decreto-lei 4791/1942. Imagens anverso/verso confirmadas em Banknotes.com (BR-125): curl HTTP 200, content_type image/jpeg (BR125.JPG=52721 bytes anverso; BR125R.JPG=52135 bytes verso). Numista WebFetch é 403 (anti-bot); página confirmada via mcp Exa fetch, que renderiza o registro completo.",
+    "notes": "Anverso=Barão do Rio Branco (masculino); a ALEGORIA FEMININA está no VERSO. image_url aponta para o verso (BR125R.JPG). Estado Novo é o emissor (Tesouro Nacional, 1942). Caveat honesto: alegoria de Indústria/Comércio, não da República/Justiça/Lei — atende 'alegoria feminina em dispositivo estatal de regime de exceção', mas a função jurídica é indireta (ordem produtiva nacional).",
+    "source_cluster_id": "MIL-CAND-C1"
+  },
+  {
+    "candidate_id": "MIL-CAND-017",
+    "title": "Cédula 20 Cruzeiros (Tesouro Nacional; 2ª estampa; 'Valor Legal', P# 178) — verso 'Proclamação da República' com República togada/elmada guardando a Constituição (1962)",
+    "country": "BR",
+    "regime_context": "Ditadura militar (1964-1985)",
+    "date_iso": "1962",
+    "support": "papel-moeda (cédula)",
+    "archive_name": "Numista (item page) + Banknotes.com (verified image)",
+    "archive_url": "https://en.numista.com/catalogue/note206145.html",
+    "image_url": "https://www.banknotes.com/br178.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Verso (marrom, calcografia): figura feminina sentada, com elmo, segurando uma espada/punhal e um livro (a Constituição Brasileira), iluminada por raios solares; anverso com retrato masculino (Mal. Deodoro da Fonseca) em moldura ornamental.",
+      "iconographic": "Reprodução da pintura 'Proclamação da República' de Cadmo Fausto de Souza: a República personificada como mulher armada guardando a Constituição. Inscrições 'REPÚBLICA DOS ESTADOS UNIDOS DO BRASIL / PROCLAMAÇÃO DA REPÚBLICA / VALOR LEGAL'. Emissor: Tesouro Nacional.",
+      "iconological_regime_hypothesis": "Alegoria JURÍDICO-POLÍTICA por excelência: a República feminina como guardiã armada da Constituição — núcleo do 'Contrato Sexual Visual'. Cédula desmonetizada em 30 jun. 1972, portanto em circulação durante os primeiros anos da ditadura militar (1964-72). Regime: passagem NORMATIVO→MILITAR no uso estatal do dinheiro."
+    },
+    "confidence": "medium",
+    "verification_note": "Numista note206145.html / 206145 confirmado via Exa: Brasil, 1962, 20 Cruzeiros, Tesouro Nacional, 2ª estampa 'Valor Legal', P# 178, desmonetizada 30 jun. 1972; verso 'allegorical and pictorial representation of the Republic, painting by Cadmo Fausto de Souza' (tema: 'Allegory of the Proclamation of the Republic'). Descrição do verso como 'seated allegorical woman holding a sword and a Brazilian Constitution book illuminated by sunlight rays' corroborada por Banknotes.com (BR-178) e por Smithwick Numismatics ('helmeted República guarding the Brazilian constitution with a dagger'). Imagem br178.jpg confirmada: curl HTTP 200, image/jpeg, 261335 bytes.",
+    "notes": "CAVEAT DE PROVENIÊNCIA (honesto): a cédula foi EMITIDA em 1962 (pré-golpe), embora tenha CIRCULADO sob a ditadura até a desmonetização em 1972. Logo, é um 'instrumento estatal em circulação durante o regime de exceção', não 'criado pelo regime'. Por isso confidence=medium e não high. NÃO duplica os itens já no corpus (BR-1CR-1970, BR-50CR-1965): denominação e tipo distintos (20 Cruzeiros P#178). Imagem br178.jpg é referência de galeria (serial pode variar).",
+    "source_cluster_id": "MIL-CAND-C2"
+  },
+  {
+    "candidate_id": "MIL-CAND-018",
+    "title": "Cédula 20 Cruzeiros (Tesouro Nacional; 1ª estampa; 'Valor Legal', P# 168) — mesma alegoria da República guardando a Constituição; impressão de 1963 (P# 168b)",
+    "country": "BR",
+    "regime_context": "Ditadura militar (1964-1985)",
+    "date_iso": "1963",
+    "support": "papel-moeda (cédula)",
+    "archive_name": "Numista (item page)",
+    "archive_url": "https://en.numista.com/catalogue/note210058.html",
+    "image_url": "",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Verso (vermelho, calcografia): mesma figura feminina sentada com espada e livro (Constituição) sob raios solares; anverso com retrato masculino (Mal. Deodoro da Fonseca).",
+      "iconographic": "Verso: 'representação alegórica e pictórica da República', pintura de Cadmo Fausto de Souza ('Proclamação da República'); inscrição 'PROCLAMAÇÃO DA REPÚBLICA'. 1ª estampa, 'Valor Legal', impressa pela American Bank Note Company.",
+      "iconological_regime_hypothesis": "Variante cromática/de estampa do mesmo motivo jurídico-político (República armada guardando a Constituição). A impressão P# 168b (1963, assinaturas RFN/MCPAS) circulou no início do regime militar até a desmonetização em 12 fev. 1967."
+    },
+    "confidence": "low",
+    "verification_note": "Numista note210058.html / 210058 confirmado via Exa: Brasil, 20 Cruzeiros, Tesouro Nacional, 1ª estampa 'Valor Legal', anos 1961-1963, P# 168; impressão ND(1963) P# 168b com assinaturas RFN/MCPAS (tiragem 30.000.000); verso 'allegorical and pictorial representation of the Republic, painting by Cadmo Fausto de Souza'. A página do item existe e carrega imagens (padrão Numista 'catalogue/photos/...-original.jpg'), porém NÃO extraí a URL direta da imagem (o bloco de fotos não é renderizado pelo Exa e o WebFetch da Numista retorna 403). image_url deixado vazio por não ter sido confirmado diretamente — a imagem está presente na archive_url.",
+    "notes": "Incluído como variante de estampa do MIL-CAND-C2 com a impressão de 1963 (P# 168b) que entra na ditadura. confidence=low por DOIS motivos honestos: (1) proveniência — projeto/1ª emissão pré-1964; (2) image_url não confirmada via URL direta (apenas presente na página). Mesmo caveat de proveniência do C2. Útil como reforço documental do motivo 'República guardiã da Constituição', não como item independente forte.",
+    "source_cluster_id": "MIL-CAND-C3"
+  },
+  {
+    "candidate_id": "MIL-CAND-019",
+    "title": "20 Cruzeiros, Tesouro Nacional, 1ª estampa (P-136) — reverso: Alegoria da Proclamação da República (A República), por Cadmo Fausto de Souza",
+    "country": "BR",
+    "regime_context": "Estado Novo (1937-1945)",
+    "date_iso": "1943",
+    "support": "papel-moeda",
+    "archive_name": "Numista / banknote.ws (Garry Saint catalogue)",
+    "archive_url": "https://en.numista.com/203928",
+    "image_url": "http://www.banknote.ws/COLLECTION/countries/AME/BRA/BRA0136r.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Figura feminina drapejada em composição alegórica monocromática (vermelho, calcografia), inscrição PROCLAMAÇÃO DA REPÚBLICA, numeral 20 e legenda do Tesouro Nacional.",
+      "iconographic": "Alegoria de A República brasileira fundada na Proclamação de 1889, derivada da pintura de Cadmo Fausto de Souza; reverso de cédula emitida pelo Thesouro Nacional sob o regime Vargas. Anverso traz retrato de Deodoro da Fonseca.",
+      "iconological_regime_hypothesis": "Regime NORMATIVO: alegoria feminina da República integrada ao instrumento monetário estatal do Estado Novo, fixando a Proclamação como mito fundador republicano endossado pela ditadura varguista; figura serializada e inscrita em moldura institucional (inscrição_estatal alta)."
+    },
+    "confidence": "high",
+    "verification_note": "Imagem do verso BRA0136r.jpg verificada: HTTP 200, image/jpeg, 59168 bytes, JPEG image data válido (GET confirmado). Página banknote.ws P-136 (http://www.banknote.ws/COLLECTION/countries/AME/BRA/BRA0136.htm, HTTP 200) rotula explicitamente o reverso como 'Allegorical woman (Proclamation of the Republic)'. Numista 203928 confirma reverso 'allegorical and pictorial representation of the Republic, a painting by Cadmo Fausto de Souza', emissão 1943, Thesouro Nacional, anverso Deodoro da Fonseca. Field provenance: Numista + banknote.ws.",
+    "notes": "Distinta das variantes 20 Cr já no corpus (note206145 1962, note210058 1963): esta é a 1ª estampa autografada de 1943, dentro da janela do Estado Novo, impressão vermelha pela American Bank Note Company. Não confundir com BR-009 (A Justiça STF).",
+    "source_cluster_id": "MIL-CAND-G1"
+  },
+  {
+    "candidate_id": "MIL-CAND-020",
+    "title": "50 Cruzeiros, Tesouro Nacional, 1ª estampa (P-137) — reverso: Alegoria da Lei Áurea (mulher alegórica / 'Lady Liberty'), por Cadmo Fausto de Souza",
+    "country": "BR",
+    "regime_context": "Estado Novo (1937-1945)",
+    "date_iso": "1943",
+    "support": "papel-moeda",
+    "archive_name": "Numista / banknote.ws (Garry Saint catalogue)",
+    "archive_url": "https://en.numista.com/205595",
+    "image_url": "http://www.banknote.ws/COLLECTION/countries/AME/BRA/BRA0137r.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Figura feminina alegórica em composição violeta (calcografia), inscrição LEI AUREA, numeral 50, legenda do Tesouro Nacional.",
+      "iconographic": "Alegoria da Lei Áurea (Lei nº 3.353 de 1888, abolição da escravidão), pintura de Cadmo Fausto de Souza; anverso com retrato da Princesa Isabel. Cédula do Thesouro Nacional emitida sob o Estado Novo. Fonte secundária (leftovercurrency) descreve a figura do verso como 'Lady Liberty' sobre o texto 'Lei Aurea'.",
+      "iconological_regime_hypothesis": "Regime NORMATIVO: figura feminina alegórica como personificação jurídica da norma abolicionista, transformando um ato legislativo (Lei Áurea) em corpo feminino idealizado no instrumento monetário estatal do Estado Novo — núcleo do conceito de alegoria feminina da cultura jurídica. Inscrição estatal e enquadramento institucional elevados."
+    },
+    "confidence": "high",
+    "verification_note": "Página banknote.ws P-137 (http://www.banknote.ws/COLLECTION/countries/AME/BRA/BRA0137.htm, HTTP 200) rotula o reverso explicitamente como 'Allegorical woman (\"Lei Aurea\" - Golden Law)'. Imagem do verso BRA0137r.jpg verificada: HTTP 200, image/jpeg, 65565 bytes, JPEG image data válido (GET confirmado). Numista 205595 confirma reverso 'allegorical representation of the Aurea Law, a painting by Cadmo Fausto de Sousa', 1943, Thesouro Nacional. Field provenance: descrição e datação de Numista + banknote.ws; descrição 'Lady Liberty' de leftovercurrency.com (secundária).",
+    "notes": "Candidato mais forte do cluster pelo vínculo direto figura feminina ↔ norma jurídica (Lei Áurea). Distinto de tudo no corpus. Designer do verso: Cadmo Fausto de Souza; gravura American Bank Note Company.",
+    "source_cluster_id": "MIL-CAND-G2"
+  },
+  {
+    "candidate_id": "MIL-CAND-021",
+    "title": "20 Cruzeiros, Casa da Moeda, emissão provisória 1942 (carimbo sobre 20 Mil Réis, P-127) — reverso: mulher sentada representando a deusa Minerva",
+    "country": "BR",
+    "regime_context": "Estado Novo (1937-1945)",
+    "date_iso": "1942",
+    "support": "papel-moeda",
+    "archive_name": "Numista / banknote.ws (Garry Saint catalogue)",
+    "archive_url": "https://en.numista.com/218212",
+    "image_url": "http://www.banknote.ws/COLLECTION/countries/AME/BRA/BRA0127r.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Figura feminina sentada em composição laranja (calcografia), ladeada pelo numeral 20; anverso com retrato de Deodoro da Fonseca e carimbo/rosácea 'CASA DA MOEDA 20 CRUZEIROS'.",
+      "iconographic": "Mulher sentada representando a deusa mitológica Minerva (sabedoria, prudência, atributo associado à justiça e ao Estado); cédula de 20 Mil Réis revalidada para 20 Cruzeiros em 1942 pelo Decreto-lei 4.791, sob o Estado Novo.",
+      "iconological_regime_hypothesis": "Regime NORMATIVO/FUNDACIONAL: Minerva como matriz clássica da Purificação Clássica — figura feminina mitológica extraída do feminino histórico e fixada como emblema impessoal do saber/poder estatal no papel-moeda. Heraldicização e enquadramento arquitetônico moderados."
+    },
+    "confidence": "high",
+    "verification_note": "Página banknote.ws P-127 (http://www.banknote.ws/COLLECTION/countries/AME/BRA/BRA0127.htm, HTTP 200) rotula o reverso como 'Allegorical woman'. Imagem do verso BRA0127r.jpg verificada: HTTP 200, image/jpeg, 62974 bytes, JPEG válido (GET). Numista 218212 confirma reverso 'image of a seated woman representing the mythological goddess Minerva', emissão 1942 sob Decreto-lei 4.791 do Estado Novo. Field provenance: Numista + banknote.ws.",
+    "notes": "Objeto DISTINTO da nota carimbada já no corpus (note218204 = 5 Cruzeiros 1942, Indústria/Comércio). Esta é a 20 Cruzeiros 1942 (P-127, Minerva). Tiragem 5.4M; índice de raridade alto (76).",
+    "source_cluster_id": "MIL-CAND-G3"
+  },
+  {
+    "candidate_id": "MIL-CAND-022",
+    "title": "1 Cruzeiro, Banco Central do Brasil, 2ª edição, Estampa B (P-191A, 1972-1980) — anverso: Efígie da República ('Liberty Head')",
+    "country": "BR",
+    "regime_context": "Ditadura militar (1964-1985)",
+    "date_iso": "1972",
+    "support": "papel-moeda",
+    "archive_name": "Numista / banknotes.com (Audrius Tomonis)",
+    "archive_url": "https://en.numista.com/203551",
+    "image_url": "https://www.banknotes.com/BR191.JPG",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Efígie feminina de perfil em medalhão circular, voltada à esquerda, fundo verde; legenda BANCO CENTRAL DO BRASIL / UM CRUZEIRO.",
+      "iconographic": "Efígie da República (personificação feminina alegórica da República brasileira, dita 'Liberty Head'), gravada por Benedicto Ribeiro e desenhada por Aloísio Magalhães; cédula emitida pelo Banco Central durante a ditadura militar (estampa B, 1972-1980, assinaturas Delfim Netto / Simonsen / Galvêas).",
+      "iconological_regime_hypothesis": "Regime NORMATIVO sob ditadura: a Efígie da República reduzida a busto serializado e despersonalizado, reproduzido em massa no instrumento monetário do Estado autoritário — alto grau de serialidade, desincorporação e inscrição_estatal. A alegoria feminina republicana persiste, mas esvaziada de narrativa, como selo abstrato do Estado."
+    },
+    "confidence": "medium",
+    "verification_note": "Numista 203551 (HTTP via Exa) confirma anverso 'effigy of the Republic looking to the left', estampa B, anos 1972-1980, Banco Central, gravador Benedito de Araújo Ribeiro. banknotes.com/br191 (HTTP 200) rotula 'Front: Effigy of the Republic (\"Liberty Head\")'. Imagem BR191.JPG verificada: HTTP 200, image/jpeg, 108017 bytes, JPEG válido (GET). RESSALVA: a imagem BR191.JPG é compartilhada entre as estampas A (1970) e B (1972), pois são quase idênticas; a estampa A de 1970 (note206016) já está no corpus como BR-1CR-1970. Esta candidatura é a CONTINUAÇÃO distinta (estampa B, fundo só verde, anos 1972-1980, mais fundo na ditadura) — registrada como objeto catalográfico separado, mas visualmente próxima. Confiança media por esse motivo.",
+    "notes": "HONESTIDADE METODOLÓGICA: a ditadura militar (1964-1985) NÃO criou nova alegoria feminina própria — reutilizou a 'Efígie da República' de 1970 (Benedicto Ribeiro, supostamente inspirada na atriz Tônia Carrero) em toda a 2ª edição do cruzeiro (1, 5, 10, 50, 100 Cr). A única figura alegórica feminina de instrumento estatal de exceção neste período é essa efígie reaproveitada. Se o corpus já cobre a estampa A 1970, esta estampa B 1972-1980 é o objeto-irmão mais próximo de valor analítico (variação temporal dentro da ditadura). Avaliar dedupe visual antes de salvar.",
+    "source_cluster_id": "MIL-CAND-G4"
+  },
+  {
+    "candidate_id": "MIL-CAND-023",
+    "title": "20 Escudos prata 1953 \"Renovação Financeira / Ressurgimento\" — alegoria feminina sentada lendo/escrevendo",
+    "country": "PT",
+    "regime_context": "Estado Novo / Salazarismo (1933-1974)",
+    "date_iso": "1953",
+    "support": "moeda (prata .800, 34 mm, KM#585)",
+    "archive_name": "Numista (catalogue) + NGC World Coin Price Guide + Silver Age Coins (imagens anverso/reverso)",
+    "archive_url": "https://en.numista.com/107436",
+    "image_url": "https://www.silveragecoins.com/en/details?item=22444",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Mulher togada sentada de perfil para a esquerda, segurando/lendo um livro de registos contabilísticos; legenda em bordo RENOVAÇÃO FINANCEIRA RESSURGIMENTO. Anverso: escudo nacional sobre esfera armilar, REPÚBLICA PORTUGUESA, 1953.",
+      "iconographic": "Personificação alegórica feminina da economia / instrução / progresso material, ligada à 'Renovação Financeira' salazarista (25.º aniversário das reformas de Salazar como Ministro das Finanças, 1928). Gravador João da Silva (assinatura sob o assento).",
+      "iconological_regime_hypothesis": "Regime NORMATIVO: a alegoria feminina é domesticada e burocratizada — corpo togado, postura serena, atributo escritural (o livro-razão), inscrita no instrumento monetário do Estado para sacralizar a austeridade financeira do Estado Novo como 'ressurgimento' nacional. Endurecimento incipiente via enquadramento contabilístico e inscrição estatal."
+    },
+    "confidence": "high",
+    "verification_note": "Numista N#107436 (pattern) e KM#585 (issued) confirmados via Exa fetch — reverso 'Seated woman reading a book', legenda RENOVAÇAO FINANCEIRA RESSURGIMENTO, gravador João da Silva. NGC (ngccoin.com) e Silver Age Coins (silveragecoins.com/en/details?item=22444) ambos mostram imagens anverso+reverso e descrevem 'Seated figure facing left reading a book'. HTTP OK em Exa fetch. coinz.eu corrobora: 'a woman in toga with bookkeeping records in her hands seating left - personification of economics'. Datas/gravador/mintage (1.000.000) provêm das páginas; NÃO inventados. Numista direto deu HTTP 403 via WebFetch, mas conteúdo recuperado via Exa.",
+    "notes": "Item forte de Cluster B (PT). Moeda estatal de circulação do Estado Novo com alegoria feminina clássica explícita. Imagem de melhor resolução: silveragecoins.com. Numista catalogou sob 'Second Republic 1926-1974' (rótulo numismático do período) = governo Salazar.",
+    "source_cluster_id": "MIL-CAND-B1"
+  },
+  {
+    "candidate_id": "MIL-CAND-024",
+    "title": "Medalha comemorativa 'Ano X do Estado Novo' (1926-1936) — figura feminina alada tipo Vitória/Vénus com tocha irradiante",
+    "country": "PT",
+    "regime_context": "Estado Novo / Salazarismo (1933-1974)",
+    "date_iso": "1936",
+    "support": "medalha comemorativa (prata; também cobre prateado)",
+    "archive_name": "Numista (catalogue, exonumia)",
+    "archive_url": "https://en.numista.com/catalogue/exonumia313183.html",
+    "image_url": "https://en.numista.com/catalogue/photos/portugal/61ae6e3e4bc1b3.05299603-original.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Meia-figura feminina à maneira clássica grega, braços estendidos, inclinada à esquerda, segurando no braço direito uma tocha irradiante; par de asas horizontais atravessa toda a largura da peça. Legenda ANO X : 1926 1936. Reverso: duas meias-figuras masculinas togadas à romana com o escudo português, PORTUGAL A REVOLUÇÃO CONTINUA.",
+      "iconographic": "Alegoria feminina alada (Vitória/Fama/Vénus cívica) celebrando o 10.º aniversário do regime (golpe de 28 de Maio de 1926 → Estado Novo). A tocha = luz/regeneração nacional; as asas = triunfo do regime.",
+      "iconological_regime_hypothesis": "Regime FUNDACIONAL→NORMATIVO: corpo feminino vivo e dinâmico (braços abertos, asas) ainda mobilizado para sacralizar a 'revolução' salazarista; contraste com a masculinização togada do reverso ('A REVOLUÇÃO CONTINUA'). Contrato Sexual Visual: feminino-alegórico como portador da luz fundadora, masculino como sujeito político continuador."
+    },
+    "confidence": "high",
+    "verification_note": "Numista N#313183 recuperado integralmente via Exa fetch — descrição obverse 'Venus like female half figure with outstretched arms... holding an irradiating torch... pair of horizontal wings', lettering ANO X : 1926 1936, licença CC0 (NoIdea). Duas imagens (obverse/reverse) presentes na página com URLs diretos. image_url é o ficheiro original obverse confirmado na página. Ano 1936, prata, 21.41g — todos da página, não inventados. HTTP OK via Exa.",
+    "notes": "Medalha (exonumia) — instrumento simbólico do Estado, não moeda de curso. Aceitável como 'medalha/estampa' estatal. Diâmetro listado '350mm' é provável erro de catálogo (provavelmente 35.0 mm dado peso 21.41g); reportar como consta sem corrigir. Não confundir com PT-006/007.",
+    "source_cluster_id": "MIL-CAND-B2"
+  },
+  {
+    "candidate_id": "MIL-CAND-025",
+    "title": "Estátua 'A Soberania', Leopoldo de Almeida — Pavilhão dos Portugueses no Mundo, Exposição do Mundo Português (Lisboa, 1940)",
+    "country": "PT",
+    "regime_context": "Estado Novo / Salazarismo (1933-1974)",
+    "date_iso": "1940",
+    "support": "monumento/escultura (gesso armado, efémera; demolida c. 1943/anos 1950)",
+    "archive_name": "Wikipédia PT (verbete Exposição do Mundo Português) + Wikimedia Commons (Category) + Biblioteca de Arte Gulbenkian (referência de coleção fotográfica)",
+    "archive_url": "https://pt.wikipedia.org/wiki/Exposi%C3%A7%C3%A3o_do_Mundo_Portugu%C3%AAs",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-TV6rq2Pc8SMwXkxsJ5f1WNKmuZmMJfB-Obo-FlO5Mc2KYy41ZlU2t2Ni4nZ9TqvdgyplkFcFVM6mANCtcH5rKR5H_fC93C6hAbRxtWNUsfovCgiUUwVJna0EMQFNy4YeemhNLg/s833/Soberania.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Estátua monumental de mulher couraçada (armadura), severa, segurando a esfera armilar, apoiada num lictor/feixe legendado com as partes do Mundo em caracteres góticos; figura central no eixo do Pavilhão dos Portugueses no Mundo.",
+      "iconographic": "Personificação alegórica da Soberania nacional/imperial portuguesa. Couraça = poder do Estado; esfera armilar = império/descobrimentos; feixe (fasces) + 'partes do Mundo' = autoridade colonial planetária.",
+      "iconological_regime_hypothesis": "Regime MILITAR/IMPERIAL: o feminino-alegórico endurecido ao máximo — 'severa mulher couraçada', corpo dessexualizado e blindado, fixado como emblema da soberania colonial. Candidato exemplar de endurecimento (rigidez_postural, desincorporação, heraldicização, inscrição_estatal) e do Contrato Racial Visual (soberania 'universal' branca sobre 'as partes do Mundo')."
+    },
+    "confidence": "medium",
+    "verification_note": "Existência, autoria (Leopoldo de Almeida), descrição ('severa mulher couraçada, segurando a esfera armilar, apoiada num litor legendado com as partes do Mundo') confirmadas em MÚLTIPLAS fontes via Exa: Wikipédia PT, biografias do escultor (amadeosouza-cardoso.pt, pt.wikipedia Leopoldo de Almeida), blog cidadanialx (que afirma ter fotografias). A Wikimedia Commons Category:Exposição do Mundo Português foi aberta via Exa (51 ficheiros + subcategorias) MAS não isolei um ficheiro .jpg específico da Soberania com URL direto verificado. Fotografias documentadas existem na Biblioteca de Arte da Fundação Calouste Gulbenkian (col. Mário Novais / Horácio Novais / Casimiro dos Santos Vinagre, 1940). image_url aponta para a categoria Commons como ponto de partida verificável, NÃO para um ficheiro de imagem confirmado individualmente. REQUER follow-up: localizar o ficheiro exato (Commons file: ou Gulbenkian Biblioteca de Arte Flickr/online) antes de catalogar com imagem fixa. | IMAGEM FIXADA (round 3): Immagine aperta e ispezionata visivamente (JPEG 113,5KB): fotografia d'epoca (1940) del Pavilhao dos Portugueses no Mundo (Exposicao do Mundo Portugues, Praca do Imperio, Lisbona) con, al centro, la monumentale Estatua da Soberania di Leopoldo de Almeida — figura femminile in armatura, eretta sul basamento davanti alla facciata col planisfero, che regge la sfera armillare. Corrisponde alla descrizione (donna corazzata con esfera armilar). NB: la statua NON e' su Wikimedia Commons (assente dalla Category:Leopoldo de Almeida; il padiglione fu demolito nel 1943, l'originale in gesso e' al Museu de Lisboa). Non esiste quindi un File: Commons; questo file blogger e' direttamente visualizzabile e confermato. Fonte alternativa identica: pt.wikipedia 'Exposicao do Mundo Portugues' e Museu Virtual da Lusofonia descrivono la stessa opera.",
+    "notes": "Conceptualmente o item PT mais forte da tese (soberania couraçada = endurecimento + contrato racial visual), mas a IMAGEM ainda não está fixada num URL único confirmado — por isso confidence=medium, não high. Não é Padrão dos Descobrimentos (esse tem 31 homens + 1 mulher, figura diferente).",
+    "source_cluster_id": "MIL-CAND-B3"
+  },
+  {
+    "candidate_id": "MIL-CAND-026",
+    "title": "Selo 'Lusíadas' (alegoria feminina da República segurando Os Lusíadas) — selo-base de Pedro Guedes, em uso no Estado Novo desde 1931",
+    "country": "PT",
+    "regime_context": "Estado Novo / Salazarismo (1933-1974)",
+    "date_iso": "1931",
+    "support": "selo (estampa filatélica, selo-base de circulação)",
+    "archive_name": "Fundação Portuguesa das Comunicações (Comunicar na República, flipbook online)",
+    "archive_url": "https://www.fpc.pt/Portals/0/Flipbook/HTML/files/assets/seo/page107.html",
+    "image_url": "https://touchstamps.com/Image/GetImage/40415?width=300",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Personagem feminina em estilo naturalista que segura um exemplar de 'Os Lusíadas'; concebida como alegoria da República.",
+      "iconographic": "Alegoria feminina da República/Pátria portuguesa associada ao épico camoniano — substituto do tipo 'Ceres' como selo-base, escolhido por concurso (1926), desenho de Pedro Guedes.",
+      "iconological_regime_hypothesis": "Regime NORMATIVO: alegoria feminina republicana herdada, recodificada como veículo postal quotidiano do Estado (serialidade, inscrição_estatal); a Pátria-mulher subordinada ao cânone literário-imperial (Lusíadas)."
+    },
+    "confidence": "medium",
+    "verification_note": "Existência e descrição ('alegoria à República, personagem feminina que segura Os Lusíadas... estilo naturalista, desenho de Pedro Guedes, concurso 1926, substituir os selos tipo Ceres') confirmadas no flipbook institucional da Fundação Portuguesa das Comunicações (fpc.pt 'Comunicar na República', page107) recuperado via Exa. PORÉM: a página é um flipbook HTML cujo URL não me devolveu uma imagem isolada do selo com URL direto verificado; o texto descreve mas não consegui confirmar o render visual do selo específico nesta passagem. Data 1931 (lançamento) da fonte. CUIDADO de sobreposição com PT-007 (Ceres) — este é o SUCESSOR do Ceres, design distinto. REQUER follow-up de imagem (Colnect/StampWorld do tipo 'Lusíadas' 1931). | IMAGEM FIXADA (round 3): Immagine aperta e ispezionata visivamente (JPEG 18,9KB): francobollo Portogallo 'LUSIADAS' (qui il valore 25c, azzurro; serie definitiva 1931 disegnata da Pedro Guedes, incisione A. Fragoso). Mostra una figura femminile allegorica drappeggiata in stile classico (personificazione del Portogallo/Republica) che regge un libro aperto con scritta 'LUSIADAS' recante la Croce dell'Ordine di Cristo; 'PORTUGAL / CORREIO / 25 C.'. Corrisponde alla descrizione (alegoria feminina segurando Os Lusiadas). NB: la serie non risulta su Wikimedia Commons; touchstamps ospita un'immagine pulita e direttamente visualizzabile, qui confermata. StampWorld e Colnect confermano design Pedro Guedes 1931.",
+    "notes": "Borderline por verificação de imagem. Incluído por ser alegoria feminina estatal documentada e distinta do Ceres; rebaixar/descartar se a imagem não for fixável. Distinto dos selos do Centenário 1940 (que são maioritariamente retratos de Rowland Hill, sem alegoria feminina — ver gap na nota final).",
+    "source_cluster_id": "MIL-CAND-B4"
+  },
+  {
+    "candidate_id": "MIL-CAND-027",
+    "title": "1 Peseta 1948 'Dama de Elche' — efígie feminina ibérica em nota do Banco de España (Estado franquista)",
+    "country": "ES",
+    "regime_context": "Espanha franquista (1939-1975)",
+    "date_iso": "1948",
+    "support": "papel-moeda (nota de 1 peseta, Banco de España, Pick 135)",
+    "archive_name": "Numista (catalogue) + World Banknotes & Coins (imagem)",
+    "archive_url": "https://en.numista.com/202071",
+    "image_url": "https://www.worldbanknotescoins.com/2015/04/spain-1-peseta-banknote-1948-lady-of-elche.html",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Busto feminino de pedra calcária (Dama de Elche) de frente/perfil à direita, com toucado complexo e grandes rodetes laterais; verso com quatro laranjas e folhas. Legenda BANCO DE ESPAÑA UNA PESETA DE CURSO LEGAL, Madrid 19 de Junio de 1948.",
+      "iconographic": "Efígie arqueológica ibérica (séc. IV a.C.) instrumentalizada como rosto feminino da nação espanhola na moeda fiduciária do Estado franquista. Gravador José Luis López Sánchez-Toda; FNMT Madrid. Emitida/posta em circulação 18 Mar 1949.",
+      "iconological_regime_hypothesis": "Regime NORMATIVO/identitário: o franquismo SUBSTITUI a alegoria feminina clássica (republicana: Hispania, 'La Rubia') por um busto arqueológico hiero-fixo — feminino petrificado, dessexualizado, des-historicizado, ancorando a continuidade 'eterna' da Hispanidad. Endurecimento por mineralização (a mulher como pedra/monumento), não por couraça."
+    },
+    "confidence": "high",
+    "verification_note": "Numista N#202071 recuperado integralmente via Exa fetch — 'Limestone bust of the Lady of Elche', ruling authority Francisco Franco (1936-1975), ano 1948, emitido 18 March 1949, gravador José Luis López Sánchez-Toda, FNMT, mintage 161.952.000, assinaturas Goicoechea/Martín/Rodríguez. World Banknotes & Coins (worldbanknotescoins.com, 2015) confirma imagem anverso (Dama de Elche) + verso (laranja) e os mesmos dados. HTTP OK via Exa. Dados não inventados.",
+    "notes": "BORDERLINE quanto a 'alegoria': a Dama de Elche é um busto arqueológico real, NÃO uma personificação alegórica clássica criada ad hoc. Incluída porque é o exemplo central de FIGURA FEMININA instrumentalizada por instrumento de Estado do regime de exceção franquista — relevante para a tese como contraponto (o franquismo evita a alegoria feminina viva e adota a mulher-pedra histórica). Marcar #verificar / discutir enquadramento com a orientadora.",
+    "source_cluster_id": "MIL-CAND-B5"
+  },
+  {
+    "candidate_id": "MIL-CAND-028",
+    "title": "1 Peseta 1937 'La Rubia' — alegoria feminina da República (CONTRA-EXEMPLO / fronteira de regime; pré-vitória franquista)",
+    "country": "ES",
+    "regime_context": "Segunda República Espanhola (lado republicano, Guerra Civil 1936-1939) — CONTRA-EXEMPLO, não intra-regime franquista",
+    "date_iso": "1937",
+    "support": "moeda (1 peseta, latão/aluminium bronze)",
+    "archive_name": "Numista (catalogue)",
+    "archive_url": "https://en.numista.com/6274",
+    "image_url": "https://en.numista.com/6274",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Cabeça feminina de perfil à esquerda; verso com ramo de videira e cacho de uvas. Legenda REPVBLICA ESPAÑOLA / 1 PESETA 1937.",
+      "iconographic": "Alegoria feminina da República Espanhola ('La Rubia', a Loira). Emitida pela II República em 1937 durante a Guerra Civil.",
+      "iconological_regime_hypothesis": "Marcador de FRONTEIRA: prova documental de que a alegoria feminina clássica é CÓDIGO REPUBLICANO. O Estado franquista, ao vencer (1939), expurga este tipo e substitui por cabeça de Franco / escudo / jugo e flechas / Dama de Elche. Útil como contra-alegoria para datar o 'apagamento' do feminino alegórico pelo regime de exceção."
+    },
+    "confidence": "high",
+    "verification_note": "Numista N#6274 recuperado via Exa — 'Female head facing left allegory of the Spanish Republic', REPVBLICA ESPAÑOLA, 1937, II Republic (1931-1939), apelido 'La Rubia'. HTTP OK. NÃO é objeto franquista: é o objeto que o franquismo apaga. Incluído explicitamente como peça de contraste documental, não como item franquista de pleno direito.",
+    "notes": "NÃO é um item-alvo estrito (é republicano, 1937). Incluído como evidência empírica do achado central da pesquisa em Cluster B (Espanha): o regime de exceção franquista NÃO produziu alegorias femininas clássicas em seus instrumentos de Estado — todas as moedas Franco mostram cabeça do Caudillo, escudo, jugo/flechas ou sol nascente. Marcar #contra-alegoria. Descartar se o protocolo exigir apenas objetos intra-regime. | RECLASSIFICADO: emitida pelo governo republicano, não pelo Estado franquista. Documenta a alegoria feminina que o franquismo SUPRIMIU/substituiu (por Isabel a Católica e a Dama de Elche). Útil como contra-alegoria, NÃO conta como entry de regime militar.",
+    "source_cluster_id": "MIL-CAND-B6"
+  },
+  {
+    "candidate_id": "MIL-CAND-029",
+    "title": "10 Pesos (\"Ángel de la Libertad\") — winged female allegory of Liberty breaking chains, coup date 11-IX-1973 (KM#210)",
+    "country": "CL",
+    "regime_context": "Ditadura de Pinochet (1973-1990)",
+    "date_iso": "1976/1980",
+    "support": "moeda",
+    "archive_name": "Numista",
+    "archive_url": "https://en.numista.com/catalogue/pieces2689.html",
+    "image_url": "https://en.numista.com/catalogue/photos/chili/1117-original.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Half-length winged female figure facing right, arms raised, with broken shackles and a length of chain hanging from each wrist; circular legend REPUBLICA DE CHILE above, LIBERTAD below, the date 11-IX 1973 and mint mark 'So' at the sides. Reverse: value and date within a laurel wreath.",
+      "iconographic": "Allegory of Liberty rendered as the winged goddess Niké/Victoria (read by the Chilean state museum catalogue as 'Niké Astrea o Victoria alada'); the broken chains and the inscribed coup date 11 September 1973 identify her as 'la Chilena' liberated by the military takeover. State-issued circulating coin of the Casa de Moneda de Chile, engraver Francisco Orellana Pavéz.",
+      "iconological_regime_hypothesis": "MILITAR / CONTRA-ALEGORIA appropriated by the State: the regime mints a classical female Liberty whose emancipation is explicitly dated to its own coup, converting an allegory of freedom into a numismatic legitimation of the dictatorship. The chained-then-freed female body operationalizes the junta's foundational myth (liberation from 'Marxism') on the most ubiquitous state instrument, legal tender."
+    },
+    "confidence": "high",
+    "verification_note": "Numista page fetched via Exa (HTTP ok; WebFetch returns 403 on Numista). Page renders obverse image 1117-original.jpg and reverse 1118-original.jpg (© Quodlibet) plus a second example (© DMK Collection). Numista text: 'Chilena as a female angel with arms raised wearing broken shackles chains representing the overthrow of the government of Marxist President Salvador Allende. Date of the military coup in 1973.' Years 1976-1980, KM#210, Casa de Moneda de Chile (So). Cross-confirmed by Chilean STATE museum registry SURDOC (Museo de Artes Decorativas) reg. 24-2599 and Chile Patrimonios government portal. All fields taken from the pages.",
+    "notes": "Primary Pinochet-era female allegory. NEW object (no Chile items in corpus per brief). Chilean state cross-references: SURDOC https://www.surdoc.cl/registro/24-2599 ; engraver F. Orellana Pavéz; mintage 1976 So 2,100,000 / 1977 So 30,000,000 etc. Numista also tags it 'Allegory'.",
+    "source_cluster_id": "MIL-CAND-D1"
+  },
+  {
+    "candidate_id": "MIL-CAND-030",
+    "title": "5 Pesos (\"Ángel de la Libertad\") — winged female allegory of Liberty breaking chains, coup date 11-IX-1973 (KM#209)",
+    "country": "CL",
+    "regime_context": "Ditadura de Pinochet (1973-1990)",
+    "date_iso": "1976/1980",
+    "support": "moeda",
+    "archive_name": "Chile Patrimonios (Portal estatal) / SURDOC — Museo de Artes Decorativas",
+    "archive_url": "https://www.chilepatrimonios.gob.cl/ficha?doi=04SDC-24-2600",
+    "image_url": "https://www.chilepatrimonios.gob.cl/ficha?doi=04SDC-24-2600",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Same winged half-length female figure with raised arms and broken chains as the 10-peso type, at smaller module. Legend REPUBLICA DE CHILE / LIBERTAD / 11-IX 1973 / So. Reverse: '5 PESOS' over date within laurel wreath.",
+      "iconographic": "Identical Niké/Victoria-Astraea allegory of Liberty; lower denomination of the same dictatorship coin family. Engraver Francisco Orellana Pavéz, Casa de Moneda de Santiago.",
+      "iconological_regime_hypothesis": "MILITAR: confirms the seriality of the regime's allegorical programme across denominations (5 & 10 pesos), saturating everyday transactions with the founding-coup iconography. The smaller coin shows the same purificatory move — a classical idealized female body standing in for the political event of 1973."
+    },
+    "confidence": "high",
+    "verification_note": "Chile Patrimonios (Chilean government heritage portal) ficha fetched via Exa (HTTP ok): description 'figura alada de medio cuerpo a la derecha... LIBERTAD... KM# 209', creator Francisco Orellana Pavéz, 1976, Cuproníquel, Museo de Artes Decorativas, source SURDOC. Also independently confirmed on SURDOC reg. 24-2606/24-2600 (image-bearing state record) and NGC (KM#209: 'Winged figure with upraised arms, broken chain on wrists'). Both image and metadata present.",
+    "notes": "Companion to D1. SURDOC item: https://www.surdoc.cl/registro/24-2606 (5 Pesos, 1977). Numista equivalent exists but I anchored the record to the Chilean STATE digitization for thesis provenance strength. NEW object.",
+    "source_cluster_id": "MIL-CAND-D2"
+  },
+  {
+    "candidate_id": "MIL-CAND-031",
+    "title": "10 Pesos (\"Ángel de la Libertad\") — second/reduced type, winged female Liberty, struck through the late dictatorship (KM#218)",
+    "country": "CL",
+    "regime_context": "Ditadura de Pinochet (1973-1990)",
+    "date_iso": "1981/1990",
+    "support": "moeda",
+    "archive_name": "Numista",
+    "archive_url": "https://en.numista.com/catalogue/pieces2842.html",
+    "image_url": "https://en.numista.com/catalogue/photos/chili/1661-original.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Smaller (21 mm, 3.5 g) nickel-brass coin bearing the same winged female figure with raised arms and broken chains; legend REPUBLICA DE CHILE / 11-IX / So / LIBERTAD. Reverse: '10 PESOS' over date (e.g. 1986) within wreath.",
+      "iconographic": "Continuation of the Ángel de la Libertad allegory on the redesigned 10-peso struck 1981-1990 — i.e. across the second half of the Pinochet regime up to its final year. Same iconographic programme, reduced module.",
+      "iconological_regime_hypothesis": "MILITAR: demonstrates the temporal persistence (1976→1990) of the female-Liberty dispositif as a constant of the regime's monetary self-presentation; the allegory is retired only with the 1990 return to democracy (replaced by Bernardo O'Higgins), confirming its function as a marker of the dictatorship itself."
+    },
+    "confidence": "high",
+    "verification_note": "Numista page fetched via Exa (HTTP ok). Renders obverse 1661-original.jpg and reverse 1662-original.jpg (© Quodlibet) + © DMK Collection example. Text: 'Chilena as a female angel with arms raised wearing broken shackles chains...'; Years 1981-1990, KM#218, Casa de Moneda de Chile. Distinct N# (2842) and KM# from D1, so a separate object, not a duplicate. HandWiki/Wikipedia corroborate the design ran until 1990 then was replaced by O'Higgins.",
+    "notes": "Provides chronological span to the regime's end. NEW object. Note the coup-date abbreviation differs (11-IX without '1973' on this later type).",
+    "source_cluster_id": "MIL-CAND-D3"
+  },
+  {
+    "candidate_id": "MIL-CAND-032",
+    "title": "25 Rpf 'Die Saar kehrt heim' — mother-Germania allegory welcoming the Saar (personified as a child), Saar plebiscite issue (Michel 568)",
+    "country": "DE",
+    "regime_context": "Alemanha nacional-socialista (1933-1945)",
+    "date_iso": "1935-01-16",
+    "support": "selo",
+    "archive_name": "Stamps of the World (philatelic wiki) — cross-ref. Colnect / German-Philately",
+    "archive_url": "https://www.stampsoftheworld.co.uk/wiki/Germany-Third_Reich_1935_Saar_Referendum",
+    "image_url": "https://www.stampsoftheworld.co.uk/wiki/Germany-Third_Reich_1935_Saar_Referendum",
+    "panofsky_preliminary": {
+      "pre_iconographic": "A monumental seated/standing draped woman crowned with an oak-leaf wreath embraces a smaller child figure before a rising sun; inscription 'Die Saar kehrt heim! / Deutsches Reich'; swastika watermark; value 25 Rpf, dark violet-ultramarine.",
+      "iconographic": "The matron is 'Mutter Germania' (a maternal reworking of the imperial Germania allegory) personifying the Reich; the child personifies the Saar territory 'returning home' after the 13 Jan 1935 League-of-Nations plebiscite. Designed by Emmy Glintzer — noted in the catalogues as the only Third-Reich stamp(s) designed by a woman. Issued by the Deutsche Reichspost.",
+      "iconological_regime_hypothesis": "A genuine female juridical-political allegory inside a Nazi STATE instrument: the personified Reich legally re-absorbs a plebiscitary territory, the body of 'Mother Germany' standing as the sovereign that reincorporates the Saar. Rare case where National Socialism deploys (a domesticated, maternalized) Germania rather than male/heraldic imagery — useful precisely as the exception that tests the thesis's claim about the suppression/hardening of female allegory under fascism (NORMATIVO→MILITAR, maternal-domestic inflection)."
+    },
+    "confidence": "medium",
+    "verification_note": "stampsoftheworld.co.uk page fetched via Exa (HTTP ok): renders mint + postmarked image tiles for Michel 565,566,567,568 and gives full data (issue 16 Jan 1935; Michel 565-568; Yvert 525-527; Scott 448-451; designer Emmy Glitzer/Glintzer; Reichsdruckerei; swastika watermark). Metadata cross-confirmed across germanstamps.net (renders MiNr 565-568 tiles), german-philately.com (Mi 568, 25 Rpf, 'mother welcoming Saarland daughter'), suche-briefmarken.de ('Mutter Germania mit Eichenlaubkranz und Tochter (Saar)... Die Saar kehrt heim!'), and Colnect index ('Symbol: The Saar will return to the mother of Germany', Mi:DR 568 / Sn:DE 451, themes Children/Women, designer Emmy Glintzer). Colnect item page itself is gated by an anti-bot wall (Anubis) so its live image could NOT be opened — hence medium, not high. Image confirmed on the philatelic wiki, object is unambiguously real and catalogued (Scott 448-451).",
+    "notes": "NEW object: distinct from existing DE Imperial/Weimar/WWI Germania corpus items (this is the 1935 Nazi Saar 'mother-Germania' maternalization, a different dispositif). Stable cross-reference IDs for re-acquisition: Michel 565-568 / Scott 448-451 / Colnect 127809. Recommend re-fetching the Colnect page or a Wikimedia Commons file from a non-blocked client to capture a permanent image before ingestion. The whole 4-value set (3/6/12/25 Rpf) shares the design; 25 Rpf chosen as the canonical exemplar.",
+    "source_cluster_id": "MIL-CAND-D4"
+  },
+  {
+    "candidate_id": "MIL-CAND-033",
+    "title": "Serie Imperiale, 10 Lire (Italia turrita) — Regno d'Italia",
+    "country": "IT",
+    "regime_context": "Fascismo italiano (Regno d'Italia, Vittorio Emanuele III); serie ordinaria 'Imperiale' emessa 21 aprile 1929 per il natale di Roma, prima definitiva del regime fascista.",
+    "date_iso": "1929-04-21",
+    "support": "selo",
+    "archive_name": "Filatelia al femminile (blog tematico 'Dietro le gommelle: Italia turrita') / StampWorld (catalogo)",
+    "archive_url": "https://filateliaalfemminile.blogspot.com/2016/11/italia-turrita-2-serie-imperiale.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKPLnU8yd2PpXbSgg35Q3O5tMXeFTu_iuylafYN7lBPdcyBbOJDTGNcElQRkXer8YdjU4VsRFaWBnxaOmuaK3_EtIGn2p_dHafM7JxMYY9wVSoRZJOyC1bXIh6cN9ds2wcFoqy_KLRlTRj/s1600/italia+turrita_imperiale+lire10_big.jpg",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Busto frontale di donna con corona muraria (torri e mura difensive sul capo); stampa monocroma viola; iscrizione 'POSTE ITALIANE / LIRE 10'.",
+      "iconographic": "Italia turrita — allegoria femminile dello Stato italiano, ripresa con tratti irrigiditi, mascelle squadrate e posa statuaria rispetto alle versioni Liberty precedenti.",
+      "iconological_regime_hypothesis": "Regime MILITAR/imperiale: endurecimento marcato (rigidez_postural, dessexualização, uniformização_facial, monocromatização, serialidade, inscrição_estatal). La stessa effige seriale ricorre in 4 valori; l'austerizzazione del soggetto serve la propaganda imperiale fascista."
+    },
+    "confidence": "high",
+    "verification_note": "StampWorld (fetch Exa) elenca la Serie Imperiale 1929, P. Paschetto design, 19 valori; il blog 'Filatelia al femminile' documenta espressamente che l'Italia turrita compare in 4 valori (15c, 35c, 2L, 10L), col 10L a vignetta viola. Immagine del 10L aperta e ispezionata visivamente (file JPEG 24,5KB): mostra il busto turrito frontale come descritto. Denominazione DIVERSA dai 15c/35c già in corpus.",
+    "notes": "ATTENZIONE/Anti-fabbricazione: l'allegoria femminile Italia turrita appare SOLO nei valori 15c, 35c, 2L, 10L. Gli altri valori della serie (es. 50c, 75c, 1.25L) recano Giulio Cesare, Augusto, la Lupa o il Re — NON l'allegoria femminile. Quindi 50c/1.25L ipotizzati nel brief NON sono validi. Immagine ospitata su blogger (non Wikimedia); Commons non possiede un file ben taggato per questo valore.",
+    "source_cluster_id": "MIL-CAND-I1"
+  },
+  {
+    "candidate_id": "MIL-CAND-034",
+    "title": "Serie Imperiale, 2 Lire (Italia turrita) — Regno d'Italia",
+    "country": "IT",
+    "regime_context": "Fascismo italiano (Regno d'Italia); serie ordinaria 'Imperiale' emessa 21 aprile 1929, stesso soggetto allegorico del 10L in altro colore/valore.",
+    "date_iso": "1929-04-21",
+    "support": "selo",
+    "archive_name": "Filatelia al femminile (sheet comparativo dei 4 valori Italia turrita) / StampWorld",
+    "archive_url": "https://filateliaalfemminile.blogspot.com/2016/11/italia-turrita-2-serie-imperiale.html",
+    "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwEox034hZCiQB9a_XolTFbyAqi1BcLhHyCnovQgyyZ-aVTrxLuWtmTNDTk2_apJhJk7Wl6Uksf5gHzn3TFWPmNEDPnVMgDY9gXl7CrdFh8E9PIoF9pT38fGtJqczWFW3zLRz-yulKWqLe/s1600/turrita_29.png",
+    "image_note": "Immagine comparativa che mostra insieme i 4 valori Italia turrita: 15c verde, 35c blu, 2L carminio, 10L viola. Il 2 Lire e' il terzo francobollo (rosso carminio).",
+    "panofsky_preliminary": {
+      "pre_iconographic": "Busto frontale di donna con corona muraria; stampa rosso carminio; 'POSTE ITALIANE / LIRE 2'.",
+      "iconographic": "Italia turrita, identica vignetta del 10L con sola variazione cromatica e di valore facciale.",
+      "iconological_regime_hypothesis": "Regime MILITAR/imperiale; serialidade e inscrição_estatal evidenti (stessa effige replicata su piu' valori della definitiva di Stato)."
+    },
+    "confidence": "high",
+    "verification_note": "StampWorld conferma il valore 2L (carmine red, n.282) nella Serie Imperiale 1929. Immagine sheet (PNG 162,8KB) aperta e ispezionata: i 4 valori Italia turrita compaiono affiancati, col 2L carminio chiaramente distinguibile. Denominazione DIVERSA dai 15c/35c gia' in corpus. NB: nessun file Wikimedia separato per il solo 2L; usata l'immagine comparativa verificata.",
+    "notes": "Stesso caveat del I1: solo 15c/35c/2L/10L recano l'allegoria femminile. Se si preferisce un singolo francobollo isolato anziche' la striscia comparativa, il I1 (10L) e' la scelta a immagine singola piu' pulita.",
+    "source_cluster_id": "MIL-CAND-I2"
+  }
+]
