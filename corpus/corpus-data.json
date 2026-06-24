@@ -1,5 +1,368 @@
 [
   {
+    "id": "0754a19f-a859-99e5-932d-17f5181496b2",
+    "country": "Netherlands",
+    "url": "https://www.rijksmuseum.nl/en/collection/RP-P-1970-232",
+    "title": "Justitia beschermt Onschuld tegen Misdaad",
+    "description": "Alegoria fundacional da justiça penal romântico-neoclássica: a lei personificada como mãe protetora, de corpo vivo e gesto dramático, que interpõe seu próprio corpo entre a vítima inocente e a violência criminosa. A função jurídica é tutelar e sacrificial — a Justiça como abrigo afetivo contra o crime —, anterior à burocratização emblemática do ícone estatal endurecido.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.3,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1806",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 1,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "LA SERRIE, Joseph de (grav.); PRUD'HON, Pierre Paul (des.). Justitia beschermt Onschuld tegen Misdaad. 1806. Água-forte e buril, 120 × 159 mm. Inv. RP-P-1970-232. Rijksmuseum, Amsterdam. Disponível em: https://id.rijksmuseum.nl/200228490. Acesso em: 23 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
+    ]
+  },
+  {
+    "id": "14990163-f5e4-a143-0d6b-288477d89a2b",
+    "country": "Brazil",
+    "url": "https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica-14/",
+    "title": "Alegoria da Exposição Internacional do Centenário da Independência de 1922",
+    "description": "A figura encena a 'Feminilidade de Estado' fundacional: corpo feminino vivo, sensual e dinâmico convertido em suporte vivo da soberania nacional e da concórdia internacional; o gesto de envolver-se na bandeira sacraliza o pacto cívico-político do Centenário, fixando a mulher como portadora corporal da nação ainda antes de sua plena domesticação heráldica.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1922",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 1,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "VILLARES, Décio Rodrigues. Alegoria da Exposição Internacional do Centenário da Independência de 1922. 1922. Óleo sobre tela, 105 × 74,5 cm. Museu Histórico Nacional, Rio de Janeiro. Nº de registro 310906. Disponível em: https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica-14/. Acesso em: 19 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
+    ]
+  },
+  {
+    "id": "235c545a-f3b8-568a-f268-178806a4bf07",
+    "country": "United States",
+    "url": "https://www.loc.gov/item/2003689297/",
+    "title": "Abraham Lincoln, Republican candidate for president of the United States",
+    "description": "Cartaz eleitoral que aciona a alegoria feminina como caução de legitimidade jurídico-política: a Justiça e a Columbia/Liberty convertem-se em guardiãs heráldicas da Constituição e da União, ancorando a candidatura masculina na ordem do Estado. As mulheres alegóricas operam como suporte de soberania (Feminilidade de Estado) — corpos idealizados e dessexualizados postos a serviço da fundação constitucional, num momento de fratura seccional iminente.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 1.7,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1860",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "citation_abnt": "BAKER & GODWIN (grav. e ed.). Abraham Lincoln, Republican candidate for president of the United States. [New York : Baker & Godwin, c1860]. Xilografia com tipografia, imagem 39,3 × 55 cm. LC-DIG-ppmsca-19254. Library of Congress Prints and Photographs Division, Washington, D.C. Disponível em: https://www.loc.gov/item/2003689297/. Acesso em: 23 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
+    ]
+  },
+  {
+    "id": "2e077aa6-5e64-3c58-f33b-99b0bcfcef83",
+    "country": "Brazil",
+    "url": "https://artsandculture.google.com/asset/a-rep%C3%BAblica-manoel-lopes-rodrigues/AQGV9DG4UbJnBg",
+    "title": "A República",
+    "description": "Obra fundacional da iconografia republicana brasileira (1896, sete anos após a Proclamação), erige a alegoria feminina como corpo soberano do novo Estado, articulando Contrato Sexual Visual e Feminilidade de Estado: o feminino é convocado para encarnar a legitimidade jurídico-política da República nascente, ainda com corpo vivo, sensível e calorosamente entronizado, antes do endurecimento normativo posterior.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 1.1,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1896",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 2
+    },
+    "citation_abnt": "RODRIGUES, Manoel Lopes. A República. 1896. Óleo sobre tela, 228 × 118,5 cm. Museu de Arte da Bahia, Salvador. Disponível em: https://artsandculture.google.com/asset/a-rep%C3%BAblica-manoel-lopes-rodrigues/AQGV9DG4UbJnBg. Acesso em: 19 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
+    ]
+  },
+  {
+    "id": "3bc72151-1996-f7ca-b282-512024e54acf",
+    "country": "Denmark",
+    "url": "https://open.smk.dk/artwork/image/KKSgb7580",
+    "title": "Siddende Justitia (Studie efter figur i Sala di Costantino, Vatikanet, Rom)",
+    "description": "Transposição setecentista da Justiça rafaelesca como modelo academicamente autoritativo: corpo vivo e sensual ainda presente (Pathosformel do nu clássico), mas já mediado pela cópia erudita que fixa a figura como cânone visual transmissível da autoridade judicial.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "ca. 1671-1738",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "KROCK, Hendrik. Siddende Justitia (Studie efter figur i Sala di Costantino, Vatikanet, Rom). ca. 1671-1738. Giz preto e branco sobre papel cinzento, 526 × 303 mm. Den Kongelige Kobberstiksamling, SMK – Statens Museum for Kunst, Copenhague. Disponível em: https://open.smk.dk/artwork/image/KKSgb7580. Acesso em: 23 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-pre-1800-genealogia",
+      "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
+    ]
+  },
+  {
+    "id": "49706189-9d27-da9e-59d5-3467a32a1f5e",
+    "country": "Brazil",
+    "url": "https://eliseuvisconti.com.br/obra/p332/",
+    "title": "A Providência guia Cabral",
+    "description": "Mito fundacional da nação brasileira sob a república recém-instaurada: o feminino encarnado e vivo personifica a legitimação providencial-nacional do 'descobrimento', operando como garantia alegórica da origem do corpo político — feminilidade de Estado em registro fundacional, ainda não endurecida.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.2,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1900",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 1,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "VISCONTI, Eliseu. A Providência guia Cabral. [1900]. Óleo sobre tela. Pinacoteca do Estado de São Paulo, São Paulo. Projeto Eliseu Visconti, P332. Disponível em: https://eliseuvisconti.com.br/obra/p332/. Acesso em: 19 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
+    ]
+  },
+  {
+    "id": "4f51943f-625d-c265-60ed-73edc3d29986",
+    "country": "United States",
+    "url": "https://www.loc.gov/pictures/item/2004665350/",
+    "title": "Triumph",
+    "description": "A imagem aciona a 'Feminilidade de Estado' na conjuntura inaugural da Guerra Civil: a alegoria feminina condensa a soberania da União (República, Liberdade e Justiça) como corpo vivo e sacrificial que legitima a guerra contra a 'tirania' secessionista; o feminino é o suporte simbólico da ordem jurídico-política federal, articulando lei, nação e violência fundadora.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1861",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    },
+    "citation_abnt": "TRAUBEL, M. H. (litógrafo e ed.). Triumph. [Philadelphia : M. H. Traubel, c1861]. Litografia em verde-claro, buff e preto, imagem 54 × 41,1 cm. LC-DIG-pga-02893. Library of Congress Prints and Photographs Division, Washington, D.C. Disponível em: https://www.loc.gov/pictures/item/2004665350/. Acesso em: 23 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
+    ]
+  },
+  {
+    "id": "6f5891d5-090c-499c-a3bc-4ff71ee6307b",
+    "country": "Netherlands",
+    "url": "https://open.smk.dk/artwork/image/KKS7314e",
+    "title": "Retfærdighed (Justitia)",
+    "description": "O nicho e os escudos heráldicos enquadram a virtude como figura monumental e institucional; a alegoria feminina, contida em moldura arquitetônica e blasonada, anuncia a fixação normativa da Justiça como ornamento do poder.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 1.6,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1592",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    },
+    "citation_abnt": "GOLTZIUS, Hendrick. Retfærdighed (Justitia). 1592. Pena com tinta castanha e lavagem sobre papel, 324 × 164 mm. Den Kongelige Kobberstiksamling, SMK – Statens Museum for Kunst, Copenhague. Disponível em: https://open.smk.dk/artwork/image/KKS7314e. Acesso em: 23 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-pre-1800-genealogia",
+      "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
+    ]
+  },
+  {
+    "id": "80b1d4ad-1aa4-7f87-35b7-ba8cea46f0cf",
+    "country": "United States",
+    "url": "https://www.loc.gov/pictures/item/2003689287/",
+    "title": "Liberty. \"Liberty brings to the earth justice and peace\"",
+    "description": "A alegoria condensa a autorepresentação da União em guerra: a Liberdade armada que distribui justiça e paz funde fundação republicana e legitimidade jurídica do Estado. Corpo feminino vivo e ainda sensível serve de suporte sacrificial-fundacional para a soberania nacional, projetando a ordem constitucional como dádiva materna-justiceira sobre a terra.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1863",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 0,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    },
+    "citation_abnt": "INGER, Christian (litógrafo). Liberty: Liberty brings to the earth justice and peace. [Philadelphia : s.n., 1863 ou 1864]. Litografia com aquarela, imagem 56,5 × 41,6 cm. LC-DIG-pga-03861. Library of Congress Prints and Photographs Division, Washington, D.C. Disponível em: https://www.loc.gov/pictures/item/2003689287/. Acesso em: 23 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
+    ]
+  },
+  {
+    "id": "8d6151b3-9928-e42e-5dbc-713c10fe1a82",
+    "country": "United Kingdom",
+    "url": "https://www.britishmuseum.org/collection/object/P_1878-0713-2311",
+    "title": "La Justice et la Vengeance Divine poursuivant le Crime",
+    "description": "A imagem encena a justiça penal como força transcendente, inevitável e sacrificial: o corpo feminino alegórico está vivo, dinâmico, encarnado em movimento dramático e violência retributiva — emblema do regime fundacional em que a punição é cosmologicamente justificada e o feminino conserva pleno pathos corporal antes de sua posterior burocratização.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.6,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1840–1878",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    },
+    "citation_abnt": "GUSMAN, Adolphe (grav.); PRUD'HON, Pierre Paul (des.); HADAMARD, Auguste (des. intm.). La Justice et la Vengeance Divine poursuivant le Crime. [1840–1878]. Xilogravura em papel China sobre papel grosso, 129 × 168 mm. Inv. 1878,0713.2311. British Museum, London. Disponível em: https://www.britishmuseum.org/collection/object/P_1878-0713-2311. Acesso em: 23 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
+    ]
+  },
+  {
+    "id": "93b53069-d4b7-6c55-df87-f85d0341bdbe",
+    "country": "United States",
+    "url": "https://www.loc.gov/item/2004665366/",
+    "title": "The outbreak of the rebellion in the United States 1861",
+    "description": "Alegoria de propaganda unionista (1865) que sacraliza a República norte-americana como corpo feminino vivo e combatente: a Justiça armada executa a Rebelião-serpente enquanto Columbia encarna a Nação inviolável. Opera a Feminilidade de Estado no registro fundacional — corpo ainda erotizado e dinâmico, ação sacrificial em curso, antes da domesticação burocrática da figura. O Contrato Sexual Visual aqui exibe a mulher-nação como garantia simbólica da soberania restaurada.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1865",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    },
+    "citation_abnt": "KIMMEL & FORSTER (litógrafo e ed.); KIMMEL, Christopher (des.). The outbreak of the rebellion in the United States 1861. [New York : Kimmel & Forster, c1865]. Litografia em preto e cinza-oliva, imagem 48 × 62,5 cm. LC-DIG-pga-01777. Library of Congress Prints and Photographs Division, Washington, D.C. Disponível em: https://www.loc.gov/item/2004665366/. Acesso em: 23 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
+    ]
+  },
+  {
     "id": "AR-001",
     "country": "Argentina",
     "url": "https://colnect.com/en/stamps/stamp/128820-Allegory_Liberty_Seated-Allegory-Argentina",
@@ -6585,8 +6948,7 @@
       "piloto-v2",
       "core",
       "barroco-mineiro"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "SCOUT-561",
@@ -6620,8 +6982,7 @@
       "piloto-v2",
       "core",
       "cedula-1890"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "SCOUT-562",
@@ -6656,8 +7017,7 @@
       "core",
       "dado-negativo",
       "brasao-republica"
-    ],
-    "support": "selo"
+    ]
   },
   {
     "id": "SCOUT-563",
@@ -6692,8 +7052,7 @@
       "core",
       "imperio",
       "liberdade"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "SCOUT-564",
@@ -6728,8 +7087,7 @@
       "core",
       "republica",
       "moeda-cedula"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "SCOUT-565",
@@ -6763,8 +7121,7 @@
       "piloto-v2",
       "core",
       "selo-postal"
-    ],
-    "support": "selo"
+    ]
   },
   {
     "id": "SCOUT-566",
@@ -6799,8 +7156,7 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ],
-    "support": "arquitetura forense"
+    ]
   },
   {
     "id": "SCOUT-567",
@@ -6835,8 +7191,7 @@
       "core",
       "dado-negativo",
       "oceanos-rios"
-    ],
-    "support": "selo"
+    ]
   },
   {
     "id": "SCOUT-568",
@@ -6870,8 +7225,7 @@
       "piloto-v2",
       "core",
       "monumento-publico"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "SCOUT-569",
@@ -6905,8 +7259,7 @@
       "piloto-v2",
       "comparador",
       "barroco-mineiro"
-    ],
-    "support": "pintura"
+    ]
   },
   {
     "id": "SCOUT-570",
@@ -6940,8 +7293,7 @@
       "piloto-v2",
       "comparador",
       "america-alegorizada"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "SCOUT-571",
@@ -6976,8 +7328,7 @@
       "comparador",
       "iconoclasmo",
       "mexico-2021"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "SCOUT-572",
@@ -7012,8 +7363,7 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ],
-    "support": "arquitetura forense"
+    ]
   },
   {
     "id": "SCOUT-573",
@@ -7049,8 +7399,7 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ],
-    "support": "arquitetura forense"
+    ]
   },
   {
     "id": "SCOUT-574",
@@ -7086,8 +7435,7 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ],
-    "support": "arquitetura forense"
+    ]
   },
   {
     "id": "UK-001",
@@ -8688,6 +9036,270 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
+    ]
+  },
+  {
+    "id": "a4b437a8-91a7-21bc-1311-eac2ffc47da0",
+    "country": "Italy",
+    "url": "https://digi.ub.uni-heidelberg.de/diglit/ripa1645",
+    "title": "Iconologia di Cesare Ripa: divisa in tre libri — ed. Veneza 1645",
+    "description": "Estabiliza a Justiça num tipo feminino fixo e prescritivo — manual normativo que codifica como o feminino deve ser representado ao serviço da ordem jurídica. Matriz iconográfica da alegoria jurídica que a tese rastreia como genealogia pré-1800 do endurecimento alegórico.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 1.6,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1645",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    },
+    "citation_abnt": "RIPA, Cesare. *Iconologia di Cesare Ripa: divisa in tre libri ne i quali si esprimono varie imagini di virtù, vitii, affetti, passioni humane, arti*. Veneza: [s.n.], 1645. Ed. de Giovanni Zaratino Castellini. Disponível em: https://digi.ub.uni-heidelberg.de/diglit-data/iiif/ripa1645/manifest.json. Acesso em: 19 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-pre-1800-genealogia",
+      "orig-batch-id:drive-import-2026-05-19-sq4-2026-0"
+    ]
+  },
+  {
+    "id": "a7971ac5-e277-f70a-bb11-ba25db7e6ac0",
+    "country": "Brazil",
+    "url": "https://mnba.gov.br/",
+    "title": "Alegoria à República (Décio Villares — conjunto positivista)",
+    "description": "A alegoria opera a transposição da soberania do corpo do monarca para um corpo feminino idealizado e classicizado: a mulher-República encarna o novo fundamento jurídico-político do Estado republicano. A vitalidade sensual e o gorro da liberdade situam a obra no momento fundacional do regime, em que o corpo alegórico vivo ainda condensa o pacto de soberania antes de seu endurecimento burocrático e militar posterior.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1890",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "VILLARES, Décio Rodrigues. Alegoria à República [conjunto de obras do MNBA]. [1890-1910]. Óleo sobre tela. Museu Nacional de Belas Artes, Rio de Janeiro. Disponível em: https://mnba.gov.br/. Acesso em: 19 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
+    ]
+  },
+  {
+    "id": "ac900ea3-9461-bae5-e797-f93d58d4845b",
+    "country": "Italy",
+    "url": "https://open.smk.dk/artwork/image/KKSgb5598",
+    "title": "Siddende Justitia",
+    "description": "Justiça antes do endurecimento alegórico: corpo vivo, carnal e gestual, ainda não desincorporado nem serializado. Como estudo de invenção, expõe o 'fazer' da alegoria jurídica na sua fase encarnada — útil à genealogia pré-1800 que a tese contrasta com a Justitia burocratizada do séc. XIX–XX.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.4,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "ca. 1579-1649",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "CASTELLO, Castellino. Siddende Justitia. ca. 1579-1649. Técnica mista sobre papel, 131 × 104 mm. Den Kongelige Kobberstiksamling, SMK – Statens Museum for Kunst, Copenhague. Disponível em: https://open.smk.dk/artwork/image/KKSgb5598. Acesso em: 23 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-pre-1800-genealogia",
+      "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
+    ]
+  },
+  {
+    "id": "ce773ab1-3bfc-9f6e-754a-efe0c567916d",
+    "country": "Spain",
+    "url": "https://www.museodelprado.es/en/the-collection/art-work/truth-has-died/8c3b0257-606f-4d0b-af9e-73f05de59697",
+    "title": "La verdad ha muerto (Truth has died)",
+    "description": "Alegoria político-jurídica da morte da Verdade/Justiça constitucional: lamento de Goya pela Constituição de Cádiz (1812) após a restauração absolutista de Fernando VII (1814) — o direito constitucional, encarnado em corpo feminino vivo e sensual, é assassinado e enterrado pelo poder clerical-reacionário. Imagem crítica, oposicionista (contra-alegoria), não estatal.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.6,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1814–1815",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 0,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "GOYA Y LUCIENTES, Francisco de. La verdad ha muerto [Truth has died]. [1814–1815; 1.ª ed. 1863]. Água-forte e brunidor sobre papel vergê. Desastres de la Guerra, prancha 79. Museo Nacional del Prado, Madrid. Disponível em: https://www.museodelprado.es/en/the-collection/art-work/truth-has-died/8c3b0257-606f-4d0b-af9e-73f05de59697. Acesso em: 23 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
+    ]
+  },
+  {
+    "id": "da35cbd9-2e8c-24a6-7c44-d7f1741e0a2a",
+    "country": "Denmark",
+    "url": "https://open.smk.dk/artwork/image/KKS2296",
+    "title": "\"Justitia\"",
+    "description": "Estudo artístico tardo-oitocentista (SMK, ca. 1884-1897) que mantém Justitia como corpo vivo e individualizado — fisionomia expressiva, postura dinâmica, drapeado revelador — em vez do emblema estatal endurecido. Registra a alegoria jurídica num momento de vitalidade corporal anterior à serialização burocrática do ícone.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 1.1,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "ca. 1884-1897",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 3,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "HANSEN, Hans Nikolaj. Justitia. ca. 1884-1897. Água-forte, 120 × 81 mm. Den Kongelige Kobberstiksamling, SMK – Statens Museum for Kunst, Copenhague. Disponível em: https://open.smk.dk/artwork/image/KKS2296. Acesso em: 23 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
+    ]
+  },
+  {
+    "id": "e1d2e177-0905-a3bc-2e17-f6dd4f040db0",
+    "country": "Brazil",
+    "url": "https://museudarepublica.museus.gov.br/publicacoes/",
+    "title": "A República (estudo para escultura/bandeira)",
+    "description": "Imagem do momento fundacional republicano brasileiro: Décio Villares constrói a República como corpo feminino vivo, encarnado e erotizado (carnação quente, cabelos soltos, lábios e faces rubros), inscrevendo a legitimidade do novo regime na vitalidade sacrificial-juvenil da alegoria antes de sua posterior burocratização e endurecimento heráldico em moedas e selos.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1889",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    },
+    "citation_abnt": "VILLARES, Décio Rodrigues. A República [conjunto de estudos e obras alegóricas]. 1889-1931. Museu da República; Museu Nacional de Belas Artes; Museu Casa de Benjamin Constant, Rio de Janeiro. Disponível em: https://museudarepublica.museus.gov.br/publicacoes/. Acesso em: 19 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
+    ]
+  },
+  {
+    "id": "f988255c-abaa-fb73-74fb-fcbce9abdaa8",
+    "country": "Denmark",
+    "url": "https://open.smk.dk/artwork/image/KKS6276",
+    "title": "Titelblad: \"Justitia\"",
+    "description": "No limiar do livro de estatutos, a alegoria feminina que coroa as 'Leis' inscreve a ordem associativa sob o signo da Justiça: a virtude jurídica feminina legitima e sacraliza o pacto normativo da sociedade, função fundacional do frontispício.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "fundacional",
+    "endurecimento_score": 1.2,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1783",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    },
+    "citation_abnt": "FAHRENHOLTZ, Georg. Titelblad: \"Justitia\". 1783. Água-forte, 161 × 102 mm. Den Kongelige Kobberstiksamling, SMK – Statens Museum for Kunst, Copenhague. Disponível em: https://open.smk.dk/artwork/image/KKS6276. Acesso em: 23 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-pre-1800-genealogia",
+      "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
+    ]
+  },
+  {
+    "id": "fb26ccd4-5b0f-e074-b888-b5dd666f997c",
+    "country": "Austria",
+    "url": "https://sammlungenonline.albertina.at/objects/546636/allegorische-figur-justitia-gerechtigkeit",
+    "title": "Allegorische Figur: Justitia (Gerechtigkeit)",
+    "description": "A figura encarna a autoridade jurídica idealizada como corpo feminino virtuoso e impassível, transpondo o ofício de julgar para uma imagem emblemática atemporal; a Justiça surge domesticada e codificada como signo institucional, exemplar do regime normativo da alegoria jurídica.",
+    "motif": [
+      "descricao_pre_iconografica"
+    ],
+    "regime": "normativo",
+    "endurecimento_score": 1.4,
+    "coded_by": "opus-4.8",
+    "coded_at": "2026-06-22T00:00:00+00:00",
+    "date": "1848",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    },
+    "citation_abnt": "SCHWIND, Moritz von (des.); LANGER, Theodor (grav.). Allegorische Figur: Justitia (Gerechtigkeit). 1848. Kupferstich und Radierung, 35,1 × 28,7 cm (folha). Inv. DG2017/1/6542. Albertina, Wien. Disponível em: https://sammlungenonline.albertina.at/objects/546636/allegorische-figur-justitia-gerechtigkeit. Acesso em: 23 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04",
+      "promoted-opus-4.8-e1-opus48-2026-06",
+      "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
     ]
   }
 ]
