@@ -16,9 +16,11 @@ pandoc:
 
 Este capítulo tem como objetivo apresentar os resultados da aplicação do protocolo *IconoCode* ao corpus da pesquisa, traduzindo as categorias iconográficas desenvolvidas nos capítulos anteriores em variáveis mensuráveis. Longe de pretender uma exatidão matemática sobre objetos visuais historicamente contingentes, a iconometria aqui proposta funciona como uma ferramenta heurística: ela permite visualizar padrões de longa duração e continuidades transatlânticas que escapariam à análise qualitativa de imagens isoladas.
 
+> **Nota sobre os números deste capítulo:** as contagens e estatísticas a seguir referem-se a um *instantâneo de trabalho* do corpus, congelado para garantir reprodutibilidade. O corpus permanece em expansão contínua até a defesa, e estes resultados serão re-rodados sobre a amostra final. Os valores apresentados não constituem, portanto, um N definitivo, mas o estado da análise na rodada corrente.
+
 ## 6.1 - Panorama descritivo do corpus e do grau de purificação
 
-O corpus analisado é composto por 145 artefatos visuais codificados integralmente, englobando suportes que transitam desde a grande estatuária oficial até a numismática e o meio impresso. O recorte geográfico reflete o circuito hegemônico de produção da cultura jurídica ocidental moderna, com predominância da França (42 itens) e dos Estados Unidos (20 itens), seguidos por Alemanha (18), Brasil (12), Reino Unido (10) e Itália (8).
+A amostra analisada nesta rodada reúne os artefatos visuais codificados integralmente até o momento da análise, englobando suportes que transitam desde a grande estatuária oficial até a numismática e o meio impresso. O recorte geográfico reflete o circuito hegemônico de produção da cultura jurídica ocidental moderna, com predominância da França e dos Estados Unidos, seguidos por Alemanha, Brasil, Reino Unido e Itália.
 
 A métrica central desta análise é o *score* composto de endurecimento (variando teoricamente de 0 a 3), que agrega os dez indicadores ordinais de purificação corporal. No conjunto global do corpus, a média de endurecimento situa-se em 1.44 (com dispersão de 0.10 a 3.10). Contudo, esse valor médio oculta variações cruciais quando os artefatos são agrupados por regime iconocrático.
 
