@@ -11,7 +11,7 @@ licenca: CC-BY-NC-ND
 n_registros: 425
 periodo_fonte: "Barroco (séc. XVII–XVIII)"
 recorte_geografico: "Sul do Sacro Império (Suábia, Baviera, Vorarlberg, Tirol, Áustria, Boêmia)"
-relevancia_tese: "matriz genealógica — Cap. 3 (Contrato Racial Visual) e Cap. 5.2 (Purificação Clássica)"
+relevancia_tese: "fonte direta candidata + matriz genealógica — Cap. 3 (Contrato Racial Visual) e Cap. 5.2 (Purificação Clássica)"
 created: "2026-06-24"
 updated: "2026-06-24"
 tags:
@@ -32,16 +32,27 @@ tags:
 
 ## Veredito de relevância
 
-> [!warning] Descompasso de período
-> Recorte da fonte = **Barroco (séc. XVII–XVIII)**; recorte da tese = **1800–2000**.
-> **Não é fonte de itens diretos** para `records.jsonl`. É **matriz genealógica**.
+> [!note] Recorte temporal não é mais gate de inclusão
+> Assim como **país** deixou de ser critério de inclusão (2026-06-22, virou variável
+> analítica), o **recorte 1800–2000 também não é gate**. Logo, a fonte barroca
+> (séc. XVII–XVIII) **deixa de ser apenas matriz genealógica e passa a ser fonte direta
+> candidata** ao corpus. Ver `docs/decisions/E1-OPUS48-BATCH-2026-06-22.md` e a entrada
+> *Corpus Parameters* da CLAUDE.md (linha "datable 1800–2000" provavelmente stale).
 
-Alta utilidade como antecedente iconográfico para:
+**Dupla utilidade:**
+
+1. **Fonte direta candidata** — os 425 registros são figuras alegóricas femininas, em
+   suportes aceitos (`afresco`/`escultura`/`estampa`), com função político-cosmológica
+   imperial. Candidatos a entrada em `records.jsonl` (sujeitos a dedupe e às 3 demais
+   regras de inclusão). Período entra como **variável analítica**, não gate.
+2. **Matriz iconográfica** — antecedente direto dos modelos neoclássicos que migram para
+   Marianne / Columbia / Germania no séc. XIX.
+
+Aplicação por capítulo:
 
 - **Contrato Racial Visual** (Cap. 3) — a alegoria dos continentes é o dispositivo onde a
   "universalidade" branca neoclássica se constrói por contraste com Asia/Africa/America.
-  Estampas de Ripa e Bergmüller são o antecedente direto dos modelos que migram para
-  Marianne / Columbia / Germania no séc. XIX. → [[Cap3_analise_quantitativa]]
+  Núcleo empírico para a transferência transatlântica de modelos. → [[Cap3_analise_quantitativa]]
 - **Purificação Clássica** (Cap. 5.2) — documenta o estágio `regime/fundacional` (corpo
   barroco vivo, sensual, narrativo) anterior ao endurecimento estatal do XIX. *Nachleben*
   warburguiano do motivo. → [[corpus-data]]
@@ -86,7 +97,8 @@ timeline (`/zeitleiste`), busca (`/suche`), mapa histórico, bibliografia (`/bib
 
 ## Próximos passos
 
-- [ ] Mapear 5–10 casos-paradigma (Ripa, Bergmüller, Göz) como precedentes citados no Cap. 3
+- [ ] Triar registros barrocos candidatos a `records.jsonl` (3 regras de inclusão + dedupe; período como variável analítica, não gate) — começar pelos casos-paradigma (Ripa, Bergmüller, Göz)
+- [ ] Tratar imagens sob CC-ND: só metadados+URL+crédito no dataset público; binários via Drive/SSD (ADR-001)
 - [ ] Cruzar códigos Iconclass deles com o schema do corpus (Iconclass 48C51 + continentes)
 - [ ] Inserir as 3 obras de Romberg no `references.bib` (skill `zotero-cite`)
 - [ ] (Opcional) E-mailar Marion Romberg para acesso/colaboração de dados/imagens
