@@ -14,7 +14,7 @@ Run the ICONOCRACIA corpus sync pipeline in sequence. Stop immediately if any st
 | Step | Script | What it does |
 |------|--------|--------------|
 | 0 | `corpus_bridge.py` | *(optional)* Bridges ingest CSV to corpus-data.json |
-| 1 | `validate_schemas.py` | Validates corpus-data.json against JSON schemas |
+| 1 | `validate_schemas.py` | Validates corpus-data.json against JSON schemas. As of v2.3.0 (commit `49caba3` on main), also emits **warnings** (not errors) for 3 conditional rules: `JUSTIFICATIVA_CURTA`, `REQUIRES_V23_FIELDS`, `HERCULES_INCOERENTE`. CLI reports only errors; inspect warnings via direct import of `validate_records()`. See `validate-corpus` skill for details. |
 | 2 | `sync_companion.py` | Rebuilds companion-data.json from corpus |
 | 3 | `make_index.py` | Rebuilds index.html and search index |
 | 4 | `code_purification.py --status` | Reports ENDURECIMENTO scores across corpus |
