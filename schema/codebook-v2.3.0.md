@@ -102,11 +102,11 @@ objetos_regalia:
   descricao: "Lista controlada de regalias/atributos materiais. Schema JSON aceita string livre; vocabulario controlado abaixo."
   vocabulario_controlado_v230:
     - Clava               # NOVO 2.3.0 (atributo herculeo)
-    - Pele_Leao           # NOVO 2.3.0 (atributo herculeo; nota_lacuna)
+    - Pele_Leao           # NOVO 2.3.0 (atributo herculeo; ver §14 lacuna L1)
     - Urna_Vertedora      # NOVO 2.3.0 (vasilha de efluencia hidrica)
     - Vaso_Fluvial        # NOVO 2.3.0 (vasilha fluvial)
-    - Tridente_Imperial   # NOVO 2.3.0 (soberania marinha; nota_lacuna)
-    - Ancora_Naval        # NOVO 2.3.0 (infraestrutura marinha; nota_lacuna)
+    - Tridente_Imperial   # NOVO 2.3.0 (soberania marinha; ver §14 lacuna L2)
+    - Ancora_Naval        # NOVO 2.3.0 (infraestrutura marinha; ver §14 lacuna L3)
 ```
 
 ## 5. `marcas_corporais` — valores novos
@@ -233,11 +233,10 @@ Quando `familia_alegorica == Masculino_Juridico`:
 - `inscricao_estatal`: aplicavel; alta para `Genio_Protetor` em programas
   imperiais; cautela para casos contestados.
 - `classicizacao`: aplicavel; mensurar intensidade de idealizacao
-  classicizante (corpo/pose/vestes). **nota_lacuna** na base de evidencia
-  deste piloto.
+  classicizante (corpo/pose/vestes). **nota_lacuna** (ver §14 lacuna L4).
 - `moralizacao`: aplicavel_com_cautela; central para `Hercules` (bivio e
   pedagogia moral). **nota_lacuna** na base de evidencia deste piloto.
-- `depuracao_semantica`: aplicavel_com_cautela. **nota_lacuna**.
+- `depuracao_semantica`: aplicavel_com_cautela. **nota_lacuna** (ver §14 lacuna L5).
 - `neutralizacao_afetiva`: aplicavel_com_cautela. **nota_lacuna**.
 - `monumentalizacao`: aplicavel_com_cautela; alta para `Rio_Barbado` em
   programas imperiais (estatuas colossais); **nota_lacuna** para o resto.
@@ -316,3 +315,96 @@ status_evidencia: piloto
 > **Aviso**: as 8 referencias acima preservam a marcacao `[verificar ABNT
 > completa antes do commit]` herdada do rascunho Elicit. O freeze real da
 > v2.3.0 depende de normalizacao ABNT completa.
+
+
+## 14. Lacunas documentadas (nota_lacuna)
+
+Este patch (v2.3.0) foi promovido a `pre_freeze_piloto_v230` com **5 lacunas
+explicitamente documentadas** em vez de tapadas com "evidencia fraca". Cada
+lacuna abaixo representa um item onde a busca Elicit deste piloto nao
+produziu evidencia direta suficiente para um freeze real; a decisao
+consciente e registrar a lacuna, nao inventar conteudo.
+
+A promocao a `master_record` (v2.3.0 efetiva) depende de a proxima rodada
+Elicit cobrir, no minimo, **L1, L2, L3** (os 3 valores enum novos de
+`objetos_regalia`, sem os quais os campos viram "etiquetas sem lastro
+operacional"). **L4, L5** (indicadores) sao nice-to-have para v2.4.0.
+
+### L1. `Pele_Leao` (atributo herculeo)
+
+- **Onde aparece**: enum `objetos_regalia` em `purificacao`.
+- **Por que e lacuna**: o atributo iconografico e central para a gramatica
+  herculea (nudez + clava + pele), porem a busca Elicit deste piloto nao
+  produziu fontes primarias brasileiras que registrem uso iconografico
+  direto em programas imperiais ou republicanos.
+- **Sub-linhagem afetada**: Hercules juridico (adendo §2).
+- **Recomendacao v2.4.0+**: busca dirigida em Portinari, Debret, Rugendas
+  e iconografia monumental brasileira (Caxias, Tamandare, etc.).
+
+### L2. `Tridente_Imperial` (soberania marinha)
+
+- **Onde aparece**: enum `objetos_regalia` em `purificacao`.
+- **Por que e lacuna**: marcador canonico de Netuno/Oceanus em programas
+  imperiais ocidentais; no entanto, a busca Elicit deste piloto nao
+  confirmou uso em programas imperiais brasileiros (moeda, selo, brasao).
+- **Sub-linhagem afetada**: Netuno e soberania maritima (adendo §5).
+- **Recomendacao v2.4.0+**: busca em colecao Numista + Rijksmuseum (ja ha
+  18 imagens re-adquiridas em 2026-06-04 que podem cobrir parcialmente).
+
+### L3. `Ancora_Naval` (infraestrutura marinha)
+
+- **Onde aparece**: enum `objetos_regalia` em `purificacao`.
+- **Por que e lacuna**: marcador de "ancoragem simbolica" do Estado no
+  territorio maritimo; faltam fontes primarias que mostrem Ancora_Naval
+  como atributo iconografico autonomo (vs. mero elemento decorativo).
+- **Sub-linhagem afetada**: Atlantes/telamones + soberania maritima
+  (adendo §3, §5).
+- **Recomendacao v2.4.0+**: cruzar com frontispicios de atlas portuarios
+  brasileros (século XIX) e emblemas da marinha.
+
+### L4. `classicizacao` (indicador de purificacao)
+
+- **Onde aparece**: lista `indicadores_purificacao` (ordinal 0-3).
+- **Por que e lacuna**: o indicador pretende mensurar intensidade de
+  idealizacao classicizante (corpo nu, pose conotativa, vestes all'antica),
+  mas faltam criterios operacionais para pontuar 0/1/2/3 de forma
+  reprodutivel entre codificadores.
+- **Sub-linhagem afetada**: transversal a Hercules + Atlantes + Rio_Barbado.
+- **Recomendacao v2.4.0+**: calibracao IRR (inter-rater reliability) com
+  2-3 codificadores em N=20 registros pre-selecionados.
+
+### L5. `depuracao_semantica` (indicador de purificacao)
+
+- **Onde aparece**: lista `indicadores_purificacao` (ordinal 0-3).
+- **Por que e lacuna**: o indicador visa capturar a "limpeza semantica" pela
+  qual uma figura particular (mulher guerreira, genio nacional) e
+  despolitizada em pura abstracao (Justica, Patria). A teoria esta clara
+  (Warner, Drucker); falta ancora operacional para a pontuacao.
+- **Sub-linhagem afetada**: transversal, especialmente Genio do Brasil
+  (adendo §6).
+- **Recomendacao v2.4.0+**: tabela de exemplos canonicos com pontuacao
+  esperada; rodar IRR piloto para calibrar.
+
+### Justificativa epistemologica do freeze com lacunas
+
+A decisao de promover v2.3.0 com 5 lacunas documentadas em vez de tapalas
+segue o principio **capta** (Drucker): dados sao tomados e construidos,
+nao encontrados. Inventar conteudo para fechar lacunas seria pior do que
+registra-las, porque:
+
+1. A `validate_schemas.py`升级 (commit 49caba3) **emite warnings** para
+   usos problematicos (HERCULES_INCOERENTE, JUSTIFICATIVA_CURTA), nao
+   bloqueia. Promover lacunas a "conteudo provisorios" sem lastro violaria
+   o proprio principio que o codebook encarna.
+2. A consulta Elicit deste piloto foi desenhada para validar a *estrutura*
+   do patch (5 campos novos, regra de genero, validacao), nao para
+   esgotar a evidencia de cada valor enum. Esgotar evidencia e trabalho
+   da v2.4.0+.
+3. O `pre_freeze_piloto_v230` e honesto: o corpus pode ser codificado com
+   os campos novos **vazios** (opcionais), e os registros que usam
+   L1/L2/L3/L4/L5 ficam sinalizados para tratamento prioritario.
+
+Refs:
+  - commit 49caba3 (validator升级 com 3 regras condicionais)
+  - commit cc0bb31 (patch v2.3.0 original; "Bloqueios para freeze real")
+  - docs/decisions/2026-06-25-lacunas-v2.3.0.md (ADR formal deste registro)

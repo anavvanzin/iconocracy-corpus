@@ -159,8 +159,33 @@ Regras condicionais ficam no YAML editorial.
 
 ## 6. Validacao executada
 
-- `python tools/scripts/validate_schemas.py` (a executar; ver secao 7 do
-  relatorio de import).
+- `python tools/scripts/validate_schemas.py`: **299/299 records valid** contra
+  o schema `master-record` (baseline preservado).
+- Validator升级 (commit `49caba3`) com 3 regras condicionais em modo
+  **warnings**:
+  - `JUSTIFICATIVA_CURTA` (masculino + `justificativa_genero` < 80 chars)
+  - `REQUIRES_V23_FIELDS` (familia=Masculino_Juridico sem campos novos)
+  - `HERCULES_INCOERENTE` (substituicao com orig == new)
+- Cobertura: 5 testes pytest em `tests/test_validate_schemas.py`, **5/5 passing**.
+- Baseline preservado: 0 warnings em registros pre-v2.3.0.
+
+### 6.1. Status dos 3 bloqueios do patch original (cc0bb31)
+
+| Bloqueio | Status (2026-06-25) | Evidencia |
+|----------|---------------------|-----------|
+| `validate_schemas.py` upgrade | **Resolvido** (modo warnings) | commit `49caba3` + tests `415e0fb` |
+| 5 `nota_lacuna` em indicadores_purificacao | **Documentado** (lacunas assumidas) | ADR `2026-06-25-lacunas-v2.3.0.md` + codebook §14 |
+| 8 referencias `[verificar ABNT]` | **Pendente** (Movimento 3) | adendo metodologico §12 + codebook §13 |
+
+### 6.2. Lacunas do codebook (registro formal)
+
+Os 5 marcadores `nota_lacuna` (L1-L5) estao documentados em:
+- `schema/codebook-v2.3.0.md` §14 (detalhamento individual)
+- `schema/adendo-metodologico-v2.3.0.md` §7.1 (espelho + status do gate tecnico)
+- `docs/decisions/2026-06-25-lacunas-v2.3.0.md` (ADR formal deste registro)
+
+A decisao consciente (cf. ADR §3) e promover v2.3.0 com lacunas registradas,
+nao tapalas. Justificativa epistemologica em ADR §4.
 
 ## 7. Proximos passos sugeridos
 
