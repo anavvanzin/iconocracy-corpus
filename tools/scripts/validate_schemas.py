@@ -150,21 +150,90 @@ def validate_records(
     return (valid, len(records), errors, warnings)
 
 
+# v2.3.0 pre-freeze constants (warnings mode; promote to errors in v2.4.0+).
+MIN_JUSTIFICATIVA_GENERO_CHARS = 80
+V23_FAMILIA_VALUE = "Masculino_Juridico"
+V23_NEW_FIELDS = (
+    "funcao_da_figura_masculina",
+    "tipo_agencia_masculina",
+    "funcao_atlanteana",
+    "tipo_efluencia_hidrica",
+    "substituicao_atributiva_hercules",
+)
+
+
 def _check_v23_warnings(
     data: Dict[str, Any],
     record_id: str,
 ) -> List[Dict[str, Any]]:
     """v2.3.0 pre-freeze conditional rules (warnings mode).
 
-    Empty on the RED commit (test baseline). Populated in the GREEN commit
-    with the 3 conditional rules:
-      - JUSTIFICATIVA_CURTA: masculino + justificativa_genero < 80 chars
-      - REQUIRES_V23_FIELDS: familia_alegorica=Masculino_Juridico without v2.3.0 fields
-      - HERCULES_INCOERENTE: substituicao_atributiva_hercules with orig == new
+    Emits warnings only; does not block validation. Promote individual
+    rules to errors in v2.4.0+ once data stabilizes.
 
-    Promoting these to errors is deferred to v2.4.0+ once data stabilizes.
+    Rules:
+      1. JUSTIFICATIVA_CURTA: masculino (or Masculino_Juridico) +
+         justificativa_genero with fewer than MIN_JUSTIFICATIVA_GENERO_CHARS
+         characters. Forces substantive justification of masculinity.
+      2. REQUIRES_V23_FIELDS: familia_alegorica=Masculino_Juridico without
+         at least one of the v2.3.0 patch fields populated.
+      3. HERCULES_INCOERENTE: substituicao_atributiva_hercules with
+         atributo_canonico_substituido == atributo_novo (nonsense identity).
     """
-    return []
+    warnings: List[Dict[str, Any]] = []
+    purificacao = data.get("purificacao") or {}
+
+    genero = purificacao.get("genero_atribuido")
+    familia = purificacao.get("familia_alegorica")
+    justificativa = purificacao.get("justificativa_genero") or ""
+    is_masculine = genero == "masculino" or familia == V23_FAMILIA_VALUE
+
+    # Rule 1: substantive justification required when masculine.
+    if is_masculine and len(justificativa) < MIN_JUSTIFICATIVA_GENERO_CHARS:
+        warnings.append({
+            "code": "JUSTIFICATIVA_CURTA",
+            "record_id": record_id,
+            "field": "justificativa_genero",
+            "detail": (
+                f"{len(justificativa)} chars (< {MIN_JUSTIFICATIVA_GENERO_CHARS}); "
+                f"required when genero=masculino or familia={V23_FAMILIA_VALUE}"
+            ),
+        })
+
+    # Rule 2: at least one v2.3.0 patch field should accompany the family.
+    if familia == V23_FAMILIA_VALUE:
+        has_any_v23_field = any(
+            purificacao.get(field) not in (None, "", [], {})
+            for field in V23_NEW_FIELDS
+        )
+        if not has_any_v23_field:
+            warnings.append({
+                "code": "REQUIRES_V23_FIELDS",
+                "record_id": record_id,
+                "field": "familia_alegorica",
+                "detail": (
+                    f"familia={V23_FAMILIA_VALUE} but none of "
+                    f"{list(V23_NEW_FIELDS)} populated"
+                ),
+            })
+
+    # Rule 3: Hercules substitution must be a real substitution, not identity.
+    hercules = purificacao.get("substituicao_atributiva_hercules")
+    if isinstance(hercules, dict):
+        orig = hercules.get("atributo_canonico_substituido")
+        novo = hercules.get("atributo_novo")
+        if orig is not None and novo is not None and orig == novo:
+            warnings.append({
+                "code": "HERCULES_INCOERENTE",
+                "record_id": record_id,
+                "field": "substituicao_atributiva_hercules",
+                "detail": (
+                    f"atributo_canonico_substituido ({orig!r}) == "
+                    f"atributo_novo ({novo!r}); substitution must differ"
+                ),
+            })
+
+    return warnings
 
 
 def validate_file(
