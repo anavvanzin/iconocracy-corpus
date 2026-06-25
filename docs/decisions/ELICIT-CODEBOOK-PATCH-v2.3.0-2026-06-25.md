@@ -159,23 +159,59 @@ Regras condicionais ficam no YAML editorial.
 
 ## 6. Validacao executada
 
-- `python tools/scripts/validate_schemas.py` (a executar; ver secao 7 do
-  relatorio de import).
+- `python tools/scripts/validate_schemas.py`: **299/299 records valid** contra
+  o schema `master-record` (baseline preservado).
+- Validator升级 (commit `49caba3`) com 3 regras condicionais em modo
+  **warnings**:
+  - `JUSTIFICATIVA_CURTA` (masculino + `justificativa_genero` < 80 chars)
+  - `REQUIRES_V23_FIELDS` (familia=Masculino_Juridico sem campos novos)
+  - `HERCULES_INCOERENTE` (substituicao com orig == new)
+- Cobertura: 5 testes pytest em `tests/test_validate_schemas.py`, **5/5 passing**.
+- Baseline preservado: 0 warnings em registros pre-v2.3.0.
+
+### 6.1. Status dos 3 bloqueios do patch original (cc0bb31)
+
+| Bloqueio | Status (2026-06-25) | Evidencia |
+|----------|---------------------|-----------|
+| `validate_schemas.py` upgrade | **Resolvido** (modo warnings) | commit `49caba3` + tests `415e0fb` |
+| 5 `nota_lacuna` em indicadores_purificacao | **Documentado** (lacunas assumidas) | ADR `2026-06-25-lacunas-v2.3.0.md` + codebook §14 |
+| 8 referencias `[verificar ABNT]` | **Resolvido** (5 normalizadas + 3 `nota_lacuna_bibliografica`) | Movimento 3.4 (commit `xxxxxx`); codebook §13.1+§13.2; adendo §12 |
+
+### 6.2. Lacunas do codebook (registro formal)
+
+Os 5 marcadores `nota_lacuna` (L1-L5) estao documentados em:
+- `schema/codebook-v2.3.0.md` §14 (detalhamento individual)
+- `schema/adendo-metodologico-v2.3.0.md` §7.1 (espelho + status do gate tecnico)
+- `docs/decisions/2026-06-25-lacunas-v2.3.0.md` (ADR formal deste registro)
+
+A decisao consciente (cf. ADR §3) e promover v2.3.0 com lacunas registradas,
+nao tapalas. Justificativa epistemologica em ADR §4.
 
 ## 7. Proximos passos sugeridos
 
 1. Revisar vocabulario controlado para `objetos_regalia` e `marcas_corporais`
    (novos valores introduzidos em v2.3.0) e decidir se migrar para enum
    rigido no schema JSON.
-2. Implementar `validate_schemas.py` suporte para:
-   - `minLength` condicional em `justificativa_genero`;
-   - `required` quando enum-match em outro campo;
-   - interseccao de arrays para `substituicao_atributiva_hercules`.
-3. Normalizar 8 referencias marcadas `[verificar ABNT]` antes de promover
-   v2.3.0 a master.
+2. ~~Implementar `validate_schemas.py` suporte para:~~
+   - ~~`minLength` condicional em `justificativa_genero`;~~
+   - ~~`required` quando enum-match em outro campo;~~
+   - ~~interseccao de arrays para `substituicao_atributiva_hercules`.~~
+   **CONCLUIDO** (commit `49caba3`) em modo **warnings** (nao errors);
+   promocao a errors deferida para v2.4.0+.
+3. ~~Normalizar 8 referencias marcadas `[verificar ABNT]` antes de promover
+   v2.3.0 a master.~~
+   **PARCIALMENTE CONCLUIDO** (Movimento 3.4): 5 normalizadas em
+   ABNT NBR 6023:2025 com DOI/ISSN; 3 marcadas como
+   `nota_lacuna_bibliografica` (Chillon, orioqueorionaove, Titius
+   suspeito). Codebook §13.1+§13.2.
 4. Buscar evidencia direta para os 9 itens lacunares declarados no adendo
    (Duque de Caxias; deuses fluviais em papel-moeda; masculinidades
    afro-brasileiras; masculinidades indigenas; atlantes manuelinos; etc.).
 5. Decidir se o bloco `aplicabilidade_por_familia_masculina` fica para
    v2.4.0 (com schema JSON estendido) ou v3.0.0 (com reorganizacao mais
    ampla).
+6. Buscar evidencia direta para os 3 `nota_lacuna_bibliografica`
+   (Chillon/19&20, orioqueorionaove, Titius) antes de promover v2.3.0 a
+   `master_record`. As 5 refs normalizadas cobrem a bibliografia central;
+   estas 3 sao fontes secundarias para casos brasileiros.
+||||||| 967f1d9

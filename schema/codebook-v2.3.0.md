@@ -102,11 +102,11 @@ objetos_regalia:
   descricao: "Lista controlada de regalias/atributos materiais. Schema JSON aceita string livre; vocabulario controlado abaixo."
   vocabulario_controlado_v230:
     - Clava               # NOVO 2.3.0 (atributo herculeo)
-    - Pele_Leao           # NOVO 2.3.0 (atributo herculeo; nota_lacuna)
+    - Pele_Leao           # NOVO 2.3.0 (atributo herculeo; ver §14 lacuna L1)
     - Urna_Vertedora      # NOVO 2.3.0 (vasilha de efluencia hidrica)
     - Vaso_Fluvial        # NOVO 2.3.0 (vasilha fluvial)
-    - Tridente_Imperial   # NOVO 2.3.0 (soberania marinha; nota_lacuna)
-    - Ancora_Naval        # NOVO 2.3.0 (infraestrutura marinha; nota_lacuna)
+    - Tridente_Imperial   # NOVO 2.3.0 (soberania marinha; ver §14 lacuna L2)
+    - Ancora_Naval        # NOVO 2.3.0 (infraestrutura marinha; ver §14 lacuna L3)
 ```
 
 ## 5. `marcas_corporais` — valores novos
@@ -233,11 +233,10 @@ Quando `familia_alegorica == Masculino_Juridico`:
 - `inscricao_estatal`: aplicavel; alta para `Genio_Protetor` em programas
   imperiais; cautela para casos contestados.
 - `classicizacao`: aplicavel; mensurar intensidade de idealizacao
-  classicizante (corpo/pose/vestes). **nota_lacuna** na base de evidencia
-  deste piloto.
+  classicizante (corpo/pose/vestes). **nota_lacuna** (ver §14 lacuna L4).
 - `moralizacao`: aplicavel_com_cautela; central para `Hercules` (bivio e
   pedagogia moral). **nota_lacuna** na base de evidencia deste piloto.
-- `depuracao_semantica`: aplicavel_com_cautela. **nota_lacuna**.
+- `depuracao_semantica`: aplicavel_com_cautela. **nota_lacuna** (ver §14 lacuna L5).
 - `neutralizacao_afetiva`: aplicavel_com_cautela. **nota_lacuna**.
 - `monumentalizacao`: aplicavel_com_cautela; alta para `Rio_Barbado` em
   programas imperiais (estatuas colossais); **nota_lacuna** para o resto.
@@ -302,17 +301,191 @@ status_evidencia: piloto
   em chave bizantina, contraparte feminina e Thetis (registrar como
   `Tetis` em `Oceanos/Rios`).
 
-## 13. Referencias (placeholders — verificar ABNT completa antes do freeze)
+## 13. Referencias (formato ABNT NBR 6023:2025)
 
-- Villari, 2015. L\'«Ercole al bivio» di Domenico Beccafumi.
-- Bendall, 2022. Female Personifications and Masculine Forms. Gender & History.
-- Lazzaro, 2011. River gods. Renaissance Studies.
-- Estella, 2002. El llamado Neptuno. Archivo Espanol De Arte.
-- Lopez, 2017. La personificacion del mar.
-- DezenoveVinte (Martin Chillon). O Genio do Brasil e as Musas.
-- orioqueorionaove, 2012. A fachada do IPHAN.
-- Immagini della Giustizia: antiporte: Titius.
+Movimento 3 do freeze plan (commit cc0bb31 "Bloqueios para freeze real").
+5 das 8 refs foram normalizadas via busca em `api.crossref.org` e
+`api.openalex.org` (Movimento 3.4); 3 refs marcadas como
+`nota_lacuna_bibliografica` para a proxima rodada Elicit (mesmo principio
+das 5 lacunas de §14).
 
-> **Aviso**: as 8 referencias acima preservam a marcacao `[verificar ABNT
-> completa antes do commit]` herdada do rascunho Elicit. O freeze real da
-> v2.3.0 depende de normalizacao ABNT completa.
+### 13.1. Referencias normalizadas (5)
+
+VILLARI, Susanna. **L'«Ercole al bivio» di Domenico Beccafumi
+(1486-1551) e l'Ercole giraldiano**. *Studi giraldiani. Letteratura e
+teatro*, Milano, v. 1, n. 0, p. 69-110, 2015.
+DOI: 10.6092/2421-4191/2015.1.69-110. Disponivel em:
+https://doi.org/10.6092/2421-4191/2015.1.69-110. Acesso em: 25 jun. 2026.
+
+BENDALL, Sarah A. **Female Personifications and Masculine Forms: Gender,
+Armour and Allegory in the Habsburg-Valois Conflicts of Sixteenth-Century
+Europe**. *Gender & History*, Hoboken, v. 35, n. 1, p. 42-67, 2023.
+DOI: 10.1111/1468-0424.12592. Disponivel em:
+https://doi.org/10.1111/1468-0424.12592. Acesso em: 25 jun. 2026.
+
+LAZZARO, Claudia. **River gods: personifying nature in sixteenth-century
+Italy**. *Renaissance Studies*, Hoboken, v. 25, n. 1, p. 70-94, 2011.
+DOI: 10.1111/j.1477-4658.2010.00708.x. Disponivel em:
+https://doi.org/10.1111/j.1477-4658.2010.00708.x. Acesso em: 25 jun. 2026.
+
+ESTELLA, Margarita M. **El llamado Neptuno (Rio?) de la Coleccion del
+Carpio y su problematica identificacion con una obra atribuida a Bernini,
+en Aranjuez**. *Archivo Espanol de Arte*, Madrid, v. 75, n. 298,
+p. 117-128, 2002. DOI: 10.3989/aearte.2002.v75.i298.343. Disponivel em:
+https://doi.org/10.3989/aearte.2002.v75.i298.343. Acesso em: 25 jun. 2026.
+
+RODRIGUEZ LOPEZ, Maria Isabel. **La personificacion del mar: Evolucion
+y transformaciones iconograficas del mundo clasico al medioevo**.
+*Revista digital de iconografia medieval*, Madrid, v. 9, n. 17,
+p. 125-140, 2017. ISSN: 2254-7312. Disponivel em:
+https://dialnet.unirioja.es/servlet/articulo?codigo=6058727.
+Acesso em: 25 jun. 2026.
+
+### 13.2. Referencias com `nota_lacuna_bibliografica` (3)
+
+As 3 referencias abaixo foram marcadas com `[verificar ABNT completa antes
+do commit]` no rascunho Elicit e **nao foram encontradas** em
+crossref/openalex/google scholar no piloto de 2026-06-25. Seguem o mesmo
+principio das 5 `nota_lacuna` de §14: registrar a lacuna em vez de
+inventar dados bibliograficos. A promocao da v2.3.0 a `master_record`
+**nao depende** destas 3 (sao fontes secundarias para casos brasileiros),
+mas a proxima rodada Elicit (julho-agosto 2026) deve cobri-las.
+
+#### 13.2.1. CHILLON, Alberto Martin. **O Genio do Brasil e as Musas: um
+manifesto ideologico numa nacao em construcao**. *19&20* (DezenoveVinte),
+Sao Paulo, [data a verificar], [volume/issue/pags a verificar].
+**nota_lacuna_bibliografica**: URL provavel
+`https://www.dezenove20.com.br/` (site ativo, mas artigo especifico nao
+indexado em crossref/openalex em 2026-06-25). Substituir por citacao
+completa apos busca dirigida.
+
+#### 13.2.2. **[Autor a verificar]** (orioqueorionaove). **A fachada do
+IPHAN**. *O Rio que o rio nao ve*, Rio de Janeiro, 2012.
+**nota_lacuna_bibliografica**: blog/site sem DOI, sem ISSN, sem autor
+formal identificado. URL: `http://orioqueorionaove.com` (confirmada ativa
+em 2026-06-25 com tag "fachada" e tag "IPHAN"). Conteudo relevante para
+atlantes/companhias de navegacao. Substituir por citacao completa apos
+contato com o autor ou migracao para formato academico.
+
+#### 13.2.3. **ALUCINACAO SUSPEITA** -- "[Titius, Observationum
+ratiocinantium ... (1)]" / "Immagini della Giustizia: antiporte".
+**nota_lacuna_bibliografica + flag de qualidade**: crossref e openalex
+**nao retornaram correspondencia exata** com esta referencia em
+2026-06-25. Crossref retornou 20 itens sobre "Immagini di giustizia"
+mas nenhum casa com o titulo do codebook. Titius pode ser errata de
+Titian (Ticiano) ou autor real mas obscuro. **Recomendacao**: **remover**
+do codebook ate verificacao independente. Se for genuina, re-adicionar
+com citacao completa apos busca em arquivo italiano (BMC, Archivio di
+Stato). Se for alucinacao do Elicit (improvavel mas possivel),
+a remocao documenta o controle de qualidade.
+
+### 13.3. Notas sobre a normalizacao
+
+- **DOI优先**: refs com DOI sao citadas优先 pelo DOI (ABNT NBR 6023:2025,
+  §7.7.1) por serem identificadores permanentes; URL e data de acesso
+  sao complementares.
+- **Local de publicacao inferido**: para journals academicos, o local
+  frequentemente vem do publisher (Hoboken = Wiley; Madrid = CSIC para
+  Archivo Espanol de Arte). Marcado como inferido quando nao declarado
+  explicitamente no metadata; pode ser corrigido em revisao futura.
+- **Errata do rascunho Elicit**: o rascunho marcava a ref Bendall como
+  "2022"; a publicacao efetiva foi 2023 (DOI resolution confirma). O
+  codebook v2.3.0 usa 2023 como ano correto.
+- **Ref Lopez foi expandida**: o rascunho Elicit registrava so "Lopez,
+  2017"; a busca revelou autora completa (Maria Isabel Rodriguez Lopez)
+  e periodico (Revista digital de iconografia medieval). Citacao
+  significativamente mais robusta.
+
+
+## 14. Lacunas documentadas (nota_lacuna)
+
+Este patch (v2.3.0) foi promovido a `pre_freeze_piloto_v230` com **5 lacunas
+explicitamente documentadas** em vez de tapadas com "evidencia fraca". Cada
+lacuna abaixo representa um item onde a busca Elicit deste piloto nao
+produziu evidencia direta suficiente para um freeze real; a decisao
+consciente e registrar a lacuna, nao inventar conteudo.
+
+A promocao a `master_record` (v2.3.0 efetiva) depende de a proxima rodada
+Elicit cobrir, no minimo, **L1, L2, L3** (os 3 valores enum novos de
+`objetos_regalia`, sem os quais os campos viram "etiquetas sem lastro
+operacional"). **L4, L5** (indicadores) sao nice-to-have para v2.4.0.
+
+### L1. `Pele_Leao` (atributo herculeo)
+
+- **Onde aparece**: enum `objetos_regalia` em `purificacao`.
+- **Por que e lacuna**: o atributo iconografico e central para a gramatica
+  herculea (nudez + clava + pele), porem a busca Elicit deste piloto nao
+  produziu fontes primarias brasileiras que registrem uso iconografico
+  direto em programas imperiais ou republicanos.
+- **Sub-linhagem afetada**: Hercules juridico (adendo §2).
+- **Recomendacao v2.4.0+**: busca dirigida em Portinari, Debret, Rugendas
+  e iconografia monumental brasileira (Caxias, Tamandare, etc.).
+
+### L2. `Tridente_Imperial` (soberania marinha)
+
+- **Onde aparece**: enum `objetos_regalia` em `purificacao`.
+- **Por que e lacuna**: marcador canonico de Netuno/Oceanus em programas
+  imperiais ocidentais; no entanto, a busca Elicit deste piloto nao
+  confirmou uso em programas imperiais brasileiros (moeda, selo, brasao).
+- **Sub-linhagem afetada**: Netuno e soberania maritima (adendo §5).
+- **Recomendacao v2.4.0+**: busca em colecao Numista + Rijksmuseum (ja ha
+  18 imagens re-adquiridas em 2026-06-04 que podem cobrir parcialmente).
+
+### L3. `Ancora_Naval` (infraestrutura marinha)
+
+- **Onde aparece**: enum `objetos_regalia` em `purificacao`.
+- **Por que e lacuna**: marcador de "ancoragem simbolica" do Estado no
+  territorio maritimo; faltam fontes primarias que mostrem Ancora_Naval
+  como atributo iconografico autonomo (vs. mero elemento decorativo).
+- **Sub-linhagem afetada**: Atlantes/telamones + soberania maritima
+  (adendo §3, §5).
+- **Recomendacao v2.4.0+**: cruzar com frontispicios de atlas portuarios
+  brasileros (século XIX) e emblemas da marinha.
+
+### L4. `classicizacao` (indicador de purificacao)
+
+- **Onde aparece**: lista `indicadores_purificacao` (ordinal 0-3).
+- **Por que e lacuna**: o indicador pretende mensurar intensidade de
+  idealizacao classicizante (corpo nu, pose conotativa, vestes all'antica),
+  mas faltam criterios operacionais para pontuar 0/1/2/3 de forma
+  reprodutivel entre codificadores.
+- **Sub-linhagem afetada**: transversal a Hercules + Atlantes + Rio_Barbado.
+- **Recomendacao v2.4.0+**: calibracao IRR (inter-rater reliability) com
+  2-3 codificadores em N=20 registros pre-selecionados.
+
+### L5. `depuracao_semantica` (indicador de purificacao)
+
+- **Onde aparece**: lista `indicadores_purificacao` (ordinal 0-3).
+- **Por que e lacuna**: o indicador visa capturar a "limpeza semantica" pela
+  qual uma figura particular (mulher guerreira, genio nacional) e
+  despolitizada em pura abstracao (Justica, Patria). A teoria esta clara
+  (Warner, Drucker); falta ancora operacional para a pontuacao.
+- **Sub-linhagem afetada**: transversal, especialmente Genio do Brasil
+  (adendo §6).
+- **Recomendacao v2.4.0+**: tabela de exemplos canonicos com pontuacao
+  esperada; rodar IRR piloto para calibrar.
+
+### Justificativa epistemologica do freeze com lacunas
+
+A decisao de promover v2.3.0 com 5 lacunas documentadas em vez de tapalas
+segue o principio **capta** (Drucker): dados sao tomados e construidos,
+nao encontrados. Inventar conteudo para fechar lacunas seria pior do que
+registra-las, porque:
+
+1. A `validate_schemas.py`升级 (commit 49caba3) **emite warnings** para
+   usos problematicos (HERCULES_INCOERENTE, JUSTIFICATIVA_CURTA), nao
+   bloqueia. Promover lacunas a "conteudo provisorios" sem lastro violaria
+   o proprio principio que o codebook encarna.
+2. A consulta Elicit deste piloto foi desenhada para validar a *estrutura*
+   do patch (5 campos novos, regra de genero, validacao), nao para
+   esgotar a evidencia de cada valor enum. Esgotar evidencia e trabalho
+   da v2.4.0+.
+3. O `pre_freeze_piloto_v230` e honesto: o corpus pode ser codificado com
+   os campos novos **vazios** (opcionais), e os registros que usam
+   L1/L2/L3/L4/L5 ficam sinalizados para tratamento prioritario.
+
+Refs:
+  - commit 49caba3 (validator升级 com 3 regras condicionais)
+  - commit cc0bb31 (patch v2.3.0 original; "Bloqueios para freeze real")
+  - docs/decisions/2026-06-25-lacunas-v2.3.0.md (ADR formal deste registro)
+||||||| 967f1d9

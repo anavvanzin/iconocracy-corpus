@@ -207,6 +207,69 @@ quando o atributo canonico nao aparece.[^8]
 - **Validacao empirica** da aplicacao dos 10 indicadores de purificacao a gramatica masculina (incluindo casos de polaridade invertida em `desincorporacao`): lacuna na base de evidencia (busca neste piloto).[^3][^5]
 - **Regra condicional `substituicao_atributiva_hercules`**: exige validador com interseccao de arrays (`objetos_regalia` nao contem `Clava`); `tools/scripts/validate_schemas.py` atual nao cobre. Gate tecnico antes do freeze.[^12]
 
+> **Status do gate tecnico (2026-06-25)**: o validator upgrade foi entregue
+> no commit `49caba3` em modo **warnings** (nao errors). A regra
+> `HERCULES_INCOERENTE` cobre o caso de substituicao_identidade (orig == new)
+> emitindo warning; a interseccao de arrays (Clava nao pode estar em
+> `objetos_regalia`) ainda nao foi modelada no schema. Gate tecnico
+> *parcialmente* satisfeito; conclusao em v2.4.0+ quando dados estabilizarem.
+
+### 7.1. Lacunas do codebook editorial (5 nota_lacuna)
+
+Alem das 9 lacunas declaradas acima, o codebook editorial v2.3.0
+(`schema/codebook-v2.3.0.md` §9, §14) carrega **5 marcadores `nota_lacuna`**
+que delimitam valores enum e indicadores sem ancora empirica suficiente
+para o freeze real. Decisao consciente (cf. parecer metodologico
+`docs/decisions/ELICIT-CODEBOOK-PATCH-v2.3.0-2026-06-25.md` §4 e ADR
+`docs/decisions/2026-06-25-lacunas-v2.3.0.md`): **registrar a lacuna,
+nao inventar conteudo**.
+
+Os 5 marcadores sao:
+
+1. **`Pele_Leao`** (L1) -- atributo herculeo, sem fonte primaria brasileira
+   no piloto. Sub-linhagem Hercules (§2). Recomendacao v2.4.0+: busca em
+   Portinari, Debret, Rugendas, iconografia monumental brasileira.
+2. **`Tridente_Imperial`** (L2) -- soberania marinha, sem uso em programas
+   imperiais brasileiros no piloto. Sub-linhagem Netuno (§5). Recomendacao
+   v2.4.0+: Numista + Rijksmuseum (18 imagens re-adquiridas em 2026-06-04).
+3. **`Ancora_Naval`** (L3) -- infraestrutura marinha, sem uso autonomo vs.
+   decorativo. Sub-linhagens Atlantes + Netuno (§3, §5). Recomendacao
+   v2.4.0+: atlas portuarios brasileros do seculo XIX + emblemas marinha.
+4. **`classicizacao`** (L4) -- indicador de purificacao sem criterio
+   operacional reprodutivel (como pontuar 0/1/2/3 de forma consistente).
+   Sub-linhagens transversais. Recomendacao v2.4.0+: IRR com N=20 pre-selecionados.
+5. **`depuracao_semantica`** (L5) -- indicador sem ancora operacional apesar
+   da teoria clara (Warner, Drucker). Sub-linhagem Genio do Brasil (§6).
+   Recomendacao v2.4.0+: tabela de exemplos canonicos + IRR piloto.
+
+A promocao a `master_record` (v2.3.0 efetiva) **depende** de L1, L2, L3
+serem cobertos na proxima rodada Elicit. L4, L5 sao nice-to-have.
+
+## 12. Referencias (atualizado 2026-06-25 -- Movimento 3 do freeze)
+
+Apos o Movimento 3 do freeze plan (commit "Bloqueios para freeze real"
+em cc0bb31), as 8 referencias herdadas do rascunho Elicit foram
+processadas:
+
+- **5 normalizadas** (Villari, Bendall, Lazzaro, Estella, Rodriguez Lopez)
+  -- citacao completa ABNT NBR 6023:2025 com DOI/ISSN, em
+  `schema/codebook-v2.3.0.md` §13.1.
+- **3 com `nota_lacuna_bibliografica`** (Chillon, orioqueorionaove,
+  Titius) -- em `schema/codebook-v2.3.0.md` §13.2, com URL provavel
+  e flag de qualidade.
+
+As notas de rodape abaixo (`[^1]` a `[^12]`) foram preservadas como
+estavam, mas **a referencia canonica para citacao completa passou a ser
+o codebook §13** (nao as notas inline deste adendo). Quando v2.3.0 for
+promovida a `master_record`, as notas inline serao atualizadas para
+apontar para o codebook.
+
+> **Aviso**: 8 das 8 referencias deste adendo foram marcadas como
+> `[verificar ABNT completa antes do commit]` no rascunho Elicit.
+> O freeze real da v2.3.0 depende de normalizacao ABNT completa.
+> **Movimento 3.4 (2026-06-25)** tratou 5 das 8.
+
+
 ## 12. Referencias
 
 > **Aviso**: 8 das 8 referencias abaixo foram marcadas como
