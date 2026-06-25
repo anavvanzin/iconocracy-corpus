@@ -183,7 +183,8 @@
             "Continentes",
             "Oceanos/Rios",
             "Nacional",
-            "Outra"
+            "Outra",
+            "Masculino_Juridico"
           ]
         },
         "subtipo": {
@@ -328,6 +329,67 @@
           "items": { "type": "string" },
           "uniqueItems": true,
           "description": "Optional v2.2.0 decomposition of atributos_iconograficos into scene and architecture markers."
+        },
+        "funcao_da_figura_masculina": {
+          "type": "string",
+          "enum": [
+            "Pedagogia_Do_Bivio",
+            "Suporte_Arquitetonico",
+            "Delimitacao_Territorial",
+            "Protetorado_Nacional",
+            "Soberania_Maritima",
+            "Mediacao_Divino_Juridica",
+            "Outro"
+          ],
+          "description": "NOVO em 2.3.0 (patch opcional). Funcao explicita da figura masculina em contexto juridico-estatal. Opcional nesta rodada; promover a obrigatorio apos migracao dos candidatos."
+        },
+        "tipo_agencia_masculina": {
+          "type": "string",
+          "enum": [
+            "Pedagogia_Do_Bivio",
+            "Suporte_Arquitetonico",
+            "Delimitacao_Territorial",
+            "Protetorado",
+            "Soberania_Maritima",
+            "Mediacao_Divino_Juridica",
+            "Outro"
+          ],
+          "description": "NOVO em 2.3.0 (patch opcional). Tipo especifico de agencia masculina, util para casos brasileiros em que a fonte descreve explicitamente o masculino como ativo."
+        },
+        "funcao_atlanteana": {
+          "type": "boolean",
+          "description": "NOVO em 2.3.0 (patch opcional). Verdadeiro quando a figura masculina cumpre funcao explicita de suporte/sustentacao (arquitetonica ou simbolica)."
+        },
+        "tipo_efluencia_hidrica": {
+          "type": "string",
+          "enum": [
+            "Urna_Vertedora",
+            "Vaso_Inclinado",
+            "Sem_Efluencia",
+            "Outro"
+          ],
+          "description": "NOVO em 2.3.0 (patch opcional). Tipo de efluencia hidrica em personificacoes aquaticas; operacionaliza a regra de coocorrencia barba+semirrecosto+efluencia."
+        },
+        "substituicao_atributiva_hercules": {
+          "type": "object",
+          "properties": {
+            "atributo_canonico_substituido": {
+              "type": "string"
+            },
+            "atributo_novo": {
+              "type": "string"
+            },
+            "justificativa": {
+              "type": "string",
+              "maxLength": 300
+            }
+          },
+          "required": [
+            "atributo_canonico_substituido",
+            "atributo_novo",
+            "justificativa"
+          ],
+          "description": "NOVO em 2.3.0 (patch opcional). Registra identificacao herculea por substituicao atributiva (p.ex., cetro/vara manejado como Hercules a sua clava). Enforce condicional depende de upgrade do validate_schemas.py."
         }
       }
     },
