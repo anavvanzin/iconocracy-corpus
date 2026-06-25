@@ -103,15 +103,19 @@ def _collect_format_errors(data: Any, schema: Dict[str, Any], path: str = "root"
     return errors
 
 
-def validate_record(data: Dict[str, Any], schema_name: str) -> tuple[bool, List[str]]:
-    """Validate a single record against a schema.
-    
-    Args:
-        data: The JSON data to validate
-        schema_name: Name of the schema (without .schema.json extension)
-    
+def validate_records(
+    records: List[Dict[str, Any]],
+    schema_name: str,
+) -> tuple[int, int, List[str], List[Dict[str, Any]]]:
+    """Validate a list of in-memory records.
+
     Returns:
-        Tuple of (is_valid, list_of_errors)
+        (valid_count, total_count, errors, warnings)
+
+        - errors: list of human-readable error strings (block commit in enforce mode).
+        - warnings: list of dicts with keys (code, record_id, field, detail).
+          On the v2.3.0 pre-freeze path, conditional rules emit warnings only
+          (do not block). Promote to errors in v2.4.0+ when data stabilizes.
     """
     schema = load_schema(schema_name)
     resolver = create_resolver()
@@ -121,61 +125,75 @@ def validate_record(data: Dict[str, Any], schema_name: str) -> tuple[bool, List[
         format_checker=FormatChecker(),
     )
 
-    errors = []
-    for error in validator.iter_errors(data):
-        path = ".".join(str(p) for p in error.path) if error.path else "root"
-        errors.append(f"{path}: {error.message}")
-
-    for error in _collect_format_errors(data, schema):
-        if error not in errors:
-            errors.append(error)
-
-    return (len(errors) == 0, errors)
-
-
-def validate_file(file_path: Path, schema_name: str) -> tuple[int, int, List[str]]:
-    """Validate a JSON or JSONL file.
-    
-    Args:
-        file_path: Path to JSON or JSONL file
-        schema_name: Name of the schema to validate against
-    
-    Returns:
-        Tuple of (total_records, valid_count, all_errors)
-    """
-    total = 0
     valid = 0
-    all_errors = []
+    errors: List[str] = []
+    warnings: List[Dict[str, Any]] = []
 
-    with file_path.open("r", encoding="utf-8") as f:
-        if file_path.suffix == ".jsonl":
-            for line_num, line in enumerate(f, 1):
-                if not line.strip():
-                    continue
-                total += 1
-                try:
-                    data = json.loads(line)
-                    is_valid, errors = validate_record(data, schema_name)
-                    if is_valid:
-                        valid += 1
-                    else:
-                        all_errors.append(f"Line {line_num}:")
-                        all_errors.extend(f"  {e}" for e in errors)
-                except json.JSONDecodeError as e:
-                    all_errors.append(f"Line {line_num}: Invalid JSON - {e}")
+    for idx, data in enumerate(records, 1):
+        record_id = data.get("item_id") or data.get("batch_id") or f"<idx-{idx}>"
+
+        record_errors: List[str] = []
+        for error in validator.iter_errors(data):
+            path = ".".join(str(p) for p in error.path) if error.path else "root"
+            record_errors.append(f"{path}: {error.message}")
+        for error in _collect_format_errors(data, schema):
+            if error not in record_errors:
+                record_errors.append(error)
+
+        if record_errors:
+            errors.extend(f"[{record_id}] {e}" for e in record_errors)
         else:
-            total = 1
-            try:
-                data = json.load(f)
-                is_valid, errors = validate_record(data, schema_name)
-                if is_valid:
-                    valid += 1
-                else:
-                    all_errors.extend(errors)
-            except json.JSONDecodeError as e:
-                all_errors.append(f"Invalid JSON: {e}")
+            valid += 1
 
-    return (total, valid, all_errors)
+        warnings.extend(_check_v23_warnings(data, record_id))
+
+    return (valid, len(records), errors, warnings)
+
+
+def _check_v23_warnings(
+    data: Dict[str, Any],
+    record_id: str,
+) -> List[Dict[str, Any]]:
+    """v2.3.0 pre-freeze conditional rules (warnings mode).
+
+    Empty on the RED commit (test baseline). Populated in the GREEN commit
+    with the 3 conditional rules:
+      - JUSTIFICATIVA_CURTA: masculino + justificativa_genero < 80 chars
+      - REQUIRES_V23_FIELDS: familia_alegorica=Masculino_Juridico without v2.3.0 fields
+      - HERCULES_INCOERENTE: substituicao_atributiva_hercules with orig == new
+
+    Promoting these to errors is deferred to v2.4.0+ once data stabilizes.
+    """
+    return []
+
+
+def validate_file(
+    file_path: Path,
+    schema_name: str,
+) -> tuple[int, int, List[str]]:
+    """Validate a JSON or JSONL file on disk.
+
+    Thin wrapper around validate_records(). Surfaces only errors (legacy
+    contract); warnings are observable via validate_records() directly.
+
+    Returns:
+        (total_records, valid_count, errors)
+    """
+    records: List[Dict[str, Any]] = []
+    try:
+        with file_path.open("r", encoding="utf-8") as f:
+            if file_path.suffix == ".jsonl":
+                for line in f:
+                    if not line.strip():
+                        continue
+                    records.append(json.loads(line))
+            else:
+                records = [json.load(f)]
+    except json.JSONDecodeError as e:
+        return (0, 0, [f"Invalid JSON: {e}"])
+
+    valid, total, errors, _warnings = validate_records(records, schema_name)
+    return (total, valid, errors)
 
 
 def main() -> None:
