@@ -488,3 +488,4 @@ Refs:
   - commit 49caba3 (validator升级 com 3 regras condicionais)
   - commit cc0bb31 (patch v2.3.0 original; "Bloqueios para freeze real")
   - docs/decisions/2026-06-25-lacunas-v2.3.0.md (ADR formal deste registro)
+||||||| 967f1d9

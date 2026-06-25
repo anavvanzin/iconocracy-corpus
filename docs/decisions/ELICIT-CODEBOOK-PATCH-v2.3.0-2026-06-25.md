@@ -214,3 +214,4 @@ nao tapalas. Justificativa epistemologica em ADR §4.
    (Chillon/19&20, orioqueorionaove, Titius) antes de promover v2.3.0 a
    `master_record`. As 5 refs normalizadas cobrem a bibliografia central;
    estas 3 sao fontes secundarias para casos brasileiros.
+||||||| 967f1d9

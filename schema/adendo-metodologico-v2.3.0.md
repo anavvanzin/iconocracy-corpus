@@ -269,6 +269,7 @@ apontar para o codebook.
 > O freeze real da v2.3.0 depende de normalizacao ABNT completa.
 > **Movimento 3.4 (2026-06-25)** tratou 5 das 8.
 
+
 ## 12. Referencias
 
 > **Aviso**: 8 das 8 referencias abaixo foram marcadas como
