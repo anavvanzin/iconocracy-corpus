@@ -245,6 +245,30 @@ Os 5 marcadores sao:
 A promocao a `master_record` (v2.3.0 efetiva) **depende** de L1, L2, L3
 serem cobertos na proxima rodada Elicit. L4, L5 sao nice-to-have.
 
+## 12. Referencias (atualizado 2026-06-25 -- Movimento 3 do freeze)
+
+Apos o Movimento 3 do freeze plan (commit "Bloqueios para freeze real"
+em cc0bb31), as 8 referencias herdadas do rascunho Elicit foram
+processadas:
+
+- **5 normalizadas** (Villari, Bendall, Lazzaro, Estella, Rodriguez Lopez)
+  -- citacao completa ABNT NBR 6023:2025 com DOI/ISSN, em
+  `schema/codebook-v2.3.0.md` §13.1.
+- **3 com `nota_lacuna_bibliografica`** (Chillon, orioqueorionaove,
+  Titius) -- em `schema/codebook-v2.3.0.md` §13.2, com URL provavel
+  e flag de qualidade.
+
+As notas de rodape abaixo (`[^1]` a `[^12]`) foram preservadas como
+estavam, mas **a referencia canonica para citacao completa passou a ser
+o codebook §13** (nao as notas inline deste adendo). Quando v2.3.0 for
+promovida a `master_record`, as notas inline serao atualizadas para
+apontar para o codebook.
+
+> **Aviso**: 8 das 8 referencias deste adendo foram marcadas como
+> `[verificar ABNT completa antes do commit]` no rascunho Elicit.
+> O freeze real da v2.3.0 depende de normalizacao ABNT completa.
+> **Movimento 3.4 (2026-06-25)** tratou 5 das 8.
+
 ## 12. Referencias
 
 > **Aviso**: 8 das 8 referencias abaixo foram marcadas como

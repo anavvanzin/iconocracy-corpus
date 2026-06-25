@@ -301,20 +301,100 @@ status_evidencia: piloto
   em chave bizantina, contraparte feminina e Thetis (registrar como
   `Tetis` em `Oceanos/Rios`).
 
-## 13. Referencias (placeholders — verificar ABNT completa antes do freeze)
+## 13. Referencias (formato ABNT NBR 6023:2025)
 
-- Villari, 2015. L\'«Ercole al bivio» di Domenico Beccafumi.
-- Bendall, 2022. Female Personifications and Masculine Forms. Gender & History.
-- Lazzaro, 2011. River gods. Renaissance Studies.
-- Estella, 2002. El llamado Neptuno. Archivo Espanol De Arte.
-- Lopez, 2017. La personificacion del mar.
-- DezenoveVinte (Martin Chillon). O Genio do Brasil e as Musas.
-- orioqueorionaove, 2012. A fachada do IPHAN.
-- Immagini della Giustizia: antiporte: Titius.
+Movimento 3 do freeze plan (commit cc0bb31 "Bloqueios para freeze real").
+5 das 8 refs foram normalizadas via busca em `api.crossref.org` e
+`api.openalex.org` (Movimento 3.4); 3 refs marcadas como
+`nota_lacuna_bibliografica` para a proxima rodada Elicit (mesmo principio
+das 5 lacunas de §14).
 
-> **Aviso**: as 8 referencias acima preservam a marcacao `[verificar ABNT
-> completa antes do commit]` herdada do rascunho Elicit. O freeze real da
-> v2.3.0 depende de normalizacao ABNT completa.
+### 13.1. Referencias normalizadas (5)
+
+VILLARI, Susanna. **L'«Ercole al bivio» di Domenico Beccafumi
+(1486-1551) e l'Ercole giraldiano**. *Studi giraldiani. Letteratura e
+teatro*, Milano, v. 1, n. 0, p. 69-110, 2015.
+DOI: 10.6092/2421-4191/2015.1.69-110. Disponivel em:
+https://doi.org/10.6092/2421-4191/2015.1.69-110. Acesso em: 25 jun. 2026.
+
+BENDALL, Sarah A. **Female Personifications and Masculine Forms: Gender,
+Armour and Allegory in the Habsburg-Valois Conflicts of Sixteenth-Century
+Europe**. *Gender & History*, Hoboken, v. 35, n. 1, p. 42-67, 2023.
+DOI: 10.1111/1468-0424.12592. Disponivel em:
+https://doi.org/10.1111/1468-0424.12592. Acesso em: 25 jun. 2026.
+
+LAZZARO, Claudia. **River gods: personifying nature in sixteenth-century
+Italy**. *Renaissance Studies*, Hoboken, v. 25, n. 1, p. 70-94, 2011.
+DOI: 10.1111/j.1477-4658.2010.00708.x. Disponivel em:
+https://doi.org/10.1111/j.1477-4658.2010.00708.x. Acesso em: 25 jun. 2026.
+
+ESTELLA, Margarita M. **El llamado Neptuno (Rio?) de la Coleccion del
+Carpio y su problematica identificacion con una obra atribuida a Bernini,
+en Aranjuez**. *Archivo Espanol de Arte*, Madrid, v. 75, n. 298,
+p. 117-128, 2002. DOI: 10.3989/aearte.2002.v75.i298.343. Disponivel em:
+https://doi.org/10.3989/aearte.2002.v75.i298.343. Acesso em: 25 jun. 2026.
+
+RODRIGUEZ LOPEZ, Maria Isabel. **La personificacion del mar: Evolucion
+y transformaciones iconograficas del mundo clasico al medioevo**.
+*Revista digital de iconografia medieval*, Madrid, v. 9, n. 17,
+p. 125-140, 2017. ISSN: 2254-7312. Disponivel em:
+https://dialnet.unirioja.es/servlet/articulo?codigo=6058727.
+Acesso em: 25 jun. 2026.
+
+### 13.2. Referencias com `nota_lacuna_bibliografica` (3)
+
+As 3 referencias abaixo foram marcadas com `[verificar ABNT completa antes
+do commit]` no rascunho Elicit e **nao foram encontradas** em
+crossref/openalex/google scholar no piloto de 2026-06-25. Seguem o mesmo
+principio das 5 `nota_lacuna` de §14: registrar a lacuna em vez de
+inventar dados bibliograficos. A promocao da v2.3.0 a `master_record`
+**nao depende** destas 3 (sao fontes secundarias para casos brasileiros),
+mas a proxima rodada Elicit (julho-agosto 2026) deve cobri-las.
+
+#### 13.2.1. CHILLON, Alberto Martin. **O Genio do Brasil e as Musas: um
+manifesto ideologico numa nacao em construcao**. *19&20* (DezenoveVinte),
+Sao Paulo, [data a verificar], [volume/issue/pags a verificar].
+**nota_lacuna_bibliografica**: URL provavel
+`https://www.dezenove20.com.br/` (site ativo, mas artigo especifico nao
+indexado em crossref/openalex em 2026-06-25). Substituir por citacao
+completa apos busca dirigida.
+
+#### 13.2.2. **[Autor a verificar]** (orioqueorionaove). **A fachada do
+IPHAN**. *O Rio que o rio nao ve*, Rio de Janeiro, 2012.
+**nota_lacuna_bibliografica**: blog/site sem DOI, sem ISSN, sem autor
+formal identificado. URL: `http://orioqueorionaove.com` (confirmada ativa
+em 2026-06-25 com tag "fachada" e tag "IPHAN"). Conteudo relevante para
+atlantes/companhias de navegacao. Substituir por citacao completa apos
+contato com o autor ou migracao para formato academico.
+
+#### 13.2.3. **ALUCINACAO SUSPEITA** -- "[Titius, Observationum
+ratiocinantium ... (1)]" / "Immagini della Giustizia: antiporte".
+**nota_lacuna_bibliografica + flag de qualidade**: crossref e openalex
+**nao retornaram correspondencia exata** com esta referencia em
+2026-06-25. Crossref retornou 20 itens sobre "Immagini di giustizia"
+mas nenhum casa com o titulo do codebook. Titius pode ser errata de
+Titian (Ticiano) ou autor real mas obscuro. **Recomendacao**: **remover**
+do codebook ate verificacao independente. Se for genuina, re-adicionar
+com citacao completa apos busca em arquivo italiano (BMC, Archivio di
+Stato). Se for alucinacao do Elicit (improvavel mas possivel),
+a remocao documenta o controle de qualidade.
+
+### 13.3. Notas sobre a normalizacao
+
+- **DOI优先**: refs com DOI sao citadas优先 pelo DOI (ABNT NBR 6023:2025,
+  §7.7.1) por serem identificadores permanentes; URL e data de acesso
+  sao complementares.
+- **Local de publicacao inferido**: para journals academicos, o local
+  frequentemente vem do publisher (Hoboken = Wiley; Madrid = CSIC para
+  Archivo Espanol de Arte). Marcado como inferido quando nao declarado
+  explicitamente no metadata; pode ser corrigido em revisao futura.
+- **Errata do rascunho Elicit**: o rascunho marcava a ref Bendall como
+  "2022"; a publicacao efetiva foi 2023 (DOI resolution confirma). O
+  codebook v2.3.0 usa 2023 como ano correto.
+- **Ref Lopez foi expandida**: o rascunho Elicit registrava so "Lopez,
+  2017"; a busca revelou autora completa (Maria Isabel Rodriguez Lopez)
+  e periodico (Revista digital de iconografia medieval). Citacao
+  significativamente mais robusta.
 
 
 ## 14. Lacunas documentadas (nota_lacuna)

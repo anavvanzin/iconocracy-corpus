@@ -175,7 +175,7 @@ Regras condicionais ficam no YAML editorial.
 |----------|---------------------|-----------|
 | `validate_schemas.py` upgrade | **Resolvido** (modo warnings) | commit `49caba3` + tests `415e0fb` |
 | 5 `nota_lacuna` em indicadores_purificacao | **Documentado** (lacunas assumidas) | ADR `2026-06-25-lacunas-v2.3.0.md` + codebook §14 |
-| 8 referencias `[verificar ABNT]` | **Pendente** (Movimento 3) | adendo metodologico §12 + codebook §13 |
+| 8 referencias `[verificar ABNT]` | **Resolvido** (5 normalizadas + 3 `nota_lacuna_bibliografica`) | Movimento 3.4 (commit `xxxxxx`); codebook §13.1+§13.2; adendo §12 |
 
 ### 6.2. Lacunas do codebook (registro formal)
 
@@ -192,15 +192,25 @@ nao tapalas. Justificativa epistemologica em ADR §4.
 1. Revisar vocabulario controlado para `objetos_regalia` e `marcas_corporais`
    (novos valores introduzidos em v2.3.0) e decidir se migrar para enum
    rigido no schema JSON.
-2. Implementar `validate_schemas.py` suporte para:
-   - `minLength` condicional em `justificativa_genero`;
-   - `required` quando enum-match em outro campo;
-   - interseccao de arrays para `substituicao_atributiva_hercules`.
-3. Normalizar 8 referencias marcadas `[verificar ABNT]` antes de promover
-   v2.3.0 a master.
+2. ~~Implementar `validate_schemas.py` suporte para:~~
+   - ~~`minLength` condicional em `justificativa_genero`;~~
+   - ~~`required` quando enum-match em outro campo;~~
+   - ~~interseccao de arrays para `substituicao_atributiva_hercules`.~~
+   **CONCLUIDO** (commit `49caba3`) em modo **warnings** (nao errors);
+   promocao a errors deferida para v2.4.0+.
+3. ~~Normalizar 8 referencias marcadas `[verificar ABNT]` antes de promover
+   v2.3.0 a master.~~
+   **PARCIALMENTE CONCLUIDO** (Movimento 3.4): 5 normalizadas em
+   ABNT NBR 6023:2025 com DOI/ISSN; 3 marcadas como
+   `nota_lacuna_bibliografica` (Chillon, orioqueorionaove, Titius
+   suspeito). Codebook §13.1+§13.2.
 4. Buscar evidencia direta para os 9 itens lacunares declarados no adendo
    (Duque de Caxias; deuses fluviais em papel-moeda; masculinidades
    afro-brasileiras; masculinidades indigenas; atlantes manuelinos; etc.).
 5. Decidir se o bloco `aplicabilidade_por_familia_masculina` fica para
    v2.4.0 (com schema JSON estendido) ou v3.0.0 (com reorganizacao mais
    ampla).
+6. Buscar evidencia direta para os 3 `nota_lacuna_bibliografica`
+   (Chillon/19&20, orioqueorionaove, Titius) antes de promover v2.3.0 a
+   `master_record`. As 5 refs normalizadas cobrem a bibliografia central;
+   estas 3 sao fontes secundarias para casos brasileiros.
