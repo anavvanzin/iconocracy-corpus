@@ -231,16 +231,16 @@ Sistema decimal de classificação do **conteúdo temático** de imagens (10 div
 | Autor(a) | Obra de referência | Conceito convocado | Papel na tese |
 |---|---|---|---|
 | **Ernst Kantorowicz** | *The King's Two Bodies* (Princeton UP, 1957) | **dois corpos do rei** (*body natural* mortal × *body politic* perpétuo) | matriz jurídica da Purificação Clássica; o corpo alegórico como "corpo político" feminino |
-| **Pierre Legendre** | *anthropologie dogmatique* (Ars Dogmatica) | **referência · instituição · genealogia**; juiz totêmico; gestão das imagens | raiz da Feminilidade de Estado |
-| **António M. Hespanha** | *A Cultura Jurídica Europeia: síntese de um milénio* (Almedina) | **cultura jurídica** (ampliar as fontes para além da legislação) | enquadramento histórico-jurídico do corpus |
-| **Carole Pateman** | *The Sexual Contract* (Polity, 1988) | **contrato sexual** (não-visual) | fonte do Contrato Sexual Visual |
-| **Marie-José Mondzain** | *Imagem, ícone, economia* (ed. **2002**) | **economia icônica** (raiz bizantina do imaginário) | fonte de "iconocracia"; *não* de Feminilidade de Estado |
-| **Anne Carson** | *Dirt and Desire* (in *Men in the Off Hours*, 2000) | **hystéra**; poluição/pureza do feminino na Antiguidade | raiz da Feminilidade de Estado |
-| **Bruno Latour** | *Jamais fomos modernos* (orig. 1991) | **purificação / tradução** (zonas ontológicas distintas) | extensão ferramental da Purificação Clássica |
-| **Donna Haraway** | *A Cyborg Manifesto* (1985) | crítica das fronteiras natureza/cultura | extensão ferramental (não como "ciberfeminismo") |
-| **Philippe Descola** | *Par-delà nature et culture* | superação do dualismo natureza/cultura | extensão ferramental |
-| **Peter Goodrich** | estética jurídica (2014) | **visiocracia** | poder do visual no direito |
-| **Maurice Agulhon** | trilogia *Marianne* (1979 · 1989 · 2001) | iconografia republicana francesa | obra canônica sobre Marianne/La République |
+| **Pierre Legendre** | *Dieu au miroir: étude sur l'institution des images* (Fayard, 1994); *L'Amour du censeur* (Seuil, 1974) | **institution des images**; juiz totêmico; gestão das imagens | raiz da Feminilidade de Estado |
+| **António M. Hespanha** | *Cultura Jurídica Europeia: síntese de um milénio* (Almedina, **2005**) | **cultura jurídica** (ampliar as fontes para além da legislação) | enquadramento histórico-jurídico do corpus |
+| **Carole Pateman** | *The Sexual Contract* (**Stanford UP**, 1988) | **contrato sexual** (não-visual) | fonte do Contrato Sexual Visual |
+| **Marie-José Mondzain** | *Image, icône, économie* (**Seuil, 2002**) | **economia icônica** (raiz bizantina do imaginário) | fonte de "iconocracia"; *não* de Feminilidade de Estado |
+| **Anne Carson** | *Dirt and Desire* (in *Men in the Off Hours*, 2000) `#verificar` | **hystéra**; poluição/pureza do feminino na Antiguidade | raiz da Feminilidade de Estado |
+| **Bruno Latour** | *Nous n'avons jamais été modernes* (La Découverte, 1991) | **purificação / tradução** (zonas ontológicas distintas) | extensão ferramental da Purificação Clássica |
+| **Donna Haraway** | *A Manifesto for Cyborgs* (*Socialist Review*, 1985) | crítica das fronteiras natureza/cultura | extensão ferramental (não como "ciberfeminismo") |
+| **Philippe Descola** | *Les Formes du visible* (Seuil, 2021) | figuração; superação do dualismo natureza/cultura | extensão ferramental |
+| **Peter Goodrich** | *Visiocracy* (*Critical Inquiry*, **2013**) | **visiocracia** | poder do visual no direito |
+| **Maurice Agulhon** | *Marianne au combat* (1979) · *Marianne au pouvoir* (1989) | iconografia republicana francesa | obra canônica sobre Marianne/La République |
 | **Judith Resnik & Dennis Curtis** | *Representing Justice* (Yale UP, 2011) | iconografia da Justiça nos tribunais | referência central do recorte jurídico-iconográfico |
 
 ---
@@ -277,36 +277,41 @@ Sistema decimal de classificação do **conteúdo temático** de imagens (10 div
 
 ## Referências (ABNT NBR 6023:2025)
 
-> [!warning] Conferir antes da defesa
-> Lista preliminar a partir da pesquisa de proveniência; edições/anos marcados `#verificar` devem ser cotejados com o Zotero/`references.bib`.
+> [!note] Cotejado com `vault/tese/references.bib`
+> Entradas alinhadas às chaves BibTeX da tese (`@chave` ao final). Onde a tese mantém edição original **e** tradução PT, ambas constam.
 
-AGULHON, Maurice. **Marianne au combat**: l'imagerie et la symbolique républicaines de 1789 à 1880. Paris: Flammarion, 1979.
+AGULHON, Maurice. **Marianne au combat**: l'imagerie et la symbolique républicaines de 1789 à 1880. Paris: Flammarion, 1979. `@agulhon1979`
 
-CARSON, Anne. Dirt and Desire: the phenomenology of female pollution in antiquity. In: CARSON, Anne. **Men in the Off Hours**. New York: Alfred A. Knopf, 2000.
+AGULHON, Maurice. **Marianne au pouvoir**: l'imagerie et la symbolique républicaines de 1880 à 1914. Paris: Flammarion, 1989. `@agulhon1989`
 
-DESCOLA, Philippe. **Par-delà nature et culture**. Paris: Gallimard, 2005. `#verificar` (edição/tradução).
+DESCOLA, Philippe. **Les Formes du visible**: une anthropologie de la figuration. Paris: Seuil, 2021. `@descola2021` [trad. PT: **As Formas do Visível**. São Paulo: Ubu, 2023. `@descola2023`]
 
-HARAWAY, Donna. A manifesto for cyborgs: science, technology, and socialist feminism in the 1980s. **Socialist Review**, n. 80, p. 65–108, 1985.
+GOODRICH, Peter. Visiocracy: on the futures of the fingerpost. **Critical Inquiry**, v. 39, 2013. `@goodrich2013a`
 
-HESPANHA, António Manuel. **A cultura jurídica europeia**: síntese de um milénio. Coimbra: Almedina. `#verificar` (ano da edição utilizada).
+HARAWAY, Donna. A manifesto for cyborgs: science, technology, and socialist feminism in the 1980s. **Socialist Review**, n. 80, 1985. `@haraway1985` [trad. PT: Manifesto ciborgue. In: SILVA, T. T. (org.). **Antropologia do Ciborgue**. Belo Horizonte: Autêntica, 2009. `@haraway2009`]
 
-KANTOROWICZ, Ernst H. **The King's Two Bodies**: a study in mediaeval political theology. Princeton: Princeton University Press, 1957.
+HESPANHA, António Manuel. **Cultura Jurídica Europeia**: síntese de um milénio. Coimbra: Almedina, 2005. `@hespanha2005`
 
-LATOUR, Bruno. **Jamais fomos modernos**: ensaio de antropologia simétrica. Rio de Janeiro: Editora 34, 1994. [Orig.: *Nous n'avons jamais été modernes*, Paris: La Découverte, 1991.]
+KANTOROWICZ, Ernst H. **The King's Two Bodies**: a study in mediaeval political theology. Princeton: Princeton University Press, 1957. `@kantorowicz1957` [trad. PT: **Os Dois Corpos do Rei**. São Paulo: Companhia das Letras, 1998. `@kantorowicz1998`]
 
-LEGENDRE, Pierre. **[obra específica]**. Paris: Fayard. `#verificar` (definir o volume da *Ars Dogmatica* a citar).
+LATOUR, Bruno. **Nous n'avons jamais été modernes**: essai d'anthropologie symétrique. Paris: La Découverte, 1991. `@latour1991` [trad. PT: **Jamais Fomos Modernos**. Rio de Janeiro: Editora 34, 1994. `@latour1994`]
 
-MONDZAIN, Marie-José. **Imagem, ícone, economia**: as fontes bizantinas do imaginário contemporâneo. 2002. `#verificar` (editora/edição PT — regra da tese: usar edição 2002).
+LEGENDRE, Pierre. **Dieu au miroir**: étude sur l'institution des images. Paris: Fayard, 1994. `@legendre1994` [ver tb. **L'Amour du censeur**: essai sur l'ordre dogmatique. Paris: Seuil, 1974. `@legendre1974`]
 
-PANOFSKY, Erwin. **Studies in Iconology**: humanistic themes in the art of the Renaissance. New York: Oxford University Press, 1939.
+MONDZAIN, Marie-José. **Image, icône, économie**: les sources byzantines de l'imaginaire contemporain. Paris: Seuil, 2002. `@mondzain2002`
 
-PATEMAN, Carole. **The Sexual Contract**. Cambridge: Polity Press, 1988.
+PANOFSKY, Erwin. **Studies in Iconology**: humanistic themes in the art of the Renaissance. New York: Oxford University Press, 1939. `@panofsky1939`
 
-RESNIK, Judith; CURTIS, Dennis. **Representing Justice**: invention, controversy, and rights in city-states and democratic courtrooms. New Haven: Yale University Press, 2011.
+PATEMAN, Carole. **The Sexual Contract**. Stanford: Stanford University Press, 1988. `@pateman1988` [trad. PT: **O contrato sexual**. Rio de Janeiro: Paz e Terra, 1993. `@pateman1993`]
 
-VAN DE WAAL, Henri. **Iconclass**: an iconographic classification system. Amsterdam: North-Holland, 1973–1985.
+RESNIK, Judith; CURTIS, Dennis. **Representing Justice**: invention, controversy, and rights in city-states and democratic courtrooms. New Haven: Yale University Press, 2011. `#verificar` (chave a inserir no `references.bib`).
 
-WARBURG, Aby. **Der Bilderatlas Mnemosyne**. [1924–1929]. `#verificar` (edição crítica a citar, p.ex. Akademie Verlag / The Warburg Institute).
+WARBURG, Aby. **Der Bilderatlas Mnemosyne**. Ed. Martin Warnke. Berlin: Akademie Verlag, 2000 [orig. 1924–1929]. `@warburg2000`
+
+> [!warning] Pendências bibliográficas (`#verificar`)
+> - **Carson / hystéra** — o conceito vem de "Dirt and Desire" (*Men in the Off Hours*, 2000); o `references.bib` lista apenas `@carson2023` (*Sobre aquilo em que eu mais penso*). **Inserir** a entrada de *Men in the Off Hours* ou confirmar qual Carson sustenta a *hystéra* no Cap. 2.2.
+> - **Resnik & Curtis (Representing Justice)** e **Iconclass / van de Waal** ainda **não têm chave** no `references.bib` — criar antes da compilação.
+> - **Legendre** — confirmar (TODO já registrado na bib) se as edições citadas são `legendre1974`/`legendre1994`.
 
 ---
 
