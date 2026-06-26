@@ -118,7 +118,7 @@ Active automation:
 | **Pathosformel**, **Zwischenraum**, **Nachleben** | Warburg — always in German |
 | **Mondzain** | Always 2002 edition |
 | **ABNT NBR 6023:2025** | Citation standard for all references |
-| **Iconclass 48C51** | Key code for feminist iconography |
+| **Iconclass 48C51** | Rótulo **interno do projeto** para a sub-rede de iconografia feminista (`extract_feminist_network.py` → `feminist_network_48C51_pt.json`). ⚠ **Não é o rótulo oficial.** No iconclass.org, `48C51` = *"painting (incl. book-illumination, miniature-painting)"*; os códigos oficiais do recorte jurídico são **44** (*state; law; political life*) e **11M44** (*Justitia*). No manuscrito, não afirmar "48C51 = iconografia feminista" como se fosse rótulo oficial do Iconclass — usar 44/11M44 para citações Iconclass. (verificado iconclass.org, 2026-06-26) |
 | **"ciberfeminismo"** | NEVER use in thesis text. Reservado para paper derivado pós-defesa. Operadores Haraway/Latour/Descola entram como matriz ferramental de Purificação Clássica, não como filiação a tradição |
 
 ---
