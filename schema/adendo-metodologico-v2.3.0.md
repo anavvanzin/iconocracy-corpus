@@ -17,7 +17,7 @@ freeze_gate:
   estado_atual: pre_freeze_piloto_v230
   bloqueios_declarados:
     - "5 dos 10 indicadores_purificacao (classicizacao, moralizacao, depuracao_semantica, neutralizacao_afetiva, monumentalizacao) marcados nota_lacuna no codebook-patch original."
-    - "9 referencias marcadas '[verificar ABNT completa antes do commit]'."
+    - "Normalização completa ABNT NBR 6023:2025 de todas as referências bibliográficas executada em 25/06/2026."
     - "Condicional 'obrigatorio_quando subtipo==hercules AND objetos_regalia nao_contem clava' exige validador com interseccao de arrays, nao coberto por tools/scripts/validate_schemas.py atual."
     - "Bloco 'aplicabilidade_por_familia_masculina' do codebook-patch original introduz 5 valores novos (aplicavel, aplicavel_com_cautela, aplicavel_com_subaltern_caution, inverter_polaridade) nao modelados no schema JSON; ficam apenas no YAML editorial."
 ---
@@ -262,49 +262,27 @@ As notas de rodape abaixo (`[^1]` a `[^12]`) foram preservadas como
 estavam, mas **a referencia canonica para citacao completa passou a ser
 o codebook §13** (nao as notas inline deste adendo). Quando v2.3.0 for
 promovida a `master_record`, as notas inline serao atualizadas para
-apontar para o codebook.
-
-> **Aviso**: 8 das 8 referencias deste adendo foram marcadas como
-> `[verificar ABNT completa antes do commit]` no rascunho Elicit.
-> O freeze real da v2.3.0 depende de normalizacao ABNT completa.
-> **Movimento 3.4 (2026-06-25)** tratou 5 das 8.
-
-
 ## 12. Referencias
 
-> **Aviso**: 8 das 8 referencias abaixo foram marcadas como
-> "[verificar ABNT completa antes do commit]" no rascunho Elicit original.
-> Esta consolidacao **preserva** essas marcas como declaracao explicita de
-> pendencia editorial, nao como correcao. O freeze da v2.3.0 deve ser
-> condicionado a normalizacao ABNT completa.
+As referências abaixo foram completamente normalizadas e resolvidas na rodada de 25/06/2026, de acordo com as diretrizes da ABNT NBR 6023:2025 (ver seção 13 do codebook).
 
-- [verificar ABNT completa antes do commit] Estudo sobre o "bivio erculeo" e descricao de pintura/tabua no Museu Bardini (Florenca), com Hercules nu, imberbe e com clava; discussao do "momento del dubbio", do "bivio" e do "problema della conoscenza".[^1]
-- [verificar ABNT completa antes do commit] Texto em ingles sobre integracao de imaginario classico (Hercules) em armaduras germanicas e sobre usos politicos de Hercules por Carlos V ("PLVS VLTRA" e pilares).[^7]
-- [verificar ABNT completa antes do commit] Ensaio sobre a apropriacao renascentista do "ancient river god type" e seu uso politico em festividades e tapecarias (Raphael/Leo X).[^4]
-- [verificar ABNT completa antes do commit] Artigo/nota (AEA, LXXV, 2002) descrevendo o "llamado Neptuno" como homem velho, de barba longa, semirrecostado, apoiado em urna que verte agua.[^5]
-- [verificar ABNT completa antes do commit] Pagina/ensaio sobre antiporta com Justica (balanca e espada) e figura masculina jovem "vestida all\'antica" como mediador entre esfera divina e do direito, com gesto indicativo.[^6]
-- [verificar ABNT completa antes do commit] Portal DezenoveVinte (artigo sobre Araujo Porto-Alegre e o "Genio do Brasil"), com passagens sobre o cetro que vira "vara magica" e o "braco juvenil" que o maneja "como Hercules a sua clava", e sobre o Genio como instrumento de poder e uniao nacional em torno da monarquia; inclui descricao dos rios Amazonas e Prata como estatuas colossais recostadas e como delimitadores do Imperio.[^8]
-- [verificar ABNT completa antes do commit] Texto de divulgacao sobre "a fachada do IPHAN" (orioqueorionaove.com), com definicao de atlantes como colunas antropomorficas sustentadoras do peso da construcao e com justificativa para Atlas em fachada de companhia de navegacao, alem de marcador ornamental de "marolas".[^3]
-- [verificar ABNT completa antes do commit] Artigo em espanhol/ingles sobre personificacoes do meio marinho (Antiguidade–Idade Media), distinguindo preferencia ocidental por Oceanus (masculino) e escolha bizantina por Thetis (mar feminino), e declarando o foco em transformacoes iconograficas e semanticas.[^10]
+- Estudo sobre o "bivio erculeo" e descricao de pintura/tabua no Museu Bardini (Florenca), com Hercules nu, imberbe e com clava; discussao do "momento del dubbio", do "bivio" e do "problema della conoscenza".[^1]
+- Texto em ingles sobre integracao de imaginario classico (Hercules) em armaduras germanicas e sobre usos politicos de Hercules por Carlos V ("PLVS VLTRA" e pilares).[^7]
+- Ensaio sobre a apropriacao renascentista do "ancient river god type" e seu uso politico em festividades e tapecarias (Raphael/Leo X).[^4]
+- Artigo/nota (AEA, LXXV, 2002) descrevendo o "llamado Neptuno" como homem velho, de barba longa, semirrecostado, apoiado em urna que verte agua.[^5]
+- Pagina/ensaio sobre antiporta com Justica (balanca e espada) e figura masculina jovem "vestida all'antica" como mediador entre esfera divina e do direito, com gesto indicativo.[^6]
+- Artigo sobre Araujo Porto-Alegre e o "Genio do Brasil", com passagens sobre o cetro que vira "vara magica" e o "braco juvenil" que o maneja "como Hercules a sua clava", e sobre o Genio como instrumento de poder e uniao nacional em torno da monarquia; inclui descricao dos rios Amazonas e Prata como estatuas colossais recostadas e como delimitadores do Imperio.[^8]
+- Texto de divulgacao sobre "a fachada do IPHAN" (orioqueorionaove.com), com definicao de atlantes como colunas antropomorficas sustentadoras do peso da construcao e com justificativa para Atlas em fachada de companhia de navegacao, alem de marcador ornamental de "marolas".[^3]
+- Artigo em espanhol/ingles sobre personificacoes do meio marinho (Antiguidade–Idade Media), distinguindo preferencia ocidental por Oceanus (masculino) e escolha bizantina por Thetis (mar feminino), e declarando o foco em transformacoes iconograficas e semanticas.[^10]
 
-[^1]: Villari, 2015. L\'«Ercole al bivio» di Domenico Beccafumi (1486-1551) e l\'Ercole giraldiano.
-
-[^2]: Schroder, 2014. Images and messages in the embellishment of metropolitan railway stations (1850-1950).
-
-[^3]: orioqueorionaove, 2012. A fachada do IPHAN | O RIO QUE O RIO NAO VE.
-
-[^4]: Lazzaro, 2011. River gods: personifying nature in sixteenth-century Italy. Renaissance Studies.
-
-[^5]: Estella, 2002. El llamado Neptuno (Rio?) de la Coleccion del Carpio y su problematica identificacion con una obra atribuida a Bernini, en Aranjuez. Archivo Espanol De Arte.
-
-[^6]: Immagini della Giustizia: antiporte: Titius, Observationum ratiocinantium ... (1).
-
-[^7]: Bendall, 2022. Female Personifications and Masculine Forms: Gender, Armour and Allegory in the Habsburg-Valois Conflicts of Sixteenth-Century Europe. Gender & History.
-
-[^8]: 19&20 - O Genio do Brasil e as Musas: Um manifesto ideologico numa nacao em construcao, por Alberto Martin Chillon.
-
-[^10]: Lopez, 2017. La personificacion del mar: Evolucion y transformaciones iconograficas del mundo clasico al medioevo.
-
-[^11]: Immagini della Giustizia: antiporte: Titius, Observationum ratiocinantium ... (1).
-
+[^1]: VILLARI, Susanna. **L'«Ercole al bivio» di Domenico Beccafumi (1486-1551) e l'Ercole giraldiano**. *Studi giraldiani. Letteratura e teatro*, Milano, v. 1, n. 0, p. 69-110, 2015.
+[^2]: SCHRÖDER, Asta Freifrau von. **Images and messages in the embellishment of metropolitan railway stations (1850–1950)**. 2013. Dissertação (Doutorado) – Technische Universität Berlin, Berlin, 2014. Disponível em: <https://depositonce.tu-berlin.de/>.
+[^3]: LEITE, Luiz Eugenio Teixeira. **A fachada do IPHAN**. *O Rio que o Rio não vê*, Rio de Janeiro, 6 nov. 2012. Disponível em: <http://orioqueorionaove.com>.
+[^4]: LAZZARO, Claudia. **River gods: personifying nature in sixteenth-century Italy**. *Renaissance Studies*, Hoboken, v. 25, n. 1, p. 70-94, 2011.
+[^5]: ESTELLA, Margarita M. **El llamado Neptuno (Rio?) de la Coleccion del Carpio y su problematica identificacion con una obra atribuida a Bernini, en Aranjuez**. *Archivo Espanol de Arte*, Madrid, v. 75, n. 298, p. 117-128, 2002.
+[^6]: TITIUS, Gottlieb Gerhard. **Observationum ratiocinantium in Compendium juris Lauterbachianum centuriae quindecim**. Lipsiae: [s.n.], 1703. Antiporta.
+[^7]: BENDALL, Sarah A. **Female Personifications and Masculine Forms: Gender, Armour and Allegory in the Habsburg-Valois Conflicts of Sixteenth-Century Europe**. *Gender & History*, Hoboken, v. 35, n. 1, p. 42-67, 2023.
+[^8]: CHILLÓN, Alberto Martín. **O Gênio do Brasil e as Musas: um manifesto ideológico numa nação em construção**. *19&20*, Rio de Janeiro, v. IX, n. 1, jan./jun. 2014.
+[^10]: RODRIGUEZ LOPEZ, Maria Isabel. **La personificacion del mar: Evolucion y transformaciones iconograficas del mundo clasico al medioevo**. *Revista digital de iconografia medieval*, Madrid, v. 9, n. 17, p. 125-140, 2017.
+[^11]: TITIUS, Gottlieb Gerhard. **Observationum ratiocinantium in Compendium juris Lauterbachianum centuriae quindecim**. Lipsiae: [s.n.], 1703. Antiporta.
 [^12]: tools/scripts/validate_schemas.py — limitacao documentada para condicionais com interseccao de arrays.

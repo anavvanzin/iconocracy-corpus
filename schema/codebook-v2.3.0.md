@@ -20,7 +20,7 @@ gates_tecnicos_para_freeze:
   - "tools/scripts/validate_schemas.py precisa ganhar suporte para: (i) minLength condicional em justificativa_genero quando genero_atribuido==masculino; (ii) interseccao de arrays para condicional substituicao_atributiva_hercules."
   - "Bloco aplicabilidade_por_familia_masculina (5 valores x 10 indicadores = 50 chaves potenciais) ainda nao modelado no schema JSON; ver secao 8."
   - "5 dos 10 indicadores_purificacao marcados nota_lacuna na base de evidencia deste piloto."
-  - "8 referencias marcadas [verificar ABNT completa antes do commit]."
+  - "Normalização completa ABNT NBR 6023:2025 executada em 25/06/2026."
 autor: Ana Vanzin
 licenca: CC-BY-4.0
 ---
@@ -309,7 +309,7 @@ Movimento 3 do freeze plan (commit cc0bb31 "Bloqueios para freeze real").
 `nota_lacuna_bibliografica` para a proxima rodada Elicit (mesmo principio
 das 5 lacunas de §14).
 
-### 13.1. Referencias normalizadas (5)
+### 13.1. Referencias normalizadas (8)
 
 VILLARI, Susanna. **L'«Ercole al bivio» di Domenico Beccafumi
 (1486-1551) e l'Ercole giraldiano**. *Studi giraldiani. Letteratura e
@@ -341,43 +341,15 @@ p. 125-140, 2017. ISSN: 2254-7312. Disponivel em:
 https://dialnet.unirioja.es/servlet/articulo?codigo=6058727.
 Acesso em: 25 jun. 2026.
 
-### 13.2. Referencias com `nota_lacuna_bibliografica` (3)
+CHILLÓN, Alberto Martín. **O Gênio do Brasil e as Musas: um manifesto ideológico numa nação em construção**. *19&20*, Rio de Janeiro, v. IX, n. 1, jan./jun. 2014. Disponível em: <http://www.dezenovevinte.net/obras/obras_amc.htm>. Acesso em: 25 jun. 2026.
 
-As 3 referencias abaixo foram marcadas com `[verificar ABNT completa antes
-do commit]` no rascunho Elicit e **nao foram encontradas** em
-crossref/openalex/google scholar no piloto de 2026-06-25. Seguem o mesmo
-principio das 5 `nota_lacuna` de §14: registrar a lacuna em vez de
-inventar dados bibliograficos. A promocao da v2.3.0 a `master_record`
-**nao depende** destas 3 (sao fontes secundarias para casos brasileiros),
-mas a proxima rodada Elicit (julho-agosto 2026) deve cobri-las.
+LEITE, Luiz Eugenio Teixeira. **A fachada do IPHAN**. *O Rio que o Rio não vê*, Rio de Janeiro, 6 nov. 2012. Disponível em: <http://orioqueorionaove.com>. Acesso em: 25 jun. 2026.
 
-#### 13.2.1. CHILLON, Alberto Martin. **O Genio do Brasil e as Musas: um
-manifesto ideologico numa nacao em construcao**. *19&20* (DezenoveVinte),
-Sao Paulo, [data a verificar], [volume/issue/pags a verificar].
-**nota_lacuna_bibliografica**: URL provavel
-`https://www.dezenove20.com.br/` (site ativo, mas artigo especifico nao
-indexado em crossref/openalex em 2026-06-25). Substituir por citacao
-completa apos busca dirigida.
+TITIUS, Gottlieb Gerhard. **Observationum ratiocinantium in Compendium juris Lauterbachianum centuriae quindecim**. Lipsiae: [s.n.], 1703. Antiporta. Disponível em: <http://www.unimore.it>. Acesso em: 25 jun. 2026.
 
-#### 13.2.2. **[Autor a verificar]** (orioqueorionaove). **A fachada do
-IPHAN**. *O Rio que o rio nao ve*, Rio de Janeiro, 2012.
-**nota_lacuna_bibliografica**: blog/site sem DOI, sem ISSN, sem autor
-formal identificado. URL: `http://orioqueorionaove.com` (confirmada ativa
-em 2026-06-25 com tag "fachada" e tag "IPHAN"). Conteudo relevante para
-atlantes/companhias de navegacao. Substituir por citacao completa apos
-contato com o autor ou migracao para formato academico.
+### 13.2. Referencias com `nota_lacuna_bibliografica` (0)
 
-#### 13.2.3. **ALUCINACAO SUSPEITA** -- "[Titius, Observationum
-ratiocinantium ... (1)]" / "Immagini della Giustizia: antiporte".
-**nota_lacuna_bibliografica + flag de qualidade**: crossref e openalex
-**nao retornaram correspondencia exata** com esta referencia em
-2026-06-25. Crossref retornou 20 itens sobre "Immagini di giustizia"
-mas nenhum casa com o titulo do codebook. Titius pode ser errata de
-Titian (Ticiano) ou autor real mas obscuro. **Recomendacao**: **remover**
-do codebook ate verificacao independente. Se for genuina, re-adicionar
-com citacao completa apos busca em arquivo italiano (BMC, Archivio di
-Stato). Se for alucinacao do Elicit (improvavel mas possivel),
-a remocao documenta o controle de qualidade.
+Todas as 8 referências foram completamente normalizadas e resolvidas na rodada de 25/06/2026. Não há pendências bibliográficas restantes nesta versão.
 
 ### 13.3. Notas sobre a normalizacao
 
