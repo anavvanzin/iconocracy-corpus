@@ -9,6 +9,7 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "hono": "^4.6.3"
   },
   "devDependencies": {
