@@ -235,15 +235,10 @@ Os 5 marcadores sao:
 3. **`Ancora_Naval`** (L3) -- infraestrutura marinha, sem uso autonomo vs.
    decorativo. Sub-linhagens Atlantes + Netuno (§3, §5). Recomendacao
    v2.4.0+: atlas portuarios brasileros do seculo XIX + emblemas marinha.
-4. **`classicizacao`** (L4) -- indicador de purificacao sem criterio
-   operacional reprodutivel (como pontuar 0/1/2/3 de forma consistente).
-   Sub-linhagens transversais. Recomendacao v2.4.0+: IRR com N=20 pre-selecionados.
-5. **`depuracao_semantica`** (L5) -- indicador sem ancora operacional apesar
-   da teoria clara (Warner, Drucker). Sub-linhagem Genio do Brasil (§6).
-   Recomendacao v2.4.0+: tabela de exemplos canonicos + IRR piloto.
+4. **`classicizacao`** (L4) -- Resolvido em 25/06/2026 sob os critérios operacionais descritos em [criterios-operacionais-L4-L5.md](file:///Users/ana/Research/hub/iconocracy-corpus/schema/criterios-operacionais-L4-L5.md). Sub-linhagens transversais.
+5. **`depuracao_semantica`** (L5) -- Resolvido em 25/06/2026 sob os critérios operacionais descritos em [criterios-operacionais-L4-L5.md](file:///Users/ana/Research/hub/iconocracy-corpus/schema/criterios-operacionais-L4-L5.md). Sub-linhagem Gênio do Brasil (§6).
 
-A promocao a `master_record` (v2.3.0 efetiva) **depende** de L1, L2, L3
-serem cobertos na proxima rodada Elicit. L4, L5 sao nice-to-have.
+A promoção a `master_record` (v2.3.0 efetiva) depende de L1, L2, L3 serem cobertos na próxima rodada Elicit. As lacunas metodológicas L4 e L5 foram sanadas nesta rodada.
 
 ## 12. Referencias (atualizado 2026-06-25 -- Movimento 3 do freeze)
 

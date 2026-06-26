@@ -19,7 +19,7 @@ regras_legado:
 gates_tecnicos_para_freeze:
   - "tools/scripts/validate_schemas.py precisa ganhar suporte para: (i) minLength condicional em justificativa_genero quando genero_atribuido==masculino; (ii) interseccao de arrays para condicional substituicao_atributiva_hercules."
   - "Bloco aplicabilidade_por_familia_masculina (5 valores x 10 indicadores = 50 chaves potenciais) ainda nao modelado no schema JSON; ver secao 8."
-  - "5 dos 10 indicadores_purificacao marcados nota_lacuna na base de evidencia deste piloto."
+  - "Critérios operacionais definidos para os 10 indicadores de purificação em 25/06/2026."
   - "Normalização completa ABNT NBR 6023:2025 executada em 25/06/2026."
 autor: Ana Vanzin
 licenca: CC-BY-4.0
@@ -232,14 +232,11 @@ Quando `familia_alegorica == Masculino_Juridico`:
   pode nao ser seriado).
 - `inscricao_estatal`: aplicavel; alta para `Genio_Protetor` em programas
   imperiais; cautela para casos contestados.
-- `classicizacao`: aplicavel; mensurar intensidade de idealizacao
-  classicizante (corpo/pose/vestes). **nota_lacuna** (ver §14 lacuna L4).
-- `moralizacao`: aplicavel_com_cautela; central para `Hercules` (bivio e
-  pedagogia moral). **nota_lacuna** na base de evidencia deste piloto.
-- `depuracao_semantica`: aplicavel_com_cautela. **nota_lacuna** (ver §14 lacuna L5).
-- `neutralizacao_afetiva`: aplicavel_com_cautela. **nota_lacuna**.
-- `monumentalizacao`: aplicavel_com_cautela; alta para `Rio_Barbado` em
-  programas imperiais (estatuas colossais); **nota_lacuna** para o resto.
+- `classicizacao`: aplicavel; mensurar intensidade de idealizacao classicizante (corpo/pose/vestes). Resolvido sob os criterios de [criterios-operacionais-L4-L5.md](file:///Users/ana/Research/hub/iconocracy-corpus/schema/criterios-operacionais-L4-L5.md) (ver §14 lacuna L4).
+- `moralizacao`: aplicavel_com_cautela; central para `Hercules` (bivio e pedagogia moral). Resolvido sob os criterios de [criterios-operacionais-L4-L5.md](file:///Users/ana/Research/hub/iconocracy-corpus/schema/criterios-operacionais-L4-L5.md).
+- `depuracao_semantica`: aplicavel_com_cautela. Resolvido sob os criterios de [criterios-operacionais-L4-L5.md](file:///Users/ana/Research/hub/iconocracy-corpus/schema/criterios-operacionais-L4-L5.md) (ver §14 lacuna L5).
+- `neutralizacao_afetiva`: aplicavel_com_cautela. Resolvido sob os criterios de [criterios-operacionais-L4-L5.md](file:///Users/ana/Research/hub/iconocracy-corpus/schema/criterios-operacionais-L4-L5.md).
+- `monumentalizacao`: aplicavel_com_cautela; alta para `Rio_Barbado` em programas imperiais (estatuas colossais). Resolvido sob os criterios de [criterios-operacionais-L4-L5.md](file:///Users/ana/Research/hub/iconocracy-corpus/schema/criterios-operacionais-L4-L5.md).
 
 ## 10. Plano de migracao (resumo)
 
@@ -414,28 +411,19 @@ operacional"). **L4, L5** (indicadores) sao nice-to-have para v2.4.0.
 - **Recomendacao v2.4.0+**: cruzar com frontispicios de atlas portuarios
   brasileros (século XIX) e emblemas da marinha.
 
-### L4. `classicizacao` (indicador de purificacao)
+### L4. `classicizacao` (indicador de purificacao) — RESOLVIDO
 
 - **Onde aparece**: lista `indicadores_purificacao` (ordinal 0-3).
-- **Por que e lacuna**: o indicador pretende mensurar intensidade de
-  idealizacao classicizante (corpo nu, pose conotativa, vestes all'antica),
-  mas faltam criterios operacionais para pontuar 0/1/2/3 de forma
-  reprodutivel entre codificadores.
+- **Status**: Resolvido sob os critérios operacionais descritos em [criterios-operacionais-L4-L5.md](file:///Users/ana/Research/hub/iconocracy-corpus/schema/criterios-operacionais-L4-L5.md) (junho 2026).
 - **Sub-linhagem afetada**: transversal a Hercules + Atlantes + Rio_Barbado.
-- **Recomendacao v2.4.0+**: calibracao IRR (inter-rater reliability) com
-  2-3 codificadores em N=20 registros pre-selecionados.
+- **Recomendacao**: calibracao IRR (inter-rater reliability) com 2-3 codificadores em N=20 registros pre-selecionados para validar os critérios estabelecidos.
 
-### L5. `depuracao_semantica` (indicador de purificacao)
+### L5. `depuracao_semantica` (indicador de purificacao) — RESOLVIDO
 
 - **Onde aparece**: lista `indicadores_purificacao` (ordinal 0-3).
-- **Por que e lacuna**: o indicador visa capturar a "limpeza semantica" pela
-  qual uma figura particular (mulher guerreira, genio nacional) e
-  despolitizada em pura abstracao (Justica, Patria). A teoria esta clara
-  (Warner, Drucker); falta ancora operacional para a pontuacao.
-- **Sub-linhagem afetada**: transversal, especialmente Genio do Brasil
-  (adendo §6).
-- **Recomendacao v2.4.0+**: tabela de exemplos canonicos com pontuacao
-  esperada; rodar IRR piloto para calibrar.
+- **Status**: Resolvido sob os critérios operacionais descritos em [criterios-operacionais-L4-L5.md](file:///Users/ana/Research/hub/iconocracy-corpus/schema/criterios-operacionais-L4-L5.md) (junho 2026).
+- **Sub-linhagem afetada**: transversal, especialmente Genio do Brasil (adendo §6).
+- **Recomendacao**: rodar IRR piloto para calibrar a concordância baseada na tabela de critérios operacionais.
 
 ### Justificativa epistemologica do freeze com lacunas
 

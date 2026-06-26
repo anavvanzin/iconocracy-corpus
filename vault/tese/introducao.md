@@ -14,8 +14,8 @@ pandoc:
 
 # Introdução — Feminilidade de Estado e a Constituição Estética da Autoridade
 
-> **Fonte:** corpo principal migrado de `tese/manuscrito/Introducao_rev.md` (consolidado em 2026-05-16). §§I.3 e I.7 preservam a arquitetura dos quatro conceitos originais já desenvolvida na versão canônica anterior.
-> **Pendências:** âncoras a inserir (arquitetura forense; Weber; "pintura de alma"); data de Mondzain a verificar.
+> **Fonte:** corpo principal migrado de `tese/manuscrito/Introducao_rev.md` (consolidado em 2026-06-25).
+> **Pendências:** resolvidas na rodada de 25/06/2026.
 
 ---
 
