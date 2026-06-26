@@ -247,18 +247,18 @@ Sistema decimal de classificação do **conteúdo temático** de imagens (10 div
 
 ## 5 · Alegorias femininas nacionais 🏛️
 
-| País | Figuras | Origem / função jurídico-política |
-|:--:|---|---|
-| 🇫🇷 **FR** | **Marianne / La République**, **La Liberté**, **La Justice** | a escolha de figura feminina para personificar a República é central à imagética republicana (Agulhon); auge no "longo século XIX" |
-| 🇬🇧 **UK** | **Britannia**, **Justice**, **Hibernia**, **Scotia** | personificação imperial e das nações constituintes |
-| 🇩🇪 **DE** | **Germania**, **Justitia**, **Minerva** | alegoria totêmica da consciência nacional alemã, emergente no fim do séc. XVIII |
-| 🇺🇸 **US** | **Columbia**, **Lady Liberty**, **Lady Justice**, **America** | personificação cívica da república/Estado |
-| 🇧🇪 **BE** | **La Belgique** | alegoria nacional belga |
-| 🇧🇷 **BR** | **A República**, **A Justiça** | recepção transatlântica do modelo neoclássico (Contrato Racial Visual) |
-| — | **Justitia / Lady Justice** | de *Iustitia* romana (introduzida sob Augusto); balança + espada (+ venda); persistência notável da Antiguidade aos tribunais modernos (Resnik & Curtis, 2011) |
+| País | Figuras | Origem / função jurídico-política | Fonte-chave |
+|:--:|---|---|---|
+| 🇫🇷 **FR** | **Marianne / La République**, **La Liberté**, **La Justice** | figura feminina como personificação da República, central à imagética republicana; auge no "longo século XIX" | `@agulhon1979` · `@agulhon1989` |
+| 🇬🇧 **UK** | **Britannia**, **Justice**, **Hibernia**, **Scotia** | origem romana, revivida no séc. XVI; personifica **justiça, liberdade e o Império** em moedas e selos; pose de deusa greco-romana fixada por Tenniel | `@millat2003` |
+| 🇩🇪 **DE** | **Germania**, **Justitia**, **Minerva** | instrumentalizada do movimento do Reno (1840) à fundação do Império (1871); ápice no monumento de **Niederwald** (Schilling, 1883) — alegoria totêmica e bélica | `@mazon2000` · `@gallindo2023` |
+| 🇺🇸 **US** | **Columbia**, **Lady Liberty**, **Lady Justice**, **America** | trajetória da "Princesa Índia" à "Deusa Grega" neoclássica (Liberty/Minerva/Columbia) na fundação republicana (1783–1815) | `@fleming1967` |
+| 🇧🇪 **BE** | **La Belgique** | emergência de uma "Marianne" belga na Belle Époque, encarnando auto-imagem nacional progressista | `@hilden1993` |
+| 🇧🇷 **BR** | **A República**, **A Justiça** | recepção transatlântica do modelo neoclássico francês (base do Contrato Racial Visual); embate de imaginários na Proclamação (1889) | `@carvalho1990` · `@limajunior2020` |
+| — | **Justitia / Lady Justice** | de *Iustitia* romana (sob Augusto); balança + espada (+ venda); genealogia de Shamash/Maat/Dike/Themis → virtude cardeal → ícone autônomo; persistência da Antiguidade aos tribunais modernos | `@resnikcurtis2011` |
 
 > [!note] Países fora da lista-núcleo
-> AT, NL, DK, ES já integram o corpus — a lista é **não-exaustiva** (qualquer país que satisfaça os 4 critérios é elegível).
+> AT, NL, DK, ES já integram o corpus — a lista é **não-exaustiva** (qualquer país que satisfaça os 4 critérios é elegível). Para a Áustria, ver a *Allegorie der Austria* (Krasa-Florian, 2007); panorama geral da alegoria feminina da nação: `@warner1985`.
 
 ---
 
