@@ -198,10 +198,16 @@ Poder exercido pelo **visual** na cultura jurídica; a dimensão estética do di
 ### Iconclass
 ⚙️ / 👤 *Henri van de Waal (concebido nos anos 1970); sistema de classificação iconográfica*
 
-Sistema decimal de classificação do **conteúdo temático** de imagens (10 divisões 0–9, à maneira da CDD; divisão **4** = *Society, Civilization, Culture*).
+Sistema decimal de classificação do **conteúdo temático** de imagens (10 divisões 0–9, à maneira da CDD; divisão **4** = *Society, Civilization, Culture*). Códigos pertinentes ao recorte da tese (rótulos verificados na API oficial iconclass.org, 2026-06-26):
 
-> [!warning] Divergência a verificar — código 48C51 `#verificar`
-> O `CLAUDE.md` registra **"Iconclass 48C51 = código-chave para iconografia feminista"**. Porém, segundo o **iconclass.org oficial** (verificado), `48C51` tem o rótulo **"painting (including book-illumination, miniature-painting)"** — designa a *forma de arte pintura*, não um tema feminista. **Decisão pendente para Ana:** confirmar se o código pretendido é outro (p.ex. ramo **44** sobre justiça/Estado/poder) ou se `48C51` é usado em sentido próprio na tese. *Não alterei o `CLAUDE.md`.*
+| Código | Rótulo oficial (EN) | Relevância |
+|---|---|---|
+| **44** | *state; law; political life* | ramo **jurídico-político central** do corpus |
+| **11M44** | *Justice, 'Justitia'; 'Giustitia divina' (Ripa) ~ one of the Four Cardinal Virtues* | personificação da Justiça (virtude cardeal) |
+| **48C51** | *painting (including book-illumination, miniature-painting)* | forma de arte (ver aviso) |
+
+> [!warning] Corrigir a referência ao código 48C51
+> O `CLAUDE.md` registra **"Iconclass 48C51 = código-chave para iconografia feminista"**, mas o **iconclass.org oficial** (verificado 3-0 no *deep-research* + confirmado na API JSON, 2026-06-26) rotula `48C51` como **"painting (including book-illumination, miniature-painting)"** — é a *forma de arte pintura*, não um tema feminista/jurídico. Os códigos efetivamente pertinentes ao recorte são **44** (*state; law; political life*) e **11M44** (*Justitia*). **Recomendação:** corrigir a anotação no `CLAUDE.md`. *(Não alterei o `CLAUDE.md` — decisão da autora.)*
 
 ---
 
@@ -305,4 +311,5 @@ WARBURG, Aby. **Der Bilderatlas Mnemosyne**. [1924–1929]. `#verificar` (ediç�
 ---
 
 > [!note] Proveniência deste glossário
-> Verbetes **autorais e operacionais** ancorados em `CLAUDE.md` + `concepts/glossario.md` (glossário canônico de conceitos operativos). Verbetes **teóricos e de alegorias** fundamentados em pesquisa multi-fonte com verificação adversarial (*deep-research*, 2026-06-26; 23 fontes, fontes primárias iconclass.org, Princeton UP, Yale UP, Stanford UP, monoskop/Latour, ehne.fr). A síntese final do *deep-research* foi interrompida por limite de sessão; os achados foram incorporados a partir dos *claims* já extraídos — daí os marcadores `#verificar` nos pontos não submetidos à verificação tripla.
+> Verbetes **autorais e operacionais** ancorados em `CLAUDE.md` + `concepts/glossario.md` (glossário canônico de conceitos operativos). Verbetes **teóricos e de alegorias** fundamentados em pesquisa multi-fonte com verificação adversarial (*deep-research*, 2026-06-26; 23 fontes, fontes primárias iconclass.org, Princeton UP, Yale UP, Stanford UP, monoskop/Latour, ehne.fr).
+> A síntese final do *deep-research* foi interrompida por limite de sessão; em seguida fez-se **verificação cirúrgica** dos pontos pendentes direto nas fontes (WebFetch). **Confirmados:** rótulos Iconclass `48C51`/`44`/`11M44` (API JSON oficial). **Permanecem `#verificar`** (a cotejar com Zotero/`references.bib`): edição/ano de Hespanha; volume da *Ars Dogmatica* de Legendre; editora/edição PT de Mondzain (2002); edição PT de Descola; edição crítica do Atlas de Warburg.
