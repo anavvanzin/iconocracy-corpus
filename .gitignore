@@ -30,6 +30,12 @@ vault/.obsidian/workspace.json
 vault/.obsidian/workspace-mobile.json
 vault/.obsidian/plugins/
 vault/.obsidian/hotkeys.json
+
+# wiki/ Obsidian (same rules as vault/)
+wiki/.obsidian/workspace.json
+wiki/.obsidian/workspace-mobile.json
+wiki/.obsidian/plugins/
+wiki/.obsidian/hotkeys.json
 vault/.obsidian/core-plugins-migration.json
 
 # Pandoc output

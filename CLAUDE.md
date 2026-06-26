@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2026). Integrates a searchable, **open and growing** corpus of female allegorical figures (recent working snapshot ~278 records in `records.jsonl`; **N is intentionally non-fixed** — exploratory posture, see *Known Data Issues* §3), research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
+Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2026). Integrates a searchable, **open and growing** corpus of female allegorical figures (recent working snapshot ~299 records in `records.jsonl`; **N is intentionally non-fixed** — exploratory posture, see *Known Data Issues* §3), research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
 
 > **Master plan**: `docs/PLANO-TESE-ICONOCRACIA.md` — comprehensive thesis architecture, methodology, case rankings, risk matrix, 24-month work plan, and 10 immediate decisions.
 
@@ -200,9 +200,9 @@ Every corpus item must exist in three places:
 These documented problems affect corpus operations:
 
 1. **Minor drift across exports** — current counts (audit: 2026-06-23, merge of `feat/alegorias-piloto-v2` into `main`):
-   - `data/processed/records.jsonl` → **278 records, all schema-valid** (`validate_schemas.py` → 278/278 ✓)
-   - `corpus/corpus-data.json` → **278 items** (`records_to_corpus.py --diff` → synchronized by URL)
-   - `data/processed/purification.jsonl` → **234 records, all schema-valid** (`validate_schemas.py data/processed/purification.jsonl --schema purification-record` → 234/234 ✓)
+   - `data/processed/records.jsonl` → **299 records, all schema-valid** (`validate_schemas.py` → 299/299 ✓)
+   - `corpus/corpus-data.json` → **299 items** (`records_to_corpus.py --diff` → synchronized by URL)
+   - `data/processed/purification.jsonl` → **236 records, all schema-valid** (`validate_schemas.py data/processed/purification.jsonl --schema purification-record` → 236/236 ✓)
    - `companion-data.json` → **277 declared corpus_total**, **9 country groups**, **21 `zwischenraum_panels`**; derived UI surface, not canonical authority.
 2. **8 records with placeholder URLs** — `https://iconocracy.corpus/placeholder/{item_id}`. Require verification against `data/raw/drive-manifest.json`.
 3. **Corpus N is intentionally NOT fixed — exploratory posture (decided 2026-06-24).** The corpus is open and growing until the defense (>1yr out). Do **not** treat any N as frozen, "pinned", or a blocking "pending decision"; there is no "decide N first" gate. Acquiring and coding new allegories is normal exploratory research — never block it.
@@ -210,7 +210,7 @@ These documented problems affect corpus operations:
    - Older artifacts that reference 145/165 (notebooks `01/05/06/07`; manuscript `Capitulo2_metodologia.md`, `Introducao_rev.md`, etc.; the frozen `Other/corpus-data.json`) are **historical analysis snapshots, not errors** — each records the sample a given run used. Update them lazily near the defense, not as blocking debt. `Other/` also holds a duplicate of `notebooks/01–08` (stale copy, not a second source of truth).
    - `endurecimento_score=0` is a valid score (low purification), not "uncoded". Background on the stratification dialectic: memory `corpus-n-20260605` + `docs/decisions/DIALETICA-N165-vs-265.md` — **informative, not a gate.**
 
-**Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the records/export drift are resolved in the current operational snapshot — `validate_schemas.py` reports 278/278 records valid, `purification.jsonl` reports 234/234 valid, and `records_to_corpus.py --diff` reports synchronization by URL.
+**Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the records/export drift are resolved in the current operational snapshot — `validate_schemas.py` reports 299/299 records valid, `purification.jsonl` reports 234/234 valid, and `records_to_corpus.py --diff` reports synchronization by URL.
 
 ## Release Gate
 
