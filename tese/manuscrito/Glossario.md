@@ -235,7 +235,7 @@ Sistema decimal de classificação do **conteúdo temático** de imagens (10 div
 | **António M. Hespanha** | *Cultura Jurídica Europeia: síntese de um milénio* (Almedina, **2005**) | **cultura jurídica** (ampliar as fontes para além da legislação) | enquadramento histórico-jurídico do corpus |
 | **Carole Pateman** | *The Sexual Contract* (**Stanford UP**, 1988) | **contrato sexual** (não-visual) | fonte do Contrato Sexual Visual |
 | **Marie-José Mondzain** | *Image, icône, économie* (**Seuil, 2002**) | **economia icônica** (raiz bizantina do imaginário) | fonte de "iconocracia"; *não* de Feminilidade de Estado |
-| **Anne Carson** | *Dirt and Desire* (in *Men in the Off Hours*, 2000) `#verificar` | **hystéra**; poluição/pureza do feminino na Antiguidade | raiz da Feminilidade de Estado |
+| **Anne Carson** | *Dirt and Desire* (in *Men in the Off Hours*, 2000) | **hystéra**; poluição/pureza do feminino na Antiguidade | raiz da Feminilidade de Estado |
 | **Bruno Latour** | *Nous n'avons jamais été modernes* (La Découverte, 1991) | **purificação / tradução** (zonas ontológicas distintas) | extensão ferramental da Purificação Clássica |
 | **Donna Haraway** | *A Manifesto for Cyborgs* (*Socialist Review*, 1985) | crítica das fronteiras natureza/cultura | extensão ferramental (não como "ciberfeminismo") |
 | **Philippe Descola** | *Les Formes du visible* (Seuil, 2021) | figuração; superação do dualismo natureza/cultura | extensão ferramental |
@@ -284,6 +284,8 @@ AGULHON, Maurice. **Marianne au combat**: l'imagerie et la symbolique républica
 
 AGULHON, Maurice. **Marianne au pouvoir**: l'imagerie et la symbolique républicaines de 1880 à 1914. Paris: Flammarion, 1989. `@agulhon1989`
 
+CARSON, Anne. Dirt and Desire: the phenomenology of female pollution in antiquity. In: CARSON, Anne. **Men in the Off Hours**. New York: Alfred A. Knopf, 2000. `@carson2000`
+
 DESCOLA, Philippe. **Les Formes du visible**: une anthropologie de la figuration. Paris: Seuil, 2021. `@descola2021` [trad. PT: **As Formas do Visível**. São Paulo: Ubu, 2023. `@descola2023`]
 
 GOODRICH, Peter. Visiocracy: on the futures of the fingerpost. **Critical Inquiry**, v. 39, 2013. `@goodrich2013a`
@@ -304,14 +306,15 @@ PANOFSKY, Erwin. **Studies in Iconology**: humanistic themes in the art of the R
 
 PATEMAN, Carole. **The Sexual Contract**. Stanford: Stanford University Press, 1988. `@pateman1988` [trad. PT: **O contrato sexual**. Rio de Janeiro: Paz e Terra, 1993. `@pateman1993`]
 
-RESNIK, Judith; CURTIS, Dennis. **Representing Justice**: invention, controversy, and rights in city-states and democratic courtrooms. New Haven: Yale University Press, 2011. `#verificar` (chave a inserir no `references.bib`).
+RESNIK, Judith; CURTIS, Dennis. **Representing Justice**: invention, controversy, and rights in city-states and democratic courtrooms. New Haven: Yale University Press, 2011. `@resnikcurtis2011`
+
+VAN DE WAAL, Henri. **Iconclass**: an iconographic classification system. Amsterdam: North-Holland, 1973 [17 v., 1973–1985]. `@vandewaal1973`
 
 WARBURG, Aby. **Der Bilderatlas Mnemosyne**. Ed. Martin Warnke. Berlin: Akademie Verlag, 2000 [orig. 1924–1929]. `@warburg2000`
 
-> [!warning] Pendências bibliográficas (`#verificar`)
-> - **Carson / hystéra** — o conceito vem de "Dirt and Desire" (*Men in the Off Hours*, 2000); o `references.bib` lista apenas `@carson2023` (*Sobre aquilo em que eu mais penso*). **Inserir** a entrada de *Men in the Off Hours* ou confirmar qual Carson sustenta a *hystéra* no Cap. 2.2.
-> - **Resnik & Curtis (Representing Justice)** e **Iconclass / van de Waal** ainda **não têm chave** no `references.bib` — criar antes da compilação.
-> - **Legendre** — confirmar (TODO já registrado na bib) se as edições citadas são `legendre1974`/`legendre1994`.
+> [!note] Pendências bibliográficas — atualizado 2026-06-26
+> ✅ **Resolvidas** (chaves criadas no `references.bib` via piloto Elicit): Carson `@carson2000` (*Dirt and Desire* / *Men in the Off Hours*, com apoios Viveiros de Castro 2025 e Hanson 1975); Resnik & Curtis `@resnikcurtis2011`; Iconclass `@vandewaal1973`.
+> ⏳ **Restam** (TODOs já na bib, a cotejar com Zotero): edições de Legendre (`legendre1974`/`legendre1994`); demais TODOs do backlog do `.bib`.
 
 ---
 
