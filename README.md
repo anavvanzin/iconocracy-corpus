@@ -132,6 +132,14 @@ Research automation suite (69 Python scripts in `tools/scripts/`) built on the [
 
 **Schemas** define the dual-agent corpus builder pipeline (IconoCode visual coder + WebScout contextual researcher).
 
+| Schema | File | Version |
+|--------|------|---------|
+| **Codebook LPAI** | `schemas/codebook-v2.1.0.schema.json` | v2.1.0 |
+| Master Record | `tools/schemas/master-record.schema.json` | v1 |
+| WebScout | `tools/schemas/webscout.schema.json` | v1 |
+
+See `schemas/codebook-v2.1.0.schema.json` for the expanded codebook schema with: capta declaration, split attribute lists (objetos_regalia / marcas_corporais / marcadores_cena), conditional justifications (gênero, incerteza), power_at_stake, programa_id for individual figures in iconographic programs, intercoder adjudication log, and 10 purification indicators.
+
 ## Data (`data/`)
 
 Pre-extracted datasets in `data/processed/`:

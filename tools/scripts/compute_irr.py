@@ -611,7 +611,7 @@ def main():
     parser.add_argument(
         "--indicator-report",
         action="store_true",
-        help="Include bootstrap 95% CI per indicator (requires --rater2)",
+        help="Include bootstrap 95%% CI per indicator (requires --rater2)",
     )
     args = parser.parse_args()
 

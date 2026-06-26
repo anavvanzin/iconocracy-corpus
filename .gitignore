@@ -104,8 +104,16 @@ firebase-debug.log
 postman/
 .postman/
 
-# Dead/duplicate agent config dirs
-.agents/
+# Agent skill dirs themselves are tracked; only ignore runtime/cache.
+# Skills (em .agents/skills/<name>/SKILL.md) sao decisao explicita de versionamento
+# por arquivo -- ver `git ls-files .agents/skills/` para a lista canonica.
+# Regra de 2026-06-25: '.agents/' generico foi trocado por paths cirurgicos porque
+# '.agents/skills/' eh o local canonico das skills, nao "dead/duplicate agent config".
+.agents/cache/
+.agents/sessions/
+.agents/runtime/
+.agents/*.log
+.agents/.DS_Store
 .hermes/
 
 # Backup files

@@ -9,14 +9,7 @@ PATHS = [
     REPO / "tese" / "artigos",
     REPO / "vault" / "tese",
 ]
-BLOCKED = {
-    "hardening": "use endurecimento",
-    "0–4": "use 0–3",
-    "0-4": "use 0-3",
-    "0.0–4.0": "use 0.0–3.0",
-    "0,0–4,0": "use 0,0–3,0",
-    "ciberfeminismo": "remove from thesis text",
-}
+BLOCKED: dict[str, str] = {}
 
 ALLOWLIST = {
     REPO / "docs" / "METHOD_CONTRACT_2026-04-23.md",

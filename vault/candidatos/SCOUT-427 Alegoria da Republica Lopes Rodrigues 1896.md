@@ -2,29 +2,27 @@
 id: SCOUT-427
 tipo: corpus-candidato
 status: ativo
-titulo: Alegoria da Republica — Manoel Lopes Rodrigues (oleo sobre tela, 1896)
+titulo: "Alegoria da Republica — Manoel Lopes Rodrigues (oleo sobre tela, 1896)"
 pais: BR
-data_estimada: '1896'
+data_estimada: "1896"
 suporte: estampa/gravura
-motivo_alegorico: A República
+motivo_alegorico: "A República"
 regime: NORMATIVO
 confianca: alto
 tags:
-- corpus/candidato
-- pais/BR
-- suporte/estampa
-- regime/normativo
-- motivo/republica
-- null
+  - corpus/candidato
+  - pais/BR
+  - suporte/estampa
+  - regime/normativo
+  - motivo/republica
+  - "#verificar-imagem"
 related:
-- '[[endurecimento]]'
-- '[[Contrato Sexual Visual]]'
-- '[[Feminilidade de Estado]]'
+  - "[[ENDURECIMENTO]]"
+  - "[[Contrato Sexual Visual]]"
+  - "[[Feminilidade de Estado]]"
 data_scout: 2026-04-13
-fonte_campanha: LPAI v2 Campanha SCOUT BR/FR (abr 2026)
-seculo: 19th
+fonte_campanha: "LPAI v2 Campanha SCOUT BR/FR (abr 2026)"
 ---
-
 
 ## Alegoria da Republica — Manoel Lopes Rodrigues (oleo sobre tela, 1896)
 

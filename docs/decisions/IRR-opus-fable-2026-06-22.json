@@ -1,0 +1,65 @@
+{
+  "mode": "opus_legacy_vs_fable5_OPUS_ONLY",
+  "paired_n": 28,
+  "rater1_sources": {
+    "iconocode-opus": 20,
+    "iconocode-opus-4.6-metadata-refined": 8
+  },
+  "per_indicator_alpha": {
+    "desincorporacao": 0.4551,
+    "rigidez_postural": 0.4952,
+    "dessexualizacao": 0.2775,
+    "uniformizacao_facial": 0.4666,
+    "heraldizacao": 0.4635,
+    "enquadramento_arquitetonico": 0.4049,
+    "apagamento_narrativo": 0.501,
+    "monocromatizacao": 0.8735,
+    "serialidade": 0.8195,
+    "inscricao_estatal": 0.529
+  },
+  "overall_pooled_alpha": 0.6011,
+  "exact_within1": {
+    "desincorporacao": {
+      "exact_pct": 57.1,
+      "within1_pct": 96.4
+    },
+    "rigidez_postural": {
+      "exact_pct": 53.6,
+      "within1_pct": 100.0
+    },
+    "dessexualizacao": {
+      "exact_pct": 53.6,
+      "within1_pct": 96.4
+    },
+    "uniformizacao_facial": {
+      "exact_pct": 57.1,
+      "within1_pct": 96.4
+    },
+    "heraldizacao": {
+      "exact_pct": 46.4,
+      "within1_pct": 100.0
+    },
+    "enquadramento_arquitetonico": {
+      "exact_pct": 42.9,
+      "within1_pct": 78.6
+    },
+    "apagamento_narrativo": {
+      "exact_pct": 57.1,
+      "within1_pct": 89.3
+    },
+    "monocromatizacao": {
+      "exact_pct": 67.9,
+      "within1_pct": 100.0
+    },
+    "serialidade": {
+      "exact_pct": 82.1,
+      "within1_pct": 92.9
+    },
+    "inscricao_estatal": {
+      "exact_pct": 42.9,
+      "within1_pct": 78.6
+    }
+  },
+  "composite_MAD": 0.307,
+  "regime_exact_agreement": 0.607
+}

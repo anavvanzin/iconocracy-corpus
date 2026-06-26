@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2026). Integrates a searchable corpus of female allegorical figures (currently 265 records in `records.jsonl`; see *Known Data Issues* for downstream drift), research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
+Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2026). Integrates a searchable, **open and growing** corpus of female allegorical figures (recent working snapshot ~278 records in `records.jsonl`; **N is intentionally non-fixed** — exploratory posture, see *Known Data Issues* §3), research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
 
 > **Master plan**: `docs/PLANO-TESE-ICONOCRACIA.md` — comprehensive thesis architecture, methodology, case rankings, risk matrix, 24-month work plan, and 10 immediate decisions.
 
@@ -104,9 +104,11 @@ Active automation:
 
 ---
 
-## Mandatory Terminology
+## Terminology — Reference (NOT enforced during drafting)
 
-| Term | Rule |
+> **Não é guardrail (decisão 2026-06-24).** Esta tabela é **referência para polimento perto da defesa**, não regra bloqueante durante a redação exploratória. Não flagrar/corrigir termos ou traduções no rascunho; rodar `check_thesis_terms.py` só quando Ana pedir. Única ressalva digna de nota (gentil, não-bloqueante, perto da defesa): não ceder a autoria dos 4 conceitos originais a Pateman/Mondzain. Ver `~/.claude/CLAUDE.md` §"Thesis Drafting".
+
+| Term | Reference note |
 |------|------|
 | **Endurecimento** | Always in Portuguese. NEVER "hardening" or "embrutecimento". Empirical operationalization of **Purificação Clássica** via 10 ordinal indicators (0–3) |
 | **Contrato Sexual Visual** | Original thesis concept #1 — do NOT attribute to Pateman (Pateman is the source of the non-visual contract; the visual extension is autoral) |
@@ -123,7 +125,7 @@ Active automation:
 
 ## Corpus Parameters
 
-**Countries:** FR (Marianne, La République, La Justice, La Liberté) · UK (Britannia, Justice, Hibernia, Scotia) · DE (Germania, Justitia, Minerva) · US (Columbia, Lady Justice, Liberty, America) · BE (La Belgique) · BR (A República, A Justiça)
+**Countries** (variável analítica, **NÃO gate de inclusão** desde 2026-06-22; lista-núcleo não-exaustiva): FR (Marianne, La République, La Justice, La Liberté) · UK (Britannia, Justice, Hibernia, Scotia) · DE (Germania, Justitia, Minerva) · US (Columbia, Lady Justice, Liberty, America) · BE (La Belgique) · BR (A República, A Justiça) · + qualquer país que satisfaça os 4 critérios (AT, NL, DK, ES já no corpus)
 
 **Supports:** moeda · selo · monumento/escultura · arquitetura forense · estampa/gravura · frontispício · papel-moeda · cartaz
 
@@ -133,7 +135,7 @@ Active automation:
 
 **10 purification indicators** (ordinal 0–3): desincorporação · rigidez_postural · dessexualização · uniformização_facial · heraldicização · enquadramento_arquitetônico · apagamento_narrativo · monocromatização · serialidade · inscrição_estatal
 
-**Inclusion criteria** (all 5 required): female allegorical figure + explicit juridical-political function + datable 1800–2000 + one of 6 countries + accepted support
+**Inclusion criteria** (all 4 required): female allegorical figure + explicit juridical-political function + datable 1800–2000 + accepted support. *(País deixou de ser critério de inclusão em 2026-06-22 — a alegoria "universal" é transnacional, base do Contrato Racial Visual; país permanece variável analítica, não gate. Ver `docs/decisions/E1-OPUS48-BATCH-2026-06-22.md` e memória `feedback_no_country_inclusion_rule`.)*
 
 ---
 
@@ -193,24 +195,22 @@ Every corpus item must exist in three places:
 
 ---
 
-## Known Data Issues (last audit: 2026-05-24)
+## Known Data Issues (last audit: 2026-06-23)
 
 These documented problems affect corpus operations:
 
-1. **Minor drift across exports** — current counts (audit: 2026-05-24):
-   - `data/processed/records.jsonl` → **265 records, all schema-valid** (`validate_schemas.py` → 265/265 ✓)
-   - `corpus/corpus-data.json` → **264 items** (1 record in `records.jsonl` not yet propagated; `records_to_corpus.py --diff` lists it)
-   - `data/processed/purification.jsonl` → **264 records** (1 record lacks endurecimento coding)
-   - `companion-data.json` → **5 items** (drastically stale; `sync_companion.py` will rebuild)
+1. **Minor drift across exports** — current counts (audit: 2026-06-23, merge of `feat/alegorias-piloto-v2` into `main`):
+   - `data/processed/records.jsonl` → **278 records, all schema-valid** (`validate_schemas.py` → 278/278 ✓)
+   - `corpus/corpus-data.json` → **278 items** (`records_to_corpus.py --diff` → synchronized by URL)
+   - `data/processed/purification.jsonl` → **234 records, all schema-valid** (`validate_schemas.py data/processed/purification.jsonl --schema purification-record` → 234/234 ✓)
+   - `companion-data.json` → **277 declared corpus_total**, **9 country groups**, **21 `zwischenraum_panels`**; derived UI surface, not canonical authority.
 2. **8 records with placeholder URLs** — `https://iconocracy.corpus/placeholder/{item_id}`. Require verification against `data/raw/drive-manifest.json`.
-3. **Analysis pinned at N=165 while corpus grew to 265** — the quantitative analysis (notebooks + manuscript) was run against an older 165-item snapshot:
-   - **Notebooks** reference stale sizes — `01_exploratory.ipynb` reads "145 itens"; `05_temporal`, `06_clustering`, `07_dimensionality` reference "165 itens".
-   - **Manuscript** chapters assert N=165 in text: `tese/manuscrito/Capitulo2_metodologia.md:66,161` ("165 registros"); `tese/manuscrito/Introducao_rev.md:127,193` ("165 itens"); also `Capitulo3_analise_quantitativa.md` and `notas/Cap3_quantitativo_outline.md`.
-   - **Pinned snapshot** of that analysis input lives at `Other/corpus-data.json` (165 items, frozen 2026-04-25; all 165 ids ⊆ current 264). The `Other/` dir also holds an **identical duplicate** of `notebooks/01–08` — it is a stale analysis copy, not a second source of truth. Do not delete without deciding the item below.
-   - Current canonical: `records.jsonl` = 265, `corpus/corpus-data.json` = 264.
-   - **DECISION PENDING (Ana) — reframed 2026-05-30, see `docs/decisions/DIALETICA-N165-vs-265.md`:** the "165 vs 265" framing was rejected by adversarial review. Real axis = **coding-validity stratum × instrument provenance**, not date. The corpus is coded by 6 instruments (`coded_by`); **41 items are uncoded** (no `coded_by`/regime/endurecimento) → N=265 is NOT a valid analytic N. Valid options: N≈145 (IconoCode-only) or N≈223 (all coded, after inter-instrument reliability audit of iconocode-opus vs opus-4.6 and audit of vault-import/migration). Action: stratify by `coded_by` → quarantine the 41 uncoded → reliability audit → set analytic N by validity → dataset card in Cap2 replacing "N=165" with "N=[valid]". `endurecimento_score=0` is a valid score (low purification), not "uncoded".
+3. **Corpus N is intentionally NOT fixed — exploratory posture (decided 2026-06-24).** The corpus is open and growing until the defense (>1yr out). Do **not** treat any N as frozen, "pinned", or a blocking "pending decision"; there is no "decide N first" gate. Acquiring and coding new allegories is normal exploratory research — never block it.
+   - In prose, describe the corpus **provisionally** ("em expansão", "amostra analisada", "instantâneo de trabalho") and fix concrete numbers only near the defense. When precision is needed, distinguish *ledger operacional* (grows; recent audits ~278–299) from *amostra analítica congelada* (a snapshot used for Cap. 6 reproducibility, re-runnable on the final corpus).
+   - Older artifacts that reference 145/165 (notebooks `01/05/06/07`; manuscript `Capitulo2_metodologia.md`, `Introducao_rev.md`, etc.; the frozen `Other/corpus-data.json`) are **historical analysis snapshots, not errors** — each records the sample a given run used. Update them lazily near the defense, not as blocking debt. `Other/` also holds a duplicate of `notebooks/01–08` (stale copy, not a second source of truth).
+   - `endurecimento_score=0` is a valid score (low purification), not "uncoded". Background on the stratification dialectic: memory `corpus-n-20260605` + `docs/decisions/DIALETICA-N165-vs-265.md` — **informative, not a gate.**
 
-**Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the ~100-record drift between records.jsonl and corpus-data.json are resolved — `validate_schemas.py` reports 265/265 valid, and export drift is now 1 item.
+**Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the records/export drift are resolved in the current operational snapshot — `validate_schemas.py` reports 278/278 records valid, `purification.jsonl` reports 234/234 valid, and `records_to_corpus.py --diff` reports synchronization by URL.
 
 ## Release Gate
 

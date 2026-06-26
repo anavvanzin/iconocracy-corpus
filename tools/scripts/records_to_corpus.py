@@ -80,6 +80,10 @@ def _record_diff_key(record: dict) -> str:
 
 def _corpus_diff_key(item_id: str, item: dict) -> str:
     url = item.get("url", "")
+    prefix = "https://iconocracy.corpus/placeholder/"
+    if url.startswith(prefix):
+        corpus_id = url.removeprefix(prefix)
+        return f"(sem URL)::{corpus_id}"
     return url or f"(sem URL)::{item_id}"
 
 

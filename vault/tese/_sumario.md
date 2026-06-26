@@ -12,17 +12,19 @@ tags: [tese, moc]
 
 | Parte | Capítulo | Status | Palavras |
 |-------|----------|--------|----------|
-| — | [[introducao\|Introdução]] | revisão | ~8.000 |
-| I — Moldura Teórica | [[capitulo-1\|Cap. 1 — Contrato Sexual e Imagem]] | revisão | ~10.000 |
-| I | [[capitulo-2\|Cap. 2 — Iconocracia]] | esqueleto | — |
-| I | [[capitulo-3\|Cap. 3 — Colonialidade do Ver]] | esqueleto | — |
+| — | [[introducao\|Introdução]] | revisão | ~5.660 |
+| I — Moldura Teórica | [[capitulo-1\|Cap. 1 — Contrato Sexual e Imagem]] | revisão | ~3.230 |
+| I | [[capitulo-2\|Cap. 2 — Iconocracia]] | rascunho parcial | ~1.550 |
+| I | [[capitulo-3\|Cap. 3 — Colonialidade do Ver]] | rascunho (§§3.2 e 3.3) | ~3.400 |
 | II — Método | [[capitulo-4\|Cap. 4 — Desenho Metodológico]] | esqueleto | — |
-| II | [[capitulo-5\|Cap. 5 — O Corpus]] | esqueleto | — |
-| III — Resultados | [[capitulo-6\|Cap. 6 — Análise Quantitativa]] | esqueleto | — |
+| II | [[capitulo-5\|Cap. 5 — O Corpus]] | rascunho parcial (§5.2) | ~960 |
+| III — Resultados | [[capitulo-6\|Cap. 6 — Análise Quantitativa]] | rascunho parcial | ~1.450 |
 | III | [[capitulo-7\|Cap. 7 — Análise Qualitativa]] | esqueleto | — |
 | IV — Atlas | [[capitulo-8\|Cap. 8 — Atlas Iconocrático: Princípios]] | esqueleto | — |
-| IV | [[capitulo-9\|Cap. 9 — Os 8 Painéis]] | esqueleto | — |
-| — | [[conclusao\|Conclusão]] | esqueleto | — |
+| IV | [[capitulo-9\|Cap. 9 — Os 8 Painéis]] | rascunho (§§9.3 e 9.4) | ~3.150 |
+| — | [[conclusao\|Conclusão]] | esqueleto | ~280 |
+
+**Total consolidado (16-mai-2026):** ~19.680 palavras nas peças canônicas. Drafts em `drafts/` e fontes em `tese/manuscrito/` já foram migrados ou continuam como insumos.
 
 ## Compilação
 
