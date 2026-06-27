@@ -1,0 +1,78 @@
+---
+titulo: "O Corpus: Construção, Codificação e Infraestrutura"
+parte: "II — Método e Corpus"
+capitulo: 5
+status: "esqueleto"
+palavras: 0
+citacoes: 0
+updated: "2026-03-23"
+pandoc:
+  reference-doc: "template.docx"
+  csl: "abnt.csl"
+  bibliography: "references.bib"
+---
+
+# Capítulo 5 — O Corpus: Construção, Codificação e Infraestrutura
+
+## 5.1 — Amostragem estratificada: critérios de seleção e representação
+
+O corpus é construído em regime aberto e de expansão contínua: novas alegorias são incorporadas e codificadas ao longo da pesquisa, de modo que seu tamanho não constitui um valor fixo, mas um horizonte em crescimento até a defesa. Para fins de reprodutibilidade, a análise quantitativa desta tese (Capítulo 6) incide sobre uma amostra codificada e congelada num dado momento, estratificada por país, período e suporte material; sua composição é apresentada a seguir como instantâneo de trabalho — provisório e sujeito a ampliação —, não como número definitivo. As peças da amostra estão integralmente codificadas (dez indicadores + regime + análise Panofsky), parte por inspeção visual direta (IIIF), parte por metadados refinados.
+
+A distribuição por país e acervo, no instantâneo analisado, concentra-se nos circuitos hegemônicos de produção da cultura jurídica ocidental — com predominância da França, seguida dos Estados Unidos e da Alemanha, e participação relevante do Brasil, Reino Unido, Itália, Bélgica, Portugal e Espanha, além de itens isolados de outros países (AR, AT, MX, NL, CH, UY):
+
+| País | Fontes principais |
+|------|------------------|
+| França | Gallica (BnF), Europeana |
+| Estados Unidos | Library of Congress, Smithsonian |
+| Alemanha | Deutsche Digitale Bibliothek, Europeana |
+| Brasil | Brasiliana Fotográfica, Museu da República |
+| Reino Unido | British Museum, Imperial War Museum |
+| Itália | Europeana, Numista |
+| Bélgica | Europeana, KBR |
+| Portugal | BND Portugal, Numista |
+| Espanha | Numista, Europeana |
+| Outros (AR, AT, MX, NL, CH, UY) | Diversos |
+
+A cobertura temporal estende-se de 1559 (FR-047, *Iustitia* de Bruegel, item arqueológico pré-moderno) a 2000, com concentração no período 1850–1920.
+
+<!-- NOTA: contagens de N (total, por país, por regime) deixadas FORA da prosa por decisão de 2026-06-24 — corpus em expansão, defesa a +1 ano; não fixar número até perto da defesa. País é variável analítica, não gate de inclusão (desde 2026-06-22). Os resultados estatísticos do Cap. 6 referem-se ao instantâneo então analisado e serão re-rodados sobre o corpus final. -->
+
+## 5.2 — Purificação Clássica: o quarto conceito original e seus 10 indicadores ordinais
+
+### 5.2.1 — Definição
+
+Designa-se por **Purificação Clássica** a operação formal pela qual o regime iconocrático extrai o feminino histórico — sua biografia, sua materialidade contingente, sua subjetividade — e o fixa numa superfície alegórica eterna, neoclássica e funcional à soberania. Essa operação não é metáfora, mas mecanismo mensurável: aparece na rigidez postural, no apagamento do gesto, na uniformização facial, no recobrimento heráldico que substitui o corpo singular por um repertório institucional. Trata-se do quarto conceito original desta tese, ao lado do Contrato Sexual Visual (Cap. 1), da Feminilidade de Estado (Cap. 2.2) e do Contrato Racial Visual (Cap. 3). Diferentemente desses três, que designam efeitos políticos, jurídicos e raciais do regime iconocrático, a Purificação Clássica designa o **mecanismo formal** que os produz e os torna acessíveis à mensuração empírica.
+
+### 5.2.2 — Matriz primária jurídica
+
+A genealogia primária da Purificação Clássica é interna à história do direito ocidental. Ernst Kantorowicz, em *Os Dois Corpos do Rei* (1957), descreve a operação fundamental pela qual a teologia política medieval separa o corpo natural do soberano (mortal, contingente, histórico) do corpo político (perpétuo, abstrato, institucional). Essa cisão é o ato inaugural da purificação jurídica: o corpo concreto é deixado para trás como suporte transitório, enquanto o corpo simbólico é elevado à perenidade institucional. Pierre Legendre (1994) prolonga essa operação quando descreve a antropologia dogmática do Ocidente como uma maquinaria que produz "corpos sem palavras" inscritos numa dogmática do espelho — corpos cuja função é refletir a Lei, não falar por si. António Manuel Hespanha, em *Cultura Jurídica Europeia: síntese de um milénio* (2005), demonstra como categorias morais e estamentais estabilizam classificações do humano que precedem e enquadram qualquer figuração visual. Os três autores convergem na descrição de um gesto especificamente jurídico: a transformação do humano histórico em forma institucional perdurável. A alegoria feminina estatal é a aplicação iconográfica desse gesto sobre o corpo da mulher.
+
+### 5.2.3 — Extensão ferramental
+
+Para operacionalizar empiricamente a Purificação Clássica sobre as 145 peças do corpus, mobilizam-se três aparatos conceituais externos à dogmática jurídica, tomados como ferramentas analíticas pontuais. Bruno Latour, em *Jamais fomos modernos* (1991), descreve a "purificação" como o gesto moderno por excelência: a separação ontológica entre humanos e não-humanos, entre natureza e cultura, que permite à modernidade gerir o mundo como conjunto de domínios estanques. Donna Haraway, no *Manifesto Ciborgue* (1985), oferece o reverso crítico desse gesto: o ciborgue como figura híbrida que recusa a partição purificadora. Aqui se localiza o paralelo analítico decisivo desta tese — a alegoria feminina jurídica é, estruturalmente, o **inverso do ciborgue**: onde o ciborgue celebra a fronteira porosa entre orgânico e inorgânico, a Justitia neoclássica fixa o corpo feminino como superfície purificada e fechada. Philippe Descola, em *As Formas do Visível* (2023 [2021]), completa o triângulo ao descrever como a ontologia naturalista do Ocidente moderno produz figuras de "presença sem agência" — corpos visíveis dos quais a interioridade é deliberadamente subtraída. Esses três aparatos não fundam o conceito de Purificação Clássica; eles fornecem o vocabulário técnico que permite mensurá-lo.
+
+### 5.2.4 — Operacionalização: os 10 indicadores ordinais
+
+A Purificação Clássica é mensurada empiricamente, em cada peça do corpus, por meio de dez indicadores ordinais aplicados em escala de 0 a 3, conforme protocolo IconoCode documentado no codebook (ver [[codebook|Codebook — 10 indicadores]]). Os indicadores são: **desincorporação** (grau de subtração da carne em favor do drapeado abstrato), **rigidez postural** (imobilidade frontal versus dinamismo gestual), **dessexualização** (recobrimento ou neutralização dos marcadores sexuais), **uniformização facial** (substituição do rosto singular por máscara genérica neoclássica), **heraldicização** (incorporação de insígnias estatais que recobrem o corpo), **enquadramento arquitetônico** (fixação numa moldura institucional fixa), **apagamento narrativo** (supressão de cena, contexto, ação), **monocromatização** (redução da paleta cromática a brancos, bronzes e mármores), **serialidade** (replicação industrial do mesmo modelo em moedas, selos, monumentos) e **inscrição estatal** (presença de letra, sigla ou divisa que ancora a figura à soberania). A soma desses dez indicadores, por peça, fornece o índice de endurecimento — termo operacional que designa, na prática estatística desta tese, o resultado mensurável da operação que a Purificação Clássica nomeia conceitualmente.
+
+### 5.2.5 — Articulação com os outros três conceitos originais
+
+A Purificação Clássica não substitui os outros três originais; articula-os. O Contrato Sexual Visual descreve a economia política do regime: o feminino é convocado como imagem para que as mulheres reais permaneçam excluídas. A Feminilidade de Estado descreve o efeito subjetivo dessa economia sobre o corpo alegórico: ele se torna recipiente vazio apto a transportar afeto público. O Contrato Racial Visual descreve a distribuição racial desigual da operação: a alegoria "universal" é constitutivamente branca, e sua transferência transatlântica instala um padrão racializado nos repertórios pós-coloniais. A Purificação Clássica é o mecanismo formal que torna os três efeitos possíveis e os torna acessíveis à comparação iconométrica. Sem ela, os três outros conceitos permaneceriam descrições políticas sem ancoragem mensurável; com ela, ganham corpo empírico no índice ordinal.
+
+> **Nota sobre o recorte:** A Purificação Clássica, tal como aqui formulada, não engaja a tradição decolonial latino-americana (Lugones, Curiel, Segato) como filiação programática; tais autoras serão mobilizadas pontualmente no Cap. 3 para a discussão do Contrato Racial Visual. Tampouco se filia aos desdobramentos pós-2000 das teorias tecnopolíticas do corpo: aqui, a questão não é a mediação digital da subjetividade, mas a purificação clássica do corpo feminino pelo repertório visual do Estado. Os operadores Haraway/Latour/Descola entram, neste capítulo, como ferramentas analíticas para a mensuração da operação jurídica de purificação descrita por Kantorowicz, Legendre e Hespanha — não como adesão ao projeto político-tecnológico ciberfeminista. Essa discussão é reservada a desdobramentos pós-defesa.
+
+## 5.3 — Sistema de codificação IconoCode e integração ICONCLASS
+
+<!-- MIGRAR: preencher a partir do velho Capitulo2_metodologia §2.2 (Panofsky 3 níveis) + §2.5 (validação imagem×metadados) + ICONCLASS (Van de Waal, código 48C51). Pendente. -->
+
+## 5.4 — Infraestrutura digital: GitHub, Drive, Obsidian
+
+O corpus é mantido em regime de ciência aberta no repositório GitHub `anavvanzin/iconocracy-corpus`, seguindo o princípio de rastreabilidade em três pontos:
+
+| Ponto | Localização | Formato |
+|-------|-------------|---------|
+| Imagem original | SSD externo + IIIF | JPEG/TIFF |
+| Nota de pesquisa | `vault/candidatos/` | Obsidian Markdown |
+| Registro canônico | `corpus/corpus-data.json` | JSON |
+
+O pipeline de codificação opera em duas etapas: o agente *WebScout* pesquisa e cataloga candidatos em acervos digitais, gerando notas de pesquisa com metadados e URLs; o agente *IconoCode* aplica o protocolo de três níveis, pontua os 10 indicadores, classifica o regime e produz o registro JSON. Os dados processados são exportados automaticamente para `data/processed/corpus_dataset.csv`, que alimenta os notebooks estatísticos (Jupyter/Python: pandas, scipy, scikit-posthocs).
