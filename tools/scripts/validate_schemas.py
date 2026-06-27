@@ -154,6 +154,12 @@ def validate_records(
     return (valid, len(records), errors, warnings)
 
 
+def validate_record(data: Dict[str, Any], schema_name: str) -> tuple[bool, List[str]]:
+    """Validate a single in-memory record against a schema."""
+    valid, _total, errors, _warnings = validate_records([data], schema_name)
+    return (valid == 1, errors)
+
+
 # v2.3.0 pre-freeze constants (warnings mode; promote to errors in v2.4.0+).
 MIN_JUSTIFICATIVA_GENERO_CHARS = 80
 V23_FAMILIA_VALUE = "Masculino_Juridico"
