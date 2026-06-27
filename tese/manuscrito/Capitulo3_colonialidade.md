@@ -14,12 +14,16 @@ pandoc:
 
 # Capítulo 3 — A Colonialidade do Ver: Gênero, Raça e Transferência Visual Transatlântica
 
-> **Estado:** §§3.2 e 3.3 consolidados a partir de rascunhos autorais (28-abr-2026); §§3.1 e 3.4 ainda esqueleto.
+> **Estado:** §§3.1, 3.2 e 3.3 consolidados a partir de rascunhos autorais e brainstorm de transição Eixo 1/Eixo 3 (27-jun-2026); §3.4 ainda esqueleto.
 > **Pendências de citação:** ver listas ao fim de cada §; Villares, Rops, Roty, Moitte/Janinet, Huygebaert (2018), Schwarcz, Mills (1997). Verificar inauguração do Monument aux Pionniers; confirmar capítulo de Huygebaert sobre iconografia colonial belga.
 
-## 3.1 — Iconografia como tecnologia colonial: exportação do cânone clássico
+## 3.1 — Iconografia como tecnologia colonial: Virtudes e Soberania Hídrica
 
----
+A expansão e a legitimação do poder estatal não operam apenas pela fundação de instituições, mas pela ocupação visual do espaço — tanto o espaço cívico interno quanto o território mercantil além-mar. O entrelaçamento entre o Eixo 1 (Profundidade Genealógica e Virtudes) e o Eixo 3 (Soberania Hídrica) da iconografia legal fornece a chave de leitura para essa tecnologia colonial. As alegorias femininas não são meras evocações morais estáticas; elas funcionam como vetores de expansão, convertendo princípios virtuosos em autorizações de dominação territorial e comercial.
+
+Historicamente, as Virtudes Cardinais — Justiça, Prudência, Temperança e Fortaleza — forneciam a moldura de legitimidade para os corpos políticos pré-modernos. Na virada para o século XIX, entretanto, a necessidade de projetar soberania sobre oceanos, rios e rotas comerciais (a Soberania Hídrica) exige uma reconfiguração do corpo alegórico. A mulher que ancora moralmente a nação (a Virtude interna) passa a ser a mesma que governa as águas (a Navigation, a Britannia). Há uma migração da virtude doméstica para o privilégio extrativista global. 
+
+Essa articulação se manifesta nas peças de nosso corpus como um gradiente de purificação e endurecimento. Na metrópole ou no coração jurídico do Estado (como a *Justiça* de Ceschiatti, BR-009, ou o *Brasão da República*, SCOUT-562), a figura feminina atua como garantia ontológica e normativa da ordem republicana, extraída do corpo histórico local pela *Purificação Clássica*. Porém, quando essa mesma estrutura visual é exportada para os mares — seja na forma do *British Trade Dollar* (UK-TRADE-1895), circulando no Oriente, ou no selo *Navigation et Commerce* (FR-094) espalhado pelas colônias francesas —, a alegoria assume a dupla função de afirmar a superioridade racial-moral (branquitude/Virtude) e assegurar a posse das rotas hídricas (Soberania Hídrica). A mulher virtuosa, marmórea e europeia, converte-se no aval visual da extração colonial sobre a fluidez dos mares, amarrando o direito de navegar ao dever de civilizar.
 
 ## 3.2 — O contrato racial visual: branquitude e classicismo nas alegorias brasileiras
 

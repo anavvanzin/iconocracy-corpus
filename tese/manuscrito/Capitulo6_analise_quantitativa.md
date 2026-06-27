@@ -1,4 +1,4 @@
-# CAPÍTULO 3
+# CAPÍTULO 6
 
 ## ANÁLISE QUANTITATIVA: O PANORAMA ICONOMÉTRICO
 
@@ -9,11 +9,11 @@
 
 ---
 
-### 3.1 Panorama Descritivo: A Geometria do Corpus
+### 6.1 Panorama Descritivo: A Geometria do Corpus
 
 A análise quantitativa do corpus ICONOCRACIA permite, em primeira instância, mapear a distribuição espacial, temporal e institucional das alegorias femininas que compõem a base empírica desta tese. Com um total de **265 registros** (dos quais 165 compõem o núcleo analítico consolidado e 100 registros de sincronização e validação), a amostra revela padrões de concentração que corroboram a centralidade do modelo franco-atlântico na cultura jurídica do século XIX.
 
-#### 3.1.1 Distribuição Geográfica e Institucional
+#### 6.1.1 Distribuição Geográfica e Institucional
 
 A França emerge como o polo dominante da amostra, representando **32,5% (86 registros)** do total. Essa predominância não é meramente numérica, mas qualitativa: o modelo da *Marianne* republicana funcionou, durante o longo século XIX, como a "moeda forte" da iconografia política transatlântica. O Brasil ocupa a segunda posição com **16,2% (43 registros)**, evidenciando o esforço de importação e adaptação do cânone europeu pelas elites jurídicas e políticas brasileiras, especialmente no período fundacional da República (1889).
 
@@ -28,13 +28,13 @@ Os Estados Unidos (10,9%), a Alemanha (8,7%) e o Reino Unido (7,9%) completam o 
 | Reino Unido | 21 | 7,9% |
 | Outros (17 regiões) | 63 | 23,8% |
 
-#### 3.1.2 Distribuição por Regime Iconocrático
+#### 6.1.2 Distribuição por Regime Iconocrático
 
 A classificação dos itens conforme a tipologia proposta no Capítulo 2 revela que o **Regime FUNDACIONAL** é a categoria mais populosa, com **106 registros (40%)**. Isso reflete a natureza do corpus, focado em momentos de ruptura e estabelecimento de novas ordens jurídicas (Revoluções, Proclamações, Constituições), onde a imagem feminina é convocada para personificar a soberania nascente.
 
 O **Regime NORMATIVO**, responsável pela rotinização burocrática da imagem em selos, moedas e repartições, representa **27,5% (73 registros)**. O **Regime MILITAR**, que assinala o endurecimento morfológico em contextos de crise ou projeção imperial, compõe **12,8% (34 registros)** da amostra. Por fim, as **CONTRA-ALEGORIAS** (4,2%) funcionam como o grupo de controle que demonstra, por subversão, os limites da "purificação" estatal.
 
-#### 3.1.3 Arco Temporal e Densidade Iconográfica
+#### 6.1.3 Arco Temporal e Densidade Iconográfica
 
 O arco temporal do corpus estende-se por mais de sete séculos (1239–2014), mas sua densidade analítica concentra-se entre **1860 e 1920**, período que coincide com a consolidação do Estado-nação moderno e a expansão industrial da imagem estatal. A década de **1910**, marcada pela Primeira Guerra Mundial, é o ponto de maior densidade (**14,3%**), evidenciando a mobilização máxima do corpo alegórico em contextos de conflito (Regime MILITAR).
 
@@ -42,6 +42,24 @@ Em termos de conteúdo iconográfico, o código **ICONCLASS 48C51** (iconografia
 
 ---
 
-### 3.2 O Endurecimento sob Exame: Médias e Variações
+### 6.2 O Endurecimento sob Exame: Médias e Variações
 
-(Seção em desenvolvimento — análise do score de endurecimento por regime)
+A métrica de *Endurecimento* captura a aplicação do protocolo de Purificação Clássica, revelando a intensidade do distanciamento morfológico entre a alegoria e a corporalidade histórica. Para ilustrar o funcionamento transversal do modelo — do núcleo cívico ao domínio colonial hídrico —, a Tabela 2 cruza os scores dos quatro itens âncora desta etapa de pesquisa.
+
+**Tabela 2 — Matriz de Endurecimento dos 4 Itens Âncora**
+
+| Indicador | Justiça STF (BR-009) | Brasão República (SCOUT-562) | British Trade Dollar (UK-TRADE-1895) | Navigation et Commerce (FR-094) |
+|---|:---:|:---:|:---:|:---:|
+| Desincorporação | 2 | 3 | 2 | 0 |
+| Rigidez postural | 2 | 0 | 2 | 0 |
+| Dessexualização | 2 | 0 | 2 | 0 |
+| Uniformização facial | 2 | 0 | 1 | 0 |
+| Heraldização | 1 | 3 | 1 | 0 |
+| Enquadramento arquitetônico | 2 | 0 | 0 | 0 |
+| Apagamento narrativo | 3 | 3 | 2 | 0 |
+| Monocromatização | 2 | 2 | 0 | 0 |
+| Serialidade | 3 | 3 | 2 | 0 |
+| Inscrição estatal | 3 | 3 | 1 | 0 |
+| **Score de Endurecimento** | **2.2** | **3.0** | **1.3** | **0.0** |
+
+Os resultados demonstram a correlação direta entre o nível de "universalidade jurídica" exigida pela peça e seu endurecimento. O *Brasão da República* (SCOUT-562), enquanto dispositivo ontológico fundacional, atinge pontuação máxima (3.0), suprimindo quase que inteiramente a corporalidade humana. No extremo oposto, a *Navigation et Commerce* (FR-094) atinge score basal (0.0), preservando a textura corpórea de seus modelos vivos. Este gradiente quantitativo subsidia as conclusões qualitativas, vinculando a não-abstração aos processos de dominação hídrica e comércio ultramarino.

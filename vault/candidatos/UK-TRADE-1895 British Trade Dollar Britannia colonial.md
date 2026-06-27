@@ -1,5 +1,5 @@
 ---
-id: SCOUT-105
+id: UK-TRADE-1895
 tipo: corpus-candidato
 status: candidato
 titulo: 1 Dollar British Trade Dollar — Britannia standing (colonial)

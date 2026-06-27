@@ -1,9 +1,9 @@
 # task_plan.md — Artigo de História do Direito Penal
 Fase: 2026-06-23-artigo-penal-malleus-cajada
-Working title: "Até quando duvidam, punem: o Malleus Maleficarum, Maria Gonçalves Cajada e a construção atlântica do tipo penal de bruxaria"
+Working title: "Até quando duvidam, punem: o Malleus Maleficarum, Maria Gonçalves Cajada e a construção atlântica da suspeição inquisitorial de bruxaria"
 Prazo: 30 de junho de 2026 (versão faseada; expansão em 14/07)
-Status: outline + estado da arte prontos; research parcial; article draft 0%
-Pivô: Cajada + historiografia Malleus. Centro: tipo penal atlântico de bruxaria.
+Status: v1 em redação; Seções 1-4 avançadas; Seção 5 mantida como interface em esboço para expansão em 14/07
+Pivô: Cajada + historiografia Malleus. Centro: suspeição inquisitorial atlântica de bruxaria.
 
 ## Cronograma (7 dias úteis, 23-30 jun 2026)
 
@@ -13,8 +13,8 @@ Pivô: Cajada + historiografia Malleus. Centro: tipo penal atlântico de bruxari
 | 24-06 | T1b: Roper 2013 cap. Malleus + T2: Playwright scrape das 7 fontes (Levack, Roper, Behringer, ANPUH PDF, Cruz de Araújo info, Wikipedia Cajada, Wikipedia Malleus) | findings.md v2 §3, §4; sources/ com .md + .png + PDF |
 | 25-06 | T5: refinar outline 5 seções + T3: 1 pp. sobre pivô + T4: 1 pp. recorte temporal | task_plan.md atualizado, esqueleto Seções 1-5 |
 | 26-06 | T6a: Seções 1-2 (Malleus como evento discursivo + tecnologia do corpo confitente) | ~6 pp. |
-| 27-06 | T6b: Seção 3 (Cajada como caso-pivô) + início Seção 4 | ~5 pp. |
-| 28-06 | T6c: Seção 4 final + Seção 5 esboço (interface ICONOCRACIA) | ~4 pp. |
+| 27-06 | T6b: Seção 3 (Cajada como pivô documental) + saneamento Seção 4 | Seções 3-4 em prosa; auditoria dirty tree |
+| 28-06 | T6c: Seção 4 final + Seção 5 esboço (interface ICONOCRACIA) | Revisão de lastro bibliográfico e versão DOCX |
 | 29-06 | T7 self-review: aparato crítico ABNT 6023:2025 + referências + revisão interna Ana | Artigo formatado |
 | 30-06 | ENTREGA: 15-20 pp., PDF + DOCX, sumário executivo | artigo v1 |
 
@@ -43,7 +43,7 @@ Pivô: Cajada + historiografia Malleus. Centro: tipo penal atlântico de bruxari
 
 ### T6 [BORRADOR]
 - 15-20 pp., 5 seções, aparato crítico ABNT 6023:2025.
-- Success criteria: artigo completo, primeira passada, lacunas marcadas como [EXPANDIR 14/07].
+- Success criteria: artigo completo, primeira passada, lacunas marcadas como [EXPANDIR 14/07]. Em 27-jun-2026, a Seção 4 exige apenas revisão bibliográfica fina para Angola/Goa e paginação ABNT das fontes de calundu.
 
 ### T7 [SELF-REVIEW]
 - Checklist: (a) tese central articulada em cada seção; (b) referências verificadas; (c) ABNT correto; (d) ausência de "fonte primária aceita" do Malleus; (e) pivô Cajada operacional; (f) interface ICONOCRACIA honesta (não-forçada).

@@ -1,5 +1,5 @@
 ---
-id: SCOUT-317
+id: FR-094
 tipo: corpus-candidato
 status: ativo
 titulo: Navigation et Commerce — selo tipo colonial francês (Mouchon)

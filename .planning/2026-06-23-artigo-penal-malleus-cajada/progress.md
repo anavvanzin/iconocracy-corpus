@@ -1,9 +1,25 @@
 # progress.md — Artigo de História do Direito Penal
 Fase: 2026-06-23-artigo-penal-malleus-cajada
-Working title: "Até quando duvidam, punem: o Malleus Maleficarum, Maria Gonçalves Cajada e a construção atlântica do tipo penal de bruxaria"
-Prazo: 30-jun-2026 (6 dias restantes)
+Working title: "Até quando duvidam, punem: o Malleus Maleficarum, Maria Gonçalves Cajada e a construção atlântica da suspeição inquisitorial de bruxaria"
+Prazo: 30-jun-2026 (3 dias restantes em 27-jun-2026)
 
 ## Checkpoint 24-jun-2026 18:30 (fim da sessão)
+
+## Checkpoint 26-jun-2026
+
+- Bloqueio metodológico resolvido: o eixo deixou de ser "tipo penal" como categoria dogmática moderna e passou a ser "categoria de suspeição inquisitorial" / "figura penal-canônica".
+- `Directorium Inquisitorum` (Eymerich; Peña) integrado como matriz procedimental anterior ao *Malleus*.
+- Sbriccoli 2011 integrado em §2.4 para tratar a tortura como tecnologia intelectual de produção de verdade processual.
+- Seção 5 rebaixada para interface em esboço: bruxa como figura punitiva da iconocracia, sem forçar o artigo a depender diretamente da tese.
+- Seção 3 convertida de outline para prosa acadêmica: Cajada agora aparece como pivô documental, com mediação explícita de Cruz de Araújo/ANPUH, viés de seleção declarado e ponte clara para circulação atlântica.
+
+## Checkpoint 27-jun-2026
+
+- Dirty tree audit criado em `.planning/2026-06-27-dirty-tree-audit.md`, com classificação `keep`, `fold into docs`, `later` e `ignore/quarantine`.
+- Planejamento DIR410346 alinhado ao artigo atual: Cajada tratada como pivô documental, não caso central; eixo metodológico fixado em suspeição inquisitorial, figura penal-canônica e procedimento.
+- Seção 4 saneada em `artigo_v1_consolidado.md`: removida a referência não verificada a `Cães de Guarda`; adicionados Laura de Mello e Souza e o artigo de João José Reis sobre calundu; Angola e Goa rebaixadas para extensões comparativas, não prova central.
+- `artigo_v0_consolidado.md` recebeu alinhamento mínimo da Seção 4 para não contradizer o v1.
+- Próximo gate: validar schema 328 registros, rodar testes do validador, checar termos da tese, `diff --check` e busca dirigida por termos problemáticos nos arquivos ativos.
 
 ### Estado do artigo
 - **artigo_v0_consolidado.md**: 6.448 palavras (começou o dia com 3.900 — +65%)
