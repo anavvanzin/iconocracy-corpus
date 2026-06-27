@@ -135,8 +135,14 @@ Plan Linux.pdf
 Esquema antigo .md
 docker-compose.override.yml
 
-# Binary assets (stored in /data/iconocracy-corpus/binaries/)
-Images/
+# Seminar readings / downloaded papers (keep on disk, not in git)
+vault/2026-Q2-Seminario-AD/
+vault/obsidian-dir410*/leituras/
+vault/obsidian-dir410*/materiais/*.pdf
+wiki/DIR410*-*/leituras/
+wiki/DIR410*-*/materiais/*.pdf
+sources/*.pdf
+docs/*.pdf
 PDFs/
 *.zip
 *.dylib
