@@ -2,6 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+> **Quick-reference companion:** [`AGENTS.md`](AGENTS.md) — essential commands, counts, and guardrails in a compact card for any agent.
+
 ## Project
 
 Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2026). Integrates a searchable, **open and growing** corpus of female allegorical figures (recent working snapshot ~299 records in `records.jsonl`; **N is intentionally non-fixed** — exploratory posture, see *Known Data Issues* §3), research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
@@ -184,6 +186,7 @@ Every corpus item must exist in three places:
 - All Python scripts run from repo root: `python tools/scripts/<script>.py`
 - Never use `sed` or partial edits on JSON config files — rewrite entirely with `Write`
 - For `corpus-data.json`, use Python scripts for atomic updates rather than direct Edit
+- All Codebook v2 allegory fields (e.g. `subtipo`, `familia_alegorica`, `vetor_colonial`, `hipotese_racial`) must be nested under the `"purificacao"` key in `data/processed/records.jsonl`. The export script `records_to_corpus.py` flattens these fields to the root of `corpus/corpus-data.json`. Direct manual edits to `corpus-data.json` will be overwritten.
 - `data/raw/` must remain metadata-only in git (ADR-001: Google Drive stores binaries)
 - Vault notes follow pattern `XX-NNN Title.md` where XX = country code, NNN = sequential number (e.g., `FR-013 Déclaration des droits.md`)
 - All generic vault notes in `vault/**/*.md` should default to **Obsidian Flavored Markdown**: frontmatter properties, `[[wikilinks]]`, `![[embeds]]`, callouts, comments, highlights, and external URLs only as Markdown links
@@ -210,7 +213,7 @@ These documented problems affect corpus operations:
    - Older artifacts that reference 145/165 (notebooks `01/05/06/07`; manuscript `Capitulo2_metodologia.md`, `Introducao_rev.md`, etc.; the frozen `Other/corpus-data.json`) are **historical analysis snapshots, not errors** — each records the sample a given run used. Update them lazily near the defense, not as blocking debt. `Other/` also holds a duplicate of `notebooks/01–08` (stale copy, not a second source of truth).
    - `endurecimento_score=0` is a valid score (low purification), not "uncoded". Background on the stratification dialectic: memory `corpus-n-20260605` + `docs/decisions/DIALETICA-N165-vs-265.md` — **informative, not a gate.**
 
-**Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the records/export drift are resolved in the current operational snapshot — `validate_schemas.py` reports 299/299 records valid, `purification.jsonl` reports 234/234 valid, and `records_to_corpus.py --diff` reports synchronization by URL.
+**Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the records/export drift are resolved in the current operational snapshot — `validate_schemas.py` reports 299/299 records valid, `purification.jsonl` reports 236/236 valid, and `records_to_corpus.py --diff` reports synchronization by URL.
 
 ## Release Gate
 

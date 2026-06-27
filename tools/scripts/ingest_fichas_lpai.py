@@ -640,9 +640,14 @@ def render_vault_draft(ficha: Dict[str, Any], record: Dict[str, Any]) -> Tuple[s
 def validate_record(record: Dict[str, Any]) -> List[str]:
     """Return list of schema violations (empty list → valid)."""
     try:
-        from jsonschema import Draft202012Validator, FormatChecker, RefResolver
+        from jsonschema import Draft202012Validator, FormatChecker
     except ImportError as exc:  # pragma: no cover
         raise SystemExit(f"jsonschema required: {exc}") from exc
+
+    try:
+        from referencing import Registry, Resource
+    except ImportError as exc:  # pragma: no cover
+        raise SystemExit(f"referencing required: {exc}") from exc
 
     schema_dir = REPO_ROOT / "tools" / "schemas"
     if not schema_dir.exists():  # sandbox: load from alt dir
@@ -653,8 +658,11 @@ def validate_record(record: Dict[str, Any]) -> List[str]:
         sc = json.loads(sf.read_text(encoding="utf-8"))
         if "$id" in sc:
             store[sc["$id"]] = sc
-    resolver = RefResolver(base_uri="https://example.org/schemas/", referrer=master, store=store)
-    validator = Draft202012Validator(master, resolver=resolver, format_checker=FormatChecker())
+    resolver = Registry().with_resources(
+        (uri, Resource.from_contents(schema))
+        for uri, schema in store.items()
+    )
+    validator = Draft202012Validator(master, registry=resolver, format_checker=FormatChecker())
     errors = sorted(validator.iter_errors(record), key=lambda e: list(e.path))
     return [f"{list(e.path) or 'root'}: {e.message}" for e in errors]
 

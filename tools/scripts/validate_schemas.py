@@ -13,9 +13,15 @@ from urllib.parse import urlparse
 
 try:
     import jsonschema
-    from jsonschema import Draft202012Validator, FormatChecker, RefResolver
+    from jsonschema import Draft202012Validator, FormatChecker
 except ImportError:
     print("Error: jsonschema library required. Install with: pip install jsonschema", file=sys.stderr)
+    sys.exit(1)
+
+try:
+    from referencing import Registry, Resource
+except ImportError:
+    print("Error: referencing library required. Install with: pip install referencing", file=sys.stderr)
     sys.exit(1)
 
 
@@ -34,18 +40,16 @@ def load_schema(schema_name: str) -> Dict[str, Any]:
     raise FileNotFoundError(f"Schema not found: {schema_name}.schema.json in schemas/ or tools/schemas/")
 
 
-def create_resolver() -> RefResolver:
-    """Create a RefResolver with all available schemas."""
-    schema_store = {}
+def create_registry() -> Registry:
+    """Create a Registry with all available schemas."""
+    resources = []
     for schema_file in SCHEMA_DIR.glob("*.schema.json"):
         with schema_file.open("r", encoding="utf-8") as f:
             schema = json.load(f)
             if "$id" in schema:
-                schema_store[schema["$id"]] = schema
+                resources.append((schema["$id"], Resource.from_contents(schema)))
 
-    # Use the master record schema as base
-    base_uri = "https://example.org/schemas/"
-    return RefResolver(base_uri, {}, store=schema_store)
+    return Registry().with_resources(resources)
 
 
 def _is_datetime_string(value: str) -> bool:
@@ -118,10 +122,10 @@ def validate_records(
           (do not block). Promote to errors in v2.4.0+ when data stabilizes.
     """
     schema = load_schema(schema_name)
-    resolver = create_resolver()
+    registry = create_registry()
     validator = Draft202012Validator(
         schema,
-        resolver=resolver,
+        registry=registry,
         format_checker=FormatChecker(),
     )
 
