@@ -64,9 +64,9 @@ O micro, portanto, não é um caso particular do macro; é a chave que o decifra
 
 # Referências Bibliográficas
 
-APPADURAI, Arjun (ed.). **The Social Life of Things**: commodities in cultural perspective. Cambridge: Cambridge University Press, 1986.
+APPADURAI, Arjun (org.). **The social life of things**: commodities in cultural perspective. Cambridge: Cambridge University Press, 1986.
 
-BELTING, Hans. **Likeness and Presence**: a history of the image before the era of art. Translated by Edmund Jephcott. Chicago: University of Chicago Press, 1994.
+BELTING, Hans. **Likeness and presence**: a history of the image before the era of art. Trad. Edmund Jephcott. Chicago: University of Chicago Press, 1994.
 
 BRUBAKER, Leslie; TOBLER, Helen. The Gender of Money: Byzantine Empresses on Coins (324–802). **Gender & History**, v. 12, n. 3, p. 572-594, Nov. 2000.
 
@@ -74,22 +74,20 @@ GOODRICH, Peter. **Legal Emblems and the Art of Law**: obiter depicta as the vis
 
 HOCHSCHILD, Adam. **King Leopold's Ghost**: a story of greed, terror, and heroism in colonial Africa. Boston: Houghton Mifflin, 1998.
 
-HUYGEBAERT, Stefan. **Visual ideals of law & justice**: an iconological inquiry into nineteenth-century Belgian legal art. 2019. Tese (Doutoramento em História da Arte e Criminologia) — Faculteit Letteren en Wijsbegeerte / Faculteit Recht en Criminologie, Universiteit Gent, Ghent, 2019.
+HUYGEBAERT, Stefan. The paternalistic visual program of the Palais de Justice of Brussels. In: MARTYN, Georges (org.). **The art of law**: three centuries of justice depicted. Bruges: Die Keure, 2019. p. 245-268.
 
-HUYGEBAERT, Stefan. The Paternalistic Visual Program of the Palais de Justice of Brussels. In: MARTYN, Georges (org.). **The Art of Law**: Three Centuries of Justice Depicted. Bruges: Die Keure, 2019.
-
-MITCHELL, W. J. T. **Picture Theory**: essays on verbal and visual representation. Chicago: University of Chicago Press, 1994.
+MITCHELL, W. J. T. **Picture theory**: essays on verbal and visual representation. Chicago: University of Chicago Press, 1994.
 
 OGLETREE, Shirley M.; MERRITT, Sandy; ROBERTS, Jane. Female/male portrayals on U.S. postage stamps of the twentieth century. **Journal of Applied Social Psychology**, v. 24, n. 12, p. 1075-1085, 1994.
 
-PANOFSKY, Erwin. **Studies in Iconology**: humanistic themes in the art of the Renaissance. New York: Oxford University Press, 1939.
+PANOFSKY, Erwin. **Studies in iconology**: humanistic themes in the art of the Renaissance. New York: Oxford University Press, 1939.
 
-PANOFSKY, Erwin. **Significado nas Artes Visuais**. Tradução de Maria Clara F. Kneese e J. Guinsburg. São Paulo: Perspectiva, 2014.
+PANOFSKY, Erwin. **Significado nas artes visuais**. Trad. Maria Clara Kneese e J. Guinsburg. São Paulo: Perspectiva, 2014.
 
-PATEMAN, Carole. **The Sexual Contract**. Stanford: Stanford University Press, 1988.
+PATEMAN, Carole. **The sexual contract**. Stanford: Stanford University Press, 1988.
 
 STEWART, Susan. **On Longing**: Narratives of the Miniature, the Gigantic, the Souvenir, the Collection. Durham: Duke University Press, 1993.
 
 VANZIN, Ana. **Iconocracia**: a economia política da imagem soberana. 2026. Tese (Doutorado em Direito) — Centro de Ciências Jurídicas, Universidade Federal de Santa Catarina, Florianópolis, 2026.
 
-WARNER, Marina. **Monuments and Maidens**: the allegory of the female form. London: Weidenfeld & Nicolson, 1985.
+WARNER, Marina. **Monuments and maidens**: the allegory of the female form. London: Weidenfeld & Nicolson, 1985.

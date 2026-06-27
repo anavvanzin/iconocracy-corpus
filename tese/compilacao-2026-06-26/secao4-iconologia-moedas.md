@@ -54,9 +54,9 @@ A moeda já foi apresentada na abertura deste artigo, mas a Seção 1 a descreve
 
 ## 4.7 Síntese comparada: postura, coroa, metal, temporalidade
 
-A Tabela 1 organiza as seis moedas segundo as variáveis que a análise panofskiana revelou como estruturantes: a postura corporal da alegoria, o significante que cobre sua cabeça, o metal do disco, o volume de cunhagem e o intervalo entre a circulação da moeda e a aquisição de direitos políticos pelas mulheres do país emissor.
+A Tabela 2 organiza as seis moedas segundo as variáveis que a análise panofskiana revelou como estruturantes: a postura corporal da alegoria, o significante que cobre sua cabeça, o metal do disco, o volume de cunhagem e o intervalo entre a circulação da moeda e a aquisição de direitos políticos pelas mulheres do país emissor.
 
-**Tabela 1 — Iconologia comparada de seis moedas-âncora do corpus ICONOCRACIA**
+**Tabela 2 — Iconologia comparada de seis moedas-âncora do corpus ICONOCRACIA**
 
 | Moeda | Postura | Cabeça | Metal | Peso (g) | Tiragem (aprox.) | Circulação | Voto feminino | Intervalo (anos) |
 |---|---|---|---|---|---|---|---|---|
@@ -79,6 +79,6 @@ A leitura vertical da tabela revela padrões que a análise caso a caso insinuav
 
 **Serialidade.** As seis moedas foram cunhadas em tiragens que vão de 5 milhões (Hispania 1869) a mais de 400 milhões (Morlon). A escala é o vetor que transforma a alegoria em ubiquidade. Cada exemplar é um corpo feminino em miniatura; centenas de milhões de exemplares são centenas de milhões de corpos distribuídos pelo território nacional. A Casa da Moeda é uma fábrica de corpos. A serialidade, como a miniaturização, preserva o corpo feminino: a repetição industrial não o endurece, apenas o multiplica.
 
-**Ironia temporal.** A última coluna da Tabela 1 condensa o achado mais perturbador da análise. Em cinco dos seis casos, o intervalo entre a circulação da moeda e a aquisição do voto feminino é positivo — ou seja, a moeda circulou em Estados que negavam direitos políticos às mulheres. Os intervalos vão de +13 anos (França Morlon) a +96 anos (Suíça Helvetia). A Espanha de 1933 é a exceção: o voto precedeu a moeda em dois anos. *La Rubia*, cunhada em 1937, tecnicamente também circulou sob sufrágio feminino, mas em condições de guerra que suspenderam as eleições. A ironia temporal não é uma curiosidade cronológica: é a demonstração empírica do Contrato Sexual Visual. A hipervisibilidade da alegoria feminina no disco metálico é estritamente inversa à presença política das mulheres no Estado que a emite.
+**Ironia temporal.** A última coluna da Tabela 2 condensa o achado mais perturbador da análise. Em cinco dos seis casos, o intervalo entre a circulação da moeda e a aquisição do voto feminino é positivo — ou seja, a moeda circulou em Estados que negavam direitos políticos às mulheres. Os intervalos vão de +13 anos (França Morlon) a +96 anos (Suíça Helvetia). A Espanha de 1933 é a exceção: o voto precedeu a moeda em dois anos. *La Rubia*, cunhada em 1937, tecnicamente também circulou sob sufrágio feminino, mas em condições de guerra que suspenderam as eleições. A ironia temporal não é uma curiosidade cronológica: é a demonstração empírica do Contrato Sexual Visual. A hipervisibilidade da alegoria feminina no disco metálico é estritamente inversa à presença política das mulheres no Estado que a emite.
 
 A passagem da moeda ao selo — da numismática à filatelia — radicaliza as propriedades aqui identificadas. O selo é ainda menor, ainda mais barato, ainda mais serial, ainda mais íntimo. Ele não pesa na palma; ele cola-se ao envelope com a língua. A Seção 5 examina os selos postais como laboratório óptico da miniaturização estatal, onde a redução de escala atinge seu limite material e o corpo feminino do Estado se oferece ao olhar em sua forma mais precária.
