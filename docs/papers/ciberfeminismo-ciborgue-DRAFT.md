@@ -5,7 +5,7 @@ author: "Ana Vanzin"
 lang: pt-BR
 abnt: "NBR 6023:2025"
 type: rascunho-artigo
-status: draft-§1-§2
+status: draft-completo-v1
 created: 2026-06-26
 tags: [paper, ciberfeminismo, haraway, ciborgue, contra-alegoria, purificacao-classica]
 ---
@@ -14,8 +14,10 @@ tags: [paper, ciberfeminismo, haraway, ciborgue, contra-alegoria, purificacao-cl
 
 > [!note] Estatuto editorial
 > Paper **derivado** (pós/para-tese). Aqui "ciberfeminismo" é filiação **assumida** — ao
-> contrário do manuscrito da tese, onde o termo é vedado. §1–§2 redigidas; §3–§6 em
-> estrutura com fontes ancoradas (piloto Elicit, 2026-06-26).
+> contrário do manuscrito da tese, onde o termo é vedado. **§1–§6 redigidas** (draft v1);
+> fontes ancoradas em piloto Elicit (2026-06-26). Blindagens de banca aplicadas
+> (anacronismo-como-método via *Nachleben*; contribuição = índice invertido; Latour como
+> mesmo par purificação/tradução).
 
 ## Resumo
 A alegoria feminina do Estado — a mulher de pedra que personifica a justiça nas fachadas dos
@@ -64,6 +66,15 @@ dentro, o trabalho de purificação que o endurecimento mede. Se cada um dos dez
 registra um avanço da purificação (desincorporação, rigidez postural, dessexualização,
 serialidade, inscrição estatal…), o ciborgue nomeia o vetor que nenhum deles consegue
 zerar: a **impureza produtiva** do corpo que se recusa a virar emblema.
+
+Duas precisões evitam mal-entendidos. A primeira é de **método**: o ciborgue não é um item do
+corpus (1800–2000), mas uma **chave de leitura retroativa** — no sentido warburguiano do
+*Nachleben*, em que o presente reativa e relê formas do passado. Tratar o ciborgue como
+operador anacrônico não é deslize, é o próprio procedimento: é o presente impuro que torna
+legível a purificação que organizava a figura histórica. A segunda é de **contribuição**: o
+gesto original deste artigo não é "ler Haraway" — leitura já abundante —, mas **inverter o
+índice de endurecimento**, usando suas dez dimensões não para medir a pureza alcançada, e sim
+para cartografar a **impureza** que resiste. É uma métrica da contra-alegoria, e é nova.
 
 O argumento se desenvolve em quatro tempos. A seção 2 reconstrói brevemente a Purificação
 Clássica e o endurecimento, situando-os na leitura latouriana da purificação. A seção 3
@@ -125,6 +136,11 @@ ponto a ponto, à operação que a alegoria estatal executa: onde a Purificaçã
 *reúne* o que a metafísica mantinha apartado e assume o híbrido como condição. Em termos
 latourianos, o ciborgue é a **tradução** tornada visível — o trabalho de produção de
 híbridos que a purificação recalca para sustentar a ilusão de zonas ontológicas puras.
+Convém sublinhar que a relação entre alegoria e ciborgue **não é uma analogia** entre dois
+objetos distantes: é o **mesmo par conceitual** — purificação/tradução — operando dos dois
+lados. A Purificação Clássica é a face visual da purificação latouriana; o ciborgue é a
+figuração assumida da tradução que ela recalca. Não aproximamos duas coisas parecidas;
+seguimos uma única engrenagem até seus dois produtos opostos.
 
 Essa impureza não é mera metáfora estética: ela já chegou ao **direito**, e justamente no
 ponto em que a tese opera — o do sujeito e do corpo. Viljanen (2017) descreve uma "virada
@@ -184,6 +200,16 @@ desincorpora para produzir *ruído* — impureza, não insígnia. A terceira é 
 de Laboria Cuboniks (2015/2018): "se a natureza é injusta, mude a natureza" — um
 antinaturalismo militante que é o oposto polar do "eterno natural" sobre o qual a alegoria
 estatal se ergue.
+
+O ganho de ler essas figuras pelo **índice invertido** é que a oposição deixa de ser
+impressionista e passa a ser *dimensão a dimensão*. A colagem de Mutu pontua no avesso de
+**uniformização facial** (rostos singulares, heterogêneos), **serialidade** (peça única,
+irrepetível) e **monocromatização** (saturação, matéria); o *glitch* de Russell ataca a
+**desincorporação** e o **apagamento narrativo** — não suprime o corpo para produzir emblema,
+mas o fragmenta para produzir história e ruído; o xenofeminismo desarma a **heraldicização** e
+a **inscrição estatal**, recusando que o corpo se converta em brasão ou legenda do Estado.
+Onde o endurecimento somava pontos rumo à pureza, a contra-alegoria os **subtrai** — e é essa
+subtração que o índice invertido mede.
 
 Essas contra-alegorias não pertencem ao corpus histórico da tese (1800–2000): são **releitura
 contemporânea**, e é assim que devem ser tratadas, sob pena de anacronismo. O corpus entra de
