@@ -13,20 +13,11 @@ import sys
 # ---- Detecção de Caminhos (Portável) ----
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__)) if __file__ else os.getcwd()
 
-# Se o caminho padrão da usuária existir, nós o usamos. Caso contrário, usamos relativo.
-DEFAULT_BASE = "/home/user/workspace/moedas"
-if os.path.exists(DEFAULT_BASE):
-    BASE = DEFAULT_BASE
-else:
-    # Se a pasta "moedas" existir ao lado do script, usamos ela; senão, usamos o próprio diretório do script
-    local_moedas = os.path.join(SCRIPT_DIR, "moedas")
-    BASE = local_moedas if os.path.exists(local_moedas) else SCRIPT_DIR
+# Usamos caminho relativo ao diretório do script
+local_moedas = os.path.join(SCRIPT_DIR, "moedas")
+BASE = local_moedas if os.path.exists(local_moedas) else SCRIPT_DIR
 
-DEFAULT_OUT = "/home/user/workspace/cronologia_moedas_brasil.png"
-if os.path.exists(os.path.dirname(DEFAULT_OUT)):
-    OUT = DEFAULT_OUT
-else:
-    OUT = os.path.join(SCRIPT_DIR, "cronologia_moedas_brasil.png")
+OUT = os.path.join(SCRIPT_DIR, "cronologia_moedas_brasil.png")
 
 # ---- Paleta (sóbria, acadêmica) ----
 BG       = (244, 241, 234)   # marfim
