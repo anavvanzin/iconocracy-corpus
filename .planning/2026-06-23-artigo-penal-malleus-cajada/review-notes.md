@@ -1,12 +1,12 @@
 ---
-title: "Review notes — artigo Duvidam Punem (v2.1)"
+title: "Review notes — artigo Duvidam Punem (v2.3)"
 data: 2026-06-27
 branch: artigo/duvidam-punem-v2
 artigo: artigo_v2_redacao_limpa.md
 prazo: 30-jun-2026
 ---
 
-# Review notes — "Até quando duvidam, punem" (v2.1)
+# Review notes — "Até quando duvidam, punem" (v2.3)
 
 Handoff durável. Captura a revisão de 4 agentes, o que foi aplicado, o que ficou
 pendente, e o veredito da dialética sobre como usar os 3 dias até a entrega.
@@ -101,3 +101,23 @@ se porteia."
 3. "ibérica" (1 edit) + freeze.
 4. PDF (instalar tectonic/weasyprint) + PR v2→main.
 5. Pós-30/06: Patterson, Seção 5 expansão ICONOCRACIA (14/07).
+
+## 6. Fact-check EXECUTADO e resolvido (2026-06-27) — v2.3
+
+**Dia 1 — 4 verificações paralelas (read-only):**
+- **Certeau 1982:** CONFIRMADO (*A escrita da história*, Forense Universitária, 1982). Sem edição; só ajustada a paráfrase ("no que se pode ler, com Certeau").
+- **Latim Question Six:** ERRADO. String espúria → corrigida para *Cur in tam fragili sexu femineo plures reperiantur maleficae quam in viris* (commit `03a4da2`).
+- **Federici:** páginas eram da ed. inglesa Autonomedia. Corrigido: Elefante **2017** (não 2021), p.184→**328**, p.11→**22**, +tradutor Coletivo Sycorax (`03a4da2`). ⚠ conferir se o exemplar físico é a 2ª ed. 2023 (re-diagramada → páginas mudam).
+- **Cajada lugar:** ERRADO. Julgada na **Bahia/Salvador**, não Lisboa (só os autos foram a Lisboa). Corrigido (`03a4da2`).
+
+**Mergulho proc. 10748 (1 agente deep-dive, ANTT+scholar):**
+- **Tortura:** NÃO há registro no caso. Removida; substituída pela sentença documentada (carocha, vela, auto público, degredo ao Reino; isenta de açoites por estar doente; sentença 24/01/1593). Commit `788f1d9`.
+- **Âncora "embustes e enganos":** CONFIRMADA verbatim no **fl.1** do proc. 10748 (ANTT/DigitArq). NÃO é de Cruz de Araújo (que não traz a frase) nem do Conselho Geral — é despacho da **Mesa inquisitorial**. Re-atribuída + enriquecida com o contexto de jurisdição (prova só por confissão extrajudicial, sem testemunhas, "pertençe mais ao ordinário que à Inquisição"). +entrada ANTT/DigitArq na bibliografia. Commit `788f1d9`.
+
+**Dia 3 — compile:** tectonic 0.16.9 instalado; PDF + DOCX da v2.3 gerados e entregues.
+
+**Estado: v2.3, em condição de entrega para 30-jun.**
+
+**Ainda aberto (Ana / pós-entrega):** conferir edição Elefante (2017 vs 2023) + grafia exata do fl.1 no fac-símile DigitArq antes de publicar; deferido 14/07 = Patterson (voz), Seção 5 (ICONOCRACIA), "ibérica" desagregação, capitalização ABNT cosmética.
+
+**Commits da branch:** `87dec4a` (v2) → `25424b5` (v2.1) → `a837539` (notes) → `03a4da2` (fact-check) → `788f1d9` (cluster) → este.
