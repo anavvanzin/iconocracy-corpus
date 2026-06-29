@@ -1,7 +1,7 @@
 ---
 title: "Até quando duvidam, punem: o Malleus Maleficarum, Maria Gonçalves Cajada e a construção atlântica da suspeição inquisitorial de bruxaria"
 author: "Ana Vanzin"
-status: v2.3 (cluster Seção 3.2 resolvido: tortura removida [sem registro no proc.], âncora "embustes" confirmada no fl.1 do proc. 10748/ANTT) 27-jun-2026
+status: "v2.3 (cluster Seção 3.2 resolvido: tortura removida [sem registro no proc.], âncora \"embustes\" confirmada no fl.1 do proc. 10748/ANTT) 27-jun-2026"
 prazo: 30-jun-2026
 base: "consolida artigo_v1_consolidado.md (pesquisa) + Artigo_Duvidam_Punem_redacao-limpa.md (prosa + moldura jurídico-penal)"
 ---
