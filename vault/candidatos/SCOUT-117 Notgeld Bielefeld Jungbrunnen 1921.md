@@ -1,28 +1,32 @@
 ---
 id: SCOUT-117
-titulo: "Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note 1921"
+titulo: Notgeld Bielefeld — Jungbrunnen (Fountain of Youth) silk note 1921
 tipo: corpus-candidato
-data: "1921"
-pais: [DE]
+data: '1921'
+pais:
+- DE
 suporte: papel-moeda
 regime: fundacional
-acervo: "British Museum / University of Chicago Special Collections"
+acervo: British Museum / University of Chicago Special Collections
 url: null
 iiif: null
 confianca: media
 tags:
-  - corpus/candidato
-  - pais/DE
-  - suporte/papel-moeda
-  - regime/fundacional
-  - "#verificar"
-  - "#verificar-imagem"
+- corpus/candidato
+- pais/DE
+- suporte/papel-moeda
+- regime/fundacional
+- '#verificar'
+- '#verificar-imagem'
 hf_synced: false
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[SCOUT-NC-03 Weimar Republic 1 Reichsmark eagle 1925]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[SCOUT-NC-03 Weimar Republic 1 Reichsmark eagle 1925]]'
+motivo_alegorico: Generic allegory / Fountain of Youth
+seculo: 20th
 ---
+
 
 # SCOUT-117 — Notgeld Bielefeld: Jungbrunnen (Fountain of Youth) 1921
 

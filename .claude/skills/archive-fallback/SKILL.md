@@ -90,8 +90,8 @@ After a batch:
 
 ## Integration points
 
-- **SCOUT** (`/Users/ana/.claude/skills/corpus-scout/`) calls this sub-routine
-  whenever `requests.get` raises, times out, or returns non-2xx.
+- **SCOUT** (the `scout`/`buscar` mode in CLAUDE.md mode routing) calls this
+  sub-routine whenever `requests.get` raises, times out, or returns non-2xx.
 - **ARGOS** (`tools/scripts/argos_build_manifest.py`) consumes the failure log
   from `vault/sessoes/archive-failures-*.md` to rebuild the acquisition manifest.
 

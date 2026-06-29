@@ -2,30 +2,32 @@
 id: SCOUT-344
 tipo: corpus-candidato
 status: candidato
-titulo: "[La Justice, la Vengeance et la Vérité] : [estampe] / F. Chifflart"
-acervo: "National Library of France"
-url: "http://gallica.bnf.fr/ark:/12148/btv1b531737635"
-data_estimada: "1865"
+titulo: '[La Justice, la Vengeance et la Vérité] : [estampe] / F. Chifflart'
+acervo: National Library of France
+url: http://gallica.bnf.fr/ark:/12148/btv1b531737635
+data_estimada: '1865'
 pais: FR
 suporte: selo
-motivo_alegorico: "Justice"
+motivo_alegorico: Justice
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/selo
-  - regime/normativo
-  - motivo/justitia
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- suporte/selo
+- regime/normativo
+- motivo/justitia
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.7
 hunt_source: europeana
 data_scout: 2026-04-03
+seculo: 19th
 ---
+
 
 ## [La Justice, la Vengeance et la Vérité] : [estampe] / F. Chifflart
 

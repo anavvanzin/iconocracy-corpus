@@ -17,9 +17,9 @@ import re
 import sys
 import time
 import unicodedata
+import urllib.error
 import urllib.parse
 import urllib.request
-import urllib.error
 import xml.etree.ElementTree as ET
 from datetime import date
 from pathlib import Path
@@ -443,7 +443,7 @@ def harvest_loc(country, query_str, support=None, period=None, limit=50):
     if support and support in SUPPORT_FILTERS:
         fa = SUPPORT_FILTERS[support].get("loc_fa", "")
         if fa:
-            params["fa"] += f"|access-restricted:false"
+            params["fa"] += "|access-restricted:false"
 
     if period:
         y1, y2 = _parse_period(period)
@@ -522,7 +522,7 @@ def harvest_met(country, query_str, support=None, period=None, limit=50):
 
     data = fetch_json(url)
     if not data or not data.get("objectIDs"):
-        log(f"    -> 0 results")
+        log("    -> 0 results")
         return []
 
     object_ids = data["objectIDs"][:min(limit, 30)]  # cap detail fetches
@@ -1049,7 +1049,7 @@ def run_hunt(countries, archives, support, period, limit, dry_run=False):
 
     # Report
     log(f"\n{'=' * 50}")
-    log(f"  HUNT REPORT")
+    log("  HUNT REPORT")
     log(f"{'=' * 50}")
     log(f"  Archives queried: {', '.join(archives)}")
     log(f"  Countries: {', '.join(countries)}")
@@ -1058,7 +1058,7 @@ def run_hunt(countries, archives, support, period, limit, dry_run=False):
     log(f"  After dedup: {len(all_candidates)}")
     if limit:
         log(f"  Limit: {limit}")
-    log(f"")
+    log("")
     if stats["by_country"]:
         log(f"  By country: {', '.join(f'{k}={v}' for k, v in sorted(stats['by_country'].items()))}")
     if stats["by_archive"]:

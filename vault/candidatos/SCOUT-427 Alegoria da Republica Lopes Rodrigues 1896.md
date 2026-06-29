@@ -15,9 +15,9 @@ tags:
   - suporte/estampa
   - regime/normativo
   - motivo/republica
-  - #verificar-imagem
+  - "#verificar-imagem"
 related:
-  - "[[endurecimento]]"
+  - "[[ENDURECIMENTO]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
 data_scout: 2026-04-13

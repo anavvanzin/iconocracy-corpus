@@ -2,30 +2,38 @@
 id: SCOUT-360
 tipo: corpus-candidato
 status: candidato
-titulo: "D'une vapeur infernale qui couvre le palais de nos rois, sortent la chimère tenant un sceptre, le fanatisme philosophique élevant comme livres sacrés Rousseau et Voltaire : la folie la discorde, la férocité, la vengeance et la mort les accompagnent. Louis entouré de la douceur, de la bonne foi, de la justice et de la bienfaisance ne voit pas ces monstres. Près de lui la force est endormie et l'amour de la paix enchaine Hercule tandis que masqués par la fourberie, l'ambition, l'impiété, et l'avarice scient les appuis de son trône : [estampe] / [non identifié]"
-acervo: "Bibliothèque nationale de France"
-url: "https://gallica.bnf.fr/ark:/12148/btv1b84114624"
-data_estimada: "1791"
+titulo: 'D''une vapeur infernale qui couvre le palais de nos rois, sortent la chimère
+  tenant un sceptre, le fanatisme philosophique élevant comme livres sacrés Rousseau
+  et Voltaire : la folie la discorde, la férocité, la vengeance et la mort les accompagnent.
+  Louis entouré de la douceur, de la bonne foi, de la justice et de la bienfaisance
+  ne voit pas ces monstres. Près de lui la force est endormie et l''amour de la paix
+  enchaine Hercule tandis que masqués par la fourberie, l''ambition, l''impiété, et
+  l''avarice scient les appuis de son trône : [estampe] / [non identifié]'
+acervo: Bibliothèque nationale de France
+url: https://gallica.bnf.fr/ark:/12148/btv1b84114624
+data_estimada: '1791'
 pais: FR
 suporte: selo
-motivo_alegorico: "Justice"
+motivo_alegorico: Justice
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/selo
-  - regime/normativo
-  - motivo/justitia
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- suporte/selo
+- regime/normativo
+- motivo/justitia
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.7
 hunt_source: gallica
 data_scout: 2026-04-03
+seculo: 18th
 ---
+
 
 ## D'une vapeur infernale qui couvre le palais de nos rois, sortent la chimère tenant un sceptre, le fanatisme philosophique élevant comme livres sacrés Rousseau et Voltaire : la folie la discorde, la férocité, la vengeance et la mort les accompagnent. Louis entouré de la douceur, de la bonne foi, de la justice et de la bienfaisance ne voit pas ces monstres. Près de lui la force est endormie et l'amour de la paix enchaine Hercule tandis que masqués par la fourberie, l'ambition, l'impiété, et l'avarice scient les appuis de son trône : [estampe] / [non identifié]
 

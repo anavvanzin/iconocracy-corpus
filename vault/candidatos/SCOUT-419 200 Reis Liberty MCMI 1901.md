@@ -2,30 +2,32 @@
 id: SCOUT-419
 tipo: corpus-candidato
 status: candidato
-titulo: "200 Réis — Liberty (Série MCMI)"
-acervo: "Numista"
-url: "https://en.numista.com/catalogue/pieces6440.html"
+titulo: 200 Réis — Liberty (Série MCMI)
+acervo: Numista
+url: https://en.numista.com/catalogue/pieces6440.html
 url_iiif: null
-data_estimada: "1901"
+data_estimada: '1901'
 pais: BR
 suporte: moeda
-motivo_alegorico: "Liberty / A República"
+motivo_alegorico: Liberty / A República
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/moeda
-  - regime/normativo
-  - motivo/republica
+- corpus/candidato
+- pais/BR
+- suporte/moeda
+- regime/normativo
+- motivo/republica
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[SCOUT-418 100 Reis Liberty MCMI 1901]]"
-  - "[[SCOUT-413 20000 Reis Ouro Efigie Republica]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[SCOUT-418 100 Reis Liberty MCMI 1901]]'
+- '[[SCOUT-413 20000 Reis Ouro Efigie Republica]]'
 hf_synced: false
 data_scout: 2026-04-10
+seculo: 20th
 ---
+
 
 ## Identificação
 

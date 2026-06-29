@@ -2,25 +2,27 @@
 id: SCOUT-309
 tipo: corpus-candidato
 status: ativo
-titulo: "Mulready Stationery — Britannia dirigindo cartas ao Império (William Mulready)"
+titulo: Mulready Stationery — Britannia dirigindo cartas ao Império (William Mulready)
 pais: UK
-data_estimada: "1840"
+data_estimada: '1840'
 suporte: selo postal
-motivo_alegorico: "Britannia (dirigindo o correio imperial)"
+motivo_alegorico: Britannia (dirigindo o correio imperial)
 regime: FUNDACIONAL
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/selo
-  - regime/fundacional
-  - motivo/britannia
-  - "#contra-alegoria"
+- corpus/candidato
+- pais/UK
+- suporte/selo
+- regime/fundacional
+- motivo/britannia
+- '#contra-alegoria'
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Mulready Stationery — Britannia (1840)
 

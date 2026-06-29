@@ -2,26 +2,28 @@
 id: SCOUT-435
 tipo: corpus-candidato
 status: ativo
-titulo: "La Republique (en hauteur) — Exposicao Internacional de Paris 1889"
+titulo: La Republique (en hauteur) — Exposicao Internacional de Paris 1889
 pais: FR
-data_estimada: "1889"
+data_estimada: '1889'
 suporte: monumento
-motivo_alegorico: "marianne"
+motivo_alegorico: marianne
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/monumento
-  - regime/normativo
-  - motivo/marianne
+- corpus/candidato
+- pais/FR
+- suporte/monumento
+- regime/normativo
+- motivo/marianne
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-04-13
-fonte_campanha: "LPAI v2 Campanha SCOUT BR/FR (abr 2026)"
+fonte_campanha: LPAI v2 Campanha SCOUT BR/FR (abr 2026)
+seculo: 19th
 ---
+
 
 ## La Republique (en hauteur) — Exposicao Internacional de Paris 1889
 

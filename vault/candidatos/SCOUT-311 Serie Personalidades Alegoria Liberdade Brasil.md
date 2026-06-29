@@ -2,26 +2,29 @@
 id: SCOUT-311
 tipo: corpus-candidato
 status: ativo
-titulo: "Série Personalidades e Alegoria da Liberdade — selo definitivo brasileiro (1906–1917)"
+titulo: Série Personalidades e Alegoria da Liberdade — selo definitivo brasileiro
+  (1906–1917)
 pais: BR
-data_estimada: "1906"
+data_estimada: '1906'
 suporte: selo postal
-motivo_alegorico: "A República / Liberdade"
+motivo_alegorico: A República / Liberdade
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/selo
-  - regime/normativo
-  - motivo/republica
+- corpus/candidato
+- pais/BR
+- suporte/selo
+- regime/normativo
+- motivo/republica
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[SCOUT-205]]"
-  - "[[SCOUT-206]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[SCOUT-205]]'
+- '[[SCOUT-206]]'
 data_scout: 2026-03-30
+seculo: 20th
 ---
+
 
 ## Série Personalidades e Alegoria da Liberdade (1906–1917)
 

@@ -2,21 +2,33 @@
 id: SCOUT-100
 tipo: corpus-candidato
 status: ativo
-titulo: "Assignat de 400 livres (21 nov. 1792, an premier de la République)"
-acervo: "Bibliothèque nationale de France"
-url: "https://gallica.bnf.fr/ark:/12148/btv1b69443660.item"
-url_iiif: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b69443660"
-data_estimada: "1792"
-pais: [FR]
+titulo: Assignat de 400 livres (21 nov. 1792, an premier de la République)
+acervo: Bibliothèque nationale de France
+url: https://gallica.bnf.fr/ark:/12148/btv1b69443660.item
+url_iiif: https://gallica.bnf.fr/iiif/ark:/12148/btv1b69443660
+data_estimada: '1792'
+pais:
+- FR
 suporte: papel-moeda
-motivo_alegorico: "La République / La Liberté"
+motivo_alegorico: La République / La Liberté
 regime: FUNDACIONAL
 confianca: medio
-tags: [corpus/candidato, pais/FR, suporte/papel-moeda, regime/fundacional, motivo/republica, "#verificar"]
-related: ["[[Regime Fundacional]]", "[[SCOUT-096]]", "[[Contrato Sexual Visual]]"]
+tags:
+- corpus/candidato
+- pais/FR
+- suporte/papel-moeda
+- regime/fundacional
+- motivo/republica
+- '#verificar'
+related:
+- '[[Regime Fundacional]]'
+- '[[SCOUT-096]]'
+- '[[Contrato Sexual Visual]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 18th
 ---
+
 
 ## Identificacao
 **Titulo:** Assignat de 400 livres (an premier de la République)

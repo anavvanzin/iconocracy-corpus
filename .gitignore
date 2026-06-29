@@ -30,6 +30,12 @@ vault/.obsidian/workspace.json
 vault/.obsidian/workspace-mobile.json
 vault/.obsidian/plugins/
 vault/.obsidian/hotkeys.json
+
+# wiki/ Obsidian (same rules as vault/)
+wiki/.obsidian/workspace.json
+wiki/.obsidian/workspace-mobile.json
+wiki/.obsidian/plugins/
+wiki/.obsidian/hotkeys.json
 vault/.obsidian/core-plugins-migration.json
 
 # Pandoc output
@@ -104,8 +110,16 @@ firebase-debug.log
 postman/
 .postman/
 
-# Dead/duplicate agent config dirs
-.agents/
+# Agent skill dirs themselves are tracked; only ignore runtime/cache.
+# Skills (em .agents/skills/<name>/SKILL.md) sao decisao explicita de versionamento
+# por arquivo -- ver `git ls-files .agents/skills/` para a lista canonica.
+# Regra de 2026-06-25: '.agents/' generico foi trocado por paths cirurgicos porque
+# '.agents/skills/' eh o local canonico das skills, nao "dead/duplicate agent config".
+.agents/cache/
+.agents/sessions/
+.agents/runtime/
+.agents/*.log
+.agents/.DS_Store
 .hermes/
 
 # Backup files
@@ -120,3 +134,42 @@ dissertacao de mestrado.pdf
 Plan Linux.pdf
 Esquema antigo .md
 docker-compose.override.yml
+
+# Seminar readings / downloaded papers (keep on disk, not in git)
+vault/2026-Q2-Seminario-AD/
+vault/obsidian-dir410*/leituras/
+vault/obsidian-dir410*/materiais/*.pdf
+wiki/DIR410*-*/leituras/
+wiki/DIR410*-*/materiais/*.pdf
+sources/*.pdf
+docs/*.pdf
+PDFs/
+*.zip
+*.dylib
+*.so
+deploy/iconocracia-companion/.wrangler/
+
+.worktrees/
+
+# Session state and operational artifacts
+.session-state.md
+.coverage
+.superpowers/
+
+# ECC plugin output — reinstalled via /auto-update, not source (machine-specific abs paths)
+.claude/ecc/
+.claude/skills/ecc/
+.claude/agents/
+.claude/commands/
+.claude/rules/
+.claude/scripts/
+.claude/.agents/
+.claude/mcp-configs/
+.claude/marketplace.json
+.claude/plugin.json
+.claude/AGENTS.md
+.claude/PLUGIN_SCHEMA_NOTES.md
+.claude/README.md
+.claude/hooks/README.md
+.claude/hooks/hooks.json
+.claude/hooks/memory-persistence/

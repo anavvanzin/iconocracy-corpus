@@ -6,7 +6,6 @@ from html.parser import HTMLParser
 from typing import Any
 from urllib.parse import urljoin, urlparse
 
-
 URL_PATTERN = re.compile(r"https?://[^\s\"'<>]+", re.IGNORECASE)
 IMAGE_EXT_PATTERN = re.compile(r"\.(?:jpe?g|png|tif{1,2}|webp)(?:$|[?#])", re.IGNORECASE)
 MANIFEST_PATTERN = re.compile(r"/(?:presentation/)?[^\s\"']*manifest(?:\.json)?(?:$|[?#])", re.IGNORECASE)

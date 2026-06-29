@@ -2,20 +2,33 @@
 id: SCOUT-109
 tipo: corpus-candidato
 status: ativo
-titulo: "1 Cruzeiro (cédula) — Efígie da República (2ª edição)"
-acervo: "Numista / Banco Central do Brasil"
-url: "https://en.numista.com/catalogue/note203551.html"
-data_estimada: "1970-1972"
-pais: [BR]
+titulo: 1 Cruzeiro (cédula) — Efígie da República (2ª edição)
+acervo: Numista / Banco Central do Brasil
+url: https://en.numista.com/catalogue/note203551.html
+data_estimada: 1970-1972
+pais:
+- BR
 suporte: papel-moeda
-motivo_alegorico: "A República (efígie em medalha)"
+motivo_alegorico: A República (efígie em medalha)
 regime: NORMATIVO
 confianca: alto
-tags: [corpus/candidato, pais/BR, suporte/papel-moeda, regime/normativo, motivo/republica, "#sem-iiif"]
-related: ["[[Regime Normativo]]", "[[endurecimento]]", "[[SCOUT-103]]", "[[SCOUT-095]]"]
+tags:
+- corpus/candidato
+- pais/BR
+- suporte/papel-moeda
+- regime/normativo
+- motivo/republica
+- '#sem-iiif'
+related:
+- '[[Regime Normativo]]'
+- '[[endurecimento]]'
+- '[[SCOUT-103]]'
+- '[[SCOUT-095]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 20th
 ---
+
 
 ## Identificacao
 **Titulo:** 1 Cruzeiro, 2ª edição, 1° tipo — Efígie da República

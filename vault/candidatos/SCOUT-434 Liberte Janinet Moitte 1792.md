@@ -15,9 +15,9 @@ tags:
   - suporte/estampa
   - regime/fundacional
   - motivo/marianne
-  - #pathosformel
+  - "#pathosformel"
 related:
-  - "[[endurecimento]]"
+  - "[[ENDURECIMENTO]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[Pathosformel]]"

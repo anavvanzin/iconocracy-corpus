@@ -2,26 +2,28 @@
 id: SCOUT-320
 tipo: corpus-candidato
 status: ativo
-titulo: "Seated Britannia — selo colonial Barbados / Maurício / Trinidad (Perkins Bacon)"
+titulo: Seated Britannia — selo colonial Barbados / Maurício / Trinidad (Perkins Bacon)
 pais: UK
-data_estimada: "1852"
+data_estimada: '1852'
 suporte: selo postal
-motivo_alegorico: "Britannia (sentada — exportada para três colônias caribenhas)"
+motivo_alegorico: Britannia (sentada — exportada para três colônias caribenhas)
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/selo
-  - regime/normativo
-  - motivo/britannia
-  - "#colonialidade-do-ver"
+- corpus/candidato
+- pais/UK
+- suporte/selo
+- regime/normativo
+- motivo/britannia
+- '#colonialidade-do-ver'
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[SCOUT-309]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[SCOUT-309]]'
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Seated Britannia — selo colonial Barbados (1852–1882)
 

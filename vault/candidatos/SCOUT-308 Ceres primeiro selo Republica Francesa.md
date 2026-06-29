@@ -2,24 +2,26 @@
 id: SCOUT-308
 tipo: corpus-candidato
 status: ativo
-titulo: "Cérès — primeiro selo da República Francesa (Jacques-Jean Barre)"
+titulo: Cérès — primeiro selo da República Francesa (Jacques-Jean Barre)
 pais: FR
-data_estimada: "1849–1852"
+data_estimada: 1849–1852
 suporte: selo postal
-motivo_alegorico: "Cérès / La République"
+motivo_alegorico: Cérès / La République
 regime: FUNDACIONAL
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/selo
-  - regime/fundacional
-  - motivo/republica
+- corpus/candidato
+- pais/FR
+- suporte/selo
+- regime/fundacional
+- motivo/republica
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Cérès — primeiro selo da República Francesa (1849)
 

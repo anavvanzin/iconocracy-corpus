@@ -11,7 +11,6 @@ from pathlib import Path
 from typing import Optional
 
 import pandas as pd
-
 from config import MASTER_CSV_COLUMNS, MASTER_CSV_NAME
 
 logger = logging.getLogger(__name__)

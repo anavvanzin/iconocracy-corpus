@@ -2,27 +2,29 @@
 id: SCOUT-306
 tipo: corpus-candidato
 status: ativo
-titulo: "Gerechtigkeitsbrunnen — Fonte da Justiça, Berna (Hans Gieng)"
+titulo: Gerechtigkeitsbrunnen — Fonte da Justiça, Berna (Hans Gieng)
 pais: CH
-data_estimada: "1543"
+data_estimada: '1543'
 suporte: monumento
-motivo_alegorico: "Justitia vendada (primeira representação conhecida)"
+motivo_alegorico: Justitia vendada (primeira representação conhecida)
 regime: FUNDACIONAL
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/CH
-  - suporte/monumento
-  - regime/fundacional
-  - motivo/justitia
-  - "#decisao-metodologica"
-  - "#protocolo"
+- corpus/candidato
+- pais/CH
+- suporte/monumento
+- regime/fundacional
+- motivo/justitia
+- '#decisao-metodologica'
+- '#protocolo'
 related:
-  - "[[endurecimento]]"
-  - "[[Nachleben]]"
-  - "[[Pathosformel]]"
+- '[[endurecimento]]'
+- '[[Nachleben]]'
+- '[[Pathosformel]]'
 data_scout: 2026-03-30
+seculo: 16th
 ---
+
 
 ## Gerechtigkeitsbrunnen — Fonte da Justiça, Berna (Hans Gieng, 1543)
 

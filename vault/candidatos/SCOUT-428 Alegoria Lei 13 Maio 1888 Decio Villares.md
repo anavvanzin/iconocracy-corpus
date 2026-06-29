@@ -15,10 +15,10 @@ tags:
   - suporte/estampa
   - regime/fundacional
   - motivo/republica
-  - #colonialidade-do-ver
-  - #verificar-imagem
+  - "#colonialidade-do-ver"
+  - "#verificar-imagem"
 related:
-  - "[[endurecimento]]"
+  - "[[ENDURECIMENTO]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[colonialidade do ver]]"

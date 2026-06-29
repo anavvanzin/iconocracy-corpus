@@ -2,28 +2,30 @@
 id: SCOUT-365
 tipo: corpus-candidato
 status: candidato
-titulo: "Justice to the Jew : the story of what he has done for the world"
-acervo: "Library of Congress"
-url: "https://www.loc.gov/item/08030546/"
-data_estimada: "1900"
+titulo: 'Justice to the Jew : the story of what he has done for the world'
+acervo: Library of Congress
+url: https://www.loc.gov/item/08030546/
+data_estimada: '1900'
 pais: US
 suporte: indeterminado
-motivo_alegorico: "Justice"
+motivo_alegorico: Justice
 regime: INDETERMINADO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/US
-  - motivo/justitia
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/US
+- motivo/justitia
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.7
 hunt_source: loc
 data_scout: 2026-04-04
+seculo: 19th
 ---
+
 
 ## Justice to the Jew : the story of what he has done for the world
 

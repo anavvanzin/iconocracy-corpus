@@ -2,26 +2,28 @@
 id: SCOUT-431
 tipo: corpus-candidato
 status: ativo
-titulo: "Republique de Clesinger (fotografia de demonstracao, Atelier Nadar)"
+titulo: Republique de Clesinger (fotografia de demonstracao, Atelier Nadar)
 pais: FR
-data_estimada: "1900"
+data_estimada: '1900'
 suporte: estampa/gravura
-motivo_alegorico: "marianne"
+motivo_alegorico: marianne
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/estampa
-  - regime/normativo
-  - motivo/marianne
+- corpus/candidato
+- pais/FR
+- suporte/estampa
+- regime/normativo
+- motivo/marianne
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-04-13
-fonte_campanha: "LPAI v2 Campanha SCOUT BR/FR (abr 2026)"
+fonte_campanha: LPAI v2 Campanha SCOUT BR/FR (abr 2026)
+seculo: 19th
 ---
+
 
 ## Republique de Clesinger (fotografia de demonstracao, Atelier Nadar)
 

@@ -2,28 +2,30 @@
 id: SCOUT-366
 tipo: corpus-candidato
 status: candidato
-titulo: "An encyclopedist of the dark ages : Isidore of Seville,"
-acervo: "Library of Congress"
-url: "https://www.loc.gov/item/12018646/"
-data_estimada: "1912"
+titulo: 'An encyclopedist of the dark ages : Isidore of Seville,'
+acervo: Library of Congress
+url: https://www.loc.gov/item/12018646/
+data_estimada: '1912'
 pais: US
 suporte: indeterminado
-motivo_alegorico: "Columbia"
+motivo_alegorico: Columbia
 regime: INDETERMINADO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/US
-  - motivo/columbia
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/US
+- motivo/columbia
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.7
 hunt_source: loc
 data_scout: 2026-04-04
+seculo: 20th
 ---
+
 
 ## An encyclopedist of the dark ages : Isidore of Seville,
 

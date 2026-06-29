@@ -14,9 +14,9 @@ tags:
   - pais/BR
   - suporte/estampa
   - regime/fundacional
-  - #contra-alegoria
+  - "#contra-alegoria"
 related:
-  - "[[endurecimento]]"
+  - "[[ENDURECIMENTO]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[contra-alegoria]]"

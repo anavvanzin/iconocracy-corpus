@@ -2,20 +2,35 @@
 id: SCOUT-113
 tipo: corpus-candidato
 status: ativo
-titulo: "Monument aux Pionniers Belges au Congo — 'La race noire accueillie par la Belgique'"
-acervo: "Parc du Cinquantenaire, Bruxelles / Wikipedia"
-url: "https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo"
-data_estimada: "1911-1921"
-pais: [BE]
+titulo: Monument aux Pionniers Belges au Congo — 'La race noire accueillie par la
+  Belgique'
+acervo: Parc du Cinquantenaire, Bruxelles / Wikipedia
+url: https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo
+data_estimada: 1911-1921
+pais:
+- BE
 suporte: monumento
-motivo_alegorico: "La Belgique (seated, colonial) + African woman and children"
+motivo_alegorico: La Belgique (seated, colonial) + African woman and children
 regime: MILITAR
 confianca: alto
-tags: [corpus/candidato, pais/BE, suporte/monumento, regime/militar, motivo/belgique, "#colonialidade-do-ver", "#contrato-racial-visual"]
-related: ["[[Regime Militar]]", "[[Contrato Racial Visual]]", "[[SCOUT-111]]", "[[SCOUT-112]]"]
+tags:
+- corpus/candidato
+- pais/BE
+- suporte/monumento
+- regime/militar
+- motivo/belgique
+- '#colonialidade-do-ver'
+- '#contrato-racial-visual'
+related:
+- '[[Regime Militar]]'
+- '[[Contrato Racial Visual]]'
+- '[[SCOUT-111]]'
+- '[[SCOUT-112]]'
 hf_synced: false
 data_scout: 2026-03-31
+seculo: 20th
 ---
+
 
 ## Identificacao
 **Titulo:** Monument aux Pionniers Belges au Congo — grupo central "La race noire accueillie par la Belgique"

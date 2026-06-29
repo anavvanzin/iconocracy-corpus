@@ -1,0 +1,6 @@
+views:
+  - type: table
+    name: Tabela
+    order:
+      - file.name
+      - data_geracao

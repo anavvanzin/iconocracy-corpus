@@ -2,29 +2,31 @@
 id: SCOUT-333
 tipo: corpus-candidato
 status: candidato
-titulo: "model for reverse for the 1851 Exhibition Prize Medal"
-acervo: "Victoria and Albert Museum"
-url: "https://collections.vam.ac.uk/item/O102162"
-data_estimada: "1851"
+titulo: model for reverse for the 1851 Exhibition Prize Medal
+acervo: Victoria and Albert Museum
+url: https://collections.vam.ac.uk/item/O102162
+data_estimada: '1851'
 pais: UK
 suporte: medalha
-motivo_alegorico: "Britannia"
+motivo_alegorico: Britannia
 regime: INDETERMINADO
 confianca: medio
 tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/moeda
-  - motivo/britannia
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/UK
+- suporte/moeda
+- motivo/britannia
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.8
 hunt_source: va
 data_scout: 2026-04-03
+seculo: 19th
 ---
+
 
 ## model for reverse for the 1851 Exhibition Prize Medal
 

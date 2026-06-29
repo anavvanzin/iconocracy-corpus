@@ -2,21 +2,23 @@
 """Generate a readable PDF manual from the Markdown source using ReportLab."""
 
 import re
-import textwrap
 from pathlib import Path
-from reportlab.lib.pagesizes import A4
-from reportlab.lib.units import mm, cm
-from reportlab.lib.colors import HexColor, black, white, Color
-from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_JUSTIFY
-from reportlab.platypus import (
-    SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle,
-    PageBreak, KeepTogether, HRFlowable, Preformatted
-)
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus.flowables import Flowable
 
+from reportlab.lib.colors import HexColor, white
+from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+from reportlab.lib.units import mm
+from reportlab.platypus import (
+    PageBreak,
+    Paragraph,
+    Preformatted,
+    SimpleDocTemplate,
+    Spacer,
+    Table,
+    TableStyle,
+)
+from reportlab.platypus.flowables import Flowable
 
 # ── Colours ──────────────────────────────────────────────────────────────────
 WINE       = HexColor("#722F37")
@@ -495,7 +497,7 @@ def main():
 
     doc.build(elements, onFirstPage=on_first_page, onLaterPages=on_later_pages)
     print(f"PDF gerado: {out_path}")
-    print(f"Páginas: abra o arquivo para conferir.")
+    print("Páginas: abra o arquivo para conferir.")
 
 
 if __name__ == "__main__":

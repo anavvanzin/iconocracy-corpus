@@ -23,7 +23,6 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import os
 import re
 import sys
 import uuid
@@ -31,11 +30,11 @@ import zipfile
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
+from typing import Any, Dict, List, Optional, Set, Tuple
 from urllib.parse import urlsplit, urlunsplit
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-DEFAULT_DOCX = Path("/Users/ana/Downloads/Documents/Fichas_LPAI_v2_Campanha_SCOUT_BR_FR.docx")
+DEFAULT_DOCX = REPO_ROOT / "data" / "raw" / "fichas-lpai-v2.docx"
 DEFAULT_STAGE_DIR = REPO_ROOT / "data" / "staging"
 STAGING_JSONL_NAME = "fichas-lpai-v2-parsed.jsonl"
 STAGING_DRAFTS_DIR_NAME = "vault-drafts-lpai-v2"
@@ -530,14 +529,14 @@ def render_vault_draft(ficha: Dict[str, Any], record: Dict[str, Any]) -> Tuple[s
         "---",
         f'title: "{title}"',
         f"id: {ficha_id}",
-        f"aliases: []",
+        "aliases: []",
         "tags:",
     ]
     for t in tags:
         lines.append(f"  - {t}")
     lines.extend(
         [
-            f"status: staging-lpai-v2",
+            "status: staging-lpai-v2",
             f"pais: {country_code_to_name(country_code) if country_code else ''}",
             f"data: {ficha.get('date','')}",
             f"autor: {ficha.get('creator','')}",
@@ -641,9 +640,14 @@ def render_vault_draft(ficha: Dict[str, Any], record: Dict[str, Any]) -> Tuple[s
 def validate_record(record: Dict[str, Any]) -> List[str]:
     """Return list of schema violations (empty list → valid)."""
     try:
-        from jsonschema import Draft202012Validator, FormatChecker, RefResolver
+        from jsonschema import Draft202012Validator, FormatChecker
     except ImportError as exc:  # pragma: no cover
         raise SystemExit(f"jsonschema required: {exc}") from exc
+
+    try:
+        from referencing import Registry, Resource
+    except ImportError as exc:  # pragma: no cover
+        raise SystemExit(f"referencing required: {exc}") from exc
 
     schema_dir = REPO_ROOT / "tools" / "schemas"
     if not schema_dir.exists():  # sandbox: load from alt dir
@@ -654,8 +658,11 @@ def validate_record(record: Dict[str, Any]) -> List[str]:
         sc = json.loads(sf.read_text(encoding="utf-8"))
         if "$id" in sc:
             store[sc["$id"]] = sc
-    resolver = RefResolver(base_uri="https://example.org/schemas/", referrer=master, store=store)
-    validator = Draft202012Validator(master, resolver=resolver, format_checker=FormatChecker())
+    resolver = Registry().with_resources(
+        (uri, Resource.from_contents(schema))
+        for uri, schema in store.items()
+    )
+    validator = Draft202012Validator(master, registry=resolver, format_checker=FormatChecker())
     errors = sorted(validator.iter_errors(record), key=lambda e: list(e.path))
     return [f"{list(e.path) or 'root'}: {e.message}" for e in errors]
 

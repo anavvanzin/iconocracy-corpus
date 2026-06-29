@@ -1,31 +1,36 @@
 ---
 id: SCOUT-116
-titulo: "Semeuse 1 Franc — Oscar Roty silver coin, Third Republic"
+titulo: Semeuse 1 Franc — Oscar Roty silver coin, Third Republic
 tipo: corpus-candidato
-data: "1898"
-pais: [FR]
+data: '1898'
+pais:
+- FR
 suporte: moeda
 regime: normativo
-acervo: "Numista / Monnaie de Paris"
-url: "https://en.numista.com/catalogue/pieces682.html"
+acervo: Numista / Monnaie de Paris
+url: https://en.numista.com/catalogue/pieces682.html
 iiif: null
 confianca: alta
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/moeda
-  - regime/normativo
-  - motivo/marianne
-  - "#iconometria"
-  - "#acoplamento-imagem-norma"
+- corpus/candidato
+- pais/FR
+- suporte/moeda
+- regime/normativo
+- motivo/marianne
+- '#iconometria'
+- '#acoplamento-imagem-norma'
 hf_synced: false
 related:
-  - "[[Contrato Sexual Visual]]"
-  - "[[endurecimento]]"
-  - "[[Iconocracia]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[Semeuse selo]]"
+- '[[Contrato Sexual Visual]]'
+- '[[endurecimento]]'
+- '[[Iconocracia]]'
+- '[[Feminilidade de Estado]]'
+- '[[Semeuse selo]]'
+motivo_alegorico: Republic
+seculo: 19th
 ---
+
+
 
 # SCOUT-116 — Semeuse 1 Franc: Oscar Roty silver coin (1898–1920)
 

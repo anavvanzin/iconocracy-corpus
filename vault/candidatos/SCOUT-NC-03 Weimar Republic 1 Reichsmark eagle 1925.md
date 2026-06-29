@@ -1,30 +1,33 @@
 ---
 id: SCOUT-NC-03
-titulo: "1 Reichsmark — Weimar Republic (eagle replaces Germania)"
+titulo: 1 Reichsmark — Weimar Republic (eagle replaces Germania)
 tipo: corpus-controle-negativo
-data: "1925"
-pais: [DE]
+data: '1925'
+pais:
+- DE
 suporte: moeda
 regime: fundacional
-acervo: "Numista"
-url: "https://en.numista.com/catalogue/pieces15569.html"
+acervo: Numista
+url: https://en.numista.com/catalogue/pieces15569.html
 iiif: null
 confianca: alta
 tags:
-  - corpus/controle-negativo
-  - pais/DE
-  - suporte/moeda
-  - regime/fundacional
-  - "#ausencia-alegorica"
-  - "#decisao-metodologica"
+- corpus/controle-negativo
+- pais/DE
+- suporte/moeda
+- regime/fundacional
+- '#ausencia-alegorica'
+- '#decisao-metodologica'
 hf_synced: false
 related:
-  - "[[Contrato Sexual Visual]]"
-  - "[[endurecimento]]"
-  - "[[Iconocracia]]"
-  - "[[SCOUT-NC-01]]"
-  - "[[SCOUT-NC-02]]"
+- '[[Contrato Sexual Visual]]'
+- '[[endurecimento]]'
+- '[[Iconocracia]]'
+- '[[SCOUT-NC-01]]'
+- '[[SCOUT-NC-02]]'
+motivo_alegorico: Germania
 ---
+
 
 # SCOUT-NC-03 — Controle Negativo: Weimar Republic 1 Reichsmark (1925)
 

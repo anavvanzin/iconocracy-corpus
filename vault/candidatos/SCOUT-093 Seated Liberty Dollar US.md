@@ -2,20 +2,32 @@
 id: SCOUT-093
 tipo: corpus-candidato
 status: ativo
-titulo: "1 Dollar 'Seated Liberty' (without motto)"
-acervo: "Numista / U.S. Mint"
-url: "https://en.numista.com/catalogue/pieces11472.html"
-data_estimada: "1840-1866"
-pais: [US]
+titulo: 1 Dollar 'Seated Liberty' (without motto)
+acervo: Numista / U.S. Mint
+url: https://en.numista.com/catalogue/pieces11472.html
+data_estimada: 1840-1866
+pais:
+- US
 suporte: moeda
-motivo_alegorico: "Liberty (Seated)"
+motivo_alegorico: Liberty (Seated)
 regime: FUNDACIONAL
 confianca: alto
-tags: [corpus/candidato, pais/US, suporte/moeda, regime/fundacional, motivo/columbia, "#sem-iiif"]
-related: ["[[Regime Fundacional]]", "[[Feminilidade de Estado]]", "[[endurecimento]]"]
+tags:
+- corpus/candidato
+- pais/US
+- suporte/moeda
+- regime/fundacional
+- motivo/columbia
+- '#sem-iiif'
+related:
+- '[[Regime Fundacional]]'
+- '[[Feminilidade de Estado]]'
+- '[[endurecimento]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Identificacao
 **Titulo:** 1 Dollar "Seated Liberty" (without motto)

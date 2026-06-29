@@ -2,34 +2,37 @@
 id: SCOUT-406
 tipo: corpus-candidato
 status: candidato
-titulo: "Alegorias do Palácio do Catete — esculturas Val d'Osne (República, Justiça, Agricultura)"
-acervo: "Museu da República / Palácio do Catete"
-url: "https://museudarepublica.museus.gov.br/wp-content/uploads/2013/10/republica-em-documentos_colecao-de-alegorias_web.pdf"
+titulo: Alegorias do Palácio do Catete — esculturas Val d'Osne (República, Justiça,
+  Agricultura)
+acervo: Museu da República / Palácio do Catete
+url: https://museudarepublica.museus.gov.br/wp-content/uploads/2013/10/republica-em-documentos_colecao-de-alegorias_web.pdf
 url_iiif: null
-data_estimada: "1899-1910"
+data_estimada: 1899-1910
 pais: BR
 suporte: monumento/escultura
-motivo_alegorico: "A República, A Justiça, Agricultura"
+motivo_alegorico: A República, A Justiça, Agricultura
 regime: FUNDACIONAL
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/monumento
-  - regime/fundacional
-  - motivo/republica
-  - motivo/justitia
-  - "#acoplamento-imagem-norma"
-  - "#ausencia-alegorica"
+- corpus/candidato
+- pais/BR
+- suporte/monumento
+- regime/fundacional
+- motivo/republica
+- motivo/justitia
+- '#acoplamento-imagem-norma'
+- '#ausencia-alegorica'
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[BR-002 Monumento à República Belém]]"
-  - "[[SCOUT-ZW-05 BR Longitudinal 1889 x 1965]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Feminilidade de Estado]]'
+- '[[BR-002 Monumento à República Belém]]'
+- '[[SCOUT-ZW-05 BR Longitudinal 1889 x 1965]]'
 hf_synced: false
 data_scout: 2026-04-04
+seculo: 19th
 ---
+
 
 ## Identificação
 

@@ -2,20 +2,34 @@
 id: SCOUT-NC-02
 tipo: corpus-candidato
 status: candidato
-titulo: "1 Penny — Victoria / Britannia seated (DUAL BODY)"
-acervo: "Numista / Royal Mint"
-url: "https://en.numista.com/catalogue/pieces670.html"
-data_estimada: "1895-1901"
-pais: [UK]
+titulo: 1 Penny — Victoria / Britannia seated (DUAL BODY)
+acervo: Numista / Royal Mint
+url: https://en.numista.com/catalogue/pieces670.html
+data_estimada: 1895-1901
+pais:
+- UK
 suporte: moeda
-motivo_alegorico: "Victoria (obverse) + Britannia (reverse) — DUAL BODY"
+motivo_alegorico: Victoria (obverse) + Britannia (reverse) — DUAL BODY
 regime: NORMATIVO
 confianca: alto
-tags: [corpus/candidato, corpus/controle-negativo, pais/UK, suporte/moeda, regime/normativo, motivo/britannia, "#decisao-metodologica"]
-related: ["[[Ausencia Alegorica]]", "[[Contrato Sexual Visual]]", "[[SCOUT-105]]", "[[SCOUT-NC-01]]"]
+tags:
+- corpus/candidato
+- corpus/controle-negativo
+- pais/UK
+- suporte/moeda
+- regime/normativo
+- motivo/britannia
+- '#decisao-metodologica'
+related:
+- '[[Ausencia Alegorica]]'
+- '[[Contrato Sexual Visual]]'
+- '[[SCOUT-105]]'
+- '[[SCOUT-NC-01]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Identificacao
 **Titulo:** 1 Penny — Victoria (3rd portrait) / Britannia seated reverse

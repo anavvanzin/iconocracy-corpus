@@ -25,7 +25,6 @@ from pathlib import Path
 
 import pytest
 
-
 REPO_ROOT = Path(__file__).resolve().parents[2]
 RECONCILE = REPO_ROOT / "tools" / "scripts" / "reconcile_data.py"
 RECORDS_TO_CORPUS = REPO_ROOT / "tools" / "scripts" / "records_to_corpus.py"

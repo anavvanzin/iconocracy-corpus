@@ -1,10 +1,13 @@
 from __future__ import annotations
 
+import json
 import re
+import ssl
+import urllib.request
 from pathlib import Path
+from urllib.parse import urlparse
 
 from tools.argos.protocols.direct import fetch_direct
-
 
 ARK_PATTERN = re.compile(r"(ark:/\d+/[^\s?#]+)", re.IGNORECASE)
 EUROPEANA_ARK_PATTERN = re.compile(r"ark__(\d+)_([^/?#]+)", re.IGNORECASE)
@@ -49,6 +52,60 @@ def _ark_from_europeana_url(url: str | None) -> str | None:
     return f"ark:/{match.group(1)}/{match.group(2)}"
 
 
+_SSL_UNVERIFIED = ssl.create_default_context()
+_SSL_UNVERIFIED.check_hostname = False
+_SSL_UNVERIFIED.verify_mode = ssl.CERT_NONE
+
+
+def _resolve_loc_item_image(json_url: str) -> str | None:
+    try:
+        req = urllib.request.Request(json_url, headers={"User-Agent": "ARGOS/1.0"})
+        with urllib.request.urlopen(req, timeout=15, context=_SSL_UNVERIFIED) as resp:
+            data = json.loads(resp.read())
+    except Exception:
+        return None
+
+    for resource in data.get("resources", []):
+        image = resource.get("image", {})
+        full = image.get("full")
+        if full and isinstance(full, str):
+            return full
+
+    for resource in data.get("resources", []):
+        files = resource.get("files", [])
+        for group in files:
+            for variant in group if isinstance(group, list) else [group]:
+                url = variant.get("url") if isinstance(variant, dict) else None
+                mimetype = variant.get("mimetype", "") if isinstance(variant, dict) else ""
+                if url and mimetype.startswith("image/"):
+                    return url
+
+    return None
+
+
+def _resolve_europeana_manifest_image(manifest_url: str) -> str | None:
+    try:
+        req = urllib.request.Request(manifest_url, headers={"User-Agent": "ARGOS/1.0", "Accept": "application/ld+json, application/json"})
+        with urllib.request.urlopen(req, timeout=15, context=_SSL_UNVERIFIED) as resp:
+            data = json.loads(resp.read())
+    except Exception:
+        return None
+
+    for seq in data.get("sequences", []):
+        for canvas in seq.get("canvases", []):
+            for img in canvas.get("images", []):
+                resource = img.get("resource", {})
+                service = resource.get("service", {})
+                service_id = service.get("@id") if isinstance(service, dict) else None
+                if service_id:
+                    return f"{service_id.rstrip('/')}/full/full/0/default.jpg"
+                body_id = resource.get("@id")
+                if body_id and isinstance(body_id, str):
+                    return body_id
+
+    return None
+
+
 def _discover_loc(item: dict) -> dict | None:
     thumb = item.get("thumbnail_url", "") or ""
     url = item.get("url", "") or ""
@@ -71,10 +128,12 @@ def _discover_loc(item: dict) -> dict | None:
     match = LOC_ITEM_PATTERN.search(url)
     if match:
         item_id = match.group(1)
+        json_url = f"https://www.loc.gov/item/{item_id}/?fo=json"
+        image_url = _resolve_loc_item_image(json_url)
         return {
             "iiif_source": "loc_api",
-            "manifest_url": f"https://www.loc.gov/item/{item_id}/?fo=json",
-            "image_url": None,
+            "manifest_url": json_url,
+            "image_url": image_url,
         }
 
     return None
@@ -118,10 +177,12 @@ def discover_iiif(item: dict) -> dict | None:
         match = EUROPEANA_ITEM_PATTERN.search(url)
         if match:
             provider, local = match.group(1), match.group(2)
+            manifest_url = f"https://iiif.europeana.eu/presentation/{provider}/{local}/manifest"
+            image_url = _resolve_europeana_manifest_image(manifest_url)
             return {
                 "iiif_source": "europeana",
-                "manifest_url": f"https://iiif.europeana.eu/presentation/{provider}/{local}/manifest",
-                "image_url": None,
+                "manifest_url": manifest_url,
+                "image_url": image_url,
             }
 
     if "loc.gov" in url:
@@ -164,4 +225,5 @@ def fetch_iiif_image(item: dict, dest_path: Path) -> dict:
     result["manifest_url"] = discovered.get("manifest_url")
     result["iiif_source"] = discovered.get("iiif_source")
     result["source_url"] = image_url
+    result["source_domain"] = urlparse(image_url).netloc
     return result

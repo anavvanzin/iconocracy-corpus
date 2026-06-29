@@ -2,25 +2,27 @@
 id: SCOUT-304
 tipo: corpus-candidato
 status: ativo
-titulo: "The Republic (Daniel Chester French) — World's Columbian Exposition, Chicago"
+titulo: The Republic (Daniel Chester French) — World's Columbian Exposition, Chicago
 pais: US
-data_estimada: "1893"
+data_estimada: '1893'
 suporte: monumento
-motivo_alegorico: "Columbia / A República"
+motivo_alegorico: Columbia / A República
 regime: FUNDACIONAL
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/US
-  - suporte/monumento
-  - regime/fundacional
-  - motivo/columbia
+- corpus/candidato
+- pais/US
+- suporte/monumento
+- regime/fundacional
+- motivo/columbia
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[Nachleben]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[Nachleben]]'
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## The Republic (Daniel Chester French) — Chicago, 1893
 

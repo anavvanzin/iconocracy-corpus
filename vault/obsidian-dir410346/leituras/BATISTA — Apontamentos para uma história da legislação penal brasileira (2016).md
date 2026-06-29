@@ -5,7 +5,7 @@ título: "Apontamentos para uma história da legislação penal brasileira"
 ano: 2016
 tipo: livro
 aula: "[[Aula 03 — Justiça hegemônica baixo-medieval e ancien régime]]"
-páginas_lidas: "11-27"
+páginas_lidas: "11-30"
 status: lido
 created: 2026-04-12
 ---
@@ -88,6 +88,7 @@ As páginas iniciais anunciam o horizonte do livro: não se trata de propor uma 
 - → [[HESPANHA — Da iustitia à disciplina (1987)]] (as pragmáticas régias e Ordenações como corpus comum)
 - → [[SBRICCOLI — Justiça criminal (2011)]] (o modelo hegemônico opera, no Brasil colonial, em sociedade escravista)
 - → [[MECCARELLI — Criminal law before a State Monopoly (2018)]] (pluralismo jurídico colonial e *arbitrium* dos magistrados régios)
+- → [[Aula 04 — Iluminismo penal e reformismo]] (p. 27-30: o Código de 1830 como recepção seletiva do iluminismo penal; a linguagem beccariana que encobre a continuidade colonial)
 - → [[Aula 05 — Codificação penal e autonomia científica]] (o Código Criminal de 1830 e a ruptura relativa com as Ordenações)
 - → [[Tabela — Processos inquisitoriais da Bahia e Brasil colonial]]
 - → Diego Nunes, trabalhos sobre a codificação penal imperial brasileira

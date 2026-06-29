@@ -7,18 +7,19 @@ Uses mcporter to systematically search Gallica for female allegorical figures.
 import json
 import subprocess
 import sys
-from pathlib import Path
 import time
+from pathlib import Path
+
 
 class GallicaDiscovery:
     def __init__(self):
         self.gallica_server_path = Path(__file__).parent.parent.parent / "indexing" / "gallica-mcp-server"
         self.output_dir = Path(__file__).parent.parent.parent / "data" / "raw"
-        
+
         # ICONOCRACY search terms optimized for French archives
         self.search_strategies = [
             {
-                "name": "republican_allegories", 
+                "name": "republican_allegories",
                 "terms": ["République française", "allégorie République", "Marianne"],
                 "supports": ["image"]
             },
@@ -28,7 +29,7 @@ class GallicaDiscovery:
                 "supports": ["image"]
             },
             {
-                "name": "liberty_figures", 
+                "name": "liberty_figures",
                 "terms": ["Liberté", "allégorie liberté", "figure liberté"],
                 "supports": ["image"]
             },
@@ -52,8 +53,8 @@ class GallicaDiscovery:
     def search_gallica(self, query, document_type="image", limit=20, date_from=None, date_to=None):
         """Execute Gallica search via mcporter"""
         cmd = [
-            "npx", "mcporter", "call", 
-            "--stdio", "node dist/index.js", 
+            "npx", "mcporter", "call",
+            "--stdio", "node dist/index.js",
             "gallica_search",
             "--args", json.dumps({
                 "query": query,
@@ -65,9 +66,9 @@ class GallicaDiscovery:
             }),
             "--output", "json"
         ]
-        
+
         try:
-            result = subprocess.run(cmd, cwd=self.gallica_server_path, 
+            result = subprocess.run(cmd, cwd=self.gallica_server_path,
                                   capture_output=True, text=True, timeout=60)
             return json.loads(result.stdout) if result.returncode == 0 else None
         except Exception as e:
@@ -79,7 +80,7 @@ class GallicaDiscovery:
         cmd = [
             "npx", "mcporter", "call",
             "--stdio", "node dist/index.js",
-            "gallica_search_iconography", 
+            "gallica_search_iconography",
             "--args", json.dumps({
                 "subject_terms": subject_terms,
                 "date_from": date_from,
@@ -89,7 +90,7 @@ class GallicaDiscovery:
             }),
             "--output", "json"
         ]
-        
+
         try:
             result = subprocess.run(cmd, cwd=self.gallica_server_path,
                                   capture_output=True, text=True, timeout=60)
@@ -108,39 +109,39 @@ class GallicaDiscovery:
         """
         date_from, date_to = period_focus.split("-")
         all_discoveries = []
-        
+
         print(f"🔍 Starting Gallica discovery for period {period_focus}")
         print(f"📁 Server path: {self.gallica_server_path}")
-        
+
         for strategy in self.search_strategies:
             print(f"\\n=== {strategy['name'].upper()} ===")
-            
+
             for term in strategy["terms"]:
                 print(f"  Searching: {term}")
-                
+
                 # Try regular search first
                 results = self.search_gallica(
                     query=term,
-                    document_type="image", 
+                    document_type="image",
                     limit=limit_per_search,
                     date_from=date_from,
                     date_to=date_to
                 )
-                
+
                 if results and results.get("total", 0) > 0:
                     print(f"    📊 Found {results['total']} total, showing {results['count']}")
-                    
+
                     # Filter for potential iconocracy candidates
                     for record in results.get("records", []):
                         candidate = self.assess_iconocracy_candidate(record, term, strategy['name'])
                         if candidate:
                             all_discoveries.append(candidate)
                 else:
-                    print(f"    ❌ No results")
-                
+                    print("    ❌ No results")
+
                 # Rate limiting
                 time.sleep(1)
-        
+
         return all_discoveries
 
     def assess_iconocracy_candidate(self, record, search_term, strategy):
@@ -152,34 +153,34 @@ class GallicaDiscovery:
         - Accepted country (here: France)
         - Accepted support
         """
-        
+
         # Basic metadata extraction
         title = record.get("title", "").lower()
         subjects = [s.lower() for s in record.get("subject", [])]
         date = record.get("date", "")
         creator = record.get("creator", [])
-        
-        # Quick heuristic filtering 
+
+        # Quick heuristic filtering
         allegorical_indicators = [
-            "république", "marianne", "liberté", "justice", "justitia", 
+            "république", "marianne", "liberté", "justice", "justitia",
             "allégorie", "personnification", "figure"
         ]
-        
+
         juridical_indicators = [
-            "justice", "tribunal", "palais", "république", "état", 
+            "justice", "tribunal", "palais", "république", "état",
             "droit", "loi", "constitution"
         ]
-        
+
         # Check for allegorical + juridical elements
-        has_allegory = any(ind in title or any(ind in s for s in subjects) 
+        has_allegory = any(ind in title or any(ind in s for s in subjects)
                           for ind in allegorical_indicators)
         has_juridical = any(ind in title or any(ind in s for s in subjects)
                            for ind in juridical_indicators)
-        
+
         if has_allegory and has_juridical:
             return {
                 "ark": record.get("ark"),
-                "url": record.get("url"), 
+                "url": record.get("url"),
                 "title": record.get("title"),
                 "date": date,
                 "creator": creator,
@@ -191,16 +192,16 @@ class GallicaDiscovery:
                 "format": record.get("format", ""),
                 "iconocracy_score": self.score_candidate(record)
             }
-        
+
         return None
 
     def score_candidate(self, record):
         """Basic scoring for prioritization (0-1 scale)"""
         score = 0.0
-        
+
         title = record.get("title", "").lower()
         subjects = [s.lower() for s in record.get("subject", [])]
-        
+
         # Bonus for key terms
         if any(term in title for term in ["marianne", "république", "justice"]):
             score += 0.3
@@ -217,16 +218,16 @@ class GallicaDiscovery:
                     score += 0.1
             except:
                 pass
-        
+
         return min(score, 1.0)
 
     def save_discoveries(self, discoveries, filename="gallica_discoveries.json"):
         """Save discoveries to raw data directory"""
         output_file = self.output_dir / filename
-        
+
         # Sort by iconocracy score
         discoveries.sort(key=lambda x: x.get("iconocracy_score", 0), reverse=True)
-        
+
         discovery_report = {
             "discovery_timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
             "total_candidates": len(discoveries),
@@ -234,10 +235,10 @@ class GallicaDiscovery:
             "medium_priority": len([d for d in discoveries if 0.4 <= d.get("iconocracy_score", 0) <= 0.7]),
             "discoveries": discoveries
         }
-        
+
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(discovery_report, f, indent=2, ensure_ascii=False)
-        
+
         print(f"\\n📄 Saved {len(discoveries)} discoveries to {output_file}")
         return output_file
 
@@ -247,20 +248,20 @@ def main():
         period = sys.argv[1]
     else:
         period = "1880-1920"  # Default priority period for iconocracy
-    
+
     discovery = GallicaDiscovery()
     candidates = discovery.discover_candidates(period_focus=period)
-    
+
     if candidates:
         report_file = discovery.save_discoveries(candidates)
-        
-        print(f"\\n🎯 DISCOVERY SUMMARY")
+
+        print("\\n🎯 DISCOVERY SUMMARY")
         print(f"   Total candidates: {len(candidates)}")
         print(f"   High priority: {len([c for c in candidates if c.get('iconocracy_score', 0) > 0.7])}")
         print(f"   Report saved: {report_file}")
-        
+
         # Show top 3 candidates
-        print(f"\\n🏆 TOP CANDIDATES:")
+        print("\\n🏆 TOP CANDIDATES:")
         for i, candidate in enumerate(candidates[:3], 1):
             print(f"   {i}. {candidate['title']} (score: {candidate.get('iconocracy_score', 0):.2f})")
             print(f"      ARK: {candidate['ark']}")

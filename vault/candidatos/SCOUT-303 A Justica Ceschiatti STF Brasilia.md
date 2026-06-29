@@ -2,26 +2,28 @@
 id: SCOUT-303
 tipo: corpus-candidato
 status: ativo
-titulo: "A Justiça (Alfredo Ceschiatti) — STF, Praça dos Três Poderes, Brasília"
+titulo: A Justiça (Alfredo Ceschiatti) — STF, Praça dos Três Poderes, Brasília
 pais: BR
-data_estimada: "1961"
+data_estimada: '1961'
 suporte: monumento
-motivo_alegorico: "Têmis / A Justiça"
+motivo_alegorico: Têmis / A Justiça
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/monumento
-  - regime/normativo
-  - motivo/justitia
-  - "#acoplamento-imagem-norma"
+- corpus/candidato
+- pais/BR
+- suporte/monumento
+- regime/normativo
+- motivo/justitia
+- '#acoplamento-imagem-norma'
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-03-30
+seculo: 20th
 ---
+
 
 ## A Justiça (Alfredo Ceschiatti) — STF, Brasília
 

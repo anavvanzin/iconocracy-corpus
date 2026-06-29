@@ -2,31 +2,33 @@
 id: SCOUT-409
 tipo: corpus-candidato
 status: candidato
-titulo: "Eliseu Visconti — A Mulher Brasileira (projeto para selo dos Correios, 1904)"
-acervo: "Projeto Eliseu Visconti / Wikimedia Commons"
-url: "https://commons.wikimedia.org/wiki/File:EliseuVisconti-A814-A_Mulher_Brasileira_%E2%80%93_Projeto_para_selo_integrante_da_cole%C3%A7%C3%A3o_vencedora_do_Concurso_dos_Correios_de_1904.jpg"
+titulo: Eliseu Visconti — A Mulher Brasileira (projeto para selo dos Correios, 1904)
+acervo: Projeto Eliseu Visconti / Wikimedia Commons
+url: https://commons.wikimedia.org/wiki/File:EliseuVisconti-A814-A_Mulher_Brasileira_%E2%80%93_Projeto_para_selo_integrante_da_cole%C3%A7%C3%A3o_vencedora_do_Concurso_dos_Correios_de_1904.jpg
 url_iiif: null
-data_estimada: "1903"
+data_estimada: '1903'
 pais: BR
 suporte: estampa/selo postal
-motivo_alegorico: "A Mulher Brasileira — personificação nacional"
+motivo_alegorico: A Mulher Brasileira — personificação nacional
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/selo
-  - regime/normativo
-  - motivo/republica
-  - "#contrato-racial-visual"
+- corpus/candidato
+- pais/BR
+- suporte/selo
+- regime/normativo
+- motivo/republica
+- '#contrato-racial-visual'
 related:
-  - "[[Feminilidade de Estado]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[SCOUT-408 Visconti Lei Aurea selo 1904]]"
-  - "[[BR-010 Eliseu Visconti Alegoria]]"
+- '[[Feminilidade de Estado]]'
+- '[[Contrato Sexual Visual]]'
+- '[[SCOUT-408 Visconti Lei Aurea selo 1904]]'
+- '[[BR-010 Eliseu Visconti Alegoria]]'
 hf_synced: false
 data_scout: 2026-04-04
+seculo: 20th
 ---
+
 
 ## Identificação
 

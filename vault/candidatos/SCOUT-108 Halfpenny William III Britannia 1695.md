@@ -2,20 +2,33 @@
 id: SCOUT-108
 tipo: corpus-candidato
 status: ativo
-titulo: "½ Penny — William III (1st issue) / Britannia seated (earliest coin)"
-acervo: "Numista / Royal Mint"
-url: "https://en.numista.com/catalogue/pieces90365.html"
-data_estimada: "1695-1698"
-pais: [UK]
+titulo: ½ Penny — William III (1st issue) / Britannia seated (earliest coin)
+acervo: Numista / Royal Mint
+url: https://en.numista.com/catalogue/pieces90365.html
+data_estimada: 1695-1698
+pais:
+- UK
 suporte: moeda
-motivo_alegorico: "Britannia (seated, earliest coin appearance)"
+motivo_alegorico: Britannia (seated, earliest coin appearance)
 regime: FUNDACIONAL
 confianca: alto
-tags: [corpus/candidato, pais/UK, suporte/moeda, regime/fundacional, motivo/britannia, "#sem-iiif"]
-related: ["[[Regime Fundacional]]", "[[SCOUT-NC-02]]", "[[SCOUT-105]]", "[[Nachleben]]"]
+tags:
+- corpus/candidato
+- pais/UK
+- suporte/moeda
+- regime/fundacional
+- motivo/britannia
+- '#sem-iiif'
+related:
+- '[[Regime Fundacional]]'
+- '[[SCOUT-NC-02]]'
+- '[[SCOUT-105]]'
+- '[[Nachleben]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 17th
 ---
+
 
 ## Identificacao
 **Titulo:** ½ Penny — William III (1st issue, 1695-1698)

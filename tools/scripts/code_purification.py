@@ -17,7 +17,6 @@ Usage:
 
 import argparse
 import json
-import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -147,8 +146,8 @@ def display_item(item):
     print("\n" + "=" * 70)
     print(f"  ID:       {item['id']}")
     print(f"  Title:    {item['title']}")
-    print(f"  Date:     {item['date']}  |  Country: {item['country']}")
-    print(f"  Medium:   {item['medium']}")
+    print(f"  Date:     {item.get('date','N/A')}  |  Country: {item['country']}")
+    print(f"  Medium:   {item.get('medium','N/A')}")
     print(f"  Period:   {item.get('period', 'N/A')}")
     print(f"  Creator:  {item.get('creator', 'N/A')}")
     print(f"  Motifs:   {item.get('motif_str', ', '.join(item.get('motif', [])))}")
@@ -177,7 +176,7 @@ def prompt_indicator(name, label, scale):
 
 def prompt_regime():
     """Prompt for regime iconocrático."""
-    print(f"\n  [regime_iconocratico] Regime iconocrático")
+    print("\n  [regime_iconocratico] Regime iconocrático")
     for i, r in enumerate(REGIMES):
         print(f"    {i + 1}: {r}")
     while True:
@@ -244,7 +243,7 @@ def show_status(corpus, coded):
     pct = (done / total * 100) if total else 0
 
     print(f"\n{'=' * 50}")
-    print(f"  Purification Coding Progress")
+    print("  Purification Coding Progress")
     print(f"{'=' * 50}")
     print(f"  Total items:   {total}")
     print(f"  Coded:         {done} ({pct:.0f}%)")
@@ -253,14 +252,14 @@ def show_status(corpus, coded):
 
     if coded:
         composites = [r["purificacao_composto"] for r in coded.values()]
-        print(f"\n  Composite stats (coded items):")
+        print("\n  Composite stats (coded items):")
         print(f"    Min:  {min(composites):.2f}")
         print(f"    Max:  {max(composites):.2f}")
         print(f"    Mean: {sum(composites) / len(composites):.2f}")
 
         # Build lookups from corpus (has country, support)
-        corpus_country = {item["id"]: item.get("country", "?") for item in corpus}
-        corpus_support = {item["id"]: item.get("support", "?") for item in corpus}
+        corpus_country = {item["id"]: item.get("country", "?") for item in corpus if item.get("id")}
+        corpus_support = {item["id"]: item.get("support", "?") for item in corpus if item.get("id")}
 
         # By country — join with corpus via id (purification.jsonl has no country field)
         by_country = {}
@@ -268,7 +267,7 @@ def show_status(corpus, coded):
             cid = r["id"]
             c = corpus_country.get(cid, "?")
             by_country.setdefault(c, []).append(r["purificacao_composto"])
-        print(f"\n  By country:")
+        print("\n  By country:")
         for c in sorted(by_country):
             vals = by_country[c]
             print(f"    {c:35s}  {len(vals):3d} coded  (mean={sum(vals)/len(vals):.2f})")
@@ -279,12 +278,12 @@ def show_status(corpus, coded):
             cid = r["id"]
             s = corpus_support.get(cid, "?")
             by_support.setdefault(s, []).append(r["purificacao_composto"])
-        print(f"\n  By support:")
+        print("\n  By support:")
         for s in sorted(by_support, key=lambda x: -len(by_support[x])):
             vals = by_support[s]
             marker = " 🔴 GAP" if s == "?" or len([v for v in vals if v > 0]) == 0 else ""
             print(f"    {s:35s}  {len(vals):3d} coded  (mean={sum(vals)/len(vals):.2f}){marker}")
-        if "?" in by_support or all(len(v) == 0 for v in by_support.values()):
+        if "arquitetura forense" not in by_support or len(by_support["arquitetura forense"]) == 0:
             print("    ⚠️  ARQUITETURA FORENSE = 0 itens — lacuna crítica")
 
         # By regime
@@ -293,7 +292,7 @@ def show_status(corpus, coded):
             reg = r.get("regime_iconocratico", "?")
             by_regime.setdefault(reg, 0)
             by_regime[reg] += 1
-        print(f"\n  By regime:")
+        print("\n  By regime:")
         for reg in sorted(by_regime):
             print(f"    {reg:15s}  {by_regime[reg]:3d}")
 

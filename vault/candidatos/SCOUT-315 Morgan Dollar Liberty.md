@@ -2,24 +2,26 @@
 id: SCOUT-315
 tipo: corpus-candidato
 status: ativo
-titulo: "Morgan Dollar — Liberty com barrete frígio (George T. Morgan / Anna W. Williams)"
+titulo: Morgan Dollar — Liberty com barrete frígio (George T. Morgan / Anna W. Williams)
 pais: US
-data_estimada: "1878–1921"
+data_estimada: 1878–1921
 suporte: moeda
-motivo_alegorico: "Liberty (cabeça com barrete frígio)"
+motivo_alegorico: Liberty (cabeça com barrete frígio)
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/US
-  - suporte/moeda
-  - regime/normativo
-  - motivo/columbia
+- corpus/candidato
+- pais/US
+- suporte/moeda
+- regime/normativo
+- motivo/columbia
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Morgan Dollar — Liberty (1878–1921)
 

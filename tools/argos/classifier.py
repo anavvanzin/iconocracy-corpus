@@ -1,12 +1,12 @@
 from dataclasses import dataclass
 from urllib.parse import urlparse
 
-
 PROTOCOL_MAP = {
     "gallica.bnf.fr": "iiif",
     "loc.gov": "iiif",
     "www.loc.gov": "iiif",
     "rijksmuseum.nl": "iiif",
+    "www.rijksmuseum.nl": "iiif",
     "www.europeana.eu": "iiif",
     "europeana.eu": "iiif",
     "commons.wikimedia.org": "direct",

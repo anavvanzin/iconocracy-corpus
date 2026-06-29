@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DueProcess.AI — Contestação de Decisões Automatizadas</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #f3f5f9;
+  color: #1a1a2e;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Header */
+.header {
+  background: #fff;
+  border-bottom: 1px solid #e2e6ed;
+  padding: 16px 32px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.header-brand {
+  display: flex; align-items: center; gap: 12px;
+}
+.header-brand .logo {
+  width: 34px; height: 34px;
+  background: #2563eb;
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 16px; font-weight: 700;
+}
+.header-brand h1 {
+  font-size: 18px; font-weight: 600;
+  color: #111827;
+}
+.header-badge {
+  font-size: 11px; padding: 4px 10px;
+  background: #fef3c7; color: #92400e;
+  border-radius: 20px; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 0.5px;
+}
+
+/* Layout */
+.container {
+  max-width: 1200px; margin: 0 auto; padding: 24px 32px;
+}
+
+/* Case Selector */
+.case-selector {
+  display: flex; gap: 12px; margin-bottom: 28px;
+}
+.case-btn {
+  flex: 1;
+  background: #fff;
+  border: 2px solid #e2e6ed;
+  border-radius: 10px;
+  padding: 16px 20px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+.case-btn:hover { border-color: #93c5fd; background: #f8fafc; }
+.case-btn.active { border-color: #2563eb; background: #eff6ff; }
+.case-btn h3 {
+  font-size: 14px; font-weight: 600;
+  color: #111827; margin-bottom: 4px;
+}
+.case-btn p {
+  font-size: 12px; color: #6b7280; line-height: 1.4;
+}
+.case-tag {
+  display: inline-block;
+  font-size: 10px; padding: 2px 8px;
+  background: #e0e7ff; color: #4338ca;
+  border-radius: 4px; margin-top: 6px;
+  font-weight: 500;
+}
+
+/* Dashboard Grid */
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+/* Panel */
+.panel {
+  background: #fff;
+  border: 1px solid #e2e6ed;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.panel-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid #f1f3f7;
+  display: flex; align-items: center; gap: 10px;
+}
+.panel-icon {
+  width: 32px; height: 32px; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px;
+}
+.panel-icon.blue { background: #dbeafe; color: #2563eb; }
+.panel-icon.green { background: #d1fae5; color: #059669; }
+.panel-icon.amber { background: #fef3c7; color: #d97706; }
+.panel-icon.purple { background: #ede9fe; color: #7c3aed; }
+.panel-icon.red { background: #fee2e2; color: #dc2626; }
+.panel-title {
+  font-size: 14px; font-weight: 600;
+  color: #111827;
+}
+.panel-subtitle {
+  font-size: 11px; color: #9ca3af;
+  text-transform: uppercase; letter-spacing: 0.5px;
+}
+.panel-body {
+  padding: 20px;
+  font-size: 13px; line-height: 1.7;
+  color: #4b5563;
+}
+.panel-body strong { color: #111827; font-weight: 600; }
+.panel-body .highlight { background: #fef9c3; padding: 1px 4px; border-radius: 2px; }
+
+/* Data table */
+.data-table {
+  width: 100%; border-collapse: collapse;
+  font-size: 12px;
+}
+.data-table th {
+  text-align: left; padding: 8px 0;
+  color: #9ca3af; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 0.5px;
+  font-size: 10px;
+  border-bottom: 1px solid #f1f3f7;
+}
+.data-table td {
+  padding: 8px 0;
+  border-bottom: 1px solid #f9fafb;
+}
+.status-badge {
+  display: inline-block; padding: 2px 8px;
+  border-radius: 4px; font-size: 11px; font-weight: 500;
+}
+.status-badge.ok { background: #d1fae5; color: #065f46; }
+.status-badge.warn { background: #fef3c7; color: #92400e; }
+.status-badge.bad { background: #fee2e2; color: #991b1b; }
+
+/* Bias bars */
+.bias-bar-row { margin-bottom: 12px; }
+.bias-bar-label {
+  display: flex; justify-content: space-between;
+  font-size: 12px; margin-bottom: 4px;
+}
+.bias-bar-label span:first-child { color: #4b5563; }
+.bias-bar-label span:last-child { color: #9ca3af; font-weight: 500; }
+.bias-bar-track {
+  height: 8px; background: #f1f3f7;
+  border-radius: 4px; overflow: hidden;
+}
+.bias-bar-fill {
+  height: 100%; border-radius: 4px; transition: width 0.5s ease;
+}
+.bias-bar-fill.high { background: #ef4444; }
+.bias-bar-fill.med { background: #f59e0b; }
+.bias-bar-fill.low { background: #10b981; }
+
+/* Actions */
+.actions-row {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 16px; margin-bottom: 24px;
+}
+.action-card {
+  background: #fff;
+  border: 1px solid #e2e6ed;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.action-card:hover {
+  border-color: #93c5fd;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transform: translateY(-2px);
+}
+.action-card .action-icon {
+  font-size: 28px; margin-bottom: 10px;
+}
+.action-card h4 {
+  font-size: 14px; font-weight: 600;
+  color: #111827; margin-bottom: 6px;
+}
+.action-card p {
+  font-size: 12px; color: #9ca3af;
+  line-height: 1.5;
+}
+
+/* Timeline */
+.timeline {
+  display: flex; align-items: center;
+  gap: 0; margin-bottom: 28px;
+}
+.timeline-step {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+.timeline-dot {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 10px;
+  font-size: 14px; font-weight: 600;
+  transition: all 0.3s;
+}
+.timeline-dot.done { background: #2563eb; color: #fff; }
+.timeline-dot.current { background: #dbeafe; color: #2563eb; border: 2px solid #2563eb; }
+.timeline-dot.pending { background: #f1f3f7; color: #9ca3af; }
+.timeline-label {
+  font-size: 12px; color: #6b7280;
+  font-weight: 500;
+}
+.timeline-label.active { color: #2563eb; font-weight: 600; }
+.timeline-line {
+  flex: 0.2;
+  height: 2px; background: #e2e6ed;
+}
+.timeline-line.done { background: #2563eb; }
+
+/* Generated doc */
+.doc-preview {
+  background: #fff;
+  border: 2px solid #2563eb;
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.doc-preview h3 {
+  font-size: 14px; color: #2563eb;
+  margin-bottom: 16px;
+  text-transform: uppercase; letter-spacing: 1px;
+}
+.doc-content {
+  font-family: 'Courier New', monospace;
+  font-size: 13px; line-height: 1.8;
+  color: #374151;
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 20px;
+  border-left: 3px solid #2563eb;
+}
+.doc-content .field { color: #2563eb; font-weight: 600; }
+.doc-content .value { color: #374151; }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .dashboard { grid-template-columns: 1fr; }
+  .actions-row { grid-template-columns: 1fr; }
+  .container { padding: 16px; }
+  .case-selector { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-brand">
+    <div class="logo">DA</div>
+    <h1>DueProcess.AI</h1>
+  </div>
+  <span class="header-badge">Protótipo Conceitual</span>
+</div>
+
+<div class="container">
+
+  <!-- Case Selector -->
+  <div class="case-selector" id="caseSelector"></div>
+
+  <!-- Timeline -->
+  <div class="timeline" id="timeline"></div>
+
+  <!-- Dashboard -->
+  <div class="dashboard" id="dashboard"></div>
+
+  <!-- Actions -->
+  <div class="actions-row" id="actions"></div>
+
+  <!-- Generated Document -->
+  <div class="doc-preview" id="docPreview" style="display:none;"></div>
+
+</div>
+
+<script>
+const cases = [
+  {
+    id: 1,
+    title: "Bolsa Família Cancelado",
+    desc: "Cancelamento automático por inconsistência de dados. Sem explicação.",
+    tag: "Cadastro Único",
+    contexto: "Família de baixa renda teve o benefício cancelado automaticamente após cruzamento entre Receita Federal, CNIS e Cadastro Único. A notificação dizia apenas: INCONSISTÊNCIA DE DADOS.",
+    dados: [
+      { campo: "CPF", fonte: "Receita Federal", status: "ok", statusLabel: "Verificado" },
+      { campo: "Renda declarada", fonte: "CNIS / RAIS", status: "warn", statusLabel: "Divergente" },
+      { campo: "Composição familiar", fonte: "Cadastro Único", status: "ok", statusLabel: "Verificado" },
+      { campo: "Endereço", fonte: "Cadastro Único", status: "ok", statusLabel: "Verificado" },
+      { campo: "Vínculo empregatício", fonte: "CNIS (inferido)", status: "bad", statusLabel: "Fantasma" }
+    ],
+    vieses: [
+      { label: "Renda informal", valor: 78, nivel: "high" },
+      { label: "Zona rural", valor: 62, nivel: "high" },
+      { label: "CPF irregular", valor: 81, nivel: "high" },
+      { label: "Mulher responsável", valor: 45, nivel: "med" }
+    ],
+    parecer: {
+      defensoria: "Violação do contraditório (art. 5º, LV, CF). Cancelamento sem chance de defesa prévia.",
+      dados: "Cruzamento automatizado gerou erro em cascata. Registro fantasma no CNIS propagado para CadÚnico.",
+      admin: "Falta supervisão humana obrigatória. Lei 14.129/2021 exige explicabilidade — não cumprida.",
+      cidadao: "Família sem internet. Como contesta? Exclusão digital é barreira primária, não secundária."
+    },
+    minuta: {
+      orgao: "Ministério do Desenvolvimento Social",
+      protocolo: "LAI-2026-001",
+      fundamento: "Art. 20, LGPD; Art. 5º, LV, CF; Lei 14.129/2021",
+      pedido: "1. Explicitação do critério algorítmico que motivou o cancelamento. 2. Revisão humana da decisão. 3. Restabelecimento imediato do benefício até conclusão da análise."
+    }
+  },
+  {
+    id: 2,
+    title: "IPTU Triplicado",
+    desc: "Reclassificação automatizada de imóvel sem vistoria. Aumento de 300%.",
+    tag: "Municipal",
+    contexto: "Proprietário residencial teve IPTU triplicado após algoritmo da prefeitura reclassificar o imóvel de residencial para misto, usando dados de matrícula escolar e registro MEI no mesmo endereço.",
+    dados: [
+      { campo: "Inscrição imobiliária", fonte: "Cadastro Municipal", status: "ok", statusLabel: "Verificado" },
+      { campo: "Uso declarado", fonte: "IPTU anterior", status: "ok", statusLabel: "Residencial" },
+      { campo: "Matrícula escolar", fonte: "MEC / Censo", status: "warn", statusLabel: "Correlação" },
+      { campo: "CNPJ/MEI", fonte: "Receita Federal", status: "warn", statusLabel: "Correlação" },
+      { campo: "Vistoria presencial", fonte: "Nenhuma", status: "bad", statusLabel: "Inexistente" }
+    ],
+    vieses: [
+      { label: "Bairro periférico", valor: 73, nivel: "high" },
+      { label: "Moradia mista", valor: 85, nivel: "high" },
+      { label: "Renda média-baixa", valor: 67, nivel: "high" },
+      { label: "Imóvel antigo", valor: 52, nivel: "med" }
+    ],
+    parecer: {
+      defensoria: "Ofensa à legalidade tributária (art. 150, CF). Algoritmo não pode criar tributo sem lei.",
+      dados: "Correlação não é causalidade. MEI no endereço não prova uso comercial do imóvel.",
+      admin: "LC 101/2000 exige comunicação prévia de aumento de receita. Não houve.",
+      cidadao: "Prefeitura publicou só no site. Quem não acessa internet não soube até receber o carnê."
+    },
+    minuta: {
+      orgao: "Secretaria Municipal da Fazenda",
+      protocolo: "IMPUG-2026-002",
+      fundamento: "Art. 150, CF; Art. 20, LGPD; LC 101/2000",
+      pedido: "1. Anulação do lançamento suplementar. 2. Vistoria técnica presencial gratuita. 3. Publicação do algoritmo de reclassificação com pesos e threshold."
+    }
+  },
+  {
+    id: 3,
+    title: "Auxílio Emergencial Negado",
+    desc: "Negativa automática por vínculo empregatício inexistente. Erro no CNIS.",
+    tag: "Benefício",
+    contexto: "Trabalhador autônomo teve Auxílio Emergencial negado por suposto vínculo empregatício ativo. O cidadão nunca teve carteira assinada. O erro veio de registro fantasma no CNIS.",
+    dados: [
+      { campo: "CPF", fonte: "Receita Federal", status: "ok", statusLabel: "Verificado" },
+      { campo: "PIS/Pasep", fonte: "CEF / MT", status: "ok", statusLabel: "Verificado" },
+      { campo: "Vínculo empregatício", fonte: "CNIS (cruzamento)", status: "bad", statusLabel: "Fantasma" },
+      { campo: "Renda autônomo", fonte: "Não considerada", status: "bad", statusLabel: "Ignorada" },
+      { campo: "Homonímia", fonte: "Fuzzy match", status: "bad", statusLabel: "Falso positivo" }
+    ],
+    vieses: [
+      { label: "Trabalhador informal", valor: 88, nivel: "high" },
+      { label: "Nome comum (homônimo)", valor: 76, nivel: "high" },
+      { label: "Periferia urbana", valor: 69, nivel: "high" },
+      { label: "Baixa escolaridade", valor: 58, nivel: "med" }
+    ],
+    parecer: {
+      defensoria: "Ofensa ao mínimo existencial (art. 6º, CF). Negativa automática = fome imediata.",
+      dados: "CNIS tem 2,3 milhões de registros fantasmas (TCU). Usar como ground truth é erro metodológico.",
+      admin: "Portaria 147/2020 não previu revisão humana para negativas. Violação do art. 20, LGPD.",
+      cidadao: "Dataprev só aceita contestação online. Exclusão digital barra o acesso ao próprio direito."
+    },
+    minuta: {
+      orgao: "Ministério da Cidadania / Dataprev",
+      protocolo: "CONT-2026-003",
+      fundamento: "Art. 6º, CF; Art. 20, LGPD; Art. 46, LGPD; Lei 13.982/2020",
+      pedido: "1. Correção imediata do registro no CNIS. 2. Reanálise do pedido com match exato (CPF + data nasc + nome mãe). 3. Pagamento retroativo do benefício."
+    }
+  }
+];
+
+let active = 1;
+let step = 1;
+
+function render() {
+  renderCases();
+  renderTimeline();
+  renderDashboard();
+  renderActions();
+  renderDoc();
+}
+
+function renderCases() {
+  document.getElementById('caseSelector').innerHTML = cases.map(c => `
+    <button class="case-btn ${c.id === active ? 'active' : ''}" onclick="selectCase(${c.id})">
+      <h3>${c.title}</h3>
+      <p>${c.desc}</p>
+      <span class="case-tag">${c.tag}</span>
+    </button>
+  `).join('');
+}
+
+function renderTimeline() {
+  document.getElementById('timeline').innerHTML = `
+    <div class="timeline-step">
+      <div class="timeline-dot ${step >= 1 ? 'done' : 'pending'}">1</div>
+      <div class="timeline-label ${step === 1 ? 'active' : ''}">Identificar</div>
+    </div>
+    <div class="timeline-line ${step >= 2 ? 'done' : ''}"></div>
+    <div class="timeline-step">
+      <div class="timeline-dot ${step >= 2 ? 'done' : step === 2 ? 'current' : 'pending'}">2</div>
+      <div class="timeline-label ${step === 2 ? 'active' : ''}">Analisar</div>
+    </div>
+    <div class="timeline-line ${step >= 3 ? 'done' : ''}"></div>
+    <div class="timeline-step">
+      <div class="timeline-dot ${step >= 3 ? 'done' : step === 3 ? 'current' : 'pending'}">3</div>
+      <div class="timeline-label ${step === 3 ? 'active' : ''}">Contestar</div>
+    </div>
+  `;
+}
+
+function renderDashboard() {
+  const c = cases.find(x => x.id === active);
+  if (!c) return;
+
+  document.getElementById('dashboard').innerHTML = `
+    <div class="panel">
+      <div class="panel-header">
+        <div class="panel-icon blue">&#128203;</div>
+        <div>
+          <div class="panel-title">Dados Utilizados na Decisão</div>
+          <div class="panel-subtitle">Fontes e confiabilidade</div>
+        </div>
+      </div>
+      <div class="panel-body">
+        <table class="data-table">
+          <tr><th>Campo</th><th>Fonte</th><th>Status</th></tr>
+          ${c.dados.map(d => `
+            <tr>
+              <td><strong>${d.campo}</strong></td>
+              <td>${d.fonte}</td>
+              <td><span class="status-badge ${d.status}">${d.statusLabel}</span></td>
+            </tr>
+          `).join('')}
+        </table>
+        <p style="margin-top:14px; font-size:12px; color:#9ca3af;">
+          <strong style="color:#2563eb;">Legenda:</strong> 
+          <span class="status-badge ok">Verificado</span> = dado confirmado. 
+          <span class="status-badge warn">Correlação</span> = inferido, não comprovado. 
+          <span class="status-badge bad">Erro</span> = inconsistente ou inexistente.
+        </p>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <div class="panel-icon amber">&#9888;</div>
+        <div>
+          <div class="panel-title">Risco de Viés Demográfico</div>
+          <div class="panel-subtitle">Grupos desproporcionalmente afetados</div>
+        </div>
+      </div>
+      <div class="panel-body">
+        ${c.vieses.map(v => `
+          <div class="bias-bar-row">
+            <div class="bias-bar-label">
+              <span>${v.label}</span>
+              <span>${v.valor}%</span>
+            </div>
+            <div class="bias-bar-track">
+              <div class="bias-bar-fill ${v.nivel}" style="width:${v.valor}%"></div>
+            </div>
+          </div>
+        `).join('')}
+        <p style="margin-top:12px; font-size:11px; color:#9ca3af;">
+          Percentual estimado de casos onde este grupo é afetado por erro em decisões automatizadas similares.
+          Fonte: amostra de 500 contestações na DPU (2024-2025).
+        </p>
+      </div>
+    </div>
+  `;
+}
+
+function renderActions() {
+  const c = cases.find(x => x.id === active);
+  if (!c) return;
+
+  document.getElementById('actions').innerHTML = `
+    <div class="action-card" onclick="alert('Pedido LAI gerado no Fala.BR para: '+cases.find(x=>x.id===active).minuta.orgao)">
+      <div class="action-icon">&#128231;</div>
+      <h4>Enviar Pedido LAI</h4>
+      <p>Solicitar critérios do algoritmo e documentação técnica ao órgão responsável</p>
+    </div>
+    <div class="action-card" onclick="showDoc()">
+      <div class="action-icon">&#128221;</div>
+      <h4>Gerar Minuta de Recurso</h4>
+      <p>Documento pronto com fundamentação jurídica para impugnação administrativa</p>
+    </div>
+    <div class="action-card" onclick="alert('Dados do caso encaminhados para: Defensoria Pública da União (DPU)')">
+      <div class="action-icon">&#9878;</div>
+      <h4>Encaminhar à DPU</h4>
+      <p>Se o recurso for indeferido, acionar Defensoria Pública para mandado de segurança</p>
+    </div>
+  `;
+}
+
+function showDoc() {
+  const c = cases.find(x => x.id === active);
+  if (!c) return;
+
+  const div = document.getElementById('docPreview');
+  div.style.display = 'block';
+  div.innerHTML = `
+    <h3>Minuta de Recurso Administrativo</h3>
+    <div class="doc-content">
+      <p><span class="field">AO:</span> <span class="value">${c.minuta.orgao}</span></p>
+      <p><span class="field">PROTOCOLO:</span> <span class="value">${c.minuta.protocolo}</span></p>
+      <p><span class="field">CASO:</span> <span class="value">${c.contexto}</span></p>
+      <br>
+      <p><span class="field">FUNDAMENTAÇÃO:</span> <span class="value">${c.minuta.fundamento}</span></p>
+      <br>
+      <p><span class="field">ANÁLISE JURÍDICA — Defensoria Pública:</span></p>
+      <p><span class="value">${c.parecer.defensoria}</span></p>
+      <br>
+      <p><span class="field">ANÁLISE TÉCNICA — Cientista de Dados:</span></p>
+      <p><span class="value">${c.parecer.dados}</span></p>
+      <br>
+      <p><span class="field">ANÁLISE ADMINISTRATIVA — Governança:</span></p>
+      <p><span class="value">${c.parecer.admin}</span></p>
+      <br>
+      <p><span class="field">IMPACTO NO CIDADÃO:</span></p>
+      <p><span class="value">${c.parecer.cidadao}</span></p>
+      <br>
+      <p><span class="field">PEDIDOS:</span></p>
+      <p><span class="value">${c.parecer.cidadao}</span></p>
+      <br>
+      <p><span class="field">PEDIDOS:</span></p>
+      <p><span class="value">${c.minuta.pedido}</span></p>
+    </div>
+    <button onclick="document.getElementById('docPreview').style.display='none'" 
+      style="margin-top:16px; padding:10px 20px; background:#2563eb; color:#fff; border:none; border-radius:8px; cursor:pointer; font-size:13px; font-weight:500;">
+      Fechar minuta
+    </button>
+  `;
+
+  step = 3;
+  renderTimeline();
+}
+
+function renderDoc() {
+  document.getElementById('docPreview').style.display = 'none';
+}
+
+function selectCase(id) {
+  active = id;
+  step = 1;
+  render();
+}
+
+render();
+</script>
+</body>
+</html>

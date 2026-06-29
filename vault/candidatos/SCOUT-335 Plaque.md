@@ -2,28 +2,30 @@
 id: SCOUT-335
 tipo: corpus-candidato
 status: candidato
-titulo: "Plaque"
-acervo: "Victoria and Albert Museum"
-url: "https://collections.vam.ac.uk/item/O1242380"
-data_estimada: "1798"
+titulo: Plaque
+acervo: Victoria and Albert Museum
+url: https://collections.vam.ac.uk/item/O1242380
+data_estimada: '1798'
 pais: UK
 suporte: indeterminado
-motivo_alegorico: "Britannia"
+motivo_alegorico: Britannia
 regime: INDETERMINADO
 confianca: medio
 tags:
-  - corpus/candidato
-  - pais/UK
-  - motivo/britannia
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/UK
+- motivo/britannia
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.8
 hunt_source: va
 data_scout: 2026-04-03
+seculo: 18th
 ---
+
 
 ## Plaque
 

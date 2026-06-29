@@ -2,24 +2,26 @@
 id: SCOUT-312
 tipo: corpus-candidato
 status: ativo
-titulo: "20 Francs Marianne-Coq — Jules-Clément Chaplain (Ouro, Terceira República)"
+titulo: 20 Francs Marianne-Coq — Jules-Clément Chaplain (Ouro, Terceira República)
 pais: FR
-data_estimada: "1899–1914"
+data_estimada: 1899–1914
 suporte: moeda
-motivo_alegorico: "Marianne / La République"
+motivo_alegorico: Marianne / La République
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/moeda
-  - regime/normativo
-  - motivo/marianne
+- corpus/candidato
+- pais/FR
+- suporte/moeda
+- regime/normativo
+- motivo/marianne
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## 20 Francs Marianne-Coq (Chaplain, 1899–1914)
 

@@ -5,12 +5,13 @@ Gera visualizacao multi-painel com dados do corpus-data.json
 """
 
 import json
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.gridspec as gridspec
-from matplotlib.patches import FancyBboxPatch
 from collections import Counter, defaultdict
 from pathlib import Path
+
+import matplotlib.gridspec as gridspec
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.patches import FancyBboxPatch
 
 # ── Paleta academica ────────────────────────────────────────────
 COLORS = {
@@ -142,7 +143,7 @@ def main():
     )
     ax_header.text(
         0.5, 0.28,
-        f"Corpus de Alegorias Femininas na Historia da Cultura Juridica",
+        "Corpus de Alegorias Femininas na Historia da Cultura Juridica",
         fontsize=16, color="#555555",
         ha="center", va="center", fontfamily="serif",
     )
@@ -314,7 +315,7 @@ def main():
     fig.savefig(out_dir / "infografico_corpus.pdf", bbox_inches="tight",
                 facecolor=BG_COLOR, pad_inches=0.5)
     plt.close(fig)
-    print(f"Infografico salvo em:")
+    print("Infografico salvo em:")
     print(f"  PNG: {out_dir / 'infografico_corpus.png'}")
     print(f"  PDF: {out_dir / 'infografico_corpus.pdf'}")
 

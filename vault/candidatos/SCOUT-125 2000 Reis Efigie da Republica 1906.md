@@ -2,40 +2,42 @@
 id: SCOUT-125
 tipo: corpus-candidato
 status: candidato
-titulo: "2000 Réis — Efígie da República com Barrete Frígio (Brasil, 1906–1913)"
-acervo: "Numista / Casa da Moeda do Brasil"
-url: "https://en.numista.com/catalogue/pieces14489.html"
+titulo: 2000 Réis — Efígie da República com Barrete Frígio (Brasil, 1906–1913)
+acervo: Numista / Casa da Moeda do Brasil
+url: https://en.numista.com/catalogue/pieces14489.html
 url_iiif: null
 url_imagem: null
-data_estimada: "1906-1913"
+data_estimada: 1906-1913
 pais: BR
 suporte: moeda
-motivo_alegorico: "A República"
+motivo_alegorico: A República
 regime: NORMATIVO
 Endurecimento: MÉDIO
 confianca: medio
-designer_anverso: "Augusto Girardet (atrib.)"
+designer_anverso: Augusto Girardet (atrib.)
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/moeda
-  - regime/normativo
-  - motivo/republica
-  - endurecimento/medio
-  - "#acoplamento-imagem-norma"
-  - "#serialidade"
-  - "#verificar-imagem"
+- corpus/candidato
+- pais/BR
+- suporte/moeda
+- regime/normativo
+- motivo/republica
+- endurecimento/medio
+- '#acoplamento-imagem-norma'
+- '#serialidade'
+- '#verificar-imagem'
 related:
-  - "[[SCOUT-316 500 Reis Republica Brasil 1889]]"
-  - "[[SCOUT-103 50 Cruzeiros Efigie da Republica 1965]]"
-  - "[[SCOUT-109 1 Cruzeiro banknote Efigie Republica 1970]]"
-  - "[[Regime Normativo]]"
-  - "[[A República brasileira — Nachleben]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[Positivismo Jurídico Brasileiro]]"
+- '[[SCOUT-316 500 Reis Republica Brasil 1889]]'
+- '[[SCOUT-103 50 Cruzeiros Efigie da Republica 1965]]'
+- '[[SCOUT-109 1 Cruzeiro banknote Efigie Republica 1970]]'
+- '[[Regime Normativo]]'
+- '[[A República brasileira — Nachleben]]'
+- '[[Feminilidade de Estado]]'
+- '[[Positivismo Jurídico Brasileiro]]'
 data_scout: 2026-03-31
 sessao: SCOUT-SESSION-2026-03-31c
+seculo: 20th
 ---
+
 
 ## Identificação
 

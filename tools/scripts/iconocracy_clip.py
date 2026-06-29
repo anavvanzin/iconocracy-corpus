@@ -10,9 +10,8 @@ from __future__ import annotations
 import argparse
 import json
 import subprocess
-import sys
 from pathlib import Path
-from typing import Iterable, Sequence
+from typing import Sequence
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SKILL_ROOT = Path.home() / ".hermes" / "skills" / "research" / "iconocracy-agent"

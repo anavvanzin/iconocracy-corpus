@@ -2,28 +2,31 @@
 id: SCOUT-362
 tipo: corpus-candidato
 status: candidato
-titulo: "Report of the United States Commission to the Columbian Historical Exposition at Madrid, 1892-1893, with special papers"
-acervo: "Library of Congress"
-url: "https://www.loc.gov/item/2024771974/"
-data_estimada: "1895"
+titulo: Report of the United States Commission to the Columbian Historical Exposition
+  at Madrid, 1892-1893, with special papers
+acervo: Library of Congress
+url: https://www.loc.gov/item/2024771974/
+data_estimada: '1895'
 pais: BR
 suporte: indeterminado
-motivo_alegorico: "Columbia"
+motivo_alegorico: Columbia
 regime: INDETERMINADO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/BR
-  - motivo/columbia
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/BR
+- motivo/columbia
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.7
 hunt_source: loc
 data_scout: 2026-04-03
+seculo: 19th
 ---
+
 
 ## Report of the United States Commission to the Columbian Historical Exposition at Madrid, 1892-1893, with special papers
 

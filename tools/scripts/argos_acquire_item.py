@@ -17,10 +17,10 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from tools.argos.manifest import locked_update_manifest
-from tools.argos.provenance import build_provenance
 from tools.argos.protocols.direct import fetch_direct
 from tools.argos.protocols.iiif import discover_iiif, fetch_iiif_image
 from tools.argos.protocols.playwright_fallback import fetch_with_playwright
+from tools.argos.provenance import build_provenance
 from tools.argos.storage import resolve_storage_root
 
 
@@ -85,7 +85,7 @@ def infer_next_step(protocol: str, last_attempt: dict[str, Any] | None) -> str:
 
     if blocked and protocol in {"direct", "unknown", "blocked"}:
         return "iiif-discovery"
-    if blocked and protocol in {"iiif", "playwright-required"}:
+    if blocked and protocol == "iiif":
         return "playwright-fallback"
     return "stop"
 
@@ -274,6 +274,10 @@ def _attempt_iiif_fallback(item: dict[str, Any], dest_path: Path) -> dict[str, A
     result["manifest_url"] = discovered.get("manifest_url")
     result["iiif_source"] = discovered.get("iiif_source")
     result["source_url"] = image_url
+    try:
+        result["source_domain"] = urlparse(image_url).netloc
+    except Exception:
+        pass
     result.setdefault("notes", [])
     return result
 
@@ -307,12 +311,15 @@ def acquire_item(
     attempts.append({"step": current_protocol, **result})
 
     next_step = infer_next_step(current_protocol, result)
+    original_was_blocked = next_step == "iiif-discovery"
     if next_step == "iiif-discovery":
         iiif_result = _attempt_iiif_fallback(item, dest_path)
         attempts.append({"step": "iiif", **iiif_result})
         result = iiif_result
         current_protocol = "iiif"
-        next_step = "playwright-fallback" if not result.get("success") else infer_next_step(current_protocol, result)
+        next_step = infer_next_step(current_protocol, result)
+        if next_step == "stop" and original_was_blocked and not result.get("success"):
+            next_step = "playwright-fallback"
 
     if next_step == "playwright-fallback" and _should_try_playwright(item, allow_restricted=playwright_allowed):
         playwright_result = fetch_with_playwright(
@@ -323,6 +330,13 @@ def acquire_item(
         attempts.append({"step": "playwright", **playwright_result})
         result = playwright_result
         current_protocol = "playwright-required"
+    elif next_step == "playwright-fallback":
+        result = {
+            "success": False,
+            "manual_required": True,
+            "failure_class": "manual_required",
+            "error": "Blocked source requires manual browser retrieval (Playwright not allowed)",
+        }
 
     if result.get("success"):
         asset_path = Path(result.get("dest_path") or dest_path)
@@ -338,7 +352,6 @@ def acquire_item(
             storage_tier=storage_tier,
             attempts=attempts,
         )
-        _write_json(sidecar_path, sidecar_payload)
         patch = _manifest_patch(
             item=item,
             status="success",
@@ -350,12 +363,16 @@ def acquire_item(
             acquisition_result=result,
         )
         try:
+            _write_json(sidecar_path, sidecar_payload)
             locked_update_manifest(manifest_path, item_id, patch)
         except Exception:
             _cleanup_artifacts(sidecar_path, asset_path)
             raise
         duration = max(0, int(time.time() - started_at))
-        log_run(agent="argos", status="success", items=1, duration=duration, details=f"Acquired {item_id}")
+        try:
+            log_run(agent="argos", status="success", items=1, duration=duration, details=f"Acquired {item_id}")
+        except Exception:
+            pass
         return {
             "status": "success",
             "item_id": item_id,
@@ -380,7 +397,10 @@ def acquire_item(
     locked_update_manifest(manifest_path, item_id, patch)
     duration = max(0, int(time.time() - started_at))
     log_status = "warning" if result.get("manual_required") else "error"
-    log_run(agent="argos", status=log_status, items=1, duration=duration, details=f"{item_id}: {failure_reason}")
+    try:
+        log_run(agent="argos", status=log_status, items=1, duration=duration, details=f"{item_id}: {failure_reason}")
+    except Exception:
+        pass
     return {
         "status": patch["status"],
         "item_id": item_id,

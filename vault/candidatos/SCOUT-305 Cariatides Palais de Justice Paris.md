@@ -2,26 +2,29 @@
 id: SCOUT-305
 tipo: corpus-candidato
 status: ativo
-titulo: "Cariátides alegóricas (Prudence, Justice, Innocence, Force) — Palais de Justice, Paris"
+titulo: Cariátides alegóricas (Prudence, Justice, Innocence, Force) — Palais de Justice,
+  Paris
 pais: FR
-data_estimada: "1868"
+data_estimada: '1868'
 suporte: monumento
-motivo_alegorico: "Justitia / Prudence / Innocence / Force"
+motivo_alegorico: Justitia / Prudence / Innocence / Force
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/monumento
-  - regime/normativo
-  - motivo/justitia
-  - motivo/republica
+- corpus/candidato
+- pais/FR
+- suporte/monumento
+- regime/normativo
+- motivo/justitia
+- motivo/republica
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[Contrato Sexual Visual]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[Contrato Sexual Visual]]'
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## Cariátides alegóricas — Palais de Justice, Paris (Lequesne / Duc)
 

@@ -1,31 +1,36 @@
 ---
 id: SCOUT-114
-titulo: "Science Presenting Steam and Electricity to Commerce and Manufacture — $2 Silver Certificate"
+titulo: Science Presenting Steam and Electricity to Commerce and Manufacture — $2
+  Silver Certificate
 tipo: corpus-candidato
-data: "1896"
-pais: [US]
+data: '1896'
+pais:
+- US
 suporte: papel-moeda
 regime: normativo
-acervo: "Smithsonian National Museum of American History"
-url: "https://americanhistory.si.edu/collections/object/nmah_1817050"
+acervo: Smithsonian National Museum of American History
+url: https://americanhistory.si.edu/collections/object/nmah_1817050
 iiif: null
 confianca: alta
 tags:
-  - corpus/candidato
-  - pais/US
-  - suporte/papel-moeda
-  - regime/normativo
-  - motivo/columbia
-  - "#iconometria"
-  - "#acoplamento-imagem-norma"
+- corpus/candidato
+- pais/US
+- suporte/papel-moeda
+- regime/normativo
+- motivo/columbia
+- '#iconometria'
+- '#acoplamento-imagem-norma'
 hf_synced: false
 related:
-  - "[[Contrato Sexual Visual]]"
-  - "[[endurecimento]]"
-  - "[[Iconocracia]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[SCOUT-115 5 Dollar Educational Series Electricity 1896]]"
+- '[[Contrato Sexual Visual]]'
+- '[[endurecimento]]'
+- '[[Iconocracia]]'
+- '[[Feminilidade de Estado]]'
+- '[[SCOUT-115 5 Dollar Educational Series Electricity 1896]]'
+motivo_alegorico: Columbia / Science / Progress
+seculo: 19th
 ---
+
 
 # SCOUT-114 — $2 Educational Series: Science Presenting Steam and Electricity to Commerce and Manufacture
 

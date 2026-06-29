@@ -2,25 +2,27 @@
 id: SCOUT-310
 tipo: corpus-candidato
 status: ativo
-titulo: "Seahorse High Values — Britannia em biga marinha (Bertram Mackennal)"
+titulo: Seahorse High Values — Britannia em biga marinha (Bertram Mackennal)
 pais: UK
-data_estimada: "1913–1934"
+data_estimada: 1913–1934
 suporte: selo postal
-motivo_alegorico: "Britannia (em biga naval imperial)"
+motivo_alegorico: Britannia (em biga naval imperial)
 regime: MILITAR
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/UK
-  - suporte/selo
-  - regime/militar
-  - motivo/britannia
+- corpus/candidato
+- pais/UK
+- suporte/selo
+- regime/militar
+- motivo/britannia
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[SCOUT-093]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[SCOUT-093]]'
 data_scout: 2026-03-30
+seculo: 20th
 ---
+
 
 ## Seahorse High Values — Britannia em biga marinha (1913–1934)
 

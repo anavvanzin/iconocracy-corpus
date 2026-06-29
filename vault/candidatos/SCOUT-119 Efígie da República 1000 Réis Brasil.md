@@ -2,31 +2,33 @@
 id: SCOUT-119
 tipo: corpus-candidato
 status: ativo
-titulo: "1000 Réis — Efígie da República (Brasil, 1906–1912)"
-acervo: "Casa da Moeda do Brasil / Numista"
-url: "https://en.numista.com/catalogue/pieces14484.html"
+titulo: 1000 Réis — Efígie da República (Brasil, 1906–1912)
+acervo: Casa da Moeda do Brasil / Numista
+url: https://en.numista.com/catalogue/pieces14484.html
 url_iiif: null
-data_estimada: "1906-1912"
+data_estimada: 1906-1912
 pais: BR
 suporte: moeda
-motivo_alegorico: "A República"
+motivo_alegorico: A República
 regime: NORMATIVO
 Endurecimento: MEDIO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/moeda
-  - regime/normativo
-  - motivo/republica
-  - #acoplamento-imagem-norma
+- corpus/candidato
+- pais/BR
+- suporte/moeda
+- regime/normativo
+- motivo/republica
+- null
 related:
-  - "[[Regime Normativo]]"
-  - "[[A República brasileira — Nachleben]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[Contrato Sexual Visual]]"
+- '[[Regime Normativo]]'
+- '[[A República brasileira — Nachleben]]'
+- '[[Feminilidade de Estado]]'
+- '[[Contrato Sexual Visual]]'
 data_scout: 2026-03-31
+seculo: 20th
 ---
+
 
 ## Identificação
 

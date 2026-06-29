@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Extract SCOUT candidates and Zwischenraume from vault notes into JSON for Cloudflare deploy."""
-import json, re, sys
+import json
+import re
 from pathlib import Path
 
 vault_dirs = [

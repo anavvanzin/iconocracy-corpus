@@ -2,30 +2,32 @@
 id: SCOUT-421
 tipo: corpus-candidato
 status: candidato
-titulo: "500 Réis — Efígie da República (prata, 1912)"
-acervo: "Numista"
-url: "https://en.numista.com/catalogue/pieces14481.html"
+titulo: 500 Réis — Efígie da República (prata, 1912)
+acervo: Numista
+url: https://en.numista.com/catalogue/pieces14481.html
 url_iiif: null
-data_estimada: "1912"
+data_estimada: '1912'
 pais: BR
 suporte: moeda
-motivo_alegorico: "A República"
+motivo_alegorico: A República
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/moeda
-  - regime/normativo
-  - motivo/republica
+- corpus/candidato
+- pais/BR
+- suporte/moeda
+- regime/normativo
+- motivo/republica
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[SCOUT-316 500 Reis Republica Brasil 1889]]"
-  - "[[BR-2000R-1907]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[SCOUT-316 500 Reis Republica Brasil 1889]]'
+- '[[BR-2000R-1907]]'
 hf_synced: false
 data_scout: 2026-04-10
+seculo: 20th
 ---
+
 
 ## Identificação
 

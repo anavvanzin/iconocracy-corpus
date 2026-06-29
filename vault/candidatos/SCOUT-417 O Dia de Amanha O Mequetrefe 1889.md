@@ -2,30 +2,32 @@
 id: SCOUT-417
 tipo: corpus-candidato
 status: candidato
-titulo: "O Dia de Amanhã (Alegoria da República)"
-acervo: "Biblioteca Nacional / Hemeroteca Digital"
-url: "https://hemerotecadigital.bn.br/acervo-digital/o-mequetrefe/702390"
+titulo: O Dia de Amanhã (Alegoria da República)
+acervo: Biblioteca Nacional / Hemeroteca Digital
+url: https://hemerotecadigital.bn.br/acervo-digital/o-mequetrefe/702390
 url_iiif: null
-data_estimada: "1889"
+data_estimada: '1889'
 pais: BR
 suporte: estampa
-motivo_alegorico: "A República"
+motivo_alegorico: A República
 regime: FUNDACIONAL
 Endurecimento: BAIXO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/estampa
-  - regime/fundacional
-  - motivo/republica
-  - #proclamacao
+- corpus/candidato
+- pais/BR
+- suporte/estampa
+- regime/fundacional
+- motivo/republica
+- null
 related:
-  - "[[Regime Fundacional]]"
-  - "[[Alegoria como Profecia]]"
-  - "[[Marianne Brasileira]]"
+- '[[Regime Fundacional]]'
+- '[[Alegoria como Profecia]]'
+- '[[Marianne Brasileira]]'
 data_scout: 2026-04-05
+seculo: 19th
 ---
+
 
 ## Identificação
 

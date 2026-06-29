@@ -2,29 +2,32 @@
 id: SCOUT-356
 tipo: corpus-candidato
 status: candidato
-titulo: "[Allégorie en l'honneur de Louis XIII (1601-1643)] : [estampe] ([Seul état connu]) / Greg. Huret jnuen. et fe."
-acervo: "Bibliothèque nationale de France"
-url: "https://gallica.bnf.fr/ark:/12148/btv1b8402182w"
-data_estimada: "1640-1643"
+titulo: '[Allégorie en l''honneur de Louis XIII (1601-1643)] : [estampe] ([Seul état
+  connu]) / Greg. Huret jnuen. et fe.'
+acervo: Bibliothèque nationale de France
+url: https://gallica.bnf.fr/ark:/12148/btv1b8402182w
+data_estimada: 1640-1643
 pais: FR
 suporte: selo
-motivo_alegorico: "Alegoria feminina"
+motivo_alegorico: Alegoria feminina
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/selo
-  - regime/normativo
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- suporte/selo
+- regime/normativo
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.7
 hunt_source: gallica
 data_scout: 2026-04-03
+seculo: 17th
 ---
+
 
 ## [Allégorie en l'honneur de Louis XIII (1601-1643)] : [estampe] ([Seul état connu]) / Greg. Huret jnuen. et fe.
 

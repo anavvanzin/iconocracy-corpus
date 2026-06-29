@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import fcntl
 import json
 import os
 import tempfile
@@ -8,11 +9,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
 
-import fcntl
-
 from tools.argos.classifier import classify_source
 from tools.scripts.validate_schemas import validate_record
-
 
 MANIFEST_VERSION = "1.0"
 

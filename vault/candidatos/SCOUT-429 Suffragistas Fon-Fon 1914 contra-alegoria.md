@@ -14,10 +14,10 @@ tags:
   - pais/BR
   - suporte/estampa
   - regime/normativo
-  - #contra-alegoria
-  - #acoplamento-imagem-norma
+  - "#contra-alegoria"
+  - "#acoplamento-imagem-norma"
 related:
-  - "[[endurecimento]]"
+  - "[[ENDURECIMENTO]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[contra-alegoria]]"

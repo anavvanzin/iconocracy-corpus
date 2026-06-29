@@ -490,6 +490,30 @@ function MapaView({corpus}){
   </div>;
 }
 
+
+// ─── SITES TAB COMPONENT ───
+function SitesTab(){
+  const sites=[
+    {id:"trajetoria",label:"Trajetória",desc:"Linha do tempo da pesquisa e 22 artefatos produzidos",url:"https://iconocracia-trajetoria.anavanzin.workers.dev",icon:"◎"},
+    {id:"atlas",label:"Atlas",desc:"Mapa geocodificado com 116 entries do corpus",url:"https://iconocracia-atlas.anavanzin.workers.dev",icon:"◫"},
+    {id:"warburg",label:"Warburg Canvas",desc:"Canvas drag-and-drop com 8 painéis Mnemosyne",url:"https://iconocracia-warburg.anavanzin.workers.dev",icon:"⚡"},
+  ];
+  return <div>
+    <h2 style={{fontSize:20,fontWeight:700,margin:"0 0 4px"}}>Sites do Projeto</h2>
+    <p style={{fontSize:13,color:"var(--sepia)",margin:"0 0 20px",fontStyle:"italic"}}>Interfaces públicas geradas a partir do pacote de sessão (22 jun. 2026)</p>
+    <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(260px,1fr))",gap:12}}>
+      {sites.map(s=><a key={s.id} href={s.url} target="_blank" rel="noopener" style={{background:"var(--cream)",border:"1px solid var(--lightSepia)",borderRadius:8,padding:16,textDecoration:"none",color:"var(--ink)",display:"flex",flexDirection:"column",gap:8,transition:"all .2s"}} onMouseEnter={e=>{e.currentTarget.style.borderColor="var(--bordeaux)";e.currentTarget.style.boxShadow="0 4px 12px rgba(22,33,62,.08)"}} onMouseLeave={e=>{e.currentTarget.style.borderColor="var(--lightSepia)";e.currentTarget.style.boxShadow="none"}}>
+        <div style={{display:"flex",alignItems:"center",gap:10}}>
+          <span style={{fontSize:22}}>{s.icon}</span>
+          <div style={{fontSize:16,fontWeight:700,color:"var(--bordeaux)"}}>{s.label}</div>
+        </div>
+        <div style={{fontSize:13,color:"var(--sepia)",fontStyle:"italic",lineHeight:1.5}}>{s.desc}</div>
+        <div className="mono" style={{fontSize:10,color:"var(--warmGray)",letterSpacing:1,marginTop:"auto",wordBreak:"break-all"}}>{s.url}</div>
+      </a>)}
+    </div>
+  </div>;
+}
+
 // ─── MAIN APP ───
 const TABS=[
   {id:"overview",label:"Visao Geral",icon:"◎"},
@@ -500,6 +524,7 @@ const TABS=[
   {id:"agentes",label:"Agentes",icon:"🤖"},
   {id:"atlas",label:"Mini-Atlas",icon:"◫"},
   {id:"mapa",label:"Mapa",icon:"🗺️"},
+  {id:"sites",label:"Sites",icon:"🌐"},
   {id:"diary",label:"Diario",icon:"✎"},
   {id:"chapters",label:"Capitulos",icon:"▤"},
   {id:"prompts",label:"Prompts",icon:"⌘"},
@@ -877,6 +902,9 @@ function App(){
       </div>}
 
     </div>
+
+      {/* SITES */}
+      {tab==="sites"&&<SitesTab/>}
 
     {/* CORPUS DETAIL MODAL */}
     {selectedItem&&<CorpusModal item={selectedItem} onClose={()=>setSelectedItem(null)}/>}

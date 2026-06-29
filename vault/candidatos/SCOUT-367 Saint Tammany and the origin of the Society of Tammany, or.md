@@ -2,28 +2,31 @@
 id: SCOUT-367
 tipo: corpus-candidato
 status: candidato
-titulo: "Saint Tammany and the origin of the Society of Tammany, or Columbian order in the city of New York,"
-acervo: "Library of Congress"
-url: "https://www.loc.gov/item/13016362/"
-data_estimada: "1913"
+titulo: Saint Tammany and the origin of the Society of Tammany, or Columbian order
+  in the city of New York,
+acervo: Library of Congress
+url: https://www.loc.gov/item/13016362/
+data_estimada: '1913'
 pais: US
 suporte: indeterminado
-motivo_alegorico: "Columbia"
+motivo_alegorico: Columbia
 regime: INDETERMINADO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/US
-  - motivo/columbia
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/US
+- motivo/columbia
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.7
 hunt_source: loc
 data_scout: 2026-04-04
+seculo: 20th
 ---
+
 
 ## Saint Tammany and the origin of the Society of Tammany, or Columbian order in the city of New York,
 

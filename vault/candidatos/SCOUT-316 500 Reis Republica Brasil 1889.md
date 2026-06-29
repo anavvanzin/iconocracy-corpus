@@ -2,26 +2,28 @@
 id: SCOUT-316
 tipo: corpus-candidato
 status: ativo
-titulo: "500 Réis República — primeira cunhagem republicana brasileira"
+titulo: 500 Réis República — primeira cunhagem republicana brasileira
 pais: BR
-data_estimada: "1889"
+data_estimada: '1889'
 suporte: moeda
-motivo_alegorico: "A República / Liberdade"
+motivo_alegorico: A República / Liberdade
 regime: FUNDACIONAL
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/moeda
-  - regime/fundacional
-  - motivo/republica
-  - "#possivel-duplicata"
+- corpus/candidato
+- pais/BR
+- suporte/moeda
+- regime/fundacional
+- motivo/republica
+- '#possivel-duplicata'
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[SCOUT-201]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[SCOUT-201]]'
 data_scout: 2026-03-30
+seculo: 19th
 ---
+
 
 ## 500 Réis República — Cabeça da Liberdade (1889)
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.12
+#!/usr/bin/env python3
 """
 iconocode_gemma4.py — Automated IconoCode analyzer (Gemma-4 E4B-it) for the
 ICONOCRACIA corpus.

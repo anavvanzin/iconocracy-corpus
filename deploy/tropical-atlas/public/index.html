@@ -583,6 +583,10 @@
       #cards-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
     }
   </style>
+  <script type="module">
+    import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@1/dist/index.mjs';
+    inject();
+  </script>
 </head>
 <body>
 
@@ -1228,7 +1232,7 @@ async function processFile(file) {
   const fd = new FormData();
   fd.append("file", file);
   try {
-    const data = await fetch("/api/import/preview", { method: "POST", body: fd }).then(r => r.json());
+    const data = await adminFetch("/api/import/preview", { method: "POST", body: fd }).then(r => r.json());
     pendingMapped = data.mapped || [];
     showPreview(data.preview || data.mapped || [], data.total);
     if (data.errors?.length) {
@@ -1267,7 +1271,7 @@ async function commitImport() {
   fd.append("file", pendingFile);
   fd.append("mode", mode);
   try {
-    const data = await fetch("/api/import/commit", { method: "POST", body: fd }).then(r => r.json());
+    const data = await adminFetch("/api/import/commit", { method: "POST", body: fd }).then(r => r.json());
     showLog(`✓ ${data.imported} entradas importadas · ${data.skipped} ignoradas`, "ok");
     if (data.errors?.length) data.errors.forEach(e => showLog(e, "err"));
     await loadFilters();
@@ -1284,7 +1288,7 @@ function downloadTemplate() { window.location = "/api/template"; }
 function exportCorpus() { window.location = "/api/export"; }
 async function confirmClear() {
   if (!confirm("Apagar TODAS as entradas do corpus? Ação irreversível.")) return;
-  await apiFetch("/api/entries/clear", { method: "DELETE" });
+  await adminFetch("/api/entries/clear", { method: "DELETE" });
   showLog("Corpus limpo.", "ok");
   loadEntries();
   loadAdminStats();
@@ -1302,6 +1306,26 @@ async function apiFetch(url, opts = {}) {
   const r = await fetch(url, opts);
   if (!r.ok) throw new Error(`HTTP ${r.status}`);
   return r.json();
+}
+
+/* Admin token is entered by the operator at runtime and kept only in memory —
+   never stored in the page source or localStorage. Sent as a bearer header on
+   mutating routes (import, delete), which the worker requires. */
+let adminToken = null;
+function adminHeaders() {
+  if (!adminToken) {
+    adminToken = (window.prompt("Token de administração:") || "").trim();
+  }
+  return adminToken ? { "Authorization": `Bearer ${adminToken}` } : {};
+}
+async function adminFetch(url, opts = {}) {
+  const headers = { ...(opts.headers || {}), ...adminHeaders() };
+  const r = await fetch(url, { ...opts, headers });
+  if (r.status === 401 || r.status === 403) {
+    adminToken = null; // wrong token — force re-prompt next time
+    throw new Error("Token de administração inválido");
+  }
+  return r;
 }
 
 function escHtml(s) {

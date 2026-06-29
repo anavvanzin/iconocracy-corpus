@@ -2,30 +2,32 @@
 id: SCOUT-418
 tipo: corpus-candidato
 status: candidato
-titulo: "100 Réis — Liberty (Série MCMI)"
-acervo: "Numista"
-url: "https://en.numista.com/catalogue/pieces4333.html"
+titulo: 100 Réis — Liberty (Série MCMI)
+acervo: Numista
+url: https://en.numista.com/catalogue/pieces4333.html
 url_iiif: null
-data_estimada: "1901"
+data_estimada: '1901'
 pais: BR
 suporte: moeda
-motivo_alegorico: "Liberty / A República"
+motivo_alegorico: Liberty / A República
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - suporte/moeda
-  - regime/normativo
-  - motivo/republica
+- corpus/candidato
+- pais/BR
+- suporte/moeda
+- regime/normativo
+- motivo/republica
 related:
-  - "[[endurecimento]]"
-  - "[[Contrato Sexual Visual]]"
-  - "[[SCOUT-413 20000 Reis Ouro Efigie Republica]]"
-  - "[[BR-2000R-1907]]"
+- '[[endurecimento]]'
+- '[[Contrato Sexual Visual]]'
+- '[[SCOUT-413 20000 Reis Ouro Efigie Republica]]'
+- '[[BR-2000R-1907]]'
 hf_synced: false
 data_scout: 2026-04-10
+seculo: 20th
 ---
+
 
 ## Identificação
 

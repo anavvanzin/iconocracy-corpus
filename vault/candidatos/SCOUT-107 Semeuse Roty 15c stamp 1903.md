@@ -2,20 +2,33 @@
 id: SCOUT-107
 tipo: corpus-candidato
 status: candidato
-titulo: "La Semeuse (15 centimes, type Roty) — selo definitivo francês"
-acervo: "Colnect / La Poste"
-url: "https://colnect.com/en/stamps/list/country/74-France/year/1903"
-data_estimada: "1903-1960"
-pais: [FR]
+titulo: La Semeuse (15 centimes, type Roty) — selo definitivo francês
+acervo: Colnect / La Poste
+url: https://colnect.com/en/stamps/list/country/74-France/year/1903
+data_estimada: 1903-1960
+pais:
+- FR
 suporte: selo
-motivo_alegorico: "La Semeuse (Marianne semeadora)"
+motivo_alegorico: La Semeuse (Marianne semeadora)
 regime: NORMATIVO
 confianca: alto
-tags: [corpus/candidato, pais/FR, suporte/selo, regime/normativo, motivo/marianne, "#sem-iiif"]
-related: ["[[Regime Normativo]]", "[[endurecimento]]", "[[Serialidade]]", "[[SCOUT-104]]"]
+tags:
+- corpus/candidato
+- pais/FR
+- suporte/selo
+- regime/normativo
+- motivo/marianne
+- '#sem-iiif'
+related:
+- '[[Regime Normativo]]'
+- '[[endurecimento]]'
+- '[[Serialidade]]'
+- '[[SCOUT-104]]'
 hf_synced: false
 data_scout: 2026-03-30
+seculo: 20th
 ---
+
 
 ## Identificacao
 **Titulo:** La Semeuse (15c vert-gris, type Roty) — selo definitivo

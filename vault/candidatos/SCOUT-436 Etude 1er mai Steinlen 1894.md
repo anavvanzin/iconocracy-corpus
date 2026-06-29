@@ -15,10 +15,10 @@ tags:
   - suporte/estampa
   - regime/fundacional
   - motivo/marianne
-  - #contra-alegoria
-  - #pathosformel
+  - "#contra-alegoria"
+  - "#pathosformel"
 related:
-  - "[[endurecimento]]"
+  - "[[ENDURECIMENTO]]"
   - "[[Contrato Sexual Visual]]"
   - "[[Feminilidade de Estado]]"
   - "[[contra-alegoria]]"
