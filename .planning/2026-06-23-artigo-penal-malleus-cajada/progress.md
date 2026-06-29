@@ -105,3 +105,14 @@ Dia 25 é puramente redação: Seção 1 (Malleus como evento) e Seção 2 (tecn
 
 ## Meta
 Artigo v1 para 30-jun, ~15-20 pp, PDF+DOCX, submissão lusófona.
+
+---
+
+## 2026-06-29 - Revisão final DIR410346 (bloco 2)
+
+- `artigo_v2_redacao_limpa.md` ajustado com patch mínimo de entrega.
+- Nota inicial atualizada: fact-check v2.3 aplicado em 27-jun-2026; pendências pós-entrega remetidas ao `review-notes.md`.
+- Formulações amplas de "Inquisição ibérica" desagregadas para Inquisição portuguesa em quadro/cultura jurídica ibérica.
+- Linguagem sobre tortura calibrada como possibilidade probatória regulada, sem sugerir registro de tortura no processo Cajada.
+- Importação forte de Patterson removida do parágrafo sobre segredo; argumento recentrado em operação jurídico-penal.
+- Marcador interno "ainda em esboço" removido da introdução.
