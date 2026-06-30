@@ -1,0 +1,138 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"$CLAUDE_FILE_PATH\" | grep -qE 'tese/manuscrito/(Capitulo|Introducao|sumario).*_original' && echo '{\"decision\":\"block\",\"reason\":\"Arquivo original do manuscrito protegido. Use vault/tese/ para rascunhos revisados.\"}' || true",
+            "statusMessage": "Verificando protecao do manuscrito..."
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path' | { read -r f; echo \"$f\" | grep -q 'vault/candidatos/' && basename \"$f\" | grep -qvE '^[A-Z]{2}-[0-9]{3} ' && echo '{\"decision\":\"block\",\"reason\":\"Vault note must follow pattern: CC-NNN Description.md (e.g. FR-013 Marianne.md)\"}'; } || true",
+            "statusMessage": "Checking vault naming..."
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"$CLAUDE_FILE_PATH\" | grep -q vault/candidatos/SCOUT- && echo \"Vault note saved: $(basename \"$CLAUDE_FILE_PATH\")\" || true",
+            "statusMessage": "Tracking vault writes..."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"$CLAUDE_FILE_PATH\" | grep -q corpus/corpus-data.json && conda run -n iconocracy python \"$CLAUDE_PROJECT_DIR/tools/scripts/validate_schemas.py\" --quiet 2>&1 | tail -3 || true",
+            "statusMessage": "Validando corpus-data.json..."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"$CLAUDE_FILE_PATH\" | grep -q corpus/corpus-data.json && conda run -n iconocracy python \"$CLAUDE_PROJECT_DIR/tools/scripts/code_purification.py\" --export-csv 2>&1 | tail -1 || true",
+            "timeout": 30,
+            "statusMessage": "Regenerating corpus_dataset.csv..."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -q 'corpus-data.json' && count=$(jq 'length' $CLAUDE_PROJECT_DIR/corpus/corpus-data.json 2>/dev/null) && echo \"{\\\"hookSpecificOutput\\\":{\\\"hookEventName\\\":\\\"PostToolUse\\\",\\\"additionalContext\\\":\\\"Corpus now has $count items.\\\"}}\"; } || true"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -qE 'tese/manuscrito/.*\\.md$' && wc -w < \"$f\" | { read -r w; echo \"{\\\"systemMessage\\\":\\\"Chapter word count: $w words\\\"}\"; }; } || true",
+            "statusMessage": "Counting words..."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -qE '(tools/scripts|notebooks|iconocracy-ingest)/.*\\.py$' && ruff check --quiet \"$f\" 2>&1 | head -10; } || true",
+            "statusMessage": "Ruff lint check..."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath' | { read -r f; echo \"$f\" | grep -qE '\\.sh$' && shellcheck \"$f\" 2>&1 | head -10; } || true",
+            "statusMessage": "Shellcheck..."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"$CLAUDE_FILE_PATH\" | grep -qE 'tese/manuscrito/.*\\.md$' && echo \"Thesis chapter edited: $(basename $CLAUDE_FILE_PATH). Consider running /abnt-checker and /chapter-integrity.\" || true",
+            "statusMessage": "Checking thesis chapter..."
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreCompact\",\"additionalContext\":\"IMPORTANT: Preserve any corpus item IDs (e.g. FR-013, BR-001), Iconclass codes, endurecimento scores, and vault note paths discussed in this session. Also preserve the current state of any ongoing SCOUT campaigns.\"}}'"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/ana/Research/hub/iconocracy-corpus/.codex/hooks/session-start.sh'"
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ ! -d /media/ana/SSD_DATA ]; then echo '{\"systemMessage\":\"SSD externo SSD_DATA nao montado. Symlinks em data/raw/ nao funcionarao.\"}'; else count=$(jq 'length' \"$CLAUDE_PROJECT_DIR/corpus/corpus-data.json\" 2>/dev/null || echo '?'); echo \"{\\\"systemMessage\\\":\\\"SSD montado. Corpus: $count itens.\\\"}\"; fi",
+            "timeout": 5,
+            "statusMessage": "Checking environment..."
+          }
+        ]
+      }
+    ]
+  }
+}
