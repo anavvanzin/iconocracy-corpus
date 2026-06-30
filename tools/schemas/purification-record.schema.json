@@ -77,11 +77,11 @@
       "description": "Country code of origin (e.g., BR, FR, US)"
     },
     "medium_norm": {
-      "type": "string",
+      "type": ["string", "null"],
       "description": "Normalized medium descriptor"
     },
     "period": {
-      "type": "string",
+      "type": ["string", "null"],
       "description": "Historical period classification"
     },
     "title": {
@@ -90,6 +90,9 @@
     },
     "year": {
       "oneOf": [
+        {
+          "type": "null"
+        },
         {
           "type": "integer",
           "minimum": 1000,
