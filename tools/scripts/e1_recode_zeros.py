@@ -7,14 +7,12 @@ usando descrições enriquecidas das notas do vault (SCOUT-XXX) + thumbnails.
 from __future__ import annotations
 
 import json
-import os
 import re
 import sys
 import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
 
 REPO = Path(__file__).resolve().parent.parent.parent
 RECORDS_PATH = REPO / "data" / "processed" / "records.jsonl"
@@ -273,10 +271,9 @@ def main():
             all_items[k] = v
         
         for u in updated:
-            uid = u["item_id"]
-            old_score = all_items.get(uid, {}).get("purificacao_composto", 0)
-            if old_score == 0.0 or True:  # replace all recoded
-                all_items[uid] = u
+            # `updated` only holds re-coded items (all started at score 0.0),
+            # so replacing them unconditionally is the intended behavior.
+            all_items[u["item_id"]] = u
         
         # Write
         with open(PATHOS_INDEX, "w") as f:

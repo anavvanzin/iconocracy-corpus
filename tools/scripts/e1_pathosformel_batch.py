@@ -17,13 +17,11 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import sys
 import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
 
 REPO = Path(__file__).resolve().parent.parent.parent
 RECORDS_PATH = REPO / "data" / "processed" / "records.jsonl"
@@ -270,12 +268,29 @@ def code_item(record: dict, corpus_url_map: dict[str, dict]) -> dict | None:
 
 
 def write_output(results: list[dict], output_path: Path):
-    """Append results to pathosformel_index.jsonl."""
-    mode = "a" if output_path.exists() else "w"
-    with open(output_path, mode) as f:
-        for r in results:
-            f.write(json.dumps(r, ensure_ascii=False) + "\n")
-    print(f"\nWrote {len(results)} items to {output_path}")
+    """Merge results into pathosformel_index.jsonl, deduped by item_id.
+
+    Idempotent: re-running with the same results does not duplicate entries.
+    Existing items are preserved; matching item_ids are overwritten.
+    """
+    merged: dict[str, dict] = {}
+    if output_path.exists():
+        with open(output_path) as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    item = json.loads(line)
+                    merged[item["item_id"]] = item
+                except (json.JSONDecodeError, KeyError):
+                    continue
+    for r in results:
+        merged[r["item_id"]] = r
+    with open(output_path, "w") as f:
+        for item in merged.values():
+            f.write(json.dumps(item, ensure_ascii=False) + "\n")
+    print(f"\nWrote {len(results)} items to {output_path} ({len(merged)} total)")
 
 
 def list_uncoded(records: list[dict], corpus_url_map: dict[str, dict]):

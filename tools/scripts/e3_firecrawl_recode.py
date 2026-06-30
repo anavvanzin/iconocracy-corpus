@@ -10,7 +10,6 @@ Uso:
 from __future__ import annotations
 
 import json
-import os
 import re
 import subprocess
 import sys
@@ -18,7 +17,6 @@ import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
 
 REPO = Path(__file__).resolve().parent.parent.parent
 RECORDS_PATH = REPO / "data" / "processed" / "records.jsonl"
@@ -61,7 +59,7 @@ def load_pathos() -> dict[str, dict]:
             try:
                 item = json.loads(l)
                 items[item["item_id"]] = item
-            except:
+            except (json.JSONDecodeError, KeyError):
                 pass
         return items
 
@@ -82,7 +80,10 @@ def firecrawl_extract(url: str, sigla: str) -> str | None:
             ["npx", "-y", "firecrawl-cli@latest", "scrape", url, "--format", "markdown"],
             capture_output=True, text=True, timeout=30
         )
-        text = (result.stdout or "") + (result.stderr or "")
+        if result.returncode != 0:
+            print(f"    FC exit {result.returncode}: {(result.stderr or '').strip()[:200]}", file=sys.stderr)
+            return None
+        text = result.stdout or ""
         # Clean up
         text = re.sub(r'\s+', ' ', text).strip()
         if len(text) > 50:
