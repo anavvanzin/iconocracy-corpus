@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>DIR410346 · O Malleus Maleficarum — Roteiro de Apresentação</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EFE5CF; --paper-card:#F4ECD8; --ink:#211B16;
+  --rubric:#9B2C1C; --gold:#B08D3C; --muted:#D4C19A;
+  --faded:#7C7065;
+  --serif:'Crimson Pro',Georgia,'Times New Roman',serif;
+  --display:'Cormorant Garamond',Georgia,serif;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+  --grain:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:#15110D;}
+body{
+  font-family:var(--serif); color:var(--ink); line-height:1.45;
+  min-height:100vh; display:flex; justify-content:center;
+  padding:40px 20px;
+  background:
+    radial-gradient(1200px 600px at 50% -10%, #221b14 0%, #15110D 60%);
+}
+.sheet{
+  width:840px; max-width:100%; background:var(--paper);
+  background-image:var(--grain); background-size:200px; background-repeat:repeat;
+  box-shadow:0 40px 90px rgba(0,0,0,.6), 0 8px 24px rgba(0,0,0,.45);
+  padding:50px; position:relative; overflow:hidden;
+  /* Borda rústica de xilogravura (double border medieval) */
+  border: 12px double var(--ink);
+  outline: 1px solid var(--ink);
+  outline-offset: -8px;
+}
+
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.anim{opacity:0;animation:rise .6s cubic-bezier(.2,.7,.2,1) forwards}
+
+.kicker{display:flex;justify-content:space-between;align-items:baseline;
+  font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--faded);padding-bottom:12px;border-bottom:1px solid var(--ink);margin-bottom:24px}
+.kicker .link{color:var(--rubric); font-weight:600; text-decoration:none}
+.kicker .link:hover{text-decoration:underline}
+
+.masthead{text-align:center;margin-bottom:30px}
+.masthead .mark{font-size:38px;display:block;margin-bottom:10px;color:var(--rubric)}
+h1{font-family:var(--display);font-weight:700;font-size:52px;line-height:.95;letter-spacing:-.02em;color:var(--ink);margin-bottom:12px}
+.tagline{font-family:var(--display);font-style:italic;font-size:22px;color:var(--rubric);
+  letter-spacing:.005em;margin-top:6px;font-weight:500}
+.lede{font-size:15px;color:#2c2621;max-width:68ch;margin:20px auto 0;background:var(--paper-card);border:1px solid var(--ink);padding:14px 18px;border-radius:2px;line-height:1.5;text-align:justify}
+
+.rule{height:1px;background:var(--ink);margin:24px 0}
+.rule.double{height:4px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);background:transparent;margin:22px 0}
+
+.shead{font-family:var(--display);font-size:18px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--rubric);display:flex;align-items:center;gap:12px;margin-bottom:16px;border-bottom:1px solid var(--ink);padding-bottom:4px}
+
+.grid-two{display:grid;grid-template-columns:1.1fr 1fr;gap:35px;margin-bottom:10px}
+.grid-two h3{font-family:var(--display);font-size:20px;font-weight:700;margin-bottom:8px;color:var(--ink)}
+.grid-two p{font-size:14.5px;color:#2c2621;margin-bottom:12px;text-align:justify}
+
+.timeline{columns:1;column-gap:30px}
+.time-row{display:flex;gap:15px;padding:8px 0;border-bottom:1px dotted var(--ink);break-inside:avoid}
+.time-row .time{font-family:var(--mono);font-size:11px;color:var(--rubric);font-weight:600;min-width:85px;padding-top:2px}
+.time-row .desc strong{font-family:var(--display);font-size:17.5px;font-weight:700;display:block;line-height:1.2;color:var(--ink)}
+.time-row .desc em{font-style:normal;font-size:13px;color:var(--faded);display:block;margin-top:2px}
+
+.sources-table-container{overflow-x:auto;margin:15px 0}
+table{width:100%;border-collapse:collapse;font-family:var(--serif);font-size:13.5px;text-align:left;border:1px solid var(--ink)}
+th,td{padding:8px 10px;border-bottom:1px solid var(--ink);border-right:1px solid var(--ink)}
+th:last-child,td:last-child{border-right:none}
+th{font-family:var(--display);font-size:12px;font-weight:700;text-transform:uppercase;color:var(--ink);background:var(--paper-card)}
+tr.highlight{background:color-mix(in srgb, var(--rubric) 8%, var(--paper));font-weight:600}
+
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:14px}
+.gallery-card{background:var(--paper-card);border:3px double var(--ink);padding:12px;display:flex;flex-direction:column;gap:8px}
+.gallery-card img{width:100%;height:130px;object-fit:cover;border:1px solid var(--ink);filter:grayscale(1) contrast(1.15) sepia(0.12)}
+.gallery-card .title{font-family:var(--mono);font-size:9px;color:var(--rubric);font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.gallery-card .caption{font-family:var(--serif);font-size:12px;line-height:1.35;color:var(--ink)}
+
+.foot{margin-top:40px;padding-top:14px;border-top:1px solid var(--ink);
+  display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-size:9px;letter-spacing:.05em;color:var(--faded)}
+.foot .seal{font-family:var(--display);font-size:15px;color:var(--ink);letter-spacing:.02em;font-weight:700}
+
+@media print{
+  html,body{background:#fff;padding:0}
+  body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .sheet{box-shadow:none;width:100%;padding:35px;background:#EFE5CF !important}
+  .anim{animation:none;opacity:1}
+  .gallery-card img{filter:grayscale(1) contrast(1.15) sepia(0.12)}
+}
+@media(max-width:680px){
+  .sheet{padding:30px 20px}
+  h1{font-size:38px}
+  .grid-two{grid-template-columns:1fr;gap:20px}
+  .gallery{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <div class="kicker anim" style="animation-delay:.02s">
+    <span>História do Direito Penal · PPGD / UFSC</span>
+    <a href="https://anavanzin.com/malleus/" class="link" target="_blank">anavanzin.com/malleus</a>
+  </div>
+
+  <div class="masthead anim" style="animation-delay:.08s">
+    <span class="mark">🕮</span>
+    <h1>O Malleus Maleficarum</h1>
+    <div class="tagline">E a construção da bruxaria como categoria jurídico-penal no Atlântico colonial</div>
+  </div>
+
+  <div class="lede anim" style="animation-delay:.16s">
+    <strong>Resumo do Estudo de Caso:</strong> Este guia de aula serve como roteiro e catálogo de fontes para a apresentação da disciplina <em>História do Direito Penal</em>. Investiga-se como o tipo penal compósito de bruxaria forjado na Europa moderna pelo <em>Malleus Maleficarum</em> (1487) circulou e se deformou ao cruzar o oceano, ajustando-se às dinâmicas de cura e comércio mágico no Brasil colonial (Bahia, 1591 e Sabará, 1739).
+  </div>
+
+  <div class="rule double anim" style="animation-delay:.2s"></div>
+
+  <!-- CONCEITOS E TEORIA -->
+  <div class="anim" style="animation-delay:.24s">
+    <div class="shead">1. Problema Historiográfico & Marco Teórico</div>
+    <div class="grid-two">
+      <div>
+        <h3>A Transição dos Modelos de Justiça</h3>
+        <p>Apoiando-se nos modelos teóricos de <strong>Mario Sbriccoli (2011)</strong>, o estudo analisa o avanço da <em>justiça hegemônica</em> sobre a <em>justiça negociada</em>. A caça às bruxas é compreendida como um subproduto da racionalização e publicização processual inquisitória do Ancien Régime.</p>
+        <p>O <em>Malleus Maleficarum</em> (1487) operou como um tratado de síntese jurídica, aglutinando cinco correntes antes autônomas: o <em>maleficium</em> material, a heresia dogmática, a demonolatria, o pacto demoníaco escolástico e as lendas populares de voo noturno (*lamiae*).</p>
+      </div>
+      <div>
+        <h3>O Paradoxo da Recepção Atlântica</h3>
+        <p>Ao cruzar o Atlântico, o rigor doutrinário do tipo compósito europeu se fragmentou nas lógicas da vida colonial. Sem tribunais inquisitoriais permanentes no Brasil, a repressão dependeu de Visitações temporárias.</p>
+        <p>Nas margens do sistema inquisitorial, rés como Maria Gonçalves Cajada na Bahia transformaram a bruxaria em um comércio de feitiçaria e serviços de cura sob encomenda, esvaziando o pacto carnal satânico e abrindo canais de confissão seletiva e negociação processual.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="rule anim" style="animation-delay:.28s"></div>
+
+  <!-- TIMELINE -->
+  <div class="anim" style="animation-delay:.32s">
+    <div class="shead">2. Roteiro e Cronologia da Apresentação (15 Minutos)</div>
+    <div class="timeline">
+      <div class="time-row">
+        <span class="time">0:00 – 1:30</span>
+        <span class="desc">
+          <strong>Abertura: Innsbruck (1485)</strong>
+          <em>O interrogatório de Helena Scheuberin e a humilhação processual de Heinrich Institoris como estopim teórico do tratado.</em>
+        </span>
+      </div>
+      <div class="time-row">
+        <span class="time">1:30 – 3:30</span>
+        <span class="desc">
+          <strong>O Tratado e o Tipo Penal</strong>
+          <em>Como o Malleus fundiu o desvio doutrinário e a mágica material em uma categoria penal de exceção.</em>
+        </span>
+      </div>
+      <div class="time-row">
+        <span class="time">3:30 – 4:30</span>
+        <span class="desc">
+          <strong>Innsbruck: Duas Epistemologias</strong>
+          <em>A colisão sobre a prova: a exigência de causalidade física dos juízes locais versus a obsessão moral do inquisidor.</em>
+        </span>
+      </div>
+      <div class="time-row">
+        <span class="time">4:30 – 8:30</span>
+        <span class="desc">
+          <strong>O Caso Maria Gonçalves Cajada (Bahia, 1591)</strong>
+          <em>A Primeira Visitação e a "Arde-lhe-o-Rabo". O uso mercantil da feitiçaria e a confissão como barganha.</em>
+        </span>
+      </div>
+      <div class="time-row">
+        <span class="time">8:30 – 11:30</span>
+        <span class="desc">
+          <strong>Gênero, Raça e Calundus (Sabará, 1739)</strong>
+          <em>A transição das acusações de brancas degredadas para a racialização e controle de pretas forras (Luzia Pinta).</em>
+        </span>
+      </div>
+      <div class="time-row">
+        <span class="time">11:30 – 13:30</span>
+        <span class="desc">
+          <strong>Conclusões e Debate</strong>
+          <em>A hegemonia incompleta do Santo Ofício e a circulação punitiva promovida pelo degredo geográfico.</em>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="rule anim" style="animation-delay:.36s"></div>
+
+  <!-- TABELA DE FONTES -->
+  <div class="anim" style="animation-delay:.4s">
+    <div class="shead">3. Tabela de Fontes Processuais (ANTT, Lisboa)</div>
+    <div class="sources-table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Réu / Ré</th>
+            <th>Processo</th>
+            <th>Ano</th>
+            <th>Delito Acusado</th>
+            <th>Estatuto Social</th>
+            <th>Sentença Aplicada</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pero de C. Tourinho</td>
+            <td>8821</td>
+            <td>1547</td>
+            <td>Blasfêmias e heresias</td>
+            <td>Governador Donatário</td>
+            <td>Fiança; proibição de retorno</td>
+          </tr>
+          <tr>
+            <td>Filipa de Sousa</td>
+            <td>1267</td>
+            <td>1591</td>
+            <td>Sodomia feminina</td>
+            <td>Costureira, degredada</td>
+            <td>Açoitamento, vela e degredo</td>
+          </tr>
+          <tr class="highlight">
+            <td>Maria G. Cajada</td>
+            <td>10748</td>
+            <td>1591</td>
+            <td>Feitiçaria diabólica</td>
+            <td>Degredada, Estremoz</td>
+            <td>Penitências, degredo e exílio</td>
+          </tr>
+          <tr>
+            <td>Ana Rodrigues</td>
+            <td>12142</td>
+            <td>1593</td>
+            <td>Criptojudaísmo</td>
+            <td>Cristã-nova, viúva, 80 anos</td>
+            <td>Morte no cárcere; ossos queimados</td>
+          </tr>
+          <tr>
+            <td>Simão (Congo)</td>
+            <td>C.P.</td>
+            <td>1685</td>
+            <td>Morte por feitiço</td>
+            <td>Africano forro, Recôncavo</td>
+            <td>Absolvido por falta de provas</td>
+          </tr>
+          <tr>
+            <td>Luzia Pinta</td>
+            <td>252</td>
+            <td>1739</td>
+            <td>Bruxaria e calundus</td>
+            <td>Preta forra, angolana</td>
+            <td>Abjuração e 4 anos de degredo</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="rule anim" style="animation-delay:.44s"></div>
+
+  <!-- GALERIA DE IMAGENS -->
+  <div class="anim" style="animation-delay:.48s">
+    <div class="shead">4. Galeria de Fontes Primárias & Iconografia</div>
+    <div class="gallery">
+      <div class="gallery-card">
+        <span class="title">I. Malleus Maleficarum</span>
+        <img src="../assets/malleus/malleus_1520_cologne.jpg" alt="Malleus Maleficarum 1520"/>
+        <p class="caption">Frontispício do tratado demonológico (ed. Colônia, 1520), peça de consolidação da bruxaria como crime de exceção compósito.</p>
+      </div>
+      <div class="gallery-card">
+        <span class="title">II. Justiça Hegemônica</span>
+        <img src="../assets/malleus/auto_da_fe_valladolid_1559.jpg" alt="Auto da Fé Valladolid 1559"/>
+        <p class="caption">Xilogravura do <strong>Auto da Fé de Valladolid</strong> (1559), expressão do espetáculo inquisitorial e disciplinar régio-eclesiástico.</p>
+      </div>
+      <div class="gallery-card">
+        <span class="title">III. Circulação Atlântica</span>
+        <img src="../assets/malleus/cantino_planisphere_1502.jpg" alt="Planisfério de Cantino 1502"/>
+        <p class="caption">Planisfério de Cantino (1502), evidenciando o oceano como rota de desterro e intercâmbio de saberes e curas mágicas coloniais.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="foot anim" style="animation-delay:.54s">
+    <div class="seal">Ana Vitória Vanzin Mendes · PPGD / UFSC · 2026.1</div>
+    <span>ABNT NBR 6023:2025</span>
+  </div>
+
+</div>
+</body>
+</html>
