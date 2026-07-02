@@ -10,10 +10,20 @@ DIR="$CLAUDE_PROJECT_DIR"
 
 echo "=== Iconocracy Corpus — Environment Check ==="
 
-# 1. Python dependencies
-echo "[1/5] Installing Python dependencies..."
-pip install -q -r "$DIR/requirements.txt"
-pip install -q pylint pytest
+# 1. Python dependencies (core only)
+# requirements.txt inclui o stack de treino ML (torch/transformers/peft/trl/
+# datasets, ~GBs) que nenhum teste ou validador importa — só
+# tools/scripts/{train_iconocracy_sft,run_iconocracy_eval}.py. Instalar isso
+# sincronamente estourava o startup e o `set -e` matava o hook antes do
+# pytest/pydantic, deixando a sessão sem deps. Filtramos o bloco pesado;
+# quem for treinar instala à parte: pip install -r requirements.txt
+echo "[1/5] Installing core Python dependencies (ML training stack skipped)..."
+grep -vE '^(torch|transformers|peft|trl|datasets)[><=]' "$DIR/requirements.txt" \
+  | pip install -q -r /dev/stdin
+pip install -q ruff  # linter configurado em pyproject.toml [tool.ruff]
+# cffi: a cryptography do sistema (/usr/lib) exige _cffi_backend; sem ele,
+# qualquer import via google-genai -> google.auth explode com panic do pyo3.
+pip install -q cffi
 
 # 2. Verify required directories exist
 echo "[2/5] Checking directory structure..."
