@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Como se inventa uma bruxa — handout visual</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 12mm;
+    }
+
+    :root {
+      --ink: #191512;
+      --paper: #efe2c7;
+      --paper-deep: #dfc797;
+      --charcoal: #120f0d;
+      --gold: #b68a3b;
+      --red: #7d1f1c;
+      --red-deep: #4f1110;
+      --muted: #604f3d;
+      --line: rgba(25, 21, 18, 0.55);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 20% 10%, rgba(182, 138, 59, 0.18), transparent 28%),
+        radial-gradient(circle at 80% 0%, rgba(125, 31, 28, 0.16), transparent 22%),
+        linear-gradient(135deg, #120f0d 0%, #211814 48%, #0f0d0c 100%);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.45;
+    }
+
+    .page {
+      width: min(100%, 1040px);
+      margin: 0 auto;
+      padding: 28px;
+    }
+
+    .sheet {
+      position: relative;
+      overflow: hidden;
+      padding: 34px;
+      background:
+        radial-gradient(circle at 22% 18%, rgba(255, 255, 255, 0.32), transparent 23%),
+        radial-gradient(circle at 76% 12%, rgba(126, 84, 38, 0.15), transparent 28%),
+        linear-gradient(180deg, #f4ead6 0%, var(--paper) 44%, #e8d3a8 100%);
+      border: 3px solid var(--ink);
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.4);
+    }
+
+    .sheet::before {
+      content: "";
+      position: absolute;
+      inset: 12px;
+      pointer-events: none;
+      border: 2px solid var(--gold);
+      outline: 1px dashed rgba(25, 21, 18, 0.45);
+      outline-offset: -8px;
+    }
+
+    .sheet::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.22;
+      background-image:
+        linear-gradient(90deg, rgba(25, 21, 18, 0.06) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(25, 21, 18, 0.05) 1px, transparent 1px);
+      background-size: 23px 23px;
+      mix-blend-mode: multiply;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .kicker,
+    .label,
+    .small-caps {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 700;
+    }
+
+    .kicker {
+      color: var(--red);
+      font-size: 13px;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 0.9;
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 0 rgba(182, 138, 59, 0.55);
+    }
+
+    .subtitle {
+      max-width: 760px;
+      margin: 0 auto 20px;
+      color: var(--muted);
+      font-size: 22px;
+      text-align: center;
+    }
+
+    .canva {
+      display: block;
+      width: fit-content;
+      max-width: 100%;
+      margin: 0 auto 24px;
+      padding: 10px 16px;
+      color: #f7edd6;
+      background: var(--red);
+      border: 2px solid var(--ink);
+      box-shadow: 4px 4px 0 var(--gold);
+      font-weight: 700;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+      gap: 22px;
+      align-items: stretch;
+      margin: 24px 0;
+    }
+
+    .hero-card,
+    .panel,
+    .mini,
+    .case-card,
+    .source-card,
+    .question-card {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      background: rgba(255, 248, 232, 0.72);
+      border: 2px solid var(--ink);
+      box-shadow: 5px 5px 0 rgba(25, 21, 18, 0.18);
+    }
+
+    .hero-card {
+      padding: 22px;
+    }
+
+    .claim {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.16;
+    }
+
+    .claim strong {
+      color: var(--red);
+    }
+
+    .thesis-strip {
+      margin-top: 18px;
+      padding: 14px;
+      color: #f8edd5;
+      background: var(--charcoal);
+      border-left: 8px solid var(--gold);
+      font-size: 17px;
+    }
+
+    .hero-image {
+      padding: 10px;
+      background: var(--charcoal);
+      border: 2px solid var(--ink);
+    }
+
+    .hero-image img {
+      display: block;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      filter: grayscale(0.88) contrast(1.18) sepia(0.18);
+      border: 1px solid var(--gold);
+    }
+
+    .source-card img {
+      display: block;
+      width: 100%;
+      height: 430px;
+      object-fit: cover;
+      filter: grayscale(0.88) contrast(1.18) sepia(0.18);
+      border: 1px solid var(--gold);
+    }
+
+    .caption {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .divider {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 12px;
+      align-items: center;
+      margin: 28px 0 18px;
+      color: var(--red);
+    }
+
+    .divider::before,
+    .divider::after {
+      content: "";
+      border-top: 2px solid var(--line);
+    }
+
+    h2 {
+      margin-bottom: 14px;
+      color: var(--red-deep);
+      font-size: 28px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    h3 {
+      margin-bottom: 8px;
+      font-size: 20px;
+    }
+
+    .grid-3,
+    .grid-2,
+    .timeline,
+    .cases,
+    .sources {
+      display: grid;
+      gap: 16px;
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .panel {
+      padding: 18px;
+    }
+
+    .panel.dark {
+      color: #f4e4c5;
+      background: var(--charcoal);
+      border-color: var(--gold);
+    }
+
+    .panel.dark h2,
+    .panel.dark h3 {
+      color: var(--paper);
+    }
+
+    .mini {
+      padding: 14px;
+    }
+
+    .number {
+      display: inline-flex;
+      width: 34px;
+      height: 34px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+      color: #f4e4c5;
+      background: var(--red);
+      border: 2px solid var(--ink);
+      border-radius: 50%;
+      font-weight: 700;
+    }
+
+    .type-map {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      align-items: center;
+      margin-top: 12px;
+    }
+
+    .type-map span {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px;
+      color: #f9efd8;
+      background: var(--ink);
+      border: 2px solid var(--gold);
+      text-align: center;
+      font-weight: 700;
+    }
+
+    .type-map .equals {
+      color: var(--red-deep);
+      background: transparent;
+      border: 0;
+      font-size: 42px;
+    }
+
+    .timeline {
+      grid-template-columns: 120px 1fr;
+      gap: 0 14px;
+      margin-top: 8px;
+    }
+
+    .year {
+      padding: 10px;
+      color: #f9efd8;
+      background: var(--red-deep);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .event {
+      padding: 10px 10px 10px 16px;
+      border-left: 3px solid var(--gold);
+      border-bottom: 1px solid rgba(25, 21, 18, 0.22);
+      background: rgba(255, 248, 232, 0.58);
+    }
+
+    .cases {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .case-card {
+      padding: 14px;
+    }
+
+    .case-card .name {
+      color: var(--red);
+      font-size: 22px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .case-card .tag {
+      display: inline-block;
+      margin: 8px 0 10px;
+      padding: 4px 8px;
+      color: #f8edd5;
+      background: var(--ink);
+      border: 1px solid var(--gold);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .matrix {
+      width: 100%;
+      border-collapse: collapse;
+      break-inside: avoid;
+      page-break-inside: avoid;
+      background: rgba(255, 248, 232, 0.7);
+      border: 2px solid var(--ink);
+      font-size: 14px;
+    }
+
+    .matrix th,
+    .matrix td {
+      padding: 9px;
+      border: 1px solid rgba(25, 21, 18, 0.42);
+      vertical-align: top;
+    }
+
+    .matrix th {
+      color: #f8edd5;
+      background: var(--ink);
+      text-align: left;
+    }
+
+    .matrix td:first-child {
+      font-weight: 700;
+      color: var(--red-deep);
+    }
+
+    .sources {
+      grid-template-columns: 0.9fr 1.1fr;
+      align-items: stretch;
+    }
+
+    .source-card {
+      padding: 10px;
+      background: var(--charcoal);
+    }
+
+    .source-list {
+      columns: 2;
+      column-gap: 24px;
+      margin: 0;
+      padding-left: 18px;
+      font-size: 14px;
+    }
+
+    .source-list li {
+      margin-bottom: 8px;
+      break-inside: avoid;
+    }
+
+    .questions {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 12px;
+    }
+
+    .question-card {
+      padding: 14px;
+      background: #f5ead5;
+    }
+
+    .footer {
+      margin-top: 26px;
+      padding: 16px;
+      color: #f4e4c5;
+      background: var(--ink);
+      border: 3px double var(--gold);
+      text-align: center;
+    }
+
+    .footer a {
+      color: #f4e4c5;
+      font-weight: 700;
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .page {
+        width: auto;
+        margin: 0;
+        padding: 0;
+      }
+
+      .sheet {
+        box-shadow: none;
+      }
+    }
+
+    @media (max-width: 820px) {
+      .page {
+        padding: 12px;
+      }
+
+      .sheet {
+        padding: 22px;
+      }
+
+      .hero-grid,
+      .grid-3,
+      .grid-2,
+      .cases,
+      .sources,
+      .questions {
+        grid-template-columns: 1fr;
+      }
+
+      .type-map {
+        grid-template-columns: 1fr;
+      }
+
+      .type-map .equals {
+        min-height: auto;
+      }
+
+      .source-list {
+        columns: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <article class="sheet">
+      <div class="content">
+        <p class="kicker">DIR410346 — História do Direito Penal e da Justiça Criminal</p>
+        <h1>Como se inventa uma bruxa</h1>
+        <p class="subtitle">O <em>Malleus Maleficarum</em>, Maria Gonçalves Cajada e a fabricação histórica da categoria jurídico-penal de bruxaria.</p>
+        <a class="canva" href="https://canva.link/comoseinventaumabruxa">Apresentação no Canva: canva.link/comoseinventaumabruxa</a>
+
+        <section class="hero-grid">
+          <div class="hero-card">
+            <p class="claim"><strong>Tese:</strong> a bruxa não é um tipo penal natural. Ela é uma categoria compósita fabricada por doutrina, prova, jurisdição, gênero e tradução colonial.</p>
+            <div class="thesis-strip">
+              O <em>Malleus</em> junta malefício, heresia, demonolatria, pacto diabólico e suspeição sobre o corpo feminino. O processo de Maria Gonçalves Cajada mostra o que acontece quando essa gramática atravessa o Atlântico: ela circula, mas não chega intacta.
+            </div>
+          </div>
+          <figure class="hero-image">
+            <img src="../malleus_1520_cologne.jpg" alt="Edição antiga do Malleus Maleficarum">
+            <figcaption class="caption">O tratado como tecnologia de classificação: transformar suspeitas dispersas em uma figura processável.</figcaption>
+          </figure>
+        </section>
+
+        <div class="divider"><span>✦ ✦ ✦</span></div>
+
+        <section>
+          <h2>Mapa da operação penal</h2>
+          <div class="grid-3">
+            <div class="mini">
+              <span class="number">1</span>
+              <h3>Nomear</h3>
+              <p>Práticas heterogêneas recebem um vocabulário comum: bruxaria, pacto, heresia, malefício.</p>
+            </div>
+            <div class="mini">
+              <span class="number">2</span>
+              <h3>Unificar</h3>
+              <p>O indício parcial passa a sugerir uma identidade total: não apenas alguém que fez algo, mas alguém que é bruxa.</p>
+            </div>
+            <div class="mini">
+              <span class="number">3</span>
+              <h3>Punir apesar da dúvida</h3>
+              <p>No caso Cajada, o tribunal registra que “tudo são embustes e enganos”, mas ainda assim aplica penitência e degredo.</p>
+            </div>
+          </div>
+
+          <div class="type-map" aria-label="Tipo compósito">
+            <span>Maleficium<br>dano mágico</span>
+            <span>Heresia<br>desvio de fé</span>
+            <span>Demonolatria<br>relação com demônios</span>
+            <span>Pacto<br>contrato diabólico</span>
+            <span class="equals">=</span>
+            <span>Bruxa<br>tipo compósito</span>
+          </div>
+        </section>
+
+        <div class="divider"><span>✦ ✦ ✦</span></div>
+
+        <section class="grid-2">
+          <div class="panel">
+            <h2>Linha do tempo</h2>
+            <div class="timeline">
+              <div class="year">1485</div>
+              <div class="event">Institoris fracassa em Innsbruck no processo contra Helena Scheuberin. O procedimento é contestado e anulado.</div>
+              <div class="year">1487</div>
+              <div class="event">Publicação do <em>Malleus Maleficarum</em>: o fracasso processual vira doutrina sistemática.</div>
+              <div class="year">1591</div>
+              <div class="event">Primeira Visitação do Santo Ofício à Bahia: denúncias e confissões entram no arquivo inquisitorial.</div>
+              <div class="year">1593</div>
+              <div class="event">Maria Gonçalves Cajada é presa, processada, penitenciada e degredada para Portugal.</div>
+              <div class="year">1739</div>
+              <div class="event">Luzia Pinta, outro horizonte: feitiçaria e práticas afro-atlânticas passam a reorganizar a suspeição penal.</div>
+            </div>
+          </div>
+
+          <div class="panel dark">
+            <h2>Chave teórica</h2>
+            <h3>Sbriccoli</h3>
+            <p>Justiça criminal hegemônica: publicização da persecução, fortalecimento do aparato e deslocamento da composição privada.</p>
+            <h3>Hespanha</h3>
+            <p>Antigo Regime penal não cabe no modelo codificado moderno. Norma, jurisdição e efetividade operam em distância constitutiva.</p>
+            <h3>Meccarelli</h3>
+            <p>O extraordinário não substitui simplesmente o ordinário: absorve, reorganiza e convive com práticas anteriores.</p>
+          </div>
+        </section>
+
+        <div class="divider"><span>✦ ✦ ✦</span></div>
+
+        <section>
+          <h2>Quatro casos para mostrar a deformação da categoria</h2>
+          <div class="cases">
+            <div class="case-card">
+              <div class="name">Scheuberin</div>
+              <span class="tag">Innsbruck, 1485</span>
+              <p>Mostra que a bruxaria ainda era uma categoria em disputa. A tentativa de provar identidade criminosa pela sexualidade falha processualmente.</p>
+            </div>
+            <div class="case-card">
+              <div class="name">Guiomar</div>
+              <span class="tag">Bahia, 1591</span>
+              <p>Magia amorosa doméstica: pó de osso de finado no vinho. Não há sabá, pacto ou sistema demonológico robusto.</p>
+            </div>
+            <div class="case-card">
+              <div class="name">Catarina</div>
+              <span class="tag">Testemunha</span>
+              <p>Conhece a fama de Cajada, mas hesita em confirmar dano. A fama não se converte automaticamente em prova.</p>
+            </div>
+            <div class="case-card">
+              <div class="name">Cajada</div>
+              <span class="tag">Bahia, 1593</span>
+              <p>Figura de limiar: demoníaca talvez, charlatã talvez, prestadora de serviços rituais com certeza processual suficiente para punir.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" style="margin-top: 18px;">
+          <h2>Maria Gonçalves Cajada em uma página</h2>
+          <table class="matrix">
+            <thead>
+              <tr>
+                <th>Eixo</th>
+                <th>O que aparece no processo</th>
+                <th>Por que importa penalmente</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Trajetória</td>
+                <td>Portuguesa, cristã-velha, degredada, reincidente, circulando entre Estremoz, Pernambuco, Bahia e Portugal.</td>
+                <td>Mostra pena como deslocamento e gestão territorial, não apenas prisão ou morte.</td>
+              </tr>
+              <tr>
+                <td>Acusações</td>
+                <td>Conversas com demônios, ida à mata, lua, botijas, Sinal de Salomão, palavras da missa invertidas.</td>
+                <td>Elementos europeus de demonologia são traduzidos para um contexto colonial de fama, serviço e conflito local.</td>
+              </tr>
+              <tr>
+                <td>Economia ritual</td>
+                <td>Promete amansar maridos, prejudicar inimigos e resolver conflitos mediante pagamento ou alimento.</td>
+                <td>A “bruxa” funciona também como mediadora de mercado e reputação, não só como inimiga teológica.</td>
+              </tr>
+              <tr>
+                <td>Defesa</td>
+                <td>Diz que os feitiços eram embuste, que pós eram fígado de galinha e ossos eram dentes de cavalo-marinho.</td>
+                <td>Ela tenta negociar a tipificação: melhor parecer enganadora do que herege demoníaca.</td>
+              </tr>
+              <tr>
+                <td>Sentença</td>
+                <td>Penitência pública, vela, mitra, jejuns, custas e degredo, apesar da dúvida registrada.</td>
+                <td>A punição opera mesmo quando a certeza substancial é frágil. A categoria absorve a dúvida.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <div class="divider"><span>✦ ✦ ✦</span></div>
+
+        <section class="sources">
+          <figure class="source-card">
+            <img src="../auto_da_fe_valladolid_1559.jpg" alt="Auto de fé em Valladolid, 1559">
+            <figcaption class="caption">O espetáculo punitivo dá forma pública à verdade processual.</figcaption>
+          </figure>
+          <div class="panel">
+            <h2>Fontes e historiografia usadas</h2>
+            <ul class="source-list">
+              <li>ANTT, Inquisição de Lisboa, processo nº 10748, Maria Gonçalves Cajada.</li>
+              <li>ANTT, Inquisição de Lisboa, liv. 784, <em>Denunciações da Bahia</em>.</li>
+              <li>Capistrano de Abreu, <em>Confissões da Bahia</em> e <em>Denunciações da Bahia</em>.</li>
+              <li>Hans Peter Broedel, <em>The Malleus Maleficarum and the Construction of Witchcraft</em>.</li>
+              <li>Mario Sbriccoli, “Justiça criminal”.</li>
+              <li>António Manuel Hespanha, <em>As vésperas do Leviathan</em>.</li>
+              <li>Massimo Meccarelli, “Criminal law before a State Monopoly”.</li>
+              <li>Laura de Mello e Souza, <em>O diabo e a Terra de Santa Cruz</em>.</li>
+              <li>Ronaldo Vainfas, <em>Confissões da Bahia</em>.</li>
+              <li>Gilmara Cruz de Araújo, <em>Artes mágicas na Bahia quinhentista</em>.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel dark" style="margin-top: 18px;">
+          <h2>Frase-guia para apresentar</h2>
+          <p style="font-size: 24px; margin-bottom: 0;">“O caso Cajada importa porque mostra uma bruxa que o processo consegue punir, mas não consegue estabilizar completamente.”</p>
+        </section>
+
+        <section style="margin-top: 18px;">
+          <h2>Perguntas para discussão</h2>
+          <div class="questions">
+            <div class="question-card">Quando uma categoria penal descreve o real e quando ela produz o real que pretende descrever?</div>
+            <div class="question-card">O que muda quando a prova deixa de mirar apenas atos e passa a construir uma identidade perigosa?</div>
+            <div class="question-card">Como ler processos inquisitoriais sem transformar a linguagem do tribunal na linguagem das acusadas?</div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <strong>Ana Vanzin — PPGD/UFSC — 2026.1</strong><br>
+          Apresentação: <a href="https://canva.link/comoseinventaumabruxa">https://canva.link/comoseinventaumabruxa</a>
+        </footer>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
