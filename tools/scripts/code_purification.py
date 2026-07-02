@@ -179,11 +179,53 @@ def display_item(item):
     print("=" * 70)
 
 
-def prompt_indicator(name, label, scale):
+def load_drafts(path):
+    """Load IconoCode draft analyses ({"drafts": [...]} or plain list)."""
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    drafts = data.get("drafts", data) if isinstance(data, dict) else data
+    return [d for d in drafts if isinstance(d, dict) and d.get("id")]
+
+
+def match_draft(drafts, item):
+    """Find the draft for an item — by exact id, or via the id crosswalk."""
+    for draft in drafts:
+        if str(draft["id"]) == item["id"]:
+            return draft
+    try:
+        from id_crosswalk import derive_uuid, is_uuid, resolve_key
+    except ImportError:
+        return None
+    item_uuid = item["id"] if is_uuid(item["id"]) else derive_uuid(item["id"])
+    for draft in drafts:
+        target, entries = resolve_key(str(draft["id"]))
+        if target == item_uuid or any(e["handle"] == item["id"] for e in entries):
+            return draft
+    return None
+
+
+def display_draft(draft):
+    """Show an IconoCode draft alongside the item — suggestion, never decision."""
+    pur = draft.get("purificacao") or {}
+    print(f"\n  ── Draft IA ({draft.get('coded_by', 'draft')}, "
+          f"confiança {draft.get('confidence_score', '?')}) — sugestão, não decisão ──")
+    if not pur:
+        print("    (draft sem bloco purificacao — ver analyst_notes)")
+    else:
+        print(f"    composto={pur.get('purificacao_composto', '?')}  "
+              f"regime={pur.get('regime_iconocratico', '?')}")
+    notes = draft.get("analyst_notes")
+    if notes:
+        print(f"    notas: {notes[:300]}{'…' if len(notes) > 300 else ''}")
+
+
+def prompt_indicator(name, label, scale, draft_score=None):
     """Prompt for a single indicator. Returns int 0-3 or None to skip."""
     print(f"\n  [{name}] {label}")
     for line in scale:
         print(f"    {line}")
+    if draft_score is not None:
+        print(f"    (draft IA sugere: {draft_score})")
     while True:
         val = input("  → Score (0-3), 's' to skip item, 'q' to quit: ").strip().lower()
         if val == "q":
@@ -212,13 +254,17 @@ def prompt_regime():
         print(f"    ⚠ Enter 1-{len(REGIMES)}")
 
 
-def code_item(item, coder="ana"):
+def code_item(item, coder="ana", draft=None):
     """Interactive coding session for one item. Returns record dict or None."""
     display_item(item)
+    if draft:
+        display_draft(draft)
+    draft_scores = (draft or {}).get("purificacao") or {}
 
     scores = {}
     for name, label, scale in INDICATORS:
-        result = prompt_indicator(name, label, scale)
+        result = prompt_indicator(name, label, scale,
+                                  draft_score=draft_scores.get(name))
         if result == "quit":
             return "quit"
         if result == "skip":
@@ -425,6 +471,9 @@ def main():
                         help="Export merged corpus + purification to CSV")
     parser.add_argument("--coder", default="ana",
                         help="Coder name for audit trail (default: ana)")
+    parser.add_argument("--draft-file", metavar="JSON",
+                        help="IconoCode drafts JSON (data/interim/iconocode-drafts/) "
+                             "— mostra sugestões IA ao lado de cada indicador")
     parser.add_argument("--select-sample", type=int, metavar="N",
                         help="Generate stratified random sample of N items for double-coding")
     args = parser.parse_args()
@@ -469,10 +518,13 @@ def main():
     print(f"\n  📋 {len(queue)} items to code ({len(coded)} already done)")
     print("  Commands during coding: 0-3 = score, s = skip item, q = quit\n")
 
+    drafts = load_drafts(args.draft_file) if args.draft_file else []
+
     coded_this_session = 0
     for i, item in enumerate(queue):
         print(f"\n  [{i + 1}/{len(queue)}]", end="")
-        result = code_item(item, coder=args.coder)
+        draft = match_draft(drafts, item) if drafts else None
+        result = code_item(item, coder=args.coder, draft=draft)
         if result == "quit":
             print(f"\n  👋 Quitting. Coded {coded_this_session} items this session.")
             break
