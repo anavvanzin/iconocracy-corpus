@@ -91,13 +91,34 @@ INDICATORS = [
     ]),
 ]
 
-REGIMES = ["fundacional", "normativo", "militar"]
+REGIMES = ["fundacional", "normativo", "militar", "contra-alegoria"]
 
 
 def load_corpus():
     """Load corpus items from JSON."""
     with open(CORPUS_JSON, encoding="utf-8") as f:
         return json.load(f)
+
+
+def resolve_items(corpus, key):
+    """Find corpus items by exact id; fall back to the id crosswalk (alias or uuid).
+
+    The corpus carries several id styles side by side (XX-NNN, slugs, SCOUT-NNN,
+    raw UUIDs) — the crosswalk lets any of them address the same item.
+    """
+    matches = [item for item in corpus if item["id"] == key]
+    if matches:
+        return matches
+    try:
+        from id_crosswalk import derive_uuid, resolve_key
+    except ImportError:
+        return []
+    target, entries = resolve_key(key)
+    if target is None:
+        return []
+    handles = {entry["handle"] for entry in entries} | {target}
+    return [item for item in corpus
+            if item["id"] in handles or derive_uuid(item["id"]) == target]
 
 
 def load_coded(mode="latest"):
@@ -179,15 +200,16 @@ def prompt_regime():
     print("\n  [regime_iconocratico] Regime iconocrático")
     for i, r in enumerate(REGIMES):
         print(f"    {i + 1}: {r}")
+    choices = [str(i + 1) for i in range(len(REGIMES))]
     while True:
-        val = input("  → Choice (1-3), 's' to skip, 'q' to quit: ").strip().lower()
+        val = input(f"  → Choice (1-{len(REGIMES)}), 's' to skip, 'q' to quit: ").strip().lower()
         if val == "q":
             return "quit"
         if val == "s":
             return "skip"
-        if val in ("1", "2", "3"):
+        if val in choices:
             return REGIMES[int(val) - 1]
-        print("    ⚠ Enter 1, 2, or 3")
+        print(f"    ⚠ Enter 1-{len(REGIMES)}")
 
 
 def code_item(item, coder="ana"):
@@ -424,9 +446,9 @@ def main():
 
     # Build work queue
     if args.item:
-        queue = [item for item in corpus if item["id"] == args.item]
+        queue = resolve_items(corpus, args.item)
         if not queue:
-            print(f"  ❌ Item '{args.item}' not found in corpus")
+            print(f"  ❌ Item '{args.item}' not found in corpus (nem via crosswalk)")
             sys.exit(1)
     elif args.batch:
         queue = [item for item in corpus if item["id"].startswith(args.batch)]
