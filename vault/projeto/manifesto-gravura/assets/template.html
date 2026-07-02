@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITULO}} · {{AUTOR}}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="manifesto.css">
+<!-- Para página 100% autônoma (um só arquivo), cole o conteúdo de manifesto.css
+     dentro de <style>…</style> em vez do <link> acima. -->
+</head>
+<body>
+<div class="frame">
+<div class="wrap">
+
+  <!-- ==== CABEÇALHO ==== -->
+  <header>
+    <p class="kicker">{{KICKER, ex.: Manifesto}}</p>
+    <h1>{{TITULO}}</h1>
+    <p class="subtitle">{{SUBTITULO — uma ou duas frases}}</p>
+    <p class="byline">{{AUTOR}} · {{AFILIACAO}}</p>
+  </header>
+
+  <!-- ==== FRONTISPÍCIO (imagem de abertura) ==== -->
+  <figure class="frontis">
+    <img src="images/hero.jpg" alt="{{ALT do frontispício}}">
+    <figcaption>{{legenda do frontispício}}<span class="tag">Frontispício</span></figcaption>
+  </figure>
+
+  <!-- ==== SEÇÃO padrão ==== (repetir por seção) -->
+  <section>
+    <h2><span class="num">I</span>{{Título da seção}}</h2>
+    <p class="lead">{{primeiro parágrafo — recebe capitular}}</p>
+    <p>{{parágrafo}}</p>
+    <blockquote>{{frase de destaque, opcional}}</blockquote>
+  </section>
+
+  <!-- ==== BLOCOS CONCEITUAIS numerados (opcional) ==== -->
+  <section>
+    <h2><span class="num">III</span>{{Os conceitos}}</h2>
+    <div class="concept">
+      <p class="clabel"><span class="n">1</span>{{Nome do conceito}}</p>
+      <p>{{definição}}</p>
+    </div>
+  </section>
+
+  <!-- ==== PRANCHAS de figuras com rótulo de faixa ====
+       .p2 = 2 colunas, .p3 = 3 colunas, .solo = uma figura centrada -->
+  <div class="regime"><span>{{País · regime}}</span></div>
+  <div class="plates p2">
+    <figure><div class="imgbox"><img src="images/plate-1.jpg" alt="{{alt}}"></div><figcaption>{{legenda}}</figcaption></figure>
+    <figure><div class="imgbox"><img src="images/plate-2.jpg" alt="{{alt}}"></div><figcaption>{{legenda}}</figcaption></figure>
+  </div>
+
+  <!-- ==== DIVISOR ornamental (opcional) ==== -->
+  <div class="fleuron"></div>
+
+  <!-- ==== FICHA TÉCNICA (cartões) — opcional ==== -->
+  <section class="ficha">
+    <h2>Ficha técnica</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>{{Rótulo do cartão}}</h3>
+        <p><span class="big">{{número}}</span> {{descrição}}</p>
+        <p>{{detalhe}}</p>
+      </div>
+      <div class="card">
+        <h3>{{Lista}}</h3>
+        <ol><li>{{item}}</li><li>{{item}}</li></ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==== RODAPÉ ==== -->
+  <footer>
+    <p class="mark">&#10086;</p>
+    <p>{{linha de colofão — obra, autoria, procedência das imagens}}</p>
+  </footer>
+
+</div>
+</div>
+</body>
+</html>
