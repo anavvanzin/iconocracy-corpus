@@ -10,10 +10,17 @@ DIR="$CLAUDE_PROJECT_DIR"
 
 echo "=== Iconocracy Corpus — Environment Check ==="
 
-# 1. Python dependencies
-echo "[1/5] Installing Python dependencies..."
-pip install -q -r "$DIR/requirements.txt"
-pip install -q pylint pytest
+# 1. Python dependencies + test/lint tooling
+# Remote sessions have no conda env; install into the base interpreter via pip.
+# Idempotent: pip skips already-satisfied requirements. `ruff` is the configured
+# linter (pyproject.toml [tool.ruff]) invoked by the PostToolUse hooks; `pytest`
+# runs the suite in tests/. `pylint` kept for existing tooling.
+echo "[1/5] Installing Python dependencies (requirements + pylint + ruff + pytest)..."
+PIP_INSTALL=(python -m pip install -q -r "$DIR/requirements.txt" pylint ruff pytest)
+if ! "${PIP_INSTALL[@]}" 2>/dev/null; then
+  # Fallback for images that enforce PEP 668 (externally-managed-environment).
+  "${PIP_INSTALL[@]}" --break-system-packages
+fi
 
 # 2. Verify required directories exist
 echo "[2/5] Checking directory structure..."
@@ -62,14 +69,16 @@ for f in "${KEY_FILES[@]}"; do
   fi
 done
 
-# 4. Validate corpus JSON
-echo "[4/5] Validating corpus data..."
+# 4. Validate corpus JSON + confirm test/lint tooling is runnable
+echo "[4/5] Validating corpus data and tooling..."
 if python -c "import json; json.load(open('$DIR/corpus/corpus-data.json'))" 2>/dev/null; then
   ITEMS=$(python -c "import json; print(len(json.load(open('$DIR/corpus/corpus-data.json'))))")
   echo "  corpus-data.json: $ITEMS items, valid JSON."
 else
   echo "  WARNING: corpus-data.json is invalid or missing."
 fi
+echo "  ruff:   $(ruff --version 2>&1 | head -1 || echo 'NOT FOUND')"
+echo "  pytest: $(python -m pytest --version 2>&1 | head -1 || echo 'NOT FOUND')"
 
 # 5. Check external tools
 echo "[5/5] Checking external tools..."
