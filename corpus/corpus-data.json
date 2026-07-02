@@ -61,8 +61,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "089fc944-332e-5647-a2df-f366de58532f",
@@ -250,8 +249,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "1589cd9a-0569-5524-bb61-5c64de1e92d1",
@@ -346,8 +344,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "2e077aa6-5e64-3c58-f33b-99b0bcfcef83",
@@ -380,8 +377,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "387bc54c-e8c7-50be-b24b-a3396f1bc1da",
@@ -445,8 +441,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-pre-1800-genealogia",
       "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "3cb602f7-56b5-5b48-871e-629b65b216c8",
@@ -603,45 +598,6 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
-    ],
-    "support": "estampa/gravura"
-  },
-  {
-    "id": "4a6fa350-a8f7-87ed-e4be-76860dba356b",
-    "country": "Brazil",
-    "url": "https://eliseuvisconti.com.br/obra/a803/",
-    "title": "Ex-libris da Biblioteca Nacional (A Mulher-Biblioteca)",
-    "description": "Ex-libris criado por Eliseu Visconti em 1903 para a Biblioteca Nacional do Rio de Janeiro, ainda em uso atualmente. A composição central mostra 'A Mulher-Biblioteca' de perfil: figura feminina de cabelos fartos presos em coque de íris (símbolo entre deuses e homens), folheando um livro aberto sobre balcão, com globo terrestre ao centro. A alegoria feminina da Biblioteca relaciona-se diretamente com a tradição iconográfica das virtudes e das musas.",
-    "motif": [
-      "alegoria feminina",
-      "biblioteca",
-      "mulher leitora",
-      "íris",
-      "globo terrestre",
-      "livro",
-      "escrita",
-      "sabedoria"
-    ],
-    "regime": "normativo",
-    "endurecimento_score": 1.8,
-    "coded_by": "iconocode-sonnet5",
-    "coded_at": "2026-07-01T00:00:00Z",
-    "date": "1903",
-    "indicadores": {
-      "desincorporacao": 1,
-      "rigidez_postural": 1,
-      "dessexualizacao": 2,
-      "uniformizacao_facial": 1,
-      "heraldizacao": 1,
-      "enquadramento_arquitetonico": 2,
-      "apagamento_narrativo": 1,
-      "monocromatizacao": 3,
-      "serialidade": 3,
-      "inscricao_estatal": 3
-    },
-    "citation_abnt": "VISCONTI, Eliseu. Ex-libris da Biblioteca Nacional. 1903. Desenho, tinta. Biblioteca Nacional, Rio de Janeiro. Projeto Eliseu Visconti, A803. Disponível em: https://eliseuvisconti.com.br/obra/a803/. Acesso em: 19 maio 2026.",
-    "audit_flags": [
-      "drive-import-2026-06-04"
     ]
   },
   {
@@ -675,8 +631,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "64d57088-2726-543f-bc9e-e382da696aee",
@@ -802,8 +757,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-pre-1800-genealogia",
       "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "7b5ea66e-0285-59ea-a652-264f8a5e90bd",
@@ -867,8 +821,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "8d6151b3-9928-e42e-5dbc-713c10fe1a82",
@@ -901,8 +854,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "93b53069-d4b7-6c55-df87-f85d0341bdbe",
@@ -935,8 +887,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "94a8fbc2-141d-5ce5-b363-2ee57d804b49",
@@ -1032,8 +983,7 @@
     "citation_abnt": "Allegory, Liberty Seated — Selo definitivo da República Argentina",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "selo"
+    ]
   },
   {
     "id": "AT-001",
@@ -1068,8 +1018,7 @@
     "citation_abnt": "Zeichnet 8. Kriegsanleihe",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BE-001",
@@ -1103,8 +1052,7 @@
     "citation_abnt": "STALLAERT, Joseph. Allégorie de la Justice. 1885–1888. 1 pintura (teto). Hôtel de Ville, Bruxelles. Disponível em: https://collections.heritage.brussels/fr/objects/36822.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "pintura"
+    ]
   },
   {
     "id": "BE-002",
@@ -1135,8 +1083,7 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "POELAERT, Joseph. Palais de Justice de Bruxelles. 1866–1883. Complexo arquitetônico. Bruxelles. Disponível em: https://be-monumen.be/patrimoine-belge/poelaert-joseph/.",
-    "support": "monumento/escultura"
+    "citation_abnt": "POELAERT, Joseph. Palais de Justice de Bruxelles. 1866–1883. Complexo arquitetônico. Bruxelles. Disponível em: https://be-monumen.be/patrimoine-belge/poelaert-joseph/."
   },
   {
     "id": "BE-003",
@@ -1167,8 +1114,7 @@
     "citation_abnt": "Cérès de Belgique — Premier Timbre-Poste du Royaume",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "selo"
+    ]
   },
   {
     "id": "BE-004",
@@ -1199,8 +1145,7 @@
     "citation_abnt": "Constitution de la Belgique — Édition illustrée (frontispice allégorique)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "frontispício"
+    ]
   },
   {
     "id": "BE-5F-LEOPOLD-1832",
@@ -1231,8 +1176,7 @@
     "citation_abnt": "5 Francs — Léopold I (founding coin of Belgium)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BE-CONGO-100F-1912",
@@ -1269,8 +1213,7 @@
     "citation_abnt": "BANQUE DU CONGO BELGE. 100 Francs. 1912-1929. Papel-moeda. Disponível em: https://en.numista.com/258715. Acesso em: 11 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BE-CONGO-1912",
@@ -1308,8 +1251,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BE-CONGO-MON-1921",
@@ -1345,8 +1287,7 @@
     "citation_abnt": "VINÇOTTE, Thomas. Monument aux Pionniers Belges au Congo. 1911-1921. Escultura em calcário de Euville. Parc du Cinquantenaire, Bruxelles. Disponível em: https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo. Acesso em: 11 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "BE-IND-1880",
@@ -1382,8 +1323,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BR-001",
@@ -1413,8 +1353,7 @@
       "serialidade": 1,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "BOSCAGLI, José. [Estátua feminina na abertura da amostra dos produtos do Rio Grande do Sul]. 1908. 1 fotografia, p&b, 16,5 x 23 cm. Museu Histórico Nacional. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778.",
-    "support": "monumento/escultura"
+    "citation_abnt": "BOSCAGLI, José. [Estátua feminina na abertura da amostra dos produtos do Rio Grande do Sul]. 1908. 1 fotografia, p&b, 16,5 x 23 cm. Museu Histórico Nacional. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778."
   },
   {
     "id": "BR-002",
@@ -1445,8 +1384,7 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "MONUMENTO à República, Praça da República, Belém. 1940. 1 fotografia, p&b. In: Álbum de fotografias da visita de Getúlio Vargas a Belém. Museu da República/IBRAM. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609.",
-    "support": "monumento/escultura"
+    "citation_abnt": "MONUMENTO à República, Praça da República, Belém. 1940. 1 fotografia, p&b. In: Álbum de fotografias da visita de Getúlio Vargas a Belém. Museu da República/IBRAM. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609."
   },
   {
     "id": "BR-003",
@@ -1477,8 +1415,7 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "MONUMENTO à República, Praça da República, Belém. 1940. 1 fotografia, p&b. In: Álbum de fotografias da visita de Getúlio Vargas a Belém. Museu da República/IBRAM. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611.",
-    "support": "monumento/escultura"
+    "citation_abnt": "MONUMENTO à República, Praça da República, Belém. 1940. 1 fotografia, p&b. In: Álbum de fotografias da visita de Getúlio Vargas a Belém. Museu da República/IBRAM. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611."
   },
   {
     "id": "BR-004",
@@ -1509,8 +1446,7 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "SANTOS, Guilherme. Jardim do Campo da Aclamação, atual Campo de Santana; estátuas do Outono e da Primavera. c. 1925. 1 fotografia, gelatina/prata, sépia, 4,5 x 11 cm. Instituto Moreira Salles. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529.",
-    "support": "monumento/escultura"
+    "citation_abnt": "SANTOS, Guilherme. Jardim do Campo da Aclamação, atual Campo de Santana; estátuas do Outono e da Primavera. c. 1925. 1 fotografia, gelatina/prata, sépia, 4,5 x 11 cm. Instituto Moreira Salles. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529."
   },
   {
     "id": "BR-005",
@@ -1541,8 +1477,7 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "VILLARES, Décio. Alegoria da República. c. 1900. 1 pintura, óleo sobre tela, 97 x 77 cm. Museu Histórico Nacional. Disponível em: https://archive.nyu.edu/handle/2451/61396.",
-    "support": "pintura"
+    "citation_abnt": "VILLARES, Décio. Alegoria da República. c. 1900. 1 pintura, óleo sobre tela, 97 x 77 cm. Museu Histórico Nacional. Disponível em: https://archive.nyu.edu/handle/2451/61396."
   },
   {
     "id": "BR-006",
@@ -1576,8 +1511,7 @@
     "citation_abnt": "CHAMBELLAND, Carlos. Alegoria da República. 1922. 1 pintura, óleo sobre tela, 202 x 152 cm. Museu Histórico Nacional. Disponível em: https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "pintura"
+    ]
   },
   {
     "id": "BR-007",
@@ -1611,8 +1545,7 @@
     "citation_abnt": "AS ESTÁTUAS fallando. Brasil, n. 60, 1827. p. [s.n.]. Disponível em: http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "BR-008",
@@ -1646,8 +1579,7 @@
     "citation_abnt": "ALMANAK Laemmert. Rio de Janeiro, 1929. ed. A00085, p. 542. Disponível em: http://memoria.bn.br/docreader/webindex/WIPagina/313394/101306.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "BR-009",
@@ -1684,8 +1616,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "lpai_v2_enrich_br_scout_005"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "BR-010",
@@ -1718,8 +1649,7 @@
     "citation_abnt": "VISCONTI, Eliseu. Alegoria (Biblioteca Nacional). 1910. 1 painel decorativo, óleo. Fundação Biblioteca Nacional, Rio de Janeiro. Disponível em: https://eliseuvisconti.com.br/obra/d702/.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "BR-017",
@@ -1750,8 +1680,7 @@
     "citation_abnt": "Frontispício do Decreto n.º 1 — Governo Provisório (1889)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "frontispício"
+    ]
   },
   {
     "id": "BR-018",
@@ -1782,8 +1711,7 @@
     "citation_abnt": "A República em Leilão",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "BR-019",
@@ -1814,8 +1742,7 @@
     "citation_abnt": "O mundo às avessas: voto feminino",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "BR-020",
@@ -1846,8 +1773,7 @@
     "citation_abnt": "Alegoria à Lei do Ventre Livre (A.D. Bressae) — NYU Faculty Digital Archive",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "BR-021",
@@ -1866,8 +1792,7 @@
     "citation_abnt": "Alegoria da República — Manoel Lopes Rodrigues (óleo sobre tela)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "pintura"
+    ]
   },
   {
     "id": "BR-022",
@@ -1898,8 +1823,7 @@
     "citation_abnt": "Brasiliana / Braziliana — personificação nacional feminina por J.B. Debret",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "BR-023",
@@ -1918,8 +1842,7 @@
     "citation_abnt": "Alegoria à República — Capa da Revista Illustrada n. 566",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "BR-024",
@@ -1950,8 +1873,7 @@
     "citation_abnt": "Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "selo"
+    ]
   },
   {
     "id": "BR-025",
@@ -1982,8 +1904,7 @@
     "citation_abnt": "Eliseu Visconti — A Mulher Brasileira (projeto para selo dos Correios, 1904)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "selo"
+    ]
   },
   {
     "id": "BR-026",
@@ -2014,8 +1935,7 @@
     "citation_abnt": "Alegorias do Palácio Anchieta — esculturas de Pedro Gianordoli (Vitória/ES)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "BR-027",
@@ -2034,8 +1954,7 @@
     "citation_abnt": "Alegoria da República Brasileira — Revista Illustrada",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "BR-028",
@@ -2066,8 +1985,7 @@
     "citation_abnt": "Selo Cabeça da Liberdade — Thesouro Nacional (1891)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "selo"
+    ]
   },
   {
     "id": "BR-029",
@@ -2098,8 +2016,7 @@
     "citation_abnt": "20 Mil Réis — Cédula do Banco da República dos Estados Unidos do Brazil (c.",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BR-030",
@@ -2130,8 +2047,7 @@
     "citation_abnt": "500 Réis — Efígie da República (prata, 1912)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BR-031",
@@ -2162,8 +2078,7 @@
     "citation_abnt": "20.000 Réis Ouro — Efígie da República com Barrete Frígio (1889–1922)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BR-032",
@@ -2194,8 +2109,7 @@
     "citation_abnt": "2000 Réis — Efígie da Liberdade Laureada (prata .917, série 1891–1897)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BR-033",
@@ -2226,8 +2140,7 @@
     "citation_abnt": "1000 Réis — Efígie da República (prata .917, emissão inaugural 1889)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BR-034",
@@ -2258,8 +2171,7 @@
     "citation_abnt": "100 Réis — Liberty (Série MCMI)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BR-035",
@@ -2290,8 +2202,7 @@
     "citation_abnt": "200 Réis — Liberty (Série MCMI)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BR-036",
@@ -2322,8 +2233,7 @@
     "citation_abnt": "400 Réis — Liberty (Série MCMI)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BR-037",
@@ -2354,8 +2264,7 @@
     "citation_abnt": "O Dia de Amanhã (Alegoria da República)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "BR-038",
@@ -2386,8 +2295,7 @@
     "citation_abnt": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "BR-039",
@@ -2418,8 +2326,7 @@
     "citation_abnt": "Efígie da República — Selo Definitivo do Brasil Republicano",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "selo"
+    ]
   },
   {
     "id": "BR-040",
@@ -2450,8 +2357,7 @@
     "citation_abnt": "Proclamação da República — litografia de Angelo Agostini",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "BR-041",
@@ -2470,8 +2376,7 @@
     "citation_abnt": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "BR-042",
@@ -2503,8 +2408,7 @@
     "citation_abnt": "Alegorias do Palácio do Catete — esculturas Val d'Osne (República, Justiça,",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "BR-043",
@@ -2535,8 +2439,7 @@
     "citation_abnt": "Medalha comemorativa da Proclamação da República (Casa da Moeda, 1890)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "medalha"
+    ]
   },
   {
     "id": "BR-044",
@@ -2555,8 +2458,7 @@
     "citation_abnt": "State of ambiguity : civic life and culture in Cuba''s first republic",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "BR-045",
@@ -2575,8 +2477,7 @@
     "citation_abnt": "Report of the United States Commission to the Columbian Historical Exposition",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "BR-046",
@@ -2609,8 +2510,7 @@
     "citation_abnt": "50 Mil Réis — Cédula do Banco do Brazil (1890)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BR-1000R-1906",
@@ -2641,8 +2541,7 @@
     "citation_abnt": "1000 Réis — Efígie da República (Brasil, 1906–1912)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BR-1CR-1970",
@@ -2673,8 +2572,7 @@
     "citation_abnt": "1 Cruzeiro (cédula) — Efígie da República (2ª edição)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "medalha"
+    ]
   },
   {
     "id": "BR-2000R-1907",
@@ -2708,8 +2606,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "BR-50CR-1965",
@@ -2740,8 +2637,7 @@
     "citation_abnt": "50 Cruzeiros — Efígie da República (Benedito Ribeiro / Tônia Carreiro)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "DE-001",
@@ -2776,8 +2672,7 @@
     "citation_abnt": "GIENG, Hans. Gerechtigkeitsbrunnen mit Plastik der Justitia. 1543. 1 escultura, fonte. Bern, Gerechtigkeitsgasse. Bildarchiv Foto Marburg. Disponível em: https://www.bildindex.de/document/que20183316.",
     "audit_flags": [
       "fora-do-escopo"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "DE-002",
@@ -2810,8 +2705,7 @@
     "citation_abnt": "JUSTITIA (cabeça em mármore da Porta di Capua). 1239–1240. 1 escultura em mármore. Museo Provinciale Campano, Capua. Disponível em: https://www.bildindex.de/document/obj08148970.",
     "audit_flags": [
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "DE-003",
@@ -2841,8 +2735,7 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "RODE, Bernhard. Die Göttin der Gerechtigkeit nach dem heutigen Geschmacke. Século XVIII. 1 gravura. Kupferstich-Kabinett Dresden. Disponível em: https://www.bildindex.de/document/obj30110594.",
-    "support": "?"
+    "citation_abnt": "RODE, Bernhard. Die Göttin der Gerechtigkeit nach dem heutigen Geschmacke. Século XVIII. 1 gravura. Kupferstich-Kabinett Dresden. Disponível em: https://www.bildindex.de/document/obj30110594."
   },
   {
     "id": "DE-004",
@@ -2872,8 +2765,7 @@
       "serialidade": 0,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "JUSTITIA an der Rathausuhr, Esslingen am Neckar. 1589. 1 escultura. Altes Rathaus, Esslingen. Disponível em: https://www.bildindex.de/document/obj20553978.",
-    "support": "?"
+    "citation_abnt": "JUSTITIA an der Rathausuhr, Esslingen am Neckar. 1589. 1 escultura. Altes Rathaus, Esslingen. Disponível em: https://www.bildindex.de/document/obj20553978."
   },
   {
     "id": "DE-005",
@@ -2903,8 +2795,7 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "PERSONIFIKATION der Gerechtigkeit (Barocke Holzdecke). 1660–1780. 1 medalhão em teto de madeira. Lüneburg, Große Bäckerstraße 12. Disponível em: https://www.bildindex.de/document/obj20672587.",
-    "support": "?"
+    "citation_abnt": "PERSONIFIKATION der Gerechtigkeit (Barocke Holzdecke). 1660–1780. 1 medalhão em teto de madeira. Lüneburg, Große Bäckerstraße 12. Disponível em: https://www.bildindex.de/document/obj20672587."
   },
   {
     "id": "DE-006",
@@ -2936,8 +2827,7 @@
     "citation_abnt": "RAIMONDI, Marcantonio. Allegorie: Justitia. Início do século XVI. 1 gravura. Bibliotheca Hertziana, Roma. Disponível em: https://www.bildindex.de/document/obj08158050.",
     "audit_flags": [
       "fora-do-escopo"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "DE-007",
@@ -2971,8 +2861,7 @@
     "citation_abnt": "ALLEGORIE der Justitia und eine weitere weibliche Allegorie. 1501–1550. 1 desenho/gravura. Museo Civico, Bassano del Grappa. Disponível em: https://www.bildindex.de/document/obj08108743.",
     "audit_flags": [
       "fora-do-escopo"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "DE-008",
@@ -3002,8 +2891,7 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "JUSTITIA (Stiftsherrenhaus, Hameln). c. 1558. 1 escultura arquitetônica. Hameln, Osterstraße 8. Disponível em: https://www.bildindex.de/document/obj20608421.",
-    "support": "?"
+    "citation_abnt": "JUSTITIA (Stiftsherrenhaus, Hameln). c. 1558. 1 escultura arquitetônica. Hameln, Osterstraße 8. Disponível em: https://www.bildindex.de/document/obj20608421."
   },
   {
     "id": "DE-009",
@@ -3034,8 +2922,7 @@
       "serialidade": 0,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "RELIEF: Gerechtigkeit und Eintracht. 1596–1605. 1 relevo. Altes Rathaus, Bremen. Disponível em: https://www.bildindex.de/document/obj20459153.",
-    "support": "?"
+    "citation_abnt": "RELIEF: Gerechtigkeit und Eintracht. 1596–1605. 1 relevo. Altes Rathaus, Bremen. Disponível em: https://www.bildindex.de/document/obj20459153."
   },
   {
     "id": "DE-010",
@@ -3065,8 +2952,7 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "WENZINGER, Christian. Allegorie der Jus Civile. 1752. 1 escultura. Sankt Peter, Benedictine Abbey. Disponível em: https://www.bildindex.de/document/obj20677105.",
-    "support": "?"
+    "citation_abnt": "WENZINGER, Christian. Allegorie der Jus Civile. 1752. 1 escultura. Sankt Peter, Benedictine Abbey. Disponível em: https://www.bildindex.de/document/obj20677105."
   },
   {
     "id": "DE-011",
@@ -3096,8 +2982,7 @@
       "serialidade": 0,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "KAMIN mit Justitia (Leipzig, Altes Rathaus). c. 1610. 1 decoração de lareira. Altes Rathaus, Leipzig. Disponível em: https://www.bildindex.de/document/obj30143134.",
-    "support": "?"
+    "citation_abnt": "KAMIN mit Justitia (Leipzig, Altes Rathaus). c. 1610. 1 decoração de lareira. Altes Rathaus, Leipzig. Disponível em: https://www.bildindex.de/document/obj30143134."
   },
   {
     "id": "DE-012",
@@ -3129,8 +3014,7 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "CRANACH, Lucas, o Velho. Gerechtigkeit. 1537. 1 pintura, óleo sobre painel, 72 × 49,6 cm. Coleção particular. Disponível em: https://lucascranach.org/en/PRIVATE_NONE-P457/.",
-    "support": "pintura"
+    "citation_abnt": "CRANACH, Lucas, o Velho. Gerechtigkeit. 1537. 1 pintura, óleo sobre painel, 72 × 49,6 cm. Coleção particular. Disponível em: https://lucascranach.org/en/PRIVATE_NONE-P457/."
   },
   {
     "id": "DE-013",
@@ -3165,8 +3049,7 @@
     "citation_abnt": "KAULBACH, Friedrich August von. Germania. 1914. 1 pintura (óleo sobre tela). Berlim: Deutsches Historisches Museum. Disponível em: https://www.dhm.de/lemo/bestand/objekt/gemaelde-friedrich-august-von-kaulbach-germania-1914. Acesso em: 28 mar. 2026.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "DE-014",
@@ -3199,8 +3082,7 @@
     "citation_abnt": "Helft uns siegen! Zeichnet die Kriegsanleihe",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "DE-015",
@@ -3235,8 +3117,7 @@
     "citation_abnt": "Germania — Guter Rat ist teuer (Bismarck e Alsácia-Lorena)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "DE-016",
@@ -3267,8 +3148,7 @@
     "citation_abnt": "Germania definitive stamp (10 Pfennig, Deutsches Reich)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "DE-017",
@@ -3299,8 +3179,7 @@
     "citation_abnt": "10 Pfennig Germania — Deutsches Reich (Weimar Republic, Mi.141, 1920)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "DE-018",
@@ -3331,8 +3210,7 @@
     "citation_abnt": "1 Reichsmark — Weimar Republic (eagle replaces Germania)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "papel-moeda"
+    ]
   },
   {
     "id": "DE-019",
@@ -3363,8 +3241,7 @@
     "citation_abnt": "20 Mark Gold — Wilhelm I (NEGATIVE CONTROL)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "DE-020",
@@ -3396,8 +3273,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "papel-moeda"
+    ]
   },
   {
     "id": "DE-021",
@@ -3428,8 +3304,7 @@
     "citation_abnt": "Germania — Série definitiva Deutsches Reich 5pf (1900–1922)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "selo"
+    ]
   },
   {
     "id": "DE-1000M-1910",
@@ -3460,8 +3335,7 @@
     "citation_abnt": "1000 Mark Reichsbanknote — allegorical figures",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "papel-moeda"
+    ]
   },
   {
     "id": "DE-100M-1908",
@@ -3492,8 +3366,7 @@
     "citation_abnt": "100 Mark Reichsbanknote — Germania seated (green seals)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "papel-moeda"
+    ]
   },
   {
     "id": "DE-50M-1919",
@@ -3524,8 +3397,7 @@
     "citation_abnt": "50 Mark Reichsbanknote (24 Jun. 1919) — última cédula imperial / primeira Weimar",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "papel-moeda"
+    ]
   },
   {
     "id": "DE-GERM-1900",
@@ -3562,8 +3434,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "DE-GERM-BELG-1914",
@@ -3600,8 +3471,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "DE-WR-1919-50M",
@@ -3636,8 +3506,7 @@
     "citation_abnt": "50 Mark Reichsbanknote — Germania as Young Girl (Weimar 1919)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "papel-moeda"
+    ]
   },
   {
     "id": "DE-WR-1924-50PF",
@@ -3672,8 +3541,7 @@
     "citation_abnt": "50 Reichspfennig — Woman Planting Oak Sapling (Weimar 1924)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "ES-001",
@@ -3709,8 +3577,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "ES-002",
@@ -3746,8 +3613,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "ES-003",
@@ -3781,8 +3647,7 @@
     "citation_abnt": "5 Pesetas \"Hispania Reclinada\" — Gobierno Provisional",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "ES-004",
@@ -3816,8 +3681,7 @@
     "citation_abnt": "1 Peseta \"Hispania Sentada\" — II República",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "EU-001",
@@ -3848,8 +3712,7 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "ZICK, Januarius. Thronende Justitia / Allegorie der strafenden Gerechtigkeit. [séc. XVIII]. Fotografia de Schulze-Marburg, Rudolf, 1943-1944. Zentralinstitut für Kunstgeschichte. Disponível em: https://www.europeana.eu/en/item/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S.",
-    "support": "fotografia"
+    "citation_abnt": "ZICK, Januarius. Thronende Justitia / Allegorie der strafenden Gerechtigkeit. [séc. XVIII]. Fotografia de Schulze-Marburg, Rudolf, 1943-1944. Zentralinstitut für Kunstgeschichte. Disponível em: https://www.europeana.eu/en/item/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S."
   },
   {
     "id": "EU-002",
@@ -3883,8 +3746,7 @@
     "citation_abnt": "WALKER, Johan. Time and justice reveal the truth. [s.d.]. Royal Institute for Cultural Heritage. Disponível em: https://www.europeana.eu/en/item/2048001/AP_10342206.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "EU-003",
@@ -3919,8 +3781,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "EU-004",
@@ -3954,8 +3815,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "EU-005",
@@ -3990,8 +3850,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "EU-006",
@@ -4025,8 +3884,7 @@
     "citation_abnt": "HARMS, Johann Oswald. Justitia, allegory of justice. [séc. XVII]. 1 desenho. Herzog Anton Ulrich Museum. Disponível em: https://www.europeana.eu/en/item/89/item_MH6IXNHWTECBQCNPU7IIMCFP2BDFAV76.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "EU-007",
@@ -4059,8 +3917,7 @@
     "citation_abnt": "VOS, Maarten de. Justitia civilis. [séc. XVI]. Royal Institute for Cultural Heritage. Disponível em: https://www.europeana.eu/en/item/2048001/AP_10133590.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "EU-008",
@@ -4096,8 +3953,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "EU-009",
@@ -4131,8 +3987,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-001",
@@ -4166,8 +4021,7 @@
     "citation_abnt": "CHIFFLART, François-Nicolas. La Justice, la Vengeance et la Vérité. 1865. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b531737635.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-002",
@@ -4201,8 +4055,7 @@
     "citation_abnt": "CHIFFLART, François-Nicolas. Le triomphe de la Justice et de la Vérité. 1865. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b531737529.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-003",
@@ -4235,8 +4088,7 @@
     "citation_abnt": "CHIFFLART, François-Nicolas. L'envoyé de la Justice. 1859. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b53173732g.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-004",
@@ -4270,8 +4122,7 @@
     "citation_abnt": "ESTAMPES représentant des naïades et Marianne enseignant l'alphabet à des enfants. [1859-1910]. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b10574064v.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-005",
@@ -4305,8 +4156,7 @@
     "citation_abnt": "ROPS, Félicien. La République aimable. 1871. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b531842166.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-006",
@@ -4340,8 +4190,7 @@
     "citation_abnt": "THE FRENCH crisis: Madame La République. 1887. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8438243t.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-007",
@@ -4373,8 +4222,7 @@
       "serialidade": 2,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "LELONG, René. République Française: 3e Emprunt de la Défense nationale. 1917. 1 cartaz. Bibliothèque nationale de France. Disponível em: https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v.",
-    "support": "cartaz"
+    "citation_abnt": "LELONG, René. République Française: 3e Emprunt de la Défense nationale. 1917. 1 cartaz. Bibliothèque nationale de France. Disponível em: https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v."
   },
   {
     "id": "FR-008",
@@ -4410,8 +4258,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "lpai_v2_enrich_fr_scout_002"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "FR-009",
@@ -4446,8 +4293,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "lpai_v2_enrich_fr_scout_005"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "FR-010",
@@ -4481,8 +4327,7 @@
     "citation_abnt": "VEBER, Jean. Le hochet de la République. [s.d.]. 1 gravura. Bibliothèque nationale de France. Disponível em: https://www.europeana.eu/en/item/9200518/ark__12148_btv1b8577646g.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-011",
@@ -4516,8 +4361,7 @@
     "citation_abnt": "CALENDRIER et compost des bergiers: La grant danse macabre. 1531. Manuscrito ilustrado. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-012",
@@ -4548,8 +4392,7 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "DELACROIX, Eugène. La Liberté guidant le peuple. 1830. 1 pintura, óleo sobre tela, 260 × 325 cm. Musée du Louvre, Paris. Disponível em: https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg.",
-    "support": "moeda"
+    "citation_abnt": "DELACROIX, Eugène. La Liberté guidant le peuple. 1830. 1 pintura, óleo sobre tela, 260 × 325 cm. Musée du Louvre, Paris. Disponível em: https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg."
   },
   {
     "id": "FR-013",
@@ -4581,8 +4424,7 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "LE BARBIER L'AÎNÉ (des.); LAURENT, L. (grav.); DIEN (grav.). Déclaration des droits de l'homme et du citoyen. 1789. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b69480451.",
-    "support": "estampa/gravura"
+    "citation_abnt": "LE BARBIER L'AÎNÉ (des.); LAURENT, L. (grav.); DIEN (grav.). Déclaration des droits de l'homme et du citoyen. 1789. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b69480451."
   },
   {
     "id": "FR-014",
@@ -4613,8 +4455,7 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "DÉCLARATION des droits de l'homme et du citoyen (variante). 1789. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8410817c.",
-    "support": "estampa/gravura"
+    "citation_abnt": "DÉCLARATION des droits de l'homme et du citoyen (variante). 1789. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8410817c."
   },
   {
     "id": "FR-015",
@@ -4646,8 +4487,7 @@
       "serialidade": 2,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "ALLÉGORIE pour le frontispice du compte-rendu au Roi par M. Necker. 1781. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8410270p.",
-    "support": "frontispício"
+    "citation_abnt": "ALLÉGORIE pour le frontispice du compte-rendu au Roi par M. Necker. 1781. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8410270p."
   },
   {
     "id": "FR-016",
@@ -4679,8 +4519,7 @@
       "serialidade": 2,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "ALLÉGORIE pour le frontispice du compte rendu au Roi par M. Necker (variante). 1781. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b6942595s.",
-    "support": "frontispício"
+    "citation_abnt": "ALLÉGORIE pour le frontispice du compte rendu au Roi par M. Necker (variante). 1781. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b6942595s."
   },
   {
     "id": "FR-017",
@@ -4711,8 +4550,7 @@
       "serialidade": 2,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "ALLÉGORIE pour servir de frontispice au compte-rendu au Roi par M. Necker. 1781. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8410268m.",
-    "support": "frontispício"
+    "citation_abnt": "ALLÉGORIE pour servir de frontispice au compte-rendu au Roi par M. Necker. 1781. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8410268m."
   },
   {
     "id": "FR-018",
@@ -4745,8 +4583,7 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "GARNERAY (des.); QUÉVERDO (grav.). [Liberté, Égalité, Fraternité — portrait allégorique d'Ernouf]. c. 1793–1800. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8412560z.",
-    "support": "estampa/gravura"
+    "citation_abnt": "GARNERAY (des.); QUÉVERDO (grav.). [Liberté, Égalité, Fraternité — portrait allégorique d'Ernouf]. c. 1793–1800. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8412560z."
   },
   {
     "id": "FR-019",
@@ -4779,8 +4616,7 @@
       "serialidade": 2,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "STEINLEN, Théophile Alexandre. Journée du Poilu, 25 et 26 décembre 1915, organisée par le Parlement. 1915. 1 affiche (litografia). Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b9012753r.",
-    "support": "cartaz"
+    "citation_abnt": "STEINLEN, Théophile Alexandre. Journée du Poilu, 25 et 26 décembre 1915, organisée par le Parlement. 1915. 1 affiche (litografia). Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b9012753r."
   },
   {
     "id": "FR-020",
@@ -4812,8 +4648,7 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "GRACIANO. Decretum Gratiani (Concordia discordantium canonum). [Bolonha], séc. XIII. 1 manuscrito iluminado, pergaminho. Paris: Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b10544534k.item. Acesso em: 28 mar. 2026.",
-    "support": "frontispício"
+    "citation_abnt": "GRACIANO. Decretum Gratiani (Concordia discordantium canonum). [Bolonha], séc. XIII. 1 manuscrito iluminado, pergaminho. Paris: Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b10544534k.item. Acesso em: 28 mar. 2026."
   },
   {
     "id": "FR-021",
@@ -4844,8 +4679,7 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "La Liberté guidant le peuple",
-    "support": "pintura"
+    "citation_abnt": "La Liberté guidant le peuple"
   },
   {
     "id": "FR-022",
@@ -4876,8 +4710,7 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "Notre-Dame des colonies",
-    "support": "estampa/gravura"
+    "citation_abnt": "Notre-Dame des colonies"
   },
   {
     "id": "FR-023",
@@ -4907,39 +4740,7 @@
       "serialidade": 2,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "Bons de la Défense nationale",
-    "support": "cartaz"
-  },
-  {
-    "id": "FR-024",
-    "country": "France",
-    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v",
-    "title": "3e Emprunt de la Défense nationale (République française)",
-    "description": "Cartaz do 3o Empréstimo de Defesa Nacional da República Francesa (1917). Marianne é representada em posição hierática, investida de autoridade marcial, acima de cenas de mobilização militar. Instrumento de propaganda estatal para financiamento da guerra.",
-    "motif": [
-      "Marianne",
-      "emprunt de guerre",
-      "défense nationale"
-    ],
-    "regime": "militar",
-    "endurecimento_score": 1.8,
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-07T00:00:00Z",
-    "date": "1917",
-    "indicadores": {
-      "desincorporacao": 1,
-      "rigidez_postural": 2,
-      "dessexualizacao": 2,
-      "uniformizacao_facial": 2,
-      "heraldizacao": 2,
-      "enquadramento_arquitetonico": 1,
-      "apagamento_narrativo": 1,
-      "monocromatizacao": 2,
-      "serialidade": 2,
-      "inscricao_estatal": 3
-    },
-    "citation_abnt": "3e Emprunt de la Défense nationale (République française)",
-    "support": "cartaz"
+    "citation_abnt": "Bons de la Défense nationale"
   },
   {
     "id": "FR-025",
@@ -4969,8 +4770,7 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "Emprunt national 1920 (Société générale)",
-    "support": "cartaz"
+    "citation_abnt": "Emprunt national 1920 (Société générale)"
   },
   {
     "id": "FR-026",
@@ -5000,8 +4800,7 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "Emprunt national 1920 (Banque Nationale de Paris et des Pays-Bas)",
-    "support": "cartaz"
+    "citation_abnt": "Emprunt national 1920 (Banque Nationale de Paris et des Pays-Bas)"
   },
   {
     "id": "FR-027",
@@ -5031,8 +4830,7 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "Emprunt de la Libération (Rente française 1918)",
-    "support": "cartaz"
+    "citation_abnt": "Emprunt de la Libération (Rente française 1918)"
   },
   {
     "id": "FR-028",
@@ -5063,8 +4861,7 @@
       "serialidade": 1,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "Prêtez à la France pour qu'elle grandisse dans le rayonnement de la Paix!",
-    "support": "cartaz"
+    "citation_abnt": "Prêtez à la France pour qu'elle grandisse dans le rayonnement de la Paix!"
   },
   {
     "id": "FR-029",
@@ -5094,8 +4891,7 @@
       "serialidade": 3,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "Emprunt national 1920 (Société centrale des banques de province)",
-    "support": "cartaz"
+    "citation_abnt": "Emprunt national 1920 (Société centrale des banques de province)"
   },
   {
     "id": "FR-030",
@@ -5126,8 +4922,7 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "En avant! Armée de l'Épargne, c'est pour la Patrie",
-    "support": "cartaz"
+    "citation_abnt": "En avant! Armée de l'Épargne, c'est pour la Patrie"
   },
   {
     "id": "FR-031",
@@ -5161,8 +4956,7 @@
     "citation_abnt": "Madame Anastasie (avec les ciseaux de la censure)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-032",
@@ -5196,8 +4990,7 @@
     "citation_abnt": "La Paix — Idylle",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-033",
@@ -5231,8 +5024,7 @@
     "citation_abnt": "L'Empire c'est la paix",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-036",
@@ -5267,8 +5059,7 @@
     "audit_flags": [
       "sem-url",
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-038",
@@ -5303,8 +5094,7 @@
       "sem-url",
       "sem-thumbnail",
       "lpai_v2_enrich_fr_scout_006"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "FR-039",
@@ -5339,8 +5129,7 @@
     "audit_flags": [
       "sem-url",
       "sem-thumbnail"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "FR-047",
@@ -5376,8 +5165,7 @@
       "sem-url",
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-048",
@@ -5412,8 +5200,7 @@
       "sem-url",
       "sem-thumbnail",
       "busca-2026-06-19: sem URL primária encontrada; evidência secundária de Dalou/Sèvres 1888-1900 não confirma data 1889"
-    ],
-    "support": "cerâmica"
+    ]
   },
   {
     "id": "FR-049",
@@ -5433,8 +5220,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-050",
@@ -5454,8 +5240,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-051",
@@ -5486,8 +5271,7 @@
     "citation_abnt": "N° 5 - Take up the sword of justice",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-052",
@@ -5518,8 +5302,7 @@
     "citation_abnt": "[La Justice, la Vengeance et la Vérité] : [estampe] / F. Chifflart",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-053",
@@ -5551,8 +5334,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-054",
@@ -5572,8 +5354,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-055",
@@ -5593,8 +5374,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-056",
@@ -5614,8 +5394,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-057",
@@ -5635,8 +5414,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-058",
@@ -5656,8 +5434,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-059",
@@ -5677,8 +5454,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-060",
@@ -5698,8 +5474,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-061",
@@ -5719,8 +5494,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-062",
@@ -5740,8 +5514,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-063",
@@ -5761,8 +5534,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-064",
@@ -5782,8 +5554,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-065",
@@ -5803,8 +5574,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-066",
@@ -5824,8 +5594,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-067",
@@ -5845,8 +5614,7 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-068",
@@ -5878,8 +5646,7 @@
     "citation_abnt": "Semeuse — Série de selos definitivos França (1903–1938)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-069",
@@ -5910,8 +5677,7 @@
     "citation_abnt": "La Semeuse (15 centimes, type Roty) — selo definitivo francês",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-070",
@@ -5942,8 +5708,7 @@
     "citation_abnt": "10 Centimes Semeuse Camée — Fond Plein sans Sol (France, 1906)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-071",
@@ -5974,8 +5739,7 @@
     "citation_abnt": "1 Piastre de Commerce — French Indochina (Marianne seated)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-072",
@@ -5994,8 +5758,7 @@
     "citation_abnt": "La République (en hauteur) — Exposição Internacional de Paris 1889",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-073",
@@ -6026,8 +5789,7 @@
     "citation_abnt": "La Constitution Française : Fondée sur la liberté naturelle et les Droits",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-074",
@@ -6058,8 +5820,7 @@
     "citation_abnt": "Allégorie de la République de 1789, 1830 et 1848",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-075",
@@ -6090,8 +5851,7 @@
     "citation_abnt": "Proclamation de la Constitution 1848",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-076",
@@ -6110,8 +5870,7 @@
     "citation_abnt": "République de Clésinger (fotografia de demonstração)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "fotografia"
+    ]
   },
   {
     "id": "FR-077",
@@ -6142,8 +5901,7 @@
     "citation_abnt": "[Le Dauphin dans les bras de la Foi entre la Force et la Justice] : [estampe]",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-078",
@@ -6162,8 +5920,7 @@
     "citation_abnt": "Étude pour le 1er mai? (Steinlen)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-079",
@@ -6182,8 +5939,7 @@
     "citation_abnt": "[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-080",
@@ -6202,8 +5958,7 @@
     "citation_abnt": "[La Justice entre la Charité et la Force] : [dessin] / [anonyme des Pays-Bas,",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-081",
@@ -6234,8 +5989,7 @@
     "citation_abnt": "[Les péchés capitaux] ; [1]. [La Justice] : [estampe] CON FRINGE . EOS. VIRGA",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-082",
@@ -6266,8 +6020,7 @@
     "citation_abnt": "[Allégorie en l''honneur de Jules Mazarin (1602-1661)] : [estampe] ([1er",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-083",
@@ -6286,8 +6039,7 @@
     "citation_abnt": "18/1/33, [de gauche à droite] M. Mistler [sous-secrétaire d''Etat aux Beaux-Arts],",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-084",
@@ -6318,8 +6070,7 @@
     "citation_abnt": "9-4-33, [reconstitution historique de la période révolutionnaire, quartier",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-085",
@@ -6350,8 +6101,7 @@
     "citation_abnt": "[La Justice] : [estampe]",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-086",
@@ -6370,8 +6120,7 @@
     "citation_abnt": "La Province de Berry. La Généralité de Bourges, ou sont les Eslections de",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-087",
@@ -6402,8 +6151,7 @@
     "citation_abnt": "Allégorie à la Constitution, dédié à la nation françoise",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-088",
@@ -6422,8 +6170,7 @@
     "citation_abnt": "Unité indivisibilité de la République (j'ai rompu mes chaines vive la liberté)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-089",
@@ -6454,8 +6201,7 @@
     "citation_abnt": "[Allégorie en l''honneur de Louis XIII (1601-1643)] : [estampe] ([Seul état",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-090",
@@ -6486,8 +6232,7 @@
     "citation_abnt": "D''une vapeur infernale qui couvre le palais de nos rois, sortent la chimère",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-091",
@@ -6519,8 +6264,7 @@
     "citation_abnt": "Le Triomphe de la Republique -- Ode triomphale, Fetes du Centenaire de 1789",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-092",
@@ -6551,8 +6295,7 @@
     "citation_abnt": "Type Sage — Paix et Commerce, Selo Definitivo da República Francesa",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "selo"
+    ]
   },
   {
     "id": "FR-093",
@@ -6583,8 +6326,7 @@
     "citation_abnt": "La Justice — porcelaine de Sèvres (1889)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "cerâmica"
+    ]
   },
   {
     "id": "FR-094",
@@ -6615,8 +6357,7 @@
     "citation_abnt": "Navigation et Commerce — Selo Colonial Francês (Louis-Eugène Mouchon)",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-095",
@@ -6647,8 +6388,7 @@
     "citation_abnt": "Cérès — Première Émission de la République Française",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-096",
@@ -6667,8 +6407,7 @@
     "citation_abnt": "Allegory of the French Republic",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-ASSIGNAT-1792",
@@ -6699,8 +6438,7 @@
     "citation_abnt": "Assignat de 400 livres (21 nov. 1792, an premier de la République)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "FR-CERES-5F-1849",
@@ -6731,8 +6469,7 @@
     "citation_abnt": "5 Francs (Cérès, 2e République)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-HERC-1870",
@@ -6769,8 +6506,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-PIAST-1885",
@@ -6807,8 +6543,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-SEM-1898",
@@ -6843,8 +6578,7 @@
     "citation_abnt": "Semeuse 1 Franc silver coin (Oscar Roty)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "FR-SEM-SELO-1903",
@@ -6880,8 +6614,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "IT-005",
@@ -6914,8 +6647,7 @@
     "citation_abnt": "Sottoscrivete al Prestito — Italia Turrita",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "IT-006",
@@ -6948,8 +6680,7 @@
     "citation_abnt": "100 Lire \"Minerva\" — Testa d'Italia laureata",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "IT-007",
@@ -6982,8 +6713,7 @@
     "citation_abnt": "500 Lire \"Caravelle\" — Italia Turrita",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "IT-008",
@@ -7017,8 +6747,7 @@
     "citation_abnt": "Selo \"Siracusana\" — Italia Turrita",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "MX-001",
@@ -7054,8 +6783,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "MX-002",
@@ -7089,8 +6817,7 @@
     "citation_abnt": "Alegoría de la República Mexicana con Símbolos Masónicos",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "pintura"
+    ]
   },
   {
     "id": "NL-001",
@@ -7126,8 +6853,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "NL-002",
@@ -7162,8 +6888,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "NL-003",
@@ -7198,8 +6923,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "NL-004",
@@ -7234,8 +6958,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "NL-005",
@@ -7271,8 +6994,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "NL-006",
@@ -7307,8 +7029,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "NL-007",
@@ -7343,8 +7064,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "NL-008",
@@ -7379,8 +7099,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "PT-001",
@@ -7413,8 +7132,7 @@
     "citation_abnt": "UNIÃO DEMOCRÁTICA POPULAR. Justiça popular: o Pide que assassinou Dias Coelho vai ser julgado nas costas do povo! [1975?]. 1 cartaz. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular.",
     "audit_flags": [
       "fora-do-escopo"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "PT-002",
@@ -7448,8 +7166,7 @@
     "citation_abnt": "[ALEGORIA à História]. c. 1600. 1 gravura, água-forte, p&b. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/records/item/39213-alegoria-a-historia.",
     "audit_flags": [
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "PT-003",
@@ -7482,8 +7199,7 @@
     "citation_abnt": "QUILLARD, Pierre Antoine. Alegoria à Morte. 1730. 1 gravura. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/records/item/37491-alegoria-a-morte.",
     "audit_flags": [
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "PT-004",
@@ -7516,8 +7232,7 @@
     "citation_abnt": "QUILLARD, Pierre Antoine. Alegoria ao Tempo. 1730. 1 gravura. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/records/item/37507-alegoria-ao-tempo.",
     "audit_flags": [
       "fora-do-escopo"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "PT-005",
@@ -7552,8 +7267,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "PT-006",
@@ -7587,8 +7301,7 @@
     "citation_abnt": "1 Escudo \"Alvorada\" — Primeira República Portuguesa",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "PT-007",
@@ -7622,8 +7335,7 @@
     "citation_abnt": "Série Ceres — Selo definitivo da República Portuguesa",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "selo"
+    ]
   },
   {
     "id": "SCOUT-337",
@@ -7658,8 +7370,7 @@
     "audit_flags": [
       "sem-url",
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "SCOUT-414",
@@ -7690,8 +7401,7 @@
     "citation_abnt": "A República nos braços de Floriano",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "SCOUT-558",
@@ -7727,8 +7437,7 @@
       "sem-url",
       "sem-thumbnail",
       "placeholder-url-resolved-numista-210100"
-    ],
-    "support": "papel-moeda"
+    ]
   },
   {
     "id": "SCOUT-559",
@@ -7764,8 +7473,7 @@
       "sem-thumbnail",
       "placeholder-url-replaced-by-secondary-source",
       "identificacao-corrigida-lopes-rodrigues-1896-para-crispim-1890"
-    ],
-    "support": "pintura"
+    ]
   },
   {
     "id": "SCOUT-560",
@@ -7799,8 +7507,7 @@
       "piloto-v2",
       "core",
       "barroco-mineiro"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "SCOUT-561",
@@ -7834,8 +7541,7 @@
       "piloto-v2",
       "core",
       "cedula-1890"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "SCOUT-562",
@@ -7870,8 +7576,7 @@
       "core",
       "dado-negativo",
       "brasao-republica"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "SCOUT-563",
@@ -7906,8 +7611,7 @@
       "core",
       "imperio",
       "liberdade"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "SCOUT-564",
@@ -7942,8 +7646,7 @@
       "core",
       "republica",
       "moeda-cedula"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "SCOUT-565",
@@ -7977,8 +7680,7 @@
       "piloto-v2",
       "core",
       "selo-postal"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "SCOUT-566",
@@ -8013,8 +7715,7 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "SCOUT-567",
@@ -8049,8 +7750,7 @@
       "core",
       "dado-negativo",
       "oceanos-rios"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "SCOUT-568",
@@ -8084,8 +7784,7 @@
       "piloto-v2",
       "core",
       "monumento-publico"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "SCOUT-569",
@@ -8119,8 +7818,7 @@
       "piloto-v2",
       "comparador",
       "barroco-mineiro"
-    ],
-    "support": "pintura"
+    ]
   },
   {
     "id": "SCOUT-570",
@@ -8154,8 +7852,7 @@
       "piloto-v2",
       "comparador",
       "america-alegorizada"
-    ],
-    "support": "frontispício"
+    ]
   },
   {
     "id": "SCOUT-571",
@@ -8190,8 +7887,7 @@
       "comparador",
       "iconoclasmo",
       "mexico-2021"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "SCOUT-572",
@@ -8226,8 +7922,7 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "SCOUT-573",
@@ -8263,8 +7958,7 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "SCOUT-574",
@@ -8300,8 +7994,7 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "UK-001",
@@ -8337,8 +8030,7 @@
     "citation_abnt": "JUSTITIA enthroned, with sword and scales. Século XVII. 1 gravura. British Museum, London. Disponível em: https://www.britishmuseum.org/collection/object/P_1870-0625-185.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "UK-002",
@@ -8373,8 +8065,7 @@
     "citation_abnt": "PROVIDENCE and Justice (personificações femininas em nichos). [s.d.]. 1 gravura. British Museum, London. Disponível em: https://www.britishmuseum.org/collection/object/P_1862-0712-304.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "UK-003",
@@ -8410,8 +8101,7 @@
     "citation_abnt": "JUSTITIA and Prudentia (personificações femininas). [s.d.]. 1 gravura. British Museum, London. Disponível em: https://www.britishmuseum.org/collection/object/P_1862-0712-305.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "UK-004",
@@ -8443,8 +8133,7 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "POMEROY, Frederick William. Lady Justice. 1907. 1 escultura em bronze dourado. Central Criminal Court (Old Bailey), London. Disponível em: http://www.speel.me.uk/sculptlondon/oldbaileyjustice.htm.",
-    "support": "monumento/escultura"
+    "citation_abnt": "POMEROY, Frederick William. Lady Justice. 1907. 1 escultura em bronze dourado. Central Criminal Court (Old Bailey), London. Disponível em: http://www.speel.me.uk/sculptlondon/oldbaileyjustice.htm."
   },
   {
     "id": "UK-005",
@@ -8479,8 +8168,7 @@
     "citation_abnt": "DELAUNE, Étienne. Woman holding sword and scales of justice (Jurisprudentia). c. 1560. 1 gravura. Wellcome Collection, London. Disponível em: https://wellcomecollection.org/works/rkvhanzr.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "UK-006",
@@ -8516,8 +8204,7 @@
     "citation_abnt": "KEALEY, Ernest James. Women of Britain say 'Go!'. 1915. 1 litografia colorida (cartaz). Imperial War Museum, London. Disponível em: https://www.iwm.org.uk/collections/item/object/14592.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "UK-009",
@@ -8551,8 +8238,7 @@
     "citation_abnt": "Take Up the Sword of Justice",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "UK-010",
@@ -8586,8 +8272,7 @@
     "citation_abnt": "Two Forces — Britannia protecting Hibernia",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "UK-011",
@@ -8606,8 +8291,7 @@
     "citation_abnt": "model for reverse for the 1851 Exhibition Prize Medal",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "UK-012",
@@ -8626,8 +8310,7 @@
     "citation_abnt": "Model",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "UK-013",
@@ -8646,8 +8329,7 @@
     "citation_abnt": "Plaque",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "UK-014",
@@ -8666,8 +8348,7 @@
     "citation_abnt": "The Cowper Seal Cups",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "UK-015",
@@ -8686,8 +8367,7 @@
     "citation_abnt": "Fan",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "UK-016",
@@ -8706,8 +8386,7 @@
     "citation_abnt": "Design for the ceiling of the Great Hall at Blenheim",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "UK-017",
@@ -8726,8 +8405,7 @@
     "citation_abnt": "Medal",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "UK-018",
@@ -8758,8 +8436,7 @@
     "citation_abnt": "King George V Seahorses — Britannia Rules the Waves",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "UK-FLORIN-1902",
@@ -8790,8 +8467,7 @@
     "citation_abnt": "1 Florin — Britannia Standing on Ship Prow (Edward VII)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "UK-HALFPENNY-1695",
@@ -8823,8 +8499,7 @@
     "citation_abnt": "½ Penny — William III (1st issue) / Britannia seated (earliest coin)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "UK-PENNY-1860",
@@ -8862,8 +8537,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "UK-PENNY-1895",
@@ -8894,8 +8568,7 @@
     "citation_abnt": "One Penny -- Victoria Veiled Head / Britannia Seated with Trident",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "UK-PENNY-1912",
@@ -8926,8 +8599,7 @@
     "citation_abnt": "1 Penny — Britannia Seated, Helmeted (George V, 1912)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "UK-TRADE-1895",
@@ -8964,8 +8636,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "US-001",
@@ -8997,8 +8668,7 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "AMERICA pois'd in the balance of justice. 1776. 1 gravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2004673327/.",
-    "support": "estampa/gravura"
+    "citation_abnt": "AMERICA pois'd in the balance of justice. 1776. 1 gravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2004673327/."
   },
   {
     "id": "US-002",
@@ -9029,8 +8699,7 @@
       "serialidade": 2,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "CRAWFORD, Thomas. Justice and History (modelo para o Capitólio dos EUA). c. 1860. 1 fotografia (salt print). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2009631377/.",
-    "support": "fotografia"
+    "citation_abnt": "CRAWFORD, Thomas. Justice and History (modelo para o Capitólio dos EUA). c. 1860. 1 fotografia (salt print). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2009631377/."
   },
   {
     "id": "US-003",
@@ -9061,8 +8730,7 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "JUSTICE (mulher vendada com espada e balança). [s.d.]. 1 gravura em aço. US Bureau of Printing & Engraving. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2007675578/.",
-    "support": "?"
+    "citation_abnt": "JUSTICE (mulher vendada com espada e balança). [s.d.]. 1 gravura em aço. US Bureau of Printing & Engraving. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2007675578/."
   },
   {
     "id": "US-004",
@@ -9095,8 +8763,7 @@
       "serialidade": 3,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "ROMBERG, Maurice. Foire France-Américaine: Justice, Liberty, Demeter, Athena. 1917. 1 litogravura colorida. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/99613542/.",
-    "support": "cartaz"
+    "citation_abnt": "ROMBERG, Maurice. Foire France-Américaine: Justice, Liberty, Demeter, Athena. 1917. 1 litogravura colorida. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/99613542/."
   },
   {
     "id": "US-005",
@@ -9131,8 +8798,7 @@
     "citation_abnt": "TRENCHARD, James. Behold! a fabric now to freedom rear'd. 1788. 1 gravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2004676797/.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "US-006",
@@ -9166,8 +8832,7 @@
     "citation_abnt": "WILL, Johann Martin. Die Wage der Macht / La balance de la puissance. 1780. 1 gravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2004673370/.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "US-007",
@@ -9197,8 +8862,7 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "COLUMBIA presenting sword to Admiral Dewey. 1899. 1 cromolitogravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2018697020/.",
-    "support": "estampa/gravura"
+    "citation_abnt": "COLUMBIA presenting sword to Admiral Dewey. 1899. 1 cromolitogravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2018697020/."
   },
   {
     "id": "US-008",
@@ -9233,8 +8897,7 @@
     "citation_abnt": "HEDWIG Reicher as Columbia in suffrage pageant. 1913. 1 fotografia. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/97510759/.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "fotografia"
+    ]
   },
   {
     "id": "US-009",
@@ -9267,8 +8930,7 @@
     "citation_abnt": "THE GODDESS of Liberty (mulher com capa estrelada). 1861. 1 fotografia (carte de visite). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2018664118/.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "fotografia"
+    ]
   },
   {
     "id": "US-010",
@@ -9303,8 +8965,7 @@
     "citation_abnt": "BELL, Jared W. Temple of liberty. 1834. 1 xilogravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2008661765/.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "US-011",
@@ -9340,8 +9001,7 @@
     "citation_abnt": "FLAGG, James Montgomery. Wake up America! Civilization calls every man, woman and child! 1917. 1 litografia colorida (cartaz). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/91726511/.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "US-012",
@@ -9376,42 +9036,7 @@
     "citation_abnt": "HALSTED, Frances Adams (des.); ADERENTE, Vincente (paint.). Columbia calls—Enlist now for U.S. Army. 1917. 1 litografia colorida (cartaz). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/95506508/.",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "cartaz"
-  },
-  {
-    "id": "US-016",
-    "country": "United States",
-    "url": "https://www.loc.gov/item/91726511/",
-    "title": "Wake Up America! Civilization Calls Every Man, Woman and Child!",
-    "description": "Columbia adormecida contra coluna fluted, vestindo manto de stars-and-stripes e barrete frígio. Nuvens de tempestade ao fundo. Atriz Mary Arthur serviu de modelo. Impresso para o \"Wake Up America Day\" de 19 de abril de 1917.",
-    "motif": [
-      "Columbia",
-      "Liberty",
-      "mobilization"
-    ],
-    "regime": "militar",
-    "endurecimento_score": 1.9,
-    "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07T00:00:00Z",
-    "date": "1917",
-    "indicadores": {
-      "desincorporacao": 2,
-      "rigidez_postural": 2,
-      "dessexualizacao": 2,
-      "uniformizacao_facial": 2,
-      "heraldizacao": 2,
-      "enquadramento_arquitetonico": 2,
-      "apagamento_narrativo": 2,
-      "monocromatizacao": 1,
-      "serialidade": 2,
-      "inscricao_estatal": 2
-    },
-    "citation_abnt": "Wake Up America! Civilization Calls Every Man, Woman and Child!",
-    "audit_flags": [
-      "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "US-017",
@@ -9445,8 +9070,7 @@
     "citation_abnt": "Columbia Calls — Enlist Now for U.S. Army",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "US-018",
@@ -9479,8 +9103,7 @@
     "citation_abnt": "Fight or Buy Bonds — Third Liberty Loan",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "US-019",
@@ -9514,8 +9137,7 @@
     "citation_abnt": "Liberty Is Not Anarchy",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "US-020",
@@ -9549,8 +9171,7 @@
     "citation_abnt": "Looking Backward",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "US-021",
@@ -9581,8 +9202,7 @@
     "citation_abnt": "Landing of Columbus — Columbia Allegorical Stamp",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "selo"
+    ]
   },
   {
     "id": "US-022",
@@ -9601,8 +9221,7 @@
     "citation_abnt": "Justice to the Jew : the story of what he has done for the world",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "US-023",
@@ -9621,8 +9240,7 @@
     "citation_abnt": "An encyclopedist of the dark ages : Isidore of Seville,",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "US-024",
@@ -9641,8 +9259,7 @@
     "citation_abnt": "Saint Tammany and the origin of the Society of Tammany, or Columbian order",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "US-025",
@@ -9674,8 +9291,7 @@
     "citation_abnt": "Statue of the Republic -- World's Columbian Exposition, Chicago",
     "audit_flags": [
       "vault-import"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "US-BANNER-1861",
@@ -9707,8 +9323,7 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "HAIL! Glorious banner of our land. 1861. 1 litografia colorida. Library of Congress. Disponível em: https://www.loc.gov/item/91721286/. Acesso em: 11 abr. 2026.",
-    "support": "cartaz"
+    "citation_abnt": "HAIL! Glorious banner of our land. 1861. 1 litografia colorida. Library of Congress. Disponível em: https://www.loc.gov/item/91721286/. Acesso em: 11 abr. 2026."
   },
   {
     "id": "US-EDUC-1896-01",
@@ -9739,8 +9354,7 @@
     "citation_abnt": "1 Dollar Silver Certificate 'Educational Series' — History Instructing Youth",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "US-EDUC-1896-02",
@@ -9776,8 +9390,7 @@
     "citation_abnt": "Science Presenting Steam and Electricity to Commerce and Manufacture ($2 Silver Certificate)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "US-EDUC-1896-05",
@@ -9812,8 +9425,7 @@
     "citation_abnt": "Electricity Presenting Light to the World ($5 Silver Certificate)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "US-NAST-1864",
@@ -9847,8 +9459,7 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "NAST, Thomas. The blessings of victory. 1864. 1 fotografia de gravura em madeira (carte de visite). Library of Congress. Disponível em: https://www.loc.gov/item/2022631575/. Acesso em: 11 abr. 2026.",
-    "support": "?"
+    "citation_abnt": "NAST, Thomas. The blessings of victory. 1864. 1 fotografia de gravura em madeira (carte de visite). Library of Congress. Disponível em: https://www.loc.gov/item/2022631575/. Acesso em: 11 abr. 2026."
   },
   {
     "id": "US-SEATED-1840",
@@ -9879,8 +9490,7 @@
     "citation_abnt": "1 Dollar 'Seated Liberty' (without motto)",
     "audit_flags": [
       "sem-thumbnail"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "US-SLQ-1916",
@@ -9916,8 +9526,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "UY-001",
@@ -9953,8 +9562,7 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ],
-    "support": "monumento/escultura"
+    ]
   },
   {
     "id": "a4b437a8-91a7-21bc-1311-eac2ffc47da0",
@@ -9987,8 +9595,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-pre-1800-genealogia",
       "orig-batch-id:drive-import-2026-05-19-sq4-2026-0"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "a7971ac5-e277-f70a-bb11-ba25db7e6ac0",
@@ -10021,8 +9628,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
-    ],
-    "support": "cartaz"
+    ]
   },
   {
     "id": "ac900ea3-9461-bae5-e797-f93d58d4845b",
@@ -10055,8 +9661,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-pre-1800-genealogia",
       "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
-    ],
-    "support": "?"
+    ]
   },
   {
     "id": "bc06d4cc-455f-530e-b86b-e046378979a3",
@@ -10213,8 +9818,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "d0038985-b3c8-5468-8d56-980c467faa9e",
@@ -10371,8 +9975,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
-    ],
-    "support": "estampa/gravura"
+    ]
   },
   {
     "id": "df5d3195-0161-5ded-b336-22f89cec0703",
@@ -10467,8 +10070,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
-    ],
-    "support": "moeda"
+    ]
   },
   {
     "id": "f988255c-abaa-fb73-74fb-fcbce9abdaa8",
@@ -10501,8 +10103,7 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-pre-1800-genealogia",
       "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
-    ],
-    "support": "frontispício"
+    ]
   },
   {
     "id": "fb26ccd4-5b0f-e074-b888-b5dd666f997c",
@@ -10535,45 +10136,6 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ],
-    "support": "estampa/gravura"
-  },
-  {
-    "id": "ff43ad57-b420-3e54-24ec-9d15caef8d64",
-    "country": "Brazil",
-    "url": "https://www.portinari.org.br/acervo/obras/18112/a-justica-de-salomao",
-    "title": "A Justiça de Salomão",
-    "description": "Painel em têmpera sobre tela (179 × 191 cm) que retrata a cena bíblica do julgamento de Salomão: o rei, sentado em trono, segura uma criança nua em uma mão e um facão na outra, enquanto a mãe verdadeira, de joelhos em atitude de súplica, e a falsa mãe, arrogante ao fundo, completam a composição. Executado para decorar a sede da Rádio Tupi de São Paulo, a obra foi emprestada ao MASP em 1947 e doada em 1959. Obra tombada sob nº 327.",
-    "motif": [
-      "Justiça de Salomão",
-      "julgamento",
-      "espada",
-      "criança",
-      "figuras femininas",
-      "figuras masculinas",
-      "Iustitia",
-      "lei"
-    ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.9,
-    "coded_by": "iconocode-sonnet5",
-    "coded_at": "2026-07-01T00:00:00Z",
-    "date": "1948",
-    "indicadores": {
-      "desincorporacao": 2,
-      "rigidez_postural": 0,
-      "dessexualizacao": 1,
-      "uniformizacao_facial": 1,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 1,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 3,
-      "serialidade": 0,
-      "inscricao_estatal": 1
-    },
-    "citation_abnt": "PORTINARI, Candido. A Justiça de Salomão. [1948]. Têmpera sobre tela, 179 × 191 cm. Museu de Arte de São Paulo Assis Chateaubriand (MASP), São Paulo. Projeto Portinari, FCO-2742. Disponível em: https://www.portinari.org.br/acervo/obras/18112/a-justica-de-salomao. Acesso em: 19 maio 2026.",
-    "audit_flags": [
-      "drive-import-2026-06-04"
     ]
   }
 ]

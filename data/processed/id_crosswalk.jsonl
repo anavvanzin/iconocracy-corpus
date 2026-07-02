@@ -1,318 +1,316 @@
-{"handle": "03a9622f-6b17-5876-843c-4e49e4684441", "uuid": "03a9622f-6b17-5876-843c-4e49e4684441", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "0754a19f-a859-99e5-932d-17f5181496b2", "uuid": "0754a19f-a859-99e5-932d-17f5181496b2", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "089fc944-332e-5647-a2df-f366de58532f", "uuid": "089fc944-332e-5647-a2df-f366de58532f", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "08da86db-847d-51f8-b000-50fa8fb51ff3", "uuid": "08da86db-847d-51f8-b000-50fa8fb51ff3", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "0970108c-1619-50f5-bc85-719eb5f80aee", "uuid": "0970108c-1619-50f5-bc85-719eb5f80aee", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "09f8d8d5-4d94-5225-aa60-9827a8bf1c08", "uuid": "09f8d8d5-4d94-5225-aa60-9827a8bf1c08", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "0bf85996-a2f4-53c6-9bf8-1334ede7d1b8", "uuid": "0bf85996-a2f4-53c6-9bf8-1334ede7d1b8", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "14990163-f5e4-a143-0d6b-288477d89a2b", "uuid": "14990163-f5e4-a143-0d6b-288477d89a2b", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "1589cd9a-0569-5524-bb61-5c64de1e92d1", "uuid": "1589cd9a-0569-5524-bb61-5c64de1e92d1", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "19238273-c090-53e6-b531-23397f36677b", "uuid": "19238273-c090-53e6-b531-23397f36677b", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "235c545a-f3b8-568a-f268-178806a4bf07", "uuid": "235c545a-f3b8-568a-f268-178806a4bf07", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "2e077aa6-5e64-3c58-f33b-99b0bcfcef83", "uuid": "2e077aa6-5e64-3c58-f33b-99b0bcfcef83", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "387bc54c-e8c7-50be-b24b-a3396f1bc1da", "uuid": "387bc54c-e8c7-50be-b24b-a3396f1bc1da", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "3bc72151-1996-f7ca-b282-512024e54acf", "uuid": "3bc72151-1996-f7ca-b282-512024e54acf", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "3cb602f7-56b5-5b48-871e-629b65b216c8", "uuid": "3cb602f7-56b5-5b48-871e-629b65b216c8", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "3cca844a-daff-511a-abc2-f6a2a8ce2210", "uuid": "3cca844a-daff-511a-abc2-f6a2a8ce2210", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "3f9ebcea-2b43-5823-b888-15c706bf65d1", "uuid": "3f9ebcea-2b43-5823-b888-15c706bf65d1", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "46131280-d556-5ccf-b78f-f90523da0334", "uuid": "46131280-d556-5ccf-b78f-f90523da0334", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "49706189-9d27-da9e-59d5-3467a32a1f5e", "uuid": "49706189-9d27-da9e-59d5-3467a32a1f5e", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "4f51943f-625d-c265-60ed-73edc3d29986", "uuid": "4f51943f-625d-c265-60ed-73edc3d29986", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "64d57088-2726-543f-bc9e-e382da696aee", "uuid": "64d57088-2726-543f-bc9e-e382da696aee", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "6932b9c2-9bb3-5b21-9040-36f6323401e3", "uuid": "6932b9c2-9bb3-5b21-9040-36f6323401e3", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "69db3fb7-1fad-5090-b2a7-5e18c0438807", "uuid": "69db3fb7-1fad-5090-b2a7-5e18c0438807", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "6f5891d5-090c-499c-a3bc-4ff71ee6307b", "uuid": "6f5891d5-090c-499c-a3bc-4ff71ee6307b", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "7b5ea66e-0285-59ea-a652-264f8a5e90bd", "uuid": "7b5ea66e-0285-59ea-a652-264f8a5e90bd", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "80b1d4ad-1aa4-7f87-35b7-ba8cea46f0cf", "uuid": "80b1d4ad-1aa4-7f87-35b7-ba8cea46f0cf", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "8d6151b3-9928-e42e-5dbc-713c10fe1a82", "uuid": "8d6151b3-9928-e42e-5dbc-713c10fe1a82", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "93b53069-d4b7-6c55-df87-f85d0341bdbe", "uuid": "93b53069-d4b7-6c55-df87-f85d0341bdbe", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "94a8fbc2-141d-5ce5-b363-2ee57d804b49", "uuid": "94a8fbc2-141d-5ce5-b363-2ee57d804b49", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "95844673-a438-57b7-9e87-b81a8628a0f0", "uuid": "95844673-a438-57b7-9e87-b81a8628a0f0", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "AR-001", "uuid": "f8d56c8c-15cf-5406-88ef-ed0da58186e1", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "AT-001", "uuid": "30842808-e4e6-5f38-b69c-a54aa731978e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BE-001", "uuid": "8d68ddd2-0db5-571f-924a-fd2e6de46623", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BE-002", "uuid": "d77a533b-f4b7-5ea8-b61a-c7eb99b74b8c", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BE-003", "uuid": "cf7430cf-ffb0-5388-9405-88b1bb3fc281", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BE-004", "uuid": "2f663e33-8eee-5ccb-be9e-635e66e3e734", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BE-5F-LEOPOLD-1832", "uuid": "07dcf849-9f63-5c2e-959a-6682cc5475eb", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BE-CONGO-100F-1912", "uuid": "c0814fd8-eef6-5e77-a06c-7e738c073664", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BE-CONGO-1912", "uuid": "c5b2c5fa-7be3-5003-a5b6-824deaa93a94", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BE-CONGO-MON-1921", "uuid": "6b92ad6a-f23b-5c9b-b995-b66ab0297c58", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BE-IND-1880", "uuid": "47e90ddf-10f1-570a-87d3-3bc2455d86d0", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-001", "uuid": "858046d0-0125-5d97-aa38-5d07f862121b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-002", "uuid": "d5c61575-cba7-5262-bf20-9017fad5d3cd", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-003", "uuid": "ae8876ff-0ecb-5084-a871-3a205b8caba6", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-004", "uuid": "b86d93a1-9594-523d-ba2b-31e8e521ea1a", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-005", "uuid": "bfac2d3e-5230-5a27-970b-625e5eb7ed24", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-006", "uuid": "ad43ba55-c523-5f19-a667-0bd5872a9867", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-007", "uuid": "00a6bd05-0b74-54b4-9b93-604a012aaab6", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-008", "uuid": "7a71b130-c538-5e0c-9cac-abcffb85824f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-009", "uuid": "9eecda17-15eb-59ad-9071-d882725f90f5", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-010", "uuid": "9d3c618f-a0d5-5cc2-9091-126fab13fddb", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-017", "uuid": "c02356de-a24e-52bc-9ee8-15d6cec55a4b", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-020", "uuid": "99e4822c-1745-5100-8aa9-e02b4b274169", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-021", "uuid": "e191793f-1b9b-5203-b76e-feaab78095e6", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-022", "uuid": "f0f04465-d41d-579f-98b7-65c179e32b19", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-023", "uuid": "78585725-f38d-5c83-a89f-048df3f6d22f", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-024", "uuid": "36e20300-49aa-5a7f-b626-70c8d058d5f8", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-025", "uuid": "0e0cd716-6505-5fce-8581-166cd3f52b0c", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-026", "uuid": "2a05e121-c939-5ce8-8817-80972641c0b9", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-027", "uuid": "4c0f5cd1-05a1-5c46-baff-294aed50d29c", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-028", "uuid": "eab8779d-bf68-564c-b5b5-8b722e627205", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-029", "uuid": "1233c2da-4db4-5849-8ceb-93814eff07c8", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-030", "uuid": "af0ecea6-98f2-5021-b6ce-41d147657566", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-031", "uuid": "cb3957df-4209-5690-a135-cdb1ff572393", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-032", "uuid": "8bb76a45-d163-58b5-a829-4081c52d9ac0", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-033", "uuid": "50dff094-e01e-50b0-96f7-df8283f628cc", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-034", "uuid": "39d195a5-6c5b-5258-b0a7-bc5ad1688df0", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-035", "uuid": "2a2acf5c-7a1d-566e-bbf5-becbaa7d4da0", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-036", "uuid": "f45fb749-358f-5f40-a798-178a68363c84", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-037", "uuid": "51b5a74a-99b1-5d57-b1fb-5f6a4d0a5087", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-039", "uuid": "03075694-0e68-5b33-afb2-3c60687f498b", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-040", "uuid": "de7d8e5b-feee-588a-b9e7-69dc588b3a0c", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-041", "uuid": "06ffa064-566d-5250-bb87-cb70c7ca6281", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-042", "uuid": "0982e2d1-9591-5fce-9146-143f183fc95a", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-043", "uuid": "c1132ea4-7d8d-5223-a690-255b4ebb6593", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-044", "uuid": "1e9bf44b-95a3-5a8a-b592-69f131dae892", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-045", "uuid": "2cdd2590-27b7-55f4-be09-be9ef1171abd", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-046", "uuid": "1f19caed-dbcb-52d6-8373-985bf037b7c8", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-1000R-1906", "uuid": "44111531-bcf0-5f24-aea3-f893306094c6", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-1CR-1970", "uuid": "8a5d8e43-91a1-5329-8e02-fcb98d10fd7f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-2000R-1907", "uuid": "2e6062c1-2f33-55bc-8771-755a329e4272", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "BR-50CR-1965", "uuid": "3716cf7b-d1f9-53d8-85d2-dda0b5b8cc70", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-001", "uuid": "2b43276d-4e89-5e59-adbb-19d2bf02ca2b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-002", "uuid": "569e5eea-63a8-5e2a-857f-215cf8318fd8", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-003", "uuid": "285d6e4c-6025-5e81-be44-895cf155a246", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-004", "uuid": "5352292c-7d4e-5107-83e7-e76a384bd1e2", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-005", "uuid": "42b4bcfd-a6b4-5f19-8eda-46b2a9aa514b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-006", "uuid": "36126895-7ef9-5e7b-8e79-4c8ccad914f6", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-007", "uuid": "7039191c-a457-5402-a453-ab28e3fe333c", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-008", "uuid": "f7cb69ba-8837-54ba-af4c-f242f8c93ca4", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-009", "uuid": "5aa4b8a3-717f-5893-af0e-a0e6641fd3ff", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-010", "uuid": "e0aa63ae-d062-5035-bdbc-8f55daaff1be", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-011", "uuid": "9595e808-fc2a-58b9-9807-9b4dbbfef69d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-012", "uuid": "2ef37c3e-29de-5883-b2a7-ce2d2b3c898c", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-013", "uuid": "f78e3dff-d7b9-5015-95a2-4075ecfd5709", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-014", "uuid": "96d48346-62b9-5d47-9463-c50458148fd9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-015", "uuid": "f4a4e50f-0c41-5103-9081-30e700c8f646", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-016", "uuid": "f96693a2-99a6-53c7-9f7c-3f016270b000", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-017", "uuid": "3f7d2171-8dbb-562f-a412-496405849263", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-018", "uuid": "c9d3a591-3572-5c60-9620-a8a534d6d307", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-019", "uuid": "f4b599f9-72a3-563b-8312-eb0c20e04153", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-020", "uuid": "f2f019c1-8689-5589-a9c1-2b965269da6e", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-021", "uuid": "7dea14ce-d3b8-557e-8850-d1e638ddef8a", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-1000M-1910", "uuid": "e3479a03-4866-5324-b4b7-a7dabdbe6226", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-100M-1908", "uuid": "be91e95b-9083-5bac-97af-cefefb7fd765", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-50M-1919", "uuid": "5c3d26ad-718c-5bd8-886f-72d01a5e6a0d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-GERM-1900", "uuid": "f54bc16b-c0ed-5e46-9fdf-26d55cf26bd2", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-GERM-BELG-1914", "uuid": "99a7c9ba-d743-521e-aef2-73993de09ef7", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-WR-1919-50M", "uuid": "f049b319-a096-557c-909f-22d90a00425e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "DE-WR-1924-50PF", "uuid": "62599722-19a6-5eb3-ae51-4cfe6b85f0e3", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "ES-001", "uuid": "7fdb154e-59f3-50ca-bacf-c3bf48f088d9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "ES-002", "uuid": "6efb7eb7-6b98-5c52-a48d-199e388d8fa4", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "ES-003", "uuid": "3939a017-2bbc-578c-ad1a-1cd36a3de067", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "ES-004", "uuid": "dddd7a9f-d4ac-5575-882a-1b870707d76b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "EU-001", "uuid": "4bb745be-92c7-5080-8968-2247c2450ca1", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "EU-002", "uuid": "dcc17173-9626-5d8e-9d6b-05f1e5fad09b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "EU-003", "uuid": "6a70603a-9224-56ba-87f5-c10133b7706b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "EU-004", "uuid": "8df1b3e3-1ec6-5c79-a66f-5670ee39a725", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "EU-005", "uuid": "6b09a0e7-fb4f-5b0b-bfa9-0d252326ea41", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "EU-006", "uuid": "8794cbe1-c708-5272-843b-a4744b45b672", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "EU-007", "uuid": "ece3eab6-a3f1-5305-a03f-ae92d81c2df0", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "EU-008", "uuid": "e6c0c5b5-fbb2-5512-8874-8473ffc1c343", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "EU-009", "uuid": "48a9d6b2-6c5e-55cd-b594-d0c43e67d64e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-001", "uuid": "2852953b-8d79-54bb-a8f5-dee6142a4f0b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-002", "uuid": "39ef732e-918f-5e36-acc8-cb5a35614a3b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-003", "uuid": "9f77480d-852f-553f-932b-af68291e7d70", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-004", "uuid": "2c078aed-f767-56e8-8552-702a23a077a7", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-005", "uuid": "eac80e8f-9794-5610-8a38-962119d0cd14", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-006", "uuid": "1e7351b9-8ab6-5d9a-b6b5-30d9803ab4c9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-007", "uuid": "2b7a1a18-1a29-5703-9264-6012425c65e8", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-008", "uuid": "894174a1-4d8d-50e3-8066-dbb26d18a056", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-009", "uuid": "4d84fe99-7db7-5ea5-96cd-bca3bd57a189", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-010", "uuid": "442ad547-ffbb-5581-8290-7d514f87d0d4", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-011", "uuid": "0d805e40-ced2-5531-827d-4584ae6afc55", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-012", "uuid": "ee616189-04ab-525a-9228-d42f774a0557", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-013", "uuid": "29894605-5d67-5700-ab5b-51ac92465996", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-014", "uuid": "cbb9963f-17ae-5163-989a-5ee72f4ba146", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-015", "uuid": "b84f6d98-c8c0-58ce-b923-260059ec06ab", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-016", "uuid": "8adb7337-2867-51e5-b822-6453c2230b23", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-017", "uuid": "371f116f-4cf9-5305-8237-a4f055ad8840", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-018", "uuid": "0f062b69-9c73-59aa-86f5-c0458b4ea37c", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-019", "uuid": "5abac01e-4ee9-5db7-9f8f-a4930e55c54d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-020", "uuid": "fb40f20f-d105-55ae-b1bf-2a789c235d9a", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-021", "uuid": "69df229d-aed0-581b-9d36-cd308b676adf", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-022", "uuid": "90044d18-4b02-5be6-962f-b08539ebd2cf", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-023", "uuid": "79998b9a-be88-57ab-8514-2516584bbb2a", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-024", "uuid": "68a00893-7b89-5e58-8aef-79f89b547974", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-025", "uuid": "61d2ee4b-bbe6-5896-9482-32c212b44ed2", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-026", "uuid": "284cddfe-b22f-5bc8-82c0-56ed956b3e5e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-027", "uuid": "693e32ea-ea77-50d2-a086-b8e2e2ebcc91", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-028", "uuid": "f64abf57-a9ec-599e-a240-43f8fd9dce74", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-029", "uuid": "bc7389e9-3a1d-50a0-899e-2aae20e4a9b6", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-030", "uuid": "34422d75-51db-5d4c-a029-8851a33f61ed", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-031", "uuid": "99b666c6-ab31-5275-a4c6-01b7a9895364", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-032", "uuid": "b0788e77-c16d-5b78-9284-8429abf59022", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-033", "uuid": "21062d44-81f0-55dd-b0d1-a6e439db9c83", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-036", "uuid": "56ed1d5a-5c29-5020-94d3-fe5e5ad25834", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-038", "uuid": "e933260c-9011-5c67-ad04-4128dd7fcbb3", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-039", "uuid": "dd101f3a-1ebe-5fcb-b337-f678521f39d1", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-047", "uuid": "4e83a07f-ca7d-53c6-a77d-500ce3ec88ce", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-048", "uuid": "af855a2f-e19d-5a10-9ed6-915aa67c1ad4", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-049", "uuid": "f9d4a4c2-fa3c-5e14-84ce-d5b16a022c03", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-050", "uuid": "dcccea5a-3bc2-5743-8755-8bad2a7d47b0", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-051", "uuid": "f365d77f-dbca-533d-9aa4-4e4a3cd59a45", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-053", "uuid": "be9ffff5-7c25-5fec-b8fc-7a11b0977574", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-054", "uuid": "5d33c51c-1887-5960-aca8-fd57ae8c5fc4", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-055", "uuid": "9134d403-f05d-520f-baa8-2eb6b048a24a", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-056", "uuid": "24b4b82c-82e7-5380-a4f8-fbab0d4f1d64", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-057", "uuid": "14b85866-6a9d-5d34-ba20-3f482ce10759", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-058", "uuid": "1dbbf8e6-099d-5db0-8749-ca5886c30783", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-059", "uuid": "2a3e2f91-18be-545f-9700-d8b90170bede", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-060", "uuid": "99b72e9f-1dc8-5f1b-b02a-8d4df4f2d911", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-061", "uuid": "3a0ce268-b0e4-5a47-88cd-9d29d3cf74a9", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-062", "uuid": "f817d598-aefa-5518-8218-520e593911e7", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-063", "uuid": "8786d48c-032d-5b80-a4da-3f4dcb675410", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-064", "uuid": "fe7b843b-a6f5-5bff-966c-2987d8614d85", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-065", "uuid": "bde36c58-afcc-55d3-96e8-3ff56b7e913a", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-066", "uuid": "e835da28-d1d2-5c93-b383-108f981884fe", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-067", "uuid": "974b3d65-9d36-59d0-b565-bd29b2cb6d7d", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-068", "uuid": "2b761519-10dd-5877-95dc-caf692cad786", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-069", "uuid": "21d4f225-4269-5033-857a-4a320598f52a", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-070", "uuid": "6768abc8-8e0d-5415-9c0e-7aa3805be73c", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-071", "uuid": "787ce58d-f363-5bdb-bfbe-6a6a531624bd", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-072", "uuid": "942ef9d3-f17b-5ced-a36f-c2277a4018a1", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-073", "uuid": "39b3458f-0341-5353-a72b-acc3997f1b99", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-074", "uuid": "bc6b4ebc-fabd-5a3f-877d-5bea4616235b", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-075", "uuid": "e1e33f9f-83d1-5447-869f-6c68032ee346", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-076", "uuid": "81efcd9a-e5c1-5525-a2ed-6c4cbd0c3954", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-077", "uuid": "23b1d6f0-3431-5a81-90ff-101ded2b2181", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-078", "uuid": "8a931f74-c9a1-5eba-9bf6-d73fc6fff672", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-079", "uuid": "b746f763-090a-50cb-bbf7-4449349c95ce", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-080", "uuid": "35f21876-aec4-5b91-9439-fa0145cdd184", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-081", "uuid": "a481d78f-8df5-539e-90e1-0078dda54a6d", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-082", "uuid": "7e5a7002-8ab2-5062-9bbf-67d7f14caa7d", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-083", "uuid": "37b32ae5-0d92-5c72-b032-d7131d81e2e2", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-084", "uuid": "2c6c6e4b-d274-5ef1-91ce-5cce31c8c84b", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-085", "uuid": "958ca335-ae39-5c7d-a44e-87bf4217d3c6", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-086", "uuid": "93cfbeac-85b0-5485-b77c-94d12b54363d", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-087", "uuid": "dafa4284-f298-55a4-8610-d307a328f453", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-088", "uuid": "b52f4742-c987-5a72-8b5d-720b39aa234d", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-089", "uuid": "1171d90a-9ff7-5d91-b115-8107ef5ff344", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-090", "uuid": "31e96fc4-11a5-50e4-9c0b-8f6a91bd7dd2", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-091", "uuid": "d59aa292-df0a-5e65-b5e4-57f32b70aeb5", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-092", "uuid": "7833d92a-6bbe-527f-8893-1d4d12820ffa", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-093", "uuid": "a155af76-1c78-502b-b024-b1f0b2ae3f03", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-094", "uuid": "deb8221e-bc98-5afb-a0b2-cd3e47a17cff", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-095", "uuid": "f502f5cf-ed4e-50d0-8ae0-45c60cd1c6ea", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-096", "uuid": "bc711057-f8bd-58e7-b0ef-80e4a856bf81", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-ASSIGNAT-1792", "uuid": "35d51ab4-aa88-5f88-9306-e1daf568e508", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-CERES-5F-1849", "uuid": "1444ee85-06cf-59c5-9070-6a2f684cb269", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-HERC-1870", "uuid": "b6d12c68-e76d-567a-b7c7-8a4f9756729b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-PIAST-1885", "uuid": "34be13f9-baaa-595c-973b-95ba0a36a20f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-SEM-1898", "uuid": "307097c6-6f43-55b0-b804-fdb48032e4a2", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "FR-SEM-SELO-1903", "uuid": "4e0ca57a-0449-51a0-ba29-a7c108e732ff", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "IT-005", "uuid": "86d31d03-0d84-54e2-816d-07cdd3cda31f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "IT-006", "uuid": "1929bfaa-f01b-56cb-95f4-1b8049070a02", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "IT-007", "uuid": "0de532b9-260d-5e80-a7a0-434993f6155d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "IT-008", "uuid": "5e332b45-467b-5e4a-b73a-07bab0a2493a", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "MX-001", "uuid": "fd34c0df-a784-50e0-a1da-e1c7a7a8c382", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "MX-002", "uuid": "7f8956d2-52b7-5223-a1bf-7e1cb6efbf10", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "NL-001", "uuid": "da080e00-26a1-563d-836b-e99588564223", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "NL-002", "uuid": "a31a1a53-a2f1-5f94-a270-4bebd8f8d1db", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "NL-003", "uuid": "855f4658-1d17-5928-a0e1-207c69eb2f68", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "NL-004", "uuid": "8cca0d6a-d49c-5160-af52-1c08a9512718", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "NL-005", "uuid": "4d7f3b41-1049-51dc-a48f-e4ce2f90b365", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "NL-006", "uuid": "2d5d9ea8-7f1d-5b8a-b301-d37f65246515", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "NL-007", "uuid": "59156365-09f3-5165-bdbb-f0f936fa4c27", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "NL-008", "uuid": "a3e406a2-9b55-5a16-96fe-e70380ad2e36", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "PT-001", "uuid": "1ab9df88-0542-5cd9-95df-99cf0b8cd65f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "PT-002", "uuid": "8b9906df-a133-515a-b7e4-60d9650a057e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "PT-003", "uuid": "b83229c4-0c92-5c0d-8df4-590e246bc7a8", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "PT-004", "uuid": "b3ea808a-fabc-5f0d-975f-81249e3f741a", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "PT-005", "uuid": "991c8684-08fe-5291-baf1-8a36a1c5cf8c", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "PT-006", "uuid": "59e51758-a00e-56f8-bc6b-c93211313ce4", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "PT-007", "uuid": "a6c1c057-2ea3-5451-bb2a-d635ad80dbbb", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "SCOUT-337", "uuid": "f0f589b2-8c12-54ae-b158-020594ff7dfa", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "SCOUT-558", "uuid": "0b40bbaf-f789-5d6c-bce6-51d42b02b625", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "SCOUT-559", "uuid": "8db149b7-2f6e-5f2b-9f94-7163e2633cbb", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "SCOUT-560", "uuid": "8e44db21-f8d1-4024-a246-e0ac5ff24c9e", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "SCOUT-561", "uuid": "9647a075-d255-470a-a6a1-9df52af95e9b", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "SCOUT-563", "uuid": "58aa80d3-ddea-4cac-afcf-7aaccdd0c17e", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "SCOUT-566", "uuid": "7b1308fd-53f6-4e91-8539-82b67247e049", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "SCOUT-569", "uuid": "68fe7104-d814-441c-9172-112e760cf785", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "SCOUT-570", "uuid": "6df4bc96-be48-4609-9974-18f48ad910ed", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "SCOUT-571", "uuid": "d55b1f29-20c6-4785-b7d5-814904b147d5", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "SCOUT-572", "uuid": "37e2e32c-8d32-5e10-95af-ed8781705410", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "SCOUT-573", "uuid": "09c36ce9-a700-5394-836e-88aa61119e46", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "SCOUT-574", "uuid": "c5963931-2e04-51d0-b090-0ce8c2c45138", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-001", "uuid": "dd51d863-1ede-5fe6-b955-263ef8922bd5", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-002", "uuid": "cfac2ea2-7266-5d53-91b8-1255804159f0", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-003", "uuid": "66649dfc-c9a6-5ec5-9f4d-8f282c2b504d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-004", "uuid": "32235b18-c15a-5d1a-815e-a45e8302472d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-005", "uuid": "5a438124-95e6-5a26-8c41-f76f53c6d62f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-006", "uuid": "970d58c2-fee6-5c70-94e6-50aed8f82cc9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-009", "uuid": "51335360-14e1-573d-a16d-201dd6dfeab8", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-010", "uuid": "dcf36d44-9c6d-5d40-a87f-de6c335cd552", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-011", "uuid": "cbc309de-02c9-51b6-bc77-d44fdc993703", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-012", "uuid": "1d99d3c2-663b-590e-9072-34d8cdfdd5ce", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-013", "uuid": "4a932b68-240c-5418-aa91-c618d10585ed", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-014", "uuid": "c605b927-2f22-52d1-be8f-87ddcf938949", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-015", "uuid": "c17bb8b3-90cd-5307-9757-5ceb5e3fd756", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-016", "uuid": "2e103236-1d7d-5fe1-96be-3057b36a789c", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-017", "uuid": "fe33e04e-09ad-579c-b7b8-1577d1d67515", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-018", "uuid": "d6f71fb1-437c-5e18-85d1-4395f54f6306", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-FLORIN-1902", "uuid": "700336c2-ef11-516d-be98-f0b7b0b84913", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-HALFPENNY-1695", "uuid": "90c16b9c-1bae-5655-a4bb-ab91489e9501", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-PENNY-1860", "uuid": "097d7804-9176-559e-87a3-8acc6485b775", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-PENNY-1895", "uuid": "5a87d103-c4da-5c3f-afd0-74a5c11b0eb5", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-PENNY-1912", "uuid": "e7a3e5b7-0f31-5fce-b0d9-efd4ed5e627f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UK-TRADE-1895", "uuid": "38461286-c1c9-5c8b-af31-d85806074db9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-001", "uuid": "543550b1-e66e-59ee-bbee-8fe20d18787e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-002", "uuid": "416a2c38-c975-5121-aa28-33166a03a0cf", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-003", "uuid": "734dd76f-7bb0-5c76-8af9-3218acac3182", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-004", "uuid": "9db0a457-18d3-506f-9cee-2e601fd330ac", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-005", "uuid": "22225bec-fd2a-5731-8621-2aff727102e0", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-006", "uuid": "1ae7c4ae-e5b5-512c-bb75-857c47853d2c", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-007", "uuid": "610a396d-c907-55de-9c97-727e83348bf4", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-008", "uuid": "2419621d-271a-5af2-8874-526451aa9368", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-009", "uuid": "5b031e0c-dd69-5894-afa2-37c6e2ba9b40", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-010", "uuid": "d349a40c-aedc-533f-9e16-6ea7bbc1cc8e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-011", "uuid": "39ebfe77-0d0b-5130-8cce-f6f48d85a081", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-012", "uuid": "473ac4d7-a507-51c6-8215-983c2442fc23", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-016", "uuid": "82c0efc9-1a2e-55a3-8eca-5de3e58a2fac", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-017", "uuid": "6c4a12c1-4949-52ec-bba2-160acf162ee9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-018", "uuid": "4bf182e3-59af-5c30-a0f4-9653bdbae5a2", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-019", "uuid": "76ba820f-e8a8-5149-8c01-a56437d57960", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-020", "uuid": "5fe9755f-2575-5eb6-8f58-914c20293cf9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-021", "uuid": "b33f1bc8-57ba-561f-b9d6-1f898ba407c0", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-022", "uuid": "2793b102-fbf3-5f0b-8df6-1a5452486348", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-023", "uuid": "e503ce4e-6b18-5bd3-ac7b-6225a32600cf", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-024", "uuid": "9ba85e08-c3cd-5cc2-9645-29b81b0a571c", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-025", "uuid": "7e321b60-8b81-5311-895f-9cc9197d18e6", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-BANNER-1861", "uuid": "4c27a448-9240-5618-b781-551ef3f85ff2", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-EDUC-1896-01", "uuid": "b3c337eb-c85f-50c8-a44a-dbbbd0892aa6", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-EDUC-1896-02", "uuid": "ac63fca1-03c9-53f4-ae4b-865a53f0d43f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-EDUC-1896-05", "uuid": "11fa83ea-c4eb-5685-abc5-acdf23e0d427", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-NAST-1864", "uuid": "3554f7c3-1f9f-5f5a-9211-b085bf99c08d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-SEATED-1840", "uuid": "94c243b4-e40f-524d-9806-fda4da8e7809", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "US-SLQ-1916", "uuid": "78b7031c-af02-5575-a4b6-4bb0faccfc0d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "UY-001", "uuid": "770a84be-5b28-5813-9d68-d106217bf754", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "a4b437a8-91a7-21bc-1311-eac2ffc47da0", "uuid": "a4b437a8-91a7-21bc-1311-eac2ffc47da0", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "a7971ac5-e277-f70a-bb11-ba25db7e6ac0", "uuid": "a7971ac5-e277-f70a-bb11-ba25db7e6ac0", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "ac900ea3-9461-bae5-e797-f93d58d4845b", "uuid": "ac900ea3-9461-bae5-e797-f93d58d4845b", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "bc06d4cc-455f-530e-b86b-e046378979a3", "uuid": "bc06d4cc-455f-530e-b86b-e046378979a3", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "bdb937eb-c607-5f77-ab0b-404b6199ff1b", "uuid": "bdb937eb-c607-5f77-ab0b-404b6199ff1b", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "c8f02d8e-e599-5120-9829-f3f05c5d4b0f", "uuid": "c8f02d8e-e599-5120-9829-f3f05c5d4b0f", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "c9966731-1c38-5d06-9bc6-6081b5a87d1a", "uuid": "c9966731-1c38-5d06-9bc6-6081b5a87d1a", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "ce773ab1-3bfc-9f6e-754a-efe0c567916d", "uuid": "ce773ab1-3bfc-9f6e-754a-efe0c567916d", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "d0038985-b3c8-5468-8d56-980c467faa9e", "uuid": "d0038985-b3c8-5468-8d56-980c467faa9e", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "d3003c32-2c2f-5bd0-95f6-69f557b795ba", "uuid": "d3003c32-2c2f-5bd0-95f6-69f557b795ba", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "d44093ca-343e-580c-99f2-c740d8c68ef9", "uuid": "d44093ca-343e-580c-99f2-c740d8c68ef9", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "d9878afa-cb92-52bd-b308-e1563cdf9332", "uuid": "d9878afa-cb92-52bd-b308-e1563cdf9332", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "da35cbd9-2e8c-24a6-7c44-d7f1741e0a2a", "uuid": "da35cbd9-2e8c-24a6-7c44-d7f1741e0a2a", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "df5d3195-0161-5ded-b336-22f89cec0703", "uuid": "df5d3195-0161-5ded-b336-22f89cec0703", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "e0399402-b59d-5050-9776-b67f2c69a6b2", "uuid": "e0399402-b59d-5050-9776-b67f2c69a6b2", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "e1d2e177-0905-a3bc-2e17-f6dd4f040db0", "uuid": "e1d2e177-0905-a3bc-2e17-f6dd4f040db0", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "f988255c-abaa-fb73-74fb-fcbce9abdaa8", "uuid": "f988255c-abaa-fb73-74fb-fcbce9abdaa8", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
-{"handle": "fb26ccd4-5b0f-e074-b888-b5dd666f997c", "uuid": "fb26ccd4-5b0f-e074-b888-b5dd666f997c", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T07:19:53.002390+00:00"}
+{"handle": "03a9622f-6b17-5876-843c-4e49e4684441", "uuid": "03a9622f-6b17-5876-843c-4e49e4684441", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "0754a19f-a859-99e5-932d-17f5181496b2", "uuid": "0754a19f-a859-99e5-932d-17f5181496b2", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "089fc944-332e-5647-a2df-f366de58532f", "uuid": "089fc944-332e-5647-a2df-f366de58532f", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "08da86db-847d-51f8-b000-50fa8fb51ff3", "uuid": "08da86db-847d-51f8-b000-50fa8fb51ff3", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "0970108c-1619-50f5-bc85-719eb5f80aee", "uuid": "0970108c-1619-50f5-bc85-719eb5f80aee", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "09f8d8d5-4d94-5225-aa60-9827a8bf1c08", "uuid": "09f8d8d5-4d94-5225-aa60-9827a8bf1c08", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "0bf85996-a2f4-53c6-9bf8-1334ede7d1b8", "uuid": "0bf85996-a2f4-53c6-9bf8-1334ede7d1b8", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "14990163-f5e4-a143-0d6b-288477d89a2b", "uuid": "14990163-f5e4-a143-0d6b-288477d89a2b", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "1589cd9a-0569-5524-bb61-5c64de1e92d1", "uuid": "1589cd9a-0569-5524-bb61-5c64de1e92d1", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "19238273-c090-53e6-b531-23397f36677b", "uuid": "19238273-c090-53e6-b531-23397f36677b", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "235c545a-f3b8-568a-f268-178806a4bf07", "uuid": "235c545a-f3b8-568a-f268-178806a4bf07", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "2e077aa6-5e64-3c58-f33b-99b0bcfcef83", "uuid": "2e077aa6-5e64-3c58-f33b-99b0bcfcef83", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "387bc54c-e8c7-50be-b24b-a3396f1bc1da", "uuid": "387bc54c-e8c7-50be-b24b-a3396f1bc1da", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "3bc72151-1996-f7ca-b282-512024e54acf", "uuid": "3bc72151-1996-f7ca-b282-512024e54acf", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "3cb602f7-56b5-5b48-871e-629b65b216c8", "uuid": "3cb602f7-56b5-5b48-871e-629b65b216c8", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "3cca844a-daff-511a-abc2-f6a2a8ce2210", "uuid": "3cca844a-daff-511a-abc2-f6a2a8ce2210", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "3f9ebcea-2b43-5823-b888-15c706bf65d1", "uuid": "3f9ebcea-2b43-5823-b888-15c706bf65d1", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "46131280-d556-5ccf-b78f-f90523da0334", "uuid": "46131280-d556-5ccf-b78f-f90523da0334", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "49706189-9d27-da9e-59d5-3467a32a1f5e", "uuid": "49706189-9d27-da9e-59d5-3467a32a1f5e", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "4f51943f-625d-c265-60ed-73edc3d29986", "uuid": "4f51943f-625d-c265-60ed-73edc3d29986", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "64d57088-2726-543f-bc9e-e382da696aee", "uuid": "64d57088-2726-543f-bc9e-e382da696aee", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "6932b9c2-9bb3-5b21-9040-36f6323401e3", "uuid": "6932b9c2-9bb3-5b21-9040-36f6323401e3", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "69db3fb7-1fad-5090-b2a7-5e18c0438807", "uuid": "69db3fb7-1fad-5090-b2a7-5e18c0438807", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "6f5891d5-090c-499c-a3bc-4ff71ee6307b", "uuid": "6f5891d5-090c-499c-a3bc-4ff71ee6307b", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "7b5ea66e-0285-59ea-a652-264f8a5e90bd", "uuid": "7b5ea66e-0285-59ea-a652-264f8a5e90bd", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "80b1d4ad-1aa4-7f87-35b7-ba8cea46f0cf", "uuid": "80b1d4ad-1aa4-7f87-35b7-ba8cea46f0cf", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "8d6151b3-9928-e42e-5dbc-713c10fe1a82", "uuid": "8d6151b3-9928-e42e-5dbc-713c10fe1a82", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "93b53069-d4b7-6c55-df87-f85d0341bdbe", "uuid": "93b53069-d4b7-6c55-df87-f85d0341bdbe", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "94a8fbc2-141d-5ce5-b363-2ee57d804b49", "uuid": "94a8fbc2-141d-5ce5-b363-2ee57d804b49", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "95844673-a438-57b7-9e87-b81a8628a0f0", "uuid": "95844673-a438-57b7-9e87-b81a8628a0f0", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "AR-001", "uuid": "f8d56c8c-15cf-5406-88ef-ed0da58186e1", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "AT-001", "uuid": "30842808-e4e6-5f38-b69c-a54aa731978e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BE-001", "uuid": "8d68ddd2-0db5-571f-924a-fd2e6de46623", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BE-002", "uuid": "d77a533b-f4b7-5ea8-b61a-c7eb99b74b8c", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BE-003", "uuid": "cf7430cf-ffb0-5388-9405-88b1bb3fc281", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BE-004", "uuid": "2f663e33-8eee-5ccb-be9e-635e66e3e734", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BE-5F-LEOPOLD-1832", "uuid": "07dcf849-9f63-5c2e-959a-6682cc5475eb", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BE-CONGO-100F-1912", "uuid": "c0814fd8-eef6-5e77-a06c-7e738c073664", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BE-CONGO-1912", "uuid": "c5b2c5fa-7be3-5003-a5b6-824deaa93a94", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BE-CONGO-MON-1921", "uuid": "6b92ad6a-f23b-5c9b-b995-b66ab0297c58", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BE-IND-1880", "uuid": "47e90ddf-10f1-570a-87d3-3bc2455d86d0", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-001", "uuid": "858046d0-0125-5d97-aa38-5d07f862121b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-002", "uuid": "d5c61575-cba7-5262-bf20-9017fad5d3cd", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-003", "uuid": "ae8876ff-0ecb-5084-a871-3a205b8caba6", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-004", "uuid": "b86d93a1-9594-523d-ba2b-31e8e521ea1a", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-005", "uuid": "bfac2d3e-5230-5a27-970b-625e5eb7ed24", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-006", "uuid": "ad43ba55-c523-5f19-a667-0bd5872a9867", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-007", "uuid": "00a6bd05-0b74-54b4-9b93-604a012aaab6", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-008", "uuid": "7a71b130-c538-5e0c-9cac-abcffb85824f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-009", "uuid": "9eecda17-15eb-59ad-9071-d882725f90f5", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-010", "uuid": "9d3c618f-a0d5-5cc2-9091-126fab13fddb", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-017", "uuid": "c02356de-a24e-52bc-9ee8-15d6cec55a4b", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-020", "uuid": "99e4822c-1745-5100-8aa9-e02b4b274169", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-021", "uuid": "e191793f-1b9b-5203-b76e-feaab78095e6", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-022", "uuid": "f0f04465-d41d-579f-98b7-65c179e32b19", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-023", "uuid": "78585725-f38d-5c83-a89f-048df3f6d22f", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-024", "uuid": "36e20300-49aa-5a7f-b626-70c8d058d5f8", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-025", "uuid": "0e0cd716-6505-5fce-8581-166cd3f52b0c", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-026", "uuid": "2a05e121-c939-5ce8-8817-80972641c0b9", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-027", "uuid": "4c0f5cd1-05a1-5c46-baff-294aed50d29c", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-028", "uuid": "eab8779d-bf68-564c-b5b5-8b722e627205", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-029", "uuid": "1233c2da-4db4-5849-8ceb-93814eff07c8", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-030", "uuid": "af0ecea6-98f2-5021-b6ce-41d147657566", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-031", "uuid": "cb3957df-4209-5690-a135-cdb1ff572393", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-032", "uuid": "8bb76a45-d163-58b5-a829-4081c52d9ac0", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-033", "uuid": "50dff094-e01e-50b0-96f7-df8283f628cc", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-034", "uuid": "39d195a5-6c5b-5258-b0a7-bc5ad1688df0", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-035", "uuid": "2a2acf5c-7a1d-566e-bbf5-becbaa7d4da0", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-036", "uuid": "f45fb749-358f-5f40-a798-178a68363c84", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-037", "uuid": "51b5a74a-99b1-5d57-b1fb-5f6a4d0a5087", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-039", "uuid": "03075694-0e68-5b33-afb2-3c60687f498b", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-040", "uuid": "de7d8e5b-feee-588a-b9e7-69dc588b3a0c", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-041", "uuid": "06ffa064-566d-5250-bb87-cb70c7ca6281", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-042", "uuid": "0982e2d1-9591-5fce-9146-143f183fc95a", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-043", "uuid": "c1132ea4-7d8d-5223-a690-255b4ebb6593", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-044", "uuid": "1e9bf44b-95a3-5a8a-b592-69f131dae892", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-045", "uuid": "2cdd2590-27b7-55f4-be09-be9ef1171abd", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-046", "uuid": "1f19caed-dbcb-52d6-8373-985bf037b7c8", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-1000R-1906", "uuid": "44111531-bcf0-5f24-aea3-f893306094c6", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-1CR-1970", "uuid": "8a5d8e43-91a1-5329-8e02-fcb98d10fd7f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-2000R-1907", "uuid": "2e6062c1-2f33-55bc-8771-755a329e4272", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "BR-50CR-1965", "uuid": "3716cf7b-d1f9-53d8-85d2-dda0b5b8cc70", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-001", "uuid": "2b43276d-4e89-5e59-adbb-19d2bf02ca2b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-002", "uuid": "569e5eea-63a8-5e2a-857f-215cf8318fd8", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-003", "uuid": "285d6e4c-6025-5e81-be44-895cf155a246", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-004", "uuid": "5352292c-7d4e-5107-83e7-e76a384bd1e2", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-005", "uuid": "42b4bcfd-a6b4-5f19-8eda-46b2a9aa514b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-006", "uuid": "36126895-7ef9-5e7b-8e79-4c8ccad914f6", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-007", "uuid": "7039191c-a457-5402-a453-ab28e3fe333c", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-008", "uuid": "f7cb69ba-8837-54ba-af4c-f242f8c93ca4", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-009", "uuid": "5aa4b8a3-717f-5893-af0e-a0e6641fd3ff", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-010", "uuid": "e0aa63ae-d062-5035-bdbc-8f55daaff1be", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-011", "uuid": "9595e808-fc2a-58b9-9807-9b4dbbfef69d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-012", "uuid": "2ef37c3e-29de-5883-b2a7-ce2d2b3c898c", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-013", "uuid": "f78e3dff-d7b9-5015-95a2-4075ecfd5709", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-014", "uuid": "96d48346-62b9-5d47-9463-c50458148fd9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-015", "uuid": "f4a4e50f-0c41-5103-9081-30e700c8f646", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-016", "uuid": "f96693a2-99a6-53c7-9f7c-3f016270b000", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-017", "uuid": "3f7d2171-8dbb-562f-a412-496405849263", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-018", "uuid": "c9d3a591-3572-5c60-9620-a8a534d6d307", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-019", "uuid": "f4b599f9-72a3-563b-8312-eb0c20e04153", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-020", "uuid": "f2f019c1-8689-5589-a9c1-2b965269da6e", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-021", "uuid": "7dea14ce-d3b8-557e-8850-d1e638ddef8a", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-1000M-1910", "uuid": "e3479a03-4866-5324-b4b7-a7dabdbe6226", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-100M-1908", "uuid": "be91e95b-9083-5bac-97af-cefefb7fd765", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-50M-1919", "uuid": "5c3d26ad-718c-5bd8-886f-72d01a5e6a0d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-GERM-1900", "uuid": "f54bc16b-c0ed-5e46-9fdf-26d55cf26bd2", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-GERM-BELG-1914", "uuid": "99a7c9ba-d743-521e-aef2-73993de09ef7", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-WR-1919-50M", "uuid": "f049b319-a096-557c-909f-22d90a00425e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "DE-WR-1924-50PF", "uuid": "62599722-19a6-5eb3-ae51-4cfe6b85f0e3", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "ES-001", "uuid": "7fdb154e-59f3-50ca-bacf-c3bf48f088d9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "ES-002", "uuid": "6efb7eb7-6b98-5c52-a48d-199e388d8fa4", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "ES-003", "uuid": "3939a017-2bbc-578c-ad1a-1cd36a3de067", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "ES-004", "uuid": "dddd7a9f-d4ac-5575-882a-1b870707d76b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "EU-001", "uuid": "4bb745be-92c7-5080-8968-2247c2450ca1", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "EU-002", "uuid": "dcc17173-9626-5d8e-9d6b-05f1e5fad09b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "EU-003", "uuid": "6a70603a-9224-56ba-87f5-c10133b7706b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "EU-004", "uuid": "8df1b3e3-1ec6-5c79-a66f-5670ee39a725", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "EU-005", "uuid": "6b09a0e7-fb4f-5b0b-bfa9-0d252326ea41", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "EU-006", "uuid": "8794cbe1-c708-5272-843b-a4744b45b672", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "EU-007", "uuid": "ece3eab6-a3f1-5305-a03f-ae92d81c2df0", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "EU-008", "uuid": "e6c0c5b5-fbb2-5512-8874-8473ffc1c343", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "EU-009", "uuid": "48a9d6b2-6c5e-55cd-b594-d0c43e67d64e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-001", "uuid": "2852953b-8d79-54bb-a8f5-dee6142a4f0b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-002", "uuid": "39ef732e-918f-5e36-acc8-cb5a35614a3b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-003", "uuid": "9f77480d-852f-553f-932b-af68291e7d70", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-004", "uuid": "2c078aed-f767-56e8-8552-702a23a077a7", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-005", "uuid": "eac80e8f-9794-5610-8a38-962119d0cd14", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-006", "uuid": "1e7351b9-8ab6-5d9a-b6b5-30d9803ab4c9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-007", "uuid": "2b7a1a18-1a29-5703-9264-6012425c65e8", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-008", "uuid": "894174a1-4d8d-50e3-8066-dbb26d18a056", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-009", "uuid": "4d84fe99-7db7-5ea5-96cd-bca3bd57a189", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-010", "uuid": "442ad547-ffbb-5581-8290-7d514f87d0d4", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-011", "uuid": "0d805e40-ced2-5531-827d-4584ae6afc55", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-012", "uuid": "ee616189-04ab-525a-9228-d42f774a0557", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-013", "uuid": "29894605-5d67-5700-ab5b-51ac92465996", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-014", "uuid": "cbb9963f-17ae-5163-989a-5ee72f4ba146", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-015", "uuid": "b84f6d98-c8c0-58ce-b923-260059ec06ab", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-016", "uuid": "8adb7337-2867-51e5-b822-6453c2230b23", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-017", "uuid": "371f116f-4cf9-5305-8237-a4f055ad8840", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-018", "uuid": "0f062b69-9c73-59aa-86f5-c0458b4ea37c", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-019", "uuid": "5abac01e-4ee9-5db7-9f8f-a4930e55c54d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-020", "uuid": "fb40f20f-d105-55ae-b1bf-2a789c235d9a", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-021", "uuid": "69df229d-aed0-581b-9d36-cd308b676adf", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-022", "uuid": "90044d18-4b02-5be6-962f-b08539ebd2cf", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-023", "uuid": "79998b9a-be88-57ab-8514-2516584bbb2a", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-025", "uuid": "61d2ee4b-bbe6-5896-9482-32c212b44ed2", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-026", "uuid": "284cddfe-b22f-5bc8-82c0-56ed956b3e5e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-027", "uuid": "693e32ea-ea77-50d2-a086-b8e2e2ebcc91", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-028", "uuid": "f64abf57-a9ec-599e-a240-43f8fd9dce74", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-029", "uuid": "bc7389e9-3a1d-50a0-899e-2aae20e4a9b6", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-030", "uuid": "34422d75-51db-5d4c-a029-8851a33f61ed", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-031", "uuid": "99b666c6-ab31-5275-a4c6-01b7a9895364", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-032", "uuid": "b0788e77-c16d-5b78-9284-8429abf59022", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-033", "uuid": "21062d44-81f0-55dd-b0d1-a6e439db9c83", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-036", "uuid": "56ed1d5a-5c29-5020-94d3-fe5e5ad25834", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-038", "uuid": "e933260c-9011-5c67-ad04-4128dd7fcbb3", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-039", "uuid": "dd101f3a-1ebe-5fcb-b337-f678521f39d1", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-047", "uuid": "4e83a07f-ca7d-53c6-a77d-500ce3ec88ce", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-048", "uuid": "af855a2f-e19d-5a10-9ed6-915aa67c1ad4", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-049", "uuid": "f9d4a4c2-fa3c-5e14-84ce-d5b16a022c03", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-050", "uuid": "dcccea5a-3bc2-5743-8755-8bad2a7d47b0", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-051", "uuid": "f365d77f-dbca-533d-9aa4-4e4a3cd59a45", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-053", "uuid": "be9ffff5-7c25-5fec-b8fc-7a11b0977574", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-054", "uuid": "5d33c51c-1887-5960-aca8-fd57ae8c5fc4", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-055", "uuid": "9134d403-f05d-520f-baa8-2eb6b048a24a", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-056", "uuid": "24b4b82c-82e7-5380-a4f8-fbab0d4f1d64", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-057", "uuid": "14b85866-6a9d-5d34-ba20-3f482ce10759", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-058", "uuid": "1dbbf8e6-099d-5db0-8749-ca5886c30783", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-059", "uuid": "2a3e2f91-18be-545f-9700-d8b90170bede", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-060", "uuid": "99b72e9f-1dc8-5f1b-b02a-8d4df4f2d911", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-061", "uuid": "3a0ce268-b0e4-5a47-88cd-9d29d3cf74a9", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-062", "uuid": "f817d598-aefa-5518-8218-520e593911e7", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-063", "uuid": "8786d48c-032d-5b80-a4da-3f4dcb675410", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-064", "uuid": "fe7b843b-a6f5-5bff-966c-2987d8614d85", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-065", "uuid": "bde36c58-afcc-55d3-96e8-3ff56b7e913a", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-066", "uuid": "e835da28-d1d2-5c93-b383-108f981884fe", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-067", "uuid": "974b3d65-9d36-59d0-b565-bd29b2cb6d7d", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-068", "uuid": "2b761519-10dd-5877-95dc-caf692cad786", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-069", "uuid": "21d4f225-4269-5033-857a-4a320598f52a", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-070", "uuid": "6768abc8-8e0d-5415-9c0e-7aa3805be73c", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-071", "uuid": "787ce58d-f363-5bdb-bfbe-6a6a531624bd", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-072", "uuid": "942ef9d3-f17b-5ced-a36f-c2277a4018a1", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-073", "uuid": "39b3458f-0341-5353-a72b-acc3997f1b99", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-074", "uuid": "bc6b4ebc-fabd-5a3f-877d-5bea4616235b", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-075", "uuid": "e1e33f9f-83d1-5447-869f-6c68032ee346", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-076", "uuid": "81efcd9a-e5c1-5525-a2ed-6c4cbd0c3954", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-077", "uuid": "23b1d6f0-3431-5a81-90ff-101ded2b2181", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-078", "uuid": "8a931f74-c9a1-5eba-9bf6-d73fc6fff672", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-079", "uuid": "b746f763-090a-50cb-bbf7-4449349c95ce", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-080", "uuid": "35f21876-aec4-5b91-9439-fa0145cdd184", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-081", "uuid": "a481d78f-8df5-539e-90e1-0078dda54a6d", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-082", "uuid": "7e5a7002-8ab2-5062-9bbf-67d7f14caa7d", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-083", "uuid": "37b32ae5-0d92-5c72-b032-d7131d81e2e2", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-084", "uuid": "2c6c6e4b-d274-5ef1-91ce-5cce31c8c84b", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-085", "uuid": "958ca335-ae39-5c7d-a44e-87bf4217d3c6", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-086", "uuid": "93cfbeac-85b0-5485-b77c-94d12b54363d", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-087", "uuid": "dafa4284-f298-55a4-8610-d307a328f453", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-088", "uuid": "b52f4742-c987-5a72-8b5d-720b39aa234d", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-089", "uuid": "1171d90a-9ff7-5d91-b115-8107ef5ff344", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-090", "uuid": "31e96fc4-11a5-50e4-9c0b-8f6a91bd7dd2", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-091", "uuid": "d59aa292-df0a-5e65-b5e4-57f32b70aeb5", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-092", "uuid": "7833d92a-6bbe-527f-8893-1d4d12820ffa", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-093", "uuid": "a155af76-1c78-502b-b024-b1f0b2ae3f03", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-094", "uuid": "deb8221e-bc98-5afb-a0b2-cd3e47a17cff", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-095", "uuid": "f502f5cf-ed4e-50d0-8ae0-45c60cd1c6ea", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-096", "uuid": "bc711057-f8bd-58e7-b0ef-80e4a856bf81", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-ASSIGNAT-1792", "uuid": "35d51ab4-aa88-5f88-9306-e1daf568e508", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-CERES-5F-1849", "uuid": "1444ee85-06cf-59c5-9070-6a2f684cb269", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-HERC-1870", "uuid": "b6d12c68-e76d-567a-b7c7-8a4f9756729b", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-PIAST-1885", "uuid": "34be13f9-baaa-595c-973b-95ba0a36a20f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-SEM-1898", "uuid": "307097c6-6f43-55b0-b804-fdb48032e4a2", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "FR-SEM-SELO-1903", "uuid": "4e0ca57a-0449-51a0-ba29-a7c108e732ff", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "IT-005", "uuid": "86d31d03-0d84-54e2-816d-07cdd3cda31f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "IT-006", "uuid": "1929bfaa-f01b-56cb-95f4-1b8049070a02", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "IT-007", "uuid": "0de532b9-260d-5e80-a7a0-434993f6155d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "IT-008", "uuid": "5e332b45-467b-5e4a-b73a-07bab0a2493a", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "MX-001", "uuid": "fd34c0df-a784-50e0-a1da-e1c7a7a8c382", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "MX-002", "uuid": "7f8956d2-52b7-5223-a1bf-7e1cb6efbf10", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "NL-001", "uuid": "da080e00-26a1-563d-836b-e99588564223", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "NL-002", "uuid": "a31a1a53-a2f1-5f94-a270-4bebd8f8d1db", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "NL-003", "uuid": "855f4658-1d17-5928-a0e1-207c69eb2f68", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "NL-004", "uuid": "8cca0d6a-d49c-5160-af52-1c08a9512718", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "NL-005", "uuid": "4d7f3b41-1049-51dc-a48f-e4ce2f90b365", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "NL-006", "uuid": "2d5d9ea8-7f1d-5b8a-b301-d37f65246515", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "NL-007", "uuid": "59156365-09f3-5165-bdbb-f0f936fa4c27", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "NL-008", "uuid": "a3e406a2-9b55-5a16-96fe-e70380ad2e36", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "PT-001", "uuid": "1ab9df88-0542-5cd9-95df-99cf0b8cd65f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "PT-002", "uuid": "8b9906df-a133-515a-b7e4-60d9650a057e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "PT-003", "uuid": "b83229c4-0c92-5c0d-8df4-590e246bc7a8", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "PT-004", "uuid": "b3ea808a-fabc-5f0d-975f-81249e3f741a", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "PT-005", "uuid": "991c8684-08fe-5291-baf1-8a36a1c5cf8c", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "PT-006", "uuid": "59e51758-a00e-56f8-bc6b-c93211313ce4", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "PT-007", "uuid": "a6c1c057-2ea3-5451-bb2a-d635ad80dbbb", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "SCOUT-337", "uuid": "f0f589b2-8c12-54ae-b158-020594ff7dfa", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "SCOUT-558", "uuid": "0b40bbaf-f789-5d6c-bce6-51d42b02b625", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "SCOUT-559", "uuid": "8db149b7-2f6e-5f2b-9f94-7163e2633cbb", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "SCOUT-560", "uuid": "8e44db21-f8d1-4024-a246-e0ac5ff24c9e", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "SCOUT-561", "uuid": "9647a075-d255-470a-a6a1-9df52af95e9b", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "SCOUT-563", "uuid": "58aa80d3-ddea-4cac-afcf-7aaccdd0c17e", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "SCOUT-566", "uuid": "7b1308fd-53f6-4e91-8539-82b67247e049", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "SCOUT-569", "uuid": "68fe7104-d814-441c-9172-112e760cf785", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "SCOUT-570", "uuid": "6df4bc96-be48-4609-9974-18f48ad910ed", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "SCOUT-571", "uuid": "d55b1f29-20c6-4785-b7d5-814904b147d5", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "SCOUT-572", "uuid": "37e2e32c-8d32-5e10-95af-ed8781705410", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "SCOUT-573", "uuid": "09c36ce9-a700-5394-836e-88aa61119e46", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "SCOUT-574", "uuid": "c5963931-2e04-51d0-b090-0ce8c2c45138", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-001", "uuid": "dd51d863-1ede-5fe6-b955-263ef8922bd5", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-002", "uuid": "cfac2ea2-7266-5d53-91b8-1255804159f0", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-003", "uuid": "66649dfc-c9a6-5ec5-9f4d-8f282c2b504d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-004", "uuid": "32235b18-c15a-5d1a-815e-a45e8302472d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-005", "uuid": "5a438124-95e6-5a26-8c41-f76f53c6d62f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-006", "uuid": "970d58c2-fee6-5c70-94e6-50aed8f82cc9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-009", "uuid": "51335360-14e1-573d-a16d-201dd6dfeab8", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-010", "uuid": "dcf36d44-9c6d-5d40-a87f-de6c335cd552", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-011", "uuid": "cbc309de-02c9-51b6-bc77-d44fdc993703", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-012", "uuid": "1d99d3c2-663b-590e-9072-34d8cdfdd5ce", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-013", "uuid": "4a932b68-240c-5418-aa91-c618d10585ed", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-014", "uuid": "c605b927-2f22-52d1-be8f-87ddcf938949", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-015", "uuid": "c17bb8b3-90cd-5307-9757-5ceb5e3fd756", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-016", "uuid": "2e103236-1d7d-5fe1-96be-3057b36a789c", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-017", "uuid": "fe33e04e-09ad-579c-b7b8-1577d1d67515", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-018", "uuid": "d6f71fb1-437c-5e18-85d1-4395f54f6306", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-FLORIN-1902", "uuid": "700336c2-ef11-516d-be98-f0b7b0b84913", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-HALFPENNY-1695", "uuid": "90c16b9c-1bae-5655-a4bb-ab91489e9501", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-PENNY-1860", "uuid": "097d7804-9176-559e-87a3-8acc6485b775", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-PENNY-1895", "uuid": "5a87d103-c4da-5c3f-afd0-74a5c11b0eb5", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-PENNY-1912", "uuid": "e7a3e5b7-0f31-5fce-b0d9-efd4ed5e627f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UK-TRADE-1895", "uuid": "38461286-c1c9-5c8b-af31-d85806074db9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-001", "uuid": "543550b1-e66e-59ee-bbee-8fe20d18787e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-002", "uuid": "416a2c38-c975-5121-aa28-33166a03a0cf", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-003", "uuid": "734dd76f-7bb0-5c76-8af9-3218acac3182", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-004", "uuid": "9db0a457-18d3-506f-9cee-2e601fd330ac", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-005", "uuid": "22225bec-fd2a-5731-8621-2aff727102e0", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-006", "uuid": "1ae7c4ae-e5b5-512c-bb75-857c47853d2c", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-007", "uuid": "610a396d-c907-55de-9c97-727e83348bf4", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-008", "uuid": "2419621d-271a-5af2-8874-526451aa9368", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-009", "uuid": "5b031e0c-dd69-5894-afa2-37c6e2ba9b40", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-010", "uuid": "d349a40c-aedc-533f-9e16-6ea7bbc1cc8e", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-011", "uuid": "39ebfe77-0d0b-5130-8cce-f6f48d85a081", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-012", "uuid": "473ac4d7-a507-51c6-8215-983c2442fc23", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-017", "uuid": "6c4a12c1-4949-52ec-bba2-160acf162ee9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-018", "uuid": "4bf182e3-59af-5c30-a0f4-9653bdbae5a2", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-019", "uuid": "76ba820f-e8a8-5149-8c01-a56437d57960", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-020", "uuid": "5fe9755f-2575-5eb6-8f58-914c20293cf9", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-021", "uuid": "b33f1bc8-57ba-561f-b9d6-1f898ba407c0", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-022", "uuid": "2793b102-fbf3-5f0b-8df6-1a5452486348", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-023", "uuid": "e503ce4e-6b18-5bd3-ac7b-6225a32600cf", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-024", "uuid": "9ba85e08-c3cd-5cc2-9645-29b81b0a571c", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-025", "uuid": "7e321b60-8b81-5311-895f-9cc9197d18e6", "class": "url-matched", "source": "corpus-data.json url", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-BANNER-1861", "uuid": "4c27a448-9240-5618-b781-551ef3f85ff2", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-EDUC-1896-01", "uuid": "b3c337eb-c85f-50c8-a44a-dbbbd0892aa6", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-EDUC-1896-02", "uuid": "ac63fca1-03c9-53f4-ae4b-865a53f0d43f", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-EDUC-1896-05", "uuid": "11fa83ea-c4eb-5685-abc5-acdf23e0d427", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-NAST-1864", "uuid": "3554f7c3-1f9f-5f5a-9211-b085bf99c08d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-SEATED-1840", "uuid": "94c243b4-e40f-524d-9806-fda4da8e7809", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "US-SLQ-1916", "uuid": "78b7031c-af02-5575-a4b6-4bb0faccfc0d", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "UY-001", "uuid": "770a84be-5b28-5813-9d68-d106217bf754", "class": "derivable", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "a4b437a8-91a7-21bc-1311-eac2ffc47da0", "uuid": "a4b437a8-91a7-21bc-1311-eac2ffc47da0", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "a7971ac5-e277-f70a-bb11-ba25db7e6ac0", "uuid": "a7971ac5-e277-f70a-bb11-ba25db7e6ac0", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "ac900ea3-9461-bae5-e797-f93d58d4845b", "uuid": "ac900ea3-9461-bae5-e797-f93d58d4845b", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "bc06d4cc-455f-530e-b86b-e046378979a3", "uuid": "bc06d4cc-455f-530e-b86b-e046378979a3", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "bdb937eb-c607-5f77-ab0b-404b6199ff1b", "uuid": "bdb937eb-c607-5f77-ab0b-404b6199ff1b", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "c8f02d8e-e599-5120-9829-f3f05c5d4b0f", "uuid": "c8f02d8e-e599-5120-9829-f3f05c5d4b0f", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "c9966731-1c38-5d06-9bc6-6081b5a87d1a", "uuid": "c9966731-1c38-5d06-9bc6-6081b5a87d1a", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "ce773ab1-3bfc-9f6e-754a-efe0c567916d", "uuid": "ce773ab1-3bfc-9f6e-754a-efe0c567916d", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "d0038985-b3c8-5468-8d56-980c467faa9e", "uuid": "d0038985-b3c8-5468-8d56-980c467faa9e", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "d3003c32-2c2f-5bd0-95f6-69f557b795ba", "uuid": "d3003c32-2c2f-5bd0-95f6-69f557b795ba", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "d44093ca-343e-580c-99f2-c740d8c68ef9", "uuid": "d44093ca-343e-580c-99f2-c740d8c68ef9", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "d9878afa-cb92-52bd-b308-e1563cdf9332", "uuid": "d9878afa-cb92-52bd-b308-e1563cdf9332", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "da35cbd9-2e8c-24a6-7c44-d7f1741e0a2a", "uuid": "da35cbd9-2e8c-24a6-7c44-d7f1741e0a2a", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "df5d3195-0161-5ded-b336-22f89cec0703", "uuid": "df5d3195-0161-5ded-b336-22f89cec0703", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "e0399402-b59d-5050-9776-b67f2c69a6b2", "uuid": "e0399402-b59d-5050-9776-b67f2c69a6b2", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "e1d2e177-0905-a3bc-2e17-f6dd4f040db0", "uuid": "e1d2e177-0905-a3bc-2e17-f6dd4f040db0", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "f988255c-abaa-fb73-74fb-fcbce9abdaa8", "uuid": "f988255c-abaa-fb73-74fb-fcbce9abdaa8", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}
+{"handle": "fb26ccd4-5b0f-e074-b888-b5dd666f997c", "uuid": "fb26ccd4-5b0f-e074-b888-b5dd666f997c", "class": "uuid-native", "source": "corpus-data.json", "created_at": "2026-07-02T21:35:18.420310+00:00"}

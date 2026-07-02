@@ -122,7 +122,7 @@ O corpus foi inicialmente codificado em lote em 31 de março de 2026 (N=106) uti
 | FR-009 | 2,4 | 2,4 | 0,0 |
 | FR-010 | 0,6 | 0,3 | –0,3 |
 
-O delta médio absoluto foi de 0,18 ponto (escala 0–3), sem viés sistemático (média algébrica ≈ –0,04).
+O delta médio absoluto foi de 0,18 ponto (escala 0–3), sem viés sistemático (média algébrica $\approx$ –0,04).
 
 #### Rodada 2: FR-021 a FR-030 (teste com série homogênea)
 

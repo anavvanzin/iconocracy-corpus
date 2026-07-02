@@ -52,7 +52,8 @@ def test_match_draft_via_crosswalk(tmp_path, monkeypatch):
     crosswalk.write_text(json.dumps(
         {"handle": "SQ-XYZ", "uuid": item_uuid, "class": "assigned"}) + "\n",
         encoding="utf-8")
-    monkeypatch.setattr(xw, "CROSSWALK_JSONL", crosswalk)
+    import sys
+    monkeypatch.setattr(sys.modules["id_crosswalk"], "CROSSWALK_JSONL", crosswalk)
 
     # Act: draft identified by the alias, item by its handle
     draft = {"id": "SQ-XYZ", "purificacao": {}}
