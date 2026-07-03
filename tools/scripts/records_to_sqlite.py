@@ -332,6 +332,7 @@ def build_database():
     # Database Maintenance
     cursor.execute("PRAGMA optimize;")
     db.commit()
+    cursor.execute("ANALYZE;")
     cursor.execute("VACUUM;")
     
     db.close()
