@@ -5,9 +5,12 @@ a normalized, high-performance SQLite database representation of the corpus.
 
 Usage:
     python tools/scripts/records_to_sqlite.py
+    python tools/scripts/records_to_sqlite.py --output /tmp/corpus.sqlite
 """
 
+import argparse
 import json
+import re
 import sqlite3
 import sys
 import uuid
@@ -19,6 +22,154 @@ RECORDS_FILE = REPO_ROOT / "data" / "processed" / "records.jsonl"
 MAPPING_FILE = REPO_ROOT / "data" / "processed" / "id-mapping.json"
 CORPUS_JSON = REPO_ROOT / "corpus" / "corpus-data.json"
 SQLITE_DB = REPO_ROOT / "data" / "processed" / "corpus.sqlite"
+
+INDICATOR_COLUMNS = (
+    "desincorporacao",
+    "rigidez_postural",
+    "dessexualizacao",
+    "uniformizacao_facial",
+    "heraldizacao",
+    "enquadramento_arquitetonico",
+    "apagamento_narrativo",
+    "monocromatizacao",
+    "serialidade",
+    "inscricao_estatal",
+)
+
+DIRECT_ICONOCODE_INSTRUMENTS = frozenset(
+    {
+        "iconocode-opus",
+        "iconocode-opus-4.6-metadata-refined",
+        "iconocode-opus-4.6-image",
+        "iconocode-sonnet5",
+    }
+)
+CURATORIAL_INSTRUMENTS = frozenset({"ana"})
+LEGACY_OR_IMPORTED_INSTRUMENTS = frozenset(
+    {"vault-import", "migration", "manual-entry", "hermes-auto"}
+)
+TENTATIVE_INSTRUMENTS = frozenset({"batch-tentative-2026-04-25"})
+# opus-4.8 stays a separate instrument (audit_required) until IRR against the
+# IconoCode-direct instruments or an explicit pooling decision.
+OPUS48_INSTRUMENTS = frozenset({"opus-4.8"})
+
+INSTRUMENT_FAMILIES = frozenset(
+    {
+        "uncoded",
+        "iconocode_direct",
+        "curatorial",
+        "legacy_or_imported",
+        "tentative",
+        "opus48_pending",
+        "other",
+    }
+)
+VALIDITY_STRATA = frozenset(
+    {
+        "S0_UNCODED",
+        "S1_ICONOCODE_DIRECT",
+        "S2_CURATORIAL",
+        "S3_LEGACY_OR_IMPORTED",
+        "S4_TENTATIVE",
+        "S5_OPUS48_PENDING",
+        "S9_OTHER_CODED",
+    }
+)
+QUANTITATIVE_STATUSES = frozenset(
+    {"excluded_uncoded", "excluded_scope", "core_candidate", "audit_required"}
+)
+SCOPE_STATUSES = frozenset({"core_1800_2000", "extended_or_out_of_scope"})
+
+
+def _nullable_bool(value):
+    """Store optional booleans as SQLite-friendly 0/1/NULL values."""
+    if value is None:
+        return None
+    return 1 if bool(value) else 0
+
+
+def _has_complete_indicators(purification):
+    """Return True when all 10 ordinal indicators are present and bounded."""
+    return all(
+        isinstance(purification.get(col), int) and 0 <= purification[col] <= 3
+        for col in INDICATOR_COLUMNS
+    )
+
+
+def _instrument_family(coded_by):
+    """Map raw coded_by values into stable method families."""
+    if not coded_by:
+        return "uncoded"
+    if coded_by in DIRECT_ICONOCODE_INSTRUMENTS:
+        return "iconocode_direct"
+    if coded_by in CURATORIAL_INSTRUMENTS:
+        return "curatorial"
+    if coded_by in LEGACY_OR_IMPORTED_INSTRUMENTS:
+        return "legacy_or_imported"
+    if coded_by in TENTATIVE_INSTRUMENTS:
+        return "tentative"
+    if coded_by in OPUS48_INSTRUMENTS:
+        return "opus48_pending"
+    return "other"
+
+
+def classify_record_stratum(record):
+    """Classify a canonical record for derived SQL/data-model projections."""
+    purif = record.get("purificacao") or {}
+    exports = record.get("exports") or {}
+    audit_flags = set(exports.get("audit_flags") or [])
+
+    coded_by = (purif.get("coded_by") or "").strip()
+    has_coded_by = bool(coded_by)
+    has_regime = bool((purif.get("regime_iconocratico") or "").strip())
+    has_complete_indicators = _has_complete_indicators(purif)
+    family = _instrument_family(coded_by)
+
+    if not has_coded_by or not has_regime or not has_complete_indicators:
+        validity_stratum = "S0_UNCODED"
+        quantitative_status = "excluded_uncoded"
+    elif family == "iconocode_direct":
+        validity_stratum = "S1_ICONOCODE_DIRECT"
+        quantitative_status = "core_candidate"
+    elif family == "curatorial":
+        validity_stratum = "S2_CURATORIAL"
+        quantitative_status = "audit_required"
+    elif family == "legacy_or_imported":
+        validity_stratum = "S3_LEGACY_OR_IMPORTED"
+        quantitative_status = "audit_required"
+    elif family == "tentative":
+        validity_stratum = "S4_TENTATIVE"
+        quantitative_status = "audit_required"
+    elif family == "opus48_pending":
+        validity_stratum = "S5_OPUS48_PENDING"
+        quantitative_status = "audit_required"
+    else:
+        validity_stratum = "S9_OTHER_CODED"
+        quantitative_status = "audit_required"
+
+    out_of_scope = (
+        purif.get("analytic_eligible") is False
+        or purif.get("period_extended") is True
+        or "fora-do-escopo" in audit_flags
+    )
+    scope_status = "extended_or_out_of_scope" if out_of_scope else "core_1800_2000"
+    if out_of_scope and quantitative_status != "excluded_uncoded":
+        quantitative_status = "excluded_scope"
+
+    return {
+        "coded_by": coded_by or None,
+        "instrument_family": family,
+        "validity_stratum": validity_stratum,
+        "quantitative_status": quantitative_status,
+        "scope_status": scope_status,
+        "has_complete_indicators": int(has_complete_indicators),
+        "has_regime": int(has_regime),
+        "has_coded_by": int(has_coded_by),
+        "analytic_eligible": _nullable_bool(purif.get("analytic_eligible")),
+        "period_extended": _nullable_bool(purif.get("period_extended")),
+        "cohort": purif.get("cohort"),
+    }
+
 
 SCHEMA = [
     # 1. Main items table
@@ -76,12 +227,41 @@ SCHEMA = [
         FOREIGN KEY("item_id") REFERENCES "items"("item_id") ON DELETE CASCADE
     )""",
 
-    # 5. Full-Text Search Virtual Table (FTS5)
+    # 5. Analytic data-model strata (derived from canonical records)
+    """CREATE TABLE IF NOT EXISTS "corpus_strata" (
+        "item_id" TEXT PRIMARY KEY,
+        "corpus_id" TEXT,
+        "coded_by" TEXT,
+        "instrument_family" TEXT NOT NULL CHECK (instrument_family IN (
+            'uncoded', 'iconocode_direct', 'curatorial',
+            'legacy_or_imported', 'tentative', 'opus48_pending', 'other'
+        )),
+        "validity_stratum" TEXT NOT NULL CHECK (validity_stratum IN (
+            'S0_UNCODED', 'S1_ICONOCODE_DIRECT', 'S2_CURATORIAL',
+            'S3_LEGACY_OR_IMPORTED', 'S4_TENTATIVE', 'S5_OPUS48_PENDING',
+            'S9_OTHER_CODED'
+        )),
+        "quantitative_status" TEXT NOT NULL CHECK (quantitative_status IN (
+            'excluded_uncoded', 'excluded_scope', 'core_candidate', 'audit_required'
+        )),
+        "scope_status" TEXT NOT NULL CHECK (scope_status IN (
+            'core_1800_2000', 'extended_or_out_of_scope'
+        )),
+        "has_complete_indicators" INTEGER NOT NULL CHECK (has_complete_indicators IN (0, 1)),
+        "has_regime" INTEGER NOT NULL CHECK (has_regime IN (0, 1)),
+        "has_coded_by" INTEGER NOT NULL CHECK (has_coded_by IN (0, 1)),
+        "analytic_eligible" INTEGER CHECK (analytic_eligible IN (0, 1)),
+        "period_extended" INTEGER CHECK (period_extended IN (0, 1)),
+        "cohort" TEXT,
+        FOREIGN KEY("item_id") REFERENCES "items"("item_id") ON DELETE CASCADE
+    )""",
+
+    # 6. Full-Text Search Virtual Table (FTS5)
     """CREATE VIRTUAL TABLE IF NOT EXISTS "items_fts" USING fts5(
         title, country, period, medium_norm, content="items", content_rowid="rowid"
     )""",
 
-    # 6. Triggers to keep FTS table in sync
+    # 7. Triggers to keep FTS table in sync
     """CREATE TRIGGER IF NOT EXISTS "items_ai" AFTER INSERT ON "items" BEGIN
         INSERT INTO "items_fts"(rowid, title, country, period, medium_norm)
         VALUES (new.rowid, new.title, new.country, new.period, new.medium_norm);
@@ -104,6 +284,9 @@ INDEXES = [
     "CREATE INDEX IF NOT EXISTS \"idx_purification_composite\" ON \"purification\" (\"purificacao_composto\")",
     "CREATE INDEX IF NOT EXISTS \"idx_evidence_item\" ON \"evidence\" (\"item_id\")",
     "CREATE INDEX IF NOT EXISTS \"idx_iconclass_item\" ON \"item_iconclass\" (\"item_id\")",
+    "CREATE INDEX IF NOT EXISTS \"idx_strata_validity\" ON \"corpus_strata\" (\"validity_stratum\")",
+    "CREATE INDEX IF NOT EXISTS \"idx_strata_quantitative\" ON \"corpus_strata\" (\"quantitative_status\")",
+    "CREATE INDEX IF NOT EXISTS \"idx_strata_family\" ON \"corpus_strata\" (\"instrument_family\")",
 ]
 
 def load_mapping():
@@ -151,13 +334,14 @@ def load_corpus_metadata():
                 print(f"Warning: Failed to load corpus-data.json: {e}")
     return metadata
 
-def build_database():
-    print(f"Connecting to SQLite database: {SQLITE_DB}")
+def build_database(sqlite_db=SQLITE_DB):
+    print(f"Connecting to SQLite database: {sqlite_db}")
     # Remove existing db to ensure clean import
-    if SQLITE_DB.exists():
-        SQLITE_DB.unlink()
+    sqlite_db.parent.mkdir(parents=True, exist_ok=True)
+    if sqlite_db.exists():
+        sqlite_db.unlink()
         
-    db = sqlite3.connect(str(SQLITE_DB))
+    db = sqlite3.connect(str(sqlite_db))
     cursor = db.cursor()
     
     # Enable performance and security PRAGMAs
@@ -187,6 +371,7 @@ def build_database():
     purification_batch = []
     evidence_batch = []
     iconclass_batch = []
+    strata_batch = []
     
     seen_evidence = set()
     seen_iconclass = set()
@@ -240,6 +425,23 @@ def build_database():
             
             items_batch.append((item_id, corpus_id, title, country, year, period, medium_norm, created_at, updated_at))
             items_count += 1
+
+            stratum = classify_record_stratum(rec)
+            strata_batch.append((
+                item_id,
+                corpus_id,
+                stratum["coded_by"],
+                stratum["instrument_family"],
+                stratum["validity_stratum"],
+                stratum["quantitative_status"],
+                stratum["scope_status"],
+                stratum["has_complete_indicators"],
+                stratum["has_regime"],
+                stratum["has_coded_by"],
+                stratum["analytic_eligible"],
+                stratum["period_extended"],
+                stratum["cohort"],
+            ))
             
             # 2. Gather for purification
             purif = rec.get("purificacao")
@@ -324,6 +526,15 @@ def build_database():
            VALUES (?, ?, ?)""",
         iconclass_batch
     )
+
+    cursor.executemany(
+        """INSERT INTO corpus_strata (
+            item_id, corpus_id, coded_by, instrument_family, validity_stratum,
+            quantitative_status, scope_status, has_complete_indicators,
+            has_regime, has_coded_by, analytic_eligible, period_extended, cohort
+           ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+        strata_batch
+    )
                 
     # Create indexes
     for idx_ddl in INDEXES:
@@ -342,13 +553,14 @@ def build_database():
     print(f"  Purification records:{purification_count}")
     print(f"  Evidence sources:    {evidence_count}")
     print(f"  Iconclass mappings:  {iconclass_count}")
-    print(f"Database successfully saved to {SQLITE_DB}\n")
+    print(f"  Strata rows:         {len(strata_batch)}")
+    print(f"Database successfully saved to {sqlite_db}\n")
     
     # Quick verification query
-    verify_database()
+    verify_database(sqlite_db)
 
-def verify_database():
-    db = sqlite3.connect(str(SQLITE_DB))
+def verify_database(sqlite_db=SQLITE_DB):
+    db = sqlite3.connect(str(sqlite_db))
     cursor = db.cursor()
     
     print("Verifying database with test query:")
@@ -369,8 +581,33 @@ def verify_database():
     print("  -----------+-------------+-------+--------------")
     for r in rows:
         print(f"  {r[0]:<10} | {str(r[1]).upper():<11} | {r[2]:<5} | {r[3]:.2f}")
+
+    print("\nAnalytic strata summary:")
+    cursor.execute("""
+        SELECT validity_stratum, quantitative_status, COUNT(*) AS total_items
+        FROM corpus_strata
+        GROUP BY validity_stratum, quantitative_status
+        ORDER BY validity_stratum, quantitative_status;
+    """)
+    print("  Validity stratum       | Quantitative status | Count")
+    print("  -----------------------+---------------------+------")
+    for validity, status, count in cursor.fetchall():
+        print(f"  {validity:<22} | {status:<19} | {count}")
     db.close()
 
+def main():
+    parser = argparse.ArgumentParser(
+        description="Build a derived SQLite query/index layer from records.jsonl"
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=SQLITE_DB,
+        help=f"SQLite output path (default: {SQLITE_DB})",
+    )
+    args = parser.parse_args()
+    build_database(args.output)
+
+
 if __name__ == "__main__":
-    import re  # needed for year regex fallback
-    build_database()
+    main()

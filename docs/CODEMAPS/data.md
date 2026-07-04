@@ -1,17 +1,19 @@
-<!-- Generated: 2026-06-22 | Files scanned: data/processed, corpus/, tools/schemas | Token estimate: ~800 -->
+<!-- Updated: 2026-07-04 | Files scanned: data/processed, corpus/, tools/schemas | Token estimate: ~900 -->
 # Data — stores, schemas, strata
 
 ## Canonical stores (counts drift across sessions — verify live)
-| Store | Role | Key | Schema |
-|---|---|---|---|
-| `data/processed/records.jsonl` | **canonical ledger** | UUID `item_id` | master-record v1.0 |
-| `corpus/corpus-data.json` | public export (derived) | semantic `id` (XX-NNN) | flat |
-| `data/processed/purification.jsonl` | endurecimento coding | item_id | purification-record |
-| `Other/corpus-data.json` | **frozen v1.0 snapshot** (2026-04-25, N=165) — Cap.3 primary; protected | id | flat |
-| `corpus/companion-data.json` | companion app feed (stale; rebuild via `sync_companion.py`) | — | — |
-| `data/processed/pathosformel_index.jsonl` | E1 Fable-5 recode index (single-instrument) | item_id+sigla | (E1) |
+| Store | Count | Role | Key | Schema |
+|---|---:|---|---|---|
+| `data/processed/records.jsonl` | 328 | **canonical ledger** | UUID `item_id` | master-record v1.0 |
+| `corpus/corpus-data.json` | 328 | public export (derived) | semantic `id` (XX-NNN) | flat |
+| `data/processed/purification.jsonl` | 238 | endurecimento coding | item_id | purification-record |
+| `vault/candidatos/` | 399 | auxiliary cataloguing mirror | filename / corpus id | Obsidian Markdown |
+| `Other/corpus-data.json` | 165 | **frozen v1.0 snapshot** (2026-04-25) — Cap.3 primary; protected | id | flat |
+| `corpus/companion-data.json` | verify | companion app feed (stale; rebuild via `sync_companion.py`) | — | — |
+| `data/processed/pathosformel_index.jsonl` | verify | E1 Fable-5 recode index (single-instrument) | item_id+sigla | (E1) |
+| `data/processed/corpus.sqlite` | generated | derived query/index layer; not source of truth | `item_id` + `corpus_id` | SQLite |
 
-> Counts have varied 165 / 264 / 265 / ~309 across stores/branches. See `docs/decisions/DIALETICA-N165-vs-265.md` and `data/reports/nframe-audit-2026-06-19.md`.
+> Counts have varied 165 / 264 / 265 / ~309 / 328 across stores/branches. Verify live with `validate_schemas.py` and `records_to_corpus.py --diff`. See `docs/decisions/DIALETICA-N165-vs-265.md` and `docs/decisions/ESTRATIFICACAO-2026-05-30.md`.
 
 ## JSON schemas (`tools/schemas/`)
 `master-record` · `iconocode-output` · `purification-record` · `webscout-input` · `webscout-output` · `argos-manifest` · `research-cluster`
@@ -28,11 +30,15 @@ desincorporação · rigidez_postural · dessexualização · uniformização_fa
 - **Inclusion (all 5):** female allegory + juridical-political function + datable 1800–2000 + one of 6 countries + accepted support
 
 ## Analytic-N strata (by `coded_by` instrument)
-- **Estrato 1 (IconoCode):** iconocode-opus + opus-4.6-refined + opus-4.6-image (≈118 post-scope)
-- **Estrato 2 (import/migration/manual):** ≈78 (provenance audit pending)
-- **Estrato 0 (quarantine):** 41 uncoded (no coded_by/regime)
+- **S1 IconoCode direct:** 134 coded; 107 `core_candidate`, 27 `excluded_scope`.
+- **S2 Curatorial:** 15 `audit_required`.
+- **S3 Legacy/imported:** 108 `audit_required`.
+- **S4 Tentative:** 11 `audit_required`.
+- **S5 Opus-4.8 pending:** 19 (14 `audit_required`, 5 `excluded_scope`) — separate instrument until IRR/pooling decision.
+- **S0 Quarantine:** 41 `excluded_uncoded` (no coded_by/regime/complete indicators).
 - **E1 Fable-5:** 44 in-scope (single fresh instrument, image-coded) — `worktree-e1-fable5-recode`
 - Quarantine sets: `corpus/quarantine/{fora-do-escopo,nao-codificado}-2026-06-19.json`
+- SQL projection: `records_to_sqlite.py` materializes these as `corpus_strata` with `validity_stratum`, `quantitative_status`, and `scope_status`.
 
 ## Lifecycle (write path)
 `csv_to_records` / `iconocode_to_corpus` / ARGOS → **records.jsonl** → `records_to_corpus.py` → corpus-data.json → `build_hf_release.py` → HF.
