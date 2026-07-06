@@ -35,7 +35,7 @@ Branch de sessão `claude/blissful-keller-6tfahg` existe nos 4 clones (== main; 
 | #70 | `copilot/track-purification-backlog-…` | draft | 06-08 | ✅ verde | limpo | 🔀 **Merge prioritário** — manifesto do backlog dos itens sem codificação de endurecimento; pré-requisito operacional da decisão pendente do N analítico (`docs/decisions/DIALETICA-N165-vs-265.md`) |
 | #67 | `dependabot/npm_and_yarn/deploy/iconocracia-companion/…` | ready | 06-08 | ✅ verde | limpo | 🔀 **Merge** (deps do companion) |
 | #64 | `fix/export-contract-56` | ready | 05-31 | — | **conflita** | 🛠 **Rebase e merge** — restaura `id/country/support/year` no contrato de export (#56); alto valor, 1 commit |
-| #63 | `fix/protobufjs-7.5.6` | ready | 05-31 | — | **conflita** | 🛠 Segurança. `/shared` já foi corrigido (#50/#51); este cobre o companion. **Rebase e merge** (ou fechar se Socket já não acusa nada in main) |
+| #63 | `fix/protobufjs-7.5.6` | ready | 05-31 | — | **conflita** | 🛠 Segurança. `/shared` já foi corrigido (#50/#51); este cobre o companion. **Rebase e merge** (ou fechar se Socket já não acusa nada em main) |
 | #60 | `docs/archive-reconcile-plan-2026-05-24` | ready | 05-24 | ✅ verde | limpo | 🔀 **Merge** (1 doc, +526) |
 | #52 | `claude/decide-next-steps-v2mE3` | draft | 05-17 | — | **conflita** | 🧊 Consolidação editorial + higiene de notebooks; 49 atrás. **Decidir:** rebase e concluir, ou extrair só a higiene de `PENDING_REVIEW` e fechar |
 | #30 | `research/workspace-map` | draft | 04-14 (ativo até 06-08) | — | **conflita** | 🧊 **Decisão.** 68 commits / 255 arquivos misturando fixes de aquisição (04-25, possivelmente supersedidos pelo ARGOS em main) + docs. ⚠️ contém `deploy/iconocracia-companion/.wrangler/cache/wrangler-account.json` commitado (higiene). Sobrepõe `docs/prp-plans-2026-06` (workspace-map reescrito lá). Sugestão: dividir — docs reconciliados com prp-plans; fixes de pipeline auditados contra main; depois fechar |
@@ -71,7 +71,7 @@ Branch de sessão `claude/blissful-keller-6tfahg` existe nos 4 clones (== main; 
 |---|---|---|---|
 | `dependabot/npm_and_yarn/cowork/ws-8.20.1` | #10 | CI ✅, limpo | 🔀 **Merge** — patch de segurança do `ws` (vazamento de memória não inicializada em `close()`) |
 | `claude/debian-research-setup-FXiPM` | #9 (draft) | CI ✅, limpo, +1.979 (docs onboarding Debian 12) | 🔀 Un-draft e **merge** quando Ana validar o pacote (é só documentação/scripts novos; merge limpo) |
-| `claude/wire-self-improving-agent` | #4 (draft, 04-23) | CI ✅, **conflita** (arquivos do agente evoluíram in main) | 🛠 Rebase + verificar se o wiring (`.claude/settings.json` hooks) ainda é desejado; senão fechar |
+| `claude/wire-self-improving-agent` | #4 (draft, 04-23) | CI ✅, **conflita** (arquivos do agente evoluíram em main) | 🛠 Rebase + verificar se o wiring (`.claude/settings.json` hooks) ainda é desejado; senão fechar |
 | `copilot/fix-research-commit-issues` | #1 **merged** 04-15, mas **10 commits pós-merge** | +2.075 linhas; código do agente superseded (main tem versões mais novas), mas **só aqui**: `docs/imported/` (7 docs + README), `self-improving-agent-summary.md`, `.learnings/*`, `blank.yml` | 🔴 Salvage de `docs/imported/` + summary via cherry-pick/PR novo → apagar branch |
 
 ---
@@ -91,9 +91,37 @@ Apenas `main` (último commit 06-10, `google-cloudrun-source.yml`). Nada a revis
 
 ---
 
+## Checklist de ações propostas (em ordem segura; NADA executado)
+
+**Fase 1 — deleções seguras** (conteúdo comprovadamente em main):
+
+```bash
+# iconocracy-corpus
+git push origin --delete copilot/review-session-history dialectic-cycle-1 \
+  iconocracy-research-materials-2026-04-25 iconocracy-research-materials-clean
+# iuris-visio-roadmap
+git push origin --delete claude/thesis-articles-planning-J6YD6
+```
+
+**Fase 2 — merges verdes:** corpus #60, #67, #70, #74 (revisar ledgers antes) · research #10, #9.
+
+**Fase 3 — resgate do trabalho vivo** (antes de qualquer outra limpeza):
+1. Cherry-pick dos 3 commits finais de `data/reacquire-images-batch2-iiif-20260609` → PR novo (scripts E1/E3 + decision docs + scaffold Cap. 1).
+2. Cherry-pick seletivo dos 7 commits pós-merge de `reconcile/ssd-scripts-2026-06-04` → PR novo (pipeline v2.0 + `fix_drive_import_records.py`; capítulo-7 → `tese/manuscrito/drafts/`).
+3. Cherry-pick de `docs/imported/` + summary de `Research:copilot/fix-research-commit-issues` → PR novo.
+4. Cherry-pick de `tese/anchors/historian-1910-1920-br.md` de `copilot/create-implementation-plan`.
+5. Rebase + PR de `docs/prp-plans-2026-06`.
+6. Re-rodar pipeline de export em main (intenção de `reconcile/ssd-scripts-clean`) para fechar o drift 264→265.
+
+**Fase 4 — rebases:** corpus #64, #63 · research #4.
+
+**Fase 5 — decisões de Ana:** #13 (sad-roentgen: congelar→fechar pós-reingest), #52 (concluir ou extrair higiene), #30 (dividir docs/pipeline + remover `wrangler-account.json`), #23 (fechar como superseded), iuris #1 (vitest major), salvage-audits de `fix-irregularities-in-data` e `infra/hub-consistency-refactor`.
+
+---
+
 ## Status de execução — 2026-06-11 (autorizado por Ana na mesma sessão)
 
-**Fase 2 — merges (squash): ✅ EXECUTADA.** #74 → `3fafb0a` · #70 → `326a57f` · #60 → `6b00500` · #67 → `4edb641` · Research #10 → `7b3b3ac`. Verificação pós-merge: `validate_schemas.py` in main → **308/308 válidos** (antes do #74, main estava com 43 registros drive-import inválidos — 265/308). Research #9 segue aberto aguardando validação de Ana.
+**Fase 2 — merges (squash): ✅ EXECUTADA.** #74 → `3fafb0a` · #70 → `326a57f` · #60 → `6b00500` · #67 → `4edb641` · Research #10 → `7b3b3ac`. Verificação pós-merge: `validate_schemas.py` em main → **308/308 válidos** (antes do #74, main estava com 43 registros drive-import inválidos — 265/308). Research #9 segue aberto aguardando validação de Ana.
 
 **Fase 3 — resgates: ✅ EXECUTADA (4 PRs draft abertos).**
 | PR | Conteúdo |
@@ -109,7 +137,7 @@ Apenas `main` (último commit 06-10, `google-cloudrun-source.yml`). Nada a revis
 
 **⚠️ Gate de consistência do CI está vermelho por deriva pré-existente em main:** o passo "records.jsonl / corpus-data.json consistency" de `validate.yml` falha com **308 vs 314** — estado herdado de main *antes* dos merges de hoje (verificado em `f614232`: corpus-data já tinha 314; #70 preservou a contagem). Consequência: **todo PR que toque os paths monitorados terá `validate` vermelho** (caso dos resgates #78/#79/#80) até a reconciliação 308↔314 — que é exatamente a decisão de deriva reversa acima. Os PRs de resgate estão corretos em conteúdo; o vermelho é herdado.
 
-**Nota Socket (#78):** alerta "obfuscated code" em `as-table@1.0.55` (transitiva) apareceu no diff-scan após o update de base trazer os bumps do #67 para o branch — pacote já está in main via #67, não foi introduzido pelo resgate. Triagem no dashboard Socket fica a critério de Ana (não suprimi o alerta).
+**Nota Socket (#78):** alerta "obfuscated code" em `as-table@1.0.55` (transitiva) apareceu no diff-scan após o update de base trazer os bumps do #67 para o branch — pacote já está em main via #67, não foi introduzido pelo resgate. Triagem no dashboard Socket fica a critério de Ana (não suprimi o alerta).
 
 **Correções ao snapshot da auditoria:** `records.jsonl` está em **308** registros (não 265 — os 43 drive-import entraram via #75/#76); a seção *Known Data Issues* do `CLAUDE.md` (auditada em 05-24) está desatualizada nos números e merece revisão.
 
@@ -121,7 +149,7 @@ Apenas `main` (último commit 06-10, `google-cloudrun-source.yml`). Nada a revis
 
 - **Research #12 → ✅ MERGED** (`d6470f8`, squash). `docs/imported/` + sumário do agente preservados em `Research:main`. Branch `rescue/imported-docs-20260611` fica elegível para deleção (junto da lista da Fase 1, ainda bloqueada pelo proxy).
 - **Gate 308↔314 → decisão: NÃO mexer em dado canônico agora; dobrar na linha de reingest.** A deriva reversa (export `corpus-data.json` = 314 carrega ~6–7 itens *uncoded* — `coded_by=''` — sem registro canônico em `records.jsonl` = 308; vários são *fontes* iconográficas, p.ex. edições da *Iconologia* de Ripa, SMK, páginas de museus BR) será tratada como parte do PRP de reingest #59 / decisão do N analítico (`docs/prp-plans-2026-06`, `docs/decisions/DIALETICA-N165-vs-265.md`), **não** como conserto mecânico de CI. Consequência aceita: **#78 e #79 permanecem draft** com `validate` vermelho herdado até essa reconciliação; o vermelho é de contagem, não de conteúdo (ambos os resgates estão corretos).
-- **Revisão Copilot em #77 → resolvida.** Contradição "report-only" na abertura corrigida; comentário do `labeler.yml` endurecido. Confirmado contra os READMEs oficiais do `actions/labeler`: o formato do `@v4` fixado é **lista de globs por rótulo** (config atual correta); a sugestão de migrar para `changed-files`/`any-glob-to-any-file` is sintaxe **v5** e quebraria o `@v4` — rebatida com evidência, threads resolvidas. (v5 também é `node20`; bump de major não resolve a depreciação do Node 20 — fica para PR próprio.)
+- **Revisão Copilot em #77 → resolvida.** Contradição "report-only" na abertura corrigida; comentário do `labeler.yml` endurecido. Confirmado contra os READMEs oficiais do `actions/labeler`: o formato do `@v4` fixado é **lista de globs por rótulo** (config atual correta); a sugestão de migrar para `changed-files`/`any-glob-to-any-file` é sintaxe **v5** e quebraria o `@v4` — rebatida com evidência, threads resolvidas. (v5 também é `node20`; bump de major não resolve a depreciação do Node 20 — fica para PR próprio.)
 
 ### Fase 4 (rebases) — investigada 2026-06-15; resultado: nenhum rebase cego
 
@@ -129,8 +157,24 @@ Ana liberou force-push dos 3 branches. A investigação mostrou que **nenhum del
 
 - **#63 `fix/protobufjs-7.5.6` → ✅ FECHADO (superseded).** `main` já fixa `overrides: protobufjs ^7.5.6 / @protobufjs/utf8 ^1.1.1` (via #51) — rebase seria no-op. Fechado com comentário; reabrir se o Socket reacusar.
 - **#64 `fix/export-contract-56` → manter aberto; re-portar na linha de reingest.** `main` reescreveu `records_to_corpus.py` independentemente e já implementa o `id` do #56 (via `_extract_id_from_record` + `id-mapping.json`), mas **ainda não emite `country/support/year`**. O valor restante do #64 (country via `COUNTRY_BY_PREFIX`/id-mapping + support + year) precisa ser **re-implementado sobre a função atual de `main`**, não resgatado por conflito — e como regenera o export, pertence ao mesmo bundle do gate 308↔314 (mesmo script). Rebase abortado. Folded na linha de reingest.
-- **Research #4 `claude/wire-self-improving-agent` → decisão de Ana.** Rebase cego regrediria os 5 arquivos do agente (versões mais novas in `main`). Porém o **valor real** — `.claude/settings.json` que ativa os hooks — é **limpo e aditivo**: os 4 scripts referenciados já existem in `main` e `main` não tem `settings.json`. Salvável via cherry-pick **só do `settings.json`**. Pendente: ativar a automação (hooks em todo tool-call) é mudança de comportamento → requer consentimento.
+- **Research #4 `claude/wire-self-improving-agent` → decisão de Ana.** Rebase cego regrediria os 5 arquivos do agente (versões mais novas em `main`). Porém o **valor real** — `.claude/settings.json` que ativa os hooks — é **limpo e aditivo**: os 4 scripts referenciados já existem em `main` e `main` não tem `settings.json`. Salvável via cherry-pick **só do `settings.json`**. Pendente: ativar a automação (hooks em todo tool-call) é mudança de comportamento → requer consentimento.
 
 ---
 
-*Auditoria: 2026-06-11 · fontes: GitHub API (branches, PRs #1–#76, check-runs) + git local (fetch completo dos 4 clones). Relatório gerado em sessão Claude Code; seção de execução adicionada após autorização explícita na mesma sessão.*
+## Atualização — 2026-06-30 (Fase 4 concluída + #78 merged)
+
+Após ~2 semanas de avanço de `main`, vários branches de resgate ficaram parcial/totalmente redundantes (mesmo padrão de #63). Resolução final autorizada por Ana:
+
+- **#63 → FECHADO** (superseded; overrides já em `main`).
+- **#64 `fix/export-contract-56` → FECHADO.** `main` já emite **3 dos 4** campos do #56: `id`, `country` (~L198), `date`/year (~L210). **Falta só `support`** — e como adicioná-lo regenera o export, esse campo único foi **dobrado na linha de reingest** (mesmo bundle de `299↔280`). Reabrir se quiser `support` fora do bundle.
+- **Research #4 → FECHADO; salvo como Research #15.** Cherry-pick cirúrgico só do `.claude/settings.json` (wiring dos hooks) sobre `Research:main` — aditivo, paths válidos, sem regredir os arquivos do agente. #15 pronto para merge quando Ana quiser **ativar** a automação (roda hooks a cada tool-call).
+- **#78 → ✅ MERGED.** Reconstruído limpo sobre `main` (3 scripts E1/E3 + scaffold Cap. 1); decision docs e `pathosformel_index.jsonl` já tinham entrado em `main` independentemente.
+- **#79 → reconstruído limpo + force-push (`c87a0d2`).** Só o net-new: `release.sh`, `deploy_companion.sh`, `fix_drive_import_records.py`. Os outros 7 (`vault_sync.py`, `records_to_corpus.py`, `corpus_pipeline.sh`, 3 Dockerfiles, `docker-compose.yml`) ficaram nas versões **mais novas** de `main`. `validate` vermelho = deriva herdada.
+
+**Drift atualizado:** `308↔314` → agora **`299↔280`** (`main` moveu). O **bundle diferido** (linha de reingest #59 / N analítico) agora reúne 3 itens do MESMO script/regeneração: (1) reconciliação records↔corpus; (2) id-fallback para records sem token SCOUT/XX-NNN (`search_results` vazio); (3) campo `support`.
+
+**Follow-up aberto (qualidade, não-bloqueante):** a revisão Copilot em #78 (já merged) apontou 9 itens nos scripts E1/E3 — reais: `or True` morto em `e1_recode_zeros.py:279`; `write_output()` com append cego não-idempotente (duplica `item_id`); `firecrawl_extract()` trata stderr como conteúdo e não checa returncode; `except:` nu; imports `os`/`Any` não usados. Merecem um PR de limpeza próprio.
+
+---
+
+*Auditoria: 2026-06-11 · fontes: GitHub API (branches, PRs #1–#76, check-runs) + git local (fetch completo dos 4 clones). Relatório gerado em sessão Claude Code; seções de execução (06-11, 06-15, 06-30) adicionadas após autorização explícita.*
