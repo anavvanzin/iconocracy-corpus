@@ -59,8 +59,11 @@ on:
         required: false
   workflow_dispatch:
 
-  # push:
-  #   branches: [ "main" ]
+  push:
+    branches: [ "main" ]
+
+  schedule:
+    - cron: '0 0 * * 0'
 
   # Disabled for pull_request_target: redhat-actions/crda@v1 currently fails
   # before scanning with "403 Resource not accessible by integration" while
@@ -87,7 +90,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
+      - name: Check out trusted PR head
+        if: ${{ github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name == github.repository }}
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
       - name: Check out repository
+        if: ${{ github.event_name != 'pull_request_target' || github.event.pull_request.head.repo.full_name != github.repository }}
         uses: actions/checkout@v4
 
       # *******************************************************************
@@ -106,13 +116,18 @@ jobs:
       #     node-version: '20'
 
       # https://github.com/redhat-actions/openshift-tools-installer/blob/main/README.md
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
       - name: Install CRDA CLI
         uses: redhat-actions/openshift-tools-installer@v1
         with:
           source: github
           github_pat: ${{ github.token }}
           # Choose the desired version of the CRDA CLI
-          crda: "latest"
+          crda: "v3.1.3"
 
       ######################################################################################
       # https://github.com/redhat-actions/crda/blob/main/README.md
