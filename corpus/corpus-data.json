@@ -1822,15 +1822,27 @@
     "motif": [
       "Republic"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1896",
     "citation_abnt": "Alegoria da República — Manoel Lopes Rodrigues (óleo sobre tela)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 0,
+      "serialidade": 0,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "BR-022",
@@ -1872,15 +1884,27 @@
     "motif": [
       "Republic"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1889",
     "citation_abnt": "Alegoria à República — Capa da Revista Illustrada n. 566",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "BR-024",
@@ -1984,15 +2008,27 @@
     "motif": [
       "Republic"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "c. 1889 (pós-Proclamação, 15 nov. 1889)",
     "citation_abnt": "Alegoria da República Brasileira — Revista Illustrada",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "BR-028",
@@ -2406,15 +2442,27 @@
     "motif": [
       "Generic allegory"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "c. 1888 (final do séc. XIX)",
     "citation_abnt": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "BR-042",
@@ -2488,15 +2536,27 @@
     "motif": [
       "Republica"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "2014-01-01",
     "citation_abnt": "State of ambiguity : civic life and culture in Cuba''s first republic",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "BR-045",
@@ -2507,15 +2567,27 @@
     "motif": [
       "Columbia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.5,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1895",
     "citation_abnt": "Report of the United States Commission to the Columbian Historical Exposition",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "BR-046",
@@ -5249,16 +5321,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.8,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "Allégorie : le perron avec ses deux blasons muets entre la Force et la Prudence ; au-dessus plane la Justice",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 3
+    }
   },
   {
     "id": "FR-050",
@@ -5269,16 +5353,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "Figures allégories de Vertus et de l'Ancien Testament : Enoch, allégorie de la Diligence, Mathusalem et allégorie de la Justice",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-051",
@@ -5383,16 +5479,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "The Sun of Justice",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-055",
@@ -5403,16 +5511,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "La Sagesse et la Justice",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-056",
@@ -5423,16 +5543,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "[Allegory with Justitia and Pax in a cart in front of Albert and Isabella of Austria, Moritz of Orange, Spinola and other persons; Allegory with Justitia and Pax on a Car before Albert and Isabella of Austria, Maurice of Orange, Spinola and other Persons]",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-057",
@@ -5443,16 +5575,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "Iusticia [justice]",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-058",
@@ -5463,16 +5607,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "Iustitia Prudentia [Gerechtigkeit und Klugheit; Justice and Prudence; Rechtvaardigheid en Voorzichtigheid]",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-059",
@@ -5483,16 +5639,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "The old age with the image of justice",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-060",
@@ -5503,16 +5671,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "[Allegorie auf die Gerechtigkeit, die Barmherzigkeit und den Frieden; Allegory on justice, charity and peace]",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-061",
@@ -5523,16 +5703,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "[Justitia; Justice]",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-062",
@@ -5543,16 +5735,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "Polidore de Caravage Salles du Vatican á Rome; [Deux femmes de profil; La Justice] [Zwei Frauen im Profil; Allegorie der Gerechtigkeit]",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-063",
@@ -5563,16 +5767,28 @@
     "motif": [
       "Alegoria feminina"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "Solimene Sacristie de L'Eglise de Saint Paul a Naples; [Allegorie der Gerechtigkeit]",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-064",
@@ -5583,16 +5799,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "[Gerechtigkeit; Justice]",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-065",
@@ -5603,16 +5831,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "Mourning allegories of peace and justice",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-066",
@@ -5623,16 +5863,28 @@
     "motif": [
       "Alegoria feminina"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "Putti als Allegorien der Gerechtigkeit und der Klugheit",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-067",
@@ -5643,16 +5895,28 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
     "citation_abnt": "Justitia (Gerechtigkeit)",
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-068",
@@ -5788,15 +6052,27 @@
     "motif": [
       "La République"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1889",
     "citation_abnt": "La République (en hauteur) — Exposição Internacional de Paris 1889",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-073",
@@ -5900,15 +6176,27 @@
     "motif": [
       "La République"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.2,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1900 (fotografia); c. 1848 (escultura original)",
     "citation_abnt": "République de Clésinger (fotografia de demonstração)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 0,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-077",
@@ -5950,15 +6238,27 @@
     "motif": [
       "Alegoria feminina"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1894",
     "citation_abnt": "Étude pour le 1er mai? (Steinlen)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-079",
@@ -5969,15 +6269,27 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1560-1570",
     "citation_abnt": "[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-080",
@@ -5988,15 +6300,27 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1710",
     "citation_abnt": "[La Justice entre la Charité et la Force] : [dessin] / [anonyme des Pays-Bas,",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-081",
@@ -6069,15 +6393,27 @@
     "motif": [
       "Marianne"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1933",
     "citation_abnt": "18/1/33, [de gauche à droite] M. Mistler [sous-secrétaire d''Etat aux Beaux-Arts],",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-084",
@@ -6150,15 +6486,27 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1707",
     "citation_abnt": "La Province de Berry. La Généralité de Bourges, ou sont les Eslections de",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-087",
@@ -6200,15 +6548,27 @@
     "motif": [
       "La République"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1793–1794",
     "citation_abnt": "Unité indivisibilité de la République (j'ai rompu mes chaines vive la liberté)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "FR-089",
@@ -6437,15 +6797,27 @@
     "motif": [
       "Republica"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1892",
     "citation_abnt": "Allegory of the French Republic",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 1,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "FR-ASSIGNAT-1792",
@@ -8321,15 +8693,27 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.5,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1851",
     "citation_abnt": "model for reverse for the 1851 Exhibition Prize Medal",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "UK-012",
@@ -8340,15 +8724,27 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1851",
     "citation_abnt": "Model",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "UK-013",
@@ -8359,15 +8755,27 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1798",
     "citation_abnt": "Plaque",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "UK-014",
@@ -8378,15 +8786,27 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "ca. 1714",
     "citation_abnt": "The Cowper Seal Cups",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "UK-015",
@@ -8397,15 +8817,27 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "ca. 1745",
     "citation_abnt": "Fan",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "UK-016",
@@ -8416,15 +8848,27 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "ca. 1716",
     "citation_abnt": "Design for the ceiling of the Great Hall at Blenheim",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "UK-017",
@@ -8435,15 +8879,27 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.5,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1897",
     "citation_abnt": "Medal",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "UK-018",
@@ -9251,15 +9707,27 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1900",
     "citation_abnt": "Justice to the Jew : the story of what he has done for the world",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "US-023",
@@ -9270,15 +9738,27 @@
     "motif": [
       "Columbia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1912",
     "citation_abnt": "An encyclopedist of the dark ages : Isidore of Seville,",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "US-024",
@@ -9289,15 +9769,27 @@
     "motif": [
       "Columbia"
     ],
-    "regime": "",
-    "endurecimento_score": 0.0,
-    "coded_by": "",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
+    "coded_by": "hermes-auto",
+    "coded_at": "2026-07-03T23:14:12Z",
     "date": "1913",
     "citation_abnt": "Saint Tammany and the origin of the Society of Tammany, or Columbian order",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 1,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "US-025",
