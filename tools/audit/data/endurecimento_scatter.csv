@@ -1,0 +1,121 @@
+item_id,regime,motif,endurecimento,conf,has_lacuna
+d59aa292-df0,fundacional,Alegoria feminina,,0.45,1
+0d805e40-ced,fundacional,Justice/Justitia,1.1,0.45,0
+4e83a07f-ca7,fundacional,Justice/Justitia,,0.45,0
+371f116f-4cf,fundacional,Alegoria feminina,1.3,0.45,0
+8adb7337-286,fundacional,Alegoria feminina,1.3,0.45,0
+b84f6d98-c8c,fundacional,Justice/Justitia,1.3,0.45,0
+b84f6d98-c8c,fundacional,Alegoria feminina,1.3,0.45,0
+29894605-5d6,fundacional,Justice/Justitia,1.8,0.7,0
+29894605-5d6,fundacional,Liberté/Liberty,1.8,0.7,0
+29894605-5d6,fundacional,Declaração dos Direitos,1.8,0.7,0
+29894605-5d6,fundacional,Phrygian cap,1.8,0.7,0
+cbb9963f-17a,fundacional,Declaração dos Direitos,1.8,0.7,0
+35d51ab4-aa8,fundacional,Liberté/Liberty,,0.45,1
+35d51ab4-aa8,fundacional,République/República,,0.45,1
+e933260c-901,fundacional,Liberté/Liberty,,0.45,0
+e933260c-901,fundacional,Fasces,,0.45,0
+e933260c-901,fundacional,Phrygian cap,,0.45,0
+dd101f3a-1eb,fundacional,Liberté/Liberty,,0.45,0
+f0f589b2-8c1,fundacional,Liberté/Liberty,,0.45,0
+56ed1d5a-5c2,fundacional,Liberté/Liberty,,0.45,0
+56ed1d5a-5c2,fundacional,Fasces,,0.45,0
+56ed1d5a-5c2,fundacional,Phrygian cap,,0.45,0
+69df229d-aed,fundacional,Phrygian cap,0.3,0.45,0
+69df229d-aed,fundacional,Liberté/Liberty,0.3,0.45,0
+69df229d-aed,fundacional,Marianne,0.3,0.45,0
+ee616189-04a,fundacional,Liberté/Liberty,0.1,0.45,0
+ee616189-04a,fundacional,Marianne,0.1,0.45,0
+f502f5cf-ed4,fundacional,République/República,,0.85,1
+f502f5cf-ed4,fundacional,Cérès/Déméter,,0.85,1
+1444ee85-06c,fundacional,République/República,,0.45,1
+1444ee85-06c,fundacional,Cérès/Déméter,,0.45,1
+9f77480d-852,fundacional,Justice/Justitia,,0.45,0
+2852953b-8d7,fundacional,Justice/Justitia,,0.45,0
+39ef732e-918,fundacional,Justice/Justitia,,0.45,0
+b6d12c68-e76,fundacional,Justice/Justitia,1.5,0.45,0
+b6d12c68-e76,fundacional,République/República,1.5,0.45,0
+b6d12c68-e76,fundacional,Phrygian cap,1.5,0.45,0
+0f062b69-9c7,fundacional,Égalité,1.5,0.45,0
+0f062b69-9c7,fundacional,Liberté/Liberty,1.5,0.45,0
+fb40f20f-d10,fundacional,Justice/Justitia,1.2,0.45,0
+be9ffff5-7c2,normativo,Justice/Justitia,,0.45,1
+be9ffff5-7c2,normativo,Alegoria feminina,,0.45,1
+be9ffff5-7c2,normativo,République/República,,0.45,1
+be9ffff5-7c2,normativo,Marianne,,0.45,1
+958ca335-ae3,normativo,Justice/Justitia,,0.45,1
+a481d78f-8df,normativo,Justice/Justitia,,0.45,1
+23b1d6f0-343,normativo,Justice/Justitia,,0.45,1
+23b1d6f0-343,normativo,Force/Força,,0.45,1
+2c078aed-f76,normativo,Marianne,,0.45,0
+ae758509-921,normativo,Justice/Justitia,,0.45,1
+ae758509-921,normativo,Vérité/Verdade,,0.45,1
+7833d92a-6bb,normativo,Paix/Paz,,0.85,1
+7833d92a-6bb,normativo,Navigation/Commerce,,0.85,1
+7833d92a-6bb,normativo,République/República,,0.85,1
+1e7351b9-8ab,normativo,République/República,,0.45,0
+af855a2f-e19,normativo,Justice/Justitia,,0.45,0
+deb8221e-bc9,normativo,Navigation/Commerce,,0.85,1
+307097c6-6f4,normativo,Alegoria feminina,2.5,0.85,0
+307097c6-6f4,normativo,Semeuse,2.5,0.85,0
+2b761519-10d,normativo,Semeuse,,0.85,1
+4e0ca57a-044,normativo,Phrygian cap,1.7,0.45,0
+4e0ca57a-044,normativo,Alegoria feminina,1.7,0.45,0
+4e0ca57a-044,normativo,Marianne,1.7,0.45,0
+6768abc8-8e0,normativo,Semeuse,,0.7,1
+284cddfe-b22,normativo,Alegoria feminina,2.0,0.45,0
+284cddfe-b22,normativo,Marianne,2.0,0.45,0
+61d2ee4b-bbe,normativo,Alegoria feminina,2.0,0.45,0
+61d2ee4b-bbe,normativo,Marianne,2.0,0.45,0
+bc7389e9-3a1,normativo,Alegoria feminina,2.0,0.45,0
+bc7389e9-3a1,normativo,Marianne,2.0,0.45,0
+f64abf57-a9e,normativo,Paix/Paz,2.0,0.45,0
+f64abf57-a9e,normativo,Alegoria feminina,2.0,0.45,0
+f64abf57-a9e,normativo,Marianne,2.0,0.45,0
+48a9d6b2-6c5,normativo,Alegoria feminina,1.6,0.45,0
+4d84fe99-7db,normativo,Marianne,,0.85,0
+34be13f9-baa,militar,Alegoria feminina,2.3,0.7,0
+34be13f9-baa,militar,République/República,2.3,0.7,0
+34be13f9-baa,militar,Fasces,2.3,0.7,0
+34be13f9-baa,militar,Marianne,2.3,0.7,0
+5abac01e-4ee,militar,Marianne,1.1,0.45,0
+894174a1-4d8,militar,Marianne,,0.45,0
+34422d75-51d,militar,Marianne,1.8,0.45,0
+79998b9a-be8,militar,Marianne,1.8,0.7,0
+2b7a1a18-1a2,militar,Marianne,,0.7,0
+693e32ea-ea7,militar,Victoire/Vitória,1.7,0.7,0
+693e32ea-ea7,militar,Paix/Paz,1.7,0.7,0
+693e32ea-ea7,militar,Liberté/Liberty,1.7,0.7,0
+693e32ea-ea7,militar,Marianne,1.7,0.7,0
+f365d77f-dbc,militar,Justice/Justitia,,0.45,1
+1589cd9a-056,militar,Cérès/Déméter,,0.85,1
+442ad547-ffb,contra-alegoria,Alegoria feminina,,0.45,0
+442ad547-ffb,contra-alegoria,République/República,,0.45,0
+21062d44-81f,contra-alegoria,Paix/Paz,0.9,0.45,0
+b0788e77-c16,contra-alegoria,Paix/Paz,0.8,0.45,0
+99b666c6-ab3,contra-alegoria,Alegoria feminina,0.6,0.45,0
+99b666c6-ab3,contra-alegoria,Marianne,0.6,0.45,0
+90044d18-4b0,contra-alegoria,Marianne,0.7,0.45,0
+0970108c-161,contra-alegoria,Marianne,,0.85,1
+f817d598-aef,pendente,Justice/Justitia,,0.7,1
+dcccea5a-3bc,pendente,Justice/Justitia,,0.7,1
+f9d4a4c2-fa3,pendente,Justice/Justitia,,0.7,1
+f9d4a4c2-fa3,pendente,Force/Força,,0.7,1
+bde36c58-afc,pendente,Justice/Justitia,,0.7,1
+99b72e9f-1dc,pendente,Justice/Justitia,,0.7,1
+24b4b82c-82e,pendente,Justice/Justitia,,0.7,1
+fe7b843b-a6f,pendente,Justice/Justitia,,0.45,1
+9134d403-f05,pendente,Justice/Justitia,,0.45,1
+14b85866-6a9,pendente,Justice/Justitia,,0.45,1
+2a3e2f91-18b,pendente,Justice/Justitia,,0.45,1
+974b3d65-9d3,pendente,Justice/Justitia,,0.45,1
+3a0ce268-b0e,pendente,Justice/Justitia,,0.45,1
+1dbbf8e6-099,pendente,Justice/Justitia,,0.45,1
+5d33c51c-188,pendente,Justice/Justitia,,0.45,1
+b746f763-090,pendente,Justice/Justitia,,0.7,1
+35f21876-aec,pendente,Justice/Justitia,,0.45,1
+35f21876-aec,pendente,Force/Força,,0.45,1
+b52f4742-c98,pendente,Liberté/Liberty,,0.45,1
+b52f4742-c98,pendente,République/República,,0.45,1
+942ef9d3-f17,pendente,République/República,,0.45,1
+81efcd9a-e5c,pendente,République/República,,0.45,1
