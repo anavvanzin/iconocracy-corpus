@@ -16,9 +16,177 @@ pandoc:
 
 > **Estado:** §§9.3 (DOMESTICAÇÃO) e 9.4 (endurecimento) consolidados a partir de rascunhos autorais de Painéis Zwischenraum (28-abr-2026). Os scores marcados como "estimado" exigem codificação IconoCode completa antes da defesa. §§9.1, 9.2, 9.5–9.8 ainda esqueleto. Painel 3 (Militar → Contra-alegoria) é prioridade para a próxima rodada de drafting.
 
-## 9.1 — Painel I: GÊNESE
+## 9.1 — Painel I: GÊNESE — O Corpo que Ainda Respira
 
-## 9.2 — Painel II: JUSTITIA
+> **Zwischenraum temático:** Toda purificação supõe um corpo a purificar. Este primeiro painel
+> documenta o *nascimento* da alegoria jurídica no momento revolucionário — o instante em que o corpo
+> feminino ainda respira, ainda sangra, ainda partilha da carne mortal que convoca, antes de a
+> Purificação Clássica o converter em fórmula. O Zwischenraum que ele encena é o mais curto e o mais
+> decisivo de todo o Atlas: o intervalo entre o corpo insurgente (que *age* na barricada) e o corpo que
+> emoldura a lei fundadora (que *mostra* o texto). É nesse intervalo que a alegoria nasce — e nascer, aqui,
+> já é começar a morrer como corpo.
+
+### 9.1.1 — Layout do painel (3 imagens + 2 textos)
+
+#### [A] Polo esquerdo — O corpo insurgente
+
+**Imagem:** Eugène Delacroix, *La Liberté guidant le peuple*, 1830 (`ee616189`; ver também a estampa de
+difusão `69df229d`).
+
+**Texto de painel (300 palavras):**
+
+> No princípio, o corpo age. A *Liberté* de Delacroix (composto 0,1 — o mais baixo de todo o corpus)
+> avança em diagonal ascendente, seio desnudo, braço erguido, pé sobre a barricada e sobre os mortos. É
+> um corpo com peso, sombra, torção, sujeira de pólvora — um corpo *vivo*. Todos os indicadores de
+> endurecimento tendem a zero: desincorporação 0, dessexualização 0, rigidez postural 0, apagamento
+> narrativo 0. A figura não personifica um conceito abstrato à distância; ela *conduz o povo*, partilha
+> da carne daqueles que convoca. É a Pathosformel [@warburg2000] da insurreição em estado bruto —
+> energia afetiva anterior a qualquer domesticação burocrática. Este é o grau zero da tese: o momento em
+> que a alegoria feminina ainda é indistinguível de uma mulher que age. Tudo o que os painéis seguintes
+> documentam — a serialidade da moeda, a pedra do monumento, a venda da Justiça — é a lenta subtração
+> desse corpo. O painel abre por ele porque só se pode medir uma purificação a partir daquilo que ela
+> purifica.
+
+#### [B] Centro — O nascimento da fórmula
+
+**Imagem:** NENHUMA. Apenas texto.
+
+**Texto central (250 palavras):**
+
+> Entre o corpo que age e o corpo que emoldura a lei, a alegoria nasce. O Zwischenraum da gênese é o
+> intervalo em que a energia insurgente é capturada por uma forma: a mulher que guiava o povo torna-se a
+> mulher que *apresenta* a Declaração. A captura não é ainda purificação plena — há, no frontispício
+> revolucionário, um excesso de corpo, de cor, de narrativa que a moeda posterior eliminará —, mas é o
+> primeiro gesto da operação. Nascer como alegoria é começar a ceder a agência: o corpo que rompia as
+> correntes passa a *segurar* o texto que outros redigiram. O Contrato Sexual Visual instala-se aqui, no
+> exato ponto em que a Revolução, ao dar rosto de mulher à lei, começa a dispensar as mulheres reais da
+> sua feitura. A gênese da alegoria é, simultaneamente, a gênese da substituição.
+
+#### [C] Polo direito — A moldura da lei
+
+**Imagem:** *Déclaration des droits de l'homme et du citoyen*, frontispício alegórico, 1789 (`29894605`;
+variante `cbb9963f`).
+
+**Texto de painel (250 palavras):**
+
+> No polo direito, a alegoria já emoldura a lei fundadora. O frontispício da *Déclaration des droits de
+> l'homme et du citoyen* (composto 1,8) dispõe figuras femininas — a Liberdade, a França, a Razão — em
+> torno das tábuas dos direitos, apontando para o texto como quem o *garante*. O endurecimento subiu: a
+> narratividade da barricada cedeu lugar à composição hierática, o gesto de ação ao gesto de
+> apresentação. E a ironia fundadora é estrutural: a Declaração cujos "direitos do homem" excluíam
+> juridicamente as mulheres é *emoldurada* por corpos femininos. A alegoria feminina inaugura o direito
+> moderno no exato documento que institui a cidadania masculina — o rosto de mulher preside a lei que a
+> mulher real não ajudou a escrever e à qual não terá acesso pleno. É a certidão de nascimento visual do
+> Contrato Sexual Visual: a presença simbólica das mulheres como condição estética da sua ausência cívica.
+
+### 9.1.2 — Síntese do painel
+
+> Este painel propõe que a alegoria jurídica nasce de uma captura: a energia do corpo insurgente
+> (Delacroix, 0,1) é convertida na moldura hierática da lei fundadora (Déclaration, 1,8) num intervalo
+> curtíssimo — poucos anos, poucas décadas. A gênese é já o primeiro passo da Purificação Clássica: o
+> corpo que agia começa a apenas mostrar. Todos os painéis seguintes desenvolvem essa subtração até os
+> seus extremos (a pedra, a moeda imperial, a venda). Mas é aqui, no nascimento, que a operação se torna
+> mais legível — porque o corpo ainda está suficientemente vivo para que a sua captura se veja como
+> perda.
+
+### 9.1.3 — Itens corpus identificados
+
+| Item | ID | Regime | Endurecimento | Função no painel |
+|------|-----|--------|---------------|----------------|
+| Delacroix, *La Liberté guidant le peuple* | `ee616189` | fundacional | 0,1 | Polo esquerdo: corpo insurgente, grau zero |
+| *La Liberté guidant le peuple* (estampa) | `69df229d` | fundacional | 0,2 | Difusão do corpo insurgente |
+| *Déclaration des droits de l'homme et du citoyen* | `29894605` | fundacional | 1,8 | Polo direito: alegoria como moldura da lei |
+| *Déclaration des droits…* (variante) | `cbb9963f` | fundacional | 1,8 | Polo direito: reiteração da fórmula |
+
+---
+
+## 9.2 — Painel II: JUSTITIA — A Genealogia da Venda
+
+> **Zwischenraum temático:** Nenhuma fórmula alegórica é mais estável nem mais reveladora que a Justitia.
+> Este painel encena a operação que o Capítulo 1 reconstruiu genealogicamente: a passagem da Justiça que
+> *vê* — de olhos abertos, com balança, espada e carga narrativa — à Justiça *vendada*, cujo escore de
+> endurecimento é o mais alto entre as personificações da justiça no corpus. O Zwischenraum é a própria
+> venda: não um objeto, mas uma *operação* que, entre 1494 e 1603, inverte de sentido — de imposição
+> satírica (a Justiça impedida de ver pelo bobo, em Brant) a atributo naturalizado (a imparcialidade que
+> não precisa mais ser explicada, em Ripa). A venda que cega a Justiça é a mesma que cega a alegoria para
+> a sua própria exclusão: a mulher que personifica o foro é a que dele foi banida.
+
+### 9.2.1 — Layout do painel (3 imagens + 2 textos)
+
+#### [A] Polo esquerdo — A Justiça que vê
+
+**Imagens:** (1) *La Justice, la Vengeance et la Vérité* (`2852953b`); (2) *L'envoyé de la Justice*
+(`9f77480d`).
+
+**Texto de painel (300 palavras):**
+
+> No polo esquerdo, a Justiça ainda tem olhos e história. *La Justice, la Vengeance et la Vérité*
+> (composto 0,7) e *L'envoyé de la Justice* (composto 0,9) mostram a justiça como *cena*: figuras em
+> ação, narrativa densa, atributos que contam um episódio moral em vez de fixar uma abstração. O
+> endurecimento é baixo precisamente porque o apagamento narrativo é mínimo — a Justiça aqui *faz* coisas
+> (persegue, revela, envia), e ao fazê-las conserva a corporalidade que a alegoria normativa extinguirá.
+> `L'envoyé de la Justice` traz, além disso, a estrutura de delegação masculina já discutida no Capítulo
+> 2: a justiça feminina é *enviada* por uma autoridade que permanece fora de quadro. Estes são os corpos
+> que ainda não atravessaram o limiar: veem, agem, narram — e, por isso, ainda não servem como marca pura
+> de Estado.
+
+#### [B] Centro — A venda como operação
+
+**Imagem:** NENHUMA. Apenas texto.
+
+**Texto central (300 palavras):**
+
+> O intervalo entre a Justiça que vê e a Justiça vendada é o Zwischenraum genealógico reconstruído no
+> Capítulo 1. A venda aparece pela primeira vez em 1494, na xilogravura do *Narrenschiff* de Brant, como
+> *imposição*: um bobo venda a Justiça por trás, e a cegueira significa corrupção, não virtude — o corpo
+> feminino passivo é manipulado por agentes masculinos ativos. Um século depois, quando Ripa sistematiza
+> a *Iconologia* (1603), a venda já é *atributo*: propriedade intrínseca da alegoria, signo de
+> imparcialidade que não precisa mais ser explicado. O que desapareceu entre 1494 e 1603 não é apenas a
+> conotação satírica; é o *agente* da vendação. Ninguém mais venda a Justiça — ela simplesmente *é*
+> vendada. A passividade imposta ao corpo feminino (ser privado da visão) foi reinterpretada como
+> autonomia institucional (a imparcialidade). É o contrato visual em operação: a captura do corpo, a
+> naturalização da violência que o transforma em alegoria, a legitimação circular entre imagem e
+> instituição. E há um paradoxo adicional que o painel torna visível: a venda que cega a Justiça é a
+> mesma que a cega para a sua própria exclusão. A cultura jurídica que produz a alegoria feminina da
+> justiça é a mesma que nega às mulheres reais o acesso às funções que a alegoria simboliza.
+
+#### [C] Polo direito — A Justiça cega
+
+**Imagens:** (1) *Justice* (mulher vendada com espada e balança), EUA (`734dd76f`); (2) *Justitia*
+(cabeça de mármore, Porta di Capua) (`569e5eea`).
+
+**Texto de painel (300 palavras):**
+
+> No polo direito, a Justiça vendada em seu grau normativo mais puro. A *Justice* estadunidense
+> (`734dd76f`, composto 2,2) é descrita na codificação como o "grau zero" do endurecimento normativo —
+> e a leitura de nível 3 é lapidar: um Estado que exclui as mulheres do foro produz a imagem da Justiça
+> como mulher, e a venda que lhe cobre os olhos *mascara a própria exclusão da figura* [@resnikcurtis2011].
+> Aqui a narratividade do polo esquerdo desapareceu por completo: apagamento narrativo, serialidade e
+> inscrição estatal no grau máximo. A Justiça não faz nada — não persegue, não revela, não envia; ela
+> *é*, cega, imóvel, eterna. A cabeça de mármore da Porta di Capua (`569e5eea`, composto 2,4) fornece a
+> ancoragem genealógica profunda: a fórmula clássica que atravessa os séculos como Nachleben, sobrevivência
+> da forma através das rupturas. A comparação entre os polos é o próprio argumento do painel: a Justiça
+> endurece na exata medida em que perde a visão, a ação e a narrativa. Cegá-la foi torná-la funcional.
+
+### 9.2.2 — Síntese do painel
+
+> Este painel propõe que a venda de Justitia não é acessório iconográfico, mas o operador central da sua
+> purificação. A trajetória da Justiça que vê (composto 0,7–0,9) à Justiça cega (2,2–2,4) é a trajetória
+> da subtração da agência: retiram-se-lhe os olhos, a ação e a narrativa até restar a marca pura do
+> Estado. A genealogia da venda — de imposição satírica (1494) a atributo naturalizado (1603) — demonstra
+> que a operação é histórica, não natural: houve um tempo em que cegar a Justiça significava corrompê-la,
+> e é a memória apagada desse tempo que a alegoria normativa recalca. A Justiça cega é a Feminilidade de
+> Estado em sua forma mais eficaz: uma mulher que personifica o foro do qual toda mulher foi banida, e
+> cuja cegueira institui como virtude a própria exclusão que a fundou.
+
+### 9.2.3 — Itens corpus identificados
+
+| Item | ID | Regime | Endurecimento | Função no painel |
+|------|-----|--------|---------------|----------------|
+| *La Justice, la Vengeance et la Vérité* | `2852953b` | fundacional | 0,7 | Polo esquerdo: justiça narrativa, que vê e age |
+| *L'envoyé de la Justice* | `9f77480d` | fundacional | 0,9 | Polo esquerdo: delegação masculina, justiça enviada |
+| *Justice* (vendada, EUA) | `734dd76f` | normativo | 2,2 | Polo direito: grau zero normativo, Justiça cega |
+| *Justitia* (mármore, Porta di Capua) | `569e5eea` | fundacional | 2,4 | Polo direito: ancoragem genealógica (Nachleben da fórmula) |
 
 ---
 
@@ -392,7 +560,7 @@ Commerce*, Marianne assentada entre fasces, Indochina, 1885–1928 (`34be13f9`).
 
 | Item | ID | Regime | Endurecimento | Função no painel |
 |------|-----|--------|---------------|----------------|
-| Villares, *Alegoria da República* | BR-005 | fundacional | 2,4 (estimado) | Polo esquerdo: o corpo impossível, branquitude como origem |
+| Villares, *Alegoria da República* | `BR-005` | fundacional | 2,4 (estimado) | Polo esquerdo: o corpo impossível, branquitude como origem |
 | Ceschiatti, *A Justiça* (STF) | `9eecda17` | militar | 2,2 | Polo direito: transferência transatlântica consumada |
 | *Piastre de Commerce* (Marianne colonial) | `34be13f9` | militar | 2,3 | Referência cruzada (Painel VI): o corpo branco na rota imperial |
 
