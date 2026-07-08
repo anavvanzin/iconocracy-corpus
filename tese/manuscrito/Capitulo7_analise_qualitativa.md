@@ -3,9 +3,9 @@ titulo: "Análise Qualitativa: Iconologia de Casos Paradigmáticos"
 parte: "III — Resultados"
 capitulo: 7
 status: "rascunho"
-palavras: 0
-citacoes: 0
-updated: "2026-07-07"
+palavras: 3435
+citacoes: 9
+updated: "2026-07-08"
 pandoc:
   reference-doc: "template.docx"
   csl: "abnt.csl"
@@ -14,11 +14,10 @@ pandoc:
 
 # Capítulo 7 — Análise Qualitativa: Iconologia de Casos Paradigmáticos
 
-> **Estado:** rascunho autoral de 2026-07-07, redigido a partir dos registros codificados do corpus
-> ICONOCRACIA (`data/processed/records.jsonl` / `purification.jsonl`) e da moldura teórica dos
-> Caps. 1, 2 e 3. Onde o corpus não sustenta uma afirmação, o texto assinala a lacuna em vez de
-> preenchê-la com dado inexistente. `<!-- CITAÇÃO PENDENTE -->` marca pontos que exigem inserir
-> referência no `references.bib` (via `zotero-cite`) antes da entrega.
+> **Estado:** rascunho autoral revisado em 2026-07-08, redigido a partir dos registros codificados do
+> corpus ICONOCRACIA (`data/processed/records.jsonl` / `purification.jsonl`) e da moldura teórica dos
+> Caps. 1, 2 e 3. Onde o corpus não sustenta uma afirmação, o texto não a converte em resultado: ou a
+> trata como leitura qualitativa sem escore, ou a rebaixa explicitamente a excursus bibliográfico.
 
 Se os capítulos anteriores estabeleceram a moldura — o Contrato Sexual Visual (Cap. 1), a
 Feminilidade de Estado e a tipologia dos regimes iconocráticos (Cap. 2), o Contrato Racial Visual
@@ -29,8 +28,9 @@ leitura de Panofsky [@panofsky1939] — pré-iconográfico (descrição formal),
 (identificação temática) e iconológico (significado intrínseco) — e cruza essa leitura com o vetor
 de dez indicadores de endurecimento apurado para o item no corpus. O escore composto
 (`purificacao_composto`, média ordinal de 0 a 3) não é aqui a conclusão, mas a âncora empírica que
-impede a leitura iconológica de derivar em impressionismo: quando se afirma que uma figura está
-"purificada", há um número codificado, rastreável e reproduzível por trás da afirmação.
+impede a leitura iconológica de derivar em impressionismo. Nos registros ainda marcados como
+`PENDING_REVIEW`, esse número aparece apenas como orientação heurística: a materialidade do item pode
+ser usada qualitativamente, mas o escore não é tratado como codificação validada.
 
 Cada seção abre com a sua **tese parcial** — uma proposição jurídico-visual falsificável, e não uma
 descrição —, porque o risco maior de um capítulo de casos não é o erro, mas o descritivismo: a
@@ -60,28 +60,34 @@ domesticação burocrática.
 Meio século depois, o *selo definitivo* com a Semeuse de Louis-Oscar Roty (gravura de Mouchon,
 1903–1960; corpus item `4e0ca57a`) mostra outra coisa. A figura caminha, sim, mas o gesto de semear
 é congelado num perfil heráldico, repetido idêntico em bilhões de exemplares postais por quase
-sessenta anos. O vetor sobe em quase todos os eixos — dessexualização 2, uniformização facial 2,
-serialidade 2, inscrição estatal 2 (composto 1,7) — e o salto decisivo é a **serialidade**: a
-Semeuse não é uma imagem, é uma matriz de reprodução. Aqui a leitura de Agulhon sobre a
-domesticação republicana de Marianne [@agulhon1979] encontra sua confirmação material: a passagem da
-praça ao selo é a passagem do corpo ao troquel. A alegoria já não guia o povo; ela franqueia a
-correspondência do Estado. Iconologicamente, é o regime **normativo** — o corpo domesticado,
-burocratizado, convertido em infraestrutura da administração.[^semeuse-pending]
-
-[^semeuse-pending]: O registro `4e0ca57a` traz nota `PENDING_REVIEW` (escores tentativos, à espera de
-recodificação); o argumento qualitativo não depende do valor exato, mas o número deve ser reconfirmado
-antes da entrega — ver `docs/PENDING_REVIEW_2026-05.md`.
+sessenta anos. O registro confirma título, suporte, data, URL e citação ABNT; sua codificação de
+endurecimento, porém, ainda vem do lote heurístico `batch-tentative-2026-04-25`. Por isso, o composto
+1,7 é usado aqui como índice provisório, não como prova numérica fechada. O salto qualitativo
+decisivo é a **serialidade**: a Semeuse não é uma imagem, é uma matriz de reprodução. Aqui a leitura
+de Agulhon sobre a domesticação republicana de Marianne [@agulhon1979] encontra sua confirmação
+material: a passagem da praça ao selo é a passagem do corpo ao troquel. A alegoria já não guia o
+povo; ela franqueia a correspondência do Estado. Iconologicamente, é o regime **normativo** — o corpo
+domesticado, burocratizado, convertido em infraestrutura da administração.[^pending-review-use]
 
 O terceiro momento não é temporal, mas geográfico: a *Piastre de Commerce* com a Marianne assentada
 entre feixes de fasces (1885–1928; corpus item `34be13f9`), moeda de circulação na Indochina
-francesa. O vetor atinge o topo — dessexualização 3, uniformização facial 3, heraldicização 3,
-serialidade 3 (composto 2,3) — e o suporte importa: é dinheiro colonial, a alegoria republicana
-convertida em instrumento de extração além-mar. A leitura articula-se diretamente ao Contrato Racial
-Visual do Capítulo 3: o corpo branco, marmóreo e classicizado que na metrópole *representa* a nação,
-na colônia *autoriza* a posse. A mesma Marianne que ensina o alfabeto às náiades numa estampa de
-catecismo cívico (corpus item `2c078aed`, composto 1,1 — a passagem do corpo pré-político ao corpo de
-Estado) preside, na Piastre, a economia imperial. Purificação Clássica e apropriação colonial são,
-aqui, a mesma operação formal vista de dois lados.
+francesa. Também aqui a materialidade está confirmada no registro — Marianne assentada, fasces, coroa
+radiada, âncora, trigo e inscrição `INDO-CHINE FRANÇAISE` — enquanto o escore 2,3 permanece
+heurístico. O suporte, porém, basta para o argumento qualitativo: é dinheiro colonial, a alegoria
+republicana convertida em instrumento de extração além-mar. A leitura articula-se diretamente ao
+Contrato Racial Visual do Capítulo 3: o corpo branco, marmóreo e classicizado que na metrópole
+*representa* a nação, na colônia *autoriza* a posse. A mesma Marianne que ensina o alfabeto às náiades
+numa estampa de catecismo cívico (corpus item `2c078aed`, composto 1,1 — a passagem do corpo
+pré-político ao corpo de Estado) preside, na Piastre, a economia imperial. Purificação Clássica e
+apropriação colonial são, aqui, a mesma operação formal vista de dois lados.
+
+[^pending-review-use]: Revisão de 2026-07-08: os cinco registros `PENDING_REVIEW` usados neste
+capítulo (`4e0ca57a`/FR-SEM-SELO-1903, `34be13f9`/FR-PIAST-1885, `097d7804`/UK-PENNY-1860,
+`38461286`/UK-TRADE-1895 e `47e90ddf`/BE-IND-1880) foram reconferidos em
+`data/processed/records.jsonl` e nas notas correspondentes de `vault/candidatos/`: há título,
+suporte, motivo, data, URL e citação ABNT rastreáveis. Os campos de endurecimento continuam marcados
+como `PENDING_REVIEW` e, portanto, não são usados como codificação validada para release ou
+qualificação.
 
 O arco não se fecha em pedra. Em 2018, um manifestante dos *coletes amarelos* mutila o rosto do
 alto-relevo *La Marseillaise* de Rude no Arco do Triunfo (corpus item `0970108c`). O registro está
@@ -91,46 +97,52 @@ histórico e o conflito que a Purificação Clássica lhe havia extraído. A fac
 Rude é, involuntariamente, uma tese: a alegoria só é serena enquanto ninguém a toca. Voltaremos a essa
 inversão em 7.4, com a Justiça vandalizada de Brasília.
 
-## 7.2 — Britannia e Thatcher: quando a alegoria ganha rosto
+## 7.2 — Britannia e o limite Thatcher: quando a alegoria ganha rosto
 
 > **Tese parcial.** Britannia é o caso-limite da alegoria *manuseada*: a imagem feminina do poder
 > soberano mais tocada, embolsada e acumulada do mundo vitoriano, gravada em moeda de circulação
 > diária. Sua eficácia não está na contemplação, mas no hábito tátil — a pedagogia do Contrato Sexual
-> Visual operando não pelo olhar solene, mas pelo bolso. A hipótese complementar — a de que, no século
-> XX tardio, a alegoria "ganha rosto" numa dirigente real — permanece, no estado atual do corpus, uma
-> conjectura a testar, não um resultado.
+> Visual operando não pelo olhar solene, mas pelo bolso. Thatcher entra aqui apenas como limite
+> bibliográfico dessa tradição, não como caso do corpus.
 
 No nível pré-iconográfico, o *penny* de bronze com a Britannia assentada (1860–1894; corpus item
 `097d7804`) mostra a figura de perfil, elmo, tridente e escudo, sentada sobre rochedo à beira-mar. O
-vetor registra desincorporação 2, dessexualização 2, serialidade 2, inscrição estatal 2 (composto
-1,7). Iconograficamente é a personificação insular do Reino Unido; iconologicamente, o dado decisivo
-está na nota de codificação do próprio item: trata-se da *imagem feminina mais frequentemente
-manuseada* do mundo vitoriano — tocada, embolsada, acumulada. Onde a Justitia de tribunal governa
-pela distância e pela altura, Britannia governa pela proximidade cotidiana. É o registro **normativo**
-em sua forma mais capilar: não o monumento que se contempla uma vez, mas a moeda que passa de mão em
-mão mil vezes. A pedagogia visual [@warner1985] aqui é literalmente uma pedagogia manual.
+registro traz o composto heurístico 1,7 e o classifica como normativo, mas o uso seguro, neste
+capítulo, é material e iconológico: a moeda confirma a personificação insular do Reino Unido e a nota
+do item a descreve como a alegoria feminina mais amplamente circulada do Império Britânico. Onde a
+Justitia de tribunal governa pela distância e pela altura, Britannia governa pela proximidade
+cotidiana. Não é o monumento que se contempla uma vez, mas a moeda que passa de mão em mão mil vezes.
+A pedagogia visual [@warner1985] aqui é literalmente uma pedagogia manual.
 
-O *British Trade Dollar* com a Britannia de pé (1895–1935; corpus item `38461286`, composto 1,3),
-cunhado para a circulação no Oriente, reencena em prata o gesto que a Piastre francesa fizera com
+O *British Trade Dollar* com a Britannia de pé (1895–1935; corpus item `38461286`) é ainda mais
+explícito. O registro descreve Britannia na margem, tridente e escudo com a Union Flag, navio mercante
+ao fundo e inscrições em chinês e jawi malaio no reverso; a circulação prevista inclui Hong Kong,
+Straits Settlements e Labuan. Seu composto 1,3 e seu regime ainda pertencem ao mesmo lote
+`PENDING_REVIEW`, mas o objeto já reencena em prata o gesto que a Piastre francesa fizera com
 Marianne: a alegoria nacional convertida em moeda de comércio imperial. O eixo que ambas partilham —
 a serialidade a serviço da extração — reforça a leitura transnacional do Cap. 3: a alegoria
 "universal" é, na verdade, um cânone europeu exportado sob a aparência da neutralidade.
 
-Há, no corpus, um contraponto que a própria codificação sinaliza como ambíguo: *Two Forces*
-(c. 1881; corpus item `dcf36d44`), em que Britannia "protege" Hibernia. O campo `regime` do registro
-o classifica como **normativo**, mas a leitura de nível 3 anotada no item o lê como **contra-alegoria**
-— sátira da relação colonial Grã-Bretanha/Irlanda. Registro honestamente a inconsistência: ela é uma
-decisão de codificação a resolver, não um dado a naturalizar, e ilustra por que a fronteira entre
-"norma" e "subversão" é, em iconologia, uma questão de nível de leitura, não de atributo fixo.
+Há, no corpus, um contraponto que a própria codificação sinaliza como instável: *Two Forces*
+(c. 1881; corpus item `dcf36d44`), em que Britannia "protege" Hibernia. O campo
+`purificacao.regime_iconocratico` o classifica como **normativo**, mas a leitura de nível 3 anotada no
+item o lê como **contra-alegoria** — sátira da relação colonial Grã-Bretanha/Irlanda. Há ainda uma
+terceira leitura: o
+`pathosformel_index.jsonl`, codificado posteriormente a partir da imagem, classifica o item como
+**militar**, pela Britannia armada, pela espada inscrita "THE LAW" e pela cena coercitiva do conflito
+irlandês. Para este capítulo, adoto a decisão local mais conservadora: *Two Forces* não é usado como
+contra-alegoria, mas como cena militar-normativa de propaganda imperial, isto é, como imagem que
+mostra a norma britânica no exato ponto em que precisa vestir armadura. A divergência permanece como
+tarefa de ledger, mas não contamina o argumento desta seção.
 
-A segunda metade do título desta seção — *quando a alegoria ganha rosto* — nomeia uma hipótese, não
-um achado. A intuição é forte: em regimes de personalização do poder, a alegoria abstrata pode ceder
-lugar à efígie de uma dirigente real, e a figura de Margaret Thatcher como "Britannia encarnada" é o
-candidato óbvio. Mas **o corpus não contém, hoje, nenhum registro de ou sobre Thatcher**, e o
-`references.bib` não possui entrada dedicada. Sustentar esta subseção exige aquisição documental
-específica (SCOUT dirigido) e inserção bibliográfica antes de qualquer afirmação. Deixá-la como
-promessa não cumprida seria descritivismo às avessas — asserção sem base. Marco a lacuna e a difiro.
-<!-- CITAÇÃO PENDENTE: inserir referências sobre iconografia thatcherista / Britannia no séc. XX; adquirir itens de corpus (cartazes, charges, capas) antes de escrever a subseção Thatcher. -->
+Thatcher, por fim, não é tratada como caso iconométrico. O corpus atual não contém item visual
+dedicado a Margaret Thatcher, logo não há suporte para atribuir escore, regime ou trajetória
+quantitativa. O que existe é uma ponte bibliográfica limitada: Warner lê a construção midiática de
+Thatcher como reanimação de Britannia [@warner1985], e Millat situa a fortuna moderna de Britannia no
+universo do cartoon britânico [@millat2003]. Isso autoriza apenas uma conclusão modesta: no século XX
+tardio, Britannia pode funcionar como matriz de legibilidade para uma governante real, mas esse
+fenômeno deve entrar em futura aquisição documental ou em excursus não iconométrico. Aqui, Thatcher
+marca o limite do caso, não a sua prova.
 
 ## 7.3 — Columbia e Justice no Capitólio
 
@@ -232,15 +244,13 @@ Dois itens contíguos calibram a leitura. A *Allégorie de la Justice* de Stalla
 Palais (1885–1888; corpus item `8d68ddd2`, composto 1,4) mostra que policromia (monocromatização 0) e
 unicidade (serialidade 0) *seguram* o endurecimento em patamar moderado mesmo dentro do edifício mais
 purificado do corpus: a pintura, por ser única e colorida, resiste à petrificação que a arquitetura
-consuma. E a moeda de *5 francs — 50 ans de Belgique* (1880; corpus item `47e90ddf`, composto 1,7),
-com La Belgique segurando a Constituição, reconecta o caso belga ao Cap. 1: é a mesma cena
-constitucional de 1848 — a nação feminina que *mostra* a lei — agora cunhada em prata para o
-cinquentenário.[^belg-pending] A Bélgica constitucional, feminina e serena, permanece o exemplo
-inaugural da tese; o Palais é o que acontece quando essa serenidade vira edifício.
-
-[^belg-pending]: O registro `47e90ddf` traz nota `PENDING_REVIEW` e um rótulo interno equivocado
-("Belgian Congo coin") a corrigir: o item é o cinquentenário da Bélgica, não uma moeda do Congo. Ver
-`docs/PENDING_REVIEW_2026-05.md`.
+consuma. E a moeda de *5 francs — 50 ans de Belgique* (1880; corpus item `47e90ddf`), com La Belgique
+segurando a Constituição, reconecta o caso belga ao Cap. 1: é a mesma cena constitucional de 1848 — a
+nação feminina que *mostra* a lei — agora cunhada em prata para o cinquentenário. O registro ainda
+carrega `PENDING_REVIEW` e uma nota interna equivocada ("Belgian Congo coin"), mas a reconferência do
+título, resumo, URL e citação ABNT confirma que se trata do cinquentenário da Bélgica, não de moeda do
+Congo. A Bélgica constitucional, feminina e serena, permanece o exemplo inaugural da tese; o Palais é
+o que acontece quando essa serenidade vira edifício.
 
 ## 7.6 — A "Balança da Justiça" como arma geopolítica
 
@@ -270,12 +280,10 @@ eficácia jurídica da imagem.
 
 ---
 
-> **Pendências deste capítulo (para polimento perto da entrega):**
-> 1. **7.2 Thatcher** — sem registro no corpus e sem chave `.bib`; requer SCOUT dirigido + inserção
->    bibliográfica antes de escrever a subseção.
-> 2. **Recodificar** os itens `PENDING_REVIEW` citados (`4e0ca57a`, `34be13f9`, `097d7804`,
->    `38461286`, `47e90ddf`) para confirmar escores antes da entrega.
-> 3. **Resolver** a inconsistência de regime de `dcf36d44` (normativo vs. contra-alegoria).
-> 4. **Inserir** referências que faltam no `.bib` (Schwarcz para 7.1/7.4; monografias específicas de
->    Poelaert, Ceschiatti, Britannia/Columbia) via `zotero-cite`; itens 0.0 = não codificados usados só
->    qualitativamente, nunca como escore.
+Este capítulo fecha, portanto, como análise qualitativa controlada. Os itens `PENDING_REVIEW`
+permanecem bloqueadores de release e qualificação enquanto ledgers de codificação, mas não são
+tratados aqui como escores validados; entram apenas quando sua materialidade, título, suporte e
+citação já estão rastreáveis. Thatcher permanece fora do corpus e, por isso, fora da iconometria. A
+inconsistência de `dcf36d44` fica documentada com uma decisão local de leitura militar-normativa, sem
+alterar o dado canônico. O argumento do capítulo não depende de apagar essas fricções; depende de
+mantê-las visíveis no nível correto.
