@@ -1,56 +1,56 @@
 {
   "version": "v0.2",
-  "generated_at": "2026-07-04T14:35:18.895222+00:00",
+  "generated_at": "2026-07-08T21:49:38.271537Z",
   "summary": {
     "total": 165,
-    "green": 98,
+    "green": 97,
     "amber_out_of_window": 35,
-    "amber_missing_thumbnail": 5,
+    "amber_missing_thumbnail": 6,
     "red_out_of_scope": 27
   },
   "green_by_country": {
-    "France": 30,
-    "United States": 20,
-    "Brazil": 13,
-    "Germany": 10,
-    "United Kingdom": 8,
-    "Belgium": 7,
-    "Italy": 4,
-    "Spain": 2,
-    "Portugal": 2,
     "Austria": 1,
-    "Mexico": 1
+    "Belgium": 7,
+    "Brazil": 12,
+    "Germany": 10,
+    "Spain": 2,
+    "France": 30,
+    "Italy": 4,
+    "Mexico": 1,
+    "Portugal": 2,
+    "United Kingdom": 8,
+    "United States": 20
   },
   "green_by_support": {
     "cartaz": 22,
+    "pintura": 7,
+    "monumento": 4,
     "moeda": 21,
-    "estampa": 11,
     "papel-moeda": 10,
     "fotografia": 9,
-    "pintura": 8,
+    "texto": 1,
     "gravura/litografia": 6,
-    "monumento": 4,
     "selo": 4,
-    "gravura": 2,
-    "texto": 1
+    "estampa": 11,
+    "gravura": 2
   },
   "green_by_decade": {
     "1910s": 31,
-    "1900s": 10,
-    "1860s": 9,
-    "1920s": 7,
-    "1870s": 7,
-    "1890s": 7,
     "1880s": 6,
+    "1860s": 9,
     "1830s": 4,
-    "1950s": 4,
+    "1900s": 10,
     "1940s": 3,
-    "1850s": 3,
-    "1960s": 2,
-    "1840s": 2,
+    "1920s": 6,
     "1820s": 1,
+    "1960s": 2,
     "1970s": 1,
-    "1930s": 1
+    "1870s": 7,
+    "1930s": 1,
+    "1850s": 3,
+    "1950s": 4,
+    "1840s": 2,
+    "1890s": 7
   },
   "green": [
     {
@@ -63,7 +63,7 @@
       "has_thumb": true,
       "has_source": true,
       "thumbnail_fetch_status": "verified_direct",
-      "thumbnail_license": "N"
+      "thumbnail_license": "No known restrictions on publication."
     },
     {
       "id": "BE-001",
@@ -86,8 +86,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "BE-5F-LEOPOLD-1832",
@@ -158,8 +158,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "BR-002",
@@ -170,8 +170,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "BR-003",
@@ -182,8 +182,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "BR-004",
@@ -194,8 +194,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "BR-005",
@@ -206,20 +206,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
-    },
-    {
-      "id": "BR-006",
-      "title": "Alegoria da República (Carlos Chambelland)",
-      "year": 1922,
-      "country": "Brazil",
-      "support": "pintura",
-      "in_scope": true,
-      "has_thumb": true,
-      "has_source": true,
-      "thumbnail_fetch_status": "broken_url",
-      "thumbnail_license": "Domínio público, ver [Museu Histórico Nacional](http://mhn.acervos.museus.gov.br/uso-de-imagem/)"
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "BR-007",
@@ -327,7 +315,7 @@
       "has_thumb": true,
       "has_source": true,
       "thumbnail_fetch_status": "verified_direct",
-      "thumbnail_license": "N"
+      "thumbnail_license": "No known restrictions on publication."
     },
     {
       "id": "DE-015",
@@ -446,8 +434,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-001",
@@ -530,8 +518,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-008",
@@ -578,8 +566,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-019",
@@ -590,8 +578,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-021",
@@ -602,8 +590,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-022",
@@ -614,8 +602,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-023",
@@ -626,8 +614,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-024",
@@ -638,8 +626,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-025",
@@ -650,8 +638,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-026",
@@ -662,8 +650,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-027",
@@ -674,8 +662,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-028",
@@ -686,8 +674,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-029",
@@ -698,8 +686,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-030",
@@ -710,8 +698,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-031",
@@ -807,7 +795,7 @@
       "has_thumb": true,
       "has_source": true,
       "thumbnail_fetch_status": "verified_direct",
-      "thumbnail_license": "Public Domain (design), CC BY-SA 3.0 (photograph) [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:5_French_francs_Semeuse_silver_1960_F340-4_obverse.jpg)"
+      "thumbnail_license": "Public domain"
     },
     {
       "id": "IT-005",
@@ -819,7 +807,7 @@
       "has_thumb": true,
       "has_source": true,
       "thumbnail_fetch_status": "verified_direct",
-      "thumbnail_license": "N"
+      "thumbnail_license": "No known restrictions on publication."
     },
     {
       "id": "IT-006",
@@ -902,8 +890,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "UK-006",
@@ -998,8 +986,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "US-004",
@@ -1010,8 +998,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "US-007",
@@ -1022,8 +1010,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "US-008",
@@ -1047,7 +1035,7 @@
       "has_thumb": true,
       "has_source": true,
       "thumbnail_fetch_status": "verified_direct",
-      "thumbnail_license": "N"
+      "thumbnail_license": "No known restrictions on publication."
     },
     {
       "id": "US-010",
@@ -1059,7 +1047,7 @@
       "has_thumb": true,
       "has_source": true,
       "thumbnail_fetch_status": "verified_direct",
-      "thumbnail_license": "N"
+      "thumbnail_license": "No known restrictions on publication."
     },
     {
       "id": "US-011",
@@ -1071,7 +1059,7 @@
       "has_thumb": true,
       "has_source": true,
       "thumbnail_fetch_status": "verified_direct",
-      "thumbnail_license": "N"
+      "thumbnail_license": "No known restrictions on publication."
     },
     {
       "id": "US-012",
@@ -1095,7 +1083,7 @@
       "has_thumb": true,
       "has_source": true,
       "thumbnail_fetch_status": "verified_direct",
-      "thumbnail_license": "N"
+      "thumbnail_license": "No known restrictions on publication."
     },
     {
       "id": "US-017",
@@ -1119,7 +1107,7 @@
       "has_thumb": true,
       "has_source": true,
       "thumbnail_fetch_status": "verified_direct",
-      "thumbnail_license": "N"
+      "thumbnail_license": "No known restrictions on publication."
     },
     {
       "id": "US-019",
@@ -1131,7 +1119,7 @@
       "has_thumb": true,
       "has_source": true,
       "thumbnail_fetch_status": "verified_direct",
-      "thumbnail_license": "N"
+      "thumbnail_license": "No known restrictions on publication."
     },
     {
       "id": "US-020",
@@ -1154,8 +1142,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "US-EDUC-1896-01",
@@ -1202,8 +1190,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "US-SEATED-1840",
@@ -1226,8 +1214,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "hotlink_protected",
-      "thumbnail_license": "CC BY-NC-SA 4.0"
+      "thumbnail_fetch_status": "verified_direct",
+      "thumbnail_license": "Public domain"
     }
   ],
   "amber_out_of_window": [
@@ -1240,8 +1228,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "DE-004",
@@ -1252,8 +1240,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "DE-005",
@@ -1264,8 +1252,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "DE-008",
@@ -1276,8 +1264,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "DE-009",
@@ -1288,8 +1276,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "DE-010",
@@ -1300,8 +1288,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "DE-011",
@@ -1312,8 +1300,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "DE-012",
@@ -1324,8 +1312,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "DE-NOTGELD-1921",
@@ -1396,8 +1384,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-014",
@@ -1408,8 +1396,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-015",
@@ -1420,8 +1408,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-016",
@@ -1432,8 +1420,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-017",
@@ -1444,8 +1432,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-018",
@@ -1456,8 +1444,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-020",
@@ -1468,8 +1456,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "FR-036",
@@ -1479,7 +1467,7 @@
       "support": "estampa",
       "in_scope": true,
       "has_thumb": false,
-      "has_source": false,
+      "has_source": true,
       "thumbnail_fetch_status": "",
       "thumbnail_license": ""
     },
@@ -1491,7 +1479,7 @@
       "support": "estampa",
       "in_scope": true,
       "has_thumb": false,
-      "has_source": false,
+      "has_source": true,
       "thumbnail_fetch_status": "",
       "thumbnail_license": ""
     },
@@ -1503,7 +1491,7 @@
       "support": "estampa",
       "in_scope": true,
       "has_thumb": false,
-      "has_source": false,
+      "has_source": true,
       "thumbnail_fetch_status": "",
       "thumbnail_license": ""
     },
@@ -1612,8 +1600,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "US-003",
@@ -1624,8 +1612,8 @@
       "in_scope": true,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "US-005",
@@ -1712,6 +1700,18 @@
       "has_source": true,
       "thumbnail_fetch_status": "",
       "thumbnail_license": ""
+    },
+    {
+      "id": "BR-006",
+      "title": "Alegoria da República (Carlos Chambelland)",
+      "year": 1922,
+      "country": "Brazil",
+      "support": "pintura",
+      "in_scope": true,
+      "has_thumb": false,
+      "has_source": true,
+      "thumbnail_fetch_status": "broken_url",
+      "thumbnail_license": "Domínio público, ver [Museu Histórico Nacional](http://mhn.acervos.museus.gov.br/uso-de-imagem/)"
     }
   ],
   "red_out_of_scope": [
@@ -1724,8 +1724,8 @@
       "in_scope": false,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "DE-002",
@@ -1736,8 +1736,8 @@
       "in_scope": false,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "DE-006",
@@ -1748,8 +1748,8 @@
       "in_scope": false,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "DE-007",
@@ -1760,8 +1760,8 @@
       "in_scope": false,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "ES-001",
@@ -1855,7 +1855,7 @@
       "support": "estampa",
       "in_scope": false,
       "has_thumb": false,
-      "has_source": false,
+      "has_source": true,
       "thumbnail_fetch_status": "",
       "thumbnail_license": ""
     },
@@ -1976,8 +1976,8 @@
       "in_scope": false,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "PT-002",
@@ -1988,8 +1988,8 @@
       "in_scope": false,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "PT-003",
@@ -2000,8 +2000,8 @@
       "in_scope": false,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "PT-004",
@@ -2012,8 +2012,8 @@
       "in_scope": false,
       "has_thumb": true,
       "has_source": true,
-      "thumbnail_fetch_status": "",
-      "thumbnail_license": ""
+      "thumbnail_fetch_status": "existing_pre_v01",
+      "thumbnail_license": "See source page (pre-v0.1 thumbnail)"
     },
     {
       "id": "PT-005",
@@ -2041,9 +2041,8 @@
     }
   ],
   "green_by_fetch_status": {
-    "verified_direct": 37,
-    "hotlink_protected": 34,
+    "verified_direct": 38,
     "existing_pre_v01": 26,
-    "broken_url": 1
+    "hotlink_protected": 33
   }
 }

@@ -1,12 +1,39 @@
 #!/usr/bin/env python3
-"""
-Thumbnail sourcing for 75 amber-recoverable items.
-Strategy per source domain, with license metadata capture.
-"""
-import json, re, sys, time, urllib.request, urllib.parse
+"""Thumbnail sourcing for amber-recoverable v0.2 items."""
+import argparse
+import json
+import re
+import time
+import urllib.parse
+import urllib.request
+from pathlib import Path
 from urllib.error import HTTPError, URLError
 
-UA = "Mozilla/5.0 (compatible; iconocracia-corpus-research/1.0; +https://github.com/anavvanzin/iconocracy-corpus)"
+SCRIPT_DIR = Path(__file__).resolve().parent
+SNAPSHOT_DIR = SCRIPT_DIR.parent
+DEFAULT_INPUT = SNAPSHOT_DIR / "amber_recoverable_full.json"
+DEFAULT_OUTPUT = SCRIPT_DIR / "round1_candidates.json"
+
+UA = "Mozilla/5.0 (compatible; iconocracy-corpus-research/1.0; +https://github.com/anavvanzin/iconocracy-corpus)"
+
+
+def first_scalar(value):
+    """Return a stable scalar string from LOC list/string/dict metadata."""
+    if value is None:
+        return ""
+    if isinstance(value, str):
+        return value
+    if isinstance(value, list):
+        for item in value:
+            text = first_scalar(item)
+            if text:
+                return text
+        return ""
+    if isinstance(value, dict):
+        if len(value) == 1:
+            return str(next(iter(value.keys())))
+        return ", ".join(str(k) for k in value)
+    return str(value)
 
 def fetch(url, timeout=15, extra_headers=None):
     headers = {
@@ -53,12 +80,14 @@ def h_loc(url, item):
     if largest and largest.get("url"):
         img = largest["url"]
     it = data.get("item", {})
+    rights = first_scalar(it.get("rights_advisory"))
+    date_on_page = first_scalar(it.get("dates"))
     return {
         "image_url": img,
-        "license": it.get("rights_advisory", [None])[0] or "No known copyright restrictions (LOC default)",
+        "license": rights or "",
         "license_source": "Library of Congress rights_advisory",
         "title_on_page": it.get("title", ""),
-        "date_on_page": (it.get("dates", [None]) or [None])[0],
+        "date_on_page": date_on_page,
         "notes": "",
     }
 
@@ -196,7 +225,16 @@ def route(url, item):
     return h_generic(url, item)
 
 def main():
-    with open('/home/user/workspace/corpus_v0/amber_recoverable_full.json') as f:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--input", type=Path, default=DEFAULT_INPUT, help="Input amber recoverable JSON")
+    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT, help="Output round1 candidates JSON")
+    parser.add_argument("--delay", type=float, default=0.4, help="Delay between requests in seconds")
+    args = parser.parse_args()
+
+    input_path = args.input.expanduser().resolve()
+    output_path = args.output.expanduser().resolve()
+
+    with open(input_path, encoding="utf-8") as f:
         items = json.load(f)
     results = []
     for i, it in enumerate(items, 1):
@@ -210,8 +248,9 @@ def main():
         r['country'] = it['country']
         r['support'] = it['support']
         results.append(r)
-        time.sleep(0.4)  # be polite
-    with open('/home/user/workspace/corpus_v0/sourcing/round1_candidates.json','w') as f:
+        time.sleep(args.delay)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
     # summary
     hit = sum(1 for r in results if r.get('image_url'))

@@ -442,19 +442,18 @@
     }
   },
   {
-    "source_url": "https://en.wikipedia.org/wiki/Sowing_(Oscar_Roty)",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/5_French_francs_Semeuse_silver_1960_F340-4_obverse.jpg",
-    "title_on_page": "La Semeuse [Wikipedia](https://en.wikipedia.org/wiki/La_Semeuse)",
-    "date_on_page": "1897 (design), 1960 (coin issue) [Wikipedia](https://en.wikipedia.org/wiki/La_Semeuse)",
-    "creator_on_page": "Oscar Roty (designer/engraver) [Wikipedia](https://en.wikipedia.org/wiki/La_Semeuse)",
-    "license": "Public Domain (design), CC BY-SA 3.0 (photograph) [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:5_French_francs_Semeuse_silver_1960_F340-4_obverse.jpg)",
-    "custody": "Wikimedia Commons (photograph by Eric Gaba – [User:Sting](https://commons.wikimedia.org/wiki/User:Sting))",
-    "notes": "The original URL provided (https://en.wikipedia.org/wiki/Sowing_(Oscar_Roty)) was not found on Wikipedia; the correct article is [La Semeuse](https://en.wikipedia.org/wiki/La_Semeuse). The main image is the obverse of a 1960 5 Francs silver coin featuring Roty's iconic allegory. Highest resolution available is 3,840 x 3,840 pixels.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Semeuse_lignee_de_1903.JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Semeuse_lignee_de_1903.JPG",
+    "title_on_page": "Semeuse lignee de 1903",
+    "date_on_page": "1903",
+    "creator_on_page": "Louis-Oscar Roty / Louis-Eugene Mouchon",
+    "license": "Public domain",
+    "custody": "Wikimedia Commons",
+    "notes": "Manual review correction: 1903 Semeuse stamp image replaces the unrelated 1960 5 Francs coin obverse.",
     "validation": {
       "ok": true,
       "status": 200,
-      "content_type": "image/jpeg",
-      "content_length": 2070221
+      "content_type": "image/jpeg"
     }
   },
   {
@@ -618,28 +617,29 @@
     }
   },
   {
-    "source_url": "https://en.numista.com/catalogue/pieces15965.html",
-    "image_url": "https://en.numista.com/catalogue/photos/pologne/6a2300cb351724.85938609-original.jpg",
-    "title_on_page": "2 Zlotys (Battle of Warsaw)",
-    "date_on_page": "1995",
-    "creator_on_page": "Ewa Tyc-Karpińska",
-    "license": "CC BY-NC-SA 4.0",
-    "custody": "Numista catalog #15965",
-    "notes": "The object is a copper-nickel 2 Zloty coin commemorating the 75th Anniversary of the Battle of Warsaw. The obverse features the Polish Eagle emblem. The reverse depicts a scene with a church and military men. Both sides were designed by Ewa Tyc-Karpińska. Image contributed by user SteveVDK.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:1916_Standing_Liberty_quarter_obverse.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/1916_Standing_Liberty_quarter_obverse.jpg",
+    "title_on_page": "1916 Standing Liberty quarter obverse",
+    "date_on_page": "1916",
+    "creator_on_page": "Hermon Atkins MacNeil (coin designer); photographer not identified",
+    "license": "Public domain",
+    "custody": "Wikimedia Commons",
+    "notes": "Manual review correction: exact 1916 Standing Liberty Quarter obverse replaces the unrelated Polish 2 Zlotys page/image.",
     "validation": {
-      "ok": false,
-      "reason": "HTTP Error 403: Forbidden"
+      "ok": true,
+      "status": 200,
+      "content_type": "image/jpeg"
     }
   },
   {
     "source_url": "https://en.numista.com/catalogue/pieces3377.html",
-    "image_url": "https://en.numista.com/catalogue/photos/royaume-uni/5fa68ec50b4e02.59941740-original.jpg",
+    "image_url": "https://en.numista.com/catalogue/photos/royaume-uni/5fa68ec5c8a650.13680512-original.jpg",
     "title_on_page": "1 Penny - Victoria (2nd portrait; 1st type)",
     "date_on_page": "1860-1874",
     "creator_on_page": "Leonard Charles Wyon (Engraver)",
     "license": "© narracan coins",
     "custody": "Numista catalog #3377, narracan coins contribution",
-    "notes": "The obverse features the 'Bun Head' portrait of Queen Victoria. The reverse (not linked) features the allegory of Britannia. The image is a high-resolution original hosted on Numista's CDN.",
+    "notes": "Manual review correction: selected the reverse image showing Britannia seated with trident and shield.",
     "validation": {
       "ok": false,
       "reason": "HTTP Error 403: Forbidden"

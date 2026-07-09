@@ -15,12 +15,10 @@
   },
   {
     "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3g10000/3g11000/3g11900/3g11952v.jpg",
-    "license": "N",
+    "license": "No known restrictions on publication.",
     "license_source": "Library of Congress rights_advisory",
     "title_on_page": "Zeichnet 8. Kriegsanleihe / R.K.",
-    "date_on_page": {
-      "1918": "https://www.loc.gov/search/?dates=1918/1918&fo=json"
-    },
+    "date_on_page": "1918",
     "notes": "",
     "id": "AT-001",
     "source_url": "https://www.loc.gov/item/2004666193/",
@@ -255,12 +253,10 @@
   },
   {
     "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3g10000/3g11000/3g11200/3g11292v.jpg",
-    "license": "N",
+    "license": "No known restrictions on publication.",
     "license_source": "Library of Congress rights_advisory",
     "title_on_page": "Helft uns siegen! Zeichnet die Kriegsanleihe / Erler.",
-    "date_on_page": {
-      "1917": "https://www.loc.gov/search/?dates=1917/1917&fo=json"
-    },
+    "date_on_page": "1917",
     "notes": "",
     "id": "DE-014",
     "source_url": "https://www.loc.gov/item/2004665855/",
@@ -639,9 +635,9 @@
     "license_source": "",
     "title_on_page": "",
     "date_on_page": null,
-    "notes": "HANDLER_ERROR: HTTP Error 404: Not Found",
+    "notes": "Round 1 source URL superseded during manual review; see recovery_v02.json.",
     "id": "FR-SEM-SELO-1903",
-    "source_url": "https://en.wikipedia.org/wiki/Sowing_(Oscar_Roty)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Semeuse_lignee_de_1903.JPG",
     "expected_title": "Semeuse — Selo Definitivo da República Francesa (Oscar Roty / Mouchon)",
     "year": "1903",
     "country": "France",
@@ -649,12 +645,10 @@
   },
   {
     "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3g10000/3g12000/3g12000/3g12067v.jpg",
-    "license": "N",
+    "license": "No known restrictions on publication.",
     "license_source": "Library of Congress rights_advisory",
     "title_on_page": "Sottoscrivete al prestito / G. Capranesi.",
-    "date_on_page": {
-      "1917": "https://www.loc.gov/search/?dates=1917/1917&fo=json"
-    },
+    "date_on_page": "1917",
     "notes": "",
     "id": "IT-005",
     "source_url": "https://www.loc.gov/item/2004666216/",
@@ -850,9 +844,7 @@
     "license": "No known restrictions on publication.",
     "license_source": "Library of Congress rights_advisory",
     "title_on_page": "[German actress Hedwig Reicher wearing costume of \"Columbia\" with other suffrage pageant participants standing in background in front of the Treasury Building, March 3, 1913, Washington, D.C.]",
-    "date_on_page": {
-      "1913": "https://www.loc.gov/search/?dates=1913/1913&fo=json"
-    },
+    "date_on_page": "1913",
     "notes": "",
     "id": "US-008",
     "source_url": "https://www.loc.gov/item/97510759/",
@@ -863,12 +855,10 @@
   },
   {
     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/57600/57686v.jpg",
-    "license": "N",
+    "license": "No known restrictions on publication.",
     "license_source": "Library of Congress rights_advisory",
     "title_on_page": "[The Goddess of Liberty]",
-    "date_on_page": {
-      "1861": "https://www.loc.gov/search/?dates=1861/1861&fo=json"
-    },
+    "date_on_page": "1861",
     "notes": "",
     "id": "US-009",
     "source_url": "https://www.loc.gov/item/2018664118/",
@@ -879,12 +869,10 @@
   },
   {
     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/17500/17520v.jpg",
-    "license": "N",
+    "license": "No known restrictions on publication.",
     "license_source": "Library of Congress rights_advisory",
     "title_on_page": "Temple of liberty",
-    "date_on_page": {
-      "1834": "https://www.loc.gov/search/?dates=1834/1834&fo=json"
-    },
+    "date_on_page": "1834",
     "notes": "",
     "id": "US-010",
     "source_url": "https://www.loc.gov/item/2008661765/",
@@ -895,12 +883,10 @@
   },
   {
     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/40900/40985v.jpg",
-    "license": "N",
+    "license": "No known restrictions on publication.",
     "license_source": "Library of Congress rights_advisory",
     "title_on_page": "Wake up America! Civilization calls every man, woman and child! / James Montgomery Flagg.",
-    "date_on_page": {
-      "1917": "https://www.loc.gov/search/?dates=1917/1917&fo=json"
-    },
+    "date_on_page": "1917",
     "notes": "",
     "id": "US-011",
     "source_url": "https://www.loc.gov/item/91726511/",
@@ -914,9 +900,7 @@
     "license": "No known restrictions on publication.",
     "license_source": "Library of Congress rights_advisory",
     "title_on_page": "Columbia calls--Enlist now for U.S. Army / designed by Frances Adams Halsted ; painted by V. Aderente.",
-    "date_on_page": {
-      "1916": "https://www.loc.gov/search/?dates=1916/1916&fo=json"
-    },
+    "date_on_page": "1916",
     "notes": "",
     "id": "US-012",
     "source_url": "https://www.loc.gov/item/95506508/",
@@ -927,12 +911,10 @@
   },
   {
     "image_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/40900/40985v.jpg",
-    "license": "N",
+    "license": "No known restrictions on publication.",
     "license_source": "Library of Congress rights_advisory",
     "title_on_page": "Wake up America! Civilization calls every man, woman and child! / James Montgomery Flagg.",
-    "date_on_page": {
-      "1917": "https://www.loc.gov/search/?dates=1917/1917&fo=json"
-    },
+    "date_on_page": "1917",
     "notes": "",
     "id": "US-016",
     "source_url": "https://www.loc.gov/item/91726511/",
@@ -946,9 +928,7 @@
     "license": "No known restrictions on publication.",
     "license_source": "Library of Congress rights_advisory",
     "title_on_page": "Columbia calls--Enlist now for U.S. Army / designed by Frances Adams Halsted ; painted by V. Aderente.",
-    "date_on_page": {
-      "1916": "https://www.loc.gov/search/?dates=1916/1916&fo=json"
-    },
+    "date_on_page": "1916",
     "notes": "",
     "id": "US-017",
     "source_url": "https://www.loc.gov/item/95506508",
@@ -959,12 +939,10 @@
   },
   {
     "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3g00000/3g09000/3g09700/3g09735v.jpg",
-    "license": "N",
+    "license": "No known restrictions on publication.",
     "license_source": "Library of Congress rights_advisory",
     "title_on_page": "Fight or buy bonds--Third Liberty Loan / Howard Chandler Christy 1917 ; Forbes, Boston.",
-    "date_on_page": {
-      "1917": "https://www.loc.gov/search/?dates=1917/1917&fo=json"
-    },
+    "date_on_page": "1917",
     "notes": "",
     "id": "US-018",
     "source_url": "https://www.loc.gov/item/2002708939/",
@@ -975,12 +953,10 @@
   },
   {
     "image_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3c30000/3c35000/3c35000/3c35065v.jpg",
-    "license": "N",
+    "license": "No known restrictions on publication.",
     "license_source": "Library of Congress rights_advisory",
     "title_on_page": "Liberty is not anarchy / Th. Nast.",
-    "date_on_page": {
-      "1886": "https://www.loc.gov/search/?dates=1886/1886&fo=json"
-    },
+    "date_on_page": "1886",
     "notes": "",
     "id": "US-019",
     "source_url": "https://www.loc.gov/item/2004679037/",
@@ -1065,9 +1041,9 @@
     "license_source": "",
     "title_on_page": "",
     "date_on_page": null,
-    "notes": "BLOCKED: HTTP Error 403: Forbidden",
+    "notes": "Round 1 source URL superseded during manual review after detecting erroneous Polish Numista page; see recovery_v02.json.",
     "id": "US-SLQ-1916",
-    "source_url": "https://en.numista.com/catalogue/pieces15965.html",
+    "source_url": "https://commons.wikimedia.org/wiki/File:1916_Standing_Liberty_quarter_obverse.jpg",
     "expected_title": "Standing Liberty Quarter — Liberty with Shield and Olive Branch",
     "year": "1916",
     "country": "United States",

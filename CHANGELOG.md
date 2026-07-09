@@ -9,98 +9,89 @@ Formato: `[semver] — YYYY-MM-DD — descrição`. Snapshots correspondem a git
 ## [v0.2] — 2026-07-04 — Recuperação de thumbnails (round 1 + round 2)
 
 ### Contexto
-Auditoria v0.1 (2026-07-04, manhã) identificou 75 itens âmbar recuperáveis: dentro da janela 1800–2000, com source_url verificável, mas sem `thumbnail_url` populado. Investimos em sourcing sistemático para transformar esses 75 em itens verdes antes de qualquer inferência estatística.
+Auditoria v0.1 (2026-07-04, manhã) identificou 75 itens âmbar recuperáveis: dentro da janela 1800-2000, com `source_url` verificável, mas sem `thumbnail_url` populado. A recuperação v0.2 torna essas tentativas auditáveis antes de qualquer inferência estatística.
+
+Correção de revisão aplicada em 2026-07-08: os artefatos foram alinhados ao conteúdo real do snapshot, `broken_url` deixou de contar como verde, metadados LOC foram normalizados e divergências visuais específicas foram corrigidas.
 
 ### Regras metodológicas aplicadas
-- Nenhuma URL fabricada. Toda `thumbnail_url` foi extraída da página de fonte primária já registrada em `url` (source_url do corpus).
-- Nenhum item adicionado. O universo do corpus não muda — apenas a completude dos metadados.
-- Cada thumbnail recuperado carrega: `thumbnail_source` (URL da página fonte), `thumbnail_fetch_status`, `thumbnail_license`, `thumbnail_custody`, `thumbnail_creator`, `thumbnail_recovered_at`.
-- Nenhuma inferência sobre `regime_iconocratico` ou indicadores de purificação foi refeita — a codificação existente é preservada.
+- Nenhuma URL fabricada. Toda `thumbnail_url` vem de fonte primária, página institucional ou repositório de imagem verificável.
+- Nenhum item adicionado. O universo do corpus permanece em 165 linhas no nível de análise.
+- Campos `thumbnail_*` foram persistidos no export público (`corpus/corpus-data.json`), no dataset achatado (`data/processed/corpus_dataset.csv`) e no registro auditável (`data/processed/thumbnail_registry.jsonl`).
+- Cada thumbnail recuperado carrega, quando disponível: `thumbnail_source`, `thumbnail_fetch_status`, `thumbnail_license`, `thumbnail_custody`, `thumbnail_creator` e `thumbnail_recovered_at`.
+- Nenhuma inferência sobre `regime_iconocratico` ou indicadores de purificação foi refeita; a codificação existente foi preservada.
 
 ### Round 1 — extração programática via API
-Foram atacados 35 itens cujas fontes têm API estruturada ou padrão og:image confiável.
+Foram atacados itens cujas fontes têm API estruturada ou padrão `og:image` confiável. O script `data/processed/v0.2/sourcing/extract_thumbnails.py` usa paths repo-relativos por padrão e aceita `--input`, `--output` e `--delay` para reprodução local.
 
-| Fonte | Itens | Estratégia | Verificados |
-|---|---:|---|---:|
-| Library of Congress | 12 | JSON API (`?fo=json`), campo `files[].url` de maior resolução | 12 |
-| Europeana | 3 | og:image + JSON-LD `edmIsShownBy` | 3 |
-| Met Museum | 2 | Collection API v1 (`primaryImage`) | 2 |
-| Museums Victoria | 2 | og:image | 2 |
-| IWM (Imperial War Museum) | 2 | og:image | 2 |
-| Wikipedia | 4 | REST summary API (`originalimage.source`) | 3 |
-| Heritage Brussels | 1 | og:image | 1 |
-| DHM Berlin | 1 | og:image (fallback para default do site) | 1 |
-| Eliseu Visconti site | 1 | og:image | 1 |
-| INAH México | 1 | og:image | 1 |
-| **Total Round 1** | **29** | — | **28** |
-
-Sub-total efetivo do round 1: 27 verificados (o item DHM caiu por retornar ícone social-share default; um item Wikipedia sem lead image).
+| Fonte | Estratégia |
+|---|---|
+| Library of Congress | JSON API (`?fo=json`), com normalização escalar de `rights_advisory` e `dates` |
+| Europeana | `og:image` + JSON-LD quando disponível |
+| Met Museum | Collection API v1 (`primaryImage`) |
+| Museums Victoria, IWM, DHM, INAH e outros | `og:image` com fallback documentado |
+| Wikipedia/Wikimedia | REST summary API ou URL Commons validada manualmente |
 
 ### Round 2 — extração via browser em lote
-Os 48 itens que os APIs não cobrem (hotlink protection, JavaScript-only, ou sem endpoint estruturado) foram processados via `wide_browse` com prompt explícito para pegar a imagem principal + licença + custódia.
-
-| Fonte | Itens | Notas |
-|---|---:|---|
-| Numista | 26 | Todas retornaram URL válida do CDN Numista; hotlink-protected (requer Referer header) |
-| Colnect | 2 | 0 recuperadas (login-wall) |
-| memoria.bn.br | 2 | 1 recuperada; a outra requer visualizador PDF |
-| Smithsonian NMAH | 2 | 2 recuperadas |
-| Brasiliana Museus | 1 | 1 recuperada — Alegoria da República (Chambelland, 1922) |
-| Gallica BnF | 7 | 7 URLs IIIF válidas mas hotlink-protected |
-| GHI/DC (German History) | 1 | 1 recuperada |
-| Numizon | 1 | 1 recuperada |
-| Last Dodo | 1 | 1 recuperada |
-| IMS (Moreira Salles) | 1 | 1 recuperada |
-| HTI/OSU | 1 | 1 recuperada |
-| Gutenberg | 1 | 1 recuperada (paratexto UK-010) |
-| Wikipedia (falhou r1) | 1 | 1 recuperada |
-| **Total Round 2** | **48** | 44 com URL, 3 sem URL, 1 URL quebrada |
+Os itens sem endpoint estruturado foram processados via browser em lote, com captura de imagem principal, licença e custódia. O merge final está em `data/processed/v0.2/sourcing/recovery_v02.json` e `.csv`.
 
 ### `fetch_status` — classificação da URL recuperada
-- `verified_direct` (37): URL abre em qualquer cliente HTTP. Servir diretamente é seguro.
-- `hotlink_protected` (34): URL válida mas requer Referer do domínio origem. Numista + Gallica são os principais. Para exibição no Companion/Atlas, usar proxy Cloudflare Worker.
-- `broken_url` (1): URL extraída mas retornou 404 — requer nova tentativa.
-- `not_recovered` (3): sem URL após dois rounds.
+- `verified_direct` (38 verdes): URL abre em cliente HTTP comum.
+- `hotlink_protected` (33 verdes): URL válida, mas requer `Referer` do domínio origem; Numista e Gallica são os principais casos.
+- `existing_pre_v01` (26 verdes): thumbnail já existia antes da recuperação v0.2 e recebeu status explícito.
+- `broken_url` (1): URL extraída retornou erro; documentada no registro, mas excluída dos verdes.
 
 ### Resultado global (semáforo v0.2 vs v0.1)
 
 | Classificação | v0.1 | v0.2 | Δ |
 |---|---:|---:|---:|
-| 🟢 Verde (in-scope + thumbnail + fonte) | 16 | **98** | **+82** |
-| 🟡 Âmbar — fora da janela 1800–2000 | 29 | 35 | +6 (reclassif.) |
-| 🟡 Âmbar — sem thumbnail | 93 | 5 | −88 |
+| 🟢 Verde (in-scope + thumbnail usável + fonte) | 16 | **97** | **+81** |
+| 🟡 Âmbar — fora da janela 1800-2000 | 29 | 35 | +6 |
+| 🟡 Âmbar — sem thumbnail usável | 93 | 6 | -87 |
 | 🔴 Vermelho (fora de escopo, apêndice comparador) | 27 | 27 | 0 |
 | **Total** | 165 | 165 | 0 |
 
-### Itens que ficaram sem thumbnail (3) — pendentes para v0.3
-- `AR-001` — Allegory Liberty Seated (Argentina, selo 1899). Colnect exige login.
-- `BR-008` — Estátua da Justiça (Luiz Rochet), referência no Almanak Laemmert. Página é PDF em memoria.bn.br sem imagem embutida.
+### Itens que ficaram sem thumbnail usável (6) — pendentes para v0.3
+- `AR-001` — Allegory, Liberty Seated (Argentina, selo 1899). Colnect exige login.
+- `BR-006` — Alegoria da República (Carlos Chambelland). URL direta do MHN retornou erro; precisa nova fonte.
+- `BR-008` — Estátua da Justiça (Luiz Rochet), referência no Almanak Laemmert. Página é PDF sem imagem embutida recuperável.
+- `BR-016` — Alegoria da República (Estados Unidos do Brasil). Sem thumbnail recuperado.
+- `DE-NOTG-1921` — Notgeld Bielefeld, Jungbrunnen silk note. Sem thumbnail recuperado.
 - `DE-GERM-BELG-1914` — Germania "Belgien" overprint (WWI). Colnect exige login.
 
-Ação sugerida para v0.3: buscar essas três em Wikimedia Commons ou em outras bases numismáticas/filatélicas de acesso aberto (Delcampe já é problemático porque também requer login).
+Ação sugerida para v0.3: buscar esses itens em Wikimedia Commons, acervos institucionais alternativos ou bases numismáticas/filatélicas de acesso aberto.
+
+### Correções de integridade aplicadas na revisão
+- `US-SLQ-1916`: substituída a página polonesa da Numista por imagem Commons do obverso do Standing Liberty quarter de 1916.
+- `FR-SEM-SELO-1903`: substituído o placeholder por selo Semeuse de 1903 em Wikimedia Commons.
+- `UK-PENNY-1860`: substituída a imagem para o reverso com Britannia.
+- `BR-006`: tentativa `broken_url` preservada para auditoria, mas sem `thumbnail_url` canônica e fora do grupo verde.
+- LOC: `thumbnail_license` usa o texto completo `No known restrictions on publication.`; `date_on_page` foi normalizado para escalar nos outputs de sourcing.
 
 ### Notas de licenciamento
-- 12 itens LOC: "No known copyright restrictions" (default LOC).
-- 7 itens Gallica: "Domaine public".
-- 26 itens Numista: crédito varia (Sincona AG, Heritage Auctions, CGB, PCGS, contribuições de usuário). Cada `thumbnail_license` carrega a atribuição específica. Uso educacional/pesquisa acadêmica está coberto por fair use nas jurisdições relevantes; publicação exige verificação individual.
-- 3 itens Europeana: `webResourceEdmRights` capturado quando presente.
-- Museu Histórico Nacional (BR-006): "Domínio público" conforme política institucional.
+- Itens LOC: `No known restrictions on publication.` conforme metadado `rights_advisory`.
+- Gallica: `Domaine public` quando indicado.
+- Numista: crédito varia por item; cada linha mantém atribuição própria em `thumbnail_license`.
+- Europeana: `webResourceEdmRights` capturado quando presente.
+- Publicação externa de imagens exige verificação individual por item.
 
 ### Regime de análise
-Nenhuma inferência estatística ou análise de padrões deve ser refeita sobre v0.2 até que a distribuição de países e suportes seja reavaliada — o corpus verde saltou de 16 para 98 e as proporções mudam. Recomendação: rodar re-descrição do corpus (país × suporte × década) sobre v0.2 antes do próximo passo metodológico.
+Nenhuma inferência estatística ou análise de padrões deve ser refeita sobre v0.2 até que a distribuição de países e suportes seja reavaliada. O corpus verde saltou de 16 para 97, portanto proporções usadas antes do snapshot não devem ser reaproveitadas.
 
 ### Arquivos alterados
-- `thumbnail_registry.jsonl` → renomeado `thumbnail_registry_v02.jsonl`, +72 entradas com URLs
-- `corpus_dataset.csv` → renomeado `corpus_dataset_v02.csv`, coluna `thumbnail_url` + 4 novas colunas (`thumbnail_fetch_status`, `thumbnail_license`, `thumbnail_custody`, `thumbnail_recovered_at`)
-- `audit_v2.json` → novo arquivo com contagens atualizadas
-- `sourcing/` → novo diretório com scripts de extração e resultados intermediários
+- `corpus/corpus-data.json` — persistência dos campos `thumbnail_*` do snapshot.
+- `data/processed/corpus_dataset.csv` — dataset achatado de 165 linhas com colunas de thumbnail e status.
+- `data/processed/thumbnail_registry.jsonl` — registro de 165 itens com proveniência, status, licença e custódia.
+- `data/processed/v0.2/audit_v2.json` — auditoria v0.2 recalibrada.
+- `data/processed/v0.2/README.md` — documentação do snapshot.
+- `data/processed/v0.2/sourcing/` — script de extração e outputs intermediários.
+- `tools/scripts/code_purification.py` — export CSV preserva as colunas canônicas de thumbnail.
 
 ### Arquivos preservados intactos
-- `records.jsonl` (328 registros mestres)
-- `purification.jsonl` (238 itens codificados)
-- `id_crosswalk.jsonl` (316 mapeamentos)
-- `pathosformel_index.jsonl` (SKOS de motivos)
-- `codebook.md` (10 indicadores de purificação)
+- `data/processed/records.jsonl` (328 registros mestres)
+- `data/processed/purification.jsonl` (238 itens codificados)
+- `data/processed/id_crosswalk.jsonl` (316 mapeamentos)
+- `data/processed/pathosformel_index.jsonl` (SKOS de motivos)
+- `data/docs/codebook.md` (10 indicadores de purificação)
 
 ---
 
