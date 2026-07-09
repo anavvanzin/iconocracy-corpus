@@ -28,7 +28,8 @@
     "citation_abnt": "20 Cruzeiros, Tesouro Nacional, 1ª estampa (P-136) — reverso: Alegoria da Proclamação da República (A República), por Cadmo Fausto de Souza",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "0754a19f-a859-99e5-932d-17f5181496b2",
@@ -61,7 +62,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "089fc944-332e-5647-a2df-f366de58532f",
@@ -92,7 +94,8 @@
     "citation_abnt": "100 Lire - Vittorio Emanuele III (Italia standing on a fasces-adorned ship's prow, torch and olive branch)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "08da86db-847d-51f8-b000-50fa8fb51ff3",
@@ -123,7 +126,8 @@
     "citation_abnt": "10 Lire \\\"Biga\\\" — Vittorio Emanuele III (Italia on chariot holding fasces)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "0970108c-1619-50f5-bc85-719eb5f80aee",
@@ -154,7 +158,8 @@
     "citation_abnt": "Marianne / La Marseillaise (François Rude) — Mutilação no Arco do Triunfo durante os protestos dos Coletes Amarelos (2018)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "09f8d8d5-4d94-5225-aa60-9827a8bf1c08",
@@ -185,7 +190,8 @@
     "citation_abnt": "Serie Imperiale, 10 Lire (Italia turrita) — Regno d'Italia",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "0bf85996-a2f4-53c6-9bf8-1334ede7d1b8",
@@ -216,7 +222,8 @@
     "citation_abnt": "Cédula 5 Cruzeiros (carimbo/sobreimpressão sobre 5 Mil Réis, P# 125) — Tesouro Nacional, Estado Novo (1942)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "14990163-f5e4-a143-0d6b-288477d89a2b",
@@ -249,7 +256,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "1589cd9a-0569-5524-bb61-5c64de1e92d1",
@@ -280,7 +288,8 @@
     "citation_abnt": "1000 Francs Déesse Déméter (type 1942) — Banque de France",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "19238273-c090-53e6-b531-23397f36677b",
@@ -311,7 +320,8 @@
     "citation_abnt": "10 Pesos (\\\"Ángel de la Libertad\\\") — second/reduced type, winged female Liberty, struck through the late dictatorship (KM#218)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "235c545a-f3b8-568a-f268-178806a4bf07",
@@ -344,7 +354,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ]
+    ],
+    "support": "cartaz"
   },
   {
     "id": "2e077aa6-5e64-3c58-f33b-99b0bcfcef83",
@@ -377,7 +388,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
-    ]
+    ],
+    "support": "cartaz"
   },
   {
     "id": "387bc54c-e8c7-50be-b24b-a3396f1bc1da",
@@ -408,7 +420,8 @@
     "citation_abnt": "1 Peseta 1948 'Dama de Elche' — efígie feminina ibérica em nota do Banco de España (Estado franquista)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "3bc72151-1996-f7ca-b282-512024e54acf",
@@ -441,7 +454,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-pre-1800-genealogia",
       "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "3cb602f7-56b5-5b48-871e-629b65b216c8",
@@ -472,7 +486,8 @@
     "citation_abnt": "20 Lire - Vittorio Emanuele III (seated Italia greeted by a Littore with fasces)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "3cca844a-daff-511a-abc2-f6a2a8ce2210",
@@ -503,7 +518,8 @@
     "citation_abnt": "50 Cruzeiros, Tesouro Nacional, 1ª estampa (P-137) — reverso: Alegoria da Lei Áurea (mulher alegórica / 'Lady Liberty'), por Cadmo Fausto de Souza",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "3f9ebcea-2b43-5823-b888-15c706bf65d1",
@@ -534,7 +550,8 @@
     "citation_abnt": "Alegoria à Pátria — Carlos Reis (1935), Sala das Sessões da Câmara Corporativa, Palácio de São Bento",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "46131280-d556-5ccf-b78f-f90523da0334",
@@ -565,7 +582,8 @@
     "citation_abnt": "5 Lire - Vittorio Emanuele III (seated female 'Fertility/Italia' with children, between Savoy shield and Fascio Littorio)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "49706189-9d27-da9e-59d5-3467a32a1f5e",
@@ -598,7 +616,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "4a6fa350-a8f7-87ed-e4be-76860dba356b",
@@ -636,7 +655,8 @@
     "citation_abnt": "VISCONTI, Eliseu. Ex-libris da Biblioteca Nacional. 1903. Desenho, tinta. Biblioteca Nacional, Rio de Janeiro. Projeto Eliseu Visconti, A803. Disponível em: https://eliseuvisconti.com.br/obra/a803/. Acesso em: 19 maio 2026.",
     "audit_flags": [
       "drive-import-2026-06-04"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "4f51943f-625d-c265-60ed-73edc3d29986",
@@ -669,7 +689,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ]
+    ],
+    "support": "cartaz"
   },
   {
     "id": "64d57088-2726-543f-bc9e-e382da696aee",
@@ -700,7 +721,8 @@
     "citation_abnt": "Serie Imperiale 1929 — definitive stamp 15 c. 'Italia turrita' (Paschetto), fasci littori at sides",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "6932b9c2-9bb3-5b21-9040-36f6323401e3",
@@ -731,7 +753,8 @@
     "citation_abnt": "Performance 'La Joconde de l'Histoire' (Déborah de Robertis, Musée d'Orsay / Musée de l'Histoire de l'Immigration, 2018)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "69db3fb7-1fad-5090-b2a7-5e18c0438807",
@@ -762,7 +785,8 @@
     "citation_abnt": "100 Francs Sully (type 1939) — Banque de France",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "6f5891d5-090c-499c-a3bc-4ff71ee6307b",
@@ -795,7 +819,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-pre-1800-genealogia",
       "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "7b5ea66e-0285-59ea-a652-264f8a5e90bd",
@@ -826,7 +851,8 @@
     "citation_abnt": "1 Peseta 1937 'La Rubia' — alegoria feminina da República (CONTRA-EXEMPLO / fronteira de regime; pré-vitória franquista)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "80b1d4ad-1aa4-7f87-35b7-ba8cea46f0cf",
@@ -859,7 +885,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "8d6151b3-9928-e42e-5dbc-713c10fe1a82",
@@ -892,7 +919,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ]
+    ],
+    "support": "cartaz"
   },
   {
     "id": "93b53069-d4b7-6c55-df87-f85d0341bdbe",
@@ -925,7 +953,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ]
+    ],
+    "support": "cartaz"
   },
   {
     "id": "94a8fbc2-141d-5ce5-b363-2ee57d804b49",
@@ -956,7 +985,8 @@
     "citation_abnt": "10 Lire 1936 XIV — Vittorio Emanuele III RE E IMPERATORE (Italia on ship prow, Victory + fasces)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "95844673-a438-57b7-9e87-b81a8628a0f0",
@@ -987,7 +1017,8 @@
     "citation_abnt": "10 Pesos (\\\"Ángel de la Libertad\\\") — winged female allegory of Liberty breaking chains, coup date 11-IX-1973 (KM#210)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "AR-001",
@@ -1021,7 +1052,8 @@
     "citation_abnt": "Allegory, Liberty Seated — Selo definitivo da República Argentina",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "AT-001",
@@ -1065,7 +1097,8 @@
     "thumbnail_license_source": "Library of Congress rights_advisory",
     "thumbnail_custody": "www.loc.gov",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358123Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "moeda"
   },
   {
     "id": "BE-001",
@@ -1108,7 +1141,8 @@
     "thumbnail_license_source": "collections.heritage.brussels",
     "thumbnail_custody": "collections.heritage.brussels",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358141Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "pintura"
   },
   {
     "id": "BE-002",
@@ -1147,7 +1181,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://be-monumen.be/patrimoine-belge/poelaert-joseph/",
     "thumbnail_custody": "upload.wikimedia.org",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "monumento/escultura"
   },
   {
     "id": "BE-003",
@@ -1178,7 +1213,8 @@
     "citation_abnt": "Cérès de Belgique — Premier Timbre-Poste du Royaume",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "BE-004",
@@ -1209,7 +1245,8 @@
     "citation_abnt": "Constitution de la Belgique — Édition illustrée (frontispice allégorique)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "frontispício"
   },
   {
     "id": "BE-5F-LEOPOLD-1832",
@@ -1251,7 +1288,8 @@
     "thumbnail_creator": "Joseph-Pierre Braemt ([Numista](https://en.numista.com/catalogue/artist.php?id=160))",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358146Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "BE-CONGO-100F-1912",
@@ -1299,7 +1337,8 @@
     "thumbnail_creator": "Bank of the Belgian Congo (Banque du Congo Belge)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358150Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "BE-CONGO-1912",
@@ -1348,7 +1387,8 @@
     "thumbnail_creator": "[Bank of the Belgian Congo (Banque du Congo Belge)](https://en.numista.com/catalogue/issuing_entity.php?id=1501); Printer: [National Bank of Belgium Printing Works](https://en.numista.com/catalogue/printer.php?id=773)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358159Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "BE-CONGO-MON-1921",
@@ -1393,7 +1433,8 @@
     "thumbnail_license_source": "Wikipedia en article",
     "thumbnail_custody": "en.wikipedia.org",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358153Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "monumento/escultura"
   },
   {
     "id": "BE-IND-1880",
@@ -1440,7 +1481,8 @@
     "thumbnail_creator": "Léopold Wiener (Obverse engraver), Charles Wiener (Reverse engraver), E. Devaux (Designer)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358156Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "BR-001",
@@ -1478,7 +1520,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778",
     "thumbnail_custody": "brasilianafotografica.bn.gov.br",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "monumento/escultura"
   },
   {
     "id": "BR-002",
@@ -1517,7 +1560,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609",
     "thumbnail_custody": "brasilianafotografica.bn.gov.br",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "monumento/escultura"
   },
   {
     "id": "BR-003",
@@ -1556,7 +1600,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611",
     "thumbnail_custody": "brasilianafotografica.bn.gov.br",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "monumento/escultura"
   },
   {
     "id": "BR-004",
@@ -1595,7 +1640,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529",
     "thumbnail_custody": "brasilianafotografica.bn.gov.br",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "monumento/escultura"
   },
   {
     "id": "BR-005",
@@ -1634,7 +1680,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://archive.nyu.edu/handle/2451/61396",
     "thumbnail_custody": "upload.wikimedia.org",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "pintura"
   },
   {
     "id": "BR-006",
@@ -1677,7 +1724,8 @@
     "thumbnail_custody": "Museu Histórico Nacional",
     "thumbnail_creator": "Carlos Chambelland",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358163Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "pintura"
   },
   {
     "id": "BR-007",
@@ -1722,7 +1770,8 @@
     "thumbnail_creator": "Typographia da Gazeta / Pierre Plancher",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358167Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "monumento/escultura"
   },
   {
     "id": "BR-008",
@@ -1756,7 +1805,8 @@
     "citation_abnt": "ALMANAK Laemmert. Rio de Janeiro, 1929. ed. A00085, p. 542. Disponível em: http://memoria.bn.br/docreader/webindex/WIPagina/313394/101306.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "BR-009",
@@ -1803,7 +1853,8 @@
     "thumbnail_custody": "Instituto Moreira Salles, Marcel Gautherot Collection",
     "thumbnail_creator": "Marcel Gautherot (Photographer), Alfredo Ceschiatti (Sculptor)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358170Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "monumento/escultura"
   },
   {
     "id": "BR-010",
@@ -1845,7 +1896,8 @@
     "thumbnail_license_source": "eliseuvisconti.com.br",
     "thumbnail_custody": "eliseuvisconti.com.br",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358173Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "BR-017",
@@ -1876,7 +1928,8 @@
     "citation_abnt": "Frontispício do Decreto n.º 1 — Governo Provisório (1889)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "frontispício"
   },
   {
     "id": "BR-018",
@@ -1907,7 +1960,8 @@
     "citation_abnt": "A República em Leilão",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "BR-019",
@@ -1938,7 +1992,8 @@
     "citation_abnt": "O mundo às avessas: voto feminino",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "BR-020",
@@ -1969,7 +2024,8 @@
     "citation_abnt": "Alegoria à Lei do Ventre Livre (A.D. Bressae) — NYU Faculty Digital Archive",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "BR-021",
@@ -1988,7 +2044,8 @@
     "citation_abnt": "Alegoria da República — Manoel Lopes Rodrigues (óleo sobre tela)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "pintura"
   },
   {
     "id": "BR-022",
@@ -2019,7 +2076,8 @@
     "citation_abnt": "Brasiliana / Braziliana — personificação nacional feminina por J.B. Debret",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "BR-023",
@@ -2038,7 +2096,8 @@
     "citation_abnt": "Alegoria à República — Capa da Revista Illustrada n. 566",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "BR-024",
@@ -2069,7 +2128,8 @@
     "citation_abnt": "Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "BR-025",
@@ -2100,7 +2160,8 @@
     "citation_abnt": "Eliseu Visconti — A Mulher Brasileira (projeto para selo dos Correios, 1904)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "BR-026",
@@ -2131,7 +2192,8 @@
     "citation_abnt": "Alegorias do Palácio Anchieta — esculturas de Pedro Gianordoli (Vitória/ES)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "BR-027",
@@ -2150,7 +2212,8 @@
     "citation_abnt": "Alegoria da República Brasileira — Revista Illustrada",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "BR-028",
@@ -2181,7 +2244,8 @@
     "citation_abnt": "Selo Cabeça da Liberdade — Thesouro Nacional (1891)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "BR-029",
@@ -2212,7 +2276,8 @@
     "citation_abnt": "20 Mil Réis — Cédula do Banco da República dos Estados Unidos do Brazil (c.",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "BR-030",
@@ -2243,7 +2308,8 @@
     "citation_abnt": "500 Réis — Efígie da República (prata, 1912)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "BR-031",
@@ -2274,7 +2340,8 @@
     "citation_abnt": "20.000 Réis Ouro — Efígie da República com Barrete Frígio (1889–1922)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "BR-032",
@@ -2305,7 +2372,8 @@
     "citation_abnt": "2000 Réis — Efígie da Liberdade Laureada (prata .917, série 1891–1897)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "BR-033",
@@ -2336,7 +2404,8 @@
     "citation_abnt": "1000 Réis — Efígie da República (prata .917, emissão inaugural 1889)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "BR-034",
@@ -2367,7 +2436,8 @@
     "citation_abnt": "100 Réis — Liberty (Série MCMI)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "BR-035",
@@ -2398,7 +2468,8 @@
     "citation_abnt": "200 Réis — Liberty (Série MCMI)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "BR-036",
@@ -2429,7 +2500,8 @@
     "citation_abnt": "400 Réis — Liberty (Série MCMI)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "BR-037",
@@ -2460,7 +2532,8 @@
     "citation_abnt": "O Dia de Amanhã (Alegoria da República)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "BR-038",
@@ -2491,7 +2564,8 @@
     "citation_abnt": "Revista Illustrada — Alegoria da República (16 nov. 1889)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "BR-039",
@@ -2522,7 +2596,8 @@
     "citation_abnt": "Efígie da República — Selo Definitivo do Brasil Republicano",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "BR-040",
@@ -2553,7 +2628,8 @@
     "citation_abnt": "Proclamação da República — litografia de Angelo Agostini",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "BR-041",
@@ -2572,7 +2648,8 @@
     "citation_abnt": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "BR-042",
@@ -2604,7 +2681,8 @@
     "citation_abnt": "Alegorias do Palácio do Catete — esculturas Val d'Osne (República, Justiça,",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "BR-043",
@@ -2635,7 +2713,8 @@
     "citation_abnt": "Medalha comemorativa da Proclamação da República (Casa da Moeda, 1890)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "medalha"
   },
   {
     "id": "BR-044",
@@ -2654,7 +2733,8 @@
     "citation_abnt": "State of ambiguity : civic life and culture in Cuba''s first republic",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "BR-045",
@@ -2673,7 +2753,8 @@
     "citation_abnt": "Report of the United States Commission to the Columbian Historical Exposition",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "BR-046",
@@ -2706,7 +2787,8 @@
     "citation_abnt": "50 Mil Réis — Cédula do Banco do Brazil (1890)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "BR-1000R-1906",
@@ -2748,7 +2830,8 @@
     "thumbnail_creator": "Mint of Brazil (Casa da Moeda do Brasil) ([Numista](https://en.numista.com/catalogue/pieces14484.html))",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358176Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "BR-1CR-1970",
@@ -2790,7 +2873,8 @@
     "thumbnail_creator": "[Benedito de Araújo Ribeiro](https://en.numista.com/catalogue/artist.php?id=3592) (Engraver), [Aloísio Sérgio Barbosa de Magalhães](https://en.numista.com/catalogue/artist.php?id=3074) (Designer), [Central Bank of Brazil](https://en.numista.com/catalogue/issuing_entity.php?id=900) (Issuing authority)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358179Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "medalha"
   },
   {
     "id": "BR-2000R-1907",
@@ -2835,7 +2919,8 @@
     "thumbnail_creator": "Mint of Brazil (Casa da Moeda do Brasil)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358181Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "BR-50CR-1965",
@@ -2877,7 +2962,8 @@
     "thumbnail_creator": "[Mint of Brazil (Casa da Moeda do Brasil)](https://en.numista.com/catalogue/mint.php?id=1335)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358184Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "DE-001",
@@ -2920,7 +3006,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.bildindex.de/document/que20183316",
     "thumbnail_custody": "www.bildindex.de",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "monumento/escultura"
   },
   {
     "id": "DE-002",
@@ -2961,7 +3048,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.bildindex.de/document/obj08148970",
     "thumbnail_custody": "www.bildindex.de",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "DE-003",
@@ -2999,7 +3087,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.bildindex.de/document/obj30110594",
     "thumbnail_custody": "www.bildindex.de",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "DE-004",
@@ -3037,7 +3126,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.bildindex.de/document/obj20553978",
     "thumbnail_custody": "www.bildindex.de",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "DE-005",
@@ -3075,7 +3165,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.bildindex.de/document/obj20672587",
     "thumbnail_custody": "www.bildindex.de",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "DE-006",
@@ -3115,7 +3206,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.bildindex.de/document/obj08158050",
     "thumbnail_custody": "www.bildindex.de",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "estampa/gravura"
   },
   {
     "id": "DE-007",
@@ -3157,7 +3249,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.bildindex.de/document/obj08108743",
     "thumbnail_custody": "www.bildindex.de",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "estampa/gravura"
   },
   {
     "id": "DE-008",
@@ -3195,7 +3288,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.bildindex.de/document/obj20608421",
     "thumbnail_custody": "www.bildindex.de",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "DE-009",
@@ -3234,7 +3328,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.bildindex.de/document/obj20459153",
     "thumbnail_custody": "www.bildindex.de",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "DE-010",
@@ -3272,7 +3367,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.bildindex.de/document/obj20677105",
     "thumbnail_custody": "www.bildindex.de",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "DE-011",
@@ -3310,7 +3406,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.bildindex.de/document/obj30143134",
     "thumbnail_custody": "www.bildindex.de",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "DE-012",
@@ -3350,7 +3447,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://lucascranach.org/en/PRIVATE_NONE-P457/",
     "thumbnail_custody": "commons.wikimedia.org",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "pintura"
   },
   {
     "id": "DE-013",
@@ -3395,7 +3493,8 @@
     "thumbnail_custody": "Deutsches Historisches Museum, Berlin (Inv.-Nr.: 1988/82)",
     "thumbnail_creator": "Friedrich August von Kaulbach (1850-1920)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358189Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "DE-014",
@@ -3437,7 +3536,8 @@
     "thumbnail_license_source": "Library of Congress rights_advisory",
     "thumbnail_custody": "www.loc.gov",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358192Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "DE-015",
@@ -3482,7 +3582,8 @@
     "thumbnail_custody": "Universitätsbibliothek Heidelberg",
     "thumbnail_creator": "Wilhelm Scholz",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358195Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "DE-016",
@@ -3513,7 +3614,8 @@
     "citation_abnt": "Germania definitive stamp (10 Pfennig, Deutsches Reich)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "DE-017",
@@ -3544,7 +3646,8 @@
     "citation_abnt": "10 Pfennig Germania — Deutsches Reich (Weimar Republic, Mi.141, 1920)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "DE-018",
@@ -3575,7 +3678,8 @@
     "citation_abnt": "1 Reichsmark — Weimar Republic (eagle replaces Germania)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "papel-moeda"
   },
   {
     "id": "DE-019",
@@ -3606,7 +3710,8 @@
     "citation_abnt": "20 Mark Gold — Wilhelm I (NEGATIVE CONTROL)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "DE-020",
@@ -3638,7 +3743,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "papel-moeda"
   },
   {
     "id": "DE-021",
@@ -3669,7 +3775,8 @@
     "citation_abnt": "Germania — Série definitiva Deutsches Reich 5pf (1900–1922)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "DE-1000M-1910",
@@ -3711,7 +3818,8 @@
     "thumbnail_creator": "[Hans Meyer (Engraver)](https://en.numista.com/catalogue/artist.php?id=6246), [Ferdinand Luthmer (Designer)](https://en.numista.com/catalogue/artist.php?id=5281), [Otto Knille (Designer)](https://en.numista.com/catalogue/artist.php?id=9387), [Reichsbank (Issuing bank)](https://en.numista.com/catalogue/issuing_entity.php?id=1036)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358199Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "papel-moeda"
   },
   {
     "id": "DE-100M-1908",
@@ -3753,7 +3861,8 @@
     "thumbnail_creator": "Designer: [Paul Thumann](https://en.numista.com/catalogue/artist.php?id=1930); Engraver: [Hans Meyer](https://en.numista.com/catalogue/artist.php?id=6246); Issuing authority: [Reichsbank](https://en.numista.com/catalogue/issuing_entity.php?id=1036)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358203Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "papel-moeda"
   },
   {
     "id": "DE-50M-1919",
@@ -3795,7 +3904,8 @@
     "thumbnail_creator": "Reichsbankdirektorium (Issuing Authority); Printers: [Bundesdruckerei (Reichsdruckerei)](https://en.numista.com/catalogue/printer.php?id=72), [Österreichische Staatsdruckerei](https://en.numista.com/catalogue/printer.php?id=3066), [Otto Elsner Buchdruckerei und Verlagsbuchhandlung](https://en.numista.com/catalogue/printer.php?id=3065), [W.(ilhelm) Büxenstein](https://en.numista.com/catalogue/printer.php?id=3064)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358206Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "papel-moeda"
   },
   {
     "id": "DE-GERM-1900",
@@ -3841,7 +3951,8 @@
     "thumbnail_license_source": "Wikipedia en article",
     "thumbnail_custody": "en.wikipedia.org",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358215Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "estampa/gravura"
   },
   {
     "id": "DE-GERM-BELG-1914",
@@ -3878,7 +3989,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "DE-WR-1919-50M",
@@ -3923,7 +4035,8 @@
     "thumbnail_custody": "Numizon catalog Pick #66, The Banknote Book B222, RO-62 [Numizon](https://www.numizon.com/en/banknote/germany-reichsbanknotes-50-mark-type-1919-pick-66/deu-p66/)",
     "thumbnail_creator": "Reichsbank (issuing authority). Signatures: Havenstein & von Glasenapp, Schmiedicke, von Lumm, von Grimm, Kauffmann, Schneider, Budczies, Bernhard, Seiffert, Vocke. [Numizon](https://www.numizon.com/en/banknote/germany-reichsbanknotes-50-mark-type-1919-pick-66/deu-p66/)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358209Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "papel-moeda"
   },
   {
     "id": "DE-WR-1924-50PF",
@@ -3969,7 +4082,8 @@
     "thumbnail_creator": "Not specified on page",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358212Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "ES-001",
@@ -4005,7 +4119,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "ES-002",
@@ -4041,7 +4156,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "ES-003",
@@ -4086,7 +4202,8 @@
     "thumbnail_creator": "Luis Marchionni y Hombrón (Engraver); Provisional Government (Issuing authority)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358219Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "ES-004",
@@ -4131,7 +4248,8 @@
     "thumbnail_creator": "José Eusebio Espinós Gisbert",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358222Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "EU-001",
@@ -4170,7 +4288,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.europeana.eu/en/item/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S",
     "thumbnail_custody": "proxy.europeana.eu",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "fotografia"
   },
   {
     "id": "EU-002",
@@ -4204,7 +4323,8 @@
     "citation_abnt": "WALKER, Johan. Time and justice reveal the truth. [s.d.]. Royal Institute for Cultural Heritage. Disponível em: https://www.europeana.eu/en/item/2048001/AP_10342206.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "EU-003",
@@ -4239,7 +4359,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "EU-004",
@@ -4273,7 +4394,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "EU-005",
@@ -4308,7 +4430,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "EU-006",
@@ -4342,7 +4465,8 @@
     "citation_abnt": "HARMS, Johann Oswald. Justitia, allegory of justice. [séc. XVII]. 1 desenho. Herzog Anton Ulrich Museum. Disponível em: https://www.europeana.eu/en/item/89/item_MH6IXNHWTECBQCNPU7IIMCFP2BDFAV76.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "EU-007",
@@ -4375,7 +4499,8 @@
     "citation_abnt": "VOS, Maarten de. Justitia civilis. [séc. XVI]. Royal Institute for Cultural Heritage. Disponível em: https://www.europeana.eu/en/item/2048001/AP_10133590.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "EU-008",
@@ -4411,7 +4536,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "EU-009",
@@ -4445,7 +4571,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-001",
@@ -4490,7 +4617,8 @@
     "thumbnail_creator": "Chifflart, François-Nicolas (1825-1901). Graveur",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358226Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-002",
@@ -4535,7 +4663,8 @@
     "thumbnail_creator": "Chifflart, François-Nicolas (1825-1901). Graveur",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358229Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-003",
@@ -4579,7 +4708,8 @@
     "thumbnail_creator": "Chifflart, François-Nicolas (1825-1901). Graveur",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358233Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-004",
@@ -4624,7 +4754,8 @@
     "thumbnail_creator": "[Perbosc, Antonin (1861-1944). Photographe](https://gallica.bnf.fr/ark:/12148/btv1b10574064v)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358236Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-005",
@@ -4669,7 +4800,8 @@
     "thumbnail_creator": "Rops, Félicien (1833-1898). Graveur [Gallica](https://gallica.bnf.fr/ark:/12148/btv1b531842166)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358239Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-006",
@@ -4714,7 +4846,8 @@
     "thumbnail_creator": "[Punch, or the London charivari (Londres)](https://gallica.bnf.fr/ark:/12148/btv1b8438243t)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358242Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-007",
@@ -4754,7 +4887,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v",
     "thumbnail_custody": "gallica.bnf.fr",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "FR-008",
@@ -4799,7 +4933,8 @@
     "thumbnail_license_source": "Europeana",
     "thumbnail_custody": "www.europeana.eu",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358244Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "FR-009",
@@ -4843,7 +4978,8 @@
     "thumbnail_license_source": "Europeana",
     "thumbnail_custody": "www.europeana.eu",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358247Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "monumento/escultura"
   },
   {
     "id": "FR-010",
@@ -4886,7 +5022,8 @@
     "thumbnail_license_source": "Europeana",
     "thumbnail_custody": "www.europeana.eu",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358250Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-011",
@@ -4920,7 +5057,8 @@
     "citation_abnt": "CALENDRIER et compost des bergiers: La grant danse macabre. 1531. Manuscrito ilustrado. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-012",
@@ -4959,7 +5097,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg",
     "thumbnail_custody": "upload.wikimedia.org",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "moeda"
   },
   {
     "id": "FR-013",
@@ -4999,7 +5138,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b69480451.item",
     "thumbnail_custody": "gallica.bnf.fr",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-014",
@@ -5038,7 +5178,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b8410817c.item",
     "thumbnail_custody": "gallica.bnf.fr",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-015",
@@ -5078,7 +5219,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b8410270p.item",
     "thumbnail_custody": "gallica.bnf.fr",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "frontispício"
   },
   {
     "id": "FR-016",
@@ -5118,7 +5260,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b6942595s.item",
     "thumbnail_custody": "gallica.bnf.fr",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "frontispício"
   },
   {
     "id": "FR-017",
@@ -5157,7 +5300,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b8410268m",
     "thumbnail_custody": "gallica.bnf.fr",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "frontispício"
   },
   {
     "id": "FR-018",
@@ -5198,7 +5342,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b8412560z",
     "thumbnail_custody": "gallica.bnf.fr",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-019",
@@ -5239,7 +5384,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b9012753r.item",
     "thumbnail_custody": "gallica.bnf.fr",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "FR-020",
@@ -5279,7 +5425,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b10544534k.item",
     "thumbnail_custody": "gallica.bnf.fr",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "frontispício"
   },
   {
     "id": "FR-021",
@@ -5318,7 +5465,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.europeana.eu/en/item/2063621/FRA_280_009",
     "thumbnail_custody": "api.europeana.eu",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "pintura"
   },
   {
     "id": "FR-022",
@@ -5357,7 +5505,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b8577655f",
     "thumbnail_custody": "api.europeana.eu",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-023",
@@ -5395,7 +5544,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100505003",
     "thumbnail_custody": "api.europeana.eu",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "FR-025",
@@ -5433,7 +5583,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100512310",
     "thumbnail_custody": "api.europeana.eu",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "FR-026",
@@ -5471,7 +5622,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051241d",
     "thumbnail_custody": "api.europeana.eu",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "FR-027",
@@ -5509,7 +5661,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100512528",
     "thumbnail_custody": "api.europeana.eu",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "FR-028",
@@ -5548,7 +5701,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051230j",
     "thumbnail_custody": "api.europeana.eu",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "FR-029",
@@ -5586,7 +5740,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100504964",
     "thumbnail_custody": "api.europeana.eu",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "FR-030",
@@ -5625,7 +5780,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100506817",
     "thumbnail_custody": "api.europeana.eu",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "FR-031",
@@ -5670,7 +5826,8 @@
     "thumbnail_creator": "André Gill (1840-1885) [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k1068692m)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358255Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-032",
@@ -5713,7 +5870,8 @@
     "thumbnail_license_source": "Met Museum API",
     "thumbnail_custody": "www.metmuseum.org",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358258Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-033",
@@ -5756,7 +5914,8 @@
     "thumbnail_license_source": "Met Museum API",
     "thumbnail_custody": "www.metmuseum.org",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358261Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-036",
@@ -5791,7 +5950,8 @@
     "audit_flags": [
       "sem-url",
       "sem-thumbnail"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-038",
@@ -5826,7 +5986,8 @@
       "sem-url",
       "sem-thumbnail",
       "lpai_v2_enrich_fr_scout_006"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "FR-039",
@@ -5861,7 +6022,8 @@
     "audit_flags": [
       "sem-url",
       "sem-thumbnail"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "FR-047",
@@ -5897,7 +6059,8 @@
       "sem-url",
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-048",
@@ -5932,7 +6095,8 @@
       "sem-url",
       "sem-thumbnail",
       "busca-2026-06-19: sem URL primária encontrada; evidência secundária de Dalou/Sèvres 1888-1900 não confirma data 1889"
-    ]
+    ],
+    "support": "cerâmica"
   },
   {
     "id": "FR-049",
@@ -5952,7 +6116,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-050",
@@ -5972,7 +6137,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-051",
@@ -6003,7 +6169,8 @@
     "citation_abnt": "N° 5 - Take up the sword of justice",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-052",
@@ -6034,7 +6201,8 @@
     "citation_abnt": "[La Justice, la Vengeance et la Vérité] : [estampe] / F. Chifflart",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-053",
@@ -6066,7 +6234,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-054",
@@ -6086,7 +6255,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-055",
@@ -6106,7 +6276,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-056",
@@ -6126,7 +6297,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-057",
@@ -6146,7 +6318,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-058",
@@ -6166,7 +6339,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-059",
@@ -6186,7 +6360,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-060",
@@ -6206,7 +6381,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-061",
@@ -6226,7 +6402,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-062",
@@ -6246,7 +6423,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-063",
@@ -6266,7 +6444,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-064",
@@ -6286,7 +6465,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-065",
@@ -6306,7 +6486,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-066",
@@ -6326,7 +6507,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-067",
@@ -6346,7 +6528,8 @@
     "audit_flags": [
       "vault-import",
       "#verificar"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-068",
@@ -6378,7 +6561,8 @@
     "citation_abnt": "Semeuse — Série de selos definitivos França (1903–1938)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-069",
@@ -6409,7 +6593,8 @@
     "citation_abnt": "La Semeuse (15 centimes, type Roty) — selo definitivo francês",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-070",
@@ -6440,7 +6625,8 @@
     "citation_abnt": "10 Centimes Semeuse Camée — Fond Plein sans Sol (France, 1906)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-071",
@@ -6471,7 +6657,8 @@
     "citation_abnt": "1 Piastre de Commerce — French Indochina (Marianne seated)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-072",
@@ -6490,7 +6677,8 @@
     "citation_abnt": "La République (en hauteur) — Exposição Internacional de Paris 1889",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-073",
@@ -6521,7 +6709,8 @@
     "citation_abnt": "La Constitution Française : Fondée sur la liberté naturelle et les Droits",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-074",
@@ -6552,7 +6741,8 @@
     "citation_abnt": "Allégorie de la République de 1789, 1830 et 1848",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-075",
@@ -6583,7 +6773,8 @@
     "citation_abnt": "Proclamation de la Constitution 1848",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-076",
@@ -6602,7 +6793,8 @@
     "citation_abnt": "République de Clésinger (fotografia de demonstração)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "fotografia"
   },
   {
     "id": "FR-077",
@@ -6633,7 +6825,8 @@
     "citation_abnt": "[Le Dauphin dans les bras de la Foi entre la Force et la Justice] : [estampe]",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-078",
@@ -6652,7 +6845,8 @@
     "citation_abnt": "Étude pour le 1er mai? (Steinlen)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-079",
@@ -6671,7 +6865,8 @@
     "citation_abnt": "[Allégories des vertus]. [2], [La Justice] : [dessin] / [Baptiste Pellerin]",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-080",
@@ -6690,7 +6885,8 @@
     "citation_abnt": "[La Justice entre la Charité et la Force] : [dessin] / [anonyme des Pays-Bas,",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-081",
@@ -6721,7 +6917,8 @@
     "citation_abnt": "[Les péchés capitaux] ; [1]. [La Justice] : [estampe] CON FRINGE . EOS. VIRGA",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-082",
@@ -6752,7 +6949,8 @@
     "citation_abnt": "[Allégorie en l''honneur de Jules Mazarin (1602-1661)] : [estampe] ([1er",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-083",
@@ -6771,7 +6969,8 @@
     "citation_abnt": "18/1/33, [de gauche à droite] M. Mistler [sous-secrétaire d''Etat aux Beaux-Arts],",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-084",
@@ -6802,7 +7001,8 @@
     "citation_abnt": "9-4-33, [reconstitution historique de la période révolutionnaire, quartier",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-085",
@@ -6833,7 +7033,8 @@
     "citation_abnt": "[La Justice] : [estampe]",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-086",
@@ -6852,7 +7053,8 @@
     "citation_abnt": "La Province de Berry. La Généralité de Bourges, ou sont les Eslections de",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-087",
@@ -6883,7 +7085,8 @@
     "citation_abnt": "Allégorie à la Constitution, dédié à la nation françoise",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-088",
@@ -6902,7 +7105,8 @@
     "citation_abnt": "Unité indivisibilité de la République (j'ai rompu mes chaines vive la liberté)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-089",
@@ -6933,7 +7137,8 @@
     "citation_abnt": "[Allégorie en l''honneur de Louis XIII (1601-1643)] : [estampe] ([Seul état",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-090",
@@ -6964,7 +7169,8 @@
     "citation_abnt": "D''une vapeur infernale qui couvre le palais de nos rois, sortent la chimère",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-091",
@@ -6996,7 +7202,8 @@
     "citation_abnt": "Le Triomphe de la Republique -- Ode triomphale, Fetes du Centenaire de 1789",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-092",
@@ -7027,7 +7234,8 @@
     "citation_abnt": "Type Sage — Paix et Commerce, Selo Definitivo da República Francesa",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "FR-093",
@@ -7058,7 +7266,8 @@
     "citation_abnt": "La Justice — porcelaine de Sèvres (1889)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "cerâmica"
   },
   {
     "id": "FR-094",
@@ -7089,7 +7298,8 @@
     "citation_abnt": "Navigation et Commerce — Selo Colonial Francês (Louis-Eugène Mouchon)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-095",
@@ -7120,7 +7330,8 @@
     "citation_abnt": "Cérès — Première Émission de la République Française",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-096",
@@ -7139,7 +7350,8 @@
     "citation_abnt": "Allegory of the French Republic",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "FR-ASSIGNAT-1792",
@@ -7170,7 +7382,8 @@
     "citation_abnt": "Assignat de 400 livres (21 nov. 1792, an premier de la République)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "FR-CERES-5F-1849",
@@ -7212,7 +7425,8 @@
     "thumbnail_creator": "Eugène-André Oudiné (Engraver)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358264Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "FR-HERC-1870",
@@ -7260,7 +7474,8 @@
     "thumbnail_creator": "Augustin Dupré (Engraver)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358274Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "FR-PIAST-1885",
@@ -7308,7 +7523,8 @@
     "thumbnail_creator": "Jean-Auguste Barre",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358271Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "FR-SEM-1898",
@@ -7354,7 +7570,8 @@
     "thumbnail_creator": "Louis-Oscar Roty",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358269Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "FR-SEM-SELO-1903",
@@ -7401,7 +7618,8 @@
     "thumbnail_custody": "Wikimedia Commons",
     "thumbnail_creator": "Louis-Oscar Roty / Louis-Eugene Mouchon",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358277Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "moeda"
   },
   {
     "id": "IT-005",
@@ -7443,7 +7661,8 @@
     "thumbnail_license_source": "Library of Congress rights_advisory",
     "thumbnail_custody": "www.loc.gov",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358280Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "IT-006",
@@ -7487,7 +7706,8 @@
     "thumbnail_creator": "[Pietro Giampaoli](https://en.numista.com/catalogue/artist.php?id=2312) (Engraver), [Giuseppe Romagnoli](https://en.numista.com/catalogue/artist.php?id=371) (Designer)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358282Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "IT-007",
@@ -7531,7 +7751,8 @@
     "thumbnail_creator": "Pietro Giampaoli (Reverse), Guido Veroi (Obverse)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358285Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "monumento/escultura"
   },
   {
     "id": "IT-008",
@@ -7575,7 +7796,8 @@
     "thumbnail_custody": "LastDodo catalog #305277",
     "thumbnail_creator": "[Grassi, Vittorio [1878-1958]](https://www.lastdodo.com/en/areas/1643347-grassi-vittorio-1878-1958), IPS [Rome, Italië] (1929-1978)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358288Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "moeda"
   },
   {
     "id": "MX-001",
@@ -7611,7 +7833,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "MX-002",
@@ -7654,7 +7877,8 @@
     "thumbnail_license_source": "repositorio.inah.gob.mx",
     "thumbnail_custody": "mediateca.inah.gob.mx",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358291Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "pintura"
   },
   {
     "id": "NL-001",
@@ -7690,7 +7914,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "NL-002",
@@ -7725,7 +7950,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "NL-003",
@@ -7760,7 +7986,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "NL-004",
@@ -7795,7 +8022,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "NL-005",
@@ -7831,7 +8059,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "NL-006",
@@ -7866,7 +8095,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "NL-007",
@@ -7901,7 +8131,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "NL-008",
@@ -7936,7 +8167,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "PT-001",
@@ -7977,7 +8209,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular",
     "thumbnail_custody": "bndigital.bnportugal.gov.pt",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "PT-002",
@@ -8019,7 +8252,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://bndigital.bnportugal.gov.pt/records/item/39213-alegoria-a-historia",
     "thumbnail_custody": "bndigital.bnportugal.gov.pt",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "PT-003",
@@ -8060,7 +8294,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://bndigital.bnportugal.gov.pt/records/item/37491-alegoria-a-morte",
     "thumbnail_custody": "bndigital.bnportugal.gov.pt",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "PT-004",
@@ -8101,7 +8336,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://bndigital.bnportugal.gov.pt/records/item/37507-alegoria-ao-tempo",
     "thumbnail_custody": "bndigital.bnportugal.gov.pt",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "PT-005",
@@ -8136,7 +8372,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "cartaz"
   },
   {
     "id": "PT-006",
@@ -8181,7 +8418,8 @@
     "thumbnail_creator": "José Simões de Almeida, Domingos Alves do Rego",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358296Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "PT-007",
@@ -8224,7 +8462,8 @@
     "thumbnail_license_source": "Wikipedia en article",
     "thumbnail_custody": "en.wikipedia.org",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358299Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "selo"
   },
   {
     "id": "SCOUT-337",
@@ -8259,7 +8498,8 @@
     "audit_flags": [
       "sem-url",
       "sem-thumbnail"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "SCOUT-414",
@@ -8290,7 +8530,8 @@
     "citation_abnt": "A República nos braços de Floriano",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "SCOUT-558",
@@ -8326,7 +8567,8 @@
       "sem-url",
       "sem-thumbnail",
       "placeholder-url-resolved-numista-210100"
-    ]
+    ],
+    "support": "papel-moeda"
   },
   {
     "id": "SCOUT-559",
@@ -8362,7 +8604,8 @@
       "sem-thumbnail",
       "placeholder-url-replaced-by-secondary-source",
       "identificacao-corrigida-lopes-rodrigues-1896-para-crispim-1890"
-    ]
+    ],
+    "support": "pintura"
   },
   {
     "id": "SCOUT-560",
@@ -8396,7 +8639,8 @@
       "piloto-v2",
       "core",
       "barroco-mineiro"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "SCOUT-561",
@@ -8430,7 +8674,8 @@
       "piloto-v2",
       "core",
       "cedula-1890"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "SCOUT-562",
@@ -8465,7 +8710,8 @@
       "core",
       "dado-negativo",
       "brasao-republica"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "SCOUT-563",
@@ -8500,7 +8746,8 @@
       "core",
       "imperio",
       "liberdade"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "SCOUT-564",
@@ -8535,7 +8782,8 @@
       "core",
       "republica",
       "moeda-cedula"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "SCOUT-565",
@@ -8569,7 +8817,8 @@
       "piloto-v2",
       "core",
       "selo-postal"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "SCOUT-566",
@@ -8604,7 +8853,8 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "SCOUT-567",
@@ -8639,7 +8889,8 @@
       "core",
       "dado-negativo",
       "oceanos-rios"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "SCOUT-568",
@@ -8673,7 +8924,8 @@
       "piloto-v2",
       "core",
       "monumento-publico"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "SCOUT-569",
@@ -8707,7 +8959,8 @@
       "piloto-v2",
       "comparador",
       "barroco-mineiro"
-    ]
+    ],
+    "support": "pintura"
   },
   {
     "id": "SCOUT-570",
@@ -8741,7 +8994,8 @@
       "piloto-v2",
       "comparador",
       "america-alegorizada"
-    ]
+    ],
+    "support": "frontispício"
   },
   {
     "id": "SCOUT-571",
@@ -8776,7 +9030,8 @@
       "comparador",
       "iconoclasmo",
       "mexico-2021"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "SCOUT-572",
@@ -8811,7 +9066,8 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "SCOUT-573",
@@ -8847,7 +9103,8 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "SCOUT-574",
@@ -8883,7 +9140,8 @@
       "piloto-v2",
       "core",
       "arquitetura-forense"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "UK-001",
@@ -8919,7 +9177,8 @@
     "citation_abnt": "JUSTITIA enthroned, with sword and scales. Século XVII. 1 gravura. British Museum, London. Disponível em: https://www.britishmuseum.org/collection/object/P_1870-0625-185.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "UK-002",
@@ -8954,7 +9213,8 @@
     "citation_abnt": "PROVIDENCE and Justice (personificações femininas em nichos). [s.d.]. 1 gravura. British Museum, London. Disponível em: https://www.britishmuseum.org/collection/object/P_1862-0712-304.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "UK-003",
@@ -8990,7 +9250,8 @@
     "citation_abnt": "JUSTITIA and Prudentia (personificações femininas). [s.d.]. 1 gravura. British Museum, London. Disponível em: https://www.britishmuseum.org/collection/object/P_1862-0712-305.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "UK-004",
@@ -9030,7 +9291,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "http://www.speel.me.uk/sculptlondon/oldbaileyjustice.htm",
     "thumbnail_custody": "upload.wikimedia.org",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "monumento/escultura"
   },
   {
     "id": "UK-005",
@@ -9065,7 +9327,8 @@
     "citation_abnt": "DELAUNE, Étienne. Woman holding sword and scales of justice (Jurisprudentia). c. 1560. 1 gravura. Wellcome Collection, London. Disponível em: https://wellcomecollection.org/works/rkvhanzr.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "UK-006",
@@ -9110,7 +9373,8 @@
     "thumbnail_license_source": "www.iwm.org.uk",
     "thumbnail_custody": "www.iwm.org.uk",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358303Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "UK-009",
@@ -9153,7 +9417,8 @@
     "thumbnail_license_source": "www.iwm.org.uk",
     "thumbnail_custody": "www.iwm.org.uk",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358305Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "UK-010",
@@ -9197,7 +9462,8 @@
     "thumbnail_custody": "[Project Gutenberg](https://www.gutenberg.org/files/59801/59801-h/59801-h.htm)",
     "thumbnail_creator": "[Sir John Tenniel](https://www.gutenberg.org/files/59801/59801-h/59801-h.htm)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358308Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "UK-011",
@@ -9216,7 +9482,8 @@
     "citation_abnt": "model for reverse for the 1851 Exhibition Prize Medal",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "UK-012",
@@ -9235,7 +9502,8 @@
     "citation_abnt": "Model",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "UK-013",
@@ -9254,7 +9522,8 @@
     "citation_abnt": "Plaque",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "UK-014",
@@ -9273,7 +9542,8 @@
     "citation_abnt": "The Cowper Seal Cups",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "UK-015",
@@ -9292,7 +9562,8 @@
     "citation_abnt": "Fan",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "UK-016",
@@ -9311,7 +9582,8 @@
     "citation_abnt": "Design for the ceiling of the Great Hall at Blenheim",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "UK-017",
@@ -9330,7 +9602,8 @@
     "citation_abnt": "Medal",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "UK-018",
@@ -9361,7 +9634,8 @@
     "citation_abnt": "King George V Seahorses — Britannia Rules the Waves",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "UK-FLORIN-1902",
@@ -9401,7 +9675,8 @@
     "thumbnail_license_source": "collections.museumsvictoria.com.au",
     "thumbnail_custody": "collections.museumsvictoria.com.au",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358311Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "UK-HALFPENNY-1695",
@@ -9433,7 +9708,8 @@
     "citation_abnt": "½ Penny — William III (1st issue) / Britannia seated (earliest coin)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "UK-PENNY-1860",
@@ -9482,7 +9758,8 @@
     "thumbnail_creator": "Leonard Charles Wyon (Engraver)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358319Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "UK-PENNY-1895",
@@ -9513,7 +9790,8 @@
     "citation_abnt": "One Penny -- Victoria Veiled Head / Britannia Seated with Trident",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "UK-PENNY-1912",
@@ -9553,7 +9831,8 @@
     "thumbnail_license_source": "collections.museumsvictoria.com.au",
     "thumbnail_custody": "collections.museumsvictoria.com.au",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358314Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "moeda"
   },
   {
     "id": "UK-TRADE-1895",
@@ -9601,7 +9880,8 @@
     "thumbnail_creator": "George William de Saulles",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358316Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "US-001",
@@ -9641,7 +9921,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.loc.gov/item/2004673327/",
     "thumbnail_custody": "www.loc.gov",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "estampa/gravura"
   },
   {
     "id": "US-002",
@@ -9680,7 +9961,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.loc.gov/item/2009631377/",
     "thumbnail_custody": "www.loc.gov",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "fotografia"
   },
   {
     "id": "US-003",
@@ -9719,7 +10001,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.loc.gov/item/2007675578/",
     "thumbnail_custody": "www.loc.gov",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "US-004",
@@ -9760,7 +10043,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.loc.gov/item/99613542/",
     "thumbnail_custody": "www.loc.gov",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "US-005",
@@ -9795,7 +10079,8 @@
     "citation_abnt": "TRENCHARD, James. Behold! a fabric now to freedom rear'd. 1788. 1 gravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2004676797/.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "US-006",
@@ -9829,7 +10114,8 @@
     "citation_abnt": "WILL, Johann Martin. Die Wage der Macht / La balance de la puissance. 1780. 1 gravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2004673370/.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "US-007",
@@ -9867,7 +10153,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.loc.gov/item/2018697020/",
     "thumbnail_custody": "www.loc.gov",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "estampa/gravura"
   },
   {
     "id": "US-008",
@@ -9911,7 +10198,8 @@
     "thumbnail_license_source": "Library of Congress rights_advisory",
     "thumbnail_custody": "www.loc.gov",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358323Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "fotografia"
   },
   {
     "id": "US-009",
@@ -9953,7 +10241,8 @@
     "thumbnail_license_source": "Library of Congress rights_advisory",
     "thumbnail_custody": "www.loc.gov",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358328Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "fotografia"
   },
   {
     "id": "US-010",
@@ -9997,7 +10286,8 @@
     "thumbnail_license_source": "Library of Congress rights_advisory",
     "thumbnail_custody": "www.loc.gov",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358331Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "US-011",
@@ -10042,7 +10332,8 @@
     "thumbnail_license_source": "Library of Congress rights_advisory",
     "thumbnail_custody": "www.loc.gov",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358333Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "US-012",
@@ -10086,7 +10377,8 @@
     "thumbnail_license_source": "Library of Congress rights_advisory",
     "thumbnail_custody": "www.loc.gov",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358342Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "US-017",
@@ -10129,7 +10421,8 @@
     "thumbnail_license_source": "Library of Congress rights_advisory",
     "thumbnail_custody": "www.loc.gov",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358347Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "US-018",
@@ -10171,7 +10464,8 @@
     "thumbnail_license_source": "Library of Congress rights_advisory",
     "thumbnail_custody": "www.loc.gov",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358350Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "US-019",
@@ -10214,7 +10508,8 @@
     "thumbnail_license_source": "Library of Congress rights_advisory",
     "thumbnail_custody": "www.loc.gov",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358353Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "US-020",
@@ -10258,7 +10553,8 @@
     "thumbnail_custody": "[The Billy Ireland Cartoon Library & Museum at Ohio State University](http://cartoons.osu.edu/)",
     "thumbnail_creator": "Joseph Keppler",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358356Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "estampa/gravura"
   },
   {
     "id": "US-021",
@@ -10289,7 +10585,8 @@
     "citation_abnt": "Landing of Columbus — Columbia Allegorical Stamp",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "US-022",
@@ -10308,7 +10605,8 @@
     "citation_abnt": "Justice to the Jew : the story of what he has done for the world",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "US-023",
@@ -10327,7 +10625,8 @@
     "citation_abnt": "An encyclopedist of the dark ages : Isidore of Seville,",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "US-024",
@@ -10346,7 +10645,8 @@
     "citation_abnt": "Saint Tammany and the origin of the Society of Tammany, or Columbian order",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "US-025",
@@ -10378,7 +10678,8 @@
     "citation_abnt": "Statue of the Republic -- World's Columbian Exposition, Chicago",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "US-BANNER-1861",
@@ -10418,7 +10719,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.loc.gov/item/91721286/",
     "thumbnail_custody": "tile.loc.gov",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "cartaz"
   },
   {
     "id": "US-EDUC-1896-01",
@@ -10460,7 +10762,8 @@
     "thumbnail_creator": "Engraver: [Charles Schlecht](https://en.numista.com/catalogue/artist.php?id=1739); Designer: [Will Hicok Low](https://en.numista.com/catalogue/artist.php?id=1946); Issuing Authority: United States",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358359Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "US-EDUC-1896-02",
@@ -10506,7 +10809,8 @@
     "thumbnail_custody": "[National Museum of American History](https://americanhistory.si.edu/), National Numismatic Collection",
     "thumbnail_creator": "[Bureau of Engraving and Printing](https://americanhistory.si.edu/collections/search?edan_fq[]=name:%22Bureau%20of%20Engraving%20and%20Printing%22) (Maker)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358369Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "US-EDUC-1896-05",
@@ -10551,7 +10855,8 @@
     "thumbnail_custody": "National Museum of American History, Smithsonian Institution (NU.78.5.763)",
     "thumbnail_creator": "Bureau of Engraving and Printing (Maker)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358372Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "US-NAST-1864",
@@ -10593,7 +10898,8 @@
     "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
     "thumbnail_license_source": "https://www.loc.gov/item/2022631575/",
     "thumbnail_custody": "tile.loc.gov",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "US-SEATED-1840",
@@ -10635,7 +10941,8 @@
     "thumbnail_creator": "Christian Gobrecht (Engraver)",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358375Z",
     "thumbnail_registry_version": "v0.2",
-    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding",
+    "support": "moeda"
   },
   {
     "id": "US-SLQ-1916",
@@ -10682,7 +10989,8 @@
     "thumbnail_custody": "Wikimedia Commons",
     "thumbnail_creator": "Hermon Atkins MacNeil (coin designer); photographer not identified",
     "thumbnail_recovered_at": "2026-07-04T14:33:58.358378Z",
-    "thumbnail_registry_version": "v0.2"
+    "thumbnail_registry_version": "v0.2",
+    "support": "?"
   },
   {
     "id": "UY-001",
@@ -10718,7 +11026,8 @@
     "audit_flags": [
       "sem-thumbnail",
       "fora-do-escopo"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "a4b437a8-91a7-21bc-1311-eac2ffc47da0",
@@ -10751,7 +11060,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-pre-1800-genealogia",
       "orig-batch-id:drive-import-2026-05-19-sq4-2026-0"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "a7971ac5-e277-f70a-bb11-ba25db7e6ac0",
@@ -10784,7 +11094,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
-    ]
+    ],
+    "support": "cartaz"
   },
   {
     "id": "ac900ea3-9461-bae5-e797-f93d58d4845b",
@@ -10817,7 +11128,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-pre-1800-genealogia",
       "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "bc06d4cc-455f-530e-b86b-e046378979a3",
@@ -10848,7 +11160,8 @@
     "citation_abnt": "Serie Imperiale, 2 Lire (Italia turrita) — Regno d'Italia",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "bdb937eb-c607-5f77-ab0b-404b6199ff1b",
@@ -10879,7 +11192,8 @@
     "citation_abnt": "20 Escudos prata 1953 \\\"Renovação Financeira / Ressurgimento\\\" — alegoria feminina sentada lendo/escrevendo",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "c8f02d8e-e599-5120-9829-f3f05c5d4b0f",
@@ -10910,7 +11224,8 @@
     "citation_abnt": "Serie Imperiale 1929 — definitive stamp 35 c. 'Italia turrita' (Paschetto)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "selo"
   },
   {
     "id": "c9966731-1c38-5d06-9bc6-6081b5a87d1a",
@@ -10941,7 +11256,8 @@
     "citation_abnt": "20 Cruzeiros, Casa da Moeda, emissão provisória 1942 (carimbo sobre 20 Mil Réis, P-127) — reverso: mulher sentada representando a deusa Minerva",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "ce773ab1-3bfc-9f6e-754a-efe0c567916d",
@@ -10974,7 +11290,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "d0038985-b3c8-5468-8d56-980c467faa9e",
@@ -11005,7 +11322,8 @@
     "citation_abnt": "Medalha comemorativa 'Ano X do Estado Novo' (1926-1936) — figura feminina alada tipo Vitória/Vénus com tocha irradiante",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "medalha"
   },
   {
     "id": "d3003c32-2c2f-5bd0-95f6-69f557b795ba",
@@ -11036,7 +11354,8 @@
     "citation_abnt": "5000 Francs 'Empire Français' (type 1942) - allegory of France with colonial Empire figures",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "d44093ca-343e-580c-99f2-c740d8c68ef9",
@@ -11067,7 +11386,8 @@
     "citation_abnt": "5 Pesos (\\\"Ángel de la Libertad\\\") — winged female allegory of Liberty breaking chains, coup date 11-IX-1973 (KM#209)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "d9878afa-cb92-52bd-b308-e1563cdf9332",
@@ -11098,7 +11418,8 @@
     "citation_abnt": "Tímpano do frontão «OMNIA PRO PATRIA» — Simões de Almeida (sobrinho), 1934/1938, fachada do Palácio de São Bento (Assembleia)",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "da35cbd9-2e8c-24a6-7c44-d7f1741e0a2a",
@@ -11131,7 +11452,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "df5d3195-0161-5ded-b336-22f89cec0703",
@@ -11162,7 +11484,8 @@
     "citation_abnt": "Medal, Ethiopian campaign 'Ubi Roma ibi lex' (1936) — seated Italia turrita with fasces subduing a lion",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "?"
   },
   {
     "id": "e0399402-b59d-5050-9776-b67f2c69a6b2",
@@ -11193,7 +11516,8 @@
     "citation_abnt": "A Justiça (interior) — Escultura em bronze vandalizada no STF, Sala dos Bustos",
     "audit_flags": [
       "vault-import"
-    ]
+    ],
+    "support": "monumento/escultura"
   },
   {
     "id": "e1d2e177-0905-a3bc-2e17-f6dd4f040db0",
@@ -11226,7 +11550,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
-    ]
+    ],
+    "support": "moeda"
   },
   {
     "id": "f988255c-abaa-fb73-74fb-fcbce9abdaa8",
@@ -11259,7 +11584,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-pre-1800-genealogia",
       "orig-batch-id:drive-import-2026-05-19-sq3-2026-0"
-    ]
+    ],
+    "support": "frontispício"
   },
   {
     "id": "fb26ccd4-5b0f-e074-b888-b5dd666f997c",
@@ -11292,7 +11618,8 @@
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq1-2026-0"
-    ]
+    ],
+    "support": "estampa/gravura"
   },
   {
     "id": "ff43ad57-b420-3e54-24ec-9d15caef8d64",
@@ -11330,6 +11657,7 @@
     "citation_abnt": "PORTINARI, Candido. A Justiça de Salomão. [1948]. Têmpera sobre tela, 179 × 191 cm. Museu de Arte de São Paulo Assis Chateaubriand (MASP), São Paulo. Projeto Portinari, FCO-2742. Disponível em: https://www.portinari.org.br/acervo/obras/18112/a-justica-de-salomao. Acesso em: 19 maio 2026.",
     "audit_flags": [
       "drive-import-2026-06-04"
-    ]
+    ],
+    "support": "?"
   }
 ]

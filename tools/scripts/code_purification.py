@@ -402,6 +402,17 @@ def export_csv(corpus, coded):
         writer.writeheader()
         for item in corpus:
             row = {k: item.get(k, "") for k in base_cols}
+            if not row.get("year"):
+                import re
+                date_str = item.get("date", "")
+                match = re.search(r'\b(1\d{3}|20\d{2})\b', str(date_str))
+                if match:
+                    row["year"] = int(match.group(1))
+            # Fallback alignment between support and medium_norm
+            if not row.get("medium_norm") and row.get("support"):
+                row["medium_norm"] = row["support"]
+            elif not row.get("support") and row.get("medium_norm"):
+                row["support"] = row["medium_norm"]
             if item["id"] in coded:
                 c = coded[item["id"]]
                 for col in indicator_names + extra_cols:
