@@ -10,13 +10,18 @@ DIR="$CLAUDE_PROJECT_DIR"
 
 echo "=== Iconocracy Corpus — Environment Check ==="
 
-# 1. Python dependencies + test/lint tooling
+# 1. Python dependencies (core only) + test/lint tooling
 # Remote sessions have no conda env; install into the base interpreter via pip.
-# Idempotent: pip skips already-satisfied requirements. `ruff` is the configured
-# linter (pyproject.toml [tool.ruff]) invoked by the PostToolUse hooks; `pytest`
-# runs the suite in tests/. `pylint` kept for existing tooling.
-echo "[1/5] Installing Python dependencies (requirements + pylint + ruff + pytest)..."
-PIP_INSTALL=(python -m pip install -q -r "$DIR/requirements.txt" pylint ruff pytest)
+# Idempotent: pip skips already-satisfied requirements. requirements.txt also
+# includes the ML training stack (torch/transformers/peft/trl/datasets), which
+# is only needed by tools/scripts/{train_iconocracy_sft,run_iconocracy_eval}.py
+# and is too heavy for synchronous SessionStart setup.
+echo "[1/5] Installing core Python dependencies (ML training stack skipped; pylint + ruff + pytest + cffi included)..."
+CORE_REQUIREMENTS="$(mktemp)"
+trap 'rm -f "$CORE_REQUIREMENTS"' EXIT
+ML_REQUIREMENT_RE='^[[:space:]]*(torch|transformers|peft|trl|datasets)([[:space:]]*(=|<|>|!|~)|[[:space:]]*$)'
+grep -vE "$ML_REQUIREMENT_RE" "$DIR/requirements.txt" > "$CORE_REQUIREMENTS"
+PIP_INSTALL=(python -m pip install -q -r "$CORE_REQUIREMENTS" pylint ruff pytest cffi)
 if ! "${PIP_INSTALL[@]}" 2>/dev/null; then
   # Fallback for images that enforce PEP 668 (externally-managed-environment).
   "${PIP_INSTALL[@]}" --break-system-packages
