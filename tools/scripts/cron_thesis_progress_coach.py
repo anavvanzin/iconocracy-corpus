@@ -21,7 +21,8 @@ def count_manuscript_words(manuscript_path: Path) -> int:
     return count
 
 def main():
-    manuscript_path = Path("tese/manuscrito")
+    repo_root = Path(__file__).resolve().parent.parent.parent
+    manuscript_path = repo_root / "tese" / "manuscrito"
     cache_path = Path("~/.hermes/cron-cache/iconocracy-jobs.yaml").expanduser()
 
     if not manuscript_path.exists():

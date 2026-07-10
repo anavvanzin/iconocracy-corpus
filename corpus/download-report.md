@@ -1,44 +1,348 @@
 # Download Report — ICONOCRACIA Corpus Images
 
 **Date**: 2026-04-01
-**Total items**: 95
+**Total items**: 328
 
 ## Summary
 
 | Metric | Value |
 |--------|-------|
-| Downloaded | 81 |
-| Failed | 3 |
-| Skipped (no URL) | 11 |
+| Downloaded | 0 |
+| Failed | 0 |
+| Skipped (no URL) | 328 |
 | Thumbnails (low-res) | 0 |
-| Total size | 62.3 MB |
-
-## By source type
-
-| Source | Count |
-|--------|-------|
-| direct | 63 |
-| gallica_fullres | 18 |
-
-## Failed downloads
-
-- **EU-008**: HTTP 404:  — https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=1
-- **EU-009**: HTTP 404:  — https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=1
-- **UK-004**: HTTP 404: Not Found — https://upload.wikimedia.org/wikipedia/commons/f/f4/Old_Bailey_Lady_Justice.jpg
+| Total size | 0.0 MB |
 
 ## Skipped (no URL available)
 
+- **03a9622f-6b17-5876-843c-4e49e4684441**: no URL
+- **0754a19f-a859-99e5-932d-17f5181496b2**: no URL
+- **089fc944-332e-5647-a2df-f366de58532f**: no URL
+- **08da86db-847d-51f8-b000-50fa8fb51ff3**: no URL
+- **0970108c-1619-50f5-bc85-719eb5f80aee**: no URL
+- **09f8d8d5-4d94-5225-aa60-9827a8bf1c08**: no URL
+- **0bf85996-a2f4-53c6-9bf8-1334ede7d1b8**: no URL
+- **14990163-f5e4-a143-0d6b-288477d89a2b**: no URL
+- **1589cd9a-0569-5524-bb61-5c64de1e92d1**: no URL
+- **19238273-c090-53e6-b531-23397f36677b**: no URL
+- **235c545a-f3b8-568a-f268-178806a4bf07**: no URL
+- **2e077aa6-5e64-3c58-f33b-99b0bcfcef83**: no URL
+- **387bc54c-e8c7-50be-b24b-a3396f1bc1da**: no URL
+- **3bc72151-1996-f7ca-b282-512024e54acf**: no URL
+- **3cb602f7-56b5-5b48-871e-629b65b216c8**: no URL
+- **3cca844a-daff-511a-abc2-f6a2a8ce2210**: no URL
+- **3f9ebcea-2b43-5823-b888-15c706bf65d1**: no URL
+- **46131280-d556-5ccf-b78f-f90523da0334**: no URL
+- **49706189-9d27-da9e-59d5-3467a32a1f5e**: no URL
+- **4a6fa350-a8f7-87ed-e4be-76860dba356b**: no URL
+- **4f51943f-625d-c265-60ed-73edc3d29986**: no URL
+- **64d57088-2726-543f-bc9e-e382da696aee**: no URL
+- **6932b9c2-9bb3-5b21-9040-36f6323401e3**: no URL
+- **69db3fb7-1fad-5090-b2a7-5e18c0438807**: no URL
+- **6f5891d5-090c-499c-a3bc-4ff71ee6307b**: no URL
+- **7b5ea66e-0285-59ea-a652-264f8a5e90bd**: no URL
+- **80b1d4ad-1aa4-7f87-35b7-ba8cea46f0cf**: no URL
+- **8d6151b3-9928-e42e-5dbc-713c10fe1a82**: no URL
+- **93b53069-d4b7-6c55-df87-f85d0341bdbe**: no URL
+- **94a8fbc2-141d-5ce5-b363-2ee57d804b49**: no URL
+- **95844673-a438-57b7-9e87-b81a8628a0f0**: no URL
+- **AR-001**: no URL
+- **AT-001**: no URL
+- **BE-001**: no URL
+- **BE-002**: no URL
+- **BE-003**: no URL
+- **BE-004**: no URL
+- **BE-5F-LEOPOLD-1832**: no URL
+- **BE-CONGO-100F-1912**: no URL
+- **BE-CONGO-1912**: no URL
+- **BE-CONGO-MON-1921**: no URL
+- **BE-IND-1880**: no URL
+- **BR-001**: no URL
+- **BR-002**: no URL
+- **BR-003**: no URL
+- **BR-004**: no URL
+- **BR-005**: no URL
 - **BR-006**: no URL
 - **BR-007**: no URL
 - **BR-008**: no URL
-- **PT-005**: no URL
-- **FR-011**: no URL
-- **BE-001**: no URL
-- **ES-001**: no URL
-- **UY-001**: no URL
-- **US-EDUC-1896-05**: no URL
-- **DE-NOTG-1921**: no URL
+- **BR-009**: no URL
+- **BR-010**: no URL
+- **BR-017**: no URL
+- **BR-018**: no URL
+- **BR-019**: no URL
+- **BR-020**: no URL
+- **BR-021**: no URL
+- **BR-022**: no URL
+- **BR-023**: no URL
+- **BR-024**: no URL
+- **BR-025**: no URL
+- **BR-026**: no URL
+- **BR-027**: no URL
+- **BR-028**: no URL
+- **BR-029**: no URL
+- **BR-030**: no URL
+- **BR-031**: no URL
+- **BR-032**: no URL
+- **BR-033**: no URL
+- **BR-034**: no URL
+- **BR-035**: no URL
+- **BR-036**: no URL
+- **BR-037**: no URL
+- **BR-038**: no URL
+- **BR-039**: no URL
+- **BR-040**: no URL
+- **BR-041**: no URL
+- **BR-042**: no URL
+- **BR-043**: no URL
+- **BR-044**: no URL
+- **BR-045**: no URL
+- **BR-046**: no URL
+- **BR-1000R-1906**: no URL
+- **BR-1CR-1970**: no URL
+- **BR-2000R-1907**: no URL
+- **BR-50CR-1965**: no URL
+- **DE-001**: no URL
+- **DE-002**: no URL
+- **DE-003**: no URL
+- **DE-004**: no URL
+- **DE-005**: no URL
+- **DE-006**: no URL
+- **DE-007**: no URL
+- **DE-008**: no URL
+- **DE-009**: no URL
+- **DE-010**: no URL
+- **DE-011**: no URL
+- **DE-012**: no URL
+- **DE-013**: no URL
+- **DE-014**: no URL
+- **DE-015**: no URL
+- **DE-016**: no URL
+- **DE-017**: no URL
+- **DE-018**: no URL
+- **DE-019**: no URL
+- **DE-020**: no URL
+- **DE-021**: no URL
+- **DE-1000M-1910**: no URL
+- **DE-100M-1908**: no URL
+- **DE-50M-1919**: no URL
+- **DE-GERM-1900**: no URL
+- **DE-GERM-BELG-1914**: no URL
 - **DE-WR-1919-50M**: no URL
+- **DE-WR-1924-50PF**: no URL
+- **ES-001**: no URL
+- **ES-002**: no URL
+- **ES-003**: no URL
+- **ES-004**: no URL
+- **EU-001**: no URL
+- **EU-002**: no URL
+- **EU-003**: no URL
+- **EU-004**: no URL
+- **EU-005**: no URL
+- **EU-006**: no URL
+- **EU-007**: no URL
+- **EU-008**: no URL
+- **EU-009**: no URL
+- **FR-001**: no URL
+- **FR-002**: no URL
+- **FR-003**: no URL
+- **FR-004**: no URL
+- **FR-005**: no URL
+- **FR-006**: no URL
+- **FR-007**: no URL
+- **FR-008**: no URL
+- **FR-009**: no URL
+- **FR-010**: no URL
+- **FR-011**: no URL
+- **FR-012**: no URL
+- **FR-013**: no URL
+- **FR-014**: no URL
+- **FR-015**: no URL
+- **FR-016**: no URL
+- **FR-017**: no URL
+- **FR-018**: no URL
+- **FR-019**: no URL
+- **FR-020**: no URL
+- **FR-021**: no URL
+- **FR-022**: no URL
+- **FR-023**: no URL
+- **FR-025**: no URL
+- **FR-026**: no URL
+- **FR-027**: no URL
+- **FR-028**: no URL
+- **FR-029**: no URL
+- **FR-030**: no URL
+- **FR-031**: no URL
+- **FR-032**: no URL
+- **FR-033**: no URL
+- **FR-036**: no URL
+- **FR-038**: no URL
+- **FR-039**: no URL
+- **FR-047**: no URL
+- **FR-048**: no URL
+- **FR-049**: no URL
+- **FR-050**: no URL
+- **FR-051**: no URL
+- **FR-052**: no URL
+- **FR-053**: no URL
+- **FR-054**: no URL
+- **FR-055**: no URL
+- **FR-056**: no URL
+- **FR-057**: no URL
+- **FR-058**: no URL
+- **FR-059**: no URL
+- **FR-060**: no URL
+- **FR-061**: no URL
+- **FR-062**: no URL
+- **FR-063**: no URL
+- **FR-064**: no URL
+- **FR-065**: no URL
+- **FR-066**: no URL
+- **FR-067**: no URL
+- **FR-068**: no URL
+- **FR-069**: no URL
+- **FR-070**: no URL
+- **FR-071**: no URL
+- **FR-072**: no URL
+- **FR-073**: no URL
+- **FR-074**: no URL
+- **FR-075**: no URL
+- **FR-076**: no URL
+- **FR-077**: no URL
+- **FR-078**: no URL
+- **FR-079**: no URL
+- **FR-080**: no URL
+- **FR-081**: no URL
+- **FR-082**: no URL
+- **FR-083**: no URL
+- **FR-084**: no URL
+- **FR-085**: no URL
+- **FR-086**: no URL
+- **FR-087**: no URL
+- **FR-088**: no URL
+- **FR-089**: no URL
+- **FR-090**: no URL
+- **FR-091**: no URL
+- **FR-092**: no URL
+- **FR-093**: no URL
+- **FR-094**: no URL
+- **FR-095**: no URL
+- **FR-096**: no URL
+- **FR-ASSIGNAT-1792**: no URL
+- **FR-CERES-5F-1849**: no URL
+- **FR-HERC-1870**: no URL
+- **FR-PIAST-1885**: no URL
+- **FR-SEM-1898**: no URL
+- **FR-SEM-SELO-1903**: no URL
+- **IT-005**: no URL
+- **IT-006**: no URL
+- **IT-007**: no URL
+- **IT-008**: no URL
+- **MX-001**: no URL
+- **MX-002**: no URL
+- **NL-001**: no URL
+- **NL-002**: no URL
+- **NL-003**: no URL
+- **NL-004**: no URL
+- **NL-005**: no URL
+- **NL-006**: no URL
+- **NL-007**: no URL
+- **NL-008**: no URL
+- **PT-001**: no URL
+- **PT-002**: no URL
+- **PT-003**: no URL
+- **PT-004**: no URL
+- **PT-005**: no URL
+- **PT-006**: no URL
+- **PT-007**: no URL
+- **SCOUT-337**: no URL
+- **SCOUT-414**: no URL
+- **SCOUT-558**: no URL
+- **SCOUT-559**: no URL
+- **SCOUT-560**: no URL
+- **SCOUT-561**: no URL
+- **SCOUT-562**: no URL
+- **SCOUT-563**: no URL
+- **SCOUT-564**: no URL
+- **SCOUT-565**: no URL
+- **SCOUT-566**: no URL
+- **SCOUT-567**: no URL
+- **SCOUT-568**: no URL
+- **SCOUT-569**: no URL
+- **SCOUT-570**: no URL
+- **SCOUT-571**: no URL
+- **SCOUT-572**: no URL
+- **SCOUT-573**: no URL
+- **SCOUT-574**: no URL
+- **UK-001**: no URL
+- **UK-002**: no URL
+- **UK-003**: no URL
+- **UK-004**: no URL
+- **UK-005**: no URL
+- **UK-006**: no URL
+- **UK-009**: no URL
+- **UK-010**: no URL
+- **UK-011**: no URL
+- **UK-012**: no URL
+- **UK-013**: no URL
+- **UK-014**: no URL
+- **UK-015**: no URL
+- **UK-016**: no URL
+- **UK-017**: no URL
+- **UK-018**: no URL
+- **UK-FLORIN-1902**: no URL
+- **UK-HALFPENNY-1695**: no URL
+- **UK-PENNY-1860**: no URL
+- **UK-PENNY-1895**: no URL
+- **UK-PENNY-1912**: no URL
+- **UK-TRADE-1895**: no URL
+- **US-001**: no URL
+- **US-002**: no URL
+- **US-003**: no URL
+- **US-004**: no URL
+- **US-005**: no URL
+- **US-006**: no URL
+- **US-007**: no URL
+- **US-008**: no URL
+- **US-009**: no URL
+- **US-010**: no URL
+- **US-011**: no URL
+- **US-012**: no URL
+- **US-017**: no URL
+- **US-018**: no URL
+- **US-019**: no URL
+- **US-020**: no URL
+- **US-021**: no URL
+- **US-022**: no URL
+- **US-023**: no URL
+- **US-024**: no URL
+- **US-025**: no URL
+- **US-BANNER-1861**: no URL
+- **US-EDUC-1896-01**: no URL
+- **US-EDUC-1896-02**: no URL
+- **US-EDUC-1896-05**: no URL
+- **US-NAST-1864**: no URL
+- **US-SEATED-1840**: no URL
+- **US-SLQ-1916**: no URL
+- **UY-001**: no URL
+- **a4b437a8-91a7-21bc-1311-eac2ffc47da0**: no URL
+- **a7971ac5-e277-f70a-bb11-ba25db7e6ac0**: no URL
+- **ac900ea3-9461-bae5-e797-f93d58d4845b**: no URL
+- **bc06d4cc-455f-530e-b86b-e046378979a3**: no URL
+- **bdb937eb-c607-5f77-ab0b-404b6199ff1b**: no URL
+- **c8f02d8e-e599-5120-9829-f3f05c5d4b0f**: no URL
+- **c9966731-1c38-5d06-9bc6-6081b5a87d1a**: no URL
+- **ce773ab1-3bfc-9f6e-754a-efe0c567916d**: no URL
+- **d0038985-b3c8-5468-8d56-980c467faa9e**: no URL
+- **d3003c32-2c2f-5bd0-95f6-69f557b795ba**: no URL
+- **d44093ca-343e-580c-99f2-c740d8c68ef9**: no URL
+- **d9878afa-cb92-52bd-b308-e1563cdf9332**: no URL
+- **da35cbd9-2e8c-24a6-7c44-d7f1741e0a2a**: no URL
+- **df5d3195-0161-5ded-b336-22f89cec0703**: no URL
+- **e0399402-b59d-5050-9776-b67f2c69a6b2**: no URL
+- **e1d2e177-0905-a3bc-2e17-f6dd4f040db0**: no URL
+- **f988255c-abaa-fb73-74fb-fcbce9abdaa8**: no URL
+- **fb26ccd4-5b0f-e074-b888-b5dd666f997c**: no URL
+- **ff43ad57-b420-3e54-24ec-9d15caef8d64**: no URL
 
 ## Storage location
 

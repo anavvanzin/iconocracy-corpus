@@ -19,7 +19,8 @@ def pair_quote_with_record(corpus_path: Path, quotes_path: Path) -> tuple:
     return random.choice(corpus), random.choice(posts)
 
 def main():
-    corpus_path = Path("corpus/corpus-data.json")
+    repo_root = Path(__file__).resolve().parent.parent.parent
+    corpus_path = repo_root / "corpus" / "corpus-data.json"
     quotes_path = Path("~/Projects/anavvanzin.github.io/quotes/forum-data.json").expanduser()
     cache_path = Path("~/.hermes/cron-cache/iconocracy-jobs.yaml").expanduser()
 
