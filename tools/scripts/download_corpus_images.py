@@ -24,8 +24,8 @@ SSL_UNVERIFIED = ssl.create_default_context()
 SSL_UNVERIFIED.check_hostname = False
 SSL_UNVERIFIED.verify_mode = ssl.CERT_NONE
 
-CORPUS_PATH = Path(__file__).resolve().parents[2] / "corpus" / "corpus-data-enriched.json"
-SSD_BASE = Path("/Volumes/ICONOCRACIA/corpus/imagens")
+CORPUS_PATH = Path(__file__).resolve().parents[2] / "corpus" / "corpus-data.json"
+SSD_BASE = Path("/Volumes/Sem Título/macOS_Expansion/corpus/imagens")
 REPORT_PATH = Path(__file__).resolve().parents[2] / "corpus" / "download-report.md"
 
 # Country prefix → folder mapping
@@ -339,7 +339,7 @@ def main():
 
     # Check SSD
     if not SSD_BASE.exists():
-        print("ERROR: SSD not mounted at /Volumes/ICONOCRACIA")
+        print(f"ERROR: SSD not mounted at {SSD_BASE}")
         sys.exit(1)
 
     print(f"Loading corpus from {CORPUS_PATH}")

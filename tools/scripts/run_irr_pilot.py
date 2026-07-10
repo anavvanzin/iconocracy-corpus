@@ -2,7 +2,7 @@
 """
 run_irr_pilot.py
 
-Run the multimodal Gemini 1.5 Pro evaluation on the 30-item IRR sample.
+Run the multimodal Gemini 1.5 Pro evaluation on the 50-item IRR sample.
 Uses the modern google-genai SDK.
 
 Usage:
@@ -96,11 +96,13 @@ def download_image(url: str, dest_path: Path) -> bool:
 
 
 def resolve_image_path(item_id: str, corpus_id: str, record: Dict[str, Any]) -> Optional[Path]:
-    """Find the image path on disk or SSD, falling back to download if Gallica URL."""
+    """Find the image path on disk or SSD, falling back to direct original source URL (Gallica/Numista/Webscout)."""
     # List of directories to search
     search_dirs = [
-        Path("/media/ana/SSD_DATA/images"),
-        Path("/media/ana/SSD_DATA"),
+        Path("/Volumes/Sem Título/macOS_Expansion/images"),
+        Path("/Volumes/Sem Título/macOS_Expansion/"),
+        Path("/Volumes/Sem Título/macOS_Expansion/corpus/imagens"),
+        Path("/Users/ana/Library/CloudStorage/GoogleDrive-tiacheese@gmail.com/My Drive/backup-ssd/iconocracy-corpus/binaries/Images"),
         REPO_ROOT / "images",
         REPO_ROOT / "Images",
         REPO_ROOT / "Images" / "Images",
@@ -117,61 +119,71 @@ def resolve_image_path(item_id: str, corpus_id: str, record: Dict[str, Any]) -> 
     # 2. Try corpus_id variants
     if corpus_id:
         filenames_to_try.extend([
-            f"{corpus_id}.jpg", f"{corpus_id}.jpeg", f"{corpus_id}.png",
-            f"{corpus_id.lower()}.jpg", f"{corpus_id.lower()}.jpeg", f"{corpus_id.lower()}.png",
-            f"{corpus_id.upper()}.jpg", f"{corpus_id.upper()}.jpeg", f"{corpus_id.upper()}.png"
+            f"{corpus_id}.jpg", f"{corpus_id}.jpeg", f"{corpus_id}.png", f"{corpus_id}.webp",
+            f"{corpus_id.lower()}.jpg", f"{corpus_id.lower()}.jpeg", f"{corpus_id.lower()}.png", f"{corpus_id.lower()}.webp"
         ])
+        
+    filenames_to_try.extend([f"{item_id}.jpg", f"{item_id}.png"])
 
-    # 3. Try item_id variants
-    if item_id:
-        filenames_to_try.extend([
-            f"{item_id}.jpg", f"{item_id}.jpeg", f"{item_id}.png",
-            f"{item_id.lower()}.jpg", f"{item_id.lower()}.jpeg", f"{item_id.lower()}.png",
-            f"{item_id.upper()}.jpg", f"{item_id.upper()}.jpeg", f"{item_id.upper()}.png"
-        ])
-
-    # Search for files matching names exactly
+    # Search for files matching names exactly on disk first
     for sdir in search_dirs:
-        if not sdir.exists():
-            continue
-        for fname in filenames_to_try:
-            p = sdir / fname
-            if p.exists() and p.is_file():
-                return p
-
-    # Case-insensitive stem search
-    for sdir in search_dirs:
-        if not sdir.exists():
-            continue
-        try:
-            for file_path in sdir.iterdir():
-                if file_path.is_file():
-                    stem = file_path.stem.lower()
-                    if corpus_id and stem == corpus_id.lower():
-                        return file_path
-                    if item_id and stem == item_id.lower():
-                        return file_path
-        except Exception:
-            pass
-
-    # 4. Fallback to download if it is a Gallica URL
-    url = record.get("input", {}).get("input_url") or ""
-    # Check webscout search results as fallback
-    if not url:
-        for res in record.get("webscout", {}).get("search_results", []):
-            if res.get("url"):
-                url = res["url"]
+        if sdir.exists():
+            for fname in filenames_to_try:
+                candidate = sdir / fname
+                if candidate.exists() and candidate.is_file():
+                    return candidate
+                    
+    # DIRECT SOURCE URL Fallback (Gallica / Webscout)
+    print(f"  [Downloader] Image not found on disk. Falling back to direct original source for {item_id}")
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    
+    # Try fetching by item_id directly first
+    for ext in ['.jpg', '.png']:
+        dl_path = CACHE_DIR / f"{item_id}{ext}"
+        if dl_path.exists() and dl_path.stat().st_size > 1000:
+            return dl_path
+            
+    # Try to extract the source URL directly from the canonical record
+    source_url = None
+    if record and "webscout" in record and "search_results" in record["webscout"]:
+        for sr in record["webscout"]["search_results"]:
+            if sr.get("source_type") == "primary_image" and sr.get("url"):
+                source_url = sr.get("url")
                 break
+                
+    if not source_url and record and "input" in record and "input_url" in record["input"]:
+         source_url = record["input"]["input_url"]
 
-    if "gallica.bnf.fr" in url:
-        iiif_url = get_gallica_iiif_url(url)
-        if iiif_url:
-            dest = CACHE_DIR / f"{item_id}.jpg"
-            print(f"  [Downloader] Found Gallica URL. Fetching IIIF image to {dest.name}...")
-            if download_image(iiif_url, dest):
-                return dest
+    if source_url:
+        print(f"  [Direct Source] Found original URL: {source_url}")
+        
+        # If it's Gallica, we can construct the high-res IIIF URL
+        if "gallica.bnf.fr" in source_url:
+            iiif_url = get_gallica_iiif_url(source_url)
+            if iiif_url:
+                dl_path = CACHE_DIR / f"{item_id}_gallica.jpg"
+                print(f"  [Gallica] Fetching high-res IIIF image...")
+                if download_image(iiif_url, dl_path):
+                    return dl_path
+                    
+        # Otherwise, try downloading the raw URL directly
+        # Note: Numista often requires a browser user-agent, but download_image handles basic headers
+        dl_path = CACHE_DIR / f"{item_id}_direct.jpg"
+        if download_image(source_url, dl_path):
+             return dl_path
+             
+    # Try the generic R2 Cloudflare URL as absolute last resort
+    if corpus_id:
+        for ext in ['.jpg', '.png']:
+            url = f"https://iconocracia-companion.anavanzin.workers.dev/images/{corpus_id}{ext}"
+            dl_path = CACHE_DIR / f"{item_id}{ext}"
+            print(f"  [R2 Fallback] Trying {url}")
+            if download_image(url, dl_path):
+                return dl_path
 
     return None
+
+
 
 
 def generate_mock_response(item_id: str) -> Dict[str, Any]:
@@ -357,7 +369,7 @@ Sua tarefa é analisar a imagem fornecida e avaliar os 10 indicadores de Purific
                         print("  [Gemini] Calling Gemini 1.5 Pro...")
                         try:
                             response = client.models.generate_content(
-                                model="gemini-1.5-pro",
+                                model=os.environ.get("GEMINI_MODEL", "gemini-2.5-pro"),
                                 contents=[img, prompt],
                                 config=types.GenerateContentConfig(
                                     response_mime_type="application/json",
@@ -374,7 +386,7 @@ Sua tarefa é analisar a imagem fornecida e avaliar os 10 indicadores de Purific
                             time.sleep(5)
                             try:
                                 response = client.models.generate_content(
-                                    model="gemini-1.5-pro",
+                                    model=os.environ.get("GEMINI_MODEL", "gemini-2.5-pro"),
                                     contents=[img, prompt],
                                     config=types.GenerateContentConfig(
                                         response_mime_type="application/json",

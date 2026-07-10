@@ -107,7 +107,7 @@ def select_stratified(records, n=30):
 
 if __name__ == "__main__":
     records = load_records()
-    sample = select_stratified(records, 30)
+    sample = select_stratified(records, 50)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         for record in sample:
             suporte = record.get("metadata", {}).get("suporte") or record.get("suporte", "monumento")
