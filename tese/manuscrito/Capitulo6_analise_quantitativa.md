@@ -11,28 +11,28 @@
 
 ### 6.1 Panorama Descritivo: A Geometria do Corpus
 
-A análise quantitativa do corpus ICONOCRACIA permite, em primeira instância, mapear a distribuição espacial, temporal e institucional das alegorias femininas que compõem a base empírica desta tese. Com um total de **265 registros** (dos quais 165 compõem o núcleo analítico consolidado e 100 registros de sincronização e validação), a amostra revela padrões de concentração que corroboram a centralidade do modelo franco-atlântico na cultura jurídica do século XIX.
+A análise quantitativa do corpus ICONOCRACIA permite, em primeira instância, mapear a distribuição espacial, temporal e institucional das alegorias femininas que compõem a base empírica desta tese. Com um total de **328 registros**, a amostra revela padrões de concentração que corroboram a centralidade do modelo franco-atlântico na cultura jurídica do século XIX.
 
 #### 6.1.1 Distribuição Geográfica e Institucional
 
-A França emerge como o polo dominante da amostra, representando **32,5% (86 registros)** do total. Essa predominância não é meramente numérica, mas qualitativa: o modelo da *Marianne* republicana funcionou, durante o longo século XIX, como a "moeda forte" da iconografia política transatlântica. O Brasil ocupa a segunda posição com **16,2% (43 registros)**, evidenciando o esforço de importação e adaptação do cânone europeu pelas elites jurídicas e políticas brasileiras, especialmente no período fundacional da República (1889).
+A França emerge como o polo dominante da amostra, representando **29,6% (97 registros)** do total. Essa predominância não é meramente numérica, mas qualitativa: o modelo da *Marianne* republicana funcionou, durante o longo século XIX, como a "moeda forte" da iconografia política transatlântica. O Brasil ocupa a segunda posição com **22% (72 registros)**, evidenciando o esforço de importação e adaptação do cânone europeu pelas elites jurídicas e políticas brasileiras, especialmente no período fundacional da República (1889).
 
-Os Estados Unidos (10,9%), a Alemanha (8,7%) e o Reino Unido (7,9%) completam o núcleo central, enquanto países como Bélgica, Itália, Holanda e Portugal oferecem variações significativas que permitem testar a universalidade do protocolo *IconoCode*.
+Os Estados Unidos (9,8%), a Alemanha (8,2%) e o Reino Unido (7,0%) completam o núcleo central, enquanto países como Bélgica, Itália, Holanda e Portugal oferecem variações significativas que permitem testar a universalidade do protocolo *IconoCode*.
 
 | País | Registros (N) | Percentual (%) |
 |------|:-------------:|:--------------:|
-| França | 86 | 32,5% |
-| Brasil | 43 | 16,2% |
-| Estados Unidos | 29 | 10,9% |
-| Alemanha | 23 | 8,7% |
-| Reino Unido | 21 | 7,9% |
-| Outros (17 regiões) | 63 | 23,8% |
+| França | 97 | 29,6% |
+| Brasil | 72 | 22,0% |
+| Estados Unidos | 32 | 9,8% |
+| Alemanha | 27 | 8,2% |
+| Reino Unido | 23 | 7,0% |
+| Outros (14 regiões) | 77 | 23,5% |
 
 #### 6.1.2 Distribuição por Regime Iconocrático
 
-A classificação dos itens conforme a tipologia proposta no Capítulo 2 revela que o **Regime FUNDACIONAL** é a categoria mais populosa, com **106 registros (40%)**. Isso reflete a natureza do corpus, focado em momentos de ruptura e estabelecimento de novas ordens jurídicas (Revoluções, Proclamações, Constituições), onde a imagem feminina é convocada para personificar a soberania nascente.
+A classificação dos itens conforme a tipologia proposta no Capítulo 2 revela que o **Regime FUNDACIONAL** é a categoria mais populosa, com **117 registros (35,7%)**. Isso reflete a natureza do corpus, focado em momentos de ruptura e estabelecimento de novas ordens jurídicas (Revoluções, Proclamações, Constituições), onde a imagem feminina é convocada para personificar a soberania nascente.
 
-O **Regime NORMATIVO**, responsável pela rotinização burocrática da imagem em selos, moedas e repartições, representa **27,5% (73 registros)**. O **Regime MILITAR**, que assinala o endurecimento morfológico em contextos de crise ou projeção imperial, compõe **12,8% (34 registros)** da amostra. Por fim, as **CONTRA-ALEGORIAS** (4,2%) funcionam como o grupo de controle que demonstra, por subversão, os limites da "purificação" estatal.
+O **Regime NORMATIVO**, responsável pela rotinização burocrática da imagem em selos, moedas e repartições, representa **31,1% (102 registros)**. O **Regime MILITAR**, que assinala o endurecimento morfológico em contextos de crise ou projeção imperial, compõe **16,5% (54 registros)** da amostra. As **CONTRA-ALEGORIAS** (4,3%) funcionam como o grupo de controle que demonstra, por subversão, os limites da "purificação" estatal. (Nota: os demais registros carecem de marcação de regime explícita).
 
 #### 6.1.3 Arco Temporal e Densidade Iconográfica
 
