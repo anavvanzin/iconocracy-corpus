@@ -35,7 +35,12 @@ Arquivos alterados **apenas na definição/documentação**:
 3. `CLAUDE.md` — entrada de terminologia + nota de arquitetura
 4. `AGENTS.md` — terminologia canônica + rótulo de codificação
 
-> O stub `atlas/stubs/conceito/iconometria.md` é **gerado** por `atlas/_generate_stubs.py` a partir de `concepts/iconometria.md`; será atualizado ao rodar o gerador (não editado à mão).
+> Os stubs do Atlas são **gerados** por `atlas/_generate_stubs.py`. Este PR versiona
+> apenas os **dois stubs cuja fonte muda aqui** — `atlas/stubs/conceito/iconometria.md`
+> (regenerado) e `atlas/stubs/decisao/ICONOMETRIA-TRANSITION-2026-07-11.md` (novo). A
+> regeneração da **árvore completa** (`python atlas/_generate_stubs.py`, que recarimba
+> data em todos os stubs e incorpora drift acumulado) é operação de manutenção separada,
+> mantida fora deste PR conceitual.
 
 ## 5. **NÃO** alterado nesta passada (pendente de aprovação de Ana)
 
