@@ -65,7 +65,8 @@ Every corpus item must exist in three places: (1) Google Drive + `data/raw/drive
 
 ## Canonical Terminology
 
-- **endurecimento** — NEVER "hardening" / "embrutecimento"
+- **iconometria** — framework guarda-chuva (medição/análise de padrões iconográficos); `iconometria ⊇ endurecimento` (decisão 2026-07-11)
+- **endurecimento** — eixo de fixidez dentro da iconometria; NEVER "hardening" / "embrutecimento"; campo de dados canônico `endurecimento_score` (chave estável)
 - **Contrato Sexual Visual**, **Feminilidade de Estado**, **Contrato Racial Visual**, **Purificação Clássica** — original thesis concepts (Vanzin 2026)
 - **Pathosformel**, **Zwischenraum**, **Nachleben** — always in German (Warburg)
 - Citations: ABNT NBR 6023:2025; Mondzain = 2002 edition
