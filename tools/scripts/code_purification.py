@@ -373,6 +373,10 @@ def export_csv(corpus, coded):
 
     indicator_names = [name for name, _, _ in INDICATORS]
     extra_cols = ["purificacao_composto", "regime_iconocratico", "coded_by", "coded_at", "notes"]
+    thumbnail_cols = [
+        "thumbnail_fetch_status", "thumbnail_license", "thumbnail_custody",
+        "thumbnail_recovered_at",
+    ]
 
     # Base columns from corpus.
     # support: physical medium type (e.g. "selo", "moeda", "cartaz")
@@ -385,11 +389,16 @@ def export_csv(corpus, coded):
                  "description", "citation_abnt", "motif_str", "tags_str",
                  "in_scope", "scope_note"]
 
-    all_cols = base_cols + indicator_names + extra_cols
+    all_cols = base_cols + indicator_names + extra_cols + thumbnail_cols
 
     OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=all_cols, extrasaction="ignore")
+        writer = csv.DictWriter(
+            f,
+            fieldnames=all_cols,
+            extrasaction="ignore",
+            lineterminator="\n",
+        )
         writer.writeheader()
         for item in corpus:
             row = {k: item.get(k, "") for k in base_cols}
@@ -397,6 +406,8 @@ def export_csv(corpus, coded):
                 c = coded[item["id"]]
                 for col in indicator_names + extra_cols:
                     row[col] = c.get(col, "")
+            for col in thumbnail_cols:
+                row[col] = item.get(col, "")
             writer.writerow(row)
 
     print(f"  ✅ Exported {len(corpus)} items to {OUTPUT_CSV}")

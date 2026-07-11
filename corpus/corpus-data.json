@@ -1056,7 +1056,16 @@
     "citation_abnt": "Zeichnet 8. Kriegsanleihe",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3g10000/3g11000/3g11900/3g11952v.jpg",
+    "thumbnail_source": "https://www.loc.gov/item/2004666193/",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "No known restrictions on publication.",
+    "thumbnail_license_source": "Library of Congress rights_advisory",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358123Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "BE-001",
@@ -1090,7 +1099,16 @@
     "citation_abnt": "STALLAERT, Joseph. Allégorie de la Justice. 1885–1888. 1 pintura (teto). Hôtel de Ville, Bruxelles. Disponível em: https://collections.heritage.brussels/fr/objects/36822.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://collections.heritage.brussels/medias/500/objects/30/K_1888_17_1.jpg",
+    "thumbnail_source": "https://collections.heritage.brussels/fr/objects/36822",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "See source page",
+    "thumbnail_license_source": "collections.heritage.brussels",
+    "thumbnail_custody": "collections.heritage.brussels",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358141Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "BE-002",
@@ -1121,7 +1139,15 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "POELAERT, Joseph. Palais de Justice de Bruxelles. 1866–1883. Complexo arquitetônico. Bruxelles. Disponível em: https://be-monumen.be/patrimoine-belge/poelaert-joseph/."
+    "citation_abnt": "POELAERT, Joseph. Palais de Justice de Bruxelles. 1866–1883. Complexo arquitetônico. Bruxelles. Disponível em: https://be-monumen.be/patrimoine-belge/poelaert-joseph/.",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bruxelles_-_Palais_de_Justice.jpg",
+    "thumbnail_source": "https://be-monumen.be/patrimoine-belge/poelaert-joseph/",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://be-monumen.be/patrimoine-belge/poelaert-joseph/",
+    "thumbnail_custody": "upload.wikimedia.org",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "BE-003",
@@ -1214,7 +1240,18 @@
     "citation_abnt": "5 Francs — Léopold I (founding coin of Belgium)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/belgique/632d79ea2d2d24.40116509-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces255.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© [Sincona AG](https://www.sincona.com/) (Not specified on page beyond copyright)",
+    "thumbnail_license_source": "Numista catalog #255 ([Numista](https://en.numista.com/catalogue/pieces255.html))",
+    "thumbnail_custody": "Numista catalog #255 ([Numista](https://en.numista.com/catalogue/pieces255.html))",
+    "thumbnail_creator": "Joseph-Pierre Braemt ([Numista](https://en.numista.com/catalogue/artist.php?id=160))",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358146Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "BE-CONGO-100F-1912",
@@ -1251,7 +1288,18 @@
     "citation_abnt": "BANQUE DU CONGO BELGE. 100 Francs. 1912-1929. Papel-moeda. Disponível em: https://en.numista.com/258715. Acesso em: 11 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/belgian_congo_period/653abb8764bb34.20451540-original.jpg",
+    "thumbnail_source": "https://en.numista.com/258715",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© [CGB](http://www.cgb.fr/)",
+    "thumbnail_license_source": "[Numista catalog #258715](https://en.numista.com/258715)",
+    "thumbnail_custody": "[Numista catalog #258715](https://en.numista.com/258715)",
+    "thumbnail_creator": "Bank of the Belgian Congo (Banque du Congo Belge)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358150Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "BE-CONGO-1912",
@@ -1289,7 +1337,18 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/belgian_congo_period/679e6044f26089.22885329-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/note258714.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© [CGB](http://www.cgb.fr/)",
+    "thumbnail_license_source": "[Numista catalog #258714](https://en.numista.com/catalogue/note258714.html)",
+    "thumbnail_custody": "[Numista catalog #258714](https://en.numista.com/catalogue/note258714.html)",
+    "thumbnail_creator": "[Bank of the Belgian Congo (Banque du Congo Belge)](https://en.numista.com/catalogue/issuing_entity.php?id=1501); Printer: [National Bank of Belgium Printing Works](https://en.numista.com/catalogue/printer.php?id=773)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358159Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "BE-CONGO-MON-1921",
@@ -1325,7 +1384,16 @@
     "citation_abnt": "VINÇOTTE, Thomas. Monument aux Pionniers Belges au Congo. 1911-1921. Escultura em calcário de Euville. Parc du Cinquantenaire, Bruxelles. Disponível em: https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo. Acesso em: 11 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Monument_aux_pionniers_belges_au_Congo_01.JPG",
+    "thumbnail_source": "https://en.wikipedia.org/wiki/Monument_to_the_Belgian_Pioneers_in_Congo",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "See Wikimedia Commons file page for per-image license",
+    "thumbnail_license_source": "Wikipedia en article",
+    "thumbnail_custody": "en.wikipedia.org",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358153Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "BE-IND-1880",
@@ -1361,7 +1429,18 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/belgique/1661-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces27258.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© Heritage Auctions",
+    "thumbnail_license_source": "Numista catalog #27258, [Heritage Auctions](http://www.ha.com/)",
+    "thumbnail_custody": "Numista catalog #27258, [Heritage Auctions](http://www.ha.com/)",
+    "thumbnail_creator": "Léopold Wiener (Obverse engraver), Charles Wiener (Reverse engraver), E. Devaux (Designer)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358156Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "BR-001",
@@ -1391,7 +1470,15 @@
       "serialidade": 1,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "BOSCAGLI, José. [Estátua feminina na abertura da amostra dos produtos do Rio Grande do Sul]. 1908. 1 fotografia, p&b, 16,5 x 23 cm. Museu Histórico Nacional. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778."
+    "citation_abnt": "BOSCAGLI, José. [Estátua feminina na abertura da amostra dos produtos do Rio Grande do Sul]. 1908. 1 fotografia, p&b, 16,5 x 23 cm. Museu Histórico Nacional. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778.",
+    "thumbnail_url": "https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/11778/0000001.JPG.jpg?sequence=3&isAllowed=y",
+    "thumbnail_source": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11778",
+    "thumbnail_custody": "brasilianafotografica.bn.gov.br",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "BR-002",
@@ -1422,7 +1509,15 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "MONUMENTO à República, Praça da República, Belém. 1940. 1 fotografia, p&b. In: Álbum de fotografias da visita de Getúlio Vargas a Belém. Museu da República/IBRAM. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609."
+    "citation_abnt": "MONUMENTO à República, Praça da República, Belém. 1940. 1 fotografia, p&b. In: Álbum de fotografias da visita de Getúlio Vargas a Belém. Museu da República/IBRAM. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609.",
+    "thumbnail_url": "https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/13609/GV%20dvft%20004%20-%20Visita%20de%20Get%c3%balio%20a%20Bel%c3%a9m%20do%20Par%c3%a1%20Out19400000095.JPG.jpg?sequence=3&isAllowed=y",
+    "thumbnail_source": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13609",
+    "thumbnail_custody": "brasilianafotografica.bn.gov.br",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "BR-003",
@@ -1453,7 +1548,15 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "MONUMENTO à República, Praça da República, Belém. 1940. 1 fotografia, p&b. In: Álbum de fotografias da visita de Getúlio Vargas a Belém. Museu da República/IBRAM. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611."
+    "citation_abnt": "MONUMENTO à República, Praça da República, Belém. 1940. 1 fotografia, p&b. In: Álbum de fotografias da visita de Getúlio Vargas a Belém. Museu da República/IBRAM. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611.",
+    "thumbnail_url": "https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/13611/GV%20dvft%20004%20-%20Visita%20de%20Get%c3%balio%20a%20Bel%c3%a9m%20do%20Par%c3%a1%20Out19400000097.JPG.jpg?sequence=3&isAllowed=y",
+    "thumbnail_source": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/13611",
+    "thumbnail_custody": "brasilianafotografica.bn.gov.br",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "BR-004",
@@ -1484,7 +1587,15 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "SANTOS, Guilherme. Jardim do Campo da Aclamação, atual Campo de Santana; estátuas do Outono e da Primavera. c. 1925. 1 fotografia, gelatina/prata, sépia, 4,5 x 11 cm. Instituto Moreira Salles. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529."
+    "citation_abnt": "SANTOS, Guilherme. Jardim do Campo da Aclamação, atual Campo de Santana; estátuas do Outono e da Primavera. c. 1925. 1 fotografia, gelatina/prata, sépia, 4,5 x 11 cm. Instituto Moreira Salles. Disponível em: https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529.",
+    "thumbnail_url": "https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/11529/002080RJ0118.jpg.jpg?sequence=2&isAllowed=y",
+    "thumbnail_source": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://brasilianafotografica.bn.gov.br/brasiliana/handle/20.500.12156.1/11529",
+    "thumbnail_custody": "brasilianafotografica.bn.gov.br",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "BR-005",
@@ -1515,7 +1626,15 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "VILLARES, Décio. Alegoria da República. c. 1900. 1 pintura, óleo sobre tela, 97 x 77 cm. Museu Histórico Nacional. Disponível em: https://archive.nyu.edu/handle/2451/61396."
+    "citation_abnt": "VILLARES, Décio. Alegoria da República. c. 1900. 1 pintura, óleo sobre tela, 97 x 77 cm. Museu Histórico Nacional. Disponível em: https://archive.nyu.edu/handle/2451/61396.",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/D%C3%A9cio_Villares_-_A_Rep%C3%BAblica.jpg/800px-D%C3%A9cio_Villares_-_A_Rep%C3%BAblica.jpg",
+    "thumbnail_source": "https://archive.nyu.edu/handle/2451/61396",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://archive.nyu.edu/handle/2451/61396",
+    "thumbnail_custody": "upload.wikimedia.org",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "BR-006",
@@ -1549,7 +1668,16 @@
     "citation_abnt": "CHAMBELLAND, Carlos. Alegoria da República. 1922. 1 pintura, óleo sobre tela, 202 x 152 cm. Museu Histórico Nacional. Disponível em: https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_source": "https://brasiliana.museus.gov.br/acervos/alegoria-da-republica/",
+    "thumbnail_fetch_status": "broken_url",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Domínio público, ver [Museu Histórico Nacional](http://mhn.acervos.museus.gov.br/uso-de-imagem/)",
+    "thumbnail_license_source": "Museu Histórico Nacional",
+    "thumbnail_custody": "Museu Histórico Nacional",
+    "thumbnail_creator": "Carlos Chambelland",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358163Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "BR-007",
@@ -1583,7 +1711,18 @@
     "citation_abnt": "AS ESTÁTUAS fallando. Brasil, n. 60, 1827. p. [s.n.]. Disponível em: http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://memoria.bn.gov.br/DocReader/content/getimage.ashx?bib=702390&pagfis=60&width=2000",
+    "thumbnail_source": "http://memoria.bn.br/pdf/702390/per702390_1827_00060.pdf",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Not specified on page",
+    "thumbnail_license_source": "Fundação Biblioteca Nacional (Hemeroteca Digital Brasileira)",
+    "thumbnail_custody": "Fundação Biblioteca Nacional (Hemeroteca Digital Brasileira)",
+    "thumbnail_creator": "Typographia da Gazeta / Pierre Plancher",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358167Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "BR-008",
@@ -1654,7 +1793,17 @@
     "audit_flags": [
       "sem-thumbnail",
       "lpai_v2_enrich_br_scout_005"
-    ]
+    ],
+    "thumbnail_url": "https://acervos.ims.com.br/service.php/File/13350_ca_object_representations_media_8449_medium.jpg",
+    "thumbnail_source": "https://acervos.ims.com.br/index.php/Detail/objects/18758",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Requer liberação de direitos junto ao detentor (Instituto Moreira Salles)",
+    "thumbnail_license_source": "Instituto Moreira Salles, Marcel Gautherot Collection",
+    "thumbnail_custody": "Instituto Moreira Salles, Marcel Gautherot Collection",
+    "thumbnail_creator": "Marcel Gautherot (Photographer), Alfredo Ceschiatti (Sculptor)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358170Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "BR-010",
@@ -1687,7 +1836,16 @@
     "citation_abnt": "VISCONTI, Eliseu. Alegoria (Biblioteca Nacional). 1910. 1 painel decorativo, óleo. Fundação Biblioteca Nacional, Rio de Janeiro. Disponível em: https://eliseuvisconti.com.br/obra/d702/.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://eliseuvisconti.com.br/wp-content/uploads/2017/06/D702.jpg",
+    "thumbnail_source": "https://eliseuvisconti.com.br/obra/d702/",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "See source page",
+    "thumbnail_license_source": "eliseuvisconti.com.br",
+    "thumbnail_custody": "eliseuvisconti.com.br",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358173Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "BR-017",
@@ -2651,7 +2809,18 @@
     "citation_abnt": "1000 Réis — Efígie da República (Brasil, 1906–1912)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/bresil/60c7ec6ad5f0a8.12081181-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces14484.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© Heritage Auctions ([Numista](https://en.numista.com/catalogue/pieces14484.html))",
+    "thumbnail_license_source": "Numista catalog #N# 14484 ([Numista](https://en.numista.com/catalogue/pieces14484.html))",
+    "thumbnail_custody": "Numista catalog #N# 14484 ([Numista](https://en.numista.com/catalogue/pieces14484.html))",
+    "thumbnail_creator": "Mint of Brazil (Casa da Moeda do Brasil) ([Numista](https://en.numista.com/catalogue/pieces14484.html))",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358176Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "BR-1CR-1970",
@@ -2682,7 +2851,18 @@
     "citation_abnt": "1 Cruzeiro (cédula) — Efígie da República (2ª edição)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/bresil/626b7e240b4d30.10658314-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/note203551.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "[CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/deed.en) (© hex7ech)",
+    "thumbnail_license_source": "[Numista catalog #203551](https://en.numista.com/catalogue/note203551.html) (User contribution by hex7ech)",
+    "thumbnail_custody": "[Numista catalog #203551](https://en.numista.com/catalogue/note203551.html) (User contribution by hex7ech)",
+    "thumbnail_creator": "[Benedito de Araújo Ribeiro](https://en.numista.com/catalogue/artist.php?id=3592) (Engraver), [Aloísio Sérgio Barbosa de Magalhães](https://en.numista.com/catalogue/artist.php?id=3074) (Designer), [Central Bank of Brazil](https://en.numista.com/catalogue/issuing_entity.php?id=900) (Issuing authority)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358179Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "BR-2000R-1907",
@@ -2716,7 +2896,18 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/bresil/60c7ebdbf37922.85395434-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces14489.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© Heritage Auctions",
+    "thumbnail_license_source": "Numista catalog #14489, [Heritage Auctions](http://www.ha.com/)",
+    "thumbnail_custody": "Numista catalog #14489, [Heritage Auctions](http://www.ha.com/)",
+    "thumbnail_creator": "Mint of Brazil (Casa da Moeda do Brasil)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358181Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "BR-50CR-1965",
@@ -2747,7 +2938,18 @@
     "citation_abnt": "50 Cruzeiros — Efígie da República (Benedito Ribeiro / Tônia Carreiro)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/bresil/2528-original.jpg",
+    "thumbnail_source": "https://en.numista.com/9337",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© Essor Prof (Not specified on page)",
+    "thumbnail_license_source": "[Numista catalog #9337](https://en.numista.com/9337)",
+    "thumbnail_custody": "[Numista catalog #9337](https://en.numista.com/9337)",
+    "thumbnail_creator": "[Mint of Brazil (Casa da Moeda do Brasil)](https://en.numista.com/catalogue/mint.php?id=1335)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358184Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "DE-001",
@@ -2782,7 +2984,15 @@
     "citation_abnt": "GIENG, Hans. Gerechtigkeitsbrunnen mit Plastik der Justitia. 1543. 1 escultura, fonte. Bern, Gerechtigkeitsgasse. Bildarchiv Foto Marburg. Disponível em: https://www.bildindex.de/document/que20183316.",
     "audit_flags": [
       "fora-do-escopo"
-    ]
+    ],
+    "thumbnail_url": "https://www.bildindex.de/document/que20183316?part=0&medium=fmk45-ho-0136a",
+    "thumbnail_source": "https://www.bildindex.de/document/que20183316",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.bildindex.de/document/que20183316",
+    "thumbnail_custody": "www.bildindex.de",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-002",
@@ -2815,7 +3025,15 @@
     "citation_abnt": "JUSTITIA (cabeça em mármore da Porta di Capua). 1239–1240. 1 escultura em mármore. Museo Provinciale Campano, Capua. Disponível em: https://www.bildindex.de/document/obj08148970.",
     "audit_flags": [
       "fora-do-escopo"
-    ]
+    ],
+    "thumbnail_url": "https://www.bildindex.de/document/obj08148970?part=0&medium=bh798728",
+    "thumbnail_source": "https://www.bildindex.de/document/obj08148970",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.bildindex.de/document/obj08148970",
+    "thumbnail_custody": "www.bildindex.de",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-003",
@@ -2845,7 +3063,15 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "RODE, Bernhard. Die Göttin der Gerechtigkeit nach dem heutigen Geschmacke. Século XVIII. 1 gravura. Kupferstich-Kabinett Dresden. Disponível em: https://www.bildindex.de/document/obj30110594."
+    "citation_abnt": "RODE, Bernhard. Die Göttin der Gerechtigkeit nach dem heutigen Geschmacke. Século XVIII. 1 gravura. Kupferstich-Kabinett Dresden. Disponível em: https://www.bildindex.de/document/obj30110594.",
+    "thumbnail_url": "https://www.bildindex.de/document/obj30110594?part=0&medium=mi10000g04",
+    "thumbnail_source": "https://www.bildindex.de/document/obj30110594",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.bildindex.de/document/obj30110594",
+    "thumbnail_custody": "www.bildindex.de",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-004",
@@ -2875,7 +3101,15 @@
       "serialidade": 0,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "JUSTITIA an der Rathausuhr, Esslingen am Neckar. 1589. 1 escultura. Altes Rathaus, Esslingen. Disponível em: https://www.bildindex.de/document/obj20553978."
+    "citation_abnt": "JUSTITIA an der Rathausuhr, Esslingen am Neckar. 1589. 1 escultura. Altes Rathaus, Esslingen. Disponível em: https://www.bildindex.de/document/obj20553978.",
+    "thumbnail_url": "https://www.bildindex.de/document/obj20553978?part=0&medium=mi05228a07",
+    "thumbnail_source": "https://www.bildindex.de/document/obj20553978",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.bildindex.de/document/obj20553978",
+    "thumbnail_custody": "www.bildindex.de",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-005",
@@ -2905,7 +3139,15 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "PERSONIFIKATION der Gerechtigkeit (Barocke Holzdecke). 1660–1780. 1 medalhão em teto de madeira. Lüneburg, Große Bäckerstraße 12. Disponível em: https://www.bildindex.de/document/obj20672587."
+    "citation_abnt": "PERSONIFIKATION der Gerechtigkeit (Barocke Holzdecke). 1660–1780. 1 medalhão em teto de madeira. Lüneburg, Große Bäckerstraße 12. Disponível em: https://www.bildindex.de/document/obj20672587.",
+    "thumbnail_url": "https://www.bildindex.de/document/obj20672587?part=0&medium=mi07014d04",
+    "thumbnail_source": "https://www.bildindex.de/document/obj20672587",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.bildindex.de/document/obj20672587",
+    "thumbnail_custody": "www.bildindex.de",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-006",
@@ -2937,7 +3179,15 @@
     "citation_abnt": "RAIMONDI, Marcantonio. Allegorie: Justitia. Início do século XVI. 1 gravura. Bibliotheca Hertziana, Roma. Disponível em: https://www.bildindex.de/document/obj08158050.",
     "audit_flags": [
       "fora-do-escopo"
-    ]
+    ],
+    "thumbnail_url": "https://www.bildindex.de/document/obj08158050?part=0&medium=bh001222",
+    "thumbnail_source": "https://www.bildindex.de/document/obj08158050",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.bildindex.de/document/obj08158050",
+    "thumbnail_custody": "www.bildindex.de",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-007",
@@ -2971,7 +3221,15 @@
     "citation_abnt": "ALLEGORIE der Justitia und eine weitere weibliche Allegorie. 1501–1550. 1 desenho/gravura. Museo Civico, Bassano del Grappa. Disponível em: https://www.bildindex.de/document/obj08108743.",
     "audit_flags": [
       "fora-do-escopo"
-    ]
+    ],
+    "thumbnail_url": "https://www.bildindex.de/document/obj08108743?part=0&medium=bh_gern_024858_post",
+    "thumbnail_source": "https://www.bildindex.de/document/obj08108743",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.bildindex.de/document/obj08108743",
+    "thumbnail_custody": "www.bildindex.de",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-008",
@@ -3001,7 +3259,15 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "JUSTITIA (Stiftsherrenhaus, Hameln). c. 1558. 1 escultura arquitetônica. Hameln, Osterstraße 8. Disponível em: https://www.bildindex.de/document/obj20608421."
+    "citation_abnt": "JUSTITIA (Stiftsherrenhaus, Hameln). c. 1558. 1 escultura arquitetônica. Hameln, Osterstraße 8. Disponível em: https://www.bildindex.de/document/obj20608421.",
+    "thumbnail_url": "https://www.bildindex.de/document/obj20608421?part=0&medium=mi11300c09",
+    "thumbnail_source": "https://www.bildindex.de/document/obj20608421",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.bildindex.de/document/obj20608421",
+    "thumbnail_custody": "www.bildindex.de",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-009",
@@ -3032,7 +3298,15 @@
       "serialidade": 0,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "RELIEF: Gerechtigkeit und Eintracht. 1596–1605. 1 relevo. Altes Rathaus, Bremen. Disponível em: https://www.bildindex.de/document/obj20459153."
+    "citation_abnt": "RELIEF: Gerechtigkeit und Eintracht. 1596–1605. 1 relevo. Altes Rathaus, Bremen. Disponível em: https://www.bildindex.de/document/obj20459153.",
+    "thumbnail_url": "https://www.bildindex.de/document/obj20459153?part=0&medium=mi04250a11",
+    "thumbnail_source": "https://www.bildindex.de/document/obj20459153",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.bildindex.de/document/obj20459153",
+    "thumbnail_custody": "www.bildindex.de",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-010",
@@ -3062,7 +3336,15 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "WENZINGER, Christian. Allegorie der Jus Civile. 1752. 1 escultura. Sankt Peter, Benedictine Abbey. Disponível em: https://www.bildindex.de/document/obj20677105."
+    "citation_abnt": "WENZINGER, Christian. Allegorie der Jus Civile. 1752. 1 escultura. Sankt Peter, Benedictine Abbey. Disponível em: https://www.bildindex.de/document/obj20677105.",
+    "thumbnail_url": "https://www.bildindex.de/document/obj20677105?part=0&medium=mi08920i01",
+    "thumbnail_source": "https://www.bildindex.de/document/obj20677105",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.bildindex.de/document/obj20677105",
+    "thumbnail_custody": "www.bildindex.de",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-011",
@@ -3092,7 +3374,15 @@
       "serialidade": 0,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "KAMIN mit Justitia (Leipzig, Altes Rathaus). c. 1610. 1 decoração de lareira. Altes Rathaus, Leipzig. Disponível em: https://www.bildindex.de/document/obj30143134."
+    "citation_abnt": "KAMIN mit Justitia (Leipzig, Altes Rathaus). c. 1610. 1 decoração de lareira. Altes Rathaus, Leipzig. Disponível em: https://www.bildindex.de/document/obj30143134.",
+    "thumbnail_url": "https://www.bildindex.de/document/obj30143134?part=0&medium=mi12335e10",
+    "thumbnail_source": "https://www.bildindex.de/document/obj30143134",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.bildindex.de/document/obj30143134",
+    "thumbnail_custody": "www.bildindex.de",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-012",
@@ -3124,7 +3414,15 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "CRANACH, Lucas, o Velho. Gerechtigkeit. 1537. 1 pintura, óleo sobre painel, 72 × 49,6 cm. Coleção particular. Disponível em: https://lucascranach.org/en/PRIVATE_NONE-P457/."
+    "citation_abnt": "CRANACH, Lucas, o Velho. Gerechtigkeit. 1537. 1 pintura, óleo sobre painel, 72 × 49,6 cm. Coleção particular. Disponível em: https://lucascranach.org/en/PRIVATE_NONE-P457/.",
+    "thumbnail_url": "https://commons.wikimedia.org/wiki/File:Gerechtigkeit-1537.jpg",
+    "thumbnail_source": "https://lucascranach.org/en/PRIVATE_NONE-P457/",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://lucascranach.org/en/PRIVATE_NONE-P457/",
+    "thumbnail_custody": "commons.wikimedia.org",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-013",
@@ -3159,7 +3457,17 @@
     "citation_abnt": "KAULBACH, Friedrich August von. Germania. 1914. 1 pintura (óleo sobre tela). Berlim: Deutsches Historisches Museum. Disponível em: https://www.dhm.de/lemo/bestand/objekt/gemaelde-friedrich-august-von-kaulbach-germania-1914. Acesso em: 28 mar. 2026.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://www.dhm.de/lemo/fileadmin/medien/lemo/images/g0000016.jpg?v=1410285066",
+    "thumbnail_source": "https://www.dhm.de/lemo/bestand/objekt/gemaelde-friedrich-august-von-kaulbach-germania-1914",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Not specified on page",
+    "thumbnail_license_source": "Deutsches Historisches Museum, Berlin (Inv.-Nr.: 1988/82)",
+    "thumbnail_custody": "Deutsches Historisches Museum, Berlin (Inv.-Nr.: 1988/82)",
+    "thumbnail_creator": "Friedrich August von Kaulbach (1850-1920)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358189Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-014",
@@ -3192,7 +3500,16 @@
     "citation_abnt": "Helft uns siegen! Zeichnet die Kriegsanleihe",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3g10000/3g11000/3g11200/3g11292v.jpg",
+    "thumbnail_source": "https://www.loc.gov/item/2004665855/",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "No known restrictions on publication.",
+    "thumbnail_license_source": "Library of Congress rights_advisory",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358192Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-015",
@@ -3227,7 +3544,17 @@
     "citation_abnt": "Germania — Guter Rat ist teuer (Bismarck e Alsácia-Lorena)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://germanhistorydocs.org/media/volume-4/image-1408/20635_ca_object_representations_media_4168_frontend.jpg",
+    "thumbnail_source": "https://germanhistorydocs.ghi-dc.org/sub_image.cfm?image_id=1408",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Not specified on page (Image source: Kladderadatsch, Jg. 24, no. 22 (May 14, 1871), p. 88)",
+    "thumbnail_license_source": "Universitätsbibliothek Heidelberg",
+    "thumbnail_custody": "Universitätsbibliothek Heidelberg",
+    "thumbnail_creator": "Wilhelm Scholz",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358195Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-016",
@@ -3445,7 +3772,18 @@
     "citation_abnt": "1000 Mark Reichsbanknote — allegorical figures",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/allemagne-pre1945/5e99822ee08084.55357445-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/note203637.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© caesar1990",
+    "thumbnail_license_source": "[Numista catalog #203637](https://en.numista.com/catalogue/note203637.html) (user contribution by caesar1990)",
+    "thumbnail_custody": "[Numista catalog #203637](https://en.numista.com/catalogue/note203637.html) (user contribution by caesar1990)",
+    "thumbnail_creator": "[Hans Meyer (Engraver)](https://en.numista.com/catalogue/artist.php?id=6246), [Ferdinand Luthmer (Designer)](https://en.numista.com/catalogue/artist.php?id=5281), [Otto Knille (Designer)](https://en.numista.com/catalogue/artist.php?id=9387), [Reichsbank (Issuing bank)](https://en.numista.com/catalogue/issuing_entity.php?id=1036)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358199Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "DE-100M-1908",
@@ -3476,7 +3814,18 @@
     "citation_abnt": "100 Mark Reichsbanknote — Germania seated (green seals)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/allemagne-pre1945/5e9977f0b04a97.99272269-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/note203616.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© caesar1990 (Not specified on page beyond contributor credit)",
+    "thumbnail_license_source": "[Numista catalog #203616](https://en.numista.com/catalogue/note203616.html)",
+    "thumbnail_custody": "[Numista catalog #203616](https://en.numista.com/catalogue/note203616.html)",
+    "thumbnail_creator": "Designer: [Paul Thumann](https://en.numista.com/catalogue/artist.php?id=1930); Engraver: [Hans Meyer](https://en.numista.com/catalogue/artist.php?id=6246); Issuing authority: [Reichsbank](https://en.numista.com/catalogue/issuing_entity.php?id=1036)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358203Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "DE-50M-1919",
@@ -3507,7 +3856,18 @@
     "citation_abnt": "50 Mark Reichsbanknote (24 Jun. 1919) — última cédula imperial / primeira Weimar",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/allemagne-pre1945/5fb93b5e466681.51367110-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/note202186.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© nordboutik59 (Obverse image)",
+    "thumbnail_license_source": "[Numista catalog N#202186](https://en.numista.com/catalogue/note202186.html)",
+    "thumbnail_custody": "[Numista catalog N#202186](https://en.numista.com/catalogue/note202186.html)",
+    "thumbnail_creator": "Reichsbankdirektorium (Issuing Authority); Printers: [Bundesdruckerei (Reichsdruckerei)](https://en.numista.com/catalogue/printer.php?id=72), [Österreichische Staatsdruckerei](https://en.numista.com/catalogue/printer.php?id=3066), [Otto Elsner Buchdruckerei und Verlagsbuchhandlung](https://en.numista.com/catalogue/printer.php?id=3065), [W.(ilhelm) Büxenstein](https://en.numista.com/catalogue/printer.php?id=3064)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358206Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "DE-GERM-1900",
@@ -3544,7 +3904,16 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Germania5pf1900.jpg",
+    "thumbnail_source": "https://en.wikipedia.org/wiki/Germania_(stamp)",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "See Wikimedia Commons file page for per-image license",
+    "thumbnail_license_source": "Wikipedia en article",
+    "thumbnail_custody": "en.wikipedia.org",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358215Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-GERM-BELG-1914",
@@ -3616,7 +3985,17 @@
     "citation_abnt": "50 Mark Reichsbanknote — Germania as Young Girl (Weimar 1919)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://numizon.s3.amazonaws.com/media/banknote/w/DEU_P066_B222_10MK-xs.jpg",
+    "thumbnail_source": "https://www.numizon.com/en/banknote/germany-reichsbanknotes-50-mark-type-1919-pick-66/deu-p66/",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© 2018-2023, Numizon. Tous droits réservés. [Numizon](https://www.numizon.com/en/banknote/germany-reichsbanknotes-50-mark-type-1919-pick-66/deu-p66/)",
+    "thumbnail_license_source": "Numizon catalog Pick #66, The Banknote Book B222, RO-62 [Numizon](https://www.numizon.com/en/banknote/germany-reichsbanknotes-50-mark-type-1919-pick-66/deu-p66/)",
+    "thumbnail_custody": "Numizon catalog Pick #66, The Banknote Book B222, RO-62 [Numizon](https://www.numizon.com/en/banknote/germany-reichsbanknotes-50-mark-type-1919-pick-66/deu-p66/)",
+    "thumbnail_creator": "Reichsbank (issuing authority). Signatures: Havenstein & von Glasenapp, Schmiedicke, von Lumm, von Grimm, Kauffmann, Schneider, Budczies, Bernhard, Seiffert, Vocke. [Numizon](https://www.numizon.com/en/banknote/germany-reichsbanknotes-50-mark-type-1919-pick-66/deu-p66/)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358209Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "DE-WR-1924-50PF",
@@ -3651,7 +4030,18 @@
     "citation_abnt": "50 Reichspfennig — Woman Planting Oak Sapling (Weimar 1924)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/allemagne-pre1945/6945731332adf5.85326659-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces2546.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "CC BY-NC-SA 4.0 (attribution: Janusik)",
+    "thumbnail_license_source": "Numista catalog #2546",
+    "thumbnail_custody": "Numista catalog #2546",
+    "thumbnail_creator": "Not specified on page",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358212Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "ES-001",
@@ -3757,7 +4147,18 @@
     "citation_abnt": "5 Pesetas \"Hispania Reclinada\" — Gobierno Provisional",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/espagne/6a3c4bb41add61.87360487-original.jpg",
+    "thumbnail_source": "https://en.numista.com/6722",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "CC BY-NC-SA (© La Catastrophe ultraviolette)",
+    "thumbnail_license_source": "Numista catalog #6722",
+    "thumbnail_custody": "Numista catalog #6722",
+    "thumbnail_creator": "Luis Marchionni y Hombrón (Engraver); Provisional Government (Issuing authority)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358219Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "ES-004",
@@ -3791,7 +4192,18 @@
     "citation_abnt": "1 Peseta \"Hispania Sentada\" — II República",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/espagne/667985da37f959.54318886-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces11169.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© Aureo & Calicó S.L., subastas numismáticas",
+    "thumbnail_license_source": "Numista catalog #11169 (image courtesy of [Aureo & Calicó S.L., subastas numismáticas](https://www.aureo.com/))",
+    "thumbnail_custody": "Numista catalog #11169 (image courtesy of [Aureo & Calicó S.L., subastas numismáticas](https://www.aureo.com/))",
+    "thumbnail_creator": "José Eusebio Espinós Gisbert",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358222Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "EU-001",
@@ -3822,7 +4234,15 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "ZICK, Januarius. Thronende Justitia / Allegorie der strafenden Gerechtigkeit. [séc. XVIII]. Fotografia de Schulze-Marburg, Rudolf, 1943-1944. Zentralinstitut für Kunstgeschichte. Disponível em: https://www.europeana.eu/en/item/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S."
+    "citation_abnt": "ZICK, Januarius. Thronende Justitia / Allegorie der strafenden Gerechtigkeit. [séc. XVIII]. Fotografia de Schulze-Marburg, Rudolf, 1943-1944. Zentralinstitut für Kunstgeschichte. Disponível em: https://www.europeana.eu/en/item/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S.",
+    "thumbnail_url": "https://proxy.europeana.eu/media/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S/60083dd530e50fba0723a5b8b09fd96d",
+    "thumbnail_source": "https://www.europeana.eu/en/item/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.europeana.eu/en/item/201/item_IBA5QWMUFFBZOLE2SPIJO5QD2SPIZS6S",
+    "thumbnail_custody": "proxy.europeana.eu",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "EU-002",
@@ -4131,7 +4551,18 @@
     "citation_abnt": "CHIFFLART, François-Nicolas. La Justice, la Vengeance et la Vérité. 1865. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b531737635.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://gallica.bnf.fr/ark:/12148/btv1b531737635/f1.highres",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b531737635",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Public domain",
+    "thumbnail_license_source": "Bibliothèque nationale de France, département Estampes et photographie, FOL-DC-3617",
+    "thumbnail_custody": "Bibliothèque nationale de France, département Estampes et photographie, FOL-DC-3617",
+    "thumbnail_creator": "Chifflart, François-Nicolas (1825-1901). Graveur",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358226Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "FR-002",
@@ -4165,7 +4596,18 @@
     "citation_abnt": "CHIFFLART, François-Nicolas. Le triomphe de la Justice et de la Vérité. 1865. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b531737529.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://gallica.bnf.fr/ark:/12148/btv1b531737529/f1.highres",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b531737529",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Public domain",
+    "thumbnail_license_source": "Bibliothèque nationale de France, département Estampes et photographie, FOL-DC-3617",
+    "thumbnail_custody": "Bibliothèque nationale de France, département Estampes et photographie, FOL-DC-3617",
+    "thumbnail_creator": "Chifflart, François-Nicolas (1825-1901). Graveur",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358229Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "FR-003",
@@ -4198,7 +4640,18 @@
     "citation_abnt": "CHIFFLART, François-Nicolas. L'envoyé de la Justice. 1859. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b53173732g.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b53173732g/f1/full/max/0/default.jpg",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b53173732g",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Public domain",
+    "thumbnail_license_source": "Bibliothèque nationale de France, département Estampes et photographie, FOL-DC-3617",
+    "thumbnail_custody": "Bibliothèque nationale de France, département Estampes et photographie, FOL-DC-3617",
+    "thumbnail_creator": "Chifflart, François-Nicolas (1825-1901). Graveur",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358233Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "FR-004",
@@ -4232,7 +4685,18 @@
     "citation_abnt": "ESTAMPES représentant des naïades et Marianne enseignant l'alphabet à des enfants. [1859-1910]. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b10574064v.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10574064v/f1/full/max/0/default.jpg",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b10574064v",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Public domain",
+    "thumbnail_license_source": "[Bibliothèque municipale de Toulouse](https://gallica.bnf.fr/ark:/12148/btv1b10574064v)",
+    "thumbnail_custody": "[Bibliothèque municipale de Toulouse](https://gallica.bnf.fr/ark:/12148/btv1b10574064v)",
+    "thumbnail_creator": "[Perbosc, Antonin (1861-1944). Photographe](https://gallica.bnf.fr/ark:/12148/btv1b10574064v)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358236Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "FR-005",
@@ -4266,7 +4730,18 @@
     "citation_abnt": "ROPS, Félicien. La République aimable. 1871. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b531842166.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://gallica.bnf.fr/ark:/12148/btv1b531842166/f1.highres",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b531842166",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Public domain [Gallica](https://gallica.bnf.fr/ark:/12148/btv1b531842166)",
+    "thumbnail_license_source": "Bibliothèque nationale de France, département Estampes et photographie, RESERVE CC-82 (B, 2)-FOL [Gallica](https://gallica.bnf.fr/ark:/12148/btv1b531842166)",
+    "thumbnail_custody": "Bibliothèque nationale de France, département Estampes et photographie, RESERVE CC-82 (B, 2)-FOL [Gallica](https://gallica.bnf.fr/ark:/12148/btv1b531842166)",
+    "thumbnail_creator": "Rops, Félicien (1833-1898). Graveur [Gallica](https://gallica.bnf.fr/ark:/12148/btv1b531842166)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358239Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "FR-006",
@@ -4300,7 +4775,18 @@
     "citation_abnt": "THE FRENCH crisis: Madame La République. 1887. 1 gravura. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8438243t.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://gallica.bnf.fr/ark:/12148/btv1b8438243t/f1.highres",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b8438243t",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "[Public domain](https://gallica.bnf.fr/ark:/12148/btv1b8438243t)",
+    "thumbnail_license_source": "[Bibliothèque nationale de France, département Bibliothèque-musée de l'opéra, ESTAMPES SCENES Lohengrin (39)](https://gallica.bnf.fr/ark:/12148/btv1b8438243t)",
+    "thumbnail_custody": "[Bibliothèque nationale de France, département Bibliothèque-musée de l'opéra, ESTAMPES SCENES Lohengrin (39)](https://gallica.bnf.fr/ark:/12148/btv1b8438243t)",
+    "thumbnail_creator": "[Punch, or the London charivari (Londres)](https://gallica.bnf.fr/ark:/12148/btv1b8438243t)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358242Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "FR-007",
@@ -4332,7 +4818,15 @@
       "serialidade": 2,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "LELONG, René. République Française: 3e Emprunt de la Défense nationale. 1917. 1 cartaz. Bibliothèque nationale de France. Disponível em: https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v."
+    "citation_abnt": "LELONG, René. République Française: 3e Emprunt de la Défense nationale. 1917. 1 cartaz. Bibliothèque nationale de France. Disponível em: https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v.",
+    "thumbnail_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10051217v/f1/full/full/0/native.jpg",
+    "thumbnail_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v",
+    "thumbnail_custody": "gallica.bnf.fr",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-008",
@@ -4368,7 +4862,16 @@
     "audit_flags": [
       "sem-thumbnail",
       "lpai_v2_enrich_fr_scout_002"
-    ]
+    ],
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v3/400/33759a46b7ceb3e95960304b2fa2e949",
+    "thumbnail_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10510623s",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "See Europeana page",
+    "thumbnail_license_source": "Europeana",
+    "thumbnail_custody": "www.europeana.eu",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358244Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-009",
@@ -4403,7 +4906,16 @@
     "audit_flags": [
       "sem-thumbnail",
       "lpai_v2_enrich_fr_scout_005"
-    ]
+    ],
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v3/400/4e8fe59f172fb50c4b314e4660de7d5a",
+    "thumbnail_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b6952880n",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "See Europeana page",
+    "thumbnail_license_source": "Europeana",
+    "thumbnail_custody": "www.europeana.eu",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358247Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-010",
@@ -4437,7 +4949,16 @@
     "citation_abnt": "VEBER, Jean. Le hochet de la République. [s.d.]. 1 gravura. Bibliothèque nationale de France. Disponível em: https://www.europeana.eu/en/item/9200518/ark__12148_btv1b8577646g.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v3/400/8042f63d1d665dcdac6352c87c6674e7",
+    "thumbnail_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b8577646g",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "See Europeana page",
+    "thumbnail_license_source": "Europeana",
+    "thumbnail_custody": "www.europeana.eu",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358250Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-011",
@@ -4502,7 +5023,15 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "DELACROIX, Eugène. La Liberté guidant le peuple. 1830. 1 pintura, óleo sobre tela, 260 × 325 cm. Musée du Louvre, Paris. Disponível em: https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg."
+    "citation_abnt": "DELACROIX, Eugène. La Liberté guidant le peuple. 1830. 1 pintura, óleo sobre tela, 260 × 325 cm. Musée du Louvre, Paris. Disponível em: https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg.",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg",
+    "thumbnail_source": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg",
+    "thumbnail_custody": "upload.wikimedia.org",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-013",
@@ -4534,7 +5063,15 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "LE BARBIER L'AÎNÉ (des.); LAURENT, L. (grav.); DIEN (grav.). Déclaration des droits de l'homme et du citoyen. 1789. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b69480451."
+    "citation_abnt": "LE BARBIER L'AÎNÉ (des.); LAURENT, L. (grav.); DIEN (grav.). Déclaration des droits de l'homme et du citoyen. 1789. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b69480451.",
+    "thumbnail_url": "https://gallica.bnf.fr/ark:/12148/btv1b69480451/thumbnail",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b69480451.item",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b69480451.item",
+    "thumbnail_custody": "gallica.bnf.fr",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-014",
@@ -4565,7 +5102,15 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "DÉCLARATION des droits de l'homme et du citoyen (variante). 1789. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8410817c."
+    "citation_abnt": "DÉCLARATION des droits de l'homme et du citoyen (variante). 1789. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8410817c.",
+    "thumbnail_url": "https://gallica.bnf.fr/ark:/12148/btv1b8410817c/thumbnail",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b8410817c.item",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b8410817c.item",
+    "thumbnail_custody": "gallica.bnf.fr",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-015",
@@ -4597,7 +5142,15 @@
       "serialidade": 2,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "ALLÉGORIE pour le frontispice du compte-rendu au Roi par M. Necker. 1781. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8410270p."
+    "citation_abnt": "ALLÉGORIE pour le frontispice du compte-rendu au Roi par M. Necker. 1781. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8410270p.",
+    "thumbnail_url": "https://gallica.bnf.fr/ark:/12148/btv1b8410270p/thumbnail",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b8410270p.item",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b8410270p.item",
+    "thumbnail_custody": "gallica.bnf.fr",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-016",
@@ -4629,7 +5182,15 @@
       "serialidade": 2,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "ALLÉGORIE pour le frontispice du compte rendu au Roi par M. Necker (variante). 1781. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b6942595s."
+    "citation_abnt": "ALLÉGORIE pour le frontispice du compte rendu au Roi par M. Necker (variante). 1781. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b6942595s.",
+    "thumbnail_url": "https://gallica.bnf.fr/ark:/12148/btv1b6942595s/thumbnail",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b6942595s.item",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b6942595s.item",
+    "thumbnail_custody": "gallica.bnf.fr",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-017",
@@ -4660,7 +5221,15 @@
       "serialidade": 2,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "ALLÉGORIE pour servir de frontispice au compte-rendu au Roi par M. Necker. 1781. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8410268m."
+    "citation_abnt": "ALLÉGORIE pour servir de frontispice au compte-rendu au Roi par M. Necker. 1781. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8410268m.",
+    "thumbnail_url": "https://gallica.bnf.fr/ark:/12148/btv1b8410268m/thumbnail",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b8410268m",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b8410268m",
+    "thumbnail_custody": "gallica.bnf.fr",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-018",
@@ -4693,7 +5262,15 @@
       "serialidade": 1,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "GARNERAY (des.); QUÉVERDO (grav.). [Liberté, Égalité, Fraternité — portrait allégorique d'Ernouf]. c. 1793–1800. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8412560z."
+    "citation_abnt": "GARNERAY (des.); QUÉVERDO (grav.). [Liberté, Égalité, Fraternité — portrait allégorique d'Ernouf]. c. 1793–1800. 1 estampe. Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b8412560z.",
+    "thumbnail_url": "https://gallica.bnf.fr/ark:/12148/btv1b8412560z/thumbnail",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b8412560z",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b8412560z",
+    "thumbnail_custody": "gallica.bnf.fr",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-019",
@@ -4726,7 +5303,15 @@
       "serialidade": 2,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "STEINLEN, Théophile Alexandre. Journée du Poilu, 25 et 26 décembre 1915, organisée par le Parlement. 1915. 1 affiche (litografia). Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b9012753r."
+    "citation_abnt": "STEINLEN, Théophile Alexandre. Journée du Poilu, 25 et 26 décembre 1915, organisée par le Parlement. 1915. 1 affiche (litografia). Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b9012753r.",
+    "thumbnail_url": "https://gallica.bnf.fr/ark:/12148/btv1b9012753r/thumbnail",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b9012753r.item",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b9012753r.item",
+    "thumbnail_custody": "gallica.bnf.fr",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-020",
@@ -4758,7 +5343,15 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "GRACIANO. Decretum Gratiani (Concordia discordantium canonum). [Bolonha], séc. XIII. 1 manuscrito iluminado, pergaminho. Paris: Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b10544534k.item. Acesso em: 28 mar. 2026."
+    "citation_abnt": "GRACIANO. Decretum Gratiani (Concordia discordantium canonum). [Bolonha], séc. XIII. 1 manuscrito iluminado, pergaminho. Paris: Bibliothèque nationale de France. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b10544534k.item. Acesso em: 28 mar. 2026.",
+    "thumbnail_url": "https://gallica.bnf.fr/ark:/12148/btv1b10544534k/thumbnail",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/btv1b10544534k.item",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://gallica.bnf.fr/ark:/12148/btv1b10544534k.item",
+    "thumbnail_custody": "gallica.bnf.fr",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-021",
@@ -4789,7 +5382,15 @@
       "serialidade": 0,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "La Liberté guidant le peuple"
+    "citation_abnt": "La Liberté guidant le peuple",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.dropbox.com%2Fs%2F4d3dud656o8hiz4%2FFR_la%2520Libert%25C3%25A9%2520guidant%2520le%2520peuple.jpg%3Fraw%3D1&type=IMAGE",
+    "thumbnail_source": "https://www.europeana.eu/en/item/2063621/FRA_280_009",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.europeana.eu/en/item/2063621/FRA_280_009",
+    "thumbnail_custody": "api.europeana.eu",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-022",
@@ -4820,7 +5421,15 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "Notre-Dame des colonies"
+    "citation_abnt": "Notre-Dame des colonies",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b8577655f%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "thumbnail_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b8577655f",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b8577655f",
+    "thumbnail_custody": "api.europeana.eu",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-023",
@@ -4850,7 +5459,15 @@
       "serialidade": 2,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "Bons de la Défense nationale"
+    "citation_abnt": "Bons de la Défense nationale",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100505003%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "thumbnail_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100505003",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100505003",
+    "thumbnail_custody": "api.europeana.eu",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-025",
@@ -4880,7 +5497,15 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "Emprunt national 1920 (Société générale)"
+    "citation_abnt": "Emprunt national 1920 (Société générale)",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100512310%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "thumbnail_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100512310",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100512310",
+    "thumbnail_custody": "api.europeana.eu",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-026",
@@ -4910,7 +5535,15 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "Emprunt national 1920 (Banque Nationale de Paris et des Pays-Bas)"
+    "citation_abnt": "Emprunt national 1920 (Banque Nationale de Paris et des Pays-Bas)",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051241d%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "thumbnail_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051241d",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051241d",
+    "thumbnail_custody": "api.europeana.eu",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-027",
@@ -4940,7 +5573,15 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "Emprunt de la Libération (Rente française 1918)"
+    "citation_abnt": "Emprunt de la Libération (Rente française 1918)",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100512528%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "thumbnail_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100512528",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100512528",
+    "thumbnail_custody": "api.europeana.eu",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-028",
@@ -4971,7 +5612,15 @@
       "serialidade": 1,
       "inscricao_estatal": 1
     },
-    "citation_abnt": "Prêtez à la France pour qu'elle grandisse dans le rayonnement de la Paix!"
+    "citation_abnt": "Prêtez à la France pour qu'elle grandisse dans le rayonnement de la Paix!",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10051230j%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "thumbnail_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051230j",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051230j",
+    "thumbnail_custody": "api.europeana.eu",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-029",
@@ -5001,7 +5650,15 @@
       "serialidade": 3,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "Emprunt national 1920 (Société centrale des banques de province)"
+    "citation_abnt": "Emprunt national 1920 (Société centrale des banques de province)",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100504964%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "thumbnail_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100504964",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100504964",
+    "thumbnail_custody": "api.europeana.eu",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-030",
@@ -5032,7 +5689,15 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "En avant! Armée de l'Épargne, c'est pour la Patrie"
+    "citation_abnt": "En avant! Armée de l'Épargne, c'est pour la Patrie",
+    "thumbnail_url": "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b100506817%2Ff1%2Ffull%2F512%2C%2F0%2Fnative.jpg&type=IMAGE",
+    "thumbnail_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100506817",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b100506817",
+    "thumbnail_custody": "api.europeana.eu",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-031",
@@ -5066,7 +5731,18 @@
     "citation_abnt": "Madame Anastasie (avec les ciseaux de la censure)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://gallica.bnf.fr/ark:/12148/bpt6k1068692m/f1.highres",
+    "thumbnail_source": "https://gallica.bnf.fr/ark:/12148/bpt6k1068692m",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Public domain [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k1068692m)",
+    "thumbnail_license_source": "Bibliothèque nationale de France [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k1068692m)",
+    "thumbnail_custody": "Bibliothèque nationale de France [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k1068692m)",
+    "thumbnail_creator": "André Gill (1840-1885) [Gallica](https://gallica.bnf.fr/ark:/12148/bpt6k1068692m)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358255Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "FR-032",
@@ -5100,7 +5776,16 @@
     "citation_abnt": "La Paix — Idylle",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://images.metmuseum.org/CRDImages/dp/original/DP877935.jpg",
+    "thumbnail_source": "https://www.metmuseum.org/art/collection/search/757244",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "Public domain — CC0",
+    "thumbnail_license_source": "Met Museum API",
+    "thumbnail_custody": "www.metmuseum.org",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358258Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-033",
@@ -5134,7 +5819,16 @@
     "citation_abnt": "L'Empire c'est la paix",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://images.metmuseum.org/CRDImages/dp/original/DP877808.jpg",
+    "thumbnail_source": "https://www.metmuseum.org/art/collection/search/757135",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "Public domain — CC0",
+    "thumbnail_license_source": "Met Museum API",
+    "thumbnail_custody": "www.metmuseum.org",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358261Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "FR-036",
@@ -6879,7 +7573,18 @@
     "citation_abnt": "5 Francs (Cérès, 2e République)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/france/10467-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces1181.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© alb22 (Not specified on page)",
+    "thumbnail_license_source": "Numista catalog #1181",
+    "thumbnail_custody": "Numista catalog #1181",
+    "thumbnail_creator": "Eugène-André Oudiné (Engraver)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358264Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "FR-HERC-1870",
@@ -6916,7 +7621,18 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/france/10974-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces1187.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Not specified on page",
+    "thumbnail_license_source": "Numista catalog #1187",
+    "thumbnail_custody": "Numista catalog #1187",
+    "thumbnail_creator": "Augustin Dupré (Engraver)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358274Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "FR-PIAST-1885",
@@ -6953,7 +7669,18 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/indochine/141-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces4510.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© Heritage Auctions",
+    "thumbnail_license_source": "Numista catalog #4510, Heritage Auctions (image contributor)",
+    "thumbnail_custody": "Numista catalog #4510, Heritage Auctions (image contributor)",
+    "thumbnail_creator": "Jean-Auguste Barre",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358271Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "FR-SEM-1898",
@@ -6988,12 +7715,23 @@
     "citation_abnt": "Semeuse 1 Franc silver coin (Oscar Roty)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/france/5f9b4a9730ac41.17367146-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces682.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© nordboutik59",
+    "thumbnail_license_source": "Numista catalog #682, user contribution by nordboutik59",
+    "thumbnail_custody": "Numista catalog #682, user contribution by nordboutik59",
+    "thumbnail_creator": "Louis-Oscar Roty",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358269Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "FR-SEM-SELO-1903",
     "country": "France",
-    "url": "https://en.wikipedia.org/wiki/Sowing_(Oscar_Roty)",
+    "url": "https://commons.wikimedia.org/wiki/File:Semeuse_lignee_de_1903.JPG",
     "title": "Semeuse — Selo Definitivo da República Francesa (Oscar Roty / Mouchon)",
     "description": "Marianne in flowing robes and Phrygian cap sowing seeds with extended right arm, seed bag under left arm. Rising sun on horizon (1903 version). Design from Roty medal (1887), adapted for coin (1897) then stamp (1903). Quintessential NORMATIVE Marianne: peaceful, productive, nurturing.",
     "motif": [
@@ -7020,11 +7758,22 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "LA POSTE. La Semeuse. 1903-1960. Selo postal, série definitiva. Design: Oscar Roty / Louis-Eugène Mouchon. Disponível em: https://en.wikipedia.org/wiki/Sowing_(Oscar_Roty). Acesso em: 01 abr. 2026.",
+    "citation_abnt": "LA POSTE. La Semeuse. 1903-1960. Selo postal, série definitiva. Design: Oscar Roty / Louis-Eugène Mouchon. Disponível em: https://commons.wikimedia.org/wiki/File:Semeuse_lignee_de_1903.JPG. Acesso em: 01 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "source_archive": "Wikimedia Commons",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Semeuse_lignee_de_1903.JPG",
+    "thumbnail_source": "https://commons.wikimedia.org/wiki/File:Semeuse_lignee_de_1903.JPG",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r2_manual_review",
+    "thumbnail_license": "Public domain",
+    "thumbnail_license_source": "Wikimedia Commons File:Semeuse lignee de 1903.JPG",
+    "thumbnail_custody": "Wikimedia Commons",
+    "thumbnail_creator": "Louis-Oscar Roty / Louis-Eugene Mouchon",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358277Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "IT-005",
@@ -7057,7 +7806,16 @@
     "citation_abnt": "Sottoscrivete al Prestito — Italia Turrita",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3g10000/3g12000/3g12000/3g12067v.jpg",
+    "thumbnail_source": "https://www.loc.gov/item/2004666216/",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "No known restrictions on publication.",
+    "thumbnail_license_source": "Library of Congress rights_advisory",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358280Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "IT-006",
@@ -7090,7 +7848,18 @@
     "citation_abnt": "100 Lire \"Minerva\" — Testa d'Italia laureata",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/italie/5f8b3d7716d705.15931157-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces304.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© Joseph Kunnappally",
+    "thumbnail_license_source": "Numista catalog #304",
+    "thumbnail_custody": "Numista catalog #304",
+    "thumbnail_creator": "[Pietro Giampaoli](https://en.numista.com/catalogue/artist.php?id=2312) (Engraver), [Giuseppe Romagnoli](https://en.numista.com/catalogue/artist.php?id=371) (Designer)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358282Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "IT-007",
@@ -7123,7 +7892,18 @@
     "citation_abnt": "500 Lire \"Caravelle\" — Italia Turrita",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/italie/5f7ca30c151889.06643894-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces2716.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© whitegandalf; Not specified for the object itself on page",
+    "thumbnail_license_source": "Numista catalog #2716",
+    "thumbnail_custody": "Numista catalog #2716",
+    "thumbnail_creator": "Pietro Giampaoli (Reverse), Guido Veroi (Obverse)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358285Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "IT-008",
@@ -7157,7 +7937,17 @@
     "citation_abnt": "Selo \"Siracusana\" — Italia Turrita",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://assets.lastdodo.com/image/ld_large/plain/assets/catalog/assets/1/0/a/7/pdf_0a70e000-df6a-012b-da33-001ff3cf7282.jpg",
+    "thumbnail_source": "https://www.lastdodo.com/en/areas/6628487-1953-siracusana",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Not specified on page",
+    "thumbnail_license_source": "LastDodo catalog #305277",
+    "thumbnail_custody": "LastDodo catalog #305277",
+    "thumbnail_creator": "[Grassi, Vittorio [1878-1958]](https://www.lastdodo.com/en/areas/1643347-grassi-vittorio-1878-1958), IPS [Rome, Italië] (1929-1978)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358288Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "MX-001",
@@ -7227,7 +8017,16 @@
     "citation_abnt": "Alegoría de la República Mexicana con Símbolos Masónicos",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://repositorio.inah.gob.mx/_flysystem/fedora/2024-05/pintura_3081.jpg",
+    "thumbnail_source": "https://mediateca.inah.gob.mx/islandora_74/islandora/object/pintura:3081",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "See source page",
+    "thumbnail_license_source": "repositorio.inah.gob.mx",
+    "thumbnail_custody": "mediateca.inah.gob.mx",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358291Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "NL-001",
@@ -7542,7 +8341,15 @@
     "citation_abnt": "UNIÃO DEMOCRÁTICA POPULAR. Justiça popular: o Pide que assassinou Dias Coelho vai ser julgado nas costas do povo! [1975?]. 1 cartaz. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular.",
     "audit_flags": [
       "fora-do-escopo"
-    ]
+    ],
+    "thumbnail_url": "https://bndigital.bnportugal.gov.pt/i/?IIIF=/c7/6e/8e/87/c76e8e87-15a8-464f-bc44-1c87dfdd8953/iiif/ct-117-g-cx_0000_000001.tif/full/!256,256/0/default.jpg",
+    "thumbnail_source": "https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://bndigital.bnportugal.gov.pt/records/item/17148-justica-popular",
+    "thumbnail_custody": "bndigital.bnportugal.gov.pt",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "PT-002",
@@ -7576,7 +8383,15 @@
     "citation_abnt": "[ALEGORIA à História]. c. 1600. 1 gravura, água-forte, p&b. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/records/item/39213-alegoria-a-historia.",
     "audit_flags": [
       "fora-do-escopo"
-    ]
+    ],
+    "thumbnail_url": "https://bndigital.bnportugal.gov.pt/i/?IIIF=/b3/e4/a7/5d/b3e4a75d-d38e-45ca-9c5b-2614e7f5b2bd/iiif/e-900-v_0000_000001.tif/full/!256,256/0/default.jpg",
+    "thumbnail_source": "https://bndigital.bnportugal.gov.pt/records/item/39213-alegoria-a-historia",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://bndigital.bnportugal.gov.pt/records/item/39213-alegoria-a-historia",
+    "thumbnail_custody": "bndigital.bnportugal.gov.pt",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "PT-003",
@@ -7609,7 +8424,15 @@
     "citation_abnt": "QUILLARD, Pierre Antoine. Alegoria à Morte. 1730. 1 gravura. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/records/item/37491-alegoria-a-morte.",
     "audit_flags": [
       "fora-do-escopo"
-    ]
+    ],
+    "thumbnail_url": "https://bndigital.bnportugal.gov.pt/i/?IIIF=/ae/8d/15/76/ae8d1576-002e-4678-af6f-cde5bdb3a602/iiif/e-4395-p_0000_1-2_p24-C-R0150_000001.tif/full/!256,256/0/default.jpg",
+    "thumbnail_source": "https://bndigital.bnportugal.gov.pt/records/item/37491-alegoria-a-morte",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://bndigital.bnportugal.gov.pt/records/item/37491-alegoria-a-morte",
+    "thumbnail_custody": "bndigital.bnportugal.gov.pt",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "PT-004",
@@ -7642,7 +8465,15 @@
     "citation_abnt": "QUILLARD, Pierre Antoine. Alegoria ao Tempo. 1730. 1 gravura. Biblioteca Nacional de Portugal. Disponível em: https://bndigital.bnportugal.gov.pt/records/item/37507-alegoria-ao-tempo.",
     "audit_flags": [
       "fora-do-escopo"
-    ]
+    ],
+    "thumbnail_url": "https://bndigital.bnportugal.gov.pt/i/?IIIF=/96/87/56/c0/968756c0-6765-4371-bac9-b5efe8fa114e/iiif/e-4390-p_0000_1-2_p24-C-R0150_000001.tif/full/!256,256/0/default.jpg",
+    "thumbnail_source": "https://bndigital.bnportugal.gov.pt/records/item/37507-alegoria-ao-tempo",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://bndigital.bnportugal.gov.pt/records/item/37507-alegoria-ao-tempo",
+    "thumbnail_custody": "bndigital.bnportugal.gov.pt",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "PT-005",
@@ -7711,7 +8542,18 @@
     "citation_abnt": "1 Escudo \"Alvorada\" — Primeira República Portuguesa",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/portugal/62ca16b378eeb7.91085143-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces907.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© nordboutik59",
+    "thumbnail_license_source": "Numista catalog #907",
+    "thumbnail_custody": "Numista catalog #907",
+    "thumbnail_creator": "José Simões de Almeida, Domingos Alves do Rego",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358296Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "PT-007",
@@ -7745,7 +8587,16 @@
     "citation_abnt": "Série Ceres — Selo definitivo da República Portuguesa",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/1912_Bistre_Portugal_Yv213.jpg",
+    "thumbnail_source": "https://en.wikipedia.org/wiki/Ceres_series_(Portugal)",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "See Wikimedia Commons file page for per-image license",
+    "thumbnail_license_source": "Wikipedia en article",
+    "thumbnail_custody": "en.wikipedia.org",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358299Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "SCOUT-337",
@@ -8543,7 +9394,15 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "POMEROY, Frederick William. Lady Justice. 1907. 1 escultura em bronze dourado. Central Criminal Court (Old Bailey), London. Disponível em: http://www.speel.me.uk/sculptlondon/oldbaileyjustice.htm."
+    "citation_abnt": "POMEROY, Frederick William. Lady Justice. 1907. 1 escultura em bronze dourado. Central Criminal Court (Old Bailey), London. Disponível em: http://www.speel.me.uk/sculptlondon/oldbaileyjustice.htm.",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Old_Bailey_Lady_Justice.jpg",
+    "thumbnail_source": "http://www.speel.me.uk/sculptlondon/oldbaileyjustice.htm",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "http://www.speel.me.uk/sculptlondon/oldbaileyjustice.htm",
+    "thumbnail_custody": "upload.wikimedia.org",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "UK-005",
@@ -8614,7 +9473,16 @@
     "citation_abnt": "KEALEY, Ernest James. Women of Britain say 'Go!'. 1915. 1 litografia colorida (cartaz). Imperial War Museum, London. Disponível em: https://www.iwm.org.uk/collections/item/object/14592.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://media.iwm.org.uk/ciim5/145/831/large_000000.jpg",
+    "thumbnail_source": "https://www.iwm.org.uk/collections/item/object/14592",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "See source page",
+    "thumbnail_license_source": "www.iwm.org.uk",
+    "thumbnail_custody": "www.iwm.org.uk",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358303Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "UK-009",
@@ -8648,7 +9516,16 @@
     "citation_abnt": "Take Up the Sword of Justice",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://media.iwm.org.uk/ciim5/149/129/large_000000.jpg",
+    "thumbnail_source": "https://www.iwm.org.uk/collections/item/object/21133",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "See source page",
+    "thumbnail_license_source": "www.iwm.org.uk",
+    "thumbnail_custody": "www.iwm.org.uk",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358305Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "UK-010",
@@ -8682,7 +9559,17 @@
     "citation_abnt": "Two Forces — Britannia protecting Hibernia",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://www.gutenberg.org/files/59801/59801-h/images/i_021large.jpg",
+    "thumbnail_source": "https://www.gutenberg.org/files/59801/59801-h/59801-h.htm",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Public Domain (confirmed by [Project Gutenberg](https://www.gutenberg.org/files/59801/59801-h/59801-h.htm) license statement)",
+    "thumbnail_license_source": "[Project Gutenberg](https://www.gutenberg.org/files/59801/59801-h/59801-h.htm)",
+    "thumbnail_custody": "[Project Gutenberg](https://www.gutenberg.org/files/59801/59801-h/59801-h.htm)",
+    "thumbnail_creator": "[Sir John Tenniel](https://www.gutenberg.org/files/59801/59801-h/59801-h.htm)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358308Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "UK-011",
@@ -8961,7 +9848,16 @@
     "citation_abnt": "1 Florin — Britannia Standing on Ship Prow (Edward VII)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://collections.museumsvictoria.com.au/content/media/18/177318-medium.jpg",
+    "thumbnail_source": "https://collections.museumsvictoria.com.au/items/77020",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "See source page",
+    "thumbnail_license_source": "collections.museumsvictoria.com.au",
+    "thumbnail_custody": "collections.museumsvictoria.com.au",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358311Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "UK-HALFPENNY-1695",
@@ -9031,7 +9927,18 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/royaume-uni/5fa68ec5c8a650.13680512-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces3377.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_manual_review",
+    "thumbnail_license": "© narracan coins",
+    "thumbnail_license_source": "Numista catalog #3377, narracan coins contribution",
+    "thumbnail_custody": "Numista catalog #3377, narracan coins contribution",
+    "thumbnail_creator": "Leonard Charles Wyon (Engraver)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358319Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "UK-PENNY-1895",
@@ -9093,7 +10000,16 @@
     "citation_abnt": "1 Penny — Britannia Seated, Helmeted (George V, 1912)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://collections.museumsvictoria.com.au/content/media/46/413396-medium.jpg",
+    "thumbnail_source": "https://collections.museumsvictoria.com.au/items/57610",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "See source page",
+    "thumbnail_license_source": "collections.museumsvictoria.com.au",
+    "thumbnail_custody": "collections.museumsvictoria.com.au",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358314Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "UK-TRADE-1895",
@@ -9130,7 +10046,18 @@
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/royaume-uni/2817-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces8472.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© Heritage Auctions",
+    "thumbnail_license_source": "Numista catalog #8472",
+    "thumbnail_custody": "Numista catalog #8472",
+    "thumbnail_creator": "George William de Saulles",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358316Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "US-001",
@@ -9162,7 +10089,15 @@
       "serialidade": 1,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "AMERICA pois'd in the balance of justice. 1776. 1 gravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2004673327/."
+    "citation_abnt": "AMERICA pois'd in the balance of justice. 1776. 1 gravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2004673327/.",
+    "thumbnail_url": "https://www.loc.gov/resource/cph.3a45724/",
+    "thumbnail_source": "https://www.loc.gov/item/2004673327/",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.loc.gov/item/2004673327/",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-002",
@@ -9193,7 +10128,15 @@
       "serialidade": 2,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "CRAWFORD, Thomas. Justice and History (modelo para o Capitólio dos EUA). c. 1860. 1 fotografia (salt print). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2009631377/."
+    "citation_abnt": "CRAWFORD, Thomas. Justice and History (modelo para o Capitólio dos EUA). c. 1860. 1 fotografia (salt print). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2009631377/.",
+    "thumbnail_url": "https://www.loc.gov/resource/ppmsca.87910/",
+    "thumbnail_source": "https://www.loc.gov/item/2009631377/",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.loc.gov/item/2009631377/",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-003",
@@ -9224,7 +10167,15 @@
       "serialidade": 3,
       "inscricao_estatal": 3
     },
-    "citation_abnt": "JUSTICE (mulher vendada com espada e balança). [s.d.]. 1 gravura em aço. US Bureau of Printing & Engraving. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2007675578/."
+    "citation_abnt": "JUSTICE (mulher vendada com espada e balança). [s.d.]. 1 gravura em aço. US Bureau of Printing & Engraving. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2007675578/.",
+    "thumbnail_url": "https://www.loc.gov/resource/cph.3b09379/",
+    "thumbnail_source": "https://www.loc.gov/item/2007675578/",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.loc.gov/item/2007675578/",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-004",
@@ -9257,7 +10208,15 @@
       "serialidade": 3,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "ROMBERG, Maurice. Foire France-Américaine: Justice, Liberty, Demeter, Athena. 1917. 1 litogravura colorida. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/99613542/."
+    "citation_abnt": "ROMBERG, Maurice. Foire France-Américaine: Justice, Liberty, Demeter, Athena. 1917. 1 litogravura colorida. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/99613542/.",
+    "thumbnail_url": "https://www.loc.gov/resource/cph.3f04023/",
+    "thumbnail_source": "https://www.loc.gov/item/99613542/",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.loc.gov/item/99613542/",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-005",
@@ -9356,7 +10315,15 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "COLUMBIA presenting sword to Admiral Dewey. 1899. 1 cromolitogravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2018697020/."
+    "citation_abnt": "COLUMBIA presenting sword to Admiral Dewey. 1899. 1 cromolitogravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2018697020/.",
+    "thumbnail_url": "https://www.loc.gov/resource/ppmsca.46404/",
+    "thumbnail_source": "https://www.loc.gov/item/2018697020/",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.loc.gov/item/2018697020/",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-008",
@@ -9391,7 +10358,16 @@
     "citation_abnt": "HEDWIG Reicher as Columbia in suffrage pageant. 1913. 1 fotografia. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/97510759/.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsc/00000/00032v.jpg",
+    "thumbnail_source": "https://www.loc.gov/item/97510759/",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "No known restrictions on publication.",
+    "thumbnail_license_source": "Library of Congress rights_advisory",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358323Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-009",
@@ -9424,7 +10400,16 @@
     "citation_abnt": "THE GODDESS of Liberty (mulher com capa estrelada). 1861. 1 fotografia (carte de visite). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2018664118/.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/57600/57686v.jpg",
+    "thumbnail_source": "https://www.loc.gov/item/2018664118/",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "No known restrictions on publication.",
+    "thumbnail_license_source": "Library of Congress rights_advisory",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358328Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-010",
@@ -9459,7 +10444,16 @@
     "citation_abnt": "BELL, Jared W. Temple of liberty. 1834. 1 xilogravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2008661765/.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/17500/17520v.jpg",
+    "thumbnail_source": "https://www.loc.gov/item/2008661765/",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "No known restrictions on publication.",
+    "thumbnail_license_source": "Library of Congress rights_advisory",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358331Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-011",
@@ -9495,7 +10489,16 @@
     "citation_abnt": "FLAGG, James Montgomery. Wake up America! Civilization calls every man, woman and child! 1917. 1 litografia colorida (cartaz). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/91726511/.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/40900/40985v.jpg",
+    "thumbnail_source": "https://www.loc.gov/item/91726511/",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "No known restrictions on publication.",
+    "thumbnail_license_source": "Library of Congress rights_advisory",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358333Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-012",
@@ -9530,7 +10533,16 @@
     "citation_abnt": "HALSTED, Frances Adams (des.); ADERENTE, Vincente (paint.). Columbia calls—Enlist now for U.S. Army. 1917. 1 litografia colorida (cartaz). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/95506508/.",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/50000/50012v.jpg",
+    "thumbnail_source": "https://www.loc.gov/item/95506508/",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "No known restrictions on publication.",
+    "thumbnail_license_source": "Library of Congress rights_advisory",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358342Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-017",
@@ -9564,7 +10576,16 @@
     "citation_abnt": "Columbia Calls — Enlist Now for U.S. Army",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/50000/50012v.jpg",
+    "thumbnail_source": "https://www.loc.gov/item/95506508",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "No known restrictions on publication.",
+    "thumbnail_license_source": "Library of Congress rights_advisory",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358347Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-018",
@@ -9597,7 +10618,16 @@
     "citation_abnt": "Fight or Buy Bonds — Third Liberty Loan",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3g00000/3g09000/3g09700/3g09735v.jpg",
+    "thumbnail_source": "https://www.loc.gov/item/2002708939/",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "No known restrictions on publication.",
+    "thumbnail_license_source": "Library of Congress rights_advisory",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358350Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-019",
@@ -9631,7 +10661,16 @@
     "citation_abnt": "Liberty Is Not Anarchy",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3c30000/3c35000/3c35000/3c35065v.jpg",
+    "thumbnail_source": "https://www.loc.gov/item/2004679037/",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r1_api",
+    "thumbnail_license": "No known restrictions on publication.",
+    "thumbnail_license_source": "Library of Congress rights_advisory",
+    "thumbnail_custody": "www.loc.gov",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358353Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-020",
@@ -9665,7 +10704,17 @@
     "citation_abnt": "Looking Backward",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://hti.osu.edu/sites/default/files/Immigration_5.jpg",
+    "thumbnail_source": "https://hti.osu.edu/opper/lesson-plans/immigration/images/looking-backward",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Not specified on page",
+    "thumbnail_license_source": "[The Billy Ireland Cartoon Library & Museum at Ohio State University](http://cartoons.osu.edu/)",
+    "thumbnail_custody": "[The Billy Ireland Cartoon Library & Museum at Ohio State University](http://cartoons.osu.edu/)",
+    "thumbnail_creator": "Joseph Keppler",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358356Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-021",
@@ -9853,7 +10902,15 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "HAIL! Glorious banner of our land. 1861. 1 litografia colorida. Library of Congress. Disponível em: https://www.loc.gov/item/91721286/. Acesso em: 11 abr. 2026."
+    "citation_abnt": "HAIL! Glorious banner of our land. 1861. 1 litografia colorida. Library of Congress. Disponível em: https://www.loc.gov/item/91721286/. Acesso em: 11 abr. 2026.",
+    "thumbnail_url": "https://tile.loc.gov/storage-services/service/pnp/cph/3g00000/3g01000/3g01700/3g01739_150px.jpg",
+    "thumbnail_source": "https://www.loc.gov/item/91721286/",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.loc.gov/item/91721286/",
+    "thumbnail_custody": "tile.loc.gov",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-EDUC-1896-01",
@@ -9884,7 +10941,18 @@
     "citation_abnt": "1 Dollar Silver Certificate 'Educational Series' — History Instructing Youth",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/etats-unis/6803d8e390f7b7.33375553-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/note207329.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© hareluca",
+    "thumbnail_license_source": "[Numista catalog #207329](https://en.numista.com/catalogue/note207329.html)",
+    "thumbnail_custody": "[Numista catalog #207329](https://en.numista.com/catalogue/note207329.html)",
+    "thumbnail_creator": "Engraver: [Charles Schlecht](https://en.numista.com/catalogue/artist.php?id=1739); Designer: [Will Hicok Low](https://en.numista.com/catalogue/artist.php?id=1946); Issuing Authority: United States",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358359Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "US-EDUC-1896-02",
@@ -9920,7 +10988,17 @@
     "citation_abnt": "Science Presenting Steam and Electricity to Commerce and Manufacture ($2 Silver Certificate)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2021q127671",
+    "thumbnail_source": "https://americanhistory.si.edu/collections/object/nmah_1817050",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "Usage conditions apply. There are restrictions for re-using this media. See Smithsonian [Terms of Use](https://www.si.edu/Termsofuse).",
+    "thumbnail_license_source": "[National Museum of American History](https://americanhistory.si.edu/), National Numismatic Collection",
+    "thumbnail_custody": "[National Museum of American History](https://americanhistory.si.edu/), National Numismatic Collection",
+    "thumbnail_creator": "[Bureau of Engraving and Printing](https://americanhistory.si.edu/collections/search?edan_fq[]=name:%22Bureau%20of%20Engraving%20and%20Printing%22) (Maker)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358369Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-EDUC-1896-05",
@@ -9955,7 +11033,17 @@
     "citation_abnt": "Electricity Presenting Light to the World ($5 Silver Certificate)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://ids.si.edu/ids/deliveryService?id=NMAH-AHB2021q127703",
+    "thumbnail_source": "https://americanhistory.si.edu/collections/object/nmah_1816788",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "CC0 / Public Domain (Usage Conditions Apply)",
+    "thumbnail_license_source": "National Museum of American History, Smithsonian Institution (NU.78.5.763)",
+    "thumbnail_custody": "National Museum of American History, Smithsonian Institution (NU.78.5.763)",
+    "thumbnail_creator": "Bureau of Engraving and Printing (Maker)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358372Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-NAST-1864",
@@ -9989,7 +11077,15 @@
       "serialidade": 0,
       "inscricao_estatal": 0
     },
-    "citation_abnt": "NAST, Thomas. The blessings of victory. 1864. 1 fotografia de gravura em madeira (carte de visite). Library of Congress. Disponível em: https://www.loc.gov/item/2022631575/. Acesso em: 11 abr. 2026."
+    "citation_abnt": "NAST, Thomas. The blessings of victory. 1864. 1 fotografia de gravura em madeira (carte de visite). Library of Congress. Disponível em: https://www.loc.gov/item/2022631575/. Acesso em: 11 abr. 2026.",
+    "thumbnail_url": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/83400/83433_150px.jpg",
+    "thumbnail_source": "https://www.loc.gov/item/2022631575/",
+    "thumbnail_fetch_status": "existing_pre_v01",
+    "thumbnail_recovery_round": "pre_v01",
+    "thumbnail_license": "See source page (pre-v0.1 thumbnail)",
+    "thumbnail_license_source": "https://www.loc.gov/item/2022631575/",
+    "thumbnail_custody": "tile.loc.gov",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "US-SEATED-1840",
@@ -10020,12 +11116,23 @@
     "citation_abnt": "1 Dollar 'Seated Liberty' (without motto)",
     "audit_flags": [
       "sem-thumbnail"
-    ]
+    ],
+    "thumbnail_url": "https://en.numista.com/catalogue/photos/etats-unis/1602-original.jpg",
+    "thumbnail_source": "https://en.numista.com/catalogue/pieces11472.html",
+    "thumbnail_fetch_status": "hotlink_protected",
+    "thumbnail_recovery_round": "r2_browser",
+    "thumbnail_license": "© Heritage Auctions",
+    "thumbnail_license_source": "Numista catalog #11472",
+    "thumbnail_custody": "Numista catalog #11472",
+    "thumbnail_creator": "Christian Gobrecht (Engraver)",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358375Z",
+    "thumbnail_registry_version": "v0.2",
+    "thumbnail_display_hint": "requires Referer header from source domain; proxy recommended for browser embedding"
   },
   {
     "id": "US-SLQ-1916",
     "country": "United States",
-    "url": "https://en.numista.com/catalogue/pieces15965.html",
+    "url": "https://commons.wikimedia.org/wiki/File:1916_Standing_Liberty_quarter_obverse.jpg",
     "title": "Standing Liberty Quarter — Liberty with Shield and Olive Branch",
     "description": "Liberty standing, holding shield in left hand and olive branch in right, advancing through open gate. Type I (1916-1917): bare breast exposed. Type II (1917-1930): chain mail covers breast after public controversy. Documentes endurecimento in real time.",
     "motif": [
@@ -10052,11 +11159,22 @@
       "serialidade": 2,
       "inscricao_estatal": 2
     },
-    "citation_abnt": "US MINT. Standing Liberty Quarter. 1916-1930. Moeda, prata .900, 24,3 mm. Design: Hermon Atkins MacNeil. Disponível em: https://en.numista.com/catalogue/pieces15965.html. Acesso em: 01 abr. 2026.",
+    "citation_abnt": "US MINT. Standing Liberty Quarter. 1916-1930. Moeda, prata .900, 24,3 mm. Design: Hermon Atkins MacNeil. Disponível em: https://commons.wikimedia.org/wiki/File:1916_Standing_Liberty_quarter_obverse.jpg. Acesso em: 01 abr. 2026.",
     "audit_flags": [
       "sem-thumbnail",
       "pre_canon_rescale_2026-04-19"
-    ]
+    ],
+    "source_archive": "Wikimedia Commons",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/1916_Standing_Liberty_quarter_obverse.jpg",
+    "thumbnail_source": "https://commons.wikimedia.org/wiki/File:1916_Standing_Liberty_quarter_obverse.jpg",
+    "thumbnail_fetch_status": "verified_direct",
+    "thumbnail_recovery_round": "r2_manual_review",
+    "thumbnail_license": "Public domain",
+    "thumbnail_license_source": "Wikimedia Commons File:1916 Standing Liberty quarter obverse.jpg",
+    "thumbnail_custody": "Wikimedia Commons",
+    "thumbnail_creator": "Hermon Atkins MacNeil (coin designer); photographer not identified",
+    "thumbnail_recovered_at": "2026-07-04T14:33:58.358378Z",
+    "thumbnail_registry_version": "v0.2"
   },
   {
     "id": "UY-001",
