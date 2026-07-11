@@ -10,12 +10,9 @@ decision: docs/decisions/ICONOMETRIA-TRANSITION-2026-07-11.md
 
 # Iconometria
 
-**Iconometria** é o framework metodológico guarda-chuva da tese ICONOCRACIA: a
-**medição e análise de padrões iconográficos** num corpus de alegorias femininas
-da cultura jurídica (séc. XIX–XX). É uma abordagem quantitativa da imagem —
-contagem e análise sistemática de elementos iconográficos para identificar
-tendências, agrupamentos e significância estatística —, articulada à leitura
-qualitativa (Panofsky, Warburg) e à genealogia jurídica.
+A iconometria é o framework metodológico guarda-chuva da tese ICONOCRACIA: a medição e análise de padrões iconográficos num corpus de alegorias femininas da cultura jurídica (séc. XIX–XX) — uma abordagem quantitativa da imagem, articulada à leitura qualitativa (Panofsky, Warburg) e à genealogia jurídica.
+
+Concretamente, envolve a **contagem e análise sistemática de elementos iconográficos** para identificar tendências, agrupamentos e significância estatística, sob um mesmo aparato de medição.
 
 ## Relação com endurecimento
 
