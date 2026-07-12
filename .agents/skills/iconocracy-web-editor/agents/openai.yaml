@@ -1,0 +1,13 @@
+interface:
+  display_name: Iconocracy Web Editor
+  short_description: Edit and publish rigorous bilingual web content
+  brand_color: '#542F4C'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+    - chatgpt
+    - codex
+    - api
+    - atlas
+  allow_implicit_invocation: true

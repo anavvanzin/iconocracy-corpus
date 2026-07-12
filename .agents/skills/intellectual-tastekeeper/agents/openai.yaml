@@ -1,0 +1,13 @@
+interface:
+  display_name: Intellectual Tastekeeper
+  short_description: Severe editorial and conceptual quality control
+  brand_color: '#2D252A'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+    - chatgpt
+    - codex
+    - api
+    - atlas
+  allow_implicit_invocation: true

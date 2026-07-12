@@ -1,0 +1,13 @@
+interface:
+  display_name: Thesis Chapter Architect
+  short_description: Build and stress-test doctoral chapters
+  brand_color: '#3F4A46'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+    - chatgpt
+    - codex
+    - api
+    - atlas
+  allow_implicit_invocation: true
