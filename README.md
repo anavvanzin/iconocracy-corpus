@@ -94,7 +94,7 @@ The thesis measures how allegorical female figures are progressively **hardened*
 | 2 | rigidez_postural | postural rigidity |
 | 3 | dessexualização | de-sexualization |
 | 4 | uniformização_facial | facial uniformization |
-| 5 | heraldicização | heraldic abstraction |
+| 5 | heraldização | heraldic abstraction |
 | 6 | enquadramento_arquitetônico | architectural framing |
 | 7 | apagamento_narrativo | narrative erasure |
 | 8 | monocromatização | monochromatization |
@@ -129,8 +129,8 @@ A separate **ARGOS** workflow orchestrates acquisition (manifest → dispatch gr
 conda env create -f environment.yml
 conda activate iconocracy
 
-# 2. Browse the corpus — no build needed
-open corpus/DASHBOARD_CORPUS.html      # or just open in a browser
+# 2. Browse the corpus — no build needed; open the file in any browser
+#    corpus/DASHBOARD_CORPUS.html   (or corpus/index.html)
 
 # 3. Validate the data
 python tools/scripts/validate_schemas.py
