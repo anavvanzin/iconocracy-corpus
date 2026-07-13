@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" font-family="Inter, system-ui, sans-serif">
+  <text x="450" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a365d">Figura 3 — Mapeamento persona → periódico → eixo jurídico</text>
+  <text x="450" y="52" text-anchor="middle" font-size="11" fill="#718096">Conselho de Contestação Algorítmica — estrutura 3:1+1</text>
+  <!-- Header -->
+  <rect x="40" y="75" width="820" height="30" rx="4" fill="#1a365d"/>
+  <text x="130" y="95" text-anchor="middle" font-size="11" fill="white" font-weight="bold">PERSONA</text>
+  <text x="340" y="95" text-anchor="middle" font-size="11" fill="white" font-weight="bold">ARTIGO</text>
+  <text x="570" y="95" text-anchor="middle" font-size="11" fill="white" font-weight="bold">PERIÓDICO</text>
+  <text x="790" y="95" text-anchor="middle" font-size="11" fill="white" font-weight="bold">EIXO JURÍDICO</text>
+  <!-- Row 1 -->
+  <rect x="40" y="115" width="820" height="60" rx="4" fill="#f0f7ff"/>
+  <rect x="50" y="125" width="160" height="40" rx="6" fill="#2c5282"/>
+  <text x="130" y="150" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Defensoria Pública</text>
+  <text x="340" y="140" text-anchor="middle" font-size="10" fill="#2d3748">Tavares, Bitencourt &amp;</text>
+  <text x="340" y="155" text-anchor="middle" font-size="10" fill="#2d3748">Cristóvam (2024)</text>
+  <text x="570" y="140" text-anchor="middle" font-size="10" fill="#2d3748">Diké – Revista</text>
+  <text x="570" y="155" text-anchor="middle" font-size="10" fill="#2d3748">Jurídica, v.23 n.27</text>
+  <text x="790" y="140" text-anchor="middle" font-size="10" fill="#2d3748">Contraditório algorítmico</text>
+  <text x="790" y="155" text-anchor="middle" font-size="10" fill="#2d3748">prévio (art. 5º, LV, CF)</text>
+  <!-- Row 2 -->
+  <rect x="40" y="185" width="820" height="60" rx="4" fill="#f0fff4"/>
+  <rect x="50" y="195" width="160" height="40" rx="6" fill="#2c7a7b"/>
+  <text x="130" y="220" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Cientista de Dados</text>
+  <text x="340" y="210" text-anchor="middle" font-size="10" fill="#2d3748">Transversal</text>
+  <text x="340" y="225" text-anchor="middle" font-size="9" fill="#718096">(atravessa todos os eixos)</text>
+  <text x="570" y="215" text-anchor="middle" font-size="10" fill="#718096">—</text>
+  <text x="790" y="210" text-anchor="middle" font-size="10" fill="#2d3748">Explicabilidade (XAI),</text>
+  <text x="790" y="225" text-anchor="middle" font-size="10" fill="#2d3748">viés de proxy, transparência</text>
+  <!-- Row 3 -->
+  <rect x="40" y="255" width="820" height="60" rx="4" fill="#fff5f5"/>
+  <rect x="50" y="265" width="160" height="40" rx="6" fill="#9b2c2c"/>
+  <text x="130" y="290" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Administrador Público</text>
+  <text x="340" y="280" text-anchor="middle" font-size="10" fill="#2d3748">Cristóvam &amp; Hahn (2020)</text>
+  <text x="570" y="280" text-anchor="middle" font-size="10" fill="#2d3748">Rev. Dir. Adm. e Gestão</text>
+  <text x="570" y="295" text-anchor="middle" font-size="10" fill="#2d3748">Pública, v.6 n.1</text>
+  <text x="790" y="280" text-anchor="middle" font-size="10" fill="#2d3748">Governo aberto,</text>
+  <text x="790" y="295" text-anchor="middle" font-size="10" fill="#2d3748">governança, Lei 14.129</text>
+  <!-- Row 4 -->
+  <rect x="40" y="325" width="820" height="60" rx="4" fill="#fffff0"/>
+  <rect x="50" y="335" width="160" height="40" rx="6" fill="#744210"/>
+  <text x="130" y="355" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Cidadão / Dir. Digitais</text>
+  <text x="340" y="345" text-anchor="middle" font-size="10" fill="#2d3748">Saito &amp; Salgado (2020)</text>
+  <text x="340" y="360" text-anchor="middle" font-size="10" fill="#2d3748">+ Sarlet &amp; Molinaro (2019)</text>
+  <text x="570" y="345" text-anchor="middle" font-size="10" fill="#2d3748">IJDL v.1 n.3 +</text>
+  <text x="570" y="360" text-anchor="middle" font-size="10" fill="#2d3748">RBDFJ n.41</text>
+  <text x="790" y="345" text-anchor="middle" font-size="10" fill="#2d3748">Autodeterminação</text>
+  <text x="790" y="360" text-anchor="middle" font-size="10" fill="#2d3748">informativa, LGPD, exclusão</text>
+  <!-- Bottom note -->
+  <text x="450" y="415" text-anchor="middle" font-size="10" fill="#718096">Fonte: elaboração própria (2026). A persona Cientista de Dados opera como eixo transversal — condição de possibilidade dos demais.</text>
+  <text x="450" y="432" text-anchor="middle" font-size="9" fill="#a0aec0">DOI: 10.36113/dike.27.2024.4556 · 10.26668/IndexLawJournals/2526-0073/2020.v6i1.6388 · 10.47975/IJDL/3hiromi · 10.30899/dfj.v13i41.811</text>
+</svg>
