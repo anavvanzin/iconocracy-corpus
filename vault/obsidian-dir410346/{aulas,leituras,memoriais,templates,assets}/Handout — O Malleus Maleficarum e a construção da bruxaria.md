@@ -76,7 +76,7 @@ Três casos que iluminam, por contraste, o que o caso Cajada revela:
 
 ## O que está em jogo
 
-**Justiça negociada dentro da hegemônica.** O *Malleus* é um instrumento da justiça hegemônica (Sbriccoli): publicização da ação penal, monopólio da persecução. Mas os casos revelam resíduos da justiça negociada em toda parte. Em Innsbruck, o bispo funciona como freio. Na Bahia, o Tempo de Graça cria incentivos à autodenúncia; Cajada negocia os limites da confissão; o tribunal duvida de suas próprias categorias.
+**Justiça negociada dentro da hegemônica.** O *Malleus* é um instrumento da justiça hegemônica (Sbriccoli): publicização da ação penal, monopólio da persecução. Mas os casos mostram que essa hegemonia era contestada: em Innsbruck, o bispo funciona como freio; na Bahia, o Tempo de Graça cria incentivos à autodenúncia; Cajada negocia os limites da confissão; o próprio tribunal duvida de suas categorias.
 
 **Historicidade do tipo penal.** A "bruxaria" não é uma categoria estável. O *Malleus* constrói uma versão que funde cinco tradições. Na Bahia, o tipo se decompõe: Guiomar comete magia sem demonolatria; Cajada reproduz elementos europeus num contexto de serviço comercial. A partir do séc. XVII, as categorias coloniais absorvem *calundu*, *mandinga* e curandeirismo, ausentes do universo do *Malleus*.
 
