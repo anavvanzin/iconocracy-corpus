@@ -1,14 +1,34 @@
 \documentclass[12pt,a4paper,oneside,article]{abntex2}
-\usepackage{fontspec}
-\setmainfont{Times New Roman}
-\usepackage[portuguese]{babel}
+
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else
+  \usepackage{fontspec}
+  \setmainfont{Times New Roman}
+\fi
+
+\usepackage[brazil]{babel}
 \usepackage{csquotes}
 \usepackage{hyperref}
 
-% Suppress thesis-specific elements
-\renewcommand{\folhaderostoname}{}
-\renewcommand{\folhadeaprovacaoname}{}
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$for(author)$$author$$sep$ \\ $endfor$}
+$endif$
+$if(date)$
+\date{$date$}
+$else$
+\date{}
+$endif$
 
 \begin{document}
+$if(title)$
+\maketitle
+$endif$
+
 $body$
 \end{document}
