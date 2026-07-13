@@ -4,7 +4,7 @@
 "Do Poder-Dever ao Dever-Poder: o Conselho de Contestação Algorítmica como Arquitetura de Devido Processo Legal na Administração Pública 4.0"
 
 ## Autores
-Ana Vitória Vanzin & Vinícius Oliveira (PPGD/UFSC)
+Ana Vitória Vanzin (PPGD/UFSC)
 
 ## Estrutura IMRAD adaptada (artigo de direito + protótipo)
 
