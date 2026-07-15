@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.1",
+  "generated_at": "2026-07-15",
+  "verified_at": "2026-07-15",
+  "source": {
+    "provider": "Consensus",
+    "retrieval_policy": "Records are research leads. Bibliographic metadata below was checked against DOI registries and publisher or journal pages; evidentiary use remains limited by the stated source_availability and verification_basis."
+  },
+  "records": [
+    {
+      "id": "consensus-64a9d0ef74ab5588b16abb6b16aed3df",
+      "consensus_id": "64a9d0ef74ab5588b16abb6b16aed3df",
+      "citation_key": "Matthews2000Britannia",
+      "authors": [
+        "Roy T. Matthews"
+      ],
+      "year": 2000,
+      "title": "Britannia and John Bull: From Birth to Maturity",
+      "journal": "The Historian",
+      "volume": "62",
+      "issue": "4",
+      "pages": "799-820",
+      "doi": "10.1111/j.1540-6563.2000.tb01460.x",
+      "canonical_url": "https://doi.org/10.1111/j.1540-6563.2000.tb01460.x",
+      "source_availability": "Texto integral localizado no JSTOR; página canônica da editora pode exigir acesso institucional.",
+      "verification_basis": "Metadados conferidos no Crossref; texto integral consultado via JSTOR.",
+      "citation_count_at_retrieval": 7,
+      "url": "https://consensus.app/papers/britannia-and-john-bull-from-birth-to-maturity-matthews/64a9d0ef74ab5588b16abb6b16aed3df/?utm_source=chatgpt",
+      "scope": "comparador_principal",
+      "jurisdictions": [
+        "United Kingdom"
+      ],
+      "supports": [
+        "genealogia_da_personificacao_nacional",
+        "comparacao_britannia_john_bull",
+        "capitulo_5"
+      ],
+      "research_status": "verificado_texto_integral",
+      "note": "Sustenta a genealogia histórica de Britânia e John Bull e sua atuação como personificações complementares da identidade britânica. Não sustenta, por si só, equivalência entre alegoria feminina e mulheres reais."
+    },
+    {
+      "id": "consensus-24e8ded74d965acc8618ead5c581d9e2",
+      "consensus_id": "24e8ded74d965acc8618ead5c581d9e2",
+      "citation_key": "Baylis2014GenderFrame",
+      "authors": [
+        "Gail Baylis"
+      ],
+      "year": 2014,
+      "title": "Gender in the frame: photography and the performance of the nation narrative in early twentieth-century Ireland",
+      "journal": "Irish Studies Review",
+      "volume": "22",
+      "issue": "2",
+      "pages": "184-206",
+      "doi": "10.1080/09670882.2014.896140",
+      "canonical_url": "https://doi.org/10.1080/09670882.2014.896140",
+      "source_availability": "Página e PDF da versão publicada identificados na Taylor & Francis; texto integral não confirmado como acesso aberto.",
+      "verification_basis": "Autoria e metadados conferidos no Crossref e na página institucional da autora; papel argumentativo limitado ao que título e descrição bibliográfica permitem verificar.",
+      "citation_count_at_retrieval": 3,
+      "url": "https://consensus.app/papers/gender-in-the-frame-photography-and-the-performance-of-the-baylis/24e8ded74d965acc8618ead5c581d9e2/?utm_source=chatgpt",
+      "scope": "comparador_metodologico",
+      "jurisdictions": [
+        "Ireland"
+      ],
+      "supports": [
+        "genero_e_narrativa_nacional",
+        "fotografia",
+        "leitura_contextual",
+        "capitulo_4"
+      ],
+      "research_status": "metadados_verificados_texto_integral_pendente",
+      "note": "Comparador metodológico plausível para fotografia, performance de gênero e narrativa nacional. A alegação de que arquivos visuais preservam contradições permanece não verificada até leitura integral."
+    },
+    {
+      "id": "consensus-e6caf7999e9854ad82ac5b428442f3be",
+      "consensus_id": "e6caf7999e9854ad82ac5b428442f3be",
+      "citation_key": "Carvalho2012FormationSouls",
+      "authors": [
+        "José Murilo de Carvalho"
+      ],
+      "contributors": {
+        "translator": "Clifford E. Landers",
+        "foreword": "Maria Alice Rezende de Carvalho"
+      },
+      "year": 2012,
+      "title": "The Formation of Souls: Imagery of the Republic in Brazil",
+      "publisher": "University of Notre Dame Press",
+      "place": "Notre Dame, IN",
+      "pages": "228",
+      "isbn": "9780268035266",
+      "doi": null,
+      "canonical_url": "https://undpress.nd.edu/9780268035266/formation-of-souls/",
+      "source_availability": "Descrição editorial e dados completos disponíveis na editora; prévia/consulta controlada localizada no Internet Archive.",
+      "verification_basis": "Autoria, funções dos colaboradores, data, editora, extensão e ISBN conferidos na editora e em catálogos bibliográficos.",
+      "citation_count_at_retrieval": 6,
+      "url": "https://consensus.app/papers/the-formation-of-souls-imagery-of-the-republic-in-brazil-carvalho-landers/e6caf7999e9854ad82ac5b428442f3be/?utm_source=chatgpt",
+      "scope": "corpus_core",
+      "jurisdictions": [
+        "Brazil"
+      ],
+      "supports": [
+        "imaginario_republicano_brasileiro",
+        "legitimidade",
+        "capitulo_4",
+        "capitulo_5"
+      ],
+      "research_status": "verificado_edicao_inglesa_ja_canonico",
+      "note": "José Murilo de Carvalho é o único autor. Landers é tradutor; Maria Alice Rezende de Carvalho assina o prefácio. A edição inglesa de 2012, sem DOI, confirma o uso para símbolos, imagens, alegorias, mitos e legitimação republicana; não deve duplicar a edição brasileira canônica."
+    },
+    {
+      "id": "consensus-5ae8bc3172885b1bb6b4f8b821978bdd",
+      "consensus_id": "5ae8bc3172885b1bb6b4f8b821978bdd",
+      "citation_key": "Cusack2005TinyTransmitters",
+      "authors": [
+        "Igor Cusack"
+      ],
+      "year": 2005,
+      "title": "Tiny transmitters of nationalist and colonial ideology: the postage stamps of Portugal and its Empire",
+      "journal": "Nations and Nationalism",
+      "volume": "11",
+      "issue": "4",
+      "pages": "591-612",
+      "doi": "10.1111/j.1469-8129.2005.00221.x",
+      "canonical_url": "https://doi.org/10.1111/j.1469-8129.2005.00221.x",
+      "source_availability": "Resumo e página canônica disponíveis na Wiley; PDF da versão publicada pode exigir acesso institucional.",
+      "verification_basis": "Metadados e resumo editorial conferidos no Crossref/Wiley; cópia integral localizada em repositório secundário.",
+      "citation_count_at_retrieval": 53,
+      "url": "https://consensus.app/papers/tiny-transmitters-of-nationalist-and-colonial-ideology-cusack/5ae8bc3172885b1bb6b4f8b821978bdd/?utm_source=chatgpt",
+      "scope": "apoio_metodologico",
+      "jurisdictions": [
+        "Portugal",
+        "Portuguese Empire"
+      ],
+      "supports": [
+        "selos",
+        "nacionalismo_colonial",
+        "genero",
+        "codebook_suporte"
+      ],
+      "research_status": "verificado_resumo_e_texto_localizado",
+      "note": "Sustenta o selo como meio de difusão de ideologias estatais e a análise de imagens de mulheres, território, colonialismo e nacionalismo no mundo lusófono. Não valida automaticamente categorias para o Brasil nem cada campo específico do codebook."
+    },
+    {
+      "id": "consensus-96f10d11ea1b5d9da34c70f662a13c2f",
+      "consensus_id": "96f10d11ea1b5d9da34c70f662a13c2f",
+      "citation_key": "PrietoAndresEtAl2025ColonialPropaganda",
+      "authors": [
+        "Antonio Prieto-Andrés",
+        "Cayetano Fernández-Romero",
+        "María Luisa Sierra-Huedo"
+      ],
+      "year": 2025,
+      "title": "Colonial Propaganda in the Belgian Congo Through Postage Stamps (1894–1960): A Quantitative Content Analysis",
+      "journal": "Journal of Intercultural Communication",
+      "volume": "25",
+      "issue": "2",
+      "pages": "1-17",
+      "doi": "10.36923/jicc.v25i2.1084",
+      "canonical_url": "https://doi.org/10.36923/jicc.v25i2.1084",
+      "source_availability": "Texto integral aberto no site do periódico, sob licença CC BY 4.0.",
+      "verification_basis": "Metadados e texto integral conferidos na página do periódico e no PDF da versão publicada.",
+      "citation_count_at_retrieval": 0,
+      "url": "https://consensus.app/papers/colonial-propaganda-in-the-belgian-congo-through-postage-prieto-andrs-fernndez-romero/96f10d11ea1b5d9da34c70f662a13c2f/?utm_source=chatgpt",
+      "scope": "comparador_apendice",
+      "jurisdictions": [
+        "Belgian Congo"
+      ],
+      "supports": [
+        "analise_de_conteudo",
+        "selos",
+        "marcadores_coloniais",
+        "pre_teste_codebook"
+      ],
+      "research_status": "verificado_texto_integral_aberto",
+      "note": "Confirma análise quantitativa de conteúdo de 149 selos (1894–1960), com categorias visuais e evolução temporal da propaganda colonial. Serve como precedente metodológico comparativo, não como validação do codebook brasileiro."
+    }
+  ]
+}
