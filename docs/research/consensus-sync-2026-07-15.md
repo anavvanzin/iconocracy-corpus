@@ -55,7 +55,7 @@ O estudo deve ser lido como precedente metodológico, não como autoridade concl
 1. Manter a literatura em um registro próprio, por chave de citação e URL canônica, separado de `corpus_dataset.csv`.
 2. Para selos, preservar os campos de suporte, instituição emissora, jurisdição, intervalo temporal e fonte primária. A literatura funciona como interpretação e desenho de pesquisa, não como substituto de metadados.
 3. Tratar os campos de gênero, colonialidade, raça e territorialização como códigos analíticos com definição explícita, exemplos positivos e casos limítrofes antes de qualquer teste de confiabilidade intercodificador.
-4. Distinguir `corpus_core`, `comparador_principal`, `comparador_metodologico` e `comparador_apendice` também no registro bibliográfico. Isso impede que leituras comparativas ampliem silenciosamente a amostra estatística.
+4. Distinguir `corpus_core`, `comparador_principal`, `comparador_metodologico`, `apoio_metodologico` e `comparador_apendice` também no registro bibliográfico. Isso impede que leituras comparativas ampliem silenciosamente a amostra estatística.
 
 ## Próxima revisão
 
