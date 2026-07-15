@@ -10,9 +10,16 @@ REPORT_DIR="$REPO/logs/corpus-watchdog"
 TS="$(date -u +%Y%m%dT%H%M%SZ)"
 REPORT="$REPORT_DIR/$TS.jsonl"
 CURRENT_BRANCH="$(git -C "$REPO" branch --show-current 2>/dev/null || echo 'unknown')"
+# Summary JSONL
 STATUS="OK"
 ERRORS=()
 WARNINGS=()
+
+# Determine Python interpreter to avoid version mismatch / missing packages on macOS base python3 (3.13)
+PYTHON="python3"
+if [ -x "/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python3" ]; then
+  PYTHON="/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python3"
+fi
 
 mkdir -p "$REPORT_DIR"
 
@@ -20,7 +27,7 @@ mkdir -p "$REPORT_DIR"
 if [ ! -f "$CHECKER" ]; then
   ERRORS+=("missing_checker:$CHECKER")
 else
-  if ! python3 "$CHECKER" > "$REPORT_DIR/c1-$TS.json"; then
+  if ! "$PYTHON" "$CHECKER" > "$REPORT_DIR/c1-$TS.json"; then
     ERRORS+=("c1_check_failed")
   fi
 fi
@@ -30,7 +37,7 @@ if [ ! -f "$SCHEMA_SCRIPT" ] || [ ! -f "$RECORDS" ]; then
   WARNINGS+=("schema_validation_skipped:missing_inputs")
 else
   SCHEMA_OUT="$REPORT_DIR/schema-$TS.txt"
-  if ! python3 "$SCHEMA_SCRIPT" "$RECORDS" --schema "$MASTER_RECORD" --verbose > "$SCHEMA_OUT" 2>&1; then
+  if ! "$PYTHON" "$SCHEMA_SCRIPT" "$RECORDS" --schema "$MASTER_RECORD" --verbose > "$SCHEMA_OUT" 2>&1; then
     STATUS="ERROR"
     ERRORS+=("schema_validation_failed")
   elif grep -qiE "(error|invalid|missing|failed|^[0-9]+/[0-9]+)" "$SCHEMA_OUT" && ! grep -qiE "All records are valid" "$SCHEMA_OUT"; then

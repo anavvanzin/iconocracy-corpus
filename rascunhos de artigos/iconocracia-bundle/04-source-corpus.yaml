@@ -1,0 +1,240 @@
+rows:
+  # ─── Core framework (Gonçalves) ────────────────────────────────
+  - source_id: gj3SectA
+    lane: Core framework
+    role: Two-sided theory of accumulation (exchange + expropriation; fetishized form + explicit legal violence)
+    summary: Gonçalves' formulation of capital accumulation as two contradictory sides — exchange of equivalents and expropriation — and the corresponding legal modes of fetishized form and explicit legal violence. The operative frame for the dossier.
+  - source_id: UFspHLhg
+    lane: Core framework
+    role: Companion piece — primitive accumulation, expropriation, and legal violence
+    summary: Gonçalves' expansion of the two-sided argument into a program for critical sociology of law; specifies where Pashukanian form-critique reaches its limit and explicit legal violence becomes analytically necessary.
+
+  # ─── Pashukanian wing (fetishized form) ─────────────────────────
+  - source_id: wXhKKUfg
+    lane: Pashukanian wing
+    role: Reconstruction of Pashukanis' commodity-form theory
+    summary: Dimick's overview, defence, and critical reconstruction of Pashukanis' derivation of legal form from the commodity.
+  - source_id: T1RNvBGw
+    lane: Pashukanian wing
+    role: Materialist theory of legal form
+    summary: Arthur's foundational 1977 essay recovering Pashukanis for anglophone Marxism and arguing that a Marxist legal theory must analyse the form of law itself, not just its content.
+  - source_id: bke1XFMQ
+    lane: Pashukanian wing
+    role: Defence of Pashukanis against gender/race/production objections
+    summary: Wilén's reconstruction argues that Pashukanis' focus on circulation can be extended to production, gender, and race within the spirit of the General Theory.
+  - source_id: fGUmGj1w
+    lane: Pashukanian wing
+    role: Pashukanis vs. instrumentalism
+    summary: Anderson and Greenberg situate Pashukanis' commodity-exchange theory of law against Second-International instrumentalist readings.
+  - source_id: k2OG8bJg
+    lane: Pashukanian wing
+    role: Pashukanis and legal fetishism
+    summary: Redhead's early note on Pashukanis' extension of Marx's fetishism to law.
+  - source_id: gogTbeRQ
+    lane: Pashukanian wing
+    role: Commodity-form approach to race and international law
+    summary: Knox extends Pashukanian form-analysis to capitalism, racism, and international law.
+
+  # ─── Federician wing (explicit legal violence, primitive accumulation) ─
+  - source_id: fuvvmzhQ
+    lane: Federician wing
+    role: Feminist political economy of state punishment and welfare
+    summary: Roberts on the gendered use of state power, law, and welfare regimes to discipline populations marginalised by capitalist deepening — generalises Federici's argument to modern penal-welfare regimes.
+
+  # ─── Bridge literatures (the seam) ─────────────────────────────
+  - source_id: FZaE_LdQ
+    lane: Bridge literature
+    role: Legal form extended to social reproduction
+    summary: Fletcher's feminist reading of Pashukanis, extending legal-form analysis to reproductive labour and care value.
+  - source_id: "No-WBz5w"
+    lane: Bridge literature
+    role: Formal and real subsumption of gender relations
+    summary: Portella and Busk propose Marx's formal/real subsumption as the framework for reconciling the transhistorical status of patriarchy with capitalist specificity — an alternative to dual-systems and origins-subsistence approaches.
+  - source_id: dDHZG6Xg
+    lane: Bridge literature
+    role: Capital-positing and capital-preserving violence
+    summary: Ince reformulates primitive accumulation as the coercive capitalisation of social relations of reproduction, drawing on Benjamin's law-making/law-preserving distinction.
+
+  # ─── Iconography — fetishized form made visible ────────────────
+  - source_id: zP_37xcQ
+    lane: Iconography
+    role: Sovereignty as image of itself after the empty place of power
+    summary: Jeandrée on the post-revolutionary transformation of sovereignty into a contingent image and the visual arts' task of depicting authority in a society where the ultimate place of power is empty.
+  - source_id: LtoEkYSA
+    lane: Iconography
+    role: Absent in the courtroom, omnipresent on the wall
+    summary: Huygebaert's study of nineteenth-century Belgian legal iconography and the structural irony of female allegorical figures in a male-dominated legal profession.
+  - source_id: pM1iHRAA
+    lane: Iconography
+    role: Cross-cultural iconography of Justice
+    summary: Resnik and Curtis on the transcultural longevity of Justitia as a legitimating device for state adjudication.
+  - source_id: xn-6gTOQ
+    lane: Iconography
+    role: Ideological function of Lady Justice
+    summary: Wardle (via Žižek) reads Lady Justice as materialising formal-procedural justice as a belief object that cloaks legal concepts in eternal-metaphysical form.
+  - source_id: PKGnq9ww
+    lane: Iconography
+    role: Justitia as legal enigma
+    summary: Goodrich's historical reading of Justitia as an aenigma iuris drawn from sixteenth-century emblem books.
+  - source_id: roFMEGQQ
+    lane: Iconography
+    role: Political allegory and the revolutionary iconographic vocabulary
+    summary: Agulhon's reply to Hobsbawm establishing that revolutionary female Liberty draws on the Renaissance allegorical vocabulary and becomes, under the Republic, the symbol of the bourgeois state.
+  - source_id: pSYfYbOA
+    lane: Iconography
+    role: Female allegory on the coin (La Semeuse)
+    summary: Kalba on Roty's Semeuse and the compatibility of the agrarian female motif with the abstraction of financial value.
+  - source_id: pc_eZ49g
+    lane: Iconography
+    role: Female allegory on paper money
+    summary: Hewitt's survey of neo-classical female allegories on paper money across two centuries.
+  - source_id: BJfkKovA
+    lane: Iconography
+    role: Magic, labour, and the imagining of the usurer
+    summary: Hawkes on the seventeenth-century transition in which economic, liturgical, and magical modes of representation had not yet been fully separated — the imaginative substrate behind allegorical value.
+  - source_id: ahbppUDw
+    lane: Iconography
+    role: Early-modern iconography of Justice
+    summary: López's iconographic genesis and analysis of Justice in the Early Modern period — anchor for Ripa's Iconologia (1593) on the timeline.
+  - source_id: 9T39Z-0w
+    lane: Iconography
+    role: Visual sovereignty in Latin America
+    summary: Andermann volume on the political dimension of visual culture in Latin America and the missing critique of the iconography of the modern state-form — the direct backdrop for the ICONOCRACIA project.
+
+  # ─── Codification — civil / household (sexuality-household lane) ─
+  - source_id: xG7y6QNw
+    lane: Codification — sexuality/household
+    role: Code Napoléon and women's civil rights
+    summary: Gerhard on the Napoleonic Code (1804) as the first bourgeois law book, characterised simultaneously by principles of liberty, equality, and property and by rigid regulations reinforcing male dominance in marriage and family law.
+  - source_id: ZXDUHfxQ
+    lane: Codification — sexuality/household
+    role: Coverture across the common-law world
+    summary: Stretton and Kesselring on the extension and retooling of Blackstonian coverture across nineteenth-century England and its colonies.
+  - source_id: "-rwhBZ_g"
+    lane: Codification — sexuality/household (colonial/Brazil)
+    role: Brazilian Civil Code of 1916
+    summary: Marques on the 1916 Civil Code's consolidation of the nuclear-family model while preserving the husband's tutelary power — restrictions on married women's civil capacity mitigated only in 1962.
+
+  # ─── Codification — enclosure ─────────────────────────────────
+  - source_id: myLyOsyQ
+    lane: Codification — enclosure
+    role: Enclosure and the proletarianization of families
+    summary: Humphries on the enclosure of commons as a gendered dispossession, with women and children as the primary exploiters of common rights.
+  - source_id: JGYguhfA
+    lane: Codification — enclosure
+    role: Criminalisation of gleaning in nineteenth-century Essex
+    summary: Qiu on the judicial criminalisation of gleaning between 1830 and 1890 as the second-wave legal completion of enclosure, and its intersection of economic dispossession, legal marginalisation, and gendered discipline.
+
+  # ─── Codification — labour ────────────────────────────────────
+  - source_id: qYLpaMSw
+    lane: Codification — labour
+    role: 1834 New Poor Law and ablebodiedness
+    summary: Levine-Clark on how the New Poor Law's concept of able-bodiedness placed women in a forced choice between being women and being workers.
+  - source_id: 1HL6Qqlg
+    lane: Codification — labour
+    role: Irish Poor Law and female sexuality
+    summary: Crossman on workhouse classification in the Irish Poor Law as predicated on perceptions of female sexuality.
+  - source_id: mg3XrI3A
+    lane: Codification — labour
+    role: Vagrancy law and gender in colonial Montreal
+    summary: Poutanen on vagrancy regulations in early-nineteenth-century Montreal as gendered moral regulation translating bourgeois norms into criminal sanction.
+  - source_id: Hu0UjTEA
+    lane: Codification — labour
+    role: Protective labour legislation and the discourse of danger
+    summary: Malone on English protective legislation 1830–1914 structured by a discourse of danger converging on the idea that women's work outside the home required state intervention.
+
+  # ─── Codification — sexuality / reproductive ─────────────────
+  - source_id: kpVU-PlQ
+    lane: Codification — sexuality/reproductive
+    role: Criminalisation of abortion in nineteenth-century Canada
+    summary: Backhouse on the medical-professional origins of the 1892 Criminal Code's abortion provisions and the displacement of midwives.
+  - source_id: 4lEESeGg
+    lane: Codification — sexuality/reproductive (Brazil)
+    role: 1890 Brazilian Penal Code and reproductive criminalisation
+    summary: Roth on the shift from familial to state patriarchy in early-twentieth-century Rio through the 1890 Penal Code, obstetric professionalisation, and police expansion.
+  - source_id: vriU6GYw
+    lane: Codification — sexuality/reproductive (colonial)
+    role: Contagious Diseases Act in British India
+    summary: Tripathi on the Indian CD Acts as introducing Victorian moral values into Indian law and codifying medical-police sovereignty over women's bodies.
+  - source_id: XPFM02Cg
+    lane: Codification — sexuality/reproductive
+    role: Geographies of prostitution regulation
+    summary: Levine on the CD-Act apparatus as an explicitly territorial sovereignty over working-class and colonised women's bodies.
+  - source_id: 1Esq7UWw
+    lane: Codification — sexuality/reproductive (Brazil)
+    role: Patriarchy, race, and gender in 19th-century Brazil
+    summary: Reis on the Brazilian elite project of a 'civilization compatible with slavery' and the doubly gendered discipline of white aristocratic and enslaved Black women.
+
+  # ─── Codification — colonial personal law ──────────────────────
+  - source_id: ovW4Zzwg
+    lane: Codification — colonial
+    role: Colonial rule and the subversion of women's rights in India
+    summary: Agnes on the introduction of English court structures and Brahminical smriti distortions ushering in a patriarchal modernity in colonial India.
+  - source_id: xgz9lKXA
+    lane: Codification — colonial
+    role: Conjugality, capital, and property law in colonial India
+    summary: Sreenivas on the colonial welding of the bourgeois nuclear-couple ideal onto a patrilineal property structure.
+
+  # ─── Codification — penal (early-modern substrate: witch statutes) ─
+  - source_id: 3AafpZHA
+    lane: Penal substrate (witch hunts)
+    role: Malleus Maleficarum
+    summary: Clack on Kramer and Sprenger's Malleus Maleficarum (1487) as the founding witch-hunting manual.
+  - source_id: e0SrgtyA
+    lane: Penal substrate (witch hunts)
+    role: Malleus Maleficarum and popular belief
+    summary: Bailey's review of the Malleus and its theological-popular construction of witchcraft.
+  - source_id: rI-bPrfw
+    lane: Penal substrate (witch hunts)
+    role: Constitutio Criminalis Carolina (1532)
+    summary: Marquard on the Carolina as the first systematic early-modern penal code of the Holy Roman Empire.
+  - source_id: HiRKD7pw
+    lane: Penal substrate (witch hunts)
+    role: English witchcraft law 1547–1736
+    summary: Igina on the Tudor–Stuart witch statutes and their 1736 repeal.
+  - source_id: fBP8zeMg
+    lane: Penal substrate (witch hunts)
+    role: Witchcraft and the Act of 1604
+    summary: Newton and Bath's edited volume on the Jacobean Witchcraft Act, its passage, application, and 1736 repeal.
+  - source_id: J28JMywg
+    lane: Penal substrate (sexuality/household)
+    role: 1624 Infanticide Act
+    summary: The 1624 Jacobean Act to prevent the destroying and murthering of bastard children.
+  - source_id: J0uxJrDg
+    lane: Penal substrate (witch hunts)
+    role: Hopkins East Anglian witch trials 1645–47
+    summary: Gaskill's history of Matthew Hopkins and the East Anglian witch-hunt.
+  - source_id: uJNuB-4A
+    lane: Penal substrate (witch hunts)
+    role: Scottish witch-hunt peak
+    summary: Levack on the great Scottish witch-hunt of the mid-seventeenth century.
+  - source_id: V_n3UOvg
+    lane: Penal substrate (witch hunts)
+    role: Salem witch trials as legal history
+    summary: Hoffer's legal history of Salem 1692.
+  - source_id: nOCSCrSg
+    lane: Penal substrate (witch hunts)
+    role: German witch trials
+    summary: Robisheaux on the continental German witch trials.
+  - source_id: gvThKkrQ
+    lane: Penal substrate (witch hunts)
+    role: Bamberg mass witch trials
+    summary: Smith on Friedrich Förner, the Catholic Reformation, and the Bamberg witch-hunt (1626–31).
+  - source_id: uqRNTpBA
+    lane: Penal substrate (witch hunts)
+    role: Continental witchcraft overview
+    summary: Wiesner's synoptic account of witchcraft in early modern Europe.
+  - source_id: SP8C8xrQ
+    lane: Counter-current
+    role: 1736 Witchcraft Act repeal
+    summary: Davies on the decriminalisation of witchcraft in Britain — the counter-current anchor for the eighteenth-century transition.
+  - source_id: Si-vRwbA
+    lane: Counter-current
+    role: Louis XIV's 1682 decriminalisation of magic
+    summary: Mollenauer on the end of magic in Louis XIV's Paris — continental analogue to the 1736 English repeal.
+
+  # ─── Counter-current (nineteenth-century contestation) ────────
+  - source_id: "_QzobmPA"
+    lane: Counter-current
+    role: Suffragist appropriation of Justice
+    summary: Collins on early-twentieth-century American suffragists reappropriating Justice as a legible symbol of law's legitimacy to declare the illegitimacy of laws passed by unrepresentative legislatures.

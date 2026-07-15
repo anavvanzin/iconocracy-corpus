@@ -88,10 +88,11 @@ for f in "${FILES[@]}"; do
     }
   ' "$f" && : || ERRS=$((ERRS + 1))
 
-  # Rule 5: malformed in-text — lowercase SURNAME in parens
-  while IFS=: read -r lineno content; do
-    report "$f" "$lineno" "LOWERCASE_AUTHOR" "autor em parênteses deve ser CAIXA ALTA"
-  done < <(grep -nE '\([a-zà-ÿ]+, [0-9]{4}' "$f" || true)
+  # Rule 5: (Desativada) a ABNT NBR 10520:2023 aboliu a caixa alta dentro dos parênteses.
+  # A grafia correta agora é (Autor, ano) em letras maiúsculas/minúsculas.
+  # while IFS=: read -r lineno content; do
+  #   report "$f" "$lineno" "LOWERCASE_AUTHOR" "autor em parênteses deve ser CAIXA ALTA"
+  # done < <(grep -nE '\([a-zà-ÿ]+, [0-9]{4}' "$f" || true)
 done
 
 echo

@@ -1,0 +1,1520 @@
+{
+  "title": "The Two-Sided Legal Order of Capital Accumulation",
+  "description": "A schematic of Gonçalves' two-sided framework — capital accumulation as the exchange of equivalents (fetishized legal form, theorized by Pashukanis, visible as legal iconography) and expropriation (explicit legal violence, theorized by Federici, codified in statute) — with a chronology layer plotting each installation on a shared 1480–1920 axis extended back to the late-medieval and early-modern legal-demonological substrate — the *Malleus Maleficarum* (1487) as the founding witch-hunting manual, the *Constitutio Criminalis Carolina* (1532) as the first systematic penal codification of the Holy Roman Empire, the Tudor–Stuart English witch statutes (1563, 1604, 1624), the German mass witch-trials at Bamberg and Würzburg (1626–31), the Hopkins East Anglian trials (1645–47), the Scottish witch-hunt peak (1661–62), the French decriminalization of magic under Louis XIV (1682), Salem (1692), and Ripa's *Iconologia* (1593) as the early-modern anchor for the iconographic vocabulary the 19th-century Justitia and Marianne draw on. The codification band is split into five domain sub-lanes (enclosure, labour, sexuality/household, penal, colonial), with the colonial lane (India, Brazil) foregrounding the double gendering Agnes and Sreenivas identify in colonial personal law. Bridge literatures (Fletcher, Portella & Busk, Ince) work the seam between the two sides. <citations>gj3SectA:1-3,gj3SectA:13,UFspHLhg:2-3,UFspHLhg:7,UFspHLhg:12,ovW4Zzwg:2-3,xgz9lKXA:1,HiRKD7pw:3-5,fBP8zeMg:14,fBP8zeMg:16,fBP8zeMg:20,J28JMywg:0,J0uxJrDg:0-2,uJNuB-4A:7,V_n3UOvg:1,SP8C8xrQ:1-2,SP8C8xrQ:5,ahbppUDw:1-2,3AafpZHA:0-2,e0SrgtyA:0-2,rI-bPrfw:0-8,nOCSCrSg:0-2,gvThKkrQ:0-4,Si-vRwbA:1-4,uqRNTpBA:1-4</citations>",
+  "renderer": "vega",
+  "spec": {
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "background": "white",
+    "config": {
+      "font": "Inter, Lato, sans-serif",
+      "view": {
+        "stroke": null
+      },
+      "axis": {
+        "labelFont": "Inter, Lato, sans-serif",
+        "titleFont": "Inter, Lato, sans-serif",
+        "labelColor": "#4B5563",
+        "titleColor": "#2D525D",
+        "domainColor": "#9CA3AF",
+        "tickColor": "#9CA3AF",
+        "gridColor": "#E5E7EB"
+      }
+    },
+    "vconcat": [
+      {
+        "width": 900,
+        "height": 260,
+        "layer": [
+          {
+            "data": {
+              "values": [
+                {
+                  "x": 0,
+                  "x2": 1,
+                  "y": 92,
+                  "y2": 100,
+                  "fill": "#2D525D"
+                }
+              ]
+            },
+            "mark": {
+              "type": "rect",
+              "cornerRadius": 4
+            },
+            "encoding": {
+              "x": {
+                "field": "x",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    1
+                  ]
+                },
+                "axis": null
+              },
+              "x2": {
+                "field": "x2"
+              },
+              "y": {
+                "field": "y",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    100
+                  ]
+                },
+                "axis": null
+              },
+              "y2": {
+                "field": "y2"
+              },
+              "color": {
+                "field": "fill",
+                "scale": null
+              }
+            }
+          },
+          {
+            "data": {
+              "values": [
+                {
+                  "x": 0.5,
+                  "y": 96,
+                  "text": "Capital accumulation (Gonçalves) — exchange of equivalents & expropriation"
+                }
+              ]
+            },
+            "mark": {
+              "type": "text",
+              "fontSize": 15,
+              "fontWeight": "bold",
+              "color": "white",
+              "align": "center",
+              "baseline": "middle"
+            },
+            "encoding": {
+              "x": {
+                "field": "x",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    1
+                  ]
+                },
+                "axis": null
+              },
+              "y": {
+                "field": "y",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    100
+                  ]
+                },
+                "axis": null
+              },
+              "text": {
+                "field": "text"
+              }
+            }
+          },
+          {
+            "data": {
+              "values": [
+                {
+                  "x": 0.02,
+                  "x2": 0.49,
+                  "y": 8,
+                  "y2": 86,
+                  "fill": "#147885"
+                },
+                {
+                  "x": 0.51,
+                  "x2": 0.98,
+                  "y": 8,
+                  "y2": 86,
+                  "fill": "#A13E26"
+                }
+              ]
+            },
+            "mark": {
+              "type": "rect",
+              "cornerRadius": 6,
+              "opacity": 0.08
+            },
+            "encoding": {
+              "x": {
+                "field": "x",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    1
+                  ]
+                },
+                "axis": null
+              },
+              "x2": {
+                "field": "x2"
+              },
+              "y": {
+                "field": "y",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    100
+                  ]
+                },
+                "axis": null
+              },
+              "y2": {
+                "field": "y2"
+              },
+              "color": {
+                "field": "fill",
+                "scale": null
+              }
+            }
+          },
+          {
+            "data": {
+              "values": [
+                {
+                  "x": 0.02,
+                  "x2": 0.49,
+                  "y": 80,
+                  "y2": 86,
+                  "fill": "#147885"
+                },
+                {
+                  "x": 0.51,
+                  "x2": 0.98,
+                  "y": 80,
+                  "y2": 86,
+                  "fill": "#A13E26"
+                }
+              ]
+            },
+            "mark": {
+              "type": "rect",
+              "cornerRadius": 4
+            },
+            "encoding": {
+              "x": {
+                "field": "x",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    1
+                  ]
+                },
+                "axis": null
+              },
+              "x2": {
+                "field": "x2"
+              },
+              "y": {
+                "field": "y",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    100
+                  ]
+                },
+                "axis": null
+              },
+              "y2": {
+                "field": "y2"
+              },
+              "color": {
+                "field": "fill",
+                "scale": null
+              }
+            }
+          },
+          {
+            "data": {
+              "values": [
+                {
+                  "x": 0.255,
+                  "y": 83,
+                  "text": "Exchange of equivalents"
+                },
+                {
+                  "x": 0.745,
+                  "y": 83,
+                  "text": "Expropriation"
+                }
+              ]
+            },
+            "mark": {
+              "type": "text",
+              "fontSize": 14,
+              "fontWeight": "bold",
+              "color": "white",
+              "align": "center",
+              "baseline": "middle"
+            },
+            "encoding": {
+              "x": {
+                "field": "x",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    1
+                  ]
+                },
+                "axis": null
+              },
+              "y": {
+                "field": "y",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    100
+                  ]
+                },
+                "axis": null
+              },
+              "text": {
+                "field": "text"
+              }
+            }
+          },
+          {
+            "data": {
+              "values": [
+                {
+                  "x": 0.255,
+                  "y": 70,
+                  "text": "Fetishized legal form",
+                  "color": "#0d5a64",
+                  "size": 14,
+                  "weight": "bold"
+                },
+                {
+                  "x": 0.745,
+                  "y": 70,
+                  "text": "Explicit legal violence",
+                  "color": "#7a2e1c",
+                  "size": 14,
+                  "weight": "bold"
+                },
+                {
+                  "x": 0.255,
+                  "y": 60,
+                  "text": "Sphere: circulation",
+                  "color": "#4B5563",
+                  "size": 12,
+                  "weight": "normal"
+                },
+                {
+                  "x": 0.745,
+                  "y": 60,
+                  "text": "Sphere: reproduction & dispossession",
+                  "color": "#4B5563",
+                  "size": 12,
+                  "weight": "normal"
+                },
+                {
+                  "x": 0.255,
+                  "y": 50,
+                  "text": "Pashukanis — commodity-form theory",
+                  "color": "#2D525D",
+                  "size": 12,
+                  "weight": "bold"
+                },
+                {
+                  "x": 0.745,
+                  "y": 50,
+                  "text": "Federici — primitive accumulation",
+                  "color": "#2D525D",
+                  "size": 12,
+                  "weight": "bold"
+                },
+                {
+                  "x": 0.255,
+                  "y": 40,
+                  "text": "Abstract legal subject · formal equality · contract",
+                  "color": "#2D525D",
+                  "size": 11,
+                  "weight": "normal"
+                },
+                {
+                  "x": 0.745,
+                  "y": 40,
+                  "text": "Coercive statutes on bodies, labour, reproduction",
+                  "color": "#2D525D",
+                  "size": 11,
+                  "weight": "normal"
+                },
+                {
+                  "x": 0.255,
+                  "y": 28,
+                  "text": "Visible surface: legal iconography",
+                  "color": "#0d5a64",
+                  "size": 13,
+                  "weight": "bold"
+                },
+                {
+                  "x": 0.745,
+                  "y": 28,
+                  "text": "Statutory apparatus (19th c.)",
+                  "color": "#7a2e1c",
+                  "size": 13,
+                  "weight": "bold"
+                },
+                {
+                  "x": 0.255,
+                  "y": 18,
+                  "text": "Justitia · Marianne · Semeuse · banknote allegories",
+                  "color": "#374151",
+                  "size": 11,
+                  "weight": "normal"
+                },
+                {
+                  "x": 0.745,
+                  "y": 18,
+                  "text": "Civil, penal, poor, enclosure, CD, colonial codes",
+                  "color": "#374151",
+                  "size": 11,
+                  "weight": "normal"
+                }
+              ]
+            },
+            "mark": {
+              "type": "text",
+              "align": "center",
+              "baseline": "middle"
+            },
+            "encoding": {
+              "x": {
+                "field": "x",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    1
+                  ]
+                },
+                "axis": null
+              },
+              "y": {
+                "field": "y",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    100
+                  ]
+                },
+                "axis": null
+              },
+              "text": {
+                "field": "text"
+              },
+              "color": {
+                "field": "color",
+                "scale": null
+              },
+              "size": {
+                "field": "size",
+                "type": "quantitative",
+                "scale": null,
+                "legend": null
+              },
+              "fontWeight": {
+                "field": "weight",
+                "scale": null,
+                "legend": null
+              }
+            }
+          }
+        ]
+      },
+      {
+        "width": 900,
+        "height": 720,
+        "title": {
+          "text": "Chronology of installations, 1480–1920 — codification split into five domain sub-lanes",
+          "anchor": "start",
+          "fontSize": 13,
+          "fontWeight": "bold",
+          "color": "#2D525D",
+          "offset": 8
+        },
+        "layer": [
+          {
+            "data": {
+              "values": [
+                {
+                  "y0": 12.15,
+                  "y1": 12.950000000000001,
+                  "fill": "#147885"
+                },
+                {
+                  "y0": 9.85,
+                  "y1": 10.65,
+                  "fill": "#A13E26"
+                },
+                {
+                  "y0": 8.35,
+                  "y1": 9.15,
+                  "fill": "#A13E26"
+                },
+                {
+                  "y0": 6.85,
+                  "y1": 7.65,
+                  "fill": "#A13E26"
+                },
+                {
+                  "y0": 5.35,
+                  "y1": 6.15,
+                  "fill": "#A13E26"
+                },
+                {
+                  "y0": 3.85,
+                  "y1": 4.65,
+                  "fill": "#7C3AED"
+                },
+                {
+                  "y0": 1.35,
+                  "y1": 2.15,
+                  "fill": "#B37020"
+                }
+              ]
+            },
+            "mark": {
+              "type": "rect",
+              "opacity": 0.12
+            },
+            "encoding": {
+              "x": {
+                "datum": 1540,
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    1475,
+                    1925
+                  ]
+                },
+                "axis": null
+              },
+              "x2": {
+                "datum": 1920
+              },
+              "y": {
+                "field": "y0",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    14
+                  ]
+                },
+                "axis": null
+              },
+              "y2": {
+                "field": "y1"
+              },
+              "color": {
+                "field": "fill",
+                "scale": null
+              }
+            }
+          },
+          {
+            "data": {
+              "values": [
+                {
+                  "y": 12.55
+                },
+                {
+                  "y": 10.25
+                },
+                {
+                  "y": 8.75
+                },
+                {
+                  "y": 7.25
+                },
+                {
+                  "y": 5.75
+                },
+                {
+                  "y": 4.25
+                },
+                {
+                  "y": 1.75
+                }
+              ]
+            },
+            "mark": {
+              "type": "rule",
+              "stroke": "#9CA3AF",
+              "strokeDash": [
+                2,
+                3
+              ]
+            },
+            "encoding": {
+              "x": {
+                "datum": 1540,
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    1475,
+                    1925
+                  ]
+                },
+                "axis": null
+              },
+              "x2": {
+                "datum": 1920
+              },
+              "y": {
+                "field": "y",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    14
+                  ]
+                },
+                "axis": null
+              }
+            }
+          },
+          {
+            "data": {
+              "values": [
+                {
+                  "x": 1478,
+                  "y": 12.950000000000001,
+                  "text": "Iconography (fetishized form)",
+                  "color": "#0d5a64"
+                },
+                {
+                  "x": 1478,
+                  "y": 10.65,
+                  "text": "Codification — Enclosure",
+                  "color": "#7a2e1c"
+                },
+                {
+                  "x": 1478,
+                  "y": 9.15,
+                  "text": "Codification — Labour",
+                  "color": "#7a2e1c"
+                },
+                {
+                  "x": 1478,
+                  "y": 7.65,
+                  "text": "Codification — Sexuality / household",
+                  "color": "#7a2e1c"
+                },
+                {
+                  "x": 1478,
+                  "y": 6.15,
+                  "text": "Codification — Penal",
+                  "color": "#7a2e1c"
+                },
+                {
+                  "x": 1478,
+                  "y": 4.65,
+                  "text": "Codification — Colonial (India, Brazil)",
+                  "color": "#5b21b6"
+                },
+                {
+                  "x": 1478,
+                  "y": 2.15,
+                  "text": "Counter-current (repeal / suffrage)",
+                  "color": "#B37020"
+                }
+              ]
+            },
+            "mark": {
+              "type": "text",
+              "align": "left",
+              "baseline": "bottom",
+              "dy": -3,
+              "fontSize": 11,
+              "fontWeight": "bold"
+            },
+            "encoding": {
+              "x": {
+                "field": "x",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    1475,
+                    1925
+                  ]
+                },
+                "axis": null
+              },
+              "y": {
+                "field": "y",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    14
+                  ]
+                },
+                "axis": null
+              },
+              "text": {
+                "field": "text"
+              },
+              "color": {
+                "field": "color",
+                "scale": null
+              }
+            }
+          },
+          {
+            "data": {
+              "values": [
+                {
+                  "year": 1593,
+                  "y": 12.55,
+                  "label": "1593  Ripa's Iconologia — Justitia codified",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1563,
+                  "y": 5.75,
+                  "label": "1563  Elizabethan Witchcraft Act",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1604,
+                  "y": 5.75,
+                  "label": "1604  Jacobean Witchcraft Act",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1624,
+                  "y": 7.25,
+                  "label": "1624  Infanticide Act (Jacobean)",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1645,
+                  "y": 5.75,
+                  "label": "1645–47  Hopkins East Anglian witch trials",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1662,
+                  "y": 5.75,
+                  "label": "1661–62  Scottish witch-hunt peak",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1692,
+                  "y": 5.75,
+                  "label": "1692  Salem witch trials",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1736,
+                  "y": 1.75,
+                  "label": "1736  Witchcraft Act repealed",
+                  "color": "#B37020"
+                },
+                {
+                  "year": 1792,
+                  "y": 12.55,
+                  "label": "1792  Marianne allegory emerges",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1804,
+                  "y": 12.55,
+                  "label": "1804  Renaissance vocabulary reactivated",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1848,
+                  "y": 12.55,
+                  "label": "1848  Marianne on 2nd Republic seals & coin",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1870,
+                  "y": 12.55,
+                  "label": "1870  Marianne standardised (3rd Republic)",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1883,
+                  "y": 12.55,
+                  "label": "1883  Palais de Justice, Brussels (Justitia)",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1897,
+                  "y": 12.55,
+                  "label": "1897  Roty's La Semeuse on the franc",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1910,
+                  "y": 12.55,
+                  "label": "1910  Neo-classical banknote allegories",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1801,
+                  "y": 10.25,
+                  "label": "1801  General Enclosure Act",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1845,
+                  "y": 10.25,
+                  "label": "1845  General Enclosure Act (Britain)",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1834,
+                  "y": 8.75,
+                  "label": "1834  New Poor Law",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1878,
+                  "y": 8.75,
+                  "label": "1878  Factory Act — protective labour",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1804,
+                  "y": 7.25,
+                  "label": "1804  Code Napoléon — coverture",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1864,
+                  "y": 7.25,
+                  "label": "1864  Contagious Diseases Act I",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1892,
+                  "y": 5.75,
+                  "label": "1892  Canadian Criminal Code — abortion",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1868,
+                  "y": 4.25,
+                  "label": "1868  CD Act — British India",
+                  "color": "#7C3AED"
+                },
+                {
+                  "year": 1890,
+                  "y": 4.25,
+                  "label": "1890  Brazilian Penal Code — abortion",
+                  "color": "#7C3AED"
+                },
+                {
+                  "year": 1916,
+                  "y": 4.25,
+                  "label": "1916  Brazilian Civil Code",
+                  "color": "#7C3AED"
+                },
+                {
+                  "year": 1870,
+                  "y": 1.75,
+                  "label": "1870  Married Women's Property Act",
+                  "color": "#B37020"
+                },
+                {
+                  "year": 1882,
+                  "y": 1.75,
+                  "label": "1882  MWPA extended",
+                  "color": "#B37020"
+                },
+                {
+                  "year": 1886,
+                  "y": 1.75,
+                  "label": "1886  CD Acts repealed",
+                  "color": "#B37020"
+                },
+                {
+                  "year": 1915,
+                  "y": 1.75,
+                  "label": "1915  US suffragists appropriate Justice",
+                  "color": "#B37020"
+                },
+                {
+                  "year": 1487,
+                  "y": 5.75,
+                  "label": "1487  Malleus Maleficarum (Kramer/Sprenger)",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1532,
+                  "y": 5.75,
+                  "label": "1532  Constitutio Criminalis Carolina",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1626,
+                  "y": 5.75,
+                  "label": "1626–31  Bamberg & Würzburg mass trials",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1682,
+                  "y": 1.75,
+                  "label": "1682  France decriminalises magic",
+                  "color": "#B37020"
+                }
+              ]
+            },
+            "mark": {
+              "type": "point",
+              "size": 70,
+              "filled": true,
+              "opacity": 0.95
+            },
+            "encoding": {
+              "x": {
+                "field": "year",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    1475,
+                    1925
+                  ]
+                },
+                "axis": {
+                  "title": "Year",
+                  "values": [
+                    1480,
+                    1520,
+                    1560,
+                    1600,
+                    1650,
+                    1700,
+                    1750,
+                    1800,
+                    1850,
+                    1900
+                  ],
+                  "format": "d",
+                  "grid": false,
+                  "labelFontSize": 10,
+                  "titleFontSize": 11,
+                  "labelColor": "#4B5563",
+                  "titleColor": "#2D525D"
+                }
+              },
+              "y": {
+                "field": "y",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    14
+                  ]
+                },
+                "axis": null
+              },
+              "color": {
+                "field": "color",
+                "scale": null
+              }
+            }
+          },
+          {
+            "data": {
+              "values": [
+                {
+                  "year": 1593,
+                  "y": 12.55,
+                  "label": "1593  Ripa's Iconologia — Justitia codified",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1563,
+                  "y": 5.75,
+                  "label": "1563  Elizabethan Witchcraft Act",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1604,
+                  "y": 5.75,
+                  "label": "1604  Jacobean Witchcraft Act",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1624,
+                  "y": 7.25,
+                  "label": "1624  Infanticide Act (Jacobean)",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1645,
+                  "y": 5.75,
+                  "label": "1645–47  Hopkins East Anglian witch trials",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1662,
+                  "y": 5.75,
+                  "label": "1661–62  Scottish witch-hunt peak",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1692,
+                  "y": 5.75,
+                  "label": "1692  Salem witch trials",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1736,
+                  "y": 1.75,
+                  "label": "1736  Witchcraft Act repealed",
+                  "color": "#B37020"
+                },
+                {
+                  "year": 1792,
+                  "y": 12.55,
+                  "label": "1792  Marianne allegory emerges",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1804,
+                  "y": 12.55,
+                  "label": "1804  Renaissance vocabulary reactivated",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1848,
+                  "y": 12.55,
+                  "label": "1848  Marianne on 2nd Republic seals & coin",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1870,
+                  "y": 12.55,
+                  "label": "1870  Marianne standardised (3rd Republic)",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1883,
+                  "y": 12.55,
+                  "label": "1883  Palais de Justice, Brussels (Justitia)",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1897,
+                  "y": 12.55,
+                  "label": "1897  Roty's La Semeuse on the franc",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1910,
+                  "y": 12.55,
+                  "label": "1910  Neo-classical banknote allegories",
+                  "color": "#147885"
+                },
+                {
+                  "year": 1801,
+                  "y": 10.25,
+                  "label": "1801  General Enclosure Act",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1845,
+                  "y": 10.25,
+                  "label": "1845  General Enclosure Act (Britain)",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1834,
+                  "y": 8.75,
+                  "label": "1834  New Poor Law",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1878,
+                  "y": 8.75,
+                  "label": "1878  Factory Act — protective labour",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1804,
+                  "y": 7.25,
+                  "label": "1804  Code Napoléon — coverture",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1864,
+                  "y": 7.25,
+                  "label": "1864  Contagious Diseases Act I",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1892,
+                  "y": 5.75,
+                  "label": "1892  Canadian Criminal Code — abortion",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1868,
+                  "y": 4.25,
+                  "label": "1868  CD Act — British India",
+                  "color": "#7C3AED"
+                },
+                {
+                  "year": 1890,
+                  "y": 4.25,
+                  "label": "1890  Brazilian Penal Code — abortion",
+                  "color": "#7C3AED"
+                },
+                {
+                  "year": 1916,
+                  "y": 4.25,
+                  "label": "1916  Brazilian Civil Code",
+                  "color": "#7C3AED"
+                },
+                {
+                  "year": 1870,
+                  "y": 1.75,
+                  "label": "1870  Married Women's Property Act",
+                  "color": "#B37020"
+                },
+                {
+                  "year": 1882,
+                  "y": 1.75,
+                  "label": "1882  MWPA extended",
+                  "color": "#B37020"
+                },
+                {
+                  "year": 1886,
+                  "y": 1.75,
+                  "label": "1886  CD Acts repealed",
+                  "color": "#B37020"
+                },
+                {
+                  "year": 1915,
+                  "y": 1.75,
+                  "label": "1915  US suffragists appropriate Justice",
+                  "color": "#B37020"
+                },
+                {
+                  "year": 1487,
+                  "y": 5.75,
+                  "label": "1487  Malleus Maleficarum (Kramer/Sprenger)",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1532,
+                  "y": 5.75,
+                  "label": "1532  Constitutio Criminalis Carolina",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1626,
+                  "y": 5.75,
+                  "label": "1626–31  Bamberg & Würzburg mass trials",
+                  "color": "#A13E26"
+                },
+                {
+                  "year": 1682,
+                  "y": 1.75,
+                  "label": "1682  France decriminalises magic",
+                  "color": "#B37020"
+                }
+              ]
+            },
+            "mark": {
+              "type": "text",
+              "fontSize": 9.5,
+              "color": "#374151",
+              "align": "left",
+              "baseline": "middle",
+              "angle": 320,
+              "dx": 6,
+              "dy": -4
+            },
+            "encoding": {
+              "x": {
+                "field": "year",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    1475,
+                    1925
+                  ]
+                },
+                "axis": null
+              },
+              "y": {
+                "field": "y",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    14
+                  ]
+                },
+                "axis": null
+              },
+              "text": {
+                "field": "label"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "width": 900,
+        "height": 90,
+        "layer": [
+          {
+            "data": {
+              "values": [
+                {
+                  "x": 0,
+                  "x2": 1,
+                  "y": 0,
+                  "y2": 1,
+                  "fill": "#E5E7EB"
+                }
+              ]
+            },
+            "mark": {
+              "type": "rect",
+              "cornerRadius": 4
+            },
+            "encoding": {
+              "x": {
+                "field": "x",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    1
+                  ]
+                },
+                "axis": null
+              },
+              "x2": {
+                "field": "x2"
+              },
+              "y": {
+                "field": "y",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    1
+                  ]
+                },
+                "axis": null
+              },
+              "y2": {
+                "field": "y2"
+              },
+              "color": {
+                "field": "fill",
+                "scale": null
+              }
+            }
+          },
+          {
+            "data": {
+              "values": [
+                {
+                  "x": 0.5,
+                  "y": 0.82,
+                  "text": "The seam — bridge literatures working across both sides",
+                  "size": 12,
+                  "weight": "bold",
+                  "color": "#2D525D"
+                },
+                {
+                  "x": 0.18,
+                  "y": 0.48,
+                  "text": "Fletcher",
+                  "size": 12,
+                  "weight": "bold",
+                  "color": "#2D525D"
+                },
+                {
+                  "x": 0.18,
+                  "y": 0.2,
+                  "text": "legal form extended to social reproduction",
+                  "size": 10,
+                  "weight": "normal",
+                  "color": "#4B5563"
+                },
+                {
+                  "x": 0.5,
+                  "y": 0.48,
+                  "text": "Portella & Busk",
+                  "size": 12,
+                  "weight": "bold",
+                  "color": "#2D525D"
+                },
+                {
+                  "x": 0.5,
+                  "y": 0.2,
+                  "text": "formal / real subsumption of patriarchy",
+                  "size": 10,
+                  "weight": "normal",
+                  "color": "#4B5563"
+                },
+                {
+                  "x": 0.82,
+                  "y": 0.48,
+                  "text": "Ince",
+                  "size": 12,
+                  "weight": "bold",
+                  "color": "#2D525D"
+                },
+                {
+                  "x": 0.82,
+                  "y": 0.2,
+                  "text": "capital-positing & capital-preserving violence",
+                  "size": 10,
+                  "weight": "normal",
+                  "color": "#4B5563"
+                }
+              ]
+            },
+            "mark": {
+              "type": "text",
+              "align": "center",
+              "baseline": "middle"
+            },
+            "encoding": {
+              "x": {
+                "field": "x",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    1
+                  ]
+                },
+                "axis": null
+              },
+              "y": {
+                "field": "y",
+                "type": "quantitative",
+                "scale": {
+                  "domain": [
+                    0,
+                    1
+                  ]
+                },
+                "axis": null
+              },
+              "text": {
+                "field": "text"
+              },
+              "color": {
+                "field": "color",
+                "scale": null
+              },
+              "size": {
+                "field": "size",
+                "type": "quantitative",
+                "scale": null,
+                "legend": null
+              },
+              "fontWeight": {
+                "field": "weight",
+                "scale": null,
+                "legend": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "data": [
+    {
+      "lane": "Iconography",
+      "year": 1593,
+      "event": "1593  Ripa's Iconologia — Justitia codified"
+    },
+    {
+      "lane": "Codification — Penal",
+      "year": 1563,
+      "event": "1563  Elizabethan Witchcraft Act"
+    },
+    {
+      "lane": "Codification — Penal",
+      "year": 1604,
+      "event": "1604  Jacobean Witchcraft Act"
+    },
+    {
+      "lane": "Codification — Sexuality / household",
+      "year": 1624,
+      "event": "1624  Infanticide Act (Jacobean)"
+    },
+    {
+      "lane": "Codification — Penal",
+      "year": 1645,
+      "event": "1645–47  Hopkins East Anglian witch trials"
+    },
+    {
+      "lane": "Codification — Penal",
+      "year": 1662,
+      "event": "1661–62  Scottish witch-hunt peak"
+    },
+    {
+      "lane": "Codification — Penal",
+      "year": 1692,
+      "event": "1692  Salem witch trials"
+    },
+    {
+      "lane": "Counter-current",
+      "year": 1736,
+      "event": "1736  Witchcraft Act repealed"
+    },
+    {
+      "lane": "Iconography",
+      "year": 1792,
+      "event": "1792  Marianne allegory emerges"
+    },
+    {
+      "lane": "Iconography",
+      "year": 1804,
+      "event": "1804  Renaissance vocabulary reactivated"
+    },
+    {
+      "lane": "Iconography",
+      "year": 1848,
+      "event": "1848  Marianne on 2nd Republic seals & coin"
+    },
+    {
+      "lane": "Iconography",
+      "year": 1870,
+      "event": "1870  Marianne standardised (3rd Republic)"
+    },
+    {
+      "lane": "Iconography",
+      "year": 1883,
+      "event": "1883  Palais de Justice, Brussels (Justitia)"
+    },
+    {
+      "lane": "Iconography",
+      "year": 1897,
+      "event": "1897  Roty's La Semeuse on the franc"
+    },
+    {
+      "lane": "Iconography",
+      "year": 1910,
+      "event": "1910  Neo-classical banknote allegories"
+    },
+    {
+      "lane": "Codification — Enclosure",
+      "year": 1801,
+      "event": "1801  General Enclosure Act"
+    },
+    {
+      "lane": "Codification — Enclosure",
+      "year": 1845,
+      "event": "1845  General Enclosure Act (Britain)"
+    },
+    {
+      "lane": "Codification — Labour",
+      "year": 1834,
+      "event": "1834  New Poor Law"
+    },
+    {
+      "lane": "Codification — Labour",
+      "year": 1878,
+      "event": "1878  Factory Act — protective labour"
+    },
+    {
+      "lane": "Codification — Sexuality / household",
+      "year": 1804,
+      "event": "1804  Code Napoléon — coverture"
+    },
+    {
+      "lane": "Codification — Sexuality / household",
+      "year": 1864,
+      "event": "1864  Contagious Diseases Act I"
+    },
+    {
+      "lane": "Codification — Penal",
+      "year": 1892,
+      "event": "1892  Canadian Criminal Code — abortion"
+    },
+    {
+      "lane": "Codification — Colonial (India, Brazil)",
+      "year": 1868,
+      "event": "1868  CD Act — British India"
+    },
+    {
+      "lane": "Codification — Colonial (India, Brazil)",
+      "year": 1890,
+      "event": "1890  Brazilian Penal Code — abortion"
+    },
+    {
+      "lane": "Codification — Colonial (India, Brazil)",
+      "year": 1916,
+      "event": "1916  Brazilian Civil Code"
+    },
+    {
+      "lane": "Counter-current",
+      "year": 1870,
+      "event": "1870  Married Women's Property Act"
+    },
+    {
+      "lane": "Counter-current",
+      "year": 1882,
+      "event": "1882  MWPA extended"
+    },
+    {
+      "lane": "Counter-current",
+      "year": 1886,
+      "event": "1886  CD Acts repealed"
+    },
+    {
+      "lane": "Counter-current",
+      "year": 1915,
+      "event": "1915  US suffragists appropriate Justice"
+    },
+    {
+      "lane": "Codification — Penal",
+      "year": 1487,
+      "event": "1487  Malleus Maleficarum (Kramer/Sprenger)"
+    },
+    {
+      "lane": "Codification — Penal",
+      "year": 1532,
+      "event": "1532  Constitutio Criminalis Carolina"
+    },
+    {
+      "lane": "Codification — Penal",
+      "year": 1626,
+      "event": "1626–31  Bamberg & Würzburg mass trials"
+    },
+    {
+      "lane": "Counter-current",
+      "year": 1682,
+      "event": "1682  France decriminalises magic"
+    }
+  ]
+}

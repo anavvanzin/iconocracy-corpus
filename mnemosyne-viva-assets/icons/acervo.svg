@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><defs><pattern id="paper-grain" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#F5F0E6"/><circle cx="2" cy="3" r=".6" fill="#7B5E3C" opacity=".13"/><circle cx="8" cy="7" r=".45" fill="#7B5E3C" opacity=".10"/></pattern></defs><rect x="0" y="0" width="160" height="160" rx="0" fill="url(#paper-grain)" /><g transform="translate(18,18) scale(0.6)" stroke="#111111" stroke-width="2" fill="#FFF9EF" stroke-linejoin="round">
+      <path d="M4 82 H104 V106 H4 Z"/><path d="M14 88 H72"/><path d="M92 82 V106"/>
+      <path d="M14 54 H112 V82 H14 Z" fill="#E8DDC8"/><path d="M24 62 H82"/><path d="M101 54 V82"/>
+      <path d="M0 26 H100 V54 H0 Z"/><path d="M12 36 H66"/><path d="M86 26 V54"/>
+      <path d="M20 0 H118 V26 H20 Z" fill="#111111"/><path d="M32 10 H74" stroke="#FFF9EF"/><path d="M104 0 V26" stroke="#FFF9EF"/>
+    </g></svg>

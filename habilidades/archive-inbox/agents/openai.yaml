@@ -1,0 +1,13 @@
+interface:
+  display_name: Archive Inbox
+  short_description: Triage and route mixed research materials
+  brand_color: '#6B4F5F'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+    - chatgpt
+    - codex
+    - api
+    - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><defs><pattern id="paper-grain" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#F5F0E6"/><circle cx="2" cy="3" r=".6" fill="#7B5E3C" opacity=".13"/><circle cx="8" cy="7" r=".45" fill="#7B5E3C" opacity=".10"/></pattern></defs><rect x="0" y="0" width="160" height="160" rx="0" fill="url(#paper-grain)" /><g transform="translate(38,18) scale(0.72)" stroke="#111111" stroke-width="2" fill="#FFF9EF" stroke-linejoin="round">
+      <rect x="10" y="14" width="64" height="10"/><rect x="0" y="0" width="84" height="14"/>
+      <rect x="20" y="24" width="44" height="96"/><path d="M28 24 v96 M38 24 v96 M48 24 v96 M58 24 v96"/>
+      <rect x="10" y="120" width="64" height="12"/><rect x="0" y="132" width="84" height="14"/>
+    </g></svg>

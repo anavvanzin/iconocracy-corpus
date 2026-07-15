@@ -1,0 +1,18 @@
+:root {
+  --ink: #111111;
+  --paper: #F5F0E6;
+  --cream: #FFF9EF;
+  --sienna: #8B3A1A;
+  --sienna-dark: #632713;
+  --ochre: #D4AF37;
+  --aged: #7B5E3C;
+  --line: #2A211A;
+  --muted: #756451;
+  --night: #15110E;
+  --font-display: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --font-text: "DM Sans", Arial, sans-serif;
+}
+.mnemosyne-card { background: var(--cream); border: 1.5px solid var(--ink); box-shadow: none; }
+.mnemosyne-btn { font-family: var(--font-text); text-transform: uppercase; letter-spacing: .04em; border: 1.5px solid var(--ink); }
+.mnemosyne-btn--primary { background: var(--sienna); color: var(--cream); }
+.mnemosyne-dark { background: var(--night); color: var(--cream); }

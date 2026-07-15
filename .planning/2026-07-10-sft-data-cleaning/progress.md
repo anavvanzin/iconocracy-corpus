@@ -1,0 +1,1 @@
+\n- **Phase 1, 2 & 3 Complete**: Successfully located the 4 canonical SFT files in `data/training/`. Wrote and executed a Python script to filter out all instances of the 76 contaminated vault-import/migration items. Removed ~50% of the training rows across all splits, ensuring the LLM SFT datasets now perfectly align with the N=161 truly coded baseline.

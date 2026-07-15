@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160"><defs><pattern id="paper-grain" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#F5F0E6"/><circle cx="2" cy="3" r=".6" fill="#7B5E3C" opacity=".13"/><circle cx="8" cy="7" r=".45" fill="#7B5E3C" opacity=".10"/></pattern></defs><rect x="0" y="0" width="160" height="160" rx="0" fill="url(#paper-grain)" /><g transform="translate(24,42)" stroke="#111111" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 31.0 C24.64 0 87.36 0 112 31.0 C87.36 62 24.64 62 0 31.0Z" fill="#FFF9EF"/>
+      <circle cx="56.0" cy="31.0" r="17.98" fill="#8B3A1A" stroke="#111111"/>
+      <circle cx="56.0" cy="31.0" r="7.4399999999999995" fill="#111111"/>
+      <path d="M56.0 -12 V-34 M56.0 74 V96 M-18 31.0 H-40 M130 31.0 H152"/>
+    </g></svg>

@@ -1,0 +1,57 @@
+{
+  "project": "Mnemosyne Viva / ICONOCRACIA",
+  "date": "2026-07-02",
+  "colors": {
+    "ink": "#111111",
+    "paper": "#F5F0E6",
+    "cream": "#FFF9EF",
+    "sienna": "#8B3A1A",
+    "sienna_dark": "#632713",
+    "ochre": "#D4AF37",
+    "aged": "#7B5E3C",
+    "line": "#2A211A",
+    "muted": "#756451",
+    "soft": "#E8DDC8",
+    "night": "#15110E"
+  },
+  "type": {
+    "display": "Playfair Display",
+    "text": "DM Sans",
+    "fallbackDisplay": "Cormorant Garamond, Georgia, serif",
+    "fallbackText": "Arial, sans-serif"
+  },
+  "layout": {
+    "board": {
+      "width": 1920,
+      "height": 1080,
+      "ratio": "16:9"
+    },
+    "radius": [
+      2,
+      4,
+      8
+    ],
+    "stroke": [
+      1,
+      1.5,
+      2
+    ]
+  },
+  "components": [
+    "hero-home",
+    "nav-sticky-light",
+    "nav-sticky-dark",
+    "acervo-card",
+    "concept-card",
+    "stats-strip",
+    "footer-dark",
+    "icons",
+    "logos",
+    "ornaments"
+  ],
+  "notes": [
+    "Editorial house for archive, atlas and ICONOCRACIA research",
+    "Avoid corporate gradients and dashboard metaphors",
+    "Use traceable archive cards with source/fallback states"
+  ]
+}
