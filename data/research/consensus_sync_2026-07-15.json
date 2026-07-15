@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-15",
+  "source": {
+    "provider": "Consensus",
+    "retrieval_policy": "Records are research leads. Before final thesis citation or evidentiary use, verify bibliographic metadata and consult the original publication."
+  },
+  "records": [
+    {
+      "id": "consensus-64a9d0ef74ab5588b16abb6b16aed3df",
+      "consensus_id": "64a9d0ef74ab5588b16abb6b16aed3df",
+      "citation_key": "Matthews2000Britannia",
+      "authors": [
+        "Roy T. Matthews"
+      ],
+      "year": 2000,
+      "title": "Britannia and John Bull: From Birth to Maturity",
+      "journal": "The Historian",
+      "volume": "62",
+      "pages": "799-820",
+      "citation_count_at_retrieval": 7,
+      "url": "https://consensus.app/papers/britannia-and-john-bull-from-birth-to-maturity-matthews/64a9d0ef74ab5588b16abb6b16aed3df/?utm_source=chatgpt",
+      "scope": "comparador_principal",
+      "jurisdictions": [
+        "United Kingdom"
+      ],
+      "supports": [
+        "genealogia_da_personificacao_nacional",
+        "analise_de_atributos",
+        "capitulo_5"
+      ],
+      "research_status": "prioridade_alta",
+      "note": "Entrada para a análise de Britânia e sua relação com a personificação masculina John Bull; não substitui a verificação da publicação original."
+    },
+    {
+      "id": "consensus-24e8ded74d965acc8618ead5c581d9e2",
+      "consensus_id": "24e8ded74d965acc8618ead5c581d9e2",
+      "citation_key": "Baylis2014GenderFrame",
+      "authors": [
+        "Gail Baylis"
+      ],
+      "year": 2014,
+      "title": "Gender in the frame: photography and the performance of the nation narrative in early twentieth-century Ireland",
+      "journal": "Irish Studies Review",
+      "volume": "22",
+      "pages": "184-206",
+      "citation_count_at_retrieval": 3,
+      "url": "https://consensus.app/papers/gender-in-the-frame-photography-and-the-performance-of-the-baylis/24e8ded74d965acc8618ead5c581d9e2/?utm_source=chatgpt",
+      "scope": "comparador_metodologico",
+      "jurisdictions": [
+        "Ireland"
+      ],
+      "supports": [
+        "genero_e_narrativa_nacional",
+        "fotografia",
+        "leitura_contextual",
+        "capitulo_4"
+      ],
+      "research_status": "prioridade_media",
+      "note": "Comparador metodológico: útil para controlar a naturalização visual do gênero, sem ampliar o corpus core."
+    },
+    {
+      "id": "consensus-e6caf7999e9854ad82ac5b428442f3be",
+      "consensus_id": "e6caf7999e9854ad82ac5b428442f3be",
+      "citation_key": "Carvalho2013FormationSouls",
+      "authors": [
+        "José Murilo de Carvalho",
+        "Clifford E. Landers",
+        "M. A. Carvalho"
+      ],
+      "year": 2013,
+      "title": "The Formation of Souls: Imagery of the Republic in Brazil",
+      "citation_count_at_retrieval": 6,
+      "url": "https://consensus.app/papers/the-formation-of-souls-imagery-of-the-republic-in-brazil-carvalho-landers/e6caf7999e9854ad82ac5b428442f3be/?utm_source=chatgpt",
+      "scope": "corpus_core",
+      "jurisdictions": [
+        "Brazil"
+      ],
+      "supports": [
+        "imaginario_republicano_brasileiro",
+        "legitimidade",
+        "capitulo_4",
+        "capitulo_5"
+      ],
+      "research_status": "ja_canonico_no_projeto",
+      "note": "Registro de reconciliação: a obra já integra o quadro teórico do projeto; não criar uma segunda referência bibliográfica."
+    },
+    {
+      "id": "consensus-5ae8bc3172885b1bb6b4f8b821978bdd",
+      "consensus_id": "5ae8bc3172885b1bb6b4f8b821978bdd",
+      "citation_key": "Cusack2005TinyTransmitters",
+      "authors": [
+        "Igor Cusack"
+      ],
+      "year": 2005,
+      "title": "Tiny transmitters of nationalist and colonial ideology: the postage stamps of Portugal and its Empire",
+      "journal": "Nations and Nationalism",
+      "volume": "11",
+      "pages": "591-612",
+      "citation_count_at_retrieval": 53,
+      "url": "https://consensus.app/papers/tiny-transmitters-of-nationalist-and-colonial-ideology-cusack/5ae8bc3172885b1bb6b4f8b821978bdd/?utm_source=chatgpt",
+      "scope": "apoio_metodologico",
+      "jurisdictions": [
+        "Portugal",
+        "Portuguese Empire"
+      ],
+      "supports": [
+        "selos",
+        "nacionalismo_colonial",
+        "genero",
+        "codebook_suporte"
+      ],
+      "research_status": "prioridade_alta",
+      "note": "Fundamenta a inclusão dos selos como suportes de circulação estatal e a anotação de marcadores coloniais; não autoriza inferências diretas sobre o caso brasileiro."
+    },
+    {
+      "id": "consensus-96f10d11ea1b5d9da34c70f662a13c2f",
+      "consensus_id": "96f10d11ea1b5d9da34c70f662a13c2f",
+      "citation_key": "PrietoAndresEtAl2025ColonialPropaganda",
+      "authors": [
+        "Antonio Prieto-Andrés",
+        "Cayetano Fernández-Romero",
+        "M. Sierra"
+      ],
+      "year": 2025,
+      "title": "Colonial Propaganda In The Belgian Congo Through Postage Stamps (1894–1960): A Quantitative Content Analysis",
+      "journal": "Journal of Intercultural Communication",
+      "citation_count_at_retrieval": 0,
+      "url": "https://consensus.app/papers/colonial-propaganda-in-the-belgian-congo-through-postage-prieto-andrs-fernndez-romero/96f10d11ea1b5d9da34c70f662a13c2f/?utm_source=chatgpt",
+      "scope": "comparador_apendice",
+      "jurisdictions": [
+        "Belgian Congo"
+      ],
+      "supports": [
+        "analise_de_conteudo",
+        "selos",
+        "marcadores_coloniais",
+        "pre_teste_codebook"
+      ],
+      "research_status": "provisorio_verificar_texto_integral",
+      "note": "Útil como precedente de operacionalização quantitativa em selos coloniais. Confirmar periódico, metodologia e texto integral antes de o citar na tese."
+    }
+  ]
+}
