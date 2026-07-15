@@ -12,8 +12,8 @@ related:
   - "[[Conceitos — MOC]]"
 sources:
   - ../../../concepts/iconometria.md
-created: 2026-06-22
-updated: 2026-06-22
+created: 2026-07-11
+updated: 2026-07-11
 ---
 
 # Iconometria
@@ -22,7 +22,7 @@ updated: 2026-06-22
 > Resumo-âncora de [`concepts/iconometria.md`](../../../concepts/iconometria.md). **Edite a fonte**, não
 > este stub — ele é regenerado por `atlas/_generate_stubs.py`.
 
-A quantitative approach to the analysis of images, focusing on measurable aspects and patterns within a corpus of visual data. In the context of Iconocracia, it involves the systematic counting and analysis of iconographic elements to ident
+A iconometria é o framework metodológico guarda-chuva da tese ICONOCRACIA: a medição e análise de padrões iconográficos num corpus de alegorias femininas da cultura jurídica (séc. XIX–XX) — uma abordagem quantitativa da imagem, articulada à
 
 - **Fonte:** [`concepts/iconometria.md`](../../../concepts/iconometria.md)
 - **MOC:** [[Conceitos — MOC]]

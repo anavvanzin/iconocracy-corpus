@@ -65,7 +65,7 @@ WebScout (archive discovery) → IconoCode (visual analysis) → master records
 ```
 
 - **WebScout** queries digital archives (Europeana, Gallica, LOC, BnF, Numista, Colnect)
-- **IconoCode** performs 3-level Panofsky analysis + 10 endurecimento indicators (0–3 scale)
+- **IconoCode** performs 3-level Panofsky analysis + iconometria measurement (endurecimento = fixity axis, 10 indicators 0–3 scale)
 - Output: `data/processed/records.jsonl` (canonical) → `corpus/corpus-data.json` (public export)
 
 ### Canonical Data Hierarchy (source-of-truth order)
@@ -112,7 +112,8 @@ Active automation:
 
 | Term | Reference note |
 |------|------|
-| **Endurecimento** | Always in Portuguese. NEVER "hardening" or "embrutecimento". Empirical operationalization of **Purificação Clássica** via 10 ordinal indicators (0–3) |
+| **Iconometria** | Framework metodológico **guarda-chuva** (decisão 2026-07-11): medição e análise de padrões iconográficos no corpus. **Contém** endurecimento como eixo de fixidez (`iconometria ⊇ endurecimento`). Ver `concepts/iconometria.md` + `docs/decisions/ICONOMETRIA-TRANSITION-2026-07-11.md` |
+| **Endurecimento** | Always in Portuguese. NEVER "hardening" or "embrutecimento". **Eixo de fixidez dentro da iconometria** — operacionalização empírica da **Purificação Clássica** via 10 ordinal indicators (0–3). Campo de dados canônico permanece `endurecimento_score` (chave estável; não renomear sem migração coordenada) |
 | **Contrato Sexual Visual** | Original thesis concept #1 — do NOT attribute to Pateman (Pateman is the source of the non-visual contract; the visual extension is autoral) |
 | **Feminilidade de Estado** | Original thesis concept #2 — do NOT attribute to Mondzain. Genealogical roots: Legendre (juiz totêmico) + Carson (hystéra) |
 | **Contrato Racial Visual** | Original thesis concept #3 — branquitude constitutiva da alegoria "universal"; transferência transatlântica de modelos neoclássicos. Cap. 3 |
