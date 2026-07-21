@@ -114,7 +114,7 @@
             }
           },
           {
-            "id": "a0c942b9f7a83625",
+            "id": "b6d4083cf5b1f28b",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -244,6 +244,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "notebook-navigator:Notebook Navigator": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
