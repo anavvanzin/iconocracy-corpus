@@ -6,8 +6,8 @@ A tese da alegorização forçada colapsa quando confrontada com a lógica moná
 
 ## Referências (ABNT NBR 6023:2025)
 
-FORTIN, Marie-France. The king's two bodies and the Crown a corporation sole: historical dualities in English legal thinking. *History of European Ideas*, v. 47, n. 4, p. 1-19, 2021. DOI: 10.1080/01916599.2021.1914934. Disponível em: https://doi.org/10.1080/01916599.2021.1914934. Acesso em: 21 jul. 2025.
+FORTIN, Marie-France. The king's two bodies and the Crown a corporation sole: historical dualities in English legal thinking. *History of European Ideas*, v. 47, n. 4, p. 1-19, 2021. DOI: 10.1080/01916599.2021.1914934. Disponível em: https://doi.org/10.1080/01916599.2021.1914934. Acesso em: 21 jul. 2026.
 
-HERRUP, Cynthia. The King's Two Genders. *Journal of British Studies*, v. 45, n. 3, p. 493-510, 2006. DOI: 10.1086/503588. Disponível em: https://doi.org/10.1086/503588. Acesso em: 21 jul. 2025.
+HERRUP, Cynthia. The King's Two Genders. *Journal of British Studies*, v. 45, n. 3, p. 493-510, 2006. DOI: 10.1086/503588. Disponível em: https://doi.org/10.1086/503588. Acesso em: 21 jul. 2026.
 
-KANTOROWICZ, Ernst H. *The King's Two Bodies: A Study in Mediaeval Political Theology*. Princeton: Princeton University Press, 1957. Reimpressão: 2016. DOI: 10.1515/9781400880782. Disponível em: https://doi.org/10.1515/9781400880782. Acesso em: 21 jul. 2025.
+KANTOROWICZ, Ernst H. *The King's Two Bodies: A Study in Mediaeval Political Theology*. Princeton: Princeton University Press, 1957. Reimpressão: 2016. DOI: 10.1515/9781400880782. Disponível em: https://doi.org/10.1515/9781400880782. Acesso em: 21 jul. 2026.
