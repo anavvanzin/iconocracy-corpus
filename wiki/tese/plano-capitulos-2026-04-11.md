@@ -116,7 +116,7 @@
 - **A fazer**: Escrever do zero, integrando os artigos. Ancorar cada seção num dispositivo jurídico concreto
 - **Dependências**: Cap. 2 (regimes iconocráticos é pressuposto)
 - **Trilho**: A (teórico) — **CAMINHO CRÍTICO**
-- **Risco**: Alto — mais original e menos maduro; manter voz jurídico-penal (não antropológica)
+- **Risco**: Alto — mais original e menos maduro; ancorar cada seção em dispositivo jurídico concreto, em diálogo com os registros antropológico e sociológico (não abrir mão deles)
 - **Stress test**: Não "descobrir" a colonialidade — a contribuição é a dimensão visual do contrato racial no Direito
 
 ---

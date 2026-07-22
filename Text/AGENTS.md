@@ -38,7 +38,7 @@
 
 ## Estilo e terminologia obrigatórios
 - Sempre use os termos originais da tese: **endurecimento** (nunca "hardening"/"embrutecimento"), **Contrato Sexual Visual** (autoral — Vanzin 2026, NÃO atribuir a Pateman), **Feminilidade de Estado** (autoral — NÃO atribuir a Mondzain), **Purificação Clássica**, **Pathosformel**, **Zwischenraum**, **Nachleben**, **Iconclass 48C51**.
-- Citações em ABNT NBR 6023:2025; Mondzain = edição 2002. Texto acadêmico em português jurídico-penal, não antropológico/sociológico.
+- Citações em ABNT NBR 6023:2025; Mondzain = edição 2002. Texto acadêmico em português formal, com enquadramento jurídico **em diálogo com antropologia e sociologia** (p.ex. Lévi-Strauss, Bourdieu) — interdisciplinar, não jurídico-exclusivo.
 
 ## Guardrails finais
 - `tese/manuscrito/*_original` é somente leitura — trabalhe nas versões `*_rev`.

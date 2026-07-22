@@ -110,4 +110,4 @@ python atlas/_generate_stubs.py   # regenera atlas/stubs/ por inteiro (idempoten
 - **Contagens não são fixadas neste grafo** — derivam a cada sync. Para o estado
   atual, ver [`../CLAUDE.md`](../CLAUDE.md) §*Known Data Issues* e
   `python tools/scripts/validate_schemas.py` / `records_to_corpus.py --diff`.
-- Voz acadêmica: português formal, enquadramento jurídico-penal.
+- Voz acadêmica: português formal, enquadramento jurídico em diálogo com antropologia e sociologia.
