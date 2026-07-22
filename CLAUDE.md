@@ -195,7 +195,7 @@ Every corpus item must exist in three places:
 - Thesis original files (`*_original`) are protected — use `vault/tese/` for revised drafts
 - SSD `/media/ana/SSD_DATA` stores raw images, Zotero PDFs, and backups
 - Automatic vault backups must not land on `main` (use `vault_backup.py`)
-- Academic voice: formal Portuguese with jurídico-penal framing (legal-criminal history, NOT anthropological/sociological)
+- Academic voice: formal Portuguese; história e teoria do direito em diálogo **explícito e legítimo** com antropologia e sociologia (p.ex. Lévi-Strauss, Bourdieu). Enquadramento **interdisciplinar** — o registro jurídico NÃO exclui os registros antropológico e sociológico; são complementares, não concorrentes
 
 ---
 
