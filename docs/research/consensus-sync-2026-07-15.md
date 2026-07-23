@@ -13,7 +13,7 @@ Esta sincronização registra literatura recuperada no Consensus e a vincula às
 
 | Chave | Verificação | Papel sustentado | Limite |
 |---|---|---|---|
-| `Matthews2000Britannia` | DOI, fascículo e texto integral verificados | Genealogia e comparação entre Britânia e John Bull no Capítulo 5 | Não equivale alegoria feminina a mulheres reais |
+| `Matthews2000Britannia` | DOI, fascículo e texto integral verificados | Genealogia e comparação entre Britânia e John Bull no Capítulo 7 | Não equivale alegoria feminina a mulheres reais |
 | `Baylis2014GenderFrame` | DOI, autoria e metadados verificados; texto integral pendente | Comparador para fotografia, gênero e narrativa nacional no Capítulo 4 | A afirmação sobre arquivos “conservarem contradições” é não verificável sem leitura integral |
 | `Carvalho2012FormationSouls` | Editora, ISBN e funções autorais verificados | Símbolos, alegorias, imaginário e legitimação da República brasileira | Landers é tradutor; Maria Alice Rezende de Carvalho é autora do prefácio, não coautora |
 | `Cusack2005TinyTransmitters` | DOI, resumo editorial e texto localizado verificados | Selos como circulação estatal de nacionalismo/colonialismo e análise de gênero | Não transfere automaticamente categorias portuguesas ao Brasil |
@@ -47,6 +47,7 @@ PRIETO-ANDRÉS, Antonio; FERNÁNDEZ-ROMERO, Cayetano; SIERRA-HUEDO, María Luisa
 4. A afirmação específica de que arquivos visuais “conservam contradições” não foi confirmada para Baylis.
 5. O texto integral de Prieto-Andrés et al. está disponível e verificado; o status provisório anterior estava desatualizado.
 6. Contagens de citação do Consensus são apenas instantâneos da coleta e não demonstram qualidade ou adequação argumentativa.
+7. Matthews foi remapeado do Capítulo 5 para o Capítulo 7, que concentra a análise iconológica das personificações nacionais; o Capítulo 5 trata da construção e da auditoria do corpus.
 
 ## Implicações operacionais
 
