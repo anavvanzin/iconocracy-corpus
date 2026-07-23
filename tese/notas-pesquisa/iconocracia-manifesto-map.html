@@ -1,0 +1,225 @@
+<section id="iconocracia-manifesto-map" aria-label="Mapa interativo das teses do manifesto Iconocracia">
+  <style>
+    #iconocracia-manifesto-map .icono-map-svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-block: 0.75rem;
+    }
+
+    #iconocracia-manifesto-map .icono-map-svg .arrow {
+      stroke: var(--border);
+      stroke-width: 2;
+      fill: none;
+    }
+
+    #iconocracia-manifesto-map .icono-map-svg .node rect {
+      stroke: var(--border);
+      stroke-width: 1.5;
+    }
+
+    #iconocracia-manifesto-map .icono-map-svg .source rect {
+      fill: var(--secondary);
+    }
+
+    #iconocracia-manifesto-map .icono-map-svg .concept rect {
+      fill: var(--accent);
+    }
+
+    #iconocracia-manifesto-map .icono-map-svg .method rect {
+      fill: var(--card);
+    }
+
+    #iconocracia-manifesto-map .icono-map-svg .node text {
+      fill: var(--foreground);
+      font-size: var(--font-size-base);
+      font-weight: 500;
+      text-anchor: middle;
+    }
+
+    #iconocracia-manifesto-map .icono-map-svg .node text.small-label {
+      font-size: 0.82em;
+      font-weight: 400;
+    }
+
+    #iconocracia-manifesto-map .icono-map-svg .node.is-selected rect {
+      fill: var(--primary);
+      stroke: var(--primary);
+    }
+
+    #iconocracia-manifesto-map .icono-map-svg .node.is-selected text {
+      fill: var(--primary-foreground);
+    }
+
+    #iconocracia-manifesto-map .icono-map-svg .node.is-muted {
+      opacity: 0.48;
+    }
+
+    #iconocracia-manifesto-map .icono-map-svg .arrow.is-muted {
+      opacity: 0.3;
+    }
+
+    #iconocracia-manifesto-map .icono-note {
+      margin-block: 0.25rem 0.75rem;
+    }
+  </style>
+
+  <div class="viz-controls" aria-label="Lente de leitura">
+    <label class="form-label" for="icono-lens">Lente</label>
+    <select class="form-select" id="icono-lens" name="lens">
+      <option value="structure">Estrutura de poder</option>
+      <option value="concepts">Conceitos operativos</option>
+      <option value="evidence">Prova e método</option>
+    </select>
+  </div>
+
+  <svg class="icono-map-svg" viewBox="0 0 1000 455" role="img" aria-labelledby="icono-svg-title icono-svg-desc">
+    <title id="icono-svg-title">Circuito iconocrático do manifesto</title>
+    <desc id="icono-svg-desc">A lei que subordina e a imagem que glorifica convergem no Contrato Sexual Visual. Dele derivam a Feminilidade de Estado, o Contrato Racial Visual e o endurecimento, interpretado por corpus e arquivo.</desc>
+    <defs>
+      <marker id="icono-arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+        <path d="M0,0 L10,4 L0,8 Z" fill="var(--border)"></path>
+      </marker>
+    </defs>
+
+    <path class="arrow" data-edge="law,csv" d="M260 98 C325 98, 350 190, 410 190" marker-end="url(#icono-arrowhead)"></path>
+    <path class="arrow" data-edge="image,csv" d="M740 98 C675 98, 650 190, 590 190" marker-end="url(#icono-arrowhead)"></path>
+    <path class="arrow" data-edge="csv,state" d="M425 255 C350 275, 245 300, 200 325" marker-end="url(#icono-arrowhead)"></path>
+    <path class="arrow" data-edge="csv,racial" d="M500 255 L500 322" marker-end="url(#icono-arrowhead)"></path>
+    <path class="arrow" data-edge="csv,method" d="M575 255 C650 275, 755 300, 800 325" marker-end="url(#icono-arrowhead)"></path>
+
+    <g class="node source" data-node="law">
+      <rect x="50" y="55" width="210" height="86" rx="12"></rect>
+      <text x="155" y="91">Lei que subordina</text>
+      <text class="small-label" x="155" y="117">nacionalidade · capacidade · voto</text>
+    </g>
+
+    <g class="node source" data-node="image">
+      <rect x="740" y="55" width="210" height="86" rx="12"></rect>
+      <text x="845" y="91">Imagem que glorifica</text>
+      <text class="small-label" x="845" y="117">moeda · selo · tribunal · brasão</text>
+    </g>
+
+    <g class="node concept" data-node="csv">
+      <rect x="375" y="175" width="250" height="82" rx="12"></rect>
+      <text x="500" y="210">Contrato Sexual Visual</text>
+      <text class="small-label" x="500" y="235">corpo simbólico · exclusão cívica</text>
+    </g>
+
+    <g class="node concept" data-node="state">
+      <rect x="50" y="325" width="300" height="82" rx="12"></rect>
+      <text x="200" y="360">Feminilidade de Estado</text>
+      <text class="small-label" x="200" y="385">serialização · afeto público</text>
+    </g>
+
+    <g class="node concept" data-node="racial">
+      <rect x="375" y="325" width="250" height="82" rx="12"></rect>
+      <text x="500" y="360">Contrato Racial Visual</text>
+      <text class="small-label" x="500" y="385">branquitude · circulação atlântica</text>
+    </g>
+
+    <g class="node method" data-node="method">
+      <rect x="650" y="325" width="300" height="82" rx="12"></rect>
+      <text x="800" y="360">Endurecimento e arquivo</text>
+      <text class="small-label" x="800" y="385">indicadores · corpus · interpretação</text>
+    </g>
+  </svg>
+
+  <div class="viz-grid" aria-label="Selecionar elemento do mapa">
+    <button type="button" class="btn viz-tile" data-select="law" aria-pressed="false">Lei</button>
+    <button type="button" class="btn viz-tile" data-select="image" aria-pressed="false">Imagem</button>
+    <button type="button" class="btn viz-tile" data-select="csv" aria-pressed="true">Contrato Sexual Visual</button>
+    <button type="button" class="btn viz-tile" data-select="state" aria-pressed="false">Feminilidade de Estado</button>
+    <button type="button" class="btn viz-tile" data-select="racial" aria-pressed="false">Contrato Racial Visual</button>
+    <button type="button" class="btn viz-tile" data-select="method" aria-pressed="false">Método</button>
+  </div>
+
+  <div class="card icono-note" aria-live="polite">
+    <div class="text-muted" id="icono-note-label">Contrato Sexual Visual</div>
+    <div id="icono-note-text">A articulação entre reconhecimento simbólico do feminino e exclusão política das mulheres reais.</div>
+  </div>
+
+  <script>
+    (function () {
+      const root = document.getElementById("iconocracia-manifesto-map");
+      const lens = root.querySelector("#icono-lens");
+      const label = root.querySelector("#icono-note-label");
+      const detail = root.querySelector("#icono-note-text");
+      const nodeEls = Array.from(root.querySelectorAll(".node"));
+      const edgeEls = Array.from(root.querySelectorAll(".arrow"));
+      const buttons = Array.from(root.querySelectorAll("[data-select]"));
+
+      const notes = {
+        law: {
+          label: "Lei que subordina",
+          text: "O antecedente jurídico: nacionalidade dependente, capacidade tutelada e exclusão cívica delimitam a ausência do sujeito."
+        },
+        image: {
+          label: "Imagem que glorifica",
+          text: "A autoridade circula por moedas, selos, brasões e tribunais, fazendo a abstração estatal parecer reconhecível e natural."
+        },
+        csv: {
+          label: "Contrato Sexual Visual",
+          text: "A articulação entre reconhecimento simbólico do feminino e exclusão política das mulheres reais."
+        },
+        state: {
+          label: "Feminilidade de Estado",
+          text: "O Estado produz, padroniza e serializa a alegoria, convertendo o corpo feminino em infraestrutura de afeto público."
+        },
+        racial: {
+          label: "Contrato Racial Visual",
+          text: "A alegoria dita universal universaliza uma branquitude europeia e precisa ser demonstrada em trajetórias históricas específicas."
+        },
+        method: {
+          label: "Endurecimento e arquivo",
+          text: "Os indicadores localizam padrões; a pesquisa de arquivo decide se eles resultam de estratégia iconocrática ou de condições materiais."
+        }
+      };
+
+      const lensNodes = {
+        structure: ["law", "image", "csv"],
+        concepts: ["csv", "state", "racial"],
+        evidence: ["method", "csv", "image"]
+      };
+
+      function setSelected(id) {
+        const selected = notes[id];
+        label.textContent = selected.label;
+        detail.textContent = selected.text;
+        nodeEls.forEach(function (node) {
+          node.classList.toggle("is-selected", node.dataset.node === id);
+        });
+        buttons.forEach(function (button) {
+          button.setAttribute("aria-pressed", String(button.dataset.select === id));
+        });
+      }
+
+      function setLens(value) {
+        const active = lensNodes[value];
+        nodeEls.forEach(function (node) {
+          node.classList.toggle("is-muted", !active.includes(node.dataset.node));
+        });
+        edgeEls.forEach(function (edge) {
+          const endpoints = edge.dataset.edge.split(",");
+          edge.classList.toggle("is-muted", !endpoints.every(function (id) {
+            return active.includes(id);
+          }));
+        });
+        const next = value === "structure" ? "csv" : value === "concepts" ? "state" : "method";
+        setSelected(next);
+      }
+
+      lens.addEventListener("change", function () {
+        setLens(lens.value);
+      });
+
+      buttons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          setSelected(button.dataset.select);
+        });
+      });
+
+      setLens(lens.value);
+    }());
+  </script>
+</section>

@@ -195,7 +195,7 @@ Every corpus item must exist in three places:
 - Thesis original files (`*_original`) are protected — use `vault/tese/` for revised drafts
 - SSD `/media/ana/SSD_DATA` stores raw images, Zotero PDFs, and backups
 - Automatic vault backups must not land on `main` (use `vault_backup.py`)
-- Academic voice: formal Portuguese with jurídico-penal framing (legal-criminal history, NOT anthropological/sociological)
+- Academic voice: formal Portuguese; história e teoria do direito em diálogo **explícito e legítimo** com antropologia e sociologia (p.ex. Lévi-Strauss, Bourdieu). Enquadramento **interdisciplinar** — o registro jurídico NÃO exclui os registros antropológico e sociológico; são complementares, não concorrentes
 
 ---
 
@@ -257,3 +257,23 @@ Canonical defaults (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-
 ### Domain docs
 
 Single-context: `CONTEXT.md` at repo root (created lazily by `/grill-with-docs`) + 5 ADRs in `docs/adr/`. See `docs/agents/domain.md`.
+
+## Skill routing
+
+When the user's request matches an available skill, invoke it via the Skill tool. When in doubt, invoke the skill.
+
+Key routing rules:
+
+- Product ideas/brainstorming → invoke /office-hours
+- Strategy/scope → invoke /plan-ceo-review
+- Architecture → invoke /plan-eng-review
+- Design system/plan review → invoke /design-consultation or /plan-design-review
+- Full review pipeline → invoke /autoplan
+- Bugs/errors → invoke /investigate
+- QA/testing site behavior → invoke /qa or /qa-only
+- Code review/diff check → invoke /review
+- Visual polish → invoke /design-review
+- Ship/deploy/PR → invoke /ship or /land-and-deploy
+- Save progress → invoke /context-save
+- Resume context → invoke /context-restore
+- Author a backlog-ready spec/issue → invoke /spec
