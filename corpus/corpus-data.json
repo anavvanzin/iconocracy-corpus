@@ -347,6 +347,38 @@
     ]
   },
   {
+    "id": "2b7a1a18-1a29-5703-9264-6012425c65e8",
+    "country": "France",
+    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v",
+    "title": "République Française: 3e Emprunt de la Défense nationale",
+    "description": "WWI propaganda poster for the 3rd National Defense loan. Marianne stands triumphantly above soldiers, embodying the Republic rallying her citizens to war. The female allegory mobilized for military propaganda — a critical junction of gender, state power, and visual persuasion.",
+    "motif": [
+      "Marianne",
+      "République",
+      "Guerre",
+      "Défense nationale",
+      "Allégorie féminine"
+    ],
+    "regime": "militar",
+    "endurecimento_score": 1.8,
+    "coded_by": "iconocode-opus-4.6-image",
+    "coded_at": "2026-04-07T00:00:00Z",
+    "date": "1917",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 2,
+      "inscricao_estatal": 3
+    },
+    "citation_abnt": "LELONG, René. République Française: 3e Emprunt de la Défense nationale. 1917. 1 cartaz. Bibliothèque nationale de France. Disponível em: https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v."
+  },
+  {
     "id": "2e077aa6-5e64-3c58-f33b-99b0bcfcef83",
     "country": "Brazil",
     "url": "https://artsandculture.google.com/asset/a-rep%C3%BAblica-manoel-lopes-rodrigues/AQGV9DG4UbJnBg",
@@ -408,6 +440,42 @@
     "citation_abnt": "1 Peseta 1948 'Dama de Elche' — efígie feminina ibérica em nota do Banco de España (Estado franquista)",
     "audit_flags": [
       "vault-import"
+    ]
+  },
+  {
+    "id": "39ebfe77-0d0b-5130-8cce-f6f48d85a081",
+    "country": "United States",
+    "url": "https://www.loc.gov/item/91726511/",
+    "title": "Wake up America! Civilization calls every man, woman and child!",
+    "description": "WWI recruitment poster by James Montgomery Flagg (1917) depicting Columbia — the female personification of America — sleeping, dressed in patriotic stars and stripes and wearing a Phrygian cap. The figure of Columbia, modeled on actress Mary Arthur, embodies the nation's allegorical identity. One of the most iconic American female allegorical images of the First World War, later reproduced as one of the most widely distributed WWI posters. Published for 'Wake Up, America' Day, April 19, 1917.",
+    "motif": [
+      "Columbia",
+      "Alegoria feminina",
+      "Estados Unidos",
+      "WWI",
+      "Goddess of Liberty",
+      "Propaganda"
+    ],
+    "regime": "militar",
+    "endurecimento_score": 1.9,
+    "coded_by": "iconocode-opus-4.6-metadata-refined",
+    "coded_at": "2026-04-07T00:00:00Z",
+    "date": "1917",
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "citation_abnt": "FLAGG, James Montgomery. Wake up America! Civilization calls every man, woman and child! 1917. 1 litografia colorida (cartaz). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/91726511/.",
+    "audit_flags": [
+      "sem-thumbnail"
     ]
   },
   {
@@ -565,6 +633,41 @@
     "citation_abnt": "5 Lire - Vittorio Emanuele III (seated female 'Fertility/Italia' with children, between Savoy shield and Fascio Littorio)",
     "audit_flags": [
       "vault-import"
+    ]
+  },
+  {
+    "id": "473ac4d7-a507-51c6-8215-983c2442fc23",
+    "country": "United States",
+    "url": "https://www.loc.gov/item/95506508/",
+    "title": "Columbia calls—Enlist now for U.S. Army",
+    "description": "WWI recruitment poster (1917) depicting Columbia standing on the globe atop North America, holding the American flag and a sword, calling men to enlist. Designed by Frances Adams Halsted (who also wrote the accompanying poem) and painted by Vincente Aderente. After the U.S. entered WWI on April 6, 1917, Halsted donated the design to the War Department; the New York Times planned 500,000 copies. A canonical example of Columbia as female national allegory in wartime American visual culture.",
+    "motif": [
+      "Columbia",
+      "Alegoria feminina",
+      "Estados Unidos",
+      "WWI",
+      "Propaganda"
+    ],
+    "regime": "militar",
+    "endurecimento_score": 1.6,
+    "coded_by": "iconocode-opus-4.6-metadata-refined",
+    "coded_at": "2026-04-07T00:00:00Z",
+    "date": "1917",
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 1,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 1,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    },
+    "citation_abnt": "HALSTED, Frances Adams (des.); ADERENTE, Vincente (paint.). Columbia calls—Enlist now for U.S. Army. 1917. 1 litografia colorida (cartaz). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/95506508/.",
+    "audit_flags": [
+      "sem-thumbnail"
     ]
   },
   {
@@ -4301,38 +4404,6 @@
     "audit_flags": [
       "sem-thumbnail"
     ]
-  },
-  {
-    "id": "FR-007",
-    "country": "France",
-    "url": "https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v",
-    "title": "République Française: 3e Emprunt de la Défense nationale",
-    "description": "WWI propaganda poster for the 3rd National Defense loan. Marianne stands triumphantly above soldiers, embodying the Republic rallying her citizens to war. The female allegory mobilized for military propaganda — a critical junction of gender, state power, and visual persuasion.",
-    "motif": [
-      "Marianne",
-      "République",
-      "Guerre",
-      "Défense nationale",
-      "Allégorie féminine"
-    ],
-    "regime": "militar",
-    "endurecimento_score": 1.8,
-    "coded_by": "iconocode-opus-4.6-image",
-    "coded_at": "2026-04-07T00:00:00Z",
-    "date": "1917",
-    "indicadores": {
-      "desincorporacao": 1,
-      "rigidez_postural": 2,
-      "dessexualizacao": 2,
-      "uniformizacao_facial": 2,
-      "heraldizacao": 2,
-      "enquadramento_arquitetonico": 1,
-      "apagamento_narrativo": 1,
-      "monocromatizacao": 2,
-      "serialidade": 2,
-      "inscricao_estatal": 3
-    },
-    "citation_abnt": "LELONG, René. République Française: 3e Emprunt de la Défense nationale. 1917. 1 cartaz. Bibliothèque nationale de France. Disponível em: https://www.europeana.eu/en/item/9200518/ark__12148_btv1b10051217v."
   },
   {
     "id": "FR-008",
@@ -9472,77 +9543,6 @@
       "inscricao_estatal": 2
     },
     "citation_abnt": "BELL, Jared W. Temple of liberty. 1834. 1 xilogravura. Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/2008661765/.",
-    "audit_flags": [
-      "sem-thumbnail"
-    ]
-  },
-  {
-    "id": "US-011",
-    "country": "United States",
-    "url": "https://www.loc.gov/item/91726511/",
-    "title": "Wake up America! Civilization calls every man, woman and child!",
-    "description": "WWI recruitment poster by James Montgomery Flagg (1917) depicting Columbia — the female personification of America — sleeping, dressed in patriotic stars and stripes and wearing a Phrygian cap. The figure of Columbia, modeled on actress Mary Arthur, embodies the nation's allegorical identity. One of the most iconic American female allegorical images of the First World War, later reproduced as one of the most widely distributed WWI posters. Published for 'Wake Up, America' Day, April 19, 1917.",
-    "motif": [
-      "Columbia",
-      "Alegoria feminina",
-      "Estados Unidos",
-      "WWI",
-      "Goddess of Liberty",
-      "Propaganda"
-    ],
-    "regime": "militar",
-    "endurecimento_score": 1.9,
-    "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07T00:00:00Z",
-    "date": "1917",
-    "indicadores": {
-      "desincorporacao": 2,
-      "rigidez_postural": 2,
-      "dessexualizacao": 2,
-      "uniformizacao_facial": 2,
-      "heraldizacao": 2,
-      "enquadramento_arquitetonico": 2,
-      "apagamento_narrativo": 2,
-      "monocromatizacao": 1,
-      "serialidade": 2,
-      "inscricao_estatal": 2
-    },
-    "citation_abnt": "FLAGG, James Montgomery. Wake up America! Civilization calls every man, woman and child! 1917. 1 litografia colorida (cartaz). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/91726511/.",
-    "audit_flags": [
-      "sem-thumbnail"
-    ]
-  },
-  {
-    "id": "US-012",
-    "country": "United States",
-    "url": "https://www.loc.gov/item/95506508/",
-    "title": "Columbia calls—Enlist now for U.S. Army",
-    "description": "WWI recruitment poster (1917) depicting Columbia standing on the globe atop North America, holding the American flag and a sword, calling men to enlist. Designed by Frances Adams Halsted (who also wrote the accompanying poem) and painted by Vincente Aderente. After the U.S. entered WWI on April 6, 1917, Halsted donated the design to the War Department; the New York Times planned 500,000 copies. A canonical example of Columbia as female national allegory in wartime American visual culture.",
-    "motif": [
-      "Columbia",
-      "Alegoria feminina",
-      "Estados Unidos",
-      "WWI",
-      "Propaganda"
-    ],
-    "regime": "militar",
-    "endurecimento_score": 1.6,
-    "coded_by": "iconocode-opus-4.6-metadata-refined",
-    "coded_at": "2026-04-07T00:00:00Z",
-    "date": "1917",
-    "indicadores": {
-      "desincorporacao": 1,
-      "rigidez_postural": 1,
-      "dessexualizacao": 2,
-      "uniformizacao_facial": 2,
-      "heraldizacao": 2,
-      "enquadramento_arquitetonico": 1,
-      "apagamento_narrativo": 2,
-      "monocromatizacao": 1,
-      "serialidade": 2,
-      "inscricao_estatal": 2
-    },
-    "citation_abnt": "HALSTED, Frances Adams (des.); ADERENTE, Vincente (paint.). Columbia calls—Enlist now for U.S. Army. 1917. 1 litografia colorida (cartaz). Library of Congress, Washington, D.C. Disponível em: https://www.loc.gov/item/95506508/.",
     "audit_flags": [
       "sem-thumbnail"
     ]
