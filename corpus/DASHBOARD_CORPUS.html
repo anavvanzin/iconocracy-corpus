@@ -188,6 +188,8 @@ footer{text-align:center;font-size:10px;color:var(--brown);padding:20px 0 8px;fo
 </style>
 <script type="module">
   import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@1/dist/index.mjs';
+  import { injectSpeedInsights } from 'https://cdn.jsdelivr.net/npm/@vercel/speed-insights@1/dist/index.mjs';
+  injectSpeedInsights();
   inject();
 </script>
 </head>
