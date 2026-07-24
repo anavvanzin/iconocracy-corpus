@@ -122,6 +122,7 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     iconocode = record.get("iconocode", {})
     purif = record.get("purificacao") or {}
     exports = record.get("exports", {})
+    record_metadata = purif.get("record_metadata") or {}
 
     # Primary result
     sr = webscout.get("search_results", [{}])[0] if webscout.get("search_results") else {}
@@ -219,6 +220,16 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     # Tags from exports audit_flags
     if exports.get("audit_flags") and not entry.get("audit_flags"):
         entry["audit_flags"] = exports["audit_flags"]
+
+    # ``support`` is authoritative only when the canonical record carries a
+    # material medium.  Do not infer it from titles/tags or preserve a value
+    # found only in the derived export, which would make corpus-data.json its
+    # own source of truth on subsequent merge runs.
+    canonical_support = record_metadata.get("medium")
+    if isinstance(canonical_support, str) and canonical_support.strip():
+        entry["support"] = canonical_support.strip()
+    else:
+        entry.pop("support", None)
 
     return entry
 
