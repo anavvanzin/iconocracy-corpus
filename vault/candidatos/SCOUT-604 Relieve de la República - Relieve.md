@@ -1,0 +1,58 @@
+---
+id: SCOUT-604
+tipo: corpus-candidato
+status: candidato
+titulo: "Relieve de la República - Relieve"
+acervo: "Archaeological and Ethnological Museum of Córdoba"
+url: "http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO"
+data_estimada: "1931"
+pais: BR
+suporte: indeterminado
+motivo_alegorico: "República"
+regime: MILITAR
+confianca: baixo
+tags:
+  - corpus/candidato
+  - pais/BR
+  - regime/militar
+  - motivo/republica
+  - #verificar
+  - hunt-candidate
+related:
+  - "[[endurecimento]]"
+  - "[[Feminilidade de Estado]]"
+hunt_score: 0.5
+hunt_source: europeana
+data_scout: 2026-07-25
+---
+
+## Relieve de la República - Relieve
+
+### Identificação
+**Criador/Gravador**: Moreno, Enrique (Lugar de nacimiento: Montalbán de Córdoba, 1900 - Lugar de defunción: Córdoba, 09/09/1936)
+**Acervo**: Archaeological and Ethnological Museum of Córdoba
+**URL**: [link](http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO)
+**Data**: 1931 | **País**: BR | **Suporte**: indeterminado
+**Thumbnail**: [imagem](https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fceres.mcu.es%2Fpages%2FViewer%3Fraw%3Dy%26accion%3D42%26AMuseo%3DMAECO%26img%3D%2FMAECO%2Ffondos_pre%2FMAECOFCE032775_P.JPG%26Ninv%3DCE032775&type=IMAGE)
+**Direitos**: http://rightsstatements.org/vocab/InC/1.0/
+
+### Descrição
+Placa de forma rectangular que presenta decoración en relieve en uno de sus frentes. En la parte inferior aparece el escudo de la ciudad de Córdoba y de forma esquemática la imagen del puente romano con la Torre de la Calahorra y la noria de la Albolafia. Sobre ella, en altorrelieve, una imagen femenina cuyos pechos fueron mutilados intencionadamente, tocada con gorro frigio y capa portando en sus manos una balanza. Bajo ésta imagen aparece una incripción en caracteres capitales en la que puede leerse PLAZA DE LA REPÚBLICA.
+
+**Motivos identificados**: República
+
+### Análise preliminar de endurecimento
+**Regime preliminar**: MILITAR
+Indicadores esperados: armadura, capacete, escudo, rigidez extrema.
+endurecimento esperado: ALTO (corpo blindado/petrificado).
+
+*Classificação preliminar baseada em metadados textuais. Requer confirmação visual.*
+
+### Citação ABNT
+09/09/1936), Moreno, Enrique (Lugar de nacimiento: Montalbán de Córdoba, 1900 - Lugar de defunción: Córdoba,. **Relieve de la República - Relieve**. 1931. Archaeological and Ethnological Museum of Córdoba. Disponível em: http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO. Acesso em: 25 Jul. 2026.
+
+### Proveniência
+Candidato gerado automaticamente por `hunt.py` via europeana.
+Score de relevância: **0.5** | Data: 2026-07-25
+
+> **#verificar**: Esta nota requer validação visual e confirmação de escopo pela pesquisadora.
