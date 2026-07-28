@@ -1,0 +1,54 @@
+source_file,source_field,target_field,transform_rule,status,notes
+corpus_dataset.csv,id,id,Preserve sigla as public id,direct,Required Mnemosyne field
+corpus_dataset.csv,title,title,Trim whitespace preserve original language,direct,Required Mnemosyne field
+corpus_dataset.csv,date,date,Preserve source text,direct,Required Mnemosyne field
+corpus_dataset.csv,year,year,Parse unambiguous integer year,transform,
+corpus_dataset.csv,period,period,Preserve source label,direct,
+corpus_dataset.csv,period_norm,period_norm,Map to controlled historical vocabulary,transform,
+corpus_dataset.csv,creator,creator,Preserve text,direct,
+corpus_dataset.csv,country,country,Preserve current public label,direct,Required Mnemosyne field
+corpus_dataset.csv,country_pt,country_pt,Map to Portuguese label,transform,
+corpus_dataset.csv,country_code,country_code,Derive ISO 3166-1 alpha-2 from country,transform,United Kingdom becomes GB
+corpus_dataset.csv,medium,medium,Preserve raw support/medium value,direct,
+corpus_dataset.csv,medium_norm,medium_norm,Map to controlled medium vocabulary,transform,
+corpus_dataset.csv,support,medium_norm,Map to controlled support vocabulary,transform,Moeda selo cedula gravura pintura monumento etc
+corpus_dataset.csv,source_archive,source_archive,Preserve institutional source name,direct,
+corpus_dataset.csv,url,url,Copy valid URL,direct,Required Mnemosyne field
+corpus_dataset.csv,thumbnail_url,thumbnail_url,Copy valid URL,direct,
+corpus_dataset.csv,description,description,Preserve factual description,direct,
+corpus_dataset.csv,citation_abnt,citation_abnt,Preserve public reference,direct,
+corpus_dataset.csv,motif_str,motif,Split on documented delimiters,transform,Required Mnemosyne field
+corpus_dataset.csv,motif_str,motif_str,Join motif array for display,generated,
+corpus_dataset.csv,tags_str,tags,Split into multiple selections,transform,
+corpus_dataset.csv,tags_str,tags_str,Join tags array for display,generated,
+corpus_dataset.csv,in_scope,—,Use as filter before export,generated,Not a target field
+corpus_dataset.csv,scope_note,coding_metadata.uncertainty_note,Append as import QA note,transform,
+corpus_dataset.csv,desincorporacao,coding_metadata.purification_scores.desincorporacao,Numeric 0 to 3 only,transform,Scale 0-3 in current export
+corpus_dataset.csv,rigidez_postural,coding_metadata.purification_scores.rigidez_postural,Numeric 0 to 3 only,transform,Scale 0-3 in current export
+corpus_dataset.csv,dessexualizacao,coding_metadata.purification_scores.dessexualizacao,Numeric 0 to 3 only,transform,Scale 0-3 in current export
+corpus_dataset.csv,uniformizacao_facial,coding_metadata.purification_scores.uniformizacao_facial,Numeric 0 to 3 only,transform,Scale 0-3 in current export
+corpus_dataset.csv,heraldizacao,coding_metadata.purification_scores.heraldizacao,Numeric 0 to 3 only,transform,Scale 0-3 in current export
+corpus_dataset.csv,enquadramento_arquitetonico,coding_metadata.purification_scores.enquadramento_arquitetonico,Numeric 0 to 3 only,transform,Scale 0-3 in current export
+corpus_dataset.csv,apagamento_narrativo,coding_metadata.purification_scores.apagamento_narrativo,Numeric 0 to 3 only,transform,Scale 0-3 in current export
+corpus_dataset.csv,monocromatizacao,coding_metadata.purification_scores.monocromatizacao,Numeric 0 to 4 only,transform,Scale 0-4 in current export
+corpus_dataset.csv,serialidade,coding_metadata.purification_scores.serialidade,Numeric 0 to 4 only,transform,Scale 0-4 in current export
+corpus_dataset.csv,inscricao_estatal,coding_metadata.purification_scores.inscricao_estatal,Numeric 0 to 4 only,transform,Scale 0-4 in current export
+corpus_dataset.csv,purificacao_composto,iconographic_metadata.endurecimento_score,Normalize to 0..1,transform,Mixed scale: divide by theoretical max 3.3 or observed max
+corpus_dataset.csv,regime_iconocratico,regime,Map to controlled regime options,transform,Aliases fundacional normativo militar contra-alegoria
+corpus_dataset.csv,coded_by,coding_metadata.coded_by,Preserve text,direct,
+corpus_dataset.csv,coded_at,coding_metadata.coded_at,Parse ISO date when available,transform,
+corpus_dataset.csv,notes,coding_metadata.uncertainty_note,Append methodological notes,transform,
+corpus-data.json,id,id,Preserve sigla as public id,direct,
+corpus-data.json,title,title,Preserve title,direct,
+corpus-data.json,date,date,Preserve date,direct,
+corpus-data.json,country,country,Preserve country,direct,
+corpus-data.json,description,description,Preserve description,direct,
+corpus-data.json,url,url,Copy URL,direct,
+corpus-data.json,citation_abnt,citation_abnt,Preserve citation,direct,
+corpus-data.json,motif,motif,Use array directly,direct,
+corpus-data.json,regime,regime,Use directly when already normalized,direct,
+corpus-data.json,endurecimento_score,iconographic_metadata.endurecimento_score,Normalize raw 0..3 to 0..1,transform,Current value is raw average not normalized
+corpus-data.json,indicadores,coding_metadata.purification_scores,Copy object directly,transform,Contains ten indicator scores
+corpus-data.json,coded_by,coding_metadata.coded_by,Preserve text,direct,
+corpus-data.json,coded_at,coding_metadata.coded_at,Preserve timestamp,direct,
+corpus-data.json,audit_flags,coding_metadata.uncertainty_note,Append audit flags as QA note,transform,
