@@ -185,3 +185,76 @@ jobs:
 4. **Documentar no AGENTS.md**
    - Adicionar seção sobre automação
    - Linkar para esta documentação
+
+## lpai_proxy_coder_k3.py
+
+Codificador-**proxy** LPAI v2 sobre Kimi K3 (Moonshot AI). Aplica o master
+prompt operacional do codebook (`schema/codebook-MASTER.md`, §16) a itens de
+`data/processed/records.jsonl` e grava capta de proxy em staging, para cálculo
+de concordância contra a codificação humana cega.
+
+**Não é um codificador humano e não tem autoridade.** Cada linha nasce com
+`proxy_only: true`, `authority: proxy`, `human_class: null` e
+`merge_policy: requires_human_adjudication`.
+
+### Barreiras de escrita
+
+1. O ledger canônico e os exports do corpus são abertos somente em leitura.
+2. O destino de saída é validado antes de qualquer chamada de API: precisa ser
+   `.jsonl`, precisa estar sob `data/staging/`, e não pode ser — nem morar
+   dentro de — arquivo ou diretório canônico (`data/processed/`, `corpus/`,
+   `examples/`, `schema/`, `tools/schemas/`).
+3. Violação encerra o processo com código 3, antes de gastar tokens.
+
+Testes das barreiras em `tests/test_lpai_proxy_coder_k3.py`.
+
+### Uso
+
+```bash
+export MOONSHOT_API_KEY=sk-...
+
+# ensaio: valida barreira, seleção e disponibilidade de imagem; não gasta nada
+python tools/scripts/lpai_proxy_coder_k3.py --all --limit 5 --dry-run
+
+# lote com imagens locais
+python tools/scripts/lpai_proxy_coder_k3.py --all --limit 40 \
+    --images-dir corpus/images
+
+# itens específicos
+python tools/scripts/lpai_proxy_coder_k3.py --items <item_id>,<item_id>
+
+# recorte por regime ou por origem de codificação (fila de baixa confiança)
+python tools/scripts/lpai_proxy_coder_k3.py --all --coded-by vault-import
+```
+
+### Parâmetros
+
+| Flag | Efeito |
+|---|---|
+| `--items` / `--all` | alvo do lote (mutuamente exclusivos) |
+| `--regime`, `--coded-by`, `--limit` | recortes de seleção |
+| `--images-dir` | imagens locais nomeadas `<item_id>.<ext>` |
+| `--allow-textual` | codificar item sem imagem (marcado `sem_imagem`) |
+| `--emit-composto` | opt-in explícito para `purificacao_composto` |
+| `--output` | caminho de staging alternativo (validado) |
+| `--force` | recodificar itens já presentes na saída |
+| `--dry-run` | não chama a API e não grava |
+
+### Códigos de saída
+
+`0` sucesso · `1` erro fatal · `2` concluído com itens de confiança baixa/NC ·
+`3` violação de barreira de escrita.
+
+### Nota metodológica pendente
+
+O §16 do codebook v2.2.0 pede `purificacao_composto` como média simples dos 10
+indicadores. A virada qualitativa de julho/2026 removeu o escore agregado e
+passou a tratar ENDURECIMENTO como inventário verbal. Enquanto a divergência
+não é resolvida no codebook, o script emite os 10 indicadores e um inventário
+verbal, mas **não** calcula o composto sem `--emit-composto`.
+
+### Retomada e cache
+
+Itens já presentes na saída são pulados (sobrescreva com `--force`). O prefixo
+do prompt é estável entre chamadas para maximizar acerto de cache — entrada em
+cache custa um décimo da entrada sem cache na API da Moonshot.
