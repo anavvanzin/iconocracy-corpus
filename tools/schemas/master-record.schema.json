@@ -136,7 +136,9 @@
         "purificacao_composto": {
           "type": "number",
           "minimum": 0,
-          "maximum": 3
+          "maximum": 3,
+          "deprecated": true,
+          "description": "LEGACY_FROZEN desde codebook v2.2.1 (decisao DEC-2026-07-28-COMPOSTO). Media aritmetica dos 10 indicadores. Nao emitir em codificacao nova; valores existentes sao conservados sem recalculo e sem valor probatorio."
         },
         "regime_iconocratico": {
           "type": "string",
@@ -259,11 +261,17 @@
           "type": "boolean"
         },
         "programa_id": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "description": "Optional v2.2.0 grouping identifier for figures or records that belong to the same iconographic program."
         },
         "ordem_no_programa": {
-          "type": ["integer", "null"],
+          "type": [
+            "integer",
+            "null"
+          ],
           "minimum": 1,
           "description": "Optional v2.2.0 ordinal position inside programa_id."
         },
@@ -295,7 +303,11 @@
         },
         "confianca_codificacao": {
           "type": "string",
-          "enum": ["alta", "media", "baixa"],
+          "enum": [
+            "alta",
+            "media",
+            "baixa"
+          ],
           "description": "Optional v2.2.0 qualitative confidence label for human-readable methodology."
         },
         "motivo_incerteza": {
@@ -305,7 +317,13 @@
         },
         "relacao_com_repertorio_indigena": {
           "type": "string",
-          "enum": ["ausente", "apropriado", "coexistente", "hibridizado", "nao_aplicavel"],
+          "enum": [
+            "ausente",
+            "apropriado",
+            "coexistente",
+            "hibridizado",
+            "nao_aplicavel"
+          ],
           "description": "Optional v2.2.0 relation to Indigenous repertoires when analytically relevant."
         },
         "disjuncao_representa_governa": {
@@ -314,19 +332,25 @@
         },
         "objetos_regalia": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "uniqueItems": true,
           "description": "Optional v2.2.0 decomposition of atributos_iconograficos into objects/regalia."
         },
         "marcas_corporais": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "uniqueItems": true,
           "description": "Optional v2.2.0 decomposition of atributos_iconograficos into body, pose and clothing markers."
         },
         "marcadores_cena_arquitetura": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "uniqueItems": true,
           "description": "Optional v2.2.0 decomposition of atributos_iconograficos into scene and architecture markers."
         },

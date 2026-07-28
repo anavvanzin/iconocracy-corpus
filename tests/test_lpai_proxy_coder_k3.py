@@ -159,16 +159,25 @@ def test_row_e_serializavel():
 # --------------------------------------------------------------------------
 
 
-def test_schema_nao_pede_composto_por_padrao():
+def test_schema_nunca_pede_composto():
+    """Composto aposentado no codebook v2.2.1 (DEC-2026-07-28): sem campo, sem flag."""
     schema = build_output_schema()
-    indicadores = schema["properties"]["indicadores"]["properties"]
-    assert "purificacao_composto" not in indicadores
-    assert set(INDICATOR_KEYS).issubset(indicadores)
+    indicadores = schema["properties"]["indicadores"]
+    assert "purificacao_composto" not in indicadores["properties"]
+    assert set(INDICATOR_KEYS).issubset(indicadores["properties"])
+    assert indicadores["additionalProperties"] is False
 
 
-def test_schema_com_composto_em_opt_in():
-    schema = build_output_schema(emit_composto=True)
-    assert "purificacao_composto" in schema["properties"]["indicadores"]["properties"]
+def test_build_output_schema_nao_aceita_opt_in_de_composto():
+    with pytest.raises(TypeError):
+        build_output_schema(emit_composto=True)  # type: ignore[call-arg]
+
+
+def test_preambulo_proibe_agregacao():
+    from tools.scripts.lpai_proxy_coder_k3 import PROXY_PREAMBLE
+
+    assert "escores compostos" in PROXY_PREAMBLE
+    assert "inventario_verbal" in PROXY_PREAMBLE
 
 
 def test_schema_exige_justificativa_e_confianca():

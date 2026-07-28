@@ -235,7 +235,6 @@ python tools/scripts/lpai_proxy_coder_k3.py --all --coded-by vault-import
 | `--regime`, `--coded-by`, `--limit` | recortes de seleção |
 | `--images-dir` | imagens locais nomeadas `<item_id>.<ext>` |
 | `--allow-textual` | codificar item sem imagem (marcado `sem_imagem`) |
-| `--emit-composto` | opt-in explícito para `purificacao_composto` |
 | `--output` | caminho de staging alternativo (validado) |
 | `--force` | recodificar itens já presentes na saída |
 | `--dry-run` | não chama a API e não grava |
@@ -245,13 +244,14 @@ python tools/scripts/lpai_proxy_coder_k3.py --all --coded-by vault-import
 `0` sucesso · `1` erro fatal · `2` concluído com itens de confiança baixa/NC ·
 `3` violação de barreira de escrita.
 
-### Nota metodológica pendente
+### Índice composto: aposentado
 
-O §16 do codebook v2.2.0 pede `purificacao_composto` como média simples dos 10
-indicadores. A virada qualitativa de julho/2026 removeu o escore agregado e
-passou a tratar ENDURECIMENTO como inventário verbal. Enquanto a divergência
-não é resolvida no codebook, o script emite os 10 indicadores e um inventário
-verbal, mas **não** calcula o composto sem `--emit-composto`.
+A divergência entre o §16 (que pedia `purificacao_composto` como média dos 10
+indicadores) e a virada qualitativa de julho/2026 foi resolvida em
+[`docs/decisions/2026-07-28-aposentadoria-do-indice-composto.md`](../../docs/decisions/2026-07-28-aposentadoria-do-indice-composto.md).
+O codebook passou a v2.2.1: os indicadores permanecem como capta ordinal, a
+agregação sai, valores legados ficam congelados sem recálculo. O esquema de saída
+deste script não tem campo de composto e não existe flag que o reintroduza.
 
 ### Retomada e cache
 

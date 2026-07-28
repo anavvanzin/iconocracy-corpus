@@ -26,14 +26,13 @@ Barreiras de escrita (guardrails)
   3. Violação de barreira encerra o processo com código 3, antes de gastar
      um único token.
 
-Nota metodológica pendente (ver corpo do PR)
---------------------------------------------
-O §16 do codebook v2.2.0 pede `purificacao_composto` como média simples dos
-10 indicadores. A virada qualitativa de julho/2026 removeu o escore agregado e
-passou a tratar ENDURECIMENTO como inventário verbal de atributos. Enquanto a
-divergência não é resolvida no codebook, este script emite os 10 indicadores
-(capta ordinal previsto pelo schema) e um inventário verbal, mas **não** calcula
-o composto — a menos que `--emit-composto` seja passado explicitamente.
+Índice composto: aposentado
+---------------------------
+O codebook v2.2.1 aposentou `purificacao_composto` (decisão
+`docs/decisions/2026-07-28-aposentadoria-do-indice-composto.md`). Os 10
+indicadores permanecem como capta ordinal; a agregação sai. Este script emite os
+indicadores e um inventário verbal de atributos, e o esquema de saída **não tem**
+campo de composto — não há flag que o reintroduza.
 
 Uso
 ---
@@ -76,7 +75,7 @@ DEFAULT_OUTPUT_NAME = "lpai-proxy-k3-runs.jsonl"
 IMAGE_CACHE = REPO / ".cache" / "lpai-proxy-images"
 
 AGENT_ID = "lpai-proxy-k3"
-PROMPT_VERSION = "lpai-proxy-k3-v1"
+PROMPT_VERSION = "lpai-proxy-k3-v2"  # v2: composto aposentado (DEC-2026-07-28)
 MODEL_DEFAULT = "kimi-k3"
 BASE_URL_DEFAULT = "https://api.moonshot.ai/v1"
 
@@ -232,7 +231,8 @@ Restrições que se somam ao instrumento abaixo:
 - Ausência significativa é dado negativo, não campo a preencher.
 - Confiança baixa e NC são respostas legítimas e preferíveis a chute.
 - Registre em `duvidas` tudo que precisa de decisão humana.
-- Não calcule médias, índices ou escores compostos.
+- Não calcule médias, índices ou escores compostos: o índice composto está
+  aposentado desde o codebook v2.2.1. Em lugar dele, registre inventario_verbal.
 """
 
 
@@ -246,17 +246,16 @@ def build_system_prompt(master_prompt: str) -> str:
 # ---------------------------------------------------------------------------
 
 
-def build_output_schema(emit_composto: bool = False) -> dict[str, Any]:
+def build_output_schema() -> dict[str, Any]:
+    """Esquema de saída do proxy.
+
+    Não existe campo de índice composto: `purificacao_composto` está aposentado
+    desde o codebook v2.2.1 e a proibição vive na estrutura, não numa flag.
+    """
     indicadores = {
         key: {"type": "integer", "minimum": 0, "maximum": 3}
         for key in INDICATOR_KEYS
     }
-    if emit_composto:
-        indicadores["purificacao_composto"] = {
-            "type": "number",
-            "minimum": 0,
-            "maximum": 3,
-        }
 
     return {
         "type": "object",
@@ -278,6 +277,7 @@ def build_output_schema(emit_composto: bool = False) -> dict[str, Any]:
                 "type": "object",
                 "required": list(INDICATOR_KEYS),
                 "properties": indicadores,
+                "additionalProperties": False,
             },
             "inventario_verbal": {
                 "type": "array",
@@ -623,11 +623,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         action="store_true",
         help="codificar itens sem imagem (registro é marcado sem_imagem)",
     )
-    parser.add_argument(
-        "--emit-composto",
-        action="store_true",
-        help="opt-in explícito: pedir purificacao_composto (ver nota metodológica)",
-    )
     parser.add_argument("--model", default=MODEL_DEFAULT)
     parser.add_argument("--base-url", default=BASE_URL_DEFAULT)
     parser.add_argument("--retries", type=int, default=1)
@@ -682,7 +677,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     images_dir = Path(args.images_dir).expanduser() if args.images_dir else None
-    schema = build_output_schema(emit_composto=args.emit_composto)
+    schema = build_output_schema()
     system_prompt = build_system_prompt(master_prompt)
 
     client = None
