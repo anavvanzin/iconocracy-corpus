@@ -178,3 +178,8 @@ deploy/iconocracia-companion/.wrangler/
 data/staging/lpai-proxy-k3-runs.jsonl
 data/staging/lpai-proxy-k3-runs.*.jsonl
 .cache/lpai-proxy-images/
+
+# Camada de captação de imagens — bytes de acervo e manifesto de proveniência
+# ficam fora do versionamento (licenças de terceiros + volume)
+.cache/corpus-images/
+data/staging/image-manifest.jsonl
