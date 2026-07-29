@@ -23,6 +23,8 @@ import sys
 import tempfile
 import uuid
 from pathlib import Path
+from tools.scripts.lpai_indicators import coding_coverage, legacy_composite
+
 
 REPO = Path(__file__).resolve().parent.parent.parent
 CORPUS_JSON = REPO / "corpus" / "corpus-data.json"
@@ -207,9 +209,13 @@ def _build_iconocode(item: dict) -> dict:
             "confidence": 0.5,
         }]
 
-    # Confidence from endurecimento_score (0–3 normalised to 0–1)
-    raw_score = _safe_float(item.get("endurecimento_score", 1.5))
-    confidence = min(1.0, max(0.0, raw_score / 3.0))
+    # Confiança pela COBERTURA do instrumento, não pela média dos indicadores.
+    # O composto foi aposentado no codebook v2.2.1 (DEC-2026-07-28): derivar
+    # confiança da média confundia intensidade de endurecimento com qualidade
+    # da codificação. Cobertura mede o que interessa aqui — quanto do
+    # instrumento foi efetivamente aplicado a este item.
+    coverage = coding_coverage(item)
+    confidence = 0.35 + 0.55 * coverage
 
     return {
         "pre_iconographic": pre_iconographic,
@@ -244,16 +250,20 @@ def _build_purificacao(item: dict, csv_row: dict | None) -> dict | None:
     ).lower()
     regime = regime_raw if regime_raw in VALID_REGIMES else "normativo"
 
-    # purificacao_composto
-    csv_comp = _safe_float(csv_row.get("purificacao_composto", 0)) if csv_row else 0
-    corpus_comp = _safe_float(item.get("endurecimento_score", 0))
-    composto = csv_comp if csv_comp else corpus_comp
+    # purificacao_composto: LEGACY_FROZEN desde o codebook v2.2.1
+    # (DEC-2026-07-28). Não se calcula composto novo. O valor legado é apenas
+    # repassado quando já existe na fonte, para preservar o rastro de como o
+    # corpus foi construído; quando ausente, o campo simplesmente não é escrito.
+    composto_legado = legacy_composite(csv_row) if csv_row else None
+    if composto_legado is None:
+        composto_legado = legacy_composite(item)
 
     coded_by = ((csv_row.get("coded_by") if csv_row else None) or item.get("coded_by") or "migration")
     coded_at = _normalize_datetime((csv_row.get("coded_at") if csv_row else None) or item.get("coded_at") or MIGRATION_TS)
 
     purif: dict = {col: ind[col] for col in PURIF_COLS}
-    purif["purificacao_composto"] = round(composto, 3)
+    if composto_legado is not None:
+        purif["purificacao_composto"] = round(composto_legado, 3)
     purif["regime_iconocratico"] = regime
     purif["coded_by"] = coded_by
     purif["coded_at"] = coded_at

@@ -136,7 +136,7 @@ Cada artefato foi avaliado em três dimensões: **completude** (o artefato faz o
 ### Tier A — bloqueadores para o Cap. 3
 - [ ] Codificar Panofsky completo para FR-013, FR-014, FR-015, FR-016, FR-017, FR-018
 - [ ] Deduplicar FR-012/FR-021 (manter FR-012)
-- [ ] Atualizar campo `regime` e `endurecimento_score` em FR-021 caso seja a entrada canônica
+- [ ] Atualizar campo `regime` e o inventário de `indicadores` em FR-021 caso seja a entrada canônica (composto aposentado em v2.2.1)
 
 ### Tier B — bloqueadores para qualificação
 - [ ] Desenhar ≥10 fios por painel Mnemosyne (≥80 fios totais) usando a taxonomia v0.1

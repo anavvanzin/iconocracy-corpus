@@ -304,7 +304,7 @@
     "4": {
       "panelId": 4,
       "panelName": "ENDURECIMENTO",
-      "thesis_claim": "Existe uma trajetória ordenada cuja medida (endurecimento_score) cresce monotonicamente no tempo, atravessando regimes (fundacional → normativo → militar), nas escalas individual, nacional e transnacional.",
+      "thesis_claim": "O corpo alegórico feminino acumula atributos de endurecimento — desincorporação, rigidez postural, heraldização, enquadramento arquitetônico, serialidade — à medida que o Estado o convoca para funções normativas e militares. A demonstração é montagem: inventários comparados de atributos entre casos, nas escalas individual, nacional e transnacional, sem curva agregada e sem afirmação de monotonia.",
       "expected_relations": [
         "Endurecimento progressivo",
         "Martialização",
@@ -396,7 +396,7 @@
       "threads": [],
       "essay": {
         "title": "Painel 4 — ENDURECIMENTO",
-        "body": "# ENDURECIMENTO\n\n**Tese:** Existe uma trajetória ordenada cuja medida (endurecimento_score) cresce monotonicamente no tempo, atravessando regimes (fundacional → normativo → militar), nas escalas individual, nacional e transnacional.\n\n**Período:** 1870–1943\n**Regime primário:** militar\n**Relações esperadas:** Endurecimento progressivo, Martialização, Serialização, Genealogia\n\n---\n\n## Argumento\n\n[escrever durante a sessão]\n\n## Fios desenhados\n\n[lista automática após exportar]\n"
+        "body": "# ENDURECIMENTO\n\n**Tese:** O corpo alegórico feminino acumula atributos de endurecimento — desincorporação, rigidez postural, heraldização, enquadramento arquitetônico, serialidade — à medida que o Estado o convoca para funções normativas e militares. A demonstração é montagem: inventários comparados de atributos entre casos, nas escalas individual, nacional e transnacional, sem curva agregada e sem afirmação de monotonia.\n\n> Nota de instrumento: o índice composto foi aposentado no codebook v2.2.1 (DEC-2026-07-28). Este painel compara inventários verbais de atributos, não escores. Onde o argumento antes dizia \"a medida cresce\", ele agora precisa mostrar QUAIS atributos entram, quais saem e em que suporte.\n\n**Período:** 1870–1943\n**Regime primário:** militar\n**Relações esperadas:** Endurecimento progressivo, Martialização, Serialização, Genealogia\n\n---\n\n## Argumento\n\n[escrever durante a sessão]\n\n## Fios desenhados\n\n[lista automática após exportar]\n"
       }
     },
     "5": {

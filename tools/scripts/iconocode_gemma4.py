@@ -43,6 +43,8 @@ from pathlib import Path
 from typing import Any
 
 import requests
+from tools.scripts.lpai_indicators import attribute_inventory
+
 
 REPO = Path(__file__).resolve().parent.parent.parent
 CORPUS_PATH = REPO / "corpus" / "corpus-data.json"
@@ -463,7 +465,9 @@ def build_staging_record(
 ) -> dict[str, Any]:
     """Assemble the JSONL line. Always produces a record, even on failure."""
     indicators = coerce_indicators((parsed or {}).get("indicators"))
-    mean = round(sum(indicators.values()) / len(indicators), 2)
+    # Composto aposentado no codebook v2.2.1 (DEC-2026-07-28): no lugar da
+    # média, o registro leva o inventário verbal dos atributos marcados.
+    inventario = attribute_inventory(indicators)
 
     regime = None
     if parsed and isinstance(parsed.get("regime"), str):
@@ -497,7 +501,7 @@ def build_staging_record(
         # the reconciliation-ready name so downstream arbitration works unchanged.
         "indicators": indicators,
         "regime": regime,
-        "endurecimento_score": mean,
+        "inventario_verbal": inventario,
         "reasoning": reasoning,
         "image_hash": image_hash,
         "confidence": confidence,
@@ -679,7 +683,8 @@ def main(argv: list[str] | None = None) -> int:
 
         append_jsonl(args.output, record)
         print(
-            f"  -> {record['confidence']} | regime={record['regime']} | mean={record['endurecimento_score']}",
+            f"  -> {record['confidence']} | regime={record['regime']} | "
+            f"atributos={len(record['inventario_verbal'])}",
             file=sys.stderr,
         )
         if record["confidence"] == "low":

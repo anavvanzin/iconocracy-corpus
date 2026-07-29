@@ -7,12 +7,19 @@
   "additionalProperties": false,
   "required": [
     "id",
-    "desincorporacao", "rigidez_postural", "dessexualizacao",
-    "uniformizacao_facial", "heraldizacao", "enquadramento_arquitetonico",
-    "apagamento_narrativo", "monocromatizacao", "serialidade",
+    "desincorporacao",
+    "rigidez_postural",
+    "dessexualizacao",
+    "uniformizacao_facial",
+    "heraldizacao",
+    "enquadramento_arquitetonico",
+    "apagamento_narrativo",
+    "monocromatizacao",
+    "serialidade",
     "inscricao_estatal",
-    "purificacao_composto", "regime_iconocratico",
-    "coded_by", "coded_at"
+    "regime_iconocratico",
+    "coded_by",
+    "coded_at"
   ],
   "properties": {
     "id": {
@@ -27,25 +34,71 @@
       ],
       "description": "Corpus identifier (e.g., FR-013, BR-001, DE-NOTG-1921, SCOUT-558) or UUID for vault-imported pilot items"
     },
-    "desincorporacao":             { "type": "integer", "minimum": 0, "maximum": 3 },
-    "rigidez_postural":            { "type": "integer", "minimum": 0, "maximum": 3 },
-    "dessexualizacao":             { "type": "integer", "minimum": 0, "maximum": 3 },
-    "uniformizacao_facial":        { "type": "integer", "minimum": 0, "maximum": 3 },
-    "heraldizacao":                { "type": "integer", "minimum": 0, "maximum": 3 },
-    "enquadramento_arquitetonico": { "type": "integer", "minimum": 0, "maximum": 3 },
-    "apagamento_narrativo":        { "type": "integer", "minimum": 0, "maximum": 3 },
-    "monocromatizacao":            { "type": "integer", "minimum": 0, "maximum": 3 },
-    "serialidade":                 { "type": "integer", "minimum": 0, "maximum": 3 },
-    "inscricao_estatal":           { "type": "integer", "minimum": 0, "maximum": 3 },
+    "desincorporacao": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "rigidez_postural": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "dessexualizacao": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "uniformizacao_facial": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "heraldizacao": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "enquadramento_arquitetonico": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "apagamento_narrativo": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "monocromatizacao": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "serialidade": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "inscricao_estatal": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
     "purificacao_composto": {
       "type": "number",
       "minimum": 0,
       "maximum": 3,
-      "description": "Arithmetic mean of the 10 indicators"
+      "description": "LEGACY_FROZEN since codebook v2.2.1 (decision DEC-2026-07-28-COMPOSTO). Arithmetic mean of the 10 indicators. Optional and not to be emitted by new coding; legacy values are kept without recomputation and carry no evidentiary weight.",
+      "deprecated": true
     },
     "regime_iconocratico": {
       "type": "string",
-      "enum": ["fundacional", "normativo", "militar", "contra-alegoria"]
+      "enum": [
+        "fundacional",
+        "normativo",
+        "militar",
+        "contra-alegoria"
+      ]
     },
     "coded_by": {
       "type": "string",
@@ -72,7 +125,11 @@
     },
     "adjudication_status": {
       "type": "string",
-      "enum": ["single", "pending", "adjudicated"],
+      "enum": [
+        "single",
+        "pending",
+        "adjudicated"
+      ],
       "description": "Whether this record has been reviewed for inter-rater agreement"
     },
     "notes": {
@@ -84,11 +141,17 @@
       "description": "Country code of origin (e.g., BR, FR, US)"
     },
     "medium_norm": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Normalized medium descriptor"
     },
     "period": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Historical period classification"
     },
     "title": {

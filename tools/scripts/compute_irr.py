@@ -339,7 +339,8 @@ def report_paired(paired_codings: dict[str, list[dict]], bootstrap_ci_flag: bool
             composite_diffs.append(abs(c1 - c2))
 
     if composite_diffs:
-        print(f"\n  Composite score (purificacao_composto):")
+        print(f"\n  [LEGACY — diagnostic only, no evidentiary weight; codebook v2.2.1]")
+        print(f"  Composite score (purificacao_composto), legacy_frozen:")
         print(f"    Mean absolute difference: {np.mean(composite_diffs):.3f}")
         print(f"    Max  absolute difference: {max(composite_diffs):.3f}")
 
@@ -445,7 +446,8 @@ def report(all_codings: dict[str, list[dict]]) -> dict[str, Any] | None:
         if len(composites) >= 2:
             composite_diffs.append(max(composites) - min(composites))
     if composite_diffs:
-        print("\n  Composite score (purificacao_composto):")
+        print("\n  [LEGACY — diagnostic only, no evidentiary weight; codebook v2.2.1]")
+        print("  Composite score (purificacao_composto), legacy_frozen:")
         print(f"    Mean absolute difference: {np.mean(composite_diffs):.3f}")
         print(f"    Max  absolute difference: {max(composite_diffs):.3f}")
 
