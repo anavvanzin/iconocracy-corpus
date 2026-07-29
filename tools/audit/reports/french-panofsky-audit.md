@@ -90,7 +90,7 @@ A inspeção do campo `coded_by` revela três grupos:
 Todas as **dez entradas dos Emprunts de la Défense Nationale (1916–1920)** estão sem qualquer codificação. Trata-se de um cluster militar/normativo de transição que pode ser codificado em lote: cartazes de empréstimo de guerra com iconografia republicana, mesmo gênero, mesmo período, mesma função propagandística. Sugere campanha única de codificação.
 
 ### Padrão 3 — Indicadores presentes, Panofsky ausente (irregular)
-Entradas como FR-013, FR-014, FR-015–017, FR-018, FR-PIAST-1885, FR-SEM-1898, FR-HERC-1870 têm `endurecimento_score` calculado a partir dos `indicadores`, **mas o texto Panofsky que justificaria esses scores não foi registrado.** Para a tese ser defensável, cada score numérico precisa ter texto descritivo de suporte. **Esta é a lacuna mais crítica.**
+Entradas como FR-013, FR-014, FR-015–017, FR-018, FR-PIAST-1885, FR-SEM-1898, FR-HERC-1870 têm `indicadores` preenchidos e `endurecimento_score` legado, **mas o texto Panofsky que justificaria essa codificação não foi registrado.** Esta lacuna foi uma das razões da aposentadoria do índice composto no codebook v2.2.1 (DEC-2026-07-28): o número sobrevivia sozinho, sem a descrição que o sustentaria. Para a tese ser defensável, cada indicador marcado precisa de texto descritivo de suporte. **Esta é a lacuna mais crítica.**
 
 ### Padrão 4 — Campo `iconological.regime` em texto curto
 Para as 10 entradas com Panofsky parcial, o `iconological.regime` aparece como rótulo categórico (ex.: "FUNDACIONAL", "NORMATIVO transitioning to NORMATIVO") em vez de **análise iconológica de regime**. O campo deveria conter o terceiro nível de Panofsky — leitura simbólica do regime iconocrático em que a obra opera —, não apenas redundância da tag categórica `regime`.
@@ -108,7 +108,7 @@ Para as 10 entradas com Panofsky parcial, o `iconological.regime` aparece como r
 - [ ] **FR-017** (Necker 1781, variante 3) — idem FR-015.
 - [ ] **FR-018** (Ernouf, 1796) — Preencher Panofsky completo. Tese: modulação directorial, fusão alegoria/retrato individual.
 - [ ] **FR-012 vs FR-021** (Delacroix duplicado) — Decidir entrada canônica. Sugerido: manter **FR-012**; excluir FR-021 do corpus. Atualizar JSON, atlas, citações.
-- [ ] **FR-021** (Delacroix sem regime) — se for mantida em vez de FR-012, completar `regime`, `indicadores` (10), `endurecimento_score`, Panofsky completo.
+- [ ] **FR-021** (Delacroix sem regime) — se for mantida em vez de FR-012, completar `regime`, `indicadores` (10), inventário verbal de atributos e Panofsky completo. Não calcular composto (aposentado em v2.2.1).
 
 ### TIER 2 — Entradas fundacionais e numismáticas citáveis (urgência média)
 
@@ -134,7 +134,7 @@ Codificação ausente nas 10 entradas a seguir; mesmo gênero, podem ser codific
 - [ ] **FR-028** Prêtez à la France (1920)
 - [ ] **FR-029** Emprunt national 1920 — Société centrale des banques (1920)
 
-Para cada uma: atribuir `regime` (provável: militar ou normativo-militar), preencher 10 `indicadores`, calcular `endurecimento_score`, redigir Panofsky completo.
+Para cada uma: atribuir `regime` (provável: militar ou normativo-militar), preencher os 10 `indicadores`, registrar o inventário verbal dos atributos marcados e redigir Panofsky completo. Não calcular composto (aposentado em v2.2.1).
 
 ### TIER 4 — Aprimoramento dos campos "Thin" existentes
 

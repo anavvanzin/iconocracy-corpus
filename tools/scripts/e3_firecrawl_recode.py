@@ -17,6 +17,8 @@ import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+from tools.scripts.lpai_indicators import attribute_inventory, is_uncoded
+
 
 REPO = Path(__file__).resolve().parent.parent.parent
 RECORDS_PATH = REPO / "data" / "processed" / "records.jsonl"
@@ -144,8 +146,10 @@ def main():
     all_items = load_pathos()
     records = load_records()
     
-    # Find items with score 0.0
-    zeros = {k: v for k, v in all_items.items() if v["purificacao_composto"] == 0.0}
+    # Fila de recodificação: itens SEM indicadores codificados. Antes o filtro
+    # era composto == 0.0, o que confundia "não codificado" com "codificado e
+    # baixo". O composto foi aposentado no codebook v2.2.1 (DEC-2026-07-28).
+    zeros = {k: v for k, v in all_items.items() if is_uncoded(v)}
     print(f"Items to recode: {len(zeros)}\n")
     
     successes = 0
@@ -214,7 +218,7 @@ def main():
             else:
                 regime = item.get("regime_iconocratico", "fundacional")
         
-        score = sum(indicators.values()) / len(indicators)
+        inventario = attribute_inventory(indicators)
         notes = parsed.get("notes", "")
         if isinstance(notes, dict):
             notes = str(list(notes.values())[0]) if notes.values() else ""
@@ -222,14 +226,14 @@ def main():
         
         updated_item = dict(item)
         updated_item.update(indicators)
-        updated_item["purificacao_composto"] = round(score, 1)
+        updated_item["inventario_verbal"] = inventario
         updated_item["regime_iconocratico"] = regime
         updated_item["notes"] = notes
         updated_item["coded_by"] = "e1-gemma4/gemma4-fcrecode"
         updated_item["coded_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         
         updated.append(updated_item)
-        print(f"score={score:.1f}, regime={regime}")
+        print(f"atributos={len(inventario)}, regime={regime}")
         successes += 1
         
         if i < len(zeros) - 1:

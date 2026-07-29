@@ -14,6 +14,7 @@ scripts_afetados:
   - tools/scripts/lpai_proxy_coder_k3.py
   - tools/scripts/compute_irr.py
 status: vigente
+migracao: concluida
 licenca: CC-BY-4.0
 ---
 
@@ -83,8 +84,10 @@ monotonia precisa ser reformulada como montagem de casos, não como curva.
 
 ## Migração
 
-Consumidores que ainda produzem ou dependem do composto, a tratar em issue
-própria:
+Consumidores migrados. O módulo `tools/scripts/lpai_indicators.py` concentra a
+leitura não agregadora dos indicadores (`attribute_inventory`,
+`attribute_count`, `coding_coverage`, `is_uncoded`) e um acessor somente de
+leitura para valores congelados (`legacy_composite`), que nunca calcula:
 
 | Arquivo | Situação | Ação |
 |---|---|---|
@@ -92,11 +95,13 @@ própria:
 | `tools/schemas/purification-record.schema.json` | resolvido | campo deixa de ser `required`, marcado `deprecated` |
 | `tools/schemas/master-record.schema.json` | resolvido | campo marcado `deprecated` |
 | `tools/scripts/compute_irr.py` | resolvido | seção de composto rotulada como legado diagnóstico |
-| `tools/scripts/csv_to_records.py` | pendente | para de calcular composto na ingestão |
-| `tools/scripts/iconocode_gemma4.py` | pendente | `endurecimento_score` sai do registro emitido |
-| `tools/scripts/e3_firecrawl_recode.py` | pendente | recodificação sem escore |
-| `tools/audit/scripts/analyze_threads.py` e `_v2.py` | pendente | ordenação de fios por atributo, não por escore |
-| `tools/audit/mnemosyne/starter-8panels.json` | pendente | reescrever a tese do painel ENDURECIMENTO |
+| `tools/scripts/csv_to_records.py` | resolvido | não calcula composto; repassa valor legado quando existe; confiança passa a vir da cobertura do instrumento |
+| `tools/scripts/iconocode_gemma4.py` | resolvido | `endurecimento_score` sai; entra `inventario_verbal` |
+| `tools/scripts/e3_firecrawl_recode.py` | resolvido | fila selecionada por item não codificado, não por composto zero |
+| `tools/audit/scripts/analyze_threads.py` e `_v2.py` | resolvido | ordenação, cadeias e rótulos por contagem de atributos |
+| `tools/audit/mnemosyne/starter-8panels.json` | resolvido | tese do painel reescrita como inventário comparado |
+| `tools/audit/reports/french-panofsky-audit.md` | resolvido | checklists pedem inventário verbal + Panofsky, não escore |
+| `tools/audit/reports/systematic-review-conversation.md` | resolvido | idem |
 
 ## Efeito no instrumento
 
