@@ -3,9 +3,9 @@ titulo: "O Atlas Iconocrático: Princípios e Arquitetura"
 parte: "IV — Atlas e Síntese"
 capitulo: 8
 status: "rascunho"
-palavras: 0
-citacoes: 0
-updated: "2026-07-08"
+palavras: 1984
+citacoes: 3
+updated: "2026-07-31"
 pandoc:
   reference-doc: "template.docx"
   csl: "abnt.csl"
@@ -14,7 +14,7 @@ pandoc:
 
 # Capítulo 8 — O Atlas Iconocrático: Princípios e Arquitetura
 
-> **Estado:** rascunho autoral de 2026-07-08. Este capítulo expõe os *princípios* de construção do
+> **Estado:** rascunho autoral revisado em 2026-07-31. Este capítulo expõe os *princípios* de construção do
 > Atlas; os oito painéis concretos que deles resultam são desenvolvidos no Capítulo 9. `<!-- CITAÇÃO
 > PENDENTE -->` marca pontos que exigem inserir referência antes da entrega.
 
@@ -34,7 +34,7 @@ Capítulo 9 apresenta os oito painéis que dela resultam.
 > **Tese parcial.** O Atlas Iconocrático não é uma aplicação do método de Warburg a um novo material,
 > mas uma *reoperação jurídica* dele: herda a montagem, a Pathosformel e o Nachleben, mas substitui a
 > "psicologia da expressão" warburguiana por uma analítica do poder soberano, e acrescenta ao gesto
-> visual da montagem uma métrica ordinal — o endurecimento — que Warburg não possuía. A diferença não é
+> visual da montagem um inventário ordinal de atributos de endurecimento que Warburg não possuía. A diferença não é
 > de escala, mas de objeto: onde Warburg rastreava a sobrevivência de fórmulas de *páthos*, o Atlas
 > Iconocrático rastreia a sobrevivência de fórmulas de *poder*.
 
@@ -63,14 +63,15 @@ não da sensibilidade.
 Dessa reoperação decorre a adaptação decisiva, aquela que distingue o Atlas Iconocrático de uma simples
 transposição temática do método warburguiano. Warburg justapunha imagens e deixava que a afinidade
 *falasse* pela vizinhança; o juízo sobre a intensidade do gesto permanecia intuitivo, confiado ao olho
-do montador. O Atlas Iconocrático acrescenta a essa justaposição uma **métrica**: cada imagem do painel
-carrega o seu vetor de dez indicadores de endurecimento (Cap. 5) e o seu escore composto. A afinidade
-deixa de ser apenas qualitativa — "estas duas figuras se parecem" — e passa a ser *ordinal*: "esta
-figura está mais purificada que aquela, e a diferença é mensurável". O painel, assim, não apenas exibe
-a sobrevivência de uma fórmula; ele mede a sua *trajetória de endurecimento* ao longo do intervalo. É a
-articulação entre a intuição warburguiana da montagem e o rigor iconométrico da Parte II que constitui a
-originalidade formal deste capítulo — e é ela que permite ao Atlas ser, ao mesmo tempo, um argumento
-visual e um argumento verificável.
+do montador. O Atlas Iconocrático acrescenta a essa justaposição um **inventário comparado**: cada
+imagem codificada é descrita pelos dez indicadores ordinais de endurecimento (Cap. 5), mantidos
+separados para que propriedades técnicas, institucionais e iconográficas não sejam tratadas como
+intercambiáveis. A comparação deixa de ser apenas uma impressão de semelhança e passa a declarar quais
+atributos variam entre os objetos. Nos itens ainda não codificados ou sob revisão, a montagem conserva
+valor qualitativo, mas não sustenta ordenação numérica. Essa articulação entre a intuição warburguiana
+da montagem e a auditabilidade iconométrica da Parte II constitui a originalidade formal do capítulo:
+o Atlas formula um argumento visual cujas decisões permanecem examináveis sem comprimi-las num índice
+composto.
 
 ## 8.2 — Critérios de composição dos painéis
 
@@ -89,19 +90,18 @@ as Mariannes juntas, todas as Justiças juntas. Reúne-as por *deslocamento de r
 é sempre uma passagem entre dois dos regimes iconocráticos definidos no Capítulo 2 (fundacional,
 normativo, militar) ou a sua interrupção pela contra-alegoria. O Painel III do Capítulo 9, por exemplo,
 não é "o painel da Marianne", mas o painel da passagem *do corpo vivo ao corpo-máquina* — a transição
-fundacional → normativo —, e por isso justapõe a República encarnada de Villares (1889) e a Semeuse
-perfilada de Roty (1897), objetos que a iconografia convencional jamais aproximaria. O motivo é o
+fundacional → normativo —, e por isso justapõe a República encarnada de Villares (c. 1900) e a Semeuse
+perfilada de Roty (1898), objetos que a iconografia convencional jamais aproximaria. O motivo é o
 pretexto; o argumento é a trajetória.
 
 **Segundo, o critério dos polos e do contraponto.** A arquitetura material do painel — herdada da
 prancha warburguiana, mas disciplinada — dispõe os objetos em posições argumentativas, não decorativas.
-Um **polo esquerdo** marca o ponto de partida da transição (o corpo menos endurecido); um **polo
-direito** marca o ponto de chegada (o corpo mais endurecido); e um **contraponto inferior** exibe um
-objeto que *falha* ou *resiste* à operação — a alegoria que não cruza o limiar, a figura que conserva
-corporalidade, a contra-alegoria que subverte a fórmula. A escolha dos polos é ancorada no escore
-composto: o polo esquerdo tem endurecimento baixo, o direito, alto, e o gradiente entre eles é a
-*medida* da transição que o painel encena. Onde Warburg confiava a leitura à vizinhança, o Atlas
-Iconocrático a ancora numa ordenação verificável.
+Um **polo esquerdo** marca o ponto de partida da transição; um **polo direito**, a configuração que o
+painel propõe como chegada; e um **contraponto inferior** exibe um objeto que *falha*, resiste ou torna
+ambígua a operação. Quando os itens dispõem de codificação validada e comparável, o inventário dos dez
+atributos controla essa disposição. Quando a montagem é genealógica, material ou contra-alegórica, a
+posição decorre da função analítica explicitada no texto. Os polos, portanto, não constituem uma escala
+numérica automática: são hipóteses de relação submetidas ao confronto com os registros.
 
 **Terceiro, o critério do texto de painel.** À imagem justapõe-se o texto — não uma legenda descritiva,
 mas um bloco curto (200–500 palavras) que enuncia a operação em curso. É aqui que a leitura iconológica
@@ -112,11 +112,12 @@ centro do painel frequentemente *não tem imagem*: o que ali se mostra não é u
 entre objetos. O Zwischenraum, como se verá, é literalmente um vazio composicional carregado de sentido.
 
 Desses três critérios decorre a economia dos oito painéis do Capítulo 9. Eles não esgotam o corpus —
-seria impossível, e o Capítulo 6 já cobre a distribuição completa —, mas selecionam as oito transições
-que melhor demonstram a tese: a gênese fundacional, a Justitia normativa, a domesticação do corpo, a
-falha americana do limiar da dessexualização, a petrificação em pedra e bronze, a balança como
-argumento imperial, a branquitude constitutiva e as fissuras contra-alegóricas. Cada painel é um teorema
-visual: uma proposição que a montagem *demonstra* em vez de apenas afirmar.
+seria impossível, e o Capítulo 6 já cobre a distribuição completa —, mas selecionam oito configurações
+analíticas: a gênese fundacional, a Justitia normativa, a domesticação do corpo, a hipótese
+estadunidense do limiar da dessexualização, a petrificação em pedra e bronze, a passagem da
+argumentação à garantia imperial, a branquitude constitutiva e as fissuras contra-alegóricas. Cada
+painel formula uma proposição visual que a montagem torna examinável, não uma demonstração causal
+produzida pela mera proximidade entre imagens.
 
 ## 8.3 — O Zwischenraum como princípio estruturante
 
@@ -144,9 +145,9 @@ painel torna visível essa invisibilidade ao materializá-la como vazio central:
 *produzir*, no intervalo, a operação que a cultura oficial recalcou. A **segunda** é a *reversibilidade
 truncada*: o Zwischenraum tem direção. Ele conduz do corpo vivo ao corpo-máquina, e a resistência a essa
 direção — o corpo que se recusa a atravessar o intervalo — não o inverte, mas o interrompe, produzindo a
-contra-alegoria. O Painel IV do Capítulo 9 nomeia essa interrupção com precisão clínica: o Zwischenraum
-como "cemitério das alegorias mal-nascidas", onde os corpos que falham em cruzar o limiar da
-dessexualização apodrecem como moeda que não pode circular. A **terceira** é a *carga jurídica*: o que
+contra-alegoria. O Painel IV do Capítulo 9 testa essa interrupção como hipótese localizada: certas
+configurações preservam atributos de corporalidade que tornam não linear a passagem entre os regimes.
+A **terceira** é a *carga jurídica*: o que
 atravessa o intervalo não é uma emoção que retorna, mas um contrato que se reencena. O Nachleben
 iconocrático é a sobrevivência do Contrato Sexual Visual — e, na sua dimensão racializada, do Contrato
 Racial Visual (Cap. 3) — através de cada nova cunhagem. O corpo que reaparece no polo direito do painel
@@ -169,9 +170,8 @@ poder tem rosto de mulher, e por que essa mulher jamais teve o poder.
 > 1. **Referências Warburg/Nachleben** — confirmar que `warburg2000` e `didihuberman2002` cobrem as
 >    passagens citadas (Bilderatlas Mnemosyne; Pathosformel/Nachleben/Denkraum); inserir edição
 >    específica do *Bilderatlas* se necessário via `zotero-cite`.
-> 2. **Coerência com o Cap. 9** — garantir que a numeração e os títulos dos oito painéis referenciados
->    aqui (Gênese, Justitia, Domesticação, endurecimento/limiar, Pedra e Bronze, Balança e Império,
->    Branquitude, Fissuras) permaneçam idênticos aos do Cap. 9 quando este for consolidado.
+> 2. **Inventário de atributos** — manter a decisão `DEC-2026-07-28-COMPOSTO`: os dez indicadores
+>    permanecem comparáveis individualmente; o índice composto legado não tem valor probatório.
 > 3. **Não ceder autoria** dos quatro conceitos originais (Contrato Sexual Visual, Feminilidade de
 >    Estado, Contrato Racial Visual, Purificação Clássica) a Warburg/Mondzain: Warburg fornece o
 >    *dispositivo* (montagem), não os conceitos.
