@@ -245,7 +245,15 @@ Mapa de reescrita, do mais crítico ao cosmético:
    diagnóstico da autora (exploratório tratado como definitivo) → aposentadoria
    formal. O rastro `legacy_frozen` é a evidência documental dessa
    reflexividade — poucos corpus de tese têm a própria crítica metodológica
-   inscrita no ledger.
+   inscrita no ledger. Fundamentação disciplinar da narrativa:
+   `docs/research/deep-research-padrao-metodologico-iconografia-juridica-2026-07-31.md`
+   — o padrão efetivamente praticado pela iconografia jurídica (Sbriccoli,
+   Hayaert, Resnik & Curtis), o paradigma indiciário como estatuto do
+   inventário verbal, o corpus como catálogo documentado (Trouillot), e os
+   quatro elementos textuais de resposta à arguição "isso não é
+   impressionismo?" (par Hayaert/Roele). Compatível com F2.5: o IRR da lente
+   qualitativa permanece auditoria interna de qualidade, não fundamento
+   epistêmico reivindicado perante a banca.
 6. **Arquivos `*_original` permanecem protegidos** (hook PreToolUse); a
    reescrita acontece nas versões vigentes e em `vault/tese/`.
 
