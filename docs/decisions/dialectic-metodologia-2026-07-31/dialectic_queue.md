@@ -1,15 +1,17 @@
 # Dialectic Queue — contradições abertas (mapa do território)
 
-Rodada 1 encerrada com síntese validada (dois monks elevados; achados GRAVES do auditor incorporados). Direções para rodadas futuras — **a Ana escolhe**:
+**Rodada 1** (coeficiente × recusa indiciária): síntese validada — o corpus como edição crítica, gramática [C]/[E]/[H]. **Rodada 2** (direção 3, executada em 2026-07-31): estabelecimento sem arquétipo — sublação monetária **refutada pelo auditor hostil** (resultado negativo documentado); sobrevive o núcleo não-monetário (Bédier, três condições, duas vias, quadro reflexivo, aporia de gênero declarada). Ver `round_2_sintese_final.md`.
 
-1. **[TESTÁVEL AGORA — não precisa de dialética] Executabilidade da colação.** Migração do `purification-record.schema.json` (integer 0–3 → enum verbal v2.2.x) + decisão de escala única (§7.3) + suporte real a codificações múltiplas por item + desenho do conjunto de sobreposição (quais 20–30%, estratificação por suporte). É o desbloqueador de tudo; puro trabalho de engenharia + uma adjudicação.
-2. **[ADJUDICAÇÃO ⚖] O destino de §6.5 sob o critério de replicação.** A "economia de corpos executável" replica intra-estrato? Se não, a tese aceita rebaixar uma contribuição-vitrine a leitura estratificada/heurística — ou reformula o §6.5 para que a alegação seja formulável por estrato? Custo declarado na síntese final; decisão de conteúdo, não de método.
-3. **[DIALÉTICA FUTURA] O texto estabelecido sem arquétipo.** O auditor expôs que a edição crítica clássica pressupõe um arquétipo que a tese nega. A síntese respondeu assumindo o "estabelecimento sem arquétipo" como ato editorial declarado — mas isso abre a pergunta mais funda: **o que o juízo da adjudicadora estabelece, se não há original a restituir?** Conecta com Feminilidade de Estado (a autoria do Estado sobre o corpo alegórico) e com a autoria da editora sobre o corpus: a tese que estuda o poder de fixar imagens exerce, ela mesma, um poder de fixar leituras. Candidata a rodada 2 — tem contradição genuína e material warburguiano.
-4. **[MUNDO REAL — perene] A pergunta institucional.** "A banca aceita rigor = auditabilidade hermenêutica / gramática de registros?" — pendente desde 2026-06-19, agora com forma operacional: levar a tabela de alegações transversais + aparato por item à orientação antes da redação final do Cap. 2. Input que nenhum monk pode fornecer.
-5. **[SPIN-OFF pós-defesa] O desacordo como medida do labor interpretativo.** O achado mais original de B (α baixo em `dessexualizacao` = magnitude do trabalho da adjudicadora; concordância alta entre parentes = "parentesco de família", não objetividade) é publicável por si como contribuição de humanidades digitais — limites da leitura iconográfica maquínica. Não bloqueia a tese; enriquece o portfólio.
+Direções abertas — **a Ana escolhe**:
+
+1. **[TESTÁVEL AGORA — não precisa de dialética] Executabilidade da colação.** Migração do `purification-record.schema.json` (integer 0–3 → enum verbal v2.2.x) + decisão de escala única (§7.3) + codificações múltiplas por item + desenho do conjunto de sobreposição. **Reforçada pela R2**: sem isso, o exemplo FR-013 segue hipotético e a condição de inseparabilidade não tem objeto. Desbloqueador de tudo.
+2. **[ADJUDICAÇÃO ⚖] O destino de §6.5 sob o critério de replicação.** Intacta da rodada 1; custo de contribuição-vitrine declarado.
+3. ~~**O texto estabelecido sem arquétipo**~~ — **executada (R2)**. Resíduo herdado: a **aporia do gênero do Cap. 6** (corpo+aparato vs dossiê sinótico) — não decidível pela epistemologia construída; decisão de voz autoral com custos mapeados (R2 §3).
+4. **[MUNDO REAL — perene] A pergunta institucional.** Levar à orientação a arquitetura consolidada (Bédier + três condições + duas vias + gramática R1) antes da redação final do Cap. 2. Herdada de 2026-06-19, agora com conteúdo completo.
+5. **[SPIN-OFF pós-defesa] O desacordo como medida do labor interpretativo.** Intacta da rodada 1; publicável por si.
+6. **[NOVA — OPCIONAL, pós-defesa] Requeima do corolário monetário com fundamento real.** Se "iconocracia = emissão irresgatável" voltar, o caminho mínimo mapeado pelo auditor: teoria monetária de verdade (Knapp, Ingham, Graeber, Simmel; *cours forcé*), analogia restrita a papel-moeda, resolução da inversão corrida-ao-banco, e instrumento de medida para "reserva". Custo alto; ganho incerto; jamais antes da defesa.
+7. **[EXECUTÁVEL — pende ⚖] Erratas da R2** (§4 da síntese final): glosa de Mondzain em `concepts/economia-iconica.md`; definição de Purificação Clássica no glossário; licença CC0; exemplo FR-013 como hipotético; percentuais 57,0%/46,6%.
 
 ## Herança de filas anteriores
 
-- Fila 2026-06-19 item #1 (confound testável): **absorvido** pela direção 1 desta fila (o conjunto de sobreposição é o teste).
-- Fila 2026-06-19 item #2 (partição Panofsky indicador-a-indicador): **resolvido em espírito** pela gramática de registros — a partição deixou de ser por indicador e passou a ser por alegação.
-- Fila 2026-06-19 item #5 (política da moldura / banca): **continua vivo** como direção 4 desta fila.
+- Fila 2026-06-19 #1 (confound testável): absorvido pela direção 1. · #2 (partição Panofsky): resolvido pela gramática de registros (R1). · #5 (política da moldura/banca): vivo como direção 4.
