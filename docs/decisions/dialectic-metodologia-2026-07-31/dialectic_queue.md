@@ -10,7 +10,7 @@ Direções abertas — **a Ana escolhe**:
 4. **[MUNDO REAL — perene] A pergunta institucional.** Levar à orientação a arquitetura consolidada (Bédier + três condições + duas vias + gramática R1) antes da redação final do Cap. 2. Herdada de 2026-06-19, agora com conteúdo completo.
 5. **[SPIN-OFF pós-defesa] O desacordo como medida do labor interpretativo.** Intacta da rodada 1; publicável por si.
 6. **[NOVA — OPCIONAL, pós-defesa] Requeima do corolário monetário com fundamento real.** Se "iconocracia = emissão irresgatável" voltar, o caminho mínimo mapeado pelo auditor: teoria monetária de verdade (Knapp, Ingham, Graeber, Simmel; *cours forcé*), analogia restrita a papel-moeda, resolução da inversão corrida-ao-banco, e instrumento de medida para "reserva". Custo alto; ganho incerto; jamais antes da defesa.
-7. **[EXECUTÁVEL — pende ⚖] Erratas da R2** (§4 da síntese final): glosa de Mondzain em `concepts/economia-iconica.md`; definição de Purificação Clássica no glossário; licença CC0; exemplo FR-013 como hipotético; percentuais 57,0%/46,6%.
+7. ~~**Erratas da R2**~~ — **executadas em 2026-07-31 por adjudicação da Ana**: glosa de Mondzain corrigida em `concepts/economia-iconica.md` (título real do bib + *oikonomia*, com nota de errata); definição literal de Purificação Clássica inscrita no glossário; exemplo FR-013 marcado como ilustração hipotética na síntese R1; percentuais corrigidos para 57,0% (159/279) nas superfícies vivas (síntese R1 + índice). Licença: verificado que "CC-BY-4.0" só ocorre em traces históricos (ensaio Monk A R2) — nenhuma superfície viva a corrigir; a síntese R2 já registra CC0 1.0.
 
 ## Herança de filas anteriores
 

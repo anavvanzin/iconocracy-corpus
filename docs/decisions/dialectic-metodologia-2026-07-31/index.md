@@ -45,7 +45,7 @@
 
 ## Estado dos fatos verificados (por B e confirmados pelo auditor)
 
-`purification.jsonl`: 279 itens, **zero** com codificação dupla (a "base natural do kappa" está vazia) · `coded_by`: 11 rótulos, 15 `ana`, **48,5% rotinas de ingestão** · IRRs pré-virada: α 0,601 (opus×fable), 0,393 (opus×Gemini-Pro brief rico), −0,02 (brief condensado); regime 0,61–0,71; monocromatização 0,874→0,103 conforme par · schema do ledger ainda `integer 0–3` + `additionalProperties: false` (colação nova é inexecutável sem migração).
+`purification.jsonl`: 279 itens, **zero** com codificação dupla (a "base natural do kappa" está vazia) · `coded_by`: 11 rótulos, 15 `ana`, **57,0% das codificações com proveniência de rotina** (159/279; errata R2/MÉDIO-9 — o 48,5% anterior misturava denominadores) · IRRs pré-virada: α 0,601 (opus×fable), 0,393 (opus×Gemini-Pro brief rico), −0,02 (brief condensado); regime 0,61–0,71; monocromatização 0,874→0,103 conforme par · schema do ledger ainda `integer 0–3` + `additionalProperties: false` (colação nova é inexecutável sem migração).
 
 ## ⚖ Adjudicação da Ana (consolidada na síntese final, §últimos)
 
