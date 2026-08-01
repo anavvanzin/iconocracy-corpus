@@ -6,14 +6,14 @@ titulo: "Exposición Universal de Lyon - Medalla"
 acervo: "Cerralbo Museum"
 url: "http://ceres.mcu.es/pages/Main?idt=2713&inventary=02712&table=FMUS&museum=MCM"
 data_estimada: "1872"
-pais: BR
-suporte: moeda
+pais: FR
+suporte: medalha
 motivo_alegorico: "República"
 regime: NORMATIVO
 confianca: baixo
 tags:
   - corpus/candidato
-  - pais/BR
+  - pais/FR
   - suporte/moeda
   - regime/normativo
   - motivo/republica
@@ -33,7 +33,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: C. T.
 **Acervo**: Cerralbo Museum
 **URL**: [link](http://ceres.mcu.es/pages/Main?idt=2713&inventary=02712&table=FMUS&museum=MCM)
-**Data**: 1872 | **País**: BR | **Suporte**: moeda
+**Data**: 1872 | **País**: FR | **Suporte**: medalha
 **Thumbnail**: [imagem](https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fceres.mcu.es%2Fpages%2FViewer%3Fraw%3Dy%26accion%3D42%26AMuseo%3DMCM%26img%3D%2FMCM%2Ffondos_pre%2FMCMF02712_P.JPG%26Ninv%3D02712&type=IMAGE)
 **Direitos**: http://rightsstatements.org/vocab/InC/1.0/
 

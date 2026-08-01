@@ -2,19 +2,19 @@
 id: SCOUT-616
 tipo: corpus-candidato
 status: candidato
-titulo: "[18 mars] : [estampe] ([Un seul état, épreuve marquée au crayon rouge : "N° 41"]) / PPierre [Petit Pierre, i.e. Steinlen]"
+titulo: '[18 mars] : [estampe] ([Un seul état, épreuve marquée au crayon rouge : "N° 41"]) / PPierre [Petit Pierre, i.e. Steinlen]'
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b53188397q"
 data_estimada: "1894"
 pais: FR
-suporte: selo
+suporte: estampa
 motivo_alegorico: "Alegoria feminina"
 regime: NORMATIVO
 confianca: muito-baixo
 tags:
   - corpus/candidato
   - pais/FR
-  - suporte/selo
+  - suporte/estampa
   - regime/normativo
   - #verificar
   - hunt-candidate
@@ -32,7 +32,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Steinlen, Théophile Alexandre (1859-1923). Lithographe
 **Acervo**: Bibliothèque nationale de France
 **URL**: [link](https://gallica.bnf.fr/ark:/12148/btv1b53188397q)
-**Data**: 1894 | **País**: FR | **Suporte**: selo
+**Data**: 1894 | **País**: FR | **Suporte**: estampa
 **Thumbnail**: [imagem](https://gallica.bnf.fr/ark:/12148/btv1b53188397q/f1.thumbnail)
 **Direitos**: domaine public
 

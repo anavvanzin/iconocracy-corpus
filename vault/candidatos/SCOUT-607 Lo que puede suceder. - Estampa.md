@@ -5,16 +5,16 @@ status: candidato
 titulo: "Lo que puede suceder. - Estampa"
 acervo: "National Museum of Romanticism"
 url: "http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR"
-data_estimada: ""
-pais: BR
-suporte: moeda
+data_estimada: "1870"
+pais: ES
+suporte: estampa
 motivo_alegorico: "República"
 regime: NORMATIVO
 confianca: baixo
 tags:
   - corpus/candidato
-  - pais/BR
-  - suporte/moeda
+  - pais/ES
+  - suporte/estampa
   - regime/normativo
   - motivo/republica
   - #verificar
@@ -30,10 +30,10 @@ data_scout: 2026-07-25
 ## Lo que puede suceder. - Estampa
 
 ### Identificação
-**Criador/Gravador**: Dibujante y editor: Ortego y Vereda, Francisco (Lugar de nacimiento: Madrid (m), 1833 - Lugar de defunción: París, 1881)
+**Criador/Gravador**: Ortego y Vereda, Francisco (1833–1881), dibujante e editor
 **Acervo**: National Museum of Romanticism
 **URL**: [link](http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR)
-**Data**: indeterminada | **País**: BR | **Suporte**: moeda
+**Data**: 1870 | **País**: ES | **Suporte**: estampa
 **Thumbnail**: [imagem](https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fceres.mcu.es%2Fpages%2FViewer%3Fraw%3Dy%26accion%3D42%26AMuseo%3DMNR%26img%3D%2FMNR%2Ffondos_pre%2FMNRFCE5714_SEQ_003_P.JPG%26Ninv%3DCE5714&type=IMAGE)
 **Direitos**: http://rightsstatements.org/vocab/InC/1.0/
 
@@ -50,7 +50,7 @@ endurecimento esperado: MÉDIO a ALTO (corpo institucionalizado).
 *Classificação preliminar baseada em metadados textuais. Requer confirmação visual.*
 
 ### Citação ABNT
-1881), Dibujante y editor: Ortego y Vereda, Francisco (Lugar de nacimiento: Madrid (m), 1833 - Lugar de defunción: París,. **Lo que puede suceder. - Estampa**. National Museum of Romanticism. Disponível em: http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR. Acesso em: 25 Jul. 2026.
+ORTEGO Y VEREDA, Francisco. **Lo que puede suceder. - Estampa**. 1870. National Museum of Romanticism. Disponível em: http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR. Acesso em: 25 Jul. 2026.
 
 ### Proveniência
 Candidato gerado automaticamente por `hunt.py` via europeana.

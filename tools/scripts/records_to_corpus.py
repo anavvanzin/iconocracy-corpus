@@ -204,12 +204,23 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
         "title": title or entry.get("title", ""),
         "description": description or entry.get("description", ""),
         "motif": motifs or entry.get("motif", []),
-        "regime": regime or entry.get("regime", ""),
-        "endurecimento_score": endurecimento or entry.get("endurecimento_score", 0.0),
         "coded_by": coded_by or entry.get("coded_by", ""),
         "coded_at": coded_at or entry.get("coded_at", ""),
         "date": inp.get("date_hint") or entry.get("date", ""),
     })
+
+    # An uncoded canonical record must not acquire analytical values merely by
+    # being exported.  In particular, zero is a valid endurecimento score, so
+    # using it as the default would incorrectly make pending SCOUT promotions
+    # look coded.  Existing enriched values remain available in merge mode.
+    if regime:
+        entry["regime"] = regime
+    elif not existing:
+        entry.pop("regime", None)
+    if "purificacao_composto" in purif:
+        entry["endurecimento_score"] = endurecimento
+    elif not existing:
+        entry.pop("endurecimento_score", None)
 
     if indicadores:
         entry["indicadores"] = indicadores

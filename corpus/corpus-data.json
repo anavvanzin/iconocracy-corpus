@@ -425,6 +425,22 @@
     "support": "cartaz"
   },
   {
+    "id": "307f2209-2999-5366-964a-8e86009d4b5b",
+    "country": "France",
+    "url": "https://www.metmuseum.org/art/collection/search/821181",
+    "title": "La Liberté",
+    "description": "Etching and pointillé. Drawings and Prints.",
+    "motif": [],
+    "coded_by": "",
+    "coded_at": "2026-08-01T00:00:00Z",
+    "date": "ca. 1794",
+    "citation_abnt": "MONCHY, Citoyenne de. La Liberté. ca. 1794. The Metropolitan Museum of Art. Disponível em: https://www.metmuseum.org/art/collection/search/821181. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "coding-pending"
+    ]
+  },
+  {
     "id": "387bc54c-e8c7-50be-b24b-a3396f1bc1da",
     "country": "Spain",
     "url": "https://en.numista.com/202071",
@@ -799,6 +815,22 @@
     "support": "cartaz"
   },
   {
+    "id": "5b14d6a4-7b6d-5111-9253-b20bb72af0a1",
+    "country": "Brazil",
+    "url": "http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS&museum=MAN",
+    "title": "Medalla",
+    "description": "Medalla de Proclamación de la Iª Républica. Matrona sentada entre montañas con gorro frigio y nivel en la mano.",
+    "motif": [],
+    "coded_by": "",
+    "coded_at": "2026-08-01T00:00:00Z",
+    "date": "1873",
+    "citation_abnt": "GARCÍA, J. Medalla. 1873. National Archaeological Museum. Disponível em: http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS&museum=MAN. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "coding-pending"
+    ]
+  },
+  {
     "id": "64d57088-2726-543f-bc9e-e382da696aee",
     "country": "Italy",
     "url": "https://touchstamps.com/Stamp/Details/219192/italy-turreted",
@@ -929,6 +961,22 @@
     "support": "monumento/escultura"
   },
   {
+    "id": "73ee9bdb-039b-5acd-b425-871fbb998b36",
+    "country": "France",
+    "url": "https://www.metmuseum.org/art/collection/search/848124",
+    "title": "Sketch of an Allegory of the Abolition of Slavery",
+    "description": "Terracotta. European Sculpture and Decorative Arts.",
+    "motif": [],
+    "coded_by": "",
+    "coded_at": "2026-08-01T00:00:00Z",
+    "date": "ca. 1848",
+    "citation_abnt": "CENTURY, Anonymous, French School, 19th. Sketch of an Allegory of the Abolition of Slavery. ca. 1848. The Metropolitan Museum of Art. Disponível em: https://www.metmuseum.org/art/collection/search/848124. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "coding-pending"
+    ]
+  },
+  {
     "id": "7b5ea66e-0285-59ea-a652-264f8a5e90bd",
     "country": "Spain",
     "url": "https://en.numista.com/6274",
@@ -959,6 +1007,22 @@
       "vault-import"
     ],
     "support": "moeda"
+  },
+  {
+    "id": "7f2f25d9-e351-502e-b308-fd784e972fbf",
+    "country": "Brazil",
+    "url": "http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=MCM",
+    "title": "Ficha",
+    "description": "Alegoría de la República Francesa vestida a la romana, con fasces, báculo con gorro frigio y Victoria alada.",
+    "motif": [],
+    "coded_by": "",
+    "coded_at": "2026-08-01T00:00:00Z",
+    "date": "1870",
+    "citation_abnt": "Ficha. 1870. Cerralbo Museum. Disponível em: http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=MCM. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "coding-pending"
+    ]
   },
   {
     "id": "80b1d4ad-1aa4-7f87-35b7-ba8cea46f0cf",
@@ -10506,6 +10570,22 @@
     "support": "?"
   },
   {
+    "id": "b1966d16-8731-58e4-a898-8ef3c44f59cb",
+    "country": "Brazil",
+    "url": "http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR",
+    "title": "Lo que puede suceder. - Estampa",
+    "description": "Estampa satírica com a alegoria da República no umbral de Europa, expulsando um rei diante de uma fila de monarcas.",
+    "motif": [],
+    "coded_by": "",
+    "coded_at": "2026-08-01T00:00:00Z",
+    "date": "1870",
+    "citation_abnt": "ORTEGO Y VEREDA, Francisco. Lo que puede suceder. - Estampa. 1870. National Museum of Romanticism. Disponível em: http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "coding-pending"
+    ]
+  },
+  {
     "id": "bc06d4cc-455f-530e-b86b-e046378979a3",
     "country": "Italy",
     "url": "https://filateliaalfemminile.blogspot.com/2016/11/italia-turrita-2-serie-imperiale.html",
@@ -10764,6 +10844,22 @@
     "support": "?"
   },
   {
+    "id": "d8a81f31-5b21-573f-912e-64bb29559c06",
+    "country": "Brazil",
+    "url": "http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO",
+    "title": "Relieve de la República - Relieve",
+    "description": "Placa com alegoria feminina da República, gorro frígio e balança, sobre a inscrição PLAZA DE LA REPÚBLICA.",
+    "motif": [],
+    "coded_by": "",
+    "coded_at": "2026-08-01T00:00:00Z",
+    "date": "1931",
+    "citation_abnt": "MORENO, Enrique. Relieve de la República - Relieve. 1931. Archaeological and Ethnological Museum of Córdoba. Disponível em: http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "coding-pending"
+    ]
+  },
+  {
     "id": "d9878afa-cb92-52bd-b308-e1563cdf9332",
     "country": "Portugal",
     "url": "https://museu.parlamento.pt/DetalhesObra/Index/6521?tipo=OBJ",
@@ -10926,6 +11022,22 @@
       "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
     ],
     "support": "moeda"
+  },
+  {
+    "id": "f410c31b-283c-5f5f-95ce-7b6e809db88e",
+    "country": "Brazil",
+    "url": "http://ceres.mcu.es/pages/Main?idt=2713&inventary=02712&table=FMUS&museum=MCM",
+    "title": "Exposición Universal de Lyon - Medalla",
+    "description": "Cabeça da alegoria da República Francesa com coroa alada de carvalho e louro.",
+    "motif": [],
+    "coded_by": "",
+    "coded_at": "2026-08-01T00:00:00Z",
+    "date": "1872",
+    "citation_abnt": "C. T. Exposición Universal de Lyon - Medalla. 1872. Cerralbo Museum. Disponível em: http://ceres.mcu.es/pages/Main?idt=2713&inventary=02712&table=FMUS&museum=MCM. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "coding-pending"
+    ]
   },
   {
     "id": "f988255c-abaa-fb73-74fb-fcbce9abdaa8",

@@ -5,15 +5,16 @@ status: candidato
 titulo: "Gott regieret alles gerecht"
 acervo: "Deutsche Fotothek"
 url: "http://www.deutschefotothek.de/documents/obj/72066898"
-data_estimada: ""
-pais: FR
-suporte: indeterminado
+data_estimada: "1701-1800"
+pais: DE
+suporte: pintura
 motivo_alegorico: "Alegoria feminina"
 regime: INDETERMINADO
 confianca: muito-baixo
 tags:
   - corpus/candidato
-  - pais/FR
+  - suporte/pintura
+  - pais/DE
   - #verificar
   - hunt-candidate
 related:
@@ -30,7 +31,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Ahlers, Henrik (Herstellung) (Fotograf)
 **Acervo**: Deutsche Fotothek
 **URL**: [link](http://www.deutschefotothek.de/documents/obj/72066898)
-**Data**: indeterminada | **País**: FR | **Suporte**: indeterminado
+**Data**: 1701-1800 | **País**: DE | **Suporte**: pintura
 **Thumbnail**: [imagem](https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_hauptkatalog_0443437.jpg&type=IMAGE)
 **Direitos**: http://rightsstatements.org/vocab/InC-EDU/1.0/
 

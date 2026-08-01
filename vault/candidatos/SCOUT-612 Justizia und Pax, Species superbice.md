@@ -5,14 +5,15 @@ status: candidato
 titulo: "Justizia und Pax, Species superbice"
 acervo: "Deutsche Fotothek"
 url: "http://www.deutschefotothek.de/documents/obj/72051477"
-data_estimada: ""
+data_estimada: "1648"
 pais: FR
-suporte: indeterminado
+suporte: manuscrito
 motivo_alegorico: "Alegoria feminina"
 regime: INDETERMINADO
 confianca: muito-baixo
 tags:
   - corpus/candidato
+  - suporte/manuscrito
   - pais/FR
   - #verificar
   - hunt-candidate
@@ -30,7 +31,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Richter, Regine (Herstellung) (Fotograf)
 **Acervo**: Deutsche Fotothek
 **URL**: [link](http://www.deutschefotothek.de/documents/obj/72051477)
-**Data**: indeterminada | **País**: FR | **Suporte**: indeterminado
+**Data**: 1648 | **País**: FR | **Suporte**: manuscrito
 **Thumbnail**: [imagem](https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ffotothek.slub-dresden.de%2Ffotos%2Fdf_hauptkatalog_0275326.jpg&type=IMAGE)
 **Direitos**: http://creativecommons.org/publicdomain/mark/1.0/
 
