@@ -47,6 +47,7 @@ COUNTRY_MAP_REVERSE: dict[str, str] = {
     "Uruguay": "Uruguay",
     "Mexico": "Mexico",
     "Argentina": "Argentina",
+    "ES": "Spain",
 }
 
 
@@ -167,13 +168,16 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     if not entry.get("id"):
         entry["id"] = corpus_id or record.get("item_id", "")
     
-    if not entry.get("country"):
-        place_hint = inp.get("place_hint", "")
-        if isinstance(place_hint, list) and place_hint:
-            place_hint = place_hint[0]
-        elif isinstance(place_hint, str):
-            place_hint = place_hint.replace("[", "").replace("]", "").replace("'", "").replace('"', "").strip()
-        
+    # Always derive country from the canonical record's place_hint when available,
+    # instead of only filling missing values. records.jsonl is the source of truth.
+    place_hint = inp.get("place_hint", "")
+    if isinstance(place_hint, list) and place_hint:
+        place_hint = place_hint[0]
+    elif isinstance(place_hint, str):
+        place_hint = place_hint.replace("[", "").replace("]", "").replace("'", "").replace('"', "").strip()
+
+    country = ""
+    if place_hint:
         country = COUNTRY_MAP_REVERSE.get(place_hint, "")
         if not country:
             if place_hint in ["BR", "Brazil"]:
@@ -194,9 +198,14 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
                 country = "Portugal"
             elif place_hint in ["IT", "Italy"]:
                 country = "Italy"
+            elif place_hint in ["ES", "Spain"]:
+                country = "Spain"
             else:
-                country = place_hint or "Brazil"
+                country = place_hint
+    if country:
         entry["country"] = country
+    elif not entry.get("country"):
+        entry["country"] = "Brazil"
 
     # Overwrite with authoritative fields from records.jsonl
     entry.update({

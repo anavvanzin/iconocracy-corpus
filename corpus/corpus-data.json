@@ -8,11 +8,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1943",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -40,11 +40,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.3,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1806",
+    "regime": "fundacional",
+    "endurecimento_score": 0.3,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -74,11 +74,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1931-XX-XX",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -106,11 +106,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1926/1934",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -138,11 +138,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "2018",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -170,11 +170,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1929-04-21",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -202,11 +202,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1942",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -234,11 +234,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.7,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1922",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -268,11 +268,11 @@
     "motif": [
       "Marianne"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1942",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -300,11 +300,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1981/1990",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -332,11 +332,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.7,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1860",
+    "regime": "normativo",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -370,11 +370,11 @@
       "Défense nationale",
       "Allégorie féminine"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.8,
     "coded_by": "iconocode-opus-4.6-image",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1917",
+    "regime": "militar",
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -399,11 +399,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.1,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1896",
+    "regime": "fundacional",
+    "endurecimento_score": 1.1,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -449,11 +449,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1948",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -486,11 +486,11 @@
       "Goddess of Liberty",
       "Propaganda"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.9,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1917",
+    "regime": "militar",
+    "endurecimento_score": 1.9,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -518,11 +518,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.9,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "ca. 1671-1738",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -552,11 +552,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1928-XX-XX",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -584,11 +584,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1943",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -616,11 +616,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1935",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -648,11 +648,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1936-XX-XX",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -684,11 +684,11 @@
       "WWI",
       "Propaganda"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.6,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1917",
+    "regime": "militar",
+    "endurecimento_score": 1.6,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -716,11 +716,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.2,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1900",
+    "regime": "fundacional",
+    "endurecimento_score": 0.2,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -757,11 +757,11 @@
       "escrita",
       "sabedoria"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.8,
     "coded_by": "iconocode-sonnet5",
     "coded_at": "2026-07-01T00:00:00Z",
     "date": "1903",
+    "regime": "normativo",
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -789,11 +789,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.0,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1861",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -816,7 +816,7 @@
   },
   {
     "id": "5b14d6a4-7b6d-5111-9253-b20bb72af0a1",
-    "country": "Brazil",
+    "country": "Spain",
     "url": "http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS&museum=MAN",
     "title": "Medalla",
     "description": "Medalla de Proclamación de la Iª Républica. Matrona sentada entre montañas con gorro frigio y nivel en la mano.",
@@ -839,11 +839,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1929-04-21",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -871,11 +871,11 @@
     "motif": [
       "Contra Alegoria"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "2018",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -903,11 +903,11 @@
     "motif": [
       "Marianne"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1940",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -935,11 +935,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.6,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1592",
+    "regime": "normativo",
+    "endurecimento_score": 1.6,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -985,11 +985,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1937",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1010,7 +1010,7 @@
   },
   {
     "id": "7f2f25d9-e351-502e-b308-fd784e972fbf",
-    "country": "Brazil",
+    "country": "France",
     "url": "http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=MCM",
     "title": "Ficha",
     "description": "Alegoría de la República Francesa vestida a la romana, con fasces, báculo con gorro frigio y Victoria alada.",
@@ -1033,11 +1033,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.8,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1863",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -1067,11 +1067,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.6,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1840–1878",
+    "regime": "fundacional",
+    "endurecimento_score": 0.6,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1101,11 +1101,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.9,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1865",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -1135,11 +1135,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1936",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1167,11 +1167,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1976/1980",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1202,11 +1202,11 @@
       "sun",
       "shield"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.1,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1899-1903",
+    "regime": "normativo",
+    "endurecimento_score": 2.1,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -1238,11 +1238,11 @@
       "sword",
       "peace"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.6,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1918",
+    "regime": "militar",
+    "endurecimento_score": 1.6,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -1273,11 +1273,11 @@
       "Foresight",
       "civic virtue"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.4,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1885–1888",
+    "regime": "normativo",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -1308,11 +1308,11 @@
       "civic architecture",
       "colonialism"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 3.0,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1866–1883",
+    "regime": "normativo",
+    "endurecimento_score": 3.0,
     "indicadores": {
       "desincorporacao": 3,
       "rigidez_postural": 3,
@@ -1337,11 +1337,11 @@
     "motif": [
       "Belgique"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1849-1866",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1369,11 +1369,11 @@
     "motif": [
       "Belgique"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1852",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1401,11 +1401,11 @@
     "motif": [
       "AUSENCIA ALEGORICA — portrait of Léopold I"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1832-1849",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1439,11 +1439,11 @@
       "ivory",
       "textile"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1912-1929",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1477,11 +1477,11 @@
       "ivory tusk",
       "colonial hierarchy"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.7,
     "coded_by": "batch-tentative-2026-04-25",
     "coded_at": "2026-04-25T19:23:34.529501+00:00",
     "date": "1912-1937",
+    "regime": "normativo",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -1515,11 +1515,11 @@
       "veil",
       "civilizing mission"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1911-1921",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1551,11 +1551,11 @@
       "Congress Column",
       "Palace of Justice"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.7,
     "coded_by": "batch-tentative-2026-04-25",
     "coded_at": "2026-04-25T19:23:34.529850+00:00",
     "date": "1880",
+    "regime": "normativo",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 3,
@@ -1586,11 +1586,11 @@
       "Exposição Nacional",
       "Estátua"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1908",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -1618,11 +1618,11 @@
       "Monumento",
       "Bandeira"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.7,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1940",
+    "regime": "normativo",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -1650,11 +1650,11 @@
       "Monumento",
       "Coluna"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.1,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1940",
+    "regime": "normativo",
+    "endurecimento_score": 2.1,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -1682,11 +1682,11 @@
       "Escultura",
       "Jardim público"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.7,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "c. 1925",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -1714,11 +1714,11 @@
       "Positivismo",
       "Barrete frígio"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.0,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "c. 1900",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -1746,11 +1746,11 @@
       "Centenário",
       "Anjo"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.7,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1922",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -1781,11 +1781,11 @@
       "Diálogo alegórico",
       "Verdade"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 2.3,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1827",
+    "regime": "fundacional",
+    "endurecimento_score": 2.3,
     "indicadores": {
       "desincorporacao": 3,
       "rigidez_postural": 3,
@@ -1816,11 +1816,11 @@
       "Escultor francês",
       "Praça pública"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 2.5,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1872 (inaugurated); 1929 (reference)",
+    "regime": "fundacional",
+    "endurecimento_score": 2.5,
     "indicadores": {
       "desincorporacao": 3,
       "rigidez_postural": 3,
@@ -1853,11 +1853,11 @@
       "sword",
       "modernism"
     ],
-    "regime": "militar",
-    "endurecimento_score": 2.2,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1961",
+    "regime": "militar",
+    "endurecimento_score": 2.2,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -1888,11 +1888,11 @@
       "Republic",
       "impressionism"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.5,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1910",
+    "regime": "fundacional",
+    "endurecimento_score": 0.5,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1920,11 +1920,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1889-11",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1952,11 +1952,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1904",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1984,11 +1984,11 @@
     "motif": [
       "Voto Feminino"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1917",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2016,11 +2016,11 @@
     "motif": [
       "Alegoria da Lei do Ventre Livre"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "c. 1871",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2048,11 +2048,11 @@
     "motif": [
       "Republic"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.8,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1896",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -2080,11 +2080,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "c. 1820",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2112,11 +2112,11 @@
     "motif": [
       "Republic"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1889",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -2144,11 +2144,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1903",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2176,11 +2176,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1903",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2208,11 +2208,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1912",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2240,11 +2240,11 @@
     "motif": [
       "Republic"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "c. 1889 (pós-Proclamação, 15 nov. 1889)",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -2272,11 +2272,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1891",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2304,11 +2304,11 @@
     "motif": [
       "Liberdade"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1890-1893",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2336,11 +2336,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1912",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2368,11 +2368,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1889-1922",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2400,11 +2400,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1891",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2432,11 +2432,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1889",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2464,11 +2464,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1901",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2496,11 +2496,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1901",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2528,11 +2528,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1901",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2560,11 +2560,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1889",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2592,11 +2592,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-05-20T16:56:09Z",
     "date": "1889",
+    "regime": "normativo",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -2624,11 +2624,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1894-1910",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2656,11 +2656,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1889-11",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2688,11 +2688,11 @@
     "motif": [
       "Generic allegory"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "c. 1888 (final do séc. XIX)",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -2721,11 +2721,11 @@
       "Republica",
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1899-1910",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2753,11 +2753,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1890",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2785,11 +2785,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "2014-01-01",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -2817,11 +2817,11 @@
     "motif": [
       "Columbia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.5,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1895",
+    "regime": "fundacional",
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -2851,11 +2851,11 @@
       "Liberdade",
       "Governo"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1890",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2883,11 +2883,11 @@
     "motif": [
       "A República"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1906-1912",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2915,11 +2915,11 @@
     "motif": [
       "A República (efígie em medalha)"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1970-1972",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -2949,11 +2949,11 @@
       "Phrygian cap",
       "bust profile"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.5,
     "coded_by": "batch-tentative-2026-04-25",
     "coded_at": "2026-04-25T19:23:34.529854+00:00",
     "date": "1906-1912",
+    "regime": "normativo",
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -2982,11 +2982,11 @@
     "motif": [
       "A República (efígie)"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1965",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -3018,11 +3018,11 @@
       "sword",
       "scales"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.7,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1543",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -3052,11 +3052,11 @@
       "Justice",
       "Frederick II"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 2.4,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1239–1240",
+    "regime": "fundacional",
+    "endurecimento_score": 2.4,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -3086,11 +3086,11 @@
       "Justice",
       "satire"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.8,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "18th century",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -3117,11 +3117,11 @@
       "Justice",
       "civic architecture"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.8,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1589",
+    "regime": "fundacional",
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -3148,11 +3148,11 @@
       "Justice",
       "domestic allegory"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.3,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1660–1780",
+    "regime": "fundacional",
+    "endurecimento_score": 1.3,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -3178,11 +3178,11 @@
       "Justitia",
       "Justice"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.0,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "Early 16th century",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -3213,11 +3213,11 @@
       "cardinal virtues",
       "Prudence"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.0,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1501–1550",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -3247,11 +3247,11 @@
       "Justice",
       "Weser Renaissance"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.7,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "c. 1558",
+    "regime": "fundacional",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -3279,11 +3279,11 @@
       "Concordia",
       "civic virtue"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.7,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1596–1605",
+    "regime": "fundacional",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -3310,11 +3310,11 @@
       "Jus Civile",
       "civil law"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.3,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1752",
+    "regime": "fundacional",
+    "endurecimento_score": 1.3,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -3341,11 +3341,11 @@
       "Justice",
       "civic interior"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.8,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "c. 1610",
+    "regime": "fundacional",
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -3374,11 +3374,11 @@
       "sword",
       "scales"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.3,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1537",
+    "regime": "fundacional",
+    "endurecimento_score": 0.3,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -3407,11 +3407,11 @@
       "Primeira Guerra Mundial",
       "identidade nacional"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.5,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1914",
+    "regime": "normativo",
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -3441,11 +3441,11 @@
       "war loan",
       "mobilization"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.7,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "ca. 1917",
+    "regime": "militar",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -3477,11 +3477,11 @@
       "Bismarck",
       "annexation"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.8,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "c. 1871",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.8,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -3509,11 +3509,11 @@
     "motif": [
       "Germania"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1900-1920",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -3541,11 +3541,11 @@
     "motif": [
       "Germania"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1920-1921",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -3573,11 +3573,11 @@
     "motif": [
       "Germania"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -3605,11 +3605,11 @@
     "motif": [
       "AUSENCIA ALEGORICA — portrait of Wilhelm I"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1871-1873",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -3637,11 +3637,11 @@
     "motif": [
       "Generic allegory / Fountain of Youth"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -3670,11 +3670,11 @@
     "motif": [
       "Germania"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1900-1922",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -3702,11 +3702,11 @@
     "motif": [
       "Germania / Navigation / Agriculture"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1910",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -3734,11 +3734,11 @@
     "motif": [
       "Germania"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1908",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -3766,11 +3766,11 @@
     "motif": [
       "Allegorical female figure (transitional)"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1919",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -3803,11 +3803,11 @@
       "armor",
       "Jugendstil"
     ],
-    "regime": "militar",
-    "endurecimento_score": 2.0,
     "coded_by": "batch-tentative-2026-04-25",
     "coded_at": "2026-04-25T19:23:34.529859+00:00",
     "date": "1900-1922",
+    "regime": "militar",
+    "endurecimento_score": 2.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 3,
@@ -3841,11 +3841,11 @@
       "Belgien overprint",
       "military occupation"
     ],
-    "regime": "militar",
-    "endurecimento_score": 2.3,
     "coded_by": "batch-tentative-2026-04-25",
     "coded_at": "2026-04-25T19:23:34.529862+00:00",
     "date": "1914-1918",
+    "regime": "militar",
+    "endurecimento_score": 2.3,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 3,
@@ -3878,11 +3878,11 @@
       "Starry sky",
       "Refoundation"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.2,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1919",
+    "regime": "normativo",
+    "endurecimento_score": 2.2,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -3914,11 +3914,11 @@
       "Regeneration",
       "Civic allegory"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.2,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1924",
+    "regime": "normativo",
+    "endurecimento_score": 2.2,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 1,
@@ -3950,11 +3950,11 @@
       "Espanha",
       "França"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.7,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1931",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -3987,11 +3987,11 @@
       "Espanha",
       "constitucionalismo"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.3,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1873",
+    "regime": "fundacional",
+    "endurecimento_score": 0.3,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -4023,11 +4023,11 @@
       "Gibraltar",
       "Pyrenees"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.7,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1870",
+    "regime": "fundacional",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -4058,11 +4058,11 @@
       "olive branch",
       "republic"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 2.3,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1933",
+    "regime": "fundacional",
+    "endurecimento_score": 2.3,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -4093,11 +4093,11 @@
       "Gerechtigkeit",
       "Fresco"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1943–1944 (photograph of earlier fresco)",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -4125,11 +4125,11 @@
       "Temps",
       "Allégorie féminine"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.5,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "Unknown",
+    "regime": "fundacional",
+    "endurecimento_score": 0.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4160,11 +4160,11 @@
       "Espada",
       "Gravura"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.2,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "c. 1600",
+    "regime": "fundacional",
+    "endurecimento_score": 1.2,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4195,11 +4195,11 @@
       "Allégorie féminine",
       "Baroque"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.1,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "17th century",
+    "regime": "fundacional",
+    "endurecimento_score": 1.1,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4231,11 +4231,11 @@
       "Dourado",
       "Renascimento"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.5,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "16th century",
+    "regime": "fundacional",
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -4267,11 +4267,11 @@
       "Espada",
       "Desenho"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.0,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "17th century",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4301,11 +4301,11 @@
       "Justice civile",
       "Allégorie féminine"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.8,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "16th century",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4337,11 +4337,11 @@
       "Nuvem",
       "Balança"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.7,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "18th century",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4372,11 +4372,11 @@
       "Symbolisme",
       "Murale"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.6,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "19th century",
+    "regime": "normativo",
+    "endurecimento_score": 1.6,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -4408,11 +4408,11 @@
       "Vérité",
       "Allégorie féminine"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.7,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1865",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4443,11 +4443,11 @@
       "Triomphe",
       "Allégorie féminine"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.7,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1865",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4477,11 +4477,11 @@
       "Envoyé",
       "Allégorie féminine"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.9,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1859",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4512,11 +4512,11 @@
       "Éducation",
       "Allégorie féminine"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.1,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1859–1910",
+    "regime": "normativo",
+    "endurecimento_score": 1.1,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4547,11 +4547,11 @@
       "Satire",
       "Corps féminin"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.5,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1871",
+    "regime": "normativo",
+    "endurecimento_score": 0.5,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -4582,11 +4582,11 @@
       "Allégorie féminine",
       "Caricature politique"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.0,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1887",
+    "regime": "normativo",
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4618,11 +4618,11 @@
       "Guerre",
       "Allégorie féminine"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.2,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1915",
+    "regime": "militar",
+    "endurecimento_score": 1.2,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4654,11 +4654,11 @@
       "Marianne",
       "Mairie"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.4,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "Early 20th century",
+    "regime": "normativo",
+    "endurecimento_score": 2.4,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 3,
@@ -4690,11 +4690,11 @@
       "Hochet",
       "Allégorie féminine"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.6,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1868–1928 (artist's active period)",
+    "regime": "normativo",
+    "endurecimento_score": 0.6,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -4725,11 +4725,11 @@
       "Figure féminine",
       "Manuscrit"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.1,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1531",
+    "regime": "fundacional",
+    "endurecimento_score": 1.1,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4760,11 +4760,11 @@
       "Revolution",
       "tricolour"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.1,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1830",
+    "regime": "fundacional",
+    "endurecimento_score": 0.1,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -4793,11 +4793,11 @@
       "Marianne",
       "Révolution française"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.8,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1789",
+    "regime": "fundacional",
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -4825,11 +4825,11 @@
       "Liberté",
       "Révolution française"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.8,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1789",
+    "regime": "fundacional",
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -4858,11 +4858,11 @@
       "Administração régia",
       "Iluminismo"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.3,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1781",
+    "regime": "fundacional",
+    "endurecimento_score": 1.3,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4891,11 +4891,11 @@
       "Administração régia",
       "Iluminismo"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.3,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1781",
+    "regime": "fundacional",
+    "endurecimento_score": 1.3,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4923,11 +4923,11 @@
       "Abundância",
       "Administração régia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.3,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1781",
+    "regime": "fundacional",
+    "endurecimento_score": 1.3,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4957,11 +4957,11 @@
       "République française",
       "Marianne"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.5,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "c. 1793–1800",
+    "regime": "fundacional",
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -4991,11 +4991,11 @@
       "République française",
       "Propaganda"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.1,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1915",
+    "regime": "militar",
+    "endurecimento_score": 1.1,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -5024,11 +5024,11 @@
       "direito canônico",
       "miniatura iluminada"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.2,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "c. séc. XIII",
+    "regime": "fundacional",
+    "endurecimento_score": 1.2,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -5056,11 +5056,11 @@
       "revolução",
       "barricada"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.2,
     "coded_by": "iconocode-opus-4.6-image",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1830",
+    "regime": "fundacional",
+    "endurecimento_score": 0.2,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -5088,11 +5088,11 @@
       "satire",
       "Notre-Dame"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.3,
     "coded_by": "iconocode-opus-4.6-image",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1909",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.3,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -5119,11 +5119,11 @@
       "emprunt de guerre",
       "défense nationale"
     ],
-    "regime": "militar",
-    "endurecimento_score": 2.1,
     "coded_by": "iconocode-opus-4.6-image",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1916",
+    "regime": "militar",
+    "endurecimento_score": 2.1,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 1,
@@ -5150,11 +5150,11 @@
       "emprunt national",
       "reconstruction"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.0,
     "coded_by": "iconocode-opus-4.6-image",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1920",
+    "regime": "normativo",
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 0,
@@ -5181,11 +5181,11 @@
       "emprunt national",
       "banque"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.3,
     "coded_by": "iconocode-opus-4.6-image",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1920",
+    "regime": "normativo",
+    "endurecimento_score": 1.3,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 0,
@@ -5212,11 +5212,11 @@
       "Liberté",
       "emprunt de la libération"
     ],
-    "regime": "militar",
-    "endurecimento_score": 2.3,
     "coded_by": "iconocode-opus-4.6-image",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1918",
+    "regime": "militar",
+    "endurecimento_score": 2.3,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 1,
@@ -5244,11 +5244,11 @@
       "paix",
       "emprunt"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.4,
     "coded_by": "iconocode-opus-4.6-image",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1920",
+    "regime": "normativo",
+    "endurecimento_score": 0.4,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -5275,11 +5275,11 @@
       "emprunt national",
       "province"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.5,
     "coded_by": "iconocode-opus-4.6-image",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1920",
+    "regime": "normativo",
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -5307,11 +5307,11 @@
       "épargne",
       "armée"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.5,
     "coded_by": "iconocode-opus-4.6-image",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1916",
+    "regime": "militar",
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -5339,11 +5339,11 @@
       "anti-Marianne",
       "satire"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.4,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1874",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.4,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -5374,11 +5374,11 @@
       "absence",
       "satire"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.6,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1871",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.6,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -5409,11 +5409,11 @@
       "ruines",
       "absence"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.7,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1870",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -5444,11 +5444,11 @@
       "Liberté",
       "Égalité"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.6,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1794",
+    "regime": "fundacional",
+    "endurecimento_score": 1.6,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -5479,11 +5479,11 @@
       "Bonnet phrygien",
       "Fasces"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.2,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1792",
+    "regime": "fundacional",
+    "endurecimento_score": 1.2,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -5516,11 +5516,11 @@
       "Vertu",
       "Innocence"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.9,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1793",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -5552,11 +5552,11 @@
       "Punição",
       "Direito penal"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.7,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1559",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -5588,11 +5588,11 @@
       "Allégorie féminine",
       "République"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.6,
     "coded_by": "manual-entry",
     "coded_at": "2026-04-14T00:00:00Z",
     "date": "1889",
+    "regime": "normativo",
+    "endurecimento_score": 0.6,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 2,
@@ -5622,11 +5622,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.8,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -5655,11 +5655,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -5688,11 +5688,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1920",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -5720,11 +5720,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.5,
     "coded_by": "hermes-auto",
     "coded_at": "2026-05-20T16:56:09Z",
     "date": "1865",
+    "regime": "normativo",
+    "endurecimento_score": 2.5,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 3,
@@ -5752,11 +5752,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -5785,11 +5785,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -5818,11 +5818,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -5851,11 +5851,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -5884,11 +5884,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -5917,11 +5917,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -5950,11 +5950,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -5983,11 +5983,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6016,11 +6016,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6049,11 +6049,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6082,11 +6082,11 @@
     "motif": [
       "Alegoria feminina"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6115,11 +6115,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6148,11 +6148,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6181,11 +6181,11 @@
     "motif": [
       "Alegoria feminina"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6214,11 +6214,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6248,11 +6248,11 @@
       "Semeuse",
       "Republica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1903-1938",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6280,11 +6280,11 @@
     "motif": [
       "Marianne"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1903-1960",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6312,11 +6312,11 @@
     "motif": [
       "Semeuse"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1906-1941",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6344,11 +6344,11 @@
     "motif": [
       "Marianne"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1885-1928",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6376,11 +6376,11 @@
     "motif": [
       "La République"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1889",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6408,11 +6408,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1789-1791",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6440,11 +6440,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1848-1852",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6472,11 +6472,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1848",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6504,11 +6504,11 @@
     "motif": [
       "La République"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.2,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1900 (fotografia); c. 1848 (escultura original)",
+    "regime": "fundacional",
+    "endurecimento_score": 1.2,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -6536,11 +6536,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1662",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6568,11 +6568,11 @@
     "motif": [
       "Alegoria feminina"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1894",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6600,11 +6600,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1560-1570",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6632,11 +6632,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1710",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6664,11 +6664,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1547",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6696,11 +6696,11 @@
     "motif": [
       "Alegoria feminina"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1645-1660",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6728,11 +6728,11 @@
     "motif": [
       "Marianne"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1933",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6760,11 +6760,11 @@
     "motif": [
       "Marianne"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1933",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6792,11 +6792,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "15..-1584",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6824,11 +6824,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1707",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6856,11 +6856,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1789-1791",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6888,11 +6888,11 @@
     "motif": [
       "La République"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1793–1794",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -6920,11 +6920,11 @@
     "motif": [
       "Alegoria feminina"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1640-1643",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6952,11 +6952,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1791",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -6985,11 +6985,11 @@
       "Republica",
       "Marianne"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -7017,11 +7017,11 @@
     "motif": [
       "Marianne"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1876-1900",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -7049,11 +7049,11 @@
     "motif": [
       "Justice"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1889",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -7081,11 +7081,11 @@
     "motif": [
       "Marianne"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1892-1920",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -7113,11 +7113,11 @@
     "motif": [
       "Marianne"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1849-1850",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -7145,11 +7145,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1892",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -7177,11 +7177,11 @@
     "motif": [
       "La République / La Liberté"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1792",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -7209,11 +7209,11 @@
     "motif": [
       "Cérès / La République"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1849-1851",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -7246,11 +7246,11 @@
       "pike",
       "triangular level"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.4,
     "coded_by": "batch-tentative-2026-04-25",
     "coded_at": "2026-04-25T19:23:34.529865+00:00",
     "date": "1870-1878",
+    "regime": "normativo",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -7284,11 +7284,11 @@
       "wheat",
       "colonial trade"
     ],
-    "regime": "militar",
-    "endurecimento_score": 2.3,
     "coded_by": "batch-tentative-2026-04-25",
     "coded_at": "2026-04-25T19:23:34.529869+00:00",
     "date": "1885-1928",
+    "regime": "militar",
+    "endurecimento_score": 2.3,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 3,
@@ -7321,11 +7321,11 @@
       "Rising sun",
       "Sowing seeds"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.5,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1898",
+    "regime": "normativo",
+    "endurecimento_score": 2.5,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -7357,11 +7357,11 @@
       "sowing seeds",
       "rising sun"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.7,
     "coded_by": "batch-tentative-2026-04-25",
     "coded_at": "2026-04-25T19:23:34.529871+00:00",
     "date": "1903-1960",
+    "regime": "normativo",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -7392,11 +7392,11 @@
       "prestito nazionale",
       "war bonds"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.3,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1917",
+    "regime": "militar",
+    "endurecimento_score": 1.3,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -7426,11 +7426,11 @@
       "Minerva",
       "laurel"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.7,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1955-1989",
+    "regime": "normativo",
+    "endurecimento_score": 2.7,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 3,
@@ -7460,11 +7460,11 @@
       "caravelle",
       "corona muralis"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.5,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1958-2001",
+    "regime": "normativo",
+    "endurecimento_score": 2.5,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -7495,11 +7495,11 @@
       "corona muralis",
       "stamp"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.7,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1953-1977",
+    "regime": "normativo",
+    "endurecimento_score": 2.7,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 3,
@@ -7531,11 +7531,11 @@
       "México",
       "imprensa ilustrada oitocentista"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.5,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1889",
+    "regime": "normativo",
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -7567,11 +7567,11 @@
       "eagle",
       "cocar"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.9,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1850",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -7603,11 +7603,11 @@
       "sword",
       "scales"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.9,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1500–1600",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -7639,11 +7639,11 @@
       "all-seeing eye",
       "crown"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.9,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "Unknown",
+    "regime": "normativo",
+    "endurecimento_score": 1.9,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -7675,11 +7675,11 @@
       "enthroned",
       "sovereignty of law"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.0,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "17th century",
+    "regime": "normativo",
+    "endurecimento_score": 2.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -7711,11 +7711,11 @@
       "Espada",
       "Balança"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.1,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1585–1589",
+    "regime": "fundacional",
+    "endurecimento_score": 1.1,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -7748,11 +7748,11 @@
       "Espada",
       "Balança"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.6,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1590–1638",
+    "regime": "fundacional",
+    "endurecimento_score": 0.6,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -7784,11 +7784,11 @@
       "Espada",
       "Balança"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.9,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1597",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -7820,11 +7820,11 @@
       "Espada",
       "Balança"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.9,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1585–1637",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -7856,11 +7856,11 @@
       "Espada",
       "Balança"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.9,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1593",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -7891,11 +7891,11 @@
       "Revolução",
       "Cartaz político"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.9,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "c. 1975",
+    "regime": "militar",
+    "endurecimento_score": 1.9,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -7926,11 +7926,11 @@
       "Figura feminina",
       "Gravura"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.8,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "c. 1600",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -7960,11 +7960,11 @@
       "Morte",
       "Gravura barroca"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.8,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1730",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -7994,11 +7994,11 @@
       "Tempo",
       "Gravura barroca"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.8,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1730",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -8029,11 +8029,11 @@
       "Eleição",
       "Cartaz político"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.7,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1949",
+    "regime": "normativo",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -8065,11 +8065,11 @@
       "torch",
       "dawn"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.7,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1914",
+    "regime": "fundacional",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -8100,11 +8100,11 @@
       "agriculture",
       "stamp"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.9,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1912-1945",
+    "regime": "fundacional",
+    "endurecimento_score": 1.9,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -8135,11 +8135,11 @@
       "Ignorance",
       "Fanatisme"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.9,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1793",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -8168,11 +8168,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1891",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -8203,11 +8203,11 @@
       "Healing",
       "Municipal emergency currency"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.6,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1921",
+    "regime": "fundacional",
+    "endurecimento_score": 0.6,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -8239,11 +8239,11 @@
       "República",
       "Trono"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.8,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1890",
+    "regime": "fundacional",
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -8275,11 +8275,11 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.8,
     "coded_by": "ana",
     "coded_at": "2026-06-23T02:10:47.581178+00:00",
     "date": "c. 1731–1750",
+    "regime": "normativo",
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -8310,11 +8310,11 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.4,
     "coded_by": "ana",
     "coded_at": "2026-06-23T02:10:47.581411+00:00",
     "date": "1890",
+    "regime": "normativo",
+    "endurecimento_score": 2.4,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -8345,11 +8345,11 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 3.0,
     "coded_by": "ana",
     "coded_at": "2026-06-23T02:10:47.581420+00:00",
     "date": "1889–",
+    "regime": "normativo",
+    "endurecimento_score": 3.0,
     "indicadores": {
       "desincorporacao": 3,
       "rigidez_postural": 0,
@@ -8381,11 +8381,11 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.9,
     "coded_by": "ana",
     "coded_at": "2026-06-23T02:10:47.581425+00:00",
     "date": "século XIX",
+    "regime": "normativo",
+    "endurecimento_score": 1.9,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -8417,11 +8417,11 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.6,
     "coded_by": "ana",
     "coded_at": "2026-06-23T02:10:47.581430+00:00",
     "date": "1889–1945",
+    "regime": "normativo",
+    "endurecimento_score": 2.6,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 3,
@@ -8453,11 +8453,11 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.5,
     "coded_by": "ana",
     "coded_at": "2026-06-23T02:10:47.581433+00:00",
     "date": "1889–1960",
+    "regime": "normativo",
+    "endurecimento_score": 2.5,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 3,
@@ -8489,11 +8489,11 @@
       "Balança e espada",
       "Vitral"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.2,
     "coded_by": "ana",
     "coded_at": "2026-06-23T17:21:00Z",
     "date": "1909",
+    "regime": "normativo",
+    "endurecimento_score": 2.2,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 3,
@@ -8524,11 +8524,11 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.8,
     "coded_by": "ana",
     "coded_at": "2026-06-23T02:10:47.581440+00:00",
     "date": "1822–1889–",
+    "regime": "normativo",
+    "endurecimento_score": 2.8,
     "indicadores": {
       "desincorporacao": 3,
       "rigidez_postural": 0,
@@ -8560,11 +8560,11 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.0,
     "coded_by": "ana",
     "coded_at": "2026-06-23T02:10:47.581443+00:00",
     "date": "1889–1950",
+    "regime": "normativo",
+    "endurecimento_score": 2.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 3,
@@ -8595,11 +8595,11 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.5,
     "coded_by": "ana",
     "coded_at": "2026-06-23T02:10:47.581446+00:00",
     "date": "1774",
+    "regime": "normativo",
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -8630,11 +8630,11 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.2,
     "coded_by": "ana",
     "coded_at": "2026-06-23T02:10:47.581449+00:00",
     "date": "séculos XVI–XVIII",
+    "regime": "normativo",
+    "endurecimento_score": 1.2,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -8665,11 +8665,11 @@
       "figura feminina alegorica",
       "dispositivo estatal brasileiro"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.5,
     "coded_by": "ana",
     "coded_at": "2026-06-23T02:10:47.581453+00:00",
     "date": "2021",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.5,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -8702,11 +8702,11 @@
       "Figura feminina da Justiça",
       "Escultura em fachada"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.4,
     "coded_by": "ana",
     "coded_at": "2026-06-23T17:21:00Z",
     "date": "1933",
+    "regime": "normativo",
+    "endurecimento_score": 2.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 3,
@@ -8739,11 +8739,11 @@
       "Espada em punho",
       "Esculturas monumentais"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.2,
     "coded_by": "ana",
     "coded_at": "2026-06-23T18:59:00Z",
     "date": "1930",
+    "regime": "normativo",
+    "endurecimento_score": 2.2,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 3,
@@ -8776,11 +8776,11 @@
       "Espada em repouso",
       "Escultura monumental em bronze"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.4,
     "coded_by": "ana",
     "coded_at": "2026-06-23T18:59:00Z",
     "date": "2005",
+    "regime": "normativo",
+    "endurecimento_score": 2.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 3,
@@ -8815,11 +8815,11 @@
       "scales",
       "putti"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.8,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "17th century",
+    "regime": "normativo",
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -8851,11 +8851,11 @@
       "scales",
       "snake"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.3,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "Unknown",
+    "regime": "normativo",
+    "endurecimento_score": 2.3,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -8888,11 +8888,11 @@
       "mirror",
       "cardinal virtues"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.3,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "Unknown",
+    "regime": "normativo",
+    "endurecimento_score": 2.3,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -8924,11 +8924,11 @@
       "scales",
       "unblindfolded"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.4,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1907",
+    "regime": "normativo",
+    "endurecimento_score": 2.4,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -8957,11 +8957,11 @@
       "Espada",
       "Balança"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.0,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "c. 1560",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -8994,11 +8994,11 @@
       "Propaganda",
       "Recrutamento"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.7,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1915",
+    "regime": "militar",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9029,11 +9029,11 @@
       "recruitment",
       "sword"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.9,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1915",
+    "regime": "militar",
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9064,11 +9064,11 @@
       "Ireland",
       "colonialism"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.1,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "c. 1881",
+    "regime": "normativo",
+    "endurecimento_score": 1.1,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 2,
@@ -9096,11 +9096,11 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.5,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1851",
+    "regime": "fundacional",
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9128,11 +9128,11 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1851",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9160,11 +9160,11 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1798",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9192,11 +9192,11 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "ca. 1714",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9224,11 +9224,11 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "ca. 1745",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9256,11 +9256,11 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "ca. 1716",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9288,11 +9288,11 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.5,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1897",
+    "regime": "fundacional",
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9320,11 +9320,11 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1913-1939",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -9352,11 +9352,11 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1902-1910",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -9385,11 +9385,11 @@
       "Britannia (seated",
       "earliest coin appearance)"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1695-1698",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -9423,11 +9423,11 @@
       "lighthouse",
       "ship"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.7,
     "coded_by": "batch-tentative-2026-04-25",
     "coded_at": "2026-04-25T19:23:34.529874+00:00",
     "date": "1860-1894",
+    "regime": "normativo",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 3,
@@ -9456,11 +9456,11 @@
     "motif": [
       "figura feminina alegórica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -9488,11 +9488,11 @@
     "motif": [
       "Britannia"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1911-1936",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -9525,11 +9525,11 @@
       "merchant ship",
       "colonial trade"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.3,
     "coded_by": "batch-tentative-2026-04-25",
     "coded_at": "2026-04-25T19:23:34.529877+00:00",
     "date": "1895-1935",
+    "regime": "normativo",
+    "endurecimento_score": 1.3,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -9562,11 +9562,11 @@
       "scales",
       "Revolution"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.6,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1776",
+    "regime": "fundacional",
+    "endurecimento_score": 0.6,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -9594,11 +9594,11 @@
       "Capitol",
       "Columbia"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.1,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "c. 1860",
+    "regime": "normativo",
+    "endurecimento_score": 2.1,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -9626,11 +9626,11 @@
       "sword",
       "scales"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 2.2,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "Unknown",
+    "regime": "normativo",
+    "endurecimento_score": 2.2,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -9660,11 +9660,11 @@
       "Marianne",
       "Columbia"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.2,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1917",
+    "regime": "militar",
+    "endurecimento_score": 1.2,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9693,11 +9693,11 @@
       "Constitution",
       "Columbia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.8,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1788",
+    "regime": "fundacional",
+    "endurecimento_score": 0.8,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -9728,11 +9728,11 @@
       "scales",
       "geopolitics"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.0,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1780",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9762,11 +9762,11 @@
       "Liberty",
       "martial allegory"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.0,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1899",
+    "regime": "militar",
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9795,11 +9795,11 @@
       "suffrage",
       "feminism"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.3,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1913",
+    "regime": "normativo",
+    "endurecimento_score": 1.3,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9829,11 +9829,11 @@
       "Columbia",
       "Civil War"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.5,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1861",
+    "regime": "normativo",
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9865,11 +9865,11 @@
       "Goddess of Liberty",
       "Estados Unidos"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 2.3,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1834",
+    "regime": "fundacional",
+    "endurecimento_score": 2.3,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -9900,11 +9900,11 @@
       "sword",
       "flag"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.6,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1917",
+    "regime": "militar",
+    "endurecimento_score": 1.6,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -9934,11 +9934,11 @@
       "war bonds",
       "flag"
     ],
-    "regime": "militar",
-    "endurecimento_score": 1.7,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1917",
+    "regime": "militar",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -9969,11 +9969,11 @@
       "anarchy",
       "Haymarket"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 1.7,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1886",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 3,
       "rigidez_postural": 0,
@@ -10004,11 +10004,11 @@
       "absence",
       "hypocrisy"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.5,
     "coded_by": "iconocode-opus-4.6-metadata-refined",
     "coded_at": "2026-04-07T00:00:00Z",
     "date": "1893",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.5,
     "indicadores": {
       "desincorporacao": 3,
       "rigidez_postural": 0,
@@ -10036,11 +10036,11 @@
     "motif": [
       "Columbia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1869-1893",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10068,11 +10068,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1900",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -10100,11 +10100,11 @@
     "motif": [
       "Columbia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1912",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -10132,11 +10132,11 @@
     "motif": [
       "Columbia"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.4,
     "coded_by": "hermes-auto",
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "1913",
+    "regime": "fundacional",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -10165,11 +10165,11 @@
       "Columbia",
       "Republica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10201,11 +10201,11 @@
       "ships",
       "Civil War"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1861",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10230,11 +10230,11 @@
     "motif": [
       "History / Columbia (instructing Youth)"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1896",
+    "regime": "normativo",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10267,11 +10267,11 @@
       "Electricity",
       "Steam"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.6,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1896",
+    "regime": "normativo",
+    "endurecimento_score": 1.6,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -10303,11 +10303,11 @@
       "Fame",
       "Peace"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.4,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1896",
+    "regime": "normativo",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -10341,11 +10341,11 @@
       "victory",
       "Civil War"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1864",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10370,11 +10370,11 @@
     "motif": [
       "Liberty (Seated)"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.0,
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
     "date": "1840-1866",
+    "regime": "fundacional",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10406,11 +10406,11 @@
       "bare breast (Type I)",
       "chain mail (Type II)"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.4,
     "coded_by": "batch-tentative-2026-04-25",
     "coded_at": "2026-04-25T19:23:34.529880+00:00",
     "date": "1916-1930",
+    "regime": "normativo",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -10443,11 +10443,11 @@
       "altar cívico",
       "nação"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.0,
     "coded_by": "iconocode-opus",
     "coded_at": "2026-03-31T23:00:00Z",
     "date": "1896",
+    "regime": "fundacional",
+    "endurecimento_score": 1.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -10476,11 +10476,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.6,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1645",
+    "regime": "normativo",
+    "endurecimento_score": 1.6,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -10510,11 +10510,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.7,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1890",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -10544,11 +10544,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.4,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "ca. 1579-1649",
+    "regime": "fundacional",
+    "endurecimento_score": 0.4,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10571,7 +10571,7 @@
   },
   {
     "id": "b1966d16-8731-58e4-a898-8ef3c44f59cb",
-    "country": "Brazil",
+    "country": "Spain",
     "url": "http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR",
     "title": "Lo que puede suceder. - Estampa",
     "description": "Estampa satírica com a alegoria da República no umbral de Europa, expulsando um rei diante de uma fila de monarcas.",
@@ -10594,11 +10594,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1929-04-21",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10626,11 +10626,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1953",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10658,11 +10658,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1929-04-21",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10690,11 +10690,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1942",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10722,11 +10722,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.6,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1814–1815",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.6,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10756,11 +10756,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1936",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10788,11 +10788,11 @@
     "motif": [
       "Marianne"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1942-XX-XX",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10820,11 +10820,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1976/1980",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10845,7 +10845,7 @@
   },
   {
     "id": "d8a81f31-5b21-573f-912e-64bb29559c06",
-    "country": "Brazil",
+    "country": "Spain",
     "url": "http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO",
     "title": "Relieve de la República - Relieve",
     "description": "Placa com alegoria feminina da República, gorro frígio e balança, sobre a inscrição PLAZA DE LA REPÚBLICA.",
@@ -10868,11 +10868,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1938",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10900,11 +10900,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.1,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "ca. 1884-1897",
+    "regime": "fundacional",
+    "endurecimento_score": 1.1,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -10934,11 +10934,11 @@
     "motif": [
       "Republica"
     ],
-    "regime": "militar",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1936",
+    "regime": "militar",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10966,11 +10966,11 @@
     "motif": [
       "Justitia"
     ],
-    "regime": "contra-alegoria",
-    "endurecimento_score": 0.0,
     "coded_by": "vault-import",
     "coded_at": "2026-06-27T01:44:12Z",
     "date": "1975",
+    "regime": "contra-alegoria",
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -10998,11 +10998,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.7,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1889",
+    "regime": "fundacional",
+    "endurecimento_score": 0.7,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -11025,7 +11025,7 @@
   },
   {
     "id": "f410c31b-283c-5f5f-95ce-7b6e809db88e",
-    "country": "Brazil",
+    "country": "France",
     "url": "http://ceres.mcu.es/pages/Main?idt=2713&inventary=02712&table=FMUS&museum=MCM",
     "title": "Exposición Universal de Lyon - Medalla",
     "description": "Cabeça da alegoria da República Francesa com coroa alada de carvalho e louro.",
@@ -11048,11 +11048,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 1.2,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1783",
+    "regime": "fundacional",
+    "endurecimento_score": 1.2,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -11082,11 +11082,11 @@
     "motif": [
       "descricao_pre_iconografica"
     ],
-    "regime": "normativo",
-    "endurecimento_score": 1.4,
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1848",
+    "regime": "normativo",
+    "endurecimento_score": 1.4,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -11123,11 +11123,11 @@
       "Iustitia",
       "lei"
     ],
-    "regime": "fundacional",
-    "endurecimento_score": 0.9,
     "coded_by": "iconocode-sonnet5",
     "coded_at": "2026-07-01T00:00:00Z",
     "date": "1948",
+    "regime": "fundacional",
+    "endurecimento_score": 0.9,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 0,
