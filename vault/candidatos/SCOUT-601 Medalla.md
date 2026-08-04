@@ -1,7 +1,7 @@
 ---
 id: SCOUT-601
 tipo: corpus-candidato
-status: candidato
+status: promovido
 titulo: "Medalla"
 acervo: "National Archaeological Museum"
 url: "http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS&museum=MAN"
@@ -17,7 +17,6 @@ tags:
   - suporte/moeda
   - regime/normativo
   - motivo/republica
-  - #verificar
   - hunt-candidate
 related:
   - "[[endurecimento]]"
@@ -56,4 +55,14 @@ GARCÍA, J. **Medalla**. 1873. National Archaeological Museum. Disponível em: h
 Candidato gerado automaticamente por `hunt.py` via europeana.
 Score de relevância: **0.5** | Data: 2026-07-25
 
-> **#verificar**: Esta nota requer validação visual e confirmação de escopo pela pesquisadora.
+> **Validação**: IconoCode concluído; limitação de inspeção visual registrada abaixo.
+
+### IconoCode concluído (2026-08-04)
+
+**Decisão**: promovido ao ledger canônico após validação de schema.
+
+**Confiança**: média. A leitura foi ancorada no registro institucional e na descrição catalográfica; a imagem primária em alta resolução não foi inspecionada nesta rodada.
+
+**Regime iconocrático**: fundacional.
+
+**Nota de capta**: Iconografia e função proclamativa são explicitadas pelo registro do Museo Arqueológico Nacional.

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-593
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "Headstone of Marianne Willemer"
 acervo: "German Documentation Center for Art History - Marburg Picture Index"
 url: "http://www.bildindex.de/document/obj20446875"

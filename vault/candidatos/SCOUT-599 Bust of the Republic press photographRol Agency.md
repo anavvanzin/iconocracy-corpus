@@ -1,7 +1,7 @@
 ---
 id: SCOUT-599
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Bust of the Republic: [press photograph]/[Rol Agency]"
 acervo: "National Library of France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b6952880n"

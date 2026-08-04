@@ -1,7 +1,7 @@
 ---
 id: SCOUT-590
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "Allegory of Winter"
 acervo: "The Metropolitan Museum of Art"
 url: "https://www.metmuseum.org/art/collection/search/436837"

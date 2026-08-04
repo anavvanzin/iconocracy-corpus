@@ -1,7 +1,7 @@
 ---
 id: SCOUT-581
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "[Buste de la République] : [photographie de presse] / [Agence Rol]"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b69528790"

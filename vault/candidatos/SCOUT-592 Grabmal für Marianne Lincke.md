@@ -1,7 +1,7 @@
 ---
 id: SCOUT-592
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "Grabmal für Marianne Lincke"
 acervo: "Deutsche Fotothek"
 url: "http://www.deutschefotothek.de/documents/obj/32026343"

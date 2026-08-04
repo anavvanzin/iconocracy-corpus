@@ -1,7 +1,7 @@
 ---
 id: SCOUT-615
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: '[Enfin seuls !] : [estampe] ([Un seul état, épreuve marquée au crayon rouge : "N° 63"]) / [Steinlen]'
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b53188410n"

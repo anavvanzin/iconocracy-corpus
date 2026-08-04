@@ -1,7 +1,7 @@
 ---
 id: SCOUT-582
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "[Le hochet de la République] : [estampe] / Jean Veber"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b8577647w"

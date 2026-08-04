@@ -1,7 +1,7 @@
 ---
 id: SCOUT-591
 tipo: corpus-candidato
-status: candidato
+status: promovido
 titulo: "La Liberté"
 acervo: "The Metropolitan Museum of Art"
 url: "https://www.metmuseum.org/art/collection/search/821181"
@@ -15,7 +15,6 @@ tags:
   - corpus/candidato
   - pais/FR
   - suporte/estampa
-  - #verificar
   - hunt-candidate
 related:
   - "[[endurecimento]]"
@@ -51,4 +50,14 @@ MONCHY, Citoyenne de. **La Liberté**. ca. 1794. The Metropolitan Museum of Art.
 Candidato gerado automaticamente por `hunt.py` via met.
 Score de relevância: **0.5** | Data: 2026-07-25
 
-> **#verificar**: Esta nota requer validação visual e confirmação de escopo pela pesquisadora.
+> **Validação**: IconoCode concluído; limitação de inspeção visual registrada abaixo.
+
+### IconoCode concluído (2026-08-04)
+
+**Decisão**: promovido ao ledger canônico após validação de schema.
+
+**Confiança**: média. A leitura foi ancorada no registro institucional e na descrição catalográfica; a imagem primária em alta resolução não foi inspecionada nesta rodada.
+
+**Regime iconocrático**: fundacional.
+
+**Nota de capta**: A gravura transforma Liberté em emblema revolucionário reproduzível; a leitura não presume atributos além dos documentados.

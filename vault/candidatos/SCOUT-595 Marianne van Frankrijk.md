@@ -1,7 +1,7 @@
 ---
 id: SCOUT-595
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "Marianne van Frankrijk"
 acervo: "Royal Institute for Cultural Heritage"
 url: "http://balat.kikirpa.be/object/153758"

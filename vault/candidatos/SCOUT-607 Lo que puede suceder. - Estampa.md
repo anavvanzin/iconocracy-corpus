@@ -1,7 +1,7 @@
 ---
 id: SCOUT-607
 tipo: corpus-candidato
-status: candidato
+status: promovido
 titulo: "Lo que puede suceder. - Estampa"
 acervo: "National Museum of Romanticism"
 url: "http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR"
@@ -17,7 +17,6 @@ tags:
   - suporte/estampa
   - regime/normativo
   - motivo/republica
-  - #verificar
   - hunt-candidate
 related:
   - "[[endurecimento]]"
@@ -56,4 +55,14 @@ ORTEGO Y VEREDA, Francisco. **Lo que puede suceder. - Estampa**. 1870. National 
 Candidato gerado automaticamente por `hunt.py` via europeana.
 Score de relevância: **0.5** | Data: 2026-07-25
 
-> **#verificar**: Esta nota requer validação visual e confirmação de escopo pela pesquisadora.
+> **Validação**: IconoCode concluído; limitação de inspeção visual registrada abaixo.
+
+### IconoCode concluído (2026-08-04)
+
+**Decisão**: promovido ao ledger canônico após validação de schema.
+
+**Confiança**: média. A leitura foi ancorada no registro institucional e na descrição catalográfica; a imagem primária em alta resolução não foi inspecionada nesta rodada.
+
+**Regime iconocrático**: contra-alegoria.
+
+**Nota de capta**: A narrativa satírica conserva ação, conflito e corporeidade, em contraste com a efígie estatal estabilizada.

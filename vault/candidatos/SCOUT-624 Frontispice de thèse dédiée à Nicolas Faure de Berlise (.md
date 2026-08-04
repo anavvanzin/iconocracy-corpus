@@ -1,7 +1,7 @@
 ---
 id: SCOUT-624
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "[Frontispice de thèse dédiée à Nicolas Faure de Berlise ( 1670)] : [estampe] ([2e état]) / Greg. Huret jnu. et fecit"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b53254759f"

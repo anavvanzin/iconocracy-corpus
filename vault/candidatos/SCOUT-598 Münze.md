@@ -1,7 +1,7 @@
 ---
 id: SCOUT-598
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Münze"
 acervo: "Museum of City History Leipzig"
 url: "https://www.stadtmuseum.leipzig.de/DE-MUS-853418/objekt=Z0037391"

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-621
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "[L'aide aux blessés] : [estampe] ([État avec remarque]) / Steinlen"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b105106694"

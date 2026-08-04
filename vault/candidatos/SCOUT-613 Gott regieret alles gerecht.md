@@ -1,7 +1,7 @@
 ---
 id: SCOUT-613
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Gott regieret alles gerecht"
 acervo: "Deutsche Fotothek"
 url: "http://www.deutschefotothek.de/documents/obj/72066898"

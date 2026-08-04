@@ -1,7 +1,7 @@
 ---
 id: SCOUT-612
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Justizia und Pax, Species superbice"
 acervo: "Deutsche Fotothek"
 url: "http://www.deutschefotothek.de/documents/obj/72051477"

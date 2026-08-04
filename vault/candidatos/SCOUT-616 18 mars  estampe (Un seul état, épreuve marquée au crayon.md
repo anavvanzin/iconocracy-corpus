@@ -1,7 +1,7 @@
 ---
 id: SCOUT-616
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: '[18 mars] : [estampe] ([Un seul état, épreuve marquée au crayon rouge : "N° 41"]) / PPierre [Petit Pierre, i.e. Steinlen]'
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b53188397q"

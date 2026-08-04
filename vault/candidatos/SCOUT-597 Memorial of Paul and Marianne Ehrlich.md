@@ -1,7 +1,7 @@
 ---
 id: SCOUT-597
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "Memorial of Paul and Marianne Ehrlich"
 acervo: "German Documentation Center for Art History - Marburg Picture Index"
 url: "http://www.bildindex.de/document/obj20446890"

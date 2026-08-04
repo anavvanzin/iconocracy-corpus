@@ -1,7 +1,7 @@
 ---
 id: SCOUT-583
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "[République de Clésinger] : [photographie, tirage de démonstration] / [Atelier Nadar]"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b53124181m"

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-585
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Au nom de la République française [a tous les officiers civils et militaires...] : [estampe] / Gatteaux inv.t ; R. De Launay sculp.t"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b84125562"
