@@ -11,7 +11,7 @@
 
 Research monorepo for a doctoral thesis (PPGD/UFSC, Ana Vanzin, defense 2026) that asks a single question: **how does the female allegorical figure — Justice, the Republic, Marianne, Britannia, Columbia — get *hardened* into an instrument of state and legal power?**
 
-It brings together (1) a searchable, **open and growing** corpus of female allegories on coins, stamps, monuments, courthouses, prints and banknotes; (2) a dual-agent pipeline that discovers and codes each item; (3) statistical analysis of the "hardening" process; and (4) the thesis manuscript itself.
+It brings together (1) a searchable, **open and growing** corpus of female allegories on coins, stamps, monuments, courthouses, prints and banknotes; (2) a dual-agent pipeline that discovers and codes each item; (3) iconometric analysis of the visual "hardening" process; and (4) the thesis manuscript itself.
 
 > **The corpus is exploratory, not frozen.** It keeps growing until the defense. The counts below are a **working snapshot (July 2026)** — treat them as a state-of-progress reading, not a fixed *N*.
 
@@ -55,10 +55,10 @@ The public-facing browsable surfaces are all self-contained HTML — open them s
 
 *Working snapshot — July 2026. Numbers grow between commits.*
 
-- **~328** coded records in the operational ledger (`data/processed/records.jsonl`)
-- **~328** items in the public export (`corpus/corpus-data.json`)
+- **335** coded records in the operational ledger (`data/processed/records.jsonl`)
+- **335** items in the public export (`corpus/corpus-data.json`)
 - **~279** items with full *endurecimento* coding (`data/processed/purification.jsonl`)
-- **~363** catalog cards in the Obsidian vault (`vault/candidatos/`)
+- **410** catalog cards in the Obsidian vault (`vault/candidatos/`)
 
 **By country** (top of a non-exhaustive, transnational corpus):
 
