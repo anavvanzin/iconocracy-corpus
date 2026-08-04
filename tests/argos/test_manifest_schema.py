@@ -6,6 +6,9 @@ from pathlib import Path
 
 from tools.scripts.validate_schemas import load_schema, validate_record
 
+# Use the iconocracy conda environment Python for subprocess calls
+ICONOCRACY_PYTHON = "/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python"
+
 
 class ManifestSchemaTests(unittest.TestCase):
     def make_manifest(self, *, status="pending"):
@@ -93,7 +96,7 @@ class ManifestSchemaTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    "python",
+                    ICONOCRACY_PYTHON,
                     str(script_path),
                     str(manifest_path),
                     "--schema",

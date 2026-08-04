@@ -10,6 +10,9 @@ from unittest import mock
 
 from tools.argos.manifest import build_manifest
 
+# Use the iconocracy conda environment Python for subprocess calls
+ICONOCRACY_PYTHON = "/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python"
+
 
 def load_argos_build_manifest_module():
     repo_root = Path(__file__).resolve().parents[2]
@@ -128,7 +131,7 @@ class ManifestBuilderCliTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    "python",
+                    ICONOCRACY_PYTHON,
                     str(self.script_path),
                     "--dry-run",
                     "--output",
@@ -246,7 +249,7 @@ class ManifestBuilderCliTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    "python",
+                    ICONOCRACY_PYTHON,
                     str(self.script_path),
                     "--output",
                     str(output_path),
@@ -267,7 +270,7 @@ class ManifestBuilderCliTests(unittest.TestCase):
 
             validate_result = subprocess.run(
                 [
-                    "python",
+                    ICONOCRACY_PYTHON,
                     "tools/scripts/validate_schemas.py",
                     str(output_path),
                     "--schema",

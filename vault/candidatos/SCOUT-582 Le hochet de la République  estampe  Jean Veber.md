@@ -1,20 +1,20 @@
 ---
 id: SCOUT-582
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "[Le hochet de la République] : [estampe] / Jean Veber"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b8577647w"
 data_estimada: "1904"
 pais: FR
-suporte: selo
+suporte: estampa
 motivo_alegorico: "République"
 regime: NORMATIVO
 confianca: baixo
 tags:
   - corpus/candidato
   - pais/FR
-  - suporte/selo
+  - suporte/estampa
   - regime/normativo
   - motivo/republica
   - #verificar
@@ -33,7 +33,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Veber, Jean (1864-1928). Graveur
 **Acervo**: Bibliothèque nationale de France
 **URL**: [link](https://gallica.bnf.fr/ark:/12148/btv1b8577647w)
-**Data**: 1904 | **País**: FR | **Suporte**: selo
+**Data**: 1904 | **País**: FR | **Suporte**: estampa
 **Thumbnail**: [imagem](https://gallica.bnf.fr/ark:/12148/btv1b8577647w/f1.thumbnail)
 **Direitos**: domaine public
 

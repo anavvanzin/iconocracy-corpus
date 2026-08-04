@@ -1,7 +1,7 @@
 ---
 id: SCOUT-576
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Sieg der Justitia von der Nike mit Lorbeer bekrönt in Begleitung zweier Putti"
 acervo: "Herzog Anton Ulrich Museum"
 url: "http://kk.haum-bs.de/?id=z-02158"

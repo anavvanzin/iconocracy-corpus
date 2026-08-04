@@ -1,7 +1,7 @@
 ---
 id: SCOUT-608
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "Veritas [The Repentant Revealing Truth and God´s Righteousness; Berouw brengt waarheid aan het licht en aanschouwt Gods rechtvaardigheid; Die Reue bringt die Wahrheit ans Licht im Angesicht von Gottes Gerechtigkeit]"
 acervo: "Herzog Anton Ulrich Museum"
 url: "http://kk.haum-bs.de/?id=coornhert-d-v-wb3-0049"

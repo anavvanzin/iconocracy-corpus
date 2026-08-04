@@ -1,7 +1,7 @@
 ---
 id: SCOUT-596
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "Grabmal für Marianne Schadow"
 acervo: "German Documentation Center for Art History - Marburg Picture Index"
 url: "http://www.bildindex.de/document/obj20497073"
