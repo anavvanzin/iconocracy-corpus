@@ -1,20 +1,20 @@
 ---
 id: SCOUT-624
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "[Frontispice de thèse dédiée à Nicolas Faure de Berlise ( 1670)] : [estampe] ([2e état]) / Greg. Huret jnu. et fecit"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b53254759f"
 data_estimada: "1641"
 pais: FR
-suporte: selo
+suporte: estampa
 motivo_alegorico: "Alegoria feminina"
 regime: NORMATIVO
 confianca: muito-baixo
 tags:
   - corpus/candidato
   - pais/FR
-  - suporte/selo
+  - suporte/estampa
   - regime/normativo
   - #verificar
   - hunt-candidate
@@ -32,7 +32,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Huret, Grégoire (1606-1670). Graveur
 **Acervo**: Bibliothèque nationale de France
 **URL**: [link](https://gallica.bnf.fr/ark:/12148/btv1b53254759f)
-**Data**: 1641 | **País**: FR | **Suporte**: selo
+**Data**: 1641 | **País**: FR | **Suporte**: estampa
 **Thumbnail**: [imagem](https://gallica.bnf.fr/ark:/12148/btv1b53254759f/f1.thumbnail)
 **Direitos**: domaine public
 

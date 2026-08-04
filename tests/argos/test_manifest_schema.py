@@ -1,3 +1,4 @@
+import sys
 import json
 import subprocess
 import tempfile
@@ -93,7 +94,7 @@ class ManifestSchemaTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    "python",
+                    sys.executable,
                     str(script_path),
                     str(manifest_path),
                     "--schema",

@@ -1,18 +1,19 @@
 ---
 id: SCOUT-590
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "Allegory of Winter"
 acervo: "The Metropolitan Museum of Art"
 url: "https://www.metmuseum.org/art/collection/search/436837"
 data_estimada: ""
 pais: FR
-suporte: indeterminado
+suporte: pintura
 motivo_alegorico: "Alegoria feminina"
 regime: INDETERMINADO
 confianca: baixo
 tags:
   - corpus/candidato
+  - suporte/pintura
   - pais/FR
   - #verificar
   - hunt-candidate
@@ -30,7 +31,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Jacques de La Joue the Younger
 **Acervo**: The Metropolitan Museum of Art
 **URL**: [link](https://www.metmuseum.org/art/collection/search/436837)
-**Data**: indeterminada | **País**: FR | **Suporte**: indeterminado
+**Data**: indeterminada | **País**: FR | **Suporte**: pintura
 **Thumbnail**: [imagem](https://images.metmuseum.org/CRDImages/ep/web-large/DP356144.jpg)
 **Direitos**: Public Domain
 

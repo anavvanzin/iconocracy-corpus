@@ -1,20 +1,20 @@
 ---
 id: SCOUT-623
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "LA DEROVTE // ET CONFVSION DES // IANSSENISTES : [estampe, almanach] ([État I / III])"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b6945300j"
 data_estimada: "1654"
 pais: FR
-suporte: selo
+suporte: estampa
 motivo_alegorico: "Alegoria feminina"
 regime: NORMATIVO
 confianca: muito-baixo
 tags:
   - corpus/candidato
   - pais/FR
-  - suporte/selo
+  - suporte/estampa
   - regime/normativo
   - #verificar
   - hunt-candidate
@@ -31,7 +31,7 @@ data_scout: 2026-07-25
 ### Identificação
 **Acervo**: Bibliothèque nationale de France
 **URL**: [link](https://gallica.bnf.fr/ark:/12148/btv1b6945300j)
-**Data**: 1654 | **País**: FR | **Suporte**: selo
+**Data**: 1654 | **País**: FR | **Suporte**: estampa
 **Thumbnail**: [imagem](https://gallica.bnf.fr/ark:/12148/btv1b6945300j/f1.thumbnail)
 **Direitos**: domaine public
 

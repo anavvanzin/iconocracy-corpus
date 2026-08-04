@@ -1,7 +1,7 @@
 ---
 id: SCOUT-579
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Justitia, time and Caritas"
 acervo: "Herzog Anton Ulrich Museum"
 url: "http://kk.haum-bs.de/?id=l-kilian-wb2-0015"
