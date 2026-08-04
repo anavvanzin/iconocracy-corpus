@@ -40,7 +40,7 @@ gantt
 | Autoria humana | 1 pessoa, **6 identidades git** (219 commits) | `git shortlog -sne` |
 | Corpus (ledger) | 328 registros; 279 codificados (85%) | `records.jsonl`, CLAUDE.md |
 | Trajetória do N | ~165 (abr) → 265–278 (jun) → 328 (jul) — aberto por decisão | snapshots/decisões |
-| `coded_by` | 11 rótulos; 15 `ana` (4,6%); 48,5% rotinas de ingestão | dialética R1 (verificado 2×) |
+| `coded_by` | 11 rótulos; 15 `ana` (4,6%); 57,0% rotinas de ingestão (159/279) | dialética R1 (verificado 2×; corrigido de 48,5% na rodada 2 — MÉDIO-9, denominador correto é `purification.jsonl`) |
 | Decision docs datados | 25+ em `docs/decisions/` | ls |
 | Tags / Releases | **0 / 0** | git, API |
 | Branches remotos | 19 | `git ls-remote` |
@@ -53,7 +53,7 @@ gantt
 
 **2. A contradição release-gate × zero releases.** `docs/OPERATING_MODEL.md` e o release gate definem pipeline de publicação (HF release etc.), e a dialética de 2026-06-19 sintetizou "releases congelados DE um corpus vivo" (tag `corpus-v1.0` + DOI) — **nunca executado**: zero tags, zero releases. O corpus vivo venceu na prática; a promessa de citabilidade congelada segue promessa. É o análogo operacional do achado da rodada 2 em curso (a tensão fixar × manter vivo *performada pelo próprio repositório*).
 
-**3. Fragmentação de identidade autoral.** 6 identidades git para a mesma autora (2 e-mails UFSC, msn, noreply, variações de nome) — irônico num projeto cuja dialética atual gira em torno de **proveniência**: o `git blame` da tese sofre do mesmo mal que o `coded_by` do corpus (48,5% rotinas). Correção barata: um `.mailmap` na raiz.
+**3. Fragmentação de identidade autoral.** 6 identidades git para a mesma autora (2 e-mails UFSC, msn, noreply, variações de nome) — irônico num projeto cuja dialética atual gira em torno de **proveniência**: o `git blame` da tese sofre do mesmo mal que o `coded_by` do corpus (57,0% rotinas, 159/279). Correção barata: um `.mailmap` na raiz.
 
 **4. Higiene de issues.** Os 10 health-checks semanais abertos são ruído que enterra as 5 issues reais; #56 (regressão do exportador) duplica o risco R1 do plano e deveria ser fechada quando F1 executar (ou vinculada ao PR #163).
 

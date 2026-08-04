@@ -2,6 +2,8 @@
 
 > Ensaio do Monge Elétrico B da rodada 2 (modelo: Fable). Posição crida em convicção total: o estabelecimento editorial reproduz a Purificação Clássica; a forma honesta é não estabelecer. 2026-07-31. Definições autorais citadas literalmente dos arquivos do repositório.
 
+> **⚠ Errata (achado da Auditoria Hostil R2).** A ontologia inteira deste ensaio ("fixar é cunhar") repousa numa glosa de Mondzain com título bibliográfico inexistente — o Mondzain 2002 real trata de *oikonomia* patrística, não de moeda. Ver `round_2_auditoria_hostil.md` (GRAVE-4) e `round_2_sintese_final.md`. Este arquivo é trace histórico da rodada; não citar isoladamente sem a síntese final.
+
 ## 1. Alegação ontológica: fixar uma leitura é emitir moeda
 
 Dentro da economia que esta tese descreve, fixar uma leitura não é um ato epistêmico — é um ato de emissão. O próprio glossário do projeto define a economia icônica de Mondzain (2002) como a análise da circulação e do valor das imagens numa sociedade, "framing them as a form of economic currency", e acrescenta que o conceito serve para entender "how allegorical representations of the female form accrue symbolic and political value" (`concepts/economia-iconica.md`). Nessa economia, fixar é cunhar: converter leituras circulantes, plurais e negociáveis em curso forçado — um valor que dispensa negociação porque uma autoridade o estampa. O texto estabelecido da rodada 1 é a moeda do corpus; o registro de roteamento é a sua marca de casa monetária; a banca é a garantia de conversibilidade.

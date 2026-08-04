@@ -2,6 +2,8 @@
 
 > Ensaio do Monge Elétrico A da rodada 2 (modelo: Opus). Posição crida em convicção total: o estabelecimento editorial é autoria legítima, formalmente distinta da Purificação Clássica. 2026-07-31.
 
+> **⚠ Errata (achado da Auditoria Hostil R2).** Este ensaio aceita e argumenta dentro da ontologia monetária ("fixar é cunhar") e cita a licença do corpus incorretamente como CC-BY-4.0. Ambas as premissas foram refutadas/corrigidas — ver `round_2_auditoria_hostil.md` (GRAVE-1 a GRAVE-4) e `round_2_sintese_final.md`. Este arquivo é trace histórico da rodada; não citar isoladamente sem a síntese final.
+
 ## 1. O que se estabelece, quando não há arquétipo
 
 Começo pela concessão, porque ela é a base do argumento e não a sua fraqueza: **fixar é exercer poder**. Não existe estabelecimento inocente, não existe adjudicação neutra, e a editora que fixa a leitura de FR-013 exerce sobre aquela imagem uma autoridade que o leitor não exerce. Quem precisa negar isso não tem argumento. Eu não nego: eu afirmo que há *formas* de poder formalmente distintas, e que a distinção é demonstrável, executável e testável — não retórica.

@@ -2,6 +2,8 @@
 
 **Data:** 2026-07-31 · **Estatuto:** proposta para adjudicação da Ana — nada aqui executa sozinho.
 
+> **⚠ Refutada (Auditoria Hostil R2).** A síntese monetária proposta neste documento ("emissão conversível"; "iconocracia = emissão irresgatável") não sobreviveu ao exame técnico da auditoria hostil — ver `round_2_auditoria_hostil.md` (7 achados GRAVES) e `round_2_sintese_final.md`, que a substitui. Mantido como etapa do trace dialético; **não é a posição final da rodada 2**.
+
 ## 0. Provocação De Bono + movimento (obrigatória em R2)
 
 **Po: a tese não emite moeda — a tese É a moeda; quem a emite é o corpus.** Movimento: a injeção aleatória (Karen Knotts) já apontava — a autoria é derivada do objeto editado; a banca não consagra uma soberana, consagra uma **nota em circulação** cujo valor depende da reserva que a lastreia. Se a tese é a nota e o corpus é a reserva, então a pergunta da rodada ("a editora purifica?") estava com o sujeito trocado: a operação decisiva não é o que a editora faz ao corpus, é **o que o corpus pode exigir de volta da tese** — e um corpus publicado, versionado e licenciado pode exigir tudo, a qualquer momento, por qualquer leitor. A provocação extrai o conceito que a negação já havia encontrado pela análise: **conversibilidade**.

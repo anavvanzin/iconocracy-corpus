@@ -2,6 +2,8 @@
 
 > Fase 6. O Monk B releu o próprio ensaio e a sublação R2, e respondeu em persona.
 
+> **⚠ Nota.** Esta validação avalia a sublação monetária, que a Auditoria Hostil R2 refutou depois (ver `round_2_auditoria_hostil.md` e `round_2_sintese_final.md`). As emendas propostas aqui foram incorporadas seletivamente na síntese final; a validação em si não é a posição final da rodada.
+
 ## Validação R2 — Monk B
 
 **1. Balanço.** Elevado nos fundamentos, derrotado na conclusão — e a derrota é limpa. Minha ontologia (§1: fixar é emitir) tornou-se o chão da síntese, e o "lastro" que ela acrescenta não me refuta: completa exatamente o que meu §4a demonstrou — que nenhum critério de cunhagem distingue (os fatos 1–2 mataram a lista inteira do oponente, e a síntese o registra por unanimidade). O isomorfismo (§2) sobrevive elevado como prova de que a família formal é a mesma e de que o critério tem de ser estrutural, não cosmético. Quanto aos três golpes: **B3 é justo** — eu escrevi "Caps. 1–5 intactos" e "a naturalização opera independentemente das declarações da editora"; se a citação achata qualquer forma, achata também o dossiê sinótico. Minha recusa nunca foi de emitir a tese, mas de cunhar uma face canônica do corpus — e essa exigência sobrevive: no gênero (b), na regra dura (atributo instável ⇒ divergência no corpo), na releitura de [C]/[E]/[H] como escopo de resgate, não grau — meu §6 quase inteiro, de pé. **B2 é o golpe mais justo**: meu próprio §4b (ela fabrica as testemunhas) proíbe a coluna-igual — quem configura o coro não canta nele como igual; a "coluna-juízo identificada" preserva o que eu queria (juízo entre colunas, não coroa) sem a encenação. Cancelamentos justos, todos executados com armas minhas.

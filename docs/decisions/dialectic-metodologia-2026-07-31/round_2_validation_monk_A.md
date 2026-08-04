@@ -2,6 +2,8 @@
 
 > Fase 6. O Monk A releu o próprio ensaio e a sublação R2, e respondeu em persona.
 
+> **⚠ Nota.** Esta validação avalia a sublação monetária, que a Auditoria Hostil R2 refutou depois (ver `round_2_auditoria_hostil.md` e `round_2_sintese_final.md`). As emendas propostas aqui foram incorporadas seletivamente na síntese final; a validação em si não é a posição final da rodada.
+
 ## Validação R2 — Monk A
 
 **1. Balanço — elevado, com uma cancelação justa e uma mal rotulada**
