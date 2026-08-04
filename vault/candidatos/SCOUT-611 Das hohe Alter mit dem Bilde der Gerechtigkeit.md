@@ -1,7 +1,7 @@
 ---
 id: SCOUT-611
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Das hohe Alter mit dem Bilde der Gerechtigkeit"
 acervo: "Herzog Anton Ulrich Museum"
 url: "http://kk.haum-bs.de/?id=j-e-nilson-ab3-0033"

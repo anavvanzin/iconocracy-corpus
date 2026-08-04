@@ -1,18 +1,19 @@
 ---
 id: SCOUT-581
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "[Buste de la République] : [photographie de presse] / [Agence Rol]"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b69528790"
 data_estimada: "1916"
 pais: FR
-suporte: indeterminado
+suporte: fotografia
 motivo_alegorico: "République"
 regime: MILITAR
 confianca: baixo
 tags:
   - corpus/candidato
+  - suporte/fotografia
   - pais/FR
   - regime/militar
   - motivo/republica
@@ -32,7 +33,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Agence Rol. Agence photographique (commanditaire)
 **Acervo**: Bibliothèque nationale de France
 **URL**: [link](https://gallica.bnf.fr/ark:/12148/btv1b69528790)
-**Data**: 1916 | **País**: FR | **Suporte**: indeterminado
+**Data**: 1916 | **País**: FR | **Suporte**: fotografia
 **Thumbnail**: [imagem](https://gallica.bnf.fr/ark:/12148/btv1b69528790/f1.thumbnail)
 **Direitos**: domaine public
 

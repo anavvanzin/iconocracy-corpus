@@ -272,6 +272,15 @@ def _build_purificacao(item: dict, csv_row: dict | None) -> dict | None:
     if notes:
         purif["notes"] = notes
 
+    # medium canônico: a fonte de verdade do suporte material é o ledger
+    # (purificacao.record_metadata.medium), não o export. Sem este mapeamento,
+    # a regeneração do export derruba ``support`` e o gate de idempotência
+    # (check_corpus_export_idempotent.py) falha. Valores são repassados como
+    # estão; a normalização de vocabulário é tarefa de normalize_supports.py.
+    support = item.get("support")
+    if isinstance(support, str) and support.strip():
+        purif["record_metadata"] = {"medium": support.strip()}
+
     return purif
 
 

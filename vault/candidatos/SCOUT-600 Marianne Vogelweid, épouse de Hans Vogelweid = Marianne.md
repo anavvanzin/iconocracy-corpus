@@ -1,7 +1,7 @@
 ---
 id: SCOUT-600
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "Marianne Vogelweid, épouse de Hans Vogelweid = Marianne Vogelweid, Gattin von Hans Vogelweid, Mi-corps, face"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b10213156p"

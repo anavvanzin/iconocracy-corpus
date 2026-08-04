@@ -1,18 +1,19 @@
 ---
 id: SCOUT-583
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "[République de Clésinger] : [photographie, tirage de démonstration] / [Atelier Nadar]"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b53124181m"
 data_estimada: "1900"
 pais: FR
-suporte: indeterminado
+suporte: fotografia
 motivo_alegorico: "République"
 regime: INDETERMINADO
 confianca: baixo
 tags:
   - corpus/candidato
+  - suporte/fotografia
   - pais/FR
   - motivo/republica
   - #verificar
@@ -31,7 +32,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Atelier Nadar. Photographe
 **Acervo**: Bibliothèque nationale de France
 **URL**: [link](https://gallica.bnf.fr/ark:/12148/btv1b53124181m)
-**Data**: 1900 | **País**: FR | **Suporte**: indeterminado
+**Data**: 1900 | **País**: FR | **Suporte**: fotografia
 **Thumbnail**: [imagem](https://gallica.bnf.fr/ark:/12148/btv1b53124181m/f1.thumbnail)
 **Direitos**: domaine public
 

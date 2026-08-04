@@ -1,7 +1,7 @@
 ---
 id: SCOUT-577
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "[Justitia und Violentia]"
 acervo: "Herzog Anton Ulrich Museum"
 url: "http://kk.haum-bs.de/?id=galle-j-exc-ab3-0016"

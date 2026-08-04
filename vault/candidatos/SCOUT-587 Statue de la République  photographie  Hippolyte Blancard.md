@@ -1,20 +1,20 @@
 ---
 id: SCOUT-587
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Statue de la République : [photographie] / [Hippolyte Blancard]"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b11600336m"
 data_estimada: "1889"
 pais: FR
-suporte: monumento
+suporte: fotografia
 motivo_alegorico: "République"
 regime: FUNDACIONAL
 confianca: baixo
 tags:
   - corpus/candidato
   - pais/FR
-  - suporte/monumento
+  - suporte/fotografia
   - regime/fundacional
   - motivo/republica
   - #verificar
@@ -33,7 +33,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Blancard, Hippolyte (1843-1924). Photographe
 **Acervo**: Bibliothèque nationale de France
 **URL**: [link](https://gallica.bnf.fr/ark:/12148/btv1b11600336m)
-**Data**: 1889 | **País**: FR | **Suporte**: monumento
+**Data**: 1889 | **País**: FR | **Suporte**: fotografia
 **Thumbnail**: [imagem](https://gallica.bnf.fr/ark:/12148/btv1b11600336m/f1.thumbnail)
 **Direitos**: domaine public
 

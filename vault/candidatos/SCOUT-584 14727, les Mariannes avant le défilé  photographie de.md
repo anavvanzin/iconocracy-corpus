@@ -1,18 +1,19 @@
 ---
 id: SCOUT-584
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "14/7/27, les Mariannes avant le défilé : [photographie de presse] / [Agence Rol]"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b53184735g"
 data_estimada: "1927"
 pais: FR
-suporte: indeterminado
+suporte: fotografia
 motivo_alegorico: "Marianne"
 regime: INDETERMINADO
 confianca: baixo
 tags:
   - corpus/candidato
+  - suporte/fotografia
   - pais/FR
   - motivo/marianne
   - #verificar
@@ -31,7 +32,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Agence Rol. Agence photographique (commanditaire)
 **Acervo**: Bibliothèque nationale de France
 **URL**: [link](https://gallica.bnf.fr/ark:/12148/btv1b53184735g)
-**Data**: 1927 | **País**: FR | **Suporte**: indeterminado
+**Data**: 1927 | **País**: FR | **Suporte**: fotografia
 **Thumbnail**: [imagem](https://gallica.bnf.fr/ark:/12148/btv1b53184735g/f1.thumbnail)
 **Direitos**: domaine public
 

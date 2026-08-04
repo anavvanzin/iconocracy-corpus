@@ -1,7 +1,7 @@
 ---
 id: SCOUT-594
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "Headstone Marianne Sonneborn (+ 1806)"
 acervo: "German Documentation Center for Art History - Marburg Picture Index"
 url: "http://www.bildindex.de/document/obj20458194"

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-603
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Pax und Respublica reichen sich die Hände, dahinter Caritas, Justitia und Prudentia."
 acervo: "Herzog August Library"
 url: "http://diglib.hab.de?grafik=35-5-geom-2f-2s-00004"

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-575
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Litis abusus(3):personnages allégoriques suivant l'amour..."
 acervo: "Royal Institute for Cultural Heritage"
 url: "http://balat.kikirpa.be/object/10065138"
