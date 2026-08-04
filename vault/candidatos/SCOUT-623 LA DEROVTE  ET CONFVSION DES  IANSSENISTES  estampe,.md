@@ -1,7 +1,7 @@
 ---
 id: SCOUT-623
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "LA DEROVTE // ET CONFVSION DES // IANSSENISTES : [estampe, almanach] ([État I / III])"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b6945300j"

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-606
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: 'Frimärke ur Gösta Bodmans filatelistiska motivsamling, påbörjad 1950. Frimärke från Italien, 1953. Motiv av "Republica Italiana"'
 acervo: "Swedish National Museum of Science and Technology"
 url: "https://digitaltmuseum.se/0210114159593"

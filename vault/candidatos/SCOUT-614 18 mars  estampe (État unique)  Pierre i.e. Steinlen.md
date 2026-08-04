@@ -1,7 +1,7 @@
 ---
 id: SCOUT-614
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "[18 mars] : [estampe] ([État unique]) / Pierre [i.e. Steinlen]"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b53188502h"

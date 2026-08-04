@@ -1,7 +1,7 @@
 ---
 id: SCOUT-604
 tipo: corpus-candidato
-status: candidato
+status: promovido
 titulo: "Relieve de la República - Relieve"
 acervo: "Archaeological and Ethnological Museum of Córdoba"
 url: "http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO"
@@ -17,7 +17,6 @@ tags:
   - pais/ES
   - regime/militar
   - motivo/republica
-  - #verificar
   - hunt-candidate
 related:
   - "[[endurecimento]]"
@@ -56,4 +55,14 @@ MORENO, Enrique. **Relieve de la República - Relieve**. 1931. Archaeological an
 Candidato gerado automaticamente por `hunt.py` via europeana.
 Score de relevância: **0.5** | Data: 2026-07-25
 
-> **#verificar**: Esta nota requer validação visual e confirmação de escopo pela pesquisadora.
+> **Validação**: IconoCode concluído; limitação de inspeção visual registrada abaixo.
+
+### IconoCode concluído (2026-08-04)
+
+**Decisão**: promovido ao ledger canônico após validação de schema.
+
+**Confiança**: média. A leitura foi ancorada no registro institucional e na descrição catalográfica; a imagem primária em alta resolução não foi inspecionada nesta rodada.
+
+**Regime iconocrático**: fundacional.
+
+**Nota de capta**: A inscrição vincula diretamente a alegoria ao espaço público e à ordem republicana de 1931.

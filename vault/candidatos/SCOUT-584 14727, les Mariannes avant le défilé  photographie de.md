@@ -1,7 +1,7 @@
 ---
 id: SCOUT-584
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "14/7/27, les Mariannes avant le défilé : [photographie de presse] / [Agence Rol]"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b53184735g"

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-589
 tipo: corpus-candidato
-status: candidato
+status: promovido
 titulo: "Sketch of an Allegory of the Abolition of Slavery"
 acervo: "The Metropolitan Museum of Art"
 url: "https://www.metmuseum.org/art/collection/search/848124"
@@ -16,7 +16,6 @@ tags:
   - pais/FR
   - suporte/escultura
   - regime/fundacional
-  - #verificar
   - hunt-candidate
 related:
   - "[[endurecimento]]"
@@ -53,4 +52,14 @@ ANONYMOUS, French School, 19th Century. **Sketch of an Allegory of the Abolition
 Candidato gerado automaticamente por `hunt.py` via met.
 Score de relevância: **0.5** | Data: 2026-07-25
 
-> **#verificar**: Esta nota requer validação visual e confirmação de escopo pela pesquisadora.
+> **Validação**: IconoCode concluído; limitação de inspeção visual registrada abaixo.
+
+### IconoCode concluído (2026-08-04)
+
+**Decisão**: promovido ao ledger canônico após validação de schema.
+
+**Confiança**: média. A leitura foi ancorada no registro institucional e na descrição catalográfica; a imagem primária em alta resolução não foi inspecionada nesta rodada.
+
+**Regime iconocrático**: fundacional.
+
+**Nota de capta**: Leitura baseada na imagem de catálogo e nos metadados do Met; terracota preparatória preserva corporeidade e narrativa.

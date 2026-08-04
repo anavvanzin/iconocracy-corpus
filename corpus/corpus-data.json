@@ -430,16 +430,31 @@
     "url": "https://www.metmuseum.org/art/collection/search/821181",
     "title": "La Liberté",
     "description": "Etching and pointillé. Drawings and Prints.",
-    "motif": [],
-    "coded_by": "",
-    "coded_at": "2026-08-01T00:00:00Z",
+    "motif": [
+      "figura feminina de pé",
+      "gorro frígio"
+    ],
+    "coded_by": "iconocode-gpt-5.6-sol",
+    "coded_at": "2026-08-04T00:00:00Z",
     "date": "ca. 1794",
-    "regime": "",
+    "regime": "fundacional",
     "citation_abnt": "MONCHY, Citoyenne de. La Liberté. ca. 1794. The Metropolitan Museum of Art. Disponível em: https://www.metmuseum.org/art/collection/search/821181. Acesso em: 25 jul. 2026.",
     "audit_flags": [
       "scout-promotion",
       "coding-pending"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 2,
+      "serialidade": 2,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "387bc54c-e8c7-50be-b24b-a3396f1bc1da",
@@ -821,16 +836,32 @@
     "url": "http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS&museum=MAN",
     "title": "Medalla",
     "description": "Medalla de Proclamación de la Iª Républica. Matrona sentada entre montañas con gorro frigio y nivel en la mano.",
-    "motif": [],
-    "coded_by": "",
-    "coded_at": "2026-08-01T00:00:00Z",
+    "motif": [
+      "matrona sentada",
+      "gorro frígio",
+      "nível"
+    ],
+    "coded_by": "iconocode-gpt-5.6-sol",
+    "coded_at": "2026-08-04T00:00:00Z",
     "date": "1873",
-    "regime": "",
+    "regime": "fundacional",
     "citation_abnt": "GARCÍA, J. Medalla. 1873. National Archaeological Museum. Disponível em: http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS&museum=MAN. Acesso em: 25 jul. 2026.",
     "audit_flags": [
       "scout-promotion",
       "coding-pending"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 3
+    }
   },
   {
     "id": "64d57088-2726-543f-bc9e-e382da696aee",
@@ -968,16 +999,31 @@
     "url": "https://www.metmuseum.org/art/collection/search/848124",
     "title": "Sketch of an Allegory of the Abolition of Slavery",
     "description": "Terracotta. European Sculpture and Decorative Arts.",
-    "motif": [],
-    "coded_by": "",
-    "coded_at": "2026-08-01T00:00:00Z",
+    "motif": [
+      "figura feminina alegórica",
+      "grupo narrativo abolicionista"
+    ],
+    "coded_by": "iconocode-gpt-5.6-sol",
+    "coded_at": "2026-08-04T00:00:00Z",
     "date": "ca. 1848",
-    "regime": "",
+    "regime": "fundacional",
     "citation_abnt": "CENTURY, Anonymous, French School, 19th. Sketch of an Allegory of the Abolition of Slavery. ca. 1848. The Metropolitan Museum of Art. Disponível em: https://www.metmuseum.org/art/collection/search/848124. Acesso em: 25 jul. 2026.",
     "audit_flags": [
       "scout-promotion",
       "coding-pending"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 0,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 1,
+      "serialidade": 0,
+      "inscricao_estatal": 0
+    }
   },
   {
     "id": "7b5ea66e-0285-59ea-a652-264f8a5e90bd",
@@ -1017,16 +1063,33 @@
     "url": "http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=MCM",
     "title": "Ficha",
     "description": "Alegoría de la República Francesa vestida a la romana, con fasces, báculo con gorro frigio y Victoria alada.",
-    "motif": [],
-    "coded_by": "",
-    "coded_at": "2026-08-01T00:00:00Z",
+    "motif": [
+      "figura feminina à romana",
+      "fasces",
+      "báculo com gorro frígio",
+      "Vitória alada"
+    ],
+    "coded_by": "iconocode-gpt-5.6-sol",
+    "coded_at": "2026-08-04T00:00:00Z",
     "date": "1870",
-    "regime": "",
+    "regime": "fundacional",
     "citation_abnt": "Ficha. 1870. Cerralbo Museum. Disponível em: http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=MCM. Acesso em: 25 jul. 2026.",
     "audit_flags": [
       "scout-promotion",
       "coding-pending"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 1,
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 2,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 2,
+      "serialidade": 3,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "80b1d4ad-1aa4-7f87-35b7-ba8cea46f0cf",
@@ -10579,16 +10642,33 @@
     "url": "http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR",
     "title": "Lo que puede suceder. - Estampa",
     "description": "Estampa satírica com a alegoria da República no umbral de Europa, expulsando um rei diante de uma fila de monarcas.",
-    "motif": [],
-    "coded_by": "",
-    "coded_at": "2026-08-01T00:00:00Z",
+    "motif": [
+      "figura feminina republicana",
+      "rei expulso",
+      "fila de monarcas",
+      "composição satírica"
+    ],
+    "coded_by": "iconocode-gpt-5.6-sol",
+    "coded_at": "2026-08-04T00:00:00Z",
     "date": "1870",
-    "regime": "",
+    "regime": "contra-alegoria",
     "citation_abnt": "ORTEGO Y VEREDA, Francisco. Lo que puede suceder. - Estampa. 1870. National Museum of Romanticism. Disponível em: http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR. Acesso em: 25 jul. 2026.",
     "audit_flags": [
       "scout-promotion",
       "coding-pending"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 1,
+      "enquadramento_arquitetonico": 0,
+      "apagamento_narrativo": 0,
+      "monocromatizacao": 1,
+      "serialidade": 2,
+      "inscricao_estatal": 1
+    }
   },
   {
     "id": "bc06d4cc-455f-530e-b86b-e046378979a3",
@@ -10854,16 +10934,33 @@
     "url": "http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO",
     "title": "Relieve de la República - Relieve",
     "description": "Placa com alegoria feminina da República, gorro frígio e balança, sobre a inscrição PLAZA DE LA REPÚBLICA.",
-    "motif": [],
-    "coded_by": "",
-    "coded_at": "2026-08-01T00:00:00Z",
+    "motif": [
+      "busto feminino em relevo",
+      "gorro frígio",
+      "balança",
+      "inscrição PLAZA DE LA REPÚBLICA"
+    ],
+    "coded_by": "iconocode-gpt-5.6-sol",
+    "coded_at": "2026-08-04T00:00:00Z",
     "date": "1931",
-    "regime": "",
+    "regime": "fundacional",
     "citation_abnt": "MORENO, Enrique. Relieve de la República - Relieve. 1931. Archaeological and Ethnological Museum of Córdoba. Disponível em: http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO. Acesso em: 25 jul. 2026.",
     "audit_flags": [
       "scout-promotion",
       "coding-pending"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 2,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 3,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 2,
+      "serialidade": 2,
+      "inscricao_estatal": 3
+    }
   },
   {
     "id": "d9878afa-cb92-52bd-b308-e1563cdf9332",
@@ -11035,16 +11132,32 @@
     "url": "http://ceres.mcu.es/pages/Main?idt=2713&inventary=02712&table=FMUS&museum=MCM",
     "title": "Exposición Universal de Lyon - Medalla",
     "description": "Cabeça da alegoria da República Francesa com coroa alada de carvalho e louro.",
-    "motif": [],
-    "coded_by": "",
-    "coded_at": "2026-08-01T00:00:00Z",
+    "motif": [
+      "cabeça feminina de perfil",
+      "coroa alada",
+      "carvalho e louro"
+    ],
+    "coded_by": "iconocode-gpt-5.6-sol",
+    "coded_at": "2026-08-04T00:00:00Z",
     "date": "1872",
-    "regime": "",
+    "regime": "normativo",
     "citation_abnt": "C. T. Exposición Universal de Lyon - Medalla. 1872. Cerralbo Museum. Disponível em: http://ceres.mcu.es/pages/Main?idt=2713&inventary=02712&table=FMUS&museum=MCM. Acesso em: 25 jul. 2026.",
     "audit_flags": [
       "scout-promotion",
       "coding-pending"
-    ]
+    ],
+    "indicadores": {
+      "desincorporacao": 3,
+      "rigidez_postural": 3,
+      "dessexualizacao": 3,
+      "uniformizacao_facial": 3,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 1,
+      "apagamento_narrativo": 3,
+      "monocromatizacao": 3,
+      "serialidade": 3,
+      "inscricao_estatal": 2
+    }
   },
   {
     "id": "f988255c-abaa-fb73-74fb-fcbce9abdaa8",

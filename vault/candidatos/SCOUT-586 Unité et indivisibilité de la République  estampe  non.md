@@ -1,7 +1,7 @@
 ---
 id: SCOUT-586
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Unité et indivisibilité de la République : [estampe] / [non identifié]"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b8412185d"

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-619
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "[Le Secours national] : [estampe] ([État avec remarque]) / Steinlen 1915"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b10510680x"

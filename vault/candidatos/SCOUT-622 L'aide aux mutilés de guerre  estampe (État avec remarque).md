@@ -1,7 +1,7 @@
 ---
 id: SCOUT-622
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: "[L'aide aux mutilés de guerre] : [estampe] ([État avec remarque]) / Steinlen 1915"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b10510668p"

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-588
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Statue de la République devant le Dôme central : [photographie] / [Hippolyte Blancard]"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b11600332t"

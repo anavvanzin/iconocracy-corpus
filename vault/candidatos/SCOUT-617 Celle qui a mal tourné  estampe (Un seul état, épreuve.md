@@ -1,7 +1,7 @@
 ---
 id: SCOUT-617
 tipo: corpus-candidato
-status: candidato
+status: descartar
 titulo: '[Celle qui a mal tourné] : [estampe] ([Un seul état, épreuve marquée au crayon rouge : "N° 63"]) / PP [Petit Pierre, i.e. Steinlen]'
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b53188408t"
