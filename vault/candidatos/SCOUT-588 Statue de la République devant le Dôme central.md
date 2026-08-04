@@ -7,14 +7,14 @@ acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b11600332t"
 data_estimada: "1889"
 pais: FR
-suporte: monumento
+suporte: fotografia
 motivo_alegorico: "République"
 regime: FUNDACIONAL
 confianca: baixo
 tags:
   - corpus/candidato
   - pais/FR
-  - suporte/monumento
+  - suporte/fotografia
   - regime/fundacional
   - motivo/republica
   - #verificar
@@ -33,7 +33,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Blancard, Hippolyte (1843-1924). Photographe
 **Acervo**: Bibliothèque nationale de France
 **URL**: [link](https://gallica.bnf.fr/ark:/12148/btv1b11600332t)
-**Data**: 1889 | **País**: FR | **Suporte**: monumento
+**Data**: 1889 | **País**: FR | **Suporte**: fotografia
 **Thumbnail**: [imagem](https://gallica.bnf.fr/ark:/12148/btv1b11600332t/f1.thumbnail)
 **Direitos**: domaine public
 

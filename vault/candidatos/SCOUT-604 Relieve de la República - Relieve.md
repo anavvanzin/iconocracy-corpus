@@ -6,14 +6,15 @@ titulo: "Relieve de la República - Relieve"
 acervo: "Archaeological and Ethnological Museum of Córdoba"
 url: "http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO"
 data_estimada: "1931"
-pais: BR
-suporte: indeterminado
+pais: ES
+suporte: escultura
 motivo_alegorico: "República"
 regime: MILITAR
 confianca: baixo
 tags:
   - corpus/candidato
-  - pais/BR
+  - suporte/escultura
+  - pais/ES
   - regime/militar
   - motivo/republica
   - #verificar
@@ -29,10 +30,10 @@ data_scout: 2026-07-25
 ## Relieve de la República - Relieve
 
 ### Identificação
-**Criador/Gravador**: Moreno, Enrique (Lugar de nacimiento: Montalbán de Córdoba, 1900 - Lugar de defunción: Córdoba, 09/09/1936)
+**Criador/Gravador**: Moreno, Enrique
 **Acervo**: Archaeological and Ethnological Museum of Córdoba
 **URL**: [link](http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO)
-**Data**: 1931 | **País**: BR | **Suporte**: indeterminado
+**Data**: 1931 | **País**: ES | **Suporte**: escultura
 **Thumbnail**: [imagem](https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fceres.mcu.es%2Fpages%2FViewer%3Fraw%3Dy%26accion%3D42%26AMuseo%3DMAECO%26img%3D%2FMAECO%2Ffondos_pre%2FMAECOFCE032775_P.JPG%26Ninv%3DCE032775&type=IMAGE)
 **Direitos**: http://rightsstatements.org/vocab/InC/1.0/
 
@@ -49,7 +50,7 @@ endurecimento esperado: ALTO (corpo blindado/petrificado).
 *Classificação preliminar baseada em metadados textuais. Requer confirmação visual.*
 
 ### Citação ABNT
-09/09/1936), Moreno, Enrique (Lugar de nacimiento: Montalbán de Córdoba, 1900 - Lugar de defunción: Córdoba,. **Relieve de la República - Relieve**. 1931. Archaeological and Ethnological Museum of Córdoba. Disponível em: http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO. Acesso em: 25 Jul. 2026.
+MORENO, Enrique. **Relieve de la República - Relieve**. 1931. Archaeological and Ethnological Museum of Córdoba. Disponível em: http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO. Acesso em: 25 Jul. 2026.
 
 ### Proveniência
 Candidato gerado automaticamente por `hunt.py` via europeana.

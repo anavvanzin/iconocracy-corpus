@@ -7,14 +7,14 @@ acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b10510680x"
 data_estimada: "1915"
 pais: FR
-suporte: selo
+suporte: estampa
 motivo_alegorico: "Alegoria feminina"
 regime: MILITAR
 confianca: muito-baixo
 tags:
   - corpus/candidato
   - pais/FR
-  - suporte/selo
+  - suporte/estampa
   - regime/militar
   - #verificar
   - hunt-candidate
@@ -32,7 +32,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Steinlen, Théophile Alexandre (1859-1923). Lithographe
 **Acervo**: Bibliothèque nationale de France
 **URL**: [link](https://gallica.bnf.fr/ark:/12148/btv1b10510680x)
-**Data**: 1915 | **País**: FR | **Suporte**: selo
+**Data**: 1915 | **País**: FR | **Suporte**: estampa
 **Thumbnail**: [imagem](https://gallica.bnf.fr/ark:/12148/btv1b10510680x/f1.thumbnail)
 **Direitos**: domaine public
 

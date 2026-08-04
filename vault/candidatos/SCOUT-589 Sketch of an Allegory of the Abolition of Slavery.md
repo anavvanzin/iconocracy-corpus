@@ -7,14 +7,14 @@ acervo: "The Metropolitan Museum of Art"
 url: "https://www.metmuseum.org/art/collection/search/848124"
 data_estimada: "ca. 1848"
 pais: FR
-suporte: monumento
+suporte: escultura
 motivo_alegorico: "Alegoria feminina"
 regime: FUNDACIONAL
 confianca: baixo
 tags:
   - corpus/candidato
   - pais/FR
-  - suporte/monumento
+  - suporte/escultura
   - regime/fundacional
   - #verificar
   - hunt-candidate
@@ -32,7 +32,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Anonymous, French School, 19th Century
 **Acervo**: The Metropolitan Museum of Art
 **URL**: [link](https://www.metmuseum.org/art/collection/search/848124)
-**Data**: ca. 1848 | **País**: FR | **Suporte**: monumento
+**Data**: ca. 1848 | **País**: FR | **Suporte**: escultura
 **Thumbnail**: [imagem](https://images.metmuseum.org/CRDImages/es/web-large/DP-21676-037.jpg)
 **Direitos**: Public Domain
 
@@ -47,7 +47,7 @@ endurecimento esperado: BAIXO (corpo ainda vivo, narrativo).
 *Classificação preliminar baseada em metadados textuais. Requer confirmação visual.*
 
 ### Citação ABNT
-CENTURY, Anonymous, French School, 19th. **Sketch of an Allegory of the Abolition of Slavery**. ca. 1848. The Metropolitan Museum of Art. Disponível em: https://www.metmuseum.org/art/collection/search/848124. Acesso em: 25 Jul. 2026.
+ANONYMOUS, French School, 19th Century. **Sketch of an Allegory of the Abolition of Slavery**. ca. 1848. The Metropolitan Museum of Art. Disponível em: https://www.metmuseum.org/art/collection/search/848124. Acesso em: 25 Jul. 2026.
 
 ### Proveniência
 Candidato gerado automaticamente por `hunt.py` via met.
