@@ -1,3 +1,4 @@
+import sys
 import importlib.util
 import io
 import json
@@ -128,7 +129,7 @@ class ManifestBuilderCliTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    "python",
+                    sys.executable,
                     str(self.script_path),
                     "--dry-run",
                     "--output",
@@ -246,7 +247,7 @@ class ManifestBuilderCliTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    "python",
+                    sys.executable,
                     str(self.script_path),
                     "--output",
                     str(output_path),
@@ -267,7 +268,7 @@ class ManifestBuilderCliTests(unittest.TestCase):
 
             validate_result = subprocess.run(
                 [
-                    "python",
+                    sys.executable,
                     "tools/scripts/validate_schemas.py",
                     str(output_path),
                     "--schema",
