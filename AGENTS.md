@@ -2,14 +2,14 @@
 
 > **This is the quick-reference card.** For full architecture, mode routing, hooks, skills, terminology tables, known data issues, and corpus parameters, see [`CLAUDE.md`](CLAUDE.md).
 
-## Data Hierarchy (audit 2026-06-23)
+## Data Hierarchy (audit 2026-07-31)
 
 | # | Layer | Count | Role |
 |---|-------|-------|------|
-| 1 | `data/processed/records.jsonl` | 299 | Canonical operational ledger |
-| 2 | `corpus/corpus-data.json` | 299 | Public-facing export |
-| 3 | `data/processed/purification.jsonl` | 236 | Endurecimento coding ledger |
-| 4 | `vault/candidatos/` | 357 | Auxiliary cataloguing mirror |
+| 1 | `data/processed/records.jsonl` | 335 | Canonical operational ledger |
+| 2 | `corpus/corpus-data.json` | 335 | Public-facing export |
+| 3 | `data/processed/purification.jsonl` | 279 | Endurecimento coding ledger |
+| 4 | `vault/candidatos/` | 410 | Auxiliary cataloguing mirror |
 
 ## Environment
 

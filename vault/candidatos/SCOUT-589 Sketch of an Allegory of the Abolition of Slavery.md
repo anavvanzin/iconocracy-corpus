@@ -1,22 +1,21 @@
 ---
 id: SCOUT-589
 tipo: corpus-candidato
-status: candidato
+status: promovido
 titulo: "Sketch of an Allegory of the Abolition of Slavery"
 acervo: "The Metropolitan Museum of Art"
 url: "https://www.metmuseum.org/art/collection/search/848124"
 data_estimada: "ca. 1848"
 pais: FR
-suporte: monumento
+suporte: escultura
 motivo_alegorico: "Alegoria feminina"
 regime: FUNDACIONAL
 confianca: baixo
 tags:
   - corpus/candidato
   - pais/FR
-  - suporte/monumento
+  - suporte/escultura
   - regime/fundacional
-  - #verificar
   - hunt-candidate
 related:
   - "[[endurecimento]]"
@@ -32,7 +31,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Anonymous, French School, 19th Century
 **Acervo**: The Metropolitan Museum of Art
 **URL**: [link](https://www.metmuseum.org/art/collection/search/848124)
-**Data**: ca. 1848 | **País**: FR | **Suporte**: monumento
+**Data**: ca. 1848 | **País**: FR | **Suporte**: escultura
 **Thumbnail**: [imagem](https://images.metmuseum.org/CRDImages/es/web-large/DP-21676-037.jpg)
 **Direitos**: Public Domain
 
@@ -47,10 +46,20 @@ endurecimento esperado: BAIXO (corpo ainda vivo, narrativo).
 *Classificação preliminar baseada em metadados textuais. Requer confirmação visual.*
 
 ### Citação ABNT
-CENTURY, Anonymous, French School, 19th. **Sketch of an Allegory of the Abolition of Slavery**. ca. 1848. The Metropolitan Museum of Art. Disponível em: https://www.metmuseum.org/art/collection/search/848124. Acesso em: 25 Jul. 2026.
+ANONYMOUS, French School, 19th Century. **Sketch of an Allegory of the Abolition of Slavery**. ca. 1848. The Metropolitan Museum of Art. Disponível em: https://www.metmuseum.org/art/collection/search/848124. Acesso em: 25 Jul. 2026.
 
 ### Proveniência
 Candidato gerado automaticamente por `hunt.py` via met.
 Score de relevância: **0.5** | Data: 2026-07-25
 
-> **#verificar**: Esta nota requer validação visual e confirmação de escopo pela pesquisadora.
+> **Validação**: IconoCode concluído; limitação de inspeção visual registrada abaixo.
+
+### IconoCode concluído (2026-08-04)
+
+**Decisão**: promovido ao ledger canônico após validação de schema.
+
+**Confiança**: média. A leitura foi ancorada no registro institucional e na descrição catalográfica; a imagem primária em alta resolução não foi inspecionada nesta rodada.
+
+**Regime iconocrático**: fundacional.
+
+**Nota de capta**: Leitura baseada na imagem de catálogo e nos metadados do Met; terracota preparatória preserva corporeidade e narrativa.

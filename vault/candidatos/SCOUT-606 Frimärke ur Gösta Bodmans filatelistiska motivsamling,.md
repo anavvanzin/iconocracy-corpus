@@ -1,20 +1,20 @@
 ---
 id: SCOUT-606
 tipo: corpus-candidato
-status: candidato
-titulo: "Frimärke ur Gösta Bodmans filatelistiska motivsamling, påbörjad 1950.
-Frimärke från Italien, 1953. Motiv av "Republica Italiana""
+status: revisar
+titulo: 'Frimärke ur Gösta Bodmans filatelistiska motivsamling, påbörjad 1950. Frimärke från Italien, 1953. Motiv av "Republica Italiana"'
 acervo: "Swedish National Museum of Science and Technology"
 url: "https://digitaltmuseum.se/0210114159593"
-data_estimada: ""
-pais: BR
-suporte: indeterminado
+data_estimada: "1953"
+pais: IT
+suporte: selo
 motivo_alegorico: "Republic"
 regime: INDETERMINADO
 confianca: baixo
 tags:
   - corpus/candidato
-  - pais/BR
+  - suporte/selo
+  - pais/IT
   - motivo/republica
   - #verificar
   - hunt-candidate
@@ -26,13 +26,12 @@ hunt_source: europeana
 data_scout: 2026-07-25
 ---
 
-## Frimärke ur Gösta Bodmans filatelistiska motivsamling, påbörjad 1950.
-Frimärke från Italien, 1953. Motiv av "Republica Italiana"
+## Frimärke ur Gösta Bodmans filatelistiska motivsamling, påbörjad 1950. Frimärke från Italien, 1953. Motiv av "Republica Italiana"
 
 ### Identificação
 **Acervo**: Swedish National Museum of Science and Technology
 **URL**: [link](https://digitaltmuseum.se/0210114159593)
-**Data**: indeterminada | **País**: BR | **Suporte**: indeterminado
+**Data**: 1953 | **País**: IT | **Suporte**: selo
 **Thumbnail**: [imagem](https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fems.dimu.org%2Fimage%2F019EE7idV7m81%3Fdimension%3D1200x1200&type=IMAGE)
 **Direitos**: http://creativecommons.org/publicdomain/mark/1.0/
 
@@ -48,7 +47,7 @@ Frimärke från Italien, 1953. Motiv av "Republica Italiana"
 
 ### Citação ABNT
 **Frimärke ur Gösta Bodmans filatelistiska motivsamling, påbörjad 1950.
-Frimärke från Italien, 1953. Motiv av "Republica Italiana"**. Swedish National Museum of Science and Technology. Disponível em: https://digitaltmuseum.se/0210114159593. Acesso em: 25 Jul. 2026.
+Frimärke från Italien, 1953. Motiv av "Republica Italiana"**. 1953. Swedish National Museum of Science and Technology. Disponível em: https://digitaltmuseum.se/0210114159593. Acesso em: 25 Jul. 2026.
 
 ### Proveniência
 Candidato gerado automaticamente por `hunt.py` via europeana.

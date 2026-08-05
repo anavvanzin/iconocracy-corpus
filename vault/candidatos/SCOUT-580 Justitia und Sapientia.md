@@ -1,7 +1,7 @@
 ---
 id: SCOUT-580
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Justitia und Sapientia"
 acervo: "Herzog Anton Ulrich Museum"
 url: "http://kk.haum-bs.de/?id=g-fentzel-wb3-0010"

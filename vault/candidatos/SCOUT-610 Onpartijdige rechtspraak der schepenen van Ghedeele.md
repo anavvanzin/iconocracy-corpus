@@ -1,7 +1,7 @@
 ---
 id: SCOUT-610
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Onpartijdige rechtspraak der schepenen van Ghedeele"
 acervo: "Royal Institute for Cultural Heritage"
 url: "http://balat.kikirpa.be/object/104975"

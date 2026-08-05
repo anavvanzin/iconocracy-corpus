@@ -1,20 +1,20 @@
 ---
 id: SCOUT-585
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Au nom de la République française [a tous les officiers civils et militaires...] : [estampe] / Gatteaux inv.t ; R. De Launay sculp.t"
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b84125562"
 data_estimada: "1798"
 pais: FR
-suporte: selo
+suporte: estampa
 motivo_alegorico: "République"
 regime: NORMATIVO
 confianca: baixo
 tags:
   - corpus/candidato
   - pais/FR
-  - suporte/selo
+  - suporte/estampa
   - regime/normativo
   - motivo/republica
   - #verificar
@@ -33,7 +33,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Launay, Robert de (1749?-1814). Graveur
 **Acervo**: Bibliothèque nationale de France
 **URL**: [link](https://gallica.bnf.fr/ark:/12148/btv1b84125562)
-**Data**: 1798 | **País**: FR | **Suporte**: selo
+**Data**: 1798 | **País**: FR | **Suporte**: estampa
 **Thumbnail**: [imagem](https://gallica.bnf.fr/ark:/12148/btv1b84125562/f1.thumbnail)
 **Direitos**: domaine public
 

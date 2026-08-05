@@ -1,3 +1,4 @@
+import sys
 import json
 import subprocess
 import tempfile
@@ -198,7 +199,7 @@ class ManifestUpdateTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    "python",
+                    sys.executable,
                     str(self.script_path),
                     "--manifest",
                     str(manifest_path),
@@ -227,7 +228,7 @@ class ManifestUpdateTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    "python",
+                    sys.executable,
                     str(self.script_path),
                     "--manifest",
                     str(manifest_path),

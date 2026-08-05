@@ -173,3 +173,18 @@ deploy/iconocracia-companion/.wrangler/
 .claude/hooks/README.md
 .claude/hooks/hooks.json
 .claude/hooks/memory-persistence/
+
+# LPAI proxy coder (Kimi K3) — staging + cache de imagens; nunca versionado
+data/staging/lpai-proxy-k3-runs.jsonl
+data/staging/lpai-proxy-k3-runs.*.jsonl
+.cache/lpai-proxy-images/
+
+# Camada de captação de imagens — bytes de acervo e manifesto de proveniência
+# ficam fora do versionamento (licenças de terceiros + volume)
+.cache/corpus-images/
+data/staging/image-manifest.jsonl
+*.dmg
+
+# Compiled thesis artifacts
+tese/artigos/out-abnt/*.pdf
+tese/artigos/out-abnt/*.docx

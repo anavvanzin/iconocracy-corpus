@@ -1,20 +1,20 @@
 ---
 id: SCOUT-617
 tipo: corpus-candidato
-status: candidato
-titulo: "[Celle qui a mal tourné] : [estampe] ([Un seul état, épreuve marquée au crayon rouge : "N° 63"]) / PP [Petit Pierre, i.e. Steinlen]"
+status: descartar
+titulo: '[Celle qui a mal tourné] : [estampe] ([Un seul état, épreuve marquée au crayon rouge : "N° 63"]) / PP [Petit Pierre, i.e. Steinlen]'
 acervo: "Bibliothèque nationale de France"
 url: "https://gallica.bnf.fr/ark:/12148/btv1b53188408t"
 data_estimada: "1894"
 pais: FR
-suporte: selo
+suporte: estampa
 motivo_alegorico: "Alegoria feminina"
 regime: NORMATIVO
 confianca: muito-baixo
 tags:
   - corpus/candidato
   - pais/FR
-  - suporte/selo
+  - suporte/estampa
   - regime/normativo
   - #verificar
   - hunt-candidate
@@ -32,7 +32,7 @@ data_scout: 2026-07-25
 **Criador/Gravador**: Steinlen, Théophile Alexandre (1859-1923). Lithographe
 **Acervo**: Bibliothèque nationale de France
 **URL**: [link](https://gallica.bnf.fr/ark:/12148/btv1b53188408t)
-**Data**: 1894 | **País**: FR | **Suporte**: selo
+**Data**: 1894 | **País**: FR | **Suporte**: estampa
 **Thumbnail**: [imagem](https://gallica.bnf.fr/ark:/12148/btv1b53188408t/f1.thumbnail)
 **Direitos**: domaine public
 

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-578
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Le Monde de la Science, des Arts et de la Magistrature
 Cortège allégorique à la gloire de la cité"
 acervo: "Royal Institute for Cultural Heritage"

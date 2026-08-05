@@ -1,12 +1,14 @@
 ---
 codebook_id: lpai-master
-codebook_version: 2.2.0
-data_versao: 2026-06-24
+codebook_version: 2.2.1
+data_versao: 2026-07-28
 status: pre_freeze
 freeze_state: pre_freeze
 canonical_schema: tools/schemas/master-record.schema.json
 canonical_records: data/processed/records.jsonl
 canonical_prompt_section: "§16 — Master prompt operacional"
+composto_status: legacy_frozen
+decisao_composto: docs/decisions/2026-07-28-aposentadoria-do-indice-composto.md
 replaces:
   - schema/lpai-v2-as-capta.md
   - docs/methodology/codebook-v2-alegorias.md
@@ -125,7 +127,7 @@ Os 10 indicadores canônicos são os do documento-pai `data/docs/codebook.md`, e
 | `serialidade` | obra única | tiragem limitada | média escala | reprodução massiva |
 | `inscricao_estatal` | sem vínculo estatal | encomenda oficial | insígnia estatal | dispositivo estatal |
 
-O índice composto é a média dos 10 indicadores. Ele é uma heurística de endurecimento/purificação simbólica, não prova autônoma. Indicadores suplementares como classicização, moralização, depuração semântica, neutralização afetiva e monumentalização podem aparecer em notas iconológicas, mas não integram o score canônico em v2.2.0.
+O índice composto está **aposentado** desde v2.2.1 (ver [decisão de 2026-07-28](../docs/decisions/2026-07-28-aposentadoria-do-indice-composto.md)). Não se calcula `purificacao_composto` para codificação nova: a média tratava como intercambiáveis indicadores incomensuráveis — propriedade técnica do suporte, fato institucional e juízo iconográfico — e o número comprimia dez decisões interpretativas em um valor que sobrevivia sozinho nas tabelas. Os 10 indicadores permanecem obrigatórios como capta ordinal; o que sai é a agregação, não a observação. Valores legados ficam congelados (`legacy_frozen`): não são recalculados nem apagados, e nenhuma afirmação da tese pode repousar sobre eles. No lugar da média, a codificação registra inventário verbal de atributos. Indicadores suplementares como classicização, moralização, depuração semântica, neutralização afetiva e monumentalização podem aparecer em notas iconológicas.
 
 ## 11. Programa iconográfico
 
@@ -172,7 +174,7 @@ purificacao:
   monocromatizacao: 2
   serialidade: 3
   inscricao_estatal: 3
-  purificacao_composto: 2.1
+  # purificacao_composto: legacy_frozen desde v2.2.1 — não preencher em codificação nova
   regime_iconocratico: normativo
   coded_by: avanzin
   coded_at: "2026-06-24T18:00:00-03:00"
@@ -194,12 +196,12 @@ purificacao:
 Use este bloco como instrução para um codificador humano ou LLM. Não inclua blocos terminológicos longos; consulte o codebook quando precisar de enum.
 
 ```text
-Você é um codificador LPAI v2.2.0 para o corpus ICONOCRACY. Sua tarefa é produzir capta iconográfico situado, não dados neutros.
+Você é um codificador LPAI v2.2.1 para o corpus ICONOCRACY. Sua tarefa é produzir capta iconográfico situado, não dados neutros.
 
 1. Leia a evidência disponível: imagem, metadados, fonte, data, suporte, local e notas anteriores.
 2. Declare se a imagem permite codificação visual suficiente. Se não permitir, reduza confiança e explique em notes.
 3. Classifique os 10 indicadores canônicos em escala 0–3: desincorporacao, rigidez_postural, dessexualizacao, uniformizacao_facial, heraldizacao, enquadramento_arquitetonico, apagamento_narrativo, monocromatizacao, serialidade, inscricao_estatal.
-4. Calcule purificacao_composto como média simples dos 10 indicadores.
+4. NÃO calcule índice composto, média, escore agregado ou qualquer número único a partir dos indicadores. Em lugar disso, registre inventario_verbal: a lista dos atributos efetivamente observados, em vocabulário iconográfico. O campo purificacao_composto está aposentado (legacy_frozen desde v2.2.1) e não deve ser emitido.
 5. Atribua regime_iconocratico apenas se houver base suficiente: fundacional, normativo, militar ou contra-alegoria.
 6. Preencha familia_alegorica, subtipo, genero_atribuido, funcao_juridica e vetor_colonial quando a evidência sustentar a decisão.
 7. Separe descrição de hipótese. Use atributos_iconograficos para sinais observáveis e hipotese_racial apenas para interpretação declarada.

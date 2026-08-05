@@ -1,23 +1,22 @@
 ---
 id: SCOUT-602
 tipo: corpus-candidato
-status: candidato
+status: promovido
 titulo: "Ficha"
 acervo: "Cerralbo Museum"
 url: "http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=MCM"
 data_estimada: "1870"
-pais: BR
-suporte: moeda
+pais: FR
+suporte: ficha
 motivo_alegorico: "Liberté"
 regime: FUNDACIONAL
 confianca: baixo
 tags:
   - corpus/candidato
-  - pais/BR
+  - pais/FR
   - suporte/moeda
   - regime/fundacional
   - motivo/republica
-  - #verificar
   - hunt-candidate
 related:
   - "[[endurecimento]]"
@@ -32,7 +31,7 @@ data_scout: 2026-07-25
 ### Identificação
 **Acervo**: Cerralbo Museum
 **URL**: [link](http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=MCM)
-**Data**: 1870 | **País**: BR | **Suporte**: moeda
+**Data**: 1870 | **País**: FR | **Suporte**: ficha
 **Thumbnail**: [imagem](https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fceres.mcu.es%2Fpages%2FViewer%3Fraw%3Dy%26accion%3D42%26AMuseo%3DMCM%26img%3D%2FMCM%2Ffondos_pre%2FMCMF02790_P.JPG%26Ninv%3D02790&type=IMAGE)
 **Direitos**: http://rightsstatements.org/vocab/InC/1.0/
 
@@ -55,4 +54,14 @@ endurecimento esperado: BAIXO (corpo ainda vivo, narrativo).
 Candidato gerado automaticamente por `hunt.py` via europeana.
 Score de relevância: **0.5** | Data: 2026-07-25
 
-> **#verificar**: Esta nota requer validação visual e confirmação de escopo pela pesquisadora.
+> **Validação**: IconoCode concluído; limitação de inspeção visual registrada abaixo.
+
+### IconoCode concluído (2026-08-04)
+
+**Decisão**: promovido ao ledger canônico após validação de schema.
+
+**Confiança**: média. A leitura foi ancorada no registro institucional e na descrição catalográfica; a imagem primária em alta resolução não foi inspecionada nesta rodada.
+
+**Regime iconocrático**: fundacional.
+
+**Nota de capta**: Leitura ancorada na descrição do Museo Cerralbo; objeto seriável de caráter para-numismático.

@@ -1,7 +1,7 @@
 ---
 id: SCOUT-609
 tipo: corpus-candidato
-status: candidato
+status: revisar
 titulo: "Gerechtigkeit (Iustitia)"
 acervo: "Herzog Anton Ulrich Museum"
 url: "http://kk.haum-bs.de/?id=z-wb-viii-042"

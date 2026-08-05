@@ -27,6 +27,11 @@ import json
 import sys
 from pathlib import Path
 from collections import defaultdict, Counter
+# Composto aposentado no codebook v2.2.1 (DEC-2026-07-28): ordenação e
+# comparação passam a usar o inventário de atributos, não o escore agregado.
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from tools.scripts.lpai_indicators import attribute_count, attribute_inventory  # noqa: E402
+
 
 # ============================================================================
 # TAXONOMY v0.2 — full type system
@@ -223,9 +228,9 @@ def classify_binary(thread, corpus_by_id):
 
     # === Sub-types of Genealogia ===
     if 'internal_to_country' in flags and 'cross_regime' in flags:
-        a_score = a.get('endurecimento_score') or 0
-        b_score = b.get('endurecimento_score') or 0
-        if a_year < b_year and b_score > a_score + 0.2:
+        a_attrs = attribute_count(a)
+        b_attrs = attribute_count(b)
+        if a_year < b_year and b_attrs > a_attrs:
             candidates.append(('genealogia_ascendente', 0.85))
     if a_regime == 'contra-alegoria' or b_regime == 'contra-alegoria':
         if shared_motifs and delta_year < 100:
@@ -328,7 +333,7 @@ def classify_chain(chain, corpus_by_id):
         return [('incomplete_chain', 0.0)]
 
     years = [e.get('year') or 0 for e in entries]
-    scores = [e.get('endurecimento_score') or 0 for e in entries]
+    attrs = [attribute_count(e) for e in entries]
     countries = [e.get('country', '') for e in entries]
 
     if not all(years[i] <= years[i+1] for i in range(len(years)-1)):
@@ -337,28 +342,31 @@ def classify_chain(chain, corpus_by_id):
     candidates = []
 
     # Endurecimento progressivo (strict monotonic OR with militar inflection)
-    monotonic_score = all(scores[i] <= scores[i+1] + 0.3 for i in range(len(scores)-1))
+    # Acréscimo de atributos ao longo da cadeia — cardinalidade, não curva.
+    monotonic_score = all(attrs[i] <= attrs[i+1] for i in range(len(attrs)-1))
     regimes = [e.get('regime', '') for e in entries]
 
-    # Detect 'militar inflection': cadeia que cresce monotonicamente até atingir regime militar,
-    # depois pode quebrar (regime militar tende a baixar score por mobilização tópica)
+    # Detect 'militar inflection': cadeia que acumula atributos até atingir regime
+    # militar, depois pode quebrar (o regime militar tende a reduzir o número de
+    # atributos marcados por mobilização tópica)
     has_militar_inflection = False
     if 'militar' in regimes:
         idx_first_militar = regimes.index('militar')
-        pre_militar = scores[:idx_first_militar]  # excludes militar item itself
-        if len(pre_militar) >= 2 and all(pre_militar[i] <= pre_militar[i+1] + 0.3 for i in range(len(pre_militar)-1)):
-            if pre_militar[-1] - pre_militar[0] >= 0.4:
+        pre_militar = attrs[:idx_first_militar]  # excludes militar item itself
+        if len(pre_militar) >= 2 and all(pre_militar[i] <= pre_militar[i+1] for i in range(len(pre_militar)-1)):
+            if pre_militar[-1] - pre_militar[0] >= 1:
                 has_militar_inflection = True
 
-    delta_pre_max = max(scores) - scores[0] if len(scores) >= 2 else 0
-    delta_total = scores[-1] - scores[0] if len(scores) >= 2 else 0
+    # Deltas em CONTAGEM de atributos (inteiros), não em média de escore.
+    delta_pre_max = max(attrs) - attrs[0] if len(attrs) >= 2 else 0
+    delta_total = attrs[-1] - attrs[0] if len(attrs) >= 2 else 0
 
-    if monotonic_score and delta_total >= 0.5:
+    if monotonic_score and delta_total >= 2:
         if len(set(countries)) >= 2:
             candidates.append(('endurecimento_cross_country', 0.9))
         else:
             candidates.append(('endurecimento_progressivo', 0.95))
-    elif has_militar_inflection and delta_pre_max >= 0.5:
+    elif has_militar_inflection and delta_pre_max >= 2:
         # Cadeia válida com inflexão militar
         if len(set(countries)) >= 2:
             candidates.append(('endurecimento_cross_country', 0.8))
@@ -639,7 +647,10 @@ def build_chain_report(chains, corpus_by_id):
         scores_str = ''
         for iid in c['item_ids']:
             e = corpus_by_id.get(iid, {})
-            scores_str += f"- `{iid}` ({e.get('year','?')}) · {e.get('regime','-')} · ⬥{e.get('endurecimento_score',0):.1f} · {e.get('country','-')}\n"
+            scores_str += (f"- `{iid}` ({e.get('year','?')}) · {e.get('regime','-')} · "
+                           f"⬥{attribute_count(e)} atributos"
+                           + (f" [{', '.join(attribute_inventory(e))}]" if attribute_inventory(e) else "")
+                           + f" · {e.get('country','-')}\n")
         md.append("**Itens:**\n" + scores_str + "\n")
     return '\n'.join(md)
 
