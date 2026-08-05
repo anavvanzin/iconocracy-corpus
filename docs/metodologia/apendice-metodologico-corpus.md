@@ -82,15 +82,24 @@ predominância francesa não reflete a importância relativa dos casos no argume
 mas a densidade de digitalização da Gallica e da Europeana — observação que
 retorna em A.2 como viés de acervo.
 
-Quanto à codificação, 222 registros possuem inventário de atributos efetivamente
-constituído. Os 106 restantes receberam, em etapa de importação, valores nulos em
-todos os indicadores, o que os tornava indistinguíveis de objetos examinados e
-julgados desprovidos de atributo. Esses registros passaram a estado explícito de
-não codificação. A correção não é ornamento de rigor: sem ela, o regime militar
-— cujos registros estão majoritariamente por examinar — apareceria como o menos
-marcado do conjunto, quando o exame dos casos efetivamente lidos indica o
-contrário. Toda afirmação sobre o regime militar permanece suspensa até a
-conclusão da leitura.
+Quanto à codificação, 229 registros possuem inventário de atributos efetivamente
+constituído (335 no ledger atual, 106 ainda em zero de importação — números
+atualizados em 2026-08-05; ver `docs/metodologia/arquitetura-atributos-lpai-v3.md`
+para a re-execução completa). Os 106 restantes receberam, em etapa de importação,
+valores nulos em todos os indicadores, o que os torna indistinguíveis de objetos
+examinados e julgados desprovidos de atributo. **A migração desses registros
+para um estado explícito de não codificação ainda não foi executada no ledger
+canônico** — `data/processed/records.jsonl` continua armazenando `0` numérico
+puro nos dez indicadores desses 106 casos, sem sinalização estrutural distinta
+(apenas um campo `notes` em texto livre, presente de forma inconsistente, com
+teor como "Codificação pendente"). Até essa migração acontecer, qualquer script
+que trate o dado bruto sem replicar o filtro `coded_by`/zeros usado nas análises
+deste apêndice reintroduzirá o mesmo artefato. A correção conceitual não é
+ornamento de rigor: sem tratá-la à parte do dado bruto, o regime militar — cujos
+registros estão majoritariamente por examinar — aparece como o menos marcado do
+conjunto, quando o exame dos casos efetivamente lidos indica o contrário. Toda
+afirmação sobre o regime militar permanece suspensa até a conclusão da leitura
+**e até a migração do estado de não-codificação landar no schema**.
 
 ---
 

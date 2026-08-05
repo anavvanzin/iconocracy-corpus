@@ -40,7 +40,7 @@ def corr(a, b):
     if not sds[a] or not sds[b]: return 0.0
     return (sum((X[i][a]-means[a])*(X[i][b]-means[b]) for i in range(n))/n)/(sds[a]*sds[b])
 
-print("\n=== MATRIZ DE CORRELAÇÃO (subcorpus codificado, 222) ===")
+print(f"\n=== MATRIZ DE CORRELAÇÃO (subcorpus codificado, {len(codif)}) ===")
 print("      " + "".join(f"{k[:5]:>7}" for k in KEYS))
 for a in range(10):
     print(f"{KEYS[a][:5]:<6}" + "".join(f"{corr(a,b):>7.2f}" for b in range(10)))

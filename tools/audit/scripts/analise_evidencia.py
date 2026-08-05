@@ -22,14 +22,18 @@ def classifica(url):
     if ext in ('.html', '.htm', ''): return 'página web (precisa navegar)'
     return f'outro ({ext})'
 
-print("=== EVIDÊNCIA VISUAL DISPONÍVEL (todos os 328) ===")
+n_total = len(recs)
+n_zero = sum(1 for r in recs if zero(r))
+n_coded = n_total - n_zero
+
+print(f"=== EVIDÊNCIA VISUAL DISPONÍVEL (todos os {n_total}) ===")
 c = collections.Counter(classifica((r.get('input') or {}).get('input_url')) for r in recs)
 for k, v in c.most_common():
     print(f"  {k:<34} {v:>4}  ({v/len(recs)*100:.0f}%)")
 
 print("\n=== POR ESTADO DE CODIFICAÇÃO ===")
-for nome, grupo in (("não codificados (106)", [r for r in recs if zero(r)]),
-                    ("codificados (222)", [r for r in recs if not zero(r)])):
+for nome, grupo in ((f"não codificados ({n_zero})", [r for r in recs if zero(r)]),
+                    (f"codificados ({n_coded})", [r for r in recs if not zero(r)])):
     c = collections.Counter(classifica((r.get('input') or {}).get('input_url')) for r in grupo)
     print(f"  {nome}: " + " | ".join(f"{k}={v}" for k, v in c.most_common()))
 
@@ -54,11 +58,11 @@ for r in recs:
     if (r.get('input') or {}).get('date_hint'): tem['data'] += 1
     if (r.get('input') or {}).get('title_hint'): tem['título'] += 1
 for k, v in tem.most_common():
-    print(f"  {k:<32} {v:>4}/328  ({v/len(recs)*100:.0f}%)")
+    print(f"  {k:<32} {v:>4}/{n_total}  ({v/len(recs)*100:.0f}%)")
 
 print("\n=== VOLUME DE TRABALHO POR CENÁRIO ===")
-for nome, n in (("recodificar tudo", 328), ("só os não codificados", 106),
-                ("codificados a revisar", 222)):
+for nome, n in (("recodificar tudo", n_total), ("só os não codificados", n_zero),
+                ("codificados a revisar", n_coded)):
     for min_item in (8, 15, 25):
         horas = n * min_item / 60
         print(f"  {nome:<26} a {min_item:>2} min/item = {horas:>5.1f} h "
