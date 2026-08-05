@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Diagnóstico empírico dos 10 indicadores LPAI sobre os 328 registros."""
+"""Diagnóstico empírico dos 10 indicadores LPAI sobre o ledger canônico atual."""
 import json, itertools, collections, math
 
 KEYS = ["desincorporacao","rigidez_postural","dessexualizacao","uniformizacao_facial",
@@ -13,8 +13,20 @@ def ind(r):
     p = r.get('purificacao') or {}
     return {k: p[k] for k in KEYS if isinstance(p.get(k), (int, float))}
 
-coded = [r for r in recs if len(ind(r)) == 10]
-print(f"com os 10 indicadores completos: {len(coded)}")
+def import_zero(r):
+    """Bloco de 10 zeros herdado de importação (vault-import/migration), não
+    juízo de codificação — mesmo critério usado em analise_lacunas.py e
+    analise_dimensional.py. Um registro com formato completo mas neste estado
+    não é 'codificado': é placeholder. Ver achado do Codex em #162 (a versão
+    anterior deste script contava esses 10-zeros como codificação completa)."""
+    d = ind(r)
+    return len(d) == 10 and all(d[k] == 0 for k in KEYS)
+
+completos = [r for r in recs if len(ind(r)) == 10]
+coded = [r for r in completos if not import_zero(r)]
+print(f"com os 10 indicadores completos (formato): {len(completos)}")
+print(f"  dos quais, zeros de importação (não codificados): {sum(1 for r in completos if import_zero(r))}")
+print(f"  efetivamente codificados: {len(coded)}")
 print(f"com codificação parcial: {sum(1 for r in recs if 0 < len(ind(r)) < 10)}")
 print(f"sem nenhum indicador: {sum(1 for r in recs if not ind(r))}\n")
 
@@ -79,10 +91,12 @@ for sig, n in assin.most_common(8):
 print("\n=== ATRIBUTOS POR SUPORTE (contagem média de atributos >=2) ===")
 sup = collections.defaultdict(list)
 for r in coded:
-    medium = ((r.get('iconocode') or {}).get('pre_iconographic') or {})
-    m = medium.get('medium') if isinstance(medium, dict) else None
-    if isinstance(medium, list):
-        m = next((x.get('medium') for x in medium if isinstance(x, dict) and x.get('medium')), None)
+    m = (r.get('purificacao') or {}).get('record_metadata', {}).get('medium')
+    if not m:
+        medium = ((r.get('iconocode') or {}).get('pre_iconographic') or {})
+        m = medium.get('medium') if isinstance(medium, dict) else None
+        if isinstance(medium, list):
+            m = next((x.get('medium') for x in medium if isinstance(x, dict) and x.get('medium')), None)
     d = ind(r)
     sup[m or 'não classificado'].append(sum(1 for k in KEYS if d[k] >= 2))
 for m, v in sorted(sup.items(), key=lambda x: -len(x[1]))[:10]:

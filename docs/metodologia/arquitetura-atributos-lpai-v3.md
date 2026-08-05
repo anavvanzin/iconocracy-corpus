@@ -8,6 +8,31 @@ Ana Vitória Vanzin Mendes · 29 de julho de 2026
 Base empírica: 328 registros de `data/processed/records.jsonl`
 Base bibliográfica: `pesquisa-arquitetura-atributos.md` (revisão de estado da arte)
 
+> **Nota de atualização (2026-08-05).** A revisão de #162 pelo Codex (Bugbot)
+> encontrou, após o merge: denominador desatualizado (o ledger já tinha 335
+> registros quando este texto ainda usava 328); `tools/audit/scripts/
+> analise_dimensional.py` sem leitura de `purificacao.record_metadata.medium`
+> (colapsava o suporte inteiro em "não classificado"); e o mesmo script sem
+> passagem filtrada pelos zeros de importação, o que o tornava incapaz de
+> reproduzir o achado de "3 fatores" citado abaixo. Os quatro scripts de
+> `tools/audit/scripts/` foram corrigidos (mesmo bug de filtro encontrado
+> também em `analise_indicadores.py`; denominadores hardcoded trocados por
+> cálculo dinâmico nos quatro) e re-executados sobre o ledger atual (335
+> registros, ainda 106 zeros de importação → 229 codificados). Os números
+> abaixo foram atualizados onde a re-execução divergiu; o achado central da
+> seção 2.3 (inversão do regime militar) **reproduziu-se exatamente**, com os
+> mesmos valores por indicador, apesar do corpus ter crescido — evidência de
+> robustez, não de fragilidade do achado original. Uma divergência maior e não
+> totalmente explicada apareceu na contagem de pares correlacionados *com* os
+> falsos zeros (§2.2): o texto original citava sete pares acima de r=0,70; a
+> re-execução encontra 18, com o mesmo par máximo (r=0,88). Fica registrado
+> como divergência a investigar, não corrigido por suposição. **Escopo desta
+> nota:** as seções 2.1–2.3 foram reverificadas e corrigidas explicitamente.
+> As seções seguintes (planejamento, painel ENDURECIMENTO, comparações
+> metodológicas) continuam citando 328/222 como estavam em 2026-07-29 — não
+> foram reprocessadas linha a linha e devem ser lidas como o corte histórico
+> que fundamentou o plano, não como número corrente do corpus.
+
 ---
 
 ## 1. Resposta direta
@@ -29,11 +54,11 @@ nenhum refinamento do esquema de atributos repara ([ISPOR](https://www.ispor.org
 
 A revisão de estado da arte concluiu que, no seu caso, três dessas decisões já
 estariam tomadas — unidade de análise (o registro iconográfico individual),
-população (os 328 casos) e nível de mensuração (corrigido pela aposentadoria do
+população (os 335 casos) e nível de mensuração (corrigido pela aposentadoria do
 índice) —, restando a arquitetura de atributos como único ponto de risco em
 aberto. **O diagnóstico empírico mostra que essa premissa é falsa.** A população
 não está fixada e o nível de mensuração não está resolvido, porque o corpus
-contém uma política de ausência implícita que nunca foi decidida: 106 dos 328
+contém uma política de ausência implícita que nunca foi decidida: 106 dos 335
 registros carregam zeros que não são medições. Enquanto isso valer, mexer na
 lista de atributos é otimizar a terceira casa decimal de um número cuja primeira
 casa está errada.
@@ -46,8 +71,8 @@ casa está errada.
 
 | Situação | Registros | % |
 |---|---|---|
-| Todos os 10 indicadores em zero | 106 | 32,3% |
-| Com ao menos um indicador marcado | 222 | 67,7% |
+| Todos os 10 indicadores em zero | 106 | 31,6% |
+| Com ao menos um indicador marcado | 229 | 68,4% |
 
 A origem desses 106 não deixa dúvida sobre a natureza do fenômeno: 86 vêm de
 `vault-import`, 19 de `migration`, 1 de `ana`. São zeros de importação, não
@@ -55,31 +80,33 @@ juízos de codificação. O único registro de autoria humana no bloco pode ser 
 codificação genuína de ausência total — e precisa ser inspecionado à parte,
 justamente porque é indistinguível dos outros 105 na estrutura atual.
 
-Isso reinterpreta um número que você já conhecia: dos 148 registros da fila de
+Isso reinterpreta um número que você já conhecia: dos 159 registros da fila de
 baixa confiança (origens `vault-import`, `hermes-auto`, `migration`,
-`batch-tentative`), **105 são zeros de importação, ou 71%**. A fila de baixa
+`batch-tentative`), **105 são zeros de importação, ou 66%**. A fila de baixa
 confiança não é majoritariamente um problema de qualidade de codificação. É um
 problema de cobertura vestido de codificação.
 
 ### 2.2 O falso zero fabricou unidimensionalidade
 
-Decomposi a matriz de correlação dos dez indicadores duas vezes: com os 328
-registros e apenas com os 222 efetivamente codificados.
+Decomposi a matriz de correlação dos dez indicadores duas vezes: com os 335
+registros e apenas com os 229 efetivamente codificados.
 
 | | Componente 1 | Autovalores > 1 | Leitura |
 |---|---|---|---|
-| Com os 106 falsos zeros (n=328) | 69,2% | **1** | esquema unidimensional |
-| Só codificados (n=222) | 46,5% | **3** | três dimensões (4,65 / 1,25 / 1,04) |
+| Com os 106 falsos zeros (n=335) | 69,5% | **1** | esquema unidimensional |
+| Só codificados (n=229) | 47,7% | **3** | três dimensões (4,77 / 1,24 / 1,03) |
 
-O alfa de Cronbach no subcorpus codificado é 0,846 — alto, mas longe do patamar
-que os 328 registros sugeriam. Em outras palavras: **a aparência de que os dez
+O alfa de Cronbach no subcorpus codificado é 0,855 — alto, mas longe do patamar
+que os 335 registros sugeriam. Em outras palavras: **a aparência de que os dez
 indicadores mediam uma coisa só era artefato dos zeros de importação.** Um bloco
 de 106 linhas idênticas em todas as variáveis correlaciona tudo com tudo.
 
-O efeito aparece nos pares. Com os falsos zeros, sete pares passavam de r=0,70,
-e `dessexualizacao × uniformizacao_facial` chegava a 0,88. No subcorpus
-codificado, sobra **um único par** acima de 0,70 (o mesmo, em 0,73). O esquema
-não é redundante como parecia.
+O efeito aparece nos pares. Com os falsos zeros, **18 pares** passavam de
+r=0,70 (revisado em 2026-08-05; o texto original, sobre n=328, citava sete —
+divergência ainda não explicada, ver nota de atualização no topo do
+documento), e `dessexualizacao × uniformizacao_facial` chegava a 0,88 nos dois
+casos. No subcorpus codificado, sobra **um único par** acima de 0,70 (o mesmo,
+em 0,74). O esquema não é redundante como parecia.
 
 Isso tem uma consequência desconfortável e produtiva: parte da justificativa
 estatística que se poderia dar à aposentadoria do índice — "os indicadores são
@@ -108,9 +135,9 @@ dos registros militares são zeros de importação.**
 | Regime | Não codificados | Total | % |
 |---|---|---|---|
 | militar | 32 | 54 | **59,3%** |
-| contra-alegoria | 6 | 14 | 42,9% |
-| normativo | 35 | 102 | 34,3% |
-| fundacional | 33 | 158 | 20,9% |
+| contra-alegoria | 6 | 15 | 40,0% |
+| normativo | 35 | 103 | 34,0% |
+| fundacional | 33 | 163 | 20,2% |
 
 A inflexão militar que os scripts de fios detectavam — e que eu, ontem, migrei
 diligentemente de "queda de escore" para "perda de atributos" — é, com alta

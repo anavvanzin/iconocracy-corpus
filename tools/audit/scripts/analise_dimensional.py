@@ -10,18 +10,9 @@ recs = [json.loads(l) for l in open('data/processed/records.jsonl')]
 def ind(r):
     p = r.get('purificacao') or {}
     return {k: p.get(k, 0) for k in KEYS}
-X = [[ind(r)[k] for k in KEYS] for r in recs]
-n = len(X)
-
-# --- matriz de correlação e autovalores (dimensionalidade efetiva) ---
-def col(j): return [row[j] for row in X]
-means = [sum(col(j))/n for j in range(10)]
-sds = [math.sqrt(sum((v-means[j])**2 for v in col(j))/n) for j in range(10)]
-R = [[0.0]*10 for _ in range(10)]
-for a in range(10):
-    for b in range(10):
-        cov = sum((X[i][a]-means[a])*(X[i][b]-means[b]) for i in range(n))/n
-        R[a][b] = cov/(sds[a]*sds[b]) if sds[a] and sds[b] else 0.0
+def zero(r):
+    d = ind(r)
+    return all(d[k] == 0 for k in KEYS)
 
 def jacobi_eigen(M, iters=200):
     import copy
@@ -48,18 +39,40 @@ def jacobi_eigen(M, iters=200):
         A = A2
     return sorted((A[i][i] for i in range(m)), reverse=True)
 
-eig = jacobi_eigen(R)
-tot = sum(eig)
-print("=== DIMENSIONALIDADE EFETIVA (autovalores da matriz de correlação) ===")
-acc = 0
-for i, e in enumerate(eig, 1):
-    acc += e/tot
-    print(f"  componente {i}: autovalor {e:5.2f}  variância {e/tot*100:5.1f}%  acumulada {acc*100:5.1f}%")
-print(f"\n  componentes com autovalor > 1 (critério de Kaiser): {sum(1 for e in eig if e > 1)}")
-print(f"  → o esquema de 10 indicadores comporta-se como {sum(1 for e in eig if e > 1)} dimensão(ões)")
+def dimensionalidade(recs_subset, titulo):
+    """Autovalores da matriz de correlação sobre um subconjunto de registros.
+    Regenera o par de leituras que a Auditoria Hostil do PR #162 (achado
+    GRAVE, ver review comment do Codex) apontou como não-reproduzível pelo
+    script original: com os zeros de importação, e só sobre o codificado."""
+    Xs = [[ind(r)[k] for k in KEYS] for r in recs_subset]
+    ns = len(Xs)
+    def colj(j): return [row[j] for row in Xs]
+    ms = [sum(colj(j))/ns for j in range(10)]
+    sd = [math.sqrt(sum((v-ms[j])**2 for v in colj(j))/ns) for j in range(10)]
+    Rs = [[0.0]*10 for _ in range(10)]
+    for a in range(10):
+        for b in range(10):
+            cov = sum((Xs[i][a]-ms[a])*(Xs[i][b]-ms[b]) for i in range(ns))/ns
+            Rs[a][b] = cov/(sd[a]*sd[b]) if sd[a] and sd[b] else 0.0
+    eig = jacobi_eigen(Rs)
+    tot = sum(eig)
+    print(f"=== DIMENSIONALIDADE EFETIVA — {titulo} (n={ns}) ===")
+    acc = 0
+    for i, e in enumerate(eig, 1):
+        acc += e/tot
+        print(f"  componente {i}: autovalor {e:5.2f}  variância {e/tot*100:5.1f}%  acumulada {acc*100:5.1f}%")
+    kaiser = sum(1 for e in eig if e > 1)
+    print(f"\n  componentes com autovalor > 1 (critério de Kaiser): {kaiser}")
+    print(f"  → o esquema de 10 indicadores comporta-se como {kaiser} dimensão(ões)\n")
+    return eig
+
+dimensionalidade(recs, "com falsos zeros de importação")
+dimensionalidade([r for r in recs if not zero(r)], "só registros efetivamente codificados")
 
 # --- sensibilidade ao limiar ---
-print("\n=== SENSIBILIDADE AO LIMIAR DE 'ATRIBUTO PRESENTE' ===")
+X = [[ind(r)[k] for k in KEYS] for r in recs]
+n = len(X)
+print("\n=== SENSIBILIDADE AO LIMIAR DE 'ATRIBUTO PRESENTE' (n=todos) ===")
 for thr in (1, 2, 3):
     counts = [sum(1 for v in row if v >= thr) for row in X]
     zeros = sum(1 for c in counts if c == 0)
@@ -78,8 +91,12 @@ for nome, grupo in (("todos os 10 atributos", todos10), ("todos os indicadores e
         print(f"    {campo}: {dict(c.most_common(5))}")
 
 # --- suporte, pela via correta ---
-print("\n=== SUPORTE (via iconocode.pre_iconographic / metadata) ===")
+print("\n=== SUPORTE (via purificacao.record_metadata.medium, com fallbacks) ===")
 def medium(r):
+    p = r.get('purificacao') or {}
+    rm = p.get('record_metadata') or {}
+    if rm.get('medium'):
+        return rm['medium']
     ic = r.get('iconocode') or {}
     pre = ic.get('pre_iconographic')
     if isinstance(pre, dict) and pre.get('medium'):
