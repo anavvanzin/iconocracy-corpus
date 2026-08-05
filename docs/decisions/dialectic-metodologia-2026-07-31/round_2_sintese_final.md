@@ -3,6 +3,8 @@
 **Data:** 2026-07-31 · **Substitui:** `round_2_sublation.md` (mantido como etapa do trace) · **Estatuto:** proposta para adjudicação da Ana — nada aqui executa sozinho.
 **Insumos:** validação Monk A (elevado, 5 emendas) · validação Monk B (elevado, 4 emendas) · Auditoria Hostil R2 (7 GRAVES, 5 MÉDIOS, 1 MENOR). **Nenhum achado do auditor foi rejeitado.** Esta consolidação é um **salvamento parcial** (Boyd): identifica o que coere, corta o que caiu, e declara aporia onde ela é genuína.
 
+> **Ver também:** `docs/decisions/2026-07-29-aparato-minimo-suficiente.md` (DEC-2026-07-29-APARATO-MINIMO, vigente) não aborda a pergunta desta rodada (estabelecimento sem arquétipo) — contribuição nova, não versão operacional de nada na decisão vigente. Ver `index.md` §Relação com DEC-2026-07-29.
+
 ---
 
 ## 1. Veredicto sobre a sublação monetária: refutada na forma forte — e a refutação é o resultado

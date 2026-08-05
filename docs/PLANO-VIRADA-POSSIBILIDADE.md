@@ -192,14 +192,21 @@ As cinco exigências do conselho de modelos, adaptadas ao pós-virada:
    moeda/selo) é tratado como *estratificação analítica por suporte*, não como
    correção do dado bruto.
 
-> **⚠ Item sob revisão (2026-07-31).** A dialética metodológica
-> (`docs/decisions/dialectic-metodologia-2026-07-31/`) propõe reescrever este
-> item F2.5 por inteiro: sem alvo numérico de aceitação, com a concordância
+> **⚠ Item sob revisão (2026-07-31; contexto atualizado 2026-08-05).**
+> `docs/decisions/2026-07-29-aparato-minimo-suficiente.md`
+> (DEC-2026-07-29-APARATO-MINIMO, vigente desde 2026-08-04) já determina, na
+> quarta determinação, descartar kappa/alfa/teste-reteste/dupla-codificação-cega
+> como **exigência** do capítulo metodológico — o alvo ≥ 0,67 abaixo está,
+> portanto, desatualizado em relação à decisão vigente do projeto, não apenas
+> em relação à dialética. A dialética metodológica
+> (`docs/decisions/dialectic-metodologia-2026-07-31/`) dá forma operacional a
+> essa determinação: sem alvo numérico de aceitação, com a concordância
 > tratada como aparato de variantes + registro de roteamento, não como
 > critério de aprovação — ver `round_1_sintese_final.md` §Consequências
 > operacionais e `round_2_sintese_final.md` §2.3. O texto acima permanece
 > como redigido originalmente até adjudicação da autora (ver `index.md` do
-> dossiê, pontos ⚖); não tratar os dois como consistentes entre si até lá.
+> dossiê, pontos ⚖); não tratar os três documentos (este plano, DEC-2026-07-29,
+> a dialética) como consistentes entre si até lá.
 
 **Portão F2:** codebook ancorado publicado; IRR piloto da lente qualitativa
 reportado; regra de escala única adjudicada (§7).

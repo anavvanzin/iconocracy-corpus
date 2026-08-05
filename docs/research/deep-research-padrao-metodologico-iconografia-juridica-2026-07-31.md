@@ -12,6 +12,8 @@ vinculos:
 licenca: CC-BY-4.0
 ---
 
+> **Nota de reframe (2026-08-05).** Em 2026-08-04, `docs/decisions/2026-07-29-aparato-minimo-suficiente.md` (DEC-2026-07-29-APARATO-MINIMO) foi mesclado ao `main` via #162 — decisão redigida em 2026-07-29, portanto **anterior** a este relatório, mas que só chegou ao `main` depois dele (esteve em PR aberto, #161/#162, durante toda a pesquisa abaixo). DEC-2026-07-29 é hoje a decisão **vigente** do projeto e chega à mesma conclusão de fundo — descartar kappa/alfa/teste-reteste como exigência de protocolo; corpus como catálogo documentado; paradigma indiciário Morelli–Ginzburg — com boa parte das mesmas fontes primárias (Hayaert/Roele, Sbriccoli, Ginzburg, Pavlek/Winters/Morin, Oliveira, Bechara, Hespanha/Fonseca). Este relatório não foi escrito com conhecimento de DEC-2026-07-29 e deve ser lido como **corroboração independente**, não como a proposta original; onde os dois divergem em detalhe bibliográfico ou em marcação [NÃO VERIFICADO], DEC-2026-07-29 é a referência de cotejo, por ser a decisão formalmente vigente. Ver `docs/decisions/dialectic-metodologia-2026-07-31/index.md` §Relação com DEC-2026-07-29-APARATO-MINIMO.
+
 # O padrão metodológico efetivamente praticado na iconografia jurídica: fundamentos para o abandono do aparato de confiabilidade métrica importado
 
 ## Problema

@@ -3,6 +3,8 @@
 **Data:** 2026-07-31 · **Substitui:** `round_1_sublation.md` (mantido como etapa do trace) · **Estatuto:** proposta para adjudicação da Ana — nada aqui executa sozinho.
 **Insumos desta revisão:** validação Monk A (elevado, 3 emendas) · validação Monk B (elevado, 4 emendas) · Auditoria Hostil (3 GRAVES, 3 MÉDIOS, 2 MENORES — fatos todos verificados). Todas as emendas dos monks e as correções mínimas do auditor foram incorporadas; nenhuma foi rejeitada.
 
+> **Ver também:** `docs/decisions/2026-07-29-aparato-minimo-suficiente.md` (DEC-2026-07-29-APARATO-MINIMO, vigente, mesclada ao `main` via #162) chega independentemente à mesma conclusão de fundo desta rodada — descarte de kappa/alfa como protocolo, corpus como catálogo documentado, paradigma indiciário. Ver `index.md` §Relação com DEC-2026-07-29 para o que esta síntese acrescenta operacionalmente.
+
 ---
 
 ## O conceito (revisado): o corpus como edição crítica — com as obrigações do gênero

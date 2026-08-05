@@ -5,6 +5,19 @@
 
 **Nota de execução:** rodada executada autonomamente (sessão remota, Ana ausente); o hard stop de Fase 4 e a escolha de recursão da Fase 7 foram convertidos em **pontos de adjudicação a posteriori** — nada aqui executa sozinho. Auditor hostil aplicado (obrigatório teria sido só na rodada 2; antecipado por rigor).
 
+## Relação com DEC-2026-07-29-APARATO-MINIMO (vigente)
+
+Esta dialética foi conduzida sem conhecimento de `docs/decisions/2026-07-29-aparato-minimo-suficiente.md` — decisão redigida em 2026-07-29 (véspera desta rodada) mas que só chegou ao `main` em 2026-08-04, via #162, depois que esta dialética já estava concluída (esteve em PR aberto, #161/#162, durante toda a execução abaixo). DEC-2026-07-29 é hoje a decisão **vigente** do projeto e chega, por pesquisa independente, à mesma conclusão de fundo da Rodada 1: descartar kappa/alfa/teste-reteste como exigência de protocolo; tratar o corpus core como catálogo documentado; preservar o inventário verbal e a tipologia de recusas sob paradigma indiciário (Morelli–Ginzburg); manter rastreabilidade, disciplina antianacrônica e declaração dos silêncios do corpus.
+
+O que esta dialética acrescenta a DEC-2026-07-29, e que a decisão vigente não cobre:
+
+- **Rodada 1** dá especificidade operacional à determinação de DEC-2026-07-29 de que o inventário "é preservado sob paradigma indiciário": a arquitetura de edição crítica (aparato de variantes por item, registro de roteamento, gramática [C]/[E]/[H] com [C] definida por replicação intra-estrato) é uma implementação concreta, testável em CI, do que DEC-2026-07-29 deixa como princípio.
+- **Rodada 2** aborda uma pergunta que DEC-2026-07-29 não coloca: se o próprio ato de estabelecer/fixar uma leitura reproduz formalmente a Purificação Clássica que a tese denuncia. A resposta (Bédier: o arquétipo lachmanniano *é* a Purificação Clássica da filologia; três condições formais de legitimidade editorial) é contribuição nova, não versão operacional de nada em DEC-2026-07-29.
+
+**Leitura recomendada:** tratar DEC-2026-07-29 como o texto de decisão citável no capítulo metodológico; esta dialética como o dossiê de trabalho que (a) chegou à mesma conclusão por caminho independente — reforço, não redundância vazia — e (b) resolve as duas questões operacionais que DEC-2026-07-29 deixou em aberto.
+
+**Divergência numérica não reconciliada.** Esta dialética trabalhou com `purification.jsonl` (279 registros, 57,0% de proveniência-rotina). DEC-2026-07-29 e o diagnóstico de #162 trabalham com `records.jsonl` (335 registros atuais, 106 linhas de indicadores zerados = 229 codificados, 68,4% — e o próprio apêndice mesclado em #162 ainda usa o denominador desatualizado de 328/222, achado de revisão pós-merge do Codex ainda não corrigido). São arquivos e métricas diferentes sobre a mesma pergunta — quanto do corpus está de fato codificado — e não foram reconciliados entre os dois esforços. Fica como pendência ⚖ adicional.
+
 ## Trace (ordem de leitura)
 
 1. `round_1_context_briefing.md` — briefing neutro (situação real + evidência dos dois lados + 5 fatos incômodos + pergunta ontológica)
