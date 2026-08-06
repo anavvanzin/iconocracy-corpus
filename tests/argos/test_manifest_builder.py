@@ -10,8 +10,8 @@ from unittest import mock
 
 from tools.argos.manifest import build_manifest
 
-# Use the iconocracy conda environment Python for subprocess calls
-ICONOCRACY_PYTHON = "/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python"
+# Use the active test environment for subprocess calls.
+ICONOCRACY_PYTHON = sys.executable
 
 
 def load_argos_build_manifest_module():

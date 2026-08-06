@@ -1,13 +1,14 @@
 import json
 import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 from tools.argos.manifest import locked_update_manifest
 
-# Use the iconocracy conda environment Python for subprocess calls
-ICONOCRACY_PYTHON = "/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python"
+# Use the active test environment for subprocess calls.
+ICONOCRACY_PYTHON = sys.executable
 
 
 class ManifestUpdateTests(unittest.TestCase):

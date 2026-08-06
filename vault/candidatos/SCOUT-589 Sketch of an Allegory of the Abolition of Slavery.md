@@ -2,6 +2,7 @@
 id: SCOUT-589
 tipo: corpus-candidato
 status: promovido
+records_item_id: 73ee9bdb-039b-5acd-b425-871fbb998b36
 titulo: "Sketch of an Allegory of the Abolition of Slavery"
 acervo: "The Metropolitan Museum of Art"
 url: "https://www.metmuseum.org/art/collection/search/848124"
