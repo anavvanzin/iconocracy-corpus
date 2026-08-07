@@ -11,7 +11,7 @@ base: "consolida artigo_v1_consolidado.md (pesquisa) + Artigo_Duvidam_Punem_reda
 
 # Resumo
 
-Este artigo reconstrói a construção atlântica da suspeição inquisitorial de bruxaria entre o *Malleus Maleficarum* (1487) e a abolição formal da Inquisição portuguesa (1821), tomando o caso de Maria Gonçalves Cajada ("Arde-lhe-o-rabo", finais do século XVI) como pivô documental. O argumento mostra que o aparato inquisitorial português, em diálogo com a cultura jurídica portuguesa, punia mesmo quando descria da metafísica demonológica que dava nome ao crime, e que a punição sob dúvida, longe de ser falha do modelo, era o seu modo de afirmar a jurisdição do tribunal e estabilizar, no Atlântico, a própria categoria de bruxaria.
+Este artigo reconstrói a construção atlântica da suspeição inquisitorial de bruxaria entre o *Malleus Maleficarum* (1486/1487) e a abolição formal da Inquisição portuguesa (1821), tomando o caso de Maria Gonçalves Cajada ("Arde-lhe-o-rabo", finais do século XVI) como pivô documental. O argumento mostra que o aparato inquisitorial português, em diálogo com a cultura jurídica portuguesa, punia mesmo quando descria da metafísica demonológica que dava nome ao crime, e que a punição sob dúvida, longe de ser falha do modelo, era o seu modo de afirmar a jurisdição do tribunal e estabilizar, no Atlântico, a própria categoria de bruxaria.
 
 Palavras-chave: Malleus Maleficarum; Maria Gonçalves Cajada; suspeição inquisitorial; Inquisição portuguesa; circulação atlântica.
 
@@ -19,7 +19,7 @@ Palavras-chave: Malleus Maleficarum; Maria Gonçalves Cajada; suspeição inquis
 
 Em algum momento entre 1591 e 1593, numa rua de Salvador, uma vizinha chamou Maria Gonçalves Cajada de "Arde-lhe-o-rabo". Não sabia, ninguém sabia, que esse apelido, jogado no ar como moeda de vizinhança, seria recolhido por um escrivão do Santo Ofício, copiado num auto, transportado em naus pelo Atlântico, e acabaria, quatro séculos depois, num acervo de Lisboa, onde um historiador o leria como documento. A trajetória da alcunha, da boca da vizinha ao fólio do inquisidor, é a trajetória da própria suspeição inquisitorial: do vernáculo ao latim, da fofoca ao processo, da vizinhança ao império.
 
-A pergunta que este artigo tenta responder é como uma gramática misógina codificada em latim por dois inquisidores alemães em 1487 se tornou a linguagem com que vizinhos de uma cidade do Alentejo, e depois de uma cidade colonial, denunciavam uma mulher no século XVI. A resposta se desdobra em cinco movimentos. O primeiro lê o *Malleus* como evento discursivo, na esteira de Lyndal Roper, e não como manual técnico. O segundo descreve a tecnologia do corpo confitente, o conjunto de segredo, tortura e confissão que converte o discurso em prática penal. O terceiro toma o caso de Maria Gonçalves Cajada como pivô documental, isto é, como ponto de acesso e não como destino. O quarto rastreia a circulação atlântica da categoria de suspeição, de Lisboa ao Brasil, com Angola e Goa como limites comparativos. O quinto projeta a interface com a tese ICONOCRACIA, lendo a bruxa como figura punitiva da iconocracia alegórica.
+A pergunta que este artigo tenta responder é como uma gramática misógina codificada em latim por dois inquisidores alemães em 1486/1487 se tornou a linguagem com que vizinhos de uma cidade do Alentejo, e depois de uma cidade colonial, denunciavam uma mulher no século XVI. A resposta se desdobra em cinco movimentos. O primeiro lê o *Malleus* como evento discursivo, na esteira de Lyndal Roper, e não como manual técnico. O segundo descreve a tecnologia do corpo confitente, o conjunto de segredo, tortura e confissão que converte o discurso em prática penal. O terceiro toma o caso de Maria Gonçalves Cajada como pivô documental, isto é, como ponto de acesso e não como destino. O quarto rastreia a circulação atlântica da categoria de suspeição, de Lisboa ao Brasil, com Angola e Goa como limites comparativos. O quinto projeta a interface com a tese ICONOCRACIA, lendo a bruxa como figura punitiva da iconocracia alegórica.
 
 O recorte temporal vai de 1487, ano de impressão do *Malleus*, a 1821, ano da abolição formal da Inquisição portuguesa pelas Cortes de Lisboa. A escolha não é arbitrária. São os marcos de abertura e fechamento de um regime de penalidade atlântico centrado no corpo feminino. A data de 1487 não marca o começo da repressão à bruxaria, que antecede o livro em séculos, mas a estabilização doutrinária de uma categoria de suspeição: a partir dela, inquisidores dispõem de um repertório que ensina a ler o corpo da mulher como corpo de bruxa, e o discurso se torna tecnologia exportável. A data de 1821 não marca o fim da bruxaria, que persiste no Brasil imperial, em Angola colonial, na Goa pós-inquisitorial, mas o fechamento do regime institucional que dera forma jurídica à suspeição. Depois de 1821, a bruxaria deixa de ser processada pelo aparato inquisitorial e passa a outros aparatos, os códigos penais oitocentistas, a psiquiatria forense, o discurso médico. A categoria não desaparece, muda de mão. Opta-se por 1821, data da extinção da Inquisição pelas Cortes de Lisboa, porque o artigo privilegia o circuito atlântico metropolitano, e é Lisboa que dita o fechamento institucional.
 
@@ -27,7 +27,7 @@ Convém fixar, por fim, a posição metodológica. O *Malleus* não é tomado aq
 
 # Seção 1. O Malleus Maleficarum como evento discursivo
 
-A leitura retórica do *Malleus*, que toma a Question Six da Parte I como peça de tecnologia do gênero e não como argumento teológico, é o que permite ler a circulação luso-brasileira da bruxaria como construção atlântica de uma categoria de suspeição, e não como transposição tardia de um modelo europeu. A Inquisição portuguesa, contemporânea da publicação do livro em 1487, é a instituição que opera esse transplante, e o caso de Maria Gonçalves Cajada, em fins do século XVI, é o ponto onde essa gramática se estabiliza no registro acusatório.
+A leitura retórica do *Malleus*, que toma a Question Six da Parte I como peça de tecnologia do gênero e não como argumento teológico, é o que permite ler a circulação luso-brasileira da bruxaria como construção atlântica de uma categoria de suspeição, e não como transposição tardia de um modelo europeu. A Inquisição portuguesa, contemporânea da publicação do livro em 1486/1487, é a instituição que opera esse transplante, e o caso de Maria Gonçalves Cajada, em fins do século XVI, é o ponto onde essa gramática se estabiliza no registro acusatório.
 
 ## O Malleus como manual ou como evento
 
@@ -61,7 +61,7 @@ Há um corolário que a historiografia recente tornou incontornável e que impor
 
 ## A posição do artigo
 
-Este artigo lê o *Malleus* pelo ângulo retórico de Roper, contextualiza-o na formação do Estado com Levack e Behringer (LEVACK, 2015; BEHRINGER, 2004), e articula-o com o caso Cajada como pivô documental, sem o tomar como fonte primária aceita. Se o livro é um artefato que ensina inquisidores a ler o corpo feminino como corpo de bruxa, a pergunta seguinte é como essa leitura se traduz em procedimento, que mecanismos permitem que um texto impresso em Speyer em 1487 se converta num interrogatório inquisitorial na Bahia no final do século XVI.
+Este artigo lê o *Malleus* pelo ângulo retórico de Roper, contextualiza-o na formação do Estado com Levack e Behringer (LEVACK, 2015; BEHRINGER, 2004), e articula-o com o caso Cajada como pivô documental, sem o tomar como fonte primária aceita. Se o livro é um artefato que ensina inquisidores a ler o corpo feminino como corpo de bruxa, a pergunta seguinte é como essa leitura se traduz em procedimento, que mecanismos permitem que um texto impresso em Speyer em 1486 se converta num interrogatório inquisitorial na Bahia no final do século XVI.
 
 # Seção 2. Da doutrina à prática: a tecnologia do corpo confitente
 
@@ -213,7 +213,7 @@ REIS, João José. Magia jeje na Bahia: a invasão do calundu do Pasto de Cachoe
 
 ROPER, Lyndal. *The Trouble with Witches*. Cambridge, MA: Harvard University Press, 2013.
 
-SBRICCOLI, Mario. Justiça criminal. *Discursos Sediciosos*: crime, direito e sociedade, Rio de Janeiro, n. 17/18, p. 464-476, 2011a.
+SBRICCOLI, Mario. Justiça criminal. *Discursos Sediciosos*: crime, direito e sociedade, Rio de Janeiro, n. 17/18, p. 459-486, 2011a.
 
 SBRICCOLI, Mario. *Tormentum idest torquere mentem: processo inquisitório e interrogatório por tortura na Itália comunal*. In: DAL RI JÚNIOR, Arno; SONTAG, Ricardo (org.). *História do Direito Penal entre Medievo e Modernidade*. Belo Horizonte: Del Rey, 2011b. p. 145-168.
 

@@ -12,12 +12,12 @@ urlcolor: "blue"
 
 # O Malleus Maleficarum e a Construção da Bruxaria como Categoria Jurídico-Penal no Atlântico Colonial
 
-> **Resumo do Estudo de Caso:** Este flyer serve como roteiro e guia de fontes para o professor e a turma na apresentação de 15 minutos. O objetivo é analisar como o tipo penal compósito de bruxaria criado na Europa pelo *Malleus Maleficarum* (1487) se deformou e se reconfigurou ao atravessar o Atlântico, adaptando-se às lógicas de comércio mágico no Brasil colonial (Maria Gonçalves Cajada, 1591) e, posteriormente, cruzando-se com o vetor de raça nos calundus (Luzia Pinta, 1739).
+> **Resumo do Estudo de Caso:** Este flyer serve como roteiro e guia de fontes para o professor e a turma na apresentação de 15 minutos. O objetivo é analisar como o tipo penal compósito de bruxaria criado na Europa pelo *Malleus Maleficarum* (1486/1487) se deformou e se reconfigurou ao atravessar o Atlântico, adaptando-se às lógicas de comércio mágico no Brasil colonial (Maria Gonçalves Cajada, 1591) e, posteriormente, cruzando-se com o vetor de raça nos calundus (Luzia Pinta, 1739).
 
 ## 1. O Problema Historiográfico & Marco Teórico
 
 Sob a perspectiva dos modelos de justiça de **Mario Sbriccoli (2011)**, analisamos a tensão entre a transição da **justiça negociada** para a **justiça hegemônica** representada pelo Santo Ofício:
-* **Tipo Compósito:** O *Malleus Maleficarum* (1487) fundiu cinco tradições autônomas (*maleficium*, heresia, demonolatria, pacto diabólico e lendas populares de *strigae*) em um único tipo penal totalizante contra o corpo e a sexualidade feminina.
+* **Tipo Compósito:** O *Malleus Maleficarum* (1486/1487) fundiu cinco tradições autônomas (*maleficium*, heresia, demonolatria, pacto diabólico e lendas populares de *strigae*) em um único tipo penal totalizante contra o corpo e a sexualidade feminina.
 * **Innsbruck (1485):** O processo de Helena Scheuberin representou a colisão entre a epistemologia do *maleficium* concreto (exigida pelos comissários do bispo local) e a epistemologia moral-sexual de Institoris. A anulação por vícios procedimentais impulsionou a escrita do tratado.
 * **Hegemonia Incompleta:** Na travessia atlântica, a ausência de tribunais inquisitoriais permanentes no Brasil gerou espaços de agência e negociação no confessável (como as confissões estratégicas de Maria Gonçalves Cajada na Bahia).
 
