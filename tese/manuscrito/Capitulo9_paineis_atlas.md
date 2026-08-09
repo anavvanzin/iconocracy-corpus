@@ -4,7 +4,7 @@ parte: "IV — Atlas e Síntese"
 capitulo: 9
 status: "rascunho"
 palavras: 7965
-citacoes: 0
+citacoes: 6
 updated: "2026-07-09"
 pandoc:
   reference-doc: "template.docx"
@@ -212,17 +212,17 @@ Capitólio dos EUA (`416a2c38`).
 
 #### [C] Polo direito — O corpo normativo
 
-**Imagem:** Oscar Roty, *La Semeuse*, 1897. Moeda de 1 franc (FR-038, enriquecido pela ficha LPAI com URL e atribuição Janinet).
+**Imagem:** Louis-Oscar Roty, *La Semeuse*, 1897. Moeda de 1 franc (FR-038, enriquecido pela ficha LPAI com URL). Objeto distinto do *selo definitivo* de 1903 (item `4e0ca57a`, composto 1,7), discutido em 7.1.
 
 **Texto de painel (250 palavras):**
 
-> A Semeuse de Roty é a realização do Contrato Racial Visual como contrato *cumprido*. O corpo é perfil — não rosto, mas perfil. A fisionomia desapareceu; resta a *forma do gesto*. A foice que semeia é atributo da *continuidade estatal*: o Estado que semeia a si mesmo, perpetuamente. A cor da pele é o branco do metal, não da carne. A monocromatização atinge seu extremo: há apenas *cromia do Estado*. Endurecimento composto 2,7 (estimado), regime normativo. A Semeuse sobrevive porque cruzou o limiar de dessexualização — o corpo que deixa de ser desejável para tornar-se funcional.
+> A Semeuse de Roty é a realização do Contrato Racial Visual como contrato *cumprido*. O corpo é perfil — não rosto, mas perfil. A fisionomia desapareceu; resta a *forma do gesto*. A foice que semeia é atributo da *continuidade estatal*: o Estado que semeia a si mesmo, perpetuamente. A cor da pele é o branco do metal, não da carne. A monocromatização atinge seu extremo: há apenas *cromia do Estado*. Endurecimento composto 2,7 (estimado), regime normativo (com trajetória de transição para o militar; ver Painel IV). A Semeuse sobrevive porque cruzou o limiar de dessexualização — o corpo que deixa de ser desejável para tornar-se funcional.
 >
 > A série de quatro fotografias do *Buste de la République* (Agence Rol, enriquecendo FR-009) mostra o mesmo corpo *antes* dessa transição: há volume, sombra, a possibilidade de desejo. A moeda extingue essa possibilidade. O Zwischenraum entre busto fotográfico e moeda perfilada é o lugar onde o desejo morre e a função nasce.
 
 ### 9.3.2 — Contraponto inferior (imagem 4, opcional)
 
-**Imagem:** Moitte/Janinet, *Liberté* (FR-SCOUT-006 → FR-038, enriquecido). Gravura em cores, [data].
+**Imagem:** Moitte/Janinet, *Liberté* (FR-SCOUT-006, enriquecido). Gravura em cores, [data].
 
 **Função:** Mostrar uma *falha* do Contrato Racial Visual. A *Liberté* de Moitte/Janinet mantém cromia (vermelho, azul, branco — e o branco é da bandeira, não da pele). O rosto é individualizado, com traços que lembram um retrato. Isso representa uma resistência à Purificação Clássica — um corpo que *não* se deixou abstrair completamente. Funciona como contra-alegoria dentro do próprio painel.
 
@@ -236,8 +236,8 @@ Capitólio dos EUA (`416a2c38`).
 |------|-----|--------|---------------|----------------|
 | Villares, *Alegoria da República* | BR-005 | fundacional | 2,4 (estimado) | Polo esquerdo: corpo vivo que resiste |
 | Rops, *La République aimable* | FR-005 | fundacional | 1,9 (estimado) | Referência implícita: europeu, menos purificado |
-| Roty, *La Semeuse* | FR-038 | normativo | 2,7 (estimado) | Polo direito: corpo máquina |
-| Moitte/Janinet, *Liberté* | FR-SCOUT-006 → FR-038 | contra-alegoria? | 1,5 (estimado) | Contraponto: resistência à abstração |
+| Roty, *La Semeuse* | FR-038 | normativo (traj. → militar) | 2,7 (estimado) | Polo direito: corpo máquina |
+| Moitte/Janinet, *Liberté* | FR-SCOUT-006 | contra-alegoria? | 1,5 (estimado) | Contraponto: resistência à abstração |
 
 ---
 
@@ -267,7 +267,7 @@ Capitólio dos EUA (`416a2c38`).
 
 > O espaço que separa a *Seated Liberty* de 1840 do *History Instructing Youth* de 1896 é um *Zwischenraum de endurecimento falho*. Neste intervalo de cinquenta e seis anos, o sistema monetário norte-americano tenta repetidamente operar a Purificação Clássica sem jamais alcançar o limiar crítico da dessexualização. O conceito de limiar, aqui, designa uma *condição de possibilidade do regime iconocrático*. Para que uma alegoria feminina de Estado persista como dispositivo normativo — e, subsequentemente, como aparelho de guerra —, ela deve atravessar o limiar da dessexualização de maneira irreversível: o corpo deve tornar-se tão puro, tão abstrato, tão despojado de resíduos eróticos que deixe de ser legível como corpo para tornar-se legível *apenas* como função.
 >
-> A operação francesa da Semeuse realiza precisamente isso: o corpo é reduzido a perfil, o perfil a gesto, o gesto a função semeadora, a função semeadora à marca do Estado. A dessexualização é total porque a carne é inteiramente convertida em protocolo. O corpo deixa de ser representado; passa a ser *atravessado* pela representação estatal. É essa operação que MONDZAIN (2002) identifica como a conversão do ícone em economia visual, e que a teoria do endurecimento refrata como a transição do regime fundacional ao normativo: o corpo que persistia como Nachleben — sobrevivência, revenant, retorno do morto — é finalmente assassinado pela abstração, morte *produtiva* porque gera a máquina. A Semeuse vive porque morreu como corpo.
+> A operação francesa da Semeuse realiza precisamente isso: o corpo é reduzido a perfil, o perfil a gesto, o gesto a função semeadora, a função semeadora à marca do Estado. A dessexualização é total porque a carne é inteiramente convertida em protocolo. O corpo deixa de ser representado; passa a ser *atravessado* pela representação estatal. É essa operação que Mondzain [@mondzain2002] identifica como a conversão do ícone em economia visual, e que a teoria do endurecimento refrata como a transição do regime fundacional ao normativo: o corpo que persistia como Nachleben — sobrevivência, revenant, retorno do morto — é finalmente assassinado pela abstração, morte *produtiva* porque gera a máquina. A Semeuse vive porque morreu como corpo.
 >
 > O sistema estadunidense, porém, não consegue matar Columbia como corpo. Cada tentativa de Purificação Clássica preserva um resíduo de desejo: a sentada expõe o colo, a educadora inclina-se sobre o aluno, a figura adormecida oferece o corpo em descanso. São variações sobre o mesmo erro estrutural: a *incompletude da dessexualização*. O corpo é despojado apenas o suficiente para que o que reste pareça *proibido*. É essa proibição parcial, essa nudez quase-clássica, esse seio quase-invisível, que ativa o recalque. A censura que recolhe o Educational Series em 1896 é o sintoma de um sistema iconocrático que *reconhece*, em sua própria produção, a falha operacional de não ter conseguido atravessar o limiar. A moeda é recolhida por ser *insuficientemente dessexualizada*: o que se vê nela é o cadáver insepulto da alegoria.
 
@@ -287,7 +287,7 @@ Capitólio dos EUA (`416a2c38`).
 
 #### [D] Contraponto inferior — A travessia bem-sucedida
 
-**Imagem:** Oscar Roty, *La Semeuse*, 1897. Moeda de 1 franc. (FR-038)
+**Imagem:** Louis-Oscar Roty, *La Semeuse*, 1897. Moeda de 1 franc. (FR-038)
 
 **Texto de painel (250 palavras):**
 
@@ -310,13 +310,7 @@ Capitólio dos EUA (`416a2c38`).
 | Gobrecht / Hughes, *Seated Liberty* | US-SEATED-1840 | normativo (falho) | 1,9 (estimado) | Polo esquerdo: limiar inacabado, corpo que resiste à purificação |
 | Low / Barber, *History Instructing Youth* | US-EDUC-1896-01 | fundacional (regresso em regime normativo) | 1,5 (estimado) | Polo direito: catástrofe performativa do corpo pedagógico vivo |
 | Flagg, *Columbia* | US-011 | militar (fantasmático) | 2,8 (estimado) | Polo direito: morte programática, Nachleben como desistência |
-| Roty, *La Semeuse* | FR-038 | normativo → militar | 2,7 (estimado) | Contraponto: travessia bem-sucedida do limiar da dessexualização |
-
-### 9.4.4 — Referências do painel
-
-MONDZAIN, Marie-José. *L'Image peut-elle tuer?* Paris: Bayard, 2002.
-
-VANZIN, A. **Iconocracy: femininidade, moeda e contrato visual**. [S.l.: s.n.], 2026. Trabalho em andamento.
+| Roty, *La Semeuse* | FR-038 | normativo (traj. → militar) | 2,7 (estimado) | Contraponto: travessia bem-sucedida do limiar da dessexualização |
 
 ---
 
@@ -376,7 +370,7 @@ Poelaert, *Palais de Justice de Bruxelles*, arquitetura forense, 1866–1883 (`d
 > escore muito inferior) desenha um arco de endurecimento de meio século em que todos os indicadores
 > sobem.
 >
-> Mas é o Palais de Poelaert (composto ≈ 3,0 — o teto empírico de todo o corpus) que leva a operação
+> Mas é o Palais de Poelaert (composto ≈ 3,0 — ajustado para 2,9 na nota de codificação, que rebaixa a inscrição estatal porque a autoridade aqui é arquitetônica, não textual; cf. 7.5 —, o teto empírico de todo o corpus) que leva a operação
 > ao seu termo. Aqui não há mais estátua: há edifício. A anotação de nível 3 do registro é o coração
 > do argumento da arquitetura forense: *beleza feminina = face cultural do edifício; autoridade
 > masculina = núcleo operativo; as mulheres tornam-se colunas, e, no interior, todos os retratos são
@@ -400,7 +394,7 @@ Poelaert, *Palais de Justice de Bruxelles*, arquitetura forense, 1866–1883 (`d
 |------|-----|--------|---------------|----------------|
 | *Justice and History* (gesso, Capitólio) | `416a2c38` | normativo | 2,1 | Polo esquerdo: o modelo, pedra ainda reversível |
 | Ceschiatti, *A Justiça* (STF) | `9eecda17` | militar | 2,2 | Polo direito: corpo em granito |
-| Poelaert, *Palais de Justice* (Bruxelas) | `d77a533b` | normativo | ≈ 3,0 | Polo direito: teto do endurecimento, mulher como arquitetura |
+| Poelaert, *Palais de Justice* (Bruxelas) | `d77a533b` | normativo | ≈ 3,0 (ajust. 2,9) | Polo direito: teto do endurecimento, mulher como arquitetura |
 
 ---
 
@@ -455,8 +449,8 @@ Commerce*, Marianne assentada entre fasces, Indochina, 1885–1928 (`34be13f9`).
 **Texto de painel (300 palavras):**
 
 > No polo direito, a alegoria nacional convertida em moeda de comércio imperial. O *British Trade
-> Dollar* (composto 1,3) cunha Britannia de pé para a circulação no Oriente; a *Piastre de Commerce*
-> (composto 2,3) assenta Marianne entre feixes de fasces para a Indochina francesa. Onde a estampa
+> Dollar* (composto 1,3, estimado) cunha Britannia de pé para a circulação no Oriente; a *Piastre de Commerce*
+> (composto 2,3, estimado) assenta Marianne entre feixes de fasces para a Indochina francesa. Onde a estampa
 > argumentava, a moeda extrai. A serialidade — o indicador que ambas partilham no grau mais alto — é o
 > que serve à extração: a alegoria "universal" é, na verdade, um cânone europeu exportado sob a
 > aparência da neutralidade, exatamente a operação que o Capítulo 3 nomeia como Contrato Racial Visual.
@@ -479,8 +473,8 @@ Commerce*, Marianne assentada entre fasces, Indochina, 1885–1928 (`34be13f9`).
 |------|-----|--------|---------------|----------------|
 | *America pois'd in the balance of justice* | `543550b1` | fundacional | 0,6 | Polo esquerdo: balança-argumento, máxima narrativa |
 | *Die Wage der Macht* | `1ae7c4ae` | fundacional | 1,0 | Polo esquerdo: neutralidade feminina como máscara de interesse |
-| *British Trade Dollar* (Britannia) | `38461286` | normativo | 1,3 | Polo direito: moeda imperial serial |
-| *Piastre de Commerce* (Marianne) | `34be13f9` | militar | 2,3 | Polo direito: extração colonial sob rosto sereno |
+| *British Trade Dollar* (Britannia) | `38461286` | normativo | 1,3 (estimado) | Polo direito: moeda imperial serial |
+| *Piastre de Commerce* (Marianne) | `34be13f9` | militar | 2,3 (estimado) | Polo direito: extração colonial sob rosto sereno |
 
 ---
 
@@ -558,7 +552,7 @@ Commerce*, Marianne assentada entre fasces, Indochina, 1885–1928 (`34be13f9`).
 |------|-----|--------|---------------|----------------|
 | Villares, *Alegoria da República* | `BR-005` | fundacional | 2,4 (estimado) | Polo esquerdo: o corpo impossível, branquitude como origem |
 | Ceschiatti, *A Justiça* (STF) | `9eecda17` | militar | 2,2 | Polo direito: transferência transatlântica consumada |
-| *Piastre de Commerce* (Marianne colonial) | `34be13f9` | militar | 2,3 | Referência cruzada (Painel VI): o corpo branco na rota imperial |
+| *Piastre de Commerce* (Marianne colonial) | `34be13f9` | militar | 2,3 (estimado) | Referência cruzada (Painel VI): o corpo branco na rota imperial |
 
 ---
 

@@ -3,8 +3,8 @@ titulo: "O Atlas Iconocrático: Princípios e Arquitetura"
 parte: "IV — Atlas e Síntese"
 capitulo: 8
 status: "rascunho"
-palavras: 0
-citacoes: 0
+palavras: 2046
+citacoes: 3
 updated: "2026-07-08"
 pandoc:
   reference-doc: "template.docx"
