@@ -9,7 +9,7 @@ url: "http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=
 data_estimada: "1870"
 pais: FR
 suporte: ficha
-motivo_alegorico: "Liberté"
+motivo_alegorico: "República"
 regime: FUNDACIONAL
 confianca: baixo
 tags:

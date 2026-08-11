@@ -10,12 +10,13 @@ data_estimada: "ca. 1794"
 pais: FR
 suporte: estampa
 motivo_alegorico: "Liberté"
-regime: INDETERMINADO
+regime: FUNDACIONAL
 confianca: baixo
 tags:
   - corpus/candidato
   - pais/FR
   - suporte/estampa
+  - regime/fundacional
   - hunt-candidate
 related:
   - "[[endurecimento]]"
