@@ -58,7 +58,8 @@ Pathosformel [@warburg2000] da insurreição, energia afetiva em estado bruto, a
 domesticação burocrática.
 
 Meio século depois, o *selo definitivo* com a Semeuse de Louis-Oscar Roty (gravura de Mouchon,
-1903–1960; corpus item `4e0ca57a`) mostra outra coisa. A figura caminha, sim, mas o gesto de semear
+1903–1960; corpus item `4e0ca57a` — objeto distinto da Semeuse-*moeda* de 1 franc de 1897, FR-038,
+composto 2,7, tratada no Cap. 9) mostra outra coisa. A figura caminha, sim, mas o gesto de semear
 é congelado num perfil heráldico, repetido idêntico em bilhões de exemplares postais por quase
 sessenta anos. O registro confirma título, suporte, data, URL e citação ABNT; sua codificação de
 endurecimento, porém, ainda vem do lote heurístico `batch-tentative-2026-04-25`. Por isso, o composto
