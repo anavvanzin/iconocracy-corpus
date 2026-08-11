@@ -28,7 +28,7 @@ Contudo, este artigo propõe um paradoxo: a implementação da justiça hegemôn
 
 ---
 
-## 2. O *Malleus Maleficarum* (1487) como Tipo Penal Compósito
+## 2. O *Malleus Maleficarum* (1486/1487) como Tipo Penal Compósito
 
 Antes do final do século XV, inexistia na Europa uma categoria jurídica estável ou unificada sob o nome de "bruxaria". O direito penal operava com tradições jurídicas e folclóricas fragmentadas e autônomas:
 1. O ***maleficium***: o dano concreto e verificável causado por meios mágicos (venenos, destruição de colheitas, esterilidade de rebanhos), regulado pelo direito romano vulgar e pelos costumes germânicos;
@@ -37,7 +37,7 @@ Antes do final do século XV, inexistia na Europa uma categoria jurídica estáv
 4. As ***lamiae* e *strigae***: tradições populares de voo noturno e metamorfose espiritual de mulheres idosas;
 5. O **pacto diabólico formal**: doutrina escolástica que pressupunha a entrega da alma em troca de favores mundanos.
 
-O que Heinrich Institoris realizou no tratado *Malleus Maleficarum* (1487) foi uma operação de síntese teológica e processual inédita. Institoris fundiu essas cinco vertentes em um único tipo penal compósito e totalizante: a **bruxa** (BROEDEL, 2003). Sob a ótica do *Malleus*, todo *maleficium* físico passou a pressupor necessariamente o pacto demoníaco, a apostasia da fé (heresia), a participação no sabá e a cópula carnal com os demônios. O tratado forneceu não apenas o substrato dogmático, mas o manual prático de persecução processual (a Terceira Parte do livro), detalhando a admissão de testemunhas inidôneas, a exclusão da defesa efetiva e o uso sistemático da tortura para a obtenção da confissão.
+O que Heinrich Institoris realizou no tratado *Malleus Maleficarum* (1486/1487) foi uma operação de síntese teológica e processual inédita. Institoris fundiu essas cinco vertentes em um único tipo penal compósito e totalizante: a **bruxa** (BROEDEL, 2003). Sob a ótica do *Malleus*, todo *maleficium* físico passou a pressupor necessariamente o pacto demoníaco, a apostasia da fé (heresia), a participação no sabá e a cópula carnal com os demônios. O tratado forneceu não apenas o substrato dogmático, mas o manual prático de persecução processual (a Terceira Parte do livro), detalhando a admissão de testemunhas inidôneas, a exclusão da defesa efetiva e o uso sistemático da tortura para a obtenção da confissão.
 
 Essa construção conceitual, todavia, nasceu de um colapso prático. Em 1485, na diocese de Brixen (Innsbruck), Institoris tentou aplicar suas teses persecutórias contra a burguesa Helena Scheuberin. O inquisidor centrou o interrogatório na sexualidade e na moralidade privada da ré, argumentando que a conduta desordenada provava o pacto diabólico. 
 
@@ -102,7 +102,7 @@ PORTUGAL. Arquivo Nacional da Torre do Tombo. Tribunal do Santo Ofício. Inquisi
 
 PORTUGAL. Arquivo Nacional da Torre do Tombo. Tribunal do Santo Ofício. Inquisição de Lisboa. *Processo de Luzia Pinta*. Sabará, 1739. Processo n. 252. Disponível em: <http://digitarq.arquivos.pt/details?id=4302251>. Acesso em: 30 jun. 2026.
 
-SBRICCOLI, Mario. Justiça criminal. *Discursos Sediciosos: Crime, Direito e Sociedade*, Rio de Janeiro, n. 17/18, p. 459-504, 2011.
+SBRICCOLI, Mario. Justiça criminal. *Discursos Sediciosos: Crime, Direito e Sociedade*, Rio de Janeiro, n. 17/18, p. 459-486, 2011.
 
 SOUZA, Laura de Mello e. *O diabo e a Terra de Santa Cruz*: feitiçaria e religiosidade popular no Brasil colonial. São Paulo: Companhia das Letras, 1986.
 

@@ -1,3 +1,4 @@
+import sys
 import importlib.util
 import io
 import json
@@ -9,9 +10,6 @@ from pathlib import Path
 from unittest import mock
 
 from tools.argos.manifest import build_manifest
-
-# Use the active test environment for subprocess calls.
-ICONOCRACY_PYTHON = sys.executable
 
 
 def load_argos_build_manifest_module():
@@ -131,7 +129,7 @@ class ManifestBuilderCliTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    ICONOCRACY_PYTHON,
+                    sys.executable,
                     str(self.script_path),
                     "--dry-run",
                     "--output",
@@ -249,7 +247,7 @@ class ManifestBuilderCliTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    ICONOCRACY_PYTHON,
+                    sys.executable,
                     str(self.script_path),
                     "--output",
                     str(output_path),
@@ -270,7 +268,7 @@ class ManifestBuilderCliTests(unittest.TestCase):
 
             validate_result = subprocess.run(
                 [
-                    ICONOCRACY_PYTHON,
+                    sys.executable,
                     "tools/scripts/validate_schemas.py",
                     str(output_path),
                     "--schema",

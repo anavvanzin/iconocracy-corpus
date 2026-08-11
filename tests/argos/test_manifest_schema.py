@@ -1,14 +1,11 @@
+import sys
 import json
 import subprocess
-import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 from tools.scripts.validate_schemas import load_schema, validate_record
-
-# Use the active test environment for subprocess calls.
-ICONOCRACY_PYTHON = sys.executable
 
 
 class ManifestSchemaTests(unittest.TestCase):
@@ -97,7 +94,7 @@ class ManifestSchemaTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    ICONOCRACY_PYTHON,
+                    sys.executable,
                     str(script_path),
                     str(manifest_path),
                     "--schema",

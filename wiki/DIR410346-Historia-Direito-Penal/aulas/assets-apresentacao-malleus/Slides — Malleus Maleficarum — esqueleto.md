@@ -77,7 +77,7 @@ Ana Vanzin | Prof. Diego Nunes | PPGD/UFSC, 2026.1
 
 **Visual:** mapa Innsbruck → Lisboa → Salvador da Bahia
 
-- 1485, Innsbruck → 1487, publicação do *Malleus*
+- 1485, Innsbruck → 1486/1487, publicação do *Malleus*
 - 1591, Salvador da Bahia: Primeira Visitação do Santo Ofício
 - Brasil: **sem tribunal permanente** (diferente de Lima, México)
 - Visitações periódicas + Tempo de Graça
@@ -181,7 +181,7 @@ Estremoz (Portugal) → degredo 6 anos → Pernambuco → degredo → Bahia → 
 
 **O tipo penal "bruxaria" não é estável:**
 
-- *Malleus* (1487): fusão compósita europeia
+- *Malleus* (1486/1487): fusão compósita europeia
 - Bahia (1591): decomposição + recomposição com categorias locais (*calundu*, *mandinga*, curandeirismo)
 - Cajada: no limiar entre os dois modelos
 

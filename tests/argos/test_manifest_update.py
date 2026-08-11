@@ -1,14 +1,11 @@
+import sys
 import json
 import subprocess
-import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 from tools.argos.manifest import locked_update_manifest
-
-# Use the active test environment for subprocess calls.
-ICONOCRACY_PYTHON = sys.executable
 
 
 class ManifestUpdateTests(unittest.TestCase):
@@ -202,7 +199,7 @@ class ManifestUpdateTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    ICONOCRACY_PYTHON,
+                    sys.executable,
                     str(self.script_path),
                     "--manifest",
                     str(manifest_path),
@@ -231,7 +228,7 @@ class ManifestUpdateTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    ICONOCRACY_PYTHON,
+                    sys.executable,
                     str(self.script_path),
                     "--manifest",
                     str(manifest_path),
