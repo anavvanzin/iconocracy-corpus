@@ -2,6 +2,7 @@
 id: SCOUT-591
 tipo: corpus-candidato
 status: promovido
+records_item_id: 307f2209-2999-5366-964a-8e86009d4b5b
 titulo: "La Liberté"
 acervo: "The Metropolitan Museum of Art"
 url: "https://www.metmuseum.org/art/collection/search/821181"

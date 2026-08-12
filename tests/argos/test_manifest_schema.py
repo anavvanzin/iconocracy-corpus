@@ -1,13 +1,14 @@
 import json
 import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 from tools.scripts.validate_schemas import load_schema, validate_record
 
-# Use the iconocracy conda environment Python for subprocess calls
-ICONOCRACY_PYTHON = "/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python"
+# Exercise CLI entry points with the same interpreter running the test suite.
+ICONOCRACY_PYTHON = sys.executable
 
 
 class ManifestSchemaTests(unittest.TestCase):
