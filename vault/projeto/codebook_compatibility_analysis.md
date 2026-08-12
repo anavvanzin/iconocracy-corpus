@@ -11,7 +11,7 @@ Mapeia os metadados de procedência e arquivamento do item.
 
 | Campo Codebook v0 | Propriedade em `records.jsonl` | Tipo / Observações |
 |---|---|---|
-| **ID** (`[PAÍS]-[SUPORTE]-[NÚMERO]`) | `item_id` | UUID canonical de 36 caracteres. O ID legível (`SCOUT-` ou `BR-`) é mapeado no index. |
+| **ID** (`[PAÍS]-[SUPORTE]-[NÚMERO]`) | `corpus/corpus-data.json:id` | Identificador legível da exportação pública. O identificador canônico em `records.jsonl:item_id` é um UUID de 36 caracteres; a correspondência entre `corpus_id` e `item_id` está em `data/processed/id-mapping.json`. |
 | **País** | `input.place_hint` (entrada) / `region` (export) | Nome legível ou código regional. |
 | **Suporte** | `purificacao.funcao_juridica` / `support` / `medium_norm` | Mapeado para enums padronizados (ex: `moeda_cedula` $\rightarrow$ `moeda`, `arquitetura_forense` $\rightarrow$ `arquitetura`). |
 | **Título / denominação** | `input.title_hint` / `title` | Texto livre identificador do item. |

@@ -4,8 +4,9 @@ import os
 import subprocess
 
 # Paths
-GLOBAL_HERMES_SKILLS = Path("/Users/ana/.hermes/skills")
-WORKSPACE_SKILLS = Path("/Users/ana/iconocracy-corpus/.agents/skills")
+REPO_ROOT = Path(__file__).resolve().parent.parent
+GLOBAL_HERMES_SKILLS = Path.home() / ".hermes" / "skills"
+WORKSPACE_SKILLS = REPO_ROOT / ".agents" / "skills"
 
 def install_recursive():
     if not GLOBAL_HERMES_SKILLS.exists():
@@ -59,12 +60,15 @@ def install_recursive():
     print(f"\nCompleted: {copied} skills copied, {skipped} skills skipped/preserved.")
     
     # 4. Compile skills into SKILLS.md using compile_skills.py
-    compile_script = Path("/Users/ana/iconocracy-corpus/tools/scripts/compile_skills.py")
+    compile_script = REPO_ROOT / "tools" / "scripts" / "compile_skills.py"
     if compile_script.exists():
         print("\nRe-compiling SKILLS.md reference file...")
         try:
+            python_executable = os.environ.get(
+                "HERMES_PYTHON", shutil.which("python3") or "python3"
+            )
             result = subprocess.run(
-                ["/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python", str(compile_script)],
+                [python_executable, str(compile_script)],
                 capture_output=True, text=True, check=True
             )
             print(result.stdout)

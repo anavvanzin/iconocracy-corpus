@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2028). Integrates a searchable corpus of female allegorical figures (current working snapshot: 280 records in `records.jsonl`; 280 items in `corpus-data.json`; 236 records in `purification.jsonl`; 265 items in `pathosformel_index.jsonl`; see *Known Data Issues* for analytic-N, downstream export drift, and id-mapping header staleness), research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
+Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin). Integrates a searchable corpus of female allegorical figures (current working snapshot: 280 records in `records.jsonl`; 280 items in `corpus-data.json`; 236 records in `purification.jsonl`; 265 items in `pathosformel_index.jsonl`; see *Known Data Issues* for analytic-N, downstream export drift, and id-mapping header staleness), research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
 
 > **Master plan**: `docs/PLANO-TESE-ICONOCRACIA.md` — comprehensive thesis architecture, methodology, case rankings, risk matrix, 24-month work plan, and 10 immediate decisions.
 

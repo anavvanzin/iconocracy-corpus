@@ -84,6 +84,29 @@ INDEXES = [
     "CREATE INDEX IF NOT EXISTS \"idx_evidence_item\" ON \"evidence\" (\"item_id\")",
 ]
 
+def parse_four_digit_year(value):
+    """Return a year only when *value* is exactly four ASCII digits."""
+    value = str(value).strip()
+    if len(value) == 4 and value.isascii() and value.isdecimal():
+        return int(value)
+    return None
+
+
+def find_first_four_digit_year(value):
+    """Extract the first standalone four-digit year from a date hint."""
+    value = str(value)
+    for index in range(len(value) - 3):
+        candidate = value[index:index + 4]
+        if (
+            candidate.isascii()
+            and candidate.isdecimal()
+            and (index == 0 or not value[index - 1].isdigit())
+            and (index + 4 == len(value) or not value[index + 4].isdigit())
+        ):
+            return int(candidate)
+    return None
+
+
 def load_mapping():
     """Load UUID mapping to corpus ID."""
     mapping = {}
@@ -184,14 +207,10 @@ def build_database():
             country = meta.get("country") or rec.get("input", {}).get("place_hint")
             year = meta.get("year")
             if year is None:
-                try:
-                    # Fallback parsing for year hint
-                    year_hint = rec.get("input", {}).get("date_hint", "")
-                    # Extract first 4-digit number
-                    year_match = re.search(r'\b\d{4}\b', str(year_hint))
-                    year = int(year_match.group(0)) if year_match else None
-                except Exception:
-                    year = None
+                year = parse_four_digit_year(meta.get("date"))
+            if year is None:
+                year_hint = rec.get("input", {}).get("date_hint", "")
+                year = find_first_four_digit_year(year_hint)
                     
             period = meta.get("period") or rec.get("purificacao", {}).get("period")
             medium_norm = (

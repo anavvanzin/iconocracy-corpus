@@ -29,7 +29,7 @@
 |---|---|
 | MOE | Moeda |
 | SEL | Selo postal |
-| BRA | Brasão / armas |
+| HER | Heráldica (brasão / armas) |
 | MON | Monumento / escultura |
 | ARQ | Arquitetura forense |
 | PAR | Paratexto normativo (frontispício, capa de código, etc.) |
