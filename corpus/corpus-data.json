@@ -438,11 +438,6 @@
     "coded_at": "2026-08-04T00:00:00Z",
     "date": "ca. 1794",
     "regime": "fundacional",
-    "citation_abnt": "MONCHY, Citoyenne de. La Liberté. ca. 1794. The Metropolitan Museum of Art. Disponível em: https://www.metmuseum.org/art/collection/search/821181. Acesso em: 25 jul. 2026.",
-    "audit_flags": [
-      "scout-promotion",
-      "coding-pending"
-    ],
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -454,7 +449,14 @@
       "monocromatizacao": 2,
       "serialidade": 2,
       "inscricao_estatal": 2
-    }
+    },
+    "citation_abnt": "MONCHY, Citoyenne de. La Liberté. ca. 1794. The Metropolitan Museum of Art. Disponível em: https://www.metmuseum.org/art/collection/search/821181. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "iconocode-complete",
+      "metadata-grounded-visual-review"
+    ],
+    "endurecimento_score": 1.1
   },
   {
     "id": "387bc54c-e8c7-50be-b24b-a3396f1bc1da",
@@ -845,11 +847,6 @@
     "coded_at": "2026-08-04T00:00:00Z",
     "date": "1873",
     "regime": "fundacional",
-    "citation_abnt": "GARCÍA, J. Medalla. 1873. National Archaeological Museum. Disponível em: http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS&museum=MAN. Acesso em: 25 jul. 2026.",
-    "audit_flags": [
-      "scout-promotion",
-      "coding-pending"
-    ],
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -861,7 +858,14 @@
       "monocromatizacao": 3,
       "serialidade": 3,
       "inscricao_estatal": 3
-    }
+    },
+    "citation_abnt": "GARCÍA, J. Medalla. 1873. National Archaeological Museum. Disponível em: http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS&museum=MAN. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "iconocode-complete",
+      "metadata-grounded-visual-review"
+    ],
+    "endurecimento_score": 2.2
   },
   {
     "id": "64d57088-2726-543f-bc9e-e382da696aee",
@@ -1007,11 +1011,6 @@
     "coded_at": "2026-08-04T00:00:00Z",
     "date": "ca. 1848",
     "regime": "fundacional",
-    "citation_abnt": "CENTURY, Anonymous, French School, 19th. Sketch of an Allegory of the Abolition of Slavery. ca. 1848. The Metropolitan Museum of Art. Disponível em: https://www.metmuseum.org/art/collection/search/848124. Acesso em: 25 jul. 2026.",
-    "audit_flags": [
-      "scout-promotion",
-      "coding-pending"
-    ],
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -1023,7 +1022,14 @@
       "monocromatizacao": 1,
       "serialidade": 0,
       "inscricao_estatal": 0
-    }
+    },
+    "citation_abnt": "CENTURY, Anonymous, French School, 19th. Sketch of an Allegory of the Abolition of Slavery. ca. 1848. The Metropolitan Museum of Art. Disponível em: https://www.metmuseum.org/art/collection/search/848124. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "iconocode-complete",
+      "metadata-grounded-visual-review"
+    ],
+    "endurecimento_score": 0.3
   },
   {
     "id": "7b5ea66e-0285-59ea-a652-264f8a5e90bd",
@@ -1073,11 +1079,6 @@
     "coded_at": "2026-08-04T00:00:00Z",
     "date": "1870",
     "regime": "fundacional",
-    "citation_abnt": "Ficha. 1870. Cerralbo Museum. Disponível em: http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=MCM. Acesso em: 25 jul. 2026.",
-    "audit_flags": [
-      "scout-promotion",
-      "coding-pending"
-    ],
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -1089,7 +1090,14 @@
       "monocromatizacao": 2,
       "serialidade": 3,
       "inscricao_estatal": 2
-    }
+    },
+    "citation_abnt": "Ficha. 1870. Cerralbo Museum. Disponível em: http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=MCM. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "iconocode-complete",
+      "metadata-grounded-visual-review"
+    ],
+    "endurecimento_score": 2.0
   },
   {
     "id": "80b1d4ad-1aa4-7f87-35b7-ba8cea46f0cf",
@@ -10652,11 +10660,6 @@
     "coded_at": "2026-08-04T00:00:00Z",
     "date": "1870",
     "regime": "contra-alegoria",
-    "citation_abnt": "ORTEGO Y VEREDA, Francisco. Lo que puede suceder. - Estampa. 1870. National Museum of Romanticism. Disponível em: http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR. Acesso em: 25 jul. 2026.",
-    "audit_flags": [
-      "scout-promotion",
-      "coding-pending"
-    ],
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -10668,7 +10671,14 @@
       "monocromatizacao": 1,
       "serialidade": 2,
       "inscricao_estatal": 1
-    }
+    },
+    "citation_abnt": "ORTEGO Y VEREDA, Francisco. Lo que puede suceder. - Estampa. 1870. National Museum of Romanticism. Disponível em: http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "iconocode-complete",
+      "metadata-grounded-visual-review"
+    ],
+    "endurecimento_score": 0.7
   },
   {
     "id": "bc06d4cc-455f-530e-b86b-e046378979a3",
@@ -10944,11 +10954,6 @@
     "coded_at": "2026-08-04T00:00:00Z",
     "date": "1931",
     "regime": "fundacional",
-    "citation_abnt": "MORENO, Enrique. Relieve de la República - Relieve. 1931. Archaeological and Ethnological Museum of Córdoba. Disponível em: http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO. Acesso em: 25 jul. 2026.",
-    "audit_flags": [
-      "scout-promotion",
-      "coding-pending"
-    ],
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 3,
@@ -10960,7 +10965,14 @@
       "monocromatizacao": 2,
       "serialidade": 2,
       "inscricao_estatal": 3
-    }
+    },
+    "citation_abnt": "MORENO, Enrique. Relieve de la República - Relieve. 1931. Archaeological and Ethnological Museum of Córdoba. Disponível em: http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "iconocode-complete",
+      "metadata-grounded-visual-review"
+    ],
+    "endurecimento_score": 2.7
   },
   {
     "id": "d9878afa-cb92-52bd-b308-e1563cdf9332",
@@ -11141,11 +11153,6 @@
     "coded_at": "2026-08-04T00:00:00Z",
     "date": "1872",
     "regime": "normativo",
-    "citation_abnt": "C. T. Exposición Universal de Lyon - Medalla. 1872. Cerralbo Museum. Disponível em: http://ceres.mcu.es/pages/Main?idt=2713&inventary=02712&table=FMUS&museum=MCM. Acesso em: 25 jul. 2026.",
-    "audit_flags": [
-      "scout-promotion",
-      "coding-pending"
-    ],
     "indicadores": {
       "desincorporacao": 3,
       "rigidez_postural": 3,
@@ -11157,7 +11164,14 @@
       "monocromatizacao": 3,
       "serialidade": 3,
       "inscricao_estatal": 2
-    }
+    },
+    "citation_abnt": "C. T. Exposición Universal de Lyon - Medalla. 1872. Cerralbo Museum. Disponível em: http://ceres.mcu.es/pages/Main?idt=2713&inventary=02712&table=FMUS&museum=MCM. Acesso em: 25 jul. 2026.",
+    "audit_flags": [
+      "scout-promotion",
+      "iconocode-complete",
+      "metadata-grounded-visual-review"
+    ],
+    "endurecimento_score": 2.7
   },
   {
     "id": "f988255c-abaa-fb73-74fb-fcbce9abdaa8",

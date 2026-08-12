@@ -2,20 +2,21 @@
 id: SCOUT-601
 tipo: corpus-candidato
 status: promovido
+records_item_id: 5b14d6a4-7b6d-5111-9253-b20bb72af0a1
 titulo: "Medalla"
 acervo: "National Archaeological Museum"
 url: "http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS&museum=MAN"
 data_estimada: "1873"
 pais: ES
 suporte: medalha
-motivo_alegorico: "Republic"
-regime: NORMATIVO
+motivo_alegorico: "República"
+regime: FUNDACIONAL
 confianca: baixo
 tags:
   - corpus/candidato
   - pais/ES
   - suporte/moeda
-  - regime/normativo
+  - regime/fundacional
   - motivo/republica
   - hunt-candidate
 related:

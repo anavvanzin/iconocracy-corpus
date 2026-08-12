@@ -2,6 +2,7 @@
 id: SCOUT-605
 tipo: corpus-candidato
 status: promovido
+records_item_id: f410c31b-283c-5f5f-95ce-7b6e809db88e
 titulo: "Exposición Universal de Lyon - Medalla"
 acervo: "Cerralbo Museum"
 url: "http://ceres.mcu.es/pages/Main?idt=2713&inventary=02712&table=FMUS&museum=MCM"

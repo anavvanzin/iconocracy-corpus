@@ -5,7 +5,7 @@ Covers the v2.3.0 pre-freeze conditional rules (warnings mode):
   - REQUIRES_V23_FIELDS: familia_alegorica=Masculino_Juridico without v2.3.0 fields
   - HERCULES_INCOERENTE: substituicao_atributiva_hercules with orig==new
 
-Baseline test (Test 1) ensures 299/299 real records remain valid against
+Baseline test (Test 1) ensures 335/335 real records remain valid against
 master-record schema after any change to the validator.
 
 These tests pin the GREEN behaviour to be implemented in the next commit.
@@ -32,7 +32,7 @@ from tools.scripts.validate_schemas import validate_records  # noqa: E402
 
 @pytest.fixture(scope="module")
 def real_records() -> List[Dict[str, Any]]:
-    """Load the canonical 299-record dataset once per module."""
+    """Load the canonical 335-record dataset once per module."""
     path = REPO_ROOT / "data" / "processed" / "records.jsonl"
     with path.open() as f:
         return [json.loads(line) for line in f if line.strip()]
@@ -93,10 +93,10 @@ def baseline_record() -> Dict[str, Any]:
     }
 
 
-# --- Test 1: baseline (preserva 299/299 + 0 warnings) ---------------------
+# --- Test 1: baseline (preserva 335/335 + 0 warnings) ---------------------
 
 
-def test_baseline_299_of_299_no_warnings(real_records):
+def test_baseline_335_of_335_no_warnings(real_records):
     """Current state: 335 real records validate clean, 0 v2.3.0 warnings."""
     valid, total, errors, warnings = validate_records(
         real_records, "master-record"

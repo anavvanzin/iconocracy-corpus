@@ -2,13 +2,14 @@
 id: SCOUT-602
 tipo: corpus-candidato
 status: promovido
+records_item_id: 7f2f25d9-e351-502e-b308-fd784e972fbf
 titulo: "Ficha"
 acervo: "Cerralbo Museum"
 url: "http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=MCM"
 data_estimada: "1870"
 pais: FR
 suporte: ficha
-motivo_alegorico: "Liberté"
+motivo_alegorico: "República"
 regime: FUNDACIONAL
 confianca: baixo
 tags:

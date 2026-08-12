@@ -222,7 +222,10 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     # being exported.  In particular, zero is a valid endurecimento score, so
     # using it as the default would incorrectly make pending SCOUT promotions
     # look coded.  Existing enriched values remain available in merge mode.
-    entry["regime"] = regime if regime else ""
+    if regime:
+        entry["regime"] = regime
+    elif not existing:
+        entry.pop("regime", None)
     if "purificacao_composto" in purif:
         entry["endurecimento_score"] = endurecimento
     elif not existing:

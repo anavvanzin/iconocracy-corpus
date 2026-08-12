@@ -2,6 +2,7 @@
 id: SCOUT-607
 tipo: corpus-candidato
 status: promovido
+records_item_id: b1966d16-8731-58e4-a898-8ef3c44f59cb
 titulo: "Lo que puede suceder. - Estampa"
 acervo: "National Museum of Romanticism"
 url: "http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR"
@@ -9,13 +10,13 @@ data_estimada: "1870"
 pais: ES
 suporte: estampa
 motivo_alegorico: "República"
-regime: NORMATIVO
+regime: CONTRA-ALEGORIA
 confianca: baixo
 tags:
   - corpus/candidato
   - pais/ES
   - suporte/estampa
-  - regime/normativo
+  - regime/contra-alegoria
   - motivo/republica
   - hunt-candidate
 related:
