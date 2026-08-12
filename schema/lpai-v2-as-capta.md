@@ -1,5 +1,7 @@
 # LPAI v2 como *capta* — reenquadramento metodológico
 
+> **Superseded (v2.2.0):** este documento permanece como contexto metodológico histórico. A fonte editorial consolidada agora é [`schema/codebook-MASTER.md`](codebook-MASTER.md); a fonte técnica de validação é [`tools/schemas/master-record.schema.json`](../tools/schemas/master-record.schema.json).
+
 > Esta especificação formaliza o reenquadramento proposto em [`docs/methodology.md`](../docs/methodology.md) e coloca a ferramenta LPAI v2 em diálogo explícito com a crítica feminista e pós-colonial ao score (Drucker 2011; Merry 2016; Haraway 1988; D'Ignazio & Klein 2020). Substitui, na prática, a autoridade epistêmica do índice sem descartar a sua utilidade operacional.
 
 | Campo | Valor |

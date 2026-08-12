@@ -30,6 +30,12 @@ vault/.obsidian/workspace.json
 vault/.obsidian/workspace-mobile.json
 vault/.obsidian/plugins/
 vault/.obsidian/hotkeys.json
+
+# wiki/ Obsidian (same rules as vault/)
+wiki/.obsidian/workspace.json
+wiki/.obsidian/workspace-mobile.json
+wiki/.obsidian/plugins/
+wiki/.obsidian/hotkeys.json
 vault/.obsidian/core-plugins-migration.json
 
 # Pandoc output
@@ -104,8 +110,16 @@ firebase-debug.log
 postman/
 .postman/
 
-# Dead/duplicate agent config dirs
-.agents/
+# Agent skill dirs themselves are tracked; only ignore runtime/cache.
+# Skills (em .agents/skills/<name>/SKILL.md) sao decisao explicita de versionamento
+# por arquivo -- ver `git ls-files .agents/skills/` para a lista canonica.
+# Regra de 2026-06-25: '.agents/' generico foi trocado por paths cirurgicos porque
+# '.agents/skills/' eh o local canonico das skills, nao "dead/duplicate agent config".
+.agents/cache/
+.agents/sessions/
+.agents/runtime/
+.agents/*.log
+.agents/.DS_Store
 .hermes/
 
 # Backup files
@@ -121,8 +135,14 @@ Plan Linux.pdf
 Esquema antigo .md
 docker-compose.override.yml
 
-# Binary assets (stored in /data/iconocracy-corpus/binaries/)
-Images/
+# Seminar readings / downloaded papers (keep on disk, not in git)
+vault/2026-Q2-Seminario-AD/
+vault/obsidian-dir410*/leituras/
+vault/obsidian-dir410*/materiais/*.pdf
+wiki/DIR410*-*/leituras/
+wiki/DIR410*-*/materiais/*.pdf
+sources/*.pdf
+docs/*.pdf
 PDFs/
 *.zip
 *.dylib
@@ -153,3 +173,18 @@ deploy/iconocracia-companion/.wrangler/
 .claude/hooks/README.md
 .claude/hooks/hooks.json
 .claude/hooks/memory-persistence/
+
+# LPAI proxy coder (Kimi K3) — staging + cache de imagens; nunca versionado
+data/staging/lpai-proxy-k3-runs.jsonl
+data/staging/lpai-proxy-k3-runs.*.jsonl
+.cache/lpai-proxy-images/
+
+# Camada de captação de imagens — bytes de acervo e manifesto de proveniência
+# ficam fora do versionamento (licenças de terceiros + volume)
+.cache/corpus-images/
+data/staging/image-manifest.jsonl
+*.dmg
+
+# Compiled thesis artifacts
+tese/artigos/out-abnt/*.pdf
+tese/artigos/out-abnt/*.docx

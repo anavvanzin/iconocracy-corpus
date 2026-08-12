@@ -146,7 +146,7 @@ def test_round_trip_through_schema(tmp_path):
         "panofsky",
         "indicators",
         "regime",
-        "endurecimento_score",
+        "inventario_verbal",
         "reasoning",
         "image_hash",
         "confidence",
@@ -157,10 +157,13 @@ def test_round_trip_through_schema(tmp_path):
     assert set(reparsed["indicators"].keys()) == set(mod.INDICATOR_KEYS)
     for v in reparsed["indicators"].values():
         assert 0 <= v <= 3
-    # endurecimento_score = mean of 10 indicators
-    assert reparsed["endurecimento_score"] == round(
-        sum(reparsed["indicators"].values()) / 10, 2
-    )
+    # Composto aposentado no codebook v2.2.1 (DEC-2026-07-28): o registro leva
+    # inventário verbal dos atributos marcados (>= 2), não a média dos indicadores.
+    assert "endurecimento_score" not in reparsed
+    esperado = [
+        k for k in mod.INDICATOR_KEYS if reparsed["indicators"].get(k, 0) >= 2
+    ]
+    assert reparsed["inventario_verbal"] == esperado
     # Regime must be one of the four canonical values
     assert reparsed["regime"] in mod.VALID_REGIMES
 

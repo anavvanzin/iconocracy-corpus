@@ -892,6 +892,12 @@ body {
 .card:nth-child(5) { animation-delay: 0.12s; }
 .card:nth-child(6) { animation-delay: 0.15s; }
 </style>
+<script type="module">
+  import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@1/dist/index.mjs';
+  import { injectSpeedInsights } from 'https://cdn.jsdelivr.net/npm/@vercel/speed-insights@1/dist/index.mjs';
+  injectSpeedInsights();
+  inject();
+</script>
 </head>
 <body>
 

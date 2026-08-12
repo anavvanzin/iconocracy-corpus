@@ -13,7 +13,7 @@ import yaml
 from datetime import datetime
 
 # Path Configuration
-REPO_ROOT = "/Users/ana/research/hub/iconocracy-corpus"
+REPO_ROOT = "/Users/ana/Research/hub/iconocracy-corpus"
 PROMPTS_DIR = os.path.join(REPO_ROOT, "vault/prompts")
 INDEX_PATH = os.path.join(PROMPTS_DIR, "INDEX.md")
 LINT_PATH = os.path.join(PROMPTS_DIR, "_lint.md")

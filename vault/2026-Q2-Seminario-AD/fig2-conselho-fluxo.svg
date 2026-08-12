@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 400" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#1a365d"/></marker>
+  </defs>
+  <text x="475" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a365d">Figura 2 — Conselho de Contestação Algorítmica: fluxo em três fases</text>
+  <text x="130" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#2c7a7b">FASE 1</text>
+  <text x="130" y="82" text-anchor="middle" font-size="10" fill="#4a5568">Pareceres paralelos</text>
+  <rect x="20" y="95" width="110" height="75" rx="6" fill="#2c5282" stroke="none"/>
+  <text x="75" y="122" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Defensoria</text>
+  <text x="75" y="137" text-anchor="middle" font-size="9" fill="#bee3f8">Pública</text>
+  <text x="75" y="155" text-anchor="middle" font-size="10" fill="#e2e8f0">⚖️ contraditório</text>
+  <rect x="140" y="95" width="110" height="75" rx="6" fill="#2c7a7b" stroke="none"/>
+  <text x="195" y="122" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Cientista</text>
+  <text x="195" y="137" text-anchor="middle" font-size="9" fill="#bee3f8">de Dados</text>
+  <text x="195" y="155" text-anchor="middle" font-size="10" fill="#e2e8f0">📊 explicabilidade</text>
+  <rect x="20" y="190" width="110" height="75" rx="6" fill="#9b2c2c" stroke="none"/>
+  <text x="75" y="217" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Administrador</text>
+  <text x="75" y="232" text-anchor="middle" font-size="9" fill="#fed7d7">Público</text>
+  <text x="75" y="250" text-anchor="middle" font-size="10" fill="#fef2f2">🏛️ governança</text>
+  <rect x="140" y="190" width="110" height="75" rx="6" fill="#744210" stroke="none"/>
+  <text x="195" y="217" text-anchor="middle" font-size="10" fill="white" font-weight="bold">Cidadão /</text>
+  <text x="195" y="232" text-anchor="middle" font-size="9" fill="#fefcbf">Dir. Digitais</text>
+  <text x="195" y="250" text-anchor="middle" font-size="10" fill="#fefce8">👤 proteção dados</text>
+  <line x1="255" y1="200" x2="315" y2="200" stroke="#1a365d" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="335" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#2c7a7b">FASE 2</text>
+  <text x="395" y="82" text-anchor="middle" font-size="10" fill="#4a5568">Avaliação cruzada anônima</text>
+  <rect x="320" y="100" width="160" height="160" rx="8" fill="#f7fafc" stroke="#cbd5e0" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="400" y="130" text-anchor="middle" font-size="10" fill="#718096">4 pareceres × 3 avaliações</text>
+  <text x="400" y="150" text-anchor="middle" font-size="10" fill="#718096">cada um lê os outros 3</text>
+  <text x="400" y="175" text-anchor="middle" font-size="10" fill="#718096">sem saber quem escreveu</text>
+  <text x="400" y="200" text-anchor="middle" font-size="10" fill="#718096">= 12 avaliações</text>
+  <text x="400" y="230" text-anchor="middle" font-size="11" font-weight="bold" fill="#2c7a7b">Anonimidade</text>
+  <text x="400" y="248" text-anchor="middle" font-size="9" fill="#718096">reduz viés de autoridade</text>
+  <line x1="485" y1="200" x2="545" y2="200" stroke="#1a365d" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="630" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#2c7a7b">FASE 3</text>
+  <text x="630" y="82" text-anchor="middle" font-size="10" fill="#4a5568">Relator: síntese fundamentada</text>
+  <rect x="550" y="100" width="160" height="160" rx="8" fill="#1a365d" stroke="none"/>
+  <text x="630" y="140" text-anchor="middle" font-size="14" fill="white" font-weight="bold">RELATOR</text>
+  <text x="630" y="165" text-anchor="middle" font-size="10" fill="#bee3f8">lê 4 pareceres</text>
+  <text x="630" y="185" text-anchor="middle" font-size="10" fill="#bee3f8">+ 12 avaliações</text>
+  <text x="630" y="210" text-anchor="middle" font-size="10" fill="#bee3f8">integra, resolve ou</text>
+  <text x="630" y="228" text-anchor="middle" font-size="10" fill="#bee3f8">sinaliza contradições</text>
+  <line x1="715" y1="200" x2="775" y2="200" stroke="#1a365d" stroke-width="2" marker-end="url(#ar)"/>
+  <rect x="780" y="140" width="150" height="120" rx="8" fill="#f0fff4" stroke="#276749" stroke-width="2"/>
+  <text x="855" y="175" text-anchor="middle" font-size="11" font-weight="bold" fill="#276749">Parecer</text>
+  <text x="855" y="195" text-anchor="middle" font-size="11" font-weight="bold" fill="#276749">Fundamentado</text>
+  <text x="855" y="225" text-anchor="middle" font-size="10" fill="#4a5568">base para minutas</text>
+  <text x="855" y="243" text-anchor="middle" font-size="10" fill="#4a5568">LAI, LGPD, recurso</text>
+  <text x="475" y="320" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a365d">Mapeamento persona → artigo → eixo jurídico</text>
+  <rect x="50" y="335" width="200" height="25" rx="4" fill="#2c5282"/><text x="150" y="352" text-anchor="middle" font-size="10" fill="white">Defensoria → Tavares et al. (2024)</text>
+  <rect x="260" y="335" width="200" height="25" rx="4" fill="#2c7a7b"/><text x="360" y="352" text-anchor="middle" font-size="10" fill="white">Cientista → Transversal (XAI)</text>
+  <rect x="470" y="335" width="200" height="25" rx="4" fill="#9b2c2c"/><text x="570" y="352" text-anchor="middle" font-size="10" fill="white">Admin → Cristóvam &amp; Hahn (2020)</text>
+  <rect x="680" y="335" width="220" height="25" rx="4" fill="#744210"/><text x="790" y="352" text-anchor="middle" font-size="10" fill="white">Cidadão → Saito/Salgado + Sarlet</text>
+  <text x="475" y="385" text-anchor="middle" font-size="10" fill="#718096">Fonte: elaboração própria (2026). Cada cor corresponde a uma persona do Conselho.</text>
+</svg>

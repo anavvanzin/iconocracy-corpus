@@ -47,6 +47,7 @@ COUNTRY_MAP_REVERSE: dict[str, str] = {
     "Uruguay": "Uruguay",
     "Mexico": "Mexico",
     "Argentina": "Argentina",
+    "ES": "Spain",
 }
 
 
@@ -122,6 +123,7 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     iconocode = record.get("iconocode", {})
     purif = record.get("purificacao") or {}
     exports = record.get("exports", {})
+    record_metadata = purif.get("record_metadata") or {}
 
     # Primary result
     sr = webscout.get("search_results", [{}])[0] if webscout.get("search_results") else {}
@@ -166,13 +168,16 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     if not entry.get("id"):
         entry["id"] = corpus_id or record.get("item_id", "")
     
-    if not entry.get("country"):
-        place_hint = inp.get("place_hint", "")
-        if isinstance(place_hint, list) and place_hint:
-            place_hint = place_hint[0]
-        elif isinstance(place_hint, str):
-            place_hint = place_hint.replace("[", "").replace("]", "").replace("'", "").replace('"', "").strip()
-        
+    # Always derive country from the canonical record's place_hint when available,
+    # instead of only filling missing values. records.jsonl is the source of truth.
+    place_hint = inp.get("place_hint", "")
+    if isinstance(place_hint, list) and place_hint:
+        place_hint = place_hint[0]
+    elif isinstance(place_hint, str):
+        place_hint = place_hint.replace("[", "").replace("]", "").replace("'", "").replace('"', "").strip()
+
+    country = ""
+    if place_hint:
         country = COUNTRY_MAP_REVERSE.get(place_hint, "")
         if not country:
             if place_hint in ["BR", "Brazil"]:
@@ -193,9 +198,14 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
                 country = "Portugal"
             elif place_hint in ["IT", "Italy"]:
                 country = "Italy"
+            elif place_hint in ["ES", "Spain"]:
+                country = "Spain"
             else:
-                country = place_hint or "Brazil"
+                country = place_hint
+    if country:
         entry["country"] = country
+    elif not entry.get("country"):
+        entry["country"] = "Brazil"
 
     # Overwrite with authoritative fields from records.jsonl
     entry.update({
@@ -203,12 +213,23 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
         "title": title or entry.get("title", ""),
         "description": description or entry.get("description", ""),
         "motif": motifs or entry.get("motif", []),
-        "regime": regime or entry.get("regime", ""),
-        "endurecimento_score": endurecimento or entry.get("endurecimento_score", 0.0),
         "coded_by": coded_by or entry.get("coded_by", ""),
         "coded_at": coded_at or entry.get("coded_at", ""),
         "date": inp.get("date_hint") or entry.get("date", ""),
     })
+
+    # An uncoded canonical record must not acquire analytical values merely by
+    # being exported.  In particular, zero is a valid endurecimento score, so
+    # using it as the default would incorrectly make pending SCOUT promotions
+    # look coded.  Existing enriched values remain available in merge mode.
+    if regime:
+        entry["regime"] = regime
+    elif not existing:
+        entry.pop("regime", None)
+    if "purificacao_composto" in purif:
+        entry["endurecimento_score"] = endurecimento
+    elif not existing:
+        entry.pop("endurecimento_score", None)
 
     if indicadores:
         entry["indicadores"] = indicadores
@@ -219,6 +240,16 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     # Tags from exports audit_flags
     if exports.get("audit_flags") and not entry.get("audit_flags"):
         entry["audit_flags"] = exports["audit_flags"]
+
+    # ``support`` is authoritative only when the canonical record carries a
+    # material medium.  Do not infer it from titles/tags or preserve a value
+    # found only in the derived export, which would make corpus-data.json its
+    # own source of truth on subsequent merge runs.
+    canonical_support = record_metadata.get("medium")
+    if isinstance(canonical_support, str) and canonical_support.strip():
+        entry["support"] = canonical_support.strip()
+    else:
+        entry.pop("support", None)
 
     return entry
 

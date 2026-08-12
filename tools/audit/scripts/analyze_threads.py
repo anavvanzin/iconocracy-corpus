@@ -25,6 +25,11 @@ Outputs:
 import json, sys, os
 from pathlib import Path
 from collections import defaultdict, Counter
+# Composto aposentado no codebook v2.2.1 (DEC-2026-07-28): ordenação e
+# comparação passam a usar o inventário de atributos, não o escore agregado.
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from tools.scripts.lpai_indicators import attribute_count, attribute_inventory  # noqa: E402
+
 
 # ============================================================================
 # CONFIG — Taxonomy template (provisional; refines from data)
@@ -107,12 +112,14 @@ def make_demo_panels(corpus_by_id):
         'essay': {'title': 'Gênese', 'body': 'demo'},
     })
     
-    # Panel 4 — ENDURECIMENTO — score progression
-    sorted_by_score = sorted(
-        [(eid, e) for eid, e in corpus_by_id.items() if (e.get('endurecimento_score') or 0) > 0],
-        key=lambda x: x[1].get('endurecimento_score') or 0
+    # Panel 4 — ENDURECIMENTO — inventário comparado de atributos
+    # (composto aposentado no codebook v2.2.1: ordena-se por quantidade de
+    # atributos marcados, que não afirma intensidade, só cardinalidade)
+    sorted_by_attrs = sorted(
+        [(eid, e) for eid, e in corpus_by_id.items() if attribute_count(e) > 0],
+        key=lambda x: attribute_count(x[1])
     )
-    p4_items = [eid for eid, _ in sorted_by_score[:3]] + [eid for eid, _ in sorted_by_score[-4:]]
+    p4_items = [eid for eid, _ in sorted_by_attrs[:3]] + [eid for eid, _ in sorted_by_attrs[-4:]]
     panels.append({
         'panelId': 4, 'panelName': 'ENDURECIMENTO',
         'placements': [{'uid': f'p-4-{i}', 'id': eid, 'x':100+i*200, 'y':200} 
@@ -176,8 +183,8 @@ def expand_threads(panels, corpus_by_id):
                 'a_year': a_entry.get('year'), 'b_year': b_entry.get('year'),
                 'a_country': a_entry.get('country', ''), 'b_country': b_entry.get('country', ''),
                 'a_regime': a_entry.get('regime', ''), 'b_regime': b_entry.get('regime', ''),
-                'a_score': a_entry.get('endurecimento_score', 0),
-                'b_score': b_entry.get('endurecimento_score', 0),
+                'a_attrs': attribute_count(a_entry),
+                'b_attrs': attribute_count(b_entry),
                 'a_motifs': a_entry.get('motif', []) or [],
                 'b_motifs': b_entry.get('motif', []) or [],
                 'a_pathos': get_pathos(a_entry),

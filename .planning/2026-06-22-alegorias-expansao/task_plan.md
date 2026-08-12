@@ -53,12 +53,12 @@
 - Lista de ajustes obrigatorios vs. opcionais (documentado e validado em `.planning/2026-06-22-alegorias-expansao/phase-06-review-plan.md` e `docs/reviews/`)
 
 ### Phase 7 — Ajustes Finais, Validacao e Handoff
-**Status:** pending
+**Status:** complete
 **Objective:** Fechar o ciclo com corpus, codebook, nota e wiki consistentes.
 **Deliverables:**
-- Ajustes criticos aplicados
-- Schemas revalidados
-- `progress.md` e `task_plan.md` atualizados
+- Ajustes criticos aplicados (renumeração estrutural da nota de decisão resolvida)
+- Schemas revalidados (280/280 registros válidos via `validate_schemas.py`)
+- `progress.md` e `task_plan.md` atualizados para o fechamento do ciclo
 
 ## Errors Encountered
 | Error | Attempt | Resolution |

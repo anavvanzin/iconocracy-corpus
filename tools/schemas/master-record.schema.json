@@ -136,7 +136,9 @@
         "purificacao_composto": {
           "type": "number",
           "minimum": 0,
-          "maximum": 3
+          "maximum": 3,
+          "deprecated": true,
+          "description": "LEGACY_FROZEN desde codebook v2.2.1 (decisao DEC-2026-07-28-COMPOSTO). Media aritmetica dos 10 indicadores. Nao emitir em codificacao nova; valores existentes sao conservados sem recalculo e sem valor probatorio."
         },
         "regime_iconocratico": {
           "type": "string",
@@ -183,7 +185,8 @@
             "Continentes",
             "Oceanos/Rios",
             "Nacional",
-            "Outra"
+            "Outra",
+            "Masculino_Juridico"
           ]
         },
         "subtipo": {
@@ -256,6 +259,161 @@
         },
         "subaltern_caution": {
           "type": "boolean"
+        },
+        "programa_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional v2.2.0 grouping identifier for figures or records that belong to the same iconographic program."
+        },
+        "ordem_no_programa": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "description": "Optional v2.2.0 ordinal position inside programa_id."
+        },
+        "dado_negativo": {
+          "type": "boolean",
+          "description": "Optional v2.2.0 marker for analytically significant absence."
+        },
+        "finalidade_atribuida": {
+          "type": "string",
+          "enum": [
+            "legitimacao_juridica",
+            "pedagogia_civica",
+            "dissuasao",
+            "comemoracao",
+            "branding_estatal",
+            "outro"
+          ],
+          "description": "Optional v2.2.0 attributed juridical-political purpose."
+        },
+        "power_at_stake": {
+          "type": "string",
+          "maxLength": 500,
+          "description": "Optional v2.2.0 short note on who benefits or is marginalized by the artifact/coding."
+        },
+        "coder_position_statement": {
+          "type": "string",
+          "maxLength": 500,
+          "description": "Optional v2.2.0 situated coder-position statement."
+        },
+        "confianca_codificacao": {
+          "type": "string",
+          "enum": [
+            "alta",
+            "media",
+            "baixa"
+          ],
+          "description": "Optional v2.2.0 qualitative confidence label for human-readable methodology."
+        },
+        "motivo_incerteza": {
+          "type": "string",
+          "maxLength": 500,
+          "description": "Optional v2.2.0 reason for uncertainty when confianca_codificacao is media or baixa."
+        },
+        "relacao_com_repertorio_indigena": {
+          "type": "string",
+          "enum": [
+            "ausente",
+            "apropriado",
+            "coexistente",
+            "hibridizado",
+            "nao_aplicavel"
+          ],
+          "description": "Optional v2.2.0 relation to Indigenous repertoires when analytically relevant."
+        },
+        "disjuncao_representa_governa": {
+          "type": "boolean",
+          "description": "Optional v2.2.0 marker for allegorical representation without political governing agency."
+        },
+        "objetos_regalia": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "description": "Optional v2.2.0 decomposition of atributos_iconograficos into objects/regalia."
+        },
+        "marcas_corporais": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "description": "Optional v2.2.0 decomposition of atributos_iconograficos into body, pose and clothing markers."
+        },
+        "marcadores_cena_arquitetura": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "description": "Optional v2.2.0 decomposition of atributos_iconograficos into scene and architecture markers."
+        },
+        "funcao_da_figura_masculina": {
+          "type": "string",
+          "enum": [
+            "Pedagogia_Do_Bivio",
+            "Suporte_Arquitetonico",
+            "Delimitacao_Territorial",
+            "Protetorado_Nacional",
+            "Soberania_Maritima",
+            "Mediacao_Divino_Juridica",
+            "Outro"
+          ],
+          "description": "NOVO em 2.3.0 (patch opcional). Funcao explicita da figura masculina em contexto juridico-estatal. Opcional nesta rodada; promover a obrigatorio apos migracao dos candidatos."
+        },
+        "tipo_agencia_masculina": {
+          "type": "string",
+          "enum": [
+            "Pedagogia_Do_Bivio",
+            "Suporte_Arquitetonico",
+            "Delimitacao_Territorial",
+            "Protetorado",
+            "Soberania_Maritima",
+            "Mediacao_Divino_Juridica",
+            "Outro"
+          ],
+          "description": "NOVO em 2.3.0 (patch opcional). Tipo especifico de agencia masculina, util para casos brasileiros em que a fonte descreve explicitamente o masculino como ativo."
+        },
+        "funcao_atlanteana": {
+          "type": "boolean",
+          "description": "NOVO em 2.3.0 (patch opcional). Verdadeiro quando a figura masculina cumpre funcao explicita de suporte/sustentacao (arquitetonica ou simbolica)."
+        },
+        "tipo_efluencia_hidrica": {
+          "type": "string",
+          "enum": [
+            "Urna_Vertedora",
+            "Vaso_Inclinado",
+            "Sem_Efluencia",
+            "Outro"
+          ],
+          "description": "NOVO em 2.3.0 (patch opcional). Tipo de efluencia hidrica em personificacoes aquaticas; operacionaliza a regra de coocorrencia barba+semirrecosto+efluencia."
+        },
+        "substituicao_atributiva_hercules": {
+          "type": "object",
+          "properties": {
+            "atributo_canonico_substituido": {
+              "type": "string"
+            },
+            "atributo_novo": {
+              "type": "string"
+            },
+            "justificativa": {
+              "type": "string",
+              "maxLength": 300
+            }
+          },
+          "required": [
+            "atributo_canonico_substituido",
+            "atributo_novo",
+            "justificativa"
+          ],
+          "description": "NOVO em 2.3.0 (patch opcional). Registra identificacao herculea por substituicao atributiva (p.ex., cetro/vara manejado como Hercules a sua clava). Enforce condicional depende de upgrade do validate_schemas.py."
         }
       }
     },

@@ -2,8 +2,8 @@
   "$schema": "../docs/drive-manifest-schema.json",
   "_comment": "Mapa: pasta Google Drive → corpus IDs. Drive URLs are placeholders — update with real folder ID.",
   "drive_root": "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID",
-  "generated_at": "2026-05-14",
-  "total_items": 165,
+  "generated_at": "2026-08-06",
+  "total_items": 172,
   "items": [
     {
       "id": "AR-001",
@@ -1324,6 +1324,69 @@
       "regime": "fundacional",
       "vault_note": "",
       "drive_url": "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID?q=UY-001"
+    },
+    {
+      "id": "73ee9bdb-039b-5acd-b425-871fbb998b36",
+      "item_id": "73ee9bdb-039b-5acd-b425-871fbb998b36",
+      "title": "Sketch of an Allegory of the Abolition of Slavery",
+      "url": "https://www.metmuseum.org/art/collection/search/848124",
+      "regime": "fundacional",
+      "vault_note": "SCOUT-589",
+      "drive_url": "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID?q=73ee9bdb-039b-5acd-b425-871fbb998b36"
+    },
+    {
+      "id": "307f2209-2999-5366-964a-8e86009d4b5b",
+      "item_id": "307f2209-2999-5366-964a-8e86009d4b5b",
+      "title": "La Liberté",
+      "url": "https://www.metmuseum.org/art/collection/search/821181",
+      "regime": "fundacional",
+      "vault_note": "SCOUT-591",
+      "drive_url": "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID?q=307f2209-2999-5366-964a-8e86009d4b5b"
+    },
+    {
+      "id": "5b14d6a4-7b6d-5111-9253-b20bb72af0a1",
+      "item_id": "5b14d6a4-7b6d-5111-9253-b20bb72af0a1",
+      "title": "Medalla",
+      "url": "http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS&museum=MAN",
+      "regime": "fundacional",
+      "vault_note": "SCOUT-601",
+      "drive_url": "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID?q=5b14d6a4-7b6d-5111-9253-b20bb72af0a1"
+    },
+    {
+      "id": "7f2f25d9-e351-502e-b308-fd784e972fbf",
+      "item_id": "7f2f25d9-e351-502e-b308-fd784e972fbf",
+      "title": "Ficha",
+      "url": "http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=MCM",
+      "regime": "fundacional",
+      "vault_note": "SCOUT-602",
+      "drive_url": "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID?q=7f2f25d9-e351-502e-b308-fd784e972fbf"
+    },
+    {
+      "id": "d8a81f31-5b21-573f-912e-64bb29559c06",
+      "item_id": "d8a81f31-5b21-573f-912e-64bb29559c06",
+      "title": "Relieve de la República - Relieve",
+      "url": "http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO",
+      "regime": "fundacional",
+      "vault_note": "SCOUT-604",
+      "drive_url": "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID?q=d8a81f31-5b21-573f-912e-64bb29559c06"
+    },
+    {
+      "id": "f410c31b-283c-5f5f-95ce-7b6e809db88e",
+      "item_id": "f410c31b-283c-5f5f-95ce-7b6e809db88e",
+      "title": "Exposición Universal de Lyon - Medalla",
+      "url": "http://ceres.mcu.es/pages/Main?idt=2713&inventary=02712&table=FMUS&museum=MCM",
+      "regime": "normativo",
+      "vault_note": "SCOUT-605",
+      "drive_url": "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID?q=f410c31b-283c-5f5f-95ce-7b6e809db88e"
+    },
+    {
+      "id": "b1966d16-8731-58e4-a898-8ef3c44f59cb",
+      "item_id": "b1966d16-8731-58e4-a898-8ef3c44f59cb",
+      "title": "Lo que puede suceder. - Estampa",
+      "url": "http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR",
+      "regime": "contra-alegoria",
+      "vault_note": "SCOUT-607",
+      "drive_url": "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID?q=b1966d16-8731-58e4-a898-8ef3c44f59cb"
     }
   ]
 }

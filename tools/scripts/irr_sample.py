@@ -195,7 +195,7 @@ def get_image_paths(item_id: str, corpus_id: str, record: dict) -> list[Path]:
         REPO_ROOT / "images",
         REPO_ROOT / "Images",
         REPO_ROOT / "Images" / "Images",
-        Path("/data/iconocracy-corpus/binaries/Images"),
+        REPO_ROOT / "binaries" / "Images",
         REPO_ROOT / ".cache" / "iconocode-images",
     ]
 
@@ -359,7 +359,7 @@ def main():
                 REPO_ROOT / "images",
                 REPO_ROOT / "Images",
                 REPO_ROOT / "Images" / "Images",
-                Path("/data/iconocracy-corpus/binaries/Images"),
+                REPO_ROOT / "binaries" / "Images",
                 REPO_ROOT / ".cache" / "iconocode-images",
             ]
             # Quick check for any matching files

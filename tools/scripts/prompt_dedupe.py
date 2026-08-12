@@ -15,9 +15,9 @@ import subprocess
 from datetime import datetime
 
 # Path Configuration
-REPO_ROOT = "/Users/ana/research/hub/iconocracy-corpus"
+REPO_ROOT = "/Users/ana/Research/hub/iconocracy-corpus"
 TEXT_DIR = os.path.join(REPO_ROOT, "Text")
-ARCHIVE_ROOT = "/Users/ana/research/archive/notas-legacy"
+ARCHIVE_ROOT = "/Users/ana/Research/archive/notas-legacy"
 
 def get_md5(filepath):
     hasher = hashlib.md5()

@@ -1,0 +1,11 @@
+% Minimal ABNT header — only spacing/indent/section formatting
+% Fonts/geometry/babel are handled by pandoc -V flags
+\usepackage{indentfirst}
+\usepackage{setspace}
+\onehalfspacing
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\bfseries\uppercase}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection}{1em}{}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ICONOCRACIA · Manifesto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Hanken+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F2EAD9;
+    --ink: #211B16;
+    --rubric: #9B2C1C;
+    --gold: #9C7C3D;
+    --gold-light: #C4A96A;
+    --cream: #F7F2E5;
+    --ash: #4A4440;
+    --rule: #D4CFC3;
+    --font-display: 'Cormorant Garamond', Georgia, serif;
+    --font-body: 'Hanken Grotesk', -apple-system, sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; background: var(--paper); }
+  body {
+    font-family: var(--font-body);
+    color: var(--ink);
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(156,124,61,.06), transparent 60%),
+      radial-gradient(ellipse at 85% 100%, rgba(155,44,28,.04), transparent 50%),
+      var(--paper);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── Navigation ── */
+  .nav-top {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 10;
+    padding: 20px 32px;
+    display: flex; justify-content: space-between; align-items: center;
+    background: rgba(242,234,217,.88);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--rule);
+  }
+  .nav-brand {
+    font-family: var(--font-display);
+    font-size: 20px; font-weight: 500; font-style: italic;
+    color: var(--ink); letter-spacing: 0.03em;
+  }
+  .nav-links { display: flex; gap: 32px; list-style: none; }
+  .nav-links a {
+    font-family: var(--font-display);
+    font-size: 15px; color: var(--ash); text-decoration: none;
+    letter-spacing: 0.05em; transition: color .25s;
+  }
+  .nav-links a:hover { color: var(--rubric); }
+  .nav-links a.active { color: var(--rubric); border-bottom: 1px solid var(--rubric); }
+
+  /* ── Hero ── */
+  .hero {
+    min-height: 100vh;
+    display: grid; place-items: center;
+    padding: 120px 32px 80px;
+    text-align: center;
+  }
+  .hero-eyebrow {
+    font-family: var(--font-body);
+    font-size: 11px; font-weight: 600;
+    letter-spacing: 0.25em; text-transform: uppercase;
+    color: var(--rubric); margin-bottom: 24px;
+  }
+  .hero h1 {
+    font-family: var(--font-display);
+    font-size: clamp(3rem, 8vw, 5.5rem);
+    font-weight: 500; font-style: italic;
+    line-height: 1.06; letter-spacing: -0.01em;
+    max-width: 10ch; margin: 0 auto;
+    color: var(--ink);
+  }
+  .hero-sub {
+    margin-top: 32px;
+    font-size: 18px; font-weight: 400; line-height: 1.7;
+    max-width: 48ch; color: var(--ash);
+  }
+  .hero-sub em { font-family: var(--font-display); font-style: italic; color: var(--ink); }
+  .hero-cta {
+    margin-top: 48px;
+    display: inline-flex; gap: 24px;
+  }
+  .btn-primary {
+    font-family: var(--font-body); font-size: 14px; font-weight: 600;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    padding: 14px 32px;
+    background: var(--rubric); color: var(--cream);
+    border: none; border-radius: 2px;
+    cursor: pointer; transition: background .25s, transform .2s;
+    text-decoration: none;
+  }
+  .btn-primary:hover { background: #7A2316; transform: translateY(-1px); }
+  .btn-ghost {
+    font-family: var(--font-body); font-size: 14px; font-weight: 500;
+    letter-spacing: 0.06em;
+    padding: 14px 32px;
+    background: transparent; color: var(--ink);
+    border: 1px solid var(--rule); border-radius: 2px;
+    cursor: pointer; transition: border-color .25s;
+    text-decoration: none;
+  }
+  .btn-ghost:hover { border-color: var(--rubric); }
+
+  /* ── Sections ── */
+  .section {
+    max-width: 960px; margin: 0 auto;
+    padding: 100px 32px;
+  }
+  .section-narrow { max-width: 680px; }
+  .section h2 {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    font-weight: 500; line-height: 1.2;
+    margin-bottom: 32px; color: var(--ink);
+  }
+  .section h3 {
+    font-family: var(--font-body);
+    font-size: 13px; font-weight: 600;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--rubric); margin-bottom: 16px;
+  }
+  .section p {
+    font-size: 17px; line-height: 1.75;
+    color: var(--ash); margin-bottom: 24px;
+  }
+  .section p.lead {
+    font-size: 20px; font-weight: 400; line-height: 1.7;
+    color: var(--ink); max-width: 56ch;
+  }
+
+  /* ── Specimen float ── */
+  .specimen-float {
+    position: absolute;
+    opacity: .18; pointer-events: none;
+    filter: sepia(.5) brightness(.7);
+    border: 1px solid rgba(155,44,28,.15);
+    transition: opacity .6s, transform .6s;
+  }
+  .specimen-float img { display: block; width: 100%; height: auto; }
+  .section:hover .specimen-float { opacity: .28; }
+
+  /* ── Figure grid ── */
+  .fig-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; margin: 48px 0;
+  }
+  .fig-cell {
+    border: 1px solid var(--rule);
+    background: #fff;
+    padding: 10px;
+    transition: transform .3s, box-shadow .3s;
+  }
+  .fig-cell:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(33,27,22,.1);
+  }
+  .fig-cell img {
+    display: block; width: 100%; height: auto;
+    filter: saturate(.7) brightness(.95);
+  }
+  .fig-cell figcaption {
+    font-family: var(--font-display);
+    font-size: 12px; font-style: italic;
+    color: var(--ash); margin-top: 8px;
+    line-height: 1.4;
+  }
+
+  /* ── Divider ── */
+  .divider {
+    width: 60px; height: 1px;
+    background: var(--rubric);
+    margin: 60px auto;
+  }
+
+  /* ── Marginalia ── */
+  .marginalia {
+    border-left: 1px solid var(--rubric);
+    padding-left: 24px;
+    font-style: italic;
+    color: var(--ash);
+    margin: 40px 0;
+  }
+  .marginalia p { font-size: 15px; line-height: 1.6; }
+
+  /* ── Footer ── */
+  .footer {
+    text-align: center; padding: 60px 32px;
+    border-top: 1px solid var(--rule);
+    font-size: 13px; color: var(--ash);
+  }
+  .footer a { color: var(--rubric); text-decoration: none; }
+
+  /* ── Animations ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .anim-up { animation: fadeUp .8s ease-out both; }
+  .anim-up:nth-child(2) { animation-delay: .15s; }
+  .anim-up:nth-child(3) { animation-delay: .3s; }
+
+  /* ── Mobile ── */
+  @media (max-width: 768px) {
+    .nav-links { display: none; }
+    .fig-grid { grid-template-columns: 1fr 1fr; }
+    .hero { padding: 100px 24px 60px; }
+    .section { padding: 60px 24px; }
+  }
+  @media (max-width: 480px) {
+    .fig-grid { grid-template-columns: 1fr; }
+    .hero-cta { flex-direction: column; align-items: center; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav-top">
+  <span class="nav-brand">ICONOCRACIA</span>
+  <ul class="nav-links">
+    <li><a href="#" class="active">Manifesto</a></li>
+    <li><a href="mockup-atlas.html">Atlas</a></li>
+    <li><a href="#">Tese</a></li>
+    <li><a href="#">Corpus</a></li>
+    <li><a href="#">Biblioteca</a></li>
+    <li><a href="#">Sobre</a></li>
+  </ul>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+  <div>
+    <p class="hero-eyebrow anim-up">Tese de Doutoramento · PPGD/UFSC & UGent</p>
+    <h1 class="anim-up">Iconocracia:<br>Alegoria Feminina na<br>História da Cultura Jurídica</h1>
+    <p class="hero-sub anim-up">
+      Uma cartografia warburguiana do regime iconocrático.
+      Dos selos republicanos de 1889 à Justiça vendada do STF —
+      como o <em>feminino</em> foi mobilizado, purificado e endurecido
+      pelo Estado moderno nos séculos XIX e XX.
+    </p>
+    <div class="hero-cta anim-up">
+      <a href="mockup-atlas.html" class="btn-primary">Entrar no Atlas</a>
+      <a href="#" class="btn-ghost">Ler a Tese</a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══ ARGUMENTO ═══ -->
+<section class="section section-narrow">
+  <h3>O Argumento</h3>
+  <p class="lead">
+    O Estado moderno não apenas usou figuras femininas como ornamento —
+    ele as <em>produziu</em> como tecnologia de governo.
+  </p>
+  <p>
+    Da Marianne francesa de 1789 à República brasileira de 1889, da Britânia
+    imperial à Justiça vendada do Supremo, corpos femininos alegóricos foram
+    esculpidos, cunhados, pintados e impressos para personificar a lei, a nação
+    e a justiça. Esta tese investiga <em>como</em> — por quais mecanismos visuais
+    e jurídicos — essas figuras foram progressivamente desincorporadas, dessexualizadas
+    e endurecidas ao longo de dois séculos de cultura jurídica atlântica.
+  </p>
+  <div class="marginalia">
+    <p>
+      "A iconocracia não é o governo <em>das</em> imagens, mas o governo
+      <em>pelas</em> imagens — uma tecnologia de soberania que opera pela
+      administração do visível."
+      <br><small>— Mondzain, 2002; conceito mobilizado por Vanzin, 2026</small>
+    </p>
+  </div>
+</section>
+
+<!-- ═══ CORPUS ═══ -->
+<section class="section">
+  <h3>O Corpus</h3>
+  <h2>299 espécimes · 15 países · 4 regimes iconocráticos</h2>
+  <div class="fig-grid">
+    <figure class="fig-cell">
+      <div style="background:#ddd; aspect-ratio:3/4; display:grid; place-items:center; color:#999; font-size:12px;">BR · República 1889</div>
+      <figcaption>Libertas Armata — selo republicano, Brasil, 1889</figcaption>
+    </figure>
+    <figure class="fig-cell">
+      <div style="background:#ddd; aspect-ratio:3/4; display:grid; place-items:center; color:#999; font-size:12px;">FR · Marianne 1792</div>
+      <figcaption>Marianne — Liberdade guiando o povo, França, 1830</figcaption>
+    </figure>
+    <figure class="fig-cell">
+      <div style="background:#ddd; aspect-ratio:3/4; display:grid; place-items:center; color:#999; font-size:12px;">BE · Justiça 1832</div>
+      <figcaption>5 Francs Léopold I — ausência alegórica, Bélgica, 1832</figcaption>
+    </figure>
+  </div>
+  <p style="text-align:center; margin-top:32px;">
+    <a href="#" style="font-family:var(--font-display); font-size:15px; color:var(--rubric); text-decoration:none; border-bottom:1px solid var(--rubric);">Explorar o corpus completo →</a>
+  </p>
+</section>
+
+<!-- ═══ REGIMES ═══ -->
+<section class="section section-narrow">
+  <h3>Quatro Regimes</h3>
+  <h2>Do corpo vivo ao ícone estatal</h2>
+  <p class="lead">A tese identifica quatro regimes iconocráticos que organizam
+  a transformação da alegoria feminina ao longo de dois séculos:</p>
+  <p>
+    <strong style="color:var(--ink);">Fundacional</strong> (1789–1848) —
+    o corpo feminino como metáfora viva da nação emergente. Gestos expansivos,
+    seios expostos, presença carnal.
+  </p>
+  <p>
+    <strong style="color:var(--ink);">Normativo</strong> (1848–1914) —
+    a domesticacão da alegoria. Postura rígida, vestes pesadas, face uniformizada.
+    A República vira senhora.
+  </p>
+  <p>
+    <strong style="color:var(--ink);">Militar</strong> (1914–1945) —
+    a alegoria convocada para a guerra. Britânia ordena, Marianne resiste,
+    a Justiça se arma.
+  </p>
+  <p>
+    <strong style="color:var(--ink);">Contra-Alegoria</strong> (1945–1992) —
+    o esgotamento do regime. A figura feminina se abstrai, se geometriza,
+    desaparece no Estado que ela mesma legitimou.
+  </p>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══ CALL TO ATLAS ═══ -->
+<section class="section section-narrow" style="text-align:center;">
+  <h3>O Atlas</h3>
+  <h2>A tese não se lê — se monta</h2>
+  <p class="lead">
+    No espírito do <em>Bilderatlas Mnemosyne</em> de Aby Warburg, cada prancha
+    é uma constelação de espécimes que você compõe, conecta e publica.
+    A vizinhança importa mais que a taxonomia.
+  </p>
+  <a href="mockup-atlas.html" class="btn-primary" style="margin-top:24px;">Abrir o Atlas Mnemosyne</a>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="footer">
+  <p>Ana Vanzin · PPGD/UFSC · Universiteit Gent · 2026</p>
+  <p style="margin-top:8px;">
+    <a href="#">Lattes</a> · <a href="#">ORCID</a> · <a href="#">iconocracia.com</a>
+  </p>
+</footer>
+
+</body>
+</html>

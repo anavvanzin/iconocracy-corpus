@@ -1,4 +1,5 @@
 ---
+url: https://bndigital.bnportugal.gov.pt/records/item/37507-alegoria-ao-tempo
 id: PT-004
 tipo: corpus/candidato
 status: verificar

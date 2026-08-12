@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ICONOCRACIA · Atlas Mnemosyne</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --black: #090a0d;
+    --ink: #11100c;
+    --bone: #eadfc8;
+    --cream: #f7f0e1;
+    --gold: #9a783d;
+    --gold-dim: rgba(154,120,61,.42);
+    --seal: #9d3a27;
+    --seal-glow: rgba(157,58,39,.3);
+    --paper: #eee4cf;
+    --muted: #665e52;
+    --rule: #c6ae7c;
+    --font-display: 'Instrument Serif', 'Cormorant Garamond', Georgia, serif;
+    --font-body: 'Crimson Pro', Georgia, serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html {
+    background: var(--black);
+    color: var(--bone);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    font-size: 16px; line-height: 1.6;
+    min-height: 100vh;
+    background:
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.88' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.042'/%3E%3C/svg%3E"),
+      radial-gradient(ellipse at 30% 20%, rgba(157,58,39,.06), transparent 50%),
+      radial-gradient(ellipse at 70% 80%, rgba(154,120,61,.05), transparent 50%),
+      var(--black);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection { background: rgba(157,58,39,.25); color: var(--bone); }
+
+  /* ── Toolbar ── */
+  .toolbar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 20;
+    display: flex; align-items: center; gap: 16px;
+    padding: 14px 20px;
+    background: rgba(9,10,13,.92);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--gold-dim);
+    box-shadow: 0 1px 0 rgba(154,120,61,.08);
+  }
+  .toolbar-brand {
+    font-family: var(--font-display);
+    font-size: 19px; font-style: italic;
+    color: var(--bone); letter-spacing: 0.04em;
+    text-decoration: none; margin-right: auto;
+  }
+  .toolbar-btn {
+    font-family: var(--font-mono);
+    font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 8px 16px;
+    color: rgba(234,223,200,.65);
+    background: transparent;
+    border: 1px solid rgba(154,120,61,.28);
+    border-radius: 2px;
+    cursor: pointer; transition: all .25s;
+  }
+  .toolbar-btn:hover {
+    color: var(--bone);
+    border-color: var(--gold);
+    background: rgba(154,120,61,.08);
+  }
+  .toolbar-btn.primary {
+    color: var(--bone);
+    border-color: var(--seal);
+    background: rgba(157,58,39,.18);
+  }
+  .toolbar-btn.primary:hover {
+    background: rgba(157,58,39,.32);
+    border-color: var(--seal);
+  }
+
+  /* ── Layout ── */
+  .workspace {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    height: 100vh;
+    padding-top: 53px;
+  }
+
+  /* ── Browser Panel ── */
+  .browser {
+    background:
+      linear-gradient(rgba(154,120,61,.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(154,120,61,.04) 1px, transparent 1px),
+      rgba(17,16,12,.6);
+    background-size: 24px 24px, 24px 24px, auto;
+    border-right: 1px solid var(--gold-dim);
+    display: flex; flex-direction: column;
+    overflow: hidden;
+  }
+  .browser-header {
+    padding: 18px 16px 12px;
+    border-bottom: 3px double rgba(154,120,61,.55);
+  }
+  .browser-header h2 {
+    font-family: var(--font-display);
+    font-size: 18px; font-weight: 400; font-style: italic;
+    color: var(--bone);
+  }
+  .browser-header small {
+    font-family: var(--font-mono);
+    font-size: 10px; text-transform: uppercase;
+    color: rgba(234,223,200,.45);
+    display: block; margin-top: 4px;
+  }
+
+  .filter-group {
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(154,120,61,.15);
+  }
+  .filter-group label {
+    font-family: var(--font-mono);
+    font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    display: block; margin-bottom: 6px;
+  }
+  .filter-group select {
+    width: 100%;
+    font-family: var(--font-body);
+    font-size: 14px;
+    padding: 8px 12px;
+    background: rgba(234,223,200,.06);
+    color: var(--bone);
+    border: 1px solid rgba(154,120,61,.25);
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .filter-group select:focus {
+    outline: none;
+    border-color: var(--gold);
+  }
+
+  .specimen-list {
+    flex: 1; overflow-y: auto;
+    padding: 8px 12px;
+  }
+  .specimen-card {
+    display: grid; grid-template-columns: 44px 1fr;
+    gap: 10px; align-items: center;
+    padding: 10px;
+    margin-bottom: 6px;
+    border: 1px solid transparent;
+    border-left: 2px solid transparent;
+    border-radius: 2px;
+    cursor: grab;
+    transition: all .25s;
+  }
+  .specimen-card:hover {
+    background: rgba(247,240,225,.04);
+    border-color: rgba(154,120,61,.2);
+    border-left-color: var(--seal);
+  }
+  .specimen-card:active { cursor: grabbing; }
+  .specimen-thumb {
+    width: 44px; height: 56px;
+    background: rgba(234,223,200,.06);
+    border: 1px solid rgba(154,120,61,.18);
+    display: grid; place-items: center;
+    overflow: hidden;
+  }
+  .specimen-thumb .placeholder {
+    color: rgba(234,223,200,.2);
+    font-size: 9px; text-align: center;
+    font-family: var(--font-mono);
+  }
+  .specimen-info strong {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--bone);
+  }
+  .specimen-info small {
+    font-size: 12px;
+    color: rgba(234,223,200,.5);
+    line-height: 1.3;
+  }
+  .regime-badge {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 1px 6px; border-radius: 2px;
+    margin-top: 3px;
+  }
+  .regime-FUNDACIONAL { background: rgba(157,58,39,.2); color: #d4786a; }
+  .regime-NORMATIVO { background: rgba(154,120,61,.2); color: #c4a96a; }
+  .regime-MILITAR { background: rgba(100,120,140,.2); color: #8aa4b8; }
+  .regime-CONTRA { background: rgba(140,100,140,.2); color: #b898b8; }
+
+  .browser-footer {
+    padding: 12px 16px;
+    border-top: 1px solid rgba(154,120,61,.15);
+  }
+  .notes-hint {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: rgba(234,223,200,.55);
+    line-height: 1.5;
+  }
+
+  /* ── Canvas (Atlas Surface) ── */
+  .canvas {
+    position: relative;
+    background:
+      radial-gradient(ellipse at center, rgba(157,58,39,.03), transparent 70%),
+      var(--black);
+    overflow: hidden;
+    cursor: default;
+  }
+
+  /* ── Specimens on canvas ── */
+  .canvas-specimen {
+    position: absolute;
+    border: 1px solid var(--gold-dim);
+    box-shadow:
+      0 4px 16px rgba(0,0,0,.4),
+      0 1px 0 rgba(154,120,61,.1);
+    transition: box-shadow .3s, border-color .3s;
+    cursor: move;
+  }
+  .canvas-specimen:hover {
+    border-color: var(--gold);
+    box-shadow:
+      0 6px 24px rgba(0,0,0,.5),
+      0 0 0 1px rgba(154,120,61,.15),
+      0 1px 0 rgba(154,120,61,.25);
+  }
+  .canvas-specimen .inner {
+    padding: 8px;
+    background:
+      radial-gradient(ellipse at 50% 50%, rgba(17,16,12,.8), rgba(9,10,13,.95)),
+      var(--black);
+    display: grid; place-items: center;
+    min-height: 100%;
+  }
+  .canvas-specimen .img-placeholder {
+    color: rgba(234,223,200,.15);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    text-align: center;
+    line-height: 1.4;
+  }
+  .canvas-specimen .label {
+    position: absolute; bottom: -22px; left: 0; right: 0;
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 9px; text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: rgba(234,223,200,.5);
+  }
+
+  /* ── Edge lines ── */
+  .edge-line {
+    position: absolute;
+    pointer-events: none;
+    opacity: .45;
+  }
+  .edge-line svg {
+    width: 100%; height: 100%;
+  }
+  .edge-line path {
+    fill: none;
+    stroke: rgba(234,223,200,.55);
+    stroke-width: 0.8;
+    stroke-dasharray: 4 6;
+  }
+
+  /* ── Annotations ── */
+  .annotation {
+    position: absolute;
+    font-family: var(--font-display);
+    font-size: 14px; font-style: italic;
+    color: rgba(234,223,200,.55);
+    max-width: 220px;
+    line-height: 1.45;
+    pointer-events: none;
+  }
+
+  /* ── Canvas hint ── */
+  .canvas-hint {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+    opacity: .3;
+  }
+  .canvas-hint p {
+    font-family: var(--font-display);
+    font-size: 18px; font-style: italic;
+    color: var(--bone);
+    margin-bottom: 6px;
+  }
+  .canvas-hint small {
+    font-family: var(--font-mono);
+    font-size: 10px; text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(234,223,200,.5);
+  }
+
+  /* ── Nav to Manifesto ── */
+  .nav-back {
+    position: fixed; bottom: 24px; left: 50%;
+    transform: translateX(-50%); z-index: 20;
+  }
+  .nav-back a {
+    font-family: var(--font-mono);
+    font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 10px 24px;
+    color: rgba(234,223,200,.5);
+    background: rgba(9,10,13,.85);
+    border: 1px solid rgba(154,120,61,.25);
+    backdrop-filter: blur(8px);
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all .25s;
+  }
+  .nav-back a:hover {
+    color: var(--bone);
+    border-color: var(--gold);
+    background: rgba(17,16,12,.9);
+  }
+
+  /* ── Animations ── */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .anim-in { animation: fadeIn .6s ease-out both; }
+  .anim-in:nth-child(1) { animation-delay: .1s; }
+  .anim-in:nth-child(2) { animation-delay: .2s; }
+  .anim-in:nth-child(3) { animation-delay: .3s; }
+  .anim-in:nth-child(4) { animation-delay: .4s; }
+
+  /* ── Responsive ── */
+  @media (max-width: 900px) {
+    .workspace { grid-template-columns: 1fr; }
+    .browser { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══ TOOLBAR ═══ -->
+<div class="toolbar">
+  <a href="mockup-manifesto.html" class="toolbar-brand">ICONOCRACIA</a>
+  <button class="toolbar-btn">⟵ Índice</button>
+  <button class="toolbar-btn">+ Nova Prancha</button>
+  <span style="flex:1;"></span>
+  <span style="font-family:var(--font-display); font-size:14px; font-style:italic; color:rgba(234,223,200,.5);">
+    Prancha 7 — Respublica Coroada
+  </span>
+  <span style="flex:1;"></span>
+  <button class="toolbar-btn">Salvar</button>
+  <button class="toolbar-btn primary">Exportar PDF</button>
+</div>
+
+<!-- ═══ WORKSPACE ═══ -->
+<div class="workspace">
+
+  <!-- Browser Panel -->
+  <aside class="browser">
+    <div class="browser-header">
+      <h2>Corpus</h2>
+      <small>299 espécimes</small>
+    </div>
+    <div class="filter-group">
+      <label>Pathosformel</label>
+      <select><option>Respublica Coroada</option><option>Libertas Armata</option><option>Justiça Vendada</option><option>Todas</option></select>
+    </div>
+    <div class="filter-group">
+      <label>País</label>
+      <select><option>Brasil</option><option>França</option><option>Bélgica</option><option>Todos</option></select>
+    </div>
+    <div class="filter-group">
+      <label>Período</label>
+      <select><option>1800–1900</option><option>1559–1800</option><option>1900–1992</option></select>
+    </div>
+
+    <div class="specimen-list">
+      <div class="specimen-card anim-in">
+        <div class="specimen-thumb"><span class="placeholder">BR<br>1889</span></div>
+        <div class="specimen-info">
+          <strong>BR-REP-1889-01</strong>
+          <small>Libertas Armata · selo</small>
+          <span class="regime-badge regime-FUNDACIONAL">Fundacional</span>
+        </div>
+      </div>
+      <div class="specimen-card anim-in">
+        <div class="specimen-thumb"><span class="placeholder">BR<br>1891</span></div>
+        <div class="specimen-info">
+          <strong>BR-REP-1891-03</strong>
+          <small>Respublica Coroada · moeda</small>
+          <span class="regime-badge regime-NORMATIVO">Normativo</span>
+        </div>
+      </div>
+      <div class="specimen-card anim-in">
+        <div class="specimen-thumb"><span class="placeholder">FR<br>1848</span></div>
+        <div class="specimen-info">
+          <strong>FR-MAR-1848-02</strong>
+          <small>Marianne · selo</small>
+          <span class="regime-badge regime-FUNDACIONAL">Fundacional</span>
+        </div>
+      </div>
+      <div class="specimen-card anim-in">
+        <div class="specimen-thumb"><span class="placeholder">BE<br>1832</span></div>
+        <div class="specimen-info">
+          <strong>BE-LEO-1832-01</strong>
+          <small>Leopold I · moeda</small>
+          <span class="regime-badge regime-FUNDACIONAL">Fundacional</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="browser-footer">
+      <p class="notes-hint">Arraste os cartões para a prancha.<br>Shift+arrastar entre dois para criar filiação.</p>
+    </div>
+  </aside>
+
+  <!-- Atlas Canvas -->
+  <main class="canvas" id="canvas">
+
+    <!-- Specimen 1: BR 1889 (left side, large) -->
+    <div class="canvas-specimen" style="left: 12%; top: 18%; width: 180px; height: 230px;">
+      <div class="inner">
+        <span class="img-placeholder">Libertas Armata<br>BR · 1889<br><br>selo republicano<br>barrete frígio<br>braço erguido</span>
+      </div>
+      <span class="label">BR-1889</span>
+    </div>
+
+    <!-- Specimen 2: BR 1891 (right side, medium) -->
+    <div class="canvas-specimen" style="left: 52%; top: 20%; width: 150px; height: 195px;">
+      <div class="inner">
+        <span class="img-placeholder">Respublica<br>Coroada<br>BR · 1891<br><br>coroa mural<br>postura rígida</span>
+      </div>
+      <span class="label">BR-1891</span>
+    </div>
+
+    <!-- Specimen 3: FR 1848 (upper right, smaller) -->
+    <div class="canvas-specimen" style="left: 58%; top: 48%; width: 130px; height: 170px;">
+      <div class="inner">
+        <span class="img-placeholder">Marianne<br>FR · 1848<br><br>selo<br>seio exposto<br>gesto expansivo</span>
+      </div>
+      <span class="label">FR-1848</span>
+    </div>
+
+    <!-- Specimen 4: BE 1832 (lower left) -->
+    <div class="canvas-specimen" style="left: 22%; top: 55%; width: 140px; height: 180px;">
+      <div class="inner">
+        <span class="img-placeholder">Léopold I<br>BE · 1832<br><br>ausência<br>alegórica<br>retrato real</span>
+      </div>
+      <span class="label">BE-1832</span>
+    </div>
+
+    <!-- Edge: BR-1889 → BR-1891 (absorbsFormula) -->
+    <div class="edge-line" style="left: 0; top: 0; width: 100%; height: 100%;">
+      <svg viewBox="0 0 1000 700" preserveAspectRatio="none">
+        <path d="M 310,290 C 420,250 500,280 590,270" />
+      </svg>
+      <div style="position:absolute; left:44%; top:36%; font-family:var(--font-mono); font-size:8px; color:rgba(234,223,200,.35); text-transform:uppercase; letter-spacing:.06em;">
+        absorbsFormula
+      </div>
+    </div>
+
+    <!-- Edge: BR-1891 → FR-1848 (transformsFormula) -->
+    <div class="edge-line" style="left: 0; top: 0; width: 100%; height: 100%;">
+      <svg viewBox="0 0 1000 700" preserveAspectRatio="none">
+        <path d="M 620,310 C 640,400 660,440 650,510" />
+      </svg>
+      <div style="position:absolute; left:63%; top:59%; font-family:var(--font-mono); font-size:8px; color:rgba(234,223,200,.35); text-transform:uppercase; letter-spacing:.06em;">
+        transformsFormula
+      </div>
+    </div>
+
+    <!-- Annotation: thesis note -->
+    <div class="annotation" style="left: 8%; top: 82%;">
+      Transição 1889–1891:<br>o corpo da República herda<br>a coroa, mas perde o cetro.
+    </div>
+
+    <!-- Canvas hint (subtle) -->
+    <div class="canvas-hint">
+      <p>Mnemosyne Viva</p>
+      <small>Arraste · Conecte · Publique</small>
+    </div>
+
+  </main>
+</div>
+
+<!-- ═══ BOTTOM NAV ═══ -->
+<div class="nav-back">
+  <a href="mockup-manifesto.html">← Voltar ao Manifesto</a>
+</div>
+
+</body>
+</html>

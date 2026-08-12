@@ -21,6 +21,7 @@ def _full_generated():
         "indicadores": {"desincorporacao": 1},
         "citation_abnt": "Citation A",
         "audit_flags": ["flag1"],
+        "support": "escultura",
     }
 
 

@@ -12,3 +12,7 @@ extend-exclude = ["archive/", "notebooks/", "Other/"]
 # Widen the selection once the baseline is clean.
 select = ["E", "F", "W", "I"]
 ignore = ["E501"]  # line length handled separately; avoid noise on long URLs/strings
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["archive", "Other", "notebooks"]

@@ -75,6 +75,27 @@ SCHEMA = [
         PRIMARY KEY ("item_id", "notation"),
         FOREIGN KEY("item_id") REFERENCES "items"("item_id") ON DELETE CASCADE
     )""",
+
+    # 5. Full-Text Search Virtual Table (FTS5)
+    """CREATE VIRTUAL TABLE IF NOT EXISTS "items_fts" USING fts5(
+        title, country, period, medium_norm, content="items", content_rowid="rowid"
+    )""",
+
+    # 6. Triggers to keep FTS table in sync
+    """CREATE TRIGGER IF NOT EXISTS "items_ai" AFTER INSERT ON "items" BEGIN
+        INSERT INTO "items_fts"(rowid, title, country, period, medium_norm)
+        VALUES (new.rowid, new.title, new.country, new.period, new.medium_norm);
+    END""",
+    """CREATE TRIGGER IF NOT EXISTS "items_ad" AFTER DELETE ON "items" BEGIN
+        INSERT INTO "items_fts"("items_fts", rowid, title, country, period, medium_norm)
+        VALUES ('delete', old.rowid, old.title, old.country, old.period, old.medium_norm);
+    END""",
+    """CREATE TRIGGER IF NOT EXISTS "items_au" AFTER UPDATE ON "items" BEGIN
+        INSERT INTO "items_fts"("items_fts", rowid, title, country, period, medium_norm)
+        VALUES ('delete', old.rowid, old.title, old.country, old.period, old.medium_norm);
+        INSERT INTO "items_fts"(rowid, title, country, period, medium_norm)
+        VALUES (new.rowid, new.title, new.country, new.period, new.medium_norm);
+    END"""
 ]
 
 INDEXES = [
@@ -161,8 +182,13 @@ def build_database():
     db = sqlite3.connect(str(SQLITE_DB))
     cursor = db.cursor()
     
-    # Enable foreign keys
+    # Enable performance and security PRAGMAs
     cursor.execute("PRAGMA foreign_keys = ON;")
+    cursor.execute("PRAGMA journal_mode = WAL;")
+    cursor.execute("PRAGMA synchronous = NORMAL;")
+    cursor.execute("PRAGMA temp_store = MEMORY;")
+    cursor.execute("PRAGMA mmap_size = 30000000000;")
+    cursor.execute("PRAGMA page_size = 4096;")
     
     # Create tables
     for ddl in SCHEMA:
@@ -177,6 +203,15 @@ def build_database():
     purification_count = 0
     evidence_count = 0
     iconclass_count = 0
+    
+    # Batch arrays
+    items_batch = []
+    purification_batch = []
+    evidence_batch = []
+    iconclass_batch = []
+    
+    seen_evidence = set()
+    seen_iconclass = set()
     
     if not RECORDS_FILE.exists():
         print(f"Error: {RECORDS_FILE} not found. Cannot load data.")
@@ -202,7 +237,7 @@ def build_database():
                 corpus_id = None
             meta = corpus_metadata.get(corpus_id, {}) if corpus_id else {}
             
-            # 1. Insert into items
+            # 1. Gather for items
             title = meta.get("title") or rec.get("input", {}).get("title_hint") or "Unknown Title"
             country = meta.get("country") or rec.get("input", {}).get("place_hint")
             year = meta.get("year")
@@ -221,91 +256,103 @@ def build_database():
             created_at = rec.get("timestamps", {}).get("created_at")
             updated_at = rec.get("timestamps", {}).get("updated_at")
             
-            cursor.execute(
-                """INSERT INTO items (item_id, corpus_id, title, country, year, period, medium_norm, created_at, updated_at) 
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
-                (item_id, corpus_id, title, country, year, period, medium_norm, created_at, updated_at)
-            )
+            items_batch.append((item_id, corpus_id, title, country, year, period, medium_norm, created_at, updated_at))
             items_count += 1
             
-            # 2. Insert into purification
+            # 2. Gather for purification
             purif = rec.get("purificacao")
             if purif:
-                cursor.execute(
-                    """INSERT INTO purification (
-                        item_id, desincorporacao, rigidez_postural, dessexualizacao, uniformizacao_facial,
-                        heraldizacao, enquadramento_arquitetonico, apagamento_narrativo, monocromatizacao,
-                        serialidade, inscricao_estatal, purificacao_composto, regime_iconocratico,
-                        coded_by, coded_at, notes
-                       ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
-                    (
-                        item_id,
-                        purif.get("desincorporacao"),
-                        purif.get("rigidez_postural"),
-                        purif.get("dessexualizacao"),
-                        purif.get("uniformizacao_facial"),
-                        purif.get("heraldizacao"),
-                        purif.get("enquadramento_arquitetonico"),
-                        purif.get("apagamento_narrativo"),
-                        purif.get("monocromatizacao"),
-                        purif.get("serialidade"),
-                        purif.get("inscricao_estatal"),
-                        purif.get("purificacao_composto"),
-                        purif.get("regime_iconocratico"),
-                        purif.get("coded_by"),
-                        purif.get("coded_at"),
-                        purif.get("notes")
-                    )
-                )
+                purification_batch.append((
+                    item_id,
+                    purif.get("desincorporacao"),
+                    purif.get("rigidez_postural"),
+                    purif.get("dessexualizacao"),
+                    purif.get("uniformizacao_facial"),
+                    purif.get("heraldizacao"),
+                    purif.get("enquadramento_arquitetonico"),
+                    purif.get("apagamento_narrativo"),
+                    purif.get("monocromatizacao"),
+                    purif.get("serialidade"),
+                    purif.get("inscricao_estatal"),
+                    purif.get("purificacao_composto"),
+                    purif.get("regime_iconocratico"),
+                    purif.get("coded_by"),
+                    purif.get("coded_at"),
+                    purif.get("notes")
+                ))
                 purification_count += 1
                 
-            # 3. Insert evidence
+            # 3. Gather evidence
             webscout = rec.get("webscout", {})
             for result in webscout.get("search_results", []):
                 evidence_id = result.get("evidence_id")
-                if not evidence_id:
+                if not evidence_id or evidence_id in seen_evidence:
                     continue
-                # Make sure evidence_id is unique
-                cursor.execute("SELECT 1 FROM evidence WHERE evidence_id = ?", (evidence_id,))
-                if cursor.fetchone():
-                    continue
-                cursor.execute(
-                    """INSERT INTO evidence (evidence_id, item_id, source_type, title, url, abnt_citation, notes)
-                       VALUES (?, ?, ?, ?, ?, ?, ?)""",
-                    (
-                        evidence_id,
-                        item_id,
-                        result.get("source_type"),
-                        result.get("title"),
-                        result.get("url"),
-                        result.get("abnt_citation"),
-                        result.get("notes")
-                    )
-                )
+                seen_evidence.add(evidence_id)
+                evidence_batch.append((
+                    evidence_id,
+                    item_id,
+                    result.get("source_type"),
+                    result.get("title"),
+                    result.get("url"),
+                    result.get("abnt_citation"),
+                    result.get("notes")
+                ))
                 evidence_count += 1
                 
-            # 4. Insert item_iconclass codes
+            # 4. Gather item_iconclass codes
             iconocode = rec.get("iconocode", {})
             for code_entry in iconocode.get("codes", []):
                 notation = code_entry.get("notation")
-                if not notation:
+                if not notation or (item_id, notation) in seen_iconclass:
                     continue
-                cursor.execute(
-                    """INSERT OR IGNORE INTO item_iconclass (item_id, notation, confidence)
-                       VALUES (?, ?, ?)""",
-                    (
-                        item_id,
-                        notation,
-                        code_entry.get("confidence")
-                    )
-                )
+                seen_iconclass.add((item_id, notation))
+                iconclass_batch.append((
+                    item_id,
+                    notation,
+                    code_entry.get("confidence")
+                ))
                 iconclass_count += 1
+
+    # Execute batched inserts
+    cursor.executemany(
+        """INSERT INTO items (item_id, corpus_id, title, country, year, period, medium_norm, created_at, updated_at) 
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+        items_batch
+    )
+    
+    cursor.executemany(
+        """INSERT INTO purification (
+            item_id, desincorporacao, rigidez_postural, dessexualizacao, uniformizacao_facial,
+            heraldizacao, enquadramento_arquitetonico, apagamento_narrativo, monocromatizacao,
+            serialidade, inscricao_estatal, purificacao_composto, regime_iconocratico,
+            coded_by, coded_at, notes
+           ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+        purification_batch
+    )
+
+    cursor.executemany(
+        """INSERT INTO evidence (evidence_id, item_id, source_type, title, url, abnt_citation, notes)
+           VALUES (?, ?, ?, ?, ?, ?, ?)""",
+        evidence_batch
+    )
+
+    cursor.executemany(
+        """INSERT OR IGNORE INTO item_iconclass (item_id, notation, confidence)
+           VALUES (?, ?, ?)""",
+        iconclass_batch
+    )
                 
     # Create indexes
     for idx_ddl in INDEXES:
         cursor.execute(idx_ddl)
         
+    # Database Maintenance
+    cursor.execute("PRAGMA optimize;")
     db.commit()
+    cursor.execute("ANALYZE;")
+    cursor.execute("VACUUM;")
+    
     db.close()
     
     print("\nImport Complete:")
