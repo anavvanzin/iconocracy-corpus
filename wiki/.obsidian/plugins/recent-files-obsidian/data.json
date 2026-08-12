@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "Kanban sem título 1",
       "path": "Kanban sem título 1.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "capitulo-9",
       "path": "tese/capitulo-9.md"
-    },
-    {
-      "basename": "conclusao",
-      "path": "tese/conclusao.md"
     }
   ],
   "omittedPaths": [],
