@@ -455,7 +455,8 @@
       "scout-promotion",
       "iconocode-complete",
       "metadata-grounded-visual-review"
-    ]
+    ],
+    "endurecimento_score": 1.1
   },
   {
     "id": "387bc54c-e8c7-50be-b24b-a3396f1bc1da",
@@ -833,7 +834,7 @@
   },
   {
     "id": "5b14d6a4-7b6d-5111-9253-b20bb72af0a1",
-    "country": "ES",
+    "country": "Spain",
     "url": "http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS&museum=MAN",
     "title": "Medalla",
     "description": "Medalla de Proclamación de la Iª Républica. Matrona sentada entre montañas con gorro frigio y nivel en la mano.",
@@ -863,7 +864,8 @@
       "scout-promotion",
       "iconocode-complete",
       "metadata-grounded-visual-review"
-    ]
+    ],
+    "endurecimento_score": 2.2
   },
   {
     "id": "64d57088-2726-543f-bc9e-e382da696aee",
@@ -1026,7 +1028,8 @@
       "scout-promotion",
       "iconocode-complete",
       "metadata-grounded-visual-review"
-    ]
+    ],
+    "endurecimento_score": 0.3
   },
   {
     "id": "7b5ea66e-0285-59ea-a652-264f8a5e90bd",
@@ -1093,7 +1096,8 @@
       "scout-promotion",
       "iconocode-complete",
       "metadata-grounded-visual-review"
-    ]
+    ],
+    "endurecimento_score": 2.0
   },
   {
     "id": "80b1d4ad-1aa4-7f87-35b7-ba8cea46f0cf",
@@ -10642,7 +10646,7 @@
   },
   {
     "id": "b1966d16-8731-58e4-a898-8ef3c44f59cb",
-    "country": "ES",
+    "country": "Spain",
     "url": "http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR",
     "title": "Lo que puede suceder. - Estampa",
     "description": "Estampa satírica com a alegoria da República no umbral de Europa, expulsando um rei diante de uma fila de monarcas.",
@@ -10673,7 +10677,8 @@
       "scout-promotion",
       "iconocode-complete",
       "metadata-grounded-visual-review"
-    ]
+    ],
+    "endurecimento_score": 0.7
   },
   {
     "id": "bc06d4cc-455f-530e-b86b-e046378979a3",
@@ -10935,7 +10940,7 @@
   },
   {
     "id": "d8a81f31-5b21-573f-912e-64bb29559c06",
-    "country": "ES",
+    "country": "Spain",
     "url": "http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO",
     "title": "Relieve de la República - Relieve",
     "description": "Placa com alegoria feminina da República, gorro frígio e balança, sobre a inscrição PLAZA DE LA REPÚBLICA.",
@@ -10966,7 +10971,8 @@
       "scout-promotion",
       "iconocode-complete",
       "metadata-grounded-visual-review"
-    ]
+    ],
+    "endurecimento_score": 2.7
   },
   {
     "id": "d9878afa-cb92-52bd-b308-e1563cdf9332",
@@ -11164,7 +11170,8 @@
       "scout-promotion",
       "iconocode-complete",
       "metadata-grounded-visual-review"
-    ]
+    ],
+    "endurecimento_score": 2.7
   },
   {
     "id": "f988255c-abaa-fb73-74fb-fcbce9abdaa8",

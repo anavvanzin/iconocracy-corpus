@@ -18,7 +18,7 @@ DIR410346 · Ana Vanzin · Prof. Diego Nunes · PPGD/UFSC · 2026.1
 
 ## O problema
 
-Em 1487, dois dominicanos publicaram o manual de caça às bruxas mais influente da história europeia. Mas o que o *Malleus Maleficarum* fez, juridicamente, foi algo mais preciso — e mais duradouro — do que incitar perseguição: ele **criou** um tipo penal que não existia.
+Em 1486/1487, dois dominicanos publicaram o manual de caça às bruxas mais influente da história europeia. Mas o que o *Malleus Maleficarum* fez, juridicamente, foi algo mais preciso — e mais duradouro — do que incitar perseguição: ele **criou** um tipo penal que não existia.
 
 Até então, a bruxaria não existia como categoria jurídica unificada. Eram cinco tradições penais autônomas na Europa tardo-medieval: o *maleficium* (dano mágico verificável), a heresia (desvio doutrinário), a demonolatria (pacto com o diabo), as *lamiae* e *strigae* (espíritos femininos noturnos) e o pacto diabólico formal. Heinrich Institoris, coautor do tratado, fundiu essas cinco tradições num tipo penal compósito, totalizante, e o disponibilizou como manual processual para inquisidores.
 
@@ -106,7 +106,7 @@ BROEDEL, Hans Peter. *The Malleus Maleficarum and the construction of witchcraft
 
 MECCARELLI, Massimo. Criminal law before a State Monopoly [Direito penal antes do monopólio estatal]. In: *The Oxford Handbook of European Legal History*. Oxford: Oxford University Press, 2018.
 
-SBRICCOLI, Mario. Justiça criminal. *Discursos Sediciosos*, n. 17/18, p. 459-504, 2011.
+SBRICCOLI, Mario. Justiça criminal. *Discursos Sediciosos*, n. 17/18, p. 459-486, 2011.
 
 SOUZA, Laura de Mello e. *O diabo e a Terra de Santa Cruz*. São Paulo: Companhia das Letras, 1986.
 

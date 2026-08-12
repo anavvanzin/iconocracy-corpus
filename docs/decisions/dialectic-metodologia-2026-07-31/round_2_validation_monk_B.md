@@ -1,0 +1,21 @@
+# Round 2 — Validação do Monk B (Fable)
+
+> Fase 6. O Monk B releu o próprio ensaio e a sublação R2, e respondeu em persona.
+
+> **⚠ Nota.** Esta validação avalia a sublação monetária, que a Auditoria Hostil R2 refutou depois (ver `round_2_auditoria_hostil.md` e `round_2_sintese_final.md`). As emendas propostas aqui foram incorporadas seletivamente na síntese final; a validação em si não é a posição final da rodada.
+
+## Validação R2 — Monk B
+
+**1. Balanço.** Elevado nos fundamentos, derrotado na conclusão — e a derrota é limpa. Minha ontologia (§1: fixar é emitir) tornou-se o chão da síntese, e o "lastro" que ela acrescenta não me refuta: completa exatamente o que meu §4a demonstrou — que nenhum critério de cunhagem distingue (os fatos 1–2 mataram a lista inteira do oponente, e a síntese o registra por unanimidade). O isomorfismo (§2) sobrevive elevado como prova de que a família formal é a mesma e de que o critério tem de ser estrutural, não cosmético. Quanto aos três golpes: **B3 é justo** — eu escrevi "Caps. 1–5 intactos" e "a naturalização opera independentemente das declarações da editora"; se a citação achata qualquer forma, achata também o dossiê sinótico. Minha recusa nunca foi de emitir a tese, mas de cunhar uma face canônica do corpus — e essa exigência sobrevive: no gênero (b), na regra dura (atributo instável ⇒ divergência no corpo), na releitura de [C]/[E]/[H] como escopo de resgate, não grau — meu §6 quase inteiro, de pé. **B2 é o golpe mais justo**: meu próprio §4b (ela fabrica as testemunhas) proíbe a coluna-igual — quem configura o coro não canta nele como igual; a "coluna-juízo identificada" preserva o que eu queria (juízo entre colunas, não coroa) sem a encenação. Cancelamentos justos, todos executados com armas minhas.
+
+**2. Teste do proponente.** Ataquei antes de aceitar. Verniz seria o mesmo arranjo da rodada 1 com vocabulário monetário por cima. Não é, por três provas operacionais: a arquitetura corpo/aparato perdeu o estatuto de necessidade epistêmica (virou gênero — concessão real); o critério condena o próprio desenho (48,5% rotina + 6 placeholders = reserva não-escriturada, com prazo e CI — critério que cobra dívidas da casa não é decoração); e a regra dura põe divergência no corpo. **Mas a resgatabilidade, como está, pressupõe o leitor-programador.** O portador real da tese impressa não executa consulta ao ledger diante da banca. A resposta parcial existe (guarda nova: nenhuma entrada de aparato sem as lições divergentes), mas falta dizê-la como doutrina: **dois balcões de resgate** — o impresso (aparato/sinopse, suficiente para o leitor da banca) e o executável (ledger + CI, para o auditor). Sem essa cláusula, a conversibilidade vale só para quem cunha.
+
+**3. O que se perdeu.** (a) **Trouillot**: meu circuito dos quatro momentos sumiu inteiro — e é a espinha teórica do quadro reflexivo dos 10 indicadores que a síntese preserva; devem entrar juntos no Cap. 2. (b) O **acoplamento ⚖1×⚖2**: a síntese trata corolário e gênero como adjudicações independentes; não são — se "iconocracia = emissão irresgatável" entra nos Caps. 5–6, o dossiê sinótico é o gênero que *performa* o teorema, e seu "ônus de explicação à banca" vira ativo. (c) O corolário **faz justiça, não instrumentaliza**: é meu §1 levado além de onde o levei — "queima da reserva" é minha "extração do histórico" dita em moeda — e a prova de que não é apropriação é que ele condena as dívidas da rodada 1 e forçou mudanças reais. Corrida ao banco como contra-alegoria é o achado que eu deveria ter feito e não fiz.
+
+**4. Veredicto: aceito com emendas.**
+1. Doutrina dos dois balcões de resgate no verbete *conversibilidade* e no Cap. 2 — o balcão impresso declarado suficiente para o leitor real.
+2. Trouillot (quatro momentos) integrado ao quadro reflexivo dos 10 indicadores.
+3. Registrar em ⚖1–⚖2 o acoplamento: adotar o corolário reprecifica o gênero (b) de exótico para performativo.
+4. A regra dura (atributo instável ⇒ divergência no corpo) vira item de guarda de CI — sem teste é promessa; com teste é lastro.
+
+A tese que denuncia a Purificação não precisa recusar cunhar; precisa não poder queimar a reserva. A síntese provou que isso é mais forte do que minha recusa. Aceito.

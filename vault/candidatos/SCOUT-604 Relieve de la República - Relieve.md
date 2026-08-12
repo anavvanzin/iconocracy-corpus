@@ -10,13 +10,13 @@ data_estimada: "1931"
 pais: ES
 suporte: escultura
 motivo_alegorico: "República"
-regime: MILITAR
+regime: FUNDACIONAL
 confianca: baixo
 tags:
   - corpus/candidato
   - suporte/escultura
   - pais/ES
-  - regime/militar
+  - regime/fundacional
   - motivo/republica
   - hunt-candidate
 related:

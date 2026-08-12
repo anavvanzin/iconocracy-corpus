@@ -1,3 +1,4 @@
+import sys
 import json
 import subprocess
 import sys
@@ -7,9 +8,16 @@ from pathlib import Path
 
 from tools.scripts.validate_schemas import load_schema, validate_record
 
+<<<<<<< HEAD
 # Exercise CLI entry points with the same interpreter running the test suite.
 ICONOCRACY_PYTHON = sys.executable
 
+||||||| 2b5f656
+# Use the iconocracy conda environment Python for subprocess calls
+ICONOCRACY_PYTHON = "/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python"
+
+=======
+>>>>>>> origin/fix/support-idempotency-gate
 
 class ManifestSchemaTests(unittest.TestCase):
     def make_manifest(self, *, status="pending"):
@@ -97,7 +105,7 @@ class ManifestSchemaTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    ICONOCRACY_PYTHON,
+                    sys.executable,
                     str(script_path),
                     str(manifest_path),
                     "--schema",

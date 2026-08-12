@@ -39,7 +39,7 @@ Ana o pushar). ~10 seções + resumo + referências ABNT NBR 6023:2025.
 - `.planning/2026-06-23-artigo-penal-malleus-cajada/findings.md` (Levack 2015,
   Behringer 2004/2009, Roper 2013, Cruz de Araújo, ANPUH).
 - `Text/Handout — O Malleus Maleficarum e a construção da bruxaria.md`
-  (Broedel 2003, Sbriccoli 2011 p.459-504, Meccarelli 2018, Souza 1986,
+  (Broedel 2003, Sbriccoli 2011 p.459-486, Meccarelli 2018, Souza 1986,
   Vainfas 1997, Capistrano de Abreu 1925/1935, Cajada, ANTT 10748, Regimentos).
 - `Text/Apresentação Malleus Maleficarum — roteiro falado.md` (narrativa
   Innsbruck/Scheuberin; Cajada; gênero+raça; tese "até quando duvidam, punem").
@@ -58,7 +58,7 @@ Ana o pushar). ~10 seções + resumo + referências ABNT NBR 6023:2025.
 - **Phase 3 (tese e conclusão):** conclusão (seção 10) responde diretamente
   "até quando duvidam, punem" (a dúvida recai sobre a ré, a certeza sobre o
   tipo). Regimento do Santo Ofício português como canal de circulação na
-  seção 4. Sbriccoli citado com faixa de páginas (p. 459-504).
+  seção 4. Sbriccoli citado com faixa de páginas (p. 459-486).
 - **Phase 4 (polimento):** usa "marcação de gênero e raça" (não "generificação",
   seção 9); desenvolve "circulação/transformação forçada" (seções 8 e 10);
   referências em ABNT NBR 6023:2025.

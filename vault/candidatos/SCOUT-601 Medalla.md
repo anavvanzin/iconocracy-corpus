@@ -9,14 +9,14 @@ url: "http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS
 data_estimada: "1873"
 pais: ES
 suporte: medalha
-motivo_alegorico: "Republic"
-regime: NORMATIVO
+motivo_alegorico: "República"
+regime: FUNDACIONAL
 confianca: baixo
 tags:
   - corpus/candidato
   - pais/ES
   - suporte/moeda
-  - regime/normativo
+  - regime/fundacional
   - motivo/republica
   - hunt-candidate
 related:

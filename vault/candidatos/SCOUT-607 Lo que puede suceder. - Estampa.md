@@ -10,13 +10,13 @@ data_estimada: "1870"
 pais: ES
 suporte: estampa
 motivo_alegorico: "República"
-regime: NORMATIVO
+regime: CONTRA-ALEGORIA
 confianca: baixo
 tags:
   - corpus/candidato
   - pais/ES
   - suporte/estampa
-  - regime/normativo
+  - regime/contra-alegoria
   - motivo/republica
   - hunt-candidate
 related:

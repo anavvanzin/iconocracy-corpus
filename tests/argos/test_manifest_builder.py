@@ -1,3 +1,4 @@
+import sys
 import importlib.util
 import io
 import json
@@ -10,9 +11,16 @@ from unittest import mock
 
 from tools.argos.manifest import build_manifest
 
+<<<<<<< HEAD
 # Exercise CLI entry points with the same interpreter running the test suite.
 ICONOCRACY_PYTHON = sys.executable
 
+||||||| 2b5f656
+# Use the iconocracy conda environment Python for subprocess calls
+ICONOCRACY_PYTHON = "/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python"
+
+=======
+>>>>>>> origin/fix/support-idempotency-gate
 
 def load_argos_build_manifest_module():
     repo_root = Path(__file__).resolve().parents[2]
@@ -131,7 +139,7 @@ class ManifestBuilderCliTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    ICONOCRACY_PYTHON,
+                    sys.executable,
                     str(self.script_path),
                     "--dry-run",
                     "--output",
@@ -249,7 +257,7 @@ class ManifestBuilderCliTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    ICONOCRACY_PYTHON,
+                    sys.executable,
                     str(self.script_path),
                     "--output",
                     str(output_path),
@@ -270,7 +278,7 @@ class ManifestBuilderCliTests(unittest.TestCase):
 
             validate_result = subprocess.run(
                 [
-                    ICONOCRACY_PYTHON,
+                    sys.executable,
                     "tools/scripts/validate_schemas.py",
                     str(output_path),
                     "--schema",
