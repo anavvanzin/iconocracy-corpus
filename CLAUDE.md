@@ -68,12 +68,17 @@ WebScout (archive discovery) → IconoCode (visual analysis) → master records
 - **IconoCode** performs 3-level Panofsky analysis + iconometria measurement (endurecimento = fixity axis, 10 indicators 0–3 scale)
 - Output: `data/processed/records.jsonl` (canonical) → `corpus/corpus-data.json` (public export)
 
-### Canonical Data Hierarchy (source-of-truth order)
+### Canonical Field Ownership
 
-1. `data/processed/records.jsonl` — operational canonical ledger
-2. `corpus/corpus-data.json` — public-facing export (browsers, dashboards, HF releases)
-3. `data/processed/purification.jsonl` — endurecimento coding ledger
-4. `vault/candidatos/` — auxiliary cataloguing mirror only
+- `data/processed/records.jsonl` — item identity, source evidence, descriptive
+  metadata, and IconoCode claims.
+- `data/processed/purification.jsonl` — endurecimento observations and coder,
+  round, instrument, and adjudication provenance.
+- `data/raw/drive-manifest.json` + Google Drive — raw-binary identity and storage.
+- `vault/candidatos/` — auxiliary cataloguing mirror only.
+
+`corpus-data.json`, SQLite, CSV, dashboards, and release bundles are disposable
+projections. See `docs/adr/006-canonical-field-ownership-and-projections.md`.
 
 ### Key Directories
 
@@ -206,7 +211,7 @@ These documented problems affect corpus operations:
 1. **Minor drift across exports** — current counts (audit: 2026-07-13, sync with main):
    - `data/processed/records.jsonl` → **335 records, all schema-valid** (`validate_schemas.py` → 335/335 ✓)
    - `corpus/corpus-data.json` → **335 items** (`records_to_corpus.py --diff` → synchronized by URL)
-   - `data/processed/purification.jsonl` → **279 records, all schema-valid** (`validate_schemas.py data/processed/purification.jsonl --schema purification-record` → 279/279 ✓; endurecimento coding now **279/335 = 83%**, 56 remaining, up from 236 on 2026-07-02, now 279 as of 2026-07-31)
+   - `data/processed/purification.jsonl` → **286 records** in the 2026-08-12 working snapshot (**286/335 = 85.4%**, 49 items without a separate coding-ledger row); validate live rather than copying this count into analytical claims.
    - `companion-data.json` → **277 declared corpus_total**, **9 country groups**, **21 `zwischenraum_panels`**; derived UI surface, not canonical authority.
 2. **Placeholder-`input_url` drift between ledger and export** — `records.jsonl` now carries **6** placeholder `input_url`s (all `https://iconocracy.corpus/placeholder/FR-0XX`), down from 8, but `corpus/corpus-data.json` still surfaces **8** placeholder-bearing items. Note this is *not* caught by `records_to_corpus.py --diff`: that check keys on `webscout.search_results[0].url` (normalized to corpus_id), **not** `input_url`, so the "synchronized by URL" green light does not cover the `input_url` field — which is exactly why this drift can persist unnoticed. Re-run `records_to_corpus.py` and verify the 6 remaining against `data/raw/drive-manifest.json`.
    - Minor dedup watch: **4 duplicate `input_url`s** in `records.jsonl` — 3× `https://iconocracy-corpus.local/piloto/` (pilot rows, distinct from the placeholder set above) + 3 real-source pairs — candidates for `corpus-dedup`, not confirmed duplicates.
@@ -215,7 +220,7 @@ These documented problems affect corpus operations:
    - Older artifacts that reference 145/165 (notebooks `01/05/06/07`; manuscript `Capitulo2_metodologia.md`, `Introducao_rev.md`, etc.; the frozen `Other/corpus-data.json`) are **historical analysis snapshots, not errors** — each records the sample a given run used. Update them lazily near the defense, not as blocking debt. `Other/` also holds a duplicate of `notebooks/01–08` (stale copy, not a second source of truth).
    - `endurecimento_score=0` is a valid score (low purification), not "uncoded". Background on the stratification dialectic: memory `corpus-n-20260605` + `docs/decisions/DIALETICA-N165-vs-265.md` — **informative, not a gate.**
 
-**Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the records/export count drift are resolved in the current operational snapshot — `validate_schemas.py` reports 335/335 records valid, `purification.jsonl` reports 279/279 valid, and `records_to_corpus.py --diff` reports synchronization by URL.
+**Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the records/export count drift were resolved in the audited snapshot. Re-run schema validation and projection gates for the current working state rather than relying on historical counts.
 
 ## Release Gate
 
