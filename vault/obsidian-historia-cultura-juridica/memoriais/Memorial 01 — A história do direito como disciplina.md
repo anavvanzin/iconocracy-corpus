@@ -4,6 +4,8 @@ memorial: 1
 disciplina: "História da Cultura Jurídica"
 semestre: 2026.2
 programa: PPGD/UFSC
+aula_data: 2026-08-10
+fonte: "[[2026-08-10 — Aula — resumo e transcrição.pdf]]"
 data_entrega: 2026-08-13
 status: rascunho
 created: 2026-08-13
@@ -12,7 +14,7 @@ created: 2026-08-13
 # Memorial de Leitura n. 1
 
 **História da Cultura Jurídica — PPGD/UFSC**
-**Aula — A história do direito como disciplina: mitos fundadores, vulcões e o ofício de manter viva uma tradição**
+**Aula de 10 de agosto de 2026 — A história do direito como disciplina: mitos fundadores, vulcões e o ofício de manter viva uma tradição**
 
 ---
 
