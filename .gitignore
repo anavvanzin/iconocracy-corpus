@@ -191,3 +191,10 @@ tese/artigos/out-abnt/*.docx
 
 # Memoriais de disciplina são INTERNOS — nunca versionar (feedback Ana 2026-08-13)
 vault/obsidian-historia-cultura-juridica/
+
+# Memoriais de disciplina (todas as cópias) — INTERNOS, nunca versionar
+vault/obsidian-*/memoriais/
+vault/obsidian-*/aulas/Memorial *.md
+wiki/DIR410346-Historia-Direito-Penal/memoriais/
+wiki/DIR410346-Historia-Direito-Penal/aulas/Memorial *.md
+Text/Memorial *.md
