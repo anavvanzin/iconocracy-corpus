@@ -35,6 +35,9 @@ python tools/scripts/vault_sync.py status          # vault ↔ records.jsonl sta
 python tools/scripts/vault_sync.py sync            # bidirectional sync
 python tools/scripts/records_to_corpus.py --diff   # preview records → corpus-data.json changes
 
+# Dashboard
+python tools/scripts/refresh_dashboard.py --corpus  # regenerate DASHBOARD_CORPUS.html data block
+
 # ARGOS acquisition workflow
 python tools/scripts/argos_build_manifest.py       # build pending acquisition manifest
 python tools/scripts/argos_prepare_dispatch.py --manifest data/raw/argos/manifest.json  # derive dispatch groups
