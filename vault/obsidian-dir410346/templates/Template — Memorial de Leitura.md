@@ -5,10 +5,11 @@ created: 2026-03-29
 
 # Template — Memorial de Leitura
 
-> Copiar este template para cada novo memorial.
-> Formato: síntese + análise, ~400–600 palavras.
-> Tom: acadêmico caloroso, sem travessões (—).
-> Registro: formal, vocabulário rico, prosa fluida.
+> Referência **opcional** de frontmatter e cabeçalho — não molde obrigatório.
+> Tom: acadêmico caloroso. Registro: formal, vocabulário rico, prosa fluida.
+> ⚠ Regras revogadas (2026-06): teto de 400–600 palavras e veto a travessões (—)
+> não valem mais. Prosa contínua permitida (sem blocos "Síntese"/"Análise").
+> Ver skill `memorial`.
 
 ---
 
@@ -52,6 +53,5 @@ created: YYYY-MM-DD
 - [ ] Há tese identificada para cada texto (não só "o autor fala sobre X")
 - [ ] Conceitos-chave estão nomeados e definidos
 - [ ] A análise vai além da síntese (tensões, conexões, perguntas)
-- [ ] Tom acadêmico caloroso, sem travessões
-- [ ] Extensão: 400-600 palavras
+- [ ] Tom acadêmico caloroso
 - [ ] Referências verificáveis (página, edição)
