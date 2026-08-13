@@ -1,6 +1,6 @@
 # Design — Dashboard do Corpus v2 (pessoal, 4 abas)
 
-**Data:** 2026-08-12 · **Status:** aprovado pela autora (aguardando revisão do documento)
+**Data:** 2026-08-12 · **Status:** implementado (2026-08-13, PR #183)
 **Contexto:** ferramenta analítica pessoal da pesquisa ICONOCRACIA. Audiência: a própria autora.
 Conteúdo aprovado: 4 abas (Visão Geral · Explorar · Endurecimento · Qualidade do Pipeline).
 Abordagem aprovada: **evoluir o dashboard canônico existente** (HTML único + gerador Python).
