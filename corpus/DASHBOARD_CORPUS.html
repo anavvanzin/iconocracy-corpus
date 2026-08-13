@@ -334,11 +334,27 @@ footer{text-align:center;font-size:10px;color:var(--brown);padding:20px 0 8px;fo
     </div>
   </div>
 
-  <!-- ABA 4: QUALIDADE (complementada na etapa seguinte; cards migrados da antiga sec-temporal) -->
+  <!-- ABA 4: QUALIDADE (cards c-coded-by/c-decade migrados da antiga sec-temporal) -->
   <div class="section" id="sec-qualidade">
+    <div id="quality-warnings"></div>
     <div class="g2">
       <div class="card"><div class="card-header"><h3>Codificação — Fontes</h3></div><div class="card-body"><canvas id="c-coded-by"></canvas></div></div>
+      <div class="card"><div class="card-header"><h3>Codificações ao longo do tempo</h3></div><div class="card-body"><canvas id="c-coded-timeline"></canvas></div></div>
+    </div>
+    <div class="g2">
+      <div class="card"><div class="card-header"><h3>Campos faltantes (% do corpus)</h3></div><div class="card-body"><canvas id="c-missing"></canvas></div></div>
       <div class="card"><div class="card-header"><h3>Itens por Década</h3></div><div class="card-body"><canvas id="c-decade"></canvas></div></div>
+    </div>
+    <div class="g1">
+      <div class="card">
+        <div class="card-header"><h3>Últimos runs do pipeline</h3></div>
+        <div class="card-body">
+          <div class="tbl-wrap"><table class="dtbl">
+            <thead><tr><th>Status</th><th>Instrumento</th><th>Itens</th><th>Data</th></tr></thead>
+            <tbody id="agent-runs-body"></tbody>
+          </table></div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -558,6 +574,7 @@ class Dashboard {
     this.renderGallery();
     this.renderTable();
     this.renderHeatmap();
+    this.renderQuality();
     document.getElementById('tbl-count').textContent = this.filtered.length;
     document.getElementById('sidebar-total').textContent = this.filtered.length;
     document.getElementById('sidebar-sub').textContent = `de ${this.raw.length} catalogados`;
@@ -621,6 +638,10 @@ class Dashboard {
     this.charts.scatter = this.mk('c-scatter','scatter',{datasets:[]},{plugins:{legend:{position:'top',labels:{usePointStyle:true,padding:12}}},scales:{x:{title:{display:true,text:'Ano',font:{weight:'bold'}}},y:{title:{display:true,text:'Endurecimento',font:{weight:'bold'}},min:0,max:3}}});
     this.charts.codedBy = this.mk('c-coded-by','doughnut',{labels:[],datasets:[{data:[],backgroundColor:CORES.map(c=>c+'cc'),borderColor:'#fdf6e3',borderWidth:3}]},{cutout:'55%',plugins:{legend:{position:'bottom',labels:{usePointStyle:true,padding:8,font:{size:10}}}}});
     this.charts.decade = this.mk('c-decade','bar',{labels:[],datasets:[{data:[],backgroundColor:'#4a7c59aa',borderColor:'#4a7c59',borderWidth:1,borderRadius:4}]},{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true},x:{grid:{display:false}}}});
+
+    // Quality
+    this.charts.codedTimeline = this.mk('c-coded-timeline','bar',{labels:[],datasets:[{data:[],backgroundColor:'#8b5a2baa',borderColor:'#8b5a2b',borderWidth:2,borderRadius:6}]},{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true}}});
+    this.charts.missing = this.mk('c-missing','bar',{labels:[],datasets:[{data:[],backgroundColor:'#b85450aa',borderColor:'#b85450',borderWidth:2,borderRadius:6}]},{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,max:100,ticks:{callback:v=>v+'%'}}}});
 
     // Distribution
     this.charts.motif = this.mk('c-motif','bar',{labels:[],datasets:[{data:[],backgroundColor:'#c84b31aa',borderColor:'#c84b31',borderWidth:1,borderRadius:4}]},{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{beginAtZero:true},y:{grid:{display:false},ticks:{font:{size:10}}}}});
@@ -716,6 +737,17 @@ class Dashboard {
     this.upd(this.charts.source, src.map(s=>s[0]||'(sem acervo)'), src.map(s=>s[1]));
     const per = sorted(grp(d,'period_norm'), 12);
     this.upd(this.charts.periods, per.map(p=>p[0]), per.map(p=>p[1]));
+
+    // Quality: codificações por mês
+    const byMonth = {};
+    d.forEach(i => { const c = (i.coded_at||'').slice(0,7); if(c) byMonth[c]=(byMonth[c]||0)+1; });
+    const months = Object.keys(byMonth).sort();
+    this.upd(this.charts.codedTimeline, months, months.map(m => byMonth[m]));
+
+    // Quality: campos faltantes
+    const fields = [['sem ano','year'],['sem país','country_pt'],['sem data','date'],['sem thumbnail','thumbnail_url'],['sem motivo','motif']];
+    this.upd(this.charts.missing, fields.map(f=>f[0]),
+      fields.map(f => d.length ? +(d.filter(i => !i[f[1]] || (Array.isArray(i[f[1]]) && !i[f[1]].length)).length / d.length * 100).toFixed(1) : 0));
   }
 
   // ---- Heatmap ----
@@ -739,6 +771,25 @@ class Dashboard {
     });
     html += '</tbody></table>';
     document.getElementById('heatmap-wrap').innerHTML = html;
+  }
+
+  // ---- Quality ----
+  renderQuality() {
+    const warn = document.getElementById('quality-warnings');
+    const msgs = [];
+    if(!Array.isArray(AGENT_RUNS) || !AGENT_RUNS.length) msgs.push('agent-runs.json ausente ou vazio — tabela de runs indisponível.');
+    if(META && META.year_coverage !== undefined && META.year_coverage < 0.9)
+      msgs.push(`Cobertura de ano derivado: ${(META.year_coverage*100).toFixed(0)}% (resto = "s/d").`);
+    warn.innerHTML = msgs.map(m => `<div class="card" style="border-color:var(--amber);margin-bottom:var(--gap);"><div class="card-body" style="font-size:12px;">⚠ ${m}</div></div>`).join('');
+
+    const body = document.getElementById('agent-runs-body');
+    if(!Array.isArray(AGENT_RUNS) || !AGENT_RUNS.length) { body.innerHTML = '<tr><td colspan="4" style="color:var(--brown)">—</td></tr>'; return; }
+    body.innerHTML = AGENT_RUNS.slice(0, 20).map(r => `<tr>
+      <td style="font-family:'JetBrains Mono',monospace;font-size:10px;">${r.run_id || r.id || r.status || '—'}</td>
+      <td>${r.instrument || r.coded_by || r.agent || '—'}</td>
+      <td>${r.items ?? r.n_items ?? r.items_affected ?? '—'}</td>
+      <td>${(r.finished_at || r.date || r.coded_at || r.timestamp || '').slice(0,10) || '—'}</td>
+    </tr>`).join('');
   }
 
   // ---- Gallery ----
