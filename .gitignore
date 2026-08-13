@@ -188,3 +188,6 @@ data/staging/image-manifest.jsonl
 # Compiled thesis artifacts
 tese/artigos/out-abnt/*.pdf
 tese/artigos/out-abnt/*.docx
+
+# Memoriais de disciplina são INTERNOS — nunca versionar (feedback Ana 2026-08-13)
+vault/obsidian-historia-cultura-juridica/
