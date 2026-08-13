@@ -203,33 +203,21 @@ footer{text-align:center;font-size:10px;color:var(--brown);padding:20px 0 8px;fo
     <p>Corpus Analítico &middot; PPGD/UFSC</p>
   </div>
   <nav>
-    <button class="nav-btn active" onclick="showSection('overview',this)">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+    <button class="nav-btn active" onclick="showSection('visao',this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
       Visão Geral
     </button>
-    <button class="nav-btn" onclick="showSection('regime',this)">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-      Regimes
+    <button class="nav-btn" onclick="showSection('explorar',this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+      Explorar
     </button>
-    <button class="nav-btn" onclick="showSection('purification',this)">
+    <button class="nav-btn" onclick="showSection('endurecimento',this)">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-      Purificação
+      Endurecimento
     </button>
-    <button class="nav-btn" onclick="showSection('temporal',this)">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-      Temporal
-    </button>
-    <button class="nav-btn" onclick="showSection('distribution',this)">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-      Distribuição
-    </button>
-    <button class="nav-btn" onclick="showSection('gallery',this)">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-      Galeria
-    </button>
-    <button class="nav-btn" onclick="showSection('table',this)">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/></svg>
-      Tabela
+    <button class="nav-btn" onclick="showSection('qualidade',this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      Qualidade
     </button>
     <div style="height:2px;background:var(--brown);margin:8px 0;opacity:.3;"></div>
     <button class="nav-btn" onclick="showSection('foco',this)">
@@ -261,8 +249,8 @@ footer{text-align:center;font-size:10px;color:var(--brown);padding:20px 0 8px;fo
     </div>
   </div>
 
-  <!-- OVERVIEW SECTION -->
-  <div class="section active" id="sec-overview">
+  <!-- ABA 1: VISÃO GERAL = antiga sec-overview + sec-distribution -->
+  <div class="section active" id="sec-visao">
     <div class="kpi-row">
       <div class="kpi"><div class="kpi-label">Itens</div><div class="kpi-value" id="k-total">—</div><div class="kpi-sub" id="k-total-s"></div></div>
       <div class="kpi"><div class="kpi-label">Países</div><div class="kpi-value" id="k-pais">—</div><div class="kpi-sub">representados</div></div>
@@ -281,43 +269,6 @@ footer{text-align:center;font-size:10px;color:var(--brown);padding:20px 0 8px;fo
       <div class="card"><div class="card-header"><h3>Suporte Material</h3></div><div class="card-body"><canvas id="c-overview-medium"></canvas></div></div>
       <div class="card"><div class="card-header"><h3>Linha do Tempo</h3></div><div class="card-body"><canvas id="c-overview-timeline"></canvas></div></div>
     </div>
-  </div>
-
-  <!-- REGIME SECTION -->
-  <div class="section" id="sec-regime">
-    <div class="g1">
-      <div class="card"><div class="card-header"><h3>Regime por País — Distribuição Empilhada</h3></div><div class="card-body"><canvas id="c-regime-country" style="max-height:350px;"></canvas></div></div>
-    </div>
-    <div class="g2">
-      <div class="card"><div class="card-header"><h3>Endurecimento por Regime</h3></div><div class="card-body"><canvas id="c-regime-endur"></canvas></div></div>
-      <div class="card"><div class="card-header"><h3>Regime — Contagem</h3></div><div class="card-body"><canvas id="c-regime-count"></canvas></div></div>
-    </div>
-  </div>
-
-  <!-- PURIFICATION SECTION -->
-  <div class="section" id="sec-purification">
-    <div class="g2">
-      <div class="card"><div class="card-header"><h3>Radar — 10 Indicadores por Regime</h3></div><div class="card-body"><canvas id="c-radar"></canvas></div></div>
-      <div class="card"><div class="card-header"><h3>Heatmap — Indicadores × Regimes</h3></div><div class="card-body" id="heatmap-wrap"></div></div>
-    </div>
-    <div class="g1">
-      <div class="card"><div class="card-header"><h3>Indicadores — Médias Gerais</h3></div><div class="card-body"><canvas id="c-ind-bar"></canvas></div></div>
-    </div>
-  </div>
-
-  <!-- TEMPORAL SECTION -->
-  <div class="section" id="sec-temporal">
-    <div class="g1">
-      <div class="card"><div class="card-header"><h3>Ano × Endurecimento — por Regime</h3></div><div class="card-body"><canvas id="c-scatter" style="max-height:400px;"></canvas></div></div>
-    </div>
-    <div class="g2">
-      <div class="card"><div class="card-header"><h3>Codificação — Fontes</h3></div><div class="card-body"><canvas id="c-coded-by"></canvas></div></div>
-      <div class="card"><div class="card-header"><h3>Itens por Década</h3></div><div class="card-body"><canvas id="c-decade"></canvas></div></div>
-    </div>
-  </div>
-
-  <!-- DISTRIBUTION SECTION -->
-  <div class="section" id="sec-distribution">
     <div class="g2">
       <div class="card"><div class="card-header"><h3>Top 12 Motivos Iconográficos</h3></div><div class="card-body"><canvas id="c-motif"></canvas></div></div>
       <div class="card"><div class="card-header"><h3>Top 12 Tags</h3></div><div class="card-body"><canvas id="c-tags"></canvas></div></div>
@@ -328,17 +279,13 @@ footer{text-align:center;font-size:10px;color:var(--brown);padding:20px 0 8px;fo
     </div>
   </div>
 
-  <!-- GALLERY SECTION -->
-  <div class="section" id="sec-gallery">
+  <!-- ABA 2: EXPLORAR = antiga sec-gallery + sec-table -->
+  <div class="section" id="sec-explorar">
     <div class="card" style="padding:16px;">
       <div class="card-header" style="margin:-16px -16px 16px;"><h3>Galeria — clique para detalhes</h3></div>
       <div class="gallery-grid" id="gallery-grid"></div>
       <div class="pagi" id="g-pagi"></div>
     </div>
-  </div>
-
-  <!-- TABLE SECTION -->
-  <div class="section" id="sec-table">
     <div class="card">
       <div class="card-header" style="display:flex;justify-content:space-between;align-items:center;">
         <h3>Tabela de Dados</h3>
@@ -366,7 +313,36 @@ footer{text-align:center;font-size:10px;color:var(--brown);padding:20px 0 8px;fo
     </div>
   </div>
 
-  <!-- FOCO SECTION -->
+  <!-- ABA 3: ENDURECIMENTO = scatter da sec-temporal + sec-regime + sec-purification -->
+  <div class="section" id="sec-endurecimento">
+    <div class="g1">
+      <div class="card"><div class="card-header"><h3>Ano × Endurecimento — por Regime</h3></div><div class="card-body"><canvas id="c-scatter" style="max-height:400px;"></canvas></div></div>
+    </div>
+    <div class="g1">
+      <div class="card"><div class="card-header"><h3>Regime por País — Distribuição Empilhada</h3></div><div class="card-body"><canvas id="c-regime-country" style="max-height:350px;"></canvas></div></div>
+    </div>
+    <div class="g2">
+      <div class="card"><div class="card-header"><h3>Endurecimento por Regime</h3></div><div class="card-body"><canvas id="c-regime-endur"></canvas></div></div>
+      <div class="card"><div class="card-header"><h3>Regime — Contagem</h3></div><div class="card-body"><canvas id="c-regime-count"></canvas></div></div>
+    </div>
+    <div class="g2">
+      <div class="card"><div class="card-header"><h3>Radar — 10 Indicadores por Regime</h3></div><div class="card-body"><canvas id="c-radar"></canvas></div></div>
+      <div class="card"><div class="card-header"><h3>Heatmap — Indicadores × Regimes</h3></div><div class="card-body" id="heatmap-wrap"></div></div>
+    </div>
+    <div class="g1">
+      <div class="card"><div class="card-header"><h3>Indicadores — Médias Gerais</h3></div><div class="card-body"><canvas id="c-ind-bar"></canvas></div></div>
+    </div>
+  </div>
+
+  <!-- ABA 4: QUALIDADE (complementada na etapa seguinte; cards migrados da antiga sec-temporal) -->
+  <div class="section" id="sec-qualidade">
+    <div class="g2">
+      <div class="card"><div class="card-header"><h3>Codificação — Fontes</h3></div><div class="card-body"><canvas id="c-coded-by"></canvas></div></div>
+      <div class="card"><div class="card-header"><h3>Itens por Década</h3></div><div class="card-body"><canvas id="c-decade"></canvas></div></div>
+    </div>
+  </div>
+
+  <!-- ABA 5: MODO FOCO — inalterada -->
   <div class="section" id="sec-foco">
     <div class="g2">
       <!-- Pomodoro -->
