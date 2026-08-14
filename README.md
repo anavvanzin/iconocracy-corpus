@@ -48,6 +48,7 @@ The public-facing browsable surfaces are all self-contained HTML — open them s
 - **`corpus/index.html`** — full-text searchable corpus interface
 - **`corpus/DASHBOARD_CORPUS.html`** — interactive dashboard (gallery + table, filters, Chart.js charts, copy-ready citations)
 - **`corpus/atlas-iconometrico.html`** — visual atlas of the corpus
+- **[`deploy/iconocracia-cv/`](deploy/iconocracia-cv/)** — course site and reproducible computer-vision dataset audit
 
 ---
 
