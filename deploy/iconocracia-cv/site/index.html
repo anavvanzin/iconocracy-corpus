@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Auditoria reproduzível da cobertura de codificação do corpus ICONOCRACIA para a disciplina de Visão Computacional da UFSC."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta
+      property="og:title"
+      content="ICONOCRACIA-CV · Cobertura de codificação"
+    />
+    <meta
+      property="og:description"
+      content="Auditoria reproduzível da cobertura de codificação por regime iconocrático."
+    />
+    <meta property="og:image" content="__SITE_ORIGIN__/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="ICONOCRACIA-CV · Cobertura de codificação"
+    />
+    <meta
+      name="twitter:description"
+      content="Auditoria reproduzível da cobertura de codificação por regime iconocrático."
+    />
+    <meta name="twitter:image" content="__SITE_ORIGIN__/og.png" />
+    <title>ICONOCRACIA-CV · Cobertura de codificação</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #faf6ec;
+        --paper-deep: #f2e9d9;
+        --ink: #1c1c1c;
+        --muted: #6b6459;
+        --wine: #6b1e2e;
+        --wine-dark: #48101d;
+        --gold: #b8892b;
+        --line: #d8ccb9;
+        --white: #fffdf8;
+        font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        line-height: 1.6;
+      }
+
+      a {
+        color: var(--wine);
+        text-underline-offset: 0.2em;
+      }
+      a:hover {
+        color: var(--wine-dark);
+      }
+      a:focus-visible {
+        outline: 3px solid var(--gold);
+        outline-offset: 4px;
+      }
+
+      .shell {
+        width: min(1120px, calc(100% - 40px));
+        margin-inline: auto;
+      }
+
+      header {
+        border-bottom: 1px solid var(--line);
+        background: rgba(250, 246, 236, 0.96);
+      }
+
+      nav {
+        min-height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+      }
+
+      .brand {
+        color: var(--ink);
+        font-size: 0.95rem;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-decoration: none;
+      }
+
+      nav ul {
+        display: flex;
+        gap: 24px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      nav li a {
+        color: var(--muted);
+        font-size: 0.9rem;
+        font-weight: 650;
+        text-decoration: none;
+      }
+
+      .hero {
+        padding-block: clamp(72px, 11vw, 150px) 72px;
+      }
+      .eyebrow {
+        color: var(--gold);
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 900px;
+        margin: 12px 0 24px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(3rem, 8vw, 6.6rem);
+        font-weight: 500;
+        letter-spacing: -0.045em;
+        line-height: 0.96;
+      }
+
+      .lede {
+        max-width: 780px;
+        color: var(--muted);
+        font-size: clamp(1.1rem, 2vw, 1.35rem);
+      }
+
+      .metrics {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1px;
+        margin-top: 52px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: var(--line);
+      }
+
+      .metric {
+        padding: 28px;
+        background: var(--white);
+      }
+      .metric strong {
+        display: block;
+        color: var(--wine);
+        font-family: Georgia, serif;
+        font-size: 3rem;
+        line-height: 1;
+      }
+      .metric span {
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      section {
+        padding-block: 72px;
+      }
+      section + section {
+        border-top: 1px solid var(--line);
+      }
+
+      h2 {
+        margin: 0 0 16px;
+        font-family: Georgia, serif;
+        font-size: clamp(2rem, 5vw, 3.8rem);
+        font-weight: 500;
+        line-height: 1.05;
+      }
+      .section-copy {
+        max-width: 760px;
+        color: var(--muted);
+        font-size: 1.05rem;
+      }
+
+      figure {
+        margin: 44px 0 0;
+      }
+      figure img {
+        display: block;
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: var(--white);
+      }
+      figcaption {
+        margin-top: 12px;
+        color: var(--muted);
+        font-size: 0.88rem;
+      }
+
+      .table-wrap {
+        margin-top: 36px;
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        background: var(--white);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 16px 20px;
+        border-bottom: 1px solid var(--line);
+        text-align: right;
+        white-space: nowrap;
+      }
+      th:first-child,
+      td:first-child {
+        text-align: left;
+      }
+      th {
+        color: var(--muted);
+        font-size: 0.78rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      tbody tr:last-child td {
+        border-bottom: 0;
+      }
+
+      .note {
+        margin-top: 36px;
+        padding: 24px 28px;
+        border-left: 5px solid var(--gold);
+        background: var(--paper-deep);
+      }
+
+      .resources {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin-top: 36px;
+      }
+      .resource {
+        display: block;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: var(--white);
+        text-decoration: none;
+      }
+      .resource strong {
+        display: block;
+        color: var(--ink);
+        font-size: 1.05rem;
+      }
+      .resource span {
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      footer {
+        padding-block: 40px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 720px) {
+        nav ul {
+          display: none;
+        }
+        .metrics,
+        .resources {
+          grid-template-columns: 1fr;
+        }
+        .metric {
+          padding: 22px;
+        }
+        section {
+          padding-block: 52px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          scroll-behavior: auto !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="shell" aria-label="Navegação principal">
+        <a class="brand" href="#inicio">ICONOCRACIA-CV</a>
+        <ul>
+          <li><a href="#resultado">Resultado</a></li>
+          <li><a href="#dados">Dados</a></li>
+          <li><a href="#reproduzir">Reproduzir</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <div class="shell hero">
+        <div class="eyebrow">Visão Computacional · UFSC · 2026.2</div>
+        <h1>Cobertura de codificação por regime</h1>
+        <p class="lede">
+          Uma auditoria reproduzível do dataset público ICONOCRACIA: 335
+          alegorias femininas da Justiça examinadas como problema de visão
+          computacional.
+        </p>
+        <div class="metrics" aria-label="Resumo da cobertura">
+          <div class="metric">
+            <strong id="total">335</strong><span>itens no corpus</span>
+          </div>
+          <div class="metric">
+            <strong id="coded">286</strong><span>itens codificados</span>
+          </div>
+          <div class="metric">
+            <strong id="pending">49</strong><span>itens pendentes</span>
+          </div>
+        </div>
+      </div>
+
+      <section id="resultado">
+        <div class="shell">
+          <div class="eyebrow">Diagnóstico</div>
+          <h2>Os rótulos não estão igualmente disponíveis.</h2>
+          <p class="section-copy">
+            O regime militar concentra 26 das 49 pendências e tem apenas 51,9%
+            de cobertura. Comparações entre regimes precisam considerar esse
+            desequilíbrio antes de interpretar métricas de classificação ou
+            agrupamento.
+          </p>
+          <figure>
+            <img
+              src="analysis/huggingface-regime-coverage-2026-08-13/coverage.svg"
+              alt="Gráfico de barras com cobertura de codificação para os regimes fundacional, normativo, militar e contra-alegoria"
+            />
+            <figcaption>
+              Snapshot público do Hugging Face auditado em 13 de agosto de 2026.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="dados">
+        <div class="shell">
+          <div class="eyebrow">Tabela canônica</div>
+          <h2>Quatro regimes, uma lacuna concentrada.</h2>
+          <p class="section-copy">
+            A tabela abaixo é carregada diretamente do CSV versionado no
+            repositório.
+          </p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Regime</th>
+                  <th>Total</th>
+                  <th>Codificados</th>
+                  <th>Pendentes</th>
+                  <th>Cobertura</th>
+                </tr>
+              </thead>
+              <tbody id="coverage-rows">
+                <tr>
+                  <td colspan="5">Carregando dados…</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="note">
+            <strong>Limite metodológico.</strong> Os splits públicos usam
+            namespaces de identificadores distintos. Esta é uma comparação
+            agregada por regime, não uma junção item a item.
+          </div>
+        </div>
+      </section>
+
+      <section id="reproduzir">
+        <div class="shell">
+          <div class="eyebrow">Ciência aberta</div>
+          <h2>Do dado à figura, tudo auditável.</h2>
+          <p class="section-copy">
+            A consulta SQL lê os Parquets públicos; o script valida os totais e
+            gera o SVG sem bibliotecas externas. O freeze da disciplina
+            permanece imutável.
+          </p>
+          <div class="resources">
+            <a
+              class="resource"
+              href="analysis/huggingface-regime-coverage-2026-08-13/README.md"
+              ><strong>Data card</strong
+              ><span>Método, proveniência e instruções</span></a
+            >
+            <a
+              class="resource"
+              href="analysis/huggingface-regime-coverage-2026-08-13/coverage.csv"
+              ><strong>CSV</strong><span>Resultado tabular versionado</span></a
+            >
+            <a
+              class="resource"
+              href="analysis/huggingface-regime-coverage-2026-08-13/query.sql"
+              ><strong>SQL</strong
+              ><span>Consulta aos Parquets públicos</span></a
+            >
+            <a
+              class="resource"
+              href="https://github.com/anavvanzin/iconocracy-corpus/tree/main/deploy/iconocracia-cv"
+              ><strong>GitHub</strong
+              ><span>Freeze, documentação e histórico</span></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell">
+        Ana Vitória Vanzin Mendes · PPGD/UFSC · INE410159 / TRV410001
+      </div>
+    </footer>
+
+    <script>
+      const csvPath =
+        "analysis/huggingface-regime-coverage-2026-08-13/coverage.csv";
+
+      fetch(csvPath)
+        .then((response) => {
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return response.text();
+        })
+        .then((text) => {
+          const lines = text.trim().split("\n").slice(1);
+          const rows = lines.map((line) => {
+            const [regime, total, coded, pending, coverage] = line.split(",");
+            return { regime, total, coded, pending, coverage };
+          });
+          document.querySelector("#coverage-rows").innerHTML = rows
+            .map(
+              (row) => `
+            <tr>
+              <td>${row.regime}</td>
+              <td>${row.total}</td>
+              <td>${row.coded}</td>
+              <td>${row.pending}</td>
+              <td>${row.coverage.replace(".", ",")}%</td>
+            </tr>
+          `,
+            )
+            .join("");
+          document.querySelector("#total").textContent = rows.reduce(
+            (sum, row) => sum + Number(row.total),
+            0,
+          );
+          document.querySelector("#coded").textContent = rows.reduce(
+            (sum, row) => sum + Number(row.coded),
+            0,
+          );
+          document.querySelector("#pending").textContent = rows.reduce(
+            (sum, row) => sum + Number(row.pending),
+            0,
+          );
+        })
+        .catch(() => {
+          document.querySelector("#coverage-rows").innerHTML =
+            '<tr><td colspan="5">Os dados não puderam ser carregados. Consulte o CSV no repositório.</td></tr>';
+        });
+    </script>
+  </body>
+</html>
