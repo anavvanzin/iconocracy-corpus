@@ -1,4 +1,3 @@
-import sys
 import json
 import subprocess
 import sys
@@ -8,16 +7,9 @@ from pathlib import Path
 
 from tools.argos.manifest import locked_update_manifest
 
-<<<<<<< HEAD
 # Exercise CLI entry points with the same interpreter running the test suite.
 ICONOCRACY_PYTHON = sys.executable
 
-||||||| 2b5f656
-# Use the iconocracy conda environment Python for subprocess calls
-ICONOCRACY_PYTHON = "/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python"
-
-=======
->>>>>>> origin/fix/support-idempotency-gate
 
 class ManifestUpdateTests(unittest.TestCase):
     def setUp(self):
