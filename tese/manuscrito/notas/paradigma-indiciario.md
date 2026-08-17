@@ -4,8 +4,9 @@
 
 - **Autora:** Ana Vitória Vanzin Mendes
 - **Programa:** PPGD/UFSC
-- **Versão:** 1.0 (rascunho para revisão)
+- **Versão:** 1.1 (17 de agosto de 2026 — correções bibliográficas de Rau & Shih e Panofsky, reconciliação do N do corpus com a auditoria de 13/07/2026, apontador para a versão canônica)
 - **Data:** 14 de agosto de 2026
+- **Versão canônica expandida:** `paradigma-indiciario_padroes-de-prova.md` (mesmo diretório) — dossiê que incorpora, a partir deste documento, a quadripartição dos silêncios de Trouillot, a regra de triangulação e a cláusula produção × recepção. Este texto permanece como redação condensada paralela.
 
 ---
 
@@ -17,7 +18,7 @@ Este documento defende a posição epistemológica da tese *Iconocracia: Alegori
 
 ## Introdução: o problema da prova
 
-A tese sustenta afirmações sobre atos de produção estatal de sentido visual no longo século XIX–XX. Essas afirmações dependem de um corpus de 328 registros iconográficos, dos quais 222 possuem inventário de atributos efetivamente constituído e 106 encontram-se em estado de não codificação documentada. O protocolo de análise — denominado IconoCode — opera em três níveis panofskianos: pré-iconográfico (descrição primária), iconográfico (identificação convencional) e iconológico (interpretação jurídico-política).
+A tese sustenta afirmações sobre atos de produção estatal de sentido visual no longo século XIX–XX. Essas afirmações dependem de um ledger operacional de 328 registros iconográficos, dos quais 279 possuem codificação de purificação efetivamente constituída (instantâneo auditado em 13/07/2026); o N é intencionalmente provisório, coerente com a postura exploratória declarada na discussão de limites. O protocolo de análise — denominado IconoCode — opera em três níveis panofskianos: pré-iconográfico (descrição primária), iconográfico (identificação convencional) e iconológico (interpretação jurídico-política).
 
 A questão central é: que padrão de prova é exigível para cada nível? A resposta comum na metodologia de ciências sociais — coeficiente kappa de Cohen, alfa de Krippendorff, teste-reteste, dupla codificação cega — responde a uma pergunta que esta tese não faz: o grau de concordância entre codificadores independentes aplicando o mesmo instrumento a uma amostra probabilística. A tese não faz inferência sobre população; reconstrói regimes do visível a partir de casos documentados.
 
@@ -41,7 +42,7 @@ No nível **iconológico**, a pergunta é "qual função jurídico-política a a
 
 Rau e Shih (2021) demonstram que o coeficiente kappa pressupõe três condições matemáticas: (a) unidades de análise mutuamente exclusivas; (b) categorias fixas e predeterminadas; (c) independência entre observações. A análise de gênero textual satisfaz essas condições: uma palavra pertence a uma categoria gramatical, as categorias estão dadas, e a ocorrência de uma palavra não determina a de outra.
 
-A codificação iconográfica viola as três condições. (a) Os indicadores não são mutuamente exclusivos: a *desincorporação* (redução a busto) frequentemente coocorre com *dessexualização* (remoção de marcadores corpóreos), e a distinção entre os dois é analítica, não ontological. (b) As categorias não são fixas: a tipologia dos regimes iconocráticos (fundacional, normativo, militar, contra-alegoria) foi construída por leitura densa de casos, não definida a priori. (c) As observações não são independentes: a série de emissões de uma mesma moeda constitui uma unidade de análise em que cada registro depende dos anteriores.
+A codificação iconográfica viola as três condições. (a) Os indicadores não são mutuamente exclusivos: a *desincorporação* (redução a busto) frequentemente coocorre com *dessexualização* (remoção de marcadores corpóreos), e a distinção entre os dois é analítica, não ontológica. (b) As categorias não são fixas: a tipologia dos regimes iconocráticos (fundacional, normativo, militar, contra-alegoria) foi construída por leitura densa de casos, não definida a priori. (c) As observações não são independentes: a série de emissões de uma mesma moeda constitui uma unidade de análise em que cada registro depende dos anteriores.
 
 Portanto, a aplicação de kappa à codificação iconográfica é matematicamente inadequada, não por insuficiência de rigor, mas por **categoria errada**.
 
@@ -79,7 +80,7 @@ A consequência é que o Atlas Iconocrático não é um apêndice expositivo do 
 
 ### 2.4 Panofsky direto
 
-A tripartição panofskiana, que estrutura o IconoCode, não é aplicada mecanicamente. Panofsky (1939) distingue entre descrição primária (não interpretativa), identificação iconográfica (conventional) e interpretação iconológica (sintética). A tese segue essa estrutura, mas com uma modificação decisiva: o nível iconológico não reivindica acesso à "intenção" do artista ou à "recepção" do espectador histórico. Reivindica apenas o que a fonte sustenta: o ato de produção estatal, o suporte, a autoridade emissora, os atributos distribuídos — e a série desses atos como regime do visível.
+A tripartição panofskiana, que estrutura o IconoCode, não é aplicada mecanicamente. Panofsky (1939) distingue entre descrição primária (não interpretativa), identificação iconográfica (convencional) e interpretação iconológica (sintética). A tese segue essa estrutura, mas com uma modificação decisiva: o nível iconológico não reivindica acesso à "intenção" do artista ou à "recepção" do espectador histórico. Reivindica apenas o que a fonte sustenta: o ato de produção estatal, o suporte, a autoridade emissora, os atributos distribuídos — e a série desses atos como regime do visível.
 
 ---
 
@@ -140,11 +141,11 @@ HARTMAN, Saidiya V. Venus in Two Acts. **Small Axe**, n. 12, p. 1–14, 2008.
 
 HAYAERT, Valérie. **Lady Justice: An Anatomy of Allegory**. Edinburgh: Edinburgh University Press, 2023.
 
-PANofsky, Erwin. **Studies in Iconology: Humanistic Themes in the Art of the Renaissance**. New York: Harper & Row, 1939.
+PANOFSKY, Erwin. **Studies in Iconology: Humanistic Themes in the Art of the Renaissance**. New York: Harper & Row, 1939.
 
 PAVLEK, Barbara; WINTERS, James; MORIN, Olivier. Standards and quantification of coin iconography: possibilities and challenges. **Digital Scholarship in the Humanities**, v. 37, n. 1, p. 202–217, abr. 2022. DOI: 10.1093/llc/fqab030.
 
-RAU, Florian; SHIH, Yen-Ling. A mathematical analysis of Cohen's kappa. **Journal of Educational and Behavioral Statistics**, v. 46, n. 4, p. 411–435, 2021. [NÃO VERIFICADO: confirmar citação exata.]
+RAU, Gaspard; SHIH, Yu-Sheng. Evaluation of Cohen's kappa and other measures of inter-rater agreement for genre analysis and other nominal data. **Journal of English for Academic Purposes**, Amsterdam, v. 53, 101026, 2021. DOI: 10.1016/j.jeap.2021.101026.
 
 RESNIK, Judith; CURTIS, Dennis. **Representing Justice: Invention, Controversy, and Rights in City-States and Democratic Courtrooms**. New Haven: Yale University Press, 2011.
 
@@ -156,7 +157,7 @@ TROUILLOT, Michel-Rolph. **Silencing the Past: Power and the Production of Histo
 
 ## Lacunas e próximos passos
 
-1. **[NÃO VERIFICADO]** A citação de Rau & Shih (2021) foi construída a partir de referência secundária; confirmar paginação e dados bibliográficos.
+1. **[RESOLVIDO em 17/08/2026]** Citação de Rau & Shih (2021) corrigida: *Journal of English for Academic Purposes*, v. 53, 101026; DOI 10.1016/j.jeap.2021.101026 verificado.
 2. **[NÃO VERIFICADO]** A citação de Ginzburg carece de paginação exata da edição consultada.
 3. **[PENDENTE]** A síntese final (seção "A defesa contra a objeção empiricista") deve ser revisada para garantir que não duplica passagem idêntica no apêndice metodológico (`docs/metodologia/apendice-metodologico-corpus.md`).
 4. **[PENDENTE]** Este documento deve ser aprovado pela orientação antes de integrar o Capítulo 2 (issue #169).
