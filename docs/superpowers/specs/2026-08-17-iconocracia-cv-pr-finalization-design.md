@@ -97,6 +97,27 @@ disciplina nem o dataset de metadados já publicado.
 7. realizar o merge somente após aprovação explícita da Ana;
 8. preservar o worktree enquanto houver revisão ou feedback na PR.
 
+### 5.1 PR sucessora para a camada visual
+
+As imagens do corpus não serão incorporadas nesta entrega. O corpo da PR deverá
+registrar uma continuação independente, dedicada a tornar a coorte visual
+reproduzível sem misturar metadados, binários e decisões de direitos autorais.
+
+Essa PR sucessora deverá definir, antes de qualquer upload:
+
+- correspondência canônica `item_id → arquivo visual`;
+- checksum SHA-256, formato, dimensões e tamanho de cada arquivo;
+- instituição, URL de origem e situação de direitos ou licença;
+- estado explícito para imagens ausentes ou ainda não verificadas;
+- substituição dos valores `PLACEHOLDER_FOLDER_ID` no manifesto do Drive;
+- cobertura do manifesto em relação aos 335 registros;
+- política de publicação: bytes no Hugging Face somente quando autorizados;
+- configuração visual independente, como `images` ou `cv`, sem alterar as
+  configurações `corpus`, `records` e `purification`.
+
+A única dependência entre as duas PRs será o `item_id`. A PR atual não criará
+arquivos visuais provisórios, URLs fictícias nem garantias de disponibilidade.
+
 ### Título proposto
 
 `Finalize ICONOCRACIA-CV course surface and academic dossier`
@@ -108,6 +129,8 @@ disciplina nem o dataset de metadados já publicado.
 - não completar as 49 codificações dentro desta PR;
 - não reconciliar automaticamente ledger e vault;
 - não mover imagens do Google Drive para Git ou Hugging Face;
+- não criar nesta PR o manifesto visual definitivo; esse trabalho pertence à PR
+  sucessora descrita na seção 5.1;
 - não normalizar suportes, países ou evidências sem adjudicação metodológica;
 - não alterar a tese ou o codebook como efeito colateral do encerramento;
 - não apagar a branch ou o worktree enquanto a PR estiver aberta.
