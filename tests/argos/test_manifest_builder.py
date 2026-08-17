@@ -1,3 +1,4 @@
+import sys
 import importlib.util
 import io
 import json
@@ -9,10 +10,6 @@ from pathlib import Path
 from unittest import mock
 
 from tools.argos.manifest import build_manifest
-
-# Exercise CLI entry points with the same interpreter running the test suite.
-ICONOCRACY_PYTHON = sys.executable
-
 
 def load_argos_build_manifest_module():
     repo_root = Path(__file__).resolve().parents[2]

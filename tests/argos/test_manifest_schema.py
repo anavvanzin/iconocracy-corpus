@@ -1,3 +1,4 @@
+import sys
 import json
 import subprocess
 import sys
@@ -6,10 +7,6 @@ import unittest
 from pathlib import Path
 
 from tools.scripts.validate_schemas import load_schema, validate_record
-
-# Exercise CLI entry points with the same interpreter running the test suite.
-ICONOCRACY_PYTHON = sys.executable
-
 
 class ManifestSchemaTests(unittest.TestCase):
     def make_manifest(self, *, status="pending"):

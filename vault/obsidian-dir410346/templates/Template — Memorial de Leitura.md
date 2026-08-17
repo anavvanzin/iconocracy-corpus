@@ -7,9 +7,10 @@ created: 2026-03-29
 
 > Referência **opcional** de frontmatter e cabeçalho — não molde obrigatório.
 > Tom: acadêmico caloroso. Registro: formal, vocabulário rico, prosa fluida.
-> ⚠ Regras revogadas (2026-06): teto de 400–600 palavras e veto a travessões (—)
-> não valem mais. Prosa contínua permitida (sem blocos "Síntese"/"Análise").
-> Ver skill `memorial`.
+> ⚠ Regra revogada (2026-06): teto de 400–600 palavras não vale mais.
+> Prosa contínua permitida (sem blocos "Síntese"/"Análise").
+> Travessões: válidos no texto da Ana; em prosa gerada por Claude, evitar (2026-08-13).
+> Memoriais são INTERNOS — nunca versionar em git (2026-08-13). Ver skill `memorial`.
 
 ---
 

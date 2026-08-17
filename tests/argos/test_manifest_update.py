@@ -1,3 +1,4 @@
+import sys
 import json
 import subprocess
 import sys
@@ -6,10 +7,6 @@ import unittest
 from pathlib import Path
 
 from tools.argos.manifest import locked_update_manifest
-
-# Exercise CLI entry points with the same interpreter running the test suite.
-ICONOCRACY_PYTHON = sys.executable
-
 
 class ManifestUpdateTests(unittest.TestCase):
     def setUp(self):

@@ -214,4 +214,3 @@ SCOTT, Joan Wallach. **The politics of the veil**. Princeton: Princeton Universi
 SEBESTA, Judith Lynn; BONFANTE, Larissa (org.). **The world of Roman costume**. Madison: University of Wisconsin Press, 1994.
 
 WARNER, Marina. **Monuments and maidens: the allegory of the female form**. London: Weidenfeld & Nicolson, 1985.
-
