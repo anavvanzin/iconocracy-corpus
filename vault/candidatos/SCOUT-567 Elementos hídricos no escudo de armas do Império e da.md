@@ -2,23 +2,27 @@
 id: SCOUT-567
 tipo: corpus/candidato
 status: candidato
-titulo: "Elementos hídricos no escudo de armas do Império e da República"
-url: "https://www.planalto.gov.br/ccivil_03/constituicao/brasao.htm"
-data_estimada: "1822–1889–"
+titulo: Elementos hídricos no escudo de armas do Império e da República
+url: https://www.planalto.gov.br/ccivil_03/constituicao/brasao.htm
+data_estimada: 1822–1889–
 pais: BR
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/BR
-  - regime/normativo
-  - #verificar
+- corpus/candidato
+- pais/BR
+- regime/normativo
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: 68751372-c591-4853-b4b2-9ecd4873482e
+suporte: moeda
+motivo_alegorico: Republic
+seculo: 19th
 ---
+
 ## Elementos hídricos no escudo de armas do Império e da República
 
 ### Identificação

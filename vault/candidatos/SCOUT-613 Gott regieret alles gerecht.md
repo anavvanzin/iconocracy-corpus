@@ -2,28 +2,30 @@
 id: SCOUT-613
 tipo: corpus-candidato
 status: revisar
-titulo: "Gott regieret alles gerecht"
-acervo: "Deutsche Fotothek"
-url: "http://www.deutschefotothek.de/documents/obj/72066898"
-data_estimada: "1701-1800"
+titulo: Gott regieret alles gerecht
+acervo: Deutsche Fotothek
+url: http://www.deutschefotothek.de/documents/obj/72066898
+data_estimada: 1701-1800
 pais: DE
 suporte: pintura
-motivo_alegorico: "Alegoria feminina"
+motivo_alegorico: Alegoria feminina
 regime: INDETERMINADO
 confianca: muito-baixo
 tags:
-  - corpus/candidato
-  - suporte/pintura
-  - pais/DE
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- suporte/pintura
+- pais/DE
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.4
 hunt_source: europeana
 data_scout: 2026-07-25
+seculo: 18th
 ---
+
 
 ## Gott regieret alles gerecht
 

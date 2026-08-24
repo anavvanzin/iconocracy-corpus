@@ -2,29 +2,32 @@
 id: SCOUT-606
 tipo: corpus-candidato
 status: revisar
-titulo: 'Frimärke ur Gösta Bodmans filatelistiska motivsamling, påbörjad 1950. Frimärke från Italien, 1953. Motiv av "Republica Italiana"'
-acervo: "Swedish National Museum of Science and Technology"
-url: "https://digitaltmuseum.se/0210114159593"
-data_estimada: "1953"
+titulo: Frimärke ur Gösta Bodmans filatelistiska motivsamling, påbörjad 1950. Frimärke
+  från Italien, 1953. Motiv av "Republica Italiana"
+acervo: Swedish National Museum of Science and Technology
+url: https://digitaltmuseum.se/0210114159593
+data_estimada: '1953'
 pais: IT
 suporte: selo
-motivo_alegorico: "Republic"
+motivo_alegorico: Republic
 regime: INDETERMINADO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - suporte/selo
-  - pais/IT
-  - motivo/republica
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- suporte/selo
+- pais/IT
+- motivo/republica
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.5
 hunt_source: europeana
 data_scout: 2026-07-25
+seculo: 20th
 ---
+
 
 ## Frimärke ur Gösta Bodmans filatelistiska motivsamling, påbörjad 1950. Frimärke från Italien, 1953. Motiv av "Republica Italiana"
 

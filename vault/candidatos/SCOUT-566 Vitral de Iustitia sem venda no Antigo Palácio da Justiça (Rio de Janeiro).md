@@ -2,26 +2,29 @@
 id: SCOUT-566
 tipo: corpus/candidato
 status: candidato
-titulo: "Vitral de Iustitia sem venda no Antigo Palácio da Justiça (Rio de Janeiro)"
-url: "https://www.memoriasbelgas.com.br/vitral-da-sala-de-sessoes-do-ccjf/"
-data_estimada: "1909"
+titulo: Vitral de Iustitia sem venda no Antigo Palácio da Justiça (Rio de Janeiro)
+url: https://www.memoriasbelgas.com.br/vitral-da-sala-de-sessoes-do-ccjf/
+data_estimada: '1909'
 pais: BR
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - regime/normativo
-  - suporte/arquitetura
-  - motivo/justica
+- corpus/candidato
+- pais/BR
+- regime/normativo
+- suporte/arquitetura
+- motivo/justica
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
-  - "[[Contrato Sexual Visual]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
+- '[[Contrato Sexual Visual]]'
 data_scout: 2026-06-23
 records_item_id: 7b1308fd-53f6-4e91-8539-82b67247e049
 suporte: arquitetura forense
+motivo_alegorico: Justitia
+seculo: 20th
 ---
+
 ## Vitral de Iustitia sem venda no Antigo Palácio da Justiça (Rio de Janeiro)
 
 ### Identificação

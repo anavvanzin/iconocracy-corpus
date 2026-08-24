@@ -2,23 +2,26 @@
 id: SCOUT-562
 tipo: corpus/candidato
 status: candidato
-titulo: "Brasão da República dos Estados Unidos do Brasil"
-url: "https://www.planalto.gov.br/ccivil_03/constituicao/brasao.htm"
-data_estimada: "1889–"
+titulo: Brasão da República dos Estados Unidos do Brasil
+url: https://www.planalto.gov.br/ccivil_03/constituicao/brasao.htm
+data_estimada: 1889–
 pais: BR
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/BR
-  - regime/normativo
-  - #verificar
+- corpus/candidato
+- pais/BR
+- regime/normativo
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: dcae9d79-deb4-4bcf-af44-2ea43566e52e
+motivo_alegorico: Republic
+seculo: 19th
 ---
+
 ## Brasão da República dos Estados Unidos do Brasil
 
 ### Identificação

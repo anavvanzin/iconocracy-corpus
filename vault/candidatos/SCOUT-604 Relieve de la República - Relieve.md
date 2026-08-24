@@ -3,29 +3,31 @@ id: SCOUT-604
 tipo: corpus-candidato
 status: promovido
 records_item_id: d8a81f31-5b21-573f-912e-64bb29559c06
-titulo: "Relieve de la República - Relieve"
-acervo: "Archaeological and Ethnological Museum of Córdoba"
-url: "http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO"
-data_estimada: "1931"
+titulo: Relieve de la República - Relieve
+acervo: Archaeological and Ethnological Museum of Córdoba
+url: http://ceres.mcu.es/pages/Main?idt=129502&inventary=CE032775&table=FMUS&museum=MAECO
+data_estimada: '1931'
 pais: ES
 suporte: escultura
-motivo_alegorico: "República"
+motivo_alegorico: República
 regime: FUNDACIONAL
 confianca: baixo
 tags:
-  - corpus/candidato
-  - suporte/escultura
-  - pais/ES
-  - regime/fundacional
-  - motivo/republica
-  - hunt-candidate
+- corpus/candidato
+- suporte/escultura
+- pais/ES
+- regime/fundacional
+- motivo/republica
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.5
 hunt_source: europeana
 data_scout: 2026-07-25
+seculo: 20th
 ---
+
 
 ## Relieve de la República - Relieve
 

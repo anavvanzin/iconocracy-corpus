@@ -3,29 +3,31 @@ id: SCOUT-602
 tipo: corpus-candidato
 status: promovido
 records_item_id: 7f2f25d9-e351-502e-b308-fd784e972fbf
-titulo: "Ficha"
-acervo: "Cerralbo Museum"
-url: "http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=MCM"
-data_estimada: "1870"
+titulo: Ficha
+acervo: Cerralbo Museum
+url: http://ceres.mcu.es/pages/Main?idt=2791&inventary=02790&table=FMUS&museum=MCM
+data_estimada: '1870'
 pais: FR
 suporte: ficha
-motivo_alegorico: "República"
+motivo_alegorico: República
 regime: FUNDACIONAL
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/moeda
-  - regime/fundacional
-  - motivo/republica
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- suporte/moeda
+- regime/fundacional
+- motivo/republica
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.5
 hunt_source: europeana
 data_scout: 2026-07-25
+seculo: 19th
 ---
+
 
 ## Ficha
 

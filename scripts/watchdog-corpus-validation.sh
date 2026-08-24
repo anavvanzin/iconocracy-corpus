@@ -16,11 +16,21 @@ WARNINGS=()
 
 mkdir -p "$REPORT_DIR"
 
+# Prefer iconocracy conda env python — system python3 lacks jsonschema and
+# has rpds binary incompatibilities. See iconocracy-corpus-audit skill
+# §Known Pitfalls (Watchdog Python interpreter mismatch).
+ICONO_PY="/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python3"
+if [ -x "$ICONO_PY" ]; then
+  PYBIN="$ICONO_PY"
+else
+  PYBIN="python3"
+fi
+
 # C1 checker
 if [ ! -f "$CHECKER" ]; then
   ERRORS+=("missing_checker:$CHECKER")
 else
-  if ! python3 "$CHECKER" > "$REPORT_DIR/c1-$TS.json"; then
+  if ! "$PYBIN" "$CHECKER" > "$REPORT_DIR/c1-$TS.json"; then
     ERRORS+=("c1_check_failed")
   fi
 fi
@@ -30,7 +40,7 @@ if [ ! -f "$SCHEMA_SCRIPT" ] || [ ! -f "$RECORDS" ]; then
   WARNINGS+=("schema_validation_skipped:missing_inputs")
 else
   SCHEMA_OUT="$REPORT_DIR/schema-$TS.txt"
-  if ! python3 "$SCHEMA_SCRIPT" "$RECORDS" --schema "$MASTER_RECORD" --verbose > "$SCHEMA_OUT" 2>&1; then
+  if ! "$PYBIN" "$SCHEMA_SCRIPT" "$RECORDS" --schema "$MASTER_RECORD" --verbose > "$SCHEMA_OUT" 2>&1; then
     STATUS="ERROR"
     ERRORS+=("schema_validation_failed")
   elif grep -qiE "(error|invalid|missing|failed|^[0-9]+/[0-9]+)" "$SCHEMA_OUT" && ! grep -qiE "All records are valid" "$SCHEMA_OUT"; then

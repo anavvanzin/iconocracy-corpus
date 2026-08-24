@@ -2,29 +2,32 @@
 id: SCOUT-623
 tipo: corpus-candidato
 status: revisar
-titulo: "LA DEROVTE // ET CONFVSION DES // IANSSENISTES : [estampe, almanach] ([État I / III])"
-acervo: "Bibliothèque nationale de France"
-url: "https://gallica.bnf.fr/ark:/12148/btv1b6945300j"
-data_estimada: "1654"
+titulo: 'LA DEROVTE // ET CONFVSION DES // IANSSENISTES : [estampe, almanach] ([État
+  I / III])'
+acervo: Bibliothèque nationale de France
+url: https://gallica.bnf.fr/ark:/12148/btv1b6945300j
+data_estimada: '1654'
 pais: FR
 suporte: estampa
-motivo_alegorico: "Alegoria feminina"
+motivo_alegorico: Alegoria feminina
 regime: NORMATIVO
 confianca: muito-baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/estampa
-  - regime/normativo
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- suporte/estampa
+- regime/normativo
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.4
 hunt_source: gallica
 data_scout: 2026-07-25
+seculo: 17th
 ---
+
 
 ## LA DEROVTE // ET CONFVSION DES // IANSSENISTES : [estampe, almanach] ([État I / III])
 

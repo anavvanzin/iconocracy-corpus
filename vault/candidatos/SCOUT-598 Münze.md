@@ -2,29 +2,31 @@
 id: SCOUT-598
 tipo: corpus-candidato
 status: revisar
-titulo: "Münze"
-acervo: "Museum of City History Leipzig"
-url: "https://www.stadtmuseum.leipzig.de/DE-MUS-853418/objekt=Z0037391"
-data_estimada: "1849"
+titulo: Münze
+acervo: Museum of City History Leipzig
+url: https://www.stadtmuseum.leipzig.de/DE-MUS-853418/objekt=Z0037391
+data_estimada: '1849'
 pais: FR
 suporte: moeda
-motivo_alegorico: "Alegoria feminina"
+motivo_alegorico: Alegoria feminina
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/moeda
-  - regime/normativo
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- suporte/moeda
+- regime/normativo
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.5
 hunt_source: europeana
 data_scout: 2026-07-25
+seculo: 19th
 ---
+
 
 ## Münze
 

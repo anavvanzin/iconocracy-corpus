@@ -2,23 +2,26 @@
 id: SCOUT-563
 tipo: corpus/candidato
 status: candidato
-titulo: "Alegoria da Liberdade segurando a Bandeira do Brasil Império"
-url: "https://www.facebook.com/BrazilImperiu/photos/alegoria-da-liberdade-segurando-a-bandeira-do-brasil-imperio"
-data_estimada: "século XIX"
+titulo: Alegoria da Liberdade segurando a Bandeira do Brasil Império
+url: https://www.facebook.com/BrazilImperiu/photos/alegoria-da-liberdade-segurando-a-bandeira-do-brasil-imperio
+data_estimada: século XIX
 pais: BR
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/BR
-  - regime/normativo
-  - #verificar
+- corpus/candidato
+- pais/BR
+- regime/normativo
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: 58aa80d3-ddea-4cac-afcf-7aaccdd0c17e
+suporte: fotografia
+motivo_alegorico: Liberty
 ---
+
 ## Alegoria da Liberdade segurando a Bandeira do Brasil Império
 
 ### Identificação

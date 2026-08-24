@@ -2,23 +2,25 @@
 id: SCOUT-560
 tipo: corpus/candidato
 status: candidato
-titulo: "Virtudes cardinais da Matriz de Nossa Senhora do Pilar, Ouro Preto"
-url: "https://www.eba.ufmg.br/revistaceib/index.php/imagembrasileira/article/download/331/284/521"
-data_estimada: "c. 1731–1750"
+titulo: Virtudes cardinais da Matriz de Nossa Senhora do Pilar, Ouro Preto
+url: https://www.eba.ufmg.br/revistaceib/index.php/imagembrasileira/article/download/331/284/521
+data_estimada: c. 1731–1750
 pais: BR
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/BR
-  - regime/normativo
-  - #verificar
+- corpus/candidato
+- pais/BR
+- regime/normativo
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: 8e44db21-f8d1-4024-a246-e0ac5ff24c9e
+seculo: 18th
 ---
+
 ## Virtudes cardinais da Matriz de Nossa Senhora do Pilar, Ouro Preto
 
 ### Identificação

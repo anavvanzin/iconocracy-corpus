@@ -5,9 +5,16 @@ data: 2026-07-31
 autora: Ana Vitória Vanzin Mendes
 status: proposta para deliberação
 escopo: LPAI v2.3.0 para arquitetura metodológica v3
+fundamentacao: nota-epistemologica-lpai-v3.md
 ---
 
 # Plano mestre para a transição metodológica LPAI v3
+
+> Este documento organiza a execução segura. A justificativa propriamente
+> acadêmica da mudança, seus custos teóricos e as decisões que ainda exigem
+> deliberação estão desenvolvidos na
+> [nota epistemológica da transição](nota-epistemologica-lpai-v3.md). O plano
+> não deve ser convertido em especificação técnica antes dessa deliberação.
 
 ## 1. Decisão de segurança: mudar o método sem reescrever a evidência
 

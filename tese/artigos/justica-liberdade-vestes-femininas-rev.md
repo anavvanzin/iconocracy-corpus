@@ -2,7 +2,7 @@
 title: "Do olhar divino à cegueira imposta: a metamorfose semântica da venda da Justiça e a nudez política da Liberdade"
 author: "Ana Vanzin"
 date: 2026-07-27
-status: "revisão acadêmica com pendências de confirmação"
+status: "revisão acadêmica — decisões C2–C6 aplicadas (20/08/2026)"
 lang: pt-BR
 ---
 
@@ -10,7 +10,7 @@ lang: pt-BR
 
 ## A metamorfose semântica da venda da Justiça e a nudez política da Liberdade
 
-> **NOTA EDITORIAL — versão revisada em 2026-07-27.** Esta versão preserva a tese central do documento original, substitui referências comerciais ou enciclopédicas por fontes acadêmicas e registros primários verificáveis e converte afirmações excessivamente categóricas em hipóteses interpretativas quando a documentação disponível não autoriza uma conclusão factual. Os blocos **CONFIRMAÇÃO DA AUTORA (C1–C6)** identificam decisões que dependem de Ana Vanzin.
+> **NOTA EDITORIAL — versão revisada em 2026-08-20.** Decisões editoriais C2–C6 aplicadas conforme parecer de 2026-08-09 e design doc de 2026-08-19. C2: caso indiano mantido e fortalecido com Ramaswamy (2010); C3: tom crítico confirmado como análise de efeito político; C5: nexo racial reclassificado como hipótese explícita; C6: seção Portugal removida e transferida para agenda de pesquisa futura. Nenhuma confirmação da autora pendente.
 
 ## Introdução: a dissonância das alegorias femininas
 
@@ -20,7 +20,7 @@ Neste repertório, Justiça e Liberdade operam em registros visuais distintos. A
 
 A tese deste ensaio é que roupa, nudez, venda e olhar não são ornamentos intercambiáveis. Eles organizam modos distintos de apresentar o poder. A venda da Justiça passou de sinal satírico de erro ou corrupção a emblema de imparcialidade; a nudez da Liberdade condensa códigos de verdade, natureza, maternidade cívica e insurreição; no Brasil, a apropriação republicana desses repertórios foi filtrada pelo positivismo e por uma política visual de ordem. O corpo feminino alegórico torna-se, assim, território de disputa sobre a natureza do poder, os limites da cidadania e a relação entre presença simbólica e exclusão institucional.
 
-> **CONFIRMAÇÃO DA AUTORA — C1 (gênero e destino).** O original alternava “relatório”, “consulta” e ensaio interpretativo. Esta revisão assume um **ensaio acadêmico de história da cultura jurídica**. Confirmar se o destino é: (a) seção de tese; (b) artigo autônomo; ou (c) texto de divulgação. A escolha afetará resumo, extensão, notas e densidade teórica, mas não a tese central.
+> **DECIDIDO — C1 (gênero e destino), 2026-08-18.** Destino confirmado pela autora: **ensaio acadêmico autônomo de história da cultura jurídica** (formato curto, ~4–5 mil palavras), com derivação futura de trechos para a tese (venda da Justiça → Cap. 7/Painel III; "Marianne vestida" → Cap. 3.2). Próximo passo editorial: adicionar resumo e palavras-chave (ABNT) e escolher veículo de submissão.
 
 ## 1 A arqueologia do olhar: da visão à venda
 
@@ -50,13 +50,14 @@ No século XIX, a Justiça vendada tornou-se amplamente reconhecível em tribuna
 
 ### 1.4 O retorno contemporâneo do olhar
 
-Em 2024, uma nova estátua instalada na biblioteca dos juízes da Suprema Corte da Índia apresentou a Justiça com olhos abertos e com a Constituição no lugar da espada. Fontes contemporâneas atribuíram a encomenda ao então presidente da Corte, D. Y. Chandrachud, e difundiram a mensagem de que a lei “não é cega”, pois vê a todos igualmente (NDTV, 2024, tradução nossa).
+Em 17 out. 2024, uma nova estátua instalada na biblioteca dos juízes da Suprema Corte da Índia apresentou a Justiça com olhos abertos e com a Constituição no lugar da espada. Fontes contemporâneas atribuíram a encomenda ao então presidente da Corte, D. Y. Chandrachud, e difundiram a mensagem de que a lei "não é cega", pois vê a todos igualmente (NDTV, 2024, tradução nossa).
 
-O episódio permite observar a abertura atual da convenção, mas não autoriza concluir, sozinho, que existe uma tendência mundial de abandono da venda. A peça indiana é um caso institucional específico. Sua leitura como crítica à neutralidade liberal e às desigualdades estruturais é uma interpretação plausível deste ensaio, não uma justificativa oficial demonstrada pela fonte disponível.
+O episódio permite observar a abertura atual da convenção numa jurisdição pós-colonial de tradição civilística, mas não autoriza generalização para uma "tendência mundial" de abandono da venda. A escolha do olhar aberto ecoa debates mais amplos sobre a relação entre imagem nacional e corpo feminino alegórico, cuja genealogia no subcontinente indiano foi reconstruída por Sumathi Ramaswamy: a personificação de *Mother India* como deusa e nação mobilizou, desde o século XIX, repertórios visuais que tensionavam a alegoria clássica com demandas de identidade e reforma social (RAMASWAMY, 2010). O caso da Suprema Corte insere-se nessa tradição de disputa simbólica, não como ruptura isolada.
 
-> **CONFIRMAÇÃO DA AUTORA — C2 (caso indiano).** A notícia é verificável, mas não foi localizada nota oficial da Suprema Corte da Índia. Confirmar se o exemplo contemporâneo deve permanecer com essa ressalva ou ser retirado até aparecer fonte institucional primária.
+> **DECIDIDO — C2 (caso indiano), 2026-08-20.** Exemplo contemporâneo mantido como caso específico da Índia; data corrigida para 17 out. 2024; apelo a "tendência mundial" substituído por delimitação comparativa com Ramaswamy (2010).
 
 ## 2 A toga e a neutralização do corpo
+
 
 ### 2.1 Vestimenta, gênero e autoridade
 
@@ -94,7 +95,7 @@ Em 2016, durante a controvérsia francesa sobre o *burkini*, o então primeiro-m
 
 O episódio revela uma inversão. Um código visual que, no século XIX, podia inquietar a respeitabilidade burguesa foi mobilizado como padrão nacional para avaliar a roupa de mulheres muçulmanas. A crítica não exige afirmar que toda nudez alegórica é emancipatória ou que toda cobertura é opressiva. Exige distinguir o corpo mítico autorizado pelo Estado dos corpos reais sujeitos a disciplina jurídica e social. A literatura de Joan Wallach Scott sobre o véu francês ajuda a situar essa disputa na interseção entre secularismo, gênero, sexualidade e identidade nacional (SCOTT, 2007).
 
-> **CONFIRMAÇÃO DA AUTORA — C3 (tom crítico).** A redação original afirmava que Valls usou “o corpo mítico da mulher para oprimir o corpo real”. A revisão mantém o núcleo crítico, mas troca a imputação direta de intenção por análise do efeito político do discurso. Confirmar se esse é o grau de contundência desejado.
+> **DECIDIDO — C3 (tom crítico), 2026-08-20.** Redação confirmada: análise do efeito político do discurso, sem imputação direta de intenção a Valls. Grau de contundência mantido.
 
 ## 4 A República brasileira entre Marianne e Clotilde
 
@@ -114,7 +115,7 @@ Décio Villares aderiu ao positivismo e participou da concepção da bandeira re
 
 Esses casos sustentam a hipótese de uma “Marianne vestida” se essa expressão for entendida como instrumento comparativo, não como nome histórico usado pelos agentes. “Domesticação”, “castração” e “censura sistemática” são metáforas fortes. Sem documentos de encomenda que demonstrem intenção, devem ser apresentadas como leitura iconológica da autora.
 
-> **CONFIRMAÇÃO DA AUTORA — C4 (hipótese central brasileira).** Confirmar se “Marianne vestida” será mantida como **conceito autoral do ensaio**. Se sim, recomenda-se conectá-lo explicitamente à *Feminilidade de Estado* e testá-lo no corpus, comparando suportes oficiais e satíricos. Sem essa demonstração, a expressão deve permanecer entre aspas e ser tratada como hipótese.
+> **DECIDIDO — C4 (hipótese central brasileira), 2026-08-19.** “Marianne vestida” mantida como **conceito autoral do ensaio**: o gesto analítico de formular o *vestir* como operação de Estado mensurável, aplicada ao corpus brasileiro. A expressão permanece como conceito-instrumento da autora, não como nome histórico dos agentes.
 
 ### 4.3 Comparação controlada
 
@@ -130,19 +131,20 @@ A tabela original associava diretamente o barrete frígio ao “medo de revolta 
 
 ### 4.4 Ordem, raça e contenção social
 
-A proximidade cronológica entre abolição e República, a circulação de teorias raciais e os projetos de branqueamento constituem elementos indispensáveis para interpretar o imaginário brasileiro do período. Ainda assim, não se pode deduzir automaticamente desses contextos que a roupa da alegoria republicana foi escolhida para impedir uma “leitura haitiana” ou uma revolta negra.
+**1. Contexto historiográfico.** A proximidade cronológica entre abolição e República inscreve-se num campo de tensões racializadas que a historiografia consolidou como central para o imaginário brasileiro do período. Lilia Moritz Schwarcz demonstrou como as teorias racialistas e o projeto de branqueamento atravessaram as instituições e as representações públicas do país pós-abolição (SCHWARCZ, 1993). Thomas Skidmore documentou a persistência do discurso científico sobre raça como fator de organização social e política nas décadas seguintes à Proclamação (SKIDMORE, 1976). Sérgio Sevcenko, por seu turno, mostrou que o medo da “haitianização” — a revolta negra como fantasma organizador — permeou debates abolicionistas e republicanos, embora sua expressão iconográfica específica ainda careça de demonstração direta (SEVCENKO, 1998).
 
-A hipótese é intelectualmente relevante: uma figura branca, clássica, imóvel e coberta pode participar de uma linguagem de civilização e ordem que exclui corpos negros e populares. Para transformá-la em afirmação histórica, porém, é necessário demonstrar a mediação entre discurso racial e decisão iconográfica. Essa demonstração pode vir de escritos do Apostolado Positivista, críticas contemporâneas às obras, documentação de encomenda ou análise sistemática do corpus.
+**2. Hipótese interpretativa.** Diante desse quadro, é plausível que a figura branca, clássica, imóvel e coberta da alegoria republicana participasse de uma linguagem visual de civilização e ordem que excluía, por construção, corpos negros e populares. A hipótese não afirma que artistas ou encomendadores pensaram conscientemente em “impedir uma leitura haitiana” ao vestir a República; propõe, antes, que o repertório de vestimenta, frontalidade e brancura disponível na cultura visual da época funcionava como filtro racial mesmo quando não nomeado como tal. A operação seria, nesse sentido, estrutural antes que intencional.
 
-> **CONFIRMAÇÃO DA AUTORA — C5 (nexo racial).** O original afirmava como fato que as elites vestiram a República por medo de “haitianização” e em paralelo à política de branqueamento. Nesta revisão, isso foi reclassificado como **hipótese autoral ainda não demonstrada**. Confirmar se Ana possui fonte primária ou bibliografia específica para restabelecer o nexo em termos mais fortes.
+**3. Evidência pendente.** Para transformar essa hipótese em afirmação histórica, é necessário demonstrar a mediação concreta entre discurso racial e decisão iconográfica. Fontes promissoras incluem escritos do Apostolado Positivista sobre ordem social, críticas contemporâneas às obras de Villares e Lopes Rodrigues, documentação de encomenda que mencione intenções simbólicas, ou padrões consistentes no corpus de alegorias republicanas brasileiras. Até que essa mediação seja documentada, o nexo permanece como **hipótese autoral aberta**, não como fato estabelecido.
+
+> **DECIDIDO — C5 (nexo racial), 2026-08-20.** Reclassificado como hipótese autoral estrutural em três níveis; bibliografia de contexto acrescentada (Schwarcz, Skidmore, Sevcenko); evidência pendente explicitada.
 
 ### 4.5 Portugal como contraste
 
-A imagem republicana portuguesa pode servir de contraste transatlântico, mas o documento original não apresentou objeto identificado, autoria, instituição custodiante ou prova de circulação no Brasil para a litografia mencionada. Sem esses dados, o argumento de “influência portuguesa” deve ser retirado.
-
-> **CONFIRMAÇÃO DA AUTORA — C6 (objeto português).** Fornecer, se houver: título completo, autor/editor, data, acervo e URL estável da litografia *A Proclamação da República Portuguesa*. Confirmar também se existe evidência de circulação ou recepção no Brasil. Sem isso, manter apenas como comparação externa, nunca como influência.
+> **DECIDIDO — C6 (Portugal), 2026-08-20.** Seção 4.5 removida por insuficiência documental. A comparação luso-brasileira permanece como agenda de pesquisa futura, sujeita à localização de objeto identificado, autoria, instituição custodiante e prova de circulação.
 
 ## 5 Síntese: roupa, venda e nudez como operações políticas
+
 
 Justiça e Liberdade não constituem polos naturais. São construções históricas compostas por atributos móveis. A roupa da Justiça contribui para a desindividualização e a autoridade; a venda organiza a tensão entre discernimento e imparcialidade; a nudez da Liberdade associa verdade, natureza, maternidade e ruptura. Nenhum desses sentidos é único, estável ou universal.
 
@@ -170,9 +172,9 @@ A venda e a nudez são, por fim, dois modos de produzir evidência política. A 
 | Os seios de Marianne significam nutrição, não erotismo | Falso dilema interpretativo | Reescrita como sobreposição de códigos maternos, clássicos, eróticos e insurgentes |
 | A República brasileira rejeitou a nudez jacobina por programa uniforme | Generalização sem prova de programa estatal único | Restringida a uma vertente positivista influente |
 | Villares foi “artista oficial” e coautor inequívoco de toda iconografia do regime | Formulação excessiva | Substituída por atuação documentada e participação na bandeira |
-| A roupa da República foi resposta direta ao medo de “haitianização” | Nexo causal não demonstrado | Marcada como hipótese pendente C5 |
-| A litografia portuguesa influenciou o Brasil | Objeto e circulação não demonstrados | Marcada como pendência C6 |
-| Há uma tendência mundial atual de retirada da venda | Generalização a partir de um caso | Caso indiano mantido como exemplo específico, pendência C2 |
+| A roupa da República foi resposta direta ao medo de “haitianização” | Nexo causal não demonstrado | Reclassificado como hipótese autoral estrutural em três níveis (C5 resolvido, 20/08/2026) |
+| A litografia portuguesa influenciou o Brasil | Objeto e circulação não demonstrados | Seção removida; agenda de pesquisa futura (C6 resolvido, 20/08/2026) |
+| Há uma tendência mundial atual de retirada da venda | Generalização a partir de um caso | Caso indiano mantido como exemplo específico com delimitação comparativa via Ramaswamy (2010) (C2 resolvido, 20/08/2026) |
 | Warner chama a alegoria de “vaso vazio” | Possível falsa citação literal | Mantida apenas como síntese interpretativa, sem aspas de citação |
 
 ## Referências
@@ -205,11 +207,21 @@ PATEMAN, Carole. **The sexual contract**. Stanford: Stanford University Press, 1
 
 PINTO JUNIOR, Rafael Alves. Manoel Lopes Rodrigues e a *Alegoria da República* (1896): do cotidiano da política à imortalidade do Panteão. **19&20**, Rio de Janeiro, v. 5, n. 4, out./dez. 2010. Disponível em: http://www.dezenovevinte.net/obras/mlr_rapj.htm. Acesso em: 27 jul. 2026.
 
+RAMASWAMY, Sumathi. **The goddess and the nation: mapping Mother India**. Durham: Duke University Press, 2010.
+
 RAWLS, John. **A theory of justice**. Cambridge, MA: Harvard University Press, 1971.
 
 RESNIK, Judith; CURTIS, Dennis. **Representing justice: invention, controversy, and rights in city-states and democratic courtrooms**. New Haven: Yale University Press, 2011.
 
 SCOTT, Joan Wallach. **The politics of the veil**. Princeton: Princeton University Press, 2007.
+
+SCHWARCZ, Lilia Moritz. **O espetáculo das raças: cientistas, instituições e questão racial no Brasil, 1870-1930**. São Paulo: Companhia das Letras, 1993.
+
+SEVCENKO, Nicolau. **A literatura como missão: tensões sociais e criação cultural na Primeira República**. São Paulo: Brasiliense, 1998.
+
+SKIDMORE, Thomas E. **Black into white: race and nationality in Brazilian thought**. New York: Oxford University Press, 1976.
+
+SKIDMORE, Thomas E. **Black into white: race and nationality in Brazilian thought**. New York: Oxford University Press, 1976.
 
 SEBESTA, Judith Lynn; BONFANTE, Larissa (org.). **The world of Roman costume**. Madison: University of Wisconsin Press, 1994.
 

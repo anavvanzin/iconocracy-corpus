@@ -2,30 +2,33 @@
 id: SCOUT-588
 tipo: corpus-candidato
 status: revisar
-titulo: "Statue de la République devant le Dôme central : [photographie] / [Hippolyte Blancard]"
-acervo: "Bibliothèque nationale de France"
-url: "https://gallica.bnf.fr/ark:/12148/btv1b11600332t"
-data_estimada: "1889"
+titulo: 'Statue de la République devant le Dôme central : [photographie] / [Hippolyte
+  Blancard]'
+acervo: Bibliothèque nationale de France
+url: https://gallica.bnf.fr/ark:/12148/btv1b11600332t
+data_estimada: '1889'
 pais: FR
 suporte: fotografia
-motivo_alegorico: "République"
+motivo_alegorico: République
 regime: FUNDACIONAL
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/fotografia
-  - regime/fundacional
-  - motivo/republica
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- suporte/fotografia
+- regime/fundacional
+- motivo/republica
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.5
 hunt_source: gallica
 data_scout: 2026-07-25
+seculo: 19th
 ---
+
 
 ## Statue de la République devant le Dôme central : [photographie] / [Hippolyte Blancard]
 

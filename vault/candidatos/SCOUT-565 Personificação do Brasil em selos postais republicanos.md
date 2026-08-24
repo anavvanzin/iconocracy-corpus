@@ -2,23 +2,27 @@
 id: SCOUT-565
 tipo: corpus/candidato
 status: candidato
-titulo: "Personificação do Brasil em selos postais republicanos"
-url: "https://iconocracy-corpus.local/piloto/"
-data_estimada: "1889–1960"
+titulo: Personificação do Brasil em selos postais republicanos
+url: https://iconocracy-corpus.local/piloto/
+data_estimada: 1889–1960
 pais: BR
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/BR
-  - regime/normativo
-  - #verificar
+- corpus/candidato
+- pais/BR
+- regime/normativo
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: a6a957f2-1181-400a-bc29-a8a17c3df07d
+suporte: selo
+motivo_alegorico: Republic
+seculo: 19th
 ---
+
 ## Personificação do Brasil em selos postais republicanos
 
 ### Identificação

@@ -2,23 +2,26 @@
 id: SCOUT-571
 tipo: corpus/candidato
 status: candidato
-titulo: "Intervenção feminista no Paseo de la Reforma, Cidade do México, 2021"
-url: "https://awarewomenartists.com/en/magazine/interventions-monumentales-feminisme-art-et-resistance-publique-au-mexique/"
-data_estimada: "2021"
+titulo: Intervenção feminista no Paseo de la Reforma, Cidade do México, 2021
+url: https://awarewomenartists.com/en/magazine/interventions-monumentales-feminisme-art-et-resistance-publique-au-mexique/
+data_estimada: '2021'
 pais: MX
 regime: CONTRA-ALEGORIA
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/MX
-  - regime/contra-alegoria
-  - #verificar
+- corpus/candidato
+- pais/MX
+- regime/contra-alegoria
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: d55b1f29-20c6-4785-b7d5-814904b147d5
+suporte: escultura
+seculo: 21th
 ---
+
 ## Intervenção feminista no Paseo de la Reforma, Cidade do México, 2021
 
 ### Identificação

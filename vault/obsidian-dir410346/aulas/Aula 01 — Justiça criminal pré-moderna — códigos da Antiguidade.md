@@ -12,6 +12,7 @@ created: 2026-03-29
 
 > **Data:** 30/03/2026 (segunda-feira)
 > **Leituras:** Oliveira (2004); Lacerda Neto (2013)
+> **Complementares (ago/2026):** Halpérin (2012); Fonseca (2012); Sontag (2017); Pihlajamäki & Nunes (2024)
 
 ---
 
@@ -99,6 +100,32 @@ A tensão produtiva entre ambos: se toda periodização é, em alguma medida, pr
 
 ---
 
+## Leituras complementares (textos-base, ago/2026)
+
+Quatro textos sobre a **historiografia da história do direito**, que deslocam a questão-guia da aula do plano epistemológico (como fazer história do direito) para o plano da história disciplinar (quem fez, onde, com que função). Lidos em conjunto com Oliveira, eles mostram que os vícios denunciados (evolucionismo, factualismo, ausência de fontes) têm uma história institucional concreta, e que o caso brasileiro é ao mesmo tempo exceção e espelho do percurso europeu.
+
+### 3. [[HALPÉRIN — História do direito (2012)]]
+
+Verbete do *Dicionário da cultura jurídica* (Alland & Rials). Panorama da historiografia jurídica europeia do humanismo à história cultural do direito, organizado pela tese do **estatuto híbrido** da disciplina: ramo da ciência histórica e método de compreensão do direito. Registra o paradoxo da profissionalização (1880-1890): a disciplina se institucionaliza quando perde centralidade na argumentação jurídica.
+
+### 4. [[FONSECA — O deserto e o vulcão (2012)]]
+
+Balanço da história do direito no Brasil: o **deserto** dos séculos XIX-XX (disciplina criada em 1885, suprimida em 1901, silêncio posterior) e o **vulcão** pós-1990/2004. Duas hipóteses para o deserto: a ausência da função legitimadora da nova ordem (independência sem ruptura, República das elites) e o sufocamento pelo Direito Romano de função dogmática. Duas tensões no presente: ratificação x crítica da dogmática; grandes sínteses mercadológicas x pesquisa analítica.
+
+### 5. [[SONTAG — Alienigenismo originário do nosso direito (2017)]]
+
+Releitura de Martins Júnior (1895): a historiografia jurídica brasileira **nasce comparada/transnacional**, pois concebe o direito nacional como "bricolagem" de transplantes. Crítica ao **emissorcentrismo** (fluxo emissor-destinatário, hierarquia entre culturas) e programa: analisar o "como" das circulações, não apenas "o que" e "de onde"; substituir transplante por **tradução cultural**. A identidade jurídica nacional como ponto de chegada (Brasil), não de partida (Europa).
+
+### 6. [[PIHLAJAMÄKI e NUNES — Traçando a história do direito no civil law (2024)]]
+
+Capítulo da coletânea Martyn & Dal Ri Jr. (D'Placido, 2024). Longa duração da historiografia da *civil law* (humanismo, usus modernus, Escola Histórica, pós-guerra) enquadrada na teoria da aceleração de Hartmut Rosa, com seção final sobre América Latina e Brasil: o *derecho indiano* como precedente transnacional que excluiu o mundo lusitano; o "complexo de vira-latas" de Martins Júnior; a (re)fundação pós-ditadura (Wehling, Lima Lopes, Wolkmer) e as três gerações até a atual, "global". Tese programática: toda história do direito é transnacional.
+
+### Diálogo entre os quatro
+
+Os textos formam um dossiê quase fechado: Halpérin dá o mapa europeu (2003); Fonseca, o balanço brasileiro (2012); Sontag, o problema teórico brasileiro (2017); Pihlajamäki e Nunes, a síntese atualizada e integrada (2024), que cita os dois anteriores. A convergência mais produtiva: a função da historiografia jurídica muda conforme a relação entre pensamento jurídico e argumento histórico em cada conjuntura, o que relativiza tanto a nostalgia (a "idade de ouro" da Escola Histórica) quanto o ufanismo (o "vulcão" brasileiro). A tensão que permanece aberta: se a pesquisa histórica sempre parte de uma problemática do presente (Halpérin), como distinguir essa inevitável ancoragem do cronocentrismo denunciado por Oliveira?
+
+---
+
 ## Perguntas para levar à aula
 
 - [ ] Como o curso se posiciona frente à crítica de Oliveira? O programa assume uma periodização (pré-moderno/moderno) que é, ela própria, uma escolha historiográfica. Qual a justificativa?
@@ -118,7 +145,8 @@ A tensão produtiva entre ambos: se toda periodização é, em alguma medida, pr
 
 - → [[Aula 02 — Justiça negociada alto-medieval]] (continuidade: Sbriccoli)
 - → [[Memorial 00]] (memorial já submetido sobre estas leituras)
-- → Tese ICONOCRACY: a crítica ao evolucionismo vale para a fonte visual com igual força. Imagens de Hamurábi ou da Justitia "ilustrando" manuais sem análise iconográfica reproduzem o mesmo vício que Oliveira denuncia no texto.
+- → Leituras complementares (ago/2026): [[HALPÉRIN — História do direito (2012)]] · [[FONSECA — O deserto e o vulcão (2012)]] · [[SONTAG — Alienigenismo originário do nosso direito (2017)]] · [[PIHLAJAMÄKI e NUNES — Traçando a história do direito no civil law (2024)]]
+- → Tese ICONOCRACY: a crítica ao evolucionismo vale para a fonte visual com igual força. Imagens de Hamurábi ou da Justitia "ilustrando" manuais sem análise iconográfica reproduzem o mesmo vício que Oliveira denuncia no texto. A crítica ao emissorcentrismo (Sontag) autoriza tratar as alegorias jurídicas brasileiras como traduções culturais com sentido próprio.
 
 --- 
 

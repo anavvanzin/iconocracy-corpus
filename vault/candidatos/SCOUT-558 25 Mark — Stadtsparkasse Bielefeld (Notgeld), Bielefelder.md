@@ -2,23 +2,27 @@
 id: SCOUT-558
 tipo: corpus/candidato
 status: candidato
-titulo: "25 Mark — Stadtsparkasse Bielefeld (Notgeld), Bielefelder Jungbronnen (Fountain of Youth), silk note"
-url: "https://en.numista.com/210100"
-data_estimada: "1921"
+titulo: 25 Mark — Stadtsparkasse Bielefeld (Notgeld), Bielefelder Jungbronnen (Fountain
+  of Youth), silk note
+url: https://en.numista.com/210100
+data_estimada: '1921'
 pais: DE
 regime: FUNDACIONAL
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/DE
-  - regime/fundacional
-  - #verificar
+- corpus/candidato
+- pais/DE
+- regime/fundacional
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: 0b40bbaf-f789-5d6c-bce6-51d42b02b625
+suporte: moeda
+seculo: 20th
 ---
+
 ## 25 Mark — Stadtsparkasse Bielefeld (Notgeld), Bielefelder Jungbronnen (Fountain of Youth), silk note
 
 ### Identificação

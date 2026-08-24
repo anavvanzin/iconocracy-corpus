@@ -3,28 +3,30 @@ id: SCOUT-591
 tipo: corpus-candidato
 status: promovido
 records_item_id: 307f2209-2999-5366-964a-8e86009d4b5b
-titulo: "La Liberté"
-acervo: "The Metropolitan Museum of Art"
-url: "https://www.metmuseum.org/art/collection/search/821181"
-data_estimada: "ca. 1794"
+titulo: La Liberté
+acervo: The Metropolitan Museum of Art
+url: https://www.metmuseum.org/art/collection/search/821181
+data_estimada: ca. 1794
 pais: FR
 suporte: estampa
-motivo_alegorico: "Liberté"
+motivo_alegorico: Liberté
 regime: FUNDACIONAL
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/estampa
-  - regime/fundacional
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- suporte/estampa
+- regime/fundacional
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.5
 hunt_source: met
 data_scout: 2026-07-25
+seculo: 18th
 ---
+
 
 ## La Liberté
 

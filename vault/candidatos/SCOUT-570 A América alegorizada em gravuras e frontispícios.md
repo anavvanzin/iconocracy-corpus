@@ -2,23 +2,25 @@
 id: SCOUT-570
 tipo: corpus/candidato
 status: candidato
-titulo: "A América alegorizada em gravuras e frontispícios circulados no Brasil colonial"
-url: "https://www.brasilianaiconografica.art.br/artigos/24232/a-representacao-da-america-quando-era-grande-e-desconhecida"
-data_estimada: "séculos XVI–XVIII"
+titulo: A América alegorizada em gravuras e frontispícios circulados no Brasil colonial
+url: https://www.brasilianaiconografica.art.br/artigos/24232/a-representacao-da-america-quando-era-grande-e-desconhecida
+data_estimada: séculos XVI–XVIII
 pais: BR
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/BR
-  - regime/normativo
-  - #verificar
+- corpus/candidato
+- pais/BR
+- regime/normativo
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: 6df4bc96-be48-4609-9974-18f48ad910ed
+suporte: estampa
 ---
+
 ## A América alegorizada em gravuras e frontispícios circulados no Brasil colonial
 
 ### Identificação

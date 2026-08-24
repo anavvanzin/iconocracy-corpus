@@ -3,29 +3,31 @@ id: SCOUT-605
 tipo: corpus-candidato
 status: promovido
 records_item_id: f410c31b-283c-5f5f-95ce-7b6e809db88e
-titulo: "Exposición Universal de Lyon - Medalla"
-acervo: "Cerralbo Museum"
-url: "http://ceres.mcu.es/pages/Main?idt=2713&inventary=02712&table=FMUS&museum=MCM"
-data_estimada: "1872"
+titulo: Exposición Universal de Lyon - Medalla
+acervo: Cerralbo Museum
+url: http://ceres.mcu.es/pages/Main?idt=2713&inventary=02712&table=FMUS&museum=MCM
+data_estimada: '1872'
 pais: FR
 suporte: medalha
-motivo_alegorico: "República"
+motivo_alegorico: República
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/moeda
-  - regime/normativo
-  - motivo/republica
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- suporte/moeda
+- regime/normativo
+- motivo/republica
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.5
 hunt_source: europeana
 data_scout: 2026-07-25
+seculo: 19th
 ---
+
 
 ## Exposición Universal de Lyon - Medalla
 

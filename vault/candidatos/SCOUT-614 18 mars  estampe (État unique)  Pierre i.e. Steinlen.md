@@ -2,29 +2,31 @@
 id: SCOUT-614
 tipo: corpus-candidato
 status: descartar
-titulo: "[18 mars] : [estampe] ([État unique]) / Pierre [i.e. Steinlen]"
-acervo: "Bibliothèque nationale de France"
-url: "https://gallica.bnf.fr/ark:/12148/btv1b53188502h"
-data_estimada: "1894"
+titulo: '[18 mars] : [estampe] ([État unique]) / Pierre [i.e. Steinlen]'
+acervo: Bibliothèque nationale de France
+url: https://gallica.bnf.fr/ark:/12148/btv1b53188502h
+data_estimada: '1894'
 pais: FR
 suporte: estampa
-motivo_alegorico: "Alegoria feminina"
+motivo_alegorico: Alegoria feminina
 regime: NORMATIVO
 confianca: muito-baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/estampa
-  - regime/normativo
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- suporte/estampa
+- regime/normativo
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.4
 hunt_source: gallica
 data_scout: 2026-07-25
+seculo: 19th
 ---
+
 
 ## [18 mars] : [estampe] ([État unique]) / Pierre [i.e. Steinlen]
 

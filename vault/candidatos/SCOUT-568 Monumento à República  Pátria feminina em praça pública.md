@@ -2,23 +2,27 @@
 id: SCOUT-568
 tipo: corpus/candidato
 status: candidato
-titulo: "Monumento à República / Pátria feminina em praça pública brasileira"
-url: "https://iconocracy-corpus.local/piloto/"
-data_estimada: "1889–1950"
+titulo: Monumento à República / Pátria feminina em praça pública brasileira
+url: https://iconocracy-corpus.local/piloto/
+data_estimada: 1889–1950
 pais: BR
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/BR
-  - regime/normativo
-  - #verificar
+- corpus/candidato
+- pais/BR
+- regime/normativo
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: d6da6e20-4eeb-4ffa-a91a-2a27fe1bba40
+suporte: escultura
+motivo_alegorico: Republic
+seculo: 19th
 ---
+
 ## Monumento à República / Pátria feminina em praça pública brasileira
 
 ### Identificação

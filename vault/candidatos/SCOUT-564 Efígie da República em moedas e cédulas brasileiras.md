@@ -2,23 +2,27 @@
 id: SCOUT-564
 tipo: corpus/candidato
 status: candidato
-titulo: "Efígie da República em moedas e cédulas brasileiras (1889–1945)"
-url: "https://iconocracy-corpus.local/piloto/"
-data_estimada: "1889–1945"
+titulo: Efígie da República em moedas e cédulas brasileiras (1889–1945)
+url: https://iconocracy-corpus.local/piloto/
+data_estimada: 1889–1945
 pais: BR
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/BR
-  - regime/normativo
-  - #verificar
+- corpus/candidato
+- pais/BR
+- regime/normativo
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: 8145d1a4-3cbd-422c-937f-9ce302084f0c
+suporte: papel-moeda
+motivo_alegorico: Republic
+seculo: 19th
 ---
+
 ## Efígie da República em moedas e cédulas brasileiras (1889–1945)
 
 ### Identificação

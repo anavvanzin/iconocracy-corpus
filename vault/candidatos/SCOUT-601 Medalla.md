@@ -3,29 +3,31 @@ id: SCOUT-601
 tipo: corpus-candidato
 status: promovido
 records_item_id: 5b14d6a4-7b6d-5111-9253-b20bb72af0a1
-titulo: "Medalla"
-acervo: "National Archaeological Museum"
-url: "http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS&museum=MAN"
-data_estimada: "1873"
+titulo: Medalla
+acervo: National Archaeological Museum
+url: http://ceres.mcu.es/pages/Main?idt=98650&inventary=1992/81/1611&table=FMUS&museum=MAN
+data_estimada: '1873'
 pais: ES
 suporte: medalha
-motivo_alegorico: "República"
+motivo_alegorico: República
 regime: FUNDACIONAL
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/ES
-  - suporte/moeda
-  - regime/fundacional
-  - motivo/republica
-  - hunt-candidate
+- corpus/candidato
+- pais/ES
+- suporte/moeda
+- regime/fundacional
+- motivo/republica
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.5
 hunt_source: europeana
 data_scout: 2026-07-25
+seculo: 19th
 ---
+
 
 ## Medalla
 

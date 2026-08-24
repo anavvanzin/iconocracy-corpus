@@ -2,25 +2,29 @@
 id: SCOUT-573
 tipo: corpus/candidato
 status: candidato
-titulo: "Esculturas de A Justiça e a Família e A Justiça e o Homem (Palácio da Justiça de Pernambuco)"
-url: "http://www.tjpe.jus.br/institucional/palacio-da-justica/"
-data_estimada: "1930"
+titulo: Esculturas de A Justiça e a Família e A Justiça e o Homem (Palácio da Justiça
+  de Pernambuco)
+url: http://www.tjpe.jus.br/institucional/palacio-da-justica/
+data_estimada: '1930'
 pais: BR
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - regime/normativo
-  - suporte/arquitetura
-  - motivo/justica
+- corpus/candidato
+- pais/BR
+- regime/normativo
+- suporte/arquitetura
+- motivo/justica
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: 09c36ce9-a700-5394-836e-88aa61119e46
 suporte: arquitetura forense
+motivo_alegorico: Justitia
+seculo: 20th
 ---
+
 ## Esculturas de A Justiça e a Família e A Justiça e o Homem (Palácio da Justiça de Pernambuco)
 
 ### Identificação

@@ -3,29 +3,31 @@ id: SCOUT-607
 tipo: corpus-candidato
 status: promovido
 records_item_id: b1966d16-8731-58e4-a898-8ef3c44f59cb
-titulo: "Lo que puede suceder. - Estampa"
-acervo: "National Museum of Romanticism"
-url: "http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR"
-data_estimada: "1870"
+titulo: Lo que puede suceder. - Estampa
+acervo: National Museum of Romanticism
+url: http://ceres.mcu.es/pages/Main?idt=6813&inventary=CE5714&table=FMUS&museum=MNR
+data_estimada: '1870'
 pais: ES
 suporte: estampa
-motivo_alegorico: "República"
+motivo_alegorico: República
 regime: CONTRA-ALEGORIA
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/ES
-  - suporte/estampa
-  - regime/contra-alegoria
-  - motivo/republica
-  - hunt-candidate
+- corpus/candidato
+- pais/ES
+- suporte/estampa
+- regime/contra-alegoria
+- motivo/republica
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.5
 hunt_source: europeana
 data_scout: 2026-07-25
+seculo: 19th
 ---
+
 
 ## Lo que puede suceder. - Estampa
 

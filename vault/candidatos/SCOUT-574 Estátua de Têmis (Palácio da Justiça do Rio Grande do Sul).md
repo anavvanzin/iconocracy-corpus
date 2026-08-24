@@ -2,25 +2,28 @@
 id: SCOUT-574
 tipo: corpus/candidato
 status: candidato
-titulo: "Estátua de Têmis (Palácio da Justiça do Rio Grande do Sul)"
-url: "https://www.tjrs.jus.br/novo/institucional/palacio-da-justica/"
-data_estimada: "2005"
+titulo: Estátua de Têmis (Palácio da Justiça do Rio Grande do Sul)
+url: https://www.tjrs.jus.br/novo/institucional/palacio-da-justica/
+data_estimada: '2005'
 pais: BR
 regime: NORMATIVO
 confianca: alto
 tags:
-  - corpus/candidato
-  - pais/BR
-  - regime/normativo
-  - suporte/arquitetura
-  - motivo/justica
+- corpus/candidato
+- pais/BR
+- regime/normativo
+- suporte/arquitetura
+- motivo/justica
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: c5963931-2e04-51d0-b090-0ce8c2c45138
 suporte: arquitetura forense
+motivo_alegorico: Justitia
+seculo: 21th
 ---
+
 ## Estátua de Têmis (Palácio da Justiça do Rio Grande do Sul)
 
 ### Identificação

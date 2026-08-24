@@ -2,28 +2,30 @@
 id: SCOUT-612
 tipo: corpus-candidato
 status: revisar
-titulo: "Justizia und Pax, Species superbice"
-acervo: "Deutsche Fotothek"
-url: "http://www.deutschefotothek.de/documents/obj/72051477"
-data_estimada: "1648"
+titulo: Justizia und Pax, Species superbice
+acervo: Deutsche Fotothek
+url: http://www.deutschefotothek.de/documents/obj/72051477
+data_estimada: '1648'
 pais: FR
 suporte: manuscrito
-motivo_alegorico: "Alegoria feminina"
+motivo_alegorico: Alegoria feminina
 regime: INDETERMINADO
 confianca: muito-baixo
 tags:
-  - corpus/candidato
-  - suporte/manuscrito
-  - pais/FR
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- suporte/manuscrito
+- pais/FR
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.4
 hunt_source: europeana
 data_scout: 2026-07-25
+seculo: 17th
 ---
+
 
 ## Justizia und Pax, Species superbice
 

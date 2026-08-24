@@ -2,23 +2,26 @@
 id: SCOUT-561
 tipo: corpus/candidato
 status: candidato
-titulo: "Cédula de 2.000 réis de 1890 — figura feminina"
-url: "https://www.youtube.com/watch?v=TUuDNXMqna0"
-data_estimada: "1890"
+titulo: Cédula de 2.000 réis de 1890 — figura feminina
+url: https://www.youtube.com/watch?v=TUuDNXMqna0
+data_estimada: '1890'
 pais: BR
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/BR
-  - regime/normativo
-  - #verificar
+- corpus/candidato
+- pais/BR
+- regime/normativo
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: 9647a075-d255-470a-a6a1-9df52af95e9b
+suporte: moeda
+seculo: 19th
 ---
+
 ## Cédula de 2.000 réis de 1890 — figura feminina
 
 ### Identificação

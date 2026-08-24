@@ -3,28 +3,30 @@ id: SCOUT-589
 tipo: corpus-candidato
 status: promovido
 records_item_id: 73ee9bdb-039b-5acd-b425-871fbb998b36
-titulo: "Sketch of an Allegory of the Abolition of Slavery"
-acervo: "The Metropolitan Museum of Art"
-url: "https://www.metmuseum.org/art/collection/search/848124"
-data_estimada: "ca. 1848"
+titulo: Sketch of an Allegory of the Abolition of Slavery
+acervo: The Metropolitan Museum of Art
+url: https://www.metmuseum.org/art/collection/search/848124
+data_estimada: ca. 1848
 pais: FR
 suporte: escultura
-motivo_alegorico: "Alegoria feminina"
+motivo_alegorico: Alegoria feminina
 regime: FUNDACIONAL
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - suporte/escultura
-  - regime/fundacional
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- suporte/escultura
+- regime/fundacional
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.5
 hunt_source: met
 data_scout: 2026-07-25
+seculo: 19th
 ---
+
 
 ## Sketch of an Allegory of the Abolition of Slavery
 

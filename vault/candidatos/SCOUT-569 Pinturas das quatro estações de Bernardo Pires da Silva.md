@@ -2,23 +2,26 @@
 id: SCOUT-569
 tipo: corpus/candidato
 status: candidato
-titulo: "Pinturas das quatro estações de Bernardo Pires da Silva (1774) — Ouro Preto"
-url: "https://seer.ufrgs.br/index.php/PortoArte/article/view/141873"
-data_estimada: "1774"
+titulo: Pinturas das quatro estações de Bernardo Pires da Silva (1774) — Ouro Preto
+url: https://seer.ufrgs.br/index.php/PortoArte/article/view/141873
+data_estimada: '1774'
 pais: BR
 regime: NORMATIVO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/BR
-  - regime/normativo
-  - #verificar
+- corpus/candidato
+- pais/BR
+- regime/normativo
+- null
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 data_scout: 2026-06-23
 records_item_id: 68fe7104-d814-441c-9172-112e760cf785
+suporte: pintura
+seculo: 18th
 ---
+
 ## Pinturas das quatro estações de Bernardo Pires da Silva (1774) — Ouro Preto
 
 ### Identificação

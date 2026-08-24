@@ -2,28 +2,31 @@
 id: SCOUT-600
 tipo: corpus-candidato
 status: descartar
-titulo: "Marianne Vogelweid, épouse de Hans Vogelweid = Marianne Vogelweid, Gattin von Hans Vogelweid, Mi-corps, face"
-acervo: "Bibliothèque nationale de France"
-url: "https://gallica.bnf.fr/ark:/12148/btv1b10213156p"
-data_estimada: "1913"
+titulo: Marianne Vogelweid, épouse de Hans Vogelweid = Marianne Vogelweid, Gattin
+  von Hans Vogelweid, Mi-corps, face
+acervo: Bibliothèque nationale de France
+url: https://gallica.bnf.fr/ark:/12148/btv1b10213156p
+data_estimada: '1913'
 pais: FR
 suporte: indeterminado
-motivo_alegorico: "Marianne"
+motivo_alegorico: Marianne
 regime: INDETERMINADO
 confianca: baixo
 tags:
-  - corpus/candidato
-  - pais/FR
-  - motivo/marianne
-  - #verificar
-  - hunt-candidate
+- corpus/candidato
+- pais/FR
+- motivo/marianne
+- null
+- hunt-candidate
 related:
-  - "[[endurecimento]]"
-  - "[[Feminilidade de Estado]]"
+- '[[endurecimento]]'
+- '[[Feminilidade de Estado]]'
 hunt_score: 0.5
 hunt_source: gallica
 data_scout: 2026-07-25
+seculo: 20th
 ---
+
 
 ## Marianne Vogelweid, épouse de Hans Vogelweid = Marianne Vogelweid, Gattin von Hans Vogelweid, Mi-corps, face
 
