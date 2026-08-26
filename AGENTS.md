@@ -19,6 +19,14 @@ python tools/scripts/<script>.py           # always from repo root
 pytest tests/                              # full suite (~24 test files)
 ```
 
+> **Cloud Agent note:** the Cursor Cloud environment has **no conda**. It mirrors CI:
+> system Python 3.12 with dependencies installed via `pip install --user` (user site,
+> auto-imported by `python3`). There is no conda env to activate — run scripts directly
+> with `python tools/scripts/<script>.py` and tests with `python -m pytest tests/`.
+> Console scripts live in `~/.local/bin` (not on PATH), so invoke tools through
+> `python -m <tool>` (e.g. `python -m pytest`). `pandoc` is preinstalled for
+> `make -C vault/tese docx`; full-thesis **PDF** additionally needs a LaTeX/TeX Live install.
+
 ## Essential Commands
 
 ```bash
