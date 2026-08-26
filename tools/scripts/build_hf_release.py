@@ -152,6 +152,14 @@ tags:
 - feminist-iconography
 - abnt
 - metadata
+configs:
+- config_name: corpus
+  data_files: corpus-data.json
+  default: true
+- config_name: records
+  data_files: records.jsonl
+- config_name: purification
+  data_files: purification.jsonl
 ---
 
 # ICONOCRACY Corpus
@@ -192,9 +200,9 @@ Source-of-truth hierarchy:
 
 ## Files
 
-- `corpus-data.json`
-- `records.jsonl`
-- `purification.jsonl`
+- `corpus-data.json` — default `corpus` configuration for public exploration
+- `records.jsonl` — canonical `records` configuration
+- `purification.jsonl` — coding-observation `purification` configuration
 - `release.json`
 - `CHANGELOG.md`
 

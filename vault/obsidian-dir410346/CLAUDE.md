@@ -24,9 +24,11 @@ obsidian-dir410346/
 Listagem completa em `vault/assets/leituras_obrigatorias_DIR410346.md`.
 
 ## Avaliação
-- **Memoriais de leitura:** fichamento comentado (síntese + análise), ~400–600 palavras por entrada
-- Tom acadêmico caloroso, sem travessões
-- Template: `templates/Template — Memorial de Leitura.md`
+- **Memoriais de leitura:** fichamento comentado em prosa contínua, sem teto de palavras (regra "400–600" revogada 2026-06)
+- Travessões: válidos no texto da Ana (nunca remover); em prosa GERADA por Claude, evitar (feedback 2026-08-13)
+- **Memoriais são INTERNOS** — nunca commitar/pushar (feedback 2026-08-13)
+- Tom acadêmico caloroso; skill dedicada: `memorial` (produção/revisão)
+- Template: `templates/Template — Memorial de Leitura.md` (referência opcional de frontmatter, não molde)
 
 ## Autores-chave
 - Mario Sbriccoli (fio condutor: "Justiça criminal")

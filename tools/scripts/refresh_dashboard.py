@@ -1,25 +1,24 @@
 #!/usr/bin/env python3
-"""Refresh dashboard HTML files by re-embedding the latest corpus and agent data.
+"""Refresh dashboard HTML: embute corpus + agent-runs entre delimitadores.
 
-Usage:
-    python tools/scripts/refresh_dashboard.py           # refresh both dashboards
-    python tools/scripts/refresh_dashboard.py --corpus   # refresh corpus dashboard only
-    python tools/scripts/refresh_dashboard.py --agents   # refresh agents dashboard only
+Uso:
+    python tools/scripts/refresh_dashboard.py           # corpus + agents
+    python tools/scripts/refresh_dashboard.py --corpus
+    python tools/scripts/refresh_dashboard.py --agents
 
-Idempotent — safe to run multiple times.
+Idempotente: rodar 2x produz arquivo idêntico. Falha alto (exit 1) se os
+delimitadores estiverem ausentes/duplicados ou se o round-trip divergir.
 """
 import argparse
 import json
-import os
-import re
+import sys
+from pathlib import Path
 
-REPO_ROOT = os.path.join(os.path.dirname(__file__), '..', '..')
-CORPUS_JSON = os.path.join(REPO_ROOT, 'corpus', 'corpus-data.json')
-AGENT_RUNS = os.path.join(REPO_ROOT, 'corpus', 'agent-runs.json')
-CORPUS_HTML = os.path.join(REPO_ROOT, 'corpus', 'DASHBOARD_CORPUS.html')
-AGENTS_HTML = os.path.join(REPO_ROOT, 'corpus', 'DASHBOARD_AGENTS.html')
+from dashboard_data import build_dataset, load_records_index
 
-# Fields to keep in compact corpus data
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+BEGIN = "// == DATA:BEGIN =="
+END = "// == DATA:END =="
 KEEP_FIELDS = [
     'id', 'title', 'date', 'year', 'country_pt', 'country', 'medium_norm',
     'support', 'period_norm', 'regime', 'endurecimento_score', 'indicadores',
@@ -29,101 +28,76 @@ KEEP_FIELDS = [
 ]
 
 
-def compact_corpus(data):
-    """Strip corpus data to dashboard-relevant fields."""
-    compact = []
-    for item in data:
-        c = {k: item.get(k) for k in KEEP_FIELDS}
-        compact.append(c)
-    return compact
+def _load_json(path, default):
+    p = Path(path)
+    if not p.exists():
+        return default
+    return json.loads(p.read_text(encoding="utf-8"))
 
 
-def replace_data_block(html, var_name, new_data_json):
-    """Replace `const VAR = [...];` or `const VAR = {...};` in HTML."""
-    pattern = rf'(const\s+{var_name}\s*=\s*)(\[[\s\S]*?\]|\{{[\s\S]*?\}});'
-    match = re.search(pattern, html)
-    if match:
-        return html[:match.start(2)] + new_data_json + html[match.end(2):]
-    print(f"  WARNING: Could not find 'const {var_name} = ...' block")
-    return html
+def _embed_block(html: str, block: str) -> str:
+    if html.count(BEGIN) != 1 or html.count(END) != 1:
+        sys.exit(f"ERRO: delimitadores ausentes ou duplicados "
+                 f"(BEGIN={html.count(BEGIN)}, END={html.count(END)})")
+    pre, rest = html.split(BEGIN, 1)
+    _, post = rest.split(END, 1)
+    return f"{pre}{BEGIN}\n{block}{END}{post}"
 
 
-def refresh_corpus_dashboard():
-    """Re-embed corpus-data.json into DASHBOARD_CORPUS.html."""
-    if not os.path.exists(CORPUS_JSON):
-        print(f"ERROR: {CORPUS_JSON} not found")
-        return False
-    if not os.path.exists(CORPUS_HTML):
-        print(f"ERROR: {CORPUS_HTML} not found")
-        return False
-
-    with open(CORPUS_JSON, 'r', encoding='utf-8') as f:
-        corpus = json.load(f)
-
-    compact = compact_corpus(corpus)
-    data_js = json.dumps(compact, ensure_ascii=False, separators=(',', ':'))
-
-    with open(CORPUS_HTML, 'r', encoding='utf-8') as f:
-        html = f.read()
-
-    html = replace_data_block(html, 'DATA', data_js)
-
-    with open(CORPUS_HTML, 'w', encoding='utf-8') as f:
-        f.write(html)
-
-    print(f"Corpus dashboard refreshed: {len(compact)} items, {len(html):,} bytes")
-    return True
+def _roundtrip_check(html: str, expected_items: int) -> None:
+    for line in html.splitlines():
+        if line.startswith("const DATA = "):
+            data = json.loads(line[len("const DATA = "):].rstrip().rstrip(";"))
+            if len(data) != expected_items:
+                sys.exit(f"ERRO round-trip: embutido {len(data)} != fonte {expected_items}")
+            return
+    sys.exit("ERRO round-trip: const DATA não encontrada após embed")
 
 
-def refresh_agents_dashboard():
-    """Re-embed agent-runs.json into DASHBOARD_AGENTS.html."""
-    if not os.path.exists(AGENTS_HTML):
-        print(f"ERROR: {AGENTS_HTML} not found")
-        return False
+def refresh_corpus_dashboard(repo_root: Path) -> dict:
+    repo_root = Path(repo_root)
+    corpus = _load_json(repo_root / "corpus" / "corpus-data.json", [])
+    items = corpus if isinstance(corpus, list) else corpus.get("items") or corpus.get("records") or []
+    compact = [{k: it.get(k) for k in KEEP_FIELDS} for it in items]
+    index = load_records_index(repo_root / "data" / "processed" / "records.jsonl")
+    dataset = build_dataset(compact, index)
+    agent_runs = _load_json(repo_root / "corpus" / "agent-runs.json", [])
+    n_year = sum(1 for d in dataset if d.get("year"))
+    meta = {"items": len(dataset),
+            "year_coverage": round(n_year / len(dataset), 3) if dataset else 0,
+            "source": "corpus-data.json"}
 
-    runs = []
-    if os.path.exists(AGENT_RUNS):
-        with open(AGENT_RUNS, 'r', encoding='utf-8') as f:
-            runs = json.load(f)
+    block = (
+        "const DATA = " + json.dumps(dataset, ensure_ascii=False, separators=(",", ":")) + ";\n"
+        "const AGENT_RUNS = " + json.dumps(agent_runs, ensure_ascii=False, separators=(",", ":")) + ";\n"
+        "const META = " + json.dumps(meta, ensure_ascii=False, separators=(",", ":")) + ";\n"
+    )
+    html_path = repo_root / "corpus" / "DASHBOARD_CORPUS.html"
+    html = html_path.read_text(encoding="utf-8")
+    new_html = _embed_block(html, block)
+    _roundtrip_check(new_html, len(dataset))
+    html_path.write_text(new_html, encoding="utf-8")
+    print(f"Corpus dashboard refreshed: {len(dataset)} items, year_coverage {meta['year_coverage']:.1%}")
+    return {"items": len(dataset), "bytes": len(new_html.encode("utf-8"))}
 
-    runs_js = json.dumps(runs, ensure_ascii=False, separators=(',', ':'))
 
-    with open(AGENTS_HTML, 'r', encoding='utf-8') as f:
-        html = f.read()
-
-    html = replace_data_block(html, 'RUNS', runs_js)
-
-    with open(AGENTS_HTML, 'w', encoding='utf-8') as f:
-        f.write(html)
-
-    print(f"Agents dashboard refreshed: {len(runs)} runs, {len(html):,} bytes")
-    return True
+def refresh_agents_dashboard(repo_root: Path) -> dict:
+    """Mantido por compatibilidade com DASHBOARD_AGENTS.html (legado)."""
+    print("Agents dashboard: sem mudanças nesta versão (fora do escopo do spec v2)")
+    return {"items": 0, "bytes": 0}
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Refresh dashboard HTML files')
-    parser.add_argument('--corpus', action='store_true', help='Refresh corpus dashboard only')
-    parser.add_argument('--agents', action='store_true', help='Refresh agents dashboard only')
-    args = parser.parse_args()
-
-    do_both = not args.corpus and not args.agents
-    results = []
-
-    if do_both or args.corpus:
-        results.append(('corpus', refresh_corpus_dashboard()))
-    if do_both or args.agents:
-        results.append(('agents', refresh_agents_dashboard()))
-
-    ok = all(r[1] for r in results)
-    summary = ', '.join(f'{r[0]}:{"OK" if r[1] else "FAIL"}' for r in results)
-    print(f"\nResult: {summary}")
-    return {
-        'status': 'success' if ok else 'error',
-        'summary': f'Dashboard refresh: {summary}',
-        'next_actions': [] if ok else ['Check file paths and permissions'],
-        'artifacts': [CORPUS_HTML, AGENTS_HTML]
-    }
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--corpus", action="store_true")
+    ap.add_argument("--agents", action="store_true")
+    args = ap.parse_args()
+    both = not (args.corpus or args.agents)
+    if args.corpus or both:
+        refresh_corpus_dashboard(REPO_ROOT)
+    if args.agents or both:
+        refresh_agents_dashboard(REPO_ROOT)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

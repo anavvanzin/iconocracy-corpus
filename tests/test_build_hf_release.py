@@ -89,6 +89,26 @@ def test_render_readme_describes_drift_direction(delta: int, expected: str):
     assert "Master-record schema versions: `unknown`" in readme
 
 
+def test_render_readme_separates_incompatible_viewer_tables():
+    stats = {
+        "schema_versions": ["2.0.0"],
+        "mean_endurecimento": 0.964,
+        "corpus_records_delta": 0,
+        "generated_at": "2026-08-12T00:00:00Z",
+        "corpus_items": 335,
+        "records_items": 335,
+        "coded_items": 286,
+        "country_count": 19,
+    }
+
+    card = release.render_readme("owner/dataset", "v1", stats, "- note\n")
+
+    assert "- config_name: corpus\n  data_files: corpus-data.json\n  default: true" in card
+    assert "- config_name: records\n  data_files: records.jsonl" in card
+    assert "- config_name: purification\n  data_files: purification.jsonl" in card
+    assert "data_files: release.json" not in card
+
+
 def test_render_changelog_supplies_default_note():
     result = release.render_changelog([], {"corpus_items": 3, "records_items": 3, "coded_items": 2})
 

@@ -20,19 +20,19 @@ tags:
 
 > *Ana Vitória Vanzin Mendes\**
 
-**Resumo**
+## Resumo
 
 Examina-se a Primeira República (1889--1922) a partir do triângulo alegórico Maria--Marianne--República. Sustenta-se que a legitimação do novo regime dependeu de uma *soberania afetiva* --- isto é, a disputa pelo monopólio do vínculo emocional coletivo entre imagens e instituições --- contestada entre a iconografia mariana (Nossa Senhora Aparecida), a personificação cívico-revolucionária francesa (Marianne) e a República-mulher brasileira, síntese vernacular desses repertórios. Propõe-se que a feminilização alegórica do poder, ao articular teologia civil positivista, transferências franco-clássicas e devoções populares, operou como pedagogia cívico-jurídica e tecnologia de estabilização normativa. O marco inaugural é o Decreto n. 4, de 19 de novembro de 1889, que juridifica um léxico visual --- bandeira, armas, selo e sinetes --- e instala um regime de visibilidade estatal; o termo *ad quem*, 1922, assinala a reprogramação de sensibilidades com o Centenário da Independência e a Semana de Arte Moderna. Metodologicamente, aplica-se o itinerário tripartido de Panofsky (1986) em diálogo com a antropologia das imagens (Belting, 2011) e com a história iconológica do direito (Martyn; Huyghebaert, 2018). Demonstra-se que a República brasileira resulta de um *acoplamento simbólico*: marianiza-se no tom afetivo e maternal, marianne-iza-se nos atributos cívicos e converte-se em rosto do Estado por meio de moedas, selos e arquitetura institucional.
 
 **Palavras-chave:** Maria; Marianne; República-mulher; iconografia jurídica; soberania afetiva; numismática; filatelia; cultura visual.
 
-**Abstract**
+## Abstract
 
 This article reads Brazil\'s First Republic (1889--1922) through the Maria--Marianne--Republic allegorical triangle. It argues that republican legitimation relied on a form of *affective sovereignty* --- here defined as the struggle for the monopoly over collective emotional bonds between images and institutions --- contested among Marian iconography (Our Lady of Aparecida), the French civic-revolutionary personification (Marianne), and the Brazilian Republic-as-woman, a vernacular synthesis of both. The feminization of power --- articulating positivist civil theology, Franco-classical transfers, and popular devotions --- operated as a civic-legal pedagogy and a technology for stabilizing legality. Decree no. 4 (Nov. 19, 1889) juridified a visual lexicon (flag, arms, seals), installing a regime of state visibility; 1922 marks a reprogramming of sensibilities with the Centennial of Independence and the Modern Art Week. The Brazilian Republic emerges as a *symbolic coupling*: Marian in affect and maternity, Marianne-like in civic attributes, made the State\'s face through coins, stamps, and institutional architecture.
 
 **Keywords:** Mary; Marianne; female allegories; affective sovereignty; legal iconography; numismatics; philately; visual culture.
 
-**INTRODUÇÃO**
+## INTRODUÇÃO
 
 A Primeira República brasileira (1889--1922) proclamou-se por via militar, sem ampla participação popular. Essa gênese impôs ao novo regime um esforço sistemático de publicização e pedagogia cívico-legal, em que signos e imagens funcionaram como tecnologias de mobilização e instrução. O presente artigo propõe uma leitura dessa gramática visual de Estado, tomando as personificações da República e da Justiça em suportes oficiais e paraoficiais amplamente difundidos no período. A hipótese central sustenta que a feminilização alegórica do poder, combinada a emblemas nacionais e a uma retórica visual de autoridade, operou como pedagogia cívico-jurídica e como tecnologia de legitimação, estabilizando a nova legalidade republicana.
 
@@ -42,27 +42,27 @@ O percurso inicia-se com o Decreto n. 4, de 19 de novembro de 1889, que instituc
 
 Teoricamente, articula-se a noção de Estado imaginário de Pietro Costa (1986; 1994), que compreende o Estado como construção textual e visual continuamente performada por discursos, rituais, símbolos e dispositivos de memória; mobiliza-se a antropologia das imagens (BELTING, 2011), segundo a qual imagem, corpo e meio produzem presença; e dialoga-se com a história iconológica do direito (MARTYN; HUYGHEBAERT, 2018), que reconhece nas imagens jurídicas um campo autônomo de normatividade e memória institucional. Metodologicamente, aplica-se o itinerário tripartido de Panofsky (1986): (i) descrição pré-iconográfica de motivos, atributos, gestos e suportes; (ii) análise iconográfica dos temas República, Justiça, Liberdade e Progresso; e (iii) interpretação iconológica das relações entre forma visual, práticas institucionais e arquitetura jurídico-política.
 
-**1 TEATRO DAS SUPERFÍCIES: MACHADO DE ASSIS E A PEDAGOGIA DOS SIGNOS**
+## 1 TEATRO DAS SUPERFÍCIES: MACHADO DE ASSIS E A PEDAGOGIA DOS SIGNOS
 
-**1.1 A tabuleta nova e a reescrita do espaço urbano**
+### 1.1 A tabuleta nova e a reescrita do espaço urbano
 
 A proclamação da República, em 15 de novembro de 1889, resultou de arranjos militares e oligárquicos, carente de ampla participação popular. Em *Esaú e Jacó*, Machado de Assis descreve, com precisão material, o que sucede no dia imediato à proclamação: um lojista manda retirar a tabuleta com menção ao Império, raspa a madeira, cobre o brasão antigo e encomenda, ao pintor da esquina, a nova inscrição \"da República\" (ASSIS, 2012, cap. LXIII). A operação, feita à vista dos transeuntes, envolve escada, pincel e tinta fresca; a rua comenta a pressa entre a prudência e o oportunismo, enquanto o Conselheiro Aires relativiza o acontecimento como simples \"mudança de pessoal\". Esse micro-ritual de fachada evidencia a reescrita do espaço urbano que se inicia pelas superfícies onde o novo regime se declara por palavras e emblemas antes de se sedimentar em práticas.
 
 Ao enfatizar o teatro das superfícies, a narrativa machadiana permite discernir continuidades por baixo do ruído das rupturas. Historicamente, a República reinscreveu o espaço urbano e a burocracia com repertórios herdados, deslocando seu valor semântico. A lição vale para brasões, selos, efígies e bandeiras que reordenam nomeações de edifícios e repartições, atualizam timbres e naturalizam a clivagem entre Império e República. A imagem --- como ruína e como alegoria --- reutiliza materiais e reprograma sentidos, permitindo observar a persistência de formas sob novas legitimidades (FARIAS, 2003).
 
-**1.2 Estado imaginário, textualidades visuais e história do direito**
+### 1.2 Estado imaginário, textualidades visuais e história do direito
 
 A reflexão de Pietro Costa acerca do conceito de Estado imaginário oferece o pano de fundo teórico desta investigação. Em *Lo Stato immaginario* (1986) e *Il progetto giuridico* (1974), Costa mostra o Estado como construção textual e conceitual, continuamente performada por discursos, rituais, símbolos e dispositivos de memória. O discurso jurídico não descreve apenas a ordem: ele institui a própria ordem que enuncia, mobilizando representações que tornam visível a autoridade e convocam adesão. Nessa chave, as imagens aqui estudadas funcionam como textualidades visuais do poder: instauram padrões de reconhecimento, distribuem papéis cívicos e inscrevem a República em um tempo expandido e em um espaço nacional materializados por uma produção de lugares --- monumentos, emblemas, moedas, selos, frontispícios --- que fixam memórias e narrativas de continuidade.
 
 A iconografia da República-mulher condensa, em uma única figura, vetores estruturantes do período: transferências iconográficas franco-clássicas, a teologia civil positivista, a disputa simbólica com o catolicismo mariano e a função jurídico-pedagógica em suportes de Estado. Ela é, ao mesmo tempo, rosto do poder e campo de prova das tensões do período. A sua ativação na imprensa ilustrada antes mesmo de 15 de novembro de 1889 --- como demonstram a *Revista Illustrada* de Angelo Agostini (9 de junho de 1888) e as charges de Pereira Neto (16 de novembro de 1889) --- indica que a alegoria não nasce *ex nihilo*: ancora-se em repertórios transnacionais, mas é prontamente vernacularizada.
 
-**2 O TRIÂNGULO ALEGÓRICO: MARIA, MARIANNE E REPÚBLICA**
+## 2 O TRIÂNGULO ALEGÓRICO: MARIA, MARIANNE E REPÚBLICA
 
 Propõe-se que a Primeira República se construiu visualmente a partir de um triângulo de mediações: (i) Maria (Nossa Senhora Aparecida), portadora de capital devocional capilar e duradouro; (ii) Marianne, matriz cívico-revolucionária que fornece atributos, poses e um repertório clássico; e (iii) a República-mulher brasileira, figura de síntese que vernaculariza ambos os polos e os canaliza para um programa de ordem e progresso. A disputa de jurisdição simbólica entre as três figuras estrutura o argumento central sobre *soberania afetiva*.
 
 Desde o limiar republicano, o Estado apropriou-se de códigos iconográficos sedimentados na tradição revolucionária europeia. A genealogia imediata combina o repertório clássico-republicano francês --- barrete frígio, louros, lança, feixe, leme --- com apropriações locais e disputas confessionais, numa constelação que José Murilo de Carvalho sintetiza no contraste entre \"mariolatria\" e \"marianolatria\" --- o culto de Maria versus o culto de Marianne (CARVALHO, 1990, p. 75).^1^ A coroação canônica de Nossa Senhora Aparecida, em 1904, autorizada por Pio X, intensificou essa dinâmica ao consolidar sua centralidade devocional em escala nacional, reforçando a legitimidade eclesiástica e popular (AZZI, 1994, p. 87-114).^2^
 
-**2.1 Linhagens e atributos comparados**
+### 2.1 Linhagens e atributos comparados
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Eixo**                     **Maria (Aparecida)**                   **Marianne**                           **República-mulher (Brasil)**
@@ -82,33 +82,33 @@ Desde o limiar republicano, o Estado apropriou-se de códigos iconográficos sed
 
 *Quadro 1 --- Comparação entre os três polos do triângulo alegórico*
 
-**2.2 Economias do afeto e pedagogia política**
+### 2.2 Economias do afeto e pedagogia política
 
 A eficácia das três figuras depende de economias afetivas distintas: a ternura protetiva (Maria), o ardor cívico (Marianne) e a serenidade normativa (República). Sara Ahmed, em *The Cultural Politics of Emotion* (2004), demonstrou que as emoções não são estados interiores privados, mas forças que *circulam* entre corpos, objetos e signos, produzindo superfícies e fronteiras sociais — o que ela chama de "economia afetiva" (Ahmed, 2004, p. 44-49). A categoria é diretamente operável aqui: as três figuras do triângulo são, cada uma, *nós* de circulação afetiva que produzem adesão, repulsa ou indiferença conforme o regime de contato (devocional, cívico, administrativo) e o suporte material (estampa, moeda, selo). O Brasil republicano combinou esses registros para produzir adesão sem ruptura devocional, transferindo para o Estado uma gramática maternal de amparo e ordem.
 
 Essa operação não é neutra. Ao mobilizar o afeto coletivo em torno de uma figura feminina sem conferir às mulheres reais qualquer espaço na ordem político-jurídica, o regime produziu aquilo que se pode chamar de *dissonância performativa* — a mulher representa a República nos signos, mas é silenciada na participação (WARNER, 1985, p. 38-67). O conceito de performatividade, tal como desenvolvido por Judith Butler, permite precisar a natureza dessa dissonância: não se trata de uma "representação falsa" (como se a República-mulher mentisse sobre a condição real das mulheres), mas de uma *produção performativa* de gênero — a repetição ritualizada da alegoria feminina nos suportes estatais *constitui* uma feminilidade de Estado que funciona precisamente porque não tem referente real (Butler, 1990). A República-mulher não representa as mulheres brasileiras; ela *performa* uma feminilidade institucional que só é eficaz enquanto as mulheres concretas permanecerem fora do campo político. Quando Joan Scott propõe que o gênero é "uma forma primária de significar relações de poder" (Scott, 1986, p. 1067), ela antecipa exatamente essa dinâmica: a feminização da alegoria não é acidental — é um modo de organizar a hierarquia entre quem governa (masculino, invisível) e quem simboliza (feminino, visível mas sem agência).
 
-**2.3 Juridificação dos ícones**
+### 2.3 Juridificação dos ícones
 
 Do lado cívico-estatal, o Decreto n. 4, de 19 de novembro de 1889, juridifica emblemas e instala um regime de visibilidade oficial, tornando a imagem não apenas ornamentação, mas obrigação de Estado: bandeira, armas, selos e sinetes passam a integrar os atos de chancela, os papéis timbrados, as fachadas e os rituais solenes, conferindo previsibilidade visual e disciplinando o olhar cívico. Do lado católico, a coroação de Aparecida (1904) consolida uma soberania mariana com capilaridade social que o Estado laico não logrou reproduzir artificialmente. A República-mulher nasce, assim, como figura de ponte: marianiza o tom afetivo e marianne-iza os atributos cívicos, tornando-se legível tanto no santuário doméstico quanto na fachada do fórum.
 
-**3 LÉXICO MARIANO E A INVENÇÃO CÍVICA DO FEMININO**
+## 3 LÉXICO MARIANO E A INVENÇÃO CÍVICA DO FEMININO
 
-**3.1 Arquétipos marianos**
+### 3.1 Arquétipos marianos
 
 A devoção mariana constitui eixo da religiosidade popular brasileira. Invocações como Nossa Senhora da Conceição e, sobretudo, Nossa Senhora Aparecida estruturam um léxico visual em que véu, manto azul, túnica branca, lua crescente, serpente esmagada e coroa de doze estrelas constroem uma soberania maternal. A iconografia da Assunção projeta uma apoteose feminina, enquanto a Imaculada concentra sinais de pureza e realeza celeste --- posição frontal, raios de luz, querubins, fundo glorioso. Esse repertório, consolidado desde o Barroco luso-brasileiro, já estava socialmente estabilizado quando a República o tomou como adversário simbólico.
 
-**3.2 A Redentora secular: Princesa Isabel e o léxico do amparo**
+### 3.2 A Redentora secular: Princesa Isabel e o léxico do amparo
 
 A imagem pública da Princesa Isabel, após a sanção da Lei Áurea (1888), operou uma secularização do arquétipo mariano. A alcunha \"Redentora\" a revestiu de virtudes emprestadas da hagiografia de Maria e a colocou como ponte simbólica entre a Rainha dos Céus e a Mãe Pátria cívica que a República passaria a demandar. As cerimônias e doações em honra a Aparecida, realizadas pela Coroa imperial em derradeira instância, adensaram essa associação entre mediação espiritual e poder temporal (AZZI, 1994).
 
-**3.3 Tensão e sincretismo: a \"República marianizada\"**
+### 3.3 Tensão e sincretismo: a \"República marianizada\"
 
 No início republicano, o repertório mariano já gozava de capilaridade social inatingível para um Estado com pouco mais de uma década de existência. Ao tentar suplantá-lo, o novo regime promoveu uma substituição funcional que produziu também uma síntese: a \"República marianizada\". Em telas, monumentos e rituais, serenidade maternal e glória cívica conviveram sob uma estética que pretendia ordem e progresso sem apagar o lastro devocional que informava a recepção pública.
 
 Do lado oficial-cívico, o positivismo pesou decisivamente: a teologia civil comtiana inspirou Décio Villares e Eduardo de Sá a projetarem uma iconografia maternal (Humanidade/Virgem-Mãe), visível em estandartes, medalhões e monumentos dedicados a Benjamin Constant e Floriano Peixoto. A variante belicosa --- a Atena armada --- também circulou, sobretudo na imprensa e em alegorias de ocasião, articulando *virtus* e ordem (CARVALHO, 1990, p. 65-78). Dada a vedação da participação política feminina, faltou à República-mulher uma comunidade de imaginação capaz de sustentar o símbolo; daí o deslizamento frequente do ideal cívico para a sátira --- \"mulher pública\", ama-de-leite da máquina política --- na passagem de 1900 a 1910.
 
-**3.4 A cor da República: racialização e apagamento**
+### 3.4 A cor da República: racialização e apagamento
 
 O triângulo alegórico não pode ser adequadamente compreendido sem atenção à dimensão racial que o atravessa — dimensão que permaneceu impensada tanto pela historiografia positivista quanto pela análise iconográfica convencional. O paradoxo é estrutural: no vértice mariano, Nossa Senhora Aparecida é uma imagem *negra* — a pequena escultura de terracota escurecida pelas águas do rio Paraíba, encontrada por pescadores em 1717, cuja negritude é constitutiva da devoção popular e da identificação afetiva de milhões de brasileiros. No vértice republicano, porém, a República-mulher é invariavelmente *branca*: perfil neoclássico europeu, pele clara, traços idealizados à maneira de Marianne. A passagem de Maria a República opera, assim, não apenas uma secularização, mas um *embranquecimento*: a soberania afetiva mariana, ancorada em um corpo negro, é traduzida em soberania cívica por um corpo branco.
 
@@ -116,13 +116,13 @@ Essa operação não é acidental. Ela ocorre no exato momento em que o Brasil p
 
 Essa fricção racial ilumina de modo novo a "dissonância performativa" identificada por Warner: não se trata apenas de a mulher representar a República enquanto é excluída da política — trata-se de uma mulher *branca* representar uma nação majoritariamente *negra e mestiça*, num regime que simultaneamente apaga a contribuição negra à sua própria legitimidade simbólica. O triângulo Maria–Marianne–República é, portanto, também um triângulo racial: negro (Aparecida) — branco (Marianne) — branco (República), cuja operação de embranquecimento constitui uma camada adicional do contrato visual que sustenta a soberania afetiva republicana.
 
-**4 MARIANNE E AS TRANSFERÊNCIAS FRANCO-CLÁSSICAS**
+## 4 MARIANNE E AS TRANSFERÊNCIAS FRANCO-CLÁSSICAS
 
 A versão brasileira da alegoria republicana deslocou a veemência insurrecional da linhagem francesa e privilegiou uma majestade clássica, harmônica com o projeto de ordem. A produção acadêmica e oficial sedimentou atributos recorrentes: barrete frígio (liberdade), espada (força), balança (justiça), louros (glória), céu estrelado (cosmografia da bandeira). Pinturas como a *Alegoria da República* de Manoel Lopes Rodrigues (1896), composições de Décio Villares no círculo positivista e obras comemorativas do centenário (1922) exemplificam um repertório que hibridiza trono e barrete, manto e estrela, pedagogia e pompa.
 
 Essa gramática estabilizou um decoro específico: a República é uma mulher altiva, vestida à maneira clássica, com gestual de serenidade e comando. A tropicalização de motivos --- ramos de café, céu do Cruzeiro do Sul, cromias nacionais --- assinalou um processo de apropriação que integrou economia, astronomia cívica e erudição acadêmica em uma mesma superfície de autoridade. A comparação com o modelo delacroixiano é instrutiva: em *A Liberdade guiando o povo* (1830), Marianne avança entre a fumaça da batalha, com o torso desnudo e o fuzil empunhado --- imagem de insurgência que o Brasil republicano sistematicamente recalibrou em direção ao decoro institucional (LIMA JÚNIOR, 2020, p. 45-62).
 
-**5 MÉTODO E CORPUS**
+## 5 MÉTODO E CORPUS
 
 Adota-se um percurso em três níveis, conforme o itinerário panofskiano (PANOFSKY, 1986): (i) descrição pré-iconográfica dos motivos, atributos, gestos e suportes; (ii) análise iconográfica dos temas (República, Justiça, Liberdade, Progresso) e de seus repertórios clássicos; e (iii) interpretação iconológica das relações entre forma visual, práticas institucionais e estrutura jurídico-política. Dialoga-se com a antropologia das imagens (BELTING, 2011), entendendo imagem, corpo e meio como tríade de produção de presença, e com a história iconológica do direito (MARTYN; HUYGHEBAERT, 2018), que reconhece nas imagens jurídicas um campo autônomo de produção de normatividade e memória institucional.
 
@@ -130,9 +130,9 @@ O corpus contempla: (a) atos normativos e regulamentos iconográficos --- em esp
 
 Para cada peça, registram-se suporte, material e técnica; descrevem-se atributos (barrete frígio, louros, balança, espada, estrela, constelação), inscrições (legendas, lemas), composição e posicionamento espacial. Compara-se o exemplar a repertórios europeus e latino-americanos, cotejando migrações de modelos e adaptações locais. No plano iconológico, articulam-se usos cerimoniais e rotinas administrativas (timbres, sinetes, papel oficial) à eficácia normativa das imagens. A concentração em centros urbanos e acervos documentados --- Rio de Janeiro e São Paulo --- é reconhecida como limitação metodológica, apontando agenda futura para justiças estaduais e capitais regionais.
 
-**6 ESTUDOS DE CASO (1889--1922)**
+## 6 ESTUDOS DE CASO (1889--1922)
 
-**6.1 Três imagens em paralelo: moeda, selo e estampa**
+### 6.1 Três imagens em paralelo: moeda, selo e estampa
 
 Para consolidar o triângulo Maria--Marianne--República, apresentam-se três leituras segundo o itinerário de Panofsky, de modo a evidenciar atributos, economias afetivas e efeitos jurídico-pedagógicos.
 
@@ -150,7 +150,7 @@ Descrição pré-iconográfica: imagem devocional impressa, formato pequeno, com
 
 Tomadas em paralelo, a moeda (rito cívico), o selo (rotina administrativa) e a estampa (devoção popular) configuram três canais de soberania afetiva. O Brasil republicano vernaculariza Marianne pela via do decoro clássico e amarra a adesão popular por uma tonalidade mariana de proteção. O triângulo Maria--Marianne--República opera, assim, como mecanismo de legitimação que alia presença material, economia do afeto e normatividade visual.
 
-**6.2 Leituras pictóricas comparadas**
+### 6.2 Leituras pictóricas comparadas
 
 6.2.1 Virgem Maria, Bartolomé E. Murillo, *Imaculada Conceição dos Veneráveis* (c. 1678)^3^
 
@@ -178,19 +178,19 @@ A análise comparada dessas cinco imagens permite isolar três *Pathosformeln* �
 
 (iii) **A ascensão/elevação** (*Pathosformel* da apoteose). Em Murillo, a Virgem flutua sobre querubins. Em Chambelland (1922), a República ascende entre anjos e luz. A *Pathosformel* apoteótica é a mais explicitamente religiosa das três e sua presença no centenário republicano confirma a tese do acoplamento simbólico: mesmo sob regime laico, a gramática visual do sagrado persiste como estrutura de legitimação afetiva. O corpo feminino é elevado acima do plano terrestre — e, nesse gesto, despojado de historicidade, materialidade e agência.
 
-**6.3 Numismática e filatelia: cronologia alegórica (1889--1922)**
+### 6.3 Numismática e filatelia: cronologia alegórica (1889--1922)
 
 A queda da monarquia abriu a fase de engenharia simbólica intensiva. A efígie da República substituiu o retrato imperial nas moedas, convertendo transações ordinárias em catecismo visual do regime; a filatelia acompanhou o movimento com séries regulares e comemorativas que alternaram a personificação feminina e emblemas nacionais. Em ambos os casos, a reprodução massiva de signos de soberania generalizou um vocabulário imagético acessível e reiterativo.
 
 Em 1889, a moeda de 500 réis inaugurou o regime alegórico. Em 1894--1897, a série \"Cabeça da Liberdade\" (selos) difundiu o perfil feminino com barrete frígio em diferentes cores e perfurações, tornando a República reconhecível como rosto e atributo --- não como figura de soberano. A moeda de 200 réis de 1901 (\"Liberdade\") simplificou industrialmente a alegoria em suporte resistente e popular. A série comemorativa do IV Centenário do Descobrimento (1900) reescreveu a origem colonial sob semântica republicana, articulando fundação (1500) e refundação (1889) em uma mesma superfície postal. A moeda de 500 réis de 1913 incorporou coroa de vinte e uma estrelas na orla, visualizando a engenharia constitucional federativa. O ciclo encerrou-se em 1922, com moedas e selos do Centenário da Independência que conciliaram simbolicamente os dois regimes, produzindo um pacto visual de continuidade estatal.
 
-**6.4 A Pátria (Pedro Bruno, 1919): o feminino costurando a nação**
+### 6.4 A Pátria (Pedro Bruno, 1919): o feminino costurando a nação
 
 *A Pátria* encena a confecção da bandeira em ambiente doméstico, ocupado por mulheres e crianças. O nascimento do símbolo máximo da República dá-se no lar, sob o olhar de uma imagem mariana discretamente posicionada ao fundo. O quadro performa uma conciliação: a Pátria secular coexiste com a devoção tradicional; a República surge como obra de mãos femininas, mas circunscritas ao espaço privado. A cena projeta um ideal racializado de nação e materializa com precisão a dissonância performativa que atravessa todo o período: a mulher representa a República nos signos, mas é silenciada na participação.
 
 A leitura iconológica evidencia a pedagogia do decoro: o feminino costura a bandeira, a religião provê a moldura moral, a República inaugura seu emblema sem convocar conflito. Em termos jurídicos, a imagem naturaliza uma cidadania diferenciada, em que a presença feminina se limita à produção simbólica e à domesticidade. Moedas, selos e frontispícios ampliam essa pedagogia no espaço urbano e institucional, escolarizando o olhar para uma ordem em que a soberania afetiva repousa sobre a obliteração das mulheres reais (WARNER, 1985, p. 38-67).
 
-**7 CONTRAPEDAGOGIA SATÍRICA E LIMITES DA ADESÃO**
+## 7 CONTRAPEDAGOGIA SATÍRICA E LIMITES DA ADESÃO
 
 A mesma figura que legitimava a ordem converteu-se em alvo de sátira. Na *Revista Illustrada* (Angelo Agostini, 1888-1889) e em *O Mequetrefe* (17/11/1889), a República emergiu ora com ecos do heroísmo revolucionário francês, ora com contornos de ímpeto insurrecional. Já em *O Malho* (15/11/1902; 14/11/1903) e em *O Gato* (22/3/1913), a alegoria degenera: da jovem ideal à mulher madura e debochada; da mãe nutriz à \"vaca leiteira\" do Estado. Charges e caricaturas exploraram tropos como a \"mulher pública\" e a ama de leite da máquina política, expondo vícios oligárquicos e promessas não cumpridas.
 
@@ -198,7 +198,7 @@ A ausência de uma comunidade feminina de imaginação política --- dada a excl
 
 A ironia machadiana sobre a tabuleta nova antecipa com precisão esse mecanismo: a substituição de signos não garante adesão --- ela apenas abre uma disputa sobre quem controla o sentido. A contrapedagogia satírica é, nesse sentido, o avesso necessário da pedagogia de Estado; e ambas integram o mesmo campo de soberania afetiva, definindo seus limites e suas fraturas.
 
-**8 CONSIDERAÇÕES FINAIS**
+## 8 CONSIDERAÇÕES FINAIS
 
 A análise demonstra que a iconografia republicana brasileira emergiu de uma operação de substituição simbólica que procurou deslocar o Imperador e competir com a centralidade mariana. O resultado foi um imaginário híbrido, de forte vocação conciliadora, em que a República assumiu traços de serenidade maternal e decoro clássico, projetando progresso sem romper o vínculo emocional com a devoção. O triângulo Maria--Marianne--República não foi uma solução estável: foi um campo de tensão permanente, cujas fraturas se revelaram na sátira política, nas disputas confessionais e, acima de tudo, na dissonância entre a monumentalização alegórica do feminino e a exclusão concreta das mulheres do campo político e jurídico.
 
@@ -208,7 +208,7 @@ Do ponto de vista jurídico e político, a feminilização alegórica funcionou 
 
 A Primeira República legou, assim, um repertório iconográfico que permanece operante. Sob novas formas, a disputa entre devoção e civilidade, maternidade e soberania, permanece ativa na cultura visual e no vocabulário político do Brasil. A República-mulher, como rosto do poder, segue apta a revelar o que esse poder deseja mostrar --- e o que prefere silenciar.
 
-**REFERÊNCIAS**
+## REFERÊNCIAS
 
 AHMED, Sara. *The Cultural Politics of Emotion*. Edinburgh: Edinburgh University Press, 2004.
 
@@ -250,7 +250,7 @@ SCOTT, Joan W. Gender: A Useful Category of Historical Analysis. *The American H
 
 WARNER, Marina. *Monuments and Maidens: The Allegory of the Female Form*. Berkeley: University of California Press, 1985.
 
-**NOTAS**
+## NOTAS
 
 1 Sobre a genealogia iconográfica de Marianne e suas transferências para o contexto sul-americano, ver LIMA JÚNIOR, Carlos Rogério. *Marianne à brasileira: imagens republicanas e os dilemas do passado imperial*. Tese (Doutorado em História) --- FFLCH/USP, São Paulo, 2020. p. 23-44.
 
