@@ -1,6 +1,0 @@
-# ARGOS acquisition orchestrator — optional dependencies.
-# Install with:  pip install -r requirements-argos.txt
-# Playwright additionally needs:  playwright install chromium
-
-requests>=2.31
-playwright>=1.40
