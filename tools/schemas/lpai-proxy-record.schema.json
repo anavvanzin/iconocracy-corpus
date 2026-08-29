@@ -1,0 +1,339 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://iconocracia.com/schemas/lpai-proxy-record.schema.json",
+  "title": "LPAI proxy staging record",
+  "description": "Uma linha proxy-only do staging LPAI. Não autoriza merge sem adjudicação humana.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "item_id",
+    "item_hash",
+    "proxy_only",
+    "authority",
+    "target_field",
+    "merge_policy",
+    "human_class",
+    "human_coded_by_at_read_time",
+    "capta_declaration",
+    "coded_by",
+    "coded_at",
+    "model",
+    "script_version",
+    "proxy_schema_version",
+    "prompt_version",
+    "codebook_version",
+    "image_source",
+    "usage",
+    "proposta"
+  ],
+  "properties": {
+    "item_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "item_hash": {
+      "type": "string",
+      "minLength": 1
+    },
+    "proxy_only": {
+      "const": true
+    },
+    "authority": {
+      "const": "proxy"
+    },
+    "target_field": {
+      "const": "purificacao_proposta"
+    },
+    "merge_policy": {
+      "const": "requires_human_adjudication"
+    },
+    "human_class": {
+      "type": "null"
+    },
+    "human_coded_by_at_read_time": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "capta_declaration": {
+      "type": "string",
+      "minLength": 1
+    },
+    "coded_by": {
+      "const": "lpai-proxy-k3"
+    },
+    "coded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "script_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "proxy_schema_version": {
+      "const": "1.0.0"
+    },
+    "prompt_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "codebook_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "image_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "usage": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "proposta": {
+      "$ref": "#/$defs/proposal"
+    }
+  },
+  "$defs": {
+    "proposal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "item_id",
+        "codificavel",
+        "indicadores",
+        "inventario_verbal",
+        "confianca",
+        "justificativa",
+        "notes"
+      ],
+      "properties": {
+        "item_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "codificavel": {
+          "type": "boolean",
+          "description": "A evidência permite codificação visual suficiente."
+        },
+        "indicadores": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "desincorporacao",
+            "rigidez_postural",
+            "dessexualizacao",
+            "uniformizacao_facial",
+            "heraldizacao",
+            "enquadramento_arquitetonico",
+            "apagamento_narrativo",
+            "monocromatizacao",
+            "serialidade",
+            "inscricao_estatal"
+          ],
+          "properties": {
+            "desincorporacao": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "rigidez_postural": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "dessexualizacao": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "uniformizacao_facial": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "heraldizacao": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "enquadramento_arquitetonico": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "apagamento_narrativo": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "monocromatizacao": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "serialidade": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            },
+            "inscricao_estatal": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 3
+            }
+          }
+        },
+        "inventario_verbal": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Atributos observados, sem índice ou escore agregado."
+        },
+        "familia_alegorica": {
+          "type": "string"
+        },
+        "subtipo": {
+          "type": "string"
+        },
+        "regime_iconocratico": {
+          "type": "string",
+          "enum": [
+            "fundacional",
+            "normativo",
+            "militar",
+            "contra-alegoria",
+            "NC"
+          ]
+        },
+        "recusa": {
+          "type": "string",
+          "enum": [
+            "substituicao_remasculinizante",
+            "negacao_pura",
+            "feminino_esvaziado",
+            "substituicao_neutro_abstrata",
+            "nenhuma"
+          ]
+        },
+        "genero_atribuido": {
+          "type": "string"
+        },
+        "funcao_juridica": {
+          "type": "string"
+        },
+        "vetor_colonial": {
+          "type": "string",
+          "enum": [
+            "europeu_direto",
+            "luso_brasileiro",
+            "republicano_brasileiro",
+            "nao_aplicavel"
+          ]
+        },
+        "atributos_iconograficos": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hipotese_racial": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "dado_negativo": {
+          "type": "boolean"
+        },
+        "subaltern_caution": {
+          "type": "boolean"
+        },
+        "programa_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ordem_no_programa": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "finalidade_atribuida": {
+          "type": "string",
+          "enum": [
+            "legitimacao_juridica",
+            "pedagogia_civica",
+            "dissuasao",
+            "comemoracao",
+            "branding_estatal",
+            "outro"
+          ]
+        },
+        "power_at_stake": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "confianca": {
+          "type": "string",
+          "enum": [
+            "alta",
+            "media",
+            "baixa"
+          ]
+        },
+        "nc_causa": {
+          "type": "string",
+          "enum": [
+            "evidencia_insuficiente",
+            "ambiguidade",
+            "fora_de_escopo",
+            "sem_imagem"
+          ]
+        },
+        "justificativa": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string"
+        },
+        "duvidas": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "codificavel": {
+                "const": false
+              }
+            },
+            "required": [
+              "codificavel"
+            ]
+          },
+          "then": {
+            "required": [
+              "nc_causa"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
