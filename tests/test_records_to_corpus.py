@@ -42,3 +42,12 @@ def test_blank_or_non_string_medium_is_not_a_canonical_source() -> None:
         )
 
         assert "support" not in entry
+
+
+def test_missing_place_hint_does_not_fabricate_country() -> None:
+    record = _record()
+    record["input"].pop("place_hint")
+
+    entry = _corpus_entry_from_record(record, existing={"id": "TEST-001"})
+
+    assert "country" not in entry

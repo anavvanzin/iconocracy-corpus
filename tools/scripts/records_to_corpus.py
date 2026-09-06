@@ -205,7 +205,9 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     if country:
         entry["country"] = country
     elif not entry.get("country"):
-        entry["country"] = "Brazil"
+        # Missing provenance must remain explicit.  A default country would
+        # fabricate a research fact and silently bias country-level analysis.
+        entry.pop("country", None)
 
     # Overwrite with authoritative fields from records.jsonl
     entry.update({

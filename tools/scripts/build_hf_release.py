@@ -223,12 +223,24 @@ def ensure_hf_auth() -> None:
 def validate_local_contract() -> None:
     """Fail closed if local dataset artifacts are invalid or drifted."""
     validate_script = REPO / "tools" / "scripts" / "validate_schemas.py"
+    idempotence_script = REPO / "tools" / "scripts" / "check_corpus_export_idempotent.py"
+    traceability_script = REPO / "tools" / "scripts" / "trace_evidence.py"
     subprocess.run(
         [sys.executable, str(validate_script), str(RECORDS), "--schema", "master-record", "--verbose"],
         check=True,
     )
     subprocess.run(
         [sys.executable, str(validate_script), str(PURIFICATION), "--schema", "purification-record", "--verbose"],
+        check=True,
+    )
+    subprocess.run([sys.executable, str(idempotence_script)], check=True)
+    subprocess.run(
+        [
+            sys.executable,
+            str(traceability_script),
+            str(RECORDS),
+            "--fail-on-high",
+        ],
         check=True,
     )
 
