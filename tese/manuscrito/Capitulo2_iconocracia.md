@@ -3,9 +3,9 @@ titulo: "Iconocracia: a Economia Política da Imagem Soberana"
 parte: "I — Moldura Teórica"
 capitulo: 2
 status: "rascunho"
-palavras: 620
-citacoes: 5
-updated: "2026-04-10"
+palavras: 3159
+citacoes: 11
+updated: "2026-09-06"
 pandoc:
   reference-doc: "template.docx"
   csl: "abnt.csl"
@@ -34,14 +34,69 @@ Esse esvaziamento serve a uma engenharia jurídica específica. Ao colocar a mul
 
 A Feminilidade de Estado, tal como aqui formulada, não emerge de uma única matriz teórica. Ela se sustenta sobre uma dupla raiz genealógica que precisa ser explicitada. De um lado, Pierre Legendre fornece o paterno-totêmico: o juiz totêmico da antropologia dogmática inscreve no corpo alegórico a operação que produz o "corpo sem palavras" como função institucional, capturando o desejo do sujeito por intermédio de uma imagem que ocupa o lugar estrutural do Outro absoluto (LEGENDRE, 1994). De outro lado, Anne Carson oferece a operação simbólica complementar: a hystéra, lida desde a medicina hipocrática e desde a pólis clássica, é o órgão errante que organiza a percepção do feminino como instabilidade fluida, suscetível de desordens que ameaçam a ordem masculina (CARSON, 2023). A Feminilidade de Estado opera, portanto, na junção exata entre essas duas tradições: domestica a instabilidade carsoniana — o útero móvel, a matéria dúctil, a mulher como receptáculo platônico — convertendo-a, por meio da codificação totêmica legendrense, em superfície imóvel apta a sustentar a soberania. O que o totem fixa, a hystéra ameaça desestabilizar; a alegoria estatal resolve a tensão pela via plástica do mármore e pela via simbólica do esvaziamento.
 
-## 2.3 — Regimes iconocráticos: Fundacional, Normativo, Militar
+## 2.3 — Regimes iconocráticos: Fundacional, Normativo, Militar e Contra-Alegórico
 
-Os regimes iconocráticos funcionam como matrizes morfológicas que organizam a circulação da Feminilidade de Estado ao longo do tempo. O regime Fundacional mobiliza Pathosformeln revolucionárias: corpos inclinados, tecidos em movimento, gestos de ruptura (WARBURG, 2000). É nele que a hipervisibilidade feminina oferece um álibi à ausência de cidadania real. O regime Normativo, por sua vez, transforma a energia fundacional em rotina administrativa. Nas prensas dos correios e das casas da moeda, o corpo alegórico é estabilizado, centralizado, frontalizado. A figura torna-se selo ou moeda justamente porque já não ameaça transbordar. Por fim, o regime Militar opera o endurecimento máximo: a alegoria empunha armas, se petrifica em bronze, assume fardas ou couraças e é colocada à porta de edifícios judiciais que representam o monopólio estatal da violência.
+Os regimes iconocráticos funcionam como matrizes morfológicas que organizam a circulação da Feminilidade de Estado ao longo do tempo. Eles não são fases históricas sucessivas, nem categorias estanques; são vetores de intensificação que podem coexistir no mesmo período, no mesmo suporte, às vezes no mesmo artefato. A classificação não é mero artifício narrativo: trata-se de uma chave analítica que permite ler a variação do endurecimento e, por conseguinte, o modo como o Contrato Sexual Visual se adapta a crises políticas.
 
-Cada regime corresponde a uma inflexão da economia icônica. O Fundacional gasta capital afetivo para legitimar a ruptura. O Normativo coleta dividendos de obediência diária. O Militar contrai dívidas com o medo. Esses regimes não se sucedem linearmente; eles convivem e se sobrepõem, como mostram as séries de selos franceses que oscilam entre uma Marianne quase viva e uma Marianne mecanizada ao longo do século XX. O capítulo demonstrará que a classificação dos regimes não é mero artifício narrativo: trata-se de uma chave analítica que permite ler a variação do endurecimento e, por conseguinte, o modo como o Contrato Sexual Visual se adapta a crises políticas.
+O regime **Fundacional** mobiliza Pathosformeln revolucionárias: corpos inclinados, tecidos em movimento, gestos de ruptura (WARBURG, 2000). É nele que a hipervisibilidade feminina oferece um álibi à ausência de cidadania real. A República nascente precisa de corpos que pareçam sair do chão, como a Marianne de Delacroix ou a Alegoria da República que estampa a *Revista Ilustrada* em 1889. Nesses artefatos, a alegoria ainda carrega resíduo narrativo: a mulher-genericamente-o-povo ainda se move, ainda aponta, ainda conduz. O baixo endurecimento fundacional não é ingenuidade estética; é o investimento inicial de capital afetivo que compra, por antecipação, a obediência das mulheres excluídas da cidadania.
+
+O regime **Normativo** transforma a energia fundacional em rotina administrativa. Nas prensas dos correios e das casas da moeda, o corpo alegórico é estabilizado, centralizado, frontalizado. A figura torna-se selo ou moeda justamente porque já não ameaça transbordar. Onde a fundacional precisava de paixão, a normativa precisa de reconhecimento instantâneo: a Marianne perfilada numa moeda de 1900, a *Columbia* em selos postais, a Justiça numa estampa de cartório. Aqui o endurecimento sobe porque a narrativa é podada: não há mais cena, há apenas emblema. O Contrato Sexual Visual, nesse estágio, deixa de ser performance dramática para virar assinatura visual do Estado.
+
+O regime **Militar** opera o endurecimento máximo: a alegoria empunha armas, se petrifica em bronze, assume fardas ou couraças e é colocada à porta de edifícios judiciais que representam o monopólio estatal da violência. Não se trata apenas de figuras guerreiras, mas de uma cristalização da autoridade em momentos de crise: a *Germania* do monumento de Niederwald, a *Britannia* armada dos cartões postais imperialistas, a *Justiça* sentada diante do Supremo Tribunal Federal. O militarismo iconocrático contrae dívidas com o medo e exige que o corpo alegórico pareça indestrutível, como se a própria lei fosse feita do mesmo bronze.
+
+Há, no entanto, um quarto regime, menos numeroso no corpus, mas teoricamente decisivo: o regime **Contra-Alegórico**. Trata-se do vetor inverso — da subversão, da caricatura, da recusa da Purificação Clássica. Onde os três primeiros regimes investem no corpo feminino para legitimar o Estado, o contra-alegórico retira esse corpo do pedestal, devolve-lhe narrativa, grotesco, sexo, raça, suor ou fome. Os itens do corpus classificados como contra-alegoria não são exceções decorativas: são falhas estruturais do Contrato Sexual Visual, momentos em que o corpo deixou de funcionar como infraestrutura de afeto público e voltou a incomodar. Como mostrarei na análise quantitativa do Capítulo 6, as contra-alegorias aparecem como *baseline* de baixo endurecimento: são o que a Purificação Clássica tenta, e falha, em eliminar.
+
+A coexistência dos quatro regimes explica por que a mesma nação pode oscilar, num intervalo de poucos anos, entre uma Marianne viva e uma Marianne mecanizada. As séries de selos franceses do século XX registram exatamente essa pulsação: fundacional após crises revolucionárias, normativa na rotina administrativa, militar nas ameaças externas, contra-alegórica nas brechas da contestação. A iconocracia, assim, não é uma máquina de sentido único; é uma economia de regimes que alterna capital afetivo, dividendos de obediência e dívidas com o medo — e que, em alguns momentos, também enfrenta o risco do avesso.
 
 ## 2.4 — O Pathosformel jurídico: Warburg, Agamben e a sobrevivência das fórmulas
 
 Warburg ensinou que as imagens carregam gestos ancestrais — as Pathosformeln — que sobrevivem como tensões comprimidas (WARBURG, 2000). Quando uma Justiça segura a balança com a mão elevada e inclina minimamente o torso, ela reativa uma fórmula expressiva que atravessa dois milênios. Essa sobrevivência não é neutra. No direito, a Pathosformel funciona como assinatura: cada vez que a figura se repete, o Estado reafirma a sua ancestralidade e, com ela, a pretensão de inevitabilidade. Agamben acrescenta que toda assinatura produz zonas de exceção (AGAMBEN, 1998). Ao reafirmar a Pathosformel da Justiça vendada, o Estado autoriza a suspensão da visão concreta dos conflitos em nome de um olhar universalizado.
 
 O Pathosformel jurídico é, portanto, uma engrenagem da economia iconocrática. Ele garante que o corpo feminino continue reconhecível mesmo quando muda de traje, suporte ou país. O Atlas iconocrático que fecha a tese trabalhará com essa ideia de sobrevivência: ao colocar lado a lado Columbia entregando uma espada e a Justiça de Ceschiatti sentada diante do STF, procuro revelar o intervalo no qual a fórmula expressiva é resignificada para sustentar novos contratos políticos. A sobrevivência das fórmulas explica por que a Feminilidade de Estado pode ser, simultaneamente, revolucionária em 1789 e policial em 1964. A economia do ícone, enfim, precisa desse capital simbólico trans-histórico para continuar operando.
+
+## 2.5 — Contra-alegoria e antropofagia: o corpo que devora
+
+Se o Pathosformel explica a sobrevivência das fórmulas expressivas, a contra-alegoria explica a ruptura. O modernismo brasileiro de 1928 oferece um caso-limite particularmente produtivo, porque converte a própria operação alegórica em gesto de contestação. A questão que orienta esta seção — *o Abaporu é uma alegoria? é uma ruptura?* — só pode ser respondida com precisão se distinguirmos alegoria do símbolo, a legenda da imagem, e a legitimação da deslegitimação.
+
+### 2.5.1 — Alegoria versus símbolo
+
+Walter Benjamin, na *Origem do Drama Barroco Alemão* (1928), desloca o conceito de alegoria do lugar subalterno que a estética romântica lhe reservara. Para o romantismo, o símbolo seria a "união inseparável de forma e conteúdo": o particular e o geral se fundiriam numa totalidade orgânica e autossuficiente (BENJAMIN, 1984). Benjamin inverte a hierarquia. Contra a fusão romântica, ele recupera a alegoria como **expressão** — "não técnica lúdica de imagens, mas expressão, tal como a linguagem é expressão, sim, tal como a escrita". O sentido, na alegoria, não é imanente; é depositado por um código verbal, por uma convenção, por uma legenda.
+
+A distinção de Goethe, recuperada por Benjamin, é econômica: na alegoria, "o particular vale como exemplo do geral"; no símbolo, "no particular se vê o geral". A alegoria precisa do conceito; o símbolo o dispensa. A etimologia confirma: *allegoría*, do grego *allos* ("outro") e *agoreuein* ("dizer em público"), designa precisamente dizer uma coisa para significar outra (MARTINHO, 2008). O que Benjamin descreve como mecanismo do drama barroco — o significante esvaziado, preenchido *post festum* por sentido histórico — é, mutatis mutandis, o mecanismo da alegoria jurídica estudada nesta tese: um corpo feminino esvaziado de agência real, disponível para ser investido de autoridade estatal.
+
+### 2.5.2 — O Abaporu como alegoria dependente de legenda
+
+O *Abaporu* (Tarsila do Amaral, óleo sobre tela, 85 × 72 cm, janeiro de 1928) é, em si, uma figura enigmática. Corpo desproporcional, pé e mão hipertrofiados, cabeça mínima, cacto, sol. Sem a legenda, poderia ser uma figura telúrica qualquer — um gigante, um deus menor, uma personagem de sonho. **A tela só se torna "antropófaga" porque é batizada depois**: o título *Abaporu* foi conferido por Oswald de Andrade e pelo poeta Raul Bopp, a partir do tupi-guarani — *aba* ("homem") + *poru* ("que come"), "o homem que come", o antropófago (AMARAL, 1975). Esse dado biográfico é a prova formal da leitura alegórica: a imagem exige a palavra para significar.
+
+A dependência da legenda torna o *Abaporu* irredutível ao símbolo romântico. Ele não é uma fusão orgânica de forma e conteúdo; é um significante esvaziado que só ganha sentido pelo código verbal externo. E, como toda alegoria, opera por condensação e deslocamento: o corpo desproporcional condensa "Brasil", "terra", "trabalho", "primitivo", sem transparência. A fortuna crítica contemporânea lê a inversão hierárquica cabeça/corpo como subversão da valorização ocidental da racionalidade: Gonzalo Aguilar fala de um "retrato anti-humano" — rosto apagado, corpo animalesco, pés detalhados — enquanto Nádia Battella Gotlib lê as mãos e os pés desproporcionais como o **trabalho braçal** da maioria, contra a cabeça pequena do **trabalho intelectual** de elite (RUFFINELLI; ROCHA, 2011).
+
+### 2.5.3 — Antropofagia como ruptura dialética
+
+O *Manifesto Antropófago* (OSWALD DE ANDRADE, 1928) propõe a "deglutição cultural": não negar a cultura estrangeira, mas não imitá-la — devorá-la e reelaborá-la. O verso icônico, escrito em inglês no próprio manifesto — "Tupi or not Tupi: eis a questão" — é ele próprio um ato antropofágico: Shakespeare é devorado para afirmar o tupi. A antropofagia inaugura, assim, uma ruptura dupla.
+
+A primeira ruptura é **formal/estética**: contra o academicismo, a deformação, a cor, o primitivismo, o abandono da perspectiva renascentista. A segunda ruptura é **epistêmica/política**: inversão da relação colonial. O "selvagem" deixa de ser objeto da representação do colonizador e torna-se sujeito que devora o colonizador. Trata-se de uma crítica explícita ao colonialismo cultural e à submissão da elite brasileira.
+
+Mas a ruptura é **dialética, não abstrata**. Devorar implica *incorporar* e *digerir*, não abolir. Não é tabula rasa; é metabolização crítica. A metáfora, de resto, não nasce com Oswald: foi Plínio Salgado quem, na "Carta antropofágica" de 1927, propôs a "comilança de tudo o que estiver ridículo diante da nossa bárbara natureza"; Oswald apropriou-se dela — o que é, ironicamente, um gesto antropofágico em si. A antropofagia é, portanto, ruptura que continua, negação que incorpora, subversão que digere.
+
+### 2.5.4 — O avesso do Contrato Sexual Visual
+
+O que o caso *Abaporu* / antropofagia ilumina na arquitetura desta tese não é uma nova alegoria feminina para o corpus. A figura do Abaporu é ambígua em gênero — não é mulher-personificação do poder com atributos codificados. O que ela ilumina é o **vetor invertido** da operação alegórica. Onde a alegoria feminina jurídica *legitima* o Estado pelo corpo feminino (Contrato Sexual Visual: o reconhecimento simbólico do feminino perpetua a exclusão cívica das mulheres reais), o *Abaporu* *deslegitima* pelo corpo que devora.
+
+A comparação estrutural é produtiva:
+
+| | Alegoria feminina jurídica | *Abaporu* / antropofagia |
+|---|---|---|
+| Gênero da figura | Feminino (personificação do poder) | Ambíguo/andrógino |
+| Relação com a legenda | Inscrição estatal fixa o sentido (endurecimento) | Título tupi + manifesto abrem o sentido |
+| Vetor político | **Legitimação** | **Ruptura / deslegitimação** |
+| Operação alegórica | Corpo esvaziado a serviço da abstração normativa | Corpo telúrico a serviço da devoração da abstração importada |
+
+A antropofagia é, nesse sentido, o **avesso do Contrato Sexual Visual**. Se o Contrato Sexual Visual fabrica uma Feminilidade de Estado que universaliza e naturaliza o poder, a antropofagia devolve ao corpo a sua historicidade, a sua terra, o seu trabalho, a sua fome — tudo aquilo que a Purificação Clássica tenta extrair. O *Abaporu* não personifica a Justiça, a República ou a Liberdade; personifica, antes, a recusa de ser personificado.
+
+### 2.5.5 — Antropofagia como método de leitura crítica
+
+A antropofagia oferece, finalmente, um **programa de leitura crítica** da iconocracia. "Devorar" a tradição iconográfica europeia da Justiça — não para imitá-la (academicismo) nem para rejeitá-la (nativismo defensivo), mas para digeri-la e produzir outra coisa — é um gesto homólogo ao método que esta tese propõe para ler o corpus. A releitura contemporânea da antropofagia, sobretudo em Eduardo Viveiros de Castro, reforça essa dimensão: o "canibalismo" como esquema de alteridade que não reduz o outro a si, mas o transforma pela incorporação (VIVEIROS DE CASTRO, 2015).
+
+No vocabulário da tese, a antropofagia é uma operação de **contra-iconocracia**: ela não apenas reconhece o regime iconocrático, mas o devora para subvertê-lo. Daí a pertinência de inserir o quarto regime — o Contra-Alegórico — já na Moldura Teórica do Capítulo 2, e não apenas nos capítulos empíricos. O *Abaporu* não é um item do corpus, mas um caso-limite que permite teorizar o avesso da Purificação Clássica: um corpo que, em vez de ser purificado pelo Estado, devora o próprio dispositivo de purificação.
+
+A coincidência de 1928 — *Abaporu* (janeiro), *Manifesto Antropófago* (maio) e *Origem do Drama Barroco Alemão* (1928) — não é mero acaso de calendário. É o ano em que o modernismo brasileiro produz sua alegoria-ruptura, e o ano em que a teoria da alegoria se rearma contra o símbolo romântico. Ler o *Abaporu* pela lente de Benjamin, e vice-versa, permite à tese nomear com precisão o que está em jogo nas contra-alegorias do corpus: não a simples presença de corpos femininos, mas a possibilidade — sempre tensa, sempre incompleta — de que esses corpos escapem da função de legitimar o poder e se voltem contra ele.
