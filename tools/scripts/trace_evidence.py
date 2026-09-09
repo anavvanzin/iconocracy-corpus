@@ -302,6 +302,11 @@ def main() -> None:
         action="store_true",
         help="Show detailed issue list"
     )
+    parser.add_argument(
+        "--fail-on-high",
+        action="store_true",
+        help="Exit non-zero when the report contains high-severity issues",
+    )
 
     args = parser.parse_args()
 
@@ -331,6 +336,9 @@ def main() -> None:
             encoding="utf-8"
         )
         print(f"Detailed report saved to: {args.output}")
+
+    if args.fail_on_high and report["issues"]["by_severity"]["high"]:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

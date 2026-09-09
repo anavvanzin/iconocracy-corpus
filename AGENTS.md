@@ -2,14 +2,17 @@
 
 > **This is the quick-reference card.** For full architecture, mode routing, hooks, skills, terminology tables, known data issues, and corpus parameters, see [`CLAUDE.md`](CLAUDE.md).
 
-## Data Hierarchy (audit 2026-07-31)
+## Canonical Field Ownership (audit 2026-08-12)
 
-| # | Layer | Count | Role |
-|---|-------|-------|------|
-| 1 | `data/processed/records.jsonl` | 335 | Canonical operational ledger |
-| 2 | `corpus/corpus-data.json` | 335 | Public-facing export |
-| 3 | `data/processed/purification.jsonl` | 279 | Endurecimento coding ledger |
-| 4 | `vault/candidatos/` | 410 | Auxiliary cataloguing mirror |
+| Field family | Authority | Current count |
+|---|---|---|
+| Identity, evidence, description, IconoCode claims | `data/processed/records.jsonl` | 335 items |
+| Endurecimento observations and coding provenance | `data/processed/purification.jsonl` | 286 rows |
+| Raw binary identity and storage | `data/raw/drive-manifest.json` + Drive | manifest |
+| Catalogue navigation | `vault/candidatos/` | auxiliary mirror |
+
+`corpus-data.json`, SQLite, CSV, dashboards, and release bundles are disposable
+projections. See `docs/adr/006-canonical-field-ownership-and-projections.md`.
 
 ## Environment
 

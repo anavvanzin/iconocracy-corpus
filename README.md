@@ -58,7 +58,7 @@ The public-facing browsable surfaces are all self-contained HTML — open them s
 
 - **335** coded records in the operational ledger (`data/processed/records.jsonl`)
 - **335** items in the public export (`corpus/corpus-data.json`)
-- **~279** items with full *endurecimento* coding (`data/processed/purification.jsonl`)
+- **286** coding observations in the current working snapshot (`data/processed/purification.jsonl`)
 - **410** catalog cards in the Obsidian vault (`vault/candidatos/`)
 
 **By country** (top of a non-exhaustive, transnational corpus):
