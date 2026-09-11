@@ -30,11 +30,7 @@ import numpy as np
 try:
     import krippendorff
 except ImportError:
-    print(
-        "Error: krippendorff library required. Install with: pip install krippendorff",
-        file=sys.stderr,
-    )
-    sys.exit(1)
+    krippendorff = None
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 PURIFICATION_JSONL = REPO_ROOT / "data" / "processed" / "purification.jsonl"
@@ -79,6 +75,8 @@ def load_rater2_results(rater2_path: Path) -> dict[str, dict]:
             line = line.strip()
             if line:
                 rec = json.loads(line)
+                if rec.get("dry_run") or str(rec.get("coded_by", "")).startswith("dry-run-mock-"):
+                    continue
                 item_id = rec.get("item_id")
                 if item_id:
                     by_item[item_id] = rec
@@ -152,22 +150,23 @@ def build_rater_pairs(rater1_codings: dict[str, list[dict]], rater2_results: dic
     return paired
 
 
-def compute_alpha(paired_codings: dict[str, list[dict]], indicator: str) -> float | None:
-    """Compute Krippendorff's Alpha for one indicator across paired codings."""
-    if len(paired_codings) < 2:
+def _compute_alpha_from_units(units: list[tuple[str, list[dict]]], indicator: str) -> float | None:
+    """Compute Krippendorff's Alpha for one indicator across coding units."""
+    if len(units) < 2:
         return None
+    if krippendorff is None:
+        raise RuntimeError("krippendorff library required. Install with: pip install krippendorff")
 
     all_coders = set()
-    for codings in paired_codings.values():
+    for _, codings in units:
         for c in codings:
             all_coders.add(c["coded_by"])
     coder_list = sorted(all_coders)
 
-    items = sorted(paired_codings.keys())
-    matrix = np.full((len(coder_list), len(items)), np.nan)
+    matrix = np.full((len(coder_list), len(units)), np.nan)
 
-    for j, item_id in enumerate(items):
-        for coding in paired_codings[item_id]:
+    for j, (_, codings) in enumerate(units):
+        for coding in codings:
             i = coder_list.index(coding["coded_by"])
             matrix[i, j] = coding.get(indicator, np.nan)
 
@@ -184,23 +183,36 @@ def compute_alpha(paired_codings: dict[str, list[dict]], indicator: str) -> floa
         return None
 
 
+def compute_alpha(paired_codings: dict[str, list[dict]], indicator: str) -> float | None:
+    """Compute Krippendorff's Alpha for one indicator across paired codings."""
+    return _compute_alpha_from_units(sorted(paired_codings.items()), indicator)
+
+
+def make_bootstrap_sample_units(
+    paired_codings: dict[str, list[dict]], sample_idx: list[int] | np.ndarray
+) -> list[tuple[str, list[dict]]]:
+    """Build bootstrap sample units while preserving repeated draws."""
+    items = list(paired_codings.keys())
+    return [
+        (f"{items[idx]}__draw{draw_index}", paired_codings[items[idx]])
+        for draw_index, idx in enumerate(sample_idx)
+    ]
+
+
 def bootstrap_ci(paired_codings: dict[str, list[dict]], indicator: str, n_bootstrap: int = 1000, ci: float = 0.95) -> tuple[float, float] | None:
     """Compute bootstrap confidence interval for Krippendorff's alpha."""
     if len(paired_codings) < 3:
         return None
 
-    items = list(paired_codings.keys())
-    n_items = len(items)
+    n_items = len(paired_codings)
     alphas = []
 
     rng = np.random.default_rng(42)
     for _ in range(n_bootstrap):
         # Sample with replacement
         sample_idx = rng.choice(n_items, size=n_items, replace=True)
-        sample_items = [items[i] for i in sample_idx]
-        sample_codings = {item_id: paired_codings[item_id] for item_id in sample_items}
-
-        alpha = compute_alpha(sample_codings, indicator)
+        sample_units = make_bootstrap_sample_units(paired_codings, sample_idx)
+        alpha = _compute_alpha_from_units(sample_units, indicator)
         if alpha is not None:
             alphas.append(alpha)
 

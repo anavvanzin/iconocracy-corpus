@@ -13,7 +13,9 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import base64
 import json
+import mimetypes
 import os
 import sys
 import time
@@ -24,11 +26,12 @@ from typing import Any
 try:
     from openai import OpenAI
 except ImportError:
-    print("Error: openai library required. Install with: pip install openai", file=sys.stderr)
-    sys.exit(1)
+    OpenAI = None
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 CODEBOOK_PATH = REPO_ROOT / "data" / "docs" / "codebook.md"
+DEFAULT_OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "irr_re_run" / "rater2_results.jsonl"
+DEFAULT_DRY_RUN_OUTPUT_PATH = REPO_ROOT / "data" / "processed" / "irr_re_run" / "rater2_results.mock.jsonl"
 
 INDICATORS = [
     "desincorporacao",
@@ -125,6 +128,32 @@ def load_records() -> dict[str, dict]:
     return records
 
 
+def resolve_sample_image_path(sample_item: dict, sample_path: Path) -> Path | None:
+    """Resolve the exported sample image path recorded in sample metadata."""
+    image_path = sample_item.get("image_path")
+    if image_path:
+        candidate = REPO_ROOT / image_path
+        if candidate.exists():
+            return candidate
+
+    image_file = sample_item.get("image_file")
+    if image_file:
+        candidate = sample_path.parent / "sample" / image_file
+        if candidate.exists():
+            return candidate
+
+    return None
+
+
+def encode_image_as_data_url(image_path: Path) -> str:
+    """Encode a local image file as a data URL for vision model uploads."""
+    mime_type, _ = mimetypes.guess_type(image_path.name)
+    if not mime_type:
+        mime_type = "image/jpeg"
+    encoded = base64.b64encode(image_path.read_bytes()).decode("ascii")
+    return f"data:{mime_type};base64,{encoded}"
+
+
 BLIND_PROMPT_TEMPLATE = """Você é um codificador iconográfico sintético da tese de doutorado "ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)" (PPGD/UFSC).
 
 Sua tarefa é analisar a imagem fornecida e avaliar os 10 indicadores de Purificação Clássica (endurecimento) descritos no Codebook oficial abaixo.
@@ -182,8 +211,8 @@ RESPONSE_SCHEMA = {
 }
 
 
-def call_openrouter(client: OpenAI, prompt: str, image_url: str, model: str) -> dict | None:
-    """Call OpenRouter API with image URL and prompt."""
+def call_openrouter(client: OpenAI, prompt: str, image_ref: str, model: str) -> dict | None:
+    """Call OpenRouter API with an uploaded image reference and prompt."""
     try:
         response = client.chat.completions.create(
             model=model,
@@ -192,7 +221,7 @@ def call_openrouter(client: OpenAI, prompt: str, image_url: str, model: str) -> 
                     "role": "user",
                     "content": [
                         {"type": "text", "text": prompt},
-                        {"type": "image_url", "image_url": {"url": image_url}},
+                        {"type": "image_url", "image_url": {"url": image_ref}},
                     ],
                 }
             ],
@@ -233,7 +262,7 @@ def main():
     parser = argparse.ArgumentParser(description="Cross-model blind coding for IRR re-run (Rater-2)")
     parser.add_argument("--sample", type=Path, default=REPO_ROOT / "data" / "processed" / "irr_re_run" / "sample_metadata.jsonl",
                         help="Path to sample metadata JSONL")
-    parser.add_argument("--output", type=Path, default=REPO_ROOT / "data" / "processed" / "irr_re_run" / "rater2_results.jsonl",
+    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT_PATH,
                         help="Output path for rater-2 results")
     parser.add_argument("--model", default="anthropic/claude-sonnet-4",
                         help="OpenRouter model identifier (default: anthropic/claude-sonnet-4)")
@@ -243,6 +272,10 @@ def main():
     args = parser.parse_args()
 
     print("=== IRR Re-run Rater-2 Batch Coding ===\n")
+
+    if args.dry_run and args.output == DEFAULT_OUTPUT_PATH:
+        args.output = DEFAULT_DRY_RUN_OUTPUT_PATH
+        print(f"Dry run output redirected to {args.output}")
 
     # Load codebook
     print("Loading codebook...")
@@ -258,6 +291,9 @@ def main():
 
     # Check for API key
     if not args.dry_run:
+        if OpenAI is None:
+            print("Error: openai library required. Install with: pip install openai", file=sys.stderr)
+            sys.exit(1)
         api_key = args.api_key or os.getenv("OPENROUTER_API_KEY")
         if not api_key:
             print("Error: OpenRouter API key required. Set OPENROUTER_API_KEY or pass --api-key", file=sys.stderr)
@@ -304,14 +340,13 @@ def main():
             date_hint = inp.get("date_hint", "Desconhecida")
             support = item.get("support", "Desconhecido")
 
-            # Find best image URL
-            image_url = get_best_image_url(record)
-            if not image_url:
-                print(f"  WARN: No image URL found for {item_id}. Skipping.")
+            sample_image_path = resolve_sample_image_path(item, args.sample)
+            if not sample_image_path:
+                print(f"  WARN: Exported sample image not found for {item_id}. Skipping.")
                 skipped_count += 1
                 continue
 
-            print(f"  Image URL: {image_url[:80]}")
+            print(f"  Sample image: {sample_image_path.relative_to(REPO_ROOT)}")
 
             # Build prompt
             prompt = BLIND_PROMPT_TEMPLATE.format(
@@ -327,8 +362,9 @@ def main():
                 print("  [Mock] Generating mock coding result...")
                 result = generate_mock_response(item_id)
             else:
+                image_ref = encode_image_as_data_url(sample_image_path)
                 print(f"  [API] Calling {args.model}...")
-                result = call_openrouter(client, prompt, image_url, args.model)
+                result = call_openrouter(client, prompt, image_ref, args.model)
                 if not result:
                     print(f"  ERROR: Failed to get valid response for {item_id}")
                     skipped_count += 1
@@ -336,9 +372,16 @@ def main():
 
             # Validate and enrich
             result["item_id"] = item_id
-            result["coded_by"] = f"rater2-{args.model.replace('/', '-')}"
+            result["coded_by"] = (
+                f"dry-run-mock-{args.model.replace('/', '-')}"
+                if args.dry_run
+                else f"rater2-{args.model.replace('/', '-')}"
+            )
             result["coded_at"] = datetime.now(timezone.utc).isoformat()
             result["sample_index"] = item.get("sample_index", idx)
+            result["image_file"] = item.get("image_file")
+            result["image_path"] = item.get("image_path")
+            result["dry_run"] = args.dry_run
 
             # Calculate composite score
             scores = [result["indicadores"][ind]["score"] for ind in INDICATORS]

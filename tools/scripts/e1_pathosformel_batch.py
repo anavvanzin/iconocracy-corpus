@@ -84,6 +84,38 @@ def load_corpus() -> dict[str, dict]:
     return url_to_item
 
 
+def load_existing_output_item_ids(output_path: Path = OUTPUT_PATH) -> set[str]:
+    """Load item_ids already written to the Pathosformel output ledger."""
+    existing_ids: set[str] = set()
+    if not output_path.exists():
+        return existing_ids
+
+    with open(output_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            item_id = rec.get("item_id")
+            if item_id:
+                existing_ids.add(item_id)
+
+    return existing_ids
+
+
+def collect_pending_records(records: list[dict], existing_output_ids: set[str]) -> list[dict]:
+    """Return uncoded records not already present in the Pathosformel output ledger."""
+    return [
+        record
+        for record in records
+        if record.get("purificacao", {}).get("purificacao_composto") in (None, -1)
+        and record.get("item_id") not in existing_output_ids
+    ]
+
+
 def build_url_map(records: list[dict]) -> dict[str, dict]:
     """Build URL -> record mapping."""
     url_map: dict[str, dict] = {}
@@ -278,11 +310,10 @@ def write_output(results: list[dict], output_path: Path):
     print(f"\nWrote {len(results)} items to {output_path}")
 
 
-def list_uncoded(records: list[dict], corpus_url_map: dict[str, dict]):
+def list_uncoded(records: list[dict], corpus_url_map: dict[str, dict], existing_output_ids: set[str]):
     """List all uncoded items with metadata."""
-    uncoded = [r for r in records
-               if r.get("purificacao", {}).get("purificacao_composto") in (None, -1)]
-    print(f"\nUncoded items: {len(uncoded)}\n")
+    uncoded = collect_pending_records(records, existing_output_ids)
+    print(f"\nPending uncoded items: {len(uncoded)}\n")
     print(f"{'SIGLA':<15} {'TITLE':<55} {'PLACE':<12} {'DATE':<15}")
     print("-" * 100)
     for r in uncoded:
@@ -312,19 +343,22 @@ def main():
 
     records = load_records()
     corpus_url_map = load_corpus()
+    existing_output_ids = load_existing_output_item_ids()
 
-    uncoded = [r for r in records
-               if r.get("purificacao", {}).get("purificacao_composto") in (None, -1)]
+    uncoded = collect_pending_records(records, existing_output_ids)
 
     if args.list:
-        list_uncoded(records, corpus_url_map)
+        list_uncoded(records, corpus_url_map, existing_output_ids)
         return
 
     if not uncoded:
-        print("All items already coded. Nothing to do.")
+        print("All eligible items already coded or extracted. Nothing to do.")
         return
 
-    print(f"Records: {len(records)} | Uncoded: {len(uncoded)}")
+    print(
+        f"Records: {len(records)} | Pending uncoded: {len(uncoded)} | "
+        f"Already in output: {len(existing_output_ids)}"
+    )
 
     # Determine how many to process
     if args.dry_run:

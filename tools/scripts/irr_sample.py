@@ -65,6 +65,38 @@ REGIME_LABEL_MAP = {
 }
 
 
+def adjust_allocation_to_target(
+    allocation: dict[str, int], strata: dict[str, list[dict]], target: int
+) -> dict[str, int]:
+    """Adjust proportional allocation up or down until it matches the target."""
+    ordered_regimes = sorted(REGIMES, key=lambda x: len(strata[x]), reverse=True)
+
+    while True:
+        diff = target - sum(allocation.values())
+        if diff == 0:
+            return allocation
+
+        changed = False
+        for regime in ordered_regimes:
+            if diff > 0:
+                if allocation[regime] < len(strata[regime]):
+                    allocation[regime] += 1
+                    diff -= 1
+                    changed = True
+            else:
+                minimum = 1 if len(strata[regime]) > 0 else 0
+                if allocation[regime] > minimum:
+                    allocation[regime] -= 1
+                    diff += 1
+                    changed = True
+
+            if diff == 0:
+                return allocation
+
+        if not changed:
+            raise ValueError("Unable to adjust stratum allocation to requested target.")
+
+
 def load_jsonl(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -419,13 +451,7 @@ def main():
         allocation[r] = max(1, alloc) if len(strata[r]) > 0 else 0
 
     # Adjust to exact target
-    diff = target - sum(allocation.values())
-    for r in sorted(REGIMES, key=lambda x: len(strata[x]), reverse=True):
-        if diff == 0:
-            break
-        if allocation[r] < len(strata[r]):
-            allocation[r] += 1
-            diff -= 1
+    allocation = adjust_allocation_to_target(allocation, strata, target)
 
     print(f"\nTarget sample size: {target}")
     print("Allocation:")
