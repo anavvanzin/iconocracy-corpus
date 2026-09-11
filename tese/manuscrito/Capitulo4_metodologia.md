@@ -103,9 +103,31 @@ Estes itens resistem à classificação nos três regimes porque sua função n�
 
 ---
 
-### 2.5 Validação: codificação por imagem vs. codificação por metadados
+### 2.5 Paradigma indiciário e padrões de prova na iconografia jurídica
 
-O corpus foi inicialmente codificado em lote em 31 de março de 2026 (N=106) utilizando metadados textuais (título, descrição, data, país, suporte) sem inspeção visual direta das imagens. Essa codificação inicial foi realizada pelo modelo Claude Opus 4.6 ("iconocode-opus") com base nos descritores disponíveis. Subsequentemente, duas rodadas de recodificação com inspeção visual foram conduzidas: (a) 10 itens franceses (FR-001 a FR-010) em 2–3 de abril de 2026, e (b) 10 itens adicionais (FR-021 a FR-030) em 7 de abril de 2026, ambas pelo mesmo modelo ("iconocode-opus-4.6-image") com acesso direto às imagens via protocolo IIIF da Gallica/BnF.
+Antes de apresentar a validação empírica do protocolo, é preciso explicitar o padrão de prova que governa esta tese. A iconometria jurídica aqui proposta não reivindica o estatuto de experimento controlado nem confunde visualização estatística com prova conclusiva. Seu regime de validade é **estratificado**, porque diferentes níveis de leitura produzem diferentes tipos de afirmação; é **indiciário**, porque infere práticas históricas a partir de sinais visuais recorrentes; e é **arqueológico**, porque trata os silêncios do arquivo como parte do próprio problema epistemológico. A seção seguinte deve, portanto, ser lida como evidência empírica subordinada a essa moldura, não como sua fundamentação filosófica autossuficiente.
+
+#### 2.5.1 Posição estratificada: o que se pode provar em cada nível
+
+O protocolo IconoCode adapta a tripartição panofskyana a um problema jurídico-visual, e isso exige distinguir os padrões de validade aplicáveis a cada estrato da análise. No **nível pré-iconográfico**, as afirmações recaem sobre propriedades observáveis — postura, atributos, enquadramento, inscrição, escala corporal — e podem ser verificadas intersubjetivamente por qualquer leitora com acesso à imagem [@panofsky1939; @panofsky1955]. Aqui, a exigência central é a **auditabilidade observacional**. Já no **nível iconográfico**, a identificação de convenções — Marianne, Britannia, Justitia, repertórios neoclássicos, *Pathosformeln* — depende de repertório histórico e não pode ser reduzida a uma unidade puramente mecânica de concordância. A advertência de Rau e Shih é útil por analogia: estatísticas como kappa supõem categorias fixas e unidades de análise previamente dadas, pressuposto que se enfraquece justamente quando o reconhecimento da unidade já depende de interpretação [@rau2021]. No **nível iconológico**, por fim, a pergunta deixa de ser "o que a imagem mostra?" e passa a ser "que trabalho jurídico-político esta imagem executa?". Nesse ponto, a validade já não é estatística, mas argumentativa: depende da coerência entre os níveis anteriores, da transparência da cadeia inferencial e da interlocução com a literatura.
+
+Essa estratificação também redefine o problema da codificação por IA. Quando o protocolo é aplicado por modelo multimodal, não se está terceirizando a verdade da imagem a uma caixa-preta, mas documentando uma cadeia de leitura que continua aberta à revisão. O que se exige, nos níveis 1 e 2, é que os relatórios de codificação tornem reconstruível o caminho entre traço visual e score; no nível 3, exige-se que a hipótese interpretativa permaneça ancorada em sinais explicitados, e não em mera impressão. O rigor da tese, portanto, não reside numa promessa impossível de neutralidade total, mas na distinção explícita entre observação verificável, convenção interpretada e inferência teórica.
+
+#### 2.5.2 Legitimação indiciária: do sinal ao padrão, do padrão à hipótese
+
+É nesse ponto que o **paradigma indiciário** de Carlo Ginzburg fornece a legitimação epistemológica central da tese. Em vez de partir de leis gerais para subsumir casos, ou de pretender experimentos replicáveis sobre objetos históricos singulares, o paradigma indiciário reconstrói uma totalidade prática a partir de pistas, sintomas e detalhes aparentemente marginais [@ginzburg1989, p. 143--179]. A iconometria jurídica opera exatamente assim: os scores de endurecimento, as diferenças entre regimes, os desvios entre itens formalmente semelhantes e a recorrência de certos arranjos corporais não "provam" causalmente o Contrato Sexual Visual, mas o tornam **inferível** como hipótese histórica forte. O que emerge do corpus não é uma lei nomológica; é um padrão compatível, reiterado e teoricamente inteligível.
+
+Panofsky fornece a grade de decomposição dessas pistas; Warburg, relido por Didi-Huberman, fornece a inteligência visual da sobrevivência formal [@didi-huberman2000]; e a literatura sobre imagem e prova ajuda a nomear o estatuto desse tipo de evidência. No vocabulário de Moran, as imagens aqui mobilizadas funcionam sobretudo como **evidência demonstrativa**: elas não atestam diretamente um fato isolado, mas tornam visível um argumento sobre a economia política das formas [@moran2022]. Em Braman, a questão decisiva da prova visual não é a repetição cega do resultado, mas a **transparência do raciocínio inferencial** que conduz da imagem à conclusão [@braman2023]. É por isso que o capítulo seguinte não buscará demonstrar uma objetividade experimental impossível; buscará mostrar que os padrões encontrados são suficientemente estáveis para orientar a inferência histórico-jurídica e selecionar, com critério, os casos paradigmáticos que exigem aprofundamento qualitativo.
+
+#### 2.5.3 Silêncio arquivístico visual: a ausência como dado e como limite
+
+O terceiro elemento da moldura epistemológica diz respeito ao que o arquivo visual não mostra. Em vez de tratar a ausência como mera lacuna a ser apagada, esta tese a toma como dado interpretável quando a própria estrutura do corpus torna essa não-presença significativa. Saidiya Hartman e Marisa Fuentes mostraram, em contextos distintos, que o silêncio arquivístico não é exterior à produção do conhecimento: ele é um índice da violência que organizou o que merecia ser registrado e o que podia ser apagado [@hartman2008; @fuentes2016]. Transposta para a iconografia jurídica, essa lição permite ler tanto a supressão das mulheres históricas sob a alegoria abstrata quanto os casos de **ausência alegórica** como fenômenos positivamente informativos.
+
+Por isso, quando o corpus marca itens com a tag interna `#ausencia-alegorica` — usada para sinalizar casos em que a ausência da figura feminina esperada constitui o dado analítico central — ou quando lê o item US-020 (*Looking Backward*, de Joseph Keppler) como contra-alegoria por não-aparição, não está substituindo evidência por imaginação livre. Está declarando que, em certos casos, a não-presença da figura esperada é precisamente o sinal relevante. A consequência metodológica é decisiva: **declarar limites faz parte da validação**. Onde a imagem não autoriza afirmação forte, a tese diz que não autoriza; onde a ausência opera como sintoma, a tese a interpreta como sintoma. O padrão de prova que daí resulta pode ser resumido assim: a validade desta pesquisa é indiciária, hermenêutica e estratificada; e sua força depende tanto daquilo que consegue demonstrar quanto daquilo que sabe circunscrever como limite.
+
+### 2.6 Validação empírica: codificação por imagem vs. codificação por metadados
+
+Antes da constituição da amostra analítica congelada discutida na seção seguinte, o corpus passou por um primeiro lote exploratório de codificação em 31 de março de 2026 (N=106), utilizando metadados textuais (título, descrição, data, país, suporte) sem inspeção visual direta das imagens. Essa codificação inicial foi realizada pelo modelo Claude Opus 4.6 ("iconocode-opus") com base nos descritores disponíveis. Subsequentemente, duas rodadas de recodificação com inspeção visual foram conduzidas: (a) 10 itens franceses (FR-001 a FR-010) em 2–3 de abril de 2026, e (b) 10 itens adicionais (FR-021 a FR-030) em 7 de abril de 2026, ambas pelo mesmo modelo ("iconocode-opus-4.6-image") com acesso direto às imagens via protocolo IIIF da Gallica/BnF.
 
 #### Rodada 1: FR-001 a FR-010 (codificação exploratória)
 
@@ -156,9 +178,9 @@ As duas rodadas demonstram que a codificação por metadados é confiável para 
 
 ---
 
-### 2.6 O corpus: composição e fontes
+### 2.7 O corpus: composição e fontes
 
-O corpus compreende 165 registros no ledger atual, dos quais 154 itens com codificação de purificação; o congelamento analítico anterior registrou 145 imagens oficiais e semi-oficiais coletadas em 15 acervos digitais, estratificadas por país, período e suporte material. Todas as 145 do congelamento anterior estão integralmente codificadas (10 indicadores + regime + análise Panofsky), sendo 20 codificadas por inspeção visual direta (IIIF) e 125 por metadados refinados.
+Como instantâneo analítico mobilizado nesta etapa da pesquisa, o corpus articula um ledger operacional em expansão contínua e uma amostra congelada de 145 imagens oficiais e semi-oficiais, coletadas em 15 acervos digitais e estratificadas por país, período e suporte material. Todas as 145 peças dessa amostra congelada estão integralmente codificadas (10 indicadores + regime + análise Panofsky), sendo 20 codificadas por inspeção visual direta (IIIF) e 125 por metadados refinados.
 
 | País | N | Fontes principais |
 |------|---|------------------|
@@ -177,7 +199,7 @@ A cobertura temporal estende-se de 1559 (FR-047, *Iustitia* de Bruegel, item arq
 
 ---
 
-### 2.7 Infraestrutura digital e rastreabilidade
+### 2.8 Infraestrutura digital e rastreabilidade
 
 O corpus é mantido em regime de ciência aberta no repositório GitHub `anavvanzin/iconocracy-corpus`, seguindo o princípio de rastreabilidade em três pontos:
 
