@@ -103,7 +103,29 @@ Estes itens resistem à classificação nos três regimes porque sua função n�
 
 ---
 
-### 2.5 Validação: codificação por imagem vs. codificação por metadados
+### 2.5 Paradigma indiciário e padrões de prova na iconografia jurídica
+
+Antes de apresentar a validação empírica do protocolo, é preciso explicitar o padrão de prova que governa esta tese. A iconometria jurídica aqui proposta não reivindica o estatuto de experimento controlado nem confunde visualização estatística com prova conclusiva. Seu regime de validade é **estratificado**, porque diferentes níveis de leitura produzem diferentes tipos de afirmação; é **indiciário**, porque infere práticas históricas a partir de sinais visuais recorrentes; e é **arqueológico**, porque trata os silêncios do arquivo como parte do próprio problema epistemológico. A seção seguinte deve, portanto, ser lida como evidência empírica subordinada a essa moldura, não como sua fundamentação filosófica autossuficiente.
+
+#### 2.5.1 Posição estratificada: o que se pode provar em cada nível
+
+O protocolo IconoCode adapta a tripartição panofskyana a um problema jurídico-visual, e isso exige distinguir os padrões de validade aplicáveis a cada estrato da análise. No **nível pré-iconográfico**, as afirmações recaem sobre propriedades observáveis — postura, atributos, enquadramento, inscrição, escala corporal — e podem ser verificadas intersubjetivamente por qualquer leitora com acesso à imagem (PANOFSKY, 1939; 1955). Aqui, a exigência central é a **auditabilidade observacional**. Já no **nível iconográfico**, a identificação de convenções — Marianne, Britannia, Justitia, repertórios neoclássicos, *Pathosformeln* — depende de repertório histórico e não pode ser reduzida a uma unidade puramente mecânica de concordância. A advertência de Rau e Shih (2021) é útil por analogia: estatísticas como kappa supõem categorias fixas e unidades de análise previamente dadas, pressuposto que se enfraquece justamente quando o reconhecimento da unidade já depende de interpretação. No **nível iconológico**, por fim, a pergunta deixa de ser "o que a imagem mostra?" e passa a ser "que trabalho jurídico-político esta imagem executa?". Nesse ponto, a validade já não é estatística, mas argumentativa: depende da coerência entre os níveis anteriores, da transparência da cadeia inferencial e da interlocução com a literatura.
+
+Essa estratificação também redefine o problema da codificação por IA. Quando o protocolo é aplicado por modelo multimodal, não se está terceirizando a verdade da imagem a uma caixa-preta, mas documentando uma cadeia de leitura que continua aberta à revisão. O que se exige, nos níveis 1 e 2, é que os relatórios de codificação tornem reconstruível o caminho entre traço visual e score; no nível 3, exige-se que a hipótese interpretativa permaneça ancorada em sinais explicitados, e não em mera impressão. O rigor da tese, portanto, não reside numa promessa impossível de neutralidade total, mas na distinção explícita entre observação verificável, convenção interpretada e inferência teórica.
+
+#### 2.5.2 Legitimação indiciária: do sinal ao padrão, do padrão à hipótese
+
+É nesse ponto que o **paradigma indiciário** de Carlo Ginzburg fornece a legitimação epistemológica central da tese. Em vez de partir de leis gerais para subsumir casos, ou de pretender experimentos replicáveis sobre objetos históricos singulares, o paradigma indiciário reconstrói uma totalidade prática a partir de pistas, sintomas e detalhes aparentemente marginais (GINZBURG, 1989, p. 143--179). A iconometria jurídica opera exatamente assim: os scores de endurecimento, as diferenças entre regimes, os desvios entre itens formalmente semelhantes e a recorrência de certos arranjos corporais não "provam" causalmente o Contrato Sexual Visual, mas o tornam **inferível** como hipótese histórica forte. O que emerge do corpus não é uma lei nomológica; é um padrão compatível, reiterado e teoricamente inteligível.
+
+Panofsky fornece a grade de decomposição dessas pistas; Warburg, relido por Didi-Huberman, fornece a inteligência visual da sobrevivência formal; e a literatura sobre imagem e prova ajuda a nomear o estatuto desse tipo de evidência. No vocabulário de Moran (2022), as imagens aqui mobilizadas funcionam sobretudo como **evidência demonstrativa**: elas não atestam diretamente um fato isolado, mas tornam visível um argumento sobre a economia política das formas. Em Braman (2023), a questão decisiva da prova visual não é a repetição cega do resultado, mas a **transparência do raciocínio inferencial** que conduz da imagem à conclusão. É por isso que o capítulo seguinte não buscará demonstrar uma objetividade experimental impossível; buscará mostrar que os padrões encontrados são suficientemente estáveis para orientar a inferência histórico-jurídica e selecionar, com critério, os casos paradigmáticos que exigem aprofundamento qualitativo.
+
+#### 2.5.3 Silêncio arquivístico visual: a ausência como dado e como limite
+
+O terceiro elemento da moldura epistemológica diz respeito ao que o arquivo visual não mostra. Em vez de tratar a ausência como mera lacuna a ser apagada, esta tese a toma como dado interpretável quando a própria estrutura do corpus torna essa não-presença significativa. Saidiya Hartman (2008) e Marisa Fuentes (2016) mostraram, em contextos distintos, que o silêncio arquivístico não é exterior à produção do conhecimento: ele é um índice da violência que organizou o que merecia ser registrado e o que podia ser apagado. Transposta para a iconografia jurídica, essa lição permite ler tanto a supressão das mulheres históricas sob a alegoria abstrata quanto os casos de **ausência alegórica** como fenômenos positivamente informativos.
+
+Por isso, quando o corpus marca itens com `#ausencia-alegorica` ou quando lê US-020 como contra-alegoria por não-aparição, não está substituindo evidência por imaginação livre. Está declarando que, em certos casos, a não-presença da figura esperada é precisamente o sinal relevante. A consequência metodológica é decisiva: **declarar limites faz parte da validação**. Onde a imagem não autoriza afirmação forte, a tese diz que não autoriza; onde a ausência opera como sintoma, a tese a interpreta como sintoma. O padrão de prova que daí resulta pode ser resumido assim: a validade desta pesquisa é indiciária, hermenêutica e estratificada; e sua força depende tanto daquilo que consegue demonstrar quanto daquilo que sabe circunscrever como limite.
+
+### 2.6 Validação empírica: codificação por imagem vs. codificação por metadados
 
 O corpus foi inicialmente codificado em lote em 31 de março de 2026 (N=106) utilizando metadados textuais (título, descrição, data, país, suporte) sem inspeção visual direta das imagens. Essa codificação inicial foi realizada pelo modelo Claude Opus 4.6 ("iconocode-opus") com base nos descritores disponíveis. Subsequentemente, duas rodadas de recodificação com inspeção visual foram conduzidas: (a) 10 itens franceses (FR-001 a FR-010) em 2–3 de abril de 2026, e (b) 10 itens adicionais (FR-021 a FR-030) em 7 de abril de 2026, ambas pelo mesmo modelo ("iconocode-opus-4.6-image") com acesso direto às imagens via protocolo IIIF da Gallica/BnF.
 
@@ -156,7 +178,7 @@ As duas rodadas demonstram que a codificação por metadados é confiável para 
 
 ---
 
-### 2.6 O corpus: composição e fontes
+### 2.7 O corpus: composição e fontes
 
 O corpus compreende 165 registros no ledger atual, dos quais 154 itens com codificação de purificação; o congelamento analítico anterior registrou 145 imagens oficiais e semi-oficiais coletadas em 15 acervos digitais, estratificadas por país, período e suporte material. Todas as 145 do congelamento anterior estão integralmente codificadas (10 indicadores + regime + análise Panofsky), sendo 20 codificadas por inspeção visual direta (IIIF) e 125 por metadados refinados.
 
@@ -177,7 +199,7 @@ A cobertura temporal estende-se de 1559 (FR-047, *Iustitia* de Bruegel, item arq
 
 ---
 
-### 2.7 Infraestrutura digital e rastreabilidade
+### 2.8 Infraestrutura digital e rastreabilidade
 
 O corpus é mantido em regime de ciência aberta no repositório GitHub `anavvanzin/iconocracy-corpus`, seguindo o princípio de rastreabilidade em três pontos:
 
@@ -190,6 +212,28 @@ O corpus é mantido em regime de ciência aberta no repositório GitHub `anavvan
 O pipeline de codificação opera em duas etapas: o agente *WebScout* pesquisa e cataloga candidatos em acervos digitais, gerando notas de pesquisa com metadados e URLs; o agente *IconoCode* aplica o protocolo de três níveis, pontua os 10 indicadores, classifica o regime e produz o registro JSON. Os dados processados são exportados automaticamente para `data/processed/corpus_dataset.csv`, que alimenta os notebooks estatísticos (Jupyter/Python: pandas, scipy, scikit-posthocs).
 
 As referências bibliográficas seguem a norma ABNT NBR 6023:2025. A codificação ICONCLASS utiliza os códigos do sistema de Van de Waal, com atenção especial ao código 48C51 (iconografia feminina em contexto político-jurídico).
+
+---
+
+## Referências citadas nas seções 2.5–2.8
+
+BRAMAN, Sandra. Visual evidence in law. In: MNOOKIN, Jennifer; RISTOVSKA, Lili (Org.). *Seeing Evidence*. Chicago: University of Chicago Press, 2023.
+
+DIDI-HUBERMAN, Georges. *Devant le temps: histoire de l'art et anachronisme des images*. Paris: Les Éditions de Minuit, 2000.
+
+FUENTES, Marisa J. *Dispossessed Lives: Enslaved Women, Violence, and the Archive*. Philadelphia: University of Pennsylvania Press, 2016.
+
+GINZBURG, Carlo. Sinais: raízes de um paradigma indiciário. In: ______. *Mitos, emblemas, sinais: morfologia e história*. Tradução de Federico Carotti. São Paulo: Companhia das Letras, 1989. p. 143--179.
+
+HARTMAN, Saidiya. Venus in Two Acts. *Small Axe*, v. 12, n. 2, p. 1--14, 2008.
+
+MORAN, Leslie J. *Imagining Penology: On the Visual Cultures of Punishment*. London: Routledge, 2022.
+
+PANOFSKY, Erwin. *Meaning in the Visual Arts: Papers in and on Art History*. New York: Doubleday Anchor Books, 1955.
+
+PANOFSKY, Erwin. *Studies in Iconology: Humanistic Themes in the Art of the Renaissance*. New York: Oxford University Press, 1939.
+
+RAU, Roland; SHIH, Yi-Kang. Adequacy of kappa statistics for inter-rater reliability in text genre categorization: a mathematical reconsideration. *Quality & Quantity*, v. 55, n. 2, p. 651--666, 2021.
 
 ---
 
