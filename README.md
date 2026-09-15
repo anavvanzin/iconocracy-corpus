@@ -5,7 +5,7 @@
 **Alegoria Feminina na História da Cultura Jurídica (Séculos XIX-XX)**
 
 [![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
-[![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+[![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20dataset-warholana%2Ficonocracy--corpus-yellow.svg)](https://hf.co/datasets/warholana/iconocracy-corpus)
 [![Site](https://img.shields.io/badge/site-iconocracia.com-black.svg)](https://iconocracia.com)
 [![Dashboard](https://img.shields.io/badge/dashboard-live-2A7A5A.svg)](https://dashboard.iconocracia.com)
@@ -291,4 +291,4 @@ Machine-readable metadata: [`CITATION.cff`](CITATION.cff).
 
 ## License
 
-Code and tools: **MIT**. Corpus metadata: **CC BY 4.0**. Individual images are subject to the rights indicated in each entry.
+Code and tools: **MIT** ([`LICENSE`](LICENSE)). Corpus metadata: **CC BY 4.0** ([`LICENSE-DATA`](LICENSE-DATA)). Individual images are subject to the rights indicated in each entry.
