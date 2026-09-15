@@ -236,7 +236,9 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     if indicadores:
         entry["indicadores"] = indicadores
 
-    if abnt and not entry.get("citation_abnt"):
+    # A citação em records.jsonl é canônica. Corrige placeholders históricos
+    # no export sem depender de edição manual da projeção.
+    if abnt:
         entry["citation_abnt"] = abnt
 
     # Tags from exports audit_flags

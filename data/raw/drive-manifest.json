@@ -2,8 +2,8 @@
   "$schema": "../docs/drive-manifest-schema.json",
   "_comment": "Mapa: pasta Google Drive → corpus IDs. Drive URLs are placeholders — update with real folder ID.",
   "drive_root": "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID",
-  "generated_at": "2026-08-06",
-  "total_items": 172,
+  "generated_at": "2026-09-15",
+  "total_items": 173,
   "items": [
     {
       "id": "AR-001",
@@ -1387,6 +1387,18 @@
       "regime": "contra-alegoria",
       "vault_note": "SCOUT-607",
       "drive_url": "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID?q=b1966d16-8731-58e4-a898-8ef3c44f59cb"
+    },
+    {
+      "id": "324a90b6-403b-5b36-9bcf-d4c4db9efdc1",
+      "title": "La Nation, la Loi, le Roi. Constitution française. (du 14 septembre 1791)",
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b69481105",
+      "regime": "fundacional",
+      "vault_note": "vault/candidatos/SCOUT-625 La Nation la Loi le Roi Constitution francaise.md",
+      "drive_url": "",
+      "drive_path": "Meu Drive/ICONOCRACY - Tese PPGD-UFSC/Corpus Digital/constituicoes-atlanticas/324a90b6-403b-5b36-9bcf-d4c4db9efdc1.png",
+      "sha256": "9dfd9acd5fc4abc4000d9da7121edcdcc0557c39e57f17fdae8642248d57ac1f",
+      "rights": "Domaine public — Bibliothèque nationale de France",
+      "source_url": "https://gallica.bnf.fr/ark:/12148/btv1b69481105"
     }
   ]
 }

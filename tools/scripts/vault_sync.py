@@ -478,7 +478,7 @@ def cmd_diff() -> None:
     print(f"\nItens em records.jsonl sem nota vault (por título): {len(only_records_title)}")
 
 
-def cmd_pull(dry_run: bool = False) -> None:
+def cmd_pull(dry_run: bool = False, item: str | None = None) -> None:
     """Pull: vault notes → records.jsonl (add new items not already in records)."""
     records = _load_records()
     url_idx = _records_url_index(records)
@@ -487,6 +487,8 @@ def cmd_pull(dry_run: bool = False) -> None:
 
     added = 0
     for note in notes:
+        if item and _note_id(note) != item:
+            continue
         url = _note_url(note)
         title = _note_title(note).lower()
 
@@ -510,6 +512,7 @@ def cmd_pull(dry_run: bool = False) -> None:
         rec = _vault_note_to_record(note)
         if dry_run:
             print(f"  [DRY-RUN] Pull: {note.get('_file', '')} → records.jsonl")
+            added += 1
         else:
             records.append(rec)
             added += 1
@@ -601,12 +604,17 @@ def main() -> None:
         "--dry-run", action="store_true",
         help="Preview sem escrever arquivos",
     )
+    parser.add_argument(
+        "--item", help="Limita pull/sync a uma nota pelo id exato (ex.: SCOUT-625)",
+    )
     args = parser.parse_args()
+    if args.item and args.command != "pull":
+        parser.error("--item é aceito somente com o comando pull")
 
     cmds = {
         "status": lambda: cmd_status(),
         "diff": lambda: cmd_diff(),
-        "pull": lambda: cmd_pull(dry_run=args.dry_run),
+        "pull": lambda: cmd_pull(dry_run=args.dry_run, item=args.item),
         "push": lambda: cmd_push(dry_run=args.dry_run),
         "sync": lambda: cmd_sync(dry_run=args.dry_run),
     }
