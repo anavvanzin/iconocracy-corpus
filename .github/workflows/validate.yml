@@ -72,8 +72,8 @@ jobs:
       - name: Check records export idempotence
         run: python tools/scripts/check_corpus_export_idempotent.py
 
-      - name: Validate traceability report
-        run: python tools/scripts/trace_evidence.py data/processed/records.jsonl
+      - name: Validate traceability report (block high-severity findings)
+        run: python tools/scripts/trace_evidence.py data/processed/records.jsonl --fail-on-high
 
       - name: Show purification status
         run: python tools/scripts/code_purification.py --status
