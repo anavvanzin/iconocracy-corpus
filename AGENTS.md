@@ -65,7 +65,7 @@ python tools/scripts/build_hf_release.py
 - `tese/manuscrito/*_original` is read-only; work on `*_rev` copies
 - `data/raw/` is metadata-only in git (ADR-001); binaries on Google Drive
 - Never edit `corpus/corpus-data.json` directly — use Python scripts
-- All Codebook v2 allegory fields (`subtipo`, `familia_alegorica`, `vetor_colonial`, `hipotese_racial`) nest under `"purificacao"` key in `records.jsonl`; `records_to_corpus.py` flattens them to `corpus-data.json` root
+- All Codebook v2 allegory fields (`subtipo`, `familia_alegorica`, `vetor_colonial`, `hipotese_racial`) nest under `"purificacao"` in the public canonical `data/processed/records.jsonl`; they are intentionally omitted from the streamlined `corpus/corpus-data.json` projection
 - Vault notes: `XX-NNN Title.md` (e.g., `FR-013 Déclaration des droits.md`) in Obsidian Flavored Markdown
 - `vault_backup.py` for snapshots; never mix backups on `main`
 - `python tools/scripts/validate_schemas.py` must pass before any commit
