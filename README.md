@@ -65,7 +65,7 @@ The browsable surfaces in this repo are self-contained HTML, so they open straig
 
 - **335** records in the operational ledger (`data/processed/records.jsonl`)
 - **335** items in the public projection (`corpus/corpus-data.json`)
-- **286** coding observations in `data/processed/purification.jsonl` (77 of them are all-zero imports; see [Known issues](#known-issues-and-honest-numbers))
+- **286** coding observations in `data/processed/purification.jsonl` (77 are all-zero observations: 76 inherited placeholders and one genuine manual coding; see [Known issues](#known-issues-and-honest-numbers))
 - **410** catalog cards in the Obsidian vault (`vault/candidatos/`), plus 38 rejected cards in `_rejeitados/`
 
 **By country** (top of a non-exhaustive, transnational corpus):
@@ -233,13 +233,13 @@ Authority is assigned by field family rather than by a linear ranking ([ADR-006]
 
 `corpus-data.json`, SQLite, CSV, dashboards and Hugging Face bundles are **disposable projections**. They must be rebuildable from the ledgers, so **never hand-edit `corpus-data.json`**; edit the source and regenerate with `records_to_corpus.py`.
 
-Public-projection fields are `id`, `title`, `date`, `country`, `motif`, `regime`, `support`, `description`, `url`, `indicadores`, `endurecimento_score` (legacy), `citation_abnt`, `coded_at`, `coded_by` and `audit_flags`. Qualitative coding fields (`subtipo`, `familia_alegorica`, `vetor_colonial`, `hipotese_racial`, …) stay nested under `purificacao` in `records.jsonl` and are not exported.
+Public-projection fields are `id`, `title`, `date`, `country`, `motif`, `regime`, `support`, `description`, `url`, `indicadores`, `endurecimento_score` (legacy), `citation_abnt`, `coded_at`, `coded_by` and `audit_flags`. Qualitative coding fields (`subtipo`, `familia_alegorica`, `vetor_colonial`, `hipotese_racial`, …) remain available in the public, CC BY 4.0-licensed canonical artifact `data/processed/records.jsonl`, nested under `purificacao`; they are intentionally omitted from the streamlined `corpus/corpus-data.json` interface projection.
 
 **Traceability rule.** Every item exists in three places: Google Drive (+ `data/raw/drive-manifest.json`) · a vault card in `vault/candidatos/` · a master record in `records.jsonl`. Per **ADR-001**, `data/raw/` stays metadata-only in git; binaries live on Google Drive.
 
 **CI.** The `Validate Schemas` workflow (`.github/workflows/validate.yml`) validates both ledgers against their schemas, checks record and projection counts, checks export idempotence, validates the traceability report, shows coding status, rejects binaries in `data/raw/`, and runs the test suite.
 
-**Versioning.** Any analysis cited in academic text must reference a git-tagged snapshot (current tag: `v0.2`, 2026-07-04). `v1.0` is reserved for the qualification version. See [`CHANGELOG.md`](CHANGELOG.md).
+**Versioning.** Any analysis cited in academic text must reference an immutable commit or an existing release tag. No `v0.2` tag has been published; `v1.0` remains reserved for the qualification version. See [`CHANGELOG.md`](CHANGELOG.md).
 
 ---
 
@@ -247,7 +247,7 @@ Public-projection fields are `id`, `title`, `date`, `country`, `motif`, `regime`
 
 The project audits itself. These findings come from a recount at commit `e86cb37`.
 
-- **Coding coverage is lower than the raw count.** `code_purification.py --status` reports 286 of 335 items coded (85%), but 77 of those rows are all-zero values from vault imports (57) and migration (19). [ADR-006](docs/adr/006-canonical-field-ownership-and-projections.md) records that imports used zeros to mean "pending".
+- **Coding coverage needs provenance-aware interpretation.** `code_purification.py --status` reports 286 of 335 items coded (85%). Of the 77 all-zero observations, 76 are inherited placeholders—57 from `vault-import` and 19 from `migration`—where zero means "pending" under [ADR-006](docs/adr/006-canonical-field-ownership-and-projections.md). The remaining row, `SCOUT-571`, is a genuine manual observation by `ana`, with timestamp and notes, and is not import debt.
 - **Regime counts differ between ledgers.** The records ledger gives 163 / 103 / 54 / 15 across 335 items; `purification.jsonl` gives 149 / 99 / 28 / 10 across 286 observations. The two have not been reconciled.
 - **Some ids do not join.** Ten coding ids do not resolve to a record through the id crosswalk, and two (`FR-007`, `US-011`) are not in the public projection.
 - **The period window is not a hard gate in the data.** Dated items span 1239 to 2021; 227 of the 294 items with a year fall inside 1800-2000.
