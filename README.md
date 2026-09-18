@@ -239,7 +239,7 @@ Public-projection fields are `id`, `title`, `date`, `country`, `motif`, `regime`
 
 **CI.** The `Validate Schemas` workflow (`.github/workflows/validate.yml`) validates both ledgers against their schemas, checks record and projection counts, checks export idempotence, validates the traceability report, shows coding status, rejects binaries in `data/raw/`, and runs the test suite.
 
-**Versioning.** Any analysis cited in academic text must reference an immutable commit or an existing release tag. No `v0.2` tag has been published; `v1.0` remains reserved for the qualification version. See [`CHANGELOG.md`](CHANGELOG.md).
+**Versioning.** Any analysis cited in academic text must reference an immutable commit or an existing release tag. `v1.0` remains reserved for the qualification version. See [`CHANGELOG.md`](CHANGELOG.md).
 
 ---
 
