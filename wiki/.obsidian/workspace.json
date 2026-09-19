@@ -11,10 +11,14 @@
             "id": "6d69815ae5f47236",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "_templates/rotina-R2-coding.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "rotina-R2-coding"
             }
           },
           {
@@ -37,12 +41,16 @@
             "id": "ffb7632c741be5d3",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "kanban",
               "state": {
-                "path": "Excalidraw"
+                "file": "_templates/Untitled Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
               },
-              "icon": "lucide-file",
-              "title": "Excalidraw"
+              "icon": "lucide-trello",
+              "title": "Untitled Kanban"
             }
           },
           {
@@ -61,8 +69,7 @@
               "title": "terminal:documentation"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,6 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_templates/rotina-R2-coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,8 +287,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "ffb7632c741be5d3",
+  "active": "6d69815ae5f47236",
   "lastOpenFiles": [
+    "_templates/Untitled Kanban.md",
+    "2026-04-25.md",
     "Feminilidade de Estado.md",
     "conflict-files-obsidian-git.md",
     "Tags",
@@ -302,7 +312,6 @@
     "media-lib",
     "entities/Sem título 1.base",
     "entities/Sem título.base",
-    "_templates/Untitled Kanban.md",
     "_templates/SCOUT-NARR.md",
     "_templates/rotina-R6-higiene.md",
     "_templates/rotina-R3-leitura.md",
@@ -314,7 +323,6 @@
     "relatorios/2026-04-21_relatorio.pdf",
     "relatorios/2026-04-21_relatorio.png",
     "tese/drafts/iconocracia-memorando-pesquisa--expandido.md",
-    "tese/drafts/iconocracia-memorando-pesquisa.md",
     "Sem título 1.base",
     "Sem título 3.base",
     "tese/roadmap-visual.canvas",
