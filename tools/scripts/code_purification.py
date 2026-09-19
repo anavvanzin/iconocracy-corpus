@@ -415,7 +415,7 @@ def export_csv(corpus, coded):
     print(f"     ({coded_count} with purification codes, {len(corpus) - coded_count} uncoded)")
 
 
-def select_sample(coded, n):
+def select_sample(corpus, coded, n):
     """Generate a stratified random sample of N items for double-coding (IRR)."""
     import random
 
@@ -423,9 +423,28 @@ def select_sample(coded, n):
         print("  ❌ No coded items found in purification.jsonl")
         sys.exit(1)
 
-    # Group by regime
-    by_regime = {}
+    try:
+        from tools.scripts.support_harmonization import harmonize_candidates
+    except ModuleNotFoundError:  # direct: python tools/scripts/code_purification.py
+        from support_harmonization import harmonize_candidates
+
+    corpus_by_id = {item["id"]: item for item in corpus}
+    candidates = []
     for item_id, rec in coded.items():
+        corpus_item = corpus_by_id.get(item_id, {})
+        candidates.append({
+            "item_id": item_id,
+            "record": rec,
+            "support": corpus_item.get("support"),
+            "support_source": "corpus/corpus-data.json",
+        })
+    candidates = harmonize_candidates(candidates)
+
+    # Group by regime only after every candidate passes support harmonization.
+    by_regime = {}
+    for candidate in candidates:
+        item_id = candidate["item_id"]
+        rec = candidate["record"]
         regime = rec.get("regime_iconocratico", "unknown")
         by_regime.setdefault(regime, []).append(item_id)
 
@@ -501,7 +520,7 @@ def main():
         return
 
     if args.select_sample:
-        select_sample(coded, args.select_sample)
+        select_sample(corpus, coded, args.select_sample)
         return
 
     # Build work queue

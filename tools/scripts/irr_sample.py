@@ -23,6 +23,11 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
+try:
+    from tools.scripts.support_harmonization import harmonize_candidates
+except ModuleNotFoundError:  # direct: python tools/scripts/irr_sample.py
+    from support_harmonization import harmonize_candidates
+
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 PURIFICATION_PATH = REPO_ROOT / "data" / "processed" / "purification.jsonl"
 RECORDS_PATH = REPO_ROOT / "data" / "processed" / "records.jsonl"
@@ -393,9 +398,17 @@ def main():
             "corpus_id": corpus_id,
             "regime": regime,
             "support": support,
+            "support_source": (
+                "corpus/corpus-data.json" if corpus_item.get("support")
+                else "data/raw/drive-manifest.json"
+            ),
             "image_paths": img_paths,
             "record": record,
         })
+
+    # Protocol gate: the complete eligible population is harmonized before any
+    # stratum allocation or random draw. One rejected row blocks selection.
+    eligible = harmonize_candidates(eligible)
 
     print(f"\nEligible population (real images): {len(eligible)} items")
 
@@ -492,6 +505,10 @@ def main():
             "corpus_id": s["corpus_id"],
             "regime": s["regime"],
             "support": s["support"],
+            "support_raw": s["support_raw"],
+            "support_stratum": s["support_stratum"],
+            "support_family": s["support_family"],
+            "support_harmonization_version": s["support_harmonization_version"],
             "image_file": dst_name,
             "image_path": str(dst_path.relative_to(REPO_ROOT)),
             "sample_index": idx,
