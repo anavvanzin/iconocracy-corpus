@@ -20,6 +20,13 @@ def _normalize(value: object) -> str:
     return unicodedata.normalize("NFKC", str(value)).strip().casefold()
 
 
+def _normalize_marker(marker: object) -> str:
+    # Sem strip(): os marcadores " e " e " and " dependem dos espaços para casar só
+    # entre palavras. Passados por _normalize() viravam "e" e "and", e o gate rejeitava
+    # como composto todo suporte que contivesse a letra — moeda, selo, escultura.
+    return unicodedata.normalize("NFKC", str(marker)).casefold()
+
+
 def load_protocol(path: Path = DEFAULT_CONFIG) -> dict:
     with open(path, encoding="utf-8") as stream:
         document = yaml.safe_load(stream)
@@ -41,8 +48,10 @@ def harmonize_support(support_raw: object, support_source: str, protocol: dict |
     forbidden = {_normalize(value) for value in adjudication["forbidden_values"]}
     if normalized in forbidden:
         raise SupportHarmonizationError(f"forbidden support value: {support_raw!r}")
+    # Espaço nas duas pontas para que " e " case também no início e no fim do valor.
+    padded = f" {normalized} "
     for marker in adjudication["reject_composite_if_contains"]:
-        if _normalize(marker) in normalized:
+        if _normalize_marker(marker) in padded:
             raise SupportHarmonizationError(f"composite support requires adjudication: {support_raw!r}")
 
     mappings = {
