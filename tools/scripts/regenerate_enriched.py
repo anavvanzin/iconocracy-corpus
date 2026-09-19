@@ -27,6 +27,22 @@ LEDGER_PATH = REPO_ROOT / "corpus" / "corpus-data.json"
 ENRICHED_PATH = REPO_ROOT / "corpus" / "corpus-data-enriched.json"
 REPORT_PATH = REPO_ROOT / "corpus" / "enrichment-report.md"
 SCHEMA_PATH = Path("/Users/ana/Research/imagens/schemas/corpus-data-enriched.schema.json")
+RECORDS_PATH = REPO_ROOT / "data" / "processed" / "records.jsonl"
+CROSSWALK_PATH = REPO_ROOT / "data" / "processed" / "id_crosswalk.jsonl"
+
+# v2.3.0 purificacao fields propagated from records.jsonl into the enriched
+# record (top level). Only emitted when the master record actually has them.
+V230_FIELDS = [
+    "atributos_iconograficos", "genero_atribuido", "familia_alegorica",
+    "subtipo", "funcao_juridica", "vetor_colonial", "hipotese_racial",
+    "referencia_genealogica", "programa_id", "ordem_no_programa",
+    "dado_negativo", "finalidade_atribuida", "objetos_regalia",
+    "marcas_corporais", "marcadores_cena_arquitetura",
+    "relacao_com_repertorio_indigena", "disjuncao_representa_governa",
+    "funcao_da_figura_masculina", "tipo_agencia_masculina",
+    "funcao_atlanteana", "tipo_efluencia_hidrica",
+    "substituicao_atributiva_hercules",
+]
 
 # Directories probed for local images matching <id>.* (relative to repo root).
 # corpus/imagens/ does not exist on this machine (2026-06); kept for portability.
@@ -210,14 +226,63 @@ def find_local_image(item_id):
     return None
 
 
+def load_master_records():
+    """Index data/processed/records.jsonl by item_id (uuid) and build a
+    handle -> uuid map from the crosswalk, so ledger items addressed by
+    corpus handle (FR-007) can reach their master record. Returns
+    (records_by_uuid, handle_to_uuid). Missing files yield empty maps —
+    the regeneration then behaves exactly as before (no Panofsky overlay)."""
+    records_by_uuid = {}
+    if RECORDS_PATH.exists():
+        with RECORDS_PATH.open(encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    r = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                if r.get("item_id"):
+                    records_by_uuid[r["item_id"]] = r
+    handle_to_uuid = {}
+    if CROSSWALK_PATH.exists():
+        with CROSSWALK_PATH.open(encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    d = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                handle, uuid = d.get("handle"), d.get("uuid")
+                if handle and uuid:
+                    handle_to_uuid[handle] = uuid
+    return records_by_uuid, handle_to_uuid
+
+
+def resolve_master_record(item_id, records_by_uuid, handle_to_uuid):
+    """Ledger ids are corpus handles (FR-007) for legacy items or UUIDs for
+    vault imports. Resolve to the master record either way."""
+    if item_id in records_by_uuid:
+        return records_by_uuid[item_id]
+    uuid = handle_to_uuid.get(item_id)
+    if uuid:
+        return records_by_uuid.get(uuid)
+    return None
+
+
 def ledger_justification(item, regime_upper):
     coded_by = item.get("coded_by") or "desconhecido"
     coded_at = str(item.get("coded_at") or "")[:10] or "data desconhecida"
     return f"classificado no ledger por {coded_by} em {coded_at} → {regime_upper}"
 
 
-def build_record(item, old_by_id, stats):
-    """Merge one ledger item with its old-enriched overlay (if any)."""
+def build_record(item, old_by_id, stats, master=None):
+    """Merge one ledger item with its old-enriched overlay (if any) and with
+    the master record from records.jsonl (Panofsky 3 níveis + campos v2.3.0,
+    when resolvable)."""
     item_id = item["id"]
     old = old_by_id.get(item_id)
     is_legacy = old is not None
@@ -300,6 +365,35 @@ def build_record(item, old_by_id, stats):
         record["local_image_path"] = find_local_image(item_id)
 
     # ── assemble (old enriched field order first, extras after) ─────────────
+    iconographic_metadata = {"visual_regime": regime_lower}
+    if item.get("endurecimento_score") is not None:
+        iconographic_metadata["endurecimento_score"] = item["endurecimento_score"]
+    # Panofsky 3 níveis + attributes/iconclass mapped from the master record
+    # into the schema's canonical vocabulary (regenerate validates against
+    # imagens/schemas/corpus-data-enriched.schema.json).
+    if master:
+        ico = master.get("iconocode") or {}
+        pur_m = master.get("purificacao") or {}
+        panofsky = {}
+        if ico.get("pre_iconographic"):
+            panofsky["pre_iconographic"] = ico["pre_iconographic"]
+        if ico.get("codes"):
+            panofsky["codes"] = ico["codes"]
+        if ico.get("interpretation"):
+            panofsky["interpretation"] = ico["interpretation"]
+        if ico.get("confidence") is not None:
+            panofsky["confidence"] = ico["confidence"]
+        if panofsky:
+            iconographic_metadata["panofsky"] = panofsky
+        if pur_m.get("atributos_iconograficos"):
+            iconographic_metadata["attributes"] = pur_m["atributos_iconograficos"]
+        notations = [
+            c["notation"] for c in (ico.get("codes") or [])
+            if c.get("scheme") == "iconclass" and c.get("notation")
+        ]
+        if notations:
+            iconographic_metadata["iconclass"] = notations
+
     out = {
         "id": item_id,
         "title": item.get("title") or "",
@@ -338,11 +432,21 @@ def build_record(item, old_by_id, stats):
         "audit_flags": item.get("audit_flags"),
         "endurecimento_score": item.get("endurecimento_score"),
         "indicadores": item.get("indicadores"),
-        "iconographic_metadata": {
-            "visual_regime": regime_lower,
-            "endurecimento_score": item.get("endurecimento_score"),
-        },
+        "iconographic_metadata": iconographic_metadata,
     }
+    # v2.3.0 purificacao fields (atributos, gênero, família alegórica, agência
+    # masculina etc.) — only emitted when present in the master record.
+    if master:
+        pur = master.get("purificacao") or {}
+        for field in V230_FIELDS:
+            if pur.get(field) not in (None, "", []):
+                out[field] = pur[field]
+        if pur:
+            stats["with_master"] += 1
+        if pur.get("atributos_iconograficos"):
+            stats["with_atributos"] += 1
+    if "panofsky" in iconographic_metadata:
+        stats["with_panofsky"] += 1
     # The old enriched file never emitted nulls for string-typed optional
     # fields — it omitted the keys (the schema types them as "string" only).
     # Null is kept only where the schema explicitly allows it.
@@ -372,8 +476,11 @@ def validate_structural(records):
         if not isinstance(r.get("motif"), list):
             errors.append(f"{r['id']}: motif is not a list")
         meta = r.get("iconographic_metadata") or {}
-        if "visual_regime" not in meta or "endurecimento_score" not in meta:
-            errors.append(f"{r['id']}: incomplete iconographic_metadata")
+        if "visual_regime" not in meta:
+            errors.append(f"{r['id']}: iconographic_metadata missing visual_regime")
+        if "endurecimento_score" in meta and not isinstance(
+                meta["endurecimento_score"], (int, float)):
+            errors.append(f"{r['id']}: endurecimento_score is not a number")
     return errors
 
 
@@ -576,11 +683,18 @@ def main():
         "regime_incerto": [],
         "legacy_regime_changed": [],
         "medium_unmapped": [],
+        "with_master": 0,
+        "with_panofsky": 0,
+        "with_atributos": 0,
     }
+
+    records_by_uuid, handle_to_uuid = load_master_records()
 
     records = []
     for item in ledger:
-        record, is_legacy = build_record(item, old_by_id, stats)
+        master = resolve_master_record(
+            item["id"], records_by_uuid, handle_to_uuid)
+        record, is_legacy = build_record(item, old_by_id, stats, master)
         if is_legacy:
             stats["legacy_overlays"] += 1
         records.append(record)
@@ -611,6 +725,9 @@ def main():
     print(f"regime_incerto: {len(stats['regime_incerto'])}")
     print(f"Legacy regime changes: {len(stats['legacy_regime_changed'])}")
     print(f"Unmapped support values: {len(stats['medium_unmapped'])}")
+    print(f"Master records resolved: {stats['with_master']}")
+    print(f"With Panofsky (pre_iconographic): {stats['with_panofsky']}")
+    print(f"With atributos_iconograficos (v2.3.0): {stats['with_atributos']}")
 
 
 if __name__ == "__main__":
