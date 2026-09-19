@@ -198,3 +198,27 @@ vault/obsidian-*/aulas/Memorial *.md
 wiki/DIR410346-Historia-Direito-Penal/memoriais/
 wiki/DIR410346-Historia-Direito-Penal/aulas/Memorial *.md
 Text/Memorial *.md
+
+# Auto-generated artifacts (not source)
+companion-data.json
+MANIFEST.md
+SKILLS.md
+skills-lock.json
+
+# Stale agent workspaces
+agents-workspace/
+
+# IDE / editor
+.cursor/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/

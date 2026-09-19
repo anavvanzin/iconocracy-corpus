@@ -10,6 +10,9 @@ const files = new Map([
   ["/", resolve(appRoot, "site/index.html")],
   ["/index.html", resolve(appRoot, "site/index.html")],
   ["/og.png", resolve(appRoot, "public/og.png")],
+  ["/sun-seal.svg", resolve(appRoot, "public/sun-seal.svg")],
+  ["/pixel-justitia-sky.png", resolve(appRoot, "public/pixel-justitia-sky.png")],
+  ["/project-banner.png", resolve(appRoot, "public/project-banner.png")],
   [
     "/analysis/huggingface-regime-coverage-2026-08-13/README.md",
     resolve(repoRoot, analysisRoot, "README.md"),

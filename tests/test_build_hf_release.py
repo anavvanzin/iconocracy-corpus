@@ -126,9 +126,12 @@ def test_validate_local_contract_runs_both_validators(monkeypatch: pytest.Monkey
 
     release.validate_local_contract()
 
-    assert len(calls) == 2
+    assert len(calls) == 4
     assert calls[0][0][-3:] == ["--schema", "master-record", "--verbose"]
     assert calls[1][0][-3:] == ["--schema", "purification-record", "--verbose"]
+    assert Path(calls[2][0][1]).name == "check_corpus_export_idempotent.py"
+    assert Path(calls[3][0][1]).name == "trace_evidence.py"
+    assert calls[3][0][-1] == "--fail-on-high"
     assert all(kwargs == {"check": True} for _, kwargs in calls)
 
 

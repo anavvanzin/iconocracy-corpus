@@ -2,16 +2,17 @@
 """
 lpai_proxy_coder_k3.py — Codificador-proxy LPAI v2 sobre Kimi K3 (Moonshot AI).
 
-Aplica o master prompt operacional do codebook (`schema/codebook-MASTER.md`,
-§16) a itens do corpus ICONOCRACY e grava capta iconográfico *de proxy* em um
-arquivo de staging separado. O objetivo é medir concordância (kappa) contra a
-codificação humana cega, não substituí-la.
+Aplica o master prompt operacional do codebook
+(`docs/methodology/codebooks/codebook-MASTER.md`, §16) a itens do corpus
+ICONOCRACY e grava capta iconográfico *de proxy* em um arquivo de staging
+separado. O objetivo é apoiar diagnóstico interno contra codificação humana,
+não substituí-la.
 
 Instrumento e autoridade
 ------------------------
   * Instrumento: §16 do codebook MASTER, lido em tempo de execução. O script
     NÃO reescreve nem parafraseia o prompt — a fidelidade do instrumento é o
-    que torna o kappa defensável. `codebook_version` é registrado em cada linha.
+    que preserva a rastreabilidade. `codebook_version` é registrado em cada linha.
   * Autoridade: nenhuma. Toda linha nasce com `proxy_only: true` e
     `merge_policy: requires_human_adjudication`. A classe humana permanece
     vazia por construção.
@@ -37,7 +38,8 @@ campo de composto — não há flag que o reintroduza.
 Uso
 ---
     export MOONSHOT_API_KEY=sk-...
-    python tools/scripts/lpai_proxy_coder_k3.py --dry-run --limit 3
+    python tools/scripts/lpai_proxy_coder_k3.py --version
+    python tools/scripts/lpai_proxy_coder_k3.py --all --dry-run --limit 3
     python tools/scripts/lpai_proxy_coder_k3.py --items <item_id>,<item_id>
     python tools/scripts/lpai_proxy_coder_k3.py --all --limit 40
 
@@ -45,7 +47,7 @@ Códigos de saída
 ----------------
     0 — sucesso; todos os itens codificados com confiança media|alta
     1 — erro fatal (I/O, API, instrumento ausente)
-    2 — concluído, porém com itens de confiança baixa ou NC (sinal, não bloqueio)
+    2 — concluído com baixa confiança/NC ou item pulado sem evidência
     3 — violação de barreira de escrita (nada foi gravado, nada foi gasto)
 """
 
@@ -53,14 +55,23 @@ from __future__ import annotations
 
 import argparse
 import base64
+import copy
+import fcntl
+import ipaddress
 import json
 import os
 import re
+import secrets
+import socket
+import stat
 import sys
 import time
+from contextlib import contextmanager
 from datetime import datetime, timezone
+from functools import lru_cache
 from pathlib import Path
 from typing import Any, Iterable
+from urllib.parse import urljoin, urlsplit
 
 REPO = Path(__file__).resolve().parent.parent.parent
 
@@ -68,16 +79,26 @@ REPO = Path(__file__).resolve().parent.parent.parent
 # Instrumento, entrada e saída
 # ---------------------------------------------------------------------------
 
-CODEBOOK_PATH = REPO / "schema" / "codebook-MASTER.md"
+SCRIPT_VERSION = "1.3.0"
+PROXY_SCHEMA_VERSION = "1.0.0"
+CODEBOOK_PATH = REPO / "docs" / "methodology" / "codebooks" / "codebook-MASTER.md"
+PROXY_SCHEMA_PATH = REPO / "tools" / "schemas" / "lpai-proxy-record.schema.json"
 CANONICAL_RECORDS = REPO / "data" / "processed" / "records.jsonl"
 DEFAULT_STAGING_ROOT = REPO / "data" / "staging"
-DEFAULT_OUTPUT_NAME = "lpai-proxy-k3-runs.jsonl"
+DEFAULT_OUTPUT_NAME = "lpai-proxy-k3-schema-v1-runs.jsonl"
 IMAGE_CACHE = REPO / ".cache" / "lpai-proxy-images"
 
 AGENT_ID = "lpai-proxy-k3"
 PROMPT_VERSION = "lpai-proxy-k3-v2"  # v2: composto aposentado (DEC-2026-07-28)
 MODEL_DEFAULT = "kimi-k3"
 BASE_URL_DEFAULT = "https://api.moonshot.ai/v1"
+IMAGE_MAX_BYTES = 10 * 1024 * 1024
+IMAGE_CHUNK_BYTES = 64 * 1024
+MAX_REDIRECTS = 5
+SOURCE_BLOCK_MAX_CHARS = 4_000
+SOURCE_STRING_MAX_CHARS = 1_000
+SOURCE_LIST_MAX_ITEMS = 5
+SOURCE_DICT_MAX_ITEMS = 12
 
 INDICATOR_KEYS: tuple[str, ...] = (
     "desincorporacao",
@@ -94,20 +115,13 @@ INDICATOR_KEYS: tuple[str, ...] = (
 
 REGIMES = ("fundacional", "normativo", "militar", "contra-alegoria")
 
-RECUSA_TIPOS = (
-    "substituicao_remasculinizante",
-    "negacao_pura",
-    "feminino_esvaziado",
-    "substituicao_neutro_abstrata",
-    "nenhuma",
-)
-
 # ---------------------------------------------------------------------------
 # Barreiras de escrita
 # ---------------------------------------------------------------------------
 
 CANONICAL_WRITE_FORBIDDEN: tuple[Path, ...] = (
     REPO / "data" / "processed" / "records.jsonl",
+    REPO / "data" / "processed" / "purification.jsonl",
     REPO / "corpus" / "corpus-data.json",
     REPO / "corpus" / "corpus-data.v2.json",
     REPO / "corpus" / "corpus-data-enriched.json",
@@ -125,6 +139,7 @@ FORBIDDEN_DIRS: tuple[Path, ...] = (
 FORBIDDEN_BASENAMES: frozenset[str] = frozenset(
     {
         "records.jsonl",
+        "purification.jsonl",
         "corpus-data.json",
         "corpus-data.v2.json",
         "corpus-data-enriched.json",
@@ -137,10 +152,43 @@ class GuardrailError(RuntimeError):
     """Tentativa de escrever fora da área de staging do proxy."""
 
 
+def _canonical_artifact_paths() -> tuple[Path, ...]:
+    """Artefatos conhecidos mais qualquer corpus-data*.json existente."""
+    candidates = list(CANONICAL_WRITE_FORBIDDEN)
+    candidates.extend(sorted((REPO / "corpus").glob("corpus-data*.json")))
+    return tuple(dict.fromkeys(candidates))
+
+
+def _assert_safe_file_identity(
+    fd: int, path: Path | str, *, purpose: str
+) -> os.stat_result:
+    """Exige inode regular, sem hardlinks e distinto dos artefatos canônicos."""
+    info = os.fstat(fd)
+    if not stat.S_ISREG(info.st_mode):
+        raise GuardrailError(f"{purpose} não é arquivo regular: {path}")
+    for canonical in _canonical_artifact_paths():
+        try:
+            canonical_info = canonical.stat()
+        except (FileNotFoundError, OSError):
+            continue
+        if (info.st_dev, info.st_ino) == (
+            canonical_info.st_dev,
+            canonical_info.st_ino,
+        ):
+            raise GuardrailError(
+                f"{purpose} compartilha inode com artefato canônico: {canonical}"
+            )
+    if info.st_nlink != 1:
+        raise GuardrailError(
+            f"{purpose} recusado: número de hardlinks precisa ser 1 "
+            f"(recebido: {info.st_nlink}): {path}"
+        )
+    return info
+
+
 def staging_root() -> Path:
-    """Raiz permitida para saída. Sobrescritível apenas para teste."""
-    override = os.environ.get("LPAI_PROXY_STAGING_ROOT")
-    return Path(override).resolve() if override else DEFAULT_STAGING_ROOT.resolve()
+    """Raiz lexical fixa; a abertura por descritor recusa symlinks em cada componente."""
+    return Path(os.path.abspath(DEFAULT_STAGING_ROOT))
 
 
 def _is_within(path: Path, parent: Path) -> bool:
@@ -159,7 +207,13 @@ def assert_write_target(candidate: str | Path) -> Path:
     ou diretório canônico; caminho contido na raiz de staging.
     """
     path = Path(candidate).expanduser()
-    resolved = (path if path.is_absolute() else (Path.cwd() / path)).resolve()
+    if ".." in path.parts:
+        raise GuardrailError("componentes '..' são proibidos no destino")
+    lexical = Path(os.path.abspath(path if path.is_absolute() else Path.cwd() / path))
+    try:
+        resolved = lexical.resolve(strict=False)
+    except (OSError, RuntimeError) as exc:
+        raise GuardrailError(f"não foi possível resolver o destino: {path}") from exc
 
     if resolved.suffix != ".jsonl":
         raise GuardrailError(
@@ -184,12 +238,100 @@ def assert_write_target(candidate: str | Path) -> Path:
             )
 
     root = staging_root()
-    if not _is_within(resolved, root):
+    root_resolved = root.resolve(strict=False)
+    if not _is_within(resolved, root_resolved):
         raise GuardrailError(
-            f"saída deve ficar sob {root} (recebido: {resolved})"
+            f"saída deve ficar sob {root_resolved} (recebido: {resolved})"
         )
 
-    return resolved
+    return lexical
+
+
+def _open_directory_nofollow(path: Path, *, create: bool) -> int:
+    """Abre um diretório absoluto componente a componente, sem seguir symlinks."""
+    absolute = Path(os.path.abspath(path))
+    flags = os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW
+    current_fd = os.open("/", flags)
+    try:
+        for component in absolute.parts[1:]:
+            try:
+                next_fd = os.open(component, flags, dir_fd=current_fd)
+            except FileNotFoundError:
+                if not create:
+                    raise
+                os.mkdir(component, mode=0o700, dir_fd=current_fd)
+                next_fd = os.open(component, flags, dir_fd=current_fd)
+            os.close(current_fd)
+            current_fd = next_fd
+        return current_fd
+    except Exception:
+        os.close(current_fd)
+        raise
+
+
+def _open_staging_parent(output_path: Path, *, create: bool) -> tuple[int, str]:
+    """Revalida e abre o pai sob staging por descritor (openat/no-follow)."""
+    safe_path = assert_write_target(output_path)
+    try:
+        relative = safe_path.relative_to(staging_root())
+    except ValueError as exc:  # defesa em profundidade
+        raise GuardrailError("destino não é lexicalmente relativo a staging") from exc
+    if not relative.parts or relative.name in {"", ".", ".."}:
+        raise GuardrailError("nome de saída inválido")
+    try:
+        parent_fd = _open_directory_nofollow(
+            staging_root().joinpath(*relative.parts[:-1]), create=create
+        )
+    except FileNotFoundError:
+        raise
+    except (OSError, RuntimeError) as exc:
+        raise GuardrailError(
+            "staging ou ancestral do destino não é diretório real sem symlink"
+        ) from exc
+    return parent_fd, relative.name
+
+
+def _validate_jsonl_fd(
+    fd: int, path: Path, *, validator: Any | None = None
+) -> set[str]:
+    """Valida integralmente JSONL já existente usando o mesmo descritor aberto."""
+    if validator is None:
+        validator = get_proxy_validator()
+    info = _assert_safe_file_identity(fd, path, purpose="saída existente")
+    if info.st_size == 0:
+        return set()
+
+    os.lseek(fd, 0, os.SEEK_SET)
+    raw = bytearray()
+    while chunk := os.read(fd, 64 * 1024):
+        raw.extend(chunk)
+    if not raw.endswith(b"\n"):
+        raise ValueError(f"{path}: JSONL truncado: última linha não termina em newline")
+    try:
+        text = raw.decode("utf-8")
+    except UnicodeDecodeError as exc:
+        raise ValueError(f"{path}: JSONL não é UTF-8 válido") from exc
+
+    done: set[str] = set()
+    for line_number, line in enumerate(text.splitlines(), start=1):
+        if not line.strip():
+            continue
+        try:
+            value = json.loads(line)
+        except json.JSONDecodeError as exc:
+            raise ValueError(f"{path}:{line_number} JSON inválido: {exc}") from exc
+        if not isinstance(value, dict):
+            raise ValueError(f"{path}:{line_number}: cada linha deve ser objeto JSON")
+        try:
+            validate_proxy_row(value, validator=validator)
+        except ValueError as exc:
+            raise ValueError(
+                f"{path}:{line_number}: linha fora de "
+                f"lpai-proxy-record.schema.json: {exc}"
+            ) from exc
+        item_id = value["item_id"]
+        done.add(item_id)
+    return done
 
 
 # ---------------------------------------------------------------------------
@@ -216,7 +358,8 @@ def load_master_prompt(codebook_path: Path = CODEBOOK_PATH) -> tuple[str, str]:
     )
     if not section:
         raise ValueError(
-            "master prompt (§16) não encontrado em schema/codebook-MASTER.md"
+            "master prompt (§16) não encontrado em "
+            "docs/methodology/codebooks/codebook-MASTER.md"
         )
 
     return section.group(1).strip(), version
@@ -246,76 +389,70 @@ def build_system_prompt(master_prompt: str) -> str:
 # ---------------------------------------------------------------------------
 
 
+def load_proxy_schema(schema_path: Path | None = None) -> dict[str, Any]:
+    """Lê o schema atual e devolve um objeto novo, não retido pelo validator."""
+    schema_path = schema_path or PROXY_SCHEMA_PATH
+    try:
+        schema_bytes = schema_path.read_bytes()
+    except FileNotFoundError as exc:
+        raise FileNotFoundError(f"schema do proxy não encontrado: {schema_path}") from exc
+    try:
+        return json.loads(schema_bytes)
+    except (json.JSONDecodeError, UnicodeDecodeError) as exc:
+        raise ValueError(f"schema do proxy inválido: {schema_path}: {exc}") from exc
+
+
+@lru_cache(maxsize=8)
+def _validator_from_schema_bytes(schema_bytes: bytes) -> Any:
+    """Cacheia validator somente pela cópia imutável exata do schema."""
+    try:
+        from jsonschema import Draft202012Validator, FormatChecker
+        from jsonschema.exceptions import SchemaError
+    except ImportError as exc:  # pragma: no cover - requirements.txt inclui jsonschema
+        raise RuntimeError("pip install jsonschema") from exc
+
+    schema = json.loads(schema_bytes)
+    try:
+        Draft202012Validator.check_schema(schema)
+    except SchemaError as exc:
+        raise ValueError(f"contrato JSON Schema inválido: {exc.message}") from exc
+    return Draft202012Validator(schema, format_checker=FormatChecker())
+
+
+def get_proxy_validator(schema_path: Path | None = None) -> Any:
+    """Relê bytes atuais; só reutiliza construção quando o conteúdo é idêntico."""
+    schema_path = schema_path or PROXY_SCHEMA_PATH
+    try:
+        schema_bytes = schema_path.read_bytes()
+    except FileNotFoundError as exc:
+        raise FileNotFoundError(f"schema do proxy não encontrado: {schema_path}") from exc
+    try:
+        return _validator_from_schema_bytes(schema_bytes)
+    except (ValueError, UnicodeDecodeError) as exc:
+        raise ValueError(f"schema do proxy inválido: {schema_path}: {exc}") from exc
+
+
 def build_output_schema() -> dict[str, Any]:
-    """Esquema de saída do proxy.
+    """Retorna o subesquema entregue ao modelo para a proposta LPAI.
 
     Não existe campo de índice composto: `purificacao_composto` está aposentado
-    desde o codebook v2.2.1 e a proibição vive na estrutura, não numa flag.
+    desde o codebook v2.2.1 e a proibição vive no schema persistido.
     """
-    indicadores = {
-        key: {"type": "integer", "minimum": 0, "maximum": 3}
-        for key in INDICATOR_KEYS
-    }
+    schema = load_proxy_schema()
+    return copy.deepcopy(schema["$defs"]["proposal"])
 
-    return {
-        "type": "object",
-        "required": [
-            "item_id",
-            "codificavel",
-            "indicadores",
-            "inventario_verbal",
-            "confianca",
-            "justificativa",
-        ],
-        "properties": {
-            "item_id": {"type": "string"},
-            "codificavel": {
-                "type": "boolean",
-                "description": "a evidência permite codificação visual suficiente",
-            },
-            "indicadores": {
-                "type": "object",
-                "required": list(INDICATOR_KEYS),
-                "properties": indicadores,
-                "additionalProperties": False,
-            },
-            "inventario_verbal": {
-                "type": "array",
-                "items": {"type": "string"},
-                "description": "atributos observados em vocabulário iconográfico, sem escore",
-            },
-            "familia_alegorica": {
-                "type": "string",
-                "description": "Justitia, Libertas, Respublica, Marianne, Germania, "
-                "Britannia, Columbia, outra, ou NC",
-            },
-            "subtipo": {"type": "string"},
-            "regime_iconocratico": {
-                "type": "string",
-                "enum": [*REGIMES, "NC"],
-            },
-            "recusa": {"type": "string", "enum": list(RECUSA_TIPOS)},
-            "genero_atribuido": {"type": "string"},
-            "funcao_juridica": {"type": "string"},
-            "dado_negativo": {
-                "type": "array",
-                "items": {"type": "string"},
-                "description": "ausências analiticamente relevantes",
-            },
-            "subaltern_caution": {"type": "boolean"},
-            "confianca": {"type": "string", "enum": ["alta", "media", "baixa"]},
-            "nc_causa": {
-                "type": "string",
-                "description": "obrigatório quando codificavel=false: "
-                "evidencia_insuficiente | ambiguidade | fora_de_escopo | sem_imagem",
-            },
-            "justificativa": {
-                "type": "string",
-                "description": "o que na evidência sustenta a codificação",
-            },
-            "duvidas": {"type": "array", "items": {"type": "string"}},
-        },
-    }
+
+def validate_proxy_row(row: dict[str, Any], *, validator: Any | None = None) -> None:
+    """Valida uma linha completa antes de criar ou abrir a saída."""
+    if validator is None:
+        validator = get_proxy_validator()
+    errors = sorted(validator.iter_errors(row), key=lambda error: list(error.path))
+    if errors:
+        details = "; ".join(
+            f"{'.'.join(str(part) for part in error.path) or '<root>'}: {error.message}"
+            for error in errors
+        )
+        raise ValueError(f"linha de staging inválida: {details}")
 
 
 # ---------------------------------------------------------------------------
@@ -370,21 +507,28 @@ def select_items(
 
 
 def load_done(output_path: Path) -> set[str]:
-    """Retomada: itens já presentes na saída de staging."""
-    if not output_path.exists():
+    """Retomada fail-closed: toda linha existente precisa ser JSONL íntegro."""
+    try:
+        parent_fd, name = _open_staging_parent(output_path, create=False)
+    except FileNotFoundError:
         return set()
-    done: set[str] = set()
-    with output_path.open("r", encoding="utf-8") as handle:
-        for line in handle:
-            line = line.strip()
-            if not line:
-                continue
+    try:
+        try:
+            fd = os.open(name, os.O_RDONLY | os.O_NOFOLLOW, dir_fd=parent_fd)
+        except FileNotFoundError:
+            return set()
+        except OSError as exc:
+            raise GuardrailError("saída existente é symlink ou não pode ser aberta") from exc
+        try:
+            fcntl.flock(fd, fcntl.LOCK_SH)
             try:
-                done.add(json.loads(line).get("item_id", ""))
-            except json.JSONDecodeError:
-                continue
-    done.discard("")
-    return done
+                return _validate_jsonl_fd(fd, output_path)
+            finally:
+                fcntl.flock(fd, fcntl.LOCK_UN)
+        finally:
+            os.close(fd)
+    finally:
+        os.close(parent_fd)
 
 
 # ---------------------------------------------------------------------------
@@ -401,10 +545,19 @@ MIME_BY_SUFFIX = {
     ".tif": "image/tiff",
     ".tiff": "image/tiff",
 }
+SUFFIX_BY_MIME = {
+    "image/jpeg": ".jpg",
+    "image/png": ".png",
+    "image/webp": ".webp",
+    "image/gif": ".gif",
+    "image/tiff": ".tiff",
+}
 
 
 def local_image_for(item_id: str, images_dir: Path | None) -> Path | None:
     if images_dir is None:
+        return None
+    if not re.fullmatch(r"[A-Za-z0-9._-]+", item_id):
         return None
     for suffix in IMAGE_SUFFIXES:
         candidate = images_dir / f"{item_id}{suffix}"
@@ -413,57 +566,341 @@ def local_image_for(item_id: str, images_dir: Path | None) -> Path | None:
     return None
 
 
-def cached_download(url: str, item_id: str) -> Path | None:
-    """Baixa a imagem para cache local. PDFs e HTML são recusados de propósito:
-    o proxy só codifica o que consegue ver."""
-    suffix = Path(url.split("?")[0]).suffix.lower()
-    if suffix not in IMAGE_SUFFIXES:
-        return None
+def _validate_public_http_url(url: str) -> str:
+    """Recusa esquemas não HTTP e qualquer resolução não global."""
+    parsed = urlsplit(url)
+    if parsed.scheme.lower() not in {"http", "https"} or not parsed.hostname:
+        raise ValueError("URL de imagem precisa usar http ou https")
+    if parsed.username is not None or parsed.password is not None:
+        raise ValueError("credenciais embutidas em URL são proibidas")
+    hostname = parsed.hostname.rstrip(".").lower()
+    if hostname == "localhost" or hostname.endswith(".localhost"):
+        raise ValueError("localhost é proibido")
 
-    IMAGE_CACHE.mkdir(parents=True, exist_ok=True)
-    target = IMAGE_CACHE / f"{item_id}{suffix}"
-    if target.exists() and target.stat().st_size > 0:
-        return target
+    port = parsed.port or (443 if parsed.scheme.lower() == "https" else 80)
+    try:
+        addresses = socket.getaddrinfo(hostname, port, type=socket.SOCK_STREAM)
+    except socket.gaierror as exc:
+        raise ValueError(f"host de imagem não pôde ser resolvido: {hostname}") from exc
+    if not addresses:
+        raise ValueError(f"host de imagem sem endereço resolvido: {hostname}")
+    _require_global_addresses(addresses)
+    return url
 
+
+def _require_global_addresses(addresses: list[tuple[Any, ...]]) -> None:
+    for address in addresses:
+        ip = ipaddress.ip_address(address[4][0])
+        if not ip.is_global:
+            raise ValueError(f"endereço de imagem não público é proibido: {ip}")
+
+
+@contextmanager
+def _public_dns_only():
+    """Revalida também a resolução feita pelo cliente no instante da conexão."""
+    original_getaddrinfo = socket.getaddrinfo
+
+    def guarded_getaddrinfo(*args, **kwargs):
+        addresses = original_getaddrinfo(*args, **kwargs)
+        if not addresses:
+            raise OSError("resolução sem endereços")
+        _require_global_addresses(addresses)
+        return addresses
+
+    socket.getaddrinfo = guarded_getaddrinfo
+    try:
+        yield
+    finally:
+        socket.getaddrinfo = original_getaddrinfo
+
+
+def _image_mime_from_signature(prefix: bytes) -> str | None:
+    if prefix.startswith(b"\xff\xd8\xff"):
+        return "image/jpeg"
+    if prefix.startswith(b"\x89PNG\r\n\x1a\n"):
+        return "image/png"
+    if prefix.startswith((b"GIF87a", b"GIF89a")):
+        return "image/gif"
+    if len(prefix) >= 12 and prefix[:4] == b"RIFF" and prefix[8:12] == b"WEBP":
+        return "image/webp"
+    if prefix.startswith((b"II*\x00", b"MM\x00*")):
+        return "image/tiff"
+    return None
+
+
+def _existing_regular_cache_file(parent_fd: int, name: str) -> bool:
+    try:
+        info = os.stat(name, dir_fd=parent_fd, follow_symlinks=False)
+    except FileNotFoundError:
+        return False
+    if stat.S_ISLNK(info.st_mode):
+        raise GuardrailError(f"cache recusado: {name} é symlink")
+    if not stat.S_ISREG(info.st_mode):
+        raise GuardrailError(f"cache recusado: {name} não é arquivo regular")
+    fd = os.open(name, os.O_RDONLY | os.O_NOFOLLOW, dir_fd=parent_fd)
+    try:
+        info = _assert_safe_file_identity(fd, name, purpose="arquivo de cache")
+        if info.st_size == 0:
+            return False
+        prefix = os.read(fd, 16)
+    finally:
+        os.close(fd)
+    expected_mime = MIME_BY_SUFFIX.get(Path(name).suffix.lower())
+    if _image_mime_from_signature(prefix) != expected_mime:
+        raise ValueError(f"cache existente tem assinatura inválida: {name}")
+    return True
+
+
+def _download_response(url: str):
+    """Segue redirects manualmente, validando cada destino antes da requisição."""
     try:
         import requests  # dependência opcional, só no caminho de download
-    except ImportError:  # pragma: no cover
-        print("[aviso] requests ausente; use --images-dir", file=sys.stderr)
-        return None
+    except ImportError as exc:  # pragma: no cover
+        raise RuntimeError("requests ausente; use --images-dir") from exc
 
-    try:
-        response = requests.get(url, timeout=60)
+    session = requests.Session()
+    session.trust_env = False
+    current = url
+    for redirect_count in range(MAX_REDIRECTS + 1):
+        _validate_public_http_url(current)
+        with _public_dns_only():
+            response = session.get(
+                current,
+                allow_redirects=False,
+                stream=True,
+                timeout=(5, 30),
+            )
+        if 300 <= response.status_code < 400:
+            location = response.headers.get("Location")
+            response.close()
+            if not location:
+                raise ValueError("redirect sem Location")
+            if redirect_count >= MAX_REDIRECTS:
+                raise ValueError("limite de redirects excedido")
+            current = urljoin(current, location)
+            _validate_public_http_url(current)
+            continue
         response.raise_for_status()
+        _validate_public_http_url(response.url)
+        return response
+    raise ValueError("limite de redirects excedido")  # pragma: no cover
+
+
+def cached_download(url: str, item_id: str) -> Path | None:
+    """Baixa imagem pública, limitada e autenticada por MIME + assinatura."""
+    if not re.fullmatch(r"[A-Za-z0-9._-]+", item_id):
+        print(f"[aviso] item_id inseguro para cache: {item_id!r}", file=sys.stderr)
+        return None
+    response = None
+    try:
+        _validate_public_http_url(url)
+        cache_fd = _open_directory_nofollow(IMAGE_CACHE, create=True)
+        try:
+            for suffix in sorted(set(SUFFIX_BY_MIME.values())):
+                name = f"{item_id}{suffix}"
+                if _existing_regular_cache_file(cache_fd, name):
+                    return IMAGE_CACHE / name
+
+            response = _download_response(url)
+            content_type = response.headers.get("Content-Type", "").split(";", 1)[0].strip().lower()
+            suffix = SUFFIX_BY_MIME.get(content_type)
+            if suffix is None:
+                raise ValueError(f"Content-Type não suportado: {content_type or '<ausente>'}")
+            content_length = response.headers.get("Content-Length")
+            if content_length is not None and int(content_length) > IMAGE_MAX_BYTES:
+                raise ValueError(f"imagem excede limite de {IMAGE_MAX_BYTES} bytes")
+
+            target_name = f"{item_id}{suffix}"
+            if _existing_regular_cache_file(cache_fd, target_name):
+                return IMAGE_CACHE / target_name
+            temp_name = f".{item_id}.{secrets.token_hex(8)}.tmp"
+            temp_fd = os.open(
+                temp_name,
+                os.O_WRONLY | os.O_CREAT | os.O_EXCL | os.O_NOFOLLOW,
+                0o600,
+                dir_fd=cache_fd,
+            )
+            total = 0
+            prefix = bytearray()
+            try:
+                _assert_safe_file_identity(
+                    temp_fd, temp_name, purpose="arquivo temporário de cache"
+                )
+                for chunk in response.iter_content(chunk_size=IMAGE_CHUNK_BYTES):
+                    if not chunk:
+                        continue
+                    total += len(chunk)
+                    if total > IMAGE_MAX_BYTES:
+                        raise ValueError(f"imagem excede limite de {IMAGE_MAX_BYTES} bytes")
+                    if len(prefix) < 16:
+                        prefix.extend(chunk[: 16 - len(prefix)])
+                    view = memoryview(chunk)
+                    while view:
+                        written = os.write(temp_fd, view)
+                        if written <= 0:  # pragma: no cover - falha de filesystem
+                            raise OSError("escrita de cache incompleta")
+                        view = view[written:]
+                if total == 0:
+                    raise ValueError("imagem vazia")
+                signature_mime = _image_mime_from_signature(bytes(prefix))
+                if signature_mime != content_type:
+                    raise ValueError(
+                        "assinatura do conteúdo não corresponde ao Content-Type de imagem"
+                    )
+                _assert_safe_file_identity(
+                    temp_fd, temp_name, purpose="arquivo temporário de cache"
+                )
+                os.fsync(temp_fd)
+            except Exception:
+                os.close(temp_fd)
+                os.unlink(temp_name, dir_fd=cache_fd)
+                raise
+            else:
+                os.close(temp_fd)
+
+            try:
+                target_exists = _existing_regular_cache_file(cache_fd, target_name)
+            except Exception:
+                os.unlink(temp_name, dir_fd=cache_fd)
+                raise
+            if target_exists:
+                os.unlink(temp_name, dir_fd=cache_fd)
+                return IMAGE_CACHE / target_name
+            try:
+                os.replace(
+                    temp_name,
+                    target_name,
+                    src_dir_fd=cache_fd,
+                    dst_dir_fd=cache_fd,
+                )
+            except Exception:
+                try:
+                    os.unlink(temp_name, dir_fd=cache_fd)
+                except FileNotFoundError:
+                    pass
+                raise
+            return IMAGE_CACHE / target_name
+        finally:
+            os.close(cache_fd)
     except Exception as exc:  # noqa: BLE001 - rede é ruidosa por natureza
         print(f"[aviso] download falhou ({item_id}): {exc}", file=sys.stderr)
         return None
-
-    target.write_bytes(response.content)
-    return target
+    finally:
+        if response is not None:
+            response.close()
 
 
 def encode_image(path: Path) -> tuple[str, str]:
     mime = MIME_BY_SUFFIX.get(path.suffix.lower(), "image/jpeg")
-    return base64.b64encode(path.read_bytes()).decode("ascii"), mime
+    parent_fd = _open_directory_nofollow(path.parent, create=False)
+    try:
+        fd = os.open(path.name, os.O_RDONLY | os.O_NOFOLLOW, dir_fd=parent_fd)
+        try:
+            info = _assert_safe_file_identity(
+                fd, path, purpose="arquivo de evidência/cache"
+            )
+            if info.st_size > IMAGE_MAX_BYTES:
+                raise ValueError(f"imagem excede limite de {IMAGE_MAX_BYTES} bytes")
+            chunks = bytearray()
+            while chunk := os.read(fd, IMAGE_CHUNK_BYTES):
+                chunks.extend(chunk)
+                if len(chunks) > IMAGE_MAX_BYTES:
+                    raise ValueError(f"imagem excede limite de {IMAGE_MAX_BYTES} bytes")
+        finally:
+            os.close(fd)
+    finally:
+        os.close(parent_fd)
+    signature_mime = _image_mime_from_signature(bytes(chunks[:16]))
+    if signature_mime != mime:
+        raise ValueError("extensão da imagem não corresponde à assinatura suportada")
+    return base64.b64encode(chunks).decode("ascii"), mime
+
+
+def _bounded_source_value(value: Any, *, depth: int = 0) -> Any:
+    """Reduz metadados auxiliares sem transformar seu conteúdo substantivo."""
+    if value is None or isinstance(value, (bool, int, float)):
+        return value
+    if isinstance(value, str):
+        if len(value) <= SOURCE_STRING_MAX_CHARS:
+            return value
+        return value[:SOURCE_STRING_MAX_CHARS] + "… [truncado]"
+    if depth >= 3:
+        return "… [profundidade truncada]"
+    if isinstance(value, dict):
+        limited: dict[str, Any] = {}
+        for index, (key, nested) in enumerate(value.items()):
+            if index >= SOURCE_DICT_MAX_ITEMS:
+                limited["_truncado"] = "campos adicionais omitidos"
+                break
+            limited[str(key)] = _bounded_source_value(nested, depth=depth + 1)
+        return limited
+    if isinstance(value, (list, tuple)):
+        limited = [
+            _bounded_source_value(nested, depth=depth + 1)
+            for nested in value[:SOURCE_LIST_MAX_ITEMS]
+        ]
+        if len(value) > SOURCE_LIST_MAX_ITEMS:
+            limited.append("… [itens adicionais omitidos]")
+        return limited
+    return _bounded_source_value(str(value), depth=depth + 1)
+
+
+def _render_source_block(label: str, value: Any) -> str:
+    rendered = json.dumps(
+        _bounded_source_value(value), ensure_ascii=False, indent=2
+    )
+    if len(rendered) > SOURCE_BLOCK_MAX_CHARS:
+        rendered = rendered[:SOURCE_BLOCK_MAX_CHARS] + "\n… [bloco truncado]"
+    return f"FONTE {label}:\n{rendered}"
 
 
 def build_user_content(
     record: dict[str, Any], image_b64: str | None, mime: str | None
 ) -> list[dict[str, Any]]:
     entrada = record.get("input") or {}
-    metadados = {
+    purificacao = record.get("purificacao") or {}
+    webscout = record.get("webscout") or {}
+    ledger_input = {
         "item_id": record.get("item_id"),
         "titulo": entrada.get("title_hint"),
         "data": entrada.get("date_hint"),
         "local": entrada.get("place_hint"),
-        "fonte": entrada.get("input_url"),
-        "evidencia_webscout": (record.get("webscout") or {}).get("summary_evidence"),
-        "lacunas_declaradas": (record.get("webscout") or {}).get("gaps"),
+        "url_de_entrada": entrada.get("input_url"),
     }
+    previous_purification = {
+        "suporte_medium": (purificacao.get("record_metadata") or {}).get(
+            "medium"
+        ),
+        "notas_anteriores": purificacao.get("notes"),
+    }
+    webscout_evidence = {
+        "evidencia_resumida": webscout.get("summary_evidence"),
+        "lacunas_declaradas": webscout.get("gaps"),
+    }
+    if webscout.get("search_results"):
+        webscout_evidence["resultados_de_busca"] = webscout["search_results"]
+    source_blocks = "\n\n".join(
+        (
+            _render_source_block("ledger.input", ledger_input),
+            _render_source_block(
+                "purificacao preexistente (record_metadata.medium e notes)",
+                previous_purification,
+            ),
+            _render_source_block(
+                "webscout (summary_evidence, gaps e search_results)",
+                webscout_evidence,
+            ),
+        )
+    )
     texto = (
         "Codifique o item abaixo conforme o instrumento LPAI.\n\n"
-        f"METADADOS CONHECIDOS (não os contradiga, não os complete por inferência):\n"
-        f"{json.dumps(metadados, ensure_ascii=False, indent=2)}\n\n"
+        "EVIDÊNCIAS E ANOTAÇÕES POR PROVENIÊNCIA "
+        "(não as contradiga nem complete por inferência):\n"
+        f"{source_blocks}\n\n"
+        "Notas anteriores e resultados de busca são pistas documentais, não "
+        "prova de recepção histórica. Não infira sentido recebido pelo "
+        "espectador sem fonte específica; codifique apenas o sentido produzido "
+        "pelo dispositivo e preserve a incerteza.\n\n"
     )
     if image_b64:
         texto += "A imagem do item segue anexada."
@@ -586,6 +1023,8 @@ def build_row(
         "coded_by": AGENT_ID,
         "coded_at": now,
         "model": model,
+        "script_version": SCRIPT_VERSION,
+        "proxy_schema_version": PROXY_SCHEMA_VERSION,
         "prompt_version": PROMPT_VERSION,
         "codebook_version": codebook_version,
         "image_source": image_source,
@@ -594,10 +1033,63 @@ def build_row(
     }
 
 
-def append_row(output_path: Path, row: dict[str, Any]) -> None:
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("a", encoding="utf-8") as handle:
-        handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+def append_row(
+    output_path: Path, row: dict[str, Any], *, force: bool = False
+) -> bool:
+    """Decide duplicidade e anexa uma linha sob lock POSIX exclusivo."""
+    initial_validator = get_proxy_validator()
+    validate_proxy_row(row, validator=initial_validator)
+    parent_fd, name = _open_staging_parent(output_path, create=True)
+    try:
+        try:
+            fd = os.open(
+                name,
+                os.O_RDWR | os.O_APPEND | os.O_CREAT | os.O_NOFOLLOW,
+                0o600,
+                dir_fd=parent_fd,
+            )
+        except OSError as exc:
+            raise GuardrailError("saída é symlink ou não pôde ser aberta com segurança") from exc
+        try:
+            fcntl.flock(fd, fcntl.LOCK_EX)
+            try:
+                current_validator = get_proxy_validator()
+                done = _validate_jsonl_fd(
+                    fd, output_path, validator=current_validator
+                )
+                validate_proxy_row(row, validator=current_validator)
+                if row["item_id"] in done and not force:
+                    return False
+                original_size = os.fstat(fd).st_size
+                _assert_safe_file_identity(fd, output_path, purpose="saída")
+                payload = (json.dumps(row, ensure_ascii=False) + "\n").encode("utf-8")
+                os.lseek(fd, 0, os.SEEK_END)
+                try:
+                    written = os.write(fd, payload)
+                except OSError:
+                    os.ftruncate(fd, original_size)
+                    os.fsync(fd)
+                    raise
+                if written != len(payload):
+                    os.ftruncate(fd, original_size)
+                    os.fsync(fd)
+                    raise OSError(
+                        f"escrita JSONL parcial recusada: {written}/{len(payload)} bytes"
+                    )
+                try:
+                    _assert_safe_file_identity(fd, output_path, purpose="saída")
+                except GuardrailError:
+                    os.ftruncate(fd, original_size)
+                    os.fsync(fd)
+                    raise
+                os.fsync(fd)
+                return True
+            finally:
+                fcntl.flock(fd, fcntl.LOCK_UN)
+        finally:
+            os.close(fd)
+    finally:
+        os.close(parent_fd)
 
 
 # ---------------------------------------------------------------------------
@@ -605,17 +1097,43 @@ def append_row(output_path: Path, row: dict[str, Any]) -> None:
 # ---------------------------------------------------------------------------
 
 
+def _nonempty_items(value: str) -> str:
+    if not any(part.strip() for part in value.split(",")):
+        raise argparse.ArgumentTypeError("--items exige ao menos um item_id não vazio")
+    return value
+
+
+def _positive_int(value: str) -> int:
+    parsed = int(value)
+    if parsed <= 0:
+        raise argparse.ArgumentTypeError("valor precisa ser maior que zero")
+    return parsed
+
+
+def _nonnegative_int(value: str) -> int:
+    parsed = int(value)
+    if parsed < 0:
+        raise argparse.ArgumentTypeError("valor não pode ser negativo")
+    return parsed
+
+
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Codificador-proxy LPAI v2 sobre Kimi K3 (saída em staging)."
     )
+    parser.add_argument(
+        "--version",
+        action="version",
+        version=f"%(prog)s {SCRIPT_VERSION}",
+        help="mostra a versão do script (não a versão do codebook)",
+    )
     alvo = parser.add_mutually_exclusive_group(required=True)
-    alvo.add_argument("--items", help="item_id[,item_id,...]")
+    alvo.add_argument("--items", type=_nonempty_items, help="item_id[,item_id,...]")
     alvo.add_argument("--all", action="store_true", help="todos os registros")
 
     parser.add_argument("--regime", choices=REGIMES, help="filtra por regime")
     parser.add_argument("--coded-by", help="filtra pela origem de codificação")
-    parser.add_argument("--limit", type=int, help="teto de itens no lote")
+    parser.add_argument("--limit", type=_positive_int, help="teto positivo de itens no lote")
     parser.add_argument("--output", help="caminho de staging (.jsonl)")
     parser.add_argument("--images-dir", help="diretório de imagens locais <item_id>.<ext>")
     parser.add_argument(
@@ -625,7 +1143,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument("--model", default=MODEL_DEFAULT)
     parser.add_argument("--base-url", default=BASE_URL_DEFAULT)
-    parser.add_argument("--retries", type=int, default=1)
+    parser.add_argument("--retries", type=_nonnegative_int, default=1)
     parser.add_argument("--force", action="store_true", help="recodificar já feitos")
     parser.add_argument(
         "--dry-run",
@@ -648,6 +1166,10 @@ def main(argv: list[str] | None = None) -> int:
     try:
         master_prompt, codebook_version = load_master_prompt()
         records = load_records()
+        existing_done = load_done(output_path)
+    except GuardrailError as exc:
+        print(f"[barreira] {exc}", file=sys.stderr)
+        return 3
     except (FileNotFoundError, ValueError) as exc:
         print(f"[fatal] {exc}", file=sys.stderr)
         return 1
@@ -655,7 +1177,7 @@ def main(argv: list[str] | None = None) -> int:
     item_ids = (
         [i.strip() for i in args.items.split(",") if i.strip()] if args.items else None
     )
-    done = set() if args.force else load_done(output_path)
+    done = set() if args.force else existing_done
     selected = select_items(
         records,
         item_ids,
@@ -690,6 +1212,7 @@ def main(argv: list[str] | None = None) -> int:
 
     baixa_confianca = 0
     sem_imagem = 0
+    pulados_sem_evidencia = 0
     falhas = 0
 
     for index, record in enumerate(selected, start=1):
@@ -704,6 +1227,7 @@ def main(argv: list[str] | None = None) -> int:
         if image_path is None:
             sem_imagem += 1
             if not args.allow_textual:
+                pulados_sem_evidencia += 1
                 print(
                     f"[{index}/{len(selected)}] {item_id}: sem imagem — pulado "
                     "(use --allow-textual para codificar só com texto)",
@@ -713,7 +1237,12 @@ def main(argv: list[str] | None = None) -> int:
 
         image_b64 = mime = None
         if image_path is not None and not args.dry_run:
-            image_b64, mime = encode_image(image_path)
+            try:
+                image_b64, mime = encode_image(image_path)
+            except (OSError, ValueError) as exc:
+                falhas += 1
+                print(f"[erro] {item_id}: evidência visual insegura/inválida: {exc}", file=sys.stderr)
+                continue
 
         user_content = build_user_content(record, image_b64, mime)
 
@@ -746,7 +1275,22 @@ def main(argv: list[str] | None = None) -> int:
             codebook_version=codebook_version,
             image_source=str(image_path) if image_path else None,
         )
-        append_row(output_path, row)
+        try:
+            appended = append_row(output_path, row, force=args.force)
+        except GuardrailError as exc:
+            print(f"[barreira] {item_id}: {exc}", file=sys.stderr)
+            return 3
+        except (RuntimeError, ValueError) as exc:
+            falhas += 1
+            print(f"[erro] {item_id}: {exc}", file=sys.stderr)
+            continue
+        if not appended:
+            print(
+                f"[{index}/{len(selected)}] {item_id}: já gravado por execução "
+                "concorrente — duplicata recusada",
+                file=sys.stderr,
+            )
+            continue
 
         confianca = coded.get("confianca", "baixa")
         if confianca == "baixa" or not coded.get("codificavel", True):
@@ -759,7 +1303,7 @@ def main(argv: list[str] | None = None) -> int:
 
     print(
         f"\nfim | baixa confiança/NC: {baixa_confianca} | sem imagem: {sem_imagem} "
-        f"| falhas: {falhas}",
+        f"| pulados sem evidência: {pulados_sem_evidencia} | falhas: {falhas}",
         file=sys.stderr,
     )
     print(
@@ -769,7 +1313,7 @@ def main(argv: list[str] | None = None) -> int:
 
     if falhas:
         return 1
-    return 2 if baixa_confianca else 0
+    return 2 if baixa_confianca or pulados_sem_evidencia else 0
 
 
 if __name__ == "__main__":  # pragma: no cover
