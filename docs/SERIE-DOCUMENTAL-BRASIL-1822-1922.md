@@ -5,7 +5,7 @@ recorte: "Brasil, 1822–1922"
 arquitetura: C (passo 3 da ordem de operações)
 data_abertura: 2026-09-22
 data_ultima_verificacao: 2026-09-22
-estatuto: levantamento em curso — a matriz cresce por ato verificado; nada marcado [TI] migra para a tese como afirmação substantiva
+estatuto: EXPLORAÇÃO EM CURSO — instrumento de trabalho, não registro a fechar. A matriz cresce, muda de forma e pode ser reorganizada conforme a pesquisa anda; os estados descrevem o que foi lido, não atestam qualidade
 legenda_estado: "[TI] = título/registro localizado, texto integral a ler · [RD] = leitura direta feita · [RL] = leitura registrada (com página/trecho)"
 antecessor: "iconocracia/pacote-tese-iconocracia/SERIE-DOCUMENTAL-levantamento-2026-09-08.md (escopo 1850–1929; substituído pelo recorte 1822–1922)"
 ---
@@ -16,7 +16,41 @@ antecessor: "iconocracia/pacote-tese-iconocracia/SERIE-DOCUMENTAL-levantamento-2
 > recorte vigente, o levantamento de 2026-09-08 (que operava sob o escopo
 > França+Brasil 1850–1929, revogado em 2026-09-22).
 
-## 0. Por que esta série existe
+## 0. Estatuto: exploração, não registro
+
+Este documento é **instrumento exploratório**. Ele não é um registro probatório
+a fechar, e nada nele deve ser lido como resultado consolidado.
+
+O que os estados `[TI]/[RD]/[RL]` fazem é descrever **onde parei de ler** —
+não atestam qualidade, completude nem validade. "Todos verificados" significa
+que li os textos, não que a série está pronta.
+
+Consequências práticas desta postura:
+
+- A matriz pode ser reorganizada, renomeada ou refeita. As direções (i)–(iv)
+  são uma grade que **estou testando**, não uma tipologia fechada.
+- Os achados das seções seguintes são **pistas**, não demonstrações. Cada um
+  precisa sobreviver a leitura de mais material antes de virar afirmação na tese.
+- As ausências registradas não são falhas a corrigir: são o que a exploração
+  encontrou, e podem significar tanto um silêncio real quanto um buraco da
+  minha busca. Distinguir os dois é trabalho em aberto.
+- O recorte 1822–1922 que dá título ao documento é ele mesmo **delimitação em
+  teste** (ver §0.1).
+
+## 0.1 O recorte como hipótese de trabalho
+
+O recorte Brasil 1822–1922 foi adotado como **quadro de trabalho**, não como
+delimitação consolidada. A razão da adoção é que ele torna visível o operador
+epistêmico: uma república sem figura fundadora histórica precisa que a imagem
+preceda a realidade política que representa.
+
+O ponto mais frágil dessa delimitação é conhecido e convém declarar: **o trecho
+imperial (1822–1889) tem quase nenhuma documentação iconográfica** — cerca de
+cinco itens no ledger, em 67 anos. Se a exploração mostrar que o operador só se
+forja na República, o marco inicial terá de ser revisto. Isso é uma questão
+aberta, não um problema a esconder.
+
+## 0.2 Por que esta série existe
 
 A pergunta de pesquisa da tese é:
 
@@ -75,9 +109,11 @@ O universo de onde os atos são extraídos, declarado antes da busca:
 | **Jurisprudência** | decisões judiciais | a definir (STF, tribunais estaduais) |
 | **Pareceres e exposições de motivos** | direito administrativo | a definir (Anais do Senado/Câmara) |
 
-**Regra de proveniência:** todo ato entra com **fonte primária nomeada** +
-**estado** `[TI]/[RD]/[RL]`. Ato sem fonte nomeada não entra na matriz — entra
-na lista de pendências (§7).
+**Prática de proveniência (exploratória):** cada ato anota a **fonte onde li** +
+o **estado da leitura** `[TI]/[RD]/[RL]`. Ato que encontrei mas ainda não li fica
+marcado `[TI]` e permanece na matriz — a marcação não o exclui, apenas diz o que
+falta ler. A lista de pendências (§7) registra o que a exploração ainda não
+alcançou.
 
 ## 3. A matriz dos atos — recorte 1822–1922
 
@@ -94,9 +130,12 @@ Ordenada cronologicamente.
 | 7 | **Lei n. 3.071** (Código Civil) | 1º jan. 1916 | dependência / subordinação da mulher casada | Art. 6, II: a mulher casada é relativamente incapaz; art. 233: "O marido é o chefe da sociedade conjugal"; art. 240: a mulher assume "a condição de sua companheira, consorte e auxiliar"; art. 242: "A mulher não pode, sem autorização do marido… alienar ou gravar de onus real os immoveis de seu dominio particular" | **(ii) restrição** | **[RD] verificado** — Planalto (08/09/2026) |
 | 8 | **Decreto n. 4.175** (comemoração do Centenário) | 11 nov. 1920 | *(nenhum)* | Autoriza o Executivo a promover a comemoração do Centenário da Independência, com o "criterio de preferencia para a realização de uma **Exposição Nacional na Capital da Republica**". **Não menciona figura feminina** — é ato juridicamente neutro quanto ao gênero, e é o ato que habilita a produção das duas alegorias de 1922 | **registro de ausência** | **[RD] verificado** — Câmara dos Deputados, publicação original (22/09/2026) |
 
-**Nenhum ato permanece `[TI]`.** Oito atos, oito verificados em fonte primária.
+**Oito atos, todos lidos em fonte primária** — nenhum `[TI]` remanescente nesta
+rodada. Isso descreve o estado da leitura em 2026-09-22, não a completude da
+série: a matriz deve crescer, e novos atos entrarão com estado `[TI]` até serem
+lidos.
 
-### 3.0 O achado que a sequência abolicionista produz
+### 3.0 Uma pista forte: a sequência abolicionista
 
 Postos em ordem, os três diplomas da abolição contam uma história que nenhum deles conta isoladamente:
 
@@ -108,7 +147,18 @@ Postos em ordem, os três diplomas da abolição contam uma história que nenhum
 
 **A mãe escravizada é o operador da abolição *gerida*, e desaparece quando a abolição se completa.** A direção (iv-a) não é uma propriedade geral do direito imperial: é o dispositivo específico do **regime de transição** — a mãe comparece na lei enquanto é preciso administrar a passagem da condição da mãe para a do filho, e some quando já não há condição a administrar.
 
-Para a tese, isto é um achado de primeira ordem: a **mãe negra entra no ordenamento como mecanismo**, não como sujeito — e o mecanismo é descartado assim que cumpre a função. É a Feminilidade de Estado no seu avesso racial: onde a alegoria branca permanece como imagem perpétua, a mãe negra é instrumento temporário.
+Para a tese, isto é uma pista de primeira ordem — **a confirmar em mais
+material antes de virar afirmação**: a **mãe negra entra no ordenamento como
+mecanismo**, não como sujeito, e o mecanismo é descartado assim que cumpre a
+função. Se se sustentar, é a Feminilidade de Estado no seu avesso racial: onde
+a alegoria branca permanece como imagem perpétua, a mãe negra é instrumento
+temporário. Se não se sustentar — se outras leis do período mostrarem o
+contrário —, a pista cai e o achado é outro.
+
+**O que a confirmaria:** varredura dos demais diplomas imperiais que tratam de
+escravidão e família (regulamentos, avisos, decretos de execução), para ver se
+o nexo materno reaparece. **O que a derrubaria:** encontrar, entre 1885 e 1888,
+ato relevante em que a mãe volte a operar como categoria jurídica.
 
 ### 3.1 Ato #1 em detalhe — por que a Lei do Ventre Livre é o achado desta rodada
 
@@ -230,16 +280,15 @@ série registrar os atos em que o atributo feminino **não** comparece.
 | Decreto n. 4.175 | 11 nov. 1920 | **sim** | autoriza a comemoração do Centenário e a Exposição Nacional sem nomear figura feminina — **a figura das alegorias de 1922 é posterior ao ato** |
 | *(a completar)* | | | atos decisórios de 1822–1922 a varrer sistematicamente |
 
-**Cinco registros de ausência contra três de presença ativa** (Lei do Ventre
-Livre, Código Penal, Código Civil). Esta proporção é, ela mesma, um dado a
-reportar: no recorte, o atributo feminino comparece como razão de decisão
-**menos vezes do que está ausente** — o que calibra a pretensão da tese. O
-operador epistêmico não precisa estar em todo ato; precisa ser **condição de
-possibilidade**. Mas a tese deve dizer quantas vezes ele está e quantas não está.
+**O que fazer com isso (em aberto):** a proporção sugere que o atributo feminino
+comparece como razão de decisão **menos vezes do que está ausente** — o que
+calibraria a pretensão da tese. Mas cinco ausências contra três presenças, numa
+busca ainda assistemática, não autoriza essa conclusão: minhas ausências podem
+ser buracos da minha procura, não silêncios do ordenamento. Distinguir os dois
+exige a varredura de §7, e é justamente o que a exploração ainda não fez.
 
-**Regra:** a série não pode afirmar precedência sem ter varrido um número
-declarado de atos em que a figura está ausente. A varredura sistemática é
-tarefa pendente (§7).
+Se a proporção se mantiver depois da varredura, ela própria será um achado a
+reportar. Se se inverter, o achado é outro — e igualmente útil.
 
 ## 6. O teste de precedência
 
