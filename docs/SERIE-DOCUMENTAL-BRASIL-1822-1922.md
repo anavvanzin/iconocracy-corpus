@@ -91,6 +91,7 @@ Ordenada cronologicamente.
 | 3 | **Decreto n. 847** (Código Penal) | 11 out. 1890 | "mulher honesta" / pudor / honestidade | A verificar: o Título VIII ("Dos crimes contra a segurança da honra e honestidade das famílias") funda o tipo penal na qualidade moral da mulher ofendida | restrição *(a confirmar)* | **[TI]** — texto localizado (Senado/LexML); arts. específicos a ler |
 | 4 | **Constituição da República** | 24 fev. 1891 | *(ausente no voto; residual na nacionalidade)* | **Caso negativo duplo.** (a) Art. 70: "São eleitores os cidadãos maiores de 21 annos…" e as vedações do §1º elencam mendigos, analphabetos, praças de pret e religiosos — **o sexo não é mencionado**: a exclusão das mulheres se dá **por omissão**, não por texto. (b) Art. 69, 2º: são cidadãos "os illegitimos de **mãe brazileira**" — a filiação materna só gera nacionalidade **na falta do pai**, isto é, a mulher é operador **residual** | **registro de ausência** + **atribuição de condição residual** | **[RD] verificado** — Câmara dos Deputados, publicação original (22/09/2026) |
 | 5 | **Lei n. 3.071** (Código Civil) | 1º jan. 1916 | dependência / subordinação da mulher casada | Art. 6, II: a mulher casada é relativamente incapaz; art. 233: "O marido é o chefe da sociedade conjugal"; art. 240: a mulher assume "a condição de sua companheira, consorte e auxiliar"; art. 242: "A mulher não pode, sem autorização do marido… alienar ou gravar de onus real os immoveis de seu dominio particular" | **restrição** | **[RD] verificado** — Planalto (08/09/2026) |
+| 6 | **Decreto n. 4.175** (comemoração do Centenário) | 11 nov. 1920 | *(nenhum)* | Autoriza o Executivo a promover a comemoração do Centenário da Independência, com o "criterio de preferencia para a realização de uma **Exposição Nacional na Capital da Republica**". **Não menciona figura feminina** — é ato juridicamente neutro quanto ao gênero, e é o ato que habilita a produção das duas alegorias de 1922 | **registro de ausência** | **[RD] verificado** — Câmara dos Deputados, publicação original (22/09/2026) |
 
 ### 3.1 Ato #1 em detalhe — por que a Lei do Ventre Livre é o achado desta rodada
 
@@ -143,6 +144,46 @@ Constituição de 1891 entrega dois, de tipos distintos:
 pela direção (ii) ou (iv) stricto sensu. Ele entra na matriz precisamente para
 que a série **não** seja curada por saliência — é o contra-teste exigido.
 
+### 3.3 O ano de 1922 — Centenário e Semana de Arte Moderna
+
+O recorte fecha em 1922. É preciso dizer com precisão **o que** fecha nele,
+porque o ano contém dois acontecimentos que apontam em direções opostas:
+
+| Acontecimento | Data | O que é | Presença no corpus |
+|---|---|---|---|
+| **Semana de Arte Moderna** | 13–17 fev. 1922, Theatro Municipal de São Paulo | ruptura estética contra o academicismo e o neoclássico — **contra o repertório que esta tese estuda** | **zero itens** |
+| **Exposição Internacional do Centenário** | aberta 7 set. 1922, Rio de Janeiro | apogeu cerimonial da iconocracia oficial | **2 itens** |
+
+**A Semana não está no corpus — e isso não é lacuna, é o dado.** Ela não produz
+alegoria feminina estatal; ela rejeita o gênero de imagem que a tese analisa. O
+corpus captura, no mesmo ano, o **oposto**: as duas alegorias do Centenário.
+
+- *Alegoria da República* (Carlos Chambelland, 1922) — leitura iconográfica
+  registrada no ledger: *"Republic-woman blesses from above; men write/legislate
+  below"* — a mulher alegórica **sanciona de cima** o ato legislativo masculino
+  que a exclui.
+- *Alegoria da Exposição Internacional do Centenário da Independência* (1922,
+  MHN) — "a jovem alada/ascendente que enlaça a bandeira é uma personificação
+  alegórica da Nação".
+
+**Cronologia que importa:** a Semana (fevereiro) **precede** a Exposição
+(setembro) dentro do mesmo ano. A ruptura estética vem antes do apogeu
+cerimonial.
+
+**Função da Semana na tese.** Ela é o **marco explicativo do fechamento**, não
+um item do corpus: marca o momento em que o repertório alegórico-acadêmico
+**perde hegemonia** — sem que a contra-alegoria se realize. Esta só se realiza
+em **1928** (Abaporu, *Manifesto Antropófago*). O intervalo **1922–1928** é,
+no vocabulário da tese, um *Zwischenraum*: o entre-espaço entre a hegemonia
+perdida e a contra-alegoria ainda não realizada.
+
+**Achado documental desta verificação.** O **Decreto n. 4.175/1920** (ato #6)
+autoriza a comemoração do Centenário e prevê a Exposição Nacional **sem
+mencionar figura feminina**. Isto é: **o ato que habilita as alegorias de 1922
+não as contém.** É o caso mais claro de **figura posterior ao ato** — o
+contra-exemplo à hipótese de precedência que o §5.1.1 do reenquadramento exige
+que a série busque. A tese fica mais forte por incorporá-lo em vez de escondê-lo.
+
 ## 4. Atos fora do recorte (comparanda pós-1922)
 
 Registrados aqui para não se perderem, mas **não integram** a série 1822–1922:
@@ -167,6 +208,7 @@ série registrar os atos em que o atributo feminino **não** comparece.
 |---|---|---|---|
 | Decreto n. 4 | 19 nov. 1889 | **sim** | oficializa bandeira/armas/selos sem nomear figura feminina |
 | Constituição de 1891, art. 70 | 24 fev. 1891 | **sim** | define o eleitor sem mencionar sexo — exclusão por silêncio |
+| Decreto n. 4.175 | 11 nov. 1920 | **sim** | autoriza a comemoração do Centenário e a Exposição Nacional sem nomear figura feminina — **a figura das alegorias de 1922 é posterior ao ato** |
 | *(a completar)* | | | atos decisórios de 1822–1922 a varrer sistematicamente |
 
 **Regra:** a série não pode afirmar precedência sem ter varrido um número
@@ -187,6 +229,17 @@ Habilitado pelo par série-iconográfica × série-documental:
 **Primeiro par disponível:** alegoria à Lei do Ventre Livre (c. 1871) × texto da
 Lei n. 2.040 (1871) — coincidência de data que permite testar a direção já no
 Império.
+
+**Segundo par — e o primeiro resultado negativo:** Decreto n. 4.175/**1920**
+(não menciona a figura) × *Alegoria da República* de Chambelland/**1922** (a
+figura em ação). Aqui a cronologia mostra **o ato antes da figura**: o decreto
+que habilita a comemoração é neutro quanto ao gênero, e a alegoria comparece
+dois anos depois, na execução. É um caso de **decalque, não de engendramento**.
+
+Registrar este resultado é o que torna a proposição falseável. Se a série
+acumular pares como este — ato primeiro, figura depois —, a hipótese de
+precedência cai; se acumular pares como o de 1871, ela se sustenta. A tese
+deve reportar a **contagem de ambos**, não só a dos casos favoráveis.
 
 ## 7. Pendências e próximos movimentos
 
