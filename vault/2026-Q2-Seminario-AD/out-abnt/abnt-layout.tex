@@ -1,0 +1,41 @@
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+
+\onehalfspacing
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{3em}
+
+\fancyhf{}
+\fancyhead[R]{\fontsize{10}{12}\selectfont\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{14.5pt}
+\pagestyle{fancy}
+
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{0pt}%
+  {1.5\baselineskip}{0.75\baselineskip}%
+  {\normalfont\bfseries\fontsize{12}{14}\selectfont}}
+\renewcommand\subsection{\@startsection{subsection}{2}{0pt}%
+  {1.25\baselineskip}{0.5\baselineskip}%
+  {\normalfont\bfseries\fontsize{12}{14}\selectfont}}
+
+\renewcommand{\maketitle}{%
+  \begin{center}
+    {\bfseries\fontsize{14}{17}\selectfont \@title\par}
+    \vspace{\baselineskip}
+    {\fontsize{12}{15}\selectfont \@author\par}
+    \vspace{0.5\baselineskip}
+    {\fontsize{12}{15}\selectfont \@date\par}
+  \end{center}
+  \vspace{0.75\baselineskip}
+}
+\makeatother
+
+\renewenvironment{abstract}
+  {\begin{center}\textbf{Resumo}\end{center}\begingroup\small\singlespacing\noindent}
+  {\par\endgroup}
+
+\AtBeginEnvironment{longtable}{\small\singlespacing}
