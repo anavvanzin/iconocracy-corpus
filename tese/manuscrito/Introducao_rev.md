@@ -20,7 +20,7 @@ A documentação oficial materializa o acoplamento entre texto e imagem. As sent
 
 #### *Por que os séculos XIX e XX: a modernidade político-legal e a revolução tecnológica da imagem*
 
-O recorte cronológico desta pesquisa (1800–2000, com ênfase no período 1880–1920) coincide com uma época de transformações estruturais na organização do poder político-jurídico ocidental e nas tecnologias de produção e circulação de imagens. Quatro processos históricos convergentes justificam essa delimitação temporal.
+O campo cronológico de onde provém o corpus desta pesquisa (1800–2000, com densidade no período 1880–1920) coincide com uma época de transformações estruturais na organização do poder político-jurídico ocidental e nas tecnologias de produção e circulação de imagens. Quatro processos históricos convergentes justificam essa amplitude.
 
 O primeiro é a consolidação do Estado-nação como forma política hegemônica. A Revolução Francesa (1789) inaugurou um ciclo de transformações que substituiu a legitimidade dinástica pela legitimidade popular e a soberania monárquica pela soberania nacional. Essa mudança exigiu novos mecanismos de representação: a nação não possuía um corpo natural como o monarca; ela precisava ser fabricada sensivelmente. As alegorias emergiram como solução. Um corpo feminino purificado personificava uma entidade abstrata, tornando-a visível, reconhecível e investida de afetos. O século XIX assistiu à multiplicação dos Estados-nações, nas unificações italiana e alemã, nas independências latino-americanas e na consolidação das monarquias constitucionais, cada qual exigindo sua própria iconografia. A Marianne francesa, a Germania alemã, a Britannia britânica, a Helvetia suíça e a República brasileira constituem respostas nacionais a um problema comum: como conferir presença visual a uma entidade política abstrata.
 
@@ -166,21 +166,42 @@ Compreender como a iconocracia operou historicamente permite desnaturalizar o pr
 
 ### I.6 Delimitações e escolhas: seleções necessárias e justificadas
 
-#### *Delimitação temporal: 1800–2000, com ênfase em 1880–1920*
+#### *Delimitação do campo: 1800–2000, com densidade em 1880–1920*
 
-O recorte temporal inicia-se em 1800, incorporando os desdobramentos pós-revolucionários da iconografia republicana, e encerra-se em 2000, permitindo o acompanhamento da reconfiguração do regime iconocrático ao longo do século XX. O foco principal incide sobre o período 1880–1920 por três razões convergentes. Primeiro: o auge do regime iconocrático, marcado pela massificação sem precedente das alegorias em virtude das inovações tecnológicas (cromolitografia, fundição industrial) e da padronização dos sistemas monetário e postal. Segundo: a intensificação dos movimentos sufragistas, tornando o paradoxo da hipervisibilidade versus exclusão especialmente agudo. Terceiro: a ocorrência de crises múltiplas, a Primeira Guerra Mundial, revoluções e o colapso de impérios, que desencadearam a mobilização alegórica acelerada, permitindo observar os mecanismos de intensificação.
+O campo de onde provém o corpus desta pesquisa inicia-se em 1800, incorporando os desdobramentos pós-revolucionários da iconografia republicana, e encerra-se em 2000, permitindo o acompanhamento da reconfiguração do regime iconocrático ao longo do século XX. A densidade principal incide sobre o período 1880–1920 por três razões convergentes. Primeiro: o auge do regime iconocrático, marcado pela massificação sem precedente das alegorias em virtude das inovações tecnológicas (cromolitografia, fundição industrial) e da padronização dos sistemas monetário e postal. Segundo: a intensificação dos movimentos sufragistas, tornando o paradoxo da hipervisibilidade versus exclusão especialmente agudo. Terceiro: a ocorrência de crises múltiplas, a Primeira Guerra Mundial, revoluções e o colapso de impérios, que desencadearam a mobilização alegórica acelerada, permitindo observar os mecanismos de intensificação.
 
-#### *Delimitação geográfica: seis casos transatlânticos*
+#### *Delimitação argumentativa: Brasil, 1822–1922*
+
+Sobre esse campo amplo, a tese recorta um objeto: a genealogia da República-mulher no Brasil, de 1822 a 1922. A distinção entre os dois estratos é deliberada e convém enunciá-la desde já, para evitar que se confundam. O campo delimita de onde provém a documentação e o que ela autoriza afirmar — disponibilidade, circulação e datação das alegorias. O recorte delimita o que a tese efetivamente demonstra: o processo pelo qual uma figura feminina alegórica, que não referencia nenhuma mulher histórica concreta, tornou-se condição de reconhecimento da autoridade jurídico-política.
+
+O marco inicial corresponde à constituição do Estado nacional brasileiro. A partir de 1822, o país passa a produzir a sua própria linguagem visual de soberania, num repertório que se forma por transferência e adaptação de modelos europeus. A distribuição do material iconográfico não é uniforme ao longo do período, e a tese não o dissimula: a documentação concentra-se entre 1880 e 1920, e é na República, a partir de 1889, que a República-mulher se torna imagem corrente nos suportes de massa. O marco de 1822 delimita o processo; a densidade documental acompanha a consolidação do Estado republicano.
+
+A escolha do marco final exige justificação mais detida, porque 1922 abriga dois acontecimentos que apontam em direções opostas. Em fevereiro, a Semana de Arte Moderna rejeita o repertório acadêmico e neoclássico de que a alegoria feminina é parte constitutiva. Em setembro, a Exposição Internacional do Centenário da Independência celebra esse mesmo repertório no seu ponto de máxima solenidade estatal. A Semana precede a Exposição no interior de um mesmo ano.
+
+O recorte encerra-se em 1922 não porque a documentação se esgote, mas porque o repertório alegórico-acadêmico perde, ali, a hegemonia de que desfrutara por um século. Daí uma consequência que convém declarar com clareza: a Semana de Arte Moderna não integra o corpus desta pesquisa, e não poderia integrá-lo, porque não produz alegoria feminina estatal. Ela comparece como marco explicativo do fechamento, não como objeto analisado.
+
+A contra-alegoria — o regime em que o corpo alegórico deixa de legitimar o Estado e passa a contestá-lo — só se realiza em 1928, com o *Abaporu* e o *Manifesto Antropófago*. Entre a hegemonia perdida e a contra-alegoria realizada abre-se o intervalo que esta tese nomeia, no vocabulário de Warburg, *Zwischenraum*: o entre-espaço em que o repertório antigo já não governa e o novo ainda não se formulou. Esse intervalo é tratado no Capítulo 2 como caso-limite teórico — o *Abaporu* não é item de corpus, e o que ele permite pensar é o avesso da Purificação Clássica.
+
+#### *Campo geográfico do corpus: seis casos transatlânticos*
 
 A pesquisa concentra-se em seis casos nacionais: França (*Marianne*), Reino Unido (Britannia), Alemanha (Germania), Estados Unidos (Columbia/Justice), Bélgica (alegorias constitucionais e coloniais) e Brasil (República). A seleção justifica-se pela diversidade controlada que oferece. A França representa uma república revolucionária que adota a alegoria como ruptura com a monarquia. O Reino Unido representa uma monarquia constitucional imperial que mantém a alegoria (Britannia) em coexistência com as efígies reais. A Alemanha representa um Estado-nação de construção tardia (unificação em 1871) que mobiliza a alegoria para fabricar identidade nacional. Os Estados Unidos representam uma república federal que produz suas alegorias tanto por via revolucionária (Columbia) quanto por via burocrático-estatal (gravuras do Bureau of Engraving and Printing). A Bélgica representa uma monarquia constitucional jovem cujo "culto constitucional" pós-1848, estudado por Huygebaert (2015) [VERIFICAR: entrada huygebaert2015 com TODO pendente no references.bib — conferir obra exata antes da entrega], demonstra como o governo liberal de Rogier utilizou ativamente meios visuais para fabricar legitimidade. O Brasil representa uma república pós-colonial que importa o modelo francês, mas o adapta a um contexto periférico e escravocrata.
 
 A inclusão do Brasil como nó analítico é central para a contribuição pós-colonial desta pesquisa: o caso brasileiro não é tratado como mera variante periférica, mas como um caso que revela, por translação e distorção, os pressupostos raciais e coloniais que a versão metropolitana do Contrato Sexual Visual tende a silenciar.
+
+Os seis casos constituem o **campo comparativo** do corpus — a diversidade controlada que permite isolar o que é recorrente do que é contingente. Sobre esse campo, o recorte argumentativo definido acima (Brasil, 1822–1922) opera como foco de demonstração; os demais casos entram como *comparanda* declarados, isto é, como termos de contraste que iluminam o caso brasileiro sem dele dependerem nem o substituírem.
 
 #### *Delimitação dos suportes: moedas, selos, monumentos e paratextos jurídicos*
 
 A pesquisa concentra-se em quatro suportes principais: moedas, selos postais, monumentos públicos (estátuas, relevos em edifícios governamentais) e paratextos jurídicos (frontispícios de códigos, selos de tribunais, brasões oficiais). A seleção justifica-se porque representa três regimes escópicos distintos. Moedas e selos operam *ubiquidade íntima*: circulação massiva, escala miniaturizada, uso cotidiano. Monumentos operam *verticalidade monumental*: permanência secular, escala sobre-humana, localização estratégica. Os paratextos jurídicos operam *acoplamento imagem-norma*: inscrição em suportes com eficácia jurídica, ritualização das práticas judiciárias, sacralização dos textos legais.
 
 O banco de dados iconométrico, construído ao longo da pesquisa, codifica as imagens desses suportes segundo 10 indicadores ordinais de purificação, permitindo o panorama descritivo do corpus e o diagnóstico do instrumento que identificam os padrões aprofundados pela iconologia de casos.
+
+<!-- PENDÊNCIA ARQUITETURAL (registrada 2026-09-22, não resolvida): a §I.6 passou a
+declarar o recorte argumentativo Brasil 1822–1922, mas a §I.7 (estrutura) ainda
+descreve o Cap. 7 como seis estudos de caso e não diz ONDE a demonstração
+1822–1922 vive. Decidir se a série documental brasileira entra no Cap. 5 (Corpus)
+ou ganha capítulo próprio; enquanto isso, a arquitetura fica incompleta. Não
+resolver em silêncio. Ver docs/SERIE-DOCUMENTAL-BRASIL-1822-1922.md §8. -->
 
 ---
 
