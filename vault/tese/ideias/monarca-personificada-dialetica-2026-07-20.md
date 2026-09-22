@@ -65,5 +65,5 @@ Refinamento teórico do conceito de *Feminilidade de Estado*. Não depende de co
 ### B) Painel do Atlas (Capítulo 9) — Justaposição visual Marianne × Vitória
 Painel de tensão no Atlas. Requer scout de imagens + análise iconográfica comparativa. O Zwischenraum é o espaço entre as duas imagens.
 
-### C) Artigo curto (8–10k palavras) — "The Queen's Two Faces: Monarchy, Allegory, and the Hardening of Sovereignty"
+### C) Artigo curto (8–10k palavras) — "The Queen's Two Faces: Monarchy, Allegory, and the Endurecimento of Sovereignty"
 Para revista de cultura visual ou direito e humanidades. Requer enquadramento teórico completo, evidência empírica (scout primeiro) e discussão de venue.
