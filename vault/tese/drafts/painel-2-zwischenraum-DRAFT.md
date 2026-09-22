@@ -16,6 +16,8 @@ tema-painel: "NORMATIVO → MILITAR: o limiar da dessexualização, o recalque d
 
 ## Layout proposto (4 imagens + 3 textos)
 
+**Decisão curatorial incorporada do relatório:** este painel deve ser apresentado como hipótese de contraste atlas-topológico, não como diagnóstico continental fechado. O relatório sustenta que a militarização da alegoria feminina é historicamente específica; por isso, a comparação EUA/França precisa explicitar a Semeuse como controle curatorial e tratar os valores de endurecimento como *capta* auxiliares.
+
 ### [A] Polo esquerdo — O limiar inacabado
 
 **Imagem:** Christian Gobrecht / Robert Ball Hughes, *Seated Liberty* (tipo "No Motto", versão 1840–1866). Prata, múltiplas denominações. (US-SEATED-1840)
@@ -24,7 +26,7 @@ tema-painel: "NORMATIVO → MILITAR: o limiar da dessexualização, o recalque d
 
 > A *Seated Liberty* inaugurada em 1840 é uma *falha de consolidação* fossilizada no metal. Gobrecht e, posteriormente, Hughes constroem um corpo feminino que deveria operar segundo a Purificação Clássica: figura sentada, vestida em túnica neoclássica, escudo ao lado, capuz sobre a cabeça, tudo remetendo às filiadas romanas da república. Mas a operação permanece incompleta. O busto, ainda que moldado pela vestimenta, mantém volume; o rosto, embora perfilado, conserva traços individuais que resistem à abstração; e, sobretudo, a posição sentada — ao contrário da marcha da Semeuse — fixa o corpo num espaço de *recepção*, não de ação. A sentada é passiva, exposta à visão. Ela espera, não semeia. E na espera, o corpo permanece visível como corpo.
 >
-> Falta à *Seated Liberty* o endurecimento suficiente para transmutar o corpo em função. O endurecimento composto estimado oscila entre 1,8 e 2,1: a desincorporação é parcial, a rigidez é geométrica sem ser protocolar, a uniformização facial falha porque os traços mantêm diferença. A monocromatização do metal auxilia sem resolver o problema operacional: o corpo continua a ser *lido como corpo*, e um corpo feminino lido como corpo numa moeda de circulação nacional ativa o Contrato Sexual Visual de maneira indesejável. O governo norte-americano, ao não conseguir levar a Purificação Clássica até seu termo, gera um *sem-alegoria*: demasiado abstrato para ser desejado, demasiado carnal para ser funcional. É esse Zwischenraum que a moeda habitada pelas *Seated Liberties* de 1840 a 1891 não consegue dissolver.
+> Falta à *Seated Liberty* o endurecimento suficiente para transmutar o corpo em função. Como *capta* de leitura, o endurecimento composto estimado oscila entre 1,8 e 2,1: a desincorporação é parcial, a rigidez é geométrica sem ser protocolar, a uniformização facial falha porque os traços mantêm diferença. A monocromatização do metal auxilia sem resolver o problema operacional: o corpo continua a ser *lido como corpo*, e um corpo feminino lido como corpo numa moeda de circulação nacional ativa o Contrato Sexual Visual de maneira indesejável. O governo norte-americano, ao não conseguir levar a Purificação Clássica até seu termo, gera um *sem-alegoria*: demasiado abstrato para ser desejado, demasiado carnal para ser funcional. É esse Zwischenraum que a moeda habitada pelas *Seated Liberties* de 1840 a 1891 não consegue dissolver.
 >
 > A consequência é histórica. Em vez de cruzar o limiar da dessexualização, o corpo de Columbia nas moedas se torna *sintoma de impossibilidade*. A série é modificada inúmeras vezes — com e sem lema, com e sem arcos, com e sem escudos — numa série de tentativas de correção que apenas evidenciam o problema estrutural: a incapacidade do sistema numismático estadunidense de gerar uma Feminilidade de Estado estável. Onde a França, a partir de 1848 e definitivamente em 1897, faz da moeda um espaço de operação sem sujeito, os Estados Unidos, entre 1840 e 1896, produzem um corpo permanentemente *em vias de ser purificado*, nunca purificado. Esse inacabamento é *regimático*. O regime normativo exige que o corpo desapareça em função; a *Seated Liberty* recusa essa desaparição, conservando um resíduo de corporalidade que a impede de persistir como alegoria e, paradoxalmente, a impede também de ser rejeitada. Ela sobrevive como moeda, mas fracassa como ícone.
 
@@ -62,7 +64,7 @@ tema-painel: "NORMATIVO → MILITAR: o limiar da dessexualização, o recalque d
 
 > É apenas pela via da comparação que a magnitude da falha americana se torna inteiramente legível. A *La Semeuse* de Roty (1897) realiza, no polo oposto, a travessia que o sistema estadunidense não consegue efetuar. O corpo é *protocolo em movimento*; o seio, *anulado*; a fisionomia, *dissolvida*. A dessexualização é tão completa que o gênero da figura torna-se evidente e irrelevante ao mesmo tempo: a Semeuse é mulher porque o protocolo exige uma semeadora, e isso não importa porque o corpo não oferece nada além do gesto. A Semeuse nunca foi corpo; foi sempre máquina.
 >
-> O endurecimento composto estimado em 2,7 situa FR-038 firmemente no regime normativo, com trajetória de transição para o militar. A moeda sobrevive, circula, persiste porque cruzou o limiar irreversivelmente. O que a *Seated Liberty* tentou e falhou, o que o *History Instructing Youth* tentou e foi recolhido, a Semeuse realiza sem esforço aparente: a conversão da carne em função. Não há Zwischenraum visível na moeda francesa — porque já foi *dissolvido* na operação iconocrática. O Nachleben do corpo revolucionário foi finalmente sepultado; em seu lugar, ergue-se a máquina de perpetuação estatal. A comparação é didática: a América falhou porque sua Purificação Clássica foi *insuficiente*.
+> Como *capta* de leitura, o endurecimento composto estimado em 2,7 situa FR-038 firmemente no regime normativo, com trajetória de transição para o militar. A moeda sobrevive, circula, persiste porque cruzou o limiar irreversivelmente. O que a *Seated Liberty* tentou e falhou, o que o *History Instructing Youth* tentou e foi recolhido, a Semeuse realiza sem esforço aparente: a conversão da carne em função. Não há Zwischenraum visível na moeda francesa — porque já foi *dissolvido* na operação iconocrática. O Nachleben do corpo revolucionário foi finalmente sepultado; em seu lugar, ergue-se a máquina de perpetuação estatal. A comparação é didática: a América falhou porque sua Purificação Clássica foi *insuficiente*.
 
 ---
 
@@ -78,7 +80,7 @@ tema-painel: "NORMATIVO → MILITAR: o limiar da dessexualização, o recalque d
 
 ## Itens corpus identificados
 
-| Item | ID | Regime | Endurecimento | Função no painel |
+| Item | ID | Regime | Endurecimento (capta) | Função no painel |
 |------|-----|--------|---------------|----------------|
 | Gobrecht / Hughes, *Seated Liberty* | US-SEATED-1840 | normativo (falho) | 1,9 (estimado) | Polo esquerdo: limiar inacabado, corpo que resiste à purificação |
 | Low / Barber, *History Instructing Youth* | US-EDUC-1896-01 | fundacional (regresso em regime normativo) | 1,5 (estimado) | Polo direito: catástrofe performativa do corpo pedagógico vivo |
@@ -93,6 +95,18 @@ MONDZAIN, Marie-José. *L'Image peut-elle tuer?* Paris: Bayard, 2002.
 
 VANZIN, A. **Iconocracy: femininidade, moeda e contrato visual**. [S.l.: s.n.], 2026. Trabalho em andamento.
 
+AGULHON, Maurice. *Marianne au pouvoir: L'imagerie et la symbolique républicaines de 1880 à 1914*. Paris: Flammarion, 1989.
+
+DIDI-HUBERMAN, Georges. *Atlas ou le gai savoir inquiet: L'oeil de l'histoire, 3*. Paris: Les Editions de Minuit, 2011. [confirmar paginação antes de citação direta]
+
+MOSSE, George L. *Fallen Soldiers: Reshaping the Memory of the World Wars*. Oxford: Oxford University Press, 1990.
+
+POLLOCK, Griselda. *Encounters in the Virtual Feminist Museum: Time, Space and the Archive*. Abingdon: Routledge, 2007.
+
+WARNER, Marina. *Monuments and Maidens: The Allegory of the Female Form*. London: Weidenfeld and Nicolson, 1985.
+
+WENK, Silke. *Versteinerte Weiblichkeit: Allegorien in der Skulptur der Moderne*. Cologne: Bohlau, 1996.
+
 ---
 
-> **Nota de produção:** Os scores de endurecimento marcados como "estimado" exigem codificação IconoCode completa a partir das imagens de alta resolução em `data/raw/` e `vault/candidatos/`. A análise do Educational Series depende de acesso à prova de impressão ou à nota original conservada no Smithsonian National Numismatic Collection (acervo NN 0001, se verificar). A imagem de Flagg (US-011) requer confirmação de datação exata e contexto de publicação original (* Leslie's Illustrated Weekly Newspaper*, 1917). A comparação com FR-038 pressupõe a ficha enriquecida já existente no corpus.
+> **Nota de produção:** Os valores de endurecimento marcados como "estimado" exigem codificação IconoCode completa a partir das imagens de alta resolução em `data/raw/` e `vault/candidatos/` e devem permanecer como *capta*, não como índice probatório. A análise do Educational Series depende de acesso à prova de impressão ou à nota original conservada no Smithsonian National Numismatic Collection (acervo NN 0001, se verificar). A imagem de Flagg (US-011) requer confirmação de datação exata e contexto de publicação original (*Leslie's Illustrated Weekly Newspaper*, 1917). A comparação com FR-038 pressupõe a ficha enriquecida já existente no corpus.
