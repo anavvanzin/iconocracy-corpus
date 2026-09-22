@@ -1,0 +1,1308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://gexf.net/1.3/viz" xmlns="http://gexf.net/1.3" xmlns:viz="http://gexf.net/1.3/viz" version="1.3">
+  <meta lastmodifieddate="2026-07-04">
+    <creator>iconocracy_gephi.py · PPGD/UFSC</creator>
+    <description>Iconocracy corpus — French case — allegorical motifs × iconocratic regimes</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="node_type" type="string" />
+      <attribute id="1" title="count" type="integer" />
+      <attribute id="2" title="avg_endurecimento" type="float" />
+      <attribute id="3" title="degree" type="integer" />
+      <attribute id="4" title="weighted_degree" type="float" />
+      <attribute id="5" title="betweenness_proxy" type="integer" />
+      <attribute id="6" title="regime" type="string" />
+      <attribute id="7" title="regimes" type="string" />
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="edge_type" type="string" />
+      <attribute id="1" title="regime" type="string" />
+    </attributes>
+    <nodes>
+      <node id="REG_fundacional" label="fundacional">
+        <viz:color r="123" g="107" b="82" a="1" />
+        <viz:size value="153.00" />
+        <viz:shape value="diamond" />
+        <viz:position x="-28090.6212" y="14280.3847" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="regime" />
+          <attvalue for="1" value="24" />
+          <attvalue for="2" value="1.200" />
+          <attvalue for="3" value="40" />
+          <attvalue for="4" value="44.10" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="fundacional" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="REG_normativo" label="normativo">
+        <viz:color r="92" g="122" b="110" a="1" />
+        <viz:size value="148.50" />
+        <viz:shape value="diamond" />
+        <viz:position x="80338.3492" y="-28722.3600" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="regime" />
+          <attvalue for="1" value="23" />
+          <attvalue for="2" value="1.970" />
+          <attvalue for="3" value="35" />
+          <attvalue for="4" value="49.70" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="normativo" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="REG_militar" label="militar">
+        <viz:color r="139" g="64" b="64" a="1" />
+        <viz:size value="94.50" />
+        <viz:shape value="diamond" />
+        <viz:position x="-56.5740" y="-5.8465" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="regime" />
+          <attvalue for="1" value="11" />
+          <attvalue for="2" value="1.740" />
+          <attvalue for="3" value="15" />
+          <attvalue for="4" value="24.70" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="militar" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="REG_contra-alegoria" label="contra-alegoria">
+        <viz:color r="58" g="92" b="122" a="1" />
+        <viz:size value="81.00" />
+        <viz:shape value="diamond" />
+        <viz:position x="14709.7545" y="-18533.6350" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="regime" />
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="0.750" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="6.60" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="contra-alegoria" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="REG_pendente" label="pendente">
+        <viz:color r="153" g="153" b="153" a="1" />
+        <viz:size value="157.50" />
+        <viz:shape value="diamond" />
+        <viz:position x="-47473.8220" y="96675.5780" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="regime" />
+          <attvalue for="1" value="25" />
+          <attvalue for="2" value="0.000" />
+          <attvalue for="3" value="22" />
+          <attvalue for="4" value="22.00" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="pendente" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Alegoria_feminina" label="Alegoria feminina">
+        <viz:color r="92" g="122" b="110" a="1" />
+        <viz:size value="105.00" />
+        <viz:shape value="disc" />
+        <viz:position x="59878.6799" y="23936.4752" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="15" />
+          <attvalue for="2" value="1.720" />
+          <attvalue for="3" value="18" />
+          <attvalue for="4" value="36.60" />
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="contra-alegoria|fundacional|militar|normativo" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Justice_Justitia" label="Justice/Justitia">
+        <viz:color r="153" g="153" b="153" a="1" />
+        <viz:size value="207.00" />
+        <viz:shape value="disc" />
+        <viz:position x="-6740.2070" y="81661.8386" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="32" />
+          <attvalue for="2" value="1.380" />
+          <attvalue for="3" value="36" />
+          <attvalue for="4" value="42.90" />
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="fundacional|militar|normativo|pendente" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Liberté_Liberty" label="Liberté/Liberty">
+        <viz:color r="123" g="107" b="82" a="1" />
+        <viz:size value="81.00" />
+        <viz:shape value="disc" />
+        <viz:position x="-82741.0226" y="-31822.6705" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="11" />
+          <attvalue for="2" value="1.080" />
+          <attvalue for="3" value="15" />
+          <attvalue for="4" value="22.40" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="fundacional|militar|pendente" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Declaração_dos_Direitos" label="Declaração dos Direitos">
+        <viz:color r="123" g="107" b="82" a="1" />
+        <viz:size value="27.00" />
+        <viz:shape value="disc" />
+        <viz:position x="-11901.1928" y="-6865.7727" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="1.800" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="3.60" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="fundacional" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Phrygian_cap" label="Phrygian cap">
+        <viz:color r="123" g="107" b="82" a="1" />
+        <viz:size value="51.00" />
+        <viz:shape value="disc" />
+        <viz:position x="-90943.9004" y="9659.8471" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="1.320" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="17.30" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="fundacional|normativo" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_République_República" label="République/República">
+        <viz:color r="123" g="107" b="82" a="1" />
+        <viz:size value="87.00" />
+        <viz:shape value="disc" />
+        <viz:position x="-31274.1190" y="-44880.7799" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="12" />
+          <attvalue for="2" value="1.900" />
+          <attvalue for="3" value="17" />
+          <attvalue for="4" value="24.80" />
+          <attvalue for="5" value="10" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="contra-alegoria|fundacional|militar|normativo|pendente" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Fasces" label="Fasces">
+        <viz:color r="123" g="107" b="82" a="1" />
+        <viz:size value="33.00" />
+        <viz:shape value="disc" />
+        <viz:position x="-66687.2482" y="12149.4958" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="2.300" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="8.30" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="fundacional|militar" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Marianne" label="Marianne">
+        <viz:color r="92" g="122" b="110" a="1" />
+        <viz:size value="135.00" />
+        <viz:shape value="disc" />
+        <viz:position x="23247.7221" y="-62133.2363" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="20" />
+          <attvalue for="2" value="1.440" />
+          <attvalue for="3" value="25" />
+          <attvalue for="4" value="43.10" />
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="contra-alegoria|fundacional|militar|normativo" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Cérès_Déméter" label="Cérès/Déméter">
+        <viz:color r="123" g="107" b="82" a="1" />
+        <viz:size value="33.00" />
+        <viz:shape value="disc" />
+        <viz:position x="-27091.2506" y="-21850.5420" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="0.000" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="5.00" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="fundacional|militar" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Égalité" label="Égalité">
+        <viz:color r="123" g="107" b="82" a="1" />
+        <viz:size value="21.00" />
+        <viz:shape value="disc" />
+        <viz:position x="-890.3877" y="-16373.1464" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.500" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1.50" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="fundacional" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Force_Força" label="Force/Força">
+        <viz:color r="153" g="153" b="153" a="1" />
+        <viz:size value="33.00" />
+        <viz:shape value="disc" />
+        <viz:position x="-20782.0875" y="57895.0614" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="0.000" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="6.00" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="normativo|pendente" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Vérité_Verdade" label="Vérité/Verdade">
+        <viz:color r="92" g="122" b="110" a="1" />
+        <viz:size value="21.00" />
+        <viz:shape value="disc" />
+        <viz:position x="26975.6752" y="-3024.7773" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0.000" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1.00" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="normativo" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Paix_Paz" label="Paix/Paz">
+        <viz:color r="92" g="122" b="110" a="1" />
+        <viz:size value="45.00" />
+        <viz:shape value="disc" />
+        <viz:position x="30550.1522" y="-24989.6872" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="5" />
+          <attvalue for="2" value="1.350" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="8.40" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="contra-alegoria|militar|normativo" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Navigation_Commerce" label="Navigation/Commerce">
+        <viz:color r="92" g="122" b="110" a="1" />
+        <viz:size value="27.00" />
+        <viz:shape value="disc" />
+        <viz:position x="47354.9325" y="-1268.0328" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0.000" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="2.00" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="normativo" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Semeuse" label="Semeuse">
+        <viz:color r="92" g="122" b="110" a="1" />
+        <viz:size value="33.00" />
+        <viz:shape value="disc" />
+        <viz:position x="69910.1602" y="-9629.3266" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="2.500" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="4.50" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="normativo" />
+        </attvalues>
+      </node>
+      <node id="MOTIF_Victoire_Vitória" label="Victoire/Vitória">
+        <viz:color r="139" g="64" b="64" a="1" />
+        <viz:size value="21.00" />
+        <viz:shape value="disc" />
+        <viz:position x="17992.6850" y="10454.0923" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="motif" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="1.700" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1.70" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="militar" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="MOTIF_Alegoria_feminina" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="1" source="MOTIF_Justice_Justitia" target="REG_fundacional" weight="1.100">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="2" source="MOTIF_Justice_Justitia" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="3" source="MOTIF_Alegoria_feminina" target="REG_fundacional" weight="1.300">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="4" source="MOTIF_Alegoria_feminina" target="REG_fundacional" weight="1.300">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="5" source="MOTIF_Justice_Justitia" target="REG_fundacional" weight="1.300">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="6" source="MOTIF_Alegoria_feminina" target="REG_fundacional" weight="1.300">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="7" source="MOTIF_Justice_Justitia" target="REG_fundacional" weight="1.800">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="8" source="MOTIF_Liberté_Liberty" target="REG_fundacional" weight="1.800">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="9" source="MOTIF_Declaração_dos_Direitos" target="REG_fundacional" weight="1.800">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="10" source="MOTIF_Phrygian_cap" target="REG_fundacional" weight="1.800">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="11" source="MOTIF_Declaração_dos_Direitos" target="REG_fundacional" weight="1.800">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="12" source="MOTIF_Liberté_Liberty" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="13" source="MOTIF_République_República" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="14" source="MOTIF_Liberté_Liberty" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="15" source="MOTIF_Fasces" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="16" source="MOTIF_Phrygian_cap" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="17" source="MOTIF_Liberté_Liberty" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="18" source="MOTIF_Liberté_Liberty" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="19" source="MOTIF_Liberté_Liberty" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="20" source="MOTIF_Fasces" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="21" source="MOTIF_Phrygian_cap" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="22" source="MOTIF_Phrygian_cap" target="REG_fundacional" weight="0.300">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="23" source="MOTIF_Liberté_Liberty" target="REG_fundacional" weight="0.300">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="24" source="MOTIF_Marianne" target="REG_fundacional" weight="0.300">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="25" source="MOTIF_Liberté_Liberty" target="REG_fundacional" weight="0.100">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="26" source="MOTIF_Marianne" target="REG_fundacional" weight="0.100">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="27" source="MOTIF_République_República" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="28" source="MOTIF_Cérès_Déméter" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="29" source="MOTIF_République_República" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="30" source="MOTIF_Cérès_Déméter" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="31" source="MOTIF_Justice_Justitia" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="32" source="MOTIF_Justice_Justitia" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="33" source="MOTIF_Justice_Justitia" target="REG_fundacional" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="34" source="MOTIF_Justice_Justitia" target="REG_fundacional" weight="1.500">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="35" source="MOTIF_République_República" target="REG_fundacional" weight="1.500">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="36" source="MOTIF_Phrygian_cap" target="REG_fundacional" weight="1.500">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="37" source="MOTIF_Égalité" target="REG_fundacional" weight="1.500">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="38" source="MOTIF_Liberté_Liberty" target="REG_fundacional" weight="1.500">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="39" source="MOTIF_Justice_Justitia" target="REG_fundacional" weight="1.200">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="fundacional" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="40" source="MOTIF_Justice_Justitia" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="41" source="MOTIF_Alegoria_feminina" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="42" source="MOTIF_République_República" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="43" source="MOTIF_Marianne" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="44" source="MOTIF_Justice_Justitia" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="45" source="MOTIF_Justice_Justitia" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="46" source="MOTIF_Justice_Justitia" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="47" source="MOTIF_Force_Força" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="48" source="MOTIF_Marianne" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="49" source="MOTIF_Justice_Justitia" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="50" source="MOTIF_Vérité_Verdade" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="51" source="MOTIF_Paix_Paz" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="52" source="MOTIF_Navigation_Commerce" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="53" source="MOTIF_République_República" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="54" source="MOTIF_République_República" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="55" source="MOTIF_Justice_Justitia" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="56" source="MOTIF_Navigation_Commerce" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="57" source="MOTIF_Alegoria_feminina" target="REG_normativo" weight="2.500">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="58" source="MOTIF_Semeuse" target="REG_normativo" weight="2.500">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="59" source="MOTIF_Semeuse" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="60" source="MOTIF_Phrygian_cap" target="REG_normativo" weight="1.700">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="61" source="MOTIF_Alegoria_feminina" target="REG_normativo" weight="1.700">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="62" source="MOTIF_Marianne" target="REG_normativo" weight="1.700">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="63" source="MOTIF_Semeuse" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="64" source="MOTIF_Alegoria_feminina" target="REG_normativo" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="65" source="MOTIF_Marianne" target="REG_normativo" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="66" source="MOTIF_Alegoria_feminina" target="REG_normativo" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="67" source="MOTIF_Marianne" target="REG_normativo" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="68" source="MOTIF_Alegoria_feminina" target="REG_normativo" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="69" source="MOTIF_Marianne" target="REG_normativo" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="70" source="MOTIF_Paix_Paz" target="REG_normativo" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="71" source="MOTIF_Alegoria_feminina" target="REG_normativo" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="72" source="MOTIF_Marianne" target="REG_normativo" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="73" source="MOTIF_Alegoria_feminina" target="REG_normativo" weight="1.600">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="74" source="MOTIF_Marianne" target="REG_normativo" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="normativo" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="75" source="MOTIF_Alegoria_feminina" target="REG_militar" weight="2.300">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="76" source="MOTIF_République_República" target="REG_militar" weight="2.300">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="77" source="MOTIF_Fasces" target="REG_militar" weight="2.300">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="78" source="MOTIF_Marianne" target="REG_militar" weight="2.300">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="79" source="MOTIF_Marianne" target="REG_militar" weight="1.100">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="80" source="MOTIF_Marianne" target="REG_militar" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="81" source="MOTIF_Marianne" target="REG_militar" weight="1.800">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="82" source="MOTIF_Marianne" target="REG_militar" weight="1.800">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="83" source="MOTIF_Marianne" target="REG_militar" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="84" source="MOTIF_Victoire_Vitória" target="REG_militar" weight="1.700">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="85" source="MOTIF_Paix_Paz" target="REG_militar" weight="1.700">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="86" source="MOTIF_Liberté_Liberty" target="REG_militar" weight="1.700">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="87" source="MOTIF_Marianne" target="REG_militar" weight="1.700">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="88" source="MOTIF_Justice_Justitia" target="REG_militar" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="89" source="MOTIF_Cérès_Déméter" target="REG_militar" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="militar" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="90" source="MOTIF_Alegoria_feminina" target="REG_contra-alegoria" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="contra-alegoria" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="91" source="MOTIF_République_República" target="REG_contra-alegoria" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="contra-alegoria" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="92" source="MOTIF_Paix_Paz" target="REG_contra-alegoria" weight="0.900">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="contra-alegoria" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="93" source="MOTIF_Paix_Paz" target="REG_contra-alegoria" weight="0.800">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="contra-alegoria" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="94" source="MOTIF_Alegoria_feminina" target="REG_contra-alegoria" weight="0.600">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="contra-alegoria" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="95" source="MOTIF_Marianne" target="REG_contra-alegoria" weight="0.600">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="contra-alegoria" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="96" source="MOTIF_Marianne" target="REG_contra-alegoria" weight="0.700">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="contra-alegoria" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="97" source="MOTIF_Marianne" target="REG_contra-alegoria" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="contra-alegoria" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="98" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="99" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="100" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="101" source="MOTIF_Force_Força" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="102" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="103" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="104" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="105" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="106" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="107" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="108" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="109" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="110" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="111" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="112" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="113" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="114" source="MOTIF_Justice_Justitia" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="115" source="MOTIF_Force_Força" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="116" source="MOTIF_Liberté_Liberty" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="117" source="MOTIF_République_República" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="118" source="MOTIF_République_República" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="119" source="MOTIF_République_República" target="REG_pendente" weight="1.000">
+        <attvalues>
+          <attvalue for="0" value="motif_regime" />
+          <attvalue for="1" value="pendente" />
+        </attvalues>
+        <viz:color r="180" g="170" b="155" a="0.5" />
+      </edge>
+      <edge id="120" source="MOTIF_Alegoria_feminina" target="MOTIF_Justice_Justitia" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="121" source="MOTIF_Justice_Justitia" target="MOTIF_Phrygian_cap" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="122" source="MOTIF_Liberté_Liberty" target="MOTIF_Phrygian_cap" weight="4.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="123" source="MOTIF_Liberté_Liberty" target="MOTIF_République_República" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="124" source="MOTIF_Fasces" target="MOTIF_Liberté_Liberty" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="125" source="MOTIF_Fasces" target="MOTIF_Phrygian_cap" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="126" source="MOTIF_Liberté_Liberty" target="MOTIF_Marianne" weight="3.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="127" source="MOTIF_Marianne" target="MOTIF_Phrygian_cap" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="128" source="MOTIF_Cérès_Déméter" target="MOTIF_République_República" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="129" source="MOTIF_Justice_Justitia" target="MOTIF_République_República" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="130" source="MOTIF_Alegoria_feminina" target="MOTIF_Marianne" weight="8.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="131" source="MOTIF_Alegoria_feminina" target="MOTIF_République_República" weight="3.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="132" source="MOTIF_Marianne" target="MOTIF_République_República" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="133" source="MOTIF_Force_Força" target="MOTIF_Justice_Justitia" weight="3.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+      <edge id="134" source="MOTIF_Marianne" target="MOTIF_Paix_Paz" weight="2.000">
+        <attvalues>
+          <attvalue for="0" value="cooccurrence" />
+          <attvalue for="1" value="" />
+        </attvalues>
+        <viz:color r="80" g="80" b="80" a="0.9" />
+      </edge>
+    </edges>
+  </graph>
+</gexf>

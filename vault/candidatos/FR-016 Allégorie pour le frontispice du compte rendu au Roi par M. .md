@@ -1,4 +1,5 @@
 ---
+url: https://gallica.bnf.fr/ark:/12148/btv1b6942595s.item
 id: FR-016
 tipo: corpus/candidato
 status: verificar

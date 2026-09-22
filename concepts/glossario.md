@@ -44,6 +44,7 @@ This glossary defines key terms and concepts used throughout the Iconocracia res
   - Source: Original
   - Type: Original
   - Chapter: Cap. 5–6
+  - Definição: operação formal de extração do feminino histórico para fixá-lo no eterno alegórico. Matriz primária jurídica (Kantorowicz/Legendre/Hespanha); extensão ferramental (Latour 1991 / Haraway 1985 / Descola). Operacionalizada em endurecimento. Usar sempre "Purificação Clássica" no manuscrito final, não "purificação iconocrática". *(Definição inscrita em 2026-07-31 — errata da dialética R2: o verbete existia sem definição.)*
 
 - **Zwischenraum:**
   - Source: Warburg

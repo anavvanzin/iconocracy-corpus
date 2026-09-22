@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-06-23T18:39:39.701612+00:00",
+  "mode": "rater1_vs_rater2",
+  "paired_items": 30,
+  "alphas": {
+    "desincorporacao": {
+      "alpha": null,
+      "ci": null
+    },
+    "rigidez_postural": {
+      "alpha": null,
+      "ci": null
+    },
+    "dessexualizacao": {
+      "alpha": null,
+      "ci": null
+    },
+    "uniformizacao_facial": {
+      "alpha": null,
+      "ci": null
+    },
+    "heraldizacao": {
+      "alpha": null,
+      "ci": null
+    },
+    "enquadramento_arquitetonico": {
+      "alpha": null,
+      "ci": null
+    },
+    "apagamento_narrativo": {
+      "alpha": null,
+      "ci": null
+    },
+    "monocromatizacao": {
+      "alpha": null,
+      "ci": null
+    },
+    "serialidade": {
+      "alpha": null,
+      "ci": null
+    },
+    "inscricao_estatal": {
+      "alpha": null,
+      "ci": null
+    },
+    "_overall": null
+  },
+  "thresholds": {
+    "good": 0.8,
+    "tentative": 0.667,
+    "method": "Krippendorff's Alpha (ordinal metric)"
+  },
+  "_metadata": {
+    "generated_at_local": "2026-06-23",
+    "kind": "synthetic-baseline",
+    "description": "Rater-2 = LLM-generated baseline from regime-typical means + bounded random noise. NOT a real second coder. Coder-1 = mixed (iconocode-opus*, not exclusively Ana). N=30 paired (data permitting), but actual overlap with Ana's coding is 7 items.",
+    "ana_coder_overlap": 7,
+    "use_for": "Demonstrates the IRR pipeline runs end-to-end. Do not use as IRR evidence.",
+    "compare_to_baseline": "data/processed/irr_report.json (April 2026 pilot, _overall=0.7483, N=30, iconocode-opus vs opencode-pilot)."
+  }
+}

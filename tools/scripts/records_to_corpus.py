@@ -17,9 +17,7 @@ Uso:
 from __future__ import annotations
 
 import argparse
-import difflib
 import json
-import re
 import sys
 import tempfile
 import uuid
@@ -49,6 +47,7 @@ COUNTRY_MAP_REVERSE: dict[str, str] = {
     "Uruguay": "Uruguay",
     "Mexico": "Mexico",
     "Argentina": "Argentina",
+    "ES": "Spain",
 }
 
 
@@ -82,6 +81,10 @@ def _record_diff_key(record: dict) -> str:
 
 def _corpus_diff_key(item_id: str, item: dict) -> str:
     url = item.get("url", "")
+    prefix = "https://iconocracy.corpus/placeholder/"
+    if url.startswith(prefix):
+        corpus_id = url.removeprefix(prefix)
+        return f"(sem URL)::{corpus_id}"
     return url or f"(sem URL)::{item_id}"
 
 
@@ -113,29 +116,14 @@ def _load_existing_corpus() -> dict[str, dict]:
         return {}
 
 
-def _extract_id_from_record(record: dict) -> str | None:
-    """Extract human-readable ID (e.g. SCOUT-095 or BR-038) from record metadata."""
-    sr = record.get("webscout", {}).get("search_results", [])
-    for s in sr:
-        notes = s.get("notes") or ""
-        # Match SCOUT-NNN
-        m = re.search(r"\b(SCOUT-\d+)\b", notes)
-        if m:
-            return m.group(1)
-        # Match XX-NNN (e.g. BR-038)
-        m2 = re.search(r"\b([A-Z]{2,4}-\d+)\b", notes)
-        if m2:
-            return m2.group(1)
-    return None
-
-
-def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
+def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: str | None = None) -> dict:
     """Build a corpus-data.json entry from a master record, merging with existing."""
     inp = record.get("input", {})
     webscout = record.get("webscout", {})
     iconocode = record.get("iconocode", {})
     purif = record.get("purificacao") or {}
     exports = record.get("exports", {})
+    record_metadata = purif.get("record_metadata") or {}
 
     # Primary result
     sr = webscout.get("search_results", [{}])[0] if webscout.get("search_results") else {}
@@ -176,11 +164,50 @@ def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
     # Start from existing entry for rich fields (panofsky, institution, etc.)
     entry: dict = dict(existing) if existing else {}
 
-    # Extract ID if new entry
+    # Set ID and Country for new entries
     if not entry.get("id"):
-        extracted_id = _extract_id_from_record(record)
-        if extracted_id:
-            entry["id"] = extracted_id
+        entry["id"] = corpus_id or record.get("item_id", "")
+    
+    # Always derive country from the canonical record's place_hint when available,
+    # instead of only filling missing values. records.jsonl is the source of truth.
+    place_hint = inp.get("place_hint", "")
+    if isinstance(place_hint, list) and place_hint:
+        place_hint = place_hint[0]
+    elif isinstance(place_hint, str):
+        place_hint = place_hint.replace("[", "").replace("]", "").replace("'", "").replace('"', "").strip()
+
+    country = ""
+    if place_hint:
+        country = COUNTRY_MAP_REVERSE.get(place_hint, "")
+        if not country:
+            if place_hint in ["BR", "Brazil"]:
+                country = "Brazil"
+            elif place_hint in ["FR", "France"]:
+                country = "France"
+            elif place_hint in ["US", "United States"]:
+                country = "United States"
+            elif place_hint in ["UK", "United Kingdom"]:
+                country = "United Kingdom"
+            elif place_hint in ["DE", "Germany"]:
+                country = "Germany"
+            elif place_hint in ["BE", "Belgium"]:
+                country = "Belgium"
+            elif place_hint in ["NL", "Netherlands"]:
+                country = "Netherlands"
+            elif place_hint in ["PT", "Portugal"]:
+                country = "Portugal"
+            elif place_hint in ["IT", "Italy"]:
+                country = "Italy"
+            elif place_hint in ["ES", "Spain"]:
+                country = "Spain"
+            else:
+                country = place_hint
+    if country:
+        entry["country"] = country
+    elif not entry.get("country"):
+        # Missing provenance must remain explicit.  A default country would
+        # fabricate a research fact and silently bias country-level analysis.
+        entry.pop("country", None)
 
     # Overwrite with authoritative fields from records.jsonl
     entry.update({
@@ -188,21 +215,45 @@ def _corpus_entry_from_record(record: dict, existing: dict | None) -> dict:
         "title": title or entry.get("title", ""),
         "description": description or entry.get("description", ""),
         "motif": motifs or entry.get("motif", []),
-        "regime": regime or entry.get("regime", ""),
-        "endurecimento_score": endurecimento or entry.get("endurecimento_score", 0.0),
         "coded_by": coded_by or entry.get("coded_by", ""),
         "coded_at": coded_at or entry.get("coded_at", ""),
+        "date": inp.get("date_hint") or entry.get("date", ""),
     })
+
+    # An uncoded canonical record must not acquire analytical values merely by
+    # being exported.  In particular, zero is a valid endurecimento score, so
+    # using it as the default would incorrectly make pending SCOUT promotions
+    # look coded.  Existing enriched values remain available in merge mode.
+    if regime:
+        entry["regime"] = regime
+    elif not existing:
+        entry.pop("regime", None)
+    if "purificacao_composto" in purif:
+        entry["endurecimento_score"] = endurecimento
+    elif not existing:
+        entry.pop("endurecimento_score", None)
 
     if indicadores:
         entry["indicadores"] = indicadores
 
-    if abnt and not entry.get("citation_abnt"):
+    # A citação em records.jsonl é canônica. Corrige placeholders históricos
+    # no export sem depender de edição manual da projeção.
+    if abnt:
         entry["citation_abnt"] = abnt
 
     # Tags from exports audit_flags
     if exports.get("audit_flags") and not entry.get("audit_flags"):
         entry["audit_flags"] = exports["audit_flags"]
+
+    # ``support`` is authoritative only when the canonical record carries a
+    # material medium.  Do not infer it from titles/tags or preserve a value
+    # found only in the derived export, which would make corpus-data.json its
+    # own source of truth on subsequent merge runs.
+    canonical_support = record_metadata.get("medium")
+    if isinstance(canonical_support, str) and canonical_support.strip():
+        entry["support"] = canonical_support.strip()
+    else:
+        entry.pop("support", None)
 
     return entry
 
@@ -220,56 +271,92 @@ def export_corpus(
     In replace mode: only records entries are used (may lose rich fields).
     """
     result: list[dict] = []
+    
+    # Load explicit id mapping from id-mapping.json
+    id_mapping = {}
+    mapping_file = REPO / "data" / "processed" / "id-mapping.json"
+    if mapping_file.exists():
+        try:
+            data = json.loads(mapping_file.read_text(encoding="utf-8"))
+            for entry in data.get("mapping", []):
+                c_id = entry.get("corpus_id")
+                item_id = entry.get("item_id")
+                if c_id and item_id:
+                    id_mapping[c_id] = item_id
+        except Exception as e:
+            print(f"AVISO: Falha ao carregar id-mapping.json: {e}", file=sys.stderr)
 
-    # Index records by deterministic item_id first (canonical), URL as fallback.
+    # Index records by item_id
     records_by_item_id: dict[str, dict] = {}
-    records_by_url: dict[str, list[dict]] = {}
     for rec in records:
         rec_item_id = rec.get("item_id", "")
         if rec_item_id:
             records_by_item_id[rec_item_id] = rec
-        sr = rec.get("webscout", {}).get("search_results", [{}])
-        url = sr[0].get("url", "") if sr else ""
-        if url:
-            records_by_url.setdefault(url, []).append(rec)
 
     # Process existing corpus entries
     matched_item_ids: set[str] = set()
+    assigned_corpus_ids: set[str] = set()
 
     if not replace:
         for item_id, item in existing_corpus.items():
-            expected_record_item_id = _item_uuid(item_id)
-            item_url = item.get("url", "")
+            expected_record_item_id = id_mapping.get(item_id) or _item_uuid(item_id)
             rec = records_by_item_id.get(expected_record_item_id)
-            if not rec and item_url:
-                candidates = records_by_url.get(item_url, [])
-                if len(candidates) == 1:
-                    rec = candidates[0]
-                elif len(candidates) > 1:
-                    # Choose the one with the closest title match
-                    existing_title = item.get("title", "").lower()
-                    best_ratio = -1.0
-                    for cand in candidates:
-                        cand_title = (cand.get("input", {}).get("title_hint") or "").lower()
-                        ratio = difflib.SequenceMatcher(None, existing_title, cand_title).ratio()
-                        if ratio > best_ratio:
-                            best_ratio = ratio
-                            rec = cand
+            if not rec:
+                item_url = item.get("url", "")
+                if item_url:
+                    # Find candidate records matching this URL
+                    candidates = [
+                        r for r in records
+                        if (r.get("webscout", {}).get("search_results", [{}])[0].get("url") or
+                            r.get("input", {}).get("input_url", "")) == item_url
+                    ]
+                    if candidates:
+                        if len(candidates) > 1:
+                            # Tie-break using title similarity
+                            item_title = item.get("title", "").lower()
+                            best_candidate = candidates[0]
+                            for cand in candidates:
+                                cand_title = (cand.get("input", {}).get("title_hint", "") or "").lower()
+                                if cand_title == item_title:
+                                    best_candidate = cand
+                                    break
+                            rec = best_candidate
+                        else:
+                            rec = candidates[0]
             if rec:
-                entry = _corpus_entry_from_record(rec, item)
+                entry = _corpus_entry_from_record(rec, item, corpus_id=item_id)
                 matched_item_ids.add(rec.get("item_id", ""))
             else:
                 entry = dict(item)
+                
+            c_id = entry.get("id")
+            if c_id:
+                assigned_corpus_ids.add(c_id)
             result.append(entry)
 
     # Add records not matched to existing corpus
+    item_to_corpus = {v: k for k, v in id_mapping.items() if v}
+
     for rec in records:
         rec_item_id = rec.get("item_id", "")
-        sr = rec.get("webscout", {}).get("search_results", [{}])
-        url = sr[0].get("url", "") if sr else ""
         if rec_item_id in matched_item_ids:
             continue
-        entry = _corpus_entry_from_record(rec, None)
+            
+        c_id = item_to_corpus.get(rec_item_id)
+        if not c_id:
+            for existing_id in existing_corpus.keys():
+                if _item_uuid(existing_id) == rec_item_id:
+                    c_id = existing_id
+                    break
+                    
+        if c_id in assigned_corpus_ids:
+            c_id = None
+            
+        entry = _corpus_entry_from_record(rec, None, corpus_id=c_id)
+        actual_id = entry.get("id")
+        if actual_id:
+            assigned_corpus_ids.add(actual_id)
+            
         if entry.get("title"):
             result.append(entry)
 

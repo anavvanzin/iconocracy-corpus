@@ -6,7 +6,5 @@ authors:
   - family-names: Vanzin
     given-names: Ana
 repository-code: https://github.com/anavvanzin/iconocracy-corpus
-license:
-  - MIT
-  - CC-BY-4.0
+license: MIT AND CC-BY-4.0
 date-released: "2026-03-24"

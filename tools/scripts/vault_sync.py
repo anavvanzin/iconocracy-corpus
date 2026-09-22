@@ -238,7 +238,9 @@ def _vault_note_to_record(fm: dict) -> dict:
 
     # Tags
     tags = fm.get("tags") or []
-    audit_flags = ["vault-import", "#verificar"] if "#verificar" in str(tags) else ["vault-import"]
+    audit_flags = ["vault-import", "coding-pending"]
+    if "#verificar" in str(tags):
+        audit_flags.append("#verificar")
 
     now = _now_iso()
 
@@ -275,7 +277,10 @@ def _vault_note_to_record(fm: dict) -> dict:
                 {
                     "claim_text": f"Regime iconocrático: {regime.upper()}" if regime else "Regime pendente",
                     "claim_type": "iconographic",
-                    "status": "tentative" if not regime else "supported",
+                    # A qualitative vault label is a lead, not an observed
+                    # ten-indicator coding.  Keep it tentative until a coder
+                    # inspects the image under a versioned codebook.
+                    "status": "tentative",
                     "confidence": confidence,
                 }
             ],
@@ -291,19 +296,6 @@ def _vault_note_to_record(fm: dict) -> dict:
             "updated_at": now,
         },
     }
-
-    if regime:
-        record["purificacao"] = {
-            "desincorporacao": 0, "rigidez_postural": 0, "dessexualizacao": 0,
-            "uniformizacao_facial": 0, "heraldizacao": 0, "enquadramento_arquitetonico": 0,
-            "apagamento_narrativo": 0, "monocromatizacao": 0, "serialidade": 0,
-            "inscricao_estatal": 0,
-            "purificacao_composto": 0.0,
-            "regime_iconocratico": regime,
-            "coded_by": "vault-import",
-            "coded_at": now,
-            "notes": "Codificação pendente — importado do vault",
-        }
 
     return record
 
@@ -486,7 +478,7 @@ def cmd_diff() -> None:
     print(f"\nItens em records.jsonl sem nota vault (por título): {len(only_records_title)}")
 
 
-def cmd_pull(dry_run: bool = False) -> None:
+def cmd_pull(dry_run: bool = False, item: str | None = None) -> None:
     """Pull: vault notes → records.jsonl (add new items not already in records)."""
     records = _load_records()
     url_idx = _records_url_index(records)
@@ -495,6 +487,8 @@ def cmd_pull(dry_run: bool = False) -> None:
 
     added = 0
     for note in notes:
+        if item and _note_id(note) != item:
+            continue
         url = _note_url(note)
         title = _note_title(note).lower()
 
@@ -518,6 +512,7 @@ def cmd_pull(dry_run: bool = False) -> None:
         rec = _vault_note_to_record(note)
         if dry_run:
             print(f"  [DRY-RUN] Pull: {note.get('_file', '')} → records.jsonl")
+            added += 1
         else:
             records.append(rec)
             added += 1
@@ -609,12 +604,17 @@ def main() -> None:
         "--dry-run", action="store_true",
         help="Preview sem escrever arquivos",
     )
+    parser.add_argument(
+        "--item", help="Limita pull/sync a uma nota pelo id exato (ex.: SCOUT-625)",
+    )
     args = parser.parse_args()
+    if args.item and args.command != "pull":
+        parser.error("--item é aceito somente com o comando pull")
 
     cmds = {
         "status": lambda: cmd_status(),
         "diff": lambda: cmd_diff(),
-        "pull": lambda: cmd_pull(dry_run=args.dry_run),
+        "pull": lambda: cmd_pull(dry_run=args.dry_run, item=args.item),
         "push": lambda: cmd_push(dry_run=args.dry_run),
         "sync": lambda: cmd_sync(dry_run=args.dry_run),
     }

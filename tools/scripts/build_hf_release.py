@@ -152,6 +152,14 @@ tags:
 - feminist-iconography
 - abnt
 - metadata
+configs:
+- config_name: corpus
+  data_files: corpus-data.json
+  default: true
+- config_name: records
+  data_files: records.jsonl
+- config_name: purification
+  data_files: purification.jsonl
 ---
 
 # ICONOCRACY Corpus
@@ -192,9 +200,9 @@ Source-of-truth hierarchy:
 
 ## Files
 
-- `corpus-data.json`
-- `records.jsonl`
-- `purification.jsonl`
+- `corpus-data.json` — default `corpus` configuration for public exploration
+- `records.jsonl` — canonical `records` configuration
+- `purification.jsonl` — coding-observation `purification` configuration
 - `release.json`
 - `CHANGELOG.md`
 
@@ -215,12 +223,24 @@ def ensure_hf_auth() -> None:
 def validate_local_contract() -> None:
     """Fail closed if local dataset artifacts are invalid or drifted."""
     validate_script = REPO / "tools" / "scripts" / "validate_schemas.py"
+    idempotence_script = REPO / "tools" / "scripts" / "check_corpus_export_idempotent.py"
+    traceability_script = REPO / "tools" / "scripts" / "trace_evidence.py"
     subprocess.run(
         [sys.executable, str(validate_script), str(RECORDS), "--schema", "master-record", "--verbose"],
         check=True,
     )
     subprocess.run(
         [sys.executable, str(validate_script), str(PURIFICATION), "--schema", "purification-record", "--verbose"],
+        check=True,
+    )
+    subprocess.run([sys.executable, str(idempotence_script)], check=True)
+    subprocess.run(
+        [
+            sys.executable,
+            str(traceability_script),
+            str(RECORDS),
+            "--fail-on-high",
+        ],
         check=True,
     )
 

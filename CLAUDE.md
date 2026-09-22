@@ -2,9 +2,13 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+> **Quick-reference companion:** [`AGENTS.md`](AGENTS.md) — essential commands, counts, and guardrails in a compact card for any agent.
+
 ## Project
 
-Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** (PPGD/UFSC, Ana Vanzin, defense 2026). Integrates a searchable corpus of female allegorical figures (currently 265 records in `records.jsonl`; see *Known Data Issues* for downstream drift), research automation, statistical analysis, Obsidian vault, and the thesis manuscript.
+Monorepo for the doctoral thesis **"ICONOCRACIA: Alegoria Feminina como Operador Epistêmico da Legitimidade Jurídica"** (PPGD/UFSC, Ana Vanzin; qualification Nov 2027, defence Sep 2028). Thesis recorte: **1822–1922** (Brazil, closing on the Semana de Arte Moderna); the corpus is **exemplary, not delimiting** — it supports the argument rather than fixing the period. Integrates a searchable, **open and growing** corpus of female allegorical figures (recent working snapshot 336 records in `records.jsonl`; **N is intentionally non-fixed** — exploratory posture, see *Known Data Issues* §3), research automation, iconometric analysis, Obsidian vault, and the thesis manuscript.
+
+> **English working title:** *Feminine Allegory as an Epistemic Operator of Juridical Legitimacy* (decided 2026-09-21).
 
 > **Master plan**: `docs/PLANO-TESE-ICONOCRACIA.md` — comprehensive thesis architecture, methodology, case rankings, risk matrix, 24-month work plan, and 10 immediate decisions.
 
@@ -33,15 +37,18 @@ python tools/scripts/vault_sync.py status          # vault ↔ records.jsonl sta
 python tools/scripts/vault_sync.py sync            # bidirectional sync
 python tools/scripts/records_to_corpus.py --diff   # preview records → corpus-data.json changes
 
+# Dashboard
+python tools/scripts/refresh_dashboard.py --corpus  # regenerate DASHBOARD_CORPUS.html data block
+
 # ARGOS acquisition workflow
 python tools/scripts/argos_build_manifest.py       # build pending acquisition manifest
 python tools/scripts/argos_prepare_dispatch.py --manifest data/raw/argos/manifest.json  # derive dispatch groups
 python tools/scripts/argos_report.py               # render markdown acquisition report
 
 # Thesis compilation (Pandoc)
-make -C tese/manuscrito/ docx                      # full thesis → DOCX (prosa viva unificada)
-make -C tese/manuscrito/ pdf                       # full thesis → PDF (requires LaTeX)
-make -C tese/manuscrito/ Capitulo1_rev.docx        # single chapter
+make -C vault/tese/ docx                           # full thesis → DOCX
+make -C vault/tese/ pdf                            # full thesis → PDF (requires LaTeX)
+make -C vault/tese/ capitulo-1.docx                # single chapter
 
 # Tests (pytest, no config file — runs from repo root)
 pytest tests/                                       # full suite (argos/, tools/, training/ + top-level)
@@ -63,15 +70,20 @@ WebScout (archive discovery) → IconoCode (visual analysis) → master records
 ```
 
 - **WebScout** queries digital archives (Europeana, Gallica, LOC, BnF, Numista, Colnect)
-- **IconoCode** performs 3-level Panofsky analysis + 10 endurecimento indicators (0–3 scale)
+- **IconoCode** performs 3-level Panofsky analysis + iconometria measurement (endurecimento = fixity axis, 10 indicators 0–3 scale)
 - Output: `data/processed/records.jsonl` (canonical) → `corpus/corpus-data.json` (public export)
 
-### Canonical Data Hierarchy (source-of-truth order)
+### Canonical Field Ownership
 
-1. `data/processed/records.jsonl` — operational canonical ledger
-2. `corpus/corpus-data.json` — public-facing export (browsers, dashboards, HF releases)
-3. `data/processed/purification.jsonl` — endurecimento coding ledger
-4. `vault/candidatos/` — auxiliary cataloguing mirror only
+- `data/processed/records.jsonl` — item identity, source evidence, descriptive
+  metadata, and IconoCode claims.
+- `data/processed/purification.jsonl` — endurecimento observations and coder,
+  round, instrument, and adjudication provenance.
+- `data/raw/drive-manifest.json` + Google Drive — raw-binary identity and storage.
+- `vault/candidatos/` — auxiliary cataloguing mirror only.
+
+`corpus-data.json`, SQLite, CSV, dashboards, and release bundles are disposable
+projections. See `docs/adr/006-canonical-field-ownership-and-projections.md`.
 
 ### Key Directories
 
@@ -104,11 +116,14 @@ Active automation:
 
 ---
 
-## Mandatory Terminology
+## Terminology — Reference (NOT enforced during drafting)
 
-| Term | Rule |
+> **Não é guardrail (decisão 2026-06-24).** Esta tabela é **referência para polimento perto da defesa**, não regra bloqueante durante a redação exploratória. Não flagrar/corrigir termos ou traduções no rascunho; rodar `check_thesis_terms.py` só quando Ana pedir. Única ressalva digna de nota (gentil, não-bloqueante, perto da defesa): não ceder a autoria dos 4 conceitos originais a Pateman/Mondzain. Ver `~/.claude/CLAUDE.md` §"Thesis Drafting".
+
+| Term | Reference note |
 |------|------|
-| **Endurecimento** | Always in Portuguese. NEVER "hardening" or "embrutecimento". Empirical operationalization of **Purificação Clássica** via 10 ordinal indicators (0–3) |
+| **Iconometria** | Framework metodológico **guarda-chuva** (decisão 2026-07-11): medição e análise de padrões iconográficos no corpus. **Contém** endurecimento como eixo de fixidez (`iconometria ⊇ endurecimento`). Ver `concepts/iconometria.md` + `docs/decisions/ICONOMETRIA-TRANSITION-2026-07-11.md` |
+| **Endurecimento** | Always in Portuguese. NEVER "hardening" or "embrutecimento". **Eixo de fixidez dentro da iconometria** — operacionalização empírica da **Purificação Clássica** via 10 ordinal indicators (0–3). Campo de dados canônico permanece `endurecimento_score` (chave estável; não renomear sem migração coordenada) |
 | **Contrato Sexual Visual** | Original thesis concept #1 — do NOT attribute to Pateman (Pateman is the source of the non-visual contract; the visual extension is autoral) |
 | **Feminilidade de Estado** | Original thesis concept #2 — do NOT attribute to Mondzain. Genealogical roots: Legendre (juiz totêmico) + Carson (hystéra) |
 | **Contrato Racial Visual** | Original thesis concept #3 — branquitude constitutiva da alegoria "universal"; transferência transatlântica de modelos neoclássicos. Cap. 3 |
@@ -116,14 +131,14 @@ Active automation:
 | **Pathosformel**, **Zwischenraum**, **Nachleben** | Warburg — always in German |
 | **Mondzain** | Always 2002 edition |
 | **ABNT NBR 6023:2025** | Citation standard for all references |
-| **Iconclass 48C51** | Key code for feminist iconography |
+| **Iconclass 48C51** | Rótulo **interno do projeto** para a sub-rede de iconografia feminista (`extract_feminist_network.py` → `feminist_network_48C51_pt.json`). ⚠ **Não é o rótulo oficial.** No iconclass.org, `48C51` = *"painting (incl. book-illumination, miniature-painting)"*; os códigos oficiais do recorte jurídico são **44** (*state; law; political life*) e **11M44** (*Justitia*). No manuscrito, não afirmar "48C51 = iconografia feminista" como se fosse rótulo oficial do Iconclass — usar 44/11M44 para citações Iconclass. (verificado iconclass.org, 2026-06-26) |
 | **"ciberfeminismo"** | NEVER use in thesis text. Reservado para paper derivado pós-defesa. Operadores Haraway/Latour/Descola entram como matriz ferramental de Purificação Clássica, não como filiação a tradição |
 
 ---
 
 ## Corpus Parameters
 
-**Countries:** FR (Marianne, La République, La Justice, La Liberté) · UK (Britannia, Justice, Hibernia, Scotia) · DE (Germania, Justitia, Minerva) · US (Columbia, Lady Justice, Liberty, America) · BE (La Belgique) · BR (A República, A Justiça)
+**Countries** (variável analítica, **NÃO gate de inclusão** desde 2026-06-22; lista-núcleo não-exaustiva): FR (Marianne, La République, La Justice, La Liberté) · UK (Britannia, Justice, Hibernia, Scotia) · DE (Germania, Justitia, Minerva) · US (Columbia, Lady Justice, Liberty, America) · BE (La Belgique) · BR (A República, A Justiça) · + qualquer país que satisfaça os 4 critérios (AT, NL, DK, ES já no corpus)
 
 **Supports:** moeda · selo · monumento/escultura · arquitetura forense · estampa/gravura · frontispício · papel-moeda · cartaz
 
@@ -133,7 +148,7 @@ Active automation:
 
 **10 purification indicators** (ordinal 0–3): desincorporação · rigidez_postural · dessexualização · uniformização_facial · heraldicização · enquadramento_arquitetônico · apagamento_narrativo · monocromatização · serialidade · inscrição_estatal
 
-**Inclusion criteria** (all 5 required): female allegorical figure + explicit juridical-political function + datable 1800–2000 + one of 6 countries + accepted support
+**Inclusion criteria** (all 4 required): female allegorical figure + explicit juridical-political function + datable 1800–2000 + accepted support. *(País deixou de ser critério de inclusão em 2026-06-22 — a alegoria "universal" é transnacional, base do Contrato Racial Visual; país permanece variável analítica, não gate. Ver `docs/decisions/E1-OPUS48-BATCH-2026-06-22.md` e memória `feedback_no_country_inclusion_rule`.)*
 
 ---
 
@@ -182,35 +197,35 @@ Every corpus item must exist in three places:
 - All Python scripts run from repo root: `python tools/scripts/<script>.py`
 - Never use `sed` or partial edits on JSON config files — rewrite entirely with `Write`
 - For `corpus-data.json`, use Python scripts for atomic updates rather than direct Edit
+- All Codebook v2 allegory fields (e.g. `subtipo`, `familia_alegorica`, `vetor_colonial`, `hipotese_racial`) must be nested under the `"purificacao"` key in `data/processed/records.jsonl`. The export script `records_to_corpus.py` flattens these fields to the root of `corpus/corpus-data.json`. Direct manual edits to `corpus-data.json` will be overwritten.
 - `data/raw/` must remain metadata-only in git (ADR-001: Google Drive stores binaries)
 - Vault notes follow pattern `XX-NNN Title.md` where XX = country code, NNN = sequential number (e.g., `FR-013 Déclaration des droits.md`)
 - All generic vault notes in `vault/**/*.md` should default to **Obsidian Flavored Markdown**: frontmatter properties, `[[wikilinks]]`, `![[embeds]]`, callouts, comments, highlights, and external URLs only as Markdown links
 - Canonical vault guide: `vault/meta/Guia — Obsidian Flavored Markdown.md`; generic default template: `vault/_templates/nota-obsidian-padrao.md`
-- Thesis original files (`*_original`) are protected — use `tese/manuscrito/drafts/` for revised drafts (era `vault/tese/`; reorg 2026-06-04)
+- Thesis original files (`*_original`) are protected — use `vault/tese/` for revised drafts
 - SSD `/media/ana/SSD_DATA` stores raw images, Zotero PDFs, and backups
 - Automatic vault backups must not land on `main` (use `vault_backup.py`)
-- Academic voice: formal Portuguese with jurídico-penal framing (legal-criminal history, NOT anthropological/sociological)
+- Academic voice: formal Portuguese; história e teoria do direito em diálogo **explícito e legítimo** com antropologia e sociologia (p.ex. Lévi-Strauss, Bourdieu). Enquadramento **interdisciplinar** — o registro jurídico NÃO exclui os registros antropológico e sociológico; são complementares, não concorrentes
 
 ---
 
-## Known Data Issues (last audit: 2026-05-24)
+## Known Data Issues (last audit: 2026-07-13)
 
 These documented problems affect corpus operations:
 
-1. **Minor drift across exports** — current counts (audit: 2026-05-24):
-   - `data/processed/records.jsonl` → **265 records, all schema-valid** (`validate_schemas.py` → 265/265 ✓)
-   - `corpus/corpus-data.json` → **264 items** (1 record in `records.jsonl` not yet propagated; `records_to_corpus.py --diff` lists it)
-   - `data/processed/purification.jsonl` → **264 records** (1 record lacks endurecimento coding)
-   - `companion-data.json` → **5 items** (drastically stale; `sync_companion.py` will rebuild)
-2. **8 records with placeholder URLs** — `https://iconocracy.corpus/placeholder/{item_id}`. Require verification against `data/raw/drive-manifest.json`.
-3. **Analysis pinned at N=165 while corpus grew to 265** — the quantitative analysis (notebooks + manuscript) was run against an older 165-item snapshot:
-   - **Notebooks** reference stale sizes — `01_exploratory.ipynb` reads "145 itens"; `05_temporal`, `06_clustering`, `07_dimensionality` reference "165 itens".
-   - **Manuscript** chapters assert N=165 in text: `tese/manuscrito/Capitulo2_metodologia.md:66,161` ("165 registros"); `tese/manuscrito/Introducao_rev.md:127,193` ("165 itens"); also `Capitulo3_analise_quantitativa.md` and `notas/Cap3_quantitativo_outline.md`.
-   - **Pinned snapshot** of that analysis input lives at `Other/corpus-data.json` (165 items, frozen 2026-04-25; all 165 ids ⊆ current 264). The `Other/` dir also holds an **identical duplicate** of `notebooks/01–08` — it is a stale analysis copy, not a second source of truth. Do not delete without deciding the item below.
-   - Current canonical: `records.jsonl` = 265, `corpus/corpus-data.json` = 264.
-   - **DECISION PENDING (Ana) — reframed 2026-05-30, see `docs/decisions/DIALETICA-N165-vs-265.md`:** the "165 vs 265" framing was rejected by adversarial review. Real axis = **coding-validity stratum × instrument provenance**, not date. The corpus is coded by 6 instruments (`coded_by`); **41 items are uncoded** (no `coded_by`/regime/endurecimento) → N=265 is NOT a valid analytic N. Valid options: N≈145 (IconoCode-only) or N≈223 (all coded, after inter-instrument reliability audit of iconocode-opus vs opus-4.6 and audit of vault-import/migration). Action: stratify by `coded_by` → quarantine the 41 uncoded → reliability audit → set analytic N by validity → dataset card in Cap2 replacing "N=165" with "N=[valid]". `endurecimento_score=0` is a valid score (low purification), not "uncoded".
+1. **Minor drift across exports** — current counts (audit: 2026-09-21; previous audit 2026-07-13 recorded 335):
+   - `data/processed/records.jsonl` → **336 records, all schema-valid** (`validate_schemas.py` → 336/336 ✓)
+   - `corpus/corpus-data.json` → **336 items** (`records_to_corpus.py --diff` → synchronized by URL)
+   - `data/processed/purification.jsonl` → **286 records** in the 2026-08-12 working snapshot (**286/336 = 85.1%**, 50 items without a separate coding-ledger row); validate live rather than copying this count into analytical claims.
+   - `companion-data.json` → **277 declared corpus_total**, **9 country groups**, **21 `zwischenraum_panels`**; derived UI surface, not canonical authority.
+2. **Placeholder-`input_url` drift between ledger and export** — `records.jsonl` now carries **6** placeholder `input_url`s (all `https://iconocracy.corpus/placeholder/FR-0XX`), down from 8, but `corpus/corpus-data.json` still surfaces **8** placeholder-bearing items. Note this is *not* caught by `records_to_corpus.py --diff`: that check keys on `webscout.search_results[0].url` (normalized to corpus_id), **not** `input_url`, so the "synchronized by URL" green light does not cover the `input_url` field — which is exactly why this drift can persist unnoticed. Re-run `records_to_corpus.py` and verify the 6 remaining against `data/raw/drive-manifest.json`.
+   - Minor dedup watch: **4 duplicate `input_url`s** in `records.jsonl` — 3× `https://iconocracy-corpus.local/piloto/` (pilot rows, distinct from the placeholder set above) + 3 real-source pairs — candidates for `corpus-dedup`, not confirmed duplicates.
+3. **Corpus N is intentionally NOT fixed — exploratory posture (decided 2026-06-24).** The corpus is open and growing until the defense (>1yr out). Do **not** treat any N as frozen, "pinned", or a blocking "pending decision"; there is no "decide N first" gate. Acquiring and coding new allegories is normal exploratory research — never block it.
+   - In prose, describe the corpus **provisionally** ("em expansão", "amostra analisada", "instantâneo de trabalho") and fix concrete numbers only near the defense. When precision is needed, distinguish *ledger operacional* (grows; recent audits ~278–328) from *amostra analítica congelada* (a snapshot used for Cap. 6 reproducibility, re-runnable on the final corpus).
+   - Older artifacts that reference 145/165 (notebooks `01/05/06/07`; manuscript `Capitulo2_metodologia.md`, `Introducao_rev.md`, etc.; the frozen `Other/corpus-data.json`) are **historical analysis snapshots, not errors** — each records the sample a given run used. Update them lazily near the defense, not as blocking debt. `Other/` also holds a duplicate of `notebooks/01–08` (stale copy, not a second source of truth).
+   - `endurecimento_score=0` is a valid score (low purification), not "uncoded". Background on the stratification dialectic: memory `corpus-n-20260605` + `docs/decisions/DIALETICA-N165-vs-265.md` — **informative, not a gate.**
 
-**Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the ~100-record drift between records.jsonl and corpus-data.json are resolved — `validate_schemas.py` reports 265/265 valid, and export drift is now 1 item.
+**Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the records/export count drift were resolved in the audited snapshot. Re-run schema validation and projection gates for the current working state rather than relying on historical counts.
 
 ## Release Gate
 
@@ -252,3 +267,23 @@ Canonical defaults (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-
 ### Domain docs
 
 Single-context: `CONTEXT.md` at repo root (created lazily by `/grill-with-docs`) + 5 ADRs in `docs/adr/`. See `docs/agents/domain.md`.
+
+## Skill routing
+
+When the user's request matches an available skill, invoke it via the Skill tool. When in doubt, invoke the skill.
+
+Key routing rules:
+
+- Product ideas/brainstorming → invoke /office-hours
+- Strategy/scope → invoke /plan-ceo-review
+- Architecture → invoke /plan-eng-review
+- Design system/plan review → invoke /design-consultation or /plan-design-review
+- Full review pipeline → invoke /autoplan
+- Bugs/errors → invoke /investigate
+- QA/testing site behavior → invoke /qa or /qa-only
+- Code review/diff check → invoke /review
+- Visual polish → invoke /design-review
+- Ship/deploy/PR → invoke /ship or /land-and-deploy
+- Save progress → invoke /context-save
+- Resume context → invoke /context-restore
+- Author a backlog-ready spec/issue → invoke /spec

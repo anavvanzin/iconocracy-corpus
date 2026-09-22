@@ -29,7 +29,7 @@ Ana Vitória Vanzin Mendes
 >
 > **Keywords:** Legal history; legal iconography; gender and power; symbolic femininity; nationalism; legal patriarchy.
 
-**1. Introdução: O Paradoxo da Nação Feminina e o Imaginário Instituinte**
+## 1 Introdução: O Paradoxo da Nação Feminina e o Imaginário Instituinte
 
 O presente estudo mapeia a formação, a permanência e as reconfigurações ontológico-políticas das personificações alegóricas femininas, em diálogo com práticas institucionais, políticas de memória e cultura visual. Para tanto, trata de explorar a emergência e a consolidação de figuras como Germania, Britannia e Marianne na iconografia jurídica e política europeia desde o final do século XVIII, situando-as como emblemas visuais da Nação e como mecanismos de legitimação da autoridade. Forjadas no horizonte do romantismo que permeou círculos intelectuais de Paris, Londres e Berlim, essas alegorias compuseram uma estética fundacional que oscilou entre a imagem materna da Nação-mãe e a imagem combativa da Nação-guerreira. A pesquisa adota a hipótese de que valores associados historicamente ao feminino no imaginário religioso --- pureza, maternidade, sacrifício, intercessão e heroísmo --- foram progressivamente secularizados e reinscritos no repertório visual do Estado moderno, operando como mediadores afetivos e pedagógicos da soberania (SCHMITT, 2006, p. 36; MONDZAIN, 1996).
 
@@ -87,7 +87,7 @@ Segundo Vlossak, as mulheres foram tratadas como agentes na formação da naçã
 
 As mulheres ocuparam posição de destaque nos projetos de construção nacional, mas esse protagonismo foi marcado por uma ambivalência estrutural. Ao mesmo tempo em que foram investidas de virtudes idealizadas --- maternidade, sacrifício, pureza ---, tiveram sua participação política e social sistematicamente restringida. Essa assimetria não se limitou ao plano prático: estendeu-se à memória histórica e à iconografia. Enquanto a figura feminina era celebrada em monumentos, artes visuais e discursos patrióticos, a experiência real das mulheres era excluída das narrativas oficiais. Esse apagamento não apenas evidencia as restrições impostas no passado, mas também revela a persistência de estruturas historiográficas que continuam a silenciar suas trajetórias no presente.
 
-**2. Concepções femininas da Nação: a iconografia jurídica no tempo e no espaço**
+## 2 Concepções femininas da Nação: a iconografia jurídica no tempo e no espaço
 
 A historiografia jurídica do século XX passou por uma inflexão decisiva ao deslocar o foco da reconstrução normativa para a análise do direito como fenômeno cultural, social e político. Nesse movimento, Pietro Costa destacou-se ao propor a noção de Estado imaginário. Em obras como Lo Stato immaginario (1986) e Il progetto giuridico (1994), o autor argumenta que a história do direito deve ser compreendida como história das formas de legitimação do poder, construídas também por símbolos, rituais e linguagens que produzem adesão social. O direito, nesse quadro, aparece como experiência cultural, entrelaçando representações, valores e instituições. Essa virada metodológica abriu caminho para investigar as dimensões simbólicas do Estado, nas quais a alegorização do feminino como representação da Nação se insere como elemento constitutivo da narrativa moderna de soberania.
 
@@ -103,7 +103,7 @@ A interação espaço-temporal na identidade nacional também é evidente na sit
 
 Nesse quadro, o conceito de nação não se reveste apenas de atributos quantificáveis, residindo também no domínio dos valores, especificamente aqueles que inspiram sentimentos de unidade em oposição a outros coletivos. Este ponto de vista corrobora a análise histórica de que os valores masculinos dominaram a concepção do ideal nacional. Os ideais cavalheirescos estabeleceram a masculinidade como representação do espírito guerreiro na Idade Média. A narrativa em torno da nacionalidade foi moldada por esses ideais e valores masculinos, que desempenharam um papel crucial no estabelecimento de um sentido de identidade e coesão nacional. Força, coragem e solidariedade, que eram convencionalmente ligados às concepções tradicionais de masculinidade, passaram a guiar o povo --- e ainda assim os símbolos utilizados para representação da Nação eram, paradoxalmente, figuras femininas.
 
-**3. De mãe generosa à guerreira virtuosa: ressignificando as imagens femininas da Nação**
+## 3 De mãe generosa à guerreira virtuosa: ressignificando as imagens femininas da Nação
 
 No processo de formação nacional, há a fabricação de uma história e realidade imaginárias, a invenção das tradições e o desenvolvimento simbólico de uma comunidade. Como visto, o nacionalismo, ao incorporar concepções de masculinidade e feminilidade, optou por estabelecer símbolos femininos representativos da nação no campo das artes visuais clássicas, a exemplo de Germania, Britannia e Marianne. Estas representações tinham por objetivo servir como parte de um itinerário de aprendizagem e de instrução rico de elementos que apelavam para conceitos jurídicos e políticos no imaginário social, voltado a um público majoritariamente analfabeto, em que emergia um propósito nacional impregnado de masculinidade militarizada, assim como a consolidação da figura feminina como um ideal, desprovida de influência fática em movimentos revolucionários.
 
@@ -131,7 +131,7 @@ Trata-se, assim, de uma forma imagética ambivalente que permanece ativa em proc
 
 Mesmo quando mobilizadas como símbolos e agentes de resistência, as mulheres continuam alocadas em zonas de marginalidade política, sendo reconduzidas à função ornamental que, durante o conflito, havia momentaneamente transcendido. Retratadas por vezes como defensoras e guardiãs de seu povo, retornam, no entanto, às antigas responsabilidades atribuídas pelo discurso patriarcal --- mães, educadoras, fiadoras da moral, administradoras da tradição --- jamais reconhecidas como sujeitos com direito à autoconservação.
 
-**4. Nação guerreira à Nação insurgente: as Imagens da Germania, Britannia e Marianne na iconografia jurídica e estatal**
+## 4 Nação guerreira à Nação insurgente: as Imagens da Germania, Britannia e Marianne na iconografia jurídica e estatal
 
 Em várias partes da Europa, autores da teoria do direito começaram a dedicar algumas linhas de seus escritos aos modos de hierarquização das relações sociais por meio do uso de tecidos, cortes, cores, consolidando a sutil liturgia das virtudes que já na iconografia jurídica dava legitimação e autoridade aos membros dos estamentos dominantes (nobres, burocratas, professores universitários, mestres de corporações de ofício), assim como inspirava a população pobre e analfabeta. Adentrava nos livros de direito enquanto objeto de estudo o modo com o qual o poder simbólico dos juristas criava mecanismos de diferenciação do estamento dos acadêmicos em relação aos demais que compunham o restante da sociedade medieval, fossem eles formados por clérigos ou laicos, nobres ou plebeus.
 
@@ -139,7 +139,7 @@ O uso das cores enquanto hierarquização das relações na iconografia jurídic
 
 Ao adentrar o corpo alegórico da mulher, a cor adquire nova função, pois em vez de reforçar o poder exercido, serve para projetar o poder desejado. A mulher representada como Nação, vestida de branco --- emblema da pureza ---, de azul --- símbolo da paz ---, ou de vermelho --- para evocar o sangue do sacrifício ---, torna-se portadora de virtudes atribuídas a um ideal coletivo, ainda que permanecesse excluída da vida política. Essa transformação do cromatismo hierárquico em dramatização da feminilidade estatal inaugura uma iconografia específica da modernidade nacional, na qual a alegoria jurídica se funde à construção do mito patriótico. Germania e Marianne condensam, em seus corpos adornados e posturas calculadas, a tensão entre inclusão simbólica e exclusão concreta, entre o gesto heróico e a contenção moral. A seguir, cada uma dessas figuras será analisada a partir de sua gramática visual, de seus atributos narrativos e de sua função na legitimação dos projetos jurídicos e estatais que sustentaram os nacionalismos europeus nos séculos XIX e XX.
 
-**4.1 Germania: entre a espada e a paz**
+### 4.1 Germania: entre a espada e a paz
 
 A figura de Germania, embora remonte etimologicamente à designação romana para as terras a leste do Reno, consolidou-se como alegoria nacional no século XIX, no contexto da cultura romântica e do nacionalismo emergente. Inicialmente associada às artes e à poesia, a imagem foi gradualmente ressignificada como símbolo da pátria, ora como jovem virgem, ora como mãe nutridora, encarnando a maternidade como virtude cívica. Como observa Stilling,
 
@@ -167,7 +167,7 @@ George L. Mosse destaca que, enquanto heróis masculinos como Arminius ou Bismar
 
 Diferentemente dessa solenidade imperializada, outras alegorias nacionais femininas, como Marianne na França, carregaram vocações mais insurgentes. Se Germania encarnava a pátria inviolável e hierárquica, Marianne oscilava entre a rebeldia da revolução e o aparato simbólico da república consolidada, como se verá na análise seguinte.
 
-**4.2 Marianne: a República nua e silenciosa**
+### 4.2 Marianne: a República nua e silenciosa
 
 A figura de Marianne irrompeu no vocabulário visual da Revolução de 1789 como resposta à lacuna deixada pela deposição do rei. Três dias depois da abolição da monarquia, em 25 de setembro de 1789, a Convenção Nacional decretou que o retrato e o selo régios seriam substituídos por um emblema republicano uniforme para todos os corpos administrativos. A Convenção Nacional determinou que o novo selo da República retratasse \"a França sob os traços de uma mulher vestida à moda antiga, em posição ereta, empunhando na mão direita uma pique encimada pelo barrete frígio, a esquerda apoiada sobre um feixe de armas; aos seus pés, um leme\". Ao eleger essa personificação para corporificar a República, os revolucionários instituíram uma imagem que, nas décadas seguintes, visaria condensar República, Liberdade, França e, por extensão, a ideia de pátria, reforçando a polissemia própria da iconografia republicana francesa.
 
@@ -183,7 +183,7 @@ O processo manteve-se no século XX, quando a escolha da \"face\" de Marianne se
 
 Essas controvérsias revelam que Marianne, ainda que \"oficializada\", permanece campo de disputa simbólica. Sua imagem pode funcionar como instrumento de normalização moral ou como veículo de agendas emancipatórias. Nessa oscilação entre celebração e exclusão, Marianne encarna o paradoxo da República: universal em aparência, mas silenciosa diante da exclusão concreta das mulheres da cidadania.
 
-**4.3 Britannia: império, poderio marítimo e o feminino colonial**
+### 4.3 Britannia: império, poderio marítimo e o feminino colonial
 
 A figura de Britannia tem uma origem que remonta ao período romano. Desde o século II d.C., cunhagens de Adriano e Antonino Pio apresentaram a personificação da província britânica como uma mulher armada com escudo e lança, geralmente sentada sobre rochas. Como observa Juhász, a iconografia não pretendia exaltar a identidade local, mas inscrevê-la em uma narrativa de dominação e vigilância. Britannia figurava entre outras personificações provinciais destinadas a celebrar a submissão e a fidelidade militar dos territórios conquistados, reforçando o discurso do poder imperial romano sobre suas periferias (JUHÁSZ, 2010, p. 18).
 
@@ -207,7 +207,7 @@ Outro momento iconográfico decisivo é o dos cartazes recrutadores da Primeira 
 
 Mesmo após o declínio do Império, Britannia não desapareceu. Sua permanência em moedas e medalhas --- incluindo a série bullion emitida pela Royal Mint desde 1997 --- atesta a vitalidade do símbolo na memória coletiva britânica. A alegoria continua a figurar como sentinela do poder insular, mas também como espelho das contradições históricas da ordem patriarcal: ao mesmo tempo em que encarna a nação, cristaliza o lugar passivo do feminino na narrativa política. A persistência de Britannia evidencia que a iconografia da Nação-mulher não é artefato morto do passado oitocentista: ela continua a organizar afetos coletivos, a legitimar hierarquias e a manter o feminino na posição paradoxal de emblema central e sujeito excluído.
 
-**5. Considerações finais**
+## 5 Considerações finais
 
 \"Se podes olhar, vê. Se podes ver, repara.\" O convite de José Saramago, com que se encerram estas considerações, dirige-se não à percepção distraída, mas à vigilância crítica diante das formas simbólicas que sustentam a dominação. As três figuras examinadas ao longo desta investigação --- Germania, Britannia e Marianne --- constituem, cada uma a seu modo, um argumento visual sobre a relação entre feminino, nação e poder, cujas gramáticas, diferenciadas em sua superfície iconográfica, convergem numa mesma lógica de exclusão.
 
@@ -217,7 +217,7 @@ A análise comparativa dessas três figuras permite concluir que, embora situada
 
 A iconografia jurídica, ao consolidar essa gramática visual, não apenas reflete as hierarquias de gênero de seu tempo: contribui ativamente para sua reprodução. Reinscritas em moedas, monumentos, selos e cartazes, Germania, Britannia e Marianne continuam a habitar o imaginário político contemporâneo como lembrança de que o Estado moderno foi construído não apenas com leis e exércitos, mas com imagens --- imagens que, como nos adverte Marina Warner, \"servem às vozes de quem está no comando\" (WARNER, 1985, p. 334). Conclui-se, portanto, que revisitar essas imagens e narrativas é condição indispensável para superar o paradoxo que exalta o feminino como ícone nacional enquanto circunscreve as mulheres à periferia das esferas decisórias. Tal revisão contribui para a construção de uma memória coletiva que reconheça as mulheres como agentes históricos plenos, aptos a moldar a trajetória política e jurídica das nações --- não como símbolos da pátria, mas como sujeitos que fazem a sua história.
 
-**Referências**
+## Referências
 
 ALCOFF, Linda; POTTER, Elizabeth (orgs.). Feminist epistemologies. New York: Routledge, 1992.
 

@@ -18,7 +18,7 @@ DIR410346 · Ana Vanzin · Prof. Diego Nunes · PPGD/UFSC · 2026.1
 
 ## O problema
 
-Antes do *Malleus Maleficarum* (1487), a bruxaria não existia como categoria jurídica unificada. Existiam cinco tradições penais autônomas na Europa tardo-medieval: o *maleficium* (dano mágico verificável), a heresia (desvio doutrinário), a demonolatria (pacto com o diabo), as *lamiae* e *strigae* (espíritos femininos noturnos) e o pacto diabólico formal. O que Heinrich Institoris fez no *Malleus* foi fundi-las num tipo penal compósito, totalizante, e disponibilizá-lo como manual processual para inquisidores.
+Antes do *Malleus Maleficarum* (1486/1487), a bruxaria não existia como categoria jurídica unificada. Existiam cinco tradições penais autônomas na Europa tardo-medieval: o *maleficium* (dano mágico verificável), a heresia (desvio doutrinário), a demonolatria (pacto com o diabo), as *lamiae* e *strigae* (espíritos femininos noturnos) e o pacto diabólico formal. O que Heinrich Institoris fez no *Malleus* foi fundi-las num tipo penal compósito, totalizante, e disponibilizá-lo como manual processual para inquisidores.
 
 O livro nasce, porém, de uma derrota. Em Innsbruck (1485), Institoris conduziu um processo contra Helena Scheuberin e tentou provar a bruxaria pela vida sexual da ré. Os comissários do bispo de Brixen consideraram as perguntas impróprias, autorizaram advogado de defesa e anularam o processo por vícios procedimentais. Institoris retirou-se para Colônia e respondeu com doutrina: o *Malleus* é uma resposta doutrinária a uma derrota processual.
 
@@ -104,7 +104,7 @@ BROEDEL, Hans Peter. *The Malleus Maleficarum and the construction of witchcraft
 
 MECCARELLI, Massimo. Criminal law before a State Monopoly. In: *The Oxford Handbook of European Legal History*. Oxford: Oxford University Press, 2018.
 
-SBRICCOLI, Mario. Justiça criminal. *Discursos Sediciosos*, n. 17/18, p. 459-504, 2011.
+SBRICCOLI, Mario. Justiça criminal. *Discursos Sediciosos*, n. 17/18, p. 459-486, 2011.
 
 SOUZA, Laura de Mello e. *O diabo e a Terra de Santa Cruz*. São Paulo: Companhia das Letras, 1986.
 

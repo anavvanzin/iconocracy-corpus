@@ -1,4 +1,5 @@
 ---
+url: https://bndigital.bnportugal.gov.pt/records/item/39213-alegoria-a-historia
 id: PT-002
 tipo: corpus/candidato
 status: verificar

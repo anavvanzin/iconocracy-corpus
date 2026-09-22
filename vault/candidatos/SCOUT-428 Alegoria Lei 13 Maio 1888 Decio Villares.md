@@ -2,31 +2,29 @@
 id: SCOUT-428
 tipo: corpus-candidato
 status: ativo
-titulo: Alegoria a Lei de 13 de Maio de 1888 (estudo) — Decio Villares
+titulo: "Alegoria a Lei de 13 de Maio de 1888 (estudo) — Decio Villares"
 pais: BR
-data_estimada: c. 1888
+data_estimada: "c. 1888"
 suporte: estampa/gravura
-motivo_alegorico: A República
+motivo_alegorico: "A República"
 regime: FUNDACIONAL
 confianca: alto
 tags:
-- corpus/candidato
-- pais/BR
-- suporte/estampa
-- regime/fundacional
-- motivo/republica
-- null
-- null
+  - corpus/candidato
+  - pais/BR
+  - suporte/estampa
+  - regime/fundacional
+  - motivo/republica
+  - "#colonialidade-do-ver"
+  - "#verificar-imagem"
 related:
-- '[[endurecimento]]'
-- '[[Contrato Sexual Visual]]'
-- '[[Feminilidade de Estado]]'
-- '[[colonialidade do ver]]'
+  - "[[ENDURECIMENTO]]"
+  - "[[Contrato Sexual Visual]]"
+  - "[[Feminilidade de Estado]]"
+  - "[[colonialidade do ver]]"
 data_scout: 2026-04-13
-fonte_campanha: LPAI v2 Campanha SCOUT BR/FR (abr 2026)
-seculo: 19th
+fonte_campanha: "LPAI v2 Campanha SCOUT BR/FR (abr 2026)"
 ---
-
 
 ## Alegoria a Lei de 13 de Maio de 1888 (estudo) — Decio Villares
 

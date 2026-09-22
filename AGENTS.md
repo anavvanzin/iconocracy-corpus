@@ -1,69 +1,84 @@
-# AGENTS.md — ICONOCRACY Quick Brief
+# AGENTS.md — ICONOCRACY Quick Reference
 
-## Context
-Monorepo for the doctoral thesis **"Iconocracia: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"** — PPGD/UFSC, Ana Vanzin, defense 2026. Companion file for Claude Code sessions: `CLAUDE.md`.
+> **This is the quick-reference card.** For full architecture, mode routing, hooks, skills, terminology tables, known data issues, and corpus parameters, see [`CLAUDE.md`](CLAUDE.md).
 
-## Data Hierarchy (counts 2026-05-24)
-1. `data/processed/records.jsonl` — 265 records (canonical)
-2. `corpus/corpus-data.json` — 264 items (public export)
-3. `data/processed/purification.jsonl` — 264 records (endurecimento coding)
-4. `vault/candidatos/` — 314 catalog cards (auxiliary mirror)
+## Canonical Field Ownership (audit 2026-08-12)
+
+| Field family | Authority | Current count |
+|---|---|---|
+| Identity, evidence, description, IconoCode claims | `data/processed/records.jsonl` | 336 items |
+| Endurecimento observations and coding provenance | `data/processed/purification.jsonl` | 286 rows |
+| Raw binary identity and storage | `data/raw/drive-manifest.json` + Drive | manifest |
+| Catalogue navigation | `vault/candidatos/` | auxiliary mirror |
+
+`corpus-data.json`, SQLite, CSV, dashboards, and release bundles are disposable
+projections. See `docs/adr/006-canonical-field-ownership-and-projections.md`.
 
 ## Environment
+
 ```bash
 conda activate iconocracy
 python tools/scripts/<script>.py           # always from repo root
-pytest tests/                              # full suite (24 test files)
+pytest tests/                              # full suite (~24 test files)
 ```
 
-## Key Commands
+> **Cloud Agent note:** the Cursor Cloud environment has **no conda**. It mirrors CI:
+> system Python 3.12 with dependencies installed via `pip install --user` (user site,
+> auto-imported by `python3`). There is no conda env to activate — run scripts directly
+> with `python tools/scripts/<script>.py` and tests with `python -m pytest tests/`.
+> Console scripts live in `~/.local/bin` (not on PATH), so invoke tools through
+> `python -m <tool>` (e.g. `python -m pytest`). `pandoc` is preinstalled for
+> `make -C vault/tese docx`; full-thesis **PDF** additionally needs a LaTeX/TeX Live install.
+
+## Essential Commands
+
 ```bash
-# Validation
+# Validation (CLAUDE.md §Quick Commands for full list)
+python tools/scripts/validate_schemas.py
 python tools/scripts/validate_schemas.py data/processed/records.jsonl --schema master-record --verbose
-python tools/scripts/check_thesis_terms.py   # forbidden terms (hardening/embrutecimento) + misattributions
+python tools/scripts/check_thesis_terms.py   # forbidden terms + misattributions
 
 # Export diff (run before touching corpus-data.json)
 python tools/scripts/records_to_corpus.py --diff
 
 # Vault sync
-python tools/scripts/vault_sync.py pull|push|sync|diff|status
+python tools/scripts/vault_sync.py status|sync|pull|push|diff
 
 # Endurecimento coding
-python tools/scripts/code_purification.py --status|--item ID|--batch SIGLA|--export-csv
+python tools/scripts/code_purification.py --status
+python tools/scripts/code_purification.py --item ID|--batch SIGLA|--export-csv
 
 # Thesis compilation
 make -C vault/tese/ docx     # full thesis → DOCX
 make -C vault/tese/ pdf      # full thesis → PDF (requires LaTeX)
 
-# Release gate (run in order before HF release)
+# Release gate (run in this order before HF release)
 python tools/scripts/validate_schemas.py
+python tools/scripts/code_purification.py --status
 python tools/scripts/vault_sync.py status
 python tools/scripts/records_to_corpus.py --diff
-python tools/scripts/code_purification.py --status
 python tools/scripts/build_hf_release.py
 ```
 
-## Thesis Architecture
-4 case studies: **Brasil-República** (1889–1930) · **Brasil-Tribunais** (Justiça vendada no STF) · **França-Marianne** (1789–1946) · **UK-Britannia** (1800–1950). Three argumentative versions: historical · theoretical-conceptual · comparative-postcolonial. Four theoretical clusters: Legal History · Visual Culture · Feminist Theory · Post-colonial.
-
-## 10 Purification Indicators (ordinal 0–3)
-desincorporação · rigidez_postural · dessexualização · uniformização_facial · heraldização · enquadramento_arquitetônico · apagamento_narrativo · monocromatização · serialidade · inscrição_estatal
-
-Three iconocratic regimes: FUNDACIONAL → NORMATIVO → MILITAR → CONTRA-ALEGORIA.
-
-## Mandatory Terminology
-- **endurecimento** — NEVER "hardening" / "embrutecimento"
-- **Contrato Sexual Visual**, **Feminilidade de Estado**, **Contrato Racial Visual**, **Purificação Clássica** — original thesis concepts (Vanzin 2026)
-- **Pathosformel**, **Zwischenraum**, **Nachleben** — always in German (Warburg)
-- Citations: ABNT NBR 6023:2025; Mondzain = 2002 edition
-
-## Traceability
-Every corpus item must exist in: (1) Google Drive + `data/raw/drive-manifest.json`, (2) `vault/candidatos/CC-NNN Title.md`, (3) `data/processed/records.jsonl`.
-
 ## Guardrails
+
 - `tese/manuscrito/*_original` is read-only; work on `*_rev` copies
 - `data/raw/` is metadata-only in git (ADR-001); binaries on Google Drive
 - Never edit `corpus/corpus-data.json` directly — use Python scripts
-- Vault notes follow `XX-NNN Title.md` pattern in Obsidian Flavored Markdown
+- All Codebook v2 allegory fields (`subtipo`, `familia_alegorica`, `vetor_colonial`, `hipotese_racial`) nest under `"purificacao"` key in `records.jsonl`; `records_to_corpus.py` flattens them to `corpus-data.json` root
+- Vault notes: `XX-NNN Title.md` (e.g., `FR-013 Déclaration des droits.md`) in Obsidian Flavored Markdown
 - `vault_backup.py` for snapshots; never mix backups on `main`
 - `python tools/scripts/validate_schemas.py` must pass before any commit
+
+## Traceability
+
+Every corpus item must exist in three places: (1) Google Drive + `data/raw/drive-manifest.json`, (2) `vault/candidatos/XX-NNN Title.md`, (3) `data/processed/records.jsonl`.
+
+## Canonical Terminology
+
+- **iconometria** — framework guarda-chuva (medição/análise de padrões iconográficos); `iconometria ⊇ endurecimento` (decisão 2026-07-11)
+- **endurecimento** — eixo de fixidez dentro da iconometria; NEVER "hardening" / "embrutecimento"; campo de dados canônico `endurecimento_score` (chave estável)
+- **Contrato Sexual Visual**, **Feminilidade de Estado**, **Contrato Racial Visual**, **Purificação Clássica** — original thesis concepts (Vanzin 2026)
+- **Pathosformel**, **Zwischenraum**, **Nachleben** — always in German (Warburg)
+- Citations: ABNT NBR 6023:2025; Mondzain = 2002 edition
+- 10 purification indicators (ordinal 0–3) + 3 iconocratic regimes → see [`CLAUDE.md`](CLAUDE.md)

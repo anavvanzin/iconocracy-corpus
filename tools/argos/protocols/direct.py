@@ -1,14 +1,18 @@
 from __future__ import annotations
 
 import http.client
+import os
 import ssl
+import tempfile
 import time
 import urllib.error
 import urllib.request
 from pathlib import Path
 
-USER_AGENT = "ARGOS/1.0 (+iconocracy-research; ana.vanzin@ufsc.br)"
+
+USER_AGENT = "ARGOS/1.0 (+https://github.com/anavvanzin/iconocracy-corpus)"
 MIN_VALID_BYTES = 500
+ALLOW_UNVERIFIED_SSL = os.environ.get("ARGOS_ALLOW_UNVERIFIED_SSL", "").lower() in {"1", "true", "yes"}
 SSL_UNVERIFIED = ssl.create_default_context()
 SSL_UNVERIFIED.check_hostname = False
 SSL_UNVERIFIED.verify_mode = ssl.CERT_NONE
@@ -63,15 +67,24 @@ def _retry_delay(error: urllib.error.HTTPError, attempt: int) -> float:
 
 
 def _stream_to_path(response, dest_path: Path) -> int:
-    total_size = 0
-    with dest_path.open("wb") as handle:
-        while True:
-            chunk = response.read(65536)
-            if not chunk:
-                break
-            handle.write(chunk)
-            total_size += len(chunk)
-    return total_size
+    fd, tmp_path = tempfile.mkstemp(dir=str(dest_path.parent), suffix=".tmp")
+    try:
+        total_size = 0
+        with os.fdopen(fd, "wb") as handle:
+            while True:
+                chunk = response.read(65536)
+                if not chunk:
+                    break
+                handle.write(chunk)
+                total_size += len(chunk)
+        os.replace(tmp_path, str(dest_path))
+        return total_size
+    except BaseException:
+        try:
+            os.unlink(tmp_path)
+        except OSError:
+            pass
+        raise
 
 
 def _is_retryable_http_error(status_code: int) -> bool:
@@ -177,6 +190,13 @@ def fetch_direct(url: str, dest_path: Path, timeout: int = 60, retries: int = 3)
                 error=f"HTTP {error.code}: {error.reason}",
             )
         except ssl.SSLCertVerificationError:
+            if not ALLOW_UNVERIFIED_SSL:
+                dest_path.unlink(missing_ok=True)
+                return _build_result(
+                    dest_path,
+                    error="SSL certificate verification failed (set ARGOS_ALLOW_UNVERIFIED_SSL=1 to allow unverified fallback)",
+                    failure_class="ssl_error",
+                )
             try:
                 request = urllib.request.Request(url, headers=headers)
                 with urllib.request.urlopen(request, timeout=timeout, context=SSL_UNVERIFIED) as response:
@@ -213,18 +233,16 @@ def fetch_direct(url: str, dest_path: Path, timeout: int = 60, retries: int = 3)
                     ssl_verification="unverified",
                 )
         except http.client.IncompleteRead as error:
-            if dest_path.exists():
-                partial_size = dest_path.stat().st_size
-                if partial_size > 10000:
-                    return _build_result(dest_path, success=True, bytes_written=partial_size)
-                dest_path.unlink(missing_ok=True)
-
+            dest_path.unlink(missing_ok=True)
             if attempt < retries - 1:
                 time.sleep(3 * (attempt + 1))
                 continue
-
-            dest_path.unlink(missing_ok=True)
-            return _build_result(dest_path, error=str(error), failure_class="request_error")
+            return _build_result(
+                dest_path,
+                error=f"Incomplete read after {retries} attempts: {error}",
+                failure_class="incomplete_read",
+                notes=["All retry attempts returned truncated responses"],
+            )
         except urllib.error.URLError as error:
             if attempt < retries - 1:
                 time.sleep(3 * (attempt + 1))

@@ -1,0 +1,597 @@
+{
+  "date": "2026-07-13",
+  "model": "gemini-2.5-pro",
+  "protocol": "IconoCode vision pilot; deterministic temperature 0; composite recomputed from 10 ordinal indicators",
+  "calibration_against_existing_image_coding": {
+    "summary": {
+      "n": 12,
+      "indicator_ratings": 120,
+      "indicator_mae": 0.675,
+      "indicator_exact_agreement": 0.45,
+      "indicator_within_one": 0.883,
+      "quadratic_weighted_kappa": 0.635,
+      "composite_mae": 0.342,
+      "composite_bias": 0.142,
+      "composite_spearman_rho": 0.822,
+      "composite_spearman_p": 0.001,
+      "composite_pearson_r": 0.838,
+      "regime_accuracy": 0.667
+    },
+    "items": [
+      {
+        "id": "FR-021",
+        "gold": 0.2,
+        "gemini": 0.2,
+        "delta": 0.0,
+        "gold_regime": "fundacional",
+        "gemini_regime": "fundacional",
+        "regime_ok": true,
+        "note": "A figura alegórica da Liberdade é representada de corpo inteiro, em pose dinâmica e com o torso nu, liderando o povo sobre uma barricada numa cena de forte caráter narrativo e revolucionário."
+      },
+      {
+        "id": "BR-001",
+        "gold": 1.4,
+        "gemini": 2.1,
+        "delta": 0.7,
+        "gold_regime": "fundacional",
+        "gemini_regime": "normativo",
+        "regime_ok": false,
+        "note": "A full-length, monochrome statue of an allegorical female figure (Republic/Liberty) with a Phrygian cap and flag, standing in a static, hieratic pose on a pedestal within an institutional hallway."
+      },
+      {
+        "id": "US-010",
+        "gold": 2.3,
+        "gemini": 2.4,
+        "delta": 0.1,
+        "gold_regime": "fundacional",
+        "gemini_regime": "normativo",
+        "regime_ok": false,
+        "note": "A complex allegorical tableau featuring full-bodied statues of Justice and Liberty on pedestals, flanking a central 'Temple of Liberty.' The scene is surmounted by a heraldic American eagle and banners with the explicit state motto 'THE UNION MUST AND SHALL BE PRESERVED.'"
+      },
+      {
+        "id": "FR-028",
+        "gold": 0.4,
+        "gemini": 1.5,
+        "delta": 1.1,
+        "gold_regime": "normativo",
+        "gemini_regime": "militar",
+        "regime_ok": false,
+        "note": "A figura alegórica da França (Marianne) usa uma baioneta como ferramenta para plantar um loureiro da paz sobre um campo de cruzes, simbolizando a reconstrução pós-guerra."
+      },
+      {
+        "id": "US-EDUC-1896-02",
+        "gold": 1.6,
+        "gemini": 1.5,
+        "delta": -0.1,
+        "gold_regime": "normativo",
+        "gemini_regime": "fundacional",
+        "regime_ok": false,
+        "note": "A complex allegorical scene with five dynamic, full-bodied female figures and children representing Science, Steam, Electricity, Commerce, and Manufacture, forming a clear narrative of national progress."
+      },
+      {
+        "id": "FR-009",
+        "gold": 2.4,
+        "gemini": 2.0,
+        "delta": -0.4,
+        "gold_regime": "normativo",
+        "gemini_regime": "normativo",
+        "regime_ok": true,
+        "note": "The central figure is an idealized, classicizing bust of the French Republic, identifiable by the helmet and armor. The static, desexualized, and non-narrative form is characteristic of a normative, institutional allegory."
+      },
+      {
+        "id": "FR-008",
+        "gold": 0.8,
+        "gemini": 0.9,
+        "delta": 0.1,
+        "gold_regime": "militar",
+        "gemini_regime": "militar",
+        "regime_ok": true,
+        "note": "A dynamic, nude, and shouting female allegory of the Republic strides forward, brandishing a large flag in a powerful call to arms, as indicated by the title 'La République nous appelle...'"
+      },
+      {
+        "id": "UK-006",
+        "gold": 1.7,
+        "gemini": 1.2,
+        "delta": -0.5,
+        "gold_regime": "militar",
+        "gemini_regime": "militar",
+        "regime_ok": true,
+        "note": "A group of women and a child, representing the domestic sphere, look out a window at soldiers marching to war, under the imperative text 'WOMEN OF BRITAIN SAY - \"GO!\"'."
+      },
+      {
+        "id": "FR-027",
+        "gold": 2.3,
+        "gemini": 2.1,
+        "delta": -0.2,
+        "gold_regime": "militar",
+        "gemini_regime": "militar",
+        "regime_ok": true,
+        "note": "An armed allegorical figure of France is presented in a medallion with the dates 1914-1918 on a poster for the 'Emprunt de la Libération' war bond."
+      },
+      {
+        "id": "FR-010",
+        "gold": 0.3,
+        "gemini": 0.7,
+        "delta": 0.4,
+        "gold_regime": "contra-alegoria",
+        "gemini_regime": "contra-alegoria",
+        "regime_ok": true,
+        "note": "A figura é uma caricatura grotesca que combina o barrete frígio, símbolo da República, com um crucifixo, criando uma inversão satírica."
+      },
+      {
+        "id": "FR-022",
+        "gold": 0.3,
+        "gemini": 0.8,
+        "delta": 0.5,
+        "gold_regime": "contra-alegoria",
+        "gemini_regime": "contra-alegoria",
+        "regime_ok": true,
+        "note": "A grotesque caricature of a colonial allegory, with a corpulent central female figure flanked by racialized stereotypes of colonial subjects (Asian and African)."
+      },
+      {
+        "id": "FR-005",
+        "gold": 0.8,
+        "gemini": 0.8,
+        "delta": 0.0,
+        "gold_regime": "contra-alegoria",
+        "gemini_regime": "contra-alegoria",
+        "regime_ok": true,
+        "note": "A figura é uma caricatura grotesca e sexualizada da República, representada como uma mulher mais velha e desalinhada, com um seio exposto. O título irônico 'Respublica Amabilis' e a inscrição 'THIERS ETAT!' reforçam a intenção satírica."
+      }
+    ],
+    "indicators": {
+      "desincorporacao": {
+        "mae": 0.75,
+        "bias": -0.583,
+        "exact": 0.417,
+        "kappa": 0.35
+      },
+      "rigidez_postural": {
+        "mae": 0.5,
+        "bias": 0.167,
+        "exact": 0.5,
+        "kappa": 0.692
+      },
+      "dessexualizacao": {
+        "mae": 0.333,
+        "bias": 0.333,
+        "exact": 0.667,
+        "kappa": 0.863
+      },
+      "uniformizacao_facial": {
+        "mae": 0.667,
+        "bias": 0,
+        "exact": 0.417,
+        "kappa": 0.623
+      },
+      "heraldizacao": {
+        "mae": 0.667,
+        "bias": 0,
+        "exact": 0.5,
+        "kappa": 0.526
+      },
+      "enquadramento_arquitetonico": {
+        "mae": 0.5,
+        "bias": 0.5,
+        "exact": 0.5,
+        "kappa": 0.821
+      },
+      "apagamento_narrativo": {
+        "mae": 1.083,
+        "bias": -0.083,
+        "exact": 0.167,
+        "kappa": 0.287
+      },
+      "monocromatizacao": {
+        "mae": 0.667,
+        "bias": 0.5,
+        "exact": 0.417,
+        "kappa": 0.661
+      },
+      "serialidade": {
+        "mae": 0.75,
+        "bias": 0.417,
+        "exact": 0.417,
+        "kappa": 0.458
+      },
+      "inscricao_estatal": {
+        "mae": 0.833,
+        "bias": 0.167,
+        "exact": 0.5,
+        "kappa": 0.403
+      }
+    },
+    "model": "gemini-2.5-pro"
+  },
+  "hermes_auto_visual_audit": {
+    "summary": {
+      "n": 10,
+      "composite_mae": 0.33,
+      "composite_bias": -0.01,
+      "regime_matches": 6,
+      "large_deltas": 4
+    },
+    "items": [
+      {
+        "id": "FR-076",
+        "title": "République de Clésinger (fotografia de demonstração)",
+        "country": "France",
+        "support": "fotografia",
+        "metadata_composite": 1.2,
+        "vision_composite": 2.0,
+        "delta": 0.8,
+        "metadata_regime": "fundacional",
+        "vision_regime": "normativo",
+        "regime_match": false,
+        "indicator_deltas": {
+          "desincorporacao": 0,
+          "rigidez_postural": 1,
+          "dessexualizacao": -1,
+          "uniformizacao_facial": 2,
+          "heraldizacao": 1,
+          "enquadramento_arquitetonico": 1,
+          "apagamento_narrativo": 2,
+          "monocromatizacao": 0,
+          "serialidade": 0,
+          "inscricao_estatal": 2
+        },
+        "visual_note": "Photograph of a sculptor's model for a statue of the French Republic. The allegorical figure is seated, wearing classical armor and a helmet. She holds a sword with scales of justice and a tablet of law, representing a stable, law-based state."
+      },
+      {
+        "id": "BR-022",
+        "title": "Brasiliana / Braziliana — personificação nacional feminina por J.B. Debret",
+        "country": "Brazil",
+        "support": "estampa/gravura",
+        "metadata_composite": 1.3,
+        "vision_composite": 1.8,
+        "delta": 0.5,
+        "metadata_regime": "fundacional",
+        "vision_regime": "fundacional",
+        "regime_match": true,
+        "indicator_deltas": {
+          "desincorporacao": -1,
+          "rigidez_postural": 1,
+          "dessexualizacao": 1,
+          "uniformizacao_facial": 0,
+          "heraldizacao": 2,
+          "enquadramento_arquitetonico": 1,
+          "apagamento_narrativo": 0,
+          "monocromatizacao": -2,
+          "serialidade": 1,
+          "inscricao_estatal": 2
+        },
+        "visual_note": "Full-length female personification of Brazil, seated frontally on a throne. She wears a crown and green robes, holding tablets of law, a sword, a scepter, and a shield with an emblem. The throne is decorated with the scales of justice. A landscape is visible in the background."
+      },
+      {
+        "id": "UK-012",
+        "title": "Model",
+        "country": "United Kingdom",
+        "support": "monumento/escultura",
+        "metadata_composite": 1.4,
+        "vision_composite": 1.6,
+        "delta": 0.2,
+        "metadata_regime": "fundacional",
+        "vision_regime": "fundacional",
+        "regime_match": true,
+        "indicator_deltas": {
+          "desincorporacao": -1,
+          "rigidez_postural": 1,
+          "dessexualizacao": -1,
+          "uniformizacao_facial": 0,
+          "heraldizacao": 1,
+          "enquadramento_arquitetonico": 1,
+          "apagamento_narrativo": -2,
+          "monocromatizacao": 1,
+          "serialidade": 1,
+          "inscricao_estatal": 1
+        },
+        "visual_note": "A circular plaster model in bas-relief. The scene is a neoclassical allegory depicting a central, crowned female figure personifying the state, who blesses the union of a nude male figure (representing maritime power or war) and a draped female figure (representing industry or peace). The composition includes symbolic elements like an anchor, machinery, a crest, and standards."
+      },
+      {
+        "id": "DE-017",
+        "title": "10 Pfennig Germania — Deutsches Reich (Weimar Republic, Mi.141, 1920)",
+        "country": "Germany",
+        "support": "moeda",
+        "metadata_composite": 2.6,
+        "vision_composite": 2.6,
+        "delta": 0.0,
+        "metadata_regime": "normativo",
+        "vision_regime": "normativo",
+        "regime_match": true,
+        "indicator_deltas": {
+          "desincorporacao": 0,
+          "rigidez_postural": -1,
+          "dessexualizacao": 0,
+          "uniformizacao_facial": -1,
+          "heraldizacao": 0,
+          "enquadramento_arquitetonico": 1,
+          "apagamento_narrativo": 0,
+          "monocromatizacao": 0,
+          "serialidade": 0,
+          "inscricao_estatal": 1
+        },
+        "visual_note": "Bust of the allegorical figure Germania in profile, wearing armor and the Imperial Crown. She is enclosed within a heavy Art Nouveau ornamental frame. The stamp is monochrome orange and bears the inscription 'DEUTSCHES REICH'."
+      },
+      {
+        "id": "BE-004",
+        "title": "Constitution de la Belgique — Édition illustrée (frontispice allégorique)",
+        "country": "Belgium",
+        "support": "frontispício",
+        "metadata_composite": 1.7,
+        "vision_composite": 1.6,
+        "delta": -0.1,
+        "metadata_regime": "fundacional",
+        "vision_regime": "fundacional",
+        "regime_match": true,
+        "indicator_deltas": {
+          "desincorporacao": -3,
+          "rigidez_postural": 0,
+          "dessexualizacao": 0,
+          "uniformizacao_facial": 0,
+          "heraldizacao": 1,
+          "enquadramento_arquitetonico": -2,
+          "apagamento_narrativo": -2,
+          "monocromatizacao": 1,
+          "serialidade": 2,
+          "inscricao_estatal": 2
+        },
+        "visual_note": "An allegorical female figure, personifying the Belgian Constitution of 1831, is enthroned above the Belgian Lion and representatives of the nation's social classes (a farmer, a soldier, a magistrate, an officer, and a worker). The composition is narrative and pyramidal, legitimizing the new state."
+      },
+      {
+        "id": "BR-024",
+        "title": "Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)",
+        "country": "Brazil",
+        "support": "selo",
+        "metadata_composite": 2.5,
+        "vision_composite": 1.9,
+        "delta": -0.6,
+        "metadata_regime": "normativo",
+        "vision_regime": "fundacional",
+        "regime_match": false,
+        "indicator_deltas": {
+          "desincorporacao": -1,
+          "rigidez_postural": -2,
+          "dessexualizacao": -3,
+          "uniformizacao_facial": -1,
+          "heraldizacao": 1,
+          "enquadramento_arquitetonico": 1,
+          "apagamento_narrativo": -3,
+          "monocromatizacao": 0,
+          "serialidade": 0,
+          "inscricao_estatal": 2
+        },
+        "visual_note": "An allegorical female figure, representing the Republic or Liberty, breaks the chains of a formerly enslaved man. The dynamic, narrative scene commemorates the abolition of slavery ('13 DE MAIO'). The composition is tightly framed within a circular medallion for a postage stamp, featuring state inscriptions ('E.U. DO BRAZIL') and symbols."
+      },
+      {
+        "id": "BR-025",
+        "title": "Eliseu Visconti — A Mulher Brasileira (projeto para selo dos Correios, 1904)",
+        "country": "Brazil",
+        "support": "selo",
+        "metadata_composite": 2.5,
+        "vision_composite": 2.4,
+        "delta": -0.1,
+        "metadata_regime": "normativo",
+        "vision_regime": "fundacional",
+        "regime_match": false,
+        "indicator_deltas": {
+          "desincorporacao": 0,
+          "rigidez_postural": -1,
+          "dessexualizacao": -1,
+          "uniformizacao_facial": 0,
+          "heraldizacao": 1,
+          "enquadramento_arquitetonico": -2,
+          "apagamento_narrativo": 0,
+          "monocromatizacao": 0,
+          "serialidade": 0,
+          "inscricao_estatal": 2
+        },
+        "visual_note": "Profile bust of a female allegory of the Brazilian Republic in an Art Nouveau style. She wears a hair ornament featuring the Southern Cross constellation, a national symbol. The image is on a postage stamp with state inscriptions."
+      },
+      {
+        "id": "DE-021",
+        "title": "Germania — Série definitiva Deutsches Reich 5pf (1900–1922)",
+        "country": "Germany",
+        "support": "selo",
+        "metadata_composite": 2.5,
+        "vision_composite": 2.6,
+        "delta": 0.1,
+        "metadata_regime": "normativo",
+        "vision_regime": "militar",
+        "regime_match": false,
+        "indicator_deltas": {
+          "desincorporacao": -1,
+          "rigidez_postural": -1,
+          "dessexualizacao": -1,
+          "uniformizacao_facial": 0,
+          "heraldizacao": 1,
+          "enquadramento_arquitetonico": 1,
+          "apagamento_narrativo": 0,
+          "monocromatizacao": 0,
+          "serialidade": 0,
+          "inscricao_estatal": 2
+        },
+        "visual_note": "Bust of Germania in profile, wearing an imperial crown over a laurel wreath and armor bearing the Reichsadler (Imperial Eagle). She holds an olive branch. The figure is enclosed in an ornate Art Nouveau (Jugendstil) frame. The style is idealized and classical."
+      },
+      {
+        "id": "FR-077",
+        "title": "[Le Dauphin dans les bras de la Foi entre la Force et la Justice] : [estampe]",
+        "country": "France",
+        "support": "estampa/gravura",
+        "metadata_composite": 2.5,
+        "vision_composite": 2.3,
+        "delta": -0.2,
+        "metadata_regime": "normativo",
+        "vision_regime": "normativo",
+        "regime_match": true,
+        "indicator_deltas": {
+          "desincorporacao": -2,
+          "rigidez_postural": -1,
+          "dessexualizacao": 0,
+          "uniformizacao_facial": -1,
+          "heraldizacao": 1,
+          "enquadramento_arquitetonico": 1,
+          "apagamento_narrativo": -1,
+          "monocromatizacao": 0,
+          "serialidade": -1,
+          "inscricao_estatal": 2
+        },
+        "visual_note": "Analysis of the top image: An allegorical engraving depicting the French Dauphin in the arms of Faith, flanked by Justice and Force. The scene is highly formal and static, set within an elaborate ornamental and heraldic frame featuring the royal coat of arms. The overall composition serves to legitimize the future monarch's rule through Christian and classical virtues."
+      },
+      {
+        "id": "FR-051",
+        "title": "N° 5 - Take up the sword of justice",
+        "country": "France",
+        "support": "estampa/gravura",
+        "metadata_composite": 1.4,
+        "vision_composite": 0.7,
+        "delta": -0.7,
+        "metadata_regime": "militar",
+        "vision_regime": "militar",
+        "regime_match": true,
+        "indicator_deltas": {
+          "desincorporacao": -1,
+          "rigidez_postural": -1,
+          "dessexualizacao": -2,
+          "uniformizacao_facial": 0,
+          "heraldizacao": 0,
+          "enquadramento_arquitetonico": 0,
+          "apagamento_narrativo": -2,
+          "monocromatizacao": -2,
+          "serialidade": 2,
+          "inscricao_estatal": -1
+        },
+        "visual_note": "An allegorical female figure, representing Justice, rises dynamically from the sea holding a sword. In the background, a ship sinks amidst flames, referencing a naval atrocity. The poster is a dramatic, narrative call to arms from the WWI era."
+      }
+    ],
+    "indicators": {
+      "desincorporacao": {
+        "mae": 1,
+        "bias": -1,
+        "changed": 7
+      },
+      "rigidez_postural": {
+        "mae": 1,
+        "bias": -0.4,
+        "changed": 9
+      },
+      "dessexualizacao": {
+        "mae": 1,
+        "bias": -0.8,
+        "changed": 7
+      },
+      "uniformizacao_facial": {
+        "mae": 0.5,
+        "bias": -0.1,
+        "changed": 4
+      },
+      "heraldizacao": {
+        "mae": 0.9,
+        "bias": 0.9,
+        "changed": 8
+      },
+      "enquadramento_arquitetonico": {
+        "mae": 1.1,
+        "bias": 0.3,
+        "changed": 9
+      },
+      "apagamento_narrativo": {
+        "mae": 1.2,
+        "bias": -0.8,
+        "changed": 6
+      },
+      "monocromatizacao": {
+        "mae": 0.6,
+        "bias": -0.2,
+        "changed": 4
+      },
+      "serialidade": {
+        "mae": 0.7,
+        "bias": 0.5,
+        "changed": 5
+      },
+      "inscricao_estatal": {
+        "mae": 1.7,
+        "bias": 1.5,
+        "changed": 10
+      }
+    },
+    "model": "gemini-2.5-pro"
+  },
+  "acquired_images": {
+    "FR-076": {
+      "status": "ok",
+      "image_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531241805/f1/full/1600,/0/native.jpg",
+      "path": "/home/ana/Documents/iconocracy-corpus/binaries/Images/FR-076.jpg",
+      "width": 1334,
+      "height": 1800
+    },
+    "BR-022": {
+      "status": "ok",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Braziliana_ou_Brasiliana(Brazil_National_personification)_by_J_B_Debret.jpg?width=1600",
+      "path": "/home/ana/Documents/iconocracy-corpus/binaries/Images/BR-022.jpg",
+      "width": 346,
+      "height": 348
+    },
+    "UK-012": {
+      "status": "ok",
+      "image_url": "https://framemark.vam.ac.uk/collections/2006BJ4914/full/!600,/0/default.jpg",
+      "path": "/home/ana/Documents/iconocracy-corpus/binaries/Images/UK-012.jpg",
+      "width": 600,
+      "height": 900
+    },
+    "DE-017": {
+      "status": "ok",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/DR_1920_141_Germania.jpg?width=1600",
+      "path": "/home/ana/Documents/iconocracy-corpus/binaries/Images/DE-017.jpg",
+      "width": 570,
+      "height": 670
+    },
+    "BE-004": {
+      "status": "ok",
+      "image_url": "https://neptun.unamur.be/files/original/cf0fae6e92501f9d83bd748e98640d17c497995f.pdf#page=9",
+      "path": "/home/ana/Documents/iconocracy-corpus/binaries/Images/BE-004.jpg",
+      "width": 832,
+      "height": 1185
+    },
+    "BR-024": {
+      "status": "ok",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/EliseuVisconti-A813-A_Lei_%C3%81urea_%E2%80%93_Projeto_para_selo_integrante_da_cole%C3%A7%C3%A3o_vencedora_do_Concurso_dos_Correios_de_1904.jpg?width=1600",
+      "path": "/home/ana/Documents/iconocracy-corpus/binaries/Images/BR-024.jpg",
+      "width": 341,
+      "height": 429
+    },
+    "BR-025": {
+      "status": "ok",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/EliseuVisconti-A814-A_Mulher_Brasileira_%E2%80%93_Projeto_para_selo_integrante_da_cole%C3%A7%C3%A3o_vencedora_do_Concurso_dos_Correios_de_1904.jpg?width=1600",
+      "path": "/home/ana/Documents/iconocracy-corpus/binaries/Images/BR-025.jpg",
+      "width": 352,
+      "height": 425
+    },
+    "DE-021": {
+      "status": "ok",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Germania5pf1900.jpg?width=1200",
+      "path": "/home/ana/Documents/iconocracy-corpus/binaries/Images/DE-021.jpg",
+      "width": 210,
+      "height": 250
+    },
+    "FR-077": {
+      "status": "ok",
+      "image_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531287227/f1/full/1600,/0/native.jpg",
+      "path": "/home/ana/Documents/iconocracy-corpus/binaries/Images/FR-077.jpg",
+      "width": 1003,
+      "height": 1800
+    },
+    "FR-051": {
+      "status": "ok",
+      "image_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10051600t/f1/full/1600,/0/native.jpg",
+      "path": "/home/ana/Documents/iconocracy-corpus/binaries/Images/FR-051.jpg",
+      "width": 1154,
+      "height": 1800
+    }
+  },
+  "notes": [
+    "Calibration reference is prior iconocode-opus-4.6-image coding, not independent human ground truth.",
+    "Visual outputs are audit candidates and do not overwrite data/processed/purification.jsonl.",
+    "The Gemini API key is not included."
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "batch_note": "IconoCode drafts — itens dos PRs #123 (auditoria 2ª passada dos 2 registros iconocode-sonnet5) e #122 (candidatos SCOUT 2026-05-19 inéditos vs main@328). Análise visual real (imagens baixadas das fontes), exceto Amazona (#análise-textual). NÃO gravar em purification.jsonl sem auditoria de Ana.",
+  "generated_at": "2026-07-02",
+  "prompt_version": "iconocode-analyze-2026-06-05",
+  "drafts": [
+    {
+      "id": "ff43ad57-b420-3e54-24ec-9d15caef8d64",
+      "source_pr": 123,
+      "title": "A Justiça de Salomão — Candido Portinari, 1948",
+      "draft_status": "iconocode-analyze-draft",
+      "image_seen": "https://acervo-portinari.s3.sa-east-1.amazonaws.com/d0800d0c21e899a82fcad27f36527f52.jpeg (640x600)",
+      "panofsky": {
+        "level_1": {
+          "figuras": [
+            "Figura monumental sentada em trono à esquerda (Salomão), segurando criança nua de cabeça para baixo pelas pernas",
+            "Mãos gigantes desproporcionais no centro — uma agarra, outras se abrem espalmadas em alarme; mão escura erguida ao alto segura objeto escuro (o facão/espada do juízo)",
+            "Figura feminina em pé à direita, cabeça lançada para trás, boca entreaberta, seios visíveis sob drapeado — a mãe que suplica",
+            "Figura feminina desfalecida em primeiro plano à direita, prostrada, cabelos longos soltos, pés descalços em escorço"
+          ],
+          "vestimenta": "Drapeados genéricos com hachura pontilhada; mulher desfalecida em drapeado branco fluido; figura em pé semidesnuda",
+          "atributos": [
+            "criança nua (objeto da disputa)",
+            "trono",
+            "lâmina erguida (facão)",
+            "concha no piso à esquerda"
+          ],
+          "composicao": "Planos cubistas fragmentados; diagonal do corpo prostrado (inferior direita) ao rei entronado (superior esquerda); mãos hipertrofiadas como foco patético central; fragmentos de arquitetura urbana no topo direito",
+          "suporte": "Têmpera sobre tela, 179 × 191 cm, grisalha (azul-acinzentado)",
+          "texto_inscrito": "Nenhum visível na frente (etiqueta no chassi: '48 CANDIDO PORTINARI A JUSTIÇA DE SALOMÃO 48')"
+        },
+        "level_2": {
+          "motivo_alegorico": "Juízo de Salomão — cena narrativa bíblica paradigmática da Justiça; as figuras femininas são atrizes narrativas (as duas mães), não personificações",
+          "iconclass": [
+            "71I52",
+            "44G"
+          ],
+          "iconclass_note": "71I52 (juízo de Salomão) sugerido — validar com iconclass-reviewer; webscout propunha 44G, 11MM31, 92",
+          "tradicao": "Modernismo cubista, linhagem Guernica (grisalha, patos); muralismo latino-americano",
+          "pathosformel": "Tripla: mãos espalmadas erguidas (horror/lamento), cabeça lançada para trás com boca aberta (grito — Níobe/Guernica), corpo feminino desfalecido (Pathosformel da desfalecida, cf. Maria nas Crucificações e mênades de sarcófago)",
+          "comparanda": [
+            "Picasso, Guernica (1937) — grisalha e gestualidade",
+            "Poussin, Julgamento de Salomão (1649)",
+            "Rubens, Juízo de Salomão (c.1617)",
+            "Portinari, Guerra e Paz (1952-56)"
+          ]
+        },
+        "level_3": {
+          "regime": "fundacional",
+          "funcao_juridico_politica": "Reapresenta o paradigma fundador do julgar (sabedoria salomônica) em chave modernista; a justiça aparece como drama corporal e materno, não como emblema estatal — obra decorativa para a Rádio Tupi (Diários Associados), depois MASP",
+          "contrato_sexual_visual": "O corpo feminino é o terreno da prova jurídica: a verdade processual se extrai do desfalecimento e do grito materno; a maternidade funciona como dispositivo probatório",
+          "contrato_racial_visual": "Grisalha neutraliza marcação racial; fisionomias genéricas — não operante de forma explícita",
+          "colonialidade_do_ver": "Não operante de forma explícita"
+        }
+      },
+      "purificacao": {
+        "desincorporacao": 2,
+        "rigidez_postural": 0,
+        "dessexualizacao": 1,
+        "uniformizacao_facial": 1,
+        "heraldizacao": 0,
+        "enquadramento_arquitetonico": 1,
+        "apagamento_narrativo": 0,
+        "monocromatizacao": 3,
+        "serialidade": 0,
+        "inscricao_estatal": 0,
+        "purificacao_composto": 0.8,
+        "regime_iconocratico": "fundacional"
+      },
+      "audit_vs_sonnet5": {
+        "sonnet5_composto": 0.9,
+        "divergencias": [
+          "inscricao_estatal: sonnet5=1 (estimativa admitida), meu=0 — Rádio Tupi era encomenda PRIVADA (Diários Associados, Assis Chateaubriand); doação posterior ao MASP, também privado. Nenhum vínculo estatal documentado. Recomendo 0.",
+          "Demais 9 indicadores: concordância integral."
+        ],
+        "regime": "Concordo com fundacional. A tensão contra-alegoria apontada pelo sonnet5 (fragmentação cubista contesta o cânone) é real mas estilística, não político-subversiva — não é reapropriação feminista/anticolonial do dispositivo alegórico. Manter fundacional."
+      },
+      "analyst_notes": "Contra-exemplo valioso: obra de 1948 (era normativa/militar) com ENDURECIMENTO baixíssimo (0.8) — o modernismo desfaz a purificação clássica devolvendo patos e carne à cena da justiça. Painel Atlas sugerido: VII (Justiça Contestada). Composto cai de 0.9→0.8 com a correção de inscricao_estatal.",
+      "coded_by": "iconocode-analyze-draft",
+      "confidence_score": 0.75,
+      "prompt_version": "iconocode-analyze-2026-06-05"
+    },
+    {
+      "id": "4a6fa350-a8f7-87ed-e4be-76860dba356b",
+      "source_pr": 123,
+      "title": "Ex-libris da Biblioteca Nacional (A Mulher-Biblioteca) — Eliseu Visconti, 1903",
+      "draft_status": "iconocode-analyze-draft",
+      "image_seen": "https://eliseuvisconti.com.br/wp-content/uploads/2020/03/A803.jpg (1498x2247, alta resolução; folha inclui 3 provas de impressão em verde)",
+      "panofsky": {
+        "level_1": {
+          "figuras": [
+            "1 figura feminina em meio-busto, perfil esquerdo, cabelos volumosos escuros presos em coque, expressão serena concentrada, segurando pena de escrever"
+          ],
+          "vestimenta": "Quase invisível — busto emerge da moldura inferior; o cabelo domina a caracterização",
+          "atributos": [
+            "pena de escrever",
+            "globo terrestre (Américas voltadas ao observador)",
+            "estantes com fileiras de livros",
+            "livros empilhados + livro aberto",
+            "esfera escura no canto superior direito"
+          ],
+          "composicao": "Vinheta quadrada emblemática; letreiro 'BIBLIOTHECA NACIONAL DO RIO DE JANEIRO' arqueado sobre o globo em lettering Art Nouveau; base de balaustrada/plinto com cartucho vazio (campo para registro); superfície densamente preenchida",
+          "suporte": "Desenho a tinta (nanquim) sobre papel; na mesma folha, 3 provas de impressão em verde do carimbo final",
+          "texto_inscrito": "'BIBLIOTHECA NACIONAL DO RIO DE JANEIRO'; assinatura 'E. VISCONTI. RIO 1903.'"
+        },
+        "level_2": {
+          "motivo_alegorico": "A Mulher-Biblioteca — personificação da Biblioteca Nacional (híbrido Sapientia/Scientia), não Justitia canônica",
+          "iconclass": [
+            "48C51",
+            "44A31",
+            "52A1"
+          ],
+          "iconclass_note": "48C51 e 44A31 do registro webscout; 52A1 (Sapientia) sugestão minha — validar com iconclass-reviewer",
+          "tradicao": "Art Nouveau (formação parisiense de Visconti; órbita Grasset/Mucha)",
+          "pathosformel": "Nenhuma fórmula patética — 'leitora absorta': contenção contemplativa que já sinaliza o regime normativo",
+          "comparanda": [
+            "Grasset, ex-libris e cartazes femininos 1890s",
+            "Mucha, perfis femininos em molduras decorativas",
+            "Visconti, emblema da BN (A802, mesmo ano)",
+            "vinhetas da Imprensa Nacional 1900s"
+          ]
+        },
+        "level_3": {
+          "regime": "normativo",
+          "funcao_juridico_politica": "Marca de posse estatal: o corpo feminino autentica a propriedade da nação sobre o livro — carimbo jurídico-patrimonial em cada exemplar da coleção; em uso até hoje",
+          "contrato_sexual_visual": "A mulher não lê para si — ela É a biblioteca: repositório feminizado do saber sob custódia do Estado; Feminilidade de Estado em formato burocrático miniatural",
+          "contrato_racial_visual": "Perfil europeu branco classicizante como rosto da instituição nacional de memória",
+          "colonialidade_do_ver": "O globo exibe as Américas sob custódia da figura branca letrada — cartografia colonial domesticada em emblema de saber estatal"
+        }
+      },
+      "purificacao": {
+        "desincorporacao": 1,
+        "rigidez_postural": 1,
+        "dessexualizacao": 2,
+        "uniformizacao_facial": 1,
+        "heraldizacao": 2,
+        "enquadramento_arquitetonico": 2,
+        "apagamento_narrativo": 2,
+        "monocromatizacao": 3,
+        "serialidade": 3,
+        "inscricao_estatal": 3,
+        "purificacao_composto": 2.0,
+        "regime_iconocratico": "normativo"
+      },
+      "audit_vs_sonnet5": {
+        "sonnet5_composto": 1.8,
+        "divergencias": [
+          "heraldizacao: sonnet5=1, meu=2 — o globo é quase coprotagonista: domina o centro, carrega o letreiro institucional; atributos destacados, quase autônomos (âncora 2).",
+          "apagamento_narrativo: sonnet5=1, meu=2 — não há narrativa alguma; figura isolada com vestígio de contexto (estantes) é literalmente a âncora 2.",
+          "Demais 8: concordância integral (incl. serialidade 3 — confirmo as 3 provas verdes na folha — e inscricao_estatal 3)."
+        ],
+        "regime": "Concordo com normativo."
+      },
+      "analyst_notes": "Item exemplar do polo normativo brasileiro: dispositivo estatal reprodutível (carimbo) + corpo domesticado + contenção Art Nouveau. Composto sobe 1.8→2.0 nas minhas âncoras. Painel Atlas sugerido: V (Ubiquidade Íntima — o carimbo entra em cada livro que o leitor abre).",
+      "coded_by": "iconocode-analyze-draft",
+      "confidence_score": 0.85,
+      "prompt_version": "iconocode-analyze-2026-06-05"
+    },
+    {
+      "id": "sq2-2026-05-19-patria-pedro-bruno-001",
+      "source_pr": 122,
+      "title": "Pátria — Pedro Bruno, 1919",
+      "draft_status": "iconocode-analyze-draft",
+      "image_seen": "Wikimedia Commons 'Pedro Bruno - A Pátria.jpg' (960px)",
+      "panofsky": {
+        "level_1": {
+          "figuras": [
+            "5+ mulheres em interior doméstico costurando a bandeira republicana estendida no chão",
+            "Mãe à esquerda amamentando bebê (seio desnudo)",
+            "Menina central em pé, enrolada na bandeira com estrelas, olhar frontal grave",
+            "Bebê em primeiro plano sobre almofada branca, brincando com uma estrela de pano",
+            "Fundo: anciãos, mãe abraçando criança, mulher costurando na penumbra"
+          ],
+          "vestimenta": "Roupas domésticas de época, coloridas (xales vermelhos/verdes), corpos vestidos exceto seio materno",
+          "atributos": [
+            "bandeira nacional em confecção (verde-amarelo-azul, estrelas avulsas)",
+            "cesta de costura",
+            "retratos masculinos na parede (mártires: Tiradentes, Deodoro, Benjamin Constant)",
+            "estatueta devocional sobre mesa",
+            "cadeira, esteira"
+          ],
+          "composicao": "Cena de gênero em interior; bandeira corta a diagonal inteira do quadro como protagonista material; luz natural da esquerda (paisagem de montanha); criança na bandeira como eixo vertical central",
+          "suporte": "Óleo sobre tela, policromia rica naturalista",
+          "texto_inscrito": "Assinatura 'Pedro Bruno' (canto inferior direito)"
+        },
+        "level_2": {
+          "motivo_alegorico": "Alegoria narrativa da Pátria — a nação nasce do trabalho doméstico feminino; sem personificação única: a 'Pátria' se distribui entre bandeira e criança envolta nela",
+          "iconclass": [
+            "44A31",
+            "48C51"
+          ],
+          "iconclass_note": "Do registro webscout; validar com iconclass-reviewer",
+          "tradicao": "Naturalismo acadêmico tardio + pedagogia cívica positivista da Primeira República",
+          "pathosformel": "Nenhuma — anti-patos deliberado: serenidade doméstica; a única frontalidade é o olhar grave da criança-bandeira",
+          "comparanda": [
+            "cenas de gênero de costura (tradição holandesa oitocentista)",
+            "Betsy Ross costurando a bandeira (mito paralelo EUA, pict. c.1890s)",
+            "François Bonvin/José Ferraz de Almeida Júnior — interiores de trabalho feminino"
+          ]
+        },
+        "level_3": {
+          "regime": "normativo",
+          "funcao_juridico_politica": "Mito de origem do símbolo nacional deslocado para a esfera doméstica: legitima a República apresentando seu emblema como fruto do afeto familiar, não do decreto; pedagogia cívica exposta no Catete",
+          "contrato_sexual_visual": "Explícito e didático: mulheres fabricam o símbolo do Estado por trabalho doméstico não-remunerado, excluídas do ato constituinte (cf. Compromisso Constitucional, mesmo museu) mas encarregadas da costura da nação; maternidade + costura = cidadania feminina permitida",
+          "contrato_racial_visual": "Família nacional retratada integralmente branca em 1919 — a 'República Branca' no seu mito doméstico de origem",
+          "colonialidade_do_ver": "Não operante de forma explícita; branquidade normalizada do lar nacional"
+        }
+      },
+      "purificacao": {
+        "desincorporacao": 0,
+        "rigidez_postural": 0,
+        "dessexualizacao": 0,
+        "uniformizacao_facial": 0,
+        "heraldizacao": 0,
+        "enquadramento_arquitetonico": 0,
+        "apagamento_narrativo": 0,
+        "monocromatizacao": 0,
+        "serialidade": 0,
+        "inscricao_estatal": 2,
+        "purificacao_composto": 0.2,
+        "regime_iconocratico": "normativo"
+      },
+      "analyst_notes": "Caso teoricamente precioso: composto quase nulo (0.2) MAS regime normativo — prova que a domesticação normativa NÃO exige endurecimento formal; opera por gênero de cena (interior doméstico) em vez de heraldização. Dissocia os dois eixos da tese (purificação formal × regime funcional). inscricao_estatal=2 pela bandeira como insígnia-tema + destino Catete. Borderline: sem personificação única — decidir se entra como 'alegoria narrativa' ou item de contexto. Painel Atlas sugerido: I (Mães Fundacionais).",
+      "coded_by": "iconocode-analyze-draft",
+      "confidence_score": 0.8,
+      "prompt_version": "iconocode-analyze-2026-06-05"
+    },
+    {
+      "id": "sq2-2026-05-19-compromisso-constitucional-002",
+      "source_pr": 122,
+      "title": "Compromisso Constitucional — Aurélio de Figueiredo, 1896",
+      "draft_status": "iconocode-analyze-draft",
+      "image_seen": "Wikimedia Commons 'Compromisso Constitucional, Aurélio de Figueiredo 1896.jpg' (960px)",
+      "panofsky": {
+        "level_1": {
+          "figuras": [
+            "Dezenas de homens (deputados constituintes, militares de dragonas, civis de casaca preta) em assembleia; Deodoro ao centro-esquerda prestando juramento sobre a mesa diretora; Prudente de Moraes presidindo",
+            "Mulheres e crianças APENAS na galeria superior, como espectadoras vestidas de gala",
+            "Busto escuro com ramo (alegoria/efígie) no alto à esquerda, quase ilegível na penumbra"
+          ],
+          "vestimenta": "Casacas pretas, fardas com dragonas douradas; mulheres da galeria em vestidos claros e chapéus",
+          "atributos": [
+            "mesa diretora com o texto constitucional",
+            "coroa(?) /objeto dourado sobre a mesa",
+            "flores atiradas ao chão do plenário",
+            "arquitetura de plenário com tribuna e galeria"
+          ],
+          "composicao": "Pintura de história de grande formato (330 × 257 cm); massa escura masculina embaixo, friso feminino claro e distante no alto — segregação espacial literal dos gêneros",
+          "suporte": "Óleo sobre tela, policromia sombria com acentos vermelhos/dourados",
+          "texto_inscrito": "Nenhum legível na reprodução"
+        },
+        "level_2": {
+          "motivo_alegorico": "AUSENTE — pintura documental de história; nenhuma personificação feminina operante (busto marginal ilegível); mulheres reais como plateia",
+          "iconclass": [
+            "44G",
+            "44A31"
+          ],
+          "iconclass_note": "Do registro webscout; validar",
+          "tradicao": "Pintura de história acadêmica oitocentista (linhagem Pedro Américo/Victor Meirelles)",
+          "pathosformel": "Juramento (mão estendida sobre o texto) — fórmula do contrato, não do patos",
+          "comparanda": [
+            "David, Le Serment du Jeu de Paume (1791)",
+            "Pedro Américo, Fala do Trono",
+            "Victor Meirelles, Juramento da Princesa Isabel"
+          ]
+        },
+        "level_3": {
+          "regime": "normativo",
+          "funcao_juridico_politica": "Documento visual da institucionalização republicana: o direito nasce de um contrato entre homens; a imagem registra o Contrato Sexual em ato — mulheres presentes apenas como testemunhas sem voz na galeria",
+          "contrato_sexual_visual": "O caso-limite perfeito: quando o direito se constitui, a alegoria feminina desaparece e as mulheres reais viram plateia — a mulher só entra no direito como símbolo OU como espectadora, nunca como contratante",
+          "contrato_racial_visual": "Constituinte retratada integralmente branca — República Branca documentada",
+          "colonialidade_do_ver": "Não operante de forma explícita"
+        }
+      },
+      "purificacao": null,
+      "coding_recommendation": "NÃO CODIFICAR pelos 10 indicadores — não há figura alegórica feminina a medir; forçar inteiros aqui contaminaria a amostra. Recomendo classificar como ITEM DE CONTEXTO/Zwischenraum (par dialético do Pátria de Pedro Bruno, mesmo museu: homens contratam / mulheres costuram-assistem). Se Ana quiser codificar mesmo assim, a única leitura coerente é desincorporacao=3 por ausência total do corpo alegórico — com os demais indicadores indefinidos.",
+      "analyst_notes": "Desvio deliberado do formato do skill (10 indicadores omitidos): item sem objeto codificável. Valor analítico está na AUSÊNCIA — candidato a figura do capítulo do Contrato Sexual Visual, não ao dataset de purificação. Painel Atlas sugerido: IV (República Branca) como contraponto documental.",
+      "coded_by": "iconocode-analyze-draft",
+      "confidence_score": 0.7,
+      "prompt_version": "iconocode-analyze-2026-06-05"
+    },
+    {
+      "id": "sq3-2026-05-19-smk-retfaerdighed-abildgaard-008",
+      "source_pr": 122,
+      "title": "Udkast til Retfærdighedsrelieffet på Frihedsstøtten — Nicolai Abildgaard, ca. 1792-97",
+      "draft_status": "iconocode-analyze-draft",
+      "image_seen": "SMK IIIF KKSgb4255 (1024px)",
+      "panofsky": {
+        "level_1": {
+          "figuras": [
+            "1 figura alada sentada frontal em trono, torso nu de leitura masculina/ANDRÓGINA, cabelos encaracolados, perna cruzada, expressão neutra"
+          ],
+          "vestimenta": "Drapeado apenas sobre pernas e assento; torso desnudo sem marcação de seios",
+          "atributos": [
+            "nível triangular de prumo (símbolo da igualdade/nivelamento) seguro à esquerda",
+            "dois feixes de varas atados (fasces sem machado) flanqueando o trono como montantes",
+            "forma de trombeta/corneta atrás da perna esquerda",
+            "asas grandes recolhidas"
+          ],
+          "composicao": "Medalhão circular (tondo) para relevo arquitetônico; figura única frontal simétrica preenchendo o campo; fundo neutro",
+          "suporte": "Lápis, pena e tinta castanha sobre papel, 162 × 161 mm — estudo preparatório para relevo em pedra",
+          "texto_inscrito": "Nenhum"
+        },
+        "level_2": {
+          "motivo_alegorico": "Retfærdighed (Justiça) como gênio alado nivelador — SEM balança/espada/venda: o atributo central é o nível de prumo (justiça como igualdade), flanqueado por fasces revolucionários",
+          "iconclass": [
+            "11MM31",
+            "44A31",
+            "48C51"
+          ],
+          "iconclass_note": "Do registro webscout; validar — acrescentar código para 'nível/igualdade' se houver",
+          "tradicao": "Neoclassicismo dinamarquês; vocabulário revolucionário francês (fasces, nível) importado para monumento monárquico-reformista",
+          "pathosformel": "Nenhuma — hieratismo entronado frontal (fórmula de majestade, não de patos)",
+          "comparanda": [
+            "relevos e moedas revolucionárias francesas com o niveau (1793-95)",
+            "Thorvaldsen, relevos alegóricos",
+            "gênios funerários neoclássicos"
+          ]
+        },
+        "level_3": {
+          "regime": "normativo",
+          "funcao_juridico_politica": "Projeto para a Frihedsstøtten (Coluna da Liberdade, Copenhague) — monumento estatal comemorando a abolição da servidão (stavnsbånd, 1788): o Estado absolutista celebra a própria reforma como justiça-igualdade",
+          "contrato_sexual_visual": "Operação por SUBTRAÇÃO: a Justiça revolucionária dessexualizada até a androginia — o corpo feminino tradicional da Justitia é evacuado justamente no monumento da liberdade",
+          "contrato_racial_visual": "Não operante de forma explícita (mas monumento contemporâneo ao debate dinamarquês sobre tráfico atlântico — contexto a explorar)",
+          "colonialidade_do_ver": "Ver nota acima"
+        }
+      },
+      "purificacao": {
+        "desincorporacao": 1,
+        "rigidez_postural": 1,
+        "dessexualizacao": 3,
+        "uniformizacao_facial": 2,
+        "heraldizacao": 2,
+        "enquadramento_arquitetonico": 2,
+        "apagamento_narrativo": 3,
+        "monocromatizacao": 3,
+        "serialidade": 0,
+        "inscricao_estatal": 2,
+        "purificacao_composto": 1.9,
+        "regime_iconocratico": "normativo"
+      },
+      "analyst_notes": "ACHADO: a figura NÃO é a Justitia feminina que o título do registro sugere — é gênio alado andrógino (torso sem seios). dessexualizacao=3 já em 1792: o endurecimento por indeterminação de gênero antecede o séc. XX no neoclassicismo revolucionário. Escores valem para o ESBOÇO; o relevo executado na coluna teria enquadramento=3, serialidade≥1, inscricao_estatal=3. Painel Atlas sugerido: II (Justiça como Templo). Confirmar na peça executada se a androginia se mantém.",
+      "coded_by": "iconocode-analyze-draft",
+      "confidence_score": 0.7,
+      "prompt_version": "iconocode-analyze-2026-06-05"
+    },
+    {
+      "id": "sq3-2026-05-19-vam-iustitia-virtues-009",
+      "source_pr": 122,
+      "title": "Iustitia (série The Virtues) — anônimo flamengo/holandês/italiano, ca. 1575-1625",
+      "draft_status": "iconocode-analyze-draft",
+      "image_seen": "V&A IIIF 2012FE0190 (600x800)",
+      "panofsky": {
+        "level_1": {
+          "figuras": [
+            "1 figura feminina em passo largo (stride), espada erguida na direita, balança estendida na esquerda, cabeça erguida com olhar para o alto, SEM venda; drapeado esvoaçante, corpete ajustado, saia com fenda mostrando a perna"
+          ],
+          "vestimenta": "Corpete de matriz clássico-maneirista marcando o busto, saias em movimento, pés em sandália(?)",
+          "atributos": [
+            "espada erguida (ativa, em gesto)",
+            "balança de dois pratos",
+            "vinhetas narrativas ao fundo à esquerda: tendas e pequenas figuras (cena de juízo/acampamento)"
+          ],
+          "composicao": "Medalhão oval com letreiro 'IVSTITIA' inscrito na borda; moldura de estrapaço grotesco densa: mascarão no topo, cabeças de leão, dragões/leões heráldicos nos cantos, filactéria inferior com dístico latino",
+          "suporte": "Gravura a buril, ~84 × 52 mm (série das Virtudes, 6 de 7 pranchas conhecidas)",
+          "texto_inscrito": "'IVSTITIA'; dístico: 'Iustitia est virtus Phoebi preciosis orbi / Iura suo tribuit quæ sua cuique loco' (transcrição aproximada — conferir no original)"
+        },
+        "level_2": {
+          "motivo_alegorico": "Iustitia dinâmica pré-canônica: sem venda, em passo ativo — anterior à consolidação da Justitia estática e vendada",
+          "iconclass": [
+            "11MM31",
+            "11MM",
+            "48C51"
+          ],
+          "iconclass_note": "Do registro webscout; validar",
+          "tradicao": "Maneirismo nórdico de gravura (órbita Goltzius/Sadeler); séries de Virtudes para mercado de estampas",
+          "pathosformel": "Passo largo com arma erguida — fórmula da virtude militante (Nachleben da mênade/Vitória em marcha)",
+          "comparanda": [
+            "Goltzius, séries das Virtudes (1580s)",
+            "Bruegel, Iustitia (1559) — contraste: lá narrativa penal, aqui emblema",
+            "Ripa, Iconologia (Giustitia) — codificação contemporânea"
+          ]
+        },
+        "level_3": {
+          "regime": "fundacional",
+          "funcao_juridico_politica": "Item genealógico pré-iconocrático (regime atribuído por analogia morfológica): virtude militante para edificação moral privada, sem vínculo estatal — mostra a Justitia ANTES da captura estatal oitocentista",
+          "contrato_sexual_visual": "Corpo feminino como veículo da virtude armada — energia corporal permitida porque confinada ao registro moral-alegórico, não político",
+          "contrato_racial_visual": "Não operante",
+          "colonialidade_do_ver": "Não operante"
+        }
+      },
+      "purificacao": {
+        "desincorporacao": 1,
+        "rigidez_postural": 0,
+        "dessexualizacao": 1,
+        "uniformizacao_facial": 1,
+        "heraldizacao": 1,
+        "enquadramento_arquitetonico": 2,
+        "apagamento_narrativo": 1,
+        "monocromatizacao": 3,
+        "serialidade": 1,
+        "inscricao_estatal": 0,
+        "purificacao_composto": 1.1,
+        "regime_iconocratico": "fundacional"
+      },
+      "analyst_notes": "Baseline genealógico útil: Justitia c.1600 SEM venda e em movimento — bom ponto zero do eixo diacrônico antes do endurecimento estatal. Composto 1.1 puxado quase só por suporte (gravura b/n, moldura). Painel Atlas sugerido: II (Justiça como Templo / genealogia da Justitia).",
+      "coded_by": "iconocode-analyze-draft",
+      "confidence_score": 0.75,
+      "prompt_version": "iconocode-analyze-2026-06-05"
+    },
+    {
+      "id": "sq4-2026-05-19-loscher1536-iustitia-011",
+      "source_pr": 122,
+      "title": "Allegorie der irdischen und göttlichen Gerechtigkeit — Sebastian Loscher, Augsburg 1536",
+      "draft_status": "iconocode-analyze-draft",
+      "image_seen": "museum-digital SMB (500px; foto oficial Andres Kilger)",
+      "panofsky": {
+        "level_1": {
+          "figuras": [
+            "1 figura feminina seminua em pé, torso desnudo, drapeado nos quadris, apoiando o cotovelo em coluna com placa 'IVSTICIA', pernas cruzadas, braço erguido apontando para o céu/nuvens",
+            "1 putto alado agachado à direita manipulando globo terrestre (com espada/balança junto ao globo)"
+          ],
+          "vestimenta": "Nudez parcial renascentista; drapeado clássico nos quadris",
+          "atributos": [
+            "coluna com inscrição IVSTICIA (fortitudo/poder)",
+            "globo terrestre",
+            "espada e balança junto ao globo (portadas pelo putto, não pela figura)",
+            "torre/coluna em ruína à direita",
+            "nuvens com irradiação divina no alto (Deus Pai/sol)"
+          ],
+          "composicao": "Relevo retangular com palco arquitetônico: arco e pilastra à esquerda, paisagem com torre à direita; figura em contrapposto olhando para o alto; datação '1536' e monograma 'S L' inscritos",
+          "suporte": "Relevo esculpido (SMB, Ident. Nr. M 83), monocromia do material",
+          "texto_inscrito": "'IVSTICIA' na base da coluna; '1536'; monograma 'S L'"
+        },
+        "level_2": {
+          "motivo_alegorico": "Dualidade justiça terrena × divina: Iustitia NÃO segura os próprios atributos (o putto os oferece junto ao globo) e volta o olhar para Deus — a fonte da Gerechtigkeit é transcendente",
+          "iconclass": [
+            "11MM31",
+            "11MM",
+            "44G",
+            "48C51"
+          ],
+          "iconclass_note": "Do registro webscout; validar",
+          "tradicao": "Renascimento alemão de Augsburg (círculo Fugger); humanismo jurídico pré-Reforma/Reforma",
+          "pathosformel": "Contrapposto apoiado com braço apontando ao céu — fórmula da mediação (entre mundo e transcendência), patos contido",
+          "comparanda": [
+            "Cranach, Justitia (1537) — nudez + espada/balança, mesmíssimo momento",
+            "relevos Fugger de Augsburg",
+            "Dürer, Sol Iustitiae"
+          ]
+        },
+        "level_3": {
+          "regime": "fundacional",
+          "funcao_juridico_politica": "Item genealógico pré-iconocrático (regime por analogia morfológica): a justiça ainda precisa de fonte divina — o corpo feminino é mediador, não emblema estatal; marco do momento ANTERIOR à secularização do dispositivo",
+          "contrato_sexual_visual": "Nudez feminina como veículo da verdade (nuda veritas jurídica): o corpo exposto autentica a mediação divina",
+          "contrato_racial_visual": "Não operante",
+          "colonialidade_do_ver": "Globo terrestre sob a espada — germe da juridificação do mundo, a explorar"
+        }
+      },
+      "purificacao": {
+        "desincorporacao": 0,
+        "rigidez_postural": 1,
+        "dessexualizacao": 0,
+        "uniformizacao_facial": 1,
+        "heraldizacao": 2,
+        "enquadramento_arquitetonico": 2,
+        "apagamento_narrativo": 1,
+        "monocromatizacao": 3,
+        "serialidade": 0,
+        "inscricao_estatal": 0,
+        "purificacao_composto": 1.0,
+        "regime_iconocratico": "fundacional"
+      },
+      "analyst_notes": "Segundo baseline genealógico (1536): corpo vivo e desnudo, atributos ainda NÃO fundidos ao corpo (heraldizacao=2 pela delegação ao putto — inversão interessante: os atributos começam separados e serão absorvidos depois). Par cronológico com Cranach 1537. Painel Atlas sugerido: II. Nota: monocromatizacao=3 é artefato do suporte escultórico — considerar se o indicador deve ser neutralizado para escultura (questão metodológica para Ana).",
+      "coded_by": "iconocode-analyze-draft",
+      "confidence_score": 0.7,
+      "prompt_version": "iconocode-analyze-2026-06-05"
+    },
+    {
+      "id": "sq2-2026-05-19-caçada-jaguar-museu-republica-014",
+      "source_pr": 122,
+      "title": "Die Kämpfende Amazone (Caçada ao Jaguar) — August Kiss/M. Geiß, c.1860, Palácio do Catete",
+      "draft_status": "iconocode-analyze-draft",
+      "tags": [
+        "#análise-textual"
+      ],
+      "image_seen": "NENHUMA — URL do scout é PDF institucional; sem foto acessível do exemplar do Catete. Análise da descrição textual apenas.",
+      "panofsky": {
+        "level_1": {
+          "figuras": [
+            "(textual) Amazona seminua a cavalo, lança em punho, atacando onça/jaguar; capuz assimilado ao barrete frígio"
+          ],
+          "vestimenta": "(textual) Seminudez guerreira",
+          "atributos": [
+            "lança",
+            "cavalo",
+            "jaguar/onça",
+            "capuz/barrete"
+          ],
+          "composicao": "(textual) Grupo escultórico equestre de combate, 1,60 × 1,15 m, vestíbulo do Palácio do Catete",
+          "suporte": "Fundição em zinco com pátina de bronze (M. Geiß, Berlim), a partir do modelo de August Kiss (1843, Altes Museum)",
+          "texto_inscrito": "Não verificável"
+        },
+        "level_2": {
+          "motivo_alegorico": "Amazona combatente relida como 'Marianne guerreira' no contexto republicano do Catete",
+          "iconclass": [
+            "48C51",
+            "44A31",
+            "92"
+          ],
+          "iconclass_note": "Do registro webscout; validar",
+          "tradicao": "Escultura prussiana oitocentista (Kiss, escola de Rauch); recontextualização republicana brasileira",
+          "pathosformel": "Combate equestre — Pathosformel da amazonomaquia (Nachleben direto do friso antigo)",
+          "comparanda": [
+            "August Kiss, Kämpfende Amazone (1843, escadaria do Altes Museum, Berlim)",
+            "amazonomaquias antigas",
+            "Delacroix, La Liberté (energia combatente feminina)"
+          ]
+        },
+        "level_3": {
+          "regime": "fundacional",
+          "funcao_juridico_politica": "Objeto importado (palácio privado do Barão de Nova Friburgo, 1860s) RESSIGNIFICADO pela República ao ocupar o Catete (1897): a Amazona vira Marianne por transplante de contexto — iconocracia por apropriação, não por encomenda",
+          "contrato_sexual_visual": "Corpo feminino guerreiro admitido enquanto mito exótico (amazona) — a violência feminina só entra no palácio como fábula antiga",
+          "contrato_racial_visual": "Amazona branca europeia domando fera tropical (jaguar) no palácio presidencial — alegoria involuntária da ordem sobre o território, a explorar",
+          "colonialidade_do_ver": "Fera local (onça) como o outro a ser lanceado pela figura europeia — forte candidato ao eixo colonialidade"
+        }
+      },
+      "purificacao": {
+        "desincorporacao": 0,
+        "rigidez_postural": 0,
+        "dessexualizacao": 0,
+        "uniformizacao_facial": 1,
+        "heraldizacao": 0,
+        "enquadramento_arquitetonico": 1,
+        "apagamento_narrativo": 0,
+        "monocromatizacao": 3,
+        "serialidade": 1,
+        "inscricao_estatal": 1,
+        "purificacao_composto": 0.7,
+        "regime_iconocratico": "fundacional"
+      },
+      "analyst_notes": "#análise-textual — NÃO promover a codificação formal sem ver foto do exemplar do Catete (norma do PR #123: só codificar o que se vê). Escores provisórios da descrição + conhecimento do modelo de Kiss (Berlim). inscricao_estatal=1 com ressalva: instalada em palácio PRIVADO nos 1860s; a estatalidade chega em 1897 com a mudança da presidência — o mesmo objeto muda de regime sem mudar de forma (caso-limite bom para o cap. teórico). Painel Atlas sugerido: III (Corpos em Armas). Próximo passo: foto in situ (acervo Museu da República / Google Arts).",
+      "coded_by": "iconocode-analyze-draft",
+      "confidence_score": 0.35,
+      "prompt_version": "iconocode-analyze-2026-06-05"
+    }
+  ],
+  "pr122_screening": {
+    "main_records_at_screening": 328,
+    "scout_candidates": 43,
+    "already_in_main": 22,
+    "novel": 21,
+    "novel_overlap_pr123": [
+      "justica-salomao-portinari-006",
+      "ex-libris-bn-visconti-009"
+    ],
+    "bibliographic_not_codeable": [
+      "sq3-heidelberg-ripa-iconologia-010",
+      "sq4-ripa1603-mdz-001",
+      "sq4-ripa1613-siena-003",
+      "sq4-ripa1669-frankfurt-005",
+      "sq4-alciato1531-augsburg-006",
+      "sq4-alciato1550-lyon-007",
+      "sq4-alciato1577-antwerp-008",
+      "sq4-camerarius-cent3-009",
+      "sq4-saavedra1643-empresas-010"
+    ],
+    "bibliographic_note": "Edições de Ripa/Alciato/Camerarius/Saavedra = fontes da genealogia emblemática, não itens alegóricos individuais — codificação por 10 indicadores não se aplica ao livro inteiro; se desejado, codificar EMBLEMAS específicos (ex.: prancha da Giustitia de cada edição de Ripa) como itens próprios.",
+    "book_covers_unverified": [
+      "sq2-codigo-criminal-imperio-1830-007",
+      "sq2-codigo-criminal-imperio-1876-008",
+      "sq2-codigo-penal-chile-1874-memoriachilena-011"
+    ],
+    "book_covers_note": "Folhas de rosto de códigos penais — presença de alegoria/vinheta não verificada; checar frontispícios antes de decidir."
+  },
+  "addendum_2026_07_02b": {
+    "book_covers_verdict": "VERIFICADO visualmente (folhas de rosto lidas dos PDFs BDSF/Memoria Chilena): NENHUMA alegoria feminina. Código Criminal ed. 1858 (Recife) = rosto tipográfico + vinheta do brasão imperial (heráldica, sem figura); ed. 1877 (Rio, Paula Pessoa) = rosto puramente tipográfico; Código Penal Chile 1874 = capa manuscrita + páginas tipográficas. Recomendação: REJEITAR os 3 como itens do corpus alegórico; manter como referência de contexto jurídico se útil.",
+    "ripa_1603_finding": "Inspeção direta da ed. Heidelberg (diglit ripa1603, canvases 207-210 = pp. impressas 187-190): a entrada GIVSTITIA (+ Giustitia divina/retta/rigorosa/nelle Medaglie) é SÓ TEXTO — sem xilogravura nesta edição de 1603. Achado útil para a genealogia: em 1603 a Justiça de Ripa ainda é receita verbal para artistas, não imagem fixada. Alvo correto para codificação visual = prancha da ed. Siena 1613 (sq4-ripa1613-siena-003) — próxima sessão.",
+    "amazona_photo_status": "Sem foto acessível do exemplar do Catete: Wikimedia Commons (categorias Palácio do Catete/Museu da República) negativo; busca no site do museu negativa; PDF do jardim (84 págs.) sem menção a amazona/jaguar/Kiss — inclusive a URL do scout é evidência fraca. Mantém #análise-textual. Sugestão: foto in situ na próxima visita ao Rio, ou acervo fotográfico Ibram."
+  },
+  "addendum_2026_07_02c_rodada_F4": {
+    "ripa_1613_siena_finding": "Inspeção direta da ed. Siena 1613 Bd.1 (Heidelberg diglit ripa1613bd1, canvases 304-306 = pp. impressas 294-296): entrada GIVSTITIA + Giustitia Divina + Giustitia ('Donna vestita di bianco, habbia gli occhi bendati') + retta/rigorosa/nelle Medaglie — TODAS só texto, SEM xilogravura, enquanto GLORIA DE' PRENCIPI (p. 297) é ilustrada. Somado ao achado da ed. 1603: nas duas edições disponíveis, a VENDA da Justiça é prescrição VERBAL antes de ser imagem — a codificação textual precede a estabilização visual. Dado genealógico forte para o cap. da Purificação Clássica; não há prancha a codificar nessas edições.",
+    "ciclos_economicos_verdict": "VERIFICADO visualmente (og:image portinari.org.br, painel do garimpo/Ouro): cenas realistas de trabalho masculino, sem figura alegórica feminina — falha o critério de inclusão nº 1. REJEITAR como item do corpus; manter como contexto comparativo da obra de Portinari (contraste com A Justiça de Salomão, 1948).",
+    "amazona_status": "Inalterado — sem foto acessível (ver addendum b). Permanece #análise-textual.",
+    "conclusao_rodada": "Lote SCOUT 2026-05-19 esgotado: 6 codificados visualmente + 1 textual + 1 não-codificável (contexto) + 3 capas rejeitadas + 9 bibliográficos + 1 rejeitado (Ciclos) + 2 achados genealógicos (Ripa 1603/1613). PR #122 pode ser avaliado para fechamento."
+  }
+}

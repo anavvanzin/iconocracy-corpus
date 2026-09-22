@@ -103,7 +103,7 @@ python tools/scripts/argos_acquire_item.py --item-id DE-004 --playwright-allowed
 Aplica um patch JSON a um item específico de `manifest.json`, usando lock file para evitar condições de corrida entre subagentes.
 
 ```bash
-python tools/scripts/argos_manifest_update.py --item-id BR-001 --patch '{"status":"manual_review"}'
+python tools/scripts/argos_manifest_update.py --item-id BR-001 --patch '{"status":"manual"}'
 python tools/scripts/argos_manifest_update.py --manifest data/raw/argos/manifest.json --item-id FR-013 --patch '{"failure_class":"403_block"}'
 ```
 

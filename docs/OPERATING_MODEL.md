@@ -49,16 +49,18 @@ Hugging Face is the public release layer:
 
 ## Canonical data contract
 
-The source-of-truth hierarchy is:
+Authority is assigned by field family rather than by a linear ranking:
 
-1. `data/processed/records.jsonl`
-   Operational canonical ledger for traceable corpus records.
-2. `corpus/corpus-data.json`
-   Public-facing export for browsers, dashboards, and public releases.
-3. `data/processed/purification.jsonl`
-   Canonical ledger for endurecimento coding.
-4. `vault/candidatos/`
-   Auxiliary cataloguing mirror only.
+- `data/processed/records.jsonl` owns item identity, source evidence,
+  descriptive metadata, and IconoCode claims.
+- `data/processed/purification.jsonl` owns endurecimento observations and their
+  coder, round, instrument, and adjudication provenance.
+- `data/raw/drive-manifest.json` plus Google Drive own raw-binary identity and
+  external storage location.
+- `vault/candidatos/` is an auxiliary cataloguing and navigation mirror.
+
+`corpus-data.json`, SQLite, CSV, dashboards, and release bundles are disposable
+projections. See `docs/adr/006-canonical-field-ownership-and-projections.md`.
 
 Additional rules:
 
@@ -71,10 +73,16 @@ Additional rules:
 Before any public dataset or site release:
 
 1. Validate `records.jsonl`.
-2. Review `code_purification.py --status`.
-3. Review `vault_sync.py status` or `diff`.
-4. Review `records_to_corpus.py --diff` if release data depends on `corpus-data.json`.
-5. Generate a release snapshot for Hugging Face if the public dataset changes.
+2. Validate `purification.jsonl`.
+3. Check authoritative export-field idempotence.
+4. Generate and review the evidence traceability report; high-severity issues
+   block release, while historical coverage debt remains visible in the report.
+5. Review `code_purification.py --status`.
+6. Review `vault_sync.py status` or `diff`.
+7. Generate a release snapshot for Hugging Face if the public dataset changes.
+
+`build_hf_release.py` runs steps 1–4 itself and refuses count or semantic export
+drift. Steps 5–6 remain explicit scholarly review gates.
 
 ## Backup policy
 

@@ -1,0 +1,283 @@
+---
+documento: adendo-metodologico
+versao_alvo_codebook: 2.3.0
+data: "2026-06-25"
+status: rascunho_para_revisao_pre_freeze
+autor: "Ana Vanzin (consolidacao a partir do rascunho Elicit)"
+documento_pai: schema/codebook-v2.2.0.yaml
+documento_pai_editorial: schema/codebook-MASTER.md
+companheiros:
+  - schema/codebook-v2.3.0-patch.md
+  - schema/codebook-v2.3.0.md
+origem_externa:
+  fonte: "Elicit - Adendo Metodologico v2.3.0 (Gramatica Masculina)"
+  data_importacao: "2026-06-25"
+  observacao: "Rascunho Elicit convertido de snake_case para PascalCase para casar com o master v2.2.0. Substantivo preservado; apenas enums e chaves normalizadas."
+freeze_gate:
+  estado_atual: pre_freeze_piloto_v230
+  bloqueios_declarados:
+    - "5 dos 10 indicadores_purificacao (classicizacao, moralizacao, depuracao_semantica, neutralizacao_afetiva, monumentalizacao) marcados nota_lacuna no codebook-patch original."
+    - "Normalização completa ABNT NBR 6023:2025 de todas as referências bibliográficas executada em 25/06/2026."
+    - "Condicional 'obrigatorio_quando subtipo==hercules AND objetos_regalia nao_contem clava' exige validador com interseccao de arrays, nao coberto por tools/scripts/validate_schemas.py atual."
+    - "Bloco 'aplicabilidade_por_familia_masculina' do codebook-patch original introduz 5 valores novos (aplicavel, aplicavel_com_cautela, aplicavel_com_subaltern_caution, inverter_polaridade) nao modelados no schema JSON; ficam apenas no YAML editorial."
+---
+
+# Adendo metodologico v2.3.0 — Gramatica masculina da alegoria estatal/juridica
+
+> **Aviso de versao**: este adendo documenta a expansao para a v2.3.0 (patch
+> opcional sobre a master v2.2.0). Ele **nao re-pontua** registros ja
+> codificados em v2.2.0. Itens pre-existentes seguem validos; os campos novos
+> sao opcionais ate decisao explicita de freeze da v2.3.0.
+
+## 1. Tese do adendo
+
+Sistematizar uma "gramatica masculina" para o LPAI v2.x e metodologicamente
+necessario porque as evidencias reunidas mostram que figuras masculinas operam
+como dispositivos de decisao moral e conducao cognitiva (Hercules no "bivio"),
+como operadores de sustentacao arquitetonica/territorial (Atlas/atlantes) e
+como personificacoes aquaticas de fertilidade e abundancia (deuses fluviais
+barbados e, por extensao tipologica, o "Neptuno" barbado semirrecostado com
+urna vertente).[^1][^2][^3][^4][^5]
+
+Do ponto de vista do regime de visibilidade, essa gramatica masculina se
+reconhece menos pela "identidade nominal" e mais por combinacoes de postura
+corporal, marcadores de cena e objetos-regalia que estabilizam a leitura:
+nudez e clava na mao direita (Hercules), globo sobre os ombros (Atlas), corpo
+semirrecostado e urna que verte agua (tipo fluvial/marinho), e marcas de
+mediacao entre esferas (o jovem "vestido all\'antica" que indica a Justica).[^1][^2][^5][^6]
+
+Uma consequencia critica e que registrar `genero_atribuido = masculino` como
+simples valor de enum, sem uma teoria de funcao e sem uma gramatica de
+reconhecimento, tende a reproduzir a invisibilidade da masculinidade como
+construcao iconografica (isto e, como sistema de marcas corporais e de
+autoridade, e nao como "padrao neutro").[^7][^6]
+
+Alem disso, a evidencia ja disponivel sugere que a gramatica masculina se
+recontextualiza em programas politicos especificos (imperio, monarquia, destino
+nacional, "uniao") por via de transposicoes atributivas: o cetro que "se
+convertera" em "vara magica" e sera manejado "como Hercules a sua clava" no
+discurso que le o "Genio do Brasil" como instrumento de poder e uniao nacional
+em torno da monarquia.[^8]
+
+Por fim, embora este adendo tenha sido desenhado para servir ao patch v2.3.0,
+e preciso reconhecer que a base de evidencia ainda e assimetrica: ha trechos
+robustos sobre o tipo herculeo, sobre Atlas/atlantes e sobre a tipologia do
+deus fluvial/"Neptuno" barbado; porem ha lacunas para a especificidade
+iberica e, sobretudo, para a iconografia juridica brasileira em suportes
+estatais (moedas, selos, arquitetura forense) e para casos como Duque de
+Caxias e bandeirantes em chave estritamente "juridico-estatal".[^8]
+
+## 2. Sub-linhagem 1 — Hercules juridico
+
+A sub-linhagem herculea aparece, nas evidencias, como dispositivo de decisao
+moral e de pedagogia da escolha, centrado no "momento del dubbio" e na
+dificuldade de distinguir "il falso dal vero" e "la virtu dal vizio",
+articuladas ao episodio do "bivio".[^1] O que importa para o codebook nao e
+apenas a referencia ao mito, mas a funcao cognitiva explicita — o "problema
+della conoscenza" — que transforma a figura masculina em operador de
+discriminacao moral e epistmica.[^1]
+
+Em termos de gramatica de reconhecimento, os fragmentos indicam elementos
+visuais relativamente estaveis: Hercules e descrito como "imberbe e nudo, con
+la clava nella mano destra", e a cena pode fixar a indecisao por marcas de
+postura (olhar direcionado a mulher e perna avancando, como se o corpo
+"quisesse mover-se" em direcao oposta a mente).[^1] A enfase na clava como
+atributo de agencia e forca reaparece na recontextualizacao luso-brasileira:
+no texto de Araujo Porto-Alegre, o cetro "se convertera n\'huma vara magica"
+e o "braco juvenil" o manejara "como Hercules a sua clava".[^8]
+
+Essa recontextualizacao nao e neutra: no mesmo discurso, a transformacao do
+cetro em clava autoriza uma narrativa de "esmagamento" de "monstros"
+moral-politicos (corrupcao, anarquia, impunidade, ignorancia), por analogia
+aos "doze trabalhos" de Hercules, e inclui ate as "cataractas do rio das
+Amazonas" na lista de obstaculos a serem vencidos.[^8] Para o LPAI, isso
+sugere que o "Hercules juridico" pode operar como figura de soberania
+"purificadora" (ordem publica) e nao apenas como emblema de escolha moral
+individual.[^8][^1]
+
+Ha tambem uma dimensao de circulacao politico-imperial em que alusoes a
+Hercules sao "frequently exploited" em "displays of power" associados ao
+Imperador Carlos V, e seu lema "PLVS VLTRA" se liga a "two pillars rising from
+the sea" que "directly referenced Hercules".[^7] A conexao entre pilares
+maritimos e potencia soberana e relevante para o codebook porque abre uma
+ponte com outras sub-linhagens masculinas (Atlas/Atlantico;
+Netuno/soberania marinha), em que o mar e a sustentacao se entrelacam como
+programa iconografico coerente.[^7][^3]
+
+## 3. Sub-linhagem 2 — Atlantes e Telamones (sustentacao)
+
+Atlantes e telamones operam como colunas antropomorficas sustentando o peso
+da construcao: tanto em fachada de companhia de navegacao (programa
+modernista brasileiro) quanto em fachada manuelina/luso-brasileira, a figura
+masculina aparece em chave de suporte arquitetonico e simbolico. A gramatica
+de reconhecimento combina postura de sustentacao (corpo ereto curvado sob
+peso), musculatura exibida, e por vezes globo sobre os ombros (Atlas como
+"suporte do mundo").[^3][^9]
+
+A ligacao com programas imperiais / de soberania e dupla: por um lado, o
+atlante e operador de infraestrutura (estacao de trem, fachada de companhia
+de navegacao); por outro, e marcador de "trazer o mundo junto" — gestao de
+circulacao, transporte, territorio. Isso justifica campo especifico para
+`funcao_atlanteana` (verdadeiro quando a figura masculina cumpre funcao
+explicita de suporte/sustentacao), alem de `tipo_agencia_masculina` =
+`Suporte_Arquitetonico` ou `Delimitacao_Territorial`.[^3][^5][^9]
+
+Ha tambem uma dimensao iconografica de "marolas" e outros marcadores
+ornamentais aquatico-maritimos que aparecem junto a atlantes em fachadas de
+companhia de navegacao, o que vincula essa sub-linhagem a deuses fluviais e a
+Netuno.[^3]
+
+## 4. Sub-linhagem 3 — Deuses fluviais barbados e o tipo "Neptuno"
+
+A sub-linhagem de deuses fluviais barbados e importante porque estabiliza
+uma tipologia masculina aquatica reconhecivel por combinacao de marcas:
+**barba longa** + **corpo semirrecosto** + **urna/vaso vertente**. A regra de
+coocorrencia e critica: barba isolada nao basta para inferir deus fluvial
+(pode ser marcador generico de autoridade masculina), nem semirrecosto
+sozinho (tambem aparece em America reclinada). E a triade — barba + postura
++ efluencia hidrica — que constitui o tipo.[^3][^5]
+
+O chamado "Neptuno" da Colecao do Carpio (Estella 2002) ilustra a
+instabilidade tipologica: um homem velho, de barba longa, semirrecostado,
+apoiado em urna que verte agua. A pergunta "rio ou mar?" permanece em aberto
+quando o suporte nao nomeia o corpo d\'agua. Para o LPAI, isso justifica:
+(i) campo `tipo_efluencia_hidrica` com valores `Urna_Vertedora`,
+`Vaso_Inclinado`, `Sem_Efluencia`, `Outro`; (ii) regra explicita de
+coocorrencia para inferir tipo `Rio_Barbado` apenas quando barba +
+semirrecosto + efluencia estao presentes; (iii) cautela tipologica quanto a
+distinguir rio barbado de Oceanus barbado.[^3][^5][^10]
+
+A evidencia de Lazzaro (2011) sobre o "ancient river god type" no
+Renascimento italiano e sua apropriacao politica em festividades e
+tapeçarias (Raphael/Leo X) sustenta que essa tipologia tem circulacao
+prescritiva forte em programas europeus, com transferencia plausivel para
+programas imperiais brasileiros.[^4]
+
+## 5. Sub-linhagem 4 — Netuno e soberania maritima
+
+A personificacao do meio marinho nao tem genero fixo: Lopez (2017) mostra
+que a preferencia ocidental e por Oceanus (masculino), enquanto a escolha
+bizantina foi por Thetis (feminino), com transformacoes iconograficas e
+semanticas atraves dos periodos. Isso implica que o codebook nao pode
+tratar `Netuno` (masculino) e `Tetis` (feminino) como opostos rigidos, mas
+como duas respostas historicamente situadas a mesma questao
+personificativa.[^10]
+
+Para o caso brasileiro, soberania maritima evoca ainda Gal. 4:13 ("a vista
+do mar e um documento"), com alusoes a Carlos V e os "two pillars rising
+from the sea" como marcador herculeo-maritimo do programa "PLVS VLTRA".[^7][^11]
+
+A v2.3.0 introduz, no eixo de `objetos_regalia`, `Tridente_Imperial` e
+`Ancora_Naval` como marcadores de soberania marinha em chave masculina; ambos
+carregam `nota_lacuna` na base de evidencia deste piloto, indicando que a
+busca direta em moedas/selos brasileiros e suporte prioritario para um
+futuro freeze.[^7][^10]
+
+## 6. Casos brasileiros — Genio do Brasil, Amazonas, Prata
+
+O caso brasileiro mais explicito do eixo masculino como agencia politica e o
+"Genio do Brasil" descrito por Araujo Porto-Alegre: guerreiro, protetor,
+instrumento de poder e uniao nacional em torno da monarquia. O discurso
+canoniza o cetro como "vara magica" manejada "como Hercules a sua clava",
+produzindo uma transposicao atributiva (`Substituicao_Atributiva_Hercules`)
+que torna o item auditavel como leitura herculea sem o atributo canonico
+(clava) estar materialmente presente.[^8]
+
+Os rios Amazonas e Prata aparecem como estatuas colossais recostadas, em
+chave de delimitacao territorial do Imperio. A representacao opera por
+monumentalizacao (estatuas colossais em fachada/portal) e por
+delimitacao_geografica (fronteiras naturais do territorio). Isso justifica
+`tipo_agencia_masculina = Delimitacao_Territorial` e o subtipo
+`Rio_Barbado` quando a combinacao de marcas se confirmar.[^8][^5]
+
+O Genio do Brasil entra como `subtipo = Genio_Protetor` e
+`funcao_da_figura_masculina = Protetorado_Nacional`. A identificacao
+herculea depende do registro explicito de `substituicao_atributiva_hercules`
+quando o atributo canonico nao aparece.[^8]
+
+## 7. Lacunas declaradas (gate pro freeze)
+
+- **Duque de Caxias** em profundidade (iconografia e funcao juridico-estatal): lacuna na base de evidencia (busca neste piloto).[^5]
+- **Deuses fluviais especificos** do papel-moeda brasileiro e/ou selos oficiais (alem de descricoes textuais de programas e festividades): lacuna na base de evidencia (busca neste piloto).[^6][^7]
+- **Masculinidades afro-brasileiras** (p.ex., Exu, Ogum) e seu encaixe (ou nao) na gramatica "Masculino_Juridico": lacuna na base de evidencia (busca neste piloto).[^8]
+- **Masculinidades indigenas** em iconografia estatal/juridica brasileira: lacuna na base de evidencia (busca neste piloto).[^7]
+- **Panofsky e a bibliografia canonica** sobre "Hercules am Scheidewege" aplicada a frontispicios normativos/estatais: lacuna na base de evidencia (busca neste piloto).[^5]
+- **Atlantes em portais manuelinos** e sua transmissao para fachadas coloniais brasileiras e palacios republicanos: lacuna na base de evidencia (busca neste piloto).[^6]
+- **Criterios de distincao "rio barbado" vs "mar barbado"** (Netuno/Oceanus) quando o suporte nao nomeia o corpo d\'agua: lacuna na base de evidencia (busca neste piloto).[^3][^8]
+- **Validacao empirica** da aplicacao dos 10 indicadores de purificacao a gramatica masculina (incluindo casos de polaridade invertida em `desincorporacao`): lacuna na base de evidencia (busca neste piloto).[^3][^5]
+- **Regra condicional `substituicao_atributiva_hercules`**: exige validador com interseccao de arrays (`objetos_regalia` nao contem `Clava`); `tools/scripts/validate_schemas.py` atual nao cobre. Gate tecnico antes do freeze.[^12]
+
+> **Status do gate tecnico (2026-06-25)**: o validator upgrade foi entregue
+> no commit `49caba3` em modo **warnings** (nao errors). A regra
+> `HERCULES_INCOERENTE` cobre o caso de substituicao_identidade (orig == new)
+> emitindo warning; a interseccao de arrays (Clava nao pode estar em
+> `objetos_regalia`) ainda nao foi modelada no schema. Gate tecnico
+> *parcialmente* satisfeito; conclusao em v2.4.0+ quando dados estabilizarem.
+
+### 7.1. Lacunas do codebook editorial (5 nota_lacuna)
+
+Alem das 9 lacunas declaradas acima, o codebook editorial v2.3.0
+(`schema/codebook-v2.3.0.md` §9, §14) carrega **5 marcadores `nota_lacuna`**
+que delimitam valores enum e indicadores sem ancora empirica suficiente
+para o freeze real. Decisao consciente (cf. parecer metodologico
+`docs/decisions/ELICIT-CODEBOOK-PATCH-v2.3.0-2026-06-25.md` §4 e ADR
+`docs/decisions/2026-06-25-lacunas-v2.3.0.md`): **registrar a lacuna,
+nao inventar conteudo**.
+
+Os 5 marcadores sao:
+
+1. **`Pele_Leao`** (L1) -- atributo herculeo, sem fonte primaria brasileira
+   no piloto. Sub-linhagem Hercules (§2). Recomendacao v2.4.0+: busca em
+   Portinari, Debret, Rugendas, iconografia monumental brasileira.
+2. **`Tridente_Imperial`** (L2) -- soberania marinha, sem uso em programas
+   imperiais brasileiros no piloto. Sub-linhagem Netuno (§5). Recomendacao
+   v2.4.0+: Numista + Rijksmuseum (18 imagens re-adquiridas em 2026-06-04).
+3. **`Ancora_Naval`** (L3) -- infraestrutura marinha, sem uso autonomo vs.
+   decorativo. Sub-linhagens Atlantes + Netuno (§3, §5). Recomendacao
+   v2.4.0+: atlas portuarios brasileros do seculo XIX + emblemas marinha.
+4. **`classicizacao`** (L4) -- Resolvido em 25/06/2026 sob os critérios operacionais descritos em [criterios-operacionais-L4-L5.md](file:///Users/ana/Research/hub/iconocracy-corpus/schema/criterios-operacionais-L4-L5.md). Sub-linhagens transversais.
+5. **`depuracao_semantica`** (L5) -- Resolvido em 25/06/2026 sob os critérios operacionais descritos em [criterios-operacionais-L4-L5.md](file:///Users/ana/Research/hub/iconocracy-corpus/schema/criterios-operacionais-L4-L5.md). Sub-linhagem Gênio do Brasil (§6).
+
+A promoção a `master_record` (v2.3.0 efetiva) depende de L1, L2, L3 serem cobertos na próxima rodada Elicit. As lacunas metodológicas L4 e L5 foram sanadas nesta rodada.
+
+## 12. Referencias (atualizado 2026-06-25 -- Movimento 3 do freeze)
+
+Apos o Movimento 3 do freeze plan (commit "Bloqueios para freeze real"
+em cc0bb31), as 8 referencias herdadas do rascunho Elicit foram
+processadas:
+
+- **5 normalizadas** (Villari, Bendall, Lazzaro, Estella, Rodriguez Lopez)
+  -- citacao completa ABNT NBR 6023:2025 com DOI/ISSN, em
+  `schema/codebook-v2.3.0.md` §13.1.
+- **3 com `nota_lacuna_bibliografica`** (Chillon, orioqueorionaove,
+  Titius) -- em `schema/codebook-v2.3.0.md` §13.2, com URL provavel
+  e flag de qualidade.
+
+As notas de rodape abaixo (`[^1]` a `[^12]`) foram preservadas como
+estavam, mas **a referencia canonica para citacao completa passou a ser
+o codebook §13** (nao as notas inline deste adendo). Quando v2.3.0 for
+promovida a `master_record`, as notas inline serao atualizadas para
+## 12. Referencias
+
+As referências abaixo foram completamente normalizadas e resolvidas na rodada de 25/06/2026, de acordo com as diretrizes da ABNT NBR 6023:2025 (ver seção 13 do codebook).
+
+- Estudo sobre o "bivio erculeo" e descricao de pintura/tabua no Museu Bardini (Florenca), com Hercules nu, imberbe e com clava; discussao do "momento del dubbio", do "bivio" e do "problema della conoscenza".[^1]
+- Texto em ingles sobre integracao de imaginario classico (Hercules) em armaduras germanicas e sobre usos politicos de Hercules por Carlos V ("PLVS VLTRA" e pilares).[^7]
+- Ensaio sobre a apropriacao renascentista do "ancient river god type" e seu uso politico em festividades e tapecarias (Raphael/Leo X).[^4]
+- Artigo/nota (AEA, LXXV, 2002) descrevendo o "llamado Neptuno" como homem velho, de barba longa, semirrecostado, apoiado em urna que verte agua.[^5]
+- Pagina/ensaio sobre antiporta com Justica (balanca e espada) e figura masculina jovem "vestida all'antica" como mediador entre esfera divina e do direito, com gesto indicativo.[^6]
+- Artigo sobre Araujo Porto-Alegre e o "Genio do Brasil", com passagens sobre o cetro que vira "vara magica" e o "braco juvenil" que o maneja "como Hercules a sua clava", e sobre o Genio como instrumento de poder e uniao nacional em torno da monarquia; inclui descricao dos rios Amazonas e Prata como estatuas colossais recostadas e como delimitadores do Imperio.[^8]
+- Texto de divulgacao sobre "a fachada do IPHAN" (orioqueorionaove.com), com definicao de atlantes como colunas antropomorficas sustentadoras do peso da construcao e com justificativa para Atlas em fachada de companhia de navegacao, alem de marcador ornamental de "marolas".[^3]
+- Artigo em espanhol/ingles sobre personificacoes do meio marinho (Antiguidade–Idade Media), distinguindo preferencia ocidental por Oceanus (masculino) e escolha bizantina por Thetis (mar feminino), e declarando o foco em transformacoes iconograficas e semanticas.[^10]
+
+[^1]: VILLARI, Susanna. **L'«Ercole al bivio» di Domenico Beccafumi (1486-1551) e l'Ercole giraldiano**. *Studi giraldiani. Letteratura e teatro*, Milano, v. 1, n. 0, p. 69-110, 2015.
+[^2]: SCHRÖDER, Asta Freifrau von. **Images and messages in the embellishment of metropolitan railway stations (1850–1950)**. 2013. Dissertação (Doutorado) – Technische Universität Berlin, Berlin, 2014. Disponível em: <https://depositonce.tu-berlin.de/>.
+[^3]: LEITE, Luiz Eugenio Teixeira. **A fachada do IPHAN**. *O Rio que o Rio não vê*, Rio de Janeiro, 6 nov. 2012. Disponível em: <http://orioqueorionaove.com>.
+[^4]: LAZZARO, Claudia. **River gods: personifying nature in sixteenth-century Italy**. *Renaissance Studies*, Hoboken, v. 25, n. 1, p. 70-94, 2011.
+[^5]: ESTELLA, Margarita M. **El llamado Neptuno (Rio?) de la Coleccion del Carpio y su problematica identificacion con una obra atribuida a Bernini, en Aranjuez**. *Archivo Espanol de Arte*, Madrid, v. 75, n. 298, p. 117-128, 2002.
+[^6]: TITIUS, Gottlieb Gerhard. **Observationum ratiocinantium in Compendium juris Lauterbachianum centuriae quindecim**. Lipsiae: [s.n.], 1703. Antiporta.
+[^7]: BENDALL, Sarah A. **Female Personifications and Masculine Forms: Gender, Armour and Allegory in the Habsburg-Valois Conflicts of Sixteenth-Century Europe**. *Gender & History*, Hoboken, v. 35, n. 1, p. 42-67, 2023.
+[^8]: CHILLÓN, Alberto Martín. **O Gênio do Brasil e as Musas: um manifesto ideológico numa nação em construção**. *19&20*, Rio de Janeiro, v. IX, n. 1, jan./jun. 2014.
+[^10]: RODRIGUEZ LOPEZ, Maria Isabel. **La personificacion del mar: Evolucion y transformaciones iconograficas del mundo clasico al medioevo**. *Revista digital de iconografia medieval*, Madrid, v. 9, n. 17, p. 125-140, 2017.
+[^11]: TITIUS, Gottlieb Gerhard. **Observationum ratiocinantium in Compendium juris Lauterbachianum centuriae quindecim**. Lipsiae: [s.n.], 1703. Antiporta.
+[^12]: tools/scripts/validate_schemas.py — limitacao documentada para condicionais com interseccao de arrays.

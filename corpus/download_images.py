@@ -3,9 +3,11 @@
 import time
 import urllib.error
 import urllib.request
+import os
 from pathlib import Path
 
-OUTPUT_DIR = Path("data/raw")
+_DEFAULT_OUTPUT_DIR = os.environ.get("ARGOS_RAW_STORE", os.path.expanduser("~/Downloads/iconocracy-images"))
+OUTPUT_DIR = Path(_DEFAULT_OUTPUT_DIR)
 
 ITEMS = [
     {"id": "BR-001", "url": "https://brasilianafotografica.bn.gov.br/brasiliana/bitstream/handle/20.500.12156.1/11778/0000001.JPG.jpg?sequence=3&isAllowed=y", "country": "BR"},

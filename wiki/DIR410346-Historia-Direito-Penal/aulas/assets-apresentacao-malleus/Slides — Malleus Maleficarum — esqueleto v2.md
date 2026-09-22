@@ -96,7 +96,7 @@ Direita:
 Sem cabeçalho de seção. Apenas:
 
 **Innsbruck** ← grande, serifada → **Salvador da Bahia**
-`1485 · publicação 1487`                    `1591 · Primeira Visitação`
+`1485 · publicação 1486/1487`                    `1591 · Primeira Visitação`
 
 Linha de dados mínima no centro:
 Sem tribunal permanente · 121 confissões · 212 denunciações · Processos remetidos a Lisboa
@@ -186,7 +186,7 @@ Linhas: PAPEL, CRIME, DESFECHO, REVELA
 
 **O tipo viaja e se transforma**
 
-**1487** Malleus — fusão compósita europeia
+**1486/1487** Malleus — fusão compósita europeia
 **1591** Bahia — decomposição + recomposição (calundu, mandinga, curandeirismo)
 **Cajada** — limiar entre os dois modelos
 

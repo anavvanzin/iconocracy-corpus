@@ -1,0 +1,255 @@
+{
+  "binary": [
+    {
+      "panel_id": 4,
+      "panel_name": "ENDURECIMENTO",
+      "thread_uid": "t-4-0",
+      "a_id": "FR-SEM-1898",
+      "b_id": "FR-008",
+      "manual_primary": "martializacao",
+      "manual_secondary": "",
+      "manual_tertiary": "",
+      "manual_flags": [],
+      "auto_classifications": [
+        [
+          "martializacao",
+          0.9
+        ],
+        [
+          "contradicao_intra",
+          0.55
+        ]
+      ],
+      "auto_primary": "martializacao",
+      "auto_primary_confidence": 0.9,
+      "detected_flags": [
+        "internal_to_country",
+        "cross_regime"
+      ],
+      "all_classifications_above_0_5": [
+        [
+          "martializacao",
+          0.9
+        ],
+        [
+          "contradicao_intra",
+          0.55
+        ]
+      ]
+    },
+    {
+      "panel_id": 6,
+      "panel_name": "Balança e Império",
+      "thread_uid": "t-6-0",
+      "a_id": "BE-002",
+      "b_id": "BE-CONGO-MON-1921",
+      "manual_primary": "contradicao_colonial",
+      "manual_secondary": "",
+      "manual_tertiary": "",
+      "manual_flags": [],
+      "auto_classifications": [
+        [
+          "contradicao_colonial",
+          0.9
+        ],
+        [
+          "martializacao",
+          0.9
+        ]
+      ],
+      "auto_primary": "contradicao_colonial",
+      "auto_primary_confidence": 0.9,
+      "detected_flags": [
+        "diachronic",
+        "internal_to_country",
+        "cross_regime",
+        "colonial_register"
+      ],
+      "all_classifications_above_0_5": [
+        [
+          "contradicao_colonial",
+          0.9
+        ],
+        [
+          "martializacao",
+          0.9
+        ]
+      ]
+    },
+    {
+      "panel_id": 6,
+      "panel_name": "Balança e Império",
+      "thread_uid": "t-6-1",
+      "a_id": "BE-CONGO-100F-1912",
+      "b_id": "BE-CONGO-1912",
+      "manual_primary": "mimesis",
+      "manual_secondary": "",
+      "manual_tertiary": "",
+      "manual_flags": [],
+      "auto_classifications": [
+        [
+          "contradicao_colonial",
+          0.9
+        ],
+        [
+          "serializacao",
+          0.75
+        ]
+      ],
+      "auto_primary": "contradicao_colonial",
+      "auto_primary_confidence": 0.9,
+      "detected_flags": [
+        "internal_to_country",
+        "colonial_register"
+      ],
+      "all_classifications_above_0_5": [
+        [
+          "contradicao_colonial",
+          0.9
+        ],
+        [
+          "serializacao",
+          0.75
+        ]
+      ]
+    },
+    {
+      "panel_id": 8,
+      "panel_name": "Fissuras",
+      "thread_uid": "t-8-0",
+      "a_id": "FR-031",
+      "b_id": "FR-033",
+      "manual_primary": "satirizacao",
+      "manual_secondary": "contradicao_intra",
+      "manual_tertiary": "",
+      "manual_flags": [],
+      "auto_classifications": [
+        [
+          "contradicao_colonial",
+          0.9
+        ],
+        [
+          "serializacao",
+          0.75
+        ],
+        [
+          "satirizacao",
+          0.7
+        ]
+      ],
+      "auto_primary": "contradicao_colonial",
+      "auto_primary_confidence": 0.9,
+      "detected_flags": [
+        "internal_to_country",
+        "colonial_register"
+      ],
+      "all_classifications_above_0_5": [
+        [
+          "contradicao_colonial",
+          0.9
+        ],
+        [
+          "serializacao",
+          0.75
+        ],
+        [
+          "satirizacao",
+          0.7
+        ]
+      ]
+    },
+    {
+      "panel_id": 8,
+      "panel_name": "Fissuras",
+      "thread_uid": "t-8-1",
+      "a_id": "US-019",
+      "b_id": "FR-022",
+      "manual_primary": "genealogia_tensional",
+      "manual_secondary": "contradicao_transnacional",
+      "manual_tertiary": "",
+      "manual_flags": [],
+      "auto_classifications": [
+        [
+          "contradicao_transnacional",
+          0.7
+        ],
+        [
+          "satirizacao",
+          0.7
+        ],
+        [
+          "copresenca_politica",
+          0.6
+        ]
+      ],
+      "auto_primary": "contradicao_transnacional",
+      "auto_primary_confidence": 0.7,
+      "detected_flags": [
+        "colonial_register"
+      ],
+      "all_classifications_above_0_5": [
+        [
+          "contradicao_transnacional",
+          0.7
+        ],
+        [
+          "satirizacao",
+          0.7
+        ],
+        [
+          "copresenca_politica",
+          0.6
+        ]
+      ]
+    }
+  ],
+  "chains": [
+    {
+      "panel_id": 4,
+      "panel_name": "ENDURECIMENTO",
+      "chain_uid": "c-4-0",
+      "item_ids": [
+        "FR-015",
+        "FR-013",
+        "FR-018",
+        "FR-SEM-1898",
+        "FR-008"
+      ],
+      "manual_primary": "endurecimento_progressivo",
+      "auto_classifications": [
+        [
+          "endurecimento_progressivo",
+          0.85
+        ]
+      ],
+      "auto_primary": "endurecimento_progressivo"
+    }
+  ],
+  "analysis": {
+    "n_binary": 5,
+    "n_chains": 1,
+    "concordance_full": 2,
+    "concordance_partial": 1,
+    "concordance_no_manual": 0,
+    "family_distribution": {
+      "IV": 1,
+      "III": 4
+    },
+    "flag_distribution": {
+      "internal_to_country": 4,
+      "cross_regime": 2,
+      "diachronic": 1,
+      "colonial_register": 4
+    },
+    "multi_type_count": 5,
+    "multi_type_rate": 100.0,
+    "relation_counts": {
+      "contradicao_colonial": 3,
+      "martializacao": 1,
+      "contradicao_transnacional": 1
+    },
+    "chain_counts": {
+      "endurecimento_progressivo": 1
+    }
+  }
+}

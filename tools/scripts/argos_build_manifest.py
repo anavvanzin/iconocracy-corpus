@@ -67,7 +67,10 @@ def main() -> int:
     _print_summary(manifest)
 
     if pending_item_count(manifest) == 0:
-        print("No pending items remain; manifest not written")
+        print("No pending items remain.")
+        if not args.dry_run and args.output.exists():
+            args.output.unlink()
+            print(f"Removed stale manifest at {args.output}")
         return 0
 
     if args.dry_run:

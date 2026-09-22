@@ -28,7 +28,7 @@ Ana Vitória Vanzin Mendes
 >
 > **Keywords:** Legal iconography; Iustitia; textual indetermination; hermeneutic closure; formal impartiality; materialist critique of law.
 
-**1. Introdução: a tirania da concreção visual**
+## 1 Introdução: a tirania da concreção visual
 
 A relação entre o texto escrito e a imagem na cultura ocidental caracteriza-se por uma disputa de autoridade sobre o sentido. Enquanto a linguagem escrita, especialmente na literatura e na teologia, mobiliza com frequência a indeterminação para expandir o campo semântico, a cultura visual tende a operar um \"fechamento\", estabilizando o imaginário coletivo em torno de objetos tangíveis. W. J. T. Mitchell, ao propor a noção de \"virada pictórica\" (*pictorial turn*) como evento epistemológico do século XX, argumentou que as imagens não se limitam a ilustrar o pensamento: elas o estruturam, impõem categorias e silenciam alternativas (MITCHELL, 1994, p. 13). Hans Belting, por sua vez, distingue entre a imagem (Bild) como entidade mental ou coletiva, o objeto (*Medium*) que a veicula e o observador que a ativa, sublinhando que o poder da imagem reside justamente em fazer esquecer essa tríade, apresentando-se como realidade imediata e transparente (BELTING, 1994, p. 3-12).
 
@@ -40,9 +40,9 @@ O método adotado combina três instrumentos. Primeiro, a iconologia de Erwin Pa
 
 A essas ferramentas soma-se a crítica materialista e de gênero, na tradição de Marina Warner e Peter Goodrich: as imagens jurídicas não são neutras, e sua persistência nos espaços institucionais do direito — tribunais, selos, moedas — é inseparável das hierarquias que sustentam. Carole Pateman demonstrou que o contrato social pressupõe um *contrato sexual* oculto que subordina as mulheres (PATEMAN, 1988); de modo análogo, a iconografia da imparcialidade pressupõe um *contrato visual* que captura o corpo feminino como suporte da universalidade jurídica. A venda não apenas oculta desigualdades — ela as naturaliza ao transformar em virtude (a "cegueira" da Justiça) o que é, na verdade, uma decisão política de não ver.
 
-**2. A maçã e o inseto: estudos de caso sobre a redução do sentido**
+## 2 A maçã e o inseto: estudos de caso sobre a redução do sentido
 
-**2.1 O malum e a invenção do objeto de desejo**
+### 2.1 O malum e a invenção do objeto de desejo
 
 No texto hebraico do Gênesis (3:6), a referência à árvore do conhecimento do bem e do mal utiliza o termo genérico peri (פְּרִי), que significa simplesmente \"fruto\". A tradição exegética rabínica, ao debater a natureza botânica desse fruto, oscilou entre o figo, a uva, a romã e o trigo, sem jamais fixar um consenso (STEIN, 1994, p. 22-24). A indefinição botânica servia ao propósito teológico: o foco da narrativa residia na transgressão da norma divina, um ato moral e intelectual, e não no consumo de um alimento específico. O que estava em jogo era a hybris do conhecimento, não a dietética do paraíso.
 
@@ -50,7 +50,7 @@ A consolidação da maçã no imaginário ocidental deriva de uma contingência 
 
 A imagem simplificou a teologia, tornando o mito consumível e visualmente reprodutível, à custa de sua complexidade ética. Mas o custo foi maior: ao nomear a maçã, a iconografia nomeou também a culpada. A indeterminação do fruto preservava, no texto, a ambiguidade da responsabilidade compartilhada; a maçã na mão de Eva a cristalizou. Essa operação --- do abstrato ao concreto, do partilhado ao localizado --- é o que este artigo identifica como fechamento hermenêutico. Panofsky diria que a imagem migrou do nível iconológico (transgressão como condição humana) para o nível iconográfico (uma mulher, uma maçã, uma queda), perdendo, nessa descida, a profundidade que a tornava teologicamente produtiva.
 
-**2.2 O *Ungeziefer* e a recusa da representação**
+### 2.2 O *Ungeziefer* e a recusa da representação
 
 Séculos depois, Franz Kafka enfrentou resistência análoga ao tentar preservar a indeterminação em *A Metamorfose*. O termo utilizado para descrever Gregor Samsa, *Ungeziefer*, remete etimologicamente ao \"animal impuro\", inadequado ao sacrifício, denotando uma exclusão ontológica e social antes que biológica. O neologismo concentra, numa única palavra, a experiência de ser classificado como descartável pela ordem que se pretendia natural. Como observou Modesto Carone, tradutor da obra para o português, a palavra não tem equivalente preciso em nenhuma língua moderna europeia, e qualquer tradução literal (barata, inseto, bicho) trai a ambiguidade original (CARONE, 1997, p. 9-10).
 
@@ -58,11 +58,11 @@ A insistência de Kafka, em carta ao editor Kurt Wolff em 1915, para que o inset
 
 A leitura de Benjamin sugere que a recusa de Kafka não era apenas estética, mas política. O *Ungeziefer* indeterminado mantém aberta a questão: de que modo a modernidade produz seres classificados como supérfluos? A barata concreta fecha essa questão, reduzindo-a a um pesadelo pessoal. O fechamento hermenêutico opera, aqui também, como neutralização: transforma em fantasia individual o que era diagnóstico social. A imagem concreta do inseto, bem como a maçã de Eva, descomplexifica, torna palatável e, ao fazer isso, despotencializa.
 
-**3. A metamorfose da *Iustitia*: do olhar atento à cegueira ideológica**
+## 3 A metamorfose da *Iustitia*: do olhar atento à cegueira ideológica
 
 A mesma lógica de concretização redutora que afetou a literatura e a teologia incide sobre a iconografia jurídica, porém com implicações políticas mais profundas. A figura da *Iustitia* vendada, onipresente nos tribunais contemporâneos, é o resultado de uma inversão semântica radical que percorre quatro séculos. Para compreendê-la, é necessário reconstituir, em primeiro lugar, o que a representação de olhos abertos significava --- e por que a cegueira era, para a cultura jurídica clássica e medieval, uma vergonha, não uma virtude.
 
-**3.1 A visão como sabedoria: genealogia da Iustitia ocular**
+### 3.1 A visão como sabedoria: genealogia da Iustitia ocular
 
 Na Grécia antiga, Themis, personificação da lei divina e da ordem cósmica, era representada de olhos abertos, frequentemente segurando uma balança e um cetro. A visão era condição do julgamento: para discernir (*krinein*), era necessário ver. A cegueira, no imaginário grego, era associada não à imparcialidade, mas ao erro, à tirania ou ao castigo divino. Édipo, ao descobrir sua culpa, perfura os próprios olhos --- gesto que sinaliza a incapacidade de suportar a verdade que os olhos revelam, e não a virtude de não ver. Tirésias, o adivinho cego, é exceção que confirma a regra: sua cegueira física é compensada pela visão profética, uma forma superior de enxergar.
 
@@ -70,19 +70,19 @@ No mundo romano, Iustitia tornou-se figura alegórica de Estado, representada na
 
 Durante o período medieval, a iconografia da Justiça manteve os olhos abertos e acrescentou a espada --- atributo do poder executivo que complementa a balança deliberativa. As representações em iluminuras e afrescos dos séculos XII ao XIV apresentam a Iustitia como figura ativa, frequentemente em posição frontal e hierática, enfrentando o espectador com o olhar fixo. Judith Resnik e Dennis Curtis, em seu levantamento de mais de quatro séculos de representações da Justiça em espaços institucionais, documentaram que a Iustitia sem venda dominou a iconografia ocidental até o final do século XV, sendo raras as exceções anteriores (RESNIK; CURTIS, 2011, p. 37-63). A cegueira não era um atributo possível para a Justiça: uma divindade cega seria incapaz de exercer a prudentia --- a virtude do discernimento que Aristóteles considerava a mais elevada das virtudes práticas.
 
-**3.2 A sátira de Sebastian Brant e a venda como denúncia**
+### 3.2 A sátira de Sebastian Brant e a venda como denúncia
 
 A introdução da venda na iconografia ocidental ocorre no final do século XV como denúncia. Na xilogravura atribuída ao jovem Albrecht Dürer para a obra A Nau dos Insensatos (Das Narrenschiff, 1494), de Sebastian Brant, um bobo da corte venda os olhos da Iustitia. A imagem é satírica: a justiça está sendo impedida de ver a verdade pelos tolos e corruptos. A venda denunciava o erro judiciário, a falha do sistema em enxergar a realidade dos fatos. O contexto cultural é o do humanismo tardio, marcado por uma literatura de crítica às instituições corrompidas --- a Igreja, os tribunais, a nobreza --- e Das Narrenschiff é um dos mais influentes exemplos desse gênero: um catálogo de vícios contemporâneos colocados na boca ou nas mãos de tolos.
 
 A escolha de Dürer --- ou do gravurista que adaptou o texto de Brant --- é, portanto, deliberadamente irônica: a venda não é um ornamento da Justiça, mas um ultraje a ela. Erasmo de Roterdã, na Elogio da Loucura (Moriae Encomium, 1511), retomaria o mesmo topos, denunciando como os poderosos transformavam em virtude aquilo que, em outros contextos, seria reconhecido como defeito. A venda na Iustitia de Brant pertence a esse repertório de inversões satíricas: ela não representa uma conquista da imparcialidade, mas a vitória dos insensatos sobre a razão. A cegueira, nesse registro, é vergonha --- e é essa vergonha que a tradição liberal subsequente precisará apagar para instalar a venda como emblema de virtude.
 
-**3.2b A transmissão emblemática: de Brant a Ripa (séculos XVI–XVII)**
+### 3.2b A transmissão emblemática: de Brant a Ripa (séculos XVI–XVII)
 
 Entre a sátira de Brant (1494) e a codificação de Ripa na *Iconologia* (1603), a venda percorre um caminho que a historiografia costuma comprimir, mas que é decisivo para compreender a inversão semântica. A transmissão operou-se, em grande medida, pela tradição dos *Emblemata* — gênero híbrido de texto e imagem que proliferou na Europa dos séculos XVI e XVII como instrumento de educação moral, política e jurídica. O *Emblematum liber* de Andrea Alciato (1531), marco fundador do gênero, já incluía alegorias da Justiça entre seus emblemas, fixando a associação entre virtude, atributo visual e lema verbal. A tradição emblemática funcionou como *medium* de normalização: ao inscrever a Iustitia em dispositivos pedagógicos que circulavam em edições impressas por toda a Europa, ela sedimentou a associação entre a figura feminina e seus atributos (balança, espada, venda) num registro que já não era satírico nem puramente artístico, mas *didático-moral*.
 
 A estátua de Hans Gieng na *Gerechtigkeitsbrunnen* (Fonte da Justiça) de Berna, datada de 1543, constitui uma estação intermediária reveladora: a Iustitia de Gieng porta a venda, mas numa postura de autoridade e não de submissão — o que indica que a inversão semântica já estava em curso antes de Ripa. Quando Cesare Ripa codifica as variedades de *Giustitia* em 1603, a venda já integra o repertório alegórico estável: não precisa mais ser explicada porque foi *naturalizada* pela repetição emblemática de um século. O fechamento hermenêutico que este artigo identifica é, portanto, também um fenômeno editorial e pedagógico: a difusão massiva de *Emblemata* entre Alciato e Ripa transformou a sátira de Brant em convenção — e a convenção, por força da repetição, tornou-se evidência natural.
 
-**3.3 A venda como abstração liberal: o duplo ocultamento**
+### 3.3 A venda como abstração liberal: o duplo ocultamento
 
 A transvaloração da venda, de defeito para virtude, consolida-se com a ascensão do racionalismo jurídico e do Estado Liberal entre os séculos XVII e XVIII. O processo é gradual e heterogêneo: diferentes países e tradições iconográficas absorvem a venda em momentos distintos e com ênfases variáveis. Mas a narrativa convergente, que se torna dominante no século XIX, sustenta que a Justiça \"não vê\" distinções de classe ou fortuna, garantindo a igualdade formal perante a lei. A venda deixa de ser o objeto com que o bobo tampava os olhos da Iustitia e passa a ser o símbolo que a própria Iustitia escolhe usar --- o que representa uma inversão semântica da maior relevância política.
 
@@ -92,7 +92,7 @@ O segundo ocultamento é de ordem estrutural: a venda legitima a ficção da igu
 
 A homologia com os casos literários é agora completa. Como a maçã naturalizou a culpa de Eva ao convertê-la em objeto de desejo concreto e localizado, e como a barata naturalizou a abjeção de Gregor ao substituir o horror existencial difuso por uma repulsa física específica, a venda naturalizou a exclusão estrutural ao convertê-la em gesto de equidade. Em todos os três casos, a concretização visual opera como fechamento: ela estabiliza, simplifica e apazigua --- tornando ilegível, no mesmo movimento, o que a indeterminação original deixava em aberto.
 
-**3.4 Persistências contemporâneas: a venda no século XX--XXI**
+### 3.4 Persistências contemporâneas: a venda no século XX--XXI
 
 O levantamento realizado por Judith Resnik e Dennis Curtis para Representing Justice (2011) documentou representações da Iustitia em mais de 400 espaços institucionais em diferentes países, incluindo tribunais federais norte-americanos, cortes europeias e organismos internacionais. Os autores demonstraram que a Iustitia vendada tornou-se dominante apenas no século XIX, com a expansão do Estado Liberal e a codificação das garantias processuais formais, e que sua disseminação acompanhou --- não precedeu --- a exclusão sistemática das mulheres das profissões jurídicas. A coincidência cronológica não é acidental: a Iustitia vendada prolifera no mesmo período em que as mulheres reais são barradas dos foros e das faculdades de direito (RESNIK; CURTIS, 2011, p. 96-112). A alegoria da imparcialidade cega serve, assim, para cobrir o espaço deixado vazio pelas mulheres ausentes --- substituindo presença por emblema, participação por ornamento.
 
@@ -100,7 +100,7 @@ No século XX, a *Iustitia* vendada consolidou-se como ícone universal da retó
 
 Nos debates contemporâneos sobre acesso à justiça, diversidade na magistratura e vieses sistêmicos no sistema penal, a venda da *Iustitia* tornou-se um ponto de controvérsia explícita. Organizações de direitos civis nos Estados Unidos têm documentado, com dados estatísticos, as disparidades raciais nas sentenças, nos índices de prisão preventiva e nas taxas de condenação --- dados que desmentem empiricamente a ficção da cegueira igualitária (ALEXANDER, 2010, p. 58-96). No Brasil, os relatórios sobre a composição do Poder Judiciário e os perfis de encarceramento revelam assimetrias análogas de raça e classe que a iconografia da imparcialidade formal não apenas ignora, mas ativamente justifica: se a Justiça não vê diferenças, as diferenças que persistem nos resultados devem ser responsabilidade dos próprios sujeitos, não do sistema. O fechamento hermenêutico torna-se, assim, instrumento de culpabilização estrutural.
 
-**4. Conclusão: o exercício do desver**
+## 4 Conclusão: o exercício do desver
 
 A maçã, o inseto e a venda nos olhos compartilham uma função homóloga na cultura visual: são soluções plásticas que encerram disputas semânticas. Em todos os três casos, a indeterminação original --- o fruto inominado, o animal impuro, a visão como sabedoria --- é substituída por uma imagem concreta que resolve a ambiguidade e, ao resolvê-la, a apaga. A diferença fundamental entre os casos literários e o caso jurídico é a escala das consequências: se a concretização da maçã empobrece a exegese bíblica e a da barata simplifica a crítica social de Kafka, a concretização da venda sustenta uma ideologia de Estado que legitima a exclusão de sujeitos reais do acesso efetivo à justiça.
 
@@ -110,9 +110,9 @@ Esse exercício foi nomeado, na abertura deste artigo, como \"desver\" --- um co
 
 O paradigma indiciário de Ginzburg oferece aqui um último aporte metodológico: o historiador que rastre os detalhes desprezados, os sinais aparentemente insignificantes, encontra nas margens do arquivo a verdade que o centro ocultou (GINZBURG, 1989, p. 170). A venda nos olhos da Iustitia é, vista dessa perspectiva, um sinal precioso: ela diz, com clareza involuntária, que houve um momento em que foi necessário decidir que a Justiça não veria mais. Recuperar esse momento de decisão --- o bobo de Brant tampando os olhos da Iustitia no final do século XV --- é lembrar que o que parece natural é sempre o resultado de uma escolha que poderia ter sido diferente, e que, portanto, ainda pode ser.
 
-**Referências**
+## Referências
 
-**Fontes primárias**
+### Fontes primárias
 
 BÍBLIA. Bíblia de Jerusalém. São Paulo: Paulus, 2002. (Gênesis, cap. 3).
 
@@ -122,7 +122,7 @@ CORPUS IURIS CIVILIS. Digesta. Livro I, título I. In: WATSON, Alan (ed.). The D
 
 KAFKA, Franz. A metamorfose. Tradução e posfácio de Modesto Carone. São Paulo: Companhia das Letras, 1997.
 
-**Bibliografia crítica e teórica**
+### Bibliografia crítica e teórica
 
 ALEXANDER, Michelle. The new Jim Crow: mass incarceration in the age of colorblindness. New York: The New Press, 2010.
 

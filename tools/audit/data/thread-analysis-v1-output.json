@@ -1,0 +1,804 @@
+{
+  "total_threads": 18,
+  "relations": {
+    "co-presence": 8,
+    "serialization": 4,
+    "genealogy": 2,
+    "nachleben": 2,
+    "translatio": 2
+  },
+  "panels": {
+    "ENDURECIMENTO": 6,
+    "Pedra e Bronze": 5,
+    "Gênese": 4,
+    "Justitia": 3
+  },
+  "regime_pairs": {
+    "fundacional↔fundacional": 7,
+    "militar↔militar": 6,
+    "militar↔normativo": 2,
+    "fundacional↔militar": 2,
+    "fundacional↔normativo": 1
+  },
+  "country_pairs": {
+    "France↔France": 5,
+    "Brazil↔Germany": 2,
+    "Belgium↔Belgium": 2,
+    "France↔Germany": 1,
+    "Germany↔Germany": 1,
+    "Belgium↔Germany": 1,
+    "Austria↔Switzerland": 1,
+    "Brazil↔Italy": 1,
+    "Austria↔Germany": 1,
+    "Austria↔Belgium": 1
+  },
+  "shared_motifs": {
+    "sword": 3,
+    "justitia": 3,
+    "marianne": 2,
+    "alegoria feminina": 2,
+    "la belgique": 2,
+    "declaração dos direitos": 1,
+    "liberté": 1,
+    "révolution française": 1,
+    "olive branch": 1,
+    "germania": 1,
+    "imperial crown": 1,
+    "scales": 1,
+    "allegory of europe": 1,
+    "african woman": 1
+  },
+  "regime_relation_matrix": {
+    "fundacional": {
+      "serialization": 6,
+      "co-presence": 6,
+      "genealogy": 1,
+      "nachleben": 2,
+      "translatio": 2
+    },
+    "normativo": {
+      "genealogy": 1,
+      "co-presence": 2
+    },
+    "militar": {
+      "co-presence": 8,
+      "serialization": 2,
+      "nachleben": 2,
+      "genealogy": 2,
+      "translatio": 2
+    }
+  },
+  "avg_score_delta": {
+    "serialization": 0.8,
+    "co-presence": 0.08,
+    "genealogy": 2.5,
+    "nachleben": 0.85,
+    "translatio": 0.6
+  },
+  "threads": [
+    {
+      "panel_id": 1,
+      "panel_name": "Gênese",
+      "thread_uid": "t-1-0",
+      "a_id": "FR-011",
+      "b_id": "FR-012",
+      "a_title": "Illustrations de Calendrier et compost des bergiers (Danse macabre — female Justice figure)",
+      "b_title": "La Liberté guidant le peuple (Eugène Delacroix)",
+      "a_year": 1531,
+      "b_year": 1830,
+      "a_country": "France",
+      "b_country": "France",
+      "a_regime": "fundacional",
+      "b_regime": "fundacional",
+      "a_score": 1.1,
+      "b_score": 0.1,
+      "a_motifs": [
+        "Justice",
+        "Danse macabre",
+        "Figure féminine",
+        "Manuscrit"
+      ],
+      "b_motifs": [
+        "Liberty",
+        "Marianne",
+        "Revolution",
+        "tricolour"
+      ],
+      "a_pathos": "",
+      "b_pathos": "",
+      "relations": [
+        [
+          "serialization",
+          0.6
+        ]
+      ],
+      "primary_relation": "serialization"
+    },
+    {
+      "panel_id": 1,
+      "panel_name": "Gênese",
+      "thread_uid": "t-1-1",
+      "a_id": "FR-012",
+      "b_id": "FR-013",
+      "a_title": "La Liberté guidant le peuple (Eugène Delacroix)",
+      "b_title": "Déclaration des droits de l'homme et du citoyen",
+      "a_year": 1830,
+      "b_year": 1789,
+      "a_country": "France",
+      "b_country": "France",
+      "a_regime": "fundacional",
+      "b_regime": "fundacional",
+      "a_score": 0.1,
+      "b_score": 1.8,
+      "a_motifs": [
+        "Liberty",
+        "Marianne",
+        "Revolution",
+        "tricolour"
+      ],
+      "b_motifs": [
+        "Declaração dos Direitos",
+        "Alegoria feminina",
+        "Liberté",
+        "Marianne",
+        "Révolution française"
+      ],
+      "a_pathos": "",
+      "b_pathos": "",
+      "relations": [
+        [
+          "serialization",
+          0.6
+        ]
+      ],
+      "primary_relation": "serialization"
+    },
+    {
+      "panel_id": 1,
+      "panel_name": "Gênese",
+      "thread_uid": "t-1-2",
+      "a_id": "FR-013",
+      "b_id": "FR-014",
+      "a_title": "Déclaration des droits de l'homme et du citoyen",
+      "b_title": "Déclaration des droits de l'homme et du citoyen (variante)",
+      "a_year": 1789,
+      "b_year": 1789,
+      "a_country": "France",
+      "b_country": "France",
+      "a_regime": "fundacional",
+      "b_regime": "fundacional",
+      "a_score": 1.8,
+      "b_score": 1.8,
+      "a_motifs": [
+        "Declaração dos Direitos",
+        "Alegoria feminina",
+        "Liberté",
+        "Marianne",
+        "Révolution française"
+      ],
+      "b_motifs": [
+        "Declaração dos Direitos",
+        "Alegoria feminina",
+        "Liberté",
+        "Révolution française"
+      ],
+      "a_pathos": "",
+      "b_pathos": "",
+      "relations": [
+        [
+          "co-presence",
+          0.8
+        ]
+      ],
+      "primary_relation": "co-presence"
+    },
+    {
+      "panel_id": 1,
+      "panel_name": "Gênese",
+      "thread_uid": "t-1-3",
+      "a_id": "FR-014",
+      "b_id": "FR-015",
+      "a_title": "Déclaration des droits de l'homme et du citoyen (variante)",
+      "b_title": "Allégorie pour le frontispice du compte-rendu au Roi par M. Necker",
+      "a_year": 1789,
+      "b_year": 1781,
+      "a_country": "France",
+      "b_country": "France",
+      "a_regime": "fundacional",
+      "b_regime": "fundacional",
+      "a_score": 1.8,
+      "b_score": 1.3,
+      "a_motifs": [
+        "Declaração dos Direitos",
+        "Alegoria feminina",
+        "Liberté",
+        "Révolution française"
+      ],
+      "b_motifs": [
+        "Alegoria feminina",
+        "Justiça",
+        "Abundância",
+        "Administração régia",
+        "Iluminismo"
+      ],
+      "a_pathos": "",
+      "b_pathos": "",
+      "relations": [
+        [
+          "serialization",
+          0.6
+        ]
+      ],
+      "primary_relation": "serialization"
+    },
+    {
+      "panel_id": 4,
+      "panel_name": "ENDURECIMENTO",
+      "thread_uid": "t-4-0",
+      "a_id": "FR-012",
+      "b_id": "FR-021",
+      "a_title": "La Liberté guidant le peuple (Eugène Delacroix)",
+      "b_title": "La Liberté guidant le peuple",
+      "a_year": 1830,
+      "b_year": 1830,
+      "a_country": "France",
+      "b_country": "France",
+      "a_regime": "fundacional",
+      "b_regime": "fundacional",
+      "a_score": 0.1,
+      "b_score": 0.2,
+      "a_motifs": [
+        "Liberty",
+        "Marianne",
+        "Revolution",
+        "tricolour"
+      ],
+      "b_motifs": [
+        "Marianne",
+        "Liberté",
+        "revolução",
+        "barricada"
+      ],
+      "a_pathos": "",
+      "b_pathos": "",
+      "relations": [
+        [
+          "co-presence",
+          0.8
+        ]
+      ],
+      "primary_relation": "co-presence"
+    },
+    {
+      "panel_id": 4,
+      "panel_name": "ENDURECIMENTO",
+      "thread_uid": "t-4-1",
+      "a_id": "FR-021",
+      "b_id": "DE-012",
+      "a_title": "La Liberté guidant le peuple",
+      "b_title": "Gerechtigkeit (Allegory of Justice) by Lucas Cranach the Elder",
+      "a_year": 1830,
+      "b_year": 1537,
+      "a_country": "France",
+      "b_country": "Germany",
+      "a_regime": "fundacional",
+      "b_regime": "fundacional",
+      "a_score": 0.2,
+      "b_score": 0.3,
+      "a_motifs": [
+        "Marianne",
+        "Liberté",
+        "revolução",
+        "barricada"
+      ],
+      "b_motifs": [
+        "Justitia",
+        "Justice",
+        "nude allegory",
+        "sword",
+        "scales"
+      ],
+      "a_pathos": "",
+      "b_pathos": "",
+      "relations": [
+        [
+          "co-presence",
+          0.3
+        ]
+      ],
+      "primary_relation": "co-presence"
+    },
+    {
+      "panel_id": 4,
+      "panel_name": "ENDURECIMENTO",
+      "thread_uid": "t-4-2",
+      "a_id": "DE-012",
+      "b_id": "BR-2000R-1907",
+      "a_title": "Gerechtigkeit (Allegory of Justice) by Lucas Cranach the Elder",
+      "b_title": "2000 Réis — Efígie da República com Barrete Frígio",
+      "a_year": 1537,
+      "b_year": 1907,
+      "a_country": "Germany",
+      "b_country": "Brazil",
+      "a_regime": "fundacional",
+      "b_regime": "normativo",
+      "a_score": 0.3,
+      "b_score": 2.8,
+      "a_motifs": [
+        "Justitia",
+        "Justice",
+        "nude allegory",
+        "sword",
+        "scales"
+      ],
+      "b_motifs": [
+        "A República",
+        "Phrygian cap",
+        "bust profile"
+      ],
+      "a_pathos": "",
+      "b_pathos": "Profilbüste — ultimate reduction of female body to sign. Nachleben of Roman Imperial coinage.",
+      "relations": [
+        [
+          "genealogy",
+          0.7
+        ]
+      ],
+      "primary_relation": "genealogy"
+    },
+    {
+      "panel_id": 4,
+      "panel_name": "ENDURECIMENTO",
+      "thread_uid": "t-4-3",
+      "a_id": "BR-2000R-1907",
+      "b_id": "DE-GERM-1900",
+      "a_title": "2000 Réis — Efígie da República com Barrete Frígio",
+      "b_title": "Germania — Reichspost / Deutsches Reich Definitive Stamp (Paul Eduard Waldraff)",
+      "a_year": 1907,
+      "b_year": 1900,
+      "a_country": "Brazil",
+      "b_country": "Germany",
+      "a_regime": "normativo",
+      "b_regime": "militar",
+      "a_score": 2.8,
+      "b_score": 2.8,
+      "a_motifs": [
+        "A República",
+        "Phrygian cap",
+        "bust profile"
+      ],
+      "b_motifs": [
+        "Germania",
+        "imperial crown",
+        "sword",
+        "olive branch",
+        "armor",
+        "Jugendstil"
+      ],
+      "a_pathos": "Profilbüste — ultimate reduction of female body to sign. Nachleben of Roman Imperial coinage.",
+      "b_pathos": "",
+      "relations": [
+        [
+          "co-presence",
+          0.3
+        ]
+      ],
+      "primary_relation": "co-presence"
+    },
+    {
+      "panel_id": 4,
+      "panel_name": "ENDURECIMENTO",
+      "thread_uid": "t-4-4",
+      "a_id": "DE-GERM-1900",
+      "b_id": "DE-GERM-BELG-1914",
+      "a_title": "Germania — Reichspost / Deutsches Reich Definitive Stamp (Paul Eduard Waldraff)",
+      "b_title": "Germania \"Belgien\" Overprint — Military Occupation Stamp (WWI)",
+      "a_year": 1900,
+      "b_year": 1914,
+      "a_country": "Germany",
+      "b_country": "Germany",
+      "a_regime": "militar",
+      "b_regime": "militar",
+      "a_score": 2.8,
+      "b_score": 2.8,
+      "a_motifs": [
+        "Germania",
+        "imperial crown",
+        "sword",
+        "olive branch",
+        "armor",
+        "Jugendstil"
+      ],
+      "b_motifs": [
+        "Germania",
+        "imperial crown",
+        "sword",
+        "olive branch",
+        "Belgien overprint",
+        "military occupation"
+      ],
+      "a_pathos": "",
+      "b_pathos": "",
+      "relations": [
+        [
+          "serialization",
+          0.6
+        ]
+      ],
+      "primary_relation": "serialization"
+    },
+    {
+      "panel_id": 4,
+      "panel_name": "ENDURECIMENTO",
+      "thread_uid": "t-4-5",
+      "a_id": "DE-GERM-BELG-1914",
+      "b_id": "BE-002",
+      "a_title": "Germania \"Belgien\" Overprint — Military Occupation Stamp (WWI)",
+      "b_title": "Palais de Justice de Bruxelles (Joseph Poelaert)",
+      "a_year": 1914,
+      "b_year": 1866,
+      "a_country": "Germany",
+      "b_country": "Belgium",
+      "a_regime": "militar",
+      "b_regime": "normativo",
+      "a_score": 2.8,
+      "b_score": 3.0,
+      "a_motifs": [
+        "Germania",
+        "imperial crown",
+        "sword",
+        "olive branch",
+        "Belgien overprint",
+        "military occupation"
+      ],
+      "b_motifs": [
+        "Justice",
+        "classical allegory",
+        "civic architecture",
+        "colonialism"
+      ],
+      "a_pathos": "",
+      "b_pathos": "Petrificatio maxima — figures literally petrified into architecture. Anti-Maenad: Dionysian energy compressed into Apollonian mass.",
+      "relations": [
+        [
+          "co-presence",
+          0.3
+        ]
+      ],
+      "primary_relation": "co-presence"
+    },
+    {
+      "panel_id": 2,
+      "panel_name": "Justitia",
+      "thread_uid": "t-2-0",
+      "a_id": "AT-001",
+      "b_id": "DE-001",
+      "a_title": "Zeichnet 8. Kriegsanleihe",
+      "b_title": "Gerechtigkeitsbrunnen mit Plastik der Justitia (Hans Gieng, 1543)",
+      "a_year": 1918,
+      "b_year": 1543,
+      "a_country": "Austria",
+      "b_country": "Switzerland",
+      "a_regime": "militar",
+      "b_regime": "fundacional",
+      "a_score": 1.6,
+      "b_score": 0.7,
+      "a_motifs": [
+        "Justitia",
+        "Kriegsanleihe",
+        "scales",
+        "sword",
+        "peace"
+      ],
+      "b_motifs": [
+        "Justitia",
+        "Justice",
+        "blindfold",
+        "sword",
+        "scales"
+      ],
+      "a_pathos": "",
+      "b_pathos": "",
+      "relations": [
+        [
+          "nachleben",
+          0.7
+        ]
+      ],
+      "primary_relation": "nachleben"
+    },
+    {
+      "panel_id": 2,
+      "panel_name": "Justitia",
+      "thread_uid": "t-2-1",
+      "a_id": "BR-042",
+      "b_id": "DE-002",
+      "a_title": "Alegorias do Palácio do Catete — esculturas Val d'Osne (República, Justiça,",
+      "b_title": "Justitia (marble head from Porta di Capua)",
+      "a_year": null,
+      "b_year": 1239,
+      "a_country": "Brazil",
+      "b_country": "Italy",
+      "a_regime": "fundacional",
+      "b_regime": "fundacional",
+      "a_score": 0.0,
+      "b_score": 2.4,
+      "a_motifs": [
+        "Republica",
+        "Justitia"
+      ],
+      "b_motifs": [
+        "Justitia",
+        "Justice",
+        "Frederick II"
+      ],
+      "a_pathos": "",
+      "b_pathos": "",
+      "relations": [
+        [
+          "translatio",
+          0.85
+        ],
+        [
+          "genealogy",
+          0.7
+        ],
+        [
+          "nachleben",
+          0.7
+        ]
+      ],
+      "primary_relation": "translatio"
+    },
+    {
+      "panel_id": 2,
+      "panel_name": "Justitia",
+      "thread_uid": "t-2-2",
+      "a_id": "AT-001",
+      "b_id": "DE-003",
+      "a_title": "Zeichnet 8. Kriegsanleihe",
+      "b_title": "Die Göttin der Gerechtigkeit nach dem heutigen Geschmacke",
+      "a_year": 1918,
+      "b_year": 1750,
+      "a_country": "Austria",
+      "b_country": "Germany",
+      "a_regime": "militar",
+      "b_regime": "fundacional",
+      "a_score": 1.6,
+      "b_score": 0.8,
+      "a_motifs": [
+        "Justitia",
+        "Kriegsanleihe",
+        "scales",
+        "sword",
+        "peace"
+      ],
+      "b_motifs": [
+        "Justitia",
+        "Justice",
+        "satire"
+      ],
+      "a_pathos": "",
+      "b_pathos": "",
+      "relations": [
+        [
+          "nachleben",
+          0.7
+        ]
+      ],
+      "primary_relation": "nachleben"
+    },
+    {
+      "panel_id": 5,
+      "panel_name": "Pedra e Bronze",
+      "thread_uid": "t-5-0",
+      "a_id": "AT-001",
+      "b_id": "BE-CONGO-100F-1912",
+      "a_title": "Zeichnet 8. Kriegsanleihe",
+      "b_title": "100 Francs Banque du Congo Belge — Allegory of Europe Kneeling with African Boys",
+      "a_year": 1918,
+      "b_year": 1912,
+      "a_country": "Austria",
+      "b_country": "Belgium",
+      "a_regime": "militar",
+      "b_regime": "militar",
+      "a_score": 1.6,
+      "b_score": null,
+      "a_motifs": [
+        "Justitia",
+        "Kriegsanleihe",
+        "scales",
+        "sword",
+        "peace"
+      ],
+      "b_motifs": [
+        "Allegory of Europe",
+        "La Belgique",
+        "colonial",
+        "African boys",
+        "medallion",
+        "ivory",
+        "textile"
+      ],
+      "a_pathos": "",
+      "b_pathos": "",
+      "relations": [
+        [
+          "co-presence",
+          0.3
+        ]
+      ],
+      "primary_relation": "co-presence"
+    },
+    {
+      "panel_id": 5,
+      "panel_name": "Pedra e Bronze",
+      "thread_uid": "t-5-1",
+      "a_id": "BE-CONGO-100F-1912",
+      "b_id": "BE-CONGO-1912",
+      "a_title": "100 Francs Banque du Congo Belge — Allegory of Europe Kneeling with African Boys",
+      "b_title": "20 Francs Belgian Congo — Allegory of Europe with Mace and African Woman with Ivory Tusk",
+      "a_year": 1912,
+      "b_year": 1912,
+      "a_country": "Belgium",
+      "b_country": "Belgium",
+      "a_regime": "militar",
+      "b_regime": "militar",
+      "a_score": null,
+      "b_score": 2.0,
+      "a_motifs": [
+        "Allegory of Europe",
+        "La Belgique",
+        "colonial",
+        "African boys",
+        "medallion",
+        "ivory",
+        "textile"
+      ],
+      "b_motifs": [
+        "La Belgique",
+        "allegory of Europe",
+        "mace",
+        "anvil",
+        "African woman",
+        "ivory tusk",
+        "colonial hierarchy"
+      ],
+      "a_pathos": "",
+      "b_pathos": "Dominatio colonialis — rigid European authority + tributary African offering. Nachleben of Roman triumphal presenting gesture.",
+      "relations": [
+        [
+          "co-presence",
+          0.8
+        ]
+      ],
+      "primary_relation": "co-presence"
+    },
+    {
+      "panel_id": 5,
+      "panel_name": "Pedra e Bronze",
+      "thread_uid": "t-5-2",
+      "a_id": "BE-CONGO-1912",
+      "b_id": "BE-CONGO-MON-1921",
+      "a_title": "20 Francs Belgian Congo — Allegory of Europe with Mace and African Woman with Ivory Tusk",
+      "b_title": "Monument aux Pionniers Belges au Congo — La Race Noire Accueillie par la Belgique",
+      "a_year": 1912,
+      "b_year": 1911,
+      "a_country": "Belgium",
+      "b_country": "Belgium",
+      "a_regime": "militar",
+      "b_regime": "militar",
+      "a_score": 2.0,
+      "b_score": null,
+      "a_motifs": [
+        "La Belgique",
+        "allegory of Europe",
+        "mace",
+        "anvil",
+        "African woman",
+        "ivory tusk",
+        "colonial hierarchy"
+      ],
+      "b_motifs": [
+        "La Belgique",
+        "colonial",
+        "African woman",
+        "torch",
+        "veil",
+        "civilizing mission"
+      ],
+      "a_pathos": "Dominatio colonialis — rigid European authority + tributary African offering. Nachleben of Roman triumphal presenting gesture.",
+      "b_pathos": "",
+      "relations": [
+        [
+          "co-presence",
+          0.8
+        ]
+      ],
+      "primary_relation": "co-presence"
+    },
+    {
+      "panel_id": 5,
+      "panel_name": "Pedra e Bronze",
+      "thread_uid": "t-5-3",
+      "a_id": "BE-CONGO-MON-1921",
+      "b_id": "BR-009",
+      "a_title": "Monument aux Pionniers Belges au Congo — La Race Noire Accueillie par la Belgique",
+      "b_title": "A Justiça (Alfredo Ceschiatti, STF Brasília)",
+      "a_year": 1911,
+      "b_year": 1961,
+      "a_country": "Belgium",
+      "b_country": "Brazil",
+      "a_regime": "militar",
+      "b_regime": "militar",
+      "a_score": null,
+      "b_score": 2.2,
+      "a_motifs": [
+        "La Belgique",
+        "colonial",
+        "African woman",
+        "torch",
+        "veil",
+        "civilizing mission"
+      ],
+      "b_motifs": [
+        "Justiça",
+        "Justice",
+        "Themis",
+        "blindfold",
+        "sword",
+        "modernism"
+      ],
+      "a_pathos": "",
+      "b_pathos": "Sitzende Richterin — hieratic stillness. Closed eyes + vertical sword = axis of contained power. Anti-Delacroix: complete arrest of feminine motion.",
+      "relations": [
+        [
+          "genealogy",
+          0.7
+        ]
+      ],
+      "primary_relation": "genealogy"
+    },
+    {
+      "panel_id": 5,
+      "panel_name": "Pedra e Bronze",
+      "thread_uid": "t-5-4",
+      "a_id": "BR-009",
+      "b_id": "AT-001",
+      "a_title": "A Justiça (Alfredo Ceschiatti, STF Brasília)",
+      "b_title": "Zeichnet 8. Kriegsanleihe",
+      "a_year": 1961,
+      "b_year": 1918,
+      "a_country": "Brazil",
+      "b_country": "Austria",
+      "a_regime": "militar",
+      "b_regime": "militar",
+      "a_score": 2.2,
+      "b_score": 1.6,
+      "a_motifs": [
+        "Justiça",
+        "Justice",
+        "Themis",
+        "blindfold",
+        "sword",
+        "modernism"
+      ],
+      "b_motifs": [
+        "Justitia",
+        "Kriegsanleihe",
+        "scales",
+        "sword",
+        "peace"
+      ],
+      "a_pathos": "Sitzende Richterin — hieratic stillness. Closed eyes + vertical sword = axis of contained power. Anti-Delacroix: complete arrest of feminine motion.",
+      "b_pathos": "",
+      "relations": [
+        [
+          "translatio",
+          0.85
+        ]
+      ],
+      "primary_relation": "translatio"
+    }
+  ]
+}

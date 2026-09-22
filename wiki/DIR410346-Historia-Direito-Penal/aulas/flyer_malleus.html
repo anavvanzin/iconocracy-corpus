@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DIR410346 · Apresentação Completa — O Malleus Maleficarum</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  :root{
+    --black:#141116; --white:#E6DFC8; --g600:#B0A99F; --g500:#888078; --g400:#665D55; --g100:#1D1922; --g50:#1A171D;
+    --red:#ff3b30; --blue:#0a72ef; --rubric:#A83A32; --gold:#C6A350;
+    --font:'Geist',-apple-system,system-ui,sans-serif; --mono:'Geist Mono',ui-monospace,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#0C0A0E}
+  body{font-family:var(--font);color:var(--g600);line-height:1.45;-webkit-font-smoothing:antialiased}
+  
+  /* Estrutura de Páginas A4 Verticais */
+  .page, .slide-page {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto 20px;
+    background: var(--black);
+    padding: 11mm 15mm 9mm;
+    display: flex;
+    flex-direction: column;
+    page-break-after: always;
+    break-after: page;
+    position: relative;
+    box-shadow: 0 8px 40px rgba(0,0,0,.15);
+  }
+
+  /* Cabeçalho Uniforme */
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid var(--black);
+    padding-bottom: 8px;
+    height: 25px;
+  }
+  .top .b { font-family: var(--mono); font-size: 11px; letter-spacing: .22em; text-transform: uppercase; color: var(--black); font-weight: 600; }
+  .top .m { font-family: var(--mono); font-size: 9.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--g400); }
+
+  /* Rodapé Uniforme */
+  .foot {
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1.5px solid var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 16px;
+    height: 120px;
+  }
+  .cta .l { font-family: var(--mono); font-size: 9px; letter-spacing: .14em; text-transform: uppercase; color: var(--g400); margin-bottom: 5px; }
+  .cta .url { font-family: var(--mono); font-size: 14px; color: var(--rubric); font-weight: 600; word-break: break-all; }
+  .cta .extra { font-size: 10.5px; color: var(--g500); margin-top: 6px; max-width: 56ch; line-height: 1.4; }
+  .cta .extra b { color: var(--black); font-weight: 600; }
+  .qr { text-align: center; flex-shrink: 0; }
+  .qr img { width: 86px; height: 86px; border: 1px solid var(--g100); border-radius: 8px; padding: 4px; background: #fff; display: block; }
+  .qr span { font-family: var(--mono); font-size: 7.5px; letter-spacing: .1; text-transform: uppercase; color: var(--g400); margin-top: 4px; display: block; }
+  .authors { font-family: var(--mono); font-size: 9.5px; letter-spacing: .1em; color: var(--g400); margin-top: 8px; }
+  .authors b { color: var(--g600); font-weight: 500; }
+
+  /* Elementos do Flyer (Página 1) */
+  .hero { margin-top: 10px; }
+  .kick { font-family: var(--mono); font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--rubric); margin-bottom: 6px; }
+  h1 { font-size: 42px; line-height: .95; font-weight: 300; letter-spacing: -.035em; color: var(--black); }
+  h1 b { font-weight: 600; }
+  .sub { font-size: 14px; color: var(--g500); margin-top: 8px; max-width: 76ch; }
+  .hook { font-size: 13.5px; color: var(--black); margin-top: 8px; font-weight: 400; max-width: 80ch; line-height: 1.38; }
+  .hook b { background: linear-gradient(transparent 60%, rgba(155,44,28,.15) 60%); font-weight: 500; }
+
+  .janus { display: grid; grid-template-columns: 1fr 34px 1fr; margin-top: 11px; border: 1px solid var(--g100); border-radius: 10px; overflow: hidden; }
+  .face { padding: 12px 14px; }
+  .face.reg { background: var(--g50); }
+  .face.rdo { background: var(--black); color: #fff; }
+  .face .t { font-family: var(--mono); font-size: 8.5px; letter-spacing: .16em; text-transform: uppercase; margin-bottom: 4px; }
+  .face.reg .t { color: var(--rubric); } .face.rdo .t { color: var(--gold); }
+  .face h3 { font-size: 17px; font-weight: 600; letter-spacing: -.02em; margin-bottom: 3px; }
+  .face.reg h3 { color: var(--black); }
+  .face p { font-size: 11px; line-height: 1.4; }
+  .face.reg p { color: var(--g500); } .face.rdo p { color: #d6d6d6; }
+  .pivot { display: flex; align-items: center; justify-content: center; background: linear-gradient(180deg,var(--g50),var(--black)); color: var(--gold); font-size: 22px; font-family: var(--mono); }
+  
+  .thesis { font-size: 13px; color: var(--black); margin-top: 8px; font-weight: 300; line-height: 1.32; }
+  .thesis b { font-weight: 600; }
+
+  .arclbl { font-family: var(--mono); font-size: 9.5px; letter-spacing: .18em; text-transform: uppercase; color: var(--g400); margin: 11px 0 6px; }
+  .arc { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .step { border: 1px solid var(--g100); border-radius: 8px; padding: 9px 10px; }
+  .step .n { font-family: var(--mono); font-size: 8px; letter-spacing: .06em; text-transform: uppercase; color: var(--g400); }
+  .step .t { display: block; font-size: 12.5px; font-weight: 600; color: var(--black); margin: 3px 0 3px; }
+  .step .d { font-size: 9.5px; line-height: 1.35; color: var(--g500); }
+  .s1 { box-shadow: inset 0 3px 0 var(--rubric); } .s2 { box-shadow: inset 0 3px 0 var(--gold); }
+  .s3 { box-shadow: inset 0 3px 0 var(--black); } .s4 { box-shadow: inset 0 3px 0 var(--g400); }
+
+  .sources-section { margin-top: 11px; }
+  .sect-title { font-family: var(--mono); font-size: 9.5px; letter-spacing: .18em; text-transform: uppercase; color: var(--g400); margin-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; font-size: 11px; text-align: left; border: 1px solid var(--g100); border-radius: 6px; overflow: hidden; }
+  th, td { padding: 6px 8px; border-bottom: 1px solid var(--g100); border-right: 1px solid var(--g100); }
+  th:last-child, td:last-child { border-right: none; }
+  th { font-family: var(--mono); font-size: 8.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--black); background: var(--g50); }
+  tr.highlight { background: rgba(155,44,28,.04); font-weight: 600; }
+
+  .gallery-section { margin-top: 11px; }
+  .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .gallery-card { border: 1px solid var(--g100); border-radius: 8px; padding: 8px; background: var(--g50); display: flex; gap: 10px; align-items: center; }
+  .gallery-card img { width: 64px; height: 64px; object-fit: cover; border-radius: 4px; border: 1px solid var(--g100); flex-shrink: 0; }
+  .gallery-card .info { display: flex; flex-direction: column; gap: 2px; }
+  .gallery-card .t { font-family: var(--mono); font-size: 8px; letter-spacing: .08em; text-transform: uppercase; color: var(--rubric); font-weight: 600; }
+  .gallery-card h4 { font-size: 11px; font-weight: 600; color: var(--black); }
+  .gallery-card p { font-size: 9.5px; line-height: 1.25; color: var(--g500); }
+
+  /* Estrutura dos Slides (Páginas 2 a 8) */
+  .slide-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .slide-header {
+    margin-bottom: 16px;
+  }
+  .slide-header .slide-number {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: var(--rubric);
+    font-weight: 600;
+  }
+  .slide-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -.03em;
+    color: var(--black);
+    line-height: 1.1;
+    margin-top: 4px;
+  }
+  .slide-body {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 30px;
+    align-items: start;
+  }
+  .slide-text {
+    font-size: 14.5px;
+    color: var(--g600);
+    line-height: 1.5;
+  }
+  .slide-text p {
+    margin-bottom: 12px;
+    text-align: justify;
+  }
+  .slide-text p strong {
+    color: var(--black);
+    font-weight: 600;
+  }
+  .slide-text ul, .slide-text ol {
+    margin-left: 20px;
+    margin-bottom: 12px;
+  }
+  .slide-text li {
+    margin-bottom: 6px;
+  }
+  .slide-media {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid var(--g100);
+    padding: 10px;
+    border-radius: 8px;
+    background: var(--g50);
+  }
+  .slide-media img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid var(--g100);
+  }
+  .slide-media .caption {
+    font-size: 11px;
+    color: var(--g500);
+    line-height: 1.35;
+    text-align: center;
+    font-style: italic;
+  }
+
+  @media screen {
+    .page, .slide-page { box-shadow: 0 8px 40px rgba(0,0,0,.15); }
+  }
+  @media print {
+    html, body { background: #fff; }
+    .page, .slide-page { box-shadow: none; margin: 0; page-break-after: always; break-after: page; }
+  }
+</style>
+</head>
+<body>
+
+  <!-- ==================== PÁGINA 1: FLYER ==================== -->
+  <div class="page">
+    <div class="top">
+      <span class="b">DIR410346</span>
+      <span class="m">PPGD/UFSC · História do Direito Penal · 2026.1</span>
+    </div>
+
+    <div class="hero">
+      <div class="kick">estudo de caso</div>
+      <h1>O Malleus <b>Maleficarum</b></h1>
+      <p class="sub">A recepção do tipo penal compósito de bruxaria no Atlântico colonial brasileiro (Bahia quinhentista e Minas setecentista).</p>
+      <p class="hook">O tratado de 1487 fundiu o desvio de fé à magia material. Mas ao cruzar o Atlântico, <b>como a feitiçaria se reconfigurou em comércio, cura e resistência processual?</b></p>
+    </div>
+
+    <div class="janus">
+      <div class="face reg">
+        <div class="t">modelo europeu</div>
+        <h3>Tipo Compósito</h3>
+        <p>Institoris funde <em>maleficium</em> concreto, heresia, demonolatria, lendas de voo e pacto diabólico em uma figura penal de exceção focada no corpo e gênero feminino.</p>
+      </div>
+      <div class="pivot">⇄</div>
+      <div class="face rdo">
+        <div class="t">recepção colonial</div>
+        <h3>Hegemonia Incompleta</h3>
+        <p>Ausência de tribunais permanentes abre fissuras: a bruxaria se fragmenta em redes de feitiçaria mercantil, práticas sincréticas de cura e confissões seletivas na mesa inquisitorial.</p>
+      </div>
+    </div>
+    <p class="thesis">A tese: o tipo penal compósito europeu do Malleus <b>sofreu deformações estruturais</b> ao circular pelo espaço atlântico, adaptando-se a lógicas de sobrevivência colonial.</p>
+
+    <div class="arclbl">roteiro e cronologia (15 minutos)</div>
+    <div class="arc">
+      <div class="step s1"><span class="n">0:00–4:30 · Innsbruck</span><span class="t">O Estopim</span><span class="d">Innsbruck (1485): O caso Scheuberin e o choque entre prova material e obsessão inquisitorial.</span></div>
+      <div class="step s2"><span class="n">4:30–8:30 · Bahia</span><span class="t">Barganha</span><span class="d">Salvador (1591): Maria Gonçalves Cajada. Feitiçaria mercantil e confissão estratégica.</span></div>
+      <div class="step s3"><span class="n">8:30–11:30 · Minas</span><span class="t">Racialização</span><span class="d">Sabará (1739): Luzia Pinta. Calundus de cura e repressão cultural sob a máscara demonológica.</span></div>
+      <div class="step s4"><span class="n">11:30–15:00 · conclusões</span><span class="t">Degredo</span><span class="d">A hegemonia incompleta e o degredo como via de circulação e hibridização das práticas mágicas.</span></div>
+    </div>
+
+    <div class="sources-section">
+      <div class="sect-title">fontes processuais analisadas (antt, lisboa)</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Réu / Ré</th>
+            <th>Processo</th>
+            <th>Ano</th>
+            <th>Crime Inquisitorial</th>
+            <th>Estatuto Social</th>
+            <th>Sentença do Santo Ofício</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pero de C. Tourinho</td>
+            <td>8821</td>
+            <td>1547</td>
+            <td>Blasfêmias e heresias</td>
+            <td>Governador Donatário</td>
+            <td>Fiança; proibição de retorno</td>
+          </tr>
+          <tr>
+            <td>Filipa de Sousa</td>
+            <td>1267</td>
+            <td>1591</td>
+            <td>Sodomia feminina</td>
+            <td>Costureira, degredada</td>
+            <td>Açoitamento, vela e degredo</td>
+          </tr>
+          <tr class="highlight">
+            <td>Maria G. Cajada</td>
+            <td>10748</td>
+            <td>1591</td>
+            <td>Feitiçaria diabólica</td>
+            <td>Degredada de Estremoz</td>
+            <td>Penitências, degredo e exílio</td>
+          </tr>
+          <tr>
+            <td>Ana Rodrigues</td>
+            <td>12142</td>
+            <td>1593</td>
+            <td>Criptojudaísmo</td>
+            <td>Cristã-nova, viúva, 80 anos</td>
+            <td>Morte no cárcere; ossos queimados</td>
+          </tr>
+          <tr>
+            <td>Simão (Congo)</td>
+            <td>C.P.</td>
+            <td>1685</td>
+            <td>Morte por feitiço</td>
+            <td>Africano forro, Recôncavo</td>
+            <td>Absolvido por falta de provas</td>
+          </tr>
+          <tr>
+            <td>Luzia Pinta</td>
+            <td>252</td>
+            <td>1739</td>
+            <td>Bruxaria e calundus</td>
+            <td>Preta forra, angolana</td>
+            <td>Abjuração e 4 anos de degredo</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="gallery-section">
+      <div class="sect-title">galeria de iconografia &amp; fontes primárias</div>
+      <div class="gallery">
+        <div class="gallery-card">
+          <img src="../assets/malleus/malleus_1520_cologne.jpg" alt="Malleus Maleficarum 1520"/>
+          <div class="info">
+            <span class="t">I · Tratado</span>
+            <h4>Malleus Maleficarum</h4>
+            <p>Edição de Colônia, 1520. Sistematização do tipo penal compósito e regras.</p>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="../assets/malleus/auto_da_fe_valladolid_1559.jpg" alt="Auto da Fé Valladolid 1559"/>
+          <div class="info">
+            <span class="t">II · Espetáculo</span>
+            <h4>Auto da Fé</h4>
+            <p>Valladolid, 1559. A encenação pública da justiça inquisitorial hegemônica.</p>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="../assets/malleus/cantino_planisphere_1502.jpg" alt="Planisfério de Cantino 1502"/>
+          <div class="info">
+            <span class="t">III · Atlântico</span>
+            <h4>Planisfério de Cantino</h4>
+            <p>1502. O oceano como rota de degredo e tráfego de práticas mágicas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <div class="cta">
+        <div class="l">site de apoio · artigo completo · slides canva</div>
+        <div class="url">anavanzin.com/malleus</div>
+        <p class="extra">Acesse o portal para ler o <b>artigo científico completo (ABNT)</b> de 10 páginas, baixar as transcrições das fontes da Torre do Tombo e acessar a apresentação completa do Canva.</p>
+        <div class="authors"><b>Ana Vitória Vanzin Mendes</b> · PPGD/UFSC · 2026</div>
+      </div>
+      <div class="qr">
+        <img src="assets/qr.png" alt="QR code para anavanzin.com/malleus">
+        <span>aponte a câmera</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PÁGINA 2: SLIDE 1 ==================== -->
+  <div class="slide-page">
+    <div class="top">
+      <span class="b">DIR410346</span>
+      <span class="m">Slides de Apresentação · Companheiro Visual</span>
+    </div>
+
+    <div class="slide-container">
+      <div class="slide-header">
+        <span class="slide-number">Slide 1 de 7 · Seção 1</span>
+        <h2>Problema Jurídico-Penal</h2>
+      </div>
+      <div class="slide-body">
+        <div class="slide-text">
+          <p>O <strong>Malleus Maleficarum (1486/1487)</strong> não foi um mero surto de superstição ou fanatismo popular, mas sim uma sofisticada e racionalizada operação de tipificação penal em sua época.</p>
+          <p>Heinrich Institoris (Kramer) operou uma síntese inédita, fundindo cinco categorias jurídicas e folclóricas independentes em uma única figura criminosa totalizante e indissociável: <strong>a Bruxa</strong>.</p>
+          <p>As cinco vertentes teóricas que passaram a constituir o crime de exceção compósito foram:</p>
+          <ul>
+            <li><strong>O maleficium:</strong> O dano material e físico concreto causado por artes mágicas;</li>
+            <li><strong>A heresia:</strong> O desvio dogmático e oposição à autoridade eclesiástica;</li>
+            <li><strong>A demonolatria:</strong> O culto ativo prestado ao Diabo;</li>
+            <li><strong>O pacto diabólico:</strong> O acordo escolástico de entrega da alma em troca de favores;</li>
+            <li><strong>As lamiae/strigae:</strong> Lendas tradicionais de voo noturno e metamorfose espiritual.</li>
+          </ul>
+        </div>
+        <div class="slide-media">
+          <img src="../assets/malleus/malleus_1520_cologne.jpg" alt="Malleus Maleficarum 1520"/>
+          <span class="caption">Frontispício da edição de Colônia do Malleus Maleficarum (1520), manual canônico de tipificação da bruxaria.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <div class="cta">
+        <div class="l">slides de aula integrados</div>
+        <div class="url">anavanzin.com/malleus</div>
+        <div class="authors"><b>Ana Vitória Vanzin Mendes</b> · PPGD/UFSC · 2026</div>
+      </div>
+      <div class="qr">
+        <img src="assets/qr.png" alt="QR code para anavanzin.com/malleus">
+        <span>aponte a câmera</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PÁGINA 3: SLIDE 2 ==================== -->
+  <div class="slide-page">
+    <div class="top">
+      <span class="b">DIR410346</span>
+      <span class="m">Slides de Apresentação · Companheiro Visual</span>
+    </div>
+
+    <div class="slide-container">
+      <div class="slide-header">
+        <span class="slide-number">Slide 2 de 7 · Seção 2</span>
+        <h2>Innsbruck e a Derrota do Inquisidor</h2>
+      </div>
+      <div class="slide-body">
+        <div class="slide-text">
+          <p>O tratado demonológico mais influente do Ancien Régime nasceu, paradoxalmente, de um retumbante e humilhante <strong>fracasso processual</strong> sofrido pelo seu autor.</p>
+          <p>Em Innsbruck (1485), o inquisidor Heinrich Institoris tentou condenar a burguesa <strong>Helena Scheuberin</strong> centrando a acusação em sua moralidade e sexualidade privada.</p>
+          <p>A resistência das estruturas tradicionais de justiça à obsessão moral do inquisidor revelou um choque de duas epistemologias distintas:</p>
+          <ul>
+            <li>Os juízes episcopais locais e magistrados civis exigiam provas e nexo de causalidade do <strong>maleficium concreto</strong>;</li>
+            <li>Institoris considerava o desvio comportamental privado prova suficiente da aliança satânica.</li>
+          </ul>
+          <p>Ao nomear um defensor para Helena, o tribunal local anulou o rito por <strong>vícios procedimentais</strong>. Institoris publicou o <em>Malleus</em> como resposta dogmática a essa derrota prática, sistematizando o manual processual que legitimava a tortura e excluía a defesa efetiva das rés.</p>
+        </div>
+        <div class="slide-media">
+          <img src="../assets/malleus/extracted_slide1_Image 0.jpg" alt="Helena Scheuberin e o Inquisidor"/>
+          <span class="caption">Representação histórica do interrogatório de Helena Scheuberin perante a corte local de Innsbruck em 1485.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <div class="cta">
+        <div class="l">slides de aula integrados</div>
+        <div class="url">anavanzin.com/malleus</div>
+        <div class="authors"><b>Ana Vitória Vanzin Mendes</b> · PPGD/UFSC · 2026</div>
+      </div>
+      <div class="qr">
+        <img src="assets/qr.png" alt="QR code para anavanzin.com/malleus">
+        <span>aponte a câmera</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PÁGINA 4: SLIDE 3 ==================== -->
+  <div class="slide-page">
+    <div class="top">
+      <span class="b">DIR410346</span>
+      <span class="m">Slides de Apresentação · Companheiro Visual</span>
+    </div>
+
+    <div class="slide-container">
+      <div class="slide-header">
+        <span class="slide-number">Slide 3 de 7 · Seção 3</span>
+        <h2>A Máquina Processual Inquisitorial</h2>
+      </div>
+      <div class="slide-body">
+        <div class="slide-text">
+          <p>Ao contrário da inquisição nos territórios de colonização espanhola, o Brasil colonial nunca contou com um tribunal permanente do Santo Ofício.</p>
+          <p>A governança inquisitorial em solo brasileiro dependia do envio de <strong>Visitações extraordinárias</strong> despachadas a partir de Lisboa e de uma rede local de comissários e notários.</p>
+          <p>A instauração dos trabalhos processuais seguia um rito canônico rígido:</p>
+          <ul>
+            <li>Apresentação formal das credenciais e a realização da missa solene;</li>
+            <li>Abertura do <strong>Tempo de Graça</strong> (geralmente de 30 dias) por meio do Édito de Graça, permitindo confissões espontâneas e denúncias;</li>
+            <li>Instalação do tribunal baseada essencialmente no segredo das acusações.</li>
+          </ul>
+          <p>Essa arquitetura processual delegada garantia a imposição da justiça hegemônica metropolitana, mas sua eficácia prática era descontínua, gerando brechas e dependendo intensamente da cooperação e conflitos de vizinhança na colônia.</p>
+        </div>
+        <div class="slide-media">
+          <img src="../assets/malleus/cantino_planisphere_1502.jpg" alt="Planisfério de Cantino"/>
+          <span class="caption">O espaço atlântico delimitado no Planisfério de Cantino (1502): a rota de degredo e aplicação da jurisdição inquisitorial portuguesa.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <div class="cta">
+        <div class="l">slides de aula integrados</div>
+        <div class="url">anavanzin.com/malleus</div>
+        <div class="authors"><b>Ana Vitória Vanzin Mendes</b> · PPGD/UFSC · 2026</div>
+      </div>
+      <div class="qr">
+        <img src="assets/qr.png" alt="QR code para anavanzin.com/malleus">
+        <span>aponte a câmera</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PÁGINA 5: SLIDE 4 ==================== -->
+  <div class="slide-page">
+    <div class="top">
+      <span class="b">DIR410346</span>
+      <span class="m">Slides de Apresentação · Companheiro Visual</span>
+    </div>
+
+    <div class="slide-container">
+      <div class="slide-header">
+        <span class="slide-number">Slide 4 de 7 · Seção 4</span>
+        <h2>Estudo de Caso: Maria Gonçalves Cajada</h2>
+      </div>
+      <div class="slide-body">
+        <div class="slide-text">
+          <p>Denunciada na Primeira Visitação do Santo Ofício à Bahia (1591–1593), o processo de <strong>Maria Gonçalves Cajada</strong>, alcunhada "Arde-lhe-o-Rabo", é o caso colonial que mais se aproxima do enquadramento clássico da bruxaria europeia.</p>
+          <p>Degredada de Portugal, Cajada era acusada de invocar demônios sob o luar, enterrar botijas com feitiços e professar palavras de desdém contra o bispo local.</p>
+          <p>Contudo, as suas práticas desconstroem as premissas demonológicas do <em>Malleus</em>:</p>
+          <ul>
+            <li><strong>Ausência de Sabá:</strong> A magia de Cajada era individualizada e pragmática;</li>
+            <li><strong>Feitiçaria Comercial:</strong> Seus pós e simpatias eram oferecidos como serviços mercantis (amansar maridos, atrair parceiros ou vinganças);</li>
+            <li><strong>Agência Processual:</strong> Frente à mesa dos juízes, ela admitiu a superstição (delito leve) mas negou a eficácia do feitiço, esvaziando o pacto satânico formal para atenuar sua pena.</li>
+          </ul>
+        </div>
+        <div class="slide-media">
+          <img src="../assets/malleus/auto_da_fe_valladolid_1559.jpg" alt="Auto da Fé Valladolid"/>
+          <span class="caption">Representação de um Auto da Fé inquisitorial. O caso de Cajada terminou em penitências e banimento, mas não em fogueira.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <div class="cta">
+        <div class="l">slides de aula integrados</div>
+        <div class="url">anavanzin.com/malleus</div>
+        <div class="authors"><b>Ana Vitória Vanzin Mendes</b> · PPGD/UFSC · 2026</div>
+      </div>
+      <div class="qr">
+        <img src="assets/qr.png" alt="QR code para anavanzin.com/malleus">
+        <span>aponte a câmera</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PÁGINA 6: SLIDE 5 ==================== -->
+  <div class="slide-page">
+    <div class="top">
+      <span class="b">DIR410346</span>
+      <span class="m">Slides de Apresentação · Companheiro Visual</span>
+    </div>
+
+    <div class="slide-container">
+      <div class="slide-header">
+        <span class="slide-number">Slide 5 de 7 · Seção 5</span>
+        <h2>Contra-exemplos e Dissidências</h2>
+      </div>
+      <div class="slide-body">
+        <div class="slide-text">
+          <p>A recepção do direito inquisitorial no Brasil e na Europa não seguiu um curso linear e puramente repressivo. Diversas trajetórias revelam dissidências e falhas na hegemonia penal:</p>
+          <ul>
+            <li><strong>Helena Scheuberin (1485):</strong> Absolvida em Innsbruck pelo tribunal episcopal graças ao contraditório de seu advogado;</li>
+            <li><strong>Guiomar de Oliveira (1591):</strong> Denunciada por magia doméstica e sentimental na Bahia, recebeu apenas penas de oração e correção moral leve;</li>
+            <li><strong>Luzia Soares (Minas, 1738–1745):</strong> Absolvida pelo tribunal superior do Santo Ofício em virtude de contradições nos testemunhos e ausência de provas sólidas;</li>
+            <li><strong>Catarina Quaresma (1591):</strong> Intimada pelo Santo Ofício, apresentou depoimento ambíguo, resistindo a validar as narrativas inquisitoriais e demonológicas de suas vizinhas contra Cajada.</li>
+          </ul>
+          <p>Essas fissuras evidenciam que a justiça hegemônica continha dinâmicas de resistência processual onde os atores locais exerciam sua agência nas margens da lei penal.</p>
+        </div>
+        <div class="slide-media">
+          <img src="../assets/malleus/extracted_slide14_Image 0.jpg" alt="Dissidências e Julgamentos"/>
+          <span class="caption">Xilogravura antiga retratando o contraditório na inquisição moderna.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <div class="cta">
+        <div class="l">slides de aula integrados</div>
+        <div class="url">anavanzin.com/malleus</div>
+        <div class="authors"><b>Ana Vitória Vanzin Mendes</b> · PPGD/UFSC · 2026</div>
+      </div>
+      <div class="qr">
+        <img src="assets/qr.png" alt="QR code para anavanzin.com/malleus">
+        <span>aponte a câmera</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PÁGINA 7: SLIDE 6 ==================== -->
+  <div class="slide-page">
+    <div class="top">
+      <span class="b">DIR410346</span>
+      <span class="m">Slides de Apresentação · Companheiro Visual</span>
+    </div>
+
+    <div class="slide-container">
+      <div class="slide-header">
+        <span class="slide-number">Slide 6 de 7 · Seção 6</span>
+        <h2>Categorias Analíticas</h2>
+      </div>
+      <div class="slide-body">
+        <div class="slide-text">
+          <p>Articulamos as fontes empíricas a partir de quatro categorias fundamentais da história do direito penal:</p>
+          <ul>
+            <li><strong>Justiça Hegemônica vs. Negociada (Sbriccoli):</strong> A Inquisição operava como justiça oficial hegemônica, mas abria canais de transação jurídica através do Édito de Graça e da admissão de confissões parciais das rés.</li>
+            <li><strong>Arbitrium Iudicis (Meccarelli):</strong> A margem de discricionariedade e flexibilização dos julgadores, permitindo atenuar ou intensificar as penas a depender da adequação do réu.</li>
+            <li><strong>Gênero e Raça na Colônia:</strong> Na Europa moderna, a perseguição à bruxaria centrou-se no gênero e sexualidade. No Brasil setecentista (o caso do calundu de <strong>Luzia Pinta, 1739</strong>), o vetor de raça tornou-se definidor, racializando e criminalizando os rituais africanos sob o rótulo de adoração diabólica.</li>
+            <li><strong>O Degredo e a Circulação Punitiva:</strong> O banimento não como eliminação física, mas como deslocamento forçado que paradoxalmente disseminou saberes mágicos no império.</li>
+          </ul>
+        </div>
+        <div class="slide-media">
+          <img src="../assets/malleus/extracted_slide14_Image 0.jpg" alt="Categorias de Controle Penal"/>
+          <span class="caption">A transposição e adaptação das teorias de controle penal europeu para o cenário do Brasil colonial.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <div class="cta">
+        <div class="l">slides de aula integrados</div>
+        <div class="url">anavanzin.com/malleus</div>
+        <div class="authors"><b>Ana Vitória Vanzin Mendes</b> · PPGD/UFSC · 2026</div>
+      </div>
+      <div class="qr">
+        <img src="assets/qr.png" alt="QR code para anavanzin.com/malleus">
+        <span>aponte a câmera</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PÁGINA 8: SLIDE 7 ==================== -->
+  <div class="slide-page">
+    <div class="top">
+      <span class="b">DIR410346</span>
+      <span class="m">Slides de Apresentação · Companheiro Visual</span>
+    </div>
+
+    <div class="slide-container">
+      <div class="slide-header">
+        <span class="slide-number">Slide 7 de 7 · Seção 7</span>
+        <h2>Questões para Discussão</h2>
+      </div>
+      <div class="slide-body">
+        <div class="slide-text">
+          <p>Para o debate e encerramento do nosso seminário acadêmico, proponho cinco questões norteadoras centrais:</p>
+          <ol>
+            <li>De que forma a feitiçaria utilitária de Maria Gonçalves Cajada na Bahia desafia a dicotomia rígida entre a justiça hegemônica e a justiça negociada de Sbriccoli?</li>
+            <li>Quais os paralelos e divergências estruturais entre a tipificação do crime de bruxaria pelo <em>Malleus Maleficarum</em> e os processos modernos de criminalização e exclusão do sujeito de direito?</li>
+            <li>Como a transição da cor e raça das acusadas (de mulheres brancas degredadas no século XVI para negras no XVIII) redefiniu a imagem do sujeito penal inquisitorial no Brasil?</li>
+            <li>A absolvição de rés como Luzia Soares por falta de provas sólidas aponta para a existência de freios processuais dentro da máquina repressora do Santo Ofício?</li>
+            <li>Qual era o papel político, econômico e geográfico que sustentava a pena de degredo colonial no império português?</li>
+          </ol>
+        </div>
+        <div class="slide-media">
+          <img src="../assets/malleus/extracted_slide1_Image 0.jpg" alt="Debate e Discussões"/>
+          <span class="caption">Questões para debate: refletindo sobre o processo de criminalização na inquisição colonial e europeia.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <div class="cta">
+        <div class="l">slides de aula integrados</div>
+        <div class="url">anavanzin.com/malleus</div>
+        <div class="authors"><b>Ana Vitória Vanzin Mendes</b> · PPGD/UFSC · 2026</div>
+      </div>
+      <div class="qr">
+        <img src="assets/qr.png" alt="QR code para anavanzin.com/malleus">
+        <span>aponte a câmera</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

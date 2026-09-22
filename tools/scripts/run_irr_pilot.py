@@ -104,7 +104,7 @@ def resolve_image_path(item_id: str, corpus_id: str, record: Dict[str, Any]) -> 
         REPO_ROOT / "images",
         REPO_ROOT / "Images",
         REPO_ROOT / "Images" / "Images",
-        Path("/data/iconocracy-corpus/binaries/Images"),
+        REPO_ROOT / "binaries" / "Images",
         CACHE_DIR,
     ]
 

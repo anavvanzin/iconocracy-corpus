@@ -1,0 +1,64 @@
+{
+  "batch_note": "Rascunhos assistidos adjudicados por Ana em 15 set. 2026 e promovidos ao ledger canônico. Os indicadores permanecem ordinais; nenhum índice composto novo foi gerado.",
+  "generated_at": "2026-09-15",
+  "prompt_version": "iconocracy-agent-iconocode-2026-09-15",
+  "drafts": [
+    {
+      "id": "2f663e33-8eee-5ccb-be9e-635e66e3e734",
+      "handle": "SCOUT-102",
+      "title": "Constitution de la Belgique : édition illustrée — frontispício alegórico",
+      "draft_status": "adjudicated-promoted",
+      "image_seen": "/Users/ana/Research/cf0fae6e92501f9d83bd748e98640d17c497995f.pdf, página digital 9; fonte: https://neptun.unamur.be/ark:/83449/0091bdf9fa",
+      "panofsky": {
+        "level_1": "Figura feminina monumental, frontal e entronizada, com coroa mural, elevando o livro ou placa aberta 'CONSTITUTION DE LA BELGIQUE. 1831.'; leão deitado à direita, bandeira à esquerda e raios ao fundo. A plataforma é sustentada por tipos sociais, militares e jurídicos masculinos, incluindo trabalhadores com ferramentas, homens uniformizados e figura togada.",
+        "level_2": "La Belgique como personificação feminina da nação. Coroa mural, leão e bandeira reiteram a identificação nacional. A Constituição é objeto de proclamação e fonte luminosa; os personagens masculinos representam corpos sociais, jurídicos e militares que sustentam materialmente a estrutura nacional.",
+        "level_3": "A Constituição aparece como fundamento jurídico, nacional e social. A mulher figura a unidade abstrata e soberana do Estado; os homens, os agentes concretos que o sustentam e exercem suas funções. A edição de 1852 monumentaliza retrospectivamente a Constituição de 1831 como origem e continuidade estatal."
+      },
+      "purificacao": {
+        "desincorporacao": 0,
+        "rigidez_postural": 2,
+        "dessexualizacao": 2,
+        "uniformizacao_facial": 1,
+        "heraldizacao": 3,
+        "enquadramento_arquitetonico": 2,
+        "apagamento_narrativo": 1,
+        "monocromatizacao": 3,
+        "serialidade": 2,
+        "inscricao_estatal": 3,
+        "regime_iconocratico": "fundacional"
+      },
+      "analyst_notes": "A unidade iconográfica é o frontispício na página digital 9; o ARK identifica o volume inteiro. Corrigir acervo para UNamur — Bibliothèque Universitaire Moretus Plantin; remover KBR não confirmada; substituir 'Tábuas da Lei' por livro ou placa monumental da Constituição; técnica específica da gravura permanece pendente. Relação comparativa: SCOUT-625.",
+      "coded_by": "ana",
+      "confidence_score": 0.93,
+      "owner_approved_at": "2026-09-15"
+    },
+    {
+      "id": "324a90b6-403b-5b36-9bcf-d4c4db9efdc1",
+      "title": "La Nation, la Loi, le Roi. Constitution française. (du 14 septembre 1791)",
+      "draft_status": "adjudicated-promoted",
+      "image_seen": "https://gallica.bnf.fr/ark:/12148/btv1b69481105; reprodução local fornecida por Ana e arquivo em alta resolução no Wikimedia Commons",
+      "panofsky": {
+        "level_1": "Figura feminina jovem à esquerda de grande superfície retangular que reproduz o texto constitucional. Usa barrete frígio e vestes clássicas, com um seio exposto. A Constituição ocupa o centro sobre base circular. Acima aparecem galo sobre globo, raios, bandeiras, lanças e ramos; à direita, bandeira sobre vegetação. Composição monocromática e predominantemente estática.",
+        "level_2": "Personificação da Nação ou da França em vocabulário visual derivado da Liberdade revolucionária. O título organiza a imagem pela tríade constitucional-monárquica 'La Nation, la Loi, le Roi'. Galo, bandeiras e ramos conferem identidade nacional. A mulher acompanha, apresenta ou guarda a Constituição monumentalizada.",
+        "level_3": "A autoridade visual transfere-se do corpo alegórico para o texto jurídico integral. A mulher encarna a Nação, mas a Constituição domina o campo visual. A nudez parcial conserva o vocabulário corporal revolucionário, enquanto a lateralização do corpo antecipa sua subordinação à norma escrita. Produzida entre 1835 e 1841, a estampa reapresenta retrospectivamente a Constituição de 1791 como patrimônio jurídico e nacional."
+      },
+      "purificacao": {
+        "desincorporacao": 0,
+        "rigidez_postural": 1,
+        "dessexualizacao": 0,
+        "uniformizacao_facial": 1,
+        "heraldizacao": 2,
+        "enquadramento_arquitetonico": 2,
+        "apagamento_narrativo": 2,
+        "monocromatizacao": 3,
+        "serialidade": 1,
+        "inscricao_estatal": 3,
+        "regime_iconocratico": "fundacional"
+      },
+      "analyst_notes": "Objeto novo: não encontrado em records.jsonl, vault/candidatos ou drafts de origin/main antes da anotação. A data de produção é 1835–1841; 1791-09-14 é a data da Constituição representada. Não classificar automaticamente a figura como Marianne republicana. Autoria registrada como Bénard, graveur en lettres; autoria do desenho permanece não identificada nos metadados consultados. Relação comparativa: SCOUT-102.",
+      "coded_by": "ana",
+      "confidence_score": 0.9,
+      "owner_approved_at": "2026-09-15"
+    }
+  ]
+}

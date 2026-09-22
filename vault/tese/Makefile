@@ -14,17 +14,17 @@ REF_DOC = template.docx
 OUTPUT_DIR = output
 
 # Ordem dos capítulos na tese
-CHAPTERS = introducao.md \
-           capitulo-1.md \
-           capitulo-2.md \
-           capitulo-3.md \
-           capitulo-4.md \
-           capitulo-5.md \
-           capitulo-6.md \
-           capitulo-7.md \
-           capitulo-8.md \
-           capitulo-9.md \
-           conclusao.md
+CHAPTERS = ../../tese/manuscrito/Introducao_rev.md \
+           ../../tese/manuscrito/Capitulo1_rev.md \
+           ../../tese/manuscrito/Capitulo2_iconocracia.md \
+           ../../tese/manuscrito/Capitulo3_colonialidade.md \
+           ../../tese/manuscrito/Capitulo4_metodologia.md \
+           ../../tese/manuscrito/Capitulo5_corpus.md \
+           ../../tese/manuscrito/Capitulo6_analise_quantitativa.md \
+           ../../tese/manuscrito/Capitulo7_analise_qualitativa.md \
+           ../../tese/manuscrito/Capitulo8_atlas_principios.md \
+           ../../tese/manuscrito/Capitulo9_paineis_atlas.md \
+           ../../tese/manuscrito/Conclusao.md
 
 PANDOC_COMMON = --citeproc \
                 --number-sections \
@@ -63,11 +63,15 @@ $(OUTPUT_DIR):
 # Tese completa
 docx: $(OUTPUT_DIR)
 	$(PANDOC) $(PANDOC_DOCX) -o $(OUTPUT_DIR)/tese_completa.docx $(CHAPTERS)
+	cp $(OUTPUT_DIR)/tese_completa.docx ../../tese/tese_completa.docx
 	@echo "✅ $(OUTPUT_DIR)/tese_completa.docx"
+	@echo "✅ ../../tese/tese_completa.docx"
 
 pdf: $(OUTPUT_DIR)
 	$(PANDOC) $(PANDOC_PDF) -o $(OUTPUT_DIR)/tese_completa.pdf $(CHAPTERS)
+	cp $(OUTPUT_DIR)/tese_completa.pdf ../../tese/tese_completa.pdf
 	@echo "✅ $(OUTPUT_DIR)/tese_completa.pdf"
+	@echo "✅ ../../tese/tese_completa.pdf"
 
 # Capítulos individuais
 %.docx: %.md $(OUTPUT_DIR)

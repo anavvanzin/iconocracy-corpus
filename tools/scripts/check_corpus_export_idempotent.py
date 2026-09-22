@@ -31,6 +31,7 @@ AUTHORITATIVE_FIELDS = (
     "indicadores",
     "citation_abnt",
     "audit_flags",
+    "support",
 )
 
 

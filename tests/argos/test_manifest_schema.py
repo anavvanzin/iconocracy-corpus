@@ -1,11 +1,12 @@
+import sys
 import json
 import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 from tools.scripts.validate_schemas import load_schema, validate_record
-
 
 class ManifestSchemaTests(unittest.TestCase):
     def make_manifest(self, *, status="pending"):
@@ -93,7 +94,7 @@ class ManifestSchemaTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    "python",
+                    sys.executable,
                     str(script_path),
                     str(manifest_path),
                     "--schema",

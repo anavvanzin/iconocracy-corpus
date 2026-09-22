@@ -2,32 +2,30 @@
 id: SCOUT-436
 tipo: corpus-candidato
 status: ativo
-titulo: Etude pour le 1er mai? (Steinlen, 1894)
+titulo: "Etude pour le 1er mai? (Steinlen, 1894)"
 pais: FR
-data_estimada: '1894'
+data_estimada: "1894"
 suporte: estampa/gravura
-motivo_alegorico: marianne
+motivo_alegorico: "marianne"
 regime: FUNDACIONAL
 confianca: alto
 tags:
-- corpus/candidato
-- pais/FR
-- suporte/estampa
-- regime/fundacional
-- motivo/marianne
-- null
-- null
+  - corpus/candidato
+  - pais/FR
+  - suporte/estampa
+  - regime/fundacional
+  - motivo/marianne
+  - "#contra-alegoria"
+  - "#pathosformel"
 related:
-- '[[endurecimento]]'
-- '[[Contrato Sexual Visual]]'
-- '[[Feminilidade de Estado]]'
-- '[[contra-alegoria]]'
-- '[[Pathosformel]]'
+  - "[[ENDURECIMENTO]]"
+  - "[[Contrato Sexual Visual]]"
+  - "[[Feminilidade de Estado]]"
+  - "[[contra-alegoria]]"
+  - "[[Pathosformel]]"
 data_scout: 2026-04-13
-fonte_campanha: LPAI v2 Campanha SCOUT BR/FR (abr 2026)
-seculo: 19th
+fonte_campanha: "LPAI v2 Campanha SCOUT BR/FR (abr 2026)"
 ---
-
 
 ## Etude pour le 1er mai? (Steinlen, 1894)
 

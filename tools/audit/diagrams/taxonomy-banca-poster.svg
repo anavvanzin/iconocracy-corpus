@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3200 1800">
+<defs><style>
+    .title { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; }
+    .body  { font-family: 'Cormorant Garamond', Georgia, serif; }
+    .italic{ font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; }
+    .mono  { font-family: 'IBM Plex Mono', monospace; }
+</style></defs>
+<rect width="3200" height="1800" fill="#F5F0E8"/>
+<rect x="68" y="68" width="3064" height="1664" fill="none" stroke="#8B7355" stroke-width="1.5" opacity="0.5"/>
+<rect x="80" y="80" width="3040" height="1640" fill="none" stroke="#1A1A2E" stroke-width="3"/>
+<text x="110" y="130" class="mono" font-size="22" fill="#C4A265" letter-spacing="0.3em">UNIVERSIDADE FEDERAL DE SANTA CATARINA</text>
+<text x="110" y="158" class="mono" font-size="16" fill="#8B7355" letter-spacing="0.25em">PPGD · GRUPO IUS GENTIUM</text>
+<text x="3090" y="130" text-anchor="end" class="mono" font-size="22" fill="#6B2D3E" letter-spacing="0.3em">QUALIFICAÇÃO · DOUTORADO</text>
+<text x="3090" y="158" text-anchor="end" class="mono" font-size="16" fill="#8B7355" letter-spacing="0.25em">ANA VANZIN · FLORIANÓPOLIS · 2026</text>
+<line x1="110" y1="185" x2="3090" y2="185" stroke="#C4A265" stroke-width="2"/>
+<text x="1600.0" y="255" text-anchor="middle" class="title" font-size="68" fill="#1A1A2E" letter-spacing="0.01em">ICONOCRACIA</text>
+<text x="1600.0" y="303" text-anchor="middle" class="italic" font-size="30" fill="#8B7355">Alegoria Feminina na História da Cultura Jurídica · Séculos XIX–XX</text>
+<line x1="1340.0" y1="327" x2="1860.0" y2="327" stroke="#C4A265" stroke-width="1.5"/>
+<circle cx="1600.0" cy="327" r="5" fill="#C4A265"/>
+<text x="1600.0" y="370" text-anchor="middle" class="mono" font-size="16" fill="#888076" letter-spacing="0.4em">FIGURA · METODOLOGIA VISUAL · CAPÍTULO 4</text>
+<text x="1600.0" y="420" text-anchor="middle" class="title" font-size="48" fill="#1A1A2E">Taxonomia das Relações Iconocráticas</text>
+<text x="1600.0" y="452" text-anchor="middle" class="italic" font-size="21" fill="#8B7355">cinco famílias · quinze tipos · uma economia visual do poder feminino alegorizado</text>
+<rect x="90" y="488.0" width="3020" height="206.0" fill="#FAF6EE" stroke="#C9B89E" stroke-width="1" rx="6"/>
+<rect x="100" y="500.0" width="480" height="182.0" fill="#F5F0E8" stroke="#16213E" stroke-width="2.5" rx="5"/>
+<rect x="100" y="500.0" width="12" height="182.0" fill="#16213E" rx="2"/>
+<text x="136" y="558.0" class="title" font-size="40" fill="#16213E">I. Genealógicas</text>
+<text x="136" y="588.0" class="italic" font-size="20" fill="#8B7355">Eixo do tempo</text>
+<text x="136" y="630.0" class="body" font-size="19" fill="#1A1A2E" opacity="0.85">Transmissão e sobrevivência de fórmulas visuais</text>
+<rect x="610.0" y="500.0" width="607.5" height="182.0" fill="#F5F0E8" stroke="#16213E" stroke-width="2" rx="5"/>
+<circle cx="644.0" cy="534.0" r="22" fill="#16213E"/>
+<text x="644.0" y="542.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">01</text>
+<g stroke="#16213E" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M 1143.7 539.8 Q 1143.7 519.4 1167.5 519.4 Q 1191.3 519.4 1191.3 539.8 L 1191.3 568.7 L 1181.1 558.5 L 1167.5 568.7 L 1153.9 558.5 L 1143.7 568.7 Z"/><circle cx="1159.0" cy="539.8" r="4" fill="#16213E" stroke="none"/><circle cx="1176.0" cy="539.8" r="4" fill="#16213E" stroke="none"/></g>
+<text x="634.0" y="609.2" class="title" font-size="30" fill="#1A1A2E">Nachleben</text>
+<line x1="634.0" y1="617.2" x2="734.0" y2="617.2" stroke="#16213E" stroke-width="3"/>
+<text x="634.0" y="647.2" class="body" font-size="18" fill="#888076">Sobrevivência da pathosformel</text>
+<rect x="1237.5" y="500.0" width="607.5" height="182.0" fill="#F5F0E8" stroke="#16213E" stroke-width="2" rx="5"/>
+<circle cx="1271.5" cy="534.0" r="22" fill="#16213E"/>
+<text x="1271.5" y="542.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">02</text>
+<g stroke="#16213E" stroke-width="3.2" fill="none" stroke-linecap="round"><circle cx="1778.0" cy="550.0" r="17.0"/><circle cx="1812.0" cy="550.0" r="17.0"/><line x1="1795.0" y1="521.1" x2="1795.0" y2="578.9" stroke-dasharray="4,4"/></g>
+<text x="1261.5" y="609.2" class="title" font-size="30" fill="#1A1A2E">Mimesis</text>
+<line x1="1261.5" y1="617.2" x2="1361.5" y2="617.2" stroke="#16213E" stroke-width="3"/>
+<text x="1261.5" y="647.2" class="body" font-size="18" fill="#888076">Imitação direta; cópia</text>
+<rect x="1865.0" y="500.0" width="607.5" height="182.0" fill="#F5F0E8" stroke="#16213E" stroke-width="2" rx="5"/>
+<circle cx="1899.0" cy="534.0" r="22" fill="#16213E"/>
+<text x="1899.0" y="542.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">03</text>
+<g stroke="#16213E" stroke-width="3.2" fill="none" stroke-linecap="round"><circle cx="2422.5" cy="527.9" r="6" fill="#16213E" stroke="none"/><line x1="2422.5" y1="527.9" x2="2402.1" y2="553.4"/><line x1="2422.5" y1="527.9" x2="2442.9" y2="553.4"/><circle cx="2402.1" cy="553.4" r="5" fill="#16213E" stroke="none"/><circle cx="2442.9" cy="553.4" r="5" fill="#16213E" stroke="none"/><line x1="2402.1" y1="553.4" x2="2393.6" y2="575.5"/><line x1="2402.1" y1="553.4" x2="2410.6" y2="575.5"/><line x1="2442.9" y1="553.4" x2="2451.4" y2="575.5"/><line x1="2442.9" y1="553.4" x2="2434.4" y2="575.5"/><circle cx="2393.6" cy="575.5" r="4" fill="#16213E" stroke="none"/><circle cx="2410.6" cy="575.5" r="4" fill="#16213E" stroke="none"/><circle cx="2434.4" cy="575.5" r="4" fill="#16213E" stroke="none"/><circle cx="2451.4" cy="575.5" r="4" fill="#16213E" stroke="none"/></g>
+<text x="1889.0" y="609.2" class="title" font-size="30" fill="#1A1A2E">Genealogia</text>
+<line x1="1889.0" y1="617.2" x2="1989.0" y2="617.2" stroke="#16213E" stroke-width="3"/>
+<text x="1889.0" y="647.2" class="body" font-size="18" fill="#888076">A produz descendentes B, B′</text>
+<rect x="2492.5" y="500.0" width="607.5" height="182.0" fill="#F5F0E8" stroke="#16213E" stroke-width="2" rx="5"/>
+<circle cx="2526.5" cy="534.0" r="22" fill="#16213E"/>
+<text x="2526.5" y="542.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">04</text>
+<g><rect x="3020.42" y="520.42" width="14.96" height="14.96" stroke="#16213E" stroke-width="3.2" fill="none"/><rect x="3042.52" y="520.42" width="14.96" height="14.96" stroke="#16213E" stroke-width="3.2" fill="none"/><rect x="3064.62" y="520.42" width="14.96" height="14.96" stroke="#16213E" stroke-width="3.2" fill="none"/><rect x="3020.42" y="542.52" width="14.96" height="14.96" stroke="#16213E" stroke-width="3.2" fill="none"/><rect x="3042.52" y="542.52" width="14.96" height="14.96" stroke="#16213E" stroke-width="3.2" fill="none"/><rect x="3064.62" y="542.52" width="14.96" height="14.96" stroke="#16213E" stroke-width="3.2" fill="none"/><rect x="3020.42" y="564.62" width="14.96" height="14.96" stroke="#16213E" stroke-width="3.2" fill="none"/><rect x="3042.52" y="564.62" width="14.96" height="14.96" stroke="#16213E" stroke-width="3.2" fill="none"/><rect x="3064.62" y="564.62" width="14.96" height="14.96" stroke="#16213E" stroke-width="3.2" fill="none"/></g>
+<text x="2516.5" y="609.2" class="title" font-size="30" fill="#1A1A2E">Serialização</text>
+<line x1="2516.5" y1="617.2" x2="2616.5" y2="617.2" stroke="#16213E" stroke-width="3"/>
+<text x="2516.5" y="647.2" class="body" font-size="18" fill="#888076">Repetição industrial</text>
+<rect x="90" y="710.0" width="3020" height="206.0" fill="#FAF6EE" stroke="#C9B89E" stroke-width="1" rx="6"/>
+<rect x="100" y="722.0" width="480" height="182.0" fill="#F5F0E8" stroke="#8B7355" stroke-width="2.5" rx="5"/>
+<rect x="100" y="722.0" width="12" height="182.0" fill="#8B7355" rx="2"/>
+<text x="136" y="780.0" class="title" font-size="40" fill="#8B7355">II. Estruturais</text>
+<text x="136" y="810.0" class="italic" font-size="20" fill="#8B7355">Eixo da função</text>
+<text x="136" y="852.0" class="body" font-size="19" fill="#1A1A2E" opacity="0.85">Mesma função executada por formas distintas</text>
+<rect x="610.0" y="722.0" width="816.6666666666666" height="182.0" fill="#F5F0E8" stroke="#8B7355" stroke-width="2" rx="5"/>
+<circle cx="644.0" cy="756.0" r="22" fill="#8B7355"/>
+<text x="644.0" y="764.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">05</text>
+<g stroke="#8B7355" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="1347.7666666666664" y1="772.0" x2="1405.5666666666666" y2="772.0"/><line x1="1376.6666666666665" y1="743.1" x2="1376.6666666666665" y2="800.9"/><polyline points="1393.6666666666665,761.8 1405.5666666666666,772.0 1393.6666666666665,782.2"/><polyline points="1359.6666666666665,761.8 1347.7666666666664,772.0 1359.6666666666665,782.2"/><polyline points="1366.4666666666665,755.0 1376.6666666666665,743.1 1386.8666666666666,755.0"/><polyline points="1366.4666666666665,789.0 1376.6666666666665,800.9 1386.8666666666666,789.0"/></g>
+<text x="634.0" y="831.2" class="title" font-size="30" fill="#1A1A2E">Translatio</text>
+<line x1="634.0" y1="839.2" x2="734.0" y2="839.2" stroke="#8B7355" stroke-width="3"/>
+<text x="634.0" y="869.2" class="body" font-size="18" fill="#888076">Traduções nacionais distintas</text>
+<rect x="1446.6666666666665" y="722.0" width="816.6666666666666" height="182.0" fill="#F5F0E8" stroke="#8B7355" stroke-width="2" rx="5"/>
+<circle cx="1480.6666666666665" cy="756.0" r="22" fill="#8B7355"/>
+<text x="1480.6666666666665" y="764.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">06</text>
+<g stroke="#8B7355" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="2194.633333333333" cy="772.0" r="13.600000000000001" stroke-dasharray="4,4"/><polygon points="2223.533333333333,749.9 2242.233333333333,765.2 2233.733333333333,792.4 2216.733333333333,785.6 2211.633333333333,765.2"/><line x1="2208.233333333333" y1="772.0" x2="2211.633333333333" y2="772.0" stroke-width="4"/><polyline points="2208.233333333333,768.6 2211.633333333333,772.0 2208.233333333333,775.4"/></g>
+<text x="1470.6666666666665" y="831.2" class="title" font-size="30" fill="#1A1A2E">Concretização</text>
+<line x1="1470.6666666666665" y1="839.2" x2="1570.6666666666665" y2="839.2" stroke="#8B7355" stroke-width="3"/>
+<text x="1470.6666666666665" y="869.2" class="body" font-size="18" fill="#888076">Abstração ganha figura nomeada</text>
+<rect x="2283.333333333333" y="722.0" width="816.6666666666666" height="182.0" fill="#F5F0E8" stroke="#8B7355" stroke-width="2" rx="5"/>
+<circle cx="2317.333333333333" cy="756.0" r="22" fill="#8B7355"/>
+<text x="2317.333333333333" y="764.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">07</text>
+<g stroke="#8B7355" stroke-width="3.2" fill="none" stroke-linecap="round"><circle cx="3034.6999999999994" cy="772.0" r="14.28"/><rect x="3051.6999999999994" y="757.72" width="28.9" height="28.9"/><line x1="3048.9799999999996" y1="772.0" x2="3051.6999999999994" y2="772.0"/></g>
+<text x="2307.333333333333" y="831.2" class="title" font-size="30" fill="#1A1A2E">Par genderizado</text>
+<line x1="2307.333333333333" y1="839.2" x2="2407.333333333333" y2="839.2" stroke="#8B7355" stroke-width="3"/>
+<text x="2307.333333333333" y="869.2" class="body" font-size="18" fill="#888076">Alegoria feminina + soberano</text>
+<rect x="90" y="932.0" width="3020" height="206.0" fill="#FAF6EE" stroke="#C9B89E" stroke-width="1" rx="6"/>
+<rect x="100" y="944.0" width="480" height="182.0" fill="#F5F0E8" stroke="#6B2D3E" stroke-width="2.5" rx="5"/>
+<rect x="100" y="944.0" width="12" height="182.0" fill="#6B2D3E" rx="2"/>
+<text x="136" y="1002.0" class="title" font-size="40" fill="#6B2D3E">III. Tensionais</text>
+<text x="136" y="1032.0" class="italic" font-size="20" fill="#8B7355">Eixo crítico</text>
+<text x="136" y="1074.0" class="body" font-size="19" fill="#1A1A2E" opacity="0.85">Operações de oposição e dialética</text>
+<rect x="610.0" y="944.0" width="816.6666666666666" height="182.0" fill="#F5F0E8" stroke="#6B2D3E" stroke-width="2" rx="5"/>
+<circle cx="644.0" cy="978.0" r="22" fill="#6B2D3E"/>
+<text x="644.0" y="986.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">08</text>
+<g stroke="#6B2D3E" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="1352.8666666666666,975.3 1373.2666666666664,975.3 1363.0666666666666,994.0"/><polygon points="1380.0666666666666,1012.7 1400.4666666666665,1012.7 1390.2666666666664,994.0"/><line x1="1347.7666666666664" y1="994.0" x2="1405.5666666666666" y2="994.0" stroke-dasharray="6,4"/></g>
+<text x="634.0" y="1053.2" class="title" font-size="30" fill="#1A1A2E">Inversão</text>
+<line x1="634.0" y1="1061.2" x2="734.0" y2="1061.2" stroke="#6B2D3E" stroke-width="3"/>
+<text x="634.0" y="1091.2" class="body" font-size="18" fill="#888076">Valor performativo invertido</text>
+<rect x="1446.6666666666665" y="944.0" width="816.6666666666666" height="182.0" fill="#F5F0E8" stroke="#6B2D3E" stroke-width="2" rx="5"/>
+<circle cx="1480.6666666666665" cy="978.0" r="22" fill="#6B2D3E"/>
+<text x="1480.6666666666665" y="986.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">09</text>
+<g stroke="#6B2D3E" stroke-width="3.2" fill="none" stroke-linecap="round"><path d="M 2189.533333333333 975.3 Q 2189.533333333333 1019.5 2213.333333333333 1019.5 Q 2237.133333333333 1019.5 2237.133333333333 975.3 Z"/><circle cx="2203.133333333333" cy="990.6" r="4" fill="#6B2D3E" stroke="none"/><circle cx="2223.533333333333" cy="990.6" r="4" fill="#6B2D3E" stroke="none"/><path d="M 2201.433333333333 1009.3 Q 2213.333333333333 999.1 2225.233333333333 1009.3"/></g>
+<text x="1470.6666666666665" y="1053.2" class="title" font-size="30" fill="#1A1A2E">Satirização</text>
+<line x1="1470.6666666666665" y1="1061.2" x2="1570.6666666666665" y2="1061.2" stroke="#6B2D3E" stroke-width="3"/>
+<text x="1470.6666666666665" y="1091.2" class="body" font-size="18" fill="#888076">Alegoria solene em paródia</text>
+<rect x="2283.333333333333" y="944.0" width="816.6666666666666" height="182.0" fill="#F5F0E8" stroke="#6B2D3E" stroke-width="2" rx="5"/>
+<circle cx="2317.333333333333" cy="978.0" r="22" fill="#6B2D3E"/>
+<text x="2317.333333333333" y="986.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">10</text>
+<g stroke="#6B2D3E" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="3022.7999999999997" y1="983.8" x2="3063.5999999999995" y2="983.8"/><polyline points="3053.3999999999996,975.3 3063.5999999999995,983.8 3053.3999999999996,992.3"/><line x1="3077.1999999999994" y1="1004.2" x2="3036.3999999999996" y2="1004.2"/><polyline points="3046.5999999999995,1012.7 3036.3999999999996,1004.2 3046.5999999999995,995.7"/></g>
+<text x="2307.333333333333" y="1053.2" class="title" font-size="30" fill="#1A1A2E">Contradição</text>
+<line x1="2307.333333333333" y1="1061.2" x2="2407.333333333333" y2="1061.2" stroke="#6B2D3E" stroke-width="3"/>
+<text x="2307.333333333333" y="1091.2" class="body" font-size="18" fill="#888076">Tensão dialética sem síntese</text>
+<rect x="90" y="1154.0" width="3020" height="206.0" fill="#FAF6EE" stroke="#C9B89E" stroke-width="1" rx="6"/>
+<rect x="100" y="1166.0" width="480" height="182.0" fill="#F5F0E8" stroke="#C4A265" stroke-width="2.5" rx="5"/>
+<rect x="100" y="1166.0" width="12" height="182.0" fill="#C4A265" rx="2"/>
+<text x="136" y="1224.0" class="title" font-size="40" fill="#C4A265">IV. Transicionais</text>
+<text x="136" y="1254.0" class="italic" font-size="20" fill="#8B7355">Eixo dos regimes</text>
+<text x="136" y="1296.0" class="body" font-size="19" fill="#1A1A2E" opacity="0.85">Passagem entre regimes iconocráticos</text>
+<rect x="610.0" y="1166.0" width="816.6666666666666" height="182.0" fill="#F5F0E8" stroke="#C4A265" stroke-width="2" rx="5"/>
+<circle cx="644.0" cy="1200.0" r="22" fill="#C4A265"/>
+<text x="644.0" y="1208.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">11</text>
+<g stroke="#C4A265" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="1376.6666666666665" y1="1187.1" x2="1376.6666666666665" y2="1233.0"/><line x1="1363.0666666666666" y1="1233.0" x2="1390.2666666666664" y2="1233.0"/><polygon points="1370.5466666666666,1187.1 1376.6666666666665,1183.7 1382.7866666666664,1187.1" fill="#C4A265"/><circle cx="1376.6666666666665" cy="1239.8" r="5.44" fill="#C4A265" stroke="none"/></g>
+<text x="634.0" y="1275.2" class="title" font-size="30" fill="#1A1A2E">Martialização</text>
+<line x1="634.0" y1="1283.2" x2="734.0" y2="1283.2" stroke="#C4A265" stroke-width="3"/>
+<text x="634.0" y="1313.2" class="body" font-size="18" fill="#888076">Alegoria civil em registro militar</text>
+<rect x="1446.6666666666665" y="1166.0" width="816.6666666666666" height="182.0" fill="#F5F0E8" stroke="#C4A265" stroke-width="2" rx="5"/>
+<circle cx="1480.6666666666665" cy="1200.0" r="22" fill="#C4A265"/>
+<text x="1480.6666666666665" y="1208.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">12</text>
+<g stroke="#C4A265" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="2184.433333333333" y1="1226.2" x2="2233.733333333333" y2="1226.2"/><line x1="2184.433333333333" y1="1219.4" x2="2184.433333333333" y2="1233.0"/><polygon points="2233.733333333333,1221.1 2242.233333333333,1226.2 2233.733333333333,1231.3" fill="#C4A265"/><line x1="2201.433333333333" y1="1202.4" x2="2225.233333333333" y2="1202.4" stroke-dasharray="4,4"/></g>
+<text x="1470.6666666666665" y="1275.2" class="title" font-size="30" fill="#1A1A2E">Desmilitarização</text>
+<line x1="1470.6666666666665" y1="1283.2" x2="1570.6666666666665" y2="1283.2" stroke="#C4A265" stroke-width="3"/>
+<text x="1470.6666666666665" y="1313.2" class="body" font-size="18" fill="#888076">Alegoria militar em registro civil</text>
+<rect x="2283.333333333333" y="1166.0" width="816.6666666666666" height="182.0" fill="#F5F0E8" stroke="#C4A265" stroke-width="2" rx="5"/>
+<circle cx="2317.333333333333" cy="1200.0" r="22" fill="#C4A265"/>
+<text x="2317.333333333333" y="1208.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">13</text>
+<g stroke="#C4A265" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="3021.0999999999995,1236.4 3032.9999999999995,1236.4 3032.9999999999995,1222.8 3044.8999999999996,1222.8 3044.8999999999996,1209.2 3056.7999999999997,1209.2 3056.7999999999997,1195.6 3078.8999999999996,1195.6"/><polyline points="3070.3999999999996,1187.1 3078.8999999999996,1195.6 3070.3999999999996,1204.1"/></g>
+<text x="2307.333333333333" y="1275.2" class="title" font-size="30" fill="#1A1A2E">Endurecimento</text>
+<line x1="2307.333333333333" y1="1283.2" x2="2407.333333333333" y2="1283.2" stroke="#C4A265" stroke-width="3"/>
+<text x="2307.333333333333" y="1313.2" class="body" font-size="18" fill="#888076">Score monotonicamente crescente</text>
+<rect x="90" y="1376.0" width="3020" height="206.0" fill="#FAF6EE" stroke="#C9B89E" stroke-width="1" rx="6"/>
+<rect x="100" y="1388.0" width="480" height="182.0" fill="#F5F0E8" stroke="#5E7D6A" stroke-width="2.5" rx="5"/>
+<rect x="100" y="1388.0" width="12" height="182.0" fill="#5E7D6A" rx="2"/>
+<text x="136" y="1446.0" class="title" font-size="40" fill="#5E7D6A">V. Sincrônicas</text>
+<text x="136" y="1476.0" class="italic" font-size="20" fill="#8B7355">Eixo da constelação</text>
+<text x="136" y="1518.0" class="body" font-size="19" fill="#1A1A2E" opacity="0.85">Co-presença sem laço genealógico</text>
+<rect x="610.0" y="1388.0" width="1235.0" height="182.0" fill="#F5F0E8" stroke="#5E7D6A" stroke-width="2" rx="5"/>
+<circle cx="644.0" cy="1422.0" r="22" fill="#5E7D6A"/>
+<text x="644.0" y="1430.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">14</text>
+<g stroke="#5E7D6A" stroke-width="3.2" fill="none" stroke-linecap="round"><circle cx="1774.6" cy="1424.4" r="5" fill="#5E7D6A" stroke="none"/><circle cx="1812.0" cy="1421.0" r="5" fill="#5E7D6A" stroke="none"/><circle cx="1788.2" cy="1444.8" r="5" fill="#5E7D6A" stroke="none"/><circle cx="1815.4" cy="1451.6" r="5" fill="#5E7D6A" stroke="none"/><circle cx="1771.2" cy="1455.0" r="5" fill="#5E7D6A" stroke="none"/><line x1="1774.6" y1="1424.4" x2="1812.0" y2="1421.0"/><line x1="1774.6" y1="1424.4" x2="1788.2" y2="1444.8"/><line x1="1788.2" y1="1444.8" x2="1815.4" y2="1451.6"/><line x1="1771.2" y1="1455.0" x2="1788.2" y2="1444.8"/></g>
+<text x="634.0" y="1497.2" class="title" font-size="30" fill="#1A1A2E">Co-presença política</text>
+<line x1="634.0" y1="1505.2" x2="734.0" y2="1505.2" stroke="#5E7D6A" stroke-width="3"/>
+<text x="634.0" y="1535.2" class="body" font-size="18" fill="#888076">Itens partilham conjuntura</text>
+<rect x="1865.0" y="1388.0" width="1235.0" height="182.0" fill="#F5F0E8" stroke="#5E7D6A" stroke-width="2" rx="5"/>
+<circle cx="1899.0" cy="1422.0" r="22" fill="#5E7D6A"/>
+<text x="1899.0" y="1430.0" text-anchor="middle" class="mono" font-size="20" font-weight="600" fill="#F5F0E8">15</text>
+<g stroke="#5E7D6A" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="3021.1,1422.7 3050.0,1409.1 3078.9,1422.7" fill="#5E7D6A"/><line x1="3021.1" y1="1426.1" x2="3078.9" y2="1426.1"/><line x1="3029.6" y1="1427.8" x2="3029.6" y2="1455.0"/><line x1="3043.2" y1="1427.8" x2="3043.2" y2="1455.0"/><line x1="3056.8" y1="1427.8" x2="3056.8" y2="1455.0"/><line x1="3070.4" y1="1427.8" x2="3070.4" y2="1455.0"/><line x1="3021.1" y1="1456.7" x2="3078.9" y2="1456.7"/></g>
+<text x="1889.0" y="1497.2" class="title" font-size="30" fill="#1A1A2E">Co-presença institucional</text>
+<line x1="1889.0" y1="1505.2" x2="1989.0" y2="1505.2" stroke="#5E7D6A" stroke-width="3"/>
+<text x="1889.0" y="1535.2" class="body" font-size="18" fill="#888076">Itens do mesmo aparelho</text>
+<line x1="110" y1="1605" x2="3090" y2="1605" stroke="#C9B89E" stroke-width="1.5"/>
+<text x="110" y="1643" class="mono" font-size="17" font-weight="600" fill="#1A1A2E" letter-spacing="0.2em">USO METODOLÓGICO</text>
+<text x="110" y="1677" class="italic" font-size="19" fill="#8B7355">Cada fio no Atlas Warburg recebe relação primária</text>
+<text x="110" y="1705" class="italic" font-size="19" fill="#8B7355">e relações secundárias. As cinco famílias correspondem</text>
+<text x="110" y="1733" class="italic" font-size="19" fill="#8B7355">a eixos analíticos não mutuamente exclusivos.</text>
+<text x="1216.0" y="1643" class="mono" font-size="17" font-weight="600" fill="#1A1A2E" letter-spacing="0.2em">CINCO EIXOS</text>
+<rect x="1216.0" y="1662" width="14" height="14" fill="#16213E" rx="2"/>
+<text x="1240.0" y="1675" class="mono" font-size="15" fill="#1A1A2E" font-weight="600">I · TEMPO</text>
+<text x="1436.0" y="1675" class="italic" font-size="16" fill="#888076">transmissão</text>
+<rect x="1216.0" y="1682" width="14" height="14" fill="#8B7355" rx="2"/>
+<text x="1240.0" y="1695" class="mono" font-size="15" fill="#1A1A2E" font-weight="600">II · FUNÇÃO</text>
+<text x="1436.0" y="1695" class="italic" font-size="16" fill="#888076">tradução</text>
+<rect x="1216.0" y="1702" width="14" height="14" fill="#6B2D3E" rx="2"/>
+<text x="1240.0" y="1715" class="mono" font-size="15" fill="#1A1A2E" font-weight="600">III · CRÍTICA</text>
+<text x="1436.0" y="1715" class="italic" font-size="16" fill="#888076">oposição</text>
+<rect x="1216.0" y="1722" width="14" height="14" fill="#C4A265" rx="2"/>
+<text x="1240.0" y="1735" class="mono" font-size="15" fill="#1A1A2E" font-weight="600">IV · REGIMES</text>
+<text x="1436.0" y="1735" class="italic" font-size="16" fill="#888076">passagem</text>
+<rect x="1216.0" y="1742" width="14" height="14" fill="#5E7D6A" rx="2"/>
+<text x="1240.0" y="1755" class="mono" font-size="15" fill="#1A1A2E" font-weight="600">V · CONSTELAÇÃO</text>
+<text x="1436.0" y="1755" class="italic" font-size="16" fill="#888076">co-presença</text>
+<text x="2112.0" y="1643" class="mono" font-size="17" font-weight="600" fill="#1A1A2E" letter-spacing="0.2em">REFERÊNCIAS</text>
+<text x="2112.0" y="1675" class="body" font-size="17" fill="#1A1A2E">— Pateman · Contrato Sexual</text>
+<text x="2112.0" y="1695" class="body" font-size="17" fill="#1A1A2E">— Mondzain · Economia Icônica</text>
+<text x="2112.0" y="1715" class="body" font-size="17" fill="#1A1A2E">— Goodrich · Visiocracia</text>
+<text x="2112.0" y="1735" class="body" font-size="17" fill="#1A1A2E">— Warburg · Mnemosyne / Nachleben</text>
+<text x="2112.0" y="1755" class="body" font-size="17" fill="#1A1A2E">— Panofsky · Iconologia</text>
+<text x="1600.0" y="1775" text-anchor="middle" class="mono" font-size="13" fill="#888076" letter-spacing="0.4em">ICONOCRACIA · v0.1 · JUNHO 2026 · CORPUS 309 ITENS · 11 PAÍSES</text>
+</svg>

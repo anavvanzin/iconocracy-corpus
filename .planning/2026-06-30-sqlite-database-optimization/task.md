@@ -1,0 +1,10 @@
+- [x] Run master ledger schema validation
+- [x] Run purification ledger schema validation
+- [x] Verify records to corpus export synchronization
+- [x] Diagnose local SQLite database replica status
+- [x] Rebuild and synchronize corpus.sqlite database
+- [x] Execute complete test suite via pytest
+- [x] Propose SQLite FTS5 and PRAGMA performance optimizations
+- [x] Refactor `records_to_sqlite.py` with optimizations (batching, triggers, pragmas)
+- [x] Rebuild SQLite database using the optimized script
+- [x] Re-run test suite after optimizations

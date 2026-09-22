@@ -21,7 +21,7 @@ else
   echo "AVISO: conda.sh não encontrado em $CONDA_BASE — tentando python direto." >&2
 fi
 
-PY="${PY:-/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python3.12}"
+PY="${PY:-/opt/homebrew/Caskroom/miniforge/base/envs/iconocracy/bin/python}"
 
 echo "=== iconocode_gemma4 — batch de 19 itens ===" >&2
 echo "Python: $PY" >&2

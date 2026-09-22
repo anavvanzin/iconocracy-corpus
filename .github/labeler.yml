@@ -1,0 +1,35 @@
+# Configuração do actions/labeler@v4 (.github/workflows/label.yml).
+# Rótulos definidos em .github/labels.json; "blocked" e "release" são de
+# status (aplicação manual), não mapeáveis por caminho.
+#
+# FORMATO ACOPLADO À VERSÃO — não misturar:
+#   @v4 (versão fixada aqui) → "rótulo: [globs]" (lista de globs minimatch).
+#   @v5 → "rótulo: - changed-files: - any-glob-to-any-file: [globs]".
+# O formato match-object (changed-files/any-glob-to-any-file) QUEBRA no @v4.
+# Ao subir para @v5, migrar TODOS os mapeamentos abaixo para o novo formato.
+
+corpus:
+  - corpus/**
+  - data/**
+  - vault/candidatos/**
+  - vault/sessoes/**
+
+coding:
+  - notebooks/**
+  - data/processed/purification.jsonl
+  - tools/scripts/code_purification.py
+  - docs/decisions/**
+
+writing:
+  - tese/**
+  - vault/tese/**
+  - docs/PLANO-TESE-ICONOCRACIA.md
+
+infra:
+  - .github/**
+  - .claude/**
+  - tools/**
+  - tests/**
+  - deploy/**
+  - docker-compose.yml
+  - environment.yml

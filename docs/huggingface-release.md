@@ -34,6 +34,16 @@ Snapshot contents:
 - `CHANGELOG.md`
 - `README.md`
 
+The generated dataset card exposes three independent Viewer configurations:
+
+- `corpus` (default): public-facing corpus export
+- `records`: canonical records ledger
+- `purification`: coding-observation ledger
+
+The configurations keep the three distinct schemas from being concatenated by
+the Hugging Face JSON builder. `release.json` remains metadata and is not
+declared as a tabular data file.
+
 ## Publish the dataset
 
 Prerequisite: authenticate the local CLI first.

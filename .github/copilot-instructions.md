@@ -110,7 +110,7 @@ Update the canonical ledger first and derive public exports from it. Do not trea
 - Keep **Contrato Sexual Visual** and **Feminilidade de Estado** as thesis-native concepts.
 - Keep **Pathosformel**, **Zwischenraum**, and **Nachleben** in German.
 - Use **ABNT NBR 6023:2025** for citations.
-- Maintain the repository's juridico-penal framing; do not recast thesis material in anthropological or sociological terms.
+- Keep the thesis's **interdisciplinary** framing: legal history and theory in explicit dialogue with anthropology and sociology (e.g. Lévi-Strauss, Bourdieu). The juridical register does not exclude anthropological or sociological readings — do not strip them from the material.
 
 ### Release gate
 

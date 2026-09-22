@@ -1,4 +1,5 @@
 ---
+url: https://gallica.bnf.fr/ark:/12148/btv1b69480451.item
 id: FR-013
 tipo: corpus/candidato
 status: verificar

@@ -1,4 +1,5 @@
 ---
+url: https://bndigital.bnportugal.gov.pt/records/item/37491-alegoria-a-morte
 id: PT-003
 tipo: corpus/candidato
 status: verificar

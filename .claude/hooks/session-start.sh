@@ -10,10 +10,22 @@ DIR="$CLAUDE_PROJECT_DIR"
 
 echo "=== Iconocracy Corpus — Environment Check ==="
 
-# 1. Python dependencies
-echo "[1/5] Installing Python dependencies..."
-pip install -q -r "$DIR/requirements.txt"
-pip install -q pylint
+# 1. Python dependencies (core only) + test/lint tooling
+# Remote sessions have no conda env; install into the base interpreter via pip.
+# Idempotent: pip skips already-satisfied requirements. requirements.txt also
+# includes the ML training stack (torch/transformers/peft/trl/datasets), which
+# is only needed by tools/scripts/{train_iconocracy_sft,run_iconocracy_eval}.py
+# and is too heavy for synchronous SessionStart setup.
+echo "[1/5] Installing core Python dependencies (ML training stack skipped; pylint + ruff + pytest + cffi included)..."
+CORE_REQUIREMENTS="$(mktemp)"
+trap 'rm -f "$CORE_REQUIREMENTS"' EXIT
+ML_REQUIREMENT_RE='^[[:space:]]*(torch|transformers|peft|trl|datasets)([[:space:]]*(=|<|>|!|~)|[[:space:]]*$)'
+grep -vE "$ML_REQUIREMENT_RE" "$DIR/requirements.txt" > "$CORE_REQUIREMENTS"
+PIP_INSTALL=(python -m pip install -q -r "$CORE_REQUIREMENTS" pylint ruff pytest cffi)
+if ! "${PIP_INSTALL[@]}" 2>/dev/null; then
+  # Fallback for images that enforce PEP 668 (externally-managed-environment).
+  "${PIP_INSTALL[@]}" --break-system-packages
+fi
 
 # 2. Verify required directories exist
 echo "[2/5] Checking directory structure..."
@@ -62,14 +74,16 @@ for f in "${KEY_FILES[@]}"; do
   fi
 done
 
-# 4. Validate corpus JSON
-echo "[4/5] Validating corpus data..."
+# 4. Validate corpus JSON + confirm test/lint tooling is runnable
+echo "[4/5] Validating corpus data and tooling..."
 if python -c "import json; json.load(open('$DIR/corpus/corpus-data.json'))" 2>/dev/null; then
   ITEMS=$(python -c "import json; print(len(json.load(open('$DIR/corpus/corpus-data.json'))))")
   echo "  corpus-data.json: $ITEMS items, valid JSON."
 else
   echo "  WARNING: corpus-data.json is invalid or missing."
 fi
+echo "  ruff:   $(ruff --version 2>&1 | head -1 || echo 'NOT FOUND')"
+echo "  pytest: $(python -m pytest --version 2>&1 | head -1 || echo 'NOT FOUND')"
 
 # 5. Check external tools
 echo "[5/5] Checking external tools..."

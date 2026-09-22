@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """
-Download corpus images in highest available quality to the SSD.
+Download corpus images in highest available quality to an SSD.
+
+Storage root resolution (first hit wins):
+  1. $ICONOCRACIA_SSD_ROOT — path to the `corpus/imagens` dir on any SSD
+  2. Any mounted volume with `corpus/imagens` (e.g. /Volumes/*/corpus/imagens)
+  3. Repo staging: data/raw/.staging
 
 Priority: Gallica IIIF full-res > url_image_download > thumbnail_url
-Saves to: /Volumes/ICONOCRACIA/corpus/imagens/{PAIS}/{ID}.jpg
+Saves to: {SSD_BASE}/{PAIS}/{ID}.jpg
 
 Usage:
     python download_corpus_images.py [--dry-run] [--only ID1,ID2,...]
@@ -25,7 +30,21 @@ SSL_UNVERIFIED.check_hostname = False
 SSL_UNVERIFIED.verify_mode = ssl.CERT_NONE
 
 CORPUS_PATH = Path(__file__).resolve().parents[2] / "corpus" / "corpus-data-enriched.json"
-SSD_BASE = Path("/Volumes/ICONOCRACIA/corpus/imagens")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+
+
+def resolve_ssd_base() -> Path:
+    """Image storage root: env override > any mounted volume > repo staging."""
+    env_root = os.environ.get("ICONOCRACIA_SSD_ROOT")
+    if env_root:
+        return Path(env_root)
+    for candidate in sorted(Path("/Volumes").glob("*/corpus/imagens")):
+        if candidate.is_dir():
+            return candidate
+    return REPO_ROOT / "data" / "raw" / ".staging"
+
+
+SSD_BASE = resolve_ssd_base()
 REPORT_PATH = Path(__file__).resolve().parents[2] / "corpus" / "download-report.md"
 
 # Country prefix → folder mapping
@@ -320,7 +339,7 @@ def generate_report(stats, items):
     lines.extend([
         "## Storage location",
         "",
-        "`/Volumes/ICONOCRACIA/corpus/imagens/{PAIS}/{ID}.jpg`",
+        f"`{SSD_BASE}/{{PAIS}}/{{ID}}.jpg`",
         "",
         "Accessible via symlinks at `data/raw/{PAIS}/` in the repository.",
     ])
@@ -337,10 +356,7 @@ def main():
         if idx + 1 < len(sys.argv):
             only_ids = set(sys.argv[idx + 1].split(","))
 
-    # Check SSD
-    if not SSD_BASE.exists():
-        print("ERROR: SSD not mounted at /Volumes/ICONOCRACIA")
-        sys.exit(1)
+    # Storage root is resolved at import; nothing to gate on.
 
     print(f"Loading corpus from {CORPUS_PATH}")
     with open(CORPUS_PATH, encoding="utf-8") as f:

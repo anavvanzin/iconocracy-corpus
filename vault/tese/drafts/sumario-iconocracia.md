@@ -128,7 +128,12 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 
 #### 3.4 — Rupturas e contra-alegorias: quando o corpo alegórico é disputado
 
-> ▸ *Marianne-celebridades (Bardot, Deneuve, ressignificação pop). Justiça Popular portuguesa (cartaz pós-Revolução dos Cravos, 1975). Tensões entre norma icônica e contestação.*
+> ▸ *Contra-alegorias como disputa do corpo estatal: Justiça Popular
+> portuguesa (1975), Marianne/Femen no selo francês (2013), Marianne viva de
+> Deborah de Robertis (2018), Marianne/Rude mutilada no Arco do Triunfo (2018)
+> e Ceschiatti/STF como sequência brasileira de profanação e reconsagração
+> (2023-2024). Casos fracos ou sem fonte primária ficam na fila de candidatos,
+> não no argumento principal.*
 
 ---
 

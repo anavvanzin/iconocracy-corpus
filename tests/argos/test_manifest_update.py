@@ -1,11 +1,12 @@
+import sys
 import json
 import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 from tools.argos.manifest import locked_update_manifest
-
 
 class ManifestUpdateTests(unittest.TestCase):
     def setUp(self):
@@ -198,7 +199,7 @@ class ManifestUpdateTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    "python",
+                    sys.executable,
                     str(self.script_path),
                     "--manifest",
                     str(manifest_path),
@@ -227,7 +228,7 @@ class ManifestUpdateTests(unittest.TestCase):
 
             result = subprocess.run(
                 [
-                    "python",
+                    sys.executable,
                     str(self.script_path),
                     "--manifest",
                     str(manifest_path),

@@ -1,4 +1,5 @@
 ---
+url: https://gallica.bnf.fr/ark:/12148/btv1b10544534k.item
 id: FR-020
 tipo: corpus/candidato
 status: verificar

@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-07-07T21:43:34Z",
+  "file_count": 10,
+  "files": [
+    {
+      "name": "Elicit - screen-results-review-5524afb2-8aec-42a3-a0ea-61ec821a8cbf.csv",
+      "source_path": "/Users/ana/Research/hub/iconocracy-corpus/Elicit - screen-results-review-5524afb2-8aec-42a3-a0ea-61ec821a8cbf.csv",
+      "sha256": "af5d8020091bda2ad170c0b64dafc821b60ebe2f0168d8121b5fea5e66caa29f",
+      "size_bytes": 3497069,
+      "duplicate_of": null,
+      "copied_to": null
+    },
+    {
+      "name": "Elicit - Feminist Allegories in Political Representation - Report.pdf",
+      "source_path": "/Users/ana/Research/hub/iconocracy-corpus/Elicit - Feminist Allegories in Political Representation - Report.pdf",
+      "sha256": "aa414d9a2fde2a1f5cba71659cf5bc5f5d7de2e4a07c5a5fc319a84b506749b0",
+      "size_bytes": 228100,
+      "duplicate_of": null,
+      "copied_to": null
+    },
+    {
+      "name": "Elicit - Feminist Allegories in Political Representation - Report (1).pdf",
+      "source_path": "/Users/ana/Research/hub/iconocracy-corpus/Elicit - Feminist Allegories in Political Representation - Report (1).pdf",
+      "sha256": "aa414d9a2fde2a1f5cba71659cf5bc5f5d7de2e4a07c5a5fc319a84b506749b0",
+      "size_bytes": 228100,
+      "duplicate_of": "Elicit - Feminist Allegories in Political Representation - Report.pdf",
+      "copied_to": null
+    },
+    {
+      "name": "Elicit - Feminist Allegories in Political Representation - Report (2).pdf",
+      "source_path": "/Users/ana/Research/hub/iconocracy-corpus/Elicit - Feminist Allegories in Political Representation - Report (2).pdf",
+      "sha256": "aa414d9a2fde2a1f5cba71659cf5bc5f5d7de2e4a07c5a5fc319a84b506749b0",
+      "size_bytes": 228100,
+      "duplicate_of": "Elicit - Feminist Allegories in Political Representation - Report.pdf",
+      "copied_to": null
+    },
+    {
+      "name": "Elicit - Feminist Allegories in Political Representation - Report (3).pdf",
+      "source_path": "/Users/ana/Research/hub/iconocracy-corpus/Elicit - Feminist Allegories in Political Representation - Report (3).pdf",
+      "sha256": "aa414d9a2fde2a1f5cba71659cf5bc5f5d7de2e4a07c5a5fc319a84b506749b0",
+      "size_bytes": 228100,
+      "duplicate_of": "Elicit - Feminist Allegories in Political Representation - Report.pdf",
+      "copied_to": null
+    },
+    {
+      "name": "Elicit - Visual Regimes and Political Imagery - Report.pdf",
+      "source_path": "/Users/ana/Research/hub/iconocracy-corpus/Elicit - Visual Regimes and Political Imagery - Report.pdf",
+      "sha256": "d3e82efce6a3006bd93d6f8c9016e570ba3b9d93cfa016840c5256872118080a",
+      "size_bytes": 117629,
+      "duplicate_of": null,
+      "copied_to": null
+    },
+    {
+      "name": "Elicit - Visual Regimes and Political Imagery - Sources.bib",
+      "source_path": "/Users/ana/Research/hub/iconocracy-corpus/Elicit - Visual Regimes and Political Imagery - Sources.bib",
+      "sha256": "1ea583b5cb27beacc414b38454cdbc856e1a78918d1488bec3147561b5412cca",
+      "size_bytes": 1950,
+      "duplicate_of": null,
+      "copied_to": null
+    },
+    {
+      "name": "nota-panofsky-e-mudancas-2026-07-02.md",
+      "source_path": "/Users/ana/Research/hub/iconocracy-corpus/nota-panofsky-e-mudancas-2026-07-02.md",
+      "sha256": "4cadbecfef97e2c7e7b1a903c4deb336f8de19f45c74f6afbb70f0014e9dc7da",
+      "size_bytes": 15735,
+      "duplicate_of": null,
+      "copied_to": null
+    },
+    {
+      "name": "nota-panofsky-e-mudancas-2026-07-02.pdf",
+      "source_path": "/Users/ana/Research/hub/iconocracy-corpus/nota-panofsky-e-mudancas-2026-07-02.pdf",
+      "sha256": "b3ee63c67300c79b3833fde991371d5ef77921d18acc3cd00eac82c03978905d",
+      "size_bytes": 435370,
+      "duplicate_of": null,
+      "copied_to": null
+    },
+    {
+      "name": "revisao-sistematica-sessao-forkeada.md",
+      "source_path": "/Users/ana/Research/hub/iconocracy-corpus/tese/pesquisa/revisao-sistematica-sessao-forkeada.md",
+      "sha256": "de5e6b03dd5e3f2925f020e121d4248656f739fa477c884f7c9c8b51a8e59f91",
+      "size_bytes": 16025,
+      "duplicate_of": null,
+      "copied_to": null
+    }
+  ]
+}

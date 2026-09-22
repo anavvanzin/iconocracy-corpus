@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "properties": {
+    "image_url": {
+      "type": "string",
+      "title": "Image URL",
+      "description": "Direct URL to the main artwork/object image on the page (highest available resolution). Must be a stable link ending in .jpg/.jpeg/.png/.webp or hosted on the site's image CDN. Empty string if no reliable image found."
+    },
+    "title_on_page": {
+      "type": "string",
+      "title": "Title on Page",
+      "description": "The title/name of the object as it appears on the page."
+    },
+    "date_on_page": {
+      "type": "string",
+      "title": "Date on Page",
+      "description": "Date/year of the object as shown on the source page."
+    },
+    "creator_on_page": {
+      "type": "string",
+      "title": "Creator/Author",
+      "description": "Author, engraver, mint, or issuing authority as shown on the source page."
+    },
+    "license": {
+      "type": "string",
+      "title": "License / Rights Statement",
+      "description": "Copyright statement, license (e.g. Public Domain, CC-BY, CC0, All Rights Reserved), or 'Not specified' if absent."
+    },
+    "custody": {
+      "type": "string",
+      "title": "Custody / Collection",
+      "description": "The institution or collection that holds the item (e.g. 'Library of Congress', 'Colnect user contribution', 'Numista catalog #12345')."
+    },
+    "source_url": {
+      "type": "string",
+      "title": "Source URL",
+      "description": "The page URL that was visited (echo back the input URL)."
+    },
+    "notes": {
+      "type": "string",
+      "title": "Notes",
+      "description": "Any relevant metadata: dimensions, resolution, provenance, disambiguation. Also note if the page blocks image extraction or requires login."
+    }
+  },
+  "required": ["source_url"]
+}
