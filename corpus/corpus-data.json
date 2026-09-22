@@ -8385,7 +8385,7 @@
     "coded_at": "2026-06-23T02:10:47.581178+00:00",
     "date": "c. 1731–1750",
     "regime": "normativo",
-    "endurecimento_score": 1.8,
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -8420,7 +8420,7 @@
     "coded_at": "2026-06-23T02:10:47.581411+00:00",
     "date": "1890",
     "regime": "normativo",
-    "endurecimento_score": 2.4,
+    "endurecimento_score": 2.1,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 2,
@@ -8455,7 +8455,7 @@
     "coded_at": "2026-06-23T02:10:47.581420+00:00",
     "date": "1889–",
     "regime": "normativo",
-    "endurecimento_score": 3.0,
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 3,
       "rigidez_postural": 0,
@@ -8491,7 +8491,7 @@
     "coded_at": "2026-06-23T02:10:47.581425+00:00",
     "date": "século XIX",
     "regime": "normativo",
-    "endurecimento_score": 1.9,
+    "endurecimento_score": 1.5,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 2,
@@ -8527,7 +8527,7 @@
     "coded_at": "2026-06-23T02:10:47.581430+00:00",
     "date": "1889–1945",
     "regime": "normativo",
-    "endurecimento_score": 2.6,
+    "endurecimento_score": 2.3,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 3,
@@ -8563,7 +8563,7 @@
     "coded_at": "2026-06-23T02:10:47.581433+00:00",
     "date": "1889–1960",
     "regime": "normativo",
-    "endurecimento_score": 2.5,
+    "endurecimento_score": 2.4,
     "indicadores": {
       "desincorporacao": 2,
       "rigidez_postural": 3,
@@ -8599,7 +8599,7 @@
     "coded_at": "2026-06-23T17:21:00Z",
     "date": "1909",
     "regime": "normativo",
-    "endurecimento_score": 2.2,
+    "endurecimento_score": 1.9,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 3,
@@ -8634,7 +8634,7 @@
     "coded_at": "2026-06-23T02:10:47.581440+00:00",
     "date": "1822–1889–",
     "regime": "normativo",
-    "endurecimento_score": 2.8,
+    "endurecimento_score": 1.7,
     "indicadores": {
       "desincorporacao": 3,
       "rigidez_postural": 0,
@@ -8670,7 +8670,7 @@
     "coded_at": "2026-06-23T02:10:47.581443+00:00",
     "date": "1889–1950",
     "regime": "normativo",
-    "endurecimento_score": 2.0,
+    "endurecimento_score": 1.8,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 3,
@@ -8705,7 +8705,7 @@
     "coded_at": "2026-06-23T02:10:47.581446+00:00",
     "date": "1774",
     "regime": "normativo",
-    "endurecimento_score": 1.5,
+    "endurecimento_score": 1.2,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 1,
@@ -8740,7 +8740,7 @@
     "coded_at": "2026-06-23T02:10:47.581449+00:00",
     "date": "séculos XVI–XVIII",
     "regime": "normativo",
-    "endurecimento_score": 1.2,
+    "endurecimento_score": 0.6,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 1,
@@ -8775,7 +8775,7 @@
     "coded_at": "2026-06-23T02:10:47.581453+00:00",
     "date": "2021",
     "regime": "contra-alegoria",
-    "endurecimento_score": 0.5,
+    "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -8812,7 +8812,7 @@
     "coded_at": "2026-06-23T17:21:00Z",
     "date": "1933",
     "regime": "normativo",
-    "endurecimento_score": 2.4,
+    "endurecimento_score": 2.1,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 3,
@@ -8849,7 +8849,7 @@
     "coded_at": "2026-06-23T18:59:00Z",
     "date": "1930",
     "regime": "normativo",
-    "endurecimento_score": 2.2,
+    "endurecimento_score": 2.0,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 3,
@@ -8886,7 +8886,7 @@
     "coded_at": "2026-06-23T18:59:00Z",
     "date": "2005",
     "regime": "normativo",
-    "endurecimento_score": 2.4,
+    "endurecimento_score": 2.2,
     "indicadores": {
       "desincorporacao": 1,
       "rigidez_postural": 3,
