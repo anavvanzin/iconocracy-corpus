@@ -14,6 +14,13 @@ Cobre a extensão da issue #211 (commit ac1ca89):
   - Baseline de integração: pina as contagens reais do ledger (336 itens,
     326 panofsky, 17 atributos, distribuição de regimes) para detectar deriva
     do pipeline na regeneração.
+  - resolve_overlay_source() (revisão 2026-09-22, E1): fonte de overlay fixa
+    (legacy.json > backup mais antigo > bootstrap one-shot); a saída do script
+    nunca vira overlay, mesmo em execução posterior
+  - Precedência do ledger (E2): gap-fill de medium/medium_norm/period a partir
+    do ledger quando o overlay não tem o valor; curação do overlay preservada
+  - Relatório (E3): contadores (itens novos, órfãos, sem date,
+    local_image_path) computados dos dados, não hardcoded
 
 Estilo: GREEN-first (o código já existe); os testes pinam o comportamento atual
 e documentam as decisões semânticas (ex.: booleano False em V230_FIELDS é
@@ -32,12 +39,15 @@ import pytest
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
+from tools.scripts import regenerate_enriched  # noqa: E402
 from tools.scripts.regenerate_enriched import (  # noqa: E402
     V230_FIELDS,
     build_record,
     load_master_records,
     resolve_master_record,
+    resolve_overlay_source,
     validate_structural,
+    write_report,
 )
 
 
@@ -249,6 +259,173 @@ class TestBuildRecordWithoutMaster:
         (schema exige number quando presente)."""
         record, _ = build_record(make_ledger_item(), {}, stats, master=None)
         assert "endurecimento_score" not in record["iconographic_metadata"]
+
+
+# ─── resolve_overlay_source (fonte de overlay fixa, revisão E1) ─────────────
+
+
+class TestOverlaySource:
+    """A fonte de overlay nunca pode ser a saída mais recente do script —
+    regressão do bug E1 (execução no dia seguinte redefinia "legado")."""
+
+    def _patch_paths(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(
+            regenerate_enriched, "ENRICHED_PATH",
+            tmp_path / "corpus-data-enriched.json")
+        monkeypatch.setattr(
+            regenerate_enriched, "LEGACY_PATH",
+            tmp_path / "corpus-data-enriched.legacy.json")
+
+    def test_legacy_json_wins_over_backups(self, tmp_path, monkeypatch):
+        self._patch_paths(tmp_path, monkeypatch)
+        (tmp_path / "corpus-data-enriched.legacy.json").write_text(
+            '[{"id": "FR-001"}]', encoding="utf-8")
+        (tmp_path / "corpus-data-enriched.json.bak.2026-09-17").write_text(
+            '[{"id": "OLD"}]', encoding="utf-8")
+        (tmp_path / "corpus-data-enriched.json.bak.2026-09-19").write_text(
+            '[{"id": "OLD2"}]', encoding="utf-8")
+        path, origin, overlay = resolve_overlay_source()
+        assert path.name == "corpus-data-enriched.legacy.json"
+        assert origin == "legacy.json commitado"
+        assert overlay == [{"id": "FR-001"}]
+
+    def test_falls_back_to_oldest_backup_not_today(self, tmp_path, monkeypatch):
+        """Regressão E1: mesmo com a saída atual existindo e sendo mais nova,
+        a fonte é o backup MAIS ANTIGO — nunca 'bak de hoje, senão o atual'."""
+        self._patch_paths(tmp_path, monkeypatch)
+        (tmp_path / "corpus-data-enriched.json").write_text(
+            '[{"id": "OUTPUT-336"}]', encoding="utf-8")
+        (tmp_path / "corpus-data-enriched.json.bak.2026-09-19").write_text(
+            '[{"id": "MID"}]', encoding="utf-8")
+        (tmp_path / "corpus-data-enriched.json.bak.2026-09-17").write_text(
+            '[{"id": "PRISTINO"}]', encoding="utf-8")
+        path, origin, overlay = resolve_overlay_source()
+        assert path.name == "corpus-data-enriched.json.bak.2026-09-17"
+        assert "backup mais antigo" in origin
+        assert overlay == [{"id": "PRISTINO"}]
+
+    def test_bootstrap_snapshots_once_then_uses_legacy(self, tmp_path,
+                                                       monkeypatch):
+        self._patch_paths(tmp_path, monkeypatch)
+        enriched = tmp_path / "corpus-data-enriched.json"
+        enriched.write_text('[{"id": "A"}]', encoding="utf-8")
+        path, origin, overlay = resolve_overlay_source()
+        assert path.name == "corpus-data-enriched.legacy.json"
+        assert "bootstrap" in origin
+        assert overlay == [{"id": "A"}]
+        legacy = tmp_path / "corpus-data-enriched.legacy.json"
+        assert legacy.read_text(encoding="utf-8") == '[{"id": "A"}]'
+        # Segunda execução (outro dia, saída já regenerada): fonte segue fixa.
+        enriched.write_text('[{"id": "A"}, {"id": "B"}]', encoding="utf-8")
+        path2, origin2, overlay2 = resolve_overlay_source()
+        assert path2 == path
+        assert origin2 == "legacy.json commitado"
+        assert overlay2 == [{"id": "A"}]  # saída nova NÃO vira overlay
+
+    def test_bootstrap_without_enriched_exits(self, tmp_path, monkeypatch):
+        self._patch_paths(tmp_path, monkeypatch)
+        with pytest.raises(SystemExit):
+            resolve_overlay_source()
+
+    def test_corrupt_overlay_exits(self, tmp_path, monkeypatch):
+        self._patch_paths(tmp_path, monkeypatch)
+        (tmp_path / "corpus-data-enriched.legacy.json").write_text(
+            "{{{not json", encoding="utf-8")
+        with pytest.raises(SystemExit):
+            resolve_overlay_source()
+
+    def test_non_list_overlay_exits(self, tmp_path, monkeypatch):
+        self._patch_paths(tmp_path, monkeypatch)
+        (tmp_path / "corpus-data-enriched.legacy.json").write_text(
+            '{"id": "FR-001"}', encoding="utf-8")
+        with pytest.raises(SystemExit):
+            resolve_overlay_source()
+
+
+# ─── E2: precedência do ledger com overlay curado preservado ────────────────
+
+
+class TestLedgerPrecedence:
+    def test_new_item_derives_medium_period_from_ledger(self, stats):
+        item = make_ledger_item(support="selo", date="1889")
+        record, is_legacy = build_record(item, {}, stats)
+        assert not is_legacy
+        assert record["medium"] == "selo"
+        assert record["medium_norm"] == "selo"
+        assert record["period"] == "IIIe République (1870–1940)"
+
+    def test_legacy_gap_filled_from_ledger(self, stats):
+        """Overlay legado sem valor → ledger preenche (E2)."""
+        old = {"id": "FR-001", "medium": None, "medium_norm": None,
+               "period": None, "tags": ["curated"]}
+        item = make_ledger_item(support="selo", date="1889")
+        record, is_legacy = build_record(item, {"FR-001": old}, stats)
+        assert is_legacy
+        assert record["medium"] == "selo"
+        assert record["medium_norm"] == "selo"
+        assert record["period"] == "IIIe République (1870–1940)"
+
+    def test_curated_overlay_values_preserved(self, stats):
+        """Curação do overlay (c18aec3) não é sobrescrita pela derivação —
+        o ledger só preenche lacunas, nunca destrói valor curado."""
+        old = {"id": "FR-001", "medium": "Photograph (p&b)",
+               "medium_norm": "fotografia", "period": "II Império (1852–1870)",
+               "period_norm": None, "tags": ["female allegory", "statue"],
+               "regime": "NORMATIVO",
+               "regime_justificativa": "justificativa substantiva curada"}
+        item = make_ledger_item(support="fotografia", date="1855")
+        record, is_legacy = build_record(item, {"FR-001": old}, stats)
+        assert is_legacy
+        assert record["medium"] == "Photograph (p&b)"
+        assert record["medium_norm"] == "fotografia"
+        assert record["period"] == "II Império (1852–1870)"
+        assert record["tags"] == ["female allegory", "statue"]
+
+
+# ─── E3: números do relatório computados dos dados ──────────────────────────
+
+
+class TestReportComputedNumbers:
+    def _record(self, item_id, **kw):
+        r = {"id": item_id, "title": "t", "country": "France", "date": "",
+             "regime": "NORMATIVO", "url": None, "motif": [],
+             "support": None}
+        r.update(kw)
+        return r
+
+    def _stats(self, **kw):
+        s = {"ledger_count": 2, "old_count": 1,
+             "overlay_source": "corpus/x.legacy.json",
+             "overlay_origin": "legacy.json commitado",
+             "legacy_overlays": 1,
+             "orphans": [("A-1", "t1"), ("A-2", "t2")],
+             "regime_incerto": [], "legacy_regime_changed": [],
+             "medium_unmapped": []}
+        s.update(kw)
+        return s
+
+    def test_report_uses_computed_counts(self, tmp_path, monkeypatch):
+        monkeypatch.setattr(
+            regenerate_enriched, "REPORT_PATH", tmp_path / "report.md")
+        records = [self._record("FR-001"), self._record("FR-002")]
+        write_report(records, self._stats(), "2026-09-22")
+        text = (tmp_path / "report.md").read_text(encoding="utf-8")
+        assert "## Lacunas conhecidas dos 1 itens novos" in text  # 2 - 1 legado
+        assert "Decidir o destino dos 2 órfãos" in text
+        assert "- 2 itens sem `date` (ano derivado null)." in text
+        assert "`local_image_path` é null para todos" in text
+        assert "corpus/x.legacy.json" in text  # fonte explícita (E1)
+
+    def test_report_counts_filled_local_image_paths(self, tmp_path,
+                                                    monkeypatch):
+        monkeypatch.setattr(
+            regenerate_enriched, "REPORT_PATH", tmp_path / "report.md")
+        records = [self._record("FR-001", local_image_path="corpus/imagens/x"),
+                   self._record("FR-002")]
+        write_report(records, self._stats(), "2026-09-22")
+        text = (tmp_path / "report.md").read_text(encoding="utf-8")
+        assert "`local_image_path` é null em 1/2" in text
+        assert "é null para todos" not in text
 
 
 # ─── validate_structural ────────────────────────────────────────────────────
