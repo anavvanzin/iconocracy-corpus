@@ -173,7 +173,7 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 
 #### 5.3 — Sistema de codificação IconoCode e integração ICONCLASS
 
-> ▸ *Descrição do IconoCode: sistema de codificação próprio que integra os três níveis de Panofsky com ICONCLASS (48C514, 31AA231, etc.), gerando registros mestre com evidências, lacunas e níveis de confiança.*
+> ▸ *Descrição do IconoCode: sistema de codificação próprio que integra os três níveis de Panofsky com ICONCLASS [VERIFICAR: os códigos 48C514/31AA231 citados nesta proposta não conferem com os registros do corpus; ver a nota terminológica do Glossário e o rótulo interno 48C51], gerando registros mestre com evidências, lacunas e níveis de confiança.*
 
 #### 5.4 — Infraestrutura digital: GitHub, Drive, Notion
 

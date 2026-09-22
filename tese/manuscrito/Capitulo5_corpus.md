@@ -3,9 +3,9 @@ titulo: "O Corpus: Construção, Codificação e Infraestrutura"
 parte: "II — Método e Corpus"
 capitulo: 5
 status: "esqueleto"
-palavras: 0
-citacoes: 0
-updated: "2026-03-23"
+palavras: 1580
+citacoes: 5
+updated: "2026-09-22"
 pandoc:
   reference-doc: "template.docx"
   csl: "abnt.csl"
@@ -49,11 +49,11 @@ A genealogia primária da Purificação Clássica é interna à história do dir
 
 ### 5.2.3 — Extensão ferramental
 
-Para operacionalizar empiricamente a Purificação Clássica sobre as 145 peças do corpus, mobilizam-se três aparatos conceituais externos à dogmática jurídica, tomados como ferramentas analíticas pontuais. Bruno Latour, em *Jamais fomos modernos* (1991), descreve a "purificação" como o gesto moderno por excelência: a separação ontológica entre humanos e não-humanos, entre natureza e cultura, que permite à modernidade gerir o mundo como conjunto de domínios estanques. Donna Haraway, no *Manifesto Ciborgue* (1985), oferece o reverso crítico desse gesto: o ciborgue como figura híbrida que recusa a partição purificadora. Aqui se localiza o paralelo analítico decisivo desta tese — a alegoria feminina jurídica é, estruturalmente, o **inverso do ciborgue**: onde o ciborgue celebra a fronteira porosa entre orgânico e inorgânico, a Justitia neoclássica fixa o corpo feminino como superfície purificada e fechada. Philippe Descola, em *As Formas do Visível* (2023 [2021]), completa o triângulo ao descrever como a ontologia naturalista do Ocidente moderno produz figuras de "presença sem agência" — corpos visíveis dos quais a interioridade é deliberadamente subtraída. Esses três aparatos não fundam o conceito de Purificação Clássica; eles fornecem o vocabulário técnico que permite mensurá-lo.
+Para operacionalizar empiricamente a Purificação Clássica sobre as 145 peças da fase analítica anterior do corpus (fase congelada que a análise estatística inicial reportou; o ledger operacional encontra-se em expansão: 336 itens em 2026-09-21), mobilizam-se três aparatos conceituais externos à dogmática jurídica, tomados como ferramentas analíticas pontuais. Bruno Latour, em *Jamais fomos modernos* (1991), descreve a "purificação" como o gesto moderno por excelência: a separação ontológica entre humanos e não-humanos, entre natureza e cultura, que permite à modernidade gerir o mundo como conjunto de domínios estanques. Donna Haraway, no *Manifesto Ciborgue* (1985), oferece o reverso crítico desse gesto: o ciborgue como figura híbrida que recusa a partição purificadora. Aqui se localiza o paralelo analítico decisivo desta tese — a alegoria feminina jurídica é, estruturalmente, o **inverso do ciborgue**: onde o ciborgue celebra a fronteira porosa entre orgânico e inorgânico, a Justitia neoclássica fixa o corpo feminino como superfície purificada e fechada. Philippe Descola, em *As Formas do Visível* (2023 [2021]), completa o triângulo ao descrever como a ontologia naturalista do Ocidente moderno produz figuras de "presença sem agência" — corpos visíveis dos quais a interioridade é deliberadamente subtraída. Esses três aparatos não fundam o conceito de Purificação Clássica; eles fornecem o vocabulário técnico que permite mensurá-lo.
 
 ### 5.2.4 — Operacionalização: os 10 indicadores ordinais
 
-A Purificação Clássica é mensurada empiricamente, em cada peça do corpus, por meio de dez indicadores ordinais aplicados em escala de 0 a 3, conforme protocolo IconoCode documentado no codebook (ver [[codebook|Codebook — 10 indicadores]]). Os indicadores são: **desincorporação** (grau de subtração da carne em favor do drapeado abstrato), **rigidez postural** (imobilidade frontal versus dinamismo gestual), **dessexualização** (recobrimento ou neutralização dos marcadores sexuais), **uniformização facial** (substituição do rosto singular por máscara genérica neoclássica), **heraldicização** (incorporação de insígnias estatais que recobrem o corpo), **enquadramento arquitetônico** (fixação numa moldura institucional fixa), **apagamento narrativo** (supressão de cena, contexto, ação), **monocromatização** (redução da paleta cromática a brancos, bronzes e mármores), **serialidade** (replicação industrial do mesmo modelo em moedas, selos, monumentos) e **inscrição estatal** (presença de letra, sigla ou divisa que ancora a figura à soberania). A soma desses dez indicadores, por peça, fornece o índice de endurecimento — termo operacional que designa, na prática estatística desta tese, o resultado mensurável da operação que a Purificação Clássica nomeia conceitualmente.
+A Purificação Clássica é mensurada empiricamente, em cada peça do corpus, por meio de dez indicadores ordinais aplicados em escala de 0 a 3, conforme protocolo IconoCode documentado no codebook (ver [[codebook|Codebook — 10 indicadores]]). Os indicadores são: **desincorporação** (grau de subtração da carne em favor do drapeado abstrato), **rigidez postural** (imobilidade frontal versus dinamismo gestual), **dessexualização** (recobrimento ou neutralização dos marcadores sexuais), **uniformização facial** (substituição do rosto singular por máscara genérica neoclássica), **heraldicização** (incorporação de insígnias estatais que recobrem o corpo), **enquadramento arquitetônico** (fixação numa moldura institucional fixa), **apagamento narrativo** (supressão de cena, contexto, ação), **monocromatização** (redução da paleta cromática a brancos, bronzes e mármores), **serialidade** (replicação industrial do mesmo modelo em moedas, selos, monumentos) e **inscrição estatal** (presença de letra, sigla ou divisa que ancora a figura à soberania). A **média** desses dez indicadores, por peça, fornece o escore de endurecimento (faixa 0,0–3,0; ver §2.3 do capítulo de método para a definição canônica) — termo operacional que designa, na prática estatística desta tese, o resultado mensurável da operação que a Purificação Clássica nomeia conceitualmente. [Correção 2026-09-22: a definição anterior dizia "soma", em contradição com a média 0–3 usada no capítulo de método e no codebook.]
 
 ### 5.2.5 — Articulação com os outros três conceitos originais
 
@@ -63,7 +63,7 @@ A Purificação Clássica não substitui os outros três originais; articula-os.
 
 ## 5.3 — Sistema de codificação IconoCode e integração ICONCLASS
 
-<!-- MIGRAR: preencher a partir do velho Capitulo2_metodologia §2.2 (Panofsky 3 níveis) + §2.5 (validação imagem×metadados) + ICONCLASS (Van de Waal, código 48C51). Pendente. -->
+<!-- MIGRAR: preencher a partir do velho Capitulo2_metodologia §2.2 (Panofsky 3 níveis) + §2.5 (validação imagem×metadados) + ICONCLASS (Van de Waal, código 48C51). Pendente. NOTA 2026-09-22: 48C51 é rótulo INTERNO do projeto — no sistema oficial Iconclass, 48C51 = 'painting'; usar códigos oficiais presentes no corpus (44B62, 11M44) ou declarar a taxonomia interna; e a validação imagem×metadados hoje é §2.6 do arquivo vigente. -->
 
 ## 5.4 — Infraestrutura digital: GitHub, Drive, Obsidian
 
