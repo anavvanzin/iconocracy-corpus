@@ -1,9 +1,6 @@
-name = "iconocracia-companion"
-main = "src/index.js"
+name = "iconocracia-atlas"
 compatibility_date = "2026-03-20"
-
-[assets]
-directory = "./public"
+pages_build_output_dir = "dist"
 
 [[kv_namespaces]]
 binding = "DIARY_KV"
@@ -17,18 +14,3 @@ database_id = "77c09df7-b510-48b3-8a39-94b39416aa2f"
 [[r2_buckets]]
 binding = "CORPUS_IMAGES"
 bucket_name = "iconocracia-images"
-
-[observability]
-enabled = true
-head_sampling_rate = 1
-
-[observability.logs]
-enabled = true
-head_sampling_rate = 1
-persist = true
-invocation_logs = true
-
-[observability.traces]
-enabled = true
-persist = true
-head_sampling_rate = 1
