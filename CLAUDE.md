@@ -96,7 +96,7 @@ vault/sessoes/      → session summary notes (SCOUT-SESSION-YYYY-MM-DD.md)
 tese/manuscrito/    → thesis chapters (Markdown, compiled via Pandoc)
 tools/scripts/      → Python automation scripts (69; see tools/scripts/ for full list)
 tools/schemas/      → JSON schemas (master-record, iconocode-output, webscout-input/output)
-notebooks/          → sequential analysis 01–08 (exploratory → kruskal_wallis → regression → correspondence → temporal → clustering → dimensionality → multidimensional_scoring)
+notebooks/          → sequential analysis 01–08 (exploratory → kruskal_wallis → regression → correspondence → temporal → clustering → dimensionality → multidimensional_scoring). **02–08 congelados desde 2026-09-22 como artefatos exploratórios/diagnóstico interno** (ver `docs/decisions/2026-09-22-auditoria-camada-inferencial.md`); 01 (descritivo) permanece ativo
 deploy/             → Cloudflare Workers companion, HF Space
 ```
 

@@ -163,13 +163,13 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 
 ### Capítulo 5 — O CORPUS: CONSTRUÇÃO, CODIFICAÇÃO E INFRAESTRUTURA
 
-#### 5.1 — Amostragem estratificada: critérios de seleção e representação
+#### 5.1 — O corpus como catálogo documentado: critérios de inclusão e exclusão
 
-> ▸ *~300 imagens. Estratificação por país (FR, UK, DE, US, BE, BR), período, suporte material e regime iconocrático. Fontes: Gallica, Europeana, Library of Congress, Brasiliana Fotográfica, BND Portugal, acervos nacionais.*
+> ▸ *Catálogo documentado, não amostra estatística (DEC-2026-07-29): critérios de inclusão explícitos e auditáveis — alegoria feminina, função jurídico-política, 1800–2000, suportes aceitos. Ledger em expansão (336 registros em setembro de 2026). Fontes: Gallica, Europeana, Library of Congress, Brasiliana Fotográfica, BND Portugal, acervos nacionais.*
 
 #### 5.2 — O protocolo de 10 indicadores ordinais de purificação
 
-> ▸ *Instrumento original: 10 indicadores que medem o grau de 'purificação clássica' do corpo alegórico (exposição da carne, militarização, venda nos olhos, atributos, vestimenta, pose, contexto arquitetônico, etc.). Escala ordinal. Teste de confiabilidade inter-codificadores (Alpha de Krippendorff, ordinal).*
+> ▸ *Instrumento original: 10 indicadores que medem o grau de 'purificação clássica' do corpo alegórico (exposição da carne, militarização, venda nos olhos, atributos, vestimenta, pose, contexto arquitetônico, etc.). Escala ordinal. Diagnóstico interno do instrumento documentado; sem coeficientes de confiabilidade importados (DEC-2026-07-29).*
 
 #### 5.3 — Sistema de codificação IconoCode e integração ICONCLASS
 
@@ -191,17 +191,17 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 
 > ▸ *Estatísticas descritivas. Distribuição por país, período, suporte, motivo. Visualizações: mapas de calor temporal, diagramas de Sankey país→motivo.*
 
-#### 6.2 — Regimes iconocráticos e morfologia corporal: Kruskal-Wallis
+#### 6.2 — O eixo de formalização burocrática: serialidade, inscrição estatal, heraldicização
 
-> ▸ *Teste central: as medianas dos indicadores de purificação diferem significativamente entre os três regimes (Fundacional, Normativo, Militar)? Análise post hoc com correção de Dunn.*
+> ▸ *Padrão observado no catálogo: os indicadores de formalização burocrática são os que mais distinguem os regimes no instantâneo atual (DEC-2026-09-22). Leitura como padrão observado, não como teste de hipótese.*
 
-#### 6.3 — Preditores do endurecimento: Regressão Logística Ordinal
+#### 6.3 — Diagnóstico do instrumento: indicadores morfológicos vs. materiais
 
-> ▸ *Que variáveis (país, período, regime, suporte) predizem maior militarização e purificação clássica do corpo alegórico? Odds ratios e intervalos de confiança.*
+> ▸ *A distinção entre indicadores do corpo e indicadores do suporte. Sensibilidade ao meio (monocromatização, enquadramento arquitetônico). Estatuto declarado: diagnóstico interno do instrumento, nunca prova (DEC-2026-07-29).*
 
-#### 6.4 — Circulação transatlântica: análise de correspondência e clusters
+#### 6.4 — Anomalias e casos-limite: o que os números apontam para a iconologia
 
-> ▸ *Análise de correspondência múltipla para mapear vizinhanças entre países e períodos no espaço dos indicadores. Clusters de 'famílias alegóricas' transatlânticas.*
+> ▸ *Os desvios do padrão como guia da leitura densa: Steinlen vs. Lelong, contra-alegorias, ausência alegórica. Transição para o Capítulo 7.*
 
 #### 6.5 — Limites da quantificação: o que os números não dizem
 
@@ -318,8 +318,8 @@ Cada entrada do sumário é acompanhada de uma **anotação descritiva** (em it�
 - Referências Bibliográficas
 - **Apêndice A** — Protocolo de Codificação (10 Indicadores Ordinais)
 - **Apêndice B** — Tabela Completa do Corpus (Ficha Técnica de Cada Item)
-- **Apêndice C** — Resultado do Teste Kappa (Confiabilidade Inter-Codificadores)
-- **Apêndice D** — Saídas Estatísticas Completas (Kruskal-Wallis, Regressão, Correspondência)
+- **Apêndice C** — Diagnóstico Interno do Instrumento de Codificação (estatuto declarado: calibragem, não prova; DEC-2026-07-29)
+- **Apêndice D** — Saídas Descritivas do Instantâneo Analítico (com data e N rotulados)
 - **Apêndice E** — Documentação Técnica do Dataset e do Corpus Digital
 
 > ▸ *Inclui documentação do GitHub (scripts, schemas JSON), estrutura do Google Drive (dados brutos), e espelho do Notion (tabelas de controle, decisões metodológicas).*
