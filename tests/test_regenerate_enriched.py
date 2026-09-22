@@ -502,9 +502,9 @@ class TestIntegrationBaseline:
             record, _ = build_record(item, {}, stats, master)
             records.append(record)
 
-        assert len(records) == len(real_ledger) == 336
+        assert len(records) == len(real_ledger) == 337
         assert stats["with_master"] == 326
-        assert stats["with_panofsky"] == 326
+        assert stats["with_panofsky"] == 327
         assert stats["with_atributos"] == 17
 
         regimes = Counter(r["regime"] for r in records)
@@ -513,6 +513,7 @@ class TestIntegrationBaseline:
             "NORMATIVO": 103,
             "MILITAR": 54,
             "CONTRA-ALEGORIA": 15,
+            "": 1,  # dfe19295 Villares 1888 — regime pendente de codificação
         }
 
         errors = validate_structural(records)
