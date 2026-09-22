@@ -12,7 +12,7 @@ tipo-draft: argumento-puro (prosa densa, sem scores/pipeline)
 
 # 3.2 — O contrato racial visual: branquitude e classicismo nas alegorias brasileiras
 
-> **Nota metodológica:** Este § nasce do conceito original de *Contrato Racial Visual* (Vanzin 2026), operacionalizado como o terceiro pilar do argumento central da tese, ao lado do Contrato Sexual Visual e da Feminilidade de Estado. Trata-se de argumento jurídico-visual, não de análise antropológica ou sociológica da raça. O corpus aqui mobilizado é instrumental: três objetos do acervo brasileiro e dois franceses como comparanda.
+> **Nota metodológica:** Este § nasce do conceito original de *Contrato Racial Visual* (Vanzin 2026), operacionalizado como o terceiro pilar do argumento central da tese, ao lado do Contrato Sexual Visual e da Feminilidade de Estado. Trata-se de argumento jurídico-visual, não de análise antropológica ou sociológica da raça. O corpus aqui mobilizado é instrumental: três objetos do acervo brasileiro e dois franceses como comparanda. A operação metodológica é atlas-topológica: não mede a alegoria por score, mas explicita o intervalo entre imagens e a posição situada da pesquisadora na montagem.
 
 ---
 
@@ -34,7 +34,7 @@ O neoclassicismo funciona aqui como *tecnologia de governo visual*. Quando Legen
 
 Mondzain (2002), ao analisar o imaginário cristão do poder, mostra como a imagem opera como mediação entre o visível e o invisível, entre o terreno e o celestial. A alegoria republicana opera segundo a mesma lógica: ela media o Estado (invisível) e o povo (visível). A mediação exige uma *cor intermediária* — uma cor que possa *representar* o povo sem *ser* o povo. No caso brasileiro, essa cor intermediária é o branco do mármore, do gesso, da tela. O neoclassicismo resolve, em uma só operação formal, o problema de representação: como representar uma população heterogênea mediante uma figura que seja nenhuma delas, mas que possa pretender ser todas.
 
-Os indicadores de endurecimento do corpus confirmam o diagnóstico. A *Alegoria da República* de Villares (BR-005) apresenta:
+Os indicadores de endurecimento do corpus entram aqui como *capta* auxiliar, não como prova escalar: documentam escolhas de leitura e ajudam a selecionar imagens para comparação. Nesse registro, a *Alegoria da República* de Villares (BR-005) apresenta:
 
 - **Desincorporação 3/3**: o corpo é inteiramente substituído por vestimenta arquitetônica
 - **Rigidez postural 3/3**: a pose é frontal, estática, hierática
@@ -54,7 +54,7 @@ Isso explica por que a *contra-alegoria* (corpus regime: contra-alegoria, 7 iten
 
 ## 3.2.4 — Zwischenraum: o impasse da universalidade
 
-O conceito warburguiano de Zwischenraum — o espaço entre, o interstício onde a transformação ocorre — é o lugar onde o Contrato Racial Visual se torna visível como operação. Não na tela de Villares isoladamente, mas no *painel* que contrapõe Villares (1889) à *Semeuse* de Roty (1897, FR-038 no corpus) e à *Liberté* de Moitte/Janinet (FR-SCOUT-006, enriquecendo FR-038). Neste Zwischenraum, o que se vê é uma transição *racial*: o corpo que, em Delacroix (1830), ainda carregava resíduos de individualidade fisionômica (uma branquitude vivente, suja de pólvora, com seio à mostra) — esse corpo, em Villares, já está *branqueado* pela Purificação Clássica, e na Semeuse já é *abstraído* em perfil marmóreo.
+O conceito warburguiano de Zwischenraum — o espaço entre, o interstício onde a transformação ocorre — é o lugar onde o Contrato Racial Visual se torna visível como operação. Não na tela de Villares isoladamente, mas no *painel* que contrapõe Villares (1889) à *Semeuse* de Roty (1897, FR-038 no corpus) e à *Liberté* de Moitte/Janinet (FR-SCOUT-006, enriquecendo FR-038). A pertinência dessa montagem se reforça pela indicação de Colleen Becker de que o próprio Warburg planejava incluir imagens cívico-políticas e moedas no *Bilderatlas*: a Semeuse não é um desvio numismático, mas um ponto legítimo de entrada no problema da sobrevivência política da Antiguidade. Neste Zwischenraum, o que se vê é uma transição *racial*: o corpo que, em Delacroix (1830), ainda carregava resíduos de individualidade fisionômica (uma branquitude vivente, suja de pólvora, com seio à mostra) — esse corpo, em Villares, já está *branqueado* pela Purificação Clássica, e na Semeuse já é *abstraído* em perfil marmóreo.
 
 O Zwischenraum do Contrato Racial Visual é o espaço onde a branquitude se consolida como *forma jurídica*. É nesse espaço que a tese propõe sua intervenção: o racismo das alegorias é sua *condição de funcionamento*, não uma patologia. Sem o branqueamento, não há alegoria estatal. Sem a alegoria estatal, não há Feminilidade de Estado. Sem a Feminilidade de Estado, não há Contrato Sexual Visual. O Contrato Racial Visual é, assim, o substrato material sobre o qual os outros dois contratos se erguem.
 
@@ -66,8 +66,13 @@ O Zwischenraum do Contrato Racial Visual é o espaço onde a branquitude se cons
 > - Roty, Oscar. *La Semeuse*. 1897. [moeda/elaboratório]. Paris: Monnaie de Paris.
 > - Moitte/Janinet. *Liberté*. [data]. [supporte]. [localização].
 > - Mondzain, Marie-José. *Image, icône, économie*. 2002.
-> - Legendre, Pierre. *La fabrique du droit* (edição a confirmar).
-> - Warburg, Aby. *Der Bilderatlas Mnemosyne* (edição a confirmar).
+> - Legendre, Pierre. *Dieu au miroir: Étude sur l'institution des images*. Paris: Fayard, 1994. [verificar páginas antes de citação direta]
+> - Ohrt, Roberto; Heil, Axel (eds.). *Aby Warburg: Bilderatlas Mnemosyne — The Original*. Berlin/Ostfildern: Hatje Cantz, 2020.
+> - Warburg Institute. *Bilderatlas Mnemosyne*. London: Warburg Institute / Cornell University Library digital edition.
+> - Becker, Colleen. "Aby Warburg's Pathosformel as Methodological Paradigm." *Journal of Art Historiography*, n. 9, 2013.
+> - Stramignoni, Igor. "Nachleben der Antike, Time, and Restitution: Notes for a Nocturnal Jurisprudence of the Image." *Law and Critique*, v. 35, n. 2, 2024, p. 445-482.
+> - Resnik, Judith; Curtis, Dennis. *Representing Justice: Invention, Controversy, and Rights in City-States and Democratic Courtrooms*. New Haven: Yale University Press, 2011.
+> - Drucker, Johanna. "Humanities Approaches to Graphical Display." *Digital Humanities Quarterly*, v. 5, n. 1, 2011.
 > - Schwarcz, Lilia Moritz. *O sol do Brasil*? [título a confirmar — sobre neoclassicismo e raça no Brasil].
 
 ---

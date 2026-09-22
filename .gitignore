@@ -38,6 +38,14 @@ wiki/.obsidian/plugins/
 wiki/.obsidian/hotkeys.json
 vault/.obsidian/core-plugins-migration.json
 
+# Obsidian app-state across ALL vaults (wiki/, etc.) — plugins/ é código de
+# terceiros com credenciais embutidas (ex.: remotely-save OAuth); workspace é local.
+**/.obsidian/plugins/
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/hotkeys.json
+**/.obsidian/core-plugins-migration.json
+
 # Pandoc output
 vault/tese/output/
 
@@ -222,3 +230,10 @@ htmlcov/
 
 # pytest
 .pytest_cache/
+
+# gitlinks órfãos (nested repos nunca registrados como submódulos — removidos do índice em chore/audit-gitlinks-orfaos)
+AutoResearchClaw/
+deploy/iconocracia-studio/
+tools/claude-scientific-writer/
+vault/2026-Q2-Seminario-AD/algoritmo-em-disputa/
+vault/gallant-maxwell/

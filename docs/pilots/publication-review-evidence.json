@@ -1,0 +1,103 @@
+{
+  "473ac4d7-a507-51c6-8215-983c2442fc23": {
+    "state": "partial_review",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-09-16",
+    "description": "Figura feminina de pé sobre globo, segurando bandeira elevada na mão esquerda e espada voltada para baixo na direita. Veste longa drapeada; título e chamada ao alistamento acompanham a figura.",
+    "interpretation": "A postura e os atributos sustentam uma leitura de coragem e convocação nacional ao serviço militar. A recepção efetiva requer fontes próprias.",
+    "blockers": [
+      "Adjudicar duplicidade preservando ambos os UUIDs e aliases.",
+      "Conferir vínculo binário entre reprodução examinada e arquivo institucional.",
+      "Promover a distinção entre data catalográfica e circulação somente com histórico por campo."
+    ],
+    "changes": [
+      {
+        "field": "input.date_hint",
+        "previous": "1917",
+        "proposed": "c1916",
+        "status": "proposed_not_applied",
+        "evidence": "https://www.loc.gov/pictures/item/95506508/",
+        "reason": "Notação literal do catálogo. Preservar também o contexto de doação/circulação em 1917 em campo distinto.",
+        "responsible": "Codex",
+        "at": "2026-09-16"
+      }
+    ]
+  },
+  "6c4a12c1-4949-52ec-bba2-160acf162ee9": {
+    "state": "partial_review",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-09-16",
+    "description": "Figura feminina de pé sobre globo, segurando bandeira elevada na mão esquerda e espada voltada para baixo na direita. Veste longa drapeada; título e chamada ao alistamento acompanham a figura.",
+    "interpretation": "A postura e os atributos sustentam uma leitura de coragem e convocação nacional ao serviço militar. A recepção efetiva requer fontes próprias.",
+    "blockers": [
+      "Adjudicar duplicidade preservando ambos os UUIDs e aliases.",
+      "Conferir vínculo binário entre reprodução examinada e arquivo institucional.",
+      "Promover a distinção entre data catalográfica e circulação somente com histórico por campo.",
+      "Conservar vínculo de possível duplicata até adjudicação; não escolher canônico pelo título."
+    ],
+    "changes": [
+      {
+        "field": "input.date_hint",
+        "previous": "1917",
+        "proposed": "c1916",
+        "status": "proposed_not_applied",
+        "evidence": "https://www.loc.gov/pictures/item/95506508/",
+        "reason": "Notação literal do catálogo. Preservar também o contexto de doação/circulação em 1917 em campo distinto.",
+        "responsible": "Codex",
+        "at": "2026-09-16"
+      }
+    ]
+  },
+  "2f663e33-8eee-5ccb-be9e-635e66e3e734": {
+    "state": "partial_review",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-09-16",
+    "description": "Figura feminina sentada, com adorno semelhante a coroa, veste longa drapeada e braços elevados sustentando tábuas inscritas CONSTITUTION DE LA BELGIQUE. 1831. Raios ao redor; leão e elementos semelhantes a elos de corrente à direita do observador. Cinco figuras masculinas abaixo: junto de implemento semelhante a arado; com elmo, espada e haste com pano; com veste longa e gola branca; com uniforme e condecoração; com avental e grande martelo. Inscrições inferiores de Henry Brown e V. LAGYE DEL. 1852.",
+    "interpretation": "A frontalidade, a elevação das tábuas e os raios sustentam uma leitura de solenidade e autoridade constitucional. A composição permite investigar a relação entre personificação feminina da nação e papéis sociais masculinos diferenciados. As funções das figuras e uma possível aproximação às convenções da lei sagrada são hipóteses; não se presume República, intenção religiosa ou participação eleitoral a partir da imagem.",
+    "changes": [
+      {
+        "field": "publication.catalog.date",
+        "previous": null,
+        "proposed": {
+          "value": "1852",
+          "status": "documented",
+          "note": "Edição de 1852; 1831 é a data inscrita da Constituição representada."
+        },
+        "status": "proposed_not_applied",
+        "evidence": "https://neptun.unamur.be/ark:/83449/0091bdf9fa",
+        "reason": "Data da notice e inscrição inferior concordam; evitar confundir obra/edição e documento representado.",
+        "responsible": "Codex",
+        "at": "2026-09-16"
+      }
+    ],
+    "blockers": [
+      "Conferir proveniência da reprodução extraída do commit 4416fda com o objeto digital institucional.",
+      "Revisar citação completa e crédito da reprodução.",
+      "Metadados de aprovação encontrados em branch externa ainda não incorporados ao contrato de revisão.",
+      "Não promover os zeros de vault-import como observações confirmadas.",
+      "Resolver divergência clérigo/juiz entre Rijksmuseum e Deseure; apêndice de encomenda e autorização já examinado, colação integral ainda pendente.",
+      "Não afirmar correntes quebradas ou classificação específica da coroa sem exame complementar."
+    ],
+    "research_note": "vault/candidatos/SCOUT-102 Constitution belge illustree 1852.md#revisão-documental-e-visual--2026-09-16",
+    "documented_context": [
+      {
+        "claim": "A Constituição de 1831 organiza uma monarquia parlamentar; a figura feminina nacional não implica regime republicano.",
+        "source": "https://www.belgium.be/fr/la_belgique/connaitre_le_pays/histoire/la_belgique_a_partir_de_1830/origine_et_essor/premiere_constitution_unitaire",
+        "accessed_on": "2026-09-16"
+      },
+      {
+        "claim": "Artigos 25–30: origem e exercício dos poderes; artigo 47: sufrágio censitário para a Câmara.",
+        "source": "https://www.senate.be/doc/constitution_1831.pdf",
+        "locator": "Páginas digitais 2–3; impressas 22–23. OCR consultado, conferir fac-símile antes de citação literal.",
+        "accessed_on": "2026-09-16"
+      },
+      {
+        "claim": "Proposta de popularização visual da Constituição em 5 de junho de 1852; proposta de distribuição a subscritores em 12 de junho; decreto de 15 de julho autoriza edição financiada pelos fundos do monumento ao Congresso e à Constituição.",
+        "source": "https://neptun.unamur.be/files/original/cf0fae6e92501f9d83bd748e98640d17c497995f.pdf",
+        "locator": "Páginas digitais 76–78, examinadas visualmente; distribuição proposta não comprova entregas efetivas.",
+        "accessed_on": "2026-09-16"
+      }
+    ],
+    "research_dossier": "docs/research/BE-004-constituicao-belga-1852-pesquisa.md"
+  }
+}
