@@ -6,7 +6,7 @@
 
 | Field family | Authority | Current count |
 |---|---|---|
-| Identity, evidence, description, IconoCode claims | `data/processed/records.jsonl` | 335 items |
+| Identity, evidence, description, IconoCode claims | `data/processed/records.jsonl` | 336 items |
 | Endurecimento observations and coding provenance | `data/processed/purification.jsonl` | 286 rows |
 | Raw binary identity and storage | `data/raw/drive-manifest.json` + Drive | manifest |
 | Catalogue navigation | `vault/candidatos/` | auxiliary mirror |
