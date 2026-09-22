@@ -16,6 +16,9 @@
     "timestamps"
   ],
   "properties": {
+    "publication": {
+      "$ref": "publication.schema.json"
+    },
     "master_record_version": {
       "type": "string"
     },
