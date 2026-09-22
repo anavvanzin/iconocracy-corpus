@@ -222,3 +222,10 @@ htmlcov/
 
 # pytest
 .pytest_cache/
+
+# gitlinks órfãos (nested repos nunca registrados como submódulos — removidos do índice em chore/audit-gitlinks-orfaos)
+AutoResearchClaw/
+deploy/iconocracia-studio/
+tools/claude-scientific-writer/
+vault/2026-Q2-Seminario-AD/algoritmo-em-disputa/
+vault/gallant-maxwell/
