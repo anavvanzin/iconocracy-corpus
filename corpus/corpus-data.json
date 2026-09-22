@@ -487,7 +487,8 @@
     "audit_flags": [
       "vault-import"
     ],
-    "support": "estampa/gravura"
+    "support": "estampa/gravura",
+    "endurecimento_score": 1.5
   },
   {
     "id": "387bc54c-e8c7-50be-b24b-a3396f1bc1da",
@@ -1177,7 +1178,7 @@
     "coded_at": "2026-06-22T00:00:00+00:00",
     "date": "1840–1878",
     "regime": "fundacional",
-    "endurecimento_score": 0.6,
+    "endurecimento_score": 0.5,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 0,
@@ -1479,7 +1480,7 @@
     "coded_at": "2026-09-15T00:00:00Z",
     "date": "1852",
     "regime": "fundacional",
-    "endurecimento_score": 0.0,
+    "endurecimento_score": 1.9,
     "indicadores": {
       "desincorporacao": 0,
       "rigidez_postural": 2,
@@ -11102,6 +11103,28 @@
       "vault-import"
     ],
     "support": "?"
+  },
+  {
+    "id": "dfe19295-505c-5df1-866e-e8bb695dbc5f",
+    "country": "Brazil",
+    "url": "https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica/",
+    "title": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
+    "description": "Estudo preparatório de Décio Villares para uma obra comemorativa da assinatura da Lei Áurea (13 de maio de 1888). A pintura, incorporada ao acervo do MHN em 1941, retrata alegoricamente o momento histórico da abolição da escravatura no Brasil através de figuras femininas simbólicas, numa linguagem própria do positivismo republicano. Após restauração, integra a exposição permanente 'A construção da nação (1822-1889)'.",
+    "motif": [
+      "alegoria",
+      "Lei Áurea",
+      "abolição",
+      "figura feminina",
+      "República",
+      "liberdade"
+    ],
+    "coded_by": "",
+    "coded_at": "2026-06-05T03:13:46.800136+00:00",
+    "date": "1888",
+    "citation_abnt": "VILLARES, Décio Rodrigues. Alegoria à Lei de 13 de Maio de 1888 (estudo). [188-]. Óleo sobre tela. Museu Histórico Nacional, Rio de Janeiro. Disponível em: https://mhn.museus.gov.br/estudo-de-decio-villares-volta-ao-circuito-expositivo-do-mhn/. Acesso em: 19 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "id": "e0399402-b59d-5050-9776-b67f2c69a6b2",

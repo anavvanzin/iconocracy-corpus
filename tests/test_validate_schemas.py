@@ -93,17 +93,17 @@ def baseline_record() -> Dict[str, Any]:
     }
 
 
-# --- Test 1: baseline (preserva 336/336 + 0 warnings) ---------------------
+# --- Test 1: baseline (preserva 337/337 + 0 warnings) ---------------------
 
 
-def test_baseline_336_of_336_no_warnings(real_records):
-    """Current state: 336 real records validate clean, 0 v2.3.0 warnings."""
+def test_baseline_337_of_337_no_warnings(real_records):
+    """Current state: 337 real records validate clean, 0 v2.3.0 warnings."""
     valid, total, errors, warnings = validate_records(
         real_records, "master-record"
     )
 
-    assert total == 336, f"expected 336 records, got {total}"
-    assert valid == 336, (
+    assert total == 337, f"expected 337 records, got {total}"
+    assert valid == 337, (
         f"baseline regression: {total - valid} records failed validation; "
         f"first 3 errors: {errors[:3]}"
     )

@@ -1,8 +1,16 @@
 #!/usr/bin/env python3
 """
 Regenerate corpus/corpus-data-enriched.json from the canonical ledger
-corpus/corpus-data.json (335 items), preserving overlay-only fields from the
-previous enriched file (95 items) for the 91 legacy ids that exist in both.
+corpus/corpus-data.json (336 items), preserving overlay-only fields from a
+FIXED overlay source for the legacy ids that exist in both.
+
+The overlay source is resolved once and never drifts (review 2026-09-22, E1):
+  1. corpus/corpus-data-enriched.legacy.json — committed pristine overlay
+     (deliberate human choice; wins over everything);
+  2. the OLDEST corpus-data-enriched.json.bak.* backup (sorted(glob)[0]);
+  3. first-run bootstrap: a snapshot of the current enriched file is written
+     as corpus-data-enriched.legacy.json and used from then on.
+The chosen source is printed and recorded in the report.
 
 Deterministic, offline, stdlib-only. Does NOT touch corpus-data.json, the site
 copy at /Users/ana/Research/imagens/site/data/corpus-data-enriched.json, or
@@ -25,6 +33,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 LEDGER_PATH = REPO_ROOT / "corpus" / "corpus-data.json"
 ENRICHED_PATH = REPO_ROOT / "corpus" / "corpus-data-enriched.json"
+# Fixed overlay source (E1): committed snapshot, written once at bootstrap.
+LEGACY_PATH = REPO_ROOT / "corpus" / "corpus-data-enriched.legacy.json"
 REPORT_PATH = REPO_ROOT / "corpus" / "enrichment-report.md"
 SCHEMA_PATH = Path("/Users/ana/Research/imagens/schemas/corpus-data-enriched.schema.json")
 RECORDS_PATH = REPO_ROOT / "data" / "processed" / "records.jsonl"
@@ -226,6 +236,47 @@ def find_local_image(item_id):
     return None
 
 
+def resolve_overlay_source():
+    """Resolve the FIXED overlay source, in priority order (review E1):
+
+    1. corpus-data-enriched.legacy.json — committed pristine overlay;
+    2. the OLDEST corpus-data-enriched.json.bak.* (sorted(glob)[0]);
+    3. first-run bootstrap: snapshot the current enriched file as
+       corpus-data-enriched.legacy.json and use it.
+
+    The date-stamped "backup of today, else backup the current file" logic is
+    gone: it made the script's own output become the overlay on the next day,
+    silently redefining "legacy" and freezing derived fields (E1/E2).
+
+    Returns (path, origin_label, overlay_records).
+    """
+    if LEGACY_PATH.exists():
+        path, origin = LEGACY_PATH, "legacy.json commitado"
+    else:
+        backups = sorted(ENRICHED_PATH.parent.glob(
+            f"{ENRICHED_PATH.name}.bak.*"))
+        if backups:
+            path, origin = backups[0], f"backup mais antigo ({backups[0].name})"
+        else:
+            if not ENRICHED_PATH.exists():
+                sys.exit(
+                    f"Nenhuma fonte de overlay e {ENRICHED_PATH} não existe — "
+                    "nada para fazer bootstrap.")
+            path, origin = LEGACY_PATH, (
+                "bootstrap (snapshot do enriched atual — verifique se é o "
+                "overlay pristino; substitua por um legacy.json deliberado se não for)")
+            path.write_bytes(ENRICHED_PATH.read_bytes())
+    try:
+        overlay = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as e:
+        sys.exit(f"Fonte de overlay {path} ilegível: {e}")
+    if not isinstance(overlay, list) or not all(
+            isinstance(o, dict) and o.get("id") for o in overlay):
+        sys.exit(
+            f"Fonte de overlay {path} não é uma lista de objetos com 'id'.")
+    return path, origin, overlay
+
+
 def load_master_records():
     """Index data/processed/records.jsonl by item_id (uuid) and build a
     handle -> uuid map from the crosswalk, so ledger items addressed by
@@ -345,20 +396,36 @@ def build_record(item, old_by_id, stats, master=None):
         else:
             record[field] = None
 
-    # ── medium / period for new items ───────────────────────────────────────
+    # ── medium / period: precedência do ledger, overlay curado preservado ────
+    # Qualquer item presente no ledger tem seus campos derivados do ledger
+    # (review E2). O overlay NÃO congela mais a derivação: para itens novos
+    # tudo é derivado; para itens legados, valores curados do overlay são
+    # preservados e o ledger só preenche lacunas que o overlay não tem
+    # (gap-fill — neutro nos dados atuais: 0 disparos). Assim o resultado é
+    # uma função pura de (ledger, fonte de overlay fixa), idempotente entre
+    # execuções.
     support = item.get("support")
+    support_clean = (
+        None
+        if support is None or str(support).strip().lower() in ("", "?", "none")
+        else str(support)
+    )
     if not is_legacy:
-        support_clean = (
-            None
-            if support is None or str(support).strip().lower() in ("", "?", "none")
-            else str(support)
-        )
         record["medium"] = support_clean
         record["medium_norm"] = normalize_medium(support)
         if support_clean and record["medium_norm"] is None:
             stats["medium_unmapped"].append((item_id, support))
         record["period"] = derive_period(year, base_country)
         record["period_norm"] = None  # see derive_period docstring
+    else:
+        if not record.get("medium") and support_clean:
+            record["medium"] = support_clean
+        if record.get("medium_norm") is None:
+            record["medium_norm"] = normalize_medium(support)
+        if support_clean and record.get("medium_norm") is None:
+            stats["medium_unmapped"].append((item_id, support))
+        if not record.get("period") and year:
+            record["period"] = derive_period(year, base_country)
 
     # ── local_image_path ────────────────────────────────────────────────────
     if not record.get("local_image_path"):
@@ -536,13 +603,19 @@ def write_report(records, stats, today):
         and r["endurecimento_score"] > 1
     ]
 
+    new_items = len(records) - stats["legacy_overlays"]
+    orphan_count = len(stats["orphans"])
+    lip_filled = coverage["local_image_path"]
+    lip_null = len(records) - lip_filled
+
     lines = [
         "# Relatório de regeneração — corpus-data-enriched.json",
         "",
         f"**Data**: {today}",
         f"**Fonte autoritativa**: `corpus/corpus-data.json` ({stats['ledger_count']} itens)",
-        f"**Enriched anterior**: {stats['old_count']} itens "
-        f"({stats['legacy_overlays']} overlays legados preservados)",
+        f"**Fonte de overlay (fixa)**: `{stats.get('overlay_source', 'desconhecida')}` "
+        f"— {stats['old_count']} itens, origem: {stats.get('overlay_origin', 'desconhecida')}",
+        f"**Overlays legados preservados**: {stats['legacy_overlays']} ids presentes em ambos",
         f"**Saída**: `corpus/corpus-data-enriched.json` ({len(records)} itens, "
         "ordenados por país + id)",
         "",
@@ -601,24 +674,29 @@ def write_report(records, stats, today):
         "O schema externo exige máximo 1 — esses itens falham na validação de "
         "intervalo (classe conhecida). Recomendado: normalizar dividindo por 3 "
         "ou revisar o schema.",
-        "- 22 itens sem `date` (ano derivado null).",
+        f"- {len(missing_date)} itens sem `date` (ano derivado null).",
         "- `country` usa variantes com parênteses ('Germany (Netherlands origin)', "
         "'France (held in Austria)') e o código 'CL' em vez de 'Chile' — "
         "`country_pt` foi derivado do país-base.",
         "",
-        "## Lacunas conhecidas dos 244 itens novos",
+        f"## Lacunas conhecidas dos {new_items} itens novos",
         "",
         "Nulos até uma futura passada de rede/IIIF: "
         + ", ".join(f"`{f}`" for f in NETWORK_PASS_FIELDS)
         + ". `period_norm` também é null para itens novos (ver docstring de "
-        "`derive_period` no script). `local_image_path` é null para todos: "
-        "`corpus/imagens/` não existe nesta máquina.",
+        "`derive_period` no script). "
+        + (f"`local_image_path` é null em {lip_null}/{len(records)} "
+           f"({lip_filled} preenchidos via overlay legado — verificar "
+           "existência em disco)." if lip_filled else
+           f"`local_image_path` é null para todos os {len(records)}: "
+           "`corpus/imagens/` não existe nesta máquina."),
         "",
         "## Follow-up",
         "",
         "- **Não sincronizado**: `/Users/ana/Research/imagens/site/data/corpus-data-enriched.json` "
         "(cópia do site) — atualizar em passo separado, fora deste repositório.",
-        "- Decidir o destino dos 4 órfãos (reimportar ao ledger ou aposentar).",
+        f"- Decidir o destino dos {orphan_count} órfãos "
+        "(reimportar ao ledger ou aposentar).",
         "- Revisar itens com `regime_incerto` listados abaixo.",
         "",
         "### Itens com regime_incerto (ledger ≠ classificador)",
@@ -658,23 +736,21 @@ def main():
     ledger = json.loads(LEDGER_PATH.read_text(encoding="utf-8"))
 
     today = datetime.date.today().isoformat()
-    backup = ENRICHED_PATH.with_suffix(f".json.bak.{today}")
-    # Idempotency: the "old enriched" overlay source must be the state BEFORE
-    # this script first ran today. If today's backup exists, read overlays from
-    # it; otherwise create the backup now and read from it. Re-running the
-    # script later the same day therefore yields identical results instead of
-    # treating its own output as legacy overlays.
-    if backup.exists():
-        print(f"Reading old overlays from today's backup: {backup.name}")
-    else:
-        backup.write_bytes(ENRICHED_PATH.read_bytes())
-        print(f"Backup written: {backup}")
-    old = json.loads(backup.read_text(encoding="utf-8"))
+    # Fixed overlay source (E1): legacy.json > oldest .bak.* > bootstrap
+    # snapshot. Never the script's own output of a previous day.
+    overlay_path, overlay_origin, old = resolve_overlay_source()
+    print(f"Fonte de overlay (fixa): {overlay_path.name} — {overlay_origin}")
     old_by_id = {o["id"]: o for o in old}
 
+    try:
+        overlay_display = str(overlay_path.relative_to(REPO_ROOT))
+    except ValueError:
+        overlay_display = str(overlay_path)
     stats = {
         "ledger_count": len(ledger),
         "old_count": len(old),
+        "overlay_source": overlay_display,
+        "overlay_origin": overlay_origin,
         "legacy_overlays": 0,
         "orphans": [
             (o["id"], o.get("title", "?"))

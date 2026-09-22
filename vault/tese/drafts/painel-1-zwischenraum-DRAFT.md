@@ -16,6 +16,8 @@ tema-painel: "FUNDACIONAL → NORMATIVO: a consolidação da branquitude como fo
 
 ## Layout proposto (3 imagens + 2 textos)
 
+**Decisão curatorial incorporada do relatório:** este painel deve funcionar como montagem de atlas, não como sequência evolutiva. Villares, Rops, Roty e Moitte/Janinet são justapostos para tornar visível o Zwischenraum em que o corpo vivo é convertido em função jurídica; os valores de endurecimento entram apenas como *capta* auxiliares, não como evidência conclusiva.
+
 ### [A] Polo esquerdo — O corpo fundacional
 
 **Imagem:** Décio Villares, *Alegoria da República*, 1889. Óleo sobre tela. MNBA, Rio de Janeiro. (BR-005)
@@ -24,7 +26,7 @@ tema-painel: "FUNDACIONAL → NORMATIVO: a consolidação da branquitude como fo
 
 > A República que Villares pinta para Paris é a República que o Brasil *desejava ser*: branca, europeia, clássica. O corpo está inteiramente vestido — túnica branca coroando corpo que não se vê. A vestimenta arquitetura, não esconde. O ombro direito, o véu que cai do busto, a mão que segura o livro: tudo remete a uma única operação formal, a Purificação Clássica. O que se purifica aqui é o *não-branco*. O Brasil que emerge da escravidão, 60% negro e mestiço, é representado por um corpo que não poderia habitá-lo. A alegoria funciona como promessa de futuro na medida em que nega o presente.
 >
-> Endurecimento: desincorporação 3 · rigidez 3 · uniformização facial 3 · monocromatização 3 · inscrição estatal 0. O baixo score de inscrição é sintomático: o corpo ainda resiste à fixação estatal. Ainda há, na tela, um excesso de técnica pictórica que a moeda posterior eliminará.
+> Capta de endurecimento: desincorporação 3 · rigidez 3 · uniformização facial 3 · monocromatização 3 · inscrição estatal 0. O baixo valor de inscrição é sintomático apenas se lido como decisão interpretativa situada: o corpo ainda resiste à fixação estatal. Ainda há, na tela, um excesso de técnica pictórica que a moeda posterior eliminará.
 
 ### [B] Centro — O Zwischenraum como operação
 
@@ -62,7 +64,7 @@ tema-painel: "FUNDACIONAL → NORMATIVO: a consolidação da branquitude como fo
 
 ## Itens corpus identificados
 
-| Item | ID | Regime | Endurecimento | Função no painel |
+| Item | ID | Regime | Endurecimento (capta) | Função no painel |
 |------|-----|--------|---------------|----------------|
 | Villares, *Alegoria da República* | BR-005 | fundacional | 2,4 (estimado) | Polo esquerdo: corpo vivo que resiste |
 | Rops, *La République aimable* | FR-005 | fundacional | 1,9 (estimado) | Referência implícita: europeu, menos purificado |
@@ -71,4 +73,11 @@ tema-painel: "FUNDACIONAL → NORMATIVO: a consolidação da branquitude como fo
 
 ---
 
-> **Nota de produção:** Os scores de endurecimento marcados como "estimado" exigem codificação IconoCode completa. A proposta pode ser ajustada após a codificação. As imagens de FR-038 e FR-SCOUT-006 dependem de acesso Gallica ou Numista.
+## Referências a integrar
+
+- BECKER, Colleen. Aby Warburg's Pathosformel as Methodological Paradigm. *Journal of Art Historiography*, n. 9, 2013.
+- DIDI-HUBERMAN, Georges. *Atlas ou le gai savoir inquiet: L'oeil de l'histoire, 3*. Paris: Les Editions de Minuit, 2011. [confirmar paginação antes de citação direta]
+- POLLOCK, Griselda. *Encounters in the Virtual Feminist Museum: Time, Space and the Archive*. Abingdon: Routledge, 2007.
+- DRUCKER, Johanna. Humanities Approaches to Graphical Display. *Digital Humanities Quarterly*, v. 5, n. 1, 2011.
+
+> **Nota de produção:** Os valores de endurecimento marcados como "estimado" exigem codificação IconoCode completa e devem permanecer como *capta*, não como índice probatório. A proposta pode ser ajustada após a codificação. As imagens de FR-038 e FR-SCOUT-006 dependem de acesso Gallica ou Numista.
