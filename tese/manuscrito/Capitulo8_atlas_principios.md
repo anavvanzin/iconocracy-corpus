@@ -130,7 +130,7 @@ visual: uma proposição que a montagem *demonstra* em vez de apenas afirmar.
 Warburg concebia o *Denkraum* — o espaço de pensamento — e o *Zwischenraum* como intervalos de
 distância: a civilização, para ele, media-se pela capacidade de manter distância entre o sujeito e o
 objeto de terror, e o intervalo entre as imagens da prancha era o correlato metodológico dessa distância
-[@warburg2000; @didihuberman2002]. O Atlas Iconocrático conserva a topologia — o sentido está no
+[@warburg2000; @didihuberman2002] [VERIFICAR: "Zwischenraum" como termo do próprio Warburg é mais elaboração didi-hubermaniana do que uso documentado; conferir as passagens citadas]. O Atlas Iconocrático conserva a topologia — o sentido está no
 intervalo, não nos termos — mas inverte a sua função. O Zwischenraum iconocrático não é o espaço onde o
 pensamento se protege do páthos; é o espaço onde o *poder opera sem ser visto*. Entre a República
 encarnada e a Semeuse perfilada não há apenas uma distância a contemplar: há uma **operação** — a

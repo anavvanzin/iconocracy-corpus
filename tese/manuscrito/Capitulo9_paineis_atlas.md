@@ -3,9 +3,9 @@ titulo: "Os 8 Painéis do Atlas Iconocrático"
 parte: "IV — Atlas e Síntese"
 capitulo: 9
 status: "rascunho"
-palavras: 7965
+palavras: 8772
 citacoes: 6
-updated: "2026-07-09"
+updated: "2026-09-22"
 pandoc:
   reference-doc: "template.docx"
   csl: "abnt.csl"
@@ -198,7 +198,7 @@ Capitólio dos EUA (`416a2c38`).
 
 **Texto de painel (300 palavras):**
 
-> A República que Villares pinta para Paris é a República que o Brasil *desejava ser*: branca, europeia, clássica. O corpo está inteiramente vestido — túnica branca coroando corpo que não se vê. A vestimenta arquitetura, não esconde. O ombro direito, o véu que cai do busto, a mão que segura o livro: tudo remete a uma única operação formal, a Purificação Clássica. O que se purifica aqui é o *não-branco*. O Brasil que emerge da escravidão, 60% negro e mestiço, é representado por um corpo que não poderia habitá-lo. A alegoria funciona como promessa de futuro na medida em que nega o presente.
+> A República que Villares pinta para Paris é a República que o Brasil *desejava ser*: branca, europeia, clássica. O corpo está inteiramente vestido — túnica branca coroando corpo que não se vê. A vestimenta arquitetura, não esconde. O ombro direito, o véu que cai do busto, a mão que segura o livro: tudo remete a uma única operação formal, a Purificação Clássica. O que se purifica aqui é o *não-branco*. O Brasil que emerge da escravidão, 60% negro e mestiço [VERIFICAR: percentual demográfico sem fonte — citar censo de 1872/1890], é representado por um corpo que não poderia habitá-lo. A alegoria funciona como promessa de futuro na medida em que nega o presente.
 >
 > Endurecimento: desincorporação 3 · rigidez 3 · uniformização facial 3 · monocromatização 3 · inscrição estatal 0. O baixo score de inscrição é sintomático: o corpo ainda resiste à fixação estatal. Ainda há, na tela, um excesso de técnica pictórica que a moeda posterior eliminará.
 
@@ -216,7 +216,7 @@ Capitólio dos EUA (`416a2c38`).
 
 **Texto de painel (250 palavras):**
 
-> A Semeuse de Roty é a realização do Contrato Racial Visual como contrato *cumprido*. O corpo é perfil — não rosto, mas perfil. A fisionomia desapareceu; resta a *forma do gesto*. A foice que semeia é atributo da *continuidade estatal*: o Estado que semeia a si mesmo, perpetuamente. A cor da pele é o branco do metal, não da carne. A monocromatização atinge seu extremo: há apenas *cromia do Estado*. Endurecimento composto 2,7 (estimado), regime normativo (com trajetória de transição para o militar; ver Painel IV). A Semeuse sobrevive porque cruzou o limiar de dessexualização — o corpo que deixa de ser desejável para tornar-se funcional.
+> A Semeuse de Roty é a realização do Contrato Racial Visual como contrato *cumprido*. O corpo é perfil — não rosto, mas perfil. A fisionomia desapareceu; resta a *forma do gesto*. A foice que semeia é atributo da *continuidade estatal*: o Estado que semeia a si mesmo, perpetuamente. A cor da pele é o branco do metal, não da carne. A monocromatização atinge seu extremo: há apenas *cromia do Estado*. Endurecimento composto 2,5 no registro codificado (antes da codificação, estimava-se 2,7), regime normativo (com trajetória de transição para o militar; ver Painel IV). A Semeuse sobrevive porque cruzou o limiar de dessexualização — o corpo que deixa de ser desejável para tornar-se funcional.
 >
 > A série de quatro fotografias do *Buste de la République* (Agence Rol, enriquecendo FR-009) mostra o mesmo corpo *antes* dessa transição: há volume, sombra, a possibilidade de desejo. A moeda extingue essa possibilidade. O Zwischenraum entre busto fotográfico e moeda perfilada é o lugar onde o desejo morre e a função nasce.
 
@@ -234,10 +234,10 @@ Capitólio dos EUA (`416a2c38`).
 
 | Item | ID | Regime | Endurecimento | Função no painel |
 |------|-----|--------|---------------|----------------|
-| Villares, *Alegoria da República* | BR-005 | fundacional | 2,4 (estimado) | Polo esquerdo: corpo vivo que resiste |
-| Rops, *La République aimable* | FR-005 | fundacional | 1,9 (estimado) | Referência implícita: europeu, menos purificado |
-| Roty, *La Semeuse* | FR-038 | normativo (traj. → militar) | 2,7 (estimado) | Polo direito: corpo máquina |
-| Moitte/Janinet, *Liberté* | FR-SCOUT-006 | contra-alegoria? | 1,5 (estimado) | Contraponto: resistência à abstração |
+| Villares, *Alegoria da República* | BR-005 | fundacional | 2,4 (estimado; ledger: 1,0 — VERIFICAR divergência) | Polo esquerdo: corpo vivo que resiste |
+| Rops, *La République aimable* | FR-005 | fundacional | 1,9 (estimado; ledger: 0,5, normativo — VERIFICAR) | Referência implícita: europeu, menos purificado |
+| Roty, *La Semeuse* | FR-SEM-1898 | normativo (traj. → militar) | 2,5 (codificado; era 2,7 estimado) | Polo direito: corpo máquina |
+| Moitte/Janinet, *Liberté* | FR-038 | contra-alegoria? [VERIFICAR regime no ledger] | 1,5 (estimado; ledger: 1,2) | Contraponto: resistência à abstração |
 
 ---
 
@@ -267,9 +267,9 @@ Capitólio dos EUA (`416a2c38`).
 
 > O espaço que separa a *Seated Liberty* de 1840 do *History Instructing Youth* de 1896 é um *Zwischenraum de endurecimento falho*. Neste intervalo de cinquenta e seis anos, o sistema monetário norte-americano tenta repetidamente operar a Purificação Clássica sem jamais alcançar o limiar crítico da dessexualização. O conceito de limiar, aqui, designa uma *condição de possibilidade do regime iconocrático*. Para que uma alegoria feminina de Estado persista como dispositivo normativo — e, subsequentemente, como aparelho de guerra —, ela deve atravessar o limiar da dessexualização de maneira irreversível: o corpo deve tornar-se tão puro, tão abstrato, tão despojado de resíduos eróticos que deixe de ser legível como corpo para tornar-se legível *apenas* como função.
 >
-> A operação francesa da Semeuse realiza precisamente isso: o corpo é reduzido a perfil, o perfil a gesto, o gesto a função semeadora, a função semeadora à marca do Estado. A dessexualização é total porque a carne é inteiramente convertida em protocolo. O corpo deixa de ser representado; passa a ser *atravessado* pela representação estatal. É essa operação que Mondzain [@mondzain2002] identifica como a conversão do ícone em economia visual, e que a teoria do endurecimento refrata como a transição do regime fundacional ao normativo: o corpo que persistia como Nachleben — sobrevivência, revenant, retorno do morto — é finalmente assassinado pela abstração, morte *produtiva* porque gera a máquina. A Semeuse vive porque morreu como corpo.
+> A operação francesa da Semeuse realiza precisamente isso: o corpo é reduzido a perfil, o perfil a gesto, o gesto a função semeadora, a função semeadora à marca do Estado. A dessexualização é total porque a carne é inteiramente convertida em protocolo. O corpo deixa de ser representado; passa a ser *atravessado* pela representação estatal. É essa operação que, nos termos de Mondzain [@mondzain2002], converte o ícone em economia icônica [VERIFICAR: conferir a passagem exata e a página em Mondzain 2002; a leitura da Semeuse é da tese], e que a teoria do endurecimento refrata como a transição do regime fundacional ao normativo: o corpo que persistia como Nachleben — sobrevivência, revenant, retorno do morto — é finalmente assassinado pela abstração, morte *produtiva* porque gera a máquina. A Semeuse vive porque morreu como corpo.
 >
-> O sistema estadunidense, porém, não consegue matar Columbia como corpo. Cada tentativa de Purificação Clássica preserva um resíduo de desejo: a sentada expõe o colo, a educadora inclina-se sobre o aluno, a figura adormecida oferece o corpo em descanso. São variações sobre o mesmo erro estrutural: a *incompletude da dessexualização*. O corpo é despojado apenas o suficiente para que o que reste pareça *proibido*. É essa proibição parcial, essa nudez quase-clássica, esse seio quase-invisível, que ativa o recalque. A censura que recolhe o Educational Series em 1896 é o sintoma de um sistema iconocrático que *reconhece*, em sua própria produção, a falha operacional de não ter conseguido atravessar o limiar. A moeda é recolhida por ser *insuficientemente dessexualizada*: o que se vê nela é o cadáver insepulto da alegoria.
+> O sistema estadunidense, porém, não consegue matar Columbia como corpo. Cada tentativa de Purificação Clássica preserva um resíduo de desejo: a sentada expõe o colo, a educadora inclina-se sobre o aluno, a figura adormecida oferece o corpo em descanso. São variações sobre o mesmo erro estrutural: a *incompletude da dessexualização*. O corpo é despojado apenas o suficiente para que o que reste pareça *proibido*. É essa proibição parcial, essa nudez quase-clássica, esse seio quase-invisível, que ativa o recalque. A censura que recolhe o Educational Series em 1896 [VERIFICAR: recolhimento em 1896 não documentado — a série foi emitida a partir de 1896 e descontinuada por volta de 1899; re-ancorar em queixas contemporâneas documentadas ou no encerramento da série] é o sintoma de um sistema iconocrático que *reconhece*, em sua própria produção, a falha operacional de não ter conseguido atravessar o limiar. A moeda é recolhida por ser *insuficientemente dessexualizada*: o que se vê nela é o cadáver insepulto da alegoria.
 
 #### [C] Polo direito — A catástrofe performativa e a morte programática
 

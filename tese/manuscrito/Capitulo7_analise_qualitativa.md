@@ -3,9 +3,9 @@ titulo: "Análise Qualitativa: Iconologia de Casos Paradigmáticos"
 parte: "III — Resultados"
 capitulo: 7
 status: "rascunho"
-palavras: 3435
+palavras: 3532
 citacoes: 9
-updated: "2026-07-08"
+updated: "2026-09-22"
 pandoc:
   reference-doc: "template.docx"
   csl: "abnt.csl"
@@ -51,15 +51,16 @@ No nível pré-iconográfico, *La Liberté guidant le peuple* (Delacroix, 1830; 
 apresenta um corpo feminino em movimento diagonal ascendente, seio desnudo, braço erguido empunhando
 a bandeira tricolor, pé avançando sobre a barricada e sobre corpos caídos. É um corpo com peso,
 sombra, torção — um corpo *vivo*. O vetor de indicadores registra esse fato: desincorporação 0,
-dessexualização 0, rigidez postural 0, apagamento narrativo 0 (escore composto 0,1). Iconografia­mente,
+dessexualização 0, rigidez postural 0, apagamento narrativo 0 (escore composto 0,1). Iconograficamente,
 a figura é identificável como a Liberdade pelo barrete frígio; iconologicamente, ela pertence ao
 regime **fundacional**, aquele em que a alegoria ainda partilha da carne mortal que convoca — a
 Pathosformel [@warburg2000] da insurreição, energia afetiva em estado bruto, anterior a qualquer
 domesticação burocrática.
 
 Meio século depois, o *selo definitivo* com a Semeuse de Louis-Oscar Roty (gravura de Mouchon,
-1903–1960; corpus item `4e0ca57a` — objeto distinto da Semeuse-*moeda* de 1 franc de 1897, FR-038,
-composto 2,7, tratada no Cap. 9) mostra outra coisa. A figura caminha, sim, mas o gesto de semear
+1903–1960; corpus item `4e0ca57a` — objeto distinto da Semeuse-*moeda* de 1 franc de 1897,
+FR-SEM-1898, composto 2,5 no registro atual [VERIFICAR: o texto e o Cap. 9 usavam 2,7, estimado
+pré-codificação; conferir contra o ledger antes da entrega]) mostra outra coisa. A figura caminha, sim, mas o gesto de semear
 é congelado num perfil heráldico, repetido idêntico em bilhões de exemplares postais por quase
 sessenta anos. O registro confirma título, suporte, data, URL e citação ABNT; sua codificação de
 endurecimento, porém, ainda vem do lote heurístico `batch-tentative-2026-04-25`. Por isso, o composto
@@ -180,7 +181,7 @@ imagem e o corpo vivo.
 O contraponto — e a chave da conclusão da tese — é *Hedwig Reicher as Columbia* (1913; corpus item
 `2419621d`, composto 1,3), fotografia de uma atriz personificando Columbia no desfile sufragista de
 Washington. A codificação a reclassifica de normativa para **fundacional (contra-fundacional)** e
-baixa a desincorporação de 1 para 0 com uma anotação decisiva: *este é um corpo real*. Reicher é,
+baixa a desincorporação de 1 para 0 [VERIFICAR: o campo segue 1 no registro atual de `2419621d` — atualizar a frase ou o registro] com uma anotação decisiva: *este é um corpo real*. Reicher é,
 simultaneamente, uma mulher concreta e a alegoria Columbia — e é precisamente essa coincidência que
 expõe o contrato visual *por dentro*. Quando a mulher real reocupa o corpo que a alegoria lhe havia
 usurpado, a substituição naturalizada torna-se, por um instante, visível como escolha. É a
@@ -197,8 +198,8 @@ contra-alegoria não pela destruição (como a Marianne de 2018), mas pela reenc
 No nível pré-iconográfico, a *Justiça* de Ceschiatti (1961; corpus item `9eecda17`, composto 2,2) é
 uma figura de granito, sentada, de formas modernistas simplificadas, olhos cerrados, espada apoiada
 sobre os joelhos. O vetor é alto e homogêneo — apagamento narrativo 3, serialidade 3, inscrição
-estatal 3 — e a leitura de nível 3 anotada no corpus condensa a tese: *sentada (contida), cega
-(passiva), armada (violência delegada), silenciosa*. Cada atributo é uma subtração: a contenção
+estatal 3 — e a leitura de nível 3 anotada no corpus condensa a tese: "sentada (contida), cega
+(passiva), armada (violência delegada), silenciosa" (nota de codificação do item BR-009, citada verbatim). Cada atributo é uma subtração: a contenção
 subtrai o movimento, a venda subtrai o olhar, a delegação subtrai a agência, o silêncio subtrai a
 voz. O que resta é a forma — e a forma, no cânone que a produz, é a da deusa neoclássica transplantada
 para o cerrado, exatamente o corpo impossível que o Cap. 3 analisou em Villares. A `ref_genealogica`
@@ -233,9 +234,9 @@ O Palais de Justice de Bruxelas (Joseph Poelaert, 1866–1883; corpus item `d77a
 corpus com o vetor mais alto de toda a amostra — próximo de 3 em todos os dez indicadores (composto
 ≈ 3,0, ajustado para 2,9 na nota de codificação, que rebaixa a inscrição estatal porque *a autoridade
 aqui é arquitetônica, não textual*: o edifício não precisa de legenda). A anotação de nível 3 é o
-coração do argumento da arquitetura forense: *beleza feminina = face cultural do edifício; autoridade
+coração do argumento da arquitetura forense: "beleza feminina = face cultural do edifício; autoridade
 masculina = núcleo operativo; as mulheres tornam-se colunas, e, no interior, todos os retratos são de
-juristas homens*. É a formulação mais literal possível do Contrato Sexual Visual: a fachada exibe o
+juristas homens" (nota de codificação do item, citada verbatim [VERIFICAR: "todos os retratos" — universal não verificado]). É a formulação mais literal possível do Contrato Sexual Visual: a fachada exibe o
 rosto de mulher — cariátides, alegorias, virtudes — enquanto o interior mantém intacta a fraternidade
 masculina que Pateman [@pateman1993] descreveu no plano do contrato e que o Cap. 1 estendeu ao plano
 da imagem. A visiocracia de Goodrich [@goodrich2013b] encontra em Poelaert seu monumento: o Direito

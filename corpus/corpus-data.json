@@ -459,6 +459,37 @@
     "endurecimento_score": 1.1
   },
   {
+    "id": "324a90b6-403b-5b36-9bcf-d4c4db9efdc1",
+    "country": "France",
+    "url": "https://gallica.bnf.fr/ark:/12148/btv1b69481105",
+    "title": "La Nation, la Loi, le Roi. Constitution française. (du 14 septembre 1791)",
+    "description": "La Nation, la Loi, le Roi. Constitution française. (du 14 septembre 1791)",
+    "motif": [
+      "Nacao"
+    ],
+    "coded_by": "ana",
+    "coded_at": "2026-09-15T00:00:00Z",
+    "date": "1835-1841",
+    "regime": "fundacional",
+    "indicadores": {
+      "desincorporacao": 0,
+      "rigidez_postural": 1,
+      "dessexualizacao": 0,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 2,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 2,
+      "monocromatizacao": 3,
+      "serialidade": 1,
+      "inscricao_estatal": 3
+    },
+    "citation_abnt": "BÉNARD. La Nation, la Loi, le Roi. Constitution française. (du 14 septembre 1791). Paris: Binet, entre 1835 e 1841. 1 estampa, 37 × 44,7 cm. Bibliothèque nationale de France, Département des Estampes et de la photographie, RESERVE QB-370 (25)-FT 4, De Vinck 4287. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b69481105. Acesso em: 15 set. 2026.",
+    "audit_flags": [
+      "vault-import"
+    ],
+    "support": "estampa/gravura"
+  },
+  {
     "id": "387bc54c-e8c7-50be-b24b-a3396f1bc1da",
     "country": "Spain",
     "url": "https://en.numista.com/202071",
@@ -1444,28 +1475,28 @@
     "motif": [
       "Belgique"
     ],
-    "coded_by": "vault-import",
-    "coded_at": "2026-05-14T18:02:38Z",
+    "coded_by": "ana",
+    "coded_at": "2026-09-15T00:00:00Z",
     "date": "1852",
     "regime": "fundacional",
     "endurecimento_score": 0.0,
     "indicadores": {
       "desincorporacao": 0,
-      "rigidez_postural": 0,
-      "dessexualizacao": 0,
-      "uniformizacao_facial": 0,
-      "heraldizacao": 0,
-      "enquadramento_arquitetonico": 0,
-      "apagamento_narrativo": 0,
-      "monocromatizacao": 0,
-      "serialidade": 0,
-      "inscricao_estatal": 0
+      "rigidez_postural": 2,
+      "dessexualizacao": 2,
+      "uniformizacao_facial": 1,
+      "heraldizacao": 3,
+      "enquadramento_arquitetonico": 2,
+      "apagamento_narrativo": 1,
+      "monocromatizacao": 3,
+      "serialidade": 2,
+      "inscricao_estatal": 3
     },
-    "citation_abnt": "Constitution de la Belgique — Édition illustrée (frontispice allégorique)",
+    "citation_abnt": "BROWN, Henry; LAGYE, Victor. Constitution de la Belgique : édition illustrée. Bruxelles: Delevingne et Callewaert, 1852. Não paginado: figuras, pranchas e gravuras. Disponível em: https://ark.unamur.be/ark:/83449/0091bdf9fa. Acesso em: 15 set. 2026.",
     "audit_flags": [
       "vault-import"
     ],
-    "support": "frontispício"
+    "support": "frontispício gravado"
   },
   {
     "id": "BE-5F-LEOPOLD-1832",
@@ -11071,6 +11102,28 @@
       "vault-import"
     ],
     "support": "?"
+  },
+  {
+    "id": "dfe19295-505c-5df1-866e-e8bb695dbc5f",
+    "country": "Brazil",
+    "url": "https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica/",
+    "title": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
+    "description": "Estudo preparatório de Décio Villares para uma obra comemorativa da assinatura da Lei Áurea (13 de maio de 1888). A pintura, incorporada ao acervo do MHN em 1941, retrata alegoricamente o momento histórico da abolição da escravatura no Brasil através de figuras femininas simbólicas, numa linguagem própria do positivismo republicano. Após restauração, integra a exposição permanente 'A construção da nação (1822-1889)'.",
+    "motif": [
+      "alegoria",
+      "Lei Áurea",
+      "abolição",
+      "figura feminina",
+      "República",
+      "liberdade"
+    ],
+    "coded_by": "",
+    "coded_at": "2026-06-05T03:13:46.800136+00:00",
+    "date": "1888",
+    "citation_abnt": "VILLARES, Décio Rodrigues. Alegoria à Lei de 13 de Maio de 1888 (estudo). [188-]. Óleo sobre tela. Museu Histórico Nacional, Rio de Janeiro. Disponível em: https://mhn.museus.gov.br/estudo-de-decio-villares-volta-ao-circuito-expositivo-do-mhn/. Acesso em: 19 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04"
+    ]
   },
   {
     "id": "e0399402-b59d-5050-9776-b67f2c69a6b2",

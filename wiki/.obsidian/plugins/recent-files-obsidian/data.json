@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
+      "basename": "rotina-R2-coding",
+      "path": "_templates/rotina-R2-coding.md"
+    },
+    {
+      "basename": "Untitled Kanban",
+      "path": "_templates/Untitled Kanban.md"
+    },
+    {
+      "basename": "2026-04-25",
+      "path": "2026-04-25.md"
+    },
+    {
+      "basename": "Feminilidade de Estado",
+      "path": "Feminilidade de Estado.md"
     },
     {
       "basename": "Kanban sem título 1",
@@ -117,10 +129,6 @@
       "path": "Sem título 1.canvas"
     },
     {
-      "basename": "Untitled Kanban",
-      "path": "_templates/Untitled Kanban.md"
-    },
-    {
       "basename": "SCOUT-NARR",
       "path": "_templates/SCOUT-NARR.md"
     },
@@ -131,10 +139,6 @@
     {
       "basename": "rotina-R3-leitura",
       "path": "_templates/rotina-R3-leitura.md"
-    },
-    {
-      "basename": "rotina-R2-coding",
-      "path": "_templates/rotina-R2-coding.md"
     },
     {
       "basename": "evidence-qa-report",
@@ -191,14 +195,6 @@
     {
       "basename": "iconocratic_regimes_final_report",
       "path": "tese/drafts/iconocratic_regimes_final_report.md"
-    },
-    {
-      "basename": "roadmap-visual",
-      "path": "tese/roadmap-visual.canvas"
-    },
-    {
-      "basename": "capitulo-9",
-      "path": "tese/capitulo-9.md"
     }
   ],
   "omittedPaths": [],

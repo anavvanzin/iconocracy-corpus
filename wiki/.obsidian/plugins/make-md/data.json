@@ -59,7 +59,14 @@
     "//tese/tese/rascunhos-artigos",
     "//ideias",
     "//obsidian-deep-research",
-    "//metodos-metodologias/metodos-metodologias/aulas"
+    "//metodos-metodologias/metodos-metodologias/aulas",
+    "//Excalidraw",
+    "//DIR410340-Admin-Digital",
+    "//corpus",
+    "//concepts",
+    "//assets",
+    "//candidatos",
+    "//_templates"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

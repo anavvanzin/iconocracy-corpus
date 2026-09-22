@@ -11,7 +11,7 @@
 
 ### 6.1 Panorama Descritivo: A Geometria do Corpus
 
-A análise quantitativa do corpus ICONOCRACIA permite, em primeira instância, mapear a distribuição espacial, temporal e institucional das alegorias femininas que compõem a base empírica desta tese. Com um total de **265 registros** (dos quais 165 compõem o núcleo analítico consolidado e 100 registros de sincronização e validação), a amostra revela padrões de concentração que corroboram a centralidade do modelo franco-atlântico na cultura jurídica do século XIX.
+A análise quantitativa do corpus ICONOCRACIA permite, em primeira instância, mapear a distribuição espacial, temporal e institucional das alegorias femininas que compõem a base empírica desta tese. Com um total de **265 registros** no instantâneo de 17-05-2026 [o ledger operacional registrou 336 itens em 2026-09-21; as distribuições abaixo referem-se ao instantâneo de maio] (dos quais 165 compõem o núcleo analítico consolidado e 100 registros de sincronização e validação), a amostra revela padrões de concentração que corroboram a centralidade do modelo franco-atlântico na cultura jurídica do século XIX.
 
 #### 6.1.1 Distribuição Geográfica e Institucional
 
@@ -38,7 +38,7 @@ O **Regime NORMATIVO**, responsável pela rotinização burocrática da imagem e
 
 O arco temporal do corpus estende-se por mais de sete séculos (1239–2014), mas sua densidade analítica concentra-se entre **1860 e 1920**, período que coincide com a consolidação do Estado-nação moderno e a expansão industrial da imagem estatal. A década de **1910**, marcada pela Primeira Guerra Mundial, é o ponto de maior densidade (**14,3%**), evidenciando a mobilização máxima do corpo alegórico em contextos de conflito (Regime MILITAR).
 
-Em termos de conteúdo iconográfico, o código **ICONCLASS 48C51** (iconografia feminina em contexto político) é a âncora do corpus, aparecendo em **21,1%** das ocorrências codificadas. Essa convergência demonstra que, independentemente das variações nacionais, o uso da feminilidade como tecnologia de representação política segue um léxico compartilhado, o que justifica a aplicação de um protocolo comparativo global.
+Em termos de conteúdo iconográfico, o código **ICONCLASS 48C51** — taxonomia interna do projeto para a personificação feminina em contexto político [VERIFICAR: no sistema oficial Iconclass, 48C51 = 'painting'; códigos oficiais presentes no corpus: 44B62, 11M44] — é a âncora do corpus, aparecendo em **21,1%** das ocorrências codificadas [VERIFICAR: base não declarada; 76/336 = 22,6% no instantâneo de 2026-09-21]. Essa convergência demonstra que, independentemente das variações nacionais, o uso da feminilidade como tecnologia de representação política segue um léxico compartilhado, o que justifica a aplicação de um protocolo comparativo global.
 
 ---
 

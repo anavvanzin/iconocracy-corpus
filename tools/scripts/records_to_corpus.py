@@ -205,7 +205,9 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     if country:
         entry["country"] = country
     elif not entry.get("country"):
-        entry["country"] = "Brazil"
+        # Missing provenance must remain explicit.  A default country would
+        # fabricate a research fact and silently bias country-level analysis.
+        entry.pop("country", None)
 
     # Overwrite with authoritative fields from records.jsonl
     entry.update({
@@ -234,7 +236,9 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     if indicadores:
         entry["indicadores"] = indicadores
 
-    if abnt and not entry.get("citation_abnt"):
+    # A citação em records.jsonl é canônica. Corrige placeholders históricos
+    # no export sem depender de edição manual da projeção.
+    if abnt:
         entry["citation_abnt"] = abnt
 
     # Tags from exports audit_flags

@@ -173,12 +173,13 @@ else
     fail "corpus-data.json not found"
 fi
 
-# SSD
-if [[ -d /Volumes/ICONOCRACIA/corpus/imagens ]]; then
-    ssd_size=$(du -sh /Volumes/ICONOCRACIA/corpus/imagens 2>/dev/null | awk '{print $1}')
-    pass "SSD mounted — images: $ssd_size"
+# SSD (any mounted volume with corpus/imagens; override with ICONOCRACIA_SSD_ROOT)
+ssd_imagens="${ICONOCRACIA_SSD_ROOT:-$(ls -d /Volumes/*/corpus/imagens 2>/dev/null | head -1)}"
+if [[ -n "$ssd_imagens" && -d "$ssd_imagens" ]]; then
+    ssd_size=$(du -sh "$ssd_imagens" 2>/dev/null | awk '{print $1}')
+    pass "SSD mounted — images: $ssd_size ($ssd_imagens)"
 else
-    warn "SSD (ICONOCRACIA) not mounted — image operations will use vault/assets/"
+    warn "No mounted SSD with corpus/imagens — image operations will use repo staging"
 fi
 
 # Symlinks

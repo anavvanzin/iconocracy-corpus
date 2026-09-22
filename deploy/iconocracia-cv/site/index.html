@@ -3,473 +3,410 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Auditoria reproduzível da cobertura de codificação do corpus ICONOCRACIA para a disciplina de Visão Computacional da UFSC."
-    />
+    <meta name="description" content="Mesa de análise guiada da cobertura de codificação do corpus ICONOCRACIA para a disciplina de Visão Computacional da UFSC." />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
-    <meta
-      property="og:title"
-      content="ICONOCRACIA-CV · Cobertura de codificação"
-    />
-    <meta
-      property="og:description"
-      content="Auditoria reproduzível da cobertura de codificação por regime iconocrático."
-    />
+    <meta property="og:title" content="ICONOCRACIA-CV · Mesa de análise" />
+    <meta property="og:description" content="335 itens, 286 observações e uma lacuna concentrada: explore a auditoria reproduzível por regime iconocrático." />
     <meta property="og:image" content="__SITE_ORIGIN__/og.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="ICONOCRACIA-CV · Cobertura de codificação"
-    />
-    <meta
-      name="twitter:description"
-      content="Auditoria reproduzível da cobertura de codificação por regime iconocrático."
-    />
+    <meta name="twitter:title" content="ICONOCRACIA-CV · Mesa de análise" />
+    <meta name="twitter:description" content="Auditoria reproduzível da cobertura de codificação por regime iconocrático." />
     <meta name="twitter:image" content="__SITE_ORIGIN__/og.png" />
-    <title>ICONOCRACIA-CV · Cobertura de codificação</title>
+    <meta name="theme-color" content="#f2ead9" />
+    <link rel="icon" href="sun-seal.svg" type="image/svg+xml" />
+    <title>ICONOCRACIA-CV · Mesa de análise guiada</title>
     <style>
       :root {
         color-scheme: light;
-        --paper: #faf6ec;
-        --paper-deep: #f2e9d9;
-        --ink: #1c1c1c;
-        --muted: #6b6459;
-        --wine: #6b1e2e;
-        --wine-dark: #48101d;
-        --gold: #b8892b;
-        --line: #d8ccb9;
-        --white: #fffdf8;
-        font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+        --paper: #f2ead9;
+        --paper-light: #fffaf0;
+        --paper-deep: #e7dcc5;
+        --ink: #211b16;
+        --ink-soft: #625a50;
+        --rubric: #8c2b24;
+        --rubric-dark: #641c18;
+        --gold: #9c7c3d;
+        --gold-light: #c3a35d;
+        --sky: #2f72c9;
+        --line: #a99d87;
+        --focus: #006c73;
+        --shadow: 6px 6px 0 var(--ink);
+        --serif: Georgia, "Times New Roman", serif;
+        --sans: Inter, Avenir, Helvetica, Arial, sans-serif;
+        --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
       }
-
-      * {
-        box-sizing: border-box;
-      }
-
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
       body {
         margin: 0;
-        background: var(--paper);
+        background-color: var(--paper);
+        background-image: radial-gradient(rgba(33, 27, 22, 0.18) 1px, transparent 1.3px);
+        background-position: -1px -1px;
+        background-size: 22px 22px;
         color: var(--ink);
-        line-height: 1.6;
+        font-family: var(--sans);
+        line-height: 1.58;
       }
-
-      a {
-        color: var(--wine);
-        text-underline-offset: 0.2em;
+      img { max-width: 100%; }
+      a { color: var(--rubric-dark); text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+      a:hover { color: var(--rubric); text-decoration-thickness: 2px; }
+      :focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; }
+      .skip-link {
+        position: fixed; top: 8px; left: 8px; z-index: 100; transform: translateY(-160%);
+        padding: 10px 14px; border: 2px solid var(--ink); background: var(--paper-light);
+        color: var(--ink); font-weight: 800;
       }
-      a:hover {
-        color: var(--wine-dark);
+      .skip-link:focus { transform: translateY(0); }
+      .shell { width: min(1180px, calc(100% - 36px)); margin-inline: auto; }
+      .menu-bar {
+        position: sticky; top: 0; z-index: 20; border-bottom: 1px solid var(--ink);
+        background: rgba(242, 234, 217, 0.97); backdrop-filter: blur(12px);
       }
-      a:focus-visible {
-        outline: 3px solid var(--gold);
-        outline-offset: 4px;
-      }
-
-      .shell {
-        width: min(1120px, calc(100% - 40px));
-        margin-inline: auto;
-      }
-
-      header {
-        border-bottom: 1px solid var(--line);
-        background: rgba(250, 246, 236, 0.96);
-      }
-
-      nav {
-        min-height: 72px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 24px;
-      }
-
+      .menu-inner { min-height: 48px; display: flex; align-items: center; gap: 14px; }
       .brand {
-        color: var(--ink);
-        font-size: 0.95rem;
-        font-weight: 800;
-        letter-spacing: 0.12em;
-        text-decoration: none;
+        display: inline-flex; align-items: center; gap: 9px; color: var(--ink);
+        font-family: var(--serif); font-size: 0.94rem; font-weight: 700;
+        letter-spacing: 0.04em; text-decoration: none; white-space: nowrap;
       }
-
-      nav ul {
-        display: flex;
-        gap: 24px;
-        margin: 0;
-        padding: 0;
-        list-style: none;
+      .brand img { width: 25px; height: 25px; }
+      .menu-rule { width: 1px; height: 20px; background: var(--line); }
+      .menu-bar nav { display: flex; align-items: center; gap: 17px; }
+      .menu-bar nav a { color: var(--ink); font-size: 0.84rem; font-weight: 650; text-decoration: none; }
+      .status { margin-left: auto; font-family: var(--mono); font-size: 0.72rem; color: var(--rubric-dark); white-space: nowrap; }
+      main { padding-block: clamp(34px, 6vw, 78px) 90px; }
+      .window { min-width: 0; max-width: 100%; border: 1.5px solid var(--ink); background: var(--paper-light); box-shadow: var(--shadow); }
+      .title-bar {
+        min-height: 35px; display: flex; align-items: center; gap: 10px; padding: 0 10px;
+        overflow: hidden; border-bottom: 1.5px solid var(--ink); background: var(--paper);
       }
-      nav li a {
-        color: var(--muted);
-        font-size: 0.9rem;
-        font-weight: 650;
-        text-decoration: none;
+      .chrome-box { width: 15px; height: 15px; flex: 0 0 15px; border: 1.5px solid var(--ink); background: var(--paper-light); }
+      .stripes {
+        height: 11px; flex: 1;
+        background: repeating-linear-gradient(to bottom, var(--ink) 0 1px, transparent 1px 3px);
       }
-
-      .hero {
-        padding-block: clamp(72px, 11vw, 150px) 72px;
-      }
+      .title-bar strong { font-family: var(--serif); font-size: 0.9rem; white-space: nowrap; }
+      .hero-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, 0.75fr); min-height: 610px; }
+      .hero-copy { display: flex; flex-direction: column; justify-content: center; padding: clamp(34px, 6vw, 76px); }
       .eyebrow {
-        color: var(--gold);
-        font-weight: 800;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
+        margin: 0 0 13px; color: var(--rubric); font-family: var(--mono); font-size: 0.75rem;
+        font-weight: 800; letter-spacing: 0.15em; text-transform: uppercase;
       }
-
+      h1, h2, h3 { font-family: var(--serif); text-wrap: balance; }
       h1 {
-        max-width: 900px;
-        margin: 12px 0 24px;
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: clamp(3rem, 8vw, 6.6rem);
-        font-weight: 500;
-        letter-spacing: -0.045em;
-        line-height: 0.96;
+        max-width: 760px; margin: 0; font-size: clamp(3.2rem, 7vw, 6.8rem); font-weight: 500;
+        letter-spacing: -0.055em; line-height: 0.91;
       }
+      .lede { max-width: 680px; margin: 28px 0 0; color: var(--ink-soft); font-size: clamp(1.04rem, 1.8vw, 1.24rem); }
+      .snapshot { display: flex; flex-wrap: wrap; gap: 14px 26px; margin: 36px 0 0; padding: 18px 0; border-block: 1px solid var(--line); }
+      .snapshot-item { display: flex; align-items: baseline; gap: 8px; }
+      .snapshot-item strong { color: var(--rubric-dark); font-family: var(--serif); font-size: 2rem; line-height: 1; }
+      .snapshot-item span { color: var(--ink-soft); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+      .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+      .button {
+        display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 18px;
+        border: 1.5px solid var(--ink); background: var(--ink); color: var(--paper-light);
+        font-family: var(--mono); font-size: 0.76rem; font-weight: 800; letter-spacing: 0.06em;
+        text-decoration: none; text-transform: uppercase;
+      }
+      .button:hover { background: var(--rubric-dark); color: white; }
+      .button.secondary { background: transparent; color: var(--ink); }
+      .button.secondary:hover { background: var(--paper-deep); }
+      .specimen { position: relative; min-height: 500px; overflow: hidden; border-left: 1.5px solid var(--ink); background: var(--sky); }
+      .specimen img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center; image-rendering: pixelated; }
+      .specimen-label {
+        position: absolute; right: 12px; bottom: 12px; left: 12px; display: flex;
+        justify-content: space-between; gap: 14px; padding: 9px 11px; border: 1px solid var(--ink);
+        background: rgba(242, 234, 217, 0.94); color: var(--ink); font-family: var(--mono); font-size: 0.68rem;
+      }
+      .workspace { display: grid; grid-template-columns: 205px minmax(0, 1fr); gap: 26px; min-width: 0; margin-top: 46px; }
+      .file-index {
+        position: sticky; top: 74px; align-self: start; padding: 12px; border: 1px solid var(--ink);
+        background: rgba(242, 234, 217, 0.94); box-shadow: 3px 3px 0 var(--ink);
+      }
+      .file-index p { margin: 0 0 8px; color: var(--ink-soft); font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; }
+      .file-index a {
+        display: grid; grid-template-columns: 28px 1fr; gap: 9px; align-items: center; min-height: 48px;
+        padding: 8px 6px; border-top: 1px solid var(--line); color: var(--ink); font-family: var(--mono);
+        font-size: 0.72rem; font-weight: 750; text-decoration: none;
+      }
+      .file-index a:hover { background: var(--paper-deep); }
+      .file-icon {
+        width: 26px; height: 31px; display: inline-grid; place-items: center; border: 1px solid var(--ink);
+        background: var(--paper-light); color: var(--rubric-dark); font-size: 0.62rem; box-shadow: 2px 2px 0 var(--line);
+      }
+      .content-stack { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; min-width: 0; }
+      .panel-body { padding: clamp(28px, 5vw, 58px); }
+      .section-number {
+        display: inline-block; margin-bottom: 12px; padding: 3px 7px; border: 1px solid var(--rubric-dark);
+        color: var(--rubric-dark); font-family: var(--mono); font-size: 0.7rem; font-weight: 800;
+      }
+      h2 { margin: 0; font-size: clamp(2.25rem, 5vw, 4.8rem); font-weight: 500; letter-spacing: -0.04em; line-height: 0.98; }
+      h3 { margin: 0; font-size: clamp(1.4rem, 2.5vw, 2.1rem); font-weight: 550; line-height: 1.1; }
+      .section-copy { max-width: 760px; margin: 20px 0 0; color: var(--ink-soft); font-size: 1.04rem; }
+      .finding-grid { display: grid; grid-template-columns: minmax(210px, 0.55fr) minmax(0, 1.45fr); gap: 34px; align-items: start; margin-top: 42px; }
+      .finding { padding: 24px; border: 1px solid var(--ink); background: var(--paper-deep); }
+      .finding strong { display: block; color: var(--rubric-dark); font-family: var(--serif); font-size: clamp(4.2rem, 9vw, 7.8rem); font-weight: 500; letter-spacing: -0.06em; line-height: 0.85; }
+      .finding span { display: block; margin-top: 18px; font-size: 0.92rem; font-weight: 700; }
+      .finding small { display: block; margin-top: 10px; color: var(--ink-soft); }
+      figure { margin: 0; }
+      figure img { display: block; width: 100%; border: 1px solid var(--line); background: #faf7f0; }
+      figcaption { margin-top: 10px; color: var(--ink-soft); font-size: 0.8rem; }
+      .table-wrap { margin-top: 34px; overflow-x: auto; border: 1px solid var(--ink); background: var(--paper-light); }
+      table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+      th, td { padding: 14px 16px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+      th:first-child, td:first-child { text-align: left; }
+      th { background: var(--ink); color: var(--paper-light); font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; }
+      tbody tr:nth-child(even) { background: rgba(231, 220, 197, 0.55); }
+      tbody tr:last-child td { border-bottom: 0; }
+      .method-note { margin-top: 30px; border: 1px solid var(--rubric-dark); background: #f8e8df; }
+      .method-note summary { cursor: pointer; padding: 16px 18px; color: var(--rubric-dark); font-family: var(--mono); font-size: 0.76rem; font-weight: 850; letter-spacing: 0.05em; text-transform: uppercase; }
+      .method-note div { padding: 0 18px 18px; }
+      .method-note p { max-width: 74ch; margin: 0; }
+      .artifact-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 34px; }
+      .artifact {
+        display: grid; grid-template-columns: 52px 1fr auto; gap: 14px; align-items: center; min-height: 112px;
+        padding: 18px; border: 1px solid var(--ink); background: var(--paper-light); color: var(--ink); text-decoration: none;
+      }
+      .artifact:hover { transform: translate(-2px, -2px); box-shadow: 4px 4px 0 var(--ink); color: var(--ink); }
+      .artifact-icon { width: 48px; height: 57px; display: grid; place-items: center; border: 1px solid var(--ink); background: var(--paper); color: var(--rubric-dark); font-family: var(--mono); font-size: 0.68rem; font-weight: 850; box-shadow: 3px 3px 0 var(--gold); }
+      .artifact strong, .artifact span { display: block; }
+      .artifact strong { font-family: var(--serif); font-size: 1.14rem; }
+      .artifact span { margin-top: 3px; color: var(--ink-soft); font-size: 0.78rem; }
+      .artifact b { color: var(--rubric-dark); font-family: var(--mono); font-size: 0.67rem; letter-spacing: 0.06em; }
+      .pipeline { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; margin-top: 34px; border: 1px solid var(--ink); background: var(--ink); }
+      .pipeline div { min-height: 128px; padding: 18px; background: var(--paper-light); }
+      .pipeline code { color: var(--rubric-dark); font-family: var(--mono); font-size: 0.72rem; }
+      .pipeline strong { display: block; margin-top: 9px; font-family: var(--serif); }
+      .code-window { margin-top: 24px; border: 1px solid var(--ink); background: var(--ink); color: var(--paper-light); }
+      .code-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 9px 12px; border-bottom: 1px solid rgba(242, 234, 217, 0.3); font-family: var(--mono); font-size: 0.68rem; }
+      .copy-button { border: 1px solid var(--paper-light); background: transparent; color: var(--paper-light); cursor: pointer; font: inherit; padding: 4px 8px; }
+      pre { margin: 0; padding: 18px; overflow-x: auto; font-family: var(--mono); font-size: 0.78rem; line-height: 1.55; }
+      .context-grid { display: grid; grid-template-columns: minmax(260px, 0.9fr) minmax(0, 1.1fr); gap: 30px; align-items: center; margin-top: 34px; }
+      .project-banner { display: block; width: 100%; border: 1px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); image-rendering: pixelated; }
+      .context-copy p { color: var(--ink-soft); }
+      footer { border-top: 1px solid var(--ink); background: var(--ink); color: var(--paper); }
+      .footer-inner { min-height: 68px; display: flex; align-items: center; gap: 14px; font-size: 0.78rem; }
+      .footer-inner span:last-child { margin-left: auto; color: var(--gold-light); font-family: var(--mono); }
 
-      .lede {
-        max-width: 780px;
-        color: var(--muted);
-        font-size: clamp(1.1rem, 2vw, 1.35rem);
+      @media (max-width: 900px) {
+        .hero-grid, .finding-grid, .context-grid { grid-template-columns: 1fr; }
+        .specimen { min-height: 430px; border-top: 1.5px solid var(--ink); border-left: 0; }
+        .workspace { grid-template-columns: 1fr; }
+        .file-index { position: static; display: flex; width: 100%; max-width: 100%; gap: 1px; padding: 0; overflow-x: auto; }
+        .file-index p { display: none; }
+        .file-index a { flex: 0 0 145px; min-width: 0; border-top: 0; border-right: 1px solid var(--line); padding: 10px; }
+        .pipeline { grid-template-columns: repeat(2, 1fr); }
       }
-
-      .metrics {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1px;
-        margin-top: 52px;
-        overflow: hidden;
-        border: 1px solid var(--line);
-        border-radius: 18px;
-        background: var(--line);
+      @media (max-width: 650px) {
+        .shell { width: min(100% - 22px, 1180px); }
+        .menu-inner { min-height: 44px; }
+        .menu-rule, .menu-bar nav, .status { display: none; }
+        main { padding-top: 18px; }
+        .window { box-shadow: 4px 4px 0 var(--ink); }
+        .hero-grid { min-height: 0; }
+        .hero-copy, .panel-body { padding: 26px 20px; }
+        h1 { font-size: clamp(3rem, 16vw, 4.7rem); }
+        .snapshot { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+        .snapshot-item { display: block; }
+        .snapshot-item strong, .snapshot-item span { display: block; }
+        .snapshot-item span { margin-top: 6px; font-size: 0.62rem; }
+        .specimen { min-height: 390px; }
+        .artifact-grid, .pipeline { grid-template-columns: 1fr; }
+        .artifact { grid-template-columns: 46px 1fr; }
+        .artifact b { grid-column: 2; }
+        .footer-inner { align-items: flex-start; flex-direction: column; padding-block: 20px; }
+        .footer-inner span:last-child { margin-left: 0; }
       }
-
-      .metric {
-        padding: 28px;
-        background: var(--white);
-      }
-      .metric strong {
-        display: block;
-        color: var(--wine);
-        font-family: Georgia, serif;
-        font-size: 3rem;
-        line-height: 1;
-      }
-      .metric span {
-        color: var(--muted);
-        font-size: 0.9rem;
-      }
-
-      section {
-        padding-block: 72px;
-      }
-      section + section {
-        border-top: 1px solid var(--line);
-      }
-
-      h2 {
-        margin: 0 0 16px;
-        font-family: Georgia, serif;
-        font-size: clamp(2rem, 5vw, 3.8rem);
-        font-weight: 500;
-        line-height: 1.05;
-      }
-      .section-copy {
-        max-width: 760px;
-        color: var(--muted);
-        font-size: 1.05rem;
-      }
-
-      figure {
-        margin: 44px 0 0;
-      }
-      figure img {
-        display: block;
-        width: 100%;
-        border: 1px solid var(--line);
-        border-radius: 18px;
-        background: var(--white);
-      }
-      figcaption {
-        margin-top: 12px;
-        color: var(--muted);
-        font-size: 0.88rem;
-      }
-
-      .table-wrap {
-        margin-top: 36px;
-        overflow-x: auto;
-        border: 1px solid var(--line);
-        border-radius: 16px;
-        background: var(--white);
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-      }
-      th,
-      td {
-        padding: 16px 20px;
-        border-bottom: 1px solid var(--line);
-        text-align: right;
-        white-space: nowrap;
-      }
-      th:first-child,
-      td:first-child {
-        text-align: left;
-      }
-      th {
-        color: var(--muted);
-        font-size: 0.78rem;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-      }
-      tbody tr:last-child td {
-        border-bottom: 0;
-      }
-
-      .note {
-        margin-top: 36px;
-        padding: 24px 28px;
-        border-left: 5px solid var(--gold);
-        background: var(--paper-deep);
-      }
-
-      .resources {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 16px;
-        margin-top: 36px;
-      }
-      .resource {
-        display: block;
-        padding: 24px;
-        border: 1px solid var(--line);
-        border-radius: 14px;
-        background: var(--white);
-        text-decoration: none;
-      }
-      .resource strong {
-        display: block;
-        color: var(--ink);
-        font-size: 1.05rem;
-      }
-      .resource span {
-        color: var(--muted);
-        font-size: 0.9rem;
-      }
-
-      footer {
-        padding-block: 40px;
-        border-top: 1px solid var(--line);
-        color: var(--muted);
-        font-size: 0.9rem;
-      }
-
-      @media (max-width: 720px) {
-        nav ul {
-          display: none;
-        }
-        .metrics,
-        .resources {
-          grid-template-columns: 1fr;
-        }
-        .metric {
-          padding: 22px;
-        }
-        section {
-          padding-block: 52px;
-        }
-      }
-
       @media (prefers-reduced-motion: reduce) {
-        *,
-        *::before,
-        *::after {
-          scroll-behavior: auto !important;
-        }
+        html { scroll-behavior: auto; }
+        *, *::before, *::after { transition: none !important; }
       }
     </style>
   </head>
   <body>
-    <header>
-      <nav class="shell" aria-label="Navegação principal">
-        <a class="brand" href="#inicio">ICONOCRACIA-CV</a>
-        <ul>
-          <li><a href="#resultado">Resultado</a></li>
-          <li><a href="#dados">Dados</a></li>
-          <li><a href="#reproduzir">Reproduzir</a></li>
-        </ul>
-      </nav>
+    <a class="skip-link" href="#resultado">Pular para o resultado</a>
+    <header class="menu-bar">
+      <div class="shell menu-inner">
+        <a class="brand" href="#inicio" aria-label="ICONOCRACIA-CV, início"><img src="sun-seal.svg" alt="" /><span>ICONOCRACIA-CV</span></a>
+        <span class="menu-rule" aria-hidden="true"></span>
+        <nav aria-label="Navegação principal">
+          <a href="#resultado">Evidência</a><a href="#artefatos">Arquivos</a><a href="#reproduzir">Reproduzir</a><a href="#contexto">Contexto</a>
+        </nav>
+        <span class="status">freeze 2026-08-12 · audit 2026-08-13</span>
+      </div>
     </header>
 
     <main id="inicio">
-      <div class="shell hero">
-        <div class="eyebrow">Visão Computacional · UFSC · 2026.2</div>
-        <h1>Cobertura de codificação por regime</h1>
-        <p class="lede">
-          Uma auditoria reproduzível do dataset público ICONOCRACIA: 335
-          alegorias femininas da Justiça examinadas como problema de visão
-          computacional.
-        </p>
-        <div class="metrics" aria-label="Resumo da cobertura">
-          <div class="metric">
-            <strong id="total">335</strong><span>itens no corpus</span>
+      <div class="shell">
+        <section class="window" aria-labelledby="page-title">
+          <div class="title-bar" aria-hidden="true"><span class="chrome-box"></span><span class="stripes"></span><strong>ICONOCRACIA-CV / 01_LEIA-ME</strong><span class="stripes"></span><span class="chrome-box"></span></div>
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Visão Computacional · UFSC · 2026.2</p>
+              <h1 id="page-title">Uma lacuna de dados não é neutra.</h1>
+              <p class="lede">O corpus público reúne 335 alegorias femininas da cultura jurídica. A auditoria mostra onde a codificação ainda falta — e por que esse desequilíbrio precisa vir antes de qualquer modelo.</p>
+              <div class="snapshot" aria-label="Resumo do snapshot">
+                <div class="snapshot-item"><strong id="total">335</strong><span>itens no corpus</span></div>
+                <div class="snapshot-item"><strong id="coded">286</strong><span>codificados</span></div>
+                <div class="snapshot-item"><strong id="pending">49</strong><span>pendentes</span></div>
+              </div>
+              <div class="actions">
+                <a class="button" href="#resultado">Iniciar percurso · 5 min</a>
+                <a class="button secondary" href="analysis/huggingface-regime-coverage-2026-08-13/coverage.csv" download>Baixar CSV</a>
+              </div>
+            </div>
+            <figure class="specimen">
+              <img src="pixel-justitia-sky.png" alt="Representação pixelada de Justitia vendada, com espada e balança, diante de um céu azul" />
+              <figcaption class="specimen-label"><span>justitia.png</span><span>espécime visual · pixel art</span></figcaption>
+            </figure>
           </div>
-          <div class="metric">
-            <strong id="coded">286</strong><span>itens codificados</span>
-          </div>
-          <div class="metric">
-            <strong id="pending">49</strong><span>itens pendentes</span>
+        </section>
+
+        <div class="workspace">
+          <aside class="file-index" aria-label="Percurso da análise">
+            <p>Mesa de análise</p>
+            <a href="#inicio"><span class="file-icon">01</span><span>LEIA-ME</span></a>
+            <a href="#resultado"><span class="file-icon">02</span><span>EVIDÊNCIA</span></a>
+            <a href="#artefatos"><span class="file-icon">03</span><span>ARQUIVOS</span></a>
+            <a href="#reproduzir"><span class="file-icon">04</span><span>REPRODUZIR</span></a>
+          </aside>
+
+          <div class="content-stack">
+            <section class="window" id="resultado" aria-labelledby="resultado-title">
+              <div class="title-bar" aria-hidden="true"><span class="chrome-box"></span><span class="stripes"></span><strong>02_EVIDÊNCIA / coverage.svg</strong><span class="stripes"></span><span class="chrome-box"></span></div>
+              <div class="panel-body">
+                <span class="section-number">02 / EVIDÊNCIA</span>
+                <h2 id="resultado-title">A lacuna se concentra no regime militar.</h2>
+                <p class="section-copy">Ele reúne 26 das 49 pendências — 53,1% de toda a lacuna — e apresenta a menor cobertura entre os quatro regimes.</p>
+                <div class="finding-grid">
+                  <div class="finding"><strong id="lowest-coverage">51,9%</strong><span>cobertura no regime militar</span><small>28 codificados de um total de 54 itens.</small></div>
+                  <figure>
+                    <img src="analysis/huggingface-regime-coverage-2026-08-13/coverage.svg" alt="Barras horizontais com totais codificados e pendentes nos regimes fundacional, normativo, militar e contra-alegoria" />
+                    <figcaption>Figura vetorial gerada do CSV versionado. Comprimento total de cada barra corresponde ao denominador do regime.</figcaption>
+                  </figure>
+                </div>
+                <div class="table-wrap">
+                  <table>
+                    <caption class="skip-link">Cobertura por regime iconocrático</caption>
+                    <thead><tr><th scope="col">Regime</th><th scope="col">Total</th><th scope="col">Codificados</th><th scope="col">Pendentes</th><th scope="col">Cobertura</th></tr></thead>
+                    <tbody id="coverage-rows">
+                      <tr><td>Fundacional</td><td>163</td><td>149</td><td>14</td><td>91,4%</td></tr>
+                      <tr><td>Normativo</td><td>103</td><td>99</td><td>4</td><td>96,1%</td></tr>
+                      <tr><td>Militar</td><td>54</td><td>28</td><td>26</td><td>51,9%</td></tr>
+                      <tr><td>Contra-alegoria</td><td>15</td><td>10</td><td>5</td><td>66,7%</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+                <details class="method-note" open>
+                  <summary>Limite de inferência — leia antes de comparar</summary>
+                  <div><p>Os identificadores públicos de <code>corpus</code> e <code>purification</code> usam namespaces diferentes. A análise compara contagens agregadas por regime e <strong>não faz join item a item</strong>. “Pendente” é a diferença entre estratos, não uma lista nominal de objetos.</p></div>
+                </details>
+              </div>
+            </section>
+
+            <section class="window" id="artefatos" aria-labelledby="artefatos-title">
+              <div class="title-bar" aria-hidden="true"><span class="chrome-box"></span><span class="stripes"></span><strong>03_ARQUIVOS / pasta pública</strong><span class="stripes"></span><span class="chrome-box"></span></div>
+              <div class="panel-body">
+                <span class="section-number">03 / ARQUIVOS</span>
+                <h2 id="artefatos-title">Escolha pelo que você quer fazer.</h2>
+                <p class="section-copy">Cada arquivo tem uma função distinta. Todos pertencem ao mesmo snapshot e permanecem legíveis fora desta interface.</p>
+                <div class="artifact-grid">
+                  <a class="artifact" href="analysis/huggingface-regime-coverage-2026-08-13/coverage.csv"><span class="artifact-icon">CSV</span><span><strong>Analisar os números</strong><span>5 colunas · resultado agregado</span></span><b>ABRIR →</b></a>
+                  <a class="artifact" href="analysis/huggingface-regime-coverage-2026-08-13/README.md"><span class="artifact-icon">MD</span><span><strong>Entender o método</strong><span>Proveniência, limites e contrato</span></span><b>LER →</b></a>
+                  <a class="artifact" href="analysis/huggingface-regime-coverage-2026-08-13/query.sql"><span class="artifact-icon">SQL</span><span><strong>Refazer a consulta</strong><span>Parquets públicos · agregação</span></span><b>ABRIR →</b></a>
+                  <a class="artifact" href="analysis/huggingface-regime-coverage-2026-08-13/render_coverage.py"><span class="artifact-icon">PY</span><span><strong>Validar e renderizar</strong><span>Biblioteca padrão · saída atômica</span></span><b>ABRIR →</b></a>
+                  <a class="artifact" href="analysis/huggingface-regime-coverage-2026-08-13/coverage.svg"><span class="artifact-icon">SVG</span><span><strong>Usar a figura</strong><span>Vetor acessível · impressão e slides</span></span><b>ABRIR →</b></a>
+                  <a class="artifact" href="https://github.com/anavvanzin/iconocracy-corpus/tree/main/deploy/iconocracia-cv" target="_blank" rel="noreferrer"><span class="artifact-icon">GIT</span><span><strong>Auditar o projeto</strong><span>Freeze, histórico e aplicação</span></span><b>SAIR ↗</b></a>
+                </div>
+              </div>
+            </section>
+
+            <section class="window" id="reproduzir" aria-labelledby="reproduzir-title">
+              <div class="title-bar" aria-hidden="true"><span class="chrome-box"></span><span class="stripes"></span><strong>04_REPRODUZIR / protocolo</strong><span class="stripes"></span><span class="chrome-box"></span></div>
+              <div class="panel-body">
+                <span class="section-number">04 / REPRODUZIR</span>
+                <h2 id="reproduzir-title">Do Parquet à figura, sem caixa-preta.</h2>
+                <p class="section-copy">A consulta produz o CSV temporário; o script confere os totais, promove o resultado e regenera o SVG. O freeze da disciplina não é alterado.</p>
+                <div class="pipeline" aria-label="Fluxo de reprodução">
+                  <div><code>01</code><strong>Parquets públicos</strong></div>
+                  <div><code>02 · query.sql</code><strong>Agregação por regime</strong></div>
+                  <div><code>03 · coverage.csv</code><strong>Resultado revisável</strong></div>
+                  <div><code>04 · coverage.svg</code><strong>Figura validada</strong></div>
+                </div>
+                <div class="code-window">
+                  <div class="code-head"><span>renderização local</span><button class="copy-button" type="button" data-copy="render-command">Copiar</button></div>
+                  <pre id="render-command"><code>/Users/ana/.venvs/iconocracy/bin/python3.12 render_coverage.py</code></pre>
+                </div>
+                <p class="section-copy">O comando completo de consulta e as verificações de shards estão no <a href="analysis/huggingface-regime-coverage-2026-08-13/README.md">data card</a>.</p>
+              </div>
+            </section>
+
+            <section class="window" id="contexto" aria-labelledby="contexto-title">
+              <div class="title-bar" aria-hidden="true"><span class="chrome-box"></span><span class="stripes"></span><strong>CONTEXTO / projeto de pesquisa</strong><span class="stripes"></span><span class="chrome-box"></span></div>
+              <div class="panel-body">
+                <span class="section-number">CONTEXTO</span>
+                <h2 id="contexto-title">Visão computacional a serviço da crítica histórica.</h2>
+                <div class="context-grid">
+                  <img class="project-banner" src="project-banner.png" alt="Female Allegory in the History of Legal Culture — PhD Project, PPGD/UFSC" />
+                  <div class="context-copy">
+                    <h3>ICONOCRACIA</h3>
+                    <p>A auditoria integra uma pesquisa em história da cultura jurídica sobre alegorias femininas do direito. Proximidade visual é evidência comparativa: não prova filiação histórica nem mede automaticamente o endurecimento.</p>
+                    <p>Snapshot público consultado em 13 de agosto de 2026 no dataset <a href="https://huggingface.co/datasets/warholana/iconocracy-corpus">warholana/iconocracy-corpus</a>.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </div>
-
-      <section id="resultado">
-        <div class="shell">
-          <div class="eyebrow">Diagnóstico</div>
-          <h2>Os rótulos não estão igualmente disponíveis.</h2>
-          <p class="section-copy">
-            O regime militar concentra 26 das 49 pendências e tem apenas 51,9%
-            de cobertura. Comparações entre regimes precisam considerar esse
-            desequilíbrio antes de interpretar métricas de classificação ou
-            agrupamento.
-          </p>
-          <figure>
-            <img
-              src="analysis/huggingface-regime-coverage-2026-08-13/coverage.svg"
-              alt="Gráfico de barras com cobertura de codificação para os regimes fundacional, normativo, militar e contra-alegoria"
-            />
-            <figcaption>
-              Snapshot público do Hugging Face auditado em 13 de agosto de 2026.
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section id="dados">
-        <div class="shell">
-          <div class="eyebrow">Tabela canônica</div>
-          <h2>Quatro regimes, uma lacuna concentrada.</h2>
-          <p class="section-copy">
-            A tabela abaixo é carregada diretamente do CSV versionado no
-            repositório.
-          </p>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Regime</th>
-                  <th>Total</th>
-                  <th>Codificados</th>
-                  <th>Pendentes</th>
-                  <th>Cobertura</th>
-                </tr>
-              </thead>
-              <tbody id="coverage-rows">
-                <tr>
-                  <td colspan="5">Carregando dados…</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="note">
-            <strong>Limite metodológico.</strong> Os splits públicos usam
-            namespaces de identificadores distintos. Esta é uma comparação
-            agregada por regime, não uma junção item a item.
-          </div>
-        </div>
-      </section>
-
-      <section id="reproduzir">
-        <div class="shell">
-          <div class="eyebrow">Ciência aberta</div>
-          <h2>Do dado à figura, tudo auditável.</h2>
-          <p class="section-copy">
-            A consulta SQL lê os Parquets públicos; o script valida os totais e
-            gera o SVG sem bibliotecas externas. O freeze da disciplina
-            permanece imutável.
-          </p>
-          <div class="resources">
-            <a
-              class="resource"
-              href="analysis/huggingface-regime-coverage-2026-08-13/README.md"
-              ><strong>Data card</strong
-              ><span>Método, proveniência e instruções</span></a
-            >
-            <a
-              class="resource"
-              href="analysis/huggingface-regime-coverage-2026-08-13/coverage.csv"
-              ><strong>CSV</strong><span>Resultado tabular versionado</span></a
-            >
-            <a
-              class="resource"
-              href="analysis/huggingface-regime-coverage-2026-08-13/query.sql"
-              ><strong>SQL</strong
-              ><span>Consulta aos Parquets públicos</span></a
-            >
-            <a
-              class="resource"
-              href="https://github.com/anavvanzin/iconocracy-corpus/tree/main/deploy/iconocracia-cv"
-              ><strong>GitHub</strong
-              ><span>Freeze, documentação e histórico</span></a
-            >
-          </div>
-        </div>
-      </section>
     </main>
 
     <footer>
-      <div class="shell">
-        Ana Vitória Vanzin Mendes · PPGD/UFSC · INE410159 / TRV410001
-      </div>
+      <div class="shell footer-inner"><span>Ana Vitória Vanzin Mendes · PPGD/UFSC · INE410159 / TRV410001</span><span>ICONOCRACIA-CV · 2026.2</span></div>
     </footer>
 
     <script>
-      const csvPath =
-        "analysis/huggingface-regime-coverage-2026-08-13/coverage.csv";
+      const csvPath = "analysis/huggingface-regime-coverage-2026-08-13/coverage.csv";
+      const regimeLabels = { fundacional: "Fundacional", normativo: "Normativo", militar: "Militar", "contra-alegoria": "Contra-alegoria" };
+
+      function renderCoverage(rows) {
+        const tbody = document.querySelector("#coverage-rows");
+        const fragment = document.createDocumentFragment();
+        rows.forEach((row) => {
+          const tr = document.createElement("tr");
+          const values = [regimeLabels[row.regime] || row.regime, row.total, row.coded, row.pending, `${row.coverage.replace(".", ",")}%`];
+          values.forEach((value) => { const td = document.createElement("td"); td.textContent = value; tr.appendChild(td); });
+          fragment.appendChild(tr);
+        });
+        tbody.replaceChildren(fragment);
+        document.querySelector("#total").textContent = rows.reduce((sum, row) => sum + Number(row.total), 0);
+        document.querySelector("#coded").textContent = rows.reduce((sum, row) => sum + Number(row.coded), 0);
+        document.querySelector("#pending").textContent = rows.reduce((sum, row) => sum + Number(row.pending), 0);
+        const lowest = rows.reduce((a, b) => Number(a.coverage) < Number(b.coverage) ? a : b);
+        document.querySelector("#lowest-coverage").textContent = `${lowest.coverage.replace(".", ",")}%`;
+      }
 
       fetch(csvPath)
-        .then((response) => {
-          if (!response.ok) throw new Error(`HTTP ${response.status}`);
-          return response.text();
-        })
+        .then((response) => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.text(); })
         .then((text) => {
-          const lines = text.trim().split("\n").slice(1);
-          const rows = lines.map((line) => {
+          const rows = text.trim().split("\n").slice(1).map((line) => {
             const [regime, total, coded, pending, coverage] = line.split(",");
             return { regime, total, coded, pending, coverage };
           });
-          document.querySelector("#coverage-rows").innerHTML = rows
-            .map(
-              (row) => `
-            <tr>
-              <td>${row.regime}</td>
-              <td>${row.total}</td>
-              <td>${row.coded}</td>
-              <td>${row.pending}</td>
-              <td>${row.coverage.replace(".", ",")}%</td>
-            </tr>
-          `,
-            )
-            .join("");
-          document.querySelector("#total").textContent = rows.reduce(
-            (sum, row) => sum + Number(row.total),
-            0,
-          );
-          document.querySelector("#coded").textContent = rows.reduce(
-            (sum, row) => sum + Number(row.coded),
-            0,
-          );
-          document.querySelector("#pending").textContent = rows.reduce(
-            (sum, row) => sum + Number(row.pending),
-            0,
-          );
+          renderCoverage(rows);
         })
-        .catch(() => {
-          document.querySelector("#coverage-rows").innerHTML =
-            '<tr><td colspan="5">Os dados não puderam ser carregados. Consulte o CSV no repositório.</td></tr>';
+        .catch(() => document.querySelector("#coverage-rows").setAttribute("data-fallback", "true"));
+
+      document.querySelectorAll("[data-copy]").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const target = document.getElementById(button.dataset.copy);
+          const original = button.textContent;
+          try { await navigator.clipboard.writeText(target.innerText.trim()); button.textContent = "Copiado"; }
+          catch { button.textContent = "Selecione o texto"; }
+          window.setTimeout(() => { button.textContent = original; }, 1800);
         });
+      });
     </script>
   </body>
 </html>
