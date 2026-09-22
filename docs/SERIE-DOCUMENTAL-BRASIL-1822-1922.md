@@ -54,14 +54,13 @@ acrescenta um quarto, que se revelou o mais produtivo no recorte imperial:
 | i | **Juridificação do léxico** | oficializa o vocabulário visual, sem nomear a figura | Decreto n. 4/1889 |
 | ii | **Restrição** | o atributo fundamenta uma limitação de autonomia | Código Civil 1916 |
 | iii | **Reconhecimento** | o ato amplia direitos (contraponto que calibra) | — *(1932, fora do recorte)* |
-| iv | **Atribuição de condição** | o atributo feminino **determina o status jurídico de terceiro** | Lei do Ventre Livre 1871; Constituição 1891, art. 69, 2º |
+| **iv-a** | **Atribuição de condição a terceiro** | o atributo feminino **determina o status jurídico de outra pessoa** | Lei do Ventre Livre 1871 (a mãe determina a condição do filho) |
+| **iv-b** | **Atribuição de condição à própria mulher** | o atributo **determina a proteção jurídica que a própria mulher recebe** | Código Penal 1890, art. 268 (a "honestidade" gradua a pena) |
 
-**A direção (iv) é o achado novo desta rodada.** Ela não estava prevista no
-levantamento de 08/09 e é a que opera no Império: a **mãe** não é exaltada para
-ser restringida (como em Muller v. Oregon), mas constituída como **nexo de
-imputação** — é a condição jurídica da mãe que determina a do filho. Isto
-desloca o argumento: no Brasil imperial, o operador não é a maternidade
-exaltada, é a **mãe como ponto de ancoragem do ordenamento**.
+**A direção (iv) é o achado desta rodada** — e a verificação de 22/09 a desdobrou em duas subespécies, porque os dois casos fazem coisas diferentes:
+
+- **(iv-a)** opera no Império: a **mãe** não é exaltada para ser restringida (como em Muller v. Oregon), mas constituída como **nexo de imputação** — é a condição jurídica da mãe que determina a do filho. O operador não é a maternidade exaltada: é a **mãe como ponto de ancoragem do ordenamento**.
+- **(iv-b)** opera na República: a "honestidade" não restringe a autonomia da mulher — ela **distribui a proteção que o Estado lhe concede**. A mulher conforme ao modelo alegórico (pura, "honesta") é protegida; a que não cabe nele recebe até 12× menos.
 
 ## 2. Universo-fonte
 
@@ -86,12 +85,30 @@ Ordenada cronologicamente.
 
 | # | Ato | Data | Atributo feminino | Como aparece como *razão de decisão* | Direção | Estado |
 |---|---|---|---|---|---|---|
-| 1 | **Lei n. 2.040** (Lei do Ventre Livre) | 28 set. 1871 | a **mãe** escravizada | Todo o diploma se organiza pela mãe: a condição livre do filho decorre de a mãe ser escrava (art. 1º); a autoridade sobre o filho é do "senhor **da mãe**" (art. 1º, §1º); a liberdade da mãe arrasta os filhos menores de 8 anos (art. 1º, §4º); a alienação da mãe arrasta os filhos menores de 12 (art. 1º, §5º); a obrigação recai sobre "os senhores … das filhas de suas escravas" (art. 1º, §3º) | **atribuição de condição** | **[RD] verificado** — texto integral lido (22/09/2026) |
-| 2 | **Decreto n. 4** | 19 nov. 1889 | *(nenhum)* | Estabelece bandeira, armas nacionais e selos/sinetes — **emblemas, sem menção a figura feminina** | **juridificação do léxico** | **[RD] verificado** — Planalto (08/09/2026) |
-| 3 | **Decreto n. 847** (Código Penal) | 11 out. 1890 | "mulher honesta" / pudor / honestidade | A verificar: o Título VIII ("Dos crimes contra a segurança da honra e honestidade das famílias") funda o tipo penal na qualidade moral da mulher ofendida | restrição *(a confirmar)* | **[TI]** — texto localizado (Senado/LexML); arts. específicos a ler |
-| 4 | **Constituição da República** | 24 fev. 1891 | *(ausente no voto; residual na nacionalidade)* | **Caso negativo duplo.** (a) Art. 70: "São eleitores os cidadãos maiores de 21 annos…" e as vedações do §1º elencam mendigos, analphabetos, praças de pret e religiosos — **o sexo não é mencionado**: a exclusão das mulheres se dá **por omissão**, não por texto. (b) Art. 69, 2º: são cidadãos "os illegitimos de **mãe brazileira**" — a filiação materna só gera nacionalidade **na falta do pai**, isto é, a mulher é operador **residual** | **registro de ausência** + **atribuição de condição residual** | **[RD] verificado** — Câmara dos Deputados, publicação original (22/09/2026) |
-| 5 | **Lei n. 3.071** (Código Civil) | 1º jan. 1916 | dependência / subordinação da mulher casada | Art. 6, II: a mulher casada é relativamente incapaz; art. 233: "O marido é o chefe da sociedade conjugal"; art. 240: a mulher assume "a condição de sua companheira, consorte e auxiliar"; art. 242: "A mulher não pode, sem autorização do marido… alienar ou gravar de onus real os immoveis de seu dominio particular" | **restrição** | **[RD] verificado** — Planalto (08/09/2026) |
-| 6 | **Decreto n. 4.175** (comemoração do Centenário) | 11 nov. 1920 | *(nenhum)* | Autoriza o Executivo a promover a comemoração do Centenário da Independência, com o "criterio de preferencia para a realização de uma **Exposição Nacional na Capital da Republica**". **Não menciona figura feminina** — é ato juridicamente neutro quanto ao gênero, e é o ato que habilita a produção das duas alegorias de 1922 | **registro de ausência** | **[RD] verificado** — Câmara dos Deputados, publicação original (22/09/2026) |
+| 1 | **Lei n. 2.040** (Lei do Ventre Livre) | 28 set. 1871 | a **mãe** escravizada | Todo o diploma se organiza pela mãe: a condição livre do filho decorre de a mãe ser escrava (art. 1º); a autoridade sobre o filho é do "senhor **da mãe**" (art. 1º, §1º); a liberdade da mãe arrasta os filhos menores de 8 anos (art. 1º, §4º); a alienação da mãe arrasta os filhos menores de 12 (art. 1º, §5º); a obrigação recai sobre "os senhores … das filhas de suas escravas" (art. 1º, §3º) | **(iv-a) atribuição de condição a terceiro** | **[RD] verificado** — texto integral lido (22/09/2026) |
+| 2 | **Lei n. 3.270** (Lei dos Sexagenários) | 28 set. 1885 | *(nenhum)* | Regula a extinção gradual **por critério etário e matrícula**: a libertação alcança o escravo de 60+ anos (art. 3º), com tabela de deduções anuais de valor. Contagem no texto oficial: **"mulher" = 0, "mãe" = 0, "filhos" = 0, "família" = 0**; "sexo" e "filiação" aparecem apenas como campos da matrícula (art. 1º). A mãe como nexo jurídico **desapareceu** | **registro de ausência** | **[RD] verificado** — Senado Federal, publicação original (22/09/2026) |
+| 3 | **Lei n. 3.353** (Lei Áurea) | 13 mai. 1888 | *(nenhum)* | Dois artigos: "Art. 1º E' declarada extincta, desde a data desta Lei, a escravidão no Brazil. Art. 2º Revogam-se as disposições em contrario." **Nenhuma menção a mulher, mãe ou filiação** | **registro de ausência** | **[RD] verificado** — Senado Federal, publicação original (22/09/2026) |
+| 4 | **Decreto n. 4** | 19 nov. 1889 | *(nenhum)* | Estabelece bandeira, armas nacionais e selos/sinetes — **emblemas, sem menção a figura feminina** | **(i) juridificação do léxico** | **[RD] verificado** — Planalto (08/09/2026) |
+| 5 | **Decreto n. 847** (Código Penal) | 11 out. 1890 | **"mulher honesta"** / pudor | Título VIII. **Art. 268**: "Estuprar mulher virgem ou não, mas **honesta**: Pena – de prisão cellular por um a seis annos." **§ 1º**: "Si a estuprada for **mulher publica ou prostituta**: Pena – de prisão cellular por seis mezes a dous annos." Art. 267 (defloramento por "seducção, engano ou fraude"); art. 270 (rapto de "qualquer **mulher honesta**"). **O mesmo ato recebe pena até 12× maior conforme o atributo moral da vítima** | **(iv-b) atribuição de condição à própria mulher** | **[RD] verificado** — Senado Federal, publicação original, texto integral (22/09/2026) |
+| 6 | **Constituição da República** | 24 fev. 1891 | *(ausente no voto; residual na nacionalidade)* | **Caso negativo duplo.** (a) Art. 70: "São eleitores os cidadãos maiores de 21 annos…" e as vedações do §1º elencam mendigos, analphabetos, praças de pret e religiosos — **o sexo não é mencionado**: a exclusão das mulheres se dá **por omissão**, não por texto. (b) Art. 69, 2º: são cidadãos "os illegitimos de **mãe brazileira**" — a filiação materna só gera nacionalidade **na falta do pai**, isto é, a mulher é operador **residual** | **registro de ausência** + **(iv) residual** | **[RD] verificado** — Câmara dos Deputados, publicação original (22/09/2026) |
+| 7 | **Lei n. 3.071** (Código Civil) | 1º jan. 1916 | dependência / subordinação da mulher casada | Art. 6, II: a mulher casada é relativamente incapaz; art. 233: "O marido é o chefe da sociedade conjugal"; art. 240: a mulher assume "a condição de sua companheira, consorte e auxiliar"; art. 242: "A mulher não pode, sem autorização do marido… alienar ou gravar de onus real os immoveis de seu dominio particular" | **(ii) restrição** | **[RD] verificado** — Planalto (08/09/2026) |
+| 8 | **Decreto n. 4.175** (comemoração do Centenário) | 11 nov. 1920 | *(nenhum)* | Autoriza o Executivo a promover a comemoração do Centenário da Independência, com o "criterio de preferencia para a realização de uma **Exposição Nacional na Capital da Republica**". **Não menciona figura feminina** — é ato juridicamente neutro quanto ao gênero, e é o ato que habilita a produção das duas alegorias de 1922 | **registro de ausência** | **[RD] verificado** — Câmara dos Deputados, publicação original (22/09/2026) |
+
+**Nenhum ato permanece `[TI]`.** Oito atos, oito verificados em fonte primária.
+
+### 3.0 O achado que a sequência abolicionista produz
+
+Postos em ordem, os três diplomas da abolição contam uma história que nenhum deles conta isoladamente:
+
+| Ano | Diploma | Estatuto da mãe no texto |
+|---|---|---|
+| **1871** | Lei do Ventre Livre | **nexo jurídico estruturante** — "mãe" é a categoria operante de todo o regime |
+| **1885** | Lei dos Sexagenários | **ausente** — "mulher" = 0, "mãe" = 0; o critério passa a ser a **idade** |
+| **1888** | Lei Áurea | **ausente** — dois artigos, nenhum atributo |
+
+**A mãe escravizada é o operador da abolição *gerida*, e desaparece quando a abolição se completa.** A direção (iv-a) não é uma propriedade geral do direito imperial: é o dispositivo específico do **regime de transição** — a mãe comparece na lei enquanto é preciso administrar a passagem da condição da mãe para a do filho, e some quando já não há condição a administrar.
+
+Para a tese, isto é um achado de primeira ordem: a **mãe negra entra no ordenamento como mecanismo**, não como sujeito — e o mecanismo é descartado assim que cumpre a função. É a Feminilidade de Estado no seu avesso racial: onde a alegoria branca permanece como imagem perpétua, a mãe negra é instrumento temporário.
 
 ### 3.1 Ato #1 em detalhe — por que a Lei do Ventre Livre é o achado desta rodada
 
@@ -122,7 +139,7 @@ Feminilidade de Estado branca e a mãe negra como nexo de imputação são duas
 faces do mesmo ordenamento — o que dá ao Cap. 3 material documental que hoje
 lhe falta.
 
-### 3.2 Ato #4 em detalhe — o caso negativo que a banca vai procurar
+### 3.2 Ato #6 em detalhe — o caso negativo que a banca vai procurar
 
 O §5.1.1 do reenquadramento exige que a série **busque ativamente o caso
 inverso**: atos que instituem autoridade **sem** a figura feminina. A
@@ -206,10 +223,19 @@ série registrar os atos em que o atributo feminino **não** comparece.
 
 | Ato | Data | O atributo está ausente? | Observação |
 |---|---|---|---|
+| Lei n. 3.270 (Sexagenários) | 28 set. 1885 | **sim** | "mulher" = 0, "mãe" = 0, "família" = 0; critério passa a ser a **idade** |
+| Lei n. 3.353 (Lei Áurea) | 13 mai. 1888 | **sim** | dois artigos; nenhum atributo de gênero ou filiação |
 | Decreto n. 4 | 19 nov. 1889 | **sim** | oficializa bandeira/armas/selos sem nomear figura feminina |
 | Constituição de 1891, art. 70 | 24 fev. 1891 | **sim** | define o eleitor sem mencionar sexo — exclusão por silêncio |
 | Decreto n. 4.175 | 11 nov. 1920 | **sim** | autoriza a comemoração do Centenário e a Exposição Nacional sem nomear figura feminina — **a figura das alegorias de 1922 é posterior ao ato** |
 | *(a completar)* | | | atos decisórios de 1822–1922 a varrer sistematicamente |
+
+**Cinco registros de ausência contra três de presença ativa** (Lei do Ventre
+Livre, Código Penal, Código Civil). Esta proporção é, ela mesma, um dado a
+reportar: no recorte, o atributo feminino comparece como razão de decisão
+**menos vezes do que está ausente** — o que calibra a pretensão da tese. O
+operador epistêmico não precisa estar em todo ato; precisa ser **condição de
+possibilidade**. Mas a tese deve dizer quantas vezes ele está e quantas não está.
 
 **Regra:** a série não pode afirmar precedência sem ter varrido um número
 declarado de atos em que a figura está ausente. A varredura sistemática é
@@ -224,7 +250,7 @@ Habilitado pelo par série-iconográfica × série-documental:
 | Termo | Conteúdo |
 |---|---|
 | **Série iconográfica** | a República-mulher branca na cédula/moeda/selo (1889→); a Iustitia vendada nos tribunais |
-| **Série documental** | Lei do Ventre Livre 1871; Constituição 1891; Código Civil 1916 |
+| **Série documental** | Lei do Ventre Livre 1871; Lei Áurea 1888; Código Penal 1890; Constituição 1891; Código Civil 1916 |
 
 **Primeiro par disponível:** alegoria à Lei do Ventre Livre (c. 1871) × texto da
 Lei n. 2.040 (1871) — coincidência de data que permite testar a direção já no
@@ -245,24 +271,25 @@ deve reportar a **contagem de ambos**, não só a dos casos favoráveis.
 
 Por ato, honestamente:
 
-1. **Código Penal de 1890** `[TI]` — ler o Título VIII ("Dos crimes contra a
-   segurança da honra e honestidade das famílias"), em especial os tipos de
-   defloramento e a categoria "mulher honesta". Fonte: Senado Federal
-   (`legis.senado.leg.br/norma/389719/publicacao/15629240`) — o texto é longo e
-   o fetch retorna truncado; ler por seção.
-2. **Lei n. 3.353** (Lei Áurea, 13 mai. 1888) — verificar se o atributo feminino
-   comparece como razão de decisão ou se é ato sem ele (segundo caso negativo).
-3. **Lei n. 3.270** (Lei dos Sexagenários, 1885) — idem.
-4. **Constituição de 1824** — verificar o tratamento da cidadania feminina.
-5. **Varredura sistemática do universo-fonte** para o registro de ausência (§5).
-6. **Jurisprudência** — definir o corpus de decisões (STF, tribunais
-   estaduais) e o critério de amostragem.
+1. **Constituição de 1824** — verificar o tratamento da cidadania feminina
+   (fecha o par constitucional com a de 1891).
+2. **Varredura sistemática do universo-fonte** para o registro de ausência (§5) —
+   é o que dá lastro numérico ao contra-teste de precedência.
+3. **Jurisprudência** — definir o corpus de decisões (STF, tribunais estaduais)
+   e o critério de amostragem.
+4. **Lei do Ventre Livre na fonte oficial** — a leitura atual vem de antologia
+   (Bonavides & Vieira); conferir no original da *Coleção das Leis*.
+
+**Cumpridas nesta rodada:** Código Penal de 1890 (Título VIII lido — arts.
+266–270); Lei Áurea 1888; Lei dos Sexagenários 1885.
 
 ## 8. Onde este documento entra na tese
 
+- **Capítulo 3 (Contrato Racial Visual)** — a direção (iv-a), a mãe escravizada
+  como mecanismo descartável, e o desaparecimento dela entre 1871 e 1888.
 - **Capítulo 5 (Corpus)** — a descrição da série documental e seus critérios.
-- **Capítulo 3 (Contrato Racial Visual)** — a direção (iv) e a mãe escravizada.
-- **Capítulo 6 (análise quantitativa)** — o teste de precedência (§6).
+- **Capítulo 6 (análise quantitativa)** — o teste de precedência (§6) e o
+  contraste de pena do art. 268 do Código Penal.
 - **Conclusão** — a condição de falseabilidade (§5).
 
 ---
@@ -272,10 +299,27 @@ Por ato, honestamente:
 | Ato | Fonte consultada | Resultado |
 |---|---|---|
 | Lei n. 2.040/1871 | DHnet (reprodução de BONAVIDES, P.; VIEIRA, R. A. A. *Textos políticos da história do Brasil*. Fortaleza: Imprensa Universitária da UFC, p. 556-562) | texto integral lido; arts. 1º (caput e §§1º–8º) extraídos |
+| Lei n. 3.270/1885 | Senado Federal, publicação original (`legis.senado.leg.br/norma/545046/publicacao/15779572`) | texto integral obtido; contagem de termos feita sobre o texto |
+| Lei n. 3.353/1888 | Senado Federal, publicação original (`legis.senado.leg.br/norma/545155/publicacao/15723556`) | dois artigos lidos na íntegra |
 | Constituição de 1891 | Câmara dos Deputados, publicação original | arts. 69 e 70, §1º lidos |
-| Decreto n. 847/1890 | Senado Federal / LexML | registro e ementa confirmados; corpo truncado antes do Título VIII → mantido `[TI]` |
-| Planalto (diversos) | — | fetch bloqueado nesta sessão; os atos de 08/09 já estavam verificados |
+| Decreto n. 847/1890 | Senado Federal (`legis.senado.leg.br/norma/389719/publicacao/15629240`) | **Título VIII obtido na íntegra** (354 KB); arts. 266–270 extraídos literais |
+| Decreto n. 4.175/1920 | Câmara dos Deputados, publicação original | corpo lido |
+
+### Rotas de acesso (para não repetir tentativas falhas)
+
+| Fonte | Estado | Nota |
+|---|---|---|
+| **Planalto** (`planalto.gov.br`) | **bloqueado na rede** | `web_fetch` e `curl` falham; não insistir |
+| **Senado Federal** (`legis.senado.leg.br`) | **funciona** — melhor rota para textos longos | usar `curl`; o `web_fetch` trunca mas o `curl` traz o documento inteiro |
+| **Câmara dos Deputados** (`www2.camara.leg.br/legin/...`) | funciona | publicação original, boa para atos de 1889–1920 |
+| **LexML** (`lexml.gov.br/urn/...`) | funciona | melhor ponto de partida: dá ementa + ID do Senado |
+| **Wikisource** | parcial | bom para textos curtos transcritos; a Lei Áurea só existe como transcrição de scan |
+
+**Método que funcionou para o Código Penal:** `curl` baixa o documento completo
+(354 KB) e a extração de artigos é feita localmente com remoção de tags — o
+`web_fetch` trunca em ~10 KB e por isso não alcançava o Título VIII.
 
 **Nota de integridade:** a reprodução da Lei do Ventre Livre vem de antologia
 de fontes (Bonavides & Vieira), não do original digitalizado da *Coleção das
-Leis*. Para uso na tese, conferir na fonte oficial.
+Leis*. Para uso na tese, conferir na fonte oficial. Os demais atos desta tabela
+foram lidos em publicação oficial.
