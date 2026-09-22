@@ -11104,6 +11104,28 @@
     "support": "?"
   },
   {
+    "id": "dfe19295-505c-5df1-866e-e8bb695dbc5f",
+    "country": "Brazil",
+    "url": "https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica/",
+    "title": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
+    "description": "Estudo preparatório de Décio Villares para uma obra comemorativa da assinatura da Lei Áurea (13 de maio de 1888). A pintura, incorporada ao acervo do MHN em 1941, retrata alegoricamente o momento histórico da abolição da escravatura no Brasil através de figuras femininas simbólicas, numa linguagem própria do positivismo republicano. Após restauração, integra a exposição permanente 'A construção da nação (1822-1889)'.",
+    "motif": [
+      "alegoria",
+      "Lei Áurea",
+      "abolição",
+      "figura feminina",
+      "República",
+      "liberdade"
+    ],
+    "coded_by": "",
+    "coded_at": "2026-06-05T03:13:46.800136+00:00",
+    "date": "1888",
+    "citation_abnt": "VILLARES, Décio Rodrigues. Alegoria à Lei de 13 de Maio de 1888 (estudo). [188-]. Óleo sobre tela. Museu Histórico Nacional, Rio de Janeiro. Disponível em: https://mhn.museus.gov.br/estudo-de-decio-villares-volta-ao-circuito-expositivo-do-mhn/. Acesso em: 19 maio 2026.",
+    "audit_flags": [
+      "drive-import-2026-06-04"
+    ]
+  },
+  {
     "id": "e0399402-b59d-5050-9776-b67f2c69a6b2",
     "country": "Brazil",
     "url": "https://www.migalhas.com.br/quentes/379795/da-sala-dos-bustos-a-ruina-escultura-de-1975-tambem-foi-vandalizada",
