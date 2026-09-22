@@ -11,10 +11,14 @@
             "id": "6d69815ae5f47236",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "_templates/rotina-R2-coding.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "rotina-R2-coding"
             }
           },
           {
@@ -37,14 +41,16 @@
             "id": "ffb7632c741be5d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
+                "file": "_templates/Untitled Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
               },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "icon": "lucide-trello",
+              "title": "Untitled Kanban"
             }
           },
           {
@@ -63,8 +69,7 @@
               "title": "terminal:documentation"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +133,7 @@
             }
           },
           {
-            "id": "f31e27666008c29a",
+            "id": "ab9879f0c921047f",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -158,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "_templates/rotina-R2-coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -282,9 +287,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0ace4a4539e95a29",
+  "active": "6d69815ae5f47236",
   "lastOpenFiles": [
+    "_templates/Untitled Kanban.md",
+    "2026-04-25.md",
+    "Feminilidade de Estado.md",
     "conflict-files-obsidian-git.md",
+    "Tags",
     "Kanban sem título 1.md",
     "index.md",
     "ideias/brazilian-visual-economy-proposals.md",
@@ -303,7 +312,6 @@
     "media-lib",
     "entities/Sem título 1.base",
     "entities/Sem título.base",
-    "_templates/Untitled Kanban.md",
     "_templates/SCOUT-NARR.md",
     "_templates/rotina-R6-higiene.md",
     "_templates/rotina-R3-leitura.md",
@@ -315,8 +323,6 @@
     "relatorios/2026-04-21_relatorio.pdf",
     "relatorios/2026-04-21_relatorio.png",
     "tese/drafts/iconocracia-memorando-pesquisa--expandido.md",
-    "tese/drafts/iconocracia-memorando-pesquisa.md",
-    "candidatos/SCOUT-408 Visconti Lei Aurea selo 1904.md",
     "Sem título 1.base",
     "Sem título 3.base",
     "tese/roadmap-visual.canvas",
@@ -324,7 +330,6 @@
     "Sem título.canvas",
     "Sem título.base",
     "assets/obsidian-kanban/docs/Assets/Sem título.base",
-    "tese/ideias/Sem título.base",
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-16 at 12.58.22 PM.png",
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-16 at 1.10.38 PM.png",
     "assets/obsidian-kanban/docs/Assets/Screen Shot 2021-09-16 at 1.02.48 PM.png",

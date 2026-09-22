@@ -1,6 +1,6 @@
 # ICONOCRACIA — Materiais para o orientador
 
-**Versão de trabalho — Março 2026**
+**Versão de trabalho — Março 2026** · **Atualização parcial: 2026-09-22** (após a revisão geral — ver `revisoes/REVISAO-GERAL-2026-09-21.md`)
 **Autora:** Ana Vanzin — PPGD/UFSC
 
 ---
@@ -46,6 +46,8 @@ Sete seções (I.1–I.7):
 
 **Capítulo 1 revisado.**
 
+> **Nota 2026-09-22:** a consolidação de jun/2026 reverteu parte do que a lista abaixo registra como "realizado" — o mapa de recepção de Pateman (Thompson/Hayes/Newman; Scott; Nussbaum; Dietz; Richardson) e a correção do *settler contract* (PATEMAN; MILLS, 2007) foram cortados, desguarnecendo os negativos universais do texto, e a passagem Goodrich–Mondzain foi endurecida antes da verificação (restaurada à forma prudente em 2026-09-22, com [VERIFICAR]). O arquivo atual tem **seis seções (1.1–1.6)**, não quatro. Ver parecer da revisão geral, §3.2.
+
 Título: *O Contrato Sexual e a Imagem: de Pateman à Visiocracia*
 
 Quatro seções:
@@ -65,6 +67,7 @@ Quatro seções:
 - `CITACOES_FALTANTES.md` — documento de referência com todas as citações adicionadas, com dados bibliográficos completos e notas de verificação
 - `REVISAO_ICONOCRACY.md` — revisão integral da arquitetura argumentativa, consistência terminológica, e referências ABNT
 - `REVISAO_AWR.md` — tabela de alinhamento fonte-afirmação, três parágrafos revisados com alterações rastreadas, avaliação de prosa, lista de prioridades
+- `REVISAO-GERAL-2026-09-21.md` — parecer consolidado da revisão geral da tese (13 arquivos; 30 achados GRAVE; 7 padrões transversais; 19 decisões pendentes; plano de correção em ondas)
 
 ---
 

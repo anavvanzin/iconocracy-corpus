@@ -116,7 +116,7 @@ Operação formal de **extração do feminino histórico** para fixá-lo no **et
 ### Endurecimento
 🔹 **Autoral / ⚙️ Operacional** · *Cap. 6–7*
 
-**Operacionalização empírica** da Purificação Clássica em **10 indicadores ordinais (0–3)**. Sempre em português — **nunca** "hardening" nem "embrutecimento". Mede o grau em que uma alegoria foi depurada do feminino vivo e fixada como emblema estatal. → ver §2.
+**Operacionalização empírica** da Purificação Clássica em **10 indicadores ordinais (0–3)**. Sempre em português — **nunca** "hardening" nem "embrutecimento". Mede o grau em que uma alegoria foi depurada do feminino vivo e fixada como emblema estatal. → ver §2. <!-- termos-ok: esta linha enuncia a regra terminológica -->
 
 ### Regime Iconocrático
 🔹 **Autoral** · *Cap. 2*
@@ -139,7 +139,7 @@ A imagem que não apenas representa mas **institui** o sujeito jurídico — a f
 Governo **pela imagem**: regime de poder em que a autoridade se exerce pela produção e gestão de ícones. A tese desloca o termo de Mondzain para o campo **jurídico-penal**.
 
 ### Visiocracia
-🔸 **Mobilizado** (Goodrich, 2014) · *Cap. 1*
+🔸 **Mobilizado** (Goodrich, 2013) · *Cap. 1* <!-- corrigido 2026-09-22: o verbete dizia 2014, divergindo da tabela terminológica, da referência @goodrich2013a e do Cap. 1; [VERIFICAR dados exatos da publicação na fonte] -->
 
 Poder exercido pelo **visual** na cultura jurídica; a dimensão estética do direito. Interlocução com a estética jurídica de Peter Goodrich.
 

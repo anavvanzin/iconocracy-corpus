@@ -16,7 +16,18 @@ from pathlib import Path
 # Absolute Paths
 RESEARCH_ROOT = Path("/Users/ana/Research")
 CORPUS_REPO = Path("/Users/ana/Research/hub/iconocracy-corpus")
-SSD_MIRROR_DIR = Path("/Volumes/ICONOCRACIA/git-mirrors")
+def resolve_ssd_mirror_dir():
+    """Backup mirror root: $ICONOCRACIA_MIRROR_ROOT > any mounted volume with git-mirrors > None."""
+    env_root = os.environ.get("ICONOCRACIA_MIRROR_ROOT")
+    if env_root:
+        return Path(env_root)
+    for candidate in sorted(Path("/Volumes").glob("*/git-mirrors")):
+        if candidate.is_dir():
+            return candidate
+    return None
+
+
+SSD_MIRROR_DIR = resolve_ssd_mirror_dir()
 CACHE_PATH = Path("/Users/ana/.hermes/cron-cache/iconocracy-jobs.yaml")
 
 def get_git_status(repo_path: Path) -> dict:
@@ -128,7 +139,7 @@ def main():
         result["corpus_repo"] = get_git_status(CORPUS_REPO)
 
         # 2. Audit SSD Mirror Presence
-        ssd_mounted = SSD_MIRROR_DIR.exists()
+        ssd_mounted = bool(SSD_MIRROR_DIR and SSD_MIRROR_DIR.exists())
         result["ssd_mounted"] = ssd_mounted
 
         # 3. Formulate Warnings & Detect "Changed" State (to decide on [SILENT])
@@ -144,7 +155,7 @@ def main():
         if not ssd_mounted:
             # We don't always spam the user with SSD warnings unless they are dirty
             if is_dirty:
-                result["warnings"].append("SSD Backup drive /Volumes/ICONOCRACIA/ is not mounted. Sync deferred.")
+                result["warnings"].append("No mounted SSD with git-mirrors found. Sync deferred.")
 
         # 4. Check Cache to determine if result "changed"
         cache = load_cache()

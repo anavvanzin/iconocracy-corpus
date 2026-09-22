@@ -87,10 +87,11 @@ preflight() {
 
     # SSD check (for download command)
     if [[ "$COMMAND" == "download" || "$COMMAND" == "full" ]]; then
-        if [[ -d /Volumes/ICONOCRACIA/corpus/imagens ]]; then
-            log "OK: SSD mounted"
+        ssd_imagens="${ICONOCRACIA_SSD_ROOT:-$(ls -d /Volumes/*/corpus/imagens 2>/dev/null | head -1)}"
+        if [[ -n "$ssd_imagens" && -d "$ssd_imagens" ]]; then
+            log "OK: SSD mounted ($ssd_imagens)"
         else
-            log "WARN: SSD not mounted — images will go to vault/assets/"
+            log "WARN: no mounted SSD with corpus/imagens — images will use repo staging"
         fi
     fi
 
