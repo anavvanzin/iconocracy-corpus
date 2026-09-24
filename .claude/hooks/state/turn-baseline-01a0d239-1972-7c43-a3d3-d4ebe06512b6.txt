@@ -1,0 +1,6 @@
+--
+AutoResearchClaw
+corpus/DASHBOARD_CORPUS.html
+vault/projeto/Construindo Fundamentos Te\303\263ricos e Justificativas  - Report.pages
+tese/manuscrito/scaffolds/2026-09-22-cap6-sec64.md
+tese/manuscrito/scaffolds/2026-09-24-cap6.md
