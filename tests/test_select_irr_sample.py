@@ -9,12 +9,13 @@ from tools.scripts.select_irr_sample import load_records, select_stratified
 def test_select_stratified_sample():
     # Setup dummy records with different supports and regimes
     dummy_records = [
-        {"item_id": f"ITEM-{i}", "suporte": s, "regime": r}
+        {"item_id": f"ITEM-{i}", "suporte": s, "regime": r,
+         "support_source": "test fixture"}
         for i, (s, r) in enumerate([
             ("moeda", "FUNDACIONAL"), ("selo", "FUNDACIONAL"), ("monumento", "FUNDACIONAL"),
             ("moeda", "NORMATIVO"), ("selo", "NORMATIVO"), ("monumento", "NORMATIVO"),
             ("moeda", "MILITAR"), ("selo", "MILITAR"), ("monumento", "MILITAR"),
-            ("arquitetura forense", "FUNDACIONAL"), ("arquitetura forense", "NORMATIVO"), ("arquitetura forense", "MILITAR")
+            ("cartaz", "FUNDACIONAL"), ("cartaz", "NORMATIVO"), ("cartaz", "MILITAR")
         ] * 4) # 48 total items
     ]
 

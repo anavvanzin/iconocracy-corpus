@@ -4,6 +4,11 @@ import random
 from collections import defaultdict
 from pathlib import Path
 
+try:
+    from tools.scripts.support_harmonization import harmonize_candidates
+except ModuleNotFoundError:  # direct: python tools/scripts/select_irr_sample.py
+    from support_harmonization import harmonize_candidates
+
 # Paths
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 RECORDS_PATH = REPO_ROOT / "data" / "processed" / "records.jsonl"
@@ -46,8 +51,8 @@ def load_records(path=None):
                 item_id = r.get("item_id", "")
                 corpus_id = item_to_corpus.get(item_id, "")
 
-                # Default values
-                support = "monumento"
+                # Missing support is deliberately rejected by the pre-selection gate.
+                support = None
                 regime = "NORMATIVO"
 
                 # Check purificacao block for regime first
@@ -66,21 +71,38 @@ def load_records(path=None):
                     if not regime_iconocratico and "regime" in c_item and c_item["regime"]:
                         regime = c_item["regime"].upper()
 
-                r["metadata"] = {
-                    "suporte": support,
-                    "regime": regime
-                }
+                r["metadata"] = {"suporte": support, "regime": regime}
+                r["support"] = support
+                r["support_source"] = "corpus/corpus-data.json"
                 records.append(r)
-    return records
+    harmonized = harmonize_candidates(records)
+    for record in harmonized:
+        record["metadata"].update({
+            "suporte": record["support_stratum"],
+            "support_raw": record["support_raw"],
+            "support_family": record["support_family"],
+        })
+    return harmonized
 
 def select_stratified(records, n=30):
+    if any("support_stratum" not in record for record in records):
+        candidates = []
+        for record in records:
+            raw = record.get("metadata", {}).get("suporte") or record.get("suporte")
+            candidates.append({
+                **record,
+                "support": raw,
+                "support_source": record.get("support_source", ""),
+            })
+        records = harmonize_candidates(candidates)
+
     # Use local RNG for reproducibility
     local_random = random.Random(42)
 
     groups = defaultdict(list)
     for r in records:
         # Fallbacks to handle schema inconsistencies safely
-        suporte = r.get("metadata", {}).get("suporte") or r.get("suporte", "monumento")
+        suporte = r["support_stratum"]
         regime = r.get("metadata", {}).get("regime") or r.get("regime", "NORMATIVO")
         groups[(suporte, regime)].append(r)
 
@@ -110,11 +132,14 @@ if __name__ == "__main__":
     sample = select_stratified(records, 30)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         for record in sample:
-            suporte = record.get("metadata", {}).get("suporte") or record.get("suporte", "monumento")
+            suporte = record["support_stratum"]
             regime = record.get("metadata", {}).get("regime") or record.get("regime", "NORMATIVO")
             simplified = {
                 "item_id": record["item_id"],
                 "suporte": suporte,
+                "support_raw": record["support_raw"],
+                "support_family": record["support_family"],
+                "support_harmonization_version": record["support_harmonization_version"],
                 "regime": regime
             }
             f.write(json.dumps(simplified, ensure_ascii=False) + "\n")
