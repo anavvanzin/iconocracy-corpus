@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-24T12:06:22Z",
+  "repo": "iconocracy-corpus",
+  "commands": {
+    "test": "npm test",
+    "typecheck": "npm run typecheck",
+    "lint": "npm run lint"
+  },
+  "clank_detected": false,
+  "ecosystem_baseline": false,
+  "categories": {
+    "configuration": {
+      "pass": 1,
+      "fail": 3,
+      "warn": 1,
+      "skipped": 0,
+      "checks": [
+        {"id": "config.claude-md-exists", "status": "warn", "detail": "CLAUDE.md exists but has 289 lines; baseline expects 50-100"},
+        {"id": "config.path-scoped-rules", "status": "fail", "detail": ".claude/rules/ is absent"},
+        {"id": "config.claude-settings", "status": "pass", "detail": ".claude/settings.json exists"},
+        {"id": "config.mcp-json", "status": "fail", "detail": "Repo-local .mcp.json is absent"},
+        {"id": "config.gitignore", "status": "fail", "detail": ".env, node_modules, build and dist are ignored, but .env.local is not"}
+      ]
+    },
+    "code_quality": {
+      "pass": 1,
+      "fail": 2,
+      "warn": 0,
+      "skipped": 3,
+      "checks": [
+        {"id": "quality.eslint-flat-config", "status": "skipped", "detail": "No root TypeScript package"},
+        {"id": "quality.prettier-config", "status": "skipped", "detail": "No root Node package"},
+        {"id": "quality.typescript-strict", "status": "skipped", "detail": "No root tsconfig.json"},
+        {"id": "quality.typecheck", "status": "fail", "detail": "npm run typecheck exits 254 because root package.json is absent"},
+        {"id": "quality.console-log", "status": "pass", "detail": "No console.log matches in production TypeScript outside tests/worktrees"},
+        {"id": "quality.lint", "status": "fail", "detail": "npm run lint is invalid at root; Ruff is configured but not installed in the iconocracy environment"}
+      ]
+    },
+    "git_hygiene": {
+      "pass": 0,
+      "fail": 3,
+      "warn": 1,
+      "skipped": 0,
+      "checks": [
+        {"id": "git.husky-lint-staged", "status": "fail", "detail": "Husky and lint-staged are absent"},
+        {"id": "git.commitlint", "status": "fail", "detail": "commitlint is absent"},
+        {"id": "git.gitleaks", "status": "fail", "detail": "No Gitleaks pre-commit or local config detected"},
+        {"id": "git.history-secret-heuristic", "status": "warn", "detail": "Broad history heuristic matched terminology such as token/secret; no high-signal current token was found"}
+      ]
+    },
+    "ci_cd": {
+      "pass": 4,
+      "fail": 0,
+      "warn": 0,
+      "skipped": 1,
+      "checks": [
+        {"id": "ci.config-exists", "status": "pass", "detail": "Nine GitHub workflow files exist"},
+        {"id": "ci.stages", "status": "pass", "detail": "Validation, security, tests and deployment are represented across workflows"},
+        {"id": "ci.typecheck", "status": "skipped", "detail": "No root TypeScript application or typecheck command"},
+        {"id": "ci.tests", "status": "pass", "detail": "validate.yml runs python -m pytest tests/"},
+        {"id": "ci.dependency-audit", "status": "pass", "detail": "Dependency Review and CodeQL workflows exist"}
+      ]
+    },
+    "testing": {
+      "pass": 0,
+      "fail": 1,
+      "warn": 1,
+      "skipped": 3,
+      "checks": [
+        {"id": "test.vitest", "status": "skipped", "detail": "Vitest is not the core test runner"},
+        {"id": "test.coverage", "status": "warn", "detail": "No pytest coverage configuration detected"},
+        {"id": "test.e2e", "status": "skipped", "detail": "No root Next.js or Nuxt frontend"},
+        {"id": "test.package-script", "status": "skipped", "detail": "No root package.json"},
+        {"id": "test.resolved-command", "status": "fail", "detail": "Resolved npm test command is invalid; supplemental canonical run passed 429 tests with 2 xfailed"}
+      ]
+    },
+    "security": {
+      "pass": 3,
+      "fail": 1,
+      "warn": 3,
+      "skipped": 2,
+      "checks": [
+        {"id": "security.auth-boundary", "status": "skipped", "detail": "No root TypeScript src/ boundary"},
+        {"id": "security.zod-inputs", "status": "skipped", "detail": "No root TypeScript src/ boundary"},
+        {"id": "security.hardcoded-secrets", "status": "pass", "detail": "No current heuristic matches in TypeScript files"},
+        {"id": "security.settings-tokens", "status": "pass", "detail": "No high-signal PAT or key in .claude/settings*.json"},
+        {"id": "security.env-tracked", "status": "pass", "detail": "No tracked .env files"},
+        {"id": "security.env-example", "status": "fail", "detail": "Root .env.example is absent and .env.local is not ignored"},
+        {"id": "security.rls-review", "status": "warn", "detail": "RLS is enabled, but public.rls_auto_enable() is executable by PUBLIC, anon and authenticated"},
+        {"id": "security.rate-limit-review", "status": "warn", "detail": "Manual review recommended; not established by this audit"},
+        {"id": "security.cors-review", "status": "warn", "detail": "Manual review recommended; not established by this audit"}
+      ]
+    },
+    "documentation": {
+      "pass": 2,
+      "fail": 1,
+      "warn": 0,
+      "skipped": 0,
+      "checks": [
+        {"id": "docs.readme", "status": "pass", "detail": "README.md exists"},
+        {"id": "docs.env-example", "status": "fail", "detail": "Root .env.example is absent"},
+        {"id": "docs.architecture", "status": "pass", "detail": "CLAUDE.md documents architecture and repository structure"}
+      ]
+    },
+    "clank_integration": {
+      "pass": 0,
+      "fail": 0,
+      "warn": 0,
+      "skipped": 4,
+      "checks": [
+        {"id": "clank.health", "status": "skipped", "detail": "Clank not detected; ecosystem baseline not set"},
+        {"id": "clank.webhook", "status": "skipped", "detail": "Clank not detected; ecosystem baseline not set"},
+        {"id": "clank.sentry", "status": "skipped", "detail": "Clank not detected; ecosystem baseline not set"},
+        {"id": "clank.conventional-commits", "status": "skipped", "detail": "Clank not detected; ecosystem baseline not set"}
+      ]
+    },
+    "mcp_configuration": {
+      "pass": 0,
+      "fail": 1,
+      "warn": 0,
+      "skipped": 3,
+      "checks": [
+        {"id": "mcp.file-exists", "status": "fail", "detail": "Repo-local .mcp.json is absent"},
+        {"id": "mcp.servers-match", "status": "skipped", "detail": "No repo-local servers to assess"},
+        {"id": "mcp.no-stale-entries", "status": "skipped", "detail": "No repo-local servers to assess"},
+        {"id": "mcp.server-health-probe", "status": "skipped", "detail": "mcporter not installed — enable with npm install -g mcporter", "remediation": "npm install -g mcporter"}
+      ]
+    }
+  },
+  "summary": {
+    "total_pass": 11,
+    "total_fail": 12,
+    "total_warn": 6,
+    "total_skipped": 16,
+    "overall": "fail"
+  }
+}

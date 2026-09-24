@@ -85,6 +85,20 @@ O "muito material e nada de tese" = **quatro conjuntos maduros que não se citam
 3. **Constituir a série documental.** Levantar os atos em que o atributo comparece como **razão de decisão** (norma, parecer, sentença, exposição de motivos). É a prioridade empírica, acima de qualquer melhoria do índice.
 4. **Reparos pendentes** (PARTE E §reparos): redefinir "soberania afetiva" contra os usos existentes; rebaixar o Decreto n. 4/1889 de marco inaugural da República-mulher a marco da juridificação do léxico visual (e verificar o corpo na *Coleção das Leis*); decidir Olivecrona ao lado/no lugar de Butler na passagem da feminilidade de Estado "sem referente real"; conferir paginação de Carvalho.
 5. **Declarar o escopo em uma página e não revisitar.** França e Brasil, **1850–1929** (52% dos itens; 171 dos 294 datados). A comparação de 15–17 países sai (seis países têm ≤3 itens).
+
+   > **ESCOPO REVOGADO — 2026-09-22.** O recorte vigente é **Brasil, 1822–1922**
+   > (decisão `决策-recorte-1822-1922-corpus-exemplo`, reafirmada em 2026-09-22).
+   > A França passa a **comparanda declarada**, não termo do recorte. Este item 5
+   > não deve ser seguido. Ver `docs/REENQUADRAMENTO-tese-1822-1922-2026-09-22.md`
+   > §5 e a série documental em
+   > `hub/iconocracy-corpus/docs/SERIE-DOCUMENTAL-BRASIL-1822-1922.md`.
+   > <!-- drift-pin: 2026-09-22 escopo real=Brasil 1822–1922; 1850–1929 era o
+   > estado de 08/09, superseded pelo reenquadramento de 21–22/09. -->
+   >
+   > Consequência registrada: os atos de **1932** (Decreto n. 21.417-A e
+   > Decreto n. 21.076), que o levantamento de 08/09 tratava como "coração
+   > empírico brasileiro", caem **fora** do recorte e passam a epílogo
+   > comparativo.
 6. **Infraestrutura do corpus, fora do caminho crítico** (só se quiser afirmar endurecimento intrarregime): congelar o codebook (cinco versões simultâneas), aplicar/revogar a regra de exclusão (27 `fora-do-escopo`, 18 `#verificar`), criar `coding_status`, e codificação humana cruzada e cega (cada codificador atravessa todos os regimes).
 
 **Entregáveis de cada sessão**: (a) texto (proposição no capítulo teórico; células da série documental com fonte e estado `[TI]/[RD]/[RL]`); (b) lista de atribuições a obras não lidas (marcadas); (c) próximos passos.
