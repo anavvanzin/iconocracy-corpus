@@ -13,7 +13,7 @@ The overlay source is resolved once and never drifts (review 2026-09-22, E1):
 The chosen source is printed and recorded in the report.
 
 Deterministic, offline, stdlib-only. Does NOT touch corpus-data.json, the site
-copy at /Users/ana/Research/imagens/site/data/corpus-data-enriched.json, or
+copy at /Users/ana/Research/iconocracia/site/data/corpus-data-enriched.json, or
 anything outside this repo.
 
 Usage:
@@ -36,9 +36,23 @@ ENRICHED_PATH = REPO_ROOT / "corpus" / "corpus-data-enriched.json"
 # Fixed overlay source (E1): committed snapshot, written once at bootstrap.
 LEGACY_PATH = REPO_ROOT / "corpus" / "corpus-data-enriched.legacy.json"
 REPORT_PATH = REPO_ROOT / "corpus" / "enrichment-report.md"
-SCHEMA_PATH = Path("/Users/ana/Research/imagens/schemas/corpus-data-enriched.schema.json")
+# Schema do site público (repo iconocracia, ex-imagens). O caminho antigo
+# (/Users/ana/Research/imagens) foi renomeado; mantido como fallback.
+for _cand in (
+    Path("/Users/ana/Research/iconocracia/schemas/corpus-data-enriched.schema.json"),
+    Path("/Users/ana/Research/imagens/schemas/corpus-data-enriched.schema.json"),
+):
+    if _cand.exists():
+        SCHEMA_PATH = _cand
+        break
+else:
+    SCHEMA_PATH = _cand
 RECORDS_PATH = REPO_ROOT / "data" / "processed" / "records.jsonl"
 CROSSWALK_PATH = REPO_ROOT / "data" / "processed" / "id_crosswalk.jsonl"
+
+# Parêntese mecânico "(endurecimento N.N)" herdado de codificações antigas;
+# removido na emissão (escore aposentado — iconocracia#55).
+PAREN_SCORE = re.compile(r"\s*\(endurecimento\s+\d+(?:\.\d+)?\)")
 
 # v2.3.0 purificacao fields propagated from records.jsonl into the enriched
 # record (top level). Only emitted when the master record actually has them.
@@ -433,11 +447,12 @@ def build_record(item, old_by_id, stats, master=None):
 
     # ── assemble (old enriched field order first, extras after) ─────────────
     iconographic_metadata = {"visual_regime": regime_lower}
-    if item.get("endurecimento_score") is not None:
-        iconographic_metadata["endurecimento_score"] = item["endurecimento_score"]
+    # O escore composto de endurecimento foi aposentado da metodologia
+    # (inventário verbal de atributos é a codificação vigente) e não é mais
+    # emitido no enriched — ver iconocracia#55 e strip_endurecimento.py.
     # Panofsky 3 níveis + attributes/iconclass mapped from the master record
     # into the schema's canonical vocabulary (regenerate validates against
-    # imagens/schemas/corpus-data-enriched.schema.json).
+    # iconocracia/schemas/corpus-data-enriched.schema.json).
     if master:
         ico = master.get("iconocode") or {}
         pur_m = master.get("purificacao") or {}
@@ -447,7 +462,13 @@ def build_record(item, old_by_id, stats, master=None):
         if ico.get("codes"):
             panofsky["codes"] = ico["codes"]
         if ico.get("interpretation"):
-            panofsky["interpretation"] = ico["interpretation"]
+            # Parênteses mecânicos "(endurecimento N.N)" eram emitidos por
+            # rodadas antigas de codificação; aposentados com o escore, são
+            # removidos na saída (o ledger permanece intocado como histórico).
+            panofsky["interpretation"] = [
+                {**interp, "claim_text": PAREN_SCORE.sub("", interp.get("claim_text", ""))}
+                for interp in ico["interpretation"]
+            ]
         if ico.get("confidence") is not None:
             panofsky["confidence"] = ico["confidence"]
         if panofsky:
@@ -497,8 +518,6 @@ def build_record(item, old_by_id, stats, master=None):
         "coded_by": item.get("coded_by"),
         "coded_at": item.get("coded_at"),
         "audit_flags": item.get("audit_flags"),
-        "endurecimento_score": item.get("endurecimento_score"),
-        "indicadores": item.get("indicadores"),
         "iconographic_metadata": iconographic_metadata,
     }
     # v2.3.0 purificacao fields (atributos, gênero, família alegórica, agência
@@ -693,7 +712,7 @@ def write_report(records, stats, today):
         "",
         "## Follow-up",
         "",
-        "- **Não sincronizado**: `/Users/ana/Research/imagens/site/data/corpus-data-enriched.json` "
+        "- **Não sincronizado**: `/Users/ana/Research/iconocracia/site/data/corpus-data-enriched.json` "
         "(cópia do site) — atualizar em passo separado, fora deste repositório.",
         f"- Decidir o destino dos {orphan_count} órfãos "
         "(reimportar ao ledger ou aposentar).",
