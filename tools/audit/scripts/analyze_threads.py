@@ -22,13 +22,13 @@ Outputs:
     thread-graph.svg               (network visualization)
 """
 
-import json, sys, os
+import json, sys, os, re
 from pathlib import Path
 from collections import defaultdict, Counter
 # Composto aposentado no codebook v2.2.1 (DEC-2026-07-28): ordenação e
 # comparação passam a usar o inventário de atributos, não o escore agregado.
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
-from tools.scripts.lpai_indicators import attribute_count, attribute_inventory  # noqa: E402
+from tools.scripts.lpai_indicators import attribute_count, attribute_inventory, is_uncoded  # noqa: E402
 
 
 # ============================================================================
@@ -92,6 +92,24 @@ def load_panels(paths):
                 print(f"⚠ Failed to load {p}: {e}")
     return panels
 
+def entry_year(entry):
+    """Ano do item para as regras temporais.
+
+    O corpus vigente não tem campo `year` — só `date`, em formatos variados
+    ('1943', '1931-XX-XX', 'ca. 1794', '1835-1841', '1926/1934'). Sem este
+    fallback, todas as regras temporais de classify_relation degeneram
+    (ano None → 0 → co-presence em todo par do mesmo regime/país).
+    """
+    year = entry.get('year')
+    if isinstance(year, (int, float)) and not isinstance(year, bool):
+        return int(year)
+    date = entry.get('date')
+    if date:
+        m = re.search(r'(\d{4})', str(date))
+        if m:
+            return int(m.group(1))
+    return None
+
 def make_demo_panels(corpus_by_id):
     """Generate synthetic panel data illustrating likely thread patterns."""
     # Pick representative items for each panel
@@ -102,7 +120,7 @@ def make_demo_panels(corpus_by_id):
     # Panel 1 — Gênese — French Revolutionary fundacional
     p1_items = pick(lambda e: (e.get('country') == 'France' and 
                                 e.get('regime') == 'fundacional' and 
-                                (e.get('year') or 0) <= 1830), n=5)
+                                (entry_year(e) or 0) <= 1830), n=5)
     panels.append({
         'panelId': 1, 'panelName': 'Gênese',
         'placements': [{'uid': f'p-1-{i}', 'id': eid, 'x':100+i*200, 'y':200} 
@@ -180,11 +198,15 @@ def expand_threads(panels, corpus_by_id):
                 'a_id': a_id, 'b_id': b_id,
                 'a_title': a_entry.get('title', '(?)'),
                 'b_title': b_entry.get('title', '(?)'),
-                'a_year': a_entry.get('year'), 'b_year': b_entry.get('year'),
+                'a_year': entry_year(a_entry), 'b_year': entry_year(b_entry),
                 'a_country': a_entry.get('country', ''), 'b_country': b_entry.get('country', ''),
                 'a_regime': a_entry.get('regime', ''), 'b_regime': b_entry.get('regime', ''),
                 'a_attrs': attribute_count(a_entry),
                 'b_attrs': attribute_count(b_entry),
+                # Cobertura de codificação (não confundir com intensidade):
+                # substitui o antigo guard contra `*_score` nulo/ausente.
+                'a_uncoded': is_uncoded(a_entry),
+                'b_uncoded': is_uncoded(b_entry),
                 'a_motifs': a_entry.get('motif', []) or [],
                 'b_motifs': b_entry.get('motif', []) or [],
                 'a_pathos': get_pathos(a_entry),
@@ -208,7 +230,12 @@ def classify_relation(thread):
     a_country, b_country = thread['a_country'], thread['b_country']
     a_motifs = set(m.lower() for m in thread['a_motifs'])
     b_motifs = set(m.lower() for m in thread['b_motifs'])
-    a_score, b_score = thread['a_score'] or 0, thread['b_score'] or 0
+    # Composto aposentado (codebook v2.2.1, DEC-2026-07-28; removido do corpus
+    # em 2026-09-24): o que aqui se chamava "score" era a média dos 10
+    # indicadores ordinais (0–3). O equivalente vigente é a cardinalidade do
+    # inventário de atributos (0–10), já emitida por expand_threads: ordena e
+    # compara sem afirmar intensidade.
+    a_attrs, b_attrs = thread['a_attrs'], thread['b_attrs']
     a_year, b_year = thread['a_year'] or 0, thread['b_year'] or 0
     a_pathos, b_pathos = thread['a_pathos'], thread['b_pathos']
     
@@ -230,8 +257,12 @@ def classify_relation(thread):
         if a_regime == 'normativo' and b_regime == 'militar':
             types.append(('martialization', 0.7))
     
-    # Increasing endurecimento score over time = endurecimento (typed as serialization+genealogy)
-    if a_year < b_year and b_score > a_score + 0.3:
+    # Acúmulo de atributos ao longo do tempo = endurecimento (typed as serialization+genealogy).
+    # O limiar antigo (Δ > 0.3 na média 0–3 dos indicadores) equivalia a ~1
+    # atributo marcado a mais; na cardinalidade do inventário, exige-se ao
+    # menos 1 atributo adicional — mesma regra ordinal do analyze_threads_v2
+    # ('genealogia_ascendente': b_attrs > a_attrs).
+    if a_year < b_year and b_attrs > a_attrs:
         types.append(('genealogy', 0.7))
     
     # contra-alegoria endpoint = satirization
@@ -298,11 +329,13 @@ def analyze(threads):
             if r:
                 regime_relation[r][t['primary_relation']] += 1
     
-    # Average score delta per relation
-    score_deltas = defaultdict(list)
+    # Delta médio de atributos por relação (apenas pares com os dois lados
+    # codificados — o guard antigo contra score nulo vira guard contra item
+    # sem codificação de indicadores)
+    attr_deltas = defaultdict(list)
     for t in threads:
-        if t['a_score'] and t['b_score']:
-            score_deltas[t['primary_relation']].append(abs(t['b_score'] - t['a_score']))
+        if not t['a_uncoded'] and not t['b_uncoded']:
+            attr_deltas[t['primary_relation']].append(abs(t['b_attrs'] - t['a_attrs']))
     
     return {
         'total_threads': len(threads),
@@ -312,7 +345,7 @@ def analyze(threads):
         'country_pairs': {f'{a}↔{b}': n for (a,b), n in country_pairs.most_common(10)},
         'shared_motifs': dict(motif_pairs.most_common(15)),
         'regime_relation_matrix': {r: dict(c) for r, c in regime_relation.items()},
-        'avg_score_delta': {r: round(sum(v)/len(v), 2) for r, v in score_deltas.items() if v},
+        'avg_attr_delta': {r: round(sum(v)/len(v), 2) for r, v in attr_deltas.items() if v},
         'threads': threads,
     }
 
@@ -382,12 +415,12 @@ def build_report(analysis, panels):
         md.append(f"| {m} | {n} |")
     md.append("")
     
-    if a['avg_score_delta']:
-        md.append("## 6. Delta médio de score por relação\n")
-        md.append("Quanto o score de endurecimento varia entre os dois extremos do fio:\n")
+    if a['avg_attr_delta']:
+        md.append("## 6. Delta médio de atributos por relação\n")
+        md.append("Quantos atributos do inventário (0–10) separam, em média, os dois extremos do fio:\n")
         md.append("| Relação | Δ médio |")
         md.append("|---|---:|")
-        for r, d in sorted(a['avg_score_delta'].items(), key=lambda x: -x[1]):
+        for r, d in sorted(a['avg_attr_delta'].items(), key=lambda x: -x[1]):
             md.append(f"| {r} | {d:.2f} |")
         md.append("")
     
