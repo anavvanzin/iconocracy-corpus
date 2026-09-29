@@ -21,7 +21,7 @@ BEGIN = "// == DATA:BEGIN =="
 END = "// == DATA:END =="
 KEEP_FIELDS = [
     'id', 'title', 'date', 'year', 'country_pt', 'country', 'medium_norm',
-    'support', 'period_norm', 'regime', 'endurecimento_score', 'indicadores',
+    'support', 'period_norm', 'regime', 'indicadores',
     'motif', 'motif_str', 'tags', 'tags_str', 'description', 'url',
     'thumbnail_url', 'source_archive', 'creator', 'institution',
     'coded_by', 'coded_at', 'in_scope', 'citation_abnt'
