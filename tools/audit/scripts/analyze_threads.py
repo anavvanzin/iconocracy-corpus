@@ -25,10 +25,10 @@ Outputs:
 import json, sys, os, re
 from pathlib import Path
 from collections import defaultdict, Counter
-# Composto aposentado no codebook v2.2.1 (DEC-2026-07-28): ordenação e
-# comparação passam a usar o inventário de atributos, não o escore agregado.
+# DEC-2026-09-24: no cardinality, scalar surrogate, or inferred genealogy.
+# Comparisons retain named observations; missing observations remain missing.
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
-from tools.scripts.lpai_indicators import attribute_count, attribute_inventory, is_uncoded  # noqa: E402
+from tools.scripts.lpai_indicators import indicator_values  # noqa: E402
 
 
 # ============================================================================
@@ -133,11 +133,8 @@ def make_demo_panels(corpus_by_id):
     # Panel 4 — ENDURECIMENTO — inventário comparado de atributos
     # (composto aposentado no codebook v2.2.1: ordena-se por quantidade de
     # atributos marcados, que não afirma intensidade, só cardinalidade)
-    sorted_by_attrs = sorted(
-        [(eid, e) for eid, e in corpus_by_id.items() if attribute_count(e) > 0],
-        key=lambda x: attribute_count(x[1])
-    )
-    p4_items = [eid for eid, _ in sorted_by_attrs[:3]] + [eid for eid, _ in sorted_by_attrs[-4:]]
+    # Demo cases are deterministic and never ranked by ordinal aggregation.
+    p4_items = list(corpus_by_id)[:7]
     panels.append({
         'panelId': 4, 'panelName': 'ENDURECIMENTO',
         'placements': [{'uid': f'p-4-{i}', 'id': eid, 'x':100+i*200, 'y':200} 
@@ -201,12 +198,8 @@ def expand_threads(panels, corpus_by_id):
                 'a_year': entry_year(a_entry), 'b_year': entry_year(b_entry),
                 'a_country': a_entry.get('country', ''), 'b_country': b_entry.get('country', ''),
                 'a_regime': a_entry.get('regime', ''), 'b_regime': b_entry.get('regime', ''),
-                'a_attrs': attribute_count(a_entry),
-                'b_attrs': attribute_count(b_entry),
-                # Cobertura de codificação (não confundir com intensidade):
-                # substitui o antigo guard contra `*_score` nulo/ausente.
-                'a_uncoded': is_uncoded(a_entry),
-                'b_uncoded': is_uncoded(b_entry),
+                'a_indicators': indicator_values(a_entry),
+                'b_indicators': indicator_values(b_entry),
                 'a_motifs': a_entry.get('motif', []) or [],
                 'b_motifs': b_entry.get('motif', []) or [],
                 'a_pathos': get_pathos(a_entry),
@@ -230,20 +223,15 @@ def classify_relation(thread):
     a_country, b_country = thread['a_country'], thread['b_country']
     a_motifs = set(m.lower() for m in thread['a_motifs'])
     b_motifs = set(m.lower() for m in thread['b_motifs'])
-    # Composto aposentado (codebook v2.2.1, DEC-2026-07-28; removido do corpus
-    # em 2026-09-24): o que aqui se chamava "score" era a média dos 10
-    # indicadores ordinais (0–3). O equivalente vigente é a cardinalidade do
-    # inventário de atributos (0–10), já emitida por expand_threads: ordena e
-    # compara sem afirmar intensidade.
-    a_attrs, b_attrs = thread['a_attrs'], thread['b_attrs']
-    a_year, b_year = thread['a_year'] or 0, thread['b_year'] or 0
+    a_year, b_year = thread['a_year'], thread['b_year']
+    has_dates = a_year is not None and b_year is not None
     a_pathos, b_pathos = thread['a_pathos'], thread['b_pathos']
     
     # Same regime + same country = serialization or co-presence
     if a_regime == b_regime and a_country == b_country:
-        if abs((a_year - b_year)) < 5:
+        if has_dates and abs(a_year - b_year) < 5:
             types.append(('co-presence', 0.8))
-        else:
+        elif has_dates:
             types.append(('serialization', 0.6))
     
     # Different country, same motif, same regime = translatio
@@ -251,20 +239,15 @@ def classify_relation(thread):
         types.append(('translatio', 0.85))
     
     # Same country, fundacional → militar = martialization
-    if a_country == b_country and a_year < b_year:
+    if has_dates and a_country == b_country and a_year < b_year:
         if a_regime == 'fundacional' and b_regime == 'militar':
             types.append(('martialization', 0.9))
         if a_regime == 'normativo' and b_regime == 'militar':
             types.append(('martialization', 0.7))
     
-    # Acúmulo de atributos ao longo do tempo = endurecimento (typed as serialization+genealogy).
-    # O limiar antigo (Δ > 0.3 na média 0–3 dos indicadores) equivalia a ~1
-    # atributo marcado a mais; na cardinalidade do inventário, exige-se ao
-    # menos 1 atributo adicional — mesma regra ordinal do analyze_threads_v2
-    # ('genealogia_ascendente': b_attrs > a_attrs).
-    if a_year < b_year and b_attrs > a_attrs:
-        types.append(('genealogy', 0.7))
-    
+    # Genealogy requires historical evidence; chronology and attribute counts
+    # cannot establish descent. No automatic genealogy inference is made.
+
     # contra-alegoria endpoint = satirization
     if a_regime == 'contra-alegoria' or b_regime == 'contra-alegoria':
         types.append(('satirization', 0.85))
@@ -278,7 +261,7 @@ def classify_relation(thread):
             types.append(('nachleben', 0.9))
     
     # Far apart in time, same motif = nachleben
-    if abs(a_year - b_year) > 100 and (a_motifs & b_motifs):
+    if has_dates and abs(a_year - b_year) > 100 and (a_motifs & b_motifs):
         types.append(('nachleben', 0.7))
     
     if not types:
@@ -329,14 +312,11 @@ def analyze(threads):
             if r:
                 regime_relation[r][t['primary_relation']] += 1
     
-    # Delta médio de atributos por relação (apenas pares com os dois lados
-    # codificados — o guard antigo contra score nulo vira guard contra item
-    # sem codificação de indicadores)
-    attr_deltas = defaultdict(list)
+    # Preserve named transitions only; never reduce dimensions to a scalar.
     for t in threads:
-        if not t['a_uncoded'] and not t['b_uncoded']:
-            attr_deltas[t['primary_relation']].append(abs(t['b_attrs'] - t['a_attrs']))
-    
+        a, b = t['a_indicators'], t['b_indicators']
+        t['indicator_transitions'] = {k: [a.get(k), b.get(k)] for k in sorted(set(a) | set(b))}
+
     return {
         'total_threads': len(threads),
         'relations': dict(rel_counts.most_common()),
@@ -345,7 +325,6 @@ def analyze(threads):
         'country_pairs': {f'{a}↔{b}': n for (a,b), n in country_pairs.most_common(10)},
         'shared_motifs': dict(motif_pairs.most_common(15)),
         'regime_relation_matrix': {r: dict(c) for r, c in regime_relation.items()},
-        'avg_attr_delta': {r: round(sum(v)/len(v), 2) for r, v in attr_deltas.items() if v},
         'threads': threads,
     }
 
@@ -415,15 +394,12 @@ def build_report(analysis, panels):
         md.append(f"| {m} | {n} |")
     md.append("")
     
-    if a['avg_attr_delta']:
-        md.append("## 6. Delta médio de atributos por relação\n")
-        md.append("Quantos atributos do inventário (0–10) separam, em média, os dois extremos do fio:\n")
-        md.append("| Relação | Δ médio |")
-        md.append("|---|---:|")
-        for r, d in sorted(a['avg_attr_delta'].items(), key=lambda x: -x[1]):
-            md.append(f"| {r} | {d:.2f} |")
-        md.append("")
-    
+    md.append("## 6. Comparação por dimensão\n")
+    md.append("A projeção pública não é autoridade de codificação. Transições só são apresentadas quando observações são fornecidas; ausência não é zero. Genealogias exigem evidência histórica e revisão humana, sem inferência por cardinalidade.\n")
+    for t in a['threads']:
+        md.append(f"- `{t['a_id']}` → `{t['b_id']}`: {t['indicator_transitions'] or 'observações indisponíveis'}")
+    md.append("")
+
     md.append("## 7. Catálogo completo de fios\n")
     by_panel = defaultdict(list)
     for t in a['threads']:
