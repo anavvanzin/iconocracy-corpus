@@ -60,7 +60,6 @@ export interface CorpusItem {
   motif_str: string;
   tags_str: string;
   regime: Regime;
-  endurecimento_score: number;
   indicadores: Indicadores;
   coded_by: string;
   coded_at: string;
