@@ -134,7 +134,6 @@ def build_rater_pairs(rater1_codings: dict[str, list[dict]], rater2_results: dic
         r1 = {"coded_by": rater1_rec.get("coded_by", "rater1")}
         for ind in INDICATORS:
             r1[ind] = rater1_rec.get(ind)
-        r1["purificacao_composto"] = rater1_rec.get("purificacao_composto")
         r1["regime_iconocratico"] = rater1_rec.get("regime_iconocratico")
 
         # Standardize rater-2 format
@@ -143,7 +142,6 @@ def build_rater_pairs(rater1_codings: dict[str, list[dict]], rater2_results: dic
         for ind in INDICATORS:
             ind_data = indicadores.get(ind, {})
             r2[ind] = ind_data.get("score") if isinstance(ind_data, dict) else ind_data
-        r2["purificacao_composto"] = rater2_rec.get("purificacao_composto")
         r2["regime_iconocratico"] = rater2_rec.get("regime_iconocratico")
         r2["image_condition"] = rater2_rec.get("image_condition")
 
@@ -330,20 +328,6 @@ def report_paired(paired_codings: dict[str, list[dict]], bootstrap_ci_flag: bool
             results[f"{indicator}_exact_pct"] = round(exact_pct, 1)
             results[f"{indicator}_within1_pct"] = round(within1_pct, 1)
 
-    # Composite score differences
-    composite_diffs = []
-    for codings in paired_codings.values():
-        c1 = codings[0].get("purificacao_composto")
-        c2 = codings[1].get("purificacao_composto")
-        if c1 is not None and c2 is not None:
-            composite_diffs.append(abs(c1 - c2))
-
-    if composite_diffs:
-        print(f"\n  [LEGACY — diagnostic only, no evidentiary weight; codebook v2.2.1]")
-        print(f"  Composite score (purificacao_composto), legacy_frozen:")
-        print(f"    Mean absolute difference: {np.mean(composite_diffs):.3f}")
-        print(f"    Max  absolute difference: {max(composite_diffs):.3f}")
-
     # Disagreements
     disagreements = find_disagreements(paired_codings)
     if disagreements:
@@ -393,7 +377,6 @@ def report(all_codings: dict[str, list[dict]]) -> dict[str, Any] | None:
     # ... (existing implementation) ...
     # Keep existing logic for multi-coder mode
     from collections import defaultdict
-    import numpy as np
 
     # Get items with 2+ coders
     double_coded = {k: v for k, v in all_codings.items() if len(set(c["coded_by"] for c in v)) >= 2}
@@ -438,18 +421,6 @@ def report(all_codings: dict[str, list[dict]]) -> dict[str, Any] | None:
     results["_overall"] = overall
     if overall is not None:
         print(f"\n  {'OVERALL (pooled)':<30s} {overall:>8.3f}")
-
-    # Composite agreement
-    composite_diffs = []
-    for codings in double_coded.values():
-        composites = [c.get("purificacao_composto") for c in codings if c.get("purificacao_composto") is not None]
-        if len(composites) >= 2:
-            composite_diffs.append(max(composites) - min(composites))
-    if composite_diffs:
-        print("\n  [LEGACY — diagnostic only, no evidentiary weight; codebook v2.2.1]")
-        print("  Composite score (purificacao_composto), legacy_frozen:")
-        print(f"    Mean absolute difference: {np.mean(composite_diffs):.3f}")
-        print(f"    Max  absolute difference: {max(composite_diffs):.3f}")
 
     # Disagreements
     disagreements = find_disagreements(double_coded)
@@ -512,8 +483,6 @@ def adjudicate(all_codings: dict[str, list[dict]]):
             else:
                 consensus_scores[indicator] = values[0]
 
-        composite = round(sum(consensus_scores.values()) / len(consensus_scores), 2)
-
         regimes = [c.get("regime_iconocratico") for c in codings]
         if len(set(regimes)) == 1:
             regime = regimes[0]
@@ -524,7 +493,6 @@ def adjudicate(all_codings: dict[str, list[dict]]):
         record = {
             "id": item_id,
             **consensus_scores,
-            "purificacao_composto": composite,
             "regime_iconocratico": regime,
             "coded_by": "consensus-ana",
             "coded_at": datetime.now(timezone.utc).isoformat(),
@@ -535,7 +503,7 @@ def adjudicate(all_codings: dict[str, list[dict]]):
         with open(PURIFICATION_JSONL, "a", encoding="utf-8") as f:
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
-        print(f"  ✅ {item_id} adjudicated: composite={composite:.2f}, regime={regime}")
+        print(f"  ✅ {item_id} adjudicated: regime={regime}")
         adjudicated += 1
 
     print(f"\n  Session complete: {adjudicated} items adjudicated")
@@ -577,8 +545,6 @@ def export_raw_pairs(paired_codings: dict[str, list[dict]], output_path: Path):
                 for ind in INDICATORS:
                     row[f"r1_{ind}"] = r1.get(ind)
                     row[f"r2_{ind}"] = r2.get(ind)
-                row["r1_composite"] = r1.get("purificacao_composto")
-                row["r2_composite"] = r2.get("purificacao_composto")
                 row["r1_regime"] = r1.get("regime_iconocratico")
                 row["r2_regime"] = r2.get("regime_iconocratico")
                 row["r2_image_condition"] = r2.get("image_condition")

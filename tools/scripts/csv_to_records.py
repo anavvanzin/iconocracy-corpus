@@ -23,7 +23,7 @@ import sys
 import tempfile
 import uuid
 from pathlib import Path
-from tools.scripts.lpai_indicators import coding_coverage, legacy_composite
+from tools.scripts.lpai_indicators import coding_coverage
 
 
 REPO = Path(__file__).resolve().parent.parent.parent
@@ -250,20 +250,14 @@ def _build_purificacao(item: dict, csv_row: dict | None) -> dict | None:
     ).lower()
     regime = regime_raw if regime_raw in VALID_REGIMES else "normativo"
 
-    # purificacao_composto: LEGACY_FROZEN desde o codebook v2.2.1
-    # (DEC-2026-07-28). Não se calcula composto novo. O valor legado é apenas
-    # repassado quando já existe na fonte, para preservar o rastro de como o
-    # corpus foi construído; quando ausente, o campo simplesmente não é escrito.
-    composto_legado = legacy_composite(csv_row) if csv_row else None
-    if composto_legado is None:
-        composto_legado = legacy_composite(item)
-
+    # purificacao_composto: REMOVIDO definitivamente (decisão 2026-09-24).
+    # O campo estava LEGACY_FROZEN desde o codebook v2.2.1 (DEC-2026-07-28) —
+    # apenas repassado quando já existia na fonte. Agora nem o repasse do valor
+    # legado é feito: o campo nunca é escrito em records novos.
     coded_by = ((csv_row.get("coded_by") if csv_row else None) or item.get("coded_by") or "migration")
     coded_at = _normalize_datetime((csv_row.get("coded_at") if csv_row else None) or item.get("coded_at") or MIGRATION_TS)
 
     purif: dict = {col: ind[col] for col in PURIF_COLS}
-    if composto_legado is not None:
-        purif["purificacao_composto"] = round(composto_legado, 3)
     purif["regime_iconocratico"] = regime
     purif["coded_by"] = coded_by
     purif["coded_at"] = coded_at
