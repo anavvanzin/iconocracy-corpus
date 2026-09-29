@@ -34,8 +34,7 @@ pendente — agora executado.
    `ingest_research_candidates.py`, `purify-diff.py`,
    `corpus/infografico_corpus.py`, `iconocracy-ingest/modules/corpus_bridge.py`,
    `shared/types/corpus.ts`, `shared/services/corpus.ts`, `shared/index.ts`,
-   `shared/corpus-parser.ts` — e nos testes correspondentes. O acessor legado
-   `legacy_composite` de `tools/scripts/lpai_indicators.py` foi removido.
+   `shared/corpus-parser.ts` — e nos testes correspondentes. O acessor `legacy_composite` permanece somente para leitura de inputs externos históricos; não produz composto nem sustenta análise vigente.
 2. **Dados canônicos** — `tools/scripts/strip_endurecimento.py` (migração
    única) remove: `iconographic_metadata.endurecimento_score`;
    `endurecimento_score`/`indicadores`/`purificacao_composto` de nível
@@ -83,3 +82,27 @@ pendente — agora executado.
 Branch `chore/remove-endurecimento-score`. A migração de dados é reproduzível:
 `python tools/scripts/strip_endurecimento.py` (idempotente: reexecutá-lo sobre
 dados já limpos reporta 0 remoções e não altera nada).
+
+
+## Verificação operacional de 29/09/2026
+
+O inventário verbal é a exigência interpretativa, não uma descrição de cobertura
+já atingida. `atributos_iconograficos` está preenchido apenas em uma minoria dos
+registros; não se fabricam justificativas verbais a partir de limiares numéricos.
+As análises de corpus ficam limitadas às distribuições separadas por indicador e
+aos casos com dossiê documentado. Hipóteses qualitativas sem inventário devem
+permanecer explicitamente pendentes.
+
+Cardinalidade de atributos marcados, sua diferença média, densidade, soma e média
+entre indicadores não substituem o composto. Não classificam genealogias nem
+ordenam polos do atlas. A observação ordinal zero válida não significa ausência
+de codificação. Esta interpretação aplica a regra vigente “nunca somado” também
+aos consumidores históricos que ainda estão em execução; snapshots congelados
+permanecem intocados. A compilação ativa da tese é atualizada, mesmo quando sua
+entrada se encontra sob `vault/tese`.
+
+A migração escreve arquivos temporários completos e sincronizados antes de
+substituir cada ledger, conserva os indicadores e a proveniência, e não escreve
+quando não há remoções. Exportações sanitizam também itens não casados. As
+visualizações deixam explícito que não oferecem escore nem dados ordinais da
+projeção; não apresentam ausência como zero.

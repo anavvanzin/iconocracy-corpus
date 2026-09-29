@@ -5,6 +5,7 @@ Gera visualizacao multi-painel com dados do corpus-data.json
 """
 
 import json
+import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -46,7 +47,7 @@ SUPPORT_MAP = {
     "stamp": "Selo",
     "banknote": "Papel-moeda",
     "iluminura/manuscrito": "Outro",
-    "?": "Outro",
+    "?": "Sem suporte registrado",
 }
 
 INDICATOR_LABELS = [
@@ -76,7 +77,7 @@ def normalize_country(item):
 
 
 def normalize_support(item):
-    s = item.get("medium_norm", "Outro")
+    s = item.get("support") or "?"
     return SUPPORT_MAP.get(s, s)
 
 
@@ -96,7 +97,8 @@ def main():
     # Decadas por regime
     decade_regime = defaultdict(lambda: Counter())
     for item in items:
-        y = item.get("year")
+        match = re.search(r"(?<!\d)(\d{4})(?!\d)", str(item.get("date") or ""))
+        y = int(match.group(1)) if match else None
         r = get_regime(item)
         if y and r != "?":
             if y < 1800:
@@ -104,20 +106,7 @@ def main():
             else:
                 decade_regime[f"{(y // 10) * 10}s"][r] += 1
 
-    # endurecimento por regime
-    regime_scores = defaultdict(list)
-    for item in items:
-        r = get_regime(item)
-        s = item.get("endurecimento_score")
-        if r != "?" and s is not None:
-            regime_scores[r].append(s)
-
-    # Indicadores medios
-    indicator_means = []
-    for key in INDICATOR_KEYS:
-        vals = [item["indicadores"][key] for item in items
-                if item.get("indicadores") and key in item.get("indicadores", {})]
-        indicator_means.append(np.mean(vals) if vals else 0)
+    years = [int(m.group(1)) for item in items if (m := re.search(r"(?<!\d)(\d{4})(?!\d)", str(item.get("date") or "")))]
 
     # ── Figura ──────────────────────────────────────────────────
     fig = plt.figure(figsize=(18, 24), facecolor=BG_COLOR, dpi=100)
@@ -151,9 +140,9 @@ def main():
     # KPI boxes
     kpis = [
         (f"{n}", "itens catalogados"),
-        ("15", "paises"),
-        ("1239-1975", "periodo"),
-        ("1.42", "endurecimento medio"),
+        (str(len(countries)), "paises"),
+        (f"{min(years)}–{max(years)}" if years else "Indisponivel", "anos iniciais das datas"),
+        ("Qualitativo", "sem agregado escalar"),
     ]
     box_width = 0.18
     start_x = 0.5 - (len(kpis) * box_width + (len(kpis) - 1) * 0.03) / 2
@@ -248,28 +237,10 @@ def main():
             arrowprops=dict(arrowstyle="->", color=COLORS["militar"], lw=1.5),
         )
 
-    # ── D: endurecimento por regime ─────────────────────────────
+    # Removed analytical panel: export no longer owns ordinal observations.
     ax_d = fig.add_subplot(gs[3, 0])
-    regime_display_order = ["contra-alegoria", "fundacional", "militar", "normativo"]
-    d_means = [np.mean(regime_scores[r]) if regime_scores[r] else 0 for r in regime_display_order]
-    d_stds = [np.std(regime_scores[r]) if regime_scores[r] else 0 for r in regime_display_order]
-    d_colors = [COLORS[r] for r in regime_display_order]
-    d_labels = [r.capitalize() for r in regime_display_order]
-
-    bars_d = ax_d.bar(d_labels, d_means, color=d_colors, edgecolor="white",
-                      width=0.6, yerr=d_stds, capsize=4,
-                      error_kw=dict(lw=1.2, color="#666666"))
-    for bar, mean in zip(bars_d, d_means):
-        ax_d.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.08,
-                  f"{mean:.2f}", ha="center", fontsize=12, fontweight="bold", color=ACCENT)
-
-    ax_d.set_ylim(0, 3.2)
-    ax_d.set_ylabel("Score medio (0-3)", fontsize=11)
-    ax_d.set_title("D. Endurecimento por regime", fontsize=14, fontweight="bold",
-                    color=ACCENT, loc="left", pad=10)
-    ax_d.spines[["top", "right"]].set_visible(False)
-    ax_d.yaxis.grid(True, color=GRID_COLOR, linewidth=0.5, alpha=0.7)
-    ax_d.tick_params(axis="x", labelsize=10)
+    ax_d.axis("off")
+    ax_d.text(0.5, 0.5, "Endurecimento: leitura qualitativa por caso.\nEscore agregado aposentado.\nComparações exigem inventários documentados.", ha="center", va="center", transform=ax_d.transAxes)
 
     # ── E: Suportes (barras horizontais) ────────────────────────
     ax_e = fig.add_subplot(gs[3, 1])
@@ -288,25 +259,9 @@ def main():
     ax_e.tick_params(axis="x", which="both", bottom=False, labelbottom=False)
     ax_e.tick_params(axis="y", labelsize=10)
 
-    # ── F: Radar dos 10 indicadores ─────────────────────────────
-    ax_f = fig.add_subplot(gs[4, :], polar=True)
-    angles = np.linspace(0, 2 * np.pi, len(INDICATOR_KEYS), endpoint=False).tolist()
-    values = indicator_means + [indicator_means[0]]
-    angles += [angles[0]]
-
-    ax_f.plot(angles, values, "o-", color=BAR_BLUE, linewidth=2, markersize=6)
-    ax_f.fill(angles, values, alpha=0.15, color=BAR_BLUE)
-
-    ax_f.set_xticks(angles[:-1])
-    ax_f.set_xticklabels(INDICATOR_LABELS, fontsize=9)
-    ax_f.set_ylim(0, 3)
-    ax_f.set_yticks([0.5, 1.0, 1.5, 2.0, 2.5, 3.0])
-    ax_f.set_yticklabels(["0.5", "1.0", "1.5", "2.0", "2.5", "3.0"],
-                          fontsize=8, color="#999999")
-    ax_f.set_title("F. Media dos 10 indicadores de endurecimento", fontsize=14,
-                    fontweight="bold", color=ACCENT, loc="left", pad=20, x=-0.05)
-    ax_f.spines["polar"].set_color(GRID_COLOR)
-    ax_f.grid(color=GRID_COLOR, linewidth=0.5)
+    ax_f = fig.add_subplot(gs[4, :])
+    ax_f.axis("off")
+    ax_f.text(0.5, 0.5, "Indicadores ordinais: consultar purification.jsonl.\nAusência de dados na projeção não significa zero.\nInventário verbal ainda incompleto; nenhuma comparação global é afirmada.", ha="center", va="center", transform=ax_f.transAxes)
 
     # ── Salvar ──────────────────────────────────────────────────
     out_dir = Path(__file__).parent

@@ -32,6 +32,8 @@ Uso:
     git add corpus/corpus-data.json data/processed && git commit -m "data: strip retired endurecimento score"
 """
 import json
+import os
+import tempfile
 import re
 from pathlib import Path
 
@@ -47,6 +49,32 @@ JSONL_LEDGERS = [
 PAREN_SCORE = re.compile(r"\s*\(endurecimento\s+\d+(?:\.\d+)?\)")
 
 DROP_TOP_LEVEL = ("endurecimento_score", "indicadores", "purificacao_composto")
+
+
+def atomic_write(path: Path, payload: str) -> None:
+    """Replace only after a complete, flushed sibling file exists."""
+    tmp_path = None
+    try:
+        with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=path.parent, delete=False) as tmp:
+            tmp_path = Path(tmp.name)
+            tmp.write(payload)
+            tmp.flush()
+            os.fsync(tmp.fileno())
+        tmp_path.replace(path)
+    finally:
+        if tmp_path and tmp_path.exists():
+            tmp_path.unlink()
+
+
+def strip_assignments(value):
+    """Remove literal retired assignments, preserving conceptual prose."""
+    if isinstance(value, dict):
+        return {k: strip_assignments(v) for k, v in value.items()}
+    if isinstance(value, list):
+        return [strip_assignments(v) for v in value]
+    if isinstance(value, str):
+        return re.sub(r"endurecimento_score\s*=\s*\d+(?:[.,]\d+)?", "[valor composto aposentado removido]", value)
+    return value
 
 
 def strip_item(item: dict) -> int:
@@ -81,13 +109,19 @@ def strip_item(item: dict) -> int:
             if n:
                 interp["claim_text"] = text
                 removed += n
+    cleaned = strip_assignments(item)
+    if cleaned != item:
+        item.clear()
+        item.update(cleaned)
+        removed += 1
     return removed
 
 
 def strip_json_array(path: Path) -> None:
     items = json.loads(path.read_text(encoding="utf-8"))
     removed = sum(strip_item(item) for item in items)
-    path.write_text(json.dumps(items, ensure_ascii=False, indent=2), encoding="utf-8")
+    if removed:
+        atomic_write(path, json.dumps(items, ensure_ascii=False, indent=2) + "\n")
     print(f"{path}: {removed} artefatos de escore removidos ({len(items)} itens)")
 
 
@@ -102,7 +136,8 @@ def strip_jsonl(path: Path) -> None:
         removed += strip_item(row)
         lines.append(json.dumps(row, ensure_ascii=False))
         n += 1
-    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    if removed:
+        atomic_write(path, "\n".join(lines) + "\n")
     print(f"{path}: {removed} artefatos de escore removidos ({n} linhas)")
 
 

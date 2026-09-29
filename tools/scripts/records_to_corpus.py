@@ -22,6 +22,7 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import sys
 import tempfile
@@ -119,6 +120,23 @@ def _load_existing_corpus() -> dict[str, dict]:
         return {item["id"]: item for item in items if "id" in item}
     except Exception:
         return {}
+
+
+def _sanitize_projection(entry: dict) -> dict:
+    """Sanitize every retained projection, including unmatched legacy entries."""
+    clean = copy.deepcopy(entry)
+    def remove_scores(value):
+        if isinstance(value, dict):
+            value.pop("endurecimento_score", None)
+            value.pop("purificacao_composto", None)
+            for nested in value.values():
+                remove_scores(nested)
+        elif isinstance(value, list):
+            for nested in value:
+                remove_scores(nested)
+    remove_scores(clean)
+    clean.pop("indicadores", None)
+    return clean
 
 
 def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: str | None = None) -> dict:
@@ -247,7 +265,7 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     else:
         entry.pop("support", None)
 
-    return entry
+    return _sanitize_projection(entry)
 
 
 def export_corpus(
@@ -292,7 +310,7 @@ def export_corpus(
     if not replace:
         for item_id, item in existing_corpus.items():
             expected_record_item_id = id_mapping.get(item_id) or _item_uuid(item_id)
-            rec = records_by_item_id.get(expected_record_item_id)
+            rec = records_by_item_id.get(item_id) or records_by_item_id.get(expected_record_item_id)
             if not rec:
                 item_url = item.get("url", "")
                 if item_url:
@@ -319,8 +337,8 @@ def export_corpus(
                 entry = _corpus_entry_from_record(rec, item, corpus_id=item_id)
                 matched_item_ids.add(rec.get("item_id", ""))
             else:
-                entry = dict(item)
-                
+                entry = _sanitize_projection(item)
+
             c_id = entry.get("id")
             if c_id:
                 assigned_corpus_ids.add(c_id)

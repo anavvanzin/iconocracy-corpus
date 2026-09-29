@@ -224,7 +224,11 @@ def test_items_flag_filters_to_one(fake_corpus):
     assert selected[0]["id"] == "BE-5F-LEOPOLD-1832"
 
 
-def test_all_uncoded_excludes_coded_items(fake_corpus):
+def test_all_uncoded_excludes_coded_items(fake_corpus, tmp_path, monkeypatch):
+    ledger = tmp_path / "data/processed/purification.jsonl"
+    ledger.parent.mkdir(parents=True)
+    ledger.write_text(json.dumps({"id":"ALREADY-CODED", **dict.fromkeys(mod.INDICATOR_KEYS, 0)}) + "\n")
+    monkeypatch.setattr(mod, "REPO", tmp_path)
     selected = mod.select_items(fake_corpus, ids=None, all_uncoded=True)
     ids = {i["id"] for i in selected}
     assert ids == {"BE-5F-LEOPOLD-1832", "UK-PENNY-1912"}

@@ -317,11 +317,11 @@ def show_status(corpus, coded):
         # purificacao_composto aposentado (2026-09-24): stats sobre os
         # 10 indicadores ordinais; pais/suporte exibem contagens.
         indicator_names = [name for name, _, _ in INDICATORS]
-        print("\n  Indicator means (coded items, escala 0-3):")
+        print("\n  Indicator distributions (coded items, escala ordinal 0-3):")
         for name in indicator_names:
             vals = [r[name] for r in coded.values() if isinstance(r.get(name), (int, float))]
             if vals:
-                print(f"    {name:30s}  mean={sum(vals) / len(vals):.2f}  n={len(vals)}")
+                print(f"    {name:30s}  " + " ".join(f"{v}={vals.count(v)}" for v in range(4)) + f"  n={len(vals)}")
 
         # Build lookups from corpus (has country, support)
         corpus_country = {item["id"]: item.get("country", "?") for item in corpus if item.get("id")}

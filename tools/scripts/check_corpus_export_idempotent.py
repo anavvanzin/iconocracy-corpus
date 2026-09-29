@@ -49,6 +49,11 @@ def main() -> int:
     records = _load_records()
     existing_corpus = _load_existing_corpus()
     generated = export_corpus(records, existing_corpus, replace=False)
+    residue = [item_id for item_id, item in existing_corpus.items()
+               if any(k in item for k in ("endurecimento_score", "indicadores", "purificacao_composto"))]
+    if residue:
+        print(f"corpus export contains retired fields: {residue}")
+        return 1
 
     id_less = [g for g in generated if "id" not in g]
     if id_less:
