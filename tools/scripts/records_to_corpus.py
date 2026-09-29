@@ -3,9 +3,14 @@
 records_to_corpus.py — Exporta data/processed/records.jsonl → corpus/corpus-data.json
 
 Reconstrói corpus-data.json a partir do arquivo canônico records.jsonl.
-Para campos enriquecidos (panofsky, indicadores) que existem no corpus-data.json
+Para campos enriquecidos (panofsky) que existem no corpus-data.json
 mas não são cobertos pelo schema master-record, mantém os dados do arquivo
 existente como fallback (modo --merge, padrão).
+
+NOTA (2026-09-24): o campo endurecimento_score (e o dict indicadores que o
+alimentava) foi aposentado metodologicamente e removido do corpus canonico.
+Este exportador nao emite mais esses campos e os remove de entradas
+preexistentes em modo merge. Ver docs/decisions/2026-09-24-remocao-definitiva-do-campo.md.
 
 Uso:
     python tools/scripts/records_to_corpus.py              # merge com corpus existente
@@ -149,17 +154,8 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
                 regime = ct.split(":", 1)[1].strip().lower()
                 break
 
-    # Indicadores dict from purificacao
-    indicator_cols = [
-        "desincorporacao", "rigidez_postural", "dessexualizacao",
-        "uniformizacao_facial", "heraldizacao", "enquadramento_arquitetonico",
-        "apagamento_narrativo", "monocromatizacao", "serialidade", "inscricao_estatal",
-    ]
-    indicadores = {col: purif[col] for col in indicator_cols if col in purif} or None
-
     coded_by = purif.get("coded_by") or ""
     coded_at = purif.get("coded_at") or record.get("timestamps", {}).get("updated_at", "")
-    endurecimento = purif.get("purificacao_composto") or 0.0
 
     # Start from existing entry for rich fields (panofsky, institution, etc.)
     entry: dict = dict(existing) if existing else {}
@@ -221,20 +217,16 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     })
 
     # An uncoded canonical record must not acquire analytical values merely by
-    # being exported.  In particular, zero is a valid endurecimento score, so
-    # using it as the default would incorrectly make pending SCOUT promotions
-    # look coded.  Existing enriched values remain available in merge mode.
+    # being exported.  Existing enriched values remain available in merge mode.
     if regime:
         entry["regime"] = regime
     elif not existing:
         entry.pop("regime", None)
-    if "purificacao_composto" in purif:
-        entry["endurecimento_score"] = endurecimento
-    elif not existing:
-        entry.pop("endurecimento_score", None)
 
-    if indicadores:
-        entry["indicadores"] = indicadores
+    # endurecimento_score e indicadores foram aposentados (2026-09-24):
+    # nunca emitir, e remover residuos de entradas preexistentes em merge.
+    entry.pop("endurecimento_score", None)
+    entry.pop("indicadores", None)
 
     # A citação em records.jsonl é canônica. Corrige placeholders históricos
     # no export sem depender de edição manual da projeção.
