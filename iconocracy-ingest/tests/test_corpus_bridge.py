@@ -142,7 +142,7 @@ def test_corpus_item_has_all_required_fields():
         "source_archive", "country", "medium", "motif", "description",
         "url", "thumbnail_url", "rights", "citation_abnt", "citation_chicago",
         "tags", "year", "medium_norm", "country_pt", "period_norm",
-        "motif_str", "tags_str", "regime", "endurecimento_score",
+        "motif_str", "tags_str", "regime",
         "indicadores", "coded_by", "coded_at", "support", "in_scope",
         "scope_note", "panofsky",
     ]

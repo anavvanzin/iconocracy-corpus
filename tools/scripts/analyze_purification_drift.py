@@ -33,6 +33,25 @@ def get_country(item_id):
     return parts[0] if len(parts) >= 2 else "??"
 
 
+def mean_indicator(items, ind):
+    """Mean of one ordinal indicator across a group (0 for empty group)."""
+    return sum(x[ind] for x in items) / len(items) if items else 0
+
+
+def mean_abs_indicator_drift(group_a, group_b):
+    """Drift = média do delta absoluto por indicador ordinal entre dois grupos.
+
+    Substitui o antigo drift de purificacao_composto (campo removido —
+    decisão 2026-09-24): o composto não é mais emitido nem lido.
+    """
+    if not group_a or not group_b:
+        return 0
+    return sum(
+        abs(mean_indicator(group_a, ind) - mean_indicator(group_b, ind))
+        for ind in INDICATORS
+    ) / len(INDICATORS)
+
+
 def main():
     items = load_items(PURIFICATION)
     original = [x for x in items if x["coded_by"] != "hermes-auto"]
@@ -56,9 +75,11 @@ def main():
             flagged.append((ind, diff))
         print(f"{ind:<32} {o_mean:>6.2f} {a_mean:>6.2f} {diff:>+7.2f}  {flag:>6}")
 
-    o_comp = sum(x["purificacao_composto"] for x in original) / len(original)
-    a_comp = sum(x["purificacao_composto"] for x in auto) / len(auto)
-    print(f"{'purificacao_composto':<32} {o_comp:>6.2f} {a_comp:>6.2f} {a_comp-o_comp:>+7.2f}")
+    o_lvl = sum(mean_indicator(original, ind) for ind in INDICATORS) / len(INDICATORS)
+    a_lvl = sum(mean_indicator(auto, ind) for ind in INDICATORS) / len(INDICATORS)
+    print(f"{'media_indicadores':<32} {o_lvl:>6.2f} {a_lvl:>6.2f} {a_lvl-o_lvl:>+7.2f}")
+    global_drift = mean_abs_indicator_drift(original, auto)
+    print(f"  drift médio |Δ| por indicador: {global_drift:.2f}")
     print(f"\nFlagged indicators (|diff| > 0.5): {len(flagged)}")
     for ind, diff in flagged:
         print(f"  {ind}: {diff:+.2f}")
@@ -72,10 +93,9 @@ def main():
         if not o_r and not a_r:
             continue
         print(f"\n  {regime}:")
-        o_mean = sum(x["purificacao_composto"] for x in o_r) / len(o_r) if o_r else 0
-        a_mean = sum(x["purificacao_composto"] for x in a_r) / len(a_r) if a_r else 0
+        drift = mean_abs_indicator_drift(o_r, a_r)
         print(f"    items: {len(o_r)} orig, {len(a_r)} auto")
-        print(f"    composite: {o_mean:.2f} -> {a_mean:.2f} (drift {a_mean-o_mean:+.2f})")
+        print(f"    drift |Δ| médio por indicador: {drift:.2f}")
         for ind in INDICATORS:
             o_m = sum(x[ind] for x in o_r) / len(o_r) if o_r else 0
             a_m = sum(x[ind] for x in a_r) / len(a_r) if a_r else 0
@@ -94,10 +114,9 @@ def main():
         a_c = [x for x in auto if get_country(x["id"]) == country]
         if not o_c and not a_c:
             continue
-        o_mean = sum(x["purificacao_composto"] for x in o_c) / len(o_c) if o_c else 0
-        a_mean = sum(x["purificacao_composto"] for x in a_c) / len(a_c) if a_c else 0
-        flag = " **" if abs(a_mean - o_mean) > 0.5 else ""
-        print(f"  {country}: {len(o_c)} orig ({o_mean:.2f}), {len(a_c)} auto ({a_mean:.2f}), drift {a_mean-o_mean:+.2f}{flag}")
+        drift = mean_abs_indicator_drift(o_c, a_c)
+        flag = " **" if drift > 0.5 else ""
+        print(f"  {country}: {len(o_c)} orig, {len(a_c)} auto, drift {drift:.2f}{flag}")
 
     # --- Top outliers ---
     print(f"\n{'='*60}")
@@ -108,8 +127,9 @@ def main():
         regime = item.get("regime_iconocratico", "unknown")
         peers = [x for x in original if get_country(x["id"]) == c and x.get("regime_iconocratico") == regime]
         if peers:
-            peer_mean = sum(x["purificacao_composto"] for x in peers) / len(peers)
-            outlier_score = item["purificacao_composto"] - peer_mean
+            outlier_score = sum(
+                abs(item[ind] - mean_indicator(peers, ind)) for ind in INDICATORS
+            ) / len(INDICATORS)
         else:
             outlier_score = 0
         item["_country"] = c
@@ -118,10 +138,10 @@ def main():
     # Sort by abs(outlier)
     sorted_items = sorted(auto, key=lambda x: abs(x["_outlier_score"]), reverse=True)
     for item in sorted_items[:15]:
-        print(f"  {item['id']:20} comp={item['purificacao_composto']:.1f}  "
+        print(f"  {item['id']:20} "
               f"{item['_country']}/{item.get('regime_iconocratico','?')}  "
               f"outlier_vs_peers={item['_outlier_score']:+.2f}  "
-              f"auto-mean={a_comp:.2f}")
+              f"drift_global={global_drift:.2f}")
 
 
 if __name__ == "__main__":
