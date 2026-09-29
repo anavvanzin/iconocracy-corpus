@@ -177,7 +177,11 @@ def uncoded_items(corpus: list[dict[str, Any]], ledger_path: Path | None = None)
     mapping_path = REPO / "data/processed/id-mapping.json"
     mappings = json.loads(mapping_path.read_text()).get("mapping", []) if mapping_path.exists() else []
     aliases = {m["corpus_id"]: m["item_id"] for m in mappings if m.get("corpus_id") and m.get("item_id")}
-    return [i for i in corpus if i["id"] not in coded and aliases.get(i["id"]) not in coded]
+    canonical_coded = set(coded)
+    for identifier in coded:
+        canonical_coded.add(aliases.get(identifier, identifier))
+        canonical_coded.add(str(uuid.uuid5(uuid.NAMESPACE_DNS, f"iconocracy-corpus-{identifier}")))
+    return [i for i in corpus if i["id"] not in canonical_coded and aliases.get(i["id"]) not in canonical_coded]
 
 
 def select_items(

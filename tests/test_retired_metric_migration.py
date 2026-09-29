@@ -74,3 +74,11 @@ def test_sft_high_indicators_do_not_become_low_label():
     assert 'composto None' not in text
     for k in INDICATORS:
         assert f'{k}: 3' in text
+
+
+def test_gemma_corpus_uuid_alias_resolves_legacy_observation(tmp_path):
+    import uuid
+    ledger = tmp_path / 'purification.jsonl'
+    ledger.write_text(json.dumps({'id':'FR-007',**dict.fromkeys(INDICATORS,0)}) + '\n')
+    identifier = str(uuid.uuid5(uuid.NAMESPACE_DNS, 'iconocracy-corpus-FR-007'))
+    assert uncoded_items([{'id':identifier}], ledger) == []
