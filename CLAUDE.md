@@ -112,7 +112,7 @@ Active automation:
 - **SessionStart**: checks SSD mount (`/media/ana/SSD_DATA`), reports corpus item count
 - **PreToolUse**: blocks edits to `tese/manuscrito/*_original` files; enforces vault note naming (`XX-NNN Title.md`)
 - **PostToolUse**: auto-stages vault notes to git; validates `corpus-data.json` schema on edit; regenerates CSV; counts thesis chapter words; checks Python syntax
-- **PreCompact**: preserves corpus IDs, Iconclass codes, endurecimento scores, and ongoing campaigns
+- **PreCompact**: preserves corpus IDs, Iconclass codes, purification indicators, and ongoing campaigns
 
 ---
 
@@ -123,7 +123,7 @@ Active automation:
 | Term | Reference note |
 |------|------|
 | **Iconometria** | Framework metodológico **guarda-chuva** (decisão 2026-07-11): medição e análise de padrões iconográficos no corpus. **Contém** endurecimento como eixo de fixidez (`iconometria ⊇ endurecimento`). Ver `concepts/iconometria.md` + `docs/decisions/ICONOMETRIA-TRANSITION-2026-07-11.md` |
-| **Endurecimento** | Always in Portuguese. NEVER "hardening" or "embrutecimento". **Eixo de fixidez dentro da iconometria** — operacionalização empírica da **Purificação Clássica** via 10 ordinal indicators (0–3). Campo de dados canônico permanece `endurecimento_score` (chave estável; não renomear sem migração coordenada) |
+| **Endurecimento** | Always in Portuguese. NEVER "hardening" or "embrutecimento". **Eixo de fixidez dentro da iconometria** — operacionalização empírica da **Purificação Clássica** via 10 ordinal indicators (0–3). O campo de dados `endurecimento_score` foi **removido definitivamente** (2026-09-24; ver `docs/decisions/2026-09-24-remocao-definitiva-do-campo.md`) — a codificação vigente é o inventário verbal de atributos sobre os indicadores |
 | **Contrato Sexual Visual** | Original thesis concept #1 — do NOT attribute to Pateman (Pateman is the source of the non-visual contract; the visual extension is autoral) |
 | **Feminilidade de Estado** | Original thesis concept #2 — do NOT attribute to Mondzain. Genealogical roots: Legendre (juiz totêmico) + Carson (hystéra) |
 | **Contrato Racial Visual** | Original thesis concept #3 — branquitude constitutiva da alegoria "universal"; transferência transatlântica de modelos neoclássicos. Cap. 3 |
@@ -223,7 +223,7 @@ These documented problems affect corpus operations:
 3. **Corpus N is intentionally NOT fixed — exploratory posture (decided 2026-06-24).** The corpus is open and growing until the defense (>1yr out). Do **not** treat any N as frozen, "pinned", or a blocking "pending decision"; there is no "decide N first" gate. Acquiring and coding new allegories is normal exploratory research — never block it.
    - In prose, describe the corpus **provisionally** ("em expansão", "amostra analisada", "instantâneo de trabalho") and fix concrete numbers only near the defense. When precision is needed, distinguish *ledger operacional* (grows; recent audits ~278–328) from *amostra analítica congelada* (a snapshot used for Cap. 6 reproducibility, re-runnable on the final corpus).
    - Older artifacts that reference 145/165 (notebooks `01/05/06/07`; manuscript `Capitulo2_metodologia.md`, `Introducao_rev.md`, etc.; the frozen `Other/corpus-data.json`) are **historical analysis snapshots, not errors** — each records the sample a given run used. Update them lazily near the defense, not as blocking debt. `Other/` also holds a duplicate of `notebooks/01–08` (stale copy, not a second source of truth).
-   - `endurecimento_score=0` is a valid score (low purification), not "uncoded". Background on the stratification dialectic: memory `corpus-n-20260605` + `docs/decisions/DIALETICA-N165-vs-265.md` — **informative, not a gate.**
+   - The `endurecimento_score` field was **definitively removed** (2026-09-24; see `docs/decisions/2026-09-24-remocao-definitiva-do-campo.md`); current coding is a verbal attribute inventory over the 10 ordinal indicators. Background on the stratification dialectic: memory `corpus-n-20260605` + `docs/decisions/DIALETICA-N165-vs-265.md` — **informative, not a gate.**
 
 **Resolved issues:** the "11 records with out-of-range indicator values (>3)" and the records/export count drift were resolved in the audited snapshot. Re-run schema validation and projection gates for the current working state rather than relying on historical counts.
 
@@ -277,8 +277,8 @@ Key routing rules:
 - Product ideas/brainstorming → invoke /office-hours
 - Strategy/scope → invoke /plan-ceo-review
 - Architecture → invoke /plan-eng-review
-- Design system/plan review → invoke /design-consultation or /plan-design-review
-- Full review pipeline → invoke /autoplan
+- Design system/plan review → invoke /plan-design-system
+- Design review/diff check → invoke /design-review
 - Bugs/errors → invoke /investigate
 - QA/testing site behavior → invoke /qa or /qa-only
 - Code review/diff check → invoke /review
