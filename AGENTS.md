@@ -77,7 +77,7 @@ Every corpus item must exist in three places: (1) Google Drive + `data/raw/drive
 ## Canonical Terminology
 
 - **iconometria** — framework guarda-chuva (medição/análise de padrões iconográficos); `iconometria ⊇ endurecimento` (decisão 2026-07-11)
-- **endurecimento** — eixo de fixidez dentro da iconometria; NEVER "hardening" / "embrutecimento"; campo de dados canônico `endurecimento_score` (chave estável)
+- **endurecimento** — eixo de fixidez dentro da iconometria; NEVER "hardening" / "embrutecimento"; o campo de dados `endurecimento_score` foi **removido definitivamente** em 2026-09-24 (ver `docs/decisions/2026-09-24-remocao-definitiva-do-campo.md`) — a codificação vigente é o **inventário verbal de atributos** sobre os 10 indicadores ordinais
 - **Contrato Sexual Visual**, **Feminilidade de Estado**, **Contrato Racial Visual**, **Purificação Clássica** — original thesis concepts (Vanzin 2026)
 - **Pathosformel**, **Zwischenraum**, **Nachleben** — always in German (Warburg)
 - Citations: ABNT NBR 6023:2025; Mondzain = 2002 edition
