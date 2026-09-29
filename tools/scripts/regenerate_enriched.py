@@ -564,9 +564,9 @@ def validate_structural(records):
         meta = r.get("iconographic_metadata") or {}
         if "visual_regime" not in meta:
             errors.append(f"{r['id']}: iconographic_metadata missing visual_regime")
-        if "endurecimento_score" in meta and not isinstance(
-                meta["endurecimento_score"], (int, float)):
-            errors.append(f"{r['id']}: endurecimento_score is not a number")
+        if "endurecimento_score" in meta:
+            errors.append(
+                f"{r['id']}: endurecimento_score present (campo aposentado 2026-09-24)")
     return errors
 
 
@@ -580,20 +580,16 @@ def validate_with_schema(records):
     schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
     validator = jsonschema.Draft7Validator(schema)
     id_pattern_failures = 0
-    score_range_failures = 0
     other = []
     for err in validator.iter_errors(records):
         msg = err.message
         # UUID-style ids are a known, accepted warning class.
         if "does not match" in msg and "^[A-Z]" in msg and list(err.absolute_path)[:-1] and str(err.absolute_path[-1]) == "id":
             id_pattern_failures += 1
-        elif "greater than the maximum" in msg and str(err.absolute_path[-1]) == "endurecimento_score":
-            score_range_failures += 1
         else:
             other.append(f"{list(err.absolute_path)}: {msg}")
     return {
         "id_pattern_failures": id_pattern_failures,
-        "score_range_failures": score_range_failures,
         "other_violations": other,
     }
 
@@ -616,11 +612,6 @@ def write_report(records, stats, today):
         f: sum(1 for r in records if r.get(f) not in (None, "", []))
         for f in coverage_fields
     }
-    score_over_one = [
-        (r["id"], r["endurecimento_score"]) for r in records
-        if isinstance(r.get("endurecimento_score"), (int, float))
-        and r["endurecimento_score"] > 1
-    ]
 
     new_items = len(records) - stats["legacy_overlays"]
     orphan_count = len(stats["orphans"])
@@ -669,7 +660,7 @@ def write_report(records, stats, today):
         "",
         f"- Itens com `regime_incerto` (classificador diverge do ledger): "
         f"**{len(stats['regime_incerto'])}**",
-        f"- Itens sem `date` no ledger (emitidos com `date: \"\"`): **{len(missing_date)}**",
+        f"- Itens sem `date` no ledger (emitidos com `date: \"\")`: **{len(missing_date)}**",
         f"- Itens sem `support` útil (None/'?'): **{len(missing_support)}**",
         f"- Itens legados cujo regime mudou em relação ao enriched antigo "
         f"(ledger vence, justificativa regenerada): **{len(stats['legacy_regime_changed'])}**",
@@ -687,12 +678,6 @@ def write_report(records, stats, today):
         "",
         "## Anomalias do ledger",
         "",
-        f"- **{len(score_over_one)} itens com `endurecimento_score` > 1.0** "
-        f"(máx. {max((s for _, s in score_over_one), default=0)}). A escala "
-        "real parece ser 0–3 (média dos 10 indicadores, cada um 0–3), não 0–1. "
-        "O schema externo exige máximo 1 — esses itens falham na validação de "
-        "intervalo (classe conhecida). Recomendado: normalizar dividindo por 3 "
-        "ou revisar o schema.",
         f"- {len(missing_date)} itens sem `date` (ano derivado null).",
         "- `country` usa variantes com parênteses ('Germany (Netherlands origin)', "
         "'France (held in Austria)') e o código 'CL' em vez de 'Chile' — "
@@ -746,7 +731,6 @@ def main():
             sys.exit(2)
         print(f"itens: {len(records)}")
         print(f"id pattern failures (UUID, classe conhecida): {result['id_pattern_failures']}")
-        print(f"endurecimento_score > 1 (classe conhecida): {result['score_range_failures']}")
         print(f"outras violações: {len(result['other_violations'])}")
         for v in result["other_violations"][:30]:
             print("  -", v)
