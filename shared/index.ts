@@ -37,5 +37,4 @@ export {
   filterByIconclass,
   filterInScope,
   countByField,
-  averageEndurecimento,
 } from './services/corpus.js';

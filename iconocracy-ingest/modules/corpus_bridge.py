@@ -240,7 +240,6 @@ def csv_row_to_corpus_item(
         "motif_str": "",
         "tags_str": "",
         "regime": "",
-        "endurecimento_score": 0.0,
         "indicadores": dict(EMPTY_INDICADORES),
         "coded_by": "",
         "coded_at": "",

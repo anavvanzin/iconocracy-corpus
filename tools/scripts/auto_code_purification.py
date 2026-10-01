@@ -367,7 +367,6 @@ def main():
             # Infer scores
             scores = infer_scores(item, rec)
             regime = infer_regime(item, rec)
-            composite = round(sum(scores.values()) / len(scores), 2)
 
             # Build entry
             now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -379,7 +378,6 @@ def main():
                 "period": item.get("period"),
                 "medium_norm": item.get("medium_norm"),
                 **scores,
-                "purificacao_composto": composite,
                 "regime_iconocratico": regime,
                 "coded_by": "hermes-auto",
                 "coded_at": now,
@@ -392,7 +390,7 @@ def main():
 
             title_short = (item.get("title") or "?")[:50]
             print(f"  [{coded_count:3d}/{len(no_id_items)}] {new_id:20s} "
-                  f"composite={composite:.2f} regime={regime:12s} | {title_short}")
+                  f"regime={regime:12s} | {title_short}")
 
     # Write new entries to purification.jsonl
     with open(PURIFICATION_JSONL, "a") as f:
@@ -445,17 +443,29 @@ def main():
     print(f"  Final: {done}/{total} coded ({done/total*100:.0f}%)")
     print(f"{'=' * 50}")
 
-    # Stats
-    composites = []
+    # Stats: médias por indicador ordinal (o composto foi removido)
+    INDICATOR_KEYS = [
+        "desincorporacao", "rigidez_postural", "dessexualizacao",
+        "uniformizacao_facial", "heraldizacao", "enquadramento_arquitetonico",
+        "apagamento_narrativo", "monocromatizacao", "serialidade",
+        "inscricao_estatal",
+    ]
+    indicator_sums = Counter()
+    indicator_counts = Counter()
     regimes = Counter()
     with open(PURIFICATION_JSONL) as f:
         for line in f:
             e = json.loads(line)
-            composites.append(e.get("purificacao_composto", 0))
+            for ind in INDICATOR_KEYS:
+                if ind in e:
+                    indicator_sums[ind] += e[ind]
+                    indicator_counts[ind] += 1
             regimes[e.get("regime_iconocratico", "?")] += 1
 
-    print(f"  Composite range: {min(composites):.2f} - {max(composites):.2f}")
-    print(f"  Composite mean: {sum(composites)/len(composites):.2f}")
+    print("  Mean per indicator:")
+    for ind in INDICATOR_KEYS:
+        if indicator_counts[ind]:
+            print(f"    {ind}: {indicator_sums[ind] / indicator_counts[ind]:.2f}")
     print(f"  By regime: {dict(regimes)}")
 
 

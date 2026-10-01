@@ -172,7 +172,7 @@ Poder exercido pelo **visual** na cultura jurídica; a dimensão estética do di
 | 10 | **inscrição_estatal** | legenda/insígnia que ancora a figura ao Estado |
 
 > [!tip] Leitura da escala
-> `0` = ausente · `1` = incipiente · `2` = marcado · `3` = pleno. **`endurecimento_score = 0` é um escore válido** (baixa purificação), *não* "não-codificado".
+> `0` = ausente · `1` = incipiente · `2` = marcado · `3` = pleno. O campo `endurecimento_score` foi **removido definitivamente** em 2026-09-24 (ver `docs/decisions/2026-09-24-remocao-definitiva-do-campo.md`); a codificação vigente é o **inventário verbal de atributos** sobre os indicadores — nunca somado.
 
 ### Critérios de inclusão no corpus (todos obrigatórios)
 

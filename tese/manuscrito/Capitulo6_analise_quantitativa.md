@@ -44,7 +44,7 @@ Em termos de conteúdo iconográfico, o código **ICONCLASS 48C51** — taxonomi
 
 ### 6.2 O Endurecimento sob Exame: a matriz dos itens âncora
 
-A métrica de *Endurecimento* captura a aplicação do protocolo de Purificação Clássica, revelando a intensidade do distanciamento morfológico entre a alegoria e a corporalidade histórica. Para ilustrar o funcionamento transversal do modelo — do núcleo cívico ao domínio colonial hídrico —, a Tabela 2 cruza os scores dos quatro itens âncora desta etapa de pesquisa.
+A Tabela 2 apresenta observações ordinais por dimensão, sem escore global. As comparações são hipóteses a verificar no ledger de codificação e nos dossiês; não estabelecem correlação ou gradiente agregado.
 
 **Tabela 2 — Matriz de Endurecimento dos 4 Itens Âncora**
 
@@ -60,6 +60,5 @@ A métrica de *Endurecimento* captura a aplicação do protocolo de Purificaçã
 | Monocromatização | 2 | 2 | 0 | 0 |
 | Serialidade | 3 | 3 | 2 | 0 |
 | Inscrição estatal | 3 | 3 | 1 | 0 |
-| **Score de Endurecimento** | **2.2** | **1.7** | **1.3** | **0.0** |
 
-Os resultados demonstram a correlação direta entre o nível de "universalidade jurídica" exigida pela peça e seu endurecimento. O *Brasão da República* (SCOUT-562), dispositivo normativo por excelência, concentra-se no eixo de formalização burocrática — heraldização, apagamento narrativo, serialidade e inscrição estatal no grau máximo — e atinge score 1,7 [VERIFICAR: valor canônico corrigido em 2026-09-22; impressões anteriores deste capítulo traziam 3,0, herdado de uma sessão de codificação de junho já retificada no ledger]. No extremo oposto, a *Navigation et Commerce* (FR-094) atinge score basal (0,0), preservando a textura corpórea de seus modelos vivos. O gradiente quantitativo subsidia as conclusões qualitativas, vinculando a não-abstração aos processos de dominação hídrica e comércio ultramarino.
+Os valores separados sugerem perguntas sobre formalização burocrática e corporalidade. A relação com universalidade jurídica e dominação ultramarina exige comparação qualitativa de casos, sem inferir correlação a partir de um número agregado. [RECHECAGEM PENDENTE: conferir proveniência das observações e inventários verbais.]

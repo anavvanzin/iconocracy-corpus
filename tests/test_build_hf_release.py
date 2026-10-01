@@ -19,20 +19,18 @@ def test_load_jsonl_skips_blank_lines(tmp_path: Path):
     assert release.load_jsonl(source) == [{"id": "A"}, {"id": "B"}]
 
 
-def test_compute_stats_uses_fallbacks_and_ignores_non_numeric_scores():
+def test_compute_stats_uses_fallbacks():
     corpus = [
         {
             "country": "BR",
             "regime": "normativo",
             "support": "moeda",
-            "endurecimento_score": 1,
         },
         {
             "country": "BR",
             "medium_norm": "cartaz",
-            "endurecimento_score": 2.5,
         },
-        {"medium": "selo", "endurecimento_score": "3"},
+        {"medium": "selo"},
         {},
     ]
     records = [
@@ -52,14 +50,7 @@ def test_compute_stats_uses_fallbacks_and_ignores_non_numeric_scores():
     assert stats["schema_versions"] == ["1.0", "2.0", "unknown"]
     assert stats["regime_counts"] == {"normativo": 1, "unknown": 3}
     assert stats["top_supports"] == {"moeda": 1, "cartaz": 1, "selo": 1, "unknown": 1}
-    assert stats["mean_endurecimento"] == 1.75
     assert stats["corpus_records_delta"] == 1
-
-
-def test_compute_stats_returns_none_when_scores_are_absent():
-    stats = release.compute_stats([{"id": "A"}], [], [])
-
-    assert stats["mean_endurecimento"] is None
 
 
 @pytest.mark.parametrize(
@@ -73,7 +64,6 @@ def test_compute_stats_returns_none_when_scores_are_absent():
 def test_render_readme_describes_drift_direction(delta: int, expected: str):
     stats = {
         "schema_versions": [],
-        "mean_endurecimento": None,
         "corpus_records_delta": delta,
         "generated_at": "2026-08-09T00:00:00Z",
         "corpus_items": 2,
@@ -85,14 +75,12 @@ def test_render_readme_describes_drift_direction(delta: int, expected: str):
     readme = release.render_readme("owner/dataset", "v1", stats, "- note\n")
 
     assert expected in readme
-    assert "Mean endurecimento score: **n/a**" in readme
     assert "Master-record schema versions: `unknown`" in readme
 
 
 def test_render_readme_separates_incompatible_viewer_tables():
     stats = {
         "schema_versions": ["2.0.0"],
-        "mean_endurecimento": 0.964,
         "corpus_records_delta": 0,
         "generated_at": "2026-08-12T00:00:00Z",
         "corpus_items": 335,

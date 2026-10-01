@@ -110,7 +110,7 @@ The browsable surfaces in this repo are self-contained HTML, so they open straig
 | 9 | serialidade | seriality / mass reproduction |
 | 10 | inscrição_estatal | state inscription |
 
-The indicators are no longer summed. Since 2026-07-28 the composite index is retired as evidence and frozen as a historical artifact, and new coding records a verbal inventory of attributes instead ([decision](docs/decisions/2026-07-28-aposentadoria-do-indice-composto.md)). The `endurecimento_score` field in the public projection carries only those frozen legacy values.
+The indicators are no longer summed. Since 2026-07-28 the composite index is retired as evidence and frozen as a historical artifact, and new coding records a verbal inventory of attributes instead ([decision](docs/decisions/2026-07-28-aposentadoria-do-indice-composto.md)). On 2026-09-24 the `endurecimento_score` field (and the aggregate `indicadores` block) was **removed definitively** from the exporter, the canonical ledgers and the public projection ([decision](docs/decisions/2026-09-24-remocao-definitiva-do-campo.md)).
 
 Regimes place each figure along the trajectory **Fundacional → Normativo → Militar**, with **Contra-alegoria** as the subversive counter-movement. Items are read at Panofsky's three levels together with Warburg's apparatus (*Pathosformel*, *Nachleben*, *Zwischenraum*, always in German).
 
@@ -233,7 +233,7 @@ Authority is assigned by field family rather than by a linear ranking ([ADR-006]
 
 `corpus-data.json`, SQLite, CSV, dashboards and Hugging Face bundles are **disposable projections**. They must be rebuildable from the ledgers, so **never hand-edit `corpus-data.json`**; edit the source and regenerate with `records_to_corpus.py`.
 
-Public-projection fields are `id`, `title`, `date`, `country`, `motif`, `regime`, `support`, `description`, `url`, `indicadores`, `endurecimento_score` (legacy), `citation_abnt`, `coded_at`, `coded_by` and `audit_flags`. Qualitative coding fields (`subtipo`, `familia_alegorica`, `vetor_colonial`, `hipotese_racial`, …) remain available in the public, CC BY 4.0-licensed canonical artifact `data/processed/records.jsonl`, nested under `purificacao`; they are intentionally omitted from the streamlined `corpus/corpus-data.json` interface projection.
+Public-projection fields are `id`, `title`, `date`, `country`, `motif`, `regime`, `support`, `description`, `url`, `citation_abnt`, `coded_at`, `coded_by` and `audit_flags`. The `endurecimento_score` field and the `indicadores` block were removed from the projection on 2026-09-24 ([decision](docs/decisions/2026-09-24-remocao-definitiva-do-campo.md)); *endurecimento* coding now lives in the canonical ledgers as a verbal attribute inventory over the 10 ordinal indicators. Qualitative coding fields (`subtipo`, `familia_alegorica`, `vetor_colonial`, `hipotese_racial`, …) remain available in the public, CC BY 4.0-licensed canonical artifact `data/processed/records.jsonl`, nested under `purificacao`; they are intentionally omitted from the streamlined `corpus/corpus-data.json` interface projection.
 
 **Traceability rule.** Every item exists in three places: Google Drive (+ `data/raw/drive-manifest.json`) · a vault card in `vault/candidatos/` · a master record in `records.jsonl`. Per **ADR-001**, `data/raw/` stays metadata-only in git; binaries live on Google Drive.
 
@@ -252,7 +252,7 @@ The project audits itself. These findings come from a recount at commit `e86cb37
 - **Some ids do not join.** Ten coding ids do not resolve to a record through the id crosswalk, and two (`FR-007`, `US-011`) are not in the public projection.
 - **The period window is not a hard gate in the data.** Dated items span 1239 to 2021; 227 of the 294 items with a year fall inside 1800-2000.
 - **URLs.** Six records still carry placeholder URLs (`FR-036`, `FR-038`, `FR-039`, `FR-040`, `FR-047`, `FR-048`), and four URLs are shared by nine records as dedup candidates.
-- **Legacy composite.** The exported `endurecimento_score` copies the retired composite, and notebooks 01-05 and 08 still read it.
+- **Legacy composite removed.** The `endurecimento_score` field was removed from the export and the ledgers on 2026-09-24 ([decision](docs/decisions/2026-09-24-remocao-definitiva-do-campo.md)); notebooks 01-05 and 08 that once read it are frozen exploratory artifacts.
 - **Stale copies.** `corpus/companion-data.json` is frozen at an older 165-item snapshot (May 2026).
 - **Country labels are mixed.** The `country` field combines full names, an ISO code (`CL`) and compound labels such as "France (held in Austria)".
 - **Iconclass caution.** `48C51` is an internal project label. On iconclass.org it means painting; the official codes for the juridical cut are **44** (*state; law; political life*) and **11M44** (*Justitia*).

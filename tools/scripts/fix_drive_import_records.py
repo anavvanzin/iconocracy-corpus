@@ -41,7 +41,6 @@ PURIFICACAO_DEFAULT = {
     "monocromatizacao": 0,
     "serialidade": 0,
     "inscricao_estatal": 0,
-    "purificacao_composto": 0.0,
     "regime_iconocratico": "fundacional",
     "coded_by": "",
     "coded_at": "",

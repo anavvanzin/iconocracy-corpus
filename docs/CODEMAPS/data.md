@@ -19,7 +19,7 @@ Validated by `validate_schemas.py` (+ CI `validate.yml`: records↔corpus parity
 
 ## 10 purification indicators (ordinal 0–3)
 desincorporação · rigidez_postural · dessexualização · uniformização_facial · heraldicização · enquadramento_arquitetônico · apagamento_narrativo · monocromatização · serialidade · inscrição_estatal
-> `endurecimento_score=0` is a VALID score (low purification), not "uncoded". Composite = mean of the 10.
+> The `endurecimento_score` field (composite = mean of the 10) was **removed definitively** on 2026-09-24 — see `docs/decisions/2026-09-24-remocao-definitiva-do-campo.md`; current coding is a verbal attribute inventory over the 10 ordinal indicators.
 
 ## Corpus parameters
 - **Countries:** FR · UK · DE · US · BE · BR (6)

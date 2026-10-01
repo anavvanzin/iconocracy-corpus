@@ -88,11 +88,6 @@ def compute_stats(corpus: list[dict], records: list[dict], purification: list[di
         )
         for item in corpus
     )
-    scores = [
-        float(item["endurecimento_score"])
-        for item in corpus
-        if isinstance(item.get("endurecimento_score"), (int, float))
-    ]
     coded_ids = sorted({row.get("id") for row in purification if row.get("id")})
     schema_versions = sorted({row.get("master_record_version", "unknown") for row in records})
 
@@ -107,7 +102,6 @@ def compute_stats(corpus: list[dict], records: list[dict], purification: list[di
         "regime_counts": dict(regimes),
         "top_countries": compact_counter(countries),
         "top_supports": compact_counter(supports),
-        "mean_endurecimento": round(sum(scores) / len(scores), 3) if scores else None,
         "corpus_records_delta": len(corpus) - len(records),
     }
 
@@ -124,7 +118,6 @@ def render_changelog(notes: list[str], stats: dict) -> str:
 
 def render_readme(dataset_repo: str, release_tag: str, stats: dict, changelog: str) -> str:
     schema_versions = ", ".join(stats["schema_versions"]) if stats["schema_versions"] else "unknown"
-    mean_score = "n/a" if stats["mean_endurecimento"] is None else str(stats["mean_endurecimento"])
     delta = stats["corpus_records_delta"]
     drift_line = "No corpus/records drift detected." if delta == 0 else (
         f"Corpus/records drift detected: corpus-data.json has {abs(delta)} "
@@ -174,7 +167,6 @@ Release snapshot for `{dataset_repo}` built from the local `iconocracy-corpus` r
 - Canonical records: **{stats['records_items']}**
 - Coded items: **{stats['coded_items']}**
 - Countries represented: **{stats['country_count']}**
-- Mean endurecimento score: **{mean_score}**
 - Master-record schema versions: `{schema_versions}`
 
 ## Contract

@@ -60,17 +60,13 @@ sobrevive, no Nachleben iconocrático, não é uma emoção: é o Contrato Sexua
 nova cunhagem. A montagem warburguiana, aqui, torna-se instrumento de uma história da cultura jurídica,
 não da sensibilidade.
 
-Dessa reoperação decorre a adaptação decisiva, aquela que distingue o Atlas Iconocrático de uma simples
-transposição temática do método warburguiano. Warburg justapunha imagens e deixava que a afinidade
-*falasse* pela vizinhança; o juízo sobre a intensidade do gesto permanecia intuitivo, confiado ao olho
-do montador. O Atlas Iconocrático acrescenta a essa justaposição uma **métrica**: cada imagem do painel
-carrega o seu vetor de dez indicadores de endurecimento (Cap. 5) e o seu escore composto. A afinidade
-deixa de ser apenas qualitativa — "estas duas figuras se parecem" — e passa a ser *ordinal*: "esta
-figura está mais purificada que aquela, e a diferença é mensurável". O painel, assim, não apenas exibe
-a sobrevivência de uma fórmula; ele mede a sua *trajetória de endurecimento* ao longo do intervalo. É a
-articulação entre a intuição warburguiana da montagem e o rigor iconométrico da Parte II que constitui a
-originalidade formal deste capítulo — e é ela que permite ao Atlas ser, ao mesmo tempo, um argumento
-visual e um argumento verificável.
+Dessa reoperação decorre a adaptação do Atlas: cada imagem conserva observações
+separadas por indicador e a respectiva proveniência. A montagem aproxima casos
+por atributos nomeados, suporte e contexto histórico, sem lhes atribuir intensidade
+global ou trajetória calculada. A interpretação da sobrevivência de uma fórmula
+exige documentação histórica; a cronologia e a cardinalidade não a demonstram.
+O inventário verbal ainda incompleto mantém essas comparações como hipóteses a
+verificar nos dossiês.
 
 ## 8.2 — Critérios de composição dos painéis
 
@@ -98,10 +94,9 @@ prancha warburguiana, mas disciplinada — dispõe os objetos em posições argu
 Um **polo esquerdo** marca o ponto de partida da transição (o corpo menos endurecido); um **polo
 direito** marca o ponto de chegada (o corpo mais endurecido); e um **contraponto inferior** exibe um
 objeto que *falha* ou *resiste* à operação — a alegoria que não cruza o limiar, a figura que conserva
-corporalidade, a contra-alegoria que subverte a fórmula. A escolha dos polos é ancorada no escore
-composto: o polo esquerdo tem endurecimento baixo, o direito, alto, e o gradiente entre eles é a
-*medida* da transição que o painel encena. Onde Warburg confiava a leitura à vizinhança, o Atlas
-Iconocrático a ancora numa ordenação verificável.
+corporalidade, a contra-alegoria que subverte a fórmula. A escolha dos polos deve ser justificada por atributos nomeados, suporte e contexto, sem ordenar casos por intensidade agregada.
+
+> **[RECHECAGEM PENDENTE — 29/09/2026]** A passagem acima conserva uma hipótese de leitura, sem valor probatório de agregado. Qualquer comparação de intensidade, gradiente ou trajetória permanece suspensa até ser justificada por indicadores separados, imagem, suporte e inventário verbal documentado. Não usar os valores ou rankings das versões anteriores.
 
 **Terceiro, o critério do texto de painel.** À imagem justapõe-se o texto — não uma legenda descritiva,
 mas um bloco curto (200–500 palavras) que enuncia a operação em curso. É aqui que a leitura iconológica

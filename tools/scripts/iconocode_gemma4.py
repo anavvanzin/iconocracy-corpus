@@ -165,8 +165,23 @@ def load_corpus() -> list[dict[str, Any]]:
     return json.loads(CORPUS_PATH.read_text())
 
 
-def uncoded_items(corpus: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    return [i for i in corpus if not i.get("indicadores")]
+def uncoded_items(corpus: list[dict[str, Any]], ledger_path: Path | None = None) -> list[dict[str, Any]]:
+    # Presence of a complete observation is coding, including genuine all-zero rows.
+    # Never infer status from a disposable export or from indicator intensity.
+    path = ledger_path or REPO / "data/processed/purification.jsonl"
+    rows = [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
+    coded = {row["id"] for row in rows if all(
+        isinstance(row.get(k), int) and not isinstance(row[k], bool) and 0 <= row[k] <= 3
+        for k in INDICATOR_KEYS
+    )}
+    mapping_path = REPO / "data/processed/id-mapping.json"
+    mappings = json.loads(mapping_path.read_text()).get("mapping", []) if mapping_path.exists() else []
+    aliases = {m["corpus_id"]: m["item_id"] for m in mappings if m.get("corpus_id") and m.get("item_id")}
+    canonical_coded = set(coded)
+    for identifier in coded:
+        canonical_coded.add(aliases.get(identifier, identifier))
+        canonical_coded.add(str(uuid.uuid5(uuid.NAMESPACE_DNS, f"iconocracy-corpus-{identifier}")))
+    return [i for i in corpus if i["id"] not in canonical_coded and aliases.get(i["id"]) not in canonical_coded]
 
 
 def select_items(
