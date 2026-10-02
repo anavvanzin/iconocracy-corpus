@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>metamorfose · marianne — render aprimorado</title>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.184.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.184.0/examples/jsm/"
+  }
+}
+</script>
+<style>
+@font-face{font-family:"Instrument Serif";font-style:normal;font-weight:400;font-display:swap;src:url("../fonts/instrument-serif.woff2") format("woff2")}
+@font-face{font-family:"Instrument Serif";font-style:italic;font-weight:400;font-display:swap;src:url("../fonts/instrument-serif-italic.woff2") format("woff2")}
+@font-face{font-family:"Crimson Pro";font-style:normal;font-weight:400 700;font-display:swap;src:url("../fonts/crimson-pro.woff2") format("woff2")}
+@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:400 700;font-display:swap;src:url("../fonts/jetbrains-mono.woff2") format("woff2")}
+:root{
+  --paper:#EFE5CF; --cream:#F6F0DF; --ink:#1B150F; --ink-30:rgba(27,21,15,.3);
+  --lacre:#A8281F; --muted:#6E6353; --faint:#9A8E78; --gold:#B08D2F;
+  --stage:#17120E;
+  --font-display:"Instrument Serif",Georgia,serif;
+  --font-body:"Crimson Pro",Georgia,serif;
+  --font-mono:"JetBrains Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--paper);color:var(--ink);font-family:var(--font-body)}
+a{color:var(--lacre)}
+.mf{display:grid;grid-template-columns:minmax(300px,400px) minmax(0,1fr);height:100vh;overflow:hidden}
+.mf-panel{overflow-y:auto;min-height:0;border-right:2px solid var(--ink);padding:44px 32px;display:flex;flex-direction:column;gap:28px}
+.mf-eyebrow{font-family:var(--font-mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--lacre);margin:0}
+.mf-panel h1{font-family:var(--font-display);font-weight:400;font-size:52px;line-height:1.02;margin:10px 0 0}
+.mf-intro{font-size:16px;line-height:1.6;margin:14px 0 0;text-wrap:pretty}
+.mf-en{font-size:13px;color:var(--faint);font-style:italic;margin:8px 0 0}
+.mf-sec{border-top:1px solid var(--ink);padding-top:14px}
+.mf-sec h2{font-family:var(--font-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;font-weight:400}
+.mf-attrs{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink-30)}
+.mf-attrs li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;padding:9px 0;border-bottom:1px solid var(--ink-30);font-size:14px}
+.mf-attrs .tag{font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);align-self:center}
+.mf-upg{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink-30)}
+.mf-upg li{padding:9px 0;border-bottom:1px solid var(--ink-30);font-size:14px;line-height:1.45}
+.mf-upg .k{font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--lacre);display:block;margin-bottom:2px}
+.mf-cap{font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);line-height:1.7;margin:0}
+.mf-row{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-top:auto}
+.mf-btn{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;background:none;border:1px solid var(--ink);color:var(--ink);padding:8px 16px;cursor:pointer;transition:background 150ms,color 150ms}
+.mf-btn:hover{background:var(--ink);color:var(--paper)}
+.mf-hint{font-family:var(--font-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+.mf-stage{position:relative;height:100vh;min-height:0;background:var(--stage)}
+.mf-stage canvas{display:block}
+.mf-prog{position:absolute;left:0;right:0;top:0;height:2px;background:rgba(176,141,47,.18);z-index:2}
+.mf-prog i{display:block;height:100%;background:var(--lacre);width:0;transition:width .2s}
+.mf-veil{position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(120% 90% at 50% 38%,transparent 55%,rgba(10,7,4,.55) 100%)}
+.mf-label{position:absolute;left:20px;bottom:16px;z-index:2;font-family:var(--font-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:rgba(239,229,207,.45);pointer-events:none}
+@media (max-width:860px){.mf{grid-template-columns:minmax(0,1fr);height:auto;overflow:visible}.mf-panel{overflow:visible;border-right:0;border-bottom:2px solid var(--ink)}.mf-stage{height:78vh}}
+</style>
+</head>
+<body>
+<div class="mf">
+<aside class="mf-panel">
+  <div>
+    <p class="mf-eyebrow">arquivo vivo · painel ii · render v2</p>
+    <h1>metamorfose</h1>
+    <p class="mf-intro">O corpo fica; mudam os atributos. Este é o quadro <em>Marianne</em> — barrete frígio e bandeira tricolor — exportado do palco paramétrico e retrabalhado na luz: mesma malha, mesmo gesto, outra presença.</p>
+    <p class="mf-en">Same mesh, same gesture — the light does the carving now.</p>
+  </div>
+  <div class="mf-sec">
+    <h2>02 · Marianne · França · 1792</h2>
+    <ul class="mf-attrs">
+      <li><span>barrete frígio</span><span class="tag">cap</span></li>
+      <li><span>bandeira tricolor</span><span class="tag">flag</span></li>
+    </ul>
+  </div>
+  <div class="mf-sec">
+    <h2>o que mudou nesta versão</h2>
+    <ul class="mf-upg">
+      <li><span class="k">luz ambiente (PMREM)</span>O bronze, antes quase negro, agora reflete o ambiente — metal sem environment map não é metal, é tinta.</li>
+      <li><span class="k">sombra e tonalidade</span>Luz-chave quente com sombras suaves (PCF), rim frio nas costas, mapeamento tonal ACES.</li>
+      <li><span class="k">materiais PBR</span>Mármore com veios sutis e clearcoat, barrete em veludo (sheen), pedra com granulação, bronze polido.</li>
+      <li><span class="k">normais suavizadas</span>Braços, rosto e drapeado sem facetamento; o pedestal conserva o degrau intencional.</li>
+      <li><span class="k">compressão</span>2,0 MB → 403 KB (meshopt + quantização), 37 nós e nomes de material preservados.</li>
+    </ul>
+  </div>
+  <div class="mf-sec">
+    <p class="mf-cap">glb exportado = quadro marianne<br />a metamorfose completa (5 alegorias)<br />vive no metamorfose-3d.js —<br />a camada de luz/materiais portável<br />está no guia anexo</p>
+  </div>
+  <div class="mf-row">
+    <button class="mf-btn" id="btn-auto">Pausar</button>
+    <button class="mf-btn" id="btn-reset">Recolocar câmera</button>
+    <span class="mf-hint">arraste para girar · scroll para zoom</span>
+  </div>
+</aside>
+<main class="mf-stage" id="stage">
+  <div class="mf-prog"><i id="prog"></i></div>
+  <div class="mf-veil"></div>
+  <p class="mf-label">marianne · fr-1792 · 94.934 faces · 403 kb</p>
+</main>
+</div>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
+
+const stage = document.getElementById('stage');
+const prog = document.getElementById('prog');
+
+/* ---------- renderer ---------- */
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(stage.clientWidth, stage.clientHeight);
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 0.92;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFShadowMap;
+stage.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x17120e);
+
+/* environment: this is what makes bronze read as metal */
+const pmrem = new THREE.PMREMGenerator(renderer);
+scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+scene.environmentIntensity = 0.28;
+
+/* ---------- camera & controls ---------- */
+const camera = new THREE.PerspectiveCamera(32, stage.clientWidth / stage.clientHeight, 0.1, 50);
+const HOME = { pos: new THREE.Vector3(2.95, 2.2, 5.05), tgt: new THREE.Vector3(-0.45, 1.35, 0) };
+camera.position.copy(HOME.pos);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.target.copy(HOME.tgt);
+controls.enableDamping = true;
+controls.dampingFactor = 0.06;
+controls.autoRotate = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+controls.autoRotateSpeed = 0.7;
+controls.minDistance = 1.6;
+controls.maxDistance = 9;
+controls.maxPolarAngle = Math.PI * 0.52;
+controls.update();
+
+/* ---------- lights: museum vitrine ---------- */
+const key = new THREE.DirectionalLight(0xfff0dc, 1.65);
+key.position.set(2.6, 4.6, 2.8);
+key.castShadow = true;
+key.shadow.mapSize.set(2048, 2048);
+key.shadow.radius = 5;
+key.shadow.camera.left = -2.4; key.shadow.camera.right = 2.4;
+key.shadow.camera.top = 3.2;   key.shadow.camera.bottom = -0.5;
+key.shadow.camera.near = 1;    key.shadow.camera.far = 14;
+key.shadow.bias = -0.0003;
+key.shadow.normalBias = 0.025;
+scene.add(key);
+
+const rim = new THREE.DirectionalLight(0x9db8d8, 1.5);
+rim.position.set(-3.6, 3.1, -3.2);
+scene.add(rim);
+
+scene.add(new THREE.HemisphereLight(0x4a3f2e, 0x0c0a07, 0.5));
+
+/* warm spot pool on the floor */
+const spot = new THREE.SpotLight(0xffe6b8, 26, 12, Math.PI * 0.24, 0.55, 1.6);
+spot.position.set(0.4, 5.4, 0.9);
+spot.target.position.set(-0.3, 0, 0);
+scene.add(spot, spot.target);
+
+/* ---------- ground: shadow catcher + light pool ---------- */
+const ground = new THREE.Mesh(
+  new THREE.PlaneGeometry(14, 14),
+  new THREE.ShadowMaterial({ opacity: 0.55 })
+);
+ground.rotation.x = -Math.PI / 2;
+ground.receiveShadow = true;
+scene.add(ground);
+
+function radialPool() {
+  const c = document.createElement('canvas'); c.width = c.height = 512;
+  const x = c.getContext('2d');
+  const g = x.createRadialGradient(256, 256, 10, 256, 256, 256);
+  g.addColorStop(0, 'rgba(255,225,170,0.16)');
+  g.addColorStop(0.45, 'rgba(255,220,160,0.06)');
+  g.addColorStop(1, 'rgba(255,220,160,0)');
+  x.fillStyle = g; x.fillRect(0, 0, 512, 512);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
+  return t;
+}
+const pool = new THREE.Mesh(
+  new THREE.PlaneGeometry(6.5, 6.5),
+  new THREE.MeshBasicMaterial({ map: radialPool(), transparent: true, depthWrite: false })
+);
+pool.rotation.x = -Math.PI / 2;
+pool.position.y = 0.002;
+scene.add(pool);
+
+/* ---------- procedural maps ---------- */
+function marbleMaps(size = 512) {
+  const albedo = document.createElement('canvas'); albedo.width = albedo.height = size;
+  const a = albedo.getContext('2d');
+  a.fillStyle = '#f4f2ee'; a.fillRect(0, 0, size, size);
+  let rng = 7;
+  const rnd = () => (rng = (rng * 16807) % 2147483647) / 2147483647;
+  for (let i = 0; i < 34; i++) {                       /* faint veins */
+    a.strokeStyle = `rgba(105,96,84,${0.04 + rnd() * 0.06})`;
+    a.lineWidth = 0.5 + rnd() * 1.4;
+    a.beginPath();
+    let x = rnd() * size, y = rnd() * size;
+    a.moveTo(x, y);
+    for (let s = 0; s < 26; s++) {
+      x += (rnd() - 0.5) * 46; y += (rnd() - 0.35) * 30;
+      a.lineTo(x, y);
+    }
+    a.stroke();
+  }
+  const rough = document.createElement('canvas'); rough.width = rough.height = 256;
+  const r = rough.getContext('2d');
+  const img = r.createImageData(256, 256);
+  for (let i = 0; i < img.data.length; i += 4) {
+    const v = 108 + rnd() * 40;
+    img.data[i] = img.data[i + 1] = img.data[i + 2] = v; img.data[i + 3] = 255;
+  }
+  r.putImageData(img, 0, 0);
+  const map = new THREE.CanvasTexture(albedo); map.colorSpace = THREE.SRGBColorSpace;
+  map.wrapS = map.wrapT = THREE.RepeatWrapping;
+  const roughnessMap = new THREE.CanvasTexture(rough);
+  roughnessMap.wrapS = roughnessMap.wrapT = THREE.RepeatWrapping;
+  return { map, roughnessMap };
+}
+function stoneBump(size = 256) {
+  const c = document.createElement('canvas'); c.width = c.height = size;
+  const x = c.getContext('2d');
+  const img = x.createImageData(size, size);
+  let rng = 13;
+  const rnd = () => (rng = (rng * 48271) % 2147483647) / 2147483647;
+  for (let i = 0; i < img.data.length; i += 4) {
+    const v = 118 + rnd() * 22;
+    img.data[i] = img.data[i + 1] = img.data[i + 2] = v; img.data[i + 3] = 255;
+  }
+  x.putImageData(img, 0, 0);
+  const t = new THREE.CanvasTexture(c);
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  return t;
+}
+const marble = marbleMaps();
+const stone = stoneBump();
+
+/* ---------- material upgrades (keyed by exported material name) ---------- */
+function upgradeMaterials(root) {
+  root.traverse(o => {
+    if (!o.isMesh) return;
+    o.castShadow = true;
+    o.receiveShadow = true;
+    const m = o.material;
+    const name = (m.name || '').toLowerCase();
+    if (name.startsWith('marmore')) {
+      o.material = new THREE.MeshPhysicalMaterial({
+        name: m.name, color: m.color.clone().multiplyScalar(0.88), map: marble.map,
+        roughness: 0.46, roughnessMap: marble.roughnessMap,
+        clearcoat: 0.12, clearcoatRoughness: 0.55,
+        sheen: 0.2, sheenColor: new THREE.Color(0xfff4e0), sheenRoughness: 0.75,
+        envMapIntensity: 0.65
+      });
+    } else if (name.startsWith('siena')) {              /* barrete: velvet */
+      o.material = new THREE.MeshPhysicalMaterial({
+        name: m.name, color: m.color.clone().multiplyScalar(0.6),
+        roughness: 0.9, sheen: 1.0,
+        sheenColor: new THREE.Color(0x6e2418), sheenRoughness: 0.65,
+        envMapIntensity: 0.22
+      });
+    } else if (name.startsWith('bronze')) {
+      o.material = new THREE.MeshStandardMaterial({
+        name: m.name, color: m.color.clone(),
+        metalness: 1.0, roughness: 0.3, envMapIntensity: 1.25
+      });
+    } else if (name.startsWith('aco')) {
+      o.material = new THREE.MeshStandardMaterial({
+        name: m.name, color: m.color.clone(),
+        metalness: 1.0, roughness: 0.22, envMapIntensity: 1.2
+      });
+    } else if (name.startsWith('pedra')) {
+      o.material = new THREE.MeshStandardMaterial({
+        name: m.name, color: m.color.clone(),
+        roughness: name.includes('friso') ? 0.72 : 0.88,
+        bumpMap: stone, bumpScale: 0.6, envMapIntensity: 0.3
+      });
+    } else if (name.startsWith('bandeira')) {
+      m.roughness = 0.9; m.side = THREE.DoubleSide; m.envMapIntensity = 0.4;
+      m.emissive.set(0x000000);                 /* frozen morph-transition glow */
+      m.emissiveIntensity = 0;
+    } else if (name.startsWith('inscricao')) {
+      m.roughness = 0.55; m.envMapIntensity = 0.6;
+      m.emissive = new THREE.Color(0xffffff);
+      m.emissiveMap = m.map; m.emissiveIntensity = 0.08;
+    }
+  });
+}
+
+/* ---------- load ---------- */
+const loader = new GLTFLoader();
+loader.setMeshoptDecoder(MeshoptDecoder);
+loader.load('metamorfose-alegorias.glb',
+  gltf => {
+    upgradeMaterials(gltf.scene);
+    scene.add(gltf.scene);
+    prog.style.width = '100%';
+    setTimeout(() => prog.parentElement.style.opacity = '0', 400);
+  },
+  ev => { if (ev.total) prog.style.width = (ev.loaded / ev.total * 100) + '%'; },
+  err => { prog.parentElement.style.background = 'var(--lacre)'; console.error(err); }
+);
+
+/* ---------- ui ---------- */
+const btnAuto = document.getElementById('btn-auto');
+btnAuto.textContent = controls.autoRotate ? 'Pausar' : 'Retomar';
+btnAuto.onclick = () => {
+  controls.autoRotate = !controls.autoRotate;
+  btnAuto.textContent = controls.autoRotate ? 'Pausar' : 'Retomar';
+};
+document.getElementById('btn-reset').onclick = () => {
+  camera.position.copy(HOME.pos);
+  controls.target.copy(HOME.tgt);
+};
+controls.addEventListener('start', () => {
+  if (controls.autoRotate) { controls.autoRotate = false; btnAuto.textContent = 'Retomar'; }
+});
+
+/* ---------- loop ---------- */
+addEventListener('resize', () => {
+  camera.aspect = stage.clientWidth / stage.clientHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(stage.clientWidth, stage.clientHeight);
+});
+renderer.setAnimationLoop(() => {
+  controls.update();
+  renderer.render(scene, camera);
+});
+</script>
+</body>
+</html>
