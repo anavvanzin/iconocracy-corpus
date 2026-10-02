@@ -15,6 +15,7 @@ Usage:
     python analyze_threads.py corpus.json painel-1.json painel-2.json ...
     python analyze_threads.py corpus.json *.json
     python analyze_threads.py corpus.json --demo   # uses synthetic threads
+    python analyze_threads.py corpus.json --purification data/processed/purification.jsonl painel.json
 
 Outputs:
     thread-analysis-report.md      (human-readable report)
@@ -22,13 +23,13 @@ Outputs:
     thread-graph.svg               (network visualization)
 """
 
-import json, sys, os
+import argparse, json, sys, os, re
 from pathlib import Path
 from collections import defaultdict, Counter
-# Composto aposentado no codebook v2.2.1 (DEC-2026-07-28): ordenação e
-# comparação passam a usar o inventário de atributos, não o escore agregado.
+# DEC-2026-09-24: no cardinality, scalar surrogate, or inferred genealogy.
+# Comparisons retain named observations; missing observations remain missing.
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
-from tools.scripts.lpai_indicators import attribute_count, attribute_inventory  # noqa: E402
+from tools.scripts.lpai_indicators import indicator_values  # noqa: E402
 
 
 # ============================================================================
@@ -65,6 +66,35 @@ REGIME_COLORS = {
 # Loading
 # ============================================================================
 
+DEFAULT_PURIFICATION = Path(__file__).resolve().parents[3] / "data/processed/purification.jsonl"
+
+def load_purification(path):
+    """Read named observations from the canonical ledger; reject ambiguous IDs.
+
+    Missing rows/dimensions remain unavailable. Never fall back to projections.
+    A missing or malformed ledger is an error, not an empty successful audit.
+    """
+    observations = {}
+    with open(path, encoding="utf-8") as f:
+        for line_number, line in enumerate(f, 1):
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            item_id = row.get("id")
+            if not item_id or item_id in observations:
+                raise ValueError(f"{path}:{line_number}: missing or duplicate ledger id {item_id!r}")
+            observations[item_id] = indicator_values(row)
+    return observations
+
+def parse_args(argv):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("corpus")
+    parser.add_argument("panels", nargs="*")
+    parser.add_argument("--demo", action="store_true")
+    parser.add_argument("--purification", type=Path, default=DEFAULT_PURIFICATION,
+                        help="canonical observation ledger (default: data/processed/purification.jsonl)")
+    return parser.parse_intermixed_args(argv[1:])
+
 def load_corpus(path):
     with open(path, encoding='utf-8') as f:
         data = json.load(f)
@@ -92,6 +122,24 @@ def load_panels(paths):
                 print(f"⚠ Failed to load {p}: {e}")
     return panels
 
+def entry_year(entry):
+    """Ano do item para as regras temporais.
+
+    O corpus vigente não tem campo `year` — só `date`, em formatos variados
+    ('1943', '1931-XX-XX', 'ca. 1794', '1835-1841', '1926/1934'). Sem este
+    fallback, todas as regras temporais de classify_relation degeneram
+    (ano None → 0 → co-presence em todo par do mesmo regime/país).
+    """
+    year = entry.get('year')
+    if isinstance(year, (int, float)) and not isinstance(year, bool):
+        return int(year)
+    date = entry.get('date')
+    if date:
+        m = re.search(r'(\d{4})', str(date))
+        if m:
+            return int(m.group(1))
+    return None
+
 def make_demo_panels(corpus_by_id):
     """Generate synthetic panel data illustrating likely thread patterns."""
     # Pick representative items for each panel
@@ -102,7 +150,7 @@ def make_demo_panels(corpus_by_id):
     # Panel 1 — Gênese — French Revolutionary fundacional
     p1_items = pick(lambda e: (e.get('country') == 'France' and 
                                 e.get('regime') == 'fundacional' and 
-                                (e.get('year') or 0) <= 1830), n=5)
+                                (entry_year(e) or 0) <= 1830), n=5)
     panels.append({
         'panelId': 1, 'panelName': 'Gênese',
         'placements': [{'uid': f'p-1-{i}', 'id': eid, 'x':100+i*200, 'y':200} 
@@ -113,13 +161,8 @@ def make_demo_panels(corpus_by_id):
     })
     
     # Panel 4 — ENDURECIMENTO — inventário comparado de atributos
-    # (composto aposentado no codebook v2.2.1: ordena-se por quantidade de
-    # atributos marcados, que não afirma intensidade, só cardinalidade)
-    sorted_by_attrs = sorted(
-        [(eid, e) for eid, e in corpus_by_id.items() if attribute_count(e) > 0],
-        key=lambda x: attribute_count(x[1])
-    )
-    p4_items = [eid for eid, _ in sorted_by_attrs[:3]] + [eid for eid, _ in sorted_by_attrs[-4:]]
+    # Demo cases are deterministic and never ranked by ordinal aggregation.
+    p4_items = list(corpus_by_id)[:7]
     panels.append({
         'panelId': 4, 'panelName': 'ENDURECIMENTO',
         'placements': [{'uid': f'p-4-{i}', 'id': eid, 'x':100+i*200, 'y':200} 
@@ -160,8 +203,9 @@ def make_demo_panels(corpus_by_id):
 # Analysis
 # ============================================================================
 
-def expand_threads(panels, corpus_by_id):
+def expand_threads(panels, corpus_by_id, observations_by_id=None):
     """Expand each thread into {a, b, panel_id, ...} with corpus metadata."""
+    observations_by_id = observations_by_id or {}
     expanded = []
     for panel in panels:
         plac_by_uid = {p['uid']: p for p in panel.get('placements', [])}
@@ -180,11 +224,11 @@ def expand_threads(panels, corpus_by_id):
                 'a_id': a_id, 'b_id': b_id,
                 'a_title': a_entry.get('title', '(?)'),
                 'b_title': b_entry.get('title', '(?)'),
-                'a_year': a_entry.get('year'), 'b_year': b_entry.get('year'),
+                'a_year': entry_year(a_entry), 'b_year': entry_year(b_entry),
                 'a_country': a_entry.get('country', ''), 'b_country': b_entry.get('country', ''),
                 'a_regime': a_entry.get('regime', ''), 'b_regime': b_entry.get('regime', ''),
-                'a_attrs': attribute_count(a_entry),
-                'b_attrs': attribute_count(b_entry),
+                'a_indicators': observations_by_id.get(a_id, {}),
+                'b_indicators': observations_by_id.get(b_id, {}),
                 'a_motifs': a_entry.get('motif', []) or [],
                 'b_motifs': b_entry.get('motif', []) or [],
                 'a_pathos': get_pathos(a_entry),
@@ -208,15 +252,15 @@ def classify_relation(thread):
     a_country, b_country = thread['a_country'], thread['b_country']
     a_motifs = set(m.lower() for m in thread['a_motifs'])
     b_motifs = set(m.lower() for m in thread['b_motifs'])
-    a_score, b_score = thread['a_score'] or 0, thread['b_score'] or 0
-    a_year, b_year = thread['a_year'] or 0, thread['b_year'] or 0
+    a_year, b_year = thread['a_year'], thread['b_year']
+    has_dates = a_year is not None and b_year is not None
     a_pathos, b_pathos = thread['a_pathos'], thread['b_pathos']
     
     # Same regime + same country = serialization or co-presence
     if a_regime == b_regime and a_country == b_country:
-        if abs((a_year - b_year)) < 5:
+        if has_dates and abs(a_year - b_year) < 5:
             types.append(('co-presence', 0.8))
-        else:
+        elif has_dates:
             types.append(('serialization', 0.6))
     
     # Different country, same motif, same regime = translatio
@@ -224,16 +268,15 @@ def classify_relation(thread):
         types.append(('translatio', 0.85))
     
     # Same country, fundacional → militar = martialization
-    if a_country == b_country and a_year < b_year:
+    if has_dates and a_country == b_country and a_year < b_year:
         if a_regime == 'fundacional' and b_regime == 'militar':
             types.append(('martialization', 0.9))
         if a_regime == 'normativo' and b_regime == 'militar':
             types.append(('martialization', 0.7))
     
-    # Increasing endurecimento score over time = endurecimento (typed as serialization+genealogy)
-    if a_year < b_year and b_score > a_score + 0.3:
-        types.append(('genealogy', 0.7))
-    
+    # Genealogy requires historical evidence; chronology and attribute counts
+    # cannot establish descent. No automatic genealogy inference is made.
+
     # contra-alegoria endpoint = satirization
     if a_regime == 'contra-alegoria' or b_regime == 'contra-alegoria':
         types.append(('satirization', 0.85))
@@ -247,7 +290,7 @@ def classify_relation(thread):
             types.append(('nachleben', 0.9))
     
     # Far apart in time, same motif = nachleben
-    if abs(a_year - b_year) > 100 and (a_motifs & b_motifs):
+    if has_dates and abs(a_year - b_year) > 100 and (a_motifs & b_motifs):
         types.append(('nachleben', 0.7))
     
     if not types:
@@ -298,12 +341,11 @@ def analyze(threads):
             if r:
                 regime_relation[r][t['primary_relation']] += 1
     
-    # Average score delta per relation
-    score_deltas = defaultdict(list)
+    # Preserve named transitions only; never reduce dimensions to a scalar.
     for t in threads:
-        if t['a_score'] and t['b_score']:
-            score_deltas[t['primary_relation']].append(abs(t['b_score'] - t['a_score']))
-    
+        a, b = t['a_indicators'], t['b_indicators']
+        t['indicator_transitions'] = {k: [a.get(k), b.get(k)] for k in sorted(set(a) | set(b))}
+
     return {
         'total_threads': len(threads),
         'relations': dict(rel_counts.most_common()),
@@ -312,7 +354,6 @@ def analyze(threads):
         'country_pairs': {f'{a}↔{b}': n for (a,b), n in country_pairs.most_common(10)},
         'shared_motifs': dict(motif_pairs.most_common(15)),
         'regime_relation_matrix': {r: dict(c) for r, c in regime_relation.items()},
-        'avg_score_delta': {r: round(sum(v)/len(v), 2) for r, v in score_deltas.items() if v},
         'threads': threads,
     }
 
@@ -382,15 +423,12 @@ def build_report(analysis, panels):
         md.append(f"| {m} | {n} |")
     md.append("")
     
-    if a['avg_score_delta']:
-        md.append("## 6. Delta médio de score por relação\n")
-        md.append("Quanto o score de endurecimento varia entre os dois extremos do fio:\n")
-        md.append("| Relação | Δ médio |")
-        md.append("|---|---:|")
-        for r, d in sorted(a['avg_score_delta'].items(), key=lambda x: -x[1]):
-            md.append(f"| {r} | {d:.2f} |")
-        md.append("")
-    
+    md.append("## 6. Comparação por dimensão\n")
+    md.append("A projeção pública não é autoridade de codificação. Transições usam exclusivamente o ledger canônico de purificação, unido por ID; ausência não é zero. Genealogias exigem evidência histórica e revisão humana, sem inferência por cardinalidade.\n")
+    for t in a['threads']:
+        md.append(f"- `{t['a_id']}` → `{t['b_id']}`: {t['indicator_transitions'] or 'observações indisponíveis'}")
+    md.append("")
+
     md.append("## 7. Catálogo completo de fios\n")
     by_panel = defaultdict(list)
     for t in a['threads']:
@@ -501,16 +539,18 @@ def main(argv):
         print(__doc__)
         sys.exit(1)
     
-    corpus_path = argv[1]
+    args = parse_args(argv)
+    corpus_path = args.corpus
+    observations_by_id = load_purification(args.purification)
     print(f"Loading corpus from {corpus_path}…")
     corpus_by_id = load_corpus(corpus_path)
     print(f"  {len(corpus_by_id)} entries indexed.\n")
     
-    if '--demo' in argv:
+    if args.demo:
         print("Generating demo panel data (no real threads given)…")
         panels = make_demo_panels(corpus_by_id)
     else:
-        panel_paths = [p for p in argv[2:] if p.endswith('.json')]
+        panel_paths = args.panels
         if not panel_paths:
             print("No panel JSON files given. Use --demo to see example output.")
             sys.exit(1)
@@ -519,7 +559,7 @@ def main(argv):
     
     print(f"  Loaded {len(panels)} panel(s)\n")
     
-    threads = expand_threads(panels, corpus_by_id)
+    threads = expand_threads(panels, corpus_by_id, observations_by_id)
     print(f"Expanded {len(threads)} threads with metadata\n")
     
     analysis = analyze(threads)
