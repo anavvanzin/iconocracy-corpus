@@ -3,9 +3,14 @@
 records_to_corpus.py — Exporta data/processed/records.jsonl → corpus/corpus-data.json
 
 Reconstrói corpus-data.json a partir do arquivo canônico records.jsonl.
-Para campos enriquecidos (panofsky, indicadores) que existem no corpus-data.json
+Para campos enriquecidos (panofsky) que existem no corpus-data.json
 mas não são cobertos pelo schema master-record, mantém os dados do arquivo
 existente como fallback (modo --merge, padrão).
+
+NOTA (2026-09-24): o campo endurecimento_score (e o dict indicadores que o
+alimentava) foi aposentado metodologicamente e removido do corpus canonico.
+Este exportador nao emite mais esses campos e os remove de entradas
+preexistentes em modo merge. Ver docs/decisions/2026-09-24-remocao-definitiva-do-campo.md.
 
 Uso:
     python tools/scripts/records_to_corpus.py              # merge com corpus existente
@@ -17,6 +22,7 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import sys
 import tempfile
@@ -116,6 +122,23 @@ def _load_existing_corpus() -> dict[str, dict]:
         return {}
 
 
+def _sanitize_projection(entry: dict) -> dict:
+    """Sanitize every retained projection, including unmatched legacy entries."""
+    clean = copy.deepcopy(entry)
+    def remove_scores(value):
+        if isinstance(value, dict):
+            value.pop("endurecimento_score", None)
+            value.pop("purificacao_composto", None)
+            for nested in value.values():
+                remove_scores(nested)
+        elif isinstance(value, list):
+            for nested in value:
+                remove_scores(nested)
+    remove_scores(clean)
+    clean.pop("indicadores", None)
+    return clean
+
+
 def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: str | None = None) -> dict:
     """Build a corpus-data.json entry from a master record, merging with existing."""
     inp = record.get("input", {})
@@ -149,17 +172,8 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
                 regime = ct.split(":", 1)[1].strip().lower()
                 break
 
-    # Indicadores dict from purificacao
-    indicator_cols = [
-        "desincorporacao", "rigidez_postural", "dessexualizacao",
-        "uniformizacao_facial", "heraldizacao", "enquadramento_arquitetonico",
-        "apagamento_narrativo", "monocromatizacao", "serialidade", "inscricao_estatal",
-    ]
-    indicadores = {col: purif[col] for col in indicator_cols if col in purif} or None
-
     coded_by = purif.get("coded_by") or ""
     coded_at = purif.get("coded_at") or record.get("timestamps", {}).get("updated_at", "")
-    endurecimento = purif.get("purificacao_composto") or 0.0
 
     # Start from existing entry for rich fields (panofsky, institution, etc.)
     entry: dict = dict(existing) if existing else {}
@@ -221,20 +235,16 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     })
 
     # An uncoded canonical record must not acquire analytical values merely by
-    # being exported.  In particular, zero is a valid endurecimento score, so
-    # using it as the default would incorrectly make pending SCOUT promotions
-    # look coded.  Existing enriched values remain available in merge mode.
+    # being exported.  Existing enriched values remain available in merge mode.
     if regime:
         entry["regime"] = regime
     elif not existing:
         entry.pop("regime", None)
-    if "purificacao_composto" in purif:
-        entry["endurecimento_score"] = endurecimento
-    elif not existing:
-        entry.pop("endurecimento_score", None)
 
-    if indicadores:
-        entry["indicadores"] = indicadores
+    # endurecimento_score e indicadores foram aposentados (2026-09-24):
+    # nunca emitir, e remover residuos de entradas preexistentes em merge.
+    entry.pop("endurecimento_score", None)
+    entry.pop("indicadores", None)
 
     # A citação em records.jsonl é canônica. Corrige placeholders históricos
     # no export sem depender de edição manual da projeção.
@@ -255,7 +265,7 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     else:
         entry.pop("support", None)
 
-    return entry
+    return _sanitize_projection(entry)
 
 
 def export_corpus(
@@ -300,7 +310,7 @@ def export_corpus(
     if not replace:
         for item_id, item in existing_corpus.items():
             expected_record_item_id = id_mapping.get(item_id) or _item_uuid(item_id)
-            rec = records_by_item_id.get(expected_record_item_id)
+            rec = records_by_item_id.get(item_id) or records_by_item_id.get(expected_record_item_id)
             if not rec:
                 item_url = item.get("url", "")
                 if item_url:
@@ -327,8 +337,8 @@ def export_corpus(
                 entry = _corpus_entry_from_record(rec, item, corpus_id=item_id)
                 matched_item_ids.add(rec.get("item_id", ""))
             else:
-                entry = dict(item)
-                
+                entry = _sanitize_projection(item)
+
             c_id = entry.get("id")
             if c_id:
                 assigned_corpus_ids.add(c_id)

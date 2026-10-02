@@ -87,7 +87,7 @@ def candidate_to_corpus_item(cand: dict) -> dict:
         "in_scope": True,
         # Carry the candidate's ICONCLASS into webscout/iconocode via panofsky.iconographic
         "panofsky": {"iconographic": {"iconclass": cand.get("iconclass_codes", [])}},
-        # No regime / indicadores / endurecimento_score → record stays uncoded (no purificacao)
+        # No regime / indicadores → record stays uncoded (no purificacao)
     }
 
 
@@ -131,7 +131,6 @@ def build_corpus_entry(cand: dict) -> dict:
         "iiif_source": cand.get("iiif_source") or "",
         "panofsky": {"iconographic": {"iconclass": cand.get("iconclass_codes", [])}},
         "regime": "",
-        "endurecimento_score": 0.0,
         "coded_by": "pending-iconocode",
         "coded_at": TODAY,
         "in_scope": True,

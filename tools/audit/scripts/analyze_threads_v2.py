@@ -14,6 +14,7 @@ Key changes from v1:
 
 Usage:
     python analyze_threads_v2.py corpus.json --demo
+    python analyze_threads_v2.py corpus.json painel.json --purification data/processed/purification.jsonl
     python analyze_threads_v2.py corpus.json painel-1.json painel-2.json ...
 
 Outputs:
@@ -27,10 +28,11 @@ import json
 import sys
 from pathlib import Path
 from collections import defaultdict, Counter
-# Composto aposentado no codebook v2.2.1 (DEC-2026-07-28): ordenação e
-# comparação passam a usar o inventário de atributos, não o escore agregado.
+# DEC-2026-09-24: named canonical observations, no scalar surrogates.
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
-from tools.scripts.lpai_indicators import indicator_values  # noqa: E402
+from tools.audit.scripts.analyze_threads import (  # noqa: E402
+    entry_year, load_purification, parse_args,
+)
 
 
 # ============================================================================
@@ -120,15 +122,15 @@ def is_colonial(entry):
 
 def detect_flags(a_entry, b_entry, panel=None):
     flags = []
-    a_year = a_entry.get('year') or 0
-    b_year = b_entry.get('year') or 0
-    delta_year = abs(a_year - b_year)
+    a_year = entry_year(a_entry)
+    b_year = entry_year(b_entry)
+    delta_year = abs(a_year - b_year) if a_year is not None and b_year is not None else None
     a_country = a_entry.get('country', '')
     b_country = b_entry.get('country', '')
     a_regime = a_entry.get('regime', '')
     b_regime = b_entry.get('regime', '')
 
-    if delta_year > 25:
+    if delta_year is not None and delta_year > 25:
         flags.append('diachronic')
     if a_country and a_country == b_country:
         flags.append('internal_to_country')
@@ -158,8 +160,10 @@ def semantic_score(a_entry, b_entry):
     return len(a_set & b_set) / max(len(a_set | b_set), 1)
 
 def temporal_score(a_entry, b_entry, relation_type):
-    a_year = a_entry.get('year') or 0
-    b_year = b_entry.get('year') or 0
+    a_year = entry_year(a_entry)
+    b_year = entry_year(b_entry)
+    if a_year is None or b_year is None:
+        return None
     delta = abs(a_year - b_year)
     if relation_type == 'nachleben':
         return min(delta / 100.0, 1.0)
@@ -214,9 +218,9 @@ def classify_binary(thread, corpus_by_id):
     flags = detect_flags(a, b)
     candidates = []
 
-    a_year = a.get('year') or 0
-    b_year = b.get('year') or 0
-    delta_year = abs(a_year - b_year)
+    a_year = entry_year(a)
+    b_year = entry_year(b)
+    delta_year = abs(a_year - b_year) if a_year is not None and b_year is not None else None
     a_country = a.get('country', '')
     b_country = b.get('country', '')
     a_regime = a.get('regime', '')
@@ -229,23 +233,23 @@ def classify_binary(thread, corpus_by_id):
     # === Sub-types of Genealogia ===
     # Ascending genealogy cannot be inferred from cardinality.
     if a_regime == 'contra-alegoria' or b_regime == 'contra-alegoria':
-        if shared_motifs and delta_year < 100:
+        if shared_motifs and delta_year is not None and delta_year < 100:
             candidates.append(('genealogia_tensional', 0.75))
     if shared_motifs and a_regime == b_regime and a_regime in ('normativo', 'fundacional'):
-        if delta_year > 25:
+        if delta_year is not None and delta_year > 25:
             candidates.append(('genealogia_canonica', 0.7))
 
     # === Nachleben ===
-    if 'diachronic' in flags and delta_year > 50 and shared_motifs:
+    if 'diachronic' in flags and delta_year is not None and delta_year > 50 and shared_motifs:
         candidates.append(('nachleben', 0.85))
 
     # === Mimesis ===
-    if delta_year <= 50 and sem_score > 0.5 and 'internal_to_country' in flags:
+    if delta_year is not None and delta_year <= 50 and sem_score > 0.5 and 'internal_to_country' in flags:
         candidates.append(('mimesis', 0.8))
 
     # === Serialização ===
     if a_regime == b_regime and a_regime and 'internal_to_country' in flags:
-        if delta_year <= 25:
+        if delta_year is not None and delta_year <= 25:
             candidates.append(('serializacao', 0.75))
 
     # === Sub-types of Translatio ===
@@ -270,7 +274,7 @@ def classify_binary(thread, corpus_by_id):
         # exactly one side is contra-alegoria → inversion
         if 'diachronic' in flags:
             candidates.append(('inversao_diacronica', 0.75))
-        else:
+        elif delta_year is not None:
             candidates.append(('inversao_sincronica', 0.7))
 
     # === Satirização ===
@@ -278,19 +282,19 @@ def classify_binary(thread, corpus_by_id):
         candidates.append(('satirizacao', 0.7))
 
     # === Martialização / Desmilitarização ===
-    if a_year < b_year:
+    if a_year is not None and b_year is not None and a_year < b_year:
         if a_regime in ('fundacional', 'normativo') and b_regime == 'militar':
             candidates.append(('martializacao', 0.9))
         if a_regime == 'militar' and b_regime in ('fundacional', 'normativo'):
             candidates.append(('desmilitarizacao', 0.85))
-    else:
+    elif a_year is not None and b_year is not None:
         if b_regime in ('fundacional', 'normativo') and a_regime == 'militar':
             candidates.append(('desmilitarizacao', 0.85))
 
     # === Par genderizado === (can't auto-detect from current corpus; skip)
 
     # === Co-presença política ===
-    if a_country and a_country != b_country and not shared_motifs and delta_year < 25:
+    if a_country and a_country != b_country and not shared_motifs and delta_year is not None and delta_year < 25:
         candidates.append(('copresenca_politica', 0.6))
 
     # === Co-presença institucional ===
@@ -324,12 +328,12 @@ def classify_chain(chain, corpus_by_id):
         return [('not_a_chain', 0.0)]
 
     entries = [corpus_by_id.get(iid, {}) for iid in item_ids]
-    entries = [e for e in entries if e]
-    if len(entries) < 3:
+    if any(not e for e in entries):
         return [('incomplete_chain', 0.0)]
 
-    years = [e.get('year') or 0 for e in entries]
-    countries = [e.get('country', '') for e in entries]
+    years = [entry_year(e) for e in entries]
+    if any(year is None for year in years):
+        return [('chain_dates_unavailable', 0.0)]
 
     if not all(years[i] <= years[i+1] for i in range(len(years)-1)):
         return [('chain_unordered_temporally', 0.2)]
@@ -598,9 +602,11 @@ def build_report(binary, chains, analysis, panels):
 
     return '\n'.join(md)
 
-def build_chain_report(chains, corpus_by_id):
+def build_chain_report(chains, corpus_by_id, observations_by_id=None):
+    observations_by_id = observations_by_id or {}
     md = ["# Análise das Cadeias (CHAIN) — v0.2\n"]
     md.append(f"_{len(chains)} cadeias analisadas_\n")
+    md.append("Indicadores: ledger canônico de purificação unido por ID; ausência não é zero.\n")
     md.append("---\n")
     for c in chains:
         primary = c.get('auto_primary')
@@ -611,8 +617,8 @@ def build_chain_report(chains, corpus_by_id):
         scores_str = ''
         for iid in c['item_ids']:
             e = corpus_by_id.get(iid, {})
-            scores_str += (f"- `{iid}` ({e.get('year','?')}) · {e.get('regime','-')} · "
-                           f"indicadores: {indicator_values(e) or 'indisponíveis'}"
+            scores_str += (f"- `{iid}` ({entry_year(e) if entry_year(e) is not None else '?'}) · {e.get('regime','-')} · "
+                           f"indicadores: {observations_by_id.get(iid) or 'indisponíveis'}"
                            + f" · {e.get('country','-')}\n")
         md.append("**Itens:**\n" + scores_str + "\n")
     return '\n'.join(md)
@@ -626,16 +632,18 @@ def main(argv):
         print(__doc__)
         sys.exit(1)
 
-    corpus_path = argv[1]
+    args = parse_args(argv)
+    corpus_path = args.corpus
+    observations_by_id = load_purification(args.purification)
     print(f"Loading corpus from {corpus_path}…")
     corpus_by_id = load_corpus(corpus_path)
     print(f"  {len(corpus_by_id)} entries\n")
 
-    if '--demo' in argv:
+    if args.demo:
         print("Generating demo with chains + binary threads…")
         panels = make_demo_panels(corpus_by_id)
     else:
-        panel_paths = [p for p in argv[2:] if p.endswith('.json') and p != corpus_path]
+        panel_paths = args.panels
         if not panel_paths:
             print("No panel JSONs given. Use --demo for example output.")
             sys.exit(1)
@@ -654,7 +662,7 @@ def main(argv):
                    ensure_ascii=False, indent=2), encoding='utf-8')
     if chains:
         (out_dir / 'chain-analysis.md').write_text(
-            build_chain_report(chains, corpus_by_id), encoding='utf-8')
+            build_chain_report(chains, corpus_by_id, observations_by_id), encoding='utf-8')
 
     print("=== Summary ===")
     print(f"Binary threads: {analysis['n_binary']}")

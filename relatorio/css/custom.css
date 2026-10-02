@@ -1,0 +1,82 @@
+/* ── Complementos específicos do dossiê, alinhados aos tokens Mnemosyne Viva ── */
+
+/* matriz de verificação */
+.vmatrix tbody tr { cursor: pointer; }
+.vmatrix tbody tr:hover { background: var(--cream); }
+.vmatrix td.mono { font-family: var(--mono); font-size: 11px; color: var(--ink-md); white-space: nowrap; }
+.vmatrix td.small { font-size: 9.5px; color: var(--ink-lo); }
+.verdict { font-family: var(--mono); font-size: 10px; font-weight: 700; letter-spacing: .05em;
+  color: var(--vc); display: inline-flex; align-items: center; gap: 7px; }
+.verdict i { width: 9px; height: 9px; border-radius: 50%; background: var(--vc); flex: none; }
+
+/* tabela de atributos — células quentes */
+table.dt td.hot { color: var(--lacre); font-weight: 700; }
+
+/* cadeia VFT */
+.vft-grid { display: grid; grid-template-columns: 1fr 26px 1fr 26px 1.15fr 26px 1fr;
+  align-items: stretch; gap: 6px; margin: 26px 0; }
+.vft-node { border: 1px solid var(--line); padding: 14px 15px 12px; background: var(--cream); }
+.vft-k { font-family: var(--mono); font-size: 8.5px; letter-spacing: .14em; color: var(--navy); margin: 0 0 7px; }
+.vft-t { font-family: var(--serif); font-weight: 700; font-size: 14px; color: var(--ink); margin: 0 0 6px; }
+.vft-d { font-family: var(--serif); font-style: italic; font-size: 12.5px; line-height: 1.5; color: var(--ink-md); margin: 0; }
+.vft-arrow { align-self: center; text-align: center; color: var(--ink-lo); font-size: 17px; }
+.vft-branch { display: flex; flex-direction: column; gap: 10px; }
+.vft-side { border-color: var(--gold); }
+.vft-side .vft-k { color: var(--terra-deep); }
+.vft-origin { border-color: var(--ink); }
+.vft-reversal { border: 1.6px solid var(--lacre); }
+.vft-reversal .vft-k { color: var(--lacre); }
+@media (max-width: 1180px) {
+  .vft-grid { grid-template-columns: 1fr; }
+  .vft-arrow { transform: rotate(90deg); }
+}
+
+/* correções */
+.fix-row { display: grid; grid-template-columns: 34px 92px 1fr; gap: 12px; align-items: baseline;
+  padding: 11px 0; border-bottom: 1px solid var(--line-lo); }
+.fix-n { font-family: var(--mono); font-size: 15px; font-weight: 700; color: var(--lacre); }
+.fix-note { font-family: var(--mono); font-size: 10px; color: var(--ink-md); }
+.fix-txt { margin: 0; font-size: 14.5px; line-height: 1.55; color: var(--ink); }
+
+/* registro de fontes */
+.src-row { display: grid; grid-template-columns: 46px 1fr 92px 110px; gap: 10px; align-items: baseline;
+  padding: 7px 0; border-bottom: 1px solid var(--line-lo); }
+.src-id { font-family: var(--mono); font-size: 10px; font-weight: 700; color: var(--lacre); }
+.src-name { font-family: var(--serif); font-size: 14px; color: var(--ink); text-decoration: none;
+  border-bottom: 1px dotted var(--ink-lo); }
+.src-name:hover { color: var(--lacre); border-bottom-color: var(--lacre); }
+.src-date { font-family: var(--mono); font-size: 9.5px; color: var(--ink-lo); }
+.src-cat { font-family: var(--mono); font-size: 8px; letter-spacing: .08em; padding: 2px 6px;
+  border: 1px solid var(--line); color: var(--ink-md); text-align: center; }
+.src-cat.acad { border-color: var(--navy); color: var(--navy); }
+.src-cat.book { border-color: var(--gold); color: var(--terra-deep); }
+
+/* capa */
+.cover-chips .chip { cursor: pointer; }
+#cover canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+/* trilho direito */
+#dash-canvas { width: 100%; height: 100vh; display: block; }
+
+/* marginalia do direito */
+.margin-note { float: right; width: 170px; margin: 4px -190px 12px 24px;
+  font-family: var(--mono); font-size: 9.5px; line-height: 1.65; letter-spacing: .04em;
+  color: var(--ink-lo); border-top: 1.5px solid var(--lacre); padding-top: 8px; }
+.margin-note b { color: var(--ink-md); }
+@media (max-width: 1180px) { .margin-note { float: none; width: auto; margin: 12px 0; } }
+
+/* figura de arquivo (woodcut) */
+.plate { text-align: center; margin: 30px 0 8px; }
+.plate img { max-width: 240px; filter: grayscale(1) contrast(1.12) sepia(.12); mix-blend-mode: multiply; }
+.plate figcaption { font-family: var(--mono); font-size: 9px; letter-spacing: .06em;
+  color: var(--ink-lo); margin-top: 10px; }
+
+/* veredito hero */
+.hero-verdict { border-top: 2.5px solid var(--ink); border-bottom: 1px solid var(--line);
+  padding: 20px 0 18px; margin: 8px 0 26px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 26px; }
+.hv-item p:first-child { font-family: var(--mono); font-size: 9px; letter-spacing: .13em;
+  color: var(--ink-lo); margin: 0 0 6px; }
+.hv-item p:last-child { font-family: var(--serif); font-size: 15.5px; line-height: 1.5; margin: 0; color: var(--ink); }
+.hv-item b { color: var(--lacre); }
+.hv-item .neg { color: var(--lacre); font-weight: 700; }
+@media (max-width: 900px) { .hero-verdict { grid-template-columns: 1fr; } }

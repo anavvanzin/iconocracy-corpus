@@ -99,11 +99,9 @@ def main():
         match = find_corpus_match(corpus, scout_id, note_path)
 
         if match:
-            endurecimento = round(sum(scores.values()) / len(scores), 2) if scores else 0
             match["iconocode_indicators"] = scores
-            match["endurecimento_score"] = endurecimento
             updated += 1
-            print(f"  MERGE: {scout_id} → {match['id']} (score: {endurecimento})")
+            print(f"  MERGE: {scout_id} → {match['id']}")
         else:
             print(f"  SKIP: {scout_id} — no match in corpus-data.json")
 

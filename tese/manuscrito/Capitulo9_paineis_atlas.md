@@ -14,7 +14,9 @@ pandoc:
 
 # Capítulo 9 — Os 8 Painéis do Atlas Iconocrático
 
-> **Estado:** oito painéis redigidos em formato Zwischenraum → polos → síntese → tabela de itens. Os scores marcados como "estimado" exigem codificação IconoCode completa antes da defesa. Próximo passe: coerência fina com os Capítulos 7 e 8, especialmente nos usos de "endurecimento", suporte material e transição fundacional → normativo → militar.
+> **Estado:** oito painéis redigidos em formato Zwischenraum → polos → síntese → tabela de itens. Próximo passe: coerência fina com os Capítulos 7 e 8, especialmente nos usos de "endurecimento", suporte material e transição fundacional → normativo → militar.
+
+> **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.
 
 ## 9.1 — Painel I: GÊNESE — O Corpo que Ainda Respira
 
@@ -34,7 +36,7 @@ pandoc:
 
 **Texto de painel (300 palavras):**
 
-> No princípio, o corpo age. A *Liberté* de Delacroix (composto 0,1 — o mais baixo de todo o corpus)
+> No princípio, o corpo age. A *Liberté* de Delacroix
 > avança em diagonal ascendente, seio desnudo, braço erguido, pé sobre a barricada e sobre os mortos. É
 > um corpo com peso, sombra, torção, sujeira de pólvora — um corpo *vivo*. Todos os indicadores de
 > endurecimento tendem a zero: desincorporação 0, dessexualização 0, rigidez postural 0, apagamento
@@ -70,7 +72,7 @@ variante `cbb9963f`).
 **Texto de painel (250 palavras):**
 
 > No polo direito, a alegoria já emoldura a lei fundadora. O frontispício da *Déclaration des droits de
-> l'homme et du citoyen* (composto 1,8) dispõe figuras femininas — a Liberdade, a França, a Razão — em
+> l'homme et du citoyen* dispõe figuras femininas — a Liberdade, a França, a Razão — em
 > torno das tábuas dos direitos, apontando para o texto como quem o *garante*. O endurecimento subiu: a
 > narratividade da barricada cedeu lugar à composição hierática, o gesto de ação ao gesto de
 > apresentação. E a ironia fundadora é estrutural: a Declaração cujos "direitos do homem" excluíam
@@ -118,9 +120,9 @@ Capitólio dos EUA (`416a2c38`).
 **Texto de painel (300 palavras):**
 
 > No polo esquerdo, a Justiça ainda não é o emblema cego e autossuficiente do foro. *L'envoyé de la
-> Justice* (`9f77480d`, composto 0,9) mostra a justiça como cena de delegação: ela é enviada, acionada,
+> Justice* (`9f77480d`) mostra a justiça como cena de delegação: ela é enviada, acionada,
 > inscrita numa narrativa que conserva agentes, direção e acontecimento. O endurecimento é baixo porque o
-> apagamento narrativo ainda não venceu. *Justice and History* (`416a2c38`, composto 2,1) desloca essa
+> apagamento narrativo ainda não venceu. *Justice and History* (`416a2c38`) desloca essa
 > cena para outro suporte: o corpo feminino já se aproxima da arquitetura do Capitólio, mas ainda aparece
 > em par, acompanhado por História, antes de se reduzir à solidão protocolar da venda. A diferença entre
 > os dois itens é instrutiva. Em `9f77480d`, a Justiça ainda depende de uma ordem que a envia; em
@@ -155,7 +157,7 @@ Capitólio dos EUA (`416a2c38`).
 **Texto de painel (300 palavras):**
 
 > No polo direito, a Justiça vendada aparece em seu grau normativo mais puro. A *Justice* estadunidense
-> (`734dd76f`, composto 2,2) é descrita na codificação como o "grau zero" do endurecimento normativo — e a
+> (`734dd76f`) é descrita na codificação como o "grau zero" do endurecimento normativo — e a
 > leitura de nível 3 é lapidar: um Estado que exclui as mulheres do foro produz a imagem da Justiça como
 > mulher, e a venda que lhe cobre os olhos *mascara a própria exclusão da figura* [@resnikcurtis2011].
 > Aqui a narratividade do polo esquerdo desapareceu por completo: apagamento narrativo, serialidade e
@@ -198,9 +200,10 @@ Capitólio dos EUA (`416a2c38`).
 
 **Texto de painel (300 palavras):**
 
-> A República que Villares pinta para Paris é a República que o Brasil *desejava ser*: branca, europeia, clássica. O corpo está inteiramente vestido — túnica branca coroando corpo que não se vê. A vestimenta arquitetura, não esconde. O ombro direito, o véu que cai do busto, a mão que segura o livro: tudo remete a uma única operação formal, a Purificação Clássica. O que se purifica aqui é o *não-branco*. O Brasil que emerge da escravidão, 60% negro e mestiço [VERIFICAR: percentual demográfico sem fonte — citar censo de 1872/1890], é representado por um corpo que não poderia habitá-lo. A alegoria funciona como promessa de futuro na medida em que nega o presente.
->
-> Endurecimento: desincorporação 3 · rigidez 3 · uniformização facial 3 · monocromatização 3 · inscrição estatal 0. O baixo score de inscrição é sintomático: o corpo ainda resiste à fixação estatal. Ainda há, na tela, um excesso de técnica pictórica que a moeda posterior eliminará.
+> A República que Villares pinta para Paris é a República que o Brasil *desejava ser*: branca, europeia, clássica. O corpo está inteiramente vestido — túnica branca coroando corpo que não se vê. A vestimenta arquitetura, não esconde. O ombro direito, o véu que cai do busto, a mão que segura o livro: tudo remete a uma única operação formal, a Purificação Clássica. O que se purifica aqui é o *não-branco*. O Brasil que emerge da escravidão, 60% negro e mestiço [VERIFICAR: percentual demográfico sem fonte — citar censo de 1872/1890], é representado por um corpo que não poderia habitá-lo. A alegoria funciona como promessa de futuro na medida em que nega o presente. >
+> Endurecimento: desincorporação 3 · rigidez 3 · uniformização facial 3 · monocromatização 3 · inscrição estatal 0. O baixo valor ordinal de inscrição é sintomático: o corpo ainda resiste à fixação estatal. Ainda há, na tela, um excesso de técnica pictórica que a moeda posterior eliminará.
+
+> **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.
 
 #### [B] Centro — O Zwischenraum como operação
 
@@ -212,11 +215,11 @@ Capitólio dos EUA (`416a2c38`).
 
 #### [C] Polo direito — O corpo normativo
 
-**Imagem:** Louis-Oscar Roty, *La Semeuse*, 1897. Moeda de 1 franc (FR-038, enriquecido pela ficha LPAI com URL). Objeto distinto do *selo definitivo* de 1903 (item `4e0ca57a`, composto 1,7), discutido em 7.1.
+**Imagem:** Louis-Oscar Roty, *La Semeuse*, 1897. Moeda de 1 franc (FR-038, enriquecido pela ficha LPAI com URL). Objeto distinto do *selo definitivo* de 1903 (item `4e0ca57a`), discutido em 7.1.
 
 **Texto de painel (250 palavras):**
 
-> A Semeuse de Roty é a realização do Contrato Racial Visual como contrato *cumprido*. O corpo é perfil — não rosto, mas perfil. A fisionomia desapareceu; resta a *forma do gesto*. A foice que semeia é atributo da *continuidade estatal*: o Estado que semeia a si mesmo, perpetuamente. A cor da pele é o branco do metal, não da carne. A monocromatização atinge seu extremo: há apenas *cromia do Estado*. Endurecimento composto 2,5 no registro codificado (antes da codificação, estimava-se 2,7), regime normativo (com trajetória de transição para o militar; ver Painel IV). A Semeuse sobrevive porque cruzou o limiar de dessexualização — o corpo que deixa de ser desejável para tornar-se funcional.
+> A Semeuse de Roty é a realização do Contrato Racial Visual como contrato *cumprido*. O corpo é perfil — não rosto, mas perfil. A fisionomia desapareceu; resta a *forma do gesto*. A foice que semeia é atributo da *continuidade estatal*: o Estado que semeia a si mesmo, perpetuamente. A cor da pele é o branco do metal, não da carne. A monocromatização atinge seu extremo: há apenas *cromia do Estado*.), regime normativo (com trajetória de transição para o militar; ver Painel IV). A Semeuse sobrevive porque cruzou o limiar de dessexualização — o corpo que deixa de ser desejável para tornar-se funcional.
 >
 > A série de quatro fotografias do *Buste de la République* (Agence Rol, enriquecendo FR-009) mostra o mesmo corpo *antes* dessa transição: há volume, sombra, a possibilidade de desejo. A moeda extingue essa possibilidade. O Zwischenraum entre busto fotográfico e moeda perfilada é o lugar onde o desejo morre e a função nasce.
 
@@ -253,11 +256,11 @@ Capitólio dos EUA (`416a2c38`).
 
 **Texto de painel (500 palavras):**
 
-> A *Seated Liberty* inaugurada em 1840 é uma *falha de consolidação* fossilizada no metal. Gobrecht e, posteriormente, Hughes constroem um corpo feminino que deveria operar segundo a Purificação Clássica: figura sentada, vestida em túnica neoclássica, escudo ao lado, capuz sobre a cabeça, tudo remetendo às filiadas romanas da república. Mas a operação permanece incompleta. O busto, ainda que moldado pela vestimenta, mantém volume; o rosto, embora perfilado, conserva traços individuais que resistem à abstração; e, sobretudo, a posição sentada — ao contrário da marcha da Semeuse — fixa o corpo num espaço de *recepção*, não de ação. A sentada é passiva, exposta à visão. Ela espera, não semeia. E na espera, o corpo permanece visível como corpo.
->
-> Falta à *Seated Liberty* o endurecimento suficiente para transmutar o corpo em função. O endurecimento composto estimado oscila entre 1,8 e 2,1: a desincorporação é parcial, a rigidez é geométrica sem ser protocolar, a uniformização facial falha porque os traços mantêm diferença. A monocromatização do metal auxilia sem resolver o problema operacional: o corpo continua a ser *lido como corpo*, e um corpo feminino lido como corpo numa moeda de circulação nacional ativa o Contrato Sexual Visual de maneira indesejável. O governo norte-americano, ao não conseguir levar a Purificação Clássica até seu termo, gera um *sem-alegoria*: demasiado abstrato para ser desejado, demasiado carnal para ser funcional. É esse Zwischenraum que a moeda habitada pelas *Seated Liberties* de 1840 a 1891 não consegue dissolver.
->
+> A *Seated Liberty* inaugurada em 1840 é uma *falha de consolidação* fossilizada no metal. Gobrecht e, posteriormente, Hughes constroem um corpo feminino que deveria operar segundo a Purificação Clássica: figura sentada, vestida em túnica neoclássica, escudo ao lado, capuz sobre a cabeça, tudo remetendo às filiadas romanas da república. Mas a operação permanece incompleta. O busto, ainda que moldado pela vestimenta, mantém volume; o rosto, embora perfilado, conserva traços individuais que resistem à abstração; e, sobretudo, a posição sentada — ao contrário da marcha da Semeuse — fixa o corpo num espaço de *recepção*, não de ação. A sentada é passiva, exposta à visão. Ela espera, não semeia. E na espera, o corpo permanece visível como corpo. >
+> Falta à *Seated Liberty* o endurecimento suficiente para transmutar o corpo em função. A monocromatização do metal auxilia sem resolver o problema operacional: o corpo continua a ser *lido como corpo*, e um corpo feminino lido como corpo numa moeda de circulação nacional ativa o Contrato Sexual Visual de maneira indesejável. O governo norte-americano, ao não conseguir levar a Purificação Clássica até seu termo, gera um *sem-alegoria*: demasiado abstrato para ser desejado, demasiado carnal para ser funcional. É esse Zwischenraum que a moeda habitada pelas *Seated Liberties* de 1840 a 1891 não consegue dissolver. >
 > A consequência é histórica. Em vez de cruzar o limiar da dessexualização, o corpo de Columbia nas moedas se torna *sintoma de impossibilidade*. A série é modificada inúmeras vezes — com e sem lema, com e sem arcos, com e sem escudos — numa série de tentativas de correção que apenas evidenciam o problema estrutural: a incapacidade do sistema numismático estadunidense de gerar uma Feminilidade de Estado estável. Onde a França, a partir de 1848 e definitivamente em 1897, faz da moeda um espaço de operação sem sujeito, os Estados Unidos, entre 1840 e 1896, produzem um corpo permanentemente *em vias de ser purificado*, nunca purificado. Esse inacabamento é *regimático*. O regime normativo exige que o corpo desapareça em função; a *Seated Liberty* recusa essa desaparição, conservando um resíduo de corporalidade que a impede de persistir como alegoria e, paradoxalmente, a impede também de ser rejeitada. Ela sobrevive como moeda, mas fracassa como ícone.
+
+> **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.
 
 #### [B] Centro — O Zwischenraum como operação fatal
 
@@ -277,13 +280,12 @@ Capitólio dos EUA (`416a2c38`).
 
 **Texto de painel (550 palavras):**
 
-> O *History Instructing Youth* de 1896 é o ponto de máxima intensidade — e de máxima falha — do projeto americano de Feminilidade de Estado. No verso da nota de um dólar do Educational Series, Will H. Low projeta Columbia como *corpo pedagógico vivo*: sentada numa cátedra de mármore, envolta em drapeados que não conseguem conter o volume do busto, segura um livro aberto sobre as pernas e aponta para um mapa que dois meninos contemplam. A arquitetura é neoclássica; a operação, porém, é fundacional em pleno regime normativo. Columbia é *mestra* — não semeia anonimamente; ela *ensina pessoalmente*. O corpo feminino é inteiramente composicional — ocupa o centro, atrai o olhar, organiza a cena — e inteiramente desejo: a curva do braço que aponta, a inclinação do busto sobre os meninos, a túnica que escorrega do ombro esquerdo revelando um seio que não deveria estar lá, porque não estaria lá na Semeuse.
->
-> O erro é *regimático*. A nota de 1896 tenta realizar, num único arranjo composicional, duas operações incompatíveis: a pedagogia republicana, que exige um corpo maternal e acessível, e a Purificação Clássica, que exige um corpo ausente e abstrato. O resultado é uma figura que habita o Zwischenraum como *condenação*: Columbia é demasiado viva para ser funcional, demasiado purificada para ser desejável, demasiado desejável para ser purificada. O endurecimento composto estimado situa-se em torno de 1,5 — abaixo mesmo da média da *Seated Liberty* — porque a estrutura composicional *recusa* o endurecimento. A nota é recolhida em circulação em 1896, por decisão do Tesouro, que reconhece que aquela imagem não pode circular como dinheiro: ela circula como *corpo*, e o corpo feminino em circulação nacional ativa o Contrato Sexual Visual de modo indomesticável.
->
-> A reação do sistema é *abandonar o corpo feminino*. A substituição da Columbia viva por Lady Liberty — torneada, espectral, não-corpo — e, sobretudo, pelo Uncle Sam masculino, indica que o Zwischenraum foi *evitado*: em vez de realizar essa morte produtiva, o sistema opta por simplesmente matá-la. A Columbia de James Montgomery Flagg em 1917 é a fotografia dessa morte: adormecida, envolta em bandeiras, rosto virado para a escuridão, ela já não é mais alegoria; é *memória de alegoria*, Nachleben como luto. O endurecimento aqui atinge níveis de desincorporação absoluta — o corpo está ausente, coberto, adormecido —, como *desistência*. A América não consegue a máquina de guerra feminina que a França constrói na Semeuse; consegue o espectro de uma república que um dia sonhou ter um corpo.
->
+> O *History Instructing Youth* de 1896 é o ponto de máxima intensidade — e de máxima falha — do projeto americano de Feminilidade de Estado. No verso da nota de um dólar do Educational Series, Will H. Low projeta Columbia como *corpo pedagógico vivo*: sentada numa cátedra de mármore, envolta em drapeados que não conseguem conter o volume do busto, segura um livro aberto sobre as pernas e aponta para um mapa que dois meninos contemplam. A arquitetura é neoclássica; a operação, porém, é fundacional em pleno regime normativo. Columbia é *mestra* — não semeia anonimamente; ela *ensina pessoalmente*. O corpo feminino é inteiramente composicional — ocupa o centro, atrai o olhar, organiza a cena — e inteiramente desejo: a curva do braço que aponta, a inclinação do busto sobre os meninos, a túnica que escorrega do ombro esquerdo revelando um seio que não deveria estar lá, porque não estaria lá na Semeuse. >
+> O erro é *regimático*. A nota de 1896 tenta realizar, num único arranjo composicional, duas operações incompatíveis: a pedagogia republicana, que exige um corpo maternal e acessível, e a Purificação Clássica, que exige um corpo ausente e abstrato. O resultado é uma figura que habita o Zwischenraum como *condenação*: Columbia é demasiado viva para ser funcional, demasiado purificada para ser desejável, demasiado desejável para ser purificada. A nota é recolhida em circulação em 1896, por decisão do Tesouro, que reconhece que aquela imagem não pode circular como dinheiro: ela circula como *corpo*, e o corpo feminino em circulação nacional ativa o Contrato Sexual Visual de modo indomesticável. >
+> A reação do sistema é *abandonar o corpo feminino*. A substituição da Columbia viva por Lady Liberty — torneada, espectral, não-corpo — e, sobretudo, pelo Uncle Sam masculino, indica que o Zwischenraum foi *evitado*: em vez de realizar essa morte produtiva, o sistema opta por simplesmente matá-la. A Columbia de James Montgomery Flagg em 1917 é a fotografia dessa morte: adormecida, envolta em bandeiras, rosto virado para a escuridão, ela já não é mais alegoria; é *memória de alegoria*, Nachleben como luto. O endurecimento aqui atinge níveis de desincorporação absoluta — o corpo está ausente, coberto, adormecido —, como *desistência*. A América não consegue a máquina de guerra feminina que a França constrói na Semeuse; consegue o espectro de uma república que um dia sonhou ter um corpo. >
 > Essa falha estrutural tem consequências de longo alcance para a iconosfera estadunidense. A ausência de uma Feminilidade de Estado estável explica, em parte, a prevalência do Uncle Sam como personificação masculina da soberania: se o corpo feminino não pode ser suficientemente dessexualizado para funcionar como alegoria, recai-se sobre o corpo masculino, cuja dessexualização passa pela *virilização instrumental*, não pela Purificação Clássica. Essa saída masculina desloca o problema sem resolvê-lo: a falha do limiar da dessexualização é falha de *regime*, não de gênero. O corpo que não consegue atravessar esse Zwischenraum é *qualquer corpo que recusa a abstração total*.
+
+> **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.
 
 #### [D] Contraponto inferior — A travessia bem-sucedida
 
@@ -291,9 +293,9 @@ Capitólio dos EUA (`416a2c38`).
 
 **Texto de painel (250 palavras):**
 
-> É apenas pela via da comparação que a magnitude da falha americana se torna inteiramente legível. A *La Semeuse* de Roty (1897) realiza, no polo oposto, a travessia que o sistema estadunidense não consegue efetuar. O corpo é *protocolo em movimento*; o seio, *anulado*; a fisionomia, *dissolvida*. A dessexualização é tão completa que o gênero da figura torna-se evidente e irrelevante ao mesmo tempo: a Semeuse é mulher porque o protocolo exige uma semeadora, e isso não importa porque o corpo não oferece nada além do gesto. A Semeuse nunca foi corpo; foi sempre máquina.
->
-> O endurecimento composto estimado em 2,7 situa FR-038 firmemente no regime normativo, com trajetória de transição para o militar. A moeda sobrevive, circula, persiste porque cruzou o limiar irreversivelmente. O que a *Seated Liberty* tentou e falhou, o que o *History Instructing Youth* tentou e foi recolhido, a Semeuse realiza sem esforço aparente: a conversão da carne em função. Não há Zwischenraum visível na moeda francesa — porque já foi *dissolvido* na operação iconocrática. O Nachleben do corpo revolucionário foi finalmente sepultado; em seu lugar, ergue-se a máquina de perpetuação estatal. A comparação é didática: a América falhou porque sua Purificação Clássica foi *insuficiente*.
+> É apenas pela via da comparação que a magnitude da falha americana se torna inteiramente legível. A *La Semeuse* de Roty (1897) realiza, no polo oposto, a travessia que o sistema estadunidense não consegue efetuar. O corpo é *protocolo em movimento*; o seio, *anulado*; a fisionomia, *dissolvida*. A dessexualização é tão completa que o gênero da figura torna-se evidente e irrelevante ao mesmo tempo: a Semeuse é mulher porque o protocolo exige uma semeadora, e isso não importa porque o corpo não oferece nada além do gesto. A Semeuse nunca foi corpo; foi sempre máquina. A moeda sobrevive, circula, persiste porque cruzou o limiar irreversivelmente. O que a *Seated Liberty* tentou e falhou, o que o *History Instructing Youth* tentou e foi recolhido, a Semeuse realiza sem esforço aparente: a conversão da carne em função. Não há Zwischenraum visível na moeda francesa — porque já foi *dissolvido* na operação iconocrática. O Nachleben do corpo revolucionário foi finalmente sepultado; em seu lugar, ergue-se a máquina de perpetuação estatal. A comparação é didática: a América falhou porque sua Purificação Clássica foi *insuficiente*.
+
+> **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.
 
 ### 9.4.2 — Síntese do painel
 
@@ -333,13 +335,13 @@ Capitólio dos EUA (`416a2c38`).
 
 **Texto de painel (250 palavras):**
 
-> O gesso é a pedra *antes* da pedra — a forma já fixada, mas ainda não instalada. A *Justice and
-> History* de c. 1860 mostra o corpo alegórico no limiar da tectônica: enquadramento arquitetônico no
-> valor máximo (3), endurecimento composto 2,1. O indicador decisivo não é a figura, mas o seu
+> O gesso é a pedra *antes* da pedra — a forma já fixada, mas ainda não instalada. O indicador decisivo não é a figura, mas o seu
 > destino: ela foi concebida para *entrar* na estrutura do Capitólio, não para adorná-la. Aqui a
 > Feminilidade de Estado ainda é projeto — o corpo espera a sua petrificação definitiva. É o polo
 > baixo do painel precisamente porque o gesso conserva a possibilidade da correção: a pedra, uma vez
 > instalada, não se corrige.
+
+> **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.
 
 #### [B] Centro — O suporte como operador
 
@@ -363,14 +365,10 @@ Poelaert, *Palais de Justice de Bruxelles*, arquitetura forense, 1866–1883 (`d
 
 **Texto de painel (300 palavras):**
 
-> No polo direito, dois graus da mesma consumação. A *Justiça* de Ceschiatti (composto 2,2) é o corpo
+> No polo direito, dois graus da mesma consumação. A *Justiça* de Ceschiatti é o corpo
 > feminino convertido em bloco de granito: sentada, cega, armada, silenciosa — cada atributo uma
-> subtração, cada subtração um endurecimento. A `ref_genealogica` codificada do item remete a Carvalho
-> [@carvalho1990]; o par sugerido pela própria codificação (contraste com uma República anterior de
-> escore muito inferior) desenha um arco de endurecimento de meio século em que todos os indicadores
-> sobem.
->
-> Mas é o Palais de Poelaert (composto ≈ 3,0 — ajustado para 2,9 na nota de codificação, que rebaixa a inscrição estatal porque a autoridade aqui é arquitetônica, não textual; cf. 7.5 —, o teto empírico de todo o corpus) que leva a operação
+> subtração, cada subtração um endurecimento. >
+> Mas é o Palais de Poelaert que leva a operação
 > ao seu termo. Aqui não há mais estátua: há edifício. A anotação de nível 3 do registro é o coração
 > do argumento da arquitetura forense: *beleza feminina = face cultural do edifício; autoridade
 > masculina = núcleo operativo; as mulheres tornam-se colunas, e, no interior, todos os retratos são
@@ -378,6 +376,8 @@ Poelaert, *Palais de Justice de Bruxelles*, arquitetura forense, 1866–1883 (`d
 > para reaparecer como massa, altura e pedra. É a formulação mais literal do Contrato Sexual Visual: a
 > fachada exibe o rosto de mulher enquanto o interior mantém intacta a fraternidade masculina
 > [@pateman1993]. A visiocracia de Goodrich [@goodrich2013b] encontra em Poelaert o seu monumento.
+
+> **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.
 
 ### 9.5.2 — Síntese do painel
 
@@ -449,8 +449,8 @@ Commerce*, Marianne assentada entre fasces, Indochina, 1885–1928 (`34be13f9`).
 **Texto de painel (300 palavras):**
 
 > No polo direito, a alegoria nacional convertida em moeda de comércio imperial. O *British Trade
-> Dollar* (composto 1,3, estimado) cunha Britannia de pé para a circulação no Oriente; a *Piastre de Commerce*
-> (composto 2,3, estimado) assenta Marianne entre feixes de fasces para a Indochina francesa. Onde a estampa
+> Dollar* cunha Britannia de pé para a circulação no Oriente; a *Piastre de Commerce*
+> assenta Marianne entre feixes de fasces para a Indochina francesa. Onde a estampa
 > argumentava, a moeda extrai. A serialidade — o indicador que ambas partilham no grau mais alto — é o
 > que serve à extração: a alegoria "universal" é, na verdade, um cânone europeu exportado sob a
 > aparência da neutralidade, exatamente a operação que o Capítulo 3 nomeia como Contrato Racial Visual.
@@ -499,12 +499,14 @@ Commerce*, Marianne assentada entre fasces, Indochina, 1885–1928 (`34be13f9`).
 > A República que Villares pinta para a Exposição Universal de Paris é branca, marmórea, neoclássica —
 > um corpo que inexiste no Brasil de 1889, país recém-saído da escravidão, majoritariamente negro e
 > mestiço. O vetor de endurecimento é alto nos eixos raciais da forma: desincorporação 3,
-> uniformização facial 3, monocromatização 3 (composto estimado 2,4). O baixo escore de inscrição
+> uniformização facial 3, monocromatização 3. O baixo valor ordinal de inscrição
 > estatal é sintomático: o corpo ainda resiste à fixação, há na tela um excesso de técnica pictórica
 > que a moeda posterior eliminará. A alegoria funciona como promessa de futuro na medida em que *nega o
 > presente*: representa um Brasil que não existe por um corpo que não poderia habitá-lo. A branquitude
 > não é acidente do gosto do artista; é a condição sob a qual a universalidade jurídica se torna
 > visualmente legível no vocabulário do neoclassicismo oitocentista.
+
+> **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.
 
 #### [B] Centro — A branquitude como resultado, não premissa
 
@@ -527,7 +529,7 @@ Commerce*, Marianne assentada entre fasces, Indochina, 1885–1928 (`34be13f9`).
 
 **Texto de painel (250 palavras):**
 
-> Setenta anos depois de Villares, a *Justiça* de Ceschiatti (composto 2,2) consuma a transferência: uma
+> Setenta anos depois de Villares, a *Justiça* de Ceschiatti consuma a transferência: uma
 > deusa neoclássica de corporalidade inequivocamente europeia, transplantada para o cerrado, instalada
 > diante do Supremo Tribunal Federal de um país cuja população majoritária ela não representa. A forma
 > modernista simplifica os contornos, mas não altera a matriz racial: o corpo continua a ser o da
@@ -585,6 +587,8 @@ Commerce*, Marianne assentada entre fasces, Indochina, 1885–1928 (`34be13f9`).
 > propriedade sua, mas uma produção — e a iconoclastia, ao interrompê-la, revela a produção. O corpo que
 > a Purificação Clássica havia silenciado volta a *fazer barulho* no exato momento em que é atacado.
 
+> **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.
+
 #### [B] Centro — A fissura pela reencarnação
 
 **Imagem:** Hedwig Reicher como Columbia, desfile sufragista de Washington, fotografia, 1913
@@ -610,7 +614,7 @@ Commerce*, Marianne assentada entre fasces, Indochina, 1885–1928 (`34be13f9`).
 
 **Texto de painel (250 palavras):**
 
-> A terceira fissura é a sátira. *Two Forces* (composto 1,1) encena Britannia "protegendo" Hibernia numa
+> A terceira fissura é a sátira. *Two Forces* encena Britannia "protegendo" Hibernia numa
 > composição que a leitura de nível 3 do registro identifica como subversão satírica da relação colonial
 > Grã-Bretanha/Irlanda. O item traz uma inconsistência produtiva: o campo `regime` classifica-o como
 > normativo, mas a interpretação o lê como contra-alegoria — e essa própria hesitação é significativa. A
@@ -642,8 +646,7 @@ Commerce*, Marianne assentada entre fasces, Indochina, 1885–1928 (`34be13f9`).
 
 > **Pendências deste capítulo (para passe final de coerência):**
 > - Conferir alinhamento fino com os Capítulos 7 e 8: vocabulário de endurecimento, papel do suporte
->   material e passagem fundacional → normativo → militar.
-> - Escores marcados como "estimado"/`PENDING_REVIEW` exigem codificação IconoCode validada antes da
->   qualificação; usados aqui como índice provisório, nunca como prova fechada.
-> - Manter apenas chaves já existentes em `references.bib` e evitar novas bases empíricas sem inclusão
+>   material e passagem fundacional → normativo → militar. > - Manter apenas chaves já existentes em `references.bib` e evitar novas bases empíricas sem inclusão
 >   prévia no corpus.
+
+> **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.

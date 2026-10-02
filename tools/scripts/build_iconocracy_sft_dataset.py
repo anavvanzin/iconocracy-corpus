@@ -387,78 +387,25 @@ def build_record_examples(record: Dict[str, Any]) -> List[Dict[str, Any]]:
     return examples
 
 
-def classify_purification(value: float) -> str:
-    if value < 1.0:
-        return "baixo"
-    if value < 2.0:
-        return "médio"
-    return "alto"
-
-
-def medium_bucket(value: float) -> str:
-    if value < 1.0:
-        return "purificação baixa"
-    if value < 2.0:
-        return "purificação intermediária"
-    return "purificação elevada"
-
-
-def top_indicators(row: Dict[str, Any], n: int = 3) -> List[str]:
-    indicator_pairs = []
-    for key, value in row.items():
-        if key in {"id", "purificacao_composto", "regime_iconocratico", "coded_by", "coded_at"}:
-            continue
-        if isinstance(value, (int, float)):
-            indicator_pairs.append((key, value))
-    indicator_pairs.sort(key=lambda x: (x[1], x[0]), reverse=True)
-    return [name for name, _ in indicator_pairs[:n]]
+INDICATOR_KEYS = (
+    "desincorporacao", "rigidez_postural", "dessexualizacao",
+    "uniformizacao_facial", "heraldizacao", "enquadramento_arquitetonico",
+    "apagamento_narrativo", "monocromatizacao", "serialidade", "inscricao_estatal",
+)
 
 
 def build_purification_user_prompt(row: Dict[str, Any], variant: int) -> str:
-    opener = PURIFICATION_PROMPT_TEMPLATES[variant % len(PURIFICATION_PROMPT_TEMPLATES)]
-    if variant == 0:
-        return opener + "\n\n" + json.dumps(row, ensure_ascii=False)
-    if variant == 1:
-        indicators = {k: v for k, v in row.items() if k not in {"id", "regime_iconocratico", "purificacao_composto", "coded_by", "coded_at"}}
-        return (
-            f"{opener}\n\n"
-            f"ID: {row.get('id')}\n"
-            f"Regime: {row.get('regime_iconocratico')}\n"
-            f"Composto: {row.get('purificacao_composto')}\n"
-            f"Indicadores: {json.dumps(indicators, ensure_ascii=False)}"
-        )
-    if variant == 2:
-        return f"{opener}\n\nFaça a leitura apenas a partir desta codificação ordinal: {json.dumps(row, ensure_ascii=False)}"
-    return f"{opener}\n\nLinha de codificação para comentário: {json.dumps(row, ensure_ascii=False)}\nEvite descrever uma imagem que não foi fornecida."
+    payload = {k: v for k, v in row.items() if k not in {"purificacao_composto", "endurecimento_score"}}
+    return "Comente os indicadores separadamente, sem inferir intensidade global ou descrever imagem não fornecida.\n\n" + json.dumps(payload, ensure_ascii=False)
 
 
 def build_purification_assistant(row: Dict[str, Any], variant: int) -> str:
-    top = top_indicators(row)
-    top_str = ", ".join(top)
-    level = classify_purification(float(row.get("purificacao_composto", 0)))
-    bucket = medium_bucket(float(row.get("purificacao_composto", 0)))
-    regime = row.get("regime_iconocratico", "não informado")
-    rid = row.get("id", "[sem id]")
-    comp = row.get("purificacao_composto")
-
-    if variant == 0:
-        return (
-            f"O registro {rid} apresenta {bucket}, com composto de {comp}, no interior do regime iconocrático {regime}. Os indicadores mais salientes concentram-se em {top_str}. Isso sugere, em chave comparativa, uma leitura marcada por contenção formal, abstração corporal ou maior inscrição estatal, conforme o peso específico de cada variável.\n\n"
-            f"A utilidade desse diagnóstico está em situar o caso dentro da morfologia do corpus. Ele não descreve a imagem em si, mas oferece um enquadramento prudente para discutir purificação e, quando pertinente, endurecimento."
-        )
-    if variant == 1:
-        return (
-            f"Tomada apenas como linha de codificação, a entrada {rid} sugere um caso de nível {level} no espectro de purificação. O composto {comp} não deve ser lido isoladamente, mas articulado aos indicadores dominantes, aqui representados por {top_str}.\n\n"
-            f"Em termos analíticos, isso permite comparar o item com outros do regime {regime} e perguntar se a figura tende à monumentalização, à neutralização expressiva ou à intensificação da inscrição estatal. A interpretação iconológica, contudo, ainda depende do retorno ao suporte concreto."
-        )
-    if variant == 2:
-        return (
-            f"A codificação do item {rid} aponta para {bucket}. Os valores mais altos em {top_str} indicam que a leitura do caso, no protocolo do corpus, recaiu sobre traços de despersonalização, rigidez, serialidade ou enquadramento, conforme a combinação específica observada.\n\n"
-            f"Esse tipo de saída é particularmente útil para a etapa comparativa, porque transforma percepção morfológica em diagnóstico cotejável entre regimes e suportes, sem converter a planilha em substituta da interpretação histórica."
-        )
+    observations = "; ".join(f"{key}: {row[key]}" for key in INDICATOR_KEYS if key in row)
     return (
-        f"No estado atual da codificação, o item {rid} pode ser descrito como exemplo de {bucket} no regime {regime}. O composto {comp} ganha sentido sobretudo quando lido ao lado dos indicadores mais salientes, {top_str}.\n\n"
-        f"A consequência metodológica é clara: o caso já pode entrar em comparações internas do corpus, mas a formulação de argumento forte ainda exige confrontar esse diagnóstico com a imagem, o suporte e o contexto de circulação."
+        f"Registro {row.get('id', '[sem id]')}; regime registrado: {row.get('regime_iconocratico', 'não informado')}. "
+        f"Codificação ordinal (0–3), por dimensão: {observations or 'não disponível'}. "
+        "Esses valores não são somados, ordenados por intensidade global ou convertidos em classe baixa/média/alta. "
+        "Não constituem inventário verbal validado; a interpretação exige imagem, suporte, contexto e justificativas do codificador."
     )
 
 

@@ -51,8 +51,3 @@ export function countByField<K extends keyof CorpusItem>(
   }
   return counts;
 }
-
-export function averageEndurecimento(items: CorpusItem[]): number {
-  if (!items.length) return 0;
-  return items.reduce((sum, i) => sum + (i.endurecimento_score || 0), 0) / items.length;
-}

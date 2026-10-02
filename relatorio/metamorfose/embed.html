@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>vitrine · marianne</title>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.184.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.184.0/examples/jsm/"
+  }
+}
+</script>
+<style>
+html,body{margin:0;height:100%;background:#17120E;overflow:hidden}
+#stage{position:absolute;inset:0}
+canvas{display:block}
+.mf-veil{position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(120% 90% at 50% 38%,transparent 55%,rgba(10,7,4,.55) 100%)}
+.mf-label{position:absolute;left:16px;bottom:12px;z-index:2;font-family:"JetBrains Mono",ui-monospace,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:rgba(239,229,207,.45);pointer-events:none}
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<div class="mf-veil"></div>
+<p class="mf-label">marianne · fr-1792 · render v2 · arraste para girar</p>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
+
+const stage = document.getElementById('stage');
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(stage.clientWidth, stage.clientHeight);
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 0.92;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFShadowMap;
+stage.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x17120e);
+const pmrem = new THREE.PMREMGenerator(renderer);
+scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+scene.environmentIntensity = 0.28;
+
+const camera = new THREE.PerspectiveCamera(33, stage.clientWidth / stage.clientHeight, 0.1, 50);
+const HOME = { pos: new THREE.Vector3(2.95, 2.2, 5.05), tgt: new THREE.Vector3(-0.45, 1.35, 0) };
+camera.position.copy(HOME.pos);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.target.copy(HOME.tgt);
+controls.enableDamping = true;
+controls.dampingFactor = 0.06;
+controls.autoRotate = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+controls.autoRotateSpeed = 0.7;
+controls.minDistance = 1.6;
+controls.maxDistance = 9;
+controls.maxPolarAngle = Math.PI * 0.52;
+controls.update();
+controls.addEventListener('start', () => { controls.autoRotate = false; });
+
+const key = new THREE.DirectionalLight(0xfff0dc, 1.65);
+key.position.set(2.6, 4.6, 2.8);
+key.castShadow = true;
+key.shadow.mapSize.set(2048, 2048);
+key.shadow.radius = 5;
+key.shadow.camera.left = -2.4; key.shadow.camera.right = 2.4;
+key.shadow.camera.top = 3.2;   key.shadow.camera.bottom = -0.5;
+key.shadow.camera.near = 1;    key.shadow.camera.far = 14;
+key.shadow.bias = -0.0003;
+key.shadow.normalBias = 0.025;
+scene.add(key);
+const rim = new THREE.DirectionalLight(0x9db8d8, 1.5);
+rim.position.set(-3.6, 3.1, -3.2);
+scene.add(rim);
+scene.add(new THREE.HemisphereLight(0x4a3f2e, 0x0c0a07, 0.5));
+const spot = new THREE.SpotLight(0xffe6b8, 26, 12, Math.PI * 0.24, 0.55, 1.6);
+spot.position.set(0.4, 5.4, 0.9);
+spot.target.position.set(-0.3, 0, 0);
+scene.add(spot, spot.target);
+
+const ground = new THREE.Mesh(new THREE.PlaneGeometry(14, 14), new THREE.ShadowMaterial({ opacity: 0.55 }));
+ground.rotation.x = -Math.PI / 2;
+ground.receiveShadow = true;
+scene.add(ground);
+
+function radialPool() {
+  const c = document.createElement('canvas'); c.width = c.height = 512;
+  const x = c.getContext('2d');
+  const g = x.createRadialGradient(256, 256, 10, 256, 256, 256);
+  g.addColorStop(0, 'rgba(255,225,170,0.16)');
+  g.addColorStop(0.45, 'rgba(255,220,160,0.06)');
+  g.addColorStop(1, 'rgba(255,220,160,0)');
+  x.fillStyle = g; x.fillRect(0, 0, 512, 512);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
+  return t;
+}
+const pool = new THREE.Mesh(new THREE.PlaneGeometry(6.5, 6.5),
+  new THREE.MeshBasicMaterial({ map: radialPool(), transparent: true, depthWrite: false }));
+pool.rotation.x = -Math.PI / 2;
+pool.position.y = 0.002;
+scene.add(pool);
+
+function marbleMaps(size = 512) {
+  const albedo = document.createElement('canvas'); albedo.width = albedo.height = size;
+  const a = albedo.getContext('2d');
+  a.fillStyle = '#f4f2ee'; a.fillRect(0, 0, size, size);
+  let rng = 7;
+  const rnd = () => (rng = (rng * 16807) % 2147483647) / 2147483647;
+  for (let i = 0; i < 34; i++) {
+    a.strokeStyle = `rgba(105,96,84,${0.04 + rnd() * 0.06})`;
+    a.lineWidth = 0.5 + rnd() * 1.4;
+    a.beginPath();
+    let x = rnd() * size, y = rnd() * size;
+    a.moveTo(x, y);
+    for (let s = 0; s < 26; s++) { x += (rnd() - 0.5) * 46; y += (rnd() - 0.35) * 30; a.lineTo(x, y); }
+    a.stroke();
+  }
+  const rough = document.createElement('canvas'); rough.width = rough.height = 256;
+  const r = rough.getContext('2d');
+  const img = r.createImageData(256, 256);
+  for (let i = 0; i < img.data.length; i += 4) {
+    const v = 108 + rnd() * 40;
+    img.data[i] = img.data[i + 1] = img.data[i + 2] = v; img.data[i + 3] = 255;
+  }
+  r.putImageData(img, 0, 0);
+  const map = new THREE.CanvasTexture(albedo); map.colorSpace = THREE.SRGBColorSpace;
+  map.wrapS = map.wrapT = THREE.RepeatWrapping;
+  const roughnessMap = new THREE.CanvasTexture(rough);
+  roughnessMap.wrapS = roughnessMap.wrapT = THREE.RepeatWrapping;
+  return { map, roughnessMap };
+}
+function stoneBump(size = 256) {
+  const c = document.createElement('canvas'); c.width = c.height = size;
+  const x = c.getContext('2d');
+  const img = x.createImageData(size, size);
+  let rng = 13;
+  const rnd = () => (rng = (rng * 48271) % 2147483647) / 2147483647;
+  for (let i = 0; i < img.data.length; i += 4) {
+    const v = 118 + rnd() * 22;
+    img.data[i] = img.data[i + 1] = img.data[i + 2] = v; img.data[i + 3] = 255;
+  }
+  x.putImageData(img, 0, 0);
+  const t = new THREE.CanvasTexture(c);
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  return t;
+}
+const marble = marbleMaps();
+const stone = stoneBump();
+
+function upgradeMaterials(root) {
+  root.traverse(o => {
+    if (!o.isMesh) return;
+    o.castShadow = true;
+    o.receiveShadow = true;
+    const m = o.material;
+    const name = (m.name || '').toLowerCase();
+    if (name.startsWith('marmore')) {
+      o.material = new THREE.MeshPhysicalMaterial({
+        name: m.name, color: m.color.clone().multiplyScalar(0.88), map: marble.map,
+        roughness: 0.46, roughnessMap: marble.roughnessMap,
+        clearcoat: 0.12, clearcoatRoughness: 0.55,
+        sheen: 0.2, sheenColor: new THREE.Color(0xfff4e0), sheenRoughness: 0.75,
+        envMapIntensity: 0.65
+      });
+    } else if (name.startsWith('siena')) {
+      o.material = new THREE.MeshPhysicalMaterial({
+        name: m.name, color: m.color.clone().multiplyScalar(0.6),
+        roughness: 0.9, sheen: 1.0,
+        sheenColor: new THREE.Color(0x6e2418), sheenRoughness: 0.65,
+        envMapIntensity: 0.22
+      });
+    } else if (name.startsWith('bronze')) {
+      o.material = new THREE.MeshStandardMaterial({
+        name: m.name, color: m.color.clone(),
+        metalness: 1.0, roughness: 0.3, envMapIntensity: 1.25
+      });
+    } else if (name.startsWith('aco')) {
+      o.material = new THREE.MeshStandardMaterial({
+        name: m.name, color: m.color.clone(),
+        metalness: 1.0, roughness: 0.22, envMapIntensity: 1.2
+      });
+    } else if (name.startsWith('pedra')) {
+      o.material = new THREE.MeshStandardMaterial({
+        name: m.name, color: m.color.clone(),
+        roughness: name.includes('friso') ? 0.72 : 0.88,
+        bumpMap: stone, bumpScale: 0.6, envMapIntensity: 0.3
+      });
+    } else if (name.startsWith('bandeira')) {
+      m.roughness = 0.9; m.side = THREE.DoubleSide; m.envMapIntensity = 0.4;
+      m.emissive.set(0x000000);
+      m.emissiveIntensity = 0;
+    } else if (name.startsWith('inscricao')) {
+      m.roughness = 0.55; m.envMapIntensity = 0.6;
+      m.emissive = new THREE.Color(0xffffff);
+      m.emissiveMap = m.map; m.emissiveIntensity = 0.08;
+    }
+  });
+}
+
+const loader = new GLTFLoader();
+loader.setMeshoptDecoder(MeshoptDecoder);
+loader.load('metamorfose-alegorias.glb', gltf => {
+  upgradeMaterials(gltf.scene);
+  scene.add(gltf.scene);
+});
+
+addEventListener('resize', () => {
+  camera.aspect = stage.clientWidth / stage.clientHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(stage.clientWidth, stage.clientHeight);
+});
+renderer.setAnimationLoop(() => { controls.update(); renderer.render(scene, camera); });
+</script>
+</body>
+</html>

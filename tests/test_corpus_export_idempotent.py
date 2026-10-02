@@ -15,7 +15,6 @@ def _full_generated():
         "description": "Desc A",
         "motif": ["Liberty"],
         "regime": "normativo",
-        "endurecimento_score": 2.1,
         "coded_by": "test",
         "coded_at": "2026-04-07T00:00:00Z",
         "indicadores": {"desincorporacao": 1},
@@ -45,14 +44,6 @@ def test_diff_ignores_non_authoritative_extra_field():
     existing = dict(generated)
     existing["panofsky"] = {"pre_iconographic": "extra"}
     existing["extra_field"] = "should be ignored"
-    assert diff_authoritative_fields(generated, existing) == []
-
-
-def test_float_tolerance_endurecimento_score():
-    generated = _full_generated()
-    existing = dict(generated)
-    existing["endurecimento_score"] = 1.2000000001
-    generated["endurecimento_score"] = 1.2
     assert diff_authoritative_fields(generated, existing) == []
 
 

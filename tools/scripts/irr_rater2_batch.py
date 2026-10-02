@@ -340,14 +340,10 @@ def main():
             result["coded_at"] = datetime.now(timezone.utc).isoformat()
             result["sample_index"] = item.get("sample_index", idx)
 
-            # Calculate composite score
-            scores = [result["indicadores"][ind]["score"] for ind in INDICATORS]
-            result["purificacao_composto"] = round(sum(scores) / len(scores), 2)
-
             # Write output
             out_file.write(json.dumps(result, ensure_ascii=False) + "\n")
             out_file.flush()
-            print(f"  ✅ Success: composite={result['purificacao_composto']:.2f}, regime={result['regime_iconocratico']}")
+            print(f"  ✅ Success: regime={result['regime_iconocratico']}")
             success_count += 1
 
             # Rate limiting

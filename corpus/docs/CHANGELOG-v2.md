@@ -54,3 +54,5 @@ Os contra-exemplos definem os limites do padrão e são o material mais valioso.
 - `corpus/docs/2026-07-24_varredura-recusas.md` — relatório da varredura
 - `corpus/docs/2026-07-24_auditoria-piloto-iconocode.md` — piloto de recodificação
 - `corpus/docs/2026-07-24_conselho-modelos-veredicto.md` — veredicto do conselho
+
+> **Follow-up 2026-09-24:** remoção definitiva executada — ver docs/decisions/2026-09-24-remocao-definitiva-do-campo.md.

@@ -15,6 +15,7 @@ Usage:
     python analyze_threads.py corpus.json painel-1.json painel-2.json ...
     python analyze_threads.py corpus.json *.json
     python analyze_threads.py corpus.json --demo   # uses synthetic threads
+    python analyze_threads.py corpus.json --purification data/processed/purification.jsonl painel.json
 
 Outputs:
     thread-analysis-report.md      (human-readable report)
@@ -22,7 +23,7 @@ Outputs:
     thread-graph.svg               (network visualization)
 """
 
-import json, sys, os, re
+import argparse, json, sys, os, re
 from pathlib import Path
 from collections import defaultdict, Counter
 # DEC-2026-09-24: no cardinality, scalar surrogate, or inferred genealogy.
@@ -64,6 +65,35 @@ REGIME_COLORS = {
 # ============================================================================
 # Loading
 # ============================================================================
+
+DEFAULT_PURIFICATION = Path(__file__).resolve().parents[3] / "data/processed/purification.jsonl"
+
+def load_purification(path):
+    """Read named observations from the canonical ledger; reject ambiguous IDs.
+
+    Missing rows/dimensions remain unavailable. Never fall back to projections.
+    A missing or malformed ledger is an error, not an empty successful audit.
+    """
+    observations = {}
+    with open(path, encoding="utf-8") as f:
+        for line_number, line in enumerate(f, 1):
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            item_id = row.get("id")
+            if not item_id or item_id in observations:
+                raise ValueError(f"{path}:{line_number}: missing or duplicate ledger id {item_id!r}")
+            observations[item_id] = indicator_values(row)
+    return observations
+
+def parse_args(argv):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("corpus")
+    parser.add_argument("panels", nargs="*")
+    parser.add_argument("--demo", action="store_true")
+    parser.add_argument("--purification", type=Path, default=DEFAULT_PURIFICATION,
+                        help="canonical observation ledger (default: data/processed/purification.jsonl)")
+    return parser.parse_intermixed_args(argv[1:])
 
 def load_corpus(path):
     with open(path, encoding='utf-8') as f:
@@ -131,8 +161,6 @@ def make_demo_panels(corpus_by_id):
     })
     
     # Panel 4 — ENDURECIMENTO — inventário comparado de atributos
-    # (composto aposentado no codebook v2.2.1: ordena-se por quantidade de
-    # atributos marcados, que não afirma intensidade, só cardinalidade)
     # Demo cases are deterministic and never ranked by ordinal aggregation.
     p4_items = list(corpus_by_id)[:7]
     panels.append({
@@ -175,8 +203,9 @@ def make_demo_panels(corpus_by_id):
 # Analysis
 # ============================================================================
 
-def expand_threads(panels, corpus_by_id):
+def expand_threads(panels, corpus_by_id, observations_by_id=None):
     """Expand each thread into {a, b, panel_id, ...} with corpus metadata."""
+    observations_by_id = observations_by_id or {}
     expanded = []
     for panel in panels:
         plac_by_uid = {p['uid']: p for p in panel.get('placements', [])}
@@ -198,8 +227,8 @@ def expand_threads(panels, corpus_by_id):
                 'a_year': entry_year(a_entry), 'b_year': entry_year(b_entry),
                 'a_country': a_entry.get('country', ''), 'b_country': b_entry.get('country', ''),
                 'a_regime': a_entry.get('regime', ''), 'b_regime': b_entry.get('regime', ''),
-                'a_indicators': indicator_values(a_entry),
-                'b_indicators': indicator_values(b_entry),
+                'a_indicators': observations_by_id.get(a_id, {}),
+                'b_indicators': observations_by_id.get(b_id, {}),
                 'a_motifs': a_entry.get('motif', []) or [],
                 'b_motifs': b_entry.get('motif', []) or [],
                 'a_pathos': get_pathos(a_entry),
@@ -395,7 +424,7 @@ def build_report(analysis, panels):
     md.append("")
     
     md.append("## 6. Comparação por dimensão\n")
-    md.append("A projeção pública não é autoridade de codificação. Transições só são apresentadas quando observações são fornecidas; ausência não é zero. Genealogias exigem evidência histórica e revisão humana, sem inferência por cardinalidade.\n")
+    md.append("A projeção pública não é autoridade de codificação. Transições usam exclusivamente o ledger canônico de purificação, unido por ID; ausência não é zero. Genealogias exigem evidência histórica e revisão humana, sem inferência por cardinalidade.\n")
     for t in a['threads']:
         md.append(f"- `{t['a_id']}` → `{t['b_id']}`: {t['indicator_transitions'] or 'observações indisponíveis'}")
     md.append("")
@@ -510,16 +539,18 @@ def main(argv):
         print(__doc__)
         sys.exit(1)
     
-    corpus_path = argv[1]
+    args = parse_args(argv)
+    corpus_path = args.corpus
+    observations_by_id = load_purification(args.purification)
     print(f"Loading corpus from {corpus_path}…")
     corpus_by_id = load_corpus(corpus_path)
     print(f"  {len(corpus_by_id)} entries indexed.\n")
     
-    if '--demo' in argv:
+    if args.demo:
         print("Generating demo panel data (no real threads given)…")
         panels = make_demo_panels(corpus_by_id)
     else:
-        panel_paths = [p for p in argv[2:] if p.endswith('.json')]
+        panel_paths = args.panels
         if not panel_paths:
             print("No panel JSON files given. Use --demo to see example output.")
             sys.exit(1)
@@ -528,7 +559,7 @@ def main(argv):
     
     print(f"  Loaded {len(panels)} panel(s)\n")
     
-    threads = expand_threads(panels, corpus_by_id)
+    threads = expand_threads(panels, corpus_by_id, observations_by_id)
     print(f"Expanded {len(threads)} threads with metadata\n")
     
     analysis = analyze(threads)

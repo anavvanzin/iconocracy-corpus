@@ -1,128 +1,95 @@
 #!/usr/bin/env python3
-"""
-Analyze score drift between original and auto-coded endurecimento entries.
+"""Descriptive ordinal distributions by coder group; no scalar composite.
 
-Reads purification.jsonl, splits by coded_by, and reports per-indicator,
-per-country, and per-regime comparisons. Flags indicators with drift > 0.5
-for potential recalibration.
-
-Usage:
-    python tools/scripts/analyze_purification_drift.py
+Different coder populations are not paired agreement estimates. Missing groups
+remain unavailable. Identity/support come from records, observations from the
+purification ledger, joined through the canonical ID mapping.
 """
 import json
+from collections import Counter
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-PURIFICATION = REPO_ROOT / "data" / "processed" / "purification.jsonl"
-
+PURIFICATION = REPO_ROOT / 'data/processed/purification.jsonl'
 INDICATORS = [
-    "desincorporacao", "rigidez_postural", "dessexualizacao",
-    "uniformizacao_facial", "heraldizacao", "enquadramento_arquitetonico",
-    "apagamento_narrativo", "monocromatizacao", "serialidade",
-    "inscricao_estatal",
+    'desincorporacao', 'rigidez_postural', 'dessexualizacao',
+    'uniformizacao_facial', 'heraldizacao', 'enquadramento_arquitetonico',
+    'apagamento_narrativo', 'monocromatizacao', 'serialidade', 'inscricao_estatal',
 ]
 
 
 def load_items(path):
-    with open(path) as f:
-        return [json.loads(line) for line in f]
+    return [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
 
 
-def get_country(item_id):
-    parts = item_id.split("-")
-    return parts[0] if len(parts) >= 2 else "??"
+def distribution(items, indicator):
+    values = [x[indicator] for x in items if indicator in x]
+    return [values.count(v) for v in range(4)] if values else None
+
+
+def comparison(a, b):
+    result = {}
+    for ind in INDICATORS:
+        da, db = distribution(a, ind), distribution(b, ind)
+        result[ind] = {'original': da, 'auto': db, 'delta_proportions': (
+            [db[v] / sum(db) - da[v] / sum(da) for v in range(4)]
+            if da is not None and db is not None else None
+        )}
+    return result
+
+
+def metadata_index(records, mapping):
+    by_id = {r['item_id']: r for r in records}
+    aliases = {m['corpus_id']: m['item_id'] for m in mapping.get('mapping', [])}
+    return by_id, aliases
+
+
+def analyze(items, records, mapping):
+    by_id, aliases = metadata_index(records, mapping)
+    enriched = []
+    unmatched = []
+    for row in items:
+        rec = by_id.get(aliases.get(row['id'], row['id']))
+        if rec is None:
+            # Same deterministic identity rule as the exporter, without URL guessing.
+            import uuid
+            uid = str(uuid.uuid5(uuid.NAMESPACE_DNS, f"iconocracy-corpus-{row['id']}"))
+            rec = by_id.get(uid)
+        if rec is None:
+            unmatched.append(row['id'])
+        inp = (rec or {}).get('input') or {}
+        meta = ((rec or {}).get('purificacao') or {}).get('record_metadata') or {}
+        enriched.append({**row, '_country': str(inp.get('place_hint') or '?'),
+                         '_support': meta.get('medium') or '?'})
+    groups = {'overall': {'all': enriched}}
+    for label, key in [('regime','regime_iconocratico'), ('country','_country'), ('support','_support')]:
+        groups[label] = {}
+        for row in enriched:
+            groups[label].setdefault(row.get(key) or '?', []).append(row)
+    report = {'unmatched_observation_ids': unmatched, 'groups': {},
+              'limitation': 'Unpaired coder populations: descriptive distributions, not agreement or causal drift.'}
+    for kind, buckets in groups.items():
+        report['groups'][kind] = {}
+        for label, rows in buckets.items():
+            a = [r for r in rows if r.get('coded_by') != 'hermes-auto']
+            b = [r for r in rows if r.get('coded_by') == 'hermes-auto']
+            report['groups'][kind][label] = {'n_original':len(a), 'n_auto':len(b), 'indicators':comparison(a,b)}
+    # Existing text is evidence; no thresholded list is fabricated as an inventory.
+    report['qualitative_coverage'] = {
+        'master_records':len(records),
+        'with_attribute_text':sum(bool((r.get('purificacao') or {}).get('atributos_iconograficos')) for r in records),
+        'with_verbal_inventory':sum(bool((r.get('purificacao') or {}).get('inventario_verbal')) for r in records),
+        'observations':len(items),
+        'observations_with_notes':sum(bool(r.get('notes')) for r in items),
+    }
+    return report
 
 
 def main():
-    items = load_items(PURIFICATION)
-    original = [x for x in items if x["coded_by"] != "hermes-auto"]
-    auto = [x for x in items if x["coded_by"] == "hermes-auto"]
-
-    # --- Overall drift ---
-    print("=" * 60)
-    print("PHASE 1 — SCORE DRIFT ANALYSIS")
-    print(f"Original-coded: {len(original)}  |  Auto-coded: {len(auto)}")
-    print("=" * 60)
-
-    print(f"\n{'Indicator':<32} {'Orig':>6} {'Auto':>6} {'Diff':>7}  {'Flag':>6}")
-    print("-" * 60)
-    flagged = []
-    for ind in INDICATORS:
-        o_mean = sum(x[ind] for x in original) / len(original)
-        a_mean = sum(x[ind] for x in auto) / len(auto)
-        diff = a_mean - o_mean
-        flag = "**" if abs(diff) > 0.5 else ""
-        if abs(diff) > 0.5:
-            flagged.append((ind, diff))
-        print(f"{ind:<32} {o_mean:>6.2f} {a_mean:>6.2f} {diff:>+7.2f}  {flag:>6}")
-
-    o_comp = sum(x["purificacao_composto"] for x in original) / len(original)
-    a_comp = sum(x["purificacao_composto"] for x in auto) / len(auto)
-    print(f"{'purificacao_composto':<32} {o_comp:>6.2f} {a_comp:>6.2f} {a_comp-o_comp:>+7.2f}")
-    print(f"\nFlagged indicators (|diff| > 0.5): {len(flagged)}")
-    for ind, diff in flagged:
-        print(f"  {ind}: {diff:+.2f}")
-
-    # --- By regime ---
-    print(f"\n{'='*60}")
-    print("BY REGIME")
-    for regime in ["fundacional", "normativo", "militar", "contra-alegoria"]:
-        o_r = [x for x in original if x.get("regime_iconocratico") == regime]
-        a_r = [x for x in auto if x.get("regime_iconocratico") == regime]
-        if not o_r and not a_r:
-            continue
-        print(f"\n  {regime}:")
-        o_mean = sum(x["purificacao_composto"] for x in o_r) / len(o_r) if o_r else 0
-        a_mean = sum(x["purificacao_composto"] for x in a_r) / len(a_r) if a_r else 0
-        print(f"    items: {len(o_r)} orig, {len(a_r)} auto")
-        print(f"    composite: {o_mean:.2f} -> {a_mean:.2f} (drift {a_mean-o_mean:+.2f})")
-        for ind in INDICATORS:
-            o_m = sum(x[ind] for x in o_r) / len(o_r) if o_r else 0
-            a_m = sum(x[ind] for x in a_r) / len(a_r) if a_r else 0
-            d = a_m - o_m
-            if abs(d) > 0.5:
-                print(f"      {ind}: {o_m:.2f} -> {a_m:.2f} ({d:+.2f})")
-
-    # --- By country ---
-    print(f"\n{'='*60}")
-    print("BY COUNTRY")
-    countries = set()
-    for item in items:
-        countries.add(get_country(item["id"]))
-    for country in sorted(countries):
-        o_c = [x for x in original if get_country(x["id"]) == country]
-        a_c = [x for x in auto if get_country(x["id"]) == country]
-        if not o_c and not a_c:
-            continue
-        o_mean = sum(x["purificacao_composto"] for x in o_c) / len(o_c) if o_c else 0
-        a_mean = sum(x["purificacao_composto"] for x in a_c) / len(a_c) if a_c else 0
-        flag = " **" if abs(a_mean - o_mean) > 0.5 else ""
-        print(f"  {country}: {len(o_c)} orig ({o_mean:.2f}), {len(a_c)} auto ({a_mean:.2f}), drift {a_mean-o_mean:+.2f}{flag}")
-
-    # --- Top outliers ---
-    print(f"\n{'='*60}")
-    print("TOP AUTO-CODED OUTLIERS (vs regime/country peers)")
-    print("=" * 60)
-    for idx, item in enumerate(auto):
-        c = get_country(item["id"])
-        regime = item.get("regime_iconocratico", "unknown")
-        peers = [x for x in original if get_country(x["id"]) == c and x.get("regime_iconocratico") == regime]
-        if peers:
-            peer_mean = sum(x["purificacao_composto"] for x in peers) / len(peers)
-            outlier_score = item["purificacao_composto"] - peer_mean
-        else:
-            outlier_score = 0
-        item["_country"] = c
-        item["_outlier_score"] = outlier_score
-
-    # Sort by abs(outlier)
-    sorted_items = sorted(auto, key=lambda x: abs(x["_outlier_score"]), reverse=True)
-    for item in sorted_items[:15]:
-        print(f"  {item['id']:20} comp={item['purificacao_composto']:.1f}  "
-              f"{item['_country']}/{item.get('regime_iconocratico','?')}  "
-              f"outlier_vs_peers={item['_outlier_score']:+.2f}  "
-              f"auto-mean={a_comp:.2f}")
+    report = analyze(load_items(PURIFICATION), load_items(REPO_ROOT / 'data/processed/records.jsonl'),
+                     json.loads((REPO_ROOT / 'data/processed/id-mapping.json').read_text()))
+    print(json.dumps(report, ensure_ascii=False, indent=2))
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

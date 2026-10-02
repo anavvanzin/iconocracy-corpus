@@ -1,6 +1,6 @@
 # Relatório de regeneração — corpus-data-enriched.json
 
-**Data**: 2026-09-27
+**Data**: 2026-09-29
 **Fonte autoritativa**: `corpus/corpus-data.json` (337 itens)
 **Fonte de overlay (fixa)**: `corpus/corpus-data-enriched.legacy.json` — 95 itens, origem: legacy.json commitado
 **Overlays legados preservados**: 91 ids presentes em ambos
@@ -52,7 +52,7 @@ Presentes no enriched antigo, **ausentes do ledger** — excluídos da regenera�
 ## Qualidade e lacunas
 
 - Itens com `regime_incerto` (classificador diverge do ledger): **182**
-- Itens sem `date` no ledger (emitidos com `date: ""`): **22**
+- Itens sem `date` no ledger (emitidos com `date: "")`: **22**
 - Itens sem `support` útil (None/'?'): **84**
 - Itens legados cujo regime mudou em relação ao enriched antigo (ledger vence, justificativa regenerada): **51**
 - Valores de `support` em texto livre sem mapeamento canônico: **0**
@@ -80,7 +80,6 @@ Presentes no enriched antigo, **ausentes do ledger** — excluídos da regenera�
 
 ## Anomalias do ledger
 
-- **0 itens com `endurecimento_score` > 1.0** (máx. 0). A escala real parece ser 0–3 (média dos 10 indicadores, cada um 0–3), não 0–1. O schema externo exige máximo 1 — esses itens falham na validação de intervalo (classe conhecida). Recomendado: normalizar dividindo por 3 ou revisar o schema.
 - 22 itens sem `date` (ano derivado null).
 - `country` usa variantes com parênteses ('Germany (Netherlands origin)', 'France (held in Austria)') e o código 'CL' em vez de 'Chile' — `country_pt` foi derivado do país-base.
 

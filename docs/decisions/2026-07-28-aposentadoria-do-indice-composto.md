@@ -110,3 +110,5 @@ O codebook MASTER passa a 2.2.1, com o §12 e o passo 4 do §16 reescritos. Como
 do instrumento é automaticamente refletida na codificação de proxy, e cada linha
 de staging registra `codebook_version: 2.2.1`. O que a codificação de julho fez
 e o que a de agosto fará ficam distinguíveis por esse campo.
+
+> **Follow-up 2026-09-24:** remoção definitiva executada — ver docs/decisions/2026-09-24-remocao-definitiva-do-campo.md.

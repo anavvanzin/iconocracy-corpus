@@ -8,9 +8,10 @@ Cobre a extensão da issue #211 (commit ac1ca89):
     attributes ← atributos_iconograficos, iconclass ← codes (só scheme=iconclass
     com notation), emite V230_FIELDS quando presentes, conta stats
   - build_record(master=None): regressão — comportamento idêntico ao pré-#211
-    (visual_regime + endurecimento_score apenas)
-  - validate_structural(): visual_regime obrigatório; endurecimento_score, quando
-    presente, deve ser number (ausente é válido — item sem score no ledger)
+    (visual_regime apenas; endurecimento_score aposentado 2026-09-24 não é
+    mais propagado ao metadata, mesmo quando presente no ledger)
+  - validate_structural(): visual_regime obrigatório; presença do campo
+    aposentado endurecimento_score (2026-09-24) é erro
   - Baseline de integração: pina as contagens reais do ledger (336 itens,
     326 panofsky, 17 atributos, distribuição de regimes) para detectar deriva
     do pipeline na regeneração.
@@ -244,19 +245,21 @@ class TestBuildRecordWithMaster:
 
 
 class TestBuildRecordWithoutMaster:
-    def test_minimal_iconographic_metadata(self, stats):
+    def test_retired_score_not_propagated(self, stats):
+        """endurecimento_score aposentado (2026-09-24): mesmo presente no
+        ledger, o campo NÃO é propagado ao iconographic_metadata."""
         record, _ = build_record(
             make_ledger_item(endurecimento_score=1.4), {}, stats, master=None)
         meta = record["iconographic_metadata"]
-        assert meta == {"visual_regime": "normativo", "endurecimento_score": 1.4}
+        assert meta == {"visual_regime": "normativo"}
         assert "panofsky" not in meta
         assert "attributes" not in meta
         for field in V230_FIELDS:
             assert field not in record
 
     def test_score_none_omitted_from_metadata(self, stats):
-        """Bug fix #211: endurecimento_score None não pode ir ao metadata
-        (schema exige number quando presente)."""
+        """Campo aposentado (2026-09-24): endurecimento_score nunca vai ao
+        metadata — ausente ou None no ledger, não é emitido."""
         record, _ = build_record(make_ledger_item(), {}, stats, master=None)
         assert "endurecimento_score" not in record["iconographic_metadata"]
 
@@ -453,16 +456,13 @@ class TestValidateStructural:
         """Nova semântica #211: score ausente é válido (item sem score no ledger)."""
         assert validate_structural([self.base_record()]) == []
 
-    def test_score_string_fails(self):
-        r = self.base_record()
-        r["iconographic_metadata"]["endurecimento_score"] = "1.4"
-        errors = validate_structural([r])
-        assert any("not a number" in e for e in errors)
-
-    def test_score_numeric_ok(self):
+    def test_retired_score_present_fails(self):
+        """Campo aposentado (2026-09-24): qualquer valor em
+        iconographic_metadata['endurecimento_score'] é erro de validação."""
         r = self.base_record()
         r["iconographic_metadata"]["endurecimento_score"] = 1.4
-        assert validate_structural([r]) == []
+        errors = validate_structural([r])
+        assert any("aposentado" in e for e in errors)
 
     def test_motif_not_list_fails(self):
         r = self.base_record()

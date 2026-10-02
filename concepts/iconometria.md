@@ -1,7 +1,7 @@
 ---
 title: Iconometria
 created: 2024-05-15
-updated: 2026-07-11
+updated: 2026-09-24
 type: concept
 tags: [methodology, quantitative-analysis, iconography, data-analysis]
 sources: [raw/articles/iconocracia-companion-web.md]
@@ -31,11 +31,15 @@ substitui:
   (p.ex. seriação, vetor colonial, densidade narrativa), sem que cada um colapse
   no escore único de fixidez.
 
-> [!note] Estabilidade de dados
-> O campo canônico permanece **`endurecimento_score`** (`records.jsonl`,
-> `purification.jsonl`, `corpus-data.json`, CSV, schemas). A promoção de
-> "iconometria" a guarda-chuva é conceitual; **não** renomeia a chave de dados.
-> Ver plano faseado em [`docs/decisions/ICONOMETRIA-TRANSITION-2026-07-11.md`](../docs/decisions/ICONOMETRIA-TRANSITION-2026-07-11.md).
+> [!note] Estatuto de dados
+> O campo **`endurecimento_score`** foi **removido definitivamente** em
+> 2026-09-24 de `records.jsonl`, `purification.jsonl`, `corpus-data.json`, CSV
+> e schemas — ver
+> [`docs/decisions/2026-09-24-remocao-definitiva-do-campo.md`](../docs/decisions/2026-09-24-remocao-definitiva-do-campo.md).
+> A codificação vigente é o **inventário verbal de atributos** sobre os 10
+> indicadores ordinais (nunca somado). A promoção de "iconometria" a
+> guarda-chuva é conceitual e segue intacta; ver plano faseado em
+> [`docs/decisions/ICONOMETRIA-TRANSITION-2026-07-11.md`](../docs/decisions/ICONOMETRIA-TRANSITION-2026-07-11.md).
 
 ## Conceitos relacionados
 

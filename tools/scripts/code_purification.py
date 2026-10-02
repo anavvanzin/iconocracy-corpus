@@ -212,8 +212,7 @@ def display_draft(draft):
     if not pur:
         print("    (draft sem bloco purificacao — ver analyst_notes)")
     else:
-        print(f"    composto={pur.get('purificacao_composto', '?')}  "
-              f"regime={pur.get('regime_iconocratico', '?')}")
+        print(f"    regime={pur.get('regime_iconocratico', '?')}")
     notes = draft.get("analyst_notes")
     if notes:
         print(f"    notas: {notes[:300]}{'…' if len(notes) > 300 else ''}")
@@ -277,9 +276,6 @@ def code_item(item, coder="ana", draft=None):
     if regime == "skip":
         return None
 
-    # Compute composite
-    composite = round(sum(scores.values()) / len(scores), 2)
-
     # Optional notes
     notes = input("\n  Notes (optional, Enter to skip): ").strip()
 
@@ -291,7 +287,6 @@ def code_item(item, coder="ana", draft=None):
         "period": item.get("period"),
         "medium_norm": item.get("medium_norm"),
         **scores,
-        "purificacao_composto": composite,
         "regime_iconocratico": regime,
         "coded_by": coder,
         "coded_at": datetime.now(timezone.utc).isoformat(),
@@ -300,7 +295,7 @@ def code_item(item, coder="ana", draft=None):
         record["notes"] = notes
 
     # Show summary
-    print(f"\n  ✅ {item['id']}: composite = {composite:.2f}, regime = {regime}")
+    print(f"\n  ✅ {item['id']}: regime = {regime}")
     return record
 
 
@@ -319,11 +314,14 @@ def show_status(corpus, coded):
     print(f"  Output file:   {OUTPUT_JSONL}")
 
     if coded:
-        composites = [r["purificacao_composto"] for r in coded.values()]
-        print("\n  Composite stats (coded items):")
-        print(f"    Min:  {min(composites):.2f}")
-        print(f"    Max:  {max(composites):.2f}")
-        print(f"    Mean: {sum(composites) / len(composites):.2f}")
+        # purificacao_composto aposentado (2026-09-24): stats sobre os
+        # 10 indicadores ordinais; pais/suporte exibem contagens.
+        indicator_names = [name for name, _, _ in INDICATORS]
+        print("\n  Indicator distributions (coded items, escala ordinal 0-3):")
+        for name in indicator_names:
+            vals = [r[name] for r in coded.values() if isinstance(r.get(name), (int, float))]
+            if vals:
+                print(f"    {name:30s}  " + " ".join(f"{v}={vals.count(v)}" for v in range(4)) + f"  n={len(vals)}")
 
         # Build lookups from corpus (has country, support)
         corpus_country = {item["id"]: item.get("country", "?") for item in corpus if item.get("id")}
@@ -334,24 +332,22 @@ def show_status(corpus, coded):
         for r in coded.values():
             cid = r["id"]
             c = corpus_country.get(cid, "?")
-            by_country.setdefault(c, []).append(r["purificacao_composto"])
+            by_country[c] = by_country.get(c, 0) + 1
         print("\n  By country:")
         for c in sorted(by_country):
-            vals = by_country[c]
-            print(f"    {c:35s}  {len(vals):3d} coded  (mean={sum(vals)/len(vals):.2f})")
+            print(f"    {c:35s}  {by_country[c]:3d} coded")
 
         # By support — identify forensic architecture gap
         by_support = {}
         for r in coded.values():
             cid = r["id"]
             s = corpus_support.get(cid, "?")
-            by_support.setdefault(s, []).append(r["purificacao_composto"])
+            by_support[s] = by_support.get(s, 0) + 1
         print("\n  By support:")
-        for s in sorted(by_support, key=lambda x: -len(by_support[x])):
-            vals = by_support[s]
-            marker = " 🔴 GAP" if s == "?" or len([v for v in vals if v > 0]) == 0 else ""
-            print(f"    {s:35s}  {len(vals):3d} coded  (mean={sum(vals)/len(vals):.2f}){marker}")
-        if "arquitetura forense" not in by_support or len(by_support["arquitetura forense"]) == 0:
+        for s in sorted(by_support, key=lambda x: -by_support[x]):
+            marker = " 🔴 GAP" if s == "?" else ""
+            print(f"    {s:35s}  {by_support[s]:3d} coded{marker}")
+        if "arquitetura forense" not in by_support or by_support["arquitetura forense"] == 0:
             print("    ⚠️  ARQUITETURA FORENSE = 0 itens — lacuna crítica")
 
         # By regime
@@ -372,7 +368,7 @@ def export_csv(corpus, coded):
     import csv
 
     indicator_names = [name for name, _, _ in INDICATORS]
-    extra_cols = ["purificacao_composto", "regime_iconocratico", "coded_by", "coded_at", "notes"]
+    extra_cols = ["regime_iconocratico", "coded_by", "coded_at", "notes"]
     thumbnail_cols = [
         "thumbnail_fetch_status", "thumbnail_license", "thumbnail_custody",
         "thumbnail_recovered_at",
@@ -476,8 +472,7 @@ def select_sample(corpus, coded, n):
     print(f"\n  Sample IDs ({len(sample)} items):")
     for item_id in sorted(sample):
         rec = coded[item_id]
-        print(f"    {item_id:15s}  regime={rec.get('regime_iconocratico','?'):15s}  "
-              f"composto={rec.get('purificacao_composto', 0):.2f}")
+        print(f"    {item_id:15s}  regime={rec.get('regime_iconocratico','?'):15s}")
 
     # Save sample list
     sample_path = REPO_ROOT / "data" / "processed" / "irr_sample.json"

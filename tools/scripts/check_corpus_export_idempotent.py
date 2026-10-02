@@ -3,7 +3,6 @@
 
 from __future__ import annotations
 
-import math
 import sys
 from pathlib import Path
 
@@ -19,16 +18,16 @@ from tools.scripts.records_to_corpus import (
 
 # Keep in sync with the authoritative update block in
 # tools/scripts/records_to_corpus.py::_corpus_entry_from_record().
+# endurecimento_score e indicadores foram aposentados em 2026-09-24 e
+# removidos desta lista: o exportador nao os emite mais.
 AUTHORITATIVE_FIELDS = (
     "url",
     "title",
     "description",
     "motif",
     "regime",
-    "endurecimento_score",
     "coded_by",
     "coded_at",
-    "indicadores",
     "citation_abnt",
     "audit_flags",
     "support",
@@ -41,10 +40,7 @@ def diff_authoritative_fields(generated: dict, existing: dict) -> list[str]:
     for field in AUTHORITATIVE_FIELDS:
         g = generated.get(field)
         e = existing.get(field)
-        if field == "endurecimento_score" and isinstance(g, (int, float)) and isinstance(e, (int, float)):
-            if not math.isclose(g, e, abs_tol=1e-9):
-                diffs.append(f"  {field}: generated={g!r} existing={e!r}")
-        elif g != e:
+        if g != e:
             diffs.append(f"  {field}: generated={g!r} existing={e!r}")
     return diffs
 
@@ -53,6 +49,11 @@ def main() -> int:
     records = _load_records()
     existing_corpus = _load_existing_corpus()
     generated = export_corpus(records, existing_corpus, replace=False)
+    residue = [item_id for item_id, item in existing_corpus.items()
+               if any(k in item for k in ("endurecimento_score", "indicadores", "purificacao_composto"))]
+    if residue:
+        print(f"corpus export contains retired fields: {residue}")
+        return 1
 
     id_less = [g for g in generated if "id" not in g]
     if id_less:
