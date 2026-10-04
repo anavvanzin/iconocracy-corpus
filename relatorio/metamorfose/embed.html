@@ -48,8 +48,14 @@ const pmrem = new THREE.PMREMGenerator(renderer);
 scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
 scene.environmentIntensity = 0.28;
 
+const Q = new URLSearchParams(location.search);
+const MEDAL = Q.has('medalhao');                 /* modo medalhão: enquadramento fechado para a capa */
+if (MEDAL) document.querySelector('.mf-label').style.display = 'none';
+
 const camera = new THREE.PerspectiveCamera(33, stage.clientWidth / stage.clientHeight, 0.1, 50);
-const HOME = { pos: new THREE.Vector3(2.95, 2.2, 5.05), tgt: new THREE.Vector3(-0.45, 1.35, 0) };
+const HOME = MEDAL
+  ? { pos: new THREE.Vector3(1.65, 1.9, 3.15), tgt: new THREE.Vector3(-0.45, 1.42, 0) }
+  : { pos: new THREE.Vector3(2.95, 2.2, 5.05), tgt: new THREE.Vector3(-0.45, 1.35, 0) };
 camera.position.copy(HOME.pos);
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.target.copy(HOME.tgt);
@@ -111,7 +117,7 @@ function marbleMaps(size = 512) {
   a.fillStyle = '#f4f2ee'; a.fillRect(0, 0, size, size);
   let rng = 7;
   const rnd = () => (rng = (rng * 16807) % 2147483647) / 2147483647;
-  for (let i = 0; i < 34; i++) {
+  for (let i = 0; i < 34; i++) {                       /* faint veins */
     a.strokeStyle = `rgba(105,96,84,${0.04 + rnd() * 0.06})`;
     a.lineWidth = 0.5 + rnd() * 1.4;
     a.beginPath();
