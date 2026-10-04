@@ -247,6 +247,26 @@ table.dt tr.hl td { background: var(--tint-fem); }
 @keyframes hint { 0%, 100% { transform: scaleX(.4); } 50% { transform: scaleX(1); } }
 @media (max-width: 760px) { .cover-inner { padding: 5rem 1.4rem 5.5rem; } .scroll-hint { left: 1.4rem; } }
 
+/* ---------- medalhão 3D da capa (o centro do atlas é a Marianne viva) ---------- */
+#cover { container-type: inline-size; }
+.cover-3d {
+  position: absolute; z-index: 2; left: 70%; top: 52%; transform: translate(-50%, -50%);
+  width: clamp(190px, 30cqw, 300px); aspect-ratio: 1;
+}
+.cover-3d iframe {
+  display: block; width: 100%; height: 100%; border: 0; border-radius: 50%;
+  background: #17120E;
+  box-shadow: 0 0 0 2px var(--ink), 0 0 0 7px var(--paper), 0 0 0 8px var(--hairline-gold), 0 24px 60px rgba(26, 22, 18, .28);
+}
+.cover-3d-cap {
+  position: absolute; left: 50%; top: calc(100% + 12px); transform: translateX(-50%);
+  font-family: var(--mono); font-size: .58rem; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--ink-lo); white-space: nowrap;
+}
+.cover-3d-cap:hover { color: var(--terra-deep); text-decoration: none; }
+@container (max-width: 1049px) { .cover-3d { left: 72%; } }
+@container (max-width: 759px) { .cover-3d { display: none; } }
+
 /* ---------- right rail (contexto persistente) ---------- */
 #dash-rail {
   position: fixed; top: 0; right: 0; width: var(--railw); height: 100vh; z-index: 40;
@@ -305,7 +325,7 @@ table.dt tr.hl td { background: var(--tint-fem); }
 
 /* ---------- impressão ---------- */
 @media print {
-  .rail, .drill, .tip, .scroll-hint, .vitrine-frame, .cover-canvas, .chips, .skip-link { display: none !important; }
+  .rail, .drill, .tip, .scroll-hint, .vitrine-frame, .cover-canvas, .chips, .skip-link, .cover-3d { display: none !important; }
   #sec-timeline, #sec-matrix, #sec-flow, #sec-vitrine, #sec-verdict, #sec-sources { page-break-before: always; }
   .chart-frame, .stat-band, .term, .quote-card, .note-box, .src-row { page-break-inside: avoid; }
   .rv { opacity: 1 !important; transform: none !important; }
