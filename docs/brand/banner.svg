@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="banner-title banner-desc">
+  <title id="banner-title">Iconocracia</title>
+  <desc id="banner-desc">Corpus e tese em curso no PPGD/UFSC: alegoria feminina, cultura jurídica, fontes e imagens.</desc>
+  <rect width="1280" height="320" fill="#1D2548"></rect>
+  <rect x="0" y="0" width="1280" height="320" fill="#131F36" opacity="0.35"></rect>
+
+  <g stroke="#B8924A" stroke-width="0.5" opacity="0.10">
+    <path d="M0 80H1280M0 160H1280M0 240H1280"></path>
+    <path d="M160 0V320M320 0V320M480 0V320M640 0V320M800 0V320M960 0V320M1120 0V320"></path>
+  </g>
+
+  <rect x="28" y="28" width="1224" height="264" fill="none" stroke="#B8924A" stroke-width="1" opacity="0.55"></rect>
+  <rect x="36" y="36" width="1208" height="248" fill="none" stroke="#B8924A" stroke-width="0.5" opacity="0.35"></rect>
+
+  <g stroke="#D4A85E" stroke-width="1.5" fill="none">
+    <path d="M28 48V28h20M1232 28h20v20M1252 272v20h-20M48 292H28v-20"></path>
+  </g>
+
+  <text x="640" y="96" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="15" letter-spacing="6" fill="#D4A85E">CORPUS · TESE EM CURSO · PPGD/UFSC</text>
+
+  <text x="640" y="182" text-anchor="middle" font-family="'Instrument Serif',Georgia,'Times New Roman',serif" font-style="italic" font-size="88" fill="#E8DCC4">Iconocracia</text>
+
+  <path d="M420 214H860" stroke="#B8924A" stroke-width="1"></path>
+  <path d="M420 218H860" stroke="#B8924A" stroke-width="0.5" opacity="0.5"></path>
+
+  <text x="640" y="252" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="14" letter-spacing="3" fill="#D8CDBA">ALEGORIA FEMININA · CULTURA JURÍDICA · FONTES E IMAGENS</text>
+</svg>
