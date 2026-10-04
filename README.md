@@ -1,294 +1,181 @@
-<img width="2400" height="1200" alt="iconocracy_01_corpus_banner" src="https://github.com/user-attachments/assets/bca33fa4-0de9-4f3b-aa2e-31fa07be3c06" />
+<p align="center">
+  <img src="docs/brand/banner.svg" alt="ICONOCRACIA: female allegory, legal culture, sources and images" width="100%">
+</p>
 
-# Iconocracia · Female Allegory in Legal Iconography
+# ICONOCRACIA
 
-**Alegoria Feminina na História da Cultura Jurídica (Séculos XIX-XX)**
+**Alegoria Feminina como Operador Epistêmico da Legitimidade Jurídica**
 
-[![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
-[![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20dataset-warholana%2Ficonocracy--corpus-yellow.svg)](https://hf.co/datasets/warholana/iconocracy-corpus)
-[![Site](https://img.shields.io/badge/site-iconocracia.com-black.svg)](https://iconocracia.com)
-[![Dashboard](https://img.shields.io/badge/dashboard-live-2A7A5A.svg)](https://dashboard.iconocracia.com)
+*Feminine Allegory as an Epistemic Operator of Juridical Legitimacy*
 
-Research monorepo for a doctoral thesis in progress (PPGD/UFSC, Ana Vanzin). The thesis studies how female allegorical figures such as Justice, the Republic, Marianne, Britannia and Columbia come to organize reality and distribute state and legal authority.
+Doctoral research in legal history and legal iconography by **Ana Vanzin**, PPGD/UFSC (Federal University of Santa Catarina).
 
-The repository brings together (1) a searchable, **open and growing** corpus of female allegories on coins, stamps, monuments, courthouses, prints and banknotes; (2) a dual-agent pipeline that discovers and describes each item; (3) iconometric analysis, with *endurecimento* as its axis of fixity; and (4) the thesis manuscript itself.
+This repository brings together images, source records, historical-legal research, comparative panels and the thesis manuscript. The research examines how female allegories participate in the recognition of legal and political authority, and how that visual authority relates to the legal position of concrete women.
 
-> **The corpus is exploratory, not frozen.** It keeps growing until the defense. The counts below are a **working snapshot (September 2026, commit `e86cb37`)**: a state-of-progress reading, not a fixed *N*.
+[Research environment: iconocracia.com](https://iconocracia.com) · [Corpus dashboard](https://dashboard.iconocracia.com) · [Dataset snapshots](https://hf.co/datasets/warholana/iconocracy-corpus)
 
----
+<p align="center"><img src="docs/brand/rule.svg" alt="" width="100%"></p>
 
-## Table of Contents
+## Contents
 
-- [Where the research lives](#where-the-research-lives)
-- [The corpus at a glance](#the-corpus-at-a-glance)
-- [Method: iconometria and *endurecimento*](#method-iconometria-and-endurecimento)
-- [The dual-agent pipeline](#the-dual-agent-pipeline)
-- [Quickstart](#quickstart)
-- [Repository layout](#repository-layout)
-- [Thesis architecture](#thesis-architecture)
-- [Data model & traceability](#data-model--traceability)
-- [Known issues and honest numbers](#known-issues-and-honest-numbers)
-- [Related resources](#related-resources)
-- [Citation](#citation)
-- [License](#license)
+- [Research question and working scope](#research-question-and-working-scope)
+- [Images, objects and sources](#images-objects-and-sources)
+- [Method and interpretive limits](#method-and-interpretive-limits)
+- [Corpus snapshot](#corpus-snapshot)
+- [Where to work and consult](#where-to-work-and-consult)
+- [Data authority and traceability](#data-authority-and-traceability)
+- [Research assistance](#research-assistance)
+- [Local setup and checks](#local-setup-and-checks)
+- [Citation and reuse](#citation-and-reuse)
 
----
+## Research question and working scope
 
-## Where the research lives
+**Working question:** how does a female allegorical figure become a condition for recognizing juridical authority, and how does that process bear on the women whose legal autonomy is at stake?
 
-The research is a constellation: this repository is the canonical core, and the public surfaces are derived from it.
+The current working direction is a genealogy centred on **Brazil, 1822–1922**, with European material used for historical comparison. The thesis title and direction are recorded in [CLAUDE.md](CLAUDE.md); the manuscript and case selection remain in development.
 
-| Surface | Role | Where |
-| --- | --- | --- |
-| **Local** | Thesis writing, corpus expansion, visual coding, Obsidian vault | Working copy of this repo |
-| **iconocracy-corpus** | Canonical history, schema validation (CI), publication backbone | This repo |
-| **Research** | Meta-workspace: workflow specs and research automation | [anavvanzin/Research](https://github.com/anavvanzin/Research) |
-| **Mnemosyne Viva** | Public editorial home of the archive | [iconocracia.com](https://iconocracia.com) · [anavvanzin/imagens](https://github.com/anavvanzin/imagens) |
-| **Analytical dashboard** | `corpus/DASHBOARD_CORPUS.html` on Cloudflare Pages, first published 2026-08-14 | [dashboard.iconocracia.com](https://dashboard.iconocracia.com) |
-| **Hugging Face** | Frozen dataset snapshots and a read-only explorer | [warholana/iconocracy-corpus](https://hf.co/datasets/warholana/iconocracy-corpus) |
+The **corpus is open and transnational**. Its chronology extends beyond the thesis focus, allowing earlier and later objects to serve as comparanda. Inclusion in the research catalogue does not establish that an item belongs in the thesis's documentary demonstration.
 
-**Mnemosyne Viva** is a static editorial site. Its repository validates the *acervo* against JSON Schema, reruns that validation every week, and checks image performance every month.
+Images and their source records help document the availability, circulation and transformation of a figure. Claims about legal prescription, exclusion or reception require historical evidence appropriate to each claim: legislation, institutional records, production and commission documents, contemporary texts and other sources read alongside the object.
 
-The browsable surfaces in this repo are self-contained HTML, so they open straight in a browser:
+## Images, objects and sources
 
-- **`corpus/index.html`**: full-text searchable corpus interface
-- **`corpus/DASHBOARD_CORPUS.html`**: interactive dashboard with gallery and table views, filters, Chart.js charts, copy-ready citations, and a *Modo Foco* writing panel (the same file serves dashboard.iconocracia.com)
-- **`corpus/atlas-iconometrico.html`**: visual atlas of the corpus
-- **[`deploy/iconocracia-cv/`](deploy/iconocracia-cv/)**: course site and reproducible computer-vision dataset audit
+The catalogue includes **coins, stamps, monuments and sculpture, courthouse architecture, prints, frontispieces, banknotes and posters**. Justice, the Republic, Marianne, Britannia, Columbia and related figures are read through their specific objects, uses and documentary contexts.
 
----
+Sources include Gallica/BnF, Europeana, the Library of Congress, Brasiliana Fotográfica, the Hemeroteca Digital Brasileira, Biblioteca Nacional Digital (Portugal) and other institutional collections.
 
-## The corpus at a glance
+For each object, research connects the image to its catalogue record and available documentation: attribution, date, support, inscription, place of production or use, collection identifier, source URL and rights information. Uncertain metadata and interpretive claims retain their verification status.
 
-*Working snapshot, September 2026 (commit `e86cb37`). Numbers grow between commits.*
+The site is a research environment for finding, comparing and revisiting these materials. GitHub and Hugging Face support provenance, collaboration and access to dated derivatives.
 
-- **335** records in the operational ledger (`data/processed/records.jsonl`)
-- **335** items in the public projection (`corpus/corpus-data.json`)
-- **286** coding observations in `data/processed/purification.jsonl` (77 are all-zero observations: 76 inherited placeholders and one genuine manual coding; see [Known issues](#known-issues-and-honest-numbers))
-- **410** catalog cards in the Obsidian vault (`vault/candidatos/`), plus 38 rejected cards in `_rejeitados/`
+## Method and interpretive limits
 
-**By country** (top of a non-exhaustive, transnational corpus):
+Analysis combines **Panofsky's three levels** of description, iconographic identification and iconological interpretation with **Warburgian comparison and montage**: *Pathosformel*, *Nachleben* and *Zwischenraum*. The historical-legal argument depends on source criticism and documented relations between objects.
 
-| FR | BR | US | DE | UK | IT | PT | BE | NL | ES | + AT, CL, DK, MX, AR, CH, UY |
-|----|----|----|----|----|----|----|----|----|----|----|
-| 101 | 72 | 32 | 27 | 23 | 20 | 11 | 11 | 10 | 10 | |
+**Iconometria** provides a descriptive framework for organizing iconographic observations. **Endurecimento** is its axis of fixity, documented through a verbal inventory of attributes and ten ordinal indicators:
 
-**By iconocratic regime** (public projection):
+| Indicator | English gloss |
+|---|---|
+| desincorporação | disembodiment |
+| rigidez_postural | postural rigidity |
+| dessexualização | desexualization |
+| uniformização_facial | facial uniformization |
+| heraldicização | heraldic abstraction |
+| enquadramento_arquitetônico | architectural framing |
+| apagamento_narrativo | narrative erasure |
+| monocromatização | monochromatization |
+| serialidade | seriality |
+| inscrição_estatal | state inscription |
 
-| Regime | Count | Character |
-|--------|-------|-----------|
-| **Fundacional** | 163 | Sacrificial, body alive |
-| **Normativo** | 103 | Domesticated, bureaucratic |
-| **Militar** | 54 | Hardened, imperial |
-| **Contra-alegoria** | 15 | Subversive, contested |
+The indicators retain their **0–3 ordinal scale** and require contextual interpretation. Comparisons use regime labels such as **FUNDACIONAL**, **NORMATIVO**, **MILITAR** and **CONTRA-ALEGORIA**, whose applicability must be justified for each object.
 
-**Supports:** coin · stamp · monument/sculpture · courthouse architecture · print/engraving · frontispiece · banknote · poster
+The [2026-07-28 decision](docs/decisions/2026-07-28-aposentadoria-do-indice-composto.md) retired the composite index as a probatory claim. The [2026-09-24 decision, updated on 2026-09-29](docs/decisions/2026-09-24-remocao-definitiva-do-campo.md) removed `endurecimento_score` and composite fields from the active ledgers and exports. Historical sources retain their dated status.
 
-**Period:** 1800-2000 inclusion window, with priority on 1880-1920. Some items fall outside the window; see [Known issues](#known-issues-and-honest-numbers).
+Current coding requires a **verbal attribute inventory** alongside the separate ordinal observations. Inventory coverage remains partial, so undocumented qualitative claims remain pending. Sums, means, attribute counts and density do not substitute for the retired composite or rank the atlas.
 
-**Inclusion criteria** (all four required): a female allegorical figure · with an explicit juridical-political function · datable 1800-2000 · on an accepted support. Country is an *analytical variable*, **not** a gate (decision 2026-06-22), because the "universal" allegory is transnational by design.
+The [methodological decision of 2026-07-31](docs/decisions/2026-07-31-metodologia-2-0-iconometry-consolidation.md) defines the corpus as a documented catalogue and the indicators as interpretive *capta*. The [2026-09-22 audit](docs/decisions/2026-09-22-auditoria-camada-inferencial.md) maintains descriptive iconometria and freezes **notebooks 02–08** as exploratory artifacts for internal diagnosis. **Notebook 01** remains the descriptive notebook.
 
-**Sources:** Brasiliana Fotográfica · Hemeroteca Digital Brasileira · Gallica (BnF) · Europeana · Biblioteca Nacional Digital (Portugal) · Library of Congress · Bildindex der Kunst und Architektur · British Museum · Rijksmuseum.
+The thesis develops four authorial concepts: **Contrato Sexual Visual**, **Feminilidade de Estado**, **Contrato Racial Visual** and **Purificação Clássica**.
 
----
+## Corpus snapshot
 
-## Method: iconometria and *endurecimento*
+**File count, 2026-10-04, source commit [`33132b3`](https://github.com/anavvanzin/iconocracy-corpus/commit/33132b3485629183d7378c674c67cd8136d53ce1).** These figures describe that repository version, rather than a frozen dataset release.
 
-**Iconometria** is the umbrella methodological framework (decision 2026-07-11): the measurement and analysis of iconographic patterns in the corpus. *Endurecimento* (always in Portuguese) is its axis of fixity and the empirical operationalization of *Purificação Clássica*. Every coded item is described on **10 ordinal indicators (0-3)**:
+| File | Entries |
+|---|---:|
+| [`records.jsonl`](data/processed/records.jsonl): item records | 337 |
+| [`purification.jsonl`](data/processed/purification.jsonl): coding observations | 286 |
+| [`corpus-data.json`](corpus/corpus-data.json): public projection | 337 |
 
-| # | Indicator (PT) | English gloss |
-|---|----------------|---------------|
-| 1 | desincorporação | disembodiment |
-| 2 | rigidez_postural | postural rigidity |
-| 3 | dessexualização | de-sexualization |
-| 4 | uniformização_facial | facial uniformization |
-| 5 | heraldização | heraldic abstraction |
-| 6 | enquadramento_arquitetônico | architectural framing |
-| 7 | apagamento_narrativo | narrative erasure |
-| 8 | monocromatização | monochromatization |
-| 9 | serialidade | seriality / mass reproduction |
-| 10 | inscrição_estatal | state inscription |
+A coding observation is not interchangeable with an item: the model allows multiple observations per item, and historical imports require their own evidence review. These counts do not establish complete coding coverage or verified image availability. The [field-ownership decision](docs/adr/006-canonical-field-ownership-and-projections.md) documents the distinction between observed zeros and pending coding.
 
-The indicators are no longer summed. Since 2026-07-28 the composite index is retired as evidence and frozen as a historical artifact, and new coding records a verbal inventory of attributes instead ([decision](docs/decisions/2026-07-28-aposentadoria-do-indice-composto.md)). On 2026-09-24 the `endurecimento_score` field (and the aggregate `indicadores` block) was **removed definitively** from the exporter, the canonical ledgers and the public projection ([decision](docs/decisions/2026-09-24-remocao-definitiva-do-campo.md)).
+Any quantitative description used in academic writing should identify its dated source files and version. Historical counts elsewhere in the repository belong to their respective snapshots.
 
-Regimes place each figure along the trajectory **Fundacional → Normativo → Militar**, with **Contra-alegoria** as the subversive counter-movement. Items are read at Panofsky's three levels together with Warburg's apparatus (*Pathosformel*, *Nachleben*, *Zwischenraum*, always in German).
+## Where to work and consult
 
-Four original conceptual contributions of the thesis (Vanzin 2026): **Contrato Sexual Visual**, **Feminilidade de Estado**, **Contrato Racial Visual**, and **Purificação Clássica**. They are the author's own concepts and are not attributable to Pateman or Mondzain.
+| Resource | Research use |
+|---|---|
+| [`tese/manuscrito/`](tese/manuscrito/) | Thesis chapters and working text |
+| [`vault/candidatos/`](vault/candidatos/) | Catalogue notes and object dossiers |
+| [`atlas/`](atlas/) | Relations between objects and research notes |
+| [`data/processed/`](data/processed/) | Canonical item and coding ledgers |
+| [`corpus/`](corpus/) | Derived interfaces and exports |
+| [`docs/decisions/`](docs/decisions/) | Dated methodological decisions |
+| [`tools/scripts/`](tools/scripts/) | Validation, acquisition and export tools |
+| [`notebooks/`](notebooks/) | Descriptive work and archived exploratory analyses |
 
----
+For local consultation, open [`corpus/index.html`](corpus/index.html), [`corpus/DASHBOARD_CORPUS.html`](corpus/DASHBOARD_CORPUS.html) or [`corpus/atlas-iconometrico.html`](corpus/atlas-iconometrico.html). Their embedded data and analytical displays should be read with their snapshot and methodological status in mind.
 
-## The dual-agent pipeline
+Related research environments:
 
-```
-WebScout  ──────────────▶  IconoCode  ──────────────▶  master records
-(archive discovery)        (visual analysis)            records.jsonl → corpus-data.json
-```
+- [iconocracia.com](https://iconocracia.com): editorial and visual consultation.
+- [dashboard.iconocracia.com](https://dashboard.iconocracia.com): corpus dashboard.
+- [Hugging Face dataset](https://hf.co/datasets/warholana/iconocracy-corpus): dated public derivatives.
+- [`deploy/iconocracia-cv/`](deploy/iconocracia-cv/): computer-vision course materials and dataset audit.
+- [Research meta-workspace](https://github.com/anavvanzin/Research): coordination and workflow documentation.
 
-- **WebScout** queries digital archives (Europeana, Gallica, LOC, BnF, Numista, Colnect) for candidate figures and contextual metadata.
-- **IconoCode** performs a 3-level Panofsky analysis plus the 10 *endurecimento* indicators.
-- Output flows into `data/processed/records.jsonl` and `data/processed/purification.jsonl`, and is projected to `corpus/corpus-data.json` for the public surfaces.
+## Data authority and traceability
 
-A separate **ARGOS** workflow orchestrates acquisition (manifest → dispatch groups → report).
-
----
-
-## Quickstart
-
-```bash
-# 1. Environment (conda, Python 3.11)
-conda env create -f environment.yml
-conda activate iconocracy
-
-# 2. Browse the corpus: no build needed; open the file in any browser
-#    corpus/DASHBOARD_CORPUS.html   (or corpus/index.html)
-
-# 3. Validate the data
-python tools/scripts/validate_schemas.py
-
-# 4. Preview the records → public projection diff
-python tools/scripts/records_to_corpus.py --diff
-
-# 5. Check endurecimento coding progress
-python tools/scripts/code_purification.py --status
-
-# 6. Run the tests
-pytest tests/
-```
-
-Every Python tool is run **from the repo root**: `python tools/scripts/<script>.py`.
-
-**Release gate.** Run these steps in order before any public dataset or site release (see [`docs/OPERATING_MODEL.md`](docs/OPERATING_MODEL.md)):
-
-1. Validate `records.jsonl`.
-2. Validate `purification.jsonl`.
-3. Check authoritative export-field idempotence.
-4. Generate and review the evidence traceability report. High-severity issues block the release.
-5. Review `code_purification.py --status`.
-6. Review `vault_sync.py status` or `diff`.
-7. Build a Hugging Face snapshot if the public dataset changes.
-
-`build_hf_release.py` runs steps 1 to 4 itself and refuses count or semantic export drift. Steps 5 and 6 remain explicit scholarly review gates.
-
----
-
-## Repository layout
-
-```
-iconocracy-corpus/
-├── corpus/            # Searchable corpus + self-contained HTML dashboards
-│   ├── index.html            # Browser search interface
-│   ├── corpus-data.json      # Public projection (regenerated, never hand-edited)
-│   ├── DASHBOARD_CORPUS.html # Interactive analytical dashboard (Chart.js)
-│   └── atlas-iconometrico.html
-├── data/
-│   ├── raw/                  # Manifests & Drive links ONLY, never binaries (ADR-001)
-│   ├── interim/              # Data in transformation
-│   └── processed/            # records.jsonl + purification.jsonl (canonical ledgers)
-├── tools/
-│   ├── scripts/              # ~115 Python automation scripts
-│   ├── schemas/              # 9 JSON schemas (master-record, purification-record, IconoCode, WebScout, ...)
-│   └── sql/                  # DB migrations for the dual-agent corpus
-├── tese/                # Doctoral manuscript, revisions, research notes
-│   ├── manuscrito/           # Chapters (Markdown → Pandoc)
-│   └── revisoes/             # ABNT + terminological audits
-├── notebooks/           # Analysis 01-08 (exploratory → Kruskal-Wallis → regression
-│                        #   → correspondence → temporal → clustering → dimensionality
-│                        #   → multidimensional scoring)
-├── vault/               # Obsidian vault (candidatos/ catalog cards, templates, tese/ build)
-├── atlas/               # Navigable knowledge graph over the monorepo
-├── iconocracy-ingest/   # Ingestion pipeline for scanned archival material (BND, Câmara, Senado, Internet Archive)
-├── docs/                # Specs, ADRs, decisions, operating model, workflows
-├── deploy/              # Companion app, CV course site, studio, HF Space, Docker, mockups
-├── tests/               # pytest suite (~40 test files)
-├── wiki/ · concepts/ · entities/ · sources/ · biblio/ · archive/   # Research notes and historical material
-├── environment.yml · requirements.txt · CITATION.cff · LICENSE
-```
-
----
-
-## Thesis architecture
-
-The working architecture is **Arquitetura C**, chosen on 2026-09-08. Like everything in the thesis, it is provisional. The thesis is a theoretical proposition, demonstrated through a documentary series, with the image corpus in a declared auxiliary role.
-
-- **Proposition.** Feminine abstraction organizes reality and distributes authority. Drawing on Olivecrona, feminist theory and historical iconology, the thesis argues that this capacity does not depend on reference: the allegory works through vacuity rather than fidelity, and it becomes restrictive when the abstraction turns into a prescriptive model of recognition.
-- **Documentary series.** Acts in which the attribute appears as a reason for decision: statutes, legal opinions, rulings and explanatory memoranda.
-- **Role of the image corpus.** It shows the availability and circulation of the figure, describes the French and Brazilian strata, and dates the iconographic series.
-- **Scope.** France and Brazil, 1850-1929. The corpus itself stays transnational.
-
-The earlier four-case plan (Brasil-República, Brasil-Tribunais, França-Marianne, UK-Britannia) in [`docs/PLANO-TESE-ICONOCRACIA.md`](docs/PLANO-TESE-ICONOCRACIA.md) predates this decision. The current continuity briefing is [`docs/BRIEFING-GPT-Astra6-espinha-tese.md`](docs/BRIEFING-GPT-Astra6-espinha-tese.md).
-
----
-
-## Data model & traceability
-
-Authority is assigned by field family rather than by a linear ranking ([ADR-006](docs/adr/006-canonical-field-ownership-and-projections.md)):
+Authority is assigned **by field family**, as specified in [ADR-006](docs/adr/006-canonical-field-ownership-and-projections.md):
 
 | Field family | Authority |
 |---|---|
-| Item identity, source evidence, descriptive metadata, IconoCode claims | `data/processed/records.jsonl` |
-| *Endurecimento* observations, coder, round, instrument version, adjudication | `data/processed/purification.jsonl` |
-| Raw binary identity and external storage location | `data/raw/drive-manifest.json` + Google Drive |
-| Catalogue notes and research navigation | `vault/candidatos/` (auxiliary mirror) |
+| Item identity, source evidence, descriptive metadata and IconoCode claims | `data/processed/records.jsonl` |
+| Endurecimento observations, coder, round, instrument version and adjudication | `data/processed/purification.jsonl` |
+| Raw binary identity and storage location | `data/raw/drive-manifest.json` + Google Drive |
+| Catalogue notes and research navigation | `vault/candidatos/`, an auxiliary mirror |
 
-`corpus-data.json`, SQLite, CSV, dashboards and Hugging Face bundles are **disposable projections**. They must be rebuildable from the ledgers, so **never hand-edit `corpus-data.json`**; edit the source and regenerate with `records_to_corpus.py`.
+`corpus-data.json`, SQLite, CSV, dashboards, notebook inputs and Hugging Face bundles are **derived projections**. Rebuild them from their authoritative sources; changes to the public export go through `records_to_corpus.py`.
 
-Public-projection fields are `id`, `title`, `date`, `country`, `motif`, `regime`, `support`, `description`, `url`, `citation_abnt`, `coded_at`, `coded_by` and `audit_flags`. The `endurecimento_score` field and the `indicadores` block were removed from the projection on 2026-09-24 ([decision](docs/decisions/2026-09-24-remocao-definitiva-do-campo.md)); *endurecimento* coding now lives in the canonical ledgers as a verbal attribute inventory over the 10 ordinal indicators. Qualitative coding fields (`subtipo`, `familia_alegorica`, `vetor_colonial`, `hipotese_racial`, …) remain available in the public, CC BY 4.0-licensed canonical artifact `data/processed/records.jsonl`, nested under `purificacao`; they are intentionally omitted from the streamlined `corpus/corpus-data.json` interface projection.
+Qualitative fields such as `subtipo`, `familia_alegorica`, `vetor_colonial` and `hipotese_racial` remain publicly available under `purificacao` in the canonical `records.jsonl` artifact. They are intentionally omitted from the streamlined `corpus-data.json` interface projection.
 
-**Traceability rule.** Every item exists in three places: Google Drive (+ `data/raw/drive-manifest.json`) · a vault card in `vault/candidatos/` · a master record in `records.jsonl`. Per **ADR-001**, `data/raw/` stays metadata-only in git; binaries live on Google Drive.
+The traceability contract connects each item to its image and storage manifest, catalogue note and master record. Raw image files are held outside Git; `data/raw/` contains metadata and manifests. This contract is a requirement to verify, rather than a claim that every existing item has completed acquisition and documentation.
 
-**CI.** The `Validate Schemas` workflow (`.github/workflows/validate.yml`) validates both ledgers against their schemas, checks record and projection counts, checks export idempotence, validates the traceability report, shows coding status, rejects binaries in `data/raw/`, and runs the test suite.
+## Research assistance
 
-**Versioning.** Any analysis cited in academic text must reference an immutable commit or an existing release tag. `v1.0` remains reserved for the qualification version. See [`CHANGELOG.md`](CHANGELOG.md).
-
----
-
-## Known issues and honest numbers
-
-The project audits itself. These findings come from a recount at commit `e86cb37`.
-
-- **Coding coverage needs provenance-aware interpretation.** `code_purification.py --status` reports 286 of 335 items coded (85%). Of the 77 all-zero observations, 76 are inherited placeholders—57 from `vault-import` and 19 from `migration`—where zero means "pending" under [ADR-006](docs/adr/006-canonical-field-ownership-and-projections.md). The remaining row, `SCOUT-571`, is a genuine manual observation by `ana`, with timestamp and notes, and is not import debt.
-- **Regime counts differ between ledgers.** The records ledger gives 163 / 103 / 54 / 15 across 335 items; `purification.jsonl` gives 149 / 99 / 28 / 10 across 286 observations. The two have not been reconciled.
-- **Some ids do not join.** Ten coding ids do not resolve to a record through the id crosswalk, and two (`FR-007`, `US-011`) are not in the public projection.
-- **The period window is not a hard gate in the data.** Dated items span 1239 to 2021; 227 of the 294 items with a year fall inside 1800-2000.
-- **URLs.** Six records still carry placeholder URLs (`FR-036`, `FR-038`, `FR-039`, `FR-040`, `FR-047`, `FR-048`), and four URLs are shared by nine records as dedup candidates.
-- **Legacy composite removed.** The `endurecimento_score` field was removed from the export and the ledgers on 2026-09-24 ([decision](docs/decisions/2026-09-24-remocao-definitiva-do-campo.md)); notebooks 01-05 and 08 that once read it are frozen exploratory artifacts.
-- **Stale copies.** `corpus/companion-data.json` is frozen at an older 165-item snapshot (May 2026).
-- **Country labels are mixed.** The `country` field combines full names, an ISO code (`CL`) and compound labels such as "France (held in Austria)".
-- **Iconclass caution.** `48C51` is an internal project label. On iconclass.org it means painting; the official codes for the juridical cut are **44** (*state; law; political life*) and **11M44** (*Justitia*).
-- Historical artifacts that cite N=145 or N=165 are **analysis snapshots, not errors**.
-
----
-
-## Related resources
-
-- 🤗 **Hugging Face dataset:** [warholana/iconocracy-corpus](https://hf.co/datasets/warholana/iconocracy-corpus)
-- 🌐 **Project site (Mnemosyne Viva):** [iconocracia.com](https://iconocracia.com)
-- 📊 **Analytical dashboard:** [dashboard.iconocracia.com](https://dashboard.iconocracia.com)
-- 📐 **Iconclass** classification system: [iconclass.org](https://iconclass.org/) · [iconclass/code](https://github.com/iconclass/code)
-- 📄 **Operating model & workflows:** [`docs/OPERATING_MODEL.md`](docs/OPERATING_MODEL.md) · [`docs/WORKFLOW.md`](docs/WORKFLOW.md)
-- 🃏 **Agent quick-reference:** [`AGENTS.md`](AGENTS.md) · [`CLAUDE.md`](CLAUDE.md)
-
----
-
-## Citation
-
-If you use this corpus or the tools in your research, please cite:
-
-```bibtex
-@misc{vanzin2026iconocracy,
-  author    = {Vanzin, Ana},
-  title     = {Iconocracy: Female Allegory in the History of Legal Culture},
-  year      = {2026},
-  publisher = {GitHub},
-  url       = {https://github.com/anavvanzin/iconocracy-corpus}
-}
+```text
+WebScout → candidate and source evidence
+IconoCode → visual description and interpretive coding
+Research review → canonical ledgers → derived interfaces
 ```
 
-Machine-readable metadata: [`CITATION.cff`](CITATION.cff).
+**WebScout** assists archive discovery and metadata collection. **IconoCode** assists visual description and coding. Candidate records and agent-generated interpretations require research review and supporting evidence before being treated as validated claims.
 
----
+**ARGOS** supports image acquisition through manifests, dispatch groups and acquisition reports. These tools serve the investigation of objects and sources.
 
-## License
+## Local setup and checks
 
-Code and tools: **MIT** ([`LICENSE`](LICENSE)). Corpus metadata: **CC BY 4.0** ([`LICENSE-DATA`](LICENSE-DATA)). Individual images are subject to the rights indicated in each entry.
+The environment specification is [`environment.yml`](environment.yml). Run the following from the repository root:
+
+```bash
+conda env create -f environment.yml
+conda activate iconocracy
+
+python tools/scripts/validate_schemas.py
+python tools/scripts/records_to_corpus.py --diff
+python tools/scripts/code_purification.py --status
+```
+
+The HTML corpus interfaces can be consulted directly. The [operating model](docs/OPERATING_MODEL.md) describes the validation, export-consistency and evidence-traceability gates for a public release.
+
+For manuscript compilation, use the Makefile in [`vault/tese/`](vault/tese/):
+
+```bash
+make -C vault/tese/ docx
+```
+
+Project guidance: [AGENTS.md](AGENTS.md) · [CLAUDE.md](CLAUDE.md) · [Workflow](docs/WORKFLOW.md).
+
+## Citation and reuse
+
+Use [`CITATION.cff`](CITATION.cff) for the dataset's citation metadata, identifying the version or snapshot used. A citation of the corpus does not establish a completed or defended thesis.
+
+Code and tools: **MIT**, under [`LICENSE`](LICENSE). Corpus metadata and datasets: **CC BY 4.0**, under [`LICENSE-DATA`](LICENSE-DATA). Images retain the rights recorded for each source item.
+
+References follow **ABNT NBR 6023:2025** in Portuguese and Chicago in English.
+
+<p align="center"><img src="docs/brand/rule.svg" alt="" width="100%"></p>
+
+<p align="center">
+  <sub><strong>ICONOCRACIA</strong> · Ana Vanzin · PPGD/UFSC</sub>
+</p>
