@@ -6,7 +6,9 @@
 (() => {
   const cv = document.getElementById("cover-canvas");
   if (!cv) return;
-  const hasMedal = !!document.querySelector(".cover-3d"); // medalhão 3D ocupa o centro em telas largas
+  const medal = document.querySelector(".cover-3d");
+  const hasMedal = () => medal?.dataset.state === "ready" && getComputedStyle(medal).display !== "none";
+  addEventListener("cover3dstate", () => { if (U.REDUCE) draw(0.58); });
   const { fit, ctx } = U.bindCanvas(cv);
   const P = U.PAL;
   let V = fit();
@@ -153,7 +155,7 @@
     ctx.fillStyle = P.paper; ctx.fillRect(0, 0, W, H);
 
     const narrow = W < 760;
-    const cx = narrow ? W * 0.5 : (W < 1050 ? W * 0.72 : W * 0.70);
+    const cx = narrow ? W * 0.5 : (W < 1050 ? W * 0.72 : W - 182);
     const cy = H * 0.52;
     const S0 = Math.min(H * 0.80, W * 0.62); // tamanho da figura-heroína em t=0
     const u = S0 / Math.pow(3, t);          // tamanho de tela da célula-mundo unitária
@@ -186,7 +188,7 @@
       }
     }
     // nível 0: a heroína — Iustitia (onde o medalhão 3D está visível, o centro é dele)
-    if (!hasMedal || narrow) drawFigure(cx, cy, u * 0.96, 0, 1);
+    if (!hasMedal() || narrow) drawFigure(cx, cy, u * 0.96, 0, 1);
 
     // viewfinder dourado: a moldura que acompanha o átomo encolhendo a célula
     if (u > 40) {

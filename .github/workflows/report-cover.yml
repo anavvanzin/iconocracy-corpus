@@ -1,0 +1,42 @@
+name: Report cover regressions
+on:
+  pull_request:
+    paths:
+      - 'relatorio/**'
+      - 'tests/relatorio/**'
+      - '.github/workflows/report-cover.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'relatorio/**'
+      - 'tests/relatorio/**'
+      - '.github/workflows/report-cover.yml'
+jobs:
+  cover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install isolated browser test dependencies
+        run: |
+          npm install --prefix "$RUNNER_TEMP/report-tests" playwright@1.62.1 three@0.184.0
+          "$RUNNER_TEMP/report-tests/node_modules/.bin/playwright" install --with-deps chromium
+      - name: State and rendered regressions
+        run: |
+          node --test tests/relatorio/cover.test.cjs
+          python3 -m http.server 8765 --bind 127.0.0.1 > "$RUNNER_TEMP/report-server.log" 2>&1 &
+          REPORT_SERVER_PID=$!
+          trap 'kill "$REPORT_SERVER_PID"' EXIT
+          mkdir -p "$RUNNER_TEMP/report-qa"
+          NODE_PATH="$RUNNER_TEMP/report-tests/node_modules" \
+          THREE_CACHE="$RUNNER_TEMP/report-tests/node_modules/three" \
+          QA_SCREENSHOTS="$RUNNER_TEMP/report-qa" \
+          node --test tests/relatorio/cover.browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: report-cover-qa
+          path: ${{ runner.temp }}/report-qa
