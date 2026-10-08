@@ -235,7 +235,7 @@ Sistema decimal de classificação do **conteúdo temático** de imagens (10 div
 | **António M. Hespanha** | *Cultura Jurídica Europeia: síntese de um milénio* (Almedina, **2005**) | **cultura jurídica** (ampliar as fontes para além da legislação) | enquadramento histórico-jurídico do corpus |
 | **Carole Pateman** | *The Sexual Contract* (**Stanford UP**, 1988) | **contrato sexual** (não-visual) | fonte do Contrato Sexual Visual |
 | **Marie-José Mondzain** | *Image, icône, économie* (**Seuil, 2002**) | **economia icônica** (raiz bizantina do imaginário) | fonte de "iconocracia"; *não* de Feminilidade de Estado |
-| **Anne Carson** | *Dirt and Desire* (in *Men in the Off Hours*, 2000) | **hystéra**; poluição/pureza do feminino na Antiguidade | raiz da Feminilidade de Estado |
+| **Anne Carson** | *Putting Her in Her Place: Woman, Dirt, and Desire* (in *Before Sexuality*, 1990) | **hystéra**; poluição/pureza do feminino na Antiguidade | raiz da Feminilidade de Estado |
 | **Bruno Latour** | *Nous n'avons jamais été modernes* (La Découverte, 1991) | **purificação / tradução** (zonas ontológicas distintas) | extensão ferramental da Purificação Clássica |
 | **Donna Haraway** | *A Manifesto for Cyborgs* (*Socialist Review*, 1985) | crítica das fronteiras natureza/cultura | extensão ferramental (não como "ciberfeminismo") |
 | **Philippe Descola** | *Les Formes du visible* (Seuil, 2021) | figuração; superação do dualismo natureza/cultura | extensão ferramental |
@@ -284,7 +284,7 @@ AGULHON, Maurice. **Marianne au combat**: l'imagerie et la symbolique républica
 
 AGULHON, Maurice. **Marianne au pouvoir**: l'imagerie et la symbolique républicaines de 1880 à 1914. Paris: Flammarion, 1989. `@agulhon1989`
 
-CARSON, Anne. Dirt and Desire: the phenomenology of female pollution in antiquity. In: CARSON, Anne. **Men in the Off Hours**. New York: Alfred A. Knopf, 2000. `@carson2000`
+CARSON, Anne. Putting Her in Her Place: Woman, Dirt, and Desire. In: HALPERIN, David M.; WINKLER, John J.; ZEITLIN, Froma I. (org.). **Before Sexuality: The Construction of Erotic Experience in the Ancient Greek World**. Princeton: Princeton University Press, 1990. p. 135–170. `@carson1990` — intervalo do capítulo; passagem da hystéra pendente de conferência. A versão *Dirt and Desire* (2000), `@carson2000`, permanece uma reelaboração distinta.
 
 DESCOLA, Philippe. **Les Formes du visible**: une anthropologie de la figuration. Paris: Seuil, 2021. `@descola2021` [trad. PT: **As Formas do Visível**. São Paulo: Ubu, 2023. `@descola2023`]
 
@@ -313,7 +313,7 @@ VAN DE WAAL, Henri. **Iconclass**: an iconographic classification system. Amster
 WARBURG, Aby. **Der Bilderatlas Mnemosyne**. Ed. Martin Warnke. Berlin: Akademie Verlag, 2000 [orig. 1924–1929]. `@warburg2000`
 
 > [!note] Pendências bibliográficas — atualizado 2026-06-26
-> ✅ **Resolvidas** (chaves criadas no `references.bib` via piloto Elicit): Carson `@carson2000` (*Dirt and Desire* / *Men in the Off Hours*, com apoios Viveiros de Castro 2025 e Hanson 1975); Resnik & Curtis `@resnikcurtis2011`; Iconclass `@vandewaal1973`.
+> ✅ **Resolvidas** (chaves criadas no `references.bib` via piloto Elicit): Carson: metadados reconciliados em 2026-10-06 com `@carson1990` (*Putting Her in Her Place* / *Before Sexuality*); passagem da hystéra ainda pendente, conforme auditoria do Capítulo 2; Resnik & Curtis `@resnikcurtis2011`; Iconclass `@vandewaal1973`.
 > ⏳ **Restam** (TODOs já na bib, a cotejar com Zotero): edições de Legendre (`legendre1974`/`legendre1994`); demais TODOs do backlog do `.bib`.
 
 ---
