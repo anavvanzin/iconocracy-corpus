@@ -10,6 +10,16 @@
   });
 
   const GLBL = { fem: "Feminino", masc: "Masculino", contra: "Fissura" };
+  // Keep the four-column comparison readable without widening the document.
+  const scroll = document.createElement("div");
+  scroll.className = "table-scroll";
+  scroll.tabIndex = 0;
+  scroll.setAttribute("role", "region");
+  scroll.setAttribute("aria-label", "Matriz de distribuição de gênero");
+  const hint = document.createElement("p");
+  hint.className = "matrix-scroll-hint chart-sub";
+  hint.textContent = "Deslize para comparar as quatro colunas.";
+  body.appendChild(hint);
   const tbl = document.createElement("table");
   tbl.className = "dt mtx rv";
   tbl.innerHTML = `<thead><tr>
@@ -38,7 +48,8 @@
     tb.appendChild(tr);
   });
   tbl.appendChild(tb);
-  body.appendChild(tbl);
+  scroll.appendChild(tbl);
+  body.appendChild(scroll);
 
   const leg = document.createElement("p");
   leg.className = "chart-sub";
