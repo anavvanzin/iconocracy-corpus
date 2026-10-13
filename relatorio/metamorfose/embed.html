@@ -25,14 +25,35 @@ canvas{display:block}
 <div class="mf-veil"></div>
 <p class="mf-label">marianne · fr-1792 · render v2 · arraste para girar</p>
 <script type="module">
-import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
-import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
+const notify = state => parent.postMessage({ type: 'iconocracy:scene', state }, location.origin);
+let renderer;
+let failed = false;
+let loaded = false;
+let inViewport = window === parent;
+let animate;
+const fail = () => {
+  failed = true;
+  renderer?.setAnimationLoop(null);
+  notify('error');
+};
+const syncLoop = () => renderer?.setAnimationLoop(loaded && !failed && inViewport && !document.hidden ? animate : null);
+addEventListener('message', event => {
+  if (event.source !== parent || event.origin !== location.origin || event.data?.type !== 'iconocracy:visibility') return;
+  inViewport = event.data.visible === true;
+  syncLoop();
+  if (event.data.requestState && (failed || loaded)) notify(failed ? 'error' : 'ready'); // Reconcile if parent attached after the first frame.
+});
+document.addEventListener('visibilitychange', syncLoop);
+(async () => {
+try {
+const [THREE, { OrbitControls }, { GLTFLoader }, { RoomEnvironment }, { MeshoptDecoder }] = await Promise.all([
+  import('three'), import('three/addons/controls/OrbitControls.js'),
+  import('three/addons/loaders/GLTFLoader.js'), import('three/addons/environments/RoomEnvironment.js'),
+  import('three/addons/libs/meshopt_decoder.module.js')
+]);
 
 const stage = document.getElementById('stage');
-const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
 renderer.setSize(stage.clientWidth, stage.clientHeight);
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
@@ -41,6 +62,7 @@ renderer.outputColorSpace = THREE.SRGBColorSpace;
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFShadowMap;
 stage.appendChild(renderer.domElement);
+renderer.domElement.addEventListener("webglcontextlost", event => { event.preventDefault(); fail(); });
 
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x17120e);
@@ -211,16 +233,29 @@ function upgradeMaterials(root) {
 const loader = new GLTFLoader();
 loader.setMeshoptDecoder(MeshoptDecoder);
 loader.load('metamorfose-alegorias.glb', gltf => {
-  upgradeMaterials(gltf.scene);
-  scene.add(gltf.scene);
-});
+  if (failed) return;
+  try {
+    upgradeMaterials(gltf.scene);
+    scene.add(gltf.scene);
+    controls.update();
+    renderer.render(scene, camera); // Readiness means a frame with the model, not just a loaded GLB.
+    loaded = true;
+    notify('ready');
+    syncLoop();
+  } catch { fail(); }
+}, undefined, fail);
 
 addEventListener('resize', () => {
+  if (!stage.clientWidth || !stage.clientHeight) return; // Hidden container: keep the last valid camera/viewport.
   camera.aspect = stage.clientWidth / stage.clientHeight;
   camera.updateProjectionMatrix();
   renderer.setSize(stage.clientWidth, stage.clientHeight);
 });
-renderer.setAnimationLoop(() => { controls.update(); renderer.render(scene, camera); });
+animate = () => {
+  try { controls.update(); renderer.render(scene, camera); } catch { fail(); }
+};
+} catch { fail(); }
+})();
 </script>
 </body>
 </html>
