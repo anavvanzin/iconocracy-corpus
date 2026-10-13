@@ -83,6 +83,11 @@ window.U = (() => {
     drill.querySelector(".d-close").onclick = hideDrill;
   }
   function hideDrill() { if (drill) drill.hidden = true; drillOpen = false; }
+  window.addEventListener("resize", () => {
+    if (!drillOpen || !drill) return;
+    const r = drill.getBoundingClientRect();
+    drill.style.left = clamp(r.left, 8, window.innerWidth - r.width - 8) + "px";
+  });
   document.addEventListener("click", e => {
     if (drillOpen && drill && !drill.contains(e.target)) {
       if (!e.target.closest("[data-drill-keep]")) hideDrill();

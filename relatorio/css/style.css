@@ -190,6 +190,12 @@ table.dt td { padding: .6rem .7rem; border-bottom: 1px solid var(--line-lo); ver
 table.dt tr.hl td { background: var(--tint-fem); }
 
 /* ---------- matrix heat table (P5) ---------- */
+.table-scroll { max-width: 100%; overflow-x: auto; }
+.matrix-scroll-hint { display: none; }
+@media (max-width: 760px) {
+  .matrix-scroll-hint { display: block; }
+  .table-scroll .mtx { min-width: 608px; }
+}
 .mtx td.cell { cursor: pointer; text-align: center; font-family: var(--mono); font-size: .66rem; letter-spacing: .08em; text-transform: uppercase; }
 .mtx td.c-fem { background: var(--tint-fem); color: #4a3560; font-weight: 700; }
 .mtx td.c-masc { background: var(--tint-masc); color: var(--navy); font-weight: 700; }
@@ -277,7 +283,7 @@ table.dt tr.hl td { background: var(--tint-fem); }
 
 /* ---------- drill card ---------- */
 #drill-card {
-  position: fixed; z-index: 200; width: 320px; background: var(--ink); color: var(--ivory);
+  position: fixed; z-index: 200; width: 320px; max-width: calc(100vw - 16px); background: var(--ink); color: var(--ivory);
   border-top: 3px solid var(--lacre); padding: 1.1rem 1.2rem 1rem;
   box-shadow: 0 24px 60px rgba(26, 22, 18, .4); font-size: .9rem;
 }
@@ -325,6 +331,9 @@ table.dt tr.hl td { background: var(--tint-fem); }
 
 /* ---------- impressão ---------- */
 @media print {
+  .table-scroll { overflow: visible; }
+  .table-scroll .mtx { min-width: 0; }
+  .matrix-scroll-hint { display: none; }
   .rail, .drill, .tip, .scroll-hint, .vitrine-frame, .cover-canvas, .chips, .skip-link, .cover-3d { display: none !important; }
   #sec-timeline, #sec-matrix, #sec-flow, #sec-vitrine, #sec-verdict, #sec-sources { page-break-before: always; }
   .chart-frame, .stat-band, .term, .quote-card, .note-box, .src-row { page-break-inside: avoid; }
