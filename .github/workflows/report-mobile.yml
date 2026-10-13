@@ -11,6 +11,8 @@ on:
       - 'relatorio/**'
       - 'tests/relatorio/**'
       - '.github/workflows/report-mobile.yml'
+permissions:
+  contents: read
 jobs:
   mobile:
     runs-on: ubuntu-latest
