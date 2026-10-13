@@ -284,6 +284,7 @@ table.dt tr.hl td { background: var(--tint-fem); }
 /* ---------- drill card ---------- */
 #drill-card {
   position: fixed; z-index: 200; width: 320px; max-width: calc(100vw - 16px); background: var(--ink); color: var(--ivory);
+  max-height: calc(100vh - 16px); overflow-y: auto;
   border-top: 3px solid var(--lacre); padding: 1.1rem 1.2rem 1rem;
   box-shadow: 0 24px 60px rgba(26, 22, 18, .4); font-size: .9rem;
 }

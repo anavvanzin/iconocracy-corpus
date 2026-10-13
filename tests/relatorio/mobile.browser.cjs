@@ -95,6 +95,16 @@ test('mobile matrix remains fully reachable and detail card fits on open and res
       });
       await boxFits(drill, page, 'resized open drill');
       await pageFits(page, 'resized open drill');
+      // Rotation/short viewports also change height and text wrapping.
+      await page.setViewportSize({width:320, height:180});
+      await page.waitForFunction(() => {
+        const r = document.querySelector('#drill-card').getBoundingClientRect();
+        return r.top >= 8 && r.bottom <= innerHeight - 7;
+      }, null, {timeout:3000});
+      await drill.evaluate(el => { el.scrollTop = el.scrollHeight; });
+      const source = await drill.locator('.d-src').boundingBox();
+      assert.ok(source && source.y >= 8 && source.y + source.height <= 173,
+        `detail source remains readable in short viewport: ${JSON.stringify(source)}`);
       await page.keyboard.press('Escape');
       await drill.waitFor({state:'hidden'});
       await page.close();

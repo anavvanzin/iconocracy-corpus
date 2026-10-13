@@ -87,6 +87,7 @@ window.U = (() => {
     if (!drillOpen || !drill) return;
     const r = drill.getBoundingClientRect();
     drill.style.left = clamp(r.left, 8, window.innerWidth - r.width - 8) + "px";
+    drill.style.top = clamp(r.top, 8, window.innerHeight - r.height - 8) + "px";
   });
   document.addEventListener("click", e => {
     if (drillOpen && drill && !drill.contains(e.target)) {
