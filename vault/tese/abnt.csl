@@ -178,12 +178,14 @@ aparecera a expess o 'et. al.'. Na regra da ABNT 2023 essa expressao deve aparec
   </macro>
   <!--A macro 'access' e utilizada em arquivos de paginas da web. Ela e responsavel por mostrar a URL do site pesquisado e a data do acesso-->
   <macro name="access">
-    <text variable="URL" prefix="Disponível em: &lt;" suffix="&gt;"/>
-    <date variable="accessed" prefix=". Acesso em: ">
-      <date-part name="day" suffix=" "/>
-      <date-part name="month" form="short" suffix=". " text-case="lowercase"/>
-      <date-part name="year"/>
-    </date>
+    <group delimiter=". ">
+      <text variable="URL" prefix="Disponível em: &lt;" suffix="&gt;"/>
+      <date variable="accessed" prefix="Acesso em: ">
+        <date-part name="day" suffix=" "/>
+        <date-part name="month" form="short" suffix=". " text-case="lowercase"/>
+        <date-part name="year"/>
+      </date>
+    </group>
   </macro>
   <!--A macro 'title' e responsavel por mostrar o titulo principal do arquivo. Em todos os tipos ele aparecera em negrito logo apos os nomes dos
 autores, exceto em arquivos do tipo 'artigo de jornal, artigo de revista, artigo de periodico, trabalho em evento', nesses arquivos eles irao aparecer em fonte normal.-->
@@ -461,6 +463,8 @@ em caixa alta. Utiliza-se antes do nome da conferencia a expressao "In". Segundo
             <!--Local, data, etc-->
             <text macro="locators"/>
             <!--Dados complementares "pagina, volume"-->
+            <text macro="access" prefix=". " suffix="."/>
+            <!--URL, data do acesso-->
           </group>
         </else-if>
         <!--Capitulo-->
@@ -505,6 +509,8 @@ em caixa alta. Utiliza-se antes do nome da conferencia a expressao "In". Segundo
             <!--Dados complementares "pagina, volume"-->
             <text macro="issued" suffix=". "/>
             <!--Data-->
+            <text macro="access" suffix="."/>
+            <!--URL, data do acesso-->
           </group>
         </else-if>
         <!--Tese-->
