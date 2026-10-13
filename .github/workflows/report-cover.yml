@@ -11,6 +11,8 @@ on:
       - 'relatorio/**'
       - 'tests/relatorio/**'
       - '.github/workflows/report-cover.yml'
+permissions:
+  contents: read
 jobs:
   cover:
     runs-on: ubuntu-latest
