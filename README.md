@@ -96,6 +96,7 @@ Any quantitative description used in academic writing should identify its dated 
 | Resource | Research use |
 |---|---|
 | [`tese/manuscrito/`](tese/manuscrito/) | Thesis chapters and working text |
+| [Revised Mnemosyne dossier](tese/pesquisa/dossie-bilderatlas-mnemosyne-2026-10-15.md) | Comparative methodological study, with source notes and an [integration record](docs/research/integracao-mnemosyne-2026-10-15.md) |
 | [`vault/candidatos/`](vault/candidatos/) | Catalogue notes and object dossiers |
 | [`atlas/`](atlas/) | Relations between objects and research notes |
 | [`data/processed/`](data/processed/) | Canonical item and coding ledgers |
