@@ -12,7 +12,8 @@ test('Iustitia remains until authenticated scene readiness; returns on error and
   const medal = { dataset: { state: 'loading' } };
   let display = 'block';
   let blindfolds = 0;
-  const ctx = new Proxy({}, { get: (o, k) => o[k] || (k === 'createLinearGradient' ? () => ({addColorStop(){}}) : k === 'fillRect' ? () => { if (o.fillStyle === 'red') blindfolds++; } : () => {}), set: (o,k,v) => (o[k]=v,true) });
+  const captions = [];
+  const ctx = new Proxy({}, { get: (o, k) => o[k] || (k === 'fillText' ? (...args) => captions.push(args) : k === 'createLinearGradient' ? () => ({addColorStop(){}}) : k === 'fillRect' ? () => { if (o.fillStyle === 'red') blindfolds++; } : () => {}), set: (o,k,v) => (o[k]=v,true) });
   const context = {
     document: {getElementById: () => ({}), querySelector: () => medal},
     getComputedStyle: () => ({display}), addEventListener: (k, fn) => events[k] = fn,
@@ -21,6 +22,9 @@ test('Iustitia remains until authenticated scene readiness; returns on error and
   };
   vm.runInNewContext(read('relatorio/js/cover.js'),context);
   assert.ok(blindfolds > 0);
+  const caption = captions.find(([text]) => /336/.test(text));
+  assert.match(caption[0], /HISTÓRICO.*28\/09\/2026.*K29/);
+  assert.equal(caption[3], 1100 - 56);
   medal.dataset.state = 'ready'; blindfolds = 0; events.cover3dstate(); assert.equal(blindfolds,0);
   medal.dataset.state = 'error'; events.cover3dstate(); assert.ok(blindfolds > 0);
   medal.dataset.state = 'ready'; display='none'; blindfolds=0; events.resize(); assert.ok(blindfolds > 0);

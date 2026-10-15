@@ -28,7 +28,7 @@ jobs:
           "$RUNNER_TEMP/report-tests/node_modules/.bin/playwright" install --with-deps chromium
       - name: State and rendered regressions
         run: |
-          node --test tests/relatorio/cover.test.cjs
+          node --test tests/relatorio/cover.test.cjs tests/relatorio/snapshot.test.cjs
           python3 -m http.server 8765 --bind 127.0.0.1 > "$RUNNER_TEMP/report-server.log" 2>&1 &
           REPORT_SERVER_PID=$!
           trap 'kill "$REPORT_SERVER_PID"' EXIT
