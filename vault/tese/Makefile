@@ -37,23 +37,30 @@ PANDOC_DOCX = $(PANDOC_COMMON) \
               --reference-doc=$(REF_DOC)
 
 PANDOC_PDF = $(PANDOC_COMMON) \
+             --pdf-engine=lualatex \
              -V geometry:margin=3cm \
              -V fontsize=12pt \
              -V documentclass=report \
-             -V mainfont="Times New Roman"
+             -V mainfont="TeX Gyre Termes"
 
-# Adicionar CSL, BIB e metadata.yaml apenas se existirem
+# Adicionar CSL e metadata.yaml apenas se existirem
 ifneq (,$(wildcard $(CSL)))
   PANDOC_COMMON += --csl=$(CSL)
-endif
-ifneq (,$(wildcard $(BIB)))
-  PANDOC_COMMON += --bibliography=$(BIB)
 endif
 ifneq (,$(wildcard $(META)))
   PANDOC_COMMON += --metadata-file=$(META)
 endif
 
-.PHONY: docx pdf clean setup
+# A bibliografia é obrigatória. Sem ela o --citeproc emite citações cruas e o
+# build termina com sucesso, entregando um .docx com referências não formatadas.
+# Por isso --bibliography é sempre passado e o alvo docx/pdf depende de bib-check.
+PANDOC_COMMON += --bibliography=$(BIB)
+
+.PHONY: bib-check
+bib-check:
+	@test -f $(BIB) || { echo "ERRO: $(BIB) não encontrado em $(CURDIR) — a bibliografia é obrigatória para o build ABNT." >&2; exit 1; }
+
+.PHONY: docx pdf clean setup bib-check
 
 all: docx
 
@@ -61,13 +68,13 @@ $(OUTPUT_DIR):
 	mkdir -p $(OUTPUT_DIR)
 
 # Tese completa
-docx: $(OUTPUT_DIR)
+docx: bib-check $(OUTPUT_DIR)
 	$(PANDOC) $(PANDOC_DOCX) -o $(OUTPUT_DIR)/tese_completa.docx $(CHAPTERS)
 	cp $(OUTPUT_DIR)/tese_completa.docx ../../tese/tese_completa.docx
 	@echo "✅ $(OUTPUT_DIR)/tese_completa.docx"
 	@echo "✅ ../../tese/tese_completa.docx"
 
-pdf: $(OUTPUT_DIR)
+pdf: bib-check $(OUTPUT_DIR)
 	$(PANDOC) $(PANDOC_PDF) -o $(OUTPUT_DIR)/tese_completa.pdf $(CHAPTERS)
 	cp $(OUTPUT_DIR)/tese_completa.pdf ../../tese/tese_completa.pdf
 	@echo "✅ $(OUTPUT_DIR)/tese_completa.pdf"
