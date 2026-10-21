@@ -37,10 +37,11 @@ PANDOC_DOCX = $(PANDOC_COMMON) \
               --reference-doc=$(REF_DOC)
 
 PANDOC_PDF = $(PANDOC_COMMON) \
+             --pdf-engine=lualatex \
              -V geometry:margin=3cm \
              -V fontsize=12pt \
              -V documentclass=report \
-             -V mainfont="Times New Roman"
+             -V mainfont="TeX Gyre Termes"
 
 # Adicionar CSL e metadata.yaml apenas se existirem
 ifneq (,$(wildcard $(CSL)))
