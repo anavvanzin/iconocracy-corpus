@@ -2,7 +2,7 @@
 titulo: "Desenho Metodológico: Métodos Mistos Sequenciais"
 parte: "II — Método e Corpus"
 capitulo: 4
-status: "esqueleto"
+status: "revisão"
 palavras: 3843
 citacoes: 0
 updated: "2026-10-21"
