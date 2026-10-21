@@ -3,9 +3,9 @@ titulo: "A Colonialidade do Ver: Gênero, Raça e Transferência Visual Transatl
 parte: "I — Moldura Teórica"
 capitulo: 3
 status: "rascunho"
-palavras: 3617
+palavras: 3915
 citacoes: 0
-updated: "2026-05-16"
+updated: "2026-10-21"
 pandoc:
   reference-doc: "template.docx"
   csl: "abnt.csl"
@@ -14,12 +14,16 @@ pandoc:
 
 # Capítulo 3 — A Colonialidade do Ver: Gênero, Raça e Transferência Visual Transatlântica
 
-> **Estado:** §§3.2 e 3.3 consolidados a partir de rascunhos autorais (28-abr-2026); §§3.1 e 3.4 ainda esqueleto.
+> **Estado:** §§3.1, 3.2 e 3.3 consolidados a partir de rascunhos autorais e brainstorm de transição Eixo 1/Eixo 3 (27-jun-2026); §3.4 ainda esqueleto.
 > **Pendências de citação:** ver listas ao fim de cada §; Villares, Rops, Roty, Moitte/Janinet, Huygebaert (2018), Schwarcz, Mills (1997). Verificar inauguração do Monument aux Pionniers; confirmar capítulo de Huygebaert sobre iconografia colonial belga.
 
-## 3.1 — Iconografia como tecnologia colonial: exportação do cânone clássico
+## 3.1 — Iconografia como tecnologia colonial: Virtudes e Soberania Hídrica
 
----
+A expansão e a legitimação do poder estatal não operam apenas pela fundação de instituições, mas pela ocupação visual do espaço — tanto o espaço cívico interno quanto o território mercantil além-mar. O entrelaçamento entre o Eixo 1 (Profundidade Genealógica e Virtudes) e o Eixo 3 (Soberania Hídrica) da iconografia legal fornece a chave de leitura para essa tecnologia colonial. As alegorias femininas não são meras evocações morais estáticas; elas funcionam como vetores de expansão, convertendo princípios virtuosos em autorizações de dominação territorial e comercial.
+
+Historicamente, as Virtudes Cardinais — Justiça, Prudência, Temperança e Fortaleza — forneciam a moldura de legitimidade para os corpos políticos pré-modernos. Na virada para o século XIX, entretanto, a necessidade de projetar soberania sobre oceanos, rios e rotas comerciais (a Soberania Hídrica) exige uma reconfiguração do corpo alegórico. A mulher que ancora moralmente a nação (a Virtude interna) passa a ser a mesma que governa as águas (a Navigation, a Britannia). Há uma migração da virtude doméstica para o privilégio extrativista global. 
+
+Essa articulação se manifesta nas peças de nosso corpus como um gradiente de purificação e endurecimento. Na metrópole ou no coração jurídico do Estado (como a *Justiça* de Ceschiatti, BR-009, ou o *Brasão da República*, SCOUT-562), a figura feminina atua como garantia ontológica e normativa da ordem republicana, extraída do corpo histórico local pela *Purificação Clássica*. Porém, quando essa mesma estrutura visual é exportada para os mares — seja na forma do *British Trade Dollar* (UK-TRADE-1895), circulando no Oriente, ou no selo *Navigation et Commerce* (FR-094) espalhado pelas colônias francesas —, a alegoria assume a dupla função de afirmar a superioridade racial-moral (branquitude/Virtude) e assegurar a posse das rotas hídricas (Soberania Hídrica). A mulher virtuosa, marmórea e europeia, converte-se no aval visual da extração colonial sobre a fluidez dos mares, amarrando o direito de navegar ao dever de civilizar.
 
 ## 3.2 — O contrato racial visual: branquitude e classicismo nas alegorias brasileiras
 
@@ -43,7 +47,7 @@ O neoclassicismo funciona aqui como *tecnologia de governo visual*. Quando Legen
 
 Mondzain (2002), ao analisar o imaginário cristão do poder, mostra como a imagem opera como mediação entre o visível e o invisível, entre o terreno e o celestial. A alegoria republicana opera segundo a mesma lógica: ela media o Estado (invisível) e o povo (visível). A mediação exige uma *cor intermediária* — uma cor que possa *representar* o povo sem *ser* o povo. No caso brasileiro, essa cor intermediária é o branco do mármore, do gesso, da tela. O neoclassicismo resolve, em uma só operação formal, o problema de representação: como representar uma população heterogênea mediante uma figura que seja nenhuma delas, mas que possa pretender ser todas.
 
-Os indicadores de endurecimento do corpus confirmam o diagnóstico. A *Alegoria da República* de Villares (BR-005) apresenta:
+Os indicadores de endurecimento do corpus confirmam o diagnóstico. A *Alegoria da República* de Villares (BR-005 [VERIFICAR: o registro atual do corpus aponta para este item composto 1,0, com indicadores desincorporação 1, rigidez 1, uniformização 1, monocromatização 0, inscrição estatal 2, e data "c. 1900" — o perfil abaixo diverge integralmente do ledger; recodificação do item ou revisão da ficha são pendentes]) apresenta:
 
 - **Desincorporação 3/3**: o corpo é inteiramente substituído por vestimenta arquitetônica
 - **Rigidez postural 3/3**: a pose é frontal, estática, hierática
@@ -51,19 +55,19 @@ Os indicadores de endurecimento do corpus confirmam o diagnóstico. A *Alegoria 
 - **Monocromatização 3/3**: a paleta é reduzida a branco, dourado, azul — a cromia da "universalidade"
 - **Inscrição estatal 0/3**: paradoxalmente baixa — a inscrição ainda não fixou o corpo completamente; ainda há, na tela, um *excesso* de corpo que a moeda posterior eliminará
 
-Esse perfil — endurecimento composto 2,4, regime fundacional — é o de uma alegoria que está *em processo* de Purificação Clássica, mas que ainda mantém resíduos de corporalidade. O corpo de Villares ainda tem volume, sombra, textura de tecido. O que acontece nas fichas subsequentes — a litografia de Agostini na Revista Illustrada (BR-SCOUT-001), o óleo de Lopes Rodrigues (BR-SCOUT-003) — é a *repetição dessa mesma forma branca* em mídias diferenciadas. A Nachleben da alegoria republicana brasileira é de *reiteração racial*: cada nova versão reafirma o mesmo corpo branco como condição de sua operabilidade política.
+Esse perfil — endurecimento composto 2,4 [ledger: 1,0 — VERIFICAR], regime fundacional — é o de uma alegoria que está *em processo* de Purificação Clássica, mas que ainda mantém resíduos de corporalidade. O corpo de Villares ainda tem volume, sombra, textura de tecido. O que acontece nas fichas subsequentes — a litografia de Agostini na Revista Illustrada (BR-SCOUT-001 [VERIFICAR: ID sem registro no corpus; o candidato mais próximo é BR-019, "O mundo às avessas: voto feminino", 1917 — atribuição a Agostini e data questionáveis: Agostini morre em 1907]), o óleo de Lopes Rodrigues (BR-SCOUT-003 [VERIFICAR: ID sem registro no corpus]) — é a *repetição dessa mesma forma branca* em mídias diferenciadas. A Nachleben da alegoria republicana brasileira é de *reiteração racial*: cada nova versão reafirma o mesmo corpo branco como condição de sua operabilidade política.
 
 ### 3.2.3 — O Contrato Racial Visual como operação jurídica
 
-A terceira proposição leva o argumento para o campo jurídico. Quando o Estado brasileiro, na Primeira República, emite moedas com a Efígie da República (1906–1912, corpus item BR-119, não detalhado aqui), ele realiza uma operação análoga àquela que Pateman identifica no Contrato Sexual: a constituição de um "indivíduo" universal que, na verdade, é um *corpo particular* mascarado de universal. No Contrato Sexual, o indivíduo é masculino; no Contrato Racial Visual, a alegoria é branca.
+A terceira proposição leva o argumento para o campo jurídico. Quando o Estado brasileiro, na Primeira República, emite moedas com a Efígie da República (1906–1912, corpus item BR-1000R-1906, não detalhado aqui), ele realiza uma operação análoga àquela que Pateman identifica no Contrato Sexual: a constituição de um "indivíduo" universal que, na verdade, é um *corpo particular* mascarado de universal. No Contrato Sexual, o indivíduo é masculino; no Contrato Racial Visual, a alegoria é branca.
 
 A diferença crucial está na *visualidade*. O contrato é visto, não lido. O cidadão brasileiro que recebe a moeda de 1000 réis em 1906 vê um rosto branco, de perfil, com traços europeus, e internaliza — como *habitus* visual — que a República é uma entidade branca. A cor da alegoria é *condição de possibilidade* do próprio dispositivo alegórico, não seu *significado*.
 
-Isso explica por que a *contra-alegoria* (corpus regime: contra-alegoria, 7 itens) surge sempre como *ruptura cromática*. Quando a alegoria é disputada — quando o corpo negro, o corpo indígena, o corpo pardo aparece no lugar do corpo branco —, a disputa é *ontológica*, não semântica: o corpo não-branco *não pode* ocupar o lugar da alegoria sem que a alegoria deixe de funcionar como tecnologia de Estado. O Contrato Racial Visual é, portanto, descritivo e *normativo*: ele diz qual cor pode ser universal, e estabelece que a cor que não é branca é sempre particular, sempre local, sempre *não-representável*.
+Isso explica por que a *contra-alegoria* (corpus regime: contra-alegoria — 15 itens no instantâneo de 2026-09-21, 14 codificados) surge sempre como *ruptura cromática*. Quando a alegoria é disputada — quando o corpo negro, o corpo indígena, o corpo pardo aparece no lugar do corpo branco —, a disputa é *ontológica*, não semântica: o corpo não-branco *não pode* ocupar o lugar da alegoria sem que a alegoria deixe de funcionar como tecnologia de Estado. O Contrato Racial Visual é, portanto, descritivo e *normativo*: ele diz qual cor pode ser universal, e estabelece que a cor que não é branca é sempre particular, sempre local, sempre *não-representável*.
 
 ### 3.2.4 — Zwischenraum: o impasse da universalidade
 
-O conceito warburguiano de Zwischenraum — o espaço entre, o interstício onde a transformação ocorre — é o lugar onde o Contrato Racial Visual se torna visível como operação. Não na tela de Villares isoladamente, mas no *painel* que contrapõe Villares (1889) à *Semeuse* de Roty (1897, FR-038 no corpus) e à *Liberté* de Moitte/Janinet (FR-SCOUT-006, enriquecendo FR-038). Neste Zwischenraum, o que se vê é uma transição *racial*: o corpo que, em Delacroix (1830), ainda carregava resíduos de individualidade fisionômica (uma branquitude vivente, suja de pólvora, com seio à mostra) — esse corpo, em Villares, já está *branqueado* pela Purificação Clássica, e na Semeuse já é *abstraído* em perfil marmóreo.
+O conceito warburguiano de Zwischenraum — o espaço entre, o interstício onde a transformação ocorre — é o lugar onde o Contrato Racial Visual se torna visível como operação. Não na tela de Villares isoladamente, mas no *painel* que contrapõe Villares (1889) à *Semeuse* de Roty (1897, FR-SEM-1898 no corpus) e à *Liberté* de Moitte/Janinet (FR-038 no corpus). Neste Zwischenraum, o que se vê é uma transição *racial*: o corpo que, em Delacroix (1830), ainda carregava resíduos de individualidade fisionômica (uma branquitude vivente, suja de pólvora, com seio à mostra) — esse corpo, em Villares, já está *branqueado* pela Purificação Clássica, e na Semeuse já é *abstraído* em perfil marmóreo.
 
 O Zwischenraum do Contrato Racial Visual é o espaço onde a branquitude se consolida como *forma jurídica*. É nesse espaço que a tese propõe sua intervenção: o racismo das alegorias é sua *condição de funcionamento*, não uma patologia. Sem o branqueamento, não há alegoria estatal. Sem a alegoria estatal, não há Feminilidade de Estado. Sem a Feminilidade de Estado, não há Contrato Sexual Visual. O Contrato Racial Visual é, assim, o substrato material sobre o qual os outros dois contratos se erguem.
 
@@ -71,7 +75,7 @@ O Zwischenraum do Contrato Racial Visual é o espaço onde a branquitude se cons
 > - Villares, Décio. *Alegoria da República*. 1889. Óleo sobre tela. Rio de Janeiro: Museu Nacional de Belas Artes.
 > - Rops, Félicien. *La République aimable*. 1871. Disponível em: https://gallica.bnf.fr/ark:/12148/btv1b531842166
 > - Roty, Oscar. *La Semeuse*. 1897. Moeda. Paris: Monnaie de Paris.
-> - Moitte/Janinet. *Liberté*. [data, localização a confirmar].
+> - Moitte/Janinet. *Liberté*. [data a confirmar; item FR-038 no corpus].
 > - Mondzain, Marie-José. *Image, icône, économie*. 2002.
 > - Legendre, Pierre. *La fabrique du droit* (edição a confirmar).
 > - Schwarcz, Lilia Moritz. [título a confirmar — sobre neoclassicismo e raça no Brasil].
