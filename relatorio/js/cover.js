@@ -229,8 +229,8 @@
     ctx.font = `700 10px ${U.MONO}`; ctx.textAlign = "right";
     ctx.fillStyle = P.inkLo;
     const cap = capA ? "CAPA A · RECURSÃO — CADA FIGURA É UMA CÉLULA DE UM ATLAS MAIOR"
-                     : "O ATLAS DO CORPUS · 336 ITENS · 17 PAÍSES · 1239–2021";
-    ctx.fillText(cap, W - 28, H - 26);
+                     : "ATLAS HISTÓRICO · 336 ITENS · CONSULTA REGISTRADA 28/09/2026 · K29";
+    ctx.fillText(cap, W - 28, H - 26, Math.max(1, W - 56));
     ctx.restore();
   }
 
