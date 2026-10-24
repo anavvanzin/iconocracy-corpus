@@ -87,6 +87,11 @@ jobs:
             exit 1
           fi
 
+      - name: Install Pandoc for bibliography tests
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
       - name: Run tests
         run: |
           pip install -r requirements.txt

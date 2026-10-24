@@ -2328,20 +2328,21 @@
     "id": "DE-100M-1908",
     "country": "Germany",
     "url": "https://en.numista.com/catalogue/note203616.html",
-    "title": "100 Mark Reichsbanknote — Germania seated (green seals)",
-    "description": "Germania",
+    "title": "100 Mark — Germania em medalhão, entre alegorias da indústria e da agricultura (dois selos verdes)",
+    "description": "Cédula de 100 Mark com dois selos verdes. No reverso, a cabeça de Germania, com coroa de folhas de carvalho, ocupa medalhão central sustentado por duas figuras femininas, alegorias da indústria e da agricultura. No anverso, águia imperial, selos e numeração verdes. A composição difere da Germania sentada diante da frota do Flottenhunderter.",
     "motif": [
       "Germania"
     ],
     "coded_by": "migration",
     "coded_at": "2026-04-04T09:47:29Z",
-    "date": "1908",
+    "date": "1908 (data impressa: 7 fev. 1908; reimpressões: 1918–1922; data exata de produção do exemplar fotografado: [VERIFICAR])",
     "regime": "normativo",
-    "citation_abnt": "100 Mark Reichsbanknote — Germania seated (green seals)",
+    "citation_abnt": "NUMISTA. 100 Mark (2 green seals). N#203616; Pick P#34. [S. l.], [s. d.]. Disponível em: https://en.numista.com/catalogue/note203616.html. Acesso em: 24 out. 2026.\n\nFontes de apoio: DEUTSCHE BUNDESBANK. Das Papiergeld im Deutschen Reich 1871–1948. Frankfurt am Main: Deutsche Bundesbank, 1965. p. 37, 41, 48; Anlage 30, p. 191. Disponível em: https://www.bundesbank.de/resource/blob/607868/195d1b540a2053d42fe9f2b735835115/mL/das-papiergeld-im-deutschen-reich-data.pdf. Acesso em: 24 out. 2026.\n\nSTATISTISCHES AMT DER STADT NÜRNBERG. Die Geldkrisen in den Kriegsjahren 1914/18 und die Ausgabe von Notgeld. Beilage zu den Statistischen Monatsberichten der Stadt Nürnberg, Nürnberg, ago. 1919. p. 7 do PDF, coluna direita, parágrafo “Zur Erschwerung”. Disponível em: https://dokumente.nuernberg.de/statistik/monatsberichte/1919/monatsbericht_1919_08_Beilage_Die%20Geldkrisen%20in%20den%20Kriegsjahren%201914-18%20und%20die%20Ausgabe%20von%20Notgeld.pdf#page=7. Acesso em: 24 out. 2026.\n\nBRONNERT, Uwe. Germania-Darstellungen: Zur Ikonografie deutscher Geldscheine des Kaiserreiches. Geldscheine-Online, 6 abr. 2021. Fig. 2.1–2.2. Disponível em: https://www.geldscheine-online.com/post/germania-darstellungen. Acesso em: 24 out. 2026.\n\nMUSEUMSSTIFTUNG POST UND TELEKOMMUNIKATION. Banknote des Deutschen Reiches über Einhundert Mark. 1 jul. 1898. Inventário 3.2011.2628. Disponível em: https://onlinesammlung.museumsstiftung.de/detail/collection/cad6033a-202b-40e2-8381-0284952d3a78. Acesso em: 24 out. 2026.",
     "audit_flags": [
       "sem-thumbnail"
     ],
-    "support": "papel-moeda"
+    "support": "papel-moeda",
+    "creator": "Paul Thumann (desenho); Hans Meyer (gravura)"
   },
   {
     "id": "DE-50M-1919",
