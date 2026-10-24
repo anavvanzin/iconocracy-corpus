@@ -134,13 +134,21 @@ editorial, os snapshots e todos os dados publicados permanecem intactos.
 | Verificação | Resultado |
 |---|---|
 | `python tools/scripts/validate_schemas.py` | 337/337 válidos, antes e depois |
+| Schema de `purification.jsonl` | 286/286 válidos; ledger de codificação inalterado |
 | `python -m pytest tests/test_validate_schemas.py tests/test_records_to_corpus.py tests/test_corpus_export_idempotent.py -q` | 15 testes passaram |
+| `python tools/scripts/check_corpus_export_idempotent.py` | Base passa; proposta falha apenas no suporte da performance: canônico `performance`, projeção existente `moeda` |
 | Comparação com o ledger base | Exatamente cinco registros anotados; os outros 332 sem alteração |
 | Identidades e seleção | 337 UUIDs na mesma ordem; nenhum `input`, `item_hash` ou `batch_id` alterado |
 | Codificação | Indicadores, autores e datas intactos; única mudança em `purificacao` é o metadado de suporte da performance |
 | Rastreabilidade (`EvidenceTracer`, base/proposta) | 0 problemas altos, 641 médios e 40 baixos em ambas; sete interpretações agora têm `gap` documentado |
 | Artefatos do site e fixtures | `acervo.json`, `stats.json`, `corpus-data-enriched.json` e fixtures de acervo/stats iguais à referência pública |
 | `git diff --check` e leitura JSON do registro de auditoria | Passaram |
+
+**Pendência de integração:** a diferença de suporte é introduzida por esta
+correção comprovada e não pela PR visual. A projeção existente não foi regenerada
+para eliminar a falha. A PR permanece rascunho; a propagação desse metadado para
+uma futura projeção/release exige revisão própria. Isso não muda a contagem de
+registros nem fornece uma reprodução para a performance.
 
 Os 641 problemas médios e 40 baixos de rastreabilidade já existem na base e não
 foram dispensados. Os 15 testes verificam contratos e funções; não certificam
