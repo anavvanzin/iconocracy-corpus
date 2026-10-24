@@ -3,75 +3,86 @@ titulo: "Análise Quantitativa: Padrões Iconométricos"
 parte: "III - Resultados"
 capitulo: 6
 status: "rascunho"
-palavras: 1200
+palavras: 1098
 citacoes: 0
-updated: "2026-04-15"
+updated: "2026-10-21"
 pandoc:
   reference-doc: "template.docx"
   csl: "abnt.csl"
   bibliography: "references.bib"
 ---
 
-# Capítulo 6 - Análise Quantitativa: Padrões Iconométricos
+# CAPÍTULO 6
 
-Este capítulo tem como objetivo apresentar os resultados da aplicação do protocolo *IconoCode* ao corpus da pesquisa, traduzindo as categorias iconográficas desenvolvidas nos capítulos anteriores em variáveis mensuráveis. Longe de pretender uma exatidão matemática sobre objetos visuais historicamente contingentes, a iconometria aqui proposta funciona como uma ferramenta heurística: ela permite visualizar padrões de longa duração e continuidades transatlânticas que escapariam à análise qualitativa de imagens isoladas.
+## ANÁLISE QUANTITATIVA: O PANORAMA ICONOMÉTRICO
 
-> **Nota sobre os números deste capítulo:** as contagens e estatísticas a seguir referem-se a um *instantâneo de trabalho* do corpus, congelado para garantir reprodutibilidade. O corpus permanece em expansão contínua até a defesa, e estes resultados serão re-rodados sobre a amostra final. Os valores apresentados não constituem, portanto, um N definitivo, mas o estado da análise na rodada corrente.
+---
 
-## 6.1 - Panorama descritivo do corpus e do grau de purificação
+> *"O dado não é o fim, mas o ponto de partida para a visibilidade do invisível."*
+> — (Anotação de pesquisa, 2026)
 
-A amostra analisada nesta rodada reúne os artefatos visuais codificados integralmente até o momento da análise, englobando suportes que transitam desde a grande estatuária oficial até a numismática e o meio impresso. O recorte geográfico reflete o circuito hegemônico de produção da cultura jurídica ocidental moderna, com predominância da França e dos Estados Unidos, seguidos por Alemanha, Brasil, Reino Unido e Itália.
+---
 
-A métrica central desta análise é o *score* composto de endurecimento (variando teoricamente de 0 a 3), que agrega os dez indicadores ordinais de purificação corporal. No conjunto global do corpus, a média de endurecimento situa-se em 1.44 (com dispersão de 0.10 a 3.10). Contudo, esse valor médio oculta variações cruciais quando os artefatos são agrupados por regime iconocrático.
+### 6.1 Panorama Descritivo: A Geometria do Corpus
 
-O corpus distribui-se de maneira desigual entre os quatro regimes identificados: o regime *fundacional* é o mais populoso (71 itens), refletindo a proliferação de imagens no calor das rupturas constitucionais ou revolucionárias; segue-se o regime *normativo* (40 itens), característico da consolidação e rotinização do poder estatal; o regime *militar* ou imperial (27 itens); e, marginalmente, as *contra-alegorias* (7 itens), que funcionam como o reverso subversivo da iconografia oficial.
+A análise quantitativa do corpus ICONOCRACIA permite, em primeira instância, mapear a distribuição espacial, temporal e institucional das alegorias femininas que compõem a base empírica desta tese. O corpus é um catálogo documentado em expansão: o instantâneo de trabalho de setembro de 2026 registra **336 itens**, dos quais 286 com codificação de purificação (o ledger operacional segue aberto até a defesa; as distribuições abaixo referem-se a esse instantâneo, e o recorte anterior de N=145 está documentado em §6.3). Os padrões de concentração corroboram a centralidade do modelo franco-atlântico na cultura jurídica do século XIX.
 
-A análise das correlações internas ($\rho$ de Spearman) entre os dez indicadores revela que o processo de "purificação" estatal não opera de forma isolada sobre partes do corpo, mas como um "pacote" integrado de disciplinamento. As correlações mais fortes ocorrem entre a *rigidez postural* e a *uniformização facial* ($\rho = 0.750$), bem como entre a *dessexualização* e a *uniformização facial* ($\rho = 0.738$). Isso demonstra que a captura do corpo feminino pela linguagem do Estado exige, simultaneamente, o congelamento da espinha dorsal e o apagamento das particularidades do rosto e do sexo. A carne que se faz lei perde, antes de tudo, sua mobilidade e seu desejo.
+#### 6.1.1 Distribuição Geográfica e Institucional
 
-## 6.2 - Regimes iconocráticos e morfologia corporal: Análise de variância (Kruskal-Wallis)
+A França emerge como o polo dominante do catálogo, representando **30,4% (102 registros)** do total. Essa predominância não é meramente numérica, mas qualitativa: o modelo da *Marianne* republicana funcionou, durante o longo século XIX, como a "moeda forte" da iconografia política transatlântica. O Brasil ocupa a segunda posição com **21,4% (72 registros)**, evidenciando o esforço de importação e adaptação do cânone europeu pelas elites jurídicas e políticas brasileiras, especialmente no período fundacional da República (1889).
 
-Para testar estatisticamente a hipótese de que diferentes momentos da cultura jurídica produzem diferentes morfologias corporais, aplicou-se o teste não-paramétrico de Kruskal-Wallis. Os resultados são contundentes: para 9 dos 10 indicadores de purificação, a hipótese nula de igualdade entre as distribuições foi rejeitada com altíssima significância estatística ($p < 0.05$). A única exceção foi o indicador de *enquadramento arquitetônico* ($H = 4.48, p = 0.106$), sugerindo que o uso de nichos, pedestais ou molduras não discrimina adequadamente o regime político, consistindo em uma técnica transversal da gramática arquitetônica oficial.
+Os Estados Unidos (9,5%), a Alemanha (8,0%) e o Reino Unido (6,8%) completam o núcleo central, enquanto países como Itália (6,0%), Portugal, Bélgica, Holanda e Espanha oferecem variações significativas que permitem testar a universalidade do protocolo *IconoCode*.
 
-Os testes *post-hoc* de Dunn (com correção de Bonferroni) revelaram o exato ponto de fratura na iconocracia. Há uma cisão clara: os regimes *militar* e *normativo* operam em um patamar de endurecimento corporal severamente superior ao do regime *fundacional*.
+| País | Registros (N) | Percentual (%) |
+|------|:-------------:|:--------------:|
+| França | 102 | 30,4% |
+| Brasil | 72 | 21,4% |
+| Estados Unidos | 32 | 9,5% |
+| Alemanha | 27 | 8,0% |
+| Reino Unido | 23 | 6,8% |
+| Demais países e regiões | 80 | 23,8% |
 
-No momento fundacional da lei (como as imagens da primeira República francesa ou os esboços da República brasileira), o corpo alegórico retém traços de fluidez, movimento e corporalidade - o caos originário ainda pulsa na imagem. No entanto, quando a ordem jurídica se consolida (regime normativo, média de endurecimento = 1.82) ou se impõe pela força armada (regime militar, média = 1.80), o corpo sofre uma mineralização. Os testes confirmam que a diferença entre o regime normativo e o fundacional é estatisticamente significativa para indicadores vitais como a dessexualização ($p = 0.0004$) e o apagamento narrativo ($p = 0.0003$). A lei estabilizada exige, visualmente, um corpo inerte.
+#### 6.1.2 Distribuição por Regime Iconocrático
 
-## 6.3 - Preditores do endurecimento: Regressão e o papel do suporte material
+A classificação dos itens conforme a tipologia proposta no Capítulo 2 revela que o **Regime FUNDACIONAL** é a categoria mais populosa, com **164 registros (48,8%)**. Isso reflete a natureza do corpus, focado em momentos de ruptura e estabelecimento de novas ordens jurídicas (Revoluções, Proclamações, Constituições), onde a imagem feminina é convocada para personificar a soberania nascente.
 
-A fim de isolar o efeito do regime iconocrático em relação a outros fatores, construiu-se um modelo de regressão (Ordinary Least Squares - OLS) tendo o *score* composto de endurecimento como variável dependente ($R^2$ ajustado = 0.451).
+O **Regime NORMATIVO**, responsável pela rotinização burocrática da imagem em selos, moedas e repartições, representa **30,7% (103 registros)**. O **Regime MILITAR**, que assinala o endurecimento morfológico em contextos de crise ou projeção imperial, compõe **16,1% (54 registros)** do catálogo. Por fim, as **CONTRA-ALEGORIAS** (4,5%, 15 registros) funcionam como o grupo de controle que demonstra, por subversão, os limites da "purificação" estatal.
 
-O modelo confirmou as intuições visuais: a materialidade do suporte exerce um poder ditatorial sobre a forma do corpo jurídico. A mídia da numismática (moedas e medalhas) atua como um fortíssimo preditor do endurecimento corporal (coeficiente $\beta = 0.797, p < 0.001$). A moeda não apenas miniaturiza a alegoria; sua ontologia circulante e metálica exige um grau extremo de dessexualização e heraldicização para garantir a legitimação serial do valor do Estado. Em contrapartida, as mídias da pintura e do desenho predizem um *relaxamento* dos indicadores de purificação ($\beta = -0.529, p < 0.01$). O óleo sobre tela abriga a carne; a numismática exige o brasão.
+#### 6.1.3 Arco Temporal e Densidade Iconográfica
 
-Ainda controlando pelo suporte material, a regressão demonstra que o tipo de regime permanece como um preditor altamente significativo. Em comparação com as contra-alegorias (usadas como *baseline*), a passagem para o regime normativo impulsiona drasticamente o congelamento do corpo ($\beta = 0.818, p < 0.001$).
+O arco temporal do catálogo estende-se por mais de sete séculos (1239–2021) — os itens fora do recorte 1800–2000 funcionam como comparadores arqueológicos e contemporâneos —, mas sua densidade analítica concentra-se entre **1860 e 1920** (mais da metade dos 295 itens datados), período que coincide com a consolidação do Estado-nação moderno e a expansão industrial da imagem estatal. A década de **1910**, marcada pela Primeira Guerra Mundial, é o ponto de maior densidade (**36 registros datados**), evidenciando a mobilização máxima do corpo alegórico em contextos de conflito (Regime MILITAR).
 
-Quando se analisa qual indicador possui maior peso preditivo para o *score* composto geral, a *uniformização facial* ($\rho = 0.855$) e a *rigidez postural* ($\rho = 0.820$) emergem como os vetores primários. O Estado moderno, ao converter corpos femininos em avatares da Justiça e da República, realiza sua operação ideológica mais violenta não apenas ao cobrir a figura, mas ao petrificar seu rosto em uma simetria inexpressiva e alinhar sua coluna a um eixo estritamente ortogonal.
+Em termos de conteúdo iconográfico, o código **ICONCLASS 48C51** — taxonomia interna do projeto para a personificação feminina em contexto político [VERIFICAR: no sistema oficial Iconclass, 48C51 = 'painting'; códigos oficiais presentes no corpus: 44B62, 11M44] — é a âncora do corpus, aparecendo em **22,6%** das ocorrências codificadas (76 de 336 registros no instantâneo de 2026-09-21). Essa convergência demonstra que, independentemente das variações nacionais, o uso da feminilidade como tecnologia de representação política segue um léxico compartilhado, o que justifica a aplicação de um protocolo comparativo global.
 
-## 6.4 - Circulação transatlântica e o espaço das correspondências
+---
 
-A Análise de Correspondência Múltipla (MCA) permitiu mapear as distâncias multivariadas entre os itens do corpus, integrando período histórico, país, suporte, regime e nível de endurecimento. A inércia explicada pelas primeiras dimensões, embora limitada matematicamente (típico de MCA com variáveis densas), desenha uma topologia clara do imaginário jurídico transatlântico.
+### 6.2 O Endurecimento sob Exame: a matriz dos itens âncora
 
-No espaço Euclidiano projetado pelo algoritmo, itens periféricos ou de expansão ultramarina muitas vezes adotam um grau superlativo de endurecimento para compensar sua posição subordinada ou justificar a dominação. Entre os artefatos com maior distância da origem no mapa de correspondências, encontra-se a alegoria colonial belga (BE-CONGO-1912), perfeitamente alinhada ao quadrante militar de alto endurecimento, assim como a *Britannia* da expansão imperial comercial britânica do final do século XIX (UK-TRADE-1895). Ao mesmo tempo, no extremo oposto do gráfico, agrupam-se as caricaturas e contra-alegorias francesas (como FR-031 e FR-032), que subvertem a gramática visual desincorporando a alegoria de seu pedestal estatal ou devolvendo-lhe as paixões narrativas.
+A Tabela 2 apresenta observações ordinais por dimensão, sem escore global. As comparações são hipóteses a verificar no ledger de codificação e nos dossiês; não estabelecem correlação ou gradiente agregado.
 
-## 6.5 — Limites da quantificação: o que os números não dizem
+**Tabela 2 — Matriz de Endurecimento dos 4 Itens Âncora**
 
-A iconometria, embora desvele padrões morfológicos ocultos sob a poeira dos arquivos, esbarra em um limite epistemológico essencial. O número captura a rigidez postural, mas não captura a raça; ele quantifica o enquadramento arquitetônico, mas não a branquitude como pré-requisito da universalidade. A estatística revela que o Estado dessexualiza a alegoria para torná-la lei, mas a operação excludente que converte *apenas* corpos caucasianos e classicizados em metáforas válidas da jurisdição opera muitas vezes abaixo do radar da abstração quantitativa.
+| Indicador | Justiça STF (BR-009) | Brasão República (SCOUT-562) | British Trade Dollar (UK-TRADE-1895) | Navigation et Commerce (FR-094) |
+|---|:---:|:---:|:---:|:---:|
+| Desincorporação | 2 | 3 | 2 | 0 |
+| Rigidez postural | 2 | 0 | 2 | 0 |
+| Dessexualização | 2 | 0 | 2 | 0 |
+| Uniformização facial | 2 | 0 | 1 | 0 |
+| Heraldização | 1 | 3 | 1 | 0 |
+| Enquadramento arquitetônico | 2 | 0 | 0 | 0 |
+| Apagamento narrativo | 3 | 3 | 2 | 0 |
+| Monocromatização | 2 | 2 | 0 | 0 |
+| Serialidade | 3 | 3 | 2 | 0 |
+| Inscrição estatal | 3 | 3 | 1 | 0 |
 
-Para essa dimensão do contrato visual, a contagem deve necessariamente ceder espaço à crítica teórica: é a *colonialidade do ver* (objeto do Capítulo 3) que ilumina por que o endurecimento afeta de maneira diferencial os corpos que podem — ou não — ascender ao Panteão normativo do Estado moderno.
+Os valores separados sugerem perguntas sobre formalização burocrática e corporalidade. A relação com universalidade jurídica e dominação ultramarina exige comparação qualitativa de casos, sem inferir correlação a partir de um número agregado. [RECHECAGEM PENDENTE: conferir proveniência das observações e inventários verbais.]
 
-## 6.6 — Materializações brasileiras: cinco direções para o caso sul-global
+---
 
-O argumento desenvolvido neste capítulo opera primordialmente sobre o corpus transatlântico clássico (França, EUA, Alemanha, Reino Unido, Itália). A extensão para o Sul Global — especificamente para o caso brasileiro — não deve ser tratada como mera "aplicação" do modelo, mas como possibilidade de contribuição original, dado que as cinco dimensões do contrato visual (sexual, racial, linguístico, fenomenológico, econômico) se articulam de forma específica no contexto brasileiro.
+### 6.3 Nota metodológica: o congelamento analítico de N=145
 
-Cinco direções foram mapeadas para essa extensão:
+As distribuições deste capítulo referem-se ao instantâneo de trabalho de setembro de 2026: 336 itens no ledger operacional, dos quais 286 com codificação de purificação. **N=145 designa um recorte anterior e menor** — o congelamento analítico sobre o qual foi conduzida a primeira análise estatística da pesquisa, e sobre o qual se fez o diagnóstico do instrumento descrito no Capítulo 4, §2.6.
 
-1. **Abordagem monetária e comemorativa** — a economia visual das moedas e cédulas imperiais e republicanas como extensão do contrato para o bolso do cidadão
-2. **Monumentos neoclássicos seriados** — análise da reprodução mecânica da fórmula canônica nos monumentos públicos brasileiros do século XIX e XX
-3. **Conexão italiana** — escultores e oficinas italianas como tecnologia importada de construção da alegoria estatal brasileira
-4. **Arquitetura judiciária** — programas visuais interiores dos tribunais brasileiros como espaço de produção de subjetividade judicial
-5. **Dimensão racial** — a interseção entre contrato sexual e contrato racial na alegoria brasileira (corpo branco como pré-requisito da universalidade)
+Esse congelamento não é o tamanho da pesquisa e não deve ser lido como denominador dos percentuais apresentados em §6.1. Ele antecede a incorporação dos itens que elevaram o corpus ao patamar atual e permanece registrado como a etapa em que o instrumento de dez indicadores estava em calibragem. Os demais conjuntos citados na tese seguem a mesma lógica: N=165 designa uma etapa intermediária, N=106 o lote inicial de março de 2026 e N=20 as duas rodadas de recodificação de abril de 2026 (Capítulo 4, §2.6). Nenhum desses números deve ser intercambiado com os 336 itens do instantâneo corrente, nem tratado como tamanho definitivo da pesquisa.
 
-> 📎 Ver completo em: [[brazilian-visual-economy-proposals]]  
-> 📊 Matriz comparativa: [[brazilian-case-decision-matrix]]  
-> 🗓️ Plano imediato: [[plano-2-semanas-caso-brasileiro]]
-
-O bloco "Contrato Racial Visual" (Bloco 3 da Matriz de Hipóteses) não deve ser reduzido a uma sub-seção do caso brasileiro — requer desenvolvimento próprio, demonstrado *através* do caso mas não limitado a ele.
+A verificação que motivou a separação entre indicadores morfológicos e materiais (Capítulo 4, §2.3) foi feita sobre esse recorte: a *monocromatização*, computada sobre o conjunto, não distinguia os regimes; controlada pelo suporte, distinguia-os com força. O resultado tem estatuto de calibragem interna, não de prova. Ele não é reproduzido aqui como escore agregado, porque a agregação dos dez indicadores foi aposentada como afirmação probatória em 28 de julho de 2026 (Capítulo 4, §2.3).

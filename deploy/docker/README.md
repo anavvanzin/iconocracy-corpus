@@ -44,7 +44,9 @@ docker compose run --rm tools bash
 - **bind mount** `webiconocracy/` and `indexing/gallica-mcp-server/` for hot reload.
 - **named volumes** `web_node_modules` / `mcp_node_modules` shield container deps from host overlay.
 - `tools` mounts entire repo at `/workspace` for read/write of `corpus/`, `data/`, scripts.
-- `thesis` mounts only `vault/tese/` at `/thesis`.
+- `thesis` mounts the entire repo at `/workspace`, with working directory
+  `/workspace/vault/tese`, so the canonical sources in `tese/manuscrito/`
+  and output copies in `tese/` are reachable.
 
 ## Apple Silicon Note
 
@@ -52,16 +54,16 @@ docker compose run --rm tools bash
 
 ## Font Caveat (PDF target)
 
-`vault/tese/Makefile` requests `Times New Roman`. Not in Alpine. Either:
+`vault/tese/Makefile` uses LuaLaTeX and TeX Gyre Termes by default.
+Both the engine and its font packages must be present in the TeX image.
+The engine and font can be overridden without editing sources:
 
-- Substitute in Makefile: `-V mainfont="TeX Gyre Termes"` (free Times-equivalent), or
-- Mount host fonts via the `thesis` service in `docker-compose.yml`:
-  ```yaml
-  volumes:
-    - ./vault/tese:/thesis
-    - /System/Library/Fonts/Supplemental:/usr/share/fonts/truetype/macos:ro
-  ```
-  (macOS path; Linux/Windows differ.) Then `fc-cache -f` once.
+```sh
+docker compose run --rm thesis make pdf PDF_ENGINE=xelatex PDF_FONT='DejaVu Serif'
+```
+
+The selected font must be installed in that container. See
+[thesis build instructions](../../vault/tese/README.md).
 
 ## Production / Cloud Run
 

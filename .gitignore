@@ -108,6 +108,9 @@ data/staging/vault-drafts-lpai-v2/
 # Thesis compilation output (ABNT, DOCX, PDF builds)
 tese/compilacao-*/
 
+# Tese: artefatos compilados na raiz de tese/ (build local, nao versionar)
+tese/tese_completa.pdf
+
 # Cloudflare local state (contains account IDs, geolocation, binary blobs)
 .wrangler/
 

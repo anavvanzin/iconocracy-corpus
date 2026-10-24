@@ -2,7 +2,7 @@
 titulo: "Iconocracia: a Economia Política da Imagem Soberana"
 parte: "I — Moldura Teórica"
 capitulo: 2
-status: "rascunho"
+status: "revisão"
 palavras: 4093
 citacoes: 16
 updated: "2026-10-06"

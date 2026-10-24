@@ -63,7 +63,7 @@ A Purificação Clássica não substitui os outros três originais; articula-os.
 
 ## 5.3 — Sistema de codificação IconoCode e integração ICONCLASS
 
-<!-- MIGRAR: preencher a partir do velho Capitulo2_metodologia §2.2 (Panofsky 3 níveis) + §2.5 (validação imagem×metadados) + ICONCLASS (Van de Waal, código 48C51). Pendente. NOTA 2026-09-22: 48C51 é rótulo INTERNO do projeto — no sistema oficial Iconclass, 48C51 = 'painting'; usar códigos oficiais presentes no corpus (44B62, 11M44) ou declarar a taxonomia interna; e a validação imagem×metadados hoje é §2.6 do arquivo vigente. -->
+<!-- MIGRAR: preencher a partir do velho Capitulo2_metodologia §2.2 (Panofsky 3 níveis) + §2.5 (validação imagem×metadados) + ICONCLASS (Van de Waal, código 48C51). Pendente. NOTA 2026-09-22: 48C51 é rótulo INTERNO do projeto — no sistema oficial Iconclass, 48C51 = 'painting'; usar códigos oficiais presentes no corpus (44B62, 11M44) ou declarar a taxonomia interna; e a validação imagem×metadados hoje é §4.6 do Capítulo 4. -->
 
 ## 5.4 — Infraestrutura digital: GitHub, Drive, Obsidian
 
