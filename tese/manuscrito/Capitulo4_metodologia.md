@@ -12,7 +12,7 @@
 
 ---
 
-### 2.1 Por que medir o corpo alegórico: uma iconometria para o Direito
+### 4.1 Por que medir o corpo alegórico: uma iconometria para o Direito
 
 Se o Capítulo 1 demonstrou que o contrato sexual possui uma dimensão visual — que a hipervisibilidade alegórica feminina compensa a invisibilidade cívica das mulheres reais —, resta agora a questão de *como* tornar essa hipótese verificável. Como medir, de maneira auditável e replicável, o grau em que o corpo alegórico feminino é instrumentalizado pelo Estado?
 
@@ -22,7 +22,7 @@ O desenho metodológico segue, assim, a lógica dos métodos mistos sequenciais 
 
 ---
 
-### 2.2 O Protocolo IconoCode: três níveis de análise
+### 4.2 O Protocolo IconoCode: três níveis de análise
 
 O protocolo de análise visual desenvolvido para esta tese — denominado *IconoCode* — opera em três níveis progressivos, adaptando o método tripartido de Panofsky (1939; 1955) para o material jurídico-estatal.
 
@@ -42,7 +42,7 @@ Para ilustrar: a gravura *L'envoyé de la Justice* de Chifflart (1859, corpus FR
 
 ---
 
-### 2.3 Os 10 indicadores de purificação
+### 4.3 Os 10 indicadores de purificação
 
 O núcleo quantitativo da iconometria consiste em 10 indicadores ordinais que medem o grau de *purificação* do corpo alegórico feminino — isto é, o processo pelo qual o corpo vivo, dinâmico e individualizado é progressivamente transformado em signo estatal abstrato, rígido e serial. Cada indicador é pontuado numa escala de 0 a 3 (ausente, fraco, moderado, dominante).
 
@@ -71,7 +71,7 @@ O caso do *enquadramento arquitetônico* é análogo. Esculturas alemãs em edif
 
 ---
 
-### 2.4 A tipologia dos regimes iconocráticos
+### 4.4 A tipologia dos regimes iconocráticos
 
 Os 10 indicadores não operam independentemente: eles se agrupam em perfis morfológicos característicos, que a tese denomina *regimes iconocráticos*. A tipologia foi construída por leitura densa de casos exemplares; o diagnóstico do instrumento revelou-se compatível com os três regimes propostos (Capítulo 6), sem confirmá-los como fato estatístico, e a análise qualitativa acrescentou um quarto.
 
@@ -103,11 +103,11 @@ Essas leituras de contra-alegoria interrogam a função das imagens: a sátira p
 
 ---
 
-### 2.5 Paradigma indiciário e padrões de prova na iconografia jurídica
+### 4.5 Paradigma indiciário e padrões de prova na iconografia jurídica
 
-Uma postura, uma inscrição e a destinação de uma estampa sustentam afirmações diferentes. A passagem entre elas exige explicitar o que foi observado, que convenção permite identificá-lo e que documentação autoriza relacioná-lo a uma prática jurídico-política. Esta seção estabelece esses critérios; a comparação entre metadados e imagens em §2.6 registra um episódio exploratório da construção do instrumento.
+Uma postura, uma inscrição e a destinação de uma estampa sustentam afirmações diferentes. A passagem entre elas exige explicitar o que foi observado, que convenção permite identificá-lo e que documentação autoriza relacioná-lo a uma prática jurídico-política. Esta seção estabelece esses critérios; a comparação entre metadados e imagens em §4.6 registra um episódio exploratório da construção do instrumento.
 
-#### 2.5.1 Posição estratificada por nível panofskiano
+#### 4.5.1 Posição estratificada por nível panofskiano
 
 No **nível pré-iconográfico**, a descrição deve apontar os traços visíveis e as condições de acesso à reprodução. No **nível iconográfico**, a identificação de Justitia, Marianne ou de uma fórmula gestual precisa indicar o repertório histórico mobilizado e as alternativas plausíveis. No **nível iconológico**, a hipótese sobre a função jurídico-política da imagem deve articular esses registros ao contexto de produção, circulação e uso [@panofsky1939; @panofsky1955]. A estratificação distingue exigências de justificação; não dispensa a conferência factual em nenhum nível.
 
@@ -117,7 +117,7 @@ A auditabilidade é uma exigência do protocolo, cujo atendimento precisa ser ex
 
 A discussão de Mnookin sobre fotografia e prova permite interrogar a passagem entre ilustrar um argumento e sustentar uma afirmação factual [@mnookin1998]. Braman destaca as fronteiras instáveis entre ilustração, argumento e evidência, e a importância da proveniência e da autoridade na produção do fato [@braman2023]. A aplicação dessas questões às alegorias históricas exige mediação: a imagem é uma fonte situada, e seu uso nesta tese depende da crítica documental e da explicitação da inferência.
 
-#### 2.5.2 Inferência indiciária e montagem
+#### 4.5.2 Inferência indiciária e montagem
 
 Em “Sinais: raízes de um paradigma indiciário”, Ginzburg examina formas de conhecimento que partem de detalhes para reconstruir relações não imediatamente acessíveis [@ginzburg1989]. Para esta pesquisa, isso orienta a atenção à postura, aos atributos, às inscrições e aos deslocamentos de uma fórmula visual. A recorrência permite formular uma hipótese; sua sustentação depende do confronto entre fontes, das diferenças entre os casos e das explicações concorrentes.
 
@@ -125,17 +125,17 @@ O Contrato Sexual Visual permanece uma proposição autoral da tese. Sua relaç�
 
 A montagem warburguiana aproxima imagens e torna perceptíveis persistências e transformações formais [@warburg2000; @didihuberman2002]. A aproximação também pode sugerir relações que a documentação não permite estabelecer. Os painéis do atlas precisam, por isso, identificar objetos, datas, fontes e o critério de justaposição. A semelhança visual abre uma pergunta sobre transmissão ou uso; não demonstra por si só uma genealogia, uma intenção institucional ou uma prescrição jurídica.
 
-#### 2.5.3 Silêncios do arquivo e ausência figurativa
+#### 4.5.3 Silêncios do arquivo e ausência figurativa
 
 Hartman e Fuentes interrogam os limites de arquivos constituídos pela violência escravista e colonial [@hartman2008; @fuentes2016]. Essa discussão exige atenção às condições históricas que determinam quem aparece no documento e como aparece. Sua aproximação à iconografia jurídica é delimitada: o apagamento documental de mulheres históricas, a representação de uma Mulher alegórica e a ausência de uma personagem numa composição são problemas distintos.
 
 Para interpretar uma ausência figurativa, é preciso demonstrar por que a presença daquela figura seria esperável: uma série comparável, uma convenção documentada ou registros de encomenda e recepção podem sustentar essa expectativa. Também é preciso examinar explicações alternativas, como gênero satírico, escolha compositiva, conservação e seleção do acervo. A falta de uma figura só adquire sentido indiciário nesse confronto.
 
-O caso de *Looking Backward*, referido em §2.4, permanece uma hipótese a investigar. Seu registro canônico existe, mas contém descrições incompatíveis sobre a presença de Columbia. Essa inconsistência impede utilizá-lo como demonstração já estabelecida de “subversão por ausência”. A classificação legada e uma tag de pesquisa não resolvem a questão iconográfica.
+O caso de *Looking Backward*, referido em §4.4, permanece uma hipótese a investigar. Seu registro canônico existe, mas contém descrições incompatíveis sobre a presença de Columbia. Essa inconsistência impede utilizá-lo como demonstração já estabelecida de “subversão por ausência”. A classificação legada e uma tag de pesquisa não resolvem a questão iconográfica.
 
 O protocolo deve conservar as incertezas, as fontes consultadas e as decisões de revisão. A declaração de uma lacuna delimita o que se pode afirmar; não transforma a lacuna em prova da hipótese.
 
-#### 2.5.4 Critérios de sustentação das afirmações
+#### 4.5.4 Critérios de sustentação das afirmações
 
 | Nível de análise | Afirmação | Exigência de justificação |
 |---|---|---|
@@ -149,7 +149,7 @@ O padrão de rigor articula leitura visual, crítica das fontes e argumentação
 
 ---
 
-### 2.6 Metadados e imagem: sensibilidade e limites da recodificação
+### 4.6 Metadados e imagem: sensibilidade e limites da recodificação
 
 As rodadas abaixo registram a sensibilidade das saídas de um mesmo modelo à disponibilidade da imagem. Não incluem codificadores independentes nem um conjunto de referência adjudicado por uma pesquisadora. Seus resultados permitem examinar diferenças entre modalidades de entrada; não estabelecem acurácia, validade externa ou confirmação da hipótese histórico-jurídica. As duas rodadas documentam o experimento de abril de 2026; os escores compostos que ele produziu não são reproduzidos aqui, por não desempenharem função probatória.
 
@@ -178,9 +178,9 @@ As duas rodadas mostram que a mudança de entrada alterou as saídas nesses 20 i
 
 ---
 
-### 2.7 O corpus: composição e fontes
+### 4.7 O corpus: composição e fontes
 
-O corpus é um catálogo documentado em expansão. O instantâneo de trabalho de 2026-09-21 registra 336 itens no ledger operacional e 286 linhas no registro de codificação de purificação. Esses são os denominadores das distribuições descritivas apresentadas neste capítulo e no Capítulo 6, sem pressupor que todas as linhas tenham igual cobertura de justificação visual. As referências históricas a N=145 e N=165 designam etapas anteriores (N=145 está documentado no Capítulo 6, §6.3); N=106 identifica o lote inicial de março de 2026, e N=20 identifica as duas rodadas de §2.6. Esses conjuntos não devem ser intercambiados nem tratados como o tamanho definitivo da pesquisa.
+O corpus é um catálogo documentado em expansão. O instantâneo de trabalho de 2026-09-21 registra 336 itens no ledger operacional e 286 linhas no registro de codificação de purificação. Esses são os denominadores das distribuições descritivas apresentadas neste capítulo e no Capítulo 6, sem pressupor que todas as linhas tenham igual cobertura de justificação visual. As referências históricas a N=145 e N=165 designam etapas anteriores (N=145 está documentado no Capítulo 6, §6.3); N=106 identifica o lote inicial de março de 2026, e N=20 identifica as duas rodadas de §4.6. Esses conjuntos não devem ser intercambiados nem tratados como o tamanho definitivo da pesquisa.
 
 | País | N | Fontes principais |
 |------|---|------------------|
@@ -200,7 +200,7 @@ A cobertura temporal estende-se de comparadores anteriores ao recorte (o mais an
 
 ---
 
-### 2.8 Infraestrutura digital e rastreabilidade
+### 4.8 Infraestrutura digital e rastreabilidade
 
 O corpus é mantido em regime de ciência aberta no repositório GitHub `anavvanzin/iconocracy-corpus`, seguindo o princípio de rastreabilidade em três pontos:
 

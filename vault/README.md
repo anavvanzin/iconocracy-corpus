@@ -43,6 +43,9 @@ vault/
 
 ## Compilação com Pandoc
 
+As fontes canônicas estão em `../tese/manuscrito/` na raiz do repositório;
+os capítulos de `vault/tese/` são espelhos Obsidian. Ver [instruções de build](tese/README.md).
+
 ```bash
 cd vault/tese
 make docx         # Tese completa → output/tese_completa.docx
@@ -55,7 +58,7 @@ make setup        # Instruções de configuração
 
 1. **Catalogar**: Crie ficha com template `ficha-catalografica` em `corpus/`
 2. **Pesquisar**: Notas livres em `pesquisa/`, diário em `diario/`
-3. **Escrever**: Capítulos em `tese/`, com wiki-links para fichas e notas
+3. **Escrever**: Fontes canônicas em `../tese/manuscrito/`; manter os espelhos de `tese/` sincronizados
 4. **Compilar**: `make docx` gera DOCX com citações ABNT
 5. **Sincronizar**: `notion_sync.py` mantém Notion atualizado
 

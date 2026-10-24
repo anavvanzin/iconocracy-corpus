@@ -7,7 +7,7 @@
 #
 # Rationale: the manuscript uses ABNT in-text style `(AUTOR, ano, p. X)` — voz
 # acadêmica direta, não Pandoc-cite. Without nocite, citeproc would never
-# "link" the 38 .bib entries to the output, and the Referências section would
+# "link" the .bib entries to the output, and the Referências section would
 # be empty. With nocite '@*', every entry lands in Referências, sorted per
 # abnt.csl rules.
 #

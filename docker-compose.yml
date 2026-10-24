@@ -59,8 +59,8 @@ services:
       dockerfile: deploy/docker/thesis.Dockerfile
     platform: linux/amd64        # pandoc/latex is amd64-only; runs via Rosetta on Apple Silicon
     volumes:
-      - ./vault/tese:/thesis
-    working_dir: /thesis
+      - .:/workspace
+    working_dir: /workspace/vault/tese
     profiles: ["thesis"]
 
 volumes:
