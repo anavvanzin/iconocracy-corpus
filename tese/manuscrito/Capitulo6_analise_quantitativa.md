@@ -11,7 +11,7 @@
 
 ### 6.1 Panorama Descritivo: A Geometria do Corpus
 
-A análise quantitativa do corpus ICONOCRACIA permite, em primeira instância, mapear a distribuição espacial, temporal e institucional das alegorias femininas que compõem a base empírica desta tese. O corpus é um catálogo documentado em expansão: o instantâneo de trabalho de setembro de 2026 registra **336 itens**, dos quais 286 com codificação de purificação (o ledger operacional segue aberto até a defesa; as distribuições abaixo referem-se a esse instantâneo). Os padrões de concentração corroboram a centralidade do modelo franco-atlântico na cultura jurídica do século XIX.
+A análise quantitativa do corpus ICONOCRACIA permite, em primeira instância, mapear a distribuição espacial, temporal e institucional das alegorias femininas que compõem a base empírica desta tese. O corpus é um catálogo documentado em expansão: o instantâneo de trabalho de setembro de 2026 registra **336 itens**, dos quais 286 com codificação de purificação (o ledger operacional segue aberto até a defesa; as distribuições abaixo referem-se a esse instantâneo, e o recorte anterior de N=145 está documentado em §6.3). Os padrões de concentração corroboram a centralidade do modelo franco-atlântico na cultura jurídica do século XIX.
 
 #### 6.1.1 Distribuição Geográfica e Institucional
 
@@ -62,3 +62,13 @@ A Tabela 2 apresenta observações ordinais por dimensão, sem escore global. As
 | Inscrição estatal | 3 | 3 | 1 | 0 |
 
 Os valores separados sugerem perguntas sobre formalização burocrática e corporalidade. A relação com universalidade jurídica e dominação ultramarina exige comparação qualitativa de casos, sem inferir correlação a partir de um número agregado. [RECHECAGEM PENDENTE: conferir proveniência das observações e inventários verbais.]
+
+---
+
+### 6.3 Nota metodológica: o congelamento analítico de N=145
+
+As distribuições deste capítulo referem-se ao instantâneo de trabalho de setembro de 2026: 336 itens no ledger operacional, dos quais 286 com codificação de purificação. **N=145 designa um recorte anterior e menor** — o congelamento analítico sobre o qual foi conduzida a primeira análise estatística da pesquisa, e sobre o qual se fez o diagnóstico do instrumento descrito no Capítulo 4, §2.6.
+
+Esse congelamento não é o tamanho da pesquisa e não deve ser lido como denominador dos percentuais apresentados em §6.1. Ele antecede a incorporação dos itens que elevaram o corpus ao patamar atual e permanece registrado como a etapa em que o instrumento de dez indicadores estava em calibragem. Os demais conjuntos citados na tese seguem a mesma lógica: N=165 designa uma etapa intermediária, N=106 o lote inicial de março de 2026 e N=20 as duas rodadas de recodificação de abril de 2026 (Capítulo 4, §2.6). Nenhum desses números deve ser intercambiado com os 336 itens do instantâneo corrente, nem tratado como tamanho definitivo da pesquisa.
+
+A verificação que motivou a separação entre indicadores morfológicos e materiais (Capítulo 4, §2.3) foi feita sobre esse recorte: a *monocromatização*, computada sobre o conjunto, não distinguia os regimes; controlada pelo suporte, distinguia-os com força. O resultado tem estatuto de calibragem interna, não de prova. Ele não é reproduzido aqui como escore agregado, porque a agregação dos dez indicadores foi aposentada como afirmação probatória em 28 de julho de 2026 (Capítulo 4, §2.3).

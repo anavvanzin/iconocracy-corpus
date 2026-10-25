@@ -164,3 +164,23 @@ Para a performance: confirmação do evento pretendido e da fotografia correspon
 Essas diligências não podem ser substituídas por uma imagem parecida ou pela
 declaração de que um arquivo homônimo está correto. O catálogo continua com 337
 registros e 332 marcados com imagem; esta PR não produz release ou publicação.
+
+## Integração autorizada em 25/10/2026
+
+Após autorização para corrigir e publicar, a branch foi conciliada com a main
+`b1333ea`, preservando as alterações posteriores da tese e de DE-100M-1908.
+O exportador vigente foi executado para arquivo temporário. Seu diff contém a
+correção comprovada de suporte desta performance e 15 preenchimentos de creator
+preexistentes, fora do escopo. Apenas a entrada da performance produzida pelo
+exportador foi aplicada à projeção, via escrita JSON atômica: `support` passa
+de `moeda` a `performance`. Os outros 336 itens permanecem byte/semanticamente
+inalterados e a seleção continua com 337 registros. Não há reconstrução global
+para obter CI verde, nem exportação para o site ou para Hugging Face.
+
+A conferência de idempotência dos campos autoritativos passa após essa mudança.
+Os 15 preenchimentos de creator são dívida prévia do exportador e não foram
+publicados por esta auditoria. O teste de idempotência existente não cobre esse
+campo; portanto o resultado verde não significa igualdade integral do export.
+As cinco reproduções continuam pendentes, sem imagem substituta nem alteração
+nos indicadores de codificação. A tabela de 24/10 acima registra o estado antes
+desta integração, não o resultado final do CI.

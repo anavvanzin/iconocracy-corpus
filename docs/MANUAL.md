@@ -304,8 +304,14 @@ make capitulo-2.docx
 make pdf
 
 # Ver opções disponíveis
-make help
+make setup
 ```
+
+**Fontes e saídas:** a compilação lê `tese/manuscrito/`; capítulos em
+`vault/tese/` são espelhos Obsidian. Bibliografia é obrigatória, e a
+numeração editorial não recebe uma segunda camada automática.
+Ver [compilação da tese](../vault/tese/README.md), incluindo requisitos de
+fontes e mecanismo PDF.
 
 **Requisito:** Pandoc 3.0+ e `pandoc-citeproc` (ou `citeproc` embutido).
 

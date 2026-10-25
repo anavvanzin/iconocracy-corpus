@@ -251,6 +251,10 @@ def _corpus_entry_from_record(record: dict, existing: dict | None, corpus_id: st
     if abnt:
         entry["citation_abnt"] = abnt
 
+    canonical_creator = record_metadata.get("creator")
+    if isinstance(canonical_creator, str) and canonical_creator.strip():
+        entry["creator"] = canonical_creator.strip()
+
     # Tags from exports audit_flags
     if exports.get("audit_flags") and not entry.get("audit_flags"):
         entry["audit_flags"] = exports["audit_flags"]
