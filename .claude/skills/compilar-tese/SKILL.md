@@ -5,6 +5,9 @@ user-invocable: true
 ---
 
 Compile the ICONOCRACIA thesis using the Makefile in `vault/tese/`.
+Read `vault/tese/README.md` for canonical source paths and PDF prerequisites.
+Compile `tese/manuscrito/` sources; treat Markdown chapters in `vault/tese/`
+as Obsidian mirrors. Keep editorial numbering; do not add `--number-sections`.
 
 ## Usage
 
@@ -18,7 +21,7 @@ Compile the ICONOCRACIA thesis using the Makefile in `vault/tese/`.
 1. Check prerequisites:
    ```bash
    command -v pandoc || echo "ERRO: pandoc não encontrado"
-   test -f vault/tese/references.bib || echo "AVISO: references.bib ausente — citações não serão processadas"
+   make -C vault/tese bib-check  # required for complete and individual builds
    test -f vault/tese/abnt.csl || echo "AVISO: abnt.csl ausente — estilo ABNT não será aplicado"
    ```
 
@@ -27,7 +30,7 @@ Compile the ICONOCRACIA thesis using the Makefile in `vault/tese/`.
    # Full DOCX
    make -C vault/tese/ docx
 
-   # Full PDF
+   # Full PDF (LuaLaTeX + TeX Gyre Termes)
    make -C vault/tese/ pdf
 
    # Single chapter (replace N with chapter number)
@@ -38,7 +41,9 @@ Compile the ICONOCRACIA thesis using the Makefile in `vault/tese/`.
    ```
 
 3. Report result:
-   - On success: path to output file + file size
+   - On success: path to output file + file size; report the engine/font used for PDF
+   - Distinguish missing local TeX/font dependencies from source failures; when
+     using a documented engine/font override, report that limitation explicitly
    - On failure: show the Pandoc error, diagnose cause (missing .csl, .bib, bad YAML frontmatter), suggest fix
 
 ## Common errors

@@ -7,8 +7,8 @@ import time
 from pathlib import Path
 
 
-REPO = Path(__file__).resolve().parents[1]
-DEFAULT_TARGET = REPO / "vault/tese/manuscrito"
+REPO = Path(__file__).resolve().parents[2]
+DEFAULT_TARGET = REPO / "tese/manuscrito"
 INTERVAL_SECONDS = 4
 
 
