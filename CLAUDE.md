@@ -138,6 +138,28 @@ Active automation:
 
 ## Corpus Parameters
 
+### Atribuição territorial, política e institucional
+
+Aplicar o [critério transversal CRITERIO-VINCULOS-2026-10-29, v1.0](docs/methodology/atribuicao-territorial-politica-institucional.md)
+em seleção, catalogação, análise/montagem, redação, revisão e apresentação.
+Verificar a relação precisa e o alcance da evidência de cada associação usada;
+não é obrigatório preencher todas as dimensões. Nacionalidade do artista,
+produção, guarda atual e tema não definem, isoladamente, nacionalidade única do
+objeto; autoria estrangeira também não exclui relação documentada com o Brasil.
+Encomenda, patrocínio, contexto político/jurisdição na data, circulação e
+recepção precisam de seus próprios fundamentos, sem anacronismos territoriais.
+
+Usar os claims e o ledger existentes (`supported`/`tentative`/`gap`, evidências
+`supports`/`contradicts`/`gaps`), separando registro documental, filologia
+conceitual e hipótese iconológica. Um catálogo prova inicialmente a atribuição
+que registra. `place_hint`, `country`, tags e IDs legados permanecem pistas até
+esclarecimento do vínculo; não os distribuir por campos nem reclassificar
+objetos automaticamente. Lacuna impede afirmar o vínculo como fato, sem
+impedir permanência no catálogo, inferências independentes ou hipótese qualificada.
+Justificar a relação com Brasil e cronologia de cada caso usado na demonstração
+1822–1922; catálogo transnacional e comparanda continuam distintos. Registrar a
+revisão do legado por ID, valor anterior, fundamento, lacuna e proposta/decisão.
+
 **Countries** (variável analítica, **NÃO gate de inclusão** desde 2026-06-22; lista-núcleo não-exaustiva): FR (Marianne, La République, La Justice, La Liberté) · UK (Britannia, Justice, Hibernia, Scotia) · DE (Germania, Justitia, Minerva) · US (Columbia, Lady Justice, Liberty, America) · BE (La Belgique) · BR (A República, A Justiça) · + qualquer país que satisfaça os 4 critérios (AT, NL, DK, ES já no corpus)
 
 **Supports:** moeda · selo · monumento/escultura · arquitetura forense · estampa/gravura · frontispício · papel-moeda · cartaz

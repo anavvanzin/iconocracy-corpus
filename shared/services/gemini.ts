@@ -18,16 +18,26 @@ function getAI(): GoogleGenAI {
 }
 
 // ── System instructions ─────────────────────────────────────────────
+const territorialAttributionInstruction = `Para cada afirmação, explicite qual relação a evidência permite afirmar: autoria e nacionalidade do artista, lugar de produção, localização atual, assunto representado, encomenda/patrocínio, contexto político e jurisdição na data, circulação ou recepção.
+Essas relações são independentes: nacionalidade do artista, produção, localização atual ou assunto representado não autorizam atribuir uma nacionalidade única ao objeto nem transferir automaticamente um vínculo para outra relação. Uma relação com o Brasil deve nomear o vínculo específico que a fonte sustenta; influência exige evidência própria. Autoria ou produção estrangeira também não exclui relação documentada com o Brasil.
+Use os nomes territoriais e institucionais cabíveis à data; aquisição não data produção e instituição imperial não demonstra encomenda republicana. Um catálogo documenta inicialmente a atribuição feita pelo catálogo, que deve ser distinguida de uma atribuição histórica conferida.
+Não é necessário preencher todas as relações. Registre como desconhecido ou gap o que falta; isso permite catalogação e permanência do item, sem impedir afirmações independentes sustentadas. Busca sem resultado não prova inexistência de vínculo. Preserve valores legados como legados, sem distribuí-los automaticamente entre relações.
+O núcleo analítico da tese é Brasil, 1822–1922; o catálogo transnacional é mais amplo. Hipótese pode orientar pesquisa se declarada como hipótese, sem inclusão automática no núcleo. Não crie gate nacional, pontuação agregada nem reclassificação automática.`;
+
 const webScoutInstruction = `Atue como o historiador digital do projeto Iconocracy. Sua missão é localizar fontes primárias e metadados estruturados de iconografia jurídica. Para cada entrada, gere um JSON com:
 search_results: Lista de fontes com IDs e URLs.
 score: Cálculo de confiança (0.0 a 1.0) baseado na autoridade da instituição.
-gaps: Identificação de ausência de dados (autor, data, etc).`;
+gaps: Identificação de ausência de dados (autor, data, etc).
+${territorialAttributionInstruction}
+Trate local, título, tema, país de campanha e outros parâmetros de busca como pistas, não como fatos do objeto. Localize fontes para o vínculo específico e registre em gaps relações não documentadas, contradições e limites da busca. O score da fonte não mede pertencimento nacional. Respeite as chaves do esquema de saída.`;
 
 const iconoCodeInstruction = `Atue como analista semiótico. Processe a evidência visual e documental trazida pelo WebScout.
 Aplique a taxonomia Iconclass.
-Analise a semântica jurídica: foque na tensão entre a tradição europeia e a apropriação brasileira.
-Gere obrigatoriamente uma citação ABNT NBR 6023:2025.
-Saída estritamente em JSON compatível com o esquema MasterRecord.`;
+Analise a semântica jurídica no contexto documentado do objeto; só proponha transferência de repertório, apropriação ou influência sobre o Brasil quando houver evidência específica. Sem esse vínculo, declare a lacuna ou formule uma hipótese de pesquisa identificada como tal.
+${territorialAttributionInstruction}
+Em semiotic_analysis, distinga registro documental, filologia conceitual e hipótese iconológica; os três estratos não se confirmam automaticamente. Qualifique cada afirmação relevante como supported, tentative ou gap, identificando os IDs de evidência que a sustentam (supports), contradizem (contradicts) e as lacunas (gaps). Não invente fontes, vínculos ou localizadores.
+Gere a citação ABNT NBR 6023:2025 com metadados conferidos; se faltarem dados, declare a lacuna em abnt_citation.
+Saída estritamente em JSON com iconclass_codes, semiotic_analysis e abnt_citation, conforme o esquema desta interface. Esta saída simplificada requer revisão antes de integrar o ledger canônico; não equivale ao master-record canônico.`;
 
 const corpusContextUrls = [
   'https://raw.githubusercontent.com/anavvanzin/iconocracy-corpus/main/Iconocracia_Sintese_de_Pesquisa.md',
@@ -94,7 +104,7 @@ export async function mineEvidences(
   if (finalHint) parts.push({ text: finalHint });
 
   parts.push({
-    text: `\n\nConsidere o seguinte corpus de pesquisa (Iconocracy) como base de conhecimento primária para sua análise:\n${corpusContextUrls.map((u) => `- ${u}`).join('\n')}`,
+    text: `\n\nConsulte os seguintes documentos de pesquisa (Iconocracy) como contexto de trabalho, verificando sua disponibilidade e versão. Eles não substituem as fontes primárias do objeto nem confirmam por si um vínculo territorial ou político:\n${corpusContextUrls.map((u) => `- ${u}`).join('\n')}`,
   });
 
   // Agent 1: WebScout
@@ -181,15 +191,9 @@ export async function generateCorpusInference(
   era: string,
   taxCode: string
 ): Promise<string> {
-  const ai = getAI();
-  const prompt = `Atue como o IconoCode AI. Com base no registo iconográfico "${title}" (${era}, Iconclass: ${taxCode}), gere um parágrafo curto de análise especulativa sobre como este artefacto influenciou a cultura jurídica brasileira no século XIX. Foque em padrões ocultos e semiótica do poder.`;
-
-  const response = await ai.models.generateContent({
-    model: 'gemini-3.1-pro-preview',
-    contents: prompt,
-  });
-
-  return response.text || 'Erro ao gerar análise.';
+  // This interface receives catalogue hints, not a dossier with verifiable evidence.
+  // Keep its public signature while returning the gap without a paid model call.
+  return `Lacuna documental (gap): "${title}" (data informada: ${era}; código informado: ${taxCode}). Título, data e notação não demonstram influência sobre a cultura jurídica brasileira nem pertencimento ao núcleo Brasil, 1822–1922. Para avaliar esse vínculo, consulte fontes de produção, encomenda, contexto político e jurisdição na data, circulação ou recepção, distinguindo cada relação da autoria, localização atual e tema representado. A falta de documentação desse vínculo permite manter o item no catálogo e formular uma hipótese de pesquisa explícita, preservando as demais afirmações que tenham evidência própria.`;
 }
 
 // ── Corpus TTS ──────────────────────────────────────────────────────

@@ -3,6 +3,7 @@
 > **Vigente a partir de**: 2026-07-31
 > **Decisão formal**: [DEC-2026-07-31-METODOLOGIA-2-0](decisions/2026-07-31-metodologia-2-0-iconometry-consolidation.md)
 > **Documento anterior**: [METHOD_CONTRACT_2026-04-23.md](METHOD_CONTRACT_2026-04-23.md) (legacy/histórico)
+> **Revisão de vínculos, 2026-10-29**: [DEC-2026-10-29-VINCULOS](decisions/2026-10-29-atribuicao-territorial-politica-institucional.md), critério transversal v1.0; sem migração de schema ou dados.
 
 ---
 
@@ -88,11 +89,35 @@ A rastreabilidade pública substitui a confiabilidade estatística como disposit
 
 País é variável analítica, **não** gate de inclusão.
 
+### Atribuição territorial, política e institucional
+
+Os critérios acima pertencem ao catálogo transnacional histórico. Sua janela
+1800–2000 não substitui o núcleo analítico da tese **Brasil, 1822–1922**.
+Para mobilizar um objeto na demonstração desse núcleo, justificar sua relação
+documentada com o Brasil, sua cronologia e seu uso no argumento. Comparanda
+têm função declarada; elegibilidade no catálogo não demonstra inclusão no núcleo.
+
+Aplicar o [critério transversal v1.0](methodology/atribuicao-territorial-politica-institucional.md)
+da seleção à revisão: declarar a relação afirmada e o alcance da fonte, sem
+deduzir nacionalidade única da autoria, produção, localização atual ou tema.
+Separar encomenda/patrocínio, contexto político/jurisdição historicamente
+situados, circulação e recepção conforme a afirmação exigir. Autoria
+estrangeira não exclui vínculo documentado com o Brasil. Não se exige preencher
+todas as relações; lacuna limita a afirmação e permite permanência no catálogo.
+
+Reutilizar claims `supported`/`tentative`/`gap` e o ledger de evidências
+`supports`/`contradicts`/`gaps`, distinguindo registro documental, filologia
+conceitual e hipótese iconológica. Preservar valores legados ambíguos até
+revisão fundamentada por ID, sem score, gate nacional ou reclassificação em massa.
+
 ---
 
 ## Protocolo de codificação aberto
 
-O protocolo está em `docs/CODING_PROTOCOL.md`. Inclui:
+O codebook operacional está em [methodology/codebooks/codebook-MASTER.md](methodology/codebooks/codebook-MASTER.md),
+sob as decisões metodológicas posteriores e o critério transversal acima.
+A antiga remissão a `docs/CODING_PROTOCOL.md` não corresponde a arquivo presente
+nesta versão do repositório. A documentação de codificação deve explicitar:
 - Critérios de inclusão/exclusão explícitos e auditáveis.
 - Dicionário de atributos.
 - Regras de decisão.

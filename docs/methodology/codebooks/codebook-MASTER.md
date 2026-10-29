@@ -2,6 +2,8 @@
 codebook_id: lpai-master
 codebook_version: 2.2.1
 data_versao: 2026-07-28
+revisao_editorial: "2026-10-29 — CRITERIO-VINCULOS v1.0; sem migração de schema/dados"
+decisao_vinculos: docs/decisions/2026-10-29-atribuicao-territorial-politica-institucional.md
 status: pre_freeze
 freeze_state: pre_freeze
 canonical_schema: tools/schemas/master-record.schema.json
@@ -24,6 +26,11 @@ licenca: CC-BY-4.0
 
 Este documento consolida o codebook operacional do LPAI usado no corpus ICONOCRACY. A fonte técnica de validação continua sendo `tools/schemas/master-record.schema.json`, que valida `data/processed/records.jsonl`. Este arquivo é a fonte editorial e metodológica única: explica o que os campos significam, quais decisões governam a codificação e qual prompt deve ser entregue a codificadores humanos ou LLMs.
 
+Revisão editorial de 29/10/2026: incorpora o [critério transversal de vínculos v1.0](../atribuicao-territorial-politica-institucional.md)
+nas §§2, 5, 8, 12 e 16. Preserva o identificador histórico do instrumento e os
+dados existentes. Decisões posteriores prevalecem sobre referências legadas a
+score, confiabilidade e freeze, conforme §13.
+
 ## 1. Declaração de capta
 
 O LPAI não mede imagens como se elas oferecessem dados neutros. Cada registro é capta: uma tomada situada, construída por uma pessoa, por um instrumento, por uma hipótese de tese e por uma cadeia documental. O score é útil como instrumento de atenção e auditoria, mas não tem autoridade epistêmica isolada. Nenhum resultado ordinal deve circular sem o registro de evidência, autoria, data de codificação e nota metodológica quando houver ambiguidade.
@@ -42,6 +49,7 @@ Esta declaração substitui variações anteriores. O objetivo não é apagar a 
 4. O corpus canônico deve continuar validando contra `tools/schemas/master-record.schema.json`. Campos novos não podem invalidar os registros válidos sem uma migração explícita.
 5. Subalternidade é sinal de cautela, não categoria automática. Quando categorias euro-imperiais forem aplicadas a repertórios indígenas, negros, populares ou híbridos, a codificação deve registrar a cautela interpretativa.
 6. O codebook deve favorecer análise iconológica e tese, não acumular blocos terminológicos. Listas de países, repertórios ou taxonomias auxiliares entram apenas se sustentarem uma decisão de codificação.
+7. Cada associação territorial, política ou institucional usada deve explicitar relação e alcance da fonte. Autoria, produção, guarda atual, tema, encomenda, jurisdição, circulação e recepção não se substituem. Verificar o que a afirmação requer, sem exigir preenchimento de todas as relações. País não é gate do catálogo; autoria estrangeira não exclui relação documentada com Brasil.
 
 ## 3. Contrato técnico atual
 
@@ -80,6 +88,10 @@ Esses campos são expansão de auditabilidade. Eles não substituem os campos le
 
 O campo `familia_alegorica` permanece enxuto: `Virtudes`, `Continentes`, `Oceanos/Rios`, `Nacional`, `Outra`. A versão master evita blocos longos de países e terminologias paralelas. A decisão de família deve ser guiada pela função da figura no artefato, não por nacionalidade isolada.
 
+`Nacional` descreve uma classificação da figura representada, quando sustentada;
+não atribui nacionalidade à obra, ao artista, à produção ou à recepção.
+`subtipo: Brasil`, por exemplo, não demonstra encomenda ou circulação brasileira.
+
 `subtipo` permanece string livre no schema canônico para preservar registros válidos e evitar falsas rejeições. O codebook recomenda, porém, vocabulário controlado quando possível: `Iustitia`, `Prudencia`, `Fortaleza`, `Temperanca`, `Fe`, `Esperanca`, `Caridade`, `Veritas`, `Europa`, `America`, `Africa`, `Asia`, `Oceano`, `Rio`, `Republica`, `Liberdade`, `Patria`, `Brasil`, ou outro subtipo justificado em `notes`.
 
 ## 6. Atributos iconográficos
@@ -105,6 +117,13 @@ A decomposição é opcional porque ela aumenta custo de codificação. Use-a qu
 `funcao_juridica` indica o tipo de dispositivo: tribunal de consciência, frontispício normativo, moeda/cédula, selo, brasão, arquitetura forense, monumento público, paratexto normativo ou outro. `vetor_colonial` indica a rota interpretativa principal: europeu direto, luso-brasileiro, republicano brasileiro ou não aplicável.
 
 `finalidade_atribuida` é opcional e deve ser usada com parcimônia: `legitimacao_juridica`, `pedagogia_civica`, `dissuasao`, `comemoracao`, `branding_estatal` ou `outro`. `power_at_stake` responde, em linguagem curta, quem ganha autoridade, visibilidade ou naturalização com a imagem, e quem fica fora dela.
+
+Encomenda, autoridade emissora, adoção institucional e recepção precisam de
+fundamentos próprios. Semelhança visual ou nacionalidade do artista não provam
+`vetor_colonial`, apropriação ou influência. Situar instituição/jurisdição na
+data, separando produção, aquisição e reuso. Para o núcleo Brasil 1822–1922,
+registrar a justificativa relacional e cronológica do caso, sem alterar o
+estatuto catalográfico automaticamente.
 
 ## 9. Genealogia e repertórios
 
@@ -141,12 +160,24 @@ O schema canônico já aceita `confidence_score` e `adjudication_status`. A expa
 
 `subaltern_caution` deve ser acionado quando a escala ou o repertório foram produzidos para figuras canônicas euro-imperiais e o item analisado desloca esse cânone. Cautela não significa exclusão; significa que a categoria é observada como problema.
 
+Nos vínculos territoriais, usar `iconocode.interpretation` (`attribution` ou
+`legal_context`) com `supported`/`tentative`/`gap` e a correspondente entrada
+em `iconocode.validation.claim_ledger`, com evidências `supports`,
+`contradicts` e `gaps`. Uma fonte de catálogo sustenta inicialmente sua própria
+atribuição. Separar registro documental, filologia conceitual e hipótese
+iconológica; confiança não supre a evidência. Lacunas não excluem o item nem
+anulam afirmações independentes. Preservar `place_hint`/`country`/`pais` legados
+e registrar por ID a ambiguidade e a proposta de revisão; não distribuir o
+mesmo valor entre relações diferentes.
+
 ## 13. Naming, freeze e governança
 
-Arquivos pré-freeze não devem usar o sufixo `final`. O estado de freeze deve ser declarado por versão, hash e changelog. A sequência recomendada permanece:
+Para o trabalho vigente, prevalece a [DEC-2026-07-29-APARATO-MINIMO](../../decisions/2026-07-29-aparato-minimo-suficiente.md).
+Referências a freeze e confiabilidade acima descrevem o legado; não exigem
+congelamento do corpus ou confiabilidade métrica como prova. A sequência é:
 
 ```text
-teoria → codebook → amostragem → piloto → confiabilidade → freeze → análise
+teoria → critério de inclusão → catálogo documentado → leitura densa de casos exemplares → montagem → análise
 ```
 
 Qualquer mudança de campo, enum, escala ou indicador deve registrar no changelog: evidência empírica, problema teórico e risco de reatividade.
@@ -210,6 +241,9 @@ Você é um codificador LPAI v2.2.1 para o corpus ICONOCRACY. Sua tarefa é prod
 10. Declare finalidade_atribuida e power_at_stake apenas quando o contexto institucional permitir inferência responsável.
 11. Registre coded_by, coded_at, codebook_version, capta_declaration e notes.
 12. Nunca trate score como prova isolada. Todo output deve preservar a condição de capta e a incerteza documentada.
+13. Para cada associação territorial, política ou institucional, declare qual relação e qual evidência a sustenta, sem inferir nacionalidade única da autoria, produção, guarda ou tema. Encomenda, jurisdição na data, circulação e recepção são relações próprias. Verifique apenas as dimensões pertinentes à afirmação; autoria estrangeira não exclui relação brasileira documentada.
+14. Use os claims e ledger existentes para supported/tentative/gap e supports/contradicts/gaps, separando registro documental, filologia conceitual e hipótese iconológica. Fonte de catálogo prova inicialmente uma atribuição do catálogo; não promova hipótese ou busca sem resultado a fato histórico. Lacuna permite permanência no catálogo e outras afirmações sustentadas.
+15. Preserve valores legados e IDs; sinalize ambiguidades com fundamento, lacuna e proposta de revisão. Justifique a relação com Brasil e a cronologia para cada caso usado na demonstração 1822–1922, distinta do catálogo transnacional. Não crie score, gate nacional ou reclassificação automática.
 ```
 
 ## 17. Referências mínimas
@@ -218,6 +252,7 @@ As referências completas permanecem no aparato bibliográfico da tese. Este mas
 
 ## 18. Changelog resumido
 
+- 2026-10-29: revisão editorial; CRITERIO-VINCULOS v1.0 nas §§2, 5, 8, 12 e 16 e remissão à sequência vigente na §13. Sem novos campos obrigatórios, alteração de IDs, migração ou adjudicação dos registros.
 - v2.0.0: codebook independente piloto, com expansão de famílias e campos iconográficos.
 - v2.1.0: schema experimental/orphan com campos avançados; preservado como contexto, mas não governa `records.jsonl`.
 - v2.2.0: consolidação master; preserva o schema canônico validado, alinha indicadores ao documento-pai 0–3 e torna a expansão opcional.
