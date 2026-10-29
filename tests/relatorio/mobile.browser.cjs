@@ -47,7 +47,7 @@ test('complete report fits viewport before and after visiting every section', as
       assert.match(await page.title(), /gramática alegórica/);
       assert.ok(await page.locator('main h2').first().innerText());
       await pageFits(page, `initial ${width}`);
-      assert.match(await page.locator('.cover-anchor').innerText(), /histórico.*28\/09\/2026/);
+      assert.match(await page.locator('.cover-anchor').innerText(), /histórico.*28\/09\/2026/i);
       assert.match(await page.locator('#stat-row .stat').first().innerText(), /336.*28\/09\/2026/s);
       const snapshot = page.locator('#corpus-snapshot');
       await snapshot.scrollIntoViewIfNeeded();
