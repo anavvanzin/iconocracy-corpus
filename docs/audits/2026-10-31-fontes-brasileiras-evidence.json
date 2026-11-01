@@ -1,0 +1,36 @@
+[
+  {
+    "url": "https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=702390&PagFis=240",
+    "retrieved_at": "2026-11-01T00:19:08.571227+00:00",
+    "http_status": 200,
+    "response_sha256": "b0a06c32561bdf859ce6ff9cb02db53487518f15e4d092ff58006e69501fd092",
+    "observed_fields": {
+      "folder": "Ano 1827\\Edição 00044",
+      "page_in_folder": "5",
+      "pagfis": "240"
+    }
+  },
+  {
+    "url": "https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=116300&PagFis=34623",
+    "retrieved_at": "2026-11-01T00:19:08.571227+00:00",
+    "http_status": 200,
+    "response_sha256": "9a27df7a8ddae7871f0f29953a42688e912617b8bf8a6de331f1c4c4c5a5e810",
+    "observed_fields": {
+      "folder": "Ano 1917\\Edição 0771",
+      "page_in_folder": "25",
+      "pagfis": "34623"
+    }
+  },
+  {
+    "url": "https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica-11/",
+    "retrieved_at": "2026-11-01T00:19:08.571227+00:00",
+    "http_status": 200,
+    "response_sha256": "dfbd388c2b0d3ca7b650a5bf6ad6f156a22fe81e1651a3dd4bde99c5c5e1c9e7",
+    "observed_fields": {
+      "inventory": "123275",
+      "title": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
+      "date": "18--",
+      "acquisition": "Processo 16/1941"
+    }
+  }
+]

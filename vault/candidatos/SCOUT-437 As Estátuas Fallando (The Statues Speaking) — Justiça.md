@@ -44,3 +44,11 @@ Nota gerada por `vault_sync.py push` em 2026-04-28.
 Registro canônico: `data/processed/records.jsonl` item_id `00a6bd05-0b74-54b4-9b93-604a012aaab6`.
 
 > **#verificar**: Esta nota requer validação visual e confirmação de escopo.
+
+
+## Reconciliação documental — 2026-11-01
+
+> [!info] Atualização com histórico preservado
+> Identidade atual em `records.jsonl`: `00a6bd05-0b74-54b4-9b93-604a012aaab6`. Os dados acima registram o estado anterior.
+
+Proposta do relatório rejeitada: bib=702390, PagFis=240 retorna Gazeta do Brasil, Ano 1827, Edição 00044, página 5 de 6, não edição 60. Identificação do texto As Estátuas Fallando e sua paginação permanecem pendentes. PDF .gov.br proposto retornou 404. Não substituir o localizador histórico por esse fotograma.
