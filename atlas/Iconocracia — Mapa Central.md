@@ -10,6 +10,7 @@ tags:
   - projeto/iconocracia
   - meta/moc
 related:
+  - "[[Arquitetura Atlas e Tese — MOC]]"
   - "[[Conceitos — MOC]]"
   - "[[Pipeline Dual-Agente — MOC]]"
   - "[[Hierarquia de Dados — MOC]]"
