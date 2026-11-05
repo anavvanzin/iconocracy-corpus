@@ -1,0 +1,113 @@
+{
+  "audit_date": "2026-10-24",
+  "prepared_at": "2026-10-24T00:04:39Z",
+  "status": "review",
+  "canonical_base_commit": "4f5ff3f968743b6ecd7e112bbdcd9f59a643c2fb",
+  "public_repository": "anavvanzin/iconocracia",
+  "public_reference_commit": "29438d693a032e5321b768c4364bbf15b95b0f26",
+  "canonical_record_count": 337,
+  "public_record_count": 337,
+  "public_records_with_image": 332,
+  "verified_replacements": 0,
+  "scope": "Auditoria de proveniência e correções propostas; não é recibo, autorização editorial ou publicação. Nenhum binário privado, identificador de Drive ou credencial incluído.",
+  "items": [
+    {
+      "public_id": "BR-017",
+      "canonical_id": "c02356de-a24e-52bc-9ee8-15d6cec55a4b",
+      "vault_id": "SCOUT-205",
+      "status": "source_unavailable",
+      "gap": "DocVirt ACDigital/pagfis=11894 retornou HTTP 404 por HTTP e HTTPS nesta sessão. Identidade do frontispício e reprodução não confirmadas. BR-017 no vault identifica outra obra (moeda); não usar o ID público isoladamente para localizar binários.",
+      "next_step": "Localizar cota/registro primário do frontispício no Arquivo Nacional; não usar fac-símile textual do decreto como prova da alegoria.",
+      "title": "Frontispício do Decreto n.º 1 — Governo Provisório (1889)",
+      "original_input_url": "http://docvirt.com/docreader/DocReader.aspx?bib=ACDigital&pagfis=11894",
+      "original_record_sha256": "158bdfe54ae1535d7926c0547ac2f6495a1eccc4bef335a9a57796017e9b30f1",
+      "accepted_replacement": null,
+      "image_ready_for_publication": false
+    },
+    {
+      "public_id": "BR-018",
+      "canonical_id": "7c8866f2-49eb-591b-83ed-bee28abed5e7",
+      "vault_id": "SCOUT-416",
+      "status": "source_contradicted",
+      "gap": "A página física 4346 da coleção 116300 na BN resolve para Ano 1905, Edição 0130, página 19, não a edição 105 de 1904 citada na nota. Não confirma A República em Leilão. O mesmo endereço também foi atribuído a SCOUT-415 (outro item). BR-018 no vault identifica um selo, não esta charge.",
+      "next_step": "Inspecionar edição 105, de 17/09/1904, integralmente e identificar página, legenda e autoria; PDF da Casa de Rui Barbosa localizado, download indisponível nesta sessão.",
+      "title": "A República em Leilão",
+      "original_input_url": "http://memoria.bn.br/DocReader/116300/4346",
+      "original_record_sha256": "f9794d157392f4d448e92df936a43704bfc7c7a0ea3865141c4feb3fb13e753a",
+      "accepted_replacement": null,
+      "image_ready_for_publication": false
+    },
+    {
+      "public_id": "FR-048",
+      "canonical_id": "af855a2f-e19d-5a10-9ed6-915aa67c1ad4",
+      "vault_id": "FR-048",
+      "status": "identity_unverified",
+      "gap": "Não há registro primário ou inventário que confirme La Justice, Sèvres, 1889. URL canônica é placeholder. Busca anterior de 19/06/2026 já não confirmava a data. A assiette C739 do Carnavalet é de cerca de 1793, não valida esta identificação. Possível duplicata de FR-093, sem fusão.",
+      "next_step": "Identificar inventário, autor, forma e data na Manufacture de Sèvres; só então decidir se FR-048 e FR-093 representam o mesmo objeto.",
+      "title": "La Justice — porcelaine de Sèvres",
+      "original_input_url": "https://iconocracy.corpus/placeholder/FR-048",
+      "original_record_sha256": "aff97808ce309e16e32ca6f75750288339dd9156697eaf5d68b82eccf5c977d0",
+      "accepted_replacement": null,
+      "image_ready_for_publication": false
+    },
+    {
+      "public_id": "FR-093",
+      "canonical_id": "a155af76-1c78-502b-b024-b1f0b2ae3f03",
+      "vault_id": "FR-048",
+      "status": "identity_unverified",
+      "gap": "Registro importado da mesma nota FR-048 de Sèvres, sem URL primária nem inventário; endereço /vault é placeholder. Possível duplicata de FR-048, não adjudicada. A assiette C739 de cerca de 1793 não confirma a peça alegada de 1889.",
+      "next_step": "Adjudicar a relação com FR-048 a partir de inventário e proveniência; preservar ambos os registros enquanto não houver decisão.",
+      "title": "La Justice — porcelaine de Sèvres (1889)",
+      "original_input_url": "https://iconocracy.corpus/vault/a155af76-1c78-502b-b024-b1f0b2ae3f03",
+      "original_record_sha256": "ee9b4248b38c5ea7a82836d93b79c300a362d378fcddab2ddc189357e811c931",
+      "accepted_replacement": null,
+      "image_ready_for_publication": false
+    },
+    {
+      "public_id": "6932b9c2-9bb3-5b21-9040-36f6323401e3",
+      "canonical_id": "6932b9c2-9bb3-5b21-9040-36f6323401e3",
+      "vault_id": "FR-101",
+      "status": "source_contradicted",
+      "gap": "Getty 1083427848 identifica Iowa State v Texas Tech, fotografia de John Weast em 16/01/2019. A reprodução foi inspecionada e mostra basquete; o JPEG homônimo no armazenamento privado possui o mesmo SHA-256. Não é imagem de Déborah de Robertis. Título, local e data da performance permanecem sem confirmação.",
+      "next_step": "Identificar qual performance foi pretendida na nota FR-101; não substituir automaticamente por Marianne (Champs-Élysées, 15/12/2018) nem pela ação diante da Joconde de 2017.",
+      "medium_correction": {
+        "before": "moeda",
+        "after": "performance",
+        "basis": "suporte: performance na nota de origem FR-101; correção de categoria documental, sem confirmar evento ou direitos"
+      },
+      "title": "Performance 'La Joconde de l'Histoire' (Déborah de Robertis, Musée d'Orsay / Musée de l'Histoire de l'Immigration, 2018)",
+      "original_input_url": "https://www.gettyimages.com/detail/news-photo/french-luxembourgish-artist-deborah-de-robertis-performs-in-news-photo/1083427848",
+      "original_record_sha256": "449ca7b2032887d27bebb6a4b02b8f2031518f18ef64534fa36549250847591a",
+      "accepted_replacement": null,
+      "image_ready_for_publication": false
+    }
+  ],
+  "rejected_binaries": [
+    {
+      "sha256": "0450a3ca2ac200aa8eb5161791e275e2dc6ca74b237492067ebb0f141a1ac712",
+      "mime_type": "image/png",
+      "size_bytes": 758,
+      "width": 256,
+      "height": 256,
+      "reason": "RGB uniforme (128,128,128); cinco arquivos homônimos idênticos, sem reprodução.",
+      "applies_to_public_ids": [
+        "BR-017",
+        "BR-018",
+        "FR-048",
+        "FR-093",
+        "6932b9c2-9bb3-5b21-9040-36f6323401e3"
+      ]
+    },
+    {
+      "sha256": "5145a14e6199d9aba0178c40a9959abab2ba44fb48237e8978dec9f43b08bd06",
+      "mime_type": "image/jpeg",
+      "size_bytes": 58678,
+      "width": 594,
+      "height": 526,
+      "reason": "Getty 1083427848: basquete, não a performance. Hash igual no armazenamento privado e no preview obtido da página Getty.",
+      "applies_to_public_ids": [
+        "6932b9c2-9bb3-5b21-9040-36f6323401e3"
+      ]
+    }
+  ]
+}
