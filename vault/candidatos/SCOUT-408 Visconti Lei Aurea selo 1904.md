@@ -85,3 +85,13 @@ VISCONTI, Eliseu. *A Lei Áurea*: projeto para selo integrante da coleção venc
 O conjunto completo de Visconti para o Concurso dos Correios de 1904 é um programa iconográfico coerente onde TODAS as virtudes e conquistas da República são femininas. É a Feminilidade de Estado em sua forma mais explícita e serializada.
 
 A Lei Áurea como alegoria feminina levanta a questão do Contrato Racial Visual: o corpo que personifica a abolição é branco? Se sim, a branquitude opera como dispositivo de apagamento na representação da própria lei que libertou pessoas negras. Necessita análise visual.
+
+
+## Reconciliação documental — 2026-11-01
+
+> [!info] Atualização com histórico preservado
+> Identidade atual em `records.jsonl`: `36e20300-49aa-5a7f-b626-70c8d058d5f8`. Os dados acima registram o estado anterior.
+
+Catálogo A813: c. 1903, guache e nanquim sobre papel; original de localização desconhecida. Os originais pertenciam à Diretoria dos Correios ao menos até 1926. A reprodução deriva de miniatura preservada pelo Projeto Eliseu Visconti. Projeto premiado em 1904, não executado como selo postal. Não inferir desaparecimento em 1926.
+
+Localizador verificado: [fonte institucional](https://eliseuvisconti.com.br/obra/a813/).

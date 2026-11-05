@@ -87,3 +87,13 @@ O MUNDO às avessas. O Malho, Rio de Janeiro, n. 771, p. 25, 23 jun. 1917. Caric
 ## Observações do Scout
 
 Item essencial para o estudo das resistências visuais à democratização do voto no Brasil. A sátira opera como um dispositivo de manutenção do Contrato Sexual Visual, reforçando a separação entre as esferas pública (masculina) e privada (feminina).
+
+
+## Reconciliação documental — 2026-11-01
+
+> [!info] Atualização com histórico preservado
+> Identidade atual em `records.jsonl`: `4c2e84a1-6683-5e56-82a1-dc94c8b96afe`. Os dados acima registram o estado anterior.
+
+DocReader consultado diretamente: PastaTxt=Ano 1917\Edição 0771; PagAtualTxt=25; hPagFis=34623. UFJF confirma a charge e a data 23/06/1917. Página 25 é a posição no visualizador; leitura integral do fac-símile e autoria gráfica ainda pendentes. PDF proposto no domínio .gov.br retornou 404.
+
+Localizador verificado: [fonte institucional](https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=116300&PagFis=34623).

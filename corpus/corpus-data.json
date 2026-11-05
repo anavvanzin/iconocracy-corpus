@@ -1279,7 +1279,7 @@
   {
     "id": "BR-019",
     "country": "Brazil",
-    "url": "http://memoria.bn.br/docreader/116300/4346",
+    "url": "https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=116300&PagFis=34623",
     "title": "O mundo às avessas: voto feminino",
     "description": "O mundo às avessas: voto feminino",
     "motif": [
@@ -1289,7 +1289,7 @@
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1917",
     "regime": "contra-alegoria",
-    "citation_abnt": "O mundo às avessas: voto feminino",
+    "citation_abnt": "O MUNDO às avessas: voto feminino. O Malho, Rio de Janeiro, n. 771, 23 jun. 1917. Hemeroteca Digital Brasileira, posição 25, PagFis 34623. Disponível em: https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=116300&PagFis=34623. Acesso em: 31 out. 2026.",
     "audit_flags": [
       "vault-import"
     ],
@@ -1374,7 +1374,7 @@
   {
     "id": "BR-024",
     "country": "Brazil",
-    "url": "https://commons.wikimedia.org/wiki/File:EliseuVisconti-A813-A_Lei_%C3%81urea_%E2%80%93_Projeto_para_selo_integrante_da_cole%C3%A7%C3%A3o_vencedora_do_Concurso_dos_Correios_de_1904.jpg",
+    "url": "https://eliseuvisconti.com.br/obra/a813/",
     "title": "Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)",
     "description": "Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)",
     "motif": [
@@ -1384,7 +1384,7 @@
     "coded_at": "2026-05-14T18:02:38Z",
     "date": "1903",
     "regime": "normativo",
-    "citation_abnt": "Eliseu Visconti — A Lei Áurea (projeto para selo dos Correios, 1904)",
+    "citation_abnt": "VISCONTI, Eliseu. A Lei Áurea: projeto para selo integrante da coleção vencedora do Concurso dos Correios de 1904. c. 1903. Guache e nanquim sobre papel. Catálogo A813. Projeto Eliseu Visconti. Disponível em: https://eliseuvisconti.com.br/obra/a813/. Acesso em: 31 out. 2026.",
     "audit_flags": [
       "vault-import"
     ],
@@ -1697,7 +1697,7 @@
   {
     "id": "BR-041",
     "country": "Brazil",
-    "url": "https://mhn.museus.gov.br/estudo-de-decio-villares-volta-ao-circuito-expositivo-do-mhn/",
+    "url": "https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica-11/",
     "title": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
     "description": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
     "motif": [
@@ -1707,7 +1707,7 @@
     "coded_at": "2026-07-03T23:14:12Z",
     "date": "c. 1888 (final do séc. XIX)",
     "regime": "fundacional",
-    "citation_abnt": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
+    "citation_abnt": "VILLARES, Décio Rodrigues. Alegoria à Lei de 13 de Maio de 1888 (estudo). [18--]. Óleo sobre tela. Museu Histórico Nacional, registro 123275. Disponível em: https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica-11/. Acesso em: 31 out. 2026.",
     "audit_flags": [
       "vault-import"
     ],
@@ -6818,7 +6818,7 @@
   {
     "id": "dfe19295-505c-5df1-866e-e8bb695dbc5f",
     "country": "Brazil",
-    "url": "https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica/",
+    "url": "https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica-11/",
     "title": "Alegoria à Lei de 13 de Maio de 1888 (estudo)",
     "description": "Estudo preparatório de Décio Villares para uma obra comemorativa da assinatura da Lei Áurea (13 de maio de 1888). A pintura, incorporada ao acervo do MHN em 1941, retrata alegoricamente o momento histórico da abolição da escravatura no Brasil através de figuras femininas simbólicas, numa linguagem própria do positivismo republicano. Após restauração, integra a exposição permanente 'A construção da nação (1822-1889)'.",
     "motif": [
@@ -6832,7 +6832,7 @@
     "coded_by": "",
     "coded_at": "2026-06-05T03:13:46.800136+00:00",
     "date": "1888",
-    "citation_abnt": "VILLARES, Décio Rodrigues. Alegoria à Lei de 13 de Maio de 1888 (estudo). [188-]. Óleo sobre tela. Museu Histórico Nacional, Rio de Janeiro. Disponível em: https://mhn.museus.gov.br/estudo-de-decio-villares-volta-ao-circuito-expositivo-do-mhn/. Acesso em: 19 maio 2026.",
+    "citation_abnt": "VILLARES, Décio Rodrigues. Alegoria à Lei de 13 de Maio de 1888 (estudo). [18--]. Óleo sobre tela. Museu Histórico Nacional, registro 123275. Disponível em: https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica-11/. Acesso em: 31 out. 2026.",
     "audit_flags": [
       "drive-import-2026-06-04"
     ]

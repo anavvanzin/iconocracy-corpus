@@ -43,3 +43,15 @@ Nota gerada por `vault_sync.py push` em 2026-04-28.
 Registro canônico: `data/processed/records.jsonl` item_id `67e8216b-dca2-5687-aa71-3c3161607899`.
 
 > **#verificar**: Esta nota requer validação visual e confirmação de escopo.
+
+
+## Reconciliação documental — 2026-11-01
+
+> [!info] Atualização com histórico preservado
+> Identidade atual em `records.jsonl`: `06ffa064-566d-5250-bb87-cb70c7ca6281`. Os dados acima registram o estado anterior.
+
+Ficha institucional: registro 123275; título Alegoria à Lei de 13 de Maio de 1888 (estudo); autor Décio Rodrigues Vilares; material óleo/tela; data catalogada 18--; aquisição Processo 16/1941. Não confirma ano exato 1888 nem dimensões. Provável duplicata de dfe19295-505c-5df1-866e-e8bb695dbc5f; identidades preservadas.
+
+Localizador verificado: [fonte institucional](https://mhn.acervos.museus.gov.br/acervo-museologico/pintura-alegorica-11/).
+
+O `records_item_id: 67e8216b-dca2-5687-aa71-3c3161607899` no frontmatter não ocorre no ledger atual; não foi reatribuído automaticamente. Há dois registros atuais para cotejo: `06ffa064-566d-5250-bb87-cb70c7ca6281` (BR-041) e `dfe19295-505c-5df1-866e-e8bb695dbc5f`.
