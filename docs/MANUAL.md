@@ -24,7 +24,7 @@
 9. [Convenções e boas práticas](#9-convenções-e-boas-práticas)
 10. [Decisões arquiteturais (ADRs)](#10-decisões-arquiteturais-adrs)
 11. [Resolução de problemas](#11-resolução-de-problemas)
-12. [Prioridade terminológica e estratégia de publicação](#12-prioridade-terminológica-e-estratégia-de-publicação)
+12. [Prioridade terminológica, auditoria e estratégia de publicação](#12-prioridade-terminológica-auditoria-e-estratégia-de-publicação)
 
 ---
 
@@ -33,7 +33,7 @@
 **Iconocracia** é a infraestrutura de pesquisa para a tese de doutorado *"Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"*.
 
 O repositório integra:
-- **Corpus iconográfico** — 337 IDs no export público e 328+ registros validados no ledger operacional (fotografias de out–nov/2026), com crescimento contínuo
+- **Corpus iconográfico** — 337 registros de catálogo na fotografia de nov/2026, com crescimento contínuo (sobre o que conta como observação validada, ver §§4.2, 7 e 12.4)
 - **Codificação quantitativa** — 10 indicadores ordinais de purificação (0–3) por item
 - **Manuscrito da tese** — capítulos em Markdown, compiláveis para DOCX (ABNT) via Pandoc
 - **Vault Obsidian** — fichas catalográficas, notas de pesquisa, diário
@@ -104,7 +104,7 @@ python tools/scripts/vault_sync.py status
 iconocracy-corpus/
 │
 ├── corpus/                         ← CORPUS PUBLICÁVEL
-│   ├── corpus-data.json            ← Export público do corpus (337 IDs na fotografia de nov/2026)
+│   ├── corpus-data.json            ← Export público do corpus (337 registros na fotografia de nov/2026)
 │   ├── DASHBOARD_CORPUS.html       ← Dashboard interativo (abrir no browser)
 │   ├── index.html                  ← Interface de busca simples
 │   └── atlas-iconometrico.html     ← Atlas visual interativo (React app)
@@ -140,7 +140,7 @@ iconocracy-corpus/
 │   ├── interim/                    ← Dados em transformação
 │   ├── processed/                  ← Dados prontos para análise
 │   │   ├── purification.jsonl      ← Codificação de purificação (JSONL)
-│   │   ├── corpus_dataset.csv      ← CSV completo (metadados + purificação)
+│   │   ├── corpus_dataset.csv      ← CSV completo (metadados + purificação) — ver ressalva no §5
 │   │   └── feminist_network_48C51_pt.json
 │   └── docs/                       ← Codebook, descrição do dataset
 │
@@ -216,7 +216,7 @@ Adicione um objeto ao array em `corpus/corpus-data.json` seguindo o formato dos 
 - `EU-001` a `EU-NNN` — Multi-país / Europeana
 - `NL-001` a `NL-NNN` — Países Baixos
 
-**Reconciliação com catálogos institucionais:** quando um registro é confrontado com catálogo oficial (ex.: MHN, Hemeroteca Nacional), o histórico **não é reescrito**: acrescenta-se um adendo à ficha SCOUT correspondente e um relatório datado em `docs/audits/` (ex.: `2026-10-31-reconciliacao-fontes-brasileiras.md`, que atualizou URLs/citações de `BR-019`, `BR-024` e `BR-041` e confirmou o inventário MHN `123275`). Decisões pendentes — como a possível duplicata de Villares ou a equivalência "A República" ↔ `Q117764760` — ficam **registradas, não fundidas**.
+**Reconciliação com catálogos institucionais:** quando um registro é confrontado com catálogo oficial (ex.: MHN, Hemeroteca Nacional), o histórico **não é reescrito**: acrescenta-se um adendo à ficha SCOUT correspondente e um relatório datado em `docs/audits/` (ex.: `2026-10-31-reconciliacao-fontes-brasileiras.md`, que atualizou URLs/citações de `BR-019`, `BR-024` e `BR-041` e confirmou o inventário MHN `123275`). Decisões pendentes — como a possível duplicata de Villares ou a equivalência "A República" ↔ `Q117764760` — ficam **registradas, não fundidas**. Autor e título genéricos não bastam como chave de desduplicação (versões de Villares divergem em suporte, dimensões e custódia).
 
 ### 4.2 Codificar indicadores de purificação
 
@@ -262,7 +262,9 @@ python tools/scripts/code_purification.py --export-csv
 | 9 | `serialidade` | Obra única → reprodução massiva |
 | 10 | `inscricao_estatal` | Obra autônoma → dispositivo estatal |
 
-**Saída:** `data/processed/purification.jsonl` (1 registro por linha, com timestamp e assinatura do codificador; 286 linhas validadas na fotografia de nov/2026)
+**Saída:** `data/processed/purification.jsonl` (1 registro por linha, com timestamp e assinatura do codificador; 286 IDs distintos na fotografia de nov/2026)
+
+> **Atenção (auditoria de 6 nov 2026):** dos 286 vetores do ledger, **77 são all-zero** — 57 importações pendentes do vault, 19 migrações sob revisão de proveniência e apenas 1 atribuído a Ana. **Zero, dado faltante e não-aplicabilidade são coisas distintas**: não descarte zeros humanos por serem zero, nem trate zeros pendentes como polo empírico de purificação mínima (caso decisivo: `FR-094`, marcado "codificação pendente", não pode servir de âncora de valor baixo). O codebook ativo é o MASTER, que rejeita o composto; versões históricas que ainda ensinam a média ficam arquivadas como históricas.
 
 **Dica:** codifique em blocos de 30 minutos (~10 itens por sessão). Tenha o codebook completo (`data/docs/codebook.md`) acessível.
 
@@ -300,7 +302,7 @@ Texto aqui com citações [@mondzain2005, p. 15].
 Referência a item do corpus: ver [[BR-001]].
 ```
 
-**Estrutura vigente do manuscrito (nov/2026):** Introdução + Capítulos 1–9 + Conclusão. Destaques: Cap. 3 (*A Colonialidade do Ver*), com §3.4 "Rupturas e contra-alegorias"; Cap. 9 (*Os 8 Painéis do Atlas Iconocrático*). Os onze espelhos Obsidian (introdução, caps. 1–9, conclusão) refletem os corpos do manuscrito.
+**Estrutura vigente do manuscrito (nov/2026):** Introdução + Capítulos 1–9 + Conclusão. Destaques: Cap. 3 (*A Colonialidade do Ver*), com §3.4 "Rupturas e contra-alegorias"; Cap. 9 (*Os 8 Painéis do Atlas Iconocrático*). Os onze espelhos Obsidian (introdução, caps. 1–9, conclusão) refletem os corpos do manuscrito. **A Conclusão ainda é um esqueleto** (um parágrafo substantivo e três seções vazias na fotografia auditada) e os capítulos estão em revisão substantiva — ver §12.4 antes de tratar qualquer capítulo como finalizado.
 
 ### 4.4 Compilar capítulos para DOCX/PDF
 
@@ -334,6 +336,10 @@ fontes e mecanismo PDF.
 - PDF via **LuaLaTeX + TeX Gyre Termes**; `PDF_ENGINE` e `PDF_FONT` permitem alternativa explícita por ambiente (ex.: XeLaTeX + DejaVu Serif).
 - `tese/tese_completa.pdf` é saída regenerável e **não é versionado** (`.gitignore`); `make pdf` gera em `vault/tese/output/` e copia. `tese/tese_completa.docx` continua versionado, mas **deve ser regenerado antes de distribuir** — a cópia corrente ainda antecede a correção de numeração (pendência conhecida, não regressão).
 - O CI (`.github/workflows/validate.yml`) instala o Pandoc antes dos testes de compilação e ABNT.
+
+**Sobre o skill `compilar-tese` (verificado em 6 nov 2026):** o orquestrador multi-fonte `tools/scripts/compile_thesis.py` descrito no skill **não existe** no commit atual (404 na `main`); a interface tri-fonte (Drive/GitHub/Obsidian) é *pretendida*, não testada. O caminho verificado é o Makefile. Antes de executá-lo, inspecione seus alvos de cópia para `tese/tese_completa.*`, que podem sobrescrever saídas existentes. Regras do skill endurecido: `mtime` sozinho não escolhe a fonte-mestre (a escolha é de Ana); o Word completo de 01/11/2026 está desatualizado e não é fonte-mestre; upload ao Drive somente com autorização explícita para o alvo; fallback para `pdflatex` não é automático nem verificado — registrar a causa da falha e conferir fontes/Unicode.
+
+> **Regeneração do DOCX bloqueada por revisão substantiva:** compilar agora para distribuição propagaria erros já identificados pela auditoria de 6 nov 2026 (§12.4). A sequência correta é: revisar o manuscrito → compilar → regenerar `tese_completa.docx`.
 
 **Requisito:** Pandoc 3.0+ e `pandoc-citeproc` (ou `citeproc` embutido).
 
@@ -400,7 +406,7 @@ data/processed/records.jsonl    ← ledger operacional canônico
 | `data/processed/records.jsonl` | JSONL | Ledger operacional canônico do corpus |
 | `corpus/corpus-data.json` | JSON array | Export público para sites, dashboards e releases |
 | `data/processed/purification.jsonl` | JSONL | Codificação dos 10 indicadores + composto + regime |
-| `data/processed/corpus_dataset.csv` | CSV | Junção para notebooks/SPSS/R |
+| `data/processed/corpus_dataset.csv` | CSV | Junção para notebooks/SPSS/R — **ressalva (auditoria 6 nov 2026):** a fotografia atual (328 linhas, 238 conjuntos de indicadores povoados) retém o composto aposentado e tem campos essenciais vazios; **não é um export analítico confiável** — regenerar e revisar antes de usar |
 
 ### Adicionar novo item ao pipeline
 
@@ -435,6 +441,8 @@ python tools/scripts/<nome>.py [argumentos]
 | `make_index.py` | Índice de busca do Iconclass | — |
 | `make_skos.py` | Vocabulário SKOS/RDF do Iconclass | — |
 | `make_sqlite.py` | Banco SQLite do Iconclass | — |
+
+> `tools/scripts/compile_thesis.py` **não existe** na `main` (verificado em 6 nov 2026): é a interface pretendida do skill `compilar-tese`, não um script disponível. Não o referenciar como comando executável.
 
 **Documentação completa:** `docs/scripts.md`
 
@@ -479,6 +487,8 @@ python tools/scripts/validate_schemas.py examples/batch_001/master_record_*.json
 }
 ```
 
+> **Limite da validação (auditoria 6 nov 2026):** o schema exige dez inteiros — checa **estrutura**, não se cada propriedade foi observada ou era aplicável. Registro válido ≠ observação adjudicada. O campo `purificacao_composto` no exemplo acima é histórico: o índice composto foi **aposentado** (decisões de 28 jul e 24/29 set 2026) e não deve ser recalculado nem substituído por somas, médias ou contagens de atributos usadas para ordenar intensidade.
+
 ---
 
 ## 8. Notebooks de análise
@@ -492,12 +502,14 @@ Em `notebooks/`. Correspondem às seções do Capítulo 6 da tese.
 | `03_regression.ipynb` | 6.3 | Regressão logística ordinal: preditores do endurecimento | Idem + ≥50 itens |
 | `04_correspondence.ipynb` | 6.4 | Análise de correspondência múltipla: circulação transatlântica | Idem + cobertura multi-país |
 
-**Nota sobre o N=145:** o Cap. 6, §6.3 documenta `N=145` como **congelamento analítico histórico**; não é o denominador dos percentuais atuais de §6.1 nem deve ser "corrigido" para os totais correntes do ledger. A distinção entre instantâneos e lotes é decisão metodológica registrada (PR #239).
+**Nota sobre o N=145:** o Cap. 6, §6.3 documenta `N=145` como **congelamento analítico histórico**; não é o denominador dos percentuais atuais de §6.1 nem deve ser "corrigido" para os totais correntes do ledger. A distinção entre instantâneos e lotes é decisão metodológica registrada (PR #239). Toda contagem no manuscrito deve declarar seu snapshot e seu denominador (registros de catálogo, linhas de indicadores, datas ou atributos são denominadores distintos).
+
+**Notas da auditoria de 6 nov 2026:** os notebooks 01–04 preservam execuções; 05–08, não. Resultados estatísticos históricos ficam separados do ledger atual — o export congelado **não deve simplesmente ser reexecutado**. No notebook 02, o teste omnibus usa 138 itens e o resultado salvo de monocromatização é p = 0,0110 — não sustentar que o indicador "falhou em distinguir regimes" sem qualificação. Corrigir no texto metodológico: coeficientes de confiabilidade **não exigem** amostragem probabilística; a concordância pode ser descrita num conjunto intencional, com generalização limitada.
 
 **Para rodar:**
 
 ```bash
-# Gerar CSV atualizado primeiro
+# Gerar CSV atualizado primeiro (ver ressalva do §5 antes de usar o CSV)
 python tools/scripts/code_purification.py --export-csv
 
 # Abrir notebooks
@@ -528,6 +540,7 @@ jupyter notebook notebooks/
 - No vault (Pandoc): `[@autor2020, p. 42]`
 - No manuscrito (ABNT inline): `(AUTOR, 2020, p. 42)`
 - Referências BibTeX: `vault/tese/references.bib`
+- **Citar a edição efetivamente consultada** (ex.: *A formação das almas*, 17ª reimpressão de 2007, não "2005"; *Legal Emblems*: copyright 2014, disponibilização online out/2013). Citação, tradução, paráfrase e extensão autoral têm apresentações distintas; não usar a citação geral de um volume organizado como substituto do autor e página do capítulo.
 
 ### Codificação de purificação
 
@@ -536,6 +549,7 @@ jupyter notebook notebooks/
 - Registrar incertezas no campo `notes`
 - Meta: ≥95% de concordância intra-codificador (retestar 10% após 2 semanas)
 - Reconciliações com catálogos institucionais geram **adendo na ficha SCOUT + relatório em `docs/audits/`** — nunca edição silenciosa do ledger histórico
+- **Não recodificar para recuperar um padrão desejado**; uma descrição de objeto corrigida (ex.: BR-005 = MHN 6411, busto de perfil) precede e pode invalidar a codificação anterior
 
 ---
 
@@ -551,7 +565,7 @@ Documentadas em `docs/adr/`:
 | 004 | Vault como espelho catalográfico | Obsidian substitui Notion no fluxo ativo |
 | 005 | GitHub/Hugging Face como superfícies | GitHub é backbone canônico; HF é release público |
 
-> **Pendentes de ADR (out–nov/2026):** numeração editorial única no manuscrito (sem `--number-sections`); artefatos regeneráveis fora do versionamento com `bib-check` como gate; reconciliação com catálogos institucionais via trilha em `docs/audits/`. Candidatas a ADR-006+.
+> **Pendentes de ADR (out–nov/2026):** numeração editorial única no manuscrito (sem `--number-sections`); artefatos regeneráveis fora do versionamento com `bib-check` como gate; reconciliação com catálogos institucionais via trilha em `docs/audits/`; aposentadoria do índice composto e proibição de substitutos (somas, médias, contagens) para ordenar intensidade. Candidatas a ADR-006+.
 
 ---
 
@@ -597,20 +611,20 @@ python tools/scripts/validate_schemas.py --help
 
 ---
 
-## 12. Prioridade terminológica e estratégia de publicação
+## 12. Prioridade terminológica, auditoria e estratégia de publicação
 
-Seção incorporada em nov/2026 a partir da avaliação bibliográfica sobre a revista *Iconocrazia* (Bari) e da revisão de originalidade da tese (relatórios de avaliação, nov/2026; a arquivar em `tese/pesquisa/`).
+Seção incorporada em nov/2026 a partir de: avaliação bibliográfica sobre a revista *Iconocrazia* (Bari), revisão de originalidade da tese, skill `compilar-tese` endurecido e **auditoria integral da tese de 6 nov 2026** (pinnada ao commit `8cdc287`; relatórios a arquivar em `tese/pesquisa/`).
 
 ### 12.1 O termo "iconocracia": o que a tese pode e não pode afirmar
 
-- **A tese não cunhou o termo.** *Iconocratie/iconocracy* é neologismo de Marie-José Mondzain — usos de 1984 e 1993 atestados indiretamente; definição verificada em "Iconic Space and the Rule of Lands" (*Hypatia*, 2000, p. 59): a "organization of the visible which provokes a belief", uma "submission to the gaze".
-- **Relés jurídicos:** Goodrich (*Legal Emblems and the Art of Law*, 2013/2014, cap. 5) e Sherwin (2017) levaram o termo à teoria do Direito, ambos atribuindo-o a Mondzain.
-- **Uso brasileiro anterior:** Franca Filho, *A cegueira da justiça* (Fabris, 2011) — "iconocracia — o governo das imagens" (página exata a verificar).
+- **A tese não cunhou o termo.** *Iconocratie/iconocracy* é neologismo de Marie-José Mondzain — usos de 1984 e 1993 atestados indiretamente; definição verificada em "Iconic Space and the Rule of Lands" (*Hypatia*, 2000, p. 59): a "organization of the visible which provokes a belief", uma "submission to the gaze". Na p. 66 do mesmo artigo, Mondzain descreve as mulheres como "the pure, empty substrate of a power that they do not share" — gênero e poder não compartilhado **já estavam** na teoria; a tese estende, não inaugura.
+- **Relés jurídicos:** Goodrich (*Legal Emblems and the Art of Law*, 2013/2014, p. xxi, n. 13, citando Mondzain para iconomus/iconomy/iconocracy) e Sherwin (2017) levaram o termo à teoria do Direito. **Correção (auditoria):** é falso que Goodrich não trate de gênero — *Oedipus Lex*, caps. 5–6, discute o rosto feminino da Justiça e a exclusão das mulheres da magistratura; *Devising Law*, pp. 148–149, examina a gramática generificada dos emblemas jurídicos. Não afirmar lacuna absoluta.
+- **Uso brasileiro anterior:** Marcílio Franca (Franca Filho). Verificado em inglês: capítulo "The Blindness of Justice" (2018, pp. 159–196), com "iconocracy" na p. 167 — e o problema central dele é a **venda**, não a predominância de personificações femininas (diferença de pergunta, não ausência de pesquisa). O livro de 2011 em português (*A cegueira da justiça*, Fabris) ainda não teve a página do termo verificada.
 - **Uso italiano distinto:** a revista *Iconocrazia* (Univ. de Bari, ISSN 2240-760X, fundada em 2012) é kantorowicziana, não cita Mondzain, e não publicou trabalhos sobre Brasil, Justiça alegórica ou personificação latino-americana. A filiação entre os dois usos **não pode** ser afirmada.
 
 **Fórmula defensável para o manuscrito:** adota-se o termo de Mondzain, que o cunhou para a "organização do visível que provoca crença" (2000, p. 59), levado à teoria jurídica por Goodrich, e redefine-se para a história jurídica da alegoria nacional — com reconhecimento do uso brasileiro anterior de Franca Filho e do uso italiano independente da revista de Bari.
 
-**Contribuição original delimitada:** a pergunta histórico-jurídica (a alegoria como operador de legitimidade jurídica), o tratamento conjunto de Justiça, República e Nação na transição Império–República (1822–1922), o corpus documentado atrelado a fontes normativas, e o quadro de três regimes com a contra-alegoria como teste. **Não reivindicar** ineditismo do termo nem do estudo da alegoria feminina da República no Brasil (cf. Carvalho 1990; Lima Junior 2020; Nascimento & Batista 2022; e Gawryszewski 2018 para a Justiça na imprensa anarquista).
+**Contribuição original delimitada (formulação da auditoria):** "esta pesquisa investiga como personificações femininas participaram do reconhecimento da autoridade jurídica e política no Brasil entre 1822 e 1922, comparando séries visuais com documentos institucionais e normativos e distinguindo representação, legitimação, autenticação e justificação jurídica". **Não reivindicar** ineditismo do termo, do estudo da alegoria feminina da República (Carvalho 1990; Lima Junior 2020; Nascimento & Batista 2022; Gawryszewski 2018) nem do primeiro contato entre teoria da imagem, autoridade de gênero e Direito. "Pela primeira vez" não deve ser restaurado sem revisão de originalidade mais ampla.
 
 ### 12.2 Chamada "Democrazie armate / Armed Democracies" (*Iconocrazia*, v. 1, n. 31, 2027)
 
@@ -624,6 +638,22 @@ Seção incorporada em nov/2026 a partir da avaliação bibliográfica sobre a r
 - Página exata de "iconocracia" em Franca Filho (2011); o artigo de 1984 de Baudinet-Mondzain (checar SUDOC); buscas em Gallica, Google Books e OED para usos pré-1984.
 - BDTD, catálogo CAPES, USP Teses e SciELO com strings de busca registradas ("alegoria da justiça", "Têmis", "alegoria da República", "iconografia jurídica", "1822") — as ausências de precedentes ainda não são auditáveis.
 - Status ANVUR (Area 14/12) e indexações da revista (DOAJ, Scopus, ERIH PLUS, Latindex) verificados diretamente nas fontes, não por snippets.
+- Abertos pela auditoria: *Imago Decidendi* p. 45; edição francesa de Mondzain identificada como 2002 (o original Seuil é de 20 fev 1996 — conferir página de rosto do exemplar); passagens exatas de Agamben, Benjamin (tradução 1984), Mitchell, Warner, Landes e Mills; carta de Plínio Salgado (1927); colação integral de Hayaert; texto integral do Decreto 15.569/1922.
+
+### 12.4 Auditoria de 6 nov 2026 — consequências operacionais
+
+A auditoria integral (23 p., commit `8cdc287`) conclui: **o projeto vale desenvolver, mas o argumento central ainda não está demonstrado na amplitude reivindicada**; a revisão necessária é estrutural e probatória, não estilística. Consequências para o dia a dia do repositório:
+
+**Antes de distribuir qualquer compilação do manuscrito**, tratar as correções confirmadas:
+
+- **Objetos:** BR-005 é MHN 6411 (*Cabeça da República*, busto de perfil — não a figura inteira com livro; MNBA, datação exata de 1889 e envio a Paris sem suporte); Monumento do Congo (a Bélgica está sentada com seios expostos — o contraste "vestida × nua" cai, o argumento colonial permanece por títulos/inscrições/comissão); nota de 100 francos do Congo (a Europa sentada descrita no Cap. 3 não está no tipo inspecionado); Stallaert (Hôtel de Ville, não o teto do Palais de Justice); Visconti (D702 é estudo em pastel, não o painel instalado; P729 *O Progresso*, 1910); as duas Ceschiatti (externa 1961, IPHAN p. 59: venda, seios expostos, espada sobre os joelhos; interna: bronze de 1975 — ataque de 2023 e restauração são unidades distintas); Villares (versões divergentes em suporte/dimensão/custódia; Senado 1919, não 1908).
+- **Série jurídica brasileira:** a Lei de 1885 **não é caso negativo** (art. 1º, §4º aplica redução de 25% a "individuos do sexo feminino" — sexo feminino é condição jurídica operativa); remover a comparação penal "até 12×" (compara máximo de um intervalo com mínimo de outro; apresentar os dois intervalos); CC/1916 em vigor em 1º jan 1917 (sanção, publicação e vigência são datas distintas); o par visual de 1871 (MHN 3665) não está estabelecido como alegoria feminina anterior à lei (o registro descreve um menino, "18--").
+- **Citações teóricas:** epígrafe atribuída a *Visiocracy* p. 506 pertence a *Devising Law* p. 139, com redação alterada; Pateman com páginas corrigidas (tradução 1993: p. 15; pp. 15–17; pp. 17–18); Brant 1494 não contém o grupo de advogados/juízes manipulando a balança — o argumento de gênero construído sobre esse grupo precisa ser reconstruído; Ripa 1593 também oferece Justiça perspicaz (sem conversão uniforme e irreversível da venda).
+- **Dados e Atlas:** o índice composto está aposentado — o Cap. 9 ainda exibe 26 agregados em 28 linhas; remover números **e** a lógica de ranking ("teto", "grau zero", "mais endurecido"); zeros pendentes não são observações mínimas (§4.2); o código 48 C 51 é namespace interno, não o código ICONCLASS oficial de personificação — corrigir a rotulagem.
+
+**Sequência de revisão (P1–P6 da auditoria):** P1 parar de usar evidência que não sustenta a afirmação → P2 fixar a arquitetura da pesquisa (qual a reivindicação brasileira precisa e onde ela é demonstrada) → P3 estabilizar um conjunto menor de dossiês decisivos com cadeia probatória completa → P4 executar o teste jurídico brasileiro simetricamente (unidades ao nível de dispositivo, com rivais plausíveis e resultados negativos registrados) → P5 reposicionar a literatura e fechar o controle de citações → P6 reescrever Atlas e Conclusão a partir dos resultados (a Conclusão atual é esqueleto).
+
+**Regra operacional derivada:** nenhuma conclusão central pode depender de identificação equivocada conhecida, placeholder, citação incorreta ou agregado proibido. A montagem warburguiana é heurística, não prova de genealogia; adjacência não demonstra influência. Afirmações de causalidade imagem→lei exigem ponte documental (comissão, programa, circulação, recepção, decisão).
 
 ---
 
