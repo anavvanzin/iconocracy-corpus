@@ -6859,23 +6859,23 @@
   {
     "id": "e1d2e177-0905-a3bc-2e17-f6dd4f040db0",
     "country": "Brazil",
-    "url": "https://museudarepublica.museus.gov.br/publicacoes/",
-    "title": "A República (estudo para escultura/bandeira)",
+    "url": "https://artsandculture.google.com/asset/the-republic-d%C3%A9cio-vilares/wgGNhxbVbI31RQ?hl=pt-br",
+    "title": "A República",
     "description": "Imagem do momento fundacional republicano brasileiro: Décio Villares constrói a República como corpo feminino vivo, encarnado e erotizado (carnação quente, cabelos soltos, lábios e faces rubros), inscrevendo a legitimidade do novo regime na vitalidade sacrificial-juvenil da alegoria antes de sua posterior burocratização e endurecimento heráldico em moedas e selos.",
     "motif": [
       "descricao_pre_iconografica"
     ],
     "coded_by": "opus-4.8",
     "coded_at": "2026-06-22T00:00:00+00:00",
-    "date": "1889",
+    "date": "Fim do séc. XIX/início do séc. XX",
     "regime": "fundacional",
-    "citation_abnt": "VILLARES, Décio Rodrigues. A República [conjunto de estudos e obras alegóricas]. 1889-1931. Museu da República; Museu Nacional de Belas Artes; Museu Casa de Benjamin Constant, Rio de Janeiro. Disponível em: https://museudarepublica.museus.gov.br/publicacoes/. Acesso em: 19 maio 2026.",
+    "citation_abnt": "VILLARES, Décio. A República. Rio de Janeiro, fim do séc. XIX/início do séc. XX. Pintura. Museu da República, coleção Presidência da República. Disponível em: https://artsandculture.google.com/asset/the-republic-d%C3%A9cio-vilares/wgGNhxbVbI31RQ?hl=pt-br. Acesso em: 6 nov. 2026.",
     "audit_flags": [
       "drive-import-2026-06-04",
       "promoted-opus-4.8-e1-opus48-2026-06",
       "orig-batch-id:drive-import-2026-05-19-sq2-2026-0"
     ],
-    "support": "moeda"
+    "support": "pintura"
   },
   {
     "id": "f410c31b-283c-5f5f-95ce-7b6e809db88e",
