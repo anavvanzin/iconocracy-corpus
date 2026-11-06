@@ -1,6 +1,6 @@
 # Manual de Instruções — Repositório Iconocracia
 
-**Versão:** 1.1 · Abril 2026
+**Versão:** 1.2 · Novembro 2026
 **Autora:** Ana Vanzin — PPGD/UFSC
 
 ---
@@ -24,6 +24,7 @@
 9. [Convenções e boas práticas](#9-convenções-e-boas-práticas)
 10. [Decisões arquiteturais (ADRs)](#10-decisões-arquiteturais-adrs)
 11. [Resolução de problemas](#11-resolução-de-problemas)
+12. [Prioridade terminológica e estratégia de publicação](#12-prioridade-terminológica-e-estratégia-de-publicação)
 
 ---
 
@@ -32,7 +33,7 @@
 **Iconocracia** é a infraestrutura de pesquisa para a tese de doutorado *"Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)"*.
 
 O repositório integra:
-- **Corpus iconográfico** — 145 itens na fotografia local atual do `corpus-data.json`, com crescimento contínuo
+- **Corpus iconográfico** — 337 IDs no export público e 328+ registros validados no ledger operacional (fotografias de out–nov/2026), com crescimento contínuo
 - **Codificação quantitativa** — 10 indicadores ordinais de purificação (0–3) por item
 - **Manuscrito da tese** — capítulos em Markdown, compiláveis para DOCX (ABNT) via Pandoc
 - **Vault Obsidian** — fichas catalográficas, notas de pesquisa, diário
@@ -46,6 +47,8 @@ O repositório integra:
 - `data/processed/purification.jsonl` = ledger canônico da codificação
 - `vault/candidatos/` = espelho auxiliar
 - Hugging Face = superfície pública de release
+
+**Regimes em uso:** além dos regimes fundamentacional, normativo e militar, o regime **CONTRA-ALEGORIA** está ativo desde out/2026, com os casos `BR-051` (Justiça de Ceschiatti vandalizada no STF, sequência 2023–2024), `FR-100` (Marianne mutilada no Arco do Triunfo, 2018) e `FR-101` (Deborah de Robertis, *La Joconde de l'Histoire*, 2018), integrados à §3.4 do manuscrito.
 
 **Objetivo:** que todos os materiais da tese — dados, análise, texto, figuras — vivam num único repositório rastreável.
 
@@ -101,7 +104,7 @@ python tools/scripts/vault_sync.py status
 iconocracy-corpus/
 │
 ├── corpus/                         ← CORPUS PUBLICÁVEL
-│   ├── corpus-data.json            ← Export público do corpus (145 itens na fotografia local atual)
+│   ├── corpus-data.json            ← Export público do corpus (337 IDs na fotografia de nov/2026)
 │   ├── DASHBOARD_CORPUS.html       ← Dashboard interativo (abrir no browser)
 │   ├── index.html                  ← Interface de busca simples
 │   └── atlas-iconometrico.html     ← Atlas visual interativo (React app)
@@ -126,6 +129,11 @@ iconocracy-corpus/
 │   ├── pesquisa/                   ← Notas de pesquisa
 │   ├── diario/                     ← Diário de pesquisa
 │   └── meta/                       ← Codebook, ADRs
+│
+├── atlas/                          ← ATLAS ICONOCRÁTICO (Obsidian)
+│   ├── Iconocracia — Mapa Central.md       ← MOC principal do atlas
+│   ├── Arquitetura Atlas e Tese — MOC.md   ← Atlas transnacional (1800–2000) × vertente da tese (Brasil 1822–1922)
+│   └── stubs/                      ← Stubs documentais do atlas
 │
 ├── data/                           ← DADOS
 │   ├── raw/                        ← Manifestos e links (nunca arquivos brutos)
@@ -152,6 +160,7 @@ iconocracy-corpus/
 │   ├── ICONOCRACIA_PROJETO.md      ← Documento do projeto
 │   ├── scripts.md                  ← Referência de scripts
 │   ├── adr/                        ← Decisões arquiteturais (5 ADRs)
+│   ├── audits/                     ← Trilha de auditoria de reconciliação com catálogos (nov/2026)
 │   ├── drive-structure.md          ← Organização do Google Drive
 │   ├── OPERATING_MODEL.md          ← Modelo operacional vigente
 │   ├── huggingface-release.md      ← Fluxo de release no Hugging Face
@@ -196,9 +205,9 @@ iconocracy-corpus/
 
 Adicione um objeto ao array em `corpus/corpus-data.json` seguindo o formato dos itens existentes. Campos obrigatórios: `id`, `title`, `date`, `country`, `medium`, `url`.
 
-**Convenção de IDs:**
-- `BR-001` a `BR-NNN` — Brasil
-- `FR-001` a `FR-NNN` — França
+**Convenção de IDs (faixas em uso, nov/2026):**
+- `BR-001` a `BR-051` — Brasil (inclui o caso Ceschiatti/STF)
+- `FR-001` a `FR-101` — França (inclui as contra-alegorias de 2018)
 - `DE-001` a `DE-NNN` — Alemanha
 - `US-001` a `US-NNN` — EUA
 - `UK-001` a `UK-NNN` — Reino Unido
@@ -206,6 +215,8 @@ Adicione um objeto ao array em `corpus/corpus-data.json` seguindo o formato dos 
 - `PT-001` a `PT-NNN` — Portugal
 - `EU-001` a `EU-NNN` — Multi-país / Europeana
 - `NL-001` a `NL-NNN` — Países Baixos
+
+**Reconciliação com catálogos institucionais:** quando um registro é confrontado com catálogo oficial (ex.: MHN, Hemeroteca Nacional), o histórico **não é reescrito**: acrescenta-se um adendo à ficha SCOUT correspondente e um relatório datado em `docs/audits/` (ex.: `2026-10-31-reconciliacao-fontes-brasileiras.md`, que atualizou URLs/citações de `BR-019`, `BR-024` e `BR-041` e confirmou o inventário MHN `123275`). Decisões pendentes — como a possível duplicata de Villares ou a equivalência "A República" ↔ `Q117764760` — ficam **registradas, não fundidas**.
 
 ### 4.2 Codificar indicadores de purificação
 
@@ -251,7 +262,7 @@ python tools/scripts/code_purification.py --export-csv
 | 9 | `serialidade` | Obra única → reprodução massiva |
 | 10 | `inscricao_estatal` | Obra autônoma → dispositivo estatal |
 
-**Saída:** `data/processed/purification.jsonl` (1 registro por linha, com timestamp e assinatura do codificador)
+**Saída:** `data/processed/purification.jsonl` (1 registro por linha, com timestamp e assinatura do codificador; 286 linhas validadas na fotografia de nov/2026)
 
 **Dica:** codifique em blocos de 30 minutos (~10 itens por sessão). Tenha o codebook completo (`data/docs/codebook.md`) acessível.
 
@@ -289,12 +300,14 @@ Texto aqui com citações [@mondzain2005, p. 15].
 Referência a item do corpus: ver [[BR-001]].
 ```
 
+**Estrutura vigente do manuscrito (nov/2026):** Introdução + Capítulos 1–9 + Conclusão. Destaques: Cap. 3 (*A Colonialidade do Ver*), com §3.4 "Rupturas e contra-alegorias"; Cap. 9 (*Os 8 Painéis do Atlas Iconocrático*). Os onze espelhos Obsidian (introdução, caps. 1–9, conclusão) refletem os corpos do manuscrito.
+
 ### 4.4 Compilar capítulos para DOCX/PDF
 
 ```bash
 cd vault/tese
 
-# Compilar tese completa para DOCX (ABNT)
+# Compilar tese completa para DOCX (ABNT) — também é o alvo padrão de `make -C vault/tese`
 make docx
 
 # Compilar capítulo individual
@@ -312,6 +325,15 @@ make setup
 numeração editorial não recebe uma segunda camada automática.
 Ver [compilação da tese](../vault/tese/README.md), incluindo requisitos de
 fontes e mecanismo PDF.
+
+**Infraestrutura de build (decisões de out/2026, PR #239):**
+
+- O único Makefile é `vault/tese/Makefile`; o legado `tese/manuscrito/Makefile` foi **removido** (referia nomes de capítulos inexistentes).
+- **Numeração única:** os títulos carregam a numeração editorial no próprio texto; o Pandoc não renumera (`--number-sections` removido). Remissões do Cap. 4 usam §§4.1–4.8.
+- `references.bib` é **obrigatório**: o alvo `bib-check` bloqueia tese completa e capítulos individuais, em DOCX e PDF (97 entradas, IDs únicos, na fotografia de out/2026).
+- PDF via **LuaLaTeX + TeX Gyre Termes**; `PDF_ENGINE` e `PDF_FONT` permitem alternativa explícita por ambiente (ex.: XeLaTeX + DejaVu Serif).
+- `tese/tese_completa.pdf` é saída regenerável e **não é versionado** (`.gitignore`); `make pdf` gera em `vault/tese/output/` e copia. `tese/tese_completa.docx` continua versionado, mas **deve ser regenerado antes de distribuir** — a cópia corrente ainda antecede a correção de numeração (pendência conhecida, não regressão).
+- O CI (`.github/workflows/validate.yml`) instala o Pandoc antes dos testes de compilação e ABNT.
 
 **Requisito:** Pandoc 3.0+ e `pandoc-citeproc` (ou `citeproc` embutido).
 
@@ -470,6 +492,8 @@ Em `notebooks/`. Correspondem às seções do Capítulo 6 da tese.
 | `03_regression.ipynb` | 6.3 | Regressão logística ordinal: preditores do endurecimento | Idem + ≥50 itens |
 | `04_correspondence.ipynb` | 6.4 | Análise de correspondência múltipla: circulação transatlântica | Idem + cobertura multi-país |
 
+**Nota sobre o N=145:** o Cap. 6, §6.3 documenta `N=145` como **congelamento analítico histórico**; não é o denominador dos percentuais atuais de §6.1 nem deve ser "corrigido" para os totais correntes do ledger. A distinção entre instantâneos e lotes é decisão metodológica registrada (PR #239).
+
 **Para rodar:**
 
 ```bash
@@ -511,6 +535,7 @@ jupyter notebook notebooks/
 - Usar o codebook (`data/docs/codebook.md`) em caso de dúvida
 - Registrar incertezas no campo `notes`
 - Meta: ≥95% de concordância intra-codificador (retestar 10% após 2 semanas)
+- Reconciliações com catálogos institucionais geram **adendo na ficha SCOUT + relatório em `docs/audits/`** — nunca edição silenciosa do ledger histórico
 
 ---
 
@@ -525,6 +550,8 @@ Documentadas em `docs/adr/`:
 | 003 | JSONL como formato canônico | 1 registro por linha; fácil de processar, versionar e validar |
 | 004 | Vault como espelho catalográfico | Obsidian substitui Notion no fluxo ativo |
 | 005 | GitHub/Hugging Face como superfícies | GitHub é backbone canônico; HF é release público |
+
+> **Pendentes de ADR (out–nov/2026):** numeração editorial única no manuscrito (sem `--number-sections`); artefatos regeneráveis fora do versionamento com `bib-check` como gate; reconciliação com catálogos institucionais via trilha em `docs/audits/`. Candidatas a ADR-006+.
 
 ---
 
@@ -547,7 +574,7 @@ python tools/scripts/code_purification.py --status
 # Verificar versão
 pandoc --version  # precisa 3.0+
 
-# Verificar se references.bib existe
+# Verificar se references.bib existe (obrigatório desde out/2026)
 ls vault/tese/references.bib
 
 # Compilar com debug
@@ -566,8 +593,38 @@ python tools/scripts/validate_schemas.py --help
 ### Git: arquivo muito grande
 - Imagens devem ser referenciadas por URL, nunca commitadas
 - Se um arquivo grande foi adicionado por engano: `git rm --cached <arquivo>`
-- `.gitignore` já exclui `*.zip`, `~$*`, `review/`
+- `.gitignore` já exclui `*.zip`, `~$*`, `review/` e a saída regenerável `tese/tese_completa.pdf`
 
 ---
 
-*Manual gerado em 23 de março de 2026. Para a versão mais atualizada, consulte o repositório.*
+## 12. Prioridade terminológica e estratégia de publicação
+
+Seção incorporada em nov/2026 a partir da avaliação bibliográfica sobre a revista *Iconocrazia* (Bari) e da revisão de originalidade da tese (relatórios de avaliação, nov/2026; a arquivar em `tese/pesquisa/`).
+
+### 12.1 O termo "iconocracia": o que a tese pode e não pode afirmar
+
+- **A tese não cunhou o termo.** *Iconocratie/iconocracy* é neologismo de Marie-José Mondzain — usos de 1984 e 1993 atestados indiretamente; definição verificada em "Iconic Space and the Rule of Lands" (*Hypatia*, 2000, p. 59): a "organization of the visible which provokes a belief", uma "submission to the gaze".
+- **Relés jurídicos:** Goodrich (*Legal Emblems and the Art of Law*, 2013/2014, cap. 5) e Sherwin (2017) levaram o termo à teoria do Direito, ambos atribuindo-o a Mondzain.
+- **Uso brasileiro anterior:** Franca Filho, *A cegueira da justiça* (Fabris, 2011) — "iconocracia — o governo das imagens" (página exata a verificar).
+- **Uso italiano distinto:** a revista *Iconocrazia* (Univ. de Bari, ISSN 2240-760X, fundada em 2012) é kantorowicziana, não cita Mondzain, e não publicou trabalhos sobre Brasil, Justiça alegórica ou personificação latino-americana. A filiação entre os dois usos **não pode** ser afirmada.
+
+**Fórmula defensável para o manuscrito:** adota-se o termo de Mondzain, que o cunhou para a "organização do visível que provoca crença" (2000, p. 59), levado à teoria jurídica por Goodrich, e redefine-se para a história jurídica da alegoria nacional — com reconhecimento do uso brasileiro anterior de Franca Filho e do uso italiano independente da revista de Bari.
+
+**Contribuição original delimitada:** a pergunta histórico-jurídica (a alegoria como operador de legitimidade jurídica), o tratamento conjunto de Justiça, República e Nação na transição Império–República (1822–1922), o corpus documentado atrelado a fontes normativas, e o quadro de três regimes com a contra-alegoria como teste. **Não reivindicar** ineditismo do termo nem do estudo da alegoria feminina da República no Brasil (cf. Carvalho 1990; Lima Junior 2020; Nascimento & Batista 2022; e Gawryszewski 2018 para a Justiça na imprensa anarquista).
+
+### 12.2 Chamada "Democrazie armate / Armed Democracies" (*Iconocrazia*, v. 1, n. 31, 2027)
+
+- **Prazo:** 20 abr 2027 · **Idiomas:** IT/EN/FR/ES (**português não aceito**, embora a revista já tenha publicado texto em português) · **Limite:** 40.000 caracteres (espaços, notas e bibliografia incluídos) · **Resumos:** IT + EN, ≤1.000 caracteres cada, 5 keywords · **Envio:** info@iconocrazia.it
+- ⚠️ O domínio `iconocrazia.it` exibia página de venda de domínio em 6 nov 2026: confirmar o endereço de submissão pela página de contato do OJS (`ojs.uniba.it/index.php/icon`) antes de enviar qualquer coisa. Taxas não informadas no site — verificar.
+- **Aderência:** moderada no máximo. O regime "militar" do quadro teórico é iconográfico (figuras femininas armadas: Minerva, Bellona, a República com espada), não a remilitarização institucional que a chamada tematiza; qualquer submissão precisa construir explicitamente a ponte (ex.: a fundação armada da República, 1889–1894, e a Constituição de 1891).
+- **Autoplágio:** um artigo sobre o 8 de janeiro / Ceschiatti não pode reciclar "Iconocracia Tropical" sem checagem contra o artigo publicado.
+
+### 12.3 Verificações pendentes antes de afirmar no manuscrito
+
+- Página exata de "iconocracia" em Franca Filho (2011); o artigo de 1984 de Baudinet-Mondzain (checar SUDOC); buscas em Gallica, Google Books e OED para usos pré-1984.
+- BDTD, catálogo CAPES, USP Teses e SciELO com strings de busca registradas ("alegoria da justiça", "Têmis", "alegoria da República", "iconografia jurídica", "1822") — as ausências de precedentes ainda não são auditáveis.
+- Status ANVUR (Area 14/12) e indexações da revista (DOAJ, Scopus, ERIH PLUS, Latindex) verificados diretamente nas fontes, não por snippets.
+
+---
+
+*Manual atualizado em 6 de novembro de 2026. Para a versão mais atualizada, consulte o repositório.*
