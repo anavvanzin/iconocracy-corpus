@@ -4,7 +4,7 @@ projeto: ICONOCRACIA
 recorte: "Brasil, 1822–1922"
 arquitetura: C (passo 3 da ordem de operações)
 data_abertura: 2026-09-22
-data_ultima_verificacao: 2026-09-22
+data_ultima_verificacao: 2026-11-06 (revisão P1 da auditoria: reclassificação de 1885; remoção da razão "12×"; vigência do CC em 1917; par visual de 1871 suspenso; "decalque" rebaixado a teste negativo delimitado)
 estatuto: EXPLORAÇÃO EM CURSO — instrumento de trabalho, não registro a fechar. A matriz cresce, muda de forma e pode ser reorganizada conforme a pesquisa anda; os estados descrevem o que foi lido, não atestam qualidade
 legenda_estado: "[TI] = título/registro localizado, texto integral a ler · [RD] = leitura direta feita · [RL] = leitura registrada (com página/trecho)"
 antecessor: "iconocracia/pacote-tese-iconocracia/SERIE-DOCUMENTAL-levantamento-2026-09-08.md (escopo 1850–1929; substituído pelo recorte 1822–1922)"
@@ -94,7 +94,7 @@ acrescenta um quarto, que se revelou o mais produtivo no recorte imperial:
 **A direção (iv) é o achado desta rodada** — e a verificação de 22/09 a desdobrou em duas subespécies, porque os dois casos fazem coisas diferentes:
 
 - **(iv-a)** opera no Império: a **mãe** não é exaltada para ser restringida (como em Muller v. Oregon), mas constituída como **nexo de imputação** — é a condição jurídica da mãe que determina a do filho. O operador não é a maternidade exaltada: é a **mãe como ponto de ancoragem do ordenamento**.
-- **(iv-b)** opera na República: a "honestidade" não restringe a autonomia da mulher — ela **distribui a proteção que o Estado lhe concede**. A mulher conforme ao modelo alegórico (pura, "honesta") é protegida; a que não cabe nele recebe até 12× menos.
+- **(iv-b)** opera na República: a "honestidade" não restringe a autonomia da mulher — ela **distribui a proteção que o Estado lhe concede**. A mulher conforme ao modelo alegórico (pura, "honesta") é protegida; a que não cabe nele recebe proteção penal marcada por faixas distintas (art. 268: um a seis anos de prisão celular; § 1º: seis meses a dois anos para "mulher publica ou prostituta"). As faixas se sobrepõem e nenhuma razão entre seus extremos mede a proteção efetiva; o que importa é a distinção classificatória, que tem antecedente imperial no art. 222 do Código Criminal de 1830 — a continuidade doutrinária é explicação rival a qualquer origem republicana.
 
 ## 2. Universo-fonte
 
@@ -122,12 +122,12 @@ Ordenada cronologicamente.
 | # | Ato | Data | Atributo feminino | Como aparece como *razão de decisão* | Direção | Estado |
 |---|---|---|---|---|---|---|
 | 1 | **Lei n. 2.040** (Lei do Ventre Livre) | 28 set. 1871 | a **mãe** escravizada | Todo o diploma se organiza pela mãe: a condição livre do filho decorre de a mãe ser escrava (art. 1º); a autoridade sobre o filho é do "senhor **da mãe**" (art. 1º, §1º); a liberdade da mãe arrasta os filhos menores de 8 anos (art. 1º, §4º); a alienação da mãe arrasta os filhos menores de 12 (art. 1º, §5º); a obrigação recai sobre "os senhores … das filhas de suas escravas" (art. 1º, §3º) | **(iv-a) atribuição de condição a terceiro** | **[RD] verificado** — texto integral lido (22/09/2026) |
-| 2 | **Lei n. 3.270** (Lei dos Sexagenários) | 28 set. 1885 | *(nenhum)* | Regula a extinção gradual **por critério etário e matrícula**: a libertação alcança o escravo de 60+ anos (art. 3º), com tabela de deduções anuais de valor. Contagem no texto oficial: **"mulher" = 0, "mãe" = 0, "filhos" = 0, "família" = 0**; "sexo" e "filiação" aparecem apenas como campos da matrícula (art. 1º). A mãe como nexo jurídico **desapareceu** | **registro de ausência** | **[RD] verificado** — Senado Federal, publicação original (22/09/2026) |
+| 2 | **Lei n. 3.270** (Lei dos Sexagenários) | 28 set. 1885 | **sexo feminino como condição operativa** | **Corrigido na revisão de 06/11/2026 (auditoria):** a classificação anterior como "registro de ausência" estava errada. O art. 1º, §4º aplica **redução de 25% na avaliação** dos "individuos do sexo feminino" — o sexo feminino é condição jurídica operante, não mero campo de matrícula. O art. 4º, §§4º e 8º, preserva expressamente disposições da lei de 1871, e o decreto regulamentador de 1886 (art. 3º, §2º) reserva lugar ao sexo feminino nas preferências de alforria. A libertação aos 60 anos também envolvia obrigações de serviço, com condições adicionais e termo aos 65. A ausência dos lexemas "mulher"/"mãe" na busca lexical não equivale à ausência de regulação de gênero | **presença de condição sexual operativa** (reclassificado; não é registro de ausência) | **[RD] verificado** — Senado Federal, publicação original (22/09/2026); reclassificação conforme auditoria de 06/11/2026 |
 | 3 | **Lei n. 3.353** (Lei Áurea) | 13 mai. 1888 | *(nenhum)* | Dois artigos: "Art. 1º E' declarada extincta, desde a data desta Lei, a escravidão no Brazil. Art. 2º Revogam-se as disposições em contrario." **Nenhuma menção a mulher, mãe ou filiação** | **registro de ausência** | **[RD] verificado** — Senado Federal, publicação original (22/09/2026) |
 | 4 | **Decreto n. 4** | 19 nov. 1889 | *(nenhum)* | Estabelece bandeira, armas nacionais e selos/sinetes — **emblemas, sem menção a figura feminina** | **(i) juridificação do léxico** | **[RD] verificado** — Planalto (08/09/2026) |
-| 5 | **Decreto n. 847** (Código Penal) | 11 out. 1890 | **"mulher honesta"** / pudor | Título VIII. **Art. 268**: "Estuprar mulher virgem ou não, mas **honesta**: Pena – de prisão cellular por um a seis annos." **§ 1º**: "Si a estuprada for **mulher publica ou prostituta**: Pena – de prisão cellular por seis mezes a dous annos." Art. 267 (defloramento por "seducção, engano ou fraude"); art. 270 (rapto de "qualquer **mulher honesta**"). **O mesmo ato recebe pena até 12× maior conforme o atributo moral da vítima** | **(iv-b) atribuição de condição à própria mulher** | **[RD] verificado** — Senado Federal, publicação original, texto integral (22/09/2026) |
+| 5 | **Decreto n. 847** (Código Penal) | 11 out. 1890 | **"mulher honesta"** / pudor | Título VIII. **Art. 268**: "Estuprar mulher virgem ou não, mas **honesta**: Pena – de prisão cellular por um a seis annos." **§ 1º**: "Si a estuprada for **mulher publica ou prostituta**: Pena – de prisão cellular por seis mezes a dous annos." Art. 267 (defloramento por "seducção, engano ou fraude"); art. 270 (rapto de "qualquer **mulher honesta"**); art. 276 vincula consequências a honra, dote e casamento. **O mesmo ato é punido em duas faixas distintas conforme a classificação moral da vítima** — um a seis anos versus seis meses a dois anos; as faixas se sobrepõem e nenhuma razão entre seus extremos constitui medida válida de proteção. **A distinção tem antecedente imperial** (Código Criminal de 1830, art. 222): a continuidade doutrinária é explicação rival a qualquer leitura que localize sua origem na alegoria republicana | **(iv-b) atribuição de condição à própria mulher** | **[RD] verificado** — Senado Federal, publicação original, texto integral (22/09/2026) |
 | 6 | **Constituição da República** | 24 fev. 1891 | *(ausente no voto; residual na nacionalidade)* | **Caso negativo duplo.** (a) Art. 70: "São eleitores os cidadãos maiores de 21 annos…" e as vedações do §1º elencam mendigos, analphabetos, praças de pret e religiosos — **o sexo não é mencionado**: a exclusão das mulheres se dá **por omissão**, não por texto. (b) Art. 69, 2º: são cidadãos "os illegitimos de **mãe brazileira**" — a filiação materna só gera nacionalidade **na falta do pai**, isto é, a mulher é operador **residual** | **registro de ausência** + **(iv) residual** | **[RD] verificado** — Câmara dos Deputados, publicação original (22/09/2026) |
-| 7 | **Lei n. 3.071** (Código Civil) | 1º jan. 1916 | dependência / subordinação da mulher casada | Art. 6, II: a mulher casada é relativamente incapaz; art. 233: "O marido é o chefe da sociedade conjugal"; art. 240: a mulher assume "a condição de sua companheira, consorte e auxiliar"; art. 242: "A mulher não pode, sem autorização do marido… alienar ou gravar de onus real os immoveis de seu dominio particular" | **(ii) restrição** | **[RD] verificado** — Planalto (08/09/2026) |
+| 7 | **Lei n. 3.071** (Código Civil) | 1º jan. 1916 (sancionado; **em vigor a partir de 1º jan. 1917**) | dependência / subordinação da mulher casada | Art. 6, II: a mulher casada é relativamente incapaz; art. 233: "O marido é o chefe da sociedade conjugal"; art. 240: a mulher assume "a condição de sua companheira, consorte e auxiliar"; art. 242: "A mulher não pode, sem autorização do marido… alienar ou gravar de onus real os immoveis de seu dominio particular" | **(ii) restrição** | **[RD] verificado** — Planalto (08/09/2026) |
 | 8 | **Decreto n. 4.175** (comemoração do Centenário) | 11 nov. 1920 | *(nenhum)* | Autoriza o Executivo a promover a comemoração do Centenário da Independência, com o "criterio de preferencia para a realização de uma **Exposição Nacional na Capital da Republica**". **Não menciona figura feminina** — é ato juridicamente neutro quanto ao gênero, e é o ato que habilita a produção das duas alegorias de 1922 | **registro de ausência** | **[RD] verificado** — Câmara dos Deputados, publicação original (22/09/2026) |
 
 **Oito atos, todos lidos em fonte primária** — nenhum `[TI]` remanescente nesta
@@ -135,30 +135,25 @@ rodada. Isso descreve o estado da leitura em 2026-09-22, não a completude da
 série: a matriz deve crescer, e novos atos entrarão com estado `[TI]` até serem
 lidos.
 
-### 3.0 Uma pista forte: a sequência abolicionista
+### 3.0 A sequência abolicionista — revisada após a auditoria de 06/11/2026
 
-Postos em ordem, os três diplomas da abolição contam uma história que nenhum deles conta isoladamente:
+Postos em ordem, os três diplomas da abolição **não** contam a história que uma
+versão anterior deste documento lhes atribuía (a "mãe" como operador que
+desapareceria entre 1871 e 1888). A auditoria derrubou o elo central:
 
-| Ano | Diploma | Estatuto da mãe no texto |
+| Ano | Diploma | Estatuto da mulher/mãe no texto |
 |---|---|---|
 | **1871** | Lei do Ventre Livre | **nexo jurídico estruturante** — "mãe" é a categoria operante de todo o regime |
-| **1885** | Lei dos Sexagenários | **ausente** — "mulher" = 0, "mãe" = 0; o critério passa a ser a **idade** |
-| **1888** | Lei Áurea | **ausente** — dois artigos, nenhum atributo |
+| **1885** | Lei dos Sexagenários | **sexo feminino operativo** — redução de 25% na avaliação dos "individuos do sexo feminino" (art. 1º, §4º); preservação de disposições de 1871 (art. 4º, §§4º e 8º); preferência de alforria no decreto de 1886 (art. 3º, §2º) |
+| **1888** | Lei Áurea | **ausente dos dois artigos** — achado negativo genuíno e delimitado; mas o enquadramento e a subscrição do documento identificam a Princesa Imperial Regente, mulher histórica no exercício da autoridade |
 
-**A mãe escravizada é o operador da abolição *gerida*, e desaparece quando a abolição se completa.** A direção (iv-a) não é uma propriedade geral do direito imperial: é o dispositivo específico do **regime de transição** — a mãe comparece na lei enquanto é preciso administrar a passagem da condição da mãe para a do filho, e some quando já não há condição a administrar.
-
-Para a tese, isto é uma pista de primeira ordem — **a confirmar em mais
-material antes de virar afirmação**: a **mãe negra entra no ordenamento como
-mecanismo**, não como sujeito, e o mecanismo é descartado assim que cumpre a
-função. Se se sustentar, é a Feminilidade de Estado no seu avesso racial: onde
-a alegoria branca permanece como imagem perpétua, a mãe negra é instrumento
-temporário. Se não se sustentar — se outras leis do período mostrarem o
-contrário —, a pista cai e o achado é outro.
-
-**O que a confirmaria:** varredura dos demais diplomas imperiais que tratam de
-escravidão e família (regulamentos, avisos, decretos de execução), para ver se
-o nexo materno reaparece. **O que a derrubaria:** encontrar, entre 1885 e 1888,
-ato relevante em que a mãe volte a operar como categoria jurídica.
+O que cai: a narrativa do "desaparecimento da mãe" como sequência 1871 → 1885
+→ 1888. O que permanece, em investigação: a distinção entre **ausência de um
+lexema selecionado**, **ausência de regulação de gênero** e **revogação de uma
+relação operativa anterior** — três coisas que a classificação original deste
+documento confundia. A direção (iv-a) segue documentada em 1871; se ela é
+dispositivo específico do regime de transição ou propriedade mais ampla do
+direito imperial é o que a varredura de §7 ainda precisa responder.
 
 ### 3.1 Ato #1 em detalhe — por que a Lei do Ventre Livre é o achado desta rodada
 
@@ -175,13 +170,21 @@ A lei é integralmente construída sobre a mãe como nexo de imputação:
 - **Art. 1º, §5º** — "No caso de alienação da **mulher escrava**, seus filhos livres, menores de doze anos, a acompanharão."
 - **Art. 1º, §8º** — se a partilha não comportar a reunião da família, "**será a mesma família vendida** e o seu produto rateado."
 
-**Leitura para a tese.** O que o corpus iconográfico já registra — a "Alegoria à
-Lei do Ventre Livre" (A. D. Bressae, c. 1871) e a "Alegoria à Lei de 13 de
-Maio de 1888" — encontra aqui o seu par documental. A alegoria abolicionista
-**não é ornamento posterior**: ela coincide com um diploma em que a mulher
-escravizada é a **categoria jurídica operante**. Este é o primeiro par
-série-iconográfica × série-documental do recorte, e habilita o teste de
-precedência (§6) já no Império.
+**Leitura para a tese — com uma correção da auditoria de 06/11/2026.** Este
+documento registrava aqui um "primeiro par série-iconográfica ×
+série-documental": a "Alegoria à Lei do Ventre Livre" (A. D. Bressac, c. 1871)
+como par visual da lei. **Esse par não está estabelecido.** O registro do MHN
+(n. 3665) descreve a peça como um **menino**, data-a "18--", atribui-a a A. D.
+Bressac e lista gesso pintado, madeira, metal e tinta; o registro da NYU traz
+datação aproximada e material conflitantes. A placa da peça comemora a lei de
+1871 — vínculo *temático*, não cronológico nem causal anterior. O registro do
+custodiante inviabiliza o uso confiante da peça como alegoria feminina
+anterior à lei. **Suspenso** como par de precedência até conferência direta da
+imagem e da ficha; o teste de precedência (§6) não pode mais apoiar-se nele.
+
+O que se mantém: a lei de 1871 é, no plano documental, um diploma em que a
+mulher escravizada é a **categoria jurídica operante** — e isso independe de
+qualquer objeto visual.
 
 **Conexão com o Contrato Racial Visual (Cap. 3).** A direção (iv) é racialmente
 marcada: o operador "mãe" da Lei do Ventre Livre é a **mãe escravizada**. A
@@ -230,8 +233,11 @@ corpus captura, no mesmo ano, o **oposto**: as duas alegorias do Centenário.
   below"* — a mulher alegórica **sanciona de cima** o ato legislativo masculino
   que a exclui.
 - *Alegoria da Exposição Internacional do Centenário da Independência* (1922,
-  MHN) — "a jovem alada/ascendente que enlaça a bandeira é uma personificação
-  alegórica da Nação".
+  MHN, inventário 310906) — "a jovem alada/ascendente que enlaça a bandeira é
+  uma personificação alegórica da Nação". [Correção da auditoria de
+  06/11/2026: o registro identifica bandeiras do Brasil **e dos Estados
+  Unidos**, não apenas a brasileira; a proveniência do Palácio do Catete não
+  demonstra encomenda para a Exposição.]
 
 **Cronologia que importa:** a Semana (fevereiro) **precede** a Exposição
 (setembro) dentro do mesmo ano. A ruptura estética vem antes do apogeu
@@ -273,19 +279,26 @@ série registrar os atos em que o atributo feminino **não** comparece.
 
 | Ato | Data | O atributo está ausente? | Observação |
 |---|---|---|---|
-| Lei n. 3.270 (Sexagenários) | 28 set. 1885 | **sim** | "mulher" = 0, "mãe" = 0, "família" = 0; critério passa a ser a **idade** |
-| Lei n. 3.353 (Lei Áurea) | 13 mai. 1888 | **sim** | dois artigos; nenhum atributo de gênero ou filiação |
+| Lei n. 3.353 (Lei Áurea) | 13 mai. 1888 | **sim** | dois artigos; nenhum atributo de gênero ou filiação (mas a subscrição identifica a Princesa Imperial Regente — presença de outra natureza) |
 | Decreto n. 4 | 19 nov. 1889 | **sim** | oficializa bandeira/armas/selos sem nomear figura feminina |
 | Constituição de 1891, art. 70 | 24 fev. 1891 | **sim** | define o eleitor sem mencionar sexo — exclusão por silêncio |
 | Decreto n. 4.175 | 11 nov. 1920 | **sim** | autoriza a comemoração do Centenário e a Exposição Nacional sem nomear figura feminina — **a figura das alegorias de 1922 é posterior ao ato** |
 | *(a completar)* | | | atos decisórios de 1822–1922 a varrer sistematicamente |
 
-**O que fazer com isso (em aberto):** a proporção sugere que o atributo feminino
-comparece como razão de decisão **menos vezes do que está ausente** — o que
-calibraria a pretensão da tese. Mas cinco ausências contra três presenças, numa
-busca ainda assistemática, não autoriza essa conclusão: minhas ausências podem
-ser buracos da minha procura, não silêncios do ordenamento. Distinguir os dois
-exige a varredura de §7, e é justamente o que a exploração ainda não fez.
+> **Correção da auditoria de 06/11/2026:** a Lei n. 3.270/1885 foi **removida**
+> desta tabela — o sexo feminino é nela condição jurídica operativa (art. 1º,
+> §4º), e a contagem lexical ("mulher" = 0) não mede regulação de gênero.
+
+**O que fazer com isso (em aberto — e agora com uma prova interna de
+fragilidade):** a remoção de 1885 mostra que a contagem de ausências e
+presenças **não é um indicador válido** antes de definida a unidade de análise
+(o que conta como "presença do atributo": lexema, condição operativa,
+justificativa legislativa, subscrição?) e de concluída a varredura. Quatro
+ausências contra três presenças, numa busca assistemática e com uma
+classificação já derrubada, não autorizam conclusão alguma: minhas ausências
+podem ser buracos da minha procura ou erros de classificação, não silêncios do
+ordenamento. Distinguir os três exige a varredura de §7, e é justamente o que
+a exploração ainda não fez.
 
 Se a proporção se mantiver depois da varredura, ela própria será um achado a
 reportar. Se se inverter, o achado é outro — e igualmente útil.
@@ -301,19 +314,26 @@ Habilitado pelo par série-iconográfica × série-documental:
 | **Série iconográfica** | a República-mulher branca na cédula/moeda/selo (1889→); a Iustitia vendada nos tribunais |
 | **Série documental** | Lei do Ventre Livre 1871; Lei Áurea 1888; Código Penal 1890; Constituição 1891; Código Civil 1916 |
 
-**Primeiro par disponível:** alegoria à Lei do Ventre Livre (c. 1871) × texto da
-Lei n. 2.040 (1871) — coincidência de data que permite testar a direção já no
-Império.
+**Primeiro par — suspenso pela auditoria de 06/11/2026:** a "alegoria à Lei do
+Ventre Livre" (MHN 3665) descreve um menino, é datada "18--" e tem atribuição e
+materialidade conflitantes entre MHN e NYU (ver §3.1). O par iconográfico ×
+documental de 1871 **não está estabelecido** e não pode ancorar o teste no
+Império até nova conferência.
 
-**Segundo par — e o primeiro resultado negativo:** Decreto n. 4.175/**1920**
+**Segundo par — resultado negativo delimitado:** Decreto n. 4.175/**1920**
 (não menciona a figura) × *Alegoria da República* de Chambelland/**1922** (a
-figura em ação). Aqui a cronologia mostra **o ato antes da figura**: o decreto
-que habilita a comemoração é neutro quanto ao gênero, e a alegoria comparece
-dois anos depois, na execução. É um caso de **decalque, não de engendramento**.
+figura em ação). A cronologia mostra **o ato antes da figura** — logo, as
+pinturas de 1922 **não podem ter causado** o ato de 1920. O inverso, porém,
+também não está demonstrado: o decreto não nomeia pinturas, artista, contrato
+ou programa iconográfico, e a proveniência do Catete não comprova encomenda.
+Registrar como **teste negativo delimitado** — precedência cronológica é
+necessária a certas alegações causais, mas insuficiente para provar a direção
+contrária —, não como "decalque" demonstrado.
 
 Registrar este resultado é o que torna a proposição falseável. Se a série
 acumular pares como este — ato primeiro, figura depois —, a hipótese de
-precedência cai; se acumular pares como o de 1871, ela se sustenta. A tese
+precedência se enfraquece; se acumular pares inversos devidamente estabelecidos
+(imagem identificada, datada e anterior ao ato), ela se sustenta. A tese
 deve reportar a **contagem de ambos**, não só a dos casos favoráveis.
 
 ## 7. Pendências e próximos movimentos

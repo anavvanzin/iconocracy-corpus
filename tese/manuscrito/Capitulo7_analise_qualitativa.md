@@ -35,7 +35,7 @@ de dez indicadores de endurecimento apurado para o item no corpus.
 Cada seção abre com a sua **tese parcial** — uma proposição jurídico-visual falsificável, e não uma
 descrição —, porque o risco maior de um capítulo de casos não é o erro, mas o descritivismo: a
 sucessão de belas leituras sem argumento. As seções percorrem, deliberadamente, os quatro regimes
-iconocráticos: da alegoria fundacional que ainda respira (Marianne na barricada) ao teto normativo
+iconocráticos: da alegoria fundacional que ainda respira (Marianne na barricada) à forma normativa
 de pedra (o Palais de Justice de Bruxelas), do endurecimento militar (a Piastre, a Justiça de
 Ceschiatti) à contra-alegoria que devolve o corpo à figura (a Marianne mutilada de 2018).
 
@@ -146,18 +146,18 @@ marca o limite do caso, não a sua prova.
 
 > **Tese parcial.** O corpus estadunidense encena o paradoxo fundador do Contrato Sexual Visual em sua
 > forma mais crua: no exato Estado que excluiu as mulheres do júri, da advocacia e da magistratura, a
-> Justiça é representada como mulher — e é *mais* endurecida quando normativa (a chapa oficial) do que
-> quando marcial (a estampa popular).
+> Justiça é representada como mulher. E a comparação interna sugere — como hipótese, não como
+> regularidade medida — que a chapa oficial normativa acumula mais marcas de endurecimento do que a
+> estampa popular marcial.
 
 > **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.
 
-A *Justice* vendada, de espada e balança (corpus item `734dd76f`), é descrita na
-codificação como o "grau zero" do endurecimento normativo estadunidense — e a leitura de nível 3
-anotada é lapidar: um Estado que exclui as mulheres do foro produz a imagem da Justiça como mulher, e
+A *Justice* vendada, de espada e balança (corpus item `734dd76f`), ancora a leitura de nível 3
+anotada, lapidar: um Estado que exclui as mulheres do foro produz a imagem da Justiça como mulher, e
 a venda que lhe cobre os olhos *mascara a própria exclusão da figura*. A genealogia da venda
 reconstruída no Cap. 1 — de imposição satírica (Brant, 1494) a atributo naturalizado (Ripa, 1603) —
 encontra aqui seu correlato institucional: a cegueira lida como virtude é a mesma que impede a
-alegoria de ver que nenhuma mulher real ocupa o lugar que ela personifica [@resnikcurtis2011].
+alegoria de ver que nenhuma mulher real ocupa o lugar que ela personifica [@resnikcurtis2012].
 
 O item propriamente "no Capitólio" é o modelo em gesso *Justice and History* (c. 1860; corpus item
 `416a2c38`), com enquadramento arquitetônico no valor máximo (3). O indicador não é
@@ -170,9 +170,13 @@ Columbia oferece o gradiente marcial. Da cromolitografia em que ela entrega a es
 Dewey (1899; corpus item `610a396d`) ao cartaz de recrutamento *Columbia calls — Enlist
 now* (1917; corpus item `473ac4d7`), o motivo percorre o regime **militar**: o corpo
 feminino como delegação da violência de Estado, a alegoria que arma o cidadão. A nota de codificação
-do item de Dewey formula um dado contra-intuitivo e teoricamente valioso: a chapa oficial *normativa*
-está **mais endurecida** que a estampa popular *marcial*. Vale dizer: a burocracia purifica mais que a
-guerra. O endurecimento não é função da violência representada, mas da distância institucional entre a
+do item de Dewey formula um dado contra-intuitivo e teoricamente valioso: no inventário verbal de
+atributos, a chapa oficial *normativa*
+apresenta mais marcas de endurecimento que a estampa popular *marcial*. A hipótese que daí se
+desenha — a burocracia purifica mais que a
+guerra — repousa sobre a codificação de dois itens e permanece hipótese qualitativa, não regularidade
+empírica. Ela sugere que o endurecimento não é função da violência representada, mas da distância
+institucional entre a
 imagem e o corpo vivo.
 
 O contraponto — e a chave da conclusão da tese — é *Hedwig Reicher as Columbia* (1913; corpus item
@@ -193,9 +197,16 @@ contra-alegoria não pela destruição (como a Marianne de 2018), mas pela reenc
 > classicizante é, nos termos do Cap. 3, condição de operabilidade, não acidente estético.
 
 No nível pré-iconográfico, a *Justiça* de Ceschiatti (1961; corpus item `9eecda17`) é
-uma figura de granito, sentada, de formas modernistas simplificadas, olhos cerrados, espada apoiada
-sobre os joelhos. O vetor é alto e homogêneo — apagamento narrativo 3, serialidade 3, inscrição
-estatal 3 — e a leitura de nível 3 anotada no corpus condensa a tese: "sentada (contida), cega
+uma figura monolítica de granito de Petrópolis, sentada, de formas modernistas simplificadas,
+**olhos vendados, seios expostos**, espada apoiada sobre os joelhos — conforme o inventário do IPHAN
+(p. 59), que contradiz a nota interna anterior segundo a qual os olhos estariam apenas cerrados e a
+espada apontaria verticalmente para baixo. Dois cuidados decorrem. Primeiro, o seio exposto da figura
+refuta, como condição necessária, a equação automática entre supressão da corporeidade e eficácia
+institucional: a autoridade oficial, aqui, *não* exigiu a remoção do corpo. Segundo, a data de 1961
+precede o golpe de 1964: um eventual uso militar posterior da imagem exige história própria, e a
+espada somada à localização judiciária não estabelece o regime da encomenda original. O vetor é alto
+e homogêneo — apagamento narrativo 3, serialidade 3, inscrição estatal 3 — e a leitura de nível 3
+anotada no corpus condensa a tese: "sentada (contida), cega
 (passiva), armada (violência delegada), silenciosa" (nota de codificação do item BR-009, citada verbatim). Cada atributo é uma subtração: a contenção
 subtrai o movimento, a venda subtrai o olhar, a delegação subtrai a agência, o silêncio subtrai a
 voz. O que resta é a forma — e a forma, no cânone que a produz, é a da deusa neoclássica transplantada
@@ -203,46 +214,77 @@ para o cerrado, exatamente o corpo impossível que o Cap. 3 analisou em Villares
 
 > **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.
 
-A "República sobre coluna" materializa-se no Monumento à República de Belém (1940; corpus items
+A "República sobre coluna" materializa-se no Monumento à República de Belém (corpus item
 `ae8876ff`): figura feminina no alto de uma
-coluna, elevada acima do espaço cívico. Não é só a
+coluna, elevada acima do espaço cívico. A datação corrigida importa: o registro da UFPA data a
+inauguração em 15 de novembro de 1897, após concurso de 1891, e nomeia Michele Sansebastiano como
+autor; a data de 1940, antes associada ao monumento, refere-se a fotografias, não à criação. Duas
+complicações documentais incidem sobre a leitura: a escrita da História e as inscrições do conjunto
+falam contra qualquer alegação de ausência narrativa, e a substituição documentada de um ramo de
+oliveira por uma espada é um caso produtivo de agência de encomenda — embora os motivos dos
+comitentes exijam registros adicionais. Não é só a
 figura que purifica; é o modo como ela é vista, elevada, recortada. A coluna faz, no eixo vertical, o
 que a serialidade faz no eixo da reprodução: afasta o corpo do alcance, converte-o em ponto de fuga.
 
 > **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.
 
-E, como em 7.1, o arco não termina em pedra intacta. A versão interna da *Justiça* de Ceschiatti,
-vandalizada durante os atos de 8 de janeiro de 2023 (corpus item `e0399402`, sem codificação
-quantitativa), entra como **contra-alegoria** involuntária: o gesto iconoclasta que, ao atacar a
+E, como em 7.1, o arco não termina em pedra intacta. A versão interna da *Justiça* de Ceschiatti —
+um bronze separado, de 1975, 70 × 60 × 40 cm, segundo o registro institucional do STF (corpus item
+`e0399402`, sem codificação
+quantitativa) — foi danificada durante os atos de 8 de janeiro de 2023. Aqui a disciplina de unidades
+é decisiva: a criação do bronze (1975), o ataque (2023) e a recuperação e restauração registradas na
+conta do STF de 24 de janeiro de 2023 são **eventos distintos**, e a condição do objeto em novembro
+de 2026 não está estabelecida por esse registro. Chamar o ataque de **contra-alegoria** é, portanto,
+uma *interpretação de um evento*, não a identidade intrínseca da escultura de 1975: o gesto
+iconoclasta que, ao atingir a
 figura, reencena publicamente o que a Purificação Clássica havia recalcado — que a serenidade da
 alegoria é uma produção, não um dado natural. A Justiça só parece imparcial enquanto ninguém lhe toca
-a face de bronze. A iconoclastia é, aqui, a prova negativa da tese.
+a face de bronze. A iconoclastia é, aqui, a prova negativa da tese — lida como evento datado, com
+status próprio.
 
 ## 7.5 — O Palais de Justice de Bruxelas
 
-> **Tese parcial.** O Palais de Justice de Poelaert é o teto empírico do corpus: o único item cujo
-> vetor tende ao máximo em todos os dez indicadores. Ele demonstra a forma-limite da Feminilidade de
-> Estado — a mulher literalmente convertida em arquitetura sustentante, beleza feminina como *face*
+> **Tese parcial.** O Palais de Justice de Poelaert é o caso arquitetônico-limite do corpus: o item
+> em que a Feminilidade de Estado se apresenta na forma mais literal — a mulher convertida em
+> arquitetura sustentante. Ele demonstra a forma-limite da Feminilidade de
+> Estado — beleza feminina como *face*
 > cultural do edifício, autoridade masculina como seu *núcleo* operativo. Onde a alegoria atinge a
-> pedra total, a mulher real desaparece por completo do interior.
+> pedra total, a mulher real tende a desaparecer do interior — tendência que o inventário oficial
+> qualifica, não confirma em absoluto: há alegorias femininas e pinturas também no interior, ao lado
+> dos retratos de juristas homens.
 
 O Palais de Justice de Poelaert (BE-002) exige comparação por dimensão, sem posição global de intensidade. A anotação de nível 3 é o
 coração do argumento da arquitetura forense: "beleza feminina = face cultural do edifício; autoridade
 masculina = núcleo operativo; as mulheres tornam-se colunas, e, no interior, todos os retratos são de
-juristas homens" (nota de codificação do item, citada verbatim [VERIFICAR: "todos os retratos" — universal não verificado]). É a formulação mais literal possível do Contrato Sexual Visual: a fachada exibe o
-rosto de mulher — cariátides, alegorias, virtudes — enquanto o interior mantém intacta a fraternidade
+juristas homens" (nota de codificação do item, citada verbatim). A segunda metade da fórmula, porém,
+não se sustenta: o inventário oficial do edifício inclui alegorias femininas e pinturas também no
+interior, ao lado dos retratos e bustos de juristas homens — "fora mulheres, dentro só homens" é
+factualmente insustentável como universal, e a leitura correta é de *proporção e posição*, não de
+ausência absoluta. Corrigida a premissa, o argumento permanece na formulação mais estrita do Contrato
+Sexual Visual: a fachada exibe o
+rosto de mulher — cariátides, alegorias, virtudes — enquanto o interior concentra a fraternidade
 masculina que Pateman [@pateman1993] descreveu no plano do contrato e que o Cap. 1 estendeu ao plano
 da imagem. A visiocracia de Goodrich [@goodrich2013b] encontra em Poelaert seu monumento: o Direito
 governando por massa, altura e pedra antes de governar por norma.
 
 > **[RECHECAGEM PENDENTE — 29/09/2026]** Comparações e trajetórias deste trecho são hipóteses qualitativas. A afirmação baseada em agregado foi retirada; justificar a leitura por atributos nomeados, indicadores separados, imagem, suporte e proveniência antes de tratá-la como resultado.
 
-Dois itens contíguos calibram a leitura. A *Allégorie de la Justice* de Stallaert no teto do próprio
-Palais (1885–1888; corpus item `8d68ddd2`) mostra que policromia (monocromatização 0) e
-unicidade (serialidade 0) *seguram* o endurecimento em patamar moderado mesmo dentro do edifício mais
-purificado do corpus: a pintura, por ser única e colorida, resiste à petrificação que a arquitetura
-consuma. E a moeda de *5 francs — 50 ans de Belgique* (1880; corpus item `47e90ddf`), com La Belgique
-segurando a Constituição, reconecta o caso belga ao Cap. 1: é a mesma cena constitucional de 1848 — a
+Dois itens contíguos calibravam, em versões anteriores deste capítulo, a leitura do Palais — e a recalibração documental os afeta de modos diferentes. A *Allégorie de la Justice* de Stallaert (K.1888.17.1; corpus item `8d68ddd2`) **não está no teto do Palais de Justice**:
+a tela
+pende sobre uma porta do gabinete do prefeito no Hôtel de Ville de Bruxelas. A imagem inspecionada
+mostra uma Justiça sentada, de olhos abertos, espada vertical, livro fechado e balança apoiada ao
+lado; as demais virtudes são medalhões separados, não figuras que a ladeiam na mesma composição. A
+localização falsa não pode sustentar uma comparação interna dentro do tribunal de Poelaert, e a leitura
+anterior — segundo a qual a policromia (monocromatização 0) e a unicidade (serialidade 0) *segurariam* o
+endurecimento em patamar moderado mesmo dentro do edifício mais
+purificado do corpus — perde seu suporte espacial e é retirada como calibração do
+Palais. O item permanece relevante por si, como pintura de Justiça em edifício municipal belga, e
+aguarda dossiê próprio. Já a emissão comemorativa de 1880 no módulo de 5 francs (*50 ans de
+Belgique*; corpus item `47e90ddf`) — cuja condição de moeda de curso legal ainda não está
+documentada, razão pela qual a tratamos como *emissão comemorativa do módulo de cinco francos* —
+mostra uma mulher de pé segurando a Constituição (inscrição CONSTITUTION BELGE), com o leão belga, a
+Coluna do Congresso e o próprio Palais de Justice. Ela
+reconecta o caso belga ao Cap. 1: é a mesma cena constitucional de 1848 — a
 nação feminina que *mostra* a lei — agora cunhada em prata para o cinquentenário. O registro ainda
 carrega `PENDING_REVIEW` e uma nota interna equivocada ("Belgian Congo coin"), mas a reconferência do
 título, resumo, URL e citação ABNT confirma que se trata do cinquentenário da Bélgica, não de moeda do
@@ -254,8 +296,8 @@ o que acontece quando essa serenidade vira edifício.
 > **Tese parcial.** Antes de ser atributo de tribunal, a balança foi argumento diplomático: nas
 > estampas do fim do século XVIII, o corpo feminino que sustenta a balança *é* a própria tese política
 > — a neutralidade encenada como corpo de mulher, mascarando interesse sob a aparência de equilíbrio. E,
-> coerente com o achado estadunidense de 7.3, o máximo de narrativa corresponde ao mínimo de
-> endurecimento: quando a alegoria argumenta, ela ainda não petrificou.
+> coerente com a hipótese estadunidense de 7.3, quanto mais a alegoria argumenta, menos ela parece
+> petrificada — relação aqui proposta como hipótese qualitativa, não como regularidade medida.
 
 *Die Wage der Macht / La balance de la puissance* (1780; corpus item `1ae7c4ae`) e
 *America pois'd in the balance of justice* (1776; corpus item `543550b1`) são estampas
@@ -266,10 +308,13 @@ crise política como drama doméstico entre figuras femininas, com os atores mas
 substituídos por procuradoras alegóricas* — a substituição do Cap. 1 levada ao limite: não há homem na
 imagem porque as mulheres alegóricas fazem, no palco visual, o que os homens decidem fora dele.
 
-O dado quantitativo fecha o argumento do capítulo. A nota de codificação de
-`543550b1` cristaliza a regularidade que atravessa 7.1, 7.3 e 7.6: *máximo de narrativa = mínimo de
-endurecimento*. É a lei empírica que a análise qualitativa oferece à quantitativa: a Purificação
-Clássica opera subtraindo narrativa. Endurecer é fazer calar. A alegoria plenamente purificada — a
+A leitura fecha o argumento do capítulo em registro qualitativo, não quantitativo. A nota de
+codificação de
+`543550b1` cristaliza a hipótese que atravessa 7.1, 7.3 e 7.6: *máximo de narrativa = mínimo de
+endurecimento*. Ela é aqui apresentada como hipótese de trabalho — não como lei empírica: emerge da
+leitura de casos paradigmáticos, não de teste sobre a amostra, e sua verificação pertence ao desenho
+quantitativo do Cap. 6. Enquanto hipótese, ela é fecunda: a Purificação
+Clássica operaria subtraindo narrativa. Endurecer seria fazer calar. A alegoria plenamente purificada — a
 Justiça de Ceschiatti, o Palais de Poelaert — não conta nada; ela apenas *é*, sentada, cega, muda,
 eterna. E é exatamente nesse silêncio produzido, e não em qualquer serenidade natural, que reside a
 eficácia jurídica da imagem.
