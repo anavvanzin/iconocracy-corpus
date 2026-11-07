@@ -73,7 +73,7 @@ O caso do *enquadramento arquitetônico* é análogo. Esculturas alemãs em edif
 
 ### 4.4 A tipologia dos regimes iconocráticos
 
-Os 10 indicadores não operam independentemente: eles se agrupam em perfis morfológicos característicos, que a tese denomina *regimes iconocráticos*. A tipologia foi construída por leitura densa de casos exemplares; o diagnóstico do instrumento revelou-se compatível com os três regimes propostos (Capítulo 6), sem confirmá-los como fato estatístico, e a análise qualitativa acrescentou um quarto.
+Os 10 indicadores não operam independentemente: eles se agrupam em perfis morfológicos característicos, que a tese denomina *regimes iconocráticos*. A tipologia foi construída por leitura densa de casos exemplares; o diagnóstico do instrumento revelou-se compatível com os três regimes propostos (Capítulo 6), sem confirmá-los como fato estatístico. A contra-alegoria não integra a tipologia como quarto regime: funciona como seu teste crítico — o grupo cuja existência obriga os três regimes a demonstrarem o que afirmam (ver *Contra-alegoria* abaixo).
 
 #### Regime FUNDACIONAL
 

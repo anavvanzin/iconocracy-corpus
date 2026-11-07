@@ -34,8 +34,8 @@ de dez indicadores de endurecimento apurado para o item no corpus.
 
 Cada seção abre com a sua **tese parcial** — uma proposição jurídico-visual falsificável, e não uma
 descrição —, porque o risco maior de um capítulo de casos não é o erro, mas o descritivismo: a
-sucessão de belas leituras sem argumento. As seções percorrem, deliberadamente, os quatro regimes
-iconocráticos: da alegoria fundacional que ainda respira (Marianne na barricada) ao teto normativo
+sucessão de belas leituras sem argumento. As seções percorrem, deliberadamente, os três regimes
+iconocráticos e o seu teste crítico: da alegoria fundacional que ainda respira (Marianne na barricada) ao teto normativo
 de pedra (o Palais de Justice de Bruxelas), do endurecimento militar (a Piastre, a Justiça de
 Ceschiatti) à contra-alegoria que devolve o corpo à figura (a Marianne mutilada de 2018).
 
