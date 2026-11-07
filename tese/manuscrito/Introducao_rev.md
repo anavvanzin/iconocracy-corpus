@@ -4,6 +4,13 @@
 
 ---
 
+<!-- REVISÃO P2 (2026-11-07): pergunta central, hipótese de trabalho e registro causal
+reformulados conforme docs/decisions/2026-11-07-proposta-reconstrucao-argumentativa.md.
+A contribuição deixa de depender da descoberta do paradoxo presença/exclusão e passa a
+depender da reconstrução de usos institucionais documentados. Pendentes: inserir as
+referências da matriz comparativa (proposta §5) e ajustar o enunciado do período aos
+dossiês que passarem pelo piloto (proposta §6). -->
+
 ### I.1 Contexto e território: o Direito como cultura visual e a centralidade da imagem na ordem jurídico-estatal moderna
 
 #### *O Direito como cultura: normas, rituais e imagens*
@@ -56,7 +63,7 @@ A cultura jurídica ocidental moderna fundamenta a sua legitimidade num paradoxo
 
 Ao mesmo tempo, as mulheres reais permaneceram sistematicamente excluídas da esfera cívica e política. A França revolucionária, que adotou Marianne como símbolo republicano em 1792, negou às mulheres o sufrágio até 1944. A Alemanha imperial, que multiplicou as representações de Germania, manteve as mulheres sob a tutela legal de seus maridos pelo BGB de 1900. A Grã-Bretanha vitoriana, que exportou Britannia por todo o império, privou as mulheres de personalidade jurídica plena pela doutrina da *coverture*. Os Estados Unidos, que erigiram a Estátua da Liberdade (1886), negaram às mulheres o voto federal até 1920. A República brasileira, que viu a figura feminina da República tornar-se o símbolo visual do novo regime a partir de 1889 [VERIFICAR: o Decreto n. 4/1889 estabelece bandeira, armas e selos-sinetes; a oficialização da figura é difusa e institucional, não atribuível ao decreto], excluiu as mulheres do sufrágio até 1932 (parcialmente) e 1946 (plenamente).
 
-O paradoxo está precisamente formulado: quanto maior a presença simbólica das mulheres na iconografia oficial, mais radical a exclusão cívica das mulheres reais. Essa correlação não é uma coincidência; é estrutural. Os movimentos sufragistas do final do século XIX e início do século XX foram confrontados precisamente com esse paradoxo: como reivindicar presença política quando as mulheres já são onipresentes alegoricamente? Como argumentar a exclusão quando o corpo feminino governa visualmente? O simulacro alegórico operava um curto-circuito: ocupava preventivamente um lugar simbólico, neutralizando a demanda por inclusão real. Falta à literatura, contudo, um modelo metodológico que conecte a crítica teórica do contrato social à análise sistemática e quantitativa da iconografia estatal, permitindo mensurar como essa estética universalista mascarou exclusões de gênero e raça.
+O paradoxo pode ser formulado assim: em vários dos casos reunidos nesta pesquisa, a presença simbólica da figura feminina na iconografia oficial intensifica-se no mesmo período em que a exclusão cívica das mulheres reais se mantém. Essa correlação, porém, não autoriza por si só uma leitura causal: contemporaneidade não demonstra que uma imagem tenha produzido, mascarado ou tornado imperceptível uma exclusão jurídica para um público histórico. Os movimentos sufragistas do final do século XIX e início do século XX foram confrontados precisamente com essa tensão: como reivindicar presença política quando as mulheres já são onipresentes alegoricamente? Como argumentar a exclusão quando o corpo feminino governa visualmente? A hipótese de que o simulacro alegórico tenha ocupado preventivamente um lugar simbólico, neutralizando a demanda por inclusão real, é uma leitura possível — e será tratada como hipótese a verificar nos dossiês, não como premissa. A contribuição desta pesquisa não depende de descobrir esse paradoxo, já amplamente discutido pela tradição de estudos sobre gênero e cultura visual; depende de reconstruir, caso a caso, as operações institucionais que transformaram imagens disponíveis em imagens de instituições, e de examinar em que medida essas operações se articularam — ou permaneceram sem vínculo demonstrável — à condição jurídica das mulheres.
 
 #### *Insuficiência das explicações existentes*
 
@@ -64,33 +71,33 @@ A literatura sobre alegorias femininas oferece interpretações diversas, nenhum
 
 Os estudos jurídico-feministas documentam a exclusão, de Carole Pateman sobre o contrato sexual (PATEMAN, 1993) a Joan Scott sobre os paradoxos da igualdade (SCOTT, 1996) e Martha Nussbaum sobre a objetificação (NUSSBAUM, 1995), mas não conectam sistematicamente a exclusão legal à hipervisibilidade alegórica. Os estudos de cultura visual, com Mitchell (MITCHELL, 1994) e Mirzoeff (MIRZOEFF, 1999), teorizam regimes escópicos, mas não examinam especificamente a articulação entre visualidade e a ordem jurídico-estatal. A história da arte política, com Peter Burke e Francis Haskell, cataloga iconografias sem interrogar as operações de gênero.
 
-Uma lacuna emerge: nenhuma pesquisa articula sistematicamente três dimensões: o regime iconocrático (imagens que fabricam poder), o gênero (o corpo feminino como tecnologia de governo) e o Direito (o acoplamento de visualidade e normatividade). Esta tese posiciona-se precisamente nessa interseção teórica negligenciada.
+O lugar desta tese define-se por interlocução precisa, não pela alegação de um vazio absoluto na literatura. Warner descreve a gramática visual das alegorias sem propor um mecanismo institucional; Landes, Hunt e Agulhon reconstróem casos nacionais sem comparação controlada; Pateman formula o contrato sexual sem examinar sua dimensão iconográfica; Goodrich e Mondzain teorizam a imagem do poder sem centrar o gênero da figura alegórica; Resnik e Curtis documentam a história da representação da Justiça sem vinculá-la sistematicamente à condição jurídica das mulheres; Braga, Carvalho e Lima Júnior examinam objetos brasileiros cuja relação com os casos aqui estudados a matriz comparativa deverá estabelecer [VERIFICAR: matriz comparativa pendente — proposta de reconstrução de 7 nov 2026, §5; a auditoria não estabeleceu que Braga e Lima Júnior analisam o mesmo objeto constitucional]. Esta tese posiciona-se na articulação entre essas contribuições — regime iconocrático, gênero e Direito examinados em conjunto sobre dossiês documentados —, e a originalidade deverá resultar do confronto efetivo com essa bibliografia, não de sua declaração antecipada.
 
 #### *A iconocracia como chave do problema*
 
-O conceito de iconocracia, inspirado em Marie-José Mondzain (2002), mas expandido para além do contexto bizantino, oferece uma chave analítica. Iconocracia designa um regime em que as imagens não apenas acompanham o poder; elas o fabricam ativamente. Não se trata de propaganda, que pressupõe um poder preexistente em busca de apoio, nem de ideologia, que pressupõe uma falsa consciência que encobre a realidade. A iconocracia opera por *precedência*: a imagem precede e engendra a realidade política que pretende representar.
+O conceito de iconocracia, inspirado em Marie-José Mondzain (2002), mas deslocado do contexto bizantino para a modernidade jurídico-estatal, oferece uma chave analítica. Iconocracia designa aqui uma hipótese de regime: a de que, em determinados dispositivos e períodos, as imagens não apenas acompanham o poder, mas participam ativamente de sua apresentação e legitimação. Não se trata de propaganda, que pressupõe um poder preexistente em busca de apoio, nem de ideologia, que pressupõe uma falsa consciência que encobre a realidade. A hipótese iconocrática postula uma operação por *precedência* — a imagem precedendo e engendrando efeitos da realidade política que pretende representar —, mas essa precedência é uma propriedade a demonstrar em cada dossiê, não um axioma do método.
 
-Três características definem o regime iconocrático moderno. A primeira é a produção de simulacros: imagens sem referentes que circulam autonomamente, fabricando efeitos de realidade. A feminilidade de Estado não representa mulheres concretas; constitui um simulacro puro que substitui a possibilidade de presença real. A segunda é a institucionalização de regimes escópicos, a organização dos modos de visualização por meio de suportes e espaços. O Estado gerencia ativamente onde, como e quando os cidadãos encontram alegorias: ubiquidade íntima (moedas, selos), verticalidade monumental (estátuas, tribunais) e teatralidade ritualística (cerimônias). A terceira é a distribuição de reconhecimento simbólico não recíproco: a alegoria oferece às mulheres o máximo de reconhecimento visual sem subjetivação política, operando uma dialética pervertida do reconhecimento.
+Três características orientam a observação do regime iconocrático moderno, cada uma a verificar empiricamente. A primeira é a produção de simulacros: imagens sem referentes biográficos que circulam autonomamente, fabricando efeitos de realidade; se e em que medida essa circulação substitui a possibilidade de presença política real das mulheres é precisamente o que os dossiês devem examinar. A segunda é a institucionalização de regimes escópicos, a organização dos modos de visualização por meio de suportes e espaços: ubiquidade íntima (moedas, selos), verticalidade monumental (estátuas, tribunais) e teatralidade ritualística (cerimônias). A terceira é a hipótese de uma distribuição de reconhecimento simbólico não recíproco: a possibilidade de que a alegoria ofereça às mulheres um máximo de reconhecimento visual sem subjetivação política — leitura que exige demonstração caso a caso, e não a mera constatação da presença da imagem.
 
-A iconocracia resolve o paradoxo: a hipervisibilidade alegórica não contradiz a exclusão cívica; ela a sustenta, a mascara e a naturaliza. A presença simbólica intensificada opera um assassinato simbólico: cada iteração alegórica performa ritualisticamente a impossibilidade das mulheres reais como sujeitos políticos. O regime iconocrático necessita de um corpo feminino purificado precisamente porque pode esvaziá-lo de agência, transformando-o em um invólucro universal para conceitos político-jurídicos.
+A hipótese iconocrática propõe uma leitura forte do paradoxo: a hipervisibilidade alegórica não contradiz a exclusão cívica, mas poderia sustentá-la, mascará-la e naturalizá-la — a iteração massiva da figura performando, a cada suporte, a impossibilidade das mulheres reais como sujeitos políticos. Essa leitura permanece hipótese: a tese admitirá casos em que a documentação a restrinja ou em que explicações concorrentes — convenção artística, circulação de modelos, representação de regime — se mostrem mais adequadas. A suposta necessidade do corpo feminino purificado — esvaziável de agência e, por isso, apto a servir de invólucro para conceitos político-jurídicos — integra essa hipótese como conjectura explicativa, não como premissa.
 
 ---
 
-### I.3 Hipótese e tese central: a iconocracia como produção de legitimidade sensível
+### I.3 Hipótese de trabalho: variação de função e o Contrato Sexual Visual como hipótese interpretativa
 
-#### *Hipótese geral*
+#### *Hipótese de trabalho*
 
-A hipótese que guia esta pesquisa sustenta que as alegorias femininas oficiais e reiteradas entre os séculos XIX e XX nos dispositivos estatais e jurídicos, moedas, selos, brasões, monumentos, arquitetura forense e paratextos normativos, constituem um **regime iconocrático** em que a imagem não apenas acompanha o poder, mas o fabrica sensivelmente. Essa fabricação opera pela produção da feminilidade de Estado como simulacro circulante; pela organização de regimes escópicos específicos por suporte e espaço; pela distribuição de reconhecimento simbólico sem reciprocidade política; e pela reativação intensa em contextos de crise. O mecanismo central é a **purificação do corpo alegórico**, esvaziamento de subjetividade, e a **repetição performativa**, iteração ritualística em múltiplas escalas, sustentando, naturalizando e mascarando a contradição estrutural entre a hiperpresença do feminino nas imagens e a exclusão cívica das mulheres.
+A hipótese a testar é que a personificação feminina **não desempenhou uma função jurídico-política uniforme**: seu emprego variou conforme o agente institucional, o suporte, a ocasião e as convenções disponíveis. Essa variação pode esclarecer como certas imagens apresentaram a autoridade como abstrata, duradoura, virtuosa ou protetora, sem que tais valores impliquem automaticamente reconhecimento político das mulheres. A proposição é deliberadamente condicional: em alguns casos, a documentação poderá sustentar a leitura de uma assimetria entre autoridade feminina figurada e agência jurídica feminina reconhecida; em outros, essa assimetria será contexto relevante, mas não explicação suficiente da imagem. Deve permanecer possível concluir que determinada imagem pouco acrescenta à hipótese.
 
-Postula-se, ademais, que esse mecanismo se intensifica em momentos de crise mediante o **endurecimento** militar e a purificação clássica do corpo, mantendo intacta a fraternidade masculina do Estado-nação sob um "rosto de mulher". As variações morfológicas das alegorias, exposição da carne, militarização, classicização, não são arbitrárias; respondem de modo sistemático às crises de soberania e às mudanças de regime político.
+Postula-se, ademais, como hipótese subordinada, que o **endurecimento** militar e a purificação clássica do corpo se intensificariam em momentos de crise. As variações morfológicas das alegorias — exposição da carne, militarização, classicização — serão comparadas como atributos independentes, admitindo coexistência, inversões e trajetórias divergentes, e não como marcos de uma narrativa de purificação crescente.
 
-#### *Tese central: o Contrato Sexual Visual*
+#### *O Contrato Sexual Visual como hipótese interpretativa*
 
-A tese central é formulada como **Contrato Sexual Visual**: uma configuração em que a presença simbólica fabricada opera como justificação para a ausência política concreta. A feminilidade de Estado elevada a guardiã alegórica da ordem justifica, por contraste deliberado, o confinamento das mulheres reais à esfera doméstica ou subordinada. O contrato não é mera contradição ou hipocrisia; é um mecanismo ideológico ativo. O simulacro controlado opera como prova visual de que a ordem política já conta com as mulheres em seu lugar adequado: idealizadas, purificadas, desprovidas de agência perturbadora.
+O **Contrato Sexual Visual** é avaliado nesta pesquisa como hipótese interpretativa delimitada: a de que, em determinados usos institucionais documentados, a presença simbólica fabricada da figura feminina pode ter operado como contrapartida da ausência política concreta das mulheres. O conceito conserva interesse na medida em que esclarecer relações documentadas entre figuração da autoridade e assimetrias de gênero; não deve funcionar como resposta prévia para qualquer figura feminina. O estudo admitirá resultados que restrinjam sua aplicação, assim como situações em que explicações alternativas sejam mais adequadas — a leitura de casos discordantes integra a construção do argumento.
 
 Essa formulação dialoga com Carole Pateman (PATEMAN, 1993), que demonstrou que o contrato social moderno pressupõe um contrato sexual anterior: a subordinação das mulheres como condição de possibilidade da fraternidade entre os homens. Esta tese estende o argumento de Pateman ao registro visual: o contrato sexual não opera apenas pela exclusão jurídico-política; é visualmente performado pela inclusão alegórica. A exclusão real é mascarada pela presença simbólica, dificultando a contestação. Como reivindicar que as mulheres estão ausentes quando o corpo feminino governa alegoricamente?
 
-O Contrato Sexual Visual opera em quatro modalidades integradas, **substituição** da presença real pela simbólica, **naturalização** pela repetição massiva em moedas, selos e monumentos, **sacralização** da figura feminina num plano ideal apartado da política mundana, e **pedagogia** da percepção desde a infância. O Capítulo 1 articula cada uma dessas modalidades em detalhe a partir da síntese de Pateman e Goodrich.
+Se a hipótese se sustentar, espera-se observar o Contrato Sexual Visual em modalidades como a **substituição** da presença real pela simbólica, a **naturalização** pela repetição massiva em moedas, selos e monumentos, a **sacralização** da figura feminina num plano ideal apartado da política mundana e a **pedagogia** da percepção desde a infância — cada uma a demonstrar nos dossiês, não a pressupor. O Capítulo 1 articula essas modalidades em detalhe a partir da síntese de Pateman e Goodrich.
 
 #### *Fundamentos teóricos*
 
@@ -108,17 +115,21 @@ O **terceiro eixo** é o método warburguiano de montagem e a teoria da sobreviv
 
 #### *Pergunta central e sub-perguntas*
 
-A pergunta central desta pesquisa é: como o regime iconocrático operacionaliza a alegoria feminina como uma extensão do "contrato sexual", oferecendo reconhecimento simbólico em substituição à reciprocidade política?
+A pergunta central desta pesquisa é: **como personificações femininas foram selecionadas, adaptadas e utilizadas na apresentação da autoridade jurídico-política em casos brasileiros entre 1822 e 1922, e o que a comparação desses usos permite compreender sobre as relações entre gênero, representação e legitimidade?**
 
-A partir dessa pergunta central, duas sub-perguntas estruturam o desenvolvimento empírico da investigação.
+Três sub-perguntas mantêm a investigação controlável.
 
-A **sub-pergunta 1** indaga: de que forma as variações morfológicas do corpo alegórico, exposição da carne, militarização, purificação clássica, reagem a crises de soberania e a mudanças de regime político? Essa dimensão investiga a sensibilidade temporal do regime iconocrático, testando a hipótese do **endurecimento** em contextos de guerra, revolução e instabilidade constitucional.
+A **sub-pergunta 1** indaga: que operações de encomenda, escolha, aprovação, instalação, reprodução ou circulação transformaram uma imagem disponível em imagem de uma instituição?
 
-A **sub-pergunta 2** interroga: como a transposição do cânone clássico europeu para o Brasil engendra um "contrato racial visual" que invisibiliza normatividades não hegemônicas? Essa dimensão desloca o Brasil de mero receptor de modelos europeus para um nó analítico que revela a "colonialidade do ver" nas instituições jurídicas, examinando como as especificidades da sociedade escravocrata e pós-colonial modulam o regime iconocrático.
+A **sub-pergunta 2** pergunta: que funções podem ser documentadas — ou sustentadas interpretativamente — para o gênero da figura, seus atributos, sua composição e seu suporte? Quais explicações concorrentes permanecem plausíveis? Sob esta sub-pergunta abrigam-se, como hipóteses internas, a sensibilidade do **endurecimento** a crises de soberania e a hipótese do **contrato racial visual** na transposição do cânone clássico europeu para o Brasil — nenhuma das duas pressupõe sua resposta.
+
+A **sub-pergunta 3** interroga: em quais casos existe relação documental com a condição jurídica das mulheres, e em quais há apenas contemporaneidade, analogia interpretativa ou ausência de evidência suficiente?
+
+O intervalo 1822–1922 permanece como quadro de investigação; se a documentação concentrar o argumento em um período menor, a formulação final assumirá essa concentração, sem prometer uma série contínua de um século quando os objetos documentados sustentarem episódios descontínuos.
 
 #### *Objetivo geral e objetivos específicos*
 
-O **objetivo geral** desta tese é analisar, mensurar e sintetizar comparativamente os mecanismos do regime iconocrático na cultura jurídica ocidental, demonstrando a vigência do contrato sexual e racial visual por meio de métodos mistos.
+O **objetivo geral** desta tese é reconstruir e comparar usos historicamente situados da personificação feminina na apresentação da autoridade jurídico-política, explicitar seus vínculos e desvínculos com contextos jurídicos determinados e avaliar, por meio de métodos mistos, o alcance das interpretações existentes — incluída a hipótese do contrato sexual e racial visual.
 
 São quatro os **objetivos específicos**.
 
@@ -152,7 +163,7 @@ A pesquisa justifica-se metodologicamente pelo desenvolvimento de um procediment
 
 A metodologia proposta opera três inovações principais. A primeira é uma ficha de codificação integrada que documenta simultaneamente características visuais (suporte material, escala, localização, atributos iconográficos, soluções formais) e contexto jurídico-político (legislação vigente sobre os direitos das mulheres, codificações em curso, eventos constitucionais, crises políticas). A articulação sistemática permite verificar correlações entre a intensificação alegórica e a exclusão jurídica.
 
-A segunda inovação é a análise de defasagem entre a temporalidade da produção visual e a temporalidade das mudanças normativas. A França adotou Marianne como símbolo oficial em 1792 [VERIFICAR: o caráter "oficial" data de fins do séc. XIX; a defasagem de 152 anos depende desse marco], mas as mulheres permaneceram excluídas do sufrágio até 1944, uma defasagem de 152 anos. A análise sistemática dessas defasagens nos casos nacionais revela um padrão estrutural: quanto maior a consolidação alegórica, maior a resistência à inclusão política.
+A segunda inovação é a análise de defasagem entre a temporalidade da produção visual e a temporalidade das mudanças normativas. A França adotou Marianne como símbolo oficial em 1792 [VERIFICAR: o caráter "oficial" data de fins do séc. XIX; a defasagem de 152 anos depende desse marco], mas as mulheres permaneceram excluídas do sufrágio até 1944, uma defasagem de 152 anos. A análise sistemática dessas defasagens nos casos nacionais permite formular uma hipótese de padrão — a de que à consolidação alegórica corresponderia resistência à inclusão política —, a ser verificada caso a caso, e não uma lei histórica.
 
 A terceira inovação é a comparação transnacional controlada. A seleção dos casos nacionais, França, Reino Unido, Alemanha, EUA, Bélgica e Brasil, permite identificar constantes estruturais, padrões recorrentes independentes do contexto nacional, e variações contextuais, especificidades correlacionadas com tradições jurídicas e regimes políticos distintos. A comparabilidade transcende os estudos de caso único, fornecendo base empírica para a generalização teórica sobre os regimes iconocráticos como infraestrutura comum do Estado moderno.
 
@@ -172,7 +183,7 @@ O campo de onde provém o corpus desta pesquisa inicia-se em 1800, incorporando 
 
 #### *Delimitação argumentativa: Brasil, 1822–1922*
 
-Sobre esse campo amplo, esta pesquisa adota um recorte: a genealogia da República-mulher no Brasil, de 1822 a 1922. A delimitação é **quadro de trabalho**, não fronteira consolidada — ela organiza a investigação e permanece exposta ao que o material mostrar. A distinção entre os dois estratos é deliberada e convém enunciá-la desde já, para evitar que se confundam. O campo delimita de onde provém a documentação e o que ela autoriza afirmar — disponibilidade, circulação e datação das alegorias. O recorte delimita o que a tese demonstra: o processo pelo qual uma figura feminina alegórica, que não referencia nenhuma mulher histórica concreta, tornou-se condição de reconhecimento da autoridade jurídico-política.
+Sobre esse campo amplo, esta pesquisa adota um recorte: a genealogia da República-mulher no Brasil, de 1822 a 1922. A delimitação é **quadro de trabalho**, não fronteira consolidada — ela organiza a investigação e permanece exposta ao que o material mostrar. A distinção entre os dois estratos é deliberada e convém enunciá-la desde já, para evitar que se confundam. O campo delimita de onde provém a documentação e o que ela autoriza afirmar — disponibilidade, circulação e datação das alegorias. O recorte delimita o que a tese examina: os processos pelos quais figuras femininas alegóricas, que não referenciam nenhuma mulher histórica concreta, foram mobilizadas na apresentação da autoridade jurídico-política — e em que condições, se alguma, essa mobilização pode ser dita constitutiva do reconhecimento dessa autoridade.
 
 O marco inicial corresponde à constituição do Estado nacional brasileiro. A partir de 1822, o país passa a produzir a sua própria linguagem visual de soberania, num repertório que se forma por transferência e adaptação de modelos europeus. A distribuição do material iconográfico não é uniforme ao longo do período, e a tese não o dissimula: a documentação concentra-se entre 1880 e 1920, e é na República, a partir de 1889, que a República-mulher se torna imagem corrente nos suportes de massa. O marco de 1822 delimita o processo; a densidade documental acompanha a consolidação do Estado republicano.
 
@@ -198,12 +209,13 @@ A pesquisa concentra-se em quatro suportes principais: moedas, selos postais, mo
 
 O banco de dados iconométrico, construído ao longo da pesquisa, codifica as imagens desses suportes segundo 10 indicadores ordinais de purificação, permitindo o panorama descritivo do corpus e o diagnóstico do instrumento que identificam os padrões aprofundados pela iconologia de casos.
 
-<!-- PENDÊNCIA ARQUITETURAL (registrada 2026-09-22, não resolvida): a §I.6 passou a
-declarar o recorte argumentativo Brasil 1822–1922, mas a §I.7 (estrutura) ainda
-descreve o Cap. 7 como seis estudos de caso e não diz ONDE a demonstração
-1822–1922 vive. Decidir se a série documental brasileira entra no Cap. 5 (Corpus)
-ou ganha capítulo próprio; enquanto isso, a arquitetura fica incompleta. Não
-resolver em silêncio. Ver docs/SERIE-DOCUMENTAL-BRASIL-1822-1922.md §8. -->
+<!-- PENDÊNCIA ARQUITETURAL (registrada 2026-09-22; atualizada 2026-11-07, ainda não
+resolvida): a proposta de reconstrução argumentativa
+(docs/decisions/2026-11-07-proposta-reconstrucao-argumentativa.md, §8) propõe uma
+estrutura por dossiês históricos + comparação/atlas, que deslocaria a série documental
+brasileira para o núcleo demonstrativo da tese. A decisão final — Cap. 5, capítulo
+próprio ou capítulo de dossiês — aguarda o piloto de dois dossiês e um contraste
+(proposta, §6). Não resolver em silêncio. Ver docs/SERIE-DOCUMENTAL-BRASIL-1822-1922.md §8. -->
 
 ---
 
