@@ -32,7 +32,7 @@ Descreve o que é *visível* sem interpretação: figuras (número, gênero, pos
 
 #### Nível 2 — Iconográfico (identificação convencional)
 
-Identifica o significado convencional: qual alegoria é representada (Marianne, Britannia, Germania, Columbia, La Belgique, A República, Justitia, Libertas), qual tradição iconográfica é citada (romana, revolucionária, neoclássica, Art Nouveau), qual *Pathosformel* é ativa (sentada/em pé, dinâmica/estática, armada/pacífica). Neste nível integra-se a codificação ICONCLASS (VAN DE WAAL, 1973–1985), com atenção especial ao código 48C51 — taxonomia interna do projeto para a personificação feminina em contexto político-jurídico [VERIFICAR: no sistema oficial Iconclass, 48C51 = 'painting'; códigos oficiais presentes no corpus: 44B62, 11M44].
+Identifica o significado convencional: qual alegoria é representada (Marianne, Britannia, Germania, Columbia, La Belgique, A República, Justitia, Libertas), qual tradição iconográfica é citada (romana, revolucionária, neoclássica, Art Nouveau), qual *Pathosformel* é ativa (sentada/em pé, dinâmica/estática, armada/pacífica). Neste nível integra-se a codificação ICONCLASS (VAN DE WAAL, 1973–1985). Nota de namespace, verificada na API oficial do Iconclass em 2026-06-26: **48C51 é um namespace interno do projeto** para a personificação feminina em contexto político-jurídico; no Iconclass oficial, a notação 48C51 corresponde a 'painting'. Os códigos oficiais pertinentes presentes no corpus são 44B62 e 11M44.
 
 #### Nível 3 — Iconológico (interpretação jurídico-política)
 
@@ -213,7 +213,7 @@ O corpus é mantido em regime de ciência aberta no repositório GitHub `anavvan
 
 O pipeline de codificação opera em duas etapas: o agente *WebScout* pesquisa e cataloga candidatos em acervos digitais, gerando notas de pesquisa com metadados e URLs; o agente *IconoCode* aplica o protocolo de três níveis, pontua os 10 indicadores, classifica o regime e produz o registro JSON. Os dados processados são exportados para `data/processed/corpus_dataset.csv`, que alimenta o notebook descritivo do corpus (Jupyter/Python); os notebooks exploratórios 02–08 estão congelados como artefatos de diagnóstico interno do instrumento (decisão registrada em 2026-09-22).
 
-As referências bibliográficas seguem a norma ABNT NBR 6023:2025. A codificação ICONCLASS utiliza os códigos do sistema de Van de Waal, com atenção especial ao código 48C51 — taxonomia interna do projeto para a personificação feminina em contexto político-jurídico [VERIFICAR: oficialmente 48C51 = 'painting'].
+As referências bibliográficas seguem a norma ABNT NBR 6023:2025. A codificação ICONCLASS utiliza os códigos do sistema de Van de Waal, com a ressalva de namespace verificada em 2026-06-26: 48C51 é namespace interno do projeto para a personificação feminina em contexto político-jurídico (no Iconclass oficial, 48C51 = 'painting'; códigos oficiais pertinentes no corpus: 44B62, 11M44).
 
 ---
 
