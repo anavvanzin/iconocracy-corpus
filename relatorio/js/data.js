@@ -3,7 +3,7 @@
 window.RPT = {
 
   stats: [
-    { num: 336, lbl: "Itens no corpus", drill: { title: "CORPUS", value: "336 itens · 1239–2021", sub: "Corpus codificado da tese ICONOCRACIA, abrangendo 17 países entre 1239 e 2021 — inclui as contra-alegorias feministas contemporâneas (2018–2021). A expansão incorpora virtudes, continentes, oceanos e rios como camadas genealógicas das alegorias nacionais.", source: "K29 · corpus-data-enriched.json · codificação até 2026-09-15, acesso 2026-09-28" } },
+    { num: 336, lbl: "Itens · consulta 28/09/2026", drill: { title: "CORPUS", value: "336 itens · instantâneo histórico", sub: "Instantâneo histórico usado pelo relatório: consulta registrada em 28/09/2026, codificação até 15/09/2026 (K29); não é a contagem atual do ledger. Corpus codificado da tese ICONOCRACIA, abrangendo 17 países entre 1239 e 2021 — inclui as contra-alegorias feministas contemporâneas (2018–2021). A expansão incorpora virtudes, continentes, oceanos e rios como camadas genealógicas das alegorias nacionais.", source: "K29 · corpus-data-enriched.json · codificação até 2026-09-15, acesso 2026-09-28" } },
     { num: 17, lbl: "Países", drill: { title: "CORPUS", value: "17 países", sub: "Recorte transnacional do corpus — o teste da regra de distribuição deve valer para os dezessete países.", source: "K29 · corpus-data-enriched.json (repo imagens, acesso 2026-09-28)" } },
     { num: 782, lbl: "Anos de recorte", drill: { title: "RECORTE", value: "1239–2021", sub: "782 anos entre o primeiro item (Justitia da Porta di Capua, 1239) e o último (intervenção feminista no Paseo de la Reforma, 2021). A estrutura do paradoxo já estava completa em Siena, 1338–39.", source: "K29 · corpus-data-enriched.json (repo imagens, acesso 2026-09-28)" } },
     { num: 3, lbl: "Famílias alegóricas", drill: { title: "GRAMÁTICA", value: "Virtudes · Continentes · Oceanos e rios", sub: "As três famílias são a gramática visual de que a iconocracia nacional moderna extrai vocabulários, posições e hierarquias.", source: "Dossiê §1 · K27" } },
@@ -108,7 +108,7 @@ window.RPT = {
     },
     triggers: [
       { t: "Teste transnacional nos 17 países do corpus" },
-      { t: "Codificação dos 336 itens por família e posição" },
+      { t: "Codificação dos 336 itens do instantâneo histórico (consulta registrada em 28/09/2026, K29) por família e posição" },
     ],
     falsification: "Se o corpus revelar potência-exercida sistematicamente feminina, a regra de distribuição cai.",
     plaque: "O paradoxo não é uma contradição a explicar; é a regra funcionando.",

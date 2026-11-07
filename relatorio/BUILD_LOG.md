@@ -37,3 +37,41 @@ Converter o dossiê "A gramática alegórica da iconocracia" em relatório inter
 - Atualizados: data.js (stats + gatilhos da balança), cover.js (legenda do atlas), chart-scale.js, index.html (âncora da capa, lede, §1, §4), "sete séculos"→"oito séculos".
 - Nova âncora **K29** (corpus codificado, fonte primária dos números); registro passa a K1–K29; drill-downs dos stats rastreiam K29.
 - Re-validado: QA dual-width 0 erros; bundle único sobre file:// 0 erros; spot-check drill 336→K29 OK.
+
+<a id="reconciliacao-2026-10-13"></a>
+## Reconciliação 2026-10-13 — 336 itens do relatório × 337 registros
+
+### Fontes e versões verificadas
+
+| Fonte | Versão | Entradas | Escopo |
+|---|---|---:|---|
+| `imagens/site/data/corpus-data-enriched.json` | [`6b6c409`](https://github.com/anavvanzin/imagens/commit/6b6c409320e3b59dd911cb871a185d6ea8701fc7), 22/09/2026 | 336 | Projeção enriquecida para consulta editorial |
+| Mesmo arquivo, após retirada de campo aposentado | [`eae4c3a`](https://github.com/anavvanzin/imagens/blob/eae4c3a0a524eca6f1c4863c2d6fc21959f9435b/site/data/corpus-data-enriched.json), 27/09/2026, 20:18 −03 | 336 | Mesmas identidades; versão histórica agora vinculada em K29 |
+| Mesmo arquivo, após sincronização Villares | [`ba0d25f`](https://github.com/anavvanzin/imagens/commit/ba0d25f91d4733a64c4d0f417c59e87ea9c0b52a), 27/09/2026, 20:46 −03 | 337 | Uma identidade adicionada; nenhuma removida |
+| `records.jsonl` e `corpus-data.json` | [`33132b3`](https://github.com/anavvanzin/iconocracy-corpus/commit/33132b3485629183d7378c674c67cd8136d53ce1), contado no README em 04/10/2026 | 337 | Ledger de itens e sua projeção pública; não são 337 observações de codificação |
+
+O commit `33132b3` é de 02/10; **04/10 é a data da contagem documentada**, não a data do commit. O ledger e as projeções consultadas nesta revisão também contêm 337 entradas. O corpus é aberto: esses números identificam versões, não um N definitivo.
+
+### Diferença identificada e limite da inferência
+
+A [PR #218](https://github.com/anavvanzin/iconocracy-corpus/pull/218), commit [`bd6fc53`](https://github.com/anavvanzin/iconocracy-corpus/commit/bd6fc534553b460a923728aca32666e0de2d2d00), de 22/09, acrescentou ao ledger o registro `dfe19295-505c-5df1-866e-e8bb695dbc5f`, **Décio Villares, Alegoria à Lei de 13 de Maio de 1888 (estudo)**. A comparação de `item_id` com o ledger anterior (`d5f8ad1`) mostra exatamente essa adição e nenhuma remoção. A comparação de `id` entre `eae4c3a` e `ba0d25f` no repo imagens mostra a mesma adição. A diferença de uma entrada é explicada por essa sincronização; não foi encontrado um filtro de inclusão que justificasse substituir automaticamente a amostra do relatório pelo ledger.
+
+**Ressalva da data:** a atualização acima registra consulta em 28/09 e codificação até 15/09, mas a projeção em `main` já tinha 337 entradas na noite de 27/09. Não se recuperou evidência da versão exata efetivamente lida durante o build. `eae4c3a` comprova a existência da projeção de 336, mas **não é apresentado como o commit comprovadamente consultado**. Preservamos o registro original da consulta e tornamos explícita essa limitação, em vez de retroativamente inventar uma correspondência entre data e versão.
+
+SHA-256 dos bytes de `site/data/corpus-data-enriched.json` recuperados por `git show`:
+
+- `6b6c409`: `4a643a3fe78baec91ef4cd2cc8e70f832aa685ef4c6c5303aa01e4062cdc4c25`
+- `eae4c3a`: `3ba8c273ef52c7a7ad4c3cef9e501503c248e4c8e66bde29d5f3176acc5048ef`
+- `ba0d25f`: `06536855aed6fea8c002f898a46d207f147627a993af22b5c3501174317df58f`
+
+A projeção de 336 já continha `BR-041`, com o mesmo título de Villares e URL institucional distinta. A adição do UUID conta como **mais um registro**, não comprova mais um objeto único. É uma possível sobreposição de identidade a revisar com proveniência; nenhum registro foi removido ou deduplicado nesta correção. A projeção enriquecida inclui campos e IDs editoriais, enquanto o ledger é autoridade por família de campos (ADR-006). Contagens de linhas, itens únicos e observações de codificação não são intercambiáveis.
+
+### Decisão e correções
+
+Preservar **336 como a contagem histórica usada pelo relatório**, junto das estatísticas e interpretações já compiladas, sem apresentá-la como o total atual. Atualizar essa amostra exigiria reconstrução e revisão do conjunto de estatísticas, não apenas trocar um numeral.
+
+- Data e status histórico explícitos na descrição Open Graph, âncora da capa, legenda do canvas, cartão estatístico e teste proposto da balança.
+- Nota visível junto às estatísticas distingue o ledger de 337, vincula sua versão e explica a ressalva de 28/09.
+- K29 vinculado ao arquivo histórico em `eae4c3a`, preservando as datas documentadas de consulta e codificação.
+- Regressões de conteúdo, legenda, navegação da fonte e leitura em mobile; incorporadas ao workflow do relatório.
+- Dados canônicos, projeções do corpus e o relato original do build preservados.

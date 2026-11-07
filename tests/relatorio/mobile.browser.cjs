@@ -47,6 +47,18 @@ test('complete report fits viewport before and after visiting every section', as
       assert.match(await page.title(), /gramática alegórica/);
       assert.ok(await page.locator('main h2').first().innerText());
       await pageFits(page, `initial ${width}`);
+      assert.match(await page.locator('.cover-anchor').innerText(), /histórico.*28\/09\/2026/i);
+      assert.match(await page.locator('#stat-row .stat').first().innerText(), /336.*28\/09\/2026/s);
+      const snapshot = page.locator('#corpus-snapshot');
+      await snapshot.scrollIntoViewIfNeeded();
+      assert.match(await snapshot.innerText(), /337 registros/);
+      await boxFits(snapshot, page, `snapshot note ${width}`);
+      await page.locator('#stat-row .stat').first().click();
+      const detail = page.locator('#drill-card');
+      await detail.waitFor({state:'visible'});
+      assert.match(await detail.locator('.d-sub').innerText(), /28\/09\/2026/);
+      await boxFits(detail, page, `snapshot detail ${width}`);
+      await page.keyboard.press('Escape');
       for (const section of await page.locator('main section, .colophon').all()) {
         await section.evaluate(el => el.scrollIntoView());
         await pageFits(page, `${width} ${await section.getAttribute('id') || 'footer'}`);
@@ -119,6 +131,7 @@ test('cover navigation reaches sources without horizontal scroll', async () => {
     await page.getByRole('button', {name:'Fontes', exact:true}).click();
     await page.waitForFunction(() => Math.abs(document.querySelector('#sec-sources').getBoundingClientRect().top) < 2);
     const link = page.locator('#source-list a').last();
+    assert.match(await link.getAttribute('href'), /eae4c3a0a524eca6f1c4863c2d6fc21959f9435b/);
     await link.focus();
     assert.equal(await link.evaluate(el => el === document.activeElement), true);
     await boxFits(link, page, 'source link');
