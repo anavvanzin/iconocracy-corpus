@@ -62,6 +62,7 @@ python tools/scripts/build_hf_release.py
 
 ## Guardrails
 
+- Atribuições territoriais, políticas e institucionais seguem o [critério transversal de 2026-10-29](docs/methodology/atribuicao-territorial-politica-institucional.md), da seleção à revisão. Explicitar a relação e o alcance da fonte: autoria, produção, guarda, tema, encomenda, jurisdição, circulação e recepção não se substituem. `place_hint`/`country`/prefixo de ID não provam nacionalidade do objeto nem pertinência ao núcleo Brasil 1822–1922. Lacuna limita a afirmação, sem excluir o item do catálogo ou provar ausência histórica; preservar o legado e registrar propostas de revisão por ID.
 - `tese/manuscrito/*_original` is read-only; work on `*_rev` copies
 - `data/raw/` is metadata-only in git (ADR-001); binaries on Google Drive
 - Never edit `corpus/corpus-data.json` directly — use Python scripts

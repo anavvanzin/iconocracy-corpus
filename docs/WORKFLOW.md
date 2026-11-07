@@ -2,11 +2,34 @@
 
 Workflow curto para tocar a tese sem perder tempo com drift de estrutura, Git ou release.
 
+## Critério metodológico transversal — vínculos do objeto
+
+Aplicar o [critério de atribuição territorial, política e institucional, v1.0](methodology/atribuicao-territorial-politica-institucional.md)
+em toda frente da tese, inclusive artigos. Cada associação usada deve ter
+relação precisa, fonte e alcance declarados, com data/jurisdição quando
+pertinentes. Autoria, produção, guarda, tema, encomenda, circulação e recepção
+não se substituem nem produzem nacionalidade única do objeto. Verificar as
+dimensões pertinentes à afirmação, sem exigir ficha integralmente preenchida.
+
+| Momento | Controle a realizar |
+|---|---|
+| Seleção/busca | Tratar país de campanha, tema e acervo como pistas; justificar a relação com Brasil e a cronologia de cada caso usado no núcleo 1822–1922. |
+| Catalogação | Qualificar os vínculos documentados nos claims e ledger existentes; preservar valor legado, incerteza e fonte. `gap` permite entrada/permanência no catálogo. |
+| Análise/montagem | Separar registro documental, filologia conceitual e hipótese iconológica; demonstrar o fundamento da comparação e de eventual transferência. |
+| Redação/revisão | Conferir se cada formulação nacional, política ou institucional diz apenas o que sua evidência autoriza; hipótese qualificada permanece hipótese. |
+| Exportação/apresentação | Explicitar a semântica de país e as ambiguidades; filtros e derivados não comprovam nacionalidade nem pertencimento ao núcleo. |
+
+Na revisão semanal, manter [fila não destrutiva de auditoria](research/auditoria-atribuicoes-territoriais-2026-10-29.md)
+por ID, formulação/valor legado, fundamento, lacuna, correção proposta e
+estado/decisão. Priorizar itens usados na escrita. Falta de fonte não prova
+ausência histórica; autoria estrangeira não exclui vínculo brasileiro
+documentado. Não reclassificar, excluir ou renomear objetos automaticamente.
+
 ## Regra-mestra
 
-- Trabalhe no hub canônico: `/Users/ana/Research/hub/iconocracy-corpus`
-- Use os paths em `/Users/ana/Research/...` como mapa do workspace
-- Considere `records.jsonl` a fonte operacional, `corpus-data.json` o export público e `vault/` o espelho de trabalho
+- Trabalhe em checkout identificado de `anavvanzin/iconocracy-corpus`, conferindo raiz, remote, HEAD e alterações locais antes de editar; use branch isolado para a revisão.
+- Confirme o caminho local com `git rev-parse --show-toplevel`. Os antigos paths `/Users/ana/Research/...` são referências de outra máquina.
+- Considere `records.jsonl` a fonte de identidade/evidência/claims e `purification.jsonl` a fonte de observações/proveniência de codificação (ADR-006); `corpus-data.json` é export público e `vault/` é espelho de trabalho.
 - Não trate Hugging Face como working copy
 - Não trate o vault como fonte primária de verdade
 
@@ -15,7 +38,7 @@ Workflow curto para tocar a tese sem perder tempo com drift de estrutura, Git ou
 1. Entrar no ambiente e checar o estado do repo
 
 ```bash
-cd /Users/ana/Research/hub/iconocracy-corpus
+cd /caminho/confirmado/iconocracy-corpus
 conda activate iconocracy
 git status --short
 ```
@@ -52,7 +75,7 @@ python tools/scripts/code_purification.py --status
 1. Reconciliação de estrutura
 
 ```bash
-find /Users/ana/Research/hub/iconocracy-corpus -mindepth 2 -maxdepth 2 -name .git
+find . -mindepth 2 -maxdepth 2 -name .git
 ```
 
 Objetivo: garantir que não reapareceu repo aninhado dentro do hub.
