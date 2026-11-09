@@ -245,3 +245,8 @@ vault/gallant-maxwell/
 *.db-shm
 *.db-wal
 *.db-journal
+
+# Ponteiros do Google Drive (stubs sem conteúdo)
+*.gdoc
+*.gsheet
+*.gslides
