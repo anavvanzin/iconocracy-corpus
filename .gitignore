@@ -240,3 +240,13 @@ deploy/iconocracia-studio/
 tools/claude-scientific-writer/
 vault/2026-Q2-Seminario-AD/algoritmo-em-disputa/
 vault/gallant-maxwell/
+
+# SQLite sidecars
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Ponteiros do Google Drive (stubs sem conteúdo)
+*.gdoc
+*.gsheet
+*.gslides
